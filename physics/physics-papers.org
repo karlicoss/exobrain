@@ -1,0 +1,60 @@
+# Created 2020-03-07 Sat 17:52
+#+TITLE: 
+#+filetags: physics,paper
+* DONE /L/Dropbox/TODO/TOREAD/Deutch Quantum theory as universal physical theory.pdf :read:quantum:
+
+** 
+
+When the quantum system has aninfinite number of degrees of freedom
+(i.e., in field theory) the operators ~bg may have to be distributions (see
+Gel'fand and Shilov, 1968), the Hilbert space ~ may have to be "rigged"
+(Bohm, 1980), the action may have to be renormalized, and so forth. We
+shall avoid all these issues by assuming not merely that the world has a
+finite number of degrees of freedom, but that its state space is finite
+dimensional. 
+
+** page 7, kinematically independent subsystems
+
+sufficient condition is that the Hamiltonian H is a sum of H_1 + H_2, confined to the subsystems
+
+*** weaker condition, 'dynamical independence' , necessary and sufficient to ensure that a kinematically independent state remains so:
+
+(H - (H1 + H2)) psi = 0 for some H1 and H2
+errr ????? wtf H1 and H2 are confined to subsystems?
+Stated in words, kinematically independent subsystems are also dynamically independent if the state is an eigenstate of the Hamiltonian modulo terms confined to the subsystems.
+
+** so, state is constant, and only changed during measurements?? collapse interpretation
+
+    One widespread solution to this problem involves a fundamental change
+    in the quantum formalism presented in Section 2. The idea is that the state
+    10), which according to the formalism of Section 2 never changes, is in fact
+    subject to an intermittent, discontinuous motion. At certain instants ti, at
+    which measurements are said to have been "completed," 10) changes into
+    a randomly chosen simultaneous eigenstate of the observable being
+    measured and the observable doing the measuring. The probability of the
+    eigenstate lal, t~; a2, t~) being chosen is
+    I(O~-,la,, t~; a2, t~)l 2
+    where we have denoted by 10i) the state of the world between the ith and
+    ( i + 1)th completion of a measurement.
+no complete formulation has been achieved; difficult to find a criterion for specifying the instants at which measurement is complete
+
+** TODO but MW is not without its own problems namely the problem of prefered basis and the problem of probability.
+
+read that http://plato.stanford.edu/entries/qm-manyworlds/ 
+
+** Everet formalism
+*** x
+
+Instead, he proposes that the system and
+apparatus observables are in general multivalued, possessing all the eigen-
+values whose eigenstates appear in the representation (27). 
+
+*** x
+
+It gives a picture of a world (i.e., everything that exists) consisting of many
+coexisting universes (i.e., maximal sets observables with values) evolving
+approximately independently on large scales, but in intimate interaction,
+through interference effects, on small scales.
+eh?
+
+** Right; I guess I have to read more on many world problematic. Maybe I shouldn't care at all and study something more practical like visualizing, simulations and solving?

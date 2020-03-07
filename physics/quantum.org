@@ -1,0 +1,19 @@
+# Created 2020-03-07 Sat 17:52
+#+TITLE: 
+#+filetags: quantum:physics
+
+* [2018-08-25] copenhagen interpretation is not time symmetric, we lose quantum information when wavefunction shrinks :quantum:interpretation:
+
+* [2017-06-03] pilot wave theory                    :iterpretation:
+
+The other thing you should know is that Copenhagen is not any longer widely accepted amongst people who actually work on interpretations of QM or in foundational physics in general, it's just accepted outside the community as something that most people have at least some knowledge of.
+Now, what's the problem with Copenhagen. The biggest one is the so-called measurement problem, that there is an ill-defined delineation between a system and its observer, or between "quantum" and "classical". There's may others though, e.g. that randomness is postulated rather than a result of the theory.
+
+
+Pilot wave theory: the pilot wave, particle follows it. Bohm trajectory.
+If we could determine position and velocity, we would be able to predict trajectory exactly.
+
+Incompatible with relativity, non-local.
+
+global hidden variables pilot wave?
+pilot wave theory is both physical and deterministic

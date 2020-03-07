@@ -1,0 +1,10 @@
+# Created 2020-03-07 Sat 17:52
+#+TITLE: 
+#+filetags: pip
+
+* install only dependencies for setup.py
+pip3 install --user -e .
+
+* install multiple packages at once
+ok, apparently pip does use some sort of 'set compiling', so worth doing that
+  https://github.com/pypa/pip/issues/988

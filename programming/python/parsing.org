@@ -1,0 +1,4 @@
+# Created 2020-03-07 Sat 17:52
+#+TITLE: 
+* Construct: kinda like struct but better? https://construct.readthedocs.io/en/latest/
+* Pyrser: grammars? https://pythonhosted.org/pyrser/

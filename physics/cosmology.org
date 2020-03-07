@@ -1,0 +1,18 @@
+# Created 2020-03-07 Sat 17:52
+#+TITLE: 
+* cosmology FAQ
+http://cosmo.labrate.ru/cosmology_faq.html
+
+* measuring distances in universe
+http://cosmo.labrate.ru/distance.htm
+
+
+* Olber's paradox: split universe in shells, consider shell at dist X each shell at dist 2X has 4x as many stars, and 1/4 bright, so total brightness is infinite
+https://en.wikipedia.org/wiki/Olbers'_paradox
+
+
+* What happens to microscopic black hole?
+** https://ru-scifi.livejournal.com/422702.html
+** https://ru-scifi.livejournal.com/424541.html -- what if it's charged
+** https://ru-scifi.livejournal.com/427770.html -- ocsillating black hole in the middle of the Earth
+** https://ru-scifi.livejournal.com/427978.html -- heating up a planet with Hawking radiation

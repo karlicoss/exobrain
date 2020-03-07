@@ -1,0 +1,40 @@
+# Created 2020-03-07 Sat 17:52
+#+TITLE: 
+* TODO asyncio
+
+* logging
+** simple
+import logging
+logging.basicConfig(level=logging.INFO) # apparently callin basicconfig at least one is important
+logging.exception('Caught an error' + str(e))
+
+** coloredlogs
+coloredlogs has no global setting, it only detects whether you're connected to tty
+use_colors = kw.get('isatty', None)
+
+** or, logzero?
+** TODO library logging?
+
+* json
+** json.dump(jobj, stdout, indent=4, sort_keys=True, ensure_ascii=False)
+
+* testing
+** nose is abandoned
+** pytest is the best apparently
+It uses the built in, simple, assert check, no need to know self.assertEquals and all the variants, just plug in some boolean value.
+assert 1 == 1, 'This is my error message, which is optional'
+Fixtures: These aren't the setup/teardown fixtures (per-se), but more like dependency injection (and are incredibly useful). You can even inject a fixture into a fixture (say you need to log in a user, but you need an HTTP client for it to work, you probably use that client elsewhere so DRY it up):
+@pytest.fixture def logged_in_user(): # complicated user login logic return my_user
+def test_user_can_access_resource(logged_in_user): # Do stuff with the logged in user!
+Markers: Easy way to categorize tests (and coincidentally run only those groups)
+@pytest.mark.slow def test_slow_running_thing(): time.sleep(500) # Woah, you probably don't want to run that for every check in...
+Parallel execution via a plugin, xdist. I saw insane speed improvements, figure that! The reporter can collect all independent tests in one report (say you use jenkins and need a junit style xml).
+Parametrization. This is just saying "rerun this same test, each as a unique test report, with different inputs", it's awesome because my testing philosophy is usually "Zero, One, and Many" (expanding to include edge cases as they come up). Want a quick 7 tests written (see the output below for how that is done):
+
+*** TODO ???
+
+https://www.reddit.com/r/Python/comments/6s4a4p/played_with_pytest_for_the_first_time_today_uhh/
+
+Use pytest
+see example in twidump
+setup.cfg, setup_requires, etc..

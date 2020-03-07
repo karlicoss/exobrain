@@ -1,0 +1,192 @@
+# Created 2020-03-07 Sat 17:52
+#+TITLE: 
+Geodesics: takes vectors that are tangent to themselves and keeps them tangent while they are parallel transported
+
+/L/Dropbox/study/general-relativity
+
+
+* TODO resource recommendations
+https://physics.stackexchange.com/questions/363/books-for-general-relativity
+
+* TODO baez tutorial
+http://math.ucr.edu/home/baez/gr/gr.html
+
+** http://math.ucr.edu/home/baez/einstein/node3.html
+We promised to state Einstein's equation in plain English, but have not done so yet. Here it is
+   Given a small ball of freely falling test particles initially at rest with respect to each other, the rate at which it begins to shrink is proportional to its volume times: the energy density at the center of the ball, plus the pressure in the $x$ direction at that point, plus the pressure in the $y$ direction, plus the pressure in the $z$ direction.
+
+huh!   
+** http://math.ucr.edu/home/baez/einstein/node6a.html newthon's law derivation -- go through
+
+* START [2014-07-15]  sean carroll lecture notes on general relativity
+many people recommend it (e.g. on Reddit)
+http://www.preposterousuniverse.com/grnotes/
+
+** parallel transport depends on path. actually that's why relative velocity doesn't make sense.
+** equation of paralllel transport. in a sense, it's a IVP
+parallel propagator
+ok, we get geodesic equatiion from the parellel transport equation
+
+* START /L/Dropbox/study/general-relativity/ANN [Carroll][2014] Spacetime and Geometry. An Introduction to General Relativity.pdf
+
+
+** p.6 synchronised clocks: from point a to b and back to a, then t_b = (t_a + t_a') / 2
+natural generalisation of cartesian coordinates in space
+if we construct coordinates that way, it's called inertial frame
+
+
+
+** p.8 coordinates are superscripts, metric tensor is subscripts
+
+** p.9 timelike particles is travelling slower than light
+proper time is ds (where -ds^2 < 0)
+** p.11 nonstraight path has a shorter proper time
+
+interval -- integral of sqrt(n_uv d^u/dlam d^v/dlam dlam)
+
+** p. 13 Lorentz transformations, lorentz group
+boost - rotations between space and time
+Poincare group
+
+
+spacetime transformations: axes are orthogonal in the lorenzian sense
+
+** p.15 once the space is curved, we can't move vectors freely anymore. tangent space T_p
+
+** p. 19
+T_p -- contravariant vectors
+T^*_p -- covariant vectors
+
+gradient -- dual vector
+levi-civita symbol: eps_uvpo = +1/-1/0 -- if even/odd permutation/otherwise
+
+
+** p.24
+metric, inverse metric, kronecker delta and the levi-civita symbol -- their components are unchanged in _any_ inertial coordinate frame in flat spacetime (and these are the _only_ tensors with suck property)
+kronecker -- identity map from vectors to vectors, so should have same components regardless
+*** hmm, must have something to do with determinant? https://physics.stackexchange.com/a/281185/40624
+  if we are referring to the same Levi-Civita symbol, i.e. the completely antisymmetric symbol, then this is not a tensor. It is a tensor density of weight −1, which means that under a general coordinate transformation it gets multiplied by the inverse Jacobian of the transformation. 
+hmm
+
+*** magnetic and electric fields -- are only vectors under rotations in space. in facet -- components of EM (0, 2) tensor
+
+** p. 30 -- covariant form of equations means tensorial -- has nothing to do with 'covariant' as oppposed to 'contravariant'
+
+** p 31 -- the fact that spacetime is flat allows a unique choice of straight line between the points
+timelike particles -- useful to parameterise them by proper time (sometimes you can experess tau(lambda) and then transform to x(tau)). 4-velocity is the tangent vector in this parameterisation
+4-velocity is always normalised -- makes sense since it's velocity through spacetime
+
+** p 32
+mass is a fixed quantity independent of inertial frame, 'rest mass'
+hmmm, unclear...
+wiki says that by definition the invariant mass is ratio of 4-momentum to 4-velocity
+  The invariant mass, rest mass, intrinsic mass, proper mass, or in the case of bound systems simply mass, is the portion of the total mass of an object or system of objects that is independent of the overall motion of the system. 
+that actually makes more sense
+*** eq 1.106 -- wonder if it's the 'type directed' inference that guy mentioned
+** p 33
+energy-momentum tensor -- flux of momentum p^u throught a surface of constant x^v
+** p 34
+derivation of energy-momentum tensor for dust
+
+** TODO ok, do exercises, p. 45
+
+
+
+
+* START some pdf at work.. calculating levi-civita symbols for cylinder
+
+* START play with metric tensor a bit
+
+** DONE suppose metric is dS = x^2 dx + dy^2.  What does that mean?
+first, analyse the dS. The further away we are from origin, the longer is line element.
+TODO what does that mean? 
+TODO dS = d(x^2/2) + dy^2 -- wonder if that transformation is useful?
+
+- So, our metric tensor is Diag[x^2, 1]?
+  TODO is the metric being positive definite important? -- ok, if it's not, that's non Riemannian geometry, apparently some crazy shit.
+
+Geodesic equation: https://en.wikipedia.org/wiki/Solving_the_geodesic_equations#The_geodesic_equation
+TODO t is arbitrary parameter?
+d^2 x^a/dt^2 + G^a_bc dx^b/dt dx^c/dt = 0
+so we need Christoffel symbols. for diagonal metric, we can cheat https://math.stackexchange.com/a/799027/15108
+ since g_xx = x^2 and g_yy = 1, we can see only G^i_ii are non zero and G_xx = 1/x, G_yy = 0.
+hence, substituting into the equation above, get system
+ d^2 x/dt^2 + 1/x (dx/dt)^2 = 0
+ d^2 y/dt^2 = 0 
+https://www.wolframalpha.com/input/?i=d%5E2y%2Fdt%5E2+%3D+0,+d%5E2x%2Fdt%5E2+%2B+1%2Fx+(dx%2Fdt)%5E2+%3D+0
+so,
+y = yt + C -- right, that means geodesic in flat space got constant velocity and direction. makes sense
+
+x = A sqrt(B + 2 t)
+
+Solve the IVP next. Assume x0 = 0, y0 =0; we get
+  y = y'_0 t (duh)
+  x = x'_0 sqrt(2 t)
+
+Right, so what all of that means? 
+In a sense, it's just moving slower through X axis in comparison to as if it was moving in 'normal' metric?
+but basically, it's just a coordinate transformation right?
+I guess the difference is: we have figured out via experiment that our world has got 'uniform' coordinates.
+in the world with the metric above:
+wait... we haven't introduced time there. so doesn't make much sense to reason about it.
+ok suppose we do introduce time. assuming they dependency of parameter on time is linear (is it??), then suggest the following experiment:
+  Alice: goes for 1 minute in one direction, then turns back and walks for one minute.
+  Bob: goes for 1 minute in the orthogonal direction, then turns back and walks for one minute.
+hmm, how do they measure distance? ah doesn't even matter, what matters is that they don't meet at the same point?
+oh.. wait
+ah it's fine. one observer travels 1 minute up, 1 minute right, 1 minute down, 1 minute left. nope.. wouldn't work.
+so it is undetectable after all??
+this is actually quite similar to universe expansion?
+ok, so take two observers. one is at 0, another is at 100.
+right... so curves don't have intrinsic curvature! therefore, curvature is undetectable by the inhabitants of that world
+** ok, let's do something more funny... suppose dS = y^2dx^2 + x^2dy^2
+metric tensor   
+Diag [y^2, x^2]
+christoffel symbols
+G^i_ii = 0
+G^i_ji = delta_j ln sqrt(x^j^2)
+G^x_yx = delta_y ln sqrt y^2 = 1/y -- ok, same for the other one, G^y_xy = 1/x
+G^x_yy = -1/2 1/g_xx delta_x g_yy = -1/2 1/y^2 d(x^2) = -x/y^2. Same for G^y_xx = -y/x^2
+right... so what?, substitute!
+x''^2  = (-x/y^2 y'^2 + 1/y x' y') = 0, symmetric for y
+
+yikes! https://wolframalpha.com/input/?i=solve+x%27%27+%2B+(-x%2Fy%5E2+y%27%5E2)+%2B1%2Fy+x%27+y%27+%3D+0,+y%27%27+%2B+(-y%2Fx%5E2+x%27%5E2)++%2B+1%2Fx+x%27+y%27+%3D+0
+
+** ok, another attempt... ds = dr^2 + r^2 dq^2
+Diag[1, R^2]
+christoffel: 
+G^R_qq = -R
+G^q_Rq = 1/R
+https://www.wolframalpha.com/input/?i=solve+x%27%27+-+x+y%27%27+%3D+0,+y%27%27+%2B+1%2Fx+x%27+y%27++%3D+0
+ugh... pretty bad too.
+huh it's actually in Caroll lecture notes, page 60
+
+** leftovers during me doing the exercise
+in general its too hard to do geodesics in full generality. sooften we justchoose a path and see if its a geodesic! and a natural one to choose is a pathdefined by only one of the parameters - its called a parameter curve
+
+http://astro.dur.ac.uk/~done/gr/l6.pdf
+ex5.pdf in downloads -- direct solution
+
+https://en.wikipedia.org/wiki/Deriving_the_Schwarzschild_solution -- might be useful
+https://en.wikipedia.org/wiki/Schwarzschild_metric#Alternative_coordinates
+https://en.wikipedia.org/wiki/Line_element
+line element is g(dq, dq)
+right, so I'm gonna need spherical or cylindrical geometry
+The easiest way to find the metric of the 2-sphere (or the sphere in any dimen-sion) is to picture it as embedded in one higher dimension of Euclidean space,then restrict to constant radius -- hmm..
+
+
+So Christoffel symbols are like the metric - they do tell us about curvature(what we are interested in) but they also tell us about what coordinate systemwe have chosen (which isn’t at all fundamental). 
+
+* TODO physicspages stuff -- it's actually very decent!
+http://www.physicspages.com/Index%20-%20Relativity.html
+** TODO 2D exponential metric http://physicspages.com/pdf/Moore/Moore%20Problems%2008.06.pdf
+** TODO geodesics on a sphere http://www.physicspages.com/Index%20-%20Relativity.html
+
+
+* [Takeuchi][2010] An Illustrated Guide to Relativity
+- Your Bookmark on Page 43 | Added on Sunday, August 4, 2013 12:00:22 AM
+  illustration how a unit cell in c-t space shifts to a parallelogram, not very interesting
+- Your Bookmark on Page 96 | Added on Sunday, August 4, 2013 12:15:55 AM
+  same...
+- Your Bookmark on page 110 | Added on Sunday, September 27, 2015 4:13:18 PM
+  addition of velocities? not interesting...

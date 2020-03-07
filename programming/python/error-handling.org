@@ -1,0 +1,22 @@
+# Created 2020-03-07 Sat 17:52
+#+TITLE: 
+* examples of temporary timeouts                             :errors:network:
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='api.zoopla.co.uk', port=80): Read timed out. (read timeout=5)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.zoopla.co.uk', port=80): Max retries exceeded with url: /api/v1/property_listings.json?page_size=100&page_number=1&listing_status=rent&include_sold=1&include_rented=1&order_by=age&ordering=descending&postcode=SW1&api_key=v8j7apw29phx8yjbf5n7det6 (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7f581d72eb70>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
+socket.timeout: _ssl.c:817: The handshake operation timed out
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+
+** START backoff library, using it somewhere already
+
+using it in vkdump
+backoff_network_errors in kython
+   I guess we could backoff indefinitely; and rely on global timeout if necessary
+*** DONE check if kron has global timeout
+
+
+
+* network errors should be non-fatal, since they generally CAN be gracefully handled :errors:
+** TODO [2019-10-19] add to post?                     :blog:kerror:

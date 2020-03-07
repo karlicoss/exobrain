@@ -1,0 +1,34 @@
+# Created 2020-03-07 Sat 17:52
+#+TITLE: 
+#+filetags: physics
+* TODO rename to physics-misc??
+
+* [2018-07-31] https://en.wikipedia.org/wiki/Ostrogradsky_instability -- explanation why differential equations of orders higher than two do not appear in physics :physics:meta:diffeq:
+* [2018-08-25] In classical mechanics, the state of a system is determined by a point in phase space :lagrangian:
+It's unique! In the same way as quantum state is unique
+
+* [2018-08-23] Zee's book is a bit hard to read.. lots of jumping around and notation abuse... :physics:qft:
+* TODO Why do we not have spin greater than 2? - Physics Stack Exchange :spin:
+https://physics.stackexchange.com/questions/14932/why-do-we-not-have-spin-greater-than-2
+
+* TODO Tweet from John Carlos Baez (@johncarlosbaez), at Sep 3, 07:27 :complex:
+The role of complex numbers is easy to see in the quantum description of a photon, but it's already lurking in the classical Maxwell equations.   The space of solutions of the vacuum Maxwell equations is a *complex* Hilbert space!   
+
+To learn more, try https://t.co/QDyXXFEBbN
+
+https://twitter.com/johncarlosbaez/status/1036455724996382721
+
+* TODO [2018-11-14] A soft introduction to physics for mathematicians who don't know the first thing about physics - MathOverflow :math:physics:connection:
+https://mathoverflow.net/questions/51395/a-soft-introduction-to-physics-for-mathematicians-who-dont-know-the-first-thing/51411#51411
+** [2019-01-10] shit, that's intense..
+Another question: Why in general relativity E=mc2?
+Math Answer: Because the group of Poincaré has no cohomology
+
+* [2019-01-07] classical mechanics - What if the Euler Lagrange equation yields a 'trivial' answer - Mathematics Stack Exchange :lagrangian:
+https://math.stackexchange.com/questions/191935/what-if-the-euler-lagrange-equation-yields-a-trivial-answer
+example lagrangian independent of path, all paths are stationary
+
+* [2014-07-15] principles
+** Locality: action in a point depends only on field or its derivatives at that point
+** Lorentz invariance: action is a scalar
+** Gauge invariance

@@ -1,0 +1,33 @@
+# Created 2020-03-07 Sat 17:52
+#+TITLE: 
+* CANCEL xonsh
+xonsh http://xon.sh/tutorial.html
+*** importing local modules
+import sys
+sys.path.insert(0, '')
+*** no way of using source as in bash?
+*** DIR = os.path.dirname(os.path.abspath(sys.argv[0])) # TODO move it to python preamble?
+
+
+* CANCEL plumbum
+http://plumbum.readthedocs.io/en/latest/
+
+* http://pymotw.com/2/cmd/
+* https://pypi.python.org/pypi/termcolor
+* https://pypi.python.org/pypi/sh
+* CANCEL ln command : named args!
+* conky?
+http://www.jperla.com/blog/post/a-clean-python-shell-script
+
+* eh?
+from pprint import pprint
+
+from pathlib import Path
+cwd = Path('.') # make Path iterable? 
+cwf.iterdir() # iterator, convert to dir
+path = cwd.join('file.png')
+path.suffix # .png
+path.stem # file
+
+
+from filecmp import cmp
