@@ -1,0 +1,12 @@
+# Created 2020-03-07 Sat 17:00
+#+TITLE: Intro
+Exobrain, or "second brain", or "brain dump" is something like public wiki where you can keep your notes, ideas and thoughts.
+Other people can search in your exobrain without having to physically interact with you.
+
+* Examples of exobrains
+- [[https://wiki.nikitavoloboev.xyz]['Everything I know']] wiki by Nikita Voloboev
+- [[https://wiki.xxiivv.com/site/about.html][xxiivv]] by Devine Lu Linvega
+- [[https://philosopher.life/#h0p3][h0p3's Wiki]]
+- [[https://braindump.jethro.dev][Braindump]] by Jethro Kuan
+- [[https://samsquire.github.io/ideas]['One Hundred Ideas for Computing']] repository by Sam Squire
+- [[https://wiki.nikitavoloboev.xyz/other/wiki-workflow#similar-wikis-i-liked][more wiki examples]] from Nikita Voloboev

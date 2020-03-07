@@ -1,0 +1,21 @@
+# Created 2020-03-07 Sat 17:00
+#+TITLE: Reading
+
+* how I am scoring books on goodreads                       :reading:scoring:
+At some point I found myself scoring books as 5/5 very often and at worst as 3/5, which is not very meaningful.
+To fight score inflation, I've decided to put some conscious effort and put the criteria I want to use in words.
+
+- 1: Absolutely awful and useless. Couldn't stand reading and quit.
+- 2: Meh. Maybe even finished it, but nothing interesting or special. Very unlikely to recommend to other people.
+- 3: It's ok, maybe not great but at least somewhat interesting. With nonfiction probably means that the book is not bad, but it failed expectations than it's set and I didn't learn anything new. Might recommend to someone.
+- 4: Really enjoyed and memorable/useful/insightful. Might be niche but would recommend to some people. Maybe one aspect is very special: e.g. plot or insights or language.
+- 5: One of the best I ever read. would recommend to almost anyone. In case of nonfiction, everyone else at least somewhat interested in subject.
+
+Frankly, marking on a linear scale seems like a massive oversimplification, e.g. fiction/popular science/textbooks have different purposes and not very comparable on a uniform scale.
+Personally I'm not really looking at average book scores, I'm rather interested at what my friends or people who tend to like similar things think, so that's why I figured it's useful to share this.
+
+Another problem is information loss: when you look at your score few years later you might not remember why did you had given the book a specific score.
+Ideally I think books scoring should be some sort of yes-no questionnaire. Kinda like what Foursquare does when you are prompted about a place you've been to: you don't get to give it a numeric score, instead your are asked questions like "Is this place cozy?", "Is this good for groups?", "Is it loud?", "Does it have parking", etc.
+
+
+** TODO figure out similar scale for movies? Because of more genres might be even more difficult.
