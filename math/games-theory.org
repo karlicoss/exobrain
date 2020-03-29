@@ -1,0 +1,54 @@
+#+TITLE: Games theory
+#+filetags: gamestheory
+
+
+* [2016-07-30] [[http://mathworld.wolfram.com/ConwayGame.html][Conway games]]
+
+1. L, R : sets of games, then G = <L, R> is a game
+2. DGC: no infinite sequence of games G^i = <L^i, R^i> with G^(i+1) \in L^i \cup R^i for all i \in N
+
+L and R are left and right options of G.
+
+G = {L_1, L_2, ... L_n | R_1, R_2 ... R_m }
+
+0  = ({} , {})  = {|}
+1  = ({0}, {}}  = {0|}
+-1 = ({} , {0}) = {|0}
+- = ({0}, {0}) = {0|0}
+n = {n - 1|}
+1/2 = {0|1}
+
+Conway induction: ICGN. 0 satisfies automatically.
+Proof: infinite sequence of games not satisfying the property, contradiciton.
+
+Conway induction implies DGC
+
+Finitely many positions: short
+
+Same moves: impartial game
+
+
+Abelian group:
+
+1. 0 = {|}
+2. G + H = {(G^L + H) \cup (G + H^L | (G^R + H) \cup (G + H^R)}
+3. -G = {-G^R | -G^L}
+
+The set of all Conway games forms a partial order with respect to the comparison operations:
+
+1. G=H. If the second player to move in the game G-H can win (G and H are equal).
+2. G||H. If the first player to move in the game G-H can win (G and H are fuzzy).
+3. G>H. If Left can win the game G-H whether he plays first or not (G is greater than H).
+4. G<H. If Right can win the game G-H whether he plays first or not (G is less than H).
+
+
+        A basic theorem shows that all games may be put in a canonical form, which allows an easy test for equality. The canon
+ical form depends on two types of simplification:
+
+1. Removal of a dominated option: if G={{L_1,L_2,...}|G^R} and L_2>=L_1, then G={{L_2,...}|G^R}; and if G={G^L|{R_1,R_
+2,...}} and R_1>=R_2, then  G={G^L|{R_2,...}}.
+1. Replacement of reversible moves: if G={{{A^L|{A^(R_1),A^(R_2),...}},G^(L_2),...}|G^R}, and A^(R_1)<=G, then G={{{A^
+(R_1^L)},G^(L_2),...}|G^R}.
+
+       G is said to be in canonical form if it has no dominated options or reversible moves. If G and H are both in canonical
+form, they both have the same sets of left and right options and so are equal.

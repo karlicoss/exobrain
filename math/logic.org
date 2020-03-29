@@ -1,0 +1,20 @@
+#+TITLE: Mathematical logic
+#+filetags: logic
+
+* [2017-11-30] Continuum hypothesis
+
+Godel: proved that ZFC + CH is consistnent
+Cohen: proved that ZFC + ~CH is consistnent (actually, any intermediate number of infinities)
+* [2015-08-26] depenedent sum
+Sum    (a : A) (B(A)) = {(a, b) | a \in A, b \in B(a)}
+Exists (a : A) (B(A)) = || Sum a B ||
+
+
+* Self-reference elimination: use indices
+
+x^1 \in y^2
+
+y^2 \in x^1: forbidden!
+x^1 \in x^2: forbidden!
+
+System NF?

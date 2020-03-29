@@ -3,10 +3,10 @@
 
 * Cases
 ** General
-*** a system of marking dependent nouns for the type of relationship they bear to their heads
-*** A role that one of these languages marks by case will often be marked in English using a preposition.
-*** Languages having cases often exhibit free word order, because thematic roles are not required to be marked by position in the sentence
-*** case is a morphological category
+- a system of marking dependent nouns for the type of relationship they bear to their heads
+- A role that one of these languages marks by case will often be marked in English using a preposition.
+- Languages having cases often exhibit free word order, because thematic roles are not required to be marked by position in the sentence
+- case is a morphological category
 
 ** Nominative
 subject pronoun

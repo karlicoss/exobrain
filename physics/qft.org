@@ -1,0 +1,129 @@
+#+TITLE: Quantum field theory
+#+filetags: qft
+
+* START [2019-02-22] Tong qft book                           :tong:
+- State "START"      from              TS!!
+
+index notation:
+
+lover index: covariant, upper index: contravariant 
+
+
+∂f,ᵤ ≡ ∂ᵤf ≡ ∂f/∂xᵘ
+
+gradient: ∇fᵤ ≡ ∂f/∂xᵤ  – ok, makes sense...
+gradient is covariant
+
+field EL equation:
+  ∂ᵤ ( ∂L/∂(∂ᵤϕ) ) - ∂L/∂ϕ = 0
+
+free lagrangian: L = 1/2 ∂ᵤϕ ∂ᵘϕ     - 1/2 m² ϕ² 
+	     or, L = 1/2 ηᵤᵥ ∂ᵤϕ ∂ᵥϕ - 1/2 m² ϕ² 
+
+
+∂L/∂ϕ = - m²ϕ
+the other term: equal to ∂ᵘϕ hmm. if you treat ∂ᵤϕ as formal expression, that makes sense. there is nothing more to it, right? since it's a partial derivative with respect to expression.
+wait, no, that doesn't explain the vanishing 1/2 term
+** [2019-02-23] shit. ok, I guess I sort of figured that out
+express L = 1/2 (∂ϕ/∂t)² - 1/2 ( (∂ϕ/∂x)² + (∂ϕ/∂y)² + (∂ϕ/∂z)²) - 1/2 m ϕ²
+∂L/∂(∂ᵤ ϕ) is actually a [co??]vector of (∂L/∂(∂ₜϕ), ∂L/∂(∂ₓϕ), ∂L/∂(∂_y ϕ), ∂L/∂(∂_z ϕ)), where ALL PARTIAL DERIVATIVES ARE KINDA LIKE INDEPEDENT SYMBOLS
+
+soo, if we calculate each of them, we get (∂ₜ, -∂ₓ, -∂_y, -∂_z), which is ∂ᵘ ϕ
+
+to calculate it the 'proper', tensor way:
+
+TODO ??? now use ∂xᵢ/∂xⱼ = xᵢ,ⱼ = δᵢⱼ
+
+∂L/∂(∂ᵤϕ) = (ignoring term with mass, which is although, actually an inner product, so nevertheless sort of interesting)
+(note that L is a scalar!)
+1/2 ∂(ηᵢⱼ ∂ᵢϕ ∂ⱼϕ)/∂ (∂ᵤϕ) = (chain rule, and use the fact that metric is constant for each index)
+			   = 1/2 ηᵢⱼ ( ∂∂ᵢϕ/∂∂ᵤ ∂ⱼϕ +  ∂ᵢϕ ∂∂ⱼϕ/∂∂ᵤ ϕ)
+     https://physics.stackexchange.com/a/3006/40624         
+     use that ∂∂ᵢφ/∂∂ⱼφ = δʲᵢ
+			   = 1/2 ηᵢⱼ (δᵘᵢ ∂ⱼϕ + ∂ᵢϕ δᵘⱼ )
+     this thing with delta works exactly as raising and picking the component?
+			   = 1/2 δᵘᵢ ∂ⁱϕ + 1/2 δᵘⱼ ∂ʲϕ = 1/2 ∂ᵘϕ + 1/2 ∂ᵘϕ = ∂ᵘϕ 
+
+
+dunno, I did it kinda formally. how to figure that shit out quickly in general? probably no easier way especially considering that metric tensor is not constant in general.
+
+
+
+http://www.continuummechanics.org/tensornotationadvanced.html
+this helped a bit
+https://www.physicsforums.com/threads/applying-euler-lagrange-to-real-klein-gordon-lagrangian.901389/
+https://www.physicsforums.com/threads/klein-gordon-lagrangian.684071/
+https://physics.stackexchange.com/questions/418382/derivation-of-klein-gordon-equation-in-general-relativity
+https://physics.stackexchange.com/questions/340009/derivatives-in-euler-lagrange-for-fields
+
+*** TODO [2019-02-23] this still doesn't explain how to swap variation and partial derivatives properly.... I have to figure that out..
+*** TODO [2019-02-23] what's the lesson I learnt here? not sure. I still haven't found decent justifications to that crap.
+*** [2019-02-24] ok, I skimmed it. the book is actually really good, I hightlighted some stuff and should read it again...
+
+* :kleingordon:
+** [2019-02-24] ok, so Klein-Gordon equation is for spin 0, such as Higgs, or pions
+** [2019-01-25] Is it true that the Schrödinger equation only applies to spin-1/2 particles? - Physics Stack Exchange
+https://physics.stackexchange.com/questions/129667/is-it-true-that-the-schr%C3%B6dinger-equation-only-applies-to-spin-1-2-particles/129744
+Selection:
+Well, this should not surprise us, since the Schrodinger equation is the nonrelativistic limit to the Klein-Gordon equation. And we should recall the Klein-Gordon equation describes spin-0 bosons!
+
+The nonrelativistic limit c→∞c→∞ should not affect the spin of the particles involved. (That's why the Pauli model is the nonrelativistic limit of the Dirac equation!)
+
+** [2019-02-15] (11) Deriving The Klein Gordon Equation (Relativistic Quantum) - YouTube :quantum:
+https://www.youtube.com/watch?v=bPlP9EkGixk
+Comment:
+so apparently we can get klein-gordon if we replace energy and momentum with quantum operator in einsteins identity
+** [2019-02-15] (11) Deriving The Klein Gordon Equation (Relativistic Quantum) - YouTube :grasp:
+https://www.youtube.com/watch?v=bPlP9EkGixk
+Comment:
+covariant has got overloaded meaning. covariant vector -- lower index; covariant thing -- transforms according to symmetry group
+** [2019-02-26] [[https://reddit.com/r/Physics/comments/1gmvsm/the_kleingordon_equation_doesnt_seem_to_be/calt16r/][The Klein-Gordon equation doesn't seem to be complete. How can I use it for a general-purpose simulation?]] /r/Physics :kleingordon:
+The Klein Gordon equation does not describe a quantum mechanical wavefunction. It describes a classical relativistic free field. To get quantum mechanical behavior out of this, you need to quantize this theory, moving to the world of quantum field theory.
+
+That's a physics answer... In terms of how this fits into your game it would depend on what you're trying to do. But the bottom line is that QFT was essentially created to describe quantum mechanical effects in a relativistic setting.
+** [2019-02-26] [[https://reddit.com/r/AskPhysics/comments/5ozon8/why_does_the_kleingordon_equation_describe_bosons/dcnb5q1/][Why does the Klein-Gordon equation describe bosons with spin equal to zero?]] /r/AskPhysics :kleingordon:
+>Why can it still describe particles?
+
+It can still describe particles if you give up the notion that the wavefunction represents a probability density. Instead, what you called the wavefunction should be promoted to a field operator in a second-quantized field theory. 
+
+>Why does it specifically describe bosons with spin 0, where does it say in the equation that particles with spin 0 use the KG-equation?
+
+Because it's a scalar field. This implies that it's got no angular momentum.
+
+For instance in the Dirac equation, the field operators are bi-spinors, meaning that you've got electrons and positrons both with spin-1/2.
+
+For the photon field, the field operator is a vector (the vector potential), so the photon has spin-1.
+
+It's all about how the field transforms under rotations. That tells you how many units of angular momentum the particles have.
+
+>What is the physically reason why spin 1/2 have Dirac equation and Klein gordon equation spin 0?
+
+This sort of ties in with the above.
+
+If you haven't already, I'd suggest reading the last chapter of Sakurai. He goes into details about relativistic QM and shows the pitfalls that push you towards actual field theories.
+** [2019-01-23] [[https://reddit.com/r/math/comments/3653k6/where_can_i_go_to_learn_more_about_spinors/cratl5r/][Where can I go to learn more about spinors?]] /r/math :spinors:kleingordon:
+The mathematics behind spinors is pretty daunting. I think it's a realization of Clifford algebras (I could be mistaken; it's been some time since I've really been a physicist). You can learn about where they come from without the mathematical overhead. In quantum, spin is usually presented as some ad hoc property of particles. The way it came about was noting from experiment that basic particles like electrons had quantities which behaved a lot like *orbital* angular momentum without actually being bound to another particle! The orbital angular momentum operators were well understood and they can be abstractly viewed (via certain commutation relations).
+
+If wavefunctions were just scalars, they couldn't possibly relate to the commutation relations they were seeing from orbital angular momentum so the next best thing is vectors. Well with this idea, the simplest (non scalar) vector is a two dimensional vector. Representing the algebra of spin operators on C^2 ended up giving the Pauli matrices and the theory gave results similar to that in experiment. This however is pretty unsatisfactory since it's very ad hoc. The theory didn't tell you which particles had spin, which didn't and it didn't really explain where it came from. 
+
+Parallel to the development of regular quantum mechanics was the development of relativistic quantum mechanics. (Yes they were developed nearly at the same time and in fact Schrodinger envisioned relativistic quantum mechanics before his eponymous equation.) From Einstein's energy momentum relation E^2 = p^2 c^2 + m^2 c^4 came the Klein Gordon equation by replacing E with - i\*d/dt and p with i\*grad, neglecting factors of hbar. This looks pretty close to the usual wave equation for an electromagnetic wave, but with a mass term (which changes everything!).
+
+The Klein Gordon equation had some serious issues with it. Even though it seemed to be a reasonable relativistic equation which actually reduces to the Schrodinger equation in a certain limit, it didn't preserve probabilities. Particularly the integral of psi\* psi over all space changed from one time to another, which is really bad! This breaks one of the foundational aspects of the Copenhagen interpretation: the integral of psi\* psi over all space is always 1 since we expect to find the particle *somewhere*. 
+
+Dirac pinpointed where the issue was. If you consider the Schrodinger equation, the time derivative is a first order derivative. In the Klein Gordon equation, it's a second derivative with respect to time. I think he was able to prove/argue that this is actually where the problems come in. (These issues with the Klein Gordon equation were fixed later, ironically by Dirac's sea of particles idea: the negative probabilities were actually because the particle turned into an anti particle.) So.. What he set out to do was to eliminate one of the time derivatives but there isn't a super obvious way of doing that.
+
+What he realized is that if you *factor* the equation into a product of two operators, you could in effect eliminate one of the time derivatives. The only way to do this is to have the operators actually be matrix valued (particularly they're 4 by 4 matrices or higher) and if the operators are matrices, then they must act on vectors.. So the solutions to his equation were vector valued wavefunctions! This is actually where spinors come from. 
+
+There is one problem though. In the original quantum theory, they were two dimensional vectors. Dirac gave four dimensional vectors. What you find (after some relatively tedious analysis) is that in the non relativistic limit, two of the components are really small compared to the other two and their effects aren't really measured in a normal laboratory setting. 
+
+For a self contained treatment of this, I *highly* recommend Griffiths' particle physics book. The Dirac equation is in chapter 7 if I recall correctly. I feel that the basics of relativistic quantum mechanics are very beautiful and are as close to an axiomatic (and painless) theory in physics as you're going to get.
+** [2019-02-24] How To Solve The Klein-Gordon Equation For The Hydrogen Atom - YouTube :grasp:
+https://www.youtube.com/watch?v=9_3uQdF-tEs
+Comment:
+klein gordon solution for hydrogen
+** [2019-02-24] Klein-Gordon equation in nLab               :grasp:
+https://ncatlab.org/nlab/show/Klein-Gordon+equation#FundamentalSolutions
+Selection:
+where □g \Box_g denotes the wave operator on (X,g) (X,g) 
+** [2019-03-25] Klein Gordon simulation 1 - YouTube            :gr:
+https://www.youtube.com/watch?v=DcbhHZugm8E

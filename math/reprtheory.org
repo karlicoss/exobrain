@@ -1,0 +1,399 @@
+#+TITLE: Representation theory
+#+filetags: :reprtheory:
+
+* Definitions & theorems
+
+GL(V) -- group of linear maps of V (automorphisms, isomorphisms from group to itself)
+p is representation
+sometimes V is called a representation (if there is little ambiguity about the map onto it)
+
+gv = def =  p(g)(v) -- group action
+
+G-linear map -- map between representations V -> W, s.t g . phi and phi . g commute for all g
+
+** subrepresentation W -- vector subspace of V invariant under G.
+** trivial subrepr -- V and {0}.
+** irreducible -- no nontrival subrepr
+** group center -- elements that are commuting with every other element
+** inner automorphism -- conjugation with group element f_a(g) = a g a^-1
+** Schur's lemma - only useful for complex reprs (relies on eigenvalue existence)
+** commutative G -- all irrep are one dimensional
+
+* U(1)
+** U(1) -- rotations e^i theta
+** all irrep of U(1) are unitary; pi_k : exp(i theta) -> exp(i k theta), k in Z.
+the sqlf adjoint operator is multiplication by k. 
+integral k comes because of periodicity of unit circle, if it was R, it would be different
+
+
+
+* START [2018-09-05] Woit book is quite elaborate. Ugh, it's all very hard :(
+** DONE [2019-01-20]  SU 2 (chapter 3)
+ok, still unclear what is spin 0. it shouldn't change under coordinate transformations right, but what is it from the representation theory point of view??
+*** TODO some annotations                                             :polar:
+** START [2019-01-20] chapter 5. .. skipped it for now
+** Spin(3) = Sp(1), unitary quaternions
+and Sp(1) = SU(2)
+SO(3) is kinda like S^3 but with opposite points of the sphere identified
+** START [2019-01-23]  chapter 10.2.1
+important point -- schrodinger equation
+i h d/dt |psi> = H |psi>
+(U(t), \H) is a representation of R in state space
+
+* SU(2)
+** START Representation theory of SU(2) - Wikipedia
+https://en.m.wikipedia.org/wiki/Representation_theory_of_SU(2)
+*** right, so reprs of SU 2 are actually found by considering su(2) reprs? similar to what woit was doing, yep. explains choice of pauli matrices as well
+
+** SU(n) -- n dim matrices with det equal to 1
+*** SU(2) = ((a, -b*), (b*, a)); norm(a)^2 + norm(b)^2 = 1
+**** a, b -- complex hense a_1^2 + a)2^2 + b_1^2 + b_2^2 = 1, so 3-sphere
+**** isomorphic to unit quaternions
+
+** SU(2). for C^2 self adjoint operators are always expressed in terms of Pauli matrices
+directions of spin -- one direction for each of the Pauli matrices
+observables give rise to representations
+exp(i theta Pauli_j) = (cos theta) 1 + i Pauli_j (sin theta)
+as theta goes from 0 to 2pi, exp traces a circle in the space of unitary 2x2 matrices, subgroup
+only for Pauli_3 it's diagonal. ugh, don't understand anything
+
+
+** TODO Symmetry in quantum mechanics - Wikipedia
+*** [2018-09-06]
+The spin vector operator is denoted S ^ = ( S x ^ , S y ^ , S z ^ ) {\displaystyle {\widehat {\mathbf {S} }}=({\widehat {S_{x}}},{\widehat {S_{y}}},{\widehat {S_{z}}})} {\widehat {\mathbf {S} }}=({\widehat {S_{x}}},{\widehat {S_{y}}},{\widehat {S_{z}}}). The eigenvalues of its components are the possible outcomes (in units of ℏ {\displaystyle \hbar } \hbar ) of a measurement of the spin projected onto one of the basis directions.
+*** [2018-09-06]
+Rotations (of ordinary space) about an axis a ^ {\displaystyle {\hat {\mathbf {a} }}} {\hat {\mathbf {a} }} through angle θ about the unit vector a ^ {\displaystyle {\hat {a}}} {\hat {a}} in space acting on a multicomponent wave function (spinor) at a point in space is represented by: 
+*** [2018-09-06]
+In relativistic quantum mechanics, wavefunctions are no longer single-component scalar fields, but now 2(2s + 1) component spinor fields, where s is the spin of the particle. The transformations of these functions in spacetime are given below. 
+*** TODO [2019-01-23] Representation of a Lie group - Wikipedia :lie:
+https://en.wikipedia.org/wiki/Representation_of_a_Lie_group#An_example:_The_rotation_group_SO.283.29
+Selection:
+ne subtlety of this analysis is that the representations of the group and the Lie algebra are not in one-to-one correspondence, a point that is critical in understanding the distinction between integer spin and half-integer spin.
+
+
+
+** TODO Spinors
+from wiki:
+*** [2019-02-07] Spinors, on the other hand, are constructed in such a way that makes them sensitive to how the gradual rotation of the coordinates arrived there: they exhibit path-dependence. It turns out that, for any final configuration of the coordinates, there are actually two ("topologically") inequivalent gradual (continuous) rotations of the coordinate system that result in this same configuration. This ambiguity is called the homotopy class of the gradual rotation
+*** [2019-02-07] This group acts by conjugation on the real vector space spanned by the Pauli matrices themselves,[nb 12] realizing it as a group of rotations among them,[nb 13] but it also acts on the column vectors (that is, the spinors).
+*** [2019-02-07] onetheless, the concept is generally considered notoriously difficult to understand, as illustrated by Michael Atiyah's statement that is recounted by Dirac's biographer Graham Farmelo:
+No one fully understands spinors. Their algebra is formally understood but their general significance is mysterious. In some sense they describe the "square root" of geometry and, just as understanding the square root of −1 took centuries, the same might be true of spinors.[11]
+
+*** [2019-02-07] What is a spinor? - Physics Stack Exchange
+A spinor is a mathematical representation of a harmonic standing-wave quantum field "topological structure" or excitation which typically exhibits a spin ½ geometry 
+*** [2019-01-14] Plate trick - Wikipedia     :spinor:visualisation:
+https://en.wikipedia.org/wiki/Plate_trick
+*** [2019-01-23] Eigenspinor - Wikipedia                    :grasp:
+https://en.wikipedia.org/wiki/Eigenspinor
+
+
+
+
+* [2019-01-23] SO(3)
+https://en.wikipedia.org/wiki/3D_rotation_group#Topology
+mmm.. proof of no simple connectedness is a bit tricky...
+
+the antipodal points argument -- dunno, if the points are same why can't we just contract it? it's not intuitive at all!
+
+Maybe the intuition with torus works? But the torus is more of a long pipe
+
+
+* [2019-01-20]  misc stuff vvvvvvvvvvvvvvvv
+
+* [2019-01-20] Irreducible representation - Wikipedia       :grasp:
+https://en.wikipedia.org/wiki/Irreducible_representation
+Selection:
+In quantum physics and quantum chemistry, each set of degenerate eigenstates of the Hamiltonian operator comprises a vector space V for a representation of the symmetry group of the Hamiltonian, a "multiplet", best studied through reduction to its irreducible parts. Identifying the irreducible representations therefore allows one to label the states, predict how they will split under perturbations; or transition to other states in V. Thus, in quantum mechanics, irreducible representations of the symmetry group of the system partially or completely label the energy levels of the system, allowing the selection rules to be determined.[5]
+
+* TODO [2018-09-03] representation theory of the lorenz group :reprtheory:
+https://en.wikipedia.org/wiki/Representation_theory_of_the_Lorentz_group
+
+* [2018-08-25] symmetry groups                           :symmetry:
+
+what is the meaning of symmetry? I guess that the actually observed values are unchanged
+
+http://math.ucr.edu/home/baez/symmetries.html
+E(N) - eucledean group, symmetries of n dimensional eucledean space
+- E(2)
+  hmm he calls it 3 dimensional group. It's cause of degrees of freedom I suppose?
+  x shift
+  y shift
+  xy rotation
+
+- E(3)
+  z shift
+  xz rotation
+  yz rotation
+- laws of physics are not changing with time, E(3)+R -- naive spacetime symmetries
+  t shift
+- Galilei transformations: x -> x + vt
+  x, y, z galilei transformation
+  10 dimensional so far 
+  symmetries of classical mechanics
+  Galilei boost is translation in momentum space -- makes sense
+- Poincare transformations -- instead, t -> cosh(s) t + sinh(s) x, x -> sinh(s) t + cosh(s) x; s is 'rapidity', v = tanh s; c = 1
+  10 dimensional as well!
+  http://math.ucr.edu/home/baez/boosts.html -- boosts symmetries
+  TODO eh, still didn't fully get it. Should work out by myself.
+- Maxwell equations are also symmetric under scaling (x -> ax, y->ay, z->az, t -> at). Weyl group (11 degrees)
+  only massless particles are invariant!
+
+
+A representation of a group is a way to think of its elements as operators, and this is what we need to understand symmetries in quantum physics.
+
+** TODO I encourage everyone to learn the derivation of Schrödinger's equation straight from the representation theory of the Galilei group! It's cool.
+
+The mathematical foundations of quantum physics:
+Josef M. Jauch, Foundations of Quantum Mechanics, Addison-Wesley, 1968. (Very thoughtful and literate. Get a taste of quantum logic.)
+George Mackey, The Mathematical Foundations of Quantum Mechanics, Dover, New York, 1963. (Especially good for mathematicians who only know a little physics.)
+
+* TODO [2018-11-16] Representation Theory                :protocol:
+https://www.math.columbia.edu/~woit/RepThy/
+
+* [2018-09-03]  This holds in particular for any representation of a finite group over the complex numbers, since the characteristic of the complex numbers is zero, which never divides the size of a group. :reprtheory:
+
+* [2018-11-10] Introduction to gauge theory - Wikipedia :reprtheory:symmetry:
+https://en.wikipedia.org/wiki/Introduction_to_gauge_theory
+** [2019-01-10]  Suppose that there existed some process by which one could briefly violate conservation of charge by creating a charge q at a certain point in space, 1, moving it to some other point 2, and then destroying it. We might imagine that this process was consistent with conservation of energy. We could posit a rule stating that creating the charge required an input of energy E1=qV1 and destroying it released E2=qV2, which would seem natural since qV measures the extra energy stored in the electric field because of the existence of a charge at a certain point. Outside of the interval during which the particle exists, conservation of energy would be satisfied, because the net energy released by creation and destruction of the particle, qV2-qV1, would be equal to the work done in moving the particle from 1 to 2, qV2-qV1. But although this scenario salvages conservation of energy, it violates gauge symmetry. Gauge symmetry requires that the laws of physics be invariant under the transformation {\displaystyle V\rightarrow V+C} V\rightarrow V+C, which implies that no experiment should be able to measure the absolute potential, without reference to some external standard such as an electrical ground. But the proposed rules E1=qV1 and E2=qV2 for the energies of creation and destruction would allow an experimenter to determine the absolute potential, simply by comparing the energy input required to create the charge q at a particular point in space in the case where the potential is {\displaystyle V} V and {\displaystyle V+C} V+C respectively. The conclusion is that if gauge symmetry holds, and energy is conserved, then charge must be conserved.[1
+huh, that' very interesting point!!
+
+interesting, also in sense it's similar to comparing absolute units and diferernces as differet times! (datetime vs timesdelta). I wonder if this can somehow aid understanding??
+
+not sure if it's very convincing, e.g. proposed rules are pretty arbitrary
+** [2019-01-10]
+Not only that, but it is not even necessary to change the speed of each clock by a fixed amount. We could change the angle of the hand on each clock by a varying amount θ, where θ could depend on both the position in space and on time. This would have no effect on the result of the experiment, since the final observation of the location of the electron occurs at a single place and time, so that the phase shift in each electron's "clock" would be the same, and the two effects would cancel out. This is another example of a gauge transformation: it is local, and it does not change the results of experiments.
+** [2019-01-10]
+As a way of visualizing the choice of a gauge, consider whether it is possible to tell if a cylinder has been twisted. If the cylinder has no bumps, marks, or scratches on it, we cannot tell. We could, however, draw an arbitrary curve along the cylinder, defined by some function θ(x), where x measures distance along the axis of the cylinder. Once this arbitrary choice (the choice of gauge) has been made, it becomes possible to detect it if someone later twists the cylinde  
+
+In 1954, Chen Ning Yang and Robert Mills proposed to generalize these ideas to noncommutative groups. A noncommutative gauge group can describe a field that, unlike the electromagnetic field, interacts with itself. For example, general relativity states that gravitational fields have energy, and special relativity concludes that energy is equivalent to mass. 
+
+** [2019-01-10] uu, nice demo for Aharonov-Bohm effect!
+https://www.youtube.com/watch?v=OgDPK5MLVnE
+so it gets global phase shift?
+
+
+* unitary repr pi(g) = e^A for g close to identity A* = -A, skew symetric, but B=iA -- self adjoint!
+lie group actions provide us with observables many of which happen to be of physical interest
+
+
+** time translation: representation of R (additive). pi(t) = exp(-i/h H t). Hamiltonian!
+
+
+* any unitary repr is a direct sum of irrep
+** non unitary counterexample:
+C^2, upper triangular matrices W = k (1 0) for k in C is a subrepr, but there is no complement
+
+
+* TODO Baez lie groups throught examples             :lie:math:group:physics:
+
+** [2018-10-09] ok hold on for now; he assumes we know what's a lie algebra, etc..
+http://math.ucr.edu/home/baez/qg-fall2008/
+https://golem.ph.utexas.edu/category/2008/09/lie_theory_through_examples_1.html
+http://math.ucr.edu/home/baez/qg-fall2008/lie1.pdf
+
+* [2018-09-11] http://blog.sigfpe.com/2007/11/whats-all-this-e8-stuff-about-then-part.html
+
+lie algebras describe rate of change of element of lie group, they are not wrapping around!
+
+* START lie groups course                                       :lie:physics:
+http://math.ucr.edu/home/baez/lie/lie.html
+eh, can't say I understood much...
+
+
+https://math.stackexchange.com/a/1823425/15108 -- so(3) are skew symmetric matrices
+
+
+** START Brian Hall Lie groups lie algebras and representations (Baez recommendation)
+*** [2018-10-18] p.4. matrix Lie group -- closed subgroup of general linear.
+SO group: A* = A^(-1)
+SO is subgroup of O
+UGH . stuck here. too sleepy I suppose.
+
+
+** START Fulton representation theory (Baez recommended)
+hmm, still a bit too advanced...
+
+* lie groups nlab                                                       :lie:
+https://ncatlab.org/nlab/show/Lie+group
+very elaborate stuff..
+
+should know
+- general linear
+- orthogonal + special
+- unitary + special
+- symplectic
+
+interesting things are
+- loop group
+  - 
+
+* TODO Symmetry in quantum mechanics - Wikipedia
+The generators of the group are the partial derivatives of the group elements with respect to the group parameters with the result evaluated when the parameter is set to zero:
+
+X j = ∂ g ∂ ξ j | ξ j = 0 {\displaystyle X_{j}=\left.{\frac {\partial g}{\partial \xi _{j}}}\right|_{\xi _{j}=0}} X_{j}=\left.{\frac {\partial g}{\partial \xi _{j}}}\right|_{\xi _{j}=0}
+
+In the language of manifolds, the generators are the elements of the tangent space to G at the identity. The generators are also known as infinitesimal group elements or as the elements of the Lie algebra of G. (See the discussion below of the commutator.)
+
+
+
+* TODO [2018-10-09]  people also recommend Duistermaat-Kolk: Lie Groups.
+
+
+* START going through liegroups.pdf
+
+file:/L/Dropbox/study/reprtheory/liegroups.pdf
+
+** [2018-10-09]  trying to prove that identity connected component of a lie group is a normal  subgroup and a lie group
+first of all -- shy is it normal.
+
+after that, through why is it a group at all... need some understanding of connectedness in groups   
+
+*** why it's a group
+use path connectedness for simplicity for now?
+
+e.g. if a is connected to 0
+ok, -a is kinda obvious? reverse path is still a path
+
+
+than means that for all delta exists {a_1 ... a_N}, s.t. a_1 x ... x a_n = a
+ams for b. than, for a + b just take N = N_a + N_b and 
+
+
+ahh ok. path is a function from [0, 1] to space, s.t. p(0) = start, p(1) = end
+right, so p_a(0) = 0, p_a(1) = a; p_b(0) = 0, p_b(1) = b; 
+then p_(a+b)(t) = p_a(t)  + p_b(t). p(0) = 0; p(a + b) = a + b; the mapping is continuous since group operation is smooth
+
+*** why is it normal
+take any a in G_0 and g in G
+g a inv(g) --- ???
+there is a path in G_0 , so for t from 0 to 1 : g p(t) inv(g) --- ???     
+not sure if that leads us somewhere...
+
+ok, looked up the answer. it's pretty trivial; connected space is connected under a cont. map; since conjugation is continuous, it maps onto a connected space. since it maps identity into identity, that connected space is G_0.
+eh, I'm an idiot. actually, my path approach does solve it, just literally notice that p_b(t) = g p_a(t) inv(g) is a continuous map connecting 0 with some point.
+
+
+https://math.stackexchange.com/a/511184/15108
+https://topospaces.subwiki.org/wiki/Connected_component
+
+*** why is it a lie group. well trivial I suppose? continuity etc is induced
+*** TODO why quotient is discrete???
+**** TODO need to understand what quotient space topology is
+https://en.wikipedia.org/wiki/Quotient_space_(topology)
+*** It's theorem is useful; we essentially split study of lie groups into discrete groups and connected. he mentions we can further simplify and study simply connected.
+
+
+** [2018-10-15] carrying on...
+*** ok, I'm a bit stuck at understanding topologocal continuity again I think. shame :(
+ok, so let's build a counterexample. suppose there is an O_Y, that preimage of O_Y is not open. (trivial example: X = trivial topology; Y = discrete topology). And f is identity
+**** https://math.stackexchange.com/a/2686384/15108 aha, they are continuous iff finer actuok, but what's the intuition?
+so all functions from discrete topology are continuous.... ok, but what's the intuition?
+
+**** https://math.stackexchange.com/questions/658305/continuous-mapping-between-topological-spaces
+Let X and Y be topological spaces. The mapping f:X→Y is continuous if the preimage of the open set is an open set.
+"If the topology on X is finer it is "easier" for f to be continuous" (∗)   
+hmm, ok
+**** ah shit. closedness makes way more sense now. sooo
+A function {\displaystyle f:X\to Y} f:X\to Y is continuous at a point {\displaystyle p} p iff {\displaystyle p\in \operatorname {cl} (A)\Rightarrow f(p)\in \operatorname {cl} (f(A))} p\in \operatorname {cl}(A)\Rightarrow f(p)\in \operatorname {cl}(f(A)).
+WHERE X IS NOT NECESSARILY IN A!
+so , take X = Y = {1, 2, 3}. f = id; X topoplogy is trivial; Y is discrete.
+then take p = 1 and A = {2, 3}.
+p is in closure of A, so touches it.
+but. f(p) is not in closure of f(A). 
+**** soo, points that seemed closes ended up apart under the map f
+in trivial topology, all points seem close; however when mapped to discrete, they fall apart
+in the same sense, the function is not continuous if two points that seemed indistinguishable end up in topoplogically distinguishable sets
+e.g. step function that is 0 if x <= 0 and 1 if x > 0:
+0 is not distinguishable from eps > 0. However it gets distinguished by the image space topology.
+so, take the open set in Y: S_Y = {0}. its preimage S_x is (-inf, 0]. it's not open. what's the proplem with that?
+take any larger open set T, containing S_y. its image is Y = {0,1}. or maybe even a sequence of open sets? they all get mapped to Y. But there will be a sudden jump to just {0} in the limit
+
+in terms of closure, it's a bit easier. 0 is close to (0, inf). however f(0), which is 0 is not close to closure({1}), which is {1}.
+
+
+*** I thhink I got an intuition for quotient space topology. basically: we map X to X/~. So, to derive topoplogy for quotient space, let's just assume ~ is continuous. then we'd naturally want open subsets in quotient space to be the ones with open preimage
+
+for x ~ y == x - y is integer:
+interesting case I suppose is when a set S contains 0. then, we split it in two parts: 'left' to 0 and 'right or zero' (well defined, otherwise it's all space)
+the only interesting case if (-a, b)? Otherwise can't be open since contains limit points.
+preimage of (-a, 0): infinite union of Union_k (k-a, k)
+preimage of [0, b): infinite union Union_k [k, k + b)
+regrouping, we get infinite union Unkion_k (k - a, k + b); which is an open set.
+ok, boring, we get the original topology
+
+
+** [2018-10-18] carrying on... quotient topology is discrete
+Q = G/G^0
+suppose T_Q (topology) is not discrete. that means there is A_Q in Q such that {A_Q} is not open. A_Q corresponds to G^0 + [some] A, so that means it is not open in the original topology T. however, that contradicts G^0 + A being connected component.
+
+*** The connected components are always closed (but in general not open) (from wiki). errrr
+**** TODO ugh. think of counterexample I suppose...
+Every component is a closed subset of the original space. It follows that, in the case where their number is finite, each component is also an open subset. However, if their number is infinite, this might not be the case; for instance, the connected components of the set of the rational numbers are the one-point sets (singletons), which are not open.
+
+ok. so manifolds are locally path connected and connected components of locally connected space are also open.     
+
+
+** cover, universal cover...
+X: top space
+C is a covering space if there is a surjective map p: C -> X, such that for every x in X there is U(x), s.t. p^-1(U) is a union of disjoint open sets in C, each of them is mapped homeomorphically onto U.
+covering map is more important than covering space.
+S^1 -> S^1 : x -> x^k (complex), k is degree
+*** nice intuition about Riemann sheets https://math.stackexchange.com/a/95331/15108
+define function on double cover instead of original space
+*** https://math.stackexchange.com/questions/95302/covering-spaces-why-are-they-useful
+the definition probably only seems fiddly if you haven't seen it (or related) definitions before. What is says is the following: a map p:Y→X is a covering map if p locally looks like the projection from
+X× a discrete space→X.
+A little more precisely: each point x∈X has a neighbourhood U such that the map
+p−1(U)→U
+is isomorphic to a projection
+U× a discrete space→U.
+
+*** universal cover: simply connected
+
+
+** [2018-10-18] uh... skipped to 2.4
+
+
+* Old... v
+
+* С4 group
+
+  a b c
+a b c e
+b c e a
+c e a b
+
+Representation
+** e, a, b, c = 1, i, -1, -i , complex numbers multiplication
+** e, a, b, c = 0, 1, 2, 3   , addition modulo 4
+** matrix representation     , matrix multiplication
+** geometric representation: marked square rotations
+
+* [2018-09-11] O(n) http://mathworld.wolfram.com/OrthogonalGroup.html
+O(n) preserve the quadratic form sum (x^i)^2 (hence, circles for O(2))
+
+** O(p, q) -- preserves symplectic quadratic form with signature (p, q), e.g. Q(v, w) = Q(Av, Aw)
+lorenz group: O(3, 1)
+O(1, 1) -- preserves x^2 - y^2 (hyperobolas)
+
+* [2019-01-20] misc
+** TODO [2018-08-26] quantum field theory - Why particles are thought as irreducible representation in plain English? - Physics Stack Exchange :protocol:
+
+https://physics.stackexchange.com/questions/277986/why-particles-are-thought-as-irreducible-representation-in-plain-english
+** [2018-12-07] Worked problems in physics using representation theory? : AskPhysics :protocol:
+
+https://www.reddit.com/r/AskPhysics/comments/93clmt/worked_problems_in_physics_using_representation/ 
+I haven't read the mechanics book you mentioned, so I don't know how similar these are to that, but some good books I've used that go into representation theory outside of particle physics are Hamermesh's Group theory and its application to physical problems and Petrashen's Applications of group theory in quantum mechanics.
+
+I am a math student and I like seeing the narrative of math applied to physics. I am reading through Georgi's "Lie Algebras in Particle Physics" now, and chapters 1.16 and 1.17 use representation theory to easily characterize the normal modes of a quirky system of springs and blocks.
+
+I once read through the book "Solved Problems in Lagrangian and Hamiltonian Mechanics" by Gignoux & Silvestre-Brac, and it helped me see the non-pure side of the symplectic dynamics/variational calculus I was learning. I really liked this applied section in Georgi. I never saw these techniques in undergrad physics and I find it really cool. Do you know of any other sources that go through specific examples/calculation problems in physics and apply representation theory?
+
+* TODO . Wigner himself did a lot to improve the situation, writing a book entitled Group Theory and Its Application to the Quantum Mechanics of Atomic Spectra in 1931. It explained groups and representations in a language closer to that with which physicists were familiar. :kobo2org:
+. Wigner himself did a lot to improve the situation, writing a book entitled Group Theory and Its Application to the Quantum Mechanics of Atomic Spectra in 1931. It explained groups and representations in a language closer to that with which physicists were familiar.
+ The
+
+* [2019-01-24] Short Introduction to and Motivation for Representation Theory – Jakob Schwichtenberg :reprtheory:
+http://jakobschwichtenberg.com/short-introduction-motivation-representation-theory/
+Comment:
+well, ok it's really basic
