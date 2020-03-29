@@ -1,0 +1,20 @@
+#+TITLE: 
+#+filetags: biology
+
+* [2017-11-30] protein folding                         :complexity:
+
+given a chain of amino acids, can you predict how is it going to fold?
+ideally, folding should end up in the minimal energy state. if it doesn't you end up with prions?
+in general, folding is an NP complete problem, are our body cells actually solving them somehow?
+conjecture: evolution wouldn't actually use hard instances of protein folding, only computationally easy ones.
+* [2017-05-15] [[http://en.wikipedia.org/wiki/Ethanol_fermentation][Fermentation]]
+yeast anaerobic -> alcohol
+muscle anaerobic -> lactic acid
+
+Fermentation is a metabolic process that converts sugar to acids, gases, and/or alcohol.
+
+Fermentation takes place in the lack of oxygen (when the electron transport chain is unusable) and becomes the cell’s primary means of ATP (energy) production.[1] It turns NADHand pyruvate produced in the glycolysis step into NAD+ and various small molecules depending on the type of fermentation (see examples below). In the presence of O2, NADH and pyruvate are used to generate ATP in respiration. This is called oxidative phosphorylation, and it generates much more ATP than glycolysis alone. For that reason, cells generally benefit from avoiding fermentation when oxygen is available. Exceptions include obligate anaerobes, which cannot tolerate oxygen.
+
+https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5
+
+Пируваты (соли пировиноградной кислоты) — важные химические соединения в биохимии. Они являются конечным продуктом метаболизма глюкозы в процессегликолиза. Одна молекула глюкозы превращается при этом в две молекулы пировиноградной кислоты. Дальнейший метаболизм пировиноградной кислоты возможен двумя путями — аэробным и анаэробным.

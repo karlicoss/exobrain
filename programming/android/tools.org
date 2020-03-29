@@ -1,0 +1,19 @@
+#+TITLE: 
+#+filetags: android
+
+* Android studio plugins                                              :setup:
+- ADB Idea
+- Bash support
+- CheckStyle - IDEA
+- Drawable importer
+- Findbugs - IDEA
+- IdeaVim
+- Lombok
+- Markdown
+- Python support
+- Sqldelight
+- Teamcity
+
+
+* Phone apps
+- Cheatdroid: shared prefs editor

@@ -1,0 +1,15 @@
+#+TITLE: 
+* [~] Switch case of letter                                           :habit:
+* fast navigation in string
+press ft (find char 't')
+then ; to repeat forward
+     , to repeat backwards
+
+
+* t: search before character
+* TODO use * and # for searching current word                     :habit:vim:
+
+
+* vim-like apps
+** https://www.reddit.com/r/vim/comments/3tluqr/my_list_of_applications_with_vi_keybindings/
+** https://xaizek.github.io/2016-08-13/big-list-of-vim-like-software/

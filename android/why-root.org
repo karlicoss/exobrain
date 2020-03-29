@@ -1,0 +1,13 @@
+#+TITLE: Why root your Android?
+#+filetags: android,root
+#+index: Android
+
+* Pixel: impossible to disable screenshot shutter sound
+* Impossible to issue iptables command and forward VPN ofer wifi
+* could access applications internals, use for backups and adjusting settings
+* mounting encfs
+* battery stats
+* disable direct share
+https://www.reddit.com/r/LineageOS/comments/84easg/is_it_possible_to_disable_direct_share/
+* fdroid autoupdate
+* oandbackup

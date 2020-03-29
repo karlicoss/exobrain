@@ -1,0 +1,67 @@
+#+TITLE: 
+#+filetags: sleep
+
+* https://sleepjunkies.com/features/the-ultimate-guide-to-sleep-tracking/ :qs:sleep:pinboard:
+
+** TODO professional: PSG (polysomnography), which includes
+- EEG
+- EOG (oculogram)
+- ECG
+- EMG (myogram)
+- oxygen levels
+- air flow
+- noise
+- blood pressure
+** typically, Fitbit, etc. misidentify wake as sleep and overestimage sleep time
+
+* START Emfit QS
+emfit -- bad reviews are just people not happy with price and EM radiaion
+emfit qs -- needs website?
+ok emfit qs and qs active are the samething apparently
+
+script for getting data https://forum.quantifiedself.com/t/beddit-vs-emfit-qs/1606/8
+https://biohackrrr.wordpress.com/2015/10/03/the-proper-way-of-tracking-your-sleep-thoughts-about-emfit-qs/
+
+
+* TODO oura ring for hr? https://ouraring.com/
+  https://www.alexfergus.com/blog/the-one-wearable-to-rule-them-all-oura-ring-review
+sergef promo code for 100$ discount
+
+* TODO zmachine?? http://generalsleep.com/insight.html                  :eeg:
+huh looks interesting. eeg apparently.  however only available for research?
+shit, price starts and 499 gbp...
+
+* TODO [2018-07-12] dreem band?                               :eeg:
+Dreem is the closest thing I've seen. It's slick but it's a bit pricier than the Zeo, $500.
+https://dreem.com/en/technology
+https://www.reddit.com/r/Biohackers/comments/8dn6tw/dreem_headband_initial_thoughts/
+eh, 499 usd??
+** eeg, accelerometer, breathing, pulse oxymeter
+** https://blog.dreem.com/en/meditate-with-dreem-and-fall-asleep-more-easily/ hmmm
+
+** eh, mixed reviews
+https://gizmodo.com/this-smart-headband-was-supposed-to-help-me-sleep-bette-1822568894 this one is quite bitter
+* CANCEL ResMed S + monitor
+http://wheresmycreditcard.com/s-resmed-personal-sleep-solution/
+err.. contactless so how the fuck it detects hr??? https://www.resmed.com/us/en/consumer/s-plus.html
+https://www.reddit.com/r/sleep/comments/5vyg0u/resmed_s_vs_beddit_30/
+
+* CANCEL beddit -- works by ballistography
+Accessing the Raw Data
+Beddit has a feature to download raw data to a spreadsheet, which can be very useful for doing any detailed analysis. It even gives more advanced metrics like overnight Heart Rate Variability (HRV).
+
+Beddit also has an API to access data, but currently only available for companies or research teams.
+
+Compared to high-end sensors on the market (Emfit QS, ResMed S+), the Beddit stands up well.
+
+* CANCEL Withings Aura -- apparently old version of nokia sleep
+* CANCEL Sense -- shut down
+* CANCEL zeo -- went bust..                                             :eeg:
+I wish ResMed would make a new one. They bought up all the intellectual property from Zeo. Instead, they put out their useless contactless tracker and sat on the Zeo tech.
+I use the Zeo mobile. You can still find it and the larger units on ebay.
+
+* CANCEL [#B] buy jawbone again? at least it measured something...       :qs:
+right, jawbone is liquidating, so guess not worth buying now
+jawbone3 didn't even connect to my phone properly
+nokia sleep? (igor shilov)
+maybe beddit? Can't find good reviews though.

@@ -1,0 +1,14 @@
+#+TITLE: 
+#+filetags: dictaton
+
+* TODO configure simon
+sudo apt install libqt4-sql-sqlite 
+what's up with default dictionary??
+
+
+* https://github.com/julius-speech/julius
+* some crap in /L/tmp
+
+
+* [2018-10-03] ugh, researched a bit and it seems like there are no decent russian models.. dunno maybe I could train one against mozilla's deepspeech??
+this is closest I could find.. https://github.com/sovse/Rus-SpeechRecognition-LSTM-CTC-VoxForge
