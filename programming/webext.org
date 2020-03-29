@@ -1,4 +1,4 @@
-#+TITLE: 
+#+TITLE: Building browser extensions
 #+filetags: webext
 * TODO [2019-08-18] fregante/Awesome-WebExtensions: A curated list of awesome resources for WebExtensions development. :promnesia:grasp:webext:
 https://github.com/fregante/Awesome-WebExtensions#readme

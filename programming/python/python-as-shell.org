@@ -1,4 +1,6 @@
-#+TITLE: 
+#+TITLE: Python as a system shell
+
+
 * CANCEL xonsh
 xonsh http://xon.sh/tutorial.html
 *** importing local modules

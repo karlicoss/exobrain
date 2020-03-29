@@ -1,0 +1,9 @@
+#+TITLE: Building cool software projects
+#+filetags: project
+
+How to make good programming projects? Best practices in communicating and explaining, demos, presentations, etc.
+
+* TODO [2019-08-18] Why not… — attrs 19.1.0 documentation :gr:project:exobrain:
+http://www.attrs.org/en/stable/why.html
+Selection:
+Why not…
