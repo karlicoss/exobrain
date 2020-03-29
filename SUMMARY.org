@@ -1,5 +1,5 @@
-# Created 2020-03-07 Sat 17:52
 #+TITLE: Sitemap for project exobrain-inputs-public
+- [[file:exobrain.org][Exobrain]]
 - [[file:README.org][Intro]]
 - [[file:reading.org][Reading]]
 - [[file:travel.org][Travel]]

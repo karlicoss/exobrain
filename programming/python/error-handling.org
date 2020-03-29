@@ -1,4 +1,3 @@
-# Created 2020-03-07 Sat 17:52
 #+TITLE: 
 * examples of temporary timeouts                             :errors:network:
 requests.exceptions.ReadTimeout: HTTPConnectionPool(host='api.zoopla.co.uk', port=80): Read timed out. (read timeout=5)
