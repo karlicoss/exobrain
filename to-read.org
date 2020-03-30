@@ -1,0 +1,76 @@
+#+TITLE: Reading list
+
+* Books                                                              :refile:
+** TODO Books like Borges and Ted Chiang : suggestmeabook
+https://www.reddit.com/r/suggestmeabook/comments/67umiu/books_like_borges_and_ted_chiang/
+
+I greatly enjoyed Borges' work. I also like Georges Perec, especially Life: A User's Manual
+Gene Wolfe: Peace is maybe his best book IMO if you are hesitant to read something as long as the Solar Cycle
+
+*** [2019-02-27] The entire block is primarily presented frozen in time, on June 23, 1975, just before 8 pm, moments after the death of Bartlebooth. Nonetheless, the constraints system creates hundreds of separate stories concerning the inhabitants of the block, past and present, and the other people in their lives. The story of Bartlebooth is the principal thread, but it interlinks with many others.
+*** [2019-06-26] ok, gwern recommends it?
+** DONE [2019-03-19] New Ted Chiang Incoming : printSF       :read:
+https://www.reddit.com/r/printSF/comments/azo1o6/new_ted_chiang_incoming/
+
+*** [2019-04-08]  Omphalos and Anxiety is the Dizziness of Freedom are the new ones.
+** DONE [2019-05-08] Ted Chiang - Wikipedia                 :grasp:
+https://en.wikipedia.org/wiki/Ted_Chiang#Collections
+Selection:
+"Omphalos", Exhalation: Stories, 2019
+"Anxiety Is the Dizziness of Freedom", Exhalation: Stories, 2019
+** TODO [2019-05-08] Exhalation eBook by Ted Chiang - 9781101947906 | Rakuten Kobo :grasp:
+https://www.kobo.com/us/en/ebook/exhalation-4
+
+** START [#B] [2019-05-05] perihelion summer. John Carlos Baez on Twitter: "Unlike some of Egan's recent fiction this is set on Earth with characters that are people kinda like us. You can read a bit about it here: https://t.co/OkWdNnYYsU… https://t.co/0W1zPMInIN" :grasp:
+https://twitter.com/johncarlosbaez/status/1125070015172997120
+
+** TODO [2019-06-15] Bret Victor Bookshelf Transcribed – Max Cherepitsa – Medium :gr:
+https://medium.com/@max_cherepitsa/bret-victor-bookshelf-transcribed-eae4d63aa493
+
+** TODO [2019-09-02] [[https://reddit.com/r/scifi/comments/cvy78o/searching_stories_with_super_intelligence_in/eyldzyb/][Searching stories with super intelligence in humans theme]] /r/scifi :read:
+Love and recommend "Brainchild" just for this. Explores multiple different angles of what we call intelligence.
+
+https://www.amazon.com/Brain-Child-Novel-George-Turner/dp/0688105955
+** TODO Tweet from simpolism (@simpolism), at Nov 2, 23:35
+How sci-fi should be done in 2019. You may not agree with the moral thrusts (I don't, at times), but the work is undeniably imaginative; an enchanted dream, refreshing in the age of shattered illusions. And don't miss the maze of secondary material! https://t.co/rFfrVF6Fgs
+
+https://twitter.com/simpolism/status/1190774586905911298
+
+** TODO [2019-11-06] Brian Armstrong on Twitter: "Some interesting sci-fi short stories I've read recently: Understand by Ted Chiang https://t.co/IjHuODMxGG The Gentle Seduction by Marc Stiegler https://t.co/DAQfsEcVqc This Quora answer: https://t.co/PzzEGfsBEW Enjoy!" / Twitter :graspw:
+https://twitter.com/i/web/status/1176017858414800906
+Selection:
+Some interesting sci-fi short stories I've read recently:
+
+Understand by Ted Chiang
+https://web.archive.org/web/20140311042827/http://www.infinityplus.co.uk/stories/under.htm…
+
+The Gentle Seduction by Marc Stiegler
+http://skyhunter.com/marcs/GentleSeduction.html…
+
+This Quora answer:
+** START [#C] [2018-09-22] Вконец заебавшийся крылатый зотлинг on Twitter: "В моменты полнейшей заёбанности на работе сделал вот такую хуетень. Это флоучарт для выбора НФ-книг по куче разных (и иногда довольно тупых) критериев. Зачем? ¯\_(ツ)_/¯… https://t.co/uI8KTjhoWl"
+- State "START"      from              TS!!
+https://twitter.com/future_is_meow/status/1043042205479395328
+
+*** DONE Diaspora by Greg Egan
+*** DONE Rendesvous with Rama
+*** DONE Blindsight
+*** TODO Pattern recognition by Gibson
+*** TODO Return from the Stars by Lem
+
+
+** TODO significant digits (after hpmor)                               :read:
+http://www.anarchyishyperbole.com/p/significant-digits.html
+
+*** TODO but first, blinkist
+** START [#C] Fredkin, Digital Philosophy                              :book:
+*** Why is it true that mathematics is so good at modeling processes in the physical sciences?
+*** Everything fundamental is assumed to be atomic or discrete; and thereby so is everything else.
+*** The principle of simplicity has driven us to reluctantly make a decision—in this paper DP is a particle model and all processes in DP are consequences of the motions and interactions of particles.
+** [2018-06-10] Yuri Krupenin’s books on Goodreads (468 books)
+
+https://www.goodreads.com/review/list/5512374-yuri-krupenin?shelf=%23ALL%23
+
+** TODO read the road to reality  (Woit's recommendation) :kobo2org:read:physics:
+His remarkable book The Road to Reality4 gives an extensive overview of theoretical physics, largely from the point of view of general relativity rather than particle physics, and can be consulted for a summary of the main ideas of twistor theor
+from Not Even Wrong: The Failure of String Theory and the Search for Unity in Physical Law for Unity in Physical Law
