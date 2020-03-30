@@ -7,3 +7,23 @@ How to make good programming projects? Best practices in communicating and expla
 http://www.attrs.org/en/stable/why.html
 Selection:
 Why not…
+* [2020-01-27] [[https://reddit.com/r/emacs/comments/eut02p/gifscreencast_11_is_out/][gif-screencast 1.1 is out]] /r/emacs :demo:emacs:
+:  I'm happy to announce the release gif-screencast 1.1!
+:  https://gitlab.com/ambrevar/emacs-gif-screencast
+: 
+:  It isn't much, but I know that gif-screencast has had annoying issues for a
+:  while, I figured I'd rather let the community know!
+: 
+:  - Fix off-by-one error in frame delay (thanks to /u/alphapapa for this one!)
+:  - Remove "Press ... to stop" message from resulting GIF.
+:  - New `gif-screencast-start-or-stop` command.
+:  - Use XDG's video directory if any (thanks to Kyle Andrew).
+:  - Log the complete command lines of all invokes commands.
+* [2019-12-30] Choosing a license for GoatCounter         :license:
+https://www.arp242.net/license.html
+Selection:
+GPL (any version)
+Bad: doesn’t have the “network protection”: you don’t need to submit changes back to me if you modify the code and run it only as a SaaS.
+
+* [2020-01-19] How do you stay inline with your vision on long term projects? | Lobsters :gr:
+https://lobste.rs/s/pg1ne9/how_do_you_stay_inline_with_your_vision_on#c_ihhrfy
