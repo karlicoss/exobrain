@@ -112,3 +112,4 @@ Selection:
 web-ext submit would submit to amo only. If you want the zip you can already use web-ext build
 * [2020-02-17] Introducing Prism: An awesome new syntax highlighter | Lea Verou
 https://lea.verou.me/2012/07/introducing-prism-an-awesome-new-syntax-highlighter/#more-1841
+* TODO chrome got far better profiling, better debugging information + screenshots :webext:
