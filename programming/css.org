@@ -1,3 +1,5 @@
-#+TITLE: 
+#+TITLE: CSS
+#+filetags: css
+
 * STRT [#C] [2019-11-11] A Complete Guide to Flexbox | CSS-Tricks :css:flex:
 https://css-tricks.com/snippets/css/a-guide-to-flexbox

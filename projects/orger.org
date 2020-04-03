@@ -1,2 +1,20 @@
 #+TITLE: Orger
 #+filetags: orger
+
+* STRT [#C] feedbin?                                        :promnesia:orger:
+** [2019-04-23] feedbin/feedbin-api: Feedbin API Documentation :grasp:
+
+https://github.com/feedbin/feedbin-api#readme
+: The base URL for all requests is https://api.feedbin.com/v2/ Only https is supported.
+: The Feedbin API uses HTTP Basic authentication
+: curl -u 'example@example.com:password' https://api.feedbin.com/v2/subscriptions.json
+
+
+* TODO feels more and more that they should be a single tool :promnesia:orger:
+* TODO youtube -- could mark as deleted if link = title?              :orger:
+* TODO example of adding materialistic module -- literally matter of two commits? :blog:orger:
+* TODO mirror emails to people only? e.g. some reasonable cutoff to exclude notifications etc? :orger:hpi:
+* TODO [2020-03-24] lobste.rs/s/r9oskz.json                 :orger:
+https://lobste.rs/saved.json
+Comment:
+port saved lobsters posts?

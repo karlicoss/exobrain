@@ -114,3 +114,7 @@ Homogenous: Sum_{n=0}^N A_n y^(n) = 0
 free monoids are lists
 free semigroups are nonempty lists?
 free magmas are nonempty binary trees (data is in lists)
+* [2020-03-22] Shtetl-Optimized » Blog Archive » Ask Me Anything: Apocalypse Edition :math:
+https://www.scottaaronson.com/blog/?p=4684
+Selection:
+As a simple example, I’m totally fine uttering statements like, “a family of Boolean functions with superquadratic gap between randomized and quantum query complexities exists“—even though the type of “existence” that we’re talking about clearly isn’t physical (some would call it Platonic).
