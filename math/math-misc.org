@@ -1,4 +1,4 @@
-#+TITLE: Misc math notes
+#+TITLE: Uncategorized
 
 * [2016-10-19] frequentist vs bayesian                :probability:
 frequentist probability: relative frequencies

@@ -1,4 +1,5 @@
 #+TITLE: Reading list
+This in my public todo-list, so it's constantly changing and things are moving around.
 
 * Books                                                              :refile:
 ** TODO Books like Borges and Ted Chiang : suggestmeabook
@@ -76,3 +77,35 @@ His remarkable book The Road to Reality4 gives an extensive overview of theoreti
 from Not Even Wrong: The Failure of String Theory and the Search for Unity in Physical Law for Unity in Physical Law
 ** TODO Tweet from Greg Egan (@gregeganSF), at Nov 1, 2017, 04:40 For readers in the US, nine of my books are available as DRM-free ebooks for $2.99
 https://twitter.com/gregeganSF/status/925583342845575168
+* TODO goodenough biography                                            :read:
+* TODO Here are a handful of languages intended for modeling, simulating, or designing physical systems: :hyp2org:climate:
+None
+[[http://worrydream.com/ClimateChange/][What can a technologist do about climate change? A personal view.]]
+[[https://hyp.is/0o-JzLcEEemwIzO6lukdMg/worrydream.com/ClimateChange/][in context]]
+
+* TODO Dirac biography?                                                :read:
+* TODO [2019-08-23] John McCarthy, Pioneer in Artificial Intelligence, Dies at 84 - The New York Times :gr:read:
+https://www.nytimes.com/2011/10/26/science/26mccarthy.html
+Comment:
+hmm, maybe read his biography?
+* TODO [2019-09-21] hackerkid/Mind-Expanding-Books: Books that will blow your mind :gr:
+https://github.com/hackerkid/Mind-Expanding-Books#fiction
+** TODO [2019-12-31] ugh, need some sort of online commit history viewer...
+
+* TODO Tweet from 𝔊𝔴𝔢𝔯𝔫 (@gwern), at Dec 10, 00:22 I've written a mini-essay summarizing how I think causality & correlation work in the softer sciences, how experiments show correlation≠causation, and why we do a bad job at internalizing that: https://t.co/iXIZaLzgmp
+https://twitter.com/gwern/status/1204194533422047234
+
+* STRT [#C] [2019-08-11] What Does a Coder Do If They Can't Type? | Objective Funk :gr:
+https://nsaphra.github.io/post/hands
+** [2019-12-05] https://news.ycombinator.com/item?id=20662232 good discussion, few more suggestions
+* STRT [#B] Tweet from Dan Shipper (@danshipper), at Jan 21, 18:22 superorganizers :notion:
+New superorganizers! — @mariepoulin shares one of the most impressive @Notion setups I've ever seen
+
+https://t.co/NwRPnFIW2b
+
+https://twitter.com/danshipper/status/1219686774307524608
+* DONE [2020-03-09] Most of What You Read on the Internet is Written by Insane People - LessWrong 2.0
+https://www.lesswrong.com/events/aSGYPDsiw3u6MFwxJ/most-of-what-you-read-on-the-internet-is-written-by-insane
+** [2020-03-24] https://www.reddit.com/r/slatestarcodex/comments/9rvroo/most_of_what_you_read_on_the_internet_is_written
+* TODO In this text, by the way, Schwinger gives a very clear ~20 page summary of the history of the classical —> quantum transition touching on their different theories of measurement, mathematical frameworks, the philosophy of the so-called “fundamental,” and so on. Highly recommend: https://t.co/tRrKkMxmgX Tweet from Path Integral Salesman (@litgenstein), at Jan 13, 00:10
+https://twitter.com/litgenstein/status/1216512864015417344
