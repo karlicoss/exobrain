@@ -19,14 +19,14 @@ https://en.wikipedia.org/wiki/Ted_Chiang#Collections
 Selection:
 "Omphalos", Exhalation: Stories, 2019
 "Anxiety Is the Dizziness of Freedom", Exhalation: Stories, 2019
-** TODO [2019-05-08] Exhalation eBook by Ted Chiang - 9781101947906 | Rakuten Kobo :grasp:
-https://www.kobo.com/us/en/ebook/exhalation-4
+** TODO [2019-05-08] [[https://www.kobo.com/us/en/ebook/exhalation-4][Exhalation eBook by Ted Chiang - 9781101947906 | Rakuten Kobo]] :grasp:
+
 
 ** START [#B] [2019-05-05] perihelion summer. John Carlos Baez on Twitter: "Unlike some of Egan's recent fiction this is set on Earth with characters that are people kinda like us. You can read a bit about it here: https://t.co/OkWdNnYYsU… https://t.co/0W1zPMInIN" :grasp:
 https://twitter.com/johncarlosbaez/status/1125070015172997120
 
-** TODO [2019-06-15] Bret Victor Bookshelf Transcribed – Max Cherepitsa – Medium :gr:
-https://medium.com/@max_cherepitsa/bret-victor-bookshelf-transcribed-eae4d63aa493
+** TODO [2019-06-15] [[https://medium.com/@max_cherepitsa/bret-victor-bookshelf-transcribed-eae4d63aa493][Bret Victor Bookshelf Transcribed – Max Cherepitsa – Medium]] :gr:
+
 
 ** TODO [2019-09-02] [[https://reddit.com/r/scifi/comments/cvy78o/searching_stories_with_super_intelligence_in/eyldzyb/][Searching stories with super intelligence in humans theme]] /r/scifi :read:
 Love and recommend "Brainchild" just for this. Explores multiple different angles of what we call intelligence.
@@ -37,8 +37,8 @@ How sci-fi should be done in 2019. You may not agree with the moral thrusts (I d
 
 https://twitter.com/simpolism/status/1190774586905911298
 
-** TODO [2019-11-06] Brian Armstrong on Twitter: "Some interesting sci-fi short stories I've read recently: Understand by Ted Chiang https://t.co/IjHuODMxGG The Gentle Seduction by Marc Stiegler https://t.co/DAQfsEcVqc This Quora answer: https://t.co/PzzEGfsBEW Enjoy!" / Twitter :graspw:
-https://twitter.com/i/web/status/1176017858414800906
+** TODO [2019-11-06] [[https://twitter.com/i/web/status/1176017858414800906][Brian Armstrong on Twitter: "Some interesting sci-fi short stories I've read recently: Understand by Ted Chiang https://t.co/IjHuODMxGG The Gentle Seduction by Marc Stiegler https://t.co/DAQfsEcVqc This Quora answer: https://t.co/PzzEGfsBEW Enjoy!" / Twitter]] :graspw:
+
 Selection:
 Some interesting sci-fi short stories I've read recently:
 
@@ -68,9 +68,9 @@ http://www.anarchyishyperbole.com/p/significant-digits.html
 *** Why is it true that mathematics is so good at modeling processes in the physical sciences?
 *** Everything fundamental is assumed to be atomic or discrete; and thereby so is everything else.
 *** The principle of simplicity has driven us to reluctantly make a decision—in this paper DP is a particle model and all processes in DP are consequences of the motions and interactions of particles.
-** [2018-06-10] Yuri Krupenin’s books on Goodreads (468 books)
+** [2018-06-10] [[https://www.goodreads.com/review/list/5512374-yuri-krupenin?shelf=%23ALL%23][Yuri Krupenin’s books on Goodreads (468 books)]]
 
-https://www.goodreads.com/review/list/5512374-yuri-krupenin?shelf=%23ALL%23
+
 
 ** TODO read the road to reality  (Woit's recommendation) :kobo2org:read:physics:
 His remarkable book The Road to Reality4 gives an extensive overview of theoretical physics, largely from the point of view of general relativity rather than particle physics, and can be consulted for a summary of the main ideas of twistor theor
@@ -84,12 +84,12 @@ None
 [[https://hyp.is/0o-JzLcEEemwIzO6lukdMg/worrydream.com/ClimateChange/][in context]]
 
 * TODO Dirac biography?                                                :read:
-* TODO [2019-08-23] John McCarthy, Pioneer in Artificial Intelligence, Dies at 84 - The New York Times :gr:read:
-https://www.nytimes.com/2011/10/26/science/26mccarthy.html
+* TODO [2019-08-23] [[https://www.nytimes.com/2011/10/26/science/26mccarthy.html][John McCarthy, Pioneer in Artificial Intelligence, Dies at 84 - The New York Times]] :gr:read:
+
 Comment:
 hmm, maybe read his biography?
-* TODO [2019-09-21] hackerkid/Mind-Expanding-Books: Books that will blow your mind :gr:
-https://github.com/hackerkid/Mind-Expanding-Books#fiction
+* TODO [2019-09-21] [[https://github.com/hackerkid/Mind-Expanding-Books#fiction][hackerkid/Mind-Expanding-Books: Books that will blow your mind]] :gr:
+
 ** TODO [2019-12-31] ugh, need some sort of online commit history viewer...
 
 * TODO Tweet from 𝔊𝔴𝔢𝔯𝔫 (@gwern), at Dec 10, 00:22 I've written a mini-essay summarizing how I think causality & correlation work in the softer sciences, how experiments show correlation≠causation, and why we do a bad job at internalizing that: https://t.co/iXIZaLzgmp
@@ -109,20 +109,20 @@ https://www.lesswrong.com/events/aSGYPDsiw3u6MFwxJ/most-of-what-you-read-on-the-
 ** [2020-03-24] https://www.reddit.com/r/slatestarcodex/comments/9rvroo/most_of_what_you_read_on_the_internet_is_written
 * TODO In this text, by the way, Schwinger gives a very clear ~20 page summary of the history of the classical —> quantum transition touching on their different theories of measurement, mathematical frameworks, the philosophy of the so-called “fundamental,” and so on. Highly recommend: https://t.co/tRrKkMxmgX Tweet from Path Integral Salesman (@litgenstein), at Jan 13, 00:10
 https://twitter.com/litgenstein/status/1216512864015417344
-* [2020-03-31] Awesome risk quantification | Hacker News
-https://news.ycombinator.com/item?id=22735417
+* [2020-03-31] [[https://news.ycombinator.com/item?id=22735417][Awesome risk quantification | Hacker News]]
 
-* [2020-04-01] How To Build A Digital Zettelkasten - Superorganizers
-https://superorganizers.substack.com/p/how-to-build-a-digital-zettelkasten-e6d
-* [2020-04-03] Extensions in Firefox 75 | Mozilla Add-ons Blog
-https://blog.mozilla.org/addons/2020/04/01/extensions-in-firefox-75/
 
-* [2020-04-03] Hillel on Twitter: "I recently moved a large documentation project (&gt;10k words) from github/markdown to sphinx/restructured text. It's now much easier to extend and modify! The syntax is a bit clunkier but the semantic benefits are _huge_. Let's go through some of the things I like!" / Twitter :rst:
-https://twitter.com/hillelogram/status/1246151009451327489
+* [2020-04-01] [[https://superorganizers.substack.com/p/how-to-build-a-digital-zettelkasten-e6d][How To Build A Digital Zettelkasten - Superorganizers]]
+
+* [2020-04-03] [[https://blog.mozilla.org/addons/2020/04/01/extensions-in-firefox-75/][Extensions in Firefox 75 | Mozilla Add-ons Blog]]
+
+
+* [2020-04-03] [[https://twitter.com/hillelogram/status/1246151009451327489][Hillel on Twitter: "I recently moved a large documentation project (&gt;10k words) from github/markdown to sphinx/restructured text. It's now much easier to extend and modify! The syntax is a bit clunkier but the semantic benefits are _huge_. Let's go through some of the things I like!" / Twitter]] :rst:
+
 Selection:
 I recently moved a large documentation project (>10k words) from github/markdown to sphinx/restructured text. It's now much easier to extend and modify! The syntax is a bit clunkier but the semantic benefits are _huge_. Let's go through some of the things I like!
-* [2020-04-03] David R. MacIver on Twitter: "I'm going to try doing a bit more longform writing with half-formed thoughts on my notebook blog, as I've not been doing enough of it recently. Here's a thread for them as I write them." / Twitter
-https://twitter.com/DRMacIver/status/1229061018019651587
+* [2020-04-03] [[https://twitter.com/DRMacIver/status/1229061018019651587][David R. MacIver on Twitter: "I'm going to try doing a bit more longform writing with half-formed thoughts on my notebook blog, as I've not been doing enough of it recently. Here's a thread for them as I write them." / Twitter]]
+
 Selection:
 I'm going to try doing a bit more longform writing with half-formed thoughts on my notebook blog, as I've not been doing enough of it recently. Here's a thread for them as I write them.
 Comment:

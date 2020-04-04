@@ -3,35 +3,35 @@
 
 
 
-* [2020-03-01] daryllxd/lifelong-learning: ✅ ✅ ✅ A massive repo filled with notes on everything from coding to philosophy to psychology to marketing to product :exobrain:
-https://github.com/daryllxd/lifelong-learning
+* [2020-03-01] [[https://github.com/daryllxd/lifelong-learning][daryllxd/lifelong-learning: ✅ ✅ ✅ A massive repo filled with notes on everything from coding to philosophy to psychology to marketing to product]] :exobrain:
 
-* [2020-03-01] d2s/knowledge: 2016→ — A curated list of Tools and Resources.
-https://github.com/d2s/knowledge
 
-* [2020-03-05] Tom Critchlow. Move. Think. Create.       :exobrain:
-https://tomcritchlow.com/wiki/
+* [2020-03-01] [[https://github.com/d2s/knowledge][d2s/knowledge: 2016→ — A curated list of Tools and Resources.]]
 
-* [2020-03-06] rust-lang/mdBook: Create book from markdown files. Like Gitbook but implemented in Rust
-https://github.com/rust-lang/mdBook
+
+* [2020-03-05] [[https://tomcritchlow.com/wiki/][Tom Critchlow. Move. Think. Create.]] :exobrain:
+
+
+* [2020-03-06] [[https://github.com/rust-lang/mdBook][rust-lang/mdBook: Create book from markdown files. Like Gitbook but implemented in Rust]]
+
 #+begin_quote
 linkcheck - a backend which will check that all links are valid
 #+end_quote
-* [2020-03-11] MkDocs                               :TODO:exobrain:
-https://www.mkdocs.org/
+* [2020-03-11] [[https://www.mkdocs.org/][MkDocs]]  :TODO:exobrain:
+
 Comment:
 hmm, looks pretty nice. wonder if it's better than mdbook
 * TODO [2020-02-14] Building a Second Brain in Roam...And Why You Might Want To : RoamResearch :blog:exobrain:
 https://www.reddit.com/r/RoamResearch/comments/eho7de/building_a_second_brain_in_roamand_why_you_might
-* TODO [2020-01-25] mek.fyi | Home      :blog:inspiration:exobrain:
-https://mek.fyi/#qs
+* TODO [2020-01-25] [[https://mek.fyi/#qs][mek.fyi | Home]] :blog:inspiration:exobrain:
+
 Selection:
 (Right click green text to enter Mek's mind map.)
-* [2019-12-22] softprops/awesome-mdbook: 🕶️🗃️ a card catalog of mdbooks for your reading curiosity :gr:exobrain:
-https://github.com/softprops/awesome-mdbook
+* [2019-12-22] [[https://github.com/softprops/awesome-mdbook][softprops/awesome-mdbook: 🕶️🗃️ a card catalog of mdbooks for your reading curiosity]] :gr:exobrain:
 
-* TODO [2019-08-18] How to add full text search to your website - Dev Channel - Medium :search:exobrain:
-https://medium.com/dev-channel/how-to-add-full-text-search-to-your-website-4e9c80ce2bf4
+
+* TODO [2019-08-18] [[https://medium.com/dev-channel/how-to-add-full-text-search-to-your-website-4e9c80ce2bf4][How to add full text search to your website - Dev Channel - Medium]] :search:exobrain:
+
 * TODO ok, ox-hugo generates some odd artifacts, perhaps would be easier with vanilla md export :blog:exobrain:
 
 
