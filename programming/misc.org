@@ -1,3 +1,10 @@
 #+TITLE: Uncategorized
 * TODO JSONCrush – Compress JSON into URI Friendly Strings | Hacker News :json:
 https://news.ycombinator.com/item?id=21641760
+* [2020-03-30] karan/Projects: A list of practical projects that anyone can solve in any programming language.
+https://github.com/karan/Projects
+
+* [2020-03-31] Debugging with tmate · Actions · GitHub Marketplace :githubci:
+https://github.com/marketplace/actions/debugging-with-tmate
+ok, nice it's like circleci ssh debugging.
+less convenient because you have to commit a step, but ok considering you don't need it often

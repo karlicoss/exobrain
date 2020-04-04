@@ -5,3 +5,5 @@ https://github.com/what-studio/profiling
 : profiling live-profile webserver.py
 
 ok, this is really nice and easy to use
+* [2020-04-02] minimal-setup-py/setup.py at master · maet3608/minimal-setup-py :pip:python:
+https://github.com/maet3608/minimal-setup-py/blob/master/setup.py

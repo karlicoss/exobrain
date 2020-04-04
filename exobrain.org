@@ -14,8 +14,9 @@ https://tomcritchlow.com/wiki/
 
 * [2020-03-06] rust-lang/mdBook: Create book from markdown files. Like Gitbook but implemented in Rust
 https://github.com/rust-lang/mdBook
-Selection:
+#+begin_quote
 linkcheck - a backend which will check that all links are valid
+#+end_quote
 * [2020-03-11] MkDocs                               :TODO:exobrain:
 https://www.mkdocs.org/
 Comment:

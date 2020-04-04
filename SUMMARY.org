@@ -24,6 +24,7 @@
   - [[file:math/reprtheory.org][Representation theory]]
   - [[file:math/math-misc.org][Uncategorized]]
 - [[file:misc/README.org][misc]]
+  - [[file:misc/misc.org][Miscellaneous or unprocessed links]]
   - [[file:misc/prepping.org][prepping]]
 - [[file:music/README.org][music]]
   - [[file:music/music.org][Music]]

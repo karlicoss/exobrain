@@ -109,3 +109,21 @@ https://www.lesswrong.com/events/aSGYPDsiw3u6MFwxJ/most-of-what-you-read-on-the-
 ** [2020-03-24] https://www.reddit.com/r/slatestarcodex/comments/9rvroo/most_of_what_you_read_on_the_internet_is_written
 * TODO In this text, by the way, Schwinger gives a very clear ~20 page summary of the history of the classical —> quantum transition touching on their different theories of measurement, mathematical frameworks, the philosophy of the so-called “fundamental,” and so on. Highly recommend: https://t.co/tRrKkMxmgX Tweet from Path Integral Salesman (@litgenstein), at Jan 13, 00:10
 https://twitter.com/litgenstein/status/1216512864015417344
+* [2020-03-31] Awesome risk quantification | Hacker News
+https://news.ycombinator.com/item?id=22735417
+
+* [2020-04-01] How To Build A Digital Zettelkasten - Superorganizers
+https://superorganizers.substack.com/p/how-to-build-a-digital-zettelkasten-e6d
+* [2020-04-03] Extensions in Firefox 75 | Mozilla Add-ons Blog
+https://blog.mozilla.org/addons/2020/04/01/extensions-in-firefox-75/
+
+* [2020-04-03] Hillel on Twitter: "I recently moved a large documentation project (&gt;10k words) from github/markdown to sphinx/restructured text. It's now much easier to extend and modify! The syntax is a bit clunkier but the semantic benefits are _huge_. Let's go through some of the things I like!" / Twitter :rst:
+https://twitter.com/hillelogram/status/1246151009451327489
+Selection:
+I recently moved a large documentation project (>10k words) from github/markdown to sphinx/restructured text. It's now much easier to extend and modify! The syntax is a bit clunkier but the semantic benefits are _huge_. Let's go through some of the things I like!
+* [2020-04-03] David R. MacIver on Twitter: "I'm going to try doing a bit more longform writing with half-formed thoughts on my notebook blog, as I've not been doing enough of it recently. Here's a thread for them as I write them." / Twitter
+https://twitter.com/DRMacIver/status/1229061018019651587
+Selection:
+I'm going to try doing a bit more longform writing with half-formed thoughts on my notebook blog, as I've not been doing enough of it recently. Here's a thread for them as I write them.
+Comment:
+wow, lots of cool stuff here..

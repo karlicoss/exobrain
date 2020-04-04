@@ -1,0 +1,38 @@
+#+TITLE: Miscellaneous or unprocessed links
+* [2020-03-24] H+Pedia                              :transhumanism:
+https://hpluspedia.org/wiki/Main_Page
+
+* [2020-03-24] Don’t bail out the cruise industry | Hacker News
+https://news.ycombinator.com/item?id=22672392
+
+* [2020-03-24] Wilfred/helpful: A better Emacs *help* buffer
+https://github.com/Wilfred/helpful
+
+* [2020-03-26] EMDR Therapy (Eye Movement Desensitization & Reprocessing)
+https://www.webmd.com/mental-health/emdr-what-is-it#1
+Comment:
+try it off youtube?
+* [2020-03-26] michael_nielsen on Twitter: "@eriktorenberg @glenweyl Empirically, it's not really correct. The most unusual people I know are mostly extreme loners; a smaller minority are mostly at the other end of being extremely social, but with an intense capacity to be alone. Grothendieck said it quite well: https://t.co/bVmbbO7RIb" / Twitter
+https://twitter.com/michael_nielsen/status/1220538523603763200
+Selection:
+Empirically, it's not really correct. The most unusual people I know are mostly extreme loners; a smaller minority are mostly at the other end of being extremely social, but with an intense capacity to be alone. Grothendieck said it quite well:
+* [2020-03-31] Kill the newsletter: Convert newsletters into RSS feeds | Hacker News
+https://news.ycombinator.com/item?id=12949154
+
+* [2020-04-01] You are my spirit animal. I just got a polar/readwise/orgmode/Anki setup togeth... | Hacker News :remarkable:
+https://news.ycombinator.com/item?id=22608287
+Selection:
+You are my spirit animal.
+
+I just got a polar/readwise/orgmode/Anki setup together and I'd love to use this.
+* [2020-04-01] Jitsi Meet: An open source alternative to Zoom | Hacker News
+https://news.ycombinator.com/item?id=22669968
+* [2020-04-02] Is there something like this for math? Does anyone know? | Hacker News
+https://news.ycombinator.com/item?id=16373386
+Comment:
+like physics travel guide, but for math
+
+
+* TODO todos
+** TODO [2020-04-03] maybe sort by priority/date on export? or specify sort order in properties
+* [[https://twitter.com/i/web/status/584492360349913088][TW]] at [2015-04-04] Когда я читаю в release notes софтины "various style and layout fixes", автоматически предполагаю что выпилили полезные настройки. :ttweet:
