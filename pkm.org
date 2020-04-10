@@ -1,0 +1,12 @@
+#+TITLE: Knowledge management
+#+filetags: pkm
+* [2020-03-20] Use phones to collect and triage, not (usually) to read
+https://notes.andymatuschak.org/Use_phones_to_collect_and_triage%2C_not_(usually)_to_read
+Selection:
+Use phones to collect and triage, not (usually) to read
+* Tweet from @jborichevskiy
+https://twitter.com/jborichevskiy/status/1245559381560721408
+
+@jborichevskiy: This is @RoamResearch in a nutshell. Not having to dig around for that note, that link, that whatever - allows things to flow with wonderful speed. twitter.com/david_perell/statu...
+
+* https://github.com/alphapapa/transclusion-in-emacs                  :emacs:

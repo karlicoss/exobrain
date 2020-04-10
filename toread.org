@@ -50,7 +50,6 @@ http://skyhunter.com/marcs/GentleSeduction.html…
 
 This Quora answer:
 ** START [#C] [2018-09-22] Вконец заебавшийся крылатый зотлинг on Twitter: "В моменты полнейшей заёбанности на работе сделал вот такую хуетень. Это флоучарт для выбора НФ-книг по куче разных (и иногда довольно тупых) критериев. Зачем? ¯\_(ツ)_/¯… https://t.co/uI8KTjhoWl"
-- State "START"      from              TS!!
 https://twitter.com/future_is_meow/status/1043042205479395328
 
 *** DONE Diaspora by Greg Egan
@@ -127,3 +126,5 @@ Selection:
 I'm going to try doing a bit more longform writing with half-formed thoughts on my notebook blog, as I've not been doing enough of it recently. Here's a thread for them as I write them.
 Comment:
 wow, lots of cool stuff here..
+* [2020-01-20] What's wrong with computational notebooks? - Austin Z. Henley :gr:
+http://web.eecs.utk.edu/~azh/blog/notebookpainpoints.html

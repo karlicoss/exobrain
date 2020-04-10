@@ -1,0 +1,21 @@
+#+TITLE: TODO list for learning
+
+* TODO Learn to buy gifts                                             :study:
+
+* TODO reverse eng for beginners https://beginners.re/      :coding:ctf:read:
+
+* TODO how to implement DNS?                                          :study:
+
+* TODO [2020-01-19] John Carlos Baez on Twitter: "Entropy is the amount of information you don't have about the random details of a system: what you'd need to describe those details. It takes 500 zettabytes to fully describe a gram of liquid water, but a manageable amount per molecule! (1/n) https://t.co/cDg7ZFpLt3" / Twitter :gr:
+https://twitter.com/johncarlosbaez/status/1218927345836285952
+Selection:
+Entropy is the amount of information you don't have about the random details of a system: what you'd need to describe those details.
+
+It takes 500 zettabytes to fully describe a gram of liquid water, but a manageable amount per molecule!
+* [2020-01-19] Gibbs paradox - Wikipedia                       :gr:
+https://en.wikipedia.org/wiki/Gibbs_paradox
+
+* [2020-02-17] Nikita Lisitsa on Twitter: "Simulating Hamiltonian mechanics instead of Metropolis-Hastings algorithm: https://t.co/cVZiaTGP7u" / Twitter
+https://twitter.com/lisyarus/status/1229487593684901889
+Selection:
+Simulating Hamiltonian mechanics instead of Metropolis-Hastings algorithm:

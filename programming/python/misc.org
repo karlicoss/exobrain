@@ -7,3 +7,16 @@ https://github.com/what-studio/profiling
 ok, this is really nice and easy to use
 * [2020-04-02] minimal-setup-py/setup.py at master · maet3608/minimal-setup-py :pip:python:
 https://github.com/maet3608/minimal-setup-py/blob/master/setup.py
+* TODO [2019-12-31] PyPy - packages                            :gr:
+http://packages.pypy.org/
+
+* TODO [2019-12-31] PyPy.js: Python in the web browser | Hacker News :gr:javascript:webext:
+https://news.ycombinator.com/item?id=17819138
+* [2020-01-13] rkern/line_profiler: Line-by-line profiling for Python :gr:performance:
+https://github.com/rkern/line_profiler
+* TODO [2020-02-12] Guido van Rossum on Twitter: "@jonasrk You missed mypy. Simpler docs use markdown, not ReST (Sphinx). Black is overrated unless your team argues over style a lot. You don't need Pylint if you're using flake8. Never heard of poetry or dependabot. And you should use a CI solution, e.g. Travis-CI, to run your tests." / Twitter :gr:
+https://twitter.com/gvanrossum/status/1227126706089021440
+Selection:
+You don't need Pylint if you're using flake8
+Comment:
+hmm

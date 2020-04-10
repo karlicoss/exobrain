@@ -10,6 +10,9 @@ The navigation sidebar might be useful to explore and overview what's in my exob
 I imagine [[https://beepb00p.xyz/exobrain/?search=exobrain][search]] as the primary means of interacting with the exobrain.
 The search yields you results as you type, which means incredibly fast feedback.
 
+Note that at the moment it's still in development.
+While I'm generally doing my best to compat link rot, notes may move around, some IDs change, etc. So if you see a piece of useful information here, make sure to copy it, not just the link.
+
 * Exobrains/wikis made by other people
 - [[https://wiki.nikitavoloboev.xyz]['Everything I know']] wiki by Nikita Voloboev
   If you want to check out one of exobrains, start with this. It was the main inspiration and got lots of high quality and curated stuff.

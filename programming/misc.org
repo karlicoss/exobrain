@@ -8,3 +8,5 @@ https://github.com/karan/Projects
 https://github.com/marketplace/actions/debugging-with-tmate
 ok, nice it's like circleci ssh debugging.
 less convenient because you have to commit a step, but ok considering you don't need it often
+* [2020-01-19] Home - Mozilla Hacks - the Web developer blog   :gr:
+https://hacks.mozilla.org/

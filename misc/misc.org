@@ -36,3 +36,41 @@ like physics travel guide, but for math
 * TODO todos
 ** TODO [2020-04-03] maybe sort by priority/date on export? or specify sort order in properties
 * [[https://twitter.com/i/web/status/584492360349913088][TW]] at [2015-04-04] Когда я читаю в release notes софтины "various style and layout fixes", автоматически предполагаю что выпилили полезные настройки. :ttweet:
+* TODO [2019-12-29] LOOPY: a tool for thinking in systems      :gr:
+https://ncase.me/loopy/
+* TODO [2020-01-01] pavelfatin/toyide: Modern IDE plus custom programming languages with interpreters and compilers :gr:
+https://github.com/pavelfatin/toyide
+
+* [2020-01-16] Running Lisp in Production                      :gr:
+https://tech.grammarly.com/blog/running-lisp-in-production
+* [2020-02-16] Elastic tabstops - a better way to indent and align code
+http://nickgravgaard.com/elastic-tabstops/
+
+* [2020-02-19] Open Source Design                          :graspw:
+https://opensourcedesign.net/
+
+* [2020-02-19] Can make syncthing only use LAN connection for some folders? - Support - Syncthing Forum :grasp:
+https://forum.syncthing.net/t/can-make-syncthing-only-use-lan-connection-for-some-folders/7523/4
+: I have few places (LANs) with “desktop server” in them, those servers sync everything using one syncthing instance (global discovery + relays as well).
+: And then I have a mobile unit: One syncthing instance that syncs constantly only a handful of crucial folders (via LAN and Internet). Second syncthing instance that syncs all “non-critical + huge-sized” folders that has only local discovery on, hence will only sync when i’m on the same LAN with one of the “desktop servers”.
+* [2020-02-16] VGraupera/1on1-questions: Mega list of 1 on 1 meeting questions compiled from a variety to sources
+https://github.com/VGraupera/1on1-questions
+
+* [2020-02-16] Kurzgesagt – In a Nutshell is creating Science Animation Videos | Patreon :donate:
+https://www.patreon.com/Kurzgesagt
+
+* [2020-01-09] Canop/broot: A new way to see and navigate directory trees :gr:
+https://github.com/Canop/broot
+
+* [2020-01-20] BusyBox cron container example                  :gr:
+https://gist.github.com/andyshinn/3ae01fa13cb64c9d36e7
+Selection:
+Try crond --help:
+* [2020-01-18] chakravala/Grassmann.jl: ⟨Leibniz-Grassmann-Clifford⟩ differential geometric algebra / multivector simplicial complex :gr:
+https://github.com/chakravala/Grassmann.jl
+Selection:
+The Grassmann.jl package provides tools for doing computations based on multi-linear algebra, differential geometry, and spin groups using the extended tensor algebra known as Leibniz-Grassmann-Clifford-Hestenes geometric algebra.
+* Tweet from @TheMagic_Ian
+https://twitter.com/TheMagic_Ian/status/1245580360743710721
+
+@TheMagic_Ian: Stop using fake-secure, or insecure video conferencing apps like Zoom, Skype, Duo, HouseParty,  Facebook Messenger, Slack, Teams! Consider #Jitsi or #Matrix clients like #Riot. twitter.com/theintercept/statu...

@@ -18,3 +18,16 @@ https://github.com/feedbin/feedbin-api#readme
 https://lobste.rs/saved.json
 Comment:
 port saved lobsters posts?
+* TODO need to rename reddit module to reddit2org?                    :orger:
+* [2020-03-22] Reddit's Save Functionality Sucks | My Random Thoughts by Cedric Amaya :reddit:exports:
+https://cedric.tech/blog/reddits-save-functionality-sucks/
+Selection:
+For those unaware, saving things on Reddit as a non-Premium member works in the following way:
+
+    limited to 1000 saved things (posts and comments) total; once the limit is reached, older things are replaced and essentially deleted from history
+    saves are stored in reverse chronological order (latest to oldest)
+    no way whatsoever to filter or sort saved content
+    no searching capability is provided
+    pagination limit on Reddit site is limited to 25 items, thus requiring users to use the “Next Page” or “Prev Page” buttons a lot
+Comment:
+the fuck?? they are deleted from history??
