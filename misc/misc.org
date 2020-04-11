@@ -74,3 +74,37 @@ The Grassmann.jl package provides tools for doing computations based on multi-li
 https://twitter.com/TheMagic_Ian/status/1245580360743710721
 
 @TheMagic_Ian: Stop using fake-secure, or insecure video conferencing apps like Zoom, Skype, Duo, HouseParty,  Facebook Messenger, Slack, Teams! Consider #Jitsi or #Matrix clients like #Riot. twitter.com/theintercept/statu...
+* doesn't look active. all top results are from 2017            :axol:upspin:
+* [2020-04-06] (HN discussion on configs) wow, people have such strong opinions about software architecture, what it *should* be and what it *shouldn't be* etc
+Like, unconditionally assuming that there is data and there is code, and that there is no middle ground whatsoever
+often assuming there is one single way of doing things and that's it. incredible
+* [2020-04-05] Start all of your commands with a comma (2009) | Hacker News
+https://news.ycombinator.com/item?id=22778988
+* [2020-04-08] Watch the Life Cycle of HIV in Colorful New Detail - Scientific American Blog Network
+https://blogs.scientificamerican.com/observations/watch-the-life-cycle-of-hiv-in-colorful-new-detail/
+* [2020-04-10] Emily Levesque Public Lecture: The Weirdest Stars in the Universe - YouTube
+https://www.youtube.com/watch?v=YR-l0b2iYy0
+Comment:
+pretty cool talk!
+* TODO [2020-03-24] PEP 593 -- Flexible function and variable annotations | Python.org
+https://www.python.org/dev/peps/pep-0593/
+* [2020-04-07] Firefox 75 for developers - Mozilla | MDN
+https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/75
+Selection:
+In the inspector, you can now use XPath expressions to locate elements, in addition to locating elements using CSS selectors as before (bug 963933).
+* [2020-04-08] antonmedv/codejar: An embeddable code editor for the browser 🍯
+https://github.com/antonmedv/codejar
+Selection:
+CodeJar honey_pot can be used via modules:
+
+: <script type="module">
+:   import {CodeJar} from 'https://medv.io/codejar/codejar.js'
+: </script>
+* TODO [2019-08-24] Simple dependent types in Python - DEV Community 👩‍💻👨‍💻 :gr:python:
+https://dev.to/wemake-services/simple-dependent-types-in-python-4e14
+Selection:
+Now, we are going to combine our new knowledge about Literal and @overload together to solve our problem with open. At last!
+* TODO [2019-08-18] JStumpp/awesome-android: A curated list of awesome Android packages and resources. :gr:
+https://github.com/JStumpp/awesome-android#readme
+Selection:
+Development Alternatives

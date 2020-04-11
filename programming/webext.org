@@ -113,3 +113,25 @@ web-ext submit would submit to amo only. If you want the zip you can already use
 * [2020-02-17] Introducing Prism: An awesome new syntax highlighter | Lea Verou
 https://lea.verou.me/2012/07/introducing-prism-an-awesome-new-syntax-highlighter/#more-1841
 * TODO chrome got far better profiling, better debugging information + screenshots :webext:
+* releasing new PUBLIC version on AMO                  :amo:promnesia:webext:
+apparently doesn't work through webext regardless. once it's autosigned, you're screwed??
+so to publish on AMO you always have to upload the zip
+
+- with_secrets ./build --firefox --release --lint
+  dump the zip extension
+- choose to upload it AS LISTED on AMO
+- git archive master --output=promnesia-source.zip -- upload source
+
+huh. interesting, it seemed to have published instantly...
+* TODO ugh, can't force webpack/chrome into using date in the version... :webext:
+https://developer.chrome.com/apps/manifest/version
+* TODO for fucks sake. releasing even without 'unlisted' channel doesn't make it automatically submitted for manual review??? :webext:amo:
+* [2020-04-05] roam-toolkit/webpack.config.js at master · roam-unofficial/roam-toolkit :webext:
+https://github.com/roam-unofficial/roam-toolkit/blob/master/webpack.config.js
+Selection:
+new webpack.DefinePlugin({
+			'NODE_ENV': JSON.stringify(nodeEnv),
+			'WEB_BROWSER': JSON.stringify(webBrowser),
+		}),
+Comment:
+hmm wonder if this is useful?

@@ -37,3 +37,8 @@ Peek does not support this natively. But you could install an external tool like
 
 * [2020-04-02] Capture/Desktop – FFmpeg                      :demo:
 https://trac.ffmpeg.org/wiki/Capture/Desktop
+* [2020-04-02] recordmyscreen                               :demos:
+I think it dumps broken ogv file. There is some jerkiness.
+When you convert it to something else with ffmpeg, it's complaining about broken frames and sometimes even segfaults
+
+also it hasn't been updated for a decade, apparently

@@ -1,0 +1,28 @@
+#+TITLE: Mypy tips and tricks
+#+filetags: :python:mypy:
+* TODO [2019-10-26] [[https://mypy.readthedocs.io/en/latest/common_issues.html?highlight=reveal_type#reveal-type][reveal_type]] can be used during the type checking
+=reveal_type(a)  # N: Revealed type is 'builtins.int'=
+: https://github.com/python/mypy/blob/09c243dcc12935b989367f31d1d25d7fd0ec634c/test-data/unit/check-python38.test
+
+* [2019-12-07] [[https://www.reddit.com/r/Python/comments/8hmjq9/the_other_great_benefit_of_python_type_annotations/dyl1wjt][hack for preventing unnecessary module imports]]
+Type annotation will require importing modules that you wouldn't need to import without it. However there is now a workaround (quote the name and import in a dead if):
+
+: if False:
+:     from bar_module import bar
+: 
+: def foo(a: 'bar'):
+:      pass
+
+* TODO [2019-10-27] how should type of lru_cache be defined
+https://github.com/python/mypy/issues/5107
+
+: from typing import TYPE_CHECKING, TypeVar
+: if TYPE_CHECKING:
+:     F = TypeVar('F', Callable)
+:     def lru_cache(f: F) -> F: pass
+: else:
+:     from functools import lru_cache
+
+* TODO [2019-04-16] The Mypy Blog: Mypy 0.700 Released: Up To 4x Faster
+https://mypy-lang.blogspot.com/2019/04/mypy-0700-released-up-to-4x-faster.html
+: We are now shipping a mypy binary compiled with mypyc by default, which is up to 4x faster than the interpreted version shipped previously. The compiled version has been available as a separate PyPI distribution for a while now, and this is first release where it’s installed by default. Mypyc is a compiler that compiles type-annotated Python modules into efficient CPython C extension modules.

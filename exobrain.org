@@ -39,3 +39,4 @@ Selection:
 * TODO build custom agendas? that way, easy to make tag views      :exobrain:
 * TODO There are lots of cool links which I might never get to explore :exobrain:motivation:
 However I did spend time 'curating' them, so perhaps they could serve as a kick off point for someone else
+* TODO hmm, wonder if there is a way to spin up a container at heroku or something? :cloudmacs:exobrain:

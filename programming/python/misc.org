@@ -1,22 +1,20 @@
 #+TITLE: Uncategorized
 #+filetags: python
-* [2020-03-08] what-studio/profiling: An interactive continuous Python profiler. :profiling:
-https://github.com/what-studio/profiling
-: profiling live-profile webserver.py
-
-ok, this is really nice and easy to use
-* [2020-04-02] minimal-setup-py/setup.py at master · maet3608/minimal-setup-py :pip:python:
-https://github.com/maet3608/minimal-setup-py/blob/master/setup.py
 * TODO [2019-12-31] PyPy - packages                            :gr:
 http://packages.pypy.org/
 
 * TODO [2019-12-31] PyPy.js: Python in the web browser | Hacker News :gr:javascript:webext:
 https://news.ycombinator.com/item?id=17819138
-* [2020-01-13] rkern/line_profiler: Line-by-line profiling for Python :gr:performance:
-https://github.com/rkern/line_profiler
 * TODO [2020-02-12] Guido van Rossum on Twitter: "@jonasrk You missed mypy. Simpler docs use markdown, not ReST (Sphinx). Black is overrated unless your team argues over style a lot. You don't need Pylint if you're using flake8. Never heard of poetry or dependabot. And you should use a CI solution, e.g. Travis-CI, to run your tests." / Twitter :gr:
 https://twitter.com/gvanrossum/status/1227126706089021440
 Selection:
 You don't need Pylint if you're using flake8
 Comment:
 hmm
+
+
+* Construct: kinda like struct but better? https://construct.readthedocs.io/en/latest/ :parsing:
+* Pyrser: grammars? https://pythonhosted.org/pyrser/                :parsing:
+* [2019-09-22] [[https://reddit.com/r/Python/comments/d4zfhc/python3_fstrings_a_complete_guide_to_the_most/f0ieyws/][Python3 f-strings - A complete guide to the most well received feature of Python 3.]] /r/Python
+: That’s a part of python’s data model like `len`, `reversed`, `iter`, …:
+: `datetime` simply defines [`datetime.__format__`](https://docs.python.org/3/library/datetime.html#datetime.date.__format__). The method [is explained here](https://docs.python.org/3/reference/datamodel.html#object.__format__).

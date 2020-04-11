@@ -1,0 +1,21 @@
+#+TITLE: Python
+#+filetags: python
+
+
+* Testing                                                           :testing:
+** TODO [2020-03-27] Hypothesis has a set of Pandas strategies for generating data :pandas:
+: https://www.hillelwayne.com/talks/beyond-unit-tests/
+
+* Profiling                                                     :performance:
+** [2020-03-08] what-studio/profiling: An interactive continuous Python profiler
+https://github.com/what-studio/profiling
+: profiling live-profile webserver.py
+
+ok, this is really nice and easy to use
+
+** [2020-01-13] rkern/line_profiler: Line-by-line profiling for Python :performance:
+https://github.com/rkern/line_profiler
+
+* Packaging
+** [2020-04-02] minimal-setup-py/setup.py at master · maet3608/minimal-setup-py :pip:
+https://github.com/maet3608/minimal-setup-py/blob/master/setup.py

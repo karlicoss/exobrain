@@ -1,3 +1,0 @@
-#+TITLE: 
-* Construct: kinda like struct but better? https://construct.readthedocs.io/en/latest/
-* Pyrser: grammars? https://pythonhosted.org/pyrser/
