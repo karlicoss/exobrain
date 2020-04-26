@@ -1,21 +1,23 @@
 #+TITLE: Intro
-Exobrain, or "second brain", or "brain dump" is something like public wiki where you can keep your notes, ideas and thoughts.
+Exobrain, or "second brain", or "brain dump" is something like public wiki where you can keep your *notes, ideas and thoughts*.
 Other people can search in your exobrain without having to physically interact with you.
 
 You can find org-mode sources of the files [[https://github.com/karlicoss/exobrain][here]], and the code to process and compile it [[https://github.com/karlicoss/exobrain-compiler][here]].
 
-My exobrain contains semi-curated notes, tasks and links. Some of it might be too unprocessed, but it's okay if it doesn't make sense!
+My exobrain contains semi-curated notes, tasks and links.
+Some of it is quite unprocessed, but hopefully enough to make sense, especially if you are looking for something specific.
 
 The navigation sidebar might be useful to explore and overview what's in my exobrain, but going through all of it is too much work.
-I imagine [[https://beepb00p.xyz/exobrain/?search=exobrain][search]] as the primary means of interacting with the exobrain.
-The search yields you results as you type, which means incredibly fast feedback.
+I imagine [[https://beepb00p.xyz/exobrain/?search=exobrain][*search*]] as the *primary* means of interacting with the exobrain.
+The search yields you *results as you type*, which means incredibly fast feedback.
 
 Note that at the moment it's still in development.
-While I'm generally doing my best to compat link rot, notes may move around, some IDs change, etc. So if you see a piece of useful information here, make sure to copy it, not just the link.
+While I'm generally doing my best to combat link rot, notes may move around, some IDs change, etc. So if you see a piece of useful information here, make sure to copy it, not just the link.
 
 * Exobrains/wikis made by other people
 - [[https://wiki.nikitavoloboev.xyz]['Everything I know']] wiki by Nikita Voloboev
-  If you want to check out one of exobrains, start with this. It was the main inspiration and got lots of high quality and curated stuff.
+
+  If you want to check out one exobrain, start with this. It was my main inspiration and got lots of high quality and curated stuff.
 
 - [[https://wiki.xxiivv.com/site/about.html][xxiivv]] by Devine Lu Linvega
 - [[https://philosopher.life/#h0p3][h0p3's Wiki]]

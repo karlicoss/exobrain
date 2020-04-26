@@ -81,6 +81,9 @@ https://news.ycombinator.com/item?id=22093944
 : Put off thy shoes from off thy feet, for the place whereon thou standest is holy ground. -- EXODUS III, 5
 
 
+** TODO [2019-12-28] Permutation City - Wikipedia
+https://en.wikipedia.org/wiki/Permutation_City
+
 * TODO goodenough biography
 * TODO Here are a handful of languages intended for modeling, simulating, or designing physical systems: :hyp2org:climate:
 None
@@ -127,4 +130,4 @@ Selection:
 I'm going to try doing a bit more longform writing with half-formed thoughts on my notebook blog, as I've not been doing enough of it recently. Here's a thread for them as I write them.
 Comment:
 wow, lots of cool stuff here..
-* [2020-01-20] [[http://web.eecs.utk.edu/~azh/blog/notebookpainpoints.html][What's wrong with computational notebooks? - Austin Z. Henley
+* [2020-01-20] [[http://web.eecs.utk.edu/~azh/blog/notebookpainpoints.html][What's wrong with computational notebooks? - Austin Z. Henley]]
