@@ -11,6 +11,8 @@
 - [[file:biology/README.org][biology]]
   - [[file:biology/biology-misc.org][biology-misc]]
   - [[file:biology/human-body.org][human-body]]
+- [[file:blog/README.org][blog]]
+  - [[file:blog/blog.org][Blog related stuff]]
 - [[file:cs/README.org][cs]]
   - [[file:cs/computability.org][computability]]
   - [[file:cs/neural-networks.org][neural-networks]]
