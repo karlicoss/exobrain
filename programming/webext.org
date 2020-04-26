@@ -1,12 +1,17 @@
 #+TITLE: Building browser extensions
 #+filetags: webext
-* TODO [2019-08-18] fregante/Awesome-WebExtensions: A curated list of awesome resources for WebExtensions development. :promnesia:grasp:webext:
-https://github.com/fregante/Awesome-WebExtensions#readme
-Selection:
-Chrome Webstore Upload - Upload the extension to the Chrome Web Store via cli (or on Travis, automatically).
+
+* Apply the Javascript best practices
+- use Flow or Typescript
+- use ES6
+- use Promise
+- use Fetch API
+
+* TODO [2019-08-18] [[https://github.com/fregante/Awesome-WebExtensions#readme][fregante/Awesome-WebExtensions: A curated list of awesome resources for WebExtensions development.]] :promnesia:grasp:webext:
+: Chrome Webstore Upload - Upload the extension to the Chrome Web Store via cli (or on Travis, automatically).
 ** [2019-09-02] https://github.com/LinusU/wext-shipit this works also for firefox? :webext:firefox:
-* TODO [2019-08-18] use sinon-chrome? Mocks the Chrome Extensions API for testing :grasp:promnesia:webext:
-https://github.com/acvetkov/sinon-chrome
+* TODO [2019-08-18] [[https://github.com/acvetkov/sinon-chrome][use sinon-chrome? Mocks the Chrome Extensions API for testing]] :grasp:promnesia:webext:
+
 
 * START [#B] [2019-08-28] Working with quota on mobile browsers: A research report on browser storage - HTML5 Rocks :gr:html5:webext:
 :LOGBOOK: 
@@ -20,98 +25,59 @@ https://addons.mozilla.org/en-US/developers/addons
 ** [2020-02-15] ok, first time you need to create manually; after that, get the id (it's public, so ok to put in a git repo) and use it with the build script
 * DONE [2019-05-01] telotortium/org-capture-extension at native-messaging-host
 https://github.com/telotortium/org-capture-extension/tree/native-messaging-host
-Selection:
-Native Messaging Host
-This is a version of the Org Capture Extension using the Chrome Native Messaging host
-** [2019-08-10] hmm firefox also got it?
-https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging
+: Native Messaging Host
+: This is a version of the Org Capture Extension using the Chrome Native Messaging host
+** [2019-08-10] [[https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging][hmm firefox also got it?]]
+
 ** [2020-02-15] ok, seems tricky, and apparently requires installing via OS
 
-* TODO [2019-09-08] fregante/webext-options-sync: Helps you manage and autosave your extension's options. Chrome and Firefox. :gr:promnesia:grasp:
-https://github.com/fregante/webext-options-sync
-Selection:
-webext-domain-permission-toggle - 
-* TODO [2019-08-29] javascript - Chrome messaging: chrome.runtime.sendMessage not working on the newest release 49 - Stack Overflow :webext:
-https://stackoverflow.com/questions/35857606/chrome-messaging-chrome-runtime-sendmessage-not-working-on-the-newest-release-4
-Selection:
-
-
-This is the intended behaviour. Messages were not supposed to be received by the sending page. The old behaviour was a bug. This is discussed in these bug reports: 479425 479951.
+* TODO [2019-09-08] [[https://github.com/fregante/webext-options-sync][fregante/webext-options-sync: Helps you manage and autosave your extension's options. Chrome and Firefox.]] :gr:promnesia:grasp:
+: webext-domain-permission-toggle -
+* TODO [2019-08-29] [[https://stackoverflow.com/questions/35857606/chrome-messaging-chrome-runtime-sendmessage-not-working-on-the-newest-release-4][javascript - Chrome messaging: chrome.runtime.sendMessage not working on the newest release 49 - Stack Overflow]] :webext:
+: This is the intended behaviour. Messages were not supposed to be received by the sending page. The old behaviour was a bug. This is discussed in these bug reports: 479425 479951.
 * TODO browser_action impacts presense of menu item on android..     :webext:
 * [2019-10-27] Re: [fregante/webext-options-sync] feat: optionally use chrome.storage.local (#19) - karlicoss@gmail.com - Gmail :gr:
-Selection:
-'d rather not offer this option because I think cross-device sync is always preferable from the user's point of view, but I'm willing to add this for extensions with options that are meant to be local (e.g. a port number)
+: I'd rather not offer this option because I think cross-device sync is always preferable from the user's point of view, but I'm willing to add this for extensions with options that are meant to be local (e.g. a port number)
+: PR welcome, documentation included.
+* TODO [2019-09-08] [[https://github.com/fregante/webext-options-sync/pull/8/commits/58aea6988d268b73f197894839a3318d909b06a0][let the user decide what storage type shall be used by obama · Pull Request #8 · fregante/webext-options-sync]] :gr:
 
-PR welcome, documentation included.
-* TODO [2019-09-08] let the user decide what storage type shall be used by obama · Pull Request #8 · fregante/webext-options-sync :gr:
-https://github.com/fregante/webext-options-sync/pull/8/commits/58aea6988d268b73f197894839a3318d909b06a0
-
-* DONE [2020-01-09] podsvechnik/background.js at master · vpavlenko/podsvechnik :gr:grasp:promnesia:
-https://github.com/vpavlenko/podsvechnik/blob/master/background.js
-Selection:
- fetch('https://english.edward.io/parse', {
-        method: 'POST',
-        mode: 'no-cors',
-        body: data
 * DONE [2019-09-08] notlmn/browser-extension-template: Barebones boilerplate with webpack, options handler and auto-publishing :grasp:webext:
 https://github.com/notlmn/browser-extension-template
-Features
+: Features
+:     Use modern Promise-based browser.* APIs webextension-polyfill.
+:     Auto-syncing options.
+:     Auto-publishing with auto-versioning and support for manual releases.
+:     Extensive configuration documentation.
 
-Use modern Promise-based browser.* APIs webextension-polyfill.
-Auto-syncing options.
-Auto-publishing with auto-versioning and support for manual releases.
-Extensive configuration documentation.
+* [2020-02-08] [[https://blog.mozilla.org/addons/2018/02/28/discontinuing-support-for-beta-versions/][Discontinuing support for beta versions | Mozilla Add-ons Blog]] :gr:
+: AMO supports signing self-hosted (unlisted) versions, which we believe is a good replacement. With self-hosted versions, developers can create multiple development update channels if needed. They can easily move users between channels. The main caveat is that the files and update mechanisms need to be hosted by the developer
+* [2020-02-15] [[https://dev.to/napolux/how-to-add-comments-to-packagejson-5doi][How to add comments to package.json? - DEV Community 👩‍💻👨‍💻]] :blog:
+: How to add comments to package.json?
+* TODO [2020-02-15] [[https://www.npmjs.com/package/xo][xo - npm]]
+: Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code. Never discuss code style on a pull request again! No decision-making. No .eslintrc or .jshintrc to manage. It just works!
+* [2020-02-15] [[https://github.com/notlmn/browser-extension-template/blob/master/source/options-storage.js][browser-extension-template/options-storage.js at master · notlmn/browser-extension-template]]
+: import OptionsSync from 'webext-options-sync';
 
-* [2020-02-08] Discontinuing support for beta versions | Mozilla Add-ons Blog :gr:
-https://blog.mozilla.org/addons/2018/02/28/discontinuing-support-for-beta-versions/
-Selection:
-AMO supports signing self-hosted (unlisted) versions, which we believe is a good replacement. With self-hosted versions, developers can create multiple development update channels if needed. They can easily move users between channels. The main caveat is that the files and update mechanisms need to be hosted by the developer
-* [2020-02-15] How to add comments to package.json? - DEV Community 👩‍💻👨‍💻 :blog:
-https://dev.to/napolux/how-to-add-comments-to-packagejson-5doi
-Selection:
-How to add comments to package.json?
-* TODO [2020-02-15] xo - npm
-https://www.npmjs.com/package/xo
-Selection:
-Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code. Never discuss code style on a pull request again! No decision-making. No .eslintrc or .jshintrc to manage. It just works!
-* [2020-02-15] browser-extension-template/options-storage.js at master · notlmn/browser-extension-template
-https://github.com/notlmn/browser-extension-template/blob/master/source/options-storage.js
-Selection:
-import OptionsSync from 'webext-options-sync';
+* [2020-02-15] [[https://github.com/notlmn/browser-extension-template#publishing][notlmn/browser-extension-template: Barebones boilerplate with webpack, options handler and auto-publishing]] :TODO:
+: Target respective browsers using .babelrc.
+* [2020-02-15] [[https://github.com/DrewML/chrome-webstore-upload-cli][DrewML/chrome-webstore-upload-cli: Upload/Publish Chrome Web Store extensions from the CLI]] :webext:
+: chrome-webstore-upload-cli
 
-* [2020-02-15] notlmn/browser-extension-template: Barebones boilerplate with webpack, options handler and auto-publishing :TODO:
-https://github.com/notlmn/browser-extension-template#publishing
-Selection:
-Target respective browsers using .babelrc.
-* [2020-02-15] DrewML/chrome-webstore-upload-cli: Upload/Publish Chrome Web Store extensions from the CLI :webext:
-https://github.com/DrewML/chrome-webstore-upload-cli
-Selection:
-chrome-webstore-upload-cli
-Comment:
-guide for publishing on chrome store
-* [2020-02-21] Choosing a browser to write extensions for | Lobsters :graspw:
-https://lobste.rs/s/2bq29z/choosing_browser_write_extensions_for
-Selection:
-Thanks for the advice! I was actually inspired to go down this route by seeing the things you’ve been building. I think my interests are similar, but not quite the same.
+- comment
+: guide for publishing on chrome store
+* [2020-02-21] [[https://lobste.rs/s/2bq29z/choosing_browser_write_extensions_for][Choosing a browser to write extensions for | Lobsters]]
+: Thanks for the advice! I was actually inspired to go down this route by seeing the things you’ve been building. I think my interests are similar, but not quite the same.
+: There are two main extensions I want to build. First, a way to archive and mark up webpages. There is a Chrome extension called Weava that does something similar, but it’s SaaS and I doesn’t seem to have a convenient export format.
+: Second, I would like better history tools. In particular, often have the problem that I read an article or page and want to link to it in a blog post (or similar), but I’ve forgotten how I found it. I’d like an extension that can maintain “chains” of followed links so that I can always look up how I found something.
+: I’m happy to get in touch and consider collaborating if you’re interested.
+* [2020-02-18] [[https://addons.mozilla.org/en-US/developers/addon/promnesia/versions/submit/][Upload Add-on :: Promnesia :: Add-ons for Firefox]]
 
-There are two main extensions I want to build. First, a way to archive and mark up webpages. There is a Chrome extension called Weava that does something similar, but it’s SaaS and I doesn’t seem to have a convenient export format.
+* [2020-02-18] [[https://github.com/mozilla/web-ext][mozilla/web-ext: A command line tool to help build, run, and test web extensions]]
+: Hi! This tool is under active development. To get involved you can watch the repo, file issues, create pull requests, or ask a question on dev-addons
+* [2020-02-18] [[https://github.com/mozilla/web-ext/issues/804][Add `web-ext submit` to submit listed add-ons to AMO · Issue #804 · mozilla/web-ext]]
+: web-ext submit would submit to amo only. If you want the zip you can already use web-ext build
+* [2020-02-17] [[https://lea.verou.me/2012/07/introducing-prism-an-awesome-new-syntax-highlighter/#more-1841][Introducing Prism: An awesome new syntax highlighter | Lea Verou]]
 
-Second, I would like better history tools. In particular, often have the problem that I read an article or page and want to link to it in a blog post (or similar), but I’ve forgotten how I found it. I’d like an extension that can maintain “chains” of followed links so that I can always look up how I found something.
-
-I’m happy to get in touch and consider collaborating if you’re interested.
-* [2020-02-18] Upload Add-on :: Promnesia :: Add-ons for Firefox
-https://addons.mozilla.org/en-US/developers/addon/promnesia/versions/submit/
-
-* [2020-02-18] mozilla/web-ext: A command line tool to help build, run, and test web extensions
-https://github.com/mozilla/web-ext
-Selection:
-Hi! This tool is under active development. To get involved you can watch the repo, file issues, create pull requests, or ask a question on dev-addons
-* [2020-02-18] Add `web-ext submit` to submit listed add-ons to AMO · Issue #804 · mozilla/web-ext
-https://github.com/mozilla/web-ext/issues/804
-Selection:
-web-ext submit would submit to amo only. If you want the zip you can already use web-ext build
-* [2020-02-17] Introducing Prism: An awesome new syntax highlighter | Lea Verou
-https://lea.verou.me/2012/07/introducing-prism-an-awesome-new-syntax-highlighter/#more-1841
 * TODO chrome got far better profiling, better debugging information + screenshots :webext:
 * releasing new PUBLIC version on AMO                  :amo:promnesia:webext:
 apparently doesn't work through webext regardless. once it's autosigned, you're screwed??
@@ -126,12 +92,11 @@ huh. interesting, it seemed to have published instantly...
 * TODO ugh, can't force webpack/chrome into using date in the version... :webext:
 https://developer.chrome.com/apps/manifest/version
 * TODO for fucks sake. releasing even without 'unlisted' channel doesn't make it automatically submitted for manual review??? :webext:amo:
-* [2020-04-05] roam-toolkit/webpack.config.js at master · roam-unofficial/roam-toolkit :webext:
-https://github.com/roam-unofficial/roam-toolkit/blob/master/webpack.config.js
-Selection:
-new webpack.DefinePlugin({
-			'NODE_ENV': JSON.stringify(nodeEnv),
-			'WEB_BROWSER': JSON.stringify(webBrowser),
-		}),
-Comment:
-hmm wonder if this is useful?
+* [2020-04-05] [[https://github.com/roam-unofficial/roam-toolkit/blob/master/webpack.config.js][roam-toolkit/webpack.config.js at master · roam-unofficial/roam-toolkit]] :webext:
+: new webpack.DefinePlugin({
+: 			'NODE_ENV': JSON.stringify(nodeEnv),
+: 			'WEB_BROWSER': JSON.stringify(webBrowser),
+: 		}),
+
+- comment
+: hmm wonder if this is useful?
