@@ -1,4 +1,6 @@
 #+TITLE: Reading list
+#+filetags: read
+
 This in my public todo-list, so it's constantly changing and things are moving around.
 
 * Books                                                              :refile:
@@ -10,46 +12,42 @@ Gene Wolfe: Peace is maybe his best book IMO if you are hesitant to read somethi
 
 *** [2019-02-27] The entire block is primarily presented frozen in time, on June 23, 1975, just before 8 pm, moments after the death of Bartlebooth. Nonetheless, the constraints system creates hundreds of separate stories concerning the inhabitants of the block, past and present, and the other people in their lives. The story of Bartlebooth is the principal thread, but it interlinks with many others.
 *** [2019-06-26] ok, gwern recommends it?
-** DONE [2019-03-19] New Ted Chiang Incoming : printSF       :read:
+** DONE [2019-03-19] New Ted Chiang Incoming : printSF
 https://www.reddit.com/r/printSF/comments/azo1o6/new_ted_chiang_incoming/
 
 *** [2019-04-08]  Omphalos and Anxiety is the Dizziness of Freedom are the new ones.
-** DONE [2019-05-08] Ted Chiang - Wikipedia                 :grasp:
+** DONE [2019-05-08] Ted Chiang - Wikipedia
 https://en.wikipedia.org/wiki/Ted_Chiang#Collections
-Selection:
-"Omphalos", Exhalation: Stories, 2019
-"Anxiety Is the Dizziness of Freedom", Exhalation: Stories, 2019
-** TODO [2019-05-08] [[https://www.kobo.com/us/en/ebook/exhalation-4][Exhalation eBook by Ted Chiang - 9781101947906 | Rakuten Kobo]] :grasp:
+: "Omphalos", Exhalation: Stories, 2019
+: "Anxiety Is the Dizziness of Freedom", Exhalation: Stories, 2019
+** TODO [2019-05-08] [[https://www.kobo.com/us/en/ebook/exhalation-4][Exhalation eBook by Ted Chiang - 9781101947906 | Rakuten Kobo]]
 
 
-** START [#B] [2019-05-05] perihelion summer. John Carlos Baez on Twitter: "Unlike some of Egan's recent fiction this is set on Earth with characters that are people kinda like us. You can read a bit about it here: https://t.co/OkWdNnYYsU… https://t.co/0W1zPMInIN" :grasp:
+** STRT [#B] [2019-05-05] perihelion summer. John Carlos Baez on Twitter: "Unlike some of Egan's recent fiction this is set on Earth with characters that are people kinda like us. You can read a bit about it here: https://t.co/OkWdNnYYsU… https://t.co/0W1zPMInIN"
 https://twitter.com/johncarlosbaez/status/1125070015172997120
 
-** TODO [2019-06-15] [[https://medium.com/@max_cherepitsa/bret-victor-bookshelf-transcribed-eae4d63aa493][Bret Victor Bookshelf Transcribed – Max Cherepitsa – Medium]] :gr:
-
-
-** TODO [2019-09-02] [[https://reddit.com/r/scifi/comments/cvy78o/searching_stories_with_super_intelligence_in/eyldzyb/][Searching stories with super intelligence in humans theme]] /r/scifi :read:
-Love and recommend "Brainchild" just for this. Explores multiple different angles of what we call intelligence.
-
-https://www.amazon.com/Brain-Child-Novel-George-Turner/dp/0688105955
+** TODO [2019-06-15] [[https://medium.com/@max_cherepitsa/bret-victor-bookshelf-transcribed-eae4d63aa493][Bret Victor Bookshelf Transcribed – Max Cherepitsa – Medium]]
+** TODO [2019-09-02] [[https://reddit.com/r/scifi/comments/cvy78o/searching_stories_with_super_intelligence_in/eyldzyb/][Searching stories with super intelligence in humans theme]] /r/scifi
+:  Love and recommend "Brainchild" just for this. Explores multiple different angles of what we call intelligence.
+:  https://www.amazon.com/Brain-Child-Novel-George-Turner/dp/0688105955
 ** TODO Tweet from simpolism (@simpolism), at Nov 2, 23:35
-How sci-fi should be done in 2019. You may not agree with the moral thrusts (I don't, at times), but the work is undeniably imaginative; an enchanted dream, refreshing in the age of shattered illusions. And don't miss the maze of secondary material! https://t.co/rFfrVF6Fgs
+:  How sci-fi should be done in 2019. You may not agree with the moral thrusts (I don't, at times), but the work is undeniably imaginative; an enchanted dream, refreshing in the age of shattered illusions. And don't miss the maze of secondary material! https://t.co/rFfrVF6Fgs
+:  https://twitter.com/simpolism/status/1190774586905911298
 
-https://twitter.com/simpolism/status/1190774586905911298
+** TODO [2019-11-06] [[https://twitter.com/i/web/status/1176017858414800906][Brian Armstrong on Twitter: "Some interesting sci-fi short stories I've read recently: Understand by Ted Chiang https://t.co/IjHuODMxGG The Gentle Seduction by Marc Stiegler https://t.co/DAQfsEcVqc This Quora answer: https://t.co/PzzEGfsBEW Enjoy!" / Twitter]]
+: Some interesting sci-fi short stories I've read recently:
 
-** TODO [2019-11-06] [[https://twitter.com/i/web/status/1176017858414800906][Brian Armstrong on Twitter: "Some interesting sci-fi short stories I've read recently: Understand by Ted Chiang https://t.co/IjHuODMxGG The Gentle Seduction by Marc Stiegler https://t.co/DAQfsEcVqc This Quora answer: https://t.co/PzzEGfsBEW Enjoy!" / Twitter]] :graspw:
 
-Selection:
-Some interesting sci-fi short stories I've read recently:
+: Understand by Ted Chiang
+: https://web.archive.org/web/20140311042827/http://www.infinityplus.co.uk/stories/under.htm…
 
-Understand by Ted Chiang
-https://web.archive.org/web/20140311042827/http://www.infinityplus.co.uk/stories/under.htm…
 
-The Gentle Seduction by Marc Stiegler
-http://skyhunter.com/marcs/GentleSeduction.html…
+: The Gentle Seduction by Marc Stiegler
+: http://skyhunter.com/marcs/GentleSeduction.html…
 
-This Quora answer:
-** START [#C] [2018-09-22] Вконец заебавшийся крылатый зотлинг on Twitter: "В моменты полнейшей заёбанности на работе сделал вот такую хуетень. Это флоучарт для выбора НФ-книг по куче разных (и иногда довольно тупых) критериев. Зачем? ¯\_(ツ)_/¯… https://t.co/uI8KTjhoWl"
+
+: This Quora answer:
+** STRT [#C] [2018-09-22] Вконец заебавшийся крылатый зотлинг on Twitter: "В моменты полнейшей заёбанности на работе сделал вот такую хуетень. Это флоучарт для выбора НФ-книг по куче разных (и иногда довольно тупых) критериев. Зачем? ¯\_(ツ)_/¯… https://t.co/uI8KTjhoWl"
 https://twitter.com/future_is_meow/status/1043042205479395328
 
 *** DONE Diaspora by Greg Egan
@@ -59,50 +57,53 @@ https://twitter.com/future_is_meow/status/1043042205479395328
 *** TODO Return from the Stars by Lem
 
 
-** TODO significant digits (after hpmor)                               :read:
+** DONE significant digits (after hpmor)
 http://www.anarchyishyperbole.com/p/significant-digits.html
 
 *** TODO but first, blinkist
-** START [#C] Fredkin, Digital Philosophy                              :book:
+** STRT [#C] Fredkin, Digital Philosophy
 *** Why is it true that mathematics is so good at modeling processes in the physical sciences?
 *** Everything fundamental is assumed to be atomic or discrete; and thereby so is everything else.
 *** The principle of simplicity has driven us to reluctantly make a decision—in this paper DP is a particle model and all processes in DP are consequences of the motions and interactions of particles.
 ** [2018-06-10] [[https://www.goodreads.com/review/list/5512374-yuri-krupenin?shelf=%23ALL%23][Yuri Krupenin’s books on Goodreads (468 books)]]
 
-
-
-** TODO read the road to reality  (Woit's recommendation) :kobo2org:read:physics:
+** TODO read the road to reality  (Woit's recommendation)  :kobo2org:physics:
 His remarkable book The Road to Reality4 gives an extensive overview of theoretical physics, largely from the point of view of general relativity rather than particle physics, and can be consulted for a summary of the main ideas of twistor theor
 from Not Even Wrong: The Failure of String Theory and the Search for Unity in Physical Law for Unity in Physical Law
 ** TODO Tweet from Greg Egan (@gregeganSF), at Nov 1, 2017, 04:40 For readers in the US, nine of my books are available as DRM-free ebooks for $2.99
 https://twitter.com/gregeganSF/status/925583342845575168
-* TODO goodenough biography                                            :read:
+** TODO [2020-02-07] "Ask HN: What are the best unknown books you have read?"
+https://news.ycombinator.com/item?id=22093944
+: Among technical books, books by Cornelius Lanczos are some of the best (less popular) books I've read. Some quotes from his "The Variational Principles of Mechanics":
+: From the Preface:
+: Many of the scientific treatises of today are formulated in a half-mystical language, as though to impress the reader with the uncomfortable feeling that he is in the permanent presence of a superman. The present book is conceived in a humble spirit and is written for humble people.
+: From Chapter 8:
+: Put off thy shoes from off thy feet, for the place whereon thou standest is holy ground. -- EXODUS III, 5
+
+
+* TODO goodenough biography
 * TODO Here are a handful of languages intended for modeling, simulating, or designing physical systems: :hyp2org:climate:
 None
 [[http://worrydream.com/ClimateChange/][What can a technologist do about climate change? A personal view.]]
 [[https://hyp.is/0o-JzLcEEemwIzO6lukdMg/worrydream.com/ClimateChange/][in context]]
 
-* TODO Dirac biography?                                                :read:
-* TODO [2019-08-23] [[https://www.nytimes.com/2011/10/26/science/26mccarthy.html][John McCarthy, Pioneer in Artificial Intelligence, Dies at 84 - The New York Times]] :gr:read:
-
-Comment:
-hmm, maybe read his biography?
-* TODO [2019-09-21] [[https://github.com/hackerkid/Mind-Expanding-Books#fiction][hackerkid/Mind-Expanding-Books: Books that will blow your mind]] :gr:
+* TODO Dirac biography?
+* TODO [2019-08-23] [[https://www.nytimes.com/2011/10/26/science/26mccarthy.html][John McCarthy, Pioneer in Artificial Intelligence, Dies at 84 - The New York Times]]
+- comment:
+: hmm, maybe read his biography?
+* TODO [2019-09-21] [[https://github.com/hackerkid/Mind-Expanding-Books#fiction][hackerkid/Mind-Expanding-Books: Books that will blow your mind]]
 
 ** TODO [2019-12-31] ugh, need some sort of online commit history viewer...
 
 * TODO Tweet from 𝔊𝔴𝔢𝔯𝔫 (@gwern), at Dec 10, 00:22 I've written a mini-essay summarizing how I think causality & correlation work in the softer sciences, how experiments show correlation≠causation, and why we do a bad job at internalizing that: https://t.co/iXIZaLzgmp
 https://twitter.com/gwern/status/1204194533422047234
 
-* STRT [#C] [2019-08-11] What Does a Coder Do If They Can't Type? | Objective Funk :gr:
+* STRT [#C] [2019-08-11] What Does a Coder Do If They Can't Type? | Objective Funk
 https://nsaphra.github.io/post/hands
 ** [2019-12-05] https://news.ycombinator.com/item?id=20662232 good discussion, few more suggestions
 * STRT [#B] Tweet from Dan Shipper (@danshipper), at Jan 21, 18:22 superorganizers :notion:
-New superorganizers! — @mariepoulin shares one of the most impressive @Notion setups I've ever seen
-
-https://t.co/NwRPnFIW2b
-
-https://twitter.com/danshipper/status/1219686774307524608
+: New superorganizers! — @mariepoulin shares one of the most impressive @Notion setups I've ever seen
+: https://twitter.com/danshipper/status/1219686774307524608
 * DONE [2020-03-09] Most of What You Read on the Internet is Written by Insane People - LessWrong 2.0
 https://www.lesswrong.com/events/aSGYPDsiw3u6MFwxJ/most-of-what-you-read-on-the-internet-is-written-by-insane
 ** [2020-03-24] https://www.reddit.com/r/slatestarcodex/comments/9rvroo/most_of_what_you_read_on_the_internet_is_written
@@ -126,5 +127,4 @@ Selection:
 I'm going to try doing a bit more longform writing with half-formed thoughts on my notebook blog, as I've not been doing enough of it recently. Here's a thread for them as I write them.
 Comment:
 wow, lots of cool stuff here..
-* [2020-01-20] What's wrong with computational notebooks? - Austin Z. Henley :gr:
-http://web.eecs.utk.edu/~azh/blog/notebookpainpoints.html
+* [2020-01-20] [[http://web.eecs.utk.edu/~azh/blog/notebookpainpoints.html][What's wrong with computational notebooks? - Austin Z. Henley
