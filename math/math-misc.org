@@ -87,7 +87,7 @@ S = {T, bot}
 
 
 ** continuity    in terms of 'touches' relation: [ forall A. x v A => f(x) v f(A)  ] :drill:
-** connectedness in terms of 'touches' relation: [ every cont. function from X ot {0, 1} is const ] :drill:
+** connectedness in terms of 'touches' relation: { every cont. function from X ot (0, 1) is const } :drill:
 
 
 * Compactness                                                      :topology:

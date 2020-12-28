@@ -101,6 +101,7 @@ It's all about how the field transforms under rotations. That tells you how many
 This sort of ties in with the above.
 
 If you haven't already, I'd suggest reading the last chapter of Sakurai. He goes into details about relativistic QM and shows the pitfalls that push you towards actual field theories.
+*** [2020-04-29] PBS space time guy also recomments it!
 ** [2019-01-23] [[https://reddit.com/r/math/comments/3653k6/where_can_i_go_to_learn_more_about_spinors/cratl5r/][Where can I go to learn more about spinors?]] /r/math :spinors:kleingordon:
 The mathematics behind spinors is pretty daunting. I think it's a realization of Clifford algebras (I could be mistaken; it's been some time since I've really been a physicist). You can learn about where they come from without the mathematical overhead. In quantum, spin is usually presented as some ad hoc property of particles. The way it came about was noting from experiment that basic particles like electrons had quantities which behaved a lot like *orbital* angular momentum without actually being bound to another particle! The orbital angular momentum operators were well understood and they can be abstractly viewed (via certain commutation relations).
 

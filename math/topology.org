@@ -15,7 +15,7 @@ One often desires more structure on a manifold than simply the topological struc
 *** [2019-04-24] antipodal identification of circle (S^1) is [ circle ] :drill:
 ** [2019-04-24] identificaiton of 2D disk: right -- it's exactly the first diagram here! https://en.wikipedia.org/wiki/Real_projective_plane if you draw disk as a square.
 *** [2019-04-24] this also kinda makes sense if you draw for a bit https://math.stackexchange.com/a/1391731/15108
-*** [2019-04-24] antipodal identificaiton of disk (D^2) is [ RP^2 ] :drill:
+*** [2019-04-24] antipodal identificaiton of disk (D^2) is { RP^2 } :drill:
 *** [2019-04-24] https://mathcurve.com/surfaces.gb/planprojectif/planprojectif.shtml
 Here are classic models of the projective plane: 
 - The set of vectors of R^3 with the natural topology

@@ -1,7 +1,20 @@
 #+TITLE: Orger
 #+filetags: orger
 
-* STRT [#C] feedbin?                                        :promnesia:orger:
+* TODO example of adding materialistic module -- literally matter of two commits? :blog:orger:
+* STRT [#B] [2020-03-22] Reddit's Save Functionality Sucks | My Random Thoughts by Cedric Amaya :blog:reddit:exports:
+https://cedric.tech/blog/reddits-save-functionality-sucks/
+: For those unaware, saving things on Reddit as a non-Premium member works in the following way:
+:     limited to 1000 saved things (posts and comments) total; once the limit is reached, older things are replaced and essentially deleted from history
+:     saves are stored in reverse chronological order (latest to oldest)
+:     no way whatsoever to filter or sort saved content
+:     no searching capability is provided
+:     pagination limit on Reddit site is limited to 25 items, thus requiring users to use the “Next Page” or “Prev Page” buttons a lot
+
+- comment
+: the fuck?? they are deleted from history??
+
+* DONE feedbin?                                             :promnesia:orger:
 ** [2019-04-23] feedbin/feedbin-api: Feedbin API Documentation :grasp:
 
 https://github.com/feedbin/feedbin-api#readme
@@ -9,25 +22,18 @@ https://github.com/feedbin/feedbin-api#readme
 : The Feedbin API uses HTTP Basic authentication
 : curl -u 'example@example.com:password' https://api.feedbin.com/v2/subscriptions.json
 
-
 * TODO feels more and more that they should be a single tool :promnesia:orger:
-* TODO youtube -- could mark as deleted if link = title?              :orger:
-* TODO example of adding materialistic module -- literally matter of two commits? :blog:orger:
+* STRT [#C] youtube -- could mark as deleted if link = title?     :hpi:orger:
 * TODO mirror emails to people only? e.g. some reasonable cutoff to exclude notifications etc? :orger:hpi:
 * TODO [2020-03-24] lobste.rs/s/r9oskz.json                 :orger:
 https://lobste.rs/saved.json
-Comment:
-port saved lobsters posts?
-* TODO need to rename reddit module to reddit2org?                    :orger:
-* [2020-03-22] Reddit's Save Functionality Sucks | My Random Thoughts by Cedric Amaya :reddit:exports:
-https://cedric.tech/blog/reddits-save-functionality-sucks/
-Selection:
-For those unaware, saving things on Reddit as a non-Premium member works in the following way:
-
-    limited to 1000 saved things (posts and comments) total; once the limit is reached, older things are replaced and essentially deleted from history
-    saves are stored in reverse chronological order (latest to oldest)
-    no way whatsoever to filter or sort saved content
-    no searching capability is provided
-    pagination limit on Reddit site is limited to 25 items, thus requiring users to use the “Next Page” or “Prev Page” buttons a lot
-Comment:
-the fuck?? they are deleted from history??
+: port saved lobsters posts?
+* amend                                                              :refile:
+** TODO post how I'm adding mastodon to Orger on mevreilles? :mastodon:pkm:orger:toot:
+** TODO need to use highlight as title?                       :hyp2org:orger:
+** TODO motivation: I've got reddit, hackernews (no api, so mobile is separate), links from telegram, RSS :blog:orger:
+** STRT [#C] [2020-02-15] I'm tackling the issue of managing Reddit saves. Across all platforms (not just... | Hacker News :orger:
+https://news.ycombinator.com/item?id=22177077
+: cedricium 17 days ago | parent | favorite | on: Ask HN: What interesting problems are you working ...
+: I'm tackling the issue of managing Reddit saves.
+: Across all platforms (not just Reddit), people including myself like to save/bookmark interesting content in the hopes of getting some use out of it later. The problem arises when you start accumulating too much content and forget to ever check that stuff out.

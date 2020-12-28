@@ -12,6 +12,10 @@ https://github.com/what-studio/profiling
 : profiling live-profile webserver.py
 
 ok, this is really nice and easy to use
+*** [2020-07-28] kinda unmaintainerd though?
+** [2019-07-20] profiling with cprof                       :python:
+: python3 -m cProfile -o stats.prof script.py
+: snakeviz stats.prof
 
 ** [2020-01-13] rkern/line_profiler: Line-by-line profiling for Python :performance:
 https://github.com/rkern/line_profiler

@@ -1,0 +1,6 @@
+#+TITLE: Literate programming and documentation
+
+
+* amend                                                              :refile:
+** [2019-09-23] NiklasRosenstein/pydoc-markdown: Create Python API documentation in Markdown format. :gr:literate:
+https://github.com/NiklasRosenstein/pydoc-markdown

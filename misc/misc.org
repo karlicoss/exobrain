@@ -100,10 +100,9 @@ CodeJar honey_pot can be used via modules:
 : <script type="module">
 :   import {CodeJar} from 'https://medv.io/codejar/codejar.js'
 : </script>
-* TODO [2019-08-24] Simple dependent types in Python - DEV Community 👩‍💻👨‍💻 :gr:python:
+* TODO [2019-08-24] Simple dependent types in Python - DEV Community 👩‍💻👨‍💻 :mypy:python:
 https://dev.to/wemake-services/simple-dependent-types-in-python-4e14
-Selection:
-Now, we are going to combine our new knowledge about Literal and @overload together to solve our problem with open. At last!
+: Now, we are going to combine our new knowledge about Literal and @overload together to solve our problem with open. At last!
 * TODO [2019-08-18] JStumpp/awesome-android: A curated list of awesome Android packages and resources. :gr:
 https://github.com/JStumpp/awesome-android#readme
 Selection:

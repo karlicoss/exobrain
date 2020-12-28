@@ -1,12 +1,12 @@
 #+TITLE: 
-* [~] Switch case of letter                                           :habit:
+* {~} Switch case of letter                                           :habit:
 * fast navigation in string
 press ft (find char 't')
 then ; to repeat forward
      , to repeat backwards
 
 
-* t: search before character
+* {t} search before character                                         :habit:
 * TODO use * and # for searching current word                     :habit:vim:
 
 

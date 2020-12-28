@@ -121,7 +121,7 @@ https://physics.stackexchange.com/questions/194772/example-where-hamiltonian-h-n
 
 * START [#B] physics sim for phase space /L/zzz_borg/repos/physics-sim/ :study:visualisation:lagrangian:
 
-* TODO additional term depending on velocity is kinda like time transform? :study:lagrangian:
+* TODO additional term depending on velocity is kinda like time transformation? :study:lagrangian:
 
 * ---------- [2019-01-15]  ------------ review later...
 

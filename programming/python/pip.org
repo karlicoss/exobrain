@@ -2,7 +2,8 @@
 #+filetags: pip
 
 * install only dependencies for setup.py
-pip3 install --user -e .
+: pip3 install --user -e .
+
 
 * install multiple packages at once
 ok, apparently pip does use some sort of 'set compiling', so worth doing that

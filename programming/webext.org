@@ -70,8 +70,6 @@ https://github.com/notlmn/browser-extension-template
 : There are two main extensions I want to build. First, a way to archive and mark up webpages. There is a Chrome extension called Weava that does something similar, but it’s SaaS and I doesn’t seem to have a convenient export format.
 : Second, I would like better history tools. In particular, often have the problem that I read an article or page and want to link to it in a blog post (or similar), but I’ve forgotten how I found it. I’d like an extension that can maintain “chains” of followed links so that I can always look up how I found something.
 : I’m happy to get in touch and consider collaborating if you’re interested.
-* [2020-02-18] [[https://addons.mozilla.org/en-US/developers/addon/promnesia/versions/submit/][Upload Add-on :: Promnesia :: Add-ons for Firefox]]
-
 * [2020-02-18] [[https://github.com/mozilla/web-ext][mozilla/web-ext: A command line tool to help build, run, and test web extensions]]
 : Hi! This tool is under active development. To get involved you can watch the repo, file issues, create pull requests, or ask a question on dev-addons
 * [2020-02-18] [[https://github.com/mozilla/web-ext/issues/804][Add `web-ext submit` to submit listed add-ons to AMO · Issue #804 · mozilla/web-ext]]
@@ -79,7 +77,7 @@ https://github.com/notlmn/browser-extension-template
 * [2020-02-17] [[https://lea.verou.me/2012/07/introducing-prism-an-awesome-new-syntax-highlighter/#more-1841][Introducing Prism: An awesome new syntax highlighter | Lea Verou]]
 
 * TODO chrome got far better profiling, better debugging information + screenshots :webext:
-* releasing new PUBLIC version on AMO                  :amo:promnesia:webext:
+* TODO releasing new PUBLIC version on AMO             :amo:promnesia:webext:
 apparently doesn't work through webext regardless. once it's autosigned, you're screwed??
 so to publish on AMO you always have to upload the zip
 
@@ -89,6 +87,7 @@ so to publish on AMO you always have to upload the zip
 - git archive master --output=promnesia-source.zip -- upload source
 
 huh. interesting, it seemed to have published instantly...
+** [2020-05-19] and again, published immediately... odd!
 * TODO ugh, can't force webpack/chrome into using date in the version... :webext:
 https://developer.chrome.com/apps/manifest/version
 * TODO for fucks sake. releasing even without 'unlisted' channel doesn't make it automatically submitted for manual review??? :webext:amo:

@@ -57,13 +57,12 @@ Free tooltip for something without having to CSS a tooltip.
 
 ** STRT [#C] [2019-12-27] The Open Graph protocol            :blog:
 https://ogp.me/
-Selection:
-The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.
+: The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.
 *** TODO [2020-01-18] add description?
 ** TODO [2019-11-10] Cookies vs localStorage - Data Driven Investor - Medium :blog:
 https://medium.com/datadriveninvestor/cookies-vs-local-storage-2f3732c7d977
-Selection:
-Cookies and local storage serve different purposes. Cookies are mainly for reading server-side, whereas local storage can only be read by the client-side.
+: Cookies and local storage serve different purposes. Cookies are mainly for reading server-side, whereas local storage can only be read by the client-side.
+
 Comment:
 huh, so I can implement settings without having to use cookies!
 could poist about it
