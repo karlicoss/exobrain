@@ -3,7 +3,9 @@
 
 
 * [2016-07-30] [[http://mathworld.wolfram.com/ConwayGame.html][Conway games]]
-
+:PROPERTIES:
+:ID:       f33c68191345fd572ea0d82380984692
+:END:
 1. L, R : sets of games, then G = <L, R> is a game
 2. DGC: no infinite sequence of games G^i = <L^i, R^i> with G^(i+1) \in L^i \cup R^i for all i \in N
 

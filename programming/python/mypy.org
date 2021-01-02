@@ -1,10 +1,16 @@
 #+TITLE: Mypy tips and tricks
 #+filetags: :python:mypy:
-* TODO [2019-10-26] [[https://mypy.readthedocs.io/en/latest/common_issues.html?highlight=reveal_type#reveal-type][reveal_type]] can be used during the type checking
+* TODO [#C] [2019-10-26] [[https://mypy.readthedocs.io/en/latest/common_issues.html?highlight=reveal_type#reveal-type][reveal_type]] can be used during the type checking
+:PROPERTIES:
+:ID:       6651977e14483164dbbbf16cfcb68328
+:END:
 =reveal_type(a)  # N: Revealed type is 'builtins.int'=
 : https://github.com/python/mypy/blob/09c243dcc12935b989367f31d1d25d7fd0ec634c/test-data/unit/check-python38.test
 
-* [2019-12-07] [[https://www.reddit.com/r/Python/comments/8hmjq9/the_other_great_benefit_of_python_type_annotations/dyl1wjt][hack for preventing unnecessary module imports]]
+* [#C] [2019-12-07] [[https://www.reddit.com/r/Python/comments/8hmjq9/the_other_great_benefit_of_python_type_annotations/dyl1wjt][hack for preventing unnecessary module imports]]
+:PROPERTIES:
+:ID:       b1e0ca7aaa8e759e4ee399ff7ae94b73
+:END:
 Type annotation will require importing modules that you wouldn't need to import without it. However there is now a workaround (quote the name and import in a dead if):
 
 : if False:
@@ -13,7 +19,10 @@ Type annotation will require importing modules that you wouldn't need to import 
 : def foo(a: 'bar'):
 :      pass
 
-* TODO [2019-10-27] how should type of lru_cache be defined
+* TODO [#B] [2019-10-27] how should type of lru_cache be defined
+:PROPERTIES:
+:ID:       81d5200e88a1899ebef3c2af6f2a322e
+:END:
 https://github.com/python/mypy/issues/5107
 
 : from typing import TYPE_CHECKING, TypeVar
@@ -23,6 +32,9 @@ https://github.com/python/mypy/issues/5107
 : else:
 :     from functools import lru_cache
 
-* TODO [2019-04-16] The Mypy Blog: Mypy 0.700 Released: Up To 4x Faster
+* TODO [#D] [2019-04-16] The Mypy Blog: Mypy 0.700 Released: Up To 4x Faster
+:PROPERTIES:
+:ID:       b46b36eadd2510fbefb54cb4a3a88a70
+:END:
 https://mypy-lang.blogspot.com/2019/04/mypy-0700-released-up-to-4x-faster.html
 : We are now shipping a mypy binary compiled with mypyc by default, which is up to 4x faster than the interpreted version shipped previously. The compiled version has been available as a separate PyPI distribution for a while now, and this is first release where it’s installed by default. Mypyc is a compiler that compiles type-annotated Python modules into efficient CPython C extension modules.

@@ -1,11 +1,20 @@
 #+TITLE: Uncategorized
 #+filetags: python
-* TODO [2019-12-31] PyPy - packages                            :gr:
+* TODO [#C] [2019-12-31] PyPy - packages
+:PROPERTIES:
+:ID:       98180b6aa31216243f095fa9ca136663
+:END:
 http://packages.pypy.org/
 
-* TODO [2019-12-31] PyPy.js: Python in the web browser | Hacker News :gr:javascript:webext:
+* TODO [#C] [2019-12-31] PyPy.js: Python in the web browser | Hacker News :javascript:webext:
+:PROPERTIES:
+:ID:       b92b944ddc3a96622e2c543c178f0d9a
+:END:
 https://news.ycombinator.com/item?id=17819138
-* TODO [2020-02-12] Guido van Rossum on Twitter: "@jonasrk You missed mypy. Simpler docs use markdown, not ReST (Sphinx). Black is overrated unless your team argues over style a lot. You don't need Pylint if you're using flake8. Never heard of poetry or dependabot. And you should use a CI solution, e.g. Travis-CI, to run your tests." / Twitter :gr:
+* TODO [#C] [2020-02-12] Guido van Rossum on Twitter: "@jonasrk You missed mypy. Simpler docs use markdown, not ReST (Sphinx). Black is overrated unless your team argues over style a lot. You don't need Pylint if you're using flake8. Never heard of poetry or dependabot. And you should use a CI solution, e.g. Travis-CI, to run your tests." / Twitter
+:PROPERTIES:
+:ID:       748b21d31eb1dd3ab28cc39d843b468f
+:END:
 https://twitter.com/gvanrossum/status/1227126706089021440
 Selection:
 You don't need Pylint if you're using flake8
@@ -14,7 +23,16 @@ hmm
 
 
 * Construct: kinda like struct but better? https://construct.readthedocs.io/en/latest/ :parsing:
+:PROPERTIES:
+:ID:       af668d9986034e881d3fb46ae7fff732
+:END:
 * Pyrser: grammars? https://pythonhosted.org/pyrser/                :parsing:
-* [2019-09-22] [[https://reddit.com/r/Python/comments/d4zfhc/python3_fstrings_a_complete_guide_to_the_most/f0ieyws/][Python3 f-strings - A complete guide to the most well received feature of Python 3.]] /r/Python
+:PROPERTIES:
+:ID:       a928ffe5bf43bd0fdf7c83acba9142c3
+:END:
+* [#B] [2019-09-22] [[https://reddit.com/r/Python/comments/d4zfhc/python3_fstrings_a_complete_guide_to_the_most/f0ieyws/][Python3 f-strings - A complete guide to the most well received feature of Python 3.]] /r/Python
+:PROPERTIES:
+:ID:       3307a066987fac24990f4556cd3f94a0
+:END:
 : That’s a part of python’s data model like `len`, `reversed`, `iter`, …:
 : `datetime` simply defines [`datetime.__format__`](https://docs.python.org/3/library/datetime.html#datetime.date.__format__). The method [is explained here](https://docs.python.org/3/reference/datamodel.html#object.__format__).

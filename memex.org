@@ -1,8 +1,9 @@
 #+TITLE: Memex
 #+filetags: memex
 
-* [2020-03-07] RubyConf 2018 - Building a Memex (with Ruby!) by Andrew Louis - YouTube :hpi:
-https://www.youtube.com/watch?v=DFWxvQn4cf8
-Comment:
-fuck me, that's awesome
-also mentions same problems I struggled with literally in same words!
+* [2020-03-07] [[https://www.youtube.com/watch?v=DFWxvQn4cf8][RubyConf 2018 - Building a Memex (with Ruby!) by Andrew Louis]] :hpi:
+:PROPERTIES:
+:ID:       79715bdd7028a3aa27b7d7fbb1e80095
+:END:
+fuck me, this is awesome
+mentions the same problems I struggled with literally in the same words!

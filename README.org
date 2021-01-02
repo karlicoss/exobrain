@@ -15,6 +15,9 @@ Note that at the moment it's still in development.
 While I'm generally doing my best to combat link rot, notes may move around, some IDs change, etc. So if you see a piece of useful information here, make sure to copy it, not just the link.
 
 * Exobrains/wikis made by other people
+:PROPERTIES:
+:ID:       206ae8352e3e331f077f8204620af7d5
+:END:
 - [[https://wiki.nikitavoloboev.xyz]['Everything I know']] wiki by Nikita Voloboev
 
   If you want to check out one exobrain, start with this. It was my main inspiration and got lots of high quality and curated stuff.

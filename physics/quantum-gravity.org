@@ -2,28 +2,62 @@
 #+filetags: quantum:gravity:lqg
 
 * mc:/L/Dropbox/study/loop-quantum-gravity
+:PROPERTIES:
+:ID:       059ac298bb50a93e8b3c125ff3f24141
+:END:
 ** acm.pdf thing -- poses problem for computer scientists
+:PROPERTIES:
+:ID:       0cb5a9056cc067eeaf8c83e03e4e5710
+:END:
 
 * http://math.ucr.edu/home/baez/spacetime_from_spin/
+:PROPERTIES:
+:ID:       734ccffaf82048b78af9fa1fb1a8c74c
+:END:
 pdf downloaded
 
 
 * Very cool and insightful seminar notes (the categorical diagrams bit) http://math.ucr.edu/home/baez/QG.html
+:PROPERTIES:
+:ID:       52b601a28e630d24d6f523edac6c9972
+:END:
 
 * http://math.ucr.edu/home/baez/nth_quantization.html
+:PROPERTIES:
+:ID:       9d7740a7d01fc7a413c296af66533454
+:END:
 * START [#B] loop quantum gravity?..                          :simulation:qg:
+:PROPERTIES:
+:CREATED:  [2018-08-09]
+:ID:       ff0c63175a58aa6d244d0662c35aeeee
+:END:
 
 ** [2018-10-30]  https://github.com/joeydumont/wignerSymbols
+:PROPERTIES:
+:ID:       7b547817a193b3bcad77e1dee1c20780
+:END:
   It reimplements the algorithm designed by Schulten and Gordon in C++, but also contains the original Fortran implementation. 
 https://github.com/Jutho/WignerSymbols.jl
 
 
 ** [2018-10-30]  ok, so this is the interesting bit http://www.math.ucr.edu/home/baez/planck/node4.html
+:PROPERTIES:
+:ID:       931741fa1445843f63d887a308100d7e
+:END:
 computing transition amplitudes for a certain cobordism between two space states
  They only happen because of the carefully chosen recipe for computing amplitudes for spacetime geometries. This recipe is the real core of the whole construction. Sadly, it is a bit too technical to describe here, so the reader will have to turn elsewhere for details [19,30]. I can say this, though: the reason this recipe works so well is that it neatly combines ideas from general relativity, quantum field theory, and a third subject that might at first seem unrelated -- higher-dimensional algebra.
 
-* [2018-08-10] (23) Quantum Spin Dynamics in Loop Quantum Gravity - YouTube :qg:
+* [#B] [2018-08-10] (23) Quantum Spin Dynamics in Loop Quantum Gravity - YouTube :qg:
+:PROPERTIES:
+:ID:       fe6205e9be309dde40b0d242b49183fb
+:END:
 https://www.youtube.com/watch?v=26PIHRRHGTo
-* [2018-08-10] (23) Quantum Gravity Test simulation/ 3D Quantum hall (Triangular Heisenberg lattice system ) - YouTube :qg:
+* [#B] [2018-08-10] (23) Quantum Gravity Test simulation/ 3D Quantum hall (Triangular Heisenberg lattice system ) - YouTube :qg:
+:PROPERTIES:
+:ID:       0ca2b46d26feedc9d30d8ea0d8a6666b
+:END:
 https://www.youtube.com/watch?v=lF6GqQ5QrJE
 * think about loop quantum gravity and faster simulations! (baez)
+:PROPERTIES:
+:ID:       e7b0e7af8b49d1e79d7b17ab9a01cf83
+:END:

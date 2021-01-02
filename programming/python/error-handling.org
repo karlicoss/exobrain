@@ -1,5 +1,10 @@
 #+TITLE: 
 * examples of temporary timeouts                             :errors:network:
+:PROPERTIES:
+:CREATED:  [2018-05-18]
+:ID:       a2a0263883b268677a349a5550b95d16
+:END:
+
 requests.exceptions.ReadTimeout: HTTPConnectionPool(host='api.zoopla.co.uk', port=80): Read timed out. (read timeout=5)
 requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.zoopla.co.uk', port=80): Max retries exceeded with url: /api/v1/property_listings.json?page_size=100&page_number=1&listing_status=rent&include_sold=1&include_rented=1&order_by=age&ordering=descending&postcode=SW1&api_key=v8j7apw29phx8yjbf5n7det6 (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7f581d72eb70>: Failed to establish a new connection: [Errno 101] Network is unreachable',))
 socket.timeout: _ssl.c:817: The handshake operation timed out
@@ -9,13 +14,25 @@ ConnectionResetError: [Errno 104] Connection reset by peer
 
 
 ** START backoff library, using it somewhere already
-
+:PROPERTIES:
+:ID:       0267797cd61f368d90ea2005783993c9
+:END:
 using it in vkdump
 backoff_network_errors in kython
    I guess we could backoff indefinitely; and rely on global timeout if necessary
 *** DONE check if kron has global timeout
+:PROPERTIES:
+:ID:       24717090f174338cfb2423bb0ce6c4e6
+:END:
 
 
 
 * network errors should be non-fatal, since they generally CAN be gracefully handled :errors:
-** TODO [2019-10-19] add to post?                     :blog:kerror:
+:PROPERTIES:
+:CREATED:  [2018-04-09]
+:ID:       0dc1d0adc306e12953799f4d3dda4aa8
+:END:
+** TODO [2019-10-19] add to post?                               :blog:kerror:
+:PROPERTIES:
+:ID:       33037254ce5ed668a033fe82a150a503
+:END:

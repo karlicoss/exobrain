@@ -1,15 +1,37 @@
 #+TITLE: 
-* {~} Switch case of letter                                           :habit:
+* {~} Switch case of letter
+:PROPERTIES:
+:ID:       8ca57b16-07a4-44ce-8628-9878c2149f98
+:END:
 * fast navigation in string
+:PROPERTIES:
+:ID:       bc75a50b2da9f198dbbfbf5c2f54c9d0
+:END:
 press ft (find char 't')
 then ; to repeat forward
      , to repeat backwards
 
 
-* {t} search before character                                         :habit:
-* TODO use * and # for searching current word                     :habit:vim:
+* {t} search before character
+:PROPERTIES:
+:ID:       c0386700-5746-4c66-8ea6-1d618472dd77
+:END:
+* TODO use * and # for searching current word                           :vim:
+:PROPERTIES:
+:ID:       3fb0c993-a1dd-4e3e-8a5f-b774b52e332d
+:CREATED:  [2018-01-25]
+:END:
 
 
 * vim-like apps
+:PROPERTIES:
+:ID:       6b0ecd305a8d35370490a9ed24d54a29
+:END:
 ** https://www.reddit.com/r/vim/comments/3tluqr/my_list_of_applications_with_vi_keybindings/
+:PROPERTIES:
+:ID:       2ef01300d38af5527d2bcbdeaeb1de9b
+:END:
 ** https://xaizek.github.io/2016-08-13/big-list-of-vim-like-software/
+:PROPERTIES:
+:ID:       ea261aa9912e50f65224f9636369f654
+:END:

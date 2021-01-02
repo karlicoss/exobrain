@@ -3,23 +3,50 @@
 
 
 * Testing                                                           :testing:
-** TODO [2020-03-27] Hypothesis has a set of Pandas strategies for generating data :pandas:
+:PROPERTIES:
+:ID:       fa6a5a3224d7da66d9e0bdec25f62cf0
+:END:
+** TODO [#B] [2020-03-27] Hypothesis has a set of Pandas strategies for generating data :pandas:
+:PROPERTIES:
+:ID:       a4783ebcd94d33b2894ca840358215bd
+:END:
 : https://www.hillelwayne.com/talks/beyond-unit-tests/
 
 * Profiling                                                     :performance:
-** [2020-03-08] what-studio/profiling: An interactive continuous Python profiler
+:PROPERTIES:
+:ID:       1a226c2f1347809a185b8567ba1fc5a7
+:END:
+** [#B] [2020-03-08] what-studio/profiling: An interactive continuous Python profiler
+:PROPERTIES:
+:ID:       228cc4e5636dea63ec5013f9c770e2f3
+:END:
 https://github.com/what-studio/profiling
 : profiling live-profile webserver.py
 
 ok, this is really nice and easy to use
 *** [2020-07-28] kinda unmaintainerd though?
-** [2019-07-20] profiling with cprof                       :python:
+:PROPERTIES:
+:ID:       063f6d5f174a411d8cf88bb2145d03bd
+:END:
+** [#A] [2019-07-20] profiling with cprof                            :python:
+:PROPERTIES:
+:ID:       2d10b300069dae1fd2fde2676026afba
+:END:
 : python3 -m cProfile -o stats.prof script.py
 : snakeviz stats.prof
 
-** [2020-01-13] rkern/line_profiler: Line-by-line profiling for Python :performance:
+** [#C] [2020-01-13] rkern/line_profiler: Line-by-line profiling for Python :performance:
+:PROPERTIES:
+:ID:       6efe871f311dde35d0f2b7d6eed4615f
+:END:
 https://github.com/rkern/line_profiler
 
 * Packaging
+:PROPERTIES:
+:ID:       a669003ea35aa39ca280b83bd259a032
+:END:
 ** [2020-04-02] minimal-setup-py/setup.py at master · maet3608/minimal-setup-py :pip:
+:PROPERTIES:
+:ID:       b72c4eb4122b73534c18ac5a5d633948
+:END:
 https://github.com/maet3608/minimal-setup-py/blob/master/setup.py

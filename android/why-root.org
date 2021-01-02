@@ -3,11 +3,35 @@
 #+index: Android
 
 * Pixel: impossible to disable screenshot shutter sound
+:PROPERTIES:
+:ID:       7b0d6cc9af3fb53b78f2a8f549fa946d
+:END:
 * Impossible to issue iptables command and forward VPN ofer wifi
+:PROPERTIES:
+:ID:       26141610ca4a3151cf201fe376247a5f
+:END:
 * could access applications internals, use for backups and adjusting settings
+:PROPERTIES:
+:ID:       a13f8fc5b48086838d7fff95375c42f1
+:END:
 * mounting encfs
+:PROPERTIES:
+:ID:       29351ba429b8f32d3af2ab0916402641
+:END:
 * battery stats
+:PROPERTIES:
+:ID:       932a151dfc6776c202b8dfd5368fd8d3
+:END:
 * disable direct share
+:PROPERTIES:
+:ID:       962fdde590da6ea4b324d19a9fd5e8c0
+:END:
 https://www.reddit.com/r/LineageOS/comments/84easg/is_it_possible_to_disable_direct_share/
 * fdroid autoupdate
+:PROPERTIES:
+:ID:       0fddd5f3af2b22cfc973727373033629
+:END:
 * oandbackup
+:PROPERTIES:
+:ID:       399744adc16b31eb06f397c2586217a9
+:END:

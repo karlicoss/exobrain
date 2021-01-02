@@ -1,23 +1,47 @@
 #+TITLE: TODO list for learning
 
-* TODO Learn to buy gifts                                             :study:
+* TODO [#D] Learn to buy gifts                                        :study:
+:PROPERTIES:
+:CREATED:  [2018-02-03]
+:ID:       c8abff7adda693e1bb00a6ac9a46ded3
+:END:
 
-* TODO reverse eng for beginners https://beginners.re/      :coding:ctf:read:
+* TODO [#D] reverse eng for beginners https://beginners.re/ :coding:ctf:read:
+:PROPERTIES:
+:CREATED:  [2018-04-03]
+:ID:       0a4276ecff7bdc779cc2502db452ae4b
+:END:
 
-* TODO how to implement DNS?                                          :study:
+* TODO [#D] how to implement DNS?                                     :study:
+:PROPERTIES:
+:CREATED:  [2018-04-03]
+:ID:       57f8e7c456da9c7b988576ab2a6e7148
+:END:
 
-* TODO [2020-01-19] John Carlos Baez on Twitter: "Entropy is the amount of information you don't have about the random details of a system: what you'd need to describe those details. It takes 500 zettabytes to fully describe a gram of liquid water, but a manageable amount per molecule! (1/n) https://t.co/cDg7ZFpLt3" / Twitter :gr:
+* TODO [#C] [2020-01-19] John Carlos Baez on Twitter: "Entropy is the amount of information you don't have about the random details of a system: what you'd need to describe those details. It takes 500 zettabytes to fully describe a gram of liquid water, but a manageable amount per molecule! (1/n) https://t.co/cDg7ZFpLt3" / Twitter
+:PROPERTIES:
+:ID:       73355d75bb3b496ade7aac3e8e02be16
+:END:
 https://twitter.com/johncarlosbaez/status/1218927345836285952
 Selection:
 Entropy is the amount of information you don't have about the random details of a system: what you'd need to describe those details.
 
 It takes 500 zettabytes to fully describe a gram of liquid water, but a manageable amount per molecule!
-* [2020-01-19] Gibbs paradox - Wikipedia                       :gr:
+* [#C] [2020-01-19] Gibbs paradox - Wikipedia
+:PROPERTIES:
+:ID:       bb6b4fdc25bceda24207ef7279772fa5
+:END:
 https://en.wikipedia.org/wiki/Gibbs_paradox
 
-* [2020-02-17] Nikita Lisitsa on Twitter: "Simulating Hamiltonian mechanics instead of Metropolis-Hastings algorithm: https://t.co/cVZiaTGP7u" / Twitter
+* [#C] [2020-02-17] Nikita Lisitsa on Twitter: "Simulating Hamiltonian mechanics instead of Metropolis-Hastings algorithm: https://t.co/cVZiaTGP7u" / Twitter
+:PROPERTIES:
+:ID:       014b826aef649b0fc723d6c2f7ff4498
+:END:
 https://twitter.com/lisyarus/status/1229487593684901889
 Selection:
 Simulating Hamiltonian mechanics instead of Metropolis-Hastings algorithm:
 * [2020-04-06] Antenna-Theory.com - Introduction to Antennas
+:PROPERTIES:
+:ID:       9c24bb2a5c3e9a902d8fad8ad9747bc4
+:END:
 http://www.antenna-theory.com/intro/main.php

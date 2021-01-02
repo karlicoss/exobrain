@@ -2,8 +2,15 @@
 #+filetags: sleep
 
 * https://sleepjunkies.com/features/the-ultimate-guide-to-sleep-tracking/ :qs:sleep:pinboard:
+:PROPERTIES:
+:CREATED:  [2018-03-01]
+:ID:       6e5d5ea9f60b7db9860f2bf26953bc9a
+:END:
 
 ** TODO professional: PSG (polysomnography), which includes
+:PROPERTIES:
+:ID:       ddb646ca79a098938105d0e35957ef30
+:END:
 - EEG
 - EOG (oculogram)
 - ECG
@@ -13,8 +20,14 @@
 - noise
 - blood pressure
 ** typically, Fitbit, etc. misidentify wake as sleep and overestimage sleep time
+:PROPERTIES:
+:ID:       a713376193659cfbafc3db43459bfaf6
+:END:
 
 * START Emfit QS
+:PROPERTIES:
+:ID:       572599d1b29f55b936e5ce53395fc3d9
+:END:
 emfit -- bad reviews are just people not happy with price and EM radiaion
 emfit qs -- needs website?
 ok emfit qs and qs active are the samething apparently
@@ -24,29 +37,53 @@ https://biohackrrr.wordpress.com/2015/10/03/the-proper-way-of-tracking-your-slee
 
 
 * TODO oura ring for hr? https://ouraring.com/
+:PROPERTIES:
+:ID:       c1781594b972862c4d2e553b1b385d79
+:END:
   https://www.alexfergus.com/blog/the-one-wearable-to-rule-them-all-oura-ring-review
 sergef promo code for 100$ discount
 
-* TODO zmachine?? http://generalsleep.com/insight.html                  :eeg:
+* TODO [#B] zmachine?? http://generalsleep.com/insight.html             :eeg:
+:PROPERTIES:
+:ID:       9f5fb01f9c0e156d207cf52222a2300c
+:END:
 huh looks interesting. eeg apparently.  however only available for research?
 shit, price starts and 499 gbp...
 
-* TODO [2018-07-12] dreem band?                               :eeg:
+* TODO [#C] [2018-07-12] dreem band?                                    :eeg:
+:PROPERTIES:
+:ID:       029d1d22f9d0877fff7dc8e84f3a76f3
+:END:
 Dreem is the closest thing I've seen. It's slick but it's a bit pricier than the Zeo, $500.
 https://dreem.com/en/technology
 https://www.reddit.com/r/Biohackers/comments/8dn6tw/dreem_headband_initial_thoughts/
 eh, 499 usd??
 ** eeg, accelerometer, breathing, pulse oxymeter
+:PROPERTIES:
+:ID:       cb75bcc6a845c889c7b78a46b58b09a7
+:END:
 ** https://blog.dreem.com/en/meditate-with-dreem-and-fall-asleep-more-easily/ hmmm
+:PROPERTIES:
+:ID:       f555f7c15152d046898b70edc45f3e1c
+:END:
 
 ** eh, mixed reviews
+:PROPERTIES:
+:ID:       241fa09302ecfcf7c1bddc150fedb7af
+:END:
 https://gizmodo.com/this-smart-headband-was-supposed-to-help-me-sleep-bette-1822568894 this one is quite bitter
 * CANCEL ResMed S + monitor
+:PROPERTIES:
+:ID:       d6ddc28d6559c9fa630800334857eeca
+:END:
 http://wheresmycreditcard.com/s-resmed-personal-sleep-solution/
 err.. contactless so how the fuck it detects hr??? https://www.resmed.com/us/en/consumer/s-plus.html
 https://www.reddit.com/r/sleep/comments/5vyg0u/resmed_s_vs_beddit_30/
 
 * CANCEL beddit -- works by ballistography
+:PROPERTIES:
+:ID:       358f6b510104d5b04e01eb7eaf8ab3fd
+:END:
 Accessing the Raw Data
 Beddit has a feature to download raw data to a spreadsheet, which can be very useful for doing any detailed analysis. It even gives more advanced metrics like overnight Heart Rate Variability (HRV).
 
@@ -55,12 +92,26 @@ Beddit also has an API to access data, but currently only available for companie
 Compared to high-end sensors on the market (Emfit QS, ResMed S+), the Beddit stands up well.
 
 * CANCEL Withings Aura -- apparently old version of nokia sleep
+:PROPERTIES:
+:ID:       a19af0985e51bda6cab112c2bd14a234
+:END:
 * CANCEL Sense -- shut down
+:PROPERTIES:
+:ID:       2058564c22874407cdcc9aa8b07277e7
+:END:
 * CANCEL zeo -- went bust..                                             :eeg:
+:PROPERTIES:
+:ID:       25fe44590913dee0d444d3eef616ce84
+:END:
 I wish ResMed would make a new one. They bought up all the intellectual property from Zeo. Instead, they put out their useless contactless tracker and sat on the Zeo tech.
 I use the Zeo mobile. You can still find it and the larger units on ebay.
 
 * CANCEL [#B] buy jawbone again? at least it measured something...       :qs:
+:PROPERTIES:
+:CREATED:  [2018-03-01]
+:ID:       58ff311d514b7cac14916796f7ca6151
+:END:
+
 right, jawbone is liquidating, so guess not worth buying now
 jawbone3 didn't even connect to my phone properly
 nokia sleep? (igor shilov)

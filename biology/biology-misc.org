@@ -1,13 +1,18 @@
 #+TITLE: 
 #+filetags: biology
 
-* [2017-11-30] protein folding                         :complexity:
-
+* [#B] [2017-11-30] protein folding                              :complexity:
+:PROPERTIES:
+:ID:       ee47485f9ef0d3f97ee62c85762fe902
+:END:
 given a chain of amino acids, can you predict how is it going to fold?
 ideally, folding should end up in the minimal energy state. if it doesn't you end up with prions?
 in general, folding is an NP complete problem, are our body cells actually solving them somehow?
 conjecture: evolution wouldn't actually use hard instances of protein folding, only computationally easy ones.
 * [2017-05-15] [[http://en.wikipedia.org/wiki/Ethanol_fermentation][Fermentation]]
+:PROPERTIES:
+:ID:       c9418fd797411b385287a9f03b7402cb
+:END:
 yeast anaerobic -> alcohol
 muscle anaerobic -> lactic acid
 

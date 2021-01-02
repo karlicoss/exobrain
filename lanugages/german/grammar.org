@@ -1,7 +1,12 @@
 #+TITLE: German grammar
 
 * https://www.reddit.com/r/German/wiki/grammar
+:PROPERTIES:
+:ID:       aaed9998d94e226aaa0c61bc5b83ca13
+:END:
 
-* [2018-03-14] History of definite article                 :german:
-
+* [2018-03-14] History of definite article                           :german:
+:PROPERTIES:
+:ID:       12313e3135d32449f14b92122f940ef8
+:END:
 Indefinite articles developed from numerals, and the definite articles developed from demonstratives. This is a very well known process called grammaticalization.

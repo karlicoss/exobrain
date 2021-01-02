@@ -1,11 +1,18 @@
 #+TITLE: 
 #+filetags: latency,perf,performance
-* [2018-03-01] latency matters                 :ux:pinboard:danluu:
-
+* [2018-03-01] latency matters                           :ux:pinboard:danluu:
+:PROPERTIES:
+:ID:       9dd65e16b4c62efe2606ccb421115990
+:END:
 https://danluu.com/input-lag/
 try typing in terminal with 30ms ping
 
 * Tweet from Gary Bernhardt (@garybernhardt), at Jun 16, 13:54  :performance:
+:PROPERTIES:
+:CREATED:  [2018-06-16]
+:ID:       64d5a0ed7f61cdc21e29aa163df8f338
+:END:
+
 In 2008, I was extremely frustrated by Ruby imposing a constant ~100 ms startup penalty on hello world. In 2018, computers are ~3.5 times faster (4479 vs. 1266 Geekbench for 2007 vs. 2017 MBP). TypeScript imposes a 1600 ms startup penalty on hello world. https://t.co/GzMcXPoFNU
 
 https://twitter.com/garybernhardt/status/1007690864909529088

@@ -1,2 +1,5 @@
 #+TITLE: 
-* [2020-02-02] [[https://reddit.com/r/emacs/comments/exnxha/withemacs_almost_all_you_need_to_know_about/][with-emacs · (Almost) All You Need to Know About Variables]] /r/emacs
+* [#B] [2020-02-02] [[https://reddit.com/r/emacs/comments/exnxha/withemacs_almost_all_you_need_to_know_about/][with-emacs · (Almost) All You Need to Know About Variables]] /r/emacs
+:PROPERTIES:
+:ID:       f250c8267d85d8c6a62a19516f68cc14
+:END:

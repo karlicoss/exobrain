@@ -1,17 +1,41 @@
 #+TITLE: 
 * cosmology FAQ
+:PROPERTIES:
+:ID:       6a4f617c2ff2f4454ac56f9add826cce
+:END:
 http://cosmo.labrate.ru/cosmology_faq.html
 
 * measuring distances in universe
+:PROPERTIES:
+:ID:       b5877bff2daaaefb65b6eb2c7aa792a4
+:END:
 http://cosmo.labrate.ru/distance.htm
 
 
 * Olber's paradox: split universe in shells, consider shell at dist X each shell at dist 2X has 4x as many stars, and 1/4 bright, so total brightness is infinite
+:PROPERTIES:
+:ID:       adbefa5c5ce4baa10e1f3bb957c01a30
+:END:
 https://en.wikipedia.org/wiki/Olbers'_paradox
 
 
 * What happens to microscopic black hole?
+:PROPERTIES:
+:ID:       5f2c40a5ce29f3119e919d80c2c60eef
+:END:
 ** https://ru-scifi.livejournal.com/422702.html
+:PROPERTIES:
+:ID:       0ef0fbdc5678da11ee1225799ece559b
+:END:
 ** https://ru-scifi.livejournal.com/424541.html -- what if it's charged
+:PROPERTIES:
+:ID:       6754f5ca0e28b52ea4f2d7bd1e7f3496
+:END:
 ** https://ru-scifi.livejournal.com/427770.html -- ocsillating black hole in the middle of the Earth
+:PROPERTIES:
+:ID:       9028c83e02ffd569e594ef1c28bb53ff
+:END:
 ** https://ru-scifi.livejournal.com/427978.html -- heating up a planet with Hawking radiation
+:PROPERTIES:
+:ID:       46ab2f1d8377b9ecb702461274bfdad3
+:END:

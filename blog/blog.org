@@ -2,7 +2,13 @@
 #+filetags: blog
 
 * Feed
+:PROPERTIES:
+:ID:       a80425472d94ae02c836da5b6f205b7b
+:END:
 ** STRT [#B] [2019-12-21] What are your RSS Feed Size limits? – dlvr.it support
+:PROPERTIES:
+:ID:       05b66065d380a8c1020189a3175f06c4
+:END:
 https://support.dlvrit.com/hc/en-us/articles/115000029293-What-are-your-RSS-Feed-Size-limits-
 : What are your RSS Feed Size limits?
 : We do have RSS Feed Size limits that we employ to make posting more efficient for our Users.  For our Basic plan users, this limit is 512 KB,
@@ -10,56 +16,123 @@ https://support.dlvrit.com/hc/en-us/articles/115000029293-What-are-your-RSS-Feed
 
 - ugh! need to minify?
 * STRT [#B] [2020-01-10] Stop using so many divs! An intro to semantic HTML - DEV Community
+:PROPERTIES:
+:ID:       3887084a7a3416d935d9927907edcfbb
+:END:
 https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
 ** TODO [2020-01-18] org-html-timestamp -- to time
+:PROPERTIES:
+:ID:       816647b04a15054989dafedddfa3ba5e
+:END:
 
 * inspiration (design/presentation)                                  :refile:
-
-** [2020-01-17] Singing in the Wilderness        :inspiration:blog:
+:PROPERTIES:
+:ID:       17b820763938172649e282a750aaf190
+:END:
+** [#B] [2020-01-17] Singing in the Wilderness             :inspiration:blog:
+:PROPERTIES:
+:ID:       bb1a5249-f7a8-4c92-96fd-d90f97f09f2b
+:END:
 https://ai6ua.net
 Comment:
 right, so pretty nice design
 ** TODO Большой пост о том, как я переезжал в Берлин :: Блог Вастрик.ру :me:blog:inspiration:
+:PROPERTIES:
+:CREATED:  [2019-04-21]
+:ID:       1d3dd980aa7730a72d79f0607c4e1e6e
+:END:
+
 https://vas3k.ru/blog/go_to_berlin/
 Very good blog post!
 
 *** Во многом благодаря рисункам, как мне кажется. Норм мотивация поучиться рисовать :drawing:
-** TODO [2019-11-21] Projects | Intuitive Explanations :blog:inspiration:
+:PROPERTIES:
+:CREATED:  [2019-04-23]
+:ID:       ee64de681510861884e6e882b31b1c09
+:END:
+** TODO [#C] [2019-11-21] Projects | Intuitive Explanations :blog:inspiration:
+:PROPERTIES:
+:ID:       185dbd91c5d05a292acdc131508291d3
+:END:
 https://intuitiveexplanations.com/about/projects
 Comment:
 have list of my projects? moslty populate from github?
-** Sidenotes
-*** DONE [2019-05-29] Accessing list metadata in Hakyll :blog:inspiration:
+** [#C] Sidenotes
+:PROPERTIES:
+:ID:       c8095f64f20758c921abd1810a035ee5
+:END:
+*** DONE [#C] [2019-05-29] Accessing list metadata in Hakyll :blog:inspiration:
+:PROPERTIES:
+:ID:       f7bc14148c7d545ad4ccd1ad8e0ff9e2
+:END:
 http://mattwetmore.me/posts/hakyll-list-metadata.html
 Comment:
 looks like nice sidenotes ...
 **** [2019-07-20] implemented via tables though..
-*** DONE [2019-06-01] Local-first software: You own your data, in spite of the cloud :blog:inspiration:
+:PROPERTIES:
+:ID:       3025984d5f8c7dd63cd6b1c63372a329
+:END:
+*** DONE [#B] [2019-06-01] Local-first software: You own your data, in spite of the cloud :blog:inspiration:
+:PROPERTIES:
+:ID:       6495ec21e2f8e102cbe69ba0f025efbf
+:END:
 https://www.inkandswitch.com/local-first.html
 Comment:
 nice side annotations
 **** [2019-07-20] ok, used this. TODO credit
-*** TODO [2019-05-30] March 2019 news - Gwern.net            :blog:
+:PROPERTIES:
+:ID:       07bff1091d2124cd3b5df4cbdbb3b8fb
+:END:
+*** TODO [2019-05-30] March 2019 news - Gwern.net                      :blog:
+:PROPERTIES:
+:ID:       bc276774b33eb8939a9d88e89eba73d4
+:END:
 https://www.gwern.net/newsletter/2019/03
 Selection:
 gwern.net CSS changes: Tufte-style sidenotes (for displaying footnotes in margins on wide screens) via Obormot’s new JS library, sidenotes.js
 
 * amend                                                              :refile:
-** TODO [2020-02-15] This Page is Designed to Last: A Manifesto for Preserving Content on the Web :blog:
+:PROPERTIES:
+:ID:       f1a91827018f161918c734379d32c6e3
+:END:
+** TODO [#B] [2020-02-15] This Page is Designed to Last: A Manifesto for Preserving Content on the Web :blog:
+:PROPERTIES:
+:ID:       290bb11b-3d53-49ff-91a8-5b4924f8b972
+:END:
 https://jeffhuang.com/designed_to_last/
 : Stick with the 13 web safe fonts +2
-** [2020-01-18] How do you clear the Open Graph cache of an URL on Telegram? - Stack Overflow :staticblog:opengraph:
+** [#B] [2020-01-18] How do you clear the Open Graph cache of an URL on Telegram? - Stack Overflow :staticblog:opengraph:
+:PROPERTIES:
+:ID:       afa1fd50f93c1bb2378a15f33647fdb3
+:END:
 https://stackoverflow.com/questions/34707915/how-do-you-clear-the-open-graph-cache-of-an-url-on-telegram/35156177#35156177
-** TODO go through every bit of code and make quick blog posts off them?? maybe even literate :blog:
-** TODO https://merveilles.town/@lains/103527776315019237 abbr as tooltip :blog:
+** TODO [#B] go through every bit of code and make quick blog posts off them?? maybe even literate :blog:
+:PROPERTIES:
+:CREATED:  [2020-03-27]
+:ID:       583652c1467d7a8f24c7fc61dd20e17c
+:END:
+** TODO [#C] https://merveilles.town/@lains/103527776315019237 abbr as tooltip :blog:
+:PROPERTIES:
+:CREATED:  [2020-01-22]
+:ID:       8c618da39f5e7a0d6b287a54d1ada321
+:END:
 I like to use <abbr> when I can :D
 Free tooltip for something without having to CSS a tooltip.
 
-** STRT [#C] [2019-12-27] The Open Graph protocol            :blog:
+** STRT [#C] [2019-12-27] The Open Graph protocol                      :blog:
+:PROPERTIES:
+:ID:       d0d820b622594e991f06eacbfea783e5
+:END:
 https://ogp.me/
 : The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.
 *** TODO [2020-01-18] add description?
-** TODO [2019-11-10] Cookies vs localStorage - Data Driven Investor - Medium :blog:
+:PROPERTIES:
+:ID:       c5acc817e181ea9811ca7f5f7e4a5418
+:END:
+** TODO [#C] [2019-11-10] Cookies vs localStorage - Data Driven Investor - Medium :blog:
+:PROPERTIES:
+:ID:       1f8813b041f5f15896e50b1386f75686
+:END:
 https://medium.com/datadriveninvestor/cookies-vs-local-storage-2f3732c7d977
 : Cookies and local storage serve different purposes. Cookies are mainly for reading server-side, whereas local storage can only be read by the client-side.
 

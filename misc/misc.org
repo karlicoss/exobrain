@@ -1,98 +1,197 @@
 #+TITLE: Miscellaneous or unprocessed links
-* [2020-03-24] H+Pedia                              :transhumanism:
+* [2020-03-24] H+Pedia                                        :transhumanism:
+:PROPERTIES:
+:ID:       8a9fc47004092cc8c8172d3a6923b570
+:END:
 https://hpluspedia.org/wiki/Main_Page
 
 * [2020-03-24] Don’t bail out the cruise industry | Hacker News
+:PROPERTIES:
+:ID:       3ae405a8c84ab3e649f1dc6b52b45d56
+:END:
 https://news.ycombinator.com/item?id=22672392
 
 * [2020-03-24] Wilfred/helpful: A better Emacs *help* buffer
+:PROPERTIES:
+:ID:       80886c65277bfb7be0a870362dcb3278
+:END:
 https://github.com/Wilfred/helpful
 
 * [2020-03-26] EMDR Therapy (Eye Movement Desensitization & Reprocessing)
+:PROPERTIES:
+:ID:       9d326b4f5501542d0d40b8480cf5d39b
+:END:
 https://www.webmd.com/mental-health/emdr-what-is-it#1
 Comment:
 try it off youtube?
 * [2020-03-26] michael_nielsen on Twitter: "@eriktorenberg @glenweyl Empirically, it's not really correct. The most unusual people I know are mostly extreme loners; a smaller minority are mostly at the other end of being extremely social, but with an intense capacity to be alone. Grothendieck said it quite well: https://t.co/bVmbbO7RIb" / Twitter
+:PROPERTIES:
+:ID:       f53d540057cbf5e79950cb47b0ef9c43
+:END:
 https://twitter.com/michael_nielsen/status/1220538523603763200
 Selection:
 Empirically, it's not really correct. The most unusual people I know are mostly extreme loners; a smaller minority are mostly at the other end of being extremely social, but with an intense capacity to be alone. Grothendieck said it quite well:
 * [2020-03-31] Kill the newsletter: Convert newsletters into RSS feeds | Hacker News
+:PROPERTIES:
+:ID:       6d340255d30ae82bf644c3c2f6b39f9c
+:END:
 https://news.ycombinator.com/item?id=12949154
 
 * [2020-04-01] You are my spirit animal. I just got a polar/readwise/orgmode/Anki setup togeth... | Hacker News :remarkable:
+:PROPERTIES:
+:ID:       711a16bd547a38ef01fa0243bc1ffca1
+:END:
 https://news.ycombinator.com/item?id=22608287
 Selection:
 You are my spirit animal.
 
 I just got a polar/readwise/orgmode/Anki setup together and I'd love to use this.
 * [2020-04-01] Jitsi Meet: An open source alternative to Zoom | Hacker News
+:PROPERTIES:
+:ID:       b3f5eb0c8b8d40ec8f8c616d10b0a61d
+:END:
 https://news.ycombinator.com/item?id=22669968
 * [2020-04-02] Is there something like this for math? Does anyone know? | Hacker News
+:PROPERTIES:
+:ID:       db6e3972d6fdb2e24192ff96c78dd72e
+:END:
 https://news.ycombinator.com/item?id=16373386
 Comment:
 like physics travel guide, but for math
 
 
 * TODO todos
+:PROPERTIES:
+:ID:       349d34ca49da03a26a399f5feb25c5a9
+:END:
 ** TODO [2020-04-03] maybe sort by priority/date on export? or specify sort order in properties
+:PROPERTIES:
+:ID:       66a05f00115fe16d8531fcaab6e77b87
+:END:
 * [[https://twitter.com/i/web/status/584492360349913088][TW]] at [2015-04-04] Когда я читаю в release notes софтины "various style and layout fixes", автоматически предполагаю что выпилили полезные настройки. :ttweet:
-* TODO [2019-12-29] LOOPY: a tool for thinking in systems      :gr:
+:PROPERTIES:
+:ID:       933460002eb768026ed1d913f156929a
+:END:
+* TODO [#C] [2019-12-29] LOOPY: a tool for thinking in systems
+:PROPERTIES:
+:ID:       0db025bf305eff0f06c039ebc22179c6
+:END:
 https://ncase.me/loopy/
-* TODO [2020-01-01] pavelfatin/toyide: Modern IDE plus custom programming languages with interpreters and compilers :gr:
+* TODO [#D] [2020-01-01] pavelfatin/toyide: Modern IDE plus custom programming languages with interpreters and compilers
+:PROPERTIES:
+:ID:       144a27856822e1a6ba2611425d344a01
+:END:
 https://github.com/pavelfatin/toyide
 
-* [2020-01-16] Running Lisp in Production                      :gr:
+* [#C] [2020-01-16] Running Lisp in Production
+:PROPERTIES:
+:ID:       9bc0d37ae6b57f23f54d8d9e0278945e
+:END:
 https://tech.grammarly.com/blog/running-lisp-in-production
-* [2020-02-16] Elastic tabstops - a better way to indent and align code
+* [#C] [2020-02-16] Elastic tabstops - a better way to indent and align code
+:PROPERTIES:
+:ID:       24bfd96c45dbd4004b0bc7c7b6de4639
+:END:
 http://nickgravgaard.com/elastic-tabstops/
 
-* [2020-02-19] Open Source Design                          :graspw:
+* [#C] [2020-02-19] Open Source Design
+:PROPERTIES:
+:ID:       eef58d836a0b3623bc23b96230b6f6a2
+:END:
 https://opensourcedesign.net/
 
-* [2020-02-19] Can make syncthing only use LAN connection for some folders? - Support - Syncthing Forum :grasp:
+* [#C] [2020-02-19] Can make syncthing only use LAN connection for some folders? - Support - Syncthing Forum :grasp:
+:PROPERTIES:
+:ID:       1614f971254a2737d3140ba1553d3eac
+:END:
 https://forum.syncthing.net/t/can-make-syncthing-only-use-lan-connection-for-some-folders/7523/4
 : I have few places (LANs) with “desktop server” in them, those servers sync everything using one syncthing instance (global discovery + relays as well).
 : And then I have a mobile unit: One syncthing instance that syncs constantly only a handful of crucial folders (via LAN and Internet). Second syncthing instance that syncs all “non-critical + huge-sized” folders that has only local discovery on, hence will only sync when i’m on the same LAN with one of the “desktop servers”.
-* [2020-02-16] VGraupera/1on1-questions: Mega list of 1 on 1 meeting questions compiled from a variety to sources
+* [#C] [2020-02-16] VGraupera/1on1-questions: Mega list of 1 on 1 meeting questions compiled from a variety to sources
+:PROPERTIES:
+:ID:       284a2cbc92d1bcc3c446590ea922ad93
+:END:
 https://github.com/VGraupera/1on1-questions
 
-* [2020-02-16] Kurzgesagt – In a Nutshell is creating Science Animation Videos | Patreon :donate:
+* [#C] [2020-02-16] Kurzgesagt – In a Nutshell is creating Science Animation Videos | Patreon :donate:
+:PROPERTIES:
+:ID:       1a8850157bba7ccdb89b8a99bf0f31d3
+:END:
 https://www.patreon.com/Kurzgesagt
 
-* [2020-01-09] Canop/broot: A new way to see and navigate directory trees :gr:
+* [#C] [2020-01-09] Canop/broot: A new way to see and navigate directory trees
+:PROPERTIES:
+:ID:       3f657744cb92f264266a1a88b76cd1b1
+:END:
 https://github.com/Canop/broot
 
-* [2020-01-20] BusyBox cron container example                  :gr:
+* [#C] [2020-01-20] BusyBox cron container example
+:PROPERTIES:
+:ID:       24749a6bf3b71c540d912a9b3e23bd92
+:END:
 https://gist.github.com/andyshinn/3ae01fa13cb64c9d36e7
 Selection:
 Try crond --help:
-* [2020-01-18] chakravala/Grassmann.jl: ⟨Leibniz-Grassmann-Clifford⟩ differential geometric algebra / multivector simplicial complex :gr:
+* [#C] [2020-01-18] chakravala/Grassmann.jl: ⟨Leibniz-Grassmann-Clifford⟩ differential geometric algebra / multivector simplicial complex
+:PROPERTIES:
+:ID:       86d67823ef8385dd39d165e194619122
+:END:
 https://github.com/chakravala/Grassmann.jl
 Selection:
 The Grassmann.jl package provides tools for doing computations based on multi-linear algebra, differential geometry, and spin groups using the extended tensor algebra known as Leibniz-Grassmann-Clifford-Hestenes geometric algebra.
 * Tweet from @TheMagic_Ian
+:PROPERTIES:
+:CREATED:  [2020-04-02]
+:ID:       e4f382c96d05ffc4f02853e7f1c622b1
+:END:
+
 https://twitter.com/TheMagic_Ian/status/1245580360743710721
 
 @TheMagic_Ian: Stop using fake-secure, or insecure video conferencing apps like Zoom, Skype, Duo, HouseParty,  Facebook Messenger, Slack, Teams! Consider #Jitsi or #Matrix clients like #Riot. twitter.com/theintercept/statu...
 * doesn't look active. all top results are from 2017            :axol:upspin:
+:PROPERTIES:
+:CREATED:  [2020-04-02]
+:ID:       f19147780c1e6414e56dc26da6fb7b99
+:END:
 * [2020-04-06] (HN discussion on configs) wow, people have such strong opinions about software architecture, what it *should* be and what it *shouldn't be* etc
+:PROPERTIES:
+:ID:       f4d4f387119ed3a78ffa935fed44af61
+:END:
 Like, unconditionally assuming that there is data and there is code, and that there is no middle ground whatsoever
 often assuming there is one single way of doing things and that's it. incredible
 * [2020-04-05] Start all of your commands with a comma (2009) | Hacker News
+:PROPERTIES:
+:ID:       f5141068efc6773617761af1275afab4
+:END:
 https://news.ycombinator.com/item?id=22778988
 * [2020-04-08] Watch the Life Cycle of HIV in Colorful New Detail - Scientific American Blog Network
+:PROPERTIES:
+:ID:       ceb23cc6b40f90bc0f53051c05f26787
+:END:
 https://blogs.scientificamerican.com/observations/watch-the-life-cycle-of-hiv-in-colorful-new-detail/
 * [2020-04-10] Emily Levesque Public Lecture: The Weirdest Stars in the Universe - YouTube
+:PROPERTIES:
+:ID:       95458c5a646a93a1b3b545c544601eb6
+:END:
 https://www.youtube.com/watch?v=YR-l0b2iYy0
 Comment:
 pretty cool talk!
-* TODO [2020-03-24] PEP 593 -- Flexible function and variable annotations | Python.org
+* TODO [#C] [2020-03-24] PEP 593 -- Flexible function and variable annotations | Python.org
+:PROPERTIES:
+:ID:       ef667b4a27cc61ba83626b883f5f2d41
+:END:
 https://www.python.org/dev/peps/pep-0593/
-* [2020-04-07] Firefox 75 for developers - Mozilla | MDN
+* [#C] [2020-04-07] Firefox 75 for developers - Mozilla | MDN
+:PROPERTIES:
+:ID:       60199d31f9ab1b8d34c8024a8d5da9ed
+:END:
 https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/75
 Selection:
 In the inspector, you can now use XPath expressions to locate elements, in addition to locating elements using CSS selectors as before (bug 963933).
 * [2020-04-08] antonmedv/codejar: An embeddable code editor for the browser 🍯
+:PROPERTIES:
+:ID:       3441a533f710faf0f3774958bc5fbf6c
+:END:
 https://github.com/antonmedv/codejar
 Selection:
 CodeJar honey_pot can be used via modules:
@@ -100,10 +199,16 @@ CodeJar honey_pot can be used via modules:
 : <script type="module">
 :   import {CodeJar} from 'https://medv.io/codejar/codejar.js'
 : </script>
-* TODO [2019-08-24] Simple dependent types in Python - DEV Community 👩‍💻👨‍💻 :mypy:python:
+* TODO [#C] [2019-08-24] Simple dependent types in Python - DEV Community 👩‍💻👨‍💻 :mypy:python:
+:PROPERTIES:
+:ID:       df8bb56dbb960033cd630f1a40fad4ef
+:END:
 https://dev.to/wemake-services/simple-dependent-types-in-python-4e14
 : Now, we are going to combine our new knowledge about Literal and @overload together to solve our problem with open. At last!
-* TODO [2019-08-18] JStumpp/awesome-android: A curated list of awesome Android packages and resources. :gr:
+* TODO [#C] [2019-08-18] JStumpp/awesome-android: A curated list of awesome Android packages and resources.
+:PROPERTIES:
+:ID:       0e1d13fd80a99ddda7c1462fce7186f0
+:END:
 https://github.com/JStumpp/awesome-android#readme
 Selection:
 Development Alternatives

@@ -1,47 +1,103 @@
 #+TITLE: Building browser extensions
 #+filetags: webext
 
-* Apply the Javascript best practices
+* [#A] Apply the Javascript best practices
+:PROPERTIES:
+:ID:       a8b87a4b956df334422879845360afb3
+:END:
 - use Flow or Typescript
 - use ES6
 - use Promise
 - use Fetch API
 
-* TODO [2019-08-18] [[https://github.com/fregante/Awesome-WebExtensions#readme][fregante/Awesome-WebExtensions: A curated list of awesome resources for WebExtensions development.]] :promnesia:grasp:webext:
+* TODO [#B] [2019-08-18] [[https://github.com/fregante/Awesome-WebExtensions#readme][fregante/Awesome-WebExtensions: A curated list of awesome resources for WebExtensions development.]] :promnesia:grasp:webext:
+:PROPERTIES:
+:ID:       67285fc8d71d28d8e8b017f9e872a992
+:END:
 : Chrome Webstore Upload - Upload the extension to the Chrome Web Store via cli (or on Travis, automatically).
 ** [2019-09-02] https://github.com/LinusU/wext-shipit this works also for firefox? :webext:firefox:
-* TODO [2019-08-18] [[https://github.com/acvetkov/sinon-chrome][use sinon-chrome? Mocks the Chrome Extensions API for testing]] :grasp:promnesia:webext:
+:PROPERTIES:
+:ID:       60c90e6f350320f27a7d6e6e39959b45
+:END:
+* TODO [#C] [2019-08-18] [[https://github.com/acvetkov/sinon-chrome][use sinon-chrome? Mocks the Chrome Extensions API for testing]] :grasp:promnesia:webext:
+:PROPERTIES:
+:ID:       7fd5cd46f14e00be105600c925768bf1
+:END:
 
 
-* START [#B] [2019-08-28] Working with quota on mobile browsers: A research report on browser storage - HTML5 Rocks :gr:html5:webext:
+* START [#B] [2019-08-28] Working with quota on mobile browsers: A research report on browser storage - HTML5 Rocks :html5:webext:
+:PROPERTIES:
+:ID:       f6eeb853b713d928a2478cba97fad932
+:END:
 :LOGBOOK: 
-- State "START"      from "TODO"       TS!!
+- State "START"      from "TODO"       [2019-09-07]
 :END: https://www.html5rocks.com/en/tutorials/offline/quota-research/ 
 ** [2019-09-07] To do this research, I have built a tool called Browser Storage Abuser to minimize the manual work. You can store as much data as possible to see the limit of each storage on your browser.
+:PROPERTIES:
+:ID:       7b88b1e0d413a38d25d823d0568f1fc9
+:END:
 ** [2019-09-07] Android firefox: For IndexedDB, you can use up to 50MB on desktop, 5MB on mobile for free. However, the user can allow the limit to be removed by granting permission.
-* DONE ugh why did I end up with several versions of grasp on AMO?? :firefox:amo:webext:
+:PROPERTIES:
+:ID:       88240ef39b235b0ab9df8b9b15eed0e9
+:END:
+* DONE [#B] ugh why did I end up with several versions of grasp on AMO?? :firefox:amo:webext:
+:PROPERTIES:
+:CREATED:  [2020-02-08]
+:ID:       d1a51b25ef6e37fb69531829749154ba
+:END:
 it feels that signing is enough to upload. next time try waiting for a bit..
 https://addons.mozilla.org/en-US/developers/addons
 ** [2020-02-15] ok, first time you need to create manually; after that, get the id (it's public, so ok to put in a git repo) and use it with the build script
-* DONE [2019-05-01] telotortium/org-capture-extension at native-messaging-host
+:PROPERTIES:
+:ID:       798b043b025e64bff5a5244ae6297d7d
+:END:
+* DONE [#C] [2019-05-01] telotortium/org-capture-extension at native-messaging-host
+:PROPERTIES:
+:ID:       b337ff2cb7fe269a11f475c4f1c595d0
+:END:
 https://github.com/telotortium/org-capture-extension/tree/native-messaging-host
 : Native Messaging Host
 : This is a version of the Org Capture Extension using the Chrome Native Messaging host
 ** [2019-08-10] [[https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging][hmm firefox also got it?]]
+:PROPERTIES:
+:ID:       aaebd7da709cf69c39b54aaaa5efcc75
+:END:
 
 ** [2020-02-15] ok, seems tricky, and apparently requires installing via OS
+:PROPERTIES:
+:ID:       90af82d77705380a0efae822fd75f7cf
+:END:
 
-* TODO [2019-09-08] [[https://github.com/fregante/webext-options-sync][fregante/webext-options-sync: Helps you manage and autosave your extension's options. Chrome and Firefox.]] :gr:promnesia:grasp:
+* TODO [#C] [2019-09-08] [[https://github.com/fregante/webext-options-sync][fregante/webext-options-sync: Helps you manage and autosave your extension's options. Chrome and Firefox.]] :promnesia:grasp:
+:PROPERTIES:
+:ID:       a62d941ecb194d0e9c3fe9c4274daadc
+:END:
 : webext-domain-permission-toggle -
-* TODO [2019-08-29] [[https://stackoverflow.com/questions/35857606/chrome-messaging-chrome-runtime-sendmessage-not-working-on-the-newest-release-4][javascript - Chrome messaging: chrome.runtime.sendMessage not working on the newest release 49 - Stack Overflow]] :webext:
+* TODO [#C] [2019-08-29] [[https://stackoverflow.com/questions/35857606/chrome-messaging-chrome-runtime-sendmessage-not-working-on-the-newest-release-4][javascript - Chrome messaging: chrome.runtime.sendMessage not working on the newest release 49 - Stack Overflow]] :webext:
+:PROPERTIES:
+:ID:       2564b4f83968d3bc56fee11707fab5d3
+:END:
 : This is the intended behaviour. Messages were not supposed to be received by the sending page. The old behaviour was a bug. This is discussed in these bug reports: 479425 479951.
-* TODO browser_action impacts presense of menu item on android..     :webext:
-* [2019-10-27] Re: [fregante/webext-options-sync] feat: optionally use chrome.storage.local (#19) - karlicoss@gmail.com - Gmail :gr:
+* TODO [#C] browser_action impacts presense of menu item on android.. :webext:
+:PROPERTIES:
+:CREATED:  [2019-09-08]
+:ID:       98a2960b221332c014e866cf375137e2
+:END:
+* [#C] [2019-10-27] Re: [fregante/webext-options-sync] feat: optionally use chrome.storage.local (#19) - karlicoss@gmail.com - Gmail
+:PROPERTIES:
+:ID:       d5aeff1ce77909e02462faed9b12e0fc
+:END:
 : I'd rather not offer this option because I think cross-device sync is always preferable from the user's point of view, but I'm willing to add this for extensions with options that are meant to be local (e.g. a port number)
 : PR welcome, documentation included.
-* TODO [2019-09-08] [[https://github.com/fregante/webext-options-sync/pull/8/commits/58aea6988d268b73f197894839a3318d909b06a0][let the user decide what storage type shall be used by obama · Pull Request #8 · fregante/webext-options-sync]] :gr:
+* TODO [#C] [2019-09-08] [[https://github.com/fregante/webext-options-sync/pull/8/commits/58aea6988d268b73f197894839a3318d909b06a0][let the user decide what storage type shall be used by obama · Pull Request #8 · fregante/webext-options-sync]]
+:PROPERTIES:
+:ID:       50b12f8cbca20fa76932c079e0ad2473
+:END:
 
-* DONE [2019-09-08] notlmn/browser-extension-template: Barebones boilerplate with webpack, options handler and auto-publishing :grasp:webext:
+* DONE [#B] [2019-09-08] notlmn/browser-extension-template: Barebones boilerplate with webpack, options handler and auto-publishing :grasp:webext:
+:PROPERTIES:
+:ID:       f2e7d7379128d067eab11948dee72d25
+:END:
 https://github.com/notlmn/browser-extension-template
 : Features
 :     Use modern Promise-based browser.* APIs webextension-polyfill.
@@ -49,35 +105,74 @@ https://github.com/notlmn/browser-extension-template
 :     Auto-publishing with auto-versioning and support for manual releases.
 :     Extensive configuration documentation.
 
-* [2020-02-08] [[https://blog.mozilla.org/addons/2018/02/28/discontinuing-support-for-beta-versions/][Discontinuing support for beta versions | Mozilla Add-ons Blog]] :gr:
+* [2020-02-08] [[https://blog.mozilla.org/addons/2018/02/28/discontinuing-support-for-beta-versions/][Discontinuing support for beta versions | Mozilla Add-ons Blog]]
+:PROPERTIES:
+:ID:       bfd376cf52b930b877caf382709d571b
+:END:
 : AMO supports signing self-hosted (unlisted) versions, which we believe is a good replacement. With self-hosted versions, developers can create multiple development update channels if needed. They can easily move users between channels. The main caveat is that the files and update mechanisms need to be hosted by the developer
 * [2020-02-15] [[https://dev.to/napolux/how-to-add-comments-to-packagejson-5doi][How to add comments to package.json? - DEV Community 👩‍💻👨‍💻]] :blog:
+:PROPERTIES:
+:ID:       ed065b2c1ef373b7318cae7d804c191f
+:END:
 : How to add comments to package.json?
-* TODO [2020-02-15] [[https://www.npmjs.com/package/xo][xo - npm]]
+* TODO [#C] [2020-02-15] [[https://www.npmjs.com/package/xo][xo - npm]]
+:PROPERTIES:
+:ID:       75e1cc2c52850d070d948d553cecbbc8
+:END:
 : Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code. Never discuss code style on a pull request again! No decision-making. No .eslintrc or .jshintrc to manage. It just works!
 * [2020-02-15] [[https://github.com/notlmn/browser-extension-template/blob/master/source/options-storage.js][browser-extension-template/options-storage.js at master · notlmn/browser-extension-template]]
+:PROPERTIES:
+:ID:       620cae917520eeafa8c065922734ee99
+:END:
 : import OptionsSync from 'webext-options-sync';
 
-* [2020-02-15] [[https://github.com/notlmn/browser-extension-template#publishing][notlmn/browser-extension-template: Barebones boilerplate with webpack, options handler and auto-publishing]] :TODO:
+* [#C] [2020-02-15] [[https://github.com/notlmn/browser-extension-template#publishing][notlmn/browser-extension-template: Barebones boilerplate with webpack, options handler and auto-publishing]]
+:PROPERTIES:
+:ID:       370d5a26bcdcb2c0373a2a01dfb63f14
+:END:
 : Target respective browsers using .babelrc.
-* [2020-02-15] [[https://github.com/DrewML/chrome-webstore-upload-cli][DrewML/chrome-webstore-upload-cli: Upload/Publish Chrome Web Store extensions from the CLI]] :webext:
+* [#C] [2020-02-15] [[https://github.com/DrewML/chrome-webstore-upload-cli][DrewML/chrome-webstore-upload-cli: Upload/Publish Chrome Web Store extensions from the CLI]] :webext:
+:PROPERTIES:
+:ID:       3df8a3592a27dc3024e4713c5079347a
+:END:
 : chrome-webstore-upload-cli
 
 - comment
 : guide for publishing on chrome store
-* [2020-02-21] [[https://lobste.rs/s/2bq29z/choosing_browser_write_extensions_for][Choosing a browser to write extensions for | Lobsters]]
+* [#C] [2020-02-21] [[https://lobste.rs/s/2bq29z/choosing_browser_write_extensions_for][Choosing a browser to write extensions for | Lobsters]]
+:PROPERTIES:
+:ID:       592639e63271f27151ab0cebe762e907
+:END:
 : Thanks for the advice! I was actually inspired to go down this route by seeing the things you’ve been building. I think my interests are similar, but not quite the same.
 : There are two main extensions I want to build. First, a way to archive and mark up webpages. There is a Chrome extension called Weava that does something similar, but it’s SaaS and I doesn’t seem to have a convenient export format.
 : Second, I would like better history tools. In particular, often have the problem that I read an article or page and want to link to it in a blog post (or similar), but I’ve forgotten how I found it. I’d like an extension that can maintain “chains” of followed links so that I can always look up how I found something.
 : I’m happy to get in touch and consider collaborating if you’re interested.
-* [2020-02-18] [[https://github.com/mozilla/web-ext][mozilla/web-ext: A command line tool to help build, run, and test web extensions]]
+* [#B] [2020-02-18] [[https://github.com/mozilla/web-ext][mozilla/web-ext: A command line tool to help build, run, and test web extensions]]
+:PROPERTIES:
+:ID:       24fe529cb0f0a4fffc14110d9c5fb9b7
+:END:
 : Hi! This tool is under active development. To get involved you can watch the repo, file issues, create pull requests, or ask a question on dev-addons
-* [2020-02-18] [[https://github.com/mozilla/web-ext/issues/804][Add `web-ext submit` to submit listed add-ons to AMO · Issue #804 · mozilla/web-ext]]
+* [#B] [2020-02-18] [[https://github.com/mozilla/web-ext/issues/804][Add `web-ext submit` to submit listed add-ons to AMO · Issue #804 · mozilla/web-ext]]
+:PROPERTIES:
+:ID:       750613d04d3067ce9fa453b9779f1c15
+:END:
 : web-ext submit would submit to amo only. If you want the zip you can already use web-ext build
-* [2020-02-17] [[https://lea.verou.me/2012/07/introducing-prism-an-awesome-new-syntax-highlighter/#more-1841][Introducing Prism: An awesome new syntax highlighter | Lea Verou]]
+* [#D] [2020-02-17] [[https://lea.verou.me/2012/07/introducing-prism-an-awesome-new-syntax-highlighter/#more-1841][Introducing Prism: An awesome new syntax highlighter | Lea Verou]]
+:PROPERTIES:
+:ID:       1f360cab6a74ef8b4e9db8f9920305cb
+:END:
 
 * TODO chrome got far better profiling, better debugging information + screenshots :webext:
-* TODO releasing new PUBLIC version on AMO             :amo:promnesia:webext:
+:PROPERTIES:
+:CREATED:  [2020-03-22]
+:ID:       750391e0bc424febf16eabc52a3bbcf0
+:END:
+* TODO [#A] releasing new PUBLIC version on AMO        :amo:promnesia:webext:
+:PROPERTIES:
+:CREATED:  [2020-04-03]
+:ID:       9b8e26ee30415f0538f8395afec63920
+:END:
+
 apparently doesn't work through webext regardless. once it's autosigned, you're screwed??
 so to publish on AMO you always have to upload the zip
 
@@ -88,10 +183,24 @@ so to publish on AMO you always have to upload the zip
 
 huh. interesting, it seemed to have published instantly...
 ** [2020-05-19] and again, published immediately... odd!
+:PROPERTIES:
+:ID:       3f7cdbfffc40032d92a2a1d91fd5028f
+:END:
 * TODO ugh, can't force webpack/chrome into using date in the version... :webext:
+:PROPERTIES:
+:CREATED:  [2020-04-02]
+:ID:       9d2cf8f93073313b220818e987b56aa4
+:END:
 https://developer.chrome.com/apps/manifest/version
 * TODO for fucks sake. releasing even without 'unlisted' channel doesn't make it automatically submitted for manual review??? :webext:amo:
+:PROPERTIES:
+:CREATED:  [2020-04-03]
+:ID:       ea7ef6b7e72ba8f93e94d55192c51aee
+:END:
 * [2020-04-05] [[https://github.com/roam-unofficial/roam-toolkit/blob/master/webpack.config.js][roam-toolkit/webpack.config.js at master · roam-unofficial/roam-toolkit]] :webext:
+:PROPERTIES:
+:ID:       bf35bc5ed0631b9ab00db0231032bb90
+:END:
 : new webpack.DefinePlugin({
 : 			'NODE_ENV': JSON.stringify(nodeEnv),
 : 			'WEB_BROWSER': JSON.stringify(webBrowser),

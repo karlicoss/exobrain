@@ -1,7 +1,10 @@
 #+TITLE: 
 #+filetags: prepping
 
-* [2019-02-01] WikiReader - Wikipedia                    :prepping:
+* [#C] [2019-02-01] WikiReader - Wikipedia                         :prepping:
+:PROPERTIES:
+:ID:       48f99ded20c11bd6de908ce918256ea4
+:END:
 https://en.wikipedia.org/wiki/WikiReader
 Comment:
 huh, something like that could be cool!

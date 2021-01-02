@@ -1,7 +1,8 @@
 #+TITLE: 
-* [2018-05-02] My rants about interface updates                :ui:
-
-
+* [2018-05-02] My rants about interface updates                          :ui:
+:PROPERTIES:
+:ID:       2062389ceacfba6924503db378226a15
+:END:
 https://twitter.com/search?q=from%3Akarlicoss%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81&src=typd
 
 - google calendar update: broke quick add

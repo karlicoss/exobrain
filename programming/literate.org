@@ -2,5 +2,11 @@
 
 
 * amend                                                              :refile:
-** [2019-09-23] NiklasRosenstein/pydoc-markdown: Create Python API documentation in Markdown format. :gr:literate:
+:PROPERTIES:
+:ID:       f1a91827018f161918c734379d32c6e3
+:END:
+** [#C] [2019-09-23] NiklasRosenstein/pydoc-markdown: Create Python API documentation in Markdown format. :literate:
+:PROPERTIES:
+:ID:       405b0eab7939dbfa32ee185b4b36daa4
+:END:
 https://github.com/NiklasRosenstein/pydoc-markdown

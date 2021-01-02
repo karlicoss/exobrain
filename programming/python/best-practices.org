@@ -1,7 +1,16 @@
 #+TITLE: 
 * testing
+:PROPERTIES:
+:ID:       ae2b1fca515949e5d54fb22b8ed95575
+:END:
 ** nose is abandoned
+:PROPERTIES:
+:ID:       dd242f17627ca96651f853d9c302aa3b
+:END:
 ** pytest is the best apparently
+:PROPERTIES:
+:ID:       390054ae7eb9b463f27fb39f5c4f0a07
+:END:
 - uses the built in =assert=
   : assert 1 == 1, 'This is my error message, which is optional'
 - parameterized tests
@@ -13,15 +22,33 @@
 - parallel execution via xdist
 
 * logging
+:PROPERTIES:
+:ID:       ad8a2265fa17b7808fca5ae77cada94f
+:END:
 ** simple
+:PROPERTIES:
+:ID:       8dbdda48fb8748d6746f1965824e966a
+:END:
 import logging
 logging.basicConfig(level=logging.INFO) # apparently callin basicconfig at least one is important
 logging.exception('Caught an error' + str(e))
 
 ** use logzero for nice colored logs
+:PROPERTIES:
+:ID:       d5c6949cf045355a1cc69021fe66d880
+:END:
 
 * json
+:PROPERTIES:
+:ID:       466deec76ecdf5fca6d38571f6324d54
+:END:
 ** json.dump(jobj, stdout, indent=4, sort_keys=True, ensure_ascii=False)
+:PROPERTIES:
+:ID:       2f64adaf1366783dcbc47ccfb88692c0
+:END:
 
 
 * TODO asyncio
+:PROPERTIES:
+:ID:       ee6541e67770f6f71c9de9fbdf4167ea
+:END:

@@ -1,6 +1,10 @@
 #+TITLE: Travel
 
 * Copenhagen/Malmo                                        :travel:copenhagen:
+:PROPERTIES:
+:CUSTOM_ID: copenhagen
+:CREATED:  [2019-07-14]
+:END:
 - Buy Rejsekort, makes it easy to travel around Denmark and you can go to Malmo with it. Mind that it needs some minimal balance (70 DKK as of writing), and bus stops often lack the top-up machine.
 - If you go to Malmo, make sure to take your passport if you're not an EU citizen, there is border control on Swedish side
 - Christiania is a bit overrated, just bunch of people who smoke weed
@@ -10,7 +14,13 @@
 
 
 * Lisbon                                                      :travel:lisbon:
+:PROPERTIES:
+:CUSTOM_ID: lisbon
+:END:
 ** transport
+:PROPERTIES:
+:ID:       7b334b7260361141659fa9862e803476
+:END:
 - Airport
   We were leaving Monday 7pm and the line for border control was ridiculous, only one out of ten booths was operational, even though the whole queue had to depart in 20 minutes. So you might really want to arrive in advance.
 - Uber from airport: very cheap to city center, 8 euros.
@@ -19,49 +29,123 @@
 - I've read advice to avoid the metro late at night somewhere on reddit, but can't confirm
 
 ** food/drinks
+:PROPERTIES:
+:ID:       40de4198e3cf03ad454db89d8d7bc9b1
+:END:
 *** Drinking/smoking in public — OK as long as you behave.
+:PROPERTIES:
+:ID:       820525084b8fe744761941bbbd1e75e5
+:END:
 *** Get a wine and snacks from a supermarket. Chill on the river bank, beware the waves, they might suddenly splash you!
+:PROPERTIES:
+:ID:       d2bd1eff78eaeac021047643304ee3a5
+:END:
 *** TODO Francesinha
+:PROPERTIES:
+:CREATED:  [2018-04-16]
+:ID:       34809b723c366c820db125cbe65eabaf
+:END:
 some authentic sandwich?
 
 *** Fish/squid/octopus. Many small restaurants serve it + veggie plates
+:PROPERTIES:
+:ID:       4285347518ed1e043d6a655c193b5bbd
+:END:
 
 *** TODO Caldeirada seafood stew
+:PROPERTIES:
+:CREATED:  [2018-04-13]
+:ID:       7d5284c806cd2e3630c06481d26b6804
+:END:
 haven't had chance to try... but heard it was good
 
 *** DONE TimeOut market for food. Lines are pretty long at lunchtime. Not very cheap and not very authentic, but ok overall.
+:PROPERTIES:
+:ID:       f7879f57f150ae814549a3bb63767734
+:END:
 
-*** DONE Trobadores medieval tavern
+*** DONE [#A] Trobadores medieval tavern
+:PROPERTIES:
+:ID:       3fd7030281974492562103ad8d57c989
+:END:
 Very cool place! Looks very medieval, nice Celtic musing on the background.
 Order chorizo/blood chorizo, you can grill it yourself right on your table!
 Nice Celtic musing in the background.
 Drink mead, ginjinha, Porto ruby.
 
 *** DONE Pastel de nata. Nice egg pastry.
+:PROPERTIES:
+:ID:       2ff2ec610fd921e3ce5d2daa6bc883c3
+:END:
 
 *** DONE Gelaterias. Some delicious ice cream: vanilla & basil, salted caramel, pistachio.
+:PROPERTIES:
+:ID:       7b816845ad53adfd22229d4c102fcc22
+:END:
 
 *** TODO Chimera Brewpub.
+:PROPERTIES:
+:ID:       2ef18ad91b331e6645036f2db2e103b9
+:END:
 Craft Portuguese Beers
 *** Nice filter coffee in Copenhagen Coffee Lab (beware no wifi) and Fabrica Coffee Roasters
+:PROPERTIES:
+:ID:       a2ba98bf466b829410a7acd2714eed6d
+:END:
 
 ** places & activities
+:PROPERTIES:
+:ID:       a46af5c9398f615f1df45ac91c3e07ab
+:END:
 *** DONE Berardo Collection Museum -- good modern art
+:PROPERTIES:
+:ID:       df5a6290bcc1aa9591176c8a1c27372e
+:END:
 *** DONE Alfama is higher up and more medieval looking because a tsunami destroyed the lower elevation parts of the city. [wikitravel]
+:PROPERTIES:
+:ID:       2abcae62ffb8b82c30a2c9bf7c3f5e0c
+:END:
 
 *** DONE [[https://wikitravel.org/en/Sintra][Sintra]]
+:PROPERTIES:
+:ID:       784edc78ef5f108dd23fb87f322e3675
+:END:
 You can get there by cheap (1.5 Eur) suburban train.
 
 Sintra is famous for two local foodstuffs, queijadas and travesseiros. Queijadas are small sweet cakes, that are made using fresh cheese instead of butter. They are actually quite easy to make at home, but when you're there you might as well try some. Travesseiros are rectangular pastries made from fluff pastry and almond paste, and worth a try as well. [wikitravel]
 **** Cabo de Rocha - very nice lighthouse, cliffs, and decent hike to the beach.
+:PROPERTIES:
+:ID:       ab209332280780bcc5f6d7740f19752b
+:END:
 Take a bus from Sintra, but beware the way is serpentinish, in case you are prone to motion sickness. It costs something like 4 EUR, paid by cash to the driver. Also mind the schedule.
 *** de abril bridge
+:PROPERTIES:
+:ID:       ba0b62e1ac2490c1fb05c099cceaee49
+:END:
 Very cool, looks kinda like Golden Gate. Unfortunately not pedestrian.
 *** take a ferry to the other side, walk to Christ the King statue. Nice city view
+:PROPERTIES:
+:ID:       48581f7bbb3bdde9552ae41cc505ed20
+:END:
 *** DONE train to cascais (coastal resort)
+:PROPERTIES:
+:ID:       22530b2499a48cf53aef98663753c1cf
+:END:
 *** For Lisbon views, we preferred the Rua Augusta arch over the more popular Santa Justa elevator. The arch is also covered by the Lisboa card (€2.50 otherwise) and is IMO the cheaper and better alternative for some superb views of the city. [wikitravel]
+:PROPERTIES:
+:ID:       7235948314752d51150932ace993e163
+:END:
 *** TODO electricity museum
+:PROPERTIES:
+:ID:       c78681fd6fcaa2cf3ca7c750338afa6c
+:END:
 *** Art in metro on some stations
+:PROPERTIES:
+:ID:       dcb32307709da718723f945612090d27
+:END:
 Mostly [[https://en.wikipedia.org/wiki/Red_Line_(Lisbon_Metro)][red line]]. It goes to the airport, so it's hard to miss. Oriente is particularly cool
 *** TODO Jardim Botanico
+:PROPERTIES:
+:ID:       b070b295318da511d83c1c25c78b933e
+:END:
 allegedly good, but was closed at the time :(

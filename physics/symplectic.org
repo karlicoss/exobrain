@@ -1,7 +1,7 @@
 #+TITLE: 
 #+filetags: symplectic,math
 
-TS!!  ok, so trying to consolidate everything
+[2018-11-15]  ok, so trying to consolidate everything
 
 
 1. https://sbseminar.wordpress.com/2012/01/09/what-is-a-symplectic-manifold-really/
@@ -54,6 +54,9 @@ Ok. so we established that
 so that?? why the minus sign?
 
 * [2018-11-10] ok, trying to break down this thing http://math.mit.edu/~cohn/Thoughts/symplectic.html
+:PROPERTIES:
+:ID:       0f9f7753a0f06738611d8deb625299ab
+:END:
 the idea is to generalise phase space mechanics to abstract (not necessarily eucledian spaces)   
 
 we want a method to turn hamiltonian function H to a vector field V, then dynamics is the flow across integral curves of this field
@@ -94,6 +97,9 @@ U* x V = Hom(U, V) = U -> V
 process : (T(m) -> R) -> T(m) = 
 
 ** [2018-11-18]
+:PROPERTIES:
+:ID:       5cc72400179624d1833fffc40f25c383
+:END:
 ok, use conservation of energy
 that means that Hamiltonian is constant along the flow. for any H: dH(V_H) = 0, hence w(V_H, V_H) = 0. For every V, we can find its H, s.t. V_H = V, so w(V, V) = 0 for all V? so the form is alternating
 
@@ -101,10 +107,15 @@ TODO non-degeneracy?
 
 
 *** TODO fuck, I don't really understand the closedness thing and it might actually be crutial. maybe, later...
+:PROPERTIES:
+:ID:       ee9467bcaa7c21d34802b92e6e4ab631
+:END:
 
 
 * START [2018-11-16]  Topics in Representation Theory: Hamiltonian Mechanics and Symplectic Geometry
-
+:PROPERTIES:
+:ID:       1cd3cd7d31d44da51454f181d17a33c8
+:END:
  good point on first page: a more obvious set of equations is gradient flow:
 dp_i/dt = -df/dp_i
 dq_i/dt = -df/dq_i
@@ -143,9 +154,15 @@ hmm, https://en.wikipedia.org/wiki/Tautological_one-form
 apparently this theta is called canonical one-form
 
 ** TODO print it!...
+:PROPERTIES:
+:ID:       28075d4d581f4cc290365a9e2623c1e9
+:END:
 
 
 ** TODO looks like really good paper... read more from it (or references?)
+:PROPERTIES:
+:ID:       accb3402bb89a855212248915961908d
+:END:
 [1] Bryant, R., An Introduction to Lie Groups and Symplectic Geometry, in
 Geometry and Quantum Field Theory, Freed, D., and Uhlenbeck, K., eds.,
 American Mathematical Society, 1995.
@@ -153,6 +170,9 @@ American Mathematical Society, 1995.
 bridge University Press, 1984.
 
 * START [2018-11-17] Terence Tao: Phase Space
+:PROPERTIES:
+:ID:       a783e9ebf802cb8c7633e3989cf5a636
+:END:
 ok, so his stuff is pretty similar.
 positions q in conf space M
 momentum p: in cotangent bundle T_q* M
@@ -173,29 +193,65 @@ Okay, kinda makes sense. Time evolution in the direction of steepest descent.
 
 TODO something about definition via observables
 * TODO momentum vs velocity
+:PROPERTIES:
+:ID:       8751583f3bfaf362b77209d180069032
+:END:
 ** https://physics.stackexchange.com/questions/213991/why-specify-the-state-of-a-particle-in-terms-of-position-and-momentum-not-veloci
+:PROPERTIES:
+:ID:       1f193b274175d6165bfc930eb29ad37e
+:END:
 *** tl;dr: In classical mechanics, specifying a particle's state in terms of momentum is equivalent to specifying it in terms of velocity, but the specification in terms of momenta often has computational advantages.
+:PROPERTIES:
+:ID:       ac080c5410df195d8b999fa466cff24e
+:END:
 *** Quantum mechanics does not have well-defined trajectories q(t), so the notion of a velocity does not make sense. On the contrary, the momentum operator can still be defined as relating to the position operator in the same way as in Hamiltonian mechanics, by replacing the classical Poisson bracket by the quantum commutator of operators.
+:PROPERTIES:
+:ID:       0a41390c2863ac257d708a40bfe64d21
+:END:
 ** TODO hmm, so velocities (q') are just additional 'data' which happens to be related via q = q'(t). initially, you don't have to treat it as derivative.
+:PROPERTIES:
+:ID:       08660589f9a2960cfcc396453bd5c76e
+:END:
 
 
 * TODO that's pretty interesting https://physics.stackexchange.com/questions/123725/what-kind-of-manifold-can-be-the-phase-space-of-a-hamiltonian-system
+:PROPERTIES:
+:ID:       c1ebc88a44f21aa9a39a59e68dcae147
+:END:
 maybe visualise a hamiltonian on n-torus?
 
 * equations of motion are dx/dt = {x, H} and dp/dt = {p, H} -- hmm, that's interesting...
+:PROPERTIES:
+:ID:       281722495bb3fed9848ca6c71b39602a
+:END:
 https://mathoverflow.net/a/16462/29889
 
 * https://www.quora.com/What-is-the-significance-of-a-symplectic-manifold
+:PROPERTIES:
+:ID:       922ab3061306dbbcb6a7c617ec514a10
+:END:
 ** I believe the significance for physics boils down to the following: it turns out that a two-form is precisely what is required to translate an energy functional on phase space (a Hamiltonian) into a flow (a vector field).
+:PROPERTIES:
+:ID:       28dab01e3ff162bceb72f37be33b071d
+:END:
 
 ** TODO mmm...
+:PROPERTIES:
+:ID:       2ef3edfa9ee56efd6d4d5d4fb111ac42
+:END:
 So in some sense, "conservation of symplectic form" is the second most basic conservation law. (The most basic is conservation of energy, which is essentially the definition o
 
 
 * something interesting about the fact that not all symplectic forms can be exact (if the space is not T*Q for some Q)
+:PROPERTIES:
+:ID:       50dea56077c859b37c037f80e9aa6baa
+:END:
 https://mathoverflow.net/a/16537/29889
 
 * TODO where to put it?
+:PROPERTIES:
+:ID:       c0bf2342d82e9e7860627e6011b501a6
+:END:
 Following [2].
 
 K   = 1/2 Sum m_a (v^a)^2
@@ -251,16 +307,31 @@ canonical poincare 1-form Theta = \Sum_i p_i dq^i, which satisfies a^* Theta = a
 
 
 * TODO some graphical intuition about covectors... http://www.physicsinsights.org/pbp_one_forms.html
+:PROPERTIES:
+:ID:       3760f2ed80f154178e9cabd55d48e3d4
+:END:
 
 * TODO [2018-11-10]  digression: [Goldberg] A Little Tase of Symplectic Geometry.pdf -- very cool!!!
+:PROPERTIES:
+:ID:       29e691c91637db59c78c5c2d03a11f85
+:END:
 
 * TODO something interesting about basis of tangent vectors?... https://math.stackexchange.com/a/454663/15108 v \in T_p M = v^i \delta_i?
+:PROPERTIES:
+:ID:       0a5b8f4158c0d3b3f294c6ae8bae7192
+:END:
 
 
 * TODO hmm, why are alternating forms important? https://en.wikipedia.org/wiki/Multilinear_form#Alternating_multilinear_forms
+:PROPERTIES:
+:ID:       67654149fd062a0d8649792125933aa4
+:END:
 so they are actually what's called covectors??
 
 * '[Powell] Aspects of Symplectic Geometry in Physics.pdf'
+:PROPERTIES:
+:ID:       e98f173da6ccd0215b83d3e7168f655b
+:END:
 Suppose $f$ is observable. It can only depend on position, momentum and possibly time:
 
 $f(p_i, q^i)$: $\dv{f}{t} = \sum_i \pdv{f}{q^i} \dot{q}^i + \pdv{f}{p_i} {\dot p}_i = \sum_i \pdv{f}{q^i} \pdv{H}{p_i} - \pdv{f}{p_i} \pdv{H}{q_i} := \{f, H\}$
@@ -268,10 +339,16 @@ $f(p_i, q^i)$: $\dv{f}{t} = \sum_i \pdv{f}{q^i} \dot{q}^i + \pdv{f}{p_i} {\dot p
 $f(p_i, q^i, t)$ -- if time dependent , then $\dv{f}{t} = \{f, H\} + \pdv{f}{t}$ -- makes sense! kinda like flow derivative from Segal
 
 * TODO something about symplectomorphisms...
+:PROPERTIES:
+:ID:       480a1ba77ab9ad7ed314467ce9b9456e
+:END:
 any 2n-dimensional symplectic manifold looks like R^2n, w_0 
 
 
 * START [2018-11-18] ok, I should implement some simple phase space portrait plotting first
+:PROPERTIES:
+:ID:       039c701baabf63d3ca187374e57dc941
+:END:
 https://github.com/BartoszMilewski/gravity-sim
 haskell or rust?... not sure
 
@@ -282,14 +359,38 @@ soo, if it's a linear dependency on velocity... it's kind of time coordinate tra
 
 
 * [2018-11-21]  understood A LOT while waiting for Metric concert!
+:PROPERTIES:
+:ID:       740679e4b623093f94b69f8ca4fed8a6
+:END:
 ** https://en.wikipedia.org/wiki/Hamiltonian_mechanics#Deriving_Hamilton's_equations
+:PROPERTIES:
+:ID:       c5715b7cacac0df94eb3486d7b1d51b4
+:END:
 *** mnemonic : p then q (dp/dt = dH/dq)
+:PROPERTIES:
+:ID:       de4b6bed295ae869db404395d2604ecc
+:END:
 *** In fact, as is shown below, the Hamiltonian is the Legendre transform of the Lagrangian when holding q and t fixed and defining p as the dual variable, and thus both approaches give the same equations for the same generalized momentum. The main motivation to use Hamiltonian mechanics instead of Lagrangian mechanics comes from the symplectic structure of Hamiltonian systems.
+:PROPERTIES:
+:ID:       b9003aec1a9a2f641d86c5093f3977bd
+:END:
 *** Hamilton's equation easily derived by looking at the total differential of Lagrangian on time
+:PROPERTIES:
+:ID:       0955572ca6799d350bc88766184b8eb8
+:END:
 *** generalised coordinates: just any coordinates that (injectively??) map onto system configuration
+:PROPERTIES:
+:ID:       c7d52dc41a89964e61d0a66da23e3459
+:END:
 *** TODO Since this calculation was done off-shell, one can associate corresponding terms from both sides of this equation to yield:
+:PROPERTIES:
+:ID:       642978f774e663c428be10d7b8f4903c
+:END:
 hmm, wonder if that's kinda like dimensionality argument
 *** TODO 
+:PROPERTIES:
+:ID:       d41d8cd98f00b204e9800998ecf8427e
+:END:
 In Cartesian coordinates, the generalized momenta are precisely the physical linear momenta. In circular polar coordinates, the generalized momentum corresponding to the angular velocity is the physical angular momentum. For an arbitrary choice of generalized coordinates, it may not be possible to obtain an intuitive interpretation of the conjugate momenta.
 
 right, that's interesting that it's not possible to obtain intuitive sense
@@ -299,41 +400,87 @@ One thing which is not too obvious in this coordinate dependent formulation is t
 TODO should read more on that... what do they call coordinate patches?
 
 *** TODO If the transformation equations defining the generalized coordinates are independent of t, and the Lagrangian is a sum of products of functions (in the generalized coordinates) which are homogeneous of order 0, 1 or 2, then it can be shown that H is equal to the total energy E = T + V.
+:PROPERTIES:
+:ID:       b85d35b5d3abfdfe3db93e4e93ae0c39
+:END:
 not sure, that might be interesting
 *** TODO The solutions to the Hamilton–Jacobi equations for this Hamiltonian are then the same as the geodesics on the manifold. In particular, the Hamiltonian flow in this case is the same thing as the geodesic flow. The existence of such solutions, and the completeness of the set of solutions, are discussed in detail in the article on geodesics. See also Geodesics as Hamiltonian flows.
+:PROPERTIES:
+:ID:       d99ab7a9ba93880c1793cf8d209739a2
+:END:
 https://en.wikipedia.org/wiki/Hamiltonian_mechanics#Riemannian_manifolds
 
 ** https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D0%BC%D0%B8%D0%BB%D1%8C%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0
+:PROPERTIES:
+:ID:       14c52c92234f25f972b00053c37986cc
+:END:
 *** В полярных координатах обобщённый импульс, соответствующий угловой скорости, — физический угловой момент. Для произвольного выбора обобщённых координат трудно получить интуитивную интерпретацию сопряжённых этим координатам импульсов или угадать их выражение, не используя прямо приведённую выше формулу.
+:PROPERTIES:
+:ID:       7daaf4f9d7f15f2f3a82ba380c9ecbef
+:END:
 sad...
 *** Отсюда, в частности, следует, что если какая-то координата оказалась циклической, то есть если функция Лагранжа от неё не зависит, а зависит только от её производной по времени, то для сопряжённого ей импульса {\displaystyle {\dot {p}}=0} {\dot  {p}}=0, то есть он является интегралом движения (сохраняется во времени), что несколько проясняет смысл обобщённых импульсов.
+:PROPERTIES:
+:ID:       fa6a9e7f74db1e96d10eda53baeeb8ea
+:END:
 В этой формулировке, зависящей от выбора системы координат, не слишком очевиден тот факт, что различные обобщённые координаты являются в действительности не чем иным, как различными координатизациями одного и того же симплектического многообразия.
 *** Любая гладкая функция {\displaystyle H\colon M\to \mathbb {R} } H\colon M\to \mathbb{R}  на симплектическом многообразии {\displaystyle M} M может использоваться, чтобы определить гамильтонову систему. Функция {\displaystyle H} H известна как гамильтониан или энергетическая функция. Симплектическое многообразие называют фазовым пространством. Гамильтониан порождает специальное векторное поле на симплектическом многообразии, известном как симплектическое векторное поле.
+:PROPERTIES:
+:ID:       7c2b61bbd29f74d122d6c07aa0deacbb
+:END:
 *** Симплектическое векторное поле (также называется гамильтоновым векторным полем) порождает гамильтонов поток на многообразии. Интегральные кривые векторного поля являются однопараметрическим семейством преобразований многообразия с параметром, называемым время. Эволюция во времени задаётся симплектоморфизмами. Из теоремы Лиувилля следует, что каждый симплектоморфизм сохраняет форму объёма в фазовом пространстве. Множество симплектоморфизмов, порождаемых гамильтоновым потоком, обычно называют гамильтоновой механикой гамильтоновой системы.
+:PROPERTIES:
+:ID:       6a98530c3db391e1f3e3c97a3f8a504d
+:END:
 *** Гамильтоново векторное поле также порождает специальную операцию — скобка Пуассона. Скобка Пуассона действует на функции на симплектическом многообразии, таким образом придавая пространству функций на многообразии структуру алгебры Ли.
+:PROPERTIES:
+:ID:       21202844388806de702b140e9860441d
+:END:
 
 ** phase: from any point on phase space, evolution is unique. it's kinda like initial data for a differential equation
+:PROPERTIES:
+:ID:       f503e19e1e272600399de24d6f3a89b2
+:END:
 
 
 * [2018-11-20] why symplectic spaces?
+:PROPERTIES:
+:ID:       6f64fe696c2aa17e6ab833c9348d6a03
+:END:
   historically, we empirically noticed/observed that principle of least action works (Lagrangian formulation), and there is an alternative and completely equivalent formulation (Hamiltonian).
 When we study symplectic geometry, we ask: what are the minimum requirements to *define* familiar basic physical concepts (energy/time), and so that we still have the usual properties (e.g. Hamiltonian flow).
 
 As a bonus, we drop the requirement for configuration space, and considering its cotangent bundle -- it can be *any* symplectic space.
 ** TODO now figure out why is that interesting. lol
+:PROPERTIES:
+:ID:       cbafeaf7f61fd351a4a2a845fdb71566
+:END:
 
 
 
-* [2018-11-10] intuition - What is a symplectic form intuitively? - MathOverflow :protocol:
+* [2018-11-10] intuition - What is a symplectic form intuitively? - MathOverflow
+:PROPERTIES:
+:ID:       fa58d4336668a360be25bb6c7397ddbf
+:END:
 https://mathoverflow.net/questions/19932/what-is-a-symplectic-form-intuitively/19935#19935
 
 soo, all we can do is correlate pairs of coordinate between each other? otherwise we can't tell which are position, which are momentum?
 
 
 * TODO Hamiltonian vector field - Wikipedia
+:PROPERTIES:
+:CREATED:  [2018-11-15]
+:ID:       b25e5cc5126596177b320b96cd6dd838
+:END:
+
 Suppose that (M, ω) is a symplectic manifold. Since the symplectic form ω is nondegenerate, it sets up a fiberwise-linear isomorphism
 
 * TODO Tweet from John Carlos Baez (@johncarlosbaez), at Nov 22, 22:01
+:PROPERTIES:
+:CREATED:  [2018-11-22]
+:ID:       0896ccf7c0010e05c9dc6a3341cb9d34
+:END:
+
 I thought about it longer and realized what was going on.  
 
 You get equations like Hamilton's whenever a system *extremizes something subject to constraints*.   A moving particle minimizes action; a box of gas maximizes entropy.   
@@ -345,20 +492,46 @@ https://t.co/wy7UVrR8bL
 https://twitter.com/johncarlosbaez/status/1065727111120310272
 
 * TODO Legendre transformation - Wikipedia
+:PROPERTIES:
+:CREATED:  [2018-11-21]
+:ID:       728ea8df434e73df4646f5d1ec9a43c2
+:END:
+
 Legendre transformation, named after Adrien-Marie Legendre, is an involutive transformation on the real-valued convex functions 
 
-* [2018-11-10] What moment map is (as a physical concept) in sympletic geometry - Mathematics Stack Exchange :protocol:
+* [2018-11-10] What moment map is (as a physical concept) in sympletic geometry - Mathematics Stack Exchange
+:PROPERTIES:
+:ID:       5aae600753dcea779e2448b3ba8d9db3
+:END:
 https://math.stackexchange.com/questions/2447269/what-moment-map-is-as-a-physical-concept-in-sympletic-geometry
-* [2018-11-10] classical mechanics - Intuition about Momentum Maps - Physics Stack Exchange :protocol:
+* [2018-11-10] classical mechanics - Intuition about Momentum Maps - Physics Stack Exchange
+:PROPERTIES:
+:ID:       34812139da4413c70a292b8e6a353fc0
+:END:
 https://physics.stackexchange.com/questions/203653/intuition-about-momentum-maps
-* [2018-11-14] sg.symplectic geometry - How to see the Phase Space of a Physical System as the Cotangent Bundle - MathOverflow :protocol:
+* [2018-11-14] sg.symplectic geometry - How to see the Phase Space of a Physical System as the Cotangent Bundle - MathOverflow
+:PROPERTIES:
+:ID:       765b29862c42dff441beb607e1c3bae6
+:END:
 https://mathoverflow.net/questions/16460/how-to-see-the-phase-space-of-a-physical-system-as-the-cotangent-bundle/16462#16462
-* [2018-11-19] Legendre transformation - Wikipedia       :protocol:
+* [2018-11-19] Legendre transformation - Wikipedia
+:PROPERTIES:
+:ID:       04b42e47a3d80bffb9f10a4f9dfc48a5
+:END:
 https://en.wikipedia.org/wiki/Legendre_transformation#Further_properties 
 For a strictly convex function, the Legendre transformation can be interpreted as a mapping between the graph of the function and the family of tangents of the graph.
-* TODO [2018-11-18] Symplectic integrator - Wikipedia    :protocol:
+* TODO [2018-11-18] Symplectic integrator - Wikipedia
+:PROPERTIES:
+:ID:       d63a99deb7274396e0dd7c4bc13b21e6
+:END:
 https://en.wikipedia.org/wiki/Symplectic_integrator
-* [2018-11-19] mathematical physics - Is there an analogue of configuration space in quantum mechanics? - Physics Stack Exchange :protocol:
+* [2018-11-19] mathematical physics - Is there an analogue of configuration space in quantum mechanics? - Physics Stack Exchange
+:PROPERTIES:
+:ID:       e1b4933613c512db978f8b02b0f6ca95
+:END:
 https://physics.stackexchange.com/questions/33897/is-there-an-analogue-of-configuration-space-in-quantum-mechanics
-* [2018-11-18] Applying Runge-Kutta method to circular - C++ Forum :protocol:
+* [2018-11-18] Applying Runge-Kutta method to circular - C++ Forum
+:PROPERTIES:
+:ID:       5a453463effb0eee549c294a4c0397e0
+:END:
 http://www.cplusplus.com/forum/general/103744/

@@ -2,22 +2,43 @@
 #+filetags: grammar
 
 * Cases
+:PROPERTIES:
+:ID:       b1f0b866ff1e540503531b72d365a681
+:END:
 ** General
+:PROPERTIES:
+:ID:       0db377921f4ce762c62526131097968f
+:END:
 - a system of marking dependent nouns for the type of relationship they bear to their heads
 - A role that one of these languages marks by case will often be marked in English using a preposition.
 - Languages having cases often exhibit free word order, because thematic roles are not required to be marked by position in the sentence
 - case is a morphological category
 
 ** Nominative
+:PROPERTIES:
+:ID:       68b4b1703bb05a59540374606bd79151
+:END:
 subject pronoun
 ** Accusative
+:PROPERTIES:
+:ID:       dab878dd01c2b9baf28420c74e547ad7
+:END:
 object pronoun, 'to'
 ** Genitive
+:PROPERTIES:
+:ID:       e9e7238eefd440bebe89f0d533e0bbf1
+:END:
 possessive and 'of'
 ** Instrumental (ablative, творительный)
+:PROPERTIES:
+:ID:       15497ee4fbbd95396a477bc1400291b9
+:END:
 'by', 'via', 'with'
 
 ** hierarchy
+:PROPERTIES:
+:ID:       b81ca7c0ccaa77e7aa91936ab0070695
+:END:
 Cases can be ranked in the following hierarchy, where a language that does not have a given case will tend not to have any cases to the right of the missing case:[4]:p.89
 
 nominative → accusative or ergative → genitive → dative → locative or prepositional → ablative and/or instrumental → others.

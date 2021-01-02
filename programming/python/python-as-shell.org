@@ -2,25 +2,58 @@
 
 
 * CANCEL xonsh
+:PROPERTIES:
+:ID:       ef1b1d55ea22a2c250691cc9026ec754
+:END:
 xonsh http://xon.sh/tutorial.html
 *** importing local modules
+:PROPERTIES:
+:ID:       cc2c7c36d16bfd089f3cd8b4d5f0e83c
+:END:
 import sys
 sys.path.insert(0, '')
 *** no way of using source as in bash?
+:PROPERTIES:
+:ID:       46c6540b895a8252357fae55b269425b
+:END:
 *** DIR = os.path.dirname(os.path.abspath(sys.argv[0])) # TODO move it to python preamble?
+:PROPERTIES:
+:ID:       83c546052606c2a4a122b3da95084ef1
+:END:
 
 
 * CANCEL plumbum
+:PROPERTIES:
+:ID:       b3e376b42c6a61e023a69251ca44f46f
+:END:
 http://plumbum.readthedocs.io/en/latest/
 
 * http://pymotw.com/2/cmd/
+:PROPERTIES:
+:ID:       6c29ba01ec2228c1084c1d1812b9ca9e
+:END:
 * https://pypi.python.org/pypi/termcolor
+:PROPERTIES:
+:ID:       519f579ddd013eecf7beb320d62c812f
+:END:
 * https://pypi.python.org/pypi/sh
+:PROPERTIES:
+:ID:       12d9ab66d37fe3416aa63956ecf8f08a
+:END:
 * CANCEL ln command : named args!
+:PROPERTIES:
+:ID:       6621c66cdcf326b9cf1503a1b5bb7120
+:END:
 * conky?
+:PROPERTIES:
+:ID:       e48955a0c01667e952c249357851e860
+:END:
 http://www.jperla.com/blog/post/a-clean-python-shell-script
 
 * eh?
+:PROPERTIES:
+:ID:       d5175335aa171871e761a24e43307b3d
+:END:
 from pprint import pprint
 
 from pathlib import Path

@@ -1,8 +1,15 @@
 #+TITLE: Orger
 #+filetags: orger
 
-* TODO example of adding materialistic module -- literally matter of two commits? :blog:orger:
+* TODO [#B] example of adding materialistic module -- literally matter of two commits? :blog:orger:
+:PROPERTIES:
+:CREATED:  [2020-01-27]
+:ID:       bd3250a05f87e150aa1c9b0d30e92d44
+:END:
 * STRT [#B] [2020-03-22] Reddit's Save Functionality Sucks | My Random Thoughts by Cedric Amaya :blog:reddit:exports:
+:PROPERTIES:
+:ID:       aa2b0cac1ebfc73a5a6100cade43f3e8
+:END:
 https://cedric.tech/blog/reddits-save-functionality-sucks/
 : For those unaware, saving things on Reddit as a non-Premium member works in the following way:
 :     limited to 1000 saved things (posts and comments) total; once the limit is reached, older things are replaced and essentially deleted from history
@@ -14,25 +21,64 @@ https://cedric.tech/blog/reddits-save-functionality-sucks/
 - comment
 : the fuck?? they are deleted from history??
 
-* DONE feedbin?                                             :promnesia:orger:
-** [2019-04-23] feedbin/feedbin-api: Feedbin API Documentation :grasp:
-
+* DONE [#C] feedbin?                                        :promnesia:orger:
+:PROPERTIES:
+:CREATED:  [2019-05-05]
+:ID:       7e99342bbe1e11be1cd16963bd8445aa
+:END:
+** [2019-04-23] feedbin/feedbin-api: Feedbin API Documentation        :grasp:
+:PROPERTIES:
+:ID:       8530e9bc121589dc672d99f1b95cb745
+:END:
 https://github.com/feedbin/feedbin-api#readme
 : The base URL for all requests is https://api.feedbin.com/v2/ Only https is supported.
 : The Feedbin API uses HTTP Basic authentication
 : curl -u 'example@example.com:password' https://api.feedbin.com/v2/subscriptions.json
 
-* TODO feels more and more that they should be a single tool :promnesia:orger:
+* TODO [#C] feels more and more that they should be a single tool :promnesia:orger:
+:PROPERTIES:
+:CREATED:  [2020-02-27]
+:ID:       46c6ed8215e1bb1f423bbab85152d9d1
+:END:
 * STRT [#C] youtube -- could mark as deleted if link = title?     :hpi:orger:
-* TODO mirror emails to people only? e.g. some reasonable cutoff to exclude notifications etc? :orger:hpi:
-* TODO [2020-03-24] lobste.rs/s/r9oskz.json                 :orger:
+:PROPERTIES:
+:CREATED:  [2019-09-20]
+:ID:       64fde60d35383afee4d1a525569b6d91
+:END:
+* TODO [#C] mirror emails to people only? e.g. some reasonable cutoff to exclude notifications etc? :orger:hpi:
+:PROPERTIES:
+:CREATED:  [2020-03-18]
+:ID:       44c86227001fc5a7f32643faef36442f
+:END:
+* TODO [#C] [2020-03-24] lobste.rs/s/r9oskz.json                      :orger:
+:PROPERTIES:
+:ID:       26f32a223ce4b8c5f97bf8b1293830d9
+:END:
 https://lobste.rs/saved.json
 : port saved lobsters posts?
 * amend                                                              :refile:
-** TODO post how I'm adding mastodon to Orger on mevreilles? :mastodon:pkm:orger:toot:
-** TODO need to use highlight as title?                       :hyp2org:orger:
-** TODO motivation: I've got reddit, hackernews (no api, so mobile is separate), links from telegram, RSS :blog:orger:
+:PROPERTIES:
+:ID:       f1a91827018f161918c734379d32c6e3
+:END:
+** TODO [#C] post how I'm adding mastodon to Orger on mevreilles? :mastodon:pkm:orger:toot:
+:PROPERTIES:
+:CREATED:  [2019-12-29]
+:ID:       989405747d00623fb441d4d5e0a291ed
+:END:
+** TODO [#C] need to use highlight as title?                  :hyp2org:orger:
+:PROPERTIES:
+:CREATED:  [2019-05-11]
+:ID:       ed91e7c315ad91ca8c49eb529ce9bc4a
+:END:
+** TODO [#C] motivation: I've got reddit, hackernews (no api, so mobile is separate), links from telegram, RSS :blog:orger:
+:PROPERTIES:
+:CREATED:  [2020-03-21]
+:ID:       94cf4300541138de407d707d261ef42d
+:END:
 ** STRT [#C] [2020-02-15] I'm tackling the issue of managing Reddit saves. Across all platforms (not just... | Hacker News :orger:
+:PROPERTIES:
+:ID:       a5ecc53306d50d0b68b9b9f1a72a6ebb
+:END:
 https://news.ycombinator.com/item?id=22177077
 : cedricium 17 days ago | parent | favorite | on: Ask HN: What interesting problems are you working ...
 : I'm tackling the issue of managing Reddit saves.

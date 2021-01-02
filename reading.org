@@ -1,6 +1,11 @@
 #+TITLE: Reading
 
 * how I am scoring books on goodreads                       :reading:scoring:
+:PROPERTIES:
+:CREATED:  [2018-06-15]
+:PUBLISHED: [2019-05-26]
+:CUSTOM_ID: book_scoring
+:END:
 At some point I found myself scoring books as 5/5 very often and at worst as 3/5, which is not very meaningful.
 To fight score inflation, I've decided to put some conscious effort and put the criteria I want to use in words.
 
@@ -18,3 +23,6 @@ Ideally I think books scoring should be some sort of yes-no questionnaire. Kinda
 
 
 ** TODO figure out similar scale for movies? Because of more genres might be even more difficult.
+:PROPERTIES:
+:ID:       0892b81823b1abc37beba22854b09a2c
+:END:

@@ -1,12 +1,26 @@
 #+TITLE: Uncategorized
-* TODO JSONCrush – Compress JSON into URI Friendly Strings | Hacker News :json:
+* TODO [#D] JSONCrush – Compress JSON into URI Friendly Strings | Hacker News :json:
+:PROPERTIES:
+:CREATED:  [2019-11-27]
+:ID:       8dc1dc2ccbe4d2199e786db66e0734a1
+:END:
+
 https://news.ycombinator.com/item?id=21641760
 * [2020-03-30] karan/Projects: A list of practical projects that anyone can solve in any programming language.
+:PROPERTIES:
+:ID:       4e726dd2d5a81837da64963764945b3e
+:END:
 https://github.com/karan/Projects
 
 * [2020-03-31] Debugging with tmate · Actions · GitHub Marketplace :githubci:
+:PROPERTIES:
+:ID:       062bf0a727ed0f6e3fa06931b7d4fa0f
+:END:
 https://github.com/marketplace/actions/debugging-with-tmate
 ok, nice it's like circleci ssh debugging.
 less convenient because you have to commit a step, but ok considering you don't need it often
-* [2020-01-19] Home - Mozilla Hacks - the Web developer blog   :gr:
+* [#D] [2020-01-19] Home - Mozilla Hacks - the Web developer blog
+:PROPERTIES:
+:ID:       10613e7b8aa4fae23f5a31739158d425
+:END:
 https://hacks.mozilla.org/

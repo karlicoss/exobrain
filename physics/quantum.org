@@ -1,10 +1,15 @@
 #+TITLE: 
 #+filetags: quantum:physics
 
-* [2018-08-25] copenhagen interpretation is not time symmetric, we lose quantum information when wavefunction shrinks :quantum:interpretation:
+* [#B] [2018-08-25] copenhagen interpretation is not time symmetric, we lose quantum information when wavefunction shrinks :quantum:interpretation:
+:PROPERTIES:
+:ID:       e15a3f3880249663bcd6129328e7e2dd
+:END:
 
-* [2017-06-03] pilot wave theory                    :iterpretation:
-
+* [2017-06-03] pilot wave theory                              :iterpretation:
+:PROPERTIES:
+:ID:       50cf649b373ebffe880558c78d0ded80
+:END:
 The other thing you should know is that Copenhagen is not any longer widely accepted amongst people who actually work on interpretations of QM or in foundational physics in general, it's just accepted outside the community as something that most people have at least some knowledge of.
 Now, what's the problem with Copenhagen. The biggest one is the so-called measurement problem, that there is an ill-defined delineation between a system and its observer, or between "quantum" and "classical". There's may others though, e.g. that randomness is postulated rather than a result of the theory.
 
