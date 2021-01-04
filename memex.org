@@ -1,9 +1,122 @@
 #+TITLE: Memex
 #+filetags: memex
 
-* [2020-03-07] [[https://www.youtube.com/watch?v=DFWxvQn4cf8][RubyConf 2018 - Building a Memex (with Ruby!) by Andrew Louis]] :hpi:
+Related: #pkm, #lifelogging, #quantifiedself
+* prior art & inspiration
 :PROPERTIES:
-:ID:       79715bdd7028a3aa27b7d7fbb1e80095
+:ID:       975a461b893a82660a78bb8ca532c0a1
 :END:
-fuck me, this is awesome
-mentions the same problems I struggled with literally in the same words!
+** [#A] [2020-03-07] [[https://hyfen.net/memex][Memex]] by [[person:alous][Andrew Louis]] + [[https://www.youtube.com/watch?v=DFWxvQn4cf8][RubyConf 2018 talk]]
+:PROPERTIES:
+:ID:       b644a162b2c30d0f8638741fa3ea3ad4
+:END:
+whoa, this is awesome
+he mentions the same problems I struggled with literally in the same words!
+** [#B] [2020-05-25] [[https://memri.cloud][Memri]]: a very promising project with the focus on user data ownership and privacy
+:PROPERTIES:
+:ID:       b8b2b94cdc74d34095ef0dad89671708
+:END:
+
+* remembrance agents
+:PROPERTIES:
+:CUSTOM_ID: remembrance_agent
+:END:
+: Remembrance Agents are a set of applications that watch over a user’s shoulder and suggest information relevant to the current situation
+
+** STRT [#C] [2020-01-06] [[http://alumni.media.mit.edu/~rhodes/Papers/remembrance.html][Remembrance Agent: A continuously running automated information retrieval system (1997)]]
+:PROPERTIES:
+:ID:       6b23e5212a3e51345bbfd3e57f42e889
+:END:
+This looks cool, but doesn't seem to work anymore?
+
+- [2019-12-28] [[https://news.ycombinator.com/item?id=4246330][The Remembrance Agent | Hacker News]]
+** TODO [#C] [2020-04-28] [[https://github.com/remembrance-agent][A Desktop Remembrance Agent]]
+:PROPERTIES:
+:ID:       23c17d22b5cef44ab559c00ad6030de7
+:END:
+: As you type, every five seconds the prior 60 characters of your keyboard buffer are sent to the RA. Suggestions are presented as clickable buttons
+
+Ok, this looks pretty cool.. maybe need to contact them and discuss
+
+* ideas & concepts
+:PROPERTIES:
+:ID:       83bc668c771ce0899a62bdc9f3ca8b43
+:END:
+** TODO [#B] [2020-06-06] [[https://hyfen.net/memex/updates/bad-remembrance-machines][hyfen.net/memex/updates/bad-remembrance-machines]]
+:PROPERTIES:
+:ID:       c28729baa399a57c8ee01991d600966c
+:END:
+: This maps pretty well to the triplestore architecture that stores triples of subject-predicate-object
+
+** [#B] [2019-12-03] [[https://jon.bo/posts/digital-tools/#a-centralized-search-interface-for-my-digital-brain-memex][Digital Tools I Wish Existed: A centralized search interface for my digital brain]] :jonbo:
+:PROPERTIES:
+:ID:       647ddd89f079232a64a38ebf0be4e809
+:END:
+: This tool should: accept and parse the following queries:
+:  spacex announcement type:video 2016
+:  links from:jon@test.org topic:python
+:  paper on temperature, productivity referenced in book:Uninhabitable Earth
+:  type:pdf habits digital interfaces
+:  reading comprehension type:blog post
+:  printer ink receipt
+:  type:book read:2017 finance
+:  file:py datetime parse
+
+** [#C] [2020-05-10] [[https://twitter.com/lehrjulian/status/1259526773236215814][lehrjulian/status/1259526773236215814]] :timeline:
+:PROPERTIES:
+:ID:       273834bdf424c0a14e145dd065a5da51
+:END:
+: I like the idea of converting a calendar into a diary / life log by integrating different data layers.
+: Other layers I'd like to add:
+: • Locations (Google Maps, Swarm)
+: • Media consumption (books, Netflix)
+: • Browser history / Screentime
+: • Stress levels (Oura, Apple Watch)
+: 
+: @aaronzlewis : concept: a Spotify calendar integration that lets you see what you were listening to alongside your old meetings and events. revisit the vibe of any moment with the Musical Time Machine
+
+* communities
+:PROPERTIES:
+:ID:       9dc3e05b39a6c5a244ce4c76768e5942
+:END:
+** TODO [#B] [2020-05-28] [[https://twitter.com/karlicoss/status/1266090022123470851][karlicoss/status/1266090022123470851]]
+:PROPERTIES:
+:ID:       2acf585b2ed317cd870d04b2edc076d1
+:END:
+: @karlicoss
+: I think I want to create some sort of community chat on the topic of knowledge management and tools around it, with the emphasis on interoperability, malleability, owning your data, local-first, org-mode etc.
+: Anyone would be interested to join?
+
+- [2020-05-27] likely needs to be Zulip (or even better, Matrix when they support threads in Element?)
+- [2020-06-30] discord sucks
+  - ok, discord is a bit crap because lacks proper threading
+  - need to sign up to read & search it
+  - closed source
+- [2020-06-18] I think I want the focus on existing tools and setup rather than discussing mockups and vague concepts. both are important, but I want to build something now
+- [2020-06-18] I want it to be a space to discuss configuration, and get detailed technical help etc. So needs to be more like an IM chat, with fine grained topics (so you can steer off a discussion without spamming everyone)
+*** [2021-01-04] sadly haven't had time to set up something so far, also wouldn't want to spawn more communities with large overlap
+:PROPERTIES:
+:ID:       70c189f7f22b0e144638c8d107066616
+:END:
+Related:
+- [[https://malleable.systems][Malleable Systems Collective]] + Matrix chat
+- https://thinkingtools.space
+- PKM https://discord.gg/gPn9EARR
+- dendron https://discord.gg/KPwE2rQX
+- logseq https://discord.gg/KPwE2rQX
+
+A huge downside of discords is that you can't engage with the information (e.g. search) without joining first.
+
+
+* misc
+:PROPERTIES:
+:ID:       bc957e26ff41470c556ee5d09e96880b
+:END:
+** TODO [#C] [2020-10-07] eh, would be really nice to have some sort of memex at this point :promnesia:memex:
+:PROPERTIES:
+:ID:       8ff37102f592cc81812e67c6cddd050c
+:END:
+maybe it could have some basic core (e.g. with couchdb), and then used in different apps?
+e.g. promnesia uses it to jump and browse the history
+dashboard uses to display all events
+timeline -- similarly for all life events

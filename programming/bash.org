@@ -1,0 +1,102 @@
+#+TITLE: 
+Bash & shell programming
+
+* shell programming                                                    :bash:
+:PROPERTIES:
+:ID:       2444c1b1548f940702d7a51219afced9
+:END:
+** [2017-12-25] boolean return value
+:PROPERTIES:
+:ID:       bbae67d499d2944267d93f6f0884aac9
+:END:
+: function whatever {
+:  if (x)
+:   then
+:       true
+:   else
+:       false
+:   fi
+: }
+: if whatever
+: then ...
+** [2017-12-26] multi-line string varible
+:PROPERTIES:
+:ID:       06257f2642194850a328a82f981c7f8b
+:END:
+: MULTILINE=$(cat <<-END
+: here
+: goes
+: multi
+: line
+: END
+: )
+
+** [2017-12-30] iterate over array
+:PROPERTIES:
+:ID:       7b28d35ad819c5214ae66d9e9d1d1e82
+:END:
+: EXTRA_STOWS=("home-arbtt" "home-emacs" "home-anacron")
+: for s in "${EXTRA_STOWS[@]}"
+
+** assert variable is defined {double square brackets -v} operator
+:PROPERTIES:
+:ID:       a634e825-dba8-4161-ae44-46f42afa6a6b
+:END:
+
+** [2018-04-26] get current script directory
+:PROPERTIES:
+:ID:       d2d97cc317250430e182194a6193654d
+:END:
+: DIR=$(dirname "$(readlink -f "$0")")
+
+(might not work on mac)
+
+** avoid passing flags in shebang (e.g. ~#!/bin/bash -eu~)
+:PROPERTIES:
+:CREATED:  [2018-06-21]
+:ID:       e5d6dbfc-d16e-4232-8f3c-39b3c2e4b28f
+:END:
+e.g. if you specify other flags in terminal, they would override everything
+instead, better to use ~if [[ $0 == "$BASH_SOURCE" ]]; then set -eux; fi~
+
+* interactive tricks & tips                                           :shell:
+:PROPERTIES:
+:ID:       24a20aa99b2bc4e0c3d54ed5cd6a5b66
+:END:
+priorities roughly indicate how useful I find each command
+** [#B] use sigquit {Ctrl-\} to kill processes that are really stuck (when Ctrl-C isn't working)
+:PROPERTIES:
+:CREATED:  [2018-03-05]
+:ID:       a7b98370-f7c2-420e-9934-4e5267e50e62
+:END:
+** [#B] exec command on each file ~find . -exec some command {} \;~
+:PROPERTIES:
+:CREATED:  [2019-06-19]
+:ID:       ac5e2198-a0b5-4480-b2fc-32b2b90796fc
+:END:
+** TODO exec command in parallel ~find /path -iname '*.pdf' -print0 | xargs -0 -n1 -i -P8 bash -c "echo 'Processing {}' && command '{}'"~
+:PROPERTIES:
+:CREATED:  [2019-06-20]
+:ID:       49b87f35-d5be-424d-9695-42b15c7641fe
+:END:
+
+** [#C] [2018-05-08] ~ps aufx~ to list all processes
+:PROPERTIES:
+:ID:       96d4e5937eec2b73802c2272f907b7d4
+:END:
+
+** [#C] tree -pufi for file tree with permissions
+:PROPERTIES:
+:CREATED:  [2018-09-18]
+:ID:       8e3d71f6-ccab-43aa-a05a-3c53221779f3
+:END:
+** [#D] {ln -i} for interactive symlink (prompts for removal)
+:PROPERTIES:
+:CREATED:  [2018-03-01]
+:ID:       67a7fb46-4a6e-491b-ada9-6e6dfb54ac3f
+:END:
+
+* TODO [#C] use whiptail for ncurses dialogs                            :tui:
+:PROPERTIES:
+:ID:       a4e1347c-793d-4650-a883-35e9d724f523
+:END:

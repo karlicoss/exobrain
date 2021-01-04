@@ -1,7 +1,7 @@
 #+TITLE: Literate programming and documentation
 
 
-* amend                                                              :refile:
+* amend
 :PROPERTIES:
 :ID:       f1a91827018f161918c734379d32c6e3
 :END:

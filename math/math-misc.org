@@ -18,7 +18,7 @@ branch cuts as many times as required to get back to the original Riemann sheet.
 although this scheme is very elegant, for calculational purposes it is best to treat branch
 cuts as barriers one cannot cross.
 
-* [2015-01-27] Elliptic vs Hyperbolic equations                       :drill:
+* [2015-01-27] Elliptic vs Hyperbolic equations
 :PROPERTIES:
 :ID:       8932b56f-d110-463d-b071-fceeb2165c48
 :END:
@@ -152,11 +152,11 @@ not sure...
 S = {T, bot}
 
 
-** continuity    in terms of 'touches' relation: [ forall A. x v A => f(x) v f(A)  ] :drill:
+** continuity    in terms of 'touches' relation: [ forall A. x v A => f(x) v f(A)  ]
 :PROPERTIES:
 :ID:       b9474d95-97ba-42b8-8d8e-acdb99db30c4
 :END:
-** connectedness in terms of 'touches' relation: { every cont. function from X ot (0, 1) is const } :drill:
+** connectedness in terms of 'touches' relation: { every cont. function from X ot (0, 1) is const }
 :PROPERTIES:
 :ID:       2eee5c1a-6b6e-4f80-8f84-291c84eeb0a3
 :END:

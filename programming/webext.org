@@ -1,14 +1,41 @@
 #+TITLE: Building browser extensions
 #+filetags: webext
 
-* [#A] Apply the Javascript best practices
+* tips etc
+:PROPERTIES:
+:ID:       d68d6b237bb4bf7f13046ac1732404c1
+:END:
+** [#A] Apply the Javascript best practices                              :js:
 :PROPERTIES:
 :ID:       a8b87a4b956df334422879845360afb3
 :END:
-- use Flow or Typescript
-- use ES6
-- use Promise
-- use Fetch API
+use
+- Flow or Typescript
+- ES6
+- Promise API
+- Fetch API
+
+* [#B] addons.mozilla.org publishing                                    :amo:
+:PROPERTIES:
+:ID:       236accf9ad1ea36288378f5af457e842
+:END:
+** TODO [#A] releasing new PUBLIC version on AMO
+:PROPERTIES:
+:CREATED:  [2020-04-03]
+:ID:       9b8e26ee30415f0538f8395afec63920
+:END:
+
+apparently doesn't work through webext regardless. once it's autosigned, you're screwed??
+so to publish on AMO you always have to upload the zip
+
+- with_secrets ./build --firefox --release --lint
+  dump the zip extension
+- choose to upload it AS LISTED on AMO
+- git archive master --output=promnesia-source.zip -- upload source
+
+huh. interesting, it seemed to have published instantly...
+- [2020-05-19] and again, published immediately... odd!
+
 
 * TODO [#B] [2019-08-18] [[https://github.com/fregante/Awesome-WebExtensions#readme][fregante/Awesome-WebExtensions: A curated list of awesome resources for WebExtensions development.]] :promnesia:grasp:webext:
 :PROPERTIES:
@@ -39,17 +66,6 @@
 ** [2019-09-07] Android firefox: For IndexedDB, you can use up to 50MB on desktop, 5MB on mobile for free. However, the user can allow the limit to be removed by granting permission.
 :PROPERTIES:
 :ID:       88240ef39b235b0ab9df8b9b15eed0e9
-:END:
-* DONE [#B] ugh why did I end up with several versions of grasp on AMO?? :firefox:amo:webext:
-:PROPERTIES:
-:CREATED:  [2020-02-08]
-:ID:       d1a51b25ef6e37fb69531829749154ba
-:END:
-it feels that signing is enough to upload. next time try waiting for a bit..
-https://addons.mozilla.org/en-US/developers/addons
-** [2020-02-15] ok, first time you need to create manually; after that, get the id (it's public, so ok to put in a git repo) and use it with the build script
-:PROPERTIES:
-:ID:       798b043b025e64bff5a5244ae6297d7d
 :END:
 * DONE [#C] [2019-05-01] telotortium/org-capture-extension at native-messaging-host
 :PROPERTIES:
@@ -126,7 +142,7 @@ https://github.com/notlmn/browser-extension-template
 :END:
 : import OptionsSync from 'webext-options-sync';
 
-* [#C] [2020-02-15] [[https://github.com/notlmn/browser-extension-template#publishing][notlmn/browser-extension-template: Barebones boilerplate with webpack, options handler and auto-publishing]]
+* TODO [#C] [2020-02-15] [[https://github.com/notlmn/browser-extension-template#publishing][notlmn/browser-extension-template: Barebones boilerplate with webpack, options handler and auto-publishing]]
 :PROPERTIES:
 :ID:       370d5a26bcdcb2c0373a2a01dfb63f14
 :END:
@@ -167,36 +183,12 @@ https://github.com/notlmn/browser-extension-template
 :CREATED:  [2020-03-22]
 :ID:       750391e0bc424febf16eabc52a3bbcf0
 :END:
-* TODO [#A] releasing new PUBLIC version on AMO        :amo:promnesia:webext:
-:PROPERTIES:
-:CREATED:  [2020-04-03]
-:ID:       9b8e26ee30415f0538f8395afec63920
-:END:
-
-apparently doesn't work through webext regardless. once it's autosigned, you're screwed??
-so to publish on AMO you always have to upload the zip
-
-- with_secrets ./build --firefox --release --lint
-  dump the zip extension
-- choose to upload it AS LISTED on AMO
-- git archive master --output=promnesia-source.zip -- upload source
-
-huh. interesting, it seemed to have published instantly...
-** [2020-05-19] and again, published immediately... odd!
-:PROPERTIES:
-:ID:       3f7cdbfffc40032d92a2a1d91fd5028f
-:END:
 * TODO ugh, can't force webpack/chrome into using date in the version... :webext:
 :PROPERTIES:
 :CREATED:  [2020-04-02]
 :ID:       9d2cf8f93073313b220818e987b56aa4
 :END:
 https://developer.chrome.com/apps/manifest/version
-* TODO for fucks sake. releasing even without 'unlisted' channel doesn't make it automatically submitted for manual review??? :webext:amo:
-:PROPERTIES:
-:CREATED:  [2020-04-03]
-:ID:       ea7ef6b7e72ba8f93e94d55192c51aee
-:END:
 * [2020-04-05] [[https://github.com/roam-unofficial/roam-toolkit/blob/master/webpack.config.js][roam-toolkit/webpack.config.js at master · roam-unofficial/roam-toolkit]] :webext:
 :PROPERTIES:
 :ID:       bf35bc5ed0631b9ab00db0231032bb90
@@ -208,3 +200,86 @@ https://developer.chrome.com/apps/manifest/version
 
 - comment
 : hmm wonder if this is useful?
+* [2018-03-29] how webext works?
+:PROPERTIES:
+:ID:       6e22e6338717b353e2a85db955d83256
+:END:
+background runs all the time. communicate with extension via message passing. TODO runtime_handlers?
+content scripts have no access to background
+make sure you return false at the end
+
+* logging
+:PROPERTIES:
+:ID:       ad8a2265fa17b7808fca5ae77cada94f
+:END:
+from content page, ~console.log~ goes to the page console, whereas from the rest to ~background.html~
+* TODO [#C] [2020-11-04] [[https://github.com/softvar/awesome-web-storage][softvar/awesome-web-storage: Everything you need to know about Client-side Storage.]] :webext:js:
+:PROPERTIES:
+:ID:       ba837fd735131013a8bc18e203432146
+:END:
+* [#C] [2020-05-14] [[https://news.ycombinator.com/item?id=23168874][Let's guess what Google requires in 14 days or they kill our extension | Hacker News]] :webext:
+:PROPERTIES:
+:ID:       1deb3df7dbf3e301ba27b8f887f6b315
+:END:
+: In practice I was able to use native messaging to spawn the executable but to actually talk with it I needed to use a websocket, kind of defeating the point.
+
+* TODO for fucks sake. releasing even without 'unlisted' channel doesn't make it automatically submitted for manual review???
+:PROPERTIES:
+:CREATED:  [2020-04-03]
+:ID:       ea7ef6b7e72ba8f93e94d55192c51aee
+:END:
+** [2020-02-15] ok, first time you need to create manually; after that, get the id (it's public, so ok to put in a git repo) and use it with the build script
+:PROPERTIES:
+:ID:       798b043b025e64bff5a5244ae6297d7d
+:END:
+
+** [2020-05-17] listed vs unlisted
+:PROPERTIES:
+:ID:       2a8d337de2baf698dc8f17da21c85602
+:END:
+so according to this https://blog.mozilla.org/addons/2017/01/26/mixing-listed-and-unlisted-on-amo , you can have mixed self distributed/AMO with the same extension id, but not the same version
+so adding --unlisted is a reasonable way to beta test
+the only confusing bit is why it is still queueing for reviews??
+** DONE [#B] ugh why did I end up with several versions of grasp on AMO??
+:PROPERTIES:
+:CREATED:  [2020-02-08]
+:ID:       d1a51b25ef6e37fb69531829749154ba
+:END:
+it feels that signing is enough to upload. next time try waiting for a bit..
+https://addons.mozilla.org/en-US/developers/addons
+
+* [#C] [2020-05-24] [[https://developer.chrome.com/extensions/background_pages][Manage Events with Background Scripts - Google Chrome]]
+:PROPERTIES:
+:ID:       29d1e4ce7b2c7d7a4317da11d2bded31
+:END:
+: The only occasion to keep a background script persistently active is if the extension uses chrome.webRequest API to block or modify network requests. The webRequest API is incompatible with non-persistent background pages.
+
+* [#C] [2020-05-13] [[https://news.ycombinator.com/item?id=23168874#23171176][Let's guess what Google requires in 14 days or they kill our extension | Hacker News]] :google:
+:PROPERTIES:
+:ID:       9cea79ee165fd3e24538a6bebe37f9d9
+:END:
+- [2020-05-13] [[https://news.ycombinator.com/item?id=23168874][Let's guess what Google requires in 14 days or they kill our extension | Hacker News]]
+* [#C] [2019-07-07] client/security.rst at 734e3a25318364819a8c38ef881e4788a2b06365 · hypothesis/client :webext:security:
+:PROPERTIES:
+:ID:       1f144bee6b9b0b746287d227f3fc4fb8
+:END:
+https://github.com/hypothesis/client/blob/734e3a25318364819a8c38ef881e4788a2b06365/docs/developers/security.rst
+** [2019-08-04] For example: in order to draw highlights, the annotated page needs to know the location of annotations, but it does not ever need to know the body text of an an annotation, and so it should not be possible to expose this over the messaging interface.
+:PROPERTIES:
+:ID:       b66f1ba6a1d1635da2e6fca9c6e0df92
+:END:
+* TODO [#B] [2020-11-09] [[https://addons.mozilla.org/en-GB/firefox/collections/4757633/webdeveloper/][Web Developer's Toolbox – Add-ons for Firefox (en-GB)]] :webext:
+:PROPERTIES:
+:ID:       d5840b13e77117458802f2b81255e8bb
+:END:
+
+* [#B] android debugging
+:PROPERTIES:
+:CREATED:  [2019-06-12]
+:ID:       296f5bf7b530beac1b372c3a0f03fda0
+:END:
+~web-ext run --target=firefox-android --android-device=XXXX~
+** [2019-08-10] remote debugging; use =Shift-F8= to open web ide https://developer.mozilla.org/en-US/docs/Tools/Remote_Debugging/Debugging_Firefox_for_Android_with_WebIDE#Enable_remote_debugging_in_Firefox_for_Android
+:PROPERTIES:
+:ID:       75b878e0dd8367cd4ce9596e8d63ef96
+:END:

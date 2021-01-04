@@ -39,7 +39,7 @@ One often desires more structure on a manifold than simply the topological struc
 :PROPERTIES:
 :ID:       b321d7c83e7c45dfa3f43bec928647c4
 :END:
-*** [2019-04-24] antipodal identification of circle (S^1) is [ circle ] :drill:
+*** [2019-04-24] antipodal identification of circle (S^1) is [ circle ]
 :PROPERTIES:
 :ID:       e3e6cc76-b4f0-4bce-8eee-3c331dfc14e8
 :END:
@@ -51,7 +51,7 @@ One often desires more structure on a manifold than simply the topological struc
 :PROPERTIES:
 :ID:       0b3b8bb6d6795f5939aea5940048333f
 :END:
-*** [2019-04-24] antipodal identificaiton of disk (D^2) is { RP^2 }   :drill:
+*** [2019-04-24] antipodal identificaiton of disk (D^2) is { RP^2 }
 :PROPERTIES:
 :ID:       83c8678e-9913-4789-9652-9a0e9cf09e6a
 :END:

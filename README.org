@@ -1,4 +1,6 @@
 #+TITLE: Intro
+#+filetags: exobrain
+
 Exobrain, or "second brain", or "brain dump" is something like public wiki where you can keep your *notes, ideas and thoughts*.
 Other people can search in your exobrain without having to physically interact with you.
 
@@ -8,7 +10,7 @@ My exobrain contains semi-curated notes, tasks and links.
 Some of it is quite unprocessed, but hopefully enough to make sense, especially if you are looking for something specific.
 
 The navigation sidebar might be useful to explore and overview what's in my exobrain, but going through all of it is too much work.
-I imagine [[https://beepb00p.xyz/exobrain/?search=exobrain][*search*]] as the *primary* means of interacting with the exobrain.
+I imagine [[file:index.html::#sidebar][*search*]] as the *primary* means of interacting with the exobrain.
 The search yields you *results as you type*, which means incredibly fast feedback.
 
 Note that at the moment it's still in development.

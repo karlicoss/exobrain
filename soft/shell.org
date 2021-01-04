@@ -11,5 +11,10 @@ https://www.oilshell.org/blog/2018/01/28.html
 :ID:       193ce9ff8d15d8ab3a1c4924aedf4977
 :END:
 https://news.ycombinator.com/item?id=22150603
-Selection:
-Thanks for the support! Since I may not get to those blog posts in a timely fashion, here's a little outline (and maybe this comment will form the seed of them)
+: Thanks for the support! Since I may not get to those blog posts in a timely fashion, here's a little outline (and maybe this comment will form the seed of them)
+
+* TODO [#D] [2019-11-03] Why Create a New Unix Shell?                 :shell:
+:PROPERTIES:
+:ID:       51ee83b60c374737f4e9dbaba02dfcf0
+:END:
+https://www.oilshell.org/blog/2018/01/28.html

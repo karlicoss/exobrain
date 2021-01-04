@@ -25,7 +25,7 @@ https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
 :ID:       816647b04a15054989dafedddfa3ba5e
 :END:
 
-* inspiration (design/presentation)                                  :refile:
+* inspiration (design/presentation)
 :PROPERTIES:
 :ID:       17b820763938172649e282a750aaf190
 :END:
@@ -91,7 +91,7 @@ https://www.gwern.net/newsletter/2019/03
 Selection:
 gwern.net CSS changes: Tufte-style sidenotes (for displaying footnotes in margins on wide screens) via Obormot’s new JS library, sidenotes.js
 
-* amend                                                              :refile:
+* amend
 :PROPERTIES:
 :ID:       f1a91827018f161918c734379d32c6e3
 :END:
