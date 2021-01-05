@@ -1,0 +1,141 @@
+#+OPTIONS: toc:nil
+#+TITLE: Programming in the XXI century
+Kind notes/highlights on [[https://prog21.dadgum.com][Programming in the XXI century]]
+
+
+* TODO page 113 | Location 1725-1727 | Thursday, March 8, 2018 9:06:03 PM
+:PROPERTIES:
+:ID:       c24403d0e6bfd6af9c3526005566b83a
+:END:
+: Problems are debugged at the hardware level, with data breakpoints and trapped CPU exceptions and protected memory pages (this is how debuggers work).
+
+* TODO page 127 | Location 1944-1947 | Friday, March 9, 2018 10:57:24 PM
+:PROPERTIES:
+:ID:       e925c157e34cf9e277fcf97702faeb38
+:END:
+: your finger inside a global array somewhere, causing a week's worth of debugging. In fact, it looks exactly the same as the purely functional version from the caller's point of view. Perhaps the sweeping negativity about destructive updates is misplaced.
+
+* DONE [#B] page 441 | Location 6754-6757 | Sunday, March 18, 2018 5:58:14 AM
+:PROPERTIES:
+:ID:       e4f4991b538b7f6433438c76e4c1fbba
+:END:
+: Programming Modern Systems Like It Was 1984 Imagine you were a professional programmer in 1984, then you went to sleep and woke up 30 years later. How would your development habits be changed by the ubiquitous, consumer-level supercomputers of 2014?
+
+* DONE [#C] [2018-03-04] [[https://prog21.dadgum.com/7.html][Trapped! Inside a Recursive Data Structure]]
+:PROPERTIES:
+:ID:       c87b32c46d5c33f30fd1dec963df54e5
+:END:
+: Whenever the head of the list is a list itself, the tail is pushed onto Stack so it can be continued with later, and the list is processed. When there's no more input, check to see if Stack has any data on it.
+** [2018-03-04] kinda like BFS
+:PROPERTIES:
+:ID:       25b6013172cd7d15d4df4bf50b6325b2
+:END:
+
+* DONE [#C] [2018-03-04] [[https://prog21.dadgum.com/4.html][Follow-up to "Admitting that Functional Programming Can Be Awkward"]]
+:PROPERTIES:
+:ID:       a910b3e2e0cbaf1ba8503bfcde94b201
+:END:
+: For a bouncing ball or spinning cube, yes, that's easy. But is there a closed-form solution for a game where entities can collide with each other and react to what the player is doing?
+
+* DONE [#C] Monday, March 12, 2018 2:51:56 AM | [[https://prog21.dadgum.com/82.html][This Isn't Another Quick Dismissal of Visual Programming]]
+:PROPERTIES:
+:ID:       7b4538e3d3416c7986bfe7496a0e6040
+:END:
+: Not too surprisingly, this is a subject that brings on the defensiveness. It's greeted with diatribes about "real" programming and how drawing lines to connect components is too limiting and links to articles about the glory of raw text files. At one time I would have agreed, but more and more it's starting to smack of nostalgic "that's how it's always been done"-ness. In Microsoft's old QBasic, programs
+
+* DONE [#C] page 301 | Location 4604-4605 | Tuesday, March 13, 2018 2:20:54 AM
+:PROPERTIES:
+:ID:       a4c36e13b3b44f0d6670a900d6e58609
+:END:
+: Linked lists are a worst case, potentially jumping to a new cache line for each element. That's damning evidence against languages like Haskell, Clojure, and Erlang. Yet some
+
+* DONE [#C] page 371 | Location 5687-5689 | Wednesday, March 14, 2018 7:12:55 AM
+:PROPERTIES:
+:ID:       c1bdfe462fdacf10b2f5c58e5dfb3068
+:END:
+: Once you've learned a small subset of a language like Python--variables, functions, control flow, arrays, and dictionaries--then features are no longer the issue. Sure, you won't know all the software engineery stuff like exceptions and micromanagement of variable and function scopes, but it's more important to learn how to turn thoughts into code before there's any mention of engineering.
+
+* DONE [#C] page 452 | Location 6918-6919 | Monday, March 19, 2018 9:53:25 PM
+:PROPERTIES:
+:ID:       05687073d0cf5afebd85b5d6e5e8e49c
+:END:
+: Internal class methods are similar. If they're not in the tutorial, examples, or reference, you don't even know they exist.
+
+* DONE [#D] [2018-03-08] [[https://prog21.dadgum.com/34.html][Macho Programming]]
+:PROPERTIES:
+:ID:       0072fecc2503a93aad579c2cdd50b68f
+:END:
+: What struck me about this argument, besides that people actually argue about such things, is how many other respected activities don't have anywhere near the same level of paranoia about protection from mistakes. On the guitar--or any musical instrument--you can play any note at any time, even if it's out of key or, more fundamentally, not played correctly (wrong finger placement or pressure or accidentally muting the string). And people play instruments live, in-concert in front of thousands of people this way, knowing that the solo is improvised in Dorian E, and there's no physical barrier preventing a finger from hitting notes that aren't in that mode. The same goes for sculpting, or painting, or carpentry...almost anything that requires skill.
+
+* DONE [#D] page 462 | Location 7081-7083 | Tuesday, March 27, 2018 5:16:36 AM
+:PROPERTIES:
+:ID:       18992771da6b15079a2f64632fc3c62b
+:END:
+: In the interest of time, I'll offer this for-experts-only spec for "What can you put in a refrigerator?": Anything that fits into a refrigerator.
+* DONE page 71 | Location 1085-1089 | Wednesday, March 7, 2018 10:27:18 PM
+:PROPERTIES:
+:ID:       19b7a8e05929ae63177b2223c13e5b2f
+:END:
+: One of my favorite non-alphanumeric characters for function names is "?". Why say is_uppercase (or IsUppercase or isUppercase) when you can use the more straightforward Uppercase? instead? That's standard practice in Scheme and Forth, and I'm surprised it hasn't caught on in all new languages.
+** [2021-01-05] yep, also in Agda or lisps. Same for dashes, underscores look a bit awkward (e.g. ~uppercase-p~)
+:PROPERTIES:
+:ID:       c896cfb04565af970c2ad7e35ddf0760
+:END:
+
+* DONE page 72 | Location 1099-1105 | Wednesday, March 7, 2018 10:28:00 PM
+:PROPERTIES:
+:ID:       2f77362e76668cbb7270eb419bc1a354
+:END:
+: in (open-file), to indicate that a word is low-level and for internal use only. And then there are clever uses of characters in Forth that make related words look related, like this: open{ write-byte write-string etc. }close The brace is part of both open{ and }close. There no reason the braces couldn't be dropped completely, but they provide a visual cue about scope.
+
+* DONE page 120 | Location 1832-1834 | Friday, March 9, 2018 10:50:33 PM
+:PROPERTIES:
+:ID:       8cdc108f6180601a684fa751b4293bbf
+:END:
+: On Being Sufficiently Smart I'm proud to have created the wiki page for the phrase sufficiently smart compiler back in 2003 or 2004.
+
+* DONE page 135 | Location 2068-2071 | Sunday, March 11, 2018 12:14:43 AM
+:PROPERTIES:
+:ID:       9d3fe7b86015310c9869094abca2b88d
+:END:
+: Borland's other languages with "Turbo" in the name--like Turbo C--weren't even remotely close to the compilation speeds of Turbo Pascal. Even Turbo Assembler was slower, thanks in part to the usual step of having to run a linker. So what made Turbo Pascal so fast? Real modules. A
+** interesting, turbo pascal came up with the modules?
+:PROPERTIES:
+:ID:       ac224a8f7edb9943a6de795c5a93699f
+:END:
+
+* DONE page 136 | Location 2071-2073 | Sunday, March 11, 2018 12:14:54 AM
+:PROPERTIES:
+:ID:       0206b23527025413fc97e6e13387be58
+:END:
+: large percentage of time in C compilers is spent reading and parsing header files. Even a short school assignment may pull in tens of thousands of lines of headers. That's why most C compilers support precompiled headers, though they're often touchy and take effort to set-up.
+
+* DONE page 137 | Location 2086-2088 | Sunday, March 11, 2018 12:16:21 AM
+:PROPERTIES:
+:ID:       f888fa2cc85f879fccdc7d036072f26f
+:END:
+: Yes, there was a drawback to instantaneous compile times. Fewer optimizations were done, and almost always the resultant code was slower than the C equivalent. But it didn't matter. Removing the gap between the steps of writing and running code was worth more than some amount of additional runtime performance.
+
+* DONE page 179 | Location 2732-2738 | Sunday, March 11, 2018 8:50:38 PM
+:PROPERTIES:
+:ID:       505bbf19e626d0e9ef921cdb2335b8f8
+:END:
+: Erlang takes this further by having a separate block of memory for each process, so when the block gets full only that particular block needs to be garbage collected. If it's a 64K block, it takes microseconds to collect, as compared to potentially traversing a heap containing the hundreds of megabytes of data in the full running system. Disallowing destructive updates allows some nice optimizations in the garbage collector, because pointers are guaranteed to reference older objects (this is sometimes called a "unidirectional heap"). Together these are much simpler than building a real-time garbage collector that can survive under the pressure of giant heaps.
+
+* DONE page 186 | Location 2845-2847 | Sunday, March 11, 2018 8:59:25 PM
+:PROPERTIES:
+:ID:       be8733e6c2929a869e5903220982d597
+:END:
+: Not all tutorials are this way. Paradigms of Artificial Intelligence Programming is a survey of classic AI programs mixed together with enough details about Lisp to understand them.
+
+* DONE page 396 | Location 6062-6066 | Thursday, March 15, 2018 4:55:04 AM
+:PROPERTIES:
+:ID:       52b637fa8a3a12163f803493809a0c1b
+:END:
+: On most systems, this little C program will soak up all available memory: while (1) {    malloc(0); } so the answer is not the obvious "zero." But before getting into malloc(0), let's look at the simpler case of malloc(1).
+
+* DONE page 432 | Location 6618-6624 | Sunday, March 18, 2018 5:42:29 AM
+:PROPERTIES:
+:ID:       7fe2072acd95cba924031534e6b5d64b
+:END:
+: There's another option, too: you could give up. You can stop making things and become a commentator, letting everyone know how messed-up software development is. You can become a philosopher and talk about abstract, big picture views of perfection without ever shipping a product based on those ideals. You can become an advocate for the good and a harsh critic of the bad. But though you might think you're providing a beacon of sanity and hope, you're slowly losing touch with concrete thought processes and skills you need to be a developer. Meanwhile, other people in their pre-epiphany states are using those exact same technologies that you know are broken, and despite everything you do to convince them that this can't possibly work...they're successful.
