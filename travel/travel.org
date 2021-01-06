@@ -1,6 +1,8 @@
+#+OPTIONS: toc:2
 #+TITLE: Travel
+#+filetags: travel
 
-* Copenhagen/Malmo                                        :travel:copenhagen:
+* Copenhagen/Malmo                                       :denmark:copenhagen:
 :PROPERTIES:
 :CUSTOM_ID: copenhagen
 :CREATED:  [2019-07-14]
@@ -12,12 +14,15 @@
 - [[https://bodyworlds.com/city/copenhagen][Bodyworlds]] exhibition at [[https://www.experimentarium.dk/en][Experimentarium]]: cool models and presentations of different layers of human bodies, tissue, organs etc
 - [[https://disgustingfoodmuseum.com/sweden][Disgusting Food Museum]] in Malmo: pure awesomeness. Glimpse into different food cultures, lots of things to smell and touch, and even tasting bar! Also funny how my taste perception changed over the past few years: I didn't find cheese smells disgusting at all.
 
-
-* Lisbon                                                      :travel:lisbon:
+* Portugal                                                         :portugal:
+:PROPERTIES:
+:CUSTOM_ID: portugal
+:END:
+** Lisbon                                                            :lisbon:
 :PROPERTIES:
 :CUSTOM_ID: lisbon
 :END:
-** transport
+*** transport
 :PROPERTIES:
 :ID:       7b334b7260361141659fa9862e803476
 :END:
@@ -28,43 +33,43 @@
 - Lisboa Viva Card get it at metro/train stations. Use it for buses, ferry, metro, suburban trains, etc.
 - I've read advice to avoid the metro late at night somewhere on reddit, but can't confirm
 
-** food/drinks
+*** food/drinks
 :PROPERTIES:
 :ID:       40de4198e3cf03ad454db89d8d7bc9b1
 :END:
-*** Drinking/smoking in public — OK as long as you behave.
+**** Drinking/smoking in public — OK as long as you behave.
 :PROPERTIES:
 :ID:       820525084b8fe744761941bbbd1e75e5
 :END:
-*** Get a wine and snacks from a supermarket. Chill on the river bank, beware the waves, they might suddenly splash you!
+**** Get a wine and snacks from a supermarket. Chill on the river bank, beware the waves, they might suddenly splash you!
 :PROPERTIES:
 :ID:       d2bd1eff78eaeac021047643304ee3a5
 :END:
-*** TODO Francesinha
+**** TODO Francesinha
 :PROPERTIES:
 :CREATED:  [2018-04-16]
 :ID:       34809b723c366c820db125cbe65eabaf
 :END:
 some authentic sandwich?
 
-*** Fish/squid/octopus. Many small restaurants serve it + veggie plates
+**** Fish/squid/octopus. Many small restaurants serve it + veggie plates
 :PROPERTIES:
 :ID:       4285347518ed1e043d6a655c193b5bbd
 :END:
 
-*** TODO Caldeirada seafood stew
+**** TODO Caldeirada seafood stew
 :PROPERTIES:
 :CREATED:  [2018-04-13]
 :ID:       7d5284c806cd2e3630c06481d26b6804
 :END:
 haven't had chance to try... but heard it was good
 
-*** DONE TimeOut market for food. Lines are pretty long at lunchtime. Not very cheap and not very authentic, but ok overall.
+**** DONE TimeOut market for food. Lines are pretty long at lunchtime. Not very cheap and not very authentic, but ok overall.
 :PROPERTIES:
 :ID:       f7879f57f150ae814549a3bb63767734
 :END:
 
-*** DONE [#A] Trobadores medieval tavern
+**** DONE [#A] Trobadores medieval tavern
 :PROPERTIES:
 :ID:       3fd7030281974492562103ad8d57c989
 :END:
@@ -73,79 +78,287 @@ Order chorizo/blood chorizo, you can grill it yourself right on your table!
 Nice Celtic musing in the background.
 Drink mead, ginjinha, Porto ruby.
 
-*** DONE Pastel de nata. Nice egg pastry.
+**** DONE Pastel de nata. Nice egg pastry.
 :PROPERTIES:
 :ID:       2ff2ec610fd921e3ce5d2daa6bc883c3
 :END:
 
-*** DONE Gelaterias. Some delicious ice cream: vanilla & basil, salted caramel, pistachio.
+**** DONE Gelaterias. Some delicious ice cream: vanilla & basil, salted caramel, pistachio.
 :PROPERTIES:
 :ID:       7b816845ad53adfd22229d4c102fcc22
 :END:
 
-*** TODO Chimera Brewpub.
+**** TODO Chimera Brewpub.
 :PROPERTIES:
 :ID:       2ef18ad91b331e6645036f2db2e103b9
 :END:
 Craft Portuguese Beers
-*** Nice filter coffee in Copenhagen Coffee Lab (beware no wifi) and Fabrica Coffee Roasters
+**** Nice filter coffee in Copenhagen Coffee Lab (beware no wifi) and Fabrica Coffee Roasters
 :PROPERTIES:
 :ID:       a2ba98bf466b829410a7acd2714eed6d
 :END:
 
-** places & activities
+*** places & activities
 :PROPERTIES:
 :ID:       a46af5c9398f615f1df45ac91c3e07ab
 :END:
-*** DONE Berardo Collection Museum -- good modern art
+**** DONE Berardo Collection Museum -- good modern art
 :PROPERTIES:
 :ID:       df5a6290bcc1aa9591176c8a1c27372e
 :END:
-*** DONE Alfama is higher up and more medieval looking because a tsunami destroyed the lower elevation parts of the city. [wikitravel]
+**** DONE Alfama is higher up and more medieval looking because a tsunami destroyed the lower elevation parts of the city. [wikitravel]
 :PROPERTIES:
 :ID:       2abcae62ffb8b82c30a2c9bf7c3f5e0c
 :END:
 
-*** DONE [[https://wikitravel.org/en/Sintra][Sintra]]
+**** DONE [[https://wikitravel.org/en/Sintra][Sintra]]
 :PROPERTIES:
 :ID:       784edc78ef5f108dd23fb87f322e3675
 :END:
 You can get there by cheap (1.5 Eur) suburban train.
 
 Sintra is famous for two local foodstuffs, queijadas and travesseiros. Queijadas are small sweet cakes, that are made using fresh cheese instead of butter. They are actually quite easy to make at home, but when you're there you might as well try some. Travesseiros are rectangular pastries made from fluff pastry and almond paste, and worth a try as well. [wikitravel]
-**** Cabo de Rocha - very nice lighthouse, cliffs, and decent hike to the beach.
+***** Cabo de Rocha - very nice lighthouse, cliffs, and decent hike to the beach.
 :PROPERTIES:
 :ID:       ab209332280780bcc5f6d7740f19752b
 :END:
 Take a bus from Sintra, but beware the way is serpentinish, in case you are prone to motion sickness. It costs something like 4 EUR, paid by cash to the driver. Also mind the schedule.
-*** de abril bridge
+**** de abril bridge
 :PROPERTIES:
 :ID:       ba0b62e1ac2490c1fb05c099cceaee49
 :END:
 Very cool, looks kinda like Golden Gate. Unfortunately not pedestrian.
-*** take a ferry to the other side, walk to Christ the King statue. Nice city view
+**** take a ferry to the other side, walk to Christ the King statue. Nice city view
 :PROPERTIES:
 :ID:       48581f7bbb3bdde9552ae41cc505ed20
 :END:
-*** DONE train to cascais (coastal resort)
+**** DONE train to cascais (coastal resort)
 :PROPERTIES:
 :ID:       22530b2499a48cf53aef98663753c1cf
 :END:
-*** For Lisbon views, we preferred the Rua Augusta arch over the more popular Santa Justa elevator. The arch is also covered by the Lisboa card (€2.50 otherwise) and is IMO the cheaper and better alternative for some superb views of the city. [wikitravel]
+**** For Lisbon views, we preferred the Rua Augusta arch over the more popular Santa Justa elevator. The arch is also covered by the Lisboa card (€2.50 otherwise) and is IMO the cheaper and better alternative for some superb views of the city. [wikitravel]
 :PROPERTIES:
 :ID:       7235948314752d51150932ace993e163
 :END:
-*** TODO electricity museum
+**** TODO electricity museum
 :PROPERTIES:
 :ID:       c78681fd6fcaa2cf3ca7c750338afa6c
 :END:
-*** Art in metro on some stations
+**** Art in metro on some stations
 :PROPERTIES:
 :ID:       dcb32307709da718723f945612090d27
 :END:
 Mostly [[https://en.wikipedia.org/wiki/Red_Line_(Lisbon_Metro)][red line]]. It goes to the airport, so it's hard to miss. Oriente is particularly cool
-*** TODO Jardim Botanico
+**** TODO Jardim Botanico
 :PROPERTIES:
 :ID:       b070b295318da511d83c1c25c78b933e
 :END:
 allegedly good, but was closed at the time :(
+
+** TODO [#B] Faro, Portugal? when it's colder, maybe in autumn/winter
+:PROPERTIES:
+:ID:       92befc0e03c6031b58f43f4e654fa9e7
+:END:
+** TODO [#B] Porto                                                    :porto:
+:PROPERTIES:
+:CREATED:  [2019-03-28]
+:CUSTOM_ID: porto
+:END:
+*** [2019-04-05] [[https://wikitravel.org/en/Porto][Geres National Park]]
+:PROPERTIES:
+:ID:       26a591d9a37a42e19985ac02f45baeec
+:END:
+: Go on a day trip to the Gerês National Park. The wildlife and nature in this park are really worth a visit, and the scenery is magnificent.
+*** [2019-04-05] [[https://wikitravel.org/en/Porto][Vunho Verde]]
+:PROPERTIES:
+:ID:       de221ea9a6246adacbb0fe436edb0cb3
+:END:
+: Taste the "Vinho Verde", freely translated as "Green Wine" - this is mostly a low alcoholic grade, young and fresh kind of wine, that you won't find anywhere else.
+
+* Istanbul                                                  :turkey:istanbul:
+:PROPERTIES:
+:CUSTOM_ID: istanbul
+:END:
+- [2016-08-22] "Если хотите ощутить турецкий колорит, а не туристический булшит, приезжайте в Кадыкёй, поешьте кебаб за столиком на улице, курите кальян."
+
+* Helsinki                                                 :finland:helsinki:
+:PROPERTIES:
+:CUSTOM_ID: helsinki
+:CREATED:  [2016-12-31]
+:END:
+
+- subway
+- 2/3 tram
+
+- Senate Square
+- Helsinki City Museum
+- Helsinki Nykytaiteen museo Kiasma
+- Vintage tram ride, Havis Amanda fountain at Market square
+  : Enjoy a ride on a century-old tram! If the weather is warm, sit in the open trailer car. The driver takes you on a 20-minute loop tour around the city centre area (there is no commentary but photo opportunities are plenty due to there being no windows in the open tram from 1909!). The service operates annually from mid-May to the end of August, Saturdays and Sundays only, with departures from the Market Square half-hourly between 10 and 5. €5.  edit
+- Aleksanterinkatu
+- Kallio bars
+
+
+* Netherlands                                                   :netherlands:
+:PROPERTIES:
+:CUSTOM_ID: netherlands
+:END:
+** TODO [#C] Maastricht?
+:PROPERTIES:
+:CREATED:  [2020-02-10]
+:ID:       d394bbf5c5ac861772460ccc00de8d11
+:END:
+Could be ok by Eurostar and local train?
+
+* Italy                                                               :italy:
+:PROPERTIES:
+:CUSTOM_ID: italy
+:END:
+** food
+:PROPERTIES:
+:ID:       62506be34d574da4a0d158a67253ea99
+:END:
+*** [#B] [2018-06-06] burrata cheese
+:PROPERTIES:
+:ID:       aa39c3ea7a06a9e2ebb6e82d52e81c6c
+:END:
+Very very good! Especially with some berries.
+*** [#C] [2018-06-07] Grom good gelato
+:PROPERTIES:
+:ID:       6549b34d4f2f94c0c12e6a01d87ff27a
+:END:
+*** [#D] [2018-06-06] coda alla vaccinara
+:PROPERTIES:
+:ID:       e6acc61c1731fdce14db6acea5636f90
+:END:
+well - sort of ok
+
+
+** Santa Marinella beach
+:PROPERTIES:
+:ID:       d1f9327130009a52ef5845c46334b61c
+:END:
+- https://www.tripadvisor.com/ShowTopic-g815431-i17388-k6466314-Info_for_those_travelling_from_Rome_to_Santa_Marinella-Santa_Marinella_Province_of_Rome_La.html
+- https://www.eatingitalyfoodtours.com/blog/a-day-trip-to-santa-marinella-beach/
+- https://revealedrome.com/2011/05/beach-in-rome-santa-marinella-italy/
+
+: Secondly, Santa Marinella’s beach is convenient. Really convenient. You don’t need a car to get there, or to take a train and then a bus, like you do to get to the (admittedly prettier) beach of Sperlonga. Instead, you just hop on the train in Rome from Termini, Ostiense, Trastevere, or San Pietro; 45 minutes and €3.60 land you in Santa Marinella. From there, you can follow the crowds on the 5-minute walk to the beach.
+
+
+- eh, wasn't that good in the end
+
+
+* Barcelona                                                       :barcelona:
+:PROPERTIES:
+:CUSTOM_ID: barcelona
+:END:
+** food
+:PROPERTIES:
+:ID:       62506be34d574da4a0d158a67253ea99
+:END:
+*** Mercado de la boqueria -- awesome street food
+:PROPERTIES:
+:ID:       df2b1b3619ca8b7115c90ad045f05b12
+:END:
+
+* Brussels                                                 :belgium:brussels:
+:PROPERTIES:
+:CUSTOM_ID: brussels
+:END:
+** TODO Brussels music museum
+:PROPERTIES:
+:CREATED:  [2019-04-01]
+:ID:       6f89f651ed458ec5491582c03bf98d1b
+:END:
+
+* TODO [#C] Montenegro mounains?                                     :hiking:
+:PROPERTIES:
+:CREATED:  [2018-10-17]
+:ID:       2fa18f94f07571cb3957b5d370f9ccce
+:END:
+* TODO [#C] Dubrovnik, Croatia
+:PROPERTIES:
+:ID:       c16f2104fe8a77479a7e9a63b63043dd
+:END:
+* TODO UK
+:PROPERTIES:
+:CUSTOM_ID: uk
+:END:
+** STRT [#B] Lake District
+:PROPERTIES:
+:CUSTOM_ID: lakedistrict
+:END:
+- [2020-08-30] [[https://another.place/helvellyn-in-winter/][A guide to climbing Helvellyn in winter - Another Place]]
+  : Make sure you have the right equipment for a winter ascent including waterproofs, warm layers, hat & gloves, winter boots, ice axe & crampons, map & compass, head torch, food & drink and an emergency shelter. Goggles can be very useful on windy days. Pick a good day, but be prepared to turn back if you’re not happy with anything. If you’re new to the winter environment or would like a refresher then consider booking onto one of our one day Winter Skills courses.
+
+  - [2020-08-30] [[https://another.place/helvellyn-in-winter/][A guide to climbing Helvellyn in winter - Another Place]]
+    : To call Mountain Rescue dial 999 and ask for the Police and then Mountain Rescue. You can also register your phone to enable 999 text calls, ideal when the mobile signal isn’t very good.
+  - [2020-08-30] [[https://another.place/helvellyn-in-winter/][A guide to climbing Helvellyn in winter - Another Place]]
+    : Winter skills courses
+
+    TODO hmm this could be good
+  - [2020-08-30] [[https://www.livefortheoutdoors.com/helvellyn-safety][Helvellyn Safety — Live for the Outdoors]]
+    : Check the current conditions. Helvellyn is unique in that it has a daily update throughout winter provided by the Lake District Weatherline (www.lakedistrictweatherline.co.uk) This gives an excellent indication as to what weather conditions are like at the top of the mountain over the past 24 hours, and is invaluable when planning an ascent. Also check the forecasts via the Mountain Weather Information Service (MWIS.org.uk) and the Met Office mountain weather forecast.  https://www.metoffice.gov.uk/services/mountain
+  - [2020-08-30] [[https://www.livefortheoutdoors.com/helvellyn-safety][Helvellyn Safety — Live for the Outdoors]]
+    : Pack a headtorch, and a spare, plus extra layers for when it gets dark.
+** TODO [#B] Loch Lomond & The Trossachs National Park
+:PROPERTIES:
+:ID:       20df637f70e02d65483e8a597ecb7859
+:END:
+pretty close to Glasgo!
+
+** TODO [#C] Wales
+:PROPERTIES:
+:CREATED:  [2020-07-23]
+:ID:       e612e56ca0235a349cffa8331d8a6ad7
+:END:
+*** [#C] [2020-10-16] [[https://www.10adventures.com/hikes/snowdonia/][10 Greatest Walks in Snowdonia National Park, Wales]]
+:PROPERTIES:
+:ID:       4b0ee5a51a2b1b4e54ebee20c6492637
+:END:
+
+** TODO [#C] [2019-03-27] [[https://reddit.com/r/CasualUK/comments/b4yqej/a_view_from_the_roman_walls_of_chester/eja0y0g/][A view from the Roman walls of Chester]] /r/CasualUK
+:PROPERTIES:
+:ID:       14c39c176c1ffe67593bab46a49f6209
+:END:
+: I think Chester is one of the prettiest cities in the country. Thanks for the reminder.
+
+** STRT [#C] Peak District
+:PROPERTIES:
+:ID:       7e56a92186bceb95b37e7e8399300515
+:END:
+*** TODO bike rental
+:PROPERTIES:
+:CREATED:  [2019-05-09]
+:ID:       0d194b0bddcfa92080cd82d75ee33068
+:END:
+* TODO [#C] Georgia                                                 :georgia:
+:PROPERTIES:
+:CUSTOM_ID: georgia
+:END:
+*** TODO [#D] [2019-08-27] [[https://reddit.com/r/travel/comments/cpsd21/ushguli_georgia_felt_like_a_village_frozen_in/][Ushguli, Georgia felt like a village frozen in time 900 years ago.]] /r/travel
+:PROPERTIES:
+:ID:       39f4d2e43d0d7a5f58fb719021a9da5a
+:END:
+*** TODO [#D] [2018-04-18] https://twitter.com/abroadunderhood/status/986632898685145089
+:PROPERTIES:
+:ID:       28154691c93899f7375039d2e7b61686
+:END:
+: Пробежимся немного по ночной жизни Тбилиси: здесь с этим все более чем хорошо, потому что грузины любят и умеют веселиться. Для любителей техно тут есть клуб Bassiani, который входит в топ 10 техно-клубов мира. Еще есть khidi (мост) и Mtkvarze. Пожалуй, это самые популярные клубы
+
+
+* TODO [#C] Mallorka?
+:PROPERTIES:
+:ID:       1fe7cc81aa46c05433b06387a5c86985
+:END:
+* TODO [#D] Tenerife
+:PROPERTIES:
+:CREATED:  [2020-08-10]
+:ID:       c812662377f302492c797d04bae46d82
+:END:
+
+* TODO [#C] Airbnb experiences?                                      :travel:
+:PROPERTIES:
+:CREATED:  [2019-03-30]
+:ID:       b142d1923d04d0c0d1a17667076ded8f
+:END:
