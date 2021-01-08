@@ -1,5 +1,5 @@
 #+TITLE: General topology
-#+filetags: topology
+#+filetags: :math:topology:
 
 * [2019-04-24] charts and atlases
 :PROPERTIES:

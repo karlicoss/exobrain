@@ -1,5 +1,7 @@
 #+TITLE: Mypy tips and tricks
+#+logseq_title: mypy
 #+filetags: :python:mypy:
+
 * TODO [#C] [2019-10-26] [[https://mypy.readthedocs.io/en/latest/common_issues.html?highlight=reveal_type#reveal-type][reveal_type]] can be used during the type checking
 :PROPERTIES:
 :ID:       6651977e14483164dbbbf16cfcb68328

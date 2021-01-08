@@ -175,7 +175,7 @@ huh that's quite mad!
 :   probably, but not necessarily, means a file-like object has been opened in text
 :   mode ('t') rather than binary mode ('b').
 :     warnings.warn(_str_vs_bytes_warning, DeprecationWarning)
-** STRT [#C] Hmm maybe filter reddit and only include every 10th or something to speed it up? :patterns:reddit:
+** STRT [#C] Hmm maybe filter reddit and only include every 10th or something to speed it up? :hpi_patterns:reddit:
 :PROPERTIES:
 :CREATED:  [2020-04-13]
 :ID:       63549f9d7099c773d7487d5e493afa78
@@ -509,11 +509,11 @@ Same way as TODO think of some analogy? when you're using a todo list app, you'v
 :CREATED:  [2019-11-23]
 :ID:       a35a403cbd9723c6360c3c6a44687c3d
 :END:
-* [#A] patterns for writing concise and safe modules               :patterns:
+* [#A] patterns for writing concise and safe modules           :hpi_patterns:
 :PROPERTIES:
 :ID:       33c642c3ab1e432caa2d821e396d3676
 :END:
-** TODO [#B] check for dataframe 'error' column      :errors:patterns:pandas:
+** TODO [#B] check for dataframe 'error' column               :errors:pandas:
 :PROPERTIES:
 :CREATED:  [2020-09-15]
 :ID:       e44d5dfc50efc5246566c6881d402c3b
@@ -522,18 +522,18 @@ Same way as TODO think of some analogy? when you're using a todo list app, you'v
 :PROPERTIES:
 :ID:       2967d7d897ba6203f249c9bcca8ddd24
 :END:
-** STRT [#C] keep date as the first attribute to make sorting easier :patterns:
+** STRT [#C] keep date as the first attribute to make sorting easier
 :PROPERTIES:
 :CREATED:  [2020-05-11]
 :ID:       553eff574539c3b170345fb01157a891
 :END:
-** STRT [#C] Could use properties for lazier paths         :patterns:doc:hpi:
+** STRT [#C] Could use properties for lazier paths                  :hpi_doc:
 :PROPERTIES:
 :CREATED:  [2020-04-27]
 :ID:       a987d55d37918e2a7ca99b1ee0cf8954
 :END:
 
-** WAIT [#C] use venv instead of repos symlinks                :hpi:patterns:
+** WAIT [#C] use venv instead of repos symlinks                         :hpi:
 :PROPERTIES:
 :CREATED:  [2020-07-26]
 :ID:       38d91f7158290ee8d3cbaf24e3666791
@@ -594,7 +594,7 @@ I mean, 1.5x is kinda nice...
 :ID:       8af3471068c8b50ec63478e940858aa5
 :END:
 
-** STRT [#C] functions with default inputs= argument       :doc:hpi:patterns:
+** STRT [#C] functions with default inputs= argument            :hpi_doc:hpi:
 :PROPERTIES:
 :CREATED:  [2020-09-18]
 :ID:       3dc3e8bf045c0986def3c5b8021de720
@@ -927,7 +927,7 @@ faker can do that but doesn't support schemas out of the box..
 :CREATED:  [2020-09-30]
 :ID:       1d1cf312ee39313421a8953a5cda4859
 :END:
-* TODO [#C] hmm, iterator in ~iter_tzs~ never exhausts? cause it doesn't go over the last year. so it won't cache things?? :location:patterns:
+* TODO [#C] hmm, iterator in ~iter_tzs~ never exhausts? cause it doesn't go over the last year. so it won't cache things?? :location:hpi_patterns:
 :PROPERTIES:
 :CREATED:  [2020-10-08]
 :ID:       35c7be20471f88745e84d0c9cfd4d46d

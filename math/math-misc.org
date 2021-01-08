@@ -1,4 +1,5 @@
 #+TITLE: Uncategorized
+#+logseq_graph: false
 
 * [2016-10-19] frequentist vs bayesian                          :probability:
 :PROPERTIES:

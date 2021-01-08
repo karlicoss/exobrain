@@ -1,5 +1,5 @@
-#+TITLE: 
-#+filetags: symplectic,math
+#+TITLE: Symplectic geometry
+#+filetags: :symplectic:math:
 
 [2018-11-15]  ok, so trying to consolidate everything
 
@@ -447,16 +447,14 @@ sad...
 :PROPERTIES:
 :ID:       6f64fe696c2aa17e6ab833c9348d6a03
 :END:
-  historically, we empirically noticed/observed that principle of least action works (Lagrangian formulation), and there is an alternative and completely equivalent formulation (Hamiltonian).
-When we study symplectic geometry, we ask: what are the minimum requirements to *define* familiar basic physical concepts (energy/time), and so that we still have the usual properties (e.g. Hamiltonian flow).
-
-As a bonus, we drop the requirement for configuration space, and considering its cotangent bundle -- it can be *any* symplectic space.
+:   historically, we empirically noticed/observed that principle of least action works (Lagrangian formulation), and there is an alternative and completely equivalent formulation (Hamiltonian).
+: When we study symplectic geometry, we ask: what are the minimum requirements to *define* familiar basic physical concepts (energy/time), and so that we still have the usual properties (e.g. Hamiltonian flow).
+: 
+: As a bonus, we drop the requirement for configuration space, and considering its cotangent bundle -- it can be *any* symplectic space.
 ** TODO now figure out why is that interesting. lol
 :PROPERTIES:
 :ID:       cbafeaf7f61fd351a4a2a845fdb71566
 :END:
-
-
 
 * [2018-11-10] intuition - What is a symplectic form intuitively? - MathOverflow
 :PROPERTIES:
@@ -464,7 +462,7 @@ As a bonus, we drop the requirement for configuration space, and considering its
 :END:
 https://mathoverflow.net/questions/19932/what-is-a-symplectic-form-intuitively/19935#19935
 
-soo, all we can do is correlate pairs of coordinate between each other? otherwise we can't tell which are position, which are momentum?
+: soo, all we can do is correlate pairs of coordinate between each other? otherwise we can't tell which are position, which are momentum?
 
 
 * TODO Hamiltonian vector field - Wikipedia
@@ -473,7 +471,7 @@ soo, all we can do is correlate pairs of coordinate between each other? otherwis
 :ID:       b25e5cc5126596177b320b96cd6dd838
 :END:
 
-Suppose that (M, ω) is a symplectic manifold. Since the symplectic form ω is nondegenerate, it sets up a fiberwise-linear isomorphism
+: Suppose that (M, ω) is a symplectic manifold. Since the symplectic form ω is nondegenerate, it sets up a fiberwise-linear isomorphism
 
 * TODO Tweet from John Carlos Baez (@johncarlosbaez), at Nov 22, 22:01
 :PROPERTIES:
@@ -481,23 +479,17 @@ Suppose that (M, ω) is a symplectic manifold. Since the symplectic form ω is n
 :ID:       0896ccf7c0010e05c9dc6a3341cb9d34
 :END:
 
-I thought about it longer and realized what was going on.  
-
-You get equations like Hamilton's whenever a system *extremizes something subject to constraints*.   A moving particle minimizes action; a box of gas maximizes entropy.   
-
-Read how it works:
-
-https://t.co/wy7UVrR8bL
-
 https://twitter.com/johncarlosbaez/status/1065727111120310272
+: I thought about it longer and realized what was going on.
+: You get equations like Hamilton's whenever a system *extremizes something subject to constraints*.   A moving particle minimizes action; a box of gas maximizes entropy.
+: Read how it works:
 
 * TODO Legendre transformation - Wikipedia
 :PROPERTIES:
 :CREATED:  [2018-11-21]
 :ID:       728ea8df434e73df4646f5d1ec9a43c2
 :END:
-
-Legendre transformation, named after Adrien-Marie Legendre, is an involutive transformation on the real-valued convex functions 
+: Legendre transformation, named after Adrien-Marie Legendre, is an involutive transformation on the real-valued convex functions
 
 * [2018-11-10] What moment map is (as a physical concept) in sympletic geometry - Mathematics Stack Exchange
 :PROPERTIES:
@@ -519,7 +511,7 @@ https://mathoverflow.net/questions/16460/how-to-see-the-phase-space-of-a-physica
 :ID:       04b42e47a3d80bffb9f10a4f9dfc48a5
 :END:
 https://en.wikipedia.org/wiki/Legendre_transformation#Further_properties 
-For a strictly convex function, the Legendre transformation can be interpreted as a mapping between the graph of the function and the family of tangents of the graph.
+: For a strictly convex function, the Legendre transformation can be interpreted as a mapping between the graph of the function and the family of tangents of the graph.
 * TODO [2018-11-18] Symplectic integrator - Wikipedia
 :PROPERTIES:
 :ID:       d63a99deb7274396e0dd7c4bc13b21e6

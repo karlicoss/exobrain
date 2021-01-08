@@ -1,4 +1,5 @@
 #+TITLE: Exobrain: building and inspiration
+#+logseq_title: exobrain
 #+filetags: exobrain
 
 
@@ -32,7 +33,6 @@ linkcheck - a backend which will check that all links are valid
 :PROPERTIES:
 :ID:       fa08b44717fea1ac5194ad7ee4b5db66
 :END:
-Comment:
 hmm, looks pretty nice. wonder if it's better than mdbook
 * TODO [#B] [2020-02-14] Building a Second Brain in Roam...And Why You Might Want To : RoamResearch :blog:exobrain:
 :PROPERTIES:
@@ -43,8 +43,7 @@ https://www.reddit.com/r/RoamResearch/comments/eho7de/building_a_second_brain_in
 :PROPERTIES:
 :ID:       f033b263b5b0ef6388c15f862dad06c1
 :END:
-Selection:
-(Right click green text to enter Mek's mind map.)
+: (Right click green text to enter Mek's mind map.)
 * [#C] [2019-12-22] [[https://github.com/softprops/awesome-mdbook][softprops/awesome-mdbook: 🕶️🗃️ a card catalog of mdbooks for your reading curiosity]] :exobrain:
 :PROPERTIES:
 :ID:       e95525dd32a48a73cfe55aff139be8dc

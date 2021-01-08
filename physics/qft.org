@@ -1,12 +1,11 @@
 #+TITLE: Quantum field theory
+#+logseq_title: qft
 #+filetags: qft
 
-* START [2019-02-22] Tong qft book                                     :tong:
+* STRT [2019-02-22] Tong qft book
 :PROPERTIES:
 :ID:       a21524ecd8dd65a66f0c0507f32cd224
 :END:
-- State "START"      from              [2019-02-22]
-
 index notation:
 
 lover index: covariant, upper index: contravariant 
@@ -75,9 +74,9 @@ https://physics.stackexchange.com/questions/340009/derivatives-in-euler-lagrange
 :ID:       289f8f97083b9e41b26f573f0bb69c6c
 :END:
 
-* :kleingordon:
+* Klen-Gordon equation                                          :kleingordon:
 :PROPERTIES:
-:ID:       51671b90d73118500ce0c20480b57272
+:ID:       74f989dddfed6638816c8e8b8b5db270
 :END:
 ** [2019-02-24] ok, so Klein-Gordon equation is for spin 0, such as Higgs, or pions
 :PROPERTIES:
@@ -88,78 +87,57 @@ https://physics.stackexchange.com/questions/340009/derivatives-in-euler-lagrange
 :ID:       d7334d662662e16be3326d6b5b05669a
 :END:
 https://physics.stackexchange.com/questions/129667/is-it-true-that-the-schr%C3%B6dinger-equation-only-applies-to-spin-1-2-particles/129744
-Selection:
-Well, this should not surprise us, since the Schrodinger equation is the nonrelativistic limit to the Klein-Gordon equation. And we should recall the Klein-Gordon equation describes spin-0 bosons!
-
-The nonrelativistic limit c→∞c→∞ should not affect the spin of the particles involved. (That's why the Pauli model is the nonrelativistic limit of the Dirac equation!)
+: Well, this should not surprise us, since the Schrodinger equation is the nonrelativistic limit to the Klein-Gordon equation. And we should recall the Klein-Gordon equation describes spin-0 bosons!
+: The nonrelativistic limit c→∞c→∞ should not affect the spin of the particles involved. (That's why the Pauli model is the nonrelativistic limit of the Dirac equation!)
 
 ** [#C] [2019-02-15] (11) Deriving The Klein Gordon Equation (Relativistic Quantum) - YouTube :quantum:
 :PROPERTIES:
 :ID:       1bc4e08330cefa5fd6698c503b4506f7
 :END:
 https://www.youtube.com/watch?v=bPlP9EkGixk
-Comment:
 so apparently we can get klein-gordon if we replace energy and momentum with quantum operator in einsteins identity
 ** [#C] [2019-02-15] (11) Deriving The Klein Gordon Equation (Relativistic Quantum) - YouTube
 :PROPERTIES:
 :ID:       a60427ca84abaeead9d22a875130f315
 :END:
 https://www.youtube.com/watch?v=bPlP9EkGixk
-Comment:
 covariant has got overloaded meaning. covariant vector -- lower index; covariant thing -- transforms according to symmetry group
 ** [#B] [2019-02-26] [[https://reddit.com/r/Physics/comments/1gmvsm/the_kleingordon_equation_doesnt_seem_to_be/calt16r/][The Klein-Gordon equation doesn't seem to be complete. How can I use it for a general-purpose simulation?]] /r/Physics :kleingordon:
 :PROPERTIES:
 :ID:       0a80d098b74ac4e58a446a39eaa74e8b
 :END:
-The Klein Gordon equation does not describe a quantum mechanical wavefunction. It describes a classical relativistic free field. To get quantum mechanical behavior out of this, you need to quantize this theory, moving to the world of quantum field theory.
-
-That's a physics answer... In terms of how this fits into your game it would depend on what you're trying to do. But the bottom line is that QFT was essentially created to describe quantum mechanical effects in a relativistic setting.
+:  The Klein Gordon equation does not describe a quantum mechanical wavefunction. It describes a classical relativistic free field. To get quantum mechanical behavior out of this, you need to quantize this theory, moving to the world of quantum field theory.
+:  That's a physics answer... In terms of how this fits into your game it would depend on what you're trying to do. But the bottom line is that QFT was essentially created to describe quantum mechanical effects in a relativistic setting.
 ** [#B] [2019-02-26] [[https://reddit.com/r/AskPhysics/comments/5ozon8/why_does_the_kleingordon_equation_describe_bosons/dcnb5q1/][Why does the Klein-Gordon equation describe bosons with spin equal to zero?]] /r/AskPhysics :kleingordon:
 :PROPERTIES:
 :ID:       6d40ab0b84988115093e8ba7d1fea660
 :END:
->Why can it still describe particles?
-
-It can still describe particles if you give up the notion that the wavefunction represents a probability density. Instead, what you called the wavefunction should be promoted to a field operator in a second-quantized field theory. 
-
->Why does it specifically describe bosons with spin 0, where does it say in the equation that particles with spin 0 use the KG-equation?
-
-Because it's a scalar field. This implies that it's got no angular momentum.
-
-For instance in the Dirac equation, the field operators are bi-spinors, meaning that you've got electrons and positrons both with spin-1/2.
-
-For the photon field, the field operator is a vector (the vector potential), so the photon has spin-1.
-
-It's all about how the field transforms under rotations. That tells you how many units of angular momentum the particles have.
-
->What is the physically reason why spin 1/2 have Dirac equation and Klein gordon equation spin 0?
-
-This sort of ties in with the above.
-
-If you haven't already, I'd suggest reading the last chapter of Sakurai. He goes into details about relativistic QM and shows the pitfalls that push you towards actual field theories.
+: >Why can it still describe particles?
+: It can still describe particles if you give up the notion that the wavefunction represents a probability density. Instead, what you called the wavefunction should be promoted to a field operator in a second-quantized field theory.
+: >Why does it specifically describe bosons with spin 0, where does it say in the equation that particles with spin 0 use the KG-equation?
+: Because it's a scalar field. This implies that it's got no angular momentum.
+: For instance in the Dirac equation, the field operators are bi-spinors, meaning that you've got electrons and positrons both with spin-1/2.
+: For the photon field, the field operator is a vector (the vector potential), so the photon has spin-1.
+: It's all about how the field transforms under rotations. That tells you how many units of angular momentum the particles have.
+: >What is the physically reason why spin 1/2 have Dirac equation and Klein gordon equation spin 0?
+: This sort of ties in with the above.
+: If you haven't already, I'd suggest reading the last chapter of Sakurai. He goes into details about relativistic QM and shows the pitfalls that push you towards actual field theories.
 *** [2020-04-29] PBS space time guy also recomments it!
 :PROPERTIES:
 :ID:       975c9ab00462fc748d97f238c76d1563
 :END:
-** [2019-01-23] [[https://reddit.com/r/math/comments/3653k6/where_can_i_go_to_learn_more_about_spinors/cratl5r/][Where can I go to learn more about spinors?]] /r/math :spinors:kleingordon:
+** [2019-01-23] [[https://reddit.com/r/math/comments/3653k6/where_can_i_go_to_learn_more_about_spinors/cratl5r/][Where can I go to learn more about spinors?]] /r/math :spinor:kleingordon:
 :PROPERTIES:
 :ID:       8d1993cb36752ee07bd9fcb55bb5a11d
 :END:
-The mathematics behind spinors is pretty daunting. I think it's a realization of Clifford algebras (I could be mistaken; it's been some time since I've really been a physicist). You can learn about where they come from without the mathematical overhead. In quantum, spin is usually presented as some ad hoc property of particles. The way it came about was noting from experiment that basic particles like electrons had quantities which behaved a lot like *orbital* angular momentum without actually being bound to another particle! The orbital angular momentum operators were well understood and they can be abstractly viewed (via certain commutation relations).
-
-If wavefunctions were just scalars, they couldn't possibly relate to the commutation relations they were seeing from orbital angular momentum so the next best thing is vectors. Well with this idea, the simplest (non scalar) vector is a two dimensional vector. Representing the algebra of spin operators on C^2 ended up giving the Pauli matrices and the theory gave results similar to that in experiment. This however is pretty unsatisfactory since it's very ad hoc. The theory didn't tell you which particles had spin, which didn't and it didn't really explain where it came from. 
-
-Parallel to the development of regular quantum mechanics was the development of relativistic quantum mechanics. (Yes they were developed nearly at the same time and in fact Schrodinger envisioned relativistic quantum mechanics before his eponymous equation.) From Einstein's energy momentum relation E^2 = p^2 c^2 + m^2 c^4 came the Klein Gordon equation by replacing E with - i\*d/dt and p with i\*grad, neglecting factors of hbar. This looks pretty close to the usual wave equation for an electromagnetic wave, but with a mass term (which changes everything!).
-
-The Klein Gordon equation had some serious issues with it. Even though it seemed to be a reasonable relativistic equation which actually reduces to the Schrodinger equation in a certain limit, it didn't preserve probabilities. Particularly the integral of psi\* psi over all space changed from one time to another, which is really bad! This breaks one of the foundational aspects of the Copenhagen interpretation: the integral of psi\* psi over all space is always 1 since we expect to find the particle *somewhere*. 
-
-Dirac pinpointed where the issue was. If you consider the Schrodinger equation, the time derivative is a first order derivative. In the Klein Gordon equation, it's a second derivative with respect to time. I think he was able to prove/argue that this is actually where the problems come in. (These issues with the Klein Gordon equation were fixed later, ironically by Dirac's sea of particles idea: the negative probabilities were actually because the particle turned into an anti particle.) So.. What he set out to do was to eliminate one of the time derivatives but there isn't a super obvious way of doing that.
-
-What he realized is that if you *factor* the equation into a product of two operators, you could in effect eliminate one of the time derivatives. The only way to do this is to have the operators actually be matrix valued (particularly they're 4 by 4 matrices or higher) and if the operators are matrices, then they must act on vectors.. So the solutions to his equation were vector valued wavefunctions! This is actually where spinors come from. 
-
-There is one problem though. In the original quantum theory, they were two dimensional vectors. Dirac gave four dimensional vectors. What you find (after some relatively tedious analysis) is that in the non relativistic limit, two of the components are really small compared to the other two and their effects aren't really measured in a normal laboratory setting. 
-
-For a self contained treatment of this, I *highly* recommend Griffiths' particle physics book. The Dirac equation is in chapter 7 if I recall correctly. I feel that the basics of relativistic quantum mechanics are very beautiful and are as close to an axiomatic (and painless) theory in physics as you're going to get.
+: The mathematics behind spinors is pretty daunting. I think it's a realization of Clifford algebras (I could be mistaken; it's been some time since I've really been a physicist). You can learn about where they come from without the mathematical overhead. In quantum, spin is usually presented as some ad hoc property of particles. The way it came about was noting from experiment that basic particles like electrons had quantities which behaved a lot like *orbital* angular momentum without actually being bound to another particle! The orbital angular momentum operators were well understood and they can be abstractly viewed (via certain commutation relations).
+: If wavefunctions were just scalars, they couldn't possibly relate to the commutation relations they were seeing from orbital angular momentum so the next best thing is vectors. Well with this idea, the simplest (non scalar) vector is a two dimensional vector. Representing the algebra of spin operators on C^2 ended up giving the Pauli matrices and the theory gave results similar to that in experiment. This however is pretty unsatisfactory since it's very ad hoc. The theory didn't tell you which particles had spin, which didn't and it didn't really explain where it came from. 
+: Parallel to the development of regular quantum mechanics was the development of relativistic quantum mechanics. (Yes they were developed nearly at the same time and in fact Schrodinger envisioned relativistic quantum mechanics before his eponymous equation.) From Einstein's energy momentum relation E^2 = p^2 c^2 + m^2 c^4 came the Klein Gordon equation by replacing E with - i\*d/dt and p with i\*grad, neglecting factors of hbar. This looks pretty close to the usual wave equation for an electromagnetic wave, but with a mass term (which changes everything!).
+: The Klein Gordon equation had some serious issues with it. Even though it seemed to be a reasonable relativistic equation which actually reduces to the Schrodinger equation in a certain limit, it didn't preserve probabilities. Particularly the integral of psi\* psi over all space changed from one time to another, which is really bad! This breaks one of the foundational aspects of the Copenhagen interpretation: the integral of psi\* psi over all space is always 1 since we expect to find the particle *somewhere*. 
+: Dirac pinpointed where the issue was. If you consider the Schrodinger equation, the time derivative is a first order derivative. In the Klein Gordon equation, it's a second derivative with respect to time. I think he was able to prove/argue that this is actually where the problems come in. (These issues with the Klein Gordon equation were fixed later, ironically by Dirac's sea of particles idea: the negative probabilities were actually because the particle turned into an anti particle.) So.. What he set out to do was to eliminate one of the time derivatives but there isn't a super obvious way of doing that.
+: What he realized is that if you *factor* the equation into a product of two operators, you could in effect eliminate one of the time derivatives. The only way to do this is to have the operators actually be matrix valued (particularly they're 4 by 4 matrices or higher) and if the operators are matrices, then they must act on vectors.. So the solutions to his equation were vector valued wavefunctions! This is actually where spinors come from. 
+: There is one problem though. In the original quantum theory, they were two dimensional vectors. Dirac gave four dimensional vectors. What you find (after some relatively tedious analysis) is that in the non relativistic limit, two of the components are really small compared to the other two and their effects aren't really measured in a normal laboratory setting. 
+: For a self contained treatment of this, I *highly* recommend Griffiths' particle physics book. The Dirac equation is in chapter 7 if I recall correctly. I feel that the basics of relativistic quantum mechanics are very beautiful and are as close to an axiomatic (and painless) theory in physics as you're going to get.
 ** [#C] [2019-02-24] How To Solve The Klein-Gordon Equation For The Hydrogen Atom - YouTube
 :PROPERTIES:
 :ID:       ab28ed76ed3241c09f91f6744973bc4b

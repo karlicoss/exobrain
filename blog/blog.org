@@ -1,4 +1,5 @@
 #+TITLE: Blog related stuff
+#+logseq_title: blog
 #+filetags: blog
 
 * Feed
@@ -34,7 +35,6 @@ https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
 :ID:       bb1a5249-f7a8-4c92-96fd-d90f97f09f2b
 :END:
 https://ai6ua.net
-Comment:
 right, so pretty nice design
 ** TODO Большой пост о том, как я переезжал в Берлин :: Блог Вастрик.ру :me:blog:inspiration:
 :PROPERTIES:
@@ -55,7 +55,6 @@ Very good blog post!
 :ID:       185dbd91c5d05a292acdc131508291d3
 :END:
 https://intuitiveexplanations.com/about/projects
-Comment:
 have list of my projects? moslty populate from github?
 ** [#C] Sidenotes
 :PROPERTIES:
@@ -66,7 +65,6 @@ have list of my projects? moslty populate from github?
 :ID:       f7bc14148c7d545ad4ccd1ad8e0ff9e2
 :END:
 http://mattwetmore.me/posts/hakyll-list-metadata.html
-Comment:
 looks like nice sidenotes ...
 **** [2019-07-20] implemented via tables though..
 :PROPERTIES:
@@ -77,7 +75,6 @@ looks like nice sidenotes ...
 :ID:       6495ec21e2f8e102cbe69ba0f025efbf
 :END:
 https://www.inkandswitch.com/local-first.html
-Comment:
 nice side annotations
 **** [2019-07-20] ok, used this. TODO credit
 :PROPERTIES:
@@ -88,8 +85,7 @@ nice side annotations
 :ID:       bc276774b33eb8939a9d88e89eba73d4
 :END:
 https://www.gwern.net/newsletter/2019/03
-Selection:
-gwern.net CSS changes: Tufte-style sidenotes (for displaying footnotes in margins on wide screens) via Obormot’s new JS library, sidenotes.js
+:  gwern.net CSS changes: Tufte-style sidenotes (for displaying footnotes in margins on wide screens) via Obormot’s new JS library, sidenotes.js
 
 * amend
 :PROPERTIES:
@@ -101,7 +97,7 @@ gwern.net CSS changes: Tufte-style sidenotes (for displaying footnotes in margin
 :END:
 https://jeffhuang.com/designed_to_last/
 : Stick with the 13 web safe fonts +2
-** [#B] [2020-01-18] How do you clear the Open Graph cache of an URL on Telegram? - Stack Overflow :staticblog:opengraph:
+** [#B] [2020-01-18] How do you clear the Open Graph cache of an URL on Telegram? - Stack Overflow :staticblog:
 :PROPERTIES:
 :ID:       afa1fd50f93c1bb2378a15f33647fdb3
 :END:
@@ -136,6 +132,5 @@ https://ogp.me/
 https://medium.com/datadriveninvestor/cookies-vs-local-storage-2f3732c7d977
 : Cookies and local storage serve different purposes. Cookies are mainly for reading server-side, whereas local storage can only be read by the client-side.
 
-Comment:
 huh, so I can implement settings without having to use cookies!
 could poist about it

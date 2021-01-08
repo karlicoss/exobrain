@@ -1,5 +1,7 @@
 #+TITLE: 
+#+logseq_graph: false
 #+filetags: study
+
 * thought experiment: you move away from the clock with the speed of light -- you see the same image on the clock (but you are still aging) :grtheory:
 :PROPERTIES:
 :CREATED:  [2020-04-07]
