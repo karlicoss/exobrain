@@ -1,4 +1,5 @@
 #+TITLE: TODO list for learning
+#+logseq_graph: false
 
 * TODO [#D] Learn to buy gifts                                        :study:
 :PROPERTIES:
@@ -23,10 +24,8 @@
 :ID:       73355d75bb3b496ade7aac3e8e02be16
 :END:
 https://twitter.com/johncarlosbaez/status/1218927345836285952
-Selection:
-Entropy is the amount of information you don't have about the random details of a system: what you'd need to describe those details.
-
-It takes 500 zettabytes to fully describe a gram of liquid water, but a manageable amount per molecule!
+: Entropy is the amount of information you don't have about the random details of a system: what you'd need to describe those details.
+: It takes 500 zettabytes to fully describe a gram of liquid water, but a manageable amount per molecule!
 * [#C] [2020-01-19] Gibbs paradox - Wikipedia
 :PROPERTIES:
 :ID:       bb6b4fdc25bceda24207ef7279772fa5
@@ -38,8 +37,7 @@ https://en.wikipedia.org/wiki/Gibbs_paradox
 :ID:       014b826aef649b0fc723d6c2f7ff4498
 :END:
 https://twitter.com/lisyarus/status/1229487593684901889
-Selection:
-Simulating Hamiltonian mechanics instead of Metropolis-Hastings algorithm:
+: Simulating Hamiltonian mechanics instead of Metropolis-Hastings algorithm:
 * [2020-04-06] Antenna-Theory.com - Introduction to Antennas
 :PROPERTIES:
 :ID:       9c24bb2a5c3e9a902d8fad8ad9747bc4

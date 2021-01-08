@@ -1,5 +1,6 @@
 #+OPTIONS: toc:nil
 #+TITLE: HPI (Human Programming Interface)
+#+logseq_title: hpi
 #+filetags: hpi
 The repository: [[https://github.com/karlicoss/HPI][karlicoss/HPI]] and [[https://beepb00p.xyz/hpi.html][blog post]].
 

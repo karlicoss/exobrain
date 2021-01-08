@@ -1,4 +1,7 @@
-#+TITLE: 
+#+TITLE: Error handling
+#+logseq_title: errors
+#+filetags: errors
+
 * examples of temporary timeouts                             :errors:network:
 :PROPERTIES:
 :CREATED:  [2018-05-18]

@@ -1,4 +1,5 @@
 #+TITLE: Uncategorized
+#+logseq_graph: false
 #+filetags: python
 * TODO [#C] [2019-12-31] PyPy - packages
 :PROPERTIES:
@@ -16,11 +17,9 @@ https://news.ycombinator.com/item?id=17819138
 :ID:       748b21d31eb1dd3ab28cc39d843b468f
 :END:
 https://twitter.com/gvanrossum/status/1227126706089021440
-Selection:
-You don't need Pylint if you're using flake8
-Comment:
-hmm
+: You don't need Pylint if you're using flake8
 
+hmm
 
 * Construct: kinda like struct but better? https://construct.readthedocs.io/en/latest/ :parsing:
 :PROPERTIES:

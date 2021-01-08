@@ -1,5 +1,6 @@
 #+TITLE: 
 #+filetags: physics
+#+logseq_graph: false
 * TODO rename to physics-misc??
 :PROPERTIES:
 :ID:       146ed7b23f62567f090e26e1a9ef4eca

@@ -1,5 +1,6 @@
 #+TITLE: Representation theory
-#+filetags: :reprtheory:
+#+logseq_title: reprtheory
+#+filetags: reprtheory
 
 * Definitions & theorems
 :PROPERTIES:
@@ -192,7 +193,7 @@ A spinor is a mathematical representation of a harmonic standing-wave quantum fi
 :ID:       bca9a1cafa095fcbfc4498a756d89dd1
 :END:
 https://en.wikipedia.org/wiki/Plate_trick
-*** [#C] [2019-01-23] Eigenspinor - Wikipedia                         :grasp:
+*** [#C] [2019-01-23] Eigenspinor - Wikipedia
 :PROPERTIES:
 :ID:       df97b71fc3b629938ea928485982aad0
 :END:
@@ -218,7 +219,7 @@ Maybe the intuition with torus works? But the torus is more of a long pipe
 :ID:       c0d2a0e17e60ea54422a5648a58dfe54
 :END:
 
-* [2019-01-20] Irreducible representation - Wikipedia                 :grasp:
+* [2019-01-20] Irreducible representation - Wikipedia
 :PROPERTIES:
 :ID:       d38d22a2cef99c65556b68da8cc70c65
 :END:

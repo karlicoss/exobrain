@@ -1,5 +1,6 @@
 #+OPTIONS: toc:nil
 #+TITLE: Reading list
+#+logseq_graph: false
 #+filetags: read
 #+sort: t
 

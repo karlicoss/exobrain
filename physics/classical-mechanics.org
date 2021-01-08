@@ -1,5 +1,6 @@
-#+TITLE: 
-#+filetags: mechanics:lagrangian:hamiltonian
+#+TITLE: Classical mechanics
+#+filetags: physics
+
 * Definitions
 :PROPERTIES:
 :ID:       97d8f56bf41502f60ca6fdd5d5da8edc
@@ -13,7 +14,7 @@
 :ID:       c54e9a1d546209b908ae4bffc5a3faee
 :END:
 
-* Lagrangian
+* Lagrangian                                                     :lagrangian:
 :PROPERTIES:
 :ID:       2e32ba26d0dfb8d9502608639fcac451
 :END:

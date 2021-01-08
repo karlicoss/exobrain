@@ -100,7 +100,7 @@ The nonrelativistic limit c→∞c→∞ should not affect the spin of the parti
 https://www.youtube.com/watch?v=bPlP9EkGixk
 Comment:
 so apparently we can get klein-gordon if we replace energy and momentum with quantum operator in einsteins identity
-** [#C] [2019-02-15] (11) Deriving The Klein Gordon Equation (Relativistic Quantum) - YouTube :grasp:
+** [#C] [2019-02-15] (11) Deriving The Klein Gordon Equation (Relativistic Quantum) - YouTube
 :PROPERTIES:
 :ID:       a60427ca84abaeead9d22a875130f315
 :END:
@@ -160,20 +160,18 @@ What he realized is that if you *factor* the equation into a product of two oper
 There is one problem though. In the original quantum theory, they were two dimensional vectors. Dirac gave four dimensional vectors. What you find (after some relatively tedious analysis) is that in the non relativistic limit, two of the components are really small compared to the other two and their effects aren't really measured in a normal laboratory setting. 
 
 For a self contained treatment of this, I *highly* recommend Griffiths' particle physics book. The Dirac equation is in chapter 7 if I recall correctly. I feel that the basics of relativistic quantum mechanics are very beautiful and are as close to an axiomatic (and painless) theory in physics as you're going to get.
-** [#C] [2019-02-24] How To Solve The Klein-Gordon Equation For The Hydrogen Atom - YouTube :grasp:
+** [#C] [2019-02-24] How To Solve The Klein-Gordon Equation For The Hydrogen Atom - YouTube
 :PROPERTIES:
 :ID:       ab28ed76ed3241c09f91f6744973bc4b
 :END:
 https://www.youtube.com/watch?v=9_3uQdF-tEs
-Comment:
 klein gordon solution for hydrogen
-** [#C] [2019-02-24] Klein-Gordon equation in nLab                    :grasp:
+** [#C] [2019-02-24] Klein-Gordon equation in nLab
 :PROPERTIES:
 :ID:       0760dec9ab0838df0b048a0f9635b66d
 :END:
 https://ncatlab.org/nlab/show/Klein-Gordon+equation#FundamentalSolutions
-Selection:
-where □g \Box_g denotes the wave operator on (X,g) (X,g) 
+: where □g \Box_g denotes the wave operator on (X,g) (X,g)
 ** [2019-03-25] Klein Gordon simulation 1 - YouTube
 :PROPERTIES:
 :ID:       6ace0801041ef04ed6b89ce7c1798cbd
