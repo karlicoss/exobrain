@@ -1,0 +1,140 @@
+#+TITLE: VR/AR
+#+logseq_title: vr
+#+filetags: vr
+
+* TODO [#A] Vr visualise plots?                                       :think:
+:PROPERTIES:
+:CREATED:  [2019-01-14]
+:ID:       7f8af9a4dbd2ca1184894e71e61ec635
+:END:
+
+* TODO [#A] Try to visualise quantum harmonic oscillator        :viz:physics:
+:PROPERTIES:
+:CREATED:  [2019-05-28]
+:ID:       98d8d3addfa34db03210ac8956fe517a
+:END:
+
+* TODO [#B] World with negative curvature simulation? Maybe even hyperbolic :viz::math:physics:
+:PROPERTIES:
+:CREATED:  [2019-06-09]
+:ID:       45de67058cf5b9f235a94e5abcb8905b
+:END:
+
+* [#C] [2019-02-13] HARFANG® 3D                                      :python:
+:PROPERTIES:
+:ID:       f7589206d2bac454d90c2268e1954f40
+:END:
+https://www.harfang3d.com/
+from awesome-python
+* STRT [#C] [2019-02-01] Singularity Hacker - Your Virtual Reality Shortlist :ar:gadget:
+:PROPERTIES:
+:ID:       9f63f9da13ed4d6b89f80dc13a4e9d09
+:END:
+http://singularityhacker.com/post/70342744357/your-virtual-reality-shortlist
+: 4. Myo
+: Sooo you’re walking around a virtual world and your mind is being blown. Eventually you’re going to want to reach out and interact with it. The Myo controllers are your in-game fine motor skills. 
+
+hmm could use it for kinda mouse? that'd be pretty cool, basically controlling mouse without moving hands from the keyboard
+
+** [2019-02-01] shit, discontinued...
+:PROPERTIES:
+:ID:       a451148a077735e2e156edd6b1e127b4
+:END:
+* TODO [#C] wonder if I could represent timeline somehow     :memex:timeline:
+:PROPERTIES:
+:CREATED:  [2019-04-06]
+:ID:       42adbda2cf6a89c65e8236868826013d
+:END:
+* TODO [#C] Render 4d sphere                                            :viz:
+:PROPERTIES:
+:CREATED:  [2019-01-09]
+:ID:       934ae5ffcb8fd9272202a8b60c5f2507
+:END:
+
+Maybe make an online game where you have to guess the radius (you can leave markers)
+Basically the idea is you can mark the pole and walk around it
+Kinda binary search!
+** [2019-05-06] and then do same for cube, for instance
+:PROPERTIES:
+:ID:       84a9d3f534e0241acd448eebae71ff10
+:END:
+
+* TODO [#C] hmm, looks like no quantum physics simulations in VR? I could totally plot something interesting... :quantum:viz:
+:PROPERTIES:
+:CREATED:  [2019-06-18]
+:ID:       2a5e6cffdecc8bc668988243dc3d2d6e
+:END:
+* [#C] [2019-06-15] jeromeetienne/AR.js: Efficient Augmented Reality for the Web - 60fps on mobile! :ar:
+:PROPERTIES:
+:ID:       5342bece6cf0c87521e62740cf109e44
+:END:
+https://github.com/jeromeetienne/AR.js
+
+* [#C] [2019-07-27] Non-euclidean virtual reality - YouTube :physics:viz:math:
+:PROPERTIES:
+:ID:       780b5efab0e59066f5a212144e4682b5
+:END:
+https://www.youtube.com/watch?v=ztsi0CLxmjw&list=WL&index=50
+ok, that's pretty interesting, they demonstrate parallel transport
+* STRT [#C] [2019-06-01] Joshua Corvinus (@JoshuaCorvinus) | Twitter :people:
+:PROPERTIES:
+:ID:       0fd31d78741037d9326295e2b30f484f
+:END:
+https://twitter.com/JoshuaCorvinus
+- [2019-06-11] some AR/VR guy?
+- [2019-08-13] followed
+
+* TODO [#C] [2019-06-28] First day Valve Index, Loving it already! And using it to its max potential, obviously : virtualreality
+:PROPERTIES:
+:ID:       ec2f7c0445c67206a115c50bda81b526
+:END:
+https://www.reddit.com/r/virtualreality/comments/c6jbxk/first_day_valve_index_loving_it_already_and_using/
+: First day Valve Index, Loving it already! And using it to its max potential, obviously
+* [#C] [2019-11-10] The Electric Brain - Mind Field S2 (Ep 8) - YouTube :eyetracking:
+:PROPERTIES:
+:ID:       6bc258ad0e3bdfbe7b745487c28f2ec7
+:END:
+https://www.youtube.com/watch?v=NXNGvDdkXZE&list=PLZRRxQcaEjA7wmh3Z6EQuOK9fm1CqnJCI&index=8
+some pretty cool eye tracking device for locked in syndrome in 23:30
+* [#C] [2019-12-12] Visakan Veerasamy on Twitter: "Can’t wait to have AR glasses that sync with @roamresearch so that every object in my house can be tagged and networked" / Twitter :ar:
+:PROPERTIES:
+:ID:       f0ea178f46034f71af4712ddfe6aad12
+:END:
+https://twitter.com/visakanv/status/1205001027386138624
+: Visakan Veerasamy
+: @visakanv
+: Can’t wait to have AR glasses that sync with @roamresearch
+:  so that every object in my house can be tagged and networked
+* TODO [#C] Openvr?
+:PROPERTIES:
+:CREATED:  [2020-08-19]
+:ID:       b0e97c923b7884895ca3e31e96d4eb0d
+:END:
+: SteamVR/OpenVR. It's fantastic.
+* TODO [#D] https://webxr.io/webar-playground/                           :ar:
+:PROPERTIES:
+:CREATED:  [2018-06-02]
+:ID:       951ba98d78dc67b8d1d434c06edd4271
+:END:
+
+* [#D] [2019-06-18] Real-Time Facial Tracking in VR : virtualreality
+:PROPERTIES:
+:ID:       5d2221e068493b7814c9f9ab79c0051d
+:END:
+https://www.reddit.com/r/virtualreality/comments/bsyaxs/realtime_facial_tracking_in_vr/
+
+* TODO [#D] Can I use vr for drill? Some visual clue?             :spacedrep:
+:PROPERTIES:
+:CREATED:  [2019-06-29]
+:ID:       571b49ae8e191eb34ed9d84e6205ce1c
+:END:
+
+* [2019-08-13] [[https://reddit.com/r/virtualreality/comments/cpat34/modeled_in_vr_oculusmedium_quill_rendered_in/][Modeled in VR (oculusmedium, quill), rendered in Unity with a toonshader.]] /r/virtualreality
+:PROPERTIES:
+:ID:       c7a8a2fcaabe73c646464524aa36fdaf
+:END:
+
+* DONE [#B] [2019-06-06] [[https://reddit.com/r/Python/comments/bwlo4g/i_made_an_augmented_reality_real_time_sudoku/][I made an augmented reality real time sudoku solver in Python (source code in comments)]] /r/Python :ar:
+:PROPERTIES:
+:ID:       6d863ddf372a8e70327d4c705b2ab2b4
+:END:

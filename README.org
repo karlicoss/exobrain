@@ -1,4 +1,5 @@
 #+TITLE: Intro
+#+logseq_graph: false
 #+filetags: exobrain
 
 Exobrain, or "second brain", or "brain dump" is something like public wiki where you can keep your *notes, ideas and thoughts*.
