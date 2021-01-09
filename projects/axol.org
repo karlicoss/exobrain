@@ -1,10 +1,13 @@
+#+OPTIONS: toc:nil
 #+TITLE: Axol: search alerts
 #+logseq_title: axol
 #+filetags: axol
-
 Eventually I'll write about it [[https://beepb00p.xyz/axol.html][here]]
 
 Related: #pkm #search
+
+
+#+toc: headlines 2
 
 * [#A] Motivation
 :PROPERTIES:

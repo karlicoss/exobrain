@@ -1,4 +1,5 @@
 #+TITLE: Reading
+#+logseq_graph: false
 
 * how I am scoring books on goodreads                       :reading:scoring:
 :PROPERTIES:

@@ -1,0 +1,107 @@
+#+TITLE: "4 Hour Body" by Tim Ferris
+#+filetags: health
+
+
+Overall impression: very entertaining, lots of interesting info especially if you don't know much about nutrition & exercise in the first place.
+But lots of hot takes, claims which can't relaly be verified and anecdata.
+I'd recommend taking any advice with a bucket of salt, googling and doing proper controlled experiments (#qs).
+
+
+* .                                                               :nutrition:
+:PROPERTIES:
+:ID:       5058f1af8388633f609cadb75a75dc9d
+:END:
+: The creator of the “calorie” as we know it, 19th-century chemist Wilbur Olin Atwater, did not have the technology that we have today. He incinerated foods. Incineration does not equal human digestion; eating a fireplace log will not store the same number of calories as burning one will produce. Tummies have trouble with bark, as they do with many things.
+* .                                                                    :diet:
+:PROPERTIES:
+:ID:       5058f1af8388633f609cadb75a75dc9d
+:END:
+: The "a calorie is a calorie" model fails to take into account the hormonal effect of different macronutrients. Indeed, one of the main reasons the keto diet is effective for fat loss is that, by reducing carb intake, it reduces insulin production by the pancreas. Insulin is known as a "fat storage" hormone; high levels of it signal your body to build fat stores and stop metabolizing body fat for energy. Carb calories stimulate insulin production; fat calories do not. Little wonder that obesity rates in the US began rising
+: 
+: One such study, conducted by Kekwick and Pawan, compared three groups put on calorically equal (isocaloric) semistarvation diets of 90% fat, 90% protein, or 90% carbohydrate. Though ensuring compliance was a challenge, the outcomes were clearly not at all the same:
+: 
+: 1,000 cals. at 90% fat = weight loss of 0.9 lbs. per day
+: 1,000 cals. at 90% protein = weight loss of 0.6 lbs. per day
+: 1,000 cals. at 90% carbohydrate = weight gain of 0.24 lbs. per day
+: 
+: Different sources of calories = different results.
+
+
+Eh, ok, but these are some pretty extreme diet regimes (even if you're doing keto etc).
+How does it map onto a normal diet, and how does one notice the difference for themselves?
+
+* .
+:PROPERTIES:
+:ID:       5058f1af8388633f609cadb75a75dc9d
+:END:
+: It turned out that food and liquids took much, much longer to get to my bloodstream than one would expect. In most cases, I peaked one and a half to two and a half hours after food consumption, even with yogurt. Orange juice peaked 40 minutes after drinking.
+: This has profound implications and made the entire experiment worth the hassle.
+: Think you’ll have a quick bite for energy 20 minutes before going to the gym? It might not be available to your muscles until an hour after the gym. The solution: eat it an hour earlier.
+
+
+Ok, interesting. Although personally I don't think I noticed any difference subjectively, do I not do had enough exercise?
+
+* .                                                                :exercise:
+:PROPERTIES:
+:ID:       5058f1af8388633f609cadb75a75dc9d
+:END:
+: Think that protein shake is getting to your muscles in the valuable 30-minute post-workout window? In my case, if I drank the “post-workout” shake post-workout, it didn’t. I needed to have it before my workout and then sit down to a large meal almost immediately after the workout. Doing it one and a half hours after the workout, as commonly suggested, just wouldn’t get the goods to my muscles in time.
+
+
+* .                                                                :exercise:
+:PROPERTIES:
+:ID:       5058f1af8388633f609cadb75a75dc9d
+:END:
+: The caloric argument for exercise gets even more depressing. Remember those 107 calories you burned during that kick-ass hour-long Stairmaster™ session? Don’t forget to subtract your basal metabolic rate (BMR), what you would have burned had you been sitting on the couch watching The Simpsons instead. For most people, that’s about 100 calories per hour given off as heat (BTU).
+: That hour on the Stairmaster was worth seven calories.
+
+WTF?? it's obviously in addition to BMR calories.
+https://www.reddit.com/r/Fitness/comments/jgvw9/does_this_claim_about_the_caloric_value_of/
+
+
+* .                                                                   :sleep:
+:PROPERTIES:
+:ID:       5058f1af8388633f609cadb75a75dc9d
+:END:
+: 1. Good sleep (8–10) was most dependent on the ratio of REM-to-total sleep, not total REM duration. The higher the percentage of REM sleep, the more restful the sleep. The higher the REM percentage, the better the recall of skills or data acquired in the previous 24 hours. Higher-percentage REM sleep also correlated to lower average pulse and temperature upon waking.
+: 2. I could increase REM percentage by extending total sleep time past nine hours, or by waking for five minutes approximately four and a half hours after sleep onset. One waking of 5–10 minutes, approximately four and a half hours after sleep onset, dramatically increased REM percentage. It seems that one waking is not necessarily a bad thing, at least when intentional.
+: 3. Taking 200 milligrams of huperzine-A 30 minutes before bed can increase total REM by 20 –30%. Huperzine-A, an extract of Huperzia serrata, slows the breakdown of the neurotransmitter acetylcholine.2 It is a popular nootropic (smart drug), and I have used it in the past to accelerate learning and increase the incidence of lucid dreaming. I now only use huperzine-A for the first few weeks of language acquisition, and no more than three days per week to avoid side effects. Ironically, one documented side effect of overuse is insomnia. The brain is a sensitive instrument, and while generally well tolerated, this drug is contraindicated with some classes of medications. Speak with your doctor before using.
+: 4. The higher the percentage of deep-wave sleep, the better your subsequent physical performance.
+** TODO [2021-01-09] Ugh. My subjective feeling definitely doesn't go up with sleep length after certain point, so I'm preety sure this doesn't work for me :qs:
+:PROPERTIES:
+:ID:       55fa04956e36cf3813905005d7e5fb62
+:END:
+** TODO [2021-01-09] huperzin-A -- seems that people just get lucid dreams from it judging by reddit? :nootropic:
+:PROPERTIES:
+:ID:       40b9ef597d6013c242ae18e9b8cda173
+:END:
+
+** .
+:PROPERTIES:
+:ID:       5058f1af8388633f609cadb75a75dc9d
+:END:
+: PRINCIPLE #1: MINIMIZE THE RELEASE OF INSULIN, A STORAGE HORMONE.
+: Insulin release is minimized by blunting sharp jumps in blood sugar:
+: PRINCIPLE #2: INCREASE THE SPEED OF GASTRIC EMPTYING, OR HOW QUICKLY FOOD EXITS THE STOMACH.
+: PRINCIPLE #3: ENGAGE IN BRIEF MUSCULAR CONTRACTION THROUGHOUT THE BINGE
+: 
+: But why the hell would you want to do 60–90 seconds of funny exercises a few minutes before you eat and, ideally, again about 90 minutes afterward?
+: Short answer: because it brings glucose transporter type 4 (GLUT-4) to the surface of muscle cells, opening more gates for the calories to flow into. The more muscular gates we have open before insulin triggers the same GLUT-4 on the surface of fat cells, the more we can put in muscle instead of fat.
+: 
+: In all cases, if you do 60–90 seconds of contraction after each meal (and a bit before, ideally), you might live to see your abs.
+: Don’t forget the air squats.
+
+ugh. how do I test this?
+* .                                                                     :dna:
+:PROPERTIES:
+:ID:       5058f1af8388633f609cadb75a75dc9d
+:END:
+: Just a smidge of helpful science: muscle fibers are composed of myofibrils, which are in turn composed of two filaments—actin (thin filaments) and myosin (thick filaments)—that slide over each other to cause muscles to contract, a literal shortening of the muscle. Actin filaments, which are necessary to this process, are stabilized by actin-binding proteins. One actin-binding protein called alpha-actinin 3 (ACTN3) is expressed only in fast-twitch muscle fiber, the crown jewel of shot-putters and bodybuilders worldwide.
+: It turns out that both of my chromosomes (one from Mammy and one from Pappy Ferriss) contain the R577X variant of the ACTN3 gene, a mutation that results in a complete deficiency of our most desired ACTN3. This variant, amusingly called a “nonsense allele,” is found in more than a billion humans worldwide.
+: Sad Christmas.
+
+* TODO Skinning the cat chapter: body fat and muscular imbalances
+:PROPERTIES:
+:ID:       84dd2e8b9067cf975d13acccfffed3c9
+:END:
+body fat scan can show imbalance in muscles
