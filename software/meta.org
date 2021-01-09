@@ -1,4 +1,7 @@
 #+TITLE: 
+#+logseq_graph: false
+#+filetags: software
+
 * [2018-05-02] My rants about interface updates                          :ui:
 :PROPERTIES:
 :ID:       2062389ceacfba6924503db378226a15

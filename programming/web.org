@@ -1,0 +1,12 @@
+#+TITLE: Web programming
+#+filetags: :programming:
+
+* CSS                                                                   :css:
+:PROPERTIES:
+:ID:       2c56c360580420d293172f42d85dfbed
+:END:
+** STRT [#C] [2019-11-11] A Complete Guide to Flexbox | CSS-Tricks     :flex:
+:PROPERTIES:
+:ID:       0a8dc27fe1ca9351e40fd20ad988dafc
+:END:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox

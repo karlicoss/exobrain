@@ -1,5 +1,5 @@
 #+TITLE: Human body
-#+filetags: humanbody
+#+filetags: :biology:humanbody:
 
 * higher amounts of prolactin makes women cry more often than men
 :PROPERTIES:

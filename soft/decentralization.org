@@ -1,4 +1,6 @@
 #+TITLE: Decentralized/federated services
+#+filetags: software
+
 * TODO [#C] [2020-01-17] radicle                             :federation:vcs:
 :PROPERTIES:
 :ID:       c8579aa4fbac163715d14c794ec20aff
@@ -9,5 +11,4 @@ https://radicle.xyz/towards-decentralized-code-collaboration.html
 :ID:       7eb380853b2ea627595c232409811392
 :END:
 https://github.com/MichaelMure/git-bug
-Selection:
-Distributed, offline-first bug tracker embedded in git, with bridges
+: Distributed, offline-first bug tracker embedded in git, with bridges

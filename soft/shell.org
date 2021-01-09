@@ -1,8 +1,8 @@
 #+TITLE: Shell concepts
 #+filetags: shell
-* [#C] [2020-02-20] Why Create a New Unix Shell?
+* [#C] [2019-11-03] Why Create a New Unix Shell?
 :PROPERTIES:
-:ID:       28ff0c3200c623d267fe81e5a5f328c8
+:ID:       51ee83b60c374737f4e9dbaba02dfcf0
 :END:
 https://www.oilshell.org/blog/2018/01/28.html
 
@@ -12,9 +12,3 @@ https://www.oilshell.org/blog/2018/01/28.html
 :END:
 https://news.ycombinator.com/item?id=22150603
 : Thanks for the support! Since I may not get to those blog posts in a timely fashion, here's a little outline (and maybe this comment will form the seed of them)
-
-* TODO [#D] [2019-11-03] Why Create a New Unix Shell?                 :shell:
-:PROPERTIES:
-:ID:       51ee83b60c374737f4e9dbaba02dfcf0
-:END:
-https://www.oilshell.org/blog/2018/01/28.html

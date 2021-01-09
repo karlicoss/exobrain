@@ -6,9 +6,9 @@ Related: #pkm, #lifelogging, #quantifiedself
 :PROPERTIES:
 :ID:       975a461b893a82660a78bb8ca532c0a1
 :END:
-** [#A] [2020-03-07] [[https://hyfen.net/memex][Memex]] by [[person:alous][Andrew Louis]] + [[https://www.youtube.com/watch?v=DFWxvQn4cf8][RubyConf 2018 talk]]
+** [#A] [2020-03-07] [[https://hyfen.net/memex][Memex]] by Andrew Louis + [[https://www.youtube.com/watch?v=DFWxvQn4cf8][RubyConf 2018 talk]]
 :PROPERTIES:
-:ID:       b644a162b2c30d0f8638741fa3ea3ad4
+:ID:       c6ea6de4cc57ed46713632ace57fdef8
 :END:
 whoa, this is awesome
 he mentions the same problems I struggled with literally in the same words!
