@@ -99,7 +99,7 @@ thanks to decoupling the data retrieval (#hpi)
 :PROPERTIES:
 :ID:       349d34ca49da03a26a399f5feb25c5a9
 :END:
-** TODO [#C] need to use highlight as title?                        :hyp2org:
+** TODO [#C] need to use highlight as title?
 :PROPERTIES:
 :CREATED:  [2019-05-11]
 :ID:       ed91e7c315ad91ca8c49eb529ce9bc4a

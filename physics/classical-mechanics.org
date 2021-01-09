@@ -274,7 +274,7 @@ https://physics.stackexchange.com/questions/89035/whats-the-point-of-hamiltonian
 https://physics.stackexchange.com/questions/194772/example-where-hamiltonian-h-neq-tv-e-but-e-tv-is-conserved
 
 
-* START [#B] physics sim for phase space /repos/physics-sim/ :study:visualisation:lagrangian:
+* START [#B] physics sim for phase space /repos/physics-sim/ :study:viz:lagrangian:
 :PROPERTIES:
 :CREATED:  [2018-11-19]
 :ID:       8f923e4e6cc08664e0163b661fecc033

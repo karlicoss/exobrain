@@ -1,21 +1,23 @@
 #+TITLE: 
-#+filetags: physics,paper
-* DONE [#B] /L/Dropbox/TODO/TOREAD/Deutch Quantum theory as universal physical theory.pdf :read:quantum:
+#+filetags: physics
+#+logseq_graph: false
+
+* DONE [#B] Deutch Quantum theory as universal physical theory.pdf :read:quantum:
 :PROPERTIES:
-:ID:       967394fbac0e42272d1c97b674604b35
+:ID:       bc5bd030beb62965b08abf226aa8ee14
 :END:
 
 ** 
 :PROPERTIES:
 :ID:       d41d8cd98f00b204e9800998ecf8427e
 :END:
-When the quantum system has aninfinite number of degrees of freedom
-(i.e., in field theory) the operators ~bg may have to be distributions (see
-Gel'fand and Shilov, 1968), the Hilbert space ~ may have to be "rigged"
-(Bohm, 1980), the action may have to be renormalized, and so forth. We
-shall avoid all these issues by assuming not merely that the world has a
-finite number of degrees of freedom, but that its state space is finite
-dimensional. 
+: When the quantum system has aninfinite number of degrees of freedom
+: (i.e., in field theory) the operators ~bg may have to be distributions (see
+: Gel'fand and Shilov, 1968), the Hilbert space ~ may have to be "rigged"
+: (Bohm, 1980), the action may have to be renormalized, and so forth. We
+: shall avoid all these issues by assuming not merely that the world has a
+: finite number of degrees of freedom, but that its state space is finite
+: dimensional.
 
 ** page 7, kinematically independent subsystems
 :PROPERTIES:

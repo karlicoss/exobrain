@@ -69,9 +69,9 @@ integral k comes because of periodicity of unit circle, if it was R, it would be
 :ID:       decf0280deb37f42a5983d0d9233a3cb
 :END:
 ok, still unclear what is spin 0. it shouldn't change under coordinate transformations right, but what is it from the representation theory point of view??
-*** TODO some annotations                                             :polar:
+*** TODO some annotations in Polar
 :PROPERTIES:
-:ID:       14b633c740e9104502b2b3866944b34f
+:ID:       fcddc7e073d49da1a209d40b47eecd1a
 :END:
 ** START [2019-01-20] chapter 5. .. skipped it for now
 :PROPERTIES:
@@ -135,7 +135,7 @@ as theta goes from 0 to 2pi, exp traces a circle in the space of unitary 2x2 mat
 only for Pauli_3 it's diagonal. ugh, don't understand anything
 
 
-** TODO Symmetry in quantum mechanics - Wikipedia
+** TODO Symmetry in quantum mechanics - Wikipedia                  :symmetry:
 :PROPERTIES:
 :ID:       9ece66db783166c195500265cbcda5b7
 :END:
@@ -143,28 +143,27 @@ only for Pauli_3 it's diagonal. ugh, don't understand anything
 :PROPERTIES:
 :ID:       fec2fd04e405ad14a9ecb60c09247918
 :END:
-The spin vector operator is denoted S ^ = ( S x ^ , S y ^ , S z ^ ) {\displaystyle {\widehat {\mathbf {S} }}=({\widehat {S_{x}}},{\widehat {S_{y}}},{\widehat {S_{z}}})} {\widehat {\mathbf {S} }}=({\widehat {S_{x}}},{\widehat {S_{y}}},{\widehat {S_{z}}}). The eigenvalues of its components are the possible outcomes (in units of ℏ {\displaystyle \hbar } \hbar ) of a measurement of the spin projected onto one of the basis directions.
+: The spin vector operator is denoted S ^ = ( S x ^ , S y ^ , S z ^ ) {\displaystyle {\widehat {\mathbf {S} }}=({\widehat {S_{x}}},{\widehat {S_{y}}},{\widehat {S_{z}}})} {\widehat {\mathbf {S} }}=({\widehat {S_{x}}},{\widehat {S_{y}}},{\widehat {S_{z}}}). The eigenvalues of its components are the possible outcomes (in units of ℏ {\displaystyle \hbar } \hbar ) of a measurement of the spin projected onto one of the basis directions.
 *** [2018-09-06]
 :PROPERTIES:
 :ID:       a9d3a29198c9a7dc8f744c164d9d7e74
 :END:
-Rotations (of ordinary space) about an axis a ^ {\displaystyle {\hat {\mathbf {a} }}} {\hat {\mathbf {a} }} through angle θ about the unit vector a ^ {\displaystyle {\hat {a}}} {\hat {a}} in space acting on a multicomponent wave function (spinor) at a point in space is represented by: 
+: Rotations (of ordinary space) about an axis a ^ {\displaystyle {\hat {\mathbf {a} }}} {\hat {\mathbf {a} }} through angle θ about the unit vector a ^ {\displaystyle {\hat {a}}} {\hat {a}} in space acting on a multicomponent wave function (spinor) at a point in space is represented by:
 *** [2018-09-06]
 :PROPERTIES:
 :ID:       f6769ccad25125147901013a0ba6fd26
 :END:
-In relativistic quantum mechanics, wavefunctions are no longer single-component scalar fields, but now 2(2s + 1) component spinor fields, where s is the spin of the particle. The transformations of these functions in spacetime are given below. 
+: In relativistic quantum mechanics, wavefunctions are no longer single-component scalar fields, but now 2(2s + 1) component spinor fields, where s is the spin of the particle. The transformations of these functions in spacetime are given below.
 *** TODO [#B] [2019-01-23] Representation of a Lie group - Wikipedia    :lie:
 :PROPERTIES:
 :ID:       55c69542649b299b5f7dfd93c81cd56f
 :END:
 https://en.wikipedia.org/wiki/Representation_of_a_Lie_group#An_example:_The_rotation_group_SO.283.29
-Selection:
-ne subtlety of this analysis is that the representations of the group and the Lie algebra are not in one-to-one correspondence, a point that is critical in understanding the distinction between integer spin and half-integer spin.
+:  ne subtlety of this analysis is that the representations of the group and the Lie algebra are not in one-to-one correspondence, a point that is critical in understanding the distinction between integer spin and half-integer spin.
 
 
 
-** TODO Spinors
+** TODO Spinors                                                      :spinor:
 :PROPERTIES:
 :ID:       c027cb9e8debe96b93269f6a2d63847a
 :END:
@@ -188,7 +187,7 @@ No one fully understands spinors. Their algebra is formally understood but their
 :ID:       3ddb0dcb22f33ee012713554ea1ca415
 :END:
 A spinor is a mathematical representation of a harmonic standing-wave quantum field "topological structure" or excitation which typically exhibits a spin ½ geometry 
-*** [#B] [2019-01-14] Plate trick - Wikipedia          :spinor:visualisation:
+*** [#B] [2019-01-14] Plate trick - Wikipedia                           :viz:
 :PROPERTIES:
 :ID:       bca9a1cafa095fcbfc4498a756d89dd1
 :END:
@@ -346,7 +345,7 @@ lie group actions provide us with observables many of which happen to be of phys
 C^2, upper triangular matrices W = k (1 0) for k in C is a subrepr, but there is no complement
 
 
-* TODO [#C] Baez lie groups throught examples        :lie:math:group:physics:
+* TODO [#C] Baez lie groups throught examples              :lie:math:physics:
 :PROPERTIES:
 :CREATED:  [2018-08-25]
 :ID:       4bd146cc8fbec3b3444c15818b9000ca

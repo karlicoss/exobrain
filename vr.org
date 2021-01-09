@@ -14,7 +14,7 @@
 :ID:       98d8d3addfa34db03210ac8956fe517a
 :END:
 
-* TODO [#B] World with negative curvature simulation? Maybe even hyperbolic :viz::math:physics:
+* TODO [#B] World with negative curvature simulation? Maybe even hyperbolic :viz:math:physics:
 :PROPERTIES:
 :CREATED:  [2019-06-09]
 :ID:       45de67058cf5b9f235a94e5abcb8905b

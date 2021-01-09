@@ -1,0 +1,953 @@
+#+TITLE: Axol: search alerts
+#+logseq_title: axol
+#+filetags: axol
+
+Eventually I'll write about it [[https://beepb00p.xyz/axol.html][here]]
+
+Related: #pkm #search
+
+* [#A] Motivation
+:PROPERTIES:
+:ID:       c076e4fd1559721e171432e66b70a487
+:END:
+** TODO [#B] I don't necessarily want to read everything found by 'scott alexander', but it's still interesting to run search to see the overlap between people?
+:PROPERTIES:
+:CREATED:  [2020-06-25]
+:ID:       f5d7b453c11c701c71f3351b34ff0bba
+:END:
+** TODO why not hnrss?
+:PROPERTIES:
+:CREATED:  [2020-11-30]
+:ID:       fe36ff7812daded941b4a873f2b94f5c
+:END:
+it's very likely more convenient to use if you only want a few HN queries, and don't care about historic ones
+** TODO why axol over rss bridges?
+:PROPERTIES:
+:CREATED:  [2020-12-05]
+:ID:       a257a519f98e6fb29b1472e194e22173
+:END:
+rss is awesome! downsides
+- might be trickier to do various post-filtering
+- with axol, you can compare results across queries (user summary)
+- can be used with promnesia maybe
+** STRT motivation: I don't understand how google search alerts work. e.g. try on openbci query (see my old emails from google alert)
+:PROPERTIES:
+:CREATED:  [2018-11-10]
+:ID:       65f12d79da6c98ae01e2c168bade0478
+:END:
+** TODO [#D] [2019-12-30] Ask HN: Do you still use RSS? | Hacker News :rss:blog:
+:PROPERTIES:
+:ID:       685f4a4ea94fedf9887759ac130f62c3
+:END:
+https://news.ycombinator.com/item?id=21913598
+: I've just started using Feedbin about a month ago, and although my HN firehose feed is at like 1100 something, it definitely limits the rest of the HN feeds. The show and ask feeds are both stuck around 400 something.
+** [#D] [2018-11-24] problems with diff approach                 :motivation:
+:PROPERTIES:
+:ID:       32201d2e314b2dd07973fb16fdd401a8
+:END:
+*** random errors, resulting in empty diff
+:PROPERTIES:
+:ID:       d68bfa5e71182d3495df15f76eb29371
+:END:
+*** small differences in output (e.g. google search)
+:PROPERTIES:
+:ID:       fe4e9aa1a2898d4e6fe9ea4c29eb19b4
+:END:
+*** not always interested in items disappearing from query
+:PROPERTIES:
+:ID:       a1413e9b8a1b4efb030e464f553c8d21
+:END:
+the downside -- having to keep the state :(
+** [#C] [[http://twitter.com/karlicoss/status/1047228539156750336][TW]] at [2018-10-02] А кто-нибудь знает тулы типа https://t.co/EbpbNZWQFC , но чтобы туда можно было вбить грубо говоря любую поисковую кверю, или API (например reddit/github); и оно отслеживало результаты?
+:PROPERTIES:
+:ID:       c92845c36c5fc9428c214f670a638760
+:END:
+*** [2019-10-02] huh
+:PROPERTIES:
+:ID:       65292147855f589985de6862c10ff757
+:END:
+* [#B] Similar/existing projects
+:PROPERTIES:
+:ID:       6c41b77f17d429120e6a050ff49fff0c
+:END:
+** [#C] [2020-03-03] [[https://news.ycombinator.com/item?id=22474282][Show HN: Mailbrew – Automated Email Digests from HN, RSS, Reddit, Twitter]]
+:PROPERTIES:
+:ID:       56665d9c330dd31d5ceb14c4915c849b
+:END:
+https://mailbrew.com/
+** TODO [#C] [2019-12-26] awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of hosting and managing applications instead of renting from Software-as-a-Service providers
+:PROPERTIES:
+:ID:       6fab777b50af08ba3d71104acf3d81cc
+:END:
+https://github.com/awesome-selfhosted/awesome-selfhosted
+: Search Engines
+** DONE [#B] trackreddit only two subscriptions
+:PROPERTIES:
+:CREATED:  [2018-07-15]
+:ID:       bcb6cba0603a4b9c61aa968bf2e34ad6
+:END:
+wanted lifelogging
+trackreddit
+** DONE [#D] tool to search on reddit or even custom services? special ordering ('least likely' for showing least occuring subreddits). could also do it on rust? :pkm:
+:PROPERTIES:
+:CREATED:  [2018-09-29]
+:ID:       fc16f6a4062361e45dee58203cf64e81
+:END:
+searched as 'keyword monitoring tool'
+tried searching on reddit, but nothing really useful..
+https://github.com/trulia/thoth -- unclear what it's doing
+
+keyword tracking (SERP) -- not sure if an overkill..
+*** DONE [2018-11-06] just implement a provider for kibitzr?        :kibitzr:
+:PROPERTIES:
+:ID:       1bed872aca962332c3f9bce39214223e
+:END:
+*** CANCEL rust?
+:PROPERTIES:
+:ID:       a34175cfa1d56e1a685ca78ab3797b13
+:END:
+* [#B] Make it more user friendly
+:PROPERTIES:
+:ID:       64624cc7087f6e06f184a998ce85e21c
+:END:
+** TODO add axol doctor config                                      :project:
+:PROPERTIES:
+:CREATED:  [2020-11-30]
+:ID:       abd0888a48aca1d3699e1acf37428fb3
+:END:
+also axol doctor to check individual providers + reuse in tests
+** TODO [#B] rely on user config dirs
+:PROPERTIES:
+:CREATED:  [2020-05-25]
+:ID:       336e340a0964277979631199a2ba60af
+:END:
+** TODO [#C] provide an asci diagram for crawler + report + feed reader? :axol_doc:
+:PROPERTIES:
+:CREATED:  [2020-03-10]
+:ID:       f5f4d9b07c239ac2a84215e2f063614f
+:END:
+* [#B] Blacklisting
+:PROPERTIES:
+:ID:       6cf71b5dbad279e0f8f5121a8005a8ec
+:END:
+** TODO [#B] maybe button to ban user? it would write to config or something? maybe I can even use some public API constructor?
+:PROPERTIES:
+:CREATED:  [2019-08-17]
+:ID:       f0ccb77a631f608a1f8e31cd1b3b50e5
+:END:
+** TODO [#B] I suppose pouchdb would be perfect for blacklisting    :couchdb:
+:PROPERTIES:
+:CREATED:  [2019-09-02]
+:ID:       d27c9d703dcbccd32aaa9e885d62876f
+:END:
+
+** TODO [#B] for blacklisting, instead could just apply custom per-user classes? or even edit them. that would allow to highlight properly
+:PROPERTIES:
+:CREATED:  [2019-09-16]
+:ID:       767c364abaf0892113c51fa5be66c0ea
+:END:
+** TODO [#C] yeah, blacklisting could both update backend and hide locally
+:PROPERTIES:
+:CREATED:  [2019-08-17]
+:ID:       06f202f7e50371be7b0be5fad36c65e8
+:END:
+** TODO [#C] [2019-04-15] axol results for reddit_pkm, rendered at Fri 12 Apr 2019 05:07
+:PROPERTIES:
+:ID:       01c65c60b0003178bfbe843a6c107503
+:END:
+reddit_pkm.html
+shit. need to ignore the weapons subreddits
+I think generally, my tools needs to have a database...
+** [#C] shit, top lifelogging tweets are on japanese...             :twitter:
+:PROPERTIES:
+:CREATED:  [2019-07-29]
+:ID:       79f1cc5c4977c2cc88908685a07698db
+:END:
+** TODO [#C] would be interesting to ignore links I already visited from results. It can even be done automatically.... :promnesia:axol:
+:PROPERTIES:
+:CREATED:  [2019-07-20]
+:ID:       72e448b1e38fe79e7b7908847c9e878e
+:END:
+** TODO [#D] huh, quite a few bots on reddit?                        :reddit:
+:PROPERTIES:
+:CREATED:  [2019-07-27]
+:ID:       17358f34ac10deecfd7e98b3fa667604
+:END:
+aznc_bot
+bprogramming even maybe?
+autotldr
+tabledresser
+** [#C] huh, lots of stuff from twitter is just garbage. need a good way of suppressing it... :axol:twitter:
+:PROPERTIES:
+:CREATED:  [2019-07-29]
+:ID:       61ffe6e4ed63394628b2b0065a0b5bb5
+:END:
+*** [2020-01-01] twitter_mypy (211) - Miniflux
+:PROPERTIES:
+:ID:       119b0068ed00183ea0bbec523a076ea4
+:END:
+https://axol.karlicoss.xyz/feed/53/entries
+: /mypy1031
+*** [2020-01-01] twitter_mypy (211) - Miniflux
+:PROPERTIES:
+:ID:       119b0068ed00183ea0bbec523a076ea4
+:END:
+https://axol.karlicoss.xyz/feed/53/entries
+: /aymk_mypy/status/1211970059205107712 All
+: twitter_mypy 7 hours ago Original @Witch_Astaroth みどりさん！この垢にしてから相互になった方の中では割と話せたと思ってます笑 来年もよろしくお願いします！
+*** [2020-01-01] twitter_mypy (111) - Miniflux
+:PROPERTIES:
+:ID:       96f3ab8c895b0162e93996e65f50015c
+:END:
+https://axol.karlicoss.xyz/feed/53/entries
+: /mypy2424/status/1211845733210443778 All
+: twitter_mypy 7 hours ago Original 事実でも噂でも、クズとかいうやつお前はその人より努力してからいえよな〜って思うよ！！！！！ 好きな
+*** [2020-01-01] twitter_mypy (111) - Miniflux
+:PROPERTIES:
+:ID:       96f3ab8c895b0162e93996e65f50015c
+:END:
+https://axol.karlicoss.xyz/feed/53/entries
+: /soe1113/status/741281801323175936 All
+:    twitter_mypy 7 hours ago O
+*** [2020-01-03] twitter_lifelogging (20) - Miniflux
+:PROPERTIES:
+:ID:       aac26ffde80071af7054529c83eb8a2f
+:END:
+https://axol.karlicoss.xyz/feed/52/entries
+: /jager_atami/status/24390787028 All
+: twitter_lifelogging 2 days ago Original #udetate #lifelogging 陶房で壺割り 12 個 201
+*** [2020-01-03] twitter_quantified_self (36) - Miniflux
+:PROPERTIES:
+:ID:       4bc2ebcd5ecbcd11b56d61fe16c377d9
+:END:
+https://axol.karlicoss.xyz/feed/55/entries
+: /hiperesoterismo/status/1212803558203985920 All
+:     twitter_quantified_self 4 hours ago Original mis únicos 4 moodspic.twitter.com/5RgPiKKhMx ★
+
+* [#B] What would be a good UI for axol?
+:PROPERTIES:
+:ID:       a270159d4d935bf622a169b6b428aa09
+:END:
+** TODO [#B] I really need some sort of proper frontend browser for it...
+:PROPERTIES:
+:CREATED:  [2020-10-26]
+:ID:       bd0b82261bf38ef6586624a456a24658
+:END:
+** TODO [#C] would be nice to have some html dashboard, so it's easy to blacklist terms? :ui:
+:PROPERTIES:
+:CREATED:  [2020-01-03]
+:ID:       802da5166d638bf9d79a979658819cc1
+:END:
+** STRT [#B] need a UI to easily add items to axol. e.g. Alexei Kitaev
+:PROPERTIES:
+:CREATED:  [2019-07-18]
+:ID:       3bb8108fa5ac889f8bcacd1143d53635
+:END:
+maybe some simple cmdline available from anywhere. or org mode as source?
+
+
+** TODO [#C] use metabase or something? could use a column to mark as seen? would be much easier than rss
+:PROPERTIES:
+:CREATED:  [2020-12-10]
+:ID:       acfe50caa6465736bf30cb4d72c31e41
+:END:
+** TODO [#B] dunno about rss interface... really need a more efficient way of processing content, reordering, etc :axol:ui:
+:PROPERTIES:
+:CREATED:  [2020-05-21]
+:ID:       2901a79454b13effec7d859013e5bc73
+:END:
+
+* [#C] Queries
+:PROPERTIES:
+:ID:       cf43137803fb51915f84cbc5c3068d34
+:END:
+** TODO [#A] search for 'data export' or something?
+:PROPERTIES:
+:CREATED:  [2019-09-23]
+:ID:       7714d0aa8176ff3b0b658a4ffb23c3e1
+:END:
+*** [2019-12-07] not much on reddit for 'data liberation:
+:PROPERTIES:
+:ID:       ea17266eefc0051107782184ebe97978
+:END:
+*** [2020-03-10] 'data export' looks promising on github
+:PROPERTIES:
+:ID:       d74659b09a103b21dbfd01bec889b69a
+:END:
+** TODO [#C] [2020-01-12] github.com/karlicoss - Twitter Search / Twitter :self:
+:PROPERTIES:
+:ID:       2512c5a191dd14b596a70133d42a011e
+:END:
+https://twitter.com/search?q=github.com%2Fkarlicoss&src=typed_query&f=live
+*** [2020-03-10] right, it looks quite reasonable to have
+:PROPERTIES:
+:ID:       d152e121178741b2de94be6ba3269feb
+:END:
+**** [2020-11-30] very few results though
+:PROPERTIES:
+:ID:       722291b2370e3969ec7bc958b5979a6d
+:END:
+*** [2020-03-30] All | Search powered by Algolia
+:PROPERTIES:
+:ID:       7705afecc00e7e84f12d891f9940f34e
+:END:
+https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=github.com%2Fkarlicoss&sort=byPopularity&type=story
+
+
+** STRT [#C] [2020-01-30] my. package | Mildly entertainingᵝ        :qs:read:
+:PROPERTIES:
+:ID:       632d1bdeaf5950b4d1a3391f585fd95a
+:END:
+https://beepb00p.xyz/mypkg.html
+: Interesting experiment! Thanks for sharing :-) You might find this person's musings about such experiments interesting: https://www.plomlompom.de/index.en.html#topic_postprivacy
+*** TODO [2020-03-01] axol it
+:PROPERTIES:
+:ID:       ca0963d06ea2995472e9432ab5421baf
+:END:
+** STRT [#B] [2019-02-15] What Universal Human Experiences Are You Missing Without Realizing It? | Slate Star Codex :mind:
+:PROPERTIES:
+:ID:       f19a5db525dcbee75b327ca39dad15b3
+:END:
+- State "STRT"      from "TODO"       [2019-04-13]
+  https://slatestarcodex.com/2014/03/17/what-universal-human-experiences-are-you-missing-without-realizing-it/
+search this post on reddit or something
+*** [2019-04-22] actually even found something interesting on gh..
+:PROPERTIES:
+:ID:       001a929718ba7fe56bd132db0141deb1
+:END:
+https://github.com/search?q=what-universal-human-experiences-are-you-missing-without-realizing-it&type=Code
+although, it's code search, not repo search
+*** [2019-04-22] so trying to google that query                  :motivation:
+:PROPERTIES:
+:ID:       3829998b7ab8c1fe7dd233bb9db9d308
+:END:
+if looking for past month, that basically results in random keywords
+what universal human experiences are you missing without realizing it
+*** [2019-06-13] yeah, twitter feed is not too huge, so could subscribe to it
+:PROPERTIES:
+:ID:       4c8816b9b818332d79963d6971a65829
+:END:
+
+** TODO [#D] [2019-06-29] https://github.com/hypotext/notation - Twitter Search
+:PROPERTIES:
+:ID:       c6eab3a0040016f1b15fae3e65a3c9b8
+:END:
+https://twitter.com/search?q=https%3A%2F%2Fgithub.com%2Fhypotext%2Fnotation&partner=Firefox&source=desktop-search
+*** [2019-08-09] axol this?
+:PROPERTIES:
+:ID:       0c7532bb9fb8f86cab71bbc3377dd4eb
+:END:
+**** [2019-08-25] or aaxol for twitter? although doesn't seem to be posted often
+:PROPERTIES:
+:ID:       a501fbe36912fa418f6f075da308863b
+:END:
+
+
+** [#C] [2020-01-09] karlicoss/cachew - Twitter Search / Twitter     :cachew:
+:PROPERTIES:
+:ID:       e6ab4bc7bc012980aa041b41c7591eff
+:END:
+https://twitter.com/search?q=karlicoss%2Fcachew&partner=Firefox&source=desktop-search
+
+** TODO [#B] [2020-08-24] [[https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNoon_Universe&sort=byPopularity&type=all][All | Search powered by Algolia]] Noon Universe search
+:PROPERTIES:
+:ID:       5d55a7554df84ed02745f9870f61cb3d
+:END:
+
+** STRT [#C] mypy -- exclude mypython; prioritize topics               :mypy:
+:PROPERTIES:
+:CREATED:  [2020-06-24]
+:ID:       4f2a2afdf6c78ae4221ceaaf9ca621a3
+:END:
+** TODO [#C] sleep tracking                                        :sleep:qs:
+:PROPERTIES:
+:CREATED:  [2018-12-31]
+:ID:       1503f6103c88df1033b953cb21c6cea3
+:END:
+** STRT [#C] add bret victor?                                    :bretvictor:
+:PROPERTIES:
+:CREATED:  [2019-05-20]
+:ID:       4482cdde1289a82a8b968110bc263f2d
+:END:
+*** [2019-06-13] uh. need a proper interface for it
+:PROPERTIES:
+:ID:       3908513e0a71416cca9d9c858d6f5743
+:END:
+**** STRT [2019-06-13] what's the quickest possible way to create guis? still gonna be python config, right? perhaps self-checking!
+:PROPERTIES:
+:ID:       2d6cac06a719aa6c4b2dd786fff6c671
+:END:
+***** [2019-06-15] ok, just main function sounds ok..
+:PROPERTIES:
+:ID:       f35da1bda30341cbb8b800c10458ca10
+:END:
+** TODO [#C] ted chiang -- pretty nice to search on twitter       :tedchiang:
+:PROPERTIES:
+:CREATED:  [2018-12-31]
+:ID:       e0a91018684170e4bbcb6df4b3da1476
+:END:
+** TODO [#C] complex numbers group; argonov; transhumanism?         :argonov:
+:PROPERTIES:
+:CREATED:  [2018-11-10]
+:ID:       2fe9562ed5b1226b111576c557ce9a17
+:END:
+*** STRT [#B] [2019-06-15] youtube.com/watch?v=YrXk2buqsgg
+:PROPERTIES:
+:ID:       02114676fef1b72d6e4f9b09eea01e9f
+:END:
+can find some interesting stuff on twitter..
+*** DONE [2019-07-28] "виктор аргонов" got some good results on twitter
+:PROPERTIES:
+:ID:       9f9d2cec90adae4231b291cb7e269d21
+:END:
+** STRT [#C] kobo; spaced repetition?                             :spacedrep:
+:PROPERTIES:
+:CREATED:  [2018-11-16]
+:ID:       a3eb45b443c1c82972d6f7c3472a3a57
+:END:
+*** [2019-12-07] eh, kobo not so interesting..
+:PROPERTIES:
+:ID:       17a6f11c7050cb0f396c8324e2cc6d90
+:END:
+** STRT [#C] [2018-08-25] scott alexander unsong - Twitter Search
+:PROPERTIES:
+:ID:       8af804e1b5079b362d887d05bcd9676c
+:END:
+https://twitter.com/search?f=tweets&vertical=default&q=scott%20alexander%20unsong&src=typd&lang=en-gb
+
+*** TODO could add this to my twitter poller thing (again, via API)  or kibitzr?
+:PROPERTIES:
+:ID:       5b6ab1245eaf4b2988946e52505cac40
+:END:
+** STRT [#C] karlicoss!                                                :self:
+:PROPERTIES:
+:CREATED:  [2018-12-31]
+:ID:       78071623e836c15740e2944784b05c3d
+:END:
+*** [2019-06-15] doesn't look much on pinboard...
+:PROPERTIES:
+:ID:       aff3d2820b35e1213f75cc9fc98e4032
+:END:
+*** [2019-12-07] not much interesting
+:PROPERTIES:
+:ID:       b84662af40cd303660c34f865eacf6dc
+:END:
+** STRT [#C] cancel scott alexander search alert
+:PROPERTIES:
+:CREATED:  [2020-06-22]
+:ID:       e8e7a4aa55a3044bd32870282b5a97ab
+:END:
+** TODO [#D] set up alerts for nutrition stuff
+:PROPERTIES:
+:CREATED:  [2018-11-09]
+:ID:       9fda3d7835424ecd6cd5291be0443a99
+:END:
+** TODO [#B] add "lagrangian mechanics"???                       :lagrangian:
+:PROPERTIES:
+:CREATED:  [2020-03-09]
+:ID:       7700926fdebba39b99121ec01342b704
+:END:
+*** [2020-11-30] or 'Hamiltonian'? at least on HN
+:PROPERTIES:
+:ID:       ba792a3fc51ebad9fae90a57419da1ab
+:END:
+** [#C] [2020-03-09] #promnesia
+:PROPERTIES:
+:ID:       b967de1c00163b60f90d1f23ada65481
+:END:
+: GitHub - karlicoss/promnesia - Another piece of your extended mind
+
+search on pinboard? or even axol..
+** STRT [#A] kedr livansky                                             :kedr:
+:PROPERTIES:
+:CREATED:  [2020-04-27]
+:ID:       f98a0d6ef839a266ea36a2eaee7fc35d
+:END:
+** STRT [#B] exobrain?                                             :exobrain:
+:PROPERTIES:
+:CREATED:  [2020-04-28]
+:ID:       05a0eb794d0cc5ca8ec285d4dcee40ee
+:END:
+** TODO [#D] [2020-05-01] [[https://pinboard.in/t:eeg][Pinboard bookmarks tagged eeg]]
+:PROPERTIES:
+:ID:       7d013a6f5292951ccadc7f6a9f44c075
+:END:
+
+** TODO [#D] [2020-05-01] [[https://pinboard.in/t:km][Pinboard bookmarks tagged km]] :pkm:
+:PROPERTIES:
+:ID:       d7a7dd0d85931392cfb2fd8a7e2f4bcc
+:END:
+
+** STRT [#B] memex? esp github                                        :memex:
+:PROPERTIES:
+:CREATED:  [2020-05-19]
+:ID:       3e48c48b1b412fd26d80165ea1748a5d
+:END:
+** STRT [#B] george hotz?
+:PROPERTIES:
+:CREATED:  [2020-10-26]
+:ID:       7b977ffe6334d4f55fb064d2441eed40
+:END:
+** DONE [#C] add mypy to search??
+:PROPERTIES:
+:CREATED:  [2019-11-23]
+:ID:       c054da48e9cb945a10246471ab926c2b
+:END:
+** [#D] [2019-10-01] tried aaxol for
+:PROPERTIES:
+:ID:       e8d713a4f41d4de51ccc108544781b69
+:END:
+*** "pocket export"
+:PROPERTIES:
+:ID:       e966e8c8774495a8f336611f7d03e79e
+:END:
+*** "data liberation"
+:PROPERTIES:
+:ID:       b9f2e173212ae685d59b29ed86eff893
+:END:
+** TODO [#C] pkm for twitter can probably be removed...
+:PROPERTIES:
+:CREATED:  [2020-06-22]
+:ID:       4800d35f3ba57536afa1c3f03824d145
+:END:
+** STRT [#C] initial query...                                          :mypy:
+:PROPERTIES:
+:CREATED:  [2019-10-29]
+:ID:       f99a5f12785fba8d5ae3ecbe68da2774
+:END:
+mypy  -from:mypy2424  -from:mypy1031 -from:aymk_mypy -to:aymk_mypy -from:mypy0229
+
+ugh, not sure how convenient it'd be to filter this shit
+** TODO cleanup 'extended mind' -- certainly lots of crap in the database :twitter:
+:PROPERTIES:
+:CREATED:  [2020-11-30]
+:ID:       e608e53fc7c5738635694f7839474617
+:END:
+
+
+** TODO hmm, beepb00p.xyz isn't resolving anything?            :self:twitter:
+:PROPERTIES:
+:CREATED:  [2020-11-30]
+:ID:       c083de14ae508d428416c3434b575b37
+:END:
+** [#D] [2019-12-02] axol results for hackernews_pkm, rendered at 02 Dec 2019 11:05
+:PROPERTIES:
+:ID:       6a7839a939c08794e114719d72d79105
+:END:
+axol/summary/hackernews_pkm.html
+: Personal Knowledge database
+** [#D] [2019-12-02] axol results for hackernews_pkm, rendered at 02 Dec 2019 11:05
+:PROPERTIES:
+:ID:       d8e7406fec8df99d6b8264789631b12e
+:END:
+axol/summary/hackernews_pkm.html
+: Personal knowledge base
+** DONE [#B] subscribe to more news on QS, BCI and gadgets               :qs:
+:PROPERTIES:
+:CREATED:  [2018-04-29]
+:ID:       487957a4b8cc39852f8e1b0b6d69f5ef
+:END:
+- State "DONE"       from "STRT"      [2019-04-22]
+*** DONE regular?
+:PROPERTIES:
+:ID:       4960596ec0fa2311894bb97a6fb4b121
+:END:
+*** TODO brain-computer interface                                       :bci:
+:PROPERTIES:
+:ID:       3cf967e8f8901ed2cfb2a6344a718fd5
+:END:
+
+* [#C] Sources
+:PROPERTIES:
+:ID:       fb61758d0f0fda4ba867c3d5a46c16a7
+:END:
+** STRT [#C] wonder if I could search among hypothesis users...  :hypothesis:
+:PROPERTIES:
+:CREATED:  [2019-04-19]
+:ID:       5184dcf87c49eefb7ff49d6195bbd54b
+:END:
+*** [2019-06-15] eh, search is a bit weird...
+:PROPERTIES:
+:ID:       4a6540a10fcf667eb53444c02b8d7916
+:END:
+
+
+** TODO [#D] could add google search too I suppose.. but that's def lowest priority
+:PROPERTIES:
+:CREATED:  [2019-01-02]
+:ID:       26846cc76ebf3bb741eec28baf9387f7
+:END:
+
+** STRT [#C] implement for reddit. release reddit/github searchers (as library, then import and use)
+:PROPERTIES:
+:CREATED:  [2018-11-27]
+:ID:       2bdbf927cabf8db801100df89d24f33d
+:END:
+** STRT [#C] youtube? could search quantified self at least
+:PROPERTIES:
+:CREATED:  [2019-06-15]
+:ID:       0101c7672a1c0a69b5d6568f24497a0f
+:END:
+*** [2019-07-20] eh, tried few queries and does't look that result appear that often...
+:PROPERTIES:
+:ID:       f2ecdde363901ea36c39f06c42134fa1
+:END:
+** TODO [#C] World be great to search in comments               :axol:reddit:
+:PROPERTIES:
+:CREATED:  [2019-01-11]
+:ID:       7a78ed78126ffedc0de95705cfe9a228
+:END:
+
+** TODO [#C] hypothesis
+:PROPERTIES:
+:CREATED:  [2019-01-05]
+:ID:       dddf81e9a294c5423b93d8e790007eed
+:END:
+*** [2019-07-28] not that many results on pkm/quantified self..
+:PROPERTIES:
+:ID:       202a7030b217da7cca03eb578c555863
+:END:
+*** [2019-07-28] more on spaced repetition and ted chiang
+:PROPERTIES:
+:ID:       840c48a5e3477358c379e98f97b7d27e
+:END:
+** TODO [#C] [2019-07-28] Schedule - pushshift.io
+:PROPERTIES:
+:ID:       004497b713f7f653941970985cc5d635
+:END:
+https://pushshift.io/schedule/
+: Current Schedule
+:     April comments should be available around May 20 ,2018.
+** TODO [#C] [2019-07-28] New API endpoint -- Now you can search comments! : redditdev
+:PROPERTIES:
+:ID:       84d1cbca8f2a0d19dfd65a2ba2639803
+:END:
+https://www.reddit.com/r/redditdev/comments/3fv8vv/new_api_endpoint_now_you_can_search_comments/
+: New API endpoint -- Now you can search comments!
+** TODO [#D] for google search, only notify about new results; not about changes. wonder how?
+:PROPERTIES:
+:CREATED:  [2018-11-11]
+:ID:       27b76b6daad79297a3ba0a21edc7fa4b
+:END:
+** [#C] [2019-12-28] Search Reddit Comments by User
+:PROPERTIES:
+:ID:       959c5c6ecbae57becb6ac4f7fbd4bb07
+:END:
+https://redditcommentsearch.com/
+: Search through comments of a particular reddit user.
+** TODO [#C] [2020-01-11] pushshift/api: Pushshift API
+:PROPERTIES:
+:ID:       e621c8aff66d22828fdea634889f0e94
+:END:
+https://github.com/pushshift/api
+
+** TODO [#C] duckduckgo?
+:PROPERTIES:
+:CREATED:  [2019-11-07]
+:ID:       4b6f6a5d32f95d460531b77baf2b2c30
+:END:
+** [#C] [2019-12-01] Pushshift Reddit Search                  :reddit:scrape:
+:PROPERTIES:
+:ID:       ed5247d9cda61e2632ad7d8d2f27b3b0
+:END:
+https://redditsearch.io/?term=beepb00p.xyz&dataviz=false&aggs=false&subreddits=&searchtype=posts,comments&search=true&start=0&end=1575221715&size=100
+
+** [#C] [2019-12-15] hacker-news-favorites-api/main.js at master · reactual/hacker-news-favorites-api
+:PROPERTIES:
+:ID:       cdd35342efb1ceafc1440ef5fd8bda1c
+:END:
+https://github.com/reactual/hacker-news-favorites-api/blob/master/src/main.js
+: const x = require('x-ray')()
+
+hmm, it's got 'paginate'?
+** TODO [#B] [2020-05-18] [[https://hypothes.is/search?q=beepb00p.xyz][Hypothesis]]
+:PROPERTIES:
+:ID:       6f80f5e6691eb2b8f262cff16d9fa7b5
+:END:
+eh need to run orger I guess? or axol!
+
+** TODO [#C] could run HN more often                             :hackernews:
+:PROPERTIES:
+:CREATED:  [2020-06-03]
+:ID:       a77d8fef591d900d5f9b474ed9fa066d
+:END:
+also use more generic hooks?
+** [2020-05-03] [[https://grep.app/search?q=import%20my%5C..%2A%24&regexp=true&filter[lang][0]=Python][import my\..*$ - grep.app]]
+:PROPERTIES:
+:ID:       b866f1dd6030d092cd66f01bc21d89d6
+:END:
+* [#C] CI/testing
+:PROPERTIES:
+:ID:       b08015bd34892976c4e3137014fe389a
+:END:
+** TODO HN is very quick, so prob really good to test on (even on CI)
+:PROPERTIES:
+:CREATED:  [2020-11-30]
+:ID:       a59f001274c1ff415c991850fb477a5f
+:END:
+* TODO [#B] Sort tags by number of total occurences?
+:PROPERTIES:
+:CREATED:  [2019-07-16]
+:ID:       7651e9e51223a1f39aa11e9019bb4c2a
+:END:
+
+* TODO [#B] Use cachew and keep stuff as blobs with id               :cachew:
+:PROPERTIES:
+:CREATED:  [2020-01-31]
+:ID:       a7dc8b4fb714154f495c9e4f65941817
+:END:
+
+Not sure if I should overwrite or update? Could decide later and query with unique ids to start with?
+
+* TODO [#B] warn when there are too many atom items?
+:PROPERTIES:
+:CREATED:  [2020-06-21]
+:ID:       2bfd74b354d286e6de7d1688c8f33c3e
+:END:
+* TODO [#B] suppress some feeds in the config?
+:PROPERTIES:
+:CREATED:  [2020-07-09]
+:ID:       02edb84af25f76805edefe188a7683db
+:END:
+* TODO [#B] [2020-11-21] [[https://news.ycombinator.com/item?id=25161117][Show HN: I made an alternative to Google Alerts that listens to social media]]
+:PROPERTIES:
+:ID:       513ff2413d0cb7f091f5fb779ceb9f67
+:END:
+https://www.pmalerts.com/
+** [2020-12-05] eh, demands to register etc
+:PROPERTIES:
+:ID:       bbd18b6d20f5adf86f6b0793167a5a18
+:END:
+* STRT [#C] shit, seems that the timestamps are wrong and also I got the link wrong
+:PROPERTIES:
+:CREATED:  [2020-07-18]
+:ID:       7cca7ee4cef1a3331ce21845e6b2423e
+:END:
+might need to work on this: axol/databases/twitter_extended_mind.sqlite
+* TODO [#C] Maybe record a video on the phone ?                        :demo:
+:PROPERTIES:
+:CREATED:  [2020-04-19]
+:ID:       35c40d8b8c5cb33f4ea0902bb25601ac
+:END:
+* STRT [#C] maybe check crawled pinboard users for interesting tags/links?
+:PROPERTIES:
+:CREATED:  [2019-01-02]
+:ID:       47866e0644c5d41dba4163fb37e98d2c
+:END:
+** [2019-06-15] yeah, need to make this bit more effecient..
+:PROPERTIES:
+:ID:       8b325e5808ed476ec14a20dcafabd76a
+:END:
+* STRT [#C] maybe, summary and 'rendered' are really sort of the same page? just different sorting...
+:PROPERTIES:
+:CREATED:  [2019-07-16]
+:ID:       c818c1b1ea7836b64e62c7d3d912fadb
+:END:
+* STRT [#C] Def interesting to see user stats
+:PROPERTIES:
+:CREATED:  [2019-07-16]
+:ID:       3ce8e1bfac7e74842c2af0a478816b6b
+:END:
+
+* TODO [#C] Sort tags by number of total occurences?
+:PROPERTIES:
+:CREATED:  [2019-07-16]
+:ID:       7651e9e51223a1f39aa11e9019bb4c2a
+:END:
+
+* TODO [#C] Maybe better way of normalising? E.g. look at ted_chiang  and gq article. Display 'bumped' entries separately? Like a different way of sorting
+:PROPERTIES:
+:CREATED:  [2019-07-16]
+:ID:       83829210274924a2cfaf5ca47393d4a6
+:END:
+
+* TODO [#C] prepend # in tag?
+:PROPERTIES:
+:CREATED:  [2019-07-28]
+:ID:       690dea3da6395a97454323b32abe4843
+:END:
+* TODO [#C] could search for interesting tags occurence without them actually being scraped
+:PROPERTIES:
+:CREATED:  [2019-07-30]
+:ID:       121b893151d1dab97ee77f26daf075fc
+:END:
+* TODO [#C] might be good to do some sort of fuzzy grouping?
+:PROPERTIES:
+:CREATED:  [2019-08-17]
+:ID:       307c50c250902e09bba21f43aab3833e
+:END:
+
+wonder what's an effecient way of doing it? sort of similarity connected components?
+/TheGoogleDotCom/status/915750443275444226
+Can Google's AI-powered Clips make people care about lifelogging? - TechCrunch http://ift.tt/2wyk69G
+2017-10-05 01:28 by TheGoogleDotCom
+/gauravndhankar/status/915750414774972416
+Can Google’s AI-powered Clips make people care about lifelogging? http://dlvr.it/PsRpwK pic.twitter.com/IAPiiqacKo
+2017-10-05 01:28 by gauravndhankar
+/animesh1977/status/915749491344596992
+Can Google’s AI-powered Clips make people care about lifelogging? http://ift.tt/2xUwbaz
+* TODO [#C] would be interesting to have explorer for users that looks for some relevant taks/keywords? :pinboard:
+:PROPERTIES:
+:CREATED:  [2019-11-21]
+:ID:       87aabd87e9f447b22475434df4fcf99c
+:END:
+* TODO [#C] Hmm also need real-time search and notify I guess?   :hackernews:
+:PROPERTIES:
+:CREATED:  [2019-12-02]
+:ID:       448e8fc04f812d1cef0aedab6881929c
+:END:
+
+* TODO [#C] Eh, better idea would be a tag subscription...             :mypy:
+:PROPERTIES:
+:CREATED:  [2020-01-31]
+:ID:       728af70507774947ebf6df7dcc348bd7
+:END:
+
+* STRT [#C] would be nice to have some efficient frontend + backend thing :timeline:
+:PROPERTIES:
+:CREATED:  [2019-12-02]
+:ID:       8782db81db27bbb93554b61d52ad92ef
+:END:
+** [2019-12-02] hmmm. actually could do it in a twitter account??
+:PROPERTIES:
+:ID:       326050fb31f204fc3271df6c6a100a9a
+:END:
+** TODO [2019-12-04] could ask on HN?                                :outbox:
+:PROPERTIES:
+:ID:       9a53c807a22ba6ba43fc9b1ece3b8001
+:END:
+** [2019-12-04] or RSS?  https://github.com/awesome-selfhosted/awesome-selfhosted#feed-readers
+:PROPERTIES:
+:ID:       762bae5c40e643e140f8af90b6a352dc
+:END:
+* TODO [#C] [2019-12-24] Edit Feed: beepb00p.xyz - Miniflux
+:PROPERTIES:
+:ID:       68df822fba86169bf36b06d797019054
+:END:
+https://axol.karlicoss.xyz/feed/56/edit
+: Scraper Rules
+: Rewrite Rules
+: Title Filter
+: Content Filter
+
+* TODO [#C] [2019-12-24] Command Line Usage - Documentation
+:PROPERTIES:
+:ID:       78e5cd726c2285757934237fe1fe2aea
+:END:
+https://miniflux.app/docs/cli.html
+: miniflux -config-file /etc/miniflux.conf
+* TODO [#C] could make a filter to release items slowly? e.g. tweets with more than 10 likes, if update pops it up, then it ends up in the feed. although I need 'processed' entries
+:PROPERTIES:
+:CREATED:  [2020-03-10]
+:ID:       7aa6545e4c00490a485141dfd7e3c022
+:END:
+* [#C] [2020-05-27] [[https://news.ycombinator.com/item?id=23321646][Axol: Personal automatic news feed – crawl Reddit/Twitter/HN and read as RSS | Hacker News]]
+:PROPERTIES:
+:ID:       8a07f3edbc3465f52e6fab9a12974f5e
+:END:
+
+* TODO [#C] perhaps redefine everything in entities? and have relations -- people, subreddits, urls, tags, etc
+:PROPERTIES:
+:CREATED:  [2019-04-15]
+:ID:       51baaf7b3d7b66e4ab24e081b36255c7
+:END:
+* TODO [#C] rename adhoc to 'search'?
+:PROPERTIES:
+:CREATED:  [2020-07-18]
+:ID:       89c9739adc8d8eda6c29cd40423e2b10
+:END:
+* TODO [#C] think about a special tag to mark stuff that should be autoimported in a similar manner my kibitzr thing worked
+:PROPERTIES:
+:ID:       86cea0024e7934f1ac96a8aed20147ac
+:END:
+* TODO [#C] some todos
+:PROPERTIES:
+:CREATED:  [2020-11-29]
+:ID:       8ca4bc50c622f0f8c64b941aac32d7d5
+:END:
+- [ ] move individual data sources to files within the repo.. not even submodules, too much hassle
+  if someone needs, they can just import axol.sources.src directly
+- [ ] cleanup the json shit.. ideally use some proper library
+- [ ] not sure what to do with RSS feeds.. but could start with HTML report generation
+- [ ] query language:
+  might be better to adopt
+  service:sub:query
+  e.g.
+  pinboard:tag:whatever
+  or
+  github:some query
+  not sure what to do with colons though.. but maybe think about this later. most won't support searching them anyway
+* TODO [#C] def should keep original results in the DB as far as possible
+:PROPERTIES:
+:CREATED:  [2020-11-30]
+:ID:       3b591da0b795f3bcc6a74de64912d7cc
+:END:
+* TODO [#C] to start with, only support exact queries? e.g. demand them in queries and mention that support for fuzzier might be added later
+:PROPERTIES:
+:CREATED:  [2020-11-30]
+:ID:       f19dd350c0779355aae48c22550ad8f2
+:END:
+* TODO [#C] think about multiple small databases vs one huge?
+:PROPERTIES:
+:CREATED:  [2020-11-30]
+:ID:       f564789715b76ca525b5524d9adb1d9f
+:END:
+
+multiple small:
+- easier to mess with/explore
+- easier concurrency
+- easier to remove from reports (although for that need to make sure it's really 1-1 correspondence with source and query? dunno)
+single db:
+- easier to bulk clean/somewhat easier to bulk normalise
+  although this would be kind of useless if I store raw json outputs
+- easier to do queries across multiple (e.g. associating users?)
+* TODO [#C] thinking about query language
+:PROPERTIES:
+:CREATED:  [2020-11-30]
+:ID:       5868d5e15c46e272c0007ca451b5bcde
+:END:
+how it could look in adhoc mode
+github:'scott alexander' twitter:'scott alexander'
+
+in config, allow something nicer like
+[twitter,github,reddit]:'scott alexander'
+
+or [twitter,github,reddit, pinboard]:['scott alexander', 'quantified self']
+pinboard:tag:scottalexander
+
+
+- [ ] NOTE: echo twitter:'scott alexander' -- this is gonna get swallowed by bash... suggest to always quote?
+- [ ] NOTE: treat " and ' the same? twitter does it...
+- [ ] TODO: make sure that query parsing is defensive
+* TODO [#C] for people to try it out it really needs a simplest service possible they can run with docker? ideally without auth etc
+:PROPERTIES:
+:CREATED:  [2020-12-05]
+:ID:       fe88b8e72005eb2ff47e69e9ba38cd1f
+:END:
+* STRT [#D] Track most active pinboard users? They might have interesting other stuff
+:PROPERTIES:
+:CREATED:  [2018-11-14]
+:ID:       e9ba999f8488fa558e05aec3509b709e
+:END:
+** [2019-07-20] maybe, try to intersect known user's tags and see what they got in common?
+:PROPERTIES:
+:ID:       250158767e6d00ed0fba180c07ff1cda
+:END:
+
+* TODO [#D] running under docker results in /app/axol/js/sorttable
+:PROPERTIES:
+:CREATED:  [2020-06-17]
+:ID:       e8c51da7b242daaa7455e48af28f4286
+:END:
+* TODO [#D] use different font?
+:PROPERTIES:
+:CREATED:  [2019-12-02]
+:ID:       a50de81813df218a3f6c4d3e408abf95
+:END:
+* TODO [#D] might need two pass algorithm? One for crawling, second for filtering?
+:PROPERTIES:
+:CREATED:  [2019-12-02]
+:ID:       1e1bd54e64d5292c9e1b1ca517981940
+:END:
+
+e.g. I crawled quite a bit of pokemon crap, would be good to filter it?

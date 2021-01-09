@@ -1,6 +1,6 @@
 #+TITLE: Managing dotfiles
 #+logseq_title: dotfiles
-#+filetags: dotfiles
+#+filetags: :dotfiles:infra:
 
 * awesome-dotfiles https://github.com/webpro/awesome-dotfiles
 :PROPERTIES:
