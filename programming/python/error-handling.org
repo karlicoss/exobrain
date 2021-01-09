@@ -1,5 +1,4 @@
 #+TITLE: Error handling
-#+logseq_title: errors
 #+filetags: errors
 
 * examples of temporary timeouts                                    :network:
@@ -7,11 +6,16 @@
 :CREATED:  [2018-05-18]
 :ID:       a2a0263883b268677a349a5550b95d16
 :END:
+
 : requests.exceptions.ReadTimeout:
 : requests.exceptions.ConnectionError:
+: socket.timeout: _ssl.c:817: The handshake operation timed out
+:   File "/usr/lib/python3.6/socket.py", line 586, in readinto
+:     return self._sock.recv_into(b)
 : ConnectionResetError: [Errno 104] Connection reset by peer
 
-** START backoff library, using it somewhere already
+
+** STRT backoff library, using it somewhere already
 :PROPERTIES:
 :ID:       0267797cd61f368d90ea2005783993c9
 :END:

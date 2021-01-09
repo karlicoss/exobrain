@@ -6,13 +6,13 @@
 :PROPERTIES:
 :ID:       0bb83f8780b6ec90e6d4fe37283c02c5
 :END:
-check occasionally?
+TODO check occasionally?
 
 * What I tried
 :PROPERTIES:
 :ID:       52446f0e960bb31a43e48e1c44cf742d
 :END:
-** CANCEL gnu stow?
+** CNCL gnu stow?
 :PROPERTIES:
 :ID:       f96782c9a85933af651bca272f14372f
 :END:
@@ -21,13 +21,13 @@ would be nice to specify, which directories should be created and which should j
 
 - very clumsy to use, hard to replace existing entries, no apparent way of deleting them (unlike git)
 
-** CANCEL fresh to build gh config? https://github.com/freshshell/fresh
+** CNCL fresh to build gh config? https://github.com/freshshell/fresh
 :PROPERTIES:
 :ID:       34d3a9a4dc2f68abe9a314df30186b77
 :END:
-you can write a configuration, and it will symlinka all automatically 
+you can write a configuration, and it will symlinka all automatically
 apparently can source from gh repos, so you could just 'follow' someones' dotfiles (not very portable though)
-** CANCEL homesick? https://github.com/technicalpickles/homesick
+** CNCL homesick? https://github.com/technicalpickles/homesick
 :PROPERTIES:
 :ID:       8f056971d7322a2aec704a146b5ca9ce
 :END:
@@ -49,7 +49,7 @@ ugh.. homesick seems to rewrite relative symlinks to absolute... wtf???
 apparently just backs up and symlinks configs for some applications
 hmm, so it supports doublecmd. wonder how they handle their configs..
 nope, just copies. nothing interesting
-** CANCEL vcsh http://blog.tfnico.com/2014/03/managing-dot-files-with-vcsh-and-myrepos.html
+** CNCL vcsh http://blog.tfnico.com/2014/03/managing-dot-files-with-vcsh-and-myrepos.html
 :PROPERTIES:
 :ID:       ea1ecfc9b2dbf5fa6e019856572a6bc1
 :END:
@@ -68,7 +68,7 @@ yaml configs.. ugh
 :END:
 allows templating thanks to jinja2
 erm.. it copies, not symlinks apparently
-** CANCEL dotgit https://github.com/kobus-v-schoor/dotgit
+** CNCL dotgit https://github.com/kobus-v-schoor/dotgit
 :PROPERTIES:
 :ID:       e30e864a1ed623bd8bf0d7e23a6031f8
 :END:
@@ -83,13 +83,13 @@ was updated 2 years ago
 
 
 
-* DONE using git repository with symlinks + external ~ working directory
+* DONE using git repository with symlinks + external ~ working directory :git:
 :PROPERTIES:
 :CREATED:  [2018-04-02]
 :ID:       aa2626b97de46cd355503238fa5ef94d
 :END:
 
-/L/repos/configuration 
+/repos/configuration
 cgit command
 
 - cons: not dropbox friendly because of symlinks
@@ -116,7 +116,7 @@ cgit command
 :PROPERTIES:
 :ID:       dce19f3c92ea50bc67743f34434b1c7f
 :END:
-- alias cgit='git --git-dir=/L/repos/configuration/.git --work-tree=/home/karlicos'
+- alias cgit='git --git-dir=/repos/configuration/.git --work-tree=/home/karlicos'
 - cgit ireset -- to restore working dir state
 - run check.sh from ~ and restore all the missing symlinks
   resolve filtype configs (file vs symlinks)
@@ -131,17 +131,17 @@ cgit add / cgit commit / cgit push
 :ID:       7a49f0d7bdc008f0ca3af223d6c96f6d
 :END:
 
-* TODO something about files which can't be kept in git
+* TODO something about files which can't be kept in git                 :git:
 :PROPERTIES:
 :ID:       644e94e3ac635d09672a2283c88dfd3a
 :END:
-** for configs which are patched via script, symlink what patches it :config:setup:log:
+** for configs which are patched via script, symlink what patches it :setup:log:
 :PROPERTIES:
 :CREATED:  [2018-05-12]
 :ID:       dcd2748291f500be4ef4d0e08b828258
 :END:
 
-ln -s "$(realpath $BASH_SOURCE)" "$CDIR"
+~ln -s "$(realpath $BASH_SOURCE)" "$CDIR"~
 
 
 
@@ -156,8 +156,7 @@ ln -s "$(realpath $BASH_SOURCE)" "$CDIR"
 https://jqplay.org/ is also quite convenient
 
 
-
-* DONE [2018-06-20] configs which are not symlinking -- have a script which checks them against reference every few hours and complains if config doesn't match the reference? :setup:configuration:
+* DONE [2018-06-20] configs which are not symlinking -- have a script which checks them against reference every few hours and complains if config doesn't match the reference?
 :PROPERTIES:
 :ID:       dd4a73edfbf9aa08bbf8ee958300dd3a
 :END:

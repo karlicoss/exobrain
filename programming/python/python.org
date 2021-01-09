@@ -28,14 +28,14 @@ ok, this is really nice and easy to use
 :PROPERTIES:
 :ID:       063f6d5f174a411d8cf88bb2145d03bd
 :END:
-** [#A] [2019-07-20] profiling with cprof                            :python:
+** [#A] [2019-07-20] profiling with cprof
 :PROPERTIES:
 :ID:       2d10b300069dae1fd2fde2676026afba
 :END:
 : python3 -m cProfile -o stats.prof script.py
 : snakeviz stats.prof
 
-** [#C] [2020-01-13] rkern/line_profiler: Line-by-line profiling for Python :performance:
+** [#C] [2020-01-13] rkern/line_profiler: Line-by-line profiling for Python
 :PROPERTIES:
 :ID:       6efe871f311dde35d0f2b7d6eed4615f
 :END:
@@ -50,3 +50,28 @@ https://github.com/rkern/line_profiler
 :ID:       b72c4eb4122b73534c18ac5a5d633948
 :END:
 https://github.com/maet3608/minimal-setup-py/blob/master/setup.py
+
+
+** install only dependencies: ~pip3 install --user -e .~                :pip:
+:PROPERTIES:
+:ID:       5c3f0dfb07fdec6cf21287d39d1db029
+:END:
+** install multiple packages at once                                    :pip:
+:PROPERTIES:
+:ID:       5f243f2a4044a6d7b403c5b2f95efd76
+:END:
+ok, apparently pip does use some sort of 'set compiling', so worth doing that
+  https://github.com/pypa/pip/issues/988
+
+* Bad things about python
+:PROPERTIES:
+:CREATED:  [2018-03-01]
+:ID:       b83879cef0809d216d6a10864d487a7e
+:END:
+- lambdas suck
+  - statements, not expressions, you are essentially restrictet to a single line
+  - no local variables in lambdas (although with walrus operation it's a bit better now)
+  - http://math.andrej.com/2009/04/09/pythons-lambda-is-broken
+- scoping (i.e. only local and global scopes)
+- GIL makes the concurrency very annoying at times
+- no static typing (although it's kinda okay now with annotations and #mypy)

@@ -35,3 +35,48 @@ hmm
 :END:
 : That’s a part of python’s data model like `len`, `reversed`, `iter`, …:
 : `datetime` simply defines [`datetime.__format__`](https://docs.python.org/3/library/datetime.html#datetime.date.__format__). The method [is explained here](https://docs.python.org/3/reference/datamodel.html#object.__format__).
+
+
+* [2018-04-17]
+:PROPERTIES:
+:ID:       998c2bb369246e43f83085bf9980787f
+:END:
+: ## Print with @padding
+: `print("{:>d}{}".fomat(i, a[i]))` prints i aligned to at least two spaces as a decimal.
+: 
+: ## Infinite dict
+: ~~~ { .python }
+: infinite_defaultdict = lambda: defaultdict(infinite_defaultdict)
+: d = infinite_defaultdict()
+: d['x']['y']['z'] = 10
+: ~~~
+: 
+: ## Web server
+: to start a webserver to serve files from your current dir: python -m SimpleHTTPServer
+: 
+: @enums
+: 
+: ## Enums
+: from enum import Enum
+: class Fruit(Enum):
+:     APPLE = 0
+:     ORANGE = 1
+: 
+: ## Generating @random color
+: color = "#%06x" % random.randint(0, 0xFFFFFF)
+: 
+: 
+: sudo python setup.py install --force
+: 
+: #singleton
+: @singleton
+: def singleton(cls):
+:     instances = {}
+: 
+:     def get_instance():
+:         if cls not in instances:
+:             instances[cls] = cls()
+:     return instances[cls]
+: 
+: return get_instance
+: TODO tbh, easier with lru_cache(1)?
