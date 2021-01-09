@@ -1,13 +1,6 @@
 #+TITLE: Human body
 #+filetags: :biology:humanbody:
 
-* higher amounts of prolactin makes women cry more often than men
-:PROPERTIES:
-:ID:       f48098bae8a88faf7260393d37dfa31c
-:END:
-implications: women might not be as sad as you think; men might be sad without you realizing
-
-
 * [#B] [2018-07-08] In novice strength trainers, the muscle's ability to generate force is most strongly limited by nerve’s ability to sustain a high-frequency signal
 :PROPERTIES:
 :ID:       ab177b7f48f7e340db58d4a89d20756a
@@ -30,40 +23,48 @@ ANS
 :PROPERTIES:
 :ID:       cc581fbc001478efd5432e49fc2faa4a
 :END:
-Some neurotransmitters almost always do one thing: GABA is almost always an inhibitor of some kind, kind of like how a green wire is almost always a ground. Glutamate is always an excitatory neurotransmitter, kind of like black wires are almost always the "hot" wire in home electrical wiring.
-dopamine is more like a purple wire. used for various purposes. Saying dopamine is a reward neurotransmitter is like saying purple wires are for right-rear car speakers.
+: Some neurotransmitters almost always do one thing: GABA is almost always an inhibitor of some kind, kind of like how a green wire is almost always a ground. Glutamate is always an excitatory neurotransmitter, kind of like black wires are almost always the "hot" wire in home electrical wiring.
+: dopamine is more like a purple wire. used for various purposes. Saying dopamine is a reward neurotransmitter is like saying purple wires are for right-rear car speakers.
+: 
+: neither serotonin or dopamine are generally considered hormones
+: "Hormone" typically refers to a substance like cortisol or testosterone; substances that are released from one (or more) body areas and then just flow around in the bloodstream, acting at a bunch of different places in the body.
+: D and S, unlike hormones, aren't released into the whole body, but rather released by one cell (usually nerve) in very small amount and then immediately act on another nearby cell before being broken down or sucked back up by the neuron that released them.
+: 
+: - Dopamine:
+: 
+: serves many, many different functions in different parts of the brain. some of brain circuits use dopamine as a way of communicating between neurons and some of them don't. For example, there's one pathway in the brain that uses dopamine release to control lactation. But nobody calls dopamine "the lactation chemical." Part of the reason for that is that those circuits use MANY, MANY other neurotransmitter chemicals besides dopamine.
+: 
+: There IS a pathway in the brain that is involved in controlling attention and reward (or something LIKE reward; this is a controversial subject in neuroscience) that involves dopamine. But that pathway also involves glutamate, GABA, acetylcholine, and many other neurotransmitters and signalling molecules.
+: 
+: TL;DR: Dopamine is ONE of the neurotransmitters involved in what MIGHT be a reward pathway, but there are MANY other neurotransmitters involved in that pathway and MANY other unrelated pathways that dopamine is involved in. You should not call dopamine a "reward neurotransmitter" any more than you should say that all keys are used to start cars. It's wrong.
+: 
+: - Serotonin:
+: 
+: Serotonin-related drugs DO produce improvements in depressed patients SOMETIMES (and there is considerable evidence that this may be mostly a placebo effect), but this doesn't prove that depression is caused by a serotonin imbalance any more than the fact that aspirin helps headaches proves that headaches are caused by a lack of aspirin.
+: involved in a LOT of different functions: Serotonin is involved in regulating blood pressure, memory, vomiting, movement of food through the gut, bone density, pain, and yes, sometimes mood.
+: And again, there are MANY more neurotransmitters involved in regulating mood than serotonin. I would say it's even MORE wrong to call serotonin a "mood neurotransmitter" than it is to call dopamine a "reward neurotransmitter."
+: Neurotransmitters are NEVER connected to just one function, and most functions are NEVER controlled by just one neurotransmitter. The fact that people talk about dopamine in connection with reward and serotonin in connection with mood is PURELY due to dime-store psychology and misleading antidepressant commercials.
 
-neither serotonin or dopamine are generally considered hormones
-"Hormone" typically refers to a substance like cortisol or testosterone; substances that are released from one (or more) body areas and then just flow around in the bloodstream, acting at a bunch of different places in the body.
-D and S, unlike hormones, aren't released into the whole body, but rather released by one cell (usually nerve) in very small amount and then immediately act on another nearby cell before being broken down or sucked back up by the neuron that released them.
-
-- Dopamine:
-
-serves many, many different functions in different parts of the brain. some of brain circuits use dopamine as a way of communicating between neurons and some of them don't. For example, there's one pathway in the brain that uses dopamine release to control lactation. But nobody calls dopamine "the lactation chemical." Part of the reason for that is that those circuits use MANY, MANY other neurotransmitter chemicals besides dopamine.
-
-There IS a pathway in the brain that is involved in controlling attention and reward (or something LIKE reward; this is a controversial subject in neuroscience) that involves dopamine. But that pathway also involves glutamate, GABA, acetylcholine, and many other neurotransmitters and signalling molecules.
-
-TL;DR: Dopamine is ONE of the neurotransmitters involved in what MIGHT be a reward pathway, but there are MANY other neurotransmitters involved in that pathway and MANY other unrelated pathways that dopamine is involved in. You should not call dopamine a "reward neurotransmitter" any more than you should say that all keys are used to start cars. It's wrong.
-
-- Serotonin:
-
-Serotonin-related drugs DO produce improvements in depressed patients SOMETIMES (and there is considerable evidence that this may be mostly a placebo effect), but this doesn't prove that depression is caused by a serotonin imbalance any more than the fact that aspirin helps headaches proves that headaches are caused by a lack of aspirin.
-involved in a LOT of different functions: Serotonin is involved in regulating blood pressure, memory, vomiting, movement of food through the gut, bone density, pain, and yes, sometimes mood.
-And again, there are MANY more neurotransmitters involved in regulating mood than serotonin. I would say it's even MORE wrong to call serotonin a "mood neurotransmitter" than it is to call dopamine a "reward neurotransmitter."
-Neurotransmitters are NEVER connected to just one function, and most functions are NEVER controlled by just one neurotransmitter. The fact that people talk about dopamine in connection with reward and serotonin in connection with mood is PURELY due to dime-store psychology and misleading antidepressant commercials.
 https://www.reddit.com/r/explainlikeimfive/comments/251kby/eli5_the_difference_between_serotonin_and_dopamine/chcriwa/
 
 * [2017-07-27] blood types
 :PROPERTIES:
 :ID:       6fc37e879de05afbf3175741d50f0064
 :END:
-Apes and old-world monkeys have ABO blood types like us.
-Other animals have blood types, but not the same ones as us. There are thirteen different dog blood types, but cats are categorised as A, B, or AB. Not the same as human A and B.
+: Apes and old-world monkeys have ABO blood types like us.
+: Other animals have blood types, but not the same ones as us. There are thirteen different dog blood types, but cats are categorised as A, B, or AB. Not the same as human A and B.
 
 * [2018-08-17] http://biology.stackexchange.com/questions/324/why-did-the-process-of-sleep-evolve-in-many-animals-what-is-its-evolutionary-ad
 :PROPERTIES:
 :ID:       9de9407e57ad5bd70f601a304ce4de8a
 :END:
-sleep is a state required for nervous system plasticity. In other words, in order for the nervous system to grow and change, there must be down time of active behavior.
+:  sleep is a state required for nervous system plasticity. In other words, in order for the nervous system to grow and change, there must be down time of active behavior.
+
 
 resynthesis of brain glycogen
+
+* higher amounts of prolactin makes women cry more often than men
+:PROPERTIES:
+:ID:       f48098bae8a88faf7260393d37dfa31c
+:END:
+implications: women might not be as sad as you think; men might be sad without you realizing

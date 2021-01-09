@@ -52,7 +52,7 @@ huh. interesting, it seemed to have published instantly...
 :END:
 
 
-* START [#B] [2019-08-28] Working with quota on mobile browsers: A research report on browser storage - HTML5 Rocks :html5:webext:
+* START [#B] [2019-08-28] Working with quota on mobile browsers: A research report on browser storage - HTML5 Rocks :html:webext:
 :PROPERTIES:
 :ID:       f6eeb853b713d928a2478cba97fad932
 :END:

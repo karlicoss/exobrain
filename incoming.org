@@ -1,0 +1,1620 @@
+#+OPTIONS: toc:nil
+#+TITLE: Unsorted stuff
+#+logseq_graph: false
+#+filetags: refile
+
+Random links which I haven't interned anywhere better yet
+
+#+toc: headlines 2
+
+* [#A] [2020-07-10] [[https://news.ycombinator.com/item?id=23792767][Disabling Google 2FA doesn't need 2FA if you're already logged in]] :security:
+:PROPERTIES:
+:ID:       34cdb0124b844125d122e1a34b63bce0
+:END:
+https://www.infoq.com/news/2020/07/google-password-2fa-woes/
+* [#B] [2019-12-02] Paul Dirac                                          :bio:
+:PROPERTIES:
+:ID:       0d07ac4290aef0afbb78c5d990c292de
+:END:
+http://www.dirac.ch/PaulDirac.html
+: Dirac's writing was famous for its clarity and simplicity. When Niels Bohr was writing a scientific paper - with many hesitations and redraftings, as was his custom, Bohr stopped: "I do not know how to finish this sentence."
+: Dirac replied: "I was taught at school that you should never start a sentence without knowing the end
+* [#B] [2020-06-06] [[https://hyfen.net/memex/updates/bad-remembrance-machines][hyfen.net/memex/updates/bad-remembrance-machines]] :lifelogging:
+:PROPERTIES:
+:ID:       0105c98405c0c432945ed420f96e92f1
+:END:
+
+* [#B] [2020-05-11] [[https://twitter.com/amyhoy/status/1209693440872603651][Amy "Social Distancing" Hoy on Twitter: "OKAY *cracks knuckles* i’ve got a glass of austrian rosè that’s making me sweat like i’m literally dying &amp; my husband went to sleep at 9:30 with a migraine so LET’S DO THIS 1 like, 1 design opinion" / Twitter]] :design:
+:PROPERTIES:
+:ID:       dffad0dc7b401dfa904b9dea16a86d68
+:END:
+
+* [#B] [2020-05-18] [[https://chrisyeh96.github.io/2017/08/08/definitive-guide-python-imports.html][The Definitive Guide to Python import Statements | Chris Yeh]] :python:
+:PROPERTIES:
+:ID:       572b5bd9a49bcb0e26e008878878196b
+:END:
+
+* [#B] [2020-06-10] [[https://news.ycombinator.com/item?id=23468193][Ask HN: Which tools have made you a much better programmer? | Hacker News]] :coding:
+:PROPERTIES:
+:ID:       ba38d8ba7813620c83d6d6f88ce604c7
+:END:
+* [#B] [2019-04-17] [[https://reddit.com/r/Maps/comments/be3p32/alternative_to_google_maps/el32dfa/][Alternative to Google Maps?]] /r/Maps :map:osm:
+:PROPERTIES:
+:ID:       7b6f69971745909df09638a3c9da2ba7
+:END:
+:  We on /r/openstreetmap made a list of websites that use OSM data. Maybe some of them are useful for you:
+:  **Maps**
+:  * [OpenTopoMap](https://opentopomap.org) - same as above, Topographic map, has contour lines
+:  * [Waymarked Trails - Hiking](https://hiking.waymarkedtrails.org/) - Hiking trails, "clickable", .gpx Download, background can be changed to OpenTopoMap
+:  * [Waymarked Trails - Cycling](https://cycling.waymarkedtrails.org/) - same as above for cycle ways
+:  * [OpenSeaMap](http://map.openseamap.org/) -  free nautical database
+:  * [OpenRailwayMap](http://www.openrailwaymap.org/) - the worlds railway infrastructure on one map
+:  * [OpenCycleMap](http://opencyclemap.org) - map made for cyclists, highlights cycle routes and pubs :D
+:  * [Flosm](http://www.flosm.de/en/poimap.html) - search through informations (opening hours, telephone number...) of a lot of POIs on OpenStreetMap, see list on the left
+:  * [F4 map](http://demo.f4map.com/) and [OSMbuildings](https://osmbuildings.org/) - both show map in 3D
+:  * [LiveMap24](http://livemap24.com) - see public transport in realtime, clickable, uses open data from public transport services
+:  * [WheelMap](http://wheelmap.org) - shows the wheelchair accessibility
+:  * [Historic Maps](http://gk.historic.place/historische_objekte/translate/en/index-en.html) - a map that combines OpenStreetMap with Wikipedia, shows historic objects and old maps as overlay
+:  * [uMap](http://umap.Openstreetmap.fr) - save markers, lines and shapes on different map styles, example: [Map from /r/Castles](http://u.osmfr.org/m/56578/)
+:  * [ÖPNV-Karte](https://www.öpnvkarte.de) - a visualisation of the mapped public transport in OSM
+: 
+:  **Apps (all work offline)**
+:  * [OsmAnd](http://osmand.net/) - very advanced but strange GUI, shows public transport and hiking symbols, opening hours, etc, has routing, downloads offline wikipedia articles to objects, Android and iOS (less functions)
+:  * [Maps.me](http://maps.me/en/home) - fast, easy tool, no hiking tools, elementary routing, free, Android and iOS
+:  * [Locus Map](http://www.locusmap.eu/) - different map sources (also non-OSM like SwissOrdonance), has routing, Android only
+:  * [OruxMaps](http://www.oruxmaps.com/cs/en) - Map and sports tracker, can also connect with different bluetooth devices, Android
+:  * List of apps for [Android](http://wiki.openstreetmap.org/wiki/Android) and [iOS](http://wiki.openstreetmap.org/wiki/Apple_iOS)
+: 
+:  **Routing Services**
+: 
+:  * [OpenRouteService](https://openrouteservice.org/directions?a=null,null,null,null&b=0&c=0&k1=en-US&k2=km) - car, cycle and pedestrian routing with a lot of options, shows surface and type of used roads
+:  * [Brouter Web](http://brouter.de/brouter-web/) - fast router,shows height profile,  where routing table can be changed by yourself
+:  * [GPSies](http://www.gpsies.com/createTrack.do) - create tours for different transport modes, press "follow roads" to get routing feature, elevation profile, lot of map layers
+:  * [Kurviger](https://kurviger.de/) - a route planner that prefers curvy roads and slopes, but avoid cities and highways, automatic round trips based on a given length
+:  * [Cycle.travel](http://cycle.travel/map) - a map made for cyclists, which has a routing and roundtrip feature, created by /u/doctor_fegg
+: 
+: 
+:  **Printing OpenStreetMap Maps**
+: 
+:  * [MapOSMatic](https://maposmatic.osm-baustelle.de/) - printable atlases and single paper up to A0, lot of different map styles and overlays (like Waymarked Trails), free
+:  * [Field papers](http://fieldpapers.org) - create an atlas yourself with different map styles,
+:  * [Inkatlas](https://inkatlas.com/) - different styles, up to 6 pages A4 for free
+: 
+:  **Advanced/Other OSM based services**
+: 
+:  * [Overpass Turbo](http://overpass-turbo.eu/s/pWM) - web based data mining tool for OpenStreetMap, linked is an example for cycle shops in Berlin
+:  * [MapCompare](http://tools.geofabrik.de/mc/) - compare different map sources (Google, OSM, Here, Satellite data) with each other
+:  * [OpenInfraMap](https://openinframap.org/)  - view of the world's hidden infrastructure (power lines, petroleum and water)
+:  * [Mapillary](https://mapillary.com) - an open-source Streetview-Version you can contribute to
+:  * [Peakfinder](https://www.peakfinder.org/en/) - shows all all surrounding peaks from the given point also available as app
+:  * [OpenFireMap](http://openfiremap.org/) - map with all the fire houses and hydrants in OSM
+:  * [Node Density](https://tyrasd.github.io/osm-node-density) - How dense is the OpenStreetMap database?
+:  * [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) - Wiki of the OSM project
+* [#B] [2015-03-16] [[https://reddit.com/r/askscience/comments/2z8r01/how_fast_does_electricity_move_in_a_wire/cph2d70/][How fast does electricity move in a wire?]] /r/askscience
+:PROPERTIES:
+:ID:       9ac9e1f66fb2df643d57fd23385f571f
+:END:
+:  ~~Electronics~~ Electrons (thanks /u/StopDataAbuse) push each other away because of their negativity. This is what transfers the signal, and goes at about 50% to 99% of the speed of light depending on the material. Note that this is not related to the actual speed of the electrons themselves.
+:  Now the speed of the electrons themselves is more interesting (I think). I once calculated this and I'll do it again for fun. Let's take a simple DC circuit:
+:  3 volt power source, 3 ohm resistor giving 1A of current. Lets take 18 awg copper wires with a cross section surface of 0.823mm^2 according to [this](http://www.technick.net/public/code/cp_dpage.php?aiocp_dp=guide_awg_to_metric). The length of the wires we'll define as L meter, as you'll see it doesn't matter which L we pick as long as we ignore the resistance it brings.
+:  The volume of the wire is 0.823mm^2 * L meter = 0.823 10^-6 * L m^3. The density of the wire is (from Wikipedia) 8.96 g * cm^-3  = 8960 kg * m^-3. Multiply those numbers and we'll get the weight of the wire, which is 7.374 * L * 10^-3 kg. I searched for the number of free electrons every copper atom has, and a google search returns 1. So now we need the number of atoms in those wires. 7.347 * L g / (63.546 g / mol) * 6.022 * 10^23 / mol = 6.988 * 10^22 L. That's the number of free electrons in the wires. 1A is 1C / s = 6.241 * 10^18 electrons per second. That's the number of electrons that flow into the wire and out the other end every second. Divide 6.988 * 10^22 L with 6.241 * 10^18 / s and you'll get 11197 * L s. That's the number of seconds any electron stays in the wires before leaving the other end. Divide the length by this time and you'll get the speed: speed = L meters (as the length of the wires were L) / (11197Ls) = 8.93 × 10^-5 m / s. That's not very fast. It would take over 3 hours to travel through a 1 meter wire. Hope I got all the numbers right :S
+* [#B] [2019-01-20] The Standard Model – The Physics Hypertextbook       :sm:
+:PROPERTIES:
+:ID:       9f545a021f0a783b036080b2e21db6cf
+:END:
+https://physics.info/standard
+pretty good, soft overview with highlights of different parts
+
+
+* [#B] [2020-02-28] [[https://news.ycombinator.com/item?id=22434259][The war on food waste is a waste of time]] :environment:
+:PROPERTIES:
+:ID:       57389caa43fb51916a229d05699f9979
+:END:
+https://theoutline.com/post/8739/food-waste-fight-waste-of-time
+* STRT [#B] [2019-11-10] lihaoyi/macropy: Macros in Python: quasiquotes, case classes, LINQ and more! :macro:python:lisp:
+:PROPERTIES:
+:ID:       968b43d52725381857cfafcc11f2a6c1
+:END:
+https://github.com/lihaoyi/macropy
+** [2020-05-16] wow that's amazing https://macropy3.readthedocs.io/en/latest/discussion.html#function-advice
+:PROPERTIES:
+:ID:       54f2b8df980490e437df485b075ad9b4
+:END:
+
+* [#B] [2020-08-09] [[https://stackoverflow.com/questions/18770504/resize-ipython-notebook-output-window][resize ipython notebook output window - Stack Overflow]]
+:PROPERTIES:
+:ID:       84397f7717300789348472008ae5a9e8
+:END:
+: You can toggle the scroll window in the main menu of the notebook
+: Cell -> Current Outputs -> Toggle Scrolling
+* [#B] [2020-09-01] [[https://news.ycombinator.com/item?id=24344613][Mind Emulation Foundation]] :immortality:
+:PROPERTIES:
+:ID:       834ecca811efd03113e818a18ab1153c
+:END:
+https://mindemulation.org/
+* [#B] [2020-08-20] [[https://news.ycombinator.com/item?id=24223701][Who to ignore – bullshit filters]] :media:
+:PROPERTIES:
+:ID:       68e462276c5cbdee97af5a9664ee789d
+:END:
+https://ernest.oppet.it/2020/08/14/who-to-ignore/
+* [#B] [2020-01-30] [[https://news.ycombinator.com/item?id=22193451][Today I Learned That Not Everyone Has an Internal Monologue]] :mind:
+:PROPERTIES:
+:ID:       cfe3b9bff54e441ccca4e210775dffae
+:END:
+https://ryanandrewlangdon.wordpress.com/2020/01/28/today-i-learned-that-not-everyone-has-an-internal-monologue-and-it-has-ruined-my-day/
+* [#B] [2019-11-17] Top 50 matplotlib Visualizations - The Master Plots (w/ Full Python Code) | ML+ :viz:
+:PROPERTIES:
+:ID:       97f22b634cafb28e973fefa4d4e4c056
+:END:
+https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/
+
+* [#B] [2019-03-17] pylint useful stuff                              :python:
+:PROPERTIES:
+:ID:       f63a46210d8f1b1f46f5c58344208e67
+:END:
+: cell-var-from-loop -- can detect bad lambda capturing
+:  pylint --disable='C,fixme,'
+* [#B] [2020-10-15] [[http://farmdev.com/src/secrets/framehack/][Frame Hacks]] :python:
+:PROPERTIES:
+:ID:       40ccf81f8764cd83942d2b262fa0f2dc
+:END:
+
+* [#B] [2020-11-07] [[https://news.ycombinator.com/item?id=24999103][Programs are a prison: Rethinking the building blocks of computing interfaces]] :sadinfra:
+:PROPERTIES:
+:ID:       5d7f799bd16c8130a6074c6178cc7c84
+:END:
+https://djrobstep.com/posts/programs-are-a-prison
+* [#B] [2019-10-18] About GitHub Actions - GitHub Help
+:PROPERTIES:
+:ID:       647e7d9c3b8e40d6d70028f139325490
+:END:
+https://help.github.com/en/articles/about-github-actions
+
+* STRT [#B] Demos are important!                                    :project:
+:PROPERTIES:
+:CREATED:  [2019-12-11]
+:ID:       2edda64f48b856793143095b56aee8a8
+:END:
+Link to the actual repo: https://github.com/hellojoshuatonga/react-use-fuzzy
+
+As others said, I recommend adding a GitHub pages of a demo or something. Not fun having to spin this up yourself to test what it does/looks like.
+
+* STRT [#B] try using devpi for uploading?                              :tox:
+:PROPERTIES:
+:CREATED:  [2019-08-02]
+:ID:       91e2c7ab389adef46bce22c5ce375826
+:END:
+* TODO [#B] [2019-12-18] Software Tools for Hobby-Scale Projects       :json:
+:PROPERTIES:
+:ID:       b799a0b7930155072f803a5dbc916e11
+:END:
+https://rickcarlino.com/2019/11/02/software-tools-for-hobby-sized-projects-html.html
+: MyJSON.com - Free Cloud Storage for JSON
+* STRT [#B] [2019-12-11] kootenpv/gittyleaks: Find sensitive information for a git repo :security:project:promnesia:hpi:
+:PROPERTIES:
+:ID:       f300f406147663fbabc548d760bcf63b
+:END:
+https://github.com/kootenpv/gittyleaks
+** [#C] [2020-01-17] eh, doesn't give you commit hash?
+:PROPERTIES:
+:ID:       115f4858a51513866924a0c3dbaab785
+:END:
+
+* STRT [#B] [2020-01-13] functools — Higher-order functions and operations on callable objects — Python 3.8.1 documentation :kython:
+:PROPERTIES:
+:ID:       6a025ca2425059caaf1a0f73420f860f
+:END:
+https://docs.python.org/3.8/library/functools.html
+: @functools.cached_property(func)¶
+
+nice!
+* TODO [#B] Add project status to my stuff, like in upspin          :project:
+:PROPERTIES:
+:CREATED:  [2020-01-15]
+:ID:       9e3a01f80258f7f7baaab87dff85ab64
+:END:
+
+* TODO [#B] explore doom-snippets?                                   :python:
+:PROPERTIES:
+:CREATED:  [2020-03-08]
+:ID:       164d0f301a2d04b44c50875505522fff
+:END:
+* [#B] [2020-09-25] [[https://news.ycombinator.com/item?id=24593616][Toward a “Modern” Emacs]] :emacs:
+:PROPERTIES:
+:ID:       e05e7e7698a150423fa33b07e0b5d344
+:END:
+https://lwn.net/SubscriberLink/832311/03910e26a3f3e814/
+* TODO [#B] nice and wholesome people                              :exobrain:
+:PROPERTIES:
+:CREATED:  [2020-06-17]
+:ID:       86e9c1235d4e905cabed3b4ce8f9d7d6
+:END:
+- Chris Hadfield
+- Rob Zombie
+- John Carmack
+- Lex Fridman
+* [#B] [2020-08-25] [[https://httptoolkit.tech/will-it-cors/][Will It CORS?]] :cors:
+:PROPERTIES:
+:ID:       0af548acf2e1114be4303487a2a41ca7
+:END:
+
+* [#B] [2019-12-23] [[https://nplus1.ru/material/2019/12/22/simple-math][Объясняем шутку из твиттера про дедушку и лагранжиан квантовой теории поля]]
+:PROPERTIES:
+:ID:       742fcbe220634d45fb2228c6fcefafeb
+:END:
+
+* [#B] [2019-07-17] [[https://en.wikipedia.org/wiki/Quantum_Zeno_effect][Quantum Zeno effect]]
+:PROPERTIES:
+:ID:       52a6e64763b3e44176ef22901fd56439
+:END:
+** [2020-12-20] quantum zeno effect: measure the system often enough, it appears as if it's not changing.
+:PROPERTIES:
+:ID:       1eba4d8c-d0fd-4aaa-9228-16ae3ab0291c
+:END:
+evolution is linear, so after time dt the amplitude of changing state is proportional to dt, and probability to dt^2. So by making dt low enough, probability of ever changing state is arbitrary close to 0
+** [2020-12-20] https://physics.stackexchange.com/questions/47252/simple-explanation-of-quantum-zeno-effect
+:PROPERTIES:
+:ID:       1f1afba99012466b9abb6311b3a028af
+:END:
+
+* [#B] [2020-06-30] [[https://quantumcomputing.stackexchange.com/questions/1262/how-are-quantum-gates-realised-in-terms-of-the-dynamic][architecture - How are quantum gates realised, in terms of the dynamic? - Quantum Computing Stack Exchange]]
+:PROPERTIES:
+:ID:       7e04bd90d5b2a16e92652999c4251f7b
+:END:
+* [#B] [2020-06-13] [[http://blog.rfox.eu/en/About_this_blog/What_do_I_mean_by_node.html][What do I mean by node?]] :exobrain:
+:PROPERTIES:
+:ID:       fcee859689f84dfcf84cbb292d0299a5
+:END:
+- comment:
+  : good explanation
+* [#B] [2018-06-19] https://samwho.co.uk/blog/2017/04/22/emulating-bad-networks/ :network:testing:
+:PROPERTIES:
+:ID:       2eeca21b09d1b303115d30da4f743f49
+:END:
+* [#C] [2020-01-24] logs - View stdout/stderr of systemd service - Unix & Linux Stack Exchange
+:PROPERTIES:
+:ID:       bc05436e713d79f3e48507530c65c35d
+:END:
+https://unix.stackexchange.com/questions/20399/view-stdout-stderr-of-systemd-service
+: Note that using the standard logging mechanism like this will not create persistent logs by default. To do that, you'll need to create /var/log/journal, and then run sudo systemctl restart systemd-journald
+* [#C] [2020-01-25] tmuxinator/tmuxinator: Manage complex tmux sessions easily
+:PROPERTIES:
+:ID:       500eb7bf4d500e5f9674ef80857d8ce2
+:END:
+https://github.com/tmuxinator/tmuxinator
+
+* [#C] [2020-01-26] Not really. Enable something like MyPy or PyType on a big enough codebase with z... | Hacker News
+:PROPERTIES:
+:ID:       77bf70862aa94dd4fddc21ad2cdd3753
+:END:
+https://news.ycombinator.com/item?id=21902827
+: Not really. Enable something like MyPy or PyType on a big enough codebase with zero explicit annotation and it'll already find plenty of bugs and unhandled cases from the inferred types alone. Some of these are stuff a strong IDE may catch too (using the wrong function name, passing wrong number of args, etc), but some other ones are actually deeper in the code.
+: 
+: So already, with zero annotations, you already get value out, let alone once you type a few tricky variables that are harder for Python to track.
+* [#C] [2020-01-26] Hypermodern Python Chapter 4: Typing · Claudio Jolowicz's website
+:PROPERTIES:
+:ID:       1ea0ae92570cabbeb57b74fabaced6b4
+:END:
+https://cjolowicz.github.io/posts/hypermodern-python-04-typing/
+: Typeguard is a runtime type checker for Python:
+* [#C] [2020-01-29] linux - How to make htop sort by PID - Super User  :htop:
+:PROPERTIES:
+:ID:       aca7c032006e0579d137d787842d7baa
+:END:
+https://superuser.com/questions/275873/how-to-make-htop-sort-by-pid
+: @OSX Press >.
+
+- Comment:
+: press > and select RES
+* [#C] [2020-02-07] POSSE - IndieWeb
+:PROPERTIES:
+:ID:       47cceee37deb3f464002d0dbbfe23e35
+:END:
+https://indieweb.org/POSSE#Publishing_Flows
+
+* [#C] [2020-02-08] Haskell for all: Why Dhall advertises the absence of Turing-completeness :configs:
+:PROPERTIES:
+:ID:       70fb87a9ef8b2d6d8bd5a1094a4c0019
+:END:
+http://www.haskellforall.com/2020/01/why-dhall-advertises-absence-of-turing.html
+: Why Dhall advertises the absence of Turing-completeness
+
+
+
+
+
+* [#C] [2020-02-16] (8) 🔎Julia Evans🔍 on Twitter: "CORS https://t.co/uSrLqGIWR0" / Twitter
+:PROPERTIES:
+:ID:       ca32335ec5e83005cbb226a2fda37ab8
+:END:
+https://twitter.com/b0rk/status/1162392625057583104
+: CORS
+* [#C] [2020-02-20] backup - Basic rsync command for bit-identical copies - Unix & Linux Stack Exchange
+:PROPERTIES:
+:ID:       14789e61caac188161487d6e1c718942
+:END:
+https://unix.stackexchange.com/questions/118883/basic-rsync-command-for-bit-identical-copies
+: So this is the basic command to make the destination identical to the source (absent hard links, ACLs and extended attributes):
+: 
+: rsync -a --delete SOURCE/ DESTINATION/
+* [#C] [2020-02-24] doom-emacs/faq.org at develop · hlissner/doom-emacs
+:PROPERTIES:
+:ID:       ce7a7bdbe940dd716dd572bba95a401e
+:END:
+https://github.com/hlissner/doom-emacs/blob/develop/docs/faq.org#how-do-i-change-the-leaderlocalleader-keys
+: Don’t be that guy who PRs 99 whitespace adjustments around his one-line contribution.
+* [#C] [2020-04-05] Max Tegmark on Steps toward building an AI physicist - YouTube :physics:
+:PROPERTIES:
+:ID:       fb4250b63f8b8fe0003a02c9bccad1e6
+:END:
+https://www.youtube.com/watch?v=9atnfAHBfSI&list=WL&index=41&t=0s
+: ok, interesting. so it's using some techniques to discover symbolic expressions, discover symmetries etc
+* [#C] [2020-03-18] remarkable: What's their portability story? I don't want my personal knowledge store to be l... | Hacker News
+:PROPERTIES:
+:ID:       ed6a1bf7c8543f4af56c3b6d599c1b46
+:END:
+https://news.ycombinator.com/item?id=22607112
+: Not great, you can only officially export PDF, PNG, or SVG, though their cloud management does seem to work really well and as I understand, files are stored locally on each device once synced.
+: That said, it runs linux so you could conceivably backup the files yourself. You can ssh into your tablet, run sftp, w/e. But they are in some proprietary .lines format.
+: There's a wiki with more details (the file format stuff is further down): https://remarkablewiki.com/tech/filesystem
+: It may be possilbe you could hack it to run xournal, but I've no idea.
+* [#C] [2020-04-19] [[https://news.ycombinator.com/item?id=22914789][QRCP: Transfer files to mobile device by scanning a QR code from the terminal | Hacker News]]
+:PROPERTIES:
+:ID:       4984ad4328eb5e62a4f45fe338e9813f
+:END:
+
+* [#C] [2020-04-19] [[https://jeremykun.com/2020/01/14/the-communicative-value-of-using-git-well/][The Communicative Value of Using Git Well – Math ∩ Programming]] :git:
+:PROPERTIES:
+:ID:       ab1cef2ef65c5576aaabf358d96cc236
+:END:
+* [#C] [2020-04-21] [[http://localhost:3000/agents/new][Create Agent - Huginn]] :project:
+:PROPERTIES:
+:ID:       34212875f2f14c10888efb1b405c9356
+:END:
+- comment:
+  : so nice that huginn just gives you examples you can follow
+* [#C] [2020-04-25] [[https://ncase.me/][It's Nicky Case!]]             :sim:
+:PROPERTIES:
+:ID:       9d84c4290bb5531a76d524b95df5c1ce
+:END:
+
+* [#C] [2020-05-06] [[https://teletype.atom.io/][Teletype for Atom]]
+:PROPERTIES:
+:ID:       de9eee20ce8bf226ea6809725b0242be
+:END:
+- comment:
+  : collaborative editing
+* [#C] [2020-05-05] [[https://drewdevault.com/2019/03/04/sourcehut-design.html][Sourcehut’s spartan approach to web design | Drew DeVault’s Blog]]
+:PROPERTIES:
+:ID:       576c620efbc7ff00bab0eeb72073bf2e
+:END:
+: Sourcehut's spartan approach to web design
+* [#C] [2020-01-02] Open source project name checker - OSPNC        :project:
+:PROPERTIES:
+:ID:       17bd6f5c39e998ba7f1a11db873b96db
+:END:
+http://ivantomic.com/projects/ospnc/
+* [#C] [2020-06-18] [[https://pythonspeed.com/articles/dockerizing-python-is-hard/][Broken by default: why you should avoid most Dockerfile examples]]
+:PROPERTIES:
+:ID:       32994bb7de6193be33518021fbb64b0e
+:END:
+: If you want fast builds, you want to rely on Docker’s layer caching. But by copying in the file before running pip install, all later layers are invalidated—this image will be rebuilt from scratch every time.
+: 
+* [#C] [2019-12-15] Terms of Service; Didn't Read
+:PROPERTIES:
+:ID:       7e3ca9be7e12f22f8136efe499eadd40
+:END:
+https://tosdr.org/
+
+* [#C] [2019-12-16] What are the pros and cons of using flexbox? - Quora :css:
+:PROPERTIES:
+:ID:       c56d72da76ee09265589365c474d420e
+:END:
+https://www.quora.com/What-are-the-pros-and-cons-of-using-flexbox
+: The pros are plentiful.
+: It makes things like space allocation a lot simpler and far fewer lines of code.
+: Unfortunately, not all browsers can identify and correctly interpret flexbox. Give it a few more years for (mostly) mobile browsers to catchup.
+* [#C] [2019-12-16] 3 shell scripts: Kill weasel words, avoid the passive, eliminate duplicates :writing:
+:PROPERTIES:
+:ID:       d2e0bdf7159df08e195a017e84b6504c
+:END:
+http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/
+: 3 shell scripts to improve your writing, or "My Ph.D. advisor rewrote himself in bash."
+* STRT [#C] [2020-05-13] [[https://github.com/amontalenti/elements-of-python-style][amontalenti/elements-of-python-style: Goes beyond PEP8 to discuss what makes Python code feel great. A Strunk & White for Python.]] :python:
+:PROPERTIES:
+:ID:       6a519af8c44e126701ab48881cb21b1c
+:END:
+: Use parens (...) for fluent APIs
+* [#C] [2020-05-18] [[https://www.dcrainmaker.com/2020/05/strava-cuts-off-leaderboard-for-free-users-reduces-3rd-party-apps-for-all-and-more.html][Strava Cuts Off Leaderboard for Free Users, Reduces 3rd Party Apps for All, and More | DC Rainmaker]] :sadinfra:
+:PROPERTIES:
+:ID:       70c68545ed2f9b59ba96902cf49e56e9
+:END:
+
+* [#C] [2020-05-19] [[https://news.ycombinator.com/item?id=23237559][Blogging Is Not Dead | Hacker News]] :rss:
+:PROPERTIES:
+:ID:       8618478272e0b412aee07f3a32352a86
+:END:
+: If you want to see more high quality blog posts, then I highly recommend taking actions to help promote and encourage them. Sign up for a mailing list or subscribe to an RSS feed when you find a blog that consistently produces quality material. Post new or old content on Hacker News, Reddit, Lobsters, Twitter, and other communities where you think they would be a good fit. Upvote and retweet quality content that you run across, and flag stuff that's blatantly marketing spam. Leave comments on the blog or reach out to the author over email. Even as a single individual, these sort of actions have a much bigger impact than you might expect.
+* [#C] [2020-05-19] [[https://github.community/t5/GitHub-Actions/is-there-expression-syntax-to-do-pattern-matching-regex-on/td-p/36295][Solved: is there expression syntax to do pattern matching ... - GitHub Community Forum]] :githubactions:
+:PROPERTIES:
+:ID:       74e069bfd0a14aee29fc945f00d08de3
+:END:
+: Regex cannot be used in expression for now,
+
+- comment:
+  : for fucks sake, can't use regexes in github acitons pipelines?
+* [#C] [2020-05-20] [[https://twitter.com/lukaseder/status/1262770756997591042][Lukas Eder on Twitter: "Still one of the best explanations of covariance vs contravariance, or consumers vs producers https://t.co/UPnpItRdi7 https://t.co/P8KzmWzX8R" / Twitter]]
+:PROPERTIES:
+:ID:       d36ba30f16121004c71cd1540a03e4e0
+:END:
+: Still one of the best explanations of covariance vs contravariance, or consumers vs producers
+* [#C] [2020-05-25] [[https://dmerej.info/blog/post/docopt-v-argparse/][docopt v argparse • Dimitri Merejkowsky]] :python:
+:PROPERTIES:
+:ID:       48c9497b9314729d3fa8d76343f7b63a
+:END:
+: But for big projects with lots of subcommands, written in Python, using argparse may be a better idea, especially if you need to do advanced stuff for your parsing, like configuring common options in one function, allow plug-ins to change the command line API, and so on …
+* [#C] [2020-05-27] [[https://fraidyc.at/][Fraidycat]]  :project:inspiration:
+:PROPERTIES:
+:ID:       aebd23f6854f35060230546358da3a3e
+:END:
+- comment:
+  : nice design and summary on this page
+* [#C] [2020-05-28] [[https://softwareengineering.stackexchange.com/questions/290566/is-localstorage-under-the-cookie-law][javascript - Is localStorage under The Cookie Law? - Software Engineering Stack Exchange]]
+:PROPERTIES:
+:ID:       7727c394fe3611b7eff3a7b31b6a0e23
+:END:
+: The cookie law is not actually about cookies (and its not actually called the cookie law). Its about tracking users, storing and sharing the information with third parties. Cookies are just the most popular method to track users.
+: If you don't want to show the "cookie warning" then just don't track the users beyond the session and don't share traffic data with third parties.
+: The actual directive.
+* [#C] [2020-05-28] [[https://github.com/rht/star.zulipchat.com][rht/star.zulipchat.com: Public realms found in *.zulipchat.com]] :zulip:
+:PROPERTIES:
+:ID:       71f4e25d124b46e313ba501c4cd9f68e
+:END:
+* [#C] [2020-06-06] [[https://drewdevault.com/2020/06/06/Add-a-contrib-directory.html][Add a “contrib” directory to your projects | Drew DeVault’s Blog]] :project:
+:PROPERTIES:
+:ID:       82eddd48db082c495fa97f6418658bdb
+:END:
+
+* [#C] [2020-06-08] [[https://julian.digital/2020/02/23/my-quantified-self-setup/][My Quantified Self Setup « julian.digital]] :qs:
+:PROPERTIES:
+:ID:       3ed7a14c7ebb24560f803fb0bbcd9128
+:END:
+- comment:
+  : lots of interesting subjective/percieved stats
+* [#C] [2020-06-16] emotion wheel [[https://twitter.com/QiaochuYuan/status/1272990004633989120][(1) QC on Twitter: "TL feels heavy today so let's do another vibe check with the feel wheel. how's everyone feeling today? in as much or as little detail as you're into https://t.co/X95f6LZnV6" / Twitter]] :emotions:
+:PROPERTIES:
+:ID:       e2e0a5f3c6f42ae8c3ff43cf44c2ae5e
+:END:
+: TL feels heavy today so let's do another vibe check with the feel wheel. how's everyone feeling today? in as much or as little detail as you're into
+* [#C] [2020-06-19] [[https://news.ycombinator.com/item?id=11662380][This is our long-running experiment in story re-upping. I've described it at htt... | Hacker News]] :hackernews:
+:PROPERTIES:
+:ID:       4e80d04b7e1f22dbe285f222dff9fbef
+:END:
+* [#C] [2020-06-22] [[https://news.ycombinator.com/item?id=22305446][We've been running mypy on our project for about a year now and it's one of the ... | Hacker News]] :mypy:
+:PROPERTIES:
+:ID:       957d177328c0a22f519fd24c27f05f20
+:END:
+: We implemented it progressively. At first I added it as a make target but didn't make it mandatory in CI so I could learn how to use it. Then I made it mandatory for a few files that I was the only active contributor to. Then I slowly added more and more files across the project, sometimes as I touched them for other reason and other times as independent changes. Eventually as mypy caught more and more bugs in other contributor's changes they started getting on board and adding type hints as well, until the vast majority of the project was hinted (we'll be getting to 100% within a few weeks).
+* [#C] [2020-01-01] Pavel Fatin » Blog Archive » Typing with pleasure - Blog about human and technology :latency:inspiration:analysis:
+:PROPERTIES:
+:ID:       d72efb4e533174d504a37134c9044d7b
+:END:
+https://pavelfatin.com/typing-with-pleasure/
+- Comment:
+: Amazing in-depth analysis of keyboard typing latency
+: could also benchmark org-mode with the tool they mentioned
+* [#C] Uncertaincy principle nice video                         :quantum:viz:
+:PROPERTIES:
+:CREATED:  [2018-10-08]
+:ID:       17593bd9390350e5d07f7c797c4afdb9
+:END:
+https://youtu.be/VwGyqJMPmvE?t=469 -- if you limit the time domain of a pure note, counterintuitively, you'll have to use more sine waves to approximate it, so widen the frequency domain
+* [#C] [2019-06-18] Energy drift - Wikipedia                     :symplectic:
+:PROPERTIES:
+:ID:       3c50ad6a2c7a0bb81dbaa1c8f035343f
+:END:
+https://en.wikipedia.org/wiki/Energy_drift
+: Energy drift - usually damping - is substantial for numerical integration schemes that are not symplectic, such as the Runge-Kutta family.
+* [#C] [2019-12-13] [[https://news.ycombinator.com/item?id=21780659][Show HN: Happy Hues – Curated colors in context]] :design:
+:PROPERTIES:
+:ID:       cfaec0705b920724fc9564081fa9056b
+:END:
+https://www.happyhues.co/
+* [#C] [2019-12-20] [[https://news.ycombinator.com/item?id=21844007][Bugjail, a completely new way of debugging]] :debug:
+:PROPERTIES:
+:ID:       0e3840892f18ecd6aa01cf54551fe6ac
+:END:
+https://bugjail.com/
+** [2020-01-31] basically, debugging database? e.g. you can trace all arguments, callers etc
+:PROPERTIES:
+:ID:       63b68724d1c10c9ffae2c07e7d0c489c
+:END:
+* [#C] [2019-11-29] [[https://news.ycombinator.com/item?id=21655958][Firefox Replay]]
+:PROPERTIES:
+:ID:       8c8a387fbe99d9907b1ad0467f5c7728
+:END:
+https://firefox-replay.com/
+* [#C] [2019-12-17] [[https://news.ycombinator.com/item?id=21811888][MIT's browser based climate change simulation]] :climate:
+:PROPERTIES:
+:ID:       cc5a38cfd248f92d4d62b41a45085052
+:END:
+https://en-roads.climateinteractive.org/scenario.html?v=2.7.6
+* [#C] [2019-12-23] [[https://news.ycombinator.com/item?id=21860741][Show HN: Generate names like snapchat, dropbox, paypal for your next project]] :project:
+:PROPERTIES:
+:ID:       12a54f138d7fb666d37cbd6fbd5f6a74
+:END:
+https://namewink.com/
+* [#C] [2020-01-01] [[https://news.ycombinator.com/item?id=21926027][Rhasspy is an open source, fully offline voice assistant toolkit]]
+:PROPERTIES:
+:ID:       6e54eb6de67b63fae095861994b91248
+:END:
+https://rhasspy.readthedocs.io/en/latest/
+* [#C] [2020-01-15] [[https://news.ycombinator.com/item?id=22048086][Disprove quantum immortality without risking your life (2019)]]
+:PROPERTIES:
+:ID:       925e5f9906a41a8254b23f55dc59844e
+:END:
+https://vankessel.io/disproving-quantum-immortality
+* [#C] [2020-01-15] [[https://news.ycombinator.com/item?id=22054433][Show HN: CrossHair – SMT Assisted Testing for Python]] :testing:python:
+:PROPERTIES:
+:ID:       d83c04cfc9f69c5c6318a5847a33b308
+:END:
+https://github.com/pschanely/CrossHair
+* [#C] [2020-03-04] [[https://news.ycombinator.com/item?id=22478854][Reddit has become a guide to personal finance]] :blog:
+:PROPERTIES:
+:ID:       4564cce001fb93cb6bb65e45954bbb59
+:END:
+https://qz.com/1707479/reddit-has-become-a-guide-to-personal-finance/
+* [#C] [2020-03-07] [[https://news.ycombinator.com/item?id=22502541][If nearly all Airbnb reviews are positive, does that make them meaningless?]] :scoring:
+:PROPERTIES:
+:ID:       88312932e5814beffff9f447c8faf55c
+:END:
+https://www.academia.edu/30544981/If_Nearly_all_Airbnb_Reviews_are_Positive_Does_that_Make_them_Meaningless?email_work_card=title
+* [#C] [2020-04-02] [[https://news.ycombinator.com/item?id=22758218][How to manage HTML DOM with vanilla JavaScript only?]]
+:PROPERTIES:
+:ID:       35ddb3cc2adbfd84d63f3f5bbf756346
+:END:
+https://htmldom.dev/
+* [#C] [2020-04-07] [[https://news.ycombinator.com/item?id=22801661][Show HN: A curated set of colour combinations]] :design:
+:PROPERTIES:
+:ID:       b08a45aeba3da66732845d18998da407
+:END:
+https://duo.alexpate.uk/
+* [#C] [2020-03-26] [[https://news.ycombinator.com/item?id=22685537][Ask HN: Best sleep trackers?]]
+:PROPERTIES:
+:ID:       859038736cc64fb2e0ce0e342368ece3
+:END:
+https://news.ycombinator.com/item?id=22685537
+** [2020-08-16] not much interesting for me, but probably good summary of what are people using (in comments)
+:PROPERTIES:
+:ID:       063a8cb47253a0670bed7dbcb55c3f3f
+:END:
+* [#C] [2019-10-06] tmrowco/tmrowapp-contrib: Tomorrow automatically calculates the climate impact of your daily choices by connecting to apps and services you already use. ::environment:
+:PROPERTIES:
+:ID:       076fd53d6cda06cd035c53537fe52465
+:END:
+https://github.com/tmrowco/tmrowapp-contrib
+: The connect method is used to ask for user credentials (OAuth flows are also supported). The collect method is called periodically (typically every few hours) to fetch new activities. As the methods are pure, and to avoid re-asking the user for credentials everytime the collect method is called, a state object can be used to persist information (such as password, tokens..) across collects.
+: 
+: Activities require a certain formatting:
+* [#C] [2020-04-13] [[https://liberapay.com/][Liberapay]]           :cleanui:
+:PROPERTIES:
+:ID:       be6df67fe53642cd80c4686a4ae96c4e
+:END:
+* STRT [#C] [2020-01-16] ngrok - secure introspectable tunnels to localhost :project:
+:PROPERTIES:
+:ID:       ef2e4dab41aaefb5d5313398ba91b2c2
+:END:
+https://ngrok.com/
+** [2020-04-25] ok nice used for promnesia
+:PROPERTIES:
+:ID:       e4dda44b65cc6149bf9bef7fc9cc0d72
+:END:
+: /L/soft/stable/ngrok/ngrok http 14444
+* [#C] [2018-07-12] https://github.com/fasouto/awesome-dataviz      :dataviz:
+:PROPERTIES:
+:ID:       2b59044109930c5dcd1a9a2b3943a78b
+:END:
+* [#C] [2018-05-01] conducting blind experiments                         :qs:
+:PROPERTIES:
+:ID:       1715c373092d3788d5c19d23dc6c7d52
+:END:
+https://www.gwern.net/Nootropics#blinding-yourself
+https://www.gwern.net/Nootropics#modalert-blind-day-trial
+
+* [#C] [2019-02-13] Get raw data from commercial activity trackers | okinesio :qs:
+:PROPERTIES:
+:ID:       3a5cc6ff004f03296565238b0c60354c
+:END:
+http://okinesio.org/development/how-to-get-raw-data-from-commercial-activity-trackers
+
+* [#C] [2019-05-21] How To Build A Smart Home Sensor | Popular Science   :qs:
+:PROPERTIES:
+:ID:       1d00acbe1cc1f1281959a254e12d9634
+:END:
+https://www.popsci.com/how-build-home-sensor
+
+* [#C] [2019-11-29] typeddjango/awesome-python-typing: Collection of awesome Python types, stubs, plugins, and tools to work with them.
+:PROPERTIES:
+:ID:       dddafeab79b66bc16e9c80b69ad111be
+:END:
+https://github.com/typeddjango/awesome-python-typing
+* [#C] [2019-12-05] Hedonic treadmill - Wikipedia
+:PROPERTIES:
+:ID:       781d7ab2d40a99d4dce07597f8c9f223
+:END:
+https://en.wikipedia.org/wiki/Hedonic_treadmill
+: The hedonic treadmill, also known as hedonic adaptation, is the observed tendency of humans to quickly return to a relatively stable level of happiness despite major positive or negative events or life changes
+* [#C] [2019-12-20] Web Archiving Community · pirate/ArchiveBox Wiki :archiving:urlrot:
+:PROPERTIES:
+:ID:       dc3cab9a91952a2ff35f92b97e542515
+:END:
+https://github.com/pirate/ArchiveBox/wiki/Web-Archiving-Community
+
+* TODO [#C] [2019-09-06] Offline First and the Circle of Web        :offline:
+:PROPERTIES:
+:ID:       3de680d67e5fc89ca684753498ef6893
+:END:
+http://hood.ie/blog/offline-first-and-the-circle-of-web.html
+
+** TODO [#C] [2019-09-06] Offline First and the Circle of Web, Part II: Breaking the Circle :offline:
+:PROPERTIES:
+:ID:       dbd4147c9f3ce0ab6ad406f27400a8fb
+:END:
+http://hood.ie/blog/offline-first-and-the-circle-of-web-part-ii-breaking-the-circle.html
+* [#C] [2019-12-08] Statically-typed error handling in Python using Mypy | Hacker News :mypy:
+:PROPERTIES:
+:ID:       c562682684decf951a84c09783a1b74e
+:END:
+https://news.ycombinator.com/item?id=21736620
+: My approach is to dial up strictness gradually as code proves its value. I'll start out building a project and not validating on I/O, but as the requirements get locked down and the code has proven itself, I'll clean up all the edge cases - which will often mean adding in progressively stricter validation on border code.
+: The advantage of this is that if you end up not wasting too much time "building the wrong thing". Let's say that you took one form of I/O and built massively strict validation in and then realized later that you should have taken an entirely different form of I/O for your subsystem. All that time building in validation on that useless part of code was a pointless waste.
+: I don't have any stats, but my gut feel is that on average 40% of code can end up being tossed in this way (in some projects it's 100% =).
+: Prototyping speed is, additionally, not just useful in reducing the cost of building the right kind of code, it's useful in reducing the cost of building the right kind of test (a really underappreciated facet of building mission critical systems).
+
+In my younger years I used to believe that for mission critical systems "building the wrong thing" was somehow less of a problem in code because you could fix requirements and do architecture upfront with some sort of genius architect. Turns out this was wrong.
+* [#C] [2019-12-21] cheeaun/awesome-hacker-news: Awesome Hacker News: a collection of awesome Hacker News apps, libraries, resources and shiny things.
+:PROPERTIES:
+:ID:       deef7199e6400d3fa395c78fd834ae91
+:END:
+https://github.com/cheeaun/awesome-hacker-news
+
+* [#C] [2020-05-04] [[https://intoli.com/blog/terminal-recorders/][Terminal Recorders: A Comprehensive Guide]] :demo:
+:PROPERTIES:
+:ID:       3460785a82a0c347b82762d6dff99b74
+:END:
+
+* [#C] [2020-05-05] [[https://www.djcbsoftware.nl/code/mu/mu4e/High_002dlevel-overview.html][High-level overview (Mu4e 1.4 user manual)]] :software:
+:PROPERTIES:
+:ID:       6f6557310c1da84aedb68b47432f6ff3
+:END:
+:               +---------+
+:               | emacs   |
+:               |    +------+
+:               +----| mu4e | --> send mail (smtpmail)
+:                    +------+
+:                     |  A
+:                     V  |  ---/ search, view, move mail
+:               +---------+    \
+:               |   mu    |
+:               +---------+
+:                 |    A
+:                 V    |
+:               +---------+
+:               | Maildir |  <--- receive mail (fetchmail,
+:               +---------+                     offlineimap, ...)
+
+- comment:
+  : characters (e.g. A, V) can be used for drawing
+
+* [#C] [2019-10-25] About this website | LOW←TECH MAGAZINE
+:PROPERTIES:
+:ID:       cb9686dd23ac8e9c33015335ae6f2aa8
+:END:
+https://solar.lowtechmagazine.com/about.html
+: Below are some of the design decisions we made to reduce energy use. We have published a separate document that focuses on the front-end efforts, and one that focuses on the back-end. We have also released the source code for our website design.
+** [#C] [2019-10-25] About this website | LOW←TECH MAGAZINE
+:PROPERTIES:
+:ID:       4c5f1a463581b357acd7db07b834b7e9
+:END:
+https://solar.lowtechmagazine.com/about.html
+: We wrote two extra articles with more in-depth technical information: How to build a low-tech website: software and hardware, which focuses on the back-end, and How to Build a Low-tech Website: Design Techniques and Process, which focuses on the front-end.
+* [#C] [2020-10-24] [[https://news.ycombinator.com/item?id=24874102][LiveCode is a modern day HyperCard (2019) | Hacker News]] :python:gui:
+:PROPERTIES:
+:ID:       c248734310406f4e972bbdc0b347738f
+:END:
+: In the spirit of HN contrarian comments, I'd say the closest thing spiritually to a modern-day HyperCard is PySimpleGUI: https://github.com/PySimpleGUI
+* [#C] [2020-08-12] [[https://www.divergent-desktop.org/blog/2020/08/10/principles-overview/][12 Principles for a Diverging Desktop Future]] :computing:
+:PROPERTIES:
+:ID:       0dcd175249ab44c56a93acec36a89aa0
+:END:
+
+* [#C] [2020-03-14] jestem króliczkiem on Twitter: "or, you can encode dependencies in types: @dataclass(init=False) class FancyPath: path: Path mtime: float def __init__(self, path: Path): self.path = path self.mtime = path.stat().st_mtime" / Twitter :cachew:python:
+:PROPERTIES:
+:ID:       6670daab5853c481c6bb79bfd88b43f5
+:END:
+https://twitter.com/karlicoss/status/1238791294547353601
+: @dataclass
+: (init=False)
+: class FancyPath:
+:     path: Path
+:     mtime: float
+:     def __init__(self, path: Path):
+:         self.path = path
+:         self.mtime = path.stat().st_mtime
+
+Comment:
+: right, I suppose it's type to use dataclasses
+* [#C] [2020-03-31] nektos/act: Run your GitHub Actions locally 🚀
+:PROPERTIES:
+:ID:       2918a9a143e881246650f3701cdcd863
+:END:
+https://github.com/nektos/act
+: ok it works with CI now...
+* [#C] [2020-02-13] alphapapa/org-almanac: Almanac for Org mode         :org:
+:PROPERTIES:
+:ID:       5e57b6678a67eb7eadddf81c79d86ff8
+:END:
+https://github.com/alphapapa/org-almanac
+how are people using org-mode
+
+* [#C] [2020-01-25] fpereiro/backendlore: How I write backends      :backend:
+:PROPERTIES:
+:ID:       c7a598f193521b6214d8d750fa6307cc
+:END:
+https://github.com/fpereiro/backendlore
+
+* [#C] [2020-04-11] Traps for the Unwary in Python’s Import System — Nick Coghlan's Python Notes 1.0 documentation :python:
+:PROPERTIES:
+:ID:       b5d457d5b373a332bf1aa510e3b3bbdf
+:END:
+http://python-notes.curiousefficiency.org/en/latest/python_concepts/import_traps.html#the-init-py-trap
+
+* [#C] [2020-05-17] Nonlinear Conversational Medium — gray crawford      :im:
+:PROPERTIES:
+:ID:       45d35b1a3a407c414b18f81213351ad9
+:END:
+https://www.graycrawford.com/nonlinear-conversational-medium
+: Conversations branch out, delineating subtopics spatially. This allows the conversation to be more surveyable, and individual topics can split off into their own subtopics.
+* [#C] [2020-05-17] Fragile narrow laggy asynchronous mismatched pipes kill productivity - Tristan Hume :distributed:
+:PROPERTIES:
+:ID:       9cb86446165374002c00adbb7a81628b
+:END:
+https://thume.ca/2020/05/17/pipes-kill-productivity/
+
+* [#C] [2020-05-22] [[https://scrapism.lav.io/][Scrapism - Scrapism]] :scraping:tutorial:
+:PROPERTIES:
+:ID:       b4d6f4a5e52bf128bf2c36bd97af9ff2
+:END:
+
+* [#C] [2020-05-24] [[https://gist.github.com/jjperezaguinaga/4243341][Understanding Google Chrome Extensions]]
+:PROPERTIES:
+:ID:       15d431a294bf3603b0d72eb0fb52d559
+:END:
+
+* [#C] [2020-05-28] [[https://meta.wikimedia.org/wiki/Research_on_open_source_team_communication_tools][Research on open source team communication tools - Meta]]
+:PROPERTIES:
+:ID:       3ea4b675f92450973b6449fb3eec5a07
+:END:
+
+* [#C] [2020-06-21] [[https://dansilvestre.com/gtd-gmail/][GTD Gmail: Inbox Zero and Optimized Email Workflow]]
+:PROPERTIES:
+:ID:       0158c3cbcca93d9d18f71014539aa617
+:END:
+
+* [#C] [2020-08-22] use chronic (by default cron spams with stdout/stderr)
+:PROPERTIES:
+:ID:       f646145c47a4ca1bc34a9483da6f0eca
+:END:
+: I use `chronic` in almost all of my cron jobs so that cron sends me an email with the output only if the command has a return code of != 0.
+* TODO [#C] [2020-01-01] RichardLitt/meta-knowledge: 💡 A list of knowledge repositories :publish:exobrain:
+:PROPERTIES:
+:ID:       f1ad78c51126b3ce5e62d73170d1b6c9
+:END:
+https://github.com/RichardLitt/meta-knowledge
+** [2020-01-17] later when I publish my org-mode sources
+:PROPERTIES:
+:ID:       026ef90c4aa47d47c4ce585f2251ed86
+:END:
+* [#C] hack to allow optional git dependencies                     :pip:pypi:
+:PROPERTIES:
+:CREATED:  [2020-04-19]
+:ID:       5eab7d63b5319ba82a141646a7c235c8
+:END:
+: def building_for_pypi() -> bool:
+:     return sys.argv[1] == 'sdist'
+:    for_pypi = building_for_pypi()
+:            'my': [] if for_pypi else ['HPI @ git+https://github.com/karlicoss/my.git'],
+:        },
+* STRT [#C] people working on PKM things with examples of products etc :blog:
+:PROPERTIES:
+:CREATED:  [2019-12-18]
+:ID:       29dd219b13eea8de92ed071f1c38a57c
+:END:
+
+
+* TODO [#C] The Communicative Value of Using Git Well – Math ∩ Programming :practices:
+:PROPERTIES:
+:CREATED:  [2020-01-16]
+:ID:       de44b5f70077e6c4a44836c44a8e8fb7
+:END:
+: I’ve written up my ideas, under the name ‘Literate Git’, at https://github.com/bennorth/literate-git if you’re interested.
+: The tool I wrote turns a structured git history into an interactive web page.
+: There’s an example there of how the ideas might work in a tutorial setting.
+: After I gave a talk on this work, one of the people in the audience tried it with the Haskell LLVM tutorial: https://lukelau.me/kaleidoscope/
+
+* TODO [#C] real life > videogames                                  :me:blog:
+:PROPERTIES:
+:CREATED:  [2020-05-13]
+:ID:       87169ea4b2e54c25b22aface4a06cb38
+:END:
+there is stuff to build and solve
+* TODO [#C] Do you fear death? Why/why not?                :think:death:blog:
+:PROPERTIES:
+:CREATED:  [2019-04-11]
+:ID:       009457682b1f48a7f01424f71dbf8897
+:END:
+https://www.reddit.com/r/askreddit/comments/ba89s2/_/
+
+* TODO [#C] [2020-12-07] [[https://news.ycombinator.com/item?id=25322091#25325329][VisiData in 60 Seconds | Hacker News]] :project:
+:PROPERTIES:
+:ID:       1b5665f9a7e45e8ba96e45bdb53fb162
+:END:
+: Wow, the project homepage has a great dynamic command-line generator that lets you specify what you are trying to do. This may exist elsewhere, but it's the first time I've seen it and I hope to see it on more projects! https://www.visidata.org/
+: 
+* [#C] [2020-12-08] [[https://hakibenita.com/python-mypy-exhaustive-checking#type-narrowing-in-mypy][Exhaustiveness Checking with Mypy | Haki Benita]]
+:PROPERTIES:
+:ID:       b96ed3370faeb4cdf9e28c44599748ee
+:END:
+
+* [#C] [2020-12-13] [[https://karthinks.com/software/more-batteries-included-with-emacs/][More batteries included with emacs | Karthinks]] :emacs:regex:
+:PROPERTIES:
+:ID:       f41dab6384dcc3c9060ba63a6844c72f
+:END:
+: A cleaner approach to regular expressions in Emacs, as most package maintainers will tell you, is to use the rx library instead. rx translates regular expressions in sexp form to a regexp string:
+* TODO [#C] [2020-05-18] [[https://github.com/MatthieuBizien/roam-to-git/issues/4][Suggestion: use Github actions to execute backup & commit changes to the repository · Issue #4 · MatthieuBizien/roam-to-git]] :hpi:promnesia:
+:PROPERTIES:
+:ID:       0ad5b46c75682890e244d0f2049abfb1
+:END:
+: schedule:
+: - cron: "*/10 * * * *"
+* [#C] [2020-01-23] Web bloat                                   :blog:static:
+:PROPERTIES:
+:ID:       80e102cdc9e57741e80587c45517d704
+:END:
+https://danluu.com/web-bloat/
+
+* [#C] [2020-01-25] guides/ALTERNATIVES.md at master · mayfrost/guides
+:PROPERTIES:
+:ID:       550cf8eb209022039fa4d2f5d19cfe37
+:END:
+https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md
+: ALTERNATIVES TO BLOATWARE
+
+* TODO [#D] [2019-09-21] ipfs/awesome-ipfs: Useful resources for using IPFS and building things on top of it :ipfs:
+:PROPERTIES:
+:ID:       f934fb4a0b05aae03aa48688fd16c75c
+:END:
+https://github.com/ipfs/awesome-ipfs#readme
+
+* STRT [#D] [2019-09-22] DongjunLee/kino-bot: Personal Assistant Based on Slack Bot for Myself :passistant:
+:PROPERTIES:
+:ID:       94be61b40f1db5ea086cfac40d338e55
+:END:
+https://github.com/DongjunLee/kino-bot
+
+* [#D] [2019-12-02] John Carlos Baez on Twitter: "Can we actually remove carbon dioxide from the air? Yes! Can we remove enough to make a difference? Yes! But what are the best ways, and how much can they accomplish? I explain that in my new article in Nautilus, an online science magazine: https://t.co/y4rQjKvm5J" / Twitter
+:PROPERTIES:
+:ID:       2bf4a6f17d155e9cd79555503329e8c0
+:END:
+https://twitter.com/johncarlosbaez/status/1201541199003176960
+: Can we actually remove carbon dioxide from the air?   Yes!  Can we remove enough to make a difference?   Yes!    But what are the best ways, and how much can they accomplish?   I explain that in my new article in Nautilus, an online science magazine:
+* [#D] [2019-08-07] Can We Terraform the Sahara to Stop Climate Change? - YouTube :environment:
+:PROPERTIES:
+:ID:       e8311c1266363db32db90bbc299b1014
+:END:
+https://www.youtube.com/watch?v=lfo8XHGFAIQ
+
+* [#D] [2020-07-31] https://wiki.openstreetmap.org/wiki/StreetComplete :maps:osm:
+:PROPERTIES:
+:ID:       929638158b99ffa9d692dcbc0e632646
+:END:
+* [#D] [2017-06-28] erasing online presence                         :privacy:
+:PROPERTIES:
+:ID:       62ccc2da4373607c555f8a6df449dbe2
+:END:
+https://www.reddit.com/r/IWantToLearn/comments/6fa0vk/iwtl_how_to_erase_my_online_presence
+deseat.me
+* [#D] [2019-11-15] alphapapa/org-protocol-capture-html: Capture HTML from the browser selection into Emacs as org-mode content :org:capture:
+:PROPERTIES:
+:ID:       54da4b6fda2035a441ffe65c1b204ea4
+:END:
+https://github.com/alphapapa/org-protocol-capture-html
+
+* [#D] [2020-09-25] Tweet from @alexeyguzey
+:PROPERTIES:
+:ID:       fb50514effe967ada3a4a28cd6cc4f44
+:END:
+: https://twitter.com/alexeyguzey/status/1309584536376872961
+: @alexeyguzey: @patrickc Higgs: "Today I wouldn't get an academic job. It's as simple as that. I don't think I would be regarded as productive enough." https://t.co/wOlfbj9OUL
+* [#D] [2020-02-21] Files are fraught with peril https://danluu.com/deconstruct-files :os:
+:PROPERTIES:
+:ID:       73542de78d22357fe850349fa28c2322
+:END:
+- ok, files are hard
+
+* [#D] [2019-10-11] Collapse OS — Bootstrap post-collapse technology :prepping:bootstrap:
+:PROPERTIES:
+:ID:       6f402bb94fd89683844c245dfe9cd7da
+:END:
+https://collapseos.org/
+** [#D] [2019-10-11] Collapse OS — Bootstrap post-collapse technology | Lobsters :prepping:
+:PROPERTIES:
+:ID:       ce1d903cbbb78a243402542068acddba
+:END:
+https://lobste.rs/s/nxxttu/collapse_os_bootstrap_post_collapse
+: If computers are useful post-collapse (big if), people will scavenge x86 boxes because they’re everywhere, people are far likelier to know how to use it, and they already run most everything. There’s enough around that scavenging is easier than using 1970s tech, and the older examples are quite workable with a soldering iron anyway.
+
+* TODO [#D] My problem with mediation, how efficient is the gain of concentration? :blog:
+:PROPERTIES:
+:CREATED:  [2019-10-26]
+:ID:       2cff3d5e552925ef618588f762d13bc3
+:END:
+
+* [#D] [2019-06-01] motivation for core.worktree             :setup:dotfiles:
+:PROPERTIES:
+:ID:       c9d19fe655c034a27d256f85b5b5df03
+:END:
+can't use bare repository since they don't have index
+we don't want to use working directory since it's just confusing
+solution is git config core.worktree $HOME
+* [2019-08-02] Why Age? Should We End Aging Forever? - YouTube  :aging:death:
+:PROPERTIES:
+:ID:       a7d948bc347b42138d4f6f8f242a58d5
+:END:
+https://www.youtube.com/watch?v=GoJsr4IwCm4&list=WL&index=40&t=0s
+: shallow, but ok video
+* [2019-08-03] Why Die? - YouTube
+:PROPERTIES:
+:ID:       4c6b3ea16986e8dbdcca352c0f0be954
+:END:
+https://www.youtube.com/watch?v=C25qzDhGLx8&list=WL&index=39&t=13s
+: good point that death is not a solution to our problems, and similar thought that I had that death is not a good way to appreciate life (as contrast)
+* [2020-04-05] [[https://reddit.com/r/askscience/comments/fvcjhn/how_does_even_if_this_flu_shot_isnt_an_exact/fmi7dix/][How does “even if this flu shot isn’t an exact match, if you do get the flu it won’t be as bad” work?]] /r/askscience
+:PROPERTIES:
+:ID:       3ad0196ee8c1b3a4f38736df5381411b
+:END:
+There's actually a very cool effect where either getting infected with flu or getting vaccinated boosts your antibody response to all previous strains of flu you've encountered (by getting flu or by being vaccinated). In recent years WHO have begun to shift towards using antigenically advanced vaccines, whereby they predict how currently circulating strains of flu will evolve and artificially create vaccines for the flu strain they think will be circulating in 6 months time, as even if the virus doesn't mutate to a new strain, the antibody backboost means you still get protection against most circulating strains. Check out this paper (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4246172/) if you want a more detailed explanation, but basically the vaccine can boost your antibody response to a fairly wide range of influenza virus strains  (this is at least true for type A H3N2 influenza, there are 4 different types of influenza in the annual vaccine)
+* [2020-07-21] [[https://reddit.com/r/askscience/comments/hv1wua/is_there_a_natural_reference_for_the_correct_time/fyrhwvr/][Is there a natural reference for the correct time, down to the milliseconds?]] /r/askscience
+:PROPERTIES:
+:ID:       ec84bc972b6db7b25b2e08c63563d853
+:END:
+:  Astronomer here! One I haven’t seen mentioned yet are [pulsars](https://en.m.wikipedia.org/wiki/Pulsar), which are rapidly spinning neutron stars that give off a regular radio pulse. They are *so* regular that we can model the pulses to within one second in a million years, and every pulsar is different in its pulsar profile. So I’ve heard it said that in the far future we could use them for interstellar GPS of sorts.
+: 
+:  So yeah you could definitely use pulsars for this reference assuming you lost all the clocks on Earth but kept all the info about pulsars and radio astronomy. Some pulsars are even millisecond pulsars, meaning they spin every few milliseconds, so you could even cover that part of the time scale.
+* [2014-01-27] [[https://reddit.com/r/AskHistorians/comments/1wa3kc/is_there_any_truth_to_the_story_of_heisenberg/cf033ai/][Is there any truth to the story of Heisenberg intentionally sabotaging the Nazi nuclear program in WWII?]] /r/AskHistorians
+:PROPERTIES:
+:ID:       69c8202934960b3b15f886464401b4fd
+:END:
+During World War II, the German atomic energy program decided, by 1942, to be entirely focused on reactor development. This was, they thought, the area of nuclear fission research was most likely to produce useful military results in the short term. They thought bombs were probably possible but incredibly difficult to construct, and did not think any other nation was going to have any success with them in the short term. The German teams honestly thought they were ahead of the entire world in fission research, and when a group of the top people were carted off to a British manor house, Farm Hall, at the end of the war, they thought that maybe the Allies were trying to keep them from giving their knowledge to the Soviets (true) and that the Allies would want their knowledge for themselves (false).
+
+When they heard about the bombing of Hiroshima, they were shocked and surprised. Many of them refused to believe the United States could have pulled off a bomb. After getting more news information and talking it over, they realized it was in fact possible if the USA had thrown tremendous resources at it, and also realized that some of their assumptions about the size of the critical mass for the bomb were off.
+
+This left them in a tricky situation in terms of their egos and their nationalism. Were they simply failures? This is what Otto Hahn (discoverer of fission, and no fan of Hitler) suggested — that they were just second-raters.
+
+But many of them started to create and cling to a different story. They weren't accidental failures — maybe they were _deliberate_ failures. Maybe they didn't really _want_ to make a bomb, and that's why they didn't do it. This isn't the same thing as saying they _intentionally sabotaged_ the project, but it was more of a psychological explanation. If they had wanted to make a bomb, surely they would have done more work in that direction, right? So they must not have wanted to make a bomb. Because who would want to give Hitler a bomb?
+
+This story — known to historians as the _Lesart_ of the German atomic program — was propagated in subtle ways in the aftermath of World War II. It achieved its initial circulation in Robert Jungk's _ Brighter than a Thousand Suns_ (_Heller als tausend Sonnen_) in 1956. Jungk was the first to suggest, based on a vague _Lesart_ explanation offered up by Heisenberg, that Heisenberg had intentionally sabotaged the project. Heisenberg himself was somewhat appalled by this. Here is what he wrote to Jungk in 1956:
+
+> You speak here towards the end of the second paragraph about active resistance to Hitler, and I believe—pardon my frankness—that this passage is determined by a total misunderstanding of a totalitarian dictatorship. In a dictatorship active resistance can only be practiced by people who seemingly take part in the system. When someone speaks openly against the system, he quite certainly deprives himself of any possibility of active resistance. For either he then expresses his criticism of the system only occasionally in a politically harmless form, and then his political influence can be blocked very easily; say, with respect to the youth, by people saying: Sure, old Professor X is a nice old man, but he naturally has no understanding for the enthusiasm of the youth, or something of the sort. Or, conversely, he really tries, say, to move the students politically, and then within a few days he naturally would meet his end in a concentration camp, and even his self-sacrificing death would remain practically unknown, since no one would be allowed to talk about it. _I would not want this remark to be misunderstood as saying that I myself engaged in resistance to Hitler._
+
+Which is rather equivocating to say the least. Heisenberg isn't actually implying he did _anything_ in this particular letter, though he is implying that he did some kind of passive resistance.
+
+Historians have gone over Heisenberg's wartime activities in detail. There's no evidence whatsoever of intentional sabotage. Heisenberg actually went to great lengths to show he was in line with Nazi Germany's overall foreign intentions, and used his position to stump for Germany and German culture in occupied countries. He vigorously pursued reactor research. He did not vigorously pursue bomb research, but this is because, again, he did not think it was feasible in the short term. Here is another Heisenberg letter to Jungk, from 1957:
+
+> [In 1941] we in the uranium project had come to the following conclusion, on the basis of our experiments with uranium and heavy water: It will definitely be possible to build an energy-producing reactor out of uranium and heavy water. In this reactor (on the basis of theoretical work by von Weizsäcker) a product of U-239 [U-239 decays into Plutonium-239] will be generated that, like U-235, will be suitable as an explosive for atomic bombs. At the time we did not know of any process that could have produced significant quantities of U-235 with an effort that could be realized technically in Germany under wartime conditions. Since the production of atomic explosives using reactors could also obviously be realized only through many years of running huge reactors, it was clear to us in any case that the production of atomic bombs would only be possible with an enormous technical effort. Thus we knew that atomic bombs could be made in principle, but we also estimated that the necessary technical effort was
+bigger than it really was.
+
+> This situation seemed to us a particularly favorable precondition for the physicists to have an influence on the further course of events. For if the production of atomic bombs had been impossible, then the problem would not have arisen at all; but if it had been easily possible, then the physicists surely would not have been able to hinder their production. But the actual situation gave the physicists at this time a decisive influence on the further course of events, since they could argue vis-a-vis their governments that the atomic bombs would probably not come into
+play in the course of the war, or else argue that it would instead perhaps still be possible, with absolutely enormous efforts, to put them into play. That both ways of arguing were objectively fully justified was shown by the course of developments; for in fact even the Americans could not put the atomic bomb to use against Germany.
+
+The first paragraph of this letter is born out through documentation — the Germans knew that reactors might be a route to the bomb, but they also knew it would require large reactors. Their work on a small research reactor (which would have been worthless for bomb use) was slow and piecemeal and did not reflect any active bomb concern. They knew about uranium enrichment but considered it too difficult to really pursue in earnest.
+
+The second paragraph is the more problematic one. Again, Heisenberg isn't actually saying that he sabotaged anything. What he's saying was, under the conditions that existed, physicists could have pushed for the bomb if they really thought they could do it, but nobody in the government would fault them if they didn't. Is he saying they didn't push for the bomb because they didn't want Hitler to have one? No. But he's allowing that interpretation to be made if you want to make it.
+
+In short, even Heisenberg himself didn't ever really claim that he sabotaged the German atomic bomb project in any real way. At best he implied that maybe he wasn't as enthusiastic about the bomb as he could have been, which is in line with the preservation of the idea that he wasn't just a screw-up on this front. But there's no evidence he did anything like that. Of course, as Heisenberg himself pointed out in the first letter I quoted, the nature of being a passive resister in a totalitarian government is that you appear to be going along with the plan but you might not actually be going along with it. This makes the Heisenberg issue a tricky one for historians, because, as he points out, if he simply withheld enthusiasm for the bomb but otherwise made like a good German, it would be _indistinguishable_ from the situation where he just didn't push for it because he thought it wasn't very feasible.
+
+I think the Farm Hall transcripts make it clear that Heisenberg truly didn't think it was feasible, and in fact hadn't thought seriously about the physics of atomic bombs at all. (His discussions there reflect deep misunderstandings about how fast neutron fission chain reactions work.) Which to me puts him in the "was just a screw-up" camp, as opposed to the "was silently and passively resisting" camp.
+* [2017-11-03] [[https://reddit.com/r/askscience/comments/7ad5y0/how_large_could_a_rocky_planet_get/dpa0c1q/][How large could a rocky planet get?]] /r/askscience
+:PROPERTIES:
+:ID:       f19efe093dd308c520e596152bdacaa2
+:END:
+It all really depends on your definition of a rocky planet. Or a rock for that matter.
+
+[Athleticon93](/u/Athleticon93) is right for normally formed planets. Any planet getting really big as just a rocky planet is going to accrete lots of gas too and become a gas giant. But if we want to *make* a really big rocky planet, physics won't stop us for a while
+
+Start with a chunk of rock floating around in space. Let's say we borrowed mars for a bit. Don't worry, the solar system won't ask for it back. Now toss a rock down onto it. You have a bigger rocky planet. Keep doing that for a bit. The planet gets bigger and bigger. Surface gravity increases, and for now, the density of material at the core stays the same (ish). Things start to fork at this point though, depending on the thought experiment.
+
+First off, just dropping the rocks is going to be a problem. Dumping planetfulls of rocks onto an ever larger planet makes heat. A *lot* of heat, which will liquefy, and eventually boil our rocks. This will also drive out any volatiles in the rock; gasses, bound water, sulfur, etc. Pretty much anything that isn't iron or nickel or another high boiling element or very stable compound. For example, limestone, a common rock, will happily decompose to CO2 and CaO. Now our ball of rocks is surrounded by an ever thickening atmosphere of gasses. Whoops, we made a gas giant.
+
+So lets start again, but instead we'll teleport our rocks down to the surface. Compaction will produce some heat, but not enough to boil our rocks. *Yet...*
+
+The planet could get quite big (somewhere around 3-4 times the radius of the earth), but eventually the compressive forces of gravity will be enough to start severely compressing even solid material. The density of the core will go way up. You'll notice you're adding hundreds of cubic kilometres of stuff and your planet is only growing by tens of cubic kilometers. This is going to make a lot of heat. If our rocks have a fair bit of lighter elements in them (pretty much anything higher on the periodic table than iron), eventually somewhere around 60 times the mass of Jupiter the heat and pressure will be too much and our "rocky planet" will ignite into a very weird star
+
+Let's start again, again. We can't use rocks anymore, but we can use iron. Iron is at least a solid, and we can imagine running around on it pretty similarly to a regular planet. Get a big ball of iron and start the teleportation machine again with chunks of iron instead of rocks. Again, you'll see the planet grow, but after a certain point, roughly 2.5 times the radius of the earth, and several hundred times the mass, adding more mass will actually cause the radius to shrink. The iron planet will also be getting very very hot (tens of thousands of kelvin). What's happening is that the additional matter is causing increased gravity, and your planet is no longer being supported by the everyday pressure of electrostatics, like what keeps your feet from compressing a concrete floor. Instead the core is now dominated by electron degeneracy pressure. It's acting like a very hot, ultra dense gas. As you add more iron, you create more gravity. More gravity makes more pressure, more degenerate matter, and a smaller radius. Your "planet" is now a white dwarf. If you let it cool off for a few trillion years you'd be left with a ball of iron that, if you could walk around in about a hundred thousand g's of gravity, you could walk on and would be (sorta, kinda) like a planet. And that's as big as you can make a planet.
+* [2019-04-10] kynan/nbstripout: strip output from Jupyter and IPython notebooks :git:ipython:
+:PROPERTIES:
+:ID:       85e9f3d036a8f600d68cf35134b57351
+:END:
+https://github.com/kynan/nbstripout
+
+* [2020-07-18] [[https://stackoverflow.com/questions/282670/easiest-way-to-sort-dom-nodes][javascript - Easiest way to sort DOM nodes? - Stack Overflow]] :js:
+:PROPERTIES:
+:ID:       e1586166f61057f52495003f4ce9fde4
+:END:
+: By using list.children instead of list.childNodes, you can avoid the check for text nodes.
+* [#B] [2020-07-20] [[https://en.mapy.cz/zakladni?x=-0.0200000&y=51.5064000&z=11][Mapy.cz]] :travel:hiking:map:
+:PROPERTIES:
+:ID:       9807713fd36ab692591980db7062de99
+:END:
+
+* [2020-07-23] [[https://www.routeyou.com/][Enjoy the nicest routes | RouteYou]] :map:
+:PROPERTIES:
+:ID:       72a683ac880371936bc5430995fcba39
+:END:
+* [2020-07-27] [[https://www.youtube.com/playlist?list=PLVV0r6CmEsFxKFx-0lsQDs6oLP3SZ9BlA][Murray Gell-Mann (Scientist) - YouTube]]
+:PROPERTIES:
+:ID:       b89e0699b79735a58f565dc6867c563a
+:END:
+* [2015-06-14] CMB                                                :cosmology:
+:PROPERTIES:
+:ID:       4e95a37d757f2b5962d1ea9749405c20
+:END:
+: Just like the CMB tells us what was happening 300,000 years ago, the cosmological gravitational wave background will tell us about the nature of the universe at the time when they start their journey toward us.
+* [2015-06-14] animation of Earth seen from the Sun http://en.wikipedia.org/wiki/Season#Elliptical_Earth_orbit Elliptical Earth orbit does not influence seasons :earth:
+:PROPERTIES:
+:ID:       fe494beef7b09e55104350a64a8a447a
+:END:
+* [2013-02-15] http://www.ted.com/talks/lang/ru/phil_plait_how_to_defend_earth_from_asteroids.html :earth:
+:PROPERTIES:
+:ID:       5bdc5ea114f8044d4ef5b372393898b3
+:END:
+* [2017-04-20] Lagrangian points
+:PROPERTIES:
+:ID:       bce7efefa4314457d80e3a14d3ed5f76
+:END:
+: Only the first three Lagrangian points are unstable positions. They're unstable in the same way as the point at the top of a hill. A ball balanced exactly in the center of the peak will stay put, but given a slight nudge in any direction it will roll down the slope and away.
+: (This is the main reason SOHO doesn't sit exactly on the L1 point, but orbits it instead.)
+: The Trojan points, L4 and L5, are stable. They act more like the bottom of a bowl. If an object there is nudged, gravity will tend to draw it back toward where it started.
+* [2020-07-21] [[https://twitter.com/DanielandJorge/status/1285463683758358528][Explain the Universe on Twitter: "What are phonons, rotons, plasmons, anyons and excitons? Get yourself into a pure stream of explainons in our new episodon on quasiparticles: https://t.co/1l9lTmzjcj" / Twitter]] :listen:
+:PROPERTIES:
+:ID:       0a5a0b97e98c0f9a52bb5c6fc740055f
+:END:
+* [2019-02-04] oliexdev/openScale: Open-source weight and body metrics tracker, with support for Bluetooth scales
+:PROPERTIES:
+:ID:       3bebe2ff15812222e83a72818163887b
+:END:
+https://github.com/oliexdev/openScale
+
+* [2020-08-11] [[https://en.wikipedia.org/wiki/Tachyonic_field][Tachyonic field - Wikipedia]]
+:PROPERTIES:
+:ID:       be50c21025726938014e649f7e59cfee
+:END:
+: A tachyonic field, or simply tachyon, is a field with an imaginary mass
+* [2020-08-12] [[https://www.youtube.com/watch?v=fwjwePe-HmA][(4) Why Trains are so Expensive - YouTube]]
+:PROPERTIES:
+:ID:       e02f5fe72130a1af36f0c5aabf2d5a44
+:END:
+
+* [2020-08-15] [[https://en.wikipedia.org/wiki/OpenWorm][OpenWorm - Wikipedia]]
+:PROPERTIES:
+:ID:       19e902c89ebb2c90a5e2bb1ec29d325e
+:END:
+: OpenWorm is an international open science project to simulate the roundworm Caenorhabditis elegans at the cellular level as a simulation.[1][2][3] Although the long-term goal is to model all 959 cells of the C. elegans, the first stage is to model the worm's locomotion by simulating the 302 neurons and 95 muscle cells.
+* [2020-08-18] [[https://ru.wikipedia.org/wiki/%D0%98%D0%B2%D0%B0%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE,_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87][Иваненко, Дмитрий Дмитриевич — Википедия]]
+:PROPERTIES:
+:ID:       d8dd4b28939018f4def66a90b897a399
+:END:
+:  В. Л. Гинзбург в интервью утверждает, что Иваненко писал доносы на Тамма и на него
+* [2020-08-18] [[https://news.ycombinator.com/item?id=6198209][Being in the topic of Paul Dirac, there is a wonderful biography - **The Strange... | Hacker News]]
+:PROPERTIES:
+:ID:       e60a35212a7cb976639da823cbd30caa
+:END:
+: Being in the topic of Paul Dirac, there is a wonderful biography - The Strangest Man: The Hidden Life of Paul Dirac, Quantum Genius, by Graham Farmelo.
+: 
+: It is an exceptionally well-written biography of one of the greatest physicists, and a rare combination of a page-turner and a book written with the English reserve.
+: 
+: Besides the history of an important part of physics, and its historical background (including the rise of Nazism and Stalinism, WWII and later - Cold War) one can clearly see that science is not a dry product, polished from its very beginning. It's a process, created by various people, of different personalities and views, having simple and genial ideas, making blunt mistakes, and having life besides science (even Dirac).
+: 
+: Also, it shows science (here: physics) as a sociological process, with its centre shifting from Cambridge (centred around E. Rutherford), Copenhagen and Gottingen to Princeton, Moscow, ...
+* [2020-08-19] [[https://packaging.python.org/discussions/install-requires-vs-requirements/][install_requires vs requirements files — Python Packaging User Guide]] :pip:
+:PROPERTIES:
+:ID:       c42097dcfffc635b30d639eee77a3599
+:END:
+: Requirements Files described most simply, are just a list of pip install arguments placed into a file.
+: Whereas install_requires defines the dependencies for a single project, Requirements Files are often used to define the requirements for a complete Python environment.
+: Whereas install_requires requirements are minimal, requirements files often contain an exhaustive listing of pinned versions for the purpose of achieving repeatable installations of a complete environment.
+: Whereas install_requires requirements are “Abstract”, i.e. not associated with any particular index, requirements files often contain pip options like --index-url or --find-links to make requirements “Concrete”, i.e. associated with a particular index or directory of packages. 1
+: Whereas install_requires metadata is automatically analyzed by pip during an install, requirements files are not, and only are used when a user specifically installs them using pip install -r.
+* [2020-08-21] [[https://en.wikipedia.org/wiki/Chirality_(physics)][Chirality (physics) - Wikipedia]]
+:PROPERTIES:
+:ID:       619004285532f42e31bfbd41a68e74b9
+:END:
+: For massless particles – photons, gluons, and (hypothetical) gravitons – chirality is the same as helicity; a given massless particle appears to spin in the same direction along its axis of motion regardless of point of view of the observer.
+* [2020-08-22] [[https://pauliacomi.com/2020/06/07/plotly-v-bokeh.html][Plotly vs. Bokeh: Interactive Python Visualisation Pros and Cons | Paul Iacomi]] :bokeh:viz:
+:PROPERTIES:
+:ID:       03e6fe721e08dd32f675e5335bf124ea
+:END:
+- comment:
+  : pretty good comparizon
+* [2020-08-23] Nth Country Experiment - Wikipedia                   :nuclear:
+:PROPERTIES:
+:ID:       a92bb768f09cdc158d0292a7bd717ba6
+:END:
+: The experiment consisted in paying three recent young physicists who had just received their PhDs, though had no prior weapons experience, to develop a working nuclear weapon design using only unclassified information, and with basic computational and technical support.
+
+https://en.m.wikipedia.org/wiki/Nth_Country_Experiment
+
+* [2020-09-27] .
+:PROPERTIES:
+:ID:       14a4e17eda3bd432daf086a562f50281
+:END:
+: Something that I’m surprised a lot of devs don’t know; there are official domains you’re supposed to use for documentation, testing, etc. They are specifically reserved by IANA for these purposes. Originally I think it was just example.com, but they now have a list of all them: https://www.iana.org/domains/reserved
+
+* [2020-08-26] [[https://testtubegames.com/velocityraptor.html][Velocity Raptor | TestTubeGames]] :relativity:game:
+:PROPERTIES:
+:ID:       9579cbafb8cd53285bf2e3e20b9e75fa
+:END:
+* [2020-09-13] [[https://www.youtube.com/watch?v=jcu581GBmPs&list=WL&index=69&t=0s][(14) Батыгин - русская звезда мировой науки (English subs) - YouTube]]
+:PROPERTIES:
+:ID:       4c5fbf3dae3e6bd87a0a5b73787958e9
+:END:
+- comment:
+  : awesome guy, nice interview
+* [2020-09-16] [[https://en.wikipedia.org/wiki/IKEA_effect][IKEA effect - Wikipedia]]
+:PROPERTIES:
+:ID:       6fc8108a8685b0dc74d8f73bed4b79a7
+:END:
+: The IKEA effect is a cognitive bias in which consumers place a disproportionately high value on products they partially created.
+* [2019-04-29] [[https://reddit.com/r/CampingGear/comments/93a5pg/opinions_on_hiking_shoes/e3bwwhj/][Opinions on hiking shoes?]] /r/CampingGear
+:PROPERTIES:
+:ID:       b32d0abb63419b925152df01579586e6
+:END:
+: Solomon X Ultra are very comfortable, lightweight, and still supportive
+** [2020-10-05] yep, can confirm
+:PROPERTIES:
+:ID:       1c46921aad451acc1594c0b301bd9f70
+:END:
+* [2019-04-29] [[https://reddit.com/r/CampingGear/comments/9ewy7u/how_to_track_multiday_hikes_best_gps_watch_unit/e5s3x66/][How to track multi-day hikes? Best GPS watch / unit with longest battery life?]] /r/CampingGear :qs:gps:
+:PROPERTIES:
+:ID:       2947d5724944315c0ef3d3f8d2a24462
+:END:
+: I really like GPS Logger on Android. It's really simple, highly configurable, and open source. Plus, it's not like I'm using my phone anyway. Setting it at 10-30 second intervals in airplane mode will last me a couple days. I haven't found a watch that won't break the bank that can do that.
+: 
+: https://play.google.com/store/apps/details?id=com.mendhak.gpslogger
+: 
+: It's just GPS points though. If you want to see them on map, you'll have to open it in a map program. I use GPX Viewer, but I don't think it's anything extra special. I also upload them automatically when I get internet again to Google Drive and Dropbox.
+: 
+: I pretty much have used my phone for everything since smart phones have been a thing. They are the ultimate multipurpose devices. I've never really felt the need or been able to justify things like smart watches, E-Readers, Cameras (once smartphones hit 5mp or so).
+* [2019-06-22] W3C Web Annotation Working Group              :pkm:annotation:
+:PROPERTIES:
+:ID:       7b42e59c529a8f01baf78235b0892fe2
+:END:
+https://www.w3.org/annotation/
+** [2019-06-27] https://twitter.com/mrgunn/status/1129033408628133888
+:PROPERTIES:
+:ID:       f9b0f5ca02748d1502a110ced0b46c33
+:END:
+** [2019-06-27] https://web.hypothes.is/blog/annotation-is-now-a-web-standard/
+:PROPERTIES:
+:ID:       a91bb4279c90b3b9201ebda180899153
+:END:
+
+* [2020-10-01] [[https://www.youtube.com/watch?v=yVOnHWnLSeU&list=WL&index=80][(1) The Mystery Flaw of Solar Panels - YouTube]]
+:PROPERTIES:
+:ID:       f55c554c0488526e9295d1df304ae781
+:END:
+- comment:
+  : very good explanation of solar panel physics
+* [2020-10-08] [[https://news.ycombinator.com/item?id=24710565][Generalizing 'jq' and Traversal Systems using optics and standard monads | Hacker News]] intuition behind lenses
+:PROPERTIES:
+:ID:       b81d05e89a08c8c823fab0941d12f18f
+:END:
+: The point is really that lenses are values that represent locations in a data structure. And, as values, they can be combined, transformed, serialized, etc etc. Imagine having a type that represents a chain of method selectors, and that gives you some idea of the purpose.
+: The fact that method selectors only appear very rarely as first-class values in most languages means that most people aren’t tuned in to scenarios where they could be applied. But I bet you’ve invented special cases of this yourself, when you had a function that needed to dig data out of one of several locations, depending on other inputs.
+** [2020-10-08] [[https://news.ycombinator.com/item?id=24710565][Generalizing 'jq' and Traversal Systems using optics and standard monads | Hacker News]]
+:PROPERTIES:
+:ID:       42dabbd53add008505ef4b82a23e303b
+:END:
+: jkachmar 4 hours ago [–]
+: It definitely can feel a bit strained at times, but the basic metaphor of:
+: - lenses “focus” on elements of a product type
+: - prisms “split” a sum type so that optics can work over selected branches
+: ...feels nice when you’ve been working with it for awhile.
+* [2020-10-13] [[https://tyrrrz.me/blog/fakes-over-mocks][Prefer Fakes Over Mocks | Alexey Golub]] :testing:
+:PROPERTIES:
+:ID:       01a231ef803fd9fee15a9009cd016b14
+:END:
+* TODO mypy + multiple python versions                                 :mypy:
+:PROPERTIES:
+:CREATED:  [2020-10-31]
+:ID:       c844f2a1b96497b20001331d923fa047
+:END:
+this is mypy friendly
+: if sys.version_info[:2] >= (3, 8):
+
+this isn't
+: if sys.version_info.minor >= 7:
+* [2020-10-25] [[https://news.ycombinator.com/item?id=24866279][The Coming Civil War over General Purpose Computing (2012) | Hacker News]] :sadinfra:
+:PROPERTIES:
+:ID:       64bd8b445b2f5d39ff5b6db2964c9375
+:END:
+* [2020-10-26] [[https://news.ycombinator.com/item?id=24891576][What's crazy to me is how insanely overspec'd mobile devices are for what they d... | Hacker News]] :sadinfra:
+:PROPERTIES:
+:ID:       4653997ab81900432b610297785f2cd8
+:END:
+: What's crazy to me is how insanely overspec'd mobile devices are for what they deliver. If you went back in time and told 1999 me the following:
+: I'll give you a computer with the following:
+: * 256GB of solid-state storage
+: * 6 CPUs @ 3+GHz
+: * 8GB of RAM
+: * Weighs only 200 grams
+: * Battery-powered, lasts 5+ hours
+: * 1440 x 3168 resolution display
+: I would have been absolutely gobsmacked. Such a machine absolutely outclasses every desktop up into the early 2010s!
+: 
+: And then you would tell me that it's mostly used to shitpost on reddit and Twitter and would be completely useless as a development machine, and the manufactures would do everything to make it impossible to put what software I want on it...and also it would spy on me everywhere I went in order to sell me garbage...
+: We took a wrong turn somewhere, didn't we?
+* [2020-10-26] [[https://news.ycombinator.com/item?id=24897279][25 Years In Speech Technology and I still don’t talk to my computer | Hacker News]] :sadinfra:
+:PROPERTIES:
+:ID:       ee66d61f16270a70a2c43e848d0f9a38
+:END:
+
+* [2020-10-29] [[https://fcenter.ru/online/softarticles/interview/6862][Интервью с создателем Total Commander - Статьи Software]]
+:PROPERTIES:
+:ID:       3d4225a2b54c617963861f2a2b2e9b9d
+:END:
+* [2020-11-03] [[https://news.ycombinator.com/item?id=24881893][This is something Stallman[1] and others have talked about for a while now, with... | Hacker News]] :sadinfra:
+:PROPERTIES:
+:ID:       54c3c7d580396bf36ad246cf315a3513
+:END:
+: I remember in the 90s people all thought Stallman was crazy. And by people I mean developers, Linux users, people on usenet, etc. We all appreciated his contributions but at the end of the day just figured he was wearing a tin foil hat.
+* [2020-11-09] [[https://yoric.github.io/post/why-did-mozilla-remove-xul-addons/][Why Did Mozilla Remove XUL Add-ons?]]
+:PROPERTIES:
+:ID:       cac2d515fa663570369b37c0e994ce37
+:END:
+
+* [2020-11-22] [[https://stackoverflow.com/questions/22832104/how-can-i-see-hidden-app-data-in-google-drive][How can I see hidden app data in Google Drive? - Stack Overflow]] :sadinfra:
+:PROPERTIES:
+:ID:       03d3a0e4502aad8a0c16a9a05974ab09
+:END:
+- comment:
+  : fascinating, apparently this is how you access your own data for google drive apps?
+* [2020-09-29]                                          :ci:circleci:windows:
+:PROPERTIES:
+:ID:       c9cf547414ea03d0b0e0a16eefffbd0a
+:END:
+- bash works odd, powershell as well
+- had to disable setup_requires=['setuptools_scm'] in setup.py, some ssl errors
+- how to edit stuff? vim doesn't really work the quickes was git push/git pull
+- shell history (with arrows) doesn't work
+* [2020-05-28] [[https://softwareengineering.stackexchange.com/questions/290566/is-localstorage-under-the-cookie-law][javascript - Is localStorage under The Cookie Law? - Software Engineering Stack Exchange]]
+:PROPERTIES:
+:ID:       7727c394fe3611b7eff3a7b31b6a0e23
+:END:
+: The cookie law is not actually about cookies (and its not actually called the cookie law). Its about tracking users, storing and sharing the information with third parties. Cookies are just the most popular method to track users.
+: If you don't want to show the "cookie warning" then just don't track the users beyond the session and don't share traffic data with third parties.
+: The actual directive.
+* [2020-12-03] [[https://www.arp242.net/webui.html][The web as a GUI toolkit]] :web:html:css:
+:PROPERTIES:
+:ID:       217618e1d07b52669b4c74d6498450d2
+:END:
+: Some things that work really well that are often hard in native GUI toolkits:
+:     You can zoom pretty much any content as large or small as you like. Doing this in native UI involves either editing obscure config files, or mucking about with the system’s DPI settings (not easy to zoom per-app or changing zoom levels depending on mood or screen you’re using).
+:     More cross-platform than pretty much anything else.
+:     Open anything in a new context (tab or window).
+:     Copy/paste anything.
+:     Search any text with e.g. Ctrl+F.
+:     Back button.
+:     Modifying anything easily; even if you’re not doing this directly yourself this has huge benefits in the form of e.g. some simple bookmarklets, or your adblocker.
+:     Unlike desktop applications, everything is sandboxed. If you think persistent tracking and fingerprinting on the web is bad: it’s even easier on the desktop. Something like hash(/etc/passwd) should do the trick to generate a persistent unique device ID.
+:     Very compatible; the first website: last modified somewhere in the early 90s still works in your Firefox or Chrome today.
+* [2020-12-01] [[https://reddit.com/r/math/comments/k4hcor/john_von_neumanns_genius_and_flaws/ge8tlm0/][John von Neumann's genius and flaws]] /r/math
+:PROPERTIES:
+:ID:       9869ad9d36fe617ab261c03563f57d7b
+:END:
+: Bear in mind that the scientists in the Manhattan Project thought they were developing a weapon to destroy Hitler. (As it happened the war in Europe ended a few months before the bomb was ready.)
+: When you consider that von Neumann was Jewish, and had worked in Germany just before Hitler's rise to power, and certainly had many, many friends and colleagues lose their lives in the death camps--it starts to make a bit of sense. With historical figures like this, I often find it helpful to imagine being in their shoes making decisions, rather than thinking about it from our detached current-day perspective with perfect hindsight.
+: Also you've probably learned that von Neumann invented the modern subject of game theory. He understood that Mutual Assured Destruction meant that, ironically, the great powers would be unlikely to ever use nuclear weapons against each other. Which has--so far--been the case. Von Neumann, if he were alive today, might point out that the number of people killed in wars has dramatically dropped since the invention of the bomb.
+* [2020-11-08] [[https://www.digitalocean.com/community/questions/i-want-to-know-how-to-block-ip-addresses-via-digitalocean][I want to know how to block IP addresses via Digitalocean? | DigitalOcean]] :hosting:
+:PROPERTIES:
+:ID:       83cf43f7dabfe1fe3ef2410b2ba270ac
+:END:
+: The simplest way to block specific IP address or ranges of them would be to set up a basic firewall using UFW. It is included with Ubuntu by default.
+: You can then block a specific IP address by running:
+:     sudo ufw deny from XXX.XXX.XX.XX
+* TODO . The gun didn't go off. It simply disappeared in a brilliant flash of blue light, :kobo2org:
+:PROPERTIES:
+:CREATED:  [2019-07-06]
+:ID:       f047a7b1018cbe985c00d2db1ac41971
+:END:
+Todo blog about singularity books
+from The Metamorphosis of Prime Intellect by Roger Williams
+
+* [2020-12-08] [[https://hakibenita.com/python-mypy-exhaustive-checking][Exhaustiveness Checking with Mypy | Haki Benita]] :python:mypy:
+:PROPERTIES:
+:ID:       c94b0b71d84a4c16470220541ea57d1f
+:END:
+: Exhaustiveness Checking
+
+- comment:
+  : use else clause with NoReturn, then mypy assists in refining
+* [2020-12-15] [[https://nitter.net/mekarpeles/status/1338766203192451074#m][Mek (@mekarpeles): "What's something about the web that's obviously broken? I'll start: No version control history and all the content is dynamic." | nitter]] :sadinfra:
+:PROPERTIES:
+:ID:       486ba59c7d87c7505a5dc31b45fb72b9
+:END:
+: What's something about the web that's obviously broken?
+
+- comment:
+  : really good thread
+* https://github.com/randyrants/sharpkeys/releases to remap caps to esc :windows:setup:
+:PROPERTIES:
+:ID:       fadf35f1583f04d824bd7b1e148cb7b7
+:END:
+* [2017-07-27] YSK: You can see deleted posts by replacing the "r" in "reddit" with a "c" in the URL. :reddit:
+:PROPERTIES:
+:ID:       b37714887d03e811df412f366f347c60
+:END:
+* [2017-09-07] https://www.humanbenchmark.com/dashboard        :qs:cognitive:
+:PROPERTIES:
+:ID:       181f2d76f23f00b3d6a5db830384a479
+:END:
+* [2018-07-02] Fat soluble vitamins are stockpiled in the body in fatty tissue and the liver :metabolism:
+:PROPERTIES:
+:ID:       1f4870a2d202b5c012293d38aa8ffeff
+:END:
+* [2016-06-12] mutation testing
+:PROPERTIES:
+:ID:       293e22f8fdae49c0aacc33866f509fd9
+:END:
+* [[https://nodejs.org/api/util.html#util_util_inspect_object_options][inspecting object]] :nodejs:debug:
+:PROPERTIES:
+:ID:       53fbede5f214794d128c825dd6700c60
+:END:
+: let util = require('util')
+: console.log(util.inspect(resp, {showHidden: false, depth: 1}))
+* TODO a page with my favourite git commands & tricks?        :blog:exobrain:
+:PROPERTIES:
+:CREATED:  [2020-12-30]
+:ID:       4afd51a7643dbf6a0e3d8b9ce5470268
+:END:
+wsdiff
+image diff
+nbstirpout
+iadd
+extra worktree dir
+* TODO defaul error reporting sucks                                   :elisp:
+:PROPERTIES:
+:CREATED:  [2021-01-01]
+:ID:       217c84950f171352db0454b3abe7c9b7
+:END:
+e.g. try making a typo here. by default it dumps a single message with absolutely no context whatsoever (file/line number)
+: (advice-add #'org-org-section         :befoire #'exobrain/before-org-org-section)
+
+stacktrace is pretty useful too
+* TODO elisp sucks                                                    :elisp:
+:PROPERTIES:
+:CREATED:  [2021-01-01]
+:ID:       5e3208b561e932f52387aaa12863ea0f
+:END:
+let bindings struct is _really_ annoying, which discourages naming variables
+* TODO sort of hard to express... but basically                       :elisp:
+:PROPERTIES:
+:CREATED:  [2021-01-01]
+:ID:       488b79883ac8761cc118fb8cf1d708b1
+:END:
+maybe it's just org-mode thing since this is the only 'big' elisp system I worked with
+example with org-element-set/adopt in exobrain source code
+if it was language with 'real' types, it would be easy to dir() or somethign to see what methods are available
+but maybe it would be less flexible, I dunno
+on the other hands it means that you can always hack it *somehow* and then maybe figure out 'proper'
+but discoverability really suffers
+* TODO good: parinfer sometimes is quite nice                         :elisp:
+:PROPERTIES:
+:CREATED:  [2021-01-01]
+:ID:       da05abd7499a0b54cc174fe188bd2036
+:END:
+sometimes though it arbitrarily reararnges parens. e..g I have to be _really_ careful when pasting big source blocks from elsewhere
+* TODO good parts                                                :elisp:blog:
+:PROPERTIES:
+:CREATED:  [2021-01-01]
+:ID:       c8fd96c6a1a7d9c695c266f5e65c2680
+:END:
+advice-patch
+* TODO elisp sucks: discourages intermediate variables                :elisp:
+:PROPERTIES:
+:CREATED:  [2021-01-01]
+:ID:       f447fa39977a2166018d23fc620f946e
+:END:
+
+: собственно мотивационный пример на питоне
+: 
+: def normalize(vec):
+:    x, y = vec
+:    len = sqrt(x ** 2 + y ** 2)
+:    if len == 0:
+:        raise RuntimeError(f'bad vector {vec}')
+: 
+:    nx = x / len
+:    ny = y / len
+:    return (nx, ny)
+: 
+: на елиспе
+: 
+: (defun normalize (vec)
+:   (let* ((x   (car vec))
+:          (y   (cdr vec)))
+:          (len (sqrt (* x x) (* y y))))
+:     (if (=0 len)
+:         (error (format "bad vector %s" vec)))
+:     (let* ((nx (/ x len))
+:            (ny (/ y len)))
+:       `(,nx ,ny)))
+: 
+: а я хочу как-то так
+: 
+: (defun normalize (vec)
+:   (let' (x y) vec) ;; can't do in elisp?? maybe with cl-destructuring-bind...
+:   (let' len   (sqrt (* x x) (* y y)))
+:   (if (= 0 len)
+:       (error (format "bad vector %s" vec))
+:   (let' nx (/ x len)
+:         ny (/ y len))
+:   `(,nx ,ny)))
+: 
+: наверное это можно добиться если добавить какую-нибудь магию вроде макроса (scope ...), который эти let' правильно интерпретирует
+* TODO lisp unpacking like in python  =(let ((x '(2 3))) `(1 ,@x 4 5))= :blog:elisp:
+:PROPERTIES:
+:CREATED:  [2021-01-01]
+:ID:       b4b7e98253b19a1d7001b771b90b2003
+:END:
+* IMO, long names like appendChild, getElementById, createTextNode, etc discourage use of vanilla js :plt:js:
+:PROPERTIES:
+:CREATED:  [2021-01-03]
+:ID:       676d410a06017070cb0be95897a42b9f
+:END:
+* [2021-01-04] ~ vs = : the former preserves underscores? so better to use it? :orgmode:
+:PROPERTIES:
+:ID:       f0327e4b36c28822581711dc689ca025
+:END:
+* [2017-05-06] use =hg-fast-export= to convert                :mercurial:git:
+:PROPERTIES:
+:ID:       8ccef37af32b4b73ec7f5119db68cf7f
+:END:
+* [2021-01-06] unwind-protect works as with / try-finally block :python:elisp:
+:PROPERTIES:
+:ID:       d98d5a9e5dc5b8ca3f910014a6c9086c
+:END:
+* TODO good things: hacking on the config while loading stuff via eval-defun :elisp:
+:PROPERTIES:
+:CREATED:  [2021-01-06]
+:ID:       413d0544df3d5de587073462e286d070
+:END:
+i.e. I think people who advocate for REPL are pitching for a completely wrong thing -- I want to keep my code tidy, it's just nice to execute it instantly
+* [2017-11-06] penrose diagram
+:PROPERTIES:
+:ID:       c6bbc9cad8696c70fcd2a96192bbbb0d
+:END:
+https://jila.colorado.edu/~ajsh/insidebh/penrose.html
+https://www.youtube.com/watch?v=mht-1c4wc0Q
+http://casa.colorado.edu/~ajsh/schw.shtml
+
+* [2015-06-19] Mir: The attitude (orientation) of the station was independently determined by a set of externally mounted sun, star and horizon sensors :space:
+:PROPERTIES:
+:ID:       513f8cfe6faa123ef4610b77b694fead
+:END:
+* [2015-06-19] Байконур                                               :space:
+:PROPERTIES:
+:ID:       2e5c79b4c3d53e2a05f7e49420dfb47d
+:END:
+Союз: escape pod для критических ситуаций, отделяется первым
+потом боковые двигатели, падают в незаселенной местности
+3.5 G на несколько секунд
+Взлетает несколько минут
+
+side burn to avoid the colision
+
+Reentry: 140 km: separates descent module
+
+Capsule's lift increases/decreases when it is rotating, enables the possibility for "surfing" the atmosphere
+* profiling emacs                                                     :emacs:
+:PROPERTIES:
+:ID:       01bdf930b6d20eb3aca4136992f0736c
+:END:
+~emacs --debug-init --timed-requires~
+
+(will create a buffer with load times)
+vim core/core-debug.el , (defvar spacemacs-debug-timer-threshold 0.05 to adjust
+
+~emacs --debug-init --profile~ -- will create CPU and memory profile
+* [2017-11-30] 3SAT limit of approxibility Hastad                :complexity:
+:PROPERTIES:
+:ID:       93928436f7dac1ce87efbd8eb02a7577
+:END:
+satisfying 7/8 clauses: randomize, polynomial (linearity of expectation)
+satisfying 7/8 + eps: NPC
+* [2017-10-03] hyperbolic discounting                              :rational:
+:PROPERTIES:
+:ID:       359c746dd7aa14ea32ba45ec127910af
+:END:
+https://www.gwern.net/Melatonin#self-discipline
+: This dilemma is far from unique. It is called hyperbolic discounting; humans can make the rational decision when at a great distance from a choice, but the closer they come, the more warped their decisions are.
+
+* DONE [#A] [2019-08-25] [[https://reddit.com/r/askscience/comments/cu9h9i/how_are_molecular_structures_determined_with_such/][How are molecular structures determined with such precision? How were they determined in the past?]] /r/askscience
+:PROPERTIES:
+:ID:       9d23acd8966385093b0cfea59cc53e56
+:END:
+: My question was inspired by learning that [lutein](https://en.wikipedia.org/wiki/Lutein#/media/File:Lutein_molecule_spacefill.png) and [zeaxanthin](https://en.wikipedia.org/wiki/Zeaxanthin#/media/File:Zeaxanthin_molecule_spacefill.png) are nearly identical molecules (C40H56O2), with the only difference between the two being that a single double bond is found in neighboring positions along a hexagon at one end of the molecule. These molecules are rather large. How are molecular structures determined so exactly? When did chemists acquire this capability? And what were the major milestones in our ability to determine molecular structure?
+
+
+: I don't just mean how many of each kind of element and where they are, but also things as subtle as the position of a single double bond. A lot of molecules are smaller than a wavelength of visible light, so it's not as if we could just look at them under a microscope, yet we know their structures exactly. So how do chemists figure these things out?
+* DONE [#B] [2019-10-21] Einstein Versus the Physical Review: Physics Today: Vol 58, No 9
+:PROPERTIES:
+:ID:       8cbdb46f1ff97d69616eccf4346cb1f2
+:END:
+https://physicstoday.scitation.org/doi/10.1063/1.2117822
+
+* DONE [#B] [2019-12-05] Ash Jogalekar on Twitter: "Robert Oppenheimer didn't just teach his students physics; he taught them life. Mozart, Plato and Sanskrit were as much a part of their shared lives as cosmic rays and quantum electrodynamics. https://t.co/i8I7xxcURT" / Twitter
+:PROPERTIES:
+:ID:       5ff6c59a85a774a38e2fe977beda712a
+:END:
+https://twitter.com/curiouswavefn/status/1195045873375334401
+: Max Planck and Albert Einstein also used to meet regularly to play chamber music together!! Einstein supposedly said once, “Mozart's music is so pure and beautiful that I see it as a reflection of the inner beauty of the universe itself”
+* DONE [#B] [2020-04-18] [[https://news.ycombinator.com/item?id=22901541][The Decline of Usability]] :ui:
+:PROPERTIES:
+:ID:       4c6e8b3903af25a6f6b59142d1fd6709
+:END:
+https://datagubbe.se/decusab/
+* DONE [#B] [2019-08-27] Nutrition: the Emperor has no clothes | Meaningness :nutrition:
+:PROPERTIES:
+:ID:       fad9fac4f06e3226c0b63efc22d8296a
+:END:
+https://meaningness.com/nutrition
+TLDR: nutrition is bad science
+
+* DONE [#B] [2020-06-03] [[https://www.infoq.com/presentations/We-Really-Dont-Know-How-To-Compute/][We Really Don't Know How To Compute!]] :watch:
+:PROPERTIES:
+:ID:       aa16a934d1f29bb21aaaa1a435d18e36
+:END:
+** [2021-01-03] basically the point is that computing is cheap and we need to embrace constraint solver paradigm more? e.g. instead of imperative, where reasonable
+:PROPERTIES:
+:ID:       4cd914e8392879a0a582e85b6aef6da3
+:END:
+* DONE [#C] [2020-04-15] [[http://willghatch.net/blog/2020/01/14/plan-9-from-the-1990s/][Plan 9 From The 1990s]]
+:PROPERTIES:
+:ID:       e19de86addeab281db13b996af3623c2
+:END:
+* DONE [#C] [2020-01-28] [[https://news.ycombinator.com/item?id=22167121][Ask HN: What are some interesting projects to reuse your old devices?]]
+:PROPERTIES:
+:ID:       13e994746058eacd8a7593c242270e76
+:END:
+https://news.ycombinator.com/item?id=22167121
+* DONE [#D] Tweet from @rektide                                   :smalltalk:
+:PROPERTIES:
+:CREATED:  [2020-06-04]
+:ID:       7e6426ab7fed0f61a6e610298d665958
+:END:
+https://twitter.com/rektide/status/1268321433735827457
+: @rektide: for compare, there's some interesting exploration of "what happened to smalltalk" going on now.
+: wirfs-brock.com/allen/posts/91...
+: interesting exploration of the challenges to success, of this interesting, rich, technically sophisticated system.
+
+* DONE [2018-11-06] Vipassana for Hackers [pdf] | Hacker News    :meditation:
+:PROPERTIES:
+:ID:       ac3106b3f14b2fc585b2f1dfcc533372
+:END:
+- State "DONE"       from              [2019-04-13]
+https://news.ycombinator.com/item?id=16842040
+* .
+:PROPERTIES:
+:ID:       5058f1af8388633f609cadb75a75dc9d
+:END:

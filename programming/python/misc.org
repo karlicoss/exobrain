@@ -7,7 +7,7 @@
 :END:
 http://packages.pypy.org/
 
-* TODO [#C] [2019-12-31] PyPy.js: Python in the web browser | Hacker News :javascript:webext:
+* TODO [#C] [2019-12-31] PyPy.js: Python in the web browser | Hacker News :js:webext:
 :PROPERTIES:
 :ID:       b92b944ddc3a96622e2c543c178f0d9a
 :END:

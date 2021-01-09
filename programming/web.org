@@ -1,6 +1,12 @@
 #+TITLE: Web programming
 #+filetags: :programming:
 
+* related                                                       :js:css:html:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:
+TODO weird. why didn't this work?  #js #css #html etc
+
 * CSS                                                                   :css:
 :PROPERTIES:
 :ID:       2c56c360580420d293172f42d85dfbed

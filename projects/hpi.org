@@ -235,10 +235,10 @@ ok, nice it already has muscles involved.. I could use this data
 :CREATED:  [2020-12-04]
 :ID:       bd030af7473ccfaf6c195543429ac83b
 :END:
-** TODO old last.fm + spotify + bandcamp                    :hpi:arbitration:
+** TODO old last.fm + spotify + bandcamp arbitration                    :hpi:
 :PROPERTIES:
 :CREATED:  [2020-12-13]
-:ID:       7022af42c3257b8627c1c5e417edc5ee
+:ID:       808f24decd56ad8bfbee4340cd54ad03
 :END:
 ** TODO [#C] location provider: foursquare/swarm
 :PROPERTIES:
@@ -894,7 +894,7 @@ tried https://www.visidata.org/docs/graph/ on bluemaestro
 
 
 for all points, it was pretty slow... not sure why
-* TODO [#C] use similar sample data download to bokeh? could be good for testing etc. :dashboard:projects:
+* TODO [#C] use similar sample data download to bokeh? could be good for testing etc. :dashboard:project:
 :PROPERTIES:
 :CREATED:  [2020-08-23]
 :ID:       4a64c83e0eacbb8d2c36911d82820b24

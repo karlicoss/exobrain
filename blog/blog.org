@@ -36,7 +36,7 @@ https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
 :END:
 https://ai6ua.net
 right, so pretty nice design
-** TODO Большой пост о том, как я переезжал в Берлин :: Блог Вастрик.ру :me:blog:inspiration:
+** TODO Большой пост о том, как я переезжал в Берлин :: Блог Вастрик.ру :blog:inspiration:
 :PROPERTIES:
 :CREATED:  [2019-04-21]
 :ID:       1d3dd980aa7730a72d79f0607c4e1e6e

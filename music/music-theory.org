@@ -1,6 +1,78 @@
 #+TITLE: Music theory
-#+filetags: musictheory
+#+logseq_title: musictheory
+#+filetags: :musictheory:
+
 * [#B] [2018-03-08] Ear gym way too advanced for my level right now :androidapp:
 :PROPERTIES:
 :ID:       d33250e9170fbd7be14bf464c899068f
+:END:
+
+* TODO [#C] [2019-02-14] How difficult is it to be able to recognize intervals? (Relative Pitch) : Guitar
+:PROPERTIES:
+:ID:       405e4a280a566360aec206dbbada6ef0
+:END:
+https://www.reddit.com/r/Guitar/comments/2w7q5z/how_difficult_is_it_to_be_able_to_recognize/coobwgi/
+: Yep. The easiest way I've found is to associate intervals with songs. For example, for me, a perfect 4th is the first 2 notes to "Here Comes the Bride" and a perfect 5th is the first 2 notes of "Twinkle Twinkle Little Star."
+
+* TODO [#C] Huh. Tried perfect ear app and could distinguish minor and major seconds with 80% accuracy since applied reasoning about rational fractions :music:blog:
+:PROPERTIES:
+:CREATED:  [2019-01-26]
+:ID:       d153ccadb105172d39e246df46afc4f0
+:END:
+
+* STRT [#C] Practice singing                                          :vocal:
+:PROPERTIES:
+:CREATED:  [2019-01-29]
+:ID:       42f0ee1ad60000e9eea23acca647cdaa
+:END:
+
+* TODO [#C] How to add these synth fuzzy noises to other musical instruments?
+:PROPERTIES:
+:CREATED:  [2019-02-18]
+:ID:       5511511bd47def4ec3b8aeeaaaa87dd7
+:END:
+
+* TODO [#C] [2019-01-14] Kevin Boone's Web site                        :read:
+:PROPERTIES:
+:ID:       3128674f3d05e6f18d0b3a76c1ff6b90
+:END:
+http://www.kevinboone.net/music_articles.html
+** TODO [2021-01-09] instead use toread tags? also need to exclude from Logseq's reach maybe or make togglable?
+:PROPERTIES:
+:ID:       240a2506518e5a13b91aae968127b808
+:END:
+basically would be nice to 'delete' the node on ad-hoc basis to untangle the graph
+also need some way to prevent tag inheritance for certain entries? e.g. via a property or something...
+
+* DONE [2019-02-01] https://learningmusic.ableton.com/index.html
+:PROPERTIES:
+:ID:       8b18dbc10b384b221a91ded25a975ae2
+:END:
+
+** basic structure: drums + bass + chords + melody
+:PROPERTIES:
+:ID:       410a15c5-681a-4cad-9daf-bf02ff3f4bce
+:END:
+
+- techno/trance: 160-180 bpm
+- backbean: beat every fourth, clap every eights
+- Each type of scale has a distinct sound, and many people have particular emotional associations with particular scales.
+- https://learningmusic.ableton.com/make-melodies/ride.html
+
+This is an example of minimal techno; here the focus is on slow, subtle changes, primarily to the nature of the sounds themselves, rather than to the notes and rhythms.
+
+** [#B] harmonizing                                                   :study:
+:PROPERTIES:
+:ID:       b7e93fe6c4bdf3f8f321844e208da397
+:END:
+: But combining (or harmonizing) the melody with some chords helps to fill out the texture. This is an example of a simple chord progression: a series of chords played in a particular order. In many types of music, chord progressions are used to create a sense of tension and release, by moving away from the tonic of the song and then back again.
+: 
+:   1-5-6-4: the most common chord progression
+: 
+:   A pre-chorus is a section that serves as a kind of link between a song’s verses and its choruses. In this song, each pre-chorus helps to build a sense of tension and energy that leads into the chorus. Each of the three eight-bar pre-choruses in this song has identical lyrics.
+:   https://learningmusic.ableton.com/song-structure/i-feel-love.html
+
+* related                                                             :music:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
 :END:

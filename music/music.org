@@ -1,13 +1,470 @@
+#+OPTIONS: toc:nil
 #+TITLE: Music
 #+filetags: music
+Music expliration, music I like, etc.
 
-Music I like
+#+toc: headlines 2
 
-* [2017-11-01] perturbator
+* TODO [#A] figure out proper music exploration routine
+:PROPERTIES:
+:ID:       a0be8b6ce72930fcda3196401d5998c4
+:END:
+could have explore-artist spotify list?
+also log the whole procedure for downloading, etc
+
+I guess adding to spotify is kinda fine.
+
+** TODO [#B] LPT: If you like one song by an artist, but don't dig the rest of their stuff. find out who the producer is and see what other work they've done. The producer can play a big role in how the final song turns out :music:
+:PROPERTIES:
+:CREATED:  [2018-04-10]
+:ID:       6a87e31fda1df1fcaaad5a616181a6cd
+:END:
+
+* STRT [#B] Music I like
+:PROPERTIES:
+:ID:       ebaa45d34d8f89cb6d7c3ce354af03f0
+:END:
+(wildly imcomplete list?)
+** [2017-11-01] perturbator
 :PROPERTIES:
 :ID:       944a21c35eb0d0c704373e593f806c17
 :END:
-* [2017-11-01] https://www.reddit.com/r/synthwave/top/
+** [2017-11-01] https://www.reddit.com/r/synthwave/top/
 :PROPERTIES:
 :ID:       66d6233a3259a4c7bdcf9de65268cc61
+:END:
+
+* TODO [#B] listen to new music on spotify regularly                  :music:
+:PROPERTIES:
+:ID:       9aa561c2-30ad-4581-bda9-b63260fcc172
+:END:
+
+** Do it while walking home instead of browsing internet
+:PROPERTIES:
+:CREATED:  [2018-09-13]
+:ID:       00ed30032e40a5b955282dc00974c417
+:END:
+
+* STRT [#B] [2020-05-16] [[https://daily.bandcamp.com/best-electronic/the-best-electronic-music-on-bandcamp-january-2020][The Best Electronic Music on Bandcamp: January 2020 | Bandcamp Daily]] :music:
+:PROPERTIES:
+:ID:       9f051c9e19833bb3f53184df3437ae0c
+:END:
+
+* TODO [#B] [2020-07-03] [[https://news.ycombinator.com/item?id=23721298][Trackermatte. I'd check out the album Ná. He also has an album on his Bandcamp | Hacker News]] :music:
+:PROPERTIES:
+:ID:       74f519b2c3f83a280dc73c036aaad591
+:END:
+* STRT [#B] [2020-09-19] [[https://docs.google.com/spreadsheets/d/12htSAMg67czl8cpkj1mX0TuAFvqL_PJLI4hv1arG5-M/edit#gid=1451660661][album amalgam - https://github.com/seanbreckenridge/albums - Google Sheets]] :seanb:music:
+:PROPERTIES:
+:ID:       eb641aa778c432e748fe9e8488abf102
+:END:
+* STRT [#B] Nocow: Ledyanoy Album Album Review | Pitchfork
+:PROPERTIES:
+:CREATED:  [2019-08-10]
+:ID:       2ef056e1cb9afda72707dd5831c9e61b
+:END:
+
+https://pitchfork.com/reviews/albums/23179-ledyanoy-album/
+
+* TODO [#B] [2019-08-27] Ishkur's Guide to Electronic Music
+:PROPERTIES:
+:ID:       cad99a2b6959d3a68e51dc8e96bf15ec
+:END:
+http://music.ishkur.com/
+
+* STRT [#B] [2019-08-17] сигма  https://syg.ma
+:PROPERTIES:
+:ID:       e3d50eafbf9591eb69bb6c3d7b6f4c0c
+:END:
+** TODO [2019-08-21] https://syg.ma/popular
+:PROPERTIES:
+:ID:       2d72e70ea465639da0176f2dbc801a40
+:END:
+** [2019-09-21] subscribed on twitter for now
+:PROPERTIES:
+:ID:       b91a62ac0d8e3b04ee228f027f71fac2
+:END:
+* TODO [#B] Я бы выделила ребят из OBLAST, например, самарское community. Конечно, московский «Гост звук» и все связанное с ним, buttechno, и мне очень нравится такой лиричный проект «Творожное озеро» и «Тальник». Еще уважаю Влада Паршина. :kedr:
+:PROPERTIES:
+:CREATED:  [2019-08-17]
+:ID:       a27197f45ca3f1046110fbd9ccae2dc4
+:END:
+[[https://syg.ma/@tcivil_me/kedr-livanskiy-dvizhieniie-samoie-vazhnoie-v-tvorchieskom-razvitii][kedr livanskiy: «Движение — самое важное в творческом развитии»]]
+[[https://hyp.is/0TNIksDnEem8gYelV2b0uA/syg.ma/@tcivil_me/kedr-livanskiy-dvizhieniie-samoie-vazhnoie-v-tvorchieskom-razvitii][in context]]
+
+* STRT [#B] Here’s an album for you… Blood Machines - Original Motion Picture Soundtrack Carpenter Brut https://open.spotify.com/album/34gb47C67XSiYXyIU2iW0L?si=BZFkbkxiTKiBtdH9975sRQ
+:PROPERTIES:
+:CREATED:  [2020-09-03]
+:ID:       f9e2a08d28d1260b7db0f4965dff3f45
+:END:
+** [2021-01-09] whoa. this is also really good https://www.youtube.com/watch?v=jLHhr8Xc4AM
+:PROPERTIES:
+:ID:       281256ead0b04bbd63dfecf29d513aa3
+:END:
+
+* TODO [#B] [2019-09-21] Filter | V Magazine https://vmagazine.com/filters/music
+:PROPERTIES:
+:ID:       0079dc8fb515dae1f7fb56d5b8fde909
+:END:
+** [2019-11-02] shit, can't rss to a filter :(
+:PROPERTIES:
+:ID:       ec33bc56d1736e01889668c97e7f2759
+:END:
+* STRT [#B] [2020-08-03] [[https://reddit.com/r/electronicmusic/comments/i34u2j/official_top_100_albums_of_the_2010s_final_results/][Official Top 100 Albums of the 2010s - FINAL RESULTS]] /r/electronicmusic
+:PROPERTIES:
+:ID:       fe24455eb653d112ea8b2da8da3448d2
+:END:
+* TODO [#B] https://vk.com/wall-33847399_14892 Hyperboloid Records выпускает передовую электронную музыку без стилевых ограничений. В каталоге лейбла — треки российских продюсеров, а также музыкантов со всего мира: Pixelord, Summer of Haze, Raumskaya, Bad Zu и других
+:PROPERTIES:
+:CREATED:  [2020-11-25]
+:ID:       72f047defcaeaca65657f6b5956ccefe
+:END:
+
+* TODO [#B] [2020-11-21] [[https://reddit.com/r/electronicmusic/comments/jyhvoi/what_are_your_favorite_electronic_albums_in_2020/][What are your favorite electronic albums in 2020?]] /r/electronicmusic
+:PROPERTIES:
+:ID:       d26543b818aed7b3aa99bb0bad3ee258
+:END:
+* TODO [#B] [2019-08-18] Яна Кедрина                                   :kedr:
+:PROPERTIES:
+:ID:       9745abfe47400aa04d4b7e7758caf06e
+:END:
+https://vk.com/id1559723
+: микс для тех, кому возвышенно и грустно
+
+* TODO [#B] [2019-12-22] rating music in rhythmbox                   :rating:
+:PROPERTIES:
+:ID:       af2a3afaa56d2b38b3759f276756a494
+:END:
+0: unrated, todo as well
+1: crap, basically ignore
+2: ???
+3: give a chance, basically todo with a higher priority
+4: ok
+5: really good
+
+* TODO [#C] misc
+:PROPERTIES:
+:ID:       bc957e26ff41470c556ee5d09e96880b
+:END:
+- Ladytron
+  Blue Jeans
+  Destroy everything you touch
+- Halsey
+- Ladyhawke (My Delirium)
+- Perturbator
+- Furi OST
+  - The Toxic Avenger
+    My only chance (Furi)
+  - Carpenter Brut
+    What we fight for (Furi)
+- Heaven 17
+  Penthouse and Pavement
+- Portishead (arzamas)
+  Sour times
+- Primal Scream OK (arzamas)
+- Derrek May techno OK (arzamas)
+- Massive attack TODO (arzamas)
+- Maduro
+  Reveries and Ruckus
+  Scalper Dance
+- Burial (arzamas)
+  Untrue album
+  Rough sleeper +++
+  Truant
+- The Big Short OST
+- The Knife (arzamas)
+  Heartbeats
+- Zemfira
+  Небомореоблака
+- Allie X
+  Paper love
+- MO
+  Drum
+  Nights with you
+- Grimes?
+- Dance youself clean spotify
+- Pride BXTCHES spotify
+- Bleachers
+  You're still a mystery
+- The xx OK (arzamas)
+- Roxy music OK (arzamas)
+- New order OK (arzamas)
+
+
+* TODO [#C] [2020-09-06] [[https://reddit.com/r/electronicmusic/comments/inrpfq/perturbator_is_a_godamn_legend/g49vilc/][Perturbator is a godamn legend]] /r/electronicmusic
+:PROPERTIES:
+:ID:       bf590674f84ea876c9c4d7694506723a
+:END:
+:  [Starting listening to Perturbator thanks to this twisted video.](https://youtu.be/wU9Daiu5XoM)
+* TODO [#C] [2020-11-18] [[https://reddit.com/r/electronicmusic/comments/jwi7sf/leftfield_hints_a_new_album_is_finally_in_the/][Leftfield hints a new album is (finally) in the works!]] /r/electronicmusic
+:PROPERTIES:
+:ID:       eb70eb8cc9f1a82a4c89ccc04786fb96
+:END:
+
+* STRT [#C] Fuzzy Match my Spotify and local library? Maybe via musicbrainz :spotisync:
+:PROPERTIES:
+:CREATED:  [2018-09-16]
+:ID:       9e243be20b7991477d2b4d5b03b4518a
+:END:
+
+coding/spotisync
+
+** [2018-10-04] ok, extracted library items. I guess easier to run as regular backup and then match occasionally
+:PROPERTIES:
+:ID:       1b5a3dfc4adecf8c7113963b580500da
+:END:
+** TODO use musicbrainz picard or something?
+:PROPERTIES:
+:ID:       85ba4927a3823db4e3a309f0f7166ba9
+:END:
+* TODO [#C] [2019-08-11] The Lot Radio https://www.thelotradio.com/
+:PROPERTIES:
+:ID:       6b51bab3e55107c317859ebb0b9d7328
+:END:
+
+* [#C] [2019-08-18] Яна Кедрина https://vk.com/id1559723               :kedr:
+:PROPERTIES:
+:ID:       74f8f125b6ebf2c32d8a15f1fcbbda96
+:END:
+
+* TODO [#C] https://vk.com/wall-76448116_4082                          :kedr:
+:PROPERTIES:
+:CREATED:  [2019-10-11]
+:ID:       107fa68ed5bf7e92713fa82b6556da3f
+:END:
+: наш с AEM Rhythm-Cascade новый трек специально для компиляции любимого российского лейбла ГОСТ ЗВУК
+
+* TODO [#C] [2019-08-17] 2MR Transmission with Kedr Livanskiy @ The Lot Radio 07:25:2018 by The Lot Radio | Mixcloud :kedr:
+:PROPERTIES:
+:ID:       402520f7d3ddff0dfa9828c705534b4c
+:END:
+https://www.mixcloud.com/thelotradio/2mr-transmission-with-kedr-livanskiy-the-lot-radio-07252018/
+
+* TODO [#C] I’ve been watching live DJ sets and they are wonderful    :jonbo:
+:PROPERTIES:
+:CREATED:  [2020-05-18]
+:ID:       fe1fc275c063cb17bb69970192a1d8a4
+:END:
+[[https://jborichevskiy.com/posts/patch-notes-v5/][This newsletter lives in Roam]]
+[[https://hyp.is/4X6BFpktEeqpO89HRp6xGw/jborichevskiy.com/posts/patch-notes-v5/][in context]]
+
+* TODO [#C] [2020-07-05] [[https://www.youtube.com/channel/UCVO_yh_5oj6y3A_eMzTI6cw/videos][(1) GOST ZVUK - YouTube]]
+:PROPERTIES:
+:ID:       d347ee8d5be5557d23a6c6ed6873a150
+:END:
+* TODO [#C] Night Light - Ruffien
+:PROPERTIES:
+:CREATED:  [2020-10-24]
+:ID:       9124a318dc08b64fc238f94db51c904a
+:END:
+
+I used Shazam to discover Night Light by Ruffien. https://www.shazam.com/track/491772724/night-light
+
+* TODO [#C] check music charts                                        :music:
+:PROPERTIES:
+:CREATED:  [2018-04-02]
+:ID:       d8b53e766ba7152e3f6d102af61dfd0b
+:END:
+
+** spotify
+:PROPERTIES:
+:ID:       9aeab829e27266990f352631530f9f8d
+:END:
+** last fm
+:PROPERTIES:
+:ID:       713e2199d44949e7f4224640455417d7
+:END:
+
+* [#C] [2020-01-08] [[https://news.ycombinator.com/item?id=21989929][A beginner’s guide to modern classical music]] :music:
+:PROPERTIES:
+:ID:       3c086c9e-8496-44d4-8e41-323c27d0c95b
+:END:
+http://lukemuehlhauser.com/how-to-fall-in-love-with-modern-classical-music-4/
+* TODO [#D] Listen to @synthblog with @TuneIn http://tun.in/pgf6H
+:PROPERTIES:
+:CREATED:  [2019-01-28]
+:ID:       5b38d2887b5c02580bcf9ba66c04aeef
+:END:
+
+* TODO [#D] Tweet from John Carlos Baez (@johncarlosbaez), at Aug 3, 03:00
+:PROPERTIES:
+:CREATED:  [2019-08-03]
+:ID:       85821bca0c59580a421f4a601d547cf1
+:END:
+: I just fell in love with Ravel's "Gaspard de la Nuit".  He wanted it to be the hardest piano piece in the world.  This picture is from a classical music website.   But it's not just hard - it sounds good, too!
+
+https://twitter.com/johncarlosbaez/status/1157471331731984384
+
+* TODO [#D] Tweet from Riva (@rivatez), at Dec 28, 17:07
+:PROPERTIES:
+:CREATED:  [2019-12-28]
+:ID:       e02c7f3d0f3c334523c38589475f613a
+:END:
+: interested in contemporary classical music? thinking about listening to @maxrichtermusic and not sure where to start? I made a playlist this morning for @michael_nielsen of (what I think are) the best Max Richter tracks, sharing here:
+
+https://twitter.com/rivatez/status/1210970550266449923
+
+* TODO [#D] [2019-02-15] What Universal Human Experiences Are You Missing Without Realizing It? | Slate Star Codex :mind:
+:PROPERTIES:
+:ID:       27617c25d2d759571f241447e06dd64d
+:END:
+https://slatestarcodex.com/2014/03/17/what-universal-human-experiences-are-you-missing-without-realizing-it/
+: Some people can differentiate between orders of magnitude more colors than other people. You can test yourself here: http://www.apartmenttherapy.com/how-well-do-you-see-color-173018
+: I once had a long argument with a group of friends about why vision was more interesting than sound. Turns out all the ones who sided with vision could differentiate between far more colors.
+: You can also test if you’re tonedeaf: http://jakemandell.com/tonedeaf/
+
+* TODO [#D] glastonbury festival                               :social:music:
+:PROPERTIES:
+:ID:       ef5725ec74a3cacfbee5d045d9f817be
+:END:
+* TODO [#D] https://www.reddit.com/r/Techno/comments/7bg1it/new_to_techno_slightly_overwhelmed/ :tecnho:
+:PROPERTIES:
+:ID:       dde5fc737901c9580bb7e490db3b9996
+:END:
+* TODO [#D] https://open.spotify.com/track/6mib3N4E8PZHAGQ3xy7bho?si=4DKKBZGXRiyzh28zif2kXg moonage dream Reminds me of Jesus Christ superstar
+:PROPERTIES:
+:CREATED:  [2019-08-05]
+:ID:       355ed7d4b3a68d7b19b44ca510ba21e6
+:END:
+
+* TODO [#D] [2019-08-18] ciconia/awesome-music: Awesome Music Projects
+:PROPERTIES:
+:ID:       966e50af8c19d8c0b2b0b7096e485108
+:END:
+https://github.com/ciconia/awesome-music#readme
+
+* TODO [#D] [2020-08-22] [[https://listenbrainz.org/][ListenBrainz]] :spotify:lastfm:
+:PROPERTIES:
+:ID:       0129908829bca4286f4cccec14af28f6
+:END:
+use instead of lastfm? Although wouldn't be able to connect spotify... although could just upload spotify listening history?
+
+* DONE [#B] Here’s an album for you… Blizzards Nathan Fake https://open.spotify.com/album/0AG0R1Ig9RcoqVFLJIvoSz?si=Ei41N7EZTeOlk7UebLEAFw
+:PROPERTIES:
+:CREATED:  [2020-09-03]
+:ID:       e79cf8f4c1348d114e01376e8b3cd7e6
+:END:
+
+* DONE [#B] [2019-07-29] [[https://reddit.com/r/AskReddit/comments/ci3nf2/for_people_who_like_to_listen_to_full_albums_what/ev1cmjc/][For people who like to listen to full albums, what are your favorite albums to binge?]] /r/AskReddit
+:PROPERTIES:
+:ID:       18d0080c2078c12d9c6bb394e8804edd
+:END:
+:  Mer De Nom by A Perfect Circle. It's beautiful.
+
+* DONE [#B] [2019-11-12] [[https://reddit.com/r/intj/comments/dvgil7/songs_that_describe_intjs/f7cpk1h/][Songs that describe INTJs]] /r/intj :intj:
+:PROPERTIES:
+:ID:       ace7d861fc28613f4ccc6f0eeeeab996
+:END:
+:  [Here](https://youtu.be/fTjjJbndjis) by Alessia Cara, although I feel like it can work for introverts in general.
+:  [Datastream](https://youtu.be/7JaAclYdz9k) by Celldweller
+:  [Brain ≠ Heart](https://youtu.be/VzLRHUah7KQ) by Analog Rebellion
+:  [Oh No!](https://youtu.be/O1o4KKipaC4) by Marina & the Diamonds has several lyrics other INTJs may be able to relate; about feeling like a machine who may push relationships away as they focus on their goals/ambition and the change they want to see in the world and themselves
+:  [Forty-Six & 2](https://youtu.be/GIuZUCpm9hc) by Tool
+:  [Abiogenesis](https://youtu.be/xSqwNnnnRls) by Carbon Based Lifeforms, the calming and otherwordly ambience just feels fitting, especially when it spells out the Drake equation. It just feels fitting for Ni and Ne doms for some reason.
+
+* DONE [#B] [2019-11-13] [[https://reddit.com/r/intj/comments/dvgil7/songs_that_describe_intjs/f7cz7rt/][Songs that describe INTJs]] /r/intj :intj:
+:PROPERTIES:
+:ID:       77d783aa2ac6ba3e48e8cbdb1bd40e61
+:END:
+:  Talking Heads entire discography. Especially the first two albums.
+:  It's like music for INTJ's by an INTJ. Topics no one else could put to music, and let alone get radio play, yet catchy and timeless as hell.
+:  I don't say it enough. Thank you, David Byrne.
+:  Edit to add: I love the National. I never thought about that song like that, but I get what you mean. I once explained my 20s as "another un-innocent elegant fall in to the unmagnificant lives of adults"
+
+* DONE [#C] [2018-12-24] [[https://reddit.com/r/electronicmusic/comments/a7efra/lets_talk_remixes_what_were_the_best_remixes_of/ec2grb5/][Let’s talk remixes - What were the best remixes of 2018?]] /r/electronicmusic
+:PROPERTIES:
+:ID:       884f8f1fecec3bd54f8243d75fd034e2
+:END:
+
+** [Jon Hopkins - C O S M (Daniel Avery Remix)](https://www.youtube.com/watch?v=zn2gdaR2abs) This song makes me feel like I’m drifting in space. Remix of the year for me
+:PROPERTIES:
+:ID:       c068f3c006ccd9df0b3b9ab0575cc5ab
+:END:
+** [Pendulum - Still Grey (DJ Seinfeld Remix)](https://www.youtube.com/watch?v=7Mwwsm0e1Xo) The best song off The Reworks, imo. This remix got me into DJ Seinfeld
+:PROPERTIES:
+:ID:       edc603993559b8e75ed613cd6cd38fcf
+:END:
+** DONE [Four Tet’s remix of Opal](https://www.youtube.com/watch?v=XTw-NrqKigs) of course
+:PROPERTIES:
+:ID:       3c1672a3db1c97574b7795c38cdf6af7
+:END:
+
+** DONE [Beck - Up All Night (Oliver Remix)](https://www.youtube.com/watch?v=Zjsf-13YMAA) Oliver killed it like always
+:PROPERTIES:
+:ID:       405b08564c6d280b7ff74cfe60115575
+:END:
+
+** [Le Youth - I Could Always (Borussia Remix)](https://www.youtube.com/watch?v=1anMjx96ehM) laidback, groovy, summer jam
+:PROPERTIES:
+:ID:       2f0609d66e547f7df0c124ce3cdb4a86
+:END:
+** [Camelphat & Elderbrook - Cola (ZHU Remix)](https://www.youtube.com/watch?v=T4FOakYWYdU)
+:PROPERTIES:
+:ID:       370ca8169238e67d4b33d51f3e893e35
+:END:
+** DONE [Dua Lipa - IDGAF (Darius Remix)](https://www.youtube.com/watch?v=Vr_KxzJH4zM)
+:PROPERTIES:
+:ID:       26862897bdcbd863743c1face084a437
+:END:
+
+** DONE [Charli XCX - Focus (yaeji Remix)](https://www.youtube.com/watch?v=x_ap0UDrfMg) yaeji is amazing
+:PROPERTIES:
+:ID:       23d811f80ba0fd7cec60a23ca623a0b3
+:END:
+
+** [Kelela’s remix album](https://open.spotify.com/album/00bR0PfkGVAizXpN05DYrs) has some great cuts: Santa Muerte, [KAYTRANADA](https://www.youtube.com/watch?v=ZTDsCODkasA), Ethereal, Rare Essense, Joey Labeija, [LMK (What's Really Good Remix)](https://www.youtube.com/watch?v=-xH004y94Cw), Tre oh Fie, Skyshaker, Nathaniel W. James & Dave Quam, & Ahya Simone are my favorites
+:PROPERTIES:
+:ID:       2e10ac4ff36facb98163a4d65707c202
+:END:
+** [Gabriel & Dresden - Waiting for Winter (No Mana Remix)](https://www.youtube.com/watch?v=5Bps0BLz1YQ) has that RAT-era deadmau5 sound
+:PROPERTIES:
+:ID:       11255d8c20dc4540efdb140e2a6fa930
+:END:
+** DONE [CHVRCHΞS - Miracle (The Juan MacLean Remix)](https://www.youtube.com/watch?v=dClCl8ocEns) they turned CHVRCHΞS' worst song into something worth listening to
+:PROPERTIES:
+:ID:       f1050543b9ea683c6ac3f4fa4352cae2
+:END:
+
+** DONE [Diplo - Worry No More (Keys N Krate Remix)](https://www.youtube.com/watch?v=oT3w4Dn3q_A), [Wish (Jarreau Vandal Remix)](https://www.youtube.com/watch?v=xauWlqr1-XQ) I really like that talkbox, & [Color Blind (TWERL & Max Styler Remix)](https://www.youtube.com/watch?v=eFDmaBSxBRg)
+:PROPERTIES:
+:ID:       333851fc93b8b3f1898e72e3334d7d7e
+:END:
+
+** DONE [Moodoïd - Miss Smith (Myd Remix)](https://www.youtube.com/watch?v=RTAyXhaWdjI)
+:PROPERTIES:
+:ID:       5b90fba9041f044491c6c854a33f7a38
+:END:
+
+** [Camo & Krooked - Slow Down (Fred V & Grafix Remix)](https://www.youtube.com/watch?v=OKyIrxh3Q5A)
+:PROPERTIES:
+:ID:       27556af0c3231e351168283a5d28b02b
+:END:
+** [2019-08-05] Eh, none of these were decent
+:PROPERTIES:
+:ID:       2465564a0007a1a69925b943088349eb
+:END:
+
+* DONE [#C] [2019-10-12] The 200 Best Songs of the 2010s | Pitchfork
+:PROPERTIES:
+:ID:       aca4cdd12fccb59829b34c712e505fc7
+:END:
+https://pitchfork.com/features/lists-and-guides/the-200-best-songs-of-the-2010s/
+
+* DONE [#D] http://arzamas.academy/materials/1318
+:PROPERTIES:
+:ID:       e7384ce311dce8caec6a894dc5386718
+:END:
+- Cocteau twins too slow?
+- Pet shop boys meh
+- the velvet underground
+
+* DONE [2019-07-29] [[https://reddit.com/r/AskReddit/comments/ci3nf2/for_people_who_like_to_listen_to_full_albums_what/ev199n8/][For people who like to listen to full albums, what are your favorite albums to binge?]] /r/AskReddit
+:PROPERTIES:
+:ID:       6bf77a087f49f4f084094b55f37b3b80
+:END:
+:  David Bowie - The Rise and Fall of Ziggy Stardust and the Spiders from Mars
+* CANCEL [#B] Here’s an album for you… Quarter to Quarter Azekel https://open.spotify.com/album/1Kqml4xkcAhooxKeOR7lQx?si=ZCK71UI9SZqTJeACX_ug-g
+:PROPERTIES:
+:CREATED:  [2020-09-03]
+:ID:       14cafc6a57d357126636bed41a5b85f9
 :END:
