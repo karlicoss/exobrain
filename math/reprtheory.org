@@ -435,12 +435,10 @@ In the language of manifolds, the generators are the elements of the tangent spa
 :END:
 
 
-* START going through liegroups.pdf
+* START going through liegroups.pdf file:study/reprtheory/liegroups.pdf
 :PROPERTIES:
-:ID:       09bcc5a17c4ff643592fa4593241dfcc
+:ID:       eac781de43d6c824bee42a1ed2bcd44a
 :END:
-file:/L/Dropbox/study/reprtheory/liegroups.pdf
-
 ** [2018-10-09]  trying to prove that identity connected component of a lie group is a normal  subgroup and a lie group
 :PROPERTIES:
 :ID:       b61b2ace02d144814c6ef82a2d987f4a

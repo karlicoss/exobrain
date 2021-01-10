@@ -1,0 +1,41 @@
+#+TITLE: Agda
+#+filetags: agda
+
+[2013-09-24]
+
+
+* Propositional equality
+:PROPERTIES:
+:ID:       3b7ac0546c290837d0dc12fab530a141
+:END:
+#+begin_src
+  data _≡_ {A : Set} : A → A → Set where
+    refl : {a : A} → a ≡ a
+
+  sym : ∀ {A} {a b : A} → a ≡ b -> b ≡ a
+  sym refl = refl
+#+end_src
+
+* Natural numbers
+:PROPERTIES:
+:ID:       6c8999eb44d0cab363ece47589dff756
+:END:
+#+begin_src
+  data ℕ : Set where
+    Z : ℕ
+    S : ℕ → ℕ
+#+end_src
+
+* Finite type
+:PROPERTIES:
+:ID:       8cff9cdf3473d1c2ded26f21c4388f95
+:END:
+#+begin_src
+  data Fin : ℕ → Set where
+    fzero : (n : ℕ) -> Fin (S n)
+    fsucc : (n : ℕ) -> Fin n -> Fin (S n)
+
+  onlyone : (x : Fin (S Z)) → x ≡ fzero Z
+  onlyone (fzero .Z) = refl
+  onlyone (fsucc .Z ())
+#+end_src

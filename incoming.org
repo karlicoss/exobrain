@@ -588,7 +588,7 @@ https://news.ycombinator.com/item?id=22685537
 :PROPERTIES:
 :ID:       063a8cb47253a0670bed7dbcb55c3f3f
 :END:
-* [#C] [2019-10-06] tmrowco/tmrowapp-contrib: Tomorrow automatically calculates the climate impact of your daily choices by connecting to apps and services you already use. ::environment:
+* [#C] [2019-10-06] tmrowco/tmrowapp-contrib: Tomorrow automatically calculates the climate impact of your daily choices by connecting to apps and services you already use. :environment:
 :PROPERTIES:
 :ID:       076fd53d6cda06cd035c53537fe52465
 :END:
@@ -605,11 +605,6 @@ https://github.com/tmrowco/tmrowapp-contrib
 :ID:       ef2e4dab41aaefb5d5313398ba91b2c2
 :END:
 https://ngrok.com/
-** [2020-04-25] ok nice used for promnesia
-:PROPERTIES:
-:ID:       e4dda44b65cc6149bf9bef7fc9cc0d72
-:END:
-: /L/soft/stable/ngrok/ngrok http 14444
 * [#C] [2018-07-12] https://github.com/fasouto/awesome-dataviz      :dataviz:
 :PROPERTIES:
 :ID:       2b59044109930c5dcd1a9a2b3943a78b
@@ -1482,7 +1477,7 @@ advice-patch
 :CREATED:  [2021-01-03]
 :ID:       676d410a06017070cb0be95897a42b9f
 :END:
-* [2021-01-04] ~ vs = : the former preserves underscores? so better to use it? :orgmode:
+* [2021-01-04] ~ vs = : the former preserves underscores? so better to use it? :org:
 :PROPERTIES:
 :ID:       f0327e4b36c28822581711dc689ca025
 :END:
@@ -1618,3 +1613,34 @@ https://news.ycombinator.com/item?id=16842040
 :PROPERTIES:
 :ID:       5058f1af8388633f609cadb75a75dc9d
 :END:
+** [2015-06-19] impact of radiation                               :humanbody:
+:PROPERTIES:
+:ID:       f7446c37d6249e6f2ffd8d1c8b372cbc
+:END:
+Gamma rays excite electrons and eject them from the atom, causing ionization
+Ionization breaks chemical bonds, and produces new.
+
+Ionizes water, producing harmful free radicals H+, OH-
+
+In general, the radiation sensitivity of a tissue is:
+
+proportional to the rate of proliferation of its cells
+inversely proportional to the degree of cell differentiation
+For example, the following tissues and organs are listed from most radiosensitive to least radiosensitive: 
+
+Most Sensitive: Blood-forming organs
+Reproductive organs
+Skin
+Bone and teeth
+Muscle
+Least sensitive: Nervous system
+
+This also means that a developing embryo is most sensitive to radiation during the early stages of differentiation, and an embryo/fetus is more sensitive to radiation exposure in the first trimester than in later trimesters
+** [2016-09-07] git stores snapshots, not diffs                         :git:
+:PROPERTIES:
+:ID:       88d76147f51c5a5eb0330967d24f985a
+:END:
+: Different from SVN
+: It is important to note that this is very different from most SCM systems that you may be familiar with. Subversion, CVS, Perforce, Mercurial and the like all use Delta Storage systems - they store the differences between one commit and the next.
+: Git does not do this - it stores a snapshot of what all the files in your project look like in this tree structure each time you commit. This is a very important concept to understand when using Git.
+: Git’s pack files are carefully constructed to effectively use disk caches and provide “nice” access patterns for common commands and for reading recently referenced objects.

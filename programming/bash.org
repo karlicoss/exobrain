@@ -64,6 +64,10 @@ instead, better to use ~if [[ $0 == "$BASH_SOURCE" ]]; then set -eux; fi~
 :ID:       24a20aa99b2bc4e0c3d54ed5cd6a5b66
 :END:
 priorities roughly indicate how useful I find each command
+** [#A] [2015-07-23] ~diff <(ls dir1) <(ls dir2)~
+:PROPERTIES:
+:ID:       a3ef72ee07ce13a40fc1ef3e5168fd9a
+:END:
 ** [#B] use sigquit {Ctrl-\} to kill processes that are really stuck (when Ctrl-C isn't working)
 :PROPERTIES:
 :CREATED:  [2018-03-05]
@@ -90,6 +94,16 @@ priorities roughly indicate how useful I find each command
 :CREATED:  [2018-09-18]
 :ID:       8e3d71f6-ccab-43aa-a05a-3c53221779f3
 :END:
+** [#D] [2015-07-23] merging pdfs
+:PROPERTIES:
+:ID:       a9961ccb7468eeea02c5c2a89ba8ecef
+:END:
+: pdftk out.pdf j1-process.pdf j1-process-2.pdf j1-process-3.pdf cat output merged.pdf
+
+
+: pdftk full-pdf.pdf cat 1 1 1 2  3 4 12-15 output outfile_p12-15.pdf
+
+
 ** [#D] {ln -i} for interactive symlink (prompts for removal)
 :PROPERTIES:
 :CREATED:  [2018-03-01]

@@ -13,12 +13,6 @@ what's up with default dictionary??
 :PROPERTIES:
 :ID:       db4a54086bc14df5469abca76e729448
 :END:
-* some crap in /L/tmp
-:PROPERTIES:
-:ID:       a475fbb4f355fb70c9546e1b012746a5
-:END:
-
-
 * [2018-10-03] ugh, researched a bit and it seems like there are no decent russian models.. dunno maybe I could train one against mozilla's deepspeech??
 :PROPERTIES:
 :ID:       5fefee8d171edeca475b22157bcd6211

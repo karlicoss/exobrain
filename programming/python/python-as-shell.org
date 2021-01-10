@@ -1,32 +1,42 @@
 #+TITLE: Python as a system shell
 
 
-* CANCEL xonsh
+* CNCL xonsh                                                          :xonsh:
 :PROPERTIES:
 :ID:       ef1b1d55ea22a2c250691cc9026ec754
 :END:
 xonsh http://xon.sh/tutorial.html
-*** importing local modules
-:PROPERTIES:
-:ID:       cc2c7c36d16bfd089f3cd8b4d5f0e83c
-:END:
-import sys
-sys.path.insert(0, '')
-*** no way of using source as in bash?
-:PROPERTIES:
-:ID:       46c6540b895a8252357fae55b269425b
-:END:
-*** DIR = os.path.dirname(os.path.abspath(sys.argv[0])) # TODO move it to python preamble?
-:PROPERTIES:
-:ID:       83c546052606c2a4a122b3da95084ef1
-:END:
+- importing local modules
+  import sys
+  sys.path.insert(0, '')
+- no way of using source as in bash?
+- DIR = os.path.dirname(os.path.abspath(sys.argv[0])) # TODO move it to python preamble?
 
 
-* CANCEL plumbum
+* CNCL plumbum
 :PROPERTIES:
 :ID:       b3e376b42c6a61e023a69251ca44f46f
 :END:
 http://plumbum.readthedocs.io/en/latest/
+
+** [2015-07-18] messing with plumbum
+:PROPERTIES:
+:ID:       cacf7cf0406815b8a92d9ee174c5b3ac
+:END:
+#+begin_src python
+  from plumbum import local, ProcessExecutionError
+  from plumbum.commands.modifiers import RETCODE, BG
+
+  hg = local['hg']
+  git = local['git']
+
+  if hg['status'][path] & RETCODE == 0:
+      with local.cwd(local.cwd / path):
+  	pass
+  	# execute the local command
+
+  ret, out, err = git['config', 'branch.master.remote'].run(retcode=0) # expected retcode
+#+end_src
 
 * http://pymotw.com/2/cmd/
 :PROPERTIES:
@@ -40,9 +50,9 @@ http://plumbum.readthedocs.io/en/latest/
 :PROPERTIES:
 :ID:       12d9ab66d37fe3416aa63956ecf8f08a
 :END:
-* CANCEL ln command : named args!
+* CNEL ln command : named args!
 :PROPERTIES:
-:ID:       6621c66cdcf326b9cf1503a1b5bb7120
+:ID:       beab85363828f5eda8779a888caa84a1
 :END:
 * conky?
 :PROPERTIES:
@@ -50,18 +60,18 @@ http://plumbum.readthedocs.io/en/latest/
 :END:
 http://www.jperla.com/blog/post/a-clean-python-shell-script
 
-* eh?
+* [#D] .
 :PROPERTIES:
-:ID:       d5175335aa171871e761a24e43307b3d
+:ID:       5058f1af8388633f609cadb75a75dc9d
 :END:
-from pprint import pprint
+#+begin_src python
+  from pprint import pprint
+  from pathlib import Path
+  cwd = Path('.') # make Path iterable?
+  cwf.iterdir() # iterator, convert to dir
+  path = cwd.join('file.png')
+  path.suffix # .png
+  path.stem # file
 
-from pathlib import Path
-cwd = Path('.') # make Path iterable? 
-cwf.iterdir() # iterator, convert to dir
-path = cwd.join('file.png')
-path.suffix # .png
-path.stem # file
-
-
-from filecmp import cmp
+  from filecmp import cmp
+#+end_src

@@ -173,6 +173,13 @@ https://github.com/notlmn/browser-extension-template
 :ID:       750613d04d3067ce9fa453b9779f1c15
 :END:
 : web-ext submit would submit to amo only. If you want the zip you can already use web-ext build
+* [#B] [2018-11-08] Shraymonks/flow-interfaces-chrome: Flow interface declarations for the Chrome extensions API :js:flow:
+:PROPERTIES:
+:ID:       98a187dc68d42f1780582279c97a6543
+:END:
+https://github.com/Shraymonks/flow-interfaces-chrome/
+: npm install --save-dev flow-interfaces-chrome
+
 * [#D] [2020-02-17] [[https://lea.verou.me/2012/07/introducing-prism-an-awesome-new-syntax-highlighter/#more-1841][Introducing Prism: An awesome new syntax highlighter | Lea Verou]]
 :PROPERTIES:
 :ID:       1f360cab6a74ef8b4e9db8f9920305cb
@@ -283,3 +290,140 @@ https://github.com/hypothesis/client/blob/734e3a25318364819a8c38ef881e4788a2b063
 :PROPERTIES:
 :ID:       75b878e0dd8367cd4ce9596e8d63ef96
 :END:
+
+
+* [#C] [2019-02-16] Creating a Chrome extension in 2018: The good, the bad and the meh | Checkly
+:PROPERTIES:
+:ID:       0a2cf3fabd94c7906e1145b2f421184f
+:END:
+https://checklyhq.com/blog/2018/08/creating-a-chrome-extension-in-2018-the-good-the-bad-and-the-meh/
+** [2019-08-10] basic intro with examples of testing and explaining the extensions architecture
+:PROPERTIES:
+:ID:       4063950151afa82b4e74b0ff2e38825a
+:END:
+** TODO [#D] [2019-06-01] Creating a Chrome extension in 2018: The good, the bad and the meh :grasp:
+:PROPERTIES:
+:ID:       1275d764b81507ca122959a2cd1ec0a7
+:END:
+https://blog.checklyhq.com/creating-a-chrome-extension-in-2018-the-good-the-bad-and-the-meh/
+:  // boots a Chrome instance using Puppeteer and adds the extension we build in the earlier test
+:    test('it installs the extension', async () => {
+:      const options = {
+
+
+* [#C] [2019-06-29] Using Firefox WebExtensions with Selenium
+:PROPERTIES:
+:ID:       d0fc0b3ebe9c1e708a55c9f856a6d32c
+:END:
+https://intoli.com/blog/firefox-extensions-with-selenium/
+nice, this guy contributed to selenium?
+
+* TODO [#C] [2019-06-29] Standard8/example-webextension: Example repository containing templates and good practices for creating a WebExtension for Firefox
+:PROPERTIES:
+:ID:       c97b0127d6db20b0bb11b93d79c4df4e
+:END:
+https://github.com/Standard8/example-webextension/
+: Example repository containing templates and good practices for creating a WebExtension for Firefox
+
+* [#C] [2019-07-08] GUI and Headless Browser Testing - Travis CI         :ci:
+:PROPERTIES:
+:ID:       36a538810873d8d53834653a54ce74d4
+:END:
+https://docs.travis-ci.com/user/gui-and-headless-browsers/#using-the-chrome-addon-in-the-headless-mode
+: Using the Firefox addon in headless mode #
+: 
+: Starting with version 56, Firefox can be used in “headless” mode, which is suitable for driving browser-based tests using Selenium and other tools. Headless mode can be enabled using the MOZ_HEADLESS environment variable:
+: 
+: env:
+:   - MOZ_HEADLESS=1
+: addons:
+:   firefox: latest
+
+* [#C] [2019-06-12] Getting started with web-ext - Mozilla | MDN
+:PROPERTIES:
+:ID:       f0ec2ea19372caeae8ba08807910d70c
+:END:
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Getting_started_with_web-ext
+** [2019-08-10] web-ext is a nice tool for signing, linting and even simple browser testing (e.g. web-ext run)
+:PROPERTIES:
+:ID:       971099b572235f667593ae3348044255
+:END:
+
+* [#C] [2019-06-12] Extensions in Firefox 66 | Mozilla Add-ons Blog
+:PROPERTIES:
+:ID:       fa185bb2ffc757673eeeb4c39113c6a0
+:END:
+https://blog.mozilla.org/addons/2019/02/15/extensions-in-firefox-66/
+: Firefox no longer emits a warning when the manifest property `background.persistent` is set to `true`.
+* [#C] [2019-06-12] commands.update() - Mozilla | MDN
+:PROPERTIES:
+:ID:       d589452294d99923f23c1e99b94a5dd6
+:END:
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/update
+** [#C] [2019-06-12] 1475043 - Allow commands.update() to un-set a shortcut, disabling the command
+:PROPERTIES:
+:ID:       bc8433a93254170759a52e9188796d04
+:END:
+https://bugzilla.mozilla.org/show_bug.cgi?id=1475043
+
+* [#C] [2019-06-12] Differences between desktop and Android extensions - Mozilla | MDN
+:PROPERTIES:
+:ID:       4fc5eb36cc2ef23a460a07a9dafa564f
+:END:
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Differences_between_desktop_and_Android
+
+* [#C] [2019-06-12] 1520119 - Support removing a shortcut in manage shortcuts
+:PROPERTIES:
+:ID:       6665a590aa1bf195a7f050febabb9e40
+:END:
+https://bugzilla.mozilla.org/show_bug.cgi?id=1520119
+
+* [#C] [2019-06-12] Debugging Firefox for Android over WiFi - Firefox Developer Tools | MDN
+:PROPERTIES:
+:ID:       69cd09f397ec46890eb147787b2c540f
+:END:
+https://developer.mozilla.org/en-US/docs/Tools/Remote_Debugging/Debugging_Firefox_for_Android_over_Wifi
+: The computer with desktop Firefox and your Android device must be connected to the same Wi-Fi network. Desktop Firefox cannot be using a wired connection that routes to the Wi-Fi network; both must truly be on Wi-Fi.
+* [#C] [2019-06-12] Developing extensions for Firefox for Android - Mozilla | MDN
+:PROPERTIES:
+:ID:       5a3dbdee146d71bd6c82506e5dbdf491
+:END:
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Developing_WebExtensions_for_Firefox_for_Android#Install_and_run_your_extension_in_Firefox_for_Android
+** [2019-08-10] need to open browser on android prior to running web-ext command!
+:PROPERTIES:
+:ID:       ecc939315a00adf4bb4c8f585776f199
+:END:
+
+* [#C] [2019-06-12] Setting up an extension development environment - Archive of obsolete content | MDN
+:PROPERTIES:
+:ID:       bf85c455f6633fd807c63e3097db7864
+:END:
+https://developer.mozilla.org/en-US/docs/Archive/Add-ons/Setting_up_extension_development_environment
+* [#D] [2019-07-07] javascript - How to make side panel in chrome extension? - Stack Overflow
+:PROPERTIES:
+:ID:       085823868abf04bd83659858336733b2
+:END:
+https://stackoverflow.com/questions/39610205/how-to-make-side-panel-in-chrome-extension
+
+* [#D] [2019-06-01] Extensionizr - boilerplate for your chrome extension
+:PROPERTIES:
+:ID:       328ff0b96a67230093e598a12e7d5432
+:END:
+: http://extensionizr.com/!#{%22modules%22:[%22hidden-mode%22,%22with-bg%22,%22with-persistent-bg%22,%22no-options%22,%22no-override%22],%22boolean_perms%22:[],%22match_ptrns%22:[]}
+
+* [#D] [2019-06-01] Creating a history clearing Chrome extension | Jake Lee
+:PROPERTIES:
+:ID:       5f6e000793f8039fa0b2c397ab6f3875
+:END:
+https://blog.jakelee.co.uk/creating-a-history-clearing-chrome-extension/
+** [2019-08-10] pretty simple guide
+:PROPERTIES:
+:ID:       b337aba69d1f35d2774906e0e9ef9ddd
+:END:
+
+* [#D] [2019-06-13] what is the state of add-on/extensions development for firefox? : firefox
+:PROPERTIES:
+:ID:       edea588aecd2433dfbe39c24ccedb2d3
+:END:
+https://www.reddit.com/r/firefox/comments/886wms/what_is_the_state_of_addonextensions_development/
+:  I think you're supposed to call "browser.*" and I would not be surprised if calling "chrome.*" gets deprecated on the long term)

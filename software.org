@@ -1,5 +1,6 @@
 #+TITLE: 
 #+logseq_graph: false
+#+logseq_title: software
 #+filetags: software
 
 * [2018-05-02] My rants about interface updates                          :ui:

@@ -1,7 +1,8 @@
-#+TITLE: 
-Geodesics: takes vectors that are tangent to themselves and keeps them tangent while they are parallel transported
+#+TITLE: General relativity
+#+filetags: :grtheory:relativity:physics:
 
-/L/Dropbox/study/general-relativity
+
+Geodesics: takes vectors that are tangent to themselves and keeps them tangent while they are parallel transported
 
 
 * TODO [#B] resource recommendations
@@ -47,12 +48,11 @@ http://www.preposterousuniverse.com/grnotes/
 parallel propagator
 ok, we get geodesic equatiion from the parellel transport equation
 
-* START /L/Dropbox/study/general-relativity/ANN [Carroll][2014] Spacetime and Geometry. An Introduction to General Relativity.pdf
+* START ANN [Carroll][2014] Spacetime and Geometry. An Introduction to General Relativity.pdf
 :PROPERTIES:
 :CREATED:  [2018-07-09]
-:ID:       9321949f5394304b9480243288af9644
+:ID:       ff39ba7d6f752620393d29630827b9ff
 :END:
-
 
 ** p.6 synchronised clocks: from point a to b and back to a, then t_b = (t_a + t_a') / 2
 :PROPERTIES:

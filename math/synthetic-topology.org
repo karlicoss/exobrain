@@ -1,0 +1,102 @@
+#+TITLE: Synthetic topology
+#+filetags: :topology:typetheory:
+
+Data type ≈ topological space.
+Piece of data ≈ point
+Semidecidable property ≈ open set.
+Computable function ≈ continuous map
+? ≈ compact set
+
+Closed under
+- finite conjunction (run sequentially, ensure that all p_i are observed)
+- arbitrary disjunction (run in parallel, wait until one observed)
+
+Satisfy the topological space axioms
+
+
+type Nat = Int
+type Baire = Nat -> Nat
+
+The Sierpinski data type is that of results of observations or semidecisions:
+data S = T.
+S has precisely two elements, namely T (pronounced top or true) and bot
+
+
+Two programs, or two pieces of data, of the same type are operationally
+equivalent if any observer will detect the same properties for them. To make
+this notion mathematically precise, we define a notion of experiment that
+an observer can perform.
+By an experiment of type a we mean a function u ∈ (a → S). To
+observe a given x ∈ a, the observer prepares an experiment u ∈ (a → S) and
+then runs u(x) and waits for the evaluation to terminate (necessarily with
+result T). If it does, the observation succeeds. Thus, x, y ∈ a are said to be
+operationally equivalent if convergence of u(x) is equivalent to that of u(y)
+for every experiment u ∈ (a → S). We treat equivalent programs as if they
+were equal, both conceptually and notationally.
+
+
+A subset U of a data type a is called open if its characteristic function
+χ_U : a → S defined by
+χ_U (x) = T if and only if x ∈ U
+is continuous. A set is called closed if its complement is open.
+
+Sierpinski data type:
+- ∅ is open: constant map
+- {T} is open: identity
+- {bot, T} is open: constant map
+- {bot} is not open!
+
+Continuous ~ definable
+
+If f : a → b is continuous then f^−1 (V) is open for every open set V ⊆ b.
+Proof:
+	Because χ f −1 (V ) = χ V ◦ f and because the composite v ◦ f : a → S is definable if v : b → S is.
+
+type Open a = a -> S
+inverse_image :: (a -> b) -> (Open b -> Open a)
+inverse_image(f) = \v -> v . f
+
+
+The internal operational preorder x <= y is defined by requiring that x ∈ U => y ∈ U for every open set U
+
+bot <= x for any x
+x <= T for any x
+
+If f : a → b is continuous and x <= y then f(x) <= f(y).
+
+intersection :: Open a -> Open a -> Open a
+u `intersection` v = \x -> u(x) `and` v(x)
+
+union: `or` is not expressible in Haskell:
+T `or` T = T
+T `or` bot = T
+bot `or` T = T
+bot `or` bot = bot
+
+But computable! We extend language with the disjunction operator.
+
+countable_union :: (Nat -> Open a) -> Open a
+countable_union ox = \x -> exists(0) where
+	exists(i) = ox(i)(x) `or` exists(i + 1)
+
+
+- The Baire space is the subset B of functions that map the divergent element to itself, and non-divergent elements to non-divergent elements (i.e., the Baire space consists of the strict total functions).
+- The Cantor space is the subset C of B consisting of functions taking values 0 or 1 on all non-divergent arguments.
+
+Let X and Y be subspaces of data types a and b. We say that a function φ : X → Y is (relatively) continuous if there is at least one continuous function f : a → b with φ(x) = f (x) for every x ∈ X. We don’t care how f behaves on elements of a which are outside X
+
+For a subspace X of a data type a, a subset U of X is open in X iff there is an open subset U of a such that X ∩ U = U .
+
+
+We say that a subspace of a data type is (relatively) discrete if its Sierpinski-valued equality map is continuous. For example, the data type of natural numbers is not discrete, because one has to take into account the divergent element. However, the space of natural numbers is — we just use the predefined boolean-valued equality test:
+equal_N :: (Nat,Nat) -> S
+equal_N(m,n) = if m == n then T else bot
+As we have seen, the Baire and Cantor spaces are not discrete, for it takes an infinitely long time to check that two infinite sequences are equal.
+
+We say that a subspace of a data type is (relatively) Hausdorff if its Sierpinski-valued apartness map is continuous.
+
+We call a subspace Q of a data type a compact if its universal quantification functional ∀_Q : (a → S) → S defined by ∀_Q (p) = T iff p(x) = T for all x ∈ Q is continuous.
+
+A subset of the space of natural numbers is compact if and only if it is finite, for otherwise we would be able to solve the halting problem.
+
+A subspace O of a data type a is called overt if its existential quantification functional ∃_O : (a → S) → S defined by ∃_O (p) = T iff p(x) = T for some x ∈ O is continuous. For example, any overt set of natural numbers is r.e., as shown in Proposition 3.13

@@ -387,7 +387,7 @@ That's the best I can do without getting technical. Also, Hamiltonian mechanics 
 
 https://physics.stackexchange.com/questions/98714/how-are-symmetries-precisely-defined
 
-* [#C] action principle for SR                                           :sr:
+* [#C] action principle for SR                                   :relativity:
 :PROPERTIES:
 :CREATED:  [2018-07-30]
 :ID:       41af98bab968a11b6160ad42b4866b89

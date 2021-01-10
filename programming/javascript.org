@@ -1,0 +1,71 @@
+#+TITLE: Javascript
+#+filetags: :js:
+
+* related                                                            :nodejs:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:
+
+* [#A] [2019-09-29] Practical Ways to Write Better JavaScript - Stack Overflow Blog
+:PROPERTIES:
+:ID:       5aff5dbb5e65918e3569173328670dca
+:END:
+https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript/
+
+* TODO [#B] [2020-03-13] Wes Bos on Twitter: "🔥 Optional Chaining (deep property checking) is now in Chrome, Firefox and babel-preset-env 7.8.0. This is a huge improvement in checking if nested properties exist! https://t.co/ypmHeQ8rGw" / Twitter
+:PROPERTIES:
+:ID:       16129ab576104d92e6828749ecc0b113
+:END:
+https://twitter.com/wesbos/status/1238468738946646017
+: Optional Chaining (deep property checking) is now in Chrome, Firefox and babel-preset-env 7.8.0.
+: This is a huge improvement in checking if nested properties exist!
+* [#B] [2019-11-10] fuck, ~replace~ only replaces first occurence if string is used??
+:PROPERTIES:
+:ID:       c6c286c1e833227f937e27c5b5349dda
+:END:
+* TODO [#C] use let instead of var
+:PROPERTIES:
+:CREATED:  [2019-07-07]
+:ID:       7a6a66bd-1d36-42a9-b170-235ded0b0381
+:END:
+SCHEDULED: [2022-03-25]
+
+* [#C] looping over collection { for x of arr }
+:PROPERTIES:
+:CREATED:  [2019-02-03]
+:ID:       182c6da9-7a1f-4f0d-84eb-72cea4bf05a1
+:END:
+* [#C] date parsing
+:PROPERTIES:
+:ID:       eb0dfb4a7acbce93b0ad013fa72ea09c
+:END:
+http://www.datejs.com/ looks ok, supports fuzzy stuff like 'next week', 'previous month', etc
+* [#D] [2019-07-14] Enabling Async/Await and Generator Functions in Babel and Node JS
+:PROPERTIES:
+:ID:       9e6593408370caf2c3f38451605a1ab0
+:END:
+https://medium.com/@binyamin/enabling-async-await-and-generator-functions-in-babel-node-and-express-71e941b183e2
+: Uncaught ReferenceError: regeneratorRuntime is not defined
+: I found this answer to my troubles and it worked when I implemented it. Just change .babelrc to the following:
+: {
+:   "presets": [
+:     [
+:       "@babel/preset-env",
+:       {
+:         "targets": {
+:           "node": "10"
+:         }
+:       }
+:     ],
+:     "@babel/preset-react"
+:   ]
+: }
+* [#D] [2019-07-14] javascript - Is it safe to use async/await now? - Stack Overflow
+:PROPERTIES:
+:ID:       7bf64d46e4dac1348506303d95591307
+:END:
+https://stackoverflow.com/questions/42183155/is-it-safe-to-use-async-await-now
+: So depending on what you think is acceptable it is either safe or not safe. Note the following:
+:     This question was originally asked on 2017, and we have come a long way so async/await is much more safe to use now.
+:     By 2019, most mobile devices already support async/await.
+:     Node 8 is released on May 2017 so it should be safe to use async/await on Node.js unless your Node.js servers are very outdated.

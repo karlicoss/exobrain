@@ -943,7 +943,7 @@ and then, location caching also never properly happens. uhoh
 :CREATED:  [2020-10-01]
 :ID:       ed5f8f0943c33f9f0f38a2f1e90e95c4
 :END:
-* TODO [#C] maybe have a special tag, e.g. nohpi to shadow entries from hpi? although sometimes nice to retrieve all entries (but basically only one usecase for that, timeline) :orgmode:hpi:
+* TODO [#C] maybe have a special tag, e.g. nohpi to shadow entries from hpi? although sometimes nice to retrieve all entries (but basically only one usecase for that, timeline) :org:hpi:
 :PROPERTIES:
 :CREATED:  [2020-10-10]
 :ID:       e75d10fa358d790fbfb007b3009c20bf
