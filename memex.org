@@ -87,8 +87,8 @@ Ok, this looks pretty cool.. maybe need to contact them and discuss
 : I think I want to create some sort of community chat on the topic of knowledge management and tools around it, with the emphasis on interoperability, malleability, owning your data, local-first, org-mode etc.
 : Anyone would be interested to join?
 
-- [2020-05-27] likely needs to be Zulip (or even better, Matrix when they support threads in Element?)
-- [2020-06-30] discord sucks
+- [2020-05-27] likely needs to be [[Zulip]] (or even better, [[Matrix]] when they support threads in Element?)
+- [2020-06-30] [[discord]] sucks
   - ok, discord is a bit crap because lacks proper threading
   - need to sign up to read & search it
   - closed source

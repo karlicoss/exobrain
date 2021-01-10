@@ -1,4 +1,5 @@
-#+TITLE: Uncategorized
+#+TITLE: Uncategorized math stuff
+#+filetags: math
 #+logseq_graph: false
 
 * [2016-10-19] frequentist vs bayesian                          :probability:
@@ -206,5 +207,16 @@ free magmas are nonempty binary trees (data is in lists)
 :ID:       02039b9e133528c97c188db6d0791c4f
 :END:
 https://www.scottaaronson.com/blog/?p=4684
-Selection:
-As a simple example, I’m totally fine uttering statements like, “a family of Boolean functions with superquadratic gap between randomized and quantum query complexities exists“—even though the type of “existence” that we’re talking about clearly isn’t physical (some would call it Platonic).
+: As a simple example, I’m totally fine uttering statements like, “a family of Boolean functions with superquadratic gap between randomized and quantum query complexities exists“—even though the type of “existence” that we’re talking about clearly isn’t physical (some would call it Platonic).
+
+* TODO [#D] [2019-12-26] Lean has real manifolds! | Xena               :lean:
+:PROPERTIES:
+:ID:       47885b7a45f432507b13f8b1725ea4a9
+:END:
+https://xenaproject.wordpress.com/2019/12/17/lean-has-real-manifolds/#comments
+
+* TODO [#D] [2019-12-26] Prove a theorem. Write a function. | Xena     :lean:
+:PROPERTIES:
+:ID:       ca74b3c5ab1821022d6e70427e91030d
+:END:
+https://xenaproject.wordpress.com/2019/12/07/prove-a-theorem-write-a-function/

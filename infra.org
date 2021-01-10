@@ -1,0 +1,140 @@
+#+TITLE: Personal infrastructure
+#+filetags: infra
+
+* TODO [#B] Voice recorded notes for hands free thinking?           :mycroft:
+:PROPERTIES:
+:CREATED:  [2019-10-30]
+:ID:       a68f53d58be626a492826884c5cb8e70
+:END:
+
+* TODO [#B] [2020-07-01] [[https://docs.docker.com/compose/extends/][Share Compose configurations between files and projects | Docker Documentation]] :docker:
+:PROPERTIES:
+:ID:       079a78421e67cbdafe898f6413697874
+:END:
+
+* STRT [#B] attempting to overcome read-only editable packages... :python:pip:
+:PROPERTIES:
+:CREATED:  [2020-12-10]
+:ID:       3bfb025a184efff6274c4ec2e680ef67
+:END:
+- this works... but doesn't if setup.py is guarded with __main__
+  : import distutils.core as C; C.run_setup("setup.py", stop_after='config')
+
+  could check for __name__ == 'builtins'... but then would need to modify all files, and might not reliably work
+- can't just copy setup.py outside, because it might need .git directory for scm_version thing
+  fuuck.
+- adding to easy_install.pth works.. but need to figure out what's the base pkg directory...
+- ok, added a hacky script to infra repo
+* TODO [#C] Koreader                                             :remarkable:
+:PROPERTIES:
+:CREATED:  [2020-08-28]
+:ID:       d9459ae947a616182707c7238c5c36ea
+:END:
+
+: For a better PDF experience, you might want to try 'koreader'. The native PDF support on my Kobo Forma was so bad I was ready to return it, before finding this. It's an open source PDF/epub reader that you can install on Remarkable and other eInk readers. It's just an app - it doesn't replace or degrade any existing functionality.
+: https://github.com/koreader/koreader
+* STRT [#C] Use zstd?                                               :exports:
+:PROPERTIES:
+:CREATED:  [2020-01-15]
+:ID:       6b6d3fe8fcfb5c63a8baaad00dc35fa0
+:END:
+
+* STRT [#C] for firefox histories.. ugh!                           :bleanser:
+:PROPERTIES:
+:CREATED:  [2020-06-26]
+:ID:       b773382e3910e448f6ea504aea7d8073
+:END:
+* TODO [#C] huh, huginn is pretty well documented and also very clean interface. could get inspiration from it... :inspiration:
+:PROPERTIES:
+:CREATED:  [2019-12-24]
+:ID:       a8a57eadb937c2d3ef8a8f5407c2b465
+:END:
+
+* [#C] [2019-06-29] frenck/awesome-home-assistant: A curated list of amazingly awesome Home Assistant resources.
+:PROPERTIES:
+:ID:       b28a624cab447373c1eb02c6ba72d614
+:END:
+https://github.com/frenck/awesome-home-assistant
+* TODO [#C] github-events -- prune via triples?                    :bleanser:
+:PROPERTIES:
+:CREATED:  [2020-09-05]
+:ID:       1d3563843774374d7d27c34d0c434af8
+:END:
+* STRT [#C] trying out podman                                 :docker:podman:
+:PROPERTIES:
+:CREATED:  [2020-09-15]
+:ID:       6170d679b7f33489a8e9b19c46afe4da
+:END:
+apparently can't run without the default command?
+: podman-compose --file docker-compose.yml run --rm ghexport python3                                                                                                                                                     mc 12:02:53
+: Traceback (most recent call last):
+:   File "/home/karlicos/.local/bin/podman-compose", line 8, in <module>
+:     sys.exit(main())
+:   File "/home/karlicos/.local/lib/python3.8/site-packages/podman_compose.py", line 1093, in main
+:     podman_compose.run()
+:   File "/home/karlicos/.local/lib/python3.8/site-packages/podman_compose.py", line 624, in run
+:     cmd = self.commands[cmd_name]
+: TypeError: unhashable type: 'list'
+
+here? https://github.com/containers/podman-compose/issues/24
+can't see if they have a CI?
+* TODO [#C] overlay mounts over read-only FS work as long there is a dir (even empty) in the src? :docker:
+:PROPERTIES:
+:CREATED:  [2020-10-28]
+:ID:       1d6764837fb08424400238e46b354762
+:END:
+e.g. create empty node_modules
+* TODO [#C] it's maybe the same tag as homelab?                     :homelab:
+:PROPERTIES:
+:CREATED:  [2020-12-06]
+:ID:       253641802a4fcbd2658f3e749d683985
+:END:
+* TODO [#C] scripts to grab stuff from phone to other locations?      :phone:
+:PROPERTIES:
+:CREATED:  [2020-12-06]
+:ID:       489361ff557cd2377e9f9e55bc93b0fe
+:END:
+* [#C] [2020-07-07] [[https://devops.stackexchange.com/questions/6246/when-would-i-use-docker-composes-service-ports-flag][When would I use docker-compose's "--service-ports" flag? - DevOps Stack Exchange]] :docker:
+:PROPERTIES:
+:ID:       0100eb79bcba0bdffd35527de12c3603
+:END:
+: To start the service to run in the background you use docker-compose -f <FILE> up --detach but if you wanted to look inside the container using a terminal, you would run docker-compose run bash.
+* TODO [#C] [2020-05-26] [[https://brig.readthedocs.io/en/latest/][brig - decentralized & secure synchronization — brig v0.4.0-beta documentation]] :cloud:
+:PROPERTIES:
+:ID:       8d65714216725f428816e3ca7b178f23
+:END:
+: Simplified git version control only limited by your storage space.
+: Synchronization algorithm that can handle moved files and empty directories and files.
+: Your data does not need to be stored on the device you are currently using.
+: FUSE filesystem that feels like a normal sync folder.
+: No central server at all. Still, central architectures can be build with brig.
+: Gateway and Web based UI to share normal HTTP/S links with other users.
+: Auto-updating facility that will sync on any change.
+
+* [#C] [2020-09-11] [[https://mycroftai.activehosted.com/index.php?action=social&chash=a666587afda6e89aec274a3657558a27.613&s=a097e7aac8da6ebed9dcda7ec603a22e][GUI, Core Update, and Dev Sync Videos!]] :mycroft:
+:PROPERTIES:
+:ID:       1023290cc4042a584cb2c7c0436966a2
+:END:
+: GUI now available on Ubuntu and Manjaro
+: If you have Mycroft running on the latest (K)Ubuntu or Manjaro releases, you can now install the Alpha release of the Mycroft GUI powered by Qt and Kirigami. Simply use the same basic commands used to install mycroft-core.
+* [#C] [2020-12-20] [[https://github.com/tulir/mautrix-facebook/wiki/Bridge-setup-with-Docker][Bridge setup with Docker · tulir/mautrix-facebook Wiki]] :matrix:
+:PROPERTIES:
+:ID:       53cccea314ad970e90a0a565c2a526c6
+:END:
+: Upgrading
+:     Pull the new version (setup step 1)
+:     Start the new version (setup step 7)
+** TODO [2020-12-20] [[https://github.com/tulir/mautrix-facebook/wiki/Bridge-setup-with-Docker][Bridge setup with Docker · tulir/mautrix-facebook Wiki]] :matrix:
+:PROPERTIES:
+:ID:       17a69733e85d25bce9918bc2ec296ba8
+:END:
+ugh. kinda annoying it's running as root
+* [#D] [2019-05-16] [[https://reddit.com/r/selfhosted/comments/bmxqwd/i_made_a_selfhosted_personal_lastfm_alternative/][I made a self-hosted personal Last.fm alternative with support for custom artwork, multiple artists per track and self-defined rules for metadata correction]] /r/selfhosted :music:
+:PROPERTIES:
+:ID:       2864b628c63a04e8e3f8a57b66135c01
+:END:
+
+* incoming
+:PROPERTIES:
+:ID:       d48f944ac6c78b97d544f98b89b506ca
+:END:

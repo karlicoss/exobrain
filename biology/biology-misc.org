@@ -2,6 +2,11 @@
 #+logseq_graph: false
 #+filetags: biology
 
+* related                                                             :study:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:
+
 * [#B] [2017-11-30] protein folding                              :complexity:
 :PROPERTIES:
 :ID:       ee47485f9ef0d3f97ee62c85762fe902

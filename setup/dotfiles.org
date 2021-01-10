@@ -1,6 +1,6 @@
 #+TITLE: Managing dotfiles
 #+logseq_title: dotfiles
-#+filetags: :dotfiles:infra:
+#+filetags: :dotfiles:
 
 * awesome-dotfiles https://github.com/webpro/awesome-dotfiles
 :PROPERTIES:
@@ -161,3 +161,9 @@ https://jqplay.org/ is also quite convenient
 :ID:       dd4a73edfbf9aa08bbf8ee958300dd3a
 :END:
 I guess it would belong to configuration repository
+
+
+* related                                                             :infra:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:

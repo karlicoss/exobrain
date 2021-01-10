@@ -1,4 +1,4 @@
-#+TITLE: 
+#+TITLE: Grammar
 #+filetags: grammar
 
 * Cases
@@ -44,3 +44,9 @@ Cases can be ranked in the following hierarchy, where a language that does not h
 nominative → accusative or ergative → genitive → dative → locative or prepositional → ablative and/or instrumental → others.
 
 This is, however, only a general tendency.
+
+
+* related                                                             :study:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:

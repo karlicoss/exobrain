@@ -7,6 +7,7 @@ Random links which I haven't interned anywhere better yet
 
 #+toc: headlines 2
 
+
 * [#A] [2020-07-10] [[https://news.ycombinator.com/item?id=23792767][Disabling Google 2FA doesn't need 2FA if you're already logged in]] :security:
 :PROPERTIES:
 :ID:       34cdb0124b844125d122e1a34b63bce0
@@ -306,7 +307,7 @@ https://superuser.com/questions/275873/how-to-make-htop-sort-by-pid
 
 - Comment:
 : press > and select RES
-* [#C] [2020-02-07] POSSE - IndieWeb
+* [#C] [2020-02-07] POSSE - IndieWeb                                   :silo:
 :PROPERTIES:
 :ID:       47cceee37deb3f464002d0dbbfe23e35
 :END:
@@ -596,9 +597,9 @@ https://github.com/tmrowco/tmrowapp-contrib
 : The connect method is used to ask for user credentials (OAuth flows are also supported). The collect method is called periodically (typically every few hours) to fetch new activities. As the methods are pure, and to avoid re-asking the user for credentials everytime the collect method is called, a state object can be used to persist information (such as password, tokens..) across collects.
 : 
 : Activities require a certain formatting:
-* [#C] [2020-04-13] [[https://liberapay.com/][Liberapay]]           :cleanui:
+* [#C] [2020-04-13] [[https://liberapay.com/][Liberapay]] insanely clean ui :ui:
 :PROPERTIES:
-:ID:       be6df67fe53642cd80c4686a4ae96c4e
+:ID:       413011e86ce1d56ad19ff144c6d27de2
 :END:
 * STRT [#C] [2020-01-16] ngrok - secure introspectable tunnels to localhost :project:
 :PROPERTIES:
@@ -776,9 +777,9 @@ https://www.graycrawford.com/nonlinear-conversational-medium
 :END:
 https://thume.ca/2020/05/17/pipes-kill-productivity/
 
-* [#C] [2020-05-22] [[https://scrapism.lav.io/][Scrapism - Scrapism]] :scraping:tutorial:
+* [#C] [2020-05-22] [[https://scrapism.lav.io/][Scrapism - Scrapism]] scraping tutorial :scraping:
 :PROPERTIES:
-:ID:       b4d6f4a5e52bf128bf2c36bd97af9ff2
+:ID:       3cc6381ccd05ca0dacdf0ef82d1620af
 :END:
 
 * [#C] [2020-05-24] [[https://gist.github.com/jjperezaguinaga/4243341][Understanding Google Chrome Extensions]]
@@ -1609,11 +1610,7 @@ https://twitter.com/rektide/status/1268321433735827457
 :END:
 - State "DONE"       from              [2019-04-13]
 https://news.ycombinator.com/item?id=16842040
-* .
-:PROPERTIES:
-:ID:       5058f1af8388633f609cadb75a75dc9d
-:END:
-** [2015-06-19] impact of radiation                               :humanbody:
+* [2015-06-19] impact of radiation                                :humanbody:
 :PROPERTIES:
 :ID:       f7446c37d6249e6f2ffd8d1c8b372cbc
 :END:
@@ -1636,7 +1633,7 @@ Muscle
 Least sensitive: Nervous system
 
 This also means that a developing embryo is most sensitive to radiation during the early stages of differentiation, and an embryo/fetus is more sensitive to radiation exposure in the first trimester than in later trimesters
-** [2016-09-07] git stores snapshots, not diffs                         :git:
+* [2016-09-07] git stores snapshots, not diffs                          :git:
 :PROPERTIES:
 :ID:       88d76147f51c5a5eb0330967d24f985a
 :END:
@@ -1644,3 +1641,382 @@ This also means that a developing embryo is most sensitive to radiation during t
 : It is important to note that this is very different from most SCM systems that you may be familiar with. Subversion, CVS, Perforce, Mercurial and the like all use Delta Storage systems - they store the differences between one commit and the next.
 : Git does not do this - it stores a snapshot of what all the files in your project look like in this tree structure each time you commit. This is a very important concept to understand when using Git.
 : Git’s pack files are carefully constructed to effectively use disk caches and provide “nice” access patterns for common commands and for reading recently referenced objects.
+* STRT [#C] [2020-01-19] Noweb home page                           :literate:
+:PROPERTIES:
+:ID:       8e0a50d892ce78631a410423f069e3ad
+:END:
+https://www.cs.tufts.edu/~nr/noweb
+: Noweb — A Simple, Extensible Tool for Literate Programming
+* [#C] [2019-10-01] Multiple tools · Issue #32 · d-cook/SomethingNew
+:PROPERTIES:
+:ID:       537d07d1d714f4c377a8e1fe35dbb54b
+:END:
+https://github.com/d-cook/SomethingNew/issues/32
+: Chris Granger (creator of Eve) presents and interesting point about creating multiple tools instead of one general purpose one: http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/#fn2
+: The take-away for me is to build different tools for different needs, but have a way to easily transport models from one to the other. For example, using something like Bret Victor's dynamic drawing medium for rendering, and then "dragging" the data (or code) into something better suited for editing program flow.
+* TODO [#C] [2019-11-03] Philip Ryan on Twitter: "@antonhowes Lots * CRISPR * Reusable self landing rockets (space-x) * volume Battery Electric Vehicles * Mars Rovers * Gravitational Wave Observatory * CMOS deep sub micron (&lt;16nm) * Hubble * gene sequencing * HPV vaccine, ulcers caused by bacteria * internet + smart phones + comms + GPS" / Twitter
+:PROPERTIES:
+:ID:       9e2f990f450fc9961f037dda118279bb
+:END:
+https://twitter.com/RealPhilipRyan/status/1190950587380011008
+: What is the technological wonder of the present age? The smartphone? A particular infrastructure project? I know what they were in the 1580s or the 1780s (see my next newsletter), but not sure about now.
+* [#C] [2019-11-21] michael_nielsen on Twitter: "@AdamMarblestone @james_ough @DavidDeutschOxf In addition to Adam's notes, let me also mention the NAS survey report, freely available here: https://t.co/WkJOWP9sAz It's a pretty helpful survey, IMO!" / Twitter
+:PROPERTIES:
+:ID:       bc882e206d3f1a04c20f2696917b1d31
+:END:
+https://twitter.com/michael_nielsen/status/1197620041748865024
+: In addition to Adam's notes, let me also mention the NAS survey report, freely available here: https://nap.edu/catalog/25259/negative-emissions-technologies-and-reliable-sequestration-a-research-agenda It's a pretty helpful survey, IMO!
+* [#C] [2019-11-21] Differential Equation Solution Strategies | Intuitive Explanations :diffeq:
+:PROPERTIES:
+:ID:       f94c6b67a956d1309a0dcd5fe25d3385
+:END:
+https://intuitiveexplanations.com/math/differential-equation-solution-strategies
+
+* TODO [#C] [2019-11-22] philsturgeon/awesome-earth: The planet doesn't need to be simultaneously on fire and underwater. We can fix things. :environment:
+:PROPERTIES:
+:ID:       341c399479e2d5fd85fe6425fbb56863
+:END:
+https://github.com/philsturgeon/awesome-earth#readme
+
+* [#C] [2019-11-23] I Miss the Old Internet | Hacker News
+:PROPERTIES:
+:ID:       a213b93a0e1a6c001616149dd947a0c2
+:END:
+https://news.ycombinator.com/item?id=21402518
+: Wikipedia is even pushing further forward on that vision with Wikidata, a general-purpose knowledge base that's perhaps the most successful example of such a thing, succeeding where many other efforts have failed dismally. (Already, Wikidata gets more edits per minute than Wikipedia, albeit much of the activity is performed by bots.) It's also a successful use of Linked-Open-Data and Semantic-Web technologies (the Wikidata site hosts a SPARQL endpoint, for general queries of all sorts), so while it might not be "Old Web" per se, it feels quite retro-futuristic in many ways.
+** [#C] [2019-11-23] I Miss the Old Internet | Hacker News
+:PROPERTIES:
+:ID:       a213b93a0e1a6c001616149dd947a0c2
+:END:
+https://news.ycombinator.com/item?id=21402518
+: And of course, all the well-known personal assistant AI's rely on it quite a bit, although they're not eager to advertise that fact.
+** [#C] [2019-11-23] I Miss the Old Internet | Hacker News
+:PROPERTIES:
+:ID:       c091af93dc3d9b4f24ae02eb828f9740
+:END:
+https://news.ycombinator.com/item?id=21402518
+: pmlnr 23 days ago [-]
+: Even Firefox dropped it's built-in RSS support by now, so for the current September generation, this is meaningless, unfortunately. Still, as infrastructure, it's very important, because it's simple to transform RSS into other formats: JSON feed, h-feed[^1], etc.
+: As for how to "follow" (I'd prefer to use subscribe instead) a personal site these days, it's a hard problem, reasonably well documented here: https://indieweb.org/follow
+: There is a current effort, called microsub[^2] to tackle the problem, but it's new, and is not user friendly enough at all.
+* TODO [#C] [2019-11-24] How formulas work — patsy 0.5.1+dev documentation
+:PROPERTIES:
+:ID:       9e0f050b157ef6913d27216f4d704180
+:END:
+https://patsy.readthedocs.io/en/latest/formulas.html
+: The formula language is actually fairly simple once you get the hang of it, but if you’re ever in doubt as to what some construction means, you can always ask Patsy how it expands.
+* [#C] [2019-11-24] Abstruse Goose | Moment of Clarity(?) - part 2
+:PROPERTIES:
+:ID:       31274efadf4cc80156ff8b6a97746d63
+:END:
+https://abstrusegoose.com/342
+* [#C] [2019-11-26] Immersive Math
+:PROPERTIES:
+:ID:       92765b92365f2b2970257ea4a51d99e7
+:END:
+http://immersivemath.com/ila/index.html
+
+* [#C] [2019-11-25] bohendo.eth on Twitter: "@literalbanana @Aella_Girl If my theory of consiousness is correct, then it's impossible to process info normally but be unconscious. It's like saying "a computer that runs all the same apps but w/out any info in RAM" https://t.co/OXp8C3Y88B" / Twitter :consciousness:
+:PROPERTIES:
+:ID:       614973e0cabad7c6e5c4287ad9ffbd6a
+:END:
+https://twitter.com/bohendo/status/1198072891528667137
+: If my theory of consiousness is correct, then it's impossible to process info normally but be unconscious.
+* TODO [#D] [2019-12-03] melvinroest/doodledocs: An app for collaborative doodling via a p2p library called Bugout with RoR websocket bindings as fallback
+:PROPERTIES:
+:ID:       8839ae51cb5a9d7d3e995d5e79f5f343
+:END:
+https://github.com/melvinroest/doodledocs
+: To counter scalability issues, I added a P2P layer on top of it, built with a modified version of Bugout.
+* TODO [#C] [2019-12-07] WebRTC - Wikipedia
+:PROPERTIES:
+:ID:       fdea2c421bba7eea9750b12c2bb3cf99
+:END:
+https://en.wikipedia.org/wiki/WebRTC
+: WebRTC (Web Real-Time Communication) is a free, open-source project that provides web browsers and mobile applications with real-time communication (RTC) via simple application programming interfaces (APIs). It allows audio and video communication to work inside web pages by allowing direct peer-to-peer communication
+* [#C] [2019-12-07] knowledge/wiki-workflow.md at c978beb37bc769a9925fa6664ed9a4f3be183697 · nikitavoloboev/knowledge :exobrain:
+:PROPERTIES:
+:ID:       c965cdeee8e5d50f3f6d6615048334a2
+:END:
+https://github.com/nikitavoloboev/knowledge/blob/c978beb37bc769a9925fa6664ed9a4f3be183697/other/wiki-workflow.md#similar-wikis-i-liked
+
+* [#C] [2019-12-08] Coroutines, exceptions, time-traveling search, generators and threads: Continuations by example
+:PROPERTIES:
+:ID:       97addd82d99666f4f15e92b8cf41d05b
+:END:
+http://matt.might.net/articles/programming-with-continuations--exceptions-backtracking-search-threads-generators-coroutines
+
+* TODO [#C] [2019-12-08] pytester's comments | Hacker News             :mypy:
+:PROPERTIES:
+:ID:       a65ef340324a0381c6dcc874175df592
+:END:
+https://news.ycombinator.com/threads?id=pytester
+some very reasonable thoughts on typing from this guy
+* [#C] [2019-12-11] Verizon/Yahoo Blocking Attempts to Archive Yahoo Groups – Deletion: Dec. 14 | Hacker News
+:PROPERTIES:
+:ID:       8a5e636127a5be2802a9be4fb63a6803
+:END:
+https://news.ycombinator.com/item?id=21737696
+: ven if we still had the Library of Alexandria, it may have shed zero light on the actual lives of citizens. Archiving content on the internet means capturing thousands of individual level perspectives and experiences. We don't know what will end up being important to historians 50 or 100 years from now. I would bet there are dozens if not hundreds of historians that would give anything for a record of their favorite time period that contains even a fraction of the amount of content today's archive efforts are storing.
+* [#C] [2019-12-11] 1/(1 - 1/(1 - 1/(1 - Dan Piponi))) on Twitter: "This seems so obvious to me but people often seem to disagree with it. To improve your ability to solve a type of problem it helps to get familiar with harder problems of a similar type even if you'll never meet those harder problems in the course of solving the original problem." / Twitter
+:PROPERTIES:
+:ID:       a74a7074acdfe6a48d8837f4652f75e8
+:END:
+https://twitter.com/sigfpe/status/1204816722252840960
+: This seems so obvious to me but people often seem to disagree with it. To improve your ability to solve a type of problem it helps to get familiar with harder problems of a similar type even if you'll never meet those harder problems in the course of solving the original problem.
+* TODO [#C] [2019-12-21] minimaxir/hacker-news-undocumented: Some of the hidden norms about Hacker News not otherwise covered in the Guidelines and the FAQ.
+:PROPERTIES:
+:ID:       b12f2ed575d90776353e33fb8f925322
+:END:
+https://github.com/minimaxir/hacker-news-undocumented
+: All public URLS with user-generated content
+
+* TODO [#C] [2019-12-21] minimaxir/hacker-news-undocumented: Some of the hidden norms about Hacker News not otherwise covered in the Guidelines and the FAQ. :hackernews:
+:PROPERTIES:
+:ID:       b12f2ed575d90776353e33fb8f925322
+:END:
+https://github.com/minimaxir/hacker-news-undocumented
+: HN Search provides real-time full-text search for Hacker News. The web app is open source and powered by Algolia Search.
+* TODO [#C] https://merveilles.town/@cancel/103569635322350581 :collapse:prepping:
+:PROPERTIES:
+:CREATED:  [2020-01-30]
+:ID:       2ebaf8c398f8c18312d303187675f783
+:END:
+and maybe hedge in some simple ways (like trying to record general knowledge in a resilient way for people to access in the future)
+http://longnow.org/
+
+* [#C] [2020-05-05] [[https://twitter.com/rocallahan/status/1257497527957385216][Robert O'Callahan on Twitter: "Prolific rr contributor Keno Fischer has a great writeup of how the Julia project is integrating rr to capture user bugs. https://t.co/fpbunBDnay https://t.co/iUg04Jq3F3" / Twitter]]
+:PROPERTIES:
+:ID:       28362b49f72026822f0dbee0817a08f9
+:END:
+: Prolific rr contributor Keno Fischer has a great writeup of how the Julia project is integrating rr to capture user bugs.
+* TODO [#D] [2019-10-19] org-emms - MELPA                    :org:annotation:
+:PROPERTIES:
+:ID:       1be6e9189868b119a2fe5baa1df5738f
+:END:
+https://melpa.org/#/org-emms
+interesting, could use for annotating?
+* [#D] [2019-11-21] twitter - Find the most liked tweet from an account - Web Applications Stack Exchange :twitter:
+:PROPERTIES:
+:ID:       feca7174f0576ba013c8551c944ffcd0
+:END:
+https://webapps.stackexchange.com/questions/105958/find-the-most-liked-tweet-from-an-account
+: Pop your handle into Social Bearing's Twitter Handle Search: Found Here. A dashboard should come up with all their tweets.
+* STRT [#D] [2019-12-22] Create lists to follow certain people on GitHub similar to Twitter on Ideas | Trello :nikv:
+:PROPERTIES:
+:ID:       765d0e51ac456615a169044d3618c4c4
+:END:
+https://trello.com/c/k7hu7UAH/82-create-lists-to-follow-certain-people-on-github-similar-to-twitter
+: I follow too many people on GitHub and it's very hard to see many updates from people I care about. Would be awesome to add a way to create Twitter like lists where you can add people to the list and only see updates from these people only.
+* STRT [#D] [2019-09-04] ScriptSmith/socialreaper: Social media scraping / data collection library for Facebook, Twitter, Reddit, YouTube, Pinterest, and Tumblr APIs :reddit:scrape:axol:
+:PROPERTIES:
+:ID:       0ebddf054daffcedcca7f1e7dad3988c
+:END:
+https://github.com/ScriptSmith/socialreaper
+: Reddit
+: Get the top 10 comments from the top 50 threads of all time on reddit
+** [#C] [2020-05-16] ok, seems to be using real APIs, so overall I'm skeptical. but it's got a nice panel for tokens :exports:jdoe:
+:PROPERTIES:
+:ID:       8b34b2f20182a9096fcac42bfefb25f2
+:END:
+* TODO [#D] [2019-08-05] Eli Shlizerman on Twitter: "1/ THREAD: Excited to share our work on whole nervous system and body model for #celegans. The model simulates how connectome + neural interactions + body interact together to generate #locomotion. Preprint: https://t.co/vgwGbIeuGc Samples of videos: https://t.co/0afVJ7MBuo https://t.co/0Tb9Z6LSBX" / Twitter
+:PROPERTIES:
+:ID:       f96e2815cae13c43307b5fb44dc8bb41
+:END:
+https://twitter.com/shlizee/status/1158486688307400705
+
+* STRT [#D] [2019-08-25] RaiMan's SikuliX                        :automation:
+:PROPERTIES:
+:ID:       d06994baa39de8198e75278ec1bba2af
+:END:
+http://sikulix.com/#home1
+:    Automate what you see on a computer monitor
+: What is it?     For what is it?     Get it?     Use it?     Get help?     Contribute?
+: Latest news - version 1.1.4
+: … read about the new version — be sure: it is rewarding ;-)
+: Needs at least Java 8 - but works on Java 10 and 11
+: No longer needs setup - download and use it.
+: Sikuli is God's Eye
+: … in Huichol Indian culture: the power to see and understand things unknown.
+: (Thanks for the picture showing a Sikuli)
+: Sikuli was started somewhen in 2009 as an open-source research project at the User Interface Design Group at MIT by Tsung-Hsiang Chang and Tom Yeh.
+: Both left the project at Sikuli-X-1.0rc3 during 2012, when I decided to take over development and support and name it SikuliX.
+: What is SikuliX?
+: SikuliX automates anything you see on the screen of your desktop computer running Windows, Mac or some Linux/Unix. It uses image recognition powered by OpenCV to identify and control GUI components. This is handy in cases when there is no easy access to a GUI's internals or the source code of the application or web page you want to act on.
+* STRT [#D] [2019-09-15] Automatic code documentation with recorded examples from runtime :literate:
+:PROPERTIES:
+:ID:       21141f0ebe6faf81b8dc444d2e5dd1c2
+:END:
+https://www.geoffreylitt.com/margin-notes
+
+* TODO [#D] [2019-09-25] Blog Series: Using Org Mode Features (UOMF)    :org:
+:PROPERTIES:
+:ID:       c8dbf3704cd89597232e020f34c68be2
+:END:
+https://karl-voit.at/2019/09/25/using-orgmode/
+: Using many or few Org mode files
+: Agenda filters
+: Finding stuff within Org mode
+: Update on contact management
+* STRT [#D] [2019-09-25] Некстджен и Усиление on Twitter: "За один вечер - USB-чарджер, наушники, очки и кольцо с Alexa. Неплохо, осталось носки и баттплаг с ней соорудить, чтобы Алекса точно 24 часа в сутки могла слушать, как кряхтит всё мясо планеты - может, однажды ответит и на этот невербализованный вопрос. https://t.co/4TIOO35G3e" / Twitter :passistant:
+:PROPERTIES:
+:ID:       a2cc1009c39b252ffda5917500e485cd
+:END:
+https://twitter.com/turbojedi/status/1176960914639269890
+: а один вечер - USB-чарджер, наушники, очки и кольцо с Alexa.
+** [2020-05-14] only invitation for now
+:PROPERTIES:
+:ID:       00c0de0e526748f1edd9673e2288ed42
+:END:
+
+* STRT [#D] [2019-09-30] ПОСТ №017 - Vlad Lunachev - Medium
+:PROPERTIES:
+:ID:       233ade2b56797d56e08a04a9056825ce
+:END:
+https://medium.com/@VladLunachev/%D0%BF%D0%BE%D1%81%D1%82-017-6efedf595558
+: Например, чистить стаканы от блендера не самое приятное занятие. Пусть лучше это сделает шуруповерт с ершиком. Он лучше справится с задачей, чем я вручную губкой.
+* [#D] [2019-11-22] Secure Shell App - Chrome Web Store
+:PROPERTIES:
+:ID:       e6fdcdc48d2c593dfbe5e7083be47e09
+:END:
+https://chrome.google.com/webstore/detail/secure-shell-app/pnhechapfaindjhompbnflcldabbghjo
+
+* [#D] [2019-11-26] Interactive Linear Algebra | Hacker News
+:PROPERTIES:
+:ID:       3911711003901195c7a2afa052a83276
+:END:
+https://news.ycombinator.com/item?id=21628449
+
+* [#D] [2020-01-18] Workflow Patterns Home Page
+:PROPERTIES:
+:ID:       5f45ef6fe553dd8638a8ecc7bd26e6a2
+:END:
+http://workflowpatterns.com/
+: Welcome to the Workflow Patterns home page
+* [#D] [2020-01-09] What does it do? — Logbook               :python:logging:
+:PROPERTIES:
+:ID:       15d00cddf9d49182a305e2bd3a50715c
+:END:
+https://logbook.readthedocs.io/en/stable/features.html#advantages-over-logging
+
+* TODO [#D] [2019-12-15] the Webb blog ∙ Stick around
+:PROPERTIES:
+:ID:       a1ac61256b57c7fd4b8a08a3fff281a9
+:END:
+https://blog.webb.page/
+** TODO [#B] [2019-12-15] the Webb blog ∙ And so, it begins
+:PROPERTIES:
+:ID:       5d30e955197693cb944ae35006ce06cb
+:END:
+https://blog.webb.page/2016/it-begins
+: thought about porting the posts from my previous blog, but I'd rather start fresh. After all, after the tumultuous year that was 2016, I think we could all use a fresh start.
+
+* [#D] [2019-12-07] Still alive? · Issue #25 · machinalis/mypy-data :mypy:numpy:
+:PROPERTIES:
+:ID:       5f5fa41caf94744897fbd6ee73dea08a
+:END:
+https://github.com/machinalis/mypy-data/issues/25
+
+* [#D] [2019-12-18] Generalized One-Night Stands ← We Can Solve This
+:PROPERTIES:
+:ID:       2b7247bbb34271d313df07ccad38b60e
+:END:
+http://sandymaguire.me/blog/one-night-stands/
+
+* TODO [#D] [2019-12-18] I find journaling indispensable | Hacker News
+:PROPERTIES:
+:ID:       cb8c2b53e3ed50c192d33e93f31dc942
+:END:
+https://news.ycombinator.com/item?id=20849148
+: have been writing down what I do every day since 2002. So 17 years of daily notes about what I did, how I feel, what I was excited about that day. One cool thing about the journal is that it is electronic. So its searchable which is kind of cool. Its always handy to look up stuff you did in the past and when you did it, who you were with, when you went on that great vacation to the beach etc... I highly recommend keeping a journal, for people who are into it.
+* TODO [#D] [2019-12-20] Pipenv: promises a lot, delivers very little | Chris Warrick :pip:
+:PROPERTIES:
+:ID:       3bfd5dd2f49f52dfce8a2b61ec66463d
+:END:
+https://chriswarrick.com/blog/2018/07/17/pipenv-promises-a-lot-delivers-very-little/
+
+* TODO [#D] Tweet from Miguel de Icaza (@migueldeicaza), at Jan 29, 17:56 :privacy:
+:PROPERTIES:
+:CREATED:  [2020-01-29]
+:ID:       b6efc2b233add8220ac3b64c523bb0cf
+:END:
+: After two years of not using Facebook - I logged in today to check out this new tool that shows what Facebook has been tracking.   Despite this, they have seen my every move on the Internet - this is creepier than I had imagined. https://t.co/BsqpjT3qid
+
+
+https://twitter.com/migueldeicaza/status/1222503250269818880
+
+* TODO [#D] [2019-12-26] awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of hosting and managing applications instead of renting from Software-as-a-Service providers :coding:
+:PROPERTIES:
+:ID:       6fab777b50af08ba3d71104acf3d81cc
+:END:
+https://github.com/awesome-selfhosted/awesome-selfhosted
+: API Management
+* TODO [#D] [2019-11-09] hypothesis improvements                 :hypothesis:
+:PROPERTIES:
+:ID:       5153c05d5979a1fe30cc4fa927f554be
+:END:
+: Thread: We're rolling out a number of small but essential user-experience (#UX) and accessibility (#a11y) improvements as part of our work to improve the overall usability of the @hypothes_is client and ensure full accessibility for keyboard-only users. 1/
+
+* TODO [#D] [2019-12-21] Ask HN: Who are your favourite people to follow on Mastodon? | Hacker News
+:PROPERTIES:
+:ID:       c969768af009eca4cbc22a573e46895f
+:END:
+https://news.ycombinator.com/item?id=16741116
+
+* TODO [#D] [2019-12-22] karldray/quantum: Simulate reverse causality using quantum suicide. :quantum:
+:PROPERTIES:
+:ID:       ee0a02368871f2dd63eb498987a142ed
+:END:
+https://github.com/karldray/quantum
+
+* TODO [#D] [2019-12-23] 10 observations from 2 years of not drinking | Ed Latimore :alcohol:
+:PROPERTIES:
+:ID:       0740c12e0b155a73d7b3fd8264a96c90
+:END:
+https://edlatimore.com/10-observations-from-2-years-of-not-drinking/
+
+* [#D] [2019-12-02] How to read 10 times more without any speed reading hacks? — Santhosh Guru :reading:
+:PROPERTIES:
+:ID:       22a66b681231a28774252f1e673d7288
+:END:
+https://www.santhoshguru.com/essays/on-reading
+
+* [#D] [2019-12-04] Org mode for Emacs – Release notes                  :org:
+:PROPERTIES:
+:ID:       94fcbe7d10a7241cf89f4a9312aae59d
+:END:
+https://orgmode.org/Changes.html
+: New link-type: Attachment
+* [#D] [2019-12-05] Optimizing Mindfulness – Tasshin
+:PROPERTIES:
+:ID:       0eda70444174b3754c011ab0bc851cc8
+:END:
+https://tasshin.com/blog/optimizing-mindfulness/
+
+* [#D] [2019-12-08] Dynamically change __slots__ in Python 3 - Stack Overflow :python:
+:PROPERTIES:
+:ID:       0a3550b0a2f2b252ad4421f89530bce3
+:END:
+https://stackoverflow.com/questions/27907373/dynamically-change-slots-in-python-3
+: Normally, an object's attributes are stored in a dict, which requires a fair bit of memory itself. If you are creating millions of objects then the space required by these dicts becomes prohibitive. __slots__ informs the python machinery that makes the class object that there will only be so many attributes refered to by instances of this class and what the names of the attributes will be. Therefore, the class can make an optimisation by storing the attributes directly on the instance rather than in a dict. It places the memory for the (pointers to the) attributes directly on the object, rather than creating a new dict for the object.
+* TODO [#B] [2020-05-18] [[https://github.com/cookiengineer/stealth][cookiengineer/stealth: Stealth - Secure, Peer-to-Peer, Private and Automateable Web Browser/Scraper/Proxy]]
+:PROPERTIES:
+:ID:       71291f30cd18d6ea0d3bc3a4bf119f81
+:END:
+
+* TODO [#B] [2020-07-21] [[https://github.com/tmbo/questionary][tmbo/questionary: Python library to build pretty command line user prompts ✨Easy to use multi-select lists, confirmations, free text prompts ...]]
+:PROPERTIES:
+:ID:       3b6a772256298f6e94436851bbdc448e
+:END:
+
+* STRT [#B] [2020-10-26] [[https://futureofcoding.org/community][Community | Future of Coding]]
+:PROPERTIES:
+:ID:       5db6aa06b1339d29ed7a1279e4d2787b
+:END:
+: Our 4 most popular channels are bridged to Matrix rooms. They should be accessible in any Matrix client using the following aliases:
+: Matrix Bridge
+
+* .
+:PROPERTIES:
+:ID:       5058f1af8388633f609cadb75a75dc9d
+:END:

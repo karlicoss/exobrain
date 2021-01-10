@@ -1,0 +1,225 @@
+#+TITLE: Piano
+#+filetags: :piano:study:
+
+* related                                                             :hobby:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:
+
+
+* try playing
+:PROPERTIES:
+:ID:       ecc9ed757c9fd1442ce5afe3f2d72027
+:END:
+** STRT [#B] Enjoy the silence
+:PROPERTIES:
+:CREATED:  [2018-09-17]
+:ID:       d5462dfdd00133fc7cc1dbecdaa48ad6
+:END:
+
+** TODO [#C] buzzcut season
+:PROPERTIES:
+:CREATED:  [2018-05-13]
+:ID:       7b2f37ffc150095f066782292e501f80
+:END:
+
+https://www.youtube.com/watch?v=jSeaVnVmIFk
+
+** TODO [#C] the fray -- you found me
+:PROPERTIES:
+:CREATED:  [2019-06-28]
+:ID:       26ca40f45c821ef967bed2d94c1c439e
+:END:
+** TODO [#C] think about some modern grade 2/3 piece?
+:PROPERTIES:
+:CREATED:  [2019-09-19]
+:ID:       14c50c233936240b4ff3b481cd8af17e
+:END:
+
+** TODO [#C] [2019-09-09] The Lonely Shepherd - Wikipedia
+:PROPERTIES:
+:ID:       b881a0102ef6453f778518af259429ad
+:END:
+https://en.wikipedia.org/wiki/The_Lonely_Shepherd
+
+** TODO [#C] heart shaped box
+:PROPERTIES:
+:CREATED:  [2018-03-29]
+:ID:       5323fc731d86ea0d9155f1d9891a5e31
+:END:
+
+** TODO [#C] diplo -- get it right
+:PROPERTIES:
+:CREATED:  [2018-06-02]
+:ID:       cbcd1d3b846bfdacefedb7a9d2aea505
+:END:
+
+* TODO [#C] [2019-04-20] What Does a Pianist See? | Eye Tracking - Episode 1 - YouTube
+:PROPERTIES:
+:ID:       15ef1a07bbc9c3d9e9788ed105ec2bb6
+:END:
+https://www.youtube.com/watch?v=GVvY8KfXXgE
+
+* ear training
+:PROPERTIES:
+:ID:       6fb39caadfacb29ba3cd1fc229850ec1
+:END:
+** [#C] [2019-01-23] Online Ear Training with Intervals, Melodies, Jazz Chord Progressions | IWasDoingAllRight
+:PROPERTIES:
+:ID:       939a499071fa1be455f73920f61818bb
+:END:
+https://www.iwasdoingallright.com/tools/ear_training/online/
+
+** [#C] [2019-05-19] Note Identification
+:PROPERTIES:
+:ID:       fefefdc61b79a0aa29d7c96f578bf9b2
+:END:
+https://www.musictheory.net/exercises/note
+
+
+* sight reading
+:PROPERTIES:
+:ID:       8f72bac20f908e6a5b150ca8ba9ad6f5
+:END:
+** TODO [#D] Sight Reading Trainer
+:PROPERTIES:
+:CREATED:  [2019-05-22]
+:ID:       ef27286a0ce5e0e7b2a6344e00cbcafc
+:END:
+https://sightreading.training/
+
+** [2019-01-28] lollergater comments on Share your techniques for practicing the beginner/foundational music reading skills!
+:PROPERTIES:
+:ID:       47a3f1d055a9bc7265230847f71c23b5
+:END:
+https://www.reddit.com/r/musictheory/comments/5lzr3o/share_your_techniques_for_practicing_the/dc0jhl1/
+: Instant chord recognition and instant interval recognition are the foundational bane of musical existence. If one can get past that, understanding the compositional concept is much easier. Much like sight reading for performance. If I struggle to read the note and locate it on the instrument, it makes the higher order musical part that much harder.
+*** STRT [#D] [2019-02-14] ankify that ?
+:PROPERTIES:
+:ID:       f01c02ee23022bc0b56a03f083c4658e
+:END:
+** [2019-05-19] [[https://reddit.com/r/musictheory/comments/8i9y58/need_to_improve_at_sight_reading_as_fast_as/dyq70ou/][Need to improve at sight reading as fast as possible]] /r/musictheory
+:PROPERTIES:
+:ID:       788d54ec9cc4fea0758e4a3698e1d48e
+:END:
+: I used sightreadingfactory.com and while it's a little weird and costs some money, it works. It basically generates music with algorithms for you to sight read.
+** [2019-05-19] [[https://reddit.com/r/piano/comments/5bacza/people_who_can_sightread_fast_what_specific/d9myy6o/][People who can sight-read fast, what specific practice did you use?]] /r/piano
+:PROPERTIES:
+:ID:       e1bddc78724d15ced52cf3a4cc330094
+:END:
+:  I'm not perfect at sight reading, but I know my sight reading improved when I stopped focusing on repertoire and just started playing tons of songs. I just went online, found songs that weren't too easy/too hard, and played them. Just make sure you're constantly exposing yourself to new music you haven't seen before. Eventually, you get better and better at recognizing patterns and chords, and it makes you sight read faster. There's probably certain special techniques to improve, but it's not like this won't help
+** [2019-05-19] [[https://reddit.com/r/musictheory/comments/8i9y58/need_to_improve_at_sight_reading_as_fast_as/dyqo0pu/][Need to improve at sight reading as fast as possible]] /r/musictheory
+:PROPERTIES:
+:ID:       fba978a2edc27aa005ab872e90dead57
+:END:
+:  The habit you have to break if you are going to improve your sight reading is the urge to correct yourself.
+: 
+:  Read music you haven't seen before. It should be below your ability level. Start easy, and get gradually harder. Read it slowly, play to a metronome so you don't lose the time. If you play a wrong note, LET IT BE. Don't correct yourself, just move on. When you're done with the piece, don't start it from the beginning. You're not practicing that piece, you are practicing sight reading. Pick a new piece you've never seen or heard before, and play that. Then another. Etc.
+: 
+:  You'll make fewer mistakes with time. It will take a while. Patience and persistence are your friends.
+: 
+:  I'm on this journey too. I've always been a terrible sight reader, but it's becoming professionally necessary, so I'm hacking away at it.
+
+* TODO [#C] [2019-05-19] We know how to practice effectively. - Piano Practice Assistant
+:PROPERTIES:
+:ID:       6f49ac29a92792808d4bc0a761a5b161
+:END:
+http://pianopracticeassistant.com/
+
+* TODO [#D] musictheory.net - Exercises
+:PROPERTIES:
+:CREATED:  [2019-05-31]
+:ID:       fa2089d777bf35084809d89022b7d011
+:END:
+
+https://www.musictheory.net/exercises
+
+* [2019-05-19] [[https://reddit.com/r/IWantToLearn/comments/92xaqj/iwtl_how_to_improve_piano_technique/e3pkwp5/][IWTL How to improve piano technique]] /r/IWantToLearn
+:PROPERTIES:
+:ID:       c87f74ed16ef7707640e8b0db40b2e32
+:END:
+:  OP,
+:  I’ve studied technique for 3 decades.  It boils down to very simple things.
+:  1. Anything you play, try to play legato without overlapping the sound of notes. Follow these steps below to the “T”.
+: 
+:            Just try, on one hand, with the fifth finger, playing any note you want. When your finger presses the key down to the very bottom. Do not apply any pressure to that finger. In other words, only have enough energy utilized to keep the key down and no more. The goal is to be efficient with the use of energy because this will keep you from getting fatigued even while playing very fast passages at any volume for any period of time including long periods of time.Then slowly release the finger up and do not allow your finger to ever leave the surface of the key. This is extremely important. If you’ve never done this before, this will take a while to master. I recommend doing this over and over and over until you get in the habit of not letting your finger leave the surface of the key once you’ve allowed the note to come up and stop sounding. You’re going to have to practice this with each individual finger. This will take a few days to master. Do not articulate or raise the finger before you strike the key for this first preliminary part of technique learning. You just want to focus on two things; pushing the key down without using any more energy then you have to to keep the key down for a second once it hits the bottom and then not allowing the finger to ever leave the surface of the key once you allow the key up and it stops ringing. It’s a good idea, once the key is pressed all the way down, to allow your finger to push harder and harder at that point so you can get feedback from your finger and hand to learn exactly how little energy you need to dissipate to keep the key down. Remember, you want to use as little as possible.
+: 
+:            Every piano is a little different so the very moment or the exact height of the piano key that correlates to the damper coming down onto the string needs to be learned by you. The damper stops the piano strings from vibrating. And it’s that exact piano key height where the damper silences the string that your next finger, in this case the fourth finger, needs to push its piano key down. If you overlap notes, or in other words, allow two notes to ring together at the same time,even for a fraction of a second, it will sound bad. If you don’t notice the difference in sound it’s because you’re not listening close enough. Once you get used to listening close enough you’ll understand. The goal is to let one note stop ringing and the very next note start at that very precise moment in time. And for now,  we’re not worried so much about the volume but we’re precisely worried about true legato. Volume is important but that comes a little bit later and I’ll explain then. This is not easy to achieve but it can be learned in about five days if you practice it every day for about 30 minutes. Once you get it down on the fourth and fifth fingers, then you do the fourth to the third finger, then the third to the second, then the second to the thumb.
+: 
+:            The height you raise your finger before you strike the key should be at least equal to the height the damper is above the piano strings when a piano key is pushed down. You will notice the damper raises above the piano strings when you push down a key. That height needs to be imitated by your finger, at the very least.  Higher is ok but if one finger raises too much higher than another finger AND that finger weighs more than the other finger AND it’s currently faster at moving down to strike than the other finger, you will not achieve equal volume. So, keep the height you articulate your fingers equal to one another.
+: 
+:            Once you get your right hand correct, you’ll do the same to the left hand. And once both hands are proficient, meaning, you can play from one finger to the next completely Legato at any tempo you wish, consistently with no errors for at least 10 cycles, then you can try to do both hands at the same time.
+: 
+:  I’ll talk about step two once you got this part 1 down. Feel free to contact me.
+* Music theory                                                  :musictheory:
+:PROPERTIES:
+:ID:       91ec6380adbaca8cfb2d3718e86ea9a1
+:END:
+** [2019-05-23] [[https://reddit.com/r/musictheory/comments/5vccxp/i_dont_understand_time_signatures/de1g58y/][I don't understand time signatures...]] /r/musictheory
+:PROPERTIES:
+:ID:       f176548549916e721674c94a60703e9a
+:END:
+: In addition to what everyone else has said: if it's confusing to you that the time signature doesn't have anything to do with actual *time*, like in seconds and minutes, it may help to remember that music notation is *old*.
+: 
+: This form of notation was invented at a time when nobody had access to a clock or a watch that even had a second hand on it. They didn't have any way of saying how many beats per second they wanted, because there was no convenient way for them to measure the seconds at all!
+: 
+: So that's why notation uses words (allegro, presto, andante, etc) to give a *general* indication of how fast you're supposed to play it.
+: 
+: But yeah, that has nothing actually to do with the "time" signature. In fact, I'd go so far as to say that "time signature" is a lousy name for that marking you see at the front of the score. It should really be called something like "beat structure," since that's what it really tells you.
+** [2019-05-23] [[https://reddit.com/r/musictheory/comments/5vccxp/i_dont_understand_time_signatures/de0yp15/][I don't understand time signatures...]] /r/musictheory
+:PROPERTIES:
+:ID:       d61c72fec09a79ffe2fbfe84abb53179
+:END:
+: The only real difference between 4/8, 4/4, and 4/2 is the way they are written. They would sound they same if played at the same tempo. That said, in modern music, there is an implication that 4/8 would be played at a faster tempo than 4/2.
+: 
+: Any time signature can be played at any tempo, but there are some generally followed conventions. 3/8 is usually felt in one to the bar, which means it is usually faster than 3/4. 3/2 wouldn't typically be used for a fast scherzo. The idea is to impart the most information to the reader, which means using the time signature that most readers would interpret the way you want.
+* CNCL [#D] [2019-05-25] [[https://reddit.com/r/piano/comments/1v45oe/rollup_piano_waste_of_timemoney_or_a_usable/ceojj0m/][Roll-up piano. Waste of time/money, or a usable practice instrument?]] /r/piano
+:PROPERTIES:
+:ID:       b0365701e0e4ecd1ad47921d919ce8ff
+:END:
+: My grandmother got me one a couple of years ago and I can assure you that it's a complete waste of money.
+: You will not improve your playing in any way, its useless for practising, its almost impossible to hit more than 2 keys at the same time and it's just not like a piano. Should you really manage to learn a real piece on one of those things I myself will buy you a medal.
+: It's a funny toy tough
+* [#C] Drill
+:PROPERTIES:
+:ID:       edc1363564342ca7a5e459995af27e22
+:END:
+** First below row in bass cleff is [E (third) ]                      :piano:
+:PROPERTIES:
+:CREATED:  [2019-01-29]
+:ID:       508494d0-576b-4295-bdff-e7c97befb024
+:END:
+
+** Different parity means odd number of notes and even total number of keys :piano:
+:PROPERTIES:
+:CREATED:  [2019-01-29]
+:ID:       9a539efe-c0f9-4a99-a5d3-0fe37ef3756f
+:END:
+** TODO Treble cleff /EF /FG                                          :piano:
+:PROPERTIES:
+:CREATED:  [2019-05-31]
+:ID:       7bb3b867-9fdf-43aa-a9a9-be9491f0c496
+:END:
+
+** [2019-05-19] note on top (not intersecting) is G                   :piano:
+:PROPERTIES:
+:ID:       7e9d62bc-f8a8-481a-b1a4-1321dc8a68c7
+:END:
+** [2019-05-19] bass cleff F [second from top, between the dots]      :piano:
+:PROPERTIES:
+:ID:       3d04cb60-0f1b-4453-bae4-1132d6fb1c30
+:END:
+mnemonic: F got two sticks, just like two dots
+** [2019-05-19] 6th C is on second line above.                        :piano:
+:PROPERTIES:
+:ID:       a82fb870-4ec3-463f-b4fc-8d2b751ab9ae
+:END:
+memorising: 4th is on first line below. So distance two octaves above got to be 7 lines up, that is, -1 + 7 + 1  -5 = 2 lines
+** [2019-05-19] bass cleff G intersects lower line                    :piano:
+:PROPERTIES:
+:ID:       38375ff8-d303-476f-a61e-1dacc429f0db
+:END:
+* incoming
+:PROPERTIES:
+:ID:       d48f944ac6c78b97d544f98b89b506ca
+:END:

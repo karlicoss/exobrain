@@ -1,0 +1,83 @@
+#+TITLE: Health
+
+* STRT [#B] should I use chewing gum?                          :health:teeth:
+:PROPERTIES:
+:CREATED:  [2018-07-19]
+:ID:       451f16cb00b799e908ea67d4b2a8b907
+:END:
+
+https://www.mouthhealthy.org/en/az-topics/c/chewing-gum
+
+according to dentist (reddit):
+: Xylitol gum is effective in reducing the incidence of tooth decay. Part of the reason is that its an undigestible sugar, but the main reason is that its a salivary stimulant and saliva is an effective pH buffer.
+
+* [#C] [2020-01-23] Runners Knee: There are two kinds, which do you have? :running:
+:PROPERTIES:
+:ID:       5ab89f1ebba5a3b43e1d3b309a3fcffd
+:END:
+https://www.painscience.com/articles/diagnose-runners-knee.php
+: ITBS
+: Iliotibial Band Syndrome
+* TODO [#C] https://vk.com/wall-9471321_31628                     :sleep:dna:
+:PROPERTIES:
+:CREATED:  [2019-09-01]
+:ID:       3c81a7adb7eb830c4457e0a932b159f1
+:END:
+: В журнале Neuron появилось очередное доказательство того, что некоторым людям требуется чуть меньше сна, чем другим. Естественно, это оказалось связано это с генетическими особенностями, а именно – с мутацией в гене одного из типов возбуждающих рецепторов, расположенных на мембране нейрона. Этот генетический «подарок» позволил сократить необходимое время полноценного ночного отдыха на целый час.
+** TODO [#C] Мутантам надо спать меньше - Neuronovosti
+:PROPERTIES:
+:CREATED:  [2019-09-01]
+:ID:       5ec841c4935307cdaa119f083829d36c
+:END:
+
+http://neuronovosti.ru/mutantam-nado-spat-menshe/
+
+* TODO [#C] Близорукость считается наследуемым заболеванием, но факторы риска могут быть как генетическими, так и внешними (факторами окружающей среды). К примеру, близорукость также связывают с интенсивными зрительными нагрузками, в особенности — при чтении и использовании компьютера или гаджетов. Несмотря на четкую взаимосвязь, до сих пор было получено мало доказательств в пользу причинно-следственной связи между получением образования в качестве причины и близорукостью как следствия. :eyes:
+:PROPERTIES:
+:CREATED:  [2019-03-31]
+:ID:       9b846712793874de3fbd4ae36b793bdf
+:END:
+
+* [#C] [2019-10-26] Стратегия Open Longevity http://openlongevity.org/
+:PROPERTIES:
+:ID:       5bf9ee73d073676ebd251ce094aec5bb
+:END:
+
+* TODO [#D] Шестьдесят лет здоровому желудку
+:PROPERTIES:
+:CREATED:  [2018-06-05]
+:ID:       6420907b9574f8d010cded7a3a221a3a
+:END:
+
+http://nplus1.ru/blog/2018/05/29/stomachismybestfriend
+
+* [#D] [2018-05-29] good explanation of low carb diet    :lowcarb:metabolism:
+:PROPERTIES:
+:ID:       6a47c9855fae26d67eb79e0a197f0b4c
+:END:
+basically you want to eat less due to feeling more satiated
+also, using fats as fuel is not very energy effecient, so that might explain extra calorie consumption
+https://www.reddit.com/r/keto/comments/5h5f8s/what_happens_to_excess_fat_consumed/daxkwkf/
+
+* TODO [#C] slow breathing HRV                                          :hrv:
+:PROPERTIES:
+:ID:       ec2cd6be9c38dbf616515e852837dc13
+:END:
+* TODO openlongevity
+:PROPERTIES:
+:CREATED:  [2018-04-10]
+:ID:       dd8da04a3eeb82baf7922f100bcf8305
+:END:
+
+https://medium.com/open-longevity/%D0%B4%D0%B8%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BF%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C-open-longevity-1-1-4f45824464b4
+https://geektimes.ru/post/291167/
+
+* [2017-04-24] "LPT: If you're still a teenager, treat your ears nicely. Ears don't repair themselves and earplugs to concerts are better than tinnitus for the rest of your life." :health:
+:PROPERTIES:
+:ID:       594f5306a977242eca1ad1c6826088b9
+:END:
+
+* incoming
+:PROPERTIES:
+:ID:       d48f944ac6c78b97d544f98b89b506ca
+:END:
