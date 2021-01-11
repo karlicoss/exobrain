@@ -39,7 +39,7 @@ http://www.dirac.ch/PaulDirac.html
 :PROPERTIES:
 :ID:       ba38d8ba7813620c83d6d6f88ce604c7
 :END:
-* [#B] [2019-04-17] [[https://reddit.com/r/Maps/comments/be3p32/alternative_to_google_maps/el32dfa/][Alternative to Google Maps?]] /r/Maps :map:osm:
+* [#B] [2019-04-17] [[https://reddit.com/r/Maps/comments/be3p32/alternative_to_google_maps/el32dfa/][Alternative to Google Maps?]] /r/Maps :degoogle:maps:osm:
 :PROPERTIES:
 :ID:       7b6f69971745909df09638a3c9da2ba7
 :END:
@@ -1048,12 +1048,12 @@ https://github.com/kynan/nbstripout
 :ID:       e1586166f61057f52495003f4ce9fde4
 :END:
 : By using list.children instead of list.childNodes, you can avoid the check for text nodes.
-* [#B] [2020-07-20] [[https://en.mapy.cz/zakladni?x=-0.0200000&y=51.5064000&z=11][Mapy.cz]] :travel:hiking:map:
+* [#B] [2020-07-20] [[https://en.mapy.cz/zakladni?x=-0.0200000&y=51.5064000&z=11][Mapy.cz]] :travel:hiking:maps:
 :PROPERTIES:
 :ID:       9807713fd36ab692591980db7062de99
 :END:
 
-* [2020-07-23] [[https://www.routeyou.com/][Enjoy the nicest routes | RouteYou]] :map:
+* [2020-07-23] [[https://www.routeyou.com/][Enjoy the nicest routes | RouteYou]] :maps:
 :PROPERTIES:
 :ID:       72a683ac880371936bc5430995fcba39
 :END:
@@ -1074,7 +1074,7 @@ https://github.com/kynan/nbstripout
 :PROPERTIES:
 :ID:       5bdc5ea114f8044d4ef5b372393898b3
 :END:
-* [2017-04-20] Lagrangian points
+* [2017-04-20] Lagrangian points                                      :space:
 :PROPERTIES:
 :ID:       bce7efefa4314457d80e3a14d3ed5f76
 :END:
@@ -1085,7 +1085,7 @@ https://github.com/kynan/nbstripout
 :PROPERTIES:
 :ID:       0a5a0b97e98c0f9a52bb5c6fc740055f
 :END:
-* [2019-02-04] oliexdev/openScale: Open-source weight and body metrics tracker, with support for Bluetooth scales
+* [2019-02-04] oliexdev/openScale: Open-source weight and body metrics tracker, with support for Bluetooth scales :qs:
 :PROPERTIES:
 :ID:       3bebe2ff15812222e83a72818163887b
 :END:

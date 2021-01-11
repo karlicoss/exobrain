@@ -4,9 +4,6 @@
 #+filetags: axol
 Eventually I'll write about it [[https://beepb00p.xyz/axol.html][here]]
 
-Related: #pkm #search
-
-
 #+toc: headlines 2
 
 * [#A] Motivation
@@ -954,3 +951,9 @@ pinboard:tag:scottalexander
 :END:
 
 e.g. I crawled quite a bit of pokemon crap, would be good to filter it?
+
+
+* related                                               :pkm:search:degoogle:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:

@@ -39,11 +39,6 @@
 :ID:       6b6d3fe8fcfb5c63a8baaad00dc35fa0
 :END:
 
-* STRT [#C] for firefox histories.. ugh!                           :bleanser:
-:PROPERTIES:
-:CREATED:  [2020-06-26]
-:ID:       b773382e3910e448f6ea504aea7d8073
-:END:
 * TODO [#C] huh, huginn is pretty well documented and also very clean interface. could get inspiration from it... :inspiration:
 :PROPERTIES:
 :CREATED:  [2019-12-24]
@@ -55,11 +50,6 @@
 :ID:       b28a624cab447373c1eb02c6ba72d614
 :END:
 https://github.com/frenck/awesome-home-assistant
-* TODO [#C] github-events -- prune via triples?                    :bleanser:
-:PROPERTIES:
-:CREATED:  [2020-09-05]
-:ID:       1d3563843774374d7d27c34d0c434af8
-:END:
 * STRT [#C] trying out podman                                 :docker:podman:
 :PROPERTIES:
 :CREATED:  [2020-09-15]

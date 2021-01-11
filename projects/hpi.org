@@ -667,7 +667,7 @@ https://repl.it/talk/all?lang=python_turtle
 :CREATED:  [2020-01-19]
 :ID:       f0443de9c6a84b2167b87d7b16408c92
 :END:
-* STRT [#B] [2020-05-06] [[https://github.com/KrauseFx/FxLifeSheet/issues/34][Find alternative to Google Data Studio · Issue #34 · KrauseFx/FxLifeSheet]] :hpi:
+* STRT [#B] [2020-05-06] [[https://github.com/KrauseFx/FxLifeSheet/issues/34][Find alternative to Google Data Studio · Issue #34 · KrauseFx/FxLifeSheet]] :degoogle:hpi:
 :PROPERTIES:
 :ID:       62d38d922a4279c3e0e16f6131d0bcc1
 :END:

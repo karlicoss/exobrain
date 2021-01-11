@@ -2,11 +2,6 @@
 #+logseq_graph: false
 #+filetags: biology
 
-* related                                                             :study:
-:PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
-:END:
-
 * [#B] [2017-11-30] protein folding                              :complexity:
 :PROPERTIES:
 :ID:       ee47485f9ef0d3f97ee62c85762fe902
@@ -29,3 +24,9 @@ F: ermentation takes place in the lack of oxygen (when the electron transport ch
 https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5
 
 : Пируваты (соли пировиноградной кислоты) — важные химические соединения в биохимии. Они являются конечным продуктом метаболизма глюкозы в процессегликолиза. Одна молекула глюкозы превращается при этом в две молекулы пировиноградной кислоты. Дальнейший метаболизм пировиноградной кислоты возможен двумя путями — аэробным и анаэробным.
+
+
+* related                                                             :study:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:

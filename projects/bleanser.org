@@ -1,0 +1,79 @@
+#+TITLE: Backup cleanser
+#+logseq_title: bleanser
+#+filetags: :bleanser:
+
+Github page: [[https://github.com/karlicoss/bleanser][karlicoss/bleanser]]
+
+bleanser stands for 'backup cleanser'.
+
+The idea is figuring out 'redundant' backups, but in a data source agnostic way.
+This is the most relevant to [[https://beepb00p.xyz/exports.html#types][incremental/synthetic]] style data exports.
+
+This is possible for example for JSON: if the export from today is a superset of an export from yesterday, you can safely remove the old export. This actually works surprisingly well as is for many data sources.
+For a few I've got slight adjustments that normalise them before comparing by removing certain fields that change often, but not very important. For example, Reddit upvotes/downvotes always jump, so I just exclude them from the comparison.
+It's similar to extracting the useful fields, but instead it filters the useless ones. That makes it safer in case new fields are added by the backend, I'd rather keep extra data than potentially lose useful information.
+
+* TODO [#A] pattern of handling unknown data sources                   :blog:
+:PROPERTIES:
+:CREATED:  [2020-12-08]
+:ID:       5d74467951b734ed9f6267d97085f573
+:END:
+lower bound
+  specify data (fields/files etc) to preserve
+if you only do that you might miss new useful data/schema changes like renames etc
+
+. ideally they meet here
+  .. warn if we ended up here, i.e. dropping is not converting with picking. but keep the data
+
+if you only do that you end up with too much garbage
+  specify data (fileds/files etc) to drop
+upper bound
+* STRT [#B] firefox history?                             :promnesia:bleanser:
+:PROPERTIES:
+:CREATED:  [2020-06-10]
+:ID:       40525fcdedce38695b3391dfa47e089d
+:END:
+
+* STRT [#C] compress backups?                                         :infra:
+:PROPERTIES:
+:CREATED:  [2018-07-31]
+:ID:       afa49540f66ccfae8746a09f773bbc57
+:END:
+started compressing reddit...
+** [2019-03-25] also compressing rtm
+:PROPERTIES:
+:ID:       01c04303e22ca1d072238a9ddd5605d9
+:END:
+
+* TODO [#D] smscalls
+:PROPERTIES:
+:CREATED:  [2020-12-08]
+:ID:       190042e7c6115b6992d1f8940ca3e9cd
+:END:
+* TODO [#C] github-events -- prune via triplet approach?
+:PROPERTIES:
+:CREATED:  [2020-09-05]
+:ID:       9759aa66d7f9cfa5d5ee11247f2bb0a7
+:END:
+* TODO [#C] shit, dry run still left turds???
+:PROPERTIES:
+:CREATED:  [2019-12-29]
+:ID:       17b9c3d4fae34acfafa81a07dd40a747
+:END:
+
+* TODO [#D] not sure, maybe ignore comment/link karma? it results in lots of differences... :reddit:
+:PROPERTIES:
+:CREATED:  [2019-09-29]
+:ID:       27280ffa480e17bdbb66abf79059c18b
+:END:
+
+
+* TODO [#D] [2021-01-11] move description to github
+:PROPERTIES:
+:ID:       90bd7f1ded9576b6657b98fa5572c3a8
+:END:
+
+* [#D] related                                         :exports:backup:infra:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:
