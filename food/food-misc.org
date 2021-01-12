@@ -1,0 +1,47 @@
+#+TITLE: Food misc
+#+filetags: food
+
+* [#B] [2018-04-23] Variation in stimulation is evolutionary beneficial :gastronomy:
+:PROPERTIES:
+:ID:       4c42710de07d1b8c862e28dfb917a47c
+:END:
+e.g. different textures and tastes
+
+* [2018-04-30] Lemon and melon are the same molecul, just chiral mirror images :gastronomy:
+:PROPERTIES:
+:ID:       c42bfa0e5d0f50f43369933ea1c97de1
+:END:
+
+* [2018-05-11] pancakes chemistry                                :gastronomy:
+:PROPERTIES:
+:ID:       539e04f649ee4f0705e79d8d26a9cedb
+:END:
+https://www.youtube.com/watch?v=pMhrV9sRjqI
+ butter milk: sourness???
+
+- fluffiness
+- lactic acid
+
+  lactic acid + baking soda
+  don't let batter seat, bubbles with escape
+  browning: baking soda maillard reaction, basic environment
+  overmixing batter makes it tough. too much gluten is formed, makes them chewy. Fat slows down gluten
+
+* [2018-07-06] White chocolate is only cocoa butter + sugar + cream :chocolate:
+:PROPERTIES:
+:ID:       adae528756fed6aae3ab198be743eeb8
+:END:
+
+* [2018-05-29] Oil: one reason for using oil is just to make a thermal path between the pan and the food, so the food doesn't only cook exactly where it touches.
+:PROPERTIES:
+:ID:       d0c14fdc4cff938dd5d09c2e5182a8b0
+:END:
+: The reason boiling doesn't achieve browning, is that water cannot be heated above 100C, except at extreme pressures. The Maillard Reaction is commonly what turns food brown and produces a pleasant taste, and this happens at 140 to 160 C.
+: And according to: http://www.finecooking.com/article/the-science-of-frying
+: "When food is plunged into hot oil, the water in the food starts to boil and percolate toward the surface. In order for a crisp, dry crust to develop, there must be a barrier between the hot oil and the migrating water. This barrier is typically something starchy. As the starch fries in the hot oil, it dries into a pleasantly crisp shell and protects the moisture beneath. The food inside steams while the coating browns and crisps."
+: EDIT: As /u/Choralone points out below, the Maillard reaction can take place at lower temperatures, but very slowly. So cooking items over several hours can sometimes produce similar results, but perhaps not with the types of food that are normally fried.
+
+* [2017-12-23] saving chopped fruit: use lemon juice                :cooking:
+:PROPERTIES:
+:ID:       d892cd13881aa7fdb9b5e00731e38fee
+:END:

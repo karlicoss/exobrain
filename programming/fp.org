@@ -1,0 +1,87 @@
+#+TITLE: Functional programming
+#+filetags: fp
+
+* [2016-06-20] What is functional programming?
+:PROPERTIES:
+:ID:       97f63afb1c97a826d4bd905231155330
+:END:
+- First-class and higher-order functions
+- Pure functions
+- Recursion (as a consequence of pure functions?)
+- Strict versus non-strict evaluation
+- Type systems
+
+: When do you choose functional programming over object oriented?
+: When you anticipate a different kind of software evolution:
+: 
+: Object-oriented languages are good when you have a fixed set of operations on things, and as your code evolves, you primarily add new things. This can be accomplished by adding new classes which implement existing methods, and the existing classes are left alone.
+: 
+: Functional languages are good when you have a fixed set of things, and as your code evolves, you primarily add new operations on existing things. This can be accomplished by adding new functions which compute with existing data types, and the existing functions are left alone.
+: 
+: When evolution goes the wrong way, you have problems:
+: 
+: - Adding a new operation to an object-oriented program may require editing many class definitions to add a new method.
+: - Adding a new kind of thing to a functional program may require editing many function definitions to add a new case.
+
+
+* Free monads                                                         :monad:
+:PROPERTIES:
+:ID:       57730b0ca9d0c6afd192e2cb5ea9f89b
+:END:
+- http://www.parsonsmatt.org/2017/09/22/what_does_free_buy_us.html good tutorial with examples
+- https://markkarpov.com/post/free-monad-considered-harmful.html
+
+
+* [2016-10-24] Kleisli monads                                         :monad:
+:PROPERTIES:
+:ID:       33a7507e6a0d5fabe714842d605a4877
+:END:
+Earlier I said that the key to a monad is its Kleisli arrows. The reason why is that Kleisli arrows are morphisms in the Kleisli category, where (>=>) is Kleisli arrow composition:
+
+#+begin_example
+  (>=>) :: (Monad m) => (a -> m b) -> (b -> m c) -> (a -> m c)
+  (f >=> g) x = f x >>= g
+  .. and return is the identity:
+  return :: (Monad m) => a -> m a
+#+end_example
+
+Like all categories, the Kleisli category must obey the category laws:
+
+#+begin_example
+  return >=> f = f                   -- Left identity
+  f >=> return = f                   -- Right identity
+  (f >=> g) >=> h = f >=> (g >=> h)  -- Associativity
+#+end_example
+
+* [2016-02-05] type classes: downcasting and instanceof are impossible!
+:PROPERTIES:
+:ID:       f625d7b1bac28a1ea036c8283161f969
+:END:
+
+* [2016-09-25] parametricity
+:PROPERTIES:
+:ID:       174878a2a94dd2a030066c54be839cca
+:END:
+: In a parametric language the presence of a universally quantified type variable intuitively conveys a very strong guarantee: A (part of a) value passed to a parametric polymorphic function in the position of a type variable is guaranteed only to be copied and moved around, but never inspected in the function
+
+* [2016-08-07] semantics
+:PROPERTIES:
+:ID:       02ebea95bc1ddabf5ab5642fd576bb9b
+:END:
+Denotational semantics: natural, maps to mathematical domains
+Operational semantics: describes execution on an abstract machine
+- Small step / big step
+
+Denotational semantics is similar to high-level operational semantics, except:
+- Machine is gone
+- Language is mathematics (lambda calculus)
+
+The difference between denotational and operational semantics:
+- In operational semantics, the state changes are defined by coded algorithms for a virtual machine
+- In denotational semantics, they are defined by rigorous mathematical functions
+
+
+* [#D] related                               :programming:haskell:typetheory:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:

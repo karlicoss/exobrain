@@ -1,0 +1,87 @@
+#+TITLE: Haskell
+#+filetags: haskell
+
+
+* [#C] [2016-08-07] .
+:PROPERTIES:
+:ID:       85bed989fa9e39e56d90cd381c5b395c
+:END:
+ihaskell install
+jupyter console --kernel haskell
+
+* [2015-06-20] Do notation expanded
+:PROPERTIES:
+:ID:       3e0bb445d9ede04ffbecffacb2da7309
+:END:
+#+begin_src haskell
+  do e → e
+  do { e; stmts } → e >> do { stmts }
+  do { v <- e; stmts } → e >>= \v -> do { stmts }
+  do { let decls; stmts} → let decls in do { stmts }
+#+end_src
+
+This is not quite the whole story, since v might be a pattern instead of a variable. For example, one can write
+
+do (x:xs) <- foo
+   bar x
+but what happens if foo produces an empty list? Well, remember that ugly fail function in the Monad type class declaration? That’s what happens.
+
+
+* monads                                                              :monad:
+:PROPERTIES:
+:ID:       12a43e9870d499091f6825ce93134d78
+:END:
+** writer monad, logger monad
+:PROPERTIES:
+:ID:       fcb0a45d598f64ba930fd49b7563e94b
+:END:
+: -- l: log type, Monoid
+: newtype Writer l a = Writer {
+:     runWriter :: (a, l)
+: }
+
+** reader monad
+:PROPERTIES:
+:ID:       b446cb41478aea09d18bcf97c66aeb31
+:END:
+: newtype Reader r a = Reader {
+:     runReader :: r -> a
+: }
+
+** state monad
+:PROPERTIES:
+:ID:       582c6159a1f161d45c998b56753d2b83
+:END:
+: newtype State s a = State {
+:     runState :: s -> (a, s)
+: }
+
+
+* [2015-06-20] monad transformers                                     :monad:
+:PROPERTIES:
+:ID:       aae405169def75a79222aa2a9c6be24a
+:END:
+Monad transformers exist only because monads do not compose in general.
+MaybeT : provides the construction for (f of Maybe) for any Monad f.
+
+#+begin_src haskell
+  data Compose f g x = Compose (f (g x))
+
+  instance (Functor f, Functor g) => Functor (Compose f g) where
+  	fmap f (Compose z) = Compose (fmap (fmap f) z)
+
+  instance (Monad f, Monad g) => Monad (Compose f g) where
+  	bind :: Compose f g a -> (a -> Compose f g b) -> Compose f g b
+  	bind (f (g x)) ff =
+  	bind = ???
+  	no way!
+
+  f a -> (a -> f b) -> f b
+  g c -> (c -> g d) -> g d
+#+end_src
+
+
+* related                                                                :fp:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:
