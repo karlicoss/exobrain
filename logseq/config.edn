@@ -1,7 +1,9 @@
 
-  {:journal-basis "daily" 
+{:journal-basis "daily"
 
  :page-name-order "file"
+ :all-pages-public? true
+ :feature/enable-journals? false
 
  :project {
            ;; Selected public notes can be published to https://logseq.com/your-project-or-your-username.
