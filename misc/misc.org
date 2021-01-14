@@ -109,12 +109,6 @@ https://forum.syncthing.net/t/can-make-syncthing-only-use-lan-connection-for-som
 :END:
 https://github.com/VGraupera/1on1-questions
 
-* [#C] [2020-02-16] Kurzgesagt – In a Nutshell is creating Science Animation Videos | Patreon :donate:
-:PROPERTIES:
-:ID:       1a8850157bba7ccdb89b8a99bf0f31d3
-:END:
-https://www.patreon.com/Kurzgesagt
-
 * [#C] [2020-01-09] Canop/broot: A new way to see and navigate directory trees
 :PROPERTIES:
 :ID:       3f657744cb92f264266a1a88b76cd1b1
