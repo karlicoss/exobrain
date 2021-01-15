@@ -1,0 +1,112 @@
+#+TITLE: Various Linux things
+#+logseq_title: linux
+#+filetags: linux
+
+* docker                                                             :docker:
+:PROPERTIES:
+:ID:       05b6053c41a2130afd6fc3b158bda4e6
+:END:
+** [2018-06-15] ~docker system prune~ to cleanup
+:PROPERTIES:
+:ID:       2aa65fd468f6aaac54e9f373c696678c
+:END:
+
+* systemd                                                           :systemd:
+:PROPERTIES:
+:ID:       2245b39c177e93fc015ba051be4e8574
+:END:
+** Debugging: ~systemctl --failed~,  ~journalctl~
+:PROPERTIES:
+:ID:       8f1013a628e6226be642ed66404adc1d
+:END:
+logs -- for individual jobs you can see them via status (or sdj)
+presistent is not showing anythin by default?
+** Profiling: ~systemd-analyze blame~
+:PROPERTIES:
+:ID:       651abd5d5c901edd587ed48ec7ee35c8
+:END:
+
+* networking                                                        :network:
+:PROPERTIES:
+:ID:       200176387d36476522d4b488e8597847
+:END:
+** who uses local port
+:PROPERTIES:
+:ID:       81fe03d02214a5996fe6bba974d97e20
+:END:
+: sudo ss -tulpn | grep 5060
+: sudo ss -anpt  | grep 8640
+** testing if port is open
+:PROPERTIES:
+:ID:       a7618ea448c65ab8127999fc25747b1e
+:END:
+: netcat -l 5559
+
+one the other machine
+: echo "TEST" | netcat host 5559
+
+* apt
+:PROPERTIES:
+:ID:       583f72a833c7dfd63c03edba3776247a
+:END:
+** install build dependencies: ~sudo apt-get build-dep package~
+:PROPERTIES:
+:ID:       7a4d7520b0ec13be049537ed0c7ba21f
+:END:
+
+* cron                                                                 :cron:
+:PROPERTIES:
+:ID:       9d3bb895f22bf0afa958d68c2a58ded7
+:END:
+** [2018-02-26] if cron fails to start a job, it will send the output to local mail
+:PROPERTIES:
+:ID:       fbd7f5a14b65a5b78f15840e37b099d1
+:END:
+: grep cron /var/log/syslog
+: tail -f /var/log/syslog | grep cron
+** [2018-05-10] mail subject -- use bash comment operator
+:PROPERTIES:
+:ID:       6ad426f2646007fb0415a65e8ddd4e37
+:END:
+:  *:* TestJob; cron command
+
+mind the space after colon!
+
+* sandboxing                                                        :sandbox:
+:PROPERTIES:
+:ID:       51cbcd5bde3c8b488088bfa831db3523
+:END:
+** ~firejail~ for network sandbox                           :network:testing:
+:PROPERTIES:
+:ID:       2a1884ec4d9e33a167ea82e38f1ed2cb
+:END:
+- doesn't require root!
+- ~firejail --noprofile --net=none~
+
+* udev                                                                 :udev:
+:PROPERTIES:
+:ID:       ab775c875d5f89d991a670444dd32ad2
+:END:
+** ~udevadm info /dev/sdc2~
+:PROPERTIES:
+:ID:       d2d91cb270ffc22c21e0499e828ac4d6
+:END:
+** [2019-03-07] when you update rules file ~sudo udevadm control --reload-rules~
+:PROPERTIES:
+:ID:       98b52b009e09b0e1c36e6ad1eb4434d7
+:END:
+** [2019-03-07] to trigger the target script ~sudo udevadm trigger~
+:PROPERTIES:
+:ID:       c67bbde7958167056bdb953a4d221624
+:END:
+
+* [#C] [2017-05-08] Gateway 0.0.0.0 means that the subnet is link-local i.e. there is no gateway involved, the packets are delivered directly to the target :network:
+:PROPERTIES:
+:ID:       533f1c0a7b925889a3def838028f30d8
+:END:
+
+* [2018-06-08] Linux ignores the setuid bit on all interpreted executables (i.e. executables starting with a #! line).
+:PROPERTIES:
+:ID:       00f4f9d5a375ed1f9a185bb342f3db39
+:END:
+ok apparently setuid shell scripts are quite risky...

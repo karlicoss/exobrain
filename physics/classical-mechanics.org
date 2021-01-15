@@ -433,3 +433,59 @@ Generalized coordinates -- like normal coordinates, but without redudancy in con
 https://en.wikipedia.org/wiki/Holonomic_constraints#Transformation_to_independent_generalized_coordinates
 
 benefit of generalised coordinates is most apparent when considering double pendulum https://en.wikipedia.org/wiki/Generalized_coordinates#Double_pendulum
+
+* [2018-07-31] some random notes                     :lagrangian:hamiltonian:
+:PROPERTIES:
+:ID:       2836ce07239c545ccb288f01f476989b
+:END:
+x'^2 + x^2 = C^2 -- energy conservation
+
+Force F(x); potential energy U(x) as integral of force
+
+Take 1/2 m v^2 + U(x) -- call it "total energy", it is conserved
+
+TODO what if force depends on time explicitly?
+
+Law of physics: there exists a three-dimenstional potential!
+
+Principle of least action
+
+Hamiltonian from Lagrangian
+
+dH/dt = - \partial L / \partial t
+
+Lagrangian -> Euler-Lagrange equations
+
+Holonomic constraints take form: f(q_1, \dots q_n, t) = 0
+
+Holonomic system => L = K - U
+
+Nonholomonic system: rubber ball allowed to roll, but not slide/spin
+
+Lagrange multipliers and forces of constraint, Taylor 278
+
+If coordinate q_i is ignorable (dL/dq_i = 0), the corresponding generalized momentum p_i = dL/dq'_i is conserved
+
+H(q_1 ... q_n, p_1 ... p_n)
+
+q' = dH/dp
+p' = -dH/dq
+
+B = \nabla x A + \nabla S
+
+A is defined up to the gradient of some scalar field, guage field
+
+Poisson brackets
+
+- {A, B} = - {B, A}
+- {A + B, C} = {A, C} + {B, C}
+- {a A, B} = a {A, B}
+- {AB, C} = {A, C} B + A {B, C}
+
+
+- {q_i, q_j} = 0
+- {p_i, p_j} = 0
+- {q_i, p_j} = delta_ij
+
+- Q' = {Q, H} -- change of quantity over time
+- {Q, L_y} -- change of quantity over rotation

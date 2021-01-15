@@ -94,13 +94,20 @@ priorities roughly indicate how useful I find each command
 :CREATED:  [2018-09-18]
 :ID:       8e3d71f6-ccab-43aa-a05a-3c53221779f3
 :END:
+** [#C] pretty print json ~cat file.json | python -mjson.tool~         :json:
+:PROPERTIES:
+:ID:       fd063df433c905f4e0ac0945f8db96f2
+:END:
+** [#D] detect if library is installed ~ldconfig -p | grep libjpeg~ or ~gcc -ljpeg~
+:PROPERTIES:
+:ID:       16181772cffbb09cc2d82e4b9de9e0a6
+:END:
+
 ** [#D] [2015-07-23] merging pdfs
 :PROPERTIES:
 :ID:       a9961ccb7468eeea02c5c2a89ba8ecef
 :END:
 : pdftk out.pdf j1-process.pdf j1-process-2.pdf j1-process-3.pdf cat output merged.pdf
-
-
 : pdftk full-pdf.pdf cat 1 1 1 2  3 4 12-15 output outfile_p12-15.pdf
 
 

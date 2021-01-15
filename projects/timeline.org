@@ -736,9 +736,9 @@ Planned meals, holidays etc
 :CREATED:  [2018-11-10]
 :ID:       654862cea226ebe36677bad81ed84276
 :END:
-* [#D] [2018-11-27] GH Archive                           :
+* [#D] [2018-11-27] GH Archive
 :PROPERTIES:
-:ID:       63cef63e156321804f66534e7acc51cf
+:ID:       b7a9eb761af3d99e2733aebc34e8c6d3
 :END:
 https://www.gharchive.org/
 
