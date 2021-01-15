@@ -489,7 +489,7 @@ use some really really public account?
 :ID:       99578fe759567d837d1096626c89be86
 :END:
 
-** TODO [#B] one of the goals is demonstraing the *architecture* :blog:motivation:
+** TODO [#B] one of the goals is demonstraing the *architecture*       :blog:
 :PROPERTIES:
 :CREATED:  [2020-05-22]
 :ID:       fb309a7eef53178cd2095a5b5f6eb1e6

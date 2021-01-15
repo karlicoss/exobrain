@@ -1,0 +1,149 @@
+#+TITLE: Cloudmacs
+#+filetags: cloudmacs
+
+Emacs in the cloud https://beepb00p.xyz/cloudmacs.html
+
+* STRT [#B] [2019-09-10] right, I guess just start with few screenshots. Ideally need a proper demo playground...
+:PROPERTIES:
+:ID:       9e3ce386d5cddad0ad77297748370efa
+:END:
+
+* TODO [#B] mmm. might be abandoned? https://github.com/yudai/gotty/issues/258
+:PROPERTIES:
+:CREATED:  [2019-09-13]
+:ID:       db327e5378f4be461c9a7b4d8bb5bb4d
+:END:
+* TODO [#C] record a demo?
+:PROPERTIES:
+:CREATED:  [2019-09-08]
+:ID:       81d239d0f5f2d7eef1d66e253fee139a
+:END:
+** TODO [#C] just think about a good short script and evaluate it? :cloudmacs:
+:PROPERTIES:
+:CREATED:  [2019-09-08]
+:ID:       b51da3e4e23a714a49c12348761c48a1
+:END:
+* TODO [#C] can build in docker compose?                          :cloudmacs:
+:PROPERTIES:
+:CREATED:  [2019-12-23]
+:ID:       321e9ee45b77d5e6817f35ca3519f318
+:END:
+ttrss-docker-compose/docker-compose.yml
+: app:
+:   build:
+:     context:
+:       ./app
+:     args:
+:       - OWNER_UID=${OWNER_UID}
+:       - OWNER_GID=${OWNER_GID}
+:   restart: unless-stopped
+:   environment:
+* TODO [#C] memory footprint sucks. perhaps need to compile without gui or something? :cloudmacs:
+:PROPERTIES:
+:CREATED:  [2020-01-04]
+:ID:       f6357a33828dd015533f3df285fdbef0
+:END:
+tried gc -- didn't help
+* TODO [#C] Ttyd ?
+:PROPERTIES:
+:CREATED:  [2020-02-04]
+:ID:       9fa5b12b4d5b9d5e560abe47b960d03e
+:END:
+: I‘m using ttyd (https://github.com/tsl0922/ttyd) behind an nginx reverse proxy with client certificates. This gives me access from locations where ports other than https are blocked.
+* TODO [#D] use minimal package, without x11?
+:PROPERTIES:
+:CREATED:  [2019-09-07]
+:ID:       871420a7e2a476c38eb986e461d3cdad
+:END:
+* [#D] big problem is that all of them are trying to mix hosting files and  editing. :cloudmacs:blog:
+:PROPERTIES:
+:CREATED:  [2019-09-08]
+:ID:       c78ff112aac0f5caffe0960d2b61c40a
+:END:
+
+editing could be on JS.
+interfaces are hard, and replicating the whole emacs frontend logic on JS is some massive thankless job
+however you lose all your keybindings etc.
+* TODO gotty-docker                                                  :docker:
+:PROPERTIES:
+:CREATED:  [2019-09-13]
+:ID:       16beea06b554fe0ba98ce6d337949b85
+:END:
+compose file doesn't declare services https://github.com/hyeonsangjeon/gotty-docker/blob/master/docker-compose.yml
+* DONE [#B] [2019-09-10] add a guide on customizing? e.g. suggest to build their own docker image with cloned spacemacs?
+:PROPERTIES:
+:ID:       ed52f4bdc9e90772bb7aa83166602b5e
+:END:
+
+* CNCL [#C] demonstrate org-drill on one of my files?
+:PROPERTIES:
+:CREATED:  [2019-09-09]
+:ID:       dbd14a83ed22a108b10a09a4cde1cff8
+:END:
+* DONE [#C] [2019-09-10] shit, 7001 seems to be occupied by nxnode or something
+:PROPERTIES:
+:ID:       227e1fe821dae5ca508fcbcae3994422
+:END:
+
+* DONE dockerized over http
+:PROPERTIES:
+:CREATED:  [2019-09-06]
+:ID:       4c43abea4abf914391b7e97d1c124cbf
+:END:
+: I've updated [Filestash](https://github.com/mickael-kerjean/filestash) and somehow broke my Dropbox connection to the directory with org-mode notes, which rendered it useless for me. I'm also moving from Dropbox to Syncthing, so was planning to abandon Filestash anyway as it doesn't allow local files, only ftp, git etc.
+: So before trying to support local directories in Filestash or setting up ftp server for the sole purpose of getting access of org files I though that I could try forwarding terminal with Emacs over http. Long story short, I found [emacs Docker image](https://github.com/JAremko/docker-emacs), hacked it a bit TODO gotty and TODO map emacs config and notes.
+: I've seen [browsermax](https://github.com/JAremko/browsermax), but Dockerfile is quite complicated, looks like they are trying to use X11 for some reason, whereas I'd be perfectly happy with `emacsclient --tty`.
+: Downside would be that it's not so convenient on mobile, but I tend to use Orgzly
+: Only keyboard, which is not a limitation for me though.
+** [2019-09-10] and while vim navigation is doable, TODO links to the package
+:PROPERTIES:
+:ID:       3e074310ae7f86b8179280582cda40f9
+:END:
+it's hard to reinvent all the amazing emacs packages and features I'm used to: nerdtree, helm, refile, swoop, agenda, org-drill etc.
+not that elisp is superiour to JS, but reimplementing everything is going to be extremely hard
+
+Usecases:
+- public computers where you can't or don't want to install emacs
+- demonstrating emacs packages?
+
+* DONE If I dockerize it, could post about it...      :blog:emacs:selfhosted:
+:PROPERTIES:
+:CREATED:  [2019-09-06]
+:ID:       542d54feb79ccb257588657720fb8518
+:END:
+Think about mobile though
+
+* TODO [#C] feedback
+:PROPERTIES:
+:ID:       3965207478e6a58f7c87af5d49a0c165
+:END:
+** [2019-11-26] Cloudmacs: access your Emacs in browser | Hacker News  https://news.ycombinator.com/item?id=21633149#21635348
+:PROPERTIES:
+:ID:       dc05acf0f7e46294538ff2ba7a618b32
+:END:
+: Although a section explaining how to build container that runs as non-root user in the first place (even though it requires modifying Dockerfile, I think) would be useful, so I'll add it, thanks!
+** [2019-11-26] Cloudmacs: access your Emacs in browser | Hacker News  https://news.ycombinator.com/item?id=21633149#21635348
+:PROPERTIES:
+:ID:       86ca714a185e5c24f1c6c9d1434bb72a
+:END:
+: suppose the GUI analog to gotty is Apache Guacamole, which should run emacs fine (along with most anything else).
+** [2019-11-26] Cloudmacs: access your Emacs in browser | Hacker News https://news.ycombinator.com/item?id=21633149#21635495
+:PROPERTIES:
+:ID:       db16bc8dcb29aa7f1dcd255f17bdba72
+:END:
+: However you got me thinking: do you know any emacsclient implementations that run purely in browser? Presumably that would be not that hard to implement and will make more sense.
+* [#D] [2019-10-27] [karlicoss/cloudmacs] Emacs without X (#2) - karlicoss@gmail.com - Gmail
+:PROPERTIES:
+:ID:       9f552a1f58af7323dae59b10ba3b9156
+:END:
+https://mail.google.com/mail/u/0/#inbox/FMfcgxwDrHqTsqXpBTxDRhMCttHhVcJK
+: Noticed one of your todos suggested building emacs without GUI as a way to reduce the docker layer.
+: Below are the instructions on how to configure and build emacs from source without images and X features
+
+
+https://gist.github.com/danielrmeyer/35702082b07d5eb75f3754ce8985e907
+
+* Related                                                       :emacs:infra:
+:PROPERTIES:
+:ID:       9780790c790dbfd6d8036afeac3745b4
+:END:

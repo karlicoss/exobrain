@@ -1,10 +1,13 @@
-#+TITLE: 
+#+TITLE: Prepping
 #+filetags: prepping
 
-* [#C] [2019-02-01] WikiReader - Wikipedia                         :prepping:
+* [#C] [2019-02-01] WikiReader - Wikipedia https://en.wikipedia.org/wiki/WikiReader
 :PROPERTIES:
-:ID:       48f99ded20c11bd6de908ce918256ea4
+:ID:       30b433259aad26d2f2a0c1f583bc843f
 :END:
-https://en.wikipedia.org/wiki/WikiReader
-Comment:
 huh, something like that could be cool!
+
+* related                                                           :offline:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:

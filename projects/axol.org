@@ -41,7 +41,7 @@ rss is awesome! downsides
 :END:
 https://news.ycombinator.com/item?id=21913598
 : I've just started using Feedbin about a month ago, and although my HN firehose feed is at like 1100 something, it definitely limits the rest of the HN feeds. The show and ask feeds are both stuck around 400 something.
-** [#D] [2018-11-24] problems with diff approach                 :motivation:
+** [#D] [2018-11-24] problems with diff approach
 :PROPERTIES:
 :ID:       32201d2e314b2dd07973fb16fdd401a8
 :END:
@@ -317,7 +317,7 @@ search this post on reddit or something
 :END:
 https://github.com/search?q=what-universal-human-experiences-are-you-missing-without-realizing-it&type=Code
 although, it's code search, not repo search
-*** [2019-04-22] so trying to google that query                  :motivation:
+*** [2019-04-22] so trying to google that query
 :PROPERTIES:
 :ID:       3829998b7ab8c1fe7dd233bb9db9d308
 :END:

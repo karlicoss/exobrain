@@ -1,0 +1,527 @@
+#+TITLE: EEG/EMG
+#+filetags: :eeg:
+
+
+* WAIT [#B] OpenBCI is best apparently?
+:PROPERTIES:
+:ID:       9388e8f5284026cd03d24f8bb58e5792
+:END:
+At Drexel we've had a lot of success with openBCI. I can't comment on all of the other choices, but I think for the money, OpenBCI is a great choice. We've had an advanced undergraduate co-op in our lab working with it for about 2 months, and he's gotten a 16ch board put together and connected to a 3d printed headset we bought, gotten openBCI fully running, connected it to OpenVIBE and begun running their modules. Full access to the data, including in Matlab.
+https://github.com/OpenBCI
+
+
+** ganglion? https://shop.openbci.com/collections/frontpage/products/pre-order-ganglion-board?variant=13461804483 can do EEG, EMG, ECG
+:PROPERTIES:
+:ID:       af6d5b7afa3de07922429b5af5ed5e88
+:END:
+
+** https://neurobb.com/t/is-there-really-no-affordable-user-friendly-neurofeedback-hardware-software-out-there/75
+:PROPERTIES:
+:ID:       771b9c98d6c9aac90966230c3b74078c
+:END:
+One option would be to go with OpenBCI hardware and a (relatively) inexpensive proprietary neurofeedback software option like BioEra 290. I have not used BioEra, but it is compatible with OpenBCI and is much more geared towards neurofeedback than BrainBay or OpenViBE. A somewhat more expensive hardware option is Pocket-Neurobics 325, which works with BioEra or BioExplorer, and is apparently popular among home neurofeedback trainers. As @curiositry mentioned, William Croft 104 is a great resource on this topic.
+
+** https://www.youtube.com/watch?v=QIWswAOFp8w
+:PROPERTIES:
+:ID:       2de73eb4152b33b298726353a6c5f118
+:END:
+needs a special bt dongle?
+mark 4 doesnt require any paste, it's dry
+** https://www.youtube.com/watch?v=agV1B2l-QLw
+:PROPERTIES:
+:ID:       7609648638d8748a68d30e10cf43da77
+:END:
+ok, so it looks pretty easy to filter individual frequencies too.
+
+** print it youself: about 500$ =/
+:PROPERTIES:
+:ID:       6d3f36678f8085e90593a09a999926da
+:END:
+** TODO could try using 3d printer at work?
+:PROPERTIES:
+:ID:       0c8764125d12152e4303c1027f409b8d
+:END:
+** http://www.autodidacts.io/getting-started-with-openbci-a-tutorial-on-testing-troubleshooting-and-recording-ekg/
+:PROPERTIES:
+:ID:       0401a08f8e3087a6e1e5c464e7ab4610
+:END:
+*** + The OpenBCI arrives pre-assembled and tested, and is relatively straightforward for someone without previous bci experience to get started with — no soldering, hair-tearing, or midnight coding sessions need appl
+:PROPERTIES:
+:ID:       5899ac9928ae8800f84e3ad6de645e6a
+:END:
+*** + Finally, the OpenBCI’s output is far closer to clinical or research grade than most consumer or amateur systems: It has an excellent sample-rate (250 Hz), works with well-established processing and display software, and can be used with any electrodes with industry-standard “touchproof” connectors, so you aren’t stuck with the type it comes with.
+:PROPERTIES:
+:ID:       a4a8e5906a5fac04ce9c8cfd85562680
+:END:
+*** ? use 32 but Which should you choose? In most cases, it probably doesn’t matter. If you’ve used Arduino before, the 8bit would be a good choice. Also, the Arduino community is quite active and helpful. The 32bit version is more powerful, which means that it can do more processing on the signal before it’s sent over bluetooth. If you plan on doing a lot of with tinkering with the code running on the OpenBCI itself, the 32bit version may be a better choice.
+:PROPERTIES:
+:ID:       6ecf05609f6f53b4847132d85417f7f7
+:END:
+*** ? need 10-20 paste?
+:PROPERTIES:
+:ID:       a9a73f69cf9ac8709f8b2849a2288e01
+:END:
+*** ? TODO how to secure electrodes
+:PROPERTIES:
+:ID:       3859f38fd1cc58442f99631cc973d3be
+:END:
+** - very little data on the internet and reddit.. unlikely to get any help if i buy it
+:PROPERTIES:
+:ID:       9ca2180a2ce15797eec752677c23e992
+:END:
+** eh. quite costy. so buy it, but ONLY after you consolidate all other sleep trackers so you could compare
+:PROPERTIES:
+:ID:       91eb01c6d466f1defceee269ef9e9d20
+:END:
+
+
+* Do you have fine control of your head and neck? If so then a headset with a gyro will be much better (Muse by InteraXon or Emotiv).
+:PROPERTIES:
+:ID:       8e152a5283a14516eefe82c7ca601819
+:END:
+https://www.reddit.com/r/eeg/comments/6bqd63/looking_for_affordable_wired_personal_eeg/
+https://www.reddit.com/r/eeg/comments/3vxbem/comparison_of_consumer_eeg_devices/
+http://www.autodidacts.io/neurotech-hardware-roundup-eeg-bci-tdcs-neurofeedback/
+* ultracortex: 3d printed
+:PROPERTIES:
+:ID:       654816369795a7519d7b9bb43f30245f
+:END:
+
+* [2018-07-15] how are EMG and EEG different?
+:PROPERTIES:
+:ID:       8e3893c0ac395d69742d83d601624847
+:END:
+ok, so surface EMG needs two electrodes since it's recording potential difference
+
+* [#C] EMG?  how can it be used                                         :emg:
+:PROPERTIES:
+:ID:       49e649de388b575f28196ac6c873be4b
+:END:
+https://youtu.be/gHsZ0bwxMsg?t=3m21s 
+stronger exercise -- stronger signal
+https://en.wikipedia.org/wiki/Electromyography#Normal_results
+** ok, so on reddit everyone claims relation between EMG and muscle activation is unclear
+:PROPERTIES:
+:ID:       5907ab0c3561deb789fae2f3941b8349
+:END:
+https://www.reddit.com/r/Fitness/comments/ime4r/inside_the_muscles_best_ab_exercises_6/
+howerer, I could get some pretty interesting data!
+
+** in particular, it's hard to interpret signal correctly
+:PROPERTIES:
+:ID:       897152cb86e73b6bf9a28983530db09f
+:END:
+https://www.reddit.com/r/bodybuilding/comments/1vcwc0/emg_activity_results_on_backsquats_vs_front_squats/cer04il/?utm_content=permalink&utm_medium=front&utm_source=reddit&utm_name=bodybuilding
+e.g. you should prob be looking for frequency rather than amplitude
+Being "strong" means exerting the same amount of force with a lower number of recruited motor units.
+** https://www.reddit.com/r/bodyweightfitness/comments/7x0jqq/_/
+:PROPERTIES:
+:ID:       c3a647ba029102749f4c337038002bf2
+:END:
+smth about EMG misuse
+** devices
+:PROPERTIES:
+:ID:       e0212e54ec3a2a120ca0d321b3a60c78
+:END:
+*** https://www.amazon.co.uk/ADVANCER-TECHNOLOGIES-Muscle-Sensor-MyoWare/dp/B018TIWR32/ref=sr_1_3?ie=UTF8&qid=1531258073&sr=8-3&keywords=EMG+sensor
+:PROPERTIES:
+:ID:       399778ea6559f0244bd3edbf42bb899b
+:END:
+43 gbp
+*** https://shop.openbci.com/collections/frontpage/products/myoware-muscle-sensor?variant=29472011267
+:PROPERTIES:
+:ID:       e7ee1612ec4a7e6e29a5d0ab9cb7c12a
+:END:
+*** https://www.amazon.co.uk/MyoWare-Muscle-Sensor-Development-Kit/dp/B01LX6MX4P/ref=sr_1_5?ie=UTF8&qid=1531258073&sr=8-5&keywords=EMG+sensor
+:PROPERTIES:
+:ID:       b603c2f75cdef0b39370cbe93ad4a8d6
+:END:
+kit for 99
+*** aliexpress?
+:PROPERTIES:
+:ID:       0b35c6739e1e8a27abc332fab922cc39
+:END:
+
+* Neurosky?
+:PROPERTIES:
+:ID:       ac5eb4fda586557ac6b4403b1dcc69d4
+:END:
+** ? 1 channel
+:PROPERTIES:
+:ID:       a58d94122238a8df735af7af49d46899
+:END:
+** + I did some fairly extensive testing of the Neurosky device while I was working on an app to analyze brainwave signals.
+:PROPERTIES:
+:ID:       29710d90b6268d1d7a8e1f532476ca06
+:END:
+** - pretty expensive on amazon :( about 150 GBP?
+:PROPERTIES:
+:ID:       c970bab329dfe6787227d7e15334b0bb
+:END:
+
+* CNCL Neuroonopen
+:PROPERTIES:
+:ID:       88c96b2e927b7d0e7e50962cdf3e950d
+:END:
+https://neuroonopen.com/
+** + alarm LED and vibration
+:PROPERTIES:
+:ID:       f0323fa5fa1bb51e3bce9cb3173e0772
+:END:
+** ? Only four states are recognized though: awake, light sleep, REM sleep and deep sleep. [reddit]
+:PROPERTIES:
+:ID:       d5166cbad1144a66a0185b0bee146e45
+:END:
+** - I got it, doesn't do anything regarding helping you achieve polyphasic sleep which is the frigging reason of why I supported the kickstarter in the first place. [reddit]
+:PROPERTIES:
+:ID:       7c54eb681a1599c954e7cef279bef755
+:END:
+** - the hugest minus in my opinion: you can not zoom within your sleep graph. You can see that you fell into deep sleep approximately but you will never know at which hour exactly. This is fairly annoying.
+:PROPERTIES:
+:ID:       17bdb13501a9a7ab7f38294b02877026
+:END:
+** - no news from them
+:PROPERTIES:
+:ID:       d4eaab5a128965d95040c5dd6a8f9267
+:END:
+
+* Emotiv https://www.emotiv.com/comparison/
+:PROPERTIES:
+:ID:       f24297b02639414abafbda55d3c56bd1
+:END:
+** emotiv insight is 200. If not emotiv, you'd be better off making your own for that price.
+:PROPERTIES:
+:ID:       9386ceb49ea34550b5ddd5d5962868f4
+:END:
+http://openeeg.sourceforge.net/doc/
+** - I have not tried emotiv but I was put off by the $500 SDK. You are selling the device and want people to develop for your platform to extend it and you are charging them for the SDK??
+:PROPERTIES:
+:ID:       2b9904ab9773f5e6c49c5d7e38bae1b8
+:END:
+** - raw data costs a lot
+:PROPERTIES:
+:ID:       6282b00fcecbefbdd4a81324a0c64c2a
+:END:
+** - have to use their software
+:PROPERTIES:
+:ID:       11993d9989a5c74a2005a789bf6bc74f
+:END:
+: The Emotiv forces the user to use their software. Raw data costs A LOT extra. Muse + OpenBCI give raw eeg data free. In fact, they give everything except the hardware for free. OpenBCI is completely open source (their name is proprietary....for prosperity). Emotiv sensors are finnicky. They work, they don't work. You can never tell when they will have a good or bad day. Look at the community around their hardware (from my comment above).
+: OpenBCI gives you the freedom to select your own electrodes (wet, dry, amplified, etc.) You are free to use whichever development platform you are comfortable in (matlab, BCI2000, Python, OpenVibe, Go....)
+: Muse has a good set of dry sensors. They work. I've even used them in a project at the SF Exploratorium, and at a Tech summit in Shenzhen.
+
+http://www.exploratorium.edu/press-office/press-releases/new-exhibition-understanding-influencing-brain-activity-opens
+http://www.cre8summit.io/
+OpenBCI and Muse have thriving communities. Here's some of them: http://neurotechx.com/
+https://neurobb.com/
+http://openbci.com/community/
+I am a part of that open community and it really is great to participate with such friendly, open, intelligent people.
+permalinkembedsaveparent
+
+* CANCEL [#B] Muse band                                   :buy:qs:meditation:
+:PROPERTIES:
+:CREATED:  [2018-01-22]
+:ID:       bc9b78ee92167d60bb4d3551d87e8df1
+:END:
+: After purchasing a Muse headset as part of a project to improve focus & reduce distractibility, I started meditating with the band to determine how it can impact my mental focus.
+: The Muse headband is a brain wave tracking device that comes with a cell-phone app to measure effectiveness of any meditation session. There are 7 sensors on the headband to get an overall picture of what the brain is doing.
+
+- ? 4 channels
+- ? 269 GBP
+- PRO sdk is free
+- PRO guy from QS meetup (Tony) recommended it, however his app seemed to be a bit clunky..
+  [2018-01-22]
+- CON dont bother even with trying it [–][deleted] 39 points 1 year ago* 
+  : dont bother even with trying it. while Ive not seen a teardown of this device nearly all of these "mind reading" devices are simply a neurosky thinkgear TGAM module in some packaging and rebranded as some new super tech. these modules are the same ones in those japanese cat ears that read your brain and move the ears, the gaming headsets you are supposed to be able to trigger, and the various "personal mental training devices" like this one.
+  : its a single channel EEG that basically works as an on off switch when various brainwaves hit enough activity. three problems
+  : one or just a few channels is not enough data for any real amount of "sensing" nor is it enough channels of data to even get a basic picture of overall brain activity.
+  : these devices are super slow in response time so they are nearly useless. by the time it senses and you notice its like 2 seconds or so. that makes it only useful for these "meditation" applications since no realtime work or actions can be done with them. (otherwise we would be using decades old EEG tech for lots of cool stuff)
+  : the actual different brainwaves are usually not individually used and instead are combined into a generic "activity level" which again is of little use.
+  : if you really want to mess with them buy any of these devices or any of the "mindflex toys" which contain these modules and read the values directly with a microcontroller.
+
+https://www.reddit.com/r/Biohackers/comments/8imlo7/muse_headband_has_anyone_here_tried_it/
+ hmm people here generally recommend it...
+
+** xxx [2018-07-15]
+:PROPERTIES:
+:ID:       34774cb9c5c987793067f71d25e8caf3
+:END:
+ok, so apparently objections are that often it can't distinguish between muscular activity and brain activity.
+
+** what's it composed of
+:PROPERTIES:
+:ID:       d2d9d5c5ac7e754ae06022fa97e88a24
+:END:
+right so it's got 7 sensors
+
+** https://medium.com/pixeldreams/my-40-day-journey-into-meditation-with-muse-the-brain-sensing-headband-12e7b060c6fa
+:PROPERTIES:
+:ID:       7a5529db544511230b55f09dbc96a67e
+:END:
+interesting, spikes on graphs when he had epiphanies. I guess that could be interesting data to see when I experience cool effects?
+
+yeah. Definitely, these types of plots could keep me motivated. do it.
+
+the guy is quite decent though. doing lots of self experiments, cool.
+** final decision: ok, the data is useful and I don't care that much about neurofeedback. instead, invest in proper openbci??
+:PROPERTIES:
+:ID:       f8454249b2b6da41bd7b7782f2dc7ec7
+:END:
+
+** good review https://www.warrior.do/muse-headband-review/
+:PROPERTIES:
+:ID:       b7e72cd388b46b4b67af36b797f6e959
+:END:
+If you’re a beginning meditation practitioner, the Muse is great at helping flag when you’re mind is active or calm. The first year of using The Muse, the feedback was amazing to quiet my mind, as I was still learning the basics of the practice.
+
+But as my skills improved, the device wasn’t as useful as before. I’ve found that if you’re an intermediate or an advanced meditator (whose beta/alpha wave fluctuation are much more subtle), the device is relatively crude in picking up these signals.
+
+For example, if I’m now in a session and my mind ever so slightly shifts focus away from my breath, I’ll catch these thoughts but it will go undetected on the Muse. I’m in the process of transitioning to a higher-end device that is more accurate and sensitive to these subtle electrical changes in my brainwaves.
+
+* TODO mindflex toys??
+:PROPERTIES:
+:ID:       4db7ea890c4f9e0a609c8dd6ce4f1a59
+:END:
+
+* https://johnfawkes.com/becoming-superhuman-through-diy-brain-scanning/
+:PROPERTIES:
+:ID:       1b48fd2b1150259efd492161c27e06b9
+:END:
+* TODO bci
+:PROPERTIES:
+:ID:       c8cdc80fe3f8a20a79505b36ee9e89d4
+:END:
+https://www.scientificamerican.com/article/pogue-6-electronic-devices-you-can-control-with-your-thoughts/
+https://www.reddit.com/r/DrugNerds/comments/2pmnxc/im_using_an_eeg_neurofeedback_machine_to_measure/
+
+* [#D] [2019-02-04] neurable: Announcing the world’s first brain-computer interface for virtual reality :eeg:vr:
+:PROPERTIES:
+:ID:       de147dd245fdb606f0842217dc62e662
+:END:
+https://medium.com/neurable/announcing-the-worlds-first-brain-computer-interface-for-virtual-reality-a3110db62607
+** [2019-02-15] dunno, almost nothing on reddit, you can't buy it now etc. try again somewhat later...
+:PROPERTIES:
+:ID:       2aeef50bab14403db411998d73699890
+:END:
+
+* [#B] [2019-01-24] EEG-SMT - Open Source Hardware Board                :eeg:
+:PROPERTIES:
+:ID:       026e45feda3ab8a3db2746fea2b40f30
+:END:
+https://www.olimex.com/Products/EEG/OpenEEG/EEG-SMT/
+ok, people on reddit generally recommend it...
+* [#B] [2019-01-27] How to build a brain interface — and why we should connect our minds :eeg:
+:PROPERTIES:
+:ID:       5209f30aa502385ecf5073389f508330
+:END:
+https://medium.com/@justlv/how-to-build-a-brain-interface-and-why-we-should-connect-our-minds-35003841c4b7
+describing various potential neurointerfaces -- somewhat interesting stuff
+* [#C] [2019-02-24] Somaxis EMG EKG EEG sensors – muscle, heart, brain, posture, activity
+:PROPERTIES:
+:ID:       a326dc879a092acf2fa3e93f2e51fe8a
+:END:
+http://www.somaxis.com/
+huh that's interesting
+* [#C] Some EEG stuff
+:PROPERTIES:
+:ID:       7692da1ccc030d923d63527f7bf34264
+:END:
+** [#C] [2019-01-20] BioShare.info
+:PROPERTIES:
+:ID:       7625dc85bcfed75f9f16d07f240344dd
+:END:
+https://www.bioshare.info/en
+
+** [#D] [2019-01-20] Physiological Monitoring | HaB Direct
+:PROPERTIES:
+:ID:       afa721e9bc58871e909a62c812ad5ccd
+:END:
+https://www.habdirect.co.uk/product-category/fitness/fitness-testing-and-sports-performance/activity-monitoring-fitness-testing-and-sports-performance/
+
+** [#D] [2019-01-20] BioHarness 3 Compression Shirts | HaB Direct
+:PROPERTIES:
+:ID:       e553d2e5a7b75bab1ad8d632dd44d1a7
+:END:
+https://www.habdirect.co.uk/product/bioharness-3-compression-shirts/?attribute_size=Medium&gclid=CjwKCAiAsoviBRAoEiwATm8OYIZqIO56Lq78SqDfgoV5j6QuQq9eh5qlh3Y_7fMDN_2kWD66lexhlxoCGykQAvD_BwE
+
+** [#D] [2019-01-20] SnapECG Portable EKG Monitor, Handheld ECG Heart Rate Monitor for Smart Phone, Wireless Heart Performance Tracking without ECG Electrodes Required, Home Use Ekg Monitoring Devices for iPhone & Android: Amazon.co.uk: Sports & Outdoors
+:PROPERTIES:
+:ID:       71c5fc07b98fdc678684a896bc6ba2e6
+:END:
+https://www.amazon.co.uk/SnapECG-Portable-Performance-Electrodes-Monitoring/dp/B07FKYPTDQ/ref=sr_1_3?ie=UTF8&qid=1547946837&sr=8-3&keywords=qardiocore
+
+** [#D] [2019-01-20] EKG ECG Heart Rate Monitor: QardioCore Continuous Electrocardiograph ECG/EKG Mobile Machine - Wireless, Portable, Wearable Heart Monitoring Equipment - Bluetooth Mobile Digital Cardio Devices: Amazon.co.uk: Health & Personal Care
+:PROPERTIES:
+:ID:       ee5753ee7f6ce3bc589be0da9a33ce9a
+:END:
+https://www.amazon.co.uk/EKG-Heart-Rate-Monitor-Electrocardiograph/dp/B073VW2ZZV/ref=sr_1_1_a_it?ie=UTF8&qid=1547946837&sr=8-1&keywords=qardiocore
+
+** [#D] [2019-01-20] eMotion EMG | shop.bittium.com                  :emg:qs:
+:PROPERTIES:
+:ID:       db94788d5919d235737a1b0174ca6796
+:END:
+https://shop.bittium.com/product/6/emotion-emg
+fucking hell... 4K!
+** [#D] [2019-01-20] Bittium Faros - Bittium                            :hrm:
+:PROPERTIES:
+:ID:       22192f14ad86ae1154b5d1b2bc300d40
+:END:
+https://www.bittium.com/products__services/medical/bittium_faros#technical_details
+looks very cool, but also fucking expensive, 3K
+** [#C] [2019-01-20] My Baseline Network Physiology: 10 Days of EEG, EGG, EKG, CGM, Temperature, Activity and Food Logs - Quantified Self / Project Logs - Quantified Self Forum :qs:
+:PROPERTIES:
+:ID:       90b72f6fbfe2e9551db6b011e00bbe62
+:END:
+https://forum.quantifiedself.com/t/my-baseline-network-physiology-10-days-of-eeg-egg-ekg-cgm-temperature-activity-and-food-logs/5671/21
+awesome correlation experiment between hr, body temperature, food etc
+** [2019-01-20] DS1922L-F5# Thermochron iButton [-40 to 85°C] - 8K Memory | iButtonLink :qs:
+:PROPERTIES:
+:ID:       34e28ff62bef20dbfcd9c913f78edeb4
+:END:
+https://www.ibuttonlink.com/products/ds1922l
+think for body temperature tracking... although would be very adhoc, would need a patch to hold it or something like that. expect the skin to be irritated
+** [2019-01-20] MySignals - eHealth and Medical IoT Development Platform :qs:gadget:
+:PROPERTIES:
+:ID:       c868e4952a50b9cb61b79366aa1f81ae
+:END:
+http://www.my-signals.com/
+that costs about 1K, but looks pretty cool. EKG,   EMG, respiratory sensor etc. will be inconvenient to wear though
+** [2019-01-20] Reliable wearable ECG - Quantified Self / Apps & Tools - Quantified Self Forum :hrm:
+:PROPERTIES:
+:ID:       d45aed77de3b3156cb4e4a0217982453
+:END:
+https://forum.quantifiedself.com/t/reliable-wearable-ecg/2653
+a lot of ecg related medical grade tools
+** [2019-01-20] Firstbeat Firstbeat Bodyguard 2                         :hrm:
+:PROPERTIES:
+:ID:       e1de68df97b75d9394c2b249bb0ff4b0
+:END:
+http://shop.firstbeat.com/us/bodyguard.html#.XEQ3KVX7TMg
+uses electrodes..
+ok, so apparently currently there is no reliable way of tracking very accurate continuous HR without changing electrodes etc
+* [2019-05-10] [[https://reddit.com/r/BrainMachineInterface/comments/begb98/new_neural_implant_in_trials/][New neural implant in trials]] /r/BrainMachineInterface :bci:
+:PROPERTIES:
+:ID:       d26cd67af7567c25f90858a6834e784b
+:END:
+** [2019-05-12] huh, pretty cool, electrod mesh injected via a vein right into the brain
+:PROPERTIES:
+:ID:       fa24ee4f98e3437a32180e11ca646d5b
+:END:
+* EEG/EMG
+:PROPERTIES:
+:ID:       ff220b7ec2f62a9c2f626209ebf1a322
+:END:
+** STRT [#C] [2019-01-20] Backyard Brains Store https://backyardbrains.com/products/ :hobby:
+:PROPERTIES:
+:ID:       123666323854bf74bc10d675e8121935
+:END:
+*** [2019-01-25] hmm that looks pretty promising I think
+:PROPERTIES:
+:ID:       47bd20ddd0f3b21afdb7b5ae2bf19d97
+:END:
+*** [2019-02-24] huh? free delivery? https://www.onbuy.com/gb/science-and-discovery/backyard-brains-muscle-spikerbox-neuroscience-in-a-box~c2371~p6511442/
+:PROPERTIES:
+:ID:       23b4626a1f6a55b6732e2ed42c5346ea
+:END:
+
+** STRT [#C] [2019-01-20] Myoware EMG Sensor - Arduino Tutorial | Cost Effective EMG Sensor - RootSaid :emg:
+:PROPERTIES:
+:ID:       276fbe8d46248abef062d70b49500933
+:END:
+https://rootsaid.com/myoware-emg-sensor-arduino/
+*** [2019-01-25] simple tutorial.. but fuck it's so tedious to read the signal! E.g. you need to clean the skin etc.
+:PROPERTIES:
+:ID:       d377b70042a0b05dd069d0a41ffda140
+:END:
+*** [2019-02-24] https://www.youtube.com/embed/DOFtN67y1j0 hmm, that looks promising..
+:PROPERTIES:
+:ID:       a7eb9d5573f6d70e807b2ca61d77fe11
+:END:
+
+** [#C] [2019-01-25] Advancer Technologies, LLC: [DIY] Conductive Fabric Electrodes :emg:
+:PROPERTIES:
+:ID:       f6829032d5003b5ab76041bef4270e1a
+:END:
+http://www.advancertechnologies.com/2013/03/diy-conductive-fabric-electrodes.html
+hmm, that's pretty cool, could get reusable electrodes that way
+** [#C] [2019-02-14] Hacking Your Brain Waves: A Guide To Wearable Meditation Headsets https://www.diygenius.com/hacking-your-brain-waves/
+:PROPERTIES:
+:ID:       5c5ee4b256b12268972d92411bb0c34f
+:END:
+
+** [#C] [2019-02-24] TrueSense Exploration Kit | OP Innovations     :eeg:emg:
+:PROPERTIES:
+:ID:       5ee33ecddb468591e42f846c4f8feaff
+:END:
+https://www.op-innovations.com/en/node/96
+
+* [#C] [2019-04-11] Anyone had experience with EEG headsets? : QuantifiedSelf https://www.reddit.com/r/QuantifiedSelf/comments/ac5x6u/anyone_had_experience_with_eeg_headsets/
+:PROPERTIES:
+:ID:       e3f108cfa0b0783c83f43f4912680275
+:END:
+: I wrote an app for the NeuroSky, but eventually gave up on it because getting a good signal was so tedious.
+* [#C] [2019-05-21] How to Hack Toy EEGs | Frontier Nerds http://www.frontiernerds.com/brain-hack
+:PROPERTIES:
+:ID:       20afe959e5c122950dcfef423579295d
+:END:
+
+* [#C] [2019-05-21] Home                                             :eeg:vr:
+:PROPERTIES:
+:ID:       2ce9dbac06d0c8fe2e48c9f3e97f8b7b
+:END:
+https://myndplay.com/
+
+* TODO [#C] [2019-06-22] Contents — visbrain 0.4.4 documentation    :emg:viz:
+:PROPERTIES:
+:ID:       a591f951843801a6072272831ff47d3c
+:END:
+http://visbrain.org/index.html
+: Visbrain documentation _static/ico/visbrain.png
+: A multi-purpose GPU-accelerated open-source suite for brain data visualization.
+* DONE [#B] [2019-04-15] Using deep learning to “read your thoughts” — with Keras and an EEG sensor :eeg:mind:openbci:
+:PROPERTIES:
+:ID:       86d86c5e0d13bac3a1ab5992987f03e1
+:END:
+https://medium.com/@justlv/using-ai-to-read-your-thoughts-with-keras-and-an-eeg-sensor-167ace32e84a
+** [2019-07-31] very cool! lots of good techniquies with signal processing and neural networks
+:PROPERTIES:
+:ID:       ec783d554e3d52ef7362ff63f6a46fc8
+:END:
+
+* [2019-07-20] Inria - Comparison of a consumer grade EEG amplifier with medical grade equipment in BCI applications https://hal.inria.fr/hal-01278245
+:PROPERTIES:
+:ID:       8b6b4ce2b46310d680a1753a8b6ae648
+:END:
+: Abstract : This paper presents a comparison between a consumer grade EEG (electroencephalography) amplifier and a medical grade equipment. Using the same set of EEG electrodes, signals recorded from the OpenBCI board are compared side-by-side with those recorded from the g.tec g.USBamp device. Two BCI (brain-computer interface) applications are studied: a P300 speller and a workload estimator. In both applications EEG features are highly correlated. Moreover, the classification performances obtained with the OpenBCI board come close to the accuracy achieved with the g.tec g.USBamp. Overall, these preliminary results suggest that the OpenBCI board -- or a similar solution based on the Texas Instrument ADS1299 chip -- may be an alternative to traditional EEG amplifiers, widening the realm of applications and increasing the number of potential users.
+* [2019-07-20] MIT researcher takes the quantified self to the extreme with an EEG helmet — Quartz https://qz.com/1348242/the-human-cyborg-collecting-his-memories-on-video/
+:PROPERTIES:
+:ID:       dd436e70c174a425657676b719eeda56
+:END:
+
+* [#B] [2019-02-24] Alex Grey on Tracking Muscle Data (EMG, ECG) - Quantified Self :qs:emg:
+:PROPERTIES:
+:ID:       ce8c6356e5c12abec278cad9a2354413
+:END:
+http://quantifiedself.com/2012/03/alex-grey-on-tracking-muscle-data-emg-ecg/
+
+* [#B] [2019-02-24] QS Resource Guide                                   :emg:
+:PROPERTIES:
+:ID:       e2de5e2d701ef75c87b1a750b60dae14
+:END:
+http://experimentable.com/qs-guide/
+* STRT [#B] [2018-07-14] ici·bici: here's a low cost, open source brain-computer interface :bci:eeg:
+:PROPERTIES:
+:ID:       47051259c6b1c2069411ff688c2281ef
+:END:
+https://icibici.github.io/site/
+https://www.reddit.com/r/NeuroHacking/comments/89qasr/does_anybody_knows_how_to_buy_this_bci_20_kit/ mm unclear how to buy it...
+
+* [#D] Melon band: dismissed? https://www.reddit.com/r/QuantifiedSelf/comments/6qke2e/what_to_do_with_this_melon_eeg_headband_now_that/
+:PROPERTIES:
+:ID:       18bf8babfd3ef56600e95fb12bb3bd82
+:END:
+
+* related                                                        :emg:bci:qs:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:

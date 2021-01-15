@@ -1,0 +1,188 @@
+#+TITLE: Personal assistant
+#+filetags: passistant
+
+A replacement for Google Home/Alexa which actually has a chance of doing anything else apart from switching music
+
+* STRT [#B] Mycroft AI                                              :mycroft:
+:PROPERTIES:
+:ID:       3e789e7c1498460a82f9bf20d78e42ff
+:END:
+hmm, this looks quite promising!
+** https://mycroft.ai/
+:PROPERTIES:
+:ID:       ad1e769d87b11781c72e4e209029d9ce
+:END:
+** https://github.com/MycroftAI/mycroft-core
+:PROPERTIES:
+:ID:       70329ac0f9b44601b11d6d5617711294
+:END:
+** https://www.reddit.com/r/Mycroftai/
+:PROPERTIES:
+:ID:       d70d595eae255a5fdfc0d5a48f110914
+:END:
+
+
+** you can replace AI and STT backends by local https://www.reddit.com/r/selfhosted/comments/88pjho/selfhosted_digital_assistant_alternative_to_siri/dwndux3/
+:PROPERTIES:
+:ID:       1fa46c84bdf4ef93800a90ef302aade3
+:END:
+** installation: erm, it just removed moc and mpd...
+:PROPERTIES:
+:ID:       5cd557dec20901c2d5727bcc71738776
+:END:
+
+** TODO base my note adding thing on that? https://github.com/kev40293/skill-shopping-list
+:PROPERTIES:
+:ID:       f384103d690e4523ff8de9530e6fc3d6
+:END:
+
+** TODO remind me to make tea in 1 minute >> I've set a reminder for three thirteen tomorrow    -- bug!
+:PROPERTIES:
+:ID:       40beaa29f8e5901b9f4762f04ead03b0
+:END:
+** TODO https://github.com/mycroftai/skill-reminder/tree/8330d1500594b7f406facbbf699afcaaa95e29b1
+:PROPERTIES:
+:ID:       0fb392307a2e0484a0de2ffbc9f582b3
+:END:
+** TODO https://github.com/mycroftai/skill-playback-control/tree/03e6bc0fac9096c1966eaacfd489fe2973395cff -- 'next track' didn't work :(
+:PROPERTIES:
+:ID:       eed2bd5283116ee5276b3ef3512f3d73
+:END:
+ah, I need https://github.com/forslund/spotify-skill/tree/07cb663ec317f6b409e23bd22208eda642c104e5 apparently..
+** TODO https://github.com/mycroftai/skill-audio-record/tree/e7c3cabfdca67cc2928154f51701b7203bf0ddef -- ok, this kinda works.. but not sure where is it storing recordings..
+:PROPERTIES:
+:ID:       6101611de1b6483bb233602fc58f186b
+:END:
+** TODO https://github.com/mycroftai/mycroft-timer/tree/4e503621399761b2910068d275b269916359ce5f this sort of works... e.g. for timers
+:PROPERTIES:
+:ID:       0e8a4d58e3704d50977561e31bad1500
+:END:
+*** [2019-06-25] need audio confirmation for started timer...
+:PROPERTIES:
+:ID:       89e0ef0b645da6a9164dccd143ed5edc
+:END:
+** TODO [#D] [2019-06-25] start using it for timers?
+:PROPERTIES:
+:ID:       1c476d58dc2f229eaf5ff876be8ac680
+:END:
+
+* [#B] [2020-03-14] Ask HN: Non-cloud voice recognition for home use? | Hacker News
+:PROPERTIES:
+:ID:       58e8584dab4c324adef8a505d67e344b
+:END:
+https://news.ycombinator.com/item?id=22576589
+* TODO [#C] Mycroft, Sirius, Jasper, Jarvis, Betty, etc.
+:PROPERTIES:
+:ID:       70a9f9d8059bf67c3b3eb20a3f8c004f
+:END:
+* STRT Kalliope https://github.com/kalliope-project/kalliope
+:PROPERTIES:
+:ID:       87fb96c680d82654a7a83d1e6e0721fd
+:END:
+https://github.com/kalliope-project/kalliope/blob/master/Docs/stt_list.md
+looks very promising!    
+
+
+kalliope is multilingual (as opposed to mycroft?)
+
+
+ sudo apt-get install libttspico0 libttspico-utils libttspico-data -- pico thing
+apt install sox
+
+https://github.com/nerokiryu/Test-website/blob/2440f38cfd949d551db0ac5fe6afd3f7383217af/_data/community_neurons.yml
+
+python3.6 ../kalliope/kalliope.py start
+python3.6 ../kalliope/kalliope.py gui -- gui seems to be crashing occasionally..
+
+og, got to say kalleopeeeee apparently
+
+https://github.com/kalliope-project/kalliope/blob/master/Docs/stt.md -- some keys are here...
+
+**** google recognition -- kinda slow but works
+:PROPERTIES:
+:ID:       ce453baa5d703141a66b50ffa5c6e4ba
+:END:
+**** bing -- didn't work at all
+:PROPERTIES:
+:ID:       a25ed3e5134198758c1084cd3a85189e
+:END:
+**** houndify -- didn't work
+:PROPERTIES:
+:ID:       37758f5d2489659ed8ee81491c1f2c4c
+:END:
+**** cmusphinx
+:PROPERTIES:
+:ID:       639e85cd952c13b69a6a757375f858d9
+:END:
+sudo apt-get install swig libpulse-dev
+pip36 install --user pocketsphinx
+sphinx kinda works after specifying language... but doesn't look very precise?
+
+* [#C] [2018-06-10] Home Assistant
+:PROPERTIES:
+:ID:       1ebc33dc53d49495b19ed55870b2f619
+:END:
+https://www.home-assistant.io/
+raspberry pi?
+
+* [2019-03-19] leon-ai/leon: 🧠 Leon is your open-source personal assistant. https://github.com/leon-ai/leon
+:PROPERTIES:
+:ID:       8414d187c10ccd954fb125208131eb5a
+:END:
+** [2019-04-08] eh. unclear how is it better than other assistants https://blog.getleon.ai/the-story-behind-leon/
+:PROPERTIES:
+:ID:       3d68cbe007dc94bde7423ff39c6fdd7e
+:END:
+
+* [2018-12-24] [[https://reddit.com/r/selfhosted/comments/a70c95/best_of_open_source_smart_home_home_assistant_vs/][Best of open source smart home: Home Assistant vs OpenHAB]] /r/selfhosted
+:PROPERTIES:
+:ID:       aa4dccc5bc5a0fdda6614097ece59a96
+:END:
+
+* Mycroft AI                                                        :mycroft:
+:PROPERTIES:
+:ID:       3e789e7c1498460a82f9bf20d78e42ff
+:END:
+** TODO [#C] [2019-06-13] Mycroft Project: Search Engine Plugins - Firefox IE Chrome https://mycroftproject.com/ :search:
+:PROPERTIES:
+:ID:       c70412453fd494032e0becb3950cbde4
+:END:
+
+** [2019-06-25] Things I've learned and things I still don't know after a couple of days with Mycroft - Mycroft Project - Mycroft Community Forum
+:PROPERTIES:
+:ID:       920478a63925463800dc9bcb22a75824
+:END:
+https://community.mycroft.ai/t/things-ive-learned-and-things-i-still-dont-know-after-a-couple-of-days-with-mycroft/5053
+
+** [#C] [2019-05-04] [[https://reddit.com/r/IAmA/comments/9uzpux/i_am_the_founder_and_ceo_of_mycroft_ai_the/e98ssgu/][I am the Founder and CEO of Mycroft AI the privacy focused, open source, AI voice assistant. AMA!]] /r/IAmA
+:PROPERTIES:
+:ID:       f3d84c5439aeea62d48969d517832ab0
+:END:
+: As the Software Architect of the backend code, I can tell you that we do plan to make that code public.  We are in the middle of an architecture change right now.  After all the backend code is using the new architecture, we will make the change.
+** TODO [#C] eh, mycroft consuming 40% cpu ??
+:PROPERTIES:
+:CREATED:  [2019-07-01]
+:ID:       ac4ec317cf50a83881732e8232d7b0e9
+:END:
+
+*** TODO [#C] mess with settings in powertop?
+:PROPERTIES:
+:CREATED:  [2019-06-28]
+:ID:       c3424474c6a3fbb9991a26c10622738b
+:END:
+
+** TODO [#C] [2019-06-25] voice.mycroft.ai - Mycroft https://mycroft.ai/voice-mycroft-ai
+:PROPERTIES:
+:ID:       d316e4c3c203e84218e8d95786b8248d
+:END:
+
+** [2020-03-28] Home assistant + Mycroft
+:PROPERTIES:
+:ID:       4b3a0167c9745e649b4284455f61628d
+:END:
+: Home assistant is a home automation tool, not a voice assistant. You can even hook up Mycroft to Home Assistant.
+
+* related                                     :automation:degoogle:dictation:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:

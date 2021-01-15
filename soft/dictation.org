@@ -89,6 +89,12 @@ https://www.youtube.com/watch?v=3z7LBW_Rl9c
 :ID:       d71fb997fbbdf45f9d7b0f735b75c80d
 :END:
 
+* [#C] [2018-10-03] ugh, researched a bit and it seems like there are no decent russian models.. dunno maybe I could train one against mozilla's deepspeech??
+:PROPERTIES:
+:ID:       5fefee8d171edeca475b22157bcd6211
+:END:
+this is closest I could find.. https://github.com/sovse/Rus-SpeechRecognition-LSTM-CTC-VoxForge
+
 * TODO [#D] TTS on linux https://notgnoshi.github.io/spd-say/
 :PROPERTIES:
 :ID:       2ed7b347a68e586568f3aeccaf235957
@@ -167,4 +173,15 @@ Generally Kaldi is much more accurate than current CMUSphinx, however, if your a
 * [#D] related                            :degoogle:automation:infra:desktop:
 :PROPERTIES:
 :ID:       90ed4512c954aea887dcc288ffc3f367
+:END:
+* TODO [#D] configure simon
+:PROPERTIES:
+:ID:       20e66dfd95f67e2ec9298c8ce5a8ac38
+:END:
+: sudo apt install libqt4-sql-sqlite
+
+what's up with default dictionary??
+* https://github.com/julius-speech/julius
+:PROPERTIES:
+:ID:       db4a54086bc14df5469abca76e729448
 :END:
