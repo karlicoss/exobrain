@@ -87,7 +87,7 @@ http://www.autodidacts.io/neurotech-hardware-roundup-eeg-bci-tdcs-neurofeedback/
 :ID:       654816369795a7519d7b9bb43f30245f
 :END:
 
-* [2018-07-15] how are EMG and EEG different?
+* [2018-07-15] how are EMG and EEG different?                           :emg:
 :PROPERTIES:
 :ID:       8e3893c0ac395d69742d83d601624847
 :END:

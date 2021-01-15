@@ -2,6 +2,12 @@
 #+logseq_title: mypy
 #+filetags: :python:mypy:
 
+* [#B] [2019-01-01] use ~--check-untyped-defs~                         :mypy:
+:PROPERTIES:
+:ID:       fe381a1899cde2ddb8038f197a69341d
+:END:
+
+
 * TODO [#C] [2019-10-26] [[https://mypy.readthedocs.io/en/latest/common_issues.html?highlight=reveal_type#reveal-type][reveal_type]] can be used during the type checking
 :PROPERTIES:
 :ID:       6651977e14483164dbbbf16cfcb68328
@@ -34,9 +40,67 @@ https://github.com/python/mypy/issues/5107
 : else:
 :     from functools import lru_cache
 
+
+* TODO [#C] [2018-10-12] https://mypy.readthedocs.io/en/latest/additional_features.html#dataclasses-support
+:PROPERTIES:
+:ID:       cec4cf7e724fe8480a3f7e85f98d4352
+:END:
+* STRT [#C] should use ~mypy --namespace-packages~ more often?         :mypy:
+:PROPERTIES:
+:CREATED:  [2019-11-13]
+:ID:       6597a1e2fc925be7fa7538dcd80b445c
+:END:
+** [2020-03-27] actually they're looking into making it a default
+:PROPERTIES:
+:ID:       68cee950b1a6c17f916ac379aaa995fe
+:END:
+* TODO [#D] [2019-04-16] mypy overloads                                :mypy:
+:PROPERTIES:
+:ID:       65f6c4df88f2023ca70816b82d423e40
+:END:
+: @overload
+: def fetch_data(raw: Literal[True]) -> bytes: ...
+: @overload
+: def fetch_data(raw: Literal[False]) -> str: ...
+: # Fallback overload if the user provides a regular bool
+* TODO use protocols for classes which I can't control, they are very neat!!! :python:mypy:
+:PROPERTIES:
+:CREATED:  [2018-12-11]
+:ID:       a57ea940-d567-4a15-8a12-1c02fb3116d5
+:END:
+
+
+* [2019-03-12] shit, looks like python can import without __init__ files, but mypy can't handle lack of them :( :python:
+:PROPERTIES:
+:ID:       ae409ca23ca73e2c1938f4b037bd17b3
+:END:
+* TODO Python Type Hints – NP-Incompleteness                           :mypy:
+:PROPERTIES:
+:CREATED:  [2019-12-30]
+:ID:       aa3958c00aaa40aa2a243b84db3263af
+:END:
+
+https://kunigami.blog/2019/12/26/python-type-hints/amp/?__twitter_impression=true
+
+Good mypy intro?
+
+* TODO [#B] __init__ file is useful for mypy submodule discovery..     :mypy:
+:PROPERTIES:
+:CREATED:  [2019-12-21]
+:ID:       440accb7e43b4bbb0140873d2e8627b5
+:END:
+
+
+
 * TODO [#D] [2019-04-16] The Mypy Blog: Mypy 0.700 Released: Up To 4x Faster
 :PROPERTIES:
 :ID:       b46b36eadd2510fbefb54cb4a3a88a70
 :END:
 https://mypy-lang.blogspot.com/2019/04/mypy-0700-released-up-to-4x-faster.html
 : We are now shipping a mypy binary compiled with mypyc by default, which is up to 4x faster than the interpreted version shipped previously. The compiled version has been available as a separate PyPI distribution for a while now, and this is first release where it’s installed by default. Mypyc is a compiler that compiles type-annotated Python modules into efficient CPython C extension modules.
+* [#D] [2018-06-20] __all__ and pycharm and mypy                       :mypy:
+:PROPERTIES:
+:ID:       2d322e8647d2aebabae60bda72822869
+:END:
+TLDR: messing with __all__ results in problems, don't do that..
+I guess I have to be careful on module levels then if I don't want unwanted crap...
