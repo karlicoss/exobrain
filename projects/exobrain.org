@@ -535,7 +535,7 @@ https://github.com/karlicoss/my-awesome-list
 wonder if some sort of cat (or use references instead)
 mention bookmark archiver as smth that is used for checking url integrity?
 
-* [#C] [2020-03-06] [[https://github.com/rust-lang/mdBook][rust-lang/mdBook: Create book from markdown files. Like Gitbook but implemented in Rust]] :urlrot:
+* [#C] [2020-03-06] [[https://github.com/rust-lang/mdBook][rust-lang/mdBook: Create book from markdown files. Like Gitbook but implemented in Rust]] :linkrot:
 :PROPERTIES:
 :ID:       efa678acd7a7a6e5ba4b5f44a841ae71
 :END:
@@ -561,7 +561,7 @@ map my exobrain onto vr somehow?
 :ID:       f544b175566da4d57dcfacdd7b8d7557
 :END:
 
-* TODO [#D] failed attempt to convert heading + link on the next line (after Grasp) into proper org-mode links :orgmode:
+* TODO [#D] failed attempt to convert heading + link on the next line (after Grasp) into proper org-mode links :org:
 :PROPERTIES:
 :CREATED:  [2020-04-04]
 :ID:       a5826e9512ad3f9f741a75e2b3335764
@@ -580,4 +580,9 @@ I don't know wtf is wrong. I don't get how to extract title from the note. (om-g
 * related:                                                     :org:blog:pkm:
 :PROPERTIES:
 :ID:       46d0b656780ed5b7449b02396581e3d4
+:END:
+* TODO maybe embed my blog posts in this graph? e.g. give them different weight or something :logseq:exobrain:
+:PROPERTIES:
+:CREATED:  [2021-01-09]
+:ID:       b869a94fd44f2bf670f00a549df52966
 :END:

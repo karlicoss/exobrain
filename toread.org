@@ -1,4 +1,3 @@
-#+OPTIONS: toc:nil
 #+TITLE: Reading list
 #+logseq_graph: false
 #+filetags: read
@@ -7,8 +6,6 @@
 This in my public todo-list, so it's constantly changing and things are moving around.
 
 I also maintain a [[https://www.goodreads.com/user/show/22191391-dima-gerasimov][goodreads profile]], where I rate the books.
-
-#+toc: headlines 2
 
 * [#B] Books
 :PROPERTIES:
@@ -302,10 +299,11 @@ hmm, maybe read his biography?
 :PROPERTIES:
 :ID:       747bbba841f7377c007972f17d9e293c
 :END:
-** TODO [#C] The Selfish Gene by Richard Dawkins                   :blinkist:
+** TODO [#C] The Selfish Gene by Richard Dawkins
 :PROPERTIES:
 :ID:       ac4d6f362cb748dc969c623600ddde7f
 :END:
+- on blinkist
 ** TODO [#C] The Man Who Knew Infinity: Life of Ramanujan by Robert Kanigel
 :PROPERTIES:
 :ID:       ecb2ec66a56a073f8f11ac05a22725ba

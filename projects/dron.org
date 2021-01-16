@@ -250,3 +250,10 @@ https://schedule.readthedocs.io/en/stable/
 :PROPERTIES:
 :ID:       90ed4512c954aea887dcc288ffc3f367
 :END:
+
+
+* STRT [#D] maybe forbid creating pycache?
+:PROPERTIES:
+:CREATED:  [2019-08-25]
+:ID:       734a6a0d75f2a41377ba19e499930011
+:END:

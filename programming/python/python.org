@@ -188,17 +188,21 @@ ok, that seems to be way easier
 :PROPERTIES:
 :ID:       57da8fb07bfdfca61c7b0017c59155ea
 :END:
-** bandit  -- security checks                                      :security:
-:PROPERTIES:
-:ID:       5d2ee1645599f587c7c62cd71994f5eb
-:END:
-https://github.com/openstack/bandit
 ** TODO would be nice to have  static analysis that checks you are not using global variables, etc.
 :PROPERTIES:
 :CREATED:  [2018-01-20]
 :ID:       9b60779a00d9aad75d0ad81e31676371
 :END:
 however there are not any tools which do that...
+** [#C] bandit  -- security checks                                 :security:
+:PROPERTIES:
+:ID:       5d2ee1645599f587c7c62cd71994f5eb
+:END:
+https://github.com/openstack/bandit
+*** [2021-01-16] wouldn't say it's super useful... might detect occasional eval or whatever, but won't help with more sophisticated stuff
+:PROPERTIES:
+:ID:       444ba68c10b545af594cfee4a7e9fc46
+:END:
 * [#B] * libraries
 :PROPERTIES:
 :ID:       b2a5d937afb62428b2be6e833e384090
@@ -677,4 +681,279 @@ hmm. if I decorate function with list constructor, I can get both ease of use an
 :PROPERTIES:
 :CREATED:  [2018-10-04]
 :ID:       7a5c49fc-6367-47f7-9333-375e1b3274cc
+:END:
+* WAIT [#D] Poetry instead of pyscaffold?                            :python:
+:PROPERTIES:
+:CREATED:  [2019-12-08]
+:ID:       4922fa7ea2da9f6e6d8a1c9e28eebb9f
+:END:
+: The best answer in 2020 is to use poetry.
+: http://poetry.eustace.io
+** [2021-01-16] eh, don't think it worked for me, I prefer to rely on setup.py
+:PROPERTIES:
+:ID:       c5f36749081ef083d811c8a007634054
+:END:
+
+* [#C] [2019-08-25] https://docs.python.org/3.7/library/argparse.html argparse: use ~set_defaults~
+:PROPERTIES:
+:ID:       587b19b90c7755aaf022cbd7d3783a0a
+:END:
+: One particularly effective way of handling sub-commands is to combine the use of the add_subparsers() method with calls to set_defaults() so that each subparser knows which Python function it should execute. For example:
+: This way, you can let parse_args() do the job of calling the appropriate function after argument parsing is complete. Associating functions with actions like this is typically the easiest way to handle the different actions for each of your subparsers. However, if it is necessary to check the name of the subparser that was invoked, the dest keyword argument to the add_subparsers() call will work:
+** [2019-09-02] ah, could pass lambda to forward to actual handler function!
+:PROPERTIES:
+:ID:       71fd714b4262da0e9345684d3eac6632
+:END:
+
+* TODO [#C] generate_ordering?                                       :python:
+:PROPERTIES:
+:CREATED:  [2019-07-29]
+:ID:       856ae2eff9a7575b3900d25a629838ec
+:END:
+* TODO [#B] [2020-07-05] [[https://stackoverflow.com/questions/384076/how-can-i-color-python-logging-output][How can I color Python logging output? - Stack Overflow]] :logging:kython:
+:PROPERTIES:
+:ID:       e59bd11d31aa392e9b1ad603c7faa258
+:END:
+: 2020 code, no additional packages required, Python 3
+* TODO [#B] [2020-02-16] Direct URL PEP 508 support and installing sub-dependencies from Git · Issue #5566 · pypa/pip :pip:
+:PROPERTIES:
+:ID:       0ca99a570a7f75df214bb0a8cb97fb50
+:END:
+https://github.com/pypa/pip/issues/5566#issuecomment-402417467
+: We disabled the ability to use PEP 508 URL requirements in dependencies, since we don't want that a package installed from PyPI to result in the pip reaching out to an arbitary web URL. Basically, pip install spam should not make pip reach out to anything except PyPI.
+* [#B] [2020-02-16] Allow direct urls in install_requires · Issue #6301 · pypa/pip :python:
+:PROPERTIES:
+:ID:       4b74e5ec39856bcfb7d38a2e9d07c1db
+:END:
+https://github.com/pypa/pip/issues/6301
+: ugh. so I can't have URL dependencies if it's meant to be on pypi???
+* TODO [#C] [2019-07-25] rstojnic/lazydata: Lazydata: Scalable data dependencies for Python projects
+:PROPERTIES:
+:ID:       b0d4f331b2fb482dd23e0d1bbc8f3274
+:END:
+https://github.com/rstojnic/lazydata
+** [2020-03-27] so it kinda keeps textual 'submodules' for data??
+:PROPERTIES:
+:ID:       897b3ccf94f236d8842db7b089f2cab4
+:END:
+
+* TODO [#C] using pytest fixtures to inject stuff into the module :python:pytest:
+:PROPERTIES:
+:CREATED:  [2019-08-02]
+:ID:       e73747e351b4f72e039e2a73d96452f9
+:END:
+** [2019-08-02] like in tz provider
+:PROPERTIES:
+:ID:       9a536254c48d12c074b0417cb4e114ec
+:END:
+* STRT [#C] end2end gui semi manual tests          :promnesia:python:testing:
+:PROPERTIES:
+:CREATED:  [2019-08-06]
+:ID:       a90c448a472663fa740b1300df6befd2
+:END:
+* TODO [#C] pytest dependencies                                      :python:
+:PROPERTIES:
+:CREATED:  [2019-09-27]
+:ID:       84905bfbe6867677ea23f67cc76f5b20
+:END:
+py, more-itertools, zipp, importlib-metadata, pluggy, six, pyparsing, packaging, atomicwrites, wcwidth, attrs, pytest, orger
+* TODO [#C] [2019-12-31] backoff · PyPI
+:PROPERTIES:
+:ID:       8d9f6e1ed5e3dc544b02d6b926091be7
+:END:
+https://pypi.org/project/backoff/
+: It is also possible to specify an alternate logger with the logger keyword argument. If a string value is specified the logger will be looked up by name.
+* STRT [#D] Poetry for dep management                                :python:
+:PROPERTIES:
+:CREATED:  [2019-12-13]
+:ID:       101c49b723d0787f434a1e11c1fc79eb
+:END:
+: We have moved our dependency management from pipenv to poetry and hasn’t been more happier than now working with and publish Python modules.
+: Now we use pyenv with poetry to run all our projects in Python with venv in project instead of decided by poetry default settings. We changed the settings with:
+: poetry config settings.virtualenvs.in-project true After this in hgignore or gitignore added .venv folder.
+: Now everything is the way we wanted, with Pipenv many times faced issues that the project worked with requirements.txt but not in Pipenv. Didn’t have this issue moving to poetry yet.
+: Also with emacs support and automated deployment tools the predictability of poetry made our team easy to work with and publish Python application modules.
+
+* [#D] [2019-12-15] Support automatic versioning setuptools_scm-style? · Issue #140 · python-poetry/poetry
+:PROPERTIES:
+:ID:       fd3c329beb2d10443e6fc9d76bdd3994
+:END:
+https://github.com/python-poetry/poetry/issues/140
+: right, poetry can't infer version...
+* TODO [#D] it's clearly not detecting changes in ~install_requires~; needed to reinsall :tox:
+:PROPERTIES:
+:CREATED:  [2019-08-02]
+:ID:       4b80ffc7ad0aaf5675c0ae61491e291d
+:END:
+* [#D] [2019-07-26] python - pytest exits with no error but with "collected 0 items" - Stack Overflow :pytest:
+:PROPERTIES:
+:ID:       3bc9b5c694e19e1fd834c564f7518803
+:END:
+https://stackoverflow.com/questions/37353960/pytest-exits-with-no-error-but-with-collected-0-items
+: pytest gathers tests according to a naming convention. By default any file that is to contain tests must be named starting with test_ and any function in a file that should be treated as a test must also start with test_.
+* TODO [#D] [2019-10-26] traceback — Print or retrieve a stack traceback — Python 3.8.0 documentation :errors:
+:PROPERTIES:
+:ID:       9c7d48e709d1eb184455d5dd51c2c308
+:END:
+https://docs.python.org/3/library/traceback.html#tracebackexception-objects
+: TracebackException Objects
+
+hmm, could use that?
+* TODO [#C] separate testing and linting since mypy's deps might be installed by accident? :python:tox:
+:PROPERTIES:
+:CREATED:  [2019-09-26]
+:ID:       bc61cbd0e11d99b3c9cfa9092682eb79
+:END:
+* [#C] [2019-11-09] python - Run an OLS regression with Pandas Data Frame - Stack Overflow
+:PROPERTIES:
+:ID:       4a51b81edc61bdde60d2b89b754ced5a
+:END:
+https://stackoverflow.com/questions/19991445/run-an-ols-regression-with-pandas-data-frame
+: I think you can almost do exactly what you thought would be ideal, using the statsmodels package which was one of pandas' optional dependencies before pandas' version 0.20.0 (it was used for a few things in pandas.stats.)
+* TODO [#C] figure out a better framework for python multiprocessing... :python:
+:PROPERTIES:
+:CREATED:  [2019-06-20]
+:ID:       65efea5bd5afb0bf356f11a0d3cf4439
+:END:
+* TODO [#C] [2019-09-01] vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources :tui:
+:PROPERTIES:
+:ID:       f472be202932ce81e931ac50f45b9bcc
+:END:
+https://github.com/vinta/awesome-python
+: urwid - A library for creating terminal GUI applications with strong support for widgets, events, rich colors, etc.
+* STRT [#C] sigh... don't think it's possible to properly preserve stacktraces... :python:errors:
+:PROPERTIES:
+:CREATED:  [2020-11-25]
+:ID:       da5761565c0ce07d8831eb9af5aba7b0
+:END:
+: import logging
+: logging.basicConfig()
+: 
+: def bad():
+:     raise RuntimeError('BAD')
+: 
+: xx = RuntimeError('while running "test"')
+: ex = None
+: try:
+:     bad()
+: except Exception as e:
+:     ex = e
+:     ex.__cause__ = xx
+:     logging.error('inside!')
+:     logging.exception(ex)
+: 
+: logging.error('outside! note the empty stacktrace :(')
+: logging.exception(ex)
+: logging.error("also __cause__ is ignored even though it's present: '%s'", ex.__cause__)
+: # I guess it just doesn't use __cause__, only traceback information...
+: 
+: test()
+* STRT [#C] strptime is incapable of handling timezones via %Z direcive?? :python:timezone:
+:PROPERTIES:
+:CREATED:  [2018-10-06]
+:ID:       e21868ac6b2e51260d28aad103eccb9f
+:END:
+: In [20]: ds = "Sep 18 2018 5:48:23 UTC"
+: 
+: In [21]: _TIME_FORMAT = "%b %d %Y %H:%M:%S %Z"
+: 
+: In [22]: datetime.strptime(ds, _TIME_FORMAT)
+: Out[22]: datetime.datetime(2018, 9, 18, 5, 48, 23)
+
+
+fucking hell..
+** [2020-03-27] see takeout provider
+:PROPERTIES:
+:ID:       9b0bccb8b824ed68a6ae2c6413914b75
+:END:
+
+* [#C] [2020-03-12] encode/httpx: A next generation HTTP client for Python. 🦋
+:PROPERTIES:
+:ID:       9586994513f5c9d4d4521fb113cb7192
+:END:
+https://github.com/encode/httpx
+: HTTPX is a fully featured HTTP client for Python 3, which provides sync and async APIs, and support for both HTTP/1.1 and HTTP/2.
+* TODO [#C] [2020-09-02] [[https://python-prompt-toolkit.readthedocs.io/en/master/index.html][Python Prompt Toolkit 3.0 — prompt_toolkit 3.0.2 documentation]] :tui:python:
+:PROPERTIES:
+:ID:       73ffaaa827c65392b5142b737440a6a4
+:END:
+* [2020-09-18] [[https://stackoverflow.com/questions/29284244/python-tox-install-a-dependency-as-editable][testing - Python/tox Install a dependency as editable - Stack Overflow]] :python:tox:pip:
+:PROPERTIES:
+:ID:       13c689b15e44dbb20c7f51859ac4eb5a
+:END:
+how to install a dependency as editable
+* [2020-09-18] [[https://stackoverflow.com/questions/29284244/python-tox-install-a-dependency-as-editable][testing - Python/tox Install a dependency as editable - Stack Overflow]] :hpi:
+:PROPERTIES:
+:ID:       8ea3e2c37a8c70e35684bba8297e4507
+:END:
+add this to developer guide.. fucking hell
+* [2020-09-27] [[https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe][python - What is the difference between venv, pyvenv, pyenv, virtualenv, virtualenvwrapper, pipenv, etc? - Stack Overflow]]
+:PROPERTIES:
+:ID:       fe01675e208392a315db619a52ec4375
+:END:
+: pipenv- like venv - can be used to create virtual envelopes but additionally rolls-in package management and vulnerability checking functionality. Instead of using requirements.txt, pipenv delivers package management via Pipfile. As PyPA endorses pipenv for PACKAGE MANAGEMENT, that would seem to imply pipfile is to supplant requirements.txt.
+: 
+: HOWEVER: pipenv uses virtualenv as its tool for creating virtual envelopes, NOT venv which is endorsed by PyPA as the go-to tool for creating virtual envelopes.
+* [#C] adapter thigs with getattr (like in workout provider for org notes) -- pretty great for adding one missing method :python:
+:PROPERTIES:
+:CREATED:  [2018-10-27]
+:ID:       73f34f4574a33ef1f642c18990a2e3b2
+:END:
+* TODO [#C] [2019-08-25] argparseweb · PyPI
+:PROPERTIES:
+:ID:       069b4ca89c027df43ce644b178f81b98
+:END:
+https://pypi.org/project/argparseweb
+
+* STRT [#C] [2019-09-01] vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources :cli:
+:PROPERTIES:
+:ID:       e21f2741369e5e6596ed13b8a26914d9
+:END:
+https://github.com/vinta/awesome-python
+: Command-line Interface Development
+: Libraries for building command-line applications.
+:     Command-line Application Development
+* TODO [#B] [2019-08-02] GrahamDumpleton/wrapt: A Python module for decorators, wrappers and monkey patching.
+:PROPERTIES:
+:ID:       b5ea33f6bc471241615f46a9f57a9c70
+:END:
+https://github.com/GrahamDumpleton/wrapt
+:  It therefore goes way beyond existing mechanisms such as functools.wraps() to ensure that decorators preserve introspectability, signatures, type checking abilities etc. Th
+* TODO attemt to figure out mixed sem/cal versioning           :projects:pip:
+:PROPERTIES:
+:CREATED:  [2020-04-17]
+:ID:       3d4f93fb65effd8ada07f417ccb674d5
+:END:
+https://github.com/pypa/setuptools_scm/#default-versioning-scheme
+: def semcal(v):
+:     tag = v.tag.base_version
+:     assert len(tag.split('.')) == 2, tag
+:     v.time
+:     # tag is
+:     breakpoint()
+:     pass
+: 
+: 
+: if __name__ == '__main__':
+:     [pkg] = find_packages('src')
+:     setup(
+:         name=pkg,
+:         # version='0.1.1',
+:         # use_scm_version=True,
+:         use_scm_version={
+:             'version_scheme': semcal,
+:         },
+:         setup_requires=['setuptools_scm'],
+* TODO had to remore username from hatch config? it was overriding __token__ during the release.. :pypi:
+:PROPERTIES:
+:CREATED:  [2020-04-01]
+:ID:       a47781a65c27f49af4add192bbfd414d
+:END:
+* [2020-03-31] why it is hard -- if you have 2fa you can't upload packages :pypi:
+:PROPERTIES:
+:ID:       892412eac6712447e3cf8c2bd4af25fd
+:END:
+** [2020-03-31] ah ok, actually it allows for a token, so even better!
+:PROPERTIES:
+:ID:       2f6ffa8cb22dab93d48fc6af31d5c1b6
 :END:

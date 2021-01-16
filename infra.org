@@ -128,3 +128,55 @@ ugh. kinda annoying it's running as root
 :PROPERTIES:
 :ID:       d48f944ac6c78b97d544f98b89b506ca
 :END:
+* STRT [#B] [2020-01-18] bb4242/sdnotify: A pure Python implementation of systemd's service notification protocol (sd_notify) -- can be used for watchdog? :infra:systemd:
+:PROPERTIES:
+:ID:       a4b1e1ad42c12b7e3df3b1019bda4f4c
+:END:
+https://github.com/bb4242/sdnotify
+* STRT [#B] replace backoff with that other thing?             :arctee:infra:
+:PROPERTIES:
+:CREATED:  [2020-07-06]
+:ID:       f7ce6e14f30d4d9e26e0ef5bae28ef4f
+:END:
+* TODO [#C] backups/hypothesis/hypothesis_20200705T190129Z.json is malformed. check how my infra responds to this :promnesia:infra:
+:PROPERTIES:
+:CREATED:  [2020-07-06]
+:ID:       2eb5e5df3b5e66d2e982800c4953877b
+:END:
+* [#C] [2020-01-12] [[https://news.ycombinator.com/item?id=22027459][Deploy your side-projects at scale for basically nothing – Google Cloud Run]] :hpi:promnesia:project:
+:PROPERTIES:
+:ID:       b5c4032ad72b1062a77f8cf808189f63
+:END:
+https://alexolivier.me/posts/deploy-container-stateless-cheap-google-cloud-run-serverless
+** [2020-08-15] can deploy docker container and run?
+:PROPERTIES:
+:ID:       3e4c442053e35cb9074deb29fa9714b9
+:END:
+* TODO [#D] figure out unmatching origin/master? always check it even without fetch?? :clustergit:
+:PROPERTIES:
+:CREATED:  [2018-11-27]
+:ID:       ebf97e0e4a1f9c33d97a81afd078da22
+:END:
+* TODO [#C] [2019-08-18] Elasticlunr.js, lightweight full-text search engine in Javascript for browser search and offline search. :search:
+:PROPERTIES:
+:ID:       bd86210123c5d1389aa2087cedf35f46
+:END:
+http://elasticlunr.com/
+I think I'm using it in scrapyroo.. perhaps I should index all my git repos?
+* STRT [#C] NOCOMMIT global hook?                                       :git:
+:PROPERTIES:
+:CREATED:  [2018-12-31]
+:ID:       b1327c496de1f9294f40cee0c8c34983
+:END:
+
+* [#C] [2019-09-01] vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources :search:
+:PROPERTIES:
+:ID:       414f9fe25758155d14a1d9b33f34e85d
+:END:
+https://github.com/vinta/awesome-python
+: fuzzywuzzy - Fuzzy String Matching.
+* TODO [#C] [2019-06-29] mark-rushakoff/awesome-influxdb: A curated list of awesome projects, libraries, tools, etc. related to InfluxDB :influx:
+:PROPERTIES:
+:ID:       53d4fc6d56705a5b8ebee3132cc82270
+:END:
+https://github.com/mark-rushakoff/awesome-influxdb

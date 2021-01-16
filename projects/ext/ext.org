@@ -1,0 +1,521 @@
+#+TITLE: Third party projects I'm involved in
+#+logseq_graph: false
+
+
+* Logseq                                                             :logseq:
+:PROPERTIES:
+:ID:       fbb126358cad1630ae133c19c13a64ea
+:END:
+[[https://github.com/logseq/logseq#logseq][Logseq]] is a #localfirst browser interface for #orgmode. I'm using it for my #exobrain
+
+** TODO [#A] search could be wider and include more stuff?         :exobrain:
+:PROPERTIES:
+:CREATED:  [2020-12-29]
+:ID:       fb1bb0722cd0fcced810930f94c5f255
+:END:
+** TODO [#B] suggestions                                             :logseq:
+:PROPERTIES:
+:CREATED:  [2020-12-30]
+:ID:       1313181a9d0cb1824989d27a9730376f
+:END:
+*** TODO [#C] [2020-12-30] display 'current' graph without clicking on 'page graph' all over again? :outbox:
+:PROPERTIES:
+:ID:       0372ae31e5e6754951d118d0f21dfd67
+:END:
+*** STRT [#B] [2020-12-30] hmmm... I'd like to see 'related' pages, e.g. when certain tags are siblings?
+:PROPERTIES:
+:ID:       7477e307cc4bd8b6c4b18cd7b66dea43
+:END:
+https://discord.com/channels/725182569297215569/725182570131751005/746244953910411324
+maybe https://github.com/logseq/logseq/issues/207
+*** STRT [2020-12-30] eh. singe page (toexobrain export) didn't quite work well
+:PROPERTIES:
+:ID:       a98e15b6d0810b9a33c70e08d7e7f687
+:END:
+- relativize links in index.html? then easier to use as a single page app without selfhosting
+- graph doesn't seem to work
+**** STRT [2020-12-30] ok, try switching abs paths to relative
+:PROPERTIES:
+:ID:       faa335b50f830ae01463ef89e865b85d
+:END:
+** TODO [#B] might be nice to have several 'layers'         :exobrain:logseq:
+:PROPERTIES:
+:CREATED:  [2021-01-09]
+:ID:       6111681f9078a174833295148252e278
+:END:
+e.g. people could be on a different layer
+it could be achieved by having them not participate in constraints and just layed out on top with different color?
+** TODO [#B] [2020-12-29] [[https://logseq.github.io/page/publishing][Publishing]] :logseq:exobrain:
+:PROPERTIES:
+:ID:       de02152ca411fc28c037be84b092ab06
+:END:
+ok, nice, this worked (need to run http server though, doesn't work as a fully static page?)
+** TODO [#C] dev mode suggesion: reindex on refreshed code (or force reindex) :outbox:
+:PROPERTIES:
+:CREATED:  [2021-01-15]
+:ID:       28b694d4aedbb11f50ecee6e9f7c1594
+:END:
+** STRT [#C] node size proportional to the number of links? :exobrain:logseq:
+:PROPERTIES:
+:CREATED:  [2021-01-09]
+:ID:       22d9875dc8b396a2c07931e646387354
+:END:
+** STRT [#C] hmm, if title is missing, might be better to use filename (now it's picking the first heading) :exobrain:
+:PROPERTIES:
+:CREATED:  [2020-12-29]
+:ID:       031b2548822ea9584af608077b55f596
+:END:
+** TODO [#C] if it used custom ids would be awesome..                :logseq:
+:PROPERTIES:
+:CREATED:  [2020-12-29]
+:ID:       99bd46205f70504173b30d8eb14d0222
+:END:
+** TODO [#C] need a mode to exclude headings from notes graph? although not sure :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-01-06]
+:ID:       5d6bb48ad83f84b3cc94274e9936bf35
+:END:
+e.g. I want two tags to be connected if they are siblings -- basically only want connections between tags? I guess it's kinda subjective
+** TODO [#C] colour differently pages with the corresponding file and without (i.e. tags) :logseq:exobrain:
+:PROPERTIES:
+:CREATED:  [2021-01-09]
+:ID:       1e95a6e10ef5025973b207f21d253f38
+:END:
+** TODO [#C] [2021-01-07] [[https://github.com/logseq/logseq/blob/14e4af295781a00aacdb9104bda9c8121000b2cb/src/main/frontend/handler/graph.cljs#L112][logseq/graph.cljs at 14e4af295781a00aacdb9104bda9c8121000b2cb · logseq/logseq]] :logseq:
+:PROPERTIES:
+:ID:       f57ba76cde37d0fe470f3565e3a2fd84
+:END:
+:             (map (fn [[p aliases]]
+
+aliases for graph view
+** TODO [#D] auto push could push on a separate branch? and the actual normal push could be manual? :logseq:
+:PROPERTIES:
+:CREATED:  [2021-01-06]
+:ID:       2d5765fe015eab130e64ee38346ca381
+:END:
+** [#D] [2021-01-08] right, it treats # as tags?                        :org:
+:PROPERTIES:
+:ID:       9f01cf88a52bac2a8e1c94aa8fa87e70
+:END:
+** DONE need to highlight connections when I drag the enode :logseq:exobrain:
+:PROPERTIES:
+:CREATED:  [2021-01-09]
+:ID:       7a6db2db5eb468f2e4edf39ecda3ef13
+:END:
+
+* Orgzly                                                             :orgzly:
+:PROPERTIES:
+:ID:       338a5a09555f214dbb1db5548161f0b1
+:END:
+Awesome android app for #orgmode
+https://github.com/orgzly/orgzly-android
+
+so, every notebok has a root node
+unspecified: inserts at the end of root?
+
+note level; level 0 is root
+
+** debugging ~SQLiteDatabase: /data/user/0/com.orgzly/databases/orgzly_test.db~
+:PROPERTIES:
+:ID:       ba87c1a339d3123a0e7f75a72ef80f44
+:END:
+
+** TODO [#B] feat: interface for fs browsing
+:PROPERTIES:
+:CREATED:  [2017-12-17]
+:ID:       5c8d981f4959419bab393b9e9a23efeb
+:END:
+
+The main issue is multiple repositories
+Imagine we have
+repo1:
+  dir
+     file1.org
+repo2:
+  dir
+     file2.org
+we'll have to somehow merge them. Quite annoying!
+
+** STRT [#B] feat: open org files in orgzly                             :org:
+:PROPERTIES:
+:CREATED:  [2018-01-10]
+:ID:       7695c82dc94d73d029d20a4247f91f9d
+:END:
+
+karlicoss/orgzly branch view-org-files
+
+right, so apparently, notes are getting rebuilt every time from database
+we could have a temporary database which gets flushed occasionally and never gets displayed?
+https://github.com/orgzly/orgzly-android/issues/148
+
+*** TODO [#C] Wonder if i could implement simple org viewer with org-java? :org:android:
+:PROPERTIES:
+:CREATED:  [2018-08-29]
+:ID:       f60c0cdacf4103d41b075141dd75a92f
+:END:
+**** [2018-11-20] eh, tbh I don't need it that often. I usually use docsearch (or could use recoll!)
+:PROPERTIES:
+:ID:       3fafce9a15feb26795864b36bd7ed2f0
+:END:
+
+** TODO [#B] https://github.com/orgzly/orgzly-android/issues/345  :spacedrep:
+:PROPERTIES:
+:CREATED:  [2019-04-15]
+:ID:       9a6756d03da22bce15243fe9e6bb0dfe
+:END:
+
+** STRT [#B] feat: capture templates? With screen buttons
+:PROPERTIES:
+:CREATED:  [2018-10-24]
+:ID:       13d6a7037640570deea72d94dcbc0fb0
+:END:
+- State "STRT"      from "TODO"       [2019-02-21]
+https://github.com/orgzly/orgzly-android/issues/80
+*** [2019-02-21] shit. gradle sync didn't work. tried updating Kotlin but that didn't help...
+:PROPERTIES:
+:ID:       53af02798ce77ca12d9dea871cc93070
+:END:
+*** [2019-02-21] basic idea: first approximation -- reuse widget for notebook, just trigger note creation on opening
+:PROPERTIES:
+:ID:       4ce4cfbfabdbd3bd9190a4df4d5d482c
+:END:
+we want
+name, template, target (could be file in the first approximation, but think how we would address subheadings)
+**** how would that work with sync?
+:PROPERTIES:
+:ID:       8b68d162511a558134c10dfdd1d1e2da
+:END:
+**** how do we handle staling targets?
+:PROPERTIES:
+:ID:       fc892cd81e4136988e90b9e3a2840907
+:END:
+*** DONE [2019-02-24] https://github.com/orgzly/orgzly-android/pull/466
+:PROPERTIES:
+:ID:       e0d9f06d6fc9da7beee1695c6a84b8a0
+:END:
+
+** STRT [#B] Orgzly notification high priority only? Or even a search query
+:PROPERTIES:
+:CREATED:  [2018-10-05]
+:ID:       489232b3075962d27ac1007c5cb3965c
+:END:
+https://github.com/orgzly/orgzly-android/issues/245
+*** you know if anyone started progress on that? If not I might give it a try.
+:PROPERTIES:
+:ID:       6113418b09e443d9712453ad6e5ef544
+:END:
+I'm not aware of any. That would be great, thanks.
+I guess it would be a new preference in Settings / Reminders that can contain a search query?
+
+** TODO [#C] bug: cut note and then create new in an empty notebook -- the note you cut disappears
+:PROPERTIES:
+:CREATED:  [2018-04-27]
+:ID:       8727f6cd2d023c8da08395596995e5b0
+:END:
+
+** TODO [#C] Orgzly quick search widget?
+:PROPERTIES:
+:CREATED:  [2019-04-03]
+:ID:       0386d11068d1d19d564af5f9891e5289
+:END:
+
+** TODO [#D] todo state changes
+:PROPERTIES:
+:CREATED:  [2019-02-16]
+:ID:       2e970c02ce8c6b1757395855bb78ea37
+:END:
+*** make sure orglzy can handle that??
+:PROPERTIES:
+:ID:       99c3ac4a16436f49668cad85e670c4c9
+:END:
+- State "WAIT"       from "TODO"       [2019-02-16] \\
+  whatever
+
+
+** TODO [#D] Orgzly archive
+:PROPERTIES:
+:CREATED:  [2018-06-11]
+:ID:       f329fe5f6d74058420db1bfa7522dfef
+:END:
+Would require support in notebook interface
+*** [2019-02-10] there were some suggestions already, for tagging in particular https://github.com/orgzly/orgzly-android/issues/32
+:PROPERTIES:
+:ID:       a87efa948c8c538ab0ea618c6e50ff0e
+:END:
+
+* wildcard                                                         :wildcard:
+:PROPERTIES:
+:ID:       cae0206c31eaa305dd0e847330c5e837
+:END:
+https://github.com/geoffreylitt/wildcard
+related: #interop #malleable #spreadsheets
+
+** TODO [#B] [2020-05-13] [[https://news.ycombinator.com/item?id=23165901][Ask HN: Anyone else upvote HN comments to track comments they have already read? | Hacker News]] :pkm:
+:PROPERTIES:
+:ID:       d382f3767eaa235642aad7ef5c1d167c
+:END:
+
+** [#B] [2020-05-05] [[https://selectorgadget.com/][SelectorGadget: point and click CSS selectors]] :css:
+:PROPERTIES:
+:ID:       cc5b4d2198ab16d2d4cd9a27e43e5ff2
+:END:
+
+** TODO [#B] [2020-05-11] [[https://twitter.com/karlicoss/status/1259893586365161472][(10) jestem króliczkiem on Twitter: "@jtraub аа, понял. Крутая идея, да! это было бы оч легко, даже не модифицируя экстеншн если бы браузеры разрешали экстеншнам друг на друге оперировать, а так можно будет добавить в Wildcard" / Twitter]]
+:PROPERTIES:
+:ID:       5ea23cd801610323b15ce6e3037512fe
+:END:
+: аа, понял. Крутая идея, да!
+: это было бы оч легко, даже не модифицируя экстеншн если бы браузеры разрешали экстеншнам друг на друге оперировать, а так можно будет добавить в Wildcard
+** TODO [#B] ok, what if we combine them?     :promnesia:worldbrain:wildcard:
+:PROPERTIES:
+:CREATED:  [2020-05-11]
+:ID:       306d612fddebd4ad2bdc0ade1b0fa781
+:END:
+e.g. intercept AJAX request and store them in the database on your disk. Then, add some code to filter it and keep as the browser history?
+** [#C] firefox logging
+:PROPERTIES:
+:CREATED:  [2020-05-07]
+:ID:       e8261f7d3be3c89717a27c7c0fad1653
+:END:
+Another thing I noticed was [this bit](https://github.com/geoffreylitt/wildcard/blob/42fbb748a809aa84b7f6927a9aac02376f5bb926/src/site_adapters/domScrapingBase.ts#L112) logging errors all the time for adapters that don't have `scrapeAjax` (I'm on Firefox). I wonder if it's better to check for the att
+** [#C] wip on DSL issue
+:PROPERTIES:
+:CREATED:  [2020-05-08]
+:ID:       ba76551470d3b714baec036b8c645de4
+:END:
+: > Usually I prefer DSLs embedded in a Turing-complete language to provide the TC escape hatch if needed, but here that's precisely what we don't want.
+: 
+: TODO why no escape hatch
+: 
+: I'm (as a somewhat experienced programmer) biased towards having a real programming language, because, because I've struggled with mediocre yaml/json DSL that end up reimplementeing half of the programming language in an incomrehensible ways. E.g. if you already know javascript, you end up frustrated with expressing in DSL what you'd otherwise have don in few lines of code. And the opposite: if you don't know how to program in the first place I'd be much rather
+: 
+: debugging somethine like
+: 
+: >  "xpath": "//*[@class='blog-item']/div[0]"
+: 
+: is kind of a nightmare for anyone, and you need the devtools and JS console for that
+: 
+: TODO something about ids
+: 
+: >  "querySelector": "._i24ijs"
+: 
+: Often (citation needed though) websites have completely dynamic ids, so you would need to do some sort of completely dynamic query to determine the content and the items
+** TODO [#C] [2020-05-07] [[https://github.com/geoffreylitt/wildcard/issues/17][Restrict expressiveness of site adapters · Issue #17 · geoffreylitt/wildcard]]
+:PROPERTIES:
+:ID:       ca75832ff8756a8799f306090108b788
+:END:
+contribute to the discussion here
+** TODO [#C] Generic scraping with chrome inspector?
+:PROPERTIES:
+:CREATED:  [2020-05-07]
+:ID:       0d045af7f78fd5a6104d76826e2aa127
+:END:
+** TODO [#C] 'exploring queue', mark explored elements and never show them again :jonbo:wildcard:
+:PROPERTIES:
+:CREATED:  [2020-05-11]
+:ID:       5316fe19d3f8d0e9222c17d406f3ad14
+:END:
+** TODO [#C] [2020-05-11] bug: [[https://github.com/Vrroom][Vrroom]]
+:PROPERTIES:
+:ID:       737ca06b2e361e1e59cfad1f6cdd05a4
+:END:
+- load this page, then click 'repositories', wildcard doesn't show up (it should)
+- then refresh (shows up, as expected)
+- then go back -- it doesn't disappear (it should)
+** TODO [#C] [2020-05-12] [[https://fraidyc.at/][Fraidycat]]
+:PROPERTIES:
+:ID:       f17fb55f952e16959198fa54b0eaa065
+:END:
+
+** [#C] [2020-05-16] [[https://politepol.com/en/][Generate RSS feeds for any web page | PolitePol]]
+:PROPERTIES:
+:ID:       dfb2a59fe9161ce2c68f0a37978a6e8f
+:END:
+ok, nice so it allows you to choose elements dynamically, could be useful
+** [#D] would be nice to keep images outside of the git repository... perhaps even prune
+:PROPERTIES:
+:CREATED:  [2020-05-07]
+:ID:       0bfeac536b33d6810fdc219c9da62f69
+:END:
+separate repository for binary assets is better
+
+
+** [2020-05-26] [[https://twitter.com/jaredpalmer/status/1265298834906910729][(2) Jared Palmer on Twitter: "PSA: You can usually crank up Webpack rebuild/HMR speed by ~7x on TypeScript projects by doing this to your Webpack config in development. Diff to create-react-app: https://t.co/nMikcH4At8 https://t.co/TgPl5LUwLH" / Twitter]] :wildcard:
+:PROPERTIES:
+:ID:       69737abec6b9df89d6d784a1ffcd417d
+:END:
+: PSA: You can usually crank up Webpack rebuild/HMR speed by ~7x on TypeScript projects by doing this to your Webpack config in development.
+* tantivy                                                           :tantivy:
+:PROPERTIES:
+:ID:       c0846f1dd154d79ead26e100febbda27
+:END:
+Search indexer on Rust
+https://github.com/tantivy-search/tantivy
+related #search
+** TODO [#D] Try search as you type on Wikipedia                    :tantivy:
+:PROPERTIES:
+:CREATED:  [2019-11-15]
+:ID:       6e1529d2b85cdbf190912e03ee860ad5
+:END:
+https://github.com/tantivy-search/tantivy-cli#indexing-the-document-index
+
+** TODO [#D] host wikipedia backend for a bit and give a frontend link to github issue :tantivy:
+:PROPERTIES:
+:CREATED:  [2019-11-18]
+:ID:       717340705d21760f50b3c23c637aa102
+:END:
+** TODO [#D] tantivy-py: need to bump version to -dev or something? :tantivy:
+:PROPERTIES:
+:CREATED:  [2019-11-18]
+:ID:       1ad4ab7031ce00cd1ef6ffe605af5ba3
+:END:
+
+
+* syncthing                                                       :syncthing:
+:PROPERTIES:
+:ID:       c180235c30a980484a512472d97f8832
+:END:
+https://syncthing.net
+** TODO [#A] suggest heartbeats for syncthing?                        :cloud:
+:PROPERTIES:
+:CREATED:  [2020-06-16]
+:ID:       7e988e1e55e152e9ee2b47385ae94255
+:END:
+** TODO [#B] [2019-09-06] dschrempf/syncthing-resolve-conflicts: A small bash script that handles synchronization conflicts with Syncthing. Inspired by 'pacdiff' from Arch Linux. https://github.com/dschrempf/syncthing-resolve-conflicts
+:PROPERTIES:
+:ID:       e397f0b89b3210dc5a078a52082c4cd1
+:END:
+
+** TODO [#B] [2019-09-06] jjkramok/syncthing-conflict-notifier: Detects conflict files in a single syncthing shared folder and sends a push notification if conflicts are found. https://github.com/jjkramok/syncthing-conflict-notifier
+:PROPERTIES:
+:ID:       a258a53f96b667829d30dfb45392629f
+:END:
+
+** TODO [#C] commit conflict detector? show alter in the inteface
+:PROPERTIES:
+:CREATED:  [2020-06-17]
+:ID:       161f2ad0380c50d734c25a05086567ca
+:END:
+*** [2020-12-19] eh? apparently it's already presetn? https://github.com/kozec/syncthing-gtk/issues/261
+:PROPERTIES:
+:ID:       1266fe82990e32e72c193814f2f46771
+:END:
+interesting..
+** TODO [#C] ok, syncthing paranoid should simply reuse logic in cloud-heartbeat :cloud:
+:PROPERTIES:
+:CREATED:  [2020-01-07]
+:ID:       90d15ad7745b240ab8d1c5a7d1fa7c03
+:END:
+also probably belongs to the same repository altogether
+** TODO [#C] had a bug: in pkm dir                                    :cloud:
+:PROPERTIES:
+:CREATED:  [2019-10-17]
+:ID:       b23b8603520d6df1f0f09a310073dbd3
+:END:
+
+TODO would be interesting to do fuzzing
+
+1. before pkm (real dir) pkm/search (symlink) pkm/swoop (symlink)
+UNSYNCED!
+1. after pkm: symlink with the same files inside
+sync was just stuck
+** STRT [#D] Better indicator for syncthing? In mc and in gui?
+:PROPERTIES:
+:CREATED:  [2018-06-09]
+:ID:       44ddfdcde542223372a5f3eb8ba3c45c
+:END:
+Gui -- available, mc -- not sure how..
+mm, doesn't look like there is a nice terminal interface?
+
+** STRT [#C] run git gc occasionally? can remove quite a lot of objects... :cloud:
+:PROPERTIES:
+:CREATED:  [2020-06-07]
+:ID:       d86e0a97a44c8d5f3f8222d0ef4f55a8
+:END:
+*** [2020-06-07] yeah, it's a really good idea.. wonder how to run it more often
+:PROPERTIES:
+:ID:       e2057d78b11839f055f58958bb4237c2
+:END:
+** TODO [#C] issue with Out of sync items/ sync stuck at 99%
+:PROPERTIES:
+:CREATED:  [2020-04-12]
+:ID:       69218d2c06077a9e76c7447dd4a65726
+:END:
+not sure what exactly caused it, but basically was constantly showing local/global state mismatch
+
+use the post request to reset the index (apparently no way from GUI)
+https://docs.syncthing.net/rest/system-reset-post.html
+
+Rest api is on GUI port, key is in advanced settings
+https://docs.syncthing.net/dev/rest.html
+
+** DONE [2019-04-17] implement more regular checks for syncthing?
+:PROPERTIES:
+:ID:       6575754533a9a7e21d47b325d46059aa
+:END:
+*** [2019-04-17] also allow selective syncing on mobile/wifi
+:PROPERTIES:
+:ID:       98eee1a07204e20bc9e9dbdabee48a8f
+:END:
+
+* sympy                                                               :sympy:
+:PROPERTIES:
+:ID:       414c5f5f8607e7698a8e74e78bbc556b
+:END:
+related #sim #math
+
+** TODO [#D] Add.matches???                                           :sympy:
+:PROPERTIES:
+:CREATED:  [2018-12-23]
+:ID:       2b52d84069c16fb4ba025101ca39c18e
+:END:
+
+** TODO [#D] use wild to deconstruct expressions?                     :sympy:
+:PROPERTIES:
+:CREATED:  [2018-12-28]
+:ID:       3ce0276a74da397ef3f8549421e16f8f
+:END:
+
+** TODO [#D] started solving that system of DEs                       :sympy:
+:PROPERTIES:
+:CREATED:  [2018-12-28]
+:ID:       e2ceeabe38d39fb4cfc179b9b9da6b1d
+:END:
+
+** TODO [#D] try dsolveset??                                          :sympy:
+:PROPERTIES:
+:CREATED:  [2018-12-29]
+:ID:       c0292e61f5016fd7f3d9caf4c7e0810d
+:END:
+
+** [#D] [2018-12-24] Added a few rules for imageset simplification by hargup · Pull Request 7625 · sympy/sympy
+:PROPERTIES:
+:ID:       b389a41ade1b7045c0f1320893d17b21
+:END:
+https://github.com/sympy/sympy/pull/7625/files
+** DONE dsolve bug https://github.com/sympy/sympy/issues/15707        :sympy:
+:PROPERTIES:
+:CREATED:  [2018-12-29]
+:ID:       790d463c29b2e29ccca8dd649f9936c6
+:END:
+
+* TODO [#D] ncmpcpp file name too long                                  :mpd:
+:PROPERTIES:
+:ID:       d257ff1c840c0228aef63995648fc252
+:END:
+годы пройдут часть 1
+
+* TODO [#C] set link as a title when sharing??     :hackernews:materialistic:
+:PROPERTIES:
+:ID:       abe7b7291b33cfccc6a433373a1f0ccc
+:END:
+** [2019-12-21] https://github.com/hidroh/materialistic/issues/1075
+:PROPERTIES:
+:ID:       648d6cbb18fa0f0a725ae041e769f501
+:END:
+
+* TODO [#C] git-bug isn't syncing PRs?
+:PROPERTIES:
+:CREATED:  [2020-11-02]
+:ID:       8c9425451f433c0efe669d8050f95ef6
+:END:

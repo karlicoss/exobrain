@@ -67,3 +67,100 @@ http://sourceware.org/gdb/current/onlinedocs/gdb/Forks.html
 :ID:       86180669c94fa3610f05cfeb053b1c16
 :END:
 : echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+
+* TODO [#D] use 'commands' 'end'                                        :gdb:
+:PROPERTIES:
+:CREATED:  [2018-08-10]
+:ID:       c1bfa720-84f1-4cd5-a7c1-8526acb88555
+:END:
+https://sourceware.org/gdb/onlinedocs/gdb/Break-Commands.html
+
+* TODO [#D] organelle is quite good?                       :project:org:name:
+:PROPERTIES:
+:CREATED:  [2019-09-17]
+:ID:       de501c2eac932b18bfffd5ba6a16a7b0
+:END:
+* [#C] [2019-11-01] Why TDD Isn't Crap • Hillel Wayne               :testing:
+:PROPERTIES:
+:ID:       03066903513d540c335dc83d9df6a0fa
+:END:
+https://www.hillelwayne.com/post/why-tdd-isnt-crap/
+: While the first PBT library was Haskell Quickcheck, arguably the most sophisticated is the Hypothesis Python library.
+* TODO [#C] Tweet from Awesome (@awesome__re), at Nov 19, 16:36 awesome fuzzing :testing:
+:PROPERTIES:
+:CREATED:  [2019-11-19]
+:ID:       f5be1f90e10a2f90be55b9b7c8db5b91
+:END:
+: Awesome Fuzzing
+: Automated software testing technique that involves feeding pseudo-randomly generated input data.
+
+https://t.co/gQZuxH48yM
+
+https://twitter.com/awesome__re/status/1138001812718440448
+
+* [#C] [2019-08-08] Web Colors                                       :design:
+:PROPERTIES:
+:ID:       df1cfbcd6f73160da106630538aa07b4
+:END:
+https://www.rapidtables.com/web/color/index.html
+
+* TODO [#C] [2020-11-17] [[https://github.com/actions/virtual-environments/issues/1816][Ubuntu-latest workflows will use Ubuntu-20.04 · Issue #1816 · actions/virtual-environments]] :ci:
+:PROPERTIES:
+:ID:       7f2e3bf6d9a07fe7c106c1dba35fe4f6
+:END:
+* TODO [#C] [2019-08-18] cpuu/awesome-fuzzing: A curated list of awesome Fuzzing(or Fuzz Testing) for software security
+:PROPERTIES:
+:ID:       4c35460f67cccd4c1c342b28d1767c5a
+:END:
+https://github.com/cpuu/awesome-fuzzing#readme
+: Awesome Fuzzing
+
+* [#C] [2018-12-09] mre/awesome-static-analysis: Static analysis tools for all programming languages
+:PROPERTIES:
+:ID:       89087b936827c318609711e41964c382
+:END:
+https://github.com/mre/awesome-static-analysis/
+
+* [#C] [2020-02-28] Repl.it - EmbellishedWanConcentrate
+:PROPERTIES:
+:ID:       e5bab68300b1091460a795e95eb83c7d
+:END:
+https://repl.it/repls/EmbellishedWanConcentrate
+wow, nice
+* STRT [#C] Vscode?                                                     :ide:
+:PROPERTIES:
+:CREATED:  [2019-12-13]
+:ID:       b34eee096a9205e09455dcaf672796b9
+:END:
+: I switched to NeoVim a few years ago and I'm not entirely sure whether Vim has caught up in features, diverged, or what ratio of the two. That said, I'm not switching back. The only editor I'm really interested in is VSCode. Not that I use it much, but I am very impressed.
+
+* TODO [#C] [2019-09-01] docopt—language for description of command-line interfaces http://docopt.org/ :literate:
+:PROPERTIES:
+:ID:       bdc1b35b1d3425c610d799c186f4788a
+:END:
+: docopt helps you:
+: 
+: define the interface for your command-line app, and
+: automatically generate a parser for it.
+: 
+: docopt is based on conventions that have been used for decades in help messages and man pages for describing a program's interface. An interface description in docopt is such a help message, but formalized. Here is an example:
+* [#C] [2019-08-18] Highlights from Git 2.23 - The GitHub Blog          :git:
+:PROPERTIES:
+:ID:       457b6d509cf2de6d2c82367f832baca0
+:END:
+https://github.blog/2019-08-16-highlights-from-git-2-23/
+: You may have used git grep to search for some text in your Git project, just as you may have used git diff to view active changes. What do the two have in common? They both display some contents in your repository, and both have support to show the surrounding function context with -p (short for --show-function) or -W (short for --function-context), respectively.
+* [2020-03-31] circle CI's mac plan is paid (40$/month min)              :ci:
+:PROPERTIES:
+:ID:       0d253df3c2e0888f825e810f984cc412
+:END:
+* TODO [#B] Git blame ignore formatting                                 :git:
+:PROPERTIES:
+:CREATED:  [2020-03-23]
+:ID:       a046cea2f74ce1e6a4314c777611d8f4
+:END:
+
+Configure your git blame to ignore cleanup changes.
+
+https://www.moxio.com/blog/43/ignoring-bulk-change-commits-w...

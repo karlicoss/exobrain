@@ -86,3 +86,42 @@ https://github.com/alphapapa/org-ql/blob/master/images/demo-helm-org-ql.sh
 :PROPERTIES:
 :ID:       f5b43121fe893a40544ccbb4f26489fc
 :END:
+
+* TODO [#B] Make sure it's very easy to contribute    :project:hpi:promnesia:
+:PROPERTIES:
+:CREATED:  [2020-05-04]
+:ID:       de21d6ffa6e3c5cd9c9c24089843893e
+:END:
+* TODO [#B] ok, definitely should keep changelog in the repository file (and then link to headings), instead of github native interface :projects:hpi:promnesia:
+:PROPERTIES:
+:CREATED:  [2020-12-05]
+:ID:       d1933d375ada623e7cbd20797701fae9
+:END:
+* TODO [#C] [2019-10-12] Licenses – opensource.google.com           :license:
+:PROPERTIES:
+:ID:       43ee94423b53706536b777563502a3b5
+:END:
+https://opensource.google/docs/thirdparty/licenses/#restricted
+: GNU GPL v1, v2, v3
+* TODO [#C] [2019-10-12] Licenses – opensource.google.com           :license:
+:PROPERTIES:
+:ID:       12640c91bd3180247df7a392e617d91e
+:END:
+https://opensource.google/docs/thirdparty/licenses/#LinkingRequirements
+: The following steps are required in order to be able to take advantage of the reduced requirements:
+: 
+:     The LGPL-licensed library must be used as a shared library (dynamically-linked).
+:     For LGPL v3 only, the user must be able to replace the shared library with a compatible library and have it work (the user must be able to swap out libraries on the device).
+:     Customers must receive either object files or source code (including any modifications) of the LGPL-licensed library.
+* TODO [#C] [2020-04-09] thebjorn/pydeps: Python Module Dependency graphs :python:project:
+:PROPERTIES:
+:ID:       82838862aa45986251b6831ff5d7c937
+:END:
+https://github.com/thebjorn/pydeps
+
+* [#C] [2020-03-01] Alternatives, Inspiration and Comparisons - FastAPI :project:
+:PROPERTIES:
+:ID:       30ca47be168cc47fe1b4eabd457bc474
+:END:
+https://fastapi.tiangolo.com/alternatives/
+very cool comparison page, I really like it

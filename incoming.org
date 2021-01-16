@@ -1,11 +1,7 @@
-#+OPTIONS: toc:nil
 #+TITLE: Unsorted stuff
 #+logseq_graph: false
 
 Random links which I haven't interned anywhere better yet
-
-#+toc: headlines 2
-
 
 * [#A] [2020-07-10] [[https://news.ycombinator.com/item?id=23792767][Disabling Google 2FA doesn't need 2FA if you're already logged in]] :security:
 :PROPERTIES:
@@ -639,7 +635,7 @@ https://github.com/typeddjango/awesome-python-typing
 :END:
 https://en.wikipedia.org/wiki/Hedonic_treadmill
 : The hedonic treadmill, also known as hedonic adaptation, is the observed tendency of humans to quickly return to a relatively stable level of happiness despite major positive or negative events or life changes
-* [#C] [2019-12-20] Web Archiving Community · pirate/ArchiveBox Wiki :archiving:urlrot:
+* [#C] [2019-12-20] Web Archiving Community · pirate/ArchiveBox Wiki :archiving:linkrot:
 :PROPERTIES:
 :ID:       dc3cab9a91952a2ff35f92b97e542515
 :END:
@@ -2019,3 +2015,15 @@ https://stackoverflow.com/questions/27907373/dynamically-change-slots-in-python-
 :PROPERTIES:
 :ID:       5058f1af8388633f609cadb75a75dc9d
 :END:
+* TODO [#C] use repl.it instead of ideone?                              :ide:
+:PROPERTIES:
+:CREATED:  [2019-09-21]
+:ID:       1a65780754664bc7b28e0e80a5008434
+:END:
+* TODO [#B] [2020-05-20] [[https://news.ycombinator.com/item?id=23233791][Why does it need a metric ton of permissions? To everything - data, history, not... | Hacker News]] :literate:security:webext:
+:PROPERTIES:
+:ID:       c26f3280dde672875781f7e4f0dc458a
+:END:
+: Why does it need a metric ton of permissions? To everything - data, history, notifications etc.
+
+literate permissions?

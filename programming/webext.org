@@ -427,3 +427,26 @@ https://blog.jakelee.co.uk/creating-a-history-clearing-chrome-extension/
 :END:
 https://www.reddit.com/r/firefox/comments/886wms/what_is_the_state_of_addonextensions_development/
 :  I think you're supposed to call "browser.*" and I would not be surprised if calling "chrome.*" gets deprecated on the long term)
+* [2020-12-07] Webext special commands                               :webext:
+:PROPERTIES:
+:ID:       9c10d124c607d41d1d981c47cf59d72d
+:END:
+_execute_browser_action: works like a click on the extension's browser action.
+_execute_page_action: works like a click on the extension's page action.
+_execute_sidebar_action: opens the extension's sidebar. Only supported in Firefox 54 and newer.
+
+* [2020-11-09] [[https://app.element.io/#/room/#malleable-systems:matrix.org][Element | Malleable Systems Collective]]
+:PROPERTIES:
+:ID:       d2122651c0b5e2256b68ee42d3b917a7
+:END:
+: Ohh thanks! I thought the 'browser console' was just a log at first, apparently you have to enable devtools.chrome.enabled in about:config first for the terminal to show up!
+* TODO [#C] [2019-09-22] javascript - Chrome extension - page update twice then removed on YouTube - Stack Overflow :promnesia:
+:PROPERTIES:
+:ID:       295f97218d211981ca463314743b727e
+:END:
+https://stackoverflow.com/questions/36808309/chrome-extension-page-update-twice-then-removed-on-youtube/36818991#36818991
+
+* [2020-05-05] [[https://github.com/geoffreylitt/wildcard/blob/master/chrome-autoreload.js][wildcard/chrome-autoreload.js at master · geoffreylitt/wildcard]] :webext:
+:PROPERTIES:
+:ID:       dec11ca9a261d150814c61e4d55018fe
+:END:

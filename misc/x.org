@@ -1,11 +1,13 @@
 #+TITLE: 
 #+logseq_graph: false
 
-* ust a fake node to make  logseq graph connected and happy
+File to control logseq behaviour
+
+* lust a fake node to make  logseq graph connected and happy
 :PROPERTIES:
-:ID:       154f6146614b4f13a38fbb4317ac52d8
+:ID:       ebe981ab4ec82e4068f4115de5fce7c6
 :END:
-** xxx                                                         :urlrot:infra:
+** xxx                                                        :linkrot:infra:
 :PROPERTIES:
 :ID:       f561aaf6ef0bf14d4208bb46a4ccb3ad
 :END:
@@ -16,4 +18,9 @@
 ** zzz                                                            :food:diet:
 :PROPERTIES:
 :ID:       f3abb86bd34cf4d52698f14c0da1dc60
+:END:
+
+* TODO [2021-01-16] ignore some tags like 'inspiration'. they make a mess in the graph, but mostly only make sense to me anyway :logseq:
+:PROPERTIES:
+:ID:       d6cabc7558fe2c20778498df08a76ced
 :END:

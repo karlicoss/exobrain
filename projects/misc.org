@@ -1,0 +1,187 @@
+#+TITLE: Other projects I've started
+#+logseq_graph: false
+
+* Kobuddy                                                           :kobuddy:
+:PROPERTIES:
+:ID:       a38399666cee3937252bdbb9eb503369
+:END:
+My library for accessing #kobo data
+https://github.com/karlicoss/kobuddy
+
+** TODO [#B] why it's better for me                                 :exports:
+:PROPERTIES:
+:CREATED:  [2019-09-29]
+:ID:       08afa04162853d0a639a528778929266
+:END:
+automatic backups
+old databases
+access from other tools
+** TODO [#C] bug?
+:PROPERTIES:
+:CREATED:  [2019-07-02]
+:ID:       bd28ef21dbb053cc2015883b11a5304f
+:END:
+
+: TODO tie breaking
+: -- 2019-03-24 11:01:44: finished
+: -- 2019-03-24 11:01:44: finished reading What is Life? by Erwin Schroedinger. total time spent undefined minutes
+: -- 2019-03-24 11:01:44: left What is Life? by Erwin Schroedinger: 99%, read for 80 mins
+: -- 2019-03-24 11:09:31: finished
+: 
+: TODO for goodreads scripts: get all titles with at least one 'finished' event
+: match them via goodreads api and check that they are marked as read
+: perhaps 'started reading' as well?
+
+** TODO [#C] extraannotationdata??
+:PROPERTIES:
+:CREATED:  [2019-07-21]
+:ID:       e861873674d06fc2c392aede6ffc82ef
+:END:
+** TODO [#C] would be nice to extract chapters, e.g. for Greg Egan
+:PROPERTIES:
+:CREATED:  [2019-12-28]
+:ID:       636f8b3dfa39718852ee44238c59df3a
+:END:
+** [#D] debugging stuff
+:PROPERTIES:
+:CREATED:  [2019-10-16]
+:ID:       0dbb02c4b2632c3bc967ebdf547e3353
+:END:
+:     def zeroes(bts):
+:         res = b''
+:         for b in bts:
+:             res += b'\0'
+:             res += bytes([b])
+:         return res
+: 
+:     # seq = zeroes(b'eventTimestamps')
+:     seq = zeroes(b'Monetization')
+:     idd = blob.find(seq)
+:     # if idd == -1:
+:     #     return
+:     # else:
+:     #     import sys
+:     #     print('----', file=sys.stderr)
+:     #     # print(context(), file=sys.stderr)
+:     #     print(blob[idd + len(seq):], file=sys.stderr)
+:     #     return
+** [#D] [2020-05-07] [[https://github.com/karlicoss/kobuddy/issues/6][Any way to filter out Pocket articles? · Issue #6 · karlicoss/kobuddy]] :kobuddy:
+:PROPERTIES:
+:ID:       fed310f86c6d266053bda4c2c5b20739
+:END:
+: Kobo H2O Libra
+** TODO [#D] might be useful for calibre??
+:PROPERTIES:
+:CREATED:  [2020-08-25]
+:ID:       cb2b73472e07771aacea3b280d92cf26
+:END:
+** TODO [#C] [2019-11-07] my/kobo.py at master · karlicoss/my           :hpi:
+:PROPERTIES:
+:ID:       5b27c99089edeae51eff4aea75178847
+:END:
+https://github.com/karlicoss/my/blob/master/my/books/kobo.py
+: from my_configuration import paths
+: from my_configuration.repos.kobuddy.src.kobuddy import *
+: 
+: set_databases(paths.kobuddy.export_dir)
+: 
+: # TODO maybe type over T?
+: _Predicate = Callable[[str], bool]
+: Predicatish = Union[str, _Predicate]
+: def from_predicatish(p: Predicatish) -> _Predicate:
+:     if isinstance(p, str):
+:         def ff(s):
+:             return s == p
+
+not sure, do we want this instead?
+
+
+** [#C] [2019-05-19] https://github.com/search?q=kobo+ExtraData&type=Code -- no result, which kinda means no one did it :kobo:
+:PROPERTIES:
+:ID:       da9225155bff7b11bce59aa399b69e8b
+:END:
+same for LastOccurrence
+* kython                                                             :kython:
+:PROPERTIES:
+:ID:       e7172d2cd76480fc0c79db3a3c7f847a
+:END:
+https://beepb00p.xyz/kython.html
+** TODO [#C] use sqlite like json path? https://www.sqlite.org/json1.html
+:PROPERTIES:
+:CREATED:  [2019-07-14]
+:ID:       44623a3729fdb332d00a3f9e10736395
+:END:
+** DONE [#C] checker that link is dead                               :kython:
+:PROPERTIES:
+:CREATED:  [2019-03-01]
+:ID:       228241699cf02929cf24d73a7a7e2be2
+:END:
+- State "STRT"      from "TODO"       [2019-04-03]
+*** [2019-10-27] but need something more finetuned? like for DELETED reddit posts...
+:PROPERTIES:
+:ID:       dd62023d4ff43dc1c5379f5df40225db
+:END:
+* TODO [#C] examples of outputs                 :dataliberation:exports:jdoe:
+:PROPERTIES:
+:CREATED:  [2019-09-23]
+:ID:       6e59b48cb89a0dff35879a2a9edce3b8
+:END:
+: jq 'walk(if type == "object" or type == "array" then . else type end)' pocket_20190923T210004Z.json
+
+
+ugh, still might leak some private data...
+
+: jq 'walk(if type == "object" then del(.profile, .account, .groups) else . end)' pocket_20190923T210004Z.json
+* TODO [#C] align properties same way org does it?                :inorganic:
+:PROPERTIES:
+:CREATED:  [2019-09-24]
+:ID:       0799de760a685643938b3fb14251ada4
+:END:
+* TODO [#D] could have caught it if was checking against increasing size.. :exports:backupchecker:
+:PROPERTIES:
+:CREATED:  [2019-04-22]
+:ID:       935e801bcf1fcb56fb1c1f7823cacfd2
+:END:
+* TODO [#C] ask where to get sample API data?                          :jdoe:
+:PROPERTIES:
+:CREATED:  [2020-04-13]
+:ID:       abe1dbb964a86bd1bec203de934c56d5
+:END:
+* TODO [#C] some stuff in orgzly-android tests                   :orgsandbox:
+:PROPERTIES:
+:CREATED:  [2019-09-10]
+:ID:       cbb90cd941dfc2be3d82f3daeb74d7b5
+:END:
+* [#C] [2020-04-04] jackreid.xyz/pocket.json at master · JackWReid/jackreid.xyz :jdoe:
+:PROPERTIES:
+:ID:       a9a8b40fb641f474eef02c6e87d540bd
+:END:
+https://github.com/JackWReid/jackreid.xyz/blob/master/data/pocket.json
+hmm nice pretty extensive pocket export
+* TODO [#C] [2020-03-19] karlicoss/sufs: Merge multiple directories into one via symlinks
+:PROPERTIES:
+:ID:       3eaecd06e9217bf0d79972bb50e50b85
+:END:
+https://github.com/karlicoss/sufs
+: sufs is a tool for 'merging' multiple directories into one via symlinks.
+
+add example?
+* TODO [#C] Add unknown stuff to special playlist?                :spotisync:
+:PROPERTIES:
+:CREATED:  [2019-01-04]
+:ID:       edf37667f9d8a9469c43e3cfb921eb31
+:END:
+** [2019-01-31] eh?
+:PROPERTIES:
+:ID:       0d8a82b094250b4c02a929f0085e0c15
+:END:
+* TODO [#C] might be better to check against mpd?? It updates the database in background... :spotisync:
+:PROPERTIES:
+:CREATED:  [2018-12-08]
+:ID:       0ceddad0e135efebf57551ea5de1321b
+:END:
+* TODO [#C] support for ignoring/consuming words within certain context (e.g. (straight) leg raises) :wledger:
+:PROPERTIES:
+:CREATED:  [2019-03-15]
+:ID:       b7a52ba2f8d9b515341b5d86e18c44fa
+:END:

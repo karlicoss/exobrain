@@ -3,11 +3,9 @@
 
 I write more about it [[https://beepb00p.xyz/orger.html][here]] and [[https://beepb00p.xyz/orger-todos.html][here]].
 
-Related: #memex, #pkm
-
-* motivation
+* [#A] * motivation
 :PROPERTIES:
-:ID:       8b20d3634bbbbf95c71aa00ea43b1dca
+:ID:       5e30ea71f152d2f6289947aa561fd746
 :END:
 ** STRT [#B] [2020-03-22] Reddit's Save Functionality Sucks | My Random Thoughts by Cedric Amaya :reddit:exports:
 :PROPERTIES:
@@ -35,9 +33,9 @@ wow, the fuck?? they are deleted from history??
 : Across all platforms (not just Reddit), people including myself like to save/bookmark interesting content in the hopes of getting some use out of it later.
 : The problem arises when you start accumulating too much content and forget to ever check that stuff out.
 
-* additional modules
+* [#B] * additional modules
 :PROPERTIES:
-:ID:       5087ee19fa5dedd2616797c5636d67be
+:ID:       5a096b3187bbbe924c0cd5f101b98aaf
 :END:
 ** STRT [#C] youtube -- could mark as deleted if link = title?    :hpi:orger:
 :PROPERTIES:
@@ -70,9 +68,9 @@ https://lobste.rs/saved.json
 :CREATED:  [2020-05-21]
 :ID:       730b7844d3cdb65efd88cdaee96c8dfb
 :END:
-* write more about it?                                                 :blog:
+* [#C] * publicity
 :PROPERTIES:
-:ID:       69af7aa7e0ad703a1b66dd36e72817df
+:ID:       8309fbb31a32bf4ac163fcc8c3db8302
 :END:
 ** TODO [#B] example of adding materialistic module -- literally a matter of two commits?
 :PROPERTIES:
@@ -95,9 +93,9 @@ thanks to decoupling the data retrieval (#hpi)
 :CREATED:  [2018-11-07]
 :ID:       e941eda6495b89008958e0f3be54981d
 :END:
-* todos
+* [#B] * todos
 :PROPERTIES:
-:ID:       349d34ca49da03a26a399f5feb25c5a9
+:ID:       2fb2efd7c3f8860196e697d37cc3b45f
 :END:
 ** TODO [#C] need to use highlight as title?
 :PROPERTIES:
@@ -146,7 +144,45 @@ thanks to decoupling the data retrieval (#hpi)
 
 Very nice pattern, could use it for other stuff too
 
+
+
+* related                                                         :memex:pkm:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:
+
+
 * [#D] amend
 :PROPERTIES:
 :ID:       f1a91827018f161918c734379d32c6e3
+:END:
+* TODO [#B] [2020-05-20] add examples? [[https://github.com/karlicoss/orger#types-of-modules][karlicoss/orger: Tool to convert data into searchable and interactive org-mode views]]
+:PROPERTIES:
+:ID:       b6ee87de59d463a6f49abd249f41187b
+:END:
+: Mirror (old name StaticView): mirrors all data from a source, and generated from scratch every time, hence read only.
+* STRT [#C] attempt to generate literate readme              :orger:literate:
+:PROPERTIES:
+:CREATED:  [2019-10-05]
+:ID:       0bebb6cfa7a650a2d7a9ac8a375abd87
+:END:
+
+** [2019-10-05] fuck. multiline result can't be used...
+:PROPERTIES:
+:ID:       09e3e2d4753686e946e44f019eec1cc2
+:END:
+* TODO [#C] [2019-10-20] Orger part II: reading Reddit via org-mode, quick todos from chat messages and spaced repetition : orgmode
+:PROPERTIES:
+:ID:       6f429512ed68dc3e5179bdb64c6700b8
+:END:
+https://www.reddit.com/r/orgmode/comments/dgdej4/orger_part_ii_reading_reddit_via_orgmode_quick/
+: All right. I am trying to install it. I have installed python on Windowz.
+: And I run on CMD:
+: C:\Downloads\orger-master\setup.py install
+: But it seems there is an error. Any help? "src\orger" actually exists below "orger-master":
+
+create issue in orger repo
+* [#C] [2020-01-30] [karlicoss/orger] Include/support/contribute orgformat (#5) - karlicoss@gmail.com - Gmail
+:PROPERTIES:
+:ID:       c11d0c6caf148d7ca57cf824e9eebb28
 :END:

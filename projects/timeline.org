@@ -957,3 +957,10 @@ plus, exclude periods when there are too many dates saved -- would probably mean
 :PROPERTIES:
 :ID:       90ed4512c954aea887dcc288ffc3f367
 :END:
+
+
+* TODO [#C] local cache of dead urls, e.g. for timeline? might be an overkill though
+:PROPERTIES:
+:CREATED:  [2019-02-26]
+:ID:       83244487006e014c0b9edabe8d14ae8b
+:END:

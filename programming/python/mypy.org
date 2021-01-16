@@ -104,3 +104,70 @@ https://mypy-lang.blogspot.com/2019/04/mypy-0700-released-up-to-4x-faster.html
 :END:
 TLDR: messing with __all__ results in problems, don't do that..
 I guess I have to be careful on module levels then if I don't want unwanted crap...
+
+* [#B] [2020-05-03] [[https://github.com/python/mypy/issues/3157#issuecomment-502434084][Support function decorators excellently · Issue #3157 · python/mypy]]
+:PROPERTIES:
+:ID:       b7523668e1af10b80a43ef59bc1002a9
+:END:
+: Just for the record: if someone needs to change the return type of the function inside the decorator and still have typed parameters, you can use a custom mypy plugin that literally takes 15 LoC: https://github.com/dry-python/returns/blob/92eda5574a8e41f4f5af4dd29887337886301ee3/returns/contrib/mypy/decorator_plugin.py
+: 
+: Saved me a lot of time!
+* [#B] [2020-05-25] [[https://github.com/python/mypy/issues/1927][Making a decorator which preserves function signature · Issue #1927 · python/mypy]] :mypy:blog:
+:PROPERTIES:
+:ID:       5c2308aae608ed757bcc97b2f2fa48bd
+:END:
+: from typing import Any, Callable, TypeVar
+: FuncT = TypeVar('FuncT', bound=Callable[..., Any])
+
+ok, this + overrides allowed me to type it properly
+* TODO [#A] [2020-10-05] [[https://www.python.org/dev/peps/pep-0585/][PEP 585 -- Type Hinting Generics In Standard Collections | Python.org]]
+:PROPERTIES:
+:ID:       255f57f1795b73be36a502c58aba160a
+:END:
+: Starting with Python 3.7, when from __future__ import annotations is used, function and variable annotations can parameterize standard collections directly. Example:
+* TODO [#D] seems like a bug in fbmessenger export (on a branch)       :mypy:
+:PROPERTIES:
+:CREATED:  [2020-01-13]
+:ID:       a4e32addc0779666d246b140e8d70b6b
+:END:
+* [2020-05-06] [[https://mypy.readthedocs.io/en/stable/protocols.html#using-isinstance-with-protocols][Protocols and structural subtyping — Mypy 0.770 documentation]] :mypy:
+:PROPERTIES:
+:ID:       46d2948155708e467977f7533042c044
+:END:
+: You can use a protocol class with isinstance() if you decorate it with the @runtime_checkable class decorator. The decorator adds support for basic runtime structural checks:
+* CANCEL [#C] PathIsh thing can be generalized to Path constructible   :mypy:
+:PROPERTIES:
+:CREATED:  [2019-05-02]
+:ID:       2a3a397d1f7a41b0dd72419e2973a5d4
+:END:
+** [2019-06-28] not sure if __init__ would do well? https://mypy.readthedocs.io/en/latest/protocols.html
+:PROPERTIES:
+:ID:       f585962eba5689663bc93d01ef1d8b9b
+:END:
+** [2019-08-24] eh, so os.PathLike[str] kinda solves it, but using .pyi file for that is not really worth it
+:PROPERTIES:
+:ID:       d2d0d19b5b2fcf1e35bd684f5d7c72c5
+:END:
+* TODO [#D] shit. I don't get why there is a difference between checking source and directly??? :mypy:
+:PROPERTIES:
+:CREATED:  [2020-09-12]
+:ID:       e1c72687b93622da5acfc51313c1c2b8
+:END:
+: $ mypy my/endomondo.py
+: my/endomondo.py:8: error: Skipping analyzing '.core.common': found module but no type hints or library stubs  [import]
+:     from .core.common import Paths, get_files
+:     ^
+: my/endomondo.py:8: note: See https://mypy.readthedocs.io/en/latest/running_mypy.html#missing-imports
+: my/endomondo.py:39: error: Skipping analyzing '.core.error': found module but no type hints or library stubs  [import]
+:     from .core.error import Res
+:     ^
+: my/endomondo.py:54: error: Skipping analyzing '.core': found module but no type hints or library stubs  [import]
+:         from .core import stat
+:     ^
+: Found 3 errors in 1 file (checked 1 source file)
+: $ mypy -p my.endomondo
+: my/endomondo.py: note: In function "workouts":
+: my/endomondo.py:48: error: Incompatible types in "yield" (actual type "endoapi.endomondo.Workout", expected type "Union[my.endomondo.Workout, Exception]")  [misc]
+:                 yield w
+:                 ^
+: Found 1 error in 1 file (checked 1 source file)
