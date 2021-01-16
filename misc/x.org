@@ -1,0 +1,19 @@
+#+TITLE: 
+#+logseq_graph: false
+
+* ust a fake node to make  logseq graph connected and happy
+:PROPERTIES:
+:ID:       154f6146614b4f13a38fbb4317ac52d8
+:END:
+** xxx                                                         :urlrot:infra:
+:PROPERTIES:
+:ID:       f561aaf6ef0bf14d4208bb46a4ccb3ad
+:END:
+** yyy                                                        :offline:infra:
+:PROPERTIES:
+:ID:       f0a4058fd33489695d53df156b77c724
+:END:
+** zzz                                                            :food:diet:
+:PROPERTIES:
+:ID:       f3abb86bd34cf4d52698f14c0da1dc60
+:END:

@@ -290,13 +290,13 @@ Out[12]: datetime.datetime(1970, 1, 1, 0, 2, 3)
 :ID:       5064cac3f058378462768212d114f55a
 :END:
 
+
 * [#B] [2019-09-22] [[https://reddit.com/r/Python/comments/d4zfhc/python3_fstrings_a_complete_guide_to_the_most/f0ieyws/][Python3 f-strings - A complete guide to the most well received feature of Python 3.]] /r/Python
 :PROPERTIES:
 :ID:       3307a066987fac24990f4556cd3f94a0
 :END:
 : That’s a part of python’s data model like `len`, `reversed`, `iter`, …:
 : `datetime` simply defines [`datetime.__format__`](https://docs.python.org/3/library/datetime.html#datetime.date.__format__). The method [is explained here](https://docs.python.org/3/reference/datamodel.html#object.__format__).
-
 
 * TODO [#B] [2019-09-16] typeddjango/awesome-python-typing: Collection of awesome Python types, stubs, plugins, and tools to work with them. https://github.com/typeddjango/awesome-python-typing
 :PROPERTIES:

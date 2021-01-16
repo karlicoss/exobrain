@@ -1,0 +1,583 @@
+#+TITLE: Exobrain: building and inspiration
+#+logseq_title: exobrain
+#+filetags: exobrain
+
+* [#A] * motivation
+:PROPERTIES:
+:ID:       5e30ea71f152d2f6289947aa561fd746
+:END:
+** TODO There are lots of cool links which I might never get to explore
+:PROPERTIES:
+:CREATED:  [2020-03-27]
+:ID:       f6eadce9542111126d99c050002a3bf2
+:END:
+However I did spend time 'curating' them, so perhaps they could serve as a kick off point for someone else
+** TODO [#B] why?
+:PROPERTIES:
+:CREATED:  [2020-04-26]
+:ID:       fd1562614f1983c875db9c78c89e31f6
+:END:
+
+delegate link processing to the outside world. Maybe someone runs into them and gets inspired #extendedmind
+** TODO [#C] basically explain, which stuff I maintain and which stuff I keep as a dump. seems like a good compromise
+:PROPERTIES:
+:CREATED:  [2020-07-22]
+:ID:       393c9aa03ba7c727a7269f00719ab4c6
+:END:
+** TODO [#C] [2020-04-13] [[https://github.com/Tanami/websights][Tanami/websights: Just a personal web directory of stuff that I want to keep in my head.]]
+:PROPERTIES:
+:ID:       cb7d5ca49d8b1fea0ff321968fb28a87
+:END:
+: my theory: all people eventually reach the point where they accrue enough debris that it becomes necessary to distribute it in order to move forward with their thinking
+
+yes, so much this
+** STRT [#B] so I want a personal wiki similar to what Nikita Voloboev got, but with org-mode :blog:pkm:
+:PROPERTIES:
+:CREATED:  [2019-12-02]
+:ID:       f146be77f5dd04daeb703a0965d02497
+:END:
+gitbook has got nice almost realtime search but only supports markdown. also they are not open source?
+
+https://github.com/qdot/org-gitbook -- weird thing, split my headings into different pages
+had to package-install ox-gfm first
+- [2019-12-02] dunno, maybe starting with single page with links dump (sorted by tags then date?) and that wouldn't even require index?
+  ignore priorities at first?
+- [2019-12-02] one simple thing to do would be just generating html pages (with normal emacs export?) and then running JS indexer against HTML pages? could do when blog is compiled
+tedious to upgrade though, but a good start?
+- [2019-12-03] maybe, display everything as a single page, then it's easy to search?
+*** TODO [2019-12-03] related: is there plugin for fuzzy/stemming search in firefox? :search:browsers:
+:PROPERTIES:
+:ID:       c4482e5a1a050c09952a026a442d8af9
+:END:
+
+* [#B] * current implementation
+:PROPERTIES:
+:ID:       0bcb2909d0c800255c87ff4e4cae0036
+:END:
+via native emacs org-mode export, see https://github.com/karlicoss/exobrain-compiler/blob/master/src/build.py
+
+** DONE [#C] [2020-01-03] Mirror org-org export, It could be public, under version control and allow for privacy controls :pkm:
+:PROPERTIES:
+:ID:       7198a12e4acd4cf4d065e6bffd09e172
+:END:
+
+** STRT [#B] [2020-11-15] [[https://github.com/logseq/logseq][logseq/logseq: A privacy-first, open-source platform for knowledge sharing and management.]] :logseq:
+:PROPERTIES:
+:ID:       e4ab482e883cefc81fccf7f6eb250641
+:END:
+figuring it out as an extra interface, and for the graph
+
+** STRT [#B] maybe each page got main content, and then just related links/highlights below?
+:PROPERTIES:
+:CREATED:  [2020-02-28]
+:ID:       eb523c796d41781d2ecc618435392c63
+:END:
+** TODO [#B] [2020-12-15] [[https://writequit.org/articles/emacs-org-mode-generate-ids.html][Emacs Org-mode: Use good header ids!]] :blog:org:linkrot:
+:PROPERTIES:
+:ID:       4bb1cb052458426fb2537ddba4d4fa28
+:END:
+
+** TODO [#B] [2020-12-15] [[https://karl-voit.at/2019/11/16/UOMF-Linking-Headings/][UOMF: Linking Headings]]
+:PROPERTIES:
+:ID:       a92cb4397de8b5d042b1732631600e18
+:END:
+: So I kept using :ID:.
+** TODO [#B] def ned quick capture.. and then maybe dispatch items via tags :org:
+:PROPERTIES:
+:CREATED:  [2020-12-30]
+:ID:       59699c2d70aae5815ff83a513f7bd770
+:END:
+** TODO [#C] need to support self tags in TOC? when I specify custom TOC header they don't seem to work, shit.
+:PROPERTIES:
+:CREATED:  [2021-01-06]
+:ID:       8cb1437d64be207b6f711972d87fe50f
+:END:
+** TODO [#C] do not emit empty <tag> and nbsp??                         :org:
+:PROPERTIES:
+:CREATED:  [2021-01-03]
+:ID:       dedac1ccfff7bbc3f82628d8cf926c4c
+:END:
+** [#C] trying to use org-ql, but not sure if it's that good for tag cloud
+:PROPERTIES:
+:CREATED:  [2021-01-02]
+:ID:       ae82a1f638499d55a98ee63199b79f39
+:END:
+maybe useful for tag summaries?
+: '--directory', root_dir / 'src/org-ql',
+: '--directory', root_dir / 'src/ts.el',
+: '--directory', root_dir / 'src/peg',
+: '--eval', f'''
+: (progn
+: (message "%s" (org-ql "{input_dir}/memex.org" "memex"))
+: )
+: '''.strip(),
+** TODO [#C] scrolling org-mode into active in the sidebar
+:PROPERTIES:
+:CREATED:  [2021-01-02]
+:ID:       87fca664c9b4b147991cd267b1b511ed
+:END:
+from mdbook
+:     // Scroll sidebar to current active section
+:     var activeSection = document.getElementById("sidebar").querySelector(".active");
+:     if (activeSection) {
+:         // https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
+:         activeSection.scrollIntoView({ block: 'center' });
+:     }
+** TODO [#C] on tag click -- search over all tags
+:PROPERTIES:
+:CREATED:  [2020-03-29]
+:ID:       9f4bd17e4b970fa15e2c0e1b847a18ff
+:END:
+** TODO [#C] maybe group by tags? could even do it via orgparse
+:PROPERTIES:
+:CREATED:  [2019-12-22]
+:ID:       9e6b3cfea544ca6b5639a0caa517ec28
+:END:
+** TODO [#C] output links (at least the ones with tags) to pinboard?
+:PROPERTIES:
+:CREATED:  [2020-05-01]
+:ID:       c51286866fb66e3f83a65c0bec6e39b7
+:END:
+
+might need a two-step process for a proper diff
+** TODO [#C] not sure what to do about filetags?
+:PROPERTIES:
+:CREATED:  [2020-04-02]
+:ID:       d0ab8a355ab32ab6d35f0d7fa568b264
+:END:
+** TODO [#D] [2021-01-04] make public generated files read only?
+:PROPERTIES:
+:ID:       7e06e8e3756dd80b6b20ada8ac604e83
+:END:
+** TODO [#C] maybe generate TITLE, set to filename (so logseq doesn't stumble over it) :logseq:org:
+:PROPERTIES:
+:CREATED:  [2021-01-07]
+:ID:       ab447fb2747ba6a2a6e08b3b5de1ab3d
+:END:
+* [#B] * alternative ways to build it
+:PROPERTIES:
+:ID:       467e6907001d5d2797b7f16eec1b9ba8
+:END:
+** [#C] [2019-12-22] ok, ox-hugo generates some odd artifacts, perhaps would be easier with vanilla md export :blog:
+:PROPERTIES:
+:ID:       e9bac1f2ac17eb0f7cd76e9ba677a68a
+:END:
+** [#C] [2020-02-14] Building a Second Brain in Roam...And Why You Might Want To : RoamResearch https://www.reddit.com/r/RoamResearch/comments/eho7de/building_a_second_brain_in_roamand_why_you_might
+:PROPERTIES:
+:ID:       1c8916b79cfaa0be79b6c44b291865a6
+:END:
+** [#D] [2020-03-11] [[https://www.mkdocs.org/][MkDocs]]
+:PROPERTIES:
+:ID:       fa08b44717fea1ac5194ad7ee4b5db66
+:END:
+hmm, looks pretty nice. wonder if it's better than mdbook
+
+** DONE [#C] try publishing with dendron and publish in discord?
+:PROPERTIES:
+:CREATED:  [2020-11-05]
+:ID:       45df6a353822d8cd151cc06735e7d91f
+:END:
+*** [2021-01-16] it's very cool, but similar problems to mdbook -- if it's not mardown in the first plays, gonna be a lot of work to maintain org->md conversion, and nothing beats emacs
+:PROPERTIES:
+:ID:       b3fcfb6ddecb1331719c25bb67430cec
+:END:
+** DONE [#C] [2019-12-22] Markbook - A replacement for Gitbook/mdBook written in Node.js : javascript
+:PROPERTIES:
+:ID:       63fc9c4a706d06708548f1224e8c60b1
+:END:
+https://www.reddit.com/r/javascript/comments/b68k3v/markbook_a_replacement_for_gitbookmdbook_written/
+: I regarded Gitbook as a FOSS traitor, since it has all but abandoned it's open-source tool for a proprietary web app.
+*** [2020-03-06] it's a new project, not sure what's the benefit over mdbook
+:PROPERTIES:
+:ID:       22d2864a1dbf7d1359d7b14af12c462b
+:END:
+** TODO [#C] seems that github codespaces would be perfect for it?
+:PROPERTIES:
+:CREATED:  [2020-09-29]
+:ID:       ff16b3e8c35793b2299dccb4d2b9e3dd
+:END:
+I guess I need to get rid of the filter thing? not sure. Would be nice to commit directly into my notes
+** WAIT [#C] [2020-11-05] [[https://www.dendron.so/notes/c3800271-dd56-46fb-8de7-e850f3c006b7.html][Org Mode - Dendron]]
+:PROPERTIES:
+:ID:       1efa5db1c28e49cb9d5b6fb38d4714c1
+:END:
+** TODO [#C] export my stuff as notion database?
+:PROPERTIES:
+:CREATED:  [2020-05-13]
+:ID:       ce6f223ac40bec06be3dda7d01b6d48f
+:END:
+** CANCEL [#C] mdbook
+:PROPERTIES:
+:ID:       ef2802998cfa51ce8f3fa71743d87a6e
+:END:
+*** [#C] [2019-12-22] [[https://github.com/softprops/awesome-mdbook][softprops/awesome-mdbook: 🕶️🗃️ a card catalog of mdbooks for your reading curiosity]]
+:PROPERTIES:
+:ID:       e95525dd32a48a73cfe55aff139be8dc
+:END:
+*** TODO [#B] [2020-03-21] Configuration - mdBook Documentation
+:PROPERTIES:
+:ID:       19fdb37b89062dbc8d796d6b80a9a9de
+:END:
+https://rust-lang.github.io/mdBook/format/config.html
+: [output.html.search]
+: limit-results = 15
+*** TODO [#C] [2020-06-30] remove fontawesome
+:PROPERTIES:
+:ID:       3a03b13b5164145d4aa547226be876fa
+:END:
+*** TODO [#C] [2020-03-07] think about using mdbook watch on beepb00p
+:PROPERTIES:
+:ID:       45dd4b7e7bd7c85fc85b95209221bf54
+:END:
+
+* [#B] * potential features and inspiration
+:PROPERTIES:
+:ID:       8e7c3014dca95b2169d8bf784b66dede
+:END:
+** TODO [#B] [2020-01-25] [[https://mek.fyi/#qs][mek.fyi | Home]]      :blog:
+:PROPERTIES:
+:ID:       f033b263b5b0ef6388c15f862dad06c1
+:END:
+: (Right click green text to enter Mek's mind map.)
+
+huh, interesting experiment in presenting information
+
+** TODO [#B] split hunks by org outlines somehow?                   :git:org:
+:PROPERTIES:
+:CREATED:  [2020-03-29]
+:ID:       cd9bf421091754daa9487e9607d00a9e
+:END:
+
+** TODO [#B] maybe tag-based exporting? export/noexport tags for hieriarchies/whole files? let it be a mess with one huge page?
+:PROPERTIES:
+:CREATED:  [2019-12-04]
+:ID:       ef4a4e4e92718ad2f9d0b98f638f5e50
+:END:
+** TODO [#B] write a tool to analyse tags                       :tagging:pkm:
+:PROPERTIES:
+:CREATED:  [2020-06-08]
+:ID:       71e5568dd5d1230426d41fbc69605f8c
+:END:
+- the tags that are the most common, deserve pages
+- rest are okay to keep adhoc?
+- custom agendas for tags (top level only?)
+- search is really important..
+** TODO [#B] [2020-05-12] Tweet from @RobertHaisfield https://twitter.com/RobertHaisfield/status/1259990930917953537
+:PROPERTIES:
+:ID:       12b4d30b5a3ba72f816a777c1ae6538a
+:END:
+: @RobertHaisfield: @azlenelza I love how you differentiate external from internal links. Very frustrating in other digital gardens to accidentally leave
+** TODO [#B] graph view: need an ability to 'pin' certain nodes to improve graph rendering? :logseq:
+:PROPERTIES:
+:CREATED:  [2021-01-07]
+:ID:       79e3d69d6bf54ec3de3d4d8a76210f7d
+:END:
+** TODO [#C] add link to the source on each page??
+:PROPERTIES:
+:CREATED:  [2020-03-29]
+:ID:       820a90452080689c0e31b837723d812d
+:END:
+** TODO [#C] links to featured exobrain items?                         :blog:
+:PROPERTIES:
+:CREATED:  [2020-12-29]
+:ID:       0926e4626d97bb7f5a14e6e947e8a82c
+:END:
+** TODO [#C] instead of todo states, maybe color the first letter(s)?  :blog:
+:PROPERTIES:
+:CREATED:  [2020-12-28]
+:ID:       279dbe8c028ca5b2cb0de56c0db9d0a9
+:END:
+** TODO [#C] how to add redirects for moved stuff?                  :linkrot:
+:PROPERTIES:
+:CREATED:  [2020-03-29]
+:ID:       d1e3648b928dd3dc2a9f2702f75116ef
+:END:
+** TODO [#C] could expose cloudmacs instance??                    :cloudmacs:
+:PROPERTIES:
+:CREATED:  [2020-03-29]
+:ID:       eaac86350400ad705d2d4a1664255096
+:END:
+** TODO [#C] [2021-01-16] hmm not sure what to do about long and short titles (LOGSEQ_TITLE things). maybe it should be a toggle or something :logseq:
+:PROPERTIES:
+:ID:       e1f5307d02a42f47daf1613dfe76ec2c
+:END:
+
+** TODO [#C] build custom agendas? that way, easy to make tag views     :org:
+:PROPERTIES:
+:CREATED:  [2020-03-13]
+:ID:       101e546a7d38381b047d611e1afb2554
+:END:
+** TODO [#C] [2020-10-16] [[https://reddit.com/r/orgmode/comments/jc8lku/full_introduction_to_gkroam_up_to_version_v237_no/][Full introduction to Gkroam, up to version v2.3.7, no voice]] /r/orgmode
+:PROPERTIES:
+:ID:       53fadaac0f30dd2f18057e4cd267fe91
+:END:
+** TODO [#C] [2019-12-17] Notes - Gwern.net https://www.gwern.net/Notes :search:
+:PROPERTIES:
+:ID:       714e21abdcd5c272a5978ef766e95e8c
+:END:
+ask gwern if inability to search in collapsed notes bothers him?
+** TODO [#C] if I add wiki-style links, hide them by default, but show on some hotkey? :blog:
+:PROPERTIES:
+:CREATED:  [2021-01-04]
+:ID:       51311d6148d4469a55dff5f3a0ed7216
+:END:
+** TODO [#C] [2020-05-03] [[https://wiki.ramshandilya.com/][🔮Pensieve - Pensieve]]
+:PROPERTIES:
+:ID:       2b5c74138987eaf9446c0589732a4bb0
+:END:
+huh, emojis in TOC are quite nice actually?
+** TODO [#D] Tweet from @nikitavoloboev
+:PROPERTIES:
+:CREATED:  [2020-06-12]
+:ID:       a1bc5424d6702b9e1b84163fe4fe09b4
+:END:
+: https://twitter.com/nikitavoloboev/status/1271505869872803849
+: @nikitavoloboev: Put in my wiki in @obsdmd and it results in a neat graph of connections.
+
+** DONE [#A] Implement incremental search, backed by some indexer?   :search:
+:PROPERTIES:
+:CREATED:  [2019-07-13]
+:ID:       16642b85dfbdf8e6c7e0d0c4489ca0a9
+:END:
+
+
+* [#C] * other's exobrains
+:PROPERTIES:
+:ID:       7caefb91de9bd73bd97cb35986d1904a
+:END:
+** TODO [#A] [2020-08-06] [[https://commonplace.doubleloop.net/?stackedNotes=%2Fwikis.html][Home]] :org:
+:PROPERTIES:
+:ID:       38ddda25f7854a06f05cf6825c1f6ca6
+:END:
+*** [2020-08-25] ok, nice, using org-mode?  https://doubleloop.net/2020/08/21/how-publish-org-roam-wiki-org-publish/#more-7091
+:PROPERTIES:
+:ID:       2aea7c11da3e9aea4e9336ca4524fa94
+:END:
+
+** STRT [#B] [2020-02-21] [[https://news.ycombinator.com/item?id=22382094][Andy Matuschak's Public Notes]]
+:PROPERTIES:
+:ID:       6f91cbc0a27798424e9b092571dc8a7b
+:END:
+https://notes.andymatuschak.org/About_these_notes
+*** [2020-03-12] hmm, no notes? odd..
+:PROPERTIES:
+:ID:       9a98fb0f669350804fade1491df03616
+:END:
+** TODO [#B] [2020-08-20] [[https://wiki.thingsandstuff.org/Main_Page][Things and Stuff Wiki]]
+:PROPERTIES:
+:ID:       e93da01b9f8997c77c553521bf697507
+:END:
+: Things and Stuff Wiki - An organically evolving personal wiki knowledge base
+
+whoa, nice tag cloud on the top
+** STRT [#B] [2020-05-06] [[https://szymonkaliski.com/notes/][Notes ‒ Szymon Kaliski]] nice backlink summary
+:PROPERTIES:
+:ID:       50459cee07d821db69638c97b0f23a09
+:END:
+
+** TODO [#C] [2020-03-01] [[https://github.com/daryllxd/lifelong-learning][daryllxd/lifelong-learning: ✅ ✅ ✅ A massive repo filled with notes on everything from coding to philosophy to psychology to marketing to product]]
+:PROPERTIES:
+:ID:       42d888c7d14f1e0a4b92c5aced5ee5da
+:END:
+** TODO [#C] [2020-03-01] [[https://github.com/d2s/knowledge][d2s/knowledge: 2016→ — A curated list of Tools and Resources.]]
+:PROPERTIES:
+:ID:       fd503eff0ba102b56c1a6e02fe1995c5
+:END:
+** TODO [#C] [2020-03-05] [[https://tomcritchlow.com/wiki/][Tom Critchlow. Move. Think. Create.]]
+:PROPERTIES:
+:ID:       af4f25b76ccc633c0940ce7418fede11
+:END:
+*** [2020-04-08] tomcritchlow/tomcritchlow.github.io: Me. Learning to use Github and learning to live life. https://github.com/tomcritchlow/tomcritchlow.github.io
+:PROPERTIES:
+:ID:       11de3ff2d836daf2f98b152be4a28105
+:END:
+: Me. Learning to use Github and learning to live life. http://tomcritchlow.com
+** TODO [#C] [2020-04-02] [[https://github.com/davidseah/knowledgebank][davidseah/knowledgebank]]
+:PROPERTIES:
+:ID:       cdfe6a8bf6fd386802a3f619ef125475
+:END:
+
+** [#C] [2020-03-22] nice, they've got wiki.. https://wiki.mindey.com/
+:PROPERTIES:
+:ID:       33d245930750d6c8509114382ca59a54
+:END:
+also pretty cool, wiki links onto blog pages -- wonder if I should do it..
+
+** [#C] [2020-01-10] Show your personal websites | Lobsters https://lobste.rs/s/b7lt29/show_your_personal_websites :ideas:
+:PROPERTIES:
+:ID:       f0ec3d90c34b70fb8e516e2069c6fc7e
+:END:
+: My Idea wiki, First written in Erlang, but now in Nim. The Erlang version birthed a simplistic site style that I’ve used a lot in other web app projects. The wiki software behind this site also powers
+
+** TODO [#C] [2020-12-07] [[https://til.simonwillison.net/][Simon Willison: TIL]]
+:PROPERTIES:
+:ID:       9e4217b06e498758fda8d98a2381a9af
+:END:
+: Simon Willison: TIL
+** [#C] [2020-08-26] [[https://memo.barrucadu.co.uk/][barrucadu's memos]]
+:PROPERTIES:
+:ID:       597d856c3590bff2b2ce26d0b7610c90
+:END:
+looks nice..
+** [#C] [2020-05-12] [[https://szymonkaliski.com/notes][Notes ‒ Szymon Kaliski]]
+:PROPERTIES:
+:ID:       96b62cb97065b480acd109d5e0c06487
+:END:
+
+** STRT [#C] [2019-10-17] Jethro's Braindump  https://braindump.jethro.dev/
+:PROPERTIES:
+:ID:       67e77e2bef2a5e466e22a3462655a08e
+:END:
+: Here lies my exobrain, which started circa 2017. I study about Computer Science, but anything I find noteworthy goes in here. I try to cite as often as I can, but that practice only started recently.
+** [#C] [2019-12-02] wayanjimmy/notebook: Personal notes https://github.com/wayanjimmy/notebook
+:PROPERTIES:
+:ID:       67e77e21736060a49b017a27ccc7b067
+:END:
+
+** [#C] [2020-05-12] [[https://notes.azlen.me/g3tibyfv/][About these notes]] azlen
+:PROPERTIES:
+:ID:       153ddfe4df39ea4e2b43b00fcde4ba2d
+:END:
+
+** [#C] [2020-06-12] [[https://github.com/seanbreckenridge/exobrain][seanbreckenridge/exobrain: external brain]]
+:PROPERTIES:
+:ID:       3adce62911f51b9ed12fc40c730e2e14
+:END:
+** [#C] [2020-09-29] [[https://github.com/jakechv/wiki][jakechv/wiki: public wiki / knowledge base]]
+:PROPERTIES:
+:ID:       349fa463f082ef491e18a1d28247bda7
+:END:
+
+** TODO [#C] [2019-12-28] Personal Notes
+:PROPERTIES:
+:ID:       a76d9bfc5bb187e8725adf730607c2ef
+:END:
+https://wayanjimmy-notebook.netlify.com/introduction
+: This repository is my knowledge base. I'm using it to remember things and to let my mind interact with yours. Feel free to open issues and pull requests!
+** STRT [#C] [2020-01-13] Wiki workflow - Everything I know
+:PROPERTIES:
+:ID:       dd1785d33ca18a30bf5ef4da2ba4f093
+:END:
+https://wiki.nikitavoloboev.xyz/other/wiki-workflow#similar-wikis-i-liked
+: Similar wikis I liked
+*** TODO [#B] [2020-04-26] would be so damn cool to connect all of these in some sort of search engine? :search:agora:
+:PROPERTIES:
+:ID:       cf09a53b31d82fc9b4a96061a4983b0a
+:END:
+I'd rather have my search engine to look over these first** [#D] [2020-04-21] [[https://jibrankalia.com/knowledge/#exobrain][ExoBrain | Jibran Kalia]]
+
+** [#D] [2020-07-23] [[https://github.com/irosyadi/gitbook/blob/1a67afe0d1e20ef31052c3259096c3ec8f89e13b/irosyadi.github.io/app/exobrain_blog.md][gitbook/exobrain_blog.md at 1a67afe0d1e20ef31052c3259096c3ec8f89e13b · irosyadi/gitbook]]
+:PROPERTIES:
+:ID:       8f6a2ef5437092bddefd9a82af059e87
+:END:
+
+** DONE [#C] jethrokuan/braindump: knowledge repository managed with org-mode and org-roam.  https://github.com/jethrokuan/braindump
+:PROPERTIES:
+:CREATED:  [2020-02-16]
+:ID:       223dac93b38fc1bfc64afd9f90fe204c
+:END:
+
+* [#C] * content to add
+:PROPERTIES:
+:ID:       bb971accabe043d4001821caafcb5f0e
+:END:
+** TODO [#C] [2020-06-03] publish my subscriptions as org-mode    :rss:orger:
+:PROPERTIES:
+:ID:       a8453305da7ad45fc0d1bea8381c47b4
+:END:
+** DONE [#B] most 'imporant' tweets def make sense                  :twitter:
+:PROPERTIES:
+:CREATED:  [2019-11-21]
+:ID:       b7e6f57f1d07c6610e255d5facf37a32
+:END:
+you can't easily sort person's timeline even by objective metrics. let alone picking the tweets that more or less define you
+
+* [#C] * publicity
+:PROPERTIES:
+:ID:       8309fbb31a32bf4ac163fcc8c3db8302
+:END:
+** TODO publish on org-mode reddit maybe with some highlights        :outbox:
+:PROPERTIES:
+:CREATED:  [2021-01-02]
+:ID:       6a97f9dc7d657b89c9c0e079c51db645
+:END:
+** TODO [#C] about my simple search?                            :search:blog:
+:PROPERTIES:
+:CREATED:  [2021-01-03]
+:ID:       ca780b6ddab613e73ff5f1a513cfbfcf
+:END:
+** DONE [2020-12-31] ok, so lunr.js seems like the best alternative  :search:
+:PROPERTIES:
+:ID:       72b13527f1a99e89e14a5a7f5815687e
+:END:
+https://github.com/olivernn/lunr.js
+has (builtin?) highlights, and the linked example looks fairly simple. it still baffles me how hard it is
+* TODO [#B] think about integrating other people's exobrains? :social:extendedmind:
+:PROPERTIES:
+:CREATED:  [2020-03-12]
+:ID:       d5e13a15f77ff76927ed7bb9e42f4c50
+:END:
+** [2021-01-16] someone started thinking about it! https://anagora.org :agora:
+:PROPERTIES:
+:ID:       9da6a359c1cbf7a6443ae4ee58ed9be7
+:END:
+* TODO [#C] [2019-08-18] [[https://medium.com/dev-channel/how-to-add-full-text-search-to-your-website-4e9c80ce2bf4][How to add full text search to your website - Dev Channel - Medium]] :blog:search:
+:PROPERTIES:
+:ID:       da7c2bd66b8ff84f97281dc9facdf73c
+:END:
+
+* TODO [#C] update my-awesome-list occasionally                        :blog:
+:PROPERTIES:
+:CREATED:  [2018-11-23]
+:ID:       4d1fb7fb0e575ada70ae01b5d7cda4b7
+:END:
+https://github.com/karlicoss/my-awesome-list
+wonder if some sort of cat (or use references instead)
+mention bookmark archiver as smth that is used for checking url integrity?
+
+* [#C] [2020-03-06] [[https://github.com/rust-lang/mdBook][rust-lang/mdBook: Create book from markdown files. Like Gitbook but implemented in Rust]] :urlrot:
+:PROPERTIES:
+:ID:       efa678acd7a7a6e5ba4b5f44a841ae71
+:END:
+: linkcheck - a backend which will check that all links are valid
+* TODO [#C] [2019-12-07] The Sad State of Personal Knowledgebases | Hacker News https://news.ycombinator.com/item?id=10739227 :pkm:
+:PROPERTIES:
+:ID:       83c140d90044d12adcc62e034dfb5c98
+:END:
+** [2019-12-07] The Sad State of Personal Knowledgebases http://marcusvorwaller.com/blog/2015/12/14/personal-knowledgebases/
+:PROPERTIES:
+:ID:       2762bbbd999cf22c1e7621338f1f693b
+:END:
+
+* TODO [#C] [2020-05-17] Andy Matuschak on Twitter: "Software interfaces undervalue peripheral vision! (a thread) My physical space is full of subtle cues. Books I read or bought most recently are lying out. Papers are lying in stacks on my desk, roughly arranged by their relationships. https://t.co/ee7lo0mdLv" / Twitter :vr:think:
+:PROPERTIES:
+:ID:       5dea3162df6946fbb7b9008636ad4a03
+:END:
+https://mobile.twitter.com/andy_matuschak/status/1202663202997170176
+map my exobrain onto vr somehow?
+
+* [#D] [2020-03-22] https://merveilles.town/@maxdeviant/103863978808052366 pkm repo
+:PROPERTIES:
+:ID:       f544b175566da4d57dcfacdd7b8d7557
+:END:
+
+* TODO [#D] failed attempt to convert heading + link on the next line (after Grasp) into proper org-mode links :orgmode:
+:PROPERTIES:
+:CREATED:  [2020-04-04]
+:ID:       a5826e9512ad3f9f741a75e2b3335764
+:END:
+
+: (defun alala ()
+:   (interactive)
+:   (let ((res (om-parse-headline-at (point))))
+:     (edebug)
+:     (om-headline-set-title! "SUP" nil res)
+:     (message "%s %s" (point) res)))
+: 
+: ;; (om-headline-set-title! "SUP" nil res)
+
+I don't know wtf is wrong. I don't get how to extract title from the note. (om-get-property :title res) returns some irrelevant shit
+* related:                                                     :org:blog:pkm:
+:PROPERTIES:
+:ID:       46d0b656780ed5b7449b02396581e3d4
+:END:
