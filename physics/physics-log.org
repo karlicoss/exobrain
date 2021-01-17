@@ -28,15 +28,15 @@ It's unique! In the same way as quantum state is unique
 
 https://physics.stackexchange.com/questions/14932/why-do-we-not-have-spin-greater-than-2
 
-* TODO Tweet from John Carlos Baez (@johncarlosbaez), at Sep 3, 07:27 :complex:
+* TODO Tweet from John Carlos Baez (@johncarlosbaez), at Sep 3, 07:27
 :PROPERTIES:
 :CREATED:  [2018-09-03]
 :ID:       c6bf995d0a9848f6f34030d9b8735be2
 :END:
 
-The role of complex numbers is easy to see in the quantum description of a photon, but it's already lurking in the classical Maxwell equations.   The space of solutions of the vacuum Maxwell equations is a *complex* Hilbert space!   
+: The role of complex numbers is easy to see in the quantum description of a photon, but it's already lurking in the classical Maxwell equations.   The space of solutions of the vacuum Maxwell equations is a *complex* Hilbert space!
+: To learn more, try https://t.co/QDyXXFEBbN
 
-To learn more, try https://t.co/QDyXXFEBbN
 
 https://twitter.com/johncarlosbaez/status/1036455724996382721
 
@@ -49,8 +49,8 @@ https://mathoverflow.net/questions/51395/a-soft-introduction-to-physics-for-math
 :PROPERTIES:
 :ID:       247e60b5a746389ee2bebda58fe8bbd6
 :END:
-Another question: Why in general relativity E=mc2?
-Math Answer: Because the group of Poincaré has no cohomology
+: Another question: Why in general relativity E=mc2?
+: Math Answer: Because the group of Poincaré has no cohomology
 
 * [2019-01-07] classical mechanics - What if the Euler Lagrange equation yields a 'trivial' answer - Mathematics Stack Exchange :lagrangian:
 :PROPERTIES:

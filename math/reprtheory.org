@@ -680,19 +680,17 @@ I am a math student and I like seeing the narrative of math applied to physics. 
 
 I once read through the book "Solved Problems in Lagrangian and Hamiltonian Mechanics" by Gignoux & Silvestre-Brac, and it helped me see the non-pure side of the symplectic dynamics/variational calculus I was learning. I really liked this applied section in Georgi. I never saw these techniques in undergrad physics and I find it really cool. Do you know of any other sources that go through specific examples/calculation problems in physics and apply representation theory?
 
-* TODO . Wigner himself did a lot to improve the situation, writing a book entitled Group Theory and Its Application to the Quantum Mechanics of Atomic Spectra in 1931. It explained groups and representations in a language closer to that with which physicists were familiar. :kobo2org:
+* TODO . Wigner himself did a lot to improve the situation, writing a book entitled Group Theory and Its Application to the Quantum Mechanics of Atomic Spectra in 1931. It explained groups and representations in a language closer to that with which physicists were familiar.
 :PROPERTIES:
 :CREATED:  [2018-12-17]
 :ID:       fe90e6af53f130c7fafc9fda95d84d4d
 :END:
 
-. Wigner himself did a lot to improve the situation, writing a book entitled Group Theory and Its Application to the Quantum Mechanics of Atomic Spectra in 1931. It explained groups and representations in a language closer to that with which physicists were familiar.
- The
+: . Wigner himself did a lot to improve the situation, writing a book entitled Group Theory and Its Application to the Quantum Mechanics of Atomic Spectra in 1931. It explained groups and representations in a language closer to that with which physicists were familiar.
 
 * [#C] [2019-01-24] Short Introduction to and Motivation for Representation Theory – Jakob Schwichtenberg :reprtheory:
 :PROPERTIES:
 :ID:       42b236e6d8de9b96c5d401fb81188a6b
 :END:
 http://jakobschwichtenberg.com/short-introduction-motivation-representation-theory/
-Comment:
 well, ok it's really basic

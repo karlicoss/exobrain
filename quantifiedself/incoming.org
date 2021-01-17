@@ -1,4 +1,7 @@
 #+TITLE: 
+#+logseq_graph: false
+#+filetags: qs
+
 * [#B] [2020-02-17] [[https://reddit.com/r/QuantifiedSelf/comments/f5by1t/my_12year_journey_to_logging_my_life/][My 12-year journey to logging my life!]] /r/QuantifiedSelf
 :PROPERTIES:
 :ID:       caf7d8bbf36e2e13718c89e7109266d1

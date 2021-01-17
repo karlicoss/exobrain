@@ -94,7 +94,7 @@ http://www.dirac.ch/PaulDirac.html
 :  Now the speed of the electrons themselves is more interesting (I think). I once calculated this and I'll do it again for fun. Let's take a simple DC circuit:
 :  3 volt power source, 3 ohm resistor giving 1A of current. Lets take 18 awg copper wires with a cross section surface of 0.823mm^2 according to [this](http://www.technick.net/public/code/cp_dpage.php?aiocp_dp=guide_awg_to_metric). The length of the wires we'll define as L meter, as you'll see it doesn't matter which L we pick as long as we ignore the resistance it brings.
 :  The volume of the wire is 0.823mm^2 * L meter = 0.823 10^-6 * L m^3. The density of the wire is (from Wikipedia) 8.96 g * cm^-3  = 8960 kg * m^-3. Multiply those numbers and we'll get the weight of the wire, which is 7.374 * L * 10^-3 kg. I searched for the number of free electrons every copper atom has, and a google search returns 1. So now we need the number of atoms in those wires. 7.347 * L g / (63.546 g / mol) * 6.022 * 10^23 / mol = 6.988 * 10^22 L. That's the number of free electrons in the wires. 1A is 1C / s = 6.241 * 10^18 electrons per second. That's the number of electrons that flow into the wire and out the other end every second. Divide 6.988 * 10^22 L with 6.241 * 10^18 / s and you'll get 11197 * L s. That's the number of seconds any electron stays in the wires before leaving the other end. Divide the length by this time and you'll get the speed: speed = L meters (as the length of the wires were L) / (11197Ls) = 8.93 × 10^-5 m / s. That's not very fast. It would take over 3 hours to travel through a 1 meter wire. Hope I got all the numbers right :S
-* [#B] [2019-01-20] The Standard Model – The Physics Hypertextbook       :sm:
+* [#B] [2019-01-20] The Standard Model – The Physics Hypertextbook :relativity:
 :PROPERTIES:
 :ID:       9f545a021f0a783b036080b2e21db6cf
 :END:
@@ -1323,7 +1323,7 @@ this isn't
 : The simplest way to block specific IP address or ranges of them would be to set up a basic firewall using UFW. It is included with Ubuntu by default.
 : You can then block a specific IP address by running:
 :     sudo ufw deny from XXX.XXX.XX.XX
-* TODO . The gun didn't go off. It simply disappeared in a brilliant flash of blue light, :kobo2org:
+* TODO . The gun didn't go off. It simply disappeared in a brilliant flash of blue light,
 :PROPERTIES:
 :CREATED:  [2019-07-06]
 :ID:       f047a7b1018cbe985c00d2db1ac41971
@@ -1906,9 +1906,9 @@ https://blog.webb.page/
 https://blog.webb.page/2016/it-begins
 : thought about porting the posts from my previous blog, but I'd rather start fresh. After all, after the tumultuous year that was 2016, I think we could all use a fresh start.
 
-* [#D] [2019-12-07] Still alive? · Issue #25 · machinalis/mypy-data :mypy:numpy:
+* [#D] [2019-12-07] Still alive? · Issue 25 · machinalis/mypy-data :mypy:numpy:
 :PROPERTIES:
-:ID:       5f5fa41caf94744897fbd6ee73dea08a
+:ID:       cdd740287ec67e85ed5faca039cb3253
 :END:
 https://github.com/machinalis/mypy-data/issues/25
 
@@ -2027,3 +2027,8 @@ https://stackoverflow.com/questions/27907373/dynamically-change-slots-in-python-
 : Why does it need a metric ton of permissions? To everything - data, history, notifications etc.
 
 literate permissions?
+* TODO hmm, how would forces work inside the even horizon if the force carriers can't go backwards? :quantum:
+:PROPERTIES:
+:CREATED:  [2021-01-17]
+:ID:       cf84490063a34d811c706e0fe98e4c48
+:END:

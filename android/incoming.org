@@ -1,4 +1,6 @@
 #+TITLE: 
+#+logseq_graph: false
+
 * [#B] [2020-02-27] [[https://reddit.com/r/fossdroid/comments/faezd9/termux_for_what_are_you_using_it/][Termux: For what are you using it?]] /r/fossdroid
 :PROPERTIES:
 :ID:       84c951fae58d798e4fda6531f58fb879

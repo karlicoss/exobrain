@@ -1,5 +1,6 @@
 #+TITLE: Games theory
-#+filetags: :gamestheory:math:
+#+logseq_title: gamestheory
+#+filetags: :gamestheory:
 
 
 * [2016-07-30] [[http://mathworld.wolfram.com/ConwayGame.html][Conway games]]
@@ -57,3 +58,9 @@ ical form depends on two types of simplification:
 
 G is said to be in canonical form if it has no dominated options or reversible moves. If G and H are both in canonical
  form, they both have the same sets of left and right options and so are equal.
+
+
+* related                                                              :math:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:

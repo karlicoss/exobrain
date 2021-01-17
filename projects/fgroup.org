@@ -1,5 +1,5 @@
 #+TITLE: Vizualizing fundamental group
-#+filetags: topology
+#+filetags: :autopology:
 
 
 https://en.wikipedia.org/wiki/Computational_topology
@@ -80,7 +80,7 @@ pretty inefficient, should rewrite in rust for finer control. also, make multith
 :ID:       f59eeecb914e322a7fe2f693b1778359
 :END:
 
-* related                                                               :viz:
+* related                                                      :topology:viz:
 :PROPERTIES:
 :ID:       90ed4512c954aea887dcc288ffc3f367
 :END:
