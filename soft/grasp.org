@@ -88,13 +88,11 @@ Would be good to have preview of what's gonna be added to server I guess. Maybe 
 :PROPERTIES:
 :ID:       80306f395d07651a018d2d12d572324e
 :END:
-https://mail.google.com/mail/u/0/#inbox/FMfcgxwBVgvsBcSrXTBhBcwbMDTwfwpj
-Selection:
-It would be convenient to have Org Capture context menu so that user would:
-
-select text to capture
-press right mouse button
-and the action is right here, under the cursor
+: It would be convenient to have Org Capture context menu so that user would:
+: 
+:     select text to capture
+:     press right mouse button
+:     and the action is right here, under the cursor
 * [#C] [2019-11-21] 🔎Julia Evans🔍 on Twitter: "thinking about what makes programming exercises good. So far I have: * I can easily see how it relates to my life * I learn something new * I can do the exercise in less than 3 hours * No complicated setup required" / Twitter
 :PROPERTIES:
 :ID:       36b47a1eff7af8ff936e9fbebdb86169

@@ -102,10 +102,10 @@ aliases for graph view
 :CREATED:  [2021-01-09]
 :ID:       7a6db2db5eb468f2e4edf39ecda3ef13
 :END:
-** TODO ignore tags: read watch inspiration ? maybe even study? they result in too many connections
+** TODO ignore tags: read watch inspiration motivation buy outbox ? maybe even study? they result in too many connections
 :PROPERTIES:
 :CREATED:  [2021-01-17]
-:ID:       74e3b432a5090c89ac6aa06790bed88f
+:ID:       abd3039ac947b43baaf359a30fb07352
 :END:
 maybe they are more like attributes.. or tiny dots around tag, each of dots represents a task. dunno
 * Orgzly                                                             :orgzly:

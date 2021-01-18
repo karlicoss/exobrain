@@ -715,15 +715,15 @@ hmm. if I decorate function with list constructor, I can get both ease of use an
 :ID:       e59bd11d31aa392e9b1ad603c7faa258
 :END:
 : 2020 code, no additional packages required, Python 3
-* TODO [#B] [2020-02-16] Direct URL PEP 508 support and installing sub-dependencies from Git · Issue #5566 · pypa/pip :pip:
+* TODO [#B] [2020-02-16] Direct URL PEP 508 support and installing sub-dependencies from Git · Issue 5566 · pypa/pip :pip:
 :PROPERTIES:
-:ID:       0ca99a570a7f75df214bb0a8cb97fb50
+:ID:       e51072cb436625c6f85cec7077bce6c8
 :END:
 https://github.com/pypa/pip/issues/5566#issuecomment-402417467
 : We disabled the ability to use PEP 508 URL requirements in dependencies, since we don't want that a package installed from PyPI to result in the pip reaching out to an arbitary web URL. Basically, pip install spam should not make pip reach out to anything except PyPI.
-* [#B] [2020-02-16] Allow direct urls in install_requires · Issue #6301 · pypa/pip :python:
+* [#B] [2020-02-16] Allow direct urls in install_requires · Issue 6301 · pypa/pip :python:
 :PROPERTIES:
-:ID:       4b74e5ec39856bcfb7d38a2e9d07c1db
+:ID:       3ae75325169f6ed1b612e7e732dbbf01
 :END:
 https://github.com/pypa/pip/issues/6301
 : ugh. so I can't have URL dependencies if it's meant to be on pypi???
@@ -774,9 +774,9 @@ https://pypi.org/project/backoff/
 : Now everything is the way we wanted, with Pipenv many times faced issues that the project worked with requirements.txt but not in Pipenv. Didn’t have this issue moving to poetry yet.
 : Also with emacs support and automated deployment tools the predictability of poetry made our team easy to work with and publish Python application modules.
 
-* [#D] [2019-12-15] Support automatic versioning setuptools_scm-style? · Issue #140 · python-poetry/poetry
+* [#D] [2019-12-15] Support automatic versioning setuptools_scm-style? · Issue 140 · python-poetry/poetry
 :PROPERTIES:
-:ID:       fd3c329beb2d10443e6fc9d76bdd3994
+:ID:       cf2470022f50a825ccfb7e3b1b4d40a2
 :END:
 https://github.com/python-poetry/poetry/issues/140
 : right, poetry can't infer version...

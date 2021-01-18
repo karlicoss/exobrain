@@ -106,7 +106,7 @@ Usecases:
 - public computers where you can't or don't want to install emacs
 - demonstrating emacs packages?
 
-* DONE If I dockerize it, could post about it...      :blog:emacs:selfhosted:
+* DONE If I dockerize it, could post about it...                 :blog:emacs:
 :PROPERTIES:
 :CREATED:  [2019-09-06]
 :ID:       542d54feb79ccb257588657720fb8518
@@ -136,7 +136,6 @@ Think about mobile though
 :PROPERTIES:
 :ID:       9f552a1f58af7323dae59b10ba3b9156
 :END:
-https://mail.google.com/mail/u/0/#inbox/FMfcgxwDrHqTsqXpBTxDRhMCttHhVcJK
 : Noticed one of your todos suggested building emacs without GUI as a way to reduce the docker layer.
 : Below are the instructions on how to configure and build emacs from source without images and X features
 

@@ -3474,7 +3474,7 @@ bend a cylinder as you would do for torus. then you need to match the circles, b
 :PROPERTIES:
 :ID:       09b408f8e4dda04833ddc7e589b07952
 :END:
-* TODO [#D] Tweet from John Carlos Baez (@johncarlosbaez), at May 12, 17:51 :passistant:baez:
+* TODO [#D] Tweet from John Carlos Baez (@johncarlosbaez), at May 12, 17:51 :baez:
 :PROPERTIES:
 :CREATED:  [2019-05-12]
 :ID:       67677029dcac8af558cf975e935c9aff

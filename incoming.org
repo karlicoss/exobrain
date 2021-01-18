@@ -833,7 +833,7 @@ https://github.com/RichardLitt/meta-knowledge
 : There’s an example there of how the ideas might work in a tutorial setting.
 : After I gave a talk on this work, one of the people in the audience tried it with the Haskell LLVM tutorial: https://lukelau.me/kaleidoscope/
 
-* TODO [#C] real life > videogames                                  :me:blog:
+* TODO [#C] real life > videogames                                :self:blog:
 :PROPERTIES:
 :CREATED:  [2020-05-13]
 :ID:       87169ea4b2e54c25b22aface4a06cb38
@@ -862,9 +862,9 @@ https://www.reddit.com/r/askreddit/comments/ba89s2/_/
 :ID:       f41dab6384dcc3c9060ba63a6844c72f
 :END:
 : A cleaner approach to regular expressions in Emacs, as most package maintainers will tell you, is to use the rx library instead. rx translates regular expressions in sexp form to a regexp string:
-* TODO [#C] [2020-05-18] [[https://github.com/MatthieuBizien/roam-to-git/issues/4][Suggestion: use Github actions to execute backup & commit changes to the repository · Issue #4 · MatthieuBizien/roam-to-git]] :hpi:promnesia:
+* TODO [#C] [2020-05-18] [[https://github.com/MatthieuBizien/roam-to-git/issues/4][Suggestion: use Github actions to execute backup & commit changes to the repository · Issue 4 · MatthieuBizien/roam-to-git]] :hpi:promnesia:
 :PROPERTIES:
-:ID:       0ad5b46c75682890e244d0f2049abfb1
+:ID:       69057faadb674991fe2c7a9faa836c0d
 :END:
 : schedule:
 : - cron: "*/10 * * * *"
