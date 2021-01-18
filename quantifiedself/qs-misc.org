@@ -453,7 +453,7 @@ https://news.ycombinator.com/item?id=3680735
 :ID:       debcdd6ad349f3128becc34b142c5619
 :END:
 https://mailchi.mp/5ece1f538885/quantified-bob-updates-hacking-jet-lag-holiday-wellness-tech-deals-more-2487133?e=458b1c350e
-* TODO [#C] [2020-04-30] [[https://twitter.com/i/status/1255933142571065346][(2) Sergey Stavisky on Twitter: "@alexeyguzey Curious if you exercised during the experiment and noticed an effect there? I find that even with just a couple hours less than my usual (~7.5), cardio exertion feels harder and my running is slower." / Twitter]] ::qs:
+* TODO [#C] [2020-04-30] [[https://twitter.com/i/status/1255933142571065346][(2) Sergey Stavisky on Twitter: "@alexeyguzey Curious if you exercised during the experiment and noticed an effect there? I find that even with just a couple hours less than my usual (~7.5), cardio exertion feels harder and my running is slower." / Twitter]] :qs:
 :PROPERTIES:
 :ID:       f2ded938ce75c34a2fc1adedd72d0a8e
 :END:
@@ -908,7 +908,7 @@ https://www.bestonlinereviews.com/dna-testing/ancestry-dna-test-vs-23andme-vs-my
 :END:
 https://pinboard.in/u:nhaliday/b:51addc9d5f81
 : Fitness trackers accurately measure heart rate but not calories burned
-* TODO [#D] plot some diagram for amount of my done/archived tasks?  :org:qs:
+* TODO [#D] plot some diagram for amount of my done/archived tasks? :org:self:qs:
 :PROPERTIES:
 :CREATED:  [2020-03-28]
 :ID:       c6543d91450df2ec7b672882c0ecfa66

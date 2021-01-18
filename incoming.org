@@ -491,14 +491,13 @@ http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-dupl
 :ID:       957d177328c0a22f519fd24c27f05f20
 :END:
 : We implemented it progressively. At first I added it as a make target but didn't make it mandatory in CI so I could learn how to use it. Then I made it mandatory for a few files that I was the only active contributor to. Then I slowly added more and more files across the project, sometimes as I touched them for other reason and other times as independent changes. Eventually as mypy caught more and more bugs in other contributor's changes they started getting on board and adding type hints as well, until the vast majority of the project was hinted (we'll be getting to 100% within a few weeks).
-* [#C] [2020-01-01] Pavel Fatin » Blog Archive » Typing with pleasure - Blog about human and technology :latency:inspiration:analysis:
+* [#C] [2020-01-01] Pavel Fatin » Blog Archive » Typing with pleasure - Blog about human and technology :latency:inspiration:
 :PROPERTIES:
 :ID:       d72efb4e533174d504a37134c9044d7b
 :END:
 https://pavelfatin.com/typing-with-pleasure/
-- Comment:
-: Amazing in-depth analysis of keyboard typing latency
-: could also benchmark org-mode with the tool they mentioned
+Amazing in-depth analysis of keyboard typing latency
+could also benchmark org-mode with the tool they mentioned
 * [#C] Uncertaincy principle nice video                         :quantum:viz:
 :PROPERTIES:
 :CREATED:  [2018-10-08]
@@ -1642,9 +1641,9 @@ This also means that a developing embryo is most sensitive to radiation during t
 :END:
 https://www.cs.tufts.edu/~nr/noweb
 : Noweb — A Simple, Extensible Tool for Literate Programming
-* [#C] [2019-10-01] Multiple tools · Issue #32 · d-cook/SomethingNew
+* [#C] [2019-10-01] Multiple tools · Issue 32 · d-cook/SomethingNew
 :PROPERTIES:
-:ID:       537d07d1d714f4c377a8e1fe35dbb54b
+:ID:       ad8ee92b49ce07c390659763b159f646
 :END:
 https://github.com/d-cook/SomethingNew/issues/32
 : Chris Granger (creator of Eve) presents and interesting point about creating multiple tools instead of one general purpose one: http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/#fn2
@@ -2031,4 +2030,12 @@ literate permissions?
 :PROPERTIES:
 :CREATED:  [2021-01-17]
 :ID:       cf84490063a34d811c706e0fe98e4c48
+:END:
+* [2017-11-30] post's problem: intermediate computability     :computability:
+:PROPERTIES:
+:ID:       f76e3fb094a1c049ed7c86298a4b5e09
+:END:
+* TODO [2018-06-10] hackers guide to NN https://karpathy.github.io/neuralnets :nn:
+:PROPERTIES:
+:ID:       c172c334e8426564c3582f5d321d3208
 :END:

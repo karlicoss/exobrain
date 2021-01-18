@@ -4,6 +4,10 @@
  :page-name-order "file"
  :all-pages-public? true
  :feature/enable-journals? false
+ :suppressed-tags ["watch", "read", "buy",
+                   "motivation", "inspiration",
+                   "outbox", "tweet"]
+ ;; TODO study as well?
 
  :project {
            ;; Selected public notes can be published to https://logseq.com/your-project-or-your-username.

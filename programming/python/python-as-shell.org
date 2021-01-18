@@ -1,5 +1,4 @@
 #+TITLE: Python as a system shell
-#+filetags: :shell:python:
 
 * CNCL xonsh                                                          :xonsh:
 :PROPERTIES:
@@ -75,3 +74,9 @@ http://www.jperla.com/blog/post/a-clean-python-shell-script
 
   from filecmp import cmp
 #+end_src
+
+
+* related                                                      :python:shell:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:

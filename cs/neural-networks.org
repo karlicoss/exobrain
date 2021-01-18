@@ -1,5 +1,0 @@
-#+TITLE: 
-* TODO [2018-06-10] hackers guide to NN https://karpathy.github.io/neuralnets
-:PROPERTIES:
-:ID:       c172c334e8426564c3582f5d321d3208
-:END:

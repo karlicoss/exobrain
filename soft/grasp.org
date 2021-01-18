@@ -35,9 +35,9 @@ next time you want to order something you don't need to go throught all the book
 :ID:       a10d922b1d9c8317a141ecb49f6367ed
 :END:
 
-* TODO [#B] [2019-12-21] Idea: HTTP server in Emacs · Issue #28 · karlicoss/grasp https://github.com/karlicoss/grasp/issues/28
+* TODO [#B] [2019-12-21] Idea: HTTP server in Emacs · Issue 28 · karlicoss/grasp https://github.com/karlicoss/grasp/issues/28
 :PROPERTIES:
-:ID:       74b2fb9f8e1db217284edc356a55d7bf
+:ID:       e4ad78cc751f2c8019b4a27aec47b57d
 :END:
 : Ah, gotcha. Sorry for misunderstanding! Appreciate the ideas, I just interpreted it as if you were trying to use this and were asking for features :)
 : Thanks for the questions, they'll help me to update readme to make the aim and scope clearer.

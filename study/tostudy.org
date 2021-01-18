@@ -1129,7 +1129,7 @@ https://en.wikipedia.org/wiki/SnapPea
 :ID:       0c2ee6ab4a79aab7f86da3488dc88933
 :END:
 
-* TODO [#C] I first saw this kind of explanation in Steve Vickers' Topology via Logic, which is an excellent little book :study:topology:book:
+* TODO [#C] I first saw this kind of explanation in Steve Vickers' Topology via Logic, which is an excellent little book :study:topology:
 :PROPERTIES:
 :CREATED:  [2018-10-15]
 :ID:       268d803edc5a708ee61ef1674b3a10a5
@@ -1432,25 +1432,25 @@ ok, this is kind of on the right track
 :END:
 chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://www.iphc.cnrs.fr/IMG/pdf/radiation.pdf
 ok, at least here they are treating variations with asymptotic terms...
-* [#C] Yoneda
+* [#C] Yoneda                                                        :yoneda:
 :PROPERTIES:
 :ID:       3222c91771d5bcba93c33bcee7692301
 :END:
-** TODO [#C] [2018-07-31] Soham Chowdhury on Twitter: "Vakil (in his book, or perhaps on MO) likens the Yoneda lemma to a particle accelerator, in that if you know how a particle reacts to being smashed into by other particles, you know everything about it… https://t.co/jtdQupZoGH" :yoneda:
+** TODO [#C] [2018-07-31] Soham Chowdhury on Twitter: "Vakil (in his book, or perhaps on MO) likens the Yoneda lemma to a particle accelerator, in that if you know how a particle reacts to being smashed into by other particles, you know everything about it… https://t.co/jtdQupZoGH"
 :PROPERTIES:
 :ID:       b57d0add54332c1d219e57a6b50d4fd3
 :END:
 https://twitter.com/mrkgrnao/status/979353398225993728
-Vakil (in his book, or perhaps on MO) likens the Yoneda lemma to a particle accelerator, in that if you know how a particle reacts to being smashed into by other particles, you know everything about it
+:   Vakil (in his book, or perhaps on MO) likens the Yoneda lemma to a particle accelerator, in that if you know how a particle reacts to being smashed into by other particles, you know everything about it
 
-** [#B] [2018-07-31] From the Yoneda lemma to categorical physics    :yoneda:
+** [#B] [2018-07-31] From the Yoneda lemma to categorical physics
 :PROPERTIES:
 :ID:       e163c591cda8cc354074df1a87038662
 :END:
 https://www.classe.cornell.edu/spr/1999-09/msg0017972.html
-** [#B] [2018-08-08] 🇪🇸🇵🇹_jack on Twitter: "#Yoneda #Haskell #HaskellPDF https://t.co/pDxtz6a40I… "
+** [#B] [2018-08-08] 🇪🇸🇵🇹_jack on Twitter: Yoneda
 :PROPERTIES:
-:ID:       b360c8c3e563d106c615fc9a77efa053
+:ID:       7afbd3f5ab72a28bfcca8bfad2655af2
 :END:
 https://twitter.com/Iceland_jack/status/1018229009786826752
 ** [#B] [2018-08-08] Understanding Yoneda |   Bartosz Milewski's Programming Cafe
@@ -1771,14 +1771,14 @@ https://www.fast.ai/
 :ID:       a6fb40e1e16ff2f53ccbd9195ecd4000
 :END:
 
-* START [#C] [2019-02-11] The Picture Book of Quantum Mechanics: Siegmund Brandt, Hans Dieter Dahmen: 9781461439509: Amazon.com: Books :book:quantum:
+* START [#C] [2019-02-11] The Picture Book of Quantum Mechanics: Siegmund Brandt, Hans Dieter Dahmen: 9781461439509: Amazon.com: Books :quantum:
 :PROPERTIES:
 :ID:       867ffca78d6fbe5ae38b242c67f1b687
 :END:
 - State "START"      from              [2019-02-27]
 https://www.amazon.com/Picture-Book-Quantum-Mechanics/dp/1461439507
 
-* START [#C] [2018-11-15] The Geometry of Physics: An Introduction: Amazon.co.uk: Theodore Frankel: 9781107602601: Books :book:
+* START [#C] [2018-11-15] The Geometry of Physics: An Introduction: Amazon.co.uk: Theodore Frankel: 9781107602601: Books
 :PROPERTIES:
 :ID:       7a440de910758b84082e138dfbc8301f
 :END:
@@ -2353,7 +2353,7 @@ https://twitter.com/nntaleb/status/1250286202877440007
 
 @nntaleb: Witness here how salaried physicists are dismissing @stephen_wolfram Wolfram's automata BEFORE even hearing him
 Just as Freeman Dyson publicly dismissed *A New Kind of Science* c. 2002;  it turned out that he did not read the book. & pple who refused to read it referred to Dyson! twitter.com/jimalkhalili/statu...
-* TODO [#C] New spaces in mathematics and physics https://ncatlab.org/nlab/show/New+Spaces+for+Mathematics+and+Physics :book:
+* TODO [#C] New spaces in mathematics and physics https://ncatlab.org/nlab/show/New+Spaces+for+Mathematics+and+Physics
 :PROPERTIES:
 :CREATED:  [2019-04-15]
 :ID:       513722d2df4d41524fff64f810ee7d68
@@ -3566,7 +3566,7 @@ https://notgnoshi.github.io/product-spaces/
 :END:
 https://twitter.com/johncarlosbaez/status/1144662487356231680
 : Fong and Spivak's book on applied category theory is coming out! I'm getting my copy in the mail soon! (cont)
-* [#D] [2018-11-29] Mathematical Methods of Classical Mechanics (Graduate Texts in Mathematics, Vol. 60): V. I. Arnold, A. Weinstein, K. Vogtmann: 9780387968902: Amazon.com: Books :book:math:physics:
+* [#D] [2018-11-29] Mathematical Methods of Classical Mechanics (Graduate Texts in Mathematics, Vol. 60): V. I. Arnold, A. Weinstein, K. Vogtmann: 9780387968902: Amazon.com: Books :math:physics:
 :PROPERTIES:
 :ID:       e3901842606926001d8a4298d0b9386b
 :END:
@@ -3587,10 +3587,10 @@ https://www.amazon.com/Mathematical-Classical-Mechanics-Graduate-Mathematics/dp/
 
 https://twitter.com/jamportz/status/1080607132750360576
 
-* TODO [#D] Sam Walters ☕️ on Twitter: "My #Einstein paper is posted on #arXiv. (It resulted from my #Math-#Physics Symposium talk.) https://t.co/b7qp6baxIJ… "
+* TODO [#D] Sam Walters ☕️ on Twitter: "My Einstein paper is posted on arXiv. (It resulted from my Math-Physics Symposium talk.) https://t.co/b7qp6baxIJ… "
 :PROPERTIES:
 :CREATED:  [2019-02-28]
-:ID:       e8d4e50593477578ae62e81031f93e32
+:ID:       e6d0530ae50521d80efc83e550569f21
 :END:
 
 https://twitter.com/SamuelGWalters/status/767888754543505408
