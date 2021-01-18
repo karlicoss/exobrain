@@ -119,7 +119,7 @@ figure out something mine?
 - 'eye sleepiness'
 - weird stomach sensations
 - weird head pulsations?
-* STRT [#D] [2020-01-06] Processing one-line journal entries for personal tracking (quantified self) : LanguageTechnology :qs:workout:
+* STRT [#D] [2020-01-06] Processing one-line journal entries for personal tracking (quantified self) : LanguageTechnology :qs:exercise:
 :PROPERTIES:
 :ID:       3a22677c3c7fb4f6c52ec1e73e9c0167
 :END:
@@ -503,7 +503,7 @@ https://www.intelrealsense.com/lidar-camera-l515/
 :END:
 http://quantifiedself.com/quantified-mind/
 : here was no single formula but one principle that comes up a lot is to change the difficulty of the test dynamically based on the user’s accuracy, to reach a steady state of some fixed accuracy, and apply Bayesian estimation to the parameters of interest. For example, in Digit Span we estimate the level in which the user would get exactly 50% of the trials correct. The reason that our verbal learning test doesn’t use a fixed number of items is that some people would find 10 items too hard and others would find 30 too easy, so any fixed number would waste a lot of their time testing them at an inappropriate level.
-* TODO [#C] Think how to evaluate hiit vs long endurance         :workout:qs:
+* TODO [#C] Think how to evaluate hiit vs long endurance        :exercise:qs:
 :PROPERTIES:
 :CREATED:  [2019-09-20]
 :ID:       ea298fc07f2dbeabf7cb026721b09743
@@ -738,7 +738,7 @@ http://ilbonte.github.io/rescuetime-again/
 :ID:       9a09aeb3e7524def1fcccaeffbf534b1
 :END:
 
-* [#D] [2018-06-30] wger Workout Manager - Features                 :workout:
+* [#D] [2018-06-30] wger Workout Manager - Features                :exercise:
 :PROPERTIES:
 :ID:       20462c34e5f07b098f15e56f6d54ce0b
 :END:
@@ -897,7 +897,7 @@ https://www.bestonlinereviews.com/dna-testing/ancestry-dna-test-vs-23andme-vs-my
 : Endomondo uses an equation that is a curve fit from data found in the paper "Prediction of energy expenditure from heart rate monitoring during submaximal exercise."  If you read the paper, they use heart rate, gender, age, and weight to calculate energy expenditure, and the correlation coefficients are...OK.
 : Make sure that your weight, age and gender are accurate.  That should eliminate any vast variability in the equation.  At that point, if your HR is still way off what you would think is normal, it could be that you are one of the outlying points in their curve fit and that it'll never be that accurate.  100 ca/mile is a pretty solid average for easy exercise.  If you are running super hard, it could be more.
 : If you can upload your data to a Garmin account, they use 'FirstBeat' which DCRainmaker claims is accurate within about 10%, and you may be able to get a more accurate approximation there.
-* TODO [#D] track in python, but make a commit hook?                :workout:
+* TODO [#D] track in python, but make a commit hook?               :exercise:
 :PROPERTIES:
 :CREATED:  [2019-08-15]
 :ID:       ff43847ca7cbf4f147cc94f3ec6f203b
@@ -1195,7 +1195,7 @@ shit, no way I would be able to evaluate it from 0 to 20
 :END:
 http://www.markwk.com/2018/01/limits-to-mood-tracking.html
 
-* TODO outliers could be indicated on plots as arrows on the edge or something :vis:
+* TODO outliers could be indicated on plots as arrows on the edge or something :viz:
 :PROPERTIES:
 :CREATED:  [2019-07-22]
 :ID:       3bbb58622089d7e42c4a9b4930d332f7
@@ -1730,4 +1730,9 @@ it detected sleep while I was still awake and reading?? what the actual fuck???
 :PROPERTIES:
 :CREATED:  [2020-12-24]
 :ID:       b915ac5dedd255bd7721257e7b25fd3c
+:END:
+* TODO approximate sleep in periods when I was missing it via rescuetime/arbtt stats... also compute the discrepancies :rescuetime:arbtt:sleep:
+:PROPERTIES:
+:CREATED:  [2021-01-18]
+:ID:       1d73cf8bcb4b8c0a41cf5d5e818a2fd2
 :END:

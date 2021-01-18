@@ -75,7 +75,7 @@ whoa, the best motivation for Dirac equation I've seen so far
 :ID:       6a51a7933206cb17dfb58dbb68476e72
 :END:
 https://arxiv.org/abs/1001.1778
-* START [#B] [2019-01-24] A Visual Introduction to Differential Forms and Calculus on Manifolds | Jon Pierre Fortney | Springer :polar:difform:manifold:vis:
+* START [#B] [2019-01-24] A Visual Introduction to Differential Forms and Calculus on Manifolds | Jon Pierre Fortney | Springer :difform:manifold:viz:
 :PROPERTIES:
 :ID:       0badd26e4a1b9145105027239e5a0c25
 :END:
@@ -411,7 +411,7 @@ https://www.ippp.dur.ac.uk/~krauss/Lectures/QuarksLeptons/QED/QEDLagrangian_4.ht
 :END:
 http://www.scholarpedia.org/article/Gauge_invariance
 
-* TODO [#B] [2019-06-20] Jacopo Bertolotti on Twitter: "I am not satisfied yet, but this is my spin rotating around the x-axis, with the color representing the phase term common to both components of the spinor (which shows that you need two rounds to go back to the original state). I will work more on it in the next days.… https://t.co/ji4cYUNRu8" :spinor:vis:
+* TODO [#B] [2019-06-20] Jacopo Bertolotti on Twitter: "I am not satisfied yet, but this is my spin rotating around the x-axis, with the color representing the phase term common to both components of the spinor (which shows that you need two rounds to go back to the original state). I will work more on it in the next days.… https://t.co/ji4cYUNRu8" :spinor:viz:
 :PROPERTIES:
 :ID:       b8c61610dcd305509389c6e1ff03f230
 :END:
@@ -3576,12 +3576,11 @@ https://www.amazon.com/Mathematical-Classical-Mechanics-Graduate-Mathematics/dp/
 :PROPERTIES:
 :ID:       8ec4c1814e050e30f22a2c36c925e06e
 :END:
-* TODO [#D] Tweet from Jamie Portsmouth (@jamportz), at Jan 3, 09:14 :physics:vis:
+* TODO [#D] Tweet from Jamie Portsmouth (@jamportz), at Jan 3, 09:14 :physics:viz:
 :PROPERTIES:
 :CREATED:  [2019-01-04]
 :ID:       69081654caddca0febcbde71b7a9ab8f
 :END:
-
 : Uploaded a new version of Fibre dynamical systems renderer, with a bunch more presets and tools for rendering GIF animations and turntables https://t.co/WfXyDtQLLp  https://t.co/H8WySstKdI https://t.co/JBm7VYdb52
 
 

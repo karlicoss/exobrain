@@ -212,7 +212,7 @@ huh, that's random
 :CREATED:  [2020-04-29]
 :ID:       2dd7ab1e7d9c2426246c8575af61c42a
 :END:
-** TODO [#C] [2020-10-15] [[https://github.com/wger-project/wger/blob/c70150b4850f2c7ab2fdc7a953c3c11f84d31e8c/wger/exercises/fixtures/exercises.json][wger/exercises.json at c70150b4850f2c7ab2fdc7a953c3c11f84d31e8c · wger-project/wger]] :workout:
+** TODO [#C] [2020-10-15] [[https://github.com/wger-project/wger/blob/c70150b4850f2c7ab2fdc7a953c3c11f84d31e8c/wger/exercises/fixtures/exercises.json][wger/exercises.json at c70150b4850f2c7ab2fdc7a953c3c11f84d31e8c · wger-project/wger]] :exercise:
 :PROPERTIES:
 :ID:       526c01b032175b2ab831f3515634f457
 :END:
