@@ -1,10 +1,6 @@
 #+TITLE: 
 #+filetags: physics
 #+logseq_graph: false
-* TODO rename to physics-misc??
-:PROPERTIES:
-:ID:       146ed7b23f62567f090e26e1a9ef4eca
-:END:
 
 * [2018-07-31] https://en.wikipedia.org/wiki/Ostrogradsky_instability -- explanation why differential equations of orders higher than two do not appear in physics :physics:meta:diffeq:
 :PROPERTIES:
@@ -75,3 +71,35 @@ example lagrangian independent of path, all paths are stationary
 :PROPERTIES:
 :ID:       8f62ebbda339eab6c7e4c6d3857de576
 :END:
+
+
+* [2015-03-09] some old notes on nuclear physics
+:PROPERTIES:
+:ID:       77300df536d6ab284d04c9d86aee5ac7
+:END:
+: Neutron decays into proton, electron and anti-neutrino.
+: 
+: It is possible to decay into hydrogen atom if the anti-neutrino carries enought kinetic energy away, but the chances are really low, it was observed 4 times in one million.
+: 
+: 
+: 
+: Strong force holds *quarks* together.
+: 
+: The proton/neutron attraction is very strong via this force, which is why nuclei must be made of a mixture of them. Interestingly enough, the proton/proton interaction and the neutron/neutron interaction isn't nearly as strong, so nuclei made almost entirely out of just neutrons or just protons are very unstable, and will decay until they produce a regular stable nuclei.
+: 
+: 
+: 
+: But why don't electrons get stuck to the glue and end up in the nucleus too, like some sort of Plum Pudding Model? The answer is very simple: electrons don't have a nuclear charge so they are invisible to the strong nuclear force. This is a very cool part of the Standard Model of Particle Physics- there are three families of particles, the quarks, the leptons, and the gauge bosons. The quarks have this nuclear charge so they are forced to be bound into big fat nuclear particles like protons and neutrons and mesons and baryons, while the leptons, or electron family, have no nuclear charge, and so they are lighter and much more spry.
+: 
+: 
+: Also, the Earth's orbital kinetic energy is larger than its binding energy due to self-gravity.
+: That is, it's easier to blow up the Earth than it is to change its orbit. Something that's big enough and fast enough to change Earth's orbit significantly will also blow it apart. How much it gets blown apart depends on how big a hit it is.
+: 
+: 
+: Light waves can slow down in a medium, but individual photons travel at the speed of light.
+: 
+: Also, being absorbed then re-emitted. There's a timegap where they simply don't exist as photons.
+: * Not true, this is a common misconception with light in a medium. It is actually a consequence of the electric field of the material interacting with that of the incident photon wiki link.
+: ** And maybe it's semantics, but I think this explanation is much better than "absorbed and re-emitted":
+: As the electromagnetic fields oscillate in the wave, the charges in the material will be "shaken" back and forth at the same frequency.[13] The charges thus radiate their own electromagnetic wave that is at the same frequency, but usually with a phase delay, as the charges may move out of phase with the force driving them
+: Describing it as "absorbed and re-emitted" makes me think way too much that some electron absorbs the energy, enters a discrete excited state for some time, and then transitions back to a lower-energy state while giving off a photon.

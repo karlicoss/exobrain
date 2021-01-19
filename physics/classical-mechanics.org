@@ -164,21 +164,21 @@ conditions for lagrangian regularity and conjugate points
 :PROPERTIES:
 :ID:       da10d89148f9436214d49ee3db417718
 :END:
-https://physics.stackexchange.com/questions/9/hamiltons-principle 
-Basically, the whole thing is summarized in a nutshell in Richard P. Feynman, The Feynman Lectures on Physics (Addison–Wesley, Reading, MA, 1964), Vol. II, Chap. 19. (I think, please correct me if I'm wrong here). The fundamental idea is that the action integral defines the quantum mechanical amplitude for the position of the particle, and the amplitude is stable to interference effects (-->has nonzero probability of occurrence) only at extrema or saddle points of the action integral. The particle really does explore all alternative paths probabilistically.
+https://physics.stackexchange.com/questions/9/hamiltons-principle
+:   Basically, the whole thing is summarized in a nutshell in Richard P. Feynman, The Feynman Lectures on Physics (Addison–Wesley, Reading, MA, 1964), Vol. II, Chap. 19. (I think, please correct me if I'm wrong here). The fundamental idea is that the action integral defines the quantum mechanical amplitude for the position of the particle, and the amplitude is stable to interference effects (-->has nonzero probability of occurrence) only at extrema or saddle points of the action integral. The particle really does explore all alternative paths probabilistically.
 *** [2018-12-02] http://www.scholarpedia.org/article/Principle_of_least_action#When_Action_is_a_Minimum
 :PROPERTIES:
 :ID:       2a953950dac968d2c95abc5be99daaec
 :END:
-or some 1D potentials V(x) (those with ∂2V/∂x2≤0 everywhere), e.g. V(x)=0 , V(x)=mgx , and V(x)=−Cx2 , all true trajectories have minimum S . For most potentials, however, only sufficiently short true trajectories have minimum action; the others have an action saddle point. "Sufficiently short" means that the final space-time event occurs before the so-called kinetic focus event of the trajectory. 
+:  or some 1D potentials V(x) (those with ∂2V/∂x2≤0 everywhere), e.g. V(x)=0 , V(x)=mgx , and V(x)=−Cx2 , all true trajectories have minimum S . For most potentials, however, only sufficiently short true trajectories have minimum action; the others have an action saddle point. "Sufficiently short" means that the final space-time event occurs before the so-called kinetic focus event of the trajectory.
 *** [2018-12-02] Even more trivial example when least action principle doesn't work
 :PROPERTIES:
 :ID:       d855aa6154562eba1c958da42cd26bd8
 :END:
-Принцип наименьшего действия. Часть 2 / Хабр https://habr.com/ru/post/426253/
-
-На рисунке нарисованы обе физически возможные траектории движения шара. Зеленая траектория соответствует покоящемуся шару, в то время как синяя соответствует шару, отскочившему от пружинящей стенки.
-Однако минимальным действием обладает только одна из них, а именно первая! У второй траектории действие больше. Получается, что в данной задаче имеются две физически возможных траектории и всего одна с минимальным действием. Т.е. в данном случае принцип наименьшего действия не работает.
+:  Принцип наименьшего действия. Часть 2 / Хабр https://habr.com/ru/post/426253/
+: 
+:  На рисунке нарисованы обе физически возможные траектории движения шара. Зеленая траектория соответствует покоящемуся шару, в то время как синяя соответствует шару, отскочившему от пружинящей стенки.
+:  Однако минимальным действием обладает только одна из них, а именно первая! У второй траектории действие больше. Получается, что в данной задаче имеются две физически возможных траектории и всего одна с минимальным действием. Т.е. в данном случае принцип наименьшего действия не работает.
 
 ** TODO [2018-11-30] Лагранжиан L {\displaystyle L} L называется вырожденным, если его оператор Эйлера — Лагранжа удовлетворяет нетривиальным тождествам Нётер. В этом случае уравнения Эйлера — Лагранжа не являются независимыми
 :PROPERTIES:

@@ -843,9 +843,9 @@ maybe run the original data retrieval? not sure
 :END:
 : plotly/dash@v1.4.0
 : Dash v1.4.0
-** [#C] [2020-04-10] Re: [plotly/plotly.py] Importing plotly takes a lot of time (#740)
+** [#C] [2020-04-10] Re: [plotly/plotly.py] Importing plotly takes a lot of time (740)
 :PROPERTIES:
-:ID:       d42dd84a6a763819e9364ba27617870c
+:ID:       76d9593cf59b7b028ea2fec5c8b4091a
 :END:
 : Import time and initialization time should be much improved on Python 3.7 with PR #2368.
 ** [#C] [2019-04-10] Dash offline is enabled? · Issue #46 · plotly/dash
@@ -874,11 +874,11 @@ https://github.com/plotly/dash/issues/46
 :CREATED:  [2019-04-08]
 :ID:       28bea9403601d0065b895743c25bab6b
 :END:
-** [#C] [2020-08-26] Re: plotly/plotly.py Importing plotly takes a lot of time (#740)
+** [#C] [2020-08-26] Re: plotly/plotly.py Importing plotly takes a lot of time (740)
 :PROPERTIES:
-:ID:       bbdc93144bef109bd5531973eaf75cd7
+:ID:       d6463ce3bb8d1d7ae66404e67381c143
 :END:
-: Re: [plotly/plotly.py] Importing plotly takes a lot of time (#740
+: Re: [plotly/plotly.py] Importing plotly takes a lot of time (740
 * STRT [#C] always keep a tab running on one for my desktops? or pinned
 :PROPERTIES:
 :CREATED:  [2020-07-25]

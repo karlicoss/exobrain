@@ -246,7 +246,7 @@ https://manikos.github.io/how-pythons-import-machinery-works
 https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time
 : .. are only relative in a package
 : However, if your module's name is __main__, it is not considered to be in a package. Its name has no dots, and therefore you cannot use from .. import statements inside it. If you try to do so, you will get the "relative-import in non-package" error.
-** [#D] [2019-06-11] relative imports are discouraged              :oldhabit:
+** DONE [#D] [2019-06-11] relative imports are discouraged
 :PROPERTIES:
 :ID:       5b4fffdc-a69f-4c71-bb78-39ddc8ac2fdd
 :END:

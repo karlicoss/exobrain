@@ -1,9 +1,8 @@
 #+TITLE: General relativity
-#+filetags: :grtheory:relativity:physics:
+#+filetags: :gr:
 
 
 Geodesics: takes vectors that are tangent to themselves and keeps them tangent while they are parallel transported
-
 
 * TODO [#B] resource recommendations
 :PROPERTIES:
@@ -296,3 +295,104 @@ http://www.physicspages.com/Index%20-%20Relativity.html
   same...
 - Your Bookmark on page 110 | Added on Sunday, September 27, 2015 4:13:18 PM
   addition of velocities? not interesting...
+
+
+* [#D] [2015-03-16] some old notes
+:PROPERTIES:
+:ID:       8eec9490a92fa7f901fd224da577dd09
+:END:
+: Parallel transport: TODO
+: 
+: Riemann tensor: describes how vector is changed during the parallel transport along a loop. Describes curvature.
+: 
+: R(u, v, w) = R^a_bcd u^b v^c w^d
+: 
+: Ricci tensor:
+: R_bd = R^c_bcd
+: 
+: R^a_d = g^ab R_bd
+: 
+: Ricci scalar: R^a_a
+: 
+: Geometrically, the Ricci curvature is the mathematical object that controls the growth rate of the volume of metric balls in a manifold.
+: 
+: Paralllel transport on the Earth surface might change the direction
+: 
+: For fun, notice that if we think of the earth as a unit sphere, it's area is 4 pi, and our Roman has just travelled around a region of land having area one eighth of that, hence pi/2. His javelin has rotated by an angle of pi/2! This is no coincidence: on the unit sphere, whenever you go around a simple closed curve enclosing an area A, parallel translation gives a rotation of angle A.
+: 
+: 
+: Again, all this is easier to visualize in 2d space rather than 4d spacetime. A person walking on a sphere `following their nose' will trace out a geodesic -- that is, a great circle. Suppose two people stand side-by-side on the equator and start walking north, both following geodesics. Though they start out walking parallel to each other, the distance between them will gradually start to shrink, until finally they bump into each other at the north pole. If they didn't understand the curved geometry of the sphere, they might think a `force' was pulling them together.
+: 
+: Similarly, in general relativity gravity is not really a `force', but just a manifestation of the curvature of spacetime. Note: not the curvature of space, but of spacetime. The distinction is crucial. If you toss a ball, it follows a parabolic path. This is far from being a geodesic in space: space is curved by the Earth's gravitational field, but it is certainly not so curved as all that! The point is that while the ball moves a short distance in space, it moves an enormous distance in time, since one second equals about 300,000 kilometers in units where $c = 1$. This allows a slight amount of spacetime curvature to have a noticeable effect.
+: 
+: Problem Book in Relativity and Gravitation, A. Lightman and R. H. Price (Princeton University Press, Princeton, 1975).
+: 
+: http://math.ucr.edu/home/baez/einstein/node15.html
+: 
+: 
+: Contravariant vectors describe those quantities where the distance units comes at the numerator (like velocity), whereas covariant are those where the distance unit is at the denominator (like temperature gradient).
+: 
+: Covariant vectors are linear funcitonals.
+: 
+: Spherical coordinates:
+: ds = dr^2 + r^2 dtheta^2 + r^2 sin^2 theta d phi^2
+: g_11 = 1
+: g_22 = r^2
+: g_33 = r^2 sin^2 theta
+: Non constant metric tensor!
+: 
+: g^u_v = delta^u_v
+: g^v_u = delta^v_u
+: 
+: 
+: Riemann tensor symmetries and identities https://en.wikibooks.org/wiki/General_Relativity/Riemann_tensor
+: 
+: Парадокс альфы центавры
+: 
+: TODO: https://en.wikipedia.org/wiki/Four-vector
+: I don't like the word "norm" in the article.
+: 
+: 
+: Twin paradox in closed spaces (for instance, toroidal space):
+: 
+: * Compact space case http://arxiv.org/abs/gr-qc/0101014
+: * http://arxiv.org/abs/astro-ph/0606559
+: * http://arxiv.org/abs/gr-qc/0503070
+: Global preferred inertial frame
+: * Jeffrey R. Weeks: The Twin Paradox in a Closed Universe
+: 
+: TODO: okay, what about curved?
+: 
+: 'Compactification' breaks the Lorentz invariance.
+: * Poincare symmetry
+: 
+: http://van.physics.illinois.edu/qa/listing.php?id=15308
+: 
+: In a closed loop with circumference R, there is a preferred rest frame. Special relativity predicts that someone moving with respect to the loop will measure its circumference as being smaller than R, so the preferred rest frame is one that views the closed loop with its maximum circumference.
+: 
+: https://www.physicsforums.com/threads/twin-paradox-in-a-closed-universe.375432/
+: 
+: gamma m (1, v, 0, 0)
+: 
+: photons:
+: 
+: E (1, 1, 0, 0)
+: 
+: For massive particles: P^\mu = m U^\mu; m is the rest mass
+: 
+: Four-momentum is conserved
+: 
+: Lorentz factor: gamma = 1 / sqrt{1 - v^2}
+: 
+: 
+: Scalar curvature: an invariant of a Riemannian manifold
+: 
+: Dark energy: cosmological constant??
+: 
+: https://en.wikipedia.org/wiki/Four-vector
+
+
+* related                                                :physics:relativity:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:

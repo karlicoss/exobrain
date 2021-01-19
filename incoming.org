@@ -2039,3 +2039,32 @@ literate permissions?
 :PROPERTIES:
 :ID:       c172c334e8426564c3582f5d321d3208
 :END:
+* [2013-02-11] Seems like uniqueness encoded not by type system, but by 'attributes', https://www.cs.tcd.ie/~devriese/pub/ifl07-paper.pdf :lineartypes:
+:PROPERTIES:
+:ID:       d7a681ee8891a4f989d53c7babd450ae
+:END:
+* [2014-09-27] some functional analysis notes                        :funcan:
+:PROPERTIES:
+:ID:       e75b00c90408982eb7d882110bd38e44
+:END:
+L^\infty space
+A sequence of bumps of height 1 functions:
+
+f(x) = 1 if x \in [n; n + 1], 0 otherwise
+
+Does not have a convergent subsequence!
+
+Fischer-Rietz theorem: L^p is a Banach space.
+Dominated convergence theorem.
+* [2014-10-22] eigenvalues                                           :linalg:
+:PROPERTIES:
+:ID:       f75310bc079c075fd2acff1e069635fe
+:END:
+Algebraic multiplicity: multiplicity as a root of the characteristic polynomial.
+In case of the field of complex numbers, the sum of algebraic mult. is exactly n.
+
+Geometric multiplicity: dimenstion of the eigenspace, associated with the eigenvalue.
+
+Sum of geometric multiplicities for A - \lambda I is equal to dim ket (A - \lambda I)
+
+Jordan cell corresponds to each subspace

@@ -98,7 +98,7 @@ tried searching on reddit, but nothing really useful..
 https://github.com/trulia/thoth -- unclear what it's doing
 
 keyword tracking (SERP) -- not sure if an overkill..
-*** DONE [2018-11-06] just implement a provider for kibitzr?        :kibitzr:
+*** DONE [2018-11-06] just implement a provider for kibitzr?
 :PROPERTIES:
 :ID:       1bed872aca962332c3f9bce39214223e
 :END:
@@ -106,9 +106,9 @@ keyword tracking (SERP) -- not sure if an overkill..
 :PROPERTIES:
 :ID:       a34175cfa1d56e1a685ca78ab3797b13
 :END:
-* [#B] Make it more user friendly
+* [#B] * Make it more user friendly
 :PROPERTIES:
-:ID:       64624cc7087f6e06f184a998ce85e21c
+:ID:       45d5fe5b95221dd3dd4f376a7c77b568
 :END:
 ** TODO add axol doctor config                                      :project:
 :PROPERTIES:
@@ -121,14 +121,14 @@ also axol doctor to check individual providers + reuse in tests
 :CREATED:  [2020-05-25]
 :ID:       336e340a0964277979631199a2ba60af
 :END:
-** TODO [#C] provide an asci diagram for crawler + report + feed reader? :axol_doc:
+** TODO [#C] provide an asci diagram for crawler + report + feed reader?
 :PROPERTIES:
 :CREATED:  [2020-03-10]
 :ID:       f5f4d9b07c239ac2a84215e2f063614f
 :END:
-* [#B] Blacklisting
+* [#B] * Blacklisting
 :PROPERTIES:
-:ID:       6cf71b5dbad279e0f8f5121a8005a8ec
+:ID:       50db7e4776a4d0932efa8585539dfd93
 :END:
 ** TODO [#B] maybe button to ban user? it would write to config or something? maybe I can even use some public API constructor?
 :PROPERTIES:

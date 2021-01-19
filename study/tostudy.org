@@ -1162,7 +1162,7 @@ interesting point about coordinates swapping in black hole https://thedeemon.dre
 :ID:       8539801284ae07dec566e1fc87bb13de
 :END:
 
-* TODO [#C] revise cs/math/physics stuff                                 :sr:
+* TODO [#C] revise cs/math/physics stuff                          :spacedrep:
 :PROPERTIES:
 :ID:       d0f9f718-90bf-4ee6-a863-3fe4a77e82d5
 :END:

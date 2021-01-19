@@ -1,4 +1,6 @@
-#+TITLE: 
+#+TITLE: Cosmology
+#+filetags: cosmology
+
 * cosmology FAQ
 :PROPERTIES:
 :ID:       6a4f617c2ff2f4454ac56f9add826cce
@@ -39,3 +41,43 @@ https://en.wikipedia.org/wiki/Olbers'_paradox
 :PROPERTIES:
 :ID:       46ab2f1d8377b9ecb702461274bfdad3
 :END:
+
+* [2018-07-03] old notes
+:PROPERTIES:
+:ID:       83bf6b94b43e4d44c5de2d59bd0cd0b2
+:END:
+: Flatness problem: fine tuning, Omega parameter diverges from 1 TODO
+: 
+: Anthropic principle:
+: Anthropic principle[edit]
+: One solution to the problem is to invoke the anthropic principle, which states that humans should take into account the conditions necessary for them to exist when speculating about causes of the universe's properties. If two types of universe seem equally likely but only one is suitable for the evolution of intelligent life, the anthropic principle suggests that finding ourselves in that universe is no surprise: if the other universe had existed instead, there would be no observers to notice the fact.
+: 
+: The principle can be applied to solve the flatness problem in two somewhat different ways. The first (an application of the 'strong anthropic principle'[citation needed]) was suggested by C. B. Collins and Stephen Hawking,[11][12] who in 1973 considered the existence of an infinite number of universes such that every possible combination of initial properties was held by some universe. In such a situation, they argued, only those universes with exactly the correct density for forming galaxies and stars would give rise to intelligent observers such as humans: therefore, the fact that we observe Ω to be so close to 1 would be "simply a reflection of our own existence."[11]
+: 
+: Solution: Cosmic inflation
+: 
+: Big Crunch/Big Rip
+: 
+: Neutrinos are the candidates for dark matter
+: 
+: Relic neutrinos, comsic background
+: 
+: Spinning black holes could be bounces from each other
+: 
+: The cosmological constant (usually denoted by the Greek capital letter lambda: Λ) is the value of the energy density of the vacuum of space.
+: 
+: Universe expansion:
+: 
+: Are distant galaxies moving faster than the speed of light? Wouldn't that violate relativity?
+: A profound feature of relativity is that two objects passing by each other cannot have a relative velocity greater than the speed of light. An even more profound feature, one which has received much less publicity, is that the concept of "relative velocity" does not even make sense unless the objects are very close to each other. In Einstein's general theory of relativity (which describes gravity as the curvature of spacetime), there is no way to define the velocity between two widely-separated objects in any strictly correct sense. The "velocity" that cosmologists speak of between distant galaxies is really just a shorthand for the expansion of the universe; it's not that the galaxies are moving, it's that the space between them is expanding. If the distance isn't too great, this expansion looks and feels just like a recession velocity, but when the distance becomes very large that resemblance breaks down. In particular, it's perfectly plausible to have distant galaxies whose "recession velocity" is greater than the speed of light. (We couldn't see such galaxies directly, since light from them would never reach us, but that doesn't mean they aren't there.) The resolution to this paradox is simply that we have taken a convenient analogy too far, and there isn't a well-defined "speed" between us and distant objects.
+: 
+: http://preposterousuniverse.com/writings/cosmologyprimer/faq.html
+: TODO ugh. link is dead
+: 
+: 
+: Could we detect the expansion of the universe by trying to measure the expansion of the solar system?
+: No. Any system that is bound together by internal forces -- whether it is a table, the solar system, or the galaxy -- does not expand along with the universe. (Not just that it only expands slightly; it really doesn't expand at all (TODO: ??????), or at least not because of the expansion of the universe.) To observe the expansion, we need to study objects that are very distant, not directly bound to us by gravity or anything else.
+: 
+: 
+: Is energy conserved in an expanding universe?
+: This is a tricky question, depending on what you mean by "energy." Usually we ascribe energy to the different components of the universe (radiation, matter, dark energy), not including gravity itself. In that case the total energy, given by adding up the energy density in each component, is certainly not conserved. The most dramatic example occurs with dark energy -- the energy density (energy per unit volume) remains approximately constant, while the volume increases as the universe expands, so the total energy increases. But even ordinary radiation exhibits similar behavior; the number of photons remains constant, while each individual photon loses energy as it redshifts, so the total energy in radiation decreases. (A decrease in energy is just as much a violation of energy conservation as an increase would be.) In a sense, the energy in "stuff" is being transferred to the energy of the gravitational field, as manifested in the expansion of the universe. But there is no exact definition of "the energy of the gravitational field," so this explanation is imperfect. Nevertheless, although energy is not really conserved in an expanding universe, there is a very strict rule that is obeyed by the total energy, which reduces to perfect conservation when the expansion rate goes to zero; the expansion changes the rules, but that doesn't mean that anything goes.

@@ -135,14 +135,13 @@ cgit add / cgit commit / cgit push
 :PROPERTIES:
 :ID:       644e94e3ac635d09672a2283c88dfd3a
 :END:
-** for configs which are patched via script, symlink what patches it :setup:log:
+** for configs which are patched via script, symlink what patches it  :setup:
 :PROPERTIES:
 :CREATED:  [2018-05-12]
 :ID:       dcd2748291f500be4ef4d0e08b828258
 :END:
 
 ~ln -s "$(realpath $BASH_SOURCE)" "$CDIR"~
-
 
 
 * Tooling
