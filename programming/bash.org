@@ -3,11 +3,11 @@ Bash & shell programming
 
 * shell programming                                                    :bash:
 :PROPERTIES:
-:ID:       2444c1b1548f940702d7a51219afced9
+:ID:       shllprgrmmng
 :END:
 ** [2017-12-25] boolean return value
 :PROPERTIES:
-:ID:       bbae67d499d2944267d93f6f0884aac9
+:ID:       mnblnrtrnvl
 :END:
 : function whatever {
 :  if (x)
@@ -21,7 +21,7 @@ Bash & shell programming
 : then ...
 ** [2017-12-26] multi-line string varible
 :PROPERTIES:
-:ID:       06257f2642194850a328a82f981c7f8b
+:ID:       tmltlnstrngvrbl
 :END:
 : MULTILINE=$(cat <<-END
 : here
@@ -33,7 +33,7 @@ Bash & shell programming
 
 ** [2017-12-30] iterate over array
 :PROPERTIES:
-:ID:       7b28d35ad819c5214ae66d9e9d1d1e82
+:ID:       sttrtvrrry
 :END:
 : EXTRA_STOWS=("home-arbtt" "home-emacs" "home-anacron")
 : for s in "${EXTRA_STOWS[@]}"
@@ -45,7 +45,7 @@ Bash & shell programming
 
 ** [2018-04-26] get current script directory
 :PROPERTIES:
-:ID:       d2d97cc317250430e182194a6193654d
+:ID:       thgtcrrntscrptdrctry
 :END:
 : DIR=$(dirname "$(readlink -f "$0")")
 
@@ -61,12 +61,12 @@ instead, better to use ~if [[ $0 == "$BASH_SOURCE" ]]; then set -eux; fi~
 
 * interactive tricks & tips                                           :shell:
 :PROPERTIES:
-:ID:       24a20aa99b2bc4e0c3d54ed5cd6a5b66
+:ID:       ntrctvtrckstps
 :END:
 priorities roughly indicate how useful I find each command
 ** [#A] [2015-07-23] ~diff <(ls dir1) <(ls dir2)~
 :PROPERTIES:
-:ID:       a3ef72ee07ce13a40fc1ef3e5168fd9a
+:ID:       thdfflsdrlsdr
 :END:
 ** [#B] use sigquit {Ctrl-\} to kill processes that are really stuck (when Ctrl-C isn't working)
 :PROPERTIES:
@@ -86,7 +86,7 @@ priorities roughly indicate how useful I find each command
 
 ** [#C] [2018-05-08] ~ps aufx~ to list all processes
 :PROPERTIES:
-:ID:       96d4e5937eec2b73802c2272f907b7d4
+:ID:       tpsfxtlstllprcsss
 :END:
 
 ** [#C] tree -pufi for file tree with permissions
@@ -96,16 +96,16 @@ priorities roughly indicate how useful I find each command
 :END:
 ** [#C] pretty print json ~cat file.json | python -mjson.tool~         :json:
 :PROPERTIES:
-:ID:       fd063df433c905f4e0ac0945f8db96f2
+:ID:       prttyprntjsnctfljsnpythnmjsntl
 :END:
 ** [#D] detect if library is installed ~ldconfig -p | grep libjpeg~ or ~gcc -ljpeg~
 :PROPERTIES:
-:ID:       16181772cffbb09cc2d82e4b9de9e0a6
+:ID:       dtctflbrrysnstlldldcnfgpgrplbjpgrgccljpg
 :END:
 
 ** [#D] [2015-07-23] merging pdfs
 :PROPERTIES:
-:ID:       a9961ccb7468eeea02c5c2a89ba8ecef
+:ID:       thmrgngpdfs
 :END:
 : pdftk out.pdf j1-process.pdf j1-process-2.pdf j1-process-3.pdf cat output merged.pdf
 : pdftk full-pdf.pdf cat 1 1 1 2  3 4 12-15 output outfile_p12-15.pdf

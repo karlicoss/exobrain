@@ -5,22 +5,22 @@ File to control logseq behaviour
 
 * lust a fake node to make  logseq graph connected and happy
 :PROPERTIES:
-:ID:       ebe981ab4ec82e4068f4115de5fce7c6
+:ID:       lstfkndtmklgsqgrphcnnctdndhppy
 :END:
 ** xxx                                                        :linkrot:infra:
 :PROPERTIES:
-:ID:       f561aaf6ef0bf14d4208bb46a4ccb3ad
+:ID:       xxx
 :END:
 ** yyy                                                        :offline:infra:
 :PROPERTIES:
-:ID:       f0a4058fd33489695d53df156b77c724
+:ID:       yyy
 :END:
 ** zzz                                                            :food:diet:
 :PROPERTIES:
-:ID:       f3abb86bd34cf4d52698f14c0da1dc60
+:ID:       zzz
 :END:
 
 * TODO [2021-01-16] ignore some tags like 'inspiration'. they make a mess in the graph, but mostly only make sense to me anyway :logseq:
 :PROPERTIES:
-:ID:       d6cabc7558fe2c20778498df08a76ced
+:ID:       stgnrsmtgslknsprtnthymkmsgrphbtmstlynlymksnstmnywy
 :END:

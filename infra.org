@@ -4,18 +4,18 @@
 * TODO [#B] Voice recorded notes for hands free thinking?           :mycroft:
 :PROPERTIES:
 :CREATED:  [2019-10-30]
-:ID:       a68f53d58be626a492826884c5cb8e70
+:ID:       vcrcrddntsfrhndsfrthnkng
 :END:
 
 * TODO [#B] [2020-07-01] [[https://docs.docker.com/compose/extends/][Share Compose configurations between files and projects | Docker Documentation]] :docker:
 :PROPERTIES:
-:ID:       079a78421e67cbdafe898f6413697874
+:ID:       wdsdcsdckrcmcmpsxtndsshrctwnflsndprjctsdckrdcmnttn
 :END:
 
 * STRT [#B] attempting to overcome read-only editable packages... :python:pip:
 :PROPERTIES:
 :CREATED:  [2020-12-10]
-:ID:       3bfb025a184efff6274c4ec2e680ef67
+:ID:       ttmptngtvrcmrdnlydtblpckgs
 :END:
 - this works... but doesn't if setup.py is guarded with __main__
   : import distutils.core as C; C.run_setup("setup.py", stop_after='config')
@@ -28,7 +28,7 @@
 * TODO [#C] Koreader                                             :remarkable:
 :PROPERTIES:
 :CREATED:  [2020-08-28]
-:ID:       d9459ae947a616182707c7238c5c36ea
+:ID:       krdr
 :END:
 
 : For a better PDF experience, you might want to try 'koreader'. The native PDF support on my Kobo Forma was so bad I was ready to return it, before finding this. It's an open source PDF/epub reader that you can install on Remarkable and other eInk readers. It's just an app - it doesn't replace or degrade any existing functionality.
@@ -36,24 +36,24 @@
 * STRT [#C] Use zstd?                                               :exports:
 :PROPERTIES:
 :CREATED:  [2020-01-15]
-:ID:       6b6d3fe8fcfb5c63a8baaad00dc35fa0
+:ID:       szstd
 :END:
 
 * TODO [#C] huh, huginn is pretty well documented and also very clean interface. could get inspiration from it... :inspiration:
 :PROPERTIES:
 :CREATED:  [2019-12-24]
-:ID:       a8a57eadb937c2d3ef8a8f5407c2b465
+:ID:       hhhgnnsprttywlldcmntdndlsryclnntrfccldgtnsprtnfrmt
 :END:
 
 * [#C] [2019-06-29] frenck/awesome-home-assistant: A curated list of amazingly awesome Home Assistant resources.
 :PROPERTIES:
-:ID:       b28a624cab447373c1eb02c6ba72d614
+:ID:       stfrnckwsmhmssstntcrtdlstfmznglywsmhmssstntrsrcs
 :END:
 https://github.com/frenck/awesome-home-assistant
 * STRT [#C] trying out podman                                 :docker:podman:
 :PROPERTIES:
 :CREATED:  [2020-09-15]
-:ID:       6170d679b7f33489a8e9b19c46afe4da
+:ID:       tryngtpdmn
 :END:
 apparently can't run without the default command?
 : podman-compose --file docker-compose.yml run --rm ghexport python3                                                                                                                                                     mc 12:02:53
@@ -71,27 +71,27 @@ can't see if they have a CI?
 * TODO [#C] overlay mounts over read-only FS work as long there is a dir (even empty) in the src? :docker:
 :PROPERTIES:
 :CREATED:  [2020-10-28]
-:ID:       1d6764837fb08424400238e46b354762
+:ID:       vrlymntsvrrdnlyfswrkslngthrsdrvnmptynthsrc
 :END:
 e.g. create empty node_modules
 * TODO [#C] it's maybe the same tag as homelab?                     :homelab:
 :PROPERTIES:
 :CREATED:  [2020-12-06]
-:ID:       253641802a4fcbd2658f3e749d683985
+:ID:       tsmybthsmtgshmlb
 :END:
 * TODO [#C] scripts to grab stuff from phone to other locations?      :phone:
 :PROPERTIES:
 :CREATED:  [2020-12-06]
-:ID:       489361ff557cd2377e9f9e55bc93b0fe
+:ID:       scrptstgrbstfffrmphntthrlctns
 :END:
 * [#C] [2020-07-07] [[https://devops.stackexchange.com/questions/6246/when-would-i-use-docker-composes-service-ports-flag][When would I use docker-compose's "--service-ports" flag? - DevOps Stack Exchange]] :docker:
 :PROPERTIES:
-:ID:       0100eb79bcba0bdffd35527de12c3603
+:ID:       tsdvpsstckxchngcmqstnswhnssrvcprtsflgdvpsstckxchng
 :END:
 : To start the service to run in the background you use docker-compose -f <FILE> up --detach but if you wanted to look inside the container using a terminal, you would run docker-compose run bash.
 * TODO [#C] [2020-05-26] [[https://brig.readthedocs.io/en/latest/][brig - decentralized & secure synchronization — brig v0.4.0-beta documentation]] :cloud:
 :PROPERTIES:
-:ID:       8d65714216725f428816e3ca7b178f23
+:ID:       tsbrgrdthdcsnltstbrgdcntrcrsynchrnztnbrgvbtdcmnttn
 :END:
 : Simplified git version control only limited by your storage space.
 : Synchronization algorithm that can handle moved files and empty directories and files.
@@ -103,80 +103,80 @@ e.g. create empty node_modules
 
 * [#C] [2020-09-11] [[https://mycroftai.activehosted.com/index.php?action=social&chash=a666587afda6e89aec274a3657558a27.613&s=a097e7aac8da6ebed9dcda7ec603a22e][GUI, Core Update, and Dev Sync Videos!]] :mycroft:
 :PROPERTIES:
-:ID:       1023290cc4042a584cb2c7c0436966a2
+:ID:       frsmycrftctvhstdcmndxphpccdbddcdcgcrpdtnddvsyncvds
 :END:
 : GUI now available on Ubuntu and Manjaro
 : If you have Mycroft running on the latest (K)Ubuntu or Manjaro releases, you can now install the Alpha release of the Mycroft GUI powered by Qt and Kirigami. Simply use the same basic commands used to install mycroft-core.
 * [#C] [2020-12-20] [[https://github.com/tulir/mautrix-facebook/wiki/Bridge-setup-with-Docker][Bridge setup with Docker · tulir/mautrix-facebook Wiki]] :matrix:
 :PROPERTIES:
-:ID:       53cccea314ad970e90a0a565c2a526c6
+:ID:       snsgthbcmtlrmtrxfcbkwkbrddgstpwthdckrtlrmtrxfcbkwk
 :END:
 : Upgrading
 :     Pull the new version (setup step 1)
 :     Start the new version (setup step 7)
 ** TODO [2020-12-20] [[https://github.com/tulir/mautrix-facebook/wiki/Bridge-setup-with-Docker][Bridge setup with Docker · tulir/mautrix-facebook Wiki]] :matrix:
 :PROPERTIES:
-:ID:       17a69733e85d25bce9918bc2ec296ba8
+:ID:       snsgthbcmtlrmtrxfcbkwkbrddgstpwthdckrtlrmtrxfcbkwk
 :END:
 ugh. kinda annoying it's running as root
 * [#D] [2019-05-16] [[https://reddit.com/r/selfhosted/comments/bmxqwd/i_made_a_selfhosted_personal_lastfm_alternative/][I made a self-hosted personal Last.fm alternative with support for custom artwork, multiple artists per track and self-defined rules for metadata correction]] /r/selfhosted :music:
 :PROPERTIES:
-:ID:       2864b628c63a04e8e3f8a57b66135c01
+:ID:       thsrddtcmrslfhstdcmmntsbmndrlsfrmtdtcrrctnrslfhstd
 :END:
 
 * incoming
 :PROPERTIES:
-:ID:       d48f944ac6c78b97d544f98b89b506ca
+:ID:       ncmng
 :END:
 * STRT [#B] [2020-01-18] bb4242/sdnotify: A pure Python implementation of systemd's service notification protocol (sd_notify) -- can be used for watchdog? :infra:systemd:
 :PROPERTIES:
-:ID:       a4b1e1ad42c12b7e3df3b1019bda4f4c
+:ID:       stbbsdntfyprpythnmplmnttnnprtclsdntfycnbsdfrwtchdg
 :END:
 https://github.com/bb4242/sdnotify
 * STRT [#B] replace backoff with that other thing?             :arctee:infra:
 :PROPERTIES:
 :CREATED:  [2020-07-06]
-:ID:       f7ce6e14f30d4d9e26e0ef5bae28ef4f
+:ID:       rplcbckffwththtthrthng
 :END:
 * TODO [#C] backups/hypothesis/hypothesis_20200705T190129Z.json is malformed. check how my infra responds to this :promnesia:infra:
 :PROPERTIES:
 :CREATED:  [2020-07-06]
-:ID:       2eb5e5df3b5e66d2e982800c4953877b
+:ID:       bckpshypthsshypthsstzjsnsfrmdchckhwmynfrrspndstths
 :END:
 * [#C] [2020-01-12] [[https://news.ycombinator.com/item?id=22027459][Deploy your side-projects at scale for basically nothing – Google Cloud Run]] :hpi:promnesia:project:
 :PROPERTIES:
-:ID:       b5c4032ad72b1062a77f8cf808189f63
+:ID:       snsnwsycmbntrcmtmddplyyrstsclfrbscllynthnggglcldrn
 :END:
 https://alexolivier.me/posts/deploy-container-stateless-cheap-google-cloud-run-serverless
 ** [2020-08-15] can deploy docker container and run?
 :PROPERTIES:
-:ID:       3e4c442053e35cb9074deb29fa9714b9
+:ID:       stcndplydckrcntnrndrn
 :END:
 * TODO [#D] figure out unmatching origin/master? always check it even without fetch?? :clustergit:
 :PROPERTIES:
 :CREATED:  [2018-11-27]
-:ID:       ebf97e0e4a1f9c33d97a81afd078da22
+:ID:       fgrtnmtchngrgnmstrlwyschcktvnwthtftch
 :END:
 * TODO [#C] [2019-08-18] Elasticlunr.js, lightweight full-text search engine in Javascript for browser search and offline search. :search:
 :PROPERTIES:
-:ID:       bd86210123c5d1389aa2087cedf35f46
+:ID:       snlstclnrjslghtwghtflltxtcrptfrbrwsrsrchndfflnsrch
 :END:
 http://elasticlunr.com/
 I think I'm using it in scrapyroo.. perhaps I should index all my git repos?
 * STRT [#C] NOCOMMIT global hook?                                       :git:
 :PROPERTIES:
 :CREATED:  [2018-12-31]
-:ID:       b1327c496de1f9294f40cee0c8c34983
+:ID:       ncmmtglblhk
 :END:
 
 * [#C] [2019-09-01] vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources :search:
 :PROPERTIES:
-:ID:       414f9fe25758155d14a1d9b33f34e85d
+:ID:       snvntwsmpythncrtdlstfwsmpnfrmwrkslbrrssftwrndrsrcs
 :END:
 https://github.com/vinta/awesome-python
 : fuzzywuzzy - Fuzzy String Matching.
 * TODO [#C] [2019-06-29] mark-rushakoff/awesome-influxdb: A curated list of awesome projects, libraries, tools, etc. related to InfluxDB :influx:
 :PROPERTIES:
-:ID:       53d4fc6d56705a5b8ebee3132cc82270
+:ID:       stmrkrshkffwsmnflxdbcrtdljctslbrrstlstcrltdtnflxdb
 :END:
 https://github.com/mark-rushakoff/awesome-influxdb

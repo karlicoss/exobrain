@@ -5,11 +5,11 @@ I write more about it [[https://beepb00p.xyz/orger.html][here]] and [[https://be
 
 * [#A] * motivation
 :PROPERTIES:
-:ID:       5e30ea71f152d2f6289947aa561fd746
+:ID:       mtvtn
 :END:
 ** STRT [#B] [2020-03-22] Reddit's Save Functionality Sucks | My Random Thoughts by Cedric Amaya :reddit:exports:
 :PROPERTIES:
-:ID:       aa2b0cac1ebfc73a5a6100cade43f3e8
+:ID:       snrddtssvfnctnltyscksmyrndmthghtsbycdrcmy
 :END:
 https://cedric.tech/blog/reddits-save-functionality-sucks/
 : For those unaware, saving things on Reddit as a non-Premium member works in the following way:
@@ -23,11 +23,11 @@ wow, the fuck?? they are deleted from history??
 ** TODO [#C] motivation: I've got reddit, hackernews (no api, so mobile is separate), links from telegram, RSS :blog:orger:
 :PROPERTIES:
 :CREATED:  [2020-03-21]
-:ID:       94cf4300541138de407d707d261ef42d
+:ID:       mtvtnvgtrddthckrnwsnpsmblssprtlnksfrmtlgrmrss
 :END:
 ** STRT [#C] [2020-02-15] https://news.ycombinator.com/item?id=22177077 :reddit:
 :PROPERTIES:
-:ID:       2cd774c1404446479faf14c2bf6f574f
+:ID:       stsnwsycmbntrcmtmd
 :END:
 : I'm tackling the issue of managing Reddit saves.
 : Across all platforms (not just Reddit), people including myself like to save/bookmark interesting content in the hopes of getting some use out of it later.
@@ -35,109 +35,109 @@ wow, the fuck?? they are deleted from history??
 
 * [#B] * additional modules
 :PROPERTIES:
-:ID:       5a096b3187bbbe924c0cd5f101b98aaf
+:ID:       ddtnlmdls
 :END:
 ** STRT [#C] youtube -- could mark as deleted if link = title?    :hpi:orger:
 :PROPERTIES:
 :CREATED:  [2019-09-20]
-:ID:       64fde60d35383afee4d1a525569b6d91
+:ID:       ytbcldmrksdltdflnkttl
 :END:
 ** TODO [#C] mirror emails, but maybe to people only? e.g. some reasonable volume cutoff to exclude notifications etc? :orger:hpi:
 :PROPERTIES:
 :CREATED:  [2020-03-18]
-:ID:       51b4755a5cf21517eb9cfc9d29358140
+:ID:       mrrrmlsbtmybtpplnlygsmrsnblvlmctfftxcldntfctnstc
 :END:
 ** TODO [#C] [2020-03-24] lobste.rs/s/r9oskz.json                 :orger:hpi:
 :PROPERTIES:
-:ID:       26f32a223ce4b8c5f97bf8b1293830d9
+:ID:       tlbstrssrskzjsn
 :END:
 https://lobste.rs/saved.json
 : port saved lobsters posts?
 ** DONE [#C] feedbin?                                       :promnesia:orger:
 :PROPERTIES:
 :CREATED:  [2019-05-05]
-:ID:       7e99342bbe1e11be1cd16963bd8445aa
+:ID:       fdbn
 :END:
 ** TODO [#C] convert screenshots to todos? timestamp from created data, otherwise parse stuff :hpi:orger:
 :PROPERTIES:
 :CREATED:  [2020-10-12]
-:ID:       e057e5c01a3cea941b388965071b98c0
+:ID:       cnvrtscrnshtsttdstmstmpfrmcrtddtthrwsprsstff
 :END:
 ** TODO [#C] Mastodon bookmarks? And post after              :orger:mastodon:
 :PROPERTIES:
 :CREATED:  [2020-05-21]
-:ID:       730b7844d3cdb65efd88cdaee96c8dfb
+:ID:       mstdnbkmrksndpstftr
 :END:
 * [#C] * publicity
 :PROPERTIES:
-:ID:       8309fbb31a32bf4ac163fcc8c3db8302
+:ID:       pblcty
 :END:
 ** TODO [#B] example of adding materialistic module -- literally a matter of two commits?
 :PROPERTIES:
 :CREATED:  [2020-01-27]
-:ID:       3a6f4ef1b629f673cd15af3b7cdadae1
+:ID:       xmplfddngmtrlstcmdlltrllymttrftwcmmts
 :END:
 ** [#B] [2020-06-08] the idea is that modules are simple and short enough for you to simply copy and modify as you wish
 :PROPERTIES:
-:ID:       0ea435a3ac72d2ac97734ce43a8eb39c
+:ID:       mnthdsthtmdlsrsmplndshrtnghfrytsmplycpyndmdfysywsh
 :END:
 thanks to decoupling the data retrieval (#hpi)
 
 ** TODO [#C] post updated polar module                                :tweet:
 :PROPERTIES:
 :CREATED:  [2020-05-15]
-:ID:       f55f36a1a458cae190a69231b0a4a8ec
+:ID:       pstpdtdplrmdl
 :END:
 ** STRT [#C] exporter from telegram to org-mode
 :PROPERTIES:
 :CREATED:  [2018-11-07]
-:ID:       e941eda6495b89008958e0f3be54981d
+:ID:       xprtrfrmtlgrmtrgmd
 :END:
 * [#B] * todos
 :PROPERTIES:
-:ID:       2fb2efd7c3f8860196e697d37cc3b45f
+:ID:       tds
 :END:
 ** TODO [#C] need to use highlight as title?
 :PROPERTIES:
 :CREATED:  [2019-05-11]
-:ID:       ed91e7c315ad91ca8c49eb529ce9bc4a
+:ID:       ndtshghlghtsttl
 :END:
 ** TODO [#B] special mode to exit with 1 when error is encountered? and sep mode for appending errors :errors:
 :PROPERTIES:
 :CREATED:  [2020-06-01]
-:ID:       cc22d975aecc23f3beabfadfbdf63279
+:ID:       spclmdtxtwthwhnrrrsncntrdndspmdfrppndngrrrs
 :END:
 
 ** TODO [#C] hmm. maybe preserve the order? since there is no date when you liked something :hpi:twitter:
 :PROPERTIES:
 :CREATED:  [2020-05-25]
-:ID:       53092362d9f6d138928fbe8ec5b21883
+:ID:       hmmmybprsrvthrdrsncthrsndtwhnylkdsmthng
 :END:
 ** TODO [#B] for reddit, need to use pandoc
 :PROPERTIES:
 :CREATED:  [2020-12-10]
-:ID:       bfdb904b8a10de83df82491ab89c30a9
+:ID:       frrddtndtspndc
 :END:
 ** TODO [#B] reddit -- use colon to quote?
 :PROPERTIES:
 :CREATED:  [2020-07-31]
-:ID:       244c8c20d6817e248a16adbad2e63250
+:ID:       rddtsclntqt
 :END:
 ** TODO [#C] reddit -- use quoting and convert syntax via pandoc?
 :PROPERTIES:
 :CREATED:  [2020-07-20]
-:ID:       bcb9b08dcbb9fd2ab7b74e715b3dcf02
+:ID:       rddtsqtngndcnvrtsyntxvpndc
 :END:
 
 * TODO [#B] feels more and more that they should be a single tool :memex:promnesia:orger:
 :PROPERTIES:
 :CREATED:  [2020-02-27]
-:ID:       46c6ed8215e1bb1f423bbab85152d9d1
+:ID:       flsmrndmrthtthyshldbsngltl
 :END:
 
 * [#C] [2020-05-31] [[https://github.com/novoid/Memacs/blob/master/docs/FAQs_and_Best_Practices.org][novoid/Memacs: FAQs and Best Practices.org]] :errors:orger:
 :PROPERTIES:
-:ID:       62ab657c237a7386b6b2e2bf96b43bfa
+:ID:       snsgthbcmnvdmmcsblbmstrdcrgnvdmmcsfqsndbstprctcsrg
 :END:
 : Because our memacs-modules run automatically, it would be difficult to be notified in case of an error.
 : So memacs-modules handle errors by appending them to a file:
@@ -148,32 +148,32 @@ Very nice pattern, could use it for other stuff too
 
 * related                                                         :memex:pkm:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:
 
 
 * [#D] amend
 :PROPERTIES:
-:ID:       f1a91827018f161918c734379d32c6e3
+:ID:       mnd
 :END:
 * TODO [#B] [2020-05-20] add examples? [[https://github.com/karlicoss/orger#types-of-modules][karlicoss/orger: Tool to convert data into searchable and interactive org-mode views]]
 :PROPERTIES:
-:ID:       b6ee87de59d463a6f49abd249f41187b
+:ID:       wdddxmplssgthbcmkrlcssrgrdtntsrchblndntrctvrgmdvws
 :END:
 : Mirror (old name StaticView): mirrors all data from a source, and generated from scratch every time, hence read only.
 * STRT [#C] attempt to generate literate readme              :orger:literate:
 :PROPERTIES:
 :CREATED:  [2019-10-05]
-:ID:       0bebb6cfa7a650a2d7a9ac8a375abd87
+:ID:       ttmpttgnrtltrtrdm
 :END:
 
 ** [2019-10-05] fuck. multiline result can't be used...
 :PROPERTIES:
-:ID:       09e3e2d4753686e946e44f019eec1cc2
+:ID:       stfckmltlnrsltcntbsd
 :END:
 * TODO [#C] [2019-10-20] Orger part II: reading Reddit via org-mode, quick todos from chat messages and spaced repetition : orgmode
 :PROPERTIES:
-:ID:       6f429512ed68dc3e5179bdb64c6700b8
+:ID:       snrgrprtrdngrddtvrgmdqcktrmchtmssgsndspcdrpttnrgmd
 :END:
 https://www.reddit.com/r/orgmode/comments/dgdej4/orger_part_ii_reading_reddit_via_orgmode_quick/
 : All right. I am trying to install it. I have installed python on Windowz.
@@ -184,5 +184,5 @@ https://www.reddit.com/r/orgmode/comments/dgdej4/orger_part_ii_reading_reddit_vi
 create issue in orger repo
 * [#C] [2020-01-30] [karlicoss/orger] Include/support/contribute orgformat (#5) - karlicoss@gmail.com - Gmail
 :PROPERTIES:
-:ID:       c11d0c6caf148d7ca57cf824e9eebb28
+:ID:       thkrlcssrgrncldspprtcntrbtrgfrmtkrlcssgmlcmgml
 :END:

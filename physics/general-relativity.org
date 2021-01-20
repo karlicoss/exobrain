@@ -6,19 +6,19 @@ Geodesics: takes vectors that are tangent to themselves and keeps them tangent w
 
 * TODO [#B] resource recommendations
 :PROPERTIES:
-:ID:       082786dd55da82f76b09667110242037
+:ID:       rsrcrcmmndtns
 :END:
 https://physics.stackexchange.com/questions/363/books-for-general-relativity
 
 * TODO [#A] baez tutorial
 :PROPERTIES:
-:ID:       275551c3e9ea34faf76e982ce5bc03e3
+:ID:       bzttrl
 :END:
 http://math.ucr.edu/home/baez/gr/gr.html
 
 ** http://math.ucr.edu/home/baez/einstein/node3.html
 :PROPERTIES:
-:ID:       eaf80db2ff502ee61820abd019311be9
+:ID:       mthcrdhmbznstnndhtml
 :END:
 We promised to state Einstein's equation in plain English, but have not done so yet. Here it is
    Given a small ball of freely falling test particles initially at rest with respect to each other, the rate at which it begins to shrink is proportional to its volume times: the energy density at the center of the ball, plus the pressure in the $x$ direction at that point, plus the pressure in the $y$ direction, plus the pressure in the $z$ direction.
@@ -26,23 +26,23 @@ We promised to state Einstein's equation in plain English, but have not done so 
 huh!   
 ** http://math.ucr.edu/home/baez/einstein/node6a.html newthon's law derivation -- go through
 :PROPERTIES:
-:ID:       758ba78d8f049868630a7c4e4370e6f8
+:ID:       mthcrdhmbznstnndhtmlnwthnslwdrvtngthrgh
 :END:
 
 * START [2014-07-15]  sean carroll lecture notes on general relativity
 :PROPERTIES:
-:ID:       51097427b0b4cfc8d86e40eee83571b6
+:ID:       tsncrrlllctrntsngnrlrltvty
 :END:
 many people recommend it (e.g. on Reddit)
 http://www.preposterousuniverse.com/grnotes/
 
 ** parallel transport depends on path. actually that's why relative velocity doesn't make sense.
 :PROPERTIES:
-:ID:       8827bcca522936dd3e691b64c5233845
+:ID:       prllltrnsprtdpndsnpthctllthtswhyrltvvlctydsntmksns
 :END:
 ** equation of paralllel transport. in a sense, it's a IVP
 :PROPERTIES:
-:ID:       d83ae49052ba6ac0e29e5cd8f48fc974
+:ID:       qtnfprlllltrnsprtnsnstsvp
 :END:
 parallel propagator
 ok, we get geodesic equatiion from the parellel transport equation
@@ -50,12 +50,12 @@ ok, we get geodesic equatiion from the parellel transport equation
 * START ANN [Carroll][2014] Spacetime and Geometry. An Introduction to General Relativity.pdf
 :PROPERTIES:
 :CREATED:  [2018-07-09]
-:ID:       ff39ba7d6f752620393d29630827b9ff
+:ID:       nncrrllspctmndgmtrynntrdctntgnrlrltvtypdf
 :END:
 
 ** p.6 synchronised clocks: from point a to b and back to a, then t_b = (t_a + t_a') / 2
 :PROPERTIES:
-:ID:       9a8f16dba8a67389637dabf0c93f0770
+:ID:       psynchrnsdclcksfrmpnttbndbcktthntbtt
 :END:
 natural generalisation of cartesian coordinates in space
 if we construct coordinates that way, it's called inertial frame
@@ -64,23 +64,23 @@ if we construct coordinates that way, it's called inertial frame
 
 ** p.8 coordinates are superscripts, metric tensor is subscripts
 :PROPERTIES:
-:ID:       31cf438fae3392689b997b29d59d846b
+:ID:       pcrdntsrsprscrptsmtrctnsrssbscrpts
 :END:
 
 ** p.9 timelike particles is travelling slower than light
 :PROPERTIES:
-:ID:       b71aebfe736e650e217c4ca29a104165
+:ID:       ptmlkprtclsstrvllngslwrthnlght
 :END:
 proper time is ds (where -ds^2 < 0)
 ** p.11 nonstraight path has a shorter proper time
 :PROPERTIES:
-:ID:       48c2200cc6b3fe76ccafd74b8b22898f
+:ID:       pnnstrghtpthhsshrtrprprtm
 :END:
 interval -- integral of sqrt(n_uv d^u/dlam d^v/dlam dlam)
 
 ** p. 13 Lorentz transformations, lorentz group
 :PROPERTIES:
-:ID:       ca193526b988ee07f771a690a1ae1c77
+:ID:       plrntztrnsfrmtnslrntzgrp
 :END:
 boost - rotations between space and time
 Poincare group
@@ -90,12 +90,12 @@ spacetime transformations: axes are orthogonal in the lorenzian sense
 
 ** p.15 once the space is curved, we can't move vectors freely anymore. tangent space T_p
 :PROPERTIES:
-:ID:       7713609b70de8acc1043d385019474fd
+:ID:       pncthspcscrvdwcntmvvctrsfrlynymrtngntspctp
 :END:
 
 ** p. 19
 :PROPERTIES:
-:ID:       71b3b41d156e76133cc4212d1890b4af
+:ID:       p
 :END:
 T_p -- contravariant vectors
 T^*_p -- covariant vectors
@@ -106,37 +106,37 @@ levi-civita symbol: eps_uvpo = +1/-1/0 -- if even/odd permutation/otherwise
 
 ** p.24
 :PROPERTIES:
-:ID:       5378a3f5c7f2277e0c7d76d8c6ba8c45
+:ID:       p
 :END:
 metric, inverse metric, kronecker delta and the levi-civita symbol -- their components are unchanged in _any_ inertial coordinate frame in flat spacetime (and these are the _only_ tensors with suck property)
 kronecker -- identity map from vectors to vectors, so should have same components regardless
 *** hmm, must have something to do with determinant? https://physics.stackexchange.com/a/281185/40624
 :PROPERTIES:
-:ID:       f3fe14e67718fe9eb0f4edb77ca85a49
+:ID:       hmmmsthvsmthngtdwthdtrmnntsphyscsstckxchngcm
 :END:
   if we are referring to the same Levi-Civita symbol, i.e. the completely antisymmetric symbol, then this is not a tensor. It is a tensor density of weight −1, which means that under a general coordinate transformation it gets multiplied by the inverse Jacobian of the transformation. 
 hmm
 
 *** magnetic and electric fields -- are only vectors under rotations in space. in facet -- components of EM (0, 2) tensor
 :PROPERTIES:
-:ID:       a6c88a83b19afefa464a1c93627907a6
+:ID:       mgntcndlctrcfldsrnlyvctrsttnsnspcnfctcmpnntsfmtnsr
 :END:
 
 ** p. 30 -- covariant form of equations means tensorial -- has nothing to do with 'covariant' as oppposed to 'contravariant'
 :PROPERTIES:
-:ID:       b2375b1a6617c1b3f47a520be9a2e559
+:ID:       pcvrntfrmfqtnsmnstnsrlhsntdwthcvrntspppsdtcntrvrnt
 :END:
 
 ** p 31 -- the fact that spacetime is flat allows a unique choice of straight line between the points
 :PROPERTIES:
-:ID:       e0aa4fa9530c15f60867bfc915262f2b
+:ID:       pthfctthtspctmsfltllwsnqchcfstrghtlnbtwnthpnts
 :END:
 timelike particles -- useful to parameterise them by proper time (sometimes you can experess tau(lambda) and then transform to x(tau)). 4-velocity is the tangent vector in this parameterisation
 4-velocity is always normalised -- makes sense since it's velocity through spacetime
 
 ** p 32
 :PROPERTIES:
-:ID:       caaed235829f7bed43e1311c81455d02
+:ID:       p
 :END:
 mass is a fixed quantity independent of inertial frame, 'rest mass'
 hmmm, unclear...
@@ -145,22 +145,22 @@ wiki says that by definition the invariant mass is ratio of 4-momentum to 4-velo
 that actually makes more sense
 *** eq 1.106 -- wonder if it's the 'type directed' inference that guy mentioned
 :PROPERTIES:
-:ID:       73998a276ebda9eed359b276da657071
+:ID:       qwndrftsthtypdrctdnfrncthtgymntnd
 :END:
 ** p 33
 :PROPERTIES:
-:ID:       807e5023a61c0ec4394cf8ae54fcebdd
+:ID:       p
 :END:
 energy-momentum tensor -- flux of momentum p^u throught a surface of constant x^v
 ** p 34
 :PROPERTIES:
-:ID:       c60934ae9a9b7b6c0696db4ef456f4a8
+:ID:       p
 :END:
 derivation of energy-momentum tensor for dust
 
 ** TODO ok, do exercises, p. 45
 :PROPERTIES:
-:ID:       934f533272654561e7007cbd2d501c2c
+:ID:       kdxrcssp
 :END:
 
 
@@ -169,18 +169,18 @@ derivation of energy-momentum tensor for dust
 * START some pdf at work.. calculating levi-civita symbols for cylinder
 :PROPERTIES:
 :CREATED:  [2018-07-12]
-:ID:       c52539584dc1fc2afc71d47dc14cba36
+:ID:       smpdftwrkclcltnglvcvtsymblsfrcylndr
 :END:
 
 * START play with metric tensor a bit
 :PROPERTIES:
 :CREATED:  [2018-07-12]
-:ID:       9d63aff6c9b88a1aea2211a3adcf9b1e
+:ID:       plywthmtrctnsrbt
 :END:
 
 ** DONE suppose metric is dS = x^2 dx + dy^2.  What does that mean?
 :PROPERTIES:
-:ID:       adf6775ceaccd5b60b5c2c57ca3897e1
+:ID:       sppsmtrcsdsxdxdywhtdsthtmn
 :END:
 first, analyse the dS. The further away we are from origin, the longer is line element.
 TODO what does that mean? 
@@ -225,7 +225,7 @@ ok, so take two observers. one is at 0, another is at 100.
 right... so curves don't have intrinsic curvature! therefore, curvature is undetectable by the inhabitants of that world
 ** ok, let's do something more funny... suppose dS = y^2dx^2 + x^2dy^2
 :PROPERTIES:
-:ID:       9fa758ae69919c91ae704fca1848d1a6
+:ID:       kltsdsmthngmrfnnysppsdsydxxdy
 :END:
 metric tensor   
 Diag [y^2, x^2]
@@ -241,7 +241,7 @@ yikes! https://wolframalpha.com/input/?i=solve+x%27%27+%2B+(-x%2Fy%5E2+y%27%5E2)
 
 ** ok, another attempt... ds = dr^2 + r^2 dq^2
 :PROPERTIES:
-:ID:       9e98e267f055bfc26d7c0cb05928d02f
+:ID:       knthrttmptdsdrrdq
 :END:
 Diag[1, R^2]
 christoffel: 
@@ -253,7 +253,7 @@ huh it's actually in Caroll lecture notes, page 60
 
 ** leftovers during me doing the exercise
 :PROPERTIES:
-:ID:       5e0884936d0311a418566d34a522a07e
+:ID:       lftvrsdrngmdngthxrcs
 :END:
 in general its too hard to do geodesics in full generality. sooften we justchoose a path and see if its a geodesic! and a natural one to choose is a pathdefined by only one of the parameters - its called a parameter curve
 
@@ -272,22 +272,22 @@ So Christoffel symbols are like the metric - they do tell us about curvature(wha
 
 * TODO physicspages stuff -- it's actually very decent!
 :PROPERTIES:
-:ID:       e58c439777dd0770620f9cdc42a5fe68
+:ID:       physcspgsstfftsctllyvrydcnt
 :END:
 http://www.physicspages.com/Index%20-%20Relativity.html
 ** TODO 2D exponential metric http://physicspages.com/pdf/Moore/Moore%20Problems%2008.06.pdf
 :PROPERTIES:
-:ID:       ee06d41e51bc6004a1aaebdc7900cf4d
+:ID:       dxpnntlmtrcphyscspgscmpdfmrmrprblmspdf
 :END:
 ** TODO geodesics on a sphere http://www.physicspages.com/Index%20-%20Relativity.html
 :PROPERTIES:
-:ID:       406d49eb4ecca28a0ed193c208ec6f29
+:ID:       gdscsnsphrwwwphyscspgscmndxrltvtyhtml
 :END:
 
 
 * [Takeuchi][2010] An Illustrated Guide to Relativity
 :PROPERTIES:
-:ID:       694d1ba9d3f1dba0e26b82345774dcb6
+:ID:       tkchnllstrtdgdtrltvty
 :END:
 - Your Bookmark on Page 43 | Added on Sunday, August 4, 2013 12:00:22 AM
   illustration how a unit cell in c-t space shifts to a parallelogram, not very interesting
@@ -299,7 +299,7 @@ http://www.physicspages.com/Index%20-%20Relativity.html
 
 * [#D] [2015-03-16] some old notes
 :PROPERTIES:
-:ID:       8eec9490a92fa7f901fd224da577dd09
+:ID:       mnsmldnts
 :END:
 : Parallel transport: TODO
 : 
@@ -394,5 +394,5 @@ http://www.physicspages.com/Index%20-%20Relativity.html
 
 * related                                                :physics:relativity:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:

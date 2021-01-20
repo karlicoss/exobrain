@@ -6,7 +6,7 @@
 
 * Propositional equality
 :PROPERTIES:
-:ID:       3b7ac0546c290837d0dc12fab530a141
+:ID:       prpstnlqlty
 :END:
 #+begin_src
   data _≡_ {A : Set} : A → A → Set where
@@ -18,7 +18,7 @@
 
 * Natural numbers
 :PROPERTIES:
-:ID:       6c8999eb44d0cab363ece47589dff756
+:ID:       ntrlnmbrs
 :END:
 #+begin_src
   data ℕ : Set where
@@ -28,7 +28,7 @@
 
 * Finite type
 :PROPERTIES:
-:ID:       8cff9cdf3473d1c2ded26f21c4388f95
+:ID:       fnttyp
 :END:
 #+begin_src
   data Fin : ℕ → Set where

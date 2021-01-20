@@ -3,15 +3,15 @@
 
 * testing                                                           :testing:
 :PROPERTIES:
-:ID:       ae2b1fca515949e5d54fb22b8ed95575
+:ID:       tstng
 :END:
 ** nose is abandoned
 :PROPERTIES:
-:ID:       dd242f17627ca96651f853d9c302aa3b
+:ID:       nssbndnd
 :END:
 ** pytest is the best apparently                                     :pytest:
 :PROPERTIES:
-:ID:       390054ae7eb9b463f27fb39f5c4f0a07
+:ID:       pytststhbstpprntly
 :END:
 - uses the built in =assert=
   : assert 1 == 1, 'This is my error message, which is optional'
@@ -25,11 +25,11 @@
 
 * logging
 :PROPERTIES:
-:ID:       ad8a2265fa17b7808fca5ae77cada94f
+:ID:       lggng
 :END:
 ** simple
 :PROPERTIES:
-:ID:       8dbdda48fb8748d6746f1965824e966a
+:ID:       smpl
 :END:
 : import logging
 : logging.basicConfig(level=logging.INFO) # apparently callin basicconfig at least one is important
@@ -37,27 +37,27 @@
 
 ** use ~logzero~ for nice colored logs
 :PROPERTIES:
-:ID:       451eb16eee75610a9e241318cdec44fd
+:ID:       slgzrfrncclrdlgs
 :END:
 
 * json                                                                 :json:
 :PROPERTIES:
-:ID:       466deec76ecdf5fca6d38571f6324d54
+:ID:       jsn
 :END:
 ** ~json.dump(jobj, stdout, indent=4, sort_keys=True, ensure_ascii=False)~
 :PROPERTIES:
-:ID:       563278d5926a03e85eb2e2c08d343c96
+:ID:       jsndmpjbjstdtndntsrtkystrnsrscfls
 :END:
 
 
 * TODO asyncio
 :PROPERTIES:
-:ID:       ee6541e67770f6f71c9de9fbdf4167ea
+:ID:       sync
 :END:
 
 * [#B] [2020-02-12] Guido van Rossum on Twitter: "@jonasrk You missed mypy. Simpler docs use markdown, not ReST (Sphinx). Black is overrated unless your team argues over style a lot. You don't need Pylint if you're using flake8. Never heard of poetry or dependabot. And you should use a CI solution, e.g. Travis-CI, to run your tests." / Twitter https://twitter.com/gvanrossum/status/1227126706089021440
 :PROPERTIES:
-:ID:       19c320743326ccea0dd48700f5226f0c
+:ID:       wdgdvnrssmntwttrjnsrkymssstwttrstwttrcmgvnrssmstts
 :END:
 : You don't need Pylint if you're using flake8
 
@@ -65,5 +65,5 @@ hmm
 
 * [#C] [2018-05-08] configuration via class variables -- not great while testing since configuration has to be reloaded...
 :PROPERTIES:
-:ID:       0cadc844e1747fa90854b19813b6da4e
+:ID:       tcnfgrtnvclssvrblsntgrtwhltstngsnccnfgrtnhstbrldd
 :END:

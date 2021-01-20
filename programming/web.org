@@ -3,49 +3,49 @@
 
 * related                                                       :js:css:html:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:
 TODO weird. why didn't this work?  #js #css #html etc
 
 * CSS                                                                   :css:
 :PROPERTIES:
-:ID:       2c56c360580420d293172f42d85dfbed
+:ID:       css
 :END:
 ** STRT [#C] [2019-11-11] A Complete Guide to Flexbox | CSS-Tricks     :flex:
 :PROPERTIES:
-:ID:       0a8dc27fe1ca9351e40fd20ad988dafc
+:ID:       mncmpltgdtflxbxcsstrcks
 :END:
 https://css-tricks.com/snippets/css/a-guide-to-flexbox
 * [#C] [2019-10-27] ~<pre>~ tag respects newlines                      :html:
 :PROPERTIES:
-:ID:       ccfb18183f0f230c8b7a361279a4feb9
+:ID:       snprtgrspctsnwlns
 :END:
 * TODO [#C] [2019-08-28] Managing HTML5 Offline Storage - Google Chrome https://developer.chrome.com/apps/offline_storage#temporary
 :PROPERTIES:
-:ID:       a5f6c6f3e52e9dd69a41ced176fb8fe2
+:ID:       wdmngnghtmlfflnstrggglchrprchrmcmppsfflnstrgtmprry
 :END:
 : Each app can have up to 20% of the shared pool. As an example, if the total available disk space is 60 GB, the shared pool is 20 GB, and the app can have up to 4 GB. This is calculated from 20% (up to 4 GB) of 1/3 (up to 20 GB) of the available disk space (60 GB).
 * [#B] [2020-01-30] microsoft/playwright: Node library to automate Chromium, Firefox and WebKit with a single API :testing:
 :PROPERTIES:
-:ID:       17d96b543ccc5e40c1c653df1a7cec0d
+:ID:       thmcrsftplywrghtndlbrryttmtchrmmfrfxndwbktwthsnglp
 :END:
 https://github.com/microsoft/playwright
 : Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer project is active and is maintained by Google.
 ** [2020-01-30] microsoft/playwright: Node library to automate Chromium, Firefox and WebKit with a single API
 :PROPERTIES:
-:ID:       ffd331b911dac3411f9165a0234f6752
+:ID:       thmcrsftplywrghtndlbrryttmtchrmmfrfxndwbktwthsnglp
 :END:
 https://github.com/microsoft/playwright
 : [capabilities] With Playwright, we aim at providing a more capable driver, including support for mobile viewports, touch, web & service workers, geolocation, csp, cookie policies, permissions, accessibility, etc.
 * [#C] [2019-07-20] Responsive Design Mode - Firefox Developer Tools | MDN
 :PROPERTIES:
-:ID:       011516d56e9598dfdaef56adf4cb7194
+:ID:       strspnsvdsgnmdfrfxdvlprtlsmdn
 :END:
 https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode
 
 * TODO [#C] [2019-08-18] dypsilon/frontend-dev-bookmarks: Manually curated collection of resources for frontend web developers.
 :PROPERTIES:
-:ID:       6bf53caa19a6f94a551a7fd9abf4ae12
+:ID:       sndypslnfrntnddvbkmrksmnlctnfrsrcsfrfrntndwbdvlprs
 :END:
 https://github.com/dypsilon/frontend-dev-bookmarks#readme
 : Workflow
@@ -53,5 +53,5 @@ https://github.com/dypsilon/frontend-dev-bookmarks#readme
 * TODO Firefox devtools color vision deficiency
 :PROPERTIES:
 :CREATED:  [2020-02-21]
-:ID:       14a9eb05f2c063ec2fa1a73ccf2b0ba8
+:ID:       frfxdvtlsclrvsndfcncy
 :END:

@@ -10,24 +10,24 @@ Github project: https://github.com/karlicoss/dron
 * TODO [#A] I think I need to enable/start regardless changes; just in case
 :PROPERTIES:
 :CREATED:  [2020-03-08]
-:ID:       2215e3198069c8c79b96523d2eb64add
+:ID:       thnkndtnblstrtrgrdlsschngsjstncs
 :END:
 * TODO [#B] managed view -- would be nice to display timers only; and a command on a keypress. like cron
 :PROPERTIES:
 :CREATED:  [2020-03-16]
-:ID:       7b411438485ef27e32a294a854734c05
+:ID:       mngdvwwldbnctdsplytmrsnlyndcmmndnkyprsslkcrn
 :END:
 * [#B] readme/post amendemens?                                         :blog:
 :PROPERTIES:
-:ID:       3fdddc09a6404a363f620d3947f8de5e
+:ID:       rdmpstmndmns
 :END:
 ** [2020-03-18] eh, I'm finding that copy paste in crontabs is not too bad as long as you align everything...
 :PROPERTIES:
-:ID:       e93f0821daf9b7100ba078482a5f1744
+:ID:       wdhmfndngthtcpypstncrntbssnttbdslngsylgnvrythng
 :END:
 ** [#D] [2020-04-08] it's easier to align in python, because of string concatenation
 :PROPERTIES:
-:ID:       42f2a36913dd49804cb0335d1b6e3a2b
+:ID:       wdtssrtlgnnpythnbcsfstrngcnctntn
 :END:
 compare:
 
@@ -45,109 +45,109 @@ vs
 ** TODO [#D] motivation: crontabs are hard to keep under version control. if you got different on different machines, hard to reconcile
 :PROPERTIES:
 :CREATED:  [2020-04-08]
-:ID:       1611f92f9d0e3f90914f61db188b9e68
+:ID:       mtvtncrntbsrhrdtkpndrvrsnfrntndffrntmchnshrdtrcncl
 :END:
 ** TODO [#D] why
 :PROPERTIES:
 :CREATED:  [2020-01-25]
-:ID:       531e70a6745d07a8befbd79e5cc7e4c1
+:ID:       why
 :END:
 - running custom jobs is easier
 - you can just start any jobs (+autocomplete)
 * TODO [#B] [2020-05-29] I guess what I was confused about was that if the job is running simultaneouslyu to previous instance, it's silently not running
 :PROPERTIES:
-:ID:       ded86046708a952bfb5b30120b928e29
+:ID:       frgsswhtwscnfsdbtwsthtfthtprvsnstnctsslntlyntrnnng
 :END:
 ** [2020-05-29] wonder if could email on this!
 :PROPERTIES:
-:ID:       ff3f66a1a31f3db87855dec745e5abaa
+:ID:       frwndrfcldmlnths
 :END:
 * TODO [#B] hmm, managed status drops after reinstalling crontabs... I guess, timers?
 :PROPERTIES:
 :CREATED:  [2020-03-16]
-:ID:       53a21f3a3c84fffcefa58a2a5fd9bd2b
+:ID:       hmmmngdsttsdrpsftrrnstllngcrntbsgsstmrs
 :END:
 * TODO [#B] simple frontend for Systemd,
 :PROPERTIES:
 :CREATED:  [2020-05-13]
-:ID:       98fd83a434fd6f89adf0bfc81d60a875
+:ID:       smplfrntndfrsystmd
 :END:
 Not frontend, generator?
 * STRT [#B] shit, monitor is consuming quite a bit of CPU. should run less often I guess.. wonder if possible to only run when I look at it?
 :PROPERTIES:
 :CREATED:  [2020-06-12]
-:ID:       1c135f193bcf4e5c07830118502ecd62
+:ID:       shtmntrscnsmngqtbtfcpshldsswndrfpssbltnlyrnwhnlktt
 :END:
 * TODO [#B] conflicting jobs, e.g. promnesia generator and db backer
 :PROPERTIES:
 :CREATED:  [2018-05-31]
-:ID:       9bae0a855b7bbfcd8630f2df87bc891c
+:ID:       cnflctngjbsgprmnsgnrtrnddbbckr
 :END:
 maybe there should be multiple tags? if two jobs got same tags, they can't run at the same time
 implemented via flocks on files named same as tags
 
 * TODO [#B] [2019-10-24] to enable the systemd service you can run the following. :systemd:
 :PROPERTIES:
-:ID:       3353803094da4f763c767a26dff36816
+:ID:       thtnblthsystmdsrvcycnrnthfllwng
 :END:
 : systemctl --user enable --now matrixcli
 * TODO [#C] create separate target (instead of timers.target)? that way it'd be less messy
 :PROPERTIES:
 :CREATED:  [2020-03-08]
-:ID:       1fea4a2c408dd02c10ba5e1ee70eda75
+:ID:       crtsprttrgtnstdftmrstrgtthtwytdblssmssy
 :END:
 * TODO [#C] lobsters maybe and elsewhere? when it gets a bit more mature :publish:
 :PROPERTIES:
 :CREATED:  [2020-01-26]
-:ID:       ef59e1381f118c3ea21acdd2bc496d68
+:ID:       lbstrsmybndlswhrwhntgtsbtmrmtr
 :END:
 * TODO [#C] jcu got lots of potentially useful stuff..
 :PROPERTIES:
 :CREATED:  [2020-01-24]
-:ID:       05e3916b47d9f0669cb98843356fd2b5
+:ID:       jcgtltsfptntllysflstff
 :END:
 :  -t --identifier=STRING     Show entries with the specified syslog identifier
 :   -p --priority=RANGE        Show entries with the specified priority
 * TODO [#C] Wonder if there is a way to overview _all_ systems job failures over past boot?
 :PROPERTIES:
 :CREATED:  [2020-01-25]
-:ID:       42bb8388bde4204b734b81ec5944c4b7
+:ID:       wndrfthrswytvrvwllsystmsjbflrsvrpstbt
 :END:
 * STRT [#C] post about it? really need a proper circleci test...    :publish:
 :PROPERTIES:
 :CREATED:  [2020-01-25]
-:ID:       71a066cd4ff2f1f0762e7a5f2ac7f26b
+:ID:       pstbttrllyndprprcrclctst
 :END:
 * [#C] [2020-01-28] arch linux - systemd: cpu usage of services - Super User https://superuser.com/questions/1060670/systemd-cpu-usage-of-services
 :PROPERTIES:
-:ID:       6a312cfd2205428faf05e899ac098401
+:ID:       trchlnxsystmdcpsgfsrvcsspsrcmqstnssystmdcpsgfsrvcs
 :END:
 : If you enabled the cpuacct cgroup subgroup in the kernel. You can try systemd-cgtop to identify which systemd service causes high cpu usage.
 * [#C] [2020-01-28] systemd - systemctl status not showing CPU/Memory usage? - Ask Ubuntu https://askubuntu.com/questions/901075/systemctl-status-not-showing-cpu-memory-usage
 :PROPERTIES:
-:ID:       1581c8a54655573acfad9e60146deef6
+:ID:       tsystmdsystmctlsttsntshwnstmctlsttsntshwngcpmmrysg
 :END:
 : CPUAccounting = yes
 : MemoryAccounting = yes
 * [#C] [2020-01-26] Systemd: How to make two services mutually exclusive but run both? - Super User
 :PROPERTIES:
-:ID:       c3868a504ac9653cc9300c58c07abe42
+:ID:       snsystmdhwtmktwsrvcsmtllyxclsvbtrnbthsprsr
 :END:
 https://superuser.com/questions/1492025/systemd-how-to-make-two-services-mutually-exclusive-but-run-both
 
 * [#C] [2020-01-26] systemd.service https://www.freedesktop.org/software/systemd/man/systemd.service.html#TimeoutStartSec=
 :PROPERTIES:
-:ID:       9df0f24a417bbb746c77a2f7ecf5080a
+:ID:       snsystmdsrvcswwwfrdsktprgmnsystmdsrvchtmltmtstrtsc
 :END:
 wonder if this is useful wrt to dependencies and conflicts
 * [#C] [2020-01-26] systemd.service https://www.freedesktop.org/software/systemd/man/systemd.service.html
 :PROPERTIES:
-:ID:       86221115bdf38ecfb5b5e48d1e5705e1
+:ID:       snsystmdsrvcswwwfrdsktprgtwrsystmdmnsystmdsrvchtml
 :END:
 : If set to simple (the default if ExecStart= is specified but neither Type= nor BusName= are),
 * [#C] [2020-01-28] systemd-analyze https://www.freedesktop.org/software/systemd/man/systemd-analyze.html
 :PROPERTIES:
-:ID:       9f775d3e06e52ddc3ccff02a9a5acbb7
+:ID:       tsystmdnlyzswwwfrdsktprgstwrsystmdmnsystmdnlyzhtml
 :END:
 : systemd-analyze verify FILE...
 : 
@@ -160,33 +160,33 @@ wonder if this is useful wrt to dependencies and conflicts
 * TODO [#C] if there is an invalid systemd file, it fails to load state hence you have to fix manually
 :PROPERTIES:
 :CREATED:  [2020-05-28]
-:ID:       e818e874ecdca25f470f27dc9f86068c
+:ID:       fthrsnnvldsystmdfltflstldstthncyhvtfxmnlly
 :END:
 and impossible to fix. e.g. add some garbage to onCalendar and try applying
 * STRT [#C] hmm it's kind of nice that in cron you can embed snippets of code... a bit harder in systemd
 :PROPERTIES:
 :CREATED:  [2020-04-13]
-:ID:       09043aead1dd4f075e15583debef6b7b
+:ID:       hmmtskndfncthtncrnycnmbdsnpptsfcdbthrdrnsystmd
 :END:
 * TODO [#C] for running now -- show time it's been running for
 :PROPERTIES:
 :CREATED:  [2020-05-29]
-:ID:       8afeb5ad40c66679fcd555b745308f8a
+:ID:       frrnnngnwshwtmtsbnrnnngfr
 :END:
 * TODO [#C] next time should be local instead of utc...
 :PROPERTIES:
 :CREATED:  [2020-06-14]
-:ID:       be17be1968a9272445d2557c58b89d5e
+:ID:       nxttmshldblclnstdftc
 :END:
 * TODO [#C] mode to confirm systemd files diff first?
 :PROPERTIES:
 :CREATED:  [2020-11-02]
-:ID:       74c3c40ecfd597fda01e47ca8b2ba46a
+:ID:       mdtcnfrmsystmdflsdfffrst
 :END:
 * STRT [#C] using fzf to start service
 :PROPERTIES:
 :CREATED:  [2020-11-25]
-:ID:       ca1d523d082ba642db1a3ebff8acdee7
+:ID:       sngfzftstrtsrvc
 :END:
 : systemctl --user start $(ls ~/.config/systemd/user/ | fzf)
 * TODO [#D] show desktop notification on failure
@@ -196,7 +196,7 @@ and impossible to fix. e.g. add some garbage to onCalendar and try applying
 :END:
 * [#D] [2020-01-28] systemd-cgtop
 :PROPERTIES:
-:ID:       de1981d05b266acfb93382987157a70f
+:ID:       tsystmdcgtp
 :END:
 https://www.freedesktop.org/software/systemd/man/systemd-cgtop.html
 : systemd-cgtop — Show top control groups by their resource usage
@@ -205,7 +205,7 @@ https://www.freedesktop.org/software/systemd/man/systemd-cgtop.html
 : wonder if I could use it?
 * STRT [#D] [2020-01-18] watchdog?
 :PROPERTIES:
-:ID:       d05d88484906cf5b24227e157880d17b
+:ID:       stwtchdg
 :END:
 https://www.freedesktop.org/software/systemd/man/systemd.service.html
 : WatchdogSec=
@@ -214,27 +214,27 @@ https://www.freedesktop.org/software/systemd/man/systemd.service.html
 * STRT [#D] make beat and check mutually exclusive
 :PROPERTIES:
 :CREATED:  [2020-01-25]
-:ID:       4c95cb00ff9331c4eeb414947b614b8f
+:ID:       mkbtndchckmtllyxclsv
 :END:
 * TODO [#D] [2020-05-04] [[https://blog.darknedgy.net/technology/2020/05/02/0/index.html][systemd, 10 years later: a historical and technical retrospective]]
 :PROPERTIES:
-:ID:       b6000c05e64ff6317e67598c95cfd414
+:ID:       mnsblgdrkndgynttchnlgyndxltrhstrclndtchnclrtrspctv
 :END:
 : Yes, we currently handle socket-triggered, bus-triggered, file-triggered, mount-triggered, automount-triggered, device-triggered
 * [2020-05-29] ok, so timeouts via RuntimeMaxSec work as expected   :systemd:
 :PROPERTIES:
-:ID:       5e0403cda5751d7471755740cee72374
+:ID:       frkstmtsvrntmmxscwrksxpctd
 :END:
 * CNCL [#C] [2020-02-01] schedule — schedule 0.4.0 documentation
 :PROPERTIES:
-:ID:       8a975d6dfa6220f7be2745c96a89c3cf
+:ID:       stschdlschdldcmnttn
 :END:
 https://schedule.readthedocs.io/en/stable/
 
 * TODO [#D] might fail if manually disabled the timer?
 :PROPERTIES:
 :CREATED:  [2020-11-09]
-:ID:       927e2b005b0f960e4a9a66c7fa7b2f4d
+:ID:       mghtflfmnllydsbldthtmr
 :END:
 : Traceback (most recent call last):
 :   File "/home/karlicos/.local/bin/dron", line 11, in <module>
@@ -248,12 +248,12 @@ https://schedule.readthedocs.io/en/stable/
 : ValueError: not enough values to unpack (expected 2, got 1)
 * related                                                :infra:cron:systemd:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:
 
 
 * STRT [#D] maybe forbid creating pycache?
 :PROPERTIES:
 :CREATED:  [2019-08-25]
-:ID:       734a6a0d75f2a41377ba19e499930011
+:ID:       mybfrbdcrtngpycch
 :END:

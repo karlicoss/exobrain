@@ -2,139 +2,139 @@
 #+filetags: physics
 * Definitions
 :PROPERTIES:
-:ID:       97d8f56bf41502f60ca6fdd5d5da8edc
+:ID:       dfntns
 :END:
 ** A nonholonomic system -- state depends on the path taken in order to achieve it.
 :PROPERTIES:
-:ID:       88631b58c69cc83f8b37e0312db2424b
+:ID:       nnhlnmcsystmsttdpndsnthpthtknnrdrtchvt
 :END:
 ** DONE Phase space vs configuration space
 :PROPERTIES:
-:ID:       c54e9a1d546209b908ae4bffc5a3faee
+:ID:       phsspcvscnfgrtnspc
 :END:
 
 * Lagrangian                                                     :lagrangian:
 :PROPERTIES:
-:ID:       2e32ba26d0dfb8d9502608639fcac451
+:ID:       lgrngn
 :END:
 ** units of energy
 :PROPERTIES:
-:ID:       a6d5b4582a75fa6fe692a38c3f9804a7
+:ID:       ntsfnrgy
 :END:
 ** no single expression for all physical systems
 :PROPERTIES:
-:ID:       f4cb2fda77e276452de9b68d685500e6
+:ID:       nsnglxprssnfrllphysclsystms
 :END:
 ** only applicable to systems with holonomic constraints
 :PROPERTIES:
-:ID:       eb6acb4f6a14fa2785c2f2d7c65346d0
+:ID:       nlypplcbltsystmswthhlnmccnstrnts
 :END:
 ** Why only first derivatives are appearing
 :PROPERTIES:
-:ID:       1819ed0ec2478c84f409522d32083282
+:ID:       whynlyfrstdrvtvsrpprng
 :END:
 Ostrogradsky instability
 https://physics.stackexchange.com/questions/4102/why-are-there-only-derivatives-to-the-first-order-in-the-lagrangian
 
 ** Independent position and velocity
 :PROPERTIES:
-:ID:       197a5ab594645033638091f1f8410b6c
+:ID:       ndpndntpstnndvlcty
 :END:
 https://physics.stackexchange.com/questions/885/calculus-of-variations-how-does-it-make-sense-to-vary-the-position-and-the-ve
 *** in a sense these are initial conditions so both are necessary
 :PROPERTIES:
-:ID:       7b457dd0d381f700ad741f3d34385807
+:ID:       nsnsthsrntlcndtnssbthrncssry
 :END:
 *** TODO Let me refer to this great book: "Applied Differential Geometry". By William L. Burke. The very first line of the book (where an author usually says to whom this book is devoted) is this: "To all those who like me have wondered how in the hell you can change q' without changing q"
 :PROPERTIES:
-:ID:       1808914dfe66de593386b88c64e0a127
+:ID:       ltmrfrtthsgrtbkpplddffrntnthhllycnchngqwthtchngngq
 :END:
 *** https://physics.stackexchange.com/questions/119992/what-do-the-derivatives-in-these-hamilton-equations-mean
 :PROPERTIES:
-:ID:       cfb955f50f31bbf36518ae628205f549
+:ID:       sphyscsstckxchngcmqstnswhtdthdrvtvsnthshmltnqtnsmn
 :END:
 q and q' are just labels, treat them independently
 good points about meaning in the very end
 *** another explanation from the same guy https://physics.stackexchange.com/questions/60706/lagrangian-mechanics-and-time-derivative-on-general-coordinates
 :PROPERTIES:
-:ID:       01689826fc62ea3610fdda9beb1f80d6
+:ID:       nthrxplntnfrmthsmgysphyscchncsndtmdrvtvngnrlcrdnts
 :END:
 *** TODO interesting point that var(q') = d/dt var(q) (why?) https://physics.stackexchange.com/a/985/40624
 :PROPERTIES:
-:ID:       477e6301af57692e80fb7eab155aa28d
+:ID:       ntrstngpntthtvrqddtvrqwhysphyscsstckxchngcm
 :END:
 *** TODO might be insightful?... https://physics.stackexchange.com/a/2895/40624
 :PROPERTIES:
-:ID:       9ad85c280cf11484f28897ab370a43d7
+:ID:       mghtbnsghtflsphyscsstckxchngcm
 :END:
 *** https://physics.stackexchange.com/questions/168551/independence-of-position-and-velocity-in-lagrangian-from-the-point-of-view-of-ph -- not sure if useful...
 :PROPERTIES:
-:ID:       a255f4de16b6c4a34a3b35ae46e1901c
+:ID:       sphyscsstckxchngcmqstnsndngnfrmthpntfvwfphntsrfsfl
 :END:
 *** TODO https://physics.stackexchange.com/questions/60706/lagrangian-mechanics-and-time-derivative-on-general-coordinates -- not sure if useful..
 :PROPERTIES:
-:ID:       9d4476507b14c329a9817d14289b8090
+:ID:       sphyscsstckxchngcmqstnslgmdrvtvngnrlcrdntsntsrfsfl
 :END:
 
 ** For every symmetry, there is a conserved quantity
 :PROPERTIES:
-:ID:       ea381079ddf32f2091e5c70803974365
+:ID:       frvrysymmtrythrscnsrvdqntty
 :END:
 ** Einstein was not satisfied about GR until he derived it from lagrangian (as an indication how powerful is the concept) https://www.reddit.com/r/Physics/comments/3me1hr/explanation_of_lagrangian_mechanics/cveb611/
 :PROPERTIES:
-:ID:       f6831515b31d18cedbf1e4ce5a3b0057
+:ID:       nstnwsntstsfdbtgrntlhdrvdmhrxplntnflgrngnmchncscvb
 :END:
 ** reddit recommends Taylor's book
 :PROPERTIES:
-:ID:       74369a10560e53da394bebc65e26b2ec
+:ID:       rddtrcmmndstylrsbk
 :END:
 ** as an analogy: when you learn energy, dealing with forces is much easier; when you learn lagrangian, dealing with crazy coordinates and constraints much easier
 :PROPERTIES:
-:ID:       3ea23118142c6de6d022e0ff25499e75
+:ID:       snnlgywhnylrnnrgydlngwthfcrzycrdntsndcnstrntsmchsr
 :END:
 ** When you find the Euler-Lagrange equations for your system, they will be written in terms of these generalized coordinates, and the terms in the equations are known as generalized forces. This is because usually the Euler-Lagrange equations have something that looks a lot like "ma" (mass times acceleration) on one side of the equations, and thus the other terms could be interpreted as "forces", but written in these general variables.
 :PROPERTIES:
-:ID:       c27290af5160aaf79649a71141abb9fe
+:ID:       whnyfndthlrlgrngqtnsfryrssfrcsbtwrttnnthsgnrlvrbls
 :END:
 ** TODO [2019-01-15] http://cp3-origins.dk/a/14332                     :blog:
 :PROPERTIES:
-:ID:       84d8b44c4de4b6426bf7b5279d7cec6d
+:ID:       tcprgnsdk
 :END:
 When the action, and hence the phase, is stationary changing it by a small amount doesn’t change the phase by much. In a small region (compared to ℏ) these paths can add up coherently to give a significant contribution to the sum above. This is what we see in the cartoon above for a very small subset of paths.
 Classical mechanics is quantum mechanics using the stationary phase approximation.
 *** hmm, interesting about Wick rotation...
 :PROPERTIES:
-:ID:       94ba224b72f599dc8c95aef6ca1d8218
+:ID:       hmmntrstngbtwckrttn
 :END:
 Paths far from the minimum hardly contribute anything and so it isn’t necessary to calculate the action arbitrarily accurately.
 eh?
 
 ** Galilean invariance forces classical lagrangian to depend on velocity quadratically
 :PROPERTIES:
-:ID:       8c0de182b3b5fd618641904c24096670
+:ID:       gllnnvrncfrcsclsscllgrngntdpndnvlctyqdrtclly
 :END:
 *** [2019-01-15] classical mechanics - Deriving the Lagrangian for a free particle - Physics Stack Exchange :lagrangian:
 :PROPERTIES:
-:ID:       1004ba78a2aa57800879a18694f77583
+:ID:       tclssclmchncsdrvngthlgrngnfrfrprtclphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/23098/deriving-the-lagrangian-for-a-free-particle
 Comment:
 justification of lagrangian for classical mechanics from Landau... weird, didn't really get it
 *** [2018-11-29] classical mechanics - Why does Lagrangian of free particle depend on the square of the velocity ? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       181ed32cc400e9f46d111e087d2e4058
+:ID:       thclssclmchncswhydslgrngnqrfthvlctyphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/63370/why-does-lagrangian-of-free-particle-depend-on-the-square-of-the-velocity/92561 
 
 The Lagrangian should not only be independent of the direction of v⃗ v→ but it should also change correctly under a Galilean transformation. For instance, if KK and K′K′ are two frames of reference with a relative velocity V⃗ V→ then the two Lagrangians LL and L′L′ should differ only by a total time derivative.
 *** [#C] [2018-11-29] newtonian mechanics - Galilean invariance of Lagrangian for non-relativistic free point particle? - Physics Stack Exchange :lagrangian:
 :PROPERTIES:
-:ID:       abc112123e3c7d8c2cea620ad6d5cbe4
+:ID:       thnwtnnmchncsgllnnvrncflgfrpntprtclphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/14875/galilean-invariance-of-lagrangian-for-non-relativistic-free-point-particle
 ** TODO [2018-11-30] Degenerate Lagrangian? - My Math Forum
 :PROPERTIES:
-:ID:       ef669ec955beab05c8d3154c28ed2412
+:ID:       frdgnrtlgrngnmymthfrm
 :END:
 http://mymathforum.com/differential-equations/43493-degenerate-lagrangian.html
 a degenerate Lagrangian is one who's Hesse determinant is zero. It's a condition on the second partial derivatives of the Lagrangian.
@@ -142,7 +142,7 @@ a degenerate Lagrangian is one who's Hesse determinant is zero. It's a condition
 there is also a link to pdf, might be worth reading...
 ** [2018-11-25] What does a Lagrangian of the form $L=m^2\dot x^4 +U(x)\dot x^2 -W(x)$ represent? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       3643186ef1146f059abe5bad5ac3bb45
+:ID:       snwhtdslgrngnfthfrmlmdtxxtxwxrprsntphyscsstckxchng
 :END:
  https://physics.stackexchange.com/questions/17406/what-does-a-lagrangian-of-the-form-l-m2-dot-x4-ux-dot-x2-wx-represent
 eh, weird. complex expression for lagrangian that ends up looking same as classical. well ok 
@@ -151,29 +151,29 @@ eh, weird. complex expression for lagrangian that ends up looking same as classi
 
 ** START on Lagrangian being extreme value/minimum
 :PROPERTIES:
-:ID:       6796504072a16ccff6e7156512f06b76
+:ID:       nlgrngnbngxtrmvlmnmm
 :END:
 *** [2018-12-04] lagrangian formalism - Confusion regarding the principle of least action in Landau & Lifshitz "The Classical Theory of Fields" - Physics Stack Exchange
 :PROPERTIES:
-:ID:       5d3502e97b53b72755c4c6146ede9b5c
+:ID:       tlgrngnfrmlsmcnfsnrgrdngtlthryffldsphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/122486/confusion-regarding-the-principle-of-least-action-in-landau-lifshitz-the-clas#comment249472_122504
 conjugate points; about infinitesimal path, characteristic scale of the problem
 conditions for lagrangian regularity and conjugate points
 *** [2018-12-04] lagrangian formalism - Hamilton's Principle - Physics Stack Exchange
 :PROPERTIES:
-:ID:       da10d89148f9436214d49ee3db417718
+:ID:       tlgrngnfrmlsmhmltnsprncplphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/9/hamiltons-principle
 :   Basically, the whole thing is summarized in a nutshell in Richard P. Feynman, The Feynman Lectures on Physics (Addison–Wesley, Reading, MA, 1964), Vol. II, Chap. 19. (I think, please correct me if I'm wrong here). The fundamental idea is that the action integral defines the quantum mechanical amplitude for the position of the particle, and the amplitude is stable to interference effects (-->has nonzero probability of occurrence) only at extrema or saddle points of the action integral. The particle really does explore all alternative paths probabilistically.
 *** [2018-12-02] http://www.scholarpedia.org/article/Principle_of_least_action#When_Action_is_a_Minimum
 :PROPERTIES:
-:ID:       2a953950dac968d2c95abc5be99daaec
+:ID:       snwwwschlrpdrgrtclprncplflstctnwhnctnsmnmm
 :END:
 :  or some 1D potentials V(x) (those with ∂2V/∂x2≤0 everywhere), e.g. V(x)=0 , V(x)=mgx , and V(x)=−Cx2 , all true trajectories have minimum S . For most potentials, however, only sufficiently short true trajectories have minimum action; the others have an action saddle point. "Sufficiently short" means that the final space-time event occurs before the so-called kinetic focus event of the trajectory.
 *** [2018-12-02] Even more trivial example when least action principle doesn't work
 :PROPERTIES:
-:ID:       d855aa6154562eba1c958da42cd26bd8
+:ID:       snvnmrtrvlxmplwhnlstctnprncpldsntwrk
 :END:
 :  Принцип наименьшего действия. Часть 2 / Хабр https://habr.com/ru/post/426253/
 : 
@@ -182,7 +182,7 @@ https://physics.stackexchange.com/questions/9/hamiltons-principle
 
 ** TODO [2018-11-30] Лагранжиан L {\displaystyle L} L называется вырожденным, если его оператор Эйлера — Лагранжа удовлетворяет нетривиальным тождествам Нётер. В этом случае уравнения Эйлера — Лагранжа не являются независимыми
 :PROPERTIES:
-:ID:       ca55430b7bf77eb30398a075574ea7d9
+:ID:       frлагранжианldsplystylllннжанеявляютсянезависимыми
 :END:
 https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%B6%D0%B4%D0%B5%D1%81%D1%82%D0%B2%D0%B0_%D0%9D%D1%91%D1%82%D0%B5%D1%80
 
@@ -191,27 +191,27 @@ https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%B6%D0%B4%D0%B5%D1%81%D1%82%D0%B2%D
 
 * [2019-01-15] Legendre transform
 :PROPERTIES:
-:ID:       cd5b72b79884cbadd8f6d74685f18ad3
+:ID:       tlgndrtrnsfrm
 :END:
 ** [2019-01-15] nice intuition in terms of areas
 :PROPERTIES:
-:ID:       74fa73564637fa3d1dfdeca3fc162db4
+:ID:       tncnttnntrmsfrs
 :END:
 https://physics.stackexchange.com/a/69374/40624
 ** [2018-11-29] Преобразование Лежандра — Википедия              :lagrangian:
 :PROPERTIES:
-:ID:       953a16c1a4a6ce7a988cb609bc369c2d
+:ID:       thпреобразованиележандравикипедия
 :END:
 https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%9B%D0%B5%D0%B6%D0%B0%D0%BD%D0%B4%D1%80%D0%B0
 *** [2019-01-15] В том случае, когда лагранжиан не вырожден по скоростям, то есть
 :PROPERTIES:
-:ID:       61f7640a6963570ad54213005ee39606
+:ID:       tвтомслучаекогдалагранжиавырожденпоскоростямтоесть
 :END:
 {\displaystyle p=\nabla _{u}L(q,u)\neq 0,} {\displaystyle p=\nabla _{u}L(q,u)\neq 0,}
 можно сделать преобразование Лежандра по скоростям и получить новую функцию, называемую гамильтонианом:
 ** [2019-01-15] Making Sense of the Legendre Transform
 :PROPERTIES:
-:ID:       2581b899cdfc3d78da91c8ba2146b738
+:ID:       tmkngsnsfthlgndrtrnsfrm
 :END:
 nice pdf, basically they say it's just a different view, sometimes it's easier to control the derivative
 they introduce generalised forces too
@@ -220,19 +220,19 @@ https://johncarlosbaez.wordpress.com/2012/01/19/classical-mechanics-versus-therm
 
 ** So the Fourier transform and the Legendre transform may be interpreted as the same thing, just over different semirings.
 :PROPERTIES:
-:ID:       e928f356eb2c1cdb4058d6bc0487b79c
+:ID:       sthfrrtrnsfrmndthlgndrtrnthsmthngjstvrdffrntsmrngs
 :END:
 http://blog.sigfpe.com/2005/10/quantum-mechanics-and-fourier-legendre.html
 fucking hell!! that's so cool
 ** https://physicstravelguide.com/advanced_tools/legendre_transformation#tab__concrete
 :PROPERTIES:
-:ID:       664443916d70b9ad72a3c874c0664652
+:ID:       sphyscstrvlgdcmdvncdtlslgndrtrnsfrmtntbcncrt
 :END:
 (Legendre transformation is "zero temperature limit" of the Laplace Transformation)
 
 ** http://blog.jessriedel.com/2017/06/28/legendre-transform/
 :PROPERTIES:
-:ID:       27cf3f55bcc7f396f859bd4d5eae18da
+:ID:       blgjssrdlcmlgndrtrnsfrm
 :END:
 Two convex functions f and g are Legendre transforms of each other when their first derivatives are inverse functions:
 and another nice plot with areas intuition as well
@@ -240,36 +240,36 @@ All of the dynamical laws are constructed from derivatives of H and L, and we de
 
 * TODO Hamiltonian
 :PROPERTIES:
-:ID:       d8dbcb7f98b38c5c9f9a0ad33e94ec2a
+:ID:       hmltnn
 :END:
 https://physics.stackexchange.com/questions/89035/whats-the-point-of-hamiltonian-mechanics#89036
 ** has some meaning in statistical physics
 :PROPERTIES:
-:ID:       cc297508ee21164b72c6cf64c7853379
+:ID:       hssmmnngnsttstclphyscs
 :END:
 ** TODO something about Poisson brackets
 :PROPERTIES:
-:ID:       12951804fd923ca49450627d43c5cc88
+:ID:       smthngbtpssnbrckts
 :END:
 ** configuration space with dimension n: 2n Hamilton equations of first order; n Euler-Lagrange of second order
 :PROPERTIES:
-:ID:       daab7ef6a4b52cbaa58c1b040c79d674
+:ID:       cnfgrtnspcwthdmnsnnnhmltnsffrstrdrnlrlgrngfscndrdr
 :END:
 ** Hamiltonians are easier to find transformations to canonical coordinates
 :PROPERTIES:
-:ID:       dcd94e163427c4325452ec1530e07ce7
+:ID:       hmltnnsrsrtfndtrnsfrmtnstcnnclcrdnts
 :END:
 ** [2019-01-16] is hamiltonian same thing as energy?
 :PROPERTIES:
-:ID:       9a4ce9f760259486692cdaa548411ba4
+:ID:       wdshmltnnsmthngsnrgy
 :END:
 *** TODO https://physics.stackexchange.com/questions/11905/when-is-the-hamiltonian-of-a-system-not-equal-to-its-total-energy?noredirect=1&lq=1
 :PROPERTIES:
-:ID:       7b5ad69736b6bb2ec0dcfba4cfe4e28a
+:ID:       sphyscsstckxchngcmqstnswhstmntqlttsttlnrgynrdrctlq
 :END:
 *** [2018-11-25] classical mechanics - Example where Hamiltonian $H \neq T+V=E$, but $E=T+V$ is conserved - Physics Stack Exchange
 :PROPERTIES:
-:ID:       271853167c12f2d8162107bf691ce74e
+:ID:       snclssclmchncsxmplwhrhmltttvscnsrvdphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/194772/example-where-hamiltonian-h-neq-tv-e-but-e-tv-is-conserved
 
@@ -277,23 +277,23 @@ https://physics.stackexchange.com/questions/194772/example-where-hamiltonian-h-n
 * START [#B] physics sim for phase space /repos/physics-sim/ :study:viz:lagrangian:
 :PROPERTIES:
 :CREATED:  [2018-11-19]
-:ID:       8f923e4e6cc08664e0163b661fecc033
+:ID:       physcssmfrphsspcrpsphyscssm
 :END:
 
 * TODO [#B] additional term depending on velocity is kinda like time transformation? :study:lagrangian:
 :PROPERTIES:
 :CREATED:  [2018-11-19]
-:ID:       783926115b6406ac91ed9644480953cc
+:ID:       ddtnltrmdpndngnvlctyskndlktmtrnsfrmtn
 :END:
 
 * ---------- [2019-01-15]  ------------ review later...
 :PROPERTIES:
-:ID:       47533524b8ce3b189683c7b4b1fdada0
+:ID:       trvwltr
 :END:
 
 * [#C] [2018-11-29] homework and exercises - Lagrangian in a system with a specific velocity dependent potential - Physics Stack Exchange :lagrangian:
 :PROPERTIES:
-:ID:       270571f7fb503fab66b4fca78660e056
+:ID:       thhmwrkndxrcsslgrngnnsystpndntptntlphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/261221/lagrangian-in-a-system-with-a-specific-velocity-dependent-potential#comment596613_261221
 
@@ -301,73 +301,73 @@ https://physics.stackexchange.com/questions/261221/lagrangian-in-a-system-with-a
 
 * -----------  [2019-01-15]  -------------- needs review
 :PROPERTIES:
-:ID:       6591e6736c08aaa51c99ce4a4897f473
+:ID:       tndsrvw
 :END:
 
 * TODO [#D] Griffith classical mechanics
 :PROPERTIES:
-:ID:       e4ed0cae3595f1d36241823a8f8c4ef6
+:ID:       grffthclssclmchncs
 :END:
 
 * [2018-07-24] Classical Mechanics
 :PROPERTIES:
-:ID:       1de1772fb45dd56910c627dd188ba348
+:ID:       tclssclmchncs
 :END:
  I guess I need to work out some simple classical system by myself
 understand:
 
 ** lagrangian (kinda + there was some intuition in baez notes?)
 :PROPERTIES:
-:ID:       56d4c30217cd9a0a1047fcba20a16080
+:ID:       lgrngnkndthrwssmnttnnbznts
 :END:
 ** hamiltonian (bit more tricky)
 :PROPERTIES:
-:ID:       eddc81c19e0f73262c865650eaa3907d
+:ID:       hmltnnbtmrtrcky
 :END:
 ** poisson brackets: ???
 :PROPERTIES:
-:ID:       b1476b8f02590cf0dc642621bf094dc9
+:ID:       pssnbrckts
 :END:
 ** canonical coordinates and derivatives -- why's that enough? or by definition of 'classical'?
 :PROPERTIES:
-:ID:       91c2abbf5f004089ae46189ba64f1b28
+:ID:       cnnclcrdntsnddrvtvswhysthtnghrbydfntnfclsscl
 :END:
 ** ????
 :PROPERTIES:
-:ID:       e94f0bfab8c987a7437ba4e1697c1cc0
+:ID:       12280_12288
 :END:
 
 
 * START [#B] baez lagrangian mechanics                                 :baez:
 :PROPERTIES:
-:ID:       734529f7987a1f59e510f1e9b227a1c5
+:ID:       bzlgrngnmchncs
 :END:
 http://math.ucr.edu/home/baez/classical/
 ** principle of minumum energy explanation 1.2.2
 :PROPERTIES:
-:ID:       7b7a1232a93e9f708c75a6c6f9697a79
+:ID:       prncplfmnmmnrgyxplntn
 :END:
 ** p.33 special relativity
 :PROPERTIES:
-:ID:       ca12732a1d7ecf19dd6bfde3b8e3ec69
+:ID:       pspclrltvty
 :END:
 Many Lagrangiansdothis,butthe\best"oneshouldgive anactionthatisindependentoftheparameterizationofthepath|sincetheparameterizationis\unphysical":it can'tbe measured.Sotheaction
 
 ** gauge symmetries
 :PROPERTIES:
-:ID:       9aec64a16631167b71bfbe9abac6d607
+:ID:       ggsymmtrs
 :END:
 Thesesymmetriesgive conservedquantitiesthatworkouttoequalzero!
 gauge symmetries result in conserved quantities... which are just equal to zero
 
 ** p46 cool analogy between refraction and riemannian metric in GR
 :PROPERTIES:
-:ID:       c18451f825cb58d39b5e285af852a8c8
+:ID:       pclnlgybtwnrfrctnndrmnnnmtrcngr
 :END:
 
 * ham vs lagr https://www.reddit.com/r/askscience/comments/6be3ex/what_are_lagrangian_and_hamiltonian_mechanics_in/
 :PROPERTIES:
-:ID:       667a2e4a23978f04925a2263593a7051
+:ID:       hmvslgrswwwrddtcmrskscnccwhtrlgrngnndhmltnnmchncsn
 :END:
 Furthermore, whereas in Lagrangian mechanics there is a dependence between the generalized coordinates q and their velocities (the latter being the time derivatives of the former), in Hamiltonian mechanics the momenta are to be regarded are independent from the generalized coordinates.
 With these new coordinates, one proceeds to demand again that the action is minimized, and, instead of the Euler-Lagrange equations, one finds what are known as Hamilton's canonical equations. Again these are the equations of motion of the system, which are to be solved in order to find the trajectory. One key difference is that if your system required N generalized coordinates, and thus N Euler-Lagrange equations, there will be 2N Hamilton canonical equations but they are "half as difficult" to solve.
@@ -376,13 +376,13 @@ That's the best I can do without getting technical. Also, Hamiltonian mechanics 
 
 ** I think this is sort of misleading, they talk about dependency again...
 :PROPERTIES:
-:ID:       b573d0d20aeda75daf57ff4420d5df5b
+:ID:       thnkthsssrtfmsldngthytlkbtdpndncygn
 :END:
 
 * TODO How are symmetries precisely defined? - Physics Stack Exchange
 :PROPERTIES:
 :CREATED:  [2018-07-28]
-:ID:       91ca76ff91da08c20472a52a5f8c158c
+:ID:       hwrsymmtrsprcslydfndphyscsstckxchng
 :END:
 
 https://physics.stackexchange.com/questions/98714/how-are-symmetries-precisely-defined
@@ -390,7 +390,7 @@ https://physics.stackexchange.com/questions/98714/how-are-symmetries-precisely-d
 * [#C] action principle for SR                                   :relativity:
 :PROPERTIES:
 :CREATED:  [2018-07-30]
-:ID:       41af98bab968a11b6160ad42b4866b89
+:ID:       ctnprncplfrsr
 :END:
 
 http://fma.if.usp.br/~amsilva/Livros/Zwiebach/chapter5.pdf
@@ -417,17 +417,17 @@ right, and we get euler-lagrange equations as a result d^2 x^u/ds^2 = 0 -- basic
 guessing electric charge lagrangian..
 ** TODO also problems
 :PROPERTIES:
-:ID:       031ec7a584e17e0c0c4f5fd28b5dbb8d
+:ID:       lsprblms
 :END:
 ** TODO nice book, read more from it?
 :PROPERTIES:
-:ID:       4b64a608906b13765c3f7116ce569ce8
+:ID:       ncbkrdmrfrmt
 :END:
 
 
 * https://en.wikipedia.org/wiki/Generalized_coordinates
 :PROPERTIES:
-:ID:       56dadb898fd6ad6399afc3f7f0f87286
+:ID:       snwkpdrgwkgnrlzdcrdnts
 :END:
 Generalized coordinates -- like normal coordinates, but without redudancy in constraints. They are independent; basically it means that for any generalised coordinates [tuple] there must be a valid system?
 https://en.wikipedia.org/wiki/Holonomic_constraints#Transformation_to_independent_generalized_coordinates
@@ -436,7 +436,7 @@ benefit of generalised coordinates is most apparent when considering double pend
 
 * [2018-07-31] some random notes                     :lagrangian:hamiltonian:
 :PROPERTIES:
-:ID:       2836ce07239c545ccb288f01f476989b
+:ID:       tsmrndmnts
 :END:
 x'^2 + x^2 = C^2 -- energy conservation
 

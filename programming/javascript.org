@@ -3,25 +3,25 @@
 
 * related                                                            :nodejs:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:
 
 * [#A] [2019-09-29] Practical Ways to Write Better JavaScript - Stack Overflow Blog
 :PROPERTIES:
-:ID:       5aff5dbb5e65918e3569173328670dca
+:ID:       snprctclwystwrtbttrjvscrptstckvrflwblg
 :END:
 https://stackoverflow.blog/2019/09/12/practical-ways-to-write-better-javascript/
 
 * TODO [#B] [2020-03-13] Wes Bos on Twitter: "🔥 Optional Chaining (deep property checking) is now in Chrome, Firefox and babel-preset-env 7.8.0. This is a huge improvement in checking if nested properties exist! https://t.co/ypmHeQ8rGw" / Twitter
 :PROPERTIES:
-:ID:       16129ab576104d92e6828749ecc0b113
+:ID:       frwsbsntwttrptnlchnngdpprprprtsxststcypmhqrgwtwttr
 :END:
 https://twitter.com/wesbos/status/1238468738946646017
 : Optional Chaining (deep property checking) is now in Chrome, Firefox and babel-preset-env 7.8.0.
 : This is a huge improvement in checking if nested properties exist!
 * [#B] [2019-11-10] fuck, ~replace~ only replaces first occurence if string is used??
 :PROPERTIES:
-:ID:       c6c286c1e833227f937e27c5b5349dda
+:ID:       snfckrplcnlyrplcsfrstccrncfstrngssd
 :END:
 * TODO [#C] use let instead of var
 :PROPERTIES:
@@ -37,12 +37,12 @@ SCHEDULED: [2022-03-25]
 :END:
 * [#C] date parsing
 :PROPERTIES:
-:ID:       eb0dfb4a7acbce93b0ad013fa72ea09c
+:ID:       dtprsng
 :END:
 http://www.datejs.com/ looks ok, supports fuzzy stuff like 'next week', 'previous month', etc
 * [#D] [2019-07-14] Enabling Async/Await and Generator Functions in Babel and Node JS
 :PROPERTIES:
-:ID:       9e6593408370caf2c3f38451605a1ab0
+:ID:       snnblngsyncwtndgnrtrfnctnsnbblndndjs
 :END:
 https://medium.com/@binyamin/enabling-async-await-and-generator-functions-in-babel-node-and-express-71e941b183e2
 : Uncaught ReferenceError: regeneratorRuntime is not defined
@@ -62,7 +62,7 @@ https://medium.com/@binyamin/enabling-async-await-and-generator-functions-in-bab
 : }
 * [#D] [2019-07-14] javascript - Is it safe to use async/await now? - Stack Overflow
 :PROPERTIES:
-:ID:       7bf64d46e4dac1348506303d95591307
+:ID:       snjvscrptstsftssyncwtnwstckvrflw
 :END:
 https://stackoverflow.com/questions/42183155/is-it-safe-to-use-async-await-now
 : So depending on what you think is acceptable it is either safe or not safe. Note the following:
@@ -71,29 +71,29 @@ https://stackoverflow.com/questions/42183155/is-it-safe-to-use-async-await-now
 :     Node 8 is released on May 2017 so it should be safe to use async/await on Node.js unless your Node.js servers are very outdated.
 * TODO [#B] [2020-11-10] [[https://stackoverflow.com/questions/42773714/is-async-await-truly-non-blocking-in-the-browser][javascript - Is async await truly non-blocking in the browser? - Stack Overflow]]
 :PROPERTIES:
-:ID:       973a9913fae775e370c125999e14f087
+:ID:       tsstckvrflwcmqstnsssyncwtnnblckngnthbrwsrstckvrflw
 :END:
 : Points for the worker without an external file. That's one cool trick
 * [#C] https://github.com/feltcoop/why-svelte
 :PROPERTIES:
 :CREATED:  [2020-03-10]
-:ID:       7f996ffa0bec0de83eeb20e759c209e4
+:ID:       sgthbcmfltcpwhysvlt
 :END:
 
 * [#C] [2020-03-10] Why Svelte is our choice for a large web project | Hacker News
 :PROPERTIES:
-:ID:       2f48e4b1cc77c14e9219923f6a64bb45
+:ID:       twhysvltsrchcfrlrgwbprjcthckrnws
 :END:
 https://news.ycombinator.com/item?id=22534639
 
 * [#C] [2019-06-30] Implementing infinite scrolling : reactjs
 :PROPERTIES:
-:ID:       6c430cff8072cfe66509df3daba6f59e
+:ID:       snmplmntngnfntscrllngrctjs
 :END:
 https://www.reddit.com/r/reactjs/comments/7z87o9/implementing_infinite_scrolling/
 : ssuming its only 100 items, i'd just display them all from the start, and let scroll do what scroll does. if you're trying to simplify a real world example where you might have 1000's of initially returned items, then something similar to /u/pqnst but instead of just slicing 0,(page * 20), you'd have to slice(20 * (page - 1), 20 * page) and account for the height of the sliced out elements in the scrollTop of the scrolling container
 * TODO [#C] [2019-08-01] google chrome extension - Injecting iframe into page with restrictive Content Security Policy - Stack Overflow
 :PROPERTIES:
-:ID:       f41044b0e267fa3a8c26c0e0f745df6f
+:ID:       thgglchrmxtnsnnjctngfrmnttvcntntscrtyplcystckvrflw
 :END:
 https://stackoverflow.com/questions/24641592/injecting-iframe-into-page-with-restrictive-content-security-policy

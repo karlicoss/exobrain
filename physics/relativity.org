@@ -3,7 +3,7 @@
 
 * [2015-03-16] old notes
 :PROPERTIES:
-:ID:       5a3e1dd53b21c745a3f7903e008886e4
+:ID:       ldnts
 :END:
 : Postulate 1: the principle of relativity: the laws of physics are the same in all itertial frames
 : 
@@ -165,5 +165,5 @@
 
 * related                                                           :physics:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:

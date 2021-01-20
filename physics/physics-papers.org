@@ -4,12 +4,12 @@
 
 * DONE [#B] Deutch Quantum theory as universal physical theory.pdf :read:quantum:
 :PROPERTIES:
-:ID:       bc5bd030beb62965b08abf226aa8ee14
+:ID:       dtchqntmthrysnvrslphysclthrypdf
 :END:
 
 ** 
 :PROPERTIES:
-:ID:       d41d8cd98f00b204e9800998ecf8427e
+:ID:       158_622
 :END:
 : When the quantum system has aninfinite number of degrees of freedom
 : (i.e., in field theory) the operators ~bg may have to be distributions (see
@@ -21,13 +21,13 @@
 
 ** page 7, kinematically independent subsystems
 :PROPERTIES:
-:ID:       74b581ff9b0784a61f7df2b4cdf08a34
+:ID:       pgknmtcllyndpndntsbsystms
 :END:
 sufficient condition is that the Hamiltonian H is a sum of H_1 + H_2, confined to the subsystems
 
 *** weaker condition, 'dynamical independence' , necessary and sufficient to ensure that a kinematically independent state remains so:
 :PROPERTIES:
-:ID:       0c3cf7a9e27731786aa8b1ef40866460
+:ID:       wkrcndtndynmclndpndncncsshtknmtcllyndpndntsttrmnss
 :END:
 (H - (H1 + H2)) psi = 0 for some H1 and H2
 errr ????? wtf H1 and H2 are confined to subsystems?
@@ -35,7 +35,7 @@ Stated in words, kinematically independent subsystems are also dynamically indep
 
 ** so, state is constant, and only changed during measurements?? collapse interpretation
 :PROPERTIES:
-:ID:       212f7c390a3a5ac3fc466708feab525b
+:ID:       ssttscnstntndnlychngddrngmsrmntscllpsntrprttn
 :END:
     One widespread solution to this problem involves a fundamental change
     in the quantum formalism presented in Section 2. The idea is that the state
@@ -52,17 +52,17 @@ no complete formulation has been achieved; difficult to find a criterion for spe
 
 ** TODO but MW is not without its own problems namely the problem of prefered basis and the problem of probability.
 :PROPERTIES:
-:ID:       1fa519be71c3d1876c589b765d570ff7
+:ID:       btmwsntwthttswnprblmsnmlyprfrdbssndthprblmfprbblty
 :END:
 read that http://plato.stanford.edu/entries/qm-manyworlds/ 
 
 ** Everet formalism
 :PROPERTIES:
-:ID:       70b3b587eeaff85740c0606ccd73719a
+:ID:       vrtfrmlsm
 :END:
 *** x
 :PROPERTIES:
-:ID:       9dd4e461268c8034f5c8564e155c67a6
+:ID:       x
 :END:
 Instead, he proposes that the system and
 apparatus observables are in general multivalued, possessing all the eigen-
@@ -70,7 +70,7 @@ values whose eigenstates appear in the representation (27).
 
 *** x
 :PROPERTIES:
-:ID:       9dd4e461268c8034f5c8564e155c67a6
+:ID:       x
 :END:
 It gives a picture of a world (i.e., everything that exists) consisting of many
 coexisting universes (i.e., maximal sets observables with values) evolving
@@ -80,5 +80,5 @@ eh?
 
 ** Right; I guess I have to read more on many world problematic. Maybe I shouldn't care at all and study something more practical like visualizing, simulations and solving?
 :PROPERTIES:
-:ID:       510cd1edd35efa9aca2f0867824e3ac6
+:ID:       rghtgsshvtrdmrnmnywrldprbctcllkvslzngsmltnsndslvng
 :END:

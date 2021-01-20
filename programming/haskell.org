@@ -4,14 +4,14 @@
 
 * [#C] [2016-08-07] .
 :PROPERTIES:
-:ID:       85bed989fa9e39e56d90cd381c5b395c
+:ID:       sn
 :END:
 ihaskell install
 jupyter console --kernel haskell
 
 * [2015-06-20] Do notation expanded
 :PROPERTIES:
-:ID:       3e0bb445d9ede04ffbecffacb2da7309
+:ID:       dnttnxpndd
 :END:
 #+begin_src haskell
   do e → e
@@ -29,11 +29,11 @@ but what happens if foo produces an empty list? Well, remember that ugly fail fu
 
 * monads                                                              :monad:
 :PROPERTIES:
-:ID:       12a43e9870d499091f6825ce93134d78
+:ID:       mnds
 :END:
 ** writer monad, logger monad
 :PROPERTIES:
-:ID:       fcb0a45d598f64ba930fd49b7563e94b
+:ID:       wrtrmndlggrmnd
 :END:
 : -- l: log type, Monoid
 : newtype Writer l a = Writer {
@@ -42,7 +42,7 @@ but what happens if foo produces an empty list? Well, remember that ugly fail fu
 
 ** reader monad
 :PROPERTIES:
-:ID:       b446cb41478aea09d18bcf97c66aeb31
+:ID:       rdrmnd
 :END:
 : newtype Reader r a = Reader {
 :     runReader :: r -> a
@@ -50,7 +50,7 @@ but what happens if foo produces an empty list? Well, remember that ugly fail fu
 
 ** state monad
 :PROPERTIES:
-:ID:       582c6159a1f161d45c998b56753d2b83
+:ID:       sttmnd
 :END:
 : newtype State s a = State {
 :     runState :: s -> (a, s)
@@ -59,7 +59,7 @@ but what happens if foo produces an empty list? Well, remember that ugly fail fu
 
 * [2015-06-20] monad transformers                                     :monad:
 :PROPERTIES:
-:ID:       aae405169def75a79222aa2a9c6be24a
+:ID:       mndtrnsfrmrs
 :END:
 Monad transformers exist only because monads do not compose in general.
 MaybeT : provides the construction for (f of Maybe) for any Monad f.
@@ -83,5 +83,5 @@ MaybeT : provides the construction for (f of Maybe) for any Monad f.
 
 * related                                                                :fp:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:

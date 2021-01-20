@@ -3,12 +3,12 @@
 
 * [#B] [2018-07-08] In novice strength trainers, the muscle's ability to generate force is most strongly limited by nerve’s ability to sustain a high-frequency signal
 :PROPERTIES:
-:ID:       ab177b7f48f7e340db58d4a89d20756a
+:ID:       snnnvcstrngthtrnrsthmsclsrvsbltytsstnhghfrqncysgnl
 :END:
 
 * [2018-07-01] nervous system
 :PROPERTIES:
-:ID:       ffa387b9e0d2b2696c676475b71132ba
+:ID:       snnrvssystm
 :END:
 ANS
 - sympathetic -- short term survival (githg or flight) response
@@ -17,11 +17,11 @@ ANS
 
 * [2018-07-21] Leptin inhibits hunger. in obesity, decreased sensitive to leptin occurs so you're unable to detect hunger [wiki]
 :PROPERTIES:
-:ID:       482a323f0d3d0ec337e5dc2dbab5b325
+:ID:       stlptnnhbtshngrnbstydcrsdlptnccrssyrnbltdtcthngrwk
 :END:
 * [2018-07-18] TLDR: serotonin and dopamine are just transmitters and have MANY functions
 :PROPERTIES:
-:ID:       cc581fbc001478efd5432e49fc2faa4a
+:ID:       wdtldrsrtnnnddpmnrjsttrnsmttrsndhvmnyfnctns
 :END:
 : Some neurotransmitters almost always do one thing: GABA is almost always an inhibitor of some kind, kind of like how a green wire is almost always a ground. Glutamate is always an excitatory neurotransmitter, kind of like black wires are almost always the "hot" wire in home electrical wiring.
 : dopamine is more like a purple wire. used for various purposes. Saying dopamine is a reward neurotransmitter is like saying purple wires are for right-rear car speakers.
@@ -49,14 +49,14 @@ https://www.reddit.com/r/explainlikeimfive/comments/251kby/eli5_the_difference_b
 
 * [2017-07-27] blood types
 :PROPERTIES:
-:ID:       6fc37e879de05afbf3175741d50f0064
+:ID:       thbldtyps
 :END:
 : Apes and old-world monkeys have ABO blood types like us.
 : Other animals have blood types, but not the same ones as us. There are thirteen different dog blood types, but cats are categorised as A, B, or AB. Not the same as human A and B.
 
 * [2018-08-17] http://biology.stackexchange.com/questions/324/why-did-the-process-of-sleep-evolve-in-many-animals-what-is-its-evolutionary-ad
 :PROPERTIES:
-:ID:       9de9407e57ad5bd70f601a304ce4de8a
+:ID:       frblgystckxchngcmqstnswhypvlvnmnynmlswhtstsvltnryd
 :END:
 :  sleep is a state required for nervous system plasticity. In other words, in order for the nervous system to grow and change, there must be down time of active behavior.
 
@@ -65,12 +65,12 @@ resynthesis of brain glycogen
 
 * higher amounts of prolactin makes women cry more often than men
 :PROPERTIES:
-:ID:       f48098bae8a88faf7260393d37dfa31c
+:ID:       hghrmntsfprlctnmkswmncrymrftnthnmn
 :END:
 implications: women might not be as sad as you think; men might be sad without you realizing
 * [2017-04-18] Cold shower burns fat? https://www.reddit.com/r/todayilearned/comments/1efdzs/til_taking_cold_showers_can_help_you_lose_weight/ :humanbody:
 :PROPERTIES:
-:ID:       3e7eda3ade531c9b91348fa9298bed96
+:ID:       tcldshwrbrnsftswwwrddtcmrltkngcldshwrscnhlpylswght
 :END:
 : The time you spent sitting in a cold shower will not burn as much energy as high-intensity physical activity performed for the same length of time.
 : TL:DR: Yes, it works. But it's extremely inefficient and your time is better spent on high-intensity physical activity if fat-loss is your goal. /r/fitness and /r/loseit are your friends.

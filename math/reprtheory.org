@@ -4,7 +4,7 @@
 
 * Definitions & theorems
 :PROPERTIES:
-:ID:       390d4a6f37a7ab9eea253cbe41d96f5e
+:ID:       dfntnsthrms
 :END:
 GL(V) -- group of linear maps of V (automorphisms, isomorphisms from group to itself)
 p is representation
@@ -16,44 +16,44 @@ G-linear map -- map between representations V -> W, s.t g . phi and phi . g comm
 
 ** subrepresentation W -- vector subspace of V invariant under G.
 :PROPERTIES:
-:ID:       86b6710e467fabed31c14b19e2ab4965
+:ID:       sbrprsnttnwvctrsbspcfvnvrntndrg
 :END:
 ** trivial subrepr -- V and {0}.
 :PROPERTIES:
-:ID:       753aac2308a7912011892debd65c50e2
+:ID:       trvlsbrprvnd
 :END:
 ** irreducible -- no nontrival subrepr
 :PROPERTIES:
-:ID:       92f036cd56150e58ac39393137f25aeb
+:ID:       rrdcblnnntrvlsbrpr
 :END:
 ** group center -- elements that are commuting with every other element
 :PROPERTIES:
-:ID:       961ea1c144d349e5b0b8c39be0730f12
+:ID:       grpcntrlmntsthtrcmmtngwthvrythrlmnt
 :END:
 ** inner automorphism -- conjugation with group element f_a(g) = a g a^-1
 :PROPERTIES:
-:ID:       c8bc9cbaf23c82f704ff7ff4ebdbc6b5
+:ID:       nnrtmrphsmcnjgtnwthgrplmntfgg
 :END:
 ** Schur's lemma - only useful for complex reprs (relies on eigenvalue existence)
 :PROPERTIES:
-:ID:       a87bca7ca565e4084e136a0d6f85caad
+:ID:       schrslmmnlysflfrcmplxrprsrlsngnvlxstnc
 :END:
 ** commutative G -- all irrep are one dimensional
 :PROPERTIES:
-:ID:       7c0822cc1bdf74f60472e2976a352dd7
+:ID:       cmmttvgllrrprndmnsnl
 :END:
 
 * [#A] U(1)
 :PROPERTIES:
-:ID:       bc687bc49a850d62c9dd055dbe05e6a9
+:ID:       864_1148
 :END:
 ** U(1) -- rotations e^i theta
 :PROPERTIES:
-:ID:       f4be6dcf6483432e641300962ed1e230
+:ID:       rttnstht
 :END:
 ** all irrep of U(1) are unitary; pi_k : exp(i theta) -> exp(i k theta), k in Z.
 :PROPERTIES:
-:ID:       91df2aef008992d40d57036370fdeba2
+:ID:       llrrpfrntrypkxpthtxpkthtknz
 :END:
 the sqlf adjoint operator is multiplication by k. 
 integral k comes because of periodicity of unit circle, if it was R, it would be different
@@ -62,30 +62,30 @@ integral k comes because of periodicity of unit circle, if it was R, it would be
 
 * START [2018-09-05] Woit book is quite elaborate. Ugh, it's all very hard :(
 :PROPERTIES:
-:ID:       db1f57540af186257b07c71b3630a00d
+:ID:       wdwtbksqtlbrtghtsllvryhrd
 :END:
 ** DONE [2019-01-20]  SU 2 (chapter 3)
 :PROPERTIES:
-:ID:       decf0280deb37f42a5983d0d9233a3cb
+:ID:       snschptr
 :END:
 ok, still unclear what is spin 0. it shouldn't change under coordinate transformations right, but what is it from the representation theory point of view??
 *** TODO some annotations in Polar
 :PROPERTIES:
-:ID:       fcddc7e073d49da1a209d40b47eecd1a
+:ID:       smnnttnsnplr
 :END:
 ** START [2019-01-20] chapter 5. .. skipped it for now
 :PROPERTIES:
-:ID:       7cddf01ee51dcac94bacd40cf654c2ce
+:ID:       snchptrskppdtfrnw
 :END:
 ** Spin(3) = Sp(1), unitary quaternions
 :PROPERTIES:
-:ID:       1dc6451a4c885453758c42f4006e5530
+:ID:       spnspntryqtrnns
 :END:
 and Sp(1) = SU(2)
 SO(3) is kinda like S^3 but with opposite points of the sphere identified
 ** START [2019-01-23]  chapter 10.2.1
 :PROPERTIES:
-:ID:       d0e40e7ed55e433abae88e622d874827
+:ID:       wdchptr
 :END:
 important point -- schrodinger equation
 i h d/dt |psi> = H |psi>
@@ -93,40 +93,40 @@ i h d/dt |psi> = H |psi>
 
 * [#A] SU(2)
 :PROPERTIES:
-:ID:       ebb8eaf827ea248f3bdaf14b6e0e54de
+:ID:       s
 :END:
 ** START Representation theory of SU(2) - Wikipedia
 :PROPERTIES:
 :CREATED:  [2018-09-03]
-:ID:       e6b7b4d9c49b800de2e4d0cc8408cf5d
+:ID:       rprsnttnthryfswkpd
 :END:
 
 https://en.m.wikipedia.org/wiki/Representation_theory_of_SU(2)
 *** right, so reprs of SU 2 are actually found by considering su(2) reprs? similar to what woit was doing, yep. explains choice of pauli matrices as well
 :PROPERTIES:
-:ID:       499d1a7edf17ff674ea82a146f37336c
+:ID:       rghtsrprsfsrctllyfndbycnsdngypxplnschcfplmtrcsswll
 :END:
 
 ** SU(n) -- n dim matrices with det equal to 1
 :PROPERTIES:
-:ID:       54aadefdbe1979b6f3537ec8b3690d0a
+:ID:       snndmmtrcswthdtqlt
 :END:
 *** SU(2) = ((a, -b*), (b*, a)); norm(a)^2 + norm(b)^2 = 1
 :PROPERTIES:
-:ID:       a51c9291e2aa500cb208c78212cc0307
+:ID:       sbbnrmnrmb
 :END:
 **** a, b -- complex hense a_1^2 + a)2^2 + b_1^2 + b_2^2 = 1, so 3-sphere
 :PROPERTIES:
-:ID:       31cbbf2197255af46fffe3ca6852a710
+:ID:       bcmplxhnsbbssphr
 :END:
 **** isomorphic to unit quaternions
 :PROPERTIES:
-:ID:       4e2e0f3531d4c21f1b025c4478a893b2
+:ID:       smrphctntqtrnns
 :END:
 
 ** SU(2). for C^2 self adjoint operators are always expressed in terms of Pauli matrices
 :PROPERTIES:
-:ID:       e22673fe6bd88757e882d8539879953f
+:ID:       sfrcslfdjntprtrsrlwysxprssdntrmsfplmtrcs
 :END:
 directions of spin -- one direction for each of the Pauli matrices
 observables give rise to representations
@@ -137,26 +137,26 @@ only for Pauli_3 it's diagonal. ugh, don't understand anything
 
 ** TODO Symmetry in quantum mechanics - Wikipedia                  :symmetry:
 :PROPERTIES:
-:ID:       9ece66db783166c195500265cbcda5b7
+:ID:       symmtrynqntmmchncswkpd
 :END:
 *** [2018-09-06]
 :PROPERTIES:
-:ID:       fec2fd04e405ad14a9ecb60c09247918
+:ID:       th
 :END:
 : The spin vector operator is denoted S ^ = ( S x ^ , S y ^ , S z ^ ) {\displaystyle {\widehat {\mathbf {S} }}=({\widehat {S_{x}}},{\widehat {S_{y}}},{\widehat {S_{z}}})} {\widehat {\mathbf {S} }}=({\widehat {S_{x}}},{\widehat {S_{y}}},{\widehat {S_{z}}}). The eigenvalues of its components are the possible outcomes (in units of ℏ {\displaystyle \hbar } \hbar ) of a measurement of the spin projected onto one of the basis directions.
 *** [2018-09-06]
 :PROPERTIES:
-:ID:       a9d3a29198c9a7dc8f744c164d9d7e74
+:ID:       th
 :END:
 : Rotations (of ordinary space) about an axis a ^ {\displaystyle {\hat {\mathbf {a} }}} {\hat {\mathbf {a} }} through angle θ about the unit vector a ^ {\displaystyle {\hat {a}}} {\hat {a}} in space acting on a multicomponent wave function (spinor) at a point in space is represented by:
 *** [2018-09-06]
 :PROPERTIES:
-:ID:       f6769ccad25125147901013a0ba6fd26
+:ID:       th
 :END:
 : In relativistic quantum mechanics, wavefunctions are no longer single-component scalar fields, but now 2(2s + 1) component spinor fields, where s is the spin of the particle. The transformations of these functions in spacetime are given below.
 *** TODO [#B] [2019-01-23] Representation of a Lie group - Wikipedia    :lie:
 :PROPERTIES:
-:ID:       55c69542649b299b5f7dfd93c81cd56f
+:ID:       wdrprsnttnflgrpwkpd
 :END:
 https://en.wikipedia.org/wiki/Representation_of_a_Lie_group#An_example:_The_rotation_group_SO.283.29
 :  ne subtlety of this analysis is that the representations of the group and the Lie algebra are not in one-to-one correspondence, a point that is critical in understanding the distinction between integer spin and half-integer spin.
@@ -165,36 +165,36 @@ https://en.wikipedia.org/wiki/Representation_of_a_Lie_group#An_example:_The_rota
 
 ** TODO Spinors                                                      :spinor:
 :PROPERTIES:
-:ID:       c027cb9e8debe96b93269f6a2d63847a
+:ID:       spnrs
 :END:
 from wiki:
 *** [#B] [2019-02-07] Spinors, on the other hand, are constructed in such a way that makes them sensitive to how the gradual rotation of the coordinates arrived there: they exhibit path-dependence. It turns out that, for any final configuration of the coordinates, there are actually two ("topologically") inequivalent gradual (continuous) rotations of the coordinate system that result in this same configuration. This ambiguity is called the homotopy class of the gradual rotation
 :PROPERTIES:
-:ID:       4ba598673d72cf5798da5bf755f5d3e7
+:ID:       thspnrsnththrhndrcnstrctdlldthhmtpyclssfthgrdlrttn
 :END:
 *** [#B] [2019-02-07] This group acts by conjugation on the real vector space spanned by the Pauli matrices themselves,[nb 12] realizing it as a group of rotations among them,[nb 13] but it also acts on the column vectors (that is, the spinors).
 :PROPERTIES:
-:ID:       aa3f8cff915c6eaee1b6faa16846c1d6
+:ID:       ththsgrpctsbycnjgtnnthrlvtsnthclmnvctrsthtsthspnrs
 :END:
 *** [#B] [2019-02-07] onetheless, the concept is generally considered notoriously difficult to understand, as illustrated by Michael Atiyah's statement that is recounted by Dirac's biographer Graham Farmelo:
 :PROPERTIES:
-:ID:       941c2e15a600f3ba4714abe2084eec6a
+:ID:       thnthlssthcncptsgnrllycnsrcntdbydrcsbgrphrgrhmfrml
 :END:
 No one fully understands spinors. Their algebra is formally understood but their general significance is mysterious. In some sense they describe the "square root" of geometry and, just as understanding the square root of −1 took centuries, the same might be true of spinors.[11]
 
 *** [#B] [2019-02-07] What is a spinor? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       3ddb0dcb22f33ee012713554ea1ca415
+:ID:       thwhtsspnrphyscsstckxchng
 :END:
 A spinor is a mathematical representation of a harmonic standing-wave quantum field "topological structure" or excitation which typically exhibits a spin ½ geometry 
 *** [#B] [2019-01-14] Plate trick - Wikipedia                           :viz:
 :PROPERTIES:
-:ID:       bca9a1cafa095fcbfc4498a756d89dd1
+:ID:       mnplttrckwkpd
 :END:
 https://en.wikipedia.org/wiki/Plate_trick
 *** [#C] [2019-01-23] Eigenspinor - Wikipedia
 :PROPERTIES:
-:ID:       df97b71fc3b629938ea928485982aad0
+:ID:       wdgnspnrwkpd
 :END:
 https://en.wikipedia.org/wiki/Eigenspinor
 
@@ -203,7 +203,7 @@ https://en.wikipedia.org/wiki/Eigenspinor
 
 * [2019-01-23] SO(3)
 :PROPERTIES:
-:ID:       a105acc55fe608e5622547470f52f2fc
+:ID:       wds
 :END:
 https://en.wikipedia.org/wiki/3D_rotation_group#Topology
 mmm.. proof of no simple connectedness is a bit tricky...
@@ -215,12 +215,12 @@ Maybe the intuition with torus works? But the torus is more of a long pipe
 
 * [2019-01-20]  misc stuff vvvvvvvvvvvvvvvv
 :PROPERTIES:
-:ID:       c0d2a0e17e60ea54422a5648a58dfe54
+:ID:       snmscstffvvvvvvvvvvvvvvvv
 :END:
 
 * [2019-01-20] Irreducible representation - Wikipedia
 :PROPERTIES:
-:ID:       d38d22a2cef99c65556b68da8cc70c65
+:ID:       snrrdcblrprsnttnwkpd
 :END:
 https://en.wikipedia.org/wiki/Irreducible_representation
 Selection:
@@ -228,13 +228,13 @@ In quantum physics and quantum chemistry, each set of degenerate eigenstates of 
 
 * TODO [#B] [2018-09-03] representation theory of the lorenz group :reprtheory:
 :PROPERTIES:
-:ID:       b1ce0fe31b05e7ebb5383661d6fb256a
+:ID:       mnrprsnttnthryfthlrnzgrp
 :END:
 https://en.wikipedia.org/wiki/Representation_theory_of_the_Lorentz_group
 
 * [#B] [2018-08-25] symmetry groups                                :symmetry:
 :PROPERTIES:
-:ID:       1e829ce5af6ce8d9e322a6a14a8d9f41
+:ID:       stsymmtrygrps
 :END:
 what is the meaning of symmetry? I guess that the actually observed values are unchanged
 
@@ -269,7 +269,7 @@ A representation of a group is a way to think of its elements as operators, and 
 
 ** TODO I encourage everyone to learn the derivation of Schrödinger's equation straight from the representation theory of the Galilei group! It's cool.
 :PROPERTIES:
-:ID:       6a0cf87201644a1b776b756ee4bc6e92
+:ID:       ncrgvryntlrnthdrvtnfschrörprsnttnthryfthgllgrptscl
 :END:
 The mathematical foundations of quantum physics:
 Josef M. Jauch, Foundations of Quantum Mechanics, Addison-Wesley, 1968. (Very thoughtful and literate. Get a taste of quantum logic.)
@@ -277,23 +277,23 @@ George Mackey, The Mathematical Foundations of Quantum Mechanics, Dover, New Yor
 
 * TODO [#B] [2018-11-16] Representation Theory
 :PROPERTIES:
-:ID:       81279213b85f05fa1c234d7b8c316232
+:ID:       frrprsnttnthry
 :END:
 https://www.math.columbia.edu/~woit/RepThy/
 
 * [2018-09-03]  This holds in particular for any representation of a finite group over the complex numbers, since the characteristic of the complex numbers is zero, which never divides the size of a group. :reprtheory:
 :PROPERTIES:
-:ID:       aeb762e08c91c89cf3545e0a51846ac7
+:ID:       mnthshldsnprtclrfrnyrprsnbrsszrwhchnvrdvdsthszfgrp
 :END:
 
 * [2018-11-10] Introduction to gauge theory - Wikipedia :reprtheory:symmetry:
 :PROPERTIES:
-:ID:       59e4ff57ff22787f834a40380596cc0e
+:ID:       stntrdctntggthrywkpd
 :END:
 https://en.wikipedia.org/wiki/Introduction_to_gauge_theory
 ** [#B] [2019-01-10]  Suppose that there existed some process by which one could briefly violate conservation of charge by creating a charge q at a certain point in space, 1, moving it to some other point 2, and then destroying it. We might imagine that this process was consistent with conservation of energy. We could posit a rule stating that creating the charge required an input of energy E1=qV1 and destroying it released E2=qV2, which would seem natural since qV measures the extra energy stored in the electric field because of the existence of a charge at a certain point. Outside of the interval during which the particle exists, conservation of energy would be satisfied, because the net energy released by creation and destruction of the particle, qV2-qV1, would be equal to the work done in moving the particle from 1 to 2, qV2-qV1. But although this scenario salvages conservation of energy, it violates gauge symmetry. Gauge symmetry requires that the laws of physics be invariant under the transformation {\displaystyle V\rightarrow V+C} V\rightarrow V+C, which implies that no experiment should be able to measure the absolute potential, without reference to some external standard such as an electrical ground. But the proposed rules E1=qV1 and E2=qV2 for the energies of creation and destruction would allow an experimenter to determine the absolute potential, simply by comparing the energy input required to create the charge q at a particular point in space in the case where the potential is {\displaystyle V} V and {\displaystyle V+C} V+C respectively. The conclusion is that if gauge symmetry holds, and energy is conserved, then charge must be conserved.[1
 :PROPERTIES:
-:ID:       e666c1f9f3b9002864c8106b27331029
+:ID:       thsppsthtthrxstdsmprcssbyyscnsrvdthnchrgmstbcnsrvd
 :END:
 huh, that' very interesting point!!
 
@@ -302,12 +302,12 @@ interesting, also in sense it's similar to comparing absolute units and diferern
 not sure if it's very convincing, e.g. proposed rules are pretty arbitrary
 ** [2019-01-10]
 :PROPERTIES:
-:ID:       69a884a4331710563a24c0ead4e67fad
+:ID:       th
 :END:
 Not only that, but it is not even necessary to change the speed of each clock by a fixed amount. We could change the angle of the hand on each clock by a varying amount θ, where θ could depend on both the position in space and on time. This would have no effect on the result of the experiment, since the final observation of the location of the electron occurs at a single place and time, so that the phase shift in each electron's "clock" would be the same, and the two effects would cancel out. This is another example of a gauge transformation: it is local, and it does not change the results of experiments.
 ** [2019-01-10]
 :PROPERTIES:
-:ID:       36a7a5ec661af52ceef6a80831e2e2e1
+:ID:       th
 :END:
 As a way of visualizing the choice of a gauge, consider whether it is possible to tell if a cylinder has been twisted. If the cylinder has no bumps, marks, or scratches on it, we cannot tell. We could, however, draw an arbitrary curve along the cylinder, defined by some function θ(x), where x measures distance along the axis of the cylinder. Once this arbitrary choice (the choice of gauge) has been made, it becomes possible to detect it if someone later twists the cylinde  
 
@@ -315,7 +315,7 @@ In 1954, Chen Ning Yang and Robert Mills proposed to generalize these ideas to n
 
 ** [2019-01-10] uu, nice demo for Aharonov-Bohm effect!
 :PROPERTIES:
-:ID:       85a15948057178c5a0d2f6d24c193107
+:ID:       thncdmfrhrnvbhmffct
 :END:
 https://www.youtube.com/watch?v=OgDPK5MLVnE
 so it gets global phase shift?
@@ -323,24 +323,24 @@ so it gets global phase shift?
 
 * unitary repr pi(g) = e^A for g close to identity A* = -A, skew symetric, but B=iA -- self adjoint!
 :PROPERTIES:
-:ID:       9bc29fb9afda816da11efa2bad8e9a52
+:ID:       ntryrprpgfrgclstdnttyskwsymtrcbtbslfdjnt
 :END:
 lie group actions provide us with observables many of which happen to be of physical interest
 
 
 ** time translation: representation of R (additive). pi(t) = exp(-i/h H t). Hamiltonian!
 :PROPERTIES:
-:ID:       d073f2afea1349d97719dc6be9b4bbc6
+:ID:       tmtrnsltnrprsnttnfrddtvptxphhthmltnn
 :END:
 
 
 * any unitary repr is a direct sum of irrep
 :PROPERTIES:
-:ID:       45a2cc30dafcef009abdd832209dffbd
+:ID:       nyntryrprsdrctsmfrrp
 :END:
 ** non unitary counterexample:
 :PROPERTIES:
-:ID:       00e265086df152764833867b19bc9c3a
+:ID:       nnntrycntrxmpl
 :END:
 C^2, upper triangular matrices W = k (1 0) for k in C is a subrepr, but there is no complement
 
@@ -348,12 +348,12 @@ C^2, upper triangular matrices W = k (1 0) for k in C is a subrepr, but there is
 * TODO [#C] Baez lie groups throught examples              :lie:math:physics:
 :PROPERTIES:
 :CREATED:  [2018-08-25]
-:ID:       4bd146cc8fbec3b3444c15818b9000ca
+:ID:       bzlgrpsthrghtxmpls
 :END:
 
 ** [2018-10-09] ok hold on for now; he assumes we know what's a lie algebra, etc..
 :PROPERTIES:
-:ID:       b0a08d4c1d1d19bdc42fc299d6611d59
+:ID:       tkhldnfrnwhssmswknwwhtsllgbrtc
 :END:
 http://math.ucr.edu/home/baez/qg-fall2008/
 https://golem.ph.utexas.edu/category/2008/09/lie_theory_through_examples_1.html
@@ -361,14 +361,14 @@ http://math.ucr.edu/home/baez/qg-fall2008/lie1.pdf
 
 * [2018-09-11] http://blog.sigfpe.com/2007/11/whats-all-this-e8-stuff-about-then-part.html
 :PROPERTIES:
-:ID:       b67d2ce9c8bd16919d000ea53390b935
+:ID:       tblgsgfpcmwhtsllthsstffbtthnprthtml
 :END:
 lie algebras describe rate of change of element of lie group, they are not wrapping around!
 
 * START lie groups course                                       :lie:physics:
 :PROPERTIES:
 :CREATED:  [2018-08-26]
-:ID:       41698352ed21a793f52b0b254e8a20de
+:ID:       lgrpscrs
 :END:
 
 http://math.ucr.edu/home/baez/lie/lie.html
@@ -380,11 +380,11 @@ https://math.stackexchange.com/a/1823425/15108 -- so(3) are skew symmetric matri
 
 ** START Brian Hall Lie groups lie algebras and representations (Baez recommendation)
 :PROPERTIES:
-:ID:       8f1deceaa341680fa4e329f68177b4f8
+:ID:       brnhlllgrpsllgbrsndrprsnttnsbzrcmmndtn
 :END:
 *** [2018-10-18] p.4. matrix Lie group -- closed subgroup of general linear.
 :PROPERTIES:
-:ID:       e896658c159ce960fc3fedd4eca4cc4f
+:ID:       thpmtrxlgrpclsdsbgrpfgnrllnr
 :END:
 SO group: A* = A^(-1)
 SO is subgroup of O
@@ -393,14 +393,14 @@ UGH . stuck here. too sleepy I suppose.
 
 ** START Fulton representation theory (Baez recommended)
 :PROPERTIES:
-:ID:       536b26a0a3d0e7e290f09761bff70f65
+:ID:       fltnrprsnttnthrybzrcmmndd
 :END:
 hmm, still a bit too advanced...
 
 * lie groups nlab                                                       :lie:
 :PROPERTIES:
 :CREATED:  [2018-09-03]
-:ID:       eda467019d5412f732b51e1f4fffb18d
+:ID:       lgrpsnlb
 :END:
 https://ncatlab.org/nlab/show/Lie+group
 very elaborate stuff..
@@ -418,7 +418,7 @@ interesting things are
 * TODO [#C] Symmetry in quantum mechanics - Wikipedia
 :PROPERTIES:
 :CREATED:  [2018-09-03]
-:ID:       9ece66db783166c195500265cbcda5b7
+:ID:       symmtrynqntmmchncswkpd
 :END:
 
 The generators of the group are the partial derivatives of the group elements with respect to the group parameters with the result evaluated when the parameter is set to zero:
@@ -431,17 +431,17 @@ In the language of manifolds, the generators are the elements of the tangent spa
 
 * TODO [2018-10-09]  people also recommend Duistermaat-Kolk: Lie Groups.
 :PROPERTIES:
-:ID:       e62340fb9ed8297f529ff70125efadb1
+:ID:       tppllsrcmmnddstrmtklklgrps
 :END:
 
 
 * START going through liegroups.pdf file:study/reprtheory/liegroups.pdf
 :PROPERTIES:
-:ID:       eac781de43d6c824bee42a1ed2bcd44a
+:ID:       gngthrghlgrpspdfflstdyrprthrylgrpspdf
 :END:
 ** [2018-10-09]  trying to prove that identity connected component of a lie group is a normal  subgroup and a lie group
 :PROPERTIES:
-:ID:       b61b2ace02d144814c6ef82a2d987f4a
+:ID:       ttryngtprvthtdnttycnnctdcpnntflgrpsnrmlsbgrpndlgrp
 :END:
 first of all -- shy is it normal.
 
@@ -449,7 +449,7 @@ after that, through why is it a group at all... need some understanding of conne
 
 *** why it's a group
 :PROPERTIES:
-:ID:       6ff33c31c3fb351e5d696c563ada5235
+:ID:       whytsgrp
 :END:
 use path connectedness for simplicity for now?
 
@@ -467,7 +467,7 @@ then p_(a+b)(t) = p_a(t)  + p_b(t). p(0) = 0; p(a + b) = a + b; the mapping is c
 
 *** why is it normal
 :PROPERTIES:
-:ID:       81a9d6e66c6ce0a7e47df3f39afe0326
+:ID:       whystnrml
 :END:
 take any a in G_0 and g in G
 g a inv(g) --- ???
@@ -483,48 +483,48 @@ https://topospaces.subwiki.org/wiki/Connected_component
 
 *** why is it a lie group. well trivial I suppose? continuity etc is induced
 :PROPERTIES:
-:ID:       d241abd63d047985b6dc501b4bb0c84f
+:ID:       whystlgrpwlltrvlsppscntntytcsndcd
 :END:
 *** TODO why quotient is discrete???
 :PROPERTIES:
-:ID:       524a051acee821bb3dc1ed1a2ac15f3d
+:ID:       whyqtntsdscrt
 :END:
 **** TODO need to understand what quotient space topology is
 :PROPERTIES:
-:ID:       a56ed0c51e98736d1256d0e606105d1d
+:ID:       ndtndrstndwhtqtntspctplgys
 :END:
 https://en.wikipedia.org/wiki/Quotient_space_(topology)
 *** It's theorem is useful; we essentially split study of lie groups into discrete groups and connected. he mentions we can further simplify and study simply connected.
 :PROPERTIES:
-:ID:       ec890a7f34a15193fd1225263d2bd113
+:ID:       tsthrmssflwssntllyspltstdhrsmplfyndstdysmplycnnctd
 :END:
 
 
 ** [2018-10-15] carrying on...
 :PROPERTIES:
-:ID:       9c39c4d45351903474b74b8a441eb39d
+:ID:       mncrryngn
 :END:
 *** ok, I'm a bit stuck at understanding topologocal continuity again I think. shame :(
 :PROPERTIES:
-:ID:       bd7d04482823d2470ee291fe565d567f
+:ID:       kmbtstcktndrstndngtplgclcntntygnthnkshm
 :END:
 ok, so let's build a counterexample. suppose there is an O_Y, that preimage of O_Y is not open. (trivial example: X = trivial topology; Y = discrete topology). And f is identity
 **** https://math.stackexchange.com/a/2686384/15108 aha, they are continuous iff finer actuok, but what's the intuition?
 :PROPERTIES:
-:ID:       68e0733aa5ab20d46929b94775ec85aa
+:ID:       smthstckxchngcmhthyrcntnsfffnrctkbtwhtsthnttn
 :END:
 so all functions from discrete topology are continuous.... ok, but what's the intuition?
 
 **** https://math.stackexchange.com/questions/658305/continuous-mapping-between-topological-spaces
 :PROPERTIES:
-:ID:       22a82564aad92db64fdaba5515f05fe7
+:ID:       smthstckxchngcmqstnscntnsmppngbtwntplgclspcs
 :END:
 Let X and Y be topological spaces. The mapping f:X→Y is continuous if the preimage of the open set is an open set.
 "If the topology on X is finer it is "easier" for f to be continuous" (∗)   
 hmm, ok
 **** ah shit. closedness makes way more sense now. sooo
 :PROPERTIES:
-:ID:       f9239f85e94b129d6b431c5482efb8ba
+:ID:       hshtclsdnssmkswymrsnsnws
 :END:
 A function {\displaystyle f:X\to Y} f:X\to Y is continuous at a point {\displaystyle p} p iff {\displaystyle p\in \operatorname {cl} (A)\Rightarrow f(p)\in \operatorname {cl} (f(A))} p\in \operatorname {cl}(A)\Rightarrow f(p)\in \operatorname {cl}(f(A)).
 WHERE X IS NOT NECESSARILY IN A!
@@ -534,7 +534,7 @@ p is in closure of A, so touches it.
 but. f(p) is not in closure of f(A). 
 **** soo, points that seemed closes ended up apart under the map f
 :PROPERTIES:
-:ID:       665d9d75bbaef019db3dc1412a509d80
+:ID:       spntsthtsmdclssnddpprtndrthmpf
 :END:
 in trivial topology, all points seem close; however when mapped to discrete, they fall apart
 in the same sense, the function is not continuous if two points that seemed indistinguishable end up in topoplogically distinguishable sets
@@ -548,7 +548,7 @@ in terms of closure, it's a bit easier. 0 is close to (0, inf). however f(0), wh
 
 *** I thhink I got an intuition for quotient space topology. basically: we map X to X/~. So, to derive topoplogy for quotient space, let's just assume ~ is continuous. then we'd naturally want open subsets in quotient space to be the ones with open preimage
 :PROPERTIES:
-:ID:       8b6bd8686c965251d4839a051710d577
+:ID:       thhnkgtnnttnfrqtntspctplgtsnqtntspctbthnswthpnprmg
 :END:
 for x ~ y == x - y is integer:
 interesting case I suppose is when a set S contains 0. then, we split it in two parts: 'left' to 0 and 'right or zero' (well defined, otherwise it's all space)
@@ -561,18 +561,18 @@ ok, boring, we get the original topology
 
 ** [2018-10-18] carrying on... quotient topology is discrete
 :PROPERTIES:
-:ID:       f51f8a29006a60f79d9c8ab8d2e4960d
+:ID:       thcrryngnqtnttplgysdscrt
 :END:
 Q = G/G^0
 suppose T_Q (topology) is not discrete. that means there is A_Q in Q such that {A_Q} is not open. A_Q corresponds to G^0 + [some] A, so that means it is not open in the original topology T. however, that contradicts G^0 + A being connected component.
 
 *** The connected components are always closed (but in general not open) (from wiki). errrr
 :PROPERTIES:
-:ID:       1d10308e5b18f8e9fa38d74b06ac1a11
+:ID:       thcnnctdcmpnntsrlwysclsdbtngnrlntpnfrmwkrrrr
 :END:
 **** TODO ugh. think of counterexample I suppose...
 :PROPERTIES:
-:ID:       250fcfb8965ab7f2b4710abd2d6ce7c9
+:ID:       ghthnkfcntrxmplspps
 :END:
 Every component is a closed subset of the original space. It follows that, in the case where their number is finite, each component is also an open subset. However, if their number is infinite, this might not be the case; for instance, the connected components of the set of the rational numbers are the one-point sets (singletons), which are not open.
 
@@ -581,7 +581,7 @@ ok. so manifolds are locally path connected and connected components of locally 
 
 ** cover, universal cover...
 :PROPERTIES:
-:ID:       7ecf9599606f56a638f638081d545dd5
+:ID:       cvrnvrslcvr
 :END:
 X: top space
 C is a covering space if there is a surjective map p: C -> X, such that for every x in X there is U(x), s.t. p^-1(U) is a union of disjoint open sets in C, each of them is mapped homeomorphically onto U.
@@ -589,12 +589,12 @@ covering map is more important than covering space.
 S^1 -> S^1 : x -> x^k (complex), k is degree
 *** nice intuition about Riemann sheets https://math.stackexchange.com/a/95331/15108
 :PROPERTIES:
-:ID:       2e1077dc8d4ea9d703aae9be90a3d892
+:ID:       ncnttnbtrmnnshtssmthstckxchngcm
 :END:
 define function on double cover instead of original space
 *** https://math.stackexchange.com/questions/95302/covering-spaces-why-are-they-useful
 :PROPERTIES:
-:ID:       bfc89ee32ec6b739ba03c69b9dccac9f
+:ID:       smthstckxchngcmqstnscvrngspcswhyrthysfl
 :END:
 the definition probably only seems fiddly if you haven't seen it (or related) definitions before. What is says is the following: a map p:Y→X is a covering map if p locally looks like the projection from
 X× a discrete space→X.
@@ -605,24 +605,24 @@ U× a discrete space→U.
 
 *** universal cover: simply connected
 :PROPERTIES:
-:ID:       2f333759066b50b232f6cb1aff814a20
+:ID:       nvrslcvrsmplycnnctd
 :END:
 
 
 ** [2018-10-18] uh... skipped to 2.4
 :PROPERTIES:
-:ID:       b2a071b8d5ceaf5b12cd35db3fa8ee8b
+:ID:       thhskppdt
 :END:
 
 
 * Old... v
 :PROPERTIES:
-:ID:       237cefb23aa73302cccac39b55bd0abd
+:ID:       ldv
 :END:
 
 * С4 group
 :PROPERTIES:
-:ID:       79041a670bb1a9cd288817f6582819c5
+:ID:       сgrp
 :END:
   a b c
 a b c e
@@ -632,46 +632,46 @@ c e a b
 Representation
 ** e, a, b, c = 1, i, -1, -i , complex numbers multiplication
 :PROPERTIES:
-:ID:       88af6e1cb36b3aafe4a994755ce93ee1
+:ID:       bccmplxnmbrsmltplctn
 :END:
 ** e, a, b, c = 0, 1, 2, 3   , addition modulo 4
 :PROPERTIES:
-:ID:       57ed377a186595cd5990cd626b4618c3
+:ID:       bcddtnmdl
 :END:
 ** matrix representation     , matrix multiplication
 :PROPERTIES:
-:ID:       4551f18fa6748197c3a052300aed3195
+:ID:       mtrxrprsnttnmtrxmltplctn
 :END:
 ** geometric representation: marked square rotations
 :PROPERTIES:
-:ID:       29aa11ddd52317898320ddaedd7169a0
+:ID:       gmtrcrprsnttnmrkdsqrrttns
 :END:
 
 * [2018-09-11] O(n) http://mathworld.wolfram.com/OrthogonalGroup.html
 :PROPERTIES:
-:ID:       20cee09342e604cad66a6ac256657a45
+:ID:       tnmthwrldwlfrmcmrthgnlgrphtml
 :END:
 O(n) preserve the quadratic form sum (x^i)^2 (hence, circles for O(2))
 
 ** O(p, q) -- preserves symplectic quadratic form with signature (p, q), e.g. Q(v, w) = Q(Av, Aw)
 :PROPERTIES:
-:ID:       6ba8432b04efaa4a84f9a5102b672dc1
+:ID:       pqprsrvssymplctcqdrtcfrmwthsgntrpqgqvwqvw
 :END:
 lorenz group: O(3, 1)
 O(1, 1) -- preserves x^2 - y^2 (hyperobolas)
 
 * [2019-01-20] misc
 :PROPERTIES:
-:ID:       226886bf5eb0e00d8338f3d75edcf34d
+:ID:       snmsc
 :END:
 ** TODO [#B] [2018-08-26] quantum field theory - Why particles are thought as irreducible representation in plain English? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       af93a3b271390a110deb32668731a74b
+:ID:       snqntmfldthrywhyprtclsrthnnplnnglshphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/277986/why-particles-are-thought-as-irreducible-representation-in-plain-english
 ** [2018-12-07] Worked problems in physics using representation theory? : AskPhysics
 :PROPERTIES:
-:ID:       d129b062706ec0207985236f4baa6cb9
+:ID:       frwrkdprblmsnphyscssngrprsnttnthryskphyscs
 :END:
 https://www.reddit.com/r/AskPhysics/comments/93clmt/worked_problems_in_physics_using_representation/ 
 I haven't read the mechanics book you mentioned, so I don't know how similar these are to that, but some good books I've used that go into representation theory outside of particle physics are Hamermesh's Group theory and its application to physical problems and Petrashen's Applications of group theory in quantum mechanics.
@@ -683,14 +683,14 @@ I once read through the book "Solved Problems in Lagrangian and Hamiltonian Mech
 * TODO . Wigner himself did a lot to improve the situation, writing a book entitled Group Theory and Its Application to the Quantum Mechanics of Atomic Spectra in 1931. It explained groups and representations in a language closer to that with which physicists were familiar.
 :PROPERTIES:
 :CREATED:  [2018-12-17]
-:ID:       fe90e6af53f130c7fafc9fda95d84d4d
+:ID:       wgnrhmslfddlttmprvthsttnwtthtwthwhchphyscstswrfmlr
 :END:
 
 : . Wigner himself did a lot to improve the situation, writing a book entitled Group Theory and Its Application to the Quantum Mechanics of Atomic Spectra in 1931. It explained groups and representations in a language closer to that with which physicists were familiar.
 
 * [#C] [2019-01-24] Short Introduction to and Motivation for Representation Theory – Jakob Schwichtenberg :reprtheory:
 :PROPERTIES:
-:ID:       42b236e6d8de9b96c5d401fb81188a6b
+:ID:       thshrtntrdctntndmtvtnfrrprsnttnthryjkbschwchtnbrg
 :END:
 http://jakobschwichtenberg.com/short-introduction-motivation-representation-theory/
 well, ok it's really basic

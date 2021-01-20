@@ -4,17 +4,17 @@
 
 * awesome-dotfiles https://github.com/webpro/awesome-dotfiles
 :PROPERTIES:
-:ID:       0bb83f8780b6ec90e6d4fe37283c02c5
+:ID:       wsmdtflssgthbcmwbprwsmdtfls
 :END:
 TODO check occasionally?
 
 * What I tried
 :PROPERTIES:
-:ID:       52446f0e960bb31a43e48e1c44cf742d
+:ID:       whttrd
 :END:
 ** CNCL gnu stow?
 :PROPERTIES:
-:ID:       f96782c9a85933af651bca272f14372f
+:ID:       gnstw
 :END:
 apparently a parallel hierarchy with symlinks?
 would be nice to specify, which directories should be created and which should just be symlinked. Otherwise stuff might end up in symlinked folders
@@ -23,13 +23,13 @@ would be nice to specify, which directories should be created and which should j
 
 ** CNCL fresh to build gh config? https://github.com/freshshell/fresh
 :PROPERTIES:
-:ID:       34d3a9a4dc2f68abe9a314df30186b77
+:ID:       frshtbldghcnfgsgthbcmfrshshllfrsh
 :END:
 you can write a configuration, and it will symlinka all automatically
 apparently can source from gh repos, so you could just 'follow' someones' dotfiles (not very portable though)
 ** CNCL homesick? https://github.com/technicalpickles/homesick
 :PROPERTIES:
-:ID:       8f056971d7322a2aec704a146b5ca9ce
+:ID:       hmscksgthbcmtchnclpcklshmsck
 :END:
 looks like a parallel hierarchy of dotfiles mimicing /home? could be convenient to manage with symlinks...
 wonder if .homesick directory is configurable
@@ -44,14 +44,14 @@ ugh.. homesick seems to rewrite relative symlinks to absolute... wtf???
 
 ** mackup? https://github.com/lra/mackup
 :PROPERTIES:
-:ID:       b32de648193da7e4b4c5fddcfe5aca54
+:ID:       mckpsgthbcmlrmckp
 :END:
 apparently just backs up and symlinks configs for some applications
 hmm, so it supports doublecmd. wonder how they handle their configs..
 nope, just copies. nothing interesting
 ** CNCL vcsh http://blog.tfnico.com/2014/03/managing-dot-files-with-vcsh-and-myrepos.html
 :PROPERTIES:
-:ID:       ea1ecfc9b2dbf5fa6e019856572a6bc1
+:ID:       vcshblgtfnccmmngngdtflswthvcshndmyrpshtml
 :END:
 weird stuff, messes with git and uses mr tool to manipulate on multiple repos at the same time
 take another look at it?
@@ -59,25 +59,25 @@ mm -- ok, so apparently it's just like single repo view but routing to different
 e.g. vcsh init vim; vcsh vim commit .vimrc
 ** dotbot?
 :PROPERTIES:
-:ID:       9b89b7091ef847dab2924abfbafb7d37
+:ID:       dtbt
 :END:
 yaml configs.. ugh
 ** dotdrop https://github.com/deadc0de6/dotdrop
 :PROPERTIES:
-:ID:       61eeefd7bd615dfd335e6bc525663be7
+:ID:       dtdrpsgthbcmddcddtdrp
 :END:
 allows templating thanks to jinja2
 erm.. it copies, not symlinks apparently
 ** CNCL dotgit https://github.com/kobus-v-schoor/dotgit
 :PROPERTIES:
-:ID:       e30e864a1ed623bd8bf0d7e23a6031f8
+:ID:       dtgtsgthbcmkbsvschrdtgt
 :END:
 hmm encryption! 
 aims to keep all in single repository
 too comlicated.
 ** https://github.com/evanpurkhiser/dots has post installation script
 :PROPERTIES:
-:ID:       87b60471b5c9eede6b1f82936049988a
+:ID:       sgthbcmvnprkhsrdtshspstnstlltnscrpt
 :END:
 was updated 2 years ago
 
@@ -86,7 +86,7 @@ was updated 2 years ago
 * DONE using git repository with symlinks + external ~ working directory :git:
 :PROPERTIES:
 :CREATED:  [2018-04-02]
-:ID:       aa2626b97de46cd355503238fa5ef94d
+:ID:       snggtrpstrywthsymlnksxtrnlwrkngdrctry
 :END:
 
 /repos/configuration
@@ -114,7 +114,7 @@ cgit command
 
 ** bootstrapping
 :PROPERTIES:
-:ID:       dce19f3c92ea50bc67743f34434b1c7f
+:ID:       btstrppng
 :END:
 - alias cgit='git --git-dir=/repos/configuration/.git --work-tree=/home/karlicos'
 - cgit ireset -- to restore working dir state
@@ -122,23 +122,23 @@ cgit command
   resolve filtype configs (file vs symlinks)
 ** workflow
 :PROPERTIES:
-:ID:       2e2e2d35a15a6146a9bbbc246a9ea4cd
+:ID:       wrkflw
 :END:
 cgit status to see if anything has changed
 cgit add / cgit commit / cgit push
 ** TODO try git lfs?
 :PROPERTIES:
-:ID:       7a49f0d7bdc008f0ca3af223d6c96f6d
+:ID:       trygtlfs
 :END:
 
 * TODO something about files which can't be kept in git                 :git:
 :PROPERTIES:
-:ID:       644e94e3ac635d09672a2283c88dfd3a
+:ID:       smthngbtflswhchcntbkptngt
 :END:
 ** for configs which are patched via script, symlink what patches it  :setup:
 :PROPERTIES:
 :CREATED:  [2018-05-12]
-:ID:       dcd2748291f500be4ef4d0e08b828258
+:ID:       frcnfgswhchrptchdvscrptsymlnkwhtptchst
 :END:
 
 ~ln -s "$(realpath $BASH_SOURCE)" "$CDIR"~
@@ -146,23 +146,23 @@ cgit add / cgit commit / cgit push
 
 * Tooling
 :PROPERTIES:
-:ID:       970d329b9f2d1f639f404599455574e4
+:ID:       tlng
 :END:
 ** jq for patching JSON                                                :json:
 :PROPERTIES:
-:ID:       cb82d74bc83461574e104121e6b675f1
+:ID:       jqfrptchngjsn
 :END:
 https://jqplay.org/ is also quite convenient
 
 
 * DONE [2018-06-20] configs which are not symlinking -- have a script which checks them against reference every few hours and complains if config doesn't match the reference?
 :PROPERTIES:
-:ID:       dd4a73edfbf9aa08bbf8ee958300dd3a
+:ID:       wdcnfgswhchrntsymlnknghvsmplnsfcnfgdsntmtchthrfrnc
 :END:
 I guess it would belong to configuration repository
 
 
 * related                                                             :infra:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:

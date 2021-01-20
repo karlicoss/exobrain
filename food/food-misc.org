@@ -4,18 +4,18 @@
 
 * [#B] [2018-04-23] Variation in stimulation is evolutionary beneficial :gastronomy:
 :PROPERTIES:
-:ID:       4c42710de07d1b8c862e28dfb917a47c
+:ID:       mnvrtnnstmltnsvltnrybnfcl
 :END:
 e.g. different textures and tastes
 
 * [2018-04-30] Lemon and melon are the same molecul, just chiral mirror images :gastronomy:
 :PROPERTIES:
-:ID:       c42bfa0e5d0f50f43369933ea1c97de1
+:ID:       mnlmnndmlnrthsmmlcljstchrlmrrrmgs
 :END:
 
 * [2018-05-11] pancakes chemistry                                :gastronomy:
 :PROPERTIES:
-:ID:       539e04f649ee4f0705e79d8d26a9cedb
+:ID:       frpnckschmstry
 :END:
 https://www.youtube.com/watch?v=pMhrV9sRjqI
  butter milk: sourness???
@@ -30,12 +30,12 @@ https://www.youtube.com/watch?v=pMhrV9sRjqI
 
 * [2018-07-06] White chocolate is only cocoa butter + sugar + cream :chocolate:
 :PROPERTIES:
-:ID:       adae528756fed6aae3ab198be743eeb8
+:ID:       frwhtchcltsnlyccbttrsgrcrm
 :END:
 
 * [2018-05-29] Oil: one reason for using oil is just to make a thermal path between the pan and the food, so the food doesn't only cook exactly where it touches.
 :PROPERTIES:
-:ID:       d0c14fdc4cff938dd5d09c2e5182a8b0
+:ID:       tlnrsnfrsnglsjsttmkthrmlphfddsntnlyckxctlywhrttchs
 :END:
 : The reason boiling doesn't achieve browning, is that water cannot be heated above 100C, except at extreme pressures. The Maillard Reaction is commonly what turns food brown and produces a pleasant taste, and this happens at 140 to 160 C.
 : And according to: http://www.finecooking.com/article/the-science-of-frying
@@ -44,17 +44,17 @@ https://www.youtube.com/watch?v=pMhrV9sRjqI
 
 * [2017-12-23] saving chopped fruit: use lemon juice                :cooking:
 :PROPERTIES:
-:ID:       d892cd13881aa7fdb9b5e00731e38fee
+:ID:       stsvngchppdfrtslmnjc
 :END:
 
 * [2017-02-26] saturated and unsaturated fats: different molecule 'packing' patterns -> different internal energy, different boiling temperatures
 :PROPERTIES:
-:ID:       c312fb333df399ddeaee4ec8931ca4b9
+:ID:       snstrtdndnstrtdftsdffrntmtrnlnrgydffrntblngtmprtrs
 :END:
 
 * [2017-02-26] how fruits are dried
 :PROPERTIES:
-:ID:       bb23aeae24504f6aa62eef0fd1974842
+:ID:       snhwfrtsrdrd
 :END:
 1. freeze
 2. lower pressure
@@ -63,7 +63,7 @@ https://www.youtube.com/watch?v=pMhrV9sRjqI
 
 * [#D] Debunk This: This is The Most Powerful Natural Antibiotic Ever – Kills Any Infections in The Body https://www.reddit.com/r/DebunkThis/comments/2sfk0g/debunk_this_this_is_the_most_powerful_natural/
 :PROPERTIES:
-:ID:       58289ca2140768ab43bb468d419f9437
+:ID:       dbnkthsthssthmstpwrflntrldbnkthsthssthmstpwrflntrl
 :END:
 : Garlic:
 : It does contain an antibiotic compound known as allicin. The wiki article does a good job summing it up: allicin comes from bruised garlic tissue (but not from consumed garlic in the body). You can see the inhibitory concentrations in the article run as low at 16 mg/L in water. To reach those levels in the human body, you'd need roughly 5.5 times as much: ~88 mg in your circulating blood. Since there's roughly 9 mg allicin per garlic clove, this recipe would need roughly 10 cloves of garlic per dose. However, this same study did find an interesting use for purified allicin at level far above what you find in garlic.
@@ -73,7 +73,7 @@ https://www.youtube.com/watch?v=pMhrV9sRjqI
 * TODO oven camembert (250g?) + 200-300g steamed tenderstem broccoli/asparagus spears (very ergonipic for dipping in cheese) :recipe:
 :PROPERTIES:
 :CREATED:  [2021-01-17]
-:ID:       2147f779493b1937e2f27a01d532683b
+:ID:       vncmmbrtggstmdtndrstmbrccgssprsvryrgnpcfrdppngnchs
 :END:
 - cut camembert on top and put in oven for 20 minutes (about 200 degrees)
 - [optional] top with some conserve or berries or pomegranate seeds
@@ -81,11 +81,11 @@ https://www.youtube.com/watch?v=pMhrV9sRjqI
 - also nice with gherkins
 * [2018-07-23] melting has something to do with ph (goat cheese) :foodscience:cheese:
 :PROPERTIES:
-:ID:       f99474d5ac1aefb688f7b85c25042d22
+:ID:       mnmltnghssmthngtdwthphgtchs
 :END:
 * [2018-07-11] stinky cheese -- same type of bacteria as feet :foodscience:cheese:
 :PROPERTIES:
-:ID:       c05977958efac2c159840b0b8b850b53
+:ID:       wdstnkychssmtypfbctrsft
 :END:
 https://www.youtube.com/watch?v=Vk2V2bpxfAc
 cause the environment is simular: salty, moist, warm

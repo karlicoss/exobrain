@@ -3,7 +3,7 @@
 
 * [2018-11-24] my thoughts on that
 :PROPERTIES:
-:ID:       8dd8996c7aa6a53bc4aefa1176cdee85
+:ID:       stmythghtsntht
 :END:
 : so basically, treat dx, dy as formal symbols? you can multiply them by scalar, add them up
 : NOTE in agda it would be just n-form with ordered requirement? or just a subset?
@@ -11,57 +11,57 @@
 * DONE diffforms.pdf                                                  :study:
 :PROPERTIES:
 :CREATED:  [2018-11-10]
-:ID:       f96f44f0a4fdc65c050031b9f7767825
+:ID:       dfffrmspdf
 :END:
 
 ** a 1-diff form is an *expression* F(x, y) dx + G(x, y) dy
 :PROPERTIES:
-:ID:       bf3a43693f8186ca0d35aba29c89a790
+:ID:       dfffrmsnxprssnfxydxgxydy
 :END:
 ** total differential is an example of diff. form:
 :PROPERTIES:
-:ID:       b5d71155db237463879ea222fd35cfb5
+:ID:       ttldffrntlsnxmplfdfffrm
 :END:
 df = pf/px dx + pf/py dy
 ** a diff form is similar to vector field
 :PROPERTIES:
-:ID:       f757aa2aba3491e9f7288c405470a156
+:ID:       dfffrmssmlrtvctrfld
 :END:
 ** a form is exact if it's a total differential of a scalar function
 :PROPERTIES:
-:ID:       e31f67ed20fe3e6510d1590fc0ea1172
+:ID:       frmsxctftsttldffrntlfsclrfnctn
 :END:
 ** closed -- if pF/py = pG/px
 :PROPERTIES:
-:ID:       5b11617c7469c00b438ba37010eb573b
+:ID:       clsdfpfpypgpx
 :END:
 exact impllies closed, but not in reverse
 ** exact means that integral is path independent!
 :PROPERTIES:
-:ID:       45a4e3206be5c219173453779cb63d5f
+:ID:       xctmnsthtntgrlspthndpndnt
 :END:
 *** TODO this is sort of similar to complex analysis?
 :PROPERTIES:
-:ID:       5f868cf159fe877d9a0ef3c699d3f696
+:ID:       thsssrtfsmlrtcmplxnlyss
 :END:
 
 ** wedge space: given vector space V:
 :PROPERTIES:
-:ID:       37daebc63fa3e9c6b2679f39b2c36d92
+:ID:       wdgspcgvnvctrspcv
 :END:
 wedge rules: v^u = -u^v; u ^ u = 0; and linearity
 build the space: \Wedge^2 V = {Sum_i u_i ^ v_i | u_i ^ v_i | u_i, v_i in V} are imposed
 ** 2-form: an expression, built using wedges on pairs of 1-forms
 :PROPERTIES:
-:ID:       257e61538ce401c8534b4905a956ddfb
+:ID:       frmnxprssnbltsngwdgsnprsffrms
 :END:
 *** TODO hmm. are all formal experessions looking like F dx^dy + G dx^dz + H dy^dz looking like that??
 :PROPERTIES:
-:ID:       170aa41c6231fe71594d7931019b1ea2
+:ID:       hmmrllfrmlxprssnslknglkfdxdygdxdzhdydzlknglktht
 :END:
 ** rules for derivative:
 :PROPERTIES:
-:ID:       cea00f5c086899d6c47bfb46aca5b4d9
+:ID:       rlsfrdrvtv
 :END:
 linearity
 d(f alpha) = df ^ alpha + f d alpha
@@ -69,52 +69,52 @@ d (dx) = d (dy) = d(dz) = 0 # TODO hmm what does that one mean??
 
 ** orientation: for a curve, direction; for a surface -- normal direction
 :PROPERTIES:
-:ID:       e5507e2729dbaa0d464f90e294dc616f
+:ID:       rnttnfrcrvdrctnfrsrfcnrmldrctn
 :END:
   basically, *continuous* normal field. If it exists, there are two of them: n and minus n
 parameterise the surface by two coordinates u, v so that du ^ dv is the direction of normal  
 *** so basically, by definition: integral of 2-form would be
 :PROPERTIES:
-:ID:       23cce8f94d66e3c119930789330759d4
+:ID:       sbscllybydfntnntgrlffrmwldb
 :END:
 int F dx^dy + G dy^dz + H dz ^dx = int int [ F p(x, y)/p(u, v) + G p(y, z)/p(u, v) + H p(z, x)/p(u, v)] du dv
 *** what would it mean to eval surface integral of dx ^ dy + dx ^ dz + dy ^ dz over a sphere?
 :PROPERTIES:
-:ID:       fecf0d05ac12a9dd61d0c4b1953b235f
+:ID:       whtwldtmntvlsrfcntgrlfdxdydxdzdydzvrsphr
 :END:
 *** ah! so it's actually a flux: int int_S F \dot dS = \int int_S F_1 dy^dz + F_2 dz ^ dx + F_3 dx ^ dy
 :PROPERTIES:
-:ID:       0a56276f7c14bd1384a5bf52707ad458
+:ID:       hstsctllyflxntntsfdtdsntntsfdydzfdzdxfdxdy
 :END:
 
 *** NOTE arclength is NOT a differential form (always > 0)
 :PROPERTIES:
-:ID:       abaca32194a1bc4920b2e947694eee81
+:ID:       ntrclngthsntdffrntlfrmlwys
 :END:
 but what we can do is to define a metric tensor 
 
 *** the manifold has to be parameterised for defining diff forms (or at least, for defining integrals?)
 :PROPERTIES:
-:ID:       40c99729adbdbb6ac64a58315a7dd190
+:ID:       thmnfldhstbprmtrsdfrdfnngdfffrmsrtlstfrdfnngntgrls
 :END:
 ** page 50: Maxwell's equations. EM field is a 2-form
 :PROPERTIES:
-:ID:       3f41fc62fd3d5e376ad35a86b567e1bd
+:ID:       pgmxwllsqtnsmfldsfrm
 :END:
 
 * https://en.wikipedia.org/wiki/Differential_form#Intrinsic_definitions
 :PROPERTIES:
-:ID:       399fb373baa3c32b63aead9231655cb2
+:ID:       snwkpdrgwkdffrntlfrmntrnscdfntns
 :END:
 ** TODO By the universal property of exterior powers, this is equivalently an alternating multilinear map
 :PROPERTIES:
-:ID:       34889f3f490ca51e6af39bdbf1e9f06e
+:ID:       bythnvrslprprtyfxtrrpwrstssqvlntlynltrntngmltlnrmp
 :END:
 mm, I guess this bit is crucial to my understanding of alternating property
 
 * [2018-11-06]  differential forms ^ : wedge/exterior product
 :PROPERTIES:
-:ID:       e576d3a51fa0af653342da0a43d02e9f
+:ID:       tdffrntlfrmswdgxtrrprdct
 :END:
 f(x, y, z) dx ^ dy ^ dx -- integrated over volume, gives volume
 d operation -- exterior derivative, results in k+1 form
@@ -122,13 +122,13 @@ d operation -- exterior derivative, results in k+1 form
 ok so treat dx, dy, dz formally in form expression
 ** TODO do in agda?...                                                 :agda:
 :PROPERTIES:
-:ID:       b464905389882dd08e1616ad8b491aa6
+:ID:       dngd
 :END:
 
 
 * [2018-11-25] ok, so diff forms are special types of tensors. Not all tensors are diff forms :tensor:
 :PROPERTIES:
-:ID:       f55f92adc521232cf4354a652c208eab
+:ID:       snksdfffrmsrspcltypsftnsrsntlltnsrsrdfffrms
 :END:
 https://en.wikipedia.org/wiki/Antisymmetric_tensor
 a completely antisymmetric covariant tensor -- p-form; contravarian -- p-vector
@@ -136,7 +136,7 @@ https://en.wikipedia.org/wiki/Volume_form#Riemannian_volume_form
 
 * DONE [2018-11-14] calculus - What does $dx$ mean in differential form? - Mathematics Stack Exchange
 :PROPERTIES:
-:ID:       248fd0d6ace6e2f618488718531bee32
+:ID:       wdclclswhtdsdxmnndffrntlfrmmthmtcsstckxchng
 :END:
 https://math.stackexchange.com/questions/664648/what-does-dx-mean-in-differential-form/664674#664674
 dx_1 is a differential 1-form, linear map acting on tangent space. Action is: (1, 0, .... 0) 
@@ -146,55 +146,55 @@ in that sense, dx_1 is the derivative of coordinate function f(x_1...x_n) = x_1
 
 ** right, here it's a 1-form! so no concerns about antisymmetry etc..
 :PROPERTIES:
-:ID:       193b81776524bd40f38b1463d56dfe80
+:ID:       rghthrtsfrmsncncrnsbtntsymmtrytc
 :END:
 so, to compute the 1-form along the path, we:
 split the path gamma(t); t from 0 to 1 into k parts
 each part can be considered a tangent vector at gamma_i, and plugged into the form. then sum up the numbers
 ** TODO ok, but what if it was curvilinear? What would dx mean then??
 :PROPERTIES:
-:ID:       b214f3c79a299e356be8b84e53b92314
+:ID:       kbtwhtftwscrvlnrwhtwlddxmnthn
 :END:
 
 * TODO what are the other examples of 1-forms?
 :PROPERTIES:
-:ID:       c93f9899dbaa15855fe910a6ea83a739
+:ID:       whtrththrxmplsffrms
 :END:
 ** gradient -- ok, definitely pretty intuitive
 :PROPERTIES:
-:ID:       749774b3d63235a34879985dda19009f
+:ID:       grdntkdfntlyprttynttv
 :END:
 *** TODO hmm. gradient is a vector and total derivative is covector?? https://math.stackexchange.com/questions/47618/definition-of-the-gradient-for-non-cartesian-coordinates
 :PROPERTIES:
-:ID:       8b1f1ceb327da7631b38bc2a0c59dbfd
+:ID:       hmmgrdntsvctrndttldrvtvsctnfthgrdntfrnncrtsncrdnts
 :END:
 hence gradient depends on metric
 ok, so I guess definition might involve coordinates; but otherwise they are coordinate free once we prove they transform properly
 *** The 1-form ̃dfsuch that for any infinites-imally small vectordxfromTp ̃df(dx) =df(3.5)is called the gradient at point P    . ok -- that makes way more sense!
 :PROPERTIES:
-:ID:       d693e6443aaac42abf76285fe8f500f0
+:ID:       thfrm̃dfschthtfrnynfntsmlhgrdnttpntpkthtmkswymrsns
 :END:
 
 *** TODO dual 1-form. dual covector field for vector field; is that a thing???
 :PROPERTIES:
-:ID:       94c320f8c1c58443f02d00536eb23542
+:ID:       dlfrmdlcvctrfldfrvctrfldsthtthng
 :END:
 *** TODO ugh. I guess alla of them are basically derivatives since well.. there isn't much else apart of derivatives there and they form complete basis
 :PROPERTIES:
-:ID:       8c50d93205364febfe41835e2e802195
+:ID:       ghgssllfthmrbscllydrvtvssdrvtvsthrndthyfrmcmpltbss
 :END:
 
 
 * TODO some intuitive stuff from NotesOnVectors.pdf
 :PROPERTIES:
-:ID:       98234cb01b207680fd1c2f773419286f
+:ID:       smnttvstfffrmntsnvctrspdf
 :END:
 : Examples of how you can picture contravariant and covariant vectors. A contravari-ant vector is a “stick” with a direction to it.  Its “worth” (or “magnitude”) is proportional tothe length of the stick.  A covariant vector is like “lasagna.”  Its worth is proportional to thedensity of noodles; that is, the closer together are the sheets, the larger is the magnitude ofthe covector.  These and other pictorial examples of visualizing contravariant and covariantvectors are discussed in Am.J.Phys.65(1997)1037.Figure  3:   Pictorial  representation  of  the  innerproduct between a contravariant vector and a co-variant  vector.   The  “stick”  is  imbedded  in  the“lasagna”  and  the  inner  product  is  equal  to  thenumber of noodles pierced by the stick.  The in-ner product shown has the value 5.
 
 
 * [2018-11-10] Дифференциал (дифференциальная геометрия) — Википедия https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%84%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB_(%D0%B4%D0%B8%D1%84%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)
 :PROPERTIES:
-:ID:       cb053230e9ec82f3a7d58203731144e6
+:ID:       stдифференциалдифференциаcdbddbdfdbdbdbdbcdbdddbdf
 :END:
 : Пусть {\displaystyle M} M — гладкое многообразие и {\displaystyle f\colon M\to \mathbb {R} } {\displaystyle f\colon M\to \mathbb {R} } гладкая функция. Дифференциал {\displaystyle f} f представляет собой 1-форму на {\displaystyle M} M, обычно обозначается {\displaystyle df} df и определяется соотношением
 : {\displaystyle df(X)=d_{p}f(X)=Xf,} {\displaystyle df(X)=d_{p}f(X)=Xf,}
@@ -206,7 +206,7 @@ hmm, that actually makes sense too!
 
 * [2018-11-10] differentiation in nLab https://ncatlab.org/nlab/show/differentiation
 :PROPERTIES:
-:ID:       de5bf17ea250e68c4ae75bd1ce94267e
+:ID:       stdffrnttnnnlbsnctlbrgnlbshwdffrnttn
 :END:
 : 1. Idea
 : Differentiation is the process that assigns to a function f:X→Y f : X \to Y its derivative, sometimes denoted df d f. The derivative is a function that, roughly speaking, assigns to each point x∈X x \in X the linear transformation dfx d f_x that maps infinitesimal differences y−x y - x (for points y y infinitesimally close to x x) to infinitesimal differences f(y)−f(x) f(y) - f(x).
@@ -214,12 +214,12 @@ hmm, that actually makes sense too!
 
 * [2018-11-18] differential geometry - What is a covector and what is it used for? - Mathematics Stack Exchange
 :PROPERTIES:
-:ID:       e9657ab36bf0623134924aa0f0c61b9e
+:ID:       sndffrntlgmtrywhtscvctrndwhtstsdfrmthmtcsstckxchng
 :END:
 https://math.stackexchange.com/questions/240491/what-is-a-covector-and-what-is-it-used-for
 * [2018-11-24] Closed and exact differential forms - Wikipedia
 :PROPERTIES:
-:ID:       51d314c1763c06e2b15d71f56f723308
+:ID:       stclsdndxctdffrntlfrmswkpd
 :END:
 https://en.wikipedia.org/wiki/Closed_and_exact_differential_forms 
 :  In mathematics, especially vector calculus and differential topology, a closed form is a differential form α whose exterior derivative is zero (dα = 0), and an exact form is a differential form, α, that is the exterior derivative of another differential form β. Thus, an exact form is in the image of d, and a closed form is in the kernel of d.

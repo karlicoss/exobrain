@@ -4,25 +4,25 @@
 
 * DONE [2018-10-24] Feeder
 :PROPERTIES:
-:ID:       8b4d3fcb295ec13554be989c1f03c286
+:ID:       wdfdr
 :END:
 Feeder (RSS feed reader) - https://f-droid.org/app/com.nononsenseapps.feeder
 it's ok I guess, but no feedly support. anyway I need at least something syncing to web
 
 * [2018-01-06] Greader
 :PROPERTIES:
-:ID:       1803235051eb6f64c415a0f3f0fe33b4
+:ID:       grdr
 :END:
 +++ offline support, syncs with feedly
 - backup/restore config
 
 * [2018-01-06] Feedly
 :PROPERTIES:
-:ID:       c85de4f7fd17b636eabf3000c510869a
+:ID:       fdly
 :END:
 pretty nice in general, web version
 
 * [#D] hekko
 :PROPERTIES:
-:ID:       6331b9d2b7adef55c0a87d60b0b8b967
+:ID:       hkk
 :END:

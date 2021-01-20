@@ -3,7 +3,7 @@
 
 * Android studio plugins                                              :setup:
 :PROPERTIES:
-:ID:       bd62314957621261180969ce28992a7f
+:ID:       ndrdstdplgns
 :END:
 - ADB Idea
 - Bash support
@@ -20,6 +20,6 @@
 
 * Phone apps
 :PROPERTIES:
-:ID:       65848c663eaf9cff0c9645dc8fd321be
+:ID:       phnpps
 :END:
 - Cheatdroid: shared prefs editor

@@ -24,7 +24,7 @@
 :END:
 *** transport
 :PROPERTIES:
-:ID:       7b334b7260361141659fa9862e803476
+:ID:       trnsprt
 :END:
 - Airport
   We were leaving Monday 7pm and the line for border control was ridiculous, only one out of ten booths was operational, even though the whole queue had to depart in 20 minutes. So you might really want to arrive in advance.
@@ -35,43 +35,43 @@
 
 *** food/drinks
 :PROPERTIES:
-:ID:       40de4198e3cf03ad454db89d8d7bc9b1
+:ID:       fddrnks
 :END:
 **** Drinking/smoking in public — OK as long as you behave.
 :PROPERTIES:
-:ID:       820525084b8fe744761941bbbd1e75e5
+:ID:       drnkngsmkngnpblckslngsybhv
 :END:
 **** Get a wine and snacks from a supermarket. Chill on the river bank, beware the waves, they might suddenly splash you!
 :PROPERTIES:
-:ID:       d2bd1eff78eaeac021047643304ee3a5
+:ID:       gtwnndsncksfrmsprmrktchllrthwvsthymghtsddnlysplshy
 :END:
 **** TODO Francesinha
 :PROPERTIES:
 :CREATED:  [2018-04-16]
-:ID:       34809b723c366c820db125cbe65eabaf
+:ID:       frncsnh
 :END:
 some authentic sandwich?
 
 **** Fish/squid/octopus. Many small restaurants serve it + veggie plates
 :PROPERTIES:
-:ID:       4285347518ed1e043d6a655c193b5bbd
+:ID:       fshsqdctpsmnysmllrstrntssrvtvggplts
 :END:
 
 **** TODO Caldeirada seafood stew
 :PROPERTIES:
 :CREATED:  [2018-04-13]
-:ID:       7d5284c806cd2e3630c06481d26b6804
+:ID:       cldrdsfdstw
 :END:
 haven't had chance to try... but heard it was good
 
 **** DONE TimeOut market for food. Lines are pretty long at lunchtime. Not very cheap and not very authentic, but ok overall.
 :PROPERTIES:
-:ID:       f7879f57f150ae814549a3bb63767734
+:ID:       tmtmrktfrfdlnsrprttylngtlvrychpndntvrythntcbtkvrll
 :END:
 
 **** DONE [#A] Trobadores medieval tavern
 :PROPERTIES:
-:ID:       3fd7030281974492562103ad8d57c989
+:ID:       trbdrsmdvltvrn
 :END:
 Very cool place! Looks very medieval, nice Celtic musing on the background.
 Order chorizo/blood chorizo, you can grill it yourself right on your table!
@@ -80,84 +80,84 @@ Drink mead, ginjinha, Porto ruby.
 
 **** DONE Pastel de nata. Nice egg pastry.
 :PROPERTIES:
-:ID:       2ff2ec610fd921e3ce5d2daa6bc883c3
+:ID:       pstldntncggpstry
 :END:
 
 **** DONE Gelaterias. Some delicious ice cream: vanilla & basil, salted caramel, pistachio.
 :PROPERTIES:
-:ID:       7b816845ad53adfd22229d4c102fcc22
+:ID:       gltrssmdlcsccrmvnllbslsltdcrmlpstch
 :END:
 
 **** TODO Chimera Brewpub.
 :PROPERTIES:
-:ID:       2ef18ad91b331e6645036f2db2e103b9
+:ID:       chmrbrwpb
 :END:
 Craft Portuguese Beers
 **** Nice filter coffee in Copenhagen Coffee Lab (beware no wifi) and Fabrica Coffee Roasters
 :PROPERTIES:
-:ID:       a2ba98bf466b829410a7acd2714eed6d
+:ID:       ncfltrcffncpnhgncfflbbwrnwfndfbrccffrstrs
 :END:
 
 *** places & activities
 :PROPERTIES:
-:ID:       a46af5c9398f615f1df45ac91c3e07ab
+:ID:       plcsctvts
 :END:
 **** DONE Berardo Collection Museum -- good modern art
 :PROPERTIES:
-:ID:       df5a6290bcc1aa9591176c8a1c27372e
+:ID:       brrdcllctnmsmgdmdrnrt
 :END:
 **** DONE Alfama is higher up and more medieval looking because a tsunami destroyed the lower elevation parts of the city. [wikitravel]
 :PROPERTIES:
-:ID:       2abcae62ffb8b82c30a2c9bf7c3f5e0c
+:ID:       lfmshghrpndmrmdvllkngbcstthlwrlvtnprtsfthctywktrvl
 :END:
 
 **** DONE [[https://wikitravel.org/en/Sintra][Sintra]]
 :PROPERTIES:
-:ID:       784edc78ef5f108dd23fb87f322e3675
+:ID:       swktrvlrgnsntrsntr
 :END:
 You can get there by cheap (1.5 Eur) suburban train.
 
 Sintra is famous for two local foodstuffs, queijadas and travesseiros. Queijadas are small sweet cakes, that are made using fresh cheese instead of butter. They are actually quite easy to make at home, but when you're there you might as well try some. Travesseiros are rectangular pastries made from fluff pastry and almond paste, and worth a try as well. [wikitravel]
 ***** Cabo de Rocha - very nice lighthouse, cliffs, and decent hike to the beach.
 :PROPERTIES:
-:ID:       ab209332280780bcc5f6d7740f19752b
+:ID:       cbdrchvrynclghthsclffsnddcnthktthbch
 :END:
 Take a bus from Sintra, but beware the way is serpentinish, in case you are prone to motion sickness. It costs something like 4 EUR, paid by cash to the driver. Also mind the schedule.
 **** de abril bridge
 :PROPERTIES:
-:ID:       ba0b62e1ac2490c1fb05c099cceaee49
+:ID:       dbrlbrdg
 :END:
 Very cool, looks kinda like Golden Gate. Unfortunately not pedestrian.
 **** take a ferry to the other side, walk to Christ the King statue. Nice city view
 :PROPERTIES:
-:ID:       48581f7bbb3bdde9552ae41cc505ed20
+:ID:       tkfrrytththrsdwlktchrstthkngsttncctyvw
 :END:
 **** DONE train to cascais (coastal resort)
 :PROPERTIES:
-:ID:       22530b2499a48cf53aef98663753c1cf
+:ID:       trntcscscstlrsrt
 :END:
 **** For Lisbon views, we preferred the Rua Augusta arch over the more popular Santa Justa elevator. The arch is also covered by the Lisboa card (€2.50 otherwise) and is IMO the cheaper and better alternative for some superb views of the city. [wikitravel]
 :PROPERTIES:
-:ID:       7235948314752d51150932ace993e163
+:ID:       frlsbnvwswprfrrdthrgstrchtvfrsmsprbvwsfthctywktrvl
 :END:
 **** TODO electricity museum
 :PROPERTIES:
-:ID:       c78681fd6fcaa2cf3ca7c750338afa6c
+:ID:       lctrctymsm
 :END:
 **** Art in metro on some stations
 :PROPERTIES:
-:ID:       dcb32307709da718723f945612090d27
+:ID:       rtnmtrnsmsttns
 :END:
 Mostly [[https://en.wikipedia.org/wiki/Red_Line_(Lisbon_Metro)][red line]]. It goes to the airport, so it's hard to miss. Oriente is particularly cool
 **** TODO Jardim Botanico
 :PROPERTIES:
-:ID:       b070b295318da511d83c1c25c78b933e
+:ID:       jrdmbtnc
 :END:
 allegedly good, but was closed at the time :(
 
 ** TODO [#B] Faro, Portugal? when it's colder, maybe in autumn/winter
 :PROPERTIES:
-:ID:       92befc0e03c6031b58f43f4e654fa9e7
+:ID:       frprtglwhntscldrmybntmnwntr
 :END:
 ** TODO [#B] Porto                                                    :porto:
 :PROPERTIES:
@@ -166,12 +166,12 @@ allegedly good, but was closed at the time :(
 :END:
 *** [2019-04-05] [[https://wikitravel.org/en/Porto][Geres National Park]]
 :PROPERTIES:
-:ID:       26a591d9a37a42e19985ac02f45baeec
+:ID:       frswktrvlrgnprtgrsntnlprk
 :END:
 : Go on a day trip to the Gerês National Park. The wildlife and nature in this park are really worth a visit, and the scenery is magnificent.
 *** [2019-04-05] [[https://wikitravel.org/en/Porto][Vunho Verde]]
 :PROPERTIES:
-:ID:       de221ea9a6246adacbb0fe436edb0cb3
+:ID:       frswktrvlrgnprtvnhvrd
 :END:
 : Taste the "Vinho Verde", freely translated as "Green Wine" - this is mostly a low alcoholic grade, young and fresh kind of wine, that you won't find anywhere else.
 
@@ -205,53 +205,53 @@ allegedly good, but was closed at the time :(
 :END:
 ** moving around
 :PROPERTIES:
-:ID:       922ec8b0f5050ece20f9c39e38119db4
+:ID:       mvngrnd
 :END:
 trains are pretty great, and if you're going often, makes sense to buy a permanent travelcard
 - NS planner works better than citymapper/gmaps https://www.ns.nl/en/journeyplanner
   their app is ok as well https://play.google.com/store/apps/details?id=nl.ns.android.activity
 ** activities
 :PROPERTIES:
-:ID:       609f88983635a66fe4c8570afee066e0
+:ID:       ctvts
 :END:
 *** take bikes
 :PROPERTIES:
-:ID:       a216f0e3e1431b05589f8775ac587f0e
+:ID:       tkbks
 :END:
 Mind the sun. You're probably better off biking in the morning, waiting till the evening and going back when it's cooler.
 *** swim http://www.zwemwater.nl
 :PROPERTIES:
-:ID:       1d00bfed3c0f6563a748c1893f7e3b4b
+:ID:       swmwwwzwmwtrnl
 :END:
 North sea is actually not that cold, you can totally tolerate few dips.
 Coast could be very shallow though (e.g Zandvoort), so mind the waves.
 ** misc
 :PROPERTIES:
-:ID:       bc957e26ff41470c556ee5d09e96880b
+:ID:       msc
 :END:
 - take cash or Maestro card
   Many places don't take visa/mastercard. Most supermarket on train stations do though.
 
 ** Amsterdam                                                      :amsterdam:
 :PROPERTIES:
-:ID:       3eb8670d999ac077dd0e2c345cb7c905
+:ID:       mstrdm
 :END:
 *** [2018-05-27] Van der Linde https://goo.gl/maps/pawDXa2wL4y
 :PROPERTIES:
-:ID:       fa66a9d66632564bec997b0940f4d13e
+:ID:       snvndrlndsgglmpspwdxwly
 :END:
 : Nieuwendijk 183, 1012 MG Amsterdam, Netherlands
 
 best vanilla ice cream ever
 *** Van Goth museum
 :PROPERTIES:
-:ID:       897441d664dbdfabb0744883ddd62961
+:ID:       vngthmsm
 :END:
 very decent, you're better off buying tickets online couple of days in advance
 
 *** [2018-05-27] Tijger & de Vis https://goo.gl/maps/1eVeg9DmQG52
 :PROPERTIES:
-:ID:       49399245883db7c8721e240ba93db4d1
+:ID:       sntjgrdvssgglmpsvgdmqg
 :END:
 : Lindengracht 158, 1015 KK Amsterdam, Netherlands
 
@@ -260,21 +260,21 @@ very decent, you're better off buying tickets online couple of days in advance
 ** TODO [#C] Maastricht?
 :PROPERTIES:
 :CREATED:  [2020-02-10]
-:ID:       d394bbf5c5ac861772460ccc00de8d11
+:ID:       mstrcht
 :END:
 Could be ok by Eurostar and local train?
 ** Hague
 :PROPERTIES:
-:ID:       3e2c529bba3a434a7cefd9f39747ea88
+:ID:       hg
 :END:
 *** Escher museum
 :PROPERTIES:
-:ID:       08ddbcc121369621c3e138e2b85f9558
+:ID:       schrmsm
 :END:
 amazing, highly recommended. check out the souvenir shop, awesome postcards.
 ** Rotterdam
 :PROPERTIES:
-:ID:       8f49c208e01797381033a70b55fbac13
+:ID:       rttrdm
 :END:
 
 * Italy                                                               :italy:
@@ -283,27 +283,27 @@ amazing, highly recommended. check out the souvenir shop, awesome postcards.
 :END:
 ** food
 :PROPERTIES:
-:ID:       62506be34d574da4a0d158a67253ea99
+:ID:       fd
 :END:
 *** [#B] [2018-06-06] burrata cheese
 :PROPERTIES:
-:ID:       aa39c3ea7a06a9e2ebb6e82d52e81c6c
+:ID:       wdbrrtchs
 :END:
 Very very good! Especially with some berries.
 *** [#C] [2018-06-07] Grom good gelato
 :PROPERTIES:
-:ID:       6549b34d4f2f94c0c12e6a01d87ff27a
+:ID:       thgrmgdglt
 :END:
 *** [#D] [2018-06-06] coda alla vaccinara
 :PROPERTIES:
-:ID:       e6acc61c1731fdce14db6acea5636f90
+:ID:       wdcdllvccnr
 :END:
 well - sort of ok
 
 
 ** Santa Marinella beach
 :PROPERTIES:
-:ID:       d1f9327130009a52ef5845c46334b61c
+:ID:       sntmrnllbch
 :END:
 - https://www.tripadvisor.com/ShowTopic-g815431-i17388-k6466314-Info_for_those_travelling_from_Rome_to_Santa_Marinella-Santa_Marinella_Province_of_Rome_La.html
 - https://www.eatingitalyfoodtours.com/blog/a-day-trip-to-santa-marinella-beach/
@@ -321,11 +321,11 @@ well - sort of ok
 :END:
 ** food
 :PROPERTIES:
-:ID:       62506be34d574da4a0d158a67253ea99
+:ID:       fd
 :END:
 *** Mercado de la boqueria -- awesome street food
 :PROPERTIES:
-:ID:       df2b1b3619ca8b7115c90ad045f05b12
+:ID:       mrcddlbqrwsmstrtfd
 :END:
 
 * Brussels                                                 :belgium:brussels:
@@ -335,17 +335,17 @@ well - sort of ok
 ** TODO Brussels music museum
 :PROPERTIES:
 :CREATED:  [2019-04-01]
-:ID:       6f89f651ed458ec5491582c03bf98d1b
+:ID:       brsslsmscmsm
 :END:
 
 * TODO [#C] Montenegro mounains?                                     :hiking:
 :PROPERTIES:
 :CREATED:  [2018-10-17]
-:ID:       2fa18f94f07571cb3957b5d370f9ccce
+:ID:       mntngrmnns
 :END:
 * TODO [#C] Dubrovnik, Croatia
 :PROPERTIES:
-:ID:       c16f2104fe8a77479a7e9a63b63043dd
+:ID:       dbrvnkcrt
 :END:
 * TODO UK
 :PROPERTIES:
@@ -370,34 +370,34 @@ well - sort of ok
     : Pack a headtorch, and a spare, plus extra layers for when it gets dark.
 ** TODO [#B] Loch Lomond & The Trossachs National Park
 :PROPERTIES:
-:ID:       20df637f70e02d65483e8a597ecb7859
+:ID:       lchlmndthtrsschsntnlprk
 :END:
 pretty close to Glasgo!
 
 ** TODO [#C] Wales
 :PROPERTIES:
 :CREATED:  [2020-07-23]
-:ID:       e612e56ca0235a349cffa8331d8a6ad7
+:ID:       wls
 :END:
 *** [#C] [2020-10-16] [[https://www.10adventures.com/hikes/snowdonia/][10 Greatest Walks in Snowdonia National Park, Wales]]
 :PROPERTIES:
-:ID:       4b0ee5a51a2b1b4e54ebee20c6492637
+:ID:       frswwwdvntrscmhkssnwdngrtstwlksnsnwdnntnlprkwls
 :END:
 
 ** TODO [#C] [2019-03-27] [[https://reddit.com/r/CasualUK/comments/b4yqej/a_view_from_the_roman_walls_of_chester/eja0y0g/][A view from the Roman walls of Chester]] /r/CasualUK
 :PROPERTIES:
-:ID:       14c39c176c1ffe67593bab46a49f6209
+:ID:       wdsrddtcmrcslkcmmntsbyqjvvwfrmthrmnwllsfchstrrcslk
 :END:
 : I think Chester is one of the prettiest cities in the country. Thanks for the reminder.
 
 ** STRT [#C] Peak District
 :PROPERTIES:
-:ID:       7e56a92186bceb95b37e7e8399300515
+:ID:       pkdstrct
 :END:
 *** TODO bike rental
 :PROPERTIES:
 :CREATED:  [2019-05-09]
-:ID:       0d194b0bddcfa92080cd82d75ee33068
+:ID:       bkrntl
 :END:
 * TODO [#C] Georgia                                                 :georgia:
 :PROPERTIES:
@@ -405,27 +405,27 @@ pretty close to Glasgo!
 :END:
 *** TODO [#D] [2019-08-27] [[https://reddit.com/r/travel/comments/cpsd21/ushguli_georgia_felt_like_a_village_frozen_in/][Ushguli, Georgia felt like a village frozen in time 900 years ago.]] /r/travel
 :PROPERTIES:
-:ID:       39f4d2e43d0d7a5f58fb719021a9da5a
+:ID:       tsrddtcmrtrvlcmmntscpsdshfltlkvllgfrznntmyrsgrtrvl
 :END:
 *** TODO [#D] [2018-04-18] https://twitter.com/abroadunderhood/status/986632898685145089
 :PROPERTIES:
-:ID:       28154691c93899f7375039d2e7b61686
+:ID:       wdstwttrcmbrdndrhdstts
 :END:
 : Пробежимся немного по ночной жизни Тбилиси: здесь с этим все более чем хорошо, потому что грузины любят и умеют веселиться. Для любителей техно тут есть клуб Bassiani, который входит в топ 10 техно-клубов мира. Еще есть khidi (мост) и Mtkvarze. Пожалуй, это самые популярные клубы
 
 
 * TODO [#C] Mallorka?
 :PROPERTIES:
-:ID:       1fe7cc81aa46c05433b06387a5c86985
+:ID:       mllrk
 :END:
 * TODO [#D] Tenerife
 :PROPERTIES:
 :CREATED:  [2020-08-10]
-:ID:       c812662377f302492c797d04bae46d82
+:ID:       tnrf
 :END:
 
 * TODO [#C] Airbnb experiences?                                      :travel:
 :PROPERTIES:
 :CREATED:  [2019-03-30]
-:ID:       b142d1923d04d0c0d1a17667076ded8f
+:ID:       rbnbxprncs
 :END:

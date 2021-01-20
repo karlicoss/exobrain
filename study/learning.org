@@ -2,14 +2,14 @@
 #+filetags: learning
 * [#A] [2020-02-14] [[https://news.ycombinator.com/item?id=22325975][Ask HN: How do you learn complex, dense technical information?]] :learning:
 :PROPERTIES:
-:ID:       5a2b8af1d0c839a449920181fdcaab77
+:ID:       frsnwsycmbntrcmtmdskhnhwdylrncmplxdnstchnclnfrmtn
 :END:
 https://news.ycombinator.com/item?id=22325975
 
 
 * Spaced repetition apps                                          :spacedrep:
 :PROPERTIES:
-:ID:       c25dd9d145880ec87da713bcdca0332f
+:ID:       spcdrpttnpps
 :END:
 - AnkiDroid -- kinda ok
 - duolinguo: spaced repetition for language learning

@@ -4,7 +4,7 @@
 
 * STRT [2019-02-22] Tong qft book
 :PROPERTIES:
-:ID:       a21524ecd8dd65a66f0c0507f32cd224
+:ID:       frtngqftbk
 :END:
 index notation:
 
@@ -28,7 +28,7 @@ the other term: equal to ∂ᵘϕ hmm. if you treat ∂ᵤϕ as formal expressio
 wait, no, that doesn't explain the vanishing 1/2 term
 ** [2019-02-23] shit. ok, I guess I sort of figured that out
 :PROPERTIES:
-:ID:       8f3d6d7a3e152b32971e9e762093a52d
+:ID:       stshtkgsssrtffgrdthtt
 :END:
 express L = 1/2 (∂ϕ/∂t)² - 1/2 ( (∂ϕ/∂x)² + (∂ϕ/∂y)² + (∂ϕ/∂z)²) - 1/2 m ϕ²
 ∂L/∂(∂ᵤ ϕ) is actually a [co??]vector of (∂L/∂(∂ₜϕ), ∂L/∂(∂ₓϕ), ∂L/∂(∂_y ϕ), ∂L/∂(∂_z ϕ)), where ALL PARTIAL DERIVATIVES ARE KINDA LIKE INDEPEDENT SYMBOLS
@@ -63,28 +63,28 @@ https://physics.stackexchange.com/questions/340009/derivatives-in-euler-lagrange
 
 *** TODO [2019-02-23] this still doesn't explain how to swap variation and partial derivatives properly.... I have to figure that out..
 :PROPERTIES:
-:ID:       1c70444c54ff57f4dda6d8355d6aa01a
+:ID:       stthsstlldsntxplnhwtswpvrrtldrvtvsprprlyhvtfgrthtt
 :END:
 *** TODO [2019-02-23] what's the lesson I learnt here? not sure. I still haven't found decent justifications to that crap.
 :PROPERTIES:
-:ID:       480150a477935e4465993085ca5e655a
+:ID:       stwhtsthlssnlrnthrntsrstlvntfnddcntjstfctnstthtcrp
 :END:
 *** [2019-02-24] ok, I skimmed it. the book is actually really good, I hightlighted some stuff and should read it again...
 :PROPERTIES:
-:ID:       289f8f97083b9e41b26f573f0bb69c6c
+:ID:       snkskmmdtthbksctllyrllygdghtlghtdsmstffndshldrdtgn
 :END:
 
 * Klen-Gordon equation                                          :kleingordon:
 :PROPERTIES:
-:ID:       74f989dddfed6638816c8e8b8b5db270
+:ID:       klngrdnqtn
 :END:
 ** [2019-02-24] ok, so Klein-Gordon equation is for spin 0, such as Higgs, or pions
 :PROPERTIES:
-:ID:       4deb451bcfdad522cfbb86645a6b7b26
+:ID:       snksklngrdnqtnsfrspnschshggsrpns
 :END:
 ** [2019-01-25] Is it true that the Schrödinger equation only applies to spin-1/2 particles? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       d7334d662662e16be3326d6b5b05669a
+:ID:       frsttrthtthschrödngrqtnnltspnprtclsphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/129667/is-it-true-that-the-schr%C3%B6dinger-equation-only-applies-to-spin-1-2-particles/129744
 : Well, this should not surprise us, since the Schrodinger equation is the nonrelativistic limit to the Klein-Gordon equation. And we should recall the Klein-Gordon equation describes spin-0 bosons!
@@ -92,25 +92,25 @@ https://physics.stackexchange.com/questions/129667/is-it-true-that-the-schr%C3%B
 
 ** [#C] [2019-02-15] (11) Deriving The Klein Gordon Equation (Relativistic Quantum) - YouTube :quantum:
 :PROPERTIES:
-:ID:       1bc4e08330cefa5fd6698c503b4506f7
+:ID:       frdrvngthklngrdnqtnrltvstcqntmytb
 :END:
 https://www.youtube.com/watch?v=bPlP9EkGixk
 so apparently we can get klein-gordon if we replace energy and momentum with quantum operator in einsteins identity
 ** [#C] [2019-02-15] (11) Deriving The Klein Gordon Equation (Relativistic Quantum) - YouTube
 :PROPERTIES:
-:ID:       a60427ca84abaeead9d22a875130f315
+:ID:       frdrvngthklngrdnqtnrltvstcqntmytb
 :END:
 https://www.youtube.com/watch?v=bPlP9EkGixk
 covariant has got overloaded meaning. covariant vector -- lower index; covariant thing -- transforms according to symmetry group
 ** [#B] [2019-02-26] [[https://reddit.com/r/Physics/comments/1gmvsm/the_kleingordon_equation_doesnt_seem_to_be/calt16r/][The Klein-Gordon equation doesn't seem to be complete. How can I use it for a general-purpose simulation?]] /r/Physics :kleingordon:
 :PROPERTIES:
-:ID:       0a80d098b74ac4e58a446a39eaa74e8b
+:ID:       tsrddtcmrphyscscmmntsgmvsnstfrgnrlprpssmltnrphyscs
 :END:
 :  The Klein Gordon equation does not describe a quantum mechanical wavefunction. It describes a classical relativistic free field. To get quantum mechanical behavior out of this, you need to quantize this theory, moving to the world of quantum field theory.
 :  That's a physics answer... In terms of how this fits into your game it would depend on what you're trying to do. But the bottom line is that QFT was essentially created to describe quantum mechanical effects in a relativistic setting.
 ** [#B] [2019-02-26] [[https://reddit.com/r/AskPhysics/comments/5ozon8/why_does_the_kleingordon_equation_describe_bosons/dcnb5q1/][Why does the Klein-Gordon equation describe bosons with spin equal to zero?]] /r/AskPhysics :kleingordon:
 :PROPERTIES:
-:ID:       6d40ab0b84988115093e8ba7d1fea660
+:ID:       tsrddtcmrskphyscscmmntsznbbsnswthspnqltzrrskphyscs
 :END:
 : >Why can it still describe particles?
 : It can still describe particles if you give up the notion that the wavefunction represents a probability density. Instead, what you called the wavefunction should be promoted to a field operator in a second-quantized field theory.
@@ -124,11 +124,11 @@ covariant has got overloaded meaning. covariant vector -- lower index; covariant
 : If you haven't already, I'd suggest reading the last chapter of Sakurai. He goes into details about relativistic QM and shows the pitfalls that push you towards actual field theories.
 *** [2020-04-29] PBS space time guy also recomments it!
 :PROPERTIES:
-:ID:       975c9ab00462fc748d97f238c76d1563
+:ID:       wdpbsspctmgylsrcmmntst
 :END:
 ** [2019-01-23] [[https://reddit.com/r/math/comments/3653k6/where_can_i_go_to_learn_more_about_spinors/cratl5r/][Where can I go to learn more about spinors?]] /r/math :spinor:kleingordon:
 :PROPERTIES:
-:ID:       8d1993cb36752ee07bd9fcb55bb5a11d
+:ID:       wdsrddtcmrmthcmmntskwhrcnlrwhrcngtlrnmrbtspnrsrmth
 :END:
 : The mathematics behind spinors is pretty daunting. I think it's a realization of Clifford algebras (I could be mistaken; it's been some time since I've really been a physicist). You can learn about where they come from without the mathematical overhead. In quantum, spin is usually presented as some ad hoc property of particles. The way it came about was noting from experiment that basic particles like electrons had quantities which behaved a lot like *orbital* angular momentum without actually being bound to another particle! The orbital angular momentum operators were well understood and they can be abstractly viewed (via certain commutation relations).
 : If wavefunctions were just scalars, they couldn't possibly relate to the commutation relations they were seeing from orbital angular momentum so the next best thing is vectors. Well with this idea, the simplest (non scalar) vector is a two dimensional vector. Representing the algebra of spin operators on C^2 ended up giving the Pauli matrices and the theory gave results similar to that in experiment. This however is pretty unsatisfactory since it's very ad hoc. The theory didn't tell you which particles had spin, which didn't and it didn't really explain where it came from. 
@@ -140,18 +140,18 @@ covariant has got overloaded meaning. covariant vector -- lower index; covariant
 : For a self contained treatment of this, I *highly* recommend Griffiths' particle physics book. The Dirac equation is in chapter 7 if I recall correctly. I feel that the basics of relativistic quantum mechanics are very beautiful and are as close to an axiomatic (and painless) theory in physics as you're going to get.
 ** [#C] [2019-02-24] How To Solve The Klein-Gordon Equation For The Hydrogen Atom - YouTube
 :PROPERTIES:
-:ID:       ab28ed76ed3241c09f91f6744973bc4b
+:ID:       snhwtslvthklngrdnqtnfrthhydrgntmytb
 :END:
 https://www.youtube.com/watch?v=9_3uQdF-tEs
 klein gordon solution for hydrogen
 ** [#C] [2019-02-24] Klein-Gordon equation in nLab
 :PROPERTIES:
-:ID:       0760dec9ab0838df0b048a0f9635b66d
+:ID:       snklngrdnqtnnnlb
 :END:
 https://ncatlab.org/nlab/show/Klein-Gordon+equation#FundamentalSolutions
 : where □g \Box_g denotes the wave operator on (X,g) (X,g)
 ** [2019-03-25] Klein Gordon simulation 1 - YouTube
 :PROPERTIES:
-:ID:       6ace0801041ef04ed6b89ce7c1798cbd
+:ID:       mnklngrdnsmltnytb
 :END:
 https://www.youtube.com/watch?v=DcbhHZugm8E

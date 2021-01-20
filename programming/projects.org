@@ -5,7 +5,7 @@ How to make good programming projects? Best practices in communicating and expla
 
 * [#B] [2019-12-30] [[https://www.arp242.net/license.html][Choosing a license for GoatCounter]] :license:
 :PROPERTIES:
-:ID:       44971a8d1d39c2f99a7baaaa884135b2
+:ID:       mnswwwrpntlcnshtmlchsnglcnsfrgtcntr
 :END:
 : GPL (any version)
 : Bad: doesn’t have the “network protection”: you don’t need to submit changes back to me if you modify the code and run it only as a SaaS.
@@ -13,43 +13,43 @@ How to make good programming projects? Best practices in communicating and expla
 * [#B] for end user software, calendar versioning is more useful than semantic
 :PROPERTIES:
 :CREATED:  [2020-01-02]
-:ID:       4352347c2f5afdb8f243bc07ec98eec2
+:ID:       frndsrsftwrclndrvrsnngsmrsflthnsmntc
 :END:
 
 * [#B] [2020-01-19] [[https://lobste.rs/s/pg1ne9/how_do_you_stay_inline_with_your_vision_on#c_ihhrfy][How do you stay inline with your vision on long term projects? | Lobsters]]
 :PROPERTIES:
-:ID:       9f58d6e0c8807e38a011c3dcb78d791d
+:ID:       snslbstrsspgnhwdystynlnwthyrvsnnlngtrmprjctslbstrs
 :END:
 
 * TODO [#C] [2019-08-18] [[http://www.attrs.org/en/stable/why.html][Why not… — attrs 19.1.0 documentation]]
 :PROPERTIES:
-:ID:       ba059999673f2349064312e33eb3df33
+:ID:       snwwwttrsrgnstblwhyhtmlwhyntttrsdcmnttn
 :END:
 : Why not…
 * Demos/Screencasting                                            :screencast:
 :PROPERTIES:
-:ID:       53dd7295eb7a525d3043a118e8d1e2ba
+:ID:       dmsscrncstng
 :END:
 ** [2020-03-25] screenkey program to display keys
 :PROPERTIES:
-:ID:       0812e1869d992b764ee972f46d572c4f
+:ID:       wdscrnkyprgrmtdsplykys
 :END:
 ** TODO [#B] [2019-12-10] [[https://reddit.com/r/coolgithubprojects/comments/e8pu54/github_asciinemaasciinema_terminal_session/][GitHub - asciinema/asciinema: Terminal session recorder 📹]] /r/coolgithubprojects
 :PROPERTIES:
-:ID:       2f45a74eb5135704829c0d687eb12125
+:ID:       tsrddtcmrclgthbprjctscmmnmnlsssnrcrdrrclgthbprjcts
 :END:
 ** [2020-04-02] [[https://github.com/phw/peek#how-can-i-capture-mouse-clicks-andor-keystrokes][phw/peek: Simple animated GIF screen recorder with an easy to use interface]]
 :PROPERTIES:
-:ID:       55aee000814f69aff67e40316c9b25cc
+:ID:       thsgthbcmphwpkhwcncptrmscdgfscrnrcrdrwthnsytsntrfc
 :END:
 : Peek does not support this natively. But you could install an external tool like key-mon which is usually included in most distributions, so you can easily install with your package manager. Then start key-mon with key-mon --visible_click. The --visible_click option is for drawing small circles around mouse clicks.
 ** [2020-04-02] [[https://trac.ffmpeg.org/wiki/Capture/Desktop][Capture/Desktop – FFmpeg]]
 :PROPERTIES:
-:ID:       140e125b60aeb12a907263b90b2d1153
+:ID:       thstrcffmpgrgwkcptrdsktpcptrdsktpffmpg
 :END:
 ** [2020-04-02] recordmyscreen
 :PROPERTIES:
-:ID:       1a6c5f8aecb6f6f4a4a9c8144a18e0e1
+:ID:       thrcrdmyscrn
 :END:
 I think it dumps broken ogv file. There is some jerkiness.
 When you convert it to something else with ffmpeg, it's complaining about broken frames and sometimes even segfaults
@@ -57,7 +57,7 @@ When you convert it to something else with ffmpeg, it's complaining about broken
 also it hasn't been updated for a decade, apparently
 ** TODO [#B] [2019-10-11] [[https://reddit.com/r/orgmode/comments/dgeojs/weekly_rorgmode_open_discussion_october_11_2019/f3d7d0u/][Weekly /r/Orgmode Open Discussion - October 11, 2019]] /r/orgmode -- gif screencasting tool
 :PROPERTIES:
-:ID:       8ac291f2fed4b3a2897be56610408297
+:ID:       frsrddtcmrrgmdcmmntsdgjswssnctbrrrgmdgfscrncstngtl
 :END:
 : That looks really cool.  Note that many users don't know what CFEngine is, so you might want to mention that (then again, maybe users who don't already know what it is don't matter, haha).
 : Your demo GIF is pretty cool.  You might find this interesting: after recording and tidying up demo GIFs for `helm-org-ql` several times, I wrote a shell script to make it easier.  Using the `gif-screencast` package for Emacs, all I have to do is run the script, make the Emacs window active, and it does the rest.
@@ -65,7 +65,7 @@ also it hasn't been updated for a decade, apparently
 https://github.com/alphapapa/org-ql/blob/master/images/demo-helm-org-ql.sh
 ** [#B] [2020-01-27] [[https://reddit.com/r/emacs/comments/eut02p/gifscreencast_11_is_out/][gif-screencast 1.1 is out]] /r/emacs :demo:emacs:
 :PROPERTIES:
-:ID:       94e32207bc8d8174dcc694ae9bd8ebfa
+:ID:       mnsrddtcmrmcscmmntstpgfscrncststgfscrncststrmcs
 :END:
 :  I'm happy to announce the release gif-screencast 1.1!
 :  https://gitlab.com/ambrevar/emacs-gif-screencast
@@ -80,32 +80,32 @@ https://github.com/alphapapa/org-ql/blob/master/images/demo-helm-org-ql.sh
 
 * Naming
 :PROPERTIES:
-:ID:       c8f1e37d8fec89fb93410fbe66b705d6
+:ID:       nmng
 :END:
 ** [#C] [2019-09-17] [[https://www.litscape.com/word_tools/contains_sequence.php][Find words containing these letters in sequence]]
 :PROPERTIES:
-:ID:       f5b43121fe893a40544ccbb4f26489fc
+:ID:       tswwwltscpcmwrdtlscntnssqndwrdscntnngthslttrsnsqnc
 :END:
 
 * TODO [#B] Make sure it's very easy to contribute    :project:hpi:promnesia:
 :PROPERTIES:
 :CREATED:  [2020-05-04]
-:ID:       de21d6ffa6e3c5cd9c9c24089843893e
+:ID:       mksrtsvrysytcntrbt
 :END:
 * TODO [#B] ok, definitely should keep changelog in the repository file (and then link to headings), instead of github native interface :project:hpi:promnesia:
 :PROPERTIES:
 :CREATED:  [2020-12-05]
-:ID:       d1933d375ada623e7cbd20797701fae9
+:ID:       kdfntlyshldkpchnglgnthrpsnkthdngsnstdfgthbntvntrfc
 :END:
 * TODO [#C] [2019-10-12] Licenses – opensource.google.com           :license:
 :PROPERTIES:
-:ID:       43ee94423b53706536b777563502a3b5
+:ID:       stlcnsspnsrcgglcm
 :END:
 https://opensource.google/docs/thirdparty/licenses/#restricted
 : GNU GPL v1, v2, v3
 * TODO [#C] [2019-10-12] Licenses – opensource.google.com           :license:
 :PROPERTIES:
-:ID:       12640c91bd3180247df7a392e617d91e
+:ID:       stlcnsspnsrcgglcm
 :END:
 https://opensource.google/docs/thirdparty/licenses/#LinkingRequirements
 : The following steps are required in order to be able to take advantage of the reduced requirements:
@@ -115,13 +115,13 @@ https://opensource.google/docs/thirdparty/licenses/#LinkingRequirements
 :     Customers must receive either object files or source code (including any modifications) of the LGPL-licensed library.
 * TODO [#C] [2020-04-09] thebjorn/pydeps: Python Module Dependency graphs :python:project:
 :PROPERTIES:
-:ID:       82838862aa45986251b6831ff5d7c937
+:ID:       ththbjrnpydpspythnmdldpndncygrphs
 :END:
 https://github.com/thebjorn/pydeps
 
 * [#C] [2020-03-01] Alternatives, Inspiration and Comparisons - FastAPI :project:
 :PROPERTIES:
-:ID:       30ca47be168cc47fe1b4eabd457bc474
+:ID:       snltrntvsnsprtnndcmprsnsfstp
 :END:
 https://fastapi.tiangolo.com/alternatives/
 very cool comparison page, I really like it

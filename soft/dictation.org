@@ -7,7 +7,7 @@ It's a shame I can't do simple things with voice when I'm not at the keyboard or
 * TODO [#A] take notes
 :PROPERTIES:
 :CREATED:  [2018-05-01]
-:ID:       755e9ba41dc25a9cf389277b999e6e9d
+:ID:       tknts
 :END:
 that should be my first priority in implementing dictation
 could have start/stop commands and just record everything in between
@@ -20,18 +20,18 @@ autovoice???
 * STRT [#A] make bookmarks on youtube videos/vlc via voice
 :PROPERTIES:
 :CREATED:  [2018-04-20]
-:ID:       da93416ee08dadcf647f447682102be0
+:ID:       mkbkmrksnytbvdsvlcvvc
 :END:
 
 ** STRT [#C] https://chrome.google.com/webstore/detail/lipsurf/lnnmjmalakahagblkkcnjkoaihlfglon lipsurf! nice thing!
 :PROPERTIES:
-:ID:       efaa342377eb7973dd76af119e98611c
+:ID:       schrmgglcmwbstrdtllpsrflnblkkcnjkhlfglnlpsrfncthng
 :END:
 https://www.reddit.com/r/speechrecognition/comments/8iedgm/my_voice_control_for_chrome_extension_that_i/dyx47bc/
 
 * STRT [#A] Voice pause vlc or music
 :PROPERTIES:
-:ID:       f26380b80e1b505e730f040925767e47
+:ID:       vcpsvlcrmsc
 :END:
 : I'm using a somewhat messy workaround. I have installed KDEConnect, and use my smartphone as an input device. This allows me to use Androids dictation feature and works reasonably well
 : To everyone reading: you can help improve voice recognition in (open source) applications by donating your voice to Mozilla's Common Voice project.
@@ -40,12 +40,12 @@ https://github.com/zmyaro/chrome-voice-actions
 
 * [#B] [2018-08-27] Michael Sheldon's Stuff » Speech Recognition – Mozilla’s DeepSpeech, GStreamer and IBus
 :PROPERTIES:
-:ID:       c945f58ee24f0735915fa0dd968b6f5e
+:ID:       mnmchlshldnsstffspchrcgntnmzllsdpspchgstrmrndbs
 :END:
 http://blog.mikeasoft.com/2017/12/30/speech-recognition-mozillas-deepspeech-gstreamer-and-ibus/
 * [#B] using voice to code                                           :coding:
 :PROPERTIES:
-:ID:       528730fcda462f785c30cd6d2a72a3ce
+:ID:       sngvctcd
 :END:
 http://ergoemacs.org/emacs/using_voice_to_code.html
 
@@ -53,26 +53,26 @@ http://ergoemacs.org/emacs/using_voice_to_code.html
 : “It’s freaking unbelievable, and it makes me so much more productive. I’m using it constantly, both at my desk and when I’m walking around. I have the new version for the phone that lets me dictate anywhere—waiting for a plane, backstage, or even walking in Manhattan,” he says. While working at Intel, Nainan had repetitive stress injuries in his wrists, so the technology has been a “godsend,” he says. While he says “training” the software to recognize your own speech patterns and accent isn’t necessary, the platform is more efficient when you take the time to do so, he says.
 * [#B] [2018-08-27] Is there any decent speech recognition software for Linux? - Unix & Linux Stack Exchange
 :PROPERTIES:
-:ID:       7947416210243c3dcb46c563c806f5f9
+:ID:       mnsthrnydcntspchrcgntnsftwrfrlnxnxlnxstckxchng
 :END:
 https://unix.stackexchange.com/questions/256138/is-there-any-decent-speech-recognition-software-for-linux
 ** DONE add to kibitzr? or some similar tool for tracking, apparently there are no subscriptions on stackexchange :(
 :PROPERTIES:
-:ID:       4866636e55512b12e1b5c9a01a1aa2ea
+:ID:       ddtkbtzrrsmsmlrtlfrtrckngythrrnsbscrptnsnstckxchng
 :END:
 *** [2021-01-11] oh very nice; in has RSS feed
 :PROPERTIES:
-:ID:       14a1a624f180d6e732257825fc03ea18
+:ID:       mnhvryncnhsrssfd
 :END:
 
 * TODO [#C] python speech recognition https://www.reddit.com/r/Python/comments/86440q/the_ultimate_guide_to_speech_recognition_with/
 :PROPERTIES:
-:ID:       a40f94ab0a96643c072b460878c54e73
+:ID:       pythnspchrcgntnswwwrddtcmtsqthltmtgdtspchrcgntnwth
 :END:
 * TODO [#C] Mozilla goes multilingual with open source Common Voice speech recognition datasets
 :PROPERTIES:
 :CREATED:  [2018-06-17]
-:ID:       0f9a01e36fa5e6ef41bf7c0a1b14dc49
+:ID:       mzllgsmltlnglwthpnsrccmmnvcspchrcgntndtsts
 :END:
 
 https://venturebeat.com/2018/06/07/mozilla-goes-multilingual-with-open-source-common-voice-speech-recognition-datasets/
@@ -80,38 +80,38 @@ https://venturebeat.com/2018/06/07/mozilla-goes-multilingual-with-open-source-co
 * TODO [#C] Build a voice interface in three minutes with PORCUPiNE
 :PROPERTIES:
 :CREATED:  [2018-06-27]
-:ID:       50b25b8587d90e8dc2bf6ae53bd8b586
+:ID:       bldvcntrfcnthrmntswthprcpn
 :END:
 
 https://www.youtube.com/watch?v=3z7LBW_Rl9c
 ** [2018-05-08] https://github.com/Picovoice/Porcupine
 :PROPERTIES:
-:ID:       d71fb997fbbdf45f9d7b0f735b75c80d
+:ID:       tsgthbcmpcvcprcpn
 :END:
 
 * [#C] [2018-10-03] ugh, researched a bit and it seems like there are no decent russian models.. dunno maybe I could train one against mozilla's deepspeech??
 :PROPERTIES:
-:ID:       5fefee8d171edeca475b22157bcd6211
+:ID:       wdghrsrchdbtndtsmslkthrrnmybcldtrnngnstmzllsdpspch
 :END:
 this is closest I could find.. https://github.com/sovse/Rus-SpeechRecognition-LSTM-CTC-VoxForge
 
 * TODO [#D] TTS on linux https://notgnoshi.github.io/spd-say/
 :PROPERTIES:
-:ID:       2ed7b347a68e586568f3aeccaf235957
+:ID:       ttsnlnxsntgnshgthbspdsy
 :END:
 
 * https://www.reddit.com/r/linux/comments/76611l/voice_to_text_software_for_linux/
 :PROPERTIES:
-:ID:       b0167c3fb48c736a70a203954b5ec859
+:ID:       swwwrddtcmrlnxcmmntslvcttxtsftwrfrlnx
 :END:
 * ugh all the linux soft for speech recognition seems to be a bit shit :(
 :PROPERTIES:
-:ID:       9f295ed6cb949e573de03ed164d8bbbc
+:ID:       ghllthlnxsftfrspchrcgntnsmstbbtsht
 :END:
 
 * STRT mozilla voice dataset? https://blog.mozilla.org/blog/2017/11/29/announcing-the-initial-release-of-mozillas-open-source-speech-recognition-model-and-voice-dataset
 :PROPERTIES:
-:ID:       34e9485cd5e6be8743e0253980b79ddb
+:ID:       mzllvcdtstsblgmzllrgblgnnnsrcspchrcgntnmdlndvcdtst
 :END:
 apparently python2
 deepspeech command
@@ -123,11 +123,11 @@ https://www.reddit.com/r/MLQuestions/comments/8g5lar/is_there_any_way_to_use_moz
 
 ** https://github.com/mozilla/DeepSpeech/issues/1181
 :PROPERTIES:
-:ID:       0a6f52ea92d29dacb37305f43fe625a0
+:ID:       sgthbcmmzlldpspchsss
 :END:
 * STRT https://github.com/DragonComputer/Dragonfire
 :PROPERTIES:
-:ID:       3085957540b4d2566abdf784f73bada9
+:ID:       sgthbcmdrgncmptrdrgnfr
 :END:
 python setup.py develop --user
 ./dragonfire/__init__.py
@@ -137,18 +137,18 @@ https://github.com/DragonComputer/Dragonfire/blob/master/CONTRIBUTING.md#stylegu
 
 * TODO just take a look at kaldi?
 :PROPERTIES:
-:ID:       fe4b3898e9cb1d61a501e28d753b5421
+:ID:       jsttklktkld
 :END:
 https://github.com/grib0ed0v/kaldi-for-russian
 Generally Kaldi is much more accurate than current CMUSphinx, however, if your audio has background noise, both will be quite useless. Music on background significantly affects speech recognition performance.
 * TODO https://www.reddit.com/r/Python/comments/6zzqvi/speechpy_a_library_for_speech_processing_and/
 :PROPERTIES:
-:ID:       656f55c9ab12ffbf8e1ca8f66625fe08
+:ID:       swwwrddtcmrpythncmmntszzqpchpylbrryfrspchprcssngnd
 :END:
 
 * .
 :PROPERTIES:
-:ID:       5058f1af8388633f609cadb75a75dc9d
+:ID:       5717_6636
 :END:
 : Voice Attack: failed to pick up my American accent. Failed to pick up my friend's British accent. Have not been able to try it as it appears to be incapable or recognizing even the shortest words ("Hello" spoken out loudly became "Oh no")
 : 
@@ -159,29 +159,29 @@ Generally Kaldi is much more accurate than current CMUSphinx, however, if your a
 : That leaves me out of ideas. Has anyone else found voice recognition software that actually works, and does not cost a fortune?
 * https://en.wikipedia.org/wiki/List_of_speech_recognition_software
 :PROPERTIES:
-:ID:       a4b5a5437350fa442c58ddb2bbd31bff
+:ID:       snwkpdrgwklstfspchrcgntnsftwr
 :END:
 
 * TODO [#D] kinda overlaps with file:speech-recognition.org
 :PROPERTIES:
-:ID:       bb0209c91955af5af8bbdc1fa45c440a
+:ID:       kndvrlpswthflspchrcgntnrg
 :END:
 * [#D] http://tuxdiary.com/2015/05/25/lispeak/ lispeak -- apparently used old google api and is dead now
 :PROPERTIES:
-:ID:       b64d1b06d0b8df2f3838766fafad035d
+:ID:       txdrycmlspklspkpprntlysdldgglpndsddnw
 :END:
 * [#D] related                            :degoogle:automation:infra:desktop:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:
 * TODO [#D] configure simon
 :PROPERTIES:
-:ID:       20e66dfd95f67e2ec9298c8ce5a8ac38
+:ID:       cnfgrsmn
 :END:
 : sudo apt install libqt4-sql-sqlite
 
 what's up with default dictionary??
 * https://github.com/julius-speech/julius
 :PROPERTIES:
-:ID:       db4a54086bc14df5469abca76e729448
+:ID:       sgthbcmjlsspchjls
 :END:

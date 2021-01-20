@@ -5,22 +5,22 @@ Timeline is a simple attempt to display various life events as list. Sort of a s
 
 * [#A] Rationale                                              :timeline:blog:
 :PROPERTIES:
-:ID:       ed0a5a062e35b6e5523fc22ed225083d
+:ID:       rtnl
 :END:
 ** [2018-08-06] It is useful to answer the question 'what were you doing' lately. Both to other people and yourself
 :PROPERTIES:
-:ID:       c510d146440c60655b11c484e911d23a
+:ID:       mntssfltnswrthqstnwhtwrydngltlybthtthrpplndyrslf
 :END:
 
 ** [2018-08-06] I need better activity log to tell people about stuff. Hypothesis, goodreads, youtube
 :PROPERTIES:
-:ID:       eebf6c1f5ba62629bda3622bf7a83a18
+:ID:       mnndbttrctvtylgttllpplbtstffhypthssgdrdsytb
 :END:
 
 ** TODO [#C] use it for some sort of spaced repetition for the previous week/month? :spacedrep:
 :PROPERTIES:
 :CREATED:  [2018-10-02]
-:ID:       420a22cd6247ace043921d723101fbbb
+:ID:       stfrsmsrtfspcdrpttnfrthprvswkmnth
 :END:
 - motivation: helps to reflect what you've been doing and thinking
 - implementing: need some automatic jumping onto last week's entry? or manually is fine
@@ -28,46 +28,46 @@ Timeline is a simple attempt to display various life events as list. Sort of a s
 
 * [#A] Similar tools/inspiration
 :PROPERTIES:
-:ID:       3066e32b442b738fddb42e5fa4cc9260
+:ID:       smlrtlsnsprtn
 :END:
 ** https://fluxtream.org/
 :PROPERTIES:
-:ID:       3b934b81d7078e486a8958aa2a0c69c3
+:ID:       sflxtrmrg
 :END:
 ** https://github.com/oshev/colifer/tree/592cc6b4d1ac9005c52fccdfb4e207513812baaa
 :PROPERTIES:
-:ID:       bbe68c5d2e5aa166c5bb0e5b112ab4f5
+:ID:       sgthbcmshvclfrtrccbdccfccdfbb
 :END:
 ** https://www.quantifiedbob.com/2016/10/personal-api-bobapi%E2%80%8A/#more-652
 :PROPERTIES:
-:ID:       4787527841c1b4330250520737914aaa
+:ID:       swwwqntfdbbcmprsnlpbbpmr
 :END:
 ** beddit? http://myquantifiedbrain.com/
 :PROPERTIES:
-:ID:       2656333373041b3f053556eaa97b3acc
+:ID:       bddtmyqntfdbrncm
 :END:
 ** [#B] [2019-02-26] matthiasn/meins: a personal and smart journal
 :PROPERTIES:
-:ID:       ca98e859bf31a742c69d6ebdf02a3905
+:ID:       tmtthsnmnsprsnlndsmrtjrnl
 :END:
 https://github.com/matthiasn/meins
 *** [2019-03-12] guy is duing something similar
 :PROPERTIES:
-:ID:       77ba9351651b0f6b8daa9f48086a9e8f
+:ID:       tgysdngsmthngsmlr
 :END:
 ** [2018-12-28] inspiration... http://busterbenson.com/
 :PROPERTIES:
-:ID:       13ae831eb972ba9cef820a5fba86964b
+:ID:       frnsprtnbstrbnsncm
 :END:
 
 ** [2019-04-15] 28 years of events (Phil Gyford’s website)      :inspiration:
 :PROPERTIES:
-:ID:       391494318b033331c155e7740da4645b
+:ID:       mnyrsfvntsphlgyfrdswbst
 :END:
 https://www.gyford.com/phil/writing/2018/03/28/events-part-1/
 ** CANCEL [2018-04-29] Personalapi                                      :hpi:
 :PROPERTIES:
-:ID:       d8cdcbc55cd1bccead67ae06a359f7db
+:ID:       snprsnlp
 :END:
 https://github.com/stefangrund/PersonalAPI
 meh, hasn't updated and even unclear what they implemented
@@ -75,20 +75,20 @@ meh, hasn't updated and even unclear what they implemented
 
 * [#B] publicity & reaching out to other people
 :PROPERTIES:
-:ID:       420c8843867aa2aef602df7c5df68dd1
+:ID:       pblctyrchngttthrppl
 :END:
 ** TODO [#C] I should post about it somewhere                          :blog:
 :PROPERTIES:
-:ID:       b0ed4af3ddc13fc0c9c58eeb5c514802
+:ID:       shldpstbttsmwhr
 :END:
 
 * STRT Timeline
 :PROPERTIES:
-:ID:       3d1f92a565d3b1a61880236e33c49bf3
+:ID:       tmln
 :END:
 ** TODO [#D] use old nomie data, group with gmaps and 4sq                :qs:
 :PROPERTIES:
-:ID:       99af1c180c2d0c3f693527af996b9e3c
+:ID:       sldnmdtgrpwthgmpsndsq
 :END:
 :PROPERTIES:
 CREATED: [2018-01-16]
@@ -97,88 +97,88 @@ CREATED: [2018-01-16]
 ** CANCEL [#D] Alcohol log meet merge with spending log
 :PROPERTIES:
 :CREATED:  [2018-01-19]
-:ID:       fec04b03afa698ef2856ee1f418a156a
+:ID:       lchllgmtmrgwthspndnglg
 :END:
 need consistent naming for all the alcohol providers
 
 ** DONE [#B] add photos
 :PROPERTIES:
 :CREATED:  [2018-04-26]
-:ID:       12f9024ce47ae2955c5a6eeb1fd77b82
+:ID:       ddphts
 :END:
 Actually support all kinds of events on the map. Photos are just one particular context
 
 ** TODO [#D] shazam geolocation
 :PROPERTIES:
-:ID:       89b83d04795ca3b3466fd4c14cef5d4f
+:ID:       shzmglctn
 :END:
 shazam for geolocation
 
 * integrations
 :PROPERTIES:
-:ID:       415320131958c70f4f250ca4d7e63bbd
+:ID:       ntgrtns
 :END:
 ** START [#C] [2016-06-10]  sleep data                                :sleep:
 :PROPERTIES:
-:ID:       8a252c01f814bbb71481996e3d89347e
+:ID:       frslpdt
 :END:
 rescuetime for sleep data
 ** START places
 :PROPERTIES:
-:ID:       ab7dc89534e36069de69a74fe634aa31
+:ID:       plcs
 :END:
 *** [2018-08-30] some progress with location provider
 :PROPERTIES:
-:ID:       75e0849bd8b218b7fb703348b9706b91
+:ID:       thsmprgrsswthlctnprvdr
 :END:
 ** [#D] chats
 :PROPERTIES:
-:ID:       7a4fe97bbc5ff21a561b79986db975c5
+:ID:       chts
 :END:
 ** DONE [#C] workouts
 :PROPERTIES:
-:ID:       510117ab30f8dcc240988fc80817f387
+:ID:       wrkts
 :END:
 ** calendar
 :PROPERTIES:
-:ID:       a0e7b2a565119c0a7ec3126a16016113
+:ID:       clndr
 :END:
 ** DONE [#B] photos
 :PROPERTIES:
-:ID:       d68f0b43acf6d58599009d506a6f9c78
+:ID:       phts
 :END:
 I guess makes sense to go thought only sorted photos? or unsorted ones could be in a different feed..
 ** zsh histfile?
 :PROPERTIES:
-:ID:       86ecdbaccb435e2cd73017f89d088673
+:ID:       zshhstfl
 :END:
 ** START dreams
 :PROPERTIES:
-:ID:       0d78658b259edcf59d78044457275aa4
+:ID:       drms
 :END:
 *** DONE need to display notes content
 :PROPERTIES:
-:ID:       03ff571c45b4cedaa890fc889f9d8952
+:ID:       ndtdsplyntscntnt
 :END:
 ** [#D] drinking-log
 :PROPERTIES:
-:ID:       8d4dc6ee5daa87eb1bdf52d0feca87e9
+:ID:       drnknglg
 :END:
 ** START bring more structure into diary-like items. org + ability to parse!
 :PROPERTIES:
-:ID:       f50d61088ed1cce1813d29b14937d957
+:ID:       brngmrstrctrntdrylktmsrgbltytprs
 :END:
 ** feed could be in same file, but use tags to project and filter information?
 :PROPERTIES:
-:ID:       c5f9a29c0e1d3d93d544259d0fb4a0da
+:ID:       fdcldbnsmflbtstgstprjctndfltrnfrmtn
 :END:
 ** DONE github
 :PROPERTIES:
-:ID:       bf215181b5140522137b3d4f6b73544a
+:ID:       gthb
 :END:
 * TODO [#D] misc
 :PROPERTIES:
-:ID:       bc957e26ff41470c556ee5d09e96880b
+:ID:       msc
 :END:
 google location data: extract fitness data, look on github
 exclude running dates to avoid confusion?
@@ -186,12 +186,12 @@ exclude running dates to avoid confusion?
 * TODO [#A] go through inspirations maybe?
 :PROPERTIES:
 :CREATED:  [2019-04-04]
-:ID:       1dbff783c9491d94b2941524a51e8387
+:ID:       gthrghnsprtnsmyb
 :END:
 
 * TODO [#A] [2020-01-21] ui inspiration: Clemens Scott: "Chronicle is another personal tool I created in a…" - Merveilles
 :PROPERTIES:
-:ID:       b6fe073518589f07d9d280478db7ea12
+:ID:       tnsprtnclmnsscttchrnclsnthrprsnltlcrtdnmrvlls
 :END:
 https://merveilles.town/@rostiger/103519643370144222
 : Chronicle is another personal tool I created in an effort to better understand and know myself. It creates a timeline UI from text based data using @neauoire's tablatal format and parser.
@@ -199,96 +199,96 @@ https://merveilles.town/@rostiger/103519643370144222
 huh, very nice encoding ('encrypting'?) to make data appear private while keeping timeline reasonable
 * TODO [#B] thinking about visualizing location...                      :viz:
 :PROPERTIES:
-:ID:       f6676c84a4489e84f978b4635b15ccd0
+:ID:       thnkngbtvslznglctn
 :END:
 ** TODO [#B] [2018-06-24] theopolisme/location-history-visualizer: Visualize your Google Location History using an interactive heatmap :photomap:
 :PROPERTIES:
-:ID:       9c25438be55e2fe8e1db51f6a891a5a3
+:ID:       snthplsmlctnhstryvslzrvslgllctnhstrysngnntrctvhtmp
 :END:
 https://github.com/theopolisme/location-history-visualizer
 ** [2020-07-31] https://github.com/berrnd/locory
 :PROPERTIES:
-:ID:       cb215f6237437f76a17ffff65d704083
+:ID:       frsgthbcmbrrndlcry
 :END:
 ** [#B] [2020-07-31] https://github.com/CartoDB/cartodb
 :PROPERTIES:
-:ID:       159ddecd8c72b89b51a18c524085b3c4
+:ID:       frsgthbcmcrtdbcrtdb
 :END:
 ** [2020-07-31] https://github.com/OpenGeoscience/geojs
 :PROPERTIES:
-:ID:       bcb76cb2590680e474a92854b2a6e346
+:ID:       frsgthbcmpngscncgjs
 :END:
 
 * TODO [#B] need different layers or something. e.g. display location/music/rescuetime in parallel
 :PROPERTIES:
 :CREATED:  [2018-10-01]
-:ID:       5d3c8847d4a23aeaba59b01d13a72bfe
+:ID:       nddffrntlyrsrsmthnggdsplylctnmscrsctmnprlll
 :END:
 * START [#B] add promnesia as source                              :promnesia:
 :PROPERTIES:
 :CREATED:  [2018-10-02]
-:ID:       d51a9e6d5ee396c171c13e2039d58a6b
+:ID:       ddprmnsssrc
 :END:
 ** [2019-04-04] need to be careful so I don't overlap with existing timeline entries
 :PROPERTIES:
-:ID:       38215114625c1c42abec8a051c3fde0d
+:ID:       thndtbcrflsdntvrlpwthxstngtmlnntrs
 :END:
 * TODO [#B] hmm, for location maybe I should use something custom? Even sort of offline is fine, upload coordinates when you are charging or wifi connected?
 :PROPERTIES:
 :CREATED:  [2018-10-05]
-:ID:       700faefa20804a519bace9250f381f5f
+:ID:       hmmfrlctnmybshldssmthngcsrdntswhnyrchrgngrwfcnnctd
 :END:
 ** TODO open source location tracker                               :location:
 :PROPERTIES:
 :CREATED:  [2018-10-13]
-:ID:       0a7223020db71aa45e328f654fe6c4bc
+:ID:       pnsrclctntrckr
 :END:
 then I could disable the google one. I'd own the data and be able to receive it continuously
 * TODO [#B] Mark events as public?                                  :privacy:
 :PROPERTIES:
 :CREATED:  [2018-10-16]
-:ID:       10ef802bb18bbae2c688117c1c96b87f
+:ID:       mrkvntsspblc
 :END:
 ** TODO maybe, for that would be useful to have a backend?
 :PROPERTIES:
-:ID:       6923b43129d09bb5d5c7f6cf8b409967
+:ID:       mybfrthtwldbsflthvbcknd
 :END:
 ** [2019-04-03] hm. maybe instead, separate public timeline (which won't have workouts for instance) and private one?
 :PROPERTIES:
-:ID:       8d9359bc92a10824288f16d9cf2ad97c
+:ID:       wdhmmybnstdsprtpblctmlnwhhwnthvwrktsfrnstncndprvtn
 :END:
 
 * TODO [#B] treat commits with same message and date as same? At least visual indication that they are 'merged'
 :PROPERTIES:
 :CREATED:  [2019-07-04]
-:ID:       8654cd8715b71e17d3a8a4a2d8e04367
+:ID:       trtcmmtswthsmmssgnddtssmtlstvslndctnthtthyrmrgd
 :END:
 * TODO [#B] [2019-08-22] Pagination strategies with PouchDB           :infra:
 :PROPERTIES:
-:ID:       1d80c4a72554f2997d622971fac521b6
+:ID:       thpgntnstrtgswthpchdb
 :END:
 https://pouchdb.com/2014/04/14/pagination-strategies-with-pouchdb.html
 
 * TODO [#B] https://merveilles.town/@rostiger/103519643370144222 very nice dynamic timeline for the UI!! :inspiration:
 :PROPERTIES:
 :CREATED:  [2020-01-21]
-:ID:       9e9871958bc69693500cdc977415e601
+:ID:       smrvllstwnrstgrvryncdynmctmlnfrth
 :END:
 
 * [#B] [2020-02-10] mholt/timeliner: All your digital life on a single timeline, stored locally
 :PROPERTIES:
-:ID:       e12477a5c2e16f1ba14de89be1b89941
+:ID:       mnmhlttmlnrllyrdgtllfnsngltmlnstrdlclly
 :END:
 https://github.com/mholt/timeliner
 * [#B] [2019-12-02] Ask HN: What's is the state of the art of lifelogging? | Hacker News :lifelogging:
 :PROPERTIES:
-:ID:       8d829ee33866ca6a588b375075eb9ac8
+:ID:       mnskhnwhtssthsttfthrtflflggnghckrnws
 :END:
 https://news.ycombinator.com/item?id=21268588
 : Where can I find more about the state-of-the-art in lifelogging, self tracking, quantified self, activity detection,
 * TODO [#B] [2020-05-08] [[https://news.ycombinator.com/item?id=23101869#23113061][Show HN: Interface for all digital aspects of my life | Hacker News]] :hpi:
 :PROPERTIES:
-:ID:       df7280b09ff1ce6db2022175f0da5409
+:ID:       frsnwsycmbntrcmtmdshwhnntfrlldgtlspctsfmylfhckrnws
 :END:
 : Kudos - this looks like a great project and is fully usable now.
 : I have a similar project, DL, that's unfinished. Mine revolves around using a custom API in both Rust and REST to aggregate all my digital life events using ActivityStreams 2.0 and extensions to that, in a manner that is decentralized and ranked/categorized through machine learning. I am still working on it and releasing it Open Source is one of this year's goals.
@@ -296,36 +296,36 @@ https://news.ycombinator.com/item?id=21268588
 : Jeremie Miller, one of the creators of XMPP, had something similar revolving around the Telehash protocol. As far as I can tell, that effort is discontinued, or at least no longer Open Source.
 * TODO [#B] [2020-05-30] [[https://github.com/chr15m/ntpl][chr15m/ntpl: Python lib to modify & render HTML.]]
 :PROPERTIES:
-:ID:       565a40ec8b69d319bc3dc22fd728bb2e
+:ID:       stsgthbcmchrmntplchrmntplpythnlbtmdfyrndrhtml
 :END:
 * [#B] [2018-11-07] jasonrudolph/stratify: Rails + MongoDB app for building a consolidated timeline of your data from disparate sources (e.g., Twitter, GitHub, Foursquare, etc.)
 :PROPERTIES:
-:ID:       7cadfb77b93aad64d2de2fd6fddf0d71
+:ID:       wdjsnrdlphstrtfyrlsmngdbpsprtsrcsgtwttrgthbfrsqrtc
 :END:
 https://github.com/jasonrudolph/stratify
 * TODO [#B] highlight personal notes as some really distinctive colour
 :PROPERTIES:
 :CREATED:  [2019-12-31]
-:ID:       c1398849b23b6a625839db391bc720c5
+:ID:       hghlghtprsnlntsssmrllydstnctvclr
 :END:
 * START [#C] topcoder and codeforces stats
 :PROPERTIES:
 :CREATED:  [2019-02-02]
-:ID:       f0c46f2f8e9c5600563239ce44fc0db8
+:ID:       tpcdrndcdfrcsstts
 :END:
 ** [2019-04-04] http get https://api.topcoder.com/v3/members/karlicos/stats/history
 :PROPERTIES:
-:ID:       36ca362ee010083a92ba8f2f6c76f829
+:ID:       thgtsptpcdrcmvmmbrskrlcssttshstry
 :END:
 ** [2019-04-04] http get 'https://codeforces.com/api/user.rating?handle=gerasimovd'
 :PROPERTIES:
-:ID:       9a920d2eb26541b8a7e6557381bf78d8
+:ID:       thgtscdfrcscmpsrrtnghndlgrsmvd
 :END:
 http get 'https://codeforces.com/api/contest.list' | pp_json > contests-20190404.json
 * START [#C] direct link to the org note (e.g. if I want to edit it)
 :PROPERTIES:
 :CREATED:  [2018-08-26]
-:ID:       010b69266ed49e41d40eb954da9d294c
+:ID:       drctlnktthrgntgfwnttdtt
 :END:
 mimemacs?
 TODO hmmm, is it even possible to match
@@ -340,18 +340,18 @@ could implement in my org provider...
 * TODO [#C] split by sleeps rather than calendar days?                :sleep:
 :PROPERTIES:
 :CREATED:  [2018-10-27]
-:ID:       4a7d90b4e156543e6fed2470bc3407c8
+:ID:       spltbyslpsrthrthnclndrdys
 :END:
 * START [#C] quite slow on android... maybe worth rendering separate timelines too..
 :PROPERTIES:
 :CREATED:  [2018-09-17]
-:ID:       7a52d5845918bb47425f5cdbf9016028
+:ID:       qtslwnndrdmybwrthrndrngsprttmlnst
 :END:
 ok, for now splitting by year is probably ok
 * START [#C] Kindle notes should def be part of timeline                :hpi:
 :PROPERTIES:
 :CREATED:  [2018-08-29]
-:ID:       10f5a6606768e2186d5f21028995bc73
+:ID:       kndlntsshlddfbprtftmln
 :END:
 I guess just use zim books directory for annotations??
 maybe the org provider should support directories.
@@ -361,170 +361,170 @@ ok, needs fuzzy matching dates (e.g. Added on Thursday, May 31, 2018 2:04:36 AM)
 * [#C] Try rewriting rules, if two entries match, error
 :PROPERTIES:
 :CREATED:  [2018-02-02]
-:ID:       612130b96293b2d71054edff45ab6121
+:ID:       tryrwrtngrlsftwntrsmtchrrr
 :END:
 
 * TODO [#C] Matcher where date is available, compare directly
 :PROPERTIES:
 :CREATED:  [2018-02-02]
-:ID:       bf772e5574609f713b416e460ec537b2
+:ID:       mtchrwhrdtsvlblcmprdrctly
 :END:
 
 * [#C] button for quick add (capture) a memory from any event (add source reference or something too) :lifelogging:
 :PROPERTIES:
 :CREATED:  [2018-08-18]
-:ID:       1fabf475be69035785af8ee68235e54f
+:ID:       bttnfrqckddcptrmmryfrmnyvntddsrcrfrncrsmthngt
 :END:
 * TODO [#C] maybe, created org todos?
 :PROPERTIES:
 :CREATED:  [2018-08-27]
-:ID:       8d019e33f36b7897baf500ca205022e0
+:ID:       mybcrtdrgtds
 :END:
 
 * START [#C] support notes without time? e.g. if we received date instead of datetime. or map to a certain time? ...
 :PROPERTIES:
 :CREATED:  [2018-08-30]
-:ID:       ea7679716751fcb4bd98e4f09e5c4543
+:ID:       spprtntswthttmgfwrcvddtnstdfdttmrmptcrtntm
 :END:
 * START [#C] hmm, could try mounting takeout zip? and remount when later available (maybe even inotify) https://bitbucket.org/agalanin/fuse-zip
 :PROPERTIES:
 :CREATED:  [2018-08-28]
-:ID:       acb3c287ea8ab830540229ef51418fcc
+:ID:       hmmcldtrymntngtktzpndrmntybvnntfysbtbcktrgglnnfszp
 :END:
 * [#C] jakubroztocil/geotagger: Geotag your photos from GPS-less cameras with your phone's location history data :photomap:
 :PROPERTIES:
-:ID:       200eaa2678d73ff7c4f61730c87582ea
+:ID:       jkbrztclgtggrgtgyrphtsfrmscmrswthyrphnslctnhstrydt
 :END:
 * TODO [#C] send error email about missing providers and that sort of major errors. maybe occasionally??
 :PROPERTIES:
 :CREATED:  [2018-09-13]
-:ID:       7736732c32c73e48203bda08707b53fd
+:ID:       sndrrrmlbtmssngprvdrsndthtsrtfmjrrrrsmybccsnlly
 :END:
 * TODO [#C] Mark cinema with tag and cinema visits specifically
 :PROPERTIES:
 :CREATED:  [2018-09-08]
-:ID:       67e48f91d57a62207ccf37e52e92cad7
+:ID:       mrkcnmwthtgndcnmvstsspcfclly
 :END:
 
 * START [#C] feedly
 :PROPERTIES:
 :CREATED:  [2018-10-02]
-:ID:       08a2cadc5a01de255ac12eb96c5732b5
+:ID:       fdly
 :END:
 - State "START"      from "TODO"       [2019-04-17]
 https://developer.feedly.com/v3/subscriptions/ -- that could def be useful
 https://developer.feedly.com/v3/markers/#mark-one-or-multiple-articles-as-saved that too
 ** [2019-04-04] unclear from the API if it's possible to extract when something was read
 :PROPERTIES:
-:ID:       cfea51401d4356ec5573a8514a21e81a
+:ID:       thnclrfrmthpftspssbltxtrctwhnsmthngwsrd
 :END:
 * START [#C] most important things are: geo location, coding commits/activity, meals eaten, exercise
 :PROPERTIES:
 :CREATED:  [2018-06-28]
-:ID:       8bfc0db33698ca251ec037edf08dd301
+:ID:       mstmprtntthngsrglctncdngcmmtsctvtymlstnxrcs
 :END:
 
 * TODO [#C] asign 'importance' (to tags, but maybe compute it based on keywords etc), then make text bold depending on importance?
 :PROPERTIES:
 :CREATED:  [2018-10-02]
-:ID:       f8034fd94d77cd597c7709abf27634d6
+:ID:       sgnmprtncttgsbtmybcmpttbscthnmktxtblddpndngnmprtnc
 :END:
 * TODO [#C] 'Saved' from google Takeout                         :takeout:hpi:
 :PROPERTIES:
 :CREATED:  [2018-10-06]
-:ID:       41ca2cc995c85006886820375e3455d8
+:ID:       svdfrmggltkt
 :END:
 * START [#C] Track reddit subscriptions. Wonder if they are somewhere historically in api?? :reddit:hpi:
 :PROPERTIES:
 :CREATED:  [2018-08-30]
-:ID:       ea46de4c8a1fcac3d9373ffa0c8e3e1f
+:ID:       trckrddtsbscrptnswndrfthyrsmwhrhstrcllynp
 :END:
 * TODO [#C] programming contests, e.g. codeforces and topcoder
 :PROPERTIES:
 :CREATED:  [2018-10-22]
-:ID:       53c9b90d4b2f6d82d89c9fda9a0afa77
+:ID:       prgrmmngcntstsgcdfrcsndtpcdr
 :END:
 * TODO [#C] tracking 'watch later' is quite useful...           :takeout:hpi:
 :PROPERTIES:
 :CREATED:  [2019-02-01]
-:ID:       e8f5eaa2663958e97678c9e5724bbab0
+:ID:       trckngwtchltrsqtsfl
 :END:
 * TODO [#C] memrise from backup                                         :hpi:
 :PROPERTIES:
 :CREATED:  [2019-02-10]
-:ID:       12856d6939da055e95434d4f67ebdb2e
+:ID:       mmrsfrmbckp
 :END:
 * TODO [#C] web cam in front of monitor so I could see when I'm paying attention to the monitor? :lifelogging:
 :PROPERTIES:
 :CREATED:  [2019-02-23]
-:ID:       2a5366b6d42512ce809542a631322238
+:ID:       wbcmnfrntfmntrscldswhnmpyngttntntthmntr
 :END:
 * TODO [#C] old takeouts got some keep history                  :takeout:hpi:
 :PROPERTIES:
 :CREATED:  [2019-02-26]
-:ID:       6aec735254759b840ea0a1c3c3a86103
+:ID:       ldtktsgtsmkphstry
 :END:
 * TODO [#C] run against github backup, so commits provider doesn't get confused by missing ones?
 :PROPERTIES:
 :CREATED:  [2019-02-23]
-:ID:       7efcc956b4f46593eda756be656c64d7
+:ID:       rngnstgthbbckpscmmtsprvdrdsntgtcnfsdbymssngns
 :END:
 * TODO [#C] actually MyActivity got A LOT of data               :takeout:hpi:
 :PROPERTIES:
 :CREATED:  [2019-02-26]
-:ID:       914731f6d47a7d8eafb5ab060ff010d3
+:ID:       ctllymyctvtygtltfdt
 :END:
 * START [#C] Split by quarters? Or find Android optimization tips
 :PROPERTIES:
 :CREATED:  [2019-04-03]
-:ID:       484937dc1431654bce680bc5abe4b98e
+:ID:       spltbyqrtrsrfndndrdptmztntps
 :END:
 * TODO [#C] multiple dream tags??
 :PROPERTIES:
 :CREATED:  [2019-04-04]
-:ID:       325fda85bcfb64f69113342a584051bc
+:ID:       mltpldrmtgs
 :END:
 * TODO [#C] [2019-03-28] [[https://reddit.com/r/selfhosted/comments/b42all/timeliner_is_a_personal_data_aggregation_utility/][Timeliner is a personal data aggregation utility. It collects all your digital things from pretty much anywhere and stores them on your own computer, indexes them, and projects them onto a single, unified timeline.]] /r/selfhosted :inspiration:
 :PROPERTIES:
-:ID:       4068c56fe2354e37dc324616022e261f
+:ID:       thsrddtcmrslfhstdcmmntsblsthmntsnglnfdtmlnrslfhstd
 :END:
 
 * TODO [#C] need plot for items for each provider so it's easy to track broken shit
 :PROPERTIES:
 :CREATED:  [2019-06-14]
-:ID:       740e424dc1e463a1c724b9a3b42a4036
+:ID:       ndpltfrtmsfrchprvdrstssyttrckbrknsht
 :END:
 * TODO [#C] google assistant interactions from takeout          :takeout:hpi:
 :PROPERTIES:
 :CREATED:  [2019-06-11]
-:ID:       3f76cbeb58d4f2c2d8fa3f7abb3d6e86
+:ID:       gglssstntntrctnsfrmtkt
 :END:
 
 * TODO [#C] hmm. if I don't keep the entry before change, I don't get a reliable timestamp... :hpi:reddit:
 :PROPERTIES:
 :CREATED:  [2019-06-17]
-:ID:       9096f5ffc7afe354eace25843f43dd7b
+:ID:       hmmfdntkpthntrybfrchngdntgtrlbltmstmp
 :END:
 * START [#C] trying to speed up static html
 :PROPERTIES:
 :CREATED:  [2019-07-06]
-:ID:       dd202ebe0704dfdfba5eeb921392e9a6
+:ID:       tryngtspdpsttchtml
 :END:
 ** [2019-07-06] so layout step takes about 6 seconds on my desktop
 :PROPERTIES:
-:ID:       772bed7626bbeb5f03cbf47f3ff90a7f
+:ID:       stslytstptksbtscndsnmydsktp
 :END:
 disabling CSS didn't change anything
 err, trying to remove tags made it twice as slow... wtf??
 * [#C] [2019-04-19] How I Tracked a Year in Time and What It Meant - Minding the Borderlands :qs:inspiration:
 :PROPERTIES:
-:ID:       058c0c5292e3f932270f24131a87c466
+:ID:       frhwtrckdyrntmndwhttmntmndngthbrdrlnds
 :END:
 http://www.markwk.com/2016/01/a-year-of-time-tracking-2015.html
 
 * [#C] [2019-08-18] PouchDB, the JavaScript Database that Syncs!      :infra:
 :PROPERTIES:
-:ID:       96214a329b48ac9c1c8b1bc0a6c458e4
+:ID:       snpchdbthjvscrptdtbsthtsyncs
 :END:
 https://pouchdb.com/
 : The Database that Syncs!
@@ -533,54 +533,54 @@ https://pouchdb.com/
 : It enables applications to store data locally while offline, then synchronize it with CouchDB and compatible servers when the application is back online, keeping the user's data in sync no matter where they next login.
 ** START [2019-08-18] hmm. could use for timeline? If it keeps items in database, then I can just rely on it and implement pagination?
 :PROPERTIES:
-:ID:       d39caef12f33a6acfa3c435d940e2f2f
+:ID:       snhmmcldsfrtmlnftkpstmsndhncnjstrlyntndmplmntpgntn
 :END:
 * TODO [#C] hmm maybe I want feedly logs in timeline and promnesia?     :hpi:
 :PROPERTIES:
-:ID:       10913adcaad4f218ee0e96c6cda9e324
+:ID:       hmmmybwntfdlylgsntmlnndprmns
 :END:
 * TODO [#C] make entry background dependent on time of day?
 :PROPERTIES:
 :CREATED:  [2019-07-15]
-:ID:       e8f27a328558f5e38df73e6387f5bae2
+:ID:       mkntrybckgrnddpndntntmfdy
 :END:
 * TODO [#C] Better search, def need proper indexing...                :memex:
 :PROPERTIES:
 :CREATED:  [2019-08-21]
-:ID:       aaf3f46dda254253bd742e128b915683
+:ID:       bttrsrchdfndprprndxng
 :END:
 
 * START [#C] [2019-08-18] API Reference                               :infra:
 :PROPERTIES:
-:ID:       a612c850fe2a30642e0775fcf4740055
+:ID:       snprfrnc
 :END:
 https://pouchdb.com/api.html
 : Notes: For pagination, options.limit and options.skip are also available, but the same performance concerns as in CouchDB apply. Use the startkey/endkey pattern instead.
 * TODO [#C] bundle pouchdb with static timeline
 :PROPERTIES:
 :CREATED:  [2019-08-28]
-:ID:       1ca644f45ac453d8bda2b15ad075a7f4
+:ID:       bndlpchdbwthsttctmln
 :END:
 * [#C] [2019-04-15] Describing events in code (Phil Gyford’s website)
 :PROPERTIES:
-:ID:       632ec58bab394cc313cdcd5ffbcc834a
+:ID:       mndscrbngvntsncdphlgyfrdswbst
 :END:
 https://www.gyford.com/phil/writing/2018/03/28/events-part-2/
 ** [2019-08-09] about the model he uses for events, nothing too enlightening..
 :PROPERTIES:
-:ID:       b99e7048464dd99b666b521e8b52cbd8
+:ID:       frbtthmdlhssfrvntsnthngtnlghtnng
 :END:
 
 * TODO [#C] [2019-09-06] hood.ie intro                                :infra:
 :PROPERTIES:
-:ID:       491a950911fbe208f4483f76e99f0b83
+:ID:       frhdntr
 :END:
 http://hood.ie/intro/
 : Welcome to Hoodie!
 : Hoodie enables you to express yourself through technology by making web application development very fast, easy and accessible.
 ** TODO [#C] [2019-09-06] hood.ie intro
 :PROPERTIES:
-:ID:       054515b835b91b57c37ecdd13418612b
+:ID:       frhdntr
 :END:
 http://hood.ie/intro/
 : Hoodie is a noBackend technology — it's there for making the lives of frontend developers easier by abstracting away the backend and keeping you from worrying about backends. It gives you Dreamcode: a simple, easy-to-learn-and-implement frontend API built into it. Hoodie is also Offline First, which means that your app users’ data is stored locally by default so your Hoodie-based apps are accessible and usable anytime, independent from your users’ internet connection.
@@ -591,7 +591,7 @@ http://hood.ie/intro/
 * TODO [#C] Gordon Bell and The Epic Quest to Digitalize Everything - Mark Koester :qs:
 :PROPERTIES:
 :CREATED:  [2019-10-03]
-:ID:       70bfa3d293895a869e75a990ad0124d4
+:ID:       grdnbllndthpcqsttdgtlzvrythngmrkkstr
 :END:
 
 http://www.markwk.com/most-digitalized-life-ever.html
@@ -600,31 +600,31 @@ Some highlights for the other attempt to build something similar to timeline
 
 * TODO [#C] [2019-08-18] quangv/awesome-couchdb: CouchDB - curated meta resources & best practices list
 :PROPERTIES:
-:ID:       565717226318736de417042a60f1005c
+:ID:       snqngvwsmcchdbcchdbcrtdmtrsrcsbstprctcslst
 :END:
 https://github.com/quangv/awesome-couchdb#readme
 
 * TODO [#C] ui: https://merveilles.town/@rostiger/103534349279790297
 :PROPERTIES:
 :CREATED:  [2020-01-23]
-:ID:       bb45d6b8a330c3f777fa894c63d6db1c
+:ID:       smrvllstwnrstgr
 :END:
 
 * TODO [#C] [2020-01-05] ejplatform/hyperpython: A small DSL to write HTML in Python. :python:html:
 :PROPERTIES:
-:ID:       763d8d987c010487923bfaede786c157
+:ID:       snjpltfrmhyprpythnsmlldsltwrthtmlnpythn
 :END:
 https://github.com/ejplatform/hyperpython
 : Hyperpython
 : Hyperpython is a Python interpretation of Hyperscript. If you are not familiar with Hyperscript, think of it as a pure Javascript alternative to JSX.
 * [#C] [2019-08-28] pouchdb-browser - npm
 :PROPERTIES:
-:ID:       8ebc3f34846a7479325845478feae176
+:ID:       wdpchdbbrwsrnpm
 :END:
 https://www.npmjs.com/package/pouchdb-browser
 * TODO [#C] [2019-12-26] awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of hosting and managing applications instead of renting from Software-as-a-Service providers :spreadsheet:
 :PROPERTIES:
-:ID:       66c768440f9b63de0ac5fb03843b2ddc
+:ID:       thwsmslfhstdwsmslfhstdlstfrntngfrmsftwrssrvcprvdrs
 :END:
 https://github.com/awesome-selfhosted/awesome-selfhosted
 : Office Suites
@@ -632,51 +632,51 @@ https://github.com/awesome-selfhosted/awesome-selfhosted
 could use spreadsheets for that?
 * TODO [#C] [2019-12-04] ben VOTE goldacre on Twitter: "Oh wow long term follow up cohorts with contemporaneous data to identify recall bias are a beautiful thing https://t.co/3QN5JXqaeA" / Twitter
 :PROPERTIES:
-:ID:       fc1b44e7edb9561f991f391f7146dd8f
+:ID:       wdbnvtgldcrntwttrhwwlngtrlbsrbtflthngstcqnjxqtwttr
 :END:
 https://twitter.com/bengoldacre/status/1202328740623241218
 : Oh wow long term follow up cohorts with contemporaneous data to identify recall bias are a beautiful thing
 * TODO [#C] ipython history? it's got session times                     :hpi:
 :PROPERTIES:
 :CREATED:  [2020-06-04]
-:ID:       87ea8b90a3cf368f5c6e0db015b4f24d
+:ID:       pythnhstrytsgtsssntms
 :END:
 * [#C] [2019-01-17] Effective Use of Arbtt                            :arbtt:
 :PROPERTIES:
-:ID:       7211d68a65faab7ff8b4d06e32b10a8f
+:ID:       thffctvsfrbtt
 :END:
 http://arbtt.nomeata.de/doc/users_guide/effective-use.html
 figure out if you need to refine rules?
 * TODO [#C] make sure it handles comments (post about music theory for nerds) :hypothesis:
 :PROPERTIES:
 :CREATED:  [2019-01-23]
-:ID:       b50bdc2841397f3c367afe899199b231
+:ID:       mksrthndlscmmntspstbtmscthryfrnrds
 :END:
 * TODO [#C] seemingly broken org-mode rendering..
 :PROPERTIES:
 :CREATED:  [2019-12-31]
-:ID:       696b5f82c3fdbb72846fe06b4bdd1ca5
+:ID:       smnglybrknrgmdrndrng
 :END:
 e.g. see Наверное все относительно нормально, значит
 * TODO [#C] kobo: really need to collapse stuff...
 :PROPERTIES:
 :CREATED:  [2019-12-31]
-:ID:       432a43d1f3d889dffd8286b5b6ef88c9
+:ID:       kbrllyndtcllpsstff
 :END:
 * TODO [#C] could also be more hierarchical? e.g. github -> promnesia -> ....
 :PROPERTIES:
 :CREATED:  [2020-05-03]
-:ID:       b9ea2dc242201a36d82dc9f69535998e
+:ID:       cldlsbmrhrrchclggthbprmns
 :END:
 * TODO [#C] error could be a special entry type?                     :errors:
 :PROPERTIES:
 :CREATED:  [2020-05-03]
-:ID:       023b29b6b0b445dfcdc40d078e762490
+:ID:       rrrcldbspclntrytyp
 :END:
 * TODO [#D] Also projected timeline
 :PROPERTIES:
 :CREATED:  [2018-05-18]
-:ID:       dbc8798a75abc8e9d17519947d86e647
+:ID:       lsprjctdtmln
 :END:
 
 Planned meals, holidays etc
@@ -684,139 +684,139 @@ Planned meals, holidays etc
 * TODO [#D] fb archive                                                  :hpi:
 :PROPERTIES:
 :CREATED:  [2018-09-19]
-:ID:       1fa6525beab470e734615ab5e2ed5cef
+:ID:       fbrchv
 :END:
 * TODO [#D] merge typing logs into timeline?                            :hpi:
 :PROPERTIES:
-:ID:       449f74bef75b553066e425c51642f0b0
+:ID:       mrgtypnglgsnttmln
 :END:
 * TODO [#D] all my vk comments?                                         :hpi:
 :PROPERTIES:
 :CREATED:  [2018-07-21]
-:ID:       578c17b19561fd64c68b9264be05aa2f
+:ID:       llmyvkcmmnts
 :END:
 * START [#D] integrate rescuetime into timeline. maybe get_activity_intervals or something? :hpi:
 :PROPERTIES:
-:ID:       edbb3a300a22b5c8d1dba4cce34e2d7f
+:ID:       ntgrtrsctmnttmlnmybgtctvtyntrvlsrsmthng
 :END:
 * START [#D] extract old sleep from jawbone (I must have files to parse it somewhere)
 :PROPERTIES:
 :CREATED:  [2018-09-16]
-:ID:       dd36e78fc80242e9205d660f865d8595
+:ID:       xtrctldslpfrmjwbnmsthvflstprstsmwhr
 :END:
 
 - State "START"      from "TODO"       [2019-04-04]
 * TODO [#D] old github events (looks like backup in /backups/github-feed doesn't have unexpanded events...) :hpi:
 :PROPERTIES:
 :CREATED:  [2018-09-28]
-:ID:       97288d050e4065e217e08ef1614d4d9a
+:ID:       ldgthbvntslkslkbckpnbckpsgthbfddsnthvnxpnddvnts
 :END:
 * TODO [#D] highlight my own tweets as opposed to rts
 :PROPERTIES:
 :CREATED:  [2018-10-12]
-:ID:       436464c51f654713c3cda3fb6c3b9f12
+:ID:       hghlghtmywntwtssppsdtrts
 :END:
 * TODO [#D] track followed/unfollowed users. maybe in some form of weekly summary? actually could bind all unidentified events :hpi:twitter:
 :PROPERTIES:
 :CREATED:  [2018-10-03]
-:ID:       9ad92b2281ce47589c1afa3b431c3890
+:ID:       trckfllwdnfllwdsrsmybnsmfryctllycldbndllndntfdvnts
 :END:
 * TODO [#D] future stuff -- render collapsed? or in the bottom.. for now will just error
 :PROPERTIES:
 :CREATED:  [2019-02-03]
-:ID:       045b85c2f0f51275f99e1017613eec82
+:ID:       ftrstffrndrcllpsdrnthbttmfrnwwlljstrrr
 :END:
 * TODO [#D] hmm commits are gone somewhere...                           :hpi:
 :PROPERTIES:
 :CREATED:  [2019-03-24]
-:ID:       f135ff03434fcee1084d5f483d2373c6
+:ID:       hmmcmmtsrgnsmwhr
 :END:
 * TODO [#D] make sure it's deterministic apart from date (could verify that via diffing)
 :PROPERTIES:
 :CREATED:  [2018-11-10]
-:ID:       654862cea226ebe36677bad81ed84276
+:ID:       mksrtsdtrmnstcprtfrmdtcldvrfythtvdffng
 :END:
 * [#D] [2018-11-27] GH Archive
 :PROPERTIES:
-:ID:       b7a9eb761af3d99e2733aebc34e8c6d3
+:ID:       tghrchv
 :END:
 https://www.gharchive.org/
 
 * TODO [#D] some sort of conservative changes checker for quick rerendering?
 :PROPERTIES:
 :CREATED:  [2019-02-03]
-:ID:       23719f5917cd0ef694670434a359fd43
+:ID:       smsrtfcnsrvtvchngschckrfrqckrrndrng
 :END:
 * TODO [#D] Steam gaming history??                                      :hpi:
 :PROPERTIES:
 :CREATED:  [2019-04-08]
-:ID:       1bb3080c51fa3bb82bf7a42fa8c1f3c6
+:ID:       stmgmnghstry
 :END:
 ** [2019-04-08] shit, doesn't look that it's accessible from api
 :PROPERTIES:
-:ID:       833b50e97f5328de3de1e0ca96060793
+:ID:       mnshtdsntlkthttsccssblfrmp
 :END:
 ** [2021-01-14] doesn't look like there is any convenient GDPR either
 :PROPERTIES:
-:ID:       837bc93465cfaae8c8017f32296e7814
+:ID:       thdsntlklkthrsnycnvnntgdprthr
 :END:
 * TODO [#D] fix locations... they were gone for some reason, wonder if because of changes to group_by_cmp in kython
 :PROPERTIES:
 :CREATED:  [2019-04-23]
-:ID:       cf2181261842997353d9387be1495a42
+:ID:       fxlctnsthywrgnfrsmrsnwndrfbcsfchngstgrpbycmpnkythn
 :END:
 * TODO [#D] reddit processing takes quite a bit.. but I guess bleanser will optimize it :hpi:bleanser:reddit:
 :PROPERTIES:
 :CREATED:  [2019-05-01]
-:ID:       bf4c1109d0750cbf771892bc6b26a54d
+:ID:       rddtprcssngtksqtbtbtgssblnsrwllptmzt
 :END:
 * STRT [#D] hypothesis provider (and other annotation): collect changes over all backups? :dal:hpi:
 :PROPERTIES:
 :CREATED:  [2019-06-12]
-:ID:       61c067535f84b57cf310da4bb976ccbf
+:ID:       hypthssprvdrndthrnnttncllctchngsvrllbckps
 :END:
 e.g. you highlighted something, on second reading annotated it; on the next reading annotated more
 
 * [#D] [2019-07-06] HTML Table Vs Pure CSS DIV: Which Loads Faster? - Web Development | Dream.In.Code :html:performance:
 :PROPERTIES:
-:ID:       28a1f230d7dfff5e41509978e63b7702
+:ID:       sthtmltblvsprcssdvwhchldsfstrwbdvlpmntdrmncd
 :END:
 https://www.dreamincode.net/forums/topic/265384-html-table-vs-pure-css-div-which-loads-faster/
 : However, you also need to take into account that tables can't begin rendering without being completely received, because the table width may change depending on what content is put in it. Additionally, you can't render the next row until the previous one is rendered (otherwise you will either go too large or too small - both cases will cause the page to look off).
 * TODO [#D] use local bitbucket repos                                   :hpi:
 :PROPERTIES:
 :CREATED:  [2020-02-08]
-:ID:       4e55539f790fa3f7b0a5cdeb3ea6a09b
+:ID:       slclbtbcktrps
 :END:
 * https://exist.io/
 :PROPERTIES:
 :CREATED:  [2018-06-15]
-:ID:       ed73b50bd1bd364c8cbca55c727730c2
+:ID:       sxst
 :END:
 eh, it's quite primitive. could borrow some design ideas
 * TODO could extract location from twitter geo? not sure.. :twitter:location:hpi:
 :PROPERTIES:
 :CREATED:  [2019-04-04]
-:ID:       f19e39aa403c247c0cba96f0741d9cfc
+:ID:       cldxtrctlctnfrmtwttrgntsr
 :END:
 * [2019-05-19] timeline.html
 :PROPERTIES:
-:ID:       4b6b56ca1877b1944665383f386cc821
+:ID:       sntmlnhtml
 :END:
 make repo name semibold? also link (could get from commits provider)
 * [2019-05-19] timeline.html                                     :reddit:hpi:
 :PROPERTIES:
-:ID:       297eed4317938dd3f07e823ebaaea456
+:ID:       sntmlnhtml
 :END:
 todo shit this looks just plain wrong. I didn't do stuff on my phone at 1AM. right?
 ** [2019-05-24] mm. some reddit stuff..
 :PROPERTIES:
-:ID:       067fb6d578256ee2f8ce6874092af414
+:ID:       frmmsmrddtstff
 :END:
 * TODO sanity checks
 :PROPERTIES:
 :CREATED:  [2019-07-06]
-:ID:       a6ceabd10f0fdf217f6fe18d4df4ab43
+:ID:       sntychcks
 :END:
 these look bad
 : [WARNING timeline-checker 190423 20:45:48 sanity:137] eids-20190412.json vs eids-20190413.json: added    62, removed   113, shared 62419
@@ -824,12 +824,12 @@ these look bad
 : [ERROR timeline-checker 190423 20:45:48 sanity:142] Removed stats: {'kobo': 27, 'location': 86}
 * [2020-03-07] Josh: "Lined it up with my time-tracking data. Here's my…" - Merveilles :inspiration:
 :PROPERTIES:
-:ID:       894980d65e23e8f12d532c6d0901137d
+:ID:       stjshlndtpwthmytmtrckngdthrsmymrvlls
 :END:
 https://merveilles.town/@joshavanier/103301033112044431
 * [2020-05-03] wtf?? are these because of 1000 saved items limits? :reddit:hpi:exports:
 :PROPERTIES:
-:ID:       252f449df91e1fbca9fc8e4f656158fb
+:ID:       snwtfrthsbcsfsvdtmslmts
 :END:
 : 22:31: unfavorited Calisthenics Exercise Library: Movement Breakdowns, Common Form Faults, and Variations with GIFs and Pictures! reddit
 : 22:31: favorited "Org-mode database" and linking / searching text reddit
@@ -847,13 +847,13 @@ https://merveilles.town/@joshavanier/103301033112044431
 : 22:21: favorited ANN: org-special-block-extras is now on MELPA reddit
 * [2020-06-30] [[https://github.com/mholt/timeliner][mholt/timeliner: All your digital life on a single timeline, stored locally]]
 :PROPERTIES:
-:ID:       4dd2aa04c6a0ba5e536c6301d286cfed
+:ID:       tsgthbcmmhlttmlnrmhlttmlnrdgtllfnsngltmlnstrdlclly
 :END:
 
 * DONE [#B] Some tool to check extracted entries to make sure they their count increases
 :PROPERTIES:
 :CREATED:  [2018-09-28]
-:ID:       912a90b2f32b3a1f785128261351dc84
+:ID:       smtltchckxtrctdntrstmksrthythrcntncrss
 :END:
 using ids; will compare them occasionally? ensure they are increasing as sets...
 ok, the comparison tool is probably gonna be generic?
@@ -861,32 +861,32 @@ ok, the comparison tool is probably gonna be generic?
 * DONE [#C] huh, I'm a bit stupid. just mirror original dir structure and serve static resized files???
 :PROPERTIES:
 :CREATED:  [2018-10-19]
-:ID:       0d687bb0dbee8e098aa0c8ac78b77c7c
+:ID:       hhmbtstpdjstmrrrrgnldrstrctrndsrvsttcrszdfls
 :END:
 * [#C] [2020-05-25] [[https://twitter.com/azlenelza/status/1264956508774649859][(1) Azlen Elza on Twitter: "Conversations are recorded and visualized based off who hears who, by selecting one person's track of messages you can see highlighted who they were within hearing range with at the time Visualizing three properties: time, message length, and proximity https://t.co/uruYyg9ip8" / Twitter]]
 :PROPERTIES:
-:ID:       8076cbc9d11526d3a8f3e374c46337be
+:ID:       mnstwttrcmzlnlzsttszlnlznngthndprxmtystcryygptwttr
 :END:
 : Visualizing three properties: time, message length, and proximity
 * [#C] [2019-01-14] Robin Weis                     :qs:dashboard:inspiration:
 :PROPERTIES:
-:ID:       913f40bb7fe043190c9b92ff72615a6d
+:ID:       mnrbnws
 :END:
 http://robinwe.is/
 ** [2019-04-06] nice visualitions as colored strips. also some cool dating visualisations
 :PROPERTIES:
-:ID:       e5f5ed857070c47025dac675c01b5636
+:ID:       stncvsltnssclrdstrpslssmcldtngvslstns
 :END:
 
 * TODO [#C] could expose public timeline just without timestamps? :lifelogging:
 :PROPERTIES:
 :CREATED:  [2019-12-06]
-:ID:       1daebcaa3c10d03bd3450a0838c39a98
+:ID:       cldxpspblctmlnjstwthttmstmps
 :END:
 * TODO [#B] each measurement/data provider is a coordinate   :memex:think:qs:
 :PROPERTIES:
 :CREATED:  [2020-09-11]
-:ID:       65c351ddaa3974d83f27b9e4cf4ffce1
+:ID:       chmsrmntdtprvdrscrdnt
 :END:
 for example
 - geo (2 dimensions)
@@ -899,17 +899,17 @@ could do for a cool interface
 * TODO [#C] use searchhistory table from Firefox?             :hpi:promnesia:
 :PROPERTIES:
 :CREATED:  [2020-09-05]
-:ID:       55ccafd5f12ef2bc6145652fb6a41d31
+:ID:       ssrchhstrytblfrmfrfx
 :END:
 * TODO [#B] photo gallery, when I list pictures it also jumps in the location dashboard. ideally, I could do it in the file manager... not sure how though
 :PROPERTIES:
 :CREATED:  [2020-09-04]
-:ID:       b06cd9357e64394b3706e4022c7b4c9f
+:ID:       phtgllrywhnlstpctrstlsjmpyclddtnthflmngrntsrhwthgh
 :END:
 * TODO [#C] Heatmap view for events                                   :memex:
 :PROPERTIES:
 :CREATED:  [2020-09-18]
-:ID:       1eb3e867d7371cd22fae48849922a018
+:ID:       htmpvwfrvnts
 :END:
 
 Although it's kinda calendar?
@@ -917,50 +917,50 @@ Although it's kinda calendar?
 * TODO [#C] shit. every time I rebase interactively, commit date changes??
 :PROPERTIES:
 :CREATED:  [2020-09-28]
-:ID:       8a46a0763bcbcc0a91b53336d1a457e3
+:ID:       shtvrytmrbsntrctvlycmmtdtchngs
 :END:
 * TODO [#C] commits amend date also should contribute?                  :hpi:
 :PROPERTIES:
 :CREATED:  [2020-09-28]
-:ID:       a6f9ef631a0ba853773542c43ebf739c
+:ID:       cmmtsmnddtlsshldcntrbt
 :END:
 * TODO old contests data?
 :PROPERTIES:
 :CREATED:  [2020-10-26]
-:ID:       b81adc63e4328f77b09a30d2f0a1f31a
+:ID:       ldcntstsdt
 :END:
 - rosalind
 * [2020-11-04] [[https://github.com/sorrycc/awesome-javascript#timeline][sorrycc/awesome-javascript: 🐢 A collection of awesome browser-side JavaScript libraries, resources and shiny things.]]
 :PROPERTIES:
-:ID:       173afb4ee1d52211fc45798cbeb15b4e
+:ID:       wdsgthbcmsrryccwsmjvscrptcrptlbrrsrsrcsndshnythngs
 :END:
 
 * TODO could feed my tweets into memacs, then display agenda one year ago? :memex:
 :PROPERTIES:
 :CREATED:  [2020-12-06]
-:ID:       f6c2f762c59c7c540f35ad84b236ac52
+:ID:       cldfdmytwtsntmmcsthndsplygndnyrg
 :END:
 * TODO file timestamps?
 :PROPERTIES:
 :CREATED:  [2020-11-29]
-:ID:       b0669a7836d75ef5e2218a7aa954d1b5
+:ID:       fltmstmps
 :END:
 e.g. various pdfs.. not sure if the dates would be dates they were saved, or original metadata?
 plus, exclude periods when there are too many dates saved -- would probably mean they were overwritten by dropbox sync or something
 * TODO run specific day with fzf                                      :memex:
 :PROPERTIES:
 :CREATED:  [2020-11-27]
-:ID:       2a7c9e42e47c766333e8ed639030ae0e
+:ID:       rnspcfcdywthfzf
 :END:
 
 * related                                     :hpi:travel:qs:memex:dashboard:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:
 
 
 * TODO [#C] local cache of dead urls, e.g. for timeline? might be an overkill though
 :PROPERTIES:
 :CREATED:  [2019-02-26]
-:ID:       83244487006e014c0b9edabe8d14ae8b
+:ID:       lclcchfddrlsgfrtmlnmghtbnvrkllthgh
 :END:

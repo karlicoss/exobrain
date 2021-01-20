@@ -13,24 +13,24 @@ https://en.wikipedia.org/wiki/Digital_manifold
 
 * hmm that looks pretty similar... https://math.stackexchange.com/a/1792315/15108
 :PROPERTIES:
-:ID:       a8214b5c17bd1970228e5ae8a8bc4f14
+:ID:       hmmthtlksprttysmlrsmthstckxchngcm
 :END:
 * STRT [#A] Visualisations for SU2, manually entangling loops         :think:
 :PROPERTIES:
 :CREATED:  [2019-01-30]
-:ID:       c99c1de23839383210e2bb9623241ac5
+:ID:       vslstnsfrsmnllyntnglnglps
 :END:
 
 Approximate them by segments, that should work
 ** TODO hmm. sample random loops and then try to contract them?
 :PROPERTIES:
-:ID:       8c5bb642b67ee79491adea38cf5a7789
+:ID:       hmmsmplrndmlpsndthntrytcntrctthm
 :END:
 
 
 * [2019-02-01] my initial notes
 :PROPERTIES:
-:ID:       a2f278deaafb885222238197182bc3d4
+:ID:       frmyntlnts
 :END:
 Triangulate the manifold
 then do some sort of random walk and stop at the initial point with some probability
@@ -50,37 +50,37 @@ if the point or edge is glued, treat it as special?
 
 ** TODO how to define manifolds? parametric? works for Rn Sn and Tn
 :PROPERTIES:
-:ID:       c67733a3750ddc88559fc40c00117483
+:ID:       hwtdfnmnfldsprmtrcwrksfrrnsnndtn
 :END:
 ** TODO somehow use van kampen's theorem?
 :PROPERTIES:
-:ID:       add0f112693f5da7591ec9bebd053fb0
+:ID:       smhwsvnkmpnsthrm
 :END:
 ** TODO [2019-02-01] mm. ok this ended up a bit different from what I imagined initially. still though, maybe contracting loops manually is ok, people are better at that?
 :PROPERTIES:
-:ID:       5aea779a808905cfb40e6afef22a1d80
+:ID:       frmmkthsnddpbtdffrntfrmwhtnglpsmnllyskpplrbttrttht
 :END:
 basically you declare some of the loops as 'trivial', but manually
 
 ** TODO [2019-02-02] hmm. if you consider a torus, composed of two triangles, looks like all vertices are labeled in the same
 :PROPERTIES:
-:ID:       371656233f3d14ef686e35986a2b0c17
+:ID:       sthmmfycnsdrtrscmpsdftwtrglslkslkllvrtcsrlbldnthsm
 :END:
 however, that's not enough to classify, we should be considering edges instead?
 
 * DONE [2019-02-01] initial python impl in file:projects/fund/main.py
 :PROPERTIES:
-:ID:       269fd9613e9607bdee9d99e25121f5f0
+:ID:       frntlpythnmplnflprjctsfndmnpy
 :END:
 pretty inefficient, should rewrite in rust for finer control. also, make multithreaded
 
 
 * TODO [#D] name it 'mental' (for fundamental) instead of topology? or pione??
 :PROPERTIES:
-:ID:       f59eeecb914e322a7fe2f693b1778359
+:ID:       nmtmntlfrfndmntlnstdftplgyrpn
 :END:
 
 * related                                                      :topology:viz:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:

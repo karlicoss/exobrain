@@ -4,22 +4,22 @@
 
 * [2018-07-31] https://en.wikipedia.org/wiki/Ostrogradsky_instability -- explanation why differential equations of orders higher than two do not appear in physics :physics:meta:diffeq:
 :PROPERTIES:
-:ID:       1eb990db217c08e6d82178c5b7268ebd
+:ID:       tsnwkpdrgwkstrgrdskynstbldrshghrthntwdntpprnphyscs
 :END:
 * [2018-08-25] In classical mechanics, the state of a system is determined by a point in phase space :lagrangian:
 :PROPERTIES:
-:ID:       c6f456d82734b5b38df9c14de64650ff
+:ID:       stnclssclmchncsthsttfsystmsdtrmndbypntnphsspc
 :END:
 It's unique! In the same way as quantum state is unique
 
 * [2018-08-23] Zee's book is a bit hard to read.. lots of jumping around and notation abuse... :physics:qft:
 :PROPERTIES:
-:ID:       2503beb72c0c9e060607deccb1c5bea9
+:ID:       thzsbksbthrdtrdltsfjmpngrndndnttnbs
 :END:
 * TODO Why do we not have spin greater than 2? - Physics Stack Exchange :spin:
 :PROPERTIES:
 :CREATED:  [2018-09-06]
-:ID:       bb0dc4f28be6d63fb17fb7678e5c6dbc
+:ID:       whydwnthvspngrtrthnphyscsstckxchng
 :END:
 
 https://physics.stackexchange.com/questions/14932/why-do-we-not-have-spin-greater-than-2
@@ -27,7 +27,7 @@ https://physics.stackexchange.com/questions/14932/why-do-we-not-have-spin-greate
 * TODO Tweet from John Carlos Baez (@johncarlosbaez), at Sep 3, 07:27
 :PROPERTIES:
 :CREATED:  [2018-09-03]
-:ID:       c6bf995d0a9848f6f34030d9b8735be2
+:ID:       twtfrmjhncrlsbzjhncrlsbztsp
 :END:
 
 : The role of complex numbers is easy to see in the quantum description of a photon, but it's already lurking in the classical Maxwell equations.   The space of solutions of the vacuum Maxwell equations is a *complex* Hilbert space!
@@ -38,44 +38,44 @@ https://twitter.com/johncarlosbaez/status/1036455724996382721
 
 * TODO [2018-11-14] A soft introduction to physics for mathematicians who don't know the first thing about physics - MathOverflow :math:physics:connection:
 :PROPERTIES:
-:ID:       bbf7be3f2014c2ac21bc435093dabcac
+:ID:       wdsftntrdctntphyscsfrmthmhfrstthngbtphyscsmthvrflw
 :END:
 https://mathoverflow.net/questions/51395/a-soft-introduction-to-physics-for-mathematicians-who-dont-know-the-first-thing/51411#51411
 ** [2019-01-10] shit, that's intense..
 :PROPERTIES:
-:ID:       247e60b5a746389ee2bebda58fe8bbd6
+:ID:       thshtthtsntns
 :END:
 : Another question: Why in general relativity E=mc2?
 : Math Answer: Because the group of Poincaré has no cohomology
 
 * [2019-01-07] classical mechanics - What if the Euler Lagrange equation yields a 'trivial' answer - Mathematics Stack Exchange :lagrangian:
 :PROPERTIES:
-:ID:       d4480884c91ef117fc67876c9353579f
+:ID:       mnclssclmchncswhtfthlrlgrstrvlnswrmthmtcsstckxchng
 :END:
 https://math.stackexchange.com/questions/191935/what-if-the-euler-lagrange-equation-yields-a-trivial-answer
 example lagrangian independent of path, all paths are stationary
 
 * [2014-07-15] principles
 :PROPERTIES:
-:ID:       d2bb22580f7b4876e0a9022aa6cfa688
+:ID:       prncpls
 :END:
 ** Locality: action in a point depends only on field or its derivatives at that point
 :PROPERTIES:
-:ID:       60961575b123916010437f1a1432dda2
+:ID:       lcltyctnnpntdpndsnlynfldrtsdrvtvstthtpnt
 :END:
 ** Lorentz invariance: action is a scalar
 :PROPERTIES:
-:ID:       f870829e89cdc5c270a8dfde013ef84e
+:ID:       lrntznvrncctnssclr
 :END:
 ** Gauge invariance
 :PROPERTIES:
-:ID:       8f62ebbda339eab6c7e4c6d3857de576
+:ID:       ggnvrnc
 :END:
 
 
 * [2015-03-09] some old notes on nuclear physics
 :PROPERTIES:
-:ID:       77300df536d6ab284d04c9d86aee5ac7
+:ID:       mnsmldntsnnclrphyscs
 :END:
 : Neutron decays into proton, electron and anti-neutrino.
 : 

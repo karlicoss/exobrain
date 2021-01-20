@@ -4,20 +4,20 @@
 
 * [#B] [2019-01-01] use ~--check-untyped-defs~                         :mypy:
 :PROPERTIES:
-:ID:       fe381a1899cde2ddb8038f197a69341d
+:ID:       tschckntypddfs
 :END:
 
 
 * TODO [#C] [2019-10-26] [[https://mypy.readthedocs.io/en/latest/common_issues.html?highlight=reveal_type#reveal-type][reveal_type]] can be used during the type checking
 :PROPERTIES:
-:ID:       6651977e14483164dbbbf16cfcb68328
+:ID:       stsmypyrdthdcsnltstcmmnssvltypcnbsddrngthtypchckng
 :END:
 =reveal_type(a)  # N: Revealed type is 'builtins.int'=
 : https://github.com/python/mypy/blob/09c243dcc12935b989367f31d1d25d7fd0ec634c/test-data/unit/check-python38.test
 
 * [#C] [2019-12-07] [[https://www.reddit.com/r/Python/comments/8hmjq9/the_other_great_benefit_of_python_type_annotations/dyl1wjt][hack for preventing unnecessary module imports]]
 :PROPERTIES:
-:ID:       b1e0ca7aaa8e759e4ee399ff7ae94b73
+:ID:       stswwwrddtcmrpythncmmntshkfrprvntngnncssrymdlmprts
 :END:
 Type annotation will require importing modules that you wouldn't need to import without it. However there is now a workaround (quote the name and import in a dead if):
 
@@ -29,7 +29,7 @@ Type annotation will require importing modules that you wouldn't need to import 
 
 * TODO [#B] [2019-10-27] how should type of lru_cache be defined
 :PROPERTIES:
-:ID:       81d5200e88a1899ebef3c2af6f2a322e
+:ID:       snhwshldtypflrcchbdfnd
 :END:
 https://github.com/python/mypy/issues/5107
 
@@ -43,20 +43,20 @@ https://github.com/python/mypy/issues/5107
 
 * TODO [#C] [2018-10-12] https://mypy.readthedocs.io/en/latest/additional_features.html#dataclasses-support
 :PROPERTIES:
-:ID:       cec4cf7e724fe8480a3f7e85f98d4352
+:ID:       frsmypyrdthdcsnltstddtnlftrshtmldtclsssspprt
 :END:
 * STRT [#C] should use ~mypy --namespace-packages~ more often?         :mypy:
 :PROPERTIES:
 :CREATED:  [2019-11-13]
-:ID:       6597a1e2fc925be7fa7538dcd80b445c
+:ID:       shldsmypynmspcpckgsmrftn
 :END:
 ** [2020-03-27] actually they're looking into making it a default
 :PROPERTIES:
-:ID:       68cee950b1a6c17f916ac379aaa995fe
+:ID:       frctllythyrlkngntmkngtdflt
 :END:
 * TODO [#D] [2019-04-16] mypy overloads                                :mypy:
 :PROPERTIES:
-:ID:       65f6c4df88f2023ca70816b82d423e40
+:ID:       tmypyvrlds
 :END:
 : @overload
 : def fetch_data(raw: Literal[True]) -> bytes: ...
@@ -72,12 +72,12 @@ https://github.com/python/mypy/issues/5107
 
 * [2019-03-12] shit, looks like python can import without __init__ files, but mypy can't handle lack of them :( :python:
 :PROPERTIES:
-:ID:       ae409ca23ca73e2c1938f4b037bd17b3
+:ID:       tshtlkslkpythncnmprtwthtntflsbtmypycnthndllckfthm
 :END:
 * TODO Python Type Hints – NP-Incompleteness                           :mypy:
 :PROPERTIES:
 :CREATED:  [2019-12-30]
-:ID:       aa3958c00aaa40aa2a243b84db3263af
+:ID:       pythntyphntsnpncmpltnss
 :END:
 
 https://kunigami.blog/2019/12/26/python-type-hints/amp/?__twitter_impression=true
@@ -87,34 +87,34 @@ Good mypy intro?
 * TODO [#B] __init__ file is useful for mypy submodule discovery..     :mypy:
 :PROPERTIES:
 :CREATED:  [2019-12-21]
-:ID:       440accb7e43b4bbb0140873d2e8627b5
+:ID:       ntflssflfrmypysbmdldscvry
 :END:
 
 
 
 * TODO [#D] [2019-04-16] The Mypy Blog: Mypy 0.700 Released: Up To 4x Faster
 :PROPERTIES:
-:ID:       b46b36eadd2510fbefb54cb4a3a88a70
+:ID:       tthmypyblgmypyrlsdptxfstr
 :END:
 https://mypy-lang.blogspot.com/2019/04/mypy-0700-released-up-to-4x-faster.html
 : We are now shipping a mypy binary compiled with mypyc by default, which is up to 4x faster than the interpreted version shipped previously. The compiled version has been available as a separate PyPI distribution for a while now, and this is first release where it’s installed by default. Mypyc is a compiler that compiles type-annotated Python modules into efficient CPython C extension modules.
 * [#D] [2018-06-20] __all__ and pycharm and mypy                       :mypy:
 :PROPERTIES:
-:ID:       2d322e8647d2aebabae60bda72822869
+:ID:       wdllndpychrmndmypy
 :END:
 TLDR: messing with __all__ results in problems, don't do that..
 I guess I have to be careful on module levels then if I don't want unwanted crap...
 
 * [#B] [2020-05-03] [[https://github.com/python/mypy/issues/3157#issuecomment-502434084][Support function decorators excellently · Issue #3157 · python/mypy]]
 :PROPERTIES:
-:ID:       b7523668e1af10b80a43ef59bc1002a9
+:ID:       snsgthbcmpythnmypyssssscmdcrtrsxcllntlysspythnmypy
 :END:
 : Just for the record: if someone needs to change the return type of the function inside the decorator and still have typed parameters, you can use a custom mypy plugin that literally takes 15 LoC: https://github.com/dry-python/returns/blob/92eda5574a8e41f4f5af4dd29887337886301ee3/returns/contrib/mypy/decorator_plugin.py
 : 
 : Saved me a lot of time!
 * [#B] [2020-05-25] [[https://github.com/python/mypy/issues/1927][Making a decorator which preserves function signature · Issue #1927 · python/mypy]] :mypy:blog:
 :PROPERTIES:
-:ID:       5c2308aae608ed757bcc97b2f2fa48bd
+:ID:       mnsgthbcmpythnmypysssmkngsrvsfnctnsgntrsspythnmypy
 :END:
 : from typing import Any, Callable, TypeVar
 : FuncT = TypeVar('FuncT', bound=Callable[..., Any])
@@ -122,36 +122,36 @@ I guess I have to be careful on module levels then if I don't want unwanted crap
 ok, this + overrides allowed me to type it properly
 * TODO [#A] [2020-10-05] [[https://www.python.org/dev/peps/pep-0585/][PEP 585 -- Type Hinting Generics In Standard Collections | Python.org]]
 :PROPERTIES:
-:ID:       255f57f1795b73be36a502c58aba160a
+:ID:       mnswwwpythnrgdvppspppptypnrcsnstndrdcllctnspythnrg
 :END:
 : Starting with Python 3.7, when from __future__ import annotations is used, function and variable annotations can parameterize standard collections directly. Example:
 * TODO [#D] seems like a bug in fbmessenger export (on a branch)       :mypy:
 :PROPERTIES:
 :CREATED:  [2020-01-13]
-:ID:       a4e32addc0779666d246b140e8d70b6b
+:ID:       smslkbgnfbmssngrxprtnbrnch
 :END:
 * [2020-05-06] [[https://mypy.readthedocs.io/en/stable/protocols.html#using-isinstance-with-protocols][Protocols and structural subtyping — Mypy 0.770 documentation]] :mypy:
 :PROPERTIES:
-:ID:       46d2948155708e467977f7533042c044
+:ID:       wdsmypyrdthdcsnstblprtclsstrctrlsbtypngmypydcmnttn
 :END:
 : You can use a protocol class with isinstance() if you decorate it with the @runtime_checkable class decorator. The decorator adds support for basic runtime structural checks:
 * CANCEL [#C] PathIsh thing can be generalized to Path constructible   :mypy:
 :PROPERTIES:
 :CREATED:  [2019-05-02]
-:ID:       2a3a397d1f7a41b0dd72419e2973a5d4
+:ID:       pthshthngcnbgnrlzdtpthcnstrctbl
 :END:
 ** [2019-06-28] not sure if __init__ would do well? https://mypy.readthedocs.io/en/latest/protocols.html
 :PROPERTIES:
-:ID:       f585962eba5689663bc93d01ef1d8b9b
+:ID:       frntsrfntwlddwllsmypyrdthdcsnltstprtclshtml
 :END:
 ** [2019-08-24] eh, so os.PathLike[str] kinda solves it, but using .pyi file for that is not really worth it
 :PROPERTIES:
-:ID:       d2d0d19b5b2fcf1e35bd684f5d7c72c5
+:ID:       sthsspthlkstrkndslvstbtsngpyflfrthtsntrllywrtht
 :END:
 * TODO [#D] shit. I don't get why there is a difference between checking source and directly??? :mypy:
 :PROPERTIES:
 :CREATED:  [2020-09-12]
-:ID:       e1c72687b93622da5acfc51313c1c2b8
+:ID:       shtdntgtwhythrsdffrncbtwnchckngsrcnddrctly
 :END:
 : $ mypy my/endomondo.py
 : my/endomondo.py:8: error: Skipping analyzing '.core.common': found module but no type hints or library stubs  [import]

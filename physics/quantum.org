@@ -4,7 +4,7 @@
 
 * [#A] [2013-09-21] [[http://www.scottaaronson.com/papers/island.pdf][Scott Aaronson - Is Quantum Meachanics An Island In Theoryspace?]]
 :PROPERTIES:
-:ID:       47bbfd051990192e6cfc163e57d8fc25
+:ID:       stwwwscttrnsncmpprsslndpdnsqntmmchncsnslndnthryspc
 :END:
 http://www.scottaaronson.com/democritus/lec9.html
 
@@ -16,12 +16,12 @@ http://www.scottaaronson.com/democritus/lec9.html
 
 * [#B] [2018-08-25] copenhagen interpretation is not time symmetric, we lose quantum information when wavefunction collapses
 :PROPERTIES:
-:ID:       a116d9f678a3f7194842c0621add18da
+:ID:       stcpnhgnntrprttnsnttmsymmntmnfrmtnwhnwvfnctncllpss
 :END:
 
 * [#C] [2017-06-03] pilot wave theory
 :PROPERTIES:
-:ID:       50cf649b373ebffe880558c78d0ded80
+:ID:       pltwvthry
 :END:
 : The other thing you should know is that Copenhagen is not any longer widely accepted amongst people who actually work on interpretations of QM or in foundational physics in general, it's just accepted outside the community as something that most people have at least some knowledge of.
 : Now, what's the problem with Copenhagen. The biggest one is the so-called measurement problem, that there is an ill-defined delineation between a system and its observer, or between "quantum" and "classical". There's may others though, e.g. that randomness is postulated rather than a result of the theory.
@@ -37,7 +37,7 @@ pilot wave theory is both physical and deterministic
 
 * [#C] [2015-08-26]  .
 :PROPERTIES:
-:ID:       ef6ee55328535554947597fad58989b3
+:ID:       wd
 :END:
 a |00> + b |01> + c |10> + d |11>
 Measure of entanglement: ad - bc
@@ -52,7 +52,7 @@ T(u) f = \ip{Tu}{f}
 
 * [2015-08-26] Lower bound for quantum search
 :PROPERTIES:
-:ID:       1751006e90b12f3b39bb492d3f25bbb3
+:ID:       wdlwrbndfrqntmsrch
 :END:
 Theorem: any quantum algorithm must take at least O(sqrt(N)) queries.
 Lemma: 1 query => no algorithm can guarantee success prob >= const / N.
@@ -60,7 +60,7 @@ t steps: P[success] = O(t^2)/N
 
 * [#C] [2015-08-26] continuous and discrete symmetries             :symmetry:
 :PROPERTIES:
-:ID:       48eed273720787e9068186a524e8362b
+:ID:       wdcntnsnddscrtsymmtrs
 :END:
 commutator with Hamiltonian => time derivative (todo what?)
 V = I - i eps G (generator)
@@ -72,7 +72,7 @@ degenerate level. Degeneracy is a consequence of symmetry
 
 * [#C] [2015-08-26] bosons and fermions
 :PROPERTIES:
-:ID:       92b704bd6b139b292870fb1c7648f3ab
+:ID:       wdbsnsndfrmns
 :END:
 P(r_a, r_b) = P_a(r_a) P_b(r_b)
 
@@ -93,45 +93,45 @@ two identical particles can't occupy same single-particle states. Pauli exclusio
 
 * STRT [#C] [2015-08-26] Fock space ???
 :PROPERTIES:
-:ID:       dff579cbb2f45b58d75b8940aaa01b02
+:ID:       wdfckspc
 :END:
 * TODO [2015-08-26] [A, H] = 0, [B, H] = 0, [A, B] = C; C \notin L(A, B) => [C, H] = 0 commutator algebra, lie algebra :lie:
 :PROPERTIES:
-:ID:       4dd9a91c160617cf90e3a77ad4019751
+:ID:       wdhbhbccntnlbchcmmttrlgbrllgbr
 :END:
 * [#B] [2013-09-21] Simplified Bell's experiment http://www.scottaaronson.com/democritus/lec11.html
 :PROPERTIES:
-:ID:       8aaca7dcdf52f7a3d4cc2228b69372e9
+:ID:       stsmplfdbllsxprmntwwwscttrnsncmdmcrtslchtml
 :END:
 
 * [#C] [2015-08-26] Extended Church-Turing thesis: Any "reasonable" model of computation can be simulated on a probabilistic Turing machine with at most polynomial overhead.
 :PROPERTIES:
-:ID:       b7a78457b0a3ad2de2e4989ffb29ee6e
+:ID:       wdxtnddchrchtrngthssnyrsntrngmchnwthtmstplynmlvrhd
 :END:
 
 * [#C] [2013-09-21] Lucien Hardy — Quantum Theory From Five Reasonable Axioms http://arxiv.org/abs/quant-ph/0101012
 :PROPERTIES:
-:ID:       b394d207e438142b0da4717ba6910252
+:ID:       stlcnhrdyqntmthryfrmfvrsnblxmsrxvrgbsqntph
 :END:
 
 * [#C] [2013-09-21] Hidden variables and "nice" properties http://www.scottaaronson.com/democritus/lec11.htm
 :PROPERTIES:
-:ID:       e59851b10615bd698a6403ff7d6dc521
+:ID:       sthddnvrblsndncprprtswwwscttrnsncmdmcrtslchtm
 :END:
 
 * [#C] [2013-09-21] Bohmian interpretation www.scottaaronson.com/democritus/lec11.html
 :PROPERTIES:
-:ID:       260c1e0f82c1cf81f559fadd16fc555b
+:ID:       stbhmnntrprttnwwwscttrnsncmdmcrtslchtml
 :END:
 
 * TODO [#C] [2013-09-21] Read David P. DiVincenzo "Two-bit gates are universal for quantum computation" :qcomp:
 :PROPERTIES:
-:ID:       6d547261356fc0d97572561b3cc3f7d0
+:ID:       strddvdpdvncnztwbtgtsrnvrslfrqntmcmpttn
 :END:
 
 * [#D] [2013-09-21] Prover, verifier (Из лекции Шеня в ПОМИ 30 сентября 2012)
 :PROPERTIES:
-:ID:       d3d9a19803d94acde97d6cb4473cae95
+:ID:       stprvrvrfrизлекциишенявпомисентября
 :END:
 1. Sequential repetition
 2. Parallel repetition
@@ -150,9 +150,9 @@ two identical particles can't occupy same single-particle states. Pauli exclusio
 
 * [#D] [2013-09-21] Simon's problem http://en.wikipedia.org/wiki/Simon%27s_problem :qcomp:
 :PROPERTIES:
-:ID:       7735075217be002e3b67917ab41c8c18
+:ID:       stsmnsprblmnwkpdrgwksmnsprblm
 :END:
 * related                                                             :qcomp:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:

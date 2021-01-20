@@ -3,11 +3,11 @@
 
 * Cases
 :PROPERTIES:
-:ID:       b1f0b866ff1e540503531b72d365a681
+:ID:       css
 :END:
 ** General
 :PROPERTIES:
-:ID:       0db377921f4ce762c62526131097968f
+:ID:       gnrl
 :END:
 - a system of marking dependent nouns for the type of relationship they bear to their heads
 - A role that one of these languages marks by case will often be marked in English using a preposition.
@@ -16,28 +16,28 @@
 
 ** Nominative
 :PROPERTIES:
-:ID:       68b4b1703bb05a59540374606bd79151
+:ID:       nmntv
 :END:
 subject pronoun
 ** Accusative
 :PROPERTIES:
-:ID:       dab878dd01c2b9baf28420c74e547ad7
+:ID:       ccstv
 :END:
 object pronoun, 'to'
 ** Genitive
 :PROPERTIES:
-:ID:       e9e7238eefd440bebe89f0d533e0bbf1
+:ID:       gntv
 :END:
 possessive and 'of'
 ** Instrumental (ablative, творительный)
 :PROPERTIES:
-:ID:       15497ee4fbbd95396a477bc1400291b9
+:ID:       nstrmntlbltvтворительный
 :END:
 'by', 'via', 'with'
 
 ** hierarchy
 :PROPERTIES:
-:ID:       b81ca7c0ccaa77e7aa91936ab0070695
+:ID:       hrrchy
 :END:
 Cases can be ranked in the following hierarchy, where a language that does not have a given case will tend not to have any cases to the right of the missing case:[4]:p.89
 
@@ -48,5 +48,5 @@ This is, however, only a general tendency.
 
 * related                                                             :study:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:

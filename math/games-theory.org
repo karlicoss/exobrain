@@ -5,7 +5,7 @@
 
 * [2016-07-30] [[http://mathworld.wolfram.com/ConwayGame.html][Conway games]]
 :PROPERTIES:
-:ID:       f33c68191345fd572ea0d82380984692
+:ID:       stmthwrldwlfrmcmcnwygmhtmlcnwygms
 :END:
 1. L, R : sets of games, then G = <L, R> is a game
 2. DGC: no infinite sequence of games G^i = <L^i, R^i> with G^(i+1) \in L^i \cup R^i for all i \in N
@@ -19,7 +19,7 @@ G = {L_1, L_2, ... L_n | R_1, R_2 ... R_m }
 -1 = ({} , {0}) = {|0}
 * = ({0}, {0}) = {0|0}
 :PROPERTIES:
-:ID:       ca7989bbd4264f80b37f73f655720bdf
+:ID:       476_1983
 :END:
 n = {n - 1|}
 1/2 = {0|1}
@@ -62,5 +62,5 @@ G is said to be in canonical form if it has no dominated options or reversible m
 
 * related                                                              :math:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:

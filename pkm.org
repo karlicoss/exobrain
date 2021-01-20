@@ -4,14 +4,14 @@
 
 * [#C] [2020-03-20] Use phones to collect and triage, not (usually) to read
 :PROPERTIES:
-:ID:       a897d26456d90e41f3356dda31e0f1f8
+:ID:       frsphnstcllctndtrgntsllytrd
 :END:
 https://notes.andymatuschak.org/Use_phones_to_collect_and_triage%2C_not_(usually)_to_read
 : Use phones to collect and triage, not (usually) to read
 * Tweet from @jborichevskiy
 :PROPERTIES:
 :CREATED:  [2020-04-02]
-:ID:       53df7d8f0ce1d7e7ee665ca745cd89fd
+:ID:       twtfrmjbrchvsky
 :END:
 
 https://twitter.com/jborichevskiy/status/1245559381560721408
@@ -21,71 +21,71 @@ https://twitter.com/jborichevskiy/status/1245559381560721408
 * https://github.com/alphapapa/transclusion-in-emacs     :transclusion:emacs:
 :PROPERTIES:
 :CREATED:  [2020-04-03]
-:ID:       b8fa905edc2de55393dd883cbbc33c06
+:ID:       sgthbcmlphpptrnsclsnnmcs
 :END:
 
 
 
 * related                                                          :learning:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:
 * TODO [#B] [2018-11-09] WorldBrain/Memex: Browser Extension to full-text search your browsing history & bookmarks. :worldbrain:annotation:promnesia:
 :PROPERTIES:
-:ID:       e16415ffa279b30ad20d74373100f408
+:ID:       frwrldbrnmmxbrwsrxtnsntflxtsrchyrbrwsnghstrybkmrks
 :END:
 https://github.com/WorldBrain/Memex
 ** [2019-03-23] hmm, all data stored locally... wonder if could integrate with wereyouhere..
 :PROPERTIES:
-:ID:       8b87c808716f1374789b903c72d686f7
+:ID:       sthmmlldtstrdlcllywndrfcldntgrtwthwryhr
 :END:
 
 * [#B] [2020-05-06] [[https://szymonkaliski.com/writing/2020-04-19-memex-dreams/][Memex Dreams ‒ Szymon Kaliski]] :pkm:
 :PROPERTIES:
-:ID:       f46850b0ede2c835e28329786e141392
+:ID:       wdsszymnklskcmwrtngmmxdrmsmmxdrmsszymnklsk
 :END:
 : I stopped trusting my memory a long time ago, and I hate the feeling of stuff slipping through the cracks.
 ** [2021-01-04] good description of the pkm process, probably similar to mine
 :PROPERTIES:
-:ID:       0bc0644ed4a331fdc851492d2f836e07
+:ID:       mngddscrptnfthpkmprcssprbblysmlrtmn
 :END:
 * STRT [#B] personal knowledge management                             :think:
 :PROPERTIES:
 :CREATED:  [2018-07-01]
-:ID:       62a3c5cc155ce6988eae9686ab43484f
+:ID:       prsnlknwldgmngmnt
 :END:
 also need some search engine
 ** TODO fuzzy thing to launch MC in specific directory                  :pkm:
 :PROPERTIES:
 :CREATED:  [2019-09-01]
-:ID:       aa63dd9590209c03bfe2278657f70e3c
+:ID:       fzzythngtlnchmcnspcfcdrctry
 :END:
 * STRT [#D] shit, sometimes it just doesn't annotate on the first invokation :hypothesis:
 :PROPERTIES:
 :CREATED:  [2019-05-05]
-:ID:       cb53b0c85204338d8ea04e7d04a58939
+:ID:       shtsmtmstjstdsntnnttnthfrstnvktn
 :END:
 ** [2019-05-05] ugh... seriously, just open new link, click hypothesis button and hightlight. refresh the page; hightlight is gone :(
 :PROPERTIES:
-:ID:       2545be54959dca90012accf6c0d87058
+:ID:       snghsrslyjstpnnwlnkclckhytlghtrfrshthpghghtlghtsgn
 :END:
 ** [2019-12-17] I think it's resolved??
 :PROPERTIES:
-:ID:       e4d7303b59290923f660e2645829e2bc
+:ID:       tthnktsrslvd
 :END:
 * [#C] [2019-06-05] The rise of Personal Knowledge Management tools
 :PROPERTIES:
-:ID:       16a3d9cb93e7f049b788de8eb329ab51
+:ID:       wdthrsfprsnlknwldgmngmnttls
 :END:
 https://no-kill-switch.ghost.io/the-rise-of-personal-knowledge-management-tools
 : Yeah, maybe I'm not a typical person - but I collect, parse & use a lot of data, so I really need my stuff well organized.
 ** CANCEL [#C] [2019-07-02] read them more? https://no-kill-switch.ghost.io
 :PROPERTIES:
-:ID:       5bbe237d3938dd9744a0286026049252
+:ID:       trdthmmrsnkllswtchghst
 :END:
 * TODO [#B] [2018-11-19] [[https://reddit.com/r/emacs/comments/9ycgoe/do_you_guys_have_a_personal_wiki_using_orgmode_or/ea0j162/][Do you guys have a personal wiki? (using org-mode or not)]] /r/emacs :exobrain:org:
 :PROPERTIES:
-:ID:       ae84babd31b3aace2ed9542bddb3f959
+:ID:       mnsrddtcmrmcscmmntsycgdygyshvprsnlwksngrgmdrntrmcs
 :END:
 : I think Org transcends the idea of a wiki.  What is a wiki, anyway?  Documents with links to themselves.  Org does that and much more.
 : For myself, I keep information in several Org files.
@@ -109,26 +109,26 @@ https://no-kill-switch.ghost.io/the-rise-of-personal-knowledge-management-tools
 * STRT [#B] eh maybe use some markdown-based organiser just for search? and reuse my exobrain script for export :phone:pkm:
 :PROPERTIES:
 :CREATED:  [2020-03-31]
-:ID:       6b2490278641aafcd890263ee1ef634e
+:ID:       hmybssmmrkdwnbsdrgnsrjstfsrchndrsmyxbrnscrptfrxprt
 :END:
 although I'm gonna need to disable html export bits then
 ** [2020-08-26] markor?
 :PROPERTIES:
-:ID:       2d8cc382ed3b15098b9368e11780f702
+:ID:       wdmrkr
 :END:
 * TODO [#B] I want to see a piece of information *once*, unless I explicitly want otherwise (i.e. spaced repetition) :motivation:
 :PROPERTIES:
 :CREATED:  [2020-04-03]
-:ID:       506673454c15f8278f5d8e17cb9aa33e
+:ID:       wnttspcfnfrmtnncnlssxplctlywntthrwsspcdrpttn
 :END:
 * TODO [#B] Just use roam style links?                                  :pkm:
 :PROPERTIES:
 :CREATED:  [2020-04-23]
-:ID:       7b0692c54e44070e2d5ed161ec9e6fe3
+:ID:       jstsrmstyllnks
 :END:
 * TODO [#B] [2020-05-15] [[https://twitter.com/worldbrain/status/1261207958609895424][WorldBrain.io on Twitter: "So much good stuff in the upcoming Memex 2.1. ⭐️ Add all open tags to lists and tags via the sidebar ⭐️ 80% less resource usage ⭐️ Tons of performance improvements (no more fans from hell) ⭐️ More stability" / Twitter]] :worldbrain:
 :PROPERTIES:
-:ID:       e87939db0a11986b17defb2c5fbfd6ec
+:ID:       frstwttrcmwrldbrnsttswrldmrfnsfrmhll️mrstbltytwttr
 :END:
 : So much good stuff in the upcoming Memex 2.1.
 :  Add all open tags to lists and tags via the sidebar
@@ -137,7 +137,7 @@ although I'm gonna need to disable html export bits then
 :  More stability
 * TODO [#B] [2020-05-19] [[https://news.ycombinator.com/item?id=23227186][WorldBrain's Memex: Bookmarking for the power users of the web | Hacker News]] :worldbrain:
 :PROPERTIES:
-:ID:       2392fef744561c9bdbbbe8c6d4e5f0de
+:ID:       tsnwsycmbntrcmtmdwrldbrnskngfrthpwrsrsfthwbhckrnws
 :END:
 : I have been using Memex for more than a year now. Here are the things that really annoy me
 : - occasional freezing and sudden disappearance of your bookmarks
@@ -146,27 +146,27 @@ although I'm gonna need to disable html export bits then
 : - only few results in search results!
 * TODO [#B] [2020-05-11] [[https://medium.com/@WorldBrain/vision-mission-values-2020-update-d70aa35a638#0b0b][Vision, Mission & Values — 2020 Update - WorldBrain.io - Medium]] :annotation:
 :PROPERTIES:
-:ID:       a967fc27b0c52ea9c46f75cf68686434
+:ID:       mnsmdmcmwrldbrnvsnmssnvlsbbvsnmssnvlspdtwrldbrnmdm
 :END:
 : or translate the data into other data models, like the open annotation data model.
 * STRT [#B] firefox saved searches via bookmarks actually get synced? :pkm:tweet:toblog:
 :PROPERTIES:
 :CREATED:  [2020-07-05]
-:ID:       dc267633c6220c3312644f406945c441
+:ID:       frfxsvdsrchsvbkmrksctllygtsyncd
 :END:
 ** [2020-07-06] right, so it seems to be exactly equivalent, and works without extensions
 :PROPERTIES:
-:ID:       8947c219bcb3903260bfefc4c43e1dd7
+:ID:       mnrghtstsmstbxctlyqvlntndwrkswthtxtnsns
 :END:
 * TODO [#B] proper search with recoll could be useful when there are too many results? :pkm:
 :PROPERTIES:
 :CREATED:  [2020-04-25]
-:ID:       75521c808d0567f66f262b32ec5b8303
+:ID:       prprsrchwthrcllcldbsflwhnthrrtmnyrslts
 :END:
 * TODO [#B] Perhaps most prominently,  the creator of the SuperMemo system, Piotr Wozniak,  has written  extensively about the many ingenious ways he uses memory  systems
 :PROPERTIES:
 :CREATED:  [2019-10-06]
-:ID:       f44f8dd892a3428968e0a744e13a4350
+:ID:       prhpsmstprmnntlythcrtrfththmnyngnswyshssmmrysystms
 :END:
 [[https://numinous.productions/ttft/][How can we develop transformative tools for thought?]]
 [[https://hyp.is/hAIXxugxEem0iY_qQC95zQ/numinous.productions/ttft/][in context]]
@@ -174,78 +174,78 @@ although I'm gonna need to disable html export bits then
 * [#C] Show HN: Fraidycat
 :PROPERTIES:
 :CREATED:  [2020-03-12]
-:ID:       be2a7e8ac3ef25c5417de3adf02ee2e5
+:ID:       shwhnfrdyct
 :END:
 
 Show HN: Fraidycat - https://news.ycombinator.com/item?id=22545878
 * [#C] [2020-03-16] Conor is Hiring for Roam (DMs open) Designers esp. on Twitter: "The Zettelkasten. "It's like the GTD for intellectual progress" What it is, and why you want one. (thread)" / Twitter :pkm:
 :PROPERTIES:
-:ID:       1404174321fe917743cc20e284a40885
+:ID:       mncnrshrngfrrmdmspndsgnrsswhttsndwhyywntnthrdtwttr
 :END:
 https://twitter.com/Conaw/status/1129788853189955584
 * STRT [#C] [2020-07-26] [[https://github.com/posobin/ampie][posobin/ampie: Social navigator for the web]]
 :PROPERTIES:
-:ID:       580e28981a6bcf4f20d1ed882e545f6a
+:ID:       snsgthbcmpsbnmppsbnmpsclnvgtrfrthwb
 :END:
 ** [#B] [2020-07-26] [[https://twitter.com/posobin/status/1287410223964135425][Gleb Posobin on Twitter: "Published ampie for Firefox! https://t.co/e9pTwO8uuz History doesn't work as well as on Chrome yet though. Also published the extension's source code under the MIT license: https://t.co/VlBPKiH0QU https://t.co/mT2z3qHSJy" / Twitter]]
 :PROPERTIES:
-:ID:       d884cfa756fdcdc18161df33eb0a85a1
+:ID:       snstwttrcmpsbnsttsglbpsbntcvlbpkhqstcmtzqhsjytwttr
 :END:
 : Published ampie for Firefox! https://addons.mozilla.org/en-US/firefox/addon/ampie/
 : History doesn't work as well as on Chrome yet though.
 : Also published the extension's source code under the MIT license: https://github.com/posobin/ampie
 *** TODO [2020-08-21] https://addons.mozilla.org/en-US/firefox/addon/ampie/ rate it
 :PROPERTIES:
-:ID:       d629a24c37e04a5dde0b18f5cb5fb27d
+:ID:       frsddnsmzllrgnsfrfxddnmprtt
 :END:
 
 * TODO [#C] [2017-11-01] thoughts on my own todo app              :pkm:think:
 :PROPERTIES:
-:ID:       6d1013ac6a3896bdd41733a945562627
+:ID:       wdthghtsnmywntdpp
 :END:
 ** STRT Super important task are reminders
 :PROPERTIES:
-:ID:       a85a80147f237f37b05053c058f63cd3
+:ID:       sprmprtnttskrrmndrs
 :END:
 ** STRT choose postpone length (in org?)
 :PROPERTIES:
-:ID:       9b92fde35e841681d47386e10144f95b
+:ID:       chspstpnlngthnrg
 :END:
 ** [#D] scheduling day: starts at 05:00, ends at 04:59. 05:00 I am most likely to sleep
 :PROPERTIES:
-:ID:       6472cf1af9c8ad663a2500c361a94d87
+:ID:       schdlngdystrtstndstmmstlklytslp
 :END:
 ** [#D] postpone -> find next compatible slot
 :PROPERTIES:
-:ID:       0b221111cc585a4b9d544e80c6a3ddfd
+:ID:       pstpnfndnxtcmptblslt
 :END:
 ** [#D] Neural network with pairs?
 :PROPERTIES:
-:ID:       b2868c1a04b9a1cd557321154efa65e7
+:ID:       nrlntwrkwthprs
 :END:
 e.g. what conflicts with what?
 
 ** TODO [#C] to be honest, I should just check with calendar more often and it would all be fine
 :PROPERTIES:
-:ID:       3e8c92efe7a3aec8c98c10b54e70760f
+:ID:       tbhnstshldjstchckwthclndrmrftnndtwldllbfn
 :END:
 
 ** TODO Might be overly conservative?
 :PROPERTIES:
-:ID:       1fa04bc86734891e2fc21fe74f852f0c
+:ID:       mghtbvrlycnsrvtv
 :END:
 
 ** Examples:
 :PROPERTIES:
-:ID:       fd05d7f6bfc90e815087880e8e915b43
+:ID:       xmpls
 :END:
 *** You're going skiing to switzerland on wednesday. You bought new boots on Sunday and wore them all day. You might rub your feet so you might be unable to ski. Can we prevent it?
 :PROPERTIES:
-:ID:       caa0657f0a969163cd2d745b6fb242dc
+:ID:       yrgngskngtswtzrlndnwdnsdyrftsymghtbnbltskcnwprvntt
 :END:
 *** dentist
 :PROPERTIES:
-:ID:       0987c1f6e6828d62f554d07f8ba744a8
+:ID:       dntst
 :END:
 dentist appointment at 10 am. You are likely to get a filling which requires you not to eat or drink anything that might color it for 24 hours.
  On the same day at 9pm you have a meeting with your friends at a pub. You like drinking Kriek, which definitely might color your teeth! Can we prevent such a conflict?
@@ -253,20 +253,20 @@ dentist appointment at 10 am. You are likely to get a filling which requires you
 
 * STRT [#C] Internet Search Tips - Gwern.net
 :PROPERTIES:
-:ID:       e615bb622f6f2bd7926da5931032756e
+:ID:       ntrntsrchtpsgwrnnt
 :END:
 ** TODO [#C] [2019-06-13] archiver-bot: automatically archive your web browsing and/or links from arbitrary websites to forestall linkrot; particularly useful for detecting & recovering from dead PDF links
 :PROPERTIES:
-:ID:       84ccd3e02e3aac2a5a41c6c6d4e76fb3
+:ID:       thrchvrbttmtcllyrchvyrwbbrdtctngrcvrngfrmddpdflnks
 :END:
 ** STRT [#C] [2019-06-13] Useful tools to know about: wget, cURL, HTTrack; Firefox plugins: NoScript, uBlock origin, Live HTTP Headers, Bypass Paywalls, cookie exporting. Short of downloading a website, it might also be useful to pre-emptively archive it by using linkchecker to crawl it, compile a list of all external & internal links, and store them for processing by another archival program (see Archiving URLs for examples).
 :PROPERTIES:
-:ID:       1cf80c70c92c34e9e4e8e8267351dcf2
+:ID:       thsfltlstknwbtwgtcrlhttrchvlprgrmsrchvngrlsfrxmpls
 :END:
 * TODO [#C] Single file html                                        :linkrot:
 :PROPERTIES:
 :CREATED:  [2019-12-15]
-:ID:       3a9ce4e49433c04e8f426b9253bc66df
+:ID:       snglflhtml
 :END:
 
 : I gave up on the idea of reliably saving web pages in PDF.
@@ -278,7 +278,7 @@ dentist appointment at 10 am. You are likely to get a filling which requires you
 * TODO [#C] Tweet from Andy Matuschak (@andy_matuschak), at Dec 30, 03:23 :pkm:
 :PROPERTIES:
 :CREATED:  [2019-12-30]
-:ID:       d1aa6dfb08753be912ffd72d8ce40179
+:ID:       twtfrmndymtschkndymtschktdc
 :END:
 
 : There's a funny response curve: folks who are super-diligent about note-taking practices or building simulations seem to generally end up with less insight than their somewhat-less-diligent neighbors.
@@ -288,35 +288,35 @@ dentist appointment at 10 am. You are likely to get a filling which requires you
 * [#C] https://github.com/WorldBrain/Memex-Mobile                :worldbrain:
 :PROPERTIES:
 :CREATED:  [2020-04-06]
-:ID:       8bacf1274538d60f67d24e8a0b246eee
+:ID:       sgthbcmwrldbrnmmxmbl
 :END:
 * TODO [#C] [2020-03-17] (1) Szymon Kaliski on Twitter: "📓 published muninn - set of cli tools, and vim plugin, for managing my personal flat-file markdown-based wiki, including @RoamResearch-like backlinks, todo management, minimal web ui, and more! https://t.co/Zg3RGjOcva" / Twitter
 :PROPERTIES:
-:ID:       9b993f4357bca6975425850fadc1d8b3
+:ID:       tszymnklskntwttrpblshdmnnmnmlwbndmrstczgrgjcvtwttr
 :END:
 https://twitter.com/szymon_k/status/1229455411654340609
 : published muninn - set of cli tools, and vim plugin, for managing my personal flat-file markdown-based wiki, including @RoamResearch
 : -like backlinks, todo management, minimal web ui, and more!
 * STRT [#C] [2020-05-09] Thinking by Writing ‒ Szymon Kaliski       :writing:
 :PROPERTIES:
-:ID:       b3bb8d02d881a7bc5e36d6d52298c749
+:ID:       stthnkngbywrtngszymnklsk
 :END:
 https://szymonkaliski.com/notes/thinking-by-writing/
 * TODO [#C] Honorable Mentions: Memex by Worldbrain.io, Roam Research, Notion, Coda.io, Alfred, Trove, Local Native, ArchiveBox, Raindrop
 :PROPERTIES:
 :CREATED:  [2019-12-03]
-:ID:       780ecbb3bfb3378f41bb0e5a63b39d63
+:ID:       hnrblmntnsmmxbywrldbrnrmrdlfrdtrvlclntvrchvbxrndrp
 :END:
 from [[https://www.instapaper.com/read/1257004745/11729460][ip]]   [[https://jborichevskiy.com/posts/digital-tools/][Digital Tools I Wish Existed]]
 * TODO [#C] [2020-06-19] [[https://github.com/Abdillah/hypothesis-firefox][Abdillah/hypothesis-firefox: Unofficial. Hypothes.is Firefox addon for annotating anywhere!]]
 :PROPERTIES:
-:ID:       0265574f9e6ac722cd221f532afac459
+:ID:       frsgthbcmbdllhhypthssfrfxpthssfrfxddnfrnnttngnywhr
 :END:
 
 * TODO [#C] Tweet from @Conaw try foam?
 :PROPERTIES:
 :CREATED:  [2020-07-15]
-:ID:       be67fe13b9ac31791286e4ffe463c7ec
+:ID:       twtfrmcnwtryfm
 :END:
 https://twitter.com/Conaw/status/1283178647449333761
 
@@ -325,7 +325,7 @@ https://twitter.com/Conaw/status/1283178647449333761
 * TODO [#C] jborischevsky: https://news.ycombinator.com/item?id=21747852 :pkm:infra:
 :PROPERTIES:
 :CREATED:  [2019-12-10]
-:ID:       7502d6829ca5cd585ba5b794bfb7ed12
+:ID:       jbrschvskysnwsycmbntrcmtmd
 :END:
 : Local cache would definitely be the (easiest) way of solving it. Tools like Memex [0] are most of the way there.
 : But a text-only copy on my local device isn't great if the content had special formatting in presentation. Also, it misses out on images or embedded videos. That's where something like ArchiveBox [1] comes in.
@@ -338,14 +338,14 @@ https://twitter.com/Conaw/status/1283178647449333761
 
 * STRT [#C] [2019-12-05] Profile: h0p3 | Hacker News    :pkm:exobrain:people:
 :PROPERTIES:
-:ID:       75bf485aa9c0799e591df1e985708e8b
+:ID:       thprflhphckrnws
 :END:
 https://news.ycombinator.com/user?id=h0p3
 huh, this guy uploads his mind onto wiki
 * TODO [#C] Try spaced repetition for stuff from hypothesis and instapaper. Or even books in general :spacedrep:read:
 :PROPERTIES:
 :CREATED:  [2018-08-13]
-:ID:       135fdaecc1299719bd530a80428b10ef
+:ID:       tryspcdrpttnfrstfffrmhypthssndnstpprrvnbksngnrl
 :END:
 
 could also use timeline for that...
@@ -354,46 +354,46 @@ especially now that I got intermediate representation? I could even load it up a
 * STRT [#C] Need a tool to match and highlight arbitrary text in pdf :coding:annotation:
 :PROPERTIES:
 :CREATED:  [2018-06-27]
-:ID:       99e98269c52004415fe3a612c149c942
+:ID:       ndtltmtchndhghlghtrbtrrytxtnpdf
 :END:
 
 Pdfgrep? -n option prints page
 
 ** [2019-06-13] I gues polar mostly works
 :PROPERTIES:
-:ID:       376df80f9e9766bcc386208f0d070bf0
+:ID:       thgsplrmstlywrks
 :END:
 
 * STRT [#C] Organize pdf, search for duplicates                   :pkm:polar:
 :PROPERTIES:
 :CREATED:  [2019-02-07]
-:ID:       d8ebc6a1a8d8a9a60f2f96d1137b4c59
+:ID:       rgnzpdfsrchfrdplcts
 :END:
 
 * STRT [#C] figure out a way to classify pdfs I have. I should mark them at the time of download, otherwise I forget :pkm:study:
 :PROPERTIES:
 :CREATED:  [2019-02-06]
-:ID:       bb3c5c37185cfb1d26efe845ac1ab2c6
+:ID:       fgrtwytclssfypdfshvshldmrkthmtthtmfdwnldthrwsfrgt
 :END:
 perhaps rely on file hashes/some sort of fingerprints (e.g. meta hash) ? that way I can mark it immediately
 and track files in some tool
 ** [2019-02-10] ok, maybe just make sure I always highlight interesting bits?
 :PROPERTIES:
-:ID:       d5edc569c470a8400476ff0f862d34b1
+:ID:       snkmybjstmksrlwyshghlghtntrstngbts
 :END:
 ** [2019-06-13] again, polar mostly ok
 :PROPERTIES:
-:ID:       8d8e0196508b72271a98835d11323895
+:ID:       thgnplrmstlyk
 :END:
 * STRT [#C] track all pdfs I ever had. in the simplest approach, just have a binding to archive it :pkm:
 :PROPERTIES:
 :CREATED:  [2019-02-10]
-:ID:       dd033dc27cd2f3bc28718f26e47ca94c
+:ID:       trckllpdfsvrhdnthsmplstpprchjsthvbndngtrchvt
 :END:
 or, store the fingerprints
 ** [2019-06-13] polar got pdfs
 :PROPERTIES:
-:ID:       92e50844f328f0e2caba1401d404758b
+:ID:       thplrgtpdfs
 :END:
 * STRT [#C] use zzzfoo for recoll (F2)                                  :pkm:
 :PROPERTIES:
@@ -404,43 +404,43 @@ or, store the fingerprints
 https://github.com/andersju/zzzfoo
 ** [2019-06-13] not sure about that... I guess rofi is not the most convenient interface after all... need something that doesn't go away easily, maybe some different window mode?
 :PROPERTIES:
-:ID:       a7138721138aa2bcbb33a31448198272
+:ID:       thntsrbtthtgssrfsntthmstcntgwyslymybsmdffrntwndwmd
 :END:
 
 * TODO [#D] look up stuff in pinboard tags. also I need to export my org link collection to pinboard too :pkm:
 :PROPERTIES:
 :CREATED:  [2018-10-03]
-:ID:       33a2980b070340bf646b62d73654aa9a
+:ID:       lkpstffnpnbrdtgslsndtxprtmyrglnkcllctntpnbrdt
 :END:
 
 ** I guess compute diff and approve each item
 :PROPERTIES:
-:ID:       2784c60ea385a9796aed7010280c249f
+:ID:       gsscmptdffndpprvchtm
 :END:
 ** hmm, actually now I might be able to do that via porg?
 :PROPERTIES:
-:ID:       b2f85e3e09d53fa18a5a697568e4c158
+:ID:       hmmctllynwmghtbbltdthtvprg
 :END:
 * STRT [#C] tool to automatically explore a user for the tags I'm interested in? :pinboard:pkm:
 :PROPERTIES:
 :CREATED:  [2018-11-08]
-:ID:       44bb34fe0edef4be91ace808a5d9839f
+:ID:       tlttmtcllyxplrsrfrthtgsmntrstdn
 :END:
 ** [2019-07-30] hmm, axol kinda does that...                           :axol:
 :PROPERTIES:
-:ID:       90cf1212eb3b486ee061d39beea68f5a
+:ID:       thmmxlknddstht
 :END:
 
 * TODO [#C] two separate areas: structured notes and unstructured :pkm:think:
 :PROPERTIES:
 :CREATED:  [2019-01-10]
-:ID:       f71d3b98d0419db5ae34748cb9b143de
+:ID:       twsprtrsstrctrdntsndnstrctrd
 :END:
 https://hyp.is/RRB1jBTgEemGgbunD33LHQ/medium.com/the-personal-knowledge-management-saga/the-personal-knowledge-management-saga-part-1-ae9bdc575ded
 
 * STRT [#C] [2019-02-10] figuring out if it's ok as pdf viewer    :polar:pkm:
 :PROPERTIES:
-:ID:       bdc434fbfcd767f56f4f8fdc96231a97
+:ID:       snfgrngtftskspdfvwr
 :END:
 it has some sort of fingerprint in the state.json too
 so it handles moves and renames fine
@@ -449,46 +449,46 @@ ok, can even tag in polar as well
 
 ** TODO minor ui issues (e.g. tagging)
 :PROPERTIES:
-:ID:       7dd1520db7060d85b70402b7da8c18dd
+:ID:       mnrsssgtggng
 :END:
 ** TODO would be nice to be able to tag via polar viewer
 :PROPERTIES:
-:ID:       e05f040f7292eac092a56e3eab69fa0c
+:ID:       wldbnctbblttgvplrvwr
 :END:
 ** TODO editing annotations
 :PROPERTIES:
-:ID:       4a424c7333a580e13c3b9211d9bb7a61
+:ID:       dtngnnttns
 :END:
 ** STRT [#D] hmm .stash dir -- can we get away without copying files? :polar:
 :PROPERTIES:
 :CREATED:  [2019-01-26]
-:ID:       5fabcd32fdb838a32d11d0b6fb6e90f6
+:ID:       hmmstshdrcnwgtwywthtcpyngfls
 :END:
 ** TODO would be cool to implement conversion into other hightlight formats and export
 :PROPERTIES:
-:ID:       1698316224d1a19e3dfe2a0f160f5a3c
+:ID:       wldbcltmplmntcnvrsnntthrhghtlghtfrmtsndxprt
 :END:
 * TODO [#C] [2019-01-17] Deferential Geometry  :physics:pkm:wiki:inspiration:
 :PROPERTIES:
-:ID:       a35e021e7e54485f0c73b09b8c33f076
+:ID:       thdfrntlgmtry
 :END:
 http://deferentialgeometry.org
 interesting wiki, very cool generally, but sad you can't easily jump to specific entries
 * STRT [#C] would be interesting to regularly look for annotations on the same pages I have annotated :pkm:
 :PROPERTIES:
 :CREATED:  [2019-05-04]
-:ID:       e88e0b4d7fa99c62d9625c88785804cb
+:ID:       wldbntrstngtrglrlylkfrnnttnsnthsmpgshvnnttd
 :END:
 * STRT [#C] https://www.reddit.com/r/orgmode/comments/3b9bib/orgmode_for_humanities_research_notes_similar_to/cskh6an/ :org:pkm:
 :PROPERTIES:
 :CREATED:  [2018-07-12]
-:ID:       52acb857316c28d9a3f9ee51b696b273
+:ID:       swwwrddtcmrrgmdcmmntsbbbrfrhmntsrsrchntssmlrtcskhn
 :END:
 isearch, helm-swoop
 interesting, i'm pretty much doing everything she mentions in the comment
 ** DONE [2019-05-14] ok, I could:
 :PROPERTIES:
-:ID:       7dae6d5e618e2ad288610ba870009ca6
+:ID:       tkcld
 :END:
 keep a permanent emacs instance
 load all files via (find-file "**/*.org"). perhaps run that by timer or something? maybe just use rg to get all targets, might be easiest
@@ -496,17 +496,17 @@ use helm-multi-swoop-all
 make sure to load in fundamental mode
 ** TODO [2019-07-27] if I find that useful, implement proper timer for reloading new files regularly. Find a way to answer y to opening in fundamental mode?
 :PROPERTIES:
-:ID:       61c166b984e4f0981cd0202f2314c727
+:ID:       stffndthtsflmplmntprprtmrndwytnswrytpnngnfndmntlmd
 :END:
 ** [2019-08-20] ah right... it's sacha chua...
 :PROPERTIES:
-:ID:       313fa6221b53af5e88f63069510fc7a9
+:ID:       thrghttsschch
 :END:
 
 * TODO [#C] GitHub - matthewmueller/x-ray: The next web scraper. See through the <html> noise.
 :PROPERTIES:
 :CREATED:  [2018-12-09]
-:ID:       356749d6bbdaa344a31a8ef62c35d7c6
+:ID:       gthbmtthwmllrxrythnxtwbscrprsthrghthhtmlns
 :END:
 
 https://github.com/matthewmueller/x-ray
@@ -514,84 +514,84 @@ https://github.com/matthewmueller/x-ray
 * TODO [#C] hightlighting certain things on page based on whether it contains certain link? that way could simulate priorities anywhere :pkm:chrome:
 :PROPERTIES:
 :CREATED:  [2019-02-14]
-:ID:       f9b1d5fb5d87da838c8981af5351f748
+:ID:       hghtlghtngcrtnthngsnpgbsdlnkthtwycldsmltprrtsnywhr
 :END:
 * TODO [#C] hmm do I need to clean old index?                    :recoll:pkm:
 :PROPERTIES:
 :CREATED:  [2019-03-12]
-:ID:       bfe9a2b066968ac3575e23cb8bcdbbdc
+:ID:       hmmdndtclnldndx
 :END:
 * TODO [#C] search by org tags?                                   :pkm:emacs:
 :PROPERTIES:
 :CREATED:  [2019-04-20]
-:ID:       704f9094b75ab6c5971b82a99cdc821e
+:ID:       srchbyrgtgs
 :END:
 * TODO [#D] [2019-04-13] renerocksai/sublime_zk: A SublimeText3 package featuring ID based wiki style links, and #tags, intended for zettelkasten method users. Loaded with tons of features like inline image display, sophisticated tag search, note transclusion features, support for note templates, bibliography support, support for multiple panes, etc. to make working in your Zettelkasten a joy . :pkm:inspiration:
 :PROPERTIES:
-:ID:       c8b1a20d8bfbaa9c6a0c4cae5b30fbde
+:ID:       strnrckssblmzksblmtxtpckgnstctmkwrkngnyrzttlkstnjy
 :END:
 https://github.com/renerocksai/sublime_zk
 
 * [#C] [2019-04-19] Post-Evernote: How to Migrate Your Evernote Notes, Images and Tags into Plain Text Markdown - Minding the Borderlands :pkm:
 :PROPERTIES:
-:ID:       88512a018fb276adbe60028bbca0a55b
+:ID:       frpstvrnthwtmgrtyrvrntntsntxtmrkdwnmndngthbrdrlnds
 :END:
 http://www.markwk.com/migrate-evernote-plaintext.html
 
 * STRT [#C] Designing better file organization around tags, not hierarchies :pkm:tagging:
 :PROPERTIES:
 :CREATED:  [2018-12-09]
-:ID:       5d1e373066de5cc98c40bbe7191af7da
+:ID:       dsgnngbttrflrgnztnrndtgsnthrrchs
 :END:
 https://www.nayuki.io/page/designing-better-file-organization-around-tags-not-hierarchies
 ** [2019-05-05] a lot of various tag-based filesystems etc
 :PROPERTIES:
-:ID:       121eaedebe8daa00babdb97dc953f33e
+:ID:       snltfvrstgbsdflsystmstc
 :END:
 
 * TODO [#C] make views into reddit comments? multiple blocks; fetch them regularly? :toblog:pkm:
 :PROPERTIES:
 :CREATED:  [2019-06-13]
-:ID:       6c585eb88214b77ae4121c4b7ad5c601
+:ID:       mkvwsntrddtcmmntsmltplblcksftchthmrglrly
 :END:
 
 * TODO [#C] [2019-01-17] Welcome!                   :physics:pkm:inspiration:
 :PROPERTIES:
-:ID:       22764425732daf865fc35624b7d06289
+:ID:       thwlcm
 :END:
 https://physicstravelguide.com/start
 * TODO [#C] Add display for read only pdf annotations?     :polar:annotating:
 :PROPERTIES:
 :CREATED:  [2019-07-02]
-:ID:       12ef91015d0f88fa99e4c91c18c7ced9
+:ID:       dddsplyfrrdnlypdfnnttns
 :END:
 
 * TODO [#C] Tweet from ¬¬(Dan Piponi) (@sigfpe), at Mar 6, 18:54 :annotation:
 :PROPERTIES:
 :CREATED:  [2019-03-06]
-:ID:       42bc323588fb2219b6991ac881e18044
+:ID:       twtfrmdnppnsgfptmr
 :END:
 
 : Liquid Text (@LiquidTextCorp) has a great feature allowing you to "scrunch" up pages of PDFs to quickly compare what you're reading with something earlier. (The correct way to do split screen IMO) I find myself trying to do this with web browsers now. It really is a nice feature.
 : https://twitter.com/sigfpe/status/1103368220314988545
 ** [2019-07-30] split screen looks good
 :PROPERTIES:
-:ID:       0597102daf1401aef3de6f403fbe5b4e
+:ID:       tspltscrnlksgd
 :END:
 
 * STRT [#C] [2019-07-20] A very brief introduction to Personal Knowledge Management – Relatris Blog und Fundstücke :toblog:
 :PROPERTIES:
-:ID:       e09bc86256fac459bdb959c58b75a479
+:ID:       stvrybrfntrdctntprsnlknwlgmngmntrltrsblgndfndstück
 :END:
 https://blog.relatris.ch/2017/05/30/a-very-brief-introduction-to-personal-knowledge-management
 ** [2019-12-17] pretty vague motivation
 :PROPERTIES:
-:ID:       2c1e22bbde812e938af541e5442d7b25
+:ID:       tprttyvgmtvtn
 :END:
 
 * [#C] [2019-06-20] Open Semantic ETL toolkit for data integration, data analysis, document analysis, information extraction & data enrichment
 :PROPERTIES:
-:ID:       191e4121b6cb479742bea71dd69c941c
+:ID:       thpnsmntctltlktfrdtntgrtnlyssnfrmtnxtrctndtnrchmnt
 :END:
 https://opensemanticsearch.org/etl
 : Open Semantic ETL toolkit for data integration, data analysis, document analysis, information extraction & data enrichment
@@ -599,53 +599,53 @@ https://opensemanticsearch.org/etl
 * TODO [#C] recoll web: search as you type??                         :recoll:
 :PROPERTIES:
 :CREATED:  [2019-08-16]
-:ID:       4fb96f119382108bdab615db9022ba59
+:ID:       rcllwbsrchsytyp
 :END:
 * [#C] shit, couldn't figure out how to properly display with newline... :recoll:pkm:
 :PROPERTIES:
 :CREATED:  [2019-08-20]
-:ID:       f1052b48d5e91c557a0efeae4eb26b4e
+:ID:       shtcldntfgrthwtprprlydsplywthnwln
 :END:
 * TODO [#C] hmm, wonder how hard it'd be to build indexer :android:pkm:think:
 :PROPERTIES:
 :CREATED:  [2019-08-20]
-:ID:       5d3103029f82f5dd205f0081a92dd00e
+:ID:       hmmwndrhwhrdtdbtbldndxr
 :END:
 * TODO [#C] failed to extract properly from Zee's book            :pdfannots:
 :PROPERTIES:
 :CREATED:  [2019-08-29]
-:ID:       7fcd2c2c1d29da0a90f82a7f6dc1c50c
+:ID:       fldtxtrctprprlyfrmzsbk
 :END:
 * STRT [#C] [2019-06-13]  Internet Search Tips - Gwern.net: Enable some kind of hotkey search with both prompt and copy-paste selection buffer, to turn searching Google (G)/Google Scholar (GS)/Wikipedia (WP) into a reflex.2 You should be able to search instinctively within a split second of becoming curious, with a few keystrokes. (If you can’t use it while IRCing without the other person noting your pauses, it’s not fast enough.)
 :PROPERTIES:
-:ID:       6a56b6e6fa9292022a6e2d93254436ea
+:ID:       thntrntsrchtpsgwrnntnblsmhrprsnntngyrpsstsntfstngh
 :END:
 * TODO [#C] use fmc in rofi?
 :PROPERTIES:
 :CREATED:  [2019-09-04]
-:ID:       a7065a423f32f2cb0d58e07e57ccc481
+:ID:       sfmcnrf
 :END:
 * TODO [#C] [2019-09-04] howardyclo/Digestant: Modules for effectively digesting data from Twitter and Reddit using ML, NLP and statistics. :pkm:axol:
 :PROPERTIES:
-:ID:       07fec024e2709b6423daee3e31a4bde3
+:ID:       wdhwrdycldgstntmdlsfrffcttrndrddtsngmlnlpndsttstcs
 :END:
 https://github.com/howardyclo/Digestant
 : Modules for effectively digesting data from Twitter and Reddit using ML, NLP and statistics.
 * STRT [#C] [2019-08-25] [[https://reddit.com/r/orgmode/comments/ctvktz/orgbrain/][Org-brain]] /r/orgmode
 :PROPERTIES:
-:ID:       3675927defcc88b561bcfcc079a35719
+:ID:       snsrddtcmrrgmdcmmntsctvktzrgbrnrgbrnrrgmd
 :END:
 
 * [#C] [2019-09-05] Kungsgeten/org-brain: Org-mode wiki + concept-mapping
 :PROPERTIES:
-:ID:       8689043f834b763d0b32b6cdbe94bcef
+:ID:       thkngsgtnrgbrnrgmdwkcncptmppng
 :END:
 https://github.com/Kungsgeten/org-brain
 : Having multiple brains
 : You can have multiple brains simply by having more than one brain folder.
 * TODO [#C] [2019-09-05] rofi-scripts/rofi-finder at master · davatorium/rofi-scripts
 :PROPERTIES:
-:ID:       b9c113026ae9e30edead9a9dfdef3bc6
+:ID:       thrfscrptsrffndrtmstrdvtrmrfscrpts
 :END:
 https://github.com/davatorium/rofi-scripts/tree/master/rofi-finder
 : rofi  -show find -modi find:~/.local/share/rofi/finder.sh
@@ -653,40 +653,40 @@ https://github.com/davatorium/rofi-scripts/tree/master/rofi-finder
 ugh. it blocked the UI while it was searching :(
 * [#C] [2019-07-23] neonion                                             :pkm:
 :PROPERTIES:
-:ID:       74ad625bb09675606642d0c59f4a8c18
+:ID:       tnnn
 :END:
 http://neonion.org
 Semantic bit is kinda interesting
 
 ** [2019-08-09] eh, looks like you need to import the document in it http://neonion.org/userdocs/index.html
 :PROPERTIES:
-:ID:       73584db11ba81e9718723bdec29ed3d9
+:ID:       frhlkslkyndtmprtthdcmntntnnnrgsrdcsndxhtml
 :END:
 ** [2019-09-15] also project hasn't been updated for a while
 :PROPERTIES:
-:ID:       feb37d13b3caf678e0fa5c6b0fdca8ac
+:ID:       snlsprjcthsntbnpdtdfrwhl
 :END:
 
 * TODO [#C] [2019-09-28] [[https://reddit.com/r/orgmode/comments/da1sf0/orger_plaintext_reflection_of_your_digital_self/f1oylns/][Orger: plaintext reflection of your digital self]] /r/orgmode
 :PROPERTIES:
-:ID:       07e928243800fd6017f90623ef4202f8
+:ID:       stsrddtcmrrgmdcmmntsdsfrgntxtrflctnfyrdgtlslfrrgmd
 :END:
 You may also be interested in [GNU Hyperbole](https://www.gnu.org/software/hyperbole/man/hyperbole.html).
 * TODO [#C] recoll: index downloads so it's easy to recall recent downloads? also nead to clean older indexed stuff :pkm:
 :PROPERTIES:
 :CREATED:  [2019-10-17]
-:ID:       ec1a6fef8a95b327a00c23ddde244d4d
+:ID:       rcllndxdwnldsstssytrcllrcdwnldslsndtclnldrndxdstff
 :END:
 * TODO [#C] Zeal                                                     :search:
 :PROPERTIES:
 :CREATED:  [2019-11-01]
-:ID:       0f9cae30d4d76a456badeae7e9ac81d0
+:ID:       zl
 :END:
 
 * TODO [#C] Why Use Hyperbole (Use Cases)
 :PROPERTIES:
 :CREATED:  [2019-09-29]
-:ID:       904c69952a777f250f05bae863d4fec2
+:ID:       whyshyprblscss
 :END:
 
 https://www.gnu.org/software/hyperbole/HY-WHY.html
@@ -694,38 +694,38 @@ https://www.gnu.org/software/hyperbole/HY-WHY.html
 * TODO [#C] helm-ag would be useful to exclude file              :people:pkm:
 :PROPERTIES:
 :CREATED:  [2019-09-30]
-:ID:       ccfbb5574142a4be2f3bb2a1b2f18917
+:ID:       hlmgwldbsfltxcldfl
 :END:
 * STRT [#C] think which of my workflows could be made available for more general public and how :think:pkm:
 :PROPERTIES:
 :CREATED:  [2019-10-11]
-:ID:       aa627e7b86b055c7cc636e76f10595fe
+:ID:       thnkwhchfmywrkflwscldbmdvlblfrmrgnrlpblcndhw
 :END:
 * [#C] [2019-10-17] NOTE: A (Python 3) fork is actively maintained here · Issue 74 · koniu/recoll-webui
 :PROPERTIES:
-:ID:       99db1c6543ce8c93e3ca2c49d527bd35
+:ID:       thntpythnfrksctvlymntndhrssknrcllwb
 :END:
 https://github.com/koniu/recoll-webui/issues/74
 : NOTE: A (Python 3) fork is actively maintained here
 * [#C] [2019-10-19] Doug's 1968 Demo - Doug Engelbart Institute
 :PROPERTIES:
-:ID:       8ef24060b63a5605de512ff336741565
+:ID:       stdgsdmdgnglbrtnsttt
 :END:
 http://www.dougengelbart.org/content/view/209/448
 
 * TODO [#C] [2019-10-31] something similar to swoop for firefox would be nice. could implement in surfingkeys? :think:search:
 :PROPERTIES:
-:ID:       fa4160884e1deaa081aac5b8e7f2832a
+:ID:       thsmthngsmlrtswpfrfrfxwldbnccldmplmntnsrfngkys
 :END:
 * TODO [#C] https://github.com/eli-oat                           :people:pkm:
 :PROPERTIES:
 :CREATED:  [2019-09-20]
-:ID:       e1e40144c89f8329b12694403dd1288e
+:ID:       sgthbcmlt
 :END:
 
 * TODO [#C] [2019-11-06] Brendan Schlagel on Twitter: "Petition to rebrand "personal knowledge management" &gt; "personal librarianship" -broader remit (more to gain from reading than "knowledge") -sounds cooler &amp; friendlier -could be a good theme / brand for https://t.co/Fd9MpAjnDj! (con: "personal librarian" has another meaning…)" / Twitter
 :PROPERTIES:
-:ID:       80ad2627bfedf94ef82b7c59099ccdd1
+:ID:       wdbrndnschlglntwttrpttntrprsnllbrrnhsnthrmnngtwttr
 :END:
 https://twitter.com/schlagetown/status/1191814458957418497
 : Petition to rebrand "personal knowledge management" > "personal librarianship"
@@ -738,17 +738,17 @@ https://twitter.com/schlagetown/status/1191814458957418497
 * TODO [#C] Space repetition for all my stuff. Start from latest added? Doesn't matter if there is duplication in other views :pkm:spacedrep:
 :PROPERTIES:
 :CREATED:  [2019-11-25]
-:ID:       584d70fda805a36ead91b530e6fd97f1
+:ID:       spcrpttnfrllmystffstrtfrmsntmttrfthrsdplctnnthrvws
 :END:
 
 ** [2019-11-30] or even randomly presenting is ok
 :PROPERTIES:
-:ID:       2bdd5ed0e8ef3782776535215500384a
+:ID:       strvnrndmlyprsntngsk
 :END:
 * TODO [#C] Ask HN: How do you organize document digests / personal knowledge? | Hacker News
 :PROPERTIES:
 :CREATED:  [2019-11-28]
-:ID:       88a8b7c867c7924d29f3e3910cae10aa
+:ID:       skhnhwdyrgnzdcmntdgstsprsnlknwldghckrnws
 :END:
 
 https://news.ycombinator.com/item?id=21642289
@@ -756,25 +756,25 @@ https://news.ycombinator.com/item?id=21642289
 * TODO [#C] Special account that favs my interesting tweets for a feed :pkm:search:toblog:
 :PROPERTIES:
 :CREATED:  [2019-12-03]
-:ID:       73f8718c5cb3fb779dd81a0c9c6b6b87
+:ID:       spclccntthtfvsmyntrstngtwtsfrfd
 :END:
 
 * TODO [#C] Run linkchecker against all links produced by me  :pkm:promnesia:
 :PROPERTIES:
 :CREATED:  [2019-12-20]
-:ID:       cac812855b98e5ab7a7433376c25a6ad
+:ID:       rnlnkchckrgnstlllnksprdcdbym
 :END:
 
 * TODO [#C] Tags for hn via nlp summaries?                       :hackernews:
 :PROPERTIES:
 :CREATED:  [2019-12-19]
-:ID:       9f48d621bce36a84fcb650bbbc2706ed
+:ID:       tgsfrhnvnlpsmmrs
 :END:
 
 * TODO [#C] Guy who thought about pkm issues                            :pkm:
 :PROPERTIES:
 :CREATED:  [2019-12-20]
-:ID:       b2d6a6e652f0be0d5264487e761f10ce
+:ID:       gywhthghtbtpkmsss
 :END:
 
 : I have thought about these issues a lot; especially lately. With regards to being able to scrape your data or just get your data back from 3rd party's, I think that's a losing battle. You need to be in control of your data before it gets to them. Web sites and APIs are constantly changing and sometimes just disappear. This idea of polling for changes seems very brittle and would never be up to date.
@@ -788,7 +788,7 @@ https://news.ycombinator.com/item?id=21642289
 * TODO [#C] Ask on HN how to read it so it's fair to everyone?   :outbox:pkm:
 :PROPERTIES:
 :CREATED:  [2019-12-18]
-:ID:       95b32e2d14764de61722498f2f371469
+:ID:       sknhnhwtrdtstsfrtvryn
 :END:
 
 E.g. I'm going through show hn and ask hn
@@ -798,12 +798,12 @@ Wish there were tags or smth similar to prioritize
 * TODO [#C] find random python scripts around file system?              :pkm:
 :PROPERTIES:
 :CREATED:  [2019-12-21]
-:ID:       6790fcb5a103cd6ccbaecd79aaa35412
+:ID:       fndrndmpythnscrptsrndflsystm
 :END:
 * TODO [#C] What I wish I knew before joining Mastodon - By    :mastodon:api:
 :PROPERTIES:
 :CREATED:  [2020-01-08]
-:ID:       c2ea33ec0e5a08dd1664c15ff48468d3
+:ID:       whtwshknwbfrjnngmstdnby
 :END:
 
 : Mastodon, of course! #Mastodon is consistently the №1 hashtag people used, according to a Trendbot that tracks trending hashtags.
@@ -811,25 +811,25 @@ Wish there were tags or smth similar to prioritize
 * TODO [#C] Managing my personal knowledge base | Hacker News
 :PROPERTIES:
 :CREATED:  [2020-01-10]
-:ID:       4d2bae7d981074cf1025b3a2414d0c8d
+:ID:       mngngmyprsnlknwldgbshckrnws
 :END:
 : The API is supposed to be released soon. I intend to either build a backup workflow myself or use other tools that will get developed then.
 
 * TODO [#C] [2019-12-23] perkeep/gphotos-cdp: This program uses the Chrome DevTools Protocol to drive a Chrome session that downloads your photos stored in Google Photos. :pkm:
 :PROPERTIES:
-:ID:       6a1b6177a22477d8d3e199f0fcdb9d9c
+:ID:       mnprkpgphtscdpthsprgrmssttdwnldsyrphtsstrdngglphts
 :END:
 https://github.com/perkeep/gphotos-cdp
 : This program uses the Chrome DevTools Protocol to drive a Chrome session that downloads your photos stored in Google Photos.
 * TODO [#C] error handling would be nice to extract as well, e.g. error_helper... :exports:
 :PROPERTIES:
 :CREATED:  [2020-01-15]
-:ID:       775bd894bf619004155f9c5c94a5ee7c
+:ID:       rrrhndlngwldbnctxtrctswllgrrrhlpr
 :END:
 * TODO [#C] Except with google it’s becoming impossible to find links from several years ago... | Hacker News
 :PROPERTIES:
 :CREATED:  [2020-01-21]
-:ID:       b841a03c8a53432bec37b2890c5cd907
+:ID:       xcptwthggltsbcmngmpssbltfndlnksfrmsvrlyrsghckrnws
 :END:
 
 https://news.ycombinator.com/item?id=22107053
@@ -837,27 +837,27 @@ https://news.ycombinator.com/item?id=22107053
 * STRT [#C] maybe I need some sort of 'seen' state for stuff in links.org :pkm:
 :PROPERTIES:
 :CREATED:  [2020-02-12]
-:ID:       0e85b07ebd8c6a823740676d773d5987
+:ID:       mybndsmsrtfsnsttfrstffnlnksrg
 :END:
 or, only mark as todo when I've seen it. I guess makes more sense
 * TODO [#C] might be nice to keep 'iteration' of how often I explored the link :pkm:
 :PROPERTIES:
 :CREATED:  [2020-02-12]
-:ID:       577f4ae0169996e4f3f160904fce0de2
+:ID:       mghtbnctkptrtnfhwftnxplrdthlnk
 :END:
 ** TODO [#B] [2020-02-12]  fuck, could actually integrate promnesia with emacs? that's be fucking insane. :promnesia:
 :PROPERTIES:
-:ID:       55414905849f3b65c374c769c56fd7ad
+:ID:       wdfckcldctllyntgrtprmnswthmcsthtsbfckngnsn
 :END:
 * TODO [#C] need to treat tags and priorities as transient.. othewise too much friction :pkm:
 :PROPERTIES:
 :CREATED:  [2020-02-07]
-:ID:       6156cb184d8ac68104dea4d9dc0adc05
+:ID:       ndttrttgsndprrtsstrnsntthwstmchfrctn
 :END:
 * [#C] Tweet from @blakeir
 :PROPERTIES:
 :CREATED:  [2020-03-07]
-:ID:       9691c6d11476b2f6fca8ef1bf3ae6395
+:ID:       twtfrmblkr
 :END:
 
 : https://twitter.com/blakeir/status/1236086912659660800
@@ -867,20 +867,20 @@ or, only mark as todo when I've seen it. I guess makes more sense
 
 * TODO [#C] [2019-12-28] Tips on using the Remembrance agent? : emacs   :pkm:
 :PROPERTIES:
-:ID:       4b0946388ba2ac1ad42e358a59131d8f
+:ID:       sttpsnsngthrmmbrncgntmcs
 :END:
 https://www.reddit.com/r/emacs/comments/x2wue/tips_on_using_the_remembrance_agent/
 * TODO [#C] Orgzly Workflow Showcase?
 :PROPERTIES:
 :CREATED:  [2020-04-14]
-:ID:       92cf999df9f334c57136073e90167ea8
+:ID:       rgzlywrkflwshwcs
 :END:
 
 https://reddit.com/r/orgmode/comments/g06uu9/orgzly_workflow_showcase/fnbou8l?context=3
 * TODO [#C] Tweet from @rektide
 :PROPERTIES:
 :CREATED:  [2020-04-14]
-:ID:       7e6426ab7fed0f61a6e610298d665958
+:ID:       twtfrmrktd
 :END:
 
 https://twitter.com/rektide/status/1246848335379652608
@@ -891,82 +891,82 @@ https://twitter.com/rektide/status/1246848335379652608
 * [#A] the more I read news etc on PKM, the more it feels like I'm already on the cutting edge, know more than 99.99% of people about it and have collected all the low hanging fruit :pkm:
 :PROPERTIES:
 :CREATED:  [2020-04-21]
-:ID:       1fbf6785bb4b1b38eeb4f305b64108fe
+:ID:       thmrrdnwstcnpkmthmrtflslktndhvcllctdllthlwhngngfrt
 :END:
 * STRT [#C] [2019-11-28] Profile: grblovrflowerrr | Hacker News  :people:pkm:
 :PROPERTIES:
-:ID:       f12938c91b7c5e0e006d1b2946dad804
+:ID:       thprflgrblvrflwrrrhckrnws
 :END:
 https://news.ycombinator.com/user?id=grblovrflowerrr
 : Thinking about humans, computers, and humans talking to computers.
 ** DONE [2019-12-03] https://news.ycombinator.com/threads?id=grblovrflowerrr
 :PROPERTIES:
-:ID:       831403d9be003c8022c57f4fc8268471
+:ID:       tsnwsycmbntrcmthrdsdgrblvrflwrrr
 :END:
 ** [2019-12-03] https://www.notion.so/Building-Blocks-For-The-Future-Of-Computing-7f74066de66749d59939a91ab13ec960
 :PROPERTIES:
-:ID:       61c06fe342080c8f8358f11176229b79
+:ID:       tswwwntnsbldngblcksfrthftrfcmptngfddbc
 :END:
 ** [#B] [2019-11-28] Yoshiki Schmitz
 :PROPERTIES:
-:ID:       a023098724a2a6414c7d8940fbebb66f
+:ID:       thyshkschmtz
 :END:
 https://yschmitz.com
 :  I'm a software developer that also tinkers in design. My goal is to create better tools for expressing and realizing ideas.
 * TODO [#C] email/tweet at archive.org team about t.co links?   :hpi:linkrot:
 :PROPERTIES:
 :CREATED:  [2020-04-29]
-:ID:       9c8f220b03906ce798f56c6c735984b6
+:ID:       mltwttrchvrgtmbttclnks
 :END:
 * TODO [#C] [2020-05-01] [[https://orgmode-exocortex.com/2020/04/28/voice-capture-org-mode-tasks-on-android/][Voice capture org-mode tasks on Android – Org mode Exocortex]] :org:dictation:
 :PROPERTIES:
-:ID:       cabded5fd839e4195db5481899aa6b5b
+:ID:       frsrgmdxcrtxcmvccptrrgmdtptrrgmdtsksnndrdrgmdxcrtx
 :END:
 * TODO [#C] [2020-01-16] axa-group/Parsr: Transforms PDF, Documents and Images into Enriched Structured Data
 :PROPERTIES:
-:ID:       6f94c4cbda60137eed5dd8dc15b17d50
+:ID:       thxgrpprsrtrnsfrmspdfdcmntsndmgsntnrchdstrctrddt
 :END:
 https://github.com/axa-group/Parsr
 I guess could use it for some pdf extraction?
 * STRT [#C] [2019-07-06] public voit - Homepage of Karl Voit     :german:pkm:
 :PROPERTIES:
-:ID:       ed9afa136f5b3da686a171795b49cdb3
+:ID:       stpblcvthmpgfkrlvt
 :END:
 https://karl-voit.at/
 
 ** TODO [2019-07-06] git: post-commit hook for determining large number of deleted lines in Org-mode (paranoid) :git:setup:
 :PROPERTIES:
-:ID:       e5ced5131cfe14a960fadcec715b7b31
+:ID:       stgtpstcmmthkfrdtrmnnglrgnmbrfdltdlnsnrgmdprnd
 :END:
 https://karl-voit.at/2014/08/20/org-losses-determining-post-commit/
 
 ** [2019-07-06] My Personal Emacs History
 :PROPERTIES:
-:ID:       ca9afbfedeb84511c1dbc1655bedc9cb
+:ID:       stmyprsnlmcshstry
 :END:
 https://karl-voit.at/2017/06/03/emacs-history/
 :  My passion for PIM and the quest for the best PIM tools and methods out there resulted in a pretty advanced setup I've got. Meanwhile, I do almost anything within Emacs and Org-mode: todos, errands, project management, calendar/agenda, contact management, reference management, bookmark collection, knowledge base management, blogging, doing spreadsheet, presentations, quantified self, managing files such as photographs, accessing all kinds of data about me, and many more.
 ** [2019-07-06] The Perfect Tool to Organize Your Digital Life (Emacs Org mode)
 :PROPERTIES:
-:ID:       9f48db05fb1c017cb1d8a8392cf5a5ca
+:ID:       stthprfcttltrgnzyrdgtllfmcsrgmd
 :END:
 https://karl-voit.at/2018/12/28/35c3-orgmode/
 
 ** [2019-07-06] Evolutional Steps of Computer Systems
 :PROPERTIES:
-:ID:       5e00e2713669072d303e7656b3561dfd
+:ID:       stvltnlstpsfcmptrsystms
 :END:
 https://karl-voit.at/2017/02/10/evolution-of-systems/
 
 ** [2019-07-06] The Tag «decentralization»
 :PROPERTIES:
-:ID:       701dcf9e890532ee557c520282dd5947
+:ID:       stthtgdcntrlztn
 :END:
 https://karl-voit.at/tags/decentralization/
 :  In my opinion, federated or decentralized systems are much stronger and prone to surveillance.
 ** [2019-07-06] Going Back to Analog
 :PROPERTIES:
-:ID:       a14ade47c03b39ef6e69113be98618bb
+:ID:       stgngbcktnlg
 :END:
 https://karl-voit.at/2017/05/16/going-analog/
 :   This can be interpreted as a new era of Biedermeier, a new kind of Digital Cocooning.
@@ -974,53 +974,53 @@ https://karl-voit.at/2017/05/16/going-analog/
 :  I, personally, try to come up with a digital solution which includes avoiding the cloud and promoting decentralization and DIY solutions which are using open source software and open protocols.
 ** [2019-07-06] Karl Voit (@n0v0id) | Twitter
 :PROPERTIES:
-:ID:       9ce597582e5c3e319bf1b9ea129eaeca
+:ID:       stkrlvtnvdtwttr
 :END:
 https://twitter.com/n0v0id/
 
 ** [2019-07-06] About
 :PROPERTIES:
-:ID:       dc206e3e69239640359e20837601cdf1
+:ID:       stbt
 :END:
 https://karl-voit.at/about/
 
 ** [2019-07-06] My Dependencies on the Cloud
 :PROPERTIES:
-:ID:       5007896494d42ec712bfc5d9d6fdb6bb
+:ID:       stmydpndncsnthcld
 :END:
 https://karl-voit.at/cloud-dependencies/
 
 ** [2019-07-06] You Can't Control Your Data in the Cloud
 :PROPERTIES:
-:ID:       1817e72666a026f106527d8614394e32
+:ID:       stycntcntrlyrdtnthcld
 :END:
 https://karl-voit.at/cloud/
 * TODO [#C] [2019-09-26] Venkatesh Rao on Twitter: "1/ There are some interesting lessons in the failure of bookmarking as a category" / Twitter
 :PROPERTIES:
-:ID:       77e72effa77c306de1c2ea9f5344200e
+:ID:       thvnktshrntwttrthrrsmntrsnthflrfbkmrkngsctgrytwttr
 :END:
 https://twitter.com/vgr/status/738449044742115328
 : 1/ There are some interesting lessons in the failure of bookmarking as a category
 * TODO [#C] [2019-10-17] jethrokuan/braindump: knowledge repository managed with org-mode and deft.
 :PROPERTIES:
-:ID:       5b1d1a89056439ab069966bb66c6e8ea
+:ID:       thjthrknbrndmpknwldgrpstrymngdwthrgmdnddft
 :END:
 https://github.com/jethrokuan/braindump/
 : knowledge repository managed with org-mode and deft. https://braindump.jethro.dev/
 * TODO [#C] share feedbin subscriptions?                             :mydata:
 :PROPERTIES:
 :CREATED:  [2020-05-13]
-:ID:       fa379ff8d5833247c24a12fabd7b537a
+:ID:       shrfdbnsbscrptns
 :END:
 * STRT [#C] [2020-05-13] [[http://strlen.com/treesheets/][TreeSheets]]
 :PROPERTIES:
-:ID:       4d98d4e1db9b8fabc580fadd16486627
+:ID:       wdstrlncmtrshtstrshts
 :END:
 : A "hierarchical spreadsheet" that is a great replacement for spreadsheets, mind mappers, outliners, PIMs, text editors and small databases.
 * TODO [#C] Tweet from @kwharrison13
 :PROPERTIES:
 :CREATED:  [2020-06-22]
-:ID:       b8eb76f75a49b920bba7c21787403022
+:ID:       twtfrmkwhrrsn
 :END:
 
 https://twitter.com/kwharrison13/status/1275117874911211523
@@ -1030,13 +1030,13 @@ https://twitter.com/kwharrison13/status/1275117874911211523
 * TODO [#C] https://github.com/Overdr0ne/sfs (search file system)
 :PROPERTIES:
 :CREATED:  [2020-06-25]
-:ID:       4bd76b82e24445a3a8fe44928bad75a4
+:ID:       sgthbcmvrdrnsfssrchflsystm
 :END:
 sfs-recoll
 
 * STRT [#C] [2020-06-13] [[https://reddit.com/r/Zettelkasten/comments/h88goc/new_discord_pkm_community/][New Discord PKM community]] /r/Zettelkasten
 :PROPERTIES:
-:ID:       6c9b18b1fa4fb4b09379b9112891cc5d
+:ID:       stsrddtcmrzttlkstncmmntshnwdscrdpkmcmmntyrzttlkstn
 :END:
 :  Hey folks there's a server for knowledge management, the idea is for it to be tool agnostic and to help the different communities exchange workflows and ideas. Check it out:
 
@@ -1044,13 +1044,13 @@ sfs-recoll
 [https://discord.gg/3WY3ZqN](https://discord.gg/3WY3ZqN)
 * [#C] [2020-01-30] (1) Ildar Karimov on Twitter: "@artem_zin @karlicoss Google desktop app was able to inject a lot of local/private data into search results but discontinued in 2011 :(" / Twitter
 :PROPERTIES:
-:ID:       433a32f5d3108f0b8653da279a163143
+:ID:       thldrkrmvntwttrrtmznkrlcstsrchrsltsbtdscntndntwttr
 :END:
 https://twitter.com/the_very/status/1223022048945016832
 : Google desktop app was able to inject a lot of local/private data into search results but discontinued in 2011 :(
 * [#C] [2020-03-20] "🌞New Video: Combining Note-Taking and Spaced Repetition (SR) I talked about: 1. Integrating SR questions in permanent notes 2. adding SR questions while journaling 3. learning new words and phrases 4. using quick capture for SR https://t.co/OIvzV36bU5 https://t.co/iX1ZAzEcMs" / Twitter
 :PROPERTIES:
-:ID:       b2cab57d6e0681c41e155e7b53f172a9
+:ID:       frnwvdcmbnngnttkngndspcdrfrsrstcvzvbstcxzzcmstwttr
 :END:
 https://twitter.com/ShuOmi3/status/1240985230229430272
 : New Video:
@@ -1062,25 +1062,25 @@ https://twitter.com/ShuOmi3/status/1240985230229430272
 : 4. using quick capture for SR
 * [#C] [2020-06-11] [[https://beta.openai.com/][OpenAI API]]            :pkm:
 :PROPERTIES:
-:ID:       41fbe8d452c647be8eb41604de90271a
+:ID:       thsbtpncmpnp
 :END:
 : The API allows for parsing text into spreadsheet tables, summarizing email discussions, expanding content from bullet points, and more.
 * TODO [#C] [2020-07-01] [[http://dangirsh.org/posts/zettelkasten.html][Dan Girshovich - Zettelkasten]] :pkm:
 :PROPERTIES:
-:ID:       487a29934aa315290a0e83afc16631ca
+:ID:       wddngrshrgpstszttlkstnhtmldngrshvchzttlkstn
 :END:
 
 * TODO [#C] Tweet from @mekarpeles
 :PROPERTIES:
 :CREATED:  [2020-07-10]
-:ID:       8a5f7f99c45f05e443fa9313d4e1fe31
+:ID:       twtfrmmkrpls
 :END:
 https://twitter.com/mekarpeles/status/1281494830372335619
 : @mekarpeles: Write things down. Leave notes. Make checklists. Review periodically. Keep logs. Record everything. Make backups. Keep a Zettelkasten. Use a memex. Date & tag documents. Connect and map like ideas. Keep a central index. Decentralize. Make things content addressable.
 
 * [#C] [2020-08-24] [[https://news.ycombinator.com/item?id=24259861][My takeaway from the recent trend in articles talking about how great the Zettel... | Hacker News]]
 :PROPERTIES:
-:ID:       c9396bcdd34cfbed464bf7ae5a0f2acf
+:ID:       mnsnwsycmbntrcmtmdmytkwyftlkngbthwgrtthzttlhckrnws
 :END:
 : My takeaway from the recent trend in articles talking about how great the Zettelkasten method is:
 : 
@@ -1088,7 +1088,7 @@ https://twitter.com/mekarpeles/status/1281494830372335619
 * TODO [#C] example: enabling properties export for my blog   :blog:pkm:demo:
 :PROPERTIES:
 :CREATED:  [2019-11-17]
-:ID:       6439d067c537df6546a913c0157c99b9
+:ID:       xmplnblngprprtsxprtfrmyblg
 :END:
 
 found that answer in google
@@ -1126,7 +1126,7 @@ holding contextual information."
 * TODO [#C] alraban/org-recoll: A lightweight emacs org-mode wrapper for the recoll full-text search engine
 :PROPERTIES:
 :CREATED:  [2019-11-26]
-:ID:       7d679a2a4be1a50c76a5435f29193dd8
+:ID:       lrbnrgrclllghtwghtmcsrgmdrpprfrthrcllflltxtsrchngn
 :END:
 
 https://github.com/alraban/org-recoll
@@ -1134,35 +1134,35 @@ https://github.com/alraban/org-recoll
 * TODO [#C] Group hn posts to figure out what to filter? Not sure.. :pkm:hackernews:
 :PROPERTIES:
 :CREATED:  [2019-12-04]
-:ID:       b597d8886ed70fe91132798d3ff32b74
+:ID:       grphnpststfgrtwhttfltrntsr
 :END:
 
 * TODO [#C] show random photos                        :spacedrep:lifelogging:
 :PROPERTIES:
 :CREATED:  [2019-12-06]
-:ID:       c072c92aa96c6f32125f03c5fd521f2a
+:ID:       shwrndmphts
 :END:
 * TODO [#C] motivation for searching over my own posts: quick plaintext interface that works offline :motivation:pkm:
 :PROPERTIES:
 :CREATED:  [2020-01-14]
-:ID:       8f761e0a98108245f7a703455152d0b3
+:ID:       mtvtnfrsrchngvrmywnpstsqckplntxtntrfcthtwrksffln
 :END:
 in your tweets/toots etc there are prompts for longer materials form discussions with other people
 * [#C] [2020-03-09] Pinboard: Bookmark Detail
 :PROPERTIES:
-:ID:       6d47e9c65ba5252bb9e00bdd63d9cd0d
+:ID:       mnpnbrdbkmrkdtl
 :END:
 https://pinboard.in/u:greenireland/b:fe3b28f85645
 : A Complete Guide to Tagging for Personal Knowledge Management
 * [#C] [2020-03-09] Pinboard: Bookmark Detail
 :PROPERTIES:
-:ID:       be96d1a945fd3ac3c0ed9a7b3bbab38a
+:ID:       mnpnbrdbkmrkdtl
 :END:
 https://pinboard.in/u:nhaliday/b:5a4a0ef4c347
 : Ask HN: Favorite note-taking software? | Hacker News
 * [#C] [2020-03-09] Pinboard: Bookmark Detail
 :PROPERTIES:
-:ID:       19f23dfa9aaa657542eaedbdd4a751d1
+:ID:       mnpnbrdbkmrkdtl
 :END:
 https://pinboard.in/u:gnf00x/b:5fa11ae78c6b
 : Knowledge Management
@@ -1170,7 +1170,7 @@ https://pinboard.in/u:gnf00x/b:5fa11ae78c6b
 : 28 days ago by gnf00x  copy to mine
 * [#C] [2020-03-09] Pinboard: Bookmark Detail
 :PROPERTIES:
-:ID:       19f23dfa9aaa657542eaedbdd4a751d1
+:ID:       mnpnbrdbkmrkdtl
 :END:
 https://pinboard.in/u:gnf00x/b:50bdb59f7dbe
 : Knowledge Management Systems: The Ultimate Guide
@@ -1178,7 +1178,7 @@ https://pinboard.in/u:gnf00x/b:50bdb59f7dbe
 : 4 weeks ago by gnf00x  copy to mine
 * [#C] [2020-03-10] Mesh on Twitter: "@Conaw hell to the yes. Roam is so powerful it needs to be at the OS level and maybe beyond. 🤖 I saw mercury OS and immediately thought of Roam, it just intuitively fit. https://t.co/84MtykKJLu" / Twitter
 :PROPERTIES:
-:ID:       a17fc9d38a0f6c454c6e997725cb70f6
+:ID:       tmshntwttrcnwhlltthysrmssstnttvlyftstcmtykkjltwttr
 :END:
 https://twitter.com/meshachthomas/status/1237247575650004994
 : hell to the yes. Roam is so powerful it needs to be at the OS level and maybe beyond.
@@ -1187,7 +1187,7 @@ https://twitter.com/meshachthomas/status/1237247575650004994
 * TODO [#C] wonder if for me this roam thing could be replaced with 'virtual pages', based on properties? :pkm:roam:
 :PROPERTIES:
 :CREATED:  [2020-04-09]
-:ID:       240780d330275cd5b3783af57080392e
+:ID:       wndrffrmthsrmthngcldbrplcdwthvrtlpgsbsdnprprts
 :END:
 
 then you build a graph based on the property. your notes aren't scattered across the filesystem that way
@@ -1197,14 +1197,14 @@ org maybe [] anchor?
 * TODO [#C] search in images with ripgrep-all (rga)               :setup:pkm:
 :PROPERTIES:
 :CREATED:  [2020-04-15]
-:ID:       5eccc21b1294315c464591c8adb6efc0
+:ID:       srchnmgswthrpgrpllrg
 :END:
 : rga ipa . --rga-adapters=+pdfpages,tesseract -g '*.jpg'
 
 could add a ripgrep config for image type??
 * [#C] [2020-04-11] David Laing on Twitter: "I'm stunned by @andy_matuschak's notes at https://t.co/DBxJzZrS2q—both their content and their form. I'm taking inspiration for my own site. I know almost nothing about web development, but yesterday I figured out how to make previews for internal links. Next up, backlinks! https://t.co/dNeJDOoKBG" / Twitter
 :PROPERTIES:
-:ID:       2cad9abec1b912aa4a945fbc68193eb6
+:ID:       stdvdlngntwttrmstnndbyndyxtpbcklnksstcdnjdkbgtwttr
 :END:
 https://twitter.com/davidklaing/status/1248886149625438208
 : I'm stunned by @andy_matuschak
@@ -1213,7 +1213,7 @@ https://twitter.com/davidklaing/status/1248886149625438208
 : I'm taking inspiration for my own site. I know almost nothing about web development, but yesterday I figured out how to make previews for internal links. Next up, backlinks!
 * STRT [#C] [2020-04-13] [[https://lobste.rs/s/coxbxh/curse_xanadu_longest_running_vaporware#c_ilvjpl][The Curse of Xanadu: the longest-running vaporware in computing (1995) | Lobsters]] :xanadu:
 :PROPERTIES:
-:ID:       b28ed51f4b2ce9fd9166c954f12c78cd
+:ID:       mnslbstrsscxbxhcrsxndlngsstrnnngvprwrncmptnglbstrs
 :END:
 : 
 : enkiv2 avatar enkiv2 2 hours ago | link |
@@ -1224,30 +1224,30 @@ wow that's fascinating
 * TODO [#C] Nototo is a spatial note-taking app. It lets you build an ever-expanding, topographical map containing your notes and writing. The app is designed this way to take advantage of another aspect of spatial interfaces: our brains remember spaces better than raw information. In this regard, Nototo is like a software manifestation of a memory palace.
 :PROPERTIES:
 :CREATED:  [2020-05-02]
-:ID:       690fdbd445ba217138ac286cb0f39354
+:ID:       nttssptlnttkngpptltsybldnttslksftwrmnfsttnfmmryplc
 :END:
 [[https://darkblueheaven.com/spatialsoftware/][Spatial Software]]
 [[https://hyp.is/QR7OkIyqEeq_lFt1W4Wygw/darkblueheaven.com/spatialsoftware/][in context]]
 * TODO [#C] blocking site from search                                :search:
 :PROPERTIES:
 :CREATED:  [2020-05-25]
-:ID:       1f7fca9d0a2a6ca94f23417c16fa5a8b
+:ID:       blckngstfrmsrch
 :END:
 : This used to be built-in to google itself. You could choose to block a site from future results from any results page. But they killed it, along with forum search, code search, usenet search, and so many other useful things.
 * TODO [#C] "eh why" -- not converted to org?                   :orger:polar:
 :PROPERTIES:
 :CREATED:  [2020-05-25]
-:ID:       3de6546e29d9e7cf3b703a04efa9a1c3
+:ID:       hwhyntcnvrtdtrg
 :END:
 * [#C] [2020-07-03] [[https://twitter.com/sarah_zrf/status/1279055034798440449][america hater sarahzrf on Twitter: "god damn its nice to be able to just type a few keywords from a title into zotero's search instead of having to remember what shitty filename i saved something under" / Twitter]]
 :PROPERTIES:
-:ID:       9db7524c10d5d61f0aecb4edd117cf19
+:ID:       frstwttrcmsrhzrfsttsmrchthttyflnmsvdsmthngndrtwttr
 :END:
 : god damn its nice to be able to just type a few keywords from a title into zotero's search instead of having to remember what shitty filename i saved something under
 * TODO [#C] Tweet from @andy_matuschak https://twitter.com/andy_matuschak/status/1278498290296745984
 :PROPERTIES:
 :CREATED:  [2020-07-02]
-:ID:       decc74c617ffd13698097fe3baf08706
+:ID:       twtfrmndymtschkstwttrcmndymtschkstts
 :END:
 : @andy_matuschak: Some people collect stamps; I’ve been collecting unusual applications of spaced repetition systems.
 : I realized today that I haven’t yet solicited the power of Twitter here! What weird use cases have you found?
@@ -1256,7 +1256,7 @@ wow that's fascinating
 * TODO [#C] Tweet from @cj_pais
 :PROPERTIES:
 :CREATED:  [2020-07-07]
-:ID:       3f58cf3dc54080999e30ea0274f1a71b
+:ID:       twtfrmcjps
 :END:
 
 : https://twitter.com/cj_pais/status/1280315415491559424
@@ -1267,32 +1267,32 @@ wow that's fascinating
 * TODO [#C] blog -- move to phone (after reinstall?)                    :pkm:
 :PROPERTIES:
 :CREATED:  [2020-08-01]
-:ID:       d27256771488a7456ccb45b40ba82c21
+:ID:       blgmvtphnftrrnstll
 :END:
 * TODO [#C] archived stuff -- use .ignore file?                         :pkm:
 :PROPERTIES:
 :CREATED:  [2020-08-07]
-:ID:       0fa687118eb20a4910a82111f600a811
+:ID:       rchvdstffsgnrfl
 :END:
 * TODO [#C] This is my personal human computer interaction interface https://github.com/codygman/hci :search:
 :PROPERTIES:
 :CREATED:  [2020-05-20]
-:ID:       d8e02457b8587157a3af0edbb52d2538
+:ID:       thssmyprsnlhmncmptrntrctnntrfcsgthbcmcdygmnhc
 :END:
 * TODO [#C] have symlinks to files in my knowledge from the repositories? e.g. promnesia/hpi. allow following symlinks for certain types? :pkm:
 :PROPERTIES:
 :CREATED:  [2020-09-11]
-:ID:       172407fdb67fc48462cb44e06471f606
+:ID:       hvsymlnkstflsnmyknwldgfrmlwfllwngsymlnksfrcrtntyps
 :END:
 * [#C] [2020-08-26] [[https://twitter.com/logseq][logseq (@logseq) / Twitter]] :pkm:exobrain:
 :PROPERTIES:
-:ID:       de6391e3ab73964cec0bfcbc07a2782e
+:ID:       wdstwttrcmlgsqlgsqlgsqtwttr
 :END:
 right, def need to try it out, seems it has publishing or something?
 * TODO [#D] Tweet from Nat Eliason (@nateliason), at Jan 9, 07:21
 :PROPERTIES:
 :CREATED:  [2020-01-09]
-:ID:       fa55b6e7dd0b8cf1fe7ae5fe06023fd3
+:ID:       twtfrmntlsnntlsntjn
 :END:
 : Alright, it's alive!
 : 3,000+ words on @RoamResearch, including why it's better than Evernote / Notion, and how I'm using it.
@@ -1309,46 +1309,46 @@ right, def need to try it out, seems it has publishing or something?
 
 * [#D] [2019-05-10] [[https://reddit.com/r/fossdroid/comments/blnpfz/markor_v18_all_new_file_browser_favourites_and/][Markor v1.8 - All new file browser, favourites and faster Markdown preview]] /r/fossdroid
 :PROPERTIES:
-:ID:       705439303d14d20b7719b298ab386c48
+:ID:       frsrddtcmrfssdrdcmmntsblntsndfstrmrkdwnprvwrfssdrd
 :END:
 * TODO [#D] go through all the ANN documents, wonder if any annotations are inside... :pkm:
 :PROPERTIES:
 :CREATED:  [2019-04-20]
-:ID:       66f74af60300af4e1e683321d0b676cc
+:ID:       gthrghllthnndcmntswndrfnynnttnsrnsd
 :END:
 * TODO [#D] maybe instead of PKM use KM? the shorter it is the easier it is maybe? :pkm:
 :PROPERTIES:
 :CREATED:  [2019-06-22]
-:ID:       9695c5976a9b081e37b34f9ada183613
+:ID:       mybnstdfpkmskmthshrtrtsthsrtsmyb
 :END:
 * STRT [#D] [2019-05-21] Keeping Found Things Found: The Book | Keeping Found Things Found :pkm:
 :PROPERTIES:
-:ID:       ac57e4590770cbfad1c440aa08cede36
+:ID:       tkpngfndthngsfndthbkkpngfndthngsfnd
 :END:
 http://www.keepingfoundthingsfound.com/book
 
 * [#D] [2019-07-27] Tweet from Andy Matuschak (@andy_matuschak), at Jul 27, 01:00 :pkm:
 :PROPERTIES:
-:ID:       d6065c792a15262dc6233f417c795985
+:ID:       sttwtfrmndymtschkndymtschktjl
 :END:
 : @nicknikolov @marcinignac @context_ing Yes, they get modified in-place. I run the backlinks janitor at night. I also have this little bot, which I've published: https://t.co/mOy7RIsnn9
 : https://twitter.com/andy_matuschak/status/1154904280853204992
 
 * TODO [#D] [2019-11-21] Samuel Breese                                  :pkm:
 :PROPERTIES:
-:ID:       db53ad6fa34da0f81d19305cbd24ecaa
+:ID:       thsmlbrs
 :END:
 https://chame.co
 : Most of my personal data is managed using the excellent git-annex.
 * TODO [#D] comments duplicate..                                      :polar:
 :PROPERTIES:
 :CREATED:  [2019-02-22]
-:ID:       b8d0a4ce7c98c7143b24b4a7413d372f
+:ID:       cmmntsdplct
 :END:
 * STRT [#D] Tweet from Tiago Forte (@fortelabs), at Aug 26, 04:03 How to read non-fiction books :reading:
 :PROPERTIES:
 :CREATED:  [2019-08-26]
-:ID:       918c4d3fa594743fde91429f745576aa
+:ID:       twtfrmtgfrtfrtlbstghwtrdnnfctnbks
 :END:
 : How to read non-fiction books:
 : 1. Read first 30%
@@ -1362,44 +1362,44 @@ https://twitter.com/fortelabs/status/1165822145550663680
 
 * [#D] [2019-01-17] RaRe-Technologies/gensim: Topic Modelling for Humans :nlp:infextraction:
 :PROPERTIES:
-:ID:       54e769f29cc050ed8b22a2b15e267edd
+:ID:       thrrtchnlgsgnsmtpcmdllngfrhmns
 :END:
 https://github.com/RaRe-Technologies/gensim
 
 * WAIT [#D] [2019-06-20] Download | Open Semantic Search
 :PROPERTIES:
-:ID:       181066eab183b215f2cd3dee3c0327ad
+:ID:       thdwnldpnsmntcsrch
 :END:
 https://www.opensemanticsearch.org/download/
 : Open Semantic Desktop Search is the all in one package for desktop users as virtual machine image configured for search on your own desktop computer or laptop running on Linux, Windows or iOS for Mac.
 ** [2019-07-23] https://www.opensemanticsearch.org/doc/datamanagement/annotation
 :PROPERTIES:
-:ID:       92f14ef91cab35eb1239e11947fd763c
+:ID:       tswwwpnsmntcsrchrgdcdtmngmntnnttn
 :END:
 so, it integrates with Hypothesis? https://www.opensemanticsearch.org/doc/datamanagement/annotation/hypothesis
 *** [2019-07-23] looks a bit manual otherwise though
 :PROPERTIES:
-:ID:       5ddeb0e10837358f0685a84a6e654fbd
+:ID:       tlksbtmnlthrwsthgh
 :END:
 *** [2019-07-23] not many results on pinboard
 :PROPERTIES:
-:ID:       7ccee0571b4fe8a345f041a3fd78c3e4
+:ID:       tntmnyrsltsnpnbrd
 :END:
 * TODO [#D] pkm python package for quickly adding things to my todo list? :pkm:
 :PROPERTIES:
 :CREATED:  [2019-01-27]
-:ID:       5997010fd470252e44345f1847d7517c
+:ID:       pkmpythnpckgfrqcklyddngthngstmytdlst
 :END:
 
 ** [2019-02-06] a python my.todos.add function would be cool
 :PROPERTIES:
-:ID:       c6753fe057c1503fbdf4131865ccfa53
+:ID:       wdpythnmytdsddfnctnwldbcl
 :END:
 not sure, maybe appending entries is ok?...
 * TODO [#D] actually pinboard could be used as org export... or sync one tag from org to pinboard tag? :pinboard:pkm:org:
 :PROPERTIES:
 :CREATED:  [2018-06-10]
-:ID:       21e9dda56b734fd81cdd427ea32e8bad
+:ID:       ctllypnbrdcldbsdsrgxprtrsyncntgfrmrgtpnbrdtg
 :END:
 
 Generate from backup
@@ -1407,11 +1407,11 @@ Generate from backup
 * TODO [#D] diagram of my tasks dependencies (also completed ones?)     :pkm:
 :PROPERTIES:
 :CREATED:  [2019-02-20]
-:ID:       ba9c49c134219e416f7788db2b52c278
+:ID:       dgrmfmytsksdpndncslscmpltdns
 :END:
 * [#D] [2019-05-19] modifying reading stats (number of books read and hours read)? - MobileRead Forums
 :PROPERTIES:
-:ID:       2453c9732051edb124bce63f2cea5495
+:ID:       snmdfyngrdngsttsnmbrfbksrdndhrsrdmblrdfrms
 :END:
 https://www.mobileread.com/forums/showthread.php?t=212875
 : For events 1, 36, 52 and 79 there seem to be only one row.
@@ -1421,7 +1421,7 @@ https://www.mobileread.com/forums/showthread.php?t=212875
 : When I have looked at ExtraData, it tends to be made up of a series of timestamps. I suspect that for events like 1020 and 1021, it is a list of the times when the event occurred. The pairs from the two events might be used to calculate the minutes per session and hours read. The only problem with that, is that the counts don't match for the book I am currently reading. I am confident of the meaning of the events, but there seems to be occasions when the close is not recorded.
 * [#D] [2019-05-16] [[https://reddit.com/r/knowledgemanagement/comments/boev09/new_tool_km_for_digital_collectionsstructured_data/][New tool: KM for digital collections/structured data]] /r/knowledgemanagement
 :PROPERTIES:
-:ID:       2d3af743b0ccc174c9eac00f89ac163d
+:ID:       thsrddtcmrknwldgmngmntcmmtnsstrctrddtrknwldgmngmnt
 :END:
 :  Hi everyone,
 :  I wanted to share a new knowledge management tool called [Gist](https://www.gistapp.com), for exploring data visually and adding context to digital collections.
@@ -1429,39 +1429,39 @@ https://www.mobileread.com/forums/showthread.php?t=212875
 :  I'd be curious to hear your thoughts. Thanks!
 * [#D] [2019-05-16] [[https://reddit.com/r/orgmode/comments/bo5yvk/orgmode_hidden_gems_03_hyperlinks/][Org-mode Hidden Gems - 03 Hyperlinks]] /r/orgmode
 :PROPERTIES:
-:ID:       c93604ed1c58a784c2cae26d0e32614b
+:ID:       thsrddtcmrrgmdcmmntsbyvkrsrgmdhddngmshyprlnksrrgmd
 :END:
 * TODO [#D] [2019-06-13] Juan Campa on Twitter: "Dataspace is a fascinating concept by @natecull, reminds me a bit of @urbit and of course Membrane. https://t.co/SNXwAeA46a… https://t.co/4gEnZHUO2K"
 :PROPERTIES:
-:ID:       48ebec1669a1d609235fa171debc4a60
+:ID:       thjncmpntwttrdtspcsfscntndfcrsmmbrnstcsnxwstcgnzhk
 :END:
 https://twitter.com/juancampa/status/1030555210517815296
 : Dataspace is a fascinating concept by @natecull, reminds me a bit of @urbit and of course Membrane.
 * WAIT [#D] [2019-06-22] HowTo: Building Personal Index for Data Discovery - Virtuoso Universal Server / Tips, Tricks, and HowTos - OpenLink Software Community
 :PROPERTIES:
-:ID:       e11089f68d25af12888f2a0fae223bca
+:ID:       sthwtbldngprsnlndxfrdtdsccksndhwtspnlnksftwrcmmnty
 :END:
 https://community.openlinksw.com/t/howto-building-personal-index-for-data-discovery/900
 huh... found in KM tag
 * [#D] [2019-04-05] zadam/trilium: Build your personal knowledge base with Trilium Notes :pkm:
 :PROPERTIES:
-:ID:       0d55ec74397d7db137a7a3b9d540d659
+:ID:       frzdmtrlmbldyrprsnlknwldgbswthtrlmnts
 :END:
 https://github.com/zadam/trilium
 ** [2019-06-13] erm, I guess it's not plaintext...
 :PROPERTIES:
-:ID:       58066de54c2deb3015dc5f2e18871cb0
+:ID:       thrmgsstsntplntxt
 :END:
 
 * [#D] [2019-06-27] Non-fiction books: a waste of time? o_O
 :PROPERTIES:
-:ID:       02e4b0f5c356c39825e716de343c4b5c
+:ID:       thnnfctnbkswstftm
 :END:
 https://no-kill-switch.ghost.io/non-fiction-books-a-waste-of-time/
 : I make highlights & put bookmarks (using Kindle's built-in functionality, integrated with Goodreads) EVERY TIME I find something thought-provoking
 * [#D] [2019-09-05] Using Org-Brain
 :PROPERTIES:
-:ID:       ea38a8904854470a9e715913dc320a33
+:ID:       thsngrgbrn
 :END:
 http://www.bobnewell.net/publish/35years/orgbrain.html
 : Links are at times illogical
@@ -1473,36 +1473,36 @@ http://www.bobnewell.net/publish/35years/orgbrain.html
 : You’ll have to experiment a lot to get the hang of it
 * [#D] [2019-11-01] Youtoofy
 :PROPERTIES:
-:ID:       a6207c497a1f6a3821d562c20fbe8acb
+:ID:       frytfy
 :END:
 https://www.youtoofy.com
 
 * TODO [#D] https://github.com/dvorka/mindforger
 :PROPERTIES:
 :CREATED:  [2019-11-19]
-:ID:       e341ef77f693642fdbd117c3d311cd00
+:ID:       sgthbcmdvrkmndfrgr
 :END:
 
 * TODO [#D] RSS it not really helpful; doesn't show diff...  :github:pkm:rss:
 :PROPERTIES:
 :CREATED:  [2019-12-24]
-:ID:       e683293d396cc1a9c24fb17641097a4f
+:ID:       rsstntrllyhlpfldsntshwdff
 :END:
 * [#D] [2020-03-24] Metaformat · GitBook
 :PROPERTIES:
-:ID:       dfeabe645288fbc49a4eec1653f2e8a7
+:ID:       tmtfrmtgtbk
 :END:
 https://book.mindey.com/metaformat/0001-metaform-philosophy/0001-metaform-philosophy.html
 * TODO [#D] Tweet from @Conaw Aspirations and inspirations thread https://t.co/YrwBJiP6dk
 :PROPERTIES:
 :CREATED:  [2020-04-16]
-:ID:       65f087a42298997e10049f9720bdda9c
+:ID:       twtfrmcnwsprtnsndnsprtnsthrdstcyrwbjpdk
 :END:
 https://twitter.com/Conaw/status/1209412548736385025
 * TODO [#D] Tweet from @round                                          :axol:
 :PROPERTIES:
 :CREATED:  [2020-05-03]
-:ID:       8675efb4ca3ef8c0aee208c3e2fb6fc1
+:ID:       twtfrmrnd
 :END:
 
 : https://twitter.com/round/status/1240043788078211072
@@ -1515,43 +1515,43 @@ https://t.co/btoBlnqk4e https://t.co/pEyI7N5EhY
 * TODO [#D] https://github.com/houshuang/Treeverse              :twitter:pkm:
 :PROPERTIES:
 :CREATED:  [2020-06-10]
-:ID:       c987bb3f008467da74007918600b67a9
+:ID:       sgthbcmhshngtrvrs
 :END:
 
 * [#D] [2019-08-06] Visakan Veerasamy on Twitter: "I usually talk about this in the context of personal knowledge management, about fun things like keeping track of quotes and riffs and blogpost ideas. Usually this is about me helping other (usually younger) scatterbrained people https://t.co/uPoy7Qw00j" / Twitter
 :PROPERTIES:
-:ID:       9ae03769dc556823b3752fbfe2068960
+:ID:       tvsknvrsmyntwttrsllytlkbtscttrbrndpplstcpyqwjtwttr
 :END:
 https://twitter.com/visakanv/status/1157630882879926272
 : I usually talk about this in the context of personal knowledge management, about fun things like keeping track of quotes and riffs and blogpost ideas. Usually this is about me helping other (usually younger) scatterbrained people
 * [#D] [2019-09-20] vimoutliner/vimoutliner: Work fast, think well.
 :PROPERTIES:
-:ID:       8ed4de205a2dda419c27ac71aceea6c7
+:ID:       frvmtlnrvmtlnrwrkfstthnkwll
 :END:
 https://github.com/vimoutliner/vimoutliner
 
 * [#D] [2019-11-17] WICG/ScrollToTextFragment: Proposal to allow specifying a text snippet in a URL fragment
 :PROPERTIES:
-:ID:       884181da26ddb5cb886708dafe16b73a
+:ID:       snwcgscrllttxtfrgmntprpslwspcfyngtxtsnpptnrlfrgmnt
 :END:
 https://github.com/WICG/ScrollToTextFragment
 
 * TODO [#D] ugh, massive duplication in неореакция-конспирология. wtf??? :infra:vk:
 :PROPERTIES:
 :CREATED:  [2020-01-11]
-:ID:       fad5f8a1800d3a4d266ccbbf2a8f2f61
+:ID:       ghmssvdplctnnнеореакцияконспирологияwtf
 :END:
 e.g. search by 'whatsapp'
 * TODO [#D] Archived tag -- prefix with underscore?                     :org:
 :PROPERTIES:
 :CREATED:  [2020-02-04]
-:ID:       b4272932144c4af937dea07a8a794fde
+:ID:       rchvdtgprfxwthndrscr
 :END:
 
 * [#D] Tweet from @Conaw                                         :pkm:memory:
 :PROPERTIES:
 :CREATED:  [2020-02-21]
-:ID:       c76377869ee0d70d0a0d61932c51cc92
+:ID:       twtfrmcnw
 :END:
 
 https://twitter.com/Conaw/status/1230685750837923840
@@ -1564,77 +1564,77 @@ https://twitter.com/Conaw/status/1230685750837923840
 * [#D] Tweet from @RoamBrain
 :PROPERTIES:
 :CREATED:  [2020-02-24]
-:ID:       3746071b9d6bbb7f3104cb0672065f54
+:ID:       twtfrmrmbrn
 :END:
 https://twitter.com/RoamBrain/status/1232026686499090432
 : @RoamBrain: The RoamBrain website has just launched. It is an independent information and resource hub for @RoamResearch serving both people new to Roam and more advanced users. RoamCult RoamBrain.com
 * [#D] [2020-03-09] Pinboard: Bookmark Detail
 :PROPERTIES:
-:ID:       e1206ab959f0d38b5c9787e57316ed9b
+:ID:       mnpnbrdbkmrkdtl
 :END:
 https://pinboard.in/u:nicknikolov/b:56c8b251c429
 : space and times
 : pkm
 * [#D] [2020-03-13] tool for Twitter Timeline Search. Analytics & filters for Twitter Accounts :twitter:
 :PROPERTIES:
-:ID:       6719e410ca522f0da2d8be4fa3e30e90
+:ID:       frtlfrtwttrtmlnsrchnlytcsfltrsfrtwttrccnts
 :END:
 https://socialbearing.com/search/user
 explore accounts; find best tweets
 * TODO [#D] right, urls separated by commas... not ideal?             :twint:
 :PROPERTIES:
 :CREATED:  [2020-04-14]
-:ID:       45b8978ef5dbd2726799a8d23e48b858
+:ID:       rghtrlssprtdbycmmsntdl
 :END:
 : http://archive.org,https://github.com/pirate/ArchiveBox
 * [#D] [2020-04-26] [[https://beepb00p.xyz/annotating.html][How to annotate literally everything | beepb00p]]
 :PROPERTIES:
-:ID:       800f0a55e8c347e906287708f503e348
+:ID:       snsbpbpxyznnttnghtmlhwtnnttltrllyvrythngbpbp
 :END:
 : Nice work! However it is possible to search through annotations using emacs pdf-tools, actually the search and filter functions are quite powerful in the annotation tablist, but you need to show contents first in the tablist buffer by customizing the pdf-annot-list-format variable (more info is found in issue 553: https://github.com/politza/pdf-tools/issues/553). The annotation tablist functionality is more or less only documented in its major-mode info. The code for the search function posted in that issue works nice also (actually it works better than searching via the tablist because there is a bug in the tablist search as mentioned in the comments of that issue).
 : 
 : Additionally I read that you don't like to use the mouse to add annotations. With the code in the pdf-avy-highlight.el file in this repository: https://github.com/dalanicolai/dala-emacs-lisp it is possible to highlight text and add comments (if you set to open them automatically by toggling the Pdf Annot Activate Created Annotations to "on" in the pdf-annot group in the customization menu) with only the keyboard using avy. You should should add your own shortcut for it (the one in the file is for use in Spacemacs). Unfortunately it does not work more conveniently than using the mouse. But I just like to point out the possibilities and versatility of emacs and pdf-tools...
 * [2020-04-14] [[https://github.com/phiresky/ripgrep-all][phiresky/ripgrep-all: rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.]]
 :PROPERTIES:
-:ID:       053f0604211f6494ac9a5453946a4107
+:ID:       tsgthbcmphrskyrpgrpllphrsnpdfsbksffcdcmntszptrgztc
 :END:
 * DONE [#A] Learn to remember things. Its super useful and saves lots of context switch :memory:
 :PROPERTIES:
 :CREATED:  [2018-06-08]
-:ID:       0e90f59fba77cb4aa7552775bd424ef6
+:ID:       lrntrmmbrthngstssprsflndsvsltsfcntxtswtch
 :END:
 
 ** TODO maybe do dual n-back?                                         :nback:
 :PROPERTIES:
-:ID:       d1ccf675927caa30b2967cf4451b7d61
+:ID:       mybddlnbck
 :END:
 ** [2018-07-07] actually, if I really try hard, I do seem to memorise. However I'd like it to be more passive
 :PROPERTIES:
-:ID:       38d557889c0ffcf527441a4fc83b2117
+:ID:       stctllyfrllytryhrddsmtmmrshwvrdlkttbmrpssv
 :END:
 ** [2019-07-30] eh, I think I'm fine. I haven't been annoyed at forgeting things since don't know when
 :PROPERTIES:
-:ID:       caf3b2171f98d9cf67a2f8115fb9c78b
+:ID:       ththnkmfnhvntbnnnydtfrgtngthngssncdntknwwhn
 :END:
 * STRT [#C] [2020-10-07] [[https://twitter.com/Ceasar_Bautista][Ceasar Bautista (@Ceasar_Bautista) / Twitter]] :pkm:social:
 :PROPERTIES:
-:ID:       80c123f489be42d12353066391bd0023
+:ID:       wdstwttrcmcsrbtstcsrbtstcsrbtsttwttr
 :END:
 : I've been writing my own encyclopedia at http://memex.cc for 7 years. Read a lot of tech, econ, science, philosophy. Sharing the things that surprise me here.
 * STRT [#C] [2020-05-16] [[https://news.ycombinator.com/item?id=23202850][Ask HN: Is there a search engine which excludes the world's biggest websites?]] :search:
 :PROPERTIES:
-:ID:       109000884dd40ff61b452c65a59b1a29
+:ID:       stsnwsycmbntrcmtmdskhnsthhchxcldsthwrldsbggstwbsts
 :END:
 https://news.ycombinator.com/item?id=23202850
 * DONE [#B] [2020-05-25] [[https://news.ycombinator.com/item?id=23295989][Show HN: A Firefox add-on to strip Google search results of 'blacklisted' URLs]]
 :PROPERTIES:
-:ID:       975add34cb2ac33022b727dd60d804b5
+:ID:       mnsnwsycmbntrcmtmdshwhnfrpgglsrchrsltsfblcklstdrls
 :END:
 https://github.com/davidahmed/wiper
 * TODO [#C] Tweet from @posobin show to lunachev?
 :PROPERTIES:
 :CREATED:  [2020-10-21]
-:ID:       fa2373d5b31eb43cbda279c405a2c33b
+:ID:       twtfrmpsbnshwtlnchv
 :END:
 
 https://twitter.com/posobin/status/1318696146508877834
@@ -1646,144 +1646,144 @@ https://twitter.com/posobin/status/1318696146508877834
 * DONE Malleable Systems: Software must be as easy to change as it is to use it
 :PROPERTIES:
 :CREATED:  [2020-04-14]
-:ID:       ed5c4da0c8585c2d854abd8da5098eae
+:ID:       mllblsystmssftwrmstbssytchngststst
 :END:
 Malleable Systems: Software must be as easy to change as it is to use it - https://news.ycombinator.com/item?id=22857551
 * TODO setup gnome tracker?                                          :search:
 :PROPERTIES:
 :CREATED:  [2020-10-27]
-:ID:       5d58aaa6f9d6cf2954034927edb384b0
+:ID:       stpgnmtrckr
 :END:
 * STRT [#C] [2020-10-25] [[https://en.wikipedia.org/wiki/Xapian][Xapian - Wikipedia]] :outbox:
 :PROPERTIES:
-:ID:       c82a0fb947635c3a8079e60c06462990
+:ID:       snsnwkpdrgwkxpnxpnwkpd
 :END:
 post about desktop search engines?
 * [2020-10-25] [[https://github.com/FabriceColin/pinot][FabriceColin/pinot: Personal search and metasearch for the Free Desktop]] :search:pkm:
 :PROPERTIES:
-:ID:       06defe08193311843e49d3de57fce767
+:ID:       snsgthbcmfbrcclnpntfbrcclnlsrchndmtsrchfrthfrdsktp
 :END:
 eh, it's very simplistic..
 * [2019-12-08] information queue?                         :pkm:search:toblog:
 :PROPERTIES:
-:ID:       7e2aaf27f63081ef5a9b1855e33a741b
+:ID:       snnfrmtnq
 :END:
 * TODO [#C] [2020-03-06] [[https://news.ycombinator.com/item?id=22492381][Using Anki to remember what you read]]
 :PROPERTIES:
-:ID:       f0801631bd51c2fe3ec4441717df7ab6
+:ID:       frsnwsycmbntrcmtmdsngnktrmmbrwhtyrd
 :END:
 https://superorganizers.substack.com/p/how-to-build-a-learning-machine###
 * TODO meh. fuck youtube playlists, I can't even comment on why videos are interesting :pkm:
 :PROPERTIES:
 :CREATED:  [2020-12-03]
-:ID:       47ddd417d30b1c4f029a0eb3ffc10550
+:ID:       mhfckytbplylstscntvncmmntnwhyvdsrntrstng
 :END:
 - manage playlists in exobrain
 - sync playlists with youtube
 - in each playlists description add a link to exobrain playlist
 * TODO [#C] [2020-01-25] Re: [koniu/recoll-webui] NOTE: A (Python 3) fork is actively maintained here (74)
 :PROPERTIES:
-:ID:       41315393bf37d7a64637661295995ece
+:ID:       strknrcllwbntpythnfrksctvlymntndhr
 :END:
 : [koniu/recoll-webui] NOTE: A (Python 3) fork is actively maintained here
 * STRT [#C] [2020-01-30] dessant/web-archives: 📦 Browser extension for viewing archived and cached versions of web pages
 :PROPERTIES:
-:ID:       59cad1019abfc32b5cf9cd929a7680f4
+:ID:       thdssntwbrchvsbrwsrxtnsnfwngrchvdndcchdvrsnsfwbpgs
 :END:
 https://github.com/dessant/web-archives
 : package Browser extension for viewing archived and cached versions of web pages
 * TODO [#C] [2020-05-12] [[https://thinkingtools.space/][Thinking Tools - Electric bicycles for the mind]]
 :PROPERTIES:
-:ID:       38ce3f057da9b0b2e464f23ab82708ac
+:ID:       tsthnkngtlsspcthnkngtlslctrcbcyclsfrthmnd
 :END:
 ** [2020-12-16] subscribe?
 :PROPERTIES:
-:ID:       9a9b4b34722c81581e532be7f36de564
+:ID:       wdsbscrb
 :END:
 
 * STRT I need to stop caring so much about priorities. they change anyway and mean very little for other people :org:exobrain:
 :PROPERTIES:
 :CREATED:  [2020-12-20]
-:ID:       37004ab07ef3f7bc52f9b602ef370750
+:ID:       ndtstpcrngsmchbtprrtsthycngnywyndmnvrylttlfrthrppl
 :END:
 * DONE [#B] need to display how deep is the item in agenda, otherwise hard to prioritize.. :org:
 :PROPERTIES:
 :CREATED:  [2019-06-18]
-:ID:       612daeac544ed07a9f7dfc5b0e38ab36
+:ID:       ndtdsplyhwdpsthtmngndthrwshrdtprrtz
 :END:
 * DONE [#B] pinborg pkm                                              :pkm:ml:
 :PROPERTIES:
-:ID:       105461b30ad53cd192e27dc0f0687d41
+:ID:       pnbrgpkm
 :END:
 http://www.drbunsen.org/pinborg
 Ok pretty cool, but I think it's a bit too elaborate for me
 
 ** [2019-02-06] read it a while ago, but should do again, now that I have my own tool
 :PROPERTIES:
-:ID:       859ec52fe8af9aa12304e3d63752adf7
+:ID:       wdrdtwhlgbtshlddgnnwththvmywntl
 :END:
 ** [2019-07-23] huh, actually now I'm really thinking it makes sense lol
 :PROPERTIES:
-:ID:       5763b2d53a1c507d59e5a0cef566fdae
+:ID:       thhctllynwmrllythnkngtmkssnsll
 :END:
 * DONE [#B] [2019-07-20] KnownSpace Links                               :pkm:
 :PROPERTIES:
-:ID:       e1d053b7dbe2590026c6587c54d42308
+:ID:       stknwnspclnks
 :END:
 http://www.roxie.org/knownspacelinks.html
 : Today's desktops are two decades old. They were hot biscuits then, but stale and crumbly---and moldy---bread today.
 ** [2019-08-13] dunno, everything looks pretty outdated
 :PROPERTIES:
-:ID:       11c3e9f0f48960e1259cbb3836411b3d
+:ID:       tdnnvrythnglksprttytdtd
 :END:
 * DONE [#B] [2019-12-18] silo - IndieWeb                         :toblog:pkm:
 :PROPERTIES:
-:ID:       0006d2015292a5432847e1ac70ae6cf0
+:ID:       wdslndwb
 :END:
 https://indieweb.org/silo
 
 * CANCEL [#C] Figure out todo for gmail
 :PROPERTIES:
 :CREATED:  [2019-03-11]
-:ID:       ba933a40864aa60893dadea55d45b7c1
+:ID:       fgrttdfrgml
 :END:
 ** [2019-06-13] ugh. ifttt can't even create a custom
 :PROPERTIES:
-:ID:       ddb9f63afa69dfde5f66786c84ae61ac
+:ID:       thghftttcntvncrtcstm
 :END:
 
 * DONE [#C] [2018-07-17] emacsomancer comments on So I just discovered org mode. Head = blown. :org:pkm:annotation:
 :PROPERTIES:
-:ID:       1d5b732c8d90f04ad02480106c728abf
+:ID:       tmcsmncrcmmntsnsjstdscvrdrgmdhdblwn
 :END:
 https://www.reddit.com/r/orgmode/comments/8vav52/so_i_just_discovered_org_mode_head_blown/e1mtayb/
 interleave, org-noter
 
 * DONE [#C] [2019-12-22] datapuller
 :PROPERTIES:
-:ID:       bb96a2b28b03f8cf2de939e3e89bba99
+:ID:       sndtpllr
 :END:
 https://news.ycombinator.com/item?id=21844105
 : austil 1 day ago [-]
 : Hey, I'm on this journey too ! https://github.com/austil/datapuller
 ** [2019-12-24] I mean it's ok, but not as elaborate as mine..
 :PROPERTIES:
-:ID:       47668acf567cebe1a4952545ed2f4691
+:ID:       tmntskbtntslbrtsmn
 :END:
 * DONE evaluating feedbin to replace feedly                             :rss:
 :PROPERTIES:
 :CREATED:  [2019-04-17]
-:ID:       6fc381ba7a66a278b59b2c0f8f9e9cb1
+:ID:       vltngfdbntrplcfdly
 :END:
 - State "STRT"      from "TODO"       [2019-04-17]
 ** [2019-04-27] till 2 May?
 :PROPERTIES:
-:ID:       d94454a5928d8c069e5d0e205e4d35b4
+:ID:       sttllmy
 :END:
 * DONE Tweet from Patrick Collison (@patrickc), at Jul 23, 16:40
 :PROPERTIES:
 :CREATED:  [2019-07-23]
-:ID:       a27792e8b49eddee9d4e10c3576a6335
+:ID:       twtfrmptrckcllsnptrckctjl
 :END:
 : Is there a good @Pocket / @Instapaper alternative that reliably stores content for offline reading and handles PDFs properly? (Not sure about Instapaper, but Pocket only manages to render saved content ~70% of the time.)
 
@@ -1791,25 +1791,25 @@ https://twitter.com/patrickc/status/1153691264983764996
 
 * DONE [2018-11-12] MindForger - Thinking Notebook and Markdown IDE
 :PROPERTIES:
-:ID:       8a024f7eca8f26168a76eda7c11ce259
+:ID:       mnmndfrgrthnkngntbkndmrkdwnd
 :END:
 https://www.mindforger.com/
 ** TODO review it and compare with org-mode?
 :PROPERTIES:
-:ID:       958a9599b0279a7d8a11deacc9c9bdce
+:ID:       rvwtndcmprwthrgmd
 :END:
 ** TODO add it to searchalert??                                        :axol:
 :PROPERTIES:
-:ID:       01160dd3b39d261c8fb6e1a9c3521498
+:ID:       ddttsrchlrt
 :END:
 * DONE [#B] obstacles to more effecient PKM          :emacs:pkm:setup:toblog:
 :PROPERTIES:
 :CREATED:  [2018-07-04]
-:ID:       b5c5ce56173d25c34e2f89b14ad64bc3
+:ID:       bstclstmrffcntpkm
 :END:
 ** STRT next, search. my SPC S thing is pretty good already would be nice to have it available both in emacs and in shell. put in a config file, read it at emacs startup ok, they even share a config. nice
 :PROPERTIES:
-:ID:       7f5ebf3834de728372d63249f73c296e
+:ID:       nxtsrchmyspcsthngsprttygdttmcsstrtpkthyvnshrcnfgnc
 :END:
 ** TODO use S for searching info in terminal                            :pkm:
 :PROPERTIES:
@@ -1817,17 +1817,17 @@ https://www.mindforger.com/
 :END:
 *** STRT recoll config, share it                                      :setup:
 :PROPERTIES:
-:ID:       40e2ea33db3004b7d014140881696bff
+:ID:       rcllcnfgshrt
 :END:
 ** STRT next, indexing search. Use that plugin for indexing thing at home make sure I can easily tag match against _all_ accessible org entries, would be nice to have agenda view for them ok, org-tags-view kinda do that? org-search-view! the only (possibly) annoying thing is everything has to contribute to agenda? so could set custom scope (with some cache?)
 :PROPERTIES:
-:ID:       a48a9e042cd51cbf86869d947b6286af
+:ID:       nxtndxngsrchsthtplgnfrndxtgndscldstcstmscpwthsmcch
 :END:
 *** TODO maybe I need something caching all agenda entries? cause it could e too slow...
 :PROPERTIES:
-:ID:       89b100700149844486c04ddd590ca950
+:ID:       mybndsmthngcchngllgndntrscstcldtslw
 :END:
 *** DONE automatic searches for interesting topics                     :axol:
 :PROPERTIES:
-:ID:       afe9b944211872e22eae1682588f1f07
+:ID:       tmtcsrchsfrntrstngtpcs
 :END:

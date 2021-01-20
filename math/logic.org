@@ -3,13 +3,13 @@
 
 * [2017-11-30] Continuum hypothesis
 :PROPERTIES:
-:ID:       6157514ff543fc7210f67dd3211aed84
+:ID:       thcntnmhypthss
 :END:
 Godel: proved that ZFC + CH is consistnent
 Cohen: proved that ZFC + ~CH is consistnent (actually, any intermediate number of infinities)
 * [2015-08-26] depenedent sum
 :PROPERTIES:
-:ID:       ef787bcbc8a81f5414a7a8aba1c334af
+:ID:       wddpndntsm
 :END:
 Sum    (a : A) (B(A)) = {(a, b) | a \in A, b \in B(a)}
 Exists (a : A) (B(A)) = || Sum a B ||
@@ -17,7 +17,7 @@ Exists (a : A) (B(A)) = || Sum a B ||
 
 * Self-reference elimination: use indices
 :PROPERTIES:
-:ID:       3c8841c10d602fd561b9864f30514a05
+:ID:       slfrfrnclmntnsndcs
 :END:
 x^1 \in y^2
 

@@ -5,39 +5,39 @@
 * TODO [#D] JSONCrush – Compress JSON into URI Friendly Strings | Hacker News :json:
 :PROPERTIES:
 :CREATED:  [2019-11-27]
-:ID:       8dc1dc2ccbe4d2199e786db66e0734a1
+:ID:       jsncrshcmprssjsnntrfrndlystrngshckrnws
 :END:
 
 https://news.ycombinator.com/item?id=21641760
 * [2020-03-30] karan/Projects: A list of practical projects that anyone can solve in any programming language.
 :PROPERTIES:
-:ID:       4e726dd2d5a81837da64963764945b3e
+:ID:       mnkrnprjctslstfprctclprjchtnyncnslvnnyprgrmmnglngg
 :END:
 https://github.com/karan/Projects
 
 * [2020-03-31] Debugging with tmate · Actions · GitHub Marketplace :githubci:
 :PROPERTIES:
-:ID:       062bf0a727ed0f6e3fa06931b7d4fa0f
+:ID:       tdbggngwthtmtctnsgthbmrktplc
 :END:
 https://github.com/marketplace/actions/debugging-with-tmate
 ok, nice it's like circleci ssh debugging.
 less convenient because you have to commit a step, but ok considering you don't need it often
 * [#D] [2020-01-19] Home - Mozilla Hacks - the Web developer blog
 :PROPERTIES:
-:ID:       10613e7b8aa4fae23f5a31739158d425
+:ID:       snhmmzllhcksthwbdvlprblg
 :END:
 https://hacks.mozilla.org/
 
 * [2018-03-01] latency matters                        :performance:ux:danluu:
 :PROPERTIES:
-:ID:       9dd65e16b4c62efe2606ccb421115990
+:ID:       thltncymttrs
 :END:
 https://danluu.com/input-lag/
 try typing in terminal with 30ms ping
 
 * [2018-06-16] Tweet from Gary Bernhardt (@garybernhardt), at Jun 16, 13:54 :performance:
 :PROPERTIES:
-:ID:       13f86e434a020eccbdaab6f6cf915823
+:ID:       sttwtfrmgrybrnhrdtgrybrnhrdttjn
 :END:
 : In 2008, I was extremely frustrated by Ruby imposing a constant ~100 ms startup penalty on hello world. In 2018, computers are ~3.5 times faster (4479 vs. 1266 Geekbench for 2007 vs. 2017 MBP). TypeScript imposes a 1600 ms startup penalty on hello world. https://t.co/GzMcXPoFNU
 
@@ -45,14 +45,14 @@ https://twitter.com/garybernhardt/status/1007690864909529088
 
 * [2015-11-04] inversion of control
 :PROPERTIES:
-:ID:       d5312b4c08bc005d271fe21b350e7822
+:ID:       wdnvrsnfcntrl
 :END:
 : Inversion of Control principle, which basically states that the flow of your application depends on the object graph that is built up during program execution, and such a dynamic flow is made possible by object interactions being defined through abstractions.
 : This run-time binding is achieved by mechanisms such as dependency injection or a service locator.
 
 * [2017-05-29] gdb tips                                                 :gdb:
 :PROPERTIES:
-:ID:       5c29be511cad0502ef36fda3cc03586a
+:ID:       gdbtps
 :END:
 Debugging multiple threads/processes
 : set follow-fork-mode [parent|child]
@@ -64,7 +64,7 @@ http://sourceware.org/gdb/current/onlinedocs/gdb/Forks.html
 
 ** Attaching to a process in ubuntu:
 :PROPERTIES:
-:ID:       86180669c94fa3610f05cfeb053b1c16
+:ID:       ttchngtprcssnbnt
 :END:
 : echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
 
@@ -79,18 +79,18 @@ https://sourceware.org/gdb/onlinedocs/gdb/Break-Commands.html
 * TODO [#D] organelle is quite good?                       :project:org:name:
 :PROPERTIES:
 :CREATED:  [2019-09-17]
-:ID:       de501c2eac932b18bfffd5ba6a16a7b0
+:ID:       rgnllsqtgd
 :END:
 * [#C] [2019-11-01] Why TDD Isn't Crap • Hillel Wayne               :testing:
 :PROPERTIES:
-:ID:       03066903513d540c335dc83d9df6a0fa
+:ID:       frwhytddsntcrphlllwyn
 :END:
 https://www.hillelwayne.com/post/why-tdd-isnt-crap/
 : While the first PBT library was Haskell Quickcheck, arguably the most sophisticated is the Hypothesis Python library.
 * TODO [#C] Tweet from Awesome (@awesome__re), at Nov 19, 16:36 awesome fuzzing :testing:
 :PROPERTIES:
 :CREATED:  [2019-11-19]
-:ID:       f5be1f90e10a2f90be55b9b7c8db5b91
+:ID:       twtfrmwsmwsmrtnvwsmfzzng
 :END:
 : Awesome Fuzzing
 : Automated software testing technique that involves feeding pseudo-randomly generated input data.
@@ -101,43 +101,43 @@ https://twitter.com/awesome__re/status/1138001812718440448
 
 * [#C] [2019-08-08] Web Colors                                       :design:
 :PROPERTIES:
-:ID:       df1cfbcd6f73160da106630538aa07b4
+:ID:       thwbclrs
 :END:
 https://www.rapidtables.com/web/color/index.html
 
 * TODO [#C] [2020-11-17] [[https://github.com/actions/virtual-environments/issues/1816][Ubuntu-latest workflows will use Ubuntu-20.04 · Issue #1816 · actions/virtual-environments]] :ci:
 :PROPERTIES:
-:ID:       7f2e3bf6d9a07fe7c106c1dba35fe4f6
+:ID:       tsgthbcmctnsvrtlnvrnmntsswllsbntssctnsvrtlnvrnmnts
 :END:
 * TODO [#C] [2019-08-18] cpuu/awesome-fuzzing: A curated list of awesome Fuzzing(or Fuzz Testing) for software security
 :PROPERTIES:
-:ID:       4c35460f67cccd4c1c342b28d1767c5a
+:ID:       sncpwsmfzzngcrtdlstfwsmfzzngrfzztstngfrsftwrscrty
 :END:
 https://github.com/cpuu/awesome-fuzzing#readme
 : Awesome Fuzzing
 
 * [#C] [2018-12-09] mre/awesome-static-analysis: Static analysis tools for all programming languages
 :PROPERTIES:
-:ID:       89087b936827c318609711e41964c382
+:ID:       snmrwsmsttcnlysssttcnlysstlsfrllprgrmmnglnggs
 :END:
 https://github.com/mre/awesome-static-analysis/
 
 * [#C] [2020-02-28] Repl.it - EmbellishedWanConcentrate
 :PROPERTIES:
-:ID:       e5bab68300b1091460a795e95eb83c7d
+:ID:       frrpltmbllshdwncncntrt
 :END:
 https://repl.it/repls/EmbellishedWanConcentrate
 wow, nice
 * STRT [#C] Vscode?                                                     :ide:
 :PROPERTIES:
 :CREATED:  [2019-12-13]
-:ID:       b34eee096a9205e09455dcaf672796b9
+:ID:       vscd
 :END:
 : I switched to NeoVim a few years ago and I'm not entirely sure whether Vim has caught up in features, diverged, or what ratio of the two. That said, I'm not switching back. The only editor I'm really interested in is VSCode. Not that I use it much, but I am very impressed.
 
 * TODO [#C] [2019-09-01] docopt—language for description of command-line interfaces http://docopt.org/ :literate:
 :PROPERTIES:
-:ID:       bdc1b35b1d3425c610d799c186f4788a
+:ID:       sndcptlnggfrdscrptnfcmmndlnntrfcsdcptrg
 :END:
 : docopt helps you:
 : 
@@ -147,18 +147,18 @@ wow, nice
 : docopt is based on conventions that have been used for decades in help messages and man pages for describing a program's interface. An interface description in docopt is such a help message, but formalized. Here is an example:
 * [#C] [2019-08-18] Highlights from Git 2.23 - The GitHub Blog          :git:
 :PROPERTIES:
-:ID:       457b6d509cf2de6d2c82367f832baca0
+:ID:       snhghlghtsfrmgtthgthbblg
 :END:
 https://github.blog/2019-08-16-highlights-from-git-2-23/
 : You may have used git grep to search for some text in your Git project, just as you may have used git diff to view active changes. What do the two have in common? They both display some contents in your repository, and both have support to show the surrounding function context with -p (short for --show-function) or -W (short for --function-context), respectively.
 * [2020-03-31] circle CI's mac plan is paid (40$/month min)              :ci:
 :PROPERTIES:
-:ID:       0d253df3c2e0888f825e810f984cc412
+:ID:       tcrclcsmcplnspdmnthmn
 :END:
 * TODO [#B] Git blame ignore formatting                                 :git:
 :PROPERTIES:
 :CREATED:  [2020-03-23]
-:ID:       a046cea2f74ce1e6a4314c777611d8f4
+:ID:       gtblmgnrfrmttng
 :END:
 
 Configure your git blame to ignore cleanup changes.

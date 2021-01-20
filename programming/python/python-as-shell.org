@@ -2,7 +2,7 @@
 
 * CNCL xonsh                                                          :xonsh:
 :PROPERTIES:
-:ID:       ef1b1d55ea22a2c250691cc9026ec754
+:ID:       xnsh
 :END:
 xonsh http://xon.sh/tutorial.html
 - importing local modules
@@ -14,13 +14,13 @@ xonsh http://xon.sh/tutorial.html
 
 * CNCL plumbum
 :PROPERTIES:
-:ID:       b3e376b42c6a61e023a69251ca44f46f
+:ID:       plmbm
 :END:
 http://plumbum.readthedocs.io/en/latest/
 
 ** [2015-07-18] messing with plumbum
 :PROPERTIES:
-:ID:       cacf7cf0406815b8a92d9ee174c5b3ac
+:ID:       stmssngwthplmbm
 :END:
 #+begin_src python
   from plumbum import local, ProcessExecutionError
@@ -39,29 +39,29 @@ http://plumbum.readthedocs.io/en/latest/
 
 * http://pymotw.com/2/cmd/
 :PROPERTIES:
-:ID:       6c29ba01ec2228c1084c1d1812b9ca9e
+:ID:       pymtwcmcmd
 :END:
 * https://pypi.python.org/pypi/termcolor
 :PROPERTIES:
-:ID:       519f579ddd013eecf7beb320d62c812f
+:ID:       spyppythnrgpyptrmclr
 :END:
 * https://pypi.python.org/pypi/sh
 :PROPERTIES:
-:ID:       12d9ab66d37fe3416aa63956ecf8f08a
+:ID:       spyppythnrgpypsh
 :END:
 * CNEL ln command : named args!
 :PROPERTIES:
-:ID:       beab85363828f5eda8779a888caa84a1
+:ID:       cnllncmmndnmdrgs
 :END:
 * conky?
 :PROPERTIES:
-:ID:       e48955a0c01667e952c249357851e860
+:ID:       cnky
 :END:
 http://www.jperla.com/blog/post/a-clean-python-shell-script
 
 * [#D] .
 :PROPERTIES:
-:ID:       5058f1af8388633f609cadb75a75dc9d
+:ID:       1053_1313
 :END:
 #+begin_src python
   from pprint import pprint
@@ -78,5 +78,5 @@ http://www.jperla.com/blog/post/a-clean-python-shell-script
 
 * related                                                      :python:shell:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:

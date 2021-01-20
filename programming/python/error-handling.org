@@ -4,7 +4,7 @@
 * examples of temporary timeouts                                    :network:
 :PROPERTIES:
 :CREATED:  [2018-05-18]
-:ID:       a2a0263883b268677a349a5550b95d16
+:ID:       xmplsftmprrytmts
 :END:
 
 : requests.exceptions.ReadTimeout:
@@ -17,14 +17,14 @@
 
 ** STRT backoff library, using it somewhere already
 :PROPERTIES:
-:ID:       0267797cd61f368d90ea2005783993c9
+:ID:       bckfflbrrysngtsmwhrlrdy
 :END:
 using it in vkdump
 backoff_network_errors in kython
 I guess we could backoff indefinitely; and rely on global timeout if necessary
 *** DONE check if kron has global timeout
 :PROPERTIES:
-:ID:       24717090f174338cfb2423bb0ce6c4e6
+:ID:       chckfkrnhsglbltmt
 :END:
 
 
@@ -32,9 +32,9 @@ I guess we could backoff indefinitely; and rely on global timeout if necessary
 * network errors should be non-fatal, since they generally CAN be gracefully handled
 :PROPERTIES:
 :CREATED:  [2018-04-09]
-:ID:       0dc1d0adc306e12953799f4d3dda4aa8
+:ID:       ntwrkrrrsshldbnnftlsncthygnrllycnbgrcfllyhndld
 :END:
 ** TODO [2019-10-19] add to post?                                      :blog:
 :PROPERTIES:
-:ID:       33037254ce5ed668a033fe82a150a503
+:ID:       stddtpst
 :END:

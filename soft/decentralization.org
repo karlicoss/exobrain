@@ -3,12 +3,12 @@
 
 * TODO [#C] [2020-01-17] radicle                             :federation:vcs:
 :PROPERTIES:
-:ID:       c8579aa4fbac163715d14c794ec20aff
+:ID:       frrdcl
 :END:
 https://radicle.xyz/towards-decentralized-code-collaboration.html
 * [#C] [2020-03-21] MichaelMure/git-bug: Distributed, offline-first bug tracker embedded in git, with bridges :git:
 :PROPERTIES:
-:ID:       7eb380853b2ea627595c232409811392
+:ID:       stmchlmrgtbgdstrbtdfflnfrstbgtrckrmbdddngtwthbrdgs
 :END:
 https://github.com/MichaelMure/git-bug
 : Distributed, offline-first bug tracker embedded in git, with bridges
@@ -16,5 +16,5 @@ https://github.com/MichaelMure/git-bug
 
 * related                                               :p2p:matrix:mastodon:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:

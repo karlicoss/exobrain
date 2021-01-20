@@ -3,7 +3,7 @@
 
 * [2016-06-20] What is functional programming?
 :PROPERTIES:
-:ID:       97f63afb1c97a826d4bd905231155330
+:ID:       stwhtsfnctnlprgrmmng
 :END:
 - First-class and higher-order functions
 - Pure functions
@@ -26,7 +26,7 @@
 
 * Free monads                                                         :monad:
 :PROPERTIES:
-:ID:       57730b0ca9d0c6afd192e2cb5ea9f89b
+:ID:       frmnds
 :END:
 - http://www.parsonsmatt.org/2017/09/22/what_does_free_buy_us.html good tutorial with examples
 - https://markkarpov.com/post/free-monad-considered-harmful.html
@@ -34,7 +34,7 @@
 
 * [2016-10-24] Kleisli monads                                         :monad:
 :PROPERTIES:
-:ID:       33a7507e6a0d5fabe714842d605a4877
+:ID:       mnklslmnds
 :END:
 Earlier I said that the key to a monad is its Kleisli arrows. The reason why is that Kleisli arrows are morphisms in the Kleisli category, where (>=>) is Kleisli arrow composition:
 
@@ -55,18 +55,18 @@ Like all categories, the Kleisli category must obey the category laws:
 
 * [2016-02-05] type classes: downcasting and instanceof are impossible!
 :PROPERTIES:
-:ID:       f625d7b1bac28a1ea036c8283161f969
+:ID:       frtypclsssdwncstngndnstncfrmpssbl
 :END:
 
 * [2016-09-25] parametricity
 :PROPERTIES:
-:ID:       174878a2a94dd2a030066c54be839cca
+:ID:       snprmtrcty
 :END:
 : In a parametric language the presence of a universally quantified type variable intuitively conveys a very strong guarantee: A (part of a) value passed to a parametric polymorphic function in the position of a type variable is guaranteed only to be copied and moved around, but never inspected in the function
 
 * [2016-08-07] semantics
 :PROPERTIES:
-:ID:       02ebea95bc1ddabf5ab5642fd576bb9b
+:ID:       snsmntcs
 :END:
 Denotational semantics: natural, maps to mathematical domains
 Operational semantics: describes execution on an abstract machine
@@ -83,5 +83,5 @@ The difference between denotational and operational semantics:
 
 * [#D] related                               :programming:haskell:typetheory:
 :PROPERTIES:
-:ID:       90ed4512c954aea887dcc288ffc3f367
+:ID:       rltd
 :END:
