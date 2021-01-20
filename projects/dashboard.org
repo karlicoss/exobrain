@@ -352,15 +352,14 @@ https://en.m.wikipedia.org/wiki/Respiratory_rate
 :END:
 ** TODO [#C] figure out alarm wakeup vs 'natural' wakeup, could tell me something about sleep intervals :qs:
 :PROPERTIES:
+:CREATED:  [2019-08-26]
 :ID:       104760422095bdac2fb6224d5db0579f
 :END:
-:PROPERTIES:
-:CREATED: [2019-08-26]
-:END:** STRT [#D] Emfit recovery -- wonder if it correlated with exercise days :sleep:
+** STRT [#D] Emfit recovery -- wonder if it correlated with exercise days :sleep:emfit:
 :PROPERTIES:
 :CREATED:  [2018-06-28]
+:ID:       11489991f2d8801101588b22bfe88258
 :END:
-- State "STRT"      from "TODO"       [2019-04-09]
 
 ** TODO [#B] My daughters sleeping patterns for the first 4 months of her life. One continuous spiral starting on the inside when she was born, each revolution representing a single day. Midnight at the top (24 hour clock). [OC] :sleep:inspiration:viz:
 :PROPERTIES:
@@ -971,7 +970,7 @@ rationale: various tools for working with maps in one place
 :ID:       5d997f8d02b20a9292e7985f960fc352
 :END:
 
-* TODO [#C] correlate temp sensor with hiking?          :blog:qs:lifelogging:
+* TODO [#C] correlate temp sensor with hiking?        :toblog:qs:lifelogging:
 :PROPERTIES:
 :CREATED:  [2019-10-30]
 :ID:       841b585250afe47ea85de59d9db89005
@@ -992,17 +991,17 @@ rationale: various tools for working with maps in one place
 :ID:       9ae13fd64687f9ebfde48ca33dafc327
 :END:
 basically could merge with 4sq? and custom addresses
-* TODO [#C] document error handling pattern with 'error'               :blog:
-:PROPERTIES:
-:CREATED:  [2020-09-07]
-:ID:       b62ef8563b093688c070902e8db71838
-:END:
 * TODO [#C] consolidating common functions to work with geographical/location data. tedious to redo from scratch every time and requires fine tuning the ways to browse it :motivation:
 :PROPERTIES:
 :CREATED:  [2020-09-06]
 :ID:       7857155001b79fbead3120a13a01e16d
 :END:
-* TODO [#C] about importance of error handling when working with personal data :blog:
+
+* [#B] * error hanling                                               :errors:
+:PROPERTIES:
+:ID:       e85fd01fcd021a9e0f99c5d6421d27bc
+:END:
+** TODO [#C] about importance of error handling when working with personal data :toblog:
 :PROPERTIES:
 :CREATED:  [2020-09-14]
 :ID:       b1bdd31d46439c7af5f1fc1521dbe932
@@ -1017,27 +1016,32 @@ in the table, you can clearly spot that the problem is the treadmill -- indeed, 
 however, I did log the distance (along with the training regime) manually
 by combining the HR data (recorded by endomondo) and manual data we get the complete representation
 (if I add visual highlight on the table, that would be fucking amazing)
-** [2020-09-14] maybe post on QS forum??
+*** [2020-09-14] maybe post on QS forum??
 :PROPERTIES:
 :ID:       ac9bd64ef7ffc8dd990f34395336491e
 :END:
-* TODO [#C] error handling -- demonstrate on 'multiple sleeps'         :blog:
+** TODO [#C] error handling -- demonstrate on 'multiple sleeps'
 :PROPERTIES:
 :CREATED:  [2020-09-12]
 :ID:       06fdc9bf6ef2a1ad9a2afcf73f67083d
 :END:
-* TODO [#C] running speed/hr plot is a good candidate                  :demo:
+** TODO [#C] demo: running speed/hr plot is a good candidate
 :PROPERTIES:
 :CREATED:  [2020-09-16]
-:ID:       4e0d025b1e39d7ff6d10d54ee24956b0
+:ID:       1abdb3c2c57c743c8f5d56e9b2c9e75a
 :END:
 - show both types of errors (zero speed/no HR)
 - need to disable tooltip on avg plot
 - would be nice to highlight the point under the tooltip?
-* TODO [#C] unmark one of cardio/non-cardio and demonstrate warnings   :demo:
+** TODO [#C] demo: unmark one of cardio/non-cardio and demonstrate warnings
 :PROPERTIES:
 :CREATED:  [2020-09-17]
-:ID:       9d1e42bf95c9583c77c70694291ae92f
+:ID:       a4e9c17061595425057cc8490fa43829
+:END:
+** TODO [#C] document error handling pattern with 'error'     :errors:toblog:
+:PROPERTIES:
+:CREATED:  [2020-09-07]
+:ID:       b62ef8563b093688c070902e8db71838
 :END:
 * [#C] [2020-09-01] [[https://hvplot.holoviz.org/user_guide/Pandas_API.html][Pandas API — hvPlot 0.6.0 documentation]]
 :PROPERTIES:

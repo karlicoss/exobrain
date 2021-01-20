@@ -468,7 +468,11 @@ https://wiki.nikitavoloboev.xyz/other/wiki-workflow#similar-wikis-i-liked
 :PROPERTIES:
 :ID:       cf09a53b31d82fc9b4a96061a4983b0a
 :END:
-I'd rather have my search engine to look over these first** [#D] [2020-04-21] [[https://jibrankalia.com/knowledge/#exobrain][ExoBrain | Jibran Kalia]]
+I'd rather have my search engine to look over these first
+** [#D] [2020-04-21] [[https://jibrankalia.com/knowledge/#exobrain][ExoBrain | Jibran Kalia]]
+:PROPERTIES:
+:ID:       1f0c433ef0e18cd7aab309086e835c7a
+:END:
 
 ** [#D] [2020-07-23] [[https://github.com/irosyadi/gitbook/blob/1a67afe0d1e20ef31052c3259096c3ec8f89e13b/irosyadi.github.io/app/exobrain_blog.md][gitbook/exobrain_blog.md at 1a67afe0d1e20ef31052c3259096c3ec8f89e13b · irosyadi/gitbook]]
 :PROPERTIES:
@@ -633,4 +637,19 @@ I don't know wtf is wrong. I don't get how to extract title from the note. (om-g
 :PROPERTIES:
 :CREATED:  [2021-01-20]
 :ID:       5839fc1bb27ecb163076e16fa1735789
+:END:
+* TODO when exporting and link isn't wrapped, strip away protocol and wrap it? not sure if whould do it in org->org or org->html stage (latter is prob easier) :org:
+:PROPERTIES:
+:CREATED:  [2021-01-20]
+:ID:       06969c06a8a8414bd453b3bf1755533d
+:END:
+* TODO reduce font size for h. tags not sure there is much point in  having them bigger, bold is enough
+:PROPERTIES:
+:CREATED:  [2021-01-20]
+:ID:       b87bac411dd29be47146bffed217f140
+:END:
+* TODO encode links to base64? so ids are possible to decode?
+:PROPERTIES:
+:CREATED:  [2021-01-20]
+:ID:       a3c2b7917e258633a58e209b83318c47
 :END:

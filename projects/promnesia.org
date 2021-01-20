@@ -712,16 +712,14 @@ also they don't look quite well in dark mode?
 :CREATED:  [2020-01-03]
 :ID:       5d7667f714fbcd73bc87f3a4c68fb66c
 :END:
-* STRT [#C] maybe it should be emacs:// ? not sure       :mimemacs:promnesia:
+* STRT [#C] maybe it should be ~emacs://~ ? not sure     :mimemacs:promnesia:
 :PROPERTIES:
-:ID:       777f8824a3982520f22493ad0749ff0c
+:CREATED:  [2020-05-20]
+:ID:       5adcf558f34f622753052ee87952cb8e
 :END:
-:PROPERTIES: :CREATED: [2020-05-20]
-:END:
-nil:END:
-** [2020-05-21] or editor:// ??
+** [2020-05-21] or ~editor://~ ??
 :PROPERTIES:
-:ID:       ac8423108986a341c079f968db77962e
+:ID:       4d527f767215866cb8d3102f329bc9e1
 :END:
 ** [2020-05-29] ok, so it seems that emacs:/// works and is backwards compatible, which is kinda good news
 :PROPERTIES:
@@ -1357,11 +1355,9 @@ bindSidebarData fails on quick refresh
 :CREATED:  [2019-11-26]
 :ID:       0cee69c011c1c7820a0b6e0c0a4e12d4
 :END:
+: I spend my life copy/pasting links and screenshots of interesting content to friends. Solving infrastructure level information-transfer problems like this is also core to accelerating human progress.
+: @shohinigupta built something amazing to solve this
 
-I spend my life copy/pasting links and screenshots of interesting content to friends. Solving infrastructure level information-transfer problems like this is also core to accelerating human progress.
-
-@shohinigupta built something amazing to solve this
-https://t.co/4yZSjqCzro
 
 https://twitter.com/WillManidis/status/1199337719295381509
 ** [2019-12-26] ugh, tweet is gone??
@@ -1404,9 +1400,9 @@ but why did I follow them in the first place, there must have been good reason?
 :END:
 
 e.g. how did I get here?? https://mortoray.com/2019/06/11/a-failed-experiment-with-python-type-annotations/
-* TODO [#C] [2019-12-15] Теория вычислимости — Викиконспекты
+* TODO [#C] [2019-12-15] bug: Теория вычислимости — Викиконспекты
 :PROPERTIES:
-:ID:       8e7114d57045ab0425fd62e21c372136
+:ID:       d89b028f42f17471673bd3e76f32559d
 :END:
 http://neerc.ifmo.ru/wiki/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8
 not sure, shouldn't show popup on every transition... have a timer or something?

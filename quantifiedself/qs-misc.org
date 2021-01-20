@@ -1234,11 +1234,11 @@ all the reddit references are about 2 year old..
 :CREATED:  [2018-03-01]
 :ID:       5d8750e0526150fed18575bf954344ce
 :END:
-
 http://lesswrong.com/lw/i8n/how_to_measure_anything/
-Your problem is not as unique as you think.
-You have more data than you think. You need less data than you think.
-An adequate amount of new data is more accessible than you think.
+: Your problem is not as unique as you think.
+: You have more data than you think. You need less data than you think.
+: An adequate amount of new data is more accessible than you think.
+
 
 overall unclear how to map to a real life problem
 read the comments though, example (how to measure programmer productivity)
@@ -1548,11 +1548,6 @@ should do maybe?
 :ID:       cf0de325971ea7143300a92377adb29f
 :END:
 : A Garmin app that measures HRV(Heart Rate Variability) in a 3 minute test.
-* [2020-10-12] [[https://connect.garmin.com/modern/activity/5668706069][Garmin Connect]] :qs:garmin:
-:PROPERTIES:
-:ID:       c64863bf364e254eee8399e42610f026
-:END:
-here I had a pause (in the shopt) right before end... need to handle that carefully
 * [2020-10-12] [[https://connect.garmin.com/modern/activity/5668706069][Garmin Connect]] :dashboard:qs:inspiration:
 :PROPERTIES:
 :ID:       b0b3d16ca089c47001597e133ac35523

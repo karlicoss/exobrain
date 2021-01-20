@@ -134,19 +134,18 @@ https://news.ycombinator.com/item?id=12973788
 id here is important
 
 
-* TODO [#D] shit!
+* TODO [#D] handle google.com/search
+:PROPERTIES:
+:ID:       7278c91624ac524f4538d46343291d23
+:END:
 :PROPERTIES:
 :CREATED:  [2019-06-02]
-:ID:       3538932b2e7318bcc7ef9f7eb39f5a7f
-:END:
-[INFO wereyouhere 190602 11:00:06 wereyouhere_server:104] url: google.com/search
-[INFO wereyouhere 190602 11:00:06 wereyouhere_server:106] normalised url: google.com/search
 * TODO [#C] hmm, server doesn't normalise properly?? (url escaping)
 :PROPERTIES:
 :CREATED:  [2019-06-02]
 :ID:       7a03fc3092853d2576fe3c21808ade40
 :END:
-ru.wikipedia.org/wiki/Грамматикализация
+: ru.wikipedia.org/wiki/Грамматикализация
 * TODO [#D] [2019-08-25] Lisp Language
 :PROPERTIES:
 :ID:       ff198ff47b4dcd940dd0d03e863d951a
@@ -261,7 +260,7 @@ support for archive.org and test on this page
 :ID:       b6ec4441e21921b5e302608e64a78e43
 :END:
 
-* TODO [#C] could reuse URL underlying etc with ampie?
+* TODO [#C] could reuse URL underlying etc with ampie?                :ampie:
 :PROPERTIES:
 :CREATED:  [2020-11-20]
 :ID:       d1c35c0bd30aeff685fa73f97dc8826b
@@ -329,9 +328,9 @@ so, for csv need a separate extractor.
 :PROPERTIES:
 :ID:       69e1758e0072d8cc961dec5c2eb1ed50
 :END:
-* TODO [#C] [2020-11-16] [[https://twitter.com/amogh_jalihal/status/1328393853599059970][Amogh Jalihal on Twitter: "@karlicoss Ah sure: This DOI: https://t.co/GAxA4U3UYE should lead to this paper: https://t.co/3epCLG80ik ." / Twitter]]
+* TODO [#C] [2020-11-16] [[https://twitter.com/amogh_jalihal/status/1328393853599059970][normalise DOI]]
 :PROPERTIES:
-:ID:       91bd54f86dc042ee7467830126ca0713
+:ID:       fa8eaa4ca4820853841e5a12218a473d
 :END:
 : Ah sure: This DOI: https://doi.org/10.1073/pnas.1211902109  should lead to this paper: https://pnas.org/content/109/48/E3324 .
 * STRT [#C] rethinking the whole approach...

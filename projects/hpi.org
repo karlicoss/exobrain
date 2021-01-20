@@ -261,7 +261,7 @@ seems that only podcastAddict.db is useful, the rest is just crap
 :PROPERTIES:
 :ID:       9855dfa58a8b49ef2b33f24ca949797f
 :END:
-** TODO [#C] twint doesn't get retweets                             :twitter:
+** TODO [#C] twint doesn't get retweets                       :twint:twitter:
 :PROPERTIES:
 :CREATED:  [2020-06-04]
 :ID:       bb5042310928610eac30493467ff2956
@@ -269,10 +269,10 @@ seems that only podcastAddict.db is useful, the rest is just crap
 https://github.com/twintproject/twint/issues/786
 
 : twint -u karlicoss --retweets
-* [#A] documentation & user friendliness improvements               :hpi_doc:
+* [#A] * documentation & user friendliness improvements             :hpi_doc:
 :PROPERTIES:
 :CREATED:  [2020-05-18]
-:ID:       688854e936bf791959f6cf5976b1e9f9
+:ID:       c6316eec9fe339227f184e883fe999e0
 :END:
 ** STRT [#C] module dependencies (put in modules?) actually maybe name them programmatically?
 :PROPERTIES:
@@ -667,7 +667,7 @@ https://repl.it/talk/all?lang=python_turtle
 :CREATED:  [2020-01-19]
 :ID:       f0443de9c6a84b2167b87d7b16408c92
 :END:
-* STRT [#B] [2020-05-06] [[https://github.com/KrauseFx/FxLifeSheet/issues/34][Find alternative to Google Data Studio · Issue #34 · KrauseFx/FxLifeSheet]] :degoogle:hpi:
+* STRT [#B] [2020-05-06] [[https://github.com/KrauseFx/FxLifeSheet/issues/34][Find alternative to Google Data Studio · Issue #34 · KrauseFx/FxLifeSheet]] :spreadsheet:degoogle:
 :PROPERTIES:
 :ID:       62d38d922a4279c3e0e16f6131d0bcc1
 :END:
@@ -675,9 +675,9 @@ https://repl.it/talk/all?lang=python_turtle
 : Have you considered Redash? It's open source, self hosted and pretty solid.
 
 google docs-like interface
-* [#B] [2020-08-26] [[https://github.com/seanbreckenridge/HPI#modified-from-karlicosshpi-to-more-fit-my-life][seanbreckenridge/HPI: Human Programming Interface]] :readme:
+* [#B] [2020-08-26] readme: [[https://github.com/seanbreckenridge/HPI#modified-from-karlicosshpi-to-more-fit-my-life][seanbreckenridge/HPI: Human Programming Interface]]
 :PROPERTIES:
-:ID:       a200e3e718016362047ca4afaedd86d2
+:ID:       7fee2f560c0f8b6a8433e702a0b41607
 :END:
 : Modified from karlicoss/HPI to more fit my life
 * STRT [#B] integrate with private overlay
