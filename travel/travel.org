@@ -203,12 +203,79 @@ allegedly good, but was closed at the time :(
 :PROPERTIES:
 :CUSTOM_ID: netherlands
 :END:
+** moving around
+:PROPERTIES:
+:ID:       922ec8b0f5050ece20f9c39e38119db4
+:END:
+trains are pretty great, and if you're going often, makes sense to buy a permanent travelcard
+- NS planner works better than citymapper/gmaps https://www.ns.nl/en/journeyplanner
+  their app is ok as well https://play.google.com/store/apps/details?id=nl.ns.android.activity
+** activities
+:PROPERTIES:
+:ID:       609f88983635a66fe4c8570afee066e0
+:END:
+*** take bikes
+:PROPERTIES:
+:ID:       a216f0e3e1431b05589f8775ac587f0e
+:END:
+Mind the sun. You're probably better off biking in the morning, waiting till the evening and going back when it's cooler.
+*** swim http://www.zwemwater.nl
+:PROPERTIES:
+:ID:       1d00bfed3c0f6563a748c1893f7e3b4b
+:END:
+North sea is actually not that cold, you can totally tolerate few dips.
+Coast could be very shallow though (e.g Zandvoort), so mind the waves.
+** misc
+:PROPERTIES:
+:ID:       bc957e26ff41470c556ee5d09e96880b
+:END:
+- take cash or Maestro card
+  Many places don't take visa/mastercard. Most supermarket on train stations do though.
+
+** Amsterdam                                                      :amsterdam:
+:PROPERTIES:
+:ID:       3eb8670d999ac077dd0e2c345cb7c905
+:END:
+*** [2018-05-27] Van der Linde https://goo.gl/maps/pawDXa2wL4y
+:PROPERTIES:
+:ID:       fa66a9d66632564bec997b0940f4d13e
+:END:
+: Nieuwendijk 183, 1012 MG Amsterdam, Netherlands
+
+best vanilla ice cream ever
+*** Van Goth museum
+:PROPERTIES:
+:ID:       897441d664dbdfabb0744883ddd62961
+:END:
+very decent, you're better off buying tickets online couple of days in advance
+
+*** [2018-05-27] Tijger & de Vis https://goo.gl/maps/1eVeg9DmQG52
+:PROPERTIES:
+:ID:       49399245883db7c8721e240ba93db4d1
+:END:
+: Lindengracht 158, 1015 KK Amsterdam, Netherlands
+
+- nice seafood plate
+- check out the restroom
 ** TODO [#C] Maastricht?
 :PROPERTIES:
 :CREATED:  [2020-02-10]
 :ID:       d394bbf5c5ac861772460ccc00de8d11
 :END:
 Could be ok by Eurostar and local train?
+** Hague
+:PROPERTIES:
+:ID:       3e2c529bba3a434a7cefd9f39747ea88
+:END:
+*** Escher museum
+:PROPERTIES:
+:ID:       08ddbcc121369621c3e138e2b85f9558
+:END:
+amazing, highly recommended. check out the souvenir shop, awesome postcards.
+** Rotterdam
+:PROPERTIES:
+:ID:       8f49c208e01797381033a70b55fbac13
+:END:
 
 * Italy                                                               :italy:
 :PROPERTIES:

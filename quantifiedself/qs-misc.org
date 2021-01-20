@@ -1736,3 +1736,128 @@ it detected sleep while I was still awake and reading?? what the actual fuck???
 :CREATED:  [2021-01-18]
 :ID:       1d73cf8bcb4b8c0a41cf5d5e818a2fd2
 :END:
+* apps for tracking [2018-01-06]
+:PROPERTIES:
+:ID:       fbb113805756de9fae2f6a86b3a596c0
+:END:
+** Tap log looks OK
+:PROPERTIES:
+:ID:       07b12bea064d8f4185f4e2884088bbdd
+:END:
+*** - can only track individual items, would be hard to input different beer percentage
+:PROPERTIES:
+:ID:       a12639a4f6ae0fe43a8d90f4148d65e9
+:END:
+*** + has widget!
+:PROPERTIES:
+:ID:       38c00fd4571c001fde8b30a082b495d1
+:END:
+*** + notes and GPS
+:PROPERTIES:
+:ID:       090281fe14cfc7f2765ded9432ca8c13
+:END:
+*** ok, but for weight could work I guess?
+:PROPERTIES:
+:ID:       bea2680ab0330c292825b60a346873f7
+:END:
+*** - no free backups
+:PROPERTIES:
+:ID:       88b04177cd6ec1809f10837455428d89
+:END:
+**** + but managed to backup database using root
+:PROPERTIES:
+:ID:       32767ea5ed6fe0d35044c1cef81b55e2
+:END:
+
+** Trackthisforme: weird, too complicated MEH
+:PROPERTIES:
+:ID:       73d2eeb1b1a6915689bb7d0d405ff4a1
+:END:
+none of them have widget
+
+** Keeptrack: too simple MEH
+:PROPERTIES:
+:ID:       f517c5f1114777fdea4b81270399cac9
+:END:
+
+** atimelogger? http://www.atimelogger.com/
+:PROPERTIES:
+:ID:       e327efa687bf4b2b4a8a710f60d338ad
+:END:
+*** looks allright, but oversimplified, I know when i'm doing sports or work or shopping anyway
+:PROPERTIES:
+:ID:       5d35dd3217a6504e76c1df79660b9e36
+:END:
+
+** A Time Tracker? f-droid,  open source
+:PROPERTIES:
+:ID:       7c9b3f9bd68be2e6df6cb6ae25c00f78
+:END:
+* [2018-05-31] time tracking apps                           :qs:productivity:
+:PROPERTIES:
+:ID:       e1540e40c0835ed075d6daa55054e13c
+:END:
+** Quality time
+:PROPERTIES:
+:ID:       b61d3c1ca0729feb10a47d8ff69dba3b
+:END:
+- doesn't seem to have export
+- not very precise, tracked 9 hours of weekly usage for alarm clock xtreme for some reason..
+
+** Rescue time
+:PROPERTIES:
+:ID:       981b3f15776dc1bb932006debed1e115
+:END:
+- more configurable than quality time
+- has api for export? https://gist.github.com/DanNixon/33e96f51fef0d5e7c1df
+? csv exports are premium only? http://blog.rescuetime.com/getting-the-most-out-of-rescuetime-for-your-quantified-self-projects/
+  whatever, json is fine
+
+* [2017-10-30] fitness apps                                     :exercise:qs:
+:PROPERTIES:
+:ID:       f18f1b63186e5ac2852a20fc1c390dc2
+:END:
+** HR monitoring                                                         :hr:
+:PROPERTIES:
+:ID:       f338a4844b9f1458b2c41707e771e846
+:END:
+*** heart trace app: weird, doesn't seem to work
+:PROPERTIES:
+:ID:       62ad5ef9e2417c3a72c31b19b3255f39
+:END:
+*** polar h10 seems not to work with google fit for some reasong...
+:PROPERTIES:
+:ID:       96a0c02b02bf808b0077e2e5f6bf49a3
+:END:
+*** polar beat: not necessary for the sensor..
+:PROPERTIES:
+:ID:       786969e5f1e9987426666ca4d0aefe5d
+:END:
+
+** pull ups
+:PROPERTIES:
+:ID:       b13ac939f95bb61a0075c64a2e903b6a
+:END:
+*** NorthPark.Android  обязательно нужно подтягиваться с девайсом
+:PROPERTIES:
+:ID:       98fade27d4e34f6ffaf6116463777ba7
+:END:
+*** rittr labs плохой дизайн
+:PROPERTIES:
+:ID:       292205e0ad3a4cd0c857e2a02c4a752c
+:END:
+* quantified body podcast -- not bad                                :podcast:
+:PROPERTIES:
+:ID:       86fc53f5a46278ee3277d2587f1dcb3d
+:END:
+** [2017-11-15] episode 22 | Quantified Bob https://thequantifiedbody.net/n1-experiments-bob-troia/
+:PROPERTIES:
+:ID:       57d3abdbe08a9adfd9fa62ae5c0627ae
+:END:
+Test for glucose?
+** [2017-11-16] episode 33 | quantified mind guy https://thequantifiedbody.net/mental-performance-tracking-tool-yoni-donner/
+:PROPERTIES:
+:ID:       6b4818edd7da39967a528cbfbeba2e4e
+:END:
+some comments on lumosity 17:00
+He says even most promising studies show very little effect of brain training

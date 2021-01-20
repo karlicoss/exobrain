@@ -422,7 +422,7 @@ also pretty cool, wiki links onto blog pages -- wonder if I should do it..
 :PROPERTIES:
 :ID:       597d856c3590bff2b2ce26d0b7610c90
 :END:
-looks nice..
+looks nice. .
 ** [#C] [2020-05-12] [[https://szymonkaliski.com/notes][Notes ‒ Szymon Kaliski]]
 :PROPERTIES:
 :ID:       96b62cb97065b480acd109d5e0c06487
@@ -481,6 +481,45 @@ I'd rather have my search engine to look over these first** [#D] [2020-04-21] [[
 :ID:       223dac93b38fc1bfc64afd9f90fe204c
 :END:
 
+** STRT [#A] [2020-01-30] davidgasquez/handbook: 📚 Personal bits of knowledge.
+:PROPERTIES:
+:ID:       4ee62a8d-deb7-4d5e-8316-3a3d880c2bdc
+:END:
+https://github.com/davidgasquez/handbook
+** DONE [#B] [2020-01-01] dvogt23/notes: 📔 knowledge :german:inspiration:exobrain:
+:PROPERTIES:
+:ID:       1aa3fda56c4a7a563b4d40cd7288ce78
+:END:
+https://github.com/dvogt23/notes
+*** [2020-01-25] ok, not very comprehensive, but nice as an example?
+:PROPERTIES:
+:ID:       681f1d25a00497467c8a2db3bfdd4138
+:END:
+
+** TODO [#B] [2020-01-25] mek.fyi | Home                        :inspiration:
+:PROPERTIES:
+:ID:       565968173797d8b88ca34775be5f0d3c
+:END:
+https://mek.fyi/#qs
+: Right click green text to enter Mek's mind map.
+** TODO [#C] barrucadu's memos - Self
+:PROPERTIES:
+:CREATED:  [2020-02-13]
+:ID:       9b3a9fcf1caab68c6a31fd4e19b16e5a
+:END:
+
+https://memo.barrucadu.co.uk/taxon/self.html
+** TODO [#C] [2020-01-24] Wiki Index
+:PROPERTIES:
+:ID:       b4ff0f18e740e305da6fe143c1028600
+:END:
+https://pbat.ch/wiki
+
+** [#D] [2019-12-23] wayanjimmy/notebook: Personal notes/knowledge base
+:PROPERTIES:
+:ID:       420c5406ab5a3ded8c73fc1b6aec2de9
+:END:
+https://github.com/wayanjimmy/notebook
 * [#C] * content to add
 :PROPERTIES:
 :ID:       bb971accabe043d4001821caafcb5f0e

@@ -2068,3 +2068,79 @@ Geometric multiplicity: dimenstion of the eigenspace, associated with the eigenv
 Sum of geometric multiplicities for A - \lambda I is equal to dim ket (A - \lambda I)
 
 Jordan cell corresponds to each subspace
+* TODO LSP for interlanguage communication? Like an IPC matrix :malleable:programming:think:
+:PROPERTIES:
+:CREATED:  [2021-01-19]
+:ID:       d84f7fa2938f4bb5ae1f181875ba95ec
+:END:
+* [2019-01-01] Tweet from Al Dragon (@aldragon_net), at Jan 1, 21:35 :interfaces:
+:PROPERTIES:
+:ID:       5983a2d4c978f516d9caab024e538292
+:END:
+: …наиболее вероятно значение w<-1, при котором бесконечное расстояние между элементами интерфейса будет достигнуто за конечное время […] За месяц до этого потеряет связность лента, за день — растянутся на несколько экранов твиты. За секунду до Большого Разрыва разрушатся эмодзи.
+
+
+https://twitter.com/aldragon_net/status/1080215989109821440
+
+* [2019-01-27] Daibhi O Domhnaill on Twitter: "Лайфхак: если во время собеседования на вопрос "какова сложность этого алгоритма?" ответить "а что, тормозит что ли? да перенесите на SSD и все дела", то сразу возьмут техническим директором" / Twitter
+:PROPERTIES:
+:ID:       6a911803af991224ccdb83e7995f868d
+:END:
+https://twitter.com/OhTheAnguish/status/1089461515273621504
+
+* [2019-01-25] Henry de Valence on Twitter: "7 years ago i was very smart and wrote my website in haskell and now i can't update it because i forgot how to make a monad out of posts" / Twitter
+:PROPERTIES:
+:ID:       7fcccb39ef9a6c77624dba017973d031
+:END:
+https://twitter.com/hdevalence/status/1088649294746275840
+
+* [#C] [2019-01-29] (99+) DIYbio - Google Groups                 :biohacking:
+:PROPERTIES:
+:ID:       0feeff33066fb4afb3f311ac58478079
+:END:
+https://groups.google.com/forum/#!forum/diybio
+
+* [#C] [2019-01-29] (99+) London Hackspace - Google Groups :social:biohacking:
+:PROPERTIES:
+:ID:       c068b844bd792bfc31a5910e32ce546f
+:END:
+https://groups.google.com/forum/#!forum/london-hack-space
+
+* cool biohacking wiki                                           :biohacking:
+:PROPERTIES:
+:ID:       eaad24721af6098a8da7b51e04016eb6
+:END:
+** [#C] [2019-01-29] diy-human-gene-therapy-with-crispr :biohacking:crispr:dna:
+:PROPERTIES:
+:ID:       dad234b004b874526ec4c8b90f381c0c
+:END:
+http://diyhpl.us/wiki/transcripts/diy-human-gene-therapy-with-crispr/
+pretty hilarious
+** [#C] [2019-01-29] kits http://diyhpl.us/wiki/diybio/faq/kits/
+:PROPERTIES:
+:ID:       c2b644a4b7516c833b7ffb1a5025cbeb
+:END:
+
+** [#C] [2019-01-29] equipment http://diyhpl.us/wiki/diybio/faq/equipment/
+:PROPERTIES:
+:ID:       0769a4fb7d76ed25efa3b12524976e38
+:END:
+
+** [#C] [2019-01-29] articles http://diyhpl.us/wiki/articles/
+:PROPERTIES:
+:ID:       33fc1138dde5ef7893a00a77753fa741
+:END:
+
+* TODO [#C] [2019-01-29] 5 Minute DNA Extraction in a Shot Glass: 7 Steps (with Pictures) :dna:
+:PROPERTIES:
+:ID:       5e19f65812b7ef142851ae4ff63464c2
+:END:
+https://www.instructables.com/id/5-minute-DNA-Extraction-in-a-Shot-Glass/
+: The detergents in the dish soap (like the sodium laurel sulfate, aka sodium dodecyl sulfate) destabilize the membranes of the cells, spilling their contents into the rest of the solution of saliva.
+
+can you do this with muscle cells? E.g. shred meat, add some water and salt and see what happens
+* [#C] [2019-01-29] 5 Minute DNA Extraction in a Shot Glass: 7 Steps (with Pictures) :dna:
+:PROPERTIES:
+:ID:       d02fb33cbc2b8a18160b856596b581ca
+:END:
+https://www.instructables.com/id/5-minute-DNA-Extraction-in-a-Shot-Glass/

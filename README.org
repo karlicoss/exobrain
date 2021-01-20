@@ -9,6 +9,14 @@ You can find org-mode sources of the files [[https://github.com/karlicoss/exobra
 
 My exobrain contains semi-curated notes, tasks and links.
 Some of it is quite unprocessed, but hopefully enough to make sense, especially if you are looking for something specific.
+: Note that some (if not most?) notes are just clippings
+: Usually the clippings are quoted like this.
+
+Some hopefully it's easy to tell apart what's quoted and what are my own thoughts.
+If it's a clipping, doesn't mean I agree with it, or think the information is true, just means that I found it curious or worthy further research.
+
+Either way if you think something I have here is problematic etc., please feel free to reach out, and I'll be happy to discuss. I'm not my opinions and open for change.
+
 
 The navigation sidebar might be useful to explore and overview what's in my exobrain, but going through all of it is too much work.
 I imagine [[file:index.html::#sidebar][*search*]] as the *primary* means of interacting with the exobrain.

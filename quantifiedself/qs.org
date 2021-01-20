@@ -1,0 +1,207 @@
+#+TITLE: Quantified self
+#+filetags: qs
+
+Why? It's fun (at least subjectively).
+I'm trying to work on objectively useful things (diet, exercise, sleep), and quantifying keeps me motivated to to more research and get rigorous understanding of how body works.
+
+
+About the data I collect: https://beepb00p.xyz/my-data.html
+
+
+* [#A] tracking: #sleep
+:PROPERTIES:
+:ID:       db6dd1952ac1b19e7a9c84126a6cc307
+:END:
+need to update this section properly
+at the moment I'm using Emfit QS for actual data, and manual org-mode tracking for subjective stats after sleep
+
+** UP24 bioimpedance
+:PROPERTIES:
+:ID:       c08702d0ec1283487feffe42ad7d90a9
+:END:
+*** TODO actually take a look at intervals after all! Maybe prot on one large picture?
+:PROPERTIES:
+:ID:       455b0d6bfd7a4d00ee3305a620caefd6
+:END:
+** zeo band? apparently, went bust..
+:PROPERTIES:
+:ID:       afefd2d1de6a109f121f93902eaed75d
+:END:
+see gwern blog
+** TODO how to assess quality of sleep properly??
+:PROPERTIES:
+:ID:       e2995621aa8723fec25f30dc2a9ff93d
+:END:
+** https://sleepjunkies.com/features/the-ultimate-guide-to-sleep-tracking/
+:PROPERTIES:
+:ID:       6e5d5ea9f60b7db9860f2bf26953bc9a
+:END:
+** dreams: just org-mode
+:PROPERTIES:
+:ID:       4daf64a1a068ed8e549e291e6d791cfd
+:END:
+*** TODO oneiroarium?
+:PROPERTIES:
+:ID:       e97099eb6b98f9e7735aa52ad93f84f8
+:END:
+
+* tracking: #location
+:PROPERTIES:
+:ID:       6e2fb91f02c75e9d7ad73a22e4508d5a
+:END:
+- google maps
+- swarm
+* tracking: #mood
+:PROPERTIES:
+:ID:       882013fd83bbfec03d3789f620cd33c5
+:END:
+* tracking: #blood
+:PROPERTIES:
+:ID:       688c98fabaecf223d42549d3aa5ec42b
+:END:
+- medichecks
+- thriva
+* tracking: #weight
+:PROPERTIES:
+:ID:       cbfdc8c2b273d8f353691f3451d38313
+:END:
+** in particular, body composition
+:PROPERTIES:
+:ID:       f936826d6afd85666f040081637cb25a
+:END:
+*** TODO bioimpedance?
+:PROPERTIES:
+:ID:       abea02e90bad1efec9bffa66947e69e2
+:END:
+apparently, not very precise, fluctuates a lot depending on water intake
+
+* tracking: finances
+:PROPERTIES:
+:ID:       5dece8499eebd84c7dea5db8ee865d7a
+:END:
+- #hledger
+- drebedengi
+
+* tracking: #food
+:PROPERTIES:
+:ID:       18d4eab8db713d6f36eb14f7241ed394
+:END:
+** STRT nutrino                                                     :nutrino:
+:PROPERTIES:
+:ID:       644cf52b5bdb90abf3da620585670f6a
+:END:
+*** TODO [2021-01-19] add screenshots
+:PROPERTIES:
+:ID:       d5551190e67b13b86db7e7707d546ef3
+:END:
+
+* tracking: computer/phone usage
+:PROPERTIES:
+:ID:       92512a69eaf94a2f2c1446c0c476de7e
+:END:
+** STRT #arbtt on desktop
+:PROPERTIES:
+:ID:       489261f489bf7c9b15dab2d6b3baa8e1
+:END:
+** STRT #rescuetime on phone
+:PROPERTIES:
+:ID:       1098740f477491db8402b328a36c93d1
+:END:
+*** STRT [2018-05-31] extracting activity data (e.g. sleep)
+:PROPERTIES:
+:ID:       3e093abb14a2f3bfb92a9045efbf7677
+:END:
+
+** CANCEL [#D] http://www.qualitytimeapp.com/
+:PROPERTIES:
+:ID:       822a8084b77fa5ee07024904e65a6931
+:END:
+*** https://www.reddit.com/r/everymanshouldknow/comments/5o4cyb/emsk_about_an_app_called_quality_time_to_keep/dchj19y
+:PROPERTIES:
+:ID:       e80614986fca2102a176d2da66f0a7ed
+:END:
+: I tried this app for several weeks but gave up because it was blatantly inaccurate. It will log time of apps running in the background. When I had two browser windows opened it would double my time assuming I was looking at both windows simultaneously.
+: The one thing it did well was count how many times you unlock the phone, which surprised me I checked it as often as I did, but I was pretty sure I didn't play candy crush for 6 hours straight while I was sleeping. [reddit]
+
+* tracking: misc
+:PROPERTIES:
+:ID:       017591da2364bf6b66340490062ce186
+:END:
+** blood pressure?
+:PROPERTIES:
+:ID:       fb566e370a7927db5f1af6aabb1bd0a7
+:END:
+** TODO [#D] alcohol monitor?
+:PROPERTIES:
+:ID:       ec06b59416d2a57eacc055ca80356952
+:END:
+: The only way to get an accurate reading of your BAC is with a blood draw. The PBTs the police use on the side of the road are wildly inaccurate, and even the more advanced ones they use at the police stations/car breathalyzers still have their problems with calibration.
+: I doubt one you can buy at a store is going to be accurate at all, so my advice would be not to waste your money.
+** TODO [#C] thyroid home test?
+:PROPERTIES:
+:ID:       65ac2cdd6484a04e7a841da844dad145
+:END:
+** TODO [#C] cholesterol home test?
+:PROPERTIES:
+:ID:       fd39429962a3ae434b2a0a22d447a878
+:END:
+** [#C] gut biome? https://ubiome.com
+:PROPERTIES:
+:ID:       fde2e9081bd4ad86e2e0fab3777632ac
+:END:
+** [#D] food Intolerance tests
+:PROPERTIES:
+:ID:       dea4d95116bcc0fe218df1b8d64b5221
+:END:
+https://www.testmyintolerance.com/product/advanced-intolerance-test/
+meh, unlikely it would show anything useful
+
+
+* [#D] cognitive testing                                          :cognitive:
+:PROPERTIES:
+:ID:       7fb5d2f7af7e1b9c00359656b1d78bcf
+:END:
+** cambridge brain sciences https://www.cambridgebrainsciences.com/
+:PROPERTIES:
+:ID:       4b72c9c0f1afdf0717ede68501ca6dcb
+:END:
+https://www.cambridgebrainsciences.com/assets/Main/Cambridge_Brain_Sciences_Sample_Brain_Report.pdf
+*** exporting data: https://www.reddit.com/r/QuantifiedSelf/comments/7b5dt3/heres_a_quick_way_to_exportaccess_cambridge_brain/
+:PROPERTIES:
+:ID:       138a5edaf3dfb77c1b4c213554666776
+:END:
+** STRT quantified mind ... hasn't been updated for a while http://www.quantified-mind.com/about
+:PROPERTIES:
+:ID:       9bd8c80ad16b6099e0f279c27edde1b1
+:END:
+ugh, apparently, it only has five experminents
+** TODO http://brainworkshop.sourceforge.net
+:PROPERTIES:
+:ID:       00d627f1435b6062a17e84db56449fa8
+:END:
+** TODO http://cognitivefun.net
+:PROPERTIES:
+:ID:       42866dc513d918f3021b9450fad4cf43
+:END:
+
+
+* other links
+:PROPERTIES:
+:ID:       3a1dd80f334f328d5c9b67dd4bc95984
+:END:
+** https://github.com/woop/awesome-quantified-self
+:PROPERTIES:
+:ID:       f14b430c7fe0afbac4ab6c333a6570ef
+:END:
+** TODO [2017-09-29] [#C] Serge Faguet: https://hackernoon.com/im-32-and-spent-200k-on-biohacking-became-calmer-thinner-extroverted-healthier-happier-2a2e846ae113
+:PROPERTIES:
+:ID:       557f7e72c7ba3c433fb0d767aa8b1171
+:END:
+A bit insane (or is it?). But worth going through the biomarkers tests, etc, might be something useful there
+
+
+
+* related                                          :sleep:exercise:longevity:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:

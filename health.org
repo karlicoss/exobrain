@@ -63,7 +63,7 @@ https://www.reddit.com/r/keto/comments/5h5f8s/what_happens_to_excess_fat_consume
 :PROPERTIES:
 :ID:       ec2cd6be9c38dbf616515e852837dc13
 :END:
-* TODO openlongevity
+* TODO openlongevity                                              :longevity:
 :PROPERTIES:
 :CREATED:  [2018-04-10]
 :ID:       dd8da04a3eeb82baf7922f100bcf8305
@@ -76,8 +76,24 @@ https://geektimes.ru/post/291167/
 :PROPERTIES:
 :ID:       594f5306a977242eca1ad1c6826088b9
 :END:
-
-* incoming
+* [2017-07-27] notes from  https://paleoleap.com/                :paleo:diet:
 :PROPERTIES:
-:ID:       d48f944ac6c78b97d544f98b89b506ca
+:ID:       1a0454062d4540bc8402116a55a20e4e
 :END:
+- http://www.blakebeckford.co.uk/paleo-diet/
+  : olive, avocado and macadamia oil: not good for cooking???
+
+  hmm why? maybe fair for macadamia & olive (they might burn?), but avocado is suitable for high temperatures?
+
+  : Consider supplementing with vitamin D and probiotics. Levels of magnesium, iodine and vitamin K2 should also be optimized. Iodine can be obtained from seaweeds..
+
+- https://paleoleap.com/dangers-soy/
+: Asians traditionally eat small amounts of soy and most of it is in a fermented form like nato, miso or tempeh. When you properly ferment beans and grains, they usually lose a lot of their lectin and phytate content.
+: When they don’t have a fermented form of soy, they usually have it with fish broth in soups, which is very high in minerals and somewhat counter acts the effects of soy.
+
+
+- https://paleoleap.com/place-of-dairy-on-paleo-diet/
+: Hard cheeses, yogurt and kefir that have been fermented long enough to eat up all sugars won’t have any lactose left, so it’s a good alternative for the lactose intolerant. Even without lactose, dairy will still have this insulin promoting effect.
+
+
+paleo advocates for high intensity training (e.g. sprinting)
