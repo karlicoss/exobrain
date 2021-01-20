@@ -189,12 +189,12 @@ exclude running dates to avoid confusion?
 :ID:       1dbff783c9491d94b2941524a51e8387
 :END:
 
-* TODO [#A] [2020-01-21] Clemens Scott: "Chronicle is another personal tool I created in a…" - Merveilles :ui:inspiration:
+* TODO [#A] [2020-01-21] ui inspiration: Clemens Scott: "Chronicle is another personal tool I created in a…" - Merveilles
 :PROPERTIES:
-:ID:       96b05ed14dfa0ef37dcab8fe734dd0f5
+:ID:       b6fe073518589f07d9d280478db7ea12
 :END:
 https://merveilles.town/@rostiger/103519643370144222
-: Chronicle is another personal tool I created in an effort to better understand and know myself. It creates a timeline UI from text based data using @neauoire's tablatal format and parser. #theWorkshop
+: Chronicle is another personal tool I created in an effort to better understand and know myself. It creates a timeline UI from text based data using @neauoire's tablatal format and parser.
 
 huh, very nice encoding ('encrypting'?) to make data appear private while keeping timeline reasonable
 * TODO [#B] thinking about visualizing location...                      :viz:
@@ -604,10 +604,10 @@ Some highlights for the other attempt to build something similar to timeline
 :END:
 https://github.com/quangv/awesome-couchdb#readme
 
-* TODO [#C] https://merveilles.town/@rostiger/103534349279790297         :ui:
+* TODO [#C] ui: https://merveilles.town/@rostiger/103534349279790297
 :PROPERTIES:
 :CREATED:  [2020-01-23]
-:ID:       8013f890f0da305d9f3b01ce99f287cd
+:ID:       bb45d6b8a330c3f777fa894c63d6db1c
 :END:
 
 * TODO [#C] [2020-01-05] ejplatform/hyperpython: A small DSL to write HTML in Python. :python:html:

@@ -92,7 +92,7 @@ https://github.com/alphapapa/org-ql/blob/master/images/demo-helm-org-ql.sh
 :CREATED:  [2020-05-04]
 :ID:       de21d6ffa6e3c5cd9c9c24089843893e
 :END:
-* TODO [#B] ok, definitely should keep changelog in the repository file (and then link to headings), instead of github native interface :projects:hpi:promnesia:
+* TODO [#B] ok, definitely should keep changelog in the repository file (and then link to headings), instead of github native interface :project:hpi:promnesia:
 :PROPERTIES:
 :CREATED:  [2020-12-05]
 :ID:       d1933d375ada623e7cbd20797701fae9

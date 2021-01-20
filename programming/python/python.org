@@ -21,7 +21,7 @@
 : 
 : @pytest.fixture(autouse=True)
 : def run_around_tests():
-** [2019-08-02] python - How should I structure a pytest test only package? - Stack Overflow :testing:projects:pip:
+** [2019-08-02] python - How should I structure a pytest test only package? - Stack Overflow :testing:project:pip:
 :PROPERTIES:
 :ID:       d58115bf003ec141e730d69b482b6f54
 :END:
@@ -919,7 +919,7 @@ https://github.com/vinta/awesome-python
 :END:
 https://github.com/GrahamDumpleton/wrapt
 :  It therefore goes way beyond existing mechanisms such as functools.wraps() to ensure that decorators preserve introspectability, signatures, type checking abilities etc. Th
-* TODO attemt to figure out mixed sem/cal versioning           :projects:pip:
+* TODO attemt to figure out mixed sem/cal versioning            :project:pip:
 :PROPERTIES:
 :CREATED:  [2020-04-17]
 :ID:       3d4f93fb65effd8ada07f417ccb674d5

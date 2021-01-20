@@ -629,3 +629,8 @@ I don't know wtf is wrong. I don't get how to extract title from the note. (om-g
 :CREATED:  [2021-01-09]
 :ID:       b869a94fd44f2bf670f00a549df52966
 :END:
+* TODO hmm. if I manage to somehow 'fix' some heavy nodes in place (e.g. in corners), it might be pretty approachable. or maybe addinge more repulsive force would do it anyway :logseq:
+:PROPERTIES:
+:CREATED:  [2021-01-20]
+:ID:       5839fc1bb27ecb163076e16fa1735789
+:END:

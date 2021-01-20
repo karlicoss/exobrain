@@ -1,0 +1,526 @@
+#+TITLE: Cannon
+#+filetags: cannon
+
+Cannon is a project? (algorithm? not sure) to compute canonical/normalised URLs.
+
+At the moment it's a subproject of [[promnesia]]
+https://github.com/karlicoss/promnesia/blob/master/src/promnesia/cannon.py
+
+I describe the problem it tries to solve here https://beepb00p.xyz/promnesia.html#urls_broken
+
+
+* TODO [#B] [2020-05-12] [[https://github.com/coleifer/micawber][coleifer/micawber: a small library for extracting rich content from urls]]
+:PROPERTIES:
+:ID:       bbecb17a86b74eb34a0d9f12daebb8d6
+:END:
+* TODO [#C] [2019-09-03] Page Not Found (404) · PyPI
+:PROPERTIES:
+:ID:       ca0abf10acd43751a5dbf1538ecca77e
+:END:
+https://pypi.org/project/cannon
+* TODO [#B] [2019-05-24] Annotation of content on sites like Facebook or Twitter? - Google Groups :hypothesis:
+:PROPERTIES:
+:ID:       0eb745c8119eeffad0ecd5e0d6402e88
+:END:
+ https://groups.google.com/a/list.hypothes.is/forum/#!topic/dev/kcmS7H8ssis
+kinda related since the guy basically wants canonical urls
+* STRT [#B] would be convenient to normalise reddit annotations so annotations from all comments would be collected
+:PROPERTIES:
+:CREATED:  [2019-05-06]
+:ID:       08372d12666105d8080271b9e795e09c
+:END:
+* STRT [#B] [2019-06-23] A Brief Intro to Topological Quantum Field Theories. - YouTube
+:PROPERTIES:
+:ID:       dbc7682ffa669dc538c9d6738af5583b
+:END:
+ https://www.youtube.com/watch?v=59uLGIrkMxM&list=WL&index=61&t=0s
+eh, rules might be a bit complicated. E.g. if both v and list are present, we wanna ditch list, otherwise keep list
+* STRT [#C] [2019-04-20] Aharonov-Bohm Experiment
+:PROPERTIES:
+:ID:       9fd17d35ee5e8b6086b877471d5af9dc
+:END:
+https://physicstravelguide.com/experiments/aharonov-bohm#tab__concrete
+url normalising... this is an example where hashes are important
+** [2019-08-26] here I guess it could yield url with hash + parent url?
+:PROPERTIES:
+:ID:       2d5e187242c9431db8f007ac18c4f58e
+:END:
+** TODO [2019-08-26] always assume that parents in uri hierarchy are actual parents? I guess that's fairly reasonable
+:PROPERTIES:
+:ID:       8a26068c63b1c081b7d8036d2bd63c78
+:END:
+* TODO [#C] right, url extraction: https://github.com/lipoja/URLExtract/issues/13#issuecomment-467635302 and also I guess cut of trailing dots?
+:PROPERTIES:
+:CREATED:  [2019-02-26]
+:ID:       beb4c80cc0548d4c6b26ba10a10d7592
+:END:
+
+* TODO [#C] m.wikipedia normalisation could also be useful for hypothesis? :hypothesis:
+:PROPERTIES:
+:CREATED:  [2019-07-23]
+:ID:       1cdfa4345aeecf69d486406c0c11c945
+:END:
+** [2019-07-23] mm, it's got canonical though..
+:PROPERTIES:
+:ID:       52a07f7fbf3d44efa948a8b019dc2d8e
+:END:
+** TODO [2019-07-23] perhaps promnesia should respond both to canonical and its own idea of normalised (preferring canonical)
+:PROPERTIES:
+:ID:       07e619c728a12a247e5dbc191398421b
+:END:
+* TODO [#C] X.m.wikipedia.org
+:PROPERTIES:
+:CREATED:  [2019-07-23]
+:ID:       de3ad3059e6fe82edced199fb4e36113
+:END:
+* TODO [#C] semiconductors video should be unified properly. well, or again hierarchical thing? might be too spammy for 'watch later'
+:PROPERTIES:
+:CREATED:  [2019-07-15]
+:ID:       92f11f14e1673ff255761dff2ba579d9
+:END:
+* STRT [#D] should be more defensive
+:PROPERTIES:
+:CREATED:  [2019-06-05]
+:ID:       3a001ab28a4d44f47e9be5740af64292
+:END:
+:  ValueError: netloc ' +79869929087, mak34@gmail.com' contains invalid characters under NFKC normalization
+** [2019-08-26] did I do it?
+:PROPERTIES:
+:ID:       a65a7bff7309a4c8c51f19336bcb9206
+:END:
+* TODO [#C] reddit: tested on https://www.reddit.com/r/explainlikeimfive/comments/1vavyq/eli5_godels_ontological_proof/ceqlupx/ :hypothesis:
+:PROPERTIES:
+:CREATED:  [2019-07-09]
+:ID:       acee4947eac67c6105478d7d58f7e948
+:END:
+huh, so reddit seems to normalise to the main page, and displays annotations as 'orphaned' for comment views?
+** [2019-07-09] so look like reddit referes to the 'post' page as canonical. Right.
+:PROPERTIES:
+:ID:       3e768c6a1ae834e4ae3849ad6200534c
+:END:
+* TODO [#C] hmm some local and remote pages may overlap
+:PROPERTIES:
+:CREATED:  [2019-07-13]
+:ID:       31944557e36b68a27ace9b20c2e78ad6
+:END:
+e.g. this is very likely to be mapped to normal py docss
+file:/usr/share/doc/python3/html/library/contextlib.html
+
+* [#B] [2019-07-09] h/uri.py at 0fc8a0d345741d43b4f80856a7cbb8f5afa70f80 · hypothesis/h :hypothesis:
+:PROPERTIES:
+:ID:       bb70d522519ee8285b31031dda16bda6
+:END:
+https://github.com/hypothesis/h/blob/0fc8a0d345741d43b4f80856a7cbb8f5afa70f80/h/util/uri.py
+** [2019-07-09] blacklisted query params!
+:PROPERTIES:
+:ID:       cb798afca15197a1d1aa7e185c84a57f
+:END:
+** [2019-07-09] right, I could probably reuse hypothesis's canonify and contribute back. looks very similar to mine
+:PROPERTIES:
+:ID:       414a37cbed163b8a8961fb46adb5aefa
+:END:
+
+* DONE [#B] [2019-02-18] make sure ? extracted correctly
+:PROPERTIES:
+:ID:       816fc3f08e52e94061717607c7dd9c88
+:END:
+https://play.google.com/store/apps/details?id=com.faultexception.reader
+
+* DONE [2019-05-04] Yuck, the monospace font feels too dense, and dislike the serifs. | Hacker News
+:PROPERTIES:
+:ID:       d82047bb256142d0cd19b5cf2486d1d0
+:END:
+https://news.ycombinator.com/item?id=12973788
+id here is important
+
+
+* TODO [#D] shit!
+:PROPERTIES:
+:CREATED:  [2019-06-02]
+:ID:       3538932b2e7318bcc7ef9f7eb39f5a7f
+:END:
+[INFO wereyouhere 190602 11:00:06 wereyouhere_server:104] url: google.com/search
+[INFO wereyouhere 190602 11:00:06 wereyouhere_server:106] normalised url: google.com/search
+* TODO [#C] hmm, server doesn't normalise properly?? (url escaping)
+:PROPERTIES:
+:CREATED:  [2019-06-02]
+:ID:       7a03fc3092853d2576fe3c21808ade40
+:END:
+ru.wikipedia.org/wiki/Грамматикализация
+* TODO [#D] [2019-08-25] Lisp Language
+:PROPERTIES:
+:ID:       ff198ff47b4dcd940dd0d03e863d951a
+:END:
+http://wiki.c2.com/?LispLanguage
+canonify
+* STRT [#C] archive.org                                             :linkrot:
+:PROPERTIES:
+:CREATED:  [2019-12-26]
+:ID:       3660d3164b7bf9624969267ec54288d3
+:END:
+* TODO [#C] should be idempotent?
+:PROPERTIES:
+:CREATED:  [2019-09-03]
+:ID:       5ac5e0cc1150065be92dda8eac1a3e2b
+:END:
+* [#C] [2020-01-02] motivation: On Privacy versus Freedom | Matrix.org
+:PROPERTIES:
+:ID:       4c84ac3421f5e26ecc399ae5983a63b5
+:END:
+https://www.instapaper.com/read/1265139707
+instapaper 'imports' pages and assigns an id
+so you can't connect your annotations on instapaper to notes etc
+* CANCEL [#D] http://lifebio.wiki/флуоксетин-прозак didn't handle
+:PROPERTIES:
+:CREATED:  [2019-07-14]
+:ID:       21922ccb04bea7d7713a99c025ad477b
+:END:
+* TODO [#B] roam links
+:PROPERTIES:
+:CREATED:  [2020-04-19]
+:ID:       5b023a6dcb429aa694c953806efada04
+:END:
+* TODO [#C] [2019-03-27] rbaier/python-urltools: Some functions to parse and normalize URLs.
+:PROPERTIES:
+:ID:       3300eb74419e8d71c75cd5425b63643e
+:END:
+https://github.com/rbaier/python-urltools
+
+* STRT [#B] just specify admissible regexes for urls so it's easier to unify?
+:PROPERTIES:
+:CREATED:  [2019-11-08]
+:ID:       00d772b571c2abf5e1fcc207b1ed300b
+:END:
+e.g. twitter.com/user/status/statusid
+
+maybe normalise to this?
+twitter.com/i/web/status/1053151870791835649
+
+reddit.com/comments/5ombk8 -- huh, normalise to this?
+TODO m.readdit/old.reddit
+
+
+en.m.wikipedia/ru.m.wikipedia
+maybe stripp off subdom completely?
+
+
+youtube.com/watch?v=xAy---wp_DQ&list=PL0k_yDgrqAiU_EF5d7krLIds1ebhTxCjm&shuffle=221
+youtube.com/watch?v=Woa3MPijE3s&list=PL0k_yDgrqAiXKspaa1GIS0jbbLrsAa3sk&spfreload=10
+** [2019-11-09] also this to summarize
+:PROPERTIES:
+:ID:       8d9e63c88e511143de8fb44576d4863a
+:END:
+sqlite3 promnesia.sqlite 'select domain, count(domain) from (select substr(norm_url, 0, instr(norm_url, "/")) as domain from visits) group by domain order by count(domain)'
+
+* TODO [#C] old.reddit and new reddit
+:PROPERTIES:
+:CREATED:  [2020-01-12]
+:ID:       3734a8ef598b320e7316b889fc6a4778
+:END:
+* TODO [#C] maybe https://youtu.be/zRxI0DaQrag?t=1380 ?
+:PROPERTIES:
+:CREATED:  [2019-11-15]
+:ID:       36c92265c3e08af9256f7e31d835d3a9
+:END:
+* TODO [#C] github: https://twitter.com/i/web/status/928602151286386688 this end up trimmed with ... :(
+:PROPERTIES:
+:CREATED:  [2019-11-09]
+:ID:       84e28a507210c6a58d3ec38fbf1c0bfa
+:END:
+* TODO [#C] github: https://twitter.com/i/web/status/1156086851633131520
+:PROPERTIES:
+:CREATED:  [2019-11-07]
+:ID:       67ecadb2ef17d192d9a26b856154ba3a
+:END:
+* TODO [#A] [2020-06-30] [[https://gitlab.com/KevinRoebert/ClearUrls][Kevin R. / ClearURLs · GitLab]]
+:PROPERTIES:
+:ID:       e97c314e7890840f6e391e9fecf072d4
+:END:
+: Once ClearURLs has cleaned the address, it will look like this: https://www.amazon.com/dp/exampleProduct
+* TODO Reuse url cleaning tools?
+:PROPERTIES:
+:CREATED:  [2020-06-29]
+:ID:       717f165872e98b261cd72ef3b1ab2cbb
+:END:
+: Regarding the cleaning of URLs, are you aware of the ClearURLs [1] extension? It seems to achieve much of what you're trying to do.
+
+[1]: https://gitlab.com/KevinRoebert/ClearUrls
+
+* STRT [#C] [2020-04-30] [[http://www.defmacro.org/2016/12/22/writing-well.html][Writing well | defmacro]]
+:PROPERTIES:
+:ID:       67b214e02ad7198f84490b8a773103f3
+:END:
+support for archive.org and test on this page
+* [2020-11-15] [[https://www.youtube.com/c/Wendoverproductions/videos][Wendover Productions - YouTube]]
+:PROPERTIES:
+:ID:       5f3266d0d09788b86862f2887fe3265f
+:END:
+
+* [2020-11-22] [[https://melpa.org/#/async][async - MELPA]]
+:PROPERTIES:
+:ID:       b6ec4441e21921b5e302608e64a78e43
+:END:
+
+* TODO [#C] could reuse URL underlying etc with ampie?
+:PROPERTIES:
+:CREATED:  [2020-11-20]
+:ID:       d1c35c0bd30aeff685fa73f97dc8826b
+:END:
+* [2020-11-30] [[https://news.ycombinator.com/news][Hacker News]]
+:PROPERTIES:
+:ID:       b761b238d16286eb1a8ffffb1ba0558f
+:END:
+: https://www.c-span.org/video/?c4808083/rust-language-chosen
+* [2020-12-04] [[https://unix.stackexchange.com/questions/117609/capture-error-of-ls-to-file#comment183614_117609][shell - Capture Error of LS to file - Unix & Linux Stack Exchange]]
+:PROPERTIES:
+:ID:       ecc601f202e3851814eb7deb5e278abb
+:END:
+
+* [2020-12-07] [[https://github.com/einaregilsson/Redirector][einaregilsson/Redirector: Browser extension (Firefox, Chrome, Opera, Edge) to redirect urls based on regex patterns, like a client side mod_rewrite.]]
+:PROPERTIES:
+:ID:       790424d44fa002dc5dc52ecb5189766f
+:END:
+
+* TODO [2020-12-09] [[https://news.ycombinator.com/item?id=25356757][Detecting the use of “curl – bash” server side (2016) | Hacker News]]
+:PROPERTIES:
+:ID:       9fcb5b73267f8f1ac65178d4fbebde75
+:END:
+: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=955208
+* TODO hmm, maybe the extension can learn normalisation ruls over time? by looking at canonical and refining the rules?
+:PROPERTIES:
+:CREATED:  [2020-12-20]
+:ID:       74d1dc72823a215656fa2830f9ed8f14
+:END:
+* TODO sample random links and their canonicals for testing
+:PROPERTIES:
+:CREATED:  [2020-12-20]
+:ID:       8de00090e4533b6023e45c935ee4ab45
+:END:
+* TODO [#C] [2019-03-27] sindresorhus/compare-urls: Compare URLs by first normalizing the
+:PROPERTIES:
+:ID:       b2965a596f28bd3506863c053c16208a
+:END:
+https://github.com/sindresorhus/compare-urls
+: compareUrls('HTTP://sindresorhus.com/?b=b&a=a', 'sindresorhus.com/?a=a&b=b');
+* [#C] [2019-07-09] h/normalize_uris_test.py at 0fc8a0d345741d43b4f80856a7cbb8f5afa70f80 · hypothesis/h
+:PROPERTIES:
+:ID:       61b9d2e1356ba6772de38333b19903cb
+:END:
+https://github.com/hypothesis/h/blob/0fc8a0d345741d43b4f80856a7cbb8f5afa70f80/tests/h/cli/commands/normalize_uris_test.py
+
+* [#C] [2019-04-16] niksite/url-normalize: URL normalization for Python
+:PROPERTIES:
+:ID:       306dde6870ac92ecdbcb8a468e283575
+:END:
+https://github.com/niksite/url-normalize
+
+* [#D] [2020-11-18] [[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3603021][Vanquishing ‘Monsters’ in Foundations of Computer Science: Euclid, Dedekind, Frege, Russell, Gödel, Wittgenstein, Church, Turing, and Jaśkowski didn’t get them all … by Carl Hewitt :: SSRN]]
+:PROPERTIES:
+:ID:       d2a590bca647ab9bbd1099d135e3ade8
+:END:
+
+* [#D] better regex fox url extraction
+:PROPERTIES:
+:ID:       76cec1d566b4147d2acf6960e9232444
+:END:
+eh, urls can have commas...  e.g. http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
+so, for csv need a separate extractor.
+* TODO [#A] [2020-11-22] [[https://github.com/WorldBrain/memex-url-utils][WorldBrain/memex-url-utils: Shared URL processing utilities for Memex extension and mobile apps.]] :worldbrain:
+:PROPERTIES:
+:ID:       69e1758e0072d8cc961dec5c2eb1ed50
+:END:
+* TODO [#C] [2020-11-16] [[https://twitter.com/amogh_jalihal/status/1328393853599059970][Amogh Jalihal on Twitter: "@karlicoss Ah sure: This DOI: https://t.co/GAxA4U3UYE should lead to this paper: https://t.co/3epCLG80ik ." / Twitter]]
+:PROPERTIES:
+:ID:       91bd54f86dc042ee7467830126ca0713
+:END:
+: Ah sure: This DOI: https://doi.org/10.1073/pnas.1211902109  should lead to this paper: https://pnas.org/content/109/48/E3324 .
+* STRT [#C] rethinking the whole approach...
+:PROPERTIES:
+:CREATED:  [2020-11-15]
+:ID:       36ade71f4509cd03402e0a878505657e
+:END:
+consider https://www.youtube.com/watch?v=wHrCkyoe72U&list=WL
+basically
+- cut of protocol just merely for simplicity? I guess makes everything much easier
+- the result is always 'composed of' inputs. e.g. maps to youtube/wHrCkyoe72U, both parts are in the original link
+  might not be the case if domain names are remapped though.. e.g. youtu.be
+- sort query parts alphabetically
+  (although might make sense to make it hierarchy aware?)
+- treat parts & query the same way, parts are query with None keys
+- to handle domain names better, replace dots before first / with /: e.g. www.youtube.com/ -> www/youtube/com
+  then cat treat the same way as subpaths
+  i.e. we get
+  None www          | drop
+  None youtube      | keep
+  None com          | drop
+  None watch        | drop
+  list WL           | keep? -- actually this could be considered a 'tag'? unclear
+  v    wHrCkyoe72U  | keep
+ok so how do we generalize from two examples?
+ e.g. say we also have
+ youtube.ru/watch?v=abacaba -> youtube/abacaba
+ we get
+      youtube | keep
+      ru      | drop
+      watch   | drop
+ v    abacaba | keep
+I suppose it could guess that if we keep a query parameter once, we'll keep it always?
+and if we extracted a certain substring without a query parameter, we'll also always keep it as is?
+
+TODO how about this?
+https://news.ycombinator.com/reply?id=25100810&goto=item%3Fid%3D25099862%2325100810
+it's a reply to       https://news.ycombinator.com/item?id=25100035
+which is a comment to https://news.ycombinator.com/item?id=25099862
+* TODO [#C] use shared JS/python tests for canonifying?       :ffi:promnesia:
+:PROPERTIES:
+:CREATED:  [2020-11-12]
+:ID:       aa893f044397f7c5ddeb9d18ca4911a2
+:END:
+* [#C] [2020-05-28] Wayback Machine
+:PROPERTIES:
+:ID:       53bcb41749f7403f186e4de2c3063fbb
+:END:
+https://web.archive.org/web/2019*/http://www.defmacro.org/2016/12/22/writing-well.html
+
+* [#C] [2020-06-16] [[https://news.ycombinator.com/item?id=23537243#23540421][Syncthing is everything I used to love about computers | Hacker News]]
+:PROPERTIES:
+:ID:       d5e1083430b93850dd6c85f0a6166265
+:END:
+
+* TODO [#C] could write a service to resolve t.co links...          :linkrot:
+:PROPERTIES:
+:CREATED:  [2020-04-29]
+:ID:       f9328b739c70f51594d7c8b6db28d806
+:END:
+* TODO [#C] how do we prune links that are potentially not secure to store? like URL parameters
+:PROPERTIES:
+:CREATED:  [2020-05-20]
+:ID:       d04cb11dd6b91f437df6906a2f21a644
+:END:
+* TODO [#C] background thing that sucks in canonical urls???      :promnesia:
+:PROPERTIES:
+:CREATED:  [2020-05-12]
+:ID:       99df3153711bfab7689a71b4b3107d17
+:END:
+* [#C] [2020-05-11] [[https://medium.com/@WorldBrain/vision-mission-values-2020-update-d70aa35a638#0b0b][Vision, Mission & Values — 2020 Update - WorldBrain.io - Medium]]
+:PROPERTIES:
+:ID:       a0d1849555b05858028cb6aabd0e7157
+:END:
+fragments are often random and useless
+even default org-mode is guilty
+* [#C] [2020-04-27] [[https://github.com/john-kurkowski/tldextract][john-kurkowski/tldextract: Accurately separate the TLD from the registered domain and subdomains of a URL, using the Public Suffix List.]]
+:PROPERTIES:
+:ID:       36b741e7d40067a63daebad326497fb9
+:END:
+hmm could use this for better extraction...
+* [#C] [2019-12-25] sindresorhus/normalize-url: Normalize a URL
+:PROPERTIES:
+:ID:       536941342482ff799cbf0e51d9040758
+:END:
+https://github.com/sindresorhus/normalize-url
+: stripWWW
+
+there is stripWWW, but it can't handle amp etc
+* [#C] [2019-12-23] reference request - Examples of "Unrelated" Mathematics Playing a Fundamental Role in TCS? - Theoretical Computer Science Stack Exchange
+:PROPERTIES:
+:ID:       9b2051b44b4b82c5d5da5bf6c3cee503
+:END:
+https://cstheory.stackexchange.com/questions/1920/examples-of-unrelated-mathematics-playing-a-fundamental-role-in-tcs/1925#1925
+need parent link to trigger on this in cannon
+* TODO [#C] [2020-02-08] 1411873 - "An unexpected error occurred" when requesting optional permission (origin)
+:PROPERTIES:
+:ID:       051f4ca81f8f5b2fb4f210e60a44ca99
+:END:
+https://bugzilla.mozilla.org/show_bug.cgi?id=1411873
+ugh need to keep id
+* TODO [#C] need checks that url don't contain stupid shit like trailing colons etc
+:PROPERTIES:
+:CREATED:  [2019-02-24]
+:ID:       54fe2899cca53e3b9f2a10208a1e821d
+:END:
+* [#C] [2019-07-09] Changed how threading works. by JakeHartnell · Pull Request 952 · hypothesis/h :hypothesis:reddit:
+:PROPERTIES:
+:ID:       4c6ef60cfc2dcfefe2f7c6f839aa9430
+:END:
+https://github.com/hypothesis/h/pull/952
+: reddit
+* TODO [#C] canonify within the browser could be useful for different extensions as well...
+:PROPERTIES:
+:CREATED:  [2020-11-17]
+:ID:       f5011e36201f797fce71a004a6028186
+:END:
+e.g. blockers, various highlighters, hypothesis, etc
+** [2020-11-21] could also share with #Ampie ..
+:PROPERTIES:
+:ID:       08f2510e531cfac3c04f035f36986daf
+:END:
+* DONE [#B] [2019-08-07] The Problem With URLs
+:PROPERTIES:
+:ID:       d7b519afa34c355584267b1fba15f1eb
+:END:
+https://blog.codinghorror.com/the-problem-with-urls/
+** [2019-08-27] not very insigntful, example of msdn with weird characters in urls
+:PROPERTIES:
+:ID:       4c495f1960f9d509d343dd1b0e72cd32
+:END:
+* DONE [#B] normalise links
+:PROPERTIES:
+:ID:       d1bd691ca2547f101f60dd611d0053be
+:END:
+** STRT strip off & ? first, on reddit. not sure if should be default
+:PROPERTIES:
+:ID:       d300f8b88be591d228649bd58479db7f
+:END:
+*** ok, it's better to overstrip than understrip. overstripping -- you are gonna notice; understripping -- you won't
+:PROPERTIES:
+:ID:       2ea98de6c020450852dc74b419eed225
+:END:
+*** DONE ok, so ? is useful on yahoo answers (qid parameter)
+:PROPERTIES:
+:ID:       9f2c0aa9cc1fc50eb77c9ec54743d23a
+:END:
+*** DONE there is pretty useless usg param?
+:PROPERTIES:
+:ID:       69b1b53f237bc6c6a1edd6b3bf01a99b
+:END:
+*** TODO ? askville amazon request id
+:PROPERTIES:
+:ID:       53fc70fc45832cb165a49d19e9df5483
+:END:
+*** DONE [#A] definitely bad idea to cut off ? for youtube!!
+:PROPERTIES:
+:ID:       d38b4a080299aab364229dc51c6f2398
+:END:
+*** TODO [#D] wtf with remaining &/? in urls.json??
+:PROPERTIES:
+:ID:       fe45c8cda32f57b5ba7c2f4f0ce1607f
+:END:
+*** DONE amp.reddit.com -> amp. just strip off "^amp.", same for m.reddit.com
+:PROPERTIES:
+:ID:       efa719f36a0b579615d29e42f726e3a9
+:END:
+*** DONE www.?
+:PROPERTIES:
+:ID:       ccda0a6a5db46a1c6057bd2b8a5efffc
+:END:
+*** TODO chop off /
+:PROPERTIES:
+:ID:       9d6b8ce5358f96a174400c7b5bd642e1
+:END:
+** TODO [#C] normalisation rules should probably be in config. or at least overridable?
+:PROPERTIES:
+:ID:       96d38cf2db944ca55abf7acabddf6cb5
+:END:
+** DONE code duplication between js and python
+:PROPERTIES:
+:ID:       eecf04dc20ba0be1f1c5c9e879eab988
+:END:
+shit, jiphy can't even handle arrrays
+maybe normalise all in js? but that sort of sucks...
+well, it's kinda fine now...
+
+
+* related                                                         :promnesia:
+:PROPERTIES:
+:ID:       90ed4512c954aea887dcc288ffc3f367
+:END:

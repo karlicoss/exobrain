@@ -1,4 +1,5 @@
 #+TITLE: Food misc
+#+logseq_graph: false
 #+filetags: food
 
 * [#B] [2018-04-23] Variation in stimulation is evolutionary beneficial :gastronomy:

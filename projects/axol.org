@@ -233,7 +233,7 @@ https://axol.karlicoss.xyz/feed/55/entries
 :CREATED:  [2020-10-26]
 :ID:       bd0b82261bf38ef6586624a456a24658
 :END:
-** TODO [#C] would be nice to have some html dashboard, so it's easy to blacklist terms? :ui:
+** TODO [#C] would be nice to have some html dashboard, so it's easy to blacklist terms?
 :PROPERTIES:
 :CREATED:  [2020-01-03]
 :ID:       802da5166d638bf9d79a979658819cc1
@@ -251,7 +251,7 @@ maybe some simple cmdline available from anywhere. or org mode as source?
 :CREATED:  [2020-12-10]
 :ID:       acfe50caa6465736bf30cb4d72c31e41
 :END:
-** TODO [#B] dunno about rss interface... really need a more efficient way of processing content, reordering, etc :axol:ui:
+** TODO [#B] dunno about rss interface... really need a more efficient way of processing content, reordering, etc
 :PROPERTIES:
 :CREATED:  [2020-05-21]
 :ID:       2901a79454b13effec7d859013e5bc73

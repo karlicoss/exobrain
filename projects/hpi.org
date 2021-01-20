@@ -374,10 +374,10 @@ add link
 :PROPERTIES:
 :ID:       1dde87dd91566aa1d6e8efa87e3d2ffa
 :END:
-** TODO [#C] I guess google takeout would be a good demonstration   :hpi_doc:
+** TODO [#C] doc: I guess google takeout would be a good demonstration
 :PROPERTIES:
 :CREATED:  [2020-05-04]
-:ID:       dd55c71d17e93639c0bc3609a981784b
+:ID:       7a84ed543397f05f1471ff3b37eb361c
 :END:
 ** STRT [#C] list supported providers in readme
 :PROPERTIES:
@@ -402,19 +402,19 @@ also default attributes are pretty important because of caching, error handling 
 
 eh. not sure about this section...
 can't have config/repos dir and config.py at the same time
-** TODO [#C] giude with pyenv if they don't want to mess up their main environment, use docker :doc:hpi:
+** TODO [#C] doc: giude with pyenv if they don't want to mess up their main environment, use docker :hpi:
 :PROPERTIES:
 :CREATED:  [2020-09-29]
-:ID:       a2ba9d0866a514c1b62550630e8825fa
+:ID:       674c2053a908846b468beb91eb1961f7
 :END:
-** TODO [#D] [2019-12-10] another example of patching in private package in my.holidays :doc:
+** TODO [#D] [2019-12-10] doc: another example of patching in private package in my.holidays
 :PROPERTIES:
-:ID:       e8704d127b14fae8730b654db0a2525a
+:ID:       2d6ade7af7e7813ff577e785256440d8
 :END:
-** TODO [#D] Hmm i wonder if egg links can be used on systems without symlinks? :hpi_doc:python:
+** TODO [#D] doc: Hmm i wonder if egg links can be used on systems without symlinks? :pip:python:
 :PROPERTIES:
 :CREATED:  [2020-04-14]
-:ID:       f4ab4ca657f3f9c54767390da09bb388
+:ID:       ee61a8bd8551c7f5bc10fe6dbb7d9fa6
 :END:
 ** TODO [#C] add a doctor shortcut for profiling?
 :PROPERTIES:
@@ -499,10 +499,10 @@ I appreciate not everyone uses the same data as I do.
 My point is showing that my private layer is actually pretty thin and you can implement something TODO suiting you by looking at mine as an example.
 
 Same way as TODO think of some analogy? when you're using a todo list app, you've got your own unique pattern. Yet, we all benefit massively from sharing the same infrastructure
-** STRT [#C] mention that it's meant to be very flexible -- so you could use integrate it in in your system :blog:doc:
+** STRT [#C] doc: mention that it's meant to be very flexible -- so you could use integrate it in in your system :toblog:
 :PROPERTIES:
 :CREATED:  [2020-04-23]
-:ID:       5861fee1d7b6cf72387e01fd33685c16
+:ID:       cc6e93122725c2b42d5a781a5aa5f2e3
 :END:
 ** TODO [#C] planetpython etc?                                      :publish:
 :PROPERTIES:

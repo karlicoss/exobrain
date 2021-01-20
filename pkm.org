@@ -149,7 +149,7 @@ although I'm gonna need to disable html export bits then
 :ID:       a967fc27b0c52ea9c46f75cf68686434
 :END:
 : or translate the data into other data models, like the open annotation data model.
-* STRT [#B] firefox saved searches via bookmarks actually get synced? :pkm:tweet:blog:
+* STRT [#B] firefox saved searches via bookmarks actually get synced? :pkm:tweet:toblog:
 :PROPERTIES:
 :CREATED:  [2020-07-05]
 :ID:       dc267633c6220c3312644f406945c441
@@ -549,7 +549,7 @@ https://www.nayuki.io/page/designing-better-file-organization-around-tags-not-hi
 :ID:       121eaedebe8daa00babdb97dc953f33e
 :END:
 
-* TODO [#C] make views into reddit comments? multiple blocks; fetch them regularly? :blog:pkm:
+* TODO [#C] make views into reddit comments? multiple blocks; fetch them regularly? :toblog:pkm:
 :PROPERTIES:
 :CREATED:  [2019-06-13]
 :ID:       6c585eb88214b77ae4121c4b7ad5c601
@@ -579,7 +579,7 @@ https://physicstravelguide.com/start
 :ID:       0597102daf1401aef3de6f403fbe5b4e
 :END:
 
-* STRT [#C] [2019-07-20] A very brief introduction to Personal Knowledge Management – Relatris Blog und Fundstücke :blog:
+* STRT [#C] [2019-07-20] A very brief introduction to Personal Knowledge Management – Relatris Blog und Fundstücke :toblog:
 :PROPERTIES:
 :ID:       e09bc86256fac459bdb959c58b75a479
 :END:
@@ -753,7 +753,7 @@ https://twitter.com/schlagetown/status/1191814458957418497
 
 https://news.ycombinator.com/item?id=21642289
 
-* TODO [#C] Special account that favs my interesting tweets for a feed :pkm:search:blog:
+* TODO [#C] Special account that favs my interesting tweets for a feed :pkm:search:toblog:
 :PROPERTIES:
 :CREATED:  [2019-12-03]
 :ID:       73f8718c5cb3fb779dd81a0c9c6b6b87
@@ -1194,10 +1194,10 @@ then you build a graph based on the property. your notes aren't scattered across
 now and then you can overview the notes based on this property and merge them if necessary
 or maybe it's a thing enclosed in {}? but then it's tricky to process by org-mode
 org maybe [] anchor?
-* TODO [#C] search in images with ripgrep-all (rga):setup:pkm:
+* TODO [#C] search in images with ripgrep-all (rga)               :setup:pkm:
 :PROPERTIES:
 :CREATED:  [2020-04-15]
-:ID:       fc19cf3fc21f589c3545aa3044308e48
+:ID:       5eccc21b1294315c464591c8adb6efc0
 :END:
 : rga ipa . --rga-adapters=+pdfpages,tesseract -g '*.jpg'
 
@@ -1289,26 +1289,20 @@ wow that's fascinating
 :ID:       de6391e3ab73964cec0bfcbc07a2782e
 :END:
 right, def need to try it out, seems it has publishing or something?
-* TODO [#D] Tweet from Nat Eliason (@nateliason), at Jan 9, 07:21      :blog:
+* TODO [#D] Tweet from Nat Eliason (@nateliason), at Jan 9, 07:21
 :PROPERTIES:
 :CREATED:  [2020-01-09]
 :ID:       fa55b6e7dd0b8cf1fe7ae5fe06023fd3
 :END:
-
 : Alright, it's alive!
-: 
 : 3,000+ words on @RoamResearch, including why it's better than Evernote / Notion, and how I'm using it.
-: 
 : https://t.co/FGkbjf51On
-: 
 : TOC includes:
-: 
 : 1. Why Roam?
 : 3. Roam as a Second Brain
 : 4. Roam for Productivity
 : 5. Limitations
 : 6. Getting Started
-: 
 : cc @Conaw
 : 
 : https://twitter.com/nateliason/status/1214943106581385216
@@ -1670,7 +1664,7 @@ post about desktop search engines?
 :ID:       06defe08193311843e49d3de57fce767
 :END:
 eh, it's very simplistic..
-* [2019-12-08] information queue?                           :pkm:search:blog:
+* [2019-12-08] information queue?                         :pkm:search:toblog:
 :PROPERTIES:
 :ID:       7e2aaf27f63081ef5a9b1855e33a741b
 :END:
@@ -1742,7 +1736,7 @@ http://www.roxie.org/knownspacelinks.html
 :PROPERTIES:
 :ID:       11c3e9f0f48960e1259cbb3836411b3d
 :END:
-* DONE [#B] [2019-12-18] silo - IndieWeb                           :blog:pkm:
+* DONE [#B] [2019-12-18] silo - IndieWeb                         :toblog:pkm:
 :PROPERTIES:
 :ID:       0006d2015292a5432847e1ac70ae6cf0
 :END:
@@ -1808,7 +1802,7 @@ https://www.mindforger.com/
 :PROPERTIES:
 :ID:       01160dd3b39d261c8fb6e1a9c3521498
 :END:
-* DONE [#B] obstacles to more effecient PKM            :emacs:pkm:setup:blog:
+* DONE [#B] obstacles to more effecient PKM          :emacs:pkm:setup:toblog:
 :PROPERTIES:
 :CREATED:  [2018-07-04]
 :ID:       b5c5ce56173d25c34e2f89b14ad64bc3

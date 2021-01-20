@@ -6,14 +6,14 @@
 :PROPERTIES:
 :ID:       fbb126358cad1630ae133c19c13a64ea
 :END:
-[[https://github.com/logseq/logseq#logseq][Logseq]] is a #localfirst browser interface for #orgmode. I'm using it for my #exobrain
+[[https://github.com/logseq/logseq#logseq][Logseq]] is a #localfirst browser interface for #org (mode). I'm using it for my #exobrain
 
 ** TODO [#A] search could be wider and include more stuff?         :exobrain:
 :PROPERTIES:
 :CREATED:  [2020-12-29]
 :ID:       fb1bb0722cd0fcced810930f94c5f255
 :END:
-** TODO [#B] suggestions                                             :logseq:
+** TODO [#B] suggestions
 :PROPERTIES:
 :CREATED:  [2020-12-30]
 :ID:       1313181a9d0cb1824989d27a9730376f
@@ -38,7 +38,7 @@ maybe https://github.com/logseq/logseq/issues/207
 :PROPERTIES:
 :ID:       faa335b50f830ae01463ef89e865b85d
 :END:
-** TODO [#B] might be nice to have several 'layers'         :exobrain:logseq:
+** TODO [#B] might be nice to have several 'layers'                :exobrain:
 :PROPERTIES:
 :CREATED:  [2021-01-09]
 :ID:       6111681f9078a174833295148252e278
@@ -65,7 +65,7 @@ ok, nice, this worked (need to run http server though, doesn't work as a fully s
 :CREATED:  [2020-12-29]
 :ID:       031b2548822ea9584af608077b55f596
 :END:
-** TODO [#C] if it used custom ids would be awesome..                :logseq:
+** TODO [#C] if it used custom ids would be awesome..
 :PROPERTIES:
 :CREATED:  [2020-12-29]
 :ID:       99bd46205f70504173b30d8eb14d0222
@@ -253,7 +253,7 @@ Would require support in notebook interface
 :ID:       cae0206c31eaa305dd0e847330c5e837
 :END:
 https://github.com/geoffreylitt/wildcard
-related: #interop #malleable #spreadsheets
+related: #interop #malleable #spreadsheet
 
 ** TODO [#B] [2020-05-13] [[https://news.ycombinator.com/item?id=23165901][Ask HN: Anyone else upvote HN comments to track comments they have already read? | Hacker News]] :pkm:
 :PROPERTIES:

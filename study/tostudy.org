@@ -1705,7 +1705,7 @@ from renormalization http://math.ucr.edu/home/baez/renormalization.html
 :END:
 https://axelmaas.blogspot.com/2010/10/electromagnetism-photons-and-symmetry.html
 : Now, the relation between the four convenient numbers and the two important ones is quite in analogy to this case, and is therefore also a U(1) symmetry. That is how the symmetry becomes associated with electromagnetism. This tells us that if we change the four numbers by, so to say, moving them around on the circle, we do not change the two numbers describing the photon (or the six describing the electric and magnetic field). Only when we move away from the circumference, the two (and six) numbers change.
-* TODO [#C] [2019-01-23] what happens when computer: structural regular expressions :study:projects:
+* TODO [#C] [2019-01-23] what happens when computer: structural regular expressions :study:project:
 :PROPERTIES:
 :ID:       e8b0cb30294ce1fc38d1543d4929c028
 :END:

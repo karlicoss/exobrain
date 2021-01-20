@@ -847,10 +847,10 @@ maybe run the original data retrieval? not sure
 :PROPERTIES:
 :ID:       76d9593cf59b7b028ea2fec5c8b4091a
 :END:
-: Import time and initialization time should be much improved on Python 3.7 with PR #2368.
-** [#C] [2019-04-10] Dash offline is enabled? · Issue #46 · plotly/dash
+: Import time and initialization time should be much improved on Python 3.7 with PR 2368.
+** [#C] [2019-04-10] Dash offline is enabled?  plotly/dash
 :PROPERTIES:
-:ID:       59f9fcfeb42d306373479ee01f34ad28
+:ID:       2341681be15f61befa975625866d3fe2
 :END:
 https://github.com/plotly/dash/issues/46
 : from dash import Dash
@@ -1349,7 +1349,7 @@ hmm.. doesn't have any typing imports at all?? what does he mean 'working nicely
 :ID:       54bbf812bc3ee66b4ad30dcdaf9927a9
 :END:
 
-* STRT [#B] [2020-10-31] [[https://hackernoon.com/introducing-grid-studio-a-spreadsheet-app-with-python-to-make-data-science-easier-tdup38f7][How I built a spreadsheet app with Python to make data science easier | Hacker Noon]]
+* STRT [#B] [2020-10-31] [[https://hackernoon.com/introducing-grid-studio-a-spreadsheet-app-with-python-to-make-data-science-easier-tdup38f7][How I built a spreadsheet app with Python to make data science easier | Hacker Noon]] :spreadsheet:
 :PROPERTIES:
 :ID:       f7354689adb30a5511bfcbbf3e693162
 :END:
