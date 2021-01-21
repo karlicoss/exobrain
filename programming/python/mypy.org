@@ -63,7 +63,7 @@ https://github.com/python/mypy/issues/5107
 : @overload
 : def fetch_data(raw: Literal[False]) -> str: ...
 : # Fallback overload if the user provides a regular bool
-* TODO use protocols for classes which I can't control, they are very neat!!! :python:mypy:
+* TODO use protocols for classes which I can't control, they are very neat!!! :python:mypy:habit:
 :PROPERTIES:
 :CREATED:  [2018-12-11]
 :ID:       a57ea940-d567-4a15-8a12-1c02fb3116d5

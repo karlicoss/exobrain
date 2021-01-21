@@ -525,3 +525,8 @@ https://github.com/hidroh/materialistic/issues/1075
 :CREATED:  [2020-11-02]
 :ID:       gtbgsntsyncngprs
 :END:
+* TODO [#C] [2019-02-10] Implement auto synchronization · Issue  · orgzly/orgzly-android :orgzly:
+:PROPERTIES:
+:ID:       snmplmnttsynchrnztnssrgzlyrgzlyndrd
+:END:
+https://github.com/orgzly/orgzly-android/issues/8

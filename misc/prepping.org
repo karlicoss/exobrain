@@ -16,3 +16,26 @@ huh, something like that could be cool!
 :CREATED:  [2020-06-07]
 :ID:       prtblslrgnrtr
 :END:
+* [#D] [2019-10-11] Collapse OS — Bootstrap post-collapse technology :prepping:bootstrap:
+:PROPERTIES:
+:ID:       frcllpssbtstrppstcllpstchnlgy
+:END:
+https://collapseos.org/
+** [#D] [2019-10-11] Collapse OS — Bootstrap post-collapse technology | Lobsters :prepping:
+:PROPERTIES:
+:ID:       frcllpssbtstrppstcllpstchnlgylbstrs
+:END:
+https://lobste.rs/s/nxxttu/collapse_os_bootstrap_post_collapse
+: If computers are useful post-collapse (big if), people will scavenge x86 boxes because they’re everywhere, people are far likelier to know how to use it, and they already run most everything. There’s enough around that scavenging is easier than using 1970s tech, and the older examples are quite workable with a soldering iron anyway.
+
+* [2015-06-19] how to protect from radiation?            :humanbody:prepping:
+:PROPERTIES:
+:ID:       frhwtprtctfrmrdtn
+:END:
+- Iodine-131: one of the products of the radioactive Uranium and Plutonium decay. Half-life: 8 days.
+- The thyroid gland basically stores Iodine in the human body.
+- If we "overfill" our thyroid with Iodine, blocks the uptake of radioiodine. The gland won't store any more of it, including Iodine-131
+- Obviously, won't save us from nuclear junk of other kinds or dirty bomb. Definitely don't save us from gamma rays.
+- Potassium iodide protects from thyroid cancer.
+- TODO: Cesium: half-life of 30 years.
+- TODO: shower against radiation exposure?

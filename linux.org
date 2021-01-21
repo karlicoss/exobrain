@@ -10,7 +10,10 @@
 :PROPERTIES:
 :ID:       dckrsystmprntclnp
 :END:
-
+** [2021-01-12] figuring out what takes disk space  ~docker images | awk '{print $3}' | xargs docker inspect | less~ :docker:
+:PROPERTIES:
+:ID:       tfgrngtwhttksdskspcdckrmgswkprntxrgsdckrnspctlss
+:END:
 * systemd                                                           :systemd:
 :PROPERTIES:
 :ID:       systmd

@@ -1,5 +1,5 @@
 #+TITLE: 
-* {~} Switch case of letter
+* {~} Switch case of letter                                           :habit:
 :PROPERTIES:
 :ID:       8ca57b16-07a4-44ce-8628-9878c2149f98
 :END:
@@ -12,11 +12,11 @@ then ; to repeat forward
      , to repeat backwards
 
 
-* {t} search before character
+* {t} search before character                                         :habit:
 :PROPERTIES:
 :ID:       c0386700-5746-4c66-8ea6-1d618472dd77
 :END:
-* TODO use * and # for searching current word                           :vim:
+* TODO use * and # for searching current word                     :habit:vim:
 :PROPERTIES:
 :ID:       3fb0c993-a1dd-4e3e-8a5f-b774b52e332d
 :CREATED:  [2018-01-25]

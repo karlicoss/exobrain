@@ -69,7 +69,7 @@ http://sourceware.org/gdb/current/onlinedocs/gdb/Forks.html
 : echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
 
 
-* TODO [#D] use 'commands' 'end'                                        :gdb:
+* TODO [#D] use 'commands' 'end'                                  :gdb:habit:
 :PROPERTIES:
 :CREATED:  [2018-08-10]
 :ID:       c1bfa720-84f1-4cd5-a7c1-8526acb88555
@@ -172,3 +172,89 @@ https://github.com/d-cook/SomethingNew/blob/master/Concepts.md
 :END:
 
 : PandaPy has the speed of NumPy and the usability of Pandas - https://news.ycombinator.com/item?id=22142869
+
+* [2016-05-27] Your real job as a software engineer isn’t to write code. It’s to translate hand-wavy business requirements into detailed specs that a computer can https://medium.com/swizec-s-nightowls/what-should-you-learn-to-get-a-better-coding-job-6453ef083597#.wc1oba7v3
+:PROPERTIES:
+:ID:       fryrrljbssftwrngnrsnttwrthldylrntgtbttrcdngjbfwcbv
+:END:
+* [2016-09-15] caching styles                                       :caching:
+:PROPERTIES:
+:ID:       thcchngstyls
+:END:
+write-through: synchronous writes both to the cache and the backing store
+write-back: initially, only in cache, write to backing store postponed until it's about to be modified/replaced
+* [2016-10-02] distributed system patterns                      :distributed:
+:PROPERTIES:
+:ID:       sndstrbtdsystmpttrns
+:END:
+- Load balancer
+- Scatter and gather
+- Result cache
+- map reduce
+- Bulk requests
+* DONE [#B] [2020-05-28] [[https://lobste.rs/s/zte1xm/ideology][Ideology | Lobsters]] :programming:talk:
+:PROPERTIES:
+:ID:       thslbstrssztxmdlgydlgylbstrs
+:END:
+- [2021-01-10] TLDR: both "I don't need tests" and "I don't need types" people are wrong, often because they haven't seen better alternatives
+* Variance                                                              :plt:
+:PROPERTIES:
+:ID:       vrnc
+:END:
+The question: what are the conditions for the function A -> B to be a subtype of C -> D?
+
+1. A is subtype of B means there is a special function castAB :: A -> B
+2. Two casts compose into another casts, cast compositions are isomorphic (that is, castBC . castAB is essentially the same thing as castAC)
+3. We wanna implement castAfB -> castCfD in order to show (A -> B) <: (C -> D)
+
+   - X :: (A -> B) -> (C -> D)
+   - we can only use functions applications and cast
+   - X (fab :: A -> B) (c :: C) = ? :: D
+   - the only thing we can do is to transform c to some another type, that is, we need castCT :: C -> T
+   - now, we have (castCT c) :: T, basically, leaves us in the same situation, so, we actually need castCA :: C -> A
+   - now, we have (castCA c) :: A, and (fab $ castCA c) :: B. The only way to get D is to use castBD :: B -> D
+
+4. So, we have (A -> B) <: (C -> D), that is, A -> B is subtype of C -> D if C is subtype of A and B is subtype of D.
+
+
+The return type (B and D) is covariant, since preserves the direction of <:
+The argument type (A and C) is contravariant, since it flips the direction of <:
+
+
+Container reading: covariant:
+
+: S <: T, then ReadonlyCollection<S> <: ReadonlyCollection<T>
+
+
+Container writing: contravariant:
+
+: S <: T, then Consumer<T> <: Consumer<S>
+
+
+- C++ poiners: covariant
+- Java
+  - arrays: covariant
+  - Collection<? extends T>: covariant
+  - Collection<? super T>: contravariant
+* [2017-05-08] gdb notes                                                :gdb:
+:PROPERTIES:
+:ID:       gdbnts
+:END:
+- D_GLIBCXX_DEBUG
+
+
+- https://stackoverflow.com/questions/2492020/how-to-view-contents-of-stl-containers-using-gdb-7-x
+Get the python viewers from SVN
+svn://gcc.gnu.org/svn/gcc/trunk/libstdc++-v3/python
+: Add the following to your ~/.gdbinit
+: python
+: import sys
+: sys.path.insert(0, '/path/to/pretty-printers/dir')
+: from libstdcxx.v6.printers import register_libstdcxx_printers
+: register_libstdcxx_printers (None)
+: end
+
+
+You have to make sure that you have the package with the libstdc++ library compiled with the debugging flags.
+
+For clang: ~-fno-limit-debug-info~ do not limit debug information produced to reduce size of debug binary

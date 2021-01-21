@@ -249,7 +249,7 @@ https://twitter.com/sean_a_mcclure/status/1139133916584009728
 :PROPERTIES:
 :ID:       drll
 :END:
-** TODO Fermions are matter bosons are forces
+** TODO Fermions are matter bosons are forces                         :drill:
 :PROPERTIES:
 :CREATED:  [2019-01-30]
 :ID:       e49dd300-2d72-4d08-935f-445b333970cf
@@ -262,7 +262,7 @@ https://twitter.com/sean_a_mcclure/status/1139133916584009728
 https://en.wikipedia.org/wiki/Tangent_bundle
 One of the main roles of the tangent bundle is to provide a domain and range for the derivative of a smooth function. Namely, if f : M → N is a smooth function, with M and N smooth manifolds, its derivative is a smooth function Df : TM → TN.
 
-** [2019-06-12] SM needs to declare the existence of at least {24} fields: {18} quark and {6} lepton
+** [2019-06-12] SM needs to declare the existence of at least {24} fields: {18} quark and {6} lepton :drill:
 :PROPERTIES:
 :ID:       1cc2211a-1e7f-4e7a-bb54-e711efa2f08f
 :END:
@@ -273,12 +273,12 @@ https://thirdtriumvirate.wordpress.com/2019/02/13/the-frustrating-success-of-the
 :END:
   https://physics.stackexchange.com/a/305026
 Counting this way gives us 37 fields. As you can see, field counting can be very arbitrary as it depends on what you understand by a single quantum field
-** [2019-06-12] In order for the weak force (the SU(2) piece) to work, which accounts for how particles decay: our particles can not have mass. :stm:
+** [2019-06-12] In order for the weak force (the SU(2) piece) to work, which accounts for how particles decay: our particles can not have mass. :drill:stm:
 :PROPERTIES:
 :ID:       f1218905-87df-4d9c-bec9-bbdbfac8059f
 :END:
 https://thirdtriumvirate.wordpress.com/2019/02/13/the-frustrating-success-of-the-standard-model/
-** [2019-06-12] “physical electron” is a combination of {electron and anti-positron}. Note that {electron and anti-positron} have different interactions (e.g. the electron can interact with {the W boson}); the physical electron inherits the interactions of both particles
+** [2019-06-12] “physical electron” is a combination of {electron and anti-positron}. Note that {electron and anti-positron} have different interactions (e.g. the electron can interact with {the W boson}); the physical electron inherits the interactions of both particles :drill:
 :PROPERTIES:
 :ID:       d64ed6b1-e004-47f2-b276-f481e2da7a3d
 :END:
@@ -288,12 +288,12 @@ https://www.quantumdiaries.org/2011/06/19/helicity-chirality-mass-and-the-higgs/
 :ID:       tgsslctrncnntrctbcsfwkfrchnddnss
 :END:
 
-** [2019-06-12] Gluons are also massless, but they have a short range force due to their confinement
+** [2019-06-12] Gluons are also massless, but they have a short range force due to their confinement :drill:
 :PROPERTIES:
 :ID:       21be4412-1603-49b4-99ec-1e1a65160111
 :END:
 https://www.quantumdiaries.org/2011/05/05/a-diagrammatic-hint-of-masses-from-the-higgs/
-** [2019-06-12] Even if the quark masses were zero, the neutron and proton would still have roughly their observed masses (on the order of 1 Giga-Electron-Volt). Most of it is binding energy. :higgs:
+** [2019-06-12] Even if the quark masses were zero, the neutron and proton would still have roughly their observed masses (on the order of 1 Giga-Electron-Volt). Most of it is binding energy. :drill:higgs:
 :PROPERTIES:
 :ID:       de2a78cf-0f4b-484b-aa9b-ceea4056e1f3
 :END:

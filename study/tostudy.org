@@ -933,7 +933,7 @@ https://susy.written.ru/2011/02/28/Unruh_effect
 :PROPERTIES:
 :ID:       snsphyscsstckxchngcmqstnssslssphtnsphyscsstckxchng
 :END:
-* TODO [#C] from Lisitsa: алгебры клиффорда и спинорные группы        :watch:
+* TODO [#C] from Lisitsa: алгебры клиффорда и спинорные группы      :towatch:
 :PROPERTIES:
 :CREATED:  [2019-10-22]
 :ID:       frmlstsалгебрыклиффордаиспинорныегруппы
@@ -1151,7 +1151,7 @@ interesting point about coordinates swapping in black hole https://thedeemon.dre
 :ID:       wdименнотакъвнутридырыниктелейнеможетъсуществовать
 :END:
 
-* TODO [#C] revise cs/math/physics stuff                          :spacedrep:
+* TODO [#C] revise cs/math/physics stuff                    :habit:spacedrep:
 :PROPERTIES:
 :ID:       d0f9f718-90bf-4ee6-a863-3fe4a77e82d5
 :END:
@@ -1182,7 +1182,7 @@ from Scott Aaronson on Philosophical Progress - Machine Intelligence Research In
 :ID:       mnnmprtntnnvtnfthpcfrmwrkdctnfcmplxtythrycncptstml
 :END:
 
-* TODO [#C] Tweet from John Carlos Baez (@johncarlosbaez), at Jan 21, 18:29 :symplectic:watch:
+* TODO [#C] Tweet from John Carlos Baez (@johncarlosbaez), at Jan 21, 18:29 :symplectic:towatch:
 :PROPERTIES:
 :CREATED:  [2019-01-21]
 :ID:       twtfrmjhncrlsbzjhncrlsbztjn
@@ -3511,7 +3511,7 @@ https://pinboard.in/u:karlicoss/t:fp
 
 https://twitter.com/deniok/status/1116737917421064192
 
-* TODO [#D] anyons: 2D quasi particles, global phase picked up after interchange :quantum:
+* TODO [#D] anyons: 2D quasi particles, global phase picked up after interchange :drill:quantum:
 :PROPERTIES:
 :CREATED:  [2019-05-29]
 :ID:       ad2db13c-6f4d-4ab6-8acb-a7ce71b97228
@@ -3713,66 +3713,66 @@ https://en.wikipedia.org/wiki/Breit%E2%80%93Wheeler_process
 :PROPERTIES:
 :ID:       drll
 :END:
-** TODO S(N) is { det = 1 } U(N) is { M*M = 1 }                  :reprtheory:
+** TODO S(N) is { det = 1 } U(N) is { M*M = 1 }            :drill:reprtheory:
 :PROPERTIES:
 :CREATED:  [2019-01-30]
 :ID:       0cd15ad3-95bc-4b3f-8451-75b9f0fd700d
 :END:
 
-** TODO SU 2 = Spin 3                                                   :qft:
+** TODO SU 2 = Spin 3                                             :drill:qft:
 :PROPERTIES:
 :CREATED:  [2019-03-17]
 :ID:       c891dac5-144c-4332-889b-e2b2e84af26f
 :END:
 
-** [2019-01-26] open set = semidecidable property                  :topology:
+** [2019-01-26] open set = semidecidable property            :drill:topology:
 :PROPERTIES:
 :ID:       a52b1e71-46be-413b-b2e3-e6f0da87e6c6
 :END:
 
-** TODO [#C] [2019-03-14] lorenzian vs riemannian manifold {spacetime vs space}
+** TODO [#C] [2019-03-14] lorenzian vs riemannian manifold {spacetime vs space} :drill:
 :PROPERTIES:
 :ID:       997ecf91-ed26-408c-94cc-4d6b50420a40
 :END:
-** TODO [#C] [2019-01-23] exponentiating the observable results in representations :reprtheory:
+** TODO [#C] [2019-01-23] exponentiating the observable results in representations :reprtheory:drill:
 :PROPERTIES:
 :ID:       dee7e116-bd1f-42e5-9633-572d7164bc9b
 :END:
 
-** [2019-08-23] Cook–Levin theorem - Wikipedia
+** [2019-08-23] Cook–Levin theorem - Wikipedia                        :drill:
 :PROPERTIES:
 :ID:       96daf23f-810e-4337-b100-5b2738a287ee
 :END:
 https://en.wikipedia.org/wiki/Cook%E2%80%93Levin_theorem
 : In computational complexity theory, the Cook–Levin theorem, also known as Cook's theorem, states that the Boolean satisfiability problem is NP-complete
-** TODO {Zu veil geld} too much money
+** TODO {Zu veil geld} too much money                                 :drill:
 :PROPERTIES:
 :CREATED:  [2019-06-12]
 :ID:       74fcfafd-d549-46d3-b741-97d168ca5ba6
 :END:
 
-** TODO [2019-05-29] what is topological QC: {tries to rely on topological (more stable) properties of anyons} :quantum:
+** TODO [2019-05-29] what is topological QC: {tries to rely on topological (more stable) properties of anyons} :drill:quantum:
 :PROPERTIES:
 :ID:       d92c4fea-07af-4abd-a5ab-231f9d72058d
 :END:
-** [2019-06-20] existence of solutions for IVP dy/dx = f(y, x); y(x_0) = y_0 :diffeq:
+** [2019-06-20] existence of solutions for IVP dy/dx = f(y, x); y(x_0) = y_0 :drill:diffeq:
 :PROPERTIES:
 :ID:       9b350f3d-ec10-4fe8-80a9-cf41140871d9
 :END:
 if f(y, x) and df/dy(y, x) are continuous around y_0, x_0, there exists a local solution
 Note that the theorem only guarantees the existence of solution nearby the initial values,and one cannot expect the solution to be defined for allx
-** [2019-06-22] universe is { 13.7 billion } years old
+** [2019-06-22] universe is { 13.7 billion } years old                :drill:
 :PROPERTIES:
 :ID:       4f599703-91bc-4da1-95e0-4d7a734b02cc
 :END:
-** TODO [#C] Margolus-levitin theorem: limit on QC . Processing rate is or order {10 ** 33} op/s per joule. Or, system needs time about {h / E} to flip the state to orthogonal
+** TODO [#C] Margolus-levitin theorem: limit on QC . Processing rate is or order {10 ** 33} op/s per joule. Or, system needs time about {h / E} to flip the state to orthogonal :drill:
 :PROPERTIES:
 :CREATED:  [2018-10-11]
 :ID:       b989e231-6564-4c35-a864-4da6cfe978c4
 :END:
 https://en.wikipedia.org/wiki/Margolus%E2%80%93Levitin_theorem
 
-** [#C] [2020-07-07] [[https://www.youtube.com/watch?v=rEuM_e4MvgE][Upgrading the Particle Physics Toolkit: The Future Circular Collider - Harry Cliff, John Womersley - YouTube]] :study:
+** [#C] [2020-07-07] [[https://www.youtube.com/watch?v=rEuM_e4MvgE][Upgrading the Particle Physics Toolkit: The Future Circular Collider - Harry Cliff, John Womersley - YouTube]] :study:drill:
 :PROPERTIES:
 :ID:       0d6ac3c8-5060-498c-978c-725460b5a7b5
 :END:
@@ -4194,3 +4194,15 @@ gamma_w = gamma_u gamma_v
 
 w_x = v
 w_y = u / gamma_v
+* [2015-01-11] [[https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BD%D0%B7%D0%BE%D1%80_%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D0%B8-%D0%B8%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81%D0%B0][Тензор энергии-импульса]]
+:PROPERTIES:
+:ID:       snsrwkpdrgwkddbdbddbdbdddcddbтензорэнергииимпульса
+:END:
+: Подматрица 3 x 3 из чисто пространственных компонент
+:  T^{ik} \ = \ \left( \begin{matrix}
+:                     T^{11} & T^{12} & T^{13} \\
+:                     T^{21} & T^{22} & T^{23} \\
+:                     T^{31} & T^{32} & T^{33}
+:        \end{matrix} \right)
+: есть 3-мерный тензор плотности потока импульса, или тензор напряжений со знаком минус. В механике жидкости диагональные её компоненты соответствуют давлению, а прочие составляющие — тангенциальным усилиям (напряжениям или в старой терминологии — натяжениям), вызванным вязкостью.
+: Для жидкости в покое тензор энергии-импульса сводится к диагональной матрице ~{\rm{diag}}({{\rho}c^2},~p,~p,~p), где ~{\rho} есть плотность массы, а ~p — гидростатическое давление.

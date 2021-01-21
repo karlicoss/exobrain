@@ -4,9 +4,12 @@
  :page-name-order "file"
  :all-pages-public? true
  :feature/enable-journals? false
- :suppressed-tags ["watch", "read", "buy",
+ :suppressed-tags ["watch", "towatch",
+                   "read", "toread", ;; TODO "think"? "study"? not sure, ideally need a separate layer...
+                   "buy",
                    "motivation", "inspiration",
-                   "outbox", "tweet"]
+                   "outbox", "tweet",
+                   "habit", "drill"]
  ;; TODO study as well?
 
  :project {

@@ -395,7 +395,7 @@ or, store the fingerprints
 :PROPERTIES:
 :ID:       thplrgtpdfs
 :END:
-* STRT [#C] use zzzfoo for recoll (F2)                                  :pkm:
+* STRT [#C] use zzzfoo for recoll (F2)                            :pkm:habit:
 :PROPERTIES:
 :CREATED:  [2018-07-12]
 :ID:       225c4c26-7ccf-4096-9f21-ba80d8ca0a8b
@@ -606,15 +606,15 @@ https://opensemanticsearch.org/etl
 :CREATED:  [2019-08-20]
 :ID:       shtcldntfgrthwtprprlydsplywthnwln
 :END:
-* TODO [#C] hmm, wonder how hard it'd be to build indexer :android:pkm:think:
+* TODO [#C] hmm, wonder how hard it'd be to build indexer :search:android:pkm:think:
 :PROPERTIES:
 :CREATED:  [2019-08-20]
 :ID:       hmmwndrhwhrdtdbtbldndxr
 :END:
-* TODO [#C] failed to extract properly from Zee's book            :pdfannots:
+* TODO [#C] pdannots: failed to extract properly from Zee's book
 :PROPERTIES:
 :CREATED:  [2019-08-29]
-:ID:       fldtxtrctprprlyfrmzsbk
+:ID:       pdnntsfldtxtrctprprlyfrmzsbk
 :END:
 * STRT [#C] [2019-06-13]  Internet Search Tips - Gwern.net: Enable some kind of hotkey search with both prompt and copy-paste selection buffer, to turn searching Google (G)/Google Scholar (GS)/Wikipedia (WP) into a reflex.2 You should be able to search instinctively within a split second of becoming curious, with a few keystrokes. (If you can’t use it while IRCing without the other person noting your pauses, it’s not fast enough.)
 :PROPERTIES:
@@ -1811,7 +1811,7 @@ https://www.mindforger.com/
 :PROPERTIES:
 :ID:       nxtsrchmyspcsthngsprttygdttmcsstrtpkthyvnshrcnfgnc
 :END:
-** TODO use S for searching info in terminal                            :pkm:
+** TODO use S for searching info in terminal                      :habit:pkm:
 :PROPERTIES:
 :ID:       ad260b83-721f-4ab2-8eb2-6a888151b0ec
 :END:
@@ -1883,3 +1883,40 @@ https://www.gwern.net/Resorter
 
 
 https://twitter.com/yoshikischmitz/status/1203135482655232000
+* [#C] [2019-11-21] Twitter analytics & stats for user @fortelabs | Social Bearing :twitter:
+:PROPERTIES:
+:ID:       thtwttrnlytcssttsfrsrfrtlbssclbrng
+:END:
+https://socialbearing.com/search/user/fortelabs
+cool thing, might be good to overview accounts
+
+* [2017-11-01] anki vs supermemo                                  :spacedrep:
+:PROPERTIES:
+:ID:       wdnkvssprmm
+:END:
+: Basically what you have said. Everything are disadvantages but maybe the algorithm. However, I think Anki's algorithm is based on Supermemo's algorithm, it is just that it is not based on the most recent but Anki's and Supermemo's are very similar. There is no reason why someone would use Supermemo instead of Anki. All that said, I use Supermemo and Anki, because I think the few free decks for languages Supermemo have are quite great and there is no way to export them so I use Supermemo with some of these decks but Anki for everything else.
+* START spaced repetition                                         :spacedrep:
+:PROPERTIES:
+:ID:       spcdrpttn
+:END:
+** anki for habits (both personal and e.g. remembering hotkeys)
+:PROPERTIES:
+:ID:       nkfrhbtsbthprsnlndgrmmbrnghtkys
+:END:
+*** [2018-04-17] UPD: org-habits
+:PROPERTIES:
+:ID:       tpdrghbts
+:END:
+** memrise app for learning German
+:PROPERTIES:
+:ID:       mmrsppfrlrnnggrmn
+:END:
+** START org drill
+:PROPERTIES:
+:ID:       rgdrll
+:END:
+- ok, it's pretty nice, plaintext
+- keyboard
+- unclear where to find decks
+- no mobile app
+- no images

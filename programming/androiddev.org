@@ -1,0 +1,93 @@
+#+TITLE: Android development
+#+filetags: androiddev
+
+* related                                                           :android:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
+* Android studio plugins                                              :setup:
+:PROPERTIES:
+:ID:       ndrdstdplgns
+:END:
+- ADB Idea
+- Bash support
+- CheckStyle - IDEA
+- Drawable importer
+- Findbugs - IDEA
+- IdeaVim
+- Lombok
+- Markdown
+- Python support
+- Sqldelight
+- Teamcity
+
+
+* Phone apps
+:PROPERTIES:
+:ID:       phnpps
+:END:
+- Cheatdroid: shared prefs editor
+
+* [2015-11-20] Why asynctasks are bad?
+:PROPERTIES:
+:ID:       frwhysynctsksrbd
+:END:
+1. AsyncTasks are not composable, To run two (or more) dependent asyncTasks you need to run one from another.
+2. Error handling needs boilerplate: To handle error in main thread you need to return null as result (and losing error information in onPostExecute), or wrap your result in some kind of Either, where you provide result or error
+3. AsyncTasks force you to handle result in main thread (even when it's intermediate result, and should not be handled in main thread yet)
+4. And of course Activity/Fragment lifecycle, but that's the point why loaders were introduced.
+* [2016-04-06] running strace on device
+:PROPERTIES:
+:ID:       wdrnnngstrcndvc
+:END:
+: setenforce 0  # In Android 4.3 and later, if SELinux is enabled, strace will fail with "strace: wait: Permission denied"
+: set `ps | grep zygote` ; strace -p $2 -f -tt -T -s 500 -o /sdcard/strace.txt
+* debugging with adb                                                    :adb:
+:PROPERTIES:
+:ID:       dbggngwthdb
+:END:
+** Wireless adb:
+:PROPERTIES:
+:ID:       wrlssdb
+:END:
+: adb shell netcfg
+** Clearing the app data
+:PROPERTIES:
+:ID:       clrngthppdt
+:END:
+: adb shell pm clear com.google.mail
+** Start an activity
+:PROPERTIES:
+:ID:       strtnctvty
+:END:
+: adb shell am start PACKAGE_NAME/ACTIVITY_IN_PACKAGE
+: adb shell am start PACKAGE_NAME/FULLY_QUALIFIED_ACTIVITY
+: 
+: # example
+: adb shell am start -n com.growingwiththeweb.example/.MainActivity
+: adb shell am start -n com.growingwiththeweb.example/com.growingwiththeweb.example.MainActivity
+
+** Start service
+:PROPERTIES:
+:ID:       strtsrvc
+:END:
+: adb shell am startservice -n "ru.yandex.mail/com.yandex.mail.service.AbookCacheService"
+
+** Debug activity/service starts
+:PROPERTIES:
+:ID:       dbgctvtysrvcstrts
+:END:
+:  logcat -b events | grep "google.mail"
+
+** View activity stack:
+:PROPERTIES:
+:ID:       vwctvtystck
+:END:
+: adb shell dumpsys activity activities | sed -En -e '/Stack #/p' -e '/Running activities/,/Run #0/p'
+
+** Run certain tests:
+:PROPERTIES:
+:ID:       rncrtntsts
+:END:
+: adb shell am instrument -w -e class com.yandex.mail.tests.FolderTest,com.yandex.mail.tests.MessageListTest ru.yandex.mail.test/com.yandex.mail.UiTestsRunner

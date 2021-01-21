@@ -12,3 +12,12 @@ https://www.oilshell.org/blog/2018/01/28.html
 :END:
 https://news.ycombinator.com/item?id=22150603
 : Thanks for the support! Since I may not get to those blog posts in a timely fashion, here's a little outline (and maybe this comment will form the seed of them)
+
+* [2018-05-09] comparing databases                             :shell:sqlite:
+:PROPERTIES:
+:ID:       cmprngdtbss
+:END:
+One possibility is to use the sqlite3 command line client to export both databases and then diff the output. For example,
+: sqlite3 first.sqlite  .dump >first.dump
+: sqlite3 second.sqlite .dump >second.dump
+: diff first.dump second.dump

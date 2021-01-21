@@ -524,6 +524,28 @@ https://pbat.ch/wiki
 :ID:       mnwynjmmyntbkprsnlntsknwldgbs
 :END:
 https://github.com/wayanjimmy/notebook
+** STRT [#C] [2020-03-24] 0oo                                      :exobrain:
+:PROPERTIES:
+:ID:       t
+:END:
+https://0oo.li/
+: Categories
+: Ideas
+: Projects
+: Users
+: About
+: Help
+: Bug report
+: Login
+: Light Off
+: Multi-Lingual
+: Language
+: Space to Think
+: Understand the world. Discover goals, ideas, projects. Write feedback.
+*** [2020-06-03] damn, that seems fascinating on the second glance
+:PROPERTIES:
+:ID:       wddmnthtsmsfscntngnthscndglnc
+:END:
 * [#C] * content to add
 :PROPERTIES:
 :ID:       cntnttdd
@@ -652,4 +674,14 @@ I don't know wtf is wrong. I don't get how to extract title from the note. (om-g
 :PROPERTIES:
 :CREATED:  [2021-01-20]
 :ID:       ncdlnkstbssdsrpssbltdcd
+:END:
+* TODO custom colors for certain nodes (sort of featured. maybe control by tags, but start with just config) :logseq:
+:PROPERTIES:
+:CREATED:  [2021-01-21]
+:ID:       cstmclrsfrcrtnndssrtfftrdntrlbytgsbtstrtwthjstcnfg
+:END:
+* TODO pages construct of two parts? the top is maintained and curated, the bottom is chaotic notes that haven't been properly processed yet?
+:PROPERTIES:
+:CREATED:  [2021-01-21]
+:ID:       pgscnstrctftwprtsthtpsmnttsththvntbnprprlyprcssdyt
 :END:

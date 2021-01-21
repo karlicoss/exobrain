@@ -39,7 +39,7 @@ One often desires more structure on a manifold than simply the topological struc
 :PROPERTIES:
 :ID:       wdsmthstckxchngcmntpdlglngfcrclscrclgnncgf
 :END:
-*** [2019-04-24] antipodal identification of circle (S^1) is [ circle ]
+*** [2019-04-24] antipodal identification of circle (S^1) is [ circle ] :drill:
 :PROPERTIES:
 :ID:       e3e6cc76-b4f0-4bce-8eee-3c331dfc14e8
 :END:
@@ -51,7 +51,7 @@ One often desires more structure on a manifold than simply the topological struc
 :PROPERTIES:
 :ID:       wdthslskndmkssnsfydrwfrbtsmthstckxchngcm
 :END:
-*** [2019-04-24] antipodal identificaiton of disk (D^2) is { RP^2 }
+*** [2019-04-24] antipodal identificaiton of disk (D^2) is { RP^2 }   :drill:
 :PROPERTIES:
 :ID:       83c8678e-9913-4789-9652-9a0e9cf09e6a
 :END:
@@ -186,3 +186,25 @@ f_n converges weakly to f:
 forall O(f). exists N. forall n > N. f_n \in O
 
 What is O? finite number of points do not converge? 
+* [2016-06-18] hausdorff spaces                                    :topology:
+:PROPERTIES:
+:ID:       sthsdrffspcs
+:END:
+Hausdorff if any two points can be separated by neighborhoods (diagonal is closed in product topology).
+
+Space X is Hausdorff iff its apartness map
+
+\ne : X x X -> S
+(x, y) -> { x \ne y }
+
+is continuous
+
+
+Space is discrete if every singleton is open (or if its diagonal is open)
+
+Space is discrete iff its equality map
+
+\eq : X x X -> S
+(x, y) -> { x = y }
+
+is continuous

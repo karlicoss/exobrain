@@ -153,7 +153,7 @@ ok, that seems to be way easier
 :PROPERTIES:
 :ID:       dbggng
 :END:
-** TODO [#C] [2019-04-09] ~with ipdb.launch_ipdb_on_exception()~
+** TODO [#C] [2019-04-09] ~with ipdb.launch_ipdb_on_exception()~      :habit:
 :PROPERTIES:
 :ID:       3e88305f-f19d-43d2-ad9e-2e761ded20b5
 :END:
@@ -162,7 +162,7 @@ ok, that seems to be way easier
 :ID:       thpythnhsbrkpntbltnmrshckthnsnwbltnbrkpntqcktrfbcc
 :END:
 
-** TODO ~ipdb pp~ for pretty print
+** TODO ~ipdb pp~ for pretty print                                    :habit:
 :PROPERTIES:
 :CREATED:  [2019-02-03]
 :ID:       1270a53a-67c7-469d-b31e-eaa1216d4a91
@@ -323,7 +323,7 @@ https://barahilia.github.io/blog/computers/2017/01/04/to-yield-or-not-to-yield.h
 :ID:       ststdmpstprsnn
 :END:
 
-* TODO [#B] use for -- else
+* TODO [#B] use for -- else                                           :habit:
 :PROPERTIES:
 :CREATED:  [2018-04-23]
 :ID:       ffabfd54-8b67-4639-99c8-172f57eed15e
@@ -340,7 +340,7 @@ https://barahilia.github.io/blog/computers/2017/01/04/to-yield-or-not-to-yield.h
 interpreter -- about 10ms
 lazy imports
 profile slow imports
-* TODO [#B] parser.add_argument('rest, nargs=argparse.REMAINDER)
+* TODO [#B] parser.add_argument('rest, nargs=argparse.REMAINDER)      :habit:
 :PROPERTIES:
 :CREATED:  [2018-07-18]
 :ID:       14751572-f3a1-45b6-8085-36fdb1923000
@@ -396,7 +396,7 @@ This gives you the power to use actual classes with actual types in your code in
 :ID:       spythnlbhntcm
 :END:
 
-* TODO [#B] do not use replace tzinfo, always localize..
+* TODO [#B] do not use replace tzinfo, always localize..              :habit:
 :PROPERTIES:
 :CREATED:  [2018-12-31]
 :ID:       bec3d732-7cf1-4a8d-8c21-1a298df7731c
@@ -565,7 +565,7 @@ https://stackoverflow.com/questions/12151306/argparse-way-to-include-default-val
 :ID:       snkythngtsgthbcmkrlcsskythngtmstrdpndncyfrstpcfg
 :END:
 
-* TODO [#D] [2018-07-22] PyCon 2018 Talk Videos : Python https://www.reddit.com/r/Python/comments/8j4ep6/pycon_2018_talk_videos/ :watch:
+* TODO [#D] [2018-07-22] PyCon 2018 Talk Videos : Python https://www.reddit.com/r/Python/comments/8j4ep6/pycon_2018_talk_videos/ :towatch:
 :PROPERTIES:
 :ID:       snpycntlkvdspythnswwwrddtmrpythncmmntsjppycntlkvds
 :END:
@@ -647,12 +647,12 @@ https://tox.readthedocs.io/en/latest/example/general.html#interactively-passing-
 :ID:       frmmprtstts
 :END:
 
-* [2018-01-21] use nonlocal instead of global
+* [2018-01-21] use nonlocal instead of global                         :habit:
 :PROPERTIES:
 :ID:       4475cae4-cb32-4a4b-a3ec-78a9af79f8c0
 :END:
 
-* TODO !r formatter
+* TODO !r formatter                                                   :habit:
 :PROPERTIES:
 :CREATED:  [2019-02-04]
 :ID:       59eeb485-f5a6-45a7-b6a3-c1865807f5c4
@@ -677,7 +677,7 @@ hmm. if I decorate function with list constructor, I can get both ease of use an
 :END:
 
 
-* CANCEL [#C] use putup (pyscaffold) for project generation
+* CANCEL [#C] use putup (pyscaffold) for project generation           :habit:
 :PROPERTIES:
 :CREATED:  [2018-10-04]
 :ID:       7a5c49fc-6367-47f7-9333-375e1b3274cc
@@ -957,9 +957,9 @@ https://github.com/pypa/setuptools_scm/#default-versioning-scheme
 :PROPERTIES:
 :ID:       thkctllytllwsfrtknsvnbttr
 :END:
-* [#D] [2019-12-15] tox support · Issue #222 · python-poetry/poetry
+* [#D] [2019-12-15] tox support python-poetry/poetry
 :PROPERTIES:
-:ID:       sntxspprtsspythnptryptry
+:ID:       sntxspprtpythnptryptry
 :END:
 https://github.com/python-poetry/poetry/issues/222
 : For now, you can use poetry with tox by using something similar to what I did in pendulum: https://github.com/sdispater/pendulum/blob/master/tox.ini

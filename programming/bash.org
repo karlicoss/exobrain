@@ -38,7 +38,7 @@ Bash & shell programming
 : EXTRA_STOWS=("home-arbtt" "home-emacs" "home-anacron")
 : for s in "${EXTRA_STOWS[@]}"
 
-** assert variable is defined {double square brackets -v} operator
+** assert variable is defined {double square brackets -v} operator    :habit:
 :PROPERTIES:
 :ID:       a634e825-dba8-4161-ae44-46f42afa6a6b
 :END:
@@ -51,7 +51,7 @@ Bash & shell programming
 
 (might not work on mac)
 
-** avoid passing flags in shebang (e.g. ~#!/bin/bash -eu~)
+** avoid passing flags in shebang (e.g. ~#!/bin/bash -eu~)            :habit:
 :PROPERTIES:
 :CREATED:  [2018-06-21]
 :ID:       e5d6dbfc-d16e-4232-8f3c-39b3c2e4b28f
@@ -68,17 +68,17 @@ priorities roughly indicate how useful I find each command
 :PROPERTIES:
 :ID:       thdfflsdrlsdr
 :END:
-** [#B] use sigquit {Ctrl-\} to kill processes that are really stuck (when Ctrl-C isn't working)
+** [#B] use sigquit {Ctrl-\} to kill processes that are really stuck (when Ctrl-C isn't working) :habit:
 :PROPERTIES:
 :CREATED:  [2018-03-05]
 :ID:       a7b98370-f7c2-420e-9934-4e5267e50e62
 :END:
-** [#B] exec command on each file ~find . -exec some command {} \;~
+** [#B] exec command on each file ~find . -exec some command {} \;~   :drill:
 :PROPERTIES:
 :CREATED:  [2019-06-19]
 :ID:       ac5e2198-a0b5-4480-b2fc-32b2b90796fc
 :END:
-** TODO exec command in parallel ~find /path -iname '*.pdf' -print0 | xargs -0 -n1 -i -P8 bash -c "echo 'Processing {}' && command '{}'"~
+** TODO exec command in parallel ~find /path -iname '*.pdf' -print0 | xargs -0 -n1 -i -P8 bash -c "echo 'Processing {}' && command '{}'"~ :drill:
 :PROPERTIES:
 :CREATED:  [2019-06-20]
 :ID:       49b87f35-d5be-424d-9695-42b15c7641fe
@@ -89,7 +89,7 @@ priorities roughly indicate how useful I find each command
 :ID:       tpsfxtlstllprcsss
 :END:
 
-** [#C] tree -pufi for file tree with permissions
+** [#C] tree -pufi for file tree with permissions                     :habit:
 :PROPERTIES:
 :CREATED:  [2018-09-18]
 :ID:       8e3d71f6-ccab-43aa-a05a-3c53221779f3
@@ -111,13 +111,13 @@ priorities roughly indicate how useful I find each command
 : pdftk full-pdf.pdf cat 1 1 1 2  3 4 12-15 output outfile_p12-15.pdf
 
 
-** [#D] {ln -i} for interactive symlink (prompts for removal)
+** [#D] {ln -i} for interactive symlink (prompts for removal)         :habit:
 :PROPERTIES:
 :CREATED:  [2018-03-01]
 :ID:       67a7fb46-4a6e-491b-ada9-6e6dfb54ac3f
 :END:
 
-* TODO [#C] use whiptail for ncurses dialogs                            :tui:
+* TODO [#C] use whiptail for ncurses dialogs                      :tui:habit:
 :PROPERTIES:
 :ID:       a4e1347c-793d-4650-a883-35e9d724f523
 :END:

@@ -49,7 +49,7 @@ also need some way to prevent tag inheritance for certain entries? e.g. via a pr
 :ID:       frslrnngmscbltncmndxhtml
 :END:
 
-** basic structure: drums + bass + chords + melody
+** basic structure: drums + bass + chords + melody                    :drill:
 :PROPERTIES:
 :ID:       410a15c5-681a-4cad-9daf-bf02ff3f4bce
 :END:

@@ -269,13 +269,6 @@ ok, interesting, but that's again kind of reinventing new standard?
   </a>
 </article>
 
-* STRT [#C] Use basic html Gmail?                            :gmail:webbloat:
-:PROPERTIES:
-:CREATED:  [2020-01-25]
-:ID:       sbschtmlgml
-:END:
-: Basic HTML Gmail hasn't changed in years and works perfectly fine for all of my needs for gmail: reading and sending emails. I find the current UI to be quite unusable, but at least there's still the basic html option.
-
 * STRT [#C] [2020-03-08] (2) Ian Calvert on Twitter: "If you work with data and don't already have @visidata, you want to check it out. Even just for basic features it's fantastic - "quick give me a count of X where condition Y, now let's have a look at those rows, and now save that as a file for loading elsewhere" for example https://t.co/VGQjeqhW9i" / Twitter :hpi:viz:
 :PROPERTIES:
 :ID:       snnclvrtntwttrfywrkwthdtnswhrfrxmplstcvgqjqhwtwttr
@@ -430,12 +423,12 @@ https://twitter.com/nevoitbien/status/1335504980854239235
 : @nevoitbien: VisiData!
 : jsvine.github.io/intro-to-visidata
 : For anyone who uses a terminal, you will come face-to-face with tabular data on it, be it `free -m` or a csv file. There is nothing quite like VisiData which can load them all into an interactive spreadsheet.
-** [2020-12-13] use visidata more
+** [2020-12-13] use visidata more                                     :habit:
 :PROPERTIES:
 :ID:       aec38d13-26fb-41d5-90bf-c3b8130903e9
 :END:
 
-* [#C] [2020-01-29] How to read memory usage in htop? - Server Fault
+* [#C] [2020-01-29] How to read memory usage in htop? - Server Fault  :drill:
 :PROPERTIES:
 :ID:       873c3c56-09ec-4783-aa15-b69a9ed1e6a5
 :END:
@@ -524,7 +517,7 @@ https://twitter.com/michael_nielsen/status/1140117434038226944
 
 : There is no black and white in these types of situations.  Either scenario is OK and if you really want to figure out how to minimize your carbon footprint, an accurate accounting depends on your local water and electricity rates.
 
-* [#D] [2019-09-03] Hard problem of consciousness - Wikipedia
+* [#D] [2019-09-03] Hard problem of consciousness - Wikipedia         :drill:
 :PROPERTIES:
 :ID:       2e497058-b22d-4a58-a8a3-4d57b5d1412c
 :END:
@@ -556,7 +549,7 @@ think why exurbias videos are so good and engaging
 
 https://twitter.com/SmartBiology3D/status/1183043774831837186
 
-* TODO [#D] [2019-11-05] Web Scraping With Rust - codeburst :scraping:scrapyroo:
+* TODO [#D] [2019-11-05] Web Scraping With Rust - codeburst :scrape:scrapyroo:
 :PROPERTIES:
 :ID:       twbscrpngwthrstcdbrst
 :END:
@@ -641,7 +634,7 @@ http://pinpopular.in
 :CREATED:  [2019-12-02]
 :ID:       gthbnm
 :END:
-* TODO [#D] Physical Church-Turing Thesis: {laws of physics can be simulated to any desired precision by a TM (or at any rate, by a probabilistic TM)} :hyp2org:
+* TODO [#D] Physical Church-Turing Thesis: {laws of physics can be simulated to any desired precision by a TM (or at any rate, by a probabilistic TM)} :hyp2org:drill:
 :PROPERTIES:
 :CREATED:  [2019-11-01]
 :ID:       e3e16186-4726-4ed1-b3b3-9789a009c0f4
@@ -752,3 +745,40 @@ http://www.flowgenomeproject.com/
 :PROPERTIES:
 :ID:       mnddt
 :END:
+* TODO [#B] Tweet from @flyingcroissant room sized displays    :computing:vr:
+:PROPERTIES:
+:CREATED:  [2020-05-13]
+:ID:       twtfrmflyngcrssntrmszddsplys
+:END:
+: https://twitter.com/flyingcroissant/status/1260409306337275904
+: @flyingcroissant: Finally got around to reading this and it's incredible: https://t.co/DeSVRCU8Az
+: Room-sized display walls in your home would open up a lot of new interface opportunities and would be cool for VR, too.
+* TODO [#C] [2020-03-24] recent 3                                     :ideas:
+:PROPERTIES:
+:ID:       trcnt
+:END:
+https://www.halfbakery.com/
+
+* [2016-08-17] b trees
+:PROPERTIES:
+:ID:       btrs
+:END:
+pro: high branching factor -> less lookups
+** Indexes? Pointers to internal nodes?
+:PROPERTIES:
+:ID:       ndxspntrstntrnlnds
+:END:
+
+** B: keys and data are in internal or leaf
+:PROPERTIES:
+:ID:       bkysnddtrnntrnlrlf
+:END:
+pro: deletion of internal nodes is complicated
+
+** B+: data is only stored in leaf nodes
+:PROPERTIES:
+:ID:       bdtsnlystrdnlfnds
+:END:
+pro: we can link all leaf nodes, data can be easily scanned
+pro: implementation (e.g. deletion of internal nodes) is easier
+con: store redundant search keys

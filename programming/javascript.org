@@ -23,7 +23,7 @@ https://twitter.com/wesbos/status/1238468738946646017
 :PROPERTIES:
 :ID:       snfckrplcnlyrplcsfrstccrncfstrngssd
 :END:
-* TODO [#C] use let instead of var
+* TODO [#C] use let instead of var                                    :drill:
 :PROPERTIES:
 :CREATED:  [2019-07-07]
 :ID:       7a6a66bd-1d36-42a9-b170-235ded0b0381

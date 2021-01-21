@@ -171,3 +171,25 @@
 :PROPERTIES:
 :ID:       wdststtbgmscmvlctyrptrhtmlvlctyrptrtsttbgms
 :END:
+* [2015-03-16] some special relativity notes                     :relativity:
+:PROPERTIES:
+:ID:       mnsmspclrltvtynts
+:END:
+- t'^2 = t^2 - x^2
+- The gravity on the poles in a bit larger than the gravity on the equator due to the centrifugal force.
+- Galilean group of transformations:
+
+  1. Translation x' = x + a
+  2. Rotation x' = Rx, R R^T = 1
+  3. Boost: x' = x + vt
+
+- t' = t + t_0
+- map intertial frames to intertial
+- dx^2/dt^2 = 0, then, for each transformation, dx'^2/dt^2 = 0
+- the principle of relativity: the Newton's laws are the same in all itertial frames
+- The equation of motion is second order
+- Potential V(x) is defined by: F(x) = -dV(x)/dx
+- Energy E = 1/2 m v^2 + V(x). It is conserved, E' = 0 for any trajectory that obeys the equation of motion
+- dynrel, p.20, potential!
+- Energy is conserved iff there exists V such that F = - grad V.
+- Central forces: angular momentum is conserved. L = m x \times x'. dL/dt = mx \times x'' = x \times F.

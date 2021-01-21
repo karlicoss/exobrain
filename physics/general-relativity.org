@@ -408,7 +408,7 @@ http://math.ucr.edu/home/baez/einstein/
 :ID:       mkpsmcrzymtrcggdgxyzcnwdsmthngclbtt
 :END:
 
-* TODO [#C] susskind lectures                                   :study:watch:
+* TODO [#C] susskind lectures                                 :study:towatch:
 :PROPERTIES:
 :ID:       ssskndlctrs
 :END:

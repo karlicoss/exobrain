@@ -20,7 +20,7 @@ branch cuts as many times as required to get back to the original Riemann sheet.
 although this scheme is very elegant, for calculational purposes it is best to treat branch
 cuts as barriers one cannot cross.
 
-* [2015-01-27] Elliptic vs Hyperbolic equations
+* [2015-01-27] Elliptic vs Hyperbolic equations                       :drill:
 :PROPERTIES:
 :ID:       8932b56f-d110-463d-b071-fceeb2165c48
 :END:
@@ -154,11 +154,11 @@ not sure...
 S = {T, bot}
 
 
-** continuity    in terms of 'touches' relation: [ forall A. x v A => f(x) v f(A)  ]
+** continuity    in terms of 'touches' relation: [ forall A. x v A => f(x) v f(A)  ] :drill:
 :PROPERTIES:
 :ID:       b9474d95-97ba-42b8-8d8e-acdb99db30c4
 :END:
-** connectedness in terms of 'touches' relation: { every cont. function from X ot (0, 1) is const }
+** connectedness in terms of 'touches' relation: { every cont. function from X ot (0, 1) is const } :drill:
 :PROPERTIES:
 :ID:       2eee5c1a-6b6e-4f80-8f84-291c84eeb0a3
 :END:
@@ -330,3 +330,72 @@ https://math.stackexchange.com/questions/908499/is-a-functional-derivative-a-gen
 :END:
 
 Not really.. the derivatives are pretty different
+
+* TODO [#D] Theorem Proofs: These are the same as computer games. This is the mathematician’s favourite part. The natural number game is what happens if you take all the definitions and theorem statements out of the hands of the user, and just ask them to fill in the proofs, and give them enough of an API to make it fun. Bhavik Mehta made an impressive combinatorics repo and he told me that he never once had to think about how finite sets were actually implemented in Lean — he could just use the interface.
+:PROPERTIES:
+:CREATED:  [2020-02-22]
+:ID:       thrmprfsthsrthsmscmptrgmsmplmntdnlnhcldjststhntrfc
+:END:
+todo
+from [[https://www.instapaper.com/read/1279727070/12330512][ip]]   [[https://xenaproject.wordpress.com/2020/02/09/lean-is-better-for-proper-maths-than-all-the-other-theorem-provers/][Lean is better for proper maths than all the other theorem provers]]
+
+
+* TODO null hypothesis                                           :statistics:
+:PROPERTIES:
+:CREATED:  [2017-11-01]
+:ID:       nllhypthss
+:END:
+[2017-11-01]
+- .
+: [–]skibilly 2 points 2 years ago*
+: When p-value is used it's because you are attempting to test a hypothesis of some sort. So let's first define a hypothesis. At its simplest, a hypothesis is an attempt to explain some observation (generally by linking it to other observations). To keep things simple, let's say that you have observed that every time a cat gives birth, you've also observed that the babies have been kittens. You therefore attempt to explain this with the following hypothesis: "When a cat gives birth, the resultant offspring will be kittens." We'll call this "H1" for hypothesis number 1.
+: Now, in statistics (and by extension, science in general) there is never just one hypothesis. There is your hypothesis AND there's something called the Null Hypothesis. The Null Hypothesis states that there is actually no relationship between the observations you're trying to link. In our example, the Null Hypothesis would state: "There is no relationship between pregnant cats and kittens." We'll call this "H0" for hypothesis number 0 or, null hypothesis.
+: But what's the point of having a null hypothesis?
+: Aside from math (as far as I know) nothing we know about the universe is absolute. All that we know is based on observation, and since we can't observe everything that there is, we can't say with complete certainty that any explanation of an observation is "true." However, we can say that any given hypothesis has a higher or lower probability of being true than other hypotheses. Through beating as many alternative explanations as possible, we can increase our confidence that our successful explanation is true....but we can't ever say that it is 100% true. This is called inductive reasoning and it is the basis for all that we think we know about the universe.
+: Back to our example of pregnant cats and kittens. Because we understand the limitations of inductive reasoning, we know that we can't ever prove 100% that a pregnant cat will always give birth to kittens (maybe on some far away planet cats give birth only to snakes). However, we can at least show that our hypothesis (H1) has a higher probability of being true than the null hypothesis (H0). In other words, we can say that there is a high probability that there is at least some relationship between pregnant cats and kittens.
+: So, we start tracking every cat birth that we possibly can. Each time a cat gives birth we mark down whether the offspring is a kitten or something else. Once we have a good size of observations, we run the result through a statistic called "p-value" or "calculated probability." The number that comes out at the end is the probability of getting the same results if the null hypothesis is true.
+: In our example, let's say we observed 100 pregnant cats. All 1,000 births resulted in kittens. No snakes, no turtles, no balls of anti-matter. Just kittens. Rather than doing all the math we'll just say that our resulting p-value is 0.01. This means that there is a 1% chance that all 100 pregnant cats gave birth to kittens and yet there's actually no relationship between the two. The p-value doesn't say that your hypothesis is correct, and it doesn't say the null hypothesis is incorrect. The p-value merely states the probability that you could get the same results as you observed due to random chance.
+: Typically in science we consider a p-value of 0.05 to be significant. Meaning that unless the probability of getting the same results due to random chance is 5% or less, we generally don't pursue the alternate hypothesis and instead either continue looking for something better or stick with the null hypothesis: the observations are unrelated.
+
+
+* TODO p-value                                                   :statistics:
+:PROPERTIES:
+:CREATED:  [2017-11-01]
+:ID:       pvl
+:END:
+- .
+: It's not significant with respect to your a priori cutoff value, so it is not significant. All these terms:
+: approaching
+: marginally
+: trending toward
+: are incorrect interpretations, as you have no idea what would happen if you were to collect more data (e.g. p could be 0.09 after collecting additional cases, so how can one justify saying that 0.055 is approaching significance?).
+
+
+- .
+: A p value is not a statistical analysis or a test, it is the outcome of a statistical test. One of the issues in relying on p values is that there are a lot of different ways to get to a p value, and not all of these may be appropriate (this is sometimes called torturing, submitting data to various statistical tests until something comes up significant).
+: The other point to make here is that we don't prove or disprove hypotheses. We can reject the null hypothesis and provide support for the alternate hypotheses, or we can fail to reject the null hypothesis and find, well, not much.
+: So, what does a p value mean?
+: Let's use an example. Say we are interested in testing a new drug to treat depression. One good way to test this is to get a big group of depressed individuals and to give them either this new drug or a placebo. Before doing this, we measure their level of depression on the Fictitious Depression Inventory (FDI). Before giving them a course of our new drug and placebo, our two groups have rather similar FDI scores:
+: Drug: 44.2 Placebo: 46.7
+: We then give them the appropriate pills (double blind and randomised, of course). After, say, eight weeks of this, our groups don't look as similar anymore:
+: Drug: 36.7 Placebo: 42.4
+: Both have improved in their depression scores (as frequently happens, depression improves over time). We run some statistics on our two groups, and we find that the two groups are different, with an obtained p value of 0.038 (this is usually written as p = .038). This is smaller than our critical value of 0.05 and we can conclude that there is indeed a difference between our groups as a result of the drug being better at lowering FDI scores than a placebo control.
+: So, what does this all mean? Well, there's two important things here. One is the meaning of the null hypothesis, and the other is the meaning of p = .038.
+: The null hypothesis states that the difference between the two groups we have is not real. Any difference that we see in those numbers is just because of chance or sampling or something else, because that difference does not exist in the population. What we are working with is a sample, we have a small group of depressed individuals relative to all the people in the world who are depressed. We want to know if what we see in our sample applies to everyone else (the population). If the null hypothesis is true, it says that, yeah, okay we have a difference in our sample, because our two numbers are different, but this difference is just noise or something else, it's not about the pills. When we reject the null, we say that the difference we see in our numbers is not due to chance, and we infer that this effect exists in the population.
+: So what is the p value? The p value is a way for us to formally acknowledge that there is some risk that we are wrong when we say the null hypothesis is false. Specifically, the p value is how likely we are to see the two numbers we're seeing (or another two numbers that different from one another) if the null is true. The cutoff that we have all accepted is at most 5% chance of accepting a result when the null is in fact true (p < .05). Why 5%? Well, when Fisher developed the idea of null hypothesis testing, he threw number out as an example and people kind of ran with it.
+: What are the issues with null hypothesis significance testing? Well, one big one is that it dichotomises thinking. Everything ends up being significant or not, when there is a little more finesse in there. The other issues, closely related to this, is that people misinterpret the p value so that a smaller p (say 0.0001 instead of 0.001 or 0.049) means that your experiment worked better. This really isn't true. You can get a "really significant" finding that really isn't important. Going back to our fake example from above, say your groups looked like this:
+: Drug: 36.8 Placebo: 38.4
+: If this effect comes out to be "highly significant" (p = .0013), it doesn't mean that the results are all that important because the difference between the two groups is so tiny. The drug did have an effect, but it didn't really help people much with their depression. And given the side effects that drugs can have, and the cost, you're probably better off in the long run in just taking that sugar pill.
+: This dichotomous thinking has other downsides. It forces people to push for significance when maybe that's not the best thing given the data. You can slice a data pie in many different ways, and eventually you may be able to get a significant result, but perhaps not one that is meaningful or that will replicate.
+: Whether or not you get a significant result is also dependent on the sample size you're working with. Running experiments is very laborious, and it's in everyone's benefit to test the least number of participants to give robust findings. The issue is that testing too few people, however, can make it more likely to find a significant effect (and testing way too many does the same by inflating the degrees of freedom).
+: Edit: Apologies if any of this is incoherent, please feel free to ask followup questions.
+* [2016-10-04] random variables                                 :probability:
+:PROPERTIES:
+:ID:       trndmvrbls
+:END:
+: A new random variable Y can be defined by applying a real Borel measurable function {\displaystyle g\colon \mathbb {R} \rightarrow \mathbb {R} } g\colon \mathbb {R} \rightarrow \mathbb {R}  to the outcomes of a real-valued random variable {\displaystyle X} X. The cumulative distribution function of {\displaystyle Y\,\!} Y\,\! is
+: 
+: {\displaystyle F_{Y}(y)=\operatorname {P} (g(X)\leq y).} F_{Y}(y)=\operatorname {P} (g(X)\leq y).
+: If function {\displaystyle g} g is invertible, i.e., {\displaystyle g^{-1}} g^{-1} exists, and is either increasing or decreasing, then the previous relation can be extended to obtain
+: 
+: {\displaystyle F_{Y}(y)=\operatorname {P} (g(X)\leq y)={\begin{cases}\operatorname {P} (X\leq g^{-1}(y))=F_{X}(g^{-1}(y)),&{\text{if }}g^{-1}{\text{ increasing}},\\\\\operatorname {P} (X\geq g^{-1}(y))=1-F_{X}(g^{-1}(y)),&{\text{if }}g^{-1}{\text{ decreasing}}.\end{cases}}} F_{Y}(y)=\operatorname {P} (g(X)\leq y)={\begin{cases}\operatorname {P} (X\leq g^{-1}(y))=F_{X}(g^{-1}(y)),&{\text{if }}g^{-1}{\text{ increasing}},\\\\\operatorname {P} (X\geq g^{-1}(y))=1-F_{X}(g^{-1}(y)),&{\text{if }}g^{-1}{\text{ decreasing}}.\end{cases}}

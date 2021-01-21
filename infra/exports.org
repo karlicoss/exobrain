@@ -148,10 +148,10 @@ https://github.com/fabianonline/telegram_backup
 :CREATED:  [2019-10-15]
 :ID:       hshldncldldrccntcmprldstndnfnwrfls
 :END:
-* TODO [#C] hmm, so looks like api v 1.8 is deprecated, for api 2.0 I'd need to email them. can just use raw jsons from existing backup script :myshows:
+* TODO [#C] myshows: hmm, so looks like api v 1.8 is deprecated, for api 2.0 I'd need to email them. can just use raw jsons from existing backup script
 :PROPERTIES:
 :CREATED:  [2019-07-20]
-:ID:       hmmslkslkpvsdprctdfrpdndttsrwjsnsfrmxstngbckpscrpt
+:ID:       myshwshmmslkslkpvsdprctdftsrwjsnsfrmxstngbckpscrpt
 :END:
 * TODO [#C] I guess just rely on bleanser instead after all? Just make it less spammy :bleanser:reddit:
 :PROPERTIES:
@@ -305,10 +305,10 @@ https://github.com/samuelmr/emfit-qs
 
 https://github.com/zigg/grabby
 
-* DONE [#B] scrape off my highlights                               :blinkist:
+* DONE [#B] blinkist: scrape off my highlights
 :PROPERTIES:
 :CREATED:  [2019-08-13]
-:ID:       scrpffmyhghlghts
+:ID:       blnkstscrpffmyhghlghts
 :END:
 https://www.blinkist.com/en/nc/highlights
 ** [2019-08-13] eh, just copy responses manually?

@@ -186,3 +186,8 @@ https://community.mycroft.ai/t/things-ive-learned-and-things-i-still-dont-know-a
 :PROPERTIES:
 :ID:       rltd
 :END:
+* STRT [#D] [2019-09-22] DongjunLee/kino-bot: Personal Assistant Based on Slack Bot for Myself :passistant:
+:PROPERTIES:
+:ID:       sndngjnlknbtprsnlssstntbsdnslckbtfrmyslf
+:END:
+https://github.com/DongjunLee/kino-bot

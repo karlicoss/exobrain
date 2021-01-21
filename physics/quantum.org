@@ -354,3 +354,24 @@ So far most particles we discovered seem to be described by Dirac equation? We h
 : We can even deﬁne a ‘metric’ that is antisymmetric: a two-dimensional space called spinor space has such a metric, and it turns out to be of fundamental importance in physics.
 
 hmm, interesting
+* TODO [#B] Tweet from @hamish_todd                                 :towatch:
+:PROPERTIES:
+:CREATED:  [2020-07-30]
+:ID:       twtfrmhmshtdd
+:END:
+https://twitter.com/hamish_todd/status/1288637024203833344
+youtu.be/kvQuuFB8fpk?t=179
+: @hamish_todd: The Schrödinger equation describes the wave function or state function of a quantum-mechanical system. It states that, over time, the humps will move in a direction perpendicular to the colored stripes
+
+* [2014-07-18] Quantum entanglement is not nonlocality, it's correlation! :quantum:
+:PROPERTIES:
+:ID:       frqntmntnglmntsntnnlcltytscrrltn
+:END:
+Vector potential is important because it is impossible to state action principle in a Lorentz invariant way directly in terms of E and B fields.
+* [2016-09-03] infinite dimentional Hilbert space is crucial for quantum mechanics? :quantum:
+:PROPERTIES:
+:ID:       stnfntdmntnlhlbrtspcscrclfrqntmmchncs
+:END:
+: The most famous such equation is the position/momentum commutation relation mentioned earlier, which for our purposes is just the following matrix equation:
+: AB – BA = I.
+: This equation can’t be satisfied by any finite-dimensional matrices, since AB and BA have the same trace, so Tr(AB-BA)=0, but Tr(I) is nonzero.

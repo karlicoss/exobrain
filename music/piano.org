@@ -184,42 +184,38 @@ https://www.musictheory.net/exercises
 :PROPERTIES:
 :ID:       drll
 :END:
-** First below row in bass cleff is [E (third) ]                      :piano:
+** First below row in bass cleff is [E (third) ]                :drill:piano:
 :PROPERTIES:
 :CREATED:  [2019-01-29]
 :ID:       508494d0-576b-4295-bdff-e7c97befb024
 :END:
 
-** Different parity means odd number of notes and even total number of keys :piano:
+** Different parity means odd number of notes and even total number of keys :drill:piano:
 :PROPERTIES:
 :CREATED:  [2019-01-29]
 :ID:       9a539efe-c0f9-4a99-a5d3-0fe37ef3756f
 :END:
-** TODO Treble cleff /EF /FG                                          :piano:
+** TODO Treble cleff /EF /FG                                    :drill:piano:
 :PROPERTIES:
 :CREATED:  [2019-05-31]
 :ID:       7bb3b867-9fdf-43aa-a9a9-be9491f0c496
 :END:
 
-** [2019-05-19] note on top (not intersecting) is G                   :piano:
+** [2019-05-19] note on top (not intersecting) is G             :drill:piano:
 :PROPERTIES:
 :ID:       7e9d62bc-f8a8-481a-b1a4-1321dc8a68c7
 :END:
-** [2019-05-19] bass cleff F [second from top, between the dots]      :piano:
+** [2019-05-19] bass cleff F [second from top, between the dots] :piano:drill:
 :PROPERTIES:
 :ID:       3d04cb60-0f1b-4453-bae4-1132d6fb1c30
 :END:
 mnemonic: F got two sticks, just like two dots
-** [2019-05-19] 6th C is on second line above.                        :piano:
+** [2019-05-19] 6th C is on second line above.                  :piano:drill:
 :PROPERTIES:
 :ID:       a82fb870-4ec3-463f-b4fc-8d2b751ab9ae
 :END:
 memorising: 4th is on first line below. So distance two octaves above got to be 7 lines up, that is, -1 + 7 + 1  -5 = 2 lines
-** [2019-05-19] bass cleff G intersects lower line                    :piano:
+** [2019-05-19] bass cleff G intersects lower line              :piano:drill:
 :PROPERTIES:
 :ID:       38375ff8-d303-476f-a61e-1dacc429f0db
-:END:
-* incoming
-:PROPERTIES:
-:ID:       ncmng
 :END:

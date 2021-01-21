@@ -20,3 +20,1068 @@
 fuck maybe it just never worked???
 this "For instructions, see the special buffer howto." should be file link.. but not working here
 https://web.archive.org/web/20190618202202/https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org
+* TODO custom timestamp formats for specific file?
+:PROPERTIES:
+:CREATED:  [2021-01-21]
+:ID:       cstmtmstmpfrmtsfrspcfcfl
+:END:
+: -*- org-time-stamp-custom-formats: ("<%Y-%m-%d>" . "<%Y%m%d>") -*-
+
+use with 'org-toggle-time-stamp-overlays?'
+* STRT [#A] make ,s to "refile to the same file"? i.e. "sink"
+:PROPERTIES:
+:CREATED:  [2020-06-09]
+:ID:       mkstrfltthsmflsnk
+:END:
+* STRT [#B] refile with inherited tags
+:PROPERTIES:
+:ID:       rflwthnhrtdtgs
+:END:
+- State "STRT"      from "TODO"       [2019-02-16]
+** [2019-02-16] https://lists.gnu.org/archive/html//emacs-orgmode/2009-04/msg00149.html eh, not very helpful.. looks like it's not there
+:PROPERTIES:
+:ID:       stslstsgnrgrchvhtmlmcsrgmmlhntvryhlpfllkslktsntthr
+:END:
+https://lists.gnu.org/archive/html/emacs-orgmode/2009-04/msg00133.html
+
+* TODO [#B] Really need to auto save on some operations? E.g. refile
+:PROPERTIES:
+:CREATED:  [2020-01-22]
+:ID:       rllyndttsvnsmprtnsgrfl
+:END:
+
+* TODO [#B] [2019-10-07] outline sections [[https://reddit.com/r/orgmode/comments/dd6wr5/weekly_rorgmode_open_discussion_october_04_2019/f2v6be3/][Weekly /r/Orgmode Open Discussion - October 04, 2019]] /r/orgmode :blog:
+:PROPERTIES:
+:ID:       mntlnsctnssrddtcmrrgmdcmmklyrrgmdpndscssnctbrrrgmd
+:END:
+No ... But workarounds exist ... https://orgmode.org/worg/org-faq.html#closing-outline-sections
+* TODO [#A] [2018-10-27] Fast refiling in org-mode with hydras | Josh Moller-Mara
+:PROPERTIES:
+:ID:       stfstrflngnrgmdwthhydrsjshmllrmr
+:END:
+https://mollermara.com/blog/Fast-refiling-in-org-mode-with-hydras/
+* TODO [#A] Map unschedule to capital u?
+:PROPERTIES:
+:CREATED:  [2020-01-02]
+:ID:       mpnschdltcptl
+:END:
+
+* STRT [#B] fucking hell helm tag completion is annyoing              :emacs:
+:PROPERTIES:
+:CREATED:  [2020-02-13]
+:ID:       fcknghllhlmtgcmpltnsnnyng
+:END:
+perhaps has to do with this... https://emacs.stackexchange.com/questions/32473/edit-org-mode-tags-using-ido-or-ivy-completion
+* STRT [#B] [2019-10-01] alphapapa/org-sidebar: A helpful sidebar for Org mode
+:PROPERTIES:
+:ID:       tlphpprgsdbrhlpflsdbrfrrgmd
+:END:
+https://github.com/alphapapa/org-sidebar
+** [2019-10-06] ok, interesting but not sure how it would be useful for me?
+:PROPERTIES:
+:ID:       snkntrstngbtntsrhwtwldbsflfrm
+:END:
+** [2020-12-06] org-sidebar-backlinks looks good? maybe  use a sidebar with all todo items summary
+:PROPERTIES:
+:ID:       snrgsdbrbcklnkslksgdmybssdbrwthlltdtmssmmry
+:END:
+need to setup a hook though to refresh it on buffer switch
+
+* TODO [#B] [2019-10-05] Is it possible to clear src results in org-mode? - Emacs Stack Exchange
+:PROPERTIES:
+:ID:       ststpssbltclrsrcrsltsnrgmdmcsstckxchng
+:END:
+https://emacs.stackexchange.com/questions/35537/is-it-possible-to-clear-src-results-in-org-mode
+: Option 2 - Use :results replace drawer
+* DONE [#B] use two different refiles: one file level, another heading level; use heading refile more often
+:PROPERTIES:
+:CREATED:  [2019-06-12]
+:ID:       stwdffrntrflsnfllvlnthrhdnglvlshdngrflmrftn
+:END:
+
+* TODO [#B] refresh agenda after doing actions on it, right now completed future tasks still appear on agenda
+:PROPERTIES:
+:ID:       rfrshgndftrdngctnsntrghtnwcmpltdftrtsksstllpprngnd
+:END:
+CREATED: [2018-01-23]
+
+* TODO [#B] org-refile: make case insensitive
+:PROPERTIES:
+:CREATED:  [2020-04-29]
+:ID:       rgrflmkcsnsnstv
+:END:
+* STRT [#B] check out more defaul org-evil-agenda bindings             :doom:
+:PROPERTIES:
+:CREATED:  [2020-02-22]
+:ID:       02d1370c-b581-476c-a6e4-d34dc563a9d3
+:END:
+
+* STRT [#B] [2020-01-10] [[https://reddit.com/r/emacs/comments/emran7/amazing_library_for_org_hackers/][Amazing library for org hackers]] /r/emacs
+:PROPERTIES:
+:ID:       frsrddtcmrmcscmmntsmrnmznkrsmznglbrryfrrghckrsrmcs
+:END:
+https://github.com/ndwarshuis/om.el
+* TODO [#B] [2020-02-16] alphapapa/org-ql: An Org-mode query language, including search commands and saved views
+:PROPERTIES:
+:ID:       snlphpprgqlnrgmdqrylnggncldngsrchcmmndsndsvdvws
+:END:
+https://github.com/alphapapa/org-ql#helm-org-ql
+: helm-org-ql
+: Note: This command uses non-sexp queries.
+* [#B] Github orgmode handling
+:PROPERTIES:
+:ID:       gthbrgmdhndlng
+:END:
+** [#B] [2019-07-30] novoid/github-orgmode-tests: This is a test project where you can explore how github interprets Org-mode files
+:PROPERTIES:
+:ID:       tnvdgthbrgmdtststhsststprnxplrhwgthbntrprtsrgmdfls
+:END:
+https://github.com/novoid/github-orgmode-tests
+** TODO [#C] for fucks sake https://github.com/wallyqs/org-ruby/issues/45
+:PROPERTIES:
+:CREATED:  [2020-05-20]
+:ID:       frfckssksgthbcmwllyqsrgrbysss
+:END:
+** STRT [#B] named +result heading seems to be broken...
+:PROPERTIES:
+:CREATED:  [2020-02-26]
+:ID:       9a547152-dc1b-4ac5-a464-87662f31d8fc
+:END:
+*** [2020-02-26] ah, maybe it's fine.. just needs :exports results?
+:PROPERTIES:
+:ID:       wdhmybtsfnjstndsxprtsrslts
+:END:
+*** [2020-03-17] yeah, it's org-ruby and it's =#+results:= thing that's breaking it...
+:PROPERTIES:
+:ID:       tyhtsrgrbyndtsrsltsthngthtsbrkngt
+:END:
+*** [2020-05-10] right. apparently preempting with newline and using a drawe allows not to remove it?
+:PROPERTIES:
+:ID:       snrghtpprntlyprmptngwthnwlnndsngdrwllwsnttrmvt
+:END:
+see hpi/doc/MODULES.org
+*** [2020-07-15] right. apparently, :results scalar wraps it in begin_example and also works? see kobuddy
+:PROPERTIES:
+:ID:       wdrghtpprntlyrsltssclrwrpstnbgnxmplndlswrksskbddy
+:END:
+** TODO ugh, seems that #+result drawer fails to render?
+:PROPERTIES:
+:CREATED:  [2020-02-01]
+:ID:       ghsmsthtrsltdrwrflstrndr
+:END:
+
+like in arctee
+
+: #+begin_src sh :results output replace :exports output
+: ./arctee.py --help
+: #+end_src
+: 
+: #+RESULTS:
+: #+begin_example
+
+* TODO [#B] search for completed tasks that have todo subtasks?
+:PROPERTIES:
+:CREATED:  [2020-05-30]
+:ID:       srchfrcmpltdtsksththvtdsbtsks
+:END:
+* TODO [#B] perhaps need to filter some files for org-ql search
+:PROPERTIES:
+:CREATED:  [2020-02-28]
+:ID:       2227a851-0d5f-4479-aba8-bd2a5d81d52c
+:END:
+
+e.g. files without tags like twitter.org. Maybe the easiest to make them .txt actually??
+* TODO [#B] autorefresh agenda?
+:PROPERTIES:
+:CREATED:  [2020-06-10]
+:ID:       trfrshgnd
+:END:
+https://github.com/m-cat/org-recur#recommended-org-mode-settings
+: (defun org-agenda-refresh ()
+:   "Refresh all `org-agenda' buffers."
+:   (dolist (buffer (buffer-list))
+:     (with-current-buffer buffer
+:       (when (derived-mode-p 'org-agenda-mode)
+:         (org-agenda-maybe-redo)))))
+
+* STRT [#B] hide drill from agenda
+:PROPERTIES:
+:CREATED:  [2018-04-18]
+:ID:       hddrllfrmgnd
+:END:
+
+* TODO [#B] [2019-10-26] Code blocks - Org Babel reference card        :blog:
+:PROPERTIES:
+:ID:       stcdblcksrgbblrfrnccrd
+:END:
+https://org-babel.readthedocs.io/en/latest/eval/
+: You can define a code block somewhere and then call it explicitly elsewhere — provided the code block has a #+name: meta data to label it.
+* STRT [#B] [2020-02-06] Introducing Org Roam - Jethro Kuan
+:PROPERTIES:
+:ID:       thntrdcngrgrmjthrkn
+:END:
+https://blog.jethro.dev/posts/introducing_org_roam/
+
+* TODO [#A] inline tasks tips
+:PROPERTIES:
+:ID:       nlntskstps
+:END:
+** TODO [#B] [2019-10-04] [[https://reddit.com/r/orgmode/comments/dd6wr5/weekly_rorgmode_open_discussion_october_04_2019/f2evhwh/][Weekly /r/Orgmode Open Discussion - October 04, 2019]] /r/orgmode
+:PROPERTIES:
+:ID:       frsrddtcmrrgmdcmmntsddwrwklyrrgmdpndscssnctbrrrgmd
+:END:
+:  Here's another discussion [https://stackoverflow.com/questions/11718401/how-to-use-todo-tags-in-org-mode-without-defining-headings](https://stackoverflow.com/questions/11718401/how-to-use-todo-tags-in-org-mode-without-defining-headings)
+** TODO [#B] [2019-10-04] [[https://reddit.com/r/orgmode/comments/dd6wr5/weekly_rorgmode_open_discussion_october_04_2019/f2ektrl/][Weekly /r/Orgmode Open Discussion - October 04, 2019]] /r/orgmode
+:PROPERTIES:
+:ID:       frsrddtcmrrgmdcmmntsddwrwklyrrgmdpndscssnctbrrrgmd
+:END:
+:  There's no way to do that, and it would probably be very messy to implement.  But try "inline tasks."
+** TODO [#B] [2019-10-04] [[https://reddit.com/r/orgmode/comments/dd6wr5/weekly_rorgmode_open_discussion_october_04_2019/f2eiggk/][Weekly /r/Orgmode Open Discussion - October 04, 2019]] /r/orgmode
+:PROPERTIES:
+:ID:       frsrddtcmrrgmdcmmntsddwrwklyrrgmdpndscssnctbrrrgmd
+:END:
+:   While it is not a solution, i use checkboxes i these kind of situations. Another workaround could be to create a checklist underneath the top heading and link to the subheadings.
+: 
+:   ```
+:   * FooBar
+: 
+:   Some text
+: 
+:   - foo
+:   - [ ] [[*bar][bar]]
+: 
+:   Some more text
+: 
+:   ** foo
+:   ** TODO bar
+:   SCHEDULED ...
+:  ```
+** STRT [#C] [2019-12-17] [[https://reddit.com/r/opensource/comments/cazgsa/annotating_everything_overview_of_linuxandroid/fb7p2w7/][Annotating everything: overview of Linux/Android tools for active reading]] /r/opensource
+:PROPERTIES:
+:ID:       tsrddtcmrpnsrccmmntsczgsnlnxndrdtlsfrctvrdngrpnsrc
+:END:
+:  > One big drawback with Org mode (and I believe most of outline/task list formats) though is that if you insert child outline items in the middle of text, it would structurally break it in two parts, so you'd have to append > your commend to the end of current outline (which can be potentially very long). On the other hand, plain list items, which you can insert in arbitrary place, are very limited and don't support most of things outline support like tags, timestamps, priorities etc.
+: 
+:  FYI, org mode has inline tasks (org-inlinetask.el)
+* TODO [#C] not sure if need to use org-id-track-globally???
+:PROPERTIES:
+:CREATED:  [2020-04-30]
+:ID:       ntsrfndtsrgdtrckglblly
+:END:
+* TODO [#C] think of better hotkeys for agenda deadline and schedule settings
+:PROPERTIES:
+:CREATED:  [2020-06-07]
+:ID:       thnkfbttrhtkysfrgndddlnndschdlsttngs
+:END:
+* STRT [#C] shortcut to insert org style date in arbitrary place      :emacs:
+:PROPERTIES:
+:CREATED:  [2019-06-11]
+:ID:       shrtcttnsrtrgstyldtnrbtrryplc
+:END:
+** [2020-06-03] ugh! desperately need insert-date things
+:PROPERTIES:
+:ID:       wdghdsprtlyndnsrtdtthngs
+:END:
+perhaps it should be smart and add whitespace (move point too)
+** TODO [2020-06-09] use my/now C-t? maybe alt-t is better or something :habit:
+:PROPERTIES:
+:ID:       82c489f5-fa03-4c86-b4af-73aea03ef49b
+:END:
+
+* TODO [#C] [2019-03-29] org mode - Update the org-agenda-daily-view automatically on background - Emacs Stack Exchange
+:PROPERTIES:
+:ID:       frrgmdpdtthrggnddlyvwtmtcllynbckgrndmcsstckxchng
+:END:
+https://emacs.stackexchange.com/questions/47254/update-the-org-agenda-daily-view-automatically-on-background
+: (run-with-idle-timer 300 t (lambda () (org-agenda nil "a")) )
+* TODO [#C] [2019-05-12] Org-mode Hidden Gems - 01 Document Structure
+:PROPERTIES:
+:ID:       snrgmdhddngmsdcmntstrctr
+:END:
+https://yiufung.net/post/org-mode-hidden-gems-pt1/
+: And I only learn the existence of Description list today. Writing:
+: 
+: - Emacs :: An extensible, customizable, free/libre text editor
+: - Org mode :: Keeping notes, maintaining TODO lists, planning projects, and
+:   authoring documents with a fast and effective plain-text system
+* [#C] [2020-02-27] wow, highlighting broken file links is very cool   :doom:
+:PROPERTIES:
+:ID:       thwwhghlghtngbrknfllnkssvrycl
+:END:
+* TODO [#B] [2020-01-28] [[https://reddit.com/r/orgmode/comments/ev28kw/wip_orgqlview_dispatch_popup_like_magit/][WIP: org-ql-view dispatch popup (like Magit)]] /r/orgmode :orgql:
+:PROPERTIES:
+:ID:       tsrddtcmrrgmdcmmntsvkwwprrgqlvwdsptchppplkmgtrrgmd
+:END:
+** [2020-12-06] oh wow it's super neat! interactive old-dispatch
+:PROPERTIES:
+:ID:       snhwwtssprntntrctvlddsptch
+:END:
+* STRT [#C] [2019-10-26] m-cat/org-recur: Recurring org-mode tasks
+:PROPERTIES:
+:ID:       stmctrgrcrrcrrngrgmdtsks
+:END:
+https://github.com/m-cat/org-recur
+: This package extends org-mode and org-agenda with support for defining recurring tasks and easily scheduling them.
+** [2020-06-10] ugh. |3| didn't work, regardless org-recur-mode or org-recur-agenda-mode...
+:PROPERTIES:
+:ID:       wdghddntwrkrgrdlssrgrcrmdrrgrcrgndmd
+:END:
+* TODO [#C] [2019-11-02] Org mode for meeting minutes                  :blog:
+:PROPERTIES:
+:ID:       strgmdfrmtngmnts
+:END:
+https://lists.gnu.org/archive/html/emacs-orgmode/2019-10/msg00300.html
+: *** Reports from the sub teams
+
+hmm, inline tasks could actually work ok... could even hack them in export?
+* TODO [#C] add repeat frequency?
+:PROPERTIES:
+:CREATED:  [2018-10-27]
+:ID:       ddrptfrqncy
+:END:
+* STRT [#C] Org agenda bulk reschedule? Via transient mode??
+:PROPERTIES:
+:CREATED:  [2018-11-27]
+:ID:       rggndblkrschdlvtrnsntmd
+:END:
+** [2019-11-02] mm, ok, I gues 1-7 keys do this well
+:PROPERTIES:
+:ID:       stmmkgskysdthswll
+:END:
+
+* TODO [#C] use org-agenda-open-link, set up def browser
+:PROPERTIES:
+:CREATED:  [2018-06-25]
+:ID:       srggndpnlnkstpdfbrwsr
+:END:
+
+* STRT [#C] hmm, unclear how to emulate RTM behavior with creating new task in regular time periods..
+:PROPERTIES:
+:CREATED:  [2018-01-16]
+:ID:       hmmnclrhwtmltrtmbhvrwthcrtngnwtsknrglrtmprds
+:END:
+if I set scheduled=deadline, and then postpone via updating schdule, it doesn't really seem to work as expected :(
+so, I could set recurring deadline (with ++ cookie?) and use scheduled. Also hide deadline entries which are before scheduled date for recurring tasks
+WIP in ~/deadline.el
+hmm, wondering what happens to deadline when task completes?
+display as 'postponed'? also for repeating tasks only
+ok I need + cookie ,it's basically 'every'
+ok, nice, when i complete the task, 'scheduled' goes away automatically
+http://karl-voit.at/2017/01/15/org-clone-subtree-with-time-shift/
+Mm. Cloning subtree with time shift is ok, but that doesn't help with timestamps like 'first day of month'
+
+hmm, maybe just mark task as DND (do not delete) in the heading
+
+* STRT [#C] priority in agenda works in a weird way... make sure it jumps at a heading, not body
+:PROPERTIES:
+:CREATED:  [2018-07-23]
+:ID:       prrtyngndwrksnwrdwymksrtjmpsthdngntbdy
+:END:
+** [2020-06-09] eh? I think it was referring to the priority changing? was resolved probably?
+:PROPERTIES:
+:ID:       ththnktwsrfrrngtthprrtychngngwsrslvdprbbly
+:END:
+
+* TODO [#C] [2019-02-15] The Org Manual: Speed keys
+:PROPERTIES:
+:ID:       frthrgmnlspdkys
+:END:
+https://orgmode.org/manual/Speed-keys.html
+
+* TODO [#C] evil-collection?                                            :vim:
+:PROPERTIES:
+:CREATED:  [2020-02-22]
+:ID:       vlcllctn
+:END:
+* TODO [#C] :results replace raw appends instead of replacing
+:PROPERTIES:
+:CREATED:  [2020-01-01]
+:ID:       rsltsrplcrwppndsnstdfrplcng
+:END:
+works as expected without raw though..
+* TODO [#C] use evil-org (subtree manipulation)
+:PROPERTIES:
+:CREATED:  [2019-12-29]
+:ID:       svlrgsbtrmnpltn
+:END:
+* TODO [#C] symlink projects with issues?
+:PROPERTIES:
+:CREATED:  [2019-12-26]
+:ID:       symlnkprjctswthsss
+:END:
+* TODO [#C] have a suggestion for begin_xxx thing to take in html classes?
+:PROPERTIES:
+:ID:       hvsggstnfrbgnxxxthngttknhtmlclsss
+:END:
+* TODO [#C] if it's got pin tag, always keep it on the very top? and don't reorder?
+:PROPERTIES:
+:CREATED:  [2020-02-26]
+:ID:       be41e3af-2d95-45c4-8ce8-e826e5d3428e
+:END:
+* TODO [#C] maybe need a 'virtual'  "moving notes" mode for orgmode?  :think:
+:PROPERTIES:
+:CREATED:  [2020-05-09]
+:ID:       mybndvrtlmvngntsmdfrrgmd
+:END:
+e.g. in edit mode, alt + hjkl is operating on the structure and can't change the text?
+* TODO [#C] [2019-10-11] [[https://reddit.com/r/orgmode/comments/dgeojs/weekly_rorgmode_open_discussion_october_11_2019/f3dfy7n/][Weekly /r/Orgmode Open Discussion - October 11, 2019]] /r/orgmode :performance:
+:PROPERTIES:
+:ID:       frsrddtcmrrgmdcmmntsdgjswklyrrgmdpndscssnctbrrrgmd
+:END:
+:  Several megabytes.  I think the slowest thing in my Org config is activating `org-bullets-mode` and `org-indent-mode`, which only happens when a file is first opened.
+:  What kind of stutters are you getting, i.e. when do they happen?  You might just need to make a few adjustments to your config.
+:  > I need to work on refiling to locations based on property values some time.
+:  `org-ql` can help with that.  For example, if you had a function to refile an entry by its property, you could do something like:
+: 
+:      (org-ql "refile.org"
+:        '(property "refile-property")
+:        :action #'nick/refile-by-property)
+* TODO [#C] attempt to display org-ql results in a window             :orgql:
+:PROPERTIES:
+:CREATED:  [2020-03-08]
+:ID:       ttmpttdsplyrgqlrsltsnwndw
+:END:
+
+should be in org-ql-view--display? pop-to-buffer line
+
+there is bunch of functions in widnow.el (e.g. display-buffer-in-atom-window),
+but couldn't force it
+* [#C] [2020-05-06] [[https://www.youtube.com/watch?v=jEJC-9iUXY8&list=PLomc4HLgvuCWuJVVwsT8pbLWYR-n3G8bH&index=4][(1) EmacsConf 2019 - 05 - Use Org mode when away from the desktop - Zen Monk Alain M. Lafon - YouTube]] :blog:
+:PROPERTIES:
+:ID:       wdswwwytbcmwtchvjjcxylstpyfrmthdsktpznmnklnmlfnytb
+:END:
+go through slides, it explains well history why how and what for he's using orgmode
+* TODO [#C] clipping/capturing images
+:PROPERTIES:
+:CREATED:  [2020-06-08]
+:ID:       clppngcptrngmgs
+:END:
+via some browser extension? the most important thing is to hash the contents (probably add to the name to make it unique)
+then easy to locate with org-mode
+* STRT [#C] figure out pro and cons lists
+:PROPERTIES:
+:CREATED:  [2018-02-17]
+:ID:       fgrtprndcnslsts
+:END:
+
+** [2018-06-20] PRO and CON lists
+:PROPERTIES:
+:ID:       wdprndcnlsts
+:END:
+TLDR: just use + PRO, + CON and then use the post-export-hook
+https://lists.gnu.org/archive/html/emacs-orgmode/2010-04/msg00248.html
+
+* STRT [#C] need 'save all'... or autosave on refile?                 :emacs:
+:PROPERTIES:
+:CREATED:  [2018-08-05]
+:ID:       ndsvllrtsvnrfl
+:END:
+
+* STRT [#C] [2018-08-25] need feedback for org-mode web app - view/search org files from Dropbox on web : orgmode
+:PROPERTIES:
+:ID:       stndfdbckfrrgmdwbppvwsrchrgflsfrmdrpbxnwbrgmd
+:END:
+https://www.reddit.com/r/orgmode/comments/9522eg/need_feedback_for_orgmode_web_app_viewsearch_org/
+
+mm, not sure how far he made it...
+
+** [2019-01-13] https://www.reddit.com/r/orgmode/comments/9522eg/need_feedback_for_orgmode_web_app_viewsearch_org/
+:PROPERTIES:
+:ID:       snswwwrddtcmrrgmdcmmntsgndfdbckfrrgmdwbppvwsrchrg
+:END:
+https://orgmodeweb.org/
+
+it looks sort of ok, but still bugs in the interface. note sure if better than nuage?
+** [2019-03-27] looks broken :(
+:PROPERTIES:
+:ID:       wdlksbrkn
+:END:
+** [2019-05-30] still no updates...
+:PROPERTIES:
+:ID:       thstllnpdts
+:END:
+
+* TODO [#C] how to separate or archive org state history?
+:PROPERTIES:
+:CREATED:  [2018-10-17]
+:ID:       hwtsprtrrchvrgstthstry
+:END:
+* TODO [#C] agenda: for sorting, need global list of all scheduled/deadline items sorted by priority
+:PROPERTIES:
+:CREATED:  [2018-11-05]
+:ID:       gndfrsrtngndglbllstfllschdldddlntmssrtdbyprrty
+:END:
+
+* TODO [#C] do not detect timestamp as cloze? is that even possible? :orgdrill:
+:PROPERTIES:
+:CREATED:  [2019-01-31]
+:ID:       dntdtcttmstmpsclzsthtvnpssbl
+:END:
+* TODO [#C] [2019-02-10] profiler - How do I speed up org-mode agenda generation - Emacs Stack Exchange
+:PROPERTIES:
+:ID:       snprflrhwdspdprgmdgndgnrtnmcsstckxchng
+:END:
+https://emacs.stackexchange.com/questions/804/how-do-i-speed-up-org-mode-agenda-generation
+: I've created this workaround, which pregenerates an agenda buffer whenever Emacs is idle for more than 5 seconds. The next time the agenda command is run, generation takes less than a second, since the org buffers have already been loaded.
+: 
+: (run-with-idle-timer 5 nil (lambda () (org-agenda-list) (delete-window)))
+* STRT [#C] sort by tag for quick regrouping?
+:PROPERTIES:
+:CREATED:  [2019-06-10]
+:ID:       srtbytgfrqckrgrpng
+:END:
+
+* CANCEL [#D] support time with seconds precision?                    :setup:
+:PROPERTIES:
+:CREATED:  [2019-06-18]
+:ID:       spprttmwthscndsprcsn
+:END:
+** [2019-06-23] https://stackoverflow.com/a/25668739/706389 Take note that it's defined as a constant, so you're not encouraged to fiddle with it (but you still can:).
+:PROPERTIES:
+:ID:       snsstckvrflwcmtkntthttsdfntncrgdtfddlwthtbtystllcn
+:END:
+* TODO [#C] helm-org-refile is a bit stupid; e.g. try refiling to 'watch'
+:PROPERTIES:
+:CREATED:  [2019-06-27]
+:ID:       hlmrgrflsbtstpdgtryrflngtwtch
+:END:
+
+* [#C] [2019-10-23] [O] noweb strip-export
+:PROPERTIES:
+:ID:       wdnwbstrpxprt
+:END:
+https://www.mail-archive.com/emacs-orgmode@gnu.org/msg123779.html
+: Aloha all,
+: The noweb strip-export setting leaves empty lines in the export.
+* TODO [#C] could potentially be convenient for org mode exports?  :mimemacs:
+:PROPERTIES:
+:CREATED:  [2019-09-15]
+:ID:       cldptntllybcnvnntfrrgmdxprts
+:END:
+* TODO [#C] [2019-10-05] emacs - Inline code in org-mode - Stack Overflow
+:PROPERTIES:
+:ID:       stmcsnlncdnrgmdstckvrflw
+:END:
+https://stackoverflow.com/questions/16186843/inline-code-in-org-mode
+: While monospaced is good enough for most cases, inline code blocks have the form src_LANG[headers]{your code}. For example, src_xml[:exports code]{<tag>text</tag>}.
+: 
+: Edit: Code highlighting of inline code is certainly possible, albeit with patching org.el itself: The answer given here https://stackoverflow.com/a/20652913/594138 works as advertised, turning
+: 
+: - Inline code src_sh[:exports code]{echo -e "test"}
+* TODO [#C] [2019-10-26] Code blocks - Org Babel reference card        :blog:
+:PROPERTIES:
+:ID:       stcdblcksrgbblrfrnccrd
+:END:
+https://org-babel.readthedocs.io/en/latest/eval/
+: Syntax
+: #+call: is for standalone lines: it lives on a block by itself.
+: A #+call: line can be named, in order for its results (for the arguments used) to be referenced.
+: It has the following syntax, where each header argument portion is optional.
+: #+name: <CALL-LINE-NAME>
+: #+call: <NAME>[<HEADER-ARGS-FOR-BLOCK>](<ARGUMENTS>) <HEADER-ARGS-FOR-CALL-LINE>
+* TODO [#C] org-next-visible-heading hotkey?                          :setup:
+:PROPERTIES:
+:CREATED:  [2020-01-16]
+:ID:       rgnxtvsblhdnghtky
+:END:
+* STRT [#C] [2020-01-10] ndwarshuis/om.el: A functional library for org-mode
+:PROPERTIES:
+:ID:       frndwrshsmlfnctnllbrryfrrgmd
+:END:
+https://github.com/ndwarshuis/om.el
+: A functional API for org-mode inspired by @magnars's dash.el and s.el libraries.
+* [#C] [2020-05-03] [[https://www.reddit.com/r/emacs/comments/gckuv2/a_featureful_blog_made_with_emacs_orgmode/][A Featureful Blog made with Emacs Org-mode : emacs]]
+:PROPERTIES:
+:ID:       snswwwrddtcmrmcscmmntsgckmdftrflblgmdwthmcsrgmdmcs
+:END:
+
+* TODO [#C] [2020-11-24] [[https://github.com/landakram/org-z][landakram/org-z: Lightweight, Org-mode flavored zettelkasten links.]]
+:PROPERTIES:
+:ID:       tsgthbcmlndkrmrgzlndkrmrgwghtrgmdflvrdzttlkstnlnks
+:END:
+
+* [#C] [2020-06-09] my/org-sort-entries -- actually it's good it's keeping stable sort for same prios
+:PROPERTIES:
+:ID:       tmyrgsrtntrsctllytsgdtskpngstblsrtfrsmprs
+:END:
+that way I can refile to the end of the same file and it will sink item to the bottom
+* STRT [#C] make ,s to "refile to the same file"? i.e. "sink"
+:PROPERTIES:
+:CREATED:  [2020-06-09]
+:ID:       mkstrfltthsmflsnk
+:END:
+* TODO [#C] try org-sort?
+:PROPERTIES:
+:CREATED:  [2020-07-08]
+:ID:       tryrgsrt
+:END:
+* TODO [#C] [2020-10-09] [[https://orgmode.org/worg/dev/org-syntax.html][Org Syntax (draft)]]
+:PROPERTIES:
+:ID:       frsrgmdrgwrgdvrgsyntxhtmlrgsyntxdrft
+:END:
+* TODO [#C] function to 'sink' a heading down till the next priority.. might be unstable though
+:PROPERTIES:
+:CREATED:  [2020-11-26]
+:ID:       fnctntsnkhdngdwntllthnxtprrtymghtbnstblthgh
+:END:
+maybe just sink the current entry (alt-down), then it'd be automatic
+* TODO [#C] org-ql-search change view format
+:PROPERTIES:
+:CREATED:  [2020-02-16]
+:ID:       rgqlsrchchngvwfrmt
+:END:
+apparently this function, but not configurable at the moment?
+: (defun org-ql-view--format-element (element)
+* TODO [#C] [2019-10-31] [[https://reddit.com/r/orgmode/comments/dpk84w/done_tasks_with_different_color/f5w05hh/][DONE tasks with different color]] /r/orgmode
+:PROPERTIES:
+:ID:       thsrddtcmrrgmdcmmntsdpkwdhhdntskswthdffrntclrrrgmd
+:END:
+:  Setting `org-fontify-done-headline` to `t` will (in most themes) make any DONE heading grey. The `leuven` theme also makes the heading ~~strikethrough~~.
+* [#C] [2019-11-14] Python Source Code Blocks in Org Mode
+:PROPERTIES:
+:ID:       thpythnsrccdblcksnrgmd
+:END:
+https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html
+: Org Mode supports graphical output for LaTeX and HTML documents using Matplotlib.
+* TODO [#C] I think resume doesn't work when you do org-drill-habits :orgdrill:
+:PROPERTIES:
+:CREATED:  [2019-11-23]
+:ID:       thnkrsmdsntwrkwhnydrgdrllhbts
+:END:
+* TODO [#D] [2020-04-26] [[https://github.com/toshism/org-super-links][toshism/org-super-links: Package to create links with auto backlinks]]
+:PROPERTIES:
+:ID:       snsgthbcmtshsmrgsprlnkstskspckgtcrtlnkswthtbcklnks
+:END:
+: Package to create links with auto backlinks
+* TODO [#D] [2019-10-30] [[https://reddit.com/r/emacs/comments/domrl6/weekly_tipstricketc_thread/f5thc8l/][Weekly tips/trick/etc/ thread]] /r/emacs
+:PROPERTIES:
+:ID:       wdsrddtcmrmcscmmntsdmrlwkthclwklytpstrcktcthrdrmcs
+:END:
+:  Cool, I didn't know about `imenu-add-menubar-index`.
+:  You may also find `org-sidebar-tree` helpful: https://github.com/alphapapa/org-sidebar
+* TODO [#D] Introduction to "organice" - Using Org mode from a smartphone or browser | Lobsters
+:PROPERTIES:
+:CREATED:  [2019-10-25]
+:ID:       ntrdctntrgncsngrgmdfrmsmrtphnrbrwsrlbstrs
+:END:
+
+https://lobste.rs/s/jjcwou/introduction_organice_using_org_mode
+* TODO [#D] right, export is weird when output contains * heading?
+:PROPERTIES:
+:CREATED:  [2020-01-09]
+:ID:       rghtxprtswrdwhntptcntnshdng
+:END:
+* TODO [#D] disable org-indent-mode??                                  :doom:
+:PROPERTIES:
+:CREATED:  [2020-03-11]
+:ID:       dsblrgndntmd
+:END:
+* TODO [#D] set org-directory just in case? also good for relative path to capture templates
+:PROPERTIES:
+:CREATED:  [2019-09-05]
+:ID:       strgdrctryjstncslsgdfrrltvpthtcptrtmplts
+:END:
+also org-default-notes-files for capture without file argument
+* TODO [#D] clipping images
+:PROPERTIES:
+:CREATED:  [2020-06-08]
+:ID:       clppngmgs
+:END:
+via some browser extension? the most important thing is to hash the contents (probably add to the name to make it unique)
+then easy to locate with org-mode
+* DONE [#C] [2019-12-26] The Org Manual: Literal examples
+:PROPERTIES:
+:ID:       ththrgmnlltrlxmpls
+:END:
+https://orgmode.org/manual/Literal-examples.html
+: For simplicity when using small examples, you can also start the example lines with a colon followed by a space. There may also be additional whitespace before the colon:
+
+
+Here is an example
+: Some example from a text file.
+* TODO postpone with a small exponent? not sure
+:PROPERTIES:
+:CREATED:  [2020-12-06]
+:ID:       pstpnwthsmllxpnntntsr
+:END:
+* TODO org-agenda-filter-by-tag (then - to exclude at TAB to select tag) is very nice for ad-hoc switching? :habit:
+:PROPERTIES:
+:CREATED:  [2020-12-06]
+:ID:       0d10958d-dc87-492a-83f8-9f42f7f20b14
+:END:
+* TODO [#B] paranoid mode: check for broken headings                  :setup:
+:PROPERTIES:
+:CREATED:  [2020-12-05]
+:ID:       prndmdchckfrbrknhdngs
+:END:
+could prob improve, e.g. detect actual stars?
+: rg '..............................*#(A|B|C|D)]'
+* TODO [#C] [2020-11-14] [[https://reddit.com/r/emacs/comments/jtydiy/who_needs_github_to_manage_a_project_when_you/][Who needs GitHub to manage a project when you have Emacs and Org]] /r/emacs
+:PROPERTIES:
+:ID:       stsrddtcmrmcscmmntsjtydywmngprjctwhnyhvmcsndrgrmcs
+:END:
+** [2020-12-11] tab-bar-mode and global-tab-line-mode ?
+:PROPERTIES:
+:ID:       frtbbrmdndglbltblnmd
+:END:
+
+* STRT [#B] [2020-06-07] [[https://reddit.com/r/emacs/comments/gybdbq/orgro_an_orgmode_viewer_for_mobile/][Orgro: an org-mode viewer for mobile]] /r/emacs
+:PROPERTIES:
+:ID:       snsrddtcmrmcscmmntsgybdbqfrmblrgrnrgmdvwrfrmblrmcs
+:END:
+** [2020-10-24] waiting for fdroid https://github.com/amake/orgro/issues/15
+:PROPERTIES:
+:ID:       stwtngfrfdrdsgthbcmmkrgrsss
+:END:
+
+* TODO [2020-12-17] [[https://karl-voit.at/2019/09/25/categories-versus-tags/][UOMF: Using Org Mode Categories Versus Tags]] :habit:
+:PROPERTIES:
+:ID:       e77bb05d-f207-42c6-9a5d-aa6fa98d08dc
+:END:
+: So if you press < when being on a line whose task is categorized with "ProjectY", your agenda now only shows tasks of this category, hiding everything else.
+* TODO use ,. for refiling to current file                            :habit:
+:PROPERTIES:
+:CREATED:  [2021-01-04]
+:ID:       sfrrflngtcrrntfl
+:END:
+* TODO [#C] have a repository of org-mode demo files? generate it w.r.t to today so it's easy to demonstrate? org could hack current day somehow, but that could be tricky
+:PROPERTIES:
+:CREATED:  [2019-09-10]
+:ID:       hvrpstryfrgmddmflsgnrttwrcrrntdysmhwbtthtcldbtrcky
+:END:
+* TODO file variables
+:PROPERTIES:
+:ID:       flvrbls
+:END:
+http://home.fnal.gov/~neilsen/notebook/orgExamples/org-examples.html
+
+: Follow the instructions in the emacs manual; begin the file with a line of the form:
+
+
+: # -*- foo: "bar"; baz: "ham" -*-
+: For example, to set the "Up" and "Home" links for an org-mode file, begin it with:
+: # -*- org-html-link-up: "http://decam03.fnal.gov:8080/notes/neilsen/";  org-html-link-home: "http://home.fnal.gov/~neilsen" -*-
+
+
+https://www.gnu.org/software/emacs/manual/html_node/emacs/Specifying-File-Variables.html#Specifying-File-Variables
+
+* archive entries (org-archive-subtree)
+:PROPERTIES:
+:ID:       rchvntrsrgrchvsbtr
+:END:
+* archive tag to hide subtree (org-toggle-archive-tag)
+:PROPERTIES:
+:ID:       rchvtgthdsbtrrgtgglrchvtg
+:END:
+
+
+
+* repeat interval cookies
+:PROPERTIES:
+:ID:       rptntrvlcks
+:END:
+- ~.+~ -- always + today
+- ~++~ -- will always move into the future
+- ~+~  --  will move exactly x days w.r.t. to deadline date
+* TODO [#C] agenda sometimes takes A LOT of time to rerender. I think we need an inotify async server...
+:PROPERTIES:
+:CREATED:  [2019-01-24]
+:ID:       gndsmtmstksltftmtrrndrthnkwndnntfysyncsrvr
+:END:
+* TODO [#D] go thought archives occasionally to check for accidentally archived? Then mark
+:PROPERTIES:
+:CREATED:  [2019-01-25]
+:ID:       gthghtrchvsccsnllytchckfrccdntllyrchvdthnmrk
+:END:
+* TODO [#C] tagging files, then org view into them
+:PROPERTIES:
+:CREATED:  [2019-01-26]
+:ID:       tggngflsthnrgvwntthm
+:END:
+* TODO [#D] [2020-04-12] [[https://orgmode.org/manual/Literal-Examples.html][Literal Examples (The Org Manual)]]
+:PROPERTIES:
+:ID:       snsrgmdrgmnlltrlxmplshtmlltrlxmplsthrgmnl
+:END:
+: There is one limitation, however. You must insert a comma right before lines starting with either ‘*’, ‘,*’, ‘#+’ or ‘,#+’, as those may be interpreted as outlines nodes or some other special syntax. Org transparently strips these additional commas whenever it accesses the contents of the block.
+* TODO [#B] habits/drill should probably have importance? So the unimportant things are showed less frequently :spacedrep:
+:PROPERTIES:
+:CREATED:  [2019-01-31]
+:ID:       hbtsdrllshldprbblyhvmprtnprtntthngsrshwdlssfrqntly
+:END:
+
+* DONE [#B] for drill, only consider stuff that isn't done?
+:PROPERTIES:
+:CREATED:  [2019-11-02]
+:ID:       frdrllnlycnsdrstffthtsntdn
+:END:
+or cancelled
+: (defcustom org-drill-match
+:   nil
+:   "If non-nil, a string specifying a tags/property/TODO query. During
+: drill sessions, only items that match this query will be considered."
+:   :group 'org-drill
+* STRT [#B] check for corrupted headings, typically it's stars and todo states out of nowhere
+:PROPERTIES:
+:CREATED:  [2018-08-07]
+:ID:       chckfrcrrptdhdngstypcllytsstrsndtdsttstfnwhr
+:END:
+
+* [#C] [2019-10-05] Re: [O] Bug: spurious newline after comment
+:PROPERTIES:
+:ID:       strbgsprsnwlnftrcmmnt
+:END:
+https://lists.gnu.org/archive/html/emacs-orgmode/2016-08/msg00276.html
+: 
+: Note that you can
+: - use somewhat inline comments with @@comment:...@@ syntax
+: - remove commented lines the way you like using a hook:
+:   `org-export-before-processing-hook'.
+* [#C] [2019-09-22] alphapapa/org-super-agenda: Supercharge your Org daily/weekly agenda by grouping items
+:PROPERTIES:
+:ID:       snlphpprgsprgndsprchrgyrrgdlywklygndbygrpngtms
+:END:
+https://github.com/alphapapa/org-super-agenda
+: If you want to install manually, you must also install these packages:
+:     Emacs >= 26.1
+:     dash >= 2.13
+:     ht >=2.2
+:     org-mode >= 9.0
+:     s >= 1.10
+:     ts
+* STRT [#C] weirdness with encoding in Polar documents  :polar:orgmode:emacs:
+:PROPERTIES:
+:CREATED:  [2020-05-15]
+:ID:       wrdnsswthncdngnplrdcmnts
+:END:
+- could set header to # -*- coding: utf-8 -*- ? not sure
+- revert-buffer-with-coding-system
+- mine should be utf8
+  : (prefer-coding-system 'utf-8)            ; pretty
+  : (setq locale-coding-system 'utf-8)       ; please
+* [#C] [2019-10-22] [[https://reddit.com/r/emacs/comments/dllhr7/rethink_org_mode_meets_professional_web_design/][Rethink: Org mode meets professional web design]] /r/emacs :org:
+:PROPERTIES:
+:ID:       tsrddtcmrmcscmmntsdllhrrtkrgmdmtsprfssnlwbdsgnrmcs
+:END:
+:  Hi all,
+:  I recently posted a link on here about an org mode export template called [Imagine](https://jessekelly881-imagine.surge.sh/). I have been working on a new(and I believe much better) template recently called [Rethink](https://jessekelly881-rethink.surge.sh/). Yes, I know the name isn't the best.
+:  So far they are just works in progress but I plan to create a smallish collection. I started this because I was looking for good css templates targeted at org mode and I was disappointed by the severe lack of them. Hopefully, someone will find these useful. Again, they are still wip but maybe with a little help from some helpful web designer we can make them much better.
+:  Also, if you find any bugs or things you wish were different feel free to comment or contact me on [Github](https://github.com/jessekelly881). Thanks!
+* DONE refile is weird in terms of fuzzy matching (log.org)       :emacs:org:
+:PROPERTIES:
+:CREATED:  [2018-11-15]
+:ID:       rflswrdntrmsffzzymtchnglgrg
+:END:
+completing-read apparently?
+see
+org-refile-get-location
+
+completing-read-function?
+
+helm--completing-read-default
+
+(defclass helm-source-async (helm-source)
+
+shit.. has something to do with async sources?... spacemace//helm-make-source
+
+huh.. fixed it via making that...
+
+(add-to-list 'helm-completing-read-handlers-alist '(org-refile . helm-completing-read-sync-default-handler))
+** TODO maybe contribute to spacemacs?? not sure why the source was async in the first place...
+:PROPERTIES:
+:ID:       mybcntrbttspcmcsntsrwhythsrcwssyncnthfrstplc
+:END:
+* CANCEL [#C] [2018-06-10] fniessen/org-html-themes: How to export Org mode files into awesome HTML in 2 minutes :org:blog:
+:PROPERTIES:
+:ID:       snfnssnrghtmlthmshwtxprtrgmdflsntwsmhtmlnmnts
+:END:
+https://github.com/fniessen/org-html-themes
+** [2018-10-28]  eh, not so sure about it. doesn't look nice
+:PROPERTIES:
+:ID:       snhntssrbttdsntlknc
+:END:
+
+
+* DONE [#B] shit, I need agda-like unicode input       :org:emacs:math:study:
+:PROPERTIES:
+:CREATED:  [2018-11-16]
+:ID:       shtndgdlkncdnpt
+:END:
+- State "DONE"       from "START"      [2019-02-16]
+- State "START"      from "TODO"       [2019-02-16]
+
+
+* [#C] [2019-10-27] org babel - How to automatically tangle another source block to file when evaluate a source block in org-mode? - Emacs Stack Exchange
+:PROPERTIES:
+:ID:       snrgbblhwttmtcllytnglnthrtsrcblcknrgmdmcsstckxchng
+:END:
+https://emacs.stackexchange.com/questions/14153/how-to-automatically-tangle-another-source-block-to-file-when-evaluate-a-source
+
+* TODO [#D] org-clock is oddly satisfying                               :org:
+:PROPERTIES:
+:CREATED:  [2018-01-18]
+:ID:       rgclcksddlystsfyng
+:END:
+
+* TODO [#D] add CREATED to entry (add-created would be enough)    :emacs:org:
+:PROPERTIES:
+:CREATED:  [2018-07-12]
+:ID:       ddcrtdtntryddcrtdwldbngh
+:END:
+
+* TODO [#D] figure out how to find and jump a file                      :org:
+:PROPERTIES:
+:ID:       fgrthwtfndndjmpfl
+:END:
+CREATED: [2018-01-24]
+http://kitchingroup.cheme.cmu.edu/blog/2016/11/04/New-link-features-in-org-9/
+
+* [#D] [2017-12-23] custom timestamp format                             :org:
+:PROPERTIES:
+:ID:       stcstmtmstmpfrmt
+:END:
+https://emacs.stackexchange.com/questions/3179/how-to-make-org-mode-dwim-when-it-reads-times-in-timestamps
+
+* DONE [#D] do not count timestamps as cloze                 :emacs:orgdrill:
+:PROPERTIES:
+:CREATED:  [2019-06-16]
+:ID:       dntcnttmstmpssclz
+:END:
+* TODO [#D] Org mode exporting to html
+:PROPERTIES:
+:CREATED:  [2019-07-04]
+:ID:       rgmdxprtngthtml
+:END:
+
+https://www.reddit.com/r/orgmode/comments/c6kc5r/org_mode_exporting_to_html/
+
+* TODO [#D] display links as raw links                            :emacs:org:
+:PROPERTIES:
+:CREATED:  [2019-04-22]
+:ID:       dsplylnkssrwlnks
+:END:
+** [2019-11-02] eh?
+:PROPERTIES:
+:ID:       sth
+:END:
+* DONE [#D] [2019-07-29] sort by property TAGS                          :org:
+:PROPERTIES:
+:ID:       mnsrtbyprprtytgs
+:END:
+* [#D] [2019-10-23] The Org Manual: Extracting source code
+:PROPERTIES:
+:ID:       wdthrgmnlxtrctngsrccd
+:END:
+https://orgmode.org/manual/Extracting-source-code.html
+: 14.4 Extracting source code
+: 
+: Extracting source code from code blocks is a basic task in literate programming.
+* [#D] [2019-10-05] The Org Manual: Structure of code blocks
+:PROPERTIES:
+:ID:       stthrgmnlstrctrfcdblcks
+:END:
+https://orgmode.org/manual/Structure-of-code-blocks.html
+: An inline code block conforms to this structure:
+: src_<language>{<body>}
+: or
+: src_<language>[<header arguments>]{<body>}
+
+* selecting drill items org-drill-entry-p                               :org:
+:PROPERTIES:
+:CREATED:  [2018-05-11]
+:ID:       slctngdrlltmsrgdrllntryp
+:END:
+
+looks only by tag...
+
+* TODO [#C] two kinds of refiles? one with headings, one without?     :emacs:
+:PROPERTIES:
+:CREATED:  [2018-06-06]
+:ID:       twkndsfrflsnwthhdngsnwtht
+:END:
+
+* TODO [#C] the 'notes' marker doesn't work as expected? only shows subtasks :emacs:
+:PROPERTIES:
+:CREATED:  [2018-07-15]
+:ID:       thntsmrkrdsntwrksxpctdnlyshwssbtsks
+:END:
+
+* TODO [#C] do not make org todo state change pop up as a new window  :emacs:
+:PROPERTIES:
+:CREATED:  [2019-06-12]
+:ID:       dntmkrgtdsttchngpppsnwwndw
+:END:
+
+* TODO [#C] Exclude done/cancelled from drill?                        :emacs:
+:PROPERTIES:
+:CREATED:  [2020-01-30]
+:ID:       xclddncnclldfrmdrll
+:END:
+
+* [#C] [2019-12-10] The Org Manual                                     :blog:
+:PROPERTIES:
+:ID:       tthrgmnl
+:END:
+https://www.gnu.org/software/emacs/manual/html_mono/org.html
+:      BEGIN_aside
+:      Lorem ipsum
+:      END_aside
+* TODO [#D] Large life-logging org-mode file gets too slow
+:PROPERTIES:
+:CREATED:  [2019-02-17]
+:ID:       lrglflggngrgmdflgtstslw
+:END:
+
+https://www.reddit.com/r/orgmode/comments/arg7fk/_/
+
+* TODO [#D] Org-mode Hidden Gems - 03 Hyperlinks
+:PROPERTIES:
+:CREATED:  [2019-05-16]
+:ID:       rgmdhddngmshyprlnks
+:END:
+
+https://yiufung.net/post/org-mode-hidden-gems-pt3/
+
+Ok looks this guy posted several posts and everyone is fine with that
+
+* TODO [#D] org archive -- check for not TODOs?                       :emacs:
+:PROPERTIES:
+:CREATED:  [2019-09-10]
+:ID:       rgrchvchckfrnttds
+:END:
+** [2019-11-02] eh?
+:PROPERTIES:
+:ID:       sth
+:END:
+* TODO [#D] wonder if this was causing issues for me in test.org ?     :doom:
+:PROPERTIES:
+:CREATED:  [2020-02-27]
+:ID:       ba4209c3-612f-4b9f-96d1-4d6de73ab3e5
+:END:
+:   ;; Allow inline image previews of http(s)? urls or data uris
+:   (org-link-set-parameters "http"  :image-data-fun #'+org-image-link)
+:   (org-link-set-parameters "https" :image-data-fun #'+org-image-link)
+:   (org-link-set-parameters "img"   :image-data-fun #'+org-inline-data-image)
+* TODO [#D] how to refresh agenda in the background? so it reflects changes in files instantly without saving :emacs:
+:PROPERTIES:
+:CREATED:  [2020-06-08]
+:ID:       hwtrfrshgndnthbckgrndstrfschngsnflsnstntlywthtsvng
+:END:
+* TODO [#C] [2020-09-22] [[https://github.com/hlissner/doom-emacs/issues/1116][When refiling: Invalid function: org-preserve-local-variables · Issue #1116 · hlissner/doom-emacs]]
+:PROPERTIES:
+:ID:       tsgthbcmhlssnrdmmcsssswhnrsrvlclvrblssshlssnrdmmcs
+:END:
+: ~/.emacs.d/.local/straight/build/org-mode/*.elc
+* CANCEL [#B] shit, looks my coefficient makes 3,4,5 pretty much irrelevant :spacedrep:orgdrill:
+:PROPERTIES:
+:CREATED:  [2019-01-31]
+:ID:       shtlksmycffcntmksprttymchrrlvnt
+:END:
+or maybe, it's fine?
+* DONE [#D] hotkey to sort entries by created date                    :emacs:
+:PROPERTIES:
+:CREATED:  [2018-05-29]
+:ID:       htkytsrtntrsbycrtddt
+:END:
+- State "DONE"       from "TODO"       [2019-02-16]
+org-sort-entries?
+don't need it as often...

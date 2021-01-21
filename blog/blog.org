@@ -134,3 +134,8 @@ https://medium.com/datadriveninvestor/cookies-vs-local-storage-2f3732c7d977
 
 huh, so I can implement settings without having to use cookies!
 could poist about it
+* [#C] [2020-01-23] Web bloat                                 :webbloat:blog:
+:PROPERTIES:
+:ID:       thwbblt
+:END:
+https://danluu.com/web-bloat/

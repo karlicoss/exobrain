@@ -85,3 +85,55 @@ The difference between denotational and operational semantics:
 :PROPERTIES:
 :ID:       rltd
 :END:
+* [2015-06-20] foldl vs foldr                                            :fp:
+:PROPERTIES:
+:ID:       fldlvsfldr
+:END:
+#+begin_src haskell
+  -- Left fold:
+  foldl :: (a -> b -> a) -> a -> [b] -> a
+  foldl f z []   = z
+  foldl f z (x:xs) = foldl f (f z x) xs
+
+  -- Tail recurstion, but recurses forever if the list is infinite.
+  -- Might cause OOM due to enormous thunks.
+
+  foldl' : strict version
+  foldl' :: (a -> b -> a) -> a -> [b] -> a
+  foldl' f !z [] = z
+  foldl' f !z (x: xs) = foldl' f (f z x) xs
+
+  -- Right fold:
+  foldr :: (a -> b -> b) -> b -> [a] -> b
+  foldr f z []     = z
+  foldr f z (x:xs) = f x (foldr f z xs)
+#+end_src
+
+foldr: under lazy evaluation, may stop early and thus can deal with infinite lists.
+Might cause OOM: foldr (+) 0 [1..1000000]
+
+TODO: internal thunk stack?
+* [2015-06-20] let polymorphism http://stackoverflow.com/a/12033549/706389 :fp:
+:PROPERTIES:
+:ID:       stltplymrphsmstckvrflwcm
+:END:
+We might want to define 
+	let x = expr in t
+	as (\x.t) expr
+
+We've got to assign a concrete type to f (TODO why?), which means it can't be forall a.a -> a
+
+Instead, we define it as a primitive:
+
+: \Gamma \vdash expr: S; \Gamma \vdash t[x -> expr]: T
+: ----------------------------------------------
+: \Gamma \vdash let x = expr in t: T
+: 
+: \Gamma vdash expr:S to assure typability of expr at all.
+
+
+A key insight in this matter is that rather than just typing a lambda-abstraction with a potentially polymorphic argument type, we are typing a (sugared) abstraction that is (1) applied exactly once and, moreover, that is (2) applied to a statically known argument. That is, we can first subject the "argument" (i.e. the definiens of the local definition) to type reconstruction to find its (polymorphic) type; then assign the found type to the "parameter" (the definiendum); and then, finally, type the body in the extended type context.
+
+Basically, we can write polymorphic functions, but can't use arguments in polymorphic way.
+
+Note that it's perfectly possible to pass a polymorphic function as an argument to another function. So something like map id ["a","b","c"] is perfectly legal. But the function may only use it as monomorphic. In the example map uses id as if it had type String -> String

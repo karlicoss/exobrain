@@ -1856,3 +1856,84 @@ Test for glucose?
 :END:
 some comments on lumosity 17:00
 He says even most promising studies show very little effect of brain training
+
+* [2018-03-01] https://www.vox.com/dear-julia/2015/9/18/9349813/fitness-tracker-accuracy :exercise:qs:
+:PROPERTIES:
+:ID:       thswwwvxcmdrjlftnsstrckrccrcy
+:END:
+fitness tracker accuracy
+
+** online trackers: crap, quite obviously
+:PROPERTIES:
+:ID:       nlntrckrscrpqtbvsly
+:END:
+** wearables: use HR to estimate oxygen consumption. but the algos doing that are oversimplified. typically, error is about 20%.
+:PROPERTIES:
+:ID:       wrblsshrtstmtxygncnsmptnbthtrvrsmplfdtypcllyrrrsbt
+:END:
+** to measure really accurately, you put people in a multi-million dollar chamber...
+:PROPERTIES:
+:ID:       tmsrrllyccrtlyyptpplnmltmllndllrchmbr
+:END:
+* Fitness tracker
+:PROPERTIES:
+:ID:       ftnsstrckr
+:END:
+https://www.reddit.com/r/bodyweightfitness/comments/5o3gdz/recommended_fitness_tracker/dcgqku7/
+: Garmin VivoSmart HR+ here! I had the first VivoSmart and wore it to death so an upgrade to the new HR+ was made! I asolutely love it! Has everything I need as a keen runner! Heart rate, and GPS seem very accurate and it never fails to record data or connect to my phone, unlike my SO's fitbit, which she finds a nightmare! She is considering the purchase of Garmin after seeing mine.
+: My two kids have Garmin's too, the VivoFit Jr for my 6yo son and the VivoActive for my 10yo daughter. Both just as reliable and as fun as mine! Have fun!!
+** fitbit
+:PROPERTIES:
+:ID:       ftbt
+:END:
+- doesn't really detect HR consistently.
+- doesn't detect that you stopped weering it and flashes with green light
+- sometimes woudn't record sleeps
+- sleep phases are weird
+
+* TODO https://www.quantifiedbob.com/self-tracking-tools-and-resources
+:PROPERTIES:
+:ID:       swwwqntfdbbcmslftrckngtlsndrsrcs
+:END:
+** urine and saliva acidity?
+:PROPERTIES:
+:ID:       rnndslvcdty
+:END:
+** glucose meter?
+:PROPERTIES:
+:ID:       glcsmtr
+:END:
+https://medium.com/@justin_d_lawler/improving-my-sleep-with-a-glucose-monitor-72d6677bea08
+** pulse
+:PROPERTIES:
+:ID:       pls
+:END:
+** START HR monitor
+:PROPERTIES:
+:ID:       hrmntr
+:END:
+zim:hr-monitor.org
+ android: instant heard rate app
+
+* [2018-08-27] Mobile apps for cognitive testing                  :cognitive:
+:PROPERTIES:
+:ID:       mnmblppsfrcgntvtstng
+:END:
+** Train your brain: meh
+:PROPERTIES:
+:ID:       trnyrbrnmh
+:END:
+no progress training. At least, gives you some sort of score
+** Cognition trainer: meh
+:PROPERTIES:
+:ID:       cgntntrnrmh
+:END:
+no scores, just levels
+** Brainexer2: has some scores... But not sure if tracks and keeps scores
+:PROPERTIES:
+:ID:       brnxrhssmscrsbtntsrftrcksndkpsscrs
+:END:
+*** [2018-08-27] doesn't look like it's keeping raw data either (tried in cheatdroid) . ugh
+:PROPERTIES:
+:ID:       mndsntlklktskpngrwdtthrtrdnchtdrdgh
+:END:

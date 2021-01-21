@@ -34,7 +34,7 @@ I guess adding to spotify is kinda fine.
 :ID:       swwwrddtcmrsynthwvtp
 :END:
 
-* TODO [#B] listen to new music on spotify regularly                  :music:
+* TODO [#B] listen to new music on spotify regularly            :habit:music:
 :PROPERTIES:
 :ID:       9aa561c2-30ad-4581-bda9-b63260fcc172
 :END:

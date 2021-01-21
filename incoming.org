@@ -8,7 +8,7 @@ Random links which I haven't interned anywhere better yet
 :ID:       frsnwsycmbntrcmtmddsblnggglfdsntndffyrlrdylggdn
 :END:
 https://www.infoq.com/news/2020/07/google-password-2fa-woes/
-* [#B] [2019-12-02] Paul Dirac                                          :bio:
+* [#B] [2019-12-02] Paul Dirac                                    :biography:
 :PROPERTIES:
 :ID:       mnpldrc
 :END:
@@ -243,7 +243,7 @@ https://lwn.net/SubscriberLink/832311/03910e26a3f3e814/
 :PROPERTIES:
 :ID:       wdsnwkpdrgwkqntmznffctqntmznffct
 :END:
-** [2020-12-20] quantum zeno effect: measure the system often enough, it appears as if it's not changing.
+** [2020-12-20] quantum zeno effect: measure the system often enough, it appears as if it's not changing. :drill:
 :PROPERTIES:
 :ID:       1eba4d8c-d0fd-4aaa-9228-16ae3ab0291c
 :END:
@@ -832,12 +832,6 @@ https://github.com/RichardLitt/meta-knowledge
 : There’s an example there of how the ideas might work in a tutorial setting.
 : After I gave a talk on this work, one of the people in the audience tried it with the Haskell LLVM tutorial: https://lukelau.me/kaleidoscope/
 
-* TODO [#C] real life > videogames                                :self:blog:
-:PROPERTIES:
-:CREATED:  [2020-05-13]
-:ID:       rllfvdgms
-:END:
-there is stuff to build and solve
 * TODO [#C] Do you fear death? Why/why not?                :think:death:blog:
 :PROPERTIES:
 :CREATED:  [2019-04-11]
@@ -856,9 +850,9 @@ https://www.reddit.com/r/askreddit/comments/ba89s2/_/
 :ID:       tshkbntcmpythnmypyxhstvchhstvnsschckngwthmypyhkbnt
 :END:
 
-* [#C] [2020-12-13] [[https://karthinks.com/software/more-batteries-included-with-emacs/][More batteries included with emacs | Karthinks]] :emacs:regex:
+* [#C] [2020-12-13] [[https://karthinks.com/software/more-batteries-included-with-emacs/][More batteries included with emacs | Karthinks]] regexes in elisp :elisp:
 :PROPERTIES:
-:ID:       snskrthnkscmsftwrmrbttrsnmrbttrsnclddwthmcskrthnks
+:ID:       snskrthnkscmsftwrmrbttrsnclddwthmcskrthnksrgxsnlsp
 :END:
 : A cleaner approach to regular expressions in Emacs, as most package maintainers will tell you, is to use the rx library instead. rx translates regular expressions in sexp form to a regexp string:
 * TODO [#C] [2020-05-18] [[https://github.com/MatthieuBizien/roam-to-git/issues/4][Suggestion: use Github actions to execute backup & commit changes to the repository · Issue 4 · MatthieuBizien/roam-to-git]] :hpi:promnesia:
@@ -867,12 +861,6 @@ https://www.reddit.com/r/askreddit/comments/ba89s2/_/
 :END:
 : schedule:
 : - cron: "*/10 * * * *"
-* [#C] [2020-01-23] Web bloat                                   :blog:static:
-:PROPERTIES:
-:ID:       thwbblt
-:END:
-https://danluu.com/web-bloat/
-
 * [#C] [2020-01-25] guides/ALTERNATIVES.md at master · mayfrost/guides
 :PROPERTIES:
 :ID:       stgdsltrntvsmdtmstrmyfrstgds
@@ -885,12 +873,6 @@ https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md
 :ID:       stpfswsmpfssflrsrcsfrsngpfsndbldngthngsntpft
 :END:
 https://github.com/ipfs/awesome-ipfs#readme
-
-* STRT [#D] [2019-09-22] DongjunLee/kino-bot: Personal Assistant Based on Slack Bot for Myself :passistant:
-:PROPERTIES:
-:ID:       sndngjnlknbtprsnlssstntbsdnslckbtfrmyslf
-:END:
-https://github.com/DongjunLee/kino-bot
 
 * [#D] [2019-12-02] John Carlos Baez on Twitter: "Can we actually remove carbon dioxide from the air? Yes! Can we remove enough to make a difference? Yes! But what are the best ways, and how much can they accomplish? I explain that in my new article in Nautilus, an online science magazine: https://t.co/y4rQjKvm5J" / Twitter
 :PROPERTIES:
@@ -932,18 +914,6 @@ https://github.com/alphapapa/org-protocol-capture-html
 :END:
 - ok, files are hard
 
-* [#D] [2019-10-11] Collapse OS — Bootstrap post-collapse technology :prepping:bootstrap:
-:PROPERTIES:
-:ID:       frcllpssbtstrppstcllpstchnlgy
-:END:
-https://collapseos.org/
-** [#D] [2019-10-11] Collapse OS — Bootstrap post-collapse technology | Lobsters :prepping:
-:PROPERTIES:
-:ID:       frcllpssbtstrppstcllpstchnlgylbstrs
-:END:
-https://lobste.rs/s/nxxttu/collapse_os_bootstrap_post_collapse
-: If computers are useful post-collapse (big if), people will scavenge x86 boxes because they’re everywhere, people are far likelier to know how to use it, and they already run most everything. There’s enough around that scavenging is easier than using 1970s tech, and the older examples are quite workable with a soldering iron anyway.
-
 * TODO [#D] My problem with mediation, how efficient is the gain of concentration? :blog:
 :PROPERTIES:
 :CREATED:  [2019-10-26]
@@ -973,7 +943,7 @@ https://www.youtube.com/watch?v=C25qzDhGLx8&list=WL&index=39&t=13s
 :PROPERTIES:
 :ID:       snsrddtcmrskscnccmmntsfvcdgtthfltwntbsbdwrkrskscnc
 :END:
-There's actually a very cool effect where either getting infected with flu or getting vaccinated boosts your antibody response to all previous strains of flu you've encountered (by getting flu or by being vaccinated). In recent years WHO have begun to shift towards using antigenically advanced vaccines, whereby they predict how currently circulating strains of flu will evolve and artificially create vaccines for the flu strain they think will be circulating in 6 months time, as even if the virus doesn't mutate to a new strain, the antibody backboost means you still get protection against most circulating strains. Check out this paper (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4246172/) if you want a more detailed explanation, but basically the vaccine can boost your antibody response to a fairly wide range of influenza virus strains  (this is at least true for type A H3N2 influenza, there are 4 different types of influenza in the annual vaccine)
+: There's actually a very cool effect where either getting infected with flu or getting vaccinated boosts your antibody response to all previous strains of flu you've encountered (by getting flu or by being vaccinated). In recent years WHO have begun to shift towards using antigenically advanced vaccines, whereby they predict how currently circulating strains of flu will evolve and artificially create vaccines for the flu strain they think will be circulating in 6 months time, as even if the virus doesn't mutate to a new strain, the antibody backboost means you still get protection against most circulating strains. Check out this paper (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4246172/) if you want a more detailed explanation, but basically the vaccine can boost your antibody response to a fairly wide range of influenza virus strains  (this is at least true for type A H3N2 influenza, there are 4 different types of influenza in the annual vaccine)
 * [2020-07-21] [[https://reddit.com/r/askscience/comments/hv1wua/is_there_a_natural_reference_for_the_correct_time/fyrhwvr/][Is there a natural reference for the correct time, down to the milliseconds?]] /r/askscience
 :PROPERTIES:
 :ID:       tsrddtcmrskscnccmmntshvwscttmdwntthmllscndsrskscnc
@@ -985,35 +955,48 @@ There's actually a very cool effect where either getting infected with flu or ge
 :PROPERTIES:
 :ID:       mnsrddtcmrskhstrnscmmntswthnznclrprgrmnwwrskhstrns
 :END:
-During World War II, the German atomic energy program decided, by 1942, to be entirely focused on reactor development. This was, they thought, the area of nuclear fission research was most likely to produce useful military results in the short term. They thought bombs were probably possible but incredibly difficult to construct, and did not think any other nation was going to have any success with them in the short term. The German teams honestly thought they were ahead of the entire world in fission research, and when a group of the top people were carted off to a British manor house, Farm Hall, at the end of the war, they thought that maybe the Allies were trying to keep them from giving their knowledge to the Soviets (true) and that the Allies would want their knowledge for themselves (false).
+: During World War II, the German atomic energy program decided, by 1942, to be entirely focused on reactor development. This was, they thought, the area of nuclear fission research was most likely to produce useful military results in the short term. They thought bombs were probably possible but incredibly difficult to construct, and did not think any other nation was going to have any success with them in the short term. The German teams honestly thought they were ahead of the entire world in fission research, and when a group of the top people were carted off to a British manor house, Farm Hall, at the end of the war, they thought that maybe the Allies were trying to keep them from giving their knowledge to the Soviets (true) and that the Allies would want their knowledge for themselves (false).
 
-When they heard about the bombing of Hiroshima, they were shocked and surprised. Many of them refused to believe the United States could have pulled off a bomb. After getting more news information and talking it over, they realized it was in fact possible if the USA had thrown tremendous resources at it, and also realized that some of their assumptions about the size of the critical mass for the bomb were off.
 
-This left them in a tricky situation in terms of their egos and their nationalism. Were they simply failures? This is what Otto Hahn (discoverer of fission, and no fan of Hitler) suggested — that they were just second-raters.
+: When they heard about the bombing of Hiroshima, they were shocked and surprised. Many of them refused to believe the United States could have pulled off a bomb. After getting more news information and talking it over, they realized it was in fact possible if the USA had thrown tremendous resources at it, and also realized that some of their assumptions about the size of the critical mass for the bomb were off.
 
-But many of them started to create and cling to a different story. They weren't accidental failures — maybe they were _deliberate_ failures. Maybe they didn't really _want_ to make a bomb, and that's why they didn't do it. This isn't the same thing as saying they _intentionally sabotaged_ the project, but it was more of a psychological explanation. If they had wanted to make a bomb, surely they would have done more work in that direction, right? So they must not have wanted to make a bomb. Because who would want to give Hitler a bomb?
 
-This story — known to historians as the _Lesart_ of the German atomic program — was propagated in subtle ways in the aftermath of World War II. It achieved its initial circulation in Robert Jungk's _ Brighter than a Thousand Suns_ (_Heller als tausend Sonnen_) in 1956. Jungk was the first to suggest, based on a vague _Lesart_ explanation offered up by Heisenberg, that Heisenberg had intentionally sabotaged the project. Heisenberg himself was somewhat appalled by this. Here is what he wrote to Jungk in 1956:
+: This left them in a tricky situation in terms of their egos and their nationalism. Were they simply failures? This is what Otto Hahn (discoverer of fission, and no fan of Hitler) suggested — that they were just second-raters.
 
-> You speak here towards the end of the second paragraph about active resistance to Hitler, and I believe—pardon my frankness—that this passage is determined by a total misunderstanding of a totalitarian dictatorship. In a dictatorship active resistance can only be practiced by people who seemingly take part in the system. When someone speaks openly against the system, he quite certainly deprives himself of any possibility of active resistance. For either he then expresses his criticism of the system only occasionally in a politically harmless form, and then his political influence can be blocked very easily; say, with respect to the youth, by people saying: Sure, old Professor X is a nice old man, but he naturally has no understanding for the enthusiasm of the youth, or something of the sort. Or, conversely, he really tries, say, to move the students politically, and then within a few days he naturally would meet his end in a concentration camp, and even his self-sacrificing death would remain practically unknown, since no one would be allowed to talk about it. _I would not want this remark to be misunderstood as saying that I myself engaged in resistance to Hitler._
 
-Which is rather equivocating to say the least. Heisenberg isn't actually implying he did _anything_ in this particular letter, though he is implying that he did some kind of passive resistance.
+: But many of them started to create and cling to a different story. They weren't accidental failures — maybe they were _deliberate_ failures. Maybe they didn't really _want_ to make a bomb, and that's why they didn't do it. This isn't the same thing as saying they _intentionally sabotaged_ the project, but it was more of a psychological explanation. If they had wanted to make a bomb, surely they would have done more work in that direction, right? So they must not have wanted to make a bomb. Because who would want to give Hitler a bomb?
 
-Historians have gone over Heisenberg's wartime activities in detail. There's no evidence whatsoever of intentional sabotage. Heisenberg actually went to great lengths to show he was in line with Nazi Germany's overall foreign intentions, and used his position to stump for Germany and German culture in occupied countries. He vigorously pursued reactor research. He did not vigorously pursue bomb research, but this is because, again, he did not think it was feasible in the short term. Here is another Heisenberg letter to Jungk, from 1957:
 
-> [In 1941] we in the uranium project had come to the following conclusion, on the basis of our experiments with uranium and heavy water: It will definitely be possible to build an energy-producing reactor out of uranium and heavy water. In this reactor (on the basis of theoretical work by von Weizsäcker) a product of U-239 [U-239 decays into Plutonium-239] will be generated that, like U-235, will be suitable as an explosive for atomic bombs. At the time we did not know of any process that could have produced significant quantities of U-235 with an effort that could be realized technically in Germany under wartime conditions. Since the production of atomic explosives using reactors could also obviously be realized only through many years of running huge reactors, it was clear to us in any case that the production of atomic bombs would only be possible with an enormous technical effort. Thus we knew that atomic bombs could be made in principle, but we also estimated that the necessary technical effort was
-bigger than it really was.
+: This story — known to historians as the _Lesart_ of the German atomic program — was propagated in subtle ways in the aftermath of World War II. It achieved its initial circulation in Robert Jungk's _ Brighter than a Thousand Suns_ (_Heller als tausend Sonnen_) in 1956. Jungk was the first to suggest, based on a vague _Lesart_ explanation offered up by Heisenberg, that Heisenberg had intentionally sabotaged the project. Heisenberg himself was somewhat appalled by this. Here is what he wrote to Jungk in 1956:
 
-> This situation seemed to us a particularly favorable precondition for the physicists to have an influence on the further course of events. For if the production of atomic bombs had been impossible, then the problem would not have arisen at all; but if it had been easily possible, then the physicists surely would not have been able to hinder their production. But the actual situation gave the physicists at this time a decisive influence on the further course of events, since they could argue vis-a-vis their governments that the atomic bombs would probably not come into
-play in the course of the war, or else argue that it would instead perhaps still be possible, with absolutely enormous efforts, to put them into play. That both ways of arguing were objectively fully justified was shown by the course of developments; for in fact even the Americans could not put the atomic bomb to use against Germany.
 
-The first paragraph of this letter is born out through documentation — the Germans knew that reactors might be a route to the bomb, but they also knew it would require large reactors. Their work on a small research reactor (which would have been worthless for bomb use) was slow and piecemeal and did not reflect any active bomb concern. They knew about uranium enrichment but considered it too difficult to really pursue in earnest.
+: > You speak here towards the end of the second paragraph about active resistance to Hitler, and I believe—pardon my frankness—that this passage is determined by a total misunderstanding of a totalitarian dictatorship. In a dictatorship active resistance can only be practiced by people who seemingly take part in the system. When someone speaks openly against the system, he quite certainly deprives himself of any possibility of active resistance. For either he then expresses his criticism of the system only occasionally in a politically harmless form, and then his political influence can be blocked very easily; say, with respect to the youth, by people saying: Sure, old Professor X is a nice old man, but he naturally has no understanding for the enthusiasm of the youth, or something of the sort. Or, conversely, he really tries, say, to move the students politically, and then within a few days he naturally would meet his end in a concentration camp, and even his self-sacrificing death would remain practically unknown, since no one would be allowed to talk about it. _I would not want this remark to be misunderstood as saying that I myself engaged in resistance to Hitler._
 
-The second paragraph is the more problematic one. Again, Heisenberg isn't actually saying that he sabotaged anything. What he's saying was, under the conditions that existed, physicists could have pushed for the bomb if they really thought they could do it, but nobody in the government would fault them if they didn't. Is he saying they didn't push for the bomb because they didn't want Hitler to have one? No. But he's allowing that interpretation to be made if you want to make it.
 
-In short, even Heisenberg himself didn't ever really claim that he sabotaged the German atomic bomb project in any real way. At best he implied that maybe he wasn't as enthusiastic about the bomb as he could have been, which is in line with the preservation of the idea that he wasn't just a screw-up on this front. But there's no evidence he did anything like that. Of course, as Heisenberg himself pointed out in the first letter I quoted, the nature of being a passive resister in a totalitarian government is that you appear to be going along with the plan but you might not actually be going along with it. This makes the Heisenberg issue a tricky one for historians, because, as he points out, if he simply withheld enthusiasm for the bomb but otherwise made like a good German, it would be _indistinguishable_ from the situation where he just didn't push for it because he thought it wasn't very feasible.
+: Which is rather equivocating to say the least. Heisenberg isn't actually implying he did _anything_ in this particular letter, though he is implying that he did some kind of passive resistance.
 
-I think the Farm Hall transcripts make it clear that Heisenberg truly didn't think it was feasible, and in fact hadn't thought seriously about the physics of atomic bombs at all. (His discussions there reflect deep misunderstandings about how fast neutron fission chain reactions work.) Which to me puts him in the "was just a screw-up" camp, as opposed to the "was silently and passively resisting" camp.
+
+: Historians have gone over Heisenberg's wartime activities in detail. There's no evidence whatsoever of intentional sabotage. Heisenberg actually went to great lengths to show he was in line with Nazi Germany's overall foreign intentions, and used his position to stump for Germany and German culture in occupied countries. He vigorously pursued reactor research. He did not vigorously pursue bomb research, but this is because, again, he did not think it was feasible in the short term. Here is another Heisenberg letter to Jungk, from 1957:
+
+
+: > [In 1941] we in the uranium project had come to the following conclusion, on the basis of our experiments with uranium and heavy water: It will definitely be possible to build an energy-producing reactor out of uranium and heavy water. In this reactor (on the basis of theoretical work by von Weizsäcker) a product of U-239 [U-239 decays into Plutonium-239] will be generated that, like U-235, will be suitable as an explosive for atomic bombs. At the time we did not know of any process that could have produced significant quantities of U-235 with an effort that could be realized technically in Germany under wartime conditions. Since the production of atomic explosives using reactors could also obviously be realized only through many years of running huge reactors, it was clear to us in any case that the production of atomic bombs would only be possible with an enormous technical effort. Thus we knew that atomic bombs could be made in principle, but we also estimated that the necessary technical effort was
+: bigger than it really was.
+
+
+: > This situation seemed to us a particularly favorable precondition for the physicists to have an influence on the further course of events. For if the production of atomic bombs had been impossible, then the problem would not have arisen at all; but if it had been easily possible, then the physicists surely would not have been able to hinder their production. But the actual situation gave the physicists at this time a decisive influence on the further course of events, since they could argue vis-a-vis their governments that the atomic bombs would probably not come into
+: play in the course of the war, or else argue that it would instead perhaps still be possible, with absolutely enormous efforts, to put them into play. That both ways of arguing were objectively fully justified was shown by the course of developments; for in fact even the Americans could not put the atomic bomb to use against Germany.
+
+
+: The first paragraph of this letter is born out through documentation — the Germans knew that reactors might be a route to the bomb, but they also knew it would require large reactors. Their work on a small research reactor (which would have been worthless for bomb use) was slow and piecemeal and did not reflect any active bomb concern. They knew about uranium enrichment but considered it too difficult to really pursue in earnest.
+
+
+: The second paragraph is the more problematic one. Again, Heisenberg isn't actually saying that he sabotaged anything. What he's saying was, under the conditions that existed, physicists could have pushed for the bomb if they really thought they could do it, but nobody in the government would fault them if they didn't. Is he saying they didn't push for the bomb because they didn't want Hitler to have one? No. But he's allowing that interpretation to be made if you want to make it.
+
+
+: In short, even Heisenberg himself didn't ever really claim that he sabotaged the German atomic bomb project in any real way. At best he implied that maybe he wasn't as enthusiastic about the bomb as he could have been, which is in line with the preservation of the idea that he wasn't just a screw-up on this front. But there's no evidence he did anything like that. Of course, as Heisenberg himself pointed out in the first letter I quoted, the nature of being a passive resister in a totalitarian government is that you appear to be going along with the plan but you might not actually be going along with it. This makes the Heisenberg issue a tricky one for historians, because, as he points out, if he simply withheld enthusiasm for the bomb but otherwise made like a good German, it would be _indistinguishable_ from the situation where he just didn't push for it because he thought it wasn't very feasible.
+
+
+: I think the Farm Hall transcripts make it clear that Heisenberg truly didn't think it was feasible, and in fact hadn't thought seriously about the physics of atomic bombs at all. (His discussions there reflect deep misunderstandings about how fast neutron fission chain reactions work.) Which to me puts him in the "was just a screw-up" camp, as opposed to the "was silently and passively resisting" camp.
 * [2017-11-03] [[https://reddit.com/r/askscience/comments/7ad5y0/how_large_could_a_rocky_planet_get/dpa0c1q/][How large could a rocky planet get?]] /r/askscience
 :PROPERTIES:
 :ID:       frsrddtcmrskscnccmmntsdyhhwlrgcldrckyplntgtrskscnc
@@ -1457,7 +1440,7 @@ advice-patch
 :   `(,nx ,ny)))
 : 
 : наверное это можно добиться если добавить какую-нибудь магию вроде макроса (scope ...), который эти let' правильно интерпретирует
-* TODO lisp unpacking like in python  =(let ((x '(2 3))) `(1 ,@x 4 5))= :blog:elisp:
+* TODO lisp unpacking like in python  =(let ((x '(2 3))) `(1 ,@x 4 5))= :drill:blog:elisp:
 :PROPERTIES:
 :CREATED:  [2021-01-01]
 :ID:       lspnpcknglknpythnltxx
@@ -1566,7 +1549,7 @@ https://datagubbe.se/decusab/
 https://meaningness.com/nutrition
 TLDR: nutrition is bad science
 
-* DONE [#B] [2020-06-03] [[https://www.infoq.com/presentations/We-Really-Dont-Know-How-To-Compute/][We Really Don't Know How To Compute!]] :watch:
+* DONE [#B] [2020-06-03] [[https://www.infoq.com/presentations/We-Really-Dont-Know-How-To-Compute/][We Really Don't Know How To Compute!]] :towatch:
 :PROPERTIES:
 :ID:       wdswwwnfqcmprsnttnswrllydhwtcmptwrllydntknwhwtcmpt
 :END:
@@ -2007,7 +1990,7 @@ https://stackoverflow.com/questions/27907373/dynamically-change-slots-in-python-
 
 * .
 :PROPERTIES:
-:ID:       109478_109491
+:ID:       108435_108448
 :END:
 * TODO [#C] use repl.it instead of ideone?                              :ide:
 :PROPERTIES:
@@ -2134,3 +2117,423 @@ can you do this with muscle cells? E.g. shred meat, add some water and salt and 
 :ID:       tmntdnxtrctnnshtglssstpswthpctrs
 :END:
 https://www.instructables.com/id/5-minute-DNA-Extraction-in-a-Shot-Glass/
+
+* TODO [#B] [2019-10-01] Steve Krouse: "Future of Coding" · Issue 23 · d-cook/SomethingNew :tolisten:
+:PROPERTIES:
+:ID:       tstvkrsftrfcdngssdcksmthngnw
+:END:
+https://github.com/d-cook/SomethingNew/issues/23
+: I just came across a gold mine called FutureOfCoding.org. The author (Steve Krouse) already has many times more resources there then we have here, and he has put a TON of work and thought into reinventing programming to be more accessible (mainly to children).
+** [2020-05-15] ok, it does look like a good podcast -- devine, hillel
+:PROPERTIES:
+:ID:       frktdslklkgdpdcstdvnhlll
+:END:
+* [#B] [2020-10-26] [[https://fossandcrafts.org/][FOSS and Crafts]] :tolisten:
+:PROPERTIES:
+:ID:       mnsfssndcrftsrgfssndcrfts
+:END:
+* TODO [#B] [2020-10-27] [[https://twitter.com/gravity_levity/status/1321166643406524417][Brian Skinner on Twitter: "Just had a great conversation with the podcast team (@BrandiWooten17 and Roland Valdes Aguilar) for the Center of Emergent Materials at @OSUPhysics. https://t.co/uRFtdu5B9K My favorite part is the discussion of imposter syndrome, starting at 30:00." / Twitter]] :tolisten:
+:PROPERTIES:
+:ID:       tstwttrcmgrvtylvtysttsbrnnfmpstrsyndrmstrtngttwttr
+:END:
+: Just had a great conversation with the podcast team (@BrandiWooten17
+:  and Roland Valdes Aguilar) for the Center of Emergent Materials at @OSUPhysics
+: .
+* TODO [#B] [2020-11-03] [[https://podcast.sustainoss.org/][Sustain]] podcast :tolisten:
+:PROPERTIES:
+:ID:       tspdcstsstnssrgsstnpdcst
+:END:
+
+* TODO [#C] ted nelson interview                         :tednelson:tolisten:
+:PROPERTIES:
+:CREATED:  [2020-02-14]
+:ID:       e9b9ece0-0475-4a7a-85ba-8adb69138aeb
+:END:
+
+https://mobile.twitter.com/jborichevskiy/status/1228372354956394496
+* [#C] [2020-09-03] [[https://www.scottaaronson.com/blog/?p=4949][Shtetl-Optimized » Blog Archive » My Utility+ podcast with Matthew Putman]] :tolisten:
+:PROPERTIES:
+:ID:       thswwwscttrnsncmblgpshttlhvmytltypdcstwthmtthwptmn
+:END:
+: On that note, please enjoy my new one-hour podcast on Spotify, with Matthew Putman of Utility+.
+* TODO [#C] [2020-10-13] [[https://anchor.fm/nikolay1/episodes/ep-ehqf3t][Вера Котельникова: зачем вообще ходить на свидания by правило 34 • A podcast on Anchor]] :tolisten:
+:PROPERTIES:
+:ID:       tsnchrfmnklypsdsphqftвераиданияbyправилоpdcstnnchr
+:END:
+* [#C] [2020-10-07] [[https://frieze.libsyn.com/alison-goldfrapp-on-leonora-carrington?fbclid=IwAR27pS4I_eMk3ZD_U3FauI6e2CROxlCBQA99TEFTcEQh9J6gRE6tDzhlexo][Bow Down: Women in Art: Alison Goldfrapp on Leonora Carrington]] :music:tolisten:
+:PROPERTIES:
+:ID:       wdsfrzlbsyncmlsngldfrppnlnnrtlsngldfrppnlnrcrrngtn
+:END:
+* [#C] [2020-06-16] [[https://twitter.com/TomLisankie/status/1272929825989296129][(3) Thomas Lisλnkie 💻🌱 on Twitter: "Hey everyone, I started a podcast about hypermedia (generalized hypertext)! Covering its past, present, and future. YouTube: https://t.co/XXjcI9eSpX Apple Podcasts: https://t.co/YR9c5APkAB Spotify: https://t.co/Zn4XpIoyKw Twitter: @HypermediaToday https://t.co/AqQ7eaHcbe" / Twitter]] :tolisten:
+:PROPERTIES:
+:ID:       tstwttrcmtmlsnksttsthmslsttrhyprmdtdystcqqhcbtwttr
+:END:
+: Hey everyone, I started a podcast about hypermedia (generalized hypertext)!
+: Covering its past, present, and future.
+* TODO [#C] [2020-11-22] [[https://twitter.com/HackerRadioShow][Hacker Radio Show (@HackerRadioShow) / Twitter]] :tolisten:podcast:
+:PROPERTIES:
+:ID:       snstwttrcmhckrrdshwhckrrdshwhckrrdshwtwttr
+:END:
+* TODO [#C] Monte Carlo tree search algorithms
+:PROPERTIES:
+:CREATED:  [2019-02-21]
+:ID:       mntcrltrsrchlgrthms
+:END:
+from Is AlphaGo Really Such a Big Deal? | Quanta Magazine https://www.quantamagazine.org/is-alphago-really-such-a-big-deal-20160329/
+* TODO [#D] That said, meditation can be an intense experience with a history of adverse effects (Love, 2018; Kornfield, 1979; Lindahl, 2017). Most meditators, especially 10-minutes-a-day
+:PROPERTIES:
+:CREATED:  [2019-07-26]
+:ID:       thtsdmdttncnbnntnsxprncwtndhlmstmdttrsspcllymntsdy
+:END:
+todo
+from [[https://www.instapaper.com/read/1217243447/11062214][ip]]   [[http://www.markwk.com/meditation-effect-on-cognition-experiment.html][Can Meditation Improve Your Attention? Self-Experiment into Mindfulness and Cognitive Testing - Mark Koester]]
+
+* TODO [#C] that they improve cognitive performance in people who have “too little dopamine” (Parkinson’s patients, ADHD patients, val/val COMT genotypes) but are useless or worse in those who have “too much dopamine” (met/met COMT genotypes.)
+:PROPERTIES:
+:CREATED:  [2019-05-14]
+:ID:       thtthymprvcgntvprfrmncnppwhhvtmchdpmnmtmtcmtgntyps
+:END:
+todo
+from [[https://www.instapaper.com/read/1192861979/10709024][ip]]   [[https://srconstantin.wordpress.com/2016/06/06/nootropics/][Nootropics]]
+
+* TODO [#C] Aspiring to canonicity, one fun project would be to take the  most recent IPCC climate assessment report (perhaps starting  with a small part), and develop a version which is  executable. Instead of a report full of assertions and  references, you'd have a live climate model – actually,  many interrelated models – for people to explore. If it  was good enough, people would teach classes from it; :environment:
+:PROPERTIES:
+:CREATED:  [2019-10-06]
+:ID:       sprngtcnnctynfnprjctwldbtwsgdnghpplwldtchclsssfrmt
+:END:
+None
+[[https://numinous.productions/ttft/][How can we develop transformative tools for thought?]]
+[[https://hyp.is/FVTkuOg5EemCcS8fYA_Tiw/numinous.productions/ttft/][in context]]
+
+* TODO [#D] These include DOM mutation breakpoints and inactive CSS rule indicators in the DevTools, several new CSS text properties, two-value display syntax, and JS numeric separators. :webdev:
+:PROPERTIES:
+:CREATED:  [2019-10-23]
+:ID:       thsnclddmmttnbrkpntsndnctldsplysyntxndjsnmrcsprtrs
+:END:
+None
+[[https://hacks.mozilla.org/2019/10/firefox-70-a-bountiful-release-for-all/][Firefox 70 — a bountiful release for all – Mozilla Hacks - the Web developer blog]]
+[[https://hyp.is/ojMC-PWPEemZk89OVNg-xQ/hacks.mozilla.org/2019/10/firefox-70-a-bountiful-release-for-all/][in context]]
+
+* TODO [#B] In its mathematics it is quite unlike any of Dirac’s later works (for example, he brings in fine differences between rational and irrational numbers), and “pre-invents” techniques developed by other people only decades later. (I say pre-invents because the paper was forgotten until recently.) :biography:
+:PROPERTIES:
+:CREATED:  [2019-12-02]
+:ID:       ntsmthmtcstsqtnlknyfdrcslbcsthpprwsfrgttnntlrcntly
+:END:
+TODO
+[[https://physicsworld.com/a/paul-dirac-the-purest-soul-in-physics/][Paul Dirac: the purest soul in physics – Physics World]]
+[[https://hyp.is/L8U9SBU-Eeq4CKdPsjEgnw/physicsworld.com/a/paul-dirac-the-purest-soul-in-physics/][in context]]
+
+* TODO A super clean organization system does not actually help us retain knowledge. Rather, such system requires so much maintenance effort that it subverts the very thing that it promises to do–help us learn–. I ended up expanding an exorbitant amount of time managing tags, keywords, and hierarchy of data that I may never even retrieve. All in all, organizing knowledge should never become the goal when building a personal knowledge base. :pkm:toblog:
+:PROPERTIES:
+:CREATED:  [2019-12-17]
+:ID:       sprclnrgnztnsystmdsntctllthglwhnbldngprsnlknwldgbs
+:END:
+None
+[[https://www.getdnote.com/blog/how-i-built-personal-knowledge-base-for-myself/][How I Built a Personal Knowledge Base for Myself]]
+[[https://hyp.is/tOon_iEoEeq0dhutPtBWzQ/www.getdnote.com/blog/how-i-built-personal-knowledge-base-for-myself/][in context]]
+
+* TODO [#D] Even though Ahrens argues that there neither can nor should be any overview, I disobediently wrote another script to make an SVG image of it using GraphViz. I originally had it generating PNGs but they rapidly got too large. Here’s what the whole system looks like as of this morning:
+:PROPERTIES:
+:CREATED:  [2019-12-30]
+:ID:       vnthghhrnsrgsthtthrnthrcnthwhlsystmlkslksfthsmrnng
+:END:
+cool!
+[[https://clerestory.netlify.com/zk1/][Zettelkasten!]]
+[[https://hyp.is/H1SH2isnEeqUGW-mAPhEsg/clerestory.netlify.com/zk1/][in context]]
+
+* STRT StorexHub is our offline-first API and plugin platform that allows you to work with Memex data outside of the browser. But it also works between different apps, making it a bit like an offline-first Zapier. You can query Memex data, listen to changes or write to its database. :worldbrain:
+:PROPERTIES:
+:CREATED:  [2020-05-09]
+:ID:       strxhbsrfflnfrstpndplgnplmxdtlstntchngsrwrtttsdtbs
+:END:
+None
+[[https://medium.com/@WorldBrain/vision-mission-values-2020-update-d70aa35a638][Vision, Mission & Values — 2020 Update]]
+[[https://hyp.is/Zl_A8pINEeq0ri-1nf7cdA/medium.com/@WorldBrain/vision-mission-values-2020-update-d70aa35a638][in context]]
+
+
+* TODO [[https://hyp.is/xrhdvhDQEeuOoA9nvvzgxQ/adamwiggins.com/making-computers-better/][X]] What do I mean by “better”? :computing:sadinfra:
+:PROPERTIES:
+:CREATED:  [2020-10-17]
+:ID:       shypsxrhdvhdqnvvzgxqdmwggngcmptrsbttrxwhtdmnbybttr
+:END:
+: Computing aids and encourages humanity’s noblest pursuits: science, reason, art, philosophy.
+: Computing directly supports improving the mental health, physical health, prosperity, and happiness of all humans.
+: Computing help us master (or at least, doesn’t intensify) our problematic tendencies: addiction, status anxiety, socioeconomic divisions, tribalism, fear, hate.
+: The economic and intellectual horsepower in Silicon Valley and the wider tech world seems to be pointed away from these goals.
+: For example: algorithms designed to maximize watch time, the social media outrage machine, loot boxes and other psuedo-gambling, and smartphone notifications activating Skinner-box tendencies.
+
+from [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
+* [#B] [2020-07-28] [[https://news.ycombinator.com/item?id=23962817][A new way to control experimentation with dreams | Hacker News]] :lucid:
+:PROPERTIES:
+:ID:       tsnwsycmbntrcmtmdnwwytcntrlxprmnttnwthdrmshckrnws
+:END:
+: Same here. More than once a week when I was a kid, once a week as a teen, now it's about once every few months in my late 30s. I have correlated it to body temperature though - the more blankets I use and the hotter I am over night, the more dreams remembered, lucid dreams, and nightmares I get. Although they're fun, I value my sleep more, and so these days sleep with the thinnest donna with the windows open (even in winter).
+* TODO [#C] walking flow https://vk.com/topic-23865151_38545249?post=684 :mind:
+:PROPERTIES:
+:CREATED:  [2018-08-02]
+:ID:       wlkngflwsvkcmtpcpst
+:END:
+
+* TODO [#C] [2019-02-15] What Universal Human Experiences Are You Missing Without Realizing It? | Slate Star Codex
+:PROPERTIES:
+:ID:       frwhtnvrslhmnxprncsrymssngwthtrlzngtsltstrcdx
+:END:
+https://slatestarcodex.com/2014/03/17/what-universal-human-experiences-are-you-missing-without-realizing-it/
+: That first thing sounds like anhedonia.
+* TODO [#C] use spaced repetition for appretiation entries? and good things too? :mind:spacedrep:
+:PROPERTIES:
+:CREATED:  [2018-10-11]
+:ID:       sspcdrpttnfrpprttnntrsndgdthngst
+:END:
+
+* TODO [#C] Practice lucid dreams                                     :lucid:
+:PROPERTIES:
+:CREATED:  [2018-06-29]
+:ID:       prctclcddrms
+:END:
+* TODO [#D] n-back                                          :nback:cognitive:
+:PROPERTIES:
+:CREATED:  [2018-05-29]
+:ID:       nbck
+:END:
+
+the question of whether n-back training produces real-world improvements to working memory remains controversial.
+
+* [#D] [2019-02-17] Psychology Tools                           :qs:cognitive:
+:PROPERTIES:
+:ID:       snpsychlgytls
+:END:
+https://psychology-tools.com/
+
+* TODO [#D] [2019-06-13] Mo on Twitter: "Also https://t.co/il3yBMVMZi… "
+:PROPERTIES:
+:ID:       thmntwttrlsstclybmvmz
+:END:
+https://twitter.com/MuhammadPuter12/status/1114525993069203457
+: I wish everybody on Twitter could each go ultra-viral because it's actually a very eye-opening and humbling experience. I feel like it would be worth listing out some thoughts from the various occasions where my timeline blew up, even if it gets interpreted negatively
+* [2016-08-22] Loop habit tracker app                            :discipline:
+:PROPERTIES:
+:ID:       mnlphbttrckrpp
+:END:
+: + nice UI
+: + notifications
+: + no ads
+: ++ open source, on f-droid?
+: - too simple, no tags and stuff
+* Lifehacks                                                        :lifehack:
+:PROPERTIES:
+:ID:       lfhcks
+:END:
+** cleaning the microwave: boil water for 1-2 minutes before cleaning
+:PROPERTIES:
+:ID:       clnngthmcrwvblwtrfrmntsbfrclnng
+:END:
+** turn gloves inside out to dry.
+:PROPERTIES:
+:ID:       trnglvsnsdttdry
+:END:
+** switch the pocket you carry your wallet in, so trousers will last longer
+:PROPERTIES:
+:ID:       swtchthpcktycrryyrwlltnstrsrswlllstlngr
+:END:
+** automatic led in bathroom so you don't have to turn on the bright lights at night
+:PROPERTIES:
+:ID:       tmtcldnbthrmsydnthvttrnnthbrghtlghtstnght
+:END:
+
+* TODO [#B] how cell compute                                        :towatch:
+:PROPERTIES:
+:CREATED:  [2020-05-16]
+:ID:       hwcllcmpt
+:END:
+
+https://twitter.com/karpathy/status/1261457314713792512
+
+: @karpathy: This was actually really good. I've spent some time translating biology to CS/EE terms/abstractions, this makes a lot of those analogies explicit. +"Genetic circuit design automation" Science paper [2016] link science.sciencemag.org/content... twitter.com/Reza_Zadeh/status/...
+
+* TODO [#B] [2019-08-17] Andy Matuschak on Twitter: "🗣🎙 I had a wonderful time discussing technologies for thought on this week's EconTalk: https://t.co/Clgzx7uAJR @econtalker's even-handed analytical style has made this my favorite podcast for years, but of course he's also an experienced educator. A great combo for this topic!" / Twitter :towatch:
+:PROPERTIES:
+:ID:       stndymtschkntwttrhdwndrflcddctrgrtcmbfrthstpctwttr
+:END:
+https://twitter.com/andy_matuschak/status/1158428901716066304
+
+** [#B] [2019-08-17] Andy Matuschak on Books and Learning - Econlib
+:PROPERTIES:
+:ID:       stndymtschknbksndlrnngcnlb
+:END:
+http://www.econtalk.org/andy-matuschak-on-books-and-learning/
+
+* TODO [#B] [2020-05-31] [[https://media.ccc.de/v/GLT18_-_321_-_en_-_g_ap147_004_-_201804281550_-_the_advantages_of_file_name_conventions_and_tagging_-_karl_voit][media.ccc.de - The Advantages of File Name Conventions and Tagging]] :towatch:pkm:
+:PROPERTIES:
+:ID:       snsmdcccdvgltngpthdvntgsfdvntgsfflnmcnvntnsndtggng
+:END:
+* [#B] [2019-12-30] Roger Gregory Interview at Ted Nelson Book Launch : Internet Archive : Free Download, Borrow, and Streaming : Internet Archive :tednelson:towatch:
+:PROPERTIES:
+:ID:       mnrgrgrgryntrvwttdnlsnbklwnldbrrwndstrmngntrntrchv
+:END:
+https://archive.org/details/possiplexrogergregoryinterview
+
+* [#B] [2020-10-07] [[https://news.ycombinator.com/item?id=24706787][There's a documentary on Netflix "Human Nature" that discusses the history of CR... | Hacker News]]
+:PROPERTIES:
+:ID:       wdsnwsycmbntrcmtmdthrsdcmhtdscsssthhstryfcrhckrnws
+:END:
+: There's a documentary on Netflix "Human Nature" that discusses the history of CRISPR and features interviews with both Emmanuelle Charpentier and Jennifer Doudna.
+* [#B] [2020-10-07] [[https://news.ycombinator.com/item?id=24706670][The Nobel Prize in Chemistry 2020: Genetic Scissors | Hacker News]]
+:PROPERTIES:
+:ID:       wdsnwsycmbntrcmtmdthnblprnchmstrygntcscssrshckrnws
+:END:
+: I've heard a number of interviews/podcasts with Jennifer 'The Dude' Doudna about CRISPR/Cas9 over the years. Usually a great listen, she's pretty funny and from all indications has that great combo of taking her work seriously but not herself.
+* TODO [#C] [2019-02-10] [[https://reddit.com/r/Physics/comments/60t98m/visualization_of_quantum_physics_quantum_mechanics/dfa6a13/][Visualization of Quantum Physics (Quantum Mechanics)]] /r/Physics
+:PROPERTIES:
+:ID:       snsrddtcmrphyscscmmntstmvtmphyscsqntmmchncsrphyscs
+:END:
+:  I am particularly impartial towards his Electromagnetism video. It is 45 minutes of pure ecstacy.
+
+* TODO [#D] [2019-10-26] EmacsConf 2019 - Schedule                  :towatch:
+:PROPERTIES:
+:ID:       stmcscnfschdl
+:END:
+https://emacsconf.org/2019/schedule
+: Managing your life with org-mode and other tools
+: Marcin Swieczkowski
+
+* TODO [#C] [2019-06-18] Non-euclidean virtual reality - YouTube :towatch:vr:
+:PROPERTIES:
+:ID:       tnncldnvrtlrltyytb
+:END:
+https://www.youtube.com/watch?v=ztsi0CLxmjw
+
+* TODO [#C] [2019-06-18] What does VR reveal about the 4th dimension? - YouTube :towatch:vr:
+:PROPERTIES:
+:ID:       twhtdsvrrvlbtththdmnsnytb
+:END:
+https://www.youtube.com/watch?v=S-yRYmdsnGs
+
+* TODO [#C] [2019-06-18] Non-euclidean virtual reality using ray marching - YouTube :towatch:vr:
+:PROPERTIES:
+:ID:       tnncldnvrtlrltysngrymrchngytb
+:END:
+https://www.youtube.com/watch?v=ivHG4AOkhYA
+ray marching?
+
+* TODO [#C] [2019-06-18] Chroma Lab - VR Physics Simulation Sandbox - YouTube :towatch:vr:
+:PROPERTIES:
+:ID:       tchrmlbvrphyscssmltnsndbxytb
+:END:
+https://www.youtube.com/watch?v=qu8lB3l20wY
+
+* TODO [#C] Tweet from michael_nielsen (@michael_nielsen), at Sep 18, 09:38 blade runner; tears in rain monologue
+:PROPERTIES:
+:CREATED:  [2019-09-18]
+:ID:       twtfrmmchlnlsnmchlnlsntspbldrnnrtrsnrnmnlg
+:END:
+
+: Reflecting on the proposed Princess Bride remake, & thinking about how much luck is involved in making great movies. Blade Runner is a great movie without the "Tears in Rain" monologue, but much less so. And that was re-written by Rutger Hauer at the last minute. Talk about luck!
+
+https://twitter.com/michael_nielsen/status/1174195913671282689
+
+* TODO [#C] lovecraft https://merveilles.town/@somnius/103439326106034644
+:PROPERTIES:
+:CREATED:  [2020-01-07]
+:ID:       lvcrftsmrvllstwnsmns
+:END:
+
+* [#C] [2019-10-22] Shtetl-Optimized » Blog Archive » Paul Bernays Lectures :study:towatch:
+:PROPERTIES:
+:ID:       tshttlptmzdblgrchvplbrnyslctrs
+:END:
+https://www.scottaaronson.com/blog/?p=4301
+: If you’re interested, streaming video of the lectures is available as of today (though I haven’t watched it—let me know if the quality is OK!), as well as of course my slides. Here you go:
+
+* TODO [#C] [2020-04-16] [[https://lobste.rs/s/jwwhb6/gnu_guix_1_1_0_released#c_88slhh][GNU Guix 1.1.0 released | Lobsters]] :nix:towatch:
+:PROPERTIES:
+:ID:       thslbstrssjwwhbgngxrlsdcslhhgngxrlsdlbstrs
+:END:
+: I never understood what all the fuzz is about until I saw this talk at fosdem this year: https://fosdem.org/2020/schedule/event/guix/
+: I really liked all the features presented, unfortunately I am not in an environment where I could use guix, but it is def. something I keep an eye on.
+
+* STRT [#C] [2020-06-17] [[https://www.youtube.com/watch?v=P-2P3MSZrBM][(1) Joscha Bach: Artificial Consciousness and the Nature of Reality | AI Podcast 101 with Lex Fridman - YouTube]] :towatch:german:
+:PROPERTIES:
+:ID:       wdswwwytbcmwtchvppmszrbmjtrfrltypdcstwthlxfrdmnytb
+:END:
+: For everyone who understands German, there's another podcast Joscha did a while back with Frank Rieger and Fefe, two German hackers (it's not on Youtube, so if you're searching for more of Joscha's stuff on here, you wouldn't find it). I can wholeheartedly recommend it: https://alternativlos.org/42/
+
+* TODO [#C] [2020-05-04] [[https://twitter.com/andy_matuschak/status/1257334987390685185][Andy Matuschak on Twitter: "Going to try an experiment: livestreaming part of my morning writing today at 9AM PST. I’ll mostly be consolidating some hazy questions from Design Unbound. No live interaction with viewers (hard enough w/o that). Video (probably) available afterwards. https://t.co/fYDlx2stYJ" / Twitter]] :towatch:
+:PROPERTIES:
+:ID:       mnstwttrcmndymtschksttsndlftrwrdsstcfydlxstyjtwttr
+:END:
+: Going to try an experiment: livestreaming part of my morning writing today at 9AM PST. I’ll mostly be consolidating some hazy questions from Design Unbound. No live interaction with viewers (hard enough w/o that). Video (probably) available afterwards.
+
+* [#C] [2018-07-30] [[https://reddit.com/r/Scotland/comments/9380v0/recommend_me_films_where_actors_speak_with_an/e3ba63l/][Recommend me films where actors speak with an authentic Scottish accent!]] /r/Scotland :towatch:
+:PROPERTIES:
+:ID:       mnsrddtcmrsctlndcmmntsvrcthnthntcscttshccntrsctlnd
+:END:
+: Local Hero, Shallow Grave, Gregory's Girl
+* TODO [#D] Tweet from Roman Elizarov (@relizarov), at May 8, 17:14 :towatch:
+:PROPERTIES:
+:CREATED:  [2019-05-08]
+:ID:       twtfrmrmnlzrvrlzrvtmy
+:END:
+
+: Watch “Declarative UI patterns” talk today at 3:30 pm on Stage 1 at io19 about Compose. It might seem simply being Kotlin-style React, but its desing is very different and has mind-blowing implications.  It is still pre-alpha, but it will change the way you program In the future
+
+
+https://twitter.com/relizarov/status/1126158529289568256
+
+* TODO [#D] Tweet from Котонавты (@meownauts) Наташа Макэлхоун сыграет Кортану в сериале по Halo от Showtime https://t.co/Vl8A35Xuzc https://twitter.com/meownauts/status/1157609470706561025?s=17 :towatch:
+:PROPERTIES:
+:CREATED:  [2019-08-05]
+:ID:       twtfrmкотонавтыmwntsнаташtcvlxzcstwttrcmmwntssttss
+:END:
+
+* TODO [#D] [2019-07-28] Scotch Snaps in Hip Hop - YouTube          :towatch:
+:PROPERTIES:
+:ID:       snsctchsnpsnhphpytb
+:END:
+https://www.youtube.com/watch?v=i7cG9QIvIWo
+PBS sound field
+
+* TODO [#D] [2019-08-12] [[https://reddit.com/r/functionalprogramming/comments/cnplr3/yow_lambda_jam_2019_philip_wadler_programming/][YOW! Lambda Jam 2019 - Philip Wadler: (Programming Languages) in Agda = Programming (Languages in Agda)]] /r/functionalprogramming :towatch:agda:
+:PROPERTIES:
+:ID:       mnsrddtcmrfnctnlprgrmmngcnglnggsngdrfnctnlprgrmmng
+:END:
+* [2020-06-13] [[https://news.ycombinator.com/item?id=23496800][Design Principles Behind Smalltalk (1981) | Hacker News]] :towatch:smalltalk:
+:PROPERTIES:
+:ID:       stsnwsycmbntrcmtmddsgnprncplsbhndsmlltlkhckrnws
+:END:
+: If you're tired of hearing about the virtues of Smalltalk (like I was at one point) and ask "if it is so good, why isn't it popular?", then watch @deech's talk (Aditya Siram) - "What FP can learn from SmallTalk" - https://www.youtube.com/watch?v=baxtyeFVn3w
+: 
+: I think it is the most accessible explanation of the marvel of Smalltalk, for those who were not lucky to work with it during the late 80-90s.
+
+* TODO Tweet from @preskill                                         :towatch:
+:PROPERTIES:
+:CREATED:  [2020-07-23]
+:ID:       twtfrmprskll
+:END:
+https://twitter.com/preskill/status/1286126731087101952
+: @preskill: Joan Feynman 1927-2020. You can get a sense of how remarkable Joan was from her presentation in 2018 at the Feynman 100 celebration.
+
+* [2020-08-27] [[https://www.youtube.com/watch?v=IRyO_nd4aFY][(1) Joe Rogan Experience #285 - Tim Ferriss - YouTube]] :towatch:
+:PROPERTIES:
+:ID:       thswwwytbcmwtchvryndfyjrgnxprnctmfrrssytb
+:END:
+* TODO [#C] [2020-12-07] [[https://twitter.com/NetflixNordic/status/1334044635547635712][Netflix Nordic on Twitter: "Do the Finnish even feel fear? @arieldjarn isn't sure. Pardon My Icelandic is now on Netflix. https://t.co/MBVEjwcekQ" / Twitter]] :towatch:
+:PROPERTIES:
+:ID:       mnstwttrcmntflxnrdcsttsntsnwnntflxstcmbvjwckqtwttr
+:END:
+: Do the Finnish even feel fear? @arieldjarn
+:  isn't sure. Pardon My Icelandic is now on Netflix.
+* TODO [2020-12-10] [[https://nitter.net/ArulaRatnakar/status/1335767092260265984][Arula Ratnakar 🧠💕 (@ArulaRatnakar): "I'll do my most recent published story too, why not? Top three honest inspirations for "Lone Puppeteer of a Sleeping City" in @clarkesworld -The Matrix (1999) -Predestination (2014) -DARK (the Netflix show)" | nitter]] :towatch:
+:PROPERTIES:
+:ID:       thsnttrntrlrtnkrsttsrlrtnprdstntndrkthntflxshwnttr
+:END:
+: I'll do my most recent published story too, why not? Top three honest inspirations for "Lone Puppeteer of a Sleeping City" in @clarkesworld
+: 
+: -The Matrix (1999)
+: -Predestination (2014)
+: -DARK (the Netflix show)
+* TODO C3 talks                                        :towatch:study:german:
+:PROPERTIES:
+:CREATED:  [2020-12-26]
+:ID:       ctlks
+:END:

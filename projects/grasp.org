@@ -3,6 +3,11 @@
 
 Main post: https://beepb00p.xyz/grasp.html
 
+* related                                                   :pkm:org:capture:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
 * some motivation                                                      :blog:
 :PROPERTIES:
 :CREATED:  [2019-02-12]
@@ -117,15 +122,9 @@ support this?
 :CREATED:  [2020-03-13]
 :ID:       nstdfslctndbgnqtndqtr
 :END:
-* [#D] [2019-10-19] open in sidebar (#20)                    :webext:firefox:
+* [#D] [2019-10-19] open in sidebar (issue 20)               :webext:firefox:
 :PROPERTIES:
-:ID:       stpnnsdbr
+:ID:       stpnnsdbrss
 :END:
 : A feature improvement I could suggest is to open the input area in the sidebar, instead of a pop-up. The pop-up closes when one continues to read the given article. At least for me, this also interrupts the process of thought, I can't reflect on what I have noted already.
 : I found the side-bar easier for writing and collecting notes, such as in this extension:
-
-
-* related                                                   :pkm:org:capture:
-:PROPERTIES:
-:ID:       rltd
-:END:

@@ -30,3 +30,16 @@ https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5
 :PROPERTIES:
 :ID:       rltd
 :END:
+* [2020-12-26] [[https://news.ycombinator.com/item?id=25538820][Reverse Engineering the Source Code of the BioNTech/Pfizer SARS-CoV-2 Vaccine | Hacker News]]
+:PROPERTIES:
+:ID:       stsnwsycmbntrcmtmdrvrsngnbntchpfzrsrscvvccnhckrnws
+:END:
+: Synthetic Biology: A Primer
+: 
+: Wetware: A Computer in Every Living Cell
+* TODO [#D] there have only been maybe {~10^40} organisms in earth’s history :drill:biology:
+:PROPERTIES:
+:CREATED:  [2019-09-18]
+:ID:       6d460198-82c2-4fe7-9766-aded22b1e81e
+:END:
+from [[https://www.instapaper.com/read/1234260607/11339250][ip]]   [[https://www.scottaaronson.com/blog/?p=4253][Shtetl-Optimized » Blog Archive » On two blog posts of Jerry Coyne]]

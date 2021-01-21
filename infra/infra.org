@@ -124,10 +124,6 @@ ugh. kinda annoying it's running as root
 :ID:       thsrddtcmrslfhstdcmmntsbmndrlsfrmtdtcrrctnrslfhstd
 :END:
 
-* incoming
-:PROPERTIES:
-:ID:       ncmng
-:END:
 * STRT [#B] [2020-01-18] bb4242/sdnotify: A pure Python implementation of systemd's service notification protocol (sd_notify) -- can be used for watchdog? :infra:systemd:
 :PROPERTIES:
 :ID:       stbbsdntfyprpythnmplmnttnnprtclsdntfycnbsdfrwtchdg
