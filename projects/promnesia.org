@@ -1058,7 +1058,7 @@ Example a complete guide for tagging
 :ID:       mngnrllyfgrthwmchcngtwywthsngmdrnjssppsdtwbpckd
 :END:
 also def worth it for debugging and developing
-* TODO [#C] go through existing urls and try to normalise them?  :urlarchive:
+* TODO [#C] go through existing urls and try to normalise them?  :webarchive:
 :PROPERTIES:
 :CREATED:  [2019-04-08]
 :ID:       gthrghxstngrlsndtrytnrmlsthm

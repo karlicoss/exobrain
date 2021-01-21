@@ -75,17 +75,6 @@ whoa, the best motivation for Dirac equation I've seen so far
 :ID:       wdsnwsycmbntrcmtmdndrstndngqtrnnsndthdrcblttrck
 :END:
 https://arxiv.org/abs/1001.1778
-* START [#B] [2019-01-24] A Visual Introduction to Differential Forms and Calculus on Manifolds | Jon Pierre Fortney | Springer :difform:manifold:viz:
-:PROPERTIES:
-:ID:       thvslntrdctntdffrntlfrmsnlsnmnfldsjnprrfrtnysprngr
-:END:
-- State "START"      from "TODO"       [2019-02-27]
-https://www.springer.com/us/book/9783319969916
-** [2019-06-12] ok, so illustrations are ok and there are many of them. explanations seemed ok as well I guess
-:PROPERTIES:
-:ID:       wdksllstrtnsrkndthrrmnyfthmxplntnssmdkswllgss
-:END:
-
 * [#B] [2019-01-26] general topology - What is a topological space good for? - Mathematics Stack Exchange :topology:
 :PROPERTIES:
 :ID:       stgnrltplgywhtstplgclspcgdfrmthmtcsstckxchng

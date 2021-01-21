@@ -1150,16 +1150,11 @@ https://en.m.wikipedia.org/wiki/Nth_Country_Experiment
 :END:
 : Something that I’m surprised a lot of devs don’t know; there are official domains you’re supposed to use for documentation, testing, etc. They are specifically reserved by IANA for these purposes. Originally I think it was just example.com, but they now have a list of all them: https://www.iana.org/domains/reserved
 
-* [2020-08-26] [[https://testtubegames.com/velocityraptor.html][Velocity Raptor | TestTubeGames]] :relativity:game:
-:PROPERTIES:
-:ID:       wdststtbgmscmvlctyrptrhtmlvlctyrptrtsttbgms
-:END:
-* [2020-09-13] [[https://www.youtube.com/watch?v=jcu581GBmPs&list=WL&index=69&t=0s][(14) Батыгин - русская звезда мировой науки (English subs) - YouTube]]
+* [2020-09-13] [[https://www.youtube.com/watch?v=jcu581GBmPs&list=WL&index=69&t=0s][(14) Батыгин - русская звезда мировой науки (English subs) - YouTube]] :russian:
 :PROPERTIES:
 :ID:       snswwwytbcmwtchvjcgbmpslsдамировойнаукиnglshsbsytb
 :END:
-- comment:
-  : awesome guy, nice interview
+awesome guy, nice interview
 * [2020-09-16] [[https://en.wikipedia.org/wiki/IKEA_effect][IKEA effect - Wikipedia]]
 :PROPERTIES:
 :ID:       wdsnwkpdrgwkkffctkffctwkpd
@@ -1813,7 +1808,7 @@ https://github.com/ScriptSmith/socialreaper
 :PROPERTIES:
 :ID:       stksmstbsngrlpssvrllmskptclbttsgtncpnlfrtkns
 :END:
-* TODO [#D] [2019-08-05] Eli Shlizerman on Twitter: "1/ THREAD: Excited to share our work on whole nervous system and body model for #celegans. The model simulates how connectome + neural interactions + body interact together to generate #locomotion. Preprint: https://t.co/vgwGbIeuGc Samples of videos: https://t.co/0afVJ7MBuo https://t.co/0Tb9Z6LSBX" / Twitter
+* TODO [#D] [2019-08-05] Eli Shlizerman on Twitter: "1/ THREAD: Excited to share our work on whole nervous system and body model for celegans. The model simulates how connectome + neural interactions + body interact together to generate locomotion. Preprint: https://t.co/vgwGbIeuGc Samples of videos: https://t.co/0afVJ7MBuo https://t.co/0Tb9Z6LSBX" / Twitter
 :PROPERTIES:
 :ID:       mnlshlzrmnntwttrthrdxctdtdsstcfvjmbstctbzlsbxtwttr
 :END:
@@ -2012,7 +2007,7 @@ https://stackoverflow.com/questions/27907373/dynamically-change-slots-in-python-
 
 * .
 :PROPERTIES:
-:ID:       109619_109632
+:ID:       109478_109491
 :END:
 * TODO [#C] use repl.it instead of ideone?                              :ide:
 :PROPERTIES:
@@ -2026,11 +2021,6 @@ https://stackoverflow.com/questions/27907373/dynamically-change-slots-in-python-
 : Why does it need a metric ton of permissions? To everything - data, history, notifications etc.
 
 literate permissions?
-* TODO hmm, how would forces work inside the even horizon if the force carriers can't go backwards? :quantum:
-:PROPERTIES:
-:CREATED:  [2021-01-17]
-:ID:       hmmhwwldfrcswrknsdthvnhrznfthfrccrrrscntgbckwrds
-:END:
 * [2017-11-30] post's problem: intermediate computability     :computability:
 :PROPERTIES:
 :ID:       thpstsprblmntrmdtcmptblty

@@ -125,3 +125,11 @@ https://github.com/thebjorn/pydeps
 :END:
 https://fastapi.tiangolo.com/alternatives/
 very cool comparison page, I really like it
+* [#D] [2019-06-13] joeyates/imap-backup: Backup GMail (or other IMAP) accounts to disk :projects:
+:PROPERTIES:
+:ID:       thjytsmpbckpbckpgmlrthrmpccntstdsk
+:END:
+https://github.com/joeyates/imap-backup
+: Design Goals
+
+gm, I guess it's good to state design goals

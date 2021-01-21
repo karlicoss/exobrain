@@ -81,3 +81,21 @@ https://en.wikipedia.org/wiki/Olbers'_paradox
 : 
 : Is energy conserved in an expanding universe?
 : This is a tricky question, depending on what you mean by "energy." Usually we ascribe energy to the different components of the universe (radiation, matter, dark energy), not including gravity itself. In that case the total energy, given by adding up the energy density in each component, is certainly not conserved. The most dramatic example occurs with dark energy -- the energy density (energy per unit volume) remains approximately constant, while the volume increases as the universe expands, so the total energy increases. But even ordinary radiation exhibits similar behavior; the number of photons remains constant, while each individual photon loses energy as it redshifts, so the total energy in radiation decreases. (A decrease in energy is just as much a violation of energy conservation as an increase would be.) In a sense, the energy in "stuff" is being transferred to the energy of the gravitational field, as manifested in the expansion of the universe. But there is no exact definition of "the energy of the gravitational field," so this explanation is imperfect. Nevertheless, although energy is not really conserved in an expanding universe, there is a very strict rule that is obeyed by the total energy, which reduces to perfect conservation when the expansion rate goes to zero; the expansion changes the rules, but that doesn't mean that anything goes.
+* STRT [#D] Friedman equation derivation                    :study:cosmology:
+:PROPERTIES:
+:CREATED:  [2018-01-17]
+:ID:       frdmnqtndrvtn
+:END:
+
+https://en.wikipedia.org/wiki/Friedmann_equations
+metric must be of form ds^2 = a(t)^2 ds_3^2 -c^2 t^2
+
+* STRT [#D] susskind, cosmology 1                                 :cosmology:
+:PROPERTIES:
+:ID:       ssskndcsmlgy
+:END:
+D is a 'grid coordinate', basically an index, it's unchanging
+D = a(t) dx
+V = a'(t) dx
+V/D = a /a' = H(t) -- hubble's constant
+hmm, but does it make sense to speak about V if D is not changing???

@@ -16,3 +16,25 @@ https://github.com/NiklasRosenstein/pydoc-markdown
 :PROPERTIES:
 :ID:       mnd
 :END:
+* TODO [#C] https://mastodon.social/@vertigo/103490093047542336    :literate:
+:PROPERTIES:
+:CREATED:  [2020-01-16]
+:ID:       smstdnsclvrtg
+:END:
+
+* TODO [#C] https://post.lurk.org/@paul/103516477971137544         :literate:
+:PROPERTIES:
+:CREATED:  [2020-01-20]
+:ID:       spstlrkrgpl
+:END:
+
+* TODO [#C] [2019-09-01] docopt—language for description of command-line interfaces http://docopt.org/ :literate:
+:PROPERTIES:
+:ID:       sndcptlnggfrdscrptnfcmmndlnntrfcsdcptrg
+:END:
+: docopt helps you:
+: 
+: define the interface for your command-line app, and
+: automatically generate a parser for it.
+: 
+: docopt is based on conventions that have been used for decades in help messages and man pages for describing a program's interface. An interface description in docopt is such a help message, but formalized. Here is an example:

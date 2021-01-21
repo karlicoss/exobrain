@@ -1,12 +1,6 @@
 #+TITLE: Miscellaneous or unprocessed links
 #+logseq_graph: false
 
-* [2020-03-24] H+Pedia                                        :transhumanism:
-:PROPERTIES:
-:ID:       thpd
-:END:
-https://hpluspedia.org/wiki/Main_Page
-
 * [2020-03-24] Don’t bail out the cruise industry | Hacker News
 :PROPERTIES:
 :ID:       tdntbltthcrsndstryhckrnws
@@ -195,4 +189,566 @@ https://github.com/JStumpp/awesome-android#readme
 :PROPERTIES:
 :CREATED:  [2018-03-14]
 :ID:       rndrwvsndspc
+:END:
+
+* [2020-08-01] [[https://github.com/jamiebuilds/tinykeys][jamiebuilds/tinykeys: A tiny (~400 B) & modern library for keybindings.]]
+:PROPERTIES:
+:ID:       stsgthbcmjmbldstnykysjmblystnybmdrnlbrryfrkybndngs
+:END:
+* [#D] [2019-09-07] linkeddata/dokieli: dokieli is a clientside editor for decentralised article publishing, annotations and social interactions
+:PROPERTIES:
+:ID:       stlnkddtdkldklsclntsddtrfpblshngnnttnsndsclntrctns
+:END:
+https://github.com/linkeddata/dokieli
+: There is no root, authority, or centralisation here. Control yourself!
+: dokieli is a decentralised article authoring, annotation, and social notification tool which works from Web browsers. It is built with the following principles in mind: freedom of expression, decentralisation, interoperability, and accessibility.
+: It can be used as a:
+: 
+:     single-page application - open any dokieli embedded article
+:     browser extension - import this repository in your Web browser or install Web Extension from Chrome Web Store or Add-ons for Firefox
+
+* TODO [#C] Hackernews reader app?
+:PROPERTIES:
+:CREATED:  [2019-11-27]
+:ID:       hckrnwsrdrpp
+:END:
+
+Also orger it?
+
+* TODO [#C] Tweet from Liz Voeller (@voeliz), at Dec 4, 03:50       :climate:
+:PROPERTIES:
+:CREATED:  [2019-12-04]
+:ID:       twtfrmlzvllrvlztdc
+:END:
+
+: What can a building technologist do about climate change?
+: Questions to explore 🌇
+
+https://twitter.com/voeliz/status/1202072579751600129
+
+* STRT [#C] [2019-12-20] tilde news
+:PROPERTIES:
+:ID:       frtldnws
+:END:
+https://tilde.news/
+: huh, they have tags
+
+** [2020-01-16] looks like hackernews, but not very active?
+:PROPERTIES:
+:ID:       thlkslkhckrnwsbtntvryctv
+:END:
+** [2020-01-16] dunno, weird guys.. https://tildeverse.org/members/
+:PROPERTIES:
+:ID:       thdnnwrdgysstldvrsrgmmbrs
+:END:
+* STRT [#C] [2019-11-05] The IndieWeb Movement: Owning Your Data and Being the Change You Want to See in the Web · Jamie Tanna | Software (Quality) Engineer
+:PROPERTIES:
+:ID:       tthndwbmvmntwnngyrdtndbngtsnthwbjmtnnsftwrqltyngnr
+:END:
+https://www.jvt.me/posts/2019/10/20/indieweb-talk
+ok, interesting, but that's again kind of reinventing new standard?
+** [2019-12-03] https://indiewebify.me/validate-h-card/
+:PROPERTIES:
+:ID:       tsndwbfymvldthcrd
+:END:
+: Other humans can already understand your profile information and the things you post on your site. By adding a few simple class names to your HTML, other people’s software can understand it and use it for things like reply contexts, cross-site comments, event RSVPs, and more.
+
+** TODO [2019-12-03]  http://microformats.org/wiki/h-card#Properties
+:PROPERTIES:
+:ID:       tmcrfrmtsrgwkhcrdprprts
+:END:
+** [2019-12-03] https://indiewebify.me/validate-h-entry/?url=https%3A%2F%2Fbeepb00p.xyz%2Fannotating.html
+:PROPERTIES:
+:ID:       tsndwbfymvldthntryrlsffbpbpxyzfnnttnghtml
+:END:
+<article class="h-entry">
+  <div class="e-content p-name">Hello world! This is my first indieweb post.</div>
+
+  <a class="u-url" href="https://example.com/my-first-post">
+    Published <time class="dt-published">2019-12-03 08:51:04+0000</time>
+  </a>
+</article>
+
+* STRT [#C] Use basic html Gmail?                            :gmail:webbloat:
+:PROPERTIES:
+:CREATED:  [2020-01-25]
+:ID:       sbschtmlgml
+:END:
+: Basic HTML Gmail hasn't changed in years and works perfectly fine for all of my needs for gmail: reading and sending emails. I find the current UI to be quite unusable, but at least there's still the basic html option.
+
+* STRT [#C] [2020-03-08] (2) Ian Calvert on Twitter: "If you work with data and don't already have @visidata, you want to check it out. Even just for basic features it's fantastic - "quick give me a count of X where condition Y, now let's have a look at those rows, and now save that as a file for loading elsewhere" for example https://t.co/VGQjeqhW9i" / Twitter :hpi:viz:
+:PROPERTIES:
+:ID:       snnclvrtntwttrfywrkwthdtnswhrfrxmplstcvgqjqhwtwttr
+:END:
+https://twitter.com/IanCal/status/1236213418375462912
+: If you work with data and don't already have @visidata
+: , you want to check it out. Even just for basic features it's fantastic - "quick give me a count of X where condition Y, now let's have a look at those rows, and now save that as a file for loading elsewhere" for example
+* TODO [#C] open source os                                        :malleable:
+:PROPERTIES:
+:CREATED:  [2020-05-16]
+:ID:       pnsrcs
+:END:
+
+: I think alt open-source smartphone operating systems like PostmarketOS, PureOS, UBPorts would be a great candidate for this.
+: The need to breach the duopoly in mobile smartphone ecosystem is now greater than ever if we need to protect the future of mobile computing and the data(lifestyle) of individuals using it; considering smartphone is the first computer for ~ > half of world population.
+
+* STRT [#C] [2019-10-04] tmrowco/tmrowapp-contrib: Tomorrow automatically calculates the climate impact of your daily choices by connecting to apps and services you already use. :climate:environment:
+:PROPERTIES:
+:ID:       frtmrwctmrwppcntrbtmrrwtmycnnctngtppsndsrvcsylrdys
+:END:
+https://github.com/tmrowco/tmrowapp-contrib
+
+** TODO [2019-10-06]                                                  :tweet:
+:PROPERTIES:
+:ID:       sn
+:END:
+* TODO [#C] [2019-09-02] [[https://reddit.com/r/Python/comments/cdwea0/mind_controlled_text_writer/][Mind controlled text writer]] /r/Python
+:PROPERTIES:
+:ID:       mnsrddtcmrpythncmmntscdwmtrmndcntrlldtxtwrtrrpythn
+:END:
+:  # My python implementation of P300 speller
+:  # [Video](https://www.youtube.com/watch?v=1GdjMx5t4ls&feature=youtu.be)
+:  **Idea of P300 speller:**
+: 
+:  Highlight rows and cols and record EEG reaction to these events. If row/col with target character is highlighted \~after 300ms peak on EEG diagram will occur and it's possible to train classifier to  detect it. To remove noise from EEG data repeat it multiple times and use bandpass filter
+: 
+:  &#x200B;
+: 
+:  **Hardware:** [OpenBCI Cyton](https://brainflow.readthedocs.io/en/latest/SupportedBoards.html#openbci-cyton)
+: 
+:  **Software:**
+: 
+:  * [BrainFlow library](https://github.com/Andrey1994/brainflow) to read and preprocess data from OpenBCI board
+:  * [P300 implementation](https://github.com/Andrey1994/brainapps/tree/master/p300-speller)
+* [#C] [2019-06-16] Search · fingerprint
+:PROPERTIES:
+:ID:       snsrchfngrprnt
+:END:
+https://github.com/search?o=desc&q=fingerprint&s=stars&type=Repositories
+: worldveil/dejavu
+: Audio fingerprinting and recognition in Python
+* TODO [#C] https://m.vk.com/@kurilka.gutenberga-ii-sozdal-3d-simulyaciu-vselennoi-no-uchenye-ne-znaut-kak-et :ai:sim:
+:PROPERTIES:
+:CREATED:  [2019-06-28]
+:ID:       smvkcmkrlkgtnbrgszdldsmlycvslnnnchnynzntkkt
+:END:
+* TODO [#C] Earthstar - Offline-first, distributed, syncable, embedded document database for use in p2p | Lobsters
+:PROPERTIES:
+:CREATED:  [2020-06-26]
+:ID:       rthstrfflnfrstdstrbtdsyncbddddcmntdtbsfrsnpplbstrs
+:END:
+
+https://lobste.rs/s/ipc2wb/earthstar_offline_first_distributed
+
+* TODO [#C] Tweet from @yoshikischmitz filtering data accept/reject      :ml:
+:PROPERTIES:
+:CREATED:  [2020-07-05]
+:ID:       twtfrmyshkschmtzfltrngdtccptrjct
+:END:
+
+https://twitter.com/yoshikischmitz/status/1279566482188333056
+: @yoshikischmitz: Are there any apps out there for quickly filtering arbitrary lists of data w/ a simple "reject" and "accept" gesture? Thinking of something like Tinder but I make the cards, and can get a list of the accepted ones.
+
+* STRT [#C] Some hand blistering thing to prepare for bouldering? :bouldering:
+:PROPERTIES:
+:CREATED:  [2019-08-18]
+:ID:       smhndblstrngthngtprprfrbldrng
+:END:
+
+* STRT [#C] wonder how to cope with monitor brightness outside     :togoogle:
+:PROPERTIES:
+:CREATED:  [2019-09-26]
+:ID:       wndrhwtcpwthmntrbrghtnsstsd
+:END:
+** [2019-12-06] https://beckystern.com/2008/04/14/body-technology-interfaces body sock! nice..
+:PROPERTIES:
+:ID:       frsbckystrncmbdytchnlgyntrfcsbdyscknc
+:END:
+* TODO [#C] matplotvr for a project name?                            :vr:viz:
+:PROPERTIES:
+:CREATED:  [2020-10-08]
+:ID:       mtpltvrfrprjctnm
+:END:
+* TODO [#C] use rain cloak instead of umbrella? weights and takes same space if not less :minimalism:
+:PROPERTIES:
+:CREATED:  [2020-10-05]
+:ID:       srnclknstdfmbrllwghtsndtkssmspcfntlss
+:END:
+* [#C] [2020-10-05] [[https://news.ycombinator.com/item?id=24688831][Show HN: A gallery of interesting Jupyter Notebooks | Hacker News]]
+:PROPERTIES:
+:ID:       mnsnwsycmbntrcmtmdshwhnglfntrstngjpytrntbkshckrnws
+:END:
+* [#C] [2020-10-07] [[https://bustimes.org/][bustimes.org]]
+:PROPERTIES:
+:ID:       wdsbstmsrgbstmsrg
+:END:
+
+* [#C] [2020-10-12] [[https://github.com/jarun/nnn][jarun/nnn: n³ The unorthodox terminal file manager.]]
+:PROPERTIES:
+:ID:       mnsgthbcmjrnnnnjrnnnnnthnrthdxtrmnlflmngr
+:END:
+
+* TODO [#C] Tweet from @wwwjim
+:PROPERTIES:
+:CREATED:  [2020-10-30]
+:ID:       twtfrmwwwjm
+:END:
+
+https://twitter.com/wwwjim/status/1321940199769698304
+
+: @wwwjim: You should be able to talk to peers without being online.
+: You should be able to surf a web without being online.
+: Syncing data from a website as a choice.
+: Not a service, a tool.
+: You tell websites what metadata you're willing to provide.
+: You are your own ACL.
+* STRT [#C] [2020-08-24] [[https://lobste.rs/s/8aiw6g/what_software_do_you_dream_about_do_not][What software do you dream about, but do not have time to do yourself? | Lobsters]]
+:PROPERTIES:
+:ID:       mnslbstrsswgwhtsftwrdydrmmbtbtdnthvtmtdyrslflbstrs
+:END:
+** [2020-08-24] [[https://lobste.rs/s/8aiw6g/what_software_do_you_dream_about_do_not#c_tnkntw][What software do you dream about, but do not have time to do yourself? | Lobsters]]
+:PROPERTIES:
+:ID:       mnslbstrsswgwhtsftwrdydrmmbtbtdnthvtmtdyrslflbstrs
+:END:
+: Two things.
+:     An Emacs for the web – browser primitives, but with hooks and definitions that allow full user control over the entire experience, integrated with a good extension language, to allow for exploratory development. Bonus points if it can be integrated into Emacs;
+* [#C] [2020-09-12] [[https://github.com/hikerpig/marka-js][hikerpig/marka-js]]
+:PROPERTIES:
+:ID:       stsgthbcmhkrpgmrkjshkrpgmrkjs
+:END:
+: Marka is a JavaScript lib that runs in the browser, it will mark anchor elements and add icons according to the href. It is inspired by https://beepb00p.xyz and anchorjs.
+* [#C] [2020-11-24] [[https://news.ycombinator.com/item?id=25187702][I created an alternative to the YouTube algorithm to stop me wasting time]] :sadinfra:
+:PROPERTIES:
+:ID:       tsnwsycmbntrcmtmdcrtdnltrvtthytblgrthmtstpmwstngtm
+:END:
+https://towardsdatascience.com/i-created-my-own-youtube-algorithm-to-stop-me-wasting-time-afd170f4ca3a
+* STRT [#C] [2020-12-06] visidata Tweet from @nevoitbien
+:PROPERTIES:
+:ID:       snvsdttwtfrmnvtbn
+:END:
+https://twitter.com/nevoitbien/status/1335504980854239235
+: @nevoitbien: VisiData!
+: jsvine.github.io/intro-to-visidata
+: For anyone who uses a terminal, you will come face-to-face with tabular data on it, be it `free -m` or a csv file. There is nothing quite like VisiData which can load them all into an interactive spreadsheet.
+** [2020-12-13] use visidata more
+:PROPERTIES:
+:ID:       aec38d13-26fb-41d5-90bf-c3b8130903e9
+:END:
+
+* [#C] [2020-01-29] How to read memory usage in htop? - Server Fault
+:PROPERTIES:
+:ID:       873c3c56-09ec-4783-aa15-b69a9ed1e6a5
+:END:
+https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
+: Hide user threads (shift + H) and close the process tree view (F5), t
+* [#C] [2017-09-12] [[https://reddit.com/r/youtube/comments/6zn2pq/how_to_open_mobile_version_of_youtube_on_pc/dmwrg8x/][How to open mobile version of youtube on PC?]] /r/youtube
+:PROPERTIES:
+:ID:       tsrddtcmrytbcmmntsznpqhwtgxhwtpnmblvrsnfytbnpcrytb
+:END:
+:  You can use [this link](http://m.youtube.com/?persist_app=1&app=m) to force the mobile site, and [this link](http://www.youtube.com/?persist_app=1&app=desktop) to reset to the desktop site.
+* TODO [#C] [2020-05-25] [[https://news.ycombinator.com/item?id=23303980][Ask HN: What are your outdoor friendly remote work tips? | Hacker News]]
+:PROPERTIES:
+:ID:       mnsnwsycmbntrcmtmdskhnwhttdrfrndlyrmtwrktpshckrnws
+:END:
+: 	Do you do anything to allow yourself to spend more time outside whilst working?
+: 
+: I.e. laptop glare protectors, shadings for monitor or laptop, devices to keep laptop supported while standing or walking.
+* TODO [#D] Support Post Migration · Issue 12423 · tootsuite/mastodon :mastodon:
+:PROPERTIES:
+:CREATED:  [2019-12-27]
+:ID:       spprtpstmgrtnssttstmstdn
+:END:
+
+https://github.com/tootsuite/mastodon/issues/12423
+
+* TODO [#D] https://mobile.twitter.com/ankitmalik/status/1227636734478831618 :annotation:gadget:
+:PROPERTIES:
+:CREATED:  [2020-02-12]
+:ID:       smbltwttrcmnktmlkstts
+:END:
+
+https://mobile.twitter.com/ankitmalik/status/1227636734478831618
+: Nova Boox Pro e-ink writer similar to remarkable?
+
+* [#D] [2019-05-30] Chrome to limit full ad blocking extensions to enterprise users - 9to5Google :motivation:firefox:degoogle:
+:PROPERTIES:
+:ID:       thchrmtlmtflldblckngxtnsnstntrprssrstggl
+:END:
+https://9to5google.com/2019/05/29/chrome-ad-blocking-enterprise-manifest-v3/
+
+* TODO [#D] NATO phonetic alphabet - Wikipedia https://en.m.wikipedia.org/wiki/NATO_phonetic_alphabet :study:
+:PROPERTIES:
+:CREATED:  [2019-04-15]
+:ID:       ntphntclphbtwkpdsnmwkpdrgwkntphntclphbt
+:END:
+
+https://en.wikipedia.org/wiki/Allied_Military_phonetic_spelling_alphabets#RAF_radiotelephony_spelling_alphabet
+
+* [#D] [2018-06-15] Rayman (1995 - Windows/DOS). Ссылки, описание, обзоры, скриншоты, видеоролики на Old-Games.RU :games:
+:PROPERTIES:
+:ID:       frrymnwndwsdsссылкиописаниншотывидеороликинаldgmsr
+:END:
+https://www.old-games.ru/game/83.html
+
+* TODO [#D] https://variety.com/2019/gaming/news/earthworm-jim-3-details-1203202256/ :games:
+:PROPERTIES:
+:CREATED:  [2019-05-01]
+:ID:       svrtycmgmngnwsrthwrmjmdtls
+:END:
+
+* [#D] [2019-06-01] Offline First                                   :offline:
+:PROPERTIES:
+:ID:       stfflnfrst
+:END:
+http://offlinefirst.org/
+
+* TODO [#D] Tweet from michael_nielsen (@michael_nielsen), at Jun 16, 05:42
+:PROPERTIES:
+:CREATED:  [2019-06-16]
+:ID:       twtfrmmchlnlsnmchlnlsntjn
+:END:
+: A remarkably complete archive of Apollo 11 material has been made available: https://t.co/teX8FsPCzy
+
+https://twitter.com/michael_nielsen/status/1140117434038226944
+
+* TODO [#D] [2018-11-18] https://nphysics.org                      :sim:rust:
+:PROPERTIES:
+:ID:       snsnphyscsrg
+:END:
+* [#D] [2019-04-18] [[https://reddit.com/r/askscience/comments/293bvm/is_it_more_environmentally_friendly_to_wash_your/cih4o6n/][Is it more environmentally friendly to wash your dishes? Or use paper plates instead? What is the real carbon footprint left by wasted water, vs paper plates?]] /r/askscience :recycling:environment:
+:PROPERTIES:
+:ID:       thsrddtcmrskscnccmmntsbvmbywstdwtrvspprpltsrskscnc
+:END:
+: I've wondered about this too and I found it very hard to find good information.  It undoubtedly depends on where you live because the relative costs of water and trash removal vary so much depending where you live.  I think in water-scarce regions of Arizona, Nevada and Southern California, there is a decent argument to be made that disposable paper plates are an environmentally sensible alternative to washing lots of ceramic dinner plates. But it would very much depend on local costs and where the disposed of plates go.  Are they buried in a landfill or burned to make electricity?  How far do they have to be hauled in their lifetime?  What happens to the wastewater?
+
+
+: There is no black and white in these types of situations.  Either scenario is OK and if you really want to figure out how to minimize your carbon footprint, an accurate accounting depends on your local water and electricity rates.
+
+* [#D] [2019-09-03] Hard problem of consciousness - Wikipedia
+:PROPERTIES:
+:ID:       2e497058-b22d-4a58-a8a3-4d57b5d1412c
+:END:
+
+https://en.wikipedia.org/wiki/Hard_problem_of_consciousness
+: The hard problem of consciousness is the problem of explaining how and why sentient organisms have qualia or phenomenal experiences—how and why it is that some internal states are felt states, such as heat or pain, rather than unfelt states, as in a thermostat or a toaster.[1] The philosopher David Chalmers, who introduced the term "hard problem" of consciousness,[2] contrasts this with the "easy problems" of explaining the ability to discriminate, integrate information, report mental states, focus attention, and so forth.
+
+* TODO [#D] Allow users to mark posts as searchable/not searchable? :mastodon:
+:PROPERTIES:
+:CREATED:  [2019-09-10]
+:ID:       llwsrstmrkpstsssrchblntsrchbl
+:END:
+
+* [#D] [2019-09-22] The Brain Zoo - Basics of Meditation - YouTube  :writing:
+:PROPERTIES:
+:ID:       snthbrnzbscsfmdttnytb
+:END:
+https://www.youtube.com/watch?v=X3rl5O_92Co&t=121s
+think why exurbias videos are so good and engaging
+
+* TODO [#D] Tweet from Smart Biology (@SmartBiology3D), at Oct 13, 09:12
+:PROPERTIES:
+:CREATED:  [2019-10-13]
+:ID:       twtfrmsmrtblgysmrtblgydtct
+:END:
+
+: The one and only David Goodsell @dsgoodsell is now on Twitter! His incredible paintings (below) have been an inspiration for us and so many others for many years, each of which is incredibly accurate based on all available research. Welcome David!
+
+
+https://twitter.com/SmartBiology3D/status/1183043774831837186
+
+* TODO [#D] [2019-11-05] Web Scraping With Rust - codeburst :scraping:scrapyroo:
+:PROPERTIES:
+:ID:       twbscrpngwthrstcdbrst
+:END:
+https://codeburst.io/web-scraping-in-rust-881b534a60f7
+
+** [2019-11-18] A great tool for this is the Chrome extension Selector Gadget
+:PROPERTIES:
+:ID:       mngrttlfrthssthchrmxtnsnslctrgdgt
+:END:
+* TODO [#D] A Few Haskell Highlights: Top Haskell Resources of 2019    :agda:
+:PROPERTIES:
+:CREATED:  [2019-12-27]
+:ID:       fwhskllhghlghtstphskllrsrcsf
+:END:
+
+To get to know Agda better, you can read this introductory post by Danya Rogozin.
+
+* TODO [#D] Tweet from Гришка (@grishka11), at Jan 22, 16:50
+:PROPERTIES:
+:CREATED:  [2020-01-22]
+:ID:       twtfrmгришкаgrshktjn
+:END:
+
+: @internetofshit There should be a law or something that if you stop updating an IoT device, its last firmware version must be open sourced so that people who actually care could help others keep using it.
+
+
+https://twitter.com/grishka11/status/1220026067060187137
+
+* TODO [#D] Google search                                     :search:google:
+:PROPERTIES:
+:CREATED:  [2020-01-25]
+:ID:       gglsrch
+:END:
+
+: I miss the days when I could search with AND, OR, +word and -word. Now if I search google with more than one word it no longer searches the internet. Instead it searches for ads that are somewhat similar to my query and features those. Any useful links on the first page are accidental.
+
+* [#D] Accesskey?
+:PROPERTIES:
+:CREATED:  [2020-03-20]
+:ID:       ccssky
+:END:
+
+: I think the solution should be to use the "accesskey" attribute. Unfortunately, not enough web page writers use it.
+
+* TODO [#D] Tweet from @hillelogram
+:PROPERTIES:
+:CREATED:  [2020-05-13]
+:ID:       twtfrmhlllgrm
+:END:
+
+https://twitter.com/hillelogram/status/1260389954045214721
+
+: @hillelogram: *Sees people arguing about plantuml vs mermaid vs graphviz vs lucid vs inkscape*
+: Why not use tikz
+: *Is beaten to death by every sane programmer on the planet*
+
+* STRT [#D] [2019-10-17] Welcome to Intuitive Explanations | Intuitive Explanations
+:PROPERTIES:
+:ID:       thwlcmtnttvxplntnsnttvxplntns
+:END:
+https://intuitiveexplanations.com
+el-patch guy
+* START [#D] [2019-08-18] Trending repositories on GitHub today     :explore:
+:PROPERTIES:
+:ID:       sntrndngrpstrsngthbtdy
+:END:
+https://github.com/trending
+
+** [2019-09-16] https://mshibanami.github.io/GitHubTrendingRSS hasn't been updated for a while.. wonder if it would send duplicates
+:PROPERTIES:
+:ID:       mnsmshbnmgthbgthbtrndngrstdfrwhlwndrftwldsnddplcts
+:END:
+* TODO [#D] Pinpopular - The Pinboard Top 100
+:PROPERTIES:
+:CREATED:  [2019-11-21]
+:ID:       pnpplrthpnbrdtp
+:END:
+
+http://pinpopular.in
+* TODO [#D] guthub name                                             :project:
+:PROPERTIES:
+:CREATED:  [2019-12-02]
+:ID:       gthbnm
+:END:
+* TODO [#D] Physical Church-Turing Thesis: {laws of physics can be simulated to any desired precision by a TM (or at any rate, by a probabilistic TM)} :hyp2org:
+:PROPERTIES:
+:CREATED:  [2019-11-01]
+:ID:       e3e16186-4726-4ed1-b3b3-9789a009c0f4
+:END:
+None
+[[https://www.scottaaronson.com/blog/?p=2756][Shtetl-Optimized  » Blog Archive   » “Can computers become conscious?”: My reply to Roger Penrose]]
+[[https://hyp.is/LJqhJPz0Eem1V4OZGz8ddg/www.scottaaronson.com/blog/?p=2756][in context]]
+
+* TODO [#D] Tweet from @cj_pais
+:PROPERTIES:
+:CREATED:  [2020-08-10]
+:ID:       twtfrmcjps
+:END:
+
+: https://twitter.com/cj_pais/status/1292620491417559041
+: @cj_pais: Check it!!!
+: It was super fun to help build this!
+: Stoked to have a sane, powerful and portable dev environment twitter.com/davidmeh/status/12...
+
+* TODO [#D] [2019-06-29] drone/drone: Drone is a Container-Native, Continuous Delivery Platform :selfhosted:ci:
+:PROPERTIES:
+:ID:       stdrndrndrnscntnrntvcntnsdlvrypltfrm
+:END:
+https://github.com/drone/drone
+: pipeline: backend: image: golang commands: - go get - go build - go test frontend: image: node:6 commands: - npm install - npm test publish: image: plugins/docker repo: octocat/hello-world tags: [ 1, 1.1, latest ] registry: index.docker.io notify: image: plugins/slack channel: developers username: drone
+
+hmm looks kinda nice..
+* [#D] [2020-10-05] [[https://github.com/tridactyl/tridactyl][tridactyl/tridactyl: A Vim-like interface for Firefox, inspired by Vimperator/Pentadactyl.]] :vim:
+:PROPERTIES:
+:ID:       mnsgthbcmtrdctyltrdctyltrfrfxnsprdbyvmprtrpntdctyl
+:END:
+* [#D] [2020-10-10] [[https://vasilishynkarenka.com/how-to-type-3x-faster/][How to type 3x faster]]
+:PROPERTIES:
+:ID:       stsvslshynkrnkcmhwttypxfstrhwttypxfstr
+:END:
+* TODO https://github.com/alirezamika/autoscraper
+:PROPERTIES:
+:CREATED:  [2020-09-07]
+:ID:       sgthbcmlrzmktscrpr
+:END:
+* [2020-12-05] Tweet from @alphyna
+:PROPERTIES:
+:ID:       sttwtfrmlphyn
+:END:
+https://twitter.com/alphyna/status/1335339736127447040
+: @alphyna: @lampimampi хотя нет, ещё важное есть.
+: когда тебе долго плохо, ты этого не замечаешь. тебе не грустно, тебя не мучает. ты просто становишься скучным. ты просто устаёшь. ты просто больше не рисуешь. и не играешь. всё не плохо, всё просто пресно.
+: это очень легко упустить — и жить так годами.
+* STRT [#C] https://github.com/jhaip/programmable-space           :computing:
+:PROPERTIES:
+:CREATED:  [2020-10-17]
+:ID:       sgthbcmjhpprgrmmblspc
+:END:
+: Bringing computing to the scale of a room makes it a communal and social experience.
+* STRT [#C] [2020-05-19] [[https://github.com/malleable-systems/malleable.systems/issues][Issues · malleable-systems/malleable.systems]] :malleable:
+:PROPERTIES:
+:ID:       tsgthbcmmllblsystmsmllblssssmllblsystmsmllblsystms
+:END:
+* STRT [#C] [2020-05-25] [[https://shalabh.com/programmable-systems/][Programmable Systems]] :computing:malleable:
+:PROPERTIES:
+:ID:       mnsshlbhcmprgrmmblsystmsprgrmmblsystms
+:END:
+* STRT [#C] [2019-10-01] Identify & Attack "Schleps" · Issue 12 · d-cook/SomethingNew :malleable:
+:PROPERTIES:
+:ID:       tdntfyttckschlpsssdcksmthngnw
+:END:
+https://github.com/d-cook/SomethingNew/issues/12
+: A "Schlep" is a thing that is so tedious or awful to deal with, that most people accept it or work around it without even realizing it. However, when attacked directly, they can open new doors or make things easier by opening paths that are otherwise accepted as just "the way things are".
+* STRT [#B] [2020-07-26] [[https://qtconsole.readthedocs.io/en/stable/][The Qt Console for Jupyter — Jupyter Qt Console 4.7.5 documentation]]
+:PROPERTIES:
+:ID:       snsqtcnslrdthdcsnstblthqtfrjpytrjpytrqtcnsldcmnttn
+:END:
+: The Qt console is a very lightweight application that largely feels like a terminal, but provides a number of enhancements only possible in a GUI, such as inline figures, proper multi-line editing with syntax highlighting, graphical calltips, and much more. The Qt console can use any Jupyter kernel.
+* TODO [#B] [2020-07-08] [[https://news.ycombinator.com/item?id=23747133][SymPy - a Python library for symbolic mathematics | Hacker News]] :sympy:sage:
+:PROPERTIES:
+:ID:       wdsnwsycmbntrcmtmdsympypyrryfrsymblcmthmtcshckrnws
+:END:
+: As one point of comparison, SymPy is comically slow compared to Sage. This is mostly because SymPy is purely Python; Sage on the other hand uses a derivative of GiNaC [1] for its internal symbolic expression representation, and then multiple external libraries for non-trivial operations. Symbolic transformations are mostly Maxima [3]. Sage literally converts expressions to strings, pipes them through a Maxima process, and then parses the result back. This is still much faster than the pure Python SymPy.
+: 
+: There is an effort to speed up SymPy core, SymEngine [3], but it's been in development for years now, and still isn't integrated into SymPy. Not sure why.
+: 
+: Case in point: 'expand("(2+3x+4x*y)^60")' takes 5 seconds with SymPy; Sage does the same in 0.02 seconds.
+* crowdled thing                                                :electronics:
+:PROPERTIES:
+:CREATED:  [2020-06-30]
+:ID:       crwdldthng
+:END:
+so if you short circuit the two top rightmost contacts, it cycles colors. hmmmm! maybe expose couple of wires to the outside
+
+closest relevant info I found: https://electronics.stackexchange.com/questions/377981/how-can-i-reuse-a-crowdled-bracelet?newreg=9fc742d478f545a2a5ecfa700e20cf13
+* [2020-05-26] (3) Andy Matuschak on Twitter: "Highly recommended! Hamming is here to tell you about excellence. His lessons unfold through personal stories of discovery and failure—life as an extraordinary scientist. But Hamming demands that you do extraordinary work, too, and for that he offers the best advice I know." / Twitter
+:PROPERTIES:
+:ID:       tndymtschkntwttrhghlyrcmmrththffrsthbstdvcknwtwttr
+:END:
+https://twitter.com/andy_matuschak/status/1265397516469592064
+: Hamming is here to tell you about excellence. His lessons unfold through personal stories of discovery and failure—life as an extraordinary scientist. But Hamming demands that you do extraordinary work, too, and for that he offers the best advice I know.
+* [#D] [2018-08-15] Flow Genome Project « The Official Source For Flow Science And Training :mind:
+:PROPERTIES:
+:ID:       wdflwgnmprjctthffclsrcfrflwscncndtrnng
+:END:
+http://www.flowgenomeproject.com/
+
+** [2018-10-22]  eh. googled that and nothing specific, overall sound like bullshit, they are just selling subscriptions.
+:PROPERTIES:
+:ID:       mnhggldthtndnthngspcfcvrllshtthyrjstsllngsbscrptns
+:END:
+** TODO [2018-10-22]  ? add to                                         :axol:
+:PROPERTIES:
+:ID:       mnddt
 :END:

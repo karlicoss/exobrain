@@ -957,3 +957,9 @@ https://github.com/pypa/setuptools_scm/#default-versioning-scheme
 :PROPERTIES:
 :ID:       thkctllytllwsfrtknsvnbttr
 :END:
+* [#D] [2019-12-15] tox support · Issue #222 · python-poetry/poetry
+:PROPERTIES:
+:ID:       sntxspprtsspythnptryptry
+:END:
+https://github.com/python-poetry/poetry/issues/222
+: For now, you can use poetry with tox by using something similar to what I did in pendulum: https://github.com/sdispater/pendulum/blob/master/tox.ini

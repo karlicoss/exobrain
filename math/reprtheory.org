@@ -2,6 +2,11 @@
 #+logseq_title: reprtheory
 #+filetags: reprtheory
 
+* related                                                          :math:qft:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
 * Definitions & theorems
 :PROPERTIES:
 :ID:       dfntnsthrms
@@ -45,7 +50,7 @@ G-linear map -- map between representations V -> W, s.t g . phi and phi . g comm
 
 * [#A] U(1)
 :PROPERTIES:
-:ID:       864_1148
+:ID:       886_1170
 :END:
 ** U(1) -- rotations e^i theta
 :PROPERTIES:
@@ -694,3 +699,93 @@ I once read through the book "Solved Problems in Lagrangian and Hamiltonian Mech
 :END:
 http://jakobschwichtenberg.com/short-introduction-motivation-representation-theory/
 well, ok it's really basic
+* STRT [#B] [2019-01-24] What’s so special about the adjoint representation of a Lie group? – Jakob Schwichtenberg :reprtheory:
+:PROPERTIES:
+:ID:       thwhtssspclbtthdjntrprsnttnflgrpjkbschwchtnbrg
+:END:
+http://jakobschwichtenberg.com/adjoint-representation/
+: P.S. I wrote a textbook which is in some sense the book I wished had existed when I started my journey in physics. It's called "Physics from Symmetry" and you can buy it, for example, at Amazon.
+* [#C] [2019-01-23] [[https://reddit.com/r/math/comments/3k3jwh/best_intro_to_representation_theory/cuugprk/][Best intro to representation theory?]] /r/math
+:PROPERTIES:
+:ID:       wdsrddtcmrmthcmmntskjwhbsrkbstntrtrprsnttnthryrmth
+:END:
+: I think Fulton and Harris has become one of the gold standards. Serre's "Linear Representations of Finite Groups " is fantastic, but is a bit more terse and requires lots of mathematical maturity.
+* [#C] [2019-01-23] [[https://reddit.com/r/math/comments/1emn1m/representation_theory/ca1pyp4/][Representation Theory]] /r/math
+:PROPERTIES:
+:ID:       wdsrddtcmrmthcmmntsmnmrprnthrycpyprprsnttnthryrmth
+:END:
+:  Representation Theory is fucking everywhere. It's the opposite of a dead end. A co-dead end. The only issue is that at first glance it doesn't seem that exciting. Then, as you continue your studies, it will start to pop-up everywhere because it gives you invaluable tools with which to study abstract groups.
+* [#C] [2019-01-23] [[https://reddit.com/r/math/comments/1emn1m/representation_theory/ca1qrdl/][Representation Theory]] /r/math
+:PROPERTIES:
+:ID:       wdsrddtcmrmthcmmntsmnmrprthrycqrdlrprsnttnthryrmth
+:END:
+: I have to agree with functor7 that representation theory comes up everywhere. I think it's rather exciting from a basic level too.
+
+
+: Studying finite groups, you might think the prime object of study is permutations: to understand your group, you look how it acts on some finite set, by permuting elements around. However, it is quite tricky to get all the information you might want from it.
+: Another very profitable way to understand your finite group is to let it act, not by permutations, but by linear transformations, on a vector space instead of just a set. This is a representation. You lose a bit of information this way, but you usually can end up saying so much more. The key is to understand the irreducible representations. For instance, the order of the group is the sum of the squares of the dimensions of the different irreducible representations of the group. Much more can be said, of course.
+
+
+: What's amazing is that this approach generalises to so many other contexts.
+: You can do representation theory of Lie groups. For instance, representation theory of the circle group (group of unit norm complex numbers) encodes Fourier series, and you can vastly generalise this to Pontryagin duality, Peter-Weyl duality, and beyond (automorphic representations...).
+: You can do representation theory of Lie algebras, and this is the essential ingredient in the classification of semisimple Lie algebras (say over the complex numbers).
+: You can do representation theory of rings. This is just the notion of a module over a ring, which comes up everywhere in commutative algebra!
+: You can do representation theory of quivers. This is really tantalising: you start with a collection of dots, and arrows between the dots. A representation of this consists just of a vector space for each dot, and for each arrow a linear map between the corresponding beginning and endpoint vector spaces. It sounds silly, but is an incredibly powerful tool.
+: And so on, and so on...
+
+
+: Another very powerful tool is to look at categories of representations. Given for instance a finite group G (but it could be any of the other things representations makes sense for), you kind of reverse the construction I did for quivers. You put a dot for each representation of G, and an arrow for each linear map between representations which respects the actions (a so called intertwiner). You forget everything else, so you don't remember how the group acts on each vector space, you just have a dot instead. This is the category of representations of G, and it's very interesting to see its structures, and whether you can figure out the group knowing just this category. For many interesting reasons, it turns out you can't. However, this category has subtle extra structures; for instance you can take tensor products of representations. If you remember this tensor product structure explicitly (which comes down to remembering explicit associativity isomorphisms [; (A \otimes B) \otimes C \cong A \otimes ( B \otimes C) ;]) then you can actually recover the group! It's quite a fantastic statement really, when you realise it seems like we forgot so much about the group and are just looking at a collection of dots and arrows!
+: This point of view explains things like what the character table of a group does and does not see, and explains why you can't recover the group from the character table.
+* [#C] [2019-01-23] [[https://reddit.com/r/math/comments/i73t4/can_representation_theory_be_explained_using/c21iiba/][Can Representation Theory be Explained Using Basic Abstract and Linear Algebra?]] /r/math
+:PROPERTIES:
+:ID:       wdsrddtcmrmthcmmntstcnrprsngbscbstrctndlnrlgbrrmth
+:END:
+: Sternberg's *Group Theory and Physics*.
+: Go to Amazon and order it [*right now*](http://www.amazon.com/Group-Theory-Physics-S-Sternberg/dp/0521558859).  It's an easy book^1 that will put you **ridiculously far ahead** of anyone else with a similar background.  That's because representation theory is usually taught abstractly, and Sternberg contains nothing but concrete examples.  With *numbers*.  So while everyone else is trying to parse  word-salad about rings of maps between modules over groups of categoric chain algebras, you'll already have a fairly good idea of what's happening by analogy with what you already know.
+: I'm not saying that the more abstract material isn't worth learning, just that learning the concrete stuff first is a faster way to get there that a lot of people have forgotten about.  Plus you learn about spectroscopy, crystal structure, and quantum mechanics, basically for free.
+
+
+: [1] For math, anyway.  You still have to "read" it with pen & paper.
+* [#C] [2019-01-23] [[https://reddit.com/r/math/comments/1c9uax/book_suggestions_for_modern_representation_theory/c9ehg8n/][Book suggestions for modern representation theory?]] /r/math
+:PROPERTIES:
+:ID:       wdsrddtcmrmthcmmntscxbksgtnsfrmdrnrprsnttnthryrmth
+:END:
+: How much representation theory do you already know? If you're just starting out and want a good book to help develop intuition I recommend [Groups, Representations, and Characters](http://product.half.ebay.com/Groups-Representations-and-Characters-by-Victor-E-Hill-1976-Hardcover/1315464&tg=info) by Hill. It takes a sort of naive approach, so it's not awfully rigorous, but I found it to be a great companion to the denser graduate stuff. It doesn't cover harmonic analysis or compact groups, but it was the only gently written text on rep theory I could find during a semester of independent study.
+* [#C] [2019-01-23] [[https://reddit.com/r/math/comments/8i7x6s/everything_about_representation_theory_of_finite/dyq2qxg/][Everything about Representation theory of finite groups]] /r/math
+:PROPERTIES:
+:ID:       wdsrddtcmrmthcmmntsxsvryttrprsnttnthryffntgrpsrmth
+:END:
+:  Really all of QM depends on representation theory. Take a potential, and find all the operations \(rotations, inversions, etc.\) which leave it invariant. For example, take a potential from 3 protons in an equilateral triangle. There are 6 'covering' operations: Rotation by 60/120 degrees with the axis of rotation normal to the plane of the triangle and 3 180 degree rotations about axes in the plane of the triangle. This is the [Dihedral Group D3](http://mathworld.wolfram.com/DihedralGroupD3.html). Like any group, it is closed under multiplication of the elements, where in this case multiplication AB is defined as applying operation B then applying operation A. So a multiplication table can be made that show every possible product in the group.
+:  As of now, the elements of the group are just operations. Representation theory is writing a set of matrices  homomorphic to the group, where each matrix represents a particular operation. In this case, this means the matrices must obey the multiplication table of the group. Keep in mind that setting all matrices to the scalar 1 forms a representation for any group, because If you need to satisfy AB = C then 1\*1 = 1. After a bunch of math, group theory tells us that there are a set number of possible representations with different matrix dimensions \(all square\). At the end of the day, we can define all operations which leave the Hamiltonian in QM unchanged as the group of the Schrodinger equation \(this is the same as saying the group of all operations which commute with the Hamiltonian\). The KE operator has no effect on the symmetry, so we can just look to the potential for the operations which leave the hamiltonian invariant.
+:  Suppose we have some state psi that satisfied H psi = E psi \(the time\-independent Schrodinger Equation\). Act on this equation with one of the operations in the group of the Schrodinger equation. Then RH psi = R E psi, which means H \(R psi\) = E \(R psi\), so \(R psi\) is a new eigenfunction which has the same energy as the original. We can continue with all operations in the group to find all the degenerate wavefunctions corresponding to the eigenvalue E. This set of N wavefunctions \(N is the number of elements in the group\) forms a basis for an N dimensional vector space now. We know any wavefunction in this invariant subspace can be written as a linear combination of the basis vectors, so we can see how R affects each of the basis functions we have chosen. In the terms of linear algebra, R now becomes a transformation matrix that turns the constituent basis vectors into whatever the operator changes them to. These transformation matrices actually form a representation of the group of the Schrodinger equation \(which I haven't proved\). These representations are unique up to a change of basis \(equivalent to a similarity transform\), so this means each possible eigenvalue of the Hamiltonian 'belongs' to a certain representation of the group of the Schrodinger Equation.
+:  Remember that there can be many representations of the same group. Take our D3 group. Representation theory tells us that the only possible representations \(up to similarity transforms\) have dimensionality 1, 1 and 2. Well these representation matrices are the same ones that just came up in the description about the representation for each eigenvalue. From this, we can clearly see that we can only possibly have states with either no degeneracy or a degeneracy of 2 \(remember the dimension of the matrix dictates how many basis functions we need\). Also remember that each eigenvalue has its own representation, so different eigenvalues of the same Hamiltonian can have different degeneracy. This information can be found before we even begin to do calculations involving the Hamiltonian, so that's really nice.
+:  Now, going back to this vector space where we defined basis functions for the degenerate space, we have a convenient way to characterize the state. First we give the eigenvalue, which we commonly label by ordering the eigenvalues from smallest to largest and using it's place as the label n. Now, we have a set of degenerate functions corresponding to this label n, but we can apply a 2nd label \(call it 'l'\) to each basis function. Well now we can uniquely label any eigenfunction of the Hamiltonian with the labels \(n,l\). These are known as quantum numbers, which you've most likely heard in relation to the hydrogen atom. The 3 'p' orbitals are the basis functions for a 3\-dimensional vector space of eigensolutions, and they are generated by applying rotation operators which are in the group of the Schrodinger equation. There's some extra subtlety here, because there is also an s orbital which is degenerate to the p orbitals. Normally, if the degeneracy cannot be explained by symmetry then it is known as an 'accidental' degeneracy, but Fock showed that there is actually a set of operations in 4\-D which exploits the symmetry. The hydrogen potential has the group O\(4\), and you should be able to understand most of the language in the introduction [here](https://www.jstor.org/stable/2100327?seq=1#page_scan_tab_contents). With something like Hydrogen, we actually end up factoring the full group into direct product groups which commute with each other, so we can further simplify the quantum numbers.
+:  Obviously molecules have symmetries arising from their shape, so we know what kind of representations their energy levels must correspond to. By applying a perturbation like an electric field, we can couple different energy levels together which may belong to different representations. Since the perturbation itself will have its own representation within the group, we can use these determine which transitions are allowed by symmetry \(usually called selection rules\). I haven't really given any of the details on why this happens here, but it's an important use. This is how we interpret the results we get from spectroscopy.
+:  Crystals are another place where group theory/representation theory is really important. You have a unit cell of atoms which has some group of operators which leaves it invariant. Then you put it in a lattice, so now we have an infinite number of group elements corresponding to translations by the lattice constant \(in the appropriate directions\). As long as the unit cell \(point group\) lattice is 'compatible' with the lattice, the space group of the crystal can be formed by taking all possibly combinations of operations. We can write the general operation as {R|t} where R is some generalized rotation \(coming from the unit cell symmetries\) and t is a translation \(coming from the repetition symmetry\).
+:  For now let's just look at the group of the translations, and only in one dimension for simplicity. Pick any eigenvalue of the Hamiltonian. We know that the wavefunction\(s\) corresponding to this eigenvalue must be a representation of the group of the Schrodinger equation \(the translation operators\). The group is a cyclic group generated by the element Ta, where Ta is a translation by one 'unit cell.' Cyclic in this case means any general T = Ta\^n for some n. These groups are obviously Abelian since every element will commute \(Ta always commutes with itself and every element is Ta\*Ta\*...\*Ta\).
+:  Well another group theory fact I left out is that there are as many representations of a group as there are conjugacy classes. The conjugacy class of an element A is XAX\^\-1 for all X in the group, repeat this for every element in the group and discard any repeats and you get all the classes.  This means we have a representation for each operator. These classes are way more important than they may have seemed from what I've previously written, because you'll often see groups written in terms of their character table, where character is defined as the trace of the representation matrix. Group elements in the same class will have the same character, this can be pretty easily seen since A and B being in the same class means XAX\^\-1 = B for some X. Well now just think of that instead as matrices, which is what we are doing in our representation. This corresponds to a similarity transform \(notice these showed up before as well\), and it is easily proven that elements connected by a similarity transform have the same trace.
+:  Back to a 1\-dimensional crystal: Clearly each element in an Abelian group forms its own class because the X and X\^\-1 will commute through the A and cancel out, so each element will only generate itself. Crystals actually have a finite number of elements, so the way we have stated the problem the operators won't form a group because they aren't closed under Ta\^\(N\+1\), where we have 'walked off' the end of the crystal. So to simulate the effects of an 'infinite' crystal, we use periodic boundary conditions and suppose that the end loops back around to the beginning. So now we have a nice cyclic group of N elements with N representations since each element forms its own class. The laws of group theory also fix the sum of the squares of the dimensions of the representations to be equal to the number of elements in the group, so this fixes each representation to be one dimensional, or in other words each representation is just some scalar. Say that in a particular representation the generating element Ta is written as r, so r\^N = 1 by the periodic boundary conditions. So r = exp\(2\*pi\*i\*p/h\), where p = 1,2,3 ... h. But since psi must belong to a representation of the group, we must have Ta psi\(x\) = psi\(x \+ a\) = exp\(2\*pi\*i\*p/h\), and we eventually find that any function satisfying these conditions can be written as u\(x\)e\^\(ikx\), which is the very important Bloch Theorem. My derivation here doesn't have all the explanations, and I skipped the entire process of relabeling p to k, but I actually have to go so maybe I'll come back later and fix it.
+* [#C] [2019-01-23] [[https://reddit.com/r/math/comments/8i7x6s/everything_about_representation_theory_of_finite/dyq36b0/][Everything about Representation theory of finite groups]] /r/math
+:PROPERTIES:
+:ID:       wdsrddtcmrmthcmmntsxsvryttrprsnttnthryffntgrpsrmth
+:END:
+: I tried to add at the top that this all follows almost exactly from Tinkham's Group Theory and Quantum Mechanics. But that put me over the character limit so I decided to just say it in a reply. I'm not an expert on this stuff and I don't even have a 100&#37; grasp on the stuff I wrote above, but I'm working on it. Also there's a decent chance you already know basic group theory. I mostly just put that stuff in for myself because I'm terrible at it and I need to repeat it every chance I can get.
+* TODO [#D] [2018-09-03] grand unified theory resources    :study:reprtheory:
+:PROPERTIES:
+:ID:       mngrndnfdthryrsrcs
+:END:
+http://jakobschwichtenberg.com/resources-that-helped-me-understand-grand-unified-theories/
+
+* [2020-08-03] [[https://twitter.com/EricRWeinstein/status/1290383725599973376][Eric Weinstein on Twitter: "You can call S^3 by all of the following names: S^3, Spin(3), SU(2), Sp(1) only they lead to *different* generalizations. Unfortunately Spin(4)=SU(2)xSU(2) is seldom written Spin(4)=Sp(1)xS^3 which should be preferred. But why is one naming better? It‘s because it generalizes." / Twitter]]
+:PROPERTIES:
+:ID:       mnstwttrcmrcrwnstnsttsrcwnmngbttrtsbcstgnrlzstwttr
+:END:
+: You can call S^3 by all of the following names:
+: 
+: S^3, Spin(3), SU(2), Sp(1)
+* DONE [2019-01-20] Physics from Symmetry - Jakob Schwichtenberg - Google Books :book:reprtheory:
+:PROPERTIES:
+:ID:       snphyscsfrmsymmtryjkbschwchtnbrggglbks
+:END:
+- State "STRT"      from "TODO"       [2019-02-27]
+https://books.google.co.uk/books?id=bipBDwAAQBAJ&pg=PA91&lpg=PA91&dq=%22spin+0%22+representation&source=bl&ots=tn4XLPmWDc&sig=ACfU3U1dUSMAyjpvDV-6Vx0f6k0oXTrguw&hl=en&sa=X&ved=2ahUKEwjz7LC_2vzfAhUlQRUIHXxOBrwQ6AEwEHoECBYQAQ#v=onepage&q=%22spin%200%22%20representation&f=false

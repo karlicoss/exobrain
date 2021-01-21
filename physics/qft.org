@@ -155,3 +155,76 @@ https://ncatlab.org/nlab/show/Klein-Gordon+equation#FundamentalSolutions
 :ID:       mnklngrdnsmltnytb
 :END:
 https://www.youtube.com/watch?v=DcbhHZugm8E
+
+* STRT [#C] Peskin -- recommended by Baez                          :qft:book:
+:PROPERTIES:
+:CREATED:  [2018-08-23]
+:ID:       psknrcmmnddbybz
+:END:
+- State "STRT"      from "TODO"       [2019-03-25]
+** [2019-03-25] p. 17  We can think of the three terms, respectively, as the energy cost of "moving"in time, the energy cost of "shearing" in space, and the energy cost of havingthe field around at all. We will investigate this Hamiltonian much further inSections 2.3 and 2.4.
+:PROPERTIES:
+:ID:       mnpwcnthnkfththrtrmsrspctthshmltnnmchfrthrnsctnsnd
+:END:
+
+* [#C] [2019-02-11] [[https://reddit.com/r/AskPhysics/comments/61889v/quantum_field_queries/dfcjefj/][Quantum Field Queries]] /r/AskPhysics
+:PROPERTIES:
+:ID:       mnsrddtcmrskphyscscmmntsvdfcjfjqntmfldqrsrskphyscs
+:END:
+: >I have a few conceptual questions about QFT.
+: >1.) Is renormalization a problem that comes from the use of perturbation theory, or is it something more fundamental?
+: Renormalization is not specific to perturbation theory. For a fully nonperturbative *description* of renormalization, consider the Wilsonian approach to the RG group flow.
+: >Does lattice QFT require the techniques of renormalization?
+: Lattice QFT *displays* renormalization as a feature. On a lattice a theory is simply defined as it is and scattering amplitudes are simply reduced (in principle) to an explicit finite QM problem - there are no field theory techniques to apply at all. Your system is not a QFT; the QFT appears (hopefully) in the limit of lattice spacing -> 0. If you put QED on a lattice you will see in the computed scattering amplitudes the running of α on the energy scale.
+: >3.) It is said that one can derive Einstein-like equations from a massless spin-2 field. Is this done by just using the most important Feynman diagrams, and neglecting the problematic higher order diagrams?
+: This is done keeping only tree-level diagrams, since GR is the classical limit of the quantum theory of gravitons. If you want, you can also add one-loop diags to obtain the hbar^(1) (or semiclassical) corrections to GR. However, you cannot go further since from two-loops onwards the theory is nonrenormalizable and so non-predictive.
+* [#C] [2019-02-11] [[https://reddit.com/r/askscience/comments/4qmntf/why_can_precomputed_sets_of_lattice_qft_field/][Why can precomputed sets of lattice QFT field configurations be used to measure arbitrary observables?]] /r/askscience
+:PROPERTIES:
+:ID:       mnsrddtcmrskscnccmmntsqmndtmsrrbtrrybsrvblsrskscnc
+:END:
+:  My knowledge of quantum mechanics is rusty and my understanding of (lattice) quantum field theory on a very novice level at best, so it is likely my whole question is based on completely wrong assumptions and a lack of understanding.
+: 
+:  Most introductory texts about QFT give some sort of a translation table between quantities in QM and QFT. (see e.g. [top of page 16 here](www.itp.uni-hannover.de/saalburg/Lectures/wiese.pdf) ). A given particle path (over all of which you integrate in the path integral formulation of QM to get the amplitude of a given process) is translated into a given field configuration in QFT (over all of which, again, you integrate in the path integral formulation of QFT).
+: 
+:  As far as I understand, lattice quantum field theory calculations on big high-power computing clusters are effectively generating lots of field configurations (for a given lattice size, spacing, boundary conditions etc, but independent of any "starting conditions"). These field configurations are generated using metropolis MC methods (or similar more advanced importance sampling schemes), based on the action calculated for a given field configuration. In the "list" of output field configurations, the occurence of field configurations is then already weighted by their effective action, so that summing up over them yields the most relevant results without near infinite amounts of practically irrelevant field configurations.
+: 
+:  To extract an observable from such a set of field configurations, one simply sums the value of the observable for all field configurations.
+: 
+:  I wonder why it is possible and reasonable to extract any observable from a pre-computed number of field configurations that did not include any information about what observable one would like to obtain. In other words: how can the action of a field configuration be independent of the process I want to extract afterwards?
+: 
+: 
+:  To maybe clarify a bit further, consider a simple double slit experiment: I want to calculate the QM amplitude of an electron at position A (on one side of the double slit) at time t0 to appear at position B (on the other side of the double slit) at time t1. For this I randomly generate a bunch of paths the satisfy the conditions of my observable (position A at t0, position B at t1) and evaluate their actions. If I want to be smart about it, I do some importance sampling of paths (Metropolis or whatever). However in this scenario, I only generated paths that were connected to the observable I knew I was looking for from the beginning (propagation A->B). I could not change the observable to a different transition amplitude afterwards and use the same paths.
+: 
+:  So how do I unify these two pictures in my head? The only thing I can think of would be to not restrict the generation of QM paths to starting point A and ending point B, instead generating QM paths for all possible starting and end points. Afterwards, to calculate the desired transition amplitude, I could only sum up over paths going from A to B, which would have made the very most of my generated paths absolutely unnecessary. If that should be the case, why to LQFT calculations not restrict the generation of field configurations to such that give a meaningful contribution to a predefined observable?
+* TODO [#C] [Daniel and Jorge Explain the Universe] What is the real charge of the electron? danielAndJorgeExplainTheUniverse  https://podcastaddict.com/episode/106315566 via @PodcastAddict
+:PROPERTIES:
+:CREATED:  [2020-08-04]
+:ID:       dnlndjrgxplnthnvrswhtsthrspdcstddctcmpsdvpdcstddct
+:END:
+
+OK this is pretty fascinating
+Stuff in the freezer analogy for an electron charge
+Electron is surrounded/shielded by a virtual cloud of positrons. So to measure charge +1, the real charge had to be infinite (renormalization)
+Electron gets mass from higgs interaction, but also from virtual photons. But they act as a multiplier? If it wasn't for higgs, it'd have zero mass
+
+* TODO cccccccccccchrome-extension://bjfhmglciegochdpefhhlphglcehbmek/content/web/viewer.html?file=https%3A%2F%2Farxiv.org%2Fpdf%2F1410.6753.pdf
+:PROPERTIES:
+:ID:       cccccccccccchrmxtnsnbjfhmvwrhtmlflsffrxvrgfpdffpdf
+:END:
+:  A situation could arise where we know what the symmetries of the objectare, but we might not know what the object really is.  This is sometimes enough to makepredictions.  For example, we can have a rigid object which is symmetric under rotations,2
+: with the symmetries of a circle.  Then we know that it will roll smoothly on a table.  It canbe a solid cylinder or a hollow cylinder, but both will roll smoothly on a table.  Of course,in other respects the hollow and solid cylinder can behave dierently.  For example, onecan
+: oat in water and the other might not.
+: 
+: then one finds that the condition for banks not to run out of either ofthe currencies, or that the net
+: ow of money across each bridge is zero, is equivalent toMaxwell's equations.
+
+** TODO man, this pdf is fucking cool. realltry to understand it.
+:PROPERTIES:
+:ID:       mnthspdfsfckngclrlltrytndrstndt
+:END:
+
+* [#B] [2020-08-14] [[https://www.damtp.cam.ac.uk/user/dbs26/AQFT.html][David Skinner -- Advanced Quantum Field Theory -- University of Cambridge]]
+:PROPERTIES:
+:ID:       frswwwdmtpcmcksrdbsqfthtmdqntmfldthrynvrstyfcmbrdg
+:END:
+: QFT in Zero Dimensions:

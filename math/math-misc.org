@@ -313,3 +313,20 @@ Might be unstable, stiff equations. The first type of equations is something wha
 :ID:       bckwrdlr
 :END:
 Implicit: G(Y(t + dt), Y(t)) = 0
+* [#D] [2018-12-03] Is a functional derivative a generalized function? - Mathematics Stack Exchange
+:PROPERTIES:
+:ID:       mnsfnctnldrvtvgnrlzdfnctnmthmtcsstckxchng
+:END:
+https://math.stackexchange.com/questions/908499/is-a-functional-derivative-a-generalized-function
+
+** [2018-12-09] so, generally functional derivative is a (functional?) distribution: <dF[f]/df, v> = lim (F(f + eps v) - F(f)) / eps. However if a functional is 'good' enough, it can be represented as normal functional (as an integral).
+:PROPERTIES:
+:ID:       snsgnrllyfnctnldrvtvsfnctrprsntdsnrmlfnctnlsnntgrl
+:END:
+* DONE [#B] hmmm cauchy riemann are just like euler lagrance! wonder if there is some direct analogy? :math:
+:PROPERTIES:
+:CREATED:  [2018-11-24]
+:ID:       hmmmcchyrmnnrjstlklrlgrncwndrfthrssmdrctnlgy
+:END:
+
+Not really.. the derivatives are pretty different

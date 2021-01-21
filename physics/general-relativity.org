@@ -396,3 +396,98 @@ http://www.physicspages.com/Index%20-%20Relativity.html
 :PROPERTIES:
 :ID:       rltd
 :END:
+* TODO [#C] [2018-07-25] The Meaning of Einstein's Equation            :baez:
+:PROPERTIES:
+:ID:       wdthmnngfnstnsqtn
+:END:
+http://math.ucr.edu/home/baez/einstein/
+
+* STRT [#C] make up some crazy metric (e.g. g = Diag[x^2y^2z^2, 1, 1]) can we do something cool about it? :think:
+:PROPERTIES:
+:CREATED:  [2018-07-10]
+:ID:       mkpsmcrzymtrcggdgxyzcnwdsmthngclbtt
+:END:
+
+* TODO [#C] susskind lectures                                   :study:watch:
+:PROPERTIES:
+:ID:       ssskndlctrs
+:END:
+: General Relativity by Leonard Susskind. Особенно хороши серии 6 и 9. В 9-й type-directed вывод уравнения Эйнштейна, невероятно красиво.
+
+* [#C] [2019-06-18] MITGameLab/OpenRelativity: An open source framework to add the effects of traveling at relativistic speeds to visualizations or games :game:
+:PROPERTIES:
+:ID:       tmtgmlbpnrltvtynpnsrcfrmwgtrltvstcspdstvslztnsrgms
+:END:
+https://github.com/MITGameLab/OpenRelativity
+** [2019-06-18] OpenRelativity: An Open-Source Toolkit for Unity3D by MIT Game Lab - YouTube :vr:
+:PROPERTIES:
+:ID:       tpnrltvtynpnsrctlktfrntydbymtgmlbytb
+:END:
+https://www.youtube.com/watch?v=qol-zP9W5J4
+: OpenRelativity: An Open-Source Toolkit for Unity3D by MIT Game Lab
+
+nice VR visulaisations of lorenz contraction and redshift
+* TODO [#D] https://flannelhead.github.io/posts/2016-03-11-blackstar.html
+:PROPERTIES:
+:CREATED:  [2018-04-03]
+:ID:       sflnnlhdgthbpstsblckstrhtml
+:END:
+
+raytracer on haskell
+
+* [#C] [2018-11-20] general relativity - Why is the covariant derivative of the metric tensor zero? - Physics Stack Exchange
+:PROPERTIES:
+:ID:       tgnrlrltvtywhysthcvrntdrvmtrctnsrzrphyscsstckxchng
+:END:
+https://physics.stackexchange.com/questions/47919/why-is-the-covariant-derivative-of-the-metric-tensor-zero
+* [#C] [2018-11-19] differential geometry - Is there a good way to compute Christoffel Symbols - Mathematics Stack Exchange
+:PROPERTIES:
+:ID:       mndffrntlgmtrysthrgdwytcmfflsymblsmthmtcsstckxchng
+:END:
+https://math.stackexchange.com/questions/24294/is-there-a-good-way-to-compute-christoffel-symbols
+
+* [#C] [2018-11-19] differential geometry - Why may geodesic not be the shortest path on a surface? - Mathematics Stack Exchange
+:PROPERTIES:
+:ID:       mndffrntlgmtrywhymygdscnttpthnsrfcmthmtcsstckxchng
+:END:
+https://math.stackexchange.com/questions/1432985/why-may-geodesic-not-be-the-shortest-path-on-a-surface
+
+* [2020-07-21] [[https://physics.stackexchange.com/questions/235307/so-black-holes-actually-merge-in-1-5th-of-a-second-how][gravitational waves - So Black Holes Actually Merge! In 1/5th of a Second - How? - Physics Stack Exchange]]
+:PROPERTIES:
+:ID:       tsphyscsstckxchngcmqstnssnthfscndhwphyscsstckxchng
+:END:
+: The same principle applies to the merging black holes. We have two objects that can't actually be real black holes because in any finite universe we know real black holes cannot exist. However they are experimentally indistinguishable from real black holes.
+* [2020-07-21] [[https://physics.stackexchange.com/questions/26515/what-is-exactly-the-density-of-a-black-hole-and-how-can-it-be-calculated][event horizon - What is exactly the density of a black hole and how can it be calculated? - Physics Stack Exchange]]
+:PROPERTIES:
+:ID:       tsphyscsstckxchngcmqstnswcntbclcltdphyscsstckxchng
+:END:
+: Alternatively, a super supermassive black hole with the mass of 4.3 billion Suns would have a density equal to one i.e. the same density as water.
+* [2020-07-21] [[https://physics.stackexchange.com/questions/196542/is-a-black-holes-mass-uniformly-distributed][general relativity - Is a black hole's mass uniformly distributed? - Physics Stack Exchange]]
+:PROPERTIES:
+:ID:       tsphyscsstckxchngcmqstnssmlydstrbtdphyscsstckxchng
+:END:
+: For some reason it is popular to ignore the part where you have to wait a long time and you only get approximately the simple solution. Really it is just that there are only a small number of rather simple back holes that things can approach over time. There are many ways it can be as it approaches the final state. It's like if you leave some hot metal out in a room, there is just one final temperature it approaches, an equilibrium temperature, but it takes forever to reach it, so it is always a bit hotter than the room but starts to get really really really close.
+* [2020-07-21] [[https://astronomy.stackexchange.com/questions/21422/why-does-gas-form-a-star-instead-of-a-black-hole/21434#21434?newreg=7160bc0c46e4439b89cd910f7c72a20e][Why does gas form a star instead of a black hole? - Astronomy Stack Exchange]]
+:PROPERTIES:
+:ID:       tsstrnmystckxchngcmqstnswstdfblckhlstrnmystckxchng
+:END:
+: n the present day universe, this does not happen for two reasons. First, the gas is unstable to fragmentation as it collapses. The reason for this is that the Jeans mass, the smallest mass that is likely to collapse, scales as T3/2/ρ1/2, where T is the temperature and ρ the density. If the gas can cool as it collapses, then the temperature remains roughly constant, the Jeans mass falls and the cloud breaks up into smaller cores. These cores are usually much smaller than the (at least) several solar masses required to form a black hole (see below).
+* [2020-07-21] [[https://www.forbes.com/sites/startswithabang/2020/01/11/ask-ethan-does-a-time-stopping-paradox-prevent-black-holes-from-growing/][Ask Ethan: Does A Time-Stopping Paradox Prevent Black Holes From Growing?]]
+:PROPERTIES:
+:ID:       tswwwfrbscmstsstrtswthbnggprdxprvntblckhlsfrmgrwng
+:END:
+: The thing is, with an extra solar mass of material at just a little more than 3 kilometers away from the predicted central singularity, we now have two solar masses of material in this particular region of space. The event horizon of a two solar mass object is 6 kilometers in radius, meaning that all of this material is now inside the event horizon, after all!
+* [2020-07-21] [[https://www.forbes.com/sites/forbes-personal-shopper/2020/07/20/best-tower-fan-2020/][The Best Tower Fans To Cool Down Your Home]]
+:PROPERTIES:
+:ID:       tswwwfrbscmstsfrbsprsnlshwrfnthbsttwrfnstcldwnyrhm
+:END:
+: Black holes really do grow over time, and all observers can agree exactly when and by how much.
+
+I guess basically, different observers may disagree how big are the black holes.
+
+For an observer falling into the black hole with a lot of mass, the black hole would be smaller. Whereas for an observer outside the black hole, they might already be inside the 'new' even horizon
+* TODO hmm, how would forces work inside the black hole event horizon if the force carriers can't go backwards? :quantum:
+:PROPERTIES:
+:CREATED:  [2021-01-17]
+:ID:       hmmhwwldfrcswrknsdthblckhrznfthfrccrrrscntgbckwrds
+:END:

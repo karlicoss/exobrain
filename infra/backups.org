@@ -1,0 +1,63 @@
+#+TITLE: Backups
+#+filtegags: backup
+* TODO [#C] [2019-02-14] Notes - Gwern.net                           :backup:
+:PROPERTIES:
+:ID:       thntsgwrnnt
+:END:
+https://www.gwern.net/Notes#november-2016-data-loss-postmortem
+: (In July 2017, I realized that my arbtt window-tracking logs, which I keep for productivity analyses, hadn’t been updated since December 2016, costing me over half a year of data; I discovered that I had deleted my local user binaries because they were compiled on the previous system, but had forgotten to reinstall arbtt locally and my cron job hardwired the local version. This was because the arbtt packaged by Debian/Ubuntu was too outdated so I installed from HEAD, and then the error from the missing binary was not reported in system emails because the call is wrapped in an infinite loop which ignores errors; and that was because arbtt would segfault once a month & stop recording data. I reinstalled arbtt, checked that the latest version worked & removed the hardwiring, and added a daily arbtt report which would expose any lack of data collection - but the lost data is forever.)
+
+* TODO [#C] Zfs and full fs backup?
+:PROPERTIES:
+:CREATED:  [2018-05-16]
+:ID:       zfsndfllfsbckp
+:END:
+
+** https://www.reddit.com/r/DataHoarder/wiki/zfs
+:PROPERTIES:
+:ID:       swwwrddtcmrdthrdrwkzfs
+:END:
+* STRT [#C] backups and cloud sync should be treated differently     :backup:
+:PROPERTIES:
+:CREATED:  [2019-04-03]
+:ID:       bckpsndcldsyncshldbtrtddffrntly
+:END:
+
+* [#C] [2019-11-14] GitHub Archive Program | The GitHub Archive Program will safely store every public GitHub repo for 1,000 years in the Arctic World Archive in Svalbard, Norway.
+:PROPERTIES:
+:ID:       thgthbrchvprgrmthgthbrchvthrctcwrldrchvnsvlbrdnrwy
+:END:
+https://archiveprogram.github.com/
+
+* TODO [#C] three purposes?                                     :blog:backup:
+:PROPERTIES:
+:CREATED:  [2020-02-26]
+:ID:       24da6861-159f-42f4-b768-9fce2956d4eb
+:END:
+- replication (more for convenience), e.g. cloud
+- disk failures
+- emergency/prepping (i.e. 'grab your shit and run away' scenario)
+* TODO [#C] Use my own script instead of sms backup/restore? Not sure if would need it for phone migration though :phone:backup:
+:PROPERTIES:
+:CREATED:  [2020-08-21]
+:ID:       smywnscrptnstdfsmsbckprstntsrfwldndtfrphnmgrtnthgh
+:END:
+
+* TODO [#D] [2020-04-05] huginn/example_backup.rb at master · huginn/huginn :backup:huginn:
+:PROPERTIES:
+:ID:       snhgnnxmplbckprbtmstrhgnnhgnn
+:END:
+https://github.com/huginn/huginn/blob/master/doc/deployment/backup/example_backup.rb
+uh. fuck it's a bit complicated...
+* [#B] [2020-02-27] [[https://reddit.com/r/fossdroid/comments/faezd9/termux_for_what_are_you_using_it/fixo397/][Termux: For what are you using it?]] /r/fossdroid :backup:
+:PROPERTIES:
+:ID:       thsrddtcmrfssdrdcmmntsfzdtfxtrmxfrwhtrysngtrfssdrd
+:END:
+:  Make backups of my phone and camera (external SD card) with an USB-C SD reader and usb A female, and an SATA SSD (using a SATA to USB A adapter). I use restic with a simple bash wrapper.
+:  I make a copy every night and then I keep the disk in the hotel. If someone stoles or I lose my camera bag, I would just lose the pictures taken that day.
+:  EDIT: *restic, not Borg. I couldn't make Borg to work.
+* [2020-04-30] [[https://brokensandals.net/technical/backup-tooling/][Backup tooling]]
+:PROPERTIES:
+:ID:       thsbrknsndlsnttchnclbckptlngbckptlng
+:END:
+: I'm a little bit of a data hoarder. When an app or cloud service becomes an important part of my life, I try to have some process in place to regularly backup my information from it. An excellent post by karlicoss on "Building data liberation infrastructure" inspired me to improve my own processes and share them.

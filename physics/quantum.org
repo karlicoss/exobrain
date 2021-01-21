@@ -156,3 +156,201 @@ two identical particles can't occupy same single-particle states. Pauli exclusio
 :PROPERTIES:
 :ID:       rltd
 :END:
+
+* [#B] [2019-05-06] quantum mechanics - What equation describes the wavefunction of a single photon? - Physics Stack Exchange
+:PROPERTIES:
+:ID:       mnqntmmchncswhtqtndscrbstnfsnglphtnphyscsstckxchng
+:END:
+https://physics.stackexchange.com/questions/437/what-equation-describes-the-wavefunction-of-a-single-photon
+: In quantum field theory, the Dirac equation and the Schrödinger equation have very different roles. The Dirac equation is an equation for the field, which is not a particle. The time evolution of a particle, ie, a quantum state, is always given by the Schrödinger equation. The hamiltonian for this time evolution is written in terms of fields which obey a certain equation themselves. So, the proper answer is: Schrödinger equation with a hamiltonian given in terms of a massless vector field whose equation is nothing else but Maxwell's equation.
+* [#B] [2019-05-06] wavefunction - Can particle quantum spin be described with a wave function? - Physics Stack Exchange :spin:
+:PROPERTIES:
+:ID:       mnwvfnctncnprtclqntmspnbdwthwvfnctnphyscsstckxchng
+:END:
+https://physics.stackexchange.com/questions/251673/can-particle-quantum-spin-be-described-with-a-wave-function
+: Within the context of first quantization (the Schrodinger equation), spin itself is not characterized by the spatial or momentum space wave function (the function that defines a complex quantity over all space). It is instead treated with a separate Hilbert space that quantifies the spin states 'tacked on' to this wavefunction by an outer product. It is a matter of semantics whether you consider 'wavefunction' to refer to the complex field alone, or the composite field/spin hilbert spaces.
+: 
+: More advanced field equations incorporate spin more naturally. The Dirac equation, for example, no longer describes the evolution of a complex scalar field, but the evolution of a four-vector, that naturally describes spin states. For this system, spin isis characterized in the wavefunction itself.
+* TODO [#C] [2019-05-29] Anyon - Wikipedia
+:PROPERTIES:
+:ID:       wdnynwkpd
+:END:
+https://en.wikipedia.org/wiki/Anyon
+: So it can be seen that the topological notion of equivalence comes from a study of the Feynman path integral.[3]:28
+* TODO [#C] [2019-05-29] Spin–statistics theorem - Wikipedia
+:PROPERTIES:
+:ID:       wdspnsttstcsthrmwkpd
+:END:
+https://en.wikipedia.org/wiki/Spin%E2%80%93statistics_theorem
+
+* [#C] [2019-05-29] [[https://reddit.com/r/askscience/comments/34aevv/why_are_all_particles_bosons_or_fermions/cqstqvp/][Why are all particles bosons or fermions?]] /r/askscience (on anyons)
+:PROPERTIES:
+:ID:       wdsrddtcmrskscnccmmntsvvwclsbsnsrfrmnsrskscncnnyns
+:END:
+:  Excellent questions - the answers are very subtle.
+: 
+:  First of all, let's look at your first question, why exchange has to be symmetric or antisymmetric. You may be surprised to know that It's actually a peculiarity of having 3 (actually, just of having more than 2) spatial dimensions.
+: 
+:  To see why this is, let's think first about how to implement particle exchange. A careful way to do this is to imagine that you start with two particles and slowly drag one of them around the other one until it's on the other side, then slide both particles over so that they are in the initial positions. You should try to draw this if my description is confusing. The statistics shouldn't depend on *how* you drag one particle around the other, just that you complete one half loop.
+: 
+:  Now, suppose you exchange the particles twice. That's the same as dragging one particle halfway around the other, and then doing it again, that is, having one particle make a full loop around the other one. Now here's the key point: again, the result here shouldn't depend on the exact shape or size of the loop, only that the particles have been exchanged twice. In two dimensions, this loop must contain the other particle, and you cannot shrink the loop to zero size without crashing the first particle into the second at some point. However, in three dimensions, you can push the loop out of the original plane - in fact, you can shrink the loop to zero size while always keeping the first particle far away from the second particle. (Sorry I don't have pictures! Try drawing some.) This means that two exchanges *must* have the same effect as doing nothing at all, since the statistics shouldn't depend on what the loop looks like! That is, a single exchange can *only* either give you a minus sign or no change at all, so that you get no change upon doing it twice. In 2D, this is not true - in fact, you can get [anyons](http://en.wikipedia.org/wiki/Anyon) in 2D.
+: 
+:  This exhausts my expertise for lay explanations to your questions - unfortunately I don't have a non-technical answer to the others. Hopefully someone else can fill in. But I'll give a couple of starting points.
+: 
+:  Your second question, of why a particle can't have other spins. ~~It's a result of putting special relativity and quantum mechanics together, actually, in 3 spatial dimensions. For the mathematically inclined, it has to do with the fact that 1/2-integer and integer spins are the only allowed representations of the Lorentz group (which is the set of symmetries of spacetime in special relativity).~~ (EDIT: Important correction given as a response.)
+: 
+:  And finally, the connection between the two - the [spin-statistics theorem](http://en.wikipedia.org/wiki/Spin%E2%80%93statistics_theorem) tells you that bosons have integer spin and fermions have half-integer spin. This again relies on special relativity and having 3 spatial dimensions.
+* TODO [#C] so QCD is very hard computationaly and unsolved for atomic nuclei energy scales. wonder if I could contribute :think:qcd:
+:PROPERTIES:
+:CREATED:  [2018-08-17]
+:ID:       sqcdsvryhrdcmpttnlyndnslvnclnrgysclswndrfcldcntrbt
+:END:
+
+* [#C] [2014-11-24] А также хочу осознать книжку Teschlа по квантовой механике( :self:
+:PROPERTIES:
+:ID:       mnатакжехочуосознатькнижкtschlапоквантовоймеханике
+:END:
+http://twitter.com/statuses/536870238781194240
+
+
+* [#C] [2019-05-29] What exactly are anyons and how are they relevant to topological quantum computing? - Quantum Computing Stack Exchange
+:PROPERTIES:
+:ID:       wdwhtxctlyrnynsndhwrthyrlcmptngqntmcmptngstckxchng
+:END:
+https://quantumcomputing.stackexchange.com/questions/2030/what-exactly-are-anyons-and-how-are-they-relevant-to-topological-quantum-computi
+
+* [#C] [2019-05-29] What exactly are anyons and how are they relevant to topological quantum computing? - Quantum Computing Stack Exchange
+:PROPERTIES:
+:ID:       wdwhtxctlyrnynsndhwrthyrlcmptngqntmcmptngstckxchng
+:END:
+https://quantumcomputing.stackexchange.com/questions/2030/what-exactly-are-anyons-and-how-are-they-relevant-to-topological-quantum-computi
+
+* [#C] [2019-05-29] [[https://reddit.com/r/askscience/comments/34aevv/why_are_all_particles_bosons_or_fermions/cqsutjj/][Why are all particles bosons or fermions?]] /r/askscience
+:PROPERTIES:
+:ID:       wdsrddtcmrskscnccmmntsvvwllprtclsbsnsrfrmnsrskscnc
+:END:
+: > Your second question, of why a particle can't have other spins. It's a result of putting special relativity and quantum mechanics together, actually, in 3 spatial dimensions. For the mathematically inclined, it has to do with the fact that 1/2-integer and integer spins are the only allowed representations of the Lorentz group (which is the set of symmetries of spacetime in special relativity).
+: 
+: Actually, plain old rotational symmetry in 3D will give you the restriction to half-integer and integer spins. Adding special relativity will give you the notions of chirality and helicity, as well as the spin-statistics theorem.
+
+* [#C] [2019-02-20] Aspects of objectivity in quantum mechanics
+:PROPERTIES:
+:ID:       wdspctsfbjctvtynqntmmchncs
+:END:
+http://philsci-archive.pitt.edu/223/1/Objectivity.pdf
+: The best summary can be found starting at page 7 in http://philsci-archive.pitt.edu/223/1/Objectivity.pdf
+: Especially: "local gauge invariance in quantum theory does not imply the existence of an external electromagnetic field"!
+** [#C] [2019-02-20] Aspects of objectivity in quantum mechanics
+:PROPERTIES:
+:ID:       wdspctsfbjctvtynqntmmchncs
+:END:
+http://philsci-archive.pitt.edu/223/1/Objectivity.pdf
+yeah, it's got some pretty interesting results... definitely read more
+* TODO [#D] [2018-12-18] quantum mechanics - A "Hermitian" operator with imaginary eigenvalues - Physics Stack Exchange
+:PROPERTIES:
+:ID:       tqntmmchncshrmtnprtrwthmgnrygnvlsphyscsstckxchng
+:END:
+:  https://physics.stackexchange.com/questions/81041/a-hermitian-operator-with-imaginary-eigenvalues?rq=1
+:  For your model, the classical hamiltonian H=12(q3p+pq3)=q3pH=12(q3p+pq3)=q3p produces the Hamilton equations
+: ⎧⎩⎨p˙=−∂H∂q=q˙=∂H∂p=3q2p,q3.
+: {p˙=−∂H∂q=3q2p,q˙=−∂H∂p=q3.
+: These are fairly easy to solve, and the solutions are not well behaved:
+: ⎧⎩⎨⎪⎪12q2p20p2=t0−t,=(t0−t)3,
+: {12q2=t0−t,p02p2=(t0−t)3,
+: where t0t0 and p0p0 are constants of integration. Note, in particular, that there are no (real) solutions after a certain time t0=tin+12q(tin)2t0=tin+12q(tin)2. How, then, are you expecting reasonable physics out of the quantized version of this?
+
+* TODO [#D] [2018-10-17] Baez on hologram principle
+:PROPERTIES:
+:ID:       wdbznhlgrmprncpl
+:END:
+: String theorists like anti-de Sitter spacetime... but it's very weird.  In 2d it's the hyperboloid shown here!  Time loops around in a circle, while space extends infinitely far left and right.   (The blue cone is just for fun, not part of the spacetime.)
+: (continued) https://t.co/hxTWwjiH6a
+
+https://twitter.com/johncarlosbaez/status/1052634350695501824
+
+* TODO [#D] [2018-12-24] quantum mechanics - Infinite square well in momentum space - Physics Stack Exchange
+:PROPERTIES:
+:ID:       mnqntmmchncsnfntsqrwllnmmntmspcphyscsstckxchng
+:END:
+https://physics.stackexchange.com/questions/52768/infinite-square-well-in-momentum-space/289368#289368
+:  space is a bounded region of the real axis, so no translation group can be defined
+
+huh, that's interesting...
+
+* TODO [#D] [2018-12-24] quantum mechanics - Conservation of momentum in infinite square well - Physics Stack Exchange
+:PROPERTIES:
+:ID:       mnqntmmchncscnsrvtnfmmntmnfntsqrwllphyscsstckxchng
+:END:
+https://physics.stackexchange.com/questions/232831/conservation-of-momentum-in-infinite-square-well
+
+* [#D] [2019-01-28] [[https://reddit.com/r/Physics/comments/ad23sp/why_the_schrodinger_equation_fails_at_relativity/ede2t8f/][Why The Schrodinger Equation Fails at Relativity]] /r/Physics
+:PROPERTIES:
+:ID:       mnsrddtcmrphyscscmmntsdsprdngrqtnflstrltvtyrphyscs
+:END:
+: Physics students always say that the Schrodinger equation doesn't hold for SR, but it does. It's not the Schrodinger equation that fails though, it's the non-relativistic Hamiltonian that fails. The Dirac equation *is* the Schrodinger equation, but with the Dirac Hamiltonian. The Schrodinger equation is valid.
+** [#D] [2019-01-28] [[https://reddit.com/r/Physics/comments/ad23sp/why_the_schrodinger_equation_fails_at_relativity/edpla85/][Why The Schrodinger Equation Fails at Relativity]] /r/Physics
+:PROPERTIES:
+:ID:       mnsrddtcmrphyscscmmntsdsprdngrqtnflstrltvtyrphyscs
+:END:
+: Yeah the schroedinger equation just defines the hamiltonian as the generator of time translations, it can't be *wrong* any more than the number 4 can be wrong.
+* [2020-07-21] [[https://physics.stackexchange.com/questions/506695/is-schrodingers-cat-itself-an-observer/506701][quantum mechanics - Is Schrodinger's Cat itself an observer? - Physics Stack Exchange]]
+:PROPERTIES:
+:ID:       tsphyscsstckxchngcmqstnsstslfnbsrvrphyscsstckxchng
+:END:
+: The point is, it has made you think about the issue. Whereas we all might agree a hydrogen atom is not an observer and a human is an observer, the case of a cat is not so clear. The point of the thought experiment is to expose problems with the Copenhagen interpretation - which it does very successfully.
+* [2020-07-21] [[https://physics.stackexchange.com/questions/506695/is-schrodingers-cat-itself-an-observer/506701][quantum mechanics - Is Schrodinger's Cat itself an observer? - Physics Stack Exchange]]
+:PROPERTIES:
+:ID:       tsphyscsstckxchngcmqstnsstslfnbsrvrphyscsstckxchng
+:END:
+: As you open the box, this quantum state again evolves unitarily (i.e. without any kind of "collapse") into
+* [2020-07-21] [[https://en.wikipedia.org/wiki/Copenhagen_interpretation#1._Schr%C3%B6dinger's_cat][Copenhagen interpretation - Wikipedia]]
+:PROPERTIES:
+:ID:       tsnwkpdrgwkcpnhgnntrprttndngrsctcpnhgnntrprttnwkpd
+:END:
+:  Wigner's friend
+: 
+:     Wigner puts his friend in with the cat. The external observer believes the system is in state ( | dead ⟩ + | alive ⟩ ) / 2 {\displaystyle (|{\text{dead}}\rangle +|{\text{alive}}\rangle )/{\sqrt {2}}} (|{\text{dead}}\rangle +|{\text{alive}}\rangle )/{\sqrt {2}}. However, his friend is convinced that the cat is alive, i.e. for him, the cat is in the state | alive ⟩ {\displaystyle |{\text{alive}}\rangle } |{\text{alive}}\rangle . How can Wigner and his friend see different wave functions?
+: 
+:     The Copenhagen interpretation: The answer depends on the positioning of Heisenberg cut, which can be placed arbitrarily. If Wigner's friend is positioned on the same side of the cut as the external observer, his measurements collapse the wave function for both observers. If he is positioned on the cat's side, his interaction with the cat is not considered a measurement.
+: 
+** [2020-07-21] hmm, heisenber's cut is kinda like event horizon??
+:PROPERTIES:
+:ID:       thmmhsnbrsctskndlkvnthrzn
+:END:
+* [2020-08-01] [[http://physics.gu.se/~tfkhj/TOPO/DiracEquation.pdf][Untitled - DiracEquation.pdf]]
+:PROPERTIES:
+:ID:       stphyscsgstfkhjtpdrcqtnpdfnttlddrcqtnpdf
+:END:
+* [2020-08-03] [[https://www.youtube.com/watch?v=tR6UebCvFqE&list=WL&index=11&t=137s][(2) Quantum Mechanics 12b - Dirac Equation II - YouTube]]
+:PROPERTIES:
+:ID:       mnswwwytbcmwtchvtrbcvfqlsndxtsqntmmchncsbdrcqtnytb
+:END:
+studying spinors -- try to translate dirac equation solution from moving reference frame (only p_x component) to still
+* TODO [2020-08-03] [[https://www.youtube.com/watch?v=tR6UebCvFqE&list=WL&index=11&t=137s][(2) Quantum Mechanics 12b - Dirac Equation II - YouTube]]
+:PROPERTIES:
+:ID:       mnswwwytbcmwtchvtrbcvfqlsndxtsqntmmchncsbdrcqtnytb
+:END:
+make some flashcards from this video..
+* DONE [#B] [2019-01-07] quantum mechanics - How is the Schroedinger equation a wave equation? - Physics Stack Exchange :pde:
+:PROPERTIES:
+:ID:       mnqntmmchncshwsthschrdngrqtnwvqtnphyscsstckxchng
+:END:
+https://physics.stackexchange.com/questions/75363/how-is-the-schroedinger-equation-a-wave-equation/75374#75374
+: Actually, a wave equation is any equation that admits wave-like solutions, which take the form f(x⃗ ±v⃗ t)f(x→±v→t). The equation ∂2f∂t2=c2∇2f∂2f∂t2=c2∇2f, despite being called "the wave equation," is not the only equation that does this.
+
+hmm, so if you do variable transform and substitute in pde, the substitution behaves like a wave... interesting
+
+* [#B] [2020-08-11] [[https://en.wikipedia.org/wiki/Majorana_equation][Majorana equation - Wikipedia]] :sm:
+:PROPERTIES:
+:ID:       tsnwkpdrgwkmjrnqtnmjrnqtnwkpd
+:END:
+right, so it's unclear whether neutrinos get their mass from Higgs or something else
+
+So far most particles we discovered seem to be described by Dirac equation? We haven't seen evidence of Majorana particles so far?
+* [#B] [2020-08-12] [[https://studfile.net/preview/5767029/page:17/][Circular reasoning?]] :spinor:
+:PROPERTIES:
+:ID:       wdsstdflntprvwpgcrclrrsnng
+:END:
+: We can even deﬁne a ‘metric’ that is antisymmetric: a two-dimensional space called spinor space has such a metric, and it turns out to be of fundamental importance in physics.
+
+hmm, interesting

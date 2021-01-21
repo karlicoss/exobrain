@@ -76,11 +76,6 @@ http://sourceware.org/gdb/current/onlinedocs/gdb/Forks.html
 :END:
 https://sourceware.org/gdb/onlinedocs/gdb/Break-Commands.html
 
-* TODO [#D] organelle is quite good?                       :project:org:name:
-:PROPERTIES:
-:CREATED:  [2019-09-17]
-:ID:       rgnllsqtgd
-:END:
 * [#C] [2019-11-01] Why TDD Isn't Crap • Hillel Wayne               :testing:
 :PROPERTIES:
 :ID:       frwhytddsntcrphlllwyn
@@ -105,7 +100,7 @@ https://twitter.com/awesome__re/status/1138001812718440448
 :END:
 https://www.rapidtables.com/web/color/index.html
 
-* TODO [#C] [2020-11-17] [[https://github.com/actions/virtual-environments/issues/1816][Ubuntu-latest workflows will use Ubuntu-20.04 · Issue #1816 · actions/virtual-environments]] :ci:
+* TODO [#C] [2020-11-17] [[https://github.com/actions/virtual-environments/issues/1816][Ubuntu-latest workflows will use Ubuntu-20.04 · Issue 1816 · actions/virtual-environments]] :ci:
 :PROPERTIES:
 :ID:       tsgthbcmctnsvrtlnvrnmntsswllsbntssctnsvrtlnvrnmnts
 :END:
@@ -135,16 +130,6 @@ wow, nice
 :END:
 : I switched to NeoVim a few years ago and I'm not entirely sure whether Vim has caught up in features, diverged, or what ratio of the two. That said, I'm not switching back. The only editor I'm really interested in is VSCode. Not that I use it much, but I am very impressed.
 
-* TODO [#C] [2019-09-01] docopt—language for description of command-line interfaces http://docopt.org/ :literate:
-:PROPERTIES:
-:ID:       sndcptlnggfrdscrptnfcmmndlnntrfcsdcptrg
-:END:
-: docopt helps you:
-: 
-: define the interface for your command-line app, and
-: automatically generate a parser for it.
-: 
-: docopt is based on conventions that have been used for decades in help messages and man pages for describing a program's interface. An interface description in docopt is such a help message, but formalized. Here is an example:
 * [#C] [2019-08-18] Highlights from Git 2.23 - The GitHub Blog          :git:
 :PROPERTIES:
 :ID:       snhghlghtsfrmgtthgthbblg
@@ -164,3 +149,26 @@ https://github.blog/2019-08-16-highlights-from-git-2-23/
 Configure your git blame to ignore cleanup changes.
 
 https://www.moxio.com/blog/43/ignoring-bulk-change-commits-w...
+* TODO [#C] [2019-08-11] alexmojaki/heartrate: Simple real time visualisation of the execution of a Python program. :viz:
+:PROPERTIES:
+:ID:       snlxmjkhrtrtsmplrltmvslstnfthxctnfpythnprgrm
+:END:
+https://github.com/alexmojaki/heartrate
+* [#C] [2019-07-23] SomethingNew/Resources.md at master · d-cook/SomethingNew :programming:
+:PROPERTIES:
+:ID:       tsmthngnwrsrcsmdtmstrdcksmthngnw
+:END:
+https://github.com/d-cook/SomethingNew/blob/master/Resources.md
+
+* [#C] [2019-07-23] SomethingNew/Concepts.md at master · d-cook/SomethingNew
+:PROPERTIES:
+:ID:       tsmthngnwcncptsmdtmstrdcksmthngnw
+:END:
+https://github.com/d-cook/SomethingNew/blob/master/Concepts.md
+* TODO [#D] PandaPy has the speed of NumPy and the usability of Pandas
+:PROPERTIES:
+:CREATED:  [2020-01-25]
+:ID:       pndpyhsthspdfnmpyndthsbltyfpnds
+:END:
+
+: PandaPy has the speed of NumPy and the usability of Pandas - https://news.ycombinator.com/item?id=22142869

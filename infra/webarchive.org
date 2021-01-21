@@ -1,0 +1,285 @@
+#+TITLE: Web archival
+#+filetags: :webarchive:
+
+* related                                                     :infra:linkrot:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
+* [#A] * why?
+:PROPERTIES:
+:ID:       why
+:END:
+** TODO motivation: If I do it, I would be able to search on all pages I ever visited :search:memex:
+:PROPERTIES:
+:CREATED:  [2019-04-19]
+:ID:       mtvtnfdtwldbbltsrchnllpgsvrvstd
+:END:
+** STRT [#B] Archiving-URLs - Gwern.net
+:PROPERTIES:
+:CREATED:  [2018-06-21]
+:ID:       rchvngrlsgwrnnt
+:END:
+: The most ambitious & total approach to local caching is to set up a proxy to do your browsing through, and record literally all your web traffic; for example, using Live Archiving Proxy (LAP) or WarcProxy which will save as WARC files every page you visit through it. (Zachary Vance explains how to set up a local HTTPS certificate to MITM your HTTPS browsing as well.)
+: 
+: One may be reluctant to go this far, and prefer something lighter-weight, such as periodically extracting a list of visited URLs from one’s web browser and then attempting to archive them.
+
+*** START [2018-11-05] just backup everything you can find in promnesia? :promnesia:
+:PROPERTIES:
+:ID:       mnjstbckpvrythngycnfndnprmns
+:END:
+
+* [#B] * archivebox                                              :archivebox:
+:PROPERTIES:
+:ID:       rchvbx
+:END:
+The tool I'm currently using, very decent https://github.com/ArchiveBox/ArchiveBox#readme
+** STRT [#B] ok, first instapaper run
+:PROPERTIES:
+:CREATED:  [2020-08-11]
+:ID:       kfrstnstpprrn
+:END:
+: [√] 2020-08-11 01:33:33 Update of 252 pages complete (146.68 min)
+:     - 0 links skipped
+:     - 228 links updated
+:     - 24 links had errors
+: ...
+: 535M	./1597100812.87
+: 609M	./1597100812.31
+: 757M	./1597100812.221
+: 1.1G	./1597100812.173
+: 8.5G	.
+
+Ok, and second run the next day said it's already added all of them to index. Nice!
+** TODO [#B] issues
+:PROPERTIES:
+:CREATED:  [2020-08-11]
+:ID:       sss
+:END:
+*** TODO hmm wonder how did it manage to do user mapping??? is 1000 just dome default docker thing?
+:PROPERTIES:
+:ID:       hmmwndrhwddtmngtdsrmppngsjstdmdfltdckrthng
+:END:
+*** TODO suggest to use ~run --rm~
+:PROPERTIES:
+:ID:       sggsttsrnrm
+:END:
+*** TODO crap, timestamps, not shas are used... again??
+:PROPERTIES:
+:ID:       crptmstmpsntshsrsdgn
+:END:
+*** TODO ok, need to multithread..
+:PROPERTIES:
+:ID:       kndtmltthrd
+:END:
+*** TODO add command -- set maximum limit for data transferred?
+:PROPERTIES:
+:ID:       ddcmmndstmxmmlmtfrdttrnsfrrd
+:END:
+*** TODO prune command -- I think I had some scripts already...
+:PROPERTIES:
+:ID:       prncmmndthnkhdsmscrptslrdy
+:END:
+*** TODO index web interface -- might be useful to have size? for detecting largest offenders
+:PROPERTIES:
+:ID:       ndxwbntrfcmghtbsflthvszfrdtctnglrgstffndrs
+:END:
+*** TODO index web interface -- would be nice to mark sites that errored? Not sure what's the actionable outcome of that though
+:PROPERTIES:
+:ID:       ndxwbntrfcwldbnctmrkststhtsrwhtsthctnbltcmfthtthgh
+:END:
+
+*** TODO this issue https://github.com/pirate/ArchiveBox/issues/412
+:PROPERTIES:
+:ID:       thssssgthbcmprtrchvbxsss
+:END:
+- run archivebox init
+**** run some export
+:PROPERTIES:
+:ID:       rnsmxprt
+:END:
+**** run another export (potentially overlapping?, but with new urls)
+:PROPERTIES:
+:ID:       rnnthrxprtptntllyvrlppngbtwthnwrls
+:END:
+**** it seems to fail...
+:PROPERTIES:
+:ID:       tsmstfl
+:END:
+*** [2020-08-11] ok, need to starti without the pdf, screenshot etc... takes too long
+:PROPERTIES:
+:ID:       tkndtstrtwthtthpdfscrnshttctkstlng
+:END:
+also make sure it's possibe to add pdfs as an afterthought?
+
+** STRT [#B] [2020-08-05] [[https://github.com/pirate/ArchiveBox/releases/tag/v0.4.9][Release Major new ArchiveBox version, with a brand new CLI, UI, and SQLite index · pirate/ArchiveBox]]
+:PROPERTIES:
+:ID:       wdsgthbcmprtrchvbxrlsstgvrndnwclndsqltndxprtrchvbx
+:END:
+: Major new ArchiveBox version, with a brand new CLI, UI, and SQLite index
+
+** TODO [#B] trying out the new one                              :archivebox:
+:PROPERTIES:
+:CREATED:  [2020-10-25]
+:ID:       tryngtthnwn
+:END:
+- how does it retrieve images?
+- singlefile vs wget -- not sure?? singlefile is nice though
+- mercury??? apparently not documented yet, but same as readability?
+- readability is pretty neat -- also contains images (as base64)
+- warc??
+- hmm, DOM is probably HTML??
+*** TODO [2020-10-25] would be nice to have parallel execution or something..
+:PROPERTIES:
+:ID:       snwldbncthvprlllxctnrsmthng
+:END:
+*** STRT [#B] [2020-10-25]  hmm, if archiving is interrupted, how to carry on?  apparently 'archivebox update'?
+:PROPERTIES:
+:ID:       snhmmfrchvngsntrrptdhwtcrrynpprntlyrchvbxpdt
+:END:
+**** [2020-10-25] ok, it fetches new data on config change when running update? that's nice
+:PROPERTIES:
+:ID:       snktftchsnwdtncnfgchngwhnrnnngpdtthtsnc
+:END:
+*** TODO [2020-10-25] media -- could def download later/in parallel..
+:PROPERTIES:
+:ID:       snmdclddfdwnldltrnprlll
+:END:
+** TODO [#C] ok, I think I just want to take promnesia and run it against all non-browser sources :promnesia:
+:PROPERTIES:
+:CREATED:  [2020-08-11]
+:ID:       kthnkjstwntttkprmnsndrntgnstllnnbrwsrsrcs
+:END:
+would be nice to mark different sources as well if possible?
+
+
+** TODO [#C] bookmark Archiver https://pirate.github.io/bookmark-archiver
+:PROPERTIES:
+:CREATED:  [2018-07-24]
+:ID:       bkmrkrchvrsprtgthbbkmrkrchvr
+:END:
+
+*** DONE maybe just feed promnesia database to it??
+:PROPERTIES:
+:ID:       mybjstfdprmnsdtbstt
+:END:
+
+**** DONE I guess need promnesia  provider. is it like my.links?        :hpi:
+:PROPERTIES:
+:ID:       gssndprmnsprvdrstlkmylnks
+:END:
+
+**** TODO move run script somewhere else; add ability to put output dir somewhere else
+:PROPERTIES:
+:ID:       mvrnscrptsmwhrlsddbltytpttptdrsmwhrls
+:END:
+*** right, so just archive redoes the index? Should run in against wereyouhere I suppose...
+:PROPERTIES:
+:ID:       rghtsjstrchvrdsthndxshldrnngnstwryhrspps
+:END:
+*** TODO [#C] commit my changes to archiver, maybe even add the scripts?
+:PROPERTIES:
+:ID:       cmmtmychngstrchvrmybvnddthscrpts
+:END:
+*** TODO figure out 404 etc
+:PROPERTIES:
+:ID:       fgrttc
+:END:
+*** [2019-04-06] should run it after I normalise all the wereyouhere links?
+:PROPERTIES:
+:ID:       stshldrntftrnrmlsllthwryhrlnks
+:END:
+I guess filter out all suspicious ones, containing special characters?
+
+*** [2019-04-16] ok, he's working on django backend where we can use hashes  https://github.com/pirate/ArchiveBox/issues/74
+:PROPERTIES:
+:ID:       tkhswrkngndjngbckndwhrwcnshshssgthbcmprtrchvbxsss
+:END:
+
+** TODO [#C] I guess some sites (with comments) -- useful to update regularly, but most are okay with one snapshot?
+:PROPERTIES:
+:CREATED:  [2020-10-25]
+:ID:       gsssmstswthcmmntssfltpdtrglrlybtmstrkywthnsnpsht
+:END:
+** TODO [#C] status command is kinda similar to my old blame script? (might be on a branch)
+:PROPERTIES:
+:CREATED:  [2020-10-26]
+:ID:       sttscmmndskndsmlrtmyldblmscrptmghtbnbrnch
+:END:
+** TODO [#C] only save mp3 for youtube videos? I guess it should be selective... or maybe dpeend on number of views
+:PROPERTIES:
+:CREATED:  [2020-10-26]
+:ID:       nlysvmpfrytbvdsgsstshldbslctvrmybdpndnnmbrfvws
+:END:
+** TODO [#D] wonder if my exporters could be useful for archivebox :orger:promnesia:
+:PROPERTIES:
+:CREATED:  [2019-09-22]
+:ID:       wndrfmyxprtrscldbsflfrrchvbx
+:END:
+
+** [#D] [2019-04-16] pirate/ArchiveBox: 🗃 The open source self-hosted web archive. Takes browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...
+:PROPERTIES:
+:ID:       tprtrchvbxthpnsrcslfhstdwnbrdtcsvshtmljspdfsmdndmr
+:END:
+https://github.com/pirate/ArchiveBox/
+: Storage Requirements
+: Because ArchiveBox is designed to ingest a firehose of browser history and bookmark feeds to a local disk, it can be much more disk-space intensive than a centralized service like the Internet Archive or Archive.today. However, as storage space gets cheaper and compression improves, you should be able to use it continuously over the years without having to delete anything. In my experience, ArchiveBox uses about 5gb per 1000 articles, but your milage may vary depending on which options you have enabled and what types of sites you're archiving. By default, it archives everything in as many formats as possible, meaning it takes more space than a using a single method, but more content is accurately replayable over extended periods of time. Storage requirements can be reduced by using a compressed/deduplicated filesystem like ZFS/BTRFS, or by setting FETCH_MEDIA=False to skip audio & video files.
+
+** [#D] [2019-04-16] pirate/ArchiveBox: 🗃 The open source self-hosted web archive. Takes browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...
+:PROPERTIES:
+:ID:       tprtrchvbxthpnsrcslfhstdwnbrdtcsvshtmljspdfsmdndmr
+:END:
+https://github.com/pirate/ArchiveBox/
+: Support for saving multiple snapshots of each site over time will be added soon (along with the ability to view diffs of the changes between runs).
+** [#D] [2019-04-16] [pirate/ArchiveBox] Bugfixes, new data integrity and invariant checks, remove title prefetching
+:PROPERTIES:
+:ID:       tprtrchvbxbgfxsnwdtntgrtydnvrntchcksrmvttlprftchng
+:END:
+: re-save index after archiving completes to update titles and urls
+: emove title prefetching in favor of new FETCH_TITLE archive method
+** TODO [#D] backup config?
+:PROPERTIES:
+:CREATED:  [2020-10-26]
+:ID:       bckpcnfg
+:END:
+* STRT [#B] prioritise never bookmarked over bookmarked with errors
+:PROPERTIES:
+:CREATED:  [2018-11-10]
+:ID:       prrtsnvrbkmrkdvrbkmrkdwthrrrs
+:END:
+** TODO commit it??
+:PROPERTIES:
+:ID:       cmmtt
+:END:
+* TODO [#C] some links are pretty crazy... maybe prune huge pages manually and ignore
+:PROPERTIES:
+:CREATED:  [2018-11-15]
+:ID:       smlnksrprttycrzymybprnhgpgsmnllyndgnr
+:END:
+e.g. wget -N -E -np -x -H -k -K -S --restrict-file-names=unix -p --user-agent=Bookmark Archiver --no-check-certificate https://charlie-charlie.ru/breakfast
+-- about 150M
+
+* [#D] [2018-10-03] kanishka-linux/reminiscence: Self-Hosted Bookmark And Archive Manager
+:PROPERTIES:
+:ID:       wdknshklnxrmnscncslfhstdbkmrkndrchvmngr
+:END:
+https://github.com/kanishka-linux/reminiscence
+** [2018-10-05] wonder how is it different from my bookmark archiver?
+:PROPERTIES:
+:ID:       frwndrhwstdffrntfrmmybkmrkrchvr
+:END:
+
+* TODO [#C] https://github.com/webrecorder/webrecorder           :webarchive:
+:PROPERTIES:
+:CREATED:  [2020-05-04]
+:ID:       sgthbcmwbrcrdrwbrcrdr
+:END:
+* [#D] Tweet from @gwern                                            :linkrot:
+:PROPERTIES:
+:CREATED:  [2020-02-27]
+:ID:       twtfrmgwrn
+:END:
+
+https://twitter.com/gwern/status/1233112807253716992
+
+@gwern: @karlicoss @thomas536 Not documented in there yet is my latest archiving tool: https://t.co/If2Ypw1T1M https://t.co/NLh23nrkrh Currently costs 20GB for 7,677 PDFs & self-contained single-file HTML mirrors.

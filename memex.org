@@ -120,3 +120,11 @@ maybe it could have some basic core (e.g. with couchdb), and then used in differ
 e.g. promnesia uses it to jump and browse the history
 dashboard uses to display all events
 timeline -- similarly for all life events
+* TODO [#D] Tweet from @mekarpeles                                    :memex:
+:PROPERTIES:
+:CREATED:  [2020-06-12]
+:ID:       twtfrmmkrpls
+:END:
+
+https://twitter.com/mekarpeles/status/1271226785439428608
+: @mekarpeles: Finally made a short 📽️ of https://t.co/glrT8wpAk2: Free + open source v. of @wikidata meets @RoamResearch (both which I 👍)

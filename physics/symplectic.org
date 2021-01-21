@@ -1,6 +1,8 @@
 #+TITLE: Symplectic geometry
 #+filetags: :symplectic:math:
 
+
+
 [2018-11-15]  ok, so trying to consolidate everything
 
 
@@ -527,3 +529,105 @@ https://physics.stackexchange.com/questions/33897/is-there-an-analogue-of-config
 :ID:       snpplyngrngkttmthdtcrclrcfrm
 :END:
 http://www.cplusplus.com/forum/general/103744/
+* [#B] [2018-09-13] Chel_of_the_sea comments on ELI5: What is symplectic geometry?
+:PROPERTIES:
+:ID:       thchlfthscmmntsnlwhtssymplctcgmtry
+:END:
+https://www.reddit.com/r/explainlikeimfive/comments/47lwch/eli5_what_is_symplectic_geometry/d0duju7/
+:  It's geometry done on a curved surface that carries enough structure to measure area. In the same way that in Calc III you could do double integral over f dA to measure a sort of 'weighted area', on a symplectic manifold you can (in a suitable sense) take a double integral over f d(omega).
+
+* [2018-08-13] poisson brackets are related to symplectic geometry (explains phase space)
+:PROPERTIES:
+:ID:       mnpssnbrcktsrrltdtsymplctcgmtryxplnsphsspc
+:END:
+* [2018-08-13] poisson brackets explained
+:PROPERTIES:
+:ID:       mnpssnbrcktsxplnd
+:END:
+https://www.quora.com/What-is-an-intuitive-way-of-explaining-the-Poisson-bracket
+{fg, h} = f {g, h} + g {f, h}
+looks like leibnitz rule!
+poisson bracket is derivation of the first arg w.r.t. to second
+symplectic manifold: equipped with a symplectic form, that maps any function to a vector on manifold
+so basially {f, g} is applying the form to g, and differentiating f along the integral curves of that vector field
+for hamiltonian,
+df/dt = {f, H} -- makes sense, motion along integral curve is motion in time
+
+
+The nice thing about the Hamiltonian formulation is that you can use lots of different coordinates. They will all work, as long as their Poisson brackets satisfy the equations above.
+
+If you've studied quantum mechanics, this should look familiar as the algebra of commutators, and Poisson brackets are a nice way to see the connection between classical and quantum mechanics.
+
+
+algebra with poisson bracket (lie bracket) is lie algebra
+
+
+Thus, the time evolution of a function f on a symplectic manifold can be given as a one-parameter family of symplectomorphisms (i.e., canonical transformations, area-preserving diffeomorphisms), with the time t being the parameter
+** [2019-06-12] need to add this to drill..
+:PROPERTIES:
+:ID:       wdndtddthstdrll
+:END:
+
+* [2018-11-15]
+:PROPERTIES:
+:ID:       th
+:END:
+phase space: R^3 x R^3 -- it's a base space for manifold
+Hamiltonaian is defined on manifold, not on its tangent bundle!
+
+hmm, but lagrangian is defined on the tangent bundle of configuration space?? https://math.stackexchange.com/questions/1210047/why-is-the-lagrangian-a-function-on-the-tangent-bundle confusing...
+
+
+To summarize so far: a path in the tangent space "corresponds" (in the sense demonstrated in the example of h and H) to a path in the base space only if, in physicist notation, the function t↦q˙(t) turns out to be the time-derivative of the function t↦q(t). THAT is what that cryptic thing in your text is trying to say.
+
+** TODO Spivak's Physics For Mathematicians,
+:PROPERTIES:
+:ID:       spvksphyscsfrmthmtcns
+:END:
+
+
+
+** configuration space: M (a Manifold). Phase space: cotangent bundle over M (T_* M). Also a manifold?? Yeah, ok T_* M is also a manifold with dimension twise as what M got.
+:PROPERTIES:
+:ID:       cnfgrtnspcmmnfldphsspcctnlsmnfldwthdmnsntwsswhtmgt
+:END:
+** right, and symplectic form is defined on the contagent bundle of configuration space! (or on a phase space?)
+:PROPERTIES:
+:ID:       rghtndsymplctcfrmsdfndnthntbndlfcnfgrtnspcrnphsspc
+:END:
+* STRT [#B] learn basic QED and QFT                               :study:qed:
+:PROPERTIES:
+:CREATED:  [2018-08-17]
+:ID:       lrnbscqdndqft
+:END:
+but this time, really really do exercises!
+
+** DONE Feynman QED strange theory of light
+:PROPERTIES:
+:ID:       fynmnqdstrngthryflght
+:END:
+takeaways
+
+*** feynman diagrams are way of computing quantum amplitude. sum over all diagrams
+:PROPERTIES:
+:ID:       fynmndgrmsrwyfcmptngqntmmpltdsmvrlldgrms
+:END:
+to compute individual jump probabilities: use propagators solutions for free electron (Dirac) and photon (Klein-Gordon).
+
+*** renormalization: meh, but only theory parameters depend on it, measurable stuff is not impacted
+:PROPERTIES:
+:ID:       rnrmlztnmhbtnlythryprmtrsdpndntmsrblstffsntmpctd
+:END:
+** STRT Zee, Feynman. QED: Strange Theory of Light and Matter
+:PROPERTIES:
+:ID:       zfynmnqdstrngthryflghtndmttr
+:END:
+** STRT (long time ago) Tong, some notes in study/qft
+:PROPERTIES:
+:ID:       lngtmgtngsmntsnstdyqft
+:END:
+* [#D] [2018-12-15] symplectic geometry - Learn Anything
+:PROPERTIES:
+:ID:       stsymplctcgmtrylrnnythng
+:END:
+https://learn-anything.xyz

@@ -489,3 +489,95 @@ Poisson brackets
 
 - Q' = {Q, H} -- change of quantity over time
 - {Q, L_y} -- change of quantity over rotation
+* TODO [#C] [2018-11-25] Zero Hamiltonian and its energies | Physics Forums
+:PROPERTIES:
+:ID:       snzrhmltnnndtsnrgsphyscsfrms
+:END:
+https://www.physicsforums.com/threads/zero-hamiltonian-and-its-energies.145574/
+:  First of all, you are not understanding what he Hamiltonian is. The Hamiltonian is not the value of the energy, it is a relationship between position and momentum for a particular system. If the Hamiltonian is p^2 + q^2, and the value of p^2 + q^2 is zero, then the Hamiltonian is p^2 + q^2, not zero. It is analogous to Bush being the president. Bush is the current VALUE of "president", but the concept of president is not synonymous with "Bush".
+** [2019-06-18] eh, they are talking about invariance by reparametrization, but I don't think I really understand what they mean...
+:PROPERTIES:
+:ID:       ththyrtlkngbtnvrncbyrprmtntthnkrllyndrstndwhtthymn
+:END:
+
+* STRT [#B] [2018-12-02] Are the Hamiltonian and Lagrangian always convex functions? - Physics Stack Exchange :lagrangian:
+:PROPERTIES:
+:ID:       snrthhmltnnndlgrngnlwyscnvxfnctnsphyscsstckxchng
+:END:
+https://physics.stackexchange.com/questions/103997/are-the-hamiltonian-and-lagrangian-always-convex-functions
+
+** [2019-01-16] also good answer, basically explaining that it's not great to impose convexity conditions on only one set of canonical coordinates https://physics.stackexchange.com/a/104279/40624
+:PROPERTIES:
+:ID:       wdlsgdnswrbscllyxplnngthtlcrdntssphyscsstckxchngcm
+:END:
+:  In conclusion, convexity does not seem to be a first principle per se, but rather a consequence of the type of QFTs that we typically are able to make sense of. It might be that it is possible to give a non-perturbative definition of a non-convex (but unitary) theory.
+
+** [2019-01-16] https://physics.stackexchange.com/questions/103997/are-the-hamiltonian-and-lagrangian-always-convex-functions#comment760950_339519
+:PROPERTIES:
+:ID:       wdsphyscsstckxchngcmqstnslgrngnlwyscnvxfnctnscmmnt
+:END:
+hmm that's interesting, he got a reply about considering sheets of the hamiltonian, each sheet convex... so maybe it does make sense??
+
+* [#B] [2018-11-15] Proof by Picture                                    :viz:
+:PROPERTIES:
+:ID:       thprfbypctr
+:END:
+http://www.physicsinsights.org/proof_by_picture.html
+* TODO [#B] [2018-11-18] book: Structure and Interpretation of Classical Mechanics
+:PROPERTIES:
+:ID:       snbkstrctrndntrprttnfclssclmchncs
+:END:
+https://groups.csail.mit.edu/mac/users/gjs/6946/sicm-html/
+
+* TODO [#C] hmm, to visualise phase trajectories, we can just do 3D plot, then we know that the particle is moving along isolines :hamiltonian:viz:
+:PROPERTIES:
+:CREATED:  [2019-01-15]
+:ID:       hmmtvslsphstrjctrswcnjstdknwthtthprtclsmvnglngslns
+:END:
+
+* TODO [#C] Isotropic lagrangian velocity                        :lagrangian:
+:PROPERTIES:
+:CREATED:  [2018-12-02]
+:ID:       strpclgrngnvlcty
+:END:
+https://physics.stackexchange.com/questions/212909/lagrangian-is-isotropic-in-space
+** [2019-06-18] Now since space is isotropic, L should be independent of velocity v⃗ , and should in fact be a function of |v⃗ |2.
+:PROPERTIES:
+:ID:       tnwsncspcsstrpclshldbndpnlctyv⃗ndshldnfctbfnctnfv⃗
+:END:
+
+
+* STRT [#C] discrete lagrangian? vary it on space of matrices??       :think:
+:PROPERTIES:
+:CREATED:  [2018-12-04]
+:ID:       dscrtlgrngnvrytnspcfmtrcs
+:END:
+** [2019-06-18] https://en.wikipedia.org/wiki/Variational_integrator
+:PROPERTIES:
+:ID:       tsnwkpdrgwkvrtnlntgrtr
+:END:
+
+* TODO [#C] [2018-11-30] Задачка на Лагранжиан : Помогите решить / разобраться (Ф) - Страница 3
+:PROPERTIES:
+:ID:       frзадачканалагранжианпомоешитьразобратьсяфстраница
+:END:
+https://dxdy.ru/post552620.html
+
+: les в сообщении #552466 писал(а):
+: И как в таком случае вводят импульсы?
+: Связями. Если интеренсно, посмотрите книгу Дирак, "Принципы квантовой механики". Бонус-глава "Лекции по квантовой механике
+: 
+: бы очень рекомендовал замечательную книгу
+: Гитман Д.М., Тютин И.В. Каноническое квантование полей со связями.
+: Думаю, ТС хватит прочитать первые две главы, чтобы получить ответы на инересующие в
+
+* [#B] [2020-08-09] [[http://users.etown.edu/h/hughesjr/ma321/notes/c6s1.html][Notes & HW for Section 6.1]] :lagrangian:
+:PROPERTIES:
+:ID:       snsrstwndhhghsjrmntscshtmlntshwfrsctn
+:END:
+classification of critical points
+* [#B] [2020-08-09] [[https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/preface001.html][Structure and Interpretation of Classical Mechanics: Chapter 7]]
+:PROPERTIES:
+:ID:       snsmtprssmtdstsdfltflsttltrprttnfclssclmchncschptr
+:END:
+: The Lagrangian L must be interpreted as a function of the position and velocity components qi and q˙i, so that the partial derivatives make sense, but then in order for the time derivative d/dt to make sense solution paths must have been inserted into the partial derivatives of the Lagrangian to make functions of time. The traditional use of ambiguous notation is convenient in simple situations, but in more complicated situations it can be a serious handicap to clear reasoning. In order that the reasoning be clear and unambiguous, we have adopted a more precise mathematical notation. Our notation is functional and follows that of modern mathematical presentations.2 An introduction to our functional notation is in an appendix.

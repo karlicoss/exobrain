@@ -11,3 +11,8 @@ huh, something like that could be cool!
 :PROPERTIES:
 :ID:       rltd
 :END:
+* TODO [#C] portable solar generator?                              :prepping:
+:PROPERTIES:
+:CREATED:  [2020-06-07]
+:ID:       prtblslrgnrtr
+:END:

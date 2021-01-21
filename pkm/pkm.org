@@ -1831,3 +1831,55 @@ https://www.mindforger.com/
 :PROPERTIES:
 :ID:       tmtcsrchsfrntrstngtpcs
 :END:
+* STRT [#C] [2019-12-23] Generate RSS feeds for any web page | PolitePol :rss:
+:PROPERTIES:
+:ID:       mngnrtrssfdsfrnywbpgpltpl
+:END:
+https://politepol.com/en
+https://github.com/taroved/pol
+** [2020-05-16] hmm, this is ought to be a bookmarklet?
+:PROPERTIES:
+:ID:       sthmmthssghttbbkmrklt
+:END:
+
+* TODO [#C] Tweet from michael_nielsen (@michael_nielsen), at Dec 9, 16:44 :spacedrep:
+:PROPERTIES:
+:CREATED:  [2019-12-09]
+:ID:       twtfrmmchlnlsnmchlnlsntdc
+:END:
+
+: Here's the distribution of time people spend reviewing cards at https://t.co/QbN9qttrGe.  The median time is about 6 seconds. The _average_ time is almost twice as long, at 11 seconds! https://t.co/dGTDfsTxg8
+
+
+https://twitter.com/michael_nielsen/status/1204079371339698177
+
+* TODO [#C] [2019-12-20] hckr news - Hacker News sorted by time  :hackernews:
+:PROPERTIES:
+:ID:       frhckrnwshckrnwssrtdbytm
+:END:
+https://hckrnews.com
+
+* TODO [#C] Google search                                            :search:
+:PROPERTIES:
+:CREATED:  [2020-01-25]
+:ID:       gglsrch
+:END:
+
+: I've been prefixing all my searches with reddit and then filtering by within last month or last year, and something seems to have changed lately. The reddit results say some number of days within the time constraint, but then the result is actually years old which makes it all pointless. This is literally the only way I search google right now because their results are so spammy otherwise.
+
+* START [#C] [2019-06-23] Resorting Media Ratings - Gwern.net
+:PROPERTIES:
+:ID:       snrsrtngmdrtngsgwrnnt
+:END:
+https://www.gwern.net/Resorter
+: huh, this is somewhat similar to what I was doing with IMDB?
+* TODO [#D] Tweet from Yoshiki 義樹 (@yoshikischmitz), at Dec 7, 02:13 :notion:
+:PROPERTIES:
+:CREATED:  [2019-12-07]
+:ID:       twtfrmyshk義樹yshkschmtztdc
+:END:
+
+: But it was definitely enlightening to me just how important the browsing(reading?) experience is to a knowledge-base, perhaps more than the writing experience. It's definitely the first thing I'll evaluate in future apps,  and something I'll think about how it can be done better.
+
+
+https://twitter.com/yoshikischmitz/status/1203135482655232000

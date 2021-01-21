@@ -89,3 +89,30 @@ https://www.youtube.com/watch?v=pMhrV9sRjqI
 :END:
 https://www.youtube.com/watch?v=Vk2V2bpxfAc
 cause the environment is simular: salty, moist, warm
+
+* [#C] [2018-05-03] Maillard reaction                  :gastronomy:chemistry:
+:PROPERTIES:
+:ID:       mllrdrctn
+:END:
+between amino acids and reducing (TODO?) sugar
+
+about 220 degrees (TODO fahrenheit?) is necessary to trigger it
+
+some Maillard reaction results enhance other flavors
+
+Example:
+
+Melting of sugar
+TODO onions?? browning and umami taste
+
+
+TODO exothermal, so easy to overcook
+
+Temperatures need to be high to bring about the Maillard reaction, but as long as the food is very wet, its temperature won’t climb above the boiling point of water. At atmospheric pressure, only high-heat cooking techniques can dry out the food enough to raise the temperature sufficiently. It’s not the water that stops the reaction, but rather the low boiling point at normal, sea-level pressure. In the sealed environment of a pressure cooker, the Maillard reaction can, and does, occur.
+
+Drying and browning the surface first will, however, allow the reaction to proceed slowly at temperatures below the boiling point of water.
+
+** TODO [2019-06-18] need to drill it
+:PROPERTIES:
+:ID:       tndtdrllt
+:END:

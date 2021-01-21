@@ -180,3 +180,12 @@ https://github.com/vinta/awesome-python
 :ID:       stmrkrshkffwsmnflxdbcrtdljctslbrrstlstcrltdtnflxdb
 :END:
 https://github.com/mark-rushakoff/awesome-influxdb
+
+* TODO [#C] compare how similar pipeline in python would look? :huginn:ideas:
+:PROPERTIES:
+:CREATED:  [2019-12-24]
+:ID:       cmprhwsmlrpplnnpythnwldlk
+:END:
+
+introspection is certainly _way_ worse! dry run etc are amazing
+how can we bring Python programming experience closer to this?

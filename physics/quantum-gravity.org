@@ -67,3 +67,8 @@ https://www.youtube.com/watch?v=lF6GqQ5QrJE
 :PROPERTIES:
 :ID:       rltd
 :END:
+* TODO [#D] [2018-10-30] This is a nontechnical introduction to recent work on quantum gravity using ideas from higher-dimensional algebra
+:PROPERTIES:
+:ID:       tthssnntchnclntrdctntrcntvtysngdsfrmhghrdmnsnllgbr
+:END:
+http://www.math.ucr.edu/home/baez/planck/planck.html

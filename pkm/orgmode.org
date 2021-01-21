@@ -1,0 +1,22 @@
+#+TITLE: Org-mode things
+#+logseq_title: org
+#+filetags: org
+
+* related                                                :pkm:emacs:orgparse:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
+* TODO [#D] organelle is quite good for a project name?             :project:
+:PROPERTIES:
+:CREATED:  [2019-09-17]
+:ID:       rgnllsqtgdfrprjctnm
+:END:
+* TODO [#C] oh for fucks sake it doesn't support file:something.org#::links anymore??? :github:
+:PROPERTIES:
+:CREATED:  [2020-11-22]
+:ID:       hfrfckssktdsntspprtflsmthngrglnksnymr
+:END:
+fuck maybe it just never worked???
+this "For instructions, see the special buffer howto." should be file link.. but not working here
+https://web.archive.org/web/20190618202202/https://github.com/syl20bnr/spacemacs/blob/master/doc/DOCUMENTATION.org

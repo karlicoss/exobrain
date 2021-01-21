@@ -227,3 +227,13 @@ https://en.wikipedia.org/wiki/Closed_and_exact_differential_forms
 : For an exact form α, α = dβ for some differential form β of degree one less than that of α. The form β is called a "potential form" or "primitive" for α. Since the exterior derivative of a closed form is zero, β is not unique, but can be modified by the addition of any closed form of degree one less than that of α.
 : 
 : Because d2 = 0, any exact form is necessarily closed. The question of whether every closed form is exact depends on the topology of the domain of interest. On a contractible domain, every closed form is exact by the Poincaré lemma. More general questions of this kind on an arbitrary differentiable manifold are the subject of de Rham cohomology, which allows one to obtain purely topological information using differential methods.
+* START [#B] [2019-01-24] A Visual Introduction to Differential Forms and Calculus on Manifolds | Jon Pierre Fortney | Springer :viz:
+:PROPERTIES:
+:ID:       thvslntrdctntdffrntlfrmsnlsnmnfldsjnprrfrtnysprngr
+:END:
+- State "START"      from "TODO"       [2019-02-27]
+https://www.springer.com/us/book/9783319969916
+** [2019-06-12] ok, so illustrations are ok and there are many of them. explanations seemed ok as well I guess
+:PROPERTIES:
+:ID:       wdksllstrtnsrkndthrrmnyfthmxplntnssmdkswllgss
+:END:
