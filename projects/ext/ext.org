@@ -108,6 +108,16 @@ aliases for graph view
 :ID:       gnrtgsrdwtchnsprtnmtvtnbyvnstdythyrsltntmnycnnctns
 :END:
 maybe they are more like attributes.. or tiny dots around tag, each of dots represents a task. dunno
+** TODO [2021-01-18] [[https://github.com/logseq/logseq/blob/master/src/main/frontend/config.cljs#L18][logseq/config.cljs at master · logseq/logseq]]
+:PROPERTIES:
+:ID:       sgthbcmlgsqlgsqblbmstrsrclgsqcnfgcljstmstrlgsqlgsq
+:END:
+
+** [2020-12-30] [[https://github.com/logseq/logseq/issues/918][Directory handle not exists (local filesystem) · Issue #918 · logseq/logseq]]
+:PROPERTIES:
+:ID:       sgthbcmlgsqlgsqsssdrctryhtxstslclflsystmsslgsqlgsq
+:END:
+
 * [#B] * Orgzly                                                      :orgzly:
 :PROPERTIES:
 :ID:       rgzly
@@ -694,7 +704,7 @@ using #gitbug instead now
 
 * --------------------------------
 :PROPERTIES:
-:ID:       23077_23113
+:ID:       23391_23427
 :END:
 
 * STRT [#C] share link and content                                    :tusky:

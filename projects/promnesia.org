@@ -2753,3 +2753,44 @@ moves around links here
 :END:
 highlight paywalled links?
 although out of scope, probably
+* TODO [#B] [2021-01-19] markdown bug [[https://discord.com/channels/727903265437777944/800189382837534720][#promnesia]] :promnesia:
+:PROPERTIES:
+:ID:       mrkdwnbgsdscrdcmchnnlsprmns
+:END:
+: ok, i figure it out, in md , only the [](url) could be recognized a true data, nor plain text link or paragraph link
+* TODO [#D] [2020-05-20] [[https://unix.stackexchange.com/questions/137782/launching-a-terminal-emulator-without-knowing-which-ones-are-installed][shell script - Launching a terminal emulator without knowing which ones are installed - Unix & Linux Stack Exchange]] :promnesia:emacs:
+:PROPERTIES:
+:ID:       snxstckxchngcmqstnslnchngchnsrnstlldnxlnxstckxchng
+:END:
+: else try xdg-terminal
+: else try x-terminal-emulator
+* [#D] [2020-11-02] [[https://repl.it/languages/nodejs][Repl.it - Node.js Online Compiler and IDE - Fast, Powerful, Free]] :javascript:datetime:promnesia:
+:PROPERTIES:
+:ID:       srpltlnggsndjsrpltndjsnlncmplrnddfstpwrflfr
+:END:
+gh. tried dayjs.. but it doesn't seem to be able to handle timezones specified by offsets. ugh.
+: 
+: var dayjs = require('dayjs')
+: require('dayjs/locale/en')
+: var timezone = require('dayjs/plugin/timezone')
+: dayjs.extend(timezone)
+: var customParseFormat = require('dayjs/plugin/customParseFormat')
+: dayjs.extend(customParseFormat)
+: dayjs('21 Jun 2020 12:58:01 -0500', 'DD MMM YYYY HH:mm:ss ZZ', 'en').format()
+* TODO [2021-01-18] [[https://github.com/karlicoss/promnesia/blob/master/doc/TROUBLESHOOTING.org#general-notes][promnesia/TROUBLESHOOTING.org at master · karlicoss/promnesia]]
+:PROPERTIES:
+:ID:       sgthbcmkrlcssprmnsblbmstrblshtngrgtmstrkrlcssprmns
+:END:
+readme: add the 'check backend'?
+* [2021-01-03] [[https://stackoverflow.com/questions/953083/css-set-default-scroll-position][html - CSS set default scroll position - Stack Overflow]] :promnesia:
+:PROPERTIES:
+:ID:       sstckvrflwcmqstnscssstdflsstdfltscrllpstnstckvrflw
+:END:
+: canonical: stackoverflow.com/users/21886/richiehindlesources : codestackoverflow::users/{ids}/favorites::[]::answers::[]::owner::linkstexport/data/stackexchange_20201204T020325Z.json04/12/2020, 02:03:25
+
+ugh..
+* [2021-01-17] [[https://discord.com/channels/727903265437777944/772319656471822337][#annotation-talks]]
+:PROPERTIES:
+:ID:       sdscrdcmchnnlsnnttntlks
+:END:
+: Weird.. but thanks for letting me know. There is a promnesia doctor command that troubleshoots some common problems, I can suggest users to run it with python3 -m promnesia doctor, so it can detect the missing .local/bin and warn them!

@@ -2124,3 +2124,84 @@ good to know I'm not the only one struggling!
 :  horrifying. I wake up at 6:30am with no alarm because I just do. I grab my phone to look at facebook while I take a dump. Its probably not charged and the battery is at 5% and the screen is too dim to read. So I sit it on the floor and read the back of a misc bottle on the sink. I plug in my phone and spend the next 2 hours drinking coffee and playing candy crush, facebook and reddit on my ipad (unless I forgot to charge that too) or my laptop. Eventually I decide to go to work. I might plug my phone into the radio using the headphone jack or I might just listen to music on radio, or NPR. Either way I drive 10 minutes to work while not thinking at all about whether I have to send an email. I'm probably thinking about boobs.
 :  I get to work and do whatever I want, respond to a bunch of emails, ignore some others, work some on my manuscripts, teach a class. Maybe look at my phone once to see if I got a text. Go home when I feel like it. Listen to radio on way home. Put my phone down somewhere once I'm there and forget to charge it. Drink beer and watch old eps of Louis C.K. and fuck my wife (edit: or wait until she's asleep and take my phone into the bathroom to jerk it to some vid on beeg.com).
 :  repeat.
+* [#B] [2019-10-27] [[https://reddit.com/r/slatestarcodex/comments/dnsybn/peep_show_the_most_realistic_portrayal_of_evil/][Peep Show - The Most Realistic Portrayal of Evil I've Ever Seen]] /r/slatestarcodex
+:PROPERTIES:
+:ID:       srddtcmrsltstrcdxcmmntsdncprtrylfvlvvrsnrsltstrcdx
+:END:
+excellent essay
+* TODO [#B] [2020-05-28] [[https://news.ycombinator.com/item?id=23339830][Tools for Better Thinking | Hacker News]] :thinking:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdtlsfrbttrthnknghckrnws
+:END:
+
+* TODO [#B] [2020-11-26] [[https://nyxt.atlas.engineer/][Nyxt]]       :emacs:
+:PROPERTIES:
+:ID:       snyxttlsngnrnyxt
+:END:
+like 'emacs for the web?
+* TODO [#B] [2020-01-13] herrbischoff/awesome-command-line-apps: Use your terminal shell to do awesome things. :cli:
+:PROPERTIES:
+:ID:       hrrbschffwsmcmmndlnppssyrtrmnlshlltdwsmthngs
+:END:
+https://github.com/herrbischoff/awesome-command-line-apps
+* [#D] [2019-04-14] Cadabra: a field-theory motivated approach to computer algebra
+:PROPERTIES:
+:ID:       cdbrfldthrymtvtdpprchtcmptrlgbr
+:END:
+https://cadabra.science/
+: Cadabra is a sym­bolic com­puter al­ge­bra sys­tem (CAS) de­signed specif­i­cally for the so­lu­tion of prob­lems en­coun­tered in field the­ory.
+* [2021-01-12] [[https://twitter.com/MaxCRoser/status/1348775464530284547][Max Roser on Twitter: "What is your favourite way in which humanity made progress against a big problem? Which invention? Which policy? Which product? Which discovery? Which idea?" / Twitter]]
+:PROPERTIES:
+:ID:       stwttrcmmxcrsrsttsmxrsrntprdctwhchdscvrywhchdtwttr
+:END:
+: What is your favourite way in which humanity made progress against a big problem?
+: 
+: Which invention? Which policy? Which product? Which discovery? Which idea?
+* [#D] [2019-04-19] Bret Victor, beast of burden       :bretvictor:recycling:
+:PROPERTIES:
+:ID:       brtvctrbstfbrdn
+:END:
+http://worrydream.com/#!/ClimateChange
+** These are lists of proverbs. Little action items, mostly dequantified, entirely decontextualized. How significant is it to “eat wisely” and “trim your waste”? How does it compare to other sources of harm? How does it fit into the big picture? How many people would have to participate in order for there to be appreciable impact? How do you know that these aren’t token actions to assauge guilt?
+:PROPERTIES:
+:ID:       thsrlstsfprvrbslttlctntmsnwthtthsrnttknctnstssgglt
+:END:
+*** [2019-04-19] exactly my concerns!
+:PROPERTIES:
+:ID:       xctlymycncrns
+:END:
+** [2019-04-19] Climate change is too important for us to operate on faith. Citizens need and deserve reading material which shows context — how significant suggested actions are in the big picture — and which embeds models — formulas and algorithms which calculate that significance, for different scenarios, from primary-source data and explicit assumptions.
+:PROPERTIES:
+:ID:       clmtchngstmprtntfrstprtnfmprmrysrcdtndxplctssmptns
+:END:
+** [2019-04-19] Models
+:PROPERTIES:
+:ID:       mdls
+:END:
+If data is hard to find, models are virtually impossible.
+What’s a formula for estimating the power consumption of a home’s lighting?
+What’s an algorithm that models the activity pattern of a water heater? Or a thermostat?
+What’s an equation for how methane emissions would vary with meat consumption?
+If a given country were to reduce deforestation by a given amount, how would that affect how much carbon it sinks?
+How do you quantify “eating wisely” and “trimming your waste”? And how do you calculate the effects as those quantities change?
+People have figured out these things! The formulas exist in Excel spreadsheets and Matlab code, buried on old hard drives somewhere. Sometimes they’re vaguely described in prose in published papers.
+
+* [#C] [2020-08-16] [[https://atelier.net/strativerse/?pg=about][Strativerse]] :future:
+:PROPERTIES:
+:ID:       stlrntstrtvrspgbtstrtvrs
+:END:
+
+* TODO [#C] [2020-12-05] [[https://textvis.lnu.se/][Text Visualization Browser]] :viz:
+:PROPERTIES:
+:ID:       stxtvslnstxtvslztnbrwsr
+:END:
+
+* [2021-01-06] [[https://en.wikipedia.org/wiki/Engelbart%27s_law][Engelbart's law - Wikipedia]] :drill:
+:PROPERTIES:
+:ID:       snwkpdrgwknglbrtslwnglbrtslwwkpd
+:END:
+: Engelbart's law is the observation that the intrinsic rate of human performance is exponential.
+* [2021-01-17] [[https://www.murilopereira.com/the-values-of-emacs-the-neovim-revolution-and-the-vscode-gorilla/][The values of Emacs, the Neovim revolution, and the VSCode gorilla - Murilo Pereira]]
+:PROPERTIES:
+:ID:       swwwmrlprrcmthvlsfmcsthnvvmrvltnndthvscdgrllmrlprr
+:END:

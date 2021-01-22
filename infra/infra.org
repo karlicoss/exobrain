@@ -581,3 +581,35 @@ https://www.linuxuprising.com/2019/11/chkservice-is-systemd-units-manager.html
 :ID:       srmn
 :END:
 https://xyne.archlinux.ca/projects/serman/
+
+* [2020-12-29] [[https://pipedream.com/][The fastest way to integrate APIs and run code - Pipedream]] :infra:
+:PROPERTIES:
+:ID:       sppdrmcmthfststwytntgrtpsndrncdppdrm
+:END:
+huh this is interesting... like hugginn but can write JS?
+* TODO [#C] [2020-11-02] [[http://blog.rfox.eu/en/Improvements/The_Most_Personal_Device_experiment.html][The Most Personal Device experiment]] :infra:
+:PROPERTIES:
+:ID:       blgrfxnmprvmntsthmstprsnlnthtmlthmstprsnldvcxprmnt
+:END:
+
+* TODO [#C] [2020-12-05] [[https://github.com/RSS-Bridge/rss-bridge][RSS-Bridge/rss-bridge: The RSS feed for websites missing it]] :infra:rss:
+:PROPERTIES:
+:ID:       sgthbcmrssbrdgrssbrdgrssbsbrdgthrssfdfrwbstsmssngt
+:END:
+
+* [2020-12-30] indygreg/python-zstandard Request New open() method (#64) :infra:hpi:
+:PROPERTIES:
+:ID:       ndygrgpythnzstndrdrqstnwpnmthd
+:END:
+* TODO [#C] [2020-11-28] [[https://stackoverflow.com/questions/32353055/how-to-start-a-stopped-docker-container-with-a-different-command][How to start a stopped Docker container with a different command? - Stack Overflow]] :docker:
+:PROPERTIES:
+:ID:       sstckvrflwcmqstnshwtstrtsnrwthdffrntcmmndstckvrflw
+:END:
+: docker commit $CONTAINER_ID user/test_image
+
+ugh. add a script for it?
+* [#C] [2020-11-27] [[https://github.com/docker/compose/issues/1809][Execute a command after run · Issue #1809 · docker/compose]]
+:PROPERTIES:
+:ID:       sgthbcmdckrcmpssssxctcmmndftrrnssdckrcmps
+:END:
+ugh, very annoying that there is no way to setup something...

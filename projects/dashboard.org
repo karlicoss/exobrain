@@ -1,6 +1,10 @@
 #+TITLE: Dashboard
 #+filetags: dashboard
 
+* related                                                 :timeline:memex:qs:
+:PROPERTIES:
+:ID:       rltd
+:END:
 
 * [#A] motivation
 :PROPERTIES:
@@ -1415,7 +1419,7 @@ https://towardsdatascience.com/jupyter-tools-to-increase-productivity-7b3c6b90be
 :END:
 
 
-* related                                                 :timeline:memex:qs:
+* [2021-01-11] [[https://github.com/yihong0618/running_page][yihong0618/running_page: Make your own running home page]]
 :PROPERTIES:
-:ID:       rltd
+:ID:       sgthbcmyhngrnnngpgyhngrnnngpgmkyrwnrnnnghmpg
 :END:

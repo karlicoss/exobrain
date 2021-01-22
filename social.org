@@ -111,3 +111,21 @@ https://communitywiki.org/trunk
 :PROPERTIES:
 :ID:       sgzycmtwttrwhyndhwyshldjntwttrrghtnwlxygzy
 :END:
+* TODO [#B] [2020-12-19] [[https://nitter.net/pvh/status/1339998793521979392][Peter van Hardenberg (@pvh): "At Ink & Switch, we have regular workshops where we invite folk to share their work privately with other builders. If you're working on something that helps people exercise their creativity, think more clearly, or take ownership over their tools, I'd love to invite you, too." | nitter]]
+:PROPERTIES:
+:ID:       snttrntpvhsttsptrvnhrdnbrrshpvrthrtlsdlvtnvtytnttr
+:END:
+: At Ink & Switch, we have regular workshops where we invite folk to share their work privately with other builders. If you're working on something that helps people exercise their creativity, think more clearly, or take ownership over their tools, I'd love to invite you, too.
+* TODO [#B] [2020-12-12] [[https://news.ycombinator.com/item?id=25385296][Datasette: An open source multi-tool for exploring and publishing data | Hacker News]] :social:hpi:datasette:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmddtsttnpnsrxplrngndpblshngdthckrnws
+:END:
+: I've been trying out something new this week: I'm running "Datasette Office Hours" where people can book a 20 minute Zoom call on a Friday to to talk to me about the project.
+: Today was the first day for calls, and it was fantastic. I spoke to five different people and got to see some wonderful applications of the tool - from analyzing hardware test results to exploring cemetery interment records.
+: If you're running an open source project and want to talk to people using your software this approach seems to work really well. I'm using Calendly for it: https://calendly.com/swillison/datasette-office-hours
+* TODO [#B] [2020-10-26] [[https://futureofcoding.org/member-handbook][Member Handbook | Future of Coding]]
+:PROPERTIES:
+:ID:       sftrfcdngrgmmbrhndbkmmbrhndbkftrfcdng
+:END:
+: #share-your-work
+: This is the channel for discussion about your own work, with a particular emphasis on work that pushes us toward the future of computing. If you want feedback, collaborators, high-fives, or just a place to drop your latest output, this is the place. This channel is especially sensitive to tone, so please keep things positive and constructive. Critique is great, criticism is not.

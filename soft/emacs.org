@@ -946,3 +946,7 @@ e -- eval expression
 :END:
 https://github.com/alphapapa/emacs-package-dev-handbook
 : The Emacs Package Developer’s Handbook
+* [2020-12-30] [[https://irreal.org/blog/?p=9156][Leveraging Emacs Introspection | Irreal]] :exobrain:emacs:debugging:
+:PROPERTIES:
+:ID:       srrlrgblgplvrgngmcsntrspctnrrl
+:END:

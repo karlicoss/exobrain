@@ -208,3 +208,18 @@ https://github.com/magnars/s.el
 :PROPERTIES:
 :ID:       dbggngmssgbffrstrng
 :END:
+
+
+* [2021-01-02] [[https://github.com/Wilfred/ht.el][Wilfred/ht.el: The missing hash table library for Emacs]]
+:PROPERTIES:
+:ID:       sgthbcmwlfrdhtlwlfrdhtlthmssnghshtbllbrryfrmcs
+:END:
+
+* [2021-01-16] [[https://www.gnu.org/software/emacs/manual/html_node/eintr/else.html][gnu.org/software/emacs/manual/html_node/eintr/else.html]] :elisp:
+:PROPERTIES:
+:ID:       swwwgnrgsftwrmcsmnlhtmlndftwrmcsmnlhtmlndntrlshtml
+:END:
+: Note that the different levels of indentation make it easy to distinguish the then-part from the else-part.
+
+ugh, this fucking sucks. how the fuck is this makes it easier. 
+e.g. if you swap if and else clauses, indentation changes

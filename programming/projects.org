@@ -333,3 +333,13 @@ https://obsproject.com/forum/resources/input-overlay.552/
 :END:
 https://github.com/kootenpv/gittyleaks/pull/10
 : If you are the copyright holder, it's up to you how you license your work —I think the only catch is that you can't retrospectively revoke open-source licenses for previous versions, but I think you could easily publish an updated version with a different license, or even license with two different licenses if you wanted to. Also, if others have previously contributed to the project whilst it was under a given license, you will need their permission to relicense it, unless you have a copyright-grant agreement with them (such that they assign copyright to their contributions to you).
+* TODO [#B] [2020-05-22] [[https://news.ycombinator.com/item?id=23271053][Using SQL to find my best photo of a pelican according to Apple Photos | Hacker News]] :hpi:publish:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdsngsqltfnplcnccrdngtpplphtshckrnws
+:END:
+apparently people like specific demos
+* [2021-01-09] [[http://localhost:8888/lab][JupyterLab]]                 :ui:
+:PROPERTIES:
+:ID:       lclhstlbjpytrlb
+:END:
+good setting design with system defaults (readonly) and user preferences on the side

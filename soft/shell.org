@@ -34,3 +34,12 @@ https://lobste.rs/s/l2fk5f/seven_god_like_bash_history_shortcuts_you
 : #!/usr/bin/env bash
 : set -euo pipefail
 : The first statement is a Mac, GNU/Linux, and BSD portable way of finding the location of the bash interpreter. The second statement combines
+* [#C] [2020-05-16] [[https://www.nushell.sh/][Nushell | A new type of shell.]] :shell:malleable:
+:PROPERTIES:
+:ID:       swwwnshllshnshllnwtypfshll
+:END:
+** [2020-05-16] [[https://www.nushell.sh/about.html][about | Nushell]]
+:PROPERTIES:
+:ID:       swwwnshllshbthtmlbtnshll
+:END:
+: dditionally, commands can output structured data (you can think of this as a third kind of stream). Commands that work in the pipeline fit into one of three categories:

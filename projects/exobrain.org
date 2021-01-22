@@ -717,3 +717,33 @@ https://github.com/RichardLitt/meta-knowledge
 :PROPERTIES:
 :ID:       ltrwhnpblshmyrgmdsrcs
 :END:
+* TODO [#C] [2020-12-31] [[https://github.com/yeraydiazdiaz/lunr.py][yeraydiazdiaz/lunr.py: A Python implementation of Lunr.js 🌖]]
+:PROPERTIES:
+:ID:       sgthbcmyrydzdzlnrpyyrydzdzlnrpypythnmplmnttnflnrjs
+:END:
+
+* [2020-12-31] [[https://github.com/weixsong/elasticlunr.js/issues/96][how to get the positions of the term matches · Issue #96 · weixsong/elasticlunr.js]] :exobrain:
+:PROPERTIES:
+:ID:       sgthbcmwxsnglstclnrjsssshhtrmmtchssswxsnglstclnrjs
+:END:
+ugh. not possible?
+* TODO [#C] [2021-01-02] [[https://orgmode.org/org.html#HTML-specific-export-settings][The Org Manual]]
+:PROPERTIES:
+:ID:       srgmdrgrghtmlhtmlspcfcxprtsttngsthrgmnl
+:END:
+
+* TODO [#C] [2020-12-27] [[https://github.com/hrwtech/Digital-Garden/blob/1cee3b97439a9d9fb1ae30d8c14dbb7ac32280ad/Backlog/_Overflow/ideas.md][Digital-Garden/ideas.md at 1cee3b97439a9d9fb1ae30d8c14dbb7ac32280ad · hrwtech/Digital-Garden]] :ideas:
+:PROPERTIES:
+:ID:       sgthbcmhrwtchdgtlgrdnblbcbdfbdcdbbcdhrwtchdgtlgrdn
+:END:
+collect all ideas repos and search over them?
+basically, add to a private search engine thing
+** [2021-01-22] related                                               :agora:
+:PROPERTIES:
+:ID:       rltd
+:END:
+* [2020-12-28] [[https://stackoverflow.com/questions/13340616/assign-ids-to-every-entry-in-org-mode][emacs - Assign IDs to every entry in Org-mode - Stack Overflow]] :exobrain:
+:PROPERTIES:
+:ID:       sstckvrflwcmqstnsssgndstvndstvryntrynrgmdstckvrflw
+:END:
+ugh. not sure about this way... at least it's gonna be deterministic then

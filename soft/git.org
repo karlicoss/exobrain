@@ -119,3 +119,8 @@ https://stackoverflow.com/questions/7375528/how-to-extract-one-file-with-commit-
 :ID:       gtsshdbggng
 :END:
 : GIT_SSH_COMMAND='ssh -v' git fetch
+
+* [2021-01-11] [[https://about.gitlab.com/blog/2020/11/23/keep-git-history-clean-with-interactive-rebase/][How to keep your Git history clean with interactive rebase | GitLab]]
+:PROPERTIES:
+:ID:       sbtgtlbcmblgkpgthstryclnwthstryclnwthntrctvrbsgtlb
+:END:

@@ -806,3 +806,7 @@ https://praw.readthedocs.io/en/v3.6.0/pages/getting_started.html#connecting-to-r
 :END:
 https://twitter.com/Pinboard/status/1113807174717792256
 : Next question is, does a raw API call give the same results as the website? The API and website search engine run off of different indexes.
+* [2020-12-30] [[https://github.com/fbchat-dev/fbchat/issues/613][Notice: This project is unmaintained · Issue #613 · fbchat-dev/fbchat]] :facebook:
+:PROPERTIES:
+:ID:       sgthbcmfbchtdvfbchtsssntcrjctsnmntndssfbchtdvfbcht
+:END:

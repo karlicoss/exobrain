@@ -145,3 +145,19 @@ https://danluu.com/web-bloat/
 :ID:       snwsycmbntrcmtmdsvstdnyrcssstylsht
 :END:
 https://evertpot.com/visited-links
+* TODO [#D] [2020-11-01] [[https://twitter.com/ThomasKainrad/status/1322928321097814016][Thomas Kainrad on Twitter: "About once a month, someone sends me an email to ask how I implemented the position-aware TOC sidebar on my blog. The answer is Tocbot: https://t.co/ifVHpq5C8Z https://t.co/q6eAzYv855" / Twitter]] :blog:
+:PROPERTIES:
+:ID:       stwttrcmthmsknrdsttsthmskcbtstcfvhpqczstcqzyvtwttr
+:END:
+: About once a month, someone sends me an email to ask how I implemented the position-aware TOC sidebar on my blog.
+: The answer is Tocbot:
+: https://tscanlin.github.io/tocbot/
+
+https://github.com/table-of-contents-sidebar/table-of-contents-sidebar
+* [2021-01-14] [[https://wiki.xxiivv.com/site/left.html][XXIIVV — left]] :exobrain:blog:inspiration:
+:PROPERTIES:
+:ID:       swkxxvvcmstlfthtmlxxvvlft
+:END:
+: A web version was initially created to help rekka with the writing of wiktopher, 
+
+very nice {internal} vs [external] link syntax

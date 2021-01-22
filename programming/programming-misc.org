@@ -904,3 +904,64 @@ https://www.reddit.com/r/cpp/comments/9cndcr/lldb_now_supports_syntax_highlighti
 :END:
 https://letoverlambda.com/textmode.cl/guest/chap5.html
 dunno, wasn't really impressed much...
+* [2021-01-01] [[https://news.ycombinator.com/item?id=5227258][I think it would be not that much better than prefix. Infix is easier to read, ... | Hacker News]] :lisp:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdthnktwldbtrthnprfxnfxssrtrdhckrnws
+:END:
+: The second thing is, intermediate variables makes code much more readable, but lisp strongly discourages this. The only way to create a lexical variable is with LET. But this causes indenting, which is pretty ugly. In fact, the use of indenting for both logical nesting and variable creation is a really nasty thing:
+* [2021-01-03] [[https://mikelevins.github.io/posts/2020-12-18-repl-driven/][On repl-driven programming - by mikel evins]] :repl:lisp:
+:PROPERTIES:
+:ID:       smklvnsgthbpstsrpldrvnnrpldrvnprgrmmngbymklvns
+:END:
+
+* TODO [#B] [2020-07-27] [[https://news.ycombinator.com/item?id=23965209][Apache Arrow 1.0 | Hacker News]] :ffi:cachew:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdpchrrwhckrnws
+:END:
+: Apache Arrow is a nice in-memory data structure finding its usage in wide variety of projects; especially in data science due to its feather format which can be used to save data frame from memory to the disk.
+* [#C] [2020-05-16] [[https://macropy3.readthedocs.io/en/latest/js.html#js][JS Snippets — MacroPy3 1.1.0 documentation]] :ffi:
+:PROPERTIES:
+:ID:       smcrpyrdthdcsnltstjshtmljsjssnpptsmcrpydcmnttn
+:END:
+* [2021-01-19] [[https://news.ycombinator.com/item?id=25836886][IPFS Support in Brave | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdpfsspprtnbrvhckrnws
+:END:
+
+* TODO [#B] [2020-12-07] [[https://clig.dev/][Command Line Interface Guidelines]] :cli:
+:PROPERTIES:
+:ID:       sclgdvcmmndlnntrfcgdlns
+:END:
+* TODO [#C] [2020-10-13] [[https://twitter.com/thingskatedid/status/1316074032379248640][Kate (but spooky) on Twitter: "💡FAQ about displaying stuff in a terminal https://t.co/XQBOezyJAx" / Twitter]] :cli:
+:PROPERTIES:
+:ID:       stwttrcmthngsktddsttsktbtstffntrmnlstcxqbzyjxtwttr
+:END:
+: FAQ about displaying stuff in a terminal
+* [2020-12-27] [[https://github.com/tinysearch/tinysearch][tinysearch/tinysearch: 🔍 Tiny, full-text search engine for static websites built with Rust and Wasm]] :search:
+:PROPERTIES:
+:ID:       sgthbcmtnysrchtnysrchtnysfrsttcwbstsbltwthrstndwsm
+:END:
+
+* TODO [#C] [2020-11-02] [[https://twitter.com/ralismark/status/1323145680219594754][Tim Yao on Twitter: "@karlicoss I messed around with awk and came up with this script: ``` NR &gt; 1 { printf (/DEBUG/ &amp;&amp; hiding) ? "\r" : "\n" } { printf "%s", $0; hiding=/DEBUG/ } END { printf "\n" } ``` It advances to a new line only if the current and previous lines didn't have DEBUG." / Twitter]] :logging:
+:PROPERTIES:
+:ID:       stwttrcmrlsmrksttstmyntwtntndprvslnsddnthvdbgtwttr
+:END:
+:  messed around with awk and came up with this script:
+: 
+: ```
+: NR > 1 { printf (/DEBUG/ && hiding) ? "\r" : "\n" }
+: { printf "%s", $0; hiding=/DEBUG/ }
+: END { printf "\n" }
+: ```
+: 
+: It advances to a new line only if the current and previous lines didn't have DEBUG.
+* TODO [2020-12-29] [[https://tryolabs.com/blog/2020/12/21/top-10-python-libraries-of-2020/][Top 10 Python libraries of 2020 you should know about | Tryolabs Blog]] :hpi:
+:PROPERTIES:
+:ID:       strylbscmblgtppythnlbrrsflbrrsfyshldknwbttrylbsblg
+:END:
+: PrettyErrors does only one thing and does it well. In terminals that support colored output, it transforms the cryptic stack traces into something that is much better suited for parsing with our puny human eyes. No more scanning the entire screen to find the culprit of your exception… You can now find it at a glance!
+* TODO [#A] [2020-06-10] [[https://news.ycombinator.com/item?id=23475225][Create diagrams with code using Graphviz | Hacker News]] :viz:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdcrtdgrmswthcdsnggrphvzhckrnws
+:END:
+: 1. For manual editing, dot -Tx11 foo.dot displays the graph in a window and updates it automatically whenever you save. So you can have an editor window open and the dot window and see the results of every tweak. For automatically generated graphs, this provides you with a window that you can update by overwriting a file with a new graph description.

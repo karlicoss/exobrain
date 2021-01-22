@@ -189,3 +189,94 @@ https://pxlnv.com/blog/bullshit-web/
 
 
 https://twitter.com/hillelogram/status/1162858121360007168
+
+* Licences                                                          :license:
+:PROPERTIES:
+:ID:       lcncs
+:END:
+** [#B] [2019-12-30] Choosing a license for GoatCounter
+:PROPERTIES:
+:ID:       chsnglcnsfrgtcntr
+:END:
+https://www.arp242.net/license.html
+: I’m not especially concerned with patents or people using my work for commercial purposes: a company using my little tool or library (with or without changes) takes away nothing from my little hobby project that I wrote for my own reasons.
+** [#B] [2019-12-30] Can GNU licensed software be used for commercial gain without selling the software? : linux
+:PROPERTIES:
+:ID:       cngnlcnsdsftwrbsdfrcmmrclgnwthtsllngthsftwrlnx
+:END:
+https://www.reddit.com/r/linux/comments/3pws4n/can_gnu_licensed_software_be_used_for_commercial/
+: The only thing (within reason) you can't do is not share the source code if you distribute a modified version (and as /u/ameoba says, GPL v3 makes it clearer what 'distribute' means).
+: The GPL puts no limits on using free software commercially, it's not mentioned at all.
+** [#B] [2019-12-30] licensing - Question on importing a GPL'ed Python library in commercial code - Stack Overflow
+:PROPERTIES:
+:ID:       lcnsngqstnnmprtnggpldpythnlbrryncmmrclcdstckvrflw
+:END:
+https://stackoverflow.com/questions/999468/question-on-importing-a-gpled-python-library-in-commercial-code
+: IANAL, but:
+: Now, the igraph library is GPL licensed. My question is: Can I import igraph and use it in my commercial Python script?
+: YES. You can write commercial software and distribute it under the GPL. Nothing on GPL prevents commerce. It even explicity says that you can SELL your software at will,
+: More specifically, does simply importing a GPL Python module make my commercial code liable to be released to the public?
+: NO. You don't have to release anything. You don't even have to distribute anything.
+: If you ever distribute your program to someone, you must give (to this person only) the source code, and give full freedom to modify and distribute it under the same license.
+: Distributing something under GPL or using GPL libraries in your code doesn't force you to create a website and put your program for everybody in the world.
+** [#B] [2019-12-30] licensing - Question on importing a GPL'ed Python library in commercial code - Stack Overflow
+:PROPERTIES:
+:ID:       lcnsngqstnnmprtnggpldpythnlbrryncmmrclcdstckvrflw
+:END:
+https://stackoverflow.com/questions/999468/question-on-importing-a-gpled-python-library-in-commercial-code
+: of course, nothing is keeping that person you gave it to from putting your program up on your web for everybody in the world. – Aaron Jun 16 '09 at 5:50
+** [#B] [2019-12-30] Is an import in python considered to be dynamic linking? - Stack Overflow
+:PROPERTIES:
+:ID:       snmprtnpythncnsdrdtbdynmclnkngstckvrflw
+:END:
+https://stackoverflow.com/questions/40492518/is-an-import-in-python-considered-to-be-dynamic-linking
+: No, loading a pure-Python module is not considered a form of dynamic linking.
+: 
+: Traditional dynamic linking loads machine code into a new chunk of memory, and multiple executable processes can be given access (the dynamically linked library only needs to be loaded once, virtual memory takes care of the rest). The linker connects the executable and the dynamic library at runtime.
+: 
+: Loading a Python module, on the other hand, loads the bytecode for the modules into the Python process itself (Python will compile the source code if no bytecode cache is available at this time too). The loaded modules are not shared between processes. No translation has to take place, the result of running the bytecode produces new objects in the Python heap that all existing code in the interpreter can interact with.
+: 
+: No linker is involved in this process, no separate memory, to the OS there are no separate sections of memory to be managed as the module is simply part of the Python process memory.
+** [#B] [2019-12-30] licensing - How does the GPL static vs. dynamic linking rule apply to interpreted languages? - Software Engineering Stack Exchange
+:PROPERTIES:
+:ID:       lcnsnghwdsthgplsttcvsdynmlnggssftwrngnrngstckxchng
+:END:
+https://softwareengineering.stackexchange.com/questions/167773/how-does-the-gpl-static-vs-dynamic-linking-rule-apply-to-interpreted-languages
+
+** [#B] [2019-12-30] copyright - Citing Borrowed Code - Software Engineering Stack Exchange
+:PROPERTIES:
+:ID:       cpyrghtctngbrrwdcdsftwrngnrngstckxchng
+:END:
+https://softwareengineering.stackexchange.com/questions/226249/citing-borrowed-code
+: In the case of GPL, in order to use the snippet of code, you must also release ALL of your code under the GPL and include the GPL license as part of your distributed product. You do not need to cite which part you borrowed.
+** [#B] [2019-12-30] licensing - How does the GPL static vs. dynamic linking rule apply to interpreted languages? - Software Engineering Stack Exchange
+:PROPERTIES:
+:ID:       lcnsnghwdsthgplsttcvsdynmlnggssftwrngnrngstckxchng
+:END:
+https://softwareengineering.stackexchange.com/questions/167773/how-does-the-gpl-static-vs-dynamic-linking-rule-apply-to-interpreted-languages
+: The interpreted program, to the interpreter, is just data; a free software license like the GPL, based on copyright law, cannot limit what data you use the interpreter on. You can run it on any data (interpreted program), any way you like, and there are no requirements about licensing that data to anyone.
+: As for generic question about dynamic vs static linking. First of all, FSF's and Stallman's view is that it doesn't matter if linking is static or dynamic, GPL infects either way. From FSF GPL FAQ:
+: If the program dynamically links plug-ins, and they make function calls to each other and share data structures, we believe they form a single program, which must be treated as an extension of both the main program and the plug-ins. This means that combination of the GPL-covered plug-in with the non-free main program would violate the GPL.
+: and
+: Linking [name of your program] statically or dynamically with other modules is making a combined work based on [name of your program]. Thus, the terms and conditions of the GNU General Public License cover the whole combination
+: However, this is questionable from legal point of view. In the only case that actually went to court regarding dynamic linking — Galoob v. Nintendo — Court of Appeals ruled that derivative work "must incorporate a portion of the copyrighted work in some form". Which is not the case with dynamic linking.
+: Anyway regardless if dynamic linking does indeed infect or not, there is work around. It's used for example by Nvidia to provide binary drivers for Linux. You create (L)GPL wrapper, but as author you are allowed to add special exception to link with specific closed-source. Vide FSF GPL FAQ.
+** [#B] [2019-12-30] licensing - How does the GPL static vs. dynamic linking rule apply to interpreted languages? - Software Engineering Stack Exchange
+:PROPERTIES:
+:ID:       lcnsnghwdsthgplsttcvsdynmlnggssftwrngnrngstckxchng
+:END:
+https://softwareengineering.stackexchange.com/questions/167773/how-does-the-gpl-static-vs-dynamic-linking-rule-apply-to-interpreted-languages
+: The GPL doesn't say anything about static or dynamic linking. It doesn't even say anything about linking at all. Every lawyer or judge I talked to says that the issue of static and dynamic linking is completely irrelevant.
+** [#B] [2019-12-30] blog.devork.be/2009/11/python-modules-and-gpl-i-still-dont-get.html
+:PROPERTIES:
+:ID:       blgdvrkbpythnmdlsndgplstlldntgthtml
+:END:
+http://blog.devork.be/2009/11/python-modules-and-gpl-i-still-dont-get.html
+: I do have a conclusion however: if you have a python module which is not GPL-compatible but uses the API of another python module covered by the GPL chances are you are fine if: (i) you are not taking away market share of the GPL module. And (ii) you are not derriving or extending the creative work or copyrightable content of the module. But there's no distinct line, common sense is your friend (and enemy).
+** [2019-12-30] When licenses attack
+:PROPERTIES:
+:ID:       whnlcnssttck
+:END:
+https://www.b-list.org/weblog/2009/jul/14/licensing/
+: This is why we need answers
+: Nobody that I know is trying to steal anyone else’s code or sneak around someone else’s license. As someone who both benefits from and produces freely-licensed software, I wouldn’t stand for that. But well-meaning people can easily get bogged down in the morass that is license terms. To deal with this problem, the types of questions Jacob was asking yesterday need clear, common answers, many of which are not currently found in the FAQ documents of popular licenses (e.g., what exactly is “linking” in the context of a language like Python? If software is only used inside a particular company, is it being “distributed”?). Of course, any such answers would be subject to “until a court rules definitively one way or another”, but anything would be better than what we have right now.

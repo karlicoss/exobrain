@@ -2216,3 +2216,39 @@ https://praxis.fortelabs.co/a-complete-guide-to-tagging-for-personal-knowledge-m
 :PROPERTIES:
 :ID:       knthngtnlghtnngspps
 :END:
+
+* [2020-12-31] [[https://www.thefortunelabs.com/personal-knowledge-management/][Personal Knowledge Management – The Fortune Labs]] :toblog:pkm:
+:PROPERTIES:
+:ID:       swwwthfrtnlbscmprsnlknwldrsnlknwldgmngmntthfrtnlbs
+:END:
+three step process
+* TODO [#C] [2020-06-22] [[https://github.com/ulangi/ulangi][ulangi/ulangi: Ulangi is an Anki alternative for users to learn languages better with spaced repetition system.]] :spacedrep:
+:PROPERTIES:
+:ID:       sgthbcmlnglnglnglnglngsnnnggsbttrwthspcdrpttnsystm
+:END:
+* [#C] [2020-06-06] [[https://ramses.blog/why-take-notes/][Why I take notes of everything I learn | Ramses' Blog]] :pkm:notes:
+:PROPERTIES:
+:ID:       srmssblgwhytkntswhytkntsfvrythnglrnrmssblg
+:END:
+* [#D] [2019-02-11] Welcome!                        :physics:inspiration:pkm:
+:PROPERTIES:
+:ID:       wlcm
+:END:
+https://physicstravelguide.com/start
+pretty cool in detail guide
+* [#D] [2019-07-16] TagSpaces - Your versatile file manager     :pkm:tagging:
+:PROPERTIES:
+:ID:       tgspcsyrvrstlflmngr
+:END:
+https://www.tagspaces.org/
+- [2019-07-23] dunno, maybe it could be useful for photo tagging, but that's not too high of priority to me now
+
+* [2021-01-13] [[https://blog.jethro.dev/posts/taking_srs_seriously/][Taking Spaced Repetition Seriously · Jethro Kuan]] :spacedrep:
+:PROPERTIES:
+:ID:       sblgjthrdvpststkngsrssrslytkngspcdrpttnsrslyjthrkn
+:END:
+
+* [2021-01-17] [[https://forum.obsidian.md/t/zotero-best-practices/164/57][Zotero best practices - Knowledge management - Obsidian Forum]]
+:PROPERTIES:
+:ID:       sfrmbsdnmdtztrbstprctcsztprctcsknwldgmngmntbsdnfrm
+:END:

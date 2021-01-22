@@ -446,3 +446,19 @@ very nice visualisation!
 : I'm excited to announce the launch of a new essay, "How quantum teleportation works" (joint with Andy Matuschak). Teleportation is fun and surprising, and a fundamental primitive in quantum computation. This essay explains in detail how it works. It's available here:
 
 https://quantum.country/teleportation
+* [#D] [2019-05-02] Quantum Soccer — Greg Egan                :quantum:games:
+:PROPERTIES:
+:ID:       qntmsccrgrggn
+:END:
+http://www.gregegan.net/BORDER/Soccer/Soccer.html
+
+* [2021-01-16] [[https://www.youtube.com/watch?v=imdFhDbWDyM&list=WL&index=5][(2) Quantum Waves visualized in 3D - YouTube]] :quantum:viz:
+:PROPERTIES:
+:ID:       swwwytbcmwtchvmdfhdbwdymlstwlndxqntmwvsvslzdndytb
+:END:
+basic idea: draw the wavefunction in the orthogonal plane, then it's easy to see where the wavepacket is moving
+* [2021-01-17] [[https://www.youtube.com/watch?v=KnbrRhkJCRk][(2) QCD: Visualizing the Strongest Force in the Universe: Quantum Chromodynamics - YouTube]] :quantum:
+:PROPERTIES:
+:ID:       swwwytbcmwtchvknbrrhkjcrkcnthnvrsqntmchrmdynmcsytb
+:END:
+nice derivation of strong force energy via E=mc^2, the uncertaincy principle, and radius of the nucleus

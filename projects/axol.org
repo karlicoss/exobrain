@@ -556,7 +556,6 @@ axol/summary/hackernews_pkm.html
 :PROPERTIES:
 :ID:       brncmptrntrfc
 :END:
-
 * [#C] Sources
 :PROPERTIES:
 :ID:       srcs

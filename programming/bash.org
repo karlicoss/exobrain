@@ -121,3 +121,8 @@ priorities roughly indicate how useful I find each command
 :PROPERTIES:
 :ID:       a4e1347c-793d-4650-a883-35e9d724f523
 :END:
+* [2021-01-06] [[https://unix.stackexchange.com/questions/85391/where-is-the-bash-feature-to-open-a-command-in-editor-documented][Where is the bash feature to open a command in $EDITOR documented? - Unix & Linux Stack Exchange]] :bash:habit:
+:PROPERTIES:
+:ID:       snxstckxchngcmqstnswhrsthdndtrdcmntdnxlnxstckxchng
+:END:
+: edit-and-execute-command (C-xC-e)

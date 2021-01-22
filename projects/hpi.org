@@ -105,6 +105,11 @@ or lastfm ipynb?
 :ID:       cldcptnhpmtsx
 :END:
 
+** TODO [#B] [2021-01-01] [[https://www.sqlite.org/vtablist.html][List Of Virtual Tables]] :hpi:
+:PROPERTIES:
+:ID:       swwwsqltrgvtblsthtmllstfvrtltbls
+:END:
+
 * [#A] data providers/sources
 :PROPERTIES:
 :ID:       dtprvdrssrcs
@@ -1120,3 +1125,9 @@ integrate with it?
 :PROPERTIES:
 :ID:       ctllypynvshllnhpnvcldmkmrsns
 :END:
+
+* [#C] [2020-10-19] [[https://github.com/dentropy/Blog/blob/45f5922e999cc1ad8dba74f695d3762bed3624f6/docs/notes/ddde0c1c-8f73-47ff-803a-342f85a5fa72.md][Blog/ddde0c1c-8f73-47ff-803a-342f85a5fa72.md at 45f5922e999cc1ad8dba74f695d3762bed3624f6 · dentropy/Blog]]
+:PROPERTIES:
+:ID:       sgthbcmdntrpyblgblbfccddbffmdtfccddbfdbdfdntrpyblg
+:END:
+: What features would I want in my HPI?

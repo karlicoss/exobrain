@@ -171,3 +171,30 @@ The FA chains are cleaved off of the glycerol backbone. The 3 FA chains are oxid
 :PROPERTIES:
 :ID:       vmhnlrcnmpmtblsmntrctvmp
 :END:
+* [#D] [2019-02-10] (6) Simplicial Complexes - Your Brain as Math Part 2 | Infinite Series - YouTube :brain:topology:
+:PROPERTIES:
+:ID:       smplclcmplxsyrbrnsmthprtnfntsrsytb
+:END:
+https://www.youtube.com/watch?v=rlI1KOo1gp4
+
+hmm. pretty interesting -- betty numbers are counting numbers of holes of different dimensions
+can we use it for figuring out the fundaemntal group after that?
+0th betty number -- connected components
+e.g. torus -- second betty number is 1 since the hole are the insides of torus
+
+neuron connections are a higher dimension simplicial complex
+* [2021-01-06] [[https://nplus1.ru/material/2020/07/02/why-theres-no-hiv-vaccine][Без вакцины]]
+:PROPERTIES:
+:ID:       snplsrmtrlwhythrsnhvvccnбезвакцины
+:END:
+: Ситуация осложняется тем, что после первого же промаха ружье можно выкидывать. Поскольку ВИЧ — ретровирус, он встраивает свои гены в ядерную ДНК. И вычеркнуть их оттуда мы уже не можем — по крайней мере, до сих пор не научились
+* [2021-01-10] [[https://github.com/keller-mark/awesome-biological-visualizations#readme][keller-mark/awesome-biological-visualizations: A list of web-based interactive biological data visualizations.]] :biology:viz:
+:PROPERTIES:
+:ID:       sgthbcmkllrmrkwsmblgclvslwbbsdntrctvblgcldtvslztns
+:END:
+
+* [2021-01-16] [[https://twitter.com/OlgaVPettersson/status/1350337989134659584][(1) Olga V. Pettersson on Twitter: "Балтимор, в 70х, открыл вирусный механизм, который этим занимается. Чтобы вирусу встроиться в геном, у него должно быть два гена: 1) обратная транскриптаза для перевода РНК в ДНК и 2) интеграза, кодирующая белок который встраивает свежесделанную вирусную ДНК в геном." / Twitter]]
+:PROPERTIES:
+:ID:       stwttrcmlgvpttrssnsttslgvнуювируснуюднквгеномtwttr
+:END:
+: Чтобы вирусу встроиться в геном, у него должно быть два гена: 1) обратная транскриптаза для перевода РНК в ДНК и 2) интеграза, кодирующая белок который встраивает свежесделанную вирусную ДНК в геном.

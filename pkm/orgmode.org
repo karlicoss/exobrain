@@ -1205,3 +1205,27 @@ meh, looks very basic, is not backed by plaintext, not very googlable...
 :END:
 https://buboflash.eu/bubo5/log-in?called-from=/bubo5/homepage
 mm, interesting thing, for web annotation. not sure if I want to use it?
+* STRT [2021-01-20] ugh. need some sanity checker for broken outlines   :org:
+:PROPERTIES:
+:ID:       ghndsmsntychckrfrbrkntlns
+:END:
+some false positives, but kind of ok
+: rg  '[^^*]\*+ .*(\[#.\]|:\s*$)'
+* [2021-01-01] [[https://github.com/viebel/klipse][viebel/klipse: Klipse is a Javacript plugin for embedding interactive code snippets in tech blogs. A simple client-side code evaluator pluggable on any web page: clojure, ruby, javascript, python, scheme, es2017, jsx, brainfuck, c++, reagent, lua, ocaml, reasonml, prolog, common lisp]] :org:literate:
+:PROPERTIES:
+:ID:       sgthbcmvblklpsvblklpsklpscrgntlcmlrsnmlprlgcmmnlsp
+:END:
+hhmm html export has klipse css properties??
+* [2021-01-16] [[https://stackoverflow.com/questions/56274067/how-to-use-the-function-option-of-org-capture-correctly/58395117#58395117][emacs - How to use the function option of org-capture correctly? - Stack Overflow]]
+:PROPERTIES:
+:ID:       sstckvrflwcmqstnshwtsthfntnfrgcptrcrrctlystckvrflw
+:END:
+capturing via a function to prompt for the target file
+* [2020-12-28] [[https://orgmode.org/manual/Advanced-Export-Configuration.html][Advanced Export Configuration (The Org Manual)]]
+:PROPERTIES:
+:ID:       srgmdrgmnldvncdxprtcnfgrtmldvncdxprtcnfgrtnthrgmnl
+:END:
+: Defining filters for individual files
+: The Org export can filter not just for back-ends, but also for specific files through the ‘BIND’ keyword. Here is an example with two filters; one removes brackets from time stamps, and the other removes strike-through text. The filter functions are defined in a code block in the same Org file, which is a handy location for debugging.
+
+whoa

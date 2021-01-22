@@ -1653,3 +1653,84 @@ https://stackoverflow.com/questions/12151306/argparse-way-to-include-default-val
 :ID:       gglpytypsttctypnlyzrfrpythncd
 :END:
 https://github.com/google/pytype
+
+* TODO [#B] [2020-01-03] Comparing Python Command-Line Parsing Libraries – Argparse, Docopt, and Click | Hacker News :python:
+:PROPERTIES:
+:ID:       cmprngpythncmmndlnprsnglbrrsrgprsdcptndclckhckrnws
+:END:
+https://news.ycombinator.com/item?id=10185290
+: I had a simpler case that I couldn't figure out using docopt. I was trying to add in tls flags into docker-compose to match docker. I could not get a combination working where you can just specify --tls to mean tls is true while still accepting --tls=true|false|0|1.
+* [#C] [2020-10-24] [[https://github.com/sdispater/pendulum][sdispater/pendulum: Python datetimes made easy]] :python:datetime:
+:PROPERTIES:
+:ID:       sgthbcmsdsptrpndlmsdsptrpndlmpythndttmsmdsy
+:END:
+: Why not Arrow?
+: 
+: Arrow is the most popular datetime library for Python right now, however its behavior and API can be erratic and unpredictable.
+* TODO [#C] [2020-09-05] [[https://fastpages.fast.ai/fastcore/][fastcore: An Underrated Python Library | fastpages]] :python:
+:PROPERTIES:
+:ID:       sfstpgsfstfstcrfstcrnndrrtdpythnlbrryfstpgs
+:END:
+
+* [2021-01-05] [[https://news.ycombinator.com/item?id=25620256][On Repl-Driven Programming | Hacker News]] :repl:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdnrpldrvnprgrmmnghckrnws
+:END:
+: Another way is ipython %edit magic command and $EDITOR set to vim and using %autoreload
+* TODO [#B] [2020-11-28] [[https://docs.python.org/3/library/ast.html][ast — Abstract Syntax Trees — Python 3.9.1rc1 documentation]]
+:PROPERTIES:
+:ID:       sdcspythnrglbrrysthtmlstbrctsyntxtrspythnrcdcmnttn
+:END:
+: ast.literal_eval
+* TODO [#B] [2019-12-27] Why Python is my Favorite Language • Buttondown
+:PROPERTIES:
+:ID:       whypythnsmyfvrtlnggbttndwn
+:END:
+https://buttondown.email/hillelwayne/archive/why-python-is-my-favorite-language/
+: What I need is an “X for Y”, but better. Something like To Ruby from Python or Go for Python Programmers only cover the core. They don’t cover the peripheral libraries or the lagangue ecosystem. Hyperpolyglot is better, but doesn’t talk much about the ecosystem. It also doesn’t compare across language families, which could be very helpful here.
+* TODO [#B] [2020-12-17] [[https://pypi.org/project/wrapt/][wrapt · PyPI]]
+:PROPERTIES:
+:ID:       spyprgprjctwrptwrptpyp
+:END:
+: Module for decorators, wrappers and monkey patching.
+* TODO [#B] [2020-12-13] [[https://github.com/pydot/pydot][pydot/pydot: Python interface to Graphviz's Dot language]] :viz:
+:PROPERTIES:
+:ID:       sgthbcmpydtpydtpydtpydtpythnntrfctgrphvzsdtlngg
+:END:
+* TODO [#C] [2020-12-05] [[https://nbsafety.org/][NBSafety]] Fearless interactivity for Jupyter notebooks
+:PROPERTIES:
+:ID:       snbsftyrgnbsftyfrlssntrctvtyfrjpytrntbks
+:END:
+
+* [2020-12-29] [[https://tryolabs.com/blog/2020/12/21/top-10-python-libraries-of-2020/][Top 10 Python libraries of 2020 you should know about | Tryolabs Blog]]
+:PROPERTIES:
+:ID:       strylbscmblgtppythnlbrrsflbrrsfyshldknwbttrylbsblg
+:END:
+: To power its capabilities, Typer internally stands on top of Click, which is very well-known and battle-tested. This means that it can leverage all its benefits, community and plugins, while starting simple with less boilerplate code and growing more complex as you need.
+* [#B] [2020-09-03] [[https://pyviz.org/overviews/index.html][Overviews — PyViz 0.0.1 documentation]]
+:PROPERTIES:
+:ID:       spyvzrgvrvwsndxhtmlvrvwspyvzdcmnttn
+:END:
+
+* TODO [#B] [2020-12-05] [[https://github.com/fastai/nbdev][fastai/nbdev: Create delightful python projects using Jupyter Notebooks]]
+:PROPERTIES:
+:ID:       sgthbcmfstnbdvfstnbdvcrtdlpythnprjctssngjpytrntbks
+:END:
+: Features of Nbdev
+:     - Automatically generate docs from Jupyter notebooks. These docs are searchable and automatically hyperlinked to appropriate documentation pages by introspecting keywords you surround in backticks.
+:     - Utilities to automate the publishing of pypi and conda packages including version number management.
+:     - A robust, two-way sync between notebooks and source code, which allow you to use your IDE for code navigation or quick edits if desired.
+:     - Fine-grained control on hiding/showing cells: you can choose to hide entire cells, just the output, or just the input. Furthermore, you can embed cells in collapsible elements that are open or closed by default.
+:     - Ability to write tests directly in notebooks without having to learn special APIs. These tests get executed in parallel with a single CLI command. You can even define certain groups of tests such that you don't have to always run long-running tests.
+:     - Tools for merge/conflict resolution with notebooks in a human readable format.
+:     - Continuous integration (CI) comes setup for you with GitHub Actions
+* TODO [#B] [2020-12-07] [[https://til.simonwillison.net/python/subprocess-time-limit][Running Python code in a subprocess with a time limit | Simon Willison’s TILs]]
+:PROPERTIES:
+:ID:       stlsmnwllsnntpythnsbprcssprcsswthtmlmtsmnwllsnstls
+:END:
+: Running Python code in a subprocess with a time limit
+* TODO [#B] [2020-12-07] [[https://github.com/tiangolo/typer][tiangolo/typer: Typer, build great CLIs. Easy to code. Based on Python type hints.]]
+:PROPERTIES:
+:ID:       sgthbcmtngltyprtngltyprtytclssytcdbsdnpythntyphnts
+:END:
+: Typer, build great CLIs. Easy to code. Based on Python type hints.

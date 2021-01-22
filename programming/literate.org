@@ -69,3 +69,8 @@ pycco for literate python programming...
 :PROPERTIES:
 :ID:       htsbttlnr
 :END:
+* [#D] [2020-04-13] [[https://docs.racket-lang.org/pollen/][Pollen: the book is a program]] :literate:
+:PROPERTIES:
+:ID:       sdcsrcktlngrgpllnpllnthbksprgrm
+:END:
+: Pollen: the book is a program

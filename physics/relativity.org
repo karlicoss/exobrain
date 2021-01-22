@@ -193,3 +193,8 @@
 - dynrel, p.20, potential!
 - Energy is conserved iff there exists V such that F = - grad V.
 - Central forces: angular momentum is conserved. L = m x \times x'. dL/dt = mx \times x'' = x \times F.
+* [2021-01-20] [[https://www.youtube.com/watch?v=6MfJ59lkABY][(1) Could A Spaceship Wrap Around The Universe & Destroy Itself? - YouTube]] :relativity:
+:PROPERTIES:
+:ID:       swwwytbcmwtchvmfjlkbycldspwrprndthnvrsdstrytslfytb
+:END:
+only preferred local frames of reference are forbidden, you can still have preferred global frames of reference. For example, big bang frame of reference, where the CMB appears still?

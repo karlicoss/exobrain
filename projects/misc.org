@@ -34,6 +34,11 @@ ugh, still might leak some private data...
 :END:
 https://github.com/JackWReid/jackreid.xyz/blob/master/data/pocket.json
 hmm nice pretty extensive pocket export
+** TODO [#B] [2020-12-11] [[https://bibliodemos-docs.nfshost.com/][Bibliodemos' Docs :: Bibliodemos' Docs]] :jdoe:
+:PROPERTIES:
+:ID:       sbbldmsdcsnfshstcmbbldmsdcsbbldmsdcs
+:END:
+: A demo persona
 * [#C] * kython                                                      :kython:
 :PROPERTIES:
 :ID:       kythn
@@ -304,7 +309,7 @@ my #twitter exporter
 
 * ----------------------------
 :PROPERTIES:
-:ID:       7432_7466
+:ID:       7574_7608
 :END:
 
 

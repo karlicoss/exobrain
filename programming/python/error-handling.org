@@ -53,3 +53,11 @@ https://blog.yoshuawuyts.com/error-handling-survey
 :PROPERTIES:
 :ID:       ctchngndrthrwngmghtbgdwyfddngcntxt
 :END:
+
+* TODO [#B] [2020-11-30] [[https://www.fpcomplete.com/blog/error-handling-is-hard/][Error handling is hard]]
+:PROPERTIES:
+:ID:       swwwfpcmpltcmblgrrrhndlngshrdrrrhndlngshrd
+:END:
+: Like so many other things, error handling ultimately is a trade-off. When we're writing our initial code, we don't want to think about errors. We code to the happy path. How productive would you be if you had to derail every line of code with thought processes around the myriad ways your code could fail?
+: 
+: But then we're debugging a production issue, and we definitely want to think about errors. We curse our lazy selves for not handling an error case that obviously could have arisen. "Why did I decide to abort the process when the TCP connection failed? I should have retried! I should have logged the address I tried to connect to!"

@@ -492,3 +492,50 @@ ah, it's also Ted Nelson... I suppose explains why I couldn't understand what it
 : You already got payment up front: software that the author(s) have made available to you for free.
 : You get payment by the author spending time to review your changes.
 : You also get payment afterward: free maintenance for your pet feature. (Not guaranteed of course but generally the case.)
+* [2021-01-01] [[https://omar.website/tabfs/#run-script][TabFS]]
+:PROPERTIES:
+:ID:       smrwbsttbfsrnscrpttbfs
+:END:
+
+* [2020-12-29] [[https://app.element.io/#/room/#malleable-systems:matrix.org][Element | Malleable Systems Collective]]
+:PROPERTIES:
+:ID:       spplmntrmmllblsystmsmtrxrglmntmllblsystmscllctv
+:END:
+: software equivalent of environmental pollution
+
+very good expression
+* TODO [#C] [2020-11-09] [[https://app.element.io/#/room/#malleable-systems:matrix.org][Element | Malleable Systems Collective]] :malleable:think:
+:PROPERTIES:
+:ID:       spplmntrmmllblsystmsmtrxrglmntmllblsystmscllctv
+:END:
+: I'd love for someone to sketch up what a better state of affairs could look like, because this is a major unsolved problem. There's a clear application to browser add-ons /  extensions and mobile app stores of today, but also future systems as well.
+* [2021-01-16] [[https://treenotation.org/][Tree Notation]] :spreadsheets:hpi:
+:PROPERTIES:
+:ID:       strnttnrgtrnttn
+:END:
+
+* [2021-01-05] [[https://www.youtube.com/watch?v=c6SUOeAqOjU&list=WL&index=46][(1) Computers for Cynics 2 - It All Went Wrong at Xerox PARC - YouTube]] :tednelson:
+:PROPERTIES:
+:ID:       swwwytbcmwtchvcsqjlstwlndcyncstllwntwrngtxrxprcytb
+:END:
+"in order to seel printers they threw away the universe"
+* TODO [#C] [2020-12-16] [[https://lobste.rs/s/flnbt2/sourcehut_plan_9_3#c_dho5uy][SourceHut + Plan 9 = <3 | Lobsters]] :plan9:
+:PROPERTIES:
+:ID:       slbstrssflnbtsrchtplncdhysrchtplnlbstrs
+:END:
+: I found this paper
+: to be a wonderful walkthrough. I highly recommend getting a copy of 9front running, and going through some the exercises in the paper.
+: It’s very long, but definitely a great way to get a feel for how some of the concepts in Plan 9 are applied.
+: Edit: Since I was reminded how much I like this paper, I decided to submit it as a story.
+* TODO [#B] [2020-06-20] [[https://twitter.com/coreload/status/1274139256064098306][(2) 🌊 🇺🇸 on Twitter: "What should a runtime consist of? 1. Triples with matching 2. Backtracking search 3. Dataflow Sadly very few runtimes come close. Lisp and Smalltalk made implementation easy. Prolog makes it very easy, but it's easy to write Prolog in Lisp and Smalltalk, so there you go. ~1969" / Twitter]]
+:PROPERTIES:
+:ID:       stwttrcmcrldsttsntwttrwhtgnlspndsmlltlksthrygtwttr
+:END:
+: What should a runtime consist of?
+: 1. Triples with matching
+: 2. Backtracking search
+: 3. Dataflow
+: 
+: Sadly very few runtimes come close.
+: Lisp and Smalltalk made implementation easy.
+: Prolog makes it very easy, but it's easy to write Prolog in Lisp and Smalltalk, so there you go.
