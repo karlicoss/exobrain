@@ -582,3 +582,51 @@ pretty good, soft overview with highlights of different parts
 None
 [[https://www.scottaaronson.com/blog/?p=2756][Shtetl-Optimized  » Blog Archive   » “Can computers become conscious?”: My reply to Roger Penrose]]
 [[https://hyp.is/LJqhJPz0Eem1V4OZGz8ddg/www.scottaaronson.com/blog/?p=2756][in context]]
+
+* [2019-08-25] MAGNETS: How Do They Work? - YouTube
+:PROPERTIES:
+:ID:       snmgntshwdthywrkytb
+:END:
+https://www.youtube.com/watch?v=hFAOXdXZ5TM
+atoms with half shells filled are magnetic. Full shells -- electron magnetic moments cancel out
+* [2019-09-06] Например, космический корабль, который движется с ускорением свободного падения g, пройдет расстояние 13 миллиардов световых лет (долетит до края наблюдаемой Вселенной!) менее чем за сто лет, если считать время в собственной системе отсчета.
+:PROPERTIES:
+:ID:       frнапримеркосмическийкорасобственнойсистемеотсчета
+:END:
+
+* [2019-08-25] How Special Relativity Makes Magnets Work - YouTube :sr:electromagnetism:
+:PROPERTIES:
+:ID:       snhwspclrltvtymksmgntswrkytb
+:END:
+https://www.youtube.com/watch?v=1TKSfAkWWN0
+very good intuitive explanation! Basically, since charges in wire (protons/electrons) are moving relative to each other, they are slightly contracted  so in other frames of reference it creates a force
+* [2019-02-18] (12) Lecture by Douglas Hofstadter: Albert Einstein on Light; Light on Albert Einstein - YouTube :biography:
+:PROPERTIES:
+:ID:       mnlctrbydglshfstdtrlbrtnstnnlghtlghtnlbrtnstnytb
+:END:
+https://www.youtube.com/watch?v=ePA1zq56J1I&list=WL&index=72&t=838s
+Einstein was given Nobel Prize for photoelectic effect; no one in the commitee believed in light quanta
+* [2019-02-18] (12) Lecture by Douglas Hofstadter: Albert Einstein on Light; Light on Albert Einstein - YouTube :physics:
+:PROPERTIES:
+:ID:       mnlctrbydglshfstdtrlbrtnstnnlghtlghtnlbrtnstnytb
+:END:
+https://www.youtube.com/watch?v=ePA1zq56J1I&list=WL&index=72&t=838s
+apparently, Planck still didn't believe in light quanta in 1913
+* [2019-02-21] 'A Universe From Nothing' by Lawrence Krauss, AAI 2009 - YouTube
+:PROPERTIES:
+:ID:       thnvrsfrmnthngbylwrnckrssytb
+:END:
+https://www.youtube.com/watch?v=7ImvlS8PLIo&list=WL&t=1033s&index=70
+eh, not really anything new. Also a bit too much on mocking religious people..
+
+* [2019-04-30] «Ботаники в неведомой стране»
+:PROPERTIES:
+:ID:       tботаникивневедомойстране
+:END:
+: Неровной нейтронную звезду может сделать также ее собственное сильное магнитное поле, которое придаст ей несферическую форму. Магнитное поле несферически симметрично, поэтому оно сжимает нейтронную звезду в каком-то направлении, и тогда она тоже начинает излучать. Соответственно, нейтронные звезды с большими магнитными полями могут быть источниками гравитационного излучения.
+
+* [2019-01-27] good lagrangian points intuition https://www.reddit.com/r/dataisbeautiful/comments/adttul/oc_peusdopotential_in_the_earthmoon_system/edk9f1j/ :physics:space:
+:PROPERTIES:
+:ID:       sngdlgrngnpntsnttnswwwrddpsdptntlnthrthmnsystmdkfj
+:END:
+: This is a graph of potential, which also serves as an analogy that sort of helps you figure out what the overall force on an orbiting object is: if you placed a ball on this surface and it was going to roll "downhill", which way would it go? The five crosses mark points where the top surface is flat, so an object at those points will experience no overall force acting on it (if it's orbiting at the same speed as the moon). These are therefore pseudo-stable points where you could leave a satellite orbiting.

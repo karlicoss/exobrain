@@ -656,6 +656,16 @@ related: #twitter
 : CRITICAL:root:twint.get:Tweet:time data '' does not match format '%Y-%m-%d %H:%M:%S'
 : 1249586565417963520 2020-04-13 07:33:48 BST <karlicoss> this is, in part, why I stopped listening podcasts
 
+** [2020-04-13] [[https://news.ycombinator.com/item?id=22843225#22854995][Show HN: Twint – Twitter scraping tool written in Python | Hacker News]] :twint:promnesia:hpi:
+:PROPERTIES:
+:ID:       mnsnwsycmbntrcmtmdshwhntwcrpngtlwrttnnpythnhckrnws
+:END:
+hmm maybe use it real quick?
+*** [2020-04-14] [[https://github.com/twintproject/twint/wiki][Home · twintproject/twint Wiki]] :hpi:
+:PROPERTIES:
+:ID:       tsgthbcmtwntprjcttwntwkhmtwntprjcttwntwk
+:END:
+maybe use github wiki?
 * CNCL [#D] * org-sync
 :PROPERTIES:
 :ID:       rgsync
@@ -674,7 +684,7 @@ using #gitbug instead now
 
 * --------------------------------
 :PROPERTIES:
-:ID:       22255_22291
+:ID:       22599_22635
 :END:
 
 * STRT [#C] share link and content                                    :tusky:

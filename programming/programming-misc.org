@@ -695,3 +695,24 @@ https://codeburst.io/web-scraping-in-rust-881b534a60f7
 :END:
 
 : To get to know Agda better, you can read this introductory post by Danya Rogozin.
+
+* [2020-07-07] [[https://lobste.rs/s/fepvea/against_testing#c_t52joz][against testing | Lobsters]] :testing:
+:PROPERTIES:
+:ID:       tslbstrssfpvgnsttstngctjzgnsttstnglbstrs
+:END:
+: I don’t write tests to avoid bugs. I write tests to avoid regressions.
+* TODO [#C] Guide to Web Automation - By
+:PROPERTIES:
+:CREATED:  [2019-10-08]
+:ID:       gdtwbtmtnby
+:END:
+
+https://hackernoon.com/guide-to-web-automation-889557804453
+* [2019-04-21] [[https://reddit.com/r/agda/comments/bej1jr/cubical_agda_and_probability_monads/][Cubical Agda and Probability Monads]] /r/agda :agda:
+:PROPERTIES:
+:ID:       snsrddtcmrgdcmmntsbjjrcbcndscbclgdndprbbltymndsrgd
+:END:
+* [2019-05-06] [[https://reddit.com/r/rust/comments/bjnxd3/a_guide_to_rust_graphics_libraries_as_of_2019/][A Guide to Rust Graphics Libraries as of 2019]] /r/rust
+:PROPERTIES:
+:ID:       mnsrddtcmrrstcmmntsbjnxdgsfgdtrstgrphcslbrrssfrrst
+:END:

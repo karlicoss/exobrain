@@ -26,3 +26,32 @@
 :END:
 https://gist.github.com/andyshinn/3ae01fa13cb64c9d36e7
 : Try crond --help:
+* [2019-01-19] [[https://reddit.com/r/Android/comments/96r4qz/is_rooting_your_device_still_worth_it/e42umay/][Is Rooting Your Device Still Worth It?]] /r/Android
+:PROPERTIES:
+:ID:       stsrddtcmrndrdcmmntsrqzsrysrtngyrdvcstllwrthtrndrd
+:END:
+:  Yes, and I wouldn't even consider buying a phone that couldn't be rooted. Main reasons include:  
+:  
+:  - Adaway  
+:  - build.prop tweaks to change DPI and change volume steps  
+:  - uninstall system apps
+:  - root broswer (I use Solid Explorer)
+:  - Viper4android for audio tweaks
+:  - Kernel Audiutor to tweak performance
+:  - WiFi key recovery to see wifi passwords you've entered
+:  
+:  Xposed modules including:  
+:  
+:  - Xposed edge for custom swipe gestures (I use swipe from the right edge to open recents)  
+:  - Youtube background playback  
+:  - Youtube adaway  
+:  - Media volume channel
+:  - Greenify  
+:  - Amplify
+* [2019-01-19] [[https://reddit.com/r/Android/comments/9pux6h/what_are_the_benefits_to_rooting_in_2018/e84jxj6/][What are the benefits to rooting in 2018?]] /r/Android
+:PROPERTIES:
+:ID:       stsrddtcmrndrdcmmntspxhwhjxjwhtrthbnftstrtngnrndrd
+:END:
+:  Systemwide adblock, without running a VPN all the time (because I use a separate VPN for work sometimes and juggling is annoying). 
+:  Blocking internet access to certain apps (Gboard, camera, etc. Don't need EVERYTHING I say keylogged by Google.)
+:  Customization of stuff like emojis, where the clock is in the status bar, etc.

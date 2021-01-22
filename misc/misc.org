@@ -1305,3 +1305,151 @@ https://twitter.com/RealPhilipRyan/status/1190950587380011008
 :PROPERTIES:
 :ID:       sgthbcmrndyrntsshrpkysrlsstrmpcpstsc
 :END:
+* [2020-07-13] [[https://opentopomap.org/#map=11/53.1700/-1.6589][OpenTopoMap - Topographische Karten aus OpenStreetMap]] :map:
+:PROPERTIES:
+:ID:       mnspntpmprgmppntpmptpgrphschkrtnspnstrtmp
+:END:
+* [2020-09-16] [[https://en.wikipedia.org/wiki/Jonny_Lee_Miller][Jonny Lee Miller - Wikipedia]]
+:PROPERTIES:
+:ID:       wdsnwkpdrgwkjnnylmllrjnnylmllrwkpd
+:END:
+: He first starred in the film Hackers (1995), with Angelina Jolie, whom he married in 1996.
+: Shortly after Hackers, Miller was cast as Sick Boy in Trainspotting. He was suggested for the role by Ewan McGregor.
+: The accent he used in the film was regarded as very convincing, leading some people to incorrectly believe that he was Scottish.[9] Miller has stated: "I had to do a lot of work. I read and re-read the book and I pretended to be Scottish all the time I was in Glasgow, hanging around with Scots, picking up bits and pieces on the street and in bars.
+: ... so I've tried to just pick up a general, composite accent.
+* DONE [#B] [2019-10-19] hwayne/awesome-cold-showers: For when people get too hyped up about things :hype:
+:PROPERTIES:
+:ID:       sthwynwsmcldshwrsfrwhnpplgtthypdpbtthngs
+:END:
+https://github.com/hwayne/awesome-cold-showers
+: Awesome Cold Showers
+* [#C] [2020-05-26] [[https://twitter.com/ne0liberal][Neoliberal 🌐 (@ne0liberal) / Twitter]] :design:inspiration:
+:PROPERTIES:
+:ID:       tstwttrcmnlbrlnlbrlnlbrltwttr
+:END:
+nice logo
+* [#C] [2019-05-18] Tweet from Emma Strubell (@strubell), at May 18, 18:58 :recycling:
+:PROPERTIES:
+:ID:       sttwtfrmmmstrbllstrblltmy
+:END:
+: Are you interested in deep learning for NLP but also concerned about the CO2 footprint of training? You should be! Excited to share our work "Energy and Policy Considerations for Deep Learning in NLP" at @ACL2019_Italy! With @ananya__g and @andrewmccallum. Preprint coming soon. https://t.co/kIgZWcptRR
+
+
+https://twitter.com/strubell/status/1129408199478661120
+
+* [2019-09-10] Gutenberg                                              :books:
+:PROPERTIES:
+:ID:       tgtnbrg
+:END:
+https://www.gutenberg.org
+
+* DONE [#B] [2019-01-10] Thought as a Technology                   :thinking:
+:PROPERTIES:
+:ID:       ththghtstchnlgy
+:END:
+http://cognitivemedium.com/tat/index.html
+** TODO [2019-01-24] At this point, Sussman goes into a long, informal analysis. It's fascinating, and unlike anything I've ever heard in an electric circuits class. I won't quote Sussman's analysis here – it really needs his voice and body language – but you can see it just after the 26 minute mark in his talk. Sussman concludes:
+:PROPERTIES:
+:ID:       thtthspntsssmngsntlngnfrmthmntmrknhstlksssmncnclds
+:END:
+** TODO [2019-01-24] In our terms, the book implements a Lisp-based interface to classical mechanics, complete with many new elements of cognition. It thus provides new ways of thinking about classical mechanics, but is not a visual interface.
+:PROPERTIES:
+:ID:       thnrtrmsthbkmplmntslspbsdclssclmchncsbtsntvslntrfc
+:END:
+* DONE [#A] [2019-01-25] Toward an exploratory medium for mathematics :nielsen:math:thinking:pkm:
+:PROPERTIES:
+:ID:       frtwrdnxplrtrymdmfrmthmtcs
+:END:
+http://cognitivemedium.com/emm/emm.html
+ok, pretty interesting, but perhaps I need to reread..
+* DONE [#A] [2019-01-24] Media for Thinking the Unthinkable        :thinking:
+:PROPERTIES:
+:ID:       thmdfrthnkngthnthnkbl
+:END:
+http://worrydream.com/MediaForThinkingTheUnthinkable/
+** [2019-02-01] The authors have a rich picture in their heads, which they'd like to transmit to the reader's head. But paper is a "low-bandwidth channel", and much information is lost. (03:20)
+:PROPERTIES:
+:ID:       frththrshvrchpctrnthrhdswdwdthchnnlndmchnfrmtnslst
+:END:
+** [2019-02-01] Richard Hamming suggested that, like sounds we cannot hear, there could be thoughts we cannot thin 08:27
+:PROPERTIES:
+:ID:       frrchrdhmmngsggstdthtlksnnthrthrcldbthghtswcnntthn
+:END:
+But how do we even know about such sounds? We build tools which adapt unhearable sounds to our human senses.
+** TODO [2019-02-01] ok, pretty cool. I guess main point is being able to seeing and comparing families of systems, showing in different representations
+:PROPERTIES:
+:ID:       frkprttyclgssmnpntsbngbltstmsshwngndffrntrprsnttns
+:END:
+
+
+* DONE [#C] See e.g. Douglas Engelbart’s 1962 “Augmenting Human Intellect” for a classic primary source or Michael Nielsen’s 2016 “Thought as a Technology” for a synthesis of much work in this space http://dougengelbart.org/content/view/138 :thinking:pkm:
+:PROPERTIES:
+:CREATED:  [2019-05-12]
+:ID:       sgdglsnglbrtsgmntnghmnntlknthsspcdgnglbrtrgcntntvw
+:END:
+from [[https://www.instapaper.com/read/1192416272/10697917][ip]]   [[https://andymatuschak.org/books][Why books don't work]]
+** [2019-10-19] https://mnielsen.github.io/notes/engelbart/engelbart.html ok, read summary; that's probably good enough
+:PROPERTIES:
+:ID:       stsmnlsngthbntsnglbrtnglbmlkrdsmmrythtsprbblygdngh
+:END:
+* DONE [#B] [2019-02-01] Bret Victor - Wikipedia :thinking:design:interfaces:
+:PROPERTIES:
+:ID:       frbrtvctrwkpd
+:END:
+- State "DONE"       from "START"      [2019-04-20]
+- State "START"      from              [2019-03-12]
+https://en.wikipedia.org/wiki/Bret_Victor
+** [2019-04-13] http://worrydream.com/#!/KillMath
+:PROPERTIES:
+:ID:       stwrrydrmcmkllmth
+:END:
+
+* [2019-04-13] Dynamicland                              :bretvictor:thinking:
+:PROPERTIES:
+:ID:       stdynmclnd
+:END:
+https://dynamicland.org/
+
+* [2019-03-23] Bret Victor - The Humane Representation of Thought - YouTube :thinking:
+:PROPERTIES:
+:ID:       stbrtvctrthhmnrprsnttnfthghtytb
+:END:
+https://www.youtube.com/watch?v=agOdP2Bmieg&list=WL&t=198s&index=62
+ok talk, but only ideas, no particular suggestions how to implement this
+* [2019-03-14] pel-daniel/mind-bicyles: List of future of programming projects :programming:thinking:
+:PROPERTIES:
+:ID:       thpldnlmndbcylslstfftrfprgrmmngprjcts
+:END:
+https://github.com/pel-daniel/mind-bicyles
+** [2019-04-08] ok, interesting but nothing that I can directly use. Perhaps I should at least strive for trying to utilize and make IDE I already got properly working?
+:PROPERTIES:
+:ID:       mnkntrstngbtnthngthtcndrctlzndmkdlrdygtprprlywrkng
+:END:
+
+* [2019-05-03] Tweet from Katia Moskvitch (@SciTech_Cat), at May 3, 09:42 :environment:
+:PROPERTIES:
+:ID:       frtwtfrmktmskvtchsctchcttmy
+:END:
+: Environmentalists shout: coffee capsules are killing the planet. I decided to take a closer look. Next time you're buying your latte/espresso ☕️ at a coffee shop or make your filter coffee, remember that it's much WORSE than pods. Here is why: https://t.co/MJddLmELax @WiredUK
+
+https://twitter.com/SciTech_Cat/status/1124232748502327297
+
+* [2019-04-08] Шекли прогулка                                      :mds:book:
+:PROPERTIES:
+:ID:       mnшеклипрогулка
+:END:
+Meh. Какой-то очень плоский рассказ
+
+* [#C] [2019-11-02] walking in olympic park is quite cool actually   :london:
+:PROPERTIES:
+:ID:       stwlkngnlympcprksqtclctlly
+:END:
+
+* DONE [#C] [2019-08-28] RomanPlusPlus/mindfilesResources: A collection of resources related to mindfiles (digital representations of your mind) :github:rss:
+:PROPERTIES:
+:ID:       wdrmnplsplsmndflsrsrcscllmndflsdgtlrprsnttnsfyrmnd
+:END:
+https://github.com/RomanPlusPlus/mindfilesResources
+: You can also subcribe to changes using RSS.
+
+huh, didn't know that!!

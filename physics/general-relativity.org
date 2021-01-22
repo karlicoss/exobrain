@@ -491,3 +491,18 @@ For an observer falling into the black hole with a lot of mass, the black hole w
 :CREATED:  [2021-01-17]
 :ID:       hmmhwwldfrcswrknsdthblckhrznfthfrccrrrscntgbckwrds
 :END:
+* [#D] [2020-07-14] [[https://news.ycombinator.com/item?id=23450827][Ask HN: Without Einstein, would General Relativity be discovered by now? | Hacker News]]
+:PROPERTIES:
+:ID:       tsnwsycmbntrcmtmdskhnwthtlrltvtybdscvrdbynwhckrnws
+:END:
+: DavidSJ 36 days ago [–]
+: 
+: David Hilbert discovered general relativity at practically the same moment as Einstein.
+: 
+: gnramires 26 days ago [–]
+: 
+: I believe there was a race at that time, physicists knew there was a need to generalize SR to non-inertial frames, and that perhaps that it involved metric spaces (following the lorentz transformations). Hilbert was working on it, but apparently did not make much progress at deriving the GR equations (I don't have a source, sorry -- scattered articles on GR). You're right that eventually he or someone else would have made it, but how long would it take is speculation.
+: 
+: Edit: More information here https://en.wikipedia.org/wiki/Relativity_priority_dispute
+: 
+: I think the main takeaway is that Hilbert and Einstein ended in amicable terms, and it seems both contributed greatly to eachother's result. 

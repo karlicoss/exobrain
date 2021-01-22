@@ -94,3 +94,28 @@ MaybeT : provides the construction for (f of Maybe) for any Monad f.
 : Looks like @iokasimov can write good #haskell jokes 😏
 
 https://twitter.com/ChShersh/status/1002393643288686592
+
+* DONE [#C] [2018-10-23] krispo/awesome-haskell: A collection of awesome Haskell links, frameworks, libraries and software. Inspired by awesome projects line. :haskell:
+:PROPERTIES:
+:ID:       tkrspwsmhskllcllctnfwsmhsndsftwrnsprdbywsmprjctsln
+:END:
+- State "DONE"       from              [2019-04-22]
+https://github.com/krispo/awesome-haskell 
+
+
+* [#B] [2018-11-24] what I learnt during setting app hakyll blog.. :haskell:debug:
+:PROPERTIES:
+:ID:       stwhtlrntdrngsttngpphkyllblg
+:END:
+- stack ghci
+- Debug.Trace.traceShowM within do block
+- pandoc --metadata
+* [#C] [2019-01-06] Resilient-Haskell-Software - Gwern.net          :haskell:
+:PROPERTIES:
+:ID:       snrslnthskllsftwrgwrnnt
+:END:
+https://www.gwern.net/Resilient-Haskell-Software
+* [2019-02-11] Stackage Server https://www.stackage.org/
+:PROPERTIES:
+:ID:       mnstckgsrvrswwwstckgrg
+:END:

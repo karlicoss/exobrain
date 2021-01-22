@@ -87,3 +87,26 @@ https://www.quora.com/What-are-the-pros-and-cons-of-using-flexbox
 :END:
 https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/75
 : In the inspector, you can now use XPath expressions to locate elements, in addition to locating elements using CSS selectors as before (bug 963933).
+* [2019-02-28] Is there a CSS selector for elements containing certain text? - Stack Overflow :css:
+:PROPERTIES:
+:ID:       thsthrcssslctrfrlmntscntnngcrtntxtstckvrflw
+:END:
+https://stackoverflow.com/questions/1520429/is-there-a-css-selector-for-elements-containing-certain-text
+** [2019-03-12] apparently no...
+:PROPERTIES:
+:ID:       tpprntlyn
+:END:
+
+* [#C] [2019-11-17] to deal with cors issues (e.g. querying for external scripts for local html page) :cors:
+:PROPERTIES:
+:ID:       sntdlwthcrssssgqryngfrxtrnlscrptsfrlclhtmlpg
+:END:
+** python's simplehttpserver doesn't work
+:PROPERTIES:
+:ID:       pythnssmplsrvrdsntwrk
+:END:
+** http-server -p 8000 --cors
+:PROPERTIES:
+:ID:       srvrpcrs
+:END:
+also navigate to 127.0.0.1:8000. That's IMPORTANT! Apparently Cors header is hardcoded and it contains ip address

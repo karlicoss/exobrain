@@ -293,3 +293,101 @@ https://news.ycombinator.com/item?id=22669968
 :PROPERTIES:
 :ID:       mnsgthbcmtrdctyltrdctyltrfrfxnsprdbyvmprtrpntdctyl
 :END:
+* [#C] [2020-04-25] [[https://github.com/naelstrof/slop][naelstrof/slop: slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout.]] :exports:
+:PROPERTIES:
+:ID:       stsgthbcmnlstrfslpnlstrfsnfrmthsrndprntsthrgntstdt
+:END:
+: NixOS: slop
+* [2020-07-02] benefit of compose -- builds automatically, so very easy to run stuff :docker:
+:PROPERTIES:
+:ID:       thbnftfcmpsbldstmtcllysvrysytrnstff
+:END:
+* [2020-07-01] ok, using explicit type: bind shows warning when source dir doesn't exist :docker:
+:PROPERTIES:
+:ID:       wdksngxplcttypbndshwswrnngwhnsrcdrdsntxst
+:END:
+* [#B] [2019-12-03] [[https://news.ycombinator.com/item?id=21685166][TLDR Digital Safety Checklist]] :security:
+:PROPERTIES:
+:ID:       tsnwsycmbntrcmtmdtldrdgtlsftychcklst
+:END:
+https://github.com/hongkonggong/tldr-digital-security/blob/master/README.md
+* [2019-07-27] shell into image docker run -it --entrypoint /bin/bash circleci/python:latest :docker:
+:PROPERTIES:
+:ID:       stshllntmgdckrrntntrypntbnbshcrclcpythnltst
+:END:
+* [2019-08-24] systemd.unit
+:PROPERTIES:
+:ID:       stsystmdnt
+:END:
+https://www.freedesktop.org/software/systemd/man/systemd.unit.html#
+: Note that systemctl reset-failed will cause the restart rate counter for a service to be flushed
+* [#D] [2019-01-25] LTD-Beget/sprutio: Beget File Manager App (two-panel)
+:PROPERTIES:
+:ID:       frltdbgtsprtbgtflmngrpptwpnl
+:END:
+https://github.com/LTD-Beget/sprutio
+holy crap, that's elaborate!
+** [2019-06-01] last updated 2 years ago...
+:PROPERTIES:
+:ID:       stlstpdtdyrsg
+:END:
+
+* [#C] [2018-09-29] huginn/huginn: Create agents that monitor and act on your behalf. Your agents are standing by! :selfhosted:
+:PROPERTIES:
+:ID:       sthgnnhgnncrtgntsthtmntrndctnyrbhlfyrgntsrstndngby
+:END:
+https://github.com/huginn/huginn
+** [2018-10-05]  hmm, interesting, kinda like open source ifttt. Wonder if I can come up to any decent uses?
+:PROPERTIES:
+:ID:       frhmmntrstngkndlkpnsrcftttwndrfcncmptnydcntss
+:END:
+* [2019-09-08] How can I add a volume to an existing Docker container? - Stack Overflow :docker:
+:PROPERTIES:
+:ID:       snhwcnddvlmtnxstngdckrcntnrstckvrflw
+:END:
+https://stackoverflow.com/questions/28302178/how-can-i-add-a-volume-to-an-existing-docker-container
+: You can commit your existing container (that is create a new image from container’s changes) and then run it with your new mounts.
+
+* [2019-05-03] Nested folders - Support - Syncthing Forum         :syncthing:
+:PROPERTIES:
+:ID:       frnstdfldrsspprtsyncthngfrm
+:END:
+https://forum.syncthing.net/t/nested-folders/11793/10
+: Selection:
+: Ildar Yusupov
+: ildary
+: Jul '18
+: I see use case of nested folders: one folder shared with first computer and nested folder shared with second and never both folders shared with the same computer - because first folder is enough.
+: 
+: Jakob Borg
+: calmh
+: Syncthing Maintainer
+: Jul '18
+: Yeah, and you can do that, and it should work fine.
+
+* [2019-05-03] nice, fork syncs pretty instantaneously            :syncthing:
+:PROPERTIES:
+:ID:       frncfrksyncsprttynstntnsly
+:END:
+* [2020-07-04] ok, so it's capable of catching up from a config file only (if you discard caches and certificates) :syncthing:
+:PROPERTIES:
+:ID:       stkstscpblfctchngpfrmcnfgflnlyfydscrdcchsndcrtfcts
+:END:
+* [2020-03-15] wow nice command to introspect everything       :systemd:dbus:
+:PROPERTIES:
+:ID:       snwwnccmmndtntrspctvrythng
+:END:
+: gdbus introspect -r --session --dest org.freedesktop.systemd1 --object-path /org/freedesktop/systemd1
+* [2020-04-06] Dhall
+:PROPERTIES:
+:ID:       mndhll
+:END:
+: It's hard to take Dhall seriously because it seems like its authors don't take it seriously, and work on it for entertainment. They went through the trouble of creating bindings for five (!!) different languages, and the most popular of them, by a pretty wide margin, is Ruby. I assume Fortran, Delphi, and Idris are next on their list.
+* [2020-05-04] [[https://blog.darknedgy.net/technology/2020/05/02/0/index.html][systemd, 10 years later: a historical and technical retrospective]] :systemd:
+:PROPERTIES:
+:ID:       mnsblgdrkndgynttchnlgyndxltrhstrclndtchnclrtrspctv
+:END:
+: 3.6. Case studies
+: The above may sound rather theoretical and nitpicking, so let’s illustrate with a few examples.
+
+some good examples of systemd gotchas

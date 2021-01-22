@@ -1,5 +1,4 @@
-#+TITLE: 
-+TITLE: Data exports
+#+TITLE: Data exports
 #+filetags: exports
 
 * related                                       :infra:backup:dataliberation:
@@ -755,3 +754,15 @@ capture HN karma? maybe on all comments
 :ID:       snsgthbcmkrlcssrxprtpllfllrchfrtpllrqstkrlcssrxprt
 :END:
 apply this to export helper...
+
+* [#C] [2020-01-01] ChromeDevTools/devtools-protocol: Chrome DevTools Protocol :exports:scrape:
+:PROPERTIES:
+:ID:       wdchrmdvtlsdvtlsprtclchrmdvtlsprtcl
+:END:
+https://github.com/ChromeDevTools/devtools-protocol
+* [2019-04-08] python - Steam API get historical player count of specific game - Stack Overflow
+:PROPERTIES:
+:ID:       mnpythnstmpgthstrclplyrcntfspcfcgmstckvrflw
+:END:
+https://stackoverflow.com/questions/45983820/steam-api-get-historical-player-count-of-specific-game
+There is no Steam Web API method for historical player count of a specific game.

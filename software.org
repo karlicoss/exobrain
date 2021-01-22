@@ -77,3 +77,25 @@ https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md
 :PROPERTIES:
 :ID:       stwttrcmwbsttstwtstкогдаявыпилилиполезныенастройки
 :END:
+* [2019-05-20] Yak Shaving
+:PROPERTIES:
+:ID:       mnykshvng
+:END:
+https://projects.csail.mit.edu/gsb/old-archive/gsb-archive/gsb2000-02-11.html
+
+* [#C] [2020-01-22] Plan 9 released under GPLv2 | Hacker News       :license:
+:PROPERTIES:
+:ID:       wdplnrlsdndrgplvhckrnws
+:END:
+https://news.ycombinator.com/item?id=7232042
+some discussions on GPL/BSD/MIT licensing
+* DONE [#C] Tweet from Некстджен и Усиление (@turbojedi), at Jun 5, 15:36 :appdesign:
+:PROPERTIES:
+:CREATED:  [2019-06-05]
+:ID:       twtfrmнекстджениусилениеtrbjdtjn
+:END:
+: Вот это хорошо.
+: Легко и красиво, самое то чтобы рассылать друзьям и родственникам (на HN также справедливо замечают что здесь нет поиска утекших паролей, чтобы не создавать у людей впечатление, что вводить свои пароли на левых сайтах нормально).
+
+
+https://twitter.com/turbojedi/status/1136280629564399616

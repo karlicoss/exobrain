@@ -162,3 +162,9 @@ ray marching?
 :ID:       tchrmlbvrphyscssmltnsndbxytb
 :END:
 https://www.youtube.com/watch?v=qu8lB3l20wY
+
+* DONE [#B] [2020-10-31] [[https://news.ycombinator.com/item?id=24934722][Show HN: What would mechanical programming look like?]] :vr:
+:PROPERTIES:
+:ID:       stsnwsycmbntrcmtmdshwhnwhtwldmchnclprgrmmnglklk
+:END:
+https://mockmechanics.com/

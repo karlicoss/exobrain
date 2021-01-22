@@ -471,3 +471,10 @@ https://blog.mozilla.org/addons/
 :PROPERTIES:
 :ID:       snsgstgthbcmjjprzgngndrstndnggglchrmxtnsns
 :END:
+
+* DONE [#C] [2019-08-29] Implement a settings page - Mozilla | MDN   :webext:
+:PROPERTIES:
+:ID:       thmplmntsttngspgmzllmdn
+:END:
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page
+: You can also open this page programmatically using the runtime.openOptionsPage() function.

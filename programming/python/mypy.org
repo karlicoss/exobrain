@@ -418,3 +418,42 @@ https://news.ycombinator.com/item?id=21736620
 : Prototyping speed is, additionally, not just useful in reducing the cost of building the right kind of code, it's useful in reducing the cost of building the right kind of test (a really underappreciated facet of building mission critical systems).
 
 In my younger years I used to believe that for mission critical systems "building the wrong thing" was somehow less of a problem in code because you could fix requirements and do architecture upfront with some sort of genius architect. Turns out this was wrong.
+* [2019-10-24] Our journey to type checking 4 million lines of Python : programming :mypy:
+:PROPERTIES:
+:ID:       thrjrnyttypchckngmllnlnsfpythnprgrmmng
+:END:
+https://www.reddit.com/r/programming/comments/d16aa4/our_journey_to_type_checking_4_million_lines_of/
+
+* [#C] tried this https://github.com/predictive-analytics-lab/data-science-types, seems to give many false positives... :pandas:mypy:
+:PROPERTIES:
+:CREATED:  [2020-10-03]
+:ID:       trdthssgthbcmprdctvnlytcsscnctypssmstgvmnyflspstvs
+:END:
+* [#C] [2019-08-31] Define a JSON type · Issue #182 · python/typing    :mypy:
+:PROPERTIES:
+:ID:       stdfnjsntypsspythntypng
+:END:
+https://github.com/python/typing/issues/182
+: With that and the idea of string self referencing, JSONType can be defined as:
+: 
+: from typing import Recursive, Union, List, Dict
+: 
+: JSONType = Recursive(
+:     "JSONType",
+:     Union[int, float, str, bool, None, List["JSONType"], Dict[str, "JSONType"]]
+: )
+* [#C] [2019-08-31] Define a JSON type · Issue #182 · python/typing    :mypy:
+:PROPERTIES:
+:ID:       stdfnjsntypsspythntypng
+:END:
+https://github.com/python/typing/issues/182
+: Unless I'm mistaken, recursive types with ForwardRefs can already be checked correctly at runtime by using ForwardRef._evaluate(globals(), locals())
+* [#B] [2020-02-05] Applying mypy to real world projects               :mypy:
+:PROPERTIES:
+:ID:       wdpplyngmypytrlwrldprjcts
+:END:
+http://calpaterson.com/mypy-hints.html
+** [2020-02-07] good
+:PROPERTIES:
+:ID:       frgd
+:END:

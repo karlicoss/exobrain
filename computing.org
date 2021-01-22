@@ -344,3 +344,66 @@ https://9to5google.com/2019/05/29/chrome-ad-blocking-enterprise-manifest-v3/
 
 
 https://twitter.com/grishka11/status/1220026067060187137
+
+* [#C] [2020-06-22] [[https://twitter.com/benedictevans/status/1275122175784124417][Benedict Evans on Twitter: "🚨 SET DEFAULT EMAIL AND BROWSER APPS 🚨 https://t.co/RepotEto2E" / Twitter]] :malleable:
+:PROPERTIES:
+:ID:       mnstwttrcmbndctvnssttsbndtmlndbrwsrppsstcrptttwttr
+:END:
+: SET DEFAULT EMAIL AND BROWSER APPS
+
+so fucking annoyed by people getting excited about such trivial things.
+It's should be malleable in the first place
+* [#C] [2020-03-05] [[https://news.ycombinator.com/item?id=22493216][The History of the URL]]
+:PROPERTIES:
+:ID:       thsnwsycmbntrcmtmdthhstryfthrl
+:END:
+https://blog.cloudflare.com/the-history-of-the-url/
+* TODO [#C] Peak UI 90s                                                  :ui:
+:PROPERTIES:
+:CREATED:  [2020-02-08]
+:ID:       pks
+:END:
+: The decline of usability, recognizability and coherence in desktop user interfaces. I honestly think we reached peak UX some time in the mid-90s. With the advent of touch devices, paradigms are mixing in a way that's directly hostile to productivity.
+
+* [#B] [2020-01-22] How I Switched to Plan 9 | Hacker News         :sadinfra:
+:PROPERTIES:
+:ID:       wdhwswtchdtplnhckrnws
+:END:
+https://news.ycombinator.com/item?id=21701798
+: To me this is part of a need to integrate my digital life. I understand the swimming against the tide here (recovering FreeBSD laptop user) - because an integrated life is a controllable life
+: 
+: I want tools before I want services
+: I want an agent that has access to my digital life where ever that is. I want that agent to be the expression of my tools - that is my first and possibly only service
+: I want my mobile device to keep and give me access to my digital footprint - my phone calls, text, gps locations.
+: I want a message in Whatsapp and in facebook and in email to just be a message. if that breaks someone's business model I do t care.
+: I want to be able to review my digital actions - what was the name of the video I stupidly watched at 1am last night - let me review that each week so I can improve my behaviour - not have my behaviour controlled
+: I want this for each member of my family too
+** [#B] [2020-01-22] How I Switched to Plan 9 | Hacker News
+:PROPERTIES:
+:ID:       wdhwswtchdtplnhckrnws
+:END:
+https://news.ycombinator.com/item?id=21701798
+: It's almost 2020. Forget the flying car, why does my web browser still not provide full text history search if I want it? It's text, and this isn't the 1980s! Why can't it snapshot the textual portion of the DOM for each page I visit if that's what I want? Half terabyte SSDs with 700 MB/s sustained write are $80!
+** [#B] [2020-01-22] How I Switched to Plan 9 | Hacker News
+:PROPERTIES:
+:ID:       wdhwswtchdtplnhckrnws
+:END:
+https://news.ycombinator.com/item?id=21701798
+:  adambyrtek 47 days ago [-]
+:  Maybe the authors don't mind if their ideas get incorporated in other projects? Maybe they are more interested in spreading their ideas than owning them?
+** [#B] [2020-01-22] How I Switched to Plan 9 | Hacker News
+:PROPERTIES:
+:ID:       wdhwswtchdtplnhckrnws
+:END:
+https://news.ycombinator.com/item?id=21701798
+:  deadbunny 47 days ago [-]
+:  Exactly why I used the MIT license, even if it is on my ultimately non important stuff. I'd rather it was out there (potentially) being used by anyone that wants to for whatever purpose
+** [#B] [2020-01-22] How I Switched to Plan 9 | Hacker News
+:PROPERTIES:
+:ID:       wdhwswtchdtplnhckrnws
+:END:
+https://news.ycombinator.com/item?id=21701798
+:  jethro_tell 48 days ago [-]
+:  Every time I always want the article 'WHY I Switched to Plan 9'
+:  yjftsjthsd-h 48 days ago [-]
+:  "Because it’s there" (George Mallory, when asked why climb Mt. Everest).

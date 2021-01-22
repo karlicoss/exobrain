@@ -173,3 +173,7 @@ I guess it would belong to configuration repository
 can't use bare repository since they don't have index
 we don't want to use working directory since it's just confusing
 solution is git config core.worktree $HOME
+* [#C] [2020-07-12] [[https://news.opensuse.org/2020/03/27/Manage-dotfiles-with-Git/][Manage your dotfiles with Git - openSUSE News]] :git:
+:PROPERTIES:
+:ID:       snsnwspnssrgmngdtflswthgtmngyrdtflswthgtpnssnws
+:END:

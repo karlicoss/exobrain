@@ -1428,3 +1428,52 @@ https://news.ycombinator.com/item?id=21902827
 :PROPERTIES:
 :ID:       tsgthbcmtmbqstnrytmbqstnrctlstscnfrmtnsfrtxtprmpts
 :END:
+* [2020-09-07] [[https://docs.pytest.org/en/stable/goodpractices.html][Good Integration Practices — pytest documentation]]
+:PROPERTIES:
+:ID:       mnsdcspytstrgnstblgdprctcdntgrtnprctcspytstdcmnttn
+:END:
+tests in a separate dir vs tests in a subpackage
+* [2019-07-23] Python Scatterplot Matrix | Plotly                       :viz:
+:PROPERTIES:
+:ID:       tpythnscttrpltmtrxpltly
+:END:
+https://plot.ly/python/splom/
+
+* [2019-08-18] box/flaky: Plugin for nose or pytest that automatically reruns flaky tests. :pytest:
+:PROPERTIES:
+:ID:       snbxflkyplgnfrnsrpytstthttmtcllyrrnsflkytsts
+:END:
+https://github.com/box/flaky
+
+* [2019-03-05] ipython -pylab                                       :ipython:
+:PROPERTIES:
+:ID:       tpythnpylb
+:END:
+
+* [#C] [2018-12-23] lambdalisue/jupyter-vim-binding: Jupyter meets Vim. Vimmer will fall in love. :vim:jupyter:
+:PROPERTIES:
+:ID:       snlmbdlsjpytrvmbndngjpytrmtsvmvmmrwllfllnlv
+:END:
+https://github.com/lambdalisue/jupyter-vim-binding
+** [2019-04-13] eh, I'm using emacs now...
+:PROPERTIES:
+:ID:       sthmsngmcsnw
+:END:
+* [2019-05-10] [[https://reddit.com/r/Python/comments/3pn88a/is_sqlalchemy_recommended_for_a_highly/cw8ovva/][Is SQLAlchemy recommended for a highly transactional, large volume database?]] /r/Python
+:PROPERTIES:
+:ID:       frsrddtcmrpythncmmntspnssytrnsctnllrgvlmdtbsrpythn
+:END:
+:  Yes. I've written a few systems using SQLAlchemy that see 50-100k writes  and 200k or so reads per second, and as long as you're using the Core everything works fine. Also allows you to use the ORM for ease-of-development on bits that don't need performance.
+: 
+:  SQLAlchemy is probably the one library in which I've never reached the "wait, I need to do something and can't" point. Every single weird edge case I've had to handle has been supported either natively or by being able to access the raw interfaces directly in a clean way. Fantastic library, can't recommend it more highly.
+: 
+:  Also, the lead dev is extremely responsive on the google group and is more than happy to answer questions.
+* [#C] [2020-02-16] Command Line Scripts — Python Packaging Tutorial    :pip:
+:PROPERTIES:
+:ID:       sncmmndlnscrptspythnpckgngttrl
+:END:
+https://python-packaging.readthedocs.io/en/latest/command-line-scripts.html#the-console-scripts-entry-point
+** [2020-12-14] hmm maybe best to use 'scripts', seems more manageable
+:PROPERTIES:
+:ID:       mnhmmmybbsttsscrptssmsmrmngbl
+:END:

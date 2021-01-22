@@ -483,6 +483,24 @@ gradually getting covered mypy, proper tests, fake data, everything starts makin
 :END:
 was gonna do some work on axol, or on blog... instead just not sure where to start from and just sort of procrastinating
 
+** DONE [#A] should concentrate on releasing first version; not adding random features :promnesia:
+:PROPERTIES:
+:CREATED:  [2019-06-13]
+:ID:       shldcncntrtnrlsngfrstvrsnntddngrndmftrs
+:END:
+*** [2019-08-08] ugh.
+:PROPERTIES:
+:ID:       thgh
+:END:
+*** [2020-02-14] jesus!!!
+:PROPERTIES:
+:ID:       frjss
+:END:
+*** [2020-05-01] yeah...
+:PROPERTIES:
+:ID:       fryh
+:END:
+
 * I love open source                                                   :self:
 :PROPERTIES:
 :ID:       lvpnsrc
@@ -540,3 +558,24 @@ https://www.reddit.com/r/Nootropics/comments/9jcxfn/hobbies_that_provide_cogniti
 :END:
 Like, unconditionally assuming that there is data and there is code, and that there is no middle ground whatsoever
 often assuming there is one single way of doing things and that's it. incredible
+* [2020-02-20] Эмпатия, поддержка, принятие - YouTube               :empathy:
+:PROPERTIES:
+:ID:       08bf21f4-c52d-40b4-b62b-a7656bc55f8f
+:END:
+https://www.youtube.com/watch?v=vfLkBXIIVBs&list=WL&index=21
+good talk, most clear explanation I've seen
+* [2020-02-20] Honesty and polyamory in a big city | Andrew Breslav | TEDxSPbPU - YouTube :polyamory:
+:PROPERTIES:
+:ID:       766b5165-791c-48db-85d0-35ffa18dcccc
+:END:
+https://www.youtube.com/watch?v=O8JW0Oys8TE&list=WL&index=22
+TLDR: be as honest as possible
+* [#C] [2019-01-11] [[https://reddit.com/r/slatestarcodex/comments/9tckh1/therapy_and_rationality/][Therapy and rationality]] /r/slatestarcodex :therapy:
+:PROPERTIES:
+:ID:       frsrddtcmrsltstrcdxcmmntstythrpyndrtnltyrsltstrcdx
+:END:
+:  I hope this is relevant here since the blog itself is at the intersection of these two subjects. I'm aware there was a long thread about therapy recently, but this is a more specific question.
+:  I've tried a few different therapists now in the attempt to find one who's right for me, and at least two have independently told me the same thing: that my mode of discussion in the therapy sessions is too "abstract". This tends to happen when I start talking about percentage probabilities, or how well a theory fits the available facts, or whether a causal chain has a weak link – in other words, what they call "abstract", I would call scientific or rationalist.
+:  When I use language like this, I'm usually trying to clarify and evaluate some assertion they've made about how my unconscious works, or what is happening in my life, or whatever. ("You think you want X, but maybe really you want Y, and that's why you do Z" etc.) And I feel like, in some cases, when their hypothesis is analysed more rigorously, it's revealed as a bit strained or patchy – as in so many fields, a vague formulation makes a half-baked claim sound at least initially plausible.
+:  I'm not trying to claim I'm "too intelligent for therapy"! (These therapists have stunned me with their insights sometimes.) Only that a rationalist approach sometimes helps cut through some of the fog – and yet therapists don't seem to welcome it much.
+:  Is there a real conflict here? Is therapy – at least as it's conventionally practised in the English-speaking world – inherently wary of an empiricist mindset? Or do I just need to keep looking for a therapist who thinks the way I do? I assume that when Scott Alexander is seeing patients, he is open to this stuff!

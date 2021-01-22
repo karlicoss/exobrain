@@ -16,3 +16,7 @@
 :ID:       frtrmxptrmxwk
 :END:
 https://wiki.termux.com/wiki/Termux:API
+* [2020-02-17] right, holding power + up + down allows to reset everything :oneplus6t:
+:PROPERTIES:
+:ID:       mnrghthldngpwrpdwnllwstrstvrythng
+:END:

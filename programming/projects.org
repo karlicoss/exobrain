@@ -253,3 +253,62 @@ https://ngrok.com/
 :               +---------+                     offlineimap, ...)
 
 characters (e.g. A, V) can be used for drawing
+
+* STRT [#C] [2019-06-30] Ask HN: How do you come up with new project ideas? | Hacker News :project:
+:PROPERTIES:
+:ID:       snskhnhwdycmpwthnwprjctdshckrnws
+:END:
+https://news.ycombinator.com/item?id=1916801
+
+** [2019-07-23] A vague mental checklist I've been accumulating:
+:PROPERTIES:
+:ID:       tvgmntlchcklstvbnccmltng
+:END:
+*** Why didn't I stick with my last idea?
+:PROPERTIES:
+:ID:       whyddntstckwthmylstd
+:END:
+*** Could I make that idea simpler?
+:PROPERTIES:
+:ID:       cldmkthtdsmplr
+:END:
+*** Could I reuse that idea elsewhere?
+:PROPERTIES:
+:ID:       cldrsthtdlswhr
+:END:
+*** Why am I not motivated to work on this idea (any more)?
+:PROPERTIES:
+:ID:       whymntmtvtdtwrknthsdnymr
+:END:
+*** Could I change it around so that I am?
+:PROPERTIES:
+:ID:       cldchngtrndsthtm
+:END:
+*** What are people looking for?
+:PROPERTIES:
+:ID:       whtrppllkngfr
+:END:
+*** What are people NOT looking for?
+:PROPERTIES:
+:ID:       whtrpplntlkngfr
+:END:
+*** What ideas are already floating out there, that haven't been popularized, but could be done better?
+:PROPERTIES:
+:ID:       whtdsrlrdyfltngtthrththvntbnpplrzdbtcldbdnbttr
+:END:
+*** What ideas are getting too much hype and attention, so that I can filter them out?
+:PROPERTIES:
+:ID:       whtdsrgttngtmchhypndttntnsthtcnfltrthmt
+:END:
+And more recently:
+
+*** Is my idea trivial enough not to scare me?
+:PROPERTIES:
+:ID:       smydtrvlnghnttscrm
+:END:
+* TODO [#C] try to use as many reasonable defaults as possible :project:software:
+:PROPERTIES:
+:CREATED:  [2020-05-24]
+:ID:       trytssmnyrsnbldfltsspssbl
+:END:
+- $HOME for configs/paths/cache

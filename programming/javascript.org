@@ -192,3 +192,16 @@ https://github.com/antonmedv/codejar
 : <script type="module">
 :   import {CodeJar} from 'https://medv.io/codejar/codejar.js'
 : </script>
+* [2019-08-28] [[https://reddit.com/r/javascript/comments/7bfwpl/flow_vs_typescript/dpif1rc/][Flow vs Typescript]] /r/javascript :flow:js:
+:PROPERTIES:
+:ID:       wdsrddtcmrjvscrptcmmntsbfpfrcflwvstypscrptrjvscrpt
+:END:
+:  Having used both (Flow for one very large project and TypeScript for a few less large projects) I am very much in the TypeScript camp now.
+:  
+:  Firstly, DefinitelyTyped has vastly more library defs available than flow-typed, which matters a whole lot more than you might realize. It's pretty rare that `npm install @types/name-of-package` comes up empty.
+:  
+:  Secondly, Flow feels slower and buggier; I use VS Code full-time and have found that TS reacts to code changes far more quickly and accurately than Flow (almost instantaneously across an entire project), and provides much more useful error messages (I lost count of the number of times I saw `merge_strict_job exception: Utils_js.Key_not_found("LeaderHeap")`, which I believe usually indicates a bug in Flow itself but is also completely useless and extremely difficult to debug). Of course I realize that TS and Code are both Microsoft products so it's not surprising that TS works better, but even in Atom with Nuclide I found that Flow was a bit slow to catch up to things, and still sometimes threw very cryptic errors.
+:  
+:  Finally, TS has a pretty solid built-in compiler which tracks the official spec, and natively supports features like `async`/`await`.
+:  
+:  To your original question, I'm currently working on a React-heavy project with TS and have found it to have excellent support. Flow works very well with React as well, which is to be expected since both come from Facebook. I think either would be a fine decision, but definitely feel TS has the edge in stability and speed.

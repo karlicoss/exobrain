@@ -448,3 +448,21 @@ http://immersivemath.com/ila/index.html
 :END:
 https://news.ycombinator.com/item?id=16373386
 like physics travel guide, but for math
+
+* [2019-09-01] Bourbaki dangerous bend symbol - Wikipedia
+:PROPERTIES:
+:ID:       snbrbkdngrsbndsymblwkpd
+:END:
+https://en.wikipedia.org/wiki/Bourbaki_dangerous_bend_symbol
+: The dangerous bend or caution symbol ☡ (U+2621 ☡ CAUTION SIGN) was created by the Nicolas Bourbaki group of mathematicians and appears in the margins of mathematics books written by the group. It resembles a road sign that indicates a "dangerous bend" in the road ahead, and is used to mark passages tricky on a first reading or with an especially difficult argument.[2]
+* [#C] [2019-05-04] List of computer algebra systems - Wikipedia https://en.wikipedia.org/wiki/List_of_computer_algebra_systems
+:PROPERTIES:
+:ID:       stlstfcmptrlgbrsystmswkpdpdrgwklstfcmptrlgbrsystms
+:END:
+: interesting, there are not that many different computer algebra systems. Also look that sagemath is updated more often than sympy?
+* [2019-02-26] LMS Popular Lecture Series 2017, 'The Unreasonable Effectiveness of Physics in Maths', David Tong
+:PROPERTIES:
+:ID:       tlmspplrlctrsrsthnrsnblffctvnssfphyscsnmthsdvdtng
+:END:
+https://www.youtube.com/watch?v=UVuKyZ4pBzg&list=WL&index=71&t=0s
+18:42 if you're a mathematician, you're not gonna escape, the universe will find applications

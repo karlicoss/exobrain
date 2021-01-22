@@ -131,3 +131,8 @@
 :END:
 https://github.com/JStumpp/awesome-android#readme
 : Development Alternatives
+* [#D] [2019-10-11] fastlane/fastlane: 🚀 The easiest way to automate building and releasing your iOS and Android apps :androiddev:
+:PROPERTIES:
+:ID:       frfstlnfstlnthsstwyttmtbldngndrlsngyrsndndrdpps
+:END:
+https://github.com/fastlane/fastlane

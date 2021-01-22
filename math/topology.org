@@ -208,3 +208,12 @@ Space is discrete iff its equality map
 (x, y) -> { x = y }
 
 is continuous
+* [#C] [2019-01-23] (2) bothmer - YouTube          :topology:viz:inspiration:
+:PROPERTIES:
+:ID:       wdbthmrytb
+:END:
+https://www.youtube.com/channel/UCngLGVygGfVo3pxsRzeCN_A
+** [2019-02-24] some topology visualisations
+:PROPERTIES:
+:ID:       snsmtplgyvslstns
+:END:

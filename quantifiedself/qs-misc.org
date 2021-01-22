@@ -2004,3 +2004,47 @@ https://news.ycombinator.com/item?id=22685537
 :END:
 
 the question of whether n-back training produces real-world improvements to working memory remains controversial.
+
+* DONE [#B] [2019-04-21] [[https://reddit.com/r/QuantifiedSelf/comments/bf73ql/i_tracked_everything_i_ate_for_the_last_year/][I tracked everything I ate for the last year, along with my exercise, sleep, vitals, and sense of well-being. I'm just starting to analyze the 500,000+ data points, but here are 10 quick blink reactions:]] /r/QuantifiedSelf :qs:inspiration:
+:PROPERTIES:
+:ID:       snsrddtcmrqntfdslfcmmntsbthrrqckblnkrctnsrqntfdslf
+:END:
+: I tracked everything I ate for the last year, along with my exercise, sleep, vitals, and sense of well-being. I'm just starting to analyze the 500,000+ data points, but here are 10 quick blink reactions:
+: Full Article Here:
+: [https://medium.com/@mikebechtel/i-tracked-every-single-thing-i-ate-for-a-full-year-here-are-10-quick-a-has-2c259dd2f57b?source=friends\_link&sk=ed6113272876d866eeaa23ec05415495](https://medium.com/@mikebechtel/i-tracked-every-single-thing-i-ate-for-a-full-year-here-are-10-quick-a-has-2c259dd2f57b?source=friends_link&sk=ed6113272876d866eeaa23ec05415495)
+
+
+: tl/dr here:
+
+
+: 1. Exercise is a Heckuva Anti-Depressant.
+: 2. Sugar & Salt hangovers: Nearly as bad as alcohol hangovers.
+: 3. Two Days of Bad Sleep in a Row Will Mess. You. Up.
+: 4. Weight Loss != Fat Loss
+: 5. Carbs aren't evil. But they're... sneaky.
+: 6. 15% body fat (for a guy) is doable with tasty food. 10% requires you to eat fewer tasty things. 5% requires you to forgo taste (and friends) entirely.
+: 7. Muscles recover strongest 2-3 days after a workout, and stay stronger-than-baseline for about 2-3 days after that. Beyond that, wimpy-ness resumes and you atrophy. (Which is why consistency is key.)
+: 8. Food Scales are your Friend. Casseroles, stews, and buffets are your Enemy.
+: 9. Processed foods are easiest to track (because they have SKU's) but not as good for you. Whole Foods vs. Whole Data.
+: 10. Standard McDonald's Cheeseburgers are, as far as I can tell, the most nutritionally complete food on a macronutrient-per-dollar basis.
+** [2020-10-24] apparently he's good at subjective scores, wonder if he did any proper data analysis at all
+:PROPERTIES:
+:ID:       stpprntlyhsgdtsbjctvscrswndrfhddnyprprdtnlysstll
+:END:
+
+* [#B] [2020-01-22] [[https://reddit.com/r/QuantifiedSelf/comments/esbp0e/how_i_log_almost_everything_to_airtable_with_ios/][How I log (almost) EVERYTHING to AIRTABLE with iOS Shortcuts, Integromat, Pushcut, NFC tags and Timing app from my mind, Fitbit, Oura, Withings, EliteHRV, Yazio, Calm, Clue, Social media accounts, Photos and other sources. (A long thread I wrote to Automators forum, you can read it without sign-in )]] /r/QuantifiedSelf :blog:qs:lifelogging:
+:PROPERTIES:
+:ID:       wdsrddtcmrqntfdslfcmmntssrmycnrdtwthtsgnnrqntfdslf
+:END:
+* [2019-06-20] Quantified Self Books? : QuantifiedSelf                   :qs:
+:PROPERTIES:
+:ID:       thqntfdslfbksqntfdslf
+:END:
+https://www.reddit.com/r/QuantifiedSelf/comments/43dd10/quantified_self_books/
+: Trackers by Richard MacManus and Your Life, Uploaded by Gordon Bell are two great books on QS, but neither have a practical focus.
+* [2019-02-23] Bob Troia | Minimum effective quantification - YouTube    :qs:
+:PROPERTIES:
+:ID:       stbbtrmnmmffctvqntfctnytb
+:END:
+https://www.youtube.com/watch?v=1SDNainePw8&list=WL&index=73
+nothing new really.. just measures glucose, hrv and air quality. He's not even using anything really too special

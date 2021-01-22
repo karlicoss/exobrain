@@ -2018,3 +2018,53 @@ https://mobile.twitter.com/ankitmalik/status/1227636734478831618
 :PROPERTIES:
 :ID:       5144691c-6a35-43aa-8ff6-28dadb4edb2b
 :END:
+
+* Fuzzy Anchoring – Hypothesis                        :annotation:hypothesis:
+:PROPERTIES:
+:CREATED:  [2019-03-11]
+:ID:       fzzynchrnghypthss
+:END:
+
+https://web.hypothes.is/blog/fuzzy-anchoring/
+
+* [#C] [2019-07-04] Discovering Hypothes.is | Luis Puerto        :hypothesis:
+:PROPERTIES:
+:ID:       thdscvrnghypthsslsprt
+:END:
+https://luispuerto.net/blog/2019/02/10/discovering-hypothesis
+** [2019-10-10] Just an ok overview, I think I cover same if not more
+:PROPERTIES:
+:ID:       thjstnkvrvwthnkcvrsmfntmr
+:END:
+
+* [#C] [2019-07-06] Overview of the Hypothesis System : Overview of the Hypothesis System :hypothesis:
+:PROPERTIES:
+:ID:       stvrvwfthhypthsssystmvrvwfthhypthsssystm
+:END:
+https://web.hypothes.is/help/overview-of-the-hypothesis-system/
+
+* [#B] [2020-05-27] Subscribe Hypothesis annotations             :hypothesis:
+:PROPERTIES:
+:ID:       wdsbscrbhypthssnnttns
+:END:
+https://diegodlh.github.io/hfeed/
+
+* [#D] [2019-03-17] Building a Second Brain: Capturing, Organizing, and Sharing Knowledge Using Digital Notes - YouTube :pkm:
+:PROPERTIES:
+:ID:       snbldngscndbrncptrngrgnzndshrngknwldgsngdgtlntsytb
+:END:
+https://www.youtube.com/watch?v=SjZSy8s2VEE&list=WL&index=61
+eh, nothing too exciting
+* [#C] [2019-02-13] Designing a Personal Knowledgebase – A Curious Mix  :pkm:
+:PROPERTIES:
+:ID:       wddsgnngprsnlknwldgbscrsmx
+:END:
+http://www.acuriousmix.com/2014/09/03/designing-a-personal-knowledgebase
+** [2019-04-13] ok, his system is not flexible enough for me, but somments are decent in terms of motivation and showing different approaches to pkm
+:PROPERTIES:
+:ID:       stkhssystmsntflxblnghfrmbtnndshwngdffrntpprchstpkm
+:END:
+* [2019-12-04] I suppose it's more of a research assistant/references tool, so not exactly for me :zotero:
+:PROPERTIES:
+:ID:       wdsppstsmrfrsrchssstntrfrncstlsntxctlyfrm
+:END:
