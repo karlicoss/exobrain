@@ -793,15 +793,14 @@ https://github.com/raxod502/straight.el#comparison-to-packageel
 :PROPERTIES:
 :ID:       mnsgthbcmshrysrmcsdblbcbdgrgtcbdbbcbddbfshrysrmcsd
 :END:
-* TODO [#C] idpb tty to emacs config??
+* TODO [#C] idpb tty to emacs config??                                 :ipdb:
 :PROPERTIES:
 :CREATED:  [2019-07-20]
 :ID:       dpbttytmcscnfg
 :END:
 : import sys; import ipdb
 : if sys.stdin.isatty():
-:     pass
-:     # ipdb.set_trace()
+:     ipdb.set_trace()
 * [#C] [2019-10-06] My Emacs + Scimax configuration | Shreyas Ragavan
 :PROPERTIES:
 :ID:       snmymcsscmxcnfgrtnshrysrgvn

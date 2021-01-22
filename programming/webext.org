@@ -450,3 +450,14 @@ https://stackoverflow.com/questions/36808309/chrome-extension-page-update-twice-
 :PROPERTIES:
 :ID:       tsgthbcmgffrylttwldcrdblbtrldjstmstrgffrylttwldcrd
 :END:
+* [#C] [2019-12-09] Request the right permissions | Extension Workshop
+:PROPERTIES:
+:ID:       mnrqstthrghtprmssnsxtnsnwrkshp
+:END:
+https://extensionworkshop.com/documentation/develop/request-the-right-permissions/#Request_permissions_at_runtime
+: A good example of this approach is Gesturefy, which offers users the following advice:
+* [#C] [2020-07-28] Mozilla Add-ons Blog
+:PROPERTIES:
+:ID:       tmzllddnsblg
+:END:
+https://blog.mozilla.org/addons/

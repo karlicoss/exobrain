@@ -2,7 +2,7 @@
 #+logseq_graph: false
 
 
-* Logseq                                                             :logseq:
+* [#B] * Logseq                                                      :logseq:
 :PROPERTIES:
 :ID:       lgsq
 :END:
@@ -108,7 +108,7 @@ aliases for graph view
 :ID:       gnrtgsrdwtchnsprtnmtvtnbyvnstdythyrsltntmnycnnctns
 :END:
 maybe they are more like attributes.. or tiny dots around tag, each of dots represents a task. dunno
-* * Orgzly                                                           :orgzly:
+* [#B] * Orgzly                                                      :orgzly:
 :PROPERTIES:
 :ID:       rgzly
 :END:
@@ -260,7 +260,106 @@ https://github.com/orgzly/orgzly-android/issues/8
 :ID:       pstbtrgzlynfssdrd
 :END:
 
-* wildcard                                                         :wildcard:
+** TODO [#C] [2019-12-15] Detect org files in subfolders · Issue #225 · orgzly/orgzly-android
+:PROPERTIES:
+:ID:       sndtctrgflsnsbfldrsssrgzlyrgzlyndrd
+:END:
+https://github.com/orgzly/orgzly-android/issues/225
+: ctory tree with bunch of org files around it, and right now orgzly only detects the org files on top level. Would
+*** [2019-12-15] Detect org files in subfolders · Issue #225 · orgzly/orgzly-android
+:PROPERTIES:
+:ID:       sndtctrgflsnsbfldrsssrgzlyrgzlyndrd
+:END:
+https://github.com/orgzly/orgzly-android/issues/225
+: Just checked out attern is having a directorytop level.
+* [#B] * syncthing                                                :syncthing:
+:PROPERTIES:
+:ID:       syncthng
+:END:
+https://syncthing.net
+** TODO [#A] suggest heartbeats for syncthing?                        :cloud:
+:PROPERTIES:
+:CREATED:  [2020-06-16]
+:ID:       sggsthrtbtsfrsyncthng
+:END:
+** TODO [#B] [2019-09-06] dschrempf/syncthing-resolve-conflicts: A small bash script that handles synchronization conflicts with Syncthing. Inspired by 'pacdiff' from Arch Linux. https://github.com/dschrempf/syncthing-resolve-conflicts
+:PROPERTIES:
+:ID:       frdschrmpfsyncthngrslvcnfchrmpfsyncthngrslvcnflcts
+:END:
+
+** TODO [#B] [2019-09-06] jjkramok/syncthing-conflict-notifier: Detects conflict files in a single syncthing shared folder and sends a push notification if conflicts are found. https://github.com/jjkramok/syncthing-conflict-notifier
+:PROPERTIES:
+:ID:       frjjkrmksyncthngcnflctntfmjjkrmksyncthngcnflctntfr
+:END:
+
+** TODO [#C] commit conflict detector? show alter in the inteface
+:PROPERTIES:
+:CREATED:  [2020-06-17]
+:ID:       cmmtcnflctdtctrshwltrnthntfc
+:END:
+*** [2020-12-19] eh? apparently it's already presetn? https://github.com/kozec/syncthing-gtk/issues/261
+:PROPERTIES:
+:ID:       sthpprntlytslrdyprstnsgthbcmkzcsyncthnggtksss
+:END:
+interesting..
+** TODO [#C] ok, syncthing paranoid should simply reuse logic in cloud-heartbeat :cloud:
+:PROPERTIES:
+:CREATED:  [2020-01-07]
+:ID:       ksyncthngprndshldsmplyrslgcncldhrtbt
+:END:
+also probably belongs to the same repository altogether
+** TODO [#C] had a bug: in pkm dir                                    :cloud:
+:PROPERTIES:
+:CREATED:  [2019-10-17]
+:ID:       hdbgnpkmdr
+:END:
+
+TODO would be interesting to do fuzzing
+
+1. before pkm (real dir) pkm/search (symlink) pkm/swoop (symlink)
+UNSYNCED!
+1. after pkm: symlink with the same files inside
+sync was just stuck
+** STRT [#D] Better indicator for syncthing? In mc and in gui?
+:PROPERTIES:
+:CREATED:  [2018-06-09]
+:ID:       bttrndctrfrsyncthngnmcndng
+:END:
+Gui -- available, mc -- not sure how..
+mm, doesn't look like there is a nice terminal interface?
+
+** STRT [#C] run git gc occasionally? can remove quite a lot of objects... :cloud:
+:PROPERTIES:
+:CREATED:  [2020-06-07]
+:ID:       rngtgcccsnllycnrmvqtltfbjcts
+:END:
+*** [2020-06-07] yeah, it's a really good idea.. wonder how to run it more often
+:PROPERTIES:
+:ID:       snyhtsrllygddwndrhwtrntmrftn
+:END:
+** TODO [#C] issue with Out of sync items/ sync stuck at 99%
+:PROPERTIES:
+:CREATED:  [2020-04-12]
+:ID:       sswthtfsynctmssyncstckt
+:END:
+not sure what exactly caused it, but basically was constantly showing local/global state mismatch
+
+use the post request to reset the index (apparently no way from GUI)
+https://docs.syncthing.net/rest/system-reset-post.html
+
+Rest api is on GUI port, key is in advanced settings
+https://docs.syncthing.net/dev/rest.html
+
+** DONE [2019-04-17] implement more regular checks for syncthing?
+:PROPERTIES:
+:ID:       wdmplmntmrrglrchcksfrsyncthng
+:END:
+*** [2019-04-17] also allow selective syncing on mobile/wifi
+:PROPERTIES:
+:ID:       wdlsllwslctvsyncngnmblwf
+:END:
+
+* [#B] * wildcard                                                  :wildcard:
 :PROPERTIES:
 :ID:       wldcrd
 :END:
@@ -362,120 +461,7 @@ separate repository for binary assets is better
 :ID:       tstwttrcmjrdplmrsttsjrdplstcnmkchtstctgpllwlhtwttr
 :END:
 : PSA: You can usually crank up Webpack rebuild/HMR speed by ~7x on TypeScript projects by doing this to your Webpack config in development.
-* tantivy                                                           :tantivy:
-:PROPERTIES:
-:ID:       tntvy
-:END:
-Search indexer on Rust
-https://github.com/tantivy-search/tantivy
-related #search
-** TODO [#D] Try search as you type on Wikipedia                    :tantivy:
-:PROPERTIES:
-:CREATED:  [2019-11-15]
-:ID:       trysrchsytypnwkpd
-:END:
-https://github.com/tantivy-search/tantivy-cli#indexing-the-document-index
-
-** TODO [#D] host wikipedia backend for a bit and give a frontend link to github issue :tantivy:
-:PROPERTIES:
-:CREATED:  [2019-11-18]
-:ID:       hstwkpdbckndfrbtndgvfrntndlnktgthbss
-:END:
-** TODO [#D] tantivy-py: need to bump version to -dev or something? :tantivy:
-:PROPERTIES:
-:CREATED:  [2019-11-18]
-:ID:       tntvypyndtbmpvrsntdvrsmthng
-:END:
-
-
-* syncthing                                                       :syncthing:
-:PROPERTIES:
-:ID:       syncthng
-:END:
-https://syncthing.net
-** TODO [#A] suggest heartbeats for syncthing?                        :cloud:
-:PROPERTIES:
-:CREATED:  [2020-06-16]
-:ID:       sggsthrtbtsfrsyncthng
-:END:
-** TODO [#B] [2019-09-06] dschrempf/syncthing-resolve-conflicts: A small bash script that handles synchronization conflicts with Syncthing. Inspired by 'pacdiff' from Arch Linux. https://github.com/dschrempf/syncthing-resolve-conflicts
-:PROPERTIES:
-:ID:       frdschrmpfsyncthngrslvcnfchrmpfsyncthngrslvcnflcts
-:END:
-
-** TODO [#B] [2019-09-06] jjkramok/syncthing-conflict-notifier: Detects conflict files in a single syncthing shared folder and sends a push notification if conflicts are found. https://github.com/jjkramok/syncthing-conflict-notifier
-:PROPERTIES:
-:ID:       frjjkrmksyncthngcnflctntfmjjkrmksyncthngcnflctntfr
-:END:
-
-** TODO [#C] commit conflict detector? show alter in the inteface
-:PROPERTIES:
-:CREATED:  [2020-06-17]
-:ID:       cmmtcnflctdtctrshwltrnthntfc
-:END:
-*** [2020-12-19] eh? apparently it's already presetn? https://github.com/kozec/syncthing-gtk/issues/261
-:PROPERTIES:
-:ID:       sthpprntlytslrdyprstnsgthbcmkzcsyncthnggtksss
-:END:
-interesting..
-** TODO [#C] ok, syncthing paranoid should simply reuse logic in cloud-heartbeat :cloud:
-:PROPERTIES:
-:CREATED:  [2020-01-07]
-:ID:       ksyncthngprndshldsmplyrslgcncldhrtbt
-:END:
-also probably belongs to the same repository altogether
-** TODO [#C] had a bug: in pkm dir                                    :cloud:
-:PROPERTIES:
-:CREATED:  [2019-10-17]
-:ID:       hdbgnpkmdr
-:END:
-
-TODO would be interesting to do fuzzing
-
-1. before pkm (real dir) pkm/search (symlink) pkm/swoop (symlink)
-UNSYNCED!
-1. after pkm: symlink with the same files inside
-sync was just stuck
-** STRT [#D] Better indicator for syncthing? In mc and in gui?
-:PROPERTIES:
-:CREATED:  [2018-06-09]
-:ID:       bttrndctrfrsyncthngnmcndng
-:END:
-Gui -- available, mc -- not sure how..
-mm, doesn't look like there is a nice terminal interface?
-
-** STRT [#C] run git gc occasionally? can remove quite a lot of objects... :cloud:
-:PROPERTIES:
-:CREATED:  [2020-06-07]
-:ID:       rngtgcccsnllycnrmvqtltfbjcts
-:END:
-*** [2020-06-07] yeah, it's a really good idea.. wonder how to run it more often
-:PROPERTIES:
-:ID:       snyhtsrllygddwndrhwtrntmrftn
-:END:
-** TODO [#C] issue with Out of sync items/ sync stuck at 99%
-:PROPERTIES:
-:CREATED:  [2020-04-12]
-:ID:       sswthtfsynctmssyncstckt
-:END:
-not sure what exactly caused it, but basically was constantly showing local/global state mismatch
-
-use the post request to reset the index (apparently no way from GUI)
-https://docs.syncthing.net/rest/system-reset-post.html
-
-Rest api is on GUI port, key is in advanced settings
-https://docs.syncthing.net/dev/rest.html
-
-** DONE [2019-04-17] implement more regular checks for syncthing?
-:PROPERTIES:
-:ID:       wdmplmntmrrglrchcksfrsyncthng
-:END:
-*** [2019-04-17] also allow selective syncing on mobile/wifi
-:PROPERTIES:
-:ID:       wdlsllwslctvsyncngnmblwf
-:END:
-
-* sympy                                                               :sympy:
+* [#B] * sympy                                                        :sympy:
 :PROPERTIES:
 :ID:       sympy
 :END:
@@ -516,7 +502,18 @@ https://github.com/sympy/sympy/pull/7625/files
 :ID:       dslvbgsgthbcmsympysympysss
 :END:
 
-* materialistic app for #hackernews
+** TODO [#D] add wave eq to sympy??                                   :sympy:
+:PROPERTIES:
+:CREATED:  [2018-12-23]
+:ID:       ddwvqtsympy
+:END:
+- 1st order linear homogeneous partial differential equations
+  with constant coefficients.
+- 1st order linear general partial differential equations
+  with constant coefficients.
+- 1st order linear partial differential equations with
+  variable coefficients.
+* [#B] * materialistic app for #hackernews
 :PROPERTIES:
 :ID:       mtrlstcppfrhckrnws
 :END:
@@ -526,14 +523,167 @@ https://github.com/sympy/sympy/pull/7625/files
 :END:
 https://github.com/hidroh/materialistic/issues/1075
 
+** TODO [#C] Hn materialistic: change view on press
+:PROPERTIES:
+:CREATED:  [2019-11-27]
+:ID:       hnmtrlstcchngvwnprss
+:END:
+
+** TODO [#C] Hn Materialistic: comment icon is way too large for the number of comments
+:PROPERTIES:
+:CREATED:  [2019-11-27]
+:ID:       hnmtrlstccmmntcnswytlrgfrthnmbrfcmmnts
+:END:
+
+* [#C] * git-bug                                                     :gitbug:
+:PROPERTIES:
+:ID:       gtbg
+:END:
+related #git #github #decentralize
+** TODO [#C] [2020-11-02] git-bug isn't syncing PRs?
+:PROPERTIES:
+:ID:       mngtbgsntsyncngprs
+:END:
+** TODO [#C] [2020-11-21] [[https://github.com/MichaelMure/git-bug/blob/b3318335986618388637a9d35d68b39633e4548a/bridge/core/import.go#L54][git-bug/import.go at b3318335986618388637a9d35d68b39633e4548a · MichaelMure/git-bug]]
+:PROPERTIES:
+:ID:       stsgthbcmmchlmrgtbgblbbddlgtbgmprtgtbddbmchlmrgtbg
+:END:
+ugh fuck, this should go to stderr?
+* [#C] * Hypothesis                                              :hypothesis:
+:PROPERTIES:
+:ID:       hypthss
+:END:
+** TODO [#C] need to color my and other people highlights in diff colors
+:PROPERTIES:
+:ID:       ndtclrmyndthrpplhghlghtsndffclrs
+:END:
+** STRT [#C] [2018-06-11] just be a bit more explicit about not logged in
+:PROPERTIES:
+:ID:       mnjstbbtmrxplctbtntlggdn
+:END:
+*** DONE [#D] ok, what I actually want is the extension to be more vocal about logouts
+:PROPERTIES:
+:ID:       kwhtctllywntsthxtnsntbmrvclbtlgts
+:END:
+https://github.com/hypothesis/client/issues/12
+*** DONE [2019-02-20] https://github.com/hypothesis/client/pull/967
+:PROPERTIES:
+:ID:       wdsgthbcmhypthssclntpll
+:END:
+*** [2019-06-27] ok, it was partially resolved, at least it expands the sidebar now. Swill major problem for usability though, can easily disapppoint new users.
+:PROPERTIES:
+:ID:       thktwsprtllyrslvdtlsttxpnbltythghcnslydspppntnwsrs
+:END:
+
+** TODO [#C] [2019-02-20] hypothesis/client: The Hypothesis web-based annotation client.
+:PROPERTIES:
+:ID:       wdhypthssclntthhypthsswbbsdnnttnclnt
+:END:
+https://github.com/hypothesis/client
+: Join us on Slack - request an invite or log in once you've already created an account - or in #hypothes.is on freenode for discussion.
+: If you'd like to contribute to the project, you should consider subscribing to the development mailing list, where we can help you plan your contributions.
+*** TODO [2021-01-16] disuss about cannon                     :cannon:outbox:
+:PROPERTIES:
+:ID:       stdsssbtcnnn
+:END:
+
+** TODO [#C] doesn't work on hackernews, some content-security policy thing :hypothesis:
+:PROPERTIES:
+:CREATED:  [2020-02-27]
+:ID:       9bb9447f-2075-4d30-a9d6-909bc952fccb
+:END:
+** [2020-05-05] [[https://gist.github.com/mGBUfLn9/7cadffcf7c3c23b7376350165a67735f][history.txt]] :hypothesis:annotation:
+:PROPERTIES:
+:ID:       tsgstgthbcmmgbflncdffcfccbfhstrytxt
+:END:
+doesn't work on github?? ugh.
+* [#D] * tantivy                                                    :tantivy:
+:PROPERTIES:
+:ID:       tntvy
+:END:
+Search indexer on Rust
+https://github.com/tantivy-search/tantivy
+related #search
+** TODO [#D] Try search as you type on Wikipedia                    :tantivy:
+:PROPERTIES:
+:CREATED:  [2019-11-15]
+:ID:       trysrchsytypnwkpd
+:END:
+https://github.com/tantivy-search/tantivy-cli#indexing-the-document-index
+
+** TODO [#D] host wikipedia backend for a bit and give a frontend link to github issue :tantivy:
+:PROPERTIES:
+:CREATED:  [2019-11-18]
+:ID:       hstwkpdbckndfrbtndgvfrntndlnktgthbss
+:END:
+** TODO [#D] tantivy-py: need to bump version to -dev or something? :tantivy:
+:PROPERTIES:
+:CREATED:  [2019-11-18]
+:ID:       tntvypyndtbmpvrsntdvrsmthng
+:END:
+
+
+* [#D] * twint                                                        :twint:
+:PROPERTIES:
+:ID:       twnt
+:END:
+related: #twitter
+
+** TODO not sure about --profile-full??                               :twint:
+:PROPERTIES:
+:CREATED:  [2020-04-14]
+:ID:       ntsrbtprflfll
+:END:
+: twint -u karlicoss --database tweets3.db --profile-full
+** TODO hmm. it looks like it can't parse tweet ids??                 :twint:
+:PROPERTIES:
+:CREATED:  [2020-04-14]
+:ID:       hmmtlkslktcntprstwtds
+:END:
+: CRITICAL:root:twint.get:Tweet:time data '' does not match format '%Y-%m-%d %H:%M:%S'
+: CRITICAL:root:twint.get:Tweet:time data '' does not match format '%Y-%m-%d %H:%M:%S'
+: CRITICAL:root:twint.get:Tweet:time data '' does not match format '%Y-%m-%d %H:%M:%S'
+: 1249982874150932480 2020-04-14 09:48:35 BST <karlicoss> I love it, one of the best physics textbooks I know ! Will probably take  years for me to fully grasp, but it's very pleasant to read! https://twitter.com/JakobSchwich/status/1249569424622878720 …
+: 1249856617031630848 2020-04-14 01:26:53 BST <karlicoss> I'm almost sure you've seen it, but this is a fascinating read:  https://slatestarcodex.com/2014/03/17/what-universal-human-experiences-are-you-missing-without-realizing-it/ … (comments too!)
+: 1249820865593847814 2020-04-13 23:04:49 BST <karlicoss> It's probably for the first time in years when I actually liked some user interface. Wow.
+: 1249820017576890368 2020-04-13 23:01:27 BST <karlicoss> Wow, I've just used @liberapay for the first time, and it's been *increadibly* pleasant.  Clean, functional and text-centered interface. No bullshit, you can clearly see who you pay, how and when.
+: CRITICAL:root:twint.get:Tweet:time data '' does not match format '%Y-%m-%d %H:%M:%S'
+: CRITICAL:root:twint.get:Tweet:time data '' does not match format '%Y-%m-%d %H:%M:%S'
+: 1249586565417963520 2020-04-13 07:33:48 BST <karlicoss> this is, in part, why I stopped listening podcasts
+* --------------------------------
+:PROPERTIES:
+:ID:       21315_21351
+:END:
+
+* STRT [#C] share link and content                                    :tusky:
+:PROPERTIES:
+:CREATED:  [2020-01-22]
+:ID:       shrlnkndcntnt
+:END:
+** [2020-01-25] https://github.com/tuskyapp/Tusky/issues/1655
+:PROPERTIES:
+:ID:       stsgthbcmtskypptskysss
+:END:
+
+* TODO [#C] validate systemd?                                       :pyinfra:
+:PROPERTIES:
+:CREATED:  [2020-06-15]
+:ID:       vldtsystmd
+:END:
 * TODO [#D] ncmpcpp file name too long                                  :mpd:
 :PROPERTIES:
 :ID:       ncmpcppflnmtlng
 :END:
 годы пройдут часть 1
-
-* TODO [#C] git-bug isn't syncing PRs?
+* TODO [#D] update miniflux docs, mention that ~CLEANUP_ARCHIVE_READ_DAYS~ docs
 :PROPERTIES:
-:CREATED:  [2020-11-02]
-:ID:       gtbgsntsyncngprs
+:CREATED:  [2020-07-01]
+:ID:       pdtmnflxdcsmntnthtclnprchvrddysdcs
+:END:
+
+https://github.com/miniflux/miniflux/blob/f9a773ab18815a57e74bedc243ede1ad70e89917/storage/entry.go#L224
+* TODO [#D] PR in toastify for innerHTML
+:PROPERTIES:
+:CREATED:  [2020-02-18]
+:ID:       73aa3f9e-b214-4913-91d3-436eac2b5ff5
 :END:

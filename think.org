@@ -2,7 +2,7 @@
 #+logseq_graph: false
 #+filetags: think
 
-* related                                                              :self:
+* related                                                        :ideas:self:
 :PROPERTIES:
 :ID:       rltd
 :END:
@@ -219,7 +219,7 @@ https://hyp.is/VJzbZCAyEemveyukcnlBBQ/cognitivemedium.com/emm/emm.html
 :ID:       pfrtskscldntgrtwththrsrvcsndmrrrthmggthb
 :END:
 
-* TODO [#C] Tweet from David Larsson (@laserallan), at Aug 14, 08:20 :debugging:viz:
+* TODO [#C] Tweet from David Larsson (@laserallan), at Aug 14, 08:20 :debug:viz:
 :PROPERTIES:
 :CREATED:  [2019-08-14]
 :ID:       twtfrmdvdlrssnlsrllntg
@@ -859,4 +859,51 @@ so things are a mix of regular grammar and just some extractors. think about it.
 ** [2018-12-09] had few interesting thoughts there in comments
 :PROPERTIES:
 :ID:       snhdfwntrstngthghtsthrncmmnts
+:END:
+* STRT [#C] simulate musical instruments with interesting boundary conditions ... :ideas:music:sim:quitar:blog:
+:PROPERTIES:
+:CREATED:  [2018-12-21]
+:ID:       smltmsclnstrmntswthntrstngbndrycndtns
+:END:
+* TODO [#C] Concurrency testing tool          :concurrency:programming:think:
+:PROPERTIES:
+:CREATED:  [2020-01-07]
+:ID:       cncrrncytstngtl
+:END:
+
+Could check it on examples from this dragon slaying game
+
+* TODO [#C] Federated timeline for twitter -- could implement by myself? :mastodon:twitter:
+:PROPERTIES:
+:CREATED:  [2020-01-08]
+:ID:       fdrtdtmlnfrtwttrcldmplmntbymyslf
+:END:
+
+* STRT [#C] Python pattern matching                                  :python:
+:PROPERTIES:
+:CREATED:  [2018-12-25]
+:ID:       pythnpttrnmtchng
+:END:
+** TODO python bindings in ideas/pymatching.py                 :think:python:
+:PROPERTIES:
+:CREATED:  [2018-12-25]
+:ID:       pythnbndngsndspymtchngpy
+:END:
+*** [2019-10-27] eh, perhaps isinstance + would actually be better. perhaps .untie method as well (also can be mypy assisted)
+:PROPERTIES:
+:ID:       snhprhpssnstncwldctllybbtsntmthdswlllscnbmypyssstd
+:END:
+** TODO [2021-01-22] wonder if 3.10 proposal renders it obsolete?
+:PROPERTIES:
+:ID:       frwndrfprpslrndrstbslt
+:END:
+* TODO [#D] implement bindings to import simple objects as python? convert datetimes on the fly, maybe? :python:haskell:rust:ffi:
+:PROPERTIES:
+:CREATED:  [2018-12-31]
+:ID:       mplmntbndngstmprtsmplbjctspythncnvrtdttmsnthflymyb
+:END:
+* TODO [#C] better inspector for python objects, kinda like here https://www.youtube.com/watch?v=baxtyeFVn3w :python:think:ideas:
+:PROPERTIES:
+:CREATED:  [2019-01-01]
+:ID:       bttrnspctrfrpythnbjctskndkhrswwwytbcmwtchvbxtyfvnw
 :END:

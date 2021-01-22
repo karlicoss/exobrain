@@ -970,3 +970,29 @@ shit... too many tweets. I need a way to filter the network...
 :PROPERTIES:
 :ID:       stnfcttsthmstcmmnrqsttpnbrdthrpprntly
 :END:
+* TODO [#C] spinboard: something's not right. e.g. try
+:PROPERTIES:
+:CREATED:  [2018-11-29]
+:ID:       spnbrdsmthngsntrghtgtry
+:END:
+querying /t:quantified-self
+https://pinboard.in/t:quantified-self/
+spinboard gives 220 total results. however, on the first page there are 50...
+scraper is missing something?
+
+
+eh. sooo, there are no dupes even!! BS4 actually sees only 20 per page (pinboard still gives us '50' in the next url).
+whereas chrome does show up 50 entries; but if you go to the second page they are gonna overlap.
+** TODO must be some pinboard bug??                                :pinboard:
+:PROPERTIES:
+:ID:       mstbsmpnbrdbg
+:END:
+* STRT [#D] [2019-11-06] classes — classes 0.1.0 documentation
+:PROPERTIES:
+:ID:       wdclsssclsssdcmnttn
+:END:
+https://classes.readthedocs.io/en/latest/
+** [2020-02-15] hmm, somethihg  I was trying to do in axol?...         :axol:
+:PROPERTIES:
+:ID:       sthmmsmthhgwstryngtdnxl
+:END:

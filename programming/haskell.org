@@ -85,3 +85,12 @@ MaybeT : provides the construction for (f of Maybe) for any Monad f.
 :PROPERTIES:
 :ID:       rltd
 :END:
+* TODO [#D] Tweet from Dmitry Kovanikov (@ChShersh), at Jun 1, 04:37 :haskell:
+:PROPERTIES:
+:CREATED:  [2018-06-01]
+:ID:       twtfrmdmtrykvnkvchshrshtjn
+:END:
+
+: Looks like @iokasimov can write good #haskell jokes 😏
+
+https://twitter.com/ChShersh/status/1002393643288686592

@@ -359,10 +359,6 @@ https://news.ycombinator.com/item?id=22607112
 :ID:       snsnwsycmbntrcmtmdqrcptrnnnngqrcdfrmthtrmnlhckrnws
 :END:
 
-* [#C] [2020-04-19] [[https://jeremykun.com/2020/01/14/the-communicative-value-of-using-git-well/][The Communicative Value of Using Git Well – Math ∩ Programming]] :git:
-:PROPERTIES:
-:ID:       snsjrmykncmthcmmnctvvlfsnctvvlfsnggtwllmthprgrmmng
-:END:
 * [#C] [2020-04-21] [[http://localhost:3000/agents/new][Create Agent - Huginn]] :project:
 :PROPERTIES:
 :ID:       tlclhstgntsnwcrtgnthgnn
@@ -771,7 +767,7 @@ https://www.graycrawford.com/nonlinear-conversational-medium
 :END:
 https://thume.ca/2020/05/17/pipes-kill-productivity/
 
-* [#C] [2020-05-22] [[https://scrapism.lav.io/][Scrapism - Scrapism]] scraping tutorial :scraping:
+* [#C] [2020-05-22] [[https://scrapism.lav.io/][Scrapism - Scrapism]] scraping tutorial :scrape:
 :PROPERTIES:
 :ID:       frsscrpsmlvscrpsmscrpsmscrpngttrl
 :END:
@@ -1020,20 +1016,6 @@ Let's start again, again. We can't use rocks anymore, but we can use iron. Iron 
 :END:
 https://github.com/kynan/nbstripout
 
-* [2020-07-18] [[https://stackoverflow.com/questions/282670/easiest-way-to-sort-dom-nodes][javascript - Easiest way to sort DOM nodes? - Stack Overflow]] :js:
-:PROPERTIES:
-:ID:       stsstckvrflwcmqstnssstwytptsstwytsrtdmndsstckvrflw
-:END:
-: By using list.children instead of list.childNodes, you can avoid the check for text nodes.
-* [#B] [2020-07-20] [[https://en.mapy.cz/zakladni?x=-0.0200000&y=51.5064000&z=11][Mapy.cz]] :travel:hiking:maps:
-:PROPERTIES:
-:ID:       mnsnmpyczzkldnxyzmpycz
-:END:
-
-* [2020-07-23] [[https://www.routeyou.com/][Enjoy the nicest routes | RouteYou]] :maps:
-:PROPERTIES:
-:ID:       thswwwrtycmnjythncstrtsrty
-:END:
 * [2020-07-27] [[https://www.youtube.com/playlist?list=PLVV0r6CmEsFxKFx-0lsQDs6oLP3SZ9BlA][Murray Gell-Mann (Scientist) - YouTube]]
 :PROPERTIES:
 :ID:       mnswwwytbcmplylstlstplvvrlpszblmrrygllmnnscntstytb
@@ -1074,11 +1056,6 @@ https://github.com/oliexdev/openScale
 :ID:       wdswwwytbcmwtchvfwjwphmwhytrnsrsxpnsvytb
 :END:
 
-* [2020-08-15] [[https://en.wikipedia.org/wiki/OpenWorm][OpenWorm - Wikipedia]]
-:PROPERTIES:
-:ID:       stsnwkpdrgwkpnwrmpnwrmwkpd
-:END:
-: OpenWorm is an international open science project to simulate the roundworm Caenorhabditis elegans at the cellular level as a simulation.[1][2][3] Although the long-term goal is to model all 959 cells of the C. elegans, the first stage is to model the worm's locomotion by simulating the 302 neurons and 95 muscle cells.
 * [2020-08-18] [[https://ru.wikipedia.org/wiki/%D0%98%D0%B2%D0%B0%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE,_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87][Иваненко, Дмитрий Дмитриевич — Википедия]]
 :PROPERTIES:
 :ID:       tsrwkpdrgwkddbdbdbddbdbddмитрийдмитриевичвикипедия
@@ -1253,9 +1230,9 @@ this isn't
 :END:
 - comment:
   : fascinating, apparently this is how you access your own data for google drive apps?
-* [2020-09-29]                                          :ci:circleci:windows:
+* [2020-09-29] on windows                                       :ci:circleci:
 :PROPERTIES:
-:ID:       t
+:ID:       tnwndws
 :END:
 - bash works odd, powershell as well
 - had to disable setup_requires=['setuptools_scm'] in setup.py, some ssl errors
@@ -1304,22 +1281,13 @@ this isn't
 Todo blog about singularity books
 from The Metamorphosis of Prime Intellect by Roger Williams
 
-* [2020-12-08] [[https://hakibenita.com/python-mypy-exhaustive-checking][Exhaustiveness Checking with Mypy | Haki Benita]] :python:mypy:
-:PROPERTIES:
-:ID:       tshkbntcmpythnmypyxhstvchhstvnsschckngwthmypyhkbnt
-:END:
-: Exhaustiveness Checking
-
-- comment:
-  : use else clause with NoReturn, then mypy assists in refining
 * [2020-12-15] [[https://nitter.net/mekarpeles/status/1338766203192451074#m][Mek (@mekarpeles): "What's something about the web that's obviously broken? I'll start: No version control history and all the content is dynamic." | nitter]] :sadinfra:
 :PROPERTIES:
 :ID:       tsnttrntmkrplssttsmmkmkrpstryndllthcntntsdynmcnttr
 :END:
 : What's something about the web that's obviously broken?
 
-- comment:
-  : really good thread
+really good thread
 * https://github.com/randyrants/sharpkeys/releases to remap caps to esc :windows:setup:
 :PROPERTIES:
 :ID:       sgthbcmrndyrntsshrpkysrlsstrmpcpstsc
@@ -1346,101 +1314,6 @@ from The Metamorphosis of Prime Intellect by Roger Williams
 :END:
 : let util = require('util')
 : console.log(util.inspect(resp, {showHidden: false, depth: 1}))
-* TODO a page with my favourite git commands & tricks?        :blog:exobrain:
-:PROPERTIES:
-:CREATED:  [2020-12-30]
-:ID:       pgwthmyfvrtgtcmmndstrcks
-:END:
-wsdiff
-image diff
-nbstirpout
-iadd
-extra worktree dir
-* TODO defaul error reporting sucks                                   :elisp:
-:PROPERTIES:
-:CREATED:  [2021-01-01]
-:ID:       dflrrrrprtngscks
-:END:
-e.g. try making a typo here. by default it dumps a single message with absolutely no context whatsoever (file/line number)
-: (advice-add #'org-org-section         :befoire #'exobrain/before-org-org-section)
-
-stacktrace is pretty useful too
-* TODO elisp sucks                                                    :elisp:
-:PROPERTIES:
-:CREATED:  [2021-01-01]
-:ID:       lspscks
-:END:
-let bindings struct is _really_ annoying, which discourages naming variables
-* TODO sort of hard to express... but basically                       :elisp:
-:PROPERTIES:
-:CREATED:  [2021-01-01]
-:ID:       srtfhrdtxprssbtbsclly
-:END:
-maybe it's just org-mode thing since this is the only 'big' elisp system I worked with
-example with org-element-set/adopt in exobrain source code
-if it was language with 'real' types, it would be easy to dir() or somethign to see what methods are available
-but maybe it would be less flexible, I dunno
-on the other hands it means that you can always hack it *somehow* and then maybe figure out 'proper'
-but discoverability really suffers
-* TODO good: parinfer sometimes is quite nice                         :elisp:
-:PROPERTIES:
-:CREATED:  [2021-01-01]
-:ID:       gdprnfrsmtmssqtnc
-:END:
-sometimes though it arbitrarily reararnges parens. e..g I have to be _really_ careful when pasting big source blocks from elsewhere
-* TODO good parts                                                :elisp:blog:
-:PROPERTIES:
-:CREATED:  [2021-01-01]
-:ID:       gdprts
-:END:
-advice-patch
-* TODO elisp sucks: discourages intermediate variables                :elisp:
-:PROPERTIES:
-:CREATED:  [2021-01-01]
-:ID:       lspscksdscrgsntrmdtvrbls
-:END:
-
-: собственно мотивационный пример на питоне
-: 
-: def normalize(vec):
-:    x, y = vec
-:    len = sqrt(x ** 2 + y ** 2)
-:    if len == 0:
-:        raise RuntimeError(f'bad vector {vec}')
-: 
-:    nx = x / len
-:    ny = y / len
-:    return (nx, ny)
-: 
-: на елиспе
-: 
-: (defun normalize (vec)
-:   (let* ((x   (car vec))
-:          (y   (cdr vec)))
-:          (len (sqrt (* x x) (* y y))))
-:     (if (=0 len)
-:         (error (format "bad vector %s" vec)))
-:     (let* ((nx (/ x len))
-:            (ny (/ y len)))
-:       `(,nx ,ny)))
-: 
-: а я хочу как-то так
-: 
-: (defun normalize (vec)
-:   (let' (x y) vec) ;; can't do in elisp?? maybe with cl-destructuring-bind...
-:   (let' len   (sqrt (* x x) (* y y)))
-:   (if (= 0 len)
-:       (error (format "bad vector %s" vec))
-:   (let' nx (/ x len)
-:         ny (/ y len))
-:   `(,nx ,ny)))
-: 
-: наверное это можно добиться если добавить какую-нибудь магию вроде макроса (scope ...), который эти let' правильно интерпретирует
-* TODO lisp unpacking like in python  =(let ((x '(2 3))) `(1 ,@x 4 5))= :drill:blog:elisp:
-:PROPERTIES:
-:CREATED:  [2021-01-01]
-:ID:       lspnpcknglknpythnltxx
-:END:
 * IMO, long names like appendChild, getElementById, createTextNode, etc discourage use of vanilla js :plt:js:
 :PROPERTIES:
 :CREATED:  [2021-01-03]
@@ -1450,20 +1323,6 @@ advice-patch
 :PROPERTIES:
 :ID:       mnvsthfrmrprsrvsndrscrssbttrtst
 :END:
-* [2017-05-06] use =hg-fast-export= to convert                :mercurial:git:
-:PROPERTIES:
-:ID:       stshgfstxprttcnvrt
-:END:
-* [2021-01-06] unwind-protect works as with / try-finally block :python:elisp:
-:PROPERTIES:
-:ID:       wdnwndprtctwrksswthtryfnllyblck
-:END:
-* TODO good things: hacking on the config while loading stuff via eval-defun :elisp:
-:PROPERTIES:
-:CREATED:  [2021-01-06]
-:ID:       gdthngshckngnthcnfgwhlldngstffvvldfn
-:END:
-i.e. I think people who advocate for REPL are pitching for a completely wrong thing -- I want to keep my code tidy, it's just nice to execute it instantly
 * [2017-11-06] penrose diagram
 :PROPERTIES:
 :ID:       mnpnrsdgrm
@@ -1594,14 +1453,6 @@ Muscle
 Least sensitive: Nervous system
 
 This also means that a developing embryo is most sensitive to radiation during the early stages of differentiation, and an embryo/fetus is more sensitive to radiation exposure in the first trimester than in later trimesters
-* [2016-09-07] git stores snapshots, not diffs                          :git:
-:PROPERTIES:
-:ID:       wdgtstrssnpshtsntdffs
-:END:
-: Different from SVN
-: It is important to note that this is very different from most SCM systems that you may be familiar with. Subversion, CVS, Perforce, Mercurial and the like all use Delta Storage systems - they store the differences between one commit and the next.
-: Git does not do this - it stores a snapshot of what all the files in your project look like in this tree structure each time you commit. This is a very important concept to understand when using Git.
-: Git’s pack files are carefully constructed to effectively use disk caches and provide “nice” access patterns for common commands and for reading recently referenced objects.
 * STRT [#C] [2020-01-19] Noweb home page                           :literate:
 :PROPERTIES:
 :ID:       snnwbhmpg
@@ -1979,7 +1830,7 @@ https://stackoverflow.com/questions/27907373/dynamically-change-slots-in-python-
 
 * .
 :PROPERTIES:
-:ID:       107841_107854
+:ID:       102574_102587
 :END:
 * TODO [#C] use repl.it instead of ideone?                              :ide:
 :PROPERTIES:

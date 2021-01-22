@@ -4,11 +4,19 @@
 Python org-mode parser.
 Main project page: https://github.com/karlicoss/orgparse
 
-* TODO [#B] process colon stuff                          :orgparse:promnesia:
+* [#D] related                                                   :org:python:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
+
+* TODO [#B] process colon stuff                                   :promnesia:
 :PROPERTIES:
 :CREATED:  [2020-09-10]
 :ID:       prcssclnstff
 :END:
+: as in, quoted text
+: like this
 * testing
 :PROPERTIES:
 :ID:       tstng
@@ -32,19 +40,34 @@ Main project page: https://github.com/karlicoss/orgparse
 :PROPERTIES:
 :ID:       frtrysmnlnntbkndldpmssvrgmdflnt
 :END:
-* STRT [#D] maybe it belongs to orgparse.experimental or something?    :porg:
-:PROPERTIES:
-:CREATED:  [2020-09-01]
-:ID:       mybtblngstrgprsxprmntlrsmthng
-:END:
-
 * TODO [#D] implement simple cmdline interface? need rendering though..
 :PROPERTIES:
 :CREATED:  [2019-07-21]
 :ID:       mplmntsmplcmdlnntrfcndrndrngthgh
 :END:
 
-* [#D] related                                                   :org:python:
+* [#C] * porg                                                          :porg:
 :PROPERTIES:
-:ID:       rltd
+:ID:       prg
+:END:
+Library for xpath-like org-mode queries
+https://github.com/karlicoss/porg
+Turned out to be not as useful as I thought it would be.
+
+
+** STRT [#D] maybe it belongs to orgparse.experimental or something?   :porg:
+:PROPERTIES:
+:CREATED:  [2020-09-01]
+:ID:       mybtblngstrgprsxprmntlrsmthng
+:END:
+
+** WAIT [#D] eh, maybe get rid of hiccup. too complicated              :porg:
+:PROPERTIES:
+:CREATED:  [2020-09-01]
+:ID:       hmybgtrdfhccptcmplctd
+:END:
+** STRT [#D] use for stocklist? Although special agenda is prob. more appropriate :porg:
+:PROPERTIES:
+:CREATED:  [2018-11-06]
+:ID:       sfrstcklstlthghspclgndsprbmrpprprt
 :END:

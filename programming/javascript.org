@@ -97,3 +97,47 @@ https://www.reddit.com/r/reactjs/comments/7z87o9/implementing_infinite_scrolling
 :ID:       thgglchrmxtnsnnjctngfrmnttvcntntscrtyplcystckvrflw
 :END:
 https://stackoverflow.com/questions/24641592/injecting-iframe-into-page-with-restrictive-content-security-policy
+
+* [2020-05-02] [[https://medium.com/@invicticide/patching-an-npm-dependency-without-going-completely-insane-aa0b110a80c][Patching an NPM dependency without going completely insane]]
+:PROPERTIES:
+:ID:       stsmdmcmnvctcdptchngnnpmdmdpndncywthtgngcmpltlynsn
+:END:
+* TODO [#C] Tweet from Guy Bedford (@guybedford), at Dec 27, 19:23  :js:repl:
+:PROPERTIES:
+:CREATED:  [2019-12-27]
+:ID:       twtfrmgybdfrdgybdfrdtdc
+:END:
+: Periodic reminder that `await import('//dev.jspm.io/[pkg]')` allows you to import anything from npm in the browser instantly. I often use this in the console to test things out.
+
+https://twitter.com/guybedford/status/1202022281633030145
+
+* TODO [#C] [2019-08-18] stidges/jquery-searchable: Tiny, fast jQuery plugin to search through elements as you type. :search:
+:PROPERTIES:
+:ID:       snstdgsjqrysrchbltnyfstjqyplgntsrchthrghlmntssytyp
+:END:
+https://github.com/stidges/jquery-searchable
+: Tiny, fast jQuery plugin to search through elements as you type.
+* TODO [#D] [2019-08-18] flexsearch - npm                            :search:
+:PROPERTIES:
+:ID:       snflxsrchnpm
+:END:
+https://www.npmjs.com/package/flexsearch
+
+* TODO [#D] codemirror search widget                                     :js:
+:PROPERTIES:
+:CREATED:  [2019-08-28]
+:ID:       cdmrrrsrchwdgt
+:END:
+* [#C] [2020-01-30] Svelte 3: Rethinking reactivity
+:PROPERTIES:
+:ID:       thsvltrthnkngrctvty
+:END:
+https://svelte.dev/blog/svelte-3-rethinking-reactivity
+: Svelte is a component framework — like React or Vue — but with an important difference. Traditional frameworks allow you to write declarative state-driven code, but there's a penalty: the browser must do extra work to convert those declarative structures into DOM operations, using techniques like
+: that eat into your frame budget and tax the garbage collector.
+: Instead, Svelte runs at build time, converting your components into highly efficient imperative code that surgically updates the DOM. As a result, you're able to write ambitious applications with excellent performance characteristics.
+* [2020-07-18] [[https://stackoverflow.com/questions/282670/easiest-way-to-sort-dom-nodes][javascript - Easiest way to sort DOM nodes? - Stack Overflow]] :js:
+:PROPERTIES:
+:ID:       stsstckvrflwcmqstnssstwytptsstwytsrtdmndsstckvrflw
+:END:
+: By using list.children instead of list.childNodes, you can avoid the check for text nodes.

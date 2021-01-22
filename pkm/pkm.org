@@ -1920,3 +1920,10 @@ cool thing, might be good to overview accounts
 - unclear where to find decks
 - no mobile app
 - no images
+* TODO [#D] Google search                                     :search:google:
+:PROPERTIES:
+:CREATED:  [2020-01-25]
+:ID:       gglsrch
+:END:
+
+: I miss the days when I could search with AND, OR, +word and -word. Now if I search google with more than one word it no longer searches the internet. Instead it searches for ads that are somewhat similar to my query and features those. Any useful links on the first page are accidental.

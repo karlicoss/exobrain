@@ -685,3 +685,8 @@ I don't know wtf is wrong. I don't get how to extract title from the note. (om-g
 :CREATED:  [2021-01-21]
 :ID:       pgscnstrctftwprtsthtpsmnttsththvntbnprprlyprcssdyt
 :END:
+* [#C] [2020-05-04] [[https://github.com/rust-lang/mdBook/issues/1183][org-mode support? · Issue #1183 · rust-lang/mdBook]]
+:PROPERTIES:
+:ID:       mnsgthbcmrstlngmdbksssrgmdspprtssrstlngmdbk
+:END:
+: I'd be happy to mentor you through the process and review code

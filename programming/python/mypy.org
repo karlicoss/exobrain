@@ -90,8 +90,130 @@ Good mypy intro?
 :ID:       ntflssflfrmypysbmdldscvry
 :END:
 
+* TODO [#C] https://github.com/wemake-services/wemake-python-styleguide/blob/master/styles/mypy.toml :mypy:
+:PROPERTIES:
+:CREATED:  [2019-11-09]
+:ID:       sgthbcmwmksrvcswmkpythnstylgdblbmstrstylsmypytml
+:END:
+
+* STRT [#C] stricter mypy in my code                                   :mypy:
+:PROPERTIES:
+:CREATED:  [2019-07-25]
+:ID:       strctrmypynmycd
+:END:
+: --strict                  Strict mode; enables the following flags:
+: 
+: --warn-unused-ignores
+: --warn-redundant-casts
+: 
+: --warn-unused-configs
+: --disallow-subclassing-any
+: --disallow-any-generics
+: --disallow-untyped-calls
+: --disallow-untyped-defs
+: --disallow-incomplete-defs
+: --check-untyped-defs
+: --disallow-untyped-decorators
+: --no-implicit-optional
+: --warn-return-any
 
 
+mypy --warn-unused-ignores --warn-redundant-casts --check-untyped-defs kcache.py
+* TODO [#C] right, sys.version info is also evalueated?         :mypy:errors:
+:PROPERTIES:
+:CREATED:  [2019-12-08]
+:ID:       rghtsysvrsnnfslsvltd
+:END:
+: if sys.version_info[1] < 7: vs having it in a variable
+* TODO [#C] hmm, apparently function parameter/argument names are taken into account??? :mypy:
+:PROPERTIES:
+:CREATED:  [2019-12-07]
+:ID:       hmmpprntlyfnctnprmtrrgmntnmsrtknntccnt
+:END:
+:  def testx(x: int) -> None:
+:      pass
+: 
+:  def testy(y: int) -> None:
+:      pass
+: 
+:  test = testx
+:  test = testy
+* STRT [#C] get_origin/get_args                                        :mypy:
+:PROPERTIES:
+:CREATED:  [2019-12-08]
+:ID:       gtrgngtrgs
+:END:
+:  def get_origin(tp):
+:      """Get the unsubscripted version of a type.
+: 
+:      This supports generic types, Callable, Tuple, Union, Literal, Final and ClassVar.
+:      Return None for unsupported types. Examples::
+: 
+:          get_origin(Literal[42]) is Literal
+:          get_origin(int) is None
+:          get_origin(ClassVar[int]) is ClassVar
+:          get_origin(Generic) is Generic
+:          get_origin(Generic[T]) is Generic
+:          get_origin(Union[T, int]) is Union
+:          get_origin(List[Tuple[T, T]][int]) == list
+:      """
+:      if isinstance(tp, _GenericAlias):
+:          return tp.__origin__
+:      if tp is Generic:
+:          return Generic
+:      return None
+: 
+: 
+:  def get_args(tp):
+:      """Get type arguments with all substitutions performed.
+: 
+:      For unions, basic simplifications used by Union constructor are performed.
+:      Examples::
+:          get_args(Dict[str, int]) == (str, int)
+:          get_args(int) == ()
+:          get_args(Union[int, Union[T, int], str][int]) == (int, str)
+:          get_args(Union[int, Tuple[T, int]][str]) == (int, Tuple[str, int])
+:          get_args(Callable[[], T][int]) == ([], int)
+:      """
+:      if isinstance(tp, _GenericAlias):
+:          res = tp.__args__
+:          if get_origin(tp) is collections.abc.Callable and res[0] is not Ellipsis:
+:              res = (list(res[:-1]), res[-1])
+:          return res
+:      return ()
+** TODO Mypy get_args and get_origin
+:PROPERTIES:
+:CREATED:  [2019-12-06]
+:ID:       mypygtrgsndgtrgn
+:END:
+
+* [#C] [2020-03-22] MonkeyType: A system for Python that automatically generates type annotations | Hacker News
+:PROPERTIES:
+:ID:       snmnkytypsystmfrpythnthttcllygnrtstypnnttnshckrnws
+:END:
+https://news.ycombinator.com/item?id=22624845
+:  Check out mypy with "--no-any-expression" flag and Pydantic.
+* WAIT [#D] error with reusing exception variable                      :mypy:
+:PROPERTIES:
+:CREATED:  [2018-08-22]
+:ID:       rrrwthrsngxcptnvrbl
+:END:
+: try:
+:   pass
+: except Exception as e:
+:   pass
+: 
+: for e in []:
+:   pass
+
+
+https://github.com/python/mypy/issues/5080
+* [#D] [2019-10-12] Protocols and structural subtyping — Mypy 0.740+dev.34fe00b4f9220fa9a939be1a80cf5acc3479da9a.dirty documentation
+:PROPERTIES:
+:ID:       stprtclsndstrctrlsbtypngmpydvfbffbcfccddrtydcmnttn
+:END:
+https://mypy.readthedocs.io/en/latest/protocols.html
+: isinstance() also works with the predefined protocols in typing such as Iterable.
 * TODO [#D] [2019-04-16] The Mypy Blog: Mypy 0.700 Released: Up To 4x Faster
 :PROPERTIES:
 :ID:       tthmypyblgmypyrlsdptxfstr
@@ -171,3 +293,85 @@ ok, this + overrides allowed me to type it properly
 :                 yield w
 :                 ^
 : Found 1 error in 1 file (checked 1 source file)
+* TODO [#D] that's odd, behaviour when checking package vs files is different :mypy:
+:PROPERTIES:
+:CREATED:  [2019-06-02]
+:ID:       thtsddbhvrwhnchckngpckgvsflssdffrnt
+:END:
+ mypy wereyouhere/extractors/custom.py
+wereyouhere/extractors/custom.py:56: error: Unexpected keyword argument "line" for "make" of "Loc"
+wereyouhere/extractors/custom.py:144: error: Too few arguments for "make" of "Loc"
+ mypy wereyouhere
+
+* TODO [#D] [2019-04-12] Using installed packages — Mypy 0.710+dev.d920bd7c76bda5ad29fd4fb994ef7be5f85cec1f.dirty documentation :python:mypy:
+:PROPERTIES:
+:ID:       frsngnstlldpckgsmypydvdbdcbddfdfbfbfccfdrtydcmnttn
+:END:
+https://mypy.readthedocs.io/en/latest/installed_packages.html
+py.typed for injector?
+* TODO [#B] [2019-11-02] Type hints for naive/aware datetime objects? : Python :datetime:mypy:
+:PROPERTIES:
+:ID:       sttyphntsfrnvwrdttmbjctspythn
+:END:
+https://www.reddit.com/r/Python/comments/79vddc/type_hints_for_naiveaware_datetime_objects
+** [2019-12-20] use NewType for that?
+:PROPERTIES:
+:ID:       frsnwtypfrtht
+:END:
+: ndt = NewType('ndt', datetime.datetime)
+: dt = NewType('dt', datetime.datetime)
+: 
+: def dt_to_ndt(dt: dt) -> ndt:
+:     pass
+
+
+* TODO [#C] disallow generic any could be good...                      :mypy:
+:PROPERTIES:
+:CREATED:  [2020-05-25]
+:ID:       dsllwgnrcnycldbgd
+:END:
+* TODO [#C] [2020-08-19] [[https://mypy.readthedocs.io/en/stable/running_mypy.html][Running mypy and managing imports — Mypy 0.782 documentation]] :mypy:
+:PROPERTIES:
+:ID:       wdsmypyrdthdcsnstblrnnngmpyndmngngmprtsmypydcmnttn
+:END:
+: Finally, any command-line argument starting with @ reads additional command-line arguments from the file following the @ character. This is primarily useful if you have a file containing a list of files that you want to be type-checked: instead of using shell syntax like:
+* STRT [#C] [2019-12-30] Show HN: FastAPI: build Python APIs with Go-like speed and automatic UI docs | Hacker News :mypy:
+:PROPERTIES:
+:ID:       mnshwhnfstpbldpythnpswthglkspdndtmtcdcshckrnws
+:END:
+https://news.ycombinator.com/item?id=19441195
+: tiangolo 9 months ago [-]
+: To use Python type hints, and get automatic data validation, serialization, and documentation for your API (including interactive UI docs for your API). All that, even for deeply nested JSON bodies. And by using type hints, you get autocomplete everywhere, type error checks, etc.
+: Your API gets documented with standards: OpenAPI and JSON Schema.
+: Or to be able to have WebSockets.
+: Or for its dependency injection system, that saves you a lot of code and plugins.
+: You can check the features here: https://fastapi.tiangolo.com/features/
+: And you can see alternatives and comparisons here: https://fastapi.tiangolo.com/alternatives/
+** [2020-03-01] ok, nice, so it uses mypy types, not custom types (like hug?)
+:PROPERTIES:
+:ID:       snkncstssmypytypsntcstmtypslkhg
+:END:
+* STRT [#C] [2020-05-15] [[https://dmerej.info/blog/post/hello-flake8/][Hello flake8 • Dimitri Merejkowsky]] :pylint:mypy:
+:PROPERTIES:
+:ID:       frsdmrjnfblgpsthllflkhllflkdmtrmrjkwsky
+:END:
+: Itamar Turner-Trauring 2, in the comment section on dev.to gave an interesting example:
+
+handling closures
+* [#C] [2020-04-13] [[https://news.ycombinator.com/item?id=22854380][For sure! Black and isort complement each other in *formatting* your code, and ... | Hacker News]] :mypy:
+:PROPERTIES:
+:ID:       mnsnwsycmbntrcmtmdfrsrblchthrnfrmttngyrcdndhckrnws
+:END:
+: warn_return_any,
+* [#C] [2020-03-12] pydantic                                    :python:mypy:
+:PROPERTIES:
+:ID:       thpydntc
+:END:
+https://pydantic-docs.helpmanual.io/
+: If validation fails pydantic will raise an error with a breakdown of what was wrong:
+: from pydantic import ValidationError
+: 
+: try:
+:     User(signup_ts='broken', friends=[1, 2, 'not number'])
+: except ValidationError as e:
+:     print(e.json())

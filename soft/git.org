@@ -1,0 +1,64 @@
+#+TITLE: git
+#+filetags: git
+* [#C] [2020-04-19] [[https://jeremykun.com/2020/01/14/the-communicative-value-of-using-git-well/][The Communicative Value of Using Git Well – Math ∩ Programming]] :git:
+:PROPERTIES:
+:ID:       snsjrmykncmthcmmnctvvlfsnctvvlfsnggtwllmthprgrmmng
+:END:
+* [2017-05-06] use =hg-fast-export= to convert                :mercurial:git:
+:PROPERTIES:
+:ID:       stshgfstxprttcnvrt
+:END:
+* [2016-09-07] git stores snapshots, not diffs                          :git:
+:PROPERTIES:
+:ID:       wdgtstrssnpshtsntdffs
+:END:
+: Different from SVN
+: It is important to note that this is very different from most SCM systems that you may be familiar with. Subversion, CVS, Perforce, Mercurial and the like all use Delta Storage systems - they store the differences between one commit and the next.
+: Git does not do this - it stores a snapshot of what all the files in your project look like in this tree structure each time you commit. This is a very important concept to understand when using Git.
+: Git’s pack files are carefully constructed to effectively use disk caches and provide “nice” access patterns for common commands and for reading recently referenced objects.
+* STRT [#C] NOCOMMIT global hook?                                       :git:
+:PROPERTIES:
+:CREATED:  [2018-12-31]
+:ID:       ncmmtglblhk
+:END:
+
+* [#C] [2019-08-18] Highlights from Git 2.23 - The GitHub Blog          :git:
+:PROPERTIES:
+:ID:       snhghlghtsfrmgtthgthbblg
+:END:
+https://github.blog/2019-08-16-highlights-from-git-2-23/
+: You may have used git grep to search for some text in your Git project, just as you may have used git diff to view active changes. What do the two have in common? They both display some contents in your repository, and both have support to show the surrounding function context with -p (short for --show-function) or -W (short for --function-context), respectively.
+* TODO [#B] Git blame ignore formatting                                 :git:
+:PROPERTIES:
+:CREATED:  [2020-03-23]
+:ID:       gtblmgnrfrmttng
+:END:
+: Configure your git blame to ignore cleanup changes.
+
+https://www.moxio.com/blog/43/ignoring-bulk-change-commits-w...
+* TODO [#D] [2019-08-24] Fossil Versus Git | Lobsters                   :git:
+:PROPERTIES:
+:ID:       stfsslvrssgtlbstrs
+:END:
+https://lobste.rs/s/e3blgf/fossil_versus_git
+: This article is getting a few things about git wrong. They claim git only supports ‘One check-out per repository’. Heard of git worktree?
+
+* [#D] My unorthodox, branchless git workflow | Lobsters                :git:
+:PROPERTIES:
+:CREATED:  [2020-04-07]
+:ID:       mynrthdxbrnchlssgtwrkflwlbstrs
+:END:
+
+: Git revise is especially useful for this commit stack workflow, as I call it. I’m a huge fan.
+: 
+: It’s a better rebase. So much better that it should be obligatory. You can split commits, batch rename them, and you don’t have to stash your work first.
+* TODO a page with my favourite git commands & tricks?  :git:toblog:exobrain:
+:PROPERTIES:
+:CREATED:  [2020-12-30]
+:ID:       pgwthmyfvrtgtcmmndstrcks
+:END:
+wsdiff
+image diff
+nbstirpout
+iadd
+extra worktree dir

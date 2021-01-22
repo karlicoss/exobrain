@@ -1,0 +1,192 @@
+#+TITLE: Programming (uncategorized)
+#+logseq_graph: false
+#+filetags: programming
+
+Stuff which I have processed, but not sure where it belongs
+* TODO [#B] [2019-08-11] alexmojaki/heartrate: Simple real time visualisation of the execution of a Python program. :profiling:python:viz:
+:PROPERTIES:
+:ID:       snlxmjkhrtrtsmplrltmvslstnfthxctnfpythnprgrm
+:END:
+https://github.com/alexmojaki/heartrate
+* [#C] [2019-10-11] kivy/kivy: Open source UI framework written in Python, running on Windows, Linux, macOS, Android and iOS :android:gui:
+:PROPERTIES:
+:ID:       frkvykvypnsrcfrmwrkwrttnnnrnnngnwndwslnxmcsndrdnds
+:END:
+https://github.com/kivy/kivy
+
+* TODO [#D] https://bitbucket.org/johannestaas/ezcurses                 :tui:
+:PROPERTIES:
+:ID:       sbtbcktrgjhnnstszcrss
+:END:
+or maybe, that? ... https://github.com/pfalcon/picotui
+* TODO [#D] [2019-09-06] Robot Framework
+:PROPERTIES:
+:ID:       frrbtfrmwrk
+:END:
+https://robotframework.org/
+: let's start with a real-life example from our web demo project. Here we have a test suite with one test case which tests that login is valid. As you can see, test data syntax is based on keywords.
+** [2020-03-27] not sure.. looks like cucumber??
+:PROPERTIES:
+:ID:       frntsrlkslkccmbr
+:END:
+* [#D] [2018-11-18] blitzcode/rust-exp: Software rasterization, N-Body simulation and Game of Life in Rust + Haskell
+:PROPERTIES:
+:ID:       snbltzcdrstxpsftwrrstrztnnbdysmltnndgmflfnrsthskll
+:END:
+https://github.com/blitzcode/rust-exp
+* [#D] [2018-12-16] Kobzol/hardware-effects: Demonstration of various hardware effects.
+:PROPERTIES:
+:ID:       snkbzlhrdwrffctsdmnstrtnfvrshrdwrffcts
+:END:
+https://github.com/Kobzol/hardware-effects
+
+* STRT [#D] prepare proper template, choose programming language :hobby:competitive:
+:PROPERTIES:
+:CREATED:  [2018-04-29]
+:ID:       prprprprtmpltchsprgrmmnglngg
+:END:
+
+make sure you can generate sceleton easily and run from terminal
+
+* TODO [#C] fuzzing by injecting random sleeps               :testing:python:
+:PROPERTIES:
+:CREATED:  [2020-01-06]
+:ID:       fzzngbynjctngrndmslps
+:END:
+develop quick prototype and post in blog?
+* TODO [#C] [2019-12-20] 9 best open-source findings, November 2019 - DEV Community 👩‍💻👨‍💻 :python:js:
+:PROPERTIES:
+:ID:       frbstpnsrcfndngsnvmbrdvcmmnty
+:END:
+https://dev.to/sobolevn/9-best-open-source-findings-november-2019-gi0
+: And now I will show you something really unusual!
+: You can write thread-safe HTML/CSS/Python GUI framework. Wait, what? Yes, you heard it write. You can write your frontend in Python. It even supports Vue.js out of the box.
+: Written in Python.
+* STRT [#C] [2019-12-20] 9 best open-source findings, November 2019 - DEV Community 👩‍💻👨‍💻 :pandas:dashboard:
+:PROPERTIES:
+:ID:       frbstpnsrcfndngsnvmbrdvcmmnty
+:END:
+https://dev.to/sobolevn/9-best-open-source-findings-november-2019-gi0
+: ​​dovpanda
+: Linter for pandas. Finds errors and suggests improvements. Very helpful for ones who just start to work with data. Or teach how to work with it.
+: Written in Python.
+* [#D] Variance                                                         :plt:
+:PROPERTIES:
+:ID:       vrnc
+:END:
+: The question: what are the conditions for the function A -> B to be a subtype of C -> D?
+: 
+: 1. A is subtype of B means there is a special function castAB :: A -> B
+: 2. Two casts compose into another casts, cast compositions are isomorphic (that is, castBC . castAB is essentially the same thing as castAC)
+: 3. We wanna implement castAfB -> castCfD in order to show (A -> B) <: (C -> D)
+: 
+:   - X :: (A -> B) -> (C -> D)
+:   - we can only use functions applications and cast
+:   - X (fab :: A -> B) (c :: C) = ? :: D
+:   - the only thing we can do is to transform c to some another type, that is, we need castCT :: C -> T
+:   - now, we have (castCT c) :: T, basically, leaves us in the same situation, so, we actually need castCA :: C -> A
+:   - now, we have (castCA c) :: A, and (fab $ castCA c) :: B. The only way to get D is to use castBD :: B -> D
+: 
+: 5. So, we have (A -> B) <: (C -> D), that is, A -> B is subtype of C -> D if C is subtype of A and B is subtype of D.
+: 
+: 
+: The return type (B and D) is covariant, since preserves the direction of <:
+: The argument type (A and C) is contravariant, since it flips the direction of <:
+: 
+: 
+: Container reading: covariant:
+: 
+: : S <: T, then ReadonlyCollection<S> <: ReadonlyCollection<T>
+: 
+: Container writing: contravariant:
+: 
+: : S <: T, then Consumer<T> <: Consumer<S>
+: 
+: - C++ poiners: covariant
+: - Java
+:   - arrays: covariant
+:   - Collection<? extends T>: covariant
+:   - Collection<? super T>: contravariant
+* TODO [#D] [2018-01-06] [[https://reddit.com/r/rust/comments/7ok8p3/web_scraping_with_rust/dsa7sxm/][Web Scraping With Rust]] /r/rust :scrape:
+:PROPERTIES:
+:ID:       stsrddtcmrrstcmmntskpwbscstdssxmwbscrpngwthrstrrst
+:END:
+:  I have found no exaggeration when people say that Rust, with the right crates, has an experience similar to Python when it comes to a "scripting experience". :) This is why ALL of my new projects have been in Rust for the last year.
+* [#C] [2020-05-22] [[https://github.com/novoid/orgformat][novoid/orgformat: Utility library for providing functions to generate and modify Org mode syntax elements like links, time-stamps, or date-stamps.]]
+:PROPERTIES:
+:ID:       frsgthbcmnvdrgfrmtnvdrgfrmntslklnkstmstmpsrdtstmps
+:END:
+: How to Thank Me
+* TODO [#E] Speed up some open source projects via gold?
+:PROPERTIES:
+:CREATED:  [2019-01-23]
+:ID:       spdpsmpnsrcprjctsvgld
+:END:
+
+* CANCEL [#D] cleanup empty tags automatically, perhaps with confirmation, release on github :pinboard:
+:PROPERTIES:
+:CREATED:  [2018-02-14]
+:ID:       clnpmptytgstmtcllyprhpswthcnfrmtnrlsngthb
+:END:
+
+* DONE [#B] [2020-05-28] talk: [[https://lobste.rs/s/zte1xm/ideology][Ideology | Lobsters]] :programming:
+:PROPERTIES:
+:ID:       thtlkslbstrssztxmdlgydlgylbstrs
+:END:
+- [2021-01-10] TLDR: both "I don't need tests" and "I don't need types" people are wrong, often because they haven't seen better alternatives
+* [#C] [2019-07-23] SomethingNew/Resources.md at master · d-cook/SomethingNew :computing:
+:PROPERTIES:
+:ID:       tsmthngnwrsrcsmdtmstrdcksmthngnw
+:END:
+https://github.com/d-cook/SomethingNew/blob/master/Resources.md
+
+* [#C] [2019-07-23] SomethingNew/Concepts.md at master · d-cook/SomethingNew :computing:
+:PROPERTIES:
+:ID:       tsmthngnwcncptsmdtmstrdcksmthngnw
+:END:
+https://github.com/d-cook/SomethingNew/blob/master/Concepts.md
+* [2016-10-02] distributed system patterns                      :distributed:
+:PROPERTIES:
+:ID:       sndstrbtdsystmpttrns
+:END:
+- Load balancer
+- Scatter and gather
+- Result cache
+- map reduce
+- Bulk requests
+* [2016-09-15] caching styles                                       :caching:
+:PROPERTIES:
+:ID:       thcchngstyls
+:END:
+write-through: synchronous writes both to the cache and the backing store
+write-back: initially, only in cache, write to backing store postponed until it's about to be modified/replaced
+* [2016-05-27] Your real job as a software engineer isn’t to write code. It’s to translate hand-wavy business requirements into detailed specs that a computer can https://medium.com/swizec-s-nightowls/what-should-you-learn-to-get-a-better-coding-job-6453ef083597#.wc1oba7v3
+:PROPERTIES:
+:ID:       fryrrljbssftwrngnrsnttwrthldylrntgtbttrcdngjbfwcbv
+:END:
+* [2020-03-31] circle CI's mac plan is paid (40$/month min)        :circleci:
+:PROPERTIES:
+:ID:       tcrclcsmcplnspdmnthmn
+:END:
+* [#C] [2018-12-09] mre/awesome-static-analysis: Static analysis tools for all programming languages
+:PROPERTIES:
+:ID:       snmrwsmsttcnlysssttcnlysstlsfrllprgrmmnglnggs
+:END:
+https://github.com/mre/awesome-static-analysis/
+
+* TODO [#C] [2020-11-17] [[https://github.com/actions/virtual-environments/issues/1816][Ubuntu-latest workflows will use Ubuntu-20.04 · Issue 1816 · actions/virtual-environments]] :githubci:
+:PROPERTIES:
+:ID:       tsgthbcmctnsvrtlnvrnmntsswllsbntssctnsvrtlnvrnmnts
+:END:
+* TODO [#C] use latest version of act (just download binary from github) :ci:github:
+:PROPERTIES:
+:CREATED:  [2020-03-31]
+:ID:       sltstvrsnfctjstdwnldbnryfrmgthb
+:END:
+act -P ubuntu-latest=ubuntu:bionic
+you can docker exec -it /bin/bash into the container and debug there
+* TODO [#D] firefox screenshots -- element selection UI potentially useful for my auto rss thing :rss:
+:PROPERTIES:
+:CREATED:  [2019-09-13]
+:ID:       frfxscrnshtslmntslctnptntllysflfrmytrssthng
+:END:

@@ -1,32 +1,10 @@
 #+TITLE: Building cool software projects
 #+filetags: project
 
-How to make good programming projects? Best practices in communicating and explaining, neat ideas, demos, presentations, etc.
+How to make good programming projects?
+Best practices in communicating and explaining, neat ideas, demos, presentations, etc.
 
-* [#B] [2019-12-30] [[https://www.arp242.net/license.html][Choosing a license for GoatCounter]] :license:
-:PROPERTIES:
-:ID:       mnswwwrpntlcnshtmlchsnglcnsfrgtcntr
-:END:
-: GPL (any version)
-: Bad: doesn’t have the “network protection”: you don’t need to submit changes back to me if you modify the code and run it only as a SaaS.
-
-* [#B] for end user software, calendar versioning is more useful than semantic
-:PROPERTIES:
-:CREATED:  [2020-01-02]
-:ID:       frndsrsftwrclndrvrsnngsmrsflthnsmntc
-:END:
-
-* [#B] [2020-01-19] [[https://lobste.rs/s/pg1ne9/how_do_you_stay_inline_with_your_vision_on#c_ihhrfy][How do you stay inline with your vision on long term projects? | Lobsters]]
-:PROPERTIES:
-:ID:       snslbstrsspgnhwdystynlnwthyrvsnnlngtrmprjctslbstrs
-:END:
-
-* TODO [#C] [2019-08-18] [[http://www.attrs.org/en/stable/why.html][Why not… — attrs 19.1.0 documentation]]
-:PROPERTIES:
-:ID:       snwwwttrsrgnstblwhyhtmlwhyntttrsdcmnttn
-:END:
-: Why not…
-* Demos/Screencasting                                            :screencast:
+* [#B] * demos/screencasting                                :demo:screencast:
 :PROPERTIES:
 :ID:       dmsscrncstng
 :END:
@@ -78,32 +56,24 @@ https://github.com/alphapapa/org-ql/blob/master/images/demo-helm-org-ql.sh
 :  - New `gif-screencast-start-or-stop` command.
 :  - Log the complete command lines of all invokes commands.
 
-* Naming
+* [#B] * licensing                                                  :license:
 :PROPERTIES:
-:ID:       nmng
+:ID:       lcnsng
 :END:
-** [#C] [2019-09-17] [[https://www.litscape.com/word_tools/contains_sequence.php][Find words containing these letters in sequence]]
+** [#B] [2019-12-30] [[https://www.arp242.net/license.html][Choosing a license for GoatCounter]] :license:
 :PROPERTIES:
-:ID:       tswwwltscpcmwrdtlscntnssqndwrdscntnngthslttrsnsqnc
+:ID:       mnswwwrpntlcnshtmlchsnglcnsfrgtcntr
 :END:
+: GPL (any version)
+: Bad: doesn’t have the “network protection”: you don’t need to submit changes back to me if you modify the code and run it only as a SaaS.
 
-* TODO [#B] Make sure it's very easy to contribute    :project:hpi:promnesia:
-:PROPERTIES:
-:CREATED:  [2020-05-04]
-:ID:       mksrtsvrysytcntrbt
-:END:
-* TODO [#B] ok, definitely should keep changelog in the repository file (and then link to headings), instead of github native interface :project:hpi:promnesia:
-:PROPERTIES:
-:CREATED:  [2020-12-05]
-:ID:       kdfntlyshldkpchnglgnthrpsnkthdngsnstdfgthbntvntrfc
-:END:
-* TODO [#C] [2019-10-12] Licenses – opensource.google.com           :license:
+** TODO [#C] [2019-10-12] Licenses – opensource.google.com          :license:
 :PROPERTIES:
 :ID:       stlcnsspnsrcgglcm
 :END:
 https://opensource.google/docs/thirdparty/licenses/#restricted
 : GNU GPL v1, v2, v3
-* TODO [#C] [2019-10-12] Licenses – opensource.google.com           :license:
+** TODO [#C] [2019-10-12] Licenses – opensource.google.com          :license:
 :PROPERTIES:
 :ID:       stlcnsspnsrcgglcm
 :END:
@@ -113,18 +83,72 @@ https://opensource.google/docs/thirdparty/licenses/#LinkingRequirements
 :     The LGPL-licensed library must be used as a shared library (dynamically-linked).
 :     For LGPL v3 only, the user must be able to replace the shared library with a compatible library and have it work (the user must be able to swap out libraries on the device).
 :     Customers must receive either object files or source code (including any modifications) of the LGPL-licensed library.
+* [#C] * naming
+:PROPERTIES:
+:ID:       nmng
+:END:
+** [#C] [2019-09-17] [[https://www.litscape.com/word_tools/contains_sequence.php][Find words containing these letters in sequence]]
+:PROPERTIES:
+:ID:       tswwwltscpcmwrdtlscntnssqndwrdscntnngthslttrsnsqnc
+:END:
+
+* ----------------------------------
+:PROPERTIES:
+:ID:       4138_4176
+:END:
+
+* [#A] [2020-05-04] Make sure it's very easy to contribute          :project:
+:PROPERTIES:
+:ID:       mnmksrtsvrysytcntrbt
+:END:
+** TODO .                                                               :hpi:
+:PROPERTIES:
+:ID:       4255_4271
+:END:
+** TODO .                                                         :promnesia:
+:PROPERTIES:
+:ID:       4271_4293
+:END:
+* [#B] [2019-08-18] "why not use..." section link in [[http://www.attrs.org/en/stable/why.html][attrs]]
+:PROPERTIES:
+:ID:       snwhyntssctnlnknwwwttrsrgnstblwhyhtmlttrs
+:END:
+* [#B] [2020-01-02] for end user software, calendar versioning is more useful than semantic
+:PROPERTIES:
+:ID:       thfrndsrsftwrclndrvrsnngsmrsflthnsmntc
+:END:
+
+* TODO [#B] [2020-01-19] [[https://lobste.rs/s/pg1ne9/how_do_you_stay_inline_with_your_vision_on#c_ihhrfy][How do you stay inline with your vision on long term projects? | Lobsters]]
+:PROPERTIES:
+:ID:       snslbstrsspgnhwdystynlnwthyrvsnnlngtrmprjctslbstrs
+:END:
+
+* TODO [#B] ok, definitely should keep changelog in the repository file (and then link to headings), instead of github native interface :project:hpi:promnesia:
+:PROPERTIES:
+:CREATED:  [2020-12-05]
+:ID:       kdfntlyshldkpchnglgnthrpsnkthdngsnstdfgthbntvntrfc
+:END:
+* [#B] [2020-06-06] 'Example interaction' section
+:PROPERTIES:
+:ID:       stxmplntrctnsctn
+:END:
+- like here [[https://pipxproject.github.io/pipx/comparisons/][Comparison to Other Tools - pipx]]
+: Example interaction: Install pipx with pip: pip install --user pipx
+* [#B] [2020-03-01] provide comparison with other similar projects
+:PROPERTIES:
+:ID:       snprvdcmprsnwththrsmlrprjcts
+:END:
+- https://fastapi.tiangolo.com/alternatives
+  : Alternatives, Inspiration and Comparisons - FastAPI
+
+  very cool comparison page, I really like it
+
 * TODO [#C] [2020-04-09] thebjorn/pydeps: Python Module Dependency graphs :python:
 :PROPERTIES:
 :ID:       ththbjrnpydpspythnmdldpndncygrphs
 :END:
 https://github.com/thebjorn/pydeps
 
-* [#C] [2020-03-01] Alternatives, Inspiration and Comparisons - FastAPI
-:PROPERTIES:
-:ID:       snltrntvsnsprtnndcmprsnsfstp
-:END:
-https://fastapi.tiangolo.com/alternatives/
-very cool comparison page, I really like it
 * [#D] [2019-06-13] joeyates/imap-backup: Backup GMail (or other IMAP) accounts to disk
 :PROPERTIES:
 :ID:       thjytsmpbckpbckpgmlrthrmpccntstdsk
@@ -133,3 +157,18 @@ https://github.com/joeyates/imap-backup
 : Design Goals
 
 gm, I guess it's good to state design goals
+
+* TODO [#D] tools that only take stdin/stdout are a bit horrible to debug (no io to gdb) :debug:
+:PROPERTIES:
+:CREATED:  [2020-02-27]
+:ID:       a62b0e84-320e-49b8-9656-9afd3232a574
+:END:
+* TODO [#C] [2019-11-21] cybersemics/em: 🖋A multi-hierarchical mind-mapping app for personal sensemaking. :selfhosted:project:
+:PROPERTIES:
+:ID:       thcybrsmcsmmlthrrchclmndmppngppfrprsnlsnsmkng
+:END:
+https://github.com/cybersemics/em
+: Localhost can be tunneled to a public url for mobile testing purposes using ngrok.
+: To allow logins, the ngrok domain must be added to Firebase Authorized Domains.
+
+need to figure out how to quickly selfhost stuff

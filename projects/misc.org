@@ -1,7 +1,141 @@
 #+TITLE: Other projects I've started
 #+logseq_graph: false
 
-* Kobuddy                                                           :kobuddy:
+* [#B] * jdoe                                                          :jdoe:
+:PROPERTIES:
+:ID:       jd
+:END:
+related #exports #hpi:
+~J. Doe~ (Joe Doe? Jane Doe?) is a made up person with a narrative to showcase different quantifiedself/memex tools
+** TODO [2021-01-22] have some info on ideas page
+:PROPERTIES:
+:ID:       frhvsmnfndspg
+:END:
+
+** TODO [#C] ask where to get sample API data?                         :jdoe:
+:PROPERTIES:
+:CREATED:  [2020-04-13]
+:ID:       skwhrtgtsmplpdt
+:END:
+** TODO [#C] examples of outputs                :dataliberation:exports:jdoe:
+:PROPERTIES:
+:CREATED:  [2019-09-23]
+:ID:       xmplsftpts
+:END:
+: jq 'walk(if type == "object" or type == "array" then . else type end)' pocket_20190923T210004Z.json
+
+
+ugh, still might leak some private data...
+
+: jq 'walk(if type == "object" then del(.profile, .account, .groups) else . end)' pocket_20190923T210004Z.json
+** [#C] [2020-04-04] jackreid.xyz/pocket.json at master · JackWReid/jackreid.xyz :jdoe:
+:PROPERTIES:
+:ID:       stjckrdxyzpcktjsntmstrjckwrdjckrdxyz
+:END:
+https://github.com/JackWReid/jackreid.xyz/blob/master/data/pocket.json
+hmm nice pretty extensive pocket export
+* [#C] * kython                                                      :kython:
+:PROPERTIES:
+:ID:       kythn
+:END:
+https://beepb00p.xyz/kython.html
+** TODO [#C] use sqlite like json path? https://www.sqlite.org/json1.html
+:PROPERTIES:
+:CREATED:  [2019-07-14]
+:ID:       ssqltlkjsnpthswwwsqltrgjsnhtml
+:END:
+** DONE [#C] checker that link is dead                               :kython:
+:PROPERTIES:
+:CREATED:  [2019-03-01]
+:ID:       chckrthtlnksdd
+:END:
+- State "STRT"      from "TODO"       [2019-04-03]
+*** [2019-10-27] but need something more finetuned? like for DELETED reddit posts...
+:PROPERTIES:
+:ID:       snbtndsmthngmrfntndlkfrdltdrddtpsts
+:END:
+** TODO [#D] get rid of remianing JsonState methods.. I think it's only spotisync? :kython:
+:PROPERTIES:
+:CREATED:  [2019-02-06]
+:ID:       gtrdfrmnngjsnsttmthdsthnktsnlysptsync
+:END:
+** STRT [#D] date parsing libraries                  :kython:python:datetime:
+:PROPERTIES:
+:CREATED:  [2018-03-15]
+:ID:       dtprsnglbrrs
+:END:
+
+started tsomething in kython.datetime module
+
+*** TODO [2018-12-30] recurrent in workouts ??
+:PROPERTIES:
+:ID:       snrcrrntnwrkts
+:END:
+*** TODO maybe, blog or do some sort of benchmark??
+:PROPERTIES:
+:ID:       mybblgrdsmsrtfbnchmrk
+:END:
+*** TODO grep my code for usages of this
+:PROPERTIES:
+:ID:       grpmycdfrsgsfths
+:END:
+*** TODO run search indexer against my code?...
+:PROPERTIES:
+:ID:       rnsrchndxrgnstmycd
+:END:
+*** https://github.com/scrapinghub/dateparser -- looks decent, can specify hints
+:PROPERTIES:
+:ID:       sgthbcmscrpnghbdtprsrlksdcntcnspcfyhnts
+:END:
+   using in kython and openrent and my porg thing
+ok capable of kindle dates kida like Wednesday, November 22, 2017 9:11:56 PM
+couldn't handle insta photo...
+**** [2019-02-16] ok, handled hypothesis!
+:PROPERTIES:
+:ID:       stkhndldhypthss
+:END:
+
+*** https://github.com/bear/parsedatetime ??
+:PROPERTIES:
+:ID:       sgthbcmbrprsdttm
+:END:
+*** dateutil.parse?
+:PROPERTIES:
+:ID:       dttlprs
+:END:
+*** [#C] datefinder                                 :python:parsing:datetime:
+:PROPERTIES:
+:CREATED:  [2018-05-09]
+:ID:       dtfndr
+:END:
+
+: from datefinder import find_dates # type: ignore
+: TODO ugh find_dates is shit
+: can't even recognise 20180304
+: def my_find_dates(f):
+:     f = f.replace('_', '-') # just in case of _ separators
+:     f = f.replace('time', '') # apparently find_dates gets confused when it sees 'time'
+:     return list(find_dates(f))
+: could recognise endomondo-2018-04-10 though
+**** hasn't been updated for a while
+:PROPERTIES:
+:ID:       hsntbnpdtdfrwhl
+:END:
+**** huh, datefinder easily handled kindle date though...
+:PROPERTIES:
+:ID:       hhdtfndrslyhndldkndldtthgh
+:END:
+*** TODO [#B] hmmm https://github.com/scrapinghub
+:PROPERTIES:
+:ID:       hmmmsgthbcmscrpnghb
+:END:
+**** [2019-01-13] hm, maybe I want to contribute to their dateparser rather than using my own?
+:PROPERTIES:
+:ID:       snhmmybwnttcntrbttthrdtprsrrthrthnsngmywn
+:END:
+
+
+* [#C] * kobuddy                                                    :kobuddy:
 :PROPERTIES:
 :ID:       kbddy
 :END:
@@ -101,37 +235,72 @@ not sure, do we want this instead?
 :ID:       snsgthbcmsrchqkbxtrdttypcdnrsltwhchkndmnsnnddt
 :END:
 same for LastOccurrence
-* kython                                                             :kython:
+* [#C] * workout ledger                                             :wledger:
 :PROPERTIES:
-:ID:       kythn
+:ID:       wrktldgr
 :END:
-https://beepb00p.xyz/kython.html
-** TODO [#C] use sqlite like json path? https://www.sqlite.org/json1.html
+related #hpi
+** TODO [#C] if attributes are detected, but exercise isn't, error and just render it as is
 :PROPERTIES:
-:CREATED:  [2019-07-14]
-:ID:       ssqltlkjsnpthswwwsqltrgjsnhtml
+:CREATED:  [2018-12-10]
+:ID:       fttrbtsrdtctdbtxrcssntrrrndjstrndrtss
 :END:
-** DONE [#C] checker that link is dead                               :kython:
+** TODO [#C] 'walked' summary every day? exclude running??
 :PROPERTIES:
-:CREATED:  [2019-03-01]
-:ID:       chckrthtlnksdd
+:CREATED:  [2018-12-10]
+:ID:       wlkdsmmryvrydyxcldrnnng
 :END:
-- State "STRT"      from "TODO"       [2019-04-03]
-*** [2019-10-27] but need something more finetuned? like for DELETED reddit posts...
+** TODO [#C] highlight checked in dashboard?
 :PROPERTIES:
-:ID:       snbtndsmthngmrfntndlkfrdltdrddtpsts
+:CREATED:  [2018-12-10]
+:ID:       hghlghtchckdndshbrd
 :END:
-* TODO [#C] examples of outputs                 :dataliberation:exports:jdoe:
+** TODO [#C] workouts ledger??
 :PROPERTIES:
-:CREATED:  [2019-09-23]
-:ID:       xmplsftpts
+:CREATED:  [2018-12-09]
+:ID:       wrktsldgr
 :END:
-: jq 'walk(if type == "object" or type == "array" then . else type end)' pocket_20190923T210004Z.json
+** TODO [#C] support for ignoring/consuming words within certain context (e.g. (straight) leg raises) :wledger:
+:PROPERTIES:
+:CREATED:  [2019-03-15]
+:ID:       spprtfrgnrngcnsmngwrdswthncrtncntxtgstrghtlgrss
+:END:
+** STRT [#C] Parser combinators for workouts            :wledger:hpi:parsing:
+:PROPERTIES:
+:CREATED:  [2018-12-10]
+:ID:       prsrcmbntrsfrwrkts
+:END:
+
+- State "STRT"      from "TODO"       [2019-02-18]
+* [#D] * twidump                                                    :twidump:
+:PROPERTIES:
+:ID:       twdmp
+:END:
+my #twitter exporter
+
+** TODO [#D] still useful to warn when user is suspended, private etc... could add it to weekly check? :twidump:
+:PROPERTIES:
+:CREATED:  [2018-08-25]
+:ID:       stllsfltwrnwhnsrssspnddprvttccldddttwklychck
+:END:
+** TODO [#D] maybe, renderer should be decoupled from twidump itself? :twidump:
+:PROPERTIES:
+:CREATED:  [2019-03-20]
+:ID:       mybrndrrshldbdcpldfrmtwdmptslf
+:END:
+** TODO [#D] backup my followers?                                   :twidump:
+:PROPERTIES:
+:CREATED:  [2019-05-02]
+:ID:       bckpmyfllwrs
+:END:
+
+* ----------------------------
+:PROPERTIES:
+:ID:       7114_7148
+:END:
 
 
-ugh, still might leak some private data...
 
-: jq 'walk(if type == "object" then del(.profile, .account, .groups) else . end)' pocket_20190923T210004Z.json
 * TODO [#C] align properties same way org does it?                :inorganic:
 :PROPERTIES:
 :CREATED:  [2019-09-24]
@@ -142,22 +311,11 @@ ugh, still might leak some private data...
 :CREATED:  [2019-04-22]
 :ID:       cldhvcghttfwschcknggnstncrsngsz
 :END:
-* TODO [#C] ask where to get sample API data?                          :jdoe:
-:PROPERTIES:
-:CREATED:  [2020-04-13]
-:ID:       skwhrtgtsmplpdt
-:END:
 * TODO [#C] some stuff in orgzly-android tests                   :orgsandbox:
 :PROPERTIES:
 :CREATED:  [2019-09-10]
 :ID:       smstffnrgzlyndrdtsts
 :END:
-* [#C] [2020-04-04] jackreid.xyz/pocket.json at master · JackWReid/jackreid.xyz :jdoe:
-:PROPERTIES:
-:ID:       stjckrdxyzpcktjsntmstrjckwrdjckrdxyz
-:END:
-https://github.com/JackWReid/jackreid.xyz/blob/master/data/pocket.json
-hmm nice pretty extensive pocket export
 * TODO [#C] [2020-03-19] karlicoss/sufs: Merge multiple directories into one via symlinks
 :PROPERTIES:
 :ID:       thkrlcsssfsmrgmltpldrctrsntnvsymlnks
@@ -180,8 +338,71 @@ add example?
 :CREATED:  [2018-12-08]
 :ID:       mghtbbttrtchckgnstmpdtpdtsthdtbsnbckgrnd
 :END:
-* TODO [#C] support for ignoring/consuming words within certain context (e.g. (straight) leg raises) :wledger:
+* [#C] Rename to symlinkfs?                                            :sufs:
 :PROPERTIES:
-:CREATED:  [2019-03-15]
-:ID:       spprtfrgnrngcnsmngwrdswthncrtncntxtgstrghtlgrss
+:CREATED:  [2020-02-21]
+:ID:       rnmtsymlnkfs
+:END:
+* [#D] [2019-11-10] tantivy::tokenizer - Rust                     :scrapyroo:
+:PROPERTIES:
+:ID:       sntntvytknzrrst
+:END:
+https://tantivy-search.github.io/tantivy/tantivy/tokenizer/index.html
+: In addition to what default does, the en_stem tokenizer also apply stemming to your tokens. Stemming consists in trimming words to remove their inflection. This tokenizer is slower than the default one, but is recommended to improve recall.
+** TODO [2019-11-10] demonstrate different tokenizers?
+:PROPERTIES:
+:ID:       sndmnstrtdffrnttknzrs
+:END:
+* TODO [#D] name my package pyrog?                                      :org:
+:PROPERTIES:
+:CREATED:  [2019-06-18]
+:ID:       nmmypckgpyrg
+:END:
+* TODO [#D] gORGeououes as org-mode app name                            :org:
+:PROPERTIES:
+:CREATED:  [2019-07-09]
+:ID:       grgssrgmdppnm
+:END:
+* TODO [#C] On a looped string?                                      :quitar:
+:PROPERTIES:
+:CREATED:  [2018-12-24]
+:ID:       nlpdstrng
+:END:
+
+* TODO [#C] Two strings, one imaginary one real. Normalisation is not necessary :quitar:
+:PROPERTIES:
+:CREATED:  [2019-01-23]
+:ID:       twstrngsnmgnrynrlnrmlstnsntncssry
+:END:
+
+* TODO [#D] work on poset-ratings                                    :rating:
+:PROPERTIES:
+:ID:       wrknpstrtngs
+:END:
+
+* TODO [#D] https://github.com/karlicoss/telegram2org
+:PROPERTIES:
+:CREATED:  [2020-01-30]
+:ID:       sgthbcmkrlcsstlgrmrg
+:END:
+
+Update description
+
+* TODO [#C] Hmm.not sure if it counts playlists?                  :spotisync:
+:PROPERTIES:
+:CREATED:  [2018-11-16]
+:ID:       hmmntsrftcntsplylsts
+:END:
+** TODO [2018-12-05] whooops... not really!h
+:PROPERTIES:
+:ID:       wdwhpsntrllyh
+:END:
+** [2019-09-02] huh, ignoring could be implemented via special playlist...
+:PROPERTIES:
+:ID:       mnhhgnrngcldbmplmntdvspclplylst
+:END:
+* TODO [#D] list all cool things I tried and learned          :python:hikkup:
+:PROPERTIES:
+:CREATED:  [2018-12-16]
+:ID:       lstllclthngstrdndlrnd
 :END:

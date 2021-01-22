@@ -93,3 +93,103 @@ fucking hell.. regexes in elisp are case sensitive, and that's controlled by a f
 :PROPERTIES:
 :ID:       snsrddtcmrmcscmmntsxnxhwtslmstllyndtknwbtvrblsrmcs
 :END:
+* TODO [#D] [2019-07-24] [[https://reddit.com/r/emacs/comments/chfv7y/tutorial_on_good_lisp_programming_style/][Tutorial on Good Lisp Programming Style]] /r/emacs :elisp:
+:PROPERTIES:
+:ID:       wdsrddtcmrmcscmmntschfvyttrlngdlspprgrmmngstylrmcs
+:END:
+
+* TODO defaul error reporting sucks                                   :elisp:
+:PROPERTIES:
+:CREATED:  [2021-01-01]
+:ID:       dflrrrrprtngscks
+:END:
+e.g. try making a typo here. by default it dumps a single message with absolutely no context whatsoever (file/line number)
+: (advice-add #'org-org-section         :befoire #'exobrain/before-org-org-section)
+
+stacktrace is pretty useful too
+* TODO elisp sucks                                                    :elisp:
+:PROPERTIES:
+:CREATED:  [2021-01-01]
+:ID:       lspscks
+:END:
+let bindings struct is _really_ annoying, which discourages naming variables
+* TODO sort of hard to express... but basically                       :elisp:
+:PROPERTIES:
+:CREATED:  [2021-01-01]
+:ID:       srtfhrdtxprssbtbsclly
+:END:
+maybe it's just org-mode thing since this is the only 'big' elisp system I worked with
+example with org-element-set/adopt in exobrain source code
+if it was language with 'real' types, it would be easy to dir() or somethign to see what methods are available
+but maybe it would be less flexible, I dunno
+on the other hands it means that you can always hack it *somehow* and then maybe figure out 'proper'
+but discoverability really suffers
+* TODO good: parinfer sometimes is quite nice                         :elisp:
+:PROPERTIES:
+:CREATED:  [2021-01-01]
+:ID:       gdprnfrsmtmssqtnc
+:END:
+sometimes though it arbitrarily reararnges parens. e..g I have to be _really_ careful when pasting big source blocks from elsewhere
+* TODO good parts                                                :elisp:blog:
+:PROPERTIES:
+:CREATED:  [2021-01-01]
+:ID:       gdprts
+:END:
+advice-patch
+* TODO elisp sucks: discourages intermediate variables                :elisp:
+:PROPERTIES:
+:CREATED:  [2021-01-01]
+:ID:       lspscksdscrgsntrmdtvrbls
+:END:
+
+: собственно мотивационный пример на питоне
+: 
+: def normalize(vec):
+:    x, y = vec
+:    len = sqrt(x ** 2 + y ** 2)
+:    if len == 0:
+:        raise RuntimeError(f'bad vector {vec}')
+: 
+:    nx = x / len
+:    ny = y / len
+:    return (nx, ny)
+: 
+: на елиспе
+: 
+: (defun normalize (vec)
+:   (let* ((x   (car vec))
+:          (y   (cdr vec)))
+:          (len (sqrt (* x x) (* y y))))
+:     (if (=0 len)
+:         (error (format "bad vector %s" vec)))
+:     (let* ((nx (/ x len))
+:            (ny (/ y len)))
+:       `(,nx ,ny)))
+: 
+: а я хочу как-то так
+: 
+: (defun normalize (vec)
+:   (let' (x y) vec) ;; can't do in elisp?? maybe with cl-destructuring-bind...
+:   (let' len   (sqrt (* x x) (* y y)))
+:   (if (= 0 len)
+:       (error (format "bad vector %s" vec))
+:   (let' nx (/ x len)
+:         ny (/ y len))
+:   `(,nx ,ny)))
+: 
+: наверное это можно добиться если добавить какую-нибудь магию вроде макроса (scope ...), который эти let' правильно интерпретирует
+* TODO lisp unpacking like in python  =(let ((x '(2 3))) `(1 ,@x 4 5))= :drill:blog:elisp:
+:PROPERTIES:
+:CREATED:  [2021-01-01]
+:ID:       lspnpcknglknpythnltxx
+:END:
+* [2021-01-06] unwind-protect works as with / try-finally block :python:elisp:
+:PROPERTIES:
+:ID:       wdnwndprtctwrksswthtryfnllyblck
+:END:
+* TODO good things: hacking on the config while loading stuff via eval-defun :elisp:
+:PROPERTIES:
+:CREATED:  [2021-01-06]
+:ID:       gdthngshckngnthcnfgwhlldngstffvvldfn
+:END:
+i.e. I think people who advocate for REPL are pitching for a completely wrong thing -- I want to keep my code tidy, it's just nice to execute it instantly

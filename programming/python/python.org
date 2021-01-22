@@ -203,7 +203,7 @@ https://github.com/openstack/bandit
 :PROPERTIES:
 :ID:       stwldntsytssprsflmghtdtctbtwnthlpwthmrsphstctdstff
 :END:
-* [#B] * libraries
+* [#C] * libraries
 :PROPERTIES:
 :ID:       lbrrs
 :END:
@@ -251,7 +251,38 @@ https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-
 :ID:       5b4fffdc-a69f-4c71-bb78-39ddc8ac2fdd
 :END:
 
-* [#C] * logging
+* [#C] * datetime handling                                         :datetime:
+:PROPERTIES:
+:ID:       dttmhndlng
+:END:
+** [#B] [2018-09-04] utcfromtimestamp -- returns timestamp, unaware; fromtimestamp -- returns offset + timestamp, unaware
+:PROPERTIES:
+:ID:       ttcfrmtmstmprtrnstmstmpnwmtmstmprtrnsffsttmstmpnwr
+:END:
+: In : datetime.fromtimestamp(123)
+: Out: datetime.datetime(1970, 1, 1, 4, 2, 3)
+
+
+: In : datetime.utcfromtimestamp(123)
+: Out: datetime.datetime(1970, 1, 1, 0, 2, 3)
+** [#B] [2018-09-04] ok, seems that it's better to use ~pytz.utc.localize(tz_unaware_datetime)~
+:PROPERTIES:
+:ID:       tksmsthttsbttrtspytztclclztznwrdttm
+:END:
+
+** [2020-05-02] [[https://github.com/zachwill/moment][zachwill/moment: Dealing with dates in Python shouldn't have to suck.]]
+:PROPERTIES:
+:ID:       stsgthbcmzchwllmmntzchwllgwthdtsnpythnshldnthvtsck
+:END:
+: # Create a moment with words in it
+: moment.date("December 18, 2012")
+** [2020-05-02] [[https://github.com/zachwill/moment][zachwill/moment: Dealing with dates in Python shouldn't have to suck.]]
+:PROPERTIES:
+:ID:       stsgthbcmzchwllmmntzchwllgwthdtsnpythnshldnthvtsck
+:END:
+: # Create a moment that would normally be pretty hard to do
+: moment.date("2 weeks ago")
+* [#C] * logging                                                    :logging:
 :PROPERTIES:
 :ID:       lggng
 :END:
@@ -260,27 +291,9 @@ https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-
 :ID:       thcrtngtplvllggrslwysbdmyhppnbfrcnfgrngsfctrymthd
 :END:
 
-* [#C] * datetime handling
+* [#C] * docs
 :PROPERTIES:
-:ID:       dttmhndlng
-:END:
-** [#B] [2018-09-04] utcfromtimestamp -- returns timestamp, unaware; fromtimestamp -- returns offset + timestamp, unaware :timezone:
-:PROPERTIES:
-:ID:       ttcfrmtmstmprtrnstmstmpnwmtmstmprtrnsffsttmstmpnwr
-:END:
-In [11]: datetime.fromtimestamp(123)
-Out[11]: datetime.datetime(1970, 1, 1, 4, 2, 3)
-
-In [12]: datetime.utcfromtimestamp(123)
-Out[12]: datetime.datetime(1970, 1, 1, 0, 2, 3)
-** [#B] [2018-09-04] ok, seems that it's better to use pytz.utc.localize(tz_unaware_datetime) :timezone:utc:
-:PROPERTIES:
-:ID:       tksmsthttsbttrtspytztclclztznwrdttm
-:END:
-
-* [#C] * doc
-:PROPERTIES:
-:ID:       dc
+:ID:       dcs
 :END:
 ** pydoc
 :PROPERTIES:
@@ -294,6 +307,22 @@ Out[12]: datetime.datetime(1970, 1, 1, 0, 2, 3)
 :ID:       pythnnd
 :END:
 
+
+* [#C] * ipdb                                                          :ipdb:
+:PROPERTIES:
+:ID:       pdb
+:END:
+related #repl
+** TODO [#D] [2019-04-09] python - Use IPython magic functions in ipdb shell - Stack Overflow
+:PROPERTIES:
+:ID:       tpythnspythnmgcfnctnsnpdbshllstckvrflw
+:END:
+https://stackoverflow.com/questions/16184487/use-ipython-magic-functions-in-ipdb-shell
+: shell.find_line_magic('cpaste')()
+* ----------------------------------
+:PROPERTIES:
+:ID:       8582_8620
+:END:
 
 * [#B] [2019-09-22] [[https://reddit.com/r/Python/comments/d4zfhc/python3_fstrings_a_complete_guide_to_the_most/f0ieyws/][Python3 f-strings - A complete guide to the most well received feature of Python 3.]] /r/Python
 :PROPERTIES:
@@ -963,3 +992,158 @@ https://github.com/pypa/setuptools_scm/#default-versioning-scheme
 :END:
 https://github.com/python-poetry/poetry/issues/222
 : For now, you can use poetry with tox by using something similar to what I did in pendulum: https://github.com/sdispater/pendulum/blob/master/tox.ini
+* TODO [#C] find_packages in setup.py?                               :python:
+:PROPERTIES:
+:CREATED:  [2019-12-08]
+:ID:       fndpckgsnstppy
+:END:
+
+: Although, beware that you may need to change `find_packages()` to `find_namespace_packages()` in your setup.py.
+: I get burned by that one a lot!
+
+* TODO [#C] eee                                                     :ipython:
+:PROPERTIES:
+:CREATED:  [2019-04-14]
+:ID:       34020_34483
+:END:
+
+:  ldisplay_md("hi")
+:  TODO shit. try and work on it?
+:  also provide these as utils..
+:  from IPython.display import display, Latex
+:  display(Markdown("Heat equation:"), heat_eq)
+:  display(Markdown("Boundary conditions:"))
+:  display(Latex(r"\begin{cases} x \\ y \end{cases}"), bc_left, bc_right)
+:  display(Markdown('hi'))
+:  That doesn't look great. `display` is quoting plain
+* CANCEL [#C] [2019-09-01] KoffeinFlummi/Chronyk: A Python 3 library for parsing human-written times and dates
+:PROPERTIES:
+:ID:       snkffnflmmchrnykpythnlbrryfrprsnghmnwrttntmsnddts
+:END:
+https://github.com/KoffeinFlummi/Chronyk
+
+* [#D] [2019-11-17] sampleproject/setup.py at master · pypa/sampleproject
+:PROPERTIES:
+:ID:       snsmplprjctstppytmstrpypsmplprjct
+:END:
+https://github.com/pypa/sampleproject/blob/master/setup.py
+:     # This field corresponds to the "Description-Content-Type" metadata field:
+:     # https://packaging.python.org/specifications/core-metadata/#description-content-type-optional
+:     long_description_content_type='text/markdown',  # Optional (see note above)
+* TODO [#C] nicer attribute errors                                   :python:
+:PROPERTIES:
+:CREATED:  [2020-09-02]
+:ID:       ncrttrbtrrrs
+:END:
+: AttributeError: unexpected attribute 'color' to Line, similar attributes are line_color
+** [#B] would be nice to do this hpi:
+:PROPERTIES:
+:ID:       wldbnctdthshp
+:END:
+* TODO [#D] [2019-07-25] pytest-profiling · PyPI
+:PROPERTIES:
+:ID:       thpytstprflngpyp
+:END:
+https://pypi.org/project/pytest-profiling/
+
+* TODO [#D] Poetry easy pip publishing
+:PROPERTIES:
+:CREATED:  [2019-12-13]
+:ID:       ptrysypppblshng
+:END:
+: Even putting aside it's approach to dependency management, Poetry has a fond place in my heart for making it so much easier to publish to PyPI.
+: If poetry did nothing but simply the process of publishing and updating python packages, it would still be an amazing tool.
+
+* TODO [#C] use quit instead of close?                             :selenium:
+:PROPERTIES:
+:CREATED:  [2019-10-08]
+:ID:       sqtnstdfcls
+:END:
+* [#C] [2020-10-06] [[https://brython.info/][Brython]]           :python:web:
+:PROPERTIES:
+:ID:       tsbrythnnfbrythn
+:END:
+: Speed of execution is similar to CPython for most operations.
+* TODO [#C] [2020-01-09] logzero: Python logging made easy — logzero 1.5.0 documentation
+:PROPERTIES:
+:ID:       thlgzrpythnlggngmdsylgzrdcmnttn
+:END:
+https://logzero.readthedocs.io/en/latest/
+: logzero.setup_logger(name=None, logfile
+* TODO [#D] marshmallow for db handling looks interesting...         :python:
+:PROPERTIES:
+:CREATED:  [2018-05-07]
+:ID:       mrshmllwfrdbhndlnglksntrstng
+:END:
+
+https://github.com/marshmallow-code/marshmallow
+zoopla/zoopla/schemas.py
+
+* TODO [#D] PandaPy
+:PROPERTIES:
+:CREATED:  [2020-01-25]
+:ID:       pndpy
+:END:
+
+: PandaPy has the speed of NumPy and the usability of Pandas - https://news.ycombinator.com/item?id=22142869
+
+* [#D] [2019-10-27] Ability to execute certain tests sequentially while using -n (xdist) · Issue #385 · pytest-dev/pytest-xdist
+:PROPERTIES:
+:ID:       snbltytxctcrtntstssqntllyngnxdstsspytstdvpytstxdst
+:END:
+https://github.com/pytest-dev/pytest-xdist/issues/385
+: Isn't this enough?
+: py.test -m sequential
+: py.test -m "non sequential" -n8
+* [#D] [2019-10-27] pylint exceed maximum recursion depth · Issue #2388 · PyCQA/pylint
+:PROPERTIES:
+:ID:       snpylntxcdmxmmrcrsndpthsspycqpylnt
+:END:
+https://github.com/PyCQA/pylint/issues/2388
+: Thanks for the tip. I actually had that setting before and still keep it on. --extension-pkg-whitelist=numpy
+: However, after upgrading to later versions of python and pylint and astroid I no longer have the issue even with the numpy whitelist setting.
+: Python 3.7.1
+: pylint 2.3.1
+: astroid 2.2.5
+* [#D] [2019-10-27] Search pylint configuration in setup.cfg and pyproject.toml · Issue #617 · PyCQA/pylint
+:PROPERTIES:
+:ID:       snsrchpylntcnfgrtnnstpcfgndpyprjcttmlsspycqpylnt
+:END:
+https://github.com/PyCQA/pylint/issues/617#event-2701192212
+: Search pylint configuration in setup.cfg and pyproject.toml
+* TODO [#D] [2019-11-08] How do I use regex in a SQLite query? - Stack Overflow :sqlite:
+:PROPERTIES:
+:ID:       frhwdsrgxnsqltqrystckvrflw
+:END:
+https://stackoverflow.com/questions/5071601/how-do-i-use-regex-in-a-sqlite-query
+: With python, assuming con is the connection to SQLite, you can define the required UDF by writing:
+: con.create_function('regexp', 2, lambda x, y: 1 if re.search(x,y) else 0)
+* [#D] -pdbcls=IPython.terminal.debugger:TerminalPdb --pdb :python:ipython:debug:
+:PROPERTIES:
+:CREATED:  [2019-10-13]
+:ID:       pdbclspythntrmnldbggrtrmnlpdbpdb
+:END:
+* TODO [#B] wonder how to make sure dataclasses are represented very effecienly? :python:
+:PROPERTIES:
+:CREATED:  [2019-12-28]
+:ID:       wndrhwtmksrdtclsssrrprsntdvryffcnly
+:END:
+* TODO [#C] [2020-06-07] [[https://blog.meadsteve.dev/programming/2020/02/10/types-at-the-edges-in-python/][Types at the edges in Python – MeadSteve's Dev Blog]] :python:
+:PROPERTIES:
+:ID:       snsblgmdstvdvprgrmmngtypspstthdgsnpythnmdstvsdvblg
+:END:
+: Pydantic checks that each key I expected exists and is of the correct type. So now all the assumptions I’ve made about the shape of the data is a runtime contract, expressed in native python. If in production it turns out that description is, in fact, optional I’ll get a very descriptive error and the code will fail early.
+* TODO figuring out why has the package ended up in path             :python:
+:PROPERTIES:
+:CREATED:  [2020-04-15]
+:ID:       fgrngtwhyhsthpckgnddpnpth
+:END:
+
+: d for d in sorted(pkg_resources.working_set, key=lambda p: p.project_name)]
+* [2020-12-08] [[https://hakibenita.com/python-mypy-exhaustive-checking][Exhaustiveness Checking with Mypy | Haki Benita]] :python:mypy:
+:PROPERTIES:
+:ID:       tshkbntcmpythnmypyxhstvchhstvnsschckngwthmypyhkbnt
+:END:
+: Exhaustiveness Checking
+
+use else clause with NoReturn, then mypy assists in refining

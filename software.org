@@ -28,3 +28,11 @@ https://twitter.com/karlicoss/status/945787882547105794
 :ID:       sbschtmlgml
 :END:
 : Basic HTML Gmail hasn't changed in years and works perfectly fine for all of my needs for gmail: reading and sending emails. I find the current UI to be quite unusable, but at least there's still the basic html option.
+
+* TODO [#D] Tweet from @burntsushi5
+:PROPERTIES:
+:CREATED:  [2020-10-30]
+:ID:       twtfrmbrntssh
+:END:
+https://twitter.com/burntsushi5/status/1321996275567517702
+: @burntsushi5: Finally had a chance to write this in one place. Here are my thoughts on software licensing and why I oppose copyleft.

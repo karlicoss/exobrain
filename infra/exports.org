@@ -718,3 +718,35 @@ what the fuck??? how do I deal with it???
 :ID:       snshypthssbfmwlhftsmmmqhypthss
 :END:
 : Seriously, check out ratarmount if you haven't. Since the Google Takeout spans multiple 50GB tgz files (I'm at ~14, not including Google Drive in the takeout), ratarmount is brilliant. It merges all of the tgz contents into a single folder structure so /path/a/1.jpg and /path/a/1.json might be in different tgz folders but are mounted in to the same folder.
+* TODO [#D] automatic date extraction? could work, e.g. for rescuetime :datetime:backupchecker:
+:PROPERTIES:
+:CREATED:  [2019-04-08]
+:ID:       tmtcdtxtrctncldwrkgfrrsctm
+:END:
+* TODO [#D] hmm, with emfit can code some sort of feedback tool which signals me to move when emfit loses signal :emfit:
+:PROPERTIES:
+:CREATED:  [2018-10-16]
+:ID:       hmmwthmftcncdsmsrtffdbckthchsgnlsmtmvwhnmftlsssgnl
+:END:
+* TODO [#D] backup-wrapper is a more generic tool... basically running arb command and saving output with pattern
+:PROPERTIES:
+:CREATED:  [2018-11-29]
+:ID:       bckpwrpprsmrgnrctlbscllyrgrbcmmndndsvngtptwthpttrn
+:END:
+
+* TODO [#C] [2020-01-01] perkeep/gphotos-cdp: This program uses the Chrome DevTools Protocol to drive a Chrome session that downloads your photos stored in Google Photos. :scrape:
+:PROPERTIES:
+:ID:       wdprkpgphtscdpthsprgrmssttdwnldsyrphtsstrdngglphts
+:END:
+https://github.com/perkeep/gphotos-cdp
+: In our original Perkeep issue, @bradfitz said that we might have to give up on APIs and resort to scraping, noting that the Chrome DevTools Protocol makes this pretty easy.
+* TODO [#D] [2020-04-07] Profile: karlicoss | Hacker News
+:PROPERTIES:
+:ID:       tprflkrlcsshckrnws
+:END:
+https://news.ycombinator.com/user?id=karlicoss
+: user:	karlicoss
+: created:	August 25, 2016
+: karma:	757
+
+capture HN karma? maybe on all comments

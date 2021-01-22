@@ -159,12 +159,6 @@ https://alexolivier.me/posts/deploy-container-stateless-cheap-google-cloud-run-s
 :END:
 http://elasticlunr.com/
 I think I'm using it in scrapyroo.. perhaps I should index all my git repos?
-* STRT [#C] NOCOMMIT global hook?                                       :git:
-:PROPERTIES:
-:CREATED:  [2018-12-31]
-:ID:       ncmmtglblhk
-:END:
-
 * [#C] [2019-09-01] vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources :search:
 :PROPERTIES:
 :ID:       snvntwsmpythncrtdlstfwsmpnfrmwrkslbrrssftwrndrsrcs
@@ -185,3 +179,27 @@ https://github.com/mark-rushakoff/awesome-influxdb
 
 introspection is certainly _way_ worse! dry run etc are amazing
 how can we bring Python programming experience closer to this?
+
+* TODO [#C] isso got some nice helper scripts like su-exec and tini  :docker:
+:PROPERTIES:
+:CREATED:  [2020-06-15]
+:ID:       ssgtsmnchlprscrptslksxcndtn
+:END:
+* STRT [#C] figure out how to notify from phone                       :phone:
+:PROPERTIES:
+:CREATED:  [2020-01-25]
+:ID:       fgrthwtntfyfrmphn
+:END:
+* STRT [#C] [2019-09-21] Friz-zy/awesome-linux-containers: A curated list of awesome Linux Containers frameworks, libraries and software :sandbox:
+:PROPERTIES:
+:ID:       stfrzzywsmlnxcntnrscrtdlscntnrsfrmwrkslbrrsndsftwr
+:END:
+https://github.com/Friz-zy/awesome-linux-containers#readme
+: Sandboxes
+:     Firejail is a SUID sandbox program that reduces the risk of security breaches by restricting the running environment of untrusted applications using Linux namespaces, seccomp-bpf and Linux capabilities.
+* [#D] [2019-06-11] compression - Difference between --xz and --lzma in GNU tar? - Unix & Linux Stack Exchange
+:PROPERTIES:
+:ID:       tcmprssndffrncbtwnxzndlzmngntrnxlnxstckxchng
+:END:
+https://unix.stackexchange.com/questions/72037/difference-between-xz-and-lzma-in-gnu-tar
+: This options control which external binary tar calls for compressing its data stream: lzma and xz respectively. While both of them uses the same compression algorithm by default, xz is considered more up-to-date and feature rich, with lzma being somewhat legacy tool. Modern version of xz-utils provides both commands, with lzma being an 'alias' for xz --format=lzma (man xz).

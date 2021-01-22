@@ -1,4 +1,5 @@
 #+TITLE: Android development
+#+logseq_graph: false
 #+filetags: androiddev
 
 * related                                                           :android:
@@ -91,3 +92,28 @@
 :ID:       rncrtntsts
 :END:
 : adb shell am instrument -w -e class com.yandex.mail.tests.FolderTest,com.yandex.mail.tests.MessageListTest ru.yandex.mail.test/com.yandex.mail.UiTestsRunner
+* TODO [#C] [2019-08-28] [[https://reddit.com/r/webdev/comments/3allbf/i_made_something_to_turn_any_mobile_website_into/csdvqf4/][I made something to turn any mobile website into an iPhone app...]] /r/webdev :android:
+:PROPERTIES:
+:ID:       wdsrddtcmrwbdvcmmntsllbfmtrnnymblwbstntnphnpprwbdv
+:END:
+:  Why you didn't use the tags?
+:  ><meta name="apple-mobile-web-app-capable" content="yes">
+:  ><meta name="apple-mobile-web-app-status-bar-style" content="black">
+:  It works amazingly with Chrome: https://developer.chrome.com/multidevice/android/installtohomescreen
+:  You get the App icon on your screen, full screen, etc!
+* TODO [#C] [2019-08-28] [[https://reddit.com/r/learnprogramming/comments/4cah35/what_is_the_difference_between_phonegap_and_ionic/d1gvba6/][What is the difference between PhoneGap and Ionic?]] /r/learnprogramming :android:
+:PROPERTIES:
+:ID:       wdsrddtcmrlrnprgrmmngcmmnbtwnphngpndncrlrnprgrmmng
+:END:
+:  Ionic is just a UI.
+:  Think of all the UI peculiarities when you use your iPhone. Now imagine trying to hand roll all of that in CSS. Doable, but a real PITA. That's why Ionic was developed.
+:  Phone gap is a totally different thing and is what compiles your code into somethin iOS or android understands.
+* TODO [#C] [2019-08-28] [[https://reddit.com/r/javascript/comments/4f5cgc/do_people_use_plain_cordova_to_build_apps_or_do/d262u2o/][Do people use plain Cordova to build apps ? Or do most people use it in a framework like Ionic or PhoneGap]] /r/javascript :android:
+:PROPERTIES:
+:ID:       wdsrddtcmrjvscrptcmmntsfcnfrmwrklkncrphngprjvscrpt
+:END:
+:  Hello!
+:  Using cordova on it's own has grown out of fashion due to the amount of things you are required to set it up to make it look like a semi decent app. That said, there are those who still do that, but they likely have a suite of things they've developed over time to make use of it.
+:  Phonegap isn't a different framework though, it's the non open source version of Cordova that is marketed by Adobe.
+:  Ionic is the framework you'd most likely be looking, as they do provide a number of useful mobile components, and styles.
+:  You could also look into React Native, as the community is growing at a faster rate than Ionic did. It doesn't use Cordova at all, but rather the JavaScript runtime on iOS & Android to make use of the platforms' native UI components.

@@ -964,3 +964,26 @@ plus, exclude periods when there are too many dates saved -- would probably mean
 :CREATED:  [2019-02-26]
 :ID:       lclcchfddrlsgfrtmlnmghtbnvrkllthgh
 :END:
+* STRT [#D] Could import my 4sq stuff into maps.me?   :timeline:osm:photomap:
+:PROPERTIES:
+:CREATED:  [2018-06-01]
+:ID:       cldmprtmysqstffntmpsm
+:END:
+https://umap.openstreetmap.fr/en/
+
+eh, maps.me doesn't seem to have api for bookmarks...
+** STRT actually yeah, maybe host google map with my custom layer? :selfhosted:
+:PROPERTIES:
+:ID:       ctllyyhmybhstgglmpwthmycstmlyr
+:END:
+maybe just borrow my static map and host it. could work pretty well.
+
+** DONE hmmmm https://support.maps.me/hc/en-us/articles/207895029-How-to-import-bookmarks- -- can generate kmb file and copy it! try that!
+:PROPERTIES:
+:ID:       hmmmmsspprtmpsmhcnsrtclshkscngnrtkmbflndcpyttrytht
+:END:
+ok, kmb files are weird, but I could have a regular task to open maps.me app, remove old list of favs and create new one? also have a date in list so it would be easy to tell which one to remove
+** TODO eh, screw automatic extraction, too complicated. have a special file and let it be in a spceicfic format.
+:PROPERTIES:
+:ID:       hscrwtmtcxtrctntcmplctdhvspclflndlttbnspccfcfrmt
+:END:

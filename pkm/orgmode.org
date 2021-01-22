@@ -1091,3 +1091,19 @@ don't need it as often...
 :CREATED:  [2018-08-06]
 :ID:       smtmsshldntcntrbttglblgndgsbtsksfntm
 :END:
+* TODO [#D] send push on org capture change, sync on android?   :org:android:
+:PROPERTIES:
+:ID:       sndpshnrgcptrchngsyncnndrd
+:END:
+hmm, maybe disassemble dropsync to hack update frequency via automate on wifi?
+
+* TODO [#D] eh, perhaps I need some automated tool to interact with org mode and move around the items? although clog is kind of ok... :org:
+:PROPERTIES:
+:CREATED:  [2019-03-08]
+:ID:       hprhpsndsmtmtdtltntrctwthdmvrndthtmslthghclgskndfk
+:END:
+* TODO [#D] automatic watch later, deduced by tag, sync with youtube playlist :org:
+:PROPERTIES:
+:CREATED:  [2019-02-01]
+:ID:       tmtcwtchltrddcdbytgsyncwthytbplylst
+:END:
