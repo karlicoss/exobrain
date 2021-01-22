@@ -110,3 +110,18 @@ https://stackoverflow.com/questions/1520429/is-there-a-css-selector-for-elements
 :ID:       srvrpcrs
 :END:
 also navigate to 127.0.0.1:8000. That's IMPORTANT! Apparently Cors header is hardcoded and it contains ip address
+
+* [2019-11-10] html - Difference between DIV as-is and a SPAN with display:block - Stack Overflow
+:PROPERTIES:
+:ID:       snhtmldffrncbtwndvssndspnwthdsplyblckstckvrflw
+:END:
+https://stackoverflow.com/questions/1142104/difference-between-div-as-is-and-a-span-with-displayblock
+: A <div> is a block level element that has no specific semantics of its own, beyond defining a discrete block of content. A <span> is an inline element that has no specific semantics of its own, beyond defining a discrete segment of inline content.
+* [#C] [2019-09-30] javascript - CORS request blocked in locally opened html - Stack Overflow :cors:webdev:
+:PROPERTIES:
+:ID:       mnjvscrptcrsrqstblckdnlcllypndhtmlstckvrflw
+:END:
+https://stackoverflow.com/questions/48362093/cors-request-blocked-in-locally-opened-html
+: You can tell your browser to allow to connect from localhost to a backend if you change your backend to return the following header:
+: access-control-allow-origin: https://localhost:8888
+: And, you also need to tell your localhost server to serve your page in HTTPS instead of HTTP. Once both conditions are met, CORS validations won't fail.

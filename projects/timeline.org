@@ -987,3 +987,41 @@ ok, kmb files are weird, but I could have a regular task to open maps.me app, re
 :PROPERTIES:
 :ID:       hscrwtmtcxtrctntcmplctdhvspclflndlttbnspccfcfrmt
 :END:
+
+* [#C] [2019-11-13] martijnvermaat/calmap: Calendar heatmaps from Pandas time series data
+:PROPERTIES:
+:ID:       wdmrtjnvrmtclmpclndrhtmpsfrmpndstmsrsdt
+:END:
+https://github.com/martijnvermaat/calmap
+* DONE [#C] Kickball/awesome-selfhosted: This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers. :timeline:
+:PROPERTIES:
+:ID:       kckbllwsmslfhstdthsslstffctnsnstdfrntngfrmssprvdrs
+:END:
+https://github.com/Kickball/awesome-selfhosted#photo-and-video-galleries
+
+created [2018-10-03] 
+
+need permalink support
+
+** ok, lychee -- meh, too simplistic
+:PROPERTIES:
+:ID:       klychmhtsmplstc
+:END:
+php though
+
+** piwigo -- recommended by few people... could actually be ok I suppose, has custom themes support
+:PROPERTIES:
+:ID:       pwgrcmmnddbyfwpplcldctllybksppshscstmthmsspprt
+:END:
+** chewereto -- a bit overloaded...
+:PROPERTIES:
+:ID:       chwrtbtvrldd
+:END:
+** photato -- ok nice got some access control and also indexes a specific folder directly
+:PROPERTIES:
+:ID:       phttkncgtsmccsscntrlndlsndxsspcfcfldrdrctly
+:END:
+** DONE sigal -- mm, pretty simplistic, could be good.
+:PROPERTIES:
+:ID:       sglmmprttysmplstccldbgd
+:END:

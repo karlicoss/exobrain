@@ -145,3 +145,17 @@ This also means that a developing embryo is most sensitive to radiation during t
 :PROPERTIES:
 :ID:       mnftslblvtmnsrstckpldnthbdynfttytssndthlvr
 :END:
+* [2018-09-04] [[https://reddit.com/r/askscience/comments/pbm4z/what_happens_to_veins_when_an_arm_or_leg_gets/c3o3a5b/][What happens to veins when an arm or leg gets amputated? (x-post from AskReddit)]] /r/askscience :humanbody:
+:PROPERTIES:
+:ID:       tsrddtcmrskscnccmmntspbmzmpttdxpstfrmskrddtrskscnc
+:END:
+: The blood in your arteries enters capillaries(about the diameter of one red blood cell). The blood leaves the capillaries and is absorbed into venules that carry the blood into veins back to your heart. Think of it as a highway system. Your vein is the highway and the venules are the 'on ramps'. After surgery the vein is simply cut off and shut after the point of amputation. This doesn't stop the vein from collecting blood through the venules closer than your forearm.
+* [2018-09-04] [[https://reddit.com/r/askscience/comments/1dw81v/when_a_human_limb_is_amputated_how_does_the/c9ullwl/][When a human limb is amputated, how does the circulatory system redirect blood flow?]] /r/askscience :humanbody:
+:PROPERTIES:
+:ID:       tsrddtcmrskscnccmmntsdwvwrysystmrdrctbldflwrskscnc
+:END:
+:  This was asked a few months ago, here's my answer:
+:  
+:  >Yes, blood vessels reorganize themselves to ensure healthy blood flow to tissues. The process is called vascular remodeling and it begins almost immediately through a variety of mechanisms. Larger scale vessels change their diameter quickly using vasomotor responses, while smaller vessels undergo longer-term diameter changes in response to blood flow rates, oxygen demands, and other biological growth factors. However, there is still a lot we don't know about how blood vessels self-organize and it is a very hot area of research. In addition to wound healing, it has huge implications in tumor research because new cancer drugs can target vessel formation in tumors, essentially cutting off blood flow.
+:  
+:  I would also like to add that new blood vessels can sprout off from the remaining vessels through a process known as angiogenesis. These new vessels can fuse back onto existing vessels, creating new network connections.

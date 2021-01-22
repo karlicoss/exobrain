@@ -716,3 +716,39 @@ https://hackernoon.com/guide-to-web-automation-889557804453
 :PROPERTIES:
 :ID:       mnsrddtcmrrstcmmntsbjnxdgsfgdtrstgrphcslbrrssfrrst
 :END:
+* [2019-12-19] Discovering Hard Disk Physical Geometry through Microbenchmarking « Blog :hardware:performance:
+:PROPERTIES:
+:ID:       thdscvrnghrddskphysclgmtrythrghmcrbnchmrkngblg
+:END:
+http://blog.stuffedcow.net/2019/09/hard-disk-geometry-microbenchmarking/
+very impressive and thorough analysis
+lots of detailed plots and pretty clear explanations
+* [2018-12-15] Tweet from Steve Canon (@stephentyrone), at Dec 15, 16:56 :testing:
+:PROPERTIES:
+:ID:       sttwtfrmstvcnnstphntyrntdc
+:END:
+I bring this up every time someone thinks “full code coverage” means anything at all, but:
+
+: double sin(double x) {
+:   return x;
+: }
+: 
+: void testSin() {
+:   assert( sin(0) == 0 );
+: }
+
+
+https://twitter.com/stephentyrone/status/1073795608819855367
+
+* [2018-10-03] Scheme Lisp: feel the cool Andy Balaam Accu 2018   :talk:lisp:
+:PROPERTIES:
+:ID:       wdschmlspflthclndyblmcc
+:END:
+** 38:46 weird code as data (define s (lsit '+ 4 7))
+:PROPERTIES:
+:ID:       wrdcdsdtdfnslst
+:END:
+** [2019-10-20] eh, very basic talk and also doesn't really communicate why scheme/lisp are cool if you're experienced with multiple languages already. Thing with numbers and mscons at the end can be done on any PL
+:PROPERTIES:
+:ID:       snhvrybsctlkndlsdsntrllycbrsndmscnstthndcnbdnnnypl
+:END:

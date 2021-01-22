@@ -1315,7 +1315,8 @@ https://twitter.com/RealPhilipRyan/status/1190950587380011008
 :END:
 : He first starred in the film Hackers (1995), with Angelina Jolie, whom he married in 1996.
 : Shortly after Hackers, Miller was cast as Sick Boy in Trainspotting. He was suggested for the role by Ewan McGregor.
-: The accent he used in the film was regarded as very convincing, leading some people to incorrectly believe that he was Scottish.[9] Miller has stated: "I had to do a lot of work. I read and re-read the book and I pretended to be Scottish all the time I was in Glasgow, hanging around with Scots, picking up bits and pieces on the street and in bars.
+: The accent he used in the film was regarded as very convincing, leading some people to incorrectly believe that he was Scottish.
+: Miller has stated: "I had to do a lot of work. I read and re-read the book and I pretended to be Scottish all the time I was in Glasgow, hanging around with Scots, picking up bits and pieces on the street and in bars.
 : ... so I've tried to just pick up a general, composite accent.
 * DONE [#B] [2019-10-19] hwayne/awesome-cold-showers: For when people get too hyped up about things :hype:
 :PROPERTIES:
@@ -1453,3 +1454,150 @@ https://github.com/RomanPlusPlus/mindfilesResources
 : You can also subcribe to changes using RSS.
 
 huh, didn't know that!!
+* TODO [#C] WTF Visualizations                                          :viz:
+:PROPERTIES:
+:CREATED:  [2020-01-10]
+:ID:       wtfvslztns
+:END:
+
+https://viz.wtf/
+
+* [2019-10-19] [[https://reddit.com/r/haskell/comments/dk69hc/empathy_and_subjective_experience_in_programming/][Empathy and subjective experience in programming languages]] /r/haskell :empathy:
+:PROPERTIES:
+:ID:       stsrddtcmrhskllcmmntsdkhcxprncnprgrmmnglnggsrhskll
+:END:
+
+* [2019-11-08] длиннохвостая неясность on Twitter: "ok boomer - слабо - уровень мемов с фейсбука - не подходит, если собеседник не бумер держи в курсе, ебло ослиное - универсально - русский колорит - звучит так, будто ты в состоянии ввязаться в драку и победить" / Twitter
+:PROPERTIES:
+:ID:       frдлиннохвостаянеясностьnатьсявдракуипобедитьtwttr
+:END:
+https://twitter.com/kafkaisnotdead/status/1192558540340236288
+: ok boomer
+: - слабо
+: - уровень мемов с фейсбука
+: - не подходит, если собеседник не бумер
+: 
+: держи в курсе, ебло ослиное
+: - универсально
+: - русский колорит
+: - звучит так, будто ты в состоянии ввязаться в драку и победить
+* [2019-11-09] Fish Out of Water (BoJack Horseman) - Wikipedia
+:PROPERTIES:
+:ID:       stfshtfwtrbjckhrsmnwkpd
+:END:
+https://en.wikipedia.org/wiki/Fish_Out_of_Water_(BoJack_Horseman)
+:  For Vulture, Jesse David Fox praised the episode as "a must-watch", noting that "the best part is, you don't have to have watched a single other episode of the series to love it".[8]
+* [2019-11-13] Tweet from Альфина (@alphyna), at Nov 13, 18:23
+:PROPERTIES:
+:ID:       wdtwtfrmальфинаlphyntnv
+:END:
+: ощущение, что от интернета грамотность падает, возникает, потому что до интернета возможность публично письменно высказываться была только у образованных людей (журналистов там всяких). сравнивать средний коммент в интернете надо не со статьёй в газете, а с объявлением на ларьке. https://t.co/tdh0ohLtkT
+
+
+https://twitter.com/alphyna/status/1194682309095698432
+
+* [2019-05-27] Tweet from Виталий Брагилевский (@_bravit)
+:PROPERTIES:
+:ID:       mntwtfrmвиталийбрагилевскийbrvt
+:END:
+: Виталий Брагилевский (@_bravit) Tweeted:
+: @SrgGrch У программистов одна проблема — они тупые. Цель разработчиков языков программирования в том, чтобы этот факт не сильно мешал. https://twitter.com/_bravit/status/1130567953118834688?s=17
+
+* DONE [#C] [2019-08-04] Ten Brighter Ideas? An Explorable Explanation :bretvictor:environment:
+:PROPERTIES:
+:ID:       sntnbrghtrdsnxplrblxplntn
+:END:
+http://worrydream.com/TenBrighterIdeas/
+
+* [2019-11-18] Tweet from Denis Jabaudon (@denisjabaudon), at Nov 18, 04:32 :vegan:
+:PROPERTIES:
+:ID:       mntwtfrmdnsjbdndnsjbdntnv
+:END:
+: Animals used in scientific research in 1 year = animals eaten by humans in 1 day = animals killed by cats in 2 w.e.
+: Scientists use animals with care and parsimony, and only when no alternative is available. We still cannot move forward without them, there is too much at stake. https://t.co/raczfc1HFv
+
+
+https://twitter.com/denisjabaudon/status/1195989830527803392
+
+* [2019-12-15] Шварц, Аарон — Википедия
+:PROPERTIES:
+:ID:       snшварцааронвикипедия
+:END:
+https://ru.wikipedia.org/wiki/%D0%A8%D0%B2%D0%B0%D1%80%D1%86,_%D0%90%D0%B0%D1%80%D0%BE%D0%BD
+: В 14 лет Шварц стал соавтором спецификации RSS 1.0, с тех пор был членом рабочей группы RDF.
+** [2019-12-15] Шварц, Аарон — Википедия
+:PROPERTIES:
+:ID:       snшварцааронвикипедия
+:END:
+https://ru.wikipedia.org/wiki/%D0%A8%D0%B2%D0%B0%D1%80%D1%86,_%D0%90%D0%B0%D1%80%D0%BE%D0%BD
+:  В 14 лет Шварц стал соавтором спецификации RSS 1.0, с тех пор был членом рабочей группы RDF. Аарон Шварц работал под руководством «изобретателя Всемирной паутины» Тима Бернерса-Ли в составе основной рабочей группы RDF в Консорциуме W3C[6][7], написал несколько работ, две самые известные — это «Who Writes Wikipedia»[8] и «HOWTO: Be More Productive»[9]. Создал сервис Infogami, который впоследствии слился с популярным сайтом Reddit[10]. Являлся автором фреймворка web.py[11] и соучредителем движения против интернет-цензуры Demand Progress[12].
+* [2019-12-11] On Getting Creative Ideas - YouTube
+:PROPERTIES:
+:ID:       wdngttngcrtvdsytb
+:END:
+https://www.youtube.com/watch?v=3fSB6ut-cT0&list=WL&index=49
+ok talk, but nothing *really* specific
+* [2019-12-07] On Getting Creative Ideas - YouTube
+:PROPERTIES:
+:ID:       stngttngcrtvdsytb
+:END:
+https://www.youtube.com/watch?v=3fSB6ut-cT0&list=WL&index=49
+: many ideas developed because they were finally treated seriously. E.g. Planck and Einstein's explaination of photoeffect. Or brownian motion (molecules treated seriously)
+: you need a little bit of noise so you don't end up in local minimum while navigating ideas landscape (e.g. simulated annealing). example: thinking about last word in the daily newspaper
+* [2019-04-19] I spent a weekend at Google talking with nerds about charity. I came away … worried. - Vox :ea:
+:PROPERTIES:
+:ID:       frspntwkndtggltlkngwthnrdsbtchrtycmwywrrdvx
+:END:
+https://www.vox.com/2015/8/10/9124145/effective-altruism-global-ai
+some interesting opinion on effective altruism
+* [2019-04-08] The Most Hyped Technology of Every Year From 2000-2018 - Visual Capitalist :technology:
+:PROPERTIES:
+:ID:       mnthmsthypdtchnlgyfvryyrfrmvslcptlst
+:END:
+https://www.visualcapitalist.com/technology-hype-cycles-2000-2018/
+
+* [2019-04-19] Bret Victor, beast of burden
+:PROPERTIES:
+:ID:       frbrtvctrbstfbrdn
+:END:
+http://worrydream.com/#!/ABriefRantOnTheFutureOfInteractionDesign
+** [2019-04-19] Alan saw those 256 glowing orange squares, and he went home, and he picked up a pen, and he drew a picture of a goddamn iPad.
+:PROPERTIES:
+:ID:       frlnswthsglwngrngsqrsndhwpckdppnndhdrwpctrfgddmnpd
+:END:
+
+* [2019-04-19] Responses: A Brief Rant on the Future of Interaction Design
+:PROPERTIES:
+:ID:       frrspnssbrfrntnthftrfntrctndsgn
+:END:
+http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/responses.html
+: The point of the rant was that the solution will be discovered through long research, and that research won't happen without an awareness of the problem.
+* [#C] [2019-10-01] Schlep Blindness http://paulgraham.com/schlep.html
+:PROPERTIES:
+:ID:       tschlpblndnssplgrhmcmschlphtml
+:END:
+** [2020-05-14] not sure where it belongs... but basically the idea is that you try to see through the unpleasantness
+:PROPERTIES:
+:ID:       thntsrwhrtblngsbtbscllyththtytrytsthrghthnplsntnss
+:END:
+* [2020-05-16] [[https://www.youtube.com/watch?v=klTjiXjqHrQ&list=WL&index=38][Bret Victor - Seeing Spaces - YouTube]]
+:PROPERTIES:
+:ID:       stswwwytbcmwtchvkltjxjqhrlstwlndxbrtvctrsngspcsytb
+:END:
+- "it's a wire's fault that it wasn't smart enough and failed"
+- hmm, workbench display would be damn cool
+* [#B] [2019-06-21] Polar Initial Crowdfunding Campaign               :polar:
+:PROPERTIES:
+:ID:       frplrntlcrwdfndngcmpgn
+:END:
+https://getpolarized.io/2019/04/11/Polar-Initial-Crowdfunding-Campaign.html
+: Simply put - I want to reboot the Internet and take it to a time when data and knowledge was shared more freely.
+* [#C] почти всегда лучше использовать не анонимный @quicksurveybot :telegram:
+:PROPERTIES:
+:ID:       почтивсегдалучшеиспользоватьнеанонимныйqcksrvybt
+:END:
+* [2018-06-10] Supervised vs unsupervised                                :ml:
+:PROPERTIES:
+:ID:       snsprvsdvsnsprvsd
+:END:
+: Unsupervised learning is the machine learning task of inferring a function to describe hidden structure from unlabeled data. Since the examples given to the learner are unlabeled, there is no error or reward signal to evaluate a potential solution

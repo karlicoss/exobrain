@@ -630,3 +630,57 @@ eh, not really anything new. Also a bit too much on mocking religious people..
 :ID:       sngdlgrngnpntsnttnswwwrddpsdptntlnthrthmnsystmdkfj
 :END:
 : This is a graph of potential, which also serves as an analogy that sort of helps you figure out what the overall force on an orbiting object is: if you placed a ball on this surface and it was going to roll "downhill", which way would it go? The five crosses mark points where the top surface is flat, so an object at those points will experience no overall force acting on it (if it's orbiting at the same speed as the moon). These are therefore pseudo-stable points where you could leave a satellite orbiting.
+
+* [2019-10-27] How Trees Bend the Laws of Physics - YouTube         :biology:
+:PROPERTIES:
+:ID:       snhwtrsbndthlwsfphyscsytb
+:END:
+https://www.youtube.com/watch?v=BickMFHAZR0
+wonder what if you hack into the tubes and push the water? would it make trees grow higher?
+* DONE [#B] Dark matter black hole                     :darkmatter:blackhole:
+:PROPERTIES:
+:CREATED:  [2019-02-09]
+:ID:       drkmttrblckhl
+:END:
+** [2019-02-11] https://medium.com/starts-with-a-bang/ask-ethan-100-why-doesn-t-dark-matter-form-black-holes-c5b6d90b1883
+:PROPERTIES:
+:ID:       mnsmdmcmstrtswthbngskthnwdsntdrkmttrfrmblckhlscbdb
+:END:
+right, so interaction only throught gravity is not powerful enough to make the clump of matter dense enough to form a black hole
+  without other forces there's nothing to slow the dark matter particles down when they reach each other and their momentum just carries them past each other.
+* [2019-12-21] Nobel Lecture: James Peebles, Nobel Prize in Physics 2019 - YouTube
+:PROPERTIES:
+:ID:       stnbllctrjmspblsnblprznphyscsytb
+:END:
+https://www.youtube.com/watch?v=cM3Fk4TUV58&list=WL&index=48
+nothing really special
+I guess only interesting bit is that often people came up with cosmological concepts completely independently
+* [2019-02-24] Why does light slow down in water? - YouTube         :physics:
+:PROPERTIES:
+:ID:       snwhydslghtslwdwnnwtrytb
+:END:
+https://www.youtube.com/watch?v=CUjt36SD3h8&index=71&t=0s&list=WL
+slowdown of light in material is just apparent! due to combined EM field with electrons oscillating
+* [2019-02-11] (8) Polarization of Light: circularly polarized, linearly polarized, unpolarized light. - YouTube :inspiration:viz:
+:PROPERTIES:
+:ID:       mnplrztnflghtcrclrlyplrzdlnrlyplrzdnplrzdlghtytb
+:END:
+https://www.youtube.com/watch?v=8YkfEft4p-w
+: really good explanation of light polarisation! I like how he adds vectors dynamically in a really nice way
+
+TLDR: individual solutions are just simple linear oscillations, but if you add two solutions up with different phases/frequencies you can get the resulting vectors to rotate. polariser projects it into some linear subspace
+there is also a wave plate, which passes through it light in different directions with different phase shifts. So you can convert linear light into circularly polarised
+* [2019-02-11] Could Dark Matter form "Dark Black Holes?" : askscience :darkmatter:
+:PROPERTIES:
+:ID:       mnclddrkmttrfrmdrkblckhlsskscnc
+:END:
+https://www.reddit.com/r/askscience/comments/4zwy2d/could_dark_matter_form_dark_black_holes/
+: Dark matter as we understand it today is, dare I say, "boring" physics. It seems to be simply another particle like the neutrino we must add to our particle zoo except that it is quite massive and there is a lot of it. Important to note that while the macroscopic evidence for dark matter is very strong, the same is not true for the microscopic description so my prior sentence could be shown to be very wrong.
+* [#B] [2019-02-11] What Is Spacetime, Really?—Stephen Wolfram Blog :wolfram:
+:PROPERTIES:
+:ID:       mnwhtsspctmrllystphnwlfrmblg
+:END:
+https://blog.stephenwolfram.com/2015/12/what-is-spacetime-really/
+: Here the news is very good too: subject to various assumptions, I managed in the late 1990s to derive Einstein’s Equations from the dynamics of networks.
+
+whoa

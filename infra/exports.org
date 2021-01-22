@@ -766,3 +766,9 @@ https://github.com/ChromeDevTools/devtools-protocol
 :END:
 https://stackoverflow.com/questions/45983820/steam-api-get-historical-player-count-of-specific-game
 There is no Steam Web API method for historical player count of a specific game.
+* [#B] [2018-08-18] EMFIT QS Sleep tracker local API                  :emfit:
+:PROPERTIES:
+:ID:       stmftqsslptrckrlclp
+:END:
+https://gist.github.com/harperreed/9d063322eb84e88bc2d0580885011bdd
+https://gist.github.com/karlicoss/3361f6a239048a451daa2a02982ee180

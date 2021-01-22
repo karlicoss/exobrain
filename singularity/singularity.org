@@ -20,24 +20,80 @@ I want to make it to the singularity
 :PROPERTIES:
 :ID:       nvrnmntbcswndthplntndppl
 :END:
-* [2020-03-24] H+Pedia                                        :transhumanism:
-:PROPERTIES:
-:ID:       thpd
-:END:
-https://hpluspedia.org/wiki/Main_Page
 
-* TODO [#C] [2019-08-25] Cryonics - Lesswrongwiki
+
+* [#B] * death                                                        :death:
 :PROPERTIES:
-:ID:       sncryncslsswrngwk
+:ID:       dth
 :END:
-https://wiki.lesswrong.com/wiki/Cryonics
-: The "shut up and multiply" aspect of spending $300/year (as Eliezer Yudkowsky quotes his costs for Cryonics Institute membership ($125/year) plus term life insurance ($180/year)) for a probability (how large being widely disputed) of obtaining many more years of lifespan. For this reason, cryonics advocates regard it as an extreme case of failure at rationality - a low-hanging fruit by which millions of deaths per year could be prevented at low cost.
-* START [#B] [2019-06-13] Cryonics - Lesswrongwiki
+** [2019-08-02] Why Age? Should We End Aging Forever? - YouTube :aging:death:
+:PROPERTIES:
+:ID:       frwhygshldwndgngfrvrytb
+:END:
+https://www.youtube.com/watch?v=GoJsr4IwCm4&list=WL&index=40&t=0s
+: shallow, but ok video
+** TODO [#C] Do you fear death? Why/why not?                    :think:death:
+:PROPERTIES:
+:CREATED:  [2019-04-11]
+:ID:       dyfrdthwhywhynt
+:END:
+https://www.reddit.com/r/askreddit/comments/ba89s2/_/
+
+** [2019-08-03] Why Die? - YouTube
+:PROPERTIES:
+:ID:       stwhydytb
+:END:
+https://www.youtube.com/watch?v=C25qzDhGLx8&list=WL&index=39&t=13s
+: good point that death is not a solution to our problems, and similar thought that I had that death is not a good way to appreciate life (as contrast)
+** TODO [#C] [2019-10-16] [[https://reddit.com/r/transhumanism/comments/dikn00/why_dont_more_people_care_about_not_dying/f3wimm3/][Why don't more people care about not dying]] /r/transhumanism :death:
+:PROPERTIES:
+:ID:       wdsrddtcmrtrnshmnsmcmmntsmrpplcrbtntdyngrtrnshmnsm
+:END:
+: Reasons off the top of my why the majority of people don't take more action against dying.
+: They think death is inevitable
+: They believe in an afterlife
+: Psychologically denial
+: Doesn't seem relevant (for young people death may seem very far off, something that happens to other people but not them until one of their close friends die)
+: They've never really sat for 5 minutes by the clock and thought about not existing
+* [#C] * cryonics                                                      :cryo:
+:PROPERTIES:
+:ID:       cryncs
+:END:
+** STRT [#C] [2019-06-13] Cryonics - Lesswrongwiki
 :PROPERTIES:
 :ID:       thcryncslsswrngwk
 :END:
 https://wiki.lesswrong.com/wiki/Cryonics
+: The "shut up and multiply" aspect of spending $300/year (as Eliezer Yudkowsky quotes his costs for Cryonics Institute membership ($125/year) plus term life insurance ($180/year)) for a probability (how large being widely disputed) of obtaining many more years of lifespan. For this reason, cryonics advocates regard it as an extreme case of failure at rationality - a low-hanging fruit by which millions of deaths per year could be prevented at low cost.
 
+** [#C] [2019-06-26] Wanting to get cryonically frozen, Living in UK, how should i go about it : cryonics :cryo:
+:PROPERTIES:
+:ID:       wdwntngtgtcryncllyfrznlvngnkhwshldgbttcryncs
+:END:
+https://www.reddit.com/r/cryonics/comments/83pkgh/wanting_to_get_cryonically_frozen_living_in_uk/
+: Alcor Foundation has two field cryoprotection kits located in England -- one with Cryonics UK and one in London. Last year, we successfully cryoprotected a young man in Bristol, despite lack of warning, and transported him to Alcor on dry ice for cool down to liquid nitrogen temperature. Contact diane@alcor.org for membership information, or read the membership section of the website.
+** TODO [#C] [2019-08-28] RomanPlusPlus/scientific-progress-towards-cryonics: SPTCR: curated repository of scientific papers on cryonics :cryo:
+:PROPERTIES:
+:ID:       wdrmnplsplsscntfcprgrsstwdrpstryfscntfcpprsncryncs
+:END:
+https://github.com/RomanPlusPlus/scientific-progress-towards-cryonics
+
+* -----------------------
+:PROPERTIES:
+:ID:       3024_3051
+:END:
+
+* TODO [#B] [2020-09-01] [[https://news.ycombinator.com/item?id=24344613][Mind Emulation Foundation]] :immortality:
+:PROPERTIES:
+:ID:       tsnwsycmbntrcmtmdmndmltnfndtn
+:END:
+https://mindemulation.org/
+* [#B] [2019-10-26] Цифровое бессмертие. Алексей Турчин. - YouTube :longevity:immportality:dimm:
+:PROPERTIES:
+:ID:       stцифровоебессмертиеалексейтурчинytb
+:END:
+https://www.youtube.com/watch?v=oQdotI4gH_0
+ok, pretty good talk actually. Touches quite a few subjects, but a bit shallow. although you can't go much deeper because many things are just conjectured
 * STRT [#C] [2019-05-05] Quora Answers 2015 - 2019 by David Pearce: towards a "triple S" civilisation of superintelligence, superlongevity and superhappiness
 :PROPERTIES:
 :ID:       snqrnswrsbydvdprctwrdstrpllgncsprlngvtyndsprhppnss
@@ -67,51 +123,11 @@ https://www.hedweb.com/quora/index.html
 :PROPERTIES:
 :ID:       mntwtt
 :END:
-* [#B] [2020-09-01] [[https://news.ycombinator.com/item?id=24344613][Mind Emulation Foundation]] :immortality:
+* [#C] [2020-03-24] H+Pedia                                   :transhumanism:
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdmndmltnfndtn
+:ID:       thpd
 :END:
-https://mindemulation.org/
-* [2019-08-02] Why Age? Should We End Aging Forever? - YouTube  :aging:death:
-:PROPERTIES:
-:ID:       frwhygshldwndgngfrvrytb
-:END:
-https://www.youtube.com/watch?v=GoJsr4IwCm4&list=WL&index=40&t=0s
-: shallow, but ok video
-* TODO [#C] Do you fear death? Why/why not?                     :think:death:
-:PROPERTIES:
-:CREATED:  [2019-04-11]
-:ID:       dyfrdthwhywhynt
-:END:
-https://www.reddit.com/r/askreddit/comments/ba89s2/_/
-
-* [2019-08-03] Why Die? - YouTube
-:PROPERTIES:
-:ID:       stwhydytb
-:END:
-https://www.youtube.com/watch?v=C25qzDhGLx8&list=WL&index=39&t=13s
-: good point that death is not a solution to our problems, and similar thought that I had that death is not a good way to appreciate life (as contrast)
-* [#C] [2019-06-26] Wanting to get cryonically frozen, Living in UK, how should i go about it : cryonics :cryo:
-:PROPERTIES:
-:ID:       wdwntngtgtcryncllyfrznlvngnkhwshldgbttcryncs
-:END:
-https://www.reddit.com/r/cryonics/comments/83pkgh/wanting_to_get_cryonically_frozen_living_in_uk/
-: Alcor Foundation has two field cryoprotection kits located in England -- one with Cryonics UK and one in London. Last year, we successfully cryoprotected a young man in Bristol, despite lack of warning, and transported him to Alcor on dry ice for cool down to liquid nitrogen temperature. Contact diane@alcor.org for membership information, or read the membership section of the website.
-* TODO [#C] [2019-10-16] [[https://reddit.com/r/transhumanism/comments/dikn00/why_dont_more_people_care_about_not_dying/f3wimm3/][Why don't more people care about not dying]] /r/transhumanism :death:
-:PROPERTIES:
-:ID:       wdsrddtcmrtrnshmnsmcmmntsmrpplcrbtntdyngrtrnshmnsm
-:END:
-: Reasons off the top of my why the majority of people don't take more action against dying.
-: They think death is inevitable
-: They believe in an afterlife
-: Psychologically denial
-: Doesn't seem relevant (for young people death may seem very far off, something that happens to other people but not them until one of their close friends die)
-: They've never really sat for 5 minutes by the clock and thought about not existing
-* [#D] [2019-01-07] The Technium https://kk.org/thetechnium
-:PROPERTIES:
-:ID:       mnthtchnmskkrgthtchnm
-:END:
-Eh, dunno. He is kinda transhumanistically thinking, but very vague
+https://hpluspedia.org/wiki/Main_Page
 
 * DONE [#D] wetware hacking                            :biohacking:nootropic:
 :PROPERTIES:
@@ -120,3 +136,16 @@ Eh, dunno. He is kinda transhumanistically thinking, but very vague
 :END:
 
 https://www.securitylab.ru/analytics/241606.php
+
+* [#D] [2019-01-07] The Technium https://kk.org/thetechnium
+:PROPERTIES:
+:ID:       mnthtchnmskkrgthtchnm
+:END:
+Eh, dunno. He is kinda transhumanistically thinking, but very vague
+
+* [#D] [2019-04-29] 94: Douglas Rushkof - Rethinking Transhumanism and Reuniting Humanity - YouTube
+:PROPERTIES:
+:ID:       mndglsrshkfrthnkngtrnshmnsmndrntnghmntyytb
+:END:
+https://www.youtube.com/watch?v=z5g6W4kFpyo&list=WL&index=47&t=1068s
+eh, the guy didn't say anything particular, just something about transumanists defying human nature and wanting to get rid of emotions etc

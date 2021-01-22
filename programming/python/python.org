@@ -1477,3 +1477,119 @@ https://python-packaging.readthedocs.io/en/latest/command-line-scripts.html#the-
 :PROPERTIES:
 :ID:       mnhmmmybbsttsscrptssmsmrmngbl
 :END:
+
+* [2019-10-18] Hy - Wikipedia                                   :lisp:python:
+:PROPERTIES:
+:ID:       frhywkpd
+:END:
+https://en.wikipedia.org/wiki/Hy
+
+* [2019-12-18] Python VS Common Lisp, workflow and ecosystem - Lisp journey :lisp:python:
+:PROPERTIES:
+:ID:       wdpythnvscmmnlspwrkflwndcsystmlspjrny
+:END:
+https://lisp-journey.gitlab.io/pythonvslisp
+don't feel like it's very objective comparison.
+lots of things are picked etc
+although I'm not very positive towards lisp either
+* [2019-02-27] When do you us Beautiful Soup or Scrapy? : Python :scrape:python:
+:PROPERTIES:
+:ID:       wdwhndysbtflsprscrpypythn
+:END:
+https://www.reddit.com/r/Python/comments/69wym8/when_do_you_us_beautiful_soup_or_scrapy/
+: why would you never use BS
+: The selectors system lack in flexibility, it is slow and its HTML parser is not really good for the modern world of opening a page in a browser and looking at what's there to know what to do.
+** [2019-03-05] TLDR: scrapy is better
+:PROPERTIES:
+:ID:       ttldrscrpysbttr
+:END:
+
+* [2019-04-07] DataFrame — pandas 0.24.2 documentation               :pandas:
+:PROPERTIES:
+:ID:       sndtfrmpndsdcmnttn
+:END:
+https://pandas.pydata.org/pandas-docs/stable/reference/frame.html
+
+* [2019-04-07] Comparison with SQL — pandas 0.24.2 documentation     :pandas:
+:PROPERTIES:
+:ID:       sncmprsnwthsqlpndsdcmnttn
+:END:
+https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html#compare-with-sql-join
+
+* [2019-02-14] There's now a dead simple way to slap a web interface on a command line script : Python :click:tui:web:
+:PROPERTIES:
+:ID:       ththrsnwddsmplwytslpwbntrfcncmmndlnscrptpythn
+:END:
+https://www.reddit.com/r/Python/comments/akgctg/theres_now_a_dead_simple_way_to_slap_a_web/
+
+* [2020-05-26] multiprocess.Pool + submit_async work properly with timeouts... unlike concurrent.futures? :python:
+:PROPERTIES:
+:ID:       tmltprcssplsbmtsyncwrkprprlywthtmtsnlkcncrrntftrs
+:END:
+* [2020-03-08] right, so sync_column is taking quite a bit of time... I suppose because of column detection stuff :dataset:sqlite:python:
+:PROPERTIES:
+:ID:       snrghtssyncclmnstkngqtbtftmsppsbcsfclmndtctnstff
+:END:
+* TODO [#B] gotcha with yield                                  :yield:python:
+:PROPERTIES:
+:CREATED:  [2020-02-16]
+:ID:       b38986f2-9b63-43a8-9c05-4623dbd72783
+:END:
+:     def wrapped(path: Path):
+:         try:
+:             it = ex(path)
+:             # ugh. keeping yeild in the try section is not ideal, bt
+:             yield from it
+:         except Exception as e:
+:             breakpoint()
+* [2019-07-23] date index                                :pandas:python:data:
+:PROPERTIES:
+:ID:       tdtndx
+:END:
+I guess it's somewhat useful to have multiple stages
+
+raw providers emit dataframe without any index in case of reporting dateless errors (if that makes sense)
+then consumer can filter out errors and present them and then choose their own index and aggregateion
+* [2019-07-23] Which one is better: Bokeh or Plotly? - Quora     :viz:python:
+:PROPERTIES:
+:ID:       twhchnsbttrbkhrpltlyqr
+:END:
+https://www.quora.com/Which-one-is-better-Bokeh-or-Plotly
+: Compare Bokeh with Plotly
+: 1. Easy to install. The process is very similar to Plotly.
+: 2. Bokeh plot is not as interactive as Plotly.
+: 3. Limitation on drawing string value on plot. It looks like only the bar chart can take the string values. Date time string has to convert to DateTime type first in order to be on non-bar plots such as scatter, line, etc.
+: 4. It is not easy to overlay different type of plots on one figure.
+: 5. Less examples online.
+: 6. Less integrated with Panda than Plotly.
+* [2019-07-23] Plotly vs Bokeh vs ... : Python                   :viz:python:
+:PROPERTIES:
+:ID:       tpltlyvsbkhvspythn
+:END:
+https://www.reddit.com/r/Python/comments/5nwk9r/plotly_vs_bokeh_vs/
+: The last advantage I found that plotly has over bokeh is that almost everything in plotly is a dict. This is really useful because I've found certain plotly functions are really slow for some reason or can't be called when you use the multiprocessing module because of pickling issues. Not a problem, in the end they generate dicts under the hood, you can do the same yourself and still pass those dicts to plotly. Also calling help() on plotly objects tells you what keys and values you need to add to your dict.
+* [2019-05-18] unwrap vs assert: assert is a statement, so can't do in one line :python:
+:PROPERTIES:
+:ID:       stnwrpvsssrtssrtssttmntscntdnnln
+:END:
+* [2018-11-10] imp.load_source for loading python module from file   :python:
+:PROPERTIES:
+:ID:       stmpldsrcfrldngpythnmdlfrmfl
+:END:
+* [2018-06-21] Ok, to prevent pollution just assert everything in __all_ isinstance :python:
+:PROPERTIES:
+:ID:       thktprvntplltnjstssrtvrythngnllsnstnc
+:END:
+* [2018-08-26] dill seems to be superior to pickle
+:PROPERTIES:
+:ID:       sndllsmstbsprrtpckl
+:END:
+e.g. unpicling requires exactly same modules etc? might be hard if you want to unpickle elsewhere
+
+https://stackoverflow.com/a/25244948/706389
+
+* [#B] [2019-02-12] Choosing a Python Visualization Tool - Practical Business Python :python:viz:
+:PROPERTIES:
+:ID:       tchsngpythnvslztntlprctclbsnsspythn
+:END:
+https://pbpython.com/python-vis-flowchart.html

@@ -71,3 +71,24 @@ extra worktree dir
 : The tool I wrote turns a structured git history into an interactive web page.
 : There’s an example there of how the ideas might work in a tutorial setting.
 : After I gave a talk on this work, one of the people in the audience tried it with the Haskell LLVM tutorial: https://lukelau.me/kaleidoscope/
+
+* [2019-08-02] git - How do I remove a submodule? - Stack Overflow      :git:
+:PROPERTIES:
+:ID:       frgthwdrmvsbmdlstckvrflw
+:END:
+https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule/21211232#21211232
+: git rm the_submodule
+: rm -rf .git/modules/the_submodule
+
+* [2019-12-11] git reflog expire --expire=now --all && git gc --prune=now --aggressive :github:
+:PROPERTIES:
+:ID:       wdgtrflgxprxprnwllgtgcprnnwggrssv
+:END:
+* [2019-05-10] git rebase --committer-date-is-author-date  --autostash HEAD~1 :git:
+:PROPERTIES:
+:ID:       frgtrbscmmttrdtsthrdttstshhd
+:END:
+* [#C] [2020-06-08] [[https://git-rebase.io/][Learn to change history with git rebase!]]
+:PROPERTIES:
+:ID:       mnsgtrbslrntchnghstrywthgtrbs
+:END:

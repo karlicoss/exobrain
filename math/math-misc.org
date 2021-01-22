@@ -466,3 +466,21 @@ https://en.wikipedia.org/wiki/Bourbaki_dangerous_bend_symbol
 :END:
 https://www.youtube.com/watch?v=UVuKyZ4pBzg&list=WL&index=71&t=0s
 18:42 if you're a mathematician, you're not gonna escape, the universe will find applications
+* [2019-11-23] Supertasks - YouTube
+:PROPERTIES:
+:ID:       stsprtsksytb
+:END:
+https://www.youtube.com/watch?v=ffUnNaQTfZE
+good video on hypercomputation and infinite series
+* [2019-12-26] The Future of Mathematics? - YouTube              :types:math:
+:PROPERTIES:
+:ID:       ththftrfmthmtcsytb
+:END:
+https://www.youtube.com/watch?v=Dp-mQ3HxgDE&list=WL&index=48&t=1s
+great talk (advocates Lean prover)
+* [2019-02-15] linear algebra - Intuitively, what is the difference between Eigendecomposition and Singular Value Decomposition? - Mathematics Stack Exchange
+:PROPERTIES:
+:ID:       frlnrlgbrnttvlywhtsthdffrvldcmpstnmthmtcsstckxchng
+:END:
+https://math.stackexchange.com/questions/320220/intuitively-what-is-the-difference-between-eigendecomposition-and-singular-valu/320232#320232
+difference between svd and eigendecomposition

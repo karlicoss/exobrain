@@ -61,3 +61,32 @@ uh. fuck it's a bit complicated...
 :ID:       thsbrknsndlsnttchnclbckptlngbckptlng
 :END:
 : I'm a little bit of a data hoarder. When an app or cloud service becomes an important part of my life, I try to have some process in place to regularly backup my information from it. An excellent post by karlicoss on "Building data liberation infrastructure" inspired me to improve my own processes and share them.
+* [2019-12-22] Borg or Restic? – stickleback.dk                        :borg:
+:PROPERTIES:
+:ID:       snbrgrrstcstcklbckdk
+:END:
+https://stickleback.dk/borg-or-restic/
+: The single big advantage that Restic has over Borg is the support for different types of backup storage. If you need anything other than local storage or remote storage accessed via SSH, then you will have to use Restic. 
+* [#C] [2018-09-19] mount locks the repo, so can't be mount permanently https://github.com/borgbackup/borgweb/issues/103 :borg:
+:PROPERTIES:
+:ID:       wdmntlcksthrpscntbmntprmntlysgthbcmbrgbckpbrgwbsss
+:END:
+* DONE [#C] check if borg is dropbox-friendly                   :backup:borg:
+:PROPERTIES:
+:CREATED:  [2018-08-22]
+:ID:       chckfbrgsdrpbxfrndly
+:END:
+
+** [2018-09-05] hmm. doesn't appear so. for two photos, seems to have concatenated them..
+:PROPERTIES:
+:ID:       wdhmmdsntpprsfrtwphtssmsthvcnctntdthm
+:END:
+** [2018-09-06] ugh. it even splits data in chunks, but they can be sized up to 400Meg?... maybe I can choose chunk size?
+:PROPERTIES:
+:ID:       thghtvnspltsdtnchnksbtthycnbszdptmgmybcnchschnksz
+:END:
+* [#C] [2018-08-18] borgbackup/borgweb: Web UI for Borg Backup         :borg:
+:PROPERTIES:
+:ID:       stbrgbckpbrgwbwbfrbrgbckp
+:END:
+https://github.com/borgbackup/borgweb

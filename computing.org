@@ -407,3 +407,31 @@ https://news.ycombinator.com/item?id=21701798
 :  Every time I always want the article 'WHY I Switched to Plan 9'
 :  yjftsjthsd-h 48 days ago [-]
 :  "Because it’s there" (George Mallory, when asked why climb Mt. Everest).
+* [2019-03-14] Bret Victor The Future of Programming - YouTube
+:PROPERTIES:
+:ID:       thbrtvctrthftrfprgrmmngytb
+:END:
+https://www.youtube.com/watch?v=8pTEmbeENF4&list=WL&t=906s&index=70
+the point is basically that there are ways of thinking beyond ones you're capable of
+* [2019-03-24] Bret Victor - Inventing on Principle - YouTube    :bretvictor:
+:PROPERTIES:
+:ID:       snbrtvctrnvntngnprncplytb
+:END:
+https://www.youtube.com/watch?v=PUv66718DII&list=WL&index=62&t=0s
+really awesome talk! 
+coolest thing in the second part, he talks of his desire to give creators better tools as part of his idenitity. basically, it hurts him when he sees creators struggling, when ideas can't be born. he sees injustice in that (similar to my trip experience!)
+he mentions that to find some principle to invent on he just did many different things. Very inspirational!
+* DONE [#A] [2020-02-01] [[https://news.ycombinator.com/item?id=22207932][My Second Phone Is in the Cloud]] :sadinfra:
+:PROPERTIES:
+:ID:       stsnwsycmbntrcmtmdmyscndphnsnthcld
+:END:
+https://lucassimpson.com/blog/2020-01-23/my-second-phone-is-in-the-cloud/
+** [2020-02-15] ok, interesting idea -- basically give everyone a VPS and treat as a phone (containerized apps etc)
+:PROPERTIES:
+:ID:       stkntrstngdbscllygvvrynvpsndtrtsphncntnrzdppstc
+:END:
+* DONE [#A] [2020-01-25] mek.fyi | Universal todo list             :sadinfra:
+:PROPERTIES:
+:ID:       70aec2d0-cf09-49e7-a06e-745667852a26
+:END:
+https://mek.fyi/essays/universal-knowledge/universal-todo-list

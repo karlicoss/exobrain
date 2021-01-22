@@ -38,3 +38,7 @@ I guess we could backoff indefinitely; and rely on global timeout if necessary
 :PROPERTIES:
 :ID:       stddtpst
 :END:
+* [#A] [2018-04-03] Joe Duffy: the error model http://joeduffyblog.com/2016/02/07/the-error-model/ :errors:
+:PROPERTIES:
+:ID:       tjdffythrrrmdljdffyblgcmthrrrmdl
+:END:

@@ -391,3 +391,57 @@ https://forum.syncthing.net/t/nested-folders/11793/10
 : The above may sound rather theoretical and nitpicking, so let’s illustrate with a few examples.
 
 some good examples of systemd gotchas
+* ok, so syncthings seems to sync links 'as is', good     :syncthing:symlink:
+:PROPERTIES:
+:CREATED:  [2019-01-25]
+:ID:       kssyncthngssmstsynclnksssgd
+:END:
+
+https://github.com/syncthing/syncthing/issues/1776
+so, they decided not to follow symlinks.
+
+** TODO wonder how well it works with phone?
+:PROPERTIES:
+:ID:       wndrhwwlltwrkswthphn
+:END:
+ok, so looks like the real folder synced, but the files are not on the phone. And it's showing 'out of sync'
+
+https://github.com/syncthing/syncthing-android/issues/748 ok, it can be disabled in phone web ui
+
+** TODO hmm maybe use ext4? https://forum.syncthing.net/t/does-the-android-app-synchronize-symbolic-links/9116/8
+:PROPERTIES:
+:ID:       hmmmybsxtsfrmsyncthngnttdhndrdppsynchrnzsymblclnks
+:END:
+* [2019-09-07] Set current host user for docker container - Faun - Medium :docker:
+:PROPERTIES:
+:ID:       ststcrrnthstsrfrdckrcntnrfnmdm
+:END:
+https://medium.com/faun/set-current-host-user-for-docker-container-4e521cef9ffc
+** [2019-09-15] some ways of managing user permissions
+:PROPERTIES:
+:ID:       snsmwysfmngngsrprmssns
+:END:
+
+* [#C] [2019-09-01] How to mount encrypted LVM logical volume
+:PROPERTIES:
+:ID:       snhwtmntncryptdlvmlgclvlm
+:END:
+https://blog.sleeplessbeastie.eu/2015/11/16/how-to-mount-encrypted-lvm-logical-volume/
+* [#D] [2020-01-29] Jorgen’s Weblog: Why systemd?                   :systemd:
+:PROPERTIES:
+:ID:       wdjrgnswblgwhysystmd
+:END:
+http://blog.jorgenschaefer.de/2014/07/why-systemd.html
+* [2020-01-28] systemd as a tradegy                                 :systemd:
+:PROPERTIES:
+:ID:       tsystmdstrdgy
+:END:
+** https://news.ycombinator.com/item?id=19023232
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmd
+:END:
+: You know, because we knew this would be controversial we made sure it was both a compile-time option and a runtime option. Yes the upstream default of both defaults to on, but that's just upstream. We made it very easy and supported for downstream distros to switch between opt-out and opt-in of this option for their users. We have encouraged distributions to leave it on, but we were fully aware that for compatibility reasons this is something downstreams likely wanted to turn off, and most compat-minded distros did, as we expected.
+: 
+: Now I am used to taking blame for apparently everything that every went wrong on Linux, but you might as well blame your downstream distros for this as much you want to blame us upstream about this, as it's up to them to pick the right compile-time options matching their userbase and requirements in compatibility, and if they didn't do that to your liking, then maybe you should complain to them first.
+: 
+: (And yes, I still consider it a weakness of UNIX that "logout" doesn't really mean "logout", but just "maybe, please, if you'd be so kind, i'd like to exit, but not quite". I mean, that's not how you build a secure system. We fixed that really, fully knowing it would depart from UNIX tradition, but that's why we made it both compile-time and runtime configurable)

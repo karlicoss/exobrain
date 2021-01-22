@@ -312,3 +312,10 @@ And more recently:
 :ID:       trytssmnyrsnbldfltsspssbl
 :END:
 - $HOME for configs/paths/cache
+* TODO [#C] [2019-09-10] Input Overlay | OBS Forums         :screencast:demo:
+:PROPERTIES:
+:ID:       tnptvrlybsfrms
+:END:
+https://obsproject.com/forum/resources/input-overlay.552/
+: A small plugin for obs studio that shows keyboard, mouse and gamepad inputs on stream.
+: Supports Windows and Linux (64bit, if you need 32bit either compile it yourself or message me)

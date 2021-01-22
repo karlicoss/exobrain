@@ -205,3 +205,14 @@ https://github.com/antonmedv/codejar
 :  Finally, TS has a pretty solid built-in compiler which tracks the official spec, and natively supports features like `async`/`await`.
 :  
 :  To your original question, I'm currently working on a React-heavy project with TS and have found it to have excellent support. Flow works very well with React as well, which is to be expected since both come from Facebook. I think either would be a fine decision, but definitely feel TS has the edge in stability and speed.
+* [2019-09-01] npm vs. yarn - which one and why? : javascript
+:PROPERTIES:
+:ID:       snnpmvsyrnwhchnndwhyjvscrpt
+:END:
+https://www.reddit.com/r/javascript/comments/ad6zoj/npm_vs_yarn_which_one_and_why/
+: npm has greatly improved since the original days of yarn. With lock files and better dependency tree management, I find very few reasons to use yarn nowadays.
+: I'd say use npm until you find a feature from yarn that requires you to switch. npm is included with every Node.js install.
+* [2019-07-22] things that js has: destructing objects, named arguments https://simonsmith.io/destructuring-objects-as-function-parameters-in-es6
+:PROPERTIES:
+:ID:       mnthngsthtjshsdstrctngbjcrctrngbjctssfnctnprmtrsns
+:END:

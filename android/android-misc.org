@@ -20,3 +20,9 @@ https://wiki.termux.com/wiki/Termux:API
 :PROPERTIES:
 :ID:       mnrghthldngpwrpdwnllwstrstvrythng
 :END:
+* [2019-08-21] [[https://reddit.com/r/fdroid/comments/8ofkht/easer_how_to_guide/e2ce88o/][Easer - How to Guide?]] /r/fdroid :android:
+:PROPERTIES:
+:ID:       wdsrddtcmrfdrdcmmntsfkhtsrhwtgdcsrhwtgdrfdrd
+:END:
+:  Easer defeated me. I screwed around with it for a couple of days tying to get it to disable mobile data when connected to wifi, but the 'event' and 'condition' and 'profile' system was just too damn confusing for me to get it to work.
+:  There is no step-by-step tutorial or good explanation of how the app works that I could find, so I moved on to other software to solve my problem.

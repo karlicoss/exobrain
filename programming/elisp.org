@@ -198,3 +198,8 @@ i.e. I think people who advocate for REPL are pitching for a completely wrong th
 :ID:       snskrthnkscmsftwrmrbttrsnclddwthmcskrthnksrgxsnlsp
 :END:
 : A cleaner approach to regular expressions in Emacs, as most package maintainers will tell you, is to use the rx library instead. rx translates regular expressions in sexp form to a regexp string:
+* [2019-09-05] magnars/s.el: The long lost Emacs string manipulation library. :elisp:
+:PROPERTIES:
+:ID:       thmgnrsslthlnglstmcsstrngmnpltnlbrry
+:END:
+https://github.com/magnars/s.el

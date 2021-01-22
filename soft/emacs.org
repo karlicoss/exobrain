@@ -857,3 +857,85 @@ vim core/core-debug.el , (defvar spacemacs-debug-timer-threshold 0.05 to adjust
 :ID:       twlfrdhlpflbttrmcshlpbffr
 :END:
 https://github.com/Wilfred/helpful
+
+* [2019-11-15] Voice typing in emacs talk                   :dictation:emacs:
+:PROPERTIES:
+:ID:       frvctypngnmcstlk
+:END:
+Main point I guess is using refactorings and modifiers (e.g. camel before saying car name)
+Optimizing the most common ops first
+
+* [#C] [2019-08-18] emacs-tw/awesome-emacs: A community driven list of useful Emacs packages, libraries and others. :emacs:
+:PROPERTIES:
+:ID:       snmcstwwsmmcscmmntydrvnlstfsflmcspckgslbrrsndthrs
+:END:
+https://github.com/emacs-tw/awesome-emacs#readme
+
+* DONE [#B] [2019-12-24] [[https://reddit.com/r/emacs/comments/eewwyh/officially_introducing_memacs/][(Officially) Introducing M-EMACS ;)]] /r/emacs :emacs:
+:PROPERTIES:
+:ID:       b97d6731-8dd8-43d5-ac56-b56f83700df8
+:END:
+: It's the end of 2019, I realized that I have worked on [M-EMACS](https://github.com/MatthewZMD/.emacs.d) for nearly a year now. M-EMACS is my personal Emacs setup and configurations, I have been spreading it for some time in comment sections and received some positive feedback from the community, but somehow I never bother to write a post to officially introduce it ;)
+
+
+: So here I am.
+
+
+: Besides some Emacs' killer-features nicely configured out-of-box for you (e.g `lsp`, `ivy`, `company`, `erc`, `eaf`, `mu4e`, `tramp`, etc.), M-EMACS README is aiming to be one of the best `org-mode` Emacs config available. While heavily using `use-package` in the code, and providing a link with a one-sentence description to each package it uses, it also has a little `Prerequisite` note for any *heavier* packages that require more setup than just copy-and-paste elisp code ;)
+
+
+: With [M-EMACS](https://github.com/MatthewZMD/.emacs.d), I am also exploring a new way to organize Emacs config files. AFAIK, most of the people (who cared enough to heavily organize `.emacs.d`) in the community either put their config in a subdirectory called `lisp` or `elisp` with many files like `init-xx.el`, or they put their entire config in a **HUGE** `.org` file with numerous `#+BEGIN_SRC` and `#+END_SRC` blocks, and use `org-babel-load-file` in `init.el` to load all the elisp code on startup. The former is well-organized but can get complicated and frustrating for anyone other than the owner to navigate through the code. The latter is much more user-friendly, it's so much nicer to navigate through a Github README page and really helpful to any Emacs user who just wants to quickly find a config snippet for a particular package. However, the downside is that `org-babel-load-file` can get *pretty* slow sometimes, wasting a lot of startup time.
+
+
+: [M-EMACS](https://github.com/MatthewZMD/.emacs.d), on the other hand, combines these two approaches together: all elisp code is organized in an `elisp` folder, with some `#+INCLUDE` statements in an `org` file, elisp code are populated into a Github-friendly README with a single command. Below is the snippet from the [About README](https://github.com/MatthewZMD/.emacs.d#about-readme) section:
+
+
+: > This README is originated from `init.org` that is generated using `M-x org-gfm-export-to-markdown`. Every block of code is generated through this function - it exports the section of code from the `elisp/` directory. You will not see their presence in `init.org`.
+
+
+: The result is an organized, detailed and user-friendly README with super-fast startup time, best of both worlds.
+
+
+: Anyways, enough babbling, feel free to [check it out](https://github.com/MatthewZMD/.emacs.d) during this holiday season :)
+** [2020-02-28] good example of reasonable emacs configurations (althrough Doom has most of it)
+:PROPERTIES:
+:ID:       frgdxmplfrsnblmcscnfgrtnslthrghdmhsmstft
+:END:
+* DONE [#B] [2019-09-06] emacsclient Options - GNU Emacs Manual       :emacs:
+:PROPERTIES:
+:ID:       frmcsclntptnsgnmcsmnl
+:END:
+https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html
+: ‘--alternate-editor=command’
+:     Specify a shell command to run if emacsclient fails to contact Emacs. This is useful when running emacsclient in a script. The command may include arguments, which may be quoted "like this". Currently, escaping of quotes is not supported.
+: 
+:     As a special exception, if command is the empty string, then emacsclient starts Emacs in daemon mode (as ‘emacs --daemon’) and then tries connecting again.
+: 
+:     The environment variable ALTERNATE_EDITOR has the same effect as the ‘-a’ option. If both are present, the latter takes precedence. 
+* emacs startup                                                       :emacs:
+:PROPERTIES:
+:CREATED:  [2018-04-24]
+:ID:       mcsstrtp
+:END:
+
+https://www.gnu.org/software/emacs/manual/html_node/elisp/Startup-Summary.html
+
+before-init-hook
+after-init-hook
+emacs-startup-hook
+
+* [2018-05-02] debugging flycheck problems: 'flycheck-compile' will show you the command :emacs:
+:PROPERTIES:
+:ID:       wddbggngflychckprblmsflychckcmplwllshwythcmmnd
+:END:
+* debugging                                                     :emacs:debug:
+:PROPERTIES:
+:CREATED:  [2018-04-23]
+:ID:       dbggng
+:END:
+
+(debug-on-entry 'funcname')
+
+c -- exit debugger
+d -- continue debugging (or 's'???)
+e -- eval expression

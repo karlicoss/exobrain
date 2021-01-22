@@ -1,5 +1,4 @@
-#+TITLE: 
-#+title:: Android
+#+TITLE: Android
 #+filetags: android
 
 * related                                                             :phone:
@@ -7,9 +6,9 @@
 :ID:       rltd
 :END:
 
-* Why root your Android? :sadinfra
+* Why root your Android?                                           :sadinfra:
 :PROPERTIES:
-:ID:       whyrtyrndrdsdnfr
+:ID:       whyrtyrndrd
 :END:
 - Pixel: impossible to disable screenshot shutter sound
 - Impossible to issue iptables command and forward VPN ofer wifi

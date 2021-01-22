@@ -99,3 +99,28 @@ some discussions on GPL/BSD/MIT licensing
 
 
 https://twitter.com/turbojedi/status/1136280629564399616
+
+* [2019-09-22] I have a question for the OP... Why the MIT licence, and not putting your code i... | Hacker News :license:
+:PROPERTIES:
+:ID:       snhvqstnfrthpwhythmtlcncndntpttngyrcdhckrnws
+:END:
+https://news.ycombinator.com/item?id=3267665
+: My understanding is that there are more legal gray areas with public domain than there are with even very permissive licenses (MIT, new-BSD, etc). I vaguely recall something about potential issues with public domain and other license incompatibilities, but I don't recall the specifics (and am certainly not a lawyer), so that probably isn't a useful datapoint.
+: 
+: Apache license has patent clauses that make it quite different than the new-BSD/MIT-style licenses.
+* [2019-12-20] The Website Obesity Crisis                         :macej:web:
+:PROPERTIES:
+:ID:       frthwbstbstycrss
+:END:
+https://idlewords.com/talks/website_obesity.htm
+
+* [2020-05-18] [[https://news.ycombinator.com/item?id=8863][My YC app: Dropbox - Throw away your USB drive | Hacker News]]
+:PROPERTIES:
+:ID:       mnsnwsycmbntrcmtmdmyycppdrpbxthrwwyyrsbdrvhckrnws
+:END:
+: I have a few qualms with this app:
+: 1. For a Linux user, you can already build such a system yourself quite trivially by getting an FTP account, mounting it locally with curlftpfs, and then using SVN or CVS on the mounted filesystem. From Windows or Mac, this FTP account could be accessed through built-in software.
+: 2. It doesn't actually replace a USB drive. Most people I know e-mail files to themselves or host them somewhere online to be able to perform presentations, but they still carry a USB drive in case there are connectivity problems. This does not solve the connectivity issue.
+: 3. It does not seem very "viral" or income-generating. I know this is premature at this point, but without charging users for the service, is it reasonable to expect to make money off of this?
+
+haha fascinating

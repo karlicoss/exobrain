@@ -941,12 +941,6 @@ https://twitter.com/mark_l_watson/status/1266806550363901952
 : - New chapter on Knowledge Graph Navigator
 : - More material on Common Lisp and Python interop
 : - Many small changes and corrections
-* TODO [#C] [2019-08-28] RomanPlusPlus/scientific-progress-towards-cryonics: SPTCR: curated repository of scientific papers on cryonics :cryo:
-:PROPERTIES:
-:ID:       wdrmnplsplsscntfcprgrsstwdrpstryfscntfcpprsncryncs
-:END:
-https://github.com/RomanPlusPlus/scientific-progress-towards-cryonics
-
 * TODO [#C] 𝔊𝔴𝔢𝔯𝔫 on Twitter: "Several times in the past few weeks I or an acquaintance read something awesome only to realize we'd read it years ago &amp; simply forgot! Another use for 'anti-spaced repetition' (https://t.co/jD4SsY6VBW): track great stuff &amp;…
 :PROPERTIES:
 :CREATED:  [2019-10-09]

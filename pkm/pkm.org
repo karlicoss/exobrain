@@ -2068,3 +2068,28 @@ http://www.acuriousmix.com/2014/09/03/designing-a-personal-knowledgebase
 :PROPERTIES:
 :ID:       wdsppstsmrfrsrchssstntrfrncstlsntxctlyfrm
 :END:
+* [2019-06-23] HighlightAll – Get this Extension for 🦊 Firefox (en-US) :search:
+:PROPERTIES:
+:ID:       snhghlghtllgtthsxtnsnfrfrfxns
+:END:
+https://addons.mozilla.org/en-US/firefox/addon/highlightall/?src=search
+doesn't seem like it can do specific predefined search terms
+* [2019-03-12] Tagging is Broken | Praxis                               :pkm:
+:PROPERTIES:
+:ID:       ttggngsbrknprxs
+:END:
+https://praxis.fortelabs.co/tagging-is-broken-11e46eb24979/
+
+* [#C] [2020-07-01] [[https://searchfox.org/][Searchfox]]            :search:
+:PROPERTIES:
+:ID:       wdssrchfxrgsrchfx
+:END:
+* DONE [#B] [2019-05-10] Internet Search Tips - Gwern.net        :pkm:search:
+:PROPERTIES:
+:ID:       frntrntsrchtpsgwrnnt
+:END:
+https://www.gwern.net/Search
+** [2019-06-13] ok, not so useful for me, but might be good to recommend to newbies
+:PROPERTIES:
+:ID:       thkntssflfrmbtmghtbgdtrcmmndtnwbs
+:END:
