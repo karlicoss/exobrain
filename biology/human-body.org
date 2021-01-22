@@ -1,5 +1,11 @@
 #+TITLE: Human body
-#+filetags: :biology:humanbody:
+#+logseq_title: humanbody
+#+filetags: :humanbody:
+
+* related                                                           :biology:
+:PROPERTIES:
+:ID:       rltd
+:END:
 
 * [#B] [2018-07-08] In novice strength trainers, the muscle's ability to generate force is most strongly limited by nerve’s ability to sustain a high-frequency signal
 :PROPERTIES:
@@ -87,3 +93,28 @@ Progestin? Birth control pills
 :PROPERTIES:
 :ID:       thblgystckxchngcmdmnhvsgnfcnthrmnlcycls
 :END:
+* [2018-04-11] Why we have hangovers?                               :alcohol:
+:PROPERTIES:
+:ID:       wdwhywhvhngvrs
+:END:
+** acetaldehyde
+:PROPERTIES:
+:ID:       ctldhyd
+:END:
+: Part of it may be attributed to acetaldehyde but there is clearly more to it. The liver enzyme alcohol dehydrogenase 1 (ADH1) produces acetaldehyde from ethanol, and aldehyde dehydrogenase 2 (ALDH2) makes acetate from that, so the aldehyde does not exist for a long time, and is rather responsible for short-term illnesses.
+** ADH and diuresis
+:PROPERTIES:
+:ID:       dhnddrss
+:END:
+: Hangover severity is proportional to antidiuretic hormone concentration (46). Alcohol inhibits the effect of antidiuretic hormone on the kidneys, thereby inducing diuresis that is out of proportion to the volume of fluid ingested. As blood alcohol concentration decreases and dehydration persists, the serum level of antidiuretic hormone increases, maintaining water retention in dehydrated patients with hangover. In our clinical experience, hydration attenuates but does not completely relieve hangover symptoms.
+** cytokines
+:PROPERTIES:
+:ID:       cytkns
+:END:
+: The constellation of hangover symptoms (nausea, headache, diarrhea) resembles that seen in conditions related to dysregulated cytokine pathways (for example, in viral infections and after administration of interferon-alpha). Alcohol alters cytokine production through a thromboxane pathway. Levels of thromboxane B2 are elevated during experimentally induced alcohol hangover (42), and the administration of tolfenamic acid, a prostaglandin inhibitor, at the time of alcohol consumption has a small prophylactic effect in reducing hangover severity (9).
+** further substances
+:PROPERTIES:
+:ID:       frthrsbstncs
+:END:
+: Congeners, the byproducts of individual alcohol preparations (which are found primarily in brandy, wine, tequila, whiskey, and other dark liquors), increase the frequency and severity of hangover (24, 39, 40). Clear liquors, such as rum, vodka, and gin, tend to cause hangover less frequently.
+: So there are factors that aren't even identified exactly, and these could fit the mixing of drinks observation.

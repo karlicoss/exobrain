@@ -108,7 +108,7 @@ aliases for graph view
 :ID:       gnrtgsrdwtchnsprtnmtvtnbyvnstdythyrsltntmnycnnctns
 :END:
 maybe they are more like attributes.. or tiny dots around tag, each of dots represents a task. dunno
-* Orgzly                                                             :orgzly:
+* * Orgzly                                                           :orgzly:
 :PROPERTIES:
 :ID:       rgzly
 :END:
@@ -246,6 +246,18 @@ Would require support in notebook interface
 *** [2019-02-10] there were some suggestions already, for tagging in particular https://github.com/orgzly/orgzly-android/issues/32
 :PROPERTIES:
 :ID:       snthrwrsmsggstnslrdyfrtggrsgthbcmrgzlyrgzlyndrdsss
+:END:
+
+** TODO [#C] [2019-02-10] Implement auto synchronization · Issue  · orgzly/orgzly-android :orgzly:
+:PROPERTIES:
+:ID:       snmplmnttsynchrnztnssrgzlyrgzlyndrd
+:END:
+https://github.com/orgzly/orgzly-android/issues/8
+
+** TODO [#D] Post about orgzly on fossdroid?
+:PROPERTIES:
+:CREATED:  [2019-11-03]
+:ID:       pstbtrgzlynfssdrd
 :END:
 
 * wildcard                                                         :wildcard:
@@ -525,8 +537,3 @@ https://github.com/hidroh/materialistic/issues/1075
 :CREATED:  [2020-11-02]
 :ID:       gtbgsntsyncngprs
 :END:
-* TODO [#C] [2019-02-10] Implement auto synchronization · Issue  · orgzly/orgzly-android :orgzly:
-:PROPERTIES:
-:ID:       snmplmnttsynchrnztnssrgzlyrgzlyndrd
-:END:
-https://github.com/orgzly/orgzly-android/issues/8

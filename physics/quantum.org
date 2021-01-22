@@ -375,3 +375,7 @@ Vector potential is important because it is impossible to state action principle
 : The most famous such equation is the position/momentum commutation relation mentioned earlier, which for our purposes is just the following matrix equation:
 : AB – BA = I.
 : This equation can’t be satisfied by any finite-dimensional matrices, since AB and BA have the same trace, so Tr(AB-BA)=0, but Tr(I) is nonzero.
+* [2020-07-21] [[https://twitter.com/DanielandJorge/status/1285463683758358528][Explain the Universe on Twitter: "What are phonons, rotons, plasmons, anyons and excitons? Get yourself into a pure stream of explainons in our new episodon on quasiparticles: https://t.co/1l9lTmzjcj" / Twitter]] :tolisten:
+:PROPERTIES:
+:ID:       tstwttrcmdnlndjrgsttsxplnnqsprtclsstclltmzjcjtwttr
+:END:

@@ -1058,10 +1058,6 @@ https://github.com/kynan/nbstripout
 : Only the first three Lagrangian points are unstable positions. They're unstable in the same way as the point at the top of a hill. A ball balanced exactly in the center of the peak will stay put, but given a slight nudge in any direction it will roll down the slope and away.
 : (This is the main reason SOHO doesn't sit exactly on the L1 point, but orbits it instead.)
 : The Trojan points, L4 and L5, are stable. They act more like the bottom of a bowl. If an object there is nudged, gravity will tend to draw it back toward where it started.
-* [2020-07-21] [[https://twitter.com/DanielandJorge/status/1285463683758358528][Explain the Universe on Twitter: "What are phonons, rotons, plasmons, anyons and excitons? Get yourself into a pure stream of explainons in our new episodon on quasiparticles: https://t.co/1l9lTmzjcj" / Twitter]] :listen:
-:PROPERTIES:
-:ID:       tstwttrcmdnlndjrgsttsxplnnqsprtclsstclltmzjcjtwttr
-:END:
 * [2019-02-04] oliexdev/openScale: Open-source weight and body metrics tracker, with support for Bluetooth scales :qs:
 :PROPERTIES:
 :ID:       mnlxdvpnsclpnsrcwghtndbdystrckrwthspprtfrbltthscls
@@ -1542,13 +1538,6 @@ https://twitter.com/curiouswavefn/status/1195045873375334401
 :ID:       stsnwsycmbntrcmtmdthdclnfsblty
 :END:
 https://datagubbe.se/decusab/
-* DONE [#B] [2019-08-27] Nutrition: the Emperor has no clothes | Meaningness :nutrition:
-:PROPERTIES:
-:ID:       tntrtnthmprrhsnclthsmnngnss
-:END:
-https://meaningness.com/nutrition
-TLDR: nutrition is bad science
-
 * DONE [#B] [2020-06-03] [[https://www.infoq.com/presentations/We-Really-Dont-Know-How-To-Compute/][We Really Don't Know How To Compute!]] :towatch:
 :PROPERTIES:
 :ID:       wdswwwnfqcmprsnttnswrllydhwtcmptwrllydntknwhwtcmpt
@@ -1990,7 +1979,7 @@ https://stackoverflow.com/questions/27907373/dynamically-change-slots-in-python-
 
 * .
 :PROPERTIES:
-:ID:       108435_108448
+:ID:       107841_107854
 :END:
 * TODO [#C] use repl.it instead of ideone?                              :ide:
 :PROPERTIES:
@@ -2537,3 +2526,51 @@ https://twitter.com/preskill/status/1286126731087101952
 :CREATED:  [2020-12-26]
 :ID:       ctlks
 :END:
+* [#D] [2018-06-30] janeczku/calibre-web: Web app for browsing, reading and downloading eBooks stored in a Calibre database :selfhosted:
+:PROPERTIES:
+:ID:       stjnczkclbrwbwbppfrbrwsngnddwnldngbksstrdnclbrdtbs
+:END:
+https://github.com/janeczku/calibre-web
+
+* TODO yesteryear                                                     :drill:
+:PROPERTIES:
+:CREATED:  [2019-09-18]
+:ID:       b3e873c3-c3e0-4018-9041-2620a4b0fa19
+:END:
+from Worm
+
+* TODO disquieting.                                                   :drill:
+:PROPERTIES:
+:CREATED:  [2019-08-27]
+:ID:       28652353-c905-46b1-b4a5-bc2daf71125d
+:END:
+from Worm
+
+* TODO {Volition} ability to exercise willpower                       :drill:
+:PROPERTIES:
+:CREATED:  [2019-03-31]
+:ID:       fcb36439-0849-4119-863a-2ee6b57d8d03
+:END:
+from Luminous
+
+* TODO nonconcordance,                                                :drill:
+:PROPERTIES:
+:CREATED:  [2019-10-20]
+:ID:       f9d48916-3091-4392-ae01-dcb777b6e213
+:END:
+from Come as You Are
+
+* TODO hadron was now the general term for particles that felt the strong force. :drill:
+:PROPERTIES:
+:CREATED:  [2020-07-31]
+:ID:       9a202fcd-b8f6-47ee-9928-184fe5b0e991
+:END:
+from Genius: The Life and Science of Richard Feynman
+
+
+* TODO sympathetic nervous system {“accelerator”} and your parasympathetic nervous system {“brake”} :drill:
+:PROPERTIES:
+:CREATED:  [2019-08-17]
+:ID:       f130f3f2-8979-466d-aa57-5294d86c1c2e
+:END:
+from Come as You Are

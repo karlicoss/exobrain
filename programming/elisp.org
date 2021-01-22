@@ -1,6 +1,94 @@
 #+TITLE: Elisp
 #+filetags: elisp
 
+* related                                                             :emacs:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
+
+* [#B] * code style
+:PROPERTIES:
+:CREATED:  [2018-04-24]
+:ID:       cdstyl
+:END:
+http://lisp-lang.org/style-guide/
+
+** variable naming
+:PROPERTIES:
+:ID:       vrblnmng
+:END:
+- ~*earmuff*~ style for mutable globals?
+However:
+- dynamic variables have a prefix
+- local variables (or anything set with a let) do not have a prefix
+
+** predicates
+:PROPERTIES:
+:ID:       prdcts
+:END:
+end with ~p~ or ~-p~
+
+** defclass?
+:PROPERTIES:
+:ID:       dfclss
+:END:
+** :type slot; trivial-types lib?
+:PROPERTIES:
+:ID:       typslttrvltypslb
+:END:
+** use when smth instead of if smth (dox), use nuless smth instead of if not smth (dox)
+:PROPERTIES:
+:ID:       swhnsmthnstdffsmthdxsnlsssmthnstdffntsmthdx
+:END:
+** package--private-function package-public-function
+:PROPERTIES:
+:ID:       pckgprvtfnctnpckgpblcfnctn
+:END:
+
+* lists manipulation
+:PROPERTIES:
+:ID:       lstsmnpltn
+:END:
+** append '(a b c) '(d e f) -- concat lists
+:PROPERTIES:
+:ID:       ppndbcdfcnctlsts
+:END:
+
+* [2018-04-24] elisp basics
+:PROPERTIES:
+:ID:       tlspbscs
+:END:
+cursor point region http://ergoemacs.org/emacs/elisp_cursor_position.html
+http://ergoemacs.org/emacs/elisp_editing_basics.html
+
+http://ergoemacs.org/emacs/elisp_optional_params.html
+:   &optional prams.
+:   &rest remaining params
+
+no named params, no type checking..
+
+thing-at-point
+
+* [#B] [2018-06-18] sharp-quote names of functions ~(mapcar #'fun list)~
+:PROPERTIES:
+:ID:       mnshrpqtnmsffnctnsmpcrfnlst
+:END:
+
+* [#C] [2020-02-27] regexps are case sensitive
+:PROPERTIES:
+:ID:       thrgxpsrcssnstv
+:END:
+https://www.reddit.com/r/emacs/comments/5jip0g/strange_replaceregexpinstring_behavior/
+: So, if you want case sensitive, do
+: (let ((case-fold-search nil))
+:      (replace-regexp-in-string "my" "your" "mycat.txt" t t)
+: )
+
+fucking hell.. regexes in elisp are case sensitive, and that's controlled by a fucking variable. jesus
+
+
+
 * [#B] [2020-02-02] [[https://reddit.com/r/emacs/comments/exnxha/withemacs_almost_all_you_need_to_know_about/][with-emacs · (Almost) All You Need to Know About Variables]] /r/emacs
 :PROPERTIES:
 :ID:       snsrddtcmrmcscmmntsxnxhwtslmstllyndtknwbtvrblsrmcs

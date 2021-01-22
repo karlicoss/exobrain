@@ -142,11 +142,6 @@ often assuming there is one single way of doing things and that's it. incredible
 :ID:       snstrtllfyrcmmndswthcmmhckrnws
 :END:
 https://news.ycombinator.com/item?id=22778988
-* [2020-04-08] Watch the Life Cycle of HIV in Colorful New Detail - Scientific American Blog Network :biology:
-:PROPERTIES:
-:ID:       wdwtchthlfcyclfhvnclrflnwdtlscntfcmrcnblgntwrk
-:END:
-https://blogs.scientificamerican.com/observations/watch-the-life-cycle-of-hiv-in-colorful-new-detail/
 * [2020-04-10] Emily Levesque Public Lecture: The Weirdest Stars in the Universe - YouTube :cosmology:
 :PROPERTIES:
 :ID:       frmlylvsqpblclctrthwrdststrsnthnvrsytb
@@ -782,3 +777,146 @@ pro: deletion of internal nodes is complicated
 pro: we can link all leaf nodes, data can be easily scanned
 pro: implementation (e.g. deletion of internal nodes) is easier
 con: store redundant search keys
+* TODO When you run into a new YT channel, go through it on computer, add good videos to a separate playlist, then watch without hassle :pkm:habit:
+:PROPERTIES:
+:ID:       5144691c-6a35-43aa-8ff6-28dadb4edb2b
+:END:
+
+* START [#A] You've got to prioritize things better. Don't start things out of order, evaluate in Todo lots first :productivity:
+:PROPERTIES:
+:CREATED:  [2018-06-04]
+:ID:       yvgttprrtzthngsbttrdntstrtthngstfrdrvltntdltsfrst
+:END:
+
+* START [#B] actually practicing quicker typing is quite important; i'll be able to write down more :productivity:typing:
+:PROPERTIES:
+:CREATED:  [2018-06-06]
+:ID:       ctllyprctcngqckrtypngsqtmprtntllbbltwrtdwnmr
+:END:
+
+* TODO [#B] The top-five-problems method – Richard Hamming’s algorithm for doing important work. Periodically ask yourself: “what are the top five most important problems in my field (and life), and why am I not working on them?”
+:PROPERTIES:
+:CREATED:  [2019-07-18]
+:ID:       thtpfvprblmsmthdrchrdhmmnyfldndlfndwhymntwrkngnthm
+:END:
+[[http://www.defmacro.org/2016/12/22/models.html][Mental models]]
+[[https://hyp.is/rfFBlKmWEemcRzMtzZTC6A/www.defmacro.org/2016/12/22/models.html][in context]]
+
+* TODO [#B] hmm maybe dedicate one day per week when I will do something actionable about _every_ item on scheduled todolist :productivity:
+:PROPERTIES:
+:CREATED:  [2019-08-17]
+:ID:       hmmmybddctndyprwkwhnwlldsgctnblbtvrytmnschdldtdlst
+:END:
+* STRT [#C] some vim book (practical vim?)          :productivity:toread:vim:
+:PROPERTIES:
+:CREATED:  [2018-06-18]
+:ID:       smvmbkprctclvm
+:END:
+* TODO [#C] Compare my todo items in pairs? Then have something that picks ones to work on :gtd:think:
+:PROPERTIES:
+:CREATED:  [2018-06-03]
+:ID:       cmprmytdtmsnprsthnhvsmthngthtpcksnstwrkn
+:END:
+
+* TODO [#C] use F keys more?                                         :typing:
+:PROPERTIES:
+:CREATED:  [2018-07-12]
+:ID:       sfkysmr
+:END:
+
+e.g. F1/F2 might actually be a good replacement for Super? Especially considering Kinesis keyboard
+
+* TODO [#C] Log my observation for kinesis in a blog post :typing:productivity:toblog:
+:PROPERTIES:
+:CREATED:  [2018-07-16]
+:ID:       lgmybsrvtnfrknssnblgpst
+:END:
+
+Shifts Russian layout, arrows, touch typing
+
+* [#C] some random tips                                        :productivity:
+:PROPERTIES:
+:CREATED:  [2018-07-17]
+:ID:       smrndmtps
+:END:
+https://theoryandpractice.ru/posts/15719-biologicheskiy-praym-taym-kak-obkhitrit-mozg-ili-khotya-by-nauchitsya-prokrastinirovat-s-polzoy
+: • Если задача скучная: пойду в субботу в свое любимое кафе и заполню налоговую декларацию за чашкой какого-нибудь экзотического кофе, а заодно и понаблюдаю за жизнью вокруг.
+: • Задача чрезвычайно рутинная, создается ощущение бесплодности усилий: я прихожу в то же кафе, но кроме данных для работы над декларацией у меня есть с собой книга. Я устанавливаю таймер на смартфоне и работаю над налогами ровно 30 минут. Свыше 30 минут я работаю только в том случае, если дело пошло и я чувствую, что в состоянии продолжать.
+: • Сложная задача: проведу исследование, чтобы точно выяснить, какие шаги мне нужно предпринять и какие документы собрать. Пойду в кафе во время моего биологического прайм-тайма, когда у меня больше энергии.
+: • Задача неструктурированная или неоднозначная: проведу исследование по соответствующей тематике и на этой основе составлю подробный план всех необходимых шагов.
+: • Задача не имеет личностного смысла: ищу позитивные стороны. Например, если можно получить налоговое возмещение, то я стараюсь думать о его возможном размере и составляю список, на что потрачу полученные деньги.
+: • При выполнении задачи невозможно испытывать удовлетворение от самого процесса, не возникает никаких промежуточных стимулов: за каждые 15 минут, которые я провожу, работая над налогами, я разрешаю себе потратить два с половиной доллара на какой-нибудь каприз или награждаю себя каким-то другим значимым образом за выполнение определенного этапа.
+
+TODO try that with RTM taks I was posponing a lot
+* [#C] ok, what if I only use A for tasks which I neccessarily do today? :org:productivity:
+:PROPERTIES:
+:CREATED:  [2018-07-04]
+:ID:       kwhtfnlysfrtskswhchnccssrlydtdy
+:END:
+
+* TODO [#C] Remember that a moderate amount of background noise (so-called white noise) is helpful for concentration. :productivity:
+:PROPERTIES:
+:CREATED:  [2019-03-02]
+:ID:       rmmbrthtmdrtmntfbckgrndnsclldwhtnsshlpflfrcncntrtn
+:END:
+really? look it up
+from The Owner's Manual for the Brain
+** [2019-06-14] I mean maybe it makes sense. but I wonder how scientific is that and how did they quantify concentration
+:PROPERTIES:
+:ID:       frmnmybtmkssnsbtwndrhwscnthtndhwddthyqntfycncntrtn
+:END:
+
+* TODO [#C] figure out which keys should i use?            :vim:productivity:
+:PROPERTIES:
+:CREATED:  [2018-07-12]
+:ID:       fgrtwhchkysshlds
+:END:
+http://www.drbunsen.org/vim-croquet/
+
+* TODO [#D] [2019-06-12] Typing practice https://www.keybr.com/      :typing:
+:PROPERTIES:
+:ID:       wdtypngprctcswwwkybrcm
+:END:
+
+* [2017-12-31] using mouse less                                :productivity:
+:PROPERTIES:
+:ID:       snsngmslss
+:END:
+** DONE surfingkeys
+:PROPERTIES:
+:ID:       srfngkys
+:END:
+** [2019-06-18] pretty used to it by now
+:PROPERTIES:
+:ID:       tprttysdttbynw
+:END:
+** https://github.com/brhs/nomouse -- pretty cool but it's for mac
+:PROPERTIES:
+:ID:       sgthbcmbrhsnmsprttyclbttsfrmc
+:END:
+** TODO just practice every day, disable touchpad for a while?        :habit:
+:PROPERTIES:
+:ID:       jstprctcvrydydsbltchpdfrwhl
+:END:
+** TODO beeping sound each time you move mouse?
+:PROPERTIES:
+:ID:       bpngsndchtmymvms
+:END:
+* [2017-05-15] x                                          :exercise:creatine:
+:PROPERTIES:
+:ID:       mnx
+:END:
+: When you lift weights, your muscles are using anaerobic glycolysis to convert glucose available in the muscles to ATP.
+: Anaerobic glycolysis produces hydrogen ions, which inhibit the enzymes used in anaerobic glycolysis. This inhibition results in you running out of energy at the end of your set.
+: These ions quickly dissipate as you rest between sets, allowing you to start your next set with almost as much strength as the first.
+: Eventually though (say, after your 3rd set), you reach a point where you have depleted all the glucose stored in the muscle, and you need to allow a longer rest period to replenish the muscle glucose with glucose from the blood stream.
+: This is why you suddenly reach a point where you can't do any more sets - there's no fuel left in your muscles for glycolysis.
+
+- 
+  : This is precisely why creatine "works". Creatine turns into creatine phosphate, which reacts with ADP to form more ATP. It won't make you stronger by itself, but it will allow you to train harder by providing you with "free" ATP.
+- 
+  : By providing extra ATP, it enables you to perform more reps and therefore tolerate more stress before you fatigue. The more stress you induce, the more your body has to adapt.
+  : I think the mechanism I outlined is what the general consensus is. There are some people who dismiss creatine as "woo" and claim its sole effect is to induce water retention.
+  : These people are clueless. Creatine is the single best-attested and best-validated workout supplement other than protein powder.
+  : It has diminishing returns, however; furthermore, it is found naturally in food, and excessive intake leads to bloating.
+  : These factors cause some people to avoid it.

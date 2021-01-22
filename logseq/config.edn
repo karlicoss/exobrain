@@ -5,6 +5,7 @@
  :all-pages-public? true
  :feature/enable-journals? false
  :suppressed-tags ["watch", "towatch",
+                   "tolisten",
                    "read", "toread", ;; TODO "think"? "study"? not sure, ideally need a separate layer...
                    "buy",
                    "motivation", "inspiration",

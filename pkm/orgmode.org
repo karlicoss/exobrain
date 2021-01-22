@@ -1085,3 +1085,9 @@ or maybe, it's fine?
 - State "DONE"       from "TODO"       [2019-02-16]
 org-sort-entries?
 don't need it as often...
+
+* TODO [#C] some items should not contribute to global agenda. e.g. subtasks of an item :org:gtd:
+:PROPERTIES:
+:CREATED:  [2018-08-06]
+:ID:       smtmsshldntcntrbttglblgndgsbtsksfntm
+:END:

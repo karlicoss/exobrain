@@ -8,7 +8,7 @@
 :END:
 e.g. different textures and tastes
 
-* [2018-04-30] Lemon and melon are the same molecul, just chiral mirror images :gastronomy:
+* [2018-04-30] Lemon and melon are the same molecule, just chiral mirror images :gastronomy:
 :PROPERTIES:
 :ID:       mnlmnndmlnrthsmmlcljstchrlmrrrmgs
 :END:
@@ -28,7 +28,7 @@ https://www.youtube.com/watch?v=pMhrV9sRjqI
   browning: baking soda maillard reaction, basic environment
   overmixing batter makes it tough. too much gluten is formed, makes them chewy. Fat slows down gluten
 
-* [2018-07-06] White chocolate is only cocoa butter + sugar + cream :chocolate:
+* [2018-07-06] White chocolate is only cocoa butter + sugar + cream
 :PROPERTIES:
 :ID:       frwhtchcltsnlyccbttrsgrcrm
 :END:
@@ -41,11 +41,6 @@ https://www.youtube.com/watch?v=pMhrV9sRjqI
 : And according to: http://www.finecooking.com/article/the-science-of-frying
 : "When food is plunged into hot oil, the water in the food starts to boil and percolate toward the surface. In order for a crisp, dry crust to develop, there must be a barrier between the hot oil and the migrating water. This barrier is typically something starchy. As the starch fries in the hot oil, it dries into a pleasantly crisp shell and protects the moisture beneath. The food inside steams while the coating browns and crisps."
 : EDIT: As /u/Choralone points out below, the Maillard reaction can take place at lower temperatures, but very slowly. So cooking items over several hours can sometimes produce similar results, but perhaps not with the types of food that are normally fried.
-
-* [2017-12-23] saving chopped fruit: use lemon juice                :cooking:
-:PROPERTIES:
-:ID:       stsvngchppdfrtslmnjc
-:END:
 
 * [2017-02-26] saturated and unsaturated fats: different molecule 'packing' patterns -> different internal energy, different boiling temperatures
 :PROPERTIES:
@@ -130,3 +125,49 @@ Drying and browning the surface first will, however, allow the reaction to proce
 :PROPERTIES:
 :ID:       thhnwthnkntsndslkcnsprcythryhvtbxtrmlyctsbtths
 :END:
+* TODO [#C] what other active compounds are in coffee? https://www.reddit.com/r/Nootropics/comments/8cnmd7/a_cup_of_coffee_always_makes_me_feel_more_awake/dxgdxlb/ :study:
+:PROPERTIES:
+:ID:       whtthrctvcmpndsrncffswwwrfcfflwysmksmflmrwkdxgdxlb
+:END:
+* TODO [#D] [2019-06-15] ПОСТ №015 – Vlad Lunachev – Medium            :food:
+:PROPERTIES:
+:ID:       stпостvldlnchvmdm
+:END:
+https://medium.com/@VladLunachev/%D0%BF%D0%BE%D1%81%D1%82-015-47d297521b?fbclid=IwAR1sQcke6GT-U8BenWk-igzvr-j06V5SQKJyQu1yL6aFyuaDhIhYZEKgkuM
+: А это не вредно? Насколько я знаю, нет. Есть институты парентерального и энтерального питания (внутривенного и через трубочку, для людей в коме или с травмами, при которых по-другому питаться не получается). Такие кейсы не редки и люди десятилетиями так питаются, без наблюдаемого вреда для здоровья. Для них есть питание и смеси, одобренные FDA. Тем не менее, сложно сказать на 100%, т.к. нет лонгитюдных исследований.
+* [#B] [2020-08-25] [[https://www.mountainhouse.com/][Freeze Dried Food | Mountain House]]
+:PROPERTIES:
+:ID:       tswwwmntnhscmfrzdrdfdmntnhs
+:END:
+
+* [2020-11-27] [[https://temza.co/kichanova/?fbclid=IwAR3GjIQdn_-0rNtkR4xJzpG6LnKoMT9Da4MtKDSLi-lx4htEi_wxthVz7jk][Вера Кичанова, либертарианка, researcher в архитектурном бюро Захи Хадид - Кооператив «Темза»]]
+:PROPERTIES:
+:ID:       frstmzckchnvfbcldwrgjqdnrозахихадидкооперативтемза
+:END:
+: Очень люблю лондонские рынки — на тот же Боро-маркет по выходным хожу за своим любимым шоколадом в место под названием Rabot 1745. Еще люблю Mercato Metropolitano — итальянский рынок в районе Elephant and Castle, достаточно новый и пока не такой раскрученный. Там много хорошей еды, веселые люди, приятная музыка, а еще там есть узбекский ларек, где приятный хозяин (кстати, русскоговорящий) продает отличные манты и лагман.
+* [2018-04-09] Steaming is quick because conduction takes lots of energy :foodscience:
+:PROPERTIES:
+:ID:       mnstmngsqckbcscndctntksltsfnrgy
+:END:
+
+* TODO [#C] They Go Really Well Together https://blog.khymos.org/tgrwt/ :chemistry:foodscience:
+:PROPERTIES:
+:ID:       thygrllywlltgthrsblgkhymsrgtgrwt
+:END:
+* TODO [#C] https://nplus1.ru/news/2019/06/17/perfect-blinchik  :foodscience:
+:PROPERTIES:
+:CREATED:  [2019-06-17]
+:ID:       snplsrnwsprfctblnchk
+:END:
+
+* [#D] [2018-03-04] blanching broccoli                          :foodscience:
+:PROPERTIES:
+:ID:       snblnchngbrccl
+:END:
+: you can blanch broccoli to give it a more vibrant green color so it can look better on your plate.
+: http://nchfp.uga.edu/how/freeze/blanching.html
+: Blanching destroys the enzymes that turn food brown and destroy nutrients. These enzymes are not stooped at freezer temps, but slowed. If you're going to eat the food in a month or 3, blanching may not be necessary, but blanching will improve the flavor and texture of what comes out of the freezer later. http://extension.psu.edu/food/preservation/news/2012/blanching-vegetables-is-a-must-before-freezing
+: 
+: blanch with open lid; otherwise volatile acids are not carried away with steam and oxidise the vegetables
+
+https://www.thekitchn.com/food-science-why-blanched-vege-53688
