@@ -195,3 +195,17 @@ https://voice.mozilla.org/en?utm_source=missionmozillians&utm_medium=snippet&utm
 :ID:       wdsnwsycmbntrcmtmdrhsspyspnsrcfllyfflnvcssstnttlkt
 :END:
 https://rhasspy.readthedocs.io/en/latest/
+* [#C] [2019-06-25] Challenges in open source voice interfaces | Opensource.com :mycroft:
+:PROPERTIES:
+:ID:       tchllngsnpnsrcvcntrfcspnsrccm
+:END:
+https://opensource.com/article/19/1/open-source-voice-interfaces
+** [2019-07-25] good article breaking down the pipeline of voice assictant
+:PROPERTIES:
+:ID:       thgdrtclbrkngdwnthpplnfvcssctnt
+:END:
+
+* [2018-10-31] tried installing dragon 15 on win 8.1 VM but it would fail with https://nuance.custhelp.com/app/answers/detail/a_id/5684 :( :dictation:
+:PROPERTIES:
+:ID:       wdtrdnstllngdrgnnwnvmbttwthsnnccsthlpcmppnswrsdtld
+:END:

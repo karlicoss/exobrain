@@ -2054,3 +2054,28 @@ nothing new really.. just measures glucose, hrv and air quality. He's not even u
 :END:
 https://thescarlet.org/10883/category_news/ted-chiang-gives-lecture-on-lifelogging/
 huh, interesting..
+* [#B] [2020-06-26] [[https://uk.wahoofitness.com/devices/heart-rate-monitors/tickr-x/buy][TICKR X Heart Rate Monitor & Workout Tracker | Wahoo Fitness UK]] :wahoo:
+:PROPERTIES:
+:ID:       frskwhftnsscmdvcshrtrtmntrtrtmntrwrkttrckrwhftnssk
+:END:
+: Includes a coin cell battery that can last for over 500 hours of workouts.
+* [#C] [2019-02-11] Self-Quantification Explained: Tons of Ways Start Measuring Your Performance and Progress - The Bioneer :qs:
+:PROPERTIES:
+:ID:       mnslfqntfctnxplndtnsfwyssrngyrprfrmncndprgrssthbnr
+:END:
+http://www.thebioneer.com/self-quantification-explained-tons-ways-start-measuring-performance-progress/
+ok, it's all pretty obvious to me, but could be useful for other people
+* [#D] [2018-10-01] Happiness and Life Satisfaction - Our World in Data  :qs:
+:PROPERTIES:
+:ID:       mnhppnssndlfstsfctnrwrldndt
+:END:
+ https://ourworldindata.org/happiness-and-life-satisfaction
+pretty interesting, a lot of data (with csv sources) on correlation of happiness with other things
+
+* [#B] [2018-08-25] Pho_Rheels comments on Finally received my Gen 2 Oura Ring, with some early feedback. Anyone else? :hr:
+:PROPERTIES:
+:ID:       stphrhlscmmntsnfnllyrcvdmygnrrngwthsmrlyfdbcknynls
+:END:
+https://www.reddit.com/r/Biohackers/comments/9780qa/finally_received_my_gen_2_oura_ring_with_some/e46dqtd/ 
+:  Received my ring last Friday. Had the 1st gen but returned it due to inaccurate sleep readings. Unfortunately, the new ring seems to be inaccurate for me as well. Both rings read that I was asleep when I was meditating, laying awake in bed, or even making coffee. Since the Readiness score is based in part on the Sleep score that’s inaccurate, too. I contacted customer service last night, no word back yet.
+: The new material of the 2nd gen ring feels cheap and plasticky, although a better size and weight than the 1st gen. Overall, so far, not impressed. Especially after waiting over 9 months. But I look forward to my initial impressions changing for the better with continued use. Would love to hear from other Ōura users as well.

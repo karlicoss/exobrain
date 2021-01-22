@@ -166,3 +166,8 @@ The FA chains are cleaved off of the glycerol backbone. The 3 FA chains are oxid
 : Another thing to consider: Not all types of carbohydrates end up the same way when digested. Glucose, as said earlier, can be stored in the form of glycogen in the body. Fructose, on the other hand, cannot do the same and is directly converted into fat if it cannot be used immediately. This means that if you eat a lot of carbohydrates in the form of fructose (white sugar, corn syrup, fruits) many of it will be converted into fat without any opportunity to be used. This is also why since low-fat food arrived everywhere, the obesity epidemic started. Fat has been replaced by sugar and corn syrup, and voilà. Same result, but since it says "no fat" on the product we think we can eat all we want. Hope I have been some help.
 : hm, or is it? https://www.reddit.com/r/Fitness/comments/4a5fws/can_someone_please_shed_light_on_the_sugar_makes/d0y7r0o/
 : This is a common misconception. Fructose and glucose are both broken down to the same triose sugars and can both therefore enter the gluconeogenic pathway. De Novo lipogenesis from carbs is fairly uncommon because it is metabolically ludicrously inefficient. You have to massively overfeed on carbs.
+
+* [#D] http://vmh.uni.lu/#reconmap metabolism interactive map :biology:metabolism:visualisation:
+:PROPERTIES:
+:ID:       vmhnlrcnmpmtblsmntrctvmp
+:END:

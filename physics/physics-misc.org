@@ -684,3 +684,93 @@ https://blog.stephenwolfram.com/2015/12/what-is-spacetime-really/
 : Here the news is very good too: subject to various assumptions, I managed in the late 1990s to derive Einstein’s Equations from the dynamics of networks.
 
 whoa
+* [#C] [2019-11-21] [[https://reddit.com/r/Physics/comments/dzj60i/physicists_just_created_the_most_detailed/][Physicists Just Created the Most Detailed Simulation of the Universe in History]] /r/Physics :sim:
+:PROPERTIES:
+:ID:       thsrddtcmrphyscscmmntsdzjsmltnfthnvrsnhstryrphyscs
+:END:
+** [2019-11-21] [[https://reddit.com/r/Physics/comments/dzj60i/physicists_just_created_the_most_detailed/f88mqvr/][Physicists Just Created the Most Detailed Simulation of the Universe in History]] /r/Physics
+:PROPERTIES:
+:ID:       thsrddtcmrphyscscmmntsdzjsmltnfthnvrsnhstryrphyscs
+:END:
+:  [Direct link to 1080p simulation on Max Planck](https://www.tng-project.org/images/press/tng50_galaxy_evolution_1080p.mp4) because fuck this obnoxiously ad-laden website. Absolute cancer to navigate on mobile.
+
+* [#D] [2018-09-23] Derivation of Avogadro's law
+:PROPERTIES:
+:ID:       sndrvtnfvgdrslw
+:END:
+** [2019-05-06] https://www.reddit.com/r/askscience/comments/1x1zs4/why_does_avogadros_law_hold/cf7gfn4/
+:PROPERTIES:
+:ID:       mnswwwrddtcmrskscnccmmntsxzswhydsvgdrslwhldcfgfn
+:END:
+: Avogadro's law holds because a perfectly ideal gas behaves exactly like a huge number of rigid macroscopic particles flying around and colliding (billiard balls, air hockey pucks, etc.). For a given temperature, pressure, and volume, the only other quantity of interest is the number of particles. Their masses do not matter because this is already taken into account in the temperature (average kinetic energy), so all systems of "ideal gasses" (or billiard balls) with the same P, V, T and particle number behave in the same way.
+* [2019-11-21] 3 Perplexing Physics Problems - YouTube
+:PROPERTIES:
+:ID:       thprplxngphyscsprblmsytb
+:END:
+https://www.youtube.com/watch?v=K-Fc08X56R0&list=WL&index=50&t=0s
+wow, awesome.
+So, C02 is dissolved in the fizzy drink. When you shake it, you introduce air bubbles, which act as nucleation sites for the gas. When you open the bottle, they start expanding, avalanching even more nucleation sites.
+You can 'disarm' the bottle by carefully removing the bubbles (e.g. tapping on the sides of the bottles)
+Menthos got a rough surface, so it acts as a good nucleation site too.
+Also plastic vs paper straws: paper straws also make it fizzier.
+* intuition about harmonic function https://math.stackexchange.com/questions/751293/intuitive-significance-of-harmonicity/751459 :math:physics:drill:
+:PROPERTIES:
+:ID:       ba1267c8-5933-469c-9319-a262caab3a6e
+:END:
+
+: A harmonic function is a function whose value at a point is always equal to the average of its values on a sphere centered at that point (reference). This is why they show up as steady-state solutions to the heat equation: if this averaging property weren't true, then heat would be flowing either from or to a point.
+
+** TODO You might be interested in reading Needham's Visual Complex Analysis.
+:PROPERTIES:
+:ID:       ymghtbntrstdnrdngndhmsvslcmplxnlyss
+:END:
+* [#C] [2020-06-15] [[https://www.youtube.com/watch?v=rIAZJNe7YtE&list=WL&index=61][(1) Eric Weinstein: Geometric Unity and the Call for New Ideas, Leaders & Institutions | AI Podcast #88 - YouTube]]
+:PROPERTIES:
+:ID:       mnswwwytbcmwtchvrzjnytlstfrnwdsldrsnstttnspdcstytb
+:END:
+: Is it just me or it seems like Eric does not want to be understood? He seems to enjoy this title of the crazy smart guy who is so above intellectually that we cannot comprehend his thoughts. I do not buy his shtick because Richard Feynmann (who has ACTUAL contributions in physics) does a way better job in explaining  concepts. I agree with Einstein when he says "If you can't explain it simply, you don't understand it well enough", and since Eric talks in such a convoluted manner about his theory (even in his lecture), it seems to me that Eric's goal is NOT to present his idea.. but to plant this idea in his audience that he is right and the entire academic community is corrupt and wrong. 
+: 
+: I actually share that sentiment and I agree that academia has its fair share of issues (self citation, institutional bias etc).. But if you do not even upload a manuscript on the internet and expect your audience to believe your claims purely based on your vague explanation of your theory.. I just do not trust him. 
+* [2019-07-22] Астрофизики определили форму Местного войда
+:PROPERTIES:
+:ID:       mnастрофизикиопределилиформуместноговойда
+:END:
+https://nplus1.ru/news/2019/07/22/local-void
+:  Наиболее близок к нам Местный войд, который простирается примерно на 40 процентов площади неба и начинается у края Местной группы на расстоянии около одного мегапарсека.
+* [2019-12-06] Graham Farmelo on Paul Dirac and Mathematical Beauty - YouTube
+:PROPERTIES:
+:ID:       frgrhmfrmlnpldrcndmthmtclbtyytb
+:END:
+https://www.youtube.com/watch?v=YfYon2WdR40&list=WL&index=51
+apparently Dirac was taken by mathematical beauty
+he basically accepted that was his kind of religion
+he'd never mind discarding old theory if it wasn't 'beautiful' enough
+despised nuclear weapons even though contributed to manhattan project?
+* [2019-12-26] [[https://reddit.com/r/askscience/comments/efuiql/is_a_neutron_star_a_perfect_electrical_insulator/fc2pzph/][Is a neutron star a perfect electrical insulator?]] /r/askscience
+:PROPERTIES:
+:ID:       thsrddtcmrskscnccmmntsfqltrprfctlctrclnsltrrskscnc
+:END:
+: On the contrary, they are very very good conductors.
+: Neutron stars are in 'beta equilibrium.' This means that there are a small number of protons and electrons. If you have too many neutrons, it is energetically favorable for some of them to beta decay and become protons and electrons. It's somewhere between a 10 to 1 or 20 to 1 ratio of neutrons to protons.
+: The protons in the core are under such enormous pressure that they form Cooper pairs. This basically means that protons pair by spin, like electrons filling atomic orbitals. This produces a 'superconductor,' a conducting medium which supports enormous electric currents and magnetic fields.
+* [#B] [2019-11-14] Ash Jogalekar on Twitter: "Robert Oppenheimer didn't just teach his students physics; he taught them life. Mozart, Plato and Sanskrit were as much a part of their shared lives as cosmic rays and quantum electrodynamics. https://t.co/i8I7xxcURT" / Twitter :physics:
+:PROPERTIES:
+:ID:       thshjglkrntwttrrbrtppnhmrtmlctrdynmcsstcxxcrttwttr
+:END:
+https://twitter.com/curiouswavefn/status/1195045873375334401
+: Robert Oppenheimer didn't just teach his students physics; he taught them life. Mozart, Plato and Sanskrit were as much a part of their shared lives as cosmic rays and quantum electrodynamics.
+* [#C] [2020-08-10] [[https://www.youtube.com/watch?v=GOrWy_yNBvY][(4) Thermodynamics and the End of the Universe: Energy, Entropy, and the fundamental laws of physics. - YouTube]]
+:PROPERTIES:
+:ID:       mnswwwytbcmwtchvgrwyynbvyyndthfndmntllwsfphyscsytb
+:END:
+: I don't understand why you say it will NEVER happen that the balls will all go back into the corner. It can happen, it's just extremely unlikely, and becomes more unlikely the more balls you add.
+: 58
+: AnantaSesaDas
+: AnantaSesaDas
+: 3 years ago
+: The caveat is that though there IS a small chance, that probability is several orders of magnitude beyond the predicted lifespan of the current universe. And just for one event so never is quite appropriate but for extremely intense critics, just don't take it so literally.
+* DONE [#A] [2020-01-15] [[https://news.ycombinator.com/item?id=22033012][Noether’s Theorem – A Quick Explanation (2019)]]
+:PROPERTIES:
+:ID:       wdsnwsycmbntrcmtmdnthrsthrmqckxplntn
+:END:
+https://quantum-friend-theory.tumblr.com/post/172814384897/noethers-theorem-a-quick-explanation

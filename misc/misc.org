@@ -1601,3 +1601,402 @@ https://getpolarized.io/2019/04/11/Polar-Initial-Crowdfunding-Campaign.html
 :ID:       snsprvsdvsnsprvsd
 :END:
 : Unsupervised learning is the machine learning task of inferring a function to describe hidden structure from unlabeled data. Since the examples given to the learner are unlabeled, there is no error or reward signal to evaluate a potential solution
+* [#D] [2018-08-06] not now [jetzt nicht]                      :german:drill:
+:PROPERTIES:
+:ID:       7d7ee6a2-03dd-42a4-9aeb-227948c3bbc1
+:END:
+
+* [#D] [2018-08-06] settings {einstellungen}                   :german:drill:
+:PROPERTIES:
+:ID:       d06cf7e8-48e1-4309-939b-21c7bd603694
+:END:
+
+* [#C] [2019-09-21] Awesome Indexed - Searchable Awesome Lists
+:PROPERTIES:
+:ID:       stwsmndxdsrchblwsmlsts
+:END:
+https://awesome-indexed.mathew-davies.co.uk
+
+* pascal's mugging                                              :rationality:
+:PROPERTIES:
+:ID:       psclsmggng
+:END:
+https://en.wikipedia.org/wiki/Pascal%27s_mugging
+https://www.lesswrong.com/posts/a5JAiTdytou3Jg749/pascal-s-mugging-tiny-probabilities-of-vast-utilities
+
+* [#D] [2018-08-23] Fallacymania — Вики LessWrong.ru
+:PROPERTIES:
+:ID:       thfllcymnвикиlsswrngr
+:END:
+https://lesswrong.ru/wiki/Fallacymania
+
+* [#C] [2020-06-12] [[https://en.wikipedia.org/wiki/The_Extended_Phenotype][The Extended Phenotype - Wikipedia]]
+:PROPERTIES:
+:ID:       frsnwkpdrgwkthxtnddphntypthxtnddphntypwkpd
+:END:
+* [#D] [2018-08-23] The Azimuth Project
+:PROPERTIES:
+:ID:       ththzmthprjct
+:END:
+http://www.azimuthproject.org/azimuth/show/HomePage
+
+* [#D] [2018-10-10] Agda Beginner(-ish) Tips, Tricks, & Pitfalls - Donnacha Oisín Kidney :agda:
+:PROPERTIES:
+:ID:       wdgdbgnnrshtpstrcksptfllsdnnchsínkdny
+:END:
+https://doisinkidney.com/posts/2018-09-20-agda-tips.html
+
+* [2018-09-28] twitter thread  https://twitter.com/gypsy_erin/status/912437996061958144 :herbs:
+:PROPERTIES:
+:ID:       frtwttrthrdstwttrcmgypsyrnstts
+:END:
+:   Бактерицидное и фунгицидное вещество в чесноке - аллицин. При этом оно не сразу сожержится в чесноке(!) >>
+:   Чтобы аллиин (содержится в чесноке сразу) превратился в аллицин - нужно раздавить/разрезать чеснок и дать полежать на воздухе ~10 мин
+:   93. Масло примулы вечерней (ослинника) - очень крутая вещь для кожи из-за высокого содержания в нём гамма-линоленовой кислоты.
+: Alice Gurska
+:   117. К роду Полынь относится 481 вид растений. Самая распространённая на ваших кухнях - эстрагон, она же тархун.
+:   119. Есть полынь лечебная - она же укропное дерево, божье дерево. Пахнет одновременно и хвоей, и укропом и лимоном.
+
+* [#D] [2017-09-03]                                                 :cycling:
+:PROPERTIES:
+:ID:       83615_83835
+:END:
+Use quietways https://tfl.gov.uk/travel-information/improvements-and-projects/quietways
+
+** TODO Highway code https://www.gov.uk/guidance/the-highway-code/rules-for-cyclists-59-to-82
+:PROPERTIES:
+:ID:       hghwycdswwwgvkgdncthhghwycdrlsfrcyclstst
+:END:
+* [#C] [2018-07-25] Orthogonality thesis - Lesswrongwiki        :ai:rational:
+:PROPERTIES:
+:ID:       wdrthgnltythsslsswrngwk
+:END:
+https://wiki.lesswrong.com/wiki/Orthogonality_thesis
+
+* [2019-06-15] Bret Victor on Twitter: "@mayli kinda wish Siri would go in the opposite direction. I think the most dangerous habit is thinking of an algorithm as a human being." :ai:
+:PROPERTIES:
+:ID:       stbrtvctrntwttrmylkndwshshbtsthnkngfnlgrthmshmnbng
+:END:
+https://twitter.com/worrydream/status/660157269707853824
+: @mayli kinda wish Siri would go in the opposite direction. I think the most dangerous habit is thinking of an algorithm as a human being.
+* DONE [#B] [2019-11-13] Stephen Diehl on Twitter: "What was the biggest CS advance in 2010-2020?" / Twitter
+:PROPERTIES:
+:ID:       wdstphndhlntwttrwhtwsthbggstcsdvncntwttr
+:END:
+https://twitter.com/smdiehl/status/1194598080450043905
+: What was the biggest CS advance in 2010-2020?
+** [2019-11-23] Quite possibly Typescript forcing web developers to understand why types are good.
+:PROPERTIES:
+:ID:       stqtpssblytypscrptfrcngwbdvlprstndrstndwhytypsrgd
+:END:
+** [2019-11-23] I’m surprised, not one person has an algorithmic perspective. Lots of data structure advancements happened in the 2000s, but not sure about the following decade.
+:PROPERTIES:
+:ID:       stmsrprsdntnprsnhsnlgrthmndnthsbtntsrbtthfllwngdcd
+:END:
+** [2019-11-23] The recognition that tooling is much more important than previously thought for programming in a team. As far back as 1972, Weinberg's "The Psychology of Programming" dismissed syntactical and semantic checking as "crutches for weak programers."
+:PROPERTIES:
+:ID:       stthrcgntnthttlngsmchmrmpcchckngscrtchsfrwkprgrmrs
+:END:
+** [2019-11-23] Maybe the biggest was making neural networks viable
+:PROPERTIES:
+:ID:       stmybthbggstwsmkngnrlntwrksvbl
+:END:
+** [2019-11-23] PLT: abstract definitional interpreters, integration of linear & dependent type systems, lots of practical experience with Rust
+:PROPERTIES:
+:ID:       stpltbstrctdfntnlntrprtrsstmsltsfprctclxprncwthrst
+:END:
+* Against Empathy by Paul Bloom on Blinkist
+:PROPERTIES:
+:ID:       gnstmpthybyplblmnblnkst
+:END:
+** [#C] [2019-05-09] What the fuck, 1 in 4000 is a lot!
+:PROPERTIES:
+:ID:       thwhtthfcknslt
+:END:
+: Hey, I highlighted “That odds that Kravinsky would die from the transplant procedure were one in four thousand, whereas the recipient was sure to die if he didn’t donate his kidney. With so little risk and such a great reward, the choice was obvious, and empathy needn’t factor in at all.” in
+
+https://blinkist.com/share/highlights/5cd3d541d32d7a0011349bd0?utm_campaign=highlight&utm_source=bk_loop
+
+* [#D] [2020-07-04] used woeusb (compiled from source) to burn the image on sd card (NTFS). worked fine! :setup:windows:
+:PROPERTIES:
+:ID:       stsdwsbcmpldfrmsrctbrnthmgnsdcrdntfswrkdfn
+:END:
+* STRT [#C] [2020-05-06] [[https://flow-control.io/][flow/control — interdisciplinary research & development studio]]
+:PROPERTIES:
+:ID:       wdsflwcntrlflwcntrlntrdscplnryrsrchdvlpmntstd
+:END:
+* [2020-10-13] [[https://www.youtube.com/watch?v=ry5Semsqxh0][Вера Котельникова: зачем вообще ходить на свидания (подкаст «правило 34») - YouTube]]
+:PROPERTIES:
+:ID:       tswwwytbcmwtchvrysmsqxhвесвиданияподкастправилоytb
+:END:
+
+* [2019-07-10] Russian language - Wikipedia
+:PROPERTIES:
+:ID:       wdrssnlnggwkpd
+:END:
+: By the mid-20th century, such dialects were forced out with the introduction of the compulsory education system that was established by the Soviet government. Despite the formalization of Standard Russian, some nonstandard dialectal features (such as fricative [ɣ] in Southern Russian dialects) are still observed in colloquial speech.
+
+* [2020-10-22] [[https://www.amazon.co.uk/hz/pwo/ref=ppx_yo_dt_b_pwo_o06_s00?_encoding=UTF8&orderID=204-3198114-0798746&sellerID=A318442Y52GPGI][Problem with order]] :amazon:
+:PROPERTIES:
+:ID:       thswwwmznckhzpwrfppxydtbpfrdrdsllrdygpgprblmwthrdr
+:END:
+: If the seller does not resolve your issue within 48 hours of the first message, you can revisit this page to check if you are eligible to request an A-to-z Guarantee refund.
+* [#C] [2018-07-24] text classifiction guide from google
+:PROPERTIES:
+:ID:       ttxtclssfctngdfrmggl
+:END:
+: Check out this excellent guide to text classification from Google. Covers important best practices and rules of thumb, including a complete flowchart for picking the right model & preprocessing pipeline based on the statistical structure of your dataset. https://t.co/COd9ckdME6 https://t.co/4nBkb3HjFj
+
+
+https://twitter.com/fchollet/status/1021471614972522496
+
+* DONE [#B] [2019-10-18] What did Alan Kay mean by, "Lisp is the greatest single programming language ever designed"? | Lobsters :lisp:
+:PROPERTIES:
+:ID:       frwhtddlnkymnbylspsthgrtsprgrmmnglnggvrdsgndlbstrs
+:END:
+https://lobste.rs/s/np3por/what_did_alan_kay_mean_by_lisp_is_greatest
+** [2019-12-04] eh, dunno feels like it's hard to appreciate Lisp now because it hasn't evolved much and concepts that were novel once are taken for granted now
+:PROPERTIES:
+:ID:       wdhdnnflslktshrdtpprctlsptsthtwrnvlncrtknfrgrntdnw
+:END:
+
+* [#D] [2019-10-06] Котлета из пробирки                             :climate:
+:PROPERTIES:
+:ID:       snкотлетаизпробирки
+:END:
+: В последнем докладе IPCC приводятся данные, что выбросы парниковых газов от производства всей еды на планете составляют около 30 процентов от общей суммы выбросов. При этом если человечество полностью перейдет на веганскую диету, долю пищевых выбросов можно будет сократить на 15-20 процентов. 
+
+* [2020-05-05] [[https://lobste.rs/s/co4gms/how_sustainable_is_solar_powered_website][How Sustainable is a Solar Powered Website? | Lobsters]]
+:PROPERTIES:
+:ID:       tslbstrsscgmshwsstnblsslrwsstnblsslrpwrdwbstlbstrs
+:END:
+: It sounds like you’re unironically criticizing people for participating in society while also trying to improve society. Any serious attempt to address the climate crisis will require the coordinated participation of our whole civilization, individual action is insufficient, but it is still valuable for individuals to explore what steps our society could take to address the climate crisis. People do not have to be ideologically pure in order to try to make the world a better place.
+* [#C] [2019-02-01] Singularity Hacker - Master the Currency of Time :automation:
+:PROPERTIES:
+:ID:       frsnglrtyhckrmstrthcrrncyftm
+:END:
+http://singularityhacker.com/post/112349973370/master-the-currency-of-time
+: . FancyHands. Train your self to use digital assistants.
+: FancyHands is an army of people that do tasks for you. You pay for x number of tasks a month. The tasks roll over each month, and the workers frequently exceed my expectations. You can use FancyHands to lower bills, do internet research, find cheaper goods, shop for birthday presents, plan dates, and mass scheduling. My calendar is almost exclusively managed by FancyHands. I blind copy them on emails and just add “@fancy Update my calendar”. 
+* [#C] [2019-04-22] The Lagrangian | Describing the fundamental dynamics of reality for over 200 years
+:PROPERTIES:
+:ID:       mnthlgrngndscrbngthfndmntldynmcsfrltyfrvryrs
+:END:
+https://the-lagrangian.github.io/
+** [2019-05-05] subscribed
+:PROPERTIES:
+:ID:       snsbscrbd
+:END:
+
+* [2018-09-04] [[https://reddit.com/r/AskHistorians/comments/3k9quh/how_did_people_deal_with_rotting_teeth_before/cuw5sww/][How did people deal with rotting teeth before modern dentistry and antibiotics?]] /r/AskHistorians
+:PROPERTIES:
+:ID:       tsrddtcmrskhstrnscmmntskqndntstryndntbtcsrskhstrns
+:END:
+: Mostly they just suffered through. In some cases they had teeth pulled. In general, prior to modern highly starchy highly sugary diets people didn't have quite so many teeth problems, though even so any dental problems that remain without remedy tend to be extremely painful and life altering.
+: There are many historical stories of people laboring through tooth and mouth pain. The oldest historical accounts of tooth problems are seven millenia old from Sumeria. Historically there was a misconception that cavities and tooth decay were caused by a "tooth worm", which is a surprisingly common belief across many different separate cultures. This might be due to the appearance of the tooth nerve, which is somewhat worm-like.
+: As an example, Queen Elizabeth I of England had a history of bad teeth, and suffered from toothaches from time to time. In one case she had such a severe toothache that she couldn't sleep or get much done and eventually had the tooth extracted.
+: Historical records are not really good enough to get reliable statistics on dental issues as a cause of death, though there have been studies on remains to estimate such statistics (such as [this one](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3094918/)) which generally come to the conclusion that poor dental health contributed to higher mortality.
+* [2019-03-31] Why AlphaZero’s Artificial Intelligence Has Trouble With the Real World | Quanta Magazine
+:PROPERTIES:
+:ID:       snwhylphzrsrtfclntllgnchstrblwththrlwrldqntmgzn
+:END:
+https://www.quantamagazine.org/why-alphazeros-artificial-intelligence-has-trouble-with-the-real-world-20180221/
+** [2019-03-31] IMPALA seems to transfer knowledge between tasks, meaning time spent playing one game also helps it improve at others
+:PROPERTIES:
+:ID:       snmplsmsttrnsfrknwldgbtwntplyngngmlshlpstmprvtthrs
+:END:
+** [2019-03-31] Another OpenAI project pits simulated humans against one another in a sumo match, where they end up teaching themselves how to tackle and feint. During self-play, “you can never rest, you must always improve,” Sutskever said.
+:PROPERTIES:
+:ID:       snnthrpnprjctptssmltdhmnsvrrstymstlwysmprvstskvrsd
+:END:
+** [2019-03-31] That’s why self-play and deep neural networks fit together so well. Self-play churns out troves of games, giving deep neural networks a theoretically unlimited supply of the data they need to teach themselves. In turn, the deep neural networks offer a way to internalize the experiences and patterns encountered in self-play.
+:PROPERTIES:
+:ID:       snthtswhyslfplynddpnrlntwrncsndpttrnsncntrdnslfply
+:END:
+** [2019-03-31] Since 2008, hundreds of thousands of human players have attempted Foldit, an online game where users are scored on the stability and feasibility of the protein structures they fold. A machine could train itself in a similar manner, perhaps by trying to beat its previous best score with general reinforcement learning.
+:PROPERTIES:
+:ID:       snsnchndrdsfthsndsfhmnplystscrwthgnrlrnfrcmntlrnng
+:END:
+
+* [2019-03-31] Пациент без головы: Научились ли хирурги восстанавливать перерезанный спинной мозг
+:PROPERTIES:
+:ID:       snпациентбезголовынаучилитьперерезанныйспинноймозг
+:END:
+https://nplus1.ru/material/2019/03/28/head-transplantation
+** [2019-03-31] Благодаря его разработкам в 1967 году стала возможна успешная пересадка сердца от человека к человеку. Сделавший ее хирург Кристиан Барнард неоднократно приезжал в лабораторию Демихова и впоследствии называл его своим учителем.
+:PROPERTIES:
+:ID:       snблагодаряегоразработкамииназывалегосвоимучителем
+:END:
+** [2019-03-31] С этой проблемой Канаверо тоже предполагал справиться хирургическим путем — разрушив участок мозга, отвечающий за передачу эмоционального компонента боли, который и вызывает связанное с ней страдание
+:PROPERTIES:
+:ID:       snсэтойпроблемойканаверотаетсвязанноеснейстрадание
+:END:
+
+* [2019-05-12] dessant/buster: Captcha solver extension for humans
+:PROPERTIES:
+:ID:       sndssntbstrcptchslvrxtnsnfrhmns
+:END:
+https://github.com/dessant/buster
+
+* [#C] [2019-11-26] Patrick McKenzie on Twitter: ""No really, what is your process." I mull a topic in my head for between one day and a few weeks, verbalize half-formed thoughts out loud (disturbing passerby and/or my wife), then one day get coffee, write like a man possessed for 6~12 hours, two editing passes, publish." / Twitter :writing:
+:PROPERTIES:
+:ID:       tptrckmcknzntwttrnrllywhtfrhrstwdtngpssspblshtwttr
+:END:
+https://twitter.com/patio11/status/1199413094662885376
+: Patrick McKenzie
+: @patio11
+: "No really, what is your process."
+: 
+: I mull a topic in my head for between one day and a few weeks, verbalize half-formed thoughts out loud (disturbing passerby and/or my wife), then one day get coffee, write like a man possessed for 6~12 hours, two editing passes, publish.
+* [2020-04-11] "specialization is for insects"  (David Ichee)
+:PROPERTIES:
+:ID:       stspclztnsfrnsctsdvdch
+:END:
+* [2019-12-27] Viewpoint: Toward a computer for Visual Thinkers | Lobsters
+:PROPERTIES:
+:ID:       frvwpnttwrdcmptrfrvslthnkrslbstrs
+:END:
+https://lobste.rs/s/fo40j7/viewpoint_toward_computer_for_visual
+seemed a bit vaporwavy
+* [2019-12-23] Please consider permanent redirects as permament - Tiny Tiny RSS / Support - Tiny Tiny RSS: Community
+:PROPERTIES:
+:ID:       mnplscnsdrprmnntrdrctssprnyrssspprttnytnyrsscmmnty
+:END:
+https://community.tt-rss.org/t/please-consider-permanent-redirects-as-permament/470/12
+jesus, the author? is some massive asshole. fuck this
+* [#C] [2019-09-21] Shtetl-Optimized » 2013 » March  Preskill
+:PROPERTIES:
+:ID:       stshttlptmzdmrchprskll
+:END:
+https://www.scottaaronson.com/blog/?m=201303
+: I got back a couple days ago from John Preskill‘s 60th birthday symposium at Caltech.  To the general public, Preskill is probably best known for winning two bets against Stephen Hawking.  To readers of Shtetl-Optimized, he might be known for his leadership in quantum information science, his pioneering work in quantum error-correction, his beautiful lecture notes, or even his occasional comments here (though these days he has his own group blog and Twitter feed to keep him busy).  I know John as a friend, colleague, and mentor who’s done more for me than I can say.
+* [2019-12-29] [[https://reddit.com/r/NoStupidQuestions/comments/eh5wag/without_trying_to_sound_rude_why_do/fcfz81f/][Without trying to sound rude, why do anesthesiologists exist? I assume they do more than just put someone under, but why is it a completely different profession than just a surgeon?]] /r/NoStupidQuestions
+:PROPERTIES:
+:ID:       snsrddtcmrnstpdqstnscmmntfssnthnjstsrgnrnstpdqstns
+:END:
+: I’m not sure what the major difference would be, but my girlfriend is an anesthesiologist for a vet. Her explanation is that once the pet is under, it’s consistent micro adjustments and monitoring until the pet wakes up. Kind of like driving a car. It’ll go kinda straight but you have to turn the wheel ever so slightly consistently to get where you’re going safe.
+* [#C] [2019-06-01] Ink & Switch                                  :webdesign:
+:PROPERTIES:
+:ID:       stnkswtch
+:END:
+https://www.inkandswitch.com/index.html
+
+* [2020-06-17] [[https://www.youtube.com/watch?v=udlMSe5-zP8][(1) Joe Rogan Experience #1342 - John Carmack - YouTube]]
+:PROPERTIES:
+:ID:       wdswwwytbcmwtchvdlmszpjrgnxprncjhncrmckytb
+:END:
+1:16 Carmack speaking about good sides of online
+* [#C] [2020-05-05] [[https://news.ycombinator.com/item?id=17002885][Google, please fix Android's slow, bloated share UI | Hacker News]] :android:ui:
+:PROPERTIES:
+:ID:       tsnwsycmbntrcmtmdgglplsfxndrdsslwbltdshrhckrnws
+:END:
+* [#C] [2019-12-30] Hacker News RSS                          :rss:hackewnews:
+:PROPERTIES:
+:ID:       mnhckrnwsrss
+:END:
+https://edavis.github.io/hnrss/
+
+* [2019-01-06] New functional classes of writing systems? : conlangs :language:writing:
+:PROPERTIES:
+:ID:       snnwfnctnlclsssfwrtngsystmscnlngs
+:END:
+https://www.reddit.com/r/conlangs/comments/4zc59o/new_functional_classes_of_writing_systems/
+
+basically, some alternative writing system... nothing really novel
+
+* [#C] [2019-11-28] michael_nielsen on Twitter: "One of the strangest things about working on memory systems (https://t.co/QbN9qttrGe ) has been gradually coming to suspect they may not primarily be about memory!" / Twitter :writing:
+:PROPERTIES:
+:ID:       thmchlnlsnntwttrnfthstrngthymyntprmrlybbtmmrytwttr
+:END:
+https://twitter.com/michael_nielsen/status/1200153670907658240
+: Something similar often happens when writing.
+: You start out an essay or a book thinking it's about subject X. But as you write you realize the essay "wants to be" about something else. It's a marvellous experience, and one of the best reasons to write!
+* [2019-10-09] At the heart of these values is epistemic humility – a fancy way of saying that we must always keep in mind that we could be wrong or, at least, that we can always learn something from listening to the other side. :rational:
+:PROPERTIES:
+:ID:       wdtthhrtfthsvlsspstmchmltrnsmthngfrmlstnngtththrsd
+:END:
+
+* [2019-10-09] Virtue signaling comes in a few forms:  1) Talking about how cute the baby is (i.e. how correct the community’s sacred beliefs are)  2) Talking about how uncute the rival babies are (i.e. how wrong the community’s ideological opponents are)  3) Talking about how great the community itself is  4) Talking about how awful the rival communities themselves are :rational:
+:PROPERTIES:
+:ID:       wdvrtsgnlngcmsnfwfrmstlknthwwflthrvlcmmntsthmslvsr
+:END:
+
+* DONE [#B] [2019-07-22] How Not To Sort By Average Rating – Evan Miller :scoring:rating:
+:PROPERTIES:
+:ID:       mnhwnttsrtbyvrgrtngvnmllr
+:END:
+https://www.evanmiller.org/how-not-to-sort-by-average-rating.html
+: The Wilson score confidence interval isn’t just for sorting, of course. It is useful whenever you want to know with confidence what percentage of people took some sort of action. For example, it could be used to:
+** [2019-08-11] ok, basically explains how to calculate 'rating' in the absense of hight number of scores
+:PROPERTIES:
+:ID:       snkbscllyxplnshwtclcltrtngnthbsnsfhghtnmbrfscrs
+:END:
+* DONE [#B] [2019-10-01] humanetech-community/awesome-humane-tech: Promoting Solutions that Improve Wellbeing, Freedom and Society
+:PROPERTIES:
+:ID:       thmntchcmmntywsmhmntchprmnsthtmprvwllbngfrdmndscty
+:END:
+https://github.com/humanetech-community/awesome-humane-tech
+: Promoting Solutions that Improve Wellbeing, Freedom and Society 
+* TODO [#C] [2019-09-08] [[https://reddit.com/r/explainlikeimfive/comments/64v9ey/eli5_what_makes_us_get_a_stitch_in_our_sides_when/dg5c9ec/][ELI5: What makes us get a 'Stitch' in our sides when we run too quickly?]] /r/explainlikeimfive
+:PROPERTIES:
+:ID:       snsrddtcmrxplnlkmfvcmmntssdswhnwrntqcklyrxplnlkmfv
+:END:
+: Believe it or not, the real answer is, 'we don't know'! The most common answer is that the jerking nature of running pulls on the ligaments tying the organs in our stomachs to our bones - but this can't be the whole answer, as people get stitches while swimming!
+: Another possibility is that as the heart rate increases, the blood pressure into the liver and spleen increases, making them bigger, squeezing some blood vessels partially closed. This causes some places to not get enough oxygen.
+: A third has to do with breathing. If a runner doesn't breathe deeply, part of their lungs don't get fresh air. As the blood is depleted in oxygen when it gets back to the lungs, the parts of the lungs with stale air in them aren't getting enough oxygen, and getting too much carbon dioxide, causing pain.
+* [#C] [2019-11-19] [[https://reddit.com/r/dataisbeautiful/comments/dyhd0p/the_words_for_two_in_75_different_languages_and/][The words for "two" in 75 different languages, and how they are related. OC]] /r/dataisbeautiful
+:PROPERTIES:
+:ID:       tsrddtcmrdtsbtflcmmntsdyhnggsndhwthyrrltdcrdtsbtfl
+:END:
+
+* [#D] [2019-05-21] https://blog.stephenwolfram.com/2019/05/launching-today-free-wolfram-engine-for-developers/ Launching Today: Free Wolfram Engine for Developers—Stephen Wolfram Blog
+:PROPERTIES:
+:ID:       tsblgstphnwlfrmcmlnchngtdmngnfrdvlprsstphnwlfrmblg
+:END:
+https://blog.stephenwolfram.com/2019/05/launching-today-free-wolfram-engine-for-developers/
+
+* [2018-07-05] multiple logical volumes means separate space management. if you restrict data partition, then rest of system would work fine
+:PROPERTIES:
+:ID:       thmltpllgclvlmsmnssprtspcprttnthnrstfsystmwldwrkfn
+:END:
+* [#C] [2020-08-06] [[https://twitter.com/mayfer/status/1284350833811849218][murat on Twitter: ""Philosopher AI" is coming along nicely https://t.co/ciiiTBmoNj" / Twitter]] :gpt:
+:PROPERTIES:
+:ID:       thstwttrcmmyfrsttsmrtntwtcmnglngnclystcctbmnjtwttr
+:END:
+* [2020-03-10] donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
+:PROPERTIES:
+:ID:       tdnnmrtnsystmdsgnprmrlrnhmdsgnntrvwncldsnkflshcrds
+:END:
+https://github.com/donnemartin/system-design-primer
+* [#C] [2019-12-13] Alex Gurney on Twitter: "My 4yo son has been asking about how each day went at work, and I always try to explain. The other day he asked, "Daddy, why do the computers break all the time? Can you make them not break?" ... And it's just just it's hard and we're really trying" / Twitter
+:PROPERTIES:
+:ID:       frlxgrnyntwttrmyysnhsbnsksttshrdndwrrllytryngtwttr
+:END:
+https://twitter.com/ajtgurney/status/1204908190573436928
+** [#C] [2019-12-13] Sean Herrala on Twitter: "@ajtgurney @rachelreese All things break all the time. Computers just reliably tell you when it happens to them." / Twitter
+:PROPERTIES:
+:ID:       frsnhrrlntwttrjtgrnyrchlrblytllywhnthppnstthmtwttr
+:END:
+https://twitter.com/seanherrala/status/1205008170302787585
+:  All things break all the time. Computers just reliably tell you when it happens to them.
+* [2020-06-15] [[https://news.ycombinator.com/item?id=23521399][Ask HN: A way to adblock “we're using cookies” popups? | Hacker News]]
+:PROPERTIES:
+:ID:       mnsnwsycmbntrcmtmdskhnwytdblckwrsngckspppshckrnws
+:END:
+: Remember that only cookies (or similar) used for tracking are forbidden and require prior consent.
+: Functional cookies like shopping carts, logged-in user sessions, etc do not require disclosure nor consent.
+* [#C] [2020-03-01] (7) Alec Resnick on Twitter: ""Figure 1.1: Human experience of space and time in the physical world." https://t.co/5RWu8TQvJa" / Twitter
+:PROPERTIES:
+:ID:       snlcrsnckntwttrfgrhmnxprnhphysclwrldstcrwtqvjtwttr
+:END:
+https://twitter.com/aresnick/status/1233257306336485376
+: "Figure 1.1: Human experience of space and time in the physical world."
+* [2017-03-19] [[https://reddit.com/r/RelayForReddit/comments/609weo/what_hacker_news_app_do_you_guys_use/df4o7nb/][What hacker news app do you guys use?]] /r/RelayForReddit :hackernews:
+:PROPERTIES:
+:ID:       snsrddtcmrrlyfrrddtcmmntshckrnwsppdygyssrrlyfrrddt
+:END:
+: If there was one exactly like Relay, I'd be thrilled. But there isn't, so I use materialistic.
+* DONE [#C] [2020-05-03] [[https://www.projecthorseshoe.com/reports/featured/ph17r3.htm][Project Horseshoe 2017 report section 3]]
+:PROPERTIES:
+:ID:       snswwwprjcthrsshcmrprtsftdphrhtmprjcthrsshrprtsctn
+:END:

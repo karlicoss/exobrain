@@ -184,3 +184,45 @@ elevated autophagy requires 4-5 days of fasting
 :END:
 salmon is exception; it's lazy but they eat krill, which contains red pigment
 https://www.youtube.com/watch?v=6F_OWtoTTrA
+* maillard reactions chemistry (from edx course)                 :gastronomy:
+:PROPERTIES:
+:CREATED:  [2018-10-03]
+:ID:       mllrdrctnschmstryfrmdxcrs
+:END:
+
+adding a base (e.g. baking soda) -- reacts with amino groups? pretzels are brushed with baking soda to give them dark colors
+
+* different heating protocols (from edx course)                  :gastronomy:
+:PROPERTIES:
+:CREATED:  [2018-10-03]
+:ID:       dffrnthtngprtclsfrmdxcrs
+:END:
+
+heat diffusion equation blah blah
+
+* [2018-07-27] pandan cake -- pretty nice                              :food:
+:PROPERTIES:
+:ID:       frpndnckprttync
+:END:
+* [#C] [2018-08-10] macadamia                                          :food:
+:PROPERTIES:
+:ID:       frmcdm
+:END:
+: [​](http://telegra.ph/file/ec323aa2d1291bb47fd08.jpg)Макадамия – самый крепкий и самый дорогой орех в мире. Его скорлупа твёрже бетона, а чтобы получить первый урожай, нужно около 5 лет. Именно 5 лет назад я впервые его попробовал. Очищенные орехи мне привёз друг с Гавайев. Я подумал, что у них интересный вкус, но не более того.
+: А пару дней назад я узнал, что макадамию можно купить в скорлупе. Ещё на заводе при помощи специального аппарата её надпиливают, а сами орехи продают с ключиком, который вставляется в скорлупу и проворачивается, за счёт чего она раскалывается.
+: Такого насыщенного шоколадно-ванильно-карамельного флейвора я ещё никогда не пробовал. Наверное, это самый вкусный орех в мире. И именно скорлупа прекрасно сохраняет его особенности. Всегда покупайте макадамию в скорлупе, если можете. И не забывайте мыть все орехи – сальмонелла живёт не только в куриных яйцах.
+
+* [#C] [2018-08-21] DomesticApe23 comments on Is mold in blue cheeses different in any way from the mold we usually despise that makes it desireable in food? :cheese:wine:
+:PROPERTIES:
+:ID:       tdmstcpcmmntsnsmldnblchssdwsllydspsthtmkstdsrblnfd
+:END:
+https://www.reddit.com/r/askscience/comments/946wd9/is_mold_in_blue_cheeses_different_in_any_way_from/e3j8s6n/
+:  Grey mould, the soft hairy mould you see growing on fruit you leave out too long, is Botrytis cinerea. It is one of the world's most common agri/horticultural pests, in everything from floristry to tomato farming.
+: It is also a vital ingredient in a certain type of dessert wine. If grapes on the vine are infected with Botrytis and then kept below a certain temp and relatively dry, the mould infection is called Noble Rot. The grapes do not rot, they become permeable and allow water to evaporate, thus concentrating the sugars.
+: I find it interesting to note that the same pest that ruins your tomato plants is, in another scenario, a necessary ingredient in high quality wine products.
+
+* [#C] [2018-06-30] awesomedata/awesome-public-datasets: A topic-centric list of high-quality open datasets in public domains. Propose NEW data ☛☛☛PR☛☛☛ :track_changes:
+:PROPERTIES:
+:ID:       stwsmdtwsmpblcdtststpccntndtstsnpblcdmnsprpsnwdtpr
+:END:
+https://github.com/awesomedata/awesome-public-datasets

@@ -1158,3 +1158,15 @@ https://github.com/alphapapa/org-protocol-capture-html
 :PROPERTIES:
 :ID:       mnvsthfrmrprsrvsndrscrssbttrtst
 :END:
+* [#B] [2019-07-20] Org-mode Frequently Asked Questions                 :org:
+:PROPERTIES:
+:ID:       strgmdfrqntlyskdqstns
+:END:
+https://orgmode.org/worg/org-faq.html#closing-outline-sections
+The short answer to the question is no. Org-mode adheres to the cascading logic of outlines, in which a section is closed only by another section that occupies an equal or greater level.
+
+* [#A] [2020-01-28] [[https://reddit.com/r/orgmode/comments/ev5ox4/some_orgmode_features_you_may_not_know/][Some org-mode features you may not know]] /r/orgmode
+:PROPERTIES:
+:ID:       tsrddtcmrrgmdcmmntsvxsmrgnwsmrgmdftrsymyntknwrrgmd
+:END:
+- [2020-03-21] cool, but personally haven't found them useful

@@ -119,3 +119,12 @@ https://www.gwern.net/Resilient-Haskell-Software
 :PROPERTIES:
 :ID:       mnstckgsrvrswwwstckgrg
 :END:
+
+* [2019-04-14] debugging                                               :ghci:
+:PROPERTIES:
+:ID:       sndbggng
+:END:
+: stack ghci (module loaded automatically)
+: :set args rebuild
+: main
+: :break 222

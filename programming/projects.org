@@ -319,3 +319,17 @@ And more recently:
 https://obsproject.com/forum/resources/input-overlay.552/
 : A small plugin for obs studio that shows keyboard, mouse and gamepad inputs on stream.
 : Supports Windows and Linux (64bit, if you need 32bit either compile it yourself or message me)
+* [2020-04-02] looked at peek, and it doesn't quite do the trick either :demo:
+:PROPERTIES:
+:ID:       thlkdtpkndtdsntqtdthtrckthr
+:END:
+- you can continue/pause recording from the console
+- you can't set window id/adjust (granted, you can do it externally via xdotool which is arguably more modular)
+- you can't set recording format/path from the console (and even save the video?)
+  that made it useless for my purposes
+* [#C] [2019-12-11] Create LICENSE by MitchTalmadge · Pull Request #10 · kootenpv/gittyleaks
+:PROPERTIES:
+:ID:       wdcrtlcnsbymtchtlmdgpllrqstktnpvgttylks
+:END:
+https://github.com/kootenpv/gittyleaks/pull/10
+: If you are the copyright holder, it's up to you how you license your work —I think the only catch is that you can't retrospectively revoke open-source licenses for previous versions, but I think you could easily publish an updated version with a different license, or even license with two different licenses if you wanted to. Also, if others have previously contributed to the project whilst it was under a given license, you will need their permission to relicense it, unless you have a copyright-grant agreement with them (such that they assign copyright to their contributions to you).

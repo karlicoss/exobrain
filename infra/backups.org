@@ -90,3 +90,9 @@ https://stickleback.dk/borg-or-restic/
 :ID:       stbrgbckpbrgwbwbfrbrgbckp
 :END:
 https://github.com/borgbackup/borgweb
+
+* [#D] [2018-07-05] ok backintime refuses to backup symlinked folders :backup:backintime:
+:PROPERTIES:
+:ID:       thkbckntmrfsstbckpsymlnkdfldrs
+:END:
+kinda makes sense since when you restore you don't want to overwrite...

@@ -26,3 +26,15 @@ https://wiki.termux.com/wiki/Termux:API
 :END:
 :  Easer defeated me. I screwed around with it for a couple of days tying to get it to disable mobile data when connected to wifi, but the 'event' and 'condition' and 'profile' system was just too damn confusing for me to get it to work.
 :  There is no step-by-step tutorial or good explanation of how the app works that I could find, so I moved on to other software to solve my problem.
+* Touch Keyboard - Termux Wiki
+:PROPERTIES:
+:CREATED:  [2020-02-21]
+:ID:       tchkybrdtrmxwk
+:END:
+
+https://wiki.termux.com/wiki/Touch_Keyboard
+* [#C] [2020-05-05] [[https://geeks-world.github.io/articles/468337/index.html][Working with cron for Android and adding a shell script to autorun when the device boots]]
+:PROPERTIES:
+:ID:       tsgkswrldgthbrtclsndxhtmlgshllscrptttrnwhnthdvcbts
+:END:
+: Working with cron for Android and adding a shell script to autorun when the device boots

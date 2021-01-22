@@ -200,3 +200,29 @@ How to they perform against each other?
 :ID:       wdggl
 :END:
 https://www.reddit.com/r/YouShouldKnow/comments/6i2erz/ysk_that_google_tracks_everywhere_you_go_with/
+* TODO [#C] [2019-09-07] Federated architecture - Wikipedia
+:PROPERTIES:
+:ID:       stfdrtdrchtctrwkpd
+:END:
+https://en.wikipedia.org/wiki/Federated_architecture
+
+* DONE [#A] [2020-02-15] [[https://news.ycombinator.com/item?id=22333994][ActivityPub – The Secret Weapon of the Fediverse]] :federation:
+:PROPERTIES:
+:ID:       fca0f2a5-77e1-463e-84a0-55678f434c68
+:END:
+https://homehack.nl/activitypub-the-secret-weapon-of-the-fediverse
+** [2020-02-27] not much interesting in the discussion
+:PROPERTIES:
+:ID:       thntmchntrstngnthdscssn
+:END:
+* [#C] [2019-11-21] dat:// — a peer-to-peer protocol
+:PROPERTIES:
+:ID:       thdtprtprprtcl
+:END:
+https://dat.foundation
+: dat:// — a peer-to-peer protocol
+: Community-driven project for distributed data synchronization
+** [2019-11-21] ink & switch!!
+:PROPERTIES:
+:ID:       thnkswtch
+:END:

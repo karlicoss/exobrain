@@ -484,3 +484,77 @@ great talk (advocates Lean prover)
 :END:
 https://math.stackexchange.com/questions/320220/intuitively-what-is-the-difference-between-eigendecomposition-and-singular-valu/320232#320232
 difference between svd and eigendecomposition
+* [#C] [2018-07-21] Bayesian and frequentist reasoning in plain English - Cross Validated :bayes:
+:PROPERTIES:
+:ID:       stbysnndfrqntstrsnngnplnnglshcrssvldtd
+:END:
+https://stats.stackexchange.com/questions/22/bayesian-and-frequentist-reasoning-in-plain-english#comment3052_56
+
+* TODO [#C] https://jakevdp.github.io/blog/2014/06/12/frequentism-and-bayesianism-3-confidence-credibility/ :bayes:
+:PROPERTIES:
+:CREATED:  [2018-07-21]
+:ID:       sjkvdpgthbblgfrqntsmndbysnsmcnfdnccrdblty
+:END:
+
+* [#C] http://www.behind-the-enemy-lines.com/2008/01/are-you-bayesian-or-frequentist-or.html :bayes:
+:PROPERTIES:
+:CREATED:  [2018-07-21]
+:ID:       wwwbhndthnmylnscmrybysnrfrqntstrhtml
+:END:
+
+some practical example with beta distribution for bayes vs freq
+
+* [#C] https://www.youtube.com/watch?v=KhAUfqhLakw                    :bayes:
+:PROPERTIES:
+:CREATED:  [2018-07-21]
+:ID:       swwwytbcmwtchvkhfqhlkw
+:END:
+
+good talk, nice explanation of bayes vs frequentist
+takeaway: bayes os more natural for communicating scientific results to public: model parameter is 95% likely to be within the specific confidence interval
+
+** 13:00
+:PROPERTIES:
+:ID:       28584_28780
+:END:
+https://en.wikipedia.org/wiki/Nuisance_parameter
+nuiscance parameter -- integrated over in bayessian method? https://en.wikipedia.org/wiki/Marginal_likelihood#Bayesian_model_comparison
+
+** 15:29 conditioning vs marginalization
+:PROPERTIES:
+:ID:       cndtnngvsmrgnlztn
+:END:
+frequentist taking a slice, bayessian is integrating over (see the pictures)
+
+** TODO 17:00 confidence vs credibility
+:PROPERTIES:
+:ID:       cnfdncvscrdblty
+:END:
+freq : If this experiment is repeated many times, in 95% xases the computed xonfidence interval will contain the true parameter. confidence interval varying, parameter fixed.
+bayes: Given oyt observed data there is a 95% probability that the value of parameter lies within the credible region.  credible region fixed, parameter varying
+
+* [#C] some interesting point about what people actually mean when debating frequentist vs bayes :bayes:
+:PROPERTIES:
+:CREATED:  [2018-07-21]
+:ID:       smntrstngpntbtwhtpplctllymnwhndbtngfrqntstvsbys
+:END:
+
+https://www.lesswrong.com/posts/mQfNymou9q5riEKrf/frequentist-vs-bayesian-breakdown-interpretation-vs
+
+* http://math.ucr.edu/home/baez/surprises.html surprises in math       :baez:
+:PROPERTIES:
+:CREATED:  [2018-10-08]
+:ID:       mthcrdhmbzsrprsshtmlsrprssnmth
+:END:
+
+* DONE [#B] [2019-11-11] David Chapman on Twitter: "Excellent explanation of the emotional fallout from the crisis of the foundations of mathematics https://t.co/wxCBgLDizA" / Twitter
+:PROPERTIES:
+:ID:       mndvdchpmnntwttrxcllntxplsfmthmtcsstcwxcbgldztwttr
+:END:
+https://twitter.com/Meaningness/status/1193683556364513280
+: Excellent explanation of the emotional fallout from the crisis of the foundations of mathematics
+* [#C] [2018-04-02] https://twitter.com/gabrielpeyre/status/980716282227118080?s=20 :math:pde:
+:PROPERTIES:
+:ID:       mnstwttrcmgbrlpyrsttss
+:END:
+: Parabolic PDEs (e.g. heat) smooth out singularities. Hyperbolic PDEs (e.g. wave) displace singularities. 

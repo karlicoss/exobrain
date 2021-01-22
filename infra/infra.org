@@ -445,3 +445,84 @@ http://blog.jorgenschaefer.de/2014/07/why-systemd.html
 : Now I am used to taking blame for apparently everything that every went wrong on Linux, but you might as well blame your downstream distros for this as much you want to blame us upstream about this, as it's up to them to pick the right compile-time options matching their userbase and requirements in compatibility, and if they didn't do that to your liking, then maybe you should complain to them first.
 : 
 : (And yes, I still consider it a weakness of UNIX that "logout" doesn't really mean "logout", but just "maybe, please, if you'd be so kind, i'd like to exit, but not quite". I mean, that's not how you build a secure system. We fixed that really, fully knowing it would depart from UNIX tradition, but that's why we made it both compile-time and runtime configurable)
+* [#C] [2018-06-30] dropmeaword/kobo-aura-remote: Enable remote access on a Kobo Aura eReader :kobo:
+:PROPERTIES:
+:ID:       stdrpmwrdkbrrmtnblrmtccssnkbrrdr
+:END:
+https://github.com/dropmeaword/kobo-aura-remote
+
+** [2018-09-10] Wireless gone · Issue #1 · dropmeaword/kobo-aura-remote :kobo:
+:PROPERTIES:
+:ID:       mnwrlssgnssdrpmwrdkbrrmt
+:END:
+https://github.com/dropmeaword/kobo-aura-remote/issues/1
+
+* [2017-08-10] mutt                                                    :mail:
+:PROPERTIES:
+:ID:       thmtt
+:END:
+- couldn't set up html colors rendering
+-- apparently, no automatic filtering and folders
+
+I guess I'm better off setting retention policy for thunderbird
+* [#D] [2020-06-13] ok, so literally setting domain main is enough for TLS. kinda incredible :caddy:
+:PROPERTIES:
+:ID:       stksltrllysttngdmnmnsnghfrtlskndncrdbl
+:END:
+* [#D] [2018-06-10] python-daemon · PyPI
+:PROPERTIES:
+:ID:       snpythndmnpyp
+:END:
+https://pypi.org/project/python-daemon/
+
+* [#B] [2020-07-16] [[https://news.ycombinator.com/item?id=23860338][Zulip 3.0: Threaded Open Source Team Chat | Hacker News]] :zulip:
+:PROPERTIES:
+:ID:       thsnwsycmbntrcmtmdzlpthrddpnsrctmchthckrnws
+:END:
+** [2020-07-31] ok, Zulip is clearly really good, I think I should use it
+:PROPERTIES:
+:ID:       frkzlpsclrlyrllygdthnkshldst
+:END:
+* DONE [#C] [2019-12-20] 9 best open-source findings, November 2019 - DEV Community 👩‍💻👨‍💻 :docker:
+:PROPERTIES:
+:ID:       frbstpnsrcfndngsnvmbrdvcmmnty
+:END:
+https://dev.to/sobolevn/9-best-open-source-findings-november-2019-gi0
+: lazydocker
+: Minimalistic TUI to work with docker. Supports mouse.
+: Written in Go.
+* [2020-01-18] Cron/Anacron vs. Systemd - Ask Ubuntu
+:PROPERTIES:
+:ID:       stcrnncrnvssystmdskbnt
+:END:
+https://askubuntu.com/questions/1023186/cron-anacron-vs-systemd
+: Systemd timers have some overhead to learn and setup, but provide a number of benefits. There some packages like systemd-cron and systemd-cron-next that allow you to have cron entries converted to systemd-timers, to try to provide a best-of-both-worlds solution
+* [2020-01-22] systemd.service
+:PROPERTIES:
+:ID:       wdsystmdsrvc
+:END:
+https://www.freedesktop.org/software/systemd/man/systemd.service.html
+: Type=oneshot is the implied default if neither Type= nor ExecStart= are specified.
+* DONE [#A] [2020-02-23] [[https://news.ycombinator.com/item?id=22396911][Daily Life with the Offline Laptop]] :offline:
+:PROPERTIES:
+:ID:       snsnwsycmbntrcmtmddlylfwththfflnlptp
+:END:
+https://dataswamp.org/~solene/2020-02-18-offline-laptop-v2.html
+* [#B] [2019-11-26] Is it possible to escalate privileges and escaping from a Docker container? - Information Security Stack Exchange
+:PROPERTIES:
+:ID:       tstpssbltscltprvlgsndscpncntnrnfrmtnscrtystckxchng
+:END:
+https://security.stackexchange.com/questions/152978/is-it-possible-to-escalate-privileges-and-escaping-from-a-docker-container/153016#153016
+: A user on a Docker host who has access to the docker group or privileges to sudo docker commands is effectively root (as you can do things like use docker to run a privilieged container or mount the root filesystem inside a container), which is why it's very important to control that right.
+* [#C] [2020-04-15] [[https://news.ycombinator.com/item?id=22877355][My experience with NixOS | Hacker News]]
+:PROPERTIES:
+:ID:       wdsnwsycmbntrcmtmdmyxprncwthnxshckrnws
+:END:
+: My tip: don't use nix-env to install packages like it's Aptitude or Pacman, use `nix run` if you need a package temporarily, home-manager if you need a user-level package permanently, or just straight up change the configuration.nix to include the package as a system-wide one.
+: If you use nix-env you're just polluting your environment in an imperative way and that is pretty much going against Nix' declarative nature.
+* [#C] [2020-12-05] [[https://news.ycombinator.com/item?id=25142405][Librem 5 Mass Production Phone Has Begun Shipping | Hacker News]]
+:PROPERTIES:
+:ID:       stsnwsycmbntrcmtmdlbrmmssdctnphnhsbgnshppnghckrnws
+:END:
+: I've been trying to use the PinePhone as a daily driver and it simply isn't there yet: camera is slow to the point of unusable and sometimes it hard crashes when making calls.
+: Here's hoping that Purism has done a good job of cleaning up some of the issues in Phosh.

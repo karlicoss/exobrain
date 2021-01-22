@@ -752,3 +752,126 @@ https://twitter.com/stephentyrone/status/1073795608819855367
 :PROPERTIES:
 :ID:       snhvrybsctlkndlsdsntrllycbrsndmscnstthndcnbdnnnypl
 :END:
+* [#C] [2018-03-19] CI_ERROR_TAG in comment, and then grep it       :testing:
+:PROPERTIES:
+:ID:       mncrrrtgncmmntndthngrpt
+:END:
+* [#C] [2020-02-05] Working example of sub · Issue #694 · stedolan/jq    :jq:
+:PROPERTIES:
+:ID:       wdwrkngxmplfsbssstdlnjq
+:END:
+https://github.com/stedolan/jq/issues/694
+: You have fallen in the main trap in jq: the comma IS NOT an arguments separator in function calls.
+: Allways use the semi-colon!
+* TODO [#B] [2019-12-29] Web scraping in 2018 — forget HTML, use XHRs, metadata or JavaScript variables :scrape:
+:PROPERTIES:
+:ID:       snwbscrpngnfrgthtmlsxhrsmtdtrjvscrptvrbls
+:END:
+https://blog.apify.com/web-scraping-in-2018-forget-html-use-xhrs-metadata-or-javascript-variables-8167f252439c
+: This approach can be used for scraping data from Airbnb. You don’t even need to open the page in a headless browser, you just need to get the token first and then use their API:
+* DONE [#B] [2019-09-01] scrapinghub/portia: Visual scraping for Scrapy :scrapy:
+:PROPERTIES:
+:ID:       snscrpnghbprtvslscrpngfrscrpy
+:END:
+https://github.com/scrapinghub/portia
+: Portia is a tool that allows you to visually scrape websites without any programming knowledge required. With Portia you can annotate a web page to identify the data you wish to extract, and Portia will understand based on these annotations how to scrape data from similar pages.
+* [2019-02-14] splash couldn't handle deliveroo main page. maybe should have waited longer though?? :scrape:scrapy:
+:PROPERTIES:
+:ID:       thsplshcldnthndldlvrmnpgmybshldhvwtdlngrthgh
+:END:
+* [2019-02-13] Self-contained minimum example script to run scrapy   :scrapy:
+:PROPERTIES:
+:ID:       wdslfcntndmnmmxmplscrpttrnscrpy
+:END:
+https://gist.github.com/alecxe/fc1527d6d9492b59c610
+
+* [#D] [2018-12-09] spaCy · Industrial-strength Natural Language Processing in Python :nlp:parsing:
+:PROPERTIES:
+:ID:       snspcyndstrlstrngthntrllnggprcssngnpythn
+:END:
+https://spacy.io/
+** [2019-02-21] ok, pretty interesting, but suitable for proper natural language, not my kind of logging...
+:PROPERTIES:
+:ID:       thkprttyntrstngbtstblfrprprntrllnggntmykndflggng
+:END:
+* [#D] [2019-08-17] public-apis/public-apis: A collective list of free APIs for use in software and web development.
+:PROPERTIES:
+:ID:       stpblcpspblcpscllctvlstffrpsfrsnsftwrndwbdvlpmnt
+:END:
+https://github.com/public-apis/public-apis
+
+* [2018-11-13] good with explanation https://agda.readthedocs.io/en/latest/language/with-abstraction.html#simultaneous-abstraction :agda:
+:PROPERTIES:
+:ID:       tgdwthxplntnsgdrdthdcsnlthbstrctnhtmlsmltnsbstrctn
+:END:
+tldr: write multiple with clauses; then pattern match on them to rewrite and eliminate
+* [2019-04-08] Syntactor                                           :json:ide:
+:PROPERTIES:
+:ID:       mnsyntctr
+:END:
+https://gregoor.github.io/syntactor/
+
+* [2019-03-06] Mobile-Friendly Test - Google Search Console             :web:
+:PROPERTIES:
+:ID:       wdmblfrndlytstgglsrchcnsl
+:END:
+https://search.google.com/test/mobile-friendly
+* [2019-06-13] [[https://reddit.com/r/cpp/comments/by12cc/cnow_2019_kris_jusiak_dependency_injection_a/eqc1utq/][C++Now 2019: Kris Jusiak “Dependency Injection - a 25-dollar term for a 5-cent concept”]] /r/cpp :programming:
+:PROPERTIES:
+:ID:       thsrddtcmrcppcmmntsbycccnjctndllrtrmfrcntcncptrcpp
+:END:
+- DI is just a fancy term for using constructors (25 dollar concept...)
+- DI can be easily misused
+- DI doesn't require a library/framework
+- DI library/framework helps with the wiring mess
+* [#D] [2019-04-27] Rust cheat sheet  https://upsuper.github.io/rust-cheatsheet/ :rust:
+:PROPERTIES:
+:ID:       strstchtshtspsprgthbrstchtsht
+:END:
+
+* [2019-08-11] dariusk/corpora: A collection of small corpuses of interesting data for the creation of bots and similar stuff.
+:PROPERTIES:
+:ID:       sndrskcrprcllctnfsmllcrpsgdtfrthcrtnfbtsndsmlrstff
+:END:
+https://github.com/dariusk/corpora
+: This project is a collection of static corpora (plural of "corpus") that are potentially useful in the creation of weird internet stuff. I've found that, as a creator, sometimes I am making something that needs access to a lot of adjectives, but not necessarily every adjective in the English language. So for the last year I've been copy/pasting an adjs.json file from project to project. This is kind of awful, so I'm hoping that this project will at least help me keep everything in one place.
+* Nullable strings Vs unset column in databade                           :db:
+:PROPERTIES:
+:CREATED:  [2020-04-08]
+:ID:       nllblstrngsvsnstclmnndtbd
+:END:
+
+: Most of this advice is stuff they tell you in school that doesn’t matter at all in reality.
+: Real advice:
+: - Normalize until it hurts, denormalize until it works. (I.e. prefer normal forms but denormal will have better performance.)
+: - You need nullable dates and nullable numbers. You never need a nullable string. If you must distinguish blank string from unset, add a column called “unset”. Using null for this will just result in bad data entry.
+: - Names should be stored as display_name, first_name, and last_name. A display name is not the same as just first plus last. They have different purposes, so don’t shove them together.
+: - When in doubt, just have a column full of JSON and figure it out later.
+: - Offset pagination is bad for performance. Avoid it at all costs unless you want some spider indexing page 10,432 of your archives to eat all your CPU.
+* [#C] [2019-12-11] [[https://news.ycombinator.com/item?id=21760483][A guide to Web Scraping without getting blocked]] :scrape:
+:PROPERTIES:
+:ID:       wdsnwsycmbntrcmtmdgdtwbscrpngwthtgttngblckd
+:END:
+https://www.scrapingbee.com/blog/web-scraping-without-getting-blocked
+* [2020-03-09] sqldiff can generate diff                             :sqlite:
+:PROPERTIES:
+:ID:       mnsqldffcngnrtdff
+:END:
+* [#B] [2018-08-27] [[https://reddit.com/r/lisp/comments/9ar7mp/a_road_to_common_lisp_steve_losh/e4xx2ic/][A Road to Common Lisp / Steve Losh]] /r/lisp
+:PROPERTIES:
+:ID:       mnsrddtcmrlspcmmntsrmprdtshxxcrdtcmmnlspstvlshrlsp
+:END:
+: I've always liked this example, from _Practical Common Lisp_ (2007).
+: > `DOLIST` is similar to Perl's `foreach` or Python's `for`. Java added a similar kind of loop construct with the "enhanced" `for` loop in Java 1.5, as part of JSR-201. Notice what a difference macros make. A Lisp programmer who notices a common pattern in their code can write a macro to give themselves a source-level abstraction of that pattern. A Java programmer who notices the same pattern has to convince Sun that this particular abstraction is worth adding to the language. Then Sun has to publish a JSR and convene an industry-wide "expert group" to hash everything out. That process--according to Sun--takes an average of 18 months. After that, the compiler writers all have to go upgrade their compilers to support the new feature. And even once the Java programmer's favorite compiler supports the new version of Java, they probably still can't use the new feature until they're allowed to break source compatibility with older versions of Java. So an annoyance that Common Lisp programmers can resolve for themselves within five minutes plagues Java programmers for years.
+
+* DONE [#C] Good summary on ML inerpretability https://www.twosigma.com/insights/article/interpretability-methods-in-machine-learning-a-brief-survey :ml:
+:PROPERTIES:
+:CREATED:  [2019-07-10]
+:ID:       gdsmmrynmlnrprtbltyswwwtwltymthdsnmchnlrnngbrfsrvy
+:END:
+* [#C] [2020-12-11] [[https://news.ycombinator.com/item?id=25383066][Monads and GATs in Nightly Rust | Hacker News]]
+:PROPERTIES:
+:ID:       frsnwsycmbntrcmtmdmndsndgtsnnghtlyrsthckrnws
+:END:
+: We don't need new languages without features: it has already been proven that you only need exactly one feature in your programming language to write any program possible. Look up single instruction languages for proof that it is possible and such single features languages exist.
+: What we need are languages with many features that are easy to use to create complex programs that are still easy to understand.

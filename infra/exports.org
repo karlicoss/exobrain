@@ -772,3 +772,37 @@ There is no Steam Web API method for historical player count of a specific game.
 :END:
 https://gist.github.com/harperreed/9d063322eb84e88bc2d0580885011bdd
 https://gist.github.com/karlicoss/3361f6a239048a451daa2a02982ee180
+
+* [2019-04-23] feedbin/feedbin-api: Feedbin API Documentation       :feedbin:
+:PROPERTIES:
+:ID:       tfdbnfdbnpfdbnpdcmnttn
+:END:
+https://github.com/feedbin/feedbin-api#readme
+: The base URL for all requests is https://api.feedbin.com/v2/ Only https is supported.
+: The Feedbin API uses HTTP Basic authentication
+: curl -u 'example@example.com:password' https://api.feedbin.com/v2/subscriptions.json
+
+* [2020-10-25] [[https://connect.garmin.com/modern/daily-summary/2020-10-25/heartRate][Garmin Connect]] :garmin:
+:PROPERTIES:
+:ID:       snscnnctgrmncmmdrndlysmmryhrtrtgrmncnnct
+:END:
+: Looks like you experienced a time change. This may cause some inaccuracies with today's data.
+
+jesus!
+* [#C] [2020-01-11] Getting Started — PRAW 3.6.0 documentation       :reddit:
+:PROPERTIES:
+:ID:       stgttngstrtdprwdcmnttn
+:END:
+https://praw.readthedocs.io/en/v3.6.0/pages/getting_started.html#connecting-to-reddit
+: You may also have realized that the karma values change from run to run. This inconsistency is due to reddit’s obfuscation of the upvotes and downvotes. The obfuscation is done to everything and everybody to thwart potential cheaters. There’s nothing we can do to prevent this.
+* [2020-05-31] [[https://www.youtube.com/watch?v=X3SrZuH00GQ][Own your content on Social Media using the IndieWeb - YouTube]] :dataliberation:
+:PROPERTIES:
+:ID:       snswwwytbcmwtchvxsrzhgqwnyrcntntnsclmdsngthndwbytb
+:END:
+
+* [#C] [2019-04-19] Pinboard on Twitter: "Next question is, does a raw API call give the same results as the website? The API and website search engine run off of different indexes.… https://t.co/CZrLE7YNWo" :pinboard:
+:PROPERTIES:
+:ID:       frpnbrdntwttrnxtqstnsdsrwrnfffdffrntndxsstcczrlynw
+:END:
+https://twitter.com/Pinboard/status/1113807174717792256
+: Next question is, does a raw API call give the same results as the website? The API and website search engine run off of different indexes.

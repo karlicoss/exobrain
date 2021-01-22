@@ -478,3 +478,62 @@ https://blog.mozilla.org/addons/
 :END:
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page
 : You can also open this page programmatically using the runtime.openOptionsPage() function.
+* [2019-04-21] When to use margin vs padding in CSS - Stack Overflow    :css:
+:PROPERTIES:
+:ID:       snwhntsmrgnvspddngncssstckvrflw
+:END:
+https://stackoverflow.com/questions/2189452/when-to-use-margin-vs-padding-in-css
+: To me, the biggest difference between padding and margin is that vertical margins auto-collapse, and padding doesn't.
+** TODO [2019-05-13] {margins} collapse {paddings} dont           :drill:css:
+:PROPERTIES:
+:ID:       40487d4a-9e97-4018-ab2e-4d6947100ba5
+:END:
+*** [2019-10-27] mnemonic is alphabetic order? dunno.
+:PROPERTIES:
+:ID:       snmnmncslphbtcrdrdnn
+:END:
+** TODO [2019-05-13] this is also a good example for drill             :blog:
+:PROPERTIES:
+:ID:       mnthsslsgdxmplfrdrll
+:END:
+* DONE [#B] js library for chrome settings, too annoying to bind them manually.. :promnesia:grasp:
+:PROPERTIES:
+:CREATED:  [2019-04-21]
+:ID:       jslbrryfrchrmsttngstnnyngtbndthmmnlly
+:END:
+** [2019-08-24] found something the other day; must be in links
+:PROPERTIES:
+:ID:       stfndsmthngththrdymstbnlnks
+:END:
+* [2019-11-19] [Question] How to set cors headers? · Issue #308 · http-party/http-server :http:cors:
+:PROPERTIES:
+:ID:       tqstnhwtstcrshdrsssprtysrvr
+:END:
+https://github.com/http-party/http-server/issues/308
+fucking hell, why is that shit so hard???
+
+* [2019-11-18] python - Enable access control on simple HTTP server - Stack Overflow :http:cors:
+:PROPERTIES:
+:ID:       mnpythnnblccsscntrlnsmplsrvrstckvrflw
+:END:
+https://stackoverflow.com/questions/21956683/enable-access-control-on-simple-http-server
+: @HairOfTheDog The SimpleHTTPRequestHandler doesn’t support the OPTIONS HTTP method. You could add it if you want (read the Python manual about HTTP servers); or you could just not try to access the server like that.
+* TODO right, set up logins in about:profiles .after that it gets cloned :webext:
+:PROPERTIES:
+:CREATED:  [2020-03-28]
+:ID:       rghtstplgnsnbtprflsftrthttgtsclnd
+:END:
+* [2019-06-13] fuck. looks like firefox doesn't allow persistent dev extensions, that really sucks. and unbranded version doesn't have PPA? wtf? how are developers supposed to test their stuff :firefox:
+:PROPERTIES:
+:ID:       thfcklkslkfrfxdsntllwprsshwrdvlprssppsdttstthrstff
+:END:
+
+* [2019-08-31] uBlock/manifest.json at 6c34b3c3c96756b6db7ff2f3a0394472d81cde3e · gorhill/uBlock
+:PROPERTIES:
+:ID:       stblckmnfstjsntcbccbdbfffdcdgrhllblck
+:END:
+https://github.com/gorhill/uBlock/blob/6c34b3c3c96756b6db7ff2f3a0394472d81cde3e/platform/webext/manifest.json
+: "options_ui": {
+:     "page": "dashboard.html",
+:     "open_in_tab": true
+:   },

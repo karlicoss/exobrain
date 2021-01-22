@@ -435,3 +435,23 @@ https://lucassimpson.com/blog/2020-01-23/my-second-phone-is-in-the-cloud/
 :ID:       70aec2d0-cf09-49e7-a06e-745667852a26
 :END:
 https://mek.fyi/essays/universal-knowledge/universal-todo-list
+* [2020-11-01] [[https://www.youtube.com/watch?v=kZRE7HIO3vk&list=WL&index=69][The Thirty Million Line Problem - YouTube]]
+:PROPERTIES:
+:ID:       snswwwytbcmwtchvkzrhvklstlndxththrtymllnlnprblmytb
+:END:
+seems kinda geared towards games?
+I mean ok you can drop 17M LOC from Linux kernel, but what about the rest?
+* [#B] [2020-05-25] I had to jailbreak my iPhone to change the default browser | Lobsters :security:malleable:
+:PROPERTIES:
+:ID:       mnhdtjlbrkmyphntchngthdfltbrwsrlbstrs
+:END:
+https://lobste.rs/s/oyxpva/i_had_jailbreak_my_iphone_change_default
+: In my opinion, a security model that cuts this deeply into the ecosystem and customisability deserves only criticism. I don’t want to have such a platform for my personal computing needs.
+: Security is nice, but my needs on my own machine come first. A device that is secure but doesn’t do what I want is useless to me. I need root access to make my machine do what I want because that is the only purpose the machine has: To do what I and only I want. I don’t need a machine that does what someone else wants - they should buy and maintain that machine if it serves them! The von Neumann architecture contains a memory that stores data and instructions.
+: I don’t want to go back into computing stone age before von Neumann just because Apple (or anyone else, for that matter) thinks only they know what’s okay to execute.
+: Without these permissions, modern computing is less exciting than the computers that existed 40 years ago.
+* [#B] [2020-02-15] Jethro Kuan on Twitter: "Org-roam is built by 1 person, but it remains competitive by drawing on the Org ecosystem. You're free to build your own APIs, customize Org-roam as you like. Whereas with @RoamResearch you can only make a feature request and hope… :malleable:
+:PROPERTIES:
+:ID:       stjthrknntwttrrgrmsbltbypmrsrchycnnlymkftrrqstndhp
+:END:
+https://mobile.twitter.com/jethroksy/status/1228590202626531329

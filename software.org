@@ -1,6 +1,5 @@
-#+TITLE: 
+#+TITLE: Software
 #+logseq_graph: false
-#+logseq_title: software
 #+filetags: software
 
 * [2018-05-02] My rants about interface updates                          :ui:
@@ -124,3 +123,46 @@ https://idlewords.com/talks/website_obesity.htm
 : 3. It does not seem very "viral" or income-generating. I know this is premature at this point, but without charging users for the service, is it reasonable to expect to make money off of this?
 
 haha fascinating
+* [2018-09-18] rant: Software disenchantment @ tonsky.me        :performance:
+:PROPERTIES:
+:ID:       trntsftwrdsnchntmnttnskym
+:END:
+http://tonsky.me/blog/disenchantment/
+
+* [#B] [2020-06-24] [[https://twitter.com/gravislizard/status/927594710364909568][Gravis (edited) on Twitter: "one of the primary reasons computers were *created* was to cross reference data. that is nearly impossible in most software now." / Twitter]] :rant:performance:
+:PROPERTIES:
+:ID:       wdstwttrcmgrvslzrdsttsgrvrlympssblnmstsftwrnwtwttr
+:END:
+: one of the primary reasons computers were *created* was to cross reference data. that is nearly impossible in most software now.
+* DONE [#A] [2020-02-10] [[https://news.ycombinator.com/item?id=22281801][Web Design: The First 100 Years (2014)]] :webbloat:
+:PROPERTIES:
+:ID:       mnsnwsycmbntrcmtmdwbdsgnthfrstyrs
+:END:
+https://idlewords.com/talks/web_design_first_100_years.htm
+** [2020-02-15] https://news.ycombinator.com/item?id=9920121
+:PROPERTIES:
+:ID:       stsnwsycmbntrcmtmd
+:END:
+** [2020-02-15] https://news.ycombinator.com/item?id=9920121
+:PROPERTIES:
+:ID:       stsnwsycmbntrcmtmd
+:END:
+* [#C] If I'm using a GPL 3 library in my project, can I license my project under MIT license? - Open Source Stack Exchange :license:
+:PROPERTIES:
+:CREATED:  [2019-11-06]
+:ID:       fmsnggpllbrrynmyprjctcnlcctndrmtlcnspnsrcstckxchng
+:END:
+: GPL is copyleft, meaning you have to distrubute any derivative works of the original also under the GPL. If you use a GPL library in your project, that creates a derivative work of the library, and your entire project has to be licensed under the GPL.
+: One exception: if it's the LGPL (Lesser/Linking GPL) then dynamically linking the library does not create a derivative and you're free to license how you want.
+: One caveat: you can also license your work under annother license. As long as people can get it under GPL, that satisfies the GPL requirements, and you can dual-license with MIT, for example. People can choose which license to follow.
+* [#B] [2020-01-13] Writing Software to Last 50 Years | Lobsters
+:PROPERTIES:
+:ID:       mnwrtngsftwrtlstyrslbstrs
+:END:
+https://lobste.rs/s/nt9kfo/writing_software_last_50_years
+
+* [2020-06-08] [[https://kevingal.com/blog/metronome.html][Obese websites and planet-sized metronomes]]
+:PROPERTIES:
+:ID:       mnskvnglcmblgmtrnmhtmlbswbstsndplntszdmtrnms
+:END:
+: Obese websites and planet-sized metronomes

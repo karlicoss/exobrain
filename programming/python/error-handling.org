@@ -42,3 +42,14 @@ I guess we could backoff indefinitely; and rely on global timeout if necessary
 :PROPERTIES:
 :ID:       tjdffythrrrmdljdffyblgcmthrrrmdl
 :END:
+
+* [#C] [2019-11-22] Error Handling Survey                       :rust:errors:
+:PROPERTIES:
+:ID:       frrrrhndlngsrvy
+:END:
+https://blog.yoshuawuyts.com/error-handling-survey
+
+* [2018-04-05] catching and rethrowing might be a good way of adding context :errors:
+:PROPERTIES:
+:ID:       thctchngndrthrwngmghtbgdwyfddngcntxt
+:END:

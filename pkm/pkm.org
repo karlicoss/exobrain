@@ -2093,3 +2093,88 @@ https://www.gwern.net/Search
 :PROPERTIES:
 :ID:       thkntssflfrmbtmghtbgdtrcmmndtnwbs
 :END:
+
+* [#C] [2019-12-02] you will forget things              :exobrain:motivation:
+:PROPERTIES:
+:ID:       mnywllfrgtthngs
+:END:
+: > Most of your life is not fun
+: > Your loved ones don't want every piece of your daily minutiae, really, they don't
+: I'm not sure what to say to this. Try to have more fun? :)
+: 
+:  > You never forget the best times, the rest is unimportant
+: Empirically untrue, sadly. From reminiscing with friends, it's clear that both they and I have forgotten some of the best times, since I remember some of the best times and have forgotten others, and vice versa. I can remember that I had quite a bit of fun during the late eighties, but the vast majority of the detail is gone. When I've written down decade-old memories and looked at them a decade after that, it really, really often happens that I'm disturbed at how differently I remembered that event when I was halfway closer to it than now. Human memory is so sketchy and malleable that it's just barely useful at all. :(
+
+
+https://news.ycombinator.com/item?id=5285929
+
+* [#D] [2019-01-17] https://treeverse.app/ tool to navigate twitter threads :twitter:
+:PROPERTIES:
+:ID:       thstrvrspptltnvgttwttrthrds
+:END:
+
+* [#D] [2018-11-07] JacobEvelyn/friends: Spend time with the people you care about. Introvert-tested. Extrovert-approved. :social:pkm:
+:PROPERTIES:
+:ID:       wdjcbvlynfrndsspndtmwththcrbtntrvrttstdxtrvrtpprvd
+:END:
+https://github.com/JacobEvelyn/friends#overview
+
+* DONE [#A] [2018-09-26] Augmenting Long-term Memory      :nielsen:spacedrep:
+:PROPERTIES:
+:ID:       wdgmntnglngtrmmmry
+:END:
+http://augmentingcognition.com/ltm.html
+** [2019-01-10] huh! it's the guy who wrote quantum computing book!
+:PROPERTIES:
+:ID:       thhhtsthgywhwrtqntmcmptngbk
+:END:
+
+** [2019-01-25] ok, pretty good article!
+:PROPERTIES:
+:ID:       frkprttygdrtcl
+:END:
+
+* STRT [#C] [2020-01-30] [[https://reddit.com/r/productivity/comments/evjtlz/build_the_ultimate_personal_knowledge_management/ffzb4zg/][Build the ultimate personal knowledge management system]] /r/productivity :pkm:
+:PROPERTIES:
+:ID:       thsrddtcmrprdctvtycmmntsvnwldgmngmntsystmrprdctvty
+:END:
+: Hi, thanks for that detailed comment and all the resources you linked! It'll take some time to look at all of them and transfer your knowledge to this project.
+: So I'm focused on developing Frontends, but I asked a friend who is very strong in building backends. We agreed that we have to try to develop a modern version org-mode with all the features we need.
+: Something like [https://remotestorage.io/](https://remotestorage.io/)  what [kureshii](https://www.reddit.com/user/kureshii/) mentioned. The base idea is to build a system based on Microservices which will be specialized in certain tasks, like file formats. But all of the services will be available through one unified API. And everybody can decide how they want to consume the data, we'll provide a JS Client Side Libary. E.g. I want a dedicated Notes and ToDo app, but also something an app to organize projects where I can See notes and todo lists in relation to a project. And due to the fact that everything will be Open Source everybody can build their own Microservice, eg to add a service to make iCloud files available.
+: And it'll be easy to set up because everything will be dockerized and hopefully up with only one command. And maybe in the long term we can think about a hosted version because I think that should be service everybody not only IT people should use. Yes, you lose the freedom to have everything on the server you want, but at least you have a centralized backup of all your data. And one of our focus topics will be an easy export function as markdown and if you want you could automize this to a 3rd party solution. But that's a long way to go :)
+: Due to the interest, I created a new Twitter account: [https://twitter.com/The\_Minerva\_](https://twitter.com/The_Minerva_)  and already a GitHub Org [https://github.com/Minerva-Development](https://github.com/Minerva-Development) .
+: I would be happy if we could stay in contact :)
+: Thank you!
+: 
+: PS: Yes we may reinvent the wheel, but we'll use what is already there, at least concepts and specs :)
+* [2019-12-09] [[https://news.ycombinator.com/item?id=21736200][As We May Think (1945)]] :pkm:
+:PROPERTIES:
+:ID:       mnsnwsycmbntrcmtmdswmythnk
+:END:
+https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/
+** [2020-01-31] might be interesting to keep something like "history of knowledge management"?
+:PROPERTIES:
+:ID:       frmghtbntrstngtkpsmthnglkhstryfknwldgmngmnt
+:END:
+* [2020-01-16] Tweet from POLAR - Personal knowledge repository (@getpolarized), at Jan 16, 21:00 "cognitive prosthetic :spacedrep:
+:PROPERTIES:
+:ID:       thtwtfrmplrprsnlknwldgrpstrygtplrzdtjncgntvprsthtc
+:END:
+: @michael_nielsen The analogy of supervised learning and spaced repetition I think is dead on. I've been referring to Polar as a "cognitive prosthetic".  My background is partly in machine learning so when I got into #spacedrepetition I immediately realized it was supervised learning for humans.
+
+
+https://twitter.com/getpolarized/status/1217914450889428992
+
+* DONE [#C] Piotr Limanowski 🔥 Reading for Programmers     :productivity:pkm:
+:PROPERTIES:
+:CREATED:  [2018-06-14]
+:ID:       ptrlmnwskrdngfrprgrmmrs
+:END:
+https://codearsonist.com/reading-for-programmers
+
+Interleave mode nice, but only works for specific PDF file I'd imagine?
+
+* [#B] [2020-04-23] [[https://github.com/dbohdan/structured-text-tools][dbohdan/structured-text-tools: A list of command line tools for manipulating structured text data]]
+:PROPERTIES:
+:ID:       thsgthbcmdbhdnstrctrdtxttntlsfrmnpltngstrctrdtxtdt
+:END:

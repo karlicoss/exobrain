@@ -92,3 +92,19 @@ https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule/21211232
 :PROPERTIES:
 :ID:       mnsgtrbslrntchnghstrywthgtrbs
 :END:
+* [2018-11-28] extraction - How to extract one file with commit history from a git repo with index-filter & co - Stack Overflow :git:
+:PROPERTIES:
+:ID:       wdxtrctnhwtxtrctnflwthcmmmgtrpwthndxfltrcstckvrflw
+:END:
+https://stackoverflow.com/questions/7375528/how-to-extract-one-file-with-commit-history-from-a-git-repo-with-index-filter/37037151
+: git filter-branch --index-filter 'git read-tree --empty; git reset $GIT_COMMIT -- $your $files $here' -- --all --
+** [2019-04-10] set up git project commmand
+:PROPERTIES:
+:ID:       wdstpgtprjctcmmmnd
+:END:
+
+* [#D] [2020-07-12] [[https://news.ycombinator.com/item?id=23805931][- GitHub + why do we centralize issues, documents for a *distributed* version... | Hacker News]]
+:PROPERTIES:
+:ID:       snsnwsycmbntrcmtmdgthbwhycmntsfrdstrbtdvrsnhckrnws
+:END:
+: for an academic treatment of the defects in Git read: What's Wrong with Git? A Conceptual Design Analysis S. Perez De Rosso and D. Jackson. In Proceedings of the 2013 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming & Software (Onward! 2013) 

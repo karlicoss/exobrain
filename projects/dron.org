@@ -257,3 +257,13 @@ https://schedule.readthedocs.io/en/stable/
 :CREATED:  [2019-08-25]
 :ID:       mybfrbdcrtngpycch
 :END:
+* DONE [#B] [2020-02-01] Rethinking Cron                               :dron:
+:PROPERTIES:
+:ID:       adefaa6b-d941-4165-9cd3-8b9e59e4ddfa
+:END:
+https://adam.herokuapp.com/past/2010/4/13/rethinking_cron
+: Rethinking Cron
+** [2020-02-29] good wishlist for missing cron features
+:PROPERTIES:
+:ID:       stgdwshlstfrmssngcrnftrs
+:END:

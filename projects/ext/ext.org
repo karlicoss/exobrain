@@ -364,6 +364,10 @@ https://docs.syncthing.net/dev/rest.html
 :ID:       wdlsllwslctvsyncngnmblwf
 :END:
 
+** [2019-06-05] shit, weird. syncthing has got some sort of mismatch between GUI and web file/folder count; borg was showing differnt counts as well (script in dropbox that I used to check for differences) :cloud:
+:PROPERTIES:
+:ID:       wdshtwrdsyncthnghsgtsmsrtndrpbxthtsdtchckfrdffrncs
+:END:
 * [#B] * wildcard                                                  :wildcard:
 :PROPERTIES:
 :ID:       wldcrd
@@ -684,7 +688,7 @@ using #gitbug instead now
 
 * --------------------------------
 :PROPERTIES:
-:ID:       22599_22635
+:ID:       22823_22859
 :END:
 
 * STRT [#C] share link and content                                    :tusky:

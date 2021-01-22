@@ -203,3 +203,8 @@ i.e. I think people who advocate for REPL are pitching for a completely wrong th
 :ID:       thmgnrsslthlnglstmcsstrngmnpltnlbrry
 :END:
 https://github.com/magnars/s.el
+
+* [2018-10-13] debugging ~(message (buffer-string))~
+:PROPERTIES:
+:ID:       stdbggngmssgbffrstrng
+:END:

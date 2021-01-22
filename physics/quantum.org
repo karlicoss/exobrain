@@ -429,3 +429,20 @@ https://twitter.com/enclanglement/status/1204556108561559552
 :ID:       ttshrdtthnkwhnsmnhdmrdsyrbrn
 :END:
 https://www.scottaaronson.com/blog/?p=3975
+
+* TODO [#C] [2019-08-02] 〈 Berger | Dillon 〉 on Twitter: "A changing Magnetic flux induces an Electric field. This can create a current in a wire to power a💡! No battery needed! https://t.co/ggeayJedFD" / Twitter :viz:inspiration:
+:PROPERTIES:
+:ID:       frbrgrdllnntwttrchngngmgnrnbttrynddstcggyjdfdtwttr
+:END:
+https://twitter.com/InertialObservr/status/1157356874729046016
+: A changing Magnetic flux induces an Electric field. This can create a current in a wire to power a
+: No battery needed!
+
+very nice visualisation!
+* DONE [#C] [2020-03-24] New essay: "How quantum teleportation works"
+:PROPERTIES:
+:ID:       tnwssyhwqntmtlprttnwrks
+:END:
+: I'm excited to announce the launch of a new essay, "How quantum teleportation works" (joint with Andy Matuschak). Teleportation is fun and surprising, and a fundamental primitive in quantum computation. This essay explains in detail how it works. It's available here:
+
+https://quantum.country/teleportation

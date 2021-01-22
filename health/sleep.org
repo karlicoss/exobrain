@@ -666,3 +666,23 @@ https://time.com/5876614/circadian-rhythm-study/
 :ID:       snhsmntrstngdscssnsncmmntsbtnthngtctnblthrws
 :END:
 I wonder how I could wind myself down before sleep.. I already tried reading books but not sure
+* DONE [#B] Tweet from Kaare Mikkelsen (@dphys), at Nov 15, 13:58 :sleep:eeg:
+:PROPERTIES:
+:CREATED:  [2019-11-15]
+:ID:       twtfrmkrmkklsndphystnv
+:END:
+: Today we present a huge step forward in wearable research. sleep monitoring using earEEG with unprecedented accuracy.
+: I really believe that #eeg measured from the ear will have very valuable clinical uses.
+
+
+https://twitter.com/dphys/status/1195083374257483776
+** [2019-11-22] Finally, 19/20 subjects found that the ear-EEG had little to no negative effect on their sleep
+:PROPERTIES:
+:ID:       frfnllysbjctsfndthtthrghdlttltnngtvffctnthrslp
+:END:
+* [2019-07-21] ELI5: Why does blue light make it hard to sleep? : explainlikeimfive
+:PROPERTIES:
+:ID:       snlwhydsbllghtmkthrdtslpxplnlkmfv
+:END:
+https://www.reddit.com/r/explainlikeimfive/comments/6rns4x/eli5_why_does_blue_light_make_it_hard_to_sleep/
+: There is basically no naturally occurring source of blue light aside from the sun. Our bodies adapted to start producing melatonin (a hormone that helps us sleep) only when we do not sense blue light

@@ -133,3 +133,30 @@ https://unix.stackexchange.com/questions/20399/view-stdout-stderr-of-systemd-ser
 :END:
 https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
 : Hide user threads (shift + H) and close the process tree view (F5), t
+* [2020-06-15] [[https://superuser.com/questions/621870/test-if-a-port-on-a-remote-system-is-reachable-without-telnet][linux - Test if a port on a remote system is reachable (without telnet) - Super User]]
+:PROPERTIES:
+:ID:       mnssprsrcmqstnststfprtnrmtsystmsrchblwthttlntsprsr
+:END:
+: Nice and verbose! From the man pages.
+: Single port:
+: 
+: nc -zv 127.0.0.1 80
+
+testing if port is open
+* [2018-04-27] guide to XKB                                           :linux:
+:PROPERTIES:
+:ID:       frgdtxkb
+:END:
+https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450
+
+* [#D] [2020-12-04] [[https://superuser.com/questions/1115983/prevent-system-freeze-unresponsiveness-due-to-swapping-run-away-memory-usage][linux - prevent system freeze/unresponsiveness due to swapping run away memory usage - Super User]]
+:PROPERTIES:
+:ID:       frssprsrcmqstnsprvntsystmssdtswppngrnwymmrysgsprsr
+:END:
+: If a process demands a lot of memory, the system moves all other process to the swap file. Including it seems, necessary processes like the X11 server or the terminal.
+* [2019-09-04] shell - Usage of dash (-) in place of a filename - Unix & Linux Stack Exchange
+:PROPERTIES:
+:ID:       wdshllsgfdshnplcfflnmnxlnxstckxchng
+:END:
+https://unix.stackexchange.com/questions/16357/usage-of-dash-in-place-of-a-filename
+: Using - as a filename to mean stdin/stdout is a convention that a lot of programs use. It is not a special property of the filename. The kernel does not recognise - as special so any system calls referring to - as a filename will use - literally as the filename.
