@@ -1,0 +1,172 @@
+#+TITLE: Computing
+#+loseq_title: computing
+#+filetags: computing
+
+Software must eat the world, there is just no other way.
+How can we make it more powerful, intuitive, pleasant to use?
+
+
+* related                                                 :malleable:interop:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
+* [#A] the sad state of personal data and infrastructure           :sadinfra:
+:PROPERTIES:
+:ID:       thsdsttfprsnldtndnfrstrctr
+:END:
+https://beepb00p.xyz/sad-infra.html
+
+* [#C] [2019-07-23] SomethingNew/Resources.md at master · d-cook/SomethingNew
+:PROPERTIES:
+:ID:       tsmthngnwrsrcsmdtmstrdcksmthngnw
+:END:
+https://github.com/d-cook/SomethingNew/blob/master/Resources.md
+
+* [#C] [2019-07-23] SomethingNew/Concepts.md at master · d-cook/SomethingNew
+:PROPERTIES:
+:ID:       tsmthngnwcncptsmdtmstrdcksmthngnw
+:END:
+https://github.com/d-cook/SomethingNew/blob/master/Concepts.md
+* TODO [#B] [2020-04-18] [[https://news.ycombinator.com/item?id=22907211][Ask HN: What are some great posts or articles about history of computing? | Hacker News]] :computing:
+:PROPERTIES:
+:ID:       stsnwsycmbntrcmtmdskhnwhttclsbthstryfcmptnghckrnws
+:END:
+* STRT [#C] https://github.com/jhaip/programmable-space           :computing:
+:PROPERTIES:
+:CREATED:  [2020-10-17]
+:ID:       sgthbcmjhpprgrmmblspc
+:END:
+: Bringing computing to the scale of a room makes it a communal and social experience.
+* STRT [#C] [2020-05-19] [[https://github.com/malleable-systems/malleable.systems/issues][Issues · malleable-systems/malleable.systems]] :malleable:
+:PROPERTIES:
+:ID:       tsgthbcmmllblsystmsmllblssssmllblsystmsmllblsystms
+:END:
+* STRT [#C] [2020-05-25] [[https://shalabh.com/programmable-systems/][Programmable Systems]] :computing:malleable:
+:PROPERTIES:
+:ID:       mnsshlbhcmprgrmmblsystmsprgrmmblsystms
+:END:
+* STRT [#C] [2019-10-01] Identify & Attack "Schleps" · Issue 12 · d-cook/SomethingNew :malleable:
+:PROPERTIES:
+:ID:       tdntfyttckschlpsssdcksmthngnw
+:END:
+https://github.com/d-cook/SomethingNew/issues/12
+: A "Schlep" is a thing that is so tedious or awful to deal with, that most people accept it or work around it without even realizing it. However, when attacked directly, they can open new doors or make things easier by opening paths that are otherwise accepted as just "the way things are".
+* [#C] [2020-08-12] [[https://www.divergent-desktop.org/blog/2020/08/10/principles-overview/][12 Principles for a Diverging Desktop Future]] :computing:
+:PROPERTIES:
+:ID:       wdswwwdvrgntdsktprgblgprnvwprncplsfrdvrgngdsktpftr
+:END:
+
+* TODO [[https://hyp.is/xrhdvhDQEeuOoA9nvvzgxQ/adamwiggins.com/making-computers-better/][X]] What do I mean by “better”? :computing:sadinfra:
+:PROPERTIES:
+:CREATED:  [2020-10-17]
+:ID:       shypsxrhdvhdqnvvzgxqdmwggngcmptrsbttrxwhtdmnbybttr
+:END:
+: Computing aids and encourages humanity’s noblest pursuits: science, reason, art, philosophy.
+: Computing directly supports improving the mental health, physical health, prosperity, and happiness of all humans.
+: Computing help us master (or at least, doesn’t intensify) our problematic tendencies: addiction, status anxiety, socioeconomic divisions, tribalism, fear, hate.
+: The economic and intellectual horsepower in Silicon Valley and the wider tech world seems to be pointed away from these goals.
+: For example: algorithms designed to maximize watch time, the social media outrage machine, loot boxes and other psuedo-gambling, and smartphone notifications activating Skinner-box tendencies.
+
+from [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
+* TODO [#B] Tweet from @flyingcroissant room sized displays    :computing:vr:
+:PROPERTIES:
+:CREATED:  [2020-05-13]
+:ID:       twtfrmflyngcrssntrmszddsplys
+:END:
+: https://twitter.com/flyingcroissant/status/1260409306337275904
+: @flyingcroissant: Finally got around to reading this and it's incredible: https://t.co/DeSVRCU8Az
+: Room-sized display walls in your home would open up a lot of new interface opportunities and would be cool for VR, too.
+* [#C] [2020-11-24] [[https://news.ycombinator.com/item?id=25187702][I created an alternative to the YouTube algorithm to stop me wasting time]] :sadinfra:
+:PROPERTIES:
+:ID:       tsnwsycmbntrcmtmdcrtdnltrvtthytblgrthmtstpmwstngtm
+:END:
+https://towardsdatascience.com/i-created-my-own-youtube-algorithm-to-stop-me-wasting-time-afd170f4ca3a
+* [#B] [2020-11-07] [[https://news.ycombinator.com/item?id=24999103][Programs are a prison: Rethinking the building blocks of computing interfaces]] :sadinfra:
+:PROPERTIES:
+:ID:       stsnwsycmbntrcmtmdprgrmsrthbldngblcksfcmptngntrfcs
+:END:
+https://djrobstep.com/posts/programs-are-a-prison
+* [#C] [2020-05-18] [[https://www.dcrainmaker.com/2020/05/strava-cuts-off-leaderboard-for-free-users-reduces-3rd-party-apps-for-all-and-more.html][Strava Cuts Off Leaderboard for Free Users, Reduces 3rd Party Apps for All, and More | DC Rainmaker]] :sadinfra:
+:PROPERTIES:
+:ID:       mnswwwdcrnmkrcmstrvctsfflsrdprtyppsfrllndmrdcrnmkr
+:END:
+
+* [2020-10-25] [[https://news.ycombinator.com/item?id=24866279][The Coming Civil War over General Purpose Computing (2012) | Hacker News]] :sadinfra:
+:PROPERTIES:
+:ID:       snsnwsycmbntrcmtmdthcmngcwrvrgnrlprpscmptnghckrnws
+:END:
+* [2020-10-26] [[https://news.ycombinator.com/item?id=24891576][What's crazy to me is how insanely overspec'd mobile devices are for what they d... | Hacker News]] :sadinfra:
+:PROPERTIES:
+:ID:       mnsnwsycmbntrcmtmdwhtscrzdmbldvcsrfrwhtthydhckrnws
+:END:
+: What's crazy to me is how insanely overspec'd mobile devices are for what they deliver. If you went back in time and told 1999 me the following:
+: I'll give you a computer with the following:
+: * 256GB of solid-state storage
+: * 6 CPUs @ 3+GHz
+: * 8GB of RAM
+: * Weighs only 200 grams
+: * Battery-powered, lasts 5+ hours
+: * 1440 x 3168 resolution display
+: I would have been absolutely gobsmacked. Such a machine absolutely outclasses every desktop up into the early 2010s!
+: 
+: And then you would tell me that it's mostly used to shitpost on reddit and Twitter and would be completely useless as a development machine, and the manufactures would do everything to make it impossible to put what software I want on it...and also it would spy on me everywhere I went in order to sell me garbage...
+: We took a wrong turn somewhere, didn't we?
+* [2020-10-26] [[https://news.ycombinator.com/item?id=24897279][25 Years In Speech Technology and I still don’t talk to my computer | Hacker News]] :sadinfra:
+:PROPERTIES:
+:ID:       mnsnwsycmbntrcmtmdyrsnspcstlldnttlktmycmptrhckrnws
+:END:
+* [2020-11-03] [[https://news.ycombinator.com/item?id=24881893][This is something Stallman[1] and others have talked about for a while now, with... | Hacker News]] :sadinfra:
+:PROPERTIES:
+:ID:       tsnwsycmbntrcmtmdthsssmthhvtlkdbtfrwhlnwwthhckrnws
+:END:
+: I remember in the 90s people all thought Stallman was crazy. And by people I mean developers, Linux users, people on usenet, etc. We all appreciated his contributions but at the end of the day just figured he was wearing a tin foil hat.
+* [2020-11-22] [[https://stackoverflow.com/questions/22832104/how-can-i-see-hidden-app-data-in-google-drive][How can I see hidden app data in Google Drive? - Stack Overflow]] :sadinfra:
+:PROPERTIES:
+:ID:       snsstckvrflwcmqstnshwcnshshddnppdtnggldrvstckvrflw
+:END:
+fascinating, apparently this is how you access your own data for google drive apps?
+* [2020-12-15] [[https://nitter.net/mekarpeles/status/1338766203192451074#m][Mek (@mekarpeles): "What's something about the web that's obviously broken? I'll start: No version control history and all the content is dynamic." | nitter]] :sadinfra:
+:PROPERTIES:
+:ID:       tsnttrntmkrplssttsmmkmkrpstryndllthcntntsdynmcnttr
+:END:
+: What's something about the web that's obviously broken?
+
+really good thread
+* TODO LSP for interlanguage communication? Like an IPC matrix :malleable:programming:think:
+:PROPERTIES:
+:CREATED:  [2021-01-19]
+:ID:       lspfrntrlnggcmmnctnlknpcmtrx
+:END:
+* STRT [#C] [2020-10-08] [[https://news.ycombinator.com/item?id=24699615][Project Cambria: Translate your data with lenses | Hacker News]] :malleable:
+:PROPERTIES:
+:ID:       thsnwsycmbntrcmtmdprjctcmrtrnsltyrdtwthlnsshckrnws
+:END:
+
+* STRT [#C] [2019-10-01] Introductions · Issue 20 · d-cook/SomethingNew :malleable:social:
+:PROPERTIES:
+:ID:       tntrdctnsssdcksmthngnw
+:END:
+https://github.com/d-cook/SomethingNew/issues/20
+
+* TODO [#C] open source os                                        :malleable:
+:PROPERTIES:
+:CREATED:  [2020-05-16]
+:ID:       pnsrcs
+:END:
+
+: I think alt open-source smartphone operating systems like PostmarketOS, PureOS, UBPorts would be a great candidate for this.
+: The need to breach the duopoly in mobile smartphone ecosystem is now greater than ever if we need to protect the future of mobile computing and the data(lifestyle) of individuals using it; considering smartphone is the first computer for ~ > half of world population.
+
+* TODO [#C] ted nelson interview                         :tednelson:tolisten:
+:PROPERTIES:
+:CREATED:  [2020-02-14]
+:ID:       e9b9ece0-0475-4a7a-85ba-8adb69138aeb
+:END:
+
+https://mobile.twitter.com/jborichevskiy/status/1228372354956394496
+* [#B] [2019-12-30] Roger Gregory Interview at Ted Nelson Book Launch : Internet Archive : Free Download, Borrow, and Streaming : Internet Archive :tednelson:towatch:
+:PROPERTIES:
+:ID:       mnrgrgrgryntrvwttdnlsnbklwnldbrrwndstrmngntrntrchv
+:END:
+https://archive.org/details/possiplexrogergregoryinterview

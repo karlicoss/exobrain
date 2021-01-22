@@ -135,6 +135,14 @@ couldn't handle insta photo...
 :END:
 
 
+** STRT [#B] [2020-01-13] functools — Higher-order functions and operations on callable objects — Python 3.8.1 documentation :kython:
+:PROPERTIES:
+:ID:       mnfnctlshghrrdrfnctnsndprnsncllblbjctspythndcmnttn
+:END:
+https://docs.python.org/3.8/library/functools.html
+: @functools.cached_property(func)¶
+
+nice!
 * [#C] * kobuddy                                                    :kobuddy:
 :PROPERTIES:
 :ID:       kbddy
@@ -296,7 +304,7 @@ my #twitter exporter
 
 * ----------------------------
 :PROPERTIES:
-:ID:       7114_7148
+:ID:       7432_7466
 :END:
 
 
@@ -405,4 +413,9 @@ Update description
 :PROPERTIES:
 :CREATED:  [2018-12-16]
 :ID:       lstllclthngstrdndlrnd
+:END:
+* TODO [#D] make symlink checker ignore file list list of symlinks to ignore :ruci:
+:PROPERTIES:
+:CREATED:  [2019-06-10]
+:ID:       mksymlnkchckrgnrfllstlstfsymlnkstgnr
 :END:

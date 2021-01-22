@@ -1,7 +1,7 @@
 #+TITLE: Miscellaneous or unprocessed links
 #+logseq_graph: false
 
-* [2020-03-24] Don’t bail out the cruise industry | Hacker News
+* [#D] [2020-03-24] Don’t bail out the cruise industry | Hacker News
 :PROPERTIES:
 :ID:       tdntbltthcrsndstryhckrnws
 :END:
@@ -126,11 +126,6 @@ https://github.com/chakravala/Grassmann.jl
 :ID:       thtwtfrmthmgcnstwttrcmthmgcnstts
 :END:
 : @TheMagic_Ian: Stop using fake-secure, or insecure video conferencing apps like Zoom, Skype, Duo, HouseParty,  Facebook Messenger, Slack, Teams! Consider Jitsi or Matrix clients like Riot.
-* doesn't look active. all top results are from 2017            :axol:upspin:
-:PROPERTIES:
-:CREATED:  [2020-04-02]
-:ID:       dsntlkctvlltprsltsrfrm
-:END:
 * [2020-04-06] (HN discussion on configs) wow, people have such strong opinions about software architecture, what it *should* be and what it *shouldn't be* etc
 :PROPERTIES:
 :ID:       mnhndscssnncnfgswwpplhvscrwhttshldbndwhttshldntbtc
@@ -142,17 +137,6 @@ often assuming there is one single way of doing things and that's it. incredible
 :ID:       snstrtllfyrcmmndswthcmmhckrnws
 :END:
 https://news.ycombinator.com/item?id=22778988
-* [2020-04-10] Emily Levesque Public Lecture: The Weirdest Stars in the Universe - YouTube :cosmology:
-:PROPERTIES:
-:ID:       frmlylvsqpblclctrthwrdststrsnthnvrsytb
-:END:
-https://www.youtube.com/watch?v=YR-l0b2iYy0
-pretty cool talk!
-* TODO [#C] [2020-03-24] PEP 593 -- Flexible function and variable annotations | Python.org
-:PROPERTIES:
-:ID:       tppflxblfnctnndvrblnnttnspythnrg
-:END:
-https://www.python.org/dev/peps/pep-0593/
 * [#C] [2020-04-07] Firefox 75 for developers - Mozilla | MDN
 :PROPERTIES:
 :ID:       tfrfxfrdvlprsmzllmdn
@@ -168,12 +152,6 @@ https://github.com/antonmedv/codejar
 : <script type="module">
 :   import {CodeJar} from 'https://medv.io/codejar/codejar.js'
 : </script>
-* TODO [#C] [2019-08-24] Simple dependent types in Python - DEV Community 👩‍💻👨‍💻 :mypy:python:
-:PROPERTIES:
-:ID:       stsmpldpndnttypsnpythndvcmmnty
-:END:
-https://dev.to/wemake-services/simple-dependent-types-in-python-4e14
-: Now, we are going to combine our new knowledge about Literal and @overload together to solve our problem with open. At last!
 * TODO [#C] [2019-08-18] JStumpp/awesome-android: A curated list of awesome Android packages and resources.
 :PROPERTIES:
 :ID:       snjstmppwsmndrdcrtdlstfwsmndrdpckgsndrsrcs
@@ -271,15 +249,6 @@ ok, interesting, but that's again kind of reinventing new standard?
 https://twitter.com/IanCal/status/1236213418375462912
 : If you work with data and don't already have @visidata
 : , you want to check it out. Even just for basic features it's fantastic - "quick give me a count of X where condition Y, now let's have a look at those rows, and now save that as a file for loading elsewhere" for example
-* TODO [#C] open source os                                        :malleable:
-:PROPERTIES:
-:CREATED:  [2020-05-16]
-:ID:       pnsrcs
-:END:
-
-: I think alt open-source smartphone operating systems like PostmarketOS, PureOS, UBPorts would be a great candidate for this.
-: The need to breach the duopoly in mobile smartphone ecosystem is now greater than ever if we need to protect the future of mobile computing and the data(lifestyle) of individuals using it; considering smartphone is the first computer for ~ > half of world population.
-
 * STRT [#C] [2019-10-04] tmrowco/tmrowapp-contrib: Tomorrow automatically calculates the climate impact of your daily choices by connecting to apps and services you already use. :climate:environment:
 :PROPERTIES:
 :ID:       frtmrwctmrwppcntrbtmrrwtmycnnctngtppsndsrvcsylrdys
@@ -405,11 +374,6 @@ https://twitter.com/wwwjim/status/1321940199769698304
 :ID:       stsgthbcmhkrpgmrkjshkrpgmrkjs
 :END:
 : Marka is a JavaScript lib that runs in the browser, it will mark anchor elements and add icons according to the href. It is inspired by https://beepb00p.xyz and anchorjs.
-* [#C] [2020-11-24] [[https://news.ycombinator.com/item?id=25187702][I created an alternative to the YouTube algorithm to stop me wasting time]] :sadinfra:
-:PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdcrtdnltrvtthytblgrthmtstpmwstngtm
-:END:
-https://towardsdatascience.com/i-created-my-own-youtube-algorithm-to-stop-me-wasting-time-afd170f4ca3a
 * STRT [#C] [2020-12-06] visidata Tweet from @nevoitbien
 :PROPERTIES:
 :ID:       snvsdttwtfrmnvtbn
@@ -560,7 +524,7 @@ https://codeburst.io/web-scraping-in-rust-881b534a60f7
 :ID:       fwhskllhghlghtstphskllrsrcsf
 :END:
 
-To get to know Agda better, you can read this introductory post by Danya Rogozin.
+: To get to know Agda better, you can read this introductory post by Danya Rogozin.
 
 * TODO [#D] Tweet from Гришка (@grishka11), at Jan 22, 16:50
 :PROPERTIES:
@@ -616,11 +580,6 @@ https://github.com/trending
 :END:
 
 http://pinpopular.in
-* TODO [#D] guthub name                                             :project:
-:PROPERTIES:
-:CREATED:  [2019-12-02]
-:ID:       gthbnm
-:END:
 * TODO [#D] Physical Church-Turing Thesis: {laws of physics can be simulated to any desired precision by a TM (or at any rate, by a probabilistic TM)} :hyp2org:drill:
 :PROPERTIES:
 :CREATED:  [2019-11-01]
@@ -670,40 +629,6 @@ https://twitter.com/alphyna/status/1335339736127447040
 : @alphyna: @lampimampi хотя нет, ещё важное есть.
 : когда тебе долго плохо, ты этого не замечаешь. тебе не грустно, тебя не мучает. ты просто становишься скучным. ты просто устаёшь. ты просто больше не рисуешь. и не играешь. всё не плохо, всё просто пресно.
 : это очень легко упустить — и жить так годами.
-* STRT [#C] https://github.com/jhaip/programmable-space           :computing:
-:PROPERTIES:
-:CREATED:  [2020-10-17]
-:ID:       sgthbcmjhpprgrmmblspc
-:END:
-: Bringing computing to the scale of a room makes it a communal and social experience.
-* STRT [#C] [2020-05-19] [[https://github.com/malleable-systems/malleable.systems/issues][Issues · malleable-systems/malleable.systems]] :malleable:
-:PROPERTIES:
-:ID:       tsgthbcmmllblsystmsmllblssssmllblsystmsmllblsystms
-:END:
-* STRT [#C] [2020-05-25] [[https://shalabh.com/programmable-systems/][Programmable Systems]] :computing:malleable:
-:PROPERTIES:
-:ID:       mnsshlbhcmprgrmmblsystmsprgrmmblsystms
-:END:
-* STRT [#C] [2019-10-01] Identify & Attack "Schleps" · Issue 12 · d-cook/SomethingNew :malleable:
-:PROPERTIES:
-:ID:       tdntfyttckschlpsssdcksmthngnw
-:END:
-https://github.com/d-cook/SomethingNew/issues/12
-: A "Schlep" is a thing that is so tedious or awful to deal with, that most people accept it or work around it without even realizing it. However, when attacked directly, they can open new doors or make things easier by opening paths that are otherwise accepted as just "the way things are".
-* STRT [#B] [2020-07-26] [[https://qtconsole.readthedocs.io/en/stable/][The Qt Console for Jupyter — Jupyter Qt Console 4.7.5 documentation]]
-:PROPERTIES:
-:ID:       snsqtcnslrdthdcsnstblthqtfrjpytrjpytrqtcnsldcmnttn
-:END:
-: The Qt console is a very lightweight application that largely feels like a terminal, but provides a number of enhancements only possible in a GUI, such as inline figures, proper multi-line editing with syntax highlighting, graphical calltips, and much more. The Qt console can use any Jupyter kernel.
-* TODO [#B] [2020-07-08] [[https://news.ycombinator.com/item?id=23747133][SymPy - a Python library for symbolic mathematics | Hacker News]] :sympy:sage:
-:PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdsympypyrryfrsymblcmthmtcshckrnws
-:END:
-: As one point of comparison, SymPy is comically slow compared to Sage. This is mostly because SymPy is purely Python; Sage on the other hand uses a derivative of GiNaC [1] for its internal symbolic expression representation, and then multiple external libraries for non-trivial operations. Symbolic transformations are mostly Maxima [3]. Sage literally converts expressions to strings, pipes them through a Maxima process, and then parses the result back. This is still much faster than the pure Python SymPy.
-: 
-: There is an effort to speed up SymPy core, SymEngine [3], but it's been in development for years now, and still isn't integrated into SymPy. Not sure why.
-: 
-: Case in point: 'expand("(2+3x+4x*y)^60")' takes 5 seconds with SymPy; Sage does the same in 0.02 seconds.
 * crowdled thing                                                :electronics:
 :PROPERTIES:
 :CREATED:  [2020-06-30]
@@ -718,28 +643,6 @@ closest relevant info I found: https://electronics.stackexchange.com/questions/3
 :END:
 https://twitter.com/andy_matuschak/status/1265397516469592064
 : Hamming is here to tell you about excellence. His lessons unfold through personal stories of discovery and failure—life as an extraordinary scientist. But Hamming demands that you do extraordinary work, too, and for that he offers the best advice I know.
-* [#D] [2018-08-15] Flow Genome Project « The Official Source For Flow Science And Training :mind:
-:PROPERTIES:
-:ID:       wdflwgnmprjctthffclsrcfrflwscncndtrnng
-:END:
-http://www.flowgenomeproject.com/
-
-** [2018-10-22]  eh. googled that and nothing specific, overall sound like bullshit, they are just selling subscriptions.
-:PROPERTIES:
-:ID:       mnhggldthtndnthngspcfcvrllshtthyrjstsllngsbscrptns
-:END:
-** TODO [2018-10-22]  ? add to                                         :axol:
-:PROPERTIES:
-:ID:       mnddt
-:END:
-* TODO [#B] Tweet from @flyingcroissant room sized displays    :computing:vr:
-:PROPERTIES:
-:CREATED:  [2020-05-13]
-:ID:       twtfrmflyngcrssntrmszddsplys
-:END:
-: https://twitter.com/flyingcroissant/status/1260409306337275904
-: @flyingcroissant: Finally got around to reading this and it's incredible: https://t.co/DeSVRCU8Az
-: Room-sized display walls in your home would open up a lot of new interface opportunities and would be cool for VR, too.
 * TODO [#C] [2020-03-24] recent 3                                     :ideas:
 :PROPERTIES:
 :ID:       trcnt

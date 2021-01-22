@@ -62,12 +62,6 @@ https://gitlab.com/fediverse.space/fediverse.space
 https://twitter.com/mr_freedom/status/1185989089360658432
 : Just sent a message ’Hey! Are you in the mood to talk about anthropic principle in cosmology?’ and realised that I have never received a message like this from anyone in my contact list. SAD!
 
-* STRT [#C] [2019-10-01] Introductions · Issue 20 · d-cook/SomethingNew :malleable:social:
-:PROPERTIES:
-:ID:       tntrdctnsssdcksmthngnw
-:END:
-https://github.com/d-cook/SomethingNew/issues/20
-
 * TODO [#D] Being able to play guitar is pretty cool.. maybe I should try it at some point :social:music:
 :PROPERTIES:
 :CREATED:  [2019-06-09]
@@ -86,3 +80,9 @@ https://instances.social/cybre.space
 :CREATED:  [2018-06-25]
 :ID:       shtngrng
 :END:
+
+* [#C] [2019-01-29] (99+) London Hackspace - Google Groups :social:biohacking:
+:PROPERTIES:
+:ID:       tlndnhckspcgglgrps
+:END:
+https://groups.google.com/forum/#!forum/london-hack-space

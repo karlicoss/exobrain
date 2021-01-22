@@ -336,7 +336,7 @@ https://stackoverflow.com/questions/16184487/use-ipython-magic-functions-in-ipdb
 :ID:       mntypddjngwsmpythntypngclhbcmtypddjngwsmpythntypng
 :END:
 
-* [#B] [2019-05-11] To yield or not to yield               :yield:generators:
+* [#B] [2019-05-11] To yield or not to yield                          :yield:
 :PROPERTIES:
 :ID:       sttyldrnttyld
 :END:
@@ -1004,7 +1004,7 @@ https://github.com/python-poetry/poetry/issues/222
 * TODO [#C] eee                                                     :ipython:
 :PROPERTIES:
 :CREATED:  [2019-04-14]
-:ID:       34020_34483
+:ID:       34009_34472
 :END:
 
 :  ldisplay_md("hi")
@@ -1147,3 +1147,151 @@ https://stackoverflow.com/questions/5071601/how-do-i-use-regex-in-a-sqlite-query
 : Exhaustiveness Checking
 
 use else clause with NoReturn, then mypy assists in refining
+* TODO [#C] hvplot: clever algebra on plots                           :bokeh:
+:PROPERTIES:
+:CREATED:  [2020-10-18]
+:ID:       hvpltclvrlgbrnplts
+:END:
+: wow! * (same plot) vs + (different plots) is pretty clever!
+: also I like how multiplication doesn't commute so the 'first' plot wins the layout parameters
+* TODO [#C] [2020-04-09] naiquevin/pipdeptree: A command line utility to display dependency tree of the installed Python packages [NOT ACCEPTING PRs FOR A WHILE BECAUSE OF MAJOR REFACTORING IN ANOTHER BRANCH]
+:PROPERTIES:
+:ID:       thnqvnppdptrcmmndlntltytdlbcsfmjrrfctrngnnthrbrnch
+:END:
+https://github.com/naiquevin/pipdeptree
+* [#C] [2020-04-23] [[https://github.com/pandas-dev/pandas/blob/master/setup.py][pandas/setup.py at master · pandas-dev/pandas]] :pip:
+:PROPERTIES:
+:ID:       thsgthbcmpndsdvpndsblbmstypndsstppytmstrpndsdvpnds
+:END:
+: Docum
+** [2020-05-09] nice, pandas is using quite elaborate setup.py with proper documentation links
+:PROPERTIES:
+:ID:       stncpndsssngqtlbrtstppywthprprdcmnttnlnks
+:END:
+* TODO [#C] [2019-07-28] kirankoduru/scrapy-programmatically: Running scrapy spider programmatically. :scrape:
+:PROPERTIES:
+:ID:       snkrnkdrscrpyprgrmmtcllyrnnngscrpyspdrprgrmmtclly
+:END:
+https://github.com/kirankoduru/scrapy-programmatically
+
+* [#D] [2020-04-23] [[https://github.com/karlicoss/promnesia/runs/612863976?check_suite_focus=true][detect all subpackages properly · karlicoss/promnesia@f7451c4]]
+:PROPERTIES:
+:ID:       thsgthbcmkrlcssprmnsrnschbpckgsprprlykrlcssprmnsfc
+:END:
+: tests/integration_test.py::test_example_config
+:   /Users/runner/runners/2.169.1/work/promnesia/promnesia/.tox/py3/lib/python3.7/site-packages/hug/use.py:185: DeprecationWarning: invalid escape sequence \d
+:     status_code = int("".join(re.findall("\d+", response.status)))
+* [#D] [2020-04-05] Configs suck? Try a real programming language | Hacker News
+:PROPERTIES:
+:ID:       sncnfgsscktryrlprgrmmnglngghckrnws
+:END:
+https://news.ycombinator.com/item?id=22787332
+: mjw1007 28 minutes ago [-]
+: One variant of this is to use Python syntax but parse it with the `ast` module rather than evaluating it.
+: This avoids the security problems and the risk that someone will start to write programs inside the configuration file, but gives you the reasonably nice and powerful syntax.
+* [#C] [2020-10-14] [[https://github.com/google/python-fire][google/python-fire: Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.]] :cli:
+:PROPERTIES:
+:ID:       wdsgthbcmgglpythnfrgglpytcsclsfrmbsltlynypythnbjct
+:END:
+: ython Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
+* [#C] [2020-04-23] [[https://github.com/samuelhwilliams/Eel][samuelhwilliams/Eel: A little Python library for making simple Electron-like HTML/JS GUI apps]] :gui:
+:PROPERTIES:
+:ID:       thsgthbcmsmlhwllmslsmlhwlmkngsmpllctrnlkhtmljsgpps
+:END:
+* TODO [#C] [2020-04-15] [[https://github.com/pypa/setuptools/blob/master/setuptools/__init__.py#L80-L85][setuptools/__init__.py at master · pypa/setuptools]]
+:PROPERTIES:
+:ID:       wdsgthbcmpypstptlsblbmstrlstptlsntpytmstrpypstptls
+:END:
+why is it not including files at all??
+* TODO [#C] hmm, seems like fastapi always has to be wrapped in pydantic. ugh!
+:PROPERTIES:
+:CREATED:  [2020-03-12]
+:ID:       hmmsmslkfstplwyshstbwrppdnpydntcgh
+:END:
+run with uvicorn fa:app --reload --port 9090
+
+: #!/usr/bin/env python3
+: from typing import NamedTuple
+: from fastapi import FastAPI
+: 
+: app = FastAPI()
+: 
+: from dataclasses import dataclass
+: 
+: @dataclass
+: class X:
+:     a: int
+:     x: str
+: 
+: @app.get("/", response_model=X)
+: async def root() -> X:
+:     return X(a=123, x="fwef")
+* [#B] keeping testss side by side with code                         :pytest:
+:PROPERTIES:
+:CREATED:  [2020-04-30]
+:ID:       kpngtstsssdbysdwthcd
+:END:
+: import sys
+: # make sure it doesn't need pytest in prod
+: if 'pytest' in sys.modules:
+:     import pytest # type: ignore
+: else:
+:     from unittest.mock import Mock
+:     pytest = Mock()
+* [2020-04-30] [[https://docs.python.org/3/library/pkgutil.html][pkgutil — Package extension utility — Python 3.8.3rc1 documentation]]
+:PROPERTIES:
+:ID:       thsdcspythnrglbrrypkgtlhtkgxtnsntltypythnrcdcmnttn
+:END:
+: pkgutil.extend_path(path, name)
+: 
+:     Extend the search path for the modules which comprise a package. Intended use is to place the following code in a package’s __init__.py:
+: 
+:     from pkgutil import extend_path
+:     __path__ = extend_path(__path__, __name__)
+: 
+:     This will add to the package’s __path__ all subdirectories of directories on sys.path named after the package. This is useful if one wants to distribute different parts of a single logical package as multiple directories.
+* TODO [#C] [2020-03-24] PEP 593 -- Flexible function and variable annotations | Python.org
+:PROPERTIES:
+:ID:       tppflxblfnctnndvrblnnttnspythnrg
+:END:
+https://www.python.org/dev/peps/pep-0593/
+* TODO [#C] [2019-08-24] Simple dependent types in Python - DEV Community 👩‍💻👨‍💻 :mypy:python:
+:PROPERTIES:
+:ID:       stsmpldpndnttypsnpythndvcmmnty
+:END:
+https://dev.to/wemake-services/simple-dependent-types-in-python-4e14
+: Now, we are going to combine our new knowledge about Literal and @overload together to solve our problem with open. At last!
+* TODO [#B] [2020-07-08] [[https://news.ycombinator.com/item?id=23747133][SymPy - a Python library for symbolic mathematics | Hacker News]] :sympy:sage:
+:PROPERTIES:
+:ID:       wdsnwsycmbntrcmtmdsympypyrryfrsymblcmthmtcshckrnws
+:END:
+: As one point of comparison, SymPy is comically slow compared to Sage. This is mostly because SymPy is purely Python; Sage on the other hand uses a derivative of GiNaC [1] for its internal symbolic expression representation, and then multiple external libraries for non-trivial operations. Symbolic transformations are mostly Maxima [3]. Sage literally converts expressions to strings, pipes them through a Maxima process, and then parses the result back. This is still much faster than the pure Python SymPy.
+: There is an effort to speed up SymPy core, SymEngine [3], but it's been in development for years now, and still isn't integrated into SymPy. Not sure why.
+: Case in point: 'expand("(2+3x+4x*y)^60")' takes 5 seconds with SymPy; Sage does the same in 0.02 seconds.
+* STRT [#B] [2020-07-26] [[https://qtconsole.readthedocs.io/en/stable/][The Qt Console for Jupyter — Jupyter Qt Console 4.7.5 documentation]]
+:PROPERTIES:
+:ID:       snsqtcnslrdthdcsnstblthqtfrjpytrjpytrqtcnsldcmnttn
+:END:
+: The Qt console is a very lightweight application that largely feels like a terminal, but provides a number of enhancements only possible in a GUI, such as inline figures, proper multi-line editing with syntax highlighting, graphical calltips, and much more. The Qt console can use any Jupyter kernel.
+* [#B] [2020-10-15] [[http://farmdev.com/src/secrets/framehack/][Frame Hacks]] :python:
+:PROPERTIES:
+:ID:       thfrmdvcmsrcscrtsfrmhckfrmhcks
+:END:
+
+* [#B] [2019-03-17] pylint useful stuff                              :python:
+:PROPERTIES:
+:ID:       snpylntsflstff
+:END:
+: cell-var-from-loop -- can detect bad lambda capturing
+:  pylint --disable='C,fixme,'
+* [#C] [2020-01-26] Hypermodern Python Chapter 4: Typing · Claudio Jolowicz's website
+:PROPERTIES:
+:ID:       snhyprmdrnpythnchptrtypngcldjlwczswbst
+:END:
+https://cjolowicz.github.io/posts/hypermodern-python-04-typing/
+: Typeguard is a runtime type checker for Python:
+* STRT [#B] try using devpi for uploading?                              :tox:
+:PROPERTIES:
+:CREATED:  [2019-08-02]
+:ID:       trysngdvpfrpldng
+:END:

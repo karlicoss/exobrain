@@ -133,59 +133,18 @@ https://mindemulation.org/
 :ID:       thsnwsycmbntrcmtmdwhtgnrbllshtfltrs
 :END:
 https://ernest.oppet.it/2020/08/14/who-to-ignore/
-* [#B] [2020-01-30] [[https://news.ycombinator.com/item?id=22193451][Today I Learned That Not Everyone Has an Internal Monologue]] :mind:
-:PROPERTIES:
-:ID:       thsnwsycmbntrcmtmdtdylrndthtntvrynhsnntrnlmnlg
-:END:
-https://ryanandrewlangdon.wordpress.com/2020/01/28/today-i-learned-that-not-everyone-has-an-internal-monologue-and-it-has-ruined-my-day/
 * [#B] [2019-11-17] Top 50 matplotlib Visualizations - The Master Plots (w/ Full Python Code) | ML+ :viz:
 :PROPERTIES:
 :ID:       sntpmtpltlbvslztnsthmstrpltswfllpythncdml
 :END:
 https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/
 
-* [#B] [2019-03-17] pylint useful stuff                              :python:
-:PROPERTIES:
-:ID:       snpylntsflstff
-:END:
-: cell-var-from-loop -- can detect bad lambda capturing
-:  pylint --disable='C,fixme,'
-* [#B] [2020-10-15] [[http://farmdev.com/src/secrets/framehack/][Frame Hacks]] :python:
-:PROPERTIES:
-:ID:       thfrmdvcmsrcscrtsfrmhckfrmhcks
-:END:
-
-* [#B] [2020-11-07] [[https://news.ycombinator.com/item?id=24999103][Programs are a prison: Rethinking the building blocks of computing interfaces]] :sadinfra:
-:PROPERTIES:
-:ID:       stsnwsycmbntrcmtmdprgrmsrthbldngblcksfcmptngntrfcs
-:END:
-https://djrobstep.com/posts/programs-are-a-prison
 * [#B] [2019-10-18] About GitHub Actions - GitHub Help
 :PROPERTIES:
 :ID:       frbtgthbctnsgthbhlp
 :END:
 https://help.github.com/en/articles/about-github-actions
 
-* STRT [#B] Demos are important!                                    :project:
-:PROPERTIES:
-:CREATED:  [2019-12-11]
-:ID:       dmsrmprtnt
-:END:
-Link to the actual repo: https://github.com/hellojoshuatonga/react-use-fuzzy
-
-As others said, I recommend adding a GitHub pages of a demo or something. Not fun having to spin this up yourself to test what it does/looks like.
-
-* STRT [#B] try using devpi for uploading?                              :tox:
-:PROPERTIES:
-:CREATED:  [2019-08-02]
-:ID:       trysngdvpfrpldng
-:END:
-* TODO [#B] [2019-12-18] Software Tools for Hobby-Scale Projects       :json:
-:PROPERTIES:
-:ID:       wdsftwrtlsfrhbbysclprjcts
-:END:
-https://rickcarlino.com/2019/11/02/software-tools-for-hobby-sized-projects-html.html
-: MyJSON.com - Free Cloud Storage for JSON
 * STRT [#B] [2019-12-11] kootenpv/gittyleaks: Find sensitive information for a git repo :security:project:promnesia:hpi:
 :PROPERTIES:
 :ID:       wdktnpvgttylksfndsnstvnfrmtnfrgtrp
@@ -196,30 +155,6 @@ https://github.com/kootenpv/gittyleaks
 :ID:       frhdsntgvycmmthsh
 :END:
 
-* STRT [#B] [2020-01-13] functools — Higher-order functions and operations on callable objects — Python 3.8.1 documentation :kython:
-:PROPERTIES:
-:ID:       mnfnctlshghrrdrfnctnsndprnsncllblbjctspythndcmnttn
-:END:
-https://docs.python.org/3.8/library/functools.html
-: @functools.cached_property(func)¶
-
-nice!
-* TODO [#B] Add project status to my stuff, like in upspin          :project:
-:PROPERTIES:
-:CREATED:  [2020-01-15]
-:ID:       ddprjctsttstmystfflknpspn
-:END:
-
-* TODO [#B] explore doom-snippets?                                   :python:
-:PROPERTIES:
-:CREATED:  [2020-03-08]
-:ID:       xplrdmsnppts
-:END:
-* [#B] [2020-09-25] [[https://news.ycombinator.com/item?id=24593616][Toward a “Modern” Emacs]] :emacs:
-:PROPERTIES:
-:ID:       frsnwsycmbntrcmtmdtwrdmdrnmcs
-:END:
-https://lwn.net/SubscriberLink/832311/03910e26a3f3e814/
 * TODO [#B] nice and wholesome people                              :exobrain:
 :PROPERTIES:
 :CREATED:  [2020-06-17]
@@ -229,43 +164,9 @@ https://lwn.net/SubscriberLink/832311/03910e26a3f3e814/
 - Rob Zombie
 - John Carmack
 - Lex Fridman
-* [#B] [2020-08-25] [[https://httptoolkit.tech/will-it-cors/][Will It CORS?]] :cors:
-:PROPERTIES:
-:ID:       tstlkttchwlltcrswlltcrs
-:END:
-
-* [#B] [2019-12-23] [[https://nplus1.ru/material/2019/12/22/simple-math][Объясняем шутку из твиттера про дедушку и лагранжиан квантовой теории поля]]
-:PROPERTIES:
-:ID:       mnsnplsrmtrlsmplmthобъяснанжианквантовойтеорииполя
-:END:
-
-* [#B] [2019-07-17] [[https://en.wikipedia.org/wiki/Quantum_Zeno_effect][Quantum Zeno effect]]
-:PROPERTIES:
-:ID:       wdsnwkpdrgwkqntmznffctqntmznffct
-:END:
-** [2020-12-20] quantum zeno effect: measure the system often enough, it appears as if it's not changing. :drill:
-:PROPERTIES:
-:ID:       1eba4d8c-d0fd-4aaa-9228-16ae3ab0291c
-:END:
-evolution is linear, so after time dt the amplitude of changing state is proportional to dt, and probability to dt^2. So by making dt low enough, probability of ever changing state is arbitrary close to 0
-** [2020-12-20] https://physics.stackexchange.com/questions/47252/simple-explanation-of-quantum-zeno-effect
-:PROPERTIES:
-:ID:       snsphyscsstckxchngcmqstnssmplxplntnfqntmznffct
-:END:
-
 * [#B] [2020-06-30] [[https://quantumcomputing.stackexchange.com/questions/1262/how-are-quantum-gates-realised-in-terms-of-the-dynamic][architecture - How are quantum gates realised, in terms of the dynamic? - Quantum Computing Stack Exchange]]
 :PROPERTIES:
 :ID:       tsqntmcmptngstckxchngcmqshdynmcqntmcmptngstckxchng
-:END:
-* [#B] [2020-06-13] [[http://blog.rfox.eu/en/About_this_blog/What_do_I_mean_by_node.html][What do I mean by node?]] :exobrain:
-:PROPERTIES:
-:ID:       stblgrfxnbtthsblgwhtdmnbyndhtmlwhtdmnbynd
-:END:
-- comment:
-  : good explanation
-* [#B] [2018-06-19] https://samwho.co.uk/blog/2017/04/22/emulating-bad-networks/ :network:testing:
-:PROPERTIES:
-:ID:       tssmwhckblgmltngbdntwrks
 :END:
 * [#C] [2020-01-24] logs - View stdout/stderr of systemd service - Unix & Linux Stack Exchange
 :PROPERTIES:
@@ -287,21 +188,6 @@ https://news.ycombinator.com/item?id=21902827
 : Not really. Enable something like MyPy or PyType on a big enough codebase with zero explicit annotation and it'll already find plenty of bugs and unhandled cases from the inferred types alone. Some of these are stuff a strong IDE may catch too (using the wrong function name, passing wrong number of args, etc), but some other ones are actually deeper in the code.
 : 
 : So already, with zero annotations, you already get value out, let alone once you type a few tricky variables that are harder for Python to track.
-* [#C] [2020-01-26] Hypermodern Python Chapter 4: Typing · Claudio Jolowicz's website
-:PROPERTIES:
-:ID:       snhyprmdrnpythnchptrtypngcldjlwczswbst
-:END:
-https://cjolowicz.github.io/posts/hypermodern-python-04-typing/
-: Typeguard is a runtime type checker for Python:
-* [#C] [2020-01-29] linux - How to make htop sort by PID - Super User  :htop:
-:PROPERTIES:
-:ID:       wdlnxhwtmkhtpsrtbypdsprsr
-:END:
-https://superuser.com/questions/275873/how-to-make-htop-sort-by-pid
-: @OSX Press >.
-
-- Comment:
-: press > and select RES
 * [#C] [2020-02-07] POSSE - IndieWeb                                   :silo:
 :PROPERTIES:
 :ID:       frpssndwb
@@ -417,11 +303,6 @@ http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-dupl
 :ID:       wdsgthbcmmntlntlmntsfpyththncdflgrtstrnkwhtfrpythn
 :END:
 : Use parens (...) for fluent APIs
-* [#C] [2020-05-18] [[https://www.dcrainmaker.com/2020/05/strava-cuts-off-leaderboard-for-free-users-reduces-3rd-party-apps-for-all-and-more.html][Strava Cuts Off Leaderboard for Free Users, Reduces 3rd Party Apps for All, and More | DC Rainmaker]] :sadinfra:
-:PROPERTIES:
-:ID:       mnswwwdcrnmkrcmstrvctsfflsrdprtyppsfrllndmrdcrnmkr
-:END:
-
 * [#C] [2020-05-19] [[https://news.ycombinator.com/item?id=23237559][Blogging Is Not Dead | Hacker News]] :rss:
 :PROPERTIES:
 :ID:       tsnwsycmbntrcmtmdblggngsntddhckrnws
@@ -709,11 +590,6 @@ https://solar.lowtechmagazine.com/about.html
 :ID:       stsnwsycmbntrcmtmdlvcdsmdrndyhyprcrdhckrnws
 :END:
 : In the spirit of HN contrarian comments, I'd say the closest thing spiritually to a modern-day HyperCard is PySimpleGUI: https://github.com/PySimpleGUI
-* [#C] [2020-08-12] [[https://www.divergent-desktop.org/blog/2020/08/10/principles-overview/][12 Principles for a Diverging Desktop Future]] :computing:
-:PROPERTIES:
-:ID:       wdswwwdvrgntdsktprgblgprnvwprncplsfrdvrgngdsktpftr
-:END:
-
 * [#C] [2020-03-14] jestem króliczkiem on Twitter: "or, you can encode dependencies in types: @dataclass(init=False) class FancyPath: path: Path mtime: float def __init__(self, path: Path): self.path = path self.mtime = path.stat().st_mtime" / Twitter :cachew:python:
 :PROPERTIES:
 :ID:       stjstmkrólczkmntwttrrycnnpthslfmtmpthsttstmtmtwttr
@@ -1185,51 +1061,15 @@ this is mypy friendly
 
 this isn't
 : if sys.version_info.minor >= 7:
-* [2020-10-25] [[https://news.ycombinator.com/item?id=24866279][The Coming Civil War over General Purpose Computing (2012) | Hacker News]] :sadinfra:
-:PROPERTIES:
-:ID:       snsnwsycmbntrcmtmdthcmngcwrvrgnrlprpscmptnghckrnws
-:END:
-* [2020-10-26] [[https://news.ycombinator.com/item?id=24891576][What's crazy to me is how insanely overspec'd mobile devices are for what they d... | Hacker News]] :sadinfra:
-:PROPERTIES:
-:ID:       mnsnwsycmbntrcmtmdwhtscrzdmbldvcsrfrwhtthydhckrnws
-:END:
-: What's crazy to me is how insanely overspec'd mobile devices are for what they deliver. If you went back in time and told 1999 me the following:
-: I'll give you a computer with the following:
-: * 256GB of solid-state storage
-: * 6 CPUs @ 3+GHz
-: * 8GB of RAM
-: * Weighs only 200 grams
-: * Battery-powered, lasts 5+ hours
-: * 1440 x 3168 resolution display
-: I would have been absolutely gobsmacked. Such a machine absolutely outclasses every desktop up into the early 2010s!
-: 
-: And then you would tell me that it's mostly used to shitpost on reddit and Twitter and would be completely useless as a development machine, and the manufactures would do everything to make it impossible to put what software I want on it...and also it would spy on me everywhere I went in order to sell me garbage...
-: We took a wrong turn somewhere, didn't we?
-* [2020-10-26] [[https://news.ycombinator.com/item?id=24897279][25 Years In Speech Technology and I still don’t talk to my computer | Hacker News]] :sadinfra:
-:PROPERTIES:
-:ID:       mnsnwsycmbntrcmtmdyrsnspcstlldnttlktmycmptrhckrnws
-:END:
-
 * [2020-10-29] [[https://fcenter.ru/online/softarticles/interview/6862][Интервью с создателем Total Commander - Статьи Software]]
 :PROPERTIES:
 :ID:       thsfcntrrnlnsftrtclsntrvwтелемttlcmmndrстатьиsftwr
 :END:
-* [2020-11-03] [[https://news.ycombinator.com/item?id=24881893][This is something Stallman[1] and others have talked about for a while now, with... | Hacker News]] :sadinfra:
-:PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdthsssmthhvtlkdbtfrwhlnwwthhckrnws
-:END:
-: I remember in the 90s people all thought Stallman was crazy. And by people I mean developers, Linux users, people on usenet, etc. We all appreciated his contributions but at the end of the day just figured he was wearing a tin foil hat.
 * [2020-11-09] [[https://yoric.github.io/post/why-did-mozilla-remove-xul-addons/][Why Did Mozilla Remove XUL Add-ons?]]
 :PROPERTIES:
 :ID:       mnsyrcgthbpstwhyddmzllrmvxlddnswhyddmzllrmvxlddns
 :END:
 
-* [2020-11-22] [[https://stackoverflow.com/questions/22832104/how-can-i-see-hidden-app-data-in-google-drive][How can I see hidden app data in Google Drive? - Stack Overflow]] :sadinfra:
-:PROPERTIES:
-:ID:       snsstckvrflwcmqstnshwcnshshddnppdtnggldrvstckvrflw
-:END:
-- comment:
-  : fascinating, apparently this is how you access your own data for google drive apps?
 * [2020-09-29] on windows                                       :ci:circleci:
 :PROPERTIES:
 :ID:       tnwndws
@@ -1281,13 +1121,6 @@ this isn't
 Todo blog about singularity books
 from The Metamorphosis of Prime Intellect by Roger Williams
 
-* [2020-12-15] [[https://nitter.net/mekarpeles/status/1338766203192451074#m][Mek (@mekarpeles): "What's something about the web that's obviously broken? I'll start: No version control history and all the content is dynamic." | nitter]] :sadinfra:
-:PROPERTIES:
-:ID:       tsnttrntmkrplssttsmmkmkrpstryndllthcntntsdynmcnttr
-:END:
-: What's something about the web that's obviously broken?
-
-really good thread
 * https://github.com/randyrants/sharpkeys/releases to remap caps to esc :windows:setup:
 :PROPERTIES:
 :ID:       sgthbcmrndyrntsshrpkysrlsstrmpcpstsc
@@ -1830,7 +1663,7 @@ https://stackoverflow.com/questions/27907373/dynamically-change-slots-in-python-
 
 * .
 :PROPERTIES:
-:ID:       102574_102587
+:ID:       95687_95700
 :END:
 * TODO [#C] use repl.it instead of ideone?                              :ide:
 :PROPERTIES:
@@ -1855,36 +1688,6 @@ literate permissions?
 * [2013-02-11] Seems like uniqueness encoded not by type system, but by 'attributes', https://www.cs.tcd.ie/~devriese/pub/ifl07-paper.pdf :lineartypes:
 :PROPERTIES:
 :ID:       mnsmslknqnssncddntbytypsytsswwwcstcddvrspbflpprpdf
-:END:
-* [2014-09-27] some functional analysis notes                        :funcan:
-:PROPERTIES:
-:ID:       stsmfnctnlnlyssnts
-:END:
-L^\infty space
-A sequence of bumps of height 1 functions:
-
-f(x) = 1 if x \in [n; n + 1], 0 otherwise
-
-Does not have a convergent subsequence!
-
-Fischer-Rietz theorem: L^p is a Banach space.
-Dominated convergence theorem.
-* [2014-10-22] eigenvalues                                           :linalg:
-:PROPERTIES:
-:ID:       wdgnvls
-:END:
-Algebraic multiplicity: multiplicity as a root of the characteristic polynomial.
-In case of the field of complex numbers, the sum of algebraic mult. is exactly n.
-
-Geometric multiplicity: dimenstion of the eigenspace, associated with the eigenvalue.
-
-Sum of geometric multiplicities for A - \lambda I is equal to dim ket (A - \lambda I)
-
-Jordan cell corresponds to each subspace
-* TODO LSP for interlanguage communication? Like an IPC matrix :malleable:programming:think:
-:PROPERTIES:
-:CREATED:  [2021-01-19]
-:ID:       lspfrntrlnggcmmnctnlknpcmtrx
 :END:
 * [2019-01-01] Tweet from Al Dragon (@aldragon_net), at Jan 1, 21:35 :interfaces:
 :PROPERTIES:
@@ -1912,12 +1715,6 @@ https://twitter.com/hdevalence/status/1088649294746275840
 :ID:       tdybgglgrps
 :END:
 https://groups.google.com/forum/#!forum/diybio
-
-* [#C] [2019-01-29] (99+) London Hackspace - Google Groups :social:biohacking:
-:PROPERTIES:
-:ID:       tlndnhckspcgglgrps
-:END:
-https://groups.google.com/forum/#!forum/london-hack-space
 
 * cool biohacking wiki                                           :biohacking:
 :PROPERTIES:
@@ -1984,13 +1781,6 @@ https://github.com/d-cook/SomethingNew/issues/23
 :ID:       tspdcstsstnssrgsstnpdcst
 :END:
 
-* TODO [#C] ted nelson interview                         :tednelson:tolisten:
-:PROPERTIES:
-:CREATED:  [2020-02-14]
-:ID:       e9b9ece0-0475-4a7a-85ba-8adb69138aeb
-:END:
-
-https://mobile.twitter.com/jborichevskiy/status/1228372354956394496
 * [#C] [2020-09-03] [[https://www.scottaaronson.com/blog/?p=4949][Shtetl-Optimized » Blog Archive » My Utility+ podcast with Matthew Putman]] :tolisten:
 :PROPERTIES:
 :ID:       thswwwscttrnsncmblgpshttlhvmytltypdcstwthmtthwptmn
@@ -2019,7 +1809,7 @@ https://mobile.twitter.com/jborichevskiy/status/1228372354956394496
 :CREATED:  [2019-02-21]
 :ID:       mntcrltrsrchlgrthms
 :END:
-from Is AlphaGo Really Such a Big Deal? | Quanta Magazine https://www.quantamagazine.org/is-alphago-really-such-a-big-deal-20160329/
+: from Is AlphaGo Really Such a Big Deal? | Quanta Magazine https://www.quantamagazine.org/is-alphago-really-such-a-big-deal-20160329/
 * TODO [#D] That said, meditation can be an intense experience with a history of adverse effects (Love, 2018; Kornfield, 1979; Lindahl, 2017). Most meditators, especially 10-minutes-a-day
 :PROPERTIES:
 :CREATED:  [2019-07-26]
@@ -2091,41 +1881,17 @@ None
 [[https://hyp.is/Zl_A8pINEeq0ri-1nf7cdA/medium.com/@WorldBrain/vision-mission-values-2020-update-d70aa35a638][in context]]
 
 
-* TODO [[https://hyp.is/xrhdvhDQEeuOoA9nvvzgxQ/adamwiggins.com/making-computers-better/][X]] What do I mean by “better”? :computing:sadinfra:
-:PROPERTIES:
-:CREATED:  [2020-10-17]
-:ID:       shypsxrhdvhdqnvvzgxqdmwggngcmptrsbttrxwhtdmnbybttr
-:END:
-: Computing aids and encourages humanity’s noblest pursuits: science, reason, art, philosophy.
-: Computing directly supports improving the mental health, physical health, prosperity, and happiness of all humans.
-: Computing help us master (or at least, doesn’t intensify) our problematic tendencies: addiction, status anxiety, socioeconomic divisions, tribalism, fear, hate.
-: The economic and intellectual horsepower in Silicon Valley and the wider tech world seems to be pointed away from these goals.
-: For example: algorithms designed to maximize watch time, the social media outrage machine, loot boxes and other psuedo-gambling, and smartphone notifications activating Skinner-box tendencies.
-
-from [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
 * [#B] [2020-07-28] [[https://news.ycombinator.com/item?id=23962817][A new way to control experimentation with dreams | Hacker News]] :lucid:
 :PROPERTIES:
 :ID:       tsnwsycmbntrcmtmdnwwytcntrlxprmnttnwthdrmshckrnws
 :END:
 : Same here. More than once a week when I was a kid, once a week as a teen, now it's about once every few months in my late 30s. I have correlated it to body temperature though - the more blankets I use and the hotter I am over night, the more dreams remembered, lucid dreams, and nightmares I get. Although they're fun, I value my sleep more, and so these days sleep with the thinnest donna with the windows open (even in winter).
-* TODO [#C] walking flow https://vk.com/topic-23865151_38545249?post=684 :mind:
-:PROPERTIES:
-:CREATED:  [2018-08-02]
-:ID:       wlkngflwsvkcmtpcpst
-:END:
-
 * TODO [#C] [2019-02-15] What Universal Human Experiences Are You Missing Without Realizing It? | Slate Star Codex
 :PROPERTIES:
 :ID:       frwhtnvrslhmnxprncsrymssngwthtrlzngtsltstrcdx
 :END:
 https://slatestarcodex.com/2014/03/17/what-universal-human-experiences-are-you-missing-without-realizing-it/
 : That first thing sounds like anhedonia.
-* TODO [#C] use spaced repetition for appretiation entries? and good things too? :mind:spacedrep:
-:PROPERTIES:
-:CREATED:  [2018-10-11]
-:ID:       sspcdrpttnfrpprttnntrsndgdthngst
-:END:
-
 * TODO [#C] Practice lucid dreams                                     :lucid:
 :PROPERTIES:
 :CREATED:  [2018-06-29]
@@ -2181,16 +1947,6 @@ https://twitter.com/MuhammadPuter12/status/1114525993069203457
 :ID:       tmtcldnbthrmsydnthvttrnnthbrghtlghtstnght
 :END:
 
-* TODO [#B] how cell compute                                        :towatch:
-:PROPERTIES:
-:CREATED:  [2020-05-16]
-:ID:       hwcllcmpt
-:END:
-
-https://twitter.com/karpathy/status/1261457314713792512
-
-: @karpathy: This was actually really good. I've spent some time translating biology to CS/EE terms/abstractions, this makes a lot of those analogies explicit. +"Genetic circuit design automation" Science paper [2016] link science.sciencemag.org/content... twitter.com/Reza_Zadeh/status/...
-
 * TODO [#B] [2019-08-17] Andy Matuschak on Twitter: "🗣🎙 I had a wonderful time discussing technologies for thought on this week's EconTalk: https://t.co/Clgzx7uAJR @econtalker's even-handed analytical style has made this my favorite podcast for years, but of course he's also an experienced educator. A great combo for this topic!" / Twitter :towatch:
 :PROPERTIES:
 :ID:       stndymtschkntwttrhdwndrflcddctrgrtcmbfrthstpctwttr
@@ -2202,16 +1958,6 @@ https://twitter.com/andy_matuschak/status/1158428901716066304
 :ID:       stndymtschknbksndlrnngcnlb
 :END:
 http://www.econtalk.org/andy-matuschak-on-books-and-learning/
-
-* TODO [#B] [2020-05-31] [[https://media.ccc.de/v/GLT18_-_321_-_en_-_g_ap147_004_-_201804281550_-_the_advantages_of_file_name_conventions_and_tagging_-_karl_voit][media.ccc.de - The Advantages of File Name Conventions and Tagging]] :towatch:pkm:
-:PROPERTIES:
-:ID:       snsmdcccdvgltngpthdvntgsfdvntgsfflnmcnvntnsndtggng
-:END:
-* [#B] [2019-12-30] Roger Gregory Interview at Ted Nelson Book Launch : Internet Archive : Free Download, Borrow, and Streaming : Internet Archive :tednelson:towatch:
-:PROPERTIES:
-:ID:       mnrgrgrgryntrvwttdnlsnbklwnldbrrwndstrmngntrntrchv
-:END:
-https://archive.org/details/possiplexrogergregoryinterview
 
 * [#B] [2020-10-07] [[https://news.ycombinator.com/item?id=24706787][There's a documentary on Netflix "Human Nature" that discusses the history of CR... | Hacker News]]
 :PROPERTIES:
@@ -2228,39 +1974,6 @@ https://archive.org/details/possiplexrogergregoryinterview
 :ID:       snsrddtcmrphyscscmmntstmvtmphyscsqntmmchncsrphyscs
 :END:
 :  I am particularly impartial towards his Electromagnetism video. It is 45 minutes of pure ecstacy.
-
-* TODO [#D] [2019-10-26] EmacsConf 2019 - Schedule                  :towatch:
-:PROPERTIES:
-:ID:       stmcscnfschdl
-:END:
-https://emacsconf.org/2019/schedule
-: Managing your life with org-mode and other tools
-: Marcin Swieczkowski
-
-* TODO [#C] [2019-06-18] Non-euclidean virtual reality - YouTube :towatch:vr:
-:PROPERTIES:
-:ID:       tnncldnvrtlrltyytb
-:END:
-https://www.youtube.com/watch?v=ztsi0CLxmjw
-
-* TODO [#C] [2019-06-18] What does VR reveal about the 4th dimension? - YouTube :towatch:vr:
-:PROPERTIES:
-:ID:       twhtdsvrrvlbtththdmnsnytb
-:END:
-https://www.youtube.com/watch?v=S-yRYmdsnGs
-
-* TODO [#C] [2019-06-18] Non-euclidean virtual reality using ray marching - YouTube :towatch:vr:
-:PROPERTIES:
-:ID:       tnncldnvrtlrltysngrymrchngytb
-:END:
-https://www.youtube.com/watch?v=ivHG4AOkhYA
-ray marching?
-
-* TODO [#C] [2019-06-18] Chroma Lab - VR Physics Simulation Sandbox - YouTube :towatch:vr:
-:PROPERTIES:
-:ID:       tchrmlbvrphyscssmltnsndbxytb
-:END:
-https://www.youtube.com/watch?v=qu8lB3l20wY
 
 * TODO [#C] Tweet from michael_nielsen (@michael_nielsen), at Sep 18, 09:38 blade runner; tears in rain monologue
 :PROPERTIES:
@@ -2408,20 +2121,5 @@ from Luminous
 :PROPERTIES:
 :CREATED:  [2019-10-20]
 :ID:       f9d48916-3091-4392-ae01-dcb777b6e213
-:END:
-from Come as You Are
-
-* TODO hadron was now the general term for particles that felt the strong force. :drill:
-:PROPERTIES:
-:CREATED:  [2020-07-31]
-:ID:       9a202fcd-b8f6-47ee-9928-184fe5b0e991
-:END:
-from Genius: The Life and Science of Richard Feynman
-
-
-* TODO sympathetic nervous system {“accelerator”} and your parasympathetic nervous system {“brake”} :drill:
-:PROPERTIES:
-:CREATED:  [2019-08-17]
-:ID:       f130f3f2-8979-466d-aa57-5294d86c1c2e
 :END:
 from Come as You Are

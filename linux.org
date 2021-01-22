@@ -113,3 +113,11 @@ mind the space after colon!
 :ID:       lnxgnrsthstdbtnllntrprtdxctblsxctblsstrtngwthln
 :END:
 ok apparently setuid shell scripts are quite risky...
+* [#C] [2020-01-29] linux - How to make htop sort by PID - Super User  :htop:
+:PROPERTIES:
+:ID:       wdlnxhwtmkhtpsrtbypdsprsr
+:END:
+https://superuser.com/questions/275873/how-to-make-htop-sort-by-pid
+: @OSX Press >.
+
+press > and select RES

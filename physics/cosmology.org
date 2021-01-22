@@ -99,3 +99,10 @@ D = a(t) dx
 V = a'(t) dx
 V/D = a /a' = H(t) -- hubble's constant
 hmm, but does it make sense to speak about V if D is not changing???
+
+* [#B] [2020-04-10] Emily Levesque Public Lecture: The Weirdest Stars in the Universe - YouTube :cosmology:
+:PROPERTIES:
+:ID:       frmlylvsqpblclctrthwrdststrsnthnvrsytb
+:END:
+https://www.youtube.com/watch?v=YR-l0b2iYy0
+pretty cool talk!

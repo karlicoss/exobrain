@@ -461,3 +461,8 @@ https://extensionworkshop.com/documentation/develop/request-the-right-permission
 :ID:       tmzllddnsblg
 :END:
 https://blog.mozilla.org/addons/
+
+* [2020-05-05] [[https://github.com/mozilla/web-ext/pull/1784][feat: Added option to `--watch-file` to address eager reloading by jezhou · Pull Request #1784 · mozilla/web-ext]]
+:PROPERTIES:
+:ID:       tsgthbcmmzllwbxtpllftdddprldngbyjzhpllrqstmzllwbxt
+:END:

@@ -1,0 +1,48 @@
+#+TITLE: Mind
+#+filetags: mind
+
+We'll need to figure this out...
+
+* related                                                  :singularity:self:
+:PROPERTIES:
+:ID:       rltd
+:END:
+* [#A] [2020-01-30] [[https://news.ycombinator.com/item?id=22193451][Today I Learned That Not Everyone Has an Internal Monologue]] :mind:
+:PROPERTIES:
+:ID:       thsnwsycmbntrcmtmdtdylrndthtntvrynhsnntrnlmnlg
+:END:
+https://ryanandrewlangdon.wordpress.com/2020/01/28/today-i-learned-that-not-everyone-has-an-internal-monologue-and-it-has-ruined-my-day/
+* TODO [#C] walking flow https://vk.com/topic-23865151_38545249?post=684 :mind:
+:PROPERTIES:
+:CREATED:  [2018-08-02]
+:ID:       wlkngflwsvkcmtpcpst
+:END:
+
+* TODO [#C] use spaced repetition for appretiation entries? and good things too? :mind:spacedrep:
+:PROPERTIES:
+:CREATED:  [2018-10-11]
+:ID:       sspcdrpttnfrpprttnntrsndgdthngst
+:END:
+
+* [#D] [2018-08-15] Flow Genome Project « The Official Source For Flow Science And Training :mind:
+:PROPERTIES:
+:ID:       wdflwgnmprjctthffclsrcfrflwscncndtrnng
+:END:
+http://www.flowgenomeproject.com/
+
+** [2018-10-22]  eh. googled that and nothing specific, overall sound like bullshit, they are just selling subscriptions.
+:PROPERTIES:
+:ID:       mnhggldthtndnthngspcfcvrllshtthyrjstsllngsbscrptns
+:END:
+** TODO [2018-10-22]  ? add to                                         :axol:
+:PROPERTIES:
+:ID:       mnddt
+:END:
+* TODO [#D] [2019-02-15] What Universal Human Experiences Are You Missing Without Realizing It? | Slate Star Codex :music:mind:
+:PROPERTIES:
+:ID:       frwhtnvrslhmnxprncsrymssngwthtrlzngtsltstrcdx
+:END:
+https://slatestarcodex.com/2014/03/17/what-universal-human-experiences-are-you-missing-without-realizing-it/
+: Some people can differentiate between orders of magnitude more colors than other people. You can test yourself here: http://www.apartmenttherapy.com/how-well-do-you-see-color-173018
+: I once had a long argument with a group of friends about why vision was more interesting than sound. Turns out all the ones who sided with vision could differentiate between far more colors.
+: You can also test if you’re tonedeaf: http://jakemandell.com/tonedeaf/

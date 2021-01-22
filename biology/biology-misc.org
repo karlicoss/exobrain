@@ -71,3 +71,18 @@ https://blogs.scientificamerican.com/observations/watch-the-life-cycle-of-hiv-in
 :ID:       stsnwkpdrgwkpnwrmpnwrmwkpd
 :END:
 : OpenWorm is an international open science project to simulate the roundworm Caenorhabditis elegans at the cellular level as a simulation.[1][2][3] Although the long-term goal is to model all 959 cells of the C. elegans, the first stage is to model the worm's locomotion by simulating the 302 neurons and 95 muscle cells.
+* TODO [#B] how cell compute                                        :towatch:
+:PROPERTIES:
+:CREATED:  [2020-05-16]
+:ID:       hwcllcmpt
+:END:
+
+https://twitter.com/karpathy/status/1261457314713792512
+: @karpathy: This was actually really good. I've spent some time translating biology to CS/EE terms/abstractions, this makes a lot of those analogies explicit. +"Genetic circuit design automation" Science paper [2016] link science.sciencemag.org/content... twitter.com/Reza_Zadeh/status/...
+
+* TODO sympathetic nervous system {“accelerator”} and your parasympathetic nervous system {“brake”} :drill:
+:PROPERTIES:
+:CREATED:  [2019-08-17]
+:ID:       f130f3f2-8979-466d-aa57-5294d86c1c2e
+:END:
+from Come as You Are

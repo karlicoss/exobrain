@@ -750,3 +750,8 @@ https://news.ycombinator.com/user?id=karlicoss
 : karma:	757
 
 capture HN karma? maybe on all comments
+* TODO [#C] [2020-04-19] [[https://github.com/karlicoss/rexport/pull/6/files][open files using utf-8 encoding (fixes #5) by miguelrochefort · Pull Request #6 · karlicoss/rexport]]
+:PROPERTIES:
+:ID:       snsgthbcmkrlcssrxprtpllfllrchfrtpllrqstkrlcssrxprt
+:END:
+apply this to export helper...

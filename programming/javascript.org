@@ -141,3 +141,30 @@ https://svelte.dev/blog/svelte-3-rethinking-reactivity
 :ID:       stsstckvrflwcmqstnssstwytptsstwytsrtdmndsstckvrflw
 :END:
 : By using list.children instead of list.childNodes, you can avoid the check for text nodes.
+* [#C] [2020-06-21] [[https://news.ycombinator.com/item?id=23578319][A little bit of plain JavaScript can do a lot | Hacker News]]
+:PROPERTIES:
+:ID:       snsnwsycmbntrcmtmdlttlbtfplnjvscrptcndlthckrnws
+:END:
+: A bit more minified/modern version of this that I'm using:
+:     function $e(t='div',p={},c=[]){
+:       let el=document.createElement(t);
+:       Object.assign(el,p);
+:       el.append(...c);
+:       return el;
+:     }
+:     var $t=document.createTextNode.bind(document);
+* TODO [#C] [2019-09-06] A small trick on using console.log to print data in JavaScript | Lobsters :js:
+:PROPERTIES:
+:ID:       frsmlltrcknsngcnsllgtprntdtnjvscrptlbstrs
+:END:
+https://lobste.rs/s/u2dyrr/small_trick_on_using_console_log_print
+: console.log("User(%o)", user)
+: console.table is also useful
+:     faitswulff avatar faitswulff 3 hours ago | link |
+: I’ve started to use console.table for pretty much everything. It’s so nice.
+* TODO [#C] [2020-06-05] [[https://merveilles.town/@materialfuture/104292286688572143][MaterialFuture: "Tried out DenoJS to play around with Vue and it w…" - Merveilles]] :js:
+:PROPERTIES:
+:ID:       frsmrvllstwnmtrlftrmtrlftdnjstplyrndwthvndtwmrvlls
+:END:
+: Tried out DenoJS to play around with Vue and it was very pleasant to use.
+: I'm going to have to read more into it, but I think any personal JS projects will be using Deno simply due to the lack of dependencies and speed.

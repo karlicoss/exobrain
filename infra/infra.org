@@ -1,4 +1,4 @@
-#+TITLE: Personal infrastructure
+#+TITLE: Personal infra
 #+filetags: infra
 
 * TODO [#B] Voice recorded notes for hands free thinking?           :mycroft:
@@ -203,3 +203,8 @@ https://github.com/Friz-zy/awesome-linux-containers#readme
 :END:
 https://unix.stackexchange.com/questions/72037/difference-between-xz-and-lzma-in-gnu-tar
 : This options control which external binary tar calls for compressing its data stream: lzma and xz respectively. While both of them uses the same compression algorithm by default, xz is considered more up-to-date and feature rich, with lzma being somewhat legacy tool. Modern version of xz-utils provides both commands, with lzma being an 'alias' for xz --format=lzma (man xz).
+* TODO [#C] tini is used in airsonic                                 :docker:
+:PROPERTIES:
+:CREATED:  [2020-08-21]
+:ID:       tnssdnrsnc
+:END:

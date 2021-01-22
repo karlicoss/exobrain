@@ -690,3 +690,8 @@ I don't know wtf is wrong. I don't get how to extract title from the note. (om-g
 :ID:       mnsgthbcmrstlngmdbksssrgmdspprtssrstlngmdbk
 :END:
 : I'd be happy to mentor you through the process and review code
+* [#B] [2020-06-13] [[http://blog.rfox.eu/en/About_this_blog/What_do_I_mean_by_node.html][What do I mean by node?]] :exobrain:
+:PROPERTIES:
+:ID:       stblgrfxnbtthsblgwhtdmnbyndhtmlwhtdmnbynd
+:END:
+good explanation

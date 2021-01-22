@@ -1107,3 +1107,15 @@ hmm, maybe disassemble dropsync to hack update frequency via automate on wifi?
 :CREATED:  [2019-02-01]
 :ID:       tmtcwtchltrddcdbytgsyncwthytbplylst
 :END:
+* DONE [#C] use org-mode for docs? also make sure to keep old commit link as example of using ipython for literate docs :cachew:literate:jupyter:
+:PROPERTIES:
+:CREATED:  [2019-12-08]
+:ID:       srgmdfrdcslsmksrtkpldcmmtnksxmplfsngpythnfrltrtdcs
+:END:
+* TODO [#D] [2019-10-26] EmacsConf 2019 - Schedule                  :towatch:
+:PROPERTIES:
+:ID:       stmcscnfschdl
+:END:
+https://emacsconf.org/2019/schedule
+: Managing your life with org-mode and other tools
+: Marcin Swieczkowski

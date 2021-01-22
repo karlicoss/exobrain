@@ -55,3 +55,7 @@ https://github.com/dypsilon/frontend-dev-bookmarks#readme
 :CREATED:  [2020-02-21]
 :ID:       frfxdvtlsclrvsndfcncy
 :END:
+* [#B] [2020-08-25] [[https://httptoolkit.tech/will-it-cors/][Will It CORS?]] :cors:
+:PROPERTIES:
+:ID:       tstlkttchwlltcrswlltcrs
+:END:

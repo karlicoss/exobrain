@@ -134,17 +134,6 @@ https://dev.to/sobolevn/9-best-open-source-findings-november-2019-gi0
 :ID:       thtlkslbstrssztxmdlgydlgylbstrs
 :END:
 - [2021-01-10] TLDR: both "I don't need tests" and "I don't need types" people are wrong, often because they haven't seen better alternatives
-* [#C] [2019-07-23] SomethingNew/Resources.md at master · d-cook/SomethingNew :computing:
-:PROPERTIES:
-:ID:       tsmthngnwrsrcsmdtmstrdcksmthngnw
-:END:
-https://github.com/d-cook/SomethingNew/blob/master/Resources.md
-
-* [#C] [2019-07-23] SomethingNew/Concepts.md at master · d-cook/SomethingNew :computing:
-:PROPERTIES:
-:ID:       tsmthngnwcncptsmdtmstrdcksmthngnw
-:END:
-https://github.com/d-cook/SomethingNew/blob/master/Concepts.md
 * [2016-10-02] distributed system patterns                      :distributed:
 :PROPERTIES:
 :ID:       sndstrbtdsystmpttrns
@@ -189,4 +178,309 @@ you can docker exec -it /bin/bash into the container and debug there
 :PROPERTIES:
 :CREATED:  [2019-09-13]
 :ID:       frfxscrnshtslmntslctnptntllysflfrmytrssthng
+:END:
+* TODO [#D] crudini whitespace around option
+:PROPERTIES:
+:ID:       crdnwhtspcrndptn
+:END:
+kina like in MC?
+https://github.com/pixelb/crudini/issues/33#issuecomment-240365862
+
+* STRT [#C] [2020-01-11] qawolf/qawolf: 🐺Create browser tests 10x faster :testing:promnesia:grasp:
+:PROPERTIES:
+:ID:       stqwlfqwlfcrtbrwsrtstsxfstr
+:END:
+https://github.com/qawolf/qawolf
+: QA Wolf is an open source node library for creating browser tests 10x faster:
+:     Skip writing boilerplate. Your browser actions are converted to Puppeteer and Jest code.
+** [2020-03-27] I mean, ok it looks pretty compact
+:PROPERTIES:
+:ID:       frmnktlksprttycmpct
+:END:
+https://flood.io/blog/selenium-vs-puppeteer-for-test-automation-is-a-new-leader-emerging
+puppeteer is only available on chrome though??
+* TODO [#C] add favoriting with javascript?                      :hackernews:
+:PROPERTIES:
+:CREATED:  [2020-02-15]
+:ID:       ddfvrtngwthjvscrpt
+:END:
+* TODO [#C] using tabs (tab stops) are a fairly reasonable way of aligning?
+:PROPERTIES:
+:CREATED:  [2020-02-19]
+:ID:       4786ba77-cb6c-42f3-80dd-8c3014981922
+:END:
+* [#C] [2020-01-04] Relative imports in Python 3 - Stack Overflow   :exports:
+:PROPERTIES:
+:ID:       strltvmprtsnpythnstckvrflw
+:END:
+https://stackoverflow.com/questions/16981921/relative-imports-in-python-3
+link to explaining wtf is with DAL etc
+** [2021-01-22] eh?
+:PROPERTIES:
+:ID:       frh
+:END:
+* TODO [#C] [2020-02-12] Dmitry Zuykov on Twitter: "firefox умеет автоматизацию через Marionette, который просто асинхронный tcp/json, для которого есть HTTP-враппер geckodriver, клиент для этой обёртки есть даже в нашем уютненьком и работает. Можно скрэпить через браузер, у меня… :scrape:
+:PROPERTIES:
+:ID:       wddmtryzykvntwttrfrfxумеескрэпитьчерезбраузеруменя
+:END:
+https://mobile.twitter.com/voidlizard/status/1227505059963035648
+
+* TODO [#B] [2020-04-22] [[https://lobste.rs/s/lg2cmt/tools_made_you_productive_saved_you_time#c_m8frty][Tools that made you productive or saved you time | Lobsters]]
+:PROPERTIES:
+:ID:       wdslbstrsslgcmttlsmdyprdcthtmdyprdctvrsvdytmlbstrs
+:END:
+* TODO [#D] ML kit android                                       :ml:android:
+:PROPERTIES:
+:CREATED:  [2018-05-08]
+:ID:       mlktndrd
+:END:
+
+* STRT [#C] Vscode?                                                     :ide:
+:PROPERTIES:
+:CREATED:  [2019-12-13]
+:ID:       vscd
+:END:
+: I switched to NeoVim a few years ago and I'm not entirely sure whether Vim has caught up in features, diverged, or what ratio of the two.
+: That said, I'm not switching back. The only editor I'm really interested in is VSCode. Not that I use it much, but I am very impressed.
+
+* [#C] [2019-11-01] Why TDD Isn't Crap • Hillel Wayne               :testing:
+:PROPERTIES:
+:ID:       frwhytddsntcrphlllwyn
+:END:
+https://www.hillelwayne.com/post/why-tdd-isnt-crap/
+: While the first PBT library was Haskell Quickcheck, arguably the most sophisticated is the Hypothesis Python library.
+* TODO [#D] JSONCrush – Compress JSON into URI Friendly Strings | Hacker News :json:
+:PROPERTIES:
+:CREATED:  [2019-11-27]
+:ID:       jsncrshcmprssjsnntrfrndlystrngshckrnws
+:END:
+
+https://news.ycombinator.com/item?id=21641760
+* [#C] [2020-03-30] karan/Projects: A list of practical projects that anyone can solve in any programming language.
+:PROPERTIES:
+:ID:       mnkrnprjctslstfprctclprjchtnyncnslvnnyprgrmmnglngg
+:END:
+https://github.com/karan/Projects
+
+* [#A] [2020-03-31] Debugging with tmate · Actions · GitHub Marketplace :debug:githubci:
+:PROPERTIES:
+:ID:       tdbggngwthtmtctnsgthbmrktplc
+:END:
+https://github.com/marketplace/actions/debugging-with-tmate
+ok, nice it's like circleci ssh debugging.
+less convenient because you have to commit a step, but ok considering you don't need it often
+* [#D] [2020-01-19] Home - Mozilla Hacks - the Web developer blog
+:PROPERTIES:
+:ID:       snhmmzllhcksthwbdvlprblg
+:END:
+https://hacks.mozilla.org/
+
+* [2018-03-01] danluu: latency matters https://danluu.com/input-lag/ :ux:performance:
+:PROPERTIES:
+:ID:       thdnlltncymttrssdnlcmnptlg
+:END:
+: try typing in terminal with 30ms ping
+* [#D] [2015-11-04] inversion of control
+:PROPERTIES:
+:ID:       wdnvrsnfcntrl
+:END:
+: Inversion of Control principle, which basically states that the flow of your application depends on the object graph that is built up during program execution, and such a dynamic flow is made possible by object interactions being defined through abstractions.
+: This run-time binding is achieved by mechanisms such as dependency injection or a service locator.
+
+* [#D] [2018-06-16] Tweet from Gary Bernhardt (@garybernhardt), at Jun 16, 13:54 :performance:
+:PROPERTIES:
+:ID:       sttwtfrmgrybrnhrdtgrybrnhrdttjn
+:END:
+: In 2008, I was extremely frustrated by Ruby imposing a constant ~100 ms startup penalty on hello world. In 2018, computers are ~3.5 times faster (4479 vs. 1266 Geekbench for 2007 vs. 2017 MBP). TypeScript imposes a 1600 ms startup penalty on hello world. https://t.co/GzMcXPoFNU
+
+https://twitter.com/garybernhardt/status/1007690864909529088
+
+* [2017-05-29] gdb tips                                                 :gdb:
+:PROPERTIES:
+:ID:       gdbtps
+:END:
+Debugging multiple threads/processes
+: set follow-fork-mode [parent|child]
+: set detach-on-fork [on|off]
+
+
+http://www.delorie.com/gnu/docs/gdb/gdb_26.html
+http://sourceware.org/gdb/current/onlinedocs/gdb/Forks.html
+
+** Attaching to a process in ubuntu:
+:PROPERTIES:
+:ID:       ttchngtprcssnbnt
+:END:
+: echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
+
+
+* TODO [#D] use 'commands' 'end'                                  :gdb:habit:
+:PROPERTIES:
+:CREATED:  [2018-08-10]
+:ID:       c1bfa720-84f1-4cd5-a7c1-8526acb88555
+:END:
+https://sourceware.org/gdb/onlinedocs/gdb/Break-Commands.html
+
+* TODO [#C] Tweet from Awesome (@awesome__re), at Nov 19, 16:36 awesome fuzzing :testing:
+:PROPERTIES:
+:CREATED:  [2019-11-19]
+:ID:       twtfrmwsmwsmrtnvwsmfzzng
+:END:
+: Awesome Fuzzing
+: Automated software testing technique that involves feeding pseudo-randomly generated input data.
+
+https://twitter.com/awesome__re/status/1138001812718440448
+
+* [#C] [2019-08-08] Web Colors                                       :design:
+:PROPERTIES:
+:ID:       thwbclrs
+:END:
+https://www.rapidtables.com/web/color/index.html
+
+* TODO [#C] [2019-08-18] cpuu/awesome-fuzzing: A curated list of awesome Fuzzing(or Fuzz Testing) for software security
+:PROPERTIES:
+:ID:       sncpwsmfzzngcrtdlstfwsmfzzngrfzztstngfrsftwrscrty
+:END:
+https://github.com/cpuu/awesome-fuzzing#readme
+: Awesome Fuzzing
+
+* [#C] [2020-02-28] Repl.it - EmbellishedWanConcentrate
+:PROPERTIES:
+:ID:       frrpltmbllshdwncncntrt
+:END:
+https://repl.it/repls/EmbellishedWanConcentrate
+wow, nice
+* [2017-05-08] gdb notes                                                :gdb:
+:PROPERTIES:
+:ID:       gdbnts
+:END:
+- D_GLIBCXX_DEBUG
+
+
+- https://stackoverflow.com/questions/2492020/how-to-view-contents-of-stl-containers-using-gdb-7-x
+Get the python viewers from SVN
+svn://gcc.gnu.org/svn/gcc/trunk/libstdc++-v3/python
+: Add the following to your ~/.gdbinit
+: python
+: import sys
+: sys.path.insert(0, '/path/to/pretty-printers/dir')
+: from libstdcxx.v6.printers import register_libstdcxx_printers
+: register_libstdcxx_printers (None)
+: end
+
+
+You have to make sure that you have the package with the libstdc++ library compiled with the debugging flags.
+
+For clang: ~-fno-limit-debug-info~ do not limit debug information produced to reduce size of debug binary
+* TODO [#B] [2020-05-21] [[https://github.com/datalib/libextract][datalib/libextract: Extract data from websites using basic statistical magic]] :scrape:
+:PROPERTIES:
+:ID:       thsgthbcmdtlblbxtrctdtlbltfrmwbstssngbscsttstclmgc
+:END:
+: Libextract is a statistics-enabled data extraction library that works on HTML and XML documents and written in Python.
+: Originating from eatiht, the extraction algorithm works by making one simple assumption: data appear as collections of repetitive elements. You can read about the reasoning here.
+
+huh, this is niiice!
+* TODO [#C] open source infromation extraction tools
+:PROPERTIES:
+:CREATED:  [2018-01-28]
+:ID:       pnsrcnfrmtnxtrctntls
+:END:
+** https://github.com/machinalis/iepy
+:PROPERTIES:
+:ID:       sgthbcmmchnlspy
+:END:
+hasn't updated for 2 years
+
+** https://github.com/keon/awesome-nlp
+:PROPERTIES:
+:ID:       sgthbcmknwsmnlp
+:END:
+lots of interesing links...
+
+* TODO [#A] it's way better to start generalising after implementing at least two almost identical/copypasted things :programming:thinking:
+:PROPERTIES:
+:CREATED:  [2019-09-19]
+:ID:       tswybttrtstrtgnrlsngftrmpsttwlmstdntclcpypstdthngs
+:END:
+* [#C] [2020-04-22] [[https://github.community/t5/GitHub-Actions/Will-GitHub-Actions-support-pull-request-events-from-a-fork-to-a/td-p/44488/page/3][Will GitHub Actions support pull_request events fr... - Page 3 - GitHub Community Forum]] :githubci:
+:PROPERTIES:
+:ID:       wdsgthbcmmntytgthbctnswllrqstvntsfrpggthbcmmntyfrm
+:END:
+* TODO [#C] [2020-06-08] [[https://shalabh.com/programmable-systems/files-and-file-formats.html][Files, Formats and Byte Arrays]] :malleable:
+:PROPERTIES:
+:ID:       mnsshlbhcmprgrmmblsystmsfrmtshtmlflsfrmtsndbytrrys
+:END:
+read comments here
+** TODO [2021-01-22] create file for #computing ?
+:PROPERTIES:
+:ID:       frcrtflfrcmptng
+:END:
+* TODO [#B] Tweet from @EvMill                                        :julia:
+:PROPERTIES:
+:CREATED:  [2020-10-09]
+:ID:       twtfrmvmll
+:END:
+
+https://twitter.com/EvMill/status/1314544492935032832
+: @EvMill: "The combination of virtues that Julia offers to the computational scientist expands the universe of things that can be accomplished in a finite time by a normal human. It allows the scientist to imagine things that might not be imagined without it."
+
+* [#C] [2020-06-02] [[https://news.ycombinator.com/item?id=23358863][Where can you use SQLite? Embedded Systems: Yes Raspberry Pi : Yes Mobile ... | Hacker News]]
+:PROPERTIES:
+:ID:       tsnwsycmbntrcmtmdwhrcnysstmsysrspbrrypysmblhckrnws
+:END:
+: Browsers: yes
+: https://github.com/sql-js/sql.js
+* [#D] [2018-11-18] mythmon/rust-nbodies: N-Bodies gravity simulation in Rust :sim:
+:PROPERTIES:
+:ID:       snmythmnrstnbdsnbdsgrvtysmltnnrst
+:END:
+https://github.com/mythmon/rust-nbodies
+* TODO [#D] [2019-12-18] Software Tools for Hobby-Scale Projects        :vps:
+:PROPERTIES:
+:ID:       wdsftwrtlsfrhbbysclprjcts
+:END:
+https://rickcarlino.com/2019/11/02/software-tools-for-hobby-sized-projects-html.html
+: Vultr - Dirt Cheap VPS Hosting
+: Since hobby projects rarely see high-volumes of traffic, the main concern is often cost rather than performance.
+: 
+: Vultr is my go-to solution for cheap hosting. As of this writing, the cheapest plan they offer is $2.50 a month. Although their cheapest plan defintely won’t be able to fuel your next high-powered computing project, it is a great solution when you need to host small scale tasks such as cron jobs.
+* [2020-04-15] [[https://twitter.com/borkdude/status/1249818512295632897][(λ. borkdude) on Twitter: "Cool idea! Alternative: $ alias bbjq='bb "(json/parse-stream *in* true)" | bb' $ curl -s 'https://t.co/IGRoyvYOdv' | bbjq '(-&gt;&gt; *input* (map (comp :login :author)))' ;;=&gt; ("jr0cket" "borkdude" "rymndhng" "borkdude" "OscarMarshall") babashka https://t.co/rk76nGsTGW" / Twitter]]
+:PROPERTIES:
+:ID:       wdstwttrcmbrkddsttsλbrkddshllbbshkstcrkngstgwtwttr
+:END:
+* [2020-04-25] [[https://circleci.com/gh/karlicoss/promnesia/1130?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link][Continuous Integration and Deployment]]
+:PROPERTIES:
+:ID:       stscrclccmghkrlcssprmnstmldlnkcntnsntgrtnnddplymnt
+:END:
+:     def get_extension_page_firefox(driver):
+:         moz_profile = Path(driver.capabilities['moz:profile'])
+:         prefs_file = moz_profile / 'prefs.js'
+: 
+:         # doesn't appear immediately after installing somehow, so need to wait for a bit..
+:         for _ in range(10):
+:             sleep(0.5)
+:             if prefs_file.exists():
+:                 break
+: 
+:         addon_name = 'temporary_addon'
+:         # TODO ok, apparently I should add it to tips on using or something..
+:         addon_name = 'promnesia@karlicoss.github.com'
+: 
+:         addon_id = None
+:         for line in prefs_file.read_text().splitlines():
+:             # temporary-addon\":\"53104c22-acd0-4d44-904c-22d11d31559a\"}")
+:             m = re.search(addon_name + r'.....([0-9a-z-]+)."', line)
+:             if m is None:
+:                 continue
+:             addon_id = m.group(1)
+: >       assert addon_id is not None
+* TODO [#B] [2019-12-18] Software Tools for Hobby-Scale Projects       :json:
+:PROPERTIES:
+:ID:       wdsftwrtlsfrhbbysclprjcts
+:END:
+https://rickcarlino.com/2019/11/02/software-tools-for-hobby-sized-projects-html.html
+: MyJSON.com - Free Cloud Storage for JSON
+* [#B] [2018-06-19] https://samwho.co.uk/blog/2017/04/22/emulating-bad-networks/ :network:testing:
+:PROPERTIES:
+:ID:       tssmwhckblgmltngbdntwrks
 :END:

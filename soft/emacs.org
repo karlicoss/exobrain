@@ -832,3 +832,13 @@ huh, very similar experience
 :ID:       wdslbstrssccdgnfvrtmcspckgsfvrtmcspckgslbstrs
 :END:
 : deadgrep. When using counsel-rg gives to many results, deadgrep offers a very clean interface to view and navigate the results of a search. I especially love that by default it finds the root of the project (a Git project for example) so it DWIMs pretty well.
+* [#B] [2020-09-25] [[https://news.ycombinator.com/item?id=24593616][Toward a “Modern” Emacs]] :emacs:
+:PROPERTIES:
+:ID:       frsnwsycmbntrcmtmdtwrdmdrnmcs
+:END:
+https://lwn.net/SubscriberLink/832311/03910e26a3f3e814/
+* TODO [#B] explore doom-snippets?                                   :python:
+:PROPERTIES:
+:CREATED:  [2020-03-08]
+:ID:       xplrdmsnppts
+:END:

@@ -399,3 +399,28 @@ from [[https://www.instapaper.com/read/1279727070/12330512][ip]]   [[https://xen
 : If function {\displaystyle g} g is invertible, i.e., {\displaystyle g^{-1}} g^{-1} exists, and is either increasing or decreasing, then the previous relation can be extended to obtain
 : 
 : {\displaystyle F_{Y}(y)=\operatorname {P} (g(X)\leq y)={\begin{cases}\operatorname {P} (X\leq g^{-1}(y))=F_{X}(g^{-1}(y)),&{\text{if }}g^{-1}{\text{ increasing}},\\\\\operatorname {P} (X\geq g^{-1}(y))=1-F_{X}(g^{-1}(y)),&{\text{if }}g^{-1}{\text{ decreasing}}.\end{cases}}} F_{Y}(y)=\operatorname {P} (g(X)\leq y)={\begin{cases}\operatorname {P} (X\leq g^{-1}(y))=F_{X}(g^{-1}(y)),&{\text{if }}g^{-1}{\text{ increasing}},\\\\\operatorname {P} (X\geq g^{-1}(y))=1-F_{X}(g^{-1}(y)),&{\text{if }}g^{-1}{\text{ decreasing}}.\end{cases}}
+* [2014-10-22] eigenvalues                                           :linalg:
+:PROPERTIES:
+:ID:       wdgnvls
+:END:
+Algebraic multiplicity: multiplicity as a root of the characteristic polynomial.
+In case of the field of complex numbers, the sum of algebraic mult. is exactly n.
+
+Geometric multiplicity: dimenstion of the eigenspace, associated with the eigenvalue.
+
+Sum of geometric multiplicities for A - \lambda I is equal to dim ket (A - \lambda I)
+
+Jordan cell corresponds to each subspace
+* [2014-09-27] some functional analysis notes                        :funcan:
+:PROPERTIES:
+:ID:       stsmfnctnlnlyssnts
+:END:
+L^\infty space
+A sequence of bumps of height 1 functions:
+
+f(x) = 1 if x \in [n; n + 1], 0 otherwise
+
+Does not have a convergent subsequence!
+
+Fischer-Rietz theorem: L^p is a Banach space.
+Dominated convergence theorem.

@@ -488,10 +488,6 @@ wow, lots of cool stuff here..
 :ID:       mnwbcstkdzhblgntbkpnpntshngwthcmpttnlntbksstnzhnly
 :END:
 
-* TODO [#B] [2020-04-18] [[https://news.ycombinator.com/item?id=22907211][Ask HN: What are some great posts or articles about history of computing? | Hacker News]] :computing:
-:PROPERTIES:
-:ID:       stsnwsycmbntrcmtmdskhnwhttclsbthstryfcmptnghckrnws
-:END:
 * TODO [#B] [2020-04-15] [[https://www.quantamagazine.org/does-time-really-flow-new-clues-come-from-a-century-old-approach-to-math-20200407/][Does Time Really Flow? New Clues Come From a Century-Old Approach to Math. | Quanta Magazine]] :physics:
 :PROPERTIES:
 :ID:       wdswwwqntmgznrgdstmrllyflrmcntryldpprchtmthqntmgzn
@@ -1053,11 +1049,6 @@ http://www.withouthotair.com/c5/page_35.shtml
 : Lectures on Quantum Field Theory (1966): This book lays down the foundations of quantum field theory using the Hamiltonian formalism.
 : Spinors in Hilbert Space (1974): This book based on lectures given in 1969 at the University of Miami, Coral Gables, Florida, USA, deals with the basic aspects of spinors starting with a real Hilbert space formalism. Dirac concludes with the prophetic words "We have boson variables appearing automatically in a theory that starts with only fermion variables, provided the number of fermion variables is infinite. There must be such boson variables connected with electrons..."
 : General Theory of Relativity (1975): This 69-page work summarises Einstein's general theory of relativity.
-* STRT [#C] [2020-10-08] [[https://news.ycombinator.com/item?id=24699615][Project Cambria: Translate your data with lenses | Hacker News]] :malleable:
-:PROPERTIES:
-:ID:       thsnwsycmbntrcmtmdprjctcmrtrnsltyrdtwthlnsshckrnws
-:END:
-
 * STRT [#C] [2019-02-13] The Third Triumvirate – Overthinking Overtime :read:
 :PROPERTIES:
 :ID:       wdththrdtrmvrtvrthnkngvrtm

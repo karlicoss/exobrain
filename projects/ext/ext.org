@@ -272,6 +272,11 @@ https://github.com/orgzly/orgzly-android/issues/225
 :END:
 https://github.com/orgzly/orgzly-android/issues/225
 : Just checked out attern is having a directorytop level.
+** [#D] [2020-07-11] [orgzly/orgzly-android] Detect org files in subfolders
+:PROPERTIES:
+:ID:       strgzlyrgzlyndrddtctrgflsnsbfldrs
+:END:
+: I switched from orgzly to markor exactly because of the lack of this feature. Yes, I know, these apps differs a lot, but I use them simply as a text editor. I'm still waiting when this will become available in orgzly. Why it's so hard to implement it?
 * [#B] * syncthing                                                :syncthing:
 :PROPERTIES:
 :ID:       syncthng
@@ -650,9 +655,26 @@ related: #twitter
 : CRITICAL:root:twint.get:Tweet:time data '' does not match format '%Y-%m-%d %H:%M:%S'
 : CRITICAL:root:twint.get:Tweet:time data '' does not match format '%Y-%m-%d %H:%M:%S'
 : 1249586565417963520 2020-04-13 07:33:48 BST <karlicoss> this is, in part, why I stopped listening podcasts
+
+* CNCL [#D] * org-sync
+:PROPERTIES:
+:ID:       rgsync
+:END:
+https://github.com/arbox/org-sync
+syncing #github issues with #org mode
+using #gitbug instead now
+** CNCL [#D] [2019-12-27] not sure if I like sorting by modified time... OPEN and id is better :orgsync:
+:PROPERTIES:
+:ID:       frntsrflksrtngbymdfdtmpnnddsbttr
+:END:
+** CNCL [#D] [2020-04-12] for org-sync thing -- could keep private notes in a separate file, but link into ids? :github:
+:PROPERTIES:
+:ID:       snfrrgsyncthngcldkpprvtntsnsprtflbtlnkntds
+:END:
+
 * --------------------------------
 :PROPERTIES:
-:ID:       21315_21351
+:ID:       22255_22291
 :END:
 
 * STRT [#C] share link and content                                    :tusky:
@@ -687,3 +709,26 @@ https://github.com/miniflux/miniflux/blob/f9a773ab18815a57e74bedc243ede1ad70e899
 :CREATED:  [2020-02-18]
 :ID:       73aa3f9e-b214-4913-91d3-436eac2b5ff5
 :END:
+* TODO [#C] [2019-09-08] Validate inputs before saving · Issue #2 · fregante/webext-options-sync
+:PROPERTIES:
+:ID:       snvldtnptsbfrsvngssfrgntwbxtptnssync
+:END:
+https://github.com/fregante/webext-options-sync/issues/2
+* STRT [#C] problem with escaping table name                       :visidata:
+:PROPERTIES:
+:CREATED:  [2020-07-31]
+:ID:       prblmwthscpngtblnm
+:END:
+/usr/lib/python3/dist-packages/visidata/loaders/sqlite.py
+:     def reload(self):
+:        tblname = self.tableName
+:        self.columns = self.getColumns(tblname)
+:        r = self.conn.execute('SELECT COUNT(*) FROM "%s"' % tblname).fetchall()
+:        rowcount = r[0][0]
+:        self.rows = []
+:        for row in Progress(self.conn.execute('SELECT * FROM "%s"' % tblname), total=rowcount-1):
+:            self.addRow(row)
+: 
+:    def getColumns(self, tableName):
+:        cols = []
+:        for i, r in enumerate(self.conn.execute('PRAGMA TABLE_INFO("%s")' % tableName)):

@@ -496,3 +496,9 @@ e.g. exploring Lagrangia??
 :ID:       mnsnwkpdrgwksttcfrcsndvrtlprtclxchng
 :END:
 : There are limits to the validity of the virtual particle picture. The virtual-particle formulation is derived from a method known as perturbation theory which is an approximation assuming interactions are not too strong, and was intended for scattering problems, not bound states such as atoms. For the strong force binding quarks into nucleons at low energies, perturbation theory has never been shown to yield results in accord with experiments,[3] thus, the validity of the "force-mediating particle" picture is questionable. Similarly, for bound states the method fails.[4] In these cases the physical interpretation must be re-examined. As an example, the calculations of atomic structure in atomic physics or of molecular structure in quantum chemistry could not easily be repeated, if at all, using the "force-mediating particle" picture
+* TODO hadron was now the general term for particles that felt the strong force. :drill:
+:PROPERTIES:
+:CREATED:  [2020-07-31]
+:ID:       9a202fcd-b8f6-47ee-9928-184fe5b0e991
+:END:
+from Genius: The Life and Science of Richard Feynman

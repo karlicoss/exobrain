@@ -907,3 +907,8 @@ Could check it on examples from this dragon slaying game
 :CREATED:  [2019-01-01]
 :ID:       bttrnspctrfrpythnbjctskndkhrswwwytbcmwtchvbxtyfvnw
 :END:
+* TODO [#C] picker for 'entries' via CSS -- wonder how much of chrome API I could reuse. could also look at page in Iframe and present list of things extracted :think:
+:PROPERTIES:
+:CREATED:  [2019-09-09]
+:ID:       pckrfrntrsvcsswndrhwmchfcfrmndprsntlstfthngsxtrctd
+:END:

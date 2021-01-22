@@ -1007,7 +1007,7 @@ https://twitter.com/vgr/status/738449044742115328
 :END:
 https://github.com/jethrokuan/braindump/
 : knowledge repository managed with org-mode and deft. https://braindump.jethro.dev/
-* TODO [#C] share feedbin subscriptions?                             :mydata:
+* TODO [#C] share feedbin subscriptions?                           :self:rss:
 :PROPERTIES:
 :CREATED:  [2020-05-13]
 :ID:       shrfdbnsbscrptns
@@ -1927,3 +1927,27 @@ cool thing, might be good to overview accounts
 :END:
 
 : I miss the days when I could search with AND, OR, +word and -word. Now if I search google with more than one word it no longer searches the internet. Instead it searches for ads that are somewhat similar to my query and features those. Any useful links on the first page are accidental.
+
+* TODO [#C] https://github.com/BurntSushi/ripgrep/issues/1497 indexing ripgrep
+:PROPERTIES:
+:CREATED:  [2020-03-16]
+:ID:       sgthbcmbrntsshrpgrpsssndxngrpgrp
+:END:
+* STRT [#C] I want an extension to do this             :hackernews:tweet:pkm:
+:PROPERTIES:
+:CREATED:  [2020-04-23]
+:ID:       wntnxtnsntdths
+:END:
+flag all news sites (and medium)
+anyone knows of something like it?
+: for (const z of $x("//a[@class='storylink']")) {
+:     const u = new URL(z.href)
+:     const host = u.hostname.replace('www.', '');
+:     const bad = new Set(['medium.com', 'bbc.co.uk', 'theregister.co.uk', 'techcrunch.com', 'reuters.com', 'uk.reuters.com', 'bbc.com', 'nytimes.com', 'theguardian.com', 'bloomberg.com', 'gizmodo.com', 'washingtonpost.com', 'theatlantic.com', 'buzzfeednews.com', 'theverge.com', 'npr.org', 'vox.com', 'mashable.com', 'edition.cnn.com', 'wsj.com', 'cnn.com', 'independent.co.uk', 'onezero.medium.com']).has(host)
+:     console.log(z)
+:     if (bad) { z.style.color = '#ff000044'; z.nextSibling.children[0].style.color = '#ff000044' } else {    console.log(host); }
+: }
+* TODO [#B] [2020-05-31] [[https://media.ccc.de/v/GLT18_-_321_-_en_-_g_ap147_004_-_201804281550_-_the_advantages_of_file_name_conventions_and_tagging_-_karl_voit][media.ccc.de - The Advantages of File Name Conventions and Tagging]] :towatch:pkm:
+:PROPERTIES:
+:ID:       snsmdcccdvgltngpthdvntgsfdvntgsfflnmcnvntnsndtggng
+:END:

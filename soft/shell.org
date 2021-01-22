@@ -21,3 +21,16 @@ One possibility is to use the sqlite3 command line client to export both databas
 : sqlite3 first.sqlite  .dump >first.dump
 : sqlite3 second.sqlite .dump >second.dump
 : diff first.dump second.dump
+* TODO [#C] [2019-08-26] Seven God-Like Bash History Shortcuts You Will Actually Use | Lobsters
+:PROPERTIES:
+:ID:       mnsvngdlkbshhstryshrtctsywllctllyslbstrs
+:END:
+https://lobste.rs/s/l2fk5f/seven_god_like_bash_history_shortcuts_you
+
+* [2020-04-15] [[https://ashishb.net/all/the-first-two-statements-of-your-bash-script-should-be/][The first two statements of your BASH script should be…]]
+:PROPERTIES:
+:ID:       wdsshshbntllthfrsttwsttmntwsttmntsfyrbshscrptshldb
+:END:
+: #!/usr/bin/env bash
+: set -euo pipefail
+: The first statement is a Mac, GNU/Linux, and BSD portable way of finding the location of the bash interpreter. The second statement combines

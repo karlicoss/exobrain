@@ -172,3 +172,22 @@ https://github.com/cybersemics/em
 : To allow logins, the ngrok domain must be added to Firebase Authorized Domains.
 
 need to figure out how to quickly selfhost stuff
+* TODO [#D] guthub name                                             :project:
+:PROPERTIES:
+:CREATED:  [2019-12-02]
+:ID:       gthbnm
+:END:
+* TODO [#B] Add project status to my stuff, like in upspin          :project:
+:PROPERTIES:
+:CREATED:  [2020-01-15]
+:ID:       ddprjctsttstmystfflknpspn
+:END:
+
+* STRT [#B] Demos are important!                                    :project:
+:PROPERTIES:
+:CREATED:  [2019-12-11]
+:ID:       dmsrmprtnt
+:END:
+Link to the actual repo: https://github.com/hellojoshuatonga/react-use-fuzzy
+
+As others said, I recommend adding a GitHub pages of a demo or something. Not fun having to spin this up yourself to test what it does/looks like.
