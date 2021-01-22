@@ -558,3 +558,8 @@ https://twitter.com/Meaningness/status/1193683556364513280
 :ID:       mnstwttrcmgbrlpyrsttss
 :END:
 : Parabolic PDEs (e.g. heat) smooth out singularities. Hyperbolic PDEs (e.g. wave) displace singularities. 
+
+* [#B] [2018-12-25] some proofs are better than others when you are working with proof assistants. In a sense this principle also applies here: some ways of deriving are easier for sympy to handle :math:
+:PROPERTIES:
+:ID:       tsmprfsrbttrthnthrswhnyrwmwysfdrvngrsrfrsympythndl
+:END:

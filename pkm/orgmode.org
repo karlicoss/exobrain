@@ -1170,3 +1170,38 @@ The short answer to the question is no. Org-mode adheres to the cascading logic 
 :ID:       tsrddtcmrrgmdcmmntsvxsmrgnwsmrgmdftrsymyntknwrrgmd
 :END:
 - [2020-03-21] cool, but personally haven't found them useful
+* [2019-10-06] Emacs Org-mode - a system for note-taking and project planning - YouTube
+:PROPERTIES:
+:ID:       snmcsrgmdsystmfrnttkngndprjctplnnngytb
+:END:
+https://www.youtube.com/watch?v=oJTwQvgfgMM&list=WL&index=35&t=4s
+eh, pretty intro level
+Don't think I need to watch org-mode demos anymore, really...
+* [2019-09-05] hmm, actually org-brain is pretty keyboard oriented. not sure how good is it in visualising stuff...
+:PROPERTIES:
+:ID:       thhmmctllyrgbrnsprttykybrrntdntsrhwgdstnvslsngstff
+:END:
+* [2019-09-05] orgbrain: ok, it was somewhat interesting, but not sure if I it's visual enough...
+:PROPERTIES:
+:ID:       thrgbrnktwssmwhtntrstngbtntsrftsvslngh
+:END:
+* CANCEL [#B] [2018-07-24] Kungsgeten/org-brain: Org-mode wiki + concept-mapping :pkm:
+:PROPERTIES:
+:ID:       tkngsgtnrgbrnrgmdwkcncptmppng
+:END:
+https://github.com/Kungsgeten/org-brain
+mm, the brain looks very GUI and mouse demanding. org is def. better for me
+
+* [2018-07-24] Civilizer - Cleverly manage your data/knowledge/idea     :pkm:
+:PROPERTIES:
+:ID:       tcvlzrclvrlymngyrdtknwldgd
+:END:
+https://suewonjp.github.io/civilizer/
+meh, looks very basic, is not backed by plaintext, not very googlable...
+
+* [2019-01-17] BuboFlash - helps with learning                :pkm:spacedrep:
+:PROPERTIES:
+:ID:       thbbflshhlpswthlrnng
+:END:
+https://buboflash.eu/bubo5/log-in?called-from=/bubo5/homepage
+mm, interesting thing, for web annotation. not sure if I want to use it?

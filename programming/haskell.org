@@ -103,9 +103,9 @@ https://twitter.com/ChShersh/status/1002393643288686592
 https://github.com/krispo/awesome-haskell 
 
 
-* [#B] [2018-11-24] what I learnt during setting app hakyll blog.. :haskell:debug:
+* [#B] [2018-11-24] debug: what I learnt during setting app hakyll blog..
 :PROPERTIES:
-:ID:       stwhtlrntdrngsttngpphkyllblg
+:ID:       stdbgwhtlrntdrngsttngpphkyllblg
 :END:
 - stack ghci
 - Debug.Trace.traceShowM within do block
@@ -120,11 +120,17 @@ https://www.gwern.net/Resilient-Haskell-Software
 :ID:       mnstckgsrvrswwwstckgrg
 :END:
 
-* [2019-04-14] debugging                                               :ghci:
+* [2019-04-14] debugging ghci
 :PROPERTIES:
-:ID:       sndbggng
+:ID:       sndbggngghc
 :END:
 : stack ghci (module loaded automatically)
 : :set args rebuild
 : main
 : :break 222
+* [#B] [2019-01-05] debug: stack trace
+:PROPERTIES:
+:ID:       stdbgstcktrc
+:END:
+: stack build --profile
+: stack exec -- site rebuild +RTS -xc 

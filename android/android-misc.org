@@ -38,3 +38,7 @@ https://wiki.termux.com/wiki/Touch_Keyboard
 :ID:       tsgkswrldgthbrtclsndxhtmlgshllscrptttrnwhnthdvcbts
 :END:
 : Working with cron for Android and adding a shell script to autorun when the device boots
+* [#D] [2017-12-17] sdkmanager --licenses                           :android:
+:PROPERTIES:
+:ID:       snsdkmngrlcnss
+:END:

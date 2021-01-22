@@ -505,14 +505,14 @@ https://stackoverflow.com/questions/2189452/when-to-use-margin-vs-padding-in-css
 :PROPERTIES:
 :ID:       stfndsmthngththrdymstbnlnks
 :END:
-* [2019-11-19] [Question] How to set cors headers? · Issue #308 · http-party/http-server :http:cors:
+* [2019-11-19] [Question] How to set cors headers? · Issue #308 · http-party/http-server :cors:
 :PROPERTIES:
 :ID:       tqstnhwtstcrshdrsssprtysrvr
 :END:
 https://github.com/http-party/http-server/issues/308
 fucking hell, why is that shit so hard???
 
-* [2019-11-18] python - Enable access control on simple HTTP server - Stack Overflow :http:cors:
+* [2019-11-18] python - Enable access control on simple HTTP server - Stack Overflow :cors:
 :PROPERTIES:
 :ID:       mnpythnnblccsscntrlnsmplsrvrstckvrflw
 :END:
@@ -537,3 +537,12 @@ https://github.com/gorhill/uBlock/blob/6c34b3c3c96756b6db7ff2f3a0394472d81cde3e/
 :     "page": "dashboard.html",
 :     "open_in_tab": true
 :   },
+* DONE [2019-09-01] keepassxc-browser/manifest.json at develop · keepassxreboot/keepassxc-browser :webext:
+:PROPERTIES:
+:ID:       snkpssxcbrwsrmnfstjsntdvlpkpssxrbtkpssxcbrwsr
+:END:
+https://github.com/keepassxreboot/keepassxc-browser/blob/develop/keepassxc-browser/manifest.json
+:     "options_ui": {
+:         "page": "options/options.html",
+:         "open_in_tab": true
+:     },

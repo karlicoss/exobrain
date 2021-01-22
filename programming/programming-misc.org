@@ -875,3 +875,32 @@ https://www.scrapingbee.com/blog/web-scraping-without-getting-blocked
 :END:
 : We don't need new languages without features: it has already been proven that you only need exactly one feature in your programming language to write any program possible. Look up single instruction languages for proof that it is possible and such single features languages exist.
 : What we need are languages with many features that are easy to use to create complex programs that are still easy to understand.
+* [#C] [2018-12-23] solveset is pretty useful!!                       :sympy:
+:PROPERTIES:
+:ID:       snslvstsprttysfl
+:END:
+* [2019-06-23] Automate the Boring Stuff with Python             :automation:
+:PROPERTIES:
+:ID:       sntmtthbrngstffwthpythn
+:END:
+https://automatetheboringstuff.com/
+I guess it's good for other people who are not that good in programming, but I know all of it already
+* TODO [#C] [2019-01-27] https://www.youtube.com/watch?v=PorfLSr3DDI Give me 15 minutes & I'll change your view of GDB :gdb:
+:PROPERTIES:
+:ID:       snswwwytbcmwtchvprflsrddgvmmntsllchngyrvwfgdb
+:END:
+https://www.reddit.com/r/cpp/comments/9cndcr/lldb_now_supports_syntax_highlighting/e5c63eg/
+: Sure, the thing that first showed me that gdb is more than just a console debugger you can use over ssh was this video few years ago:
+: CppCon 2015: Greg Law " Give me 15 minutes & I'll change your view of GDB"
+
+** [2019-02-01] meh seriously?? people on cppcon don't know that gdb has got tui mode? that's pretty mad.
+:PROPERTIES:
+:ID:       frmhsrslypplncppcndntknwthtgdbhsgttmdthtsprttymd
+:END:
+
+* [2019-10-23] Let Over Lambda                                         :lisp:
+:PROPERTIES:
+:ID:       wdltvrlmbd
+:END:
+https://letoverlambda.com/textmode.cl/guest/chap5.html
+dunno, wasn't really impressed much...

@@ -1516,9 +1516,9 @@ https://pandas.pydata.org/pandas-docs/stable/reference/frame.html
 :END:
 https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html#compare-with-sql-join
 
-* [2019-02-14] There's now a dead simple way to slap a web interface on a command line script : Python :click:tui:web:
+* [2019-02-14] There's now a dead simple way to slap a web interface on a command line script : Python (click library) :tui:web:
 :PROPERTIES:
-:ID:       ththrsnwddsmplwytslpwbntrfcncmmndlnscrptpythn
+:ID:       ththrsnwddsmplwytslpwbntrmmndlnscrptpythnclcklbrry
 :END:
 https://www.reddit.com/r/Python/comments/akgctg/theres_now_a_dead_simple_way_to_slap_a_web/
 
@@ -1642,3 +1642,14 @@ https://stackoverflow.com/questions/12151306/argparse-way-to-include-default-val
 : parser = argparse.ArgumentParser(
 :     # ... other options ...
 :     formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+* [#D] [2019-07-20] [[https://reddit.com/r/Python/comments/cf7y1m/i_created_a_github_repository_explaining_the/][I created a GitHub repository explaining the complete process of gathering data, transforming it, getting insights and making plots using pandas, NumPy, Matplotlib and Seaborn.]] /r/Python :python:viz:
+:PROPERTIES:
+:ID:       stsrddtcmrpythncmmntscfymdsnmpymtpltlbndsbrnrpythn
+:END:
+- [2019-07-24] I know all of that but maybe good for newbies
+
+* [#C] [2020-02-18] google/pytype: A static type analyzer for Python code
+:PROPERTIES:
+:ID:       tgglpytypsttctypnlyzrfrpythncd
+:END:
+https://github.com/google/pytype

@@ -203,20 +203,15 @@ https://en.wikipedia.org/wiki/Plate_trick
 :END:
 https://en.wikipedia.org/wiki/Eigenspinor
 
-
-
-
 * [2019-01-23] SO(3)
 :PROPERTIES:
 :ID:       wds
 :END:
 https://en.wikipedia.org/wiki/3D_rotation_group#Topology
 mmm.. proof of no simple connectedness is a bit tricky...
-
 the antipodal points argument -- dunno, if the points are same why can't we just contract it? it's not intuitive at all!
 
 Maybe the intuition with torus works? But the torus is more of a long pipe
-
 
 * [2019-01-20]  misc stuff vvvvvvvvvvvvvvvv
 :PROPERTIES:
@@ -228,8 +223,7 @@ Maybe the intuition with torus works? But the torus is more of a long pipe
 :ID:       snrrdcblrprsnttnwkpd
 :END:
 https://en.wikipedia.org/wiki/Irreducible_representation
-Selection:
-In quantum physics and quantum chemistry, each set of degenerate eigenstates of the Hamiltonian operator comprises a vector space V for a representation of the symmetry group of the Hamiltonian, a "multiplet", best studied through reduction to its irreducible parts. Identifying the irreducible representations therefore allows one to label the states, predict how they will split under perturbations; or transition to other states in V. Thus, in quantum mechanics, irreducible representations of the symmetry group of the system partially or completely label the energy levels of the system, allowing the selection rules to be determined.[5]
+: In quantum physics and quantum chemistry, each set of degenerate eigenstates of the Hamiltonian operator comprises a vector space V for a representation of the symmetry group of the Hamiltonian, a "multiplet", best studied through reduction to its irreducible parts. Identifying the irreducible representations therefore allows one to label the states, predict how they will split under perturbations; or transition to other states in V. Thus, in quantum mechanics, irreducible representations of the symmetry group of the system partially or completely label the energy levels of the system, allowing the selection rules to be determined.[5]
 
 * TODO [#B] [2018-09-03] representation theory of the lorenz group :reprtheory:
 :PROPERTIES:

@@ -658,10 +658,10 @@ https://twitter.com/karlicoss/status/1195858695692980225
 :ID:       dpndnttypsfrtypngpndsnmpytnsrprtnswldbsgrt
 :END:
 
-* TODO [#C] discuss                                                 :cambria:
+* TODO [#C] discuss cambria
 :PROPERTIES:
 :CREATED:  [2020-10-08]
-:ID:       dscss
+:ID:       dscsscmbr
 :END:
 
 - dependent types/property testing for verifying lenses
@@ -911,4 +911,8 @@ Could check it on examples from this dragon slaying game
 :PROPERTIES:
 :CREATED:  [2019-09-09]
 :ID:       pckrfrntrsvcsswndrhwmchfcfrmndprsntlstfthngsxtrctd
+:END:
+* [#C] [2018-12-10] Error thing which still has a fallback date (and wraps original type), I feel it's pretty common :datetime:
+:PROPERTIES:
+:ID:       mnrrrthngwhchstllhsfllbckdwrpsrgnltypfltsprttycmmn
 :END:

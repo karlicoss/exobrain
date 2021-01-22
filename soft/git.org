@@ -62,7 +62,7 @@ image diff
 nbstirpout
 iadd
 extra worktree dir
-* TODO [#C] The Communicative Value of Using Git Well – Math ∩ Programming :git:practices:
+* TODO [#C] The Communicative Value of Using Git Well – Math ∩ Programming :git:
 :PROPERTIES:
 :CREATED:  [2020-01-16]
 :ID:       thcmmnctvvlfsnggtwllmthprgrmmng
@@ -108,3 +108,14 @@ https://stackoverflow.com/questions/7375528/how-to-extract-one-file-with-commit-
 :ID:       snsnwsycmbntrcmtmdgthbwhycmntsfrdstrbtdvrsnhckrnws
 :END:
 : for an academic treatment of the defects in Git read: What's Wrong with Git? A Conceptual Design Analysis S. Perez De Rosso and D. Jackson. In Proceedings of the 2013 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming & Software (Onward! 2013) 
+* [#C] [2018-01-01] detect file type changes                            :git:
+:PROPERTIES:
+:ID:       mndtctfltypchngs
+:END:
+: for r in *; do pushd $r; git whatchanged | grep "\.\.\..T"; popd; done
+
+* [#D] git ssh debugging                                            :git:ssh:
+:PROPERTIES:
+:ID:       gtsshdbggng
+:END:
+: GIT_SSH_COMMAND='ssh -v' git fetch

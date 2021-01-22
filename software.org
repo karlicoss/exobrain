@@ -166,3 +166,26 @@ https://lobste.rs/s/nt9kfo/writing_software_last_50_years
 :ID:       mnskvnglcmblgmtrnmhtmlbswbstsndplntszdmtrnms
 :END:
 : Obese websites and planet-sized metronomes
+* [2019-01-15] The Website Obesity Crisis
+:PROPERTIES:
+:ID:       tthwbstbstycrss
+:END:
+https://idlewords.com/talks/website_obesity.htm
+video: https://www.youtube.com/watch?v=iYpl0QVCr6U
+
+pretty interesting talk, quite hilarious in the beginning
+* [2019-01-17] The Bullshit Web — Pixel Envy                          :bloat:
+:PROPERTIES:
+:ID:       ththbllshtwbpxlnvy
+:END:
+https://pxlnv.com/blog/bullshit-web/
+
+* [2019-08-18] Tweet from Hillel (@hillelogram), at Aug 17, 23:45  :software:
+:PROPERTIES:
+:ID:       sntwtfrmhlllhlllgrmtg
+:END:
+: But there's a lot of ways software does better too. In particular, we seem a lot better at PROCESS. We're more willing to create tools that improve our ability to engineer, partially because we use the same skills to make tools and products.
+: Best example? Version control.
+
+
+https://twitter.com/hillelogram/status/1162858121360007168

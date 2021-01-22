@@ -216,3 +216,28 @@ https://www.reddit.com/r/javascript/comments/ad6zoj/npm_vs_yarn_which_one_and_wh
 :PROPERTIES:
 :ID:       mnthngsthtjshsdstrctngbjcrctrngbjctssfnctnprmtrsns
 :END:
+* [#C] [2019-01-04] eslint is best apparently                            :js:
+:PROPERTIES:
+:ID:       frslntsbstpprntly
+:END:
+* [#D] [2019-09-21] addyosmani/es6-tools: An aggregation of tooling for using ES6 today
+:PROPERTIES:
+:ID:       stddysmnstlsnggrgtnftlngfrsngstdy
+:END:
+https://github.com/addyosmani/es6-tools#readme
+* [2018-12-13] javascript - Inserting large quantities in IndexedDB's objectstore blocks UI - Stack Overflow
+:PROPERTIES:
+:ID:       thjvscrptnsrtnglrgqnttsnnddbsbjctstrblcksstckvrflw
+:END:
+https://stackoverflow.com/questions/10471759/inserting-large-quantities-in-indexeddbs-objectstore-blocks-ui
+* [2019-07-07] [[https://reddit.com/r/vuejs/comments/8myjfs/testing_jest_or_mocha/dzrk3vk/][Testing: Jest or Mocha?]] /r/vuejs :js:
+:PROPERTIES:
+:ID:       snsrddtcmrvjscmmntsmyjfstmchdzrkvktstngjstrmchrvjs
+:END:
+: Jest is amazing! It is out of the box , takes way less time to run the tests than mocha. A small side note: If you're using a vue js app, you are going to want to take a look at [Vue Test Utils](https://vue-test-utils.vuejs.org/). Makes life so much easier. Also sinon.js for spies and fakes. PM me if you need tips and tricks to start with automated testing. 
+* [#C] [2019-07-07] How to Fix JavaScript Callbacks Variable Scope Problems | Pluralsight | Pluralsight
+:PROPERTIES:
+:ID:       snhwtfxjvscrptcllbcksvrblscpprblmsplrlsghtplrlsght
+:END:
+https://www.pluralsight.com/guides/javascript-callbacks-variable-scope-problem
+: ECMAScript 6 introduces the let keyword which allows you to declare a variable scoped to the nearest enclosing block and not global like var does. Thus the closure problem can be solved simply by replacing var with let:

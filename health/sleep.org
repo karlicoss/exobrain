@@ -686,3 +686,11 @@ https://twitter.com/dphys/status/1195083374257483776
 :END:
 https://www.reddit.com/r/explainlikeimfive/comments/6rns4x/eli5_why_does_blue_light_make_it_hard_to_sleep/
 : There is basically no naturally occurring source of blue light aside from the sun. Our bodies adapted to start producing melatonin (a hormone that helps us sleep) only when we do not sense blue light
+* [2019-06-22] [[https://reddit.com/r/explainlikeimfive/comments/1eg3xn/eli5_why_do_i_always_wake_up_early_after_i_drink/c9zwqg6/][ELI5: Why do I always wake up early after I drink alcohol?]] /r/explainlikeimfive :alcohol:sleep:
+:PROPERTIES:
+:ID:       stsrddtcmrxplnlkmfvcmmntsprlyftrdrnklchlrxplnlkmfv
+:END:
+:  Alcohol is a depressant.  Your body tries to counteract the depressant by releasing stimulants.  Alcohol wins the race so you go to sleep.  However, your body processes the alcohol out of your system and you are left with the (longer-lasting) stimulants, which is why you wake up earlier.
+
+
+http://en.wikipedia.org/wiki/Alcohol_use_and_sleep

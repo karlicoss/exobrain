@@ -67,3 +67,11 @@ friend. In physics, this would be analogous to a situation where you create an e
 positron pair at some point in spacetime with some initial velocities so that they run away
 from each other. Then the electric field pushes them back together at a later instant in
 time.
+* [2018-11-10] hmm, schrodinger equation is not gauge symmetric (phase?) https://www.youtube.com/watch?v=iTTa9YcTe1k :physics:quantum:
+:PROPERTIES:
+:ID:       sthmmschrdngrqtnsntggsymmrcphsswwwytbcmwtchvttyctk
+:END:
+* [2018-11-10] gauge symmetry -- Weyl made it up, origin from rail track symmetries :physics:
+:PROPERTIES:
+:ID:       stggsymmtrywylmdtprgnfrmrltrcksymmtrs
+:END:

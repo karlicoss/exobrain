@@ -136,3 +136,10 @@ https://github.com/JStumpp/awesome-android#readme
 :ID:       frfstlnfstlnthsstwyttmtbldngndrlsngyrsndndrdpps
 :END:
 https://github.com/fastlane/fastlane
+
+* [#D] [2019-06-12] udev - Android adb no permission - Ask Ubuntu       :adb:
+:PROPERTIES:
+:ID:       wddvndrddbnprmssnskbnt
+:END:
+https://askubuntu.com/questions/680591/android-adb-no-permission
+: Change the USB mode in your phone to File Transfer. That's what worked for me.

@@ -353,7 +353,6 @@ https://stackoverflow.com/questions/28302178/how-can-i-add-a-volume-to-an-existi
 :ID:       frnstdfldrsspprtsyncthngfrm
 :END:
 https://forum.syncthing.net/t/nested-folders/11793/10
-: Selection:
 : Ildar Yusupov
 : ildary
 : Jul '18
@@ -526,3 +525,59 @@ https://security.stackexchange.com/questions/152978/is-it-possible-to-escalate-p
 :END:
 : I've been trying to use the PinePhone as a daily driver and it simply isn't there yet: camera is slow to the point of unusable and sometimes it hard crashes when making calls.
 : Here's hoping that Purism has done a good job of cleaning up some of the issues in Phosh.
+* [2019-09-29] Kobonotes: Store all your annotations and highlights from your Kobo :kobo:
+:PROPERTIES:
+:ID:       snkbntsstrllyrnnttnsndhghlghtsfrmyrkb
+:END:
+https://www.thekobonotes.com/faq
+
+* [#D] [2019-01-25] How do I ssh into the Kobo Aura One in 2017 - MobileRead Forums :kobo:
+:PROPERTIES:
+:ID:       frhwdsshntthkbrnnmblrdfrms
+:END:
+https://www.mobileread.com/forums/showthread.php?t=286085
+: KoboLauncher has UsbNet tool (+new dropbear + new sftp-server from openssh)
+: P.S. Works with latest FW
+* [#D] [2019-01-25] How do I ssh into the Kobo Aura One in 2017 - MobileRead Forums :kobo:
+:PROPERTIES:
+:ID:       frhwdsshntthkbrnnmblrdfrms
+:END:
+https://www.mobileread.com/forums/showthread.php?t=286085
+: The first way does not work with FW 4.6.9995 (or any other FW from May on). I tried it and had to do a firmware reset after it.
+: The 2nd way seems to be no better as the author states himself.
+: The reason seems to be that the inittab way doesn't seem to work anymore.
+: Does anyone have a KoboRoot.tgz or start script for (k)filemon stat starts dropbear along with WiFi?
+* CANCEL [2018-10-22] robbinch/kobo-utils: SSH client for Kobo Aura One :kobo:
+:PROPERTIES:
+:ID:       mnrbbnchkbtlssshclntfrkbrn
+:END:
+https://github.com/robbinch/kobo-utils
+** https://yingtongli.me/blog/2018/07/30/kobo-ssh.html  some dropbear thing??
+:PROPERTIES:
+:ID:       syngtnglmblgkbsshhtmlsmdrpbrthng
+:END:
+** [2019-02-09] eh.. perhaps not worth the trouble
+:PROPERTIES:
+:ID:       sthprhpsntwrththtrbl
+:END:
+
+
+* [#B] [2018-09-04] prefer xz over lzma (recommended by the author)
+:PROPERTIES:
+:ID:       tprfrxzvrlzmrcmmnddbyththr
+:END:
+* [#B] [2020-01-07] chkservice Is A systemd Unit Manager With A Terminal User Interface (New Version Available) - Linux Uprising Blog :dron:systemd:
+:PROPERTIES:
+:ID:       tchksrvcssystmdntmngrwthttrfcnwvrsnvlbllnxprsngblg
+:END:
+https://www.linuxuprising.com/2019/11/chkservice-is-systemd-units-manager.html
+** [2020-01-16] eh, not too useful when it's 600 services? Also can only enable/disable via interface
+:PROPERTIES:
+:ID:       thhnttsflwhntssrvcslscnnlynbldsblvntrfc
+:END:
+
+* [#D] [2020-01-07] serman                                          :systemd:
+:PROPERTIES:
+:ID:       tsrmn
+:END:
+https://xyne.archlinux.ca/projects/serman/

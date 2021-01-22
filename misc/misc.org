@@ -2000,3 +2000,127 @@ https://twitter.com/aresnick/status/1233257306336485376
 :PROPERTIES:
 :ID:       snswwwprjcthrsshcmrprtsftdphrhtmprjcthrsshrprtsctn
 :END:
+* [2019-08-12] «Вы даже не представляете, как много секс решает за вас!» Интервью с асексуалом — Нож :sex:
+:PROPERTIES:
+:ID:       mnвыдаженепредставляетекавасинтервьюсасексуаломнож
+:END:
+: Был случай: я встречался с девушкой месяцев восемь, и она меня убеждала, что асексуалка и ничегошеньки ей от меня в постели не нужно. Я и расслабился. А она сбежала к какому-то любителю БДСМ, с которым за моей спиной мутила. Оказалось, он ее дошлепал нагайкой до оргазма, и всю асексуальность разом сняло, как простуду.
+
+* [#E] [2020-07-06] [[https://twitter.com/shuvalov_js/status/1279717355984007168][(2) Архетипический Фронтенд on Twitter: "Когда тебе 30 и ты собираешься выпить по бокалу красного с друзьями https://t.co/mFjeh8BYua" / Twitter]]
+:PROPERTIES:
+:ID:       mnstwttrcmshvlvjssttsархегосдрузьямиstcmfjhbytwttr
+:END:
+: Когда тебе 30 и ты собираешься выпить по бокалу красного с друзьями
+* [#C] [2020-07-05] [[https://nplus1.ru/material/2020/07/03/is-there-second-covid-wave][Волнительная пора]]
+:PROPERTIES:
+:ID:       snsnplsrmtrlsthrscndcvdwvволнительнаяпора
+:END:
+: Ежегодные колебания заболеваемости гриппом связаны не с какими-то абстрактными законами, а с поведением людей, на которое влияет окружающая среда (об этом мы подробно писали в материале «Пандемия по графику»
+* DONE [2018-12-08] The Case Against News - Econlib                    :news:
+:PROPERTIES:
+:ID:       stthcsgnstnwscnlb
+:END:
+https://www.econlib.org/archives/2011/03/the_case_agains_6.html?fbclid=IwAR3a59D20kecugfBLXrFfALLX1GMJmoyRiBjpQoL27Fe548QgUahfRTRg_8
+
+* DONE [2019-03-18] Roko's basilisk - RationalWiki                       :ai:
+:PROPERTIES:
+:ID:       mnrksbslskrtnlwk
+:END:
+https://rationalwiki.org/wiki/Roko%27s_basilisk
+** [2019-07-18] huh, pretty hilarious
+:PROPERTIES:
+:ID:       thhhprttyhlrs
+:END:
+
+* [2020-12-27] [[https://github.com/fish-shell/fish-shell/blob/a1fd9e1b851bd876fb70da2743623f015d955935/src/history_file.cpp#L433-L454][fish-shell/history_file.cpp at a1fd9e1b851bd876fb70da2743623f015d955935 · fish-shell/fish-shell]] :setup:
+:PROPERTIES:
+:ID:       snsgthbcmfshshllfshshllbltfdbbdfbdfdfshshllfshshll
+:END:
+shit. seems that it's not gonna be possible to add elapsed time in history, it's hardcoded...
+* [2019-08-09] How is China able to provide enough food to feed its population of over 1 billion people? Do they import food or are they self-sustainable? - Quora :china:
+:PROPERTIES:
+:ID:       frhwschnbltprvdnghfdtfdtsthymprtfdrrthyslfsstnblqr
+:END:
+https://www.quora.com/How-is-China-able-to-provide-enough-food-to-feed-its-population-of-over-1-billion-people-Do-they-import-food-or-are-they-self-sustainable
+
+* [2018-03-17] negative interest                                    :finance:
+:PROPERTIES:
+:ID:       stngtvntrst
+:END:
+https://journal.tinkoff.ru/ask/negative-rates/
+negative interest rate: incentivises spending??
+
+* [2019-01-24] The Future of Science | Michael Nielsen      :nielsen:science:
+:PROPERTIES:
+:ID:       ththftrfscncmchlnlsn
+:END:
+http://michaelnielsen.org/blog/the-future-of-science-2/
+Ok, pretty interesting. so the point is we'd better collaborate, it's hard to do something completely by yourself in the current state of science.
+* DONE [2019-01-24] Michael Nielsen                                 :nielsen:
+:PROPERTIES:
+:ID:       thmchlnlsn
+:END:
+http://michaelnielsen.org/blog/
+shit, very cool blog!!
+
+* [2018-09-03] Secular Solstice: Call and Response                 :humanity:
+:PROPERTIES:
+:ID:       mnsclrslstccllndrspns
+:END:
+https://blog.jaibot.com/secular-solstice-call-and-response/
+* [2020-05-10] [[https://www.projecthorseshoe.com/reports/featured/ph17r3.htm][Project Horseshoe 2017 report section 3]] :design:
+:PROPERTIES:
+:ID:       snswwwprjcthrsshcmrprtsftdphrhtmprjcthrsshrprtsctn
+:END:
+* [2018-08-20] Tweet from Stephen Fleming (@StephenFleming), at Mar 13, 03:33 :design:
+:PROPERTIES:
+:ID:       mntwtfrmstphnflmngstphnflmngtmr
+:END:
+: Whoever decided to start putting shallow flat sinks in hotel bathrooms: Just stop!
+: Sinks are a solved problem. Sinks should be deep and curved. Shallow flat sinks splash water on your clothes, and leave globs of toothpaste that don’t go down the drain.
+: Just stop. https://t.co/APM8QtVmk7
+
+
+https://twitter.com/StephenFleming/status/973401515934195712
+
+* [2019-04-19] Bret Victor, beast of burden                      :bretvictor:
+:PROPERTIES:
+:ID:       frbrtvctrbstfbrdn
+:END:
+http://worrydream.com/#!/ABriefRantOnTheFutureOfInteractionDesign
+eh, his page is awesome but because of overly heavy design all annotations are orphaned
+- [2019-04-19] shit, even selection doesn't work
+* [2019-09-10] rufus for creating bootable windows 10 ISO           :windows:
+:PROPERTIES:
+:ID:       trfsfrcrtngbtblwndwss
+:END:
+* [2019-02-04] Controlling music with your mind | Steves Computer Vision Blog :eeg:ml:
+:PROPERTIES:
+:ID:       mncntrllngmscwthyrmndstvscmptrvsnblg
+:END:
+http://stevenhickson.blogspot.com/2014/02/controlling-music-with-your-mind.html
+- [2019-02-09] nothing too elaborate, but interesting idea to improve 70% bad classifier via temporal data
+
+
+* [#B] [2019-10-07] [[https://reddit.com/r/gwern/comments/del1oi/roads_and_bridges_the_unseen_labor_behind_our/]["Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure", Nadia Eghbal 2016]] /r/gwern :opensource:
+:PROPERTIES:
+:ID:       mnsrddtcmrgwrncmmntsdlrdsrdgtlnfrstrctrndghblrgwrn
+:END:
+
+* [#C] [2019-11-23] michael_nielsen on Twitter: "I enjoyed this: 3 months, ~7000 words. Sounds about right! I once asked a well-known writer how often he redrafted material. He sighed and said "for the really difficult bits, sometimes more than 100 times". https://t.co/yJllKxOKPJ" / Twitter :writing:
+:PROPERTIES:
+:ID:       stmchlnlsnntwttrnjydthsmnmrthntmsstcyjllkxkpjtwttr
+:END:
+https://twitter.com/michael_nielsen/status/1198297196908572672
+: I enjoyed this: 3 months, ~7000 words. Sounds about right!
+: I once asked a well-known writer how often he redrafted material. He sighed and said "for the really difficult bits, sometimes more than 100 times"
+
+good to know I'm not the only one struggling!
+
+* [#C] [2018-09-04] [[https://reddit.com/r/androidapps/comments/4i36z9/how_you_use_your_android_to_the_maximum/d2vnq9k/][How you use your android to the maximum?]] /r/androidapps :android:fun:
+:PROPERTIES:
+:ID:       tsrddtcmrndrdppscmmntszhwhwysyrndrdtthmxmmrndrdpps
+:END:
+:  horrifying. I wake up at 6:30am with no alarm because I just do. I grab my phone to look at facebook while I take a dump. Its probably not charged and the battery is at 5% and the screen is too dim to read. So I sit it on the floor and read the back of a misc bottle on the sink. I plug in my phone and spend the next 2 hours drinking coffee and playing candy crush, facebook and reddit on my ipad (unless I forgot to charge that too) or my laptop. Eventually I decide to go to work. I might plug my phone into the radio using the headphone jack or I might just listen to music on radio, or NPR. Either way I drive 10 minutes to work while not thinking at all about whether I have to send an email. I'm probably thinking about boobs.
+:  I get to work and do whatever I want, respond to a bunch of emails, ignore some others, work some on my manuscripts, teach a class. Maybe look at my phone once to see if I got a text. Go home when I feel like it. Listen to radio on way home. Put my phone down somewhere once I'm there and forget to charge it. Drink beer and watch old eps of Louis C.K. and fuck my wife (edit: or wait until she's asleep and take my phone into the bathroom to jerk it to some vid on beeg.com).
+:  repeat.

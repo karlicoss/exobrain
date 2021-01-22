@@ -91,8 +91,13 @@ https://stickleback.dk/borg-or-restic/
 :END:
 https://github.com/borgbackup/borgweb
 
-* [#D] [2018-07-05] ok backintime refuses to backup symlinked folders :backup:backintime:
+* [#D] [2018-07-05] ok backintime refuses to backup symlinked folders :backup:
 :PROPERTIES:
 :ID:       thkbckntmrfsstbckpsymlnkdfldrs
 :END:
 kinda makes sense since when you restore you don't want to overwrite...
+
+* [#B] [2018-09-04] tried archivemount... meh, can't update archive on the fly :( :backup:
+:PROPERTIES:
+:ID:       ttrdrchvmntmhcntpdtrchvnthfly
+:END:

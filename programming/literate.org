@@ -57,3 +57,15 @@ https://www.geoffreylitt.com/margin-notes
 : Why does it need a metric ton of permissions? To everything - data, history, notifications etc.
 
 literate permissions?
+* [2019-08-14] Pycco - Beautiful Literate Python : Python   :literate:python:
+:PROPERTIES:
+:ID:       wdpyccbtflltrtpythnpythn
+:END:
+https://www.reddit.com/r/Python/comments/ekked/pycco_beautiful_literate_python/
+: I'd rather use something that processes docstrings. Using comments like this doesn't feel very Pythonic.
+
+pycco for literate python programming...
+** [2019-08-21] eh, it's a bit too linear
+:PROPERTIES:
+:ID:       wdhtsbttlnr
+:END:

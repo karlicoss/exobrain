@@ -46,3 +46,18 @@ https://lobste.rs/s/nxxttu/collapse_os_bootstrap_post_collapse
 :END:
 and maybe hedge in some simple ways (like trying to record general knowledge in a resilient way for people to access in the future)
 http://longnow.org/
+
+* [2019-06-17] Jonathan Blow - Preventing the Collapse of Civilization (English only) - YouTube :collapse:
+:PROPERTIES:
+:ID:       mnjnthnblwprvntngthcllpsfcvlztnnglshnlyytb
+:END:
+https://www.youtube.com/watch?v=pW-SOdj4Kkk
+well I mean he makes good points that software and hardware are too complicated and present an easy target for failure/civilisational collapse/whatever. but what's the alternative?
+** DONE [#B] Tweet from Andrej Karpathy (@karpathy), at May 25, 07:28
+:PROPERTIES:
+:CREATED:  [2019-05-25]
+:ID:       twtfrmndrjkrpthykrpthytmy
+:END:
+: Jonathan Blow - Preventing the Collapse of Civilization https://t.co/NnvPOP3MJW interesting talk, a bear case for monotonic and exponential progress of technology due to turtles on turtles in our tech stacks and generational loss of knowledge.
+
+https://twitter.com/karpathy/status/1132171497798156288

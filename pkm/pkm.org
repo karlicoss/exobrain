@@ -2178,3 +2178,41 @@ Interleave mode nice, but only works for specific PDF file I'd imagine?
 :PROPERTIES:
 :ID:       thsgthbcmdbhdnstrctrdtxttntlsfrmnpltngstrctrdtxtdt
 :END:
+* kobo -- can't highlight in pocket items...                           :kobo:
+:PROPERTIES:
+:ID:       kbcnthghlghtnpckttms
+:END:
+* DONE A Cosmology for a Different Computer Universe: Data Model, Mechanisms, Virtual Machine and Visualization Infrastructure | Nelson :pkm:
+:PROPERTIES:
+:CREATED:  [2018-07-10]
+:ID:       csmlgyfrdffrntcmptrnvrsdtmchnndvslztnnfrstrctrnlsn
+:END:
+https://journals.tdl.org/jodi/index.php/jodi/article/view/131/129
+hmm interesting.
+TLDR: each knowledge item participates in a linked list called 'dimension'
+
+* [#D] [2019-06-01] Capstone, a tablet for thinking         :inspiration:pkm:
+:PROPERTIES:
+:ID:       stcpstntbltfrthnkng
+:END:
+https://www.inkandswitch.com/capstone-manuscript.html
+** [2019-06-14] I guess it's not for me, too fuzzy.. but could be good for artists etc
+:PROPERTIES:
+:ID:       frgsstsntfrmtfzzybtcldbgdfrrtststc
+:END:
+
+* [2019-06-30] Software I like: PDF readers and manipulators     :annotation:
+:PROPERTIES:
+:ID:       snsftwrlkpdfrdrsndmnpltrs
+:END:
+http://audilab.bmed.mcgill.ca/~funnell/swil_pdf.html
+: Editing and annotating
+* [#C] [2019-02-13] A Complete Guide to Tagging for Personal Knowledge Management | Praxis :tagging:pkm:
+:PROPERTIES:
+:ID:       wdcmpltgdttggngfrprsnlknwldgmngmntprxs
+:END:
+https://praxis.fortelabs.co/a-complete-guide-to-tagging-for-personal-knowledge-management/
+** [2019-03-12] ok, nothing too enlightening I suppose
+:PROPERTIES:
+:ID:       tknthngtnlghtnngspps
+:END:

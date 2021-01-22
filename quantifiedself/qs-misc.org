@@ -2079,3 +2079,20 @@ pretty interesting, a lot of data (with csv sources) on correlation of happiness
 https://www.reddit.com/r/Biohackers/comments/9780qa/finally_received_my_gen_2_oura_ring_with_some/e46dqtd/ 
 :  Received my ring last Friday. Had the 1st gen but returned it due to inaccurate sleep readings. Unfortunately, the new ring seems to be inaccurate for me as well. Both rings read that I was asleep when I was meditating, laying awake in bed, or even making coffee. Since the Readiness score is based in part on the Sleep score that’s inaccurate, too. I contacted customer service last night, no word back yet.
 : The new material of the 2nd gen ring feels cheap and plasticky, although a better size and weight than the 1st gen. Overall, so far, not impressed. Especially after waiting over 9 months. But I look forward to my initial impressions changing for the better with continued use. Would love to hear from other Ōura users as well.
+
+* [#D] [2019-01-20] Smart Temporal Thermometer | Thermo - Withings :qs:temperature:
+:PROPERTIES:
+:ID:       snsmrttmprlthrmmtrthrmwthngs
+:END:
+https://www.withings.com/uk/en/thermo
+- [2019-02-16] meh, it's not continuous measurement
+
+* [#D] [2019-03-20] [[https://reddit.com/r/QuantifiedSelf/comments/b2vmr8/how_im_tracking_everything_i_consume_podcasts/][How I'm Tracking Everything I Consume (Podcasts, Videos, Articles, Books). All in One Place.]] /r/QuantifiedSelf :lifelogging:
+:PROPERTIES:
+:ID:       wdsrddtcmrqntfdslfcmmntsbsrtclsbksllnnplcrqntfdslf
+:END:
+: I created a system for tracking these things through Airtable. 
+: Here it is, along with a little guide: https://airtable.com/universe/expJ6uvPux8mgLoYV/track-everything-you-consume
+: Just thought you guys might appreciate it. Any feedback is welcome. I am new to self tracking.
+
+- [2019-04-11] eh, they are doing it pretty manually...

@@ -4,7 +4,7 @@
 
 * [#B] * Logseq                                                      :logseq:
 :PROPERTIES:
-:ID:       lgsq
+:CUSTOM_ID: logseq
 :END:
 [[https://github.com/logseq/logseq#logseq][Logseq]] is a #localfirst browser interface for #org (mode). I'm using it for my #exobrain
 
@@ -606,6 +606,12 @@ https://github.com/hypothesis/client
 :ID:       tsgstgthbcmmgbflncdffcfccbfhstrytxt
 :END:
 doesn't work on github?? ugh.
+** [#C] [2019-07-18] John Maynard Keynes: "Newton, the Man"
+:PROPERTIES:
+:ID:       thjhnmynrdkynsnwtnthmn
+:END:
+about:reader?url=http%3A%2F%2Fwww-history.mcs.st-and.ac.uk%2FExtras%2FKeynes_Newton.html
+hmm, hypothesis doesn't work with Firefox reading mode?
 * [#D] * tantivy                                                    :tantivy:
 :PROPERTIES:
 :ID:       tntvy
@@ -688,7 +694,7 @@ using #gitbug instead now
 
 * --------------------------------
 :PROPERTIES:
-:ID:       22823_22859
+:ID:       23077_23113
 :END:
 
 * STRT [#C] share link and content                                    :tusky:

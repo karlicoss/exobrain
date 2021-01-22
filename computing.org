@@ -455,3 +455,40 @@ https://lobste.rs/s/oyxpva/i_had_jailbreak_my_iphone_change_default
 :ID:       stjthrknntwttrrgrmsbltbypmrsrchycnnlymkftrrqstndhp
 :END:
 https://mobile.twitter.com/jethroksy/status/1228590202626531329
+* [2019-04-13] Bret Victor, beast of burden             :bretvictor:thinking:
+:PROPERTIES:
+:ID:       stbrtvctrbstfbrdn
+:END:
+http://worrydream.com/#!/KillMath
+
+* DONE [#C] [2020-01-02] Good times create weak men @ tonsky.me    :sadinfra:
+:PROPERTIES:
+:ID:       thgdtmscrtwkmntnskym
+:END:
+https://tonsky.me/blog/good-times-weak-men
+
+* [#D] [2019-01-01] https://www.youtube.com/watch?v=baxtyeFVn3w what fp can learn from smalltalk :fp:
+:PROPERTIES:
+:ID:       tswwwytbcmwtchvbxtyfvnwwhtfpcnlrnfrmsmlltlk
+:END:
+** nice introspection .. I guess, but tied in in a single IDE
+:PROPERTIES:
+:ID:       ncntrspctngssbttdnnsngld
+:END:
+** Not sure why is he talking specifically about fp??
+:PROPERTIES:
+:ID:       ntsrwhyshtlkngspcfcllybtfp
+:END:
+* [2020-05-13] [[https://en.wikipedia.org/wiki/ZigZag_(software)][ZigZag (software) - Wikipedia]] :tednelson:pkm:
+:PROPERTIES:
+:ID:       wdsnwkpdrgwkzgzgsftwrzgzgsftwrwkpd
+:END:
+ah, it's also Ted Nelson... I suppose explains why I couldn't understand what it was for
+* [2020-10-02] [[https://news.ycombinator.com/item?id=24648820][> where you get nothing for a PR You already got payment up front: software tha... | Hacker News]] :opensource:
+:PROPERTIES:
+:ID:       frsnwsycmbntrcmtmdwhrygtntpymntpfrntsftwrthhckrnws
+:END:
+: > where you get nothing for a PR
+: You already got payment up front: software that the author(s) have made available to you for free.
+: You get payment by the author spending time to review your changes.
+: You also get payment afterward: free maintenance for your pet feature. (Not guaranteed of course but generally the case.)

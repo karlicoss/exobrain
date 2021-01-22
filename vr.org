@@ -168,3 +168,16 @@ https://www.youtube.com/watch?v=qu8lB3l20wY
 :ID:       stsnwsycmbntrcmtmdshwhnwhtwldmchnclprgrmmnglklk
 :END:
 https://mockmechanics.com/
+* DONE [#B] [2019-04-08] Arcan is a powerful development framework for creating virtually anything between user interfaces for specialised embedded applications all the way to full-blown standalone desktop environments :vr:interface:
+:PROPERTIES:
+:ID:       mnrcnspwrfldvlpmntfrmwrkfllblwnstndlndsktpnvrnmnts
+:END:
+https://arcan-fe.com/about/
+** [2019-07-23] One of the absolute main goals with the Arcan project as a whole is to explore different models for all the technical aspects that goes into how we interact with computers, and to provide the infrastructure for reducing the barrier to entry for such explorations.
+:PROPERTIES:
+:ID:       tnfthbsltmnglswththrcnprjngthbrrrtntryfrschxplrtns
+:END:
+** [2019-07-23] ok it's interesting, but not sure what it's got for me now
+:PROPERTIES:
+:ID:       tktsntrstngbtntsrwhttsgtfrmnw
+:END:
