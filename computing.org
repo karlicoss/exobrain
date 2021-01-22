@@ -35,18 +35,18 @@ https://beepb00p.xyz/sad-infra.html
 
 * [#C] [2019-07-23] SomethingNew/Resources.md at master · d-cook/SomethingNew
 :PROPERTIES:
-:ID:       tsmthngnwrsrcsmdtmstrdcksmthngnw
+:ID:       smthngnwrsrcsmdtmstrdcksmthngnw
 :END:
 https://github.com/d-cook/SomethingNew/blob/master/Resources.md
 
 * [#C] [2019-07-23] SomethingNew/Concepts.md at master · d-cook/SomethingNew
 :PROPERTIES:
-:ID:       tsmthngnwcncptsmdtmstrdcksmthngnw
+:ID:       smthngnwcncptsmdtmstrdcksmthngnw
 :END:
 https://github.com/d-cook/SomethingNew/blob/master/Concepts.md
 * TODO [#B] [2020-04-18] [[https://news.ycombinator.com/item?id=22907211][Ask HN: What are some great posts or articles about history of computing? | Hacker News]] :computing:
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmdskhnwhttclsbthstryfcmptnghckrnws
+:ID:       snwsycmbntrcmtmdskhnwhtrstclsbthstryfcmptnghckrnws
 :END:
 * STRT [#C] https://github.com/jhaip/programmable-space           :computing:
 :PROPERTIES:
@@ -56,21 +56,21 @@ https://github.com/d-cook/SomethingNew/blob/master/Concepts.md
 : Bringing computing to the scale of a room makes it a communal and social experience.
 * STRT [#C] [2020-05-19] [[https://github.com/malleable-systems/malleable.systems/issues][Issues · malleable-systems/malleable.systems]] :malleable:
 :PROPERTIES:
-:ID:       tsgthbcmmllblsystmsmllblssssmllblsystmsmllblsystms
+:ID:       sgthbcmmllblsystmsmllblsysssmllblsystmsmllblsystms
 :END:
 * STRT [#C] [2020-05-25] [[https://shalabh.com/programmable-systems/][Programmable Systems]] :computing:malleable:
 :PROPERTIES:
-:ID:       mnsshlbhcmprgrmmblsystmsprgrmmblsystms
+:ID:       sshlbhcmprgrmmblsystmsprgrmmblsystms
 :END:
 * STRT [#C] [2019-10-01] Identify & Attack "Schleps" · Issue 12 · d-cook/SomethingNew :malleable:
 :PROPERTIES:
-:ID:       tdntfyttckschlpsssdcksmthngnw
+:ID:       dntfyttckschlpsssdcksmthngnw
 :END:
 https://github.com/d-cook/SomethingNew/issues/12
 : A "Schlep" is a thing that is so tedious or awful to deal with, that most people accept it or work around it without even realizing it. However, when attacked directly, they can open new doors or make things easier by opening paths that are otherwise accepted as just "the way things are".
 * [#C] [2020-08-12] [[https://www.divergent-desktop.org/blog/2020/08/10/principles-overview/][12 Principles for a Diverging Desktop Future]] :computing:
 :PROPERTIES:
-:ID:       wdswwwdvrgntdsktprgblgprnvwprncplsfrdvrgngdsktpftr
+:ID:       swwwdvrgntdsktprgblgprncpvwprncplsfrdvrgngdsktpftr
 :END:
 
 * TODO [[https://hyp.is/xrhdvhDQEeuOoA9nvvzgxQ/adamwiggins.com/making-computers-better/][X]] What do I mean by “better”? :computing:sadinfra:
@@ -95,26 +95,26 @@ from [[https://adamwiggins.com/making-computers-better/][making computers better
 : Room-sized display walls in your home would open up a lot of new interface opportunities and would be cool for VR, too.
 * [#C] [2020-11-24] [[https://news.ycombinator.com/item?id=25187702][I created an alternative to the YouTube algorithm to stop me wasting time]] :sadinfra:
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdcrtdnltrvtthytblgrthmtstpmwstngtm
+:ID:       snwsycmbntrcmtmdcrtdnltrnvtthytblgrthmtstpmwstngtm
 :END:
 https://towardsdatascience.com/i-created-my-own-youtube-algorithm-to-stop-me-wasting-time-afd170f4ca3a
 * [#B] [2020-11-07] [[https://news.ycombinator.com/item?id=24999103][Programs are a prison: Rethinking the building blocks of computing interfaces]] :sadinfra:
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmdprgrmsrthbldngblcksfcmptngntrfcs
+:ID:       snwsycmbntrcmtmdprgrmsrprthbldngblcksfcmptngntrfcs
 :END:
 https://djrobstep.com/posts/programs-are-a-prison
 * [#C] [2020-05-18] [[https://www.dcrainmaker.com/2020/05/strava-cuts-off-leaderboard-for-free-users-reduces-3rd-party-apps-for-all-and-more.html][Strava Cuts Off Leaderboard for Free Users, Reduces 3rd Party Apps for All, and More | DC Rainmaker]] :sadinfra:
 :PROPERTIES:
-:ID:       mnswwwdcrnmkrcmstrvctsfflsrdprtyppsfrllndmrdcrnmkr
+:ID:       swwwdcrnmkrcmstrvctsffldrsrdprtyppsfrllndmrdcrnmkr
 :END:
 
 * [2020-10-25] [[https://news.ycombinator.com/item?id=24866279][The Coming Civil War over General Purpose Computing (2012) | Hacker News]] :sadinfra:
 :PROPERTIES:
-:ID:       snsnwsycmbntrcmtmdthcmngcwrvrgnrlprpscmptnghckrnws
+:ID:       snwsycmbntrcmtmdthcmngcvlwrvrgnrlprpscmptnghckrnws
 :END:
 * [2020-10-26] [[https://news.ycombinator.com/item?id=24891576][What's crazy to me is how insanely overspec'd mobile devices are for what they d... | Hacker News]] :sadinfra:
 :PROPERTIES:
-:ID:       mnsnwsycmbntrcmtmdwhtscrzdmbldvcsrfrwhtthydhckrnws
+:ID:       snwsycmbntrcmtmdwhtscrzytdmbldvcsrfrwhtthydhckrnws
 :END:
 : What's crazy to me is how insanely overspec'd mobile devices are for what they deliver. If you went back in time and told 1999 me the following:
 : I'll give you a computer with the following:
@@ -130,21 +130,21 @@ https://djrobstep.com/posts/programs-are-a-prison
 : We took a wrong turn somewhere, didn't we?
 * [2020-10-26] [[https://news.ycombinator.com/item?id=24897279][25 Years In Speech Technology and I still don’t talk to my computer | Hacker News]] :sadinfra:
 :PROPERTIES:
-:ID:       mnsnwsycmbntrcmtmdyrsnspcstlldnttlktmycmptrhckrnws
+:ID:       snwsycmbntrcmtmdyrsnspchtstlldnttlktmycmptrhckrnws
 :END:
 * [2020-11-03] [[https://news.ycombinator.com/item?id=24881893][This is something Stallman[1] and others have talked about for a while now, with... | Hacker News]] :sadinfra:
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdthsssmthhvtlkdbtfrwhlnwwthhckrnws
+:ID:       snwsycmbntrcmtmdthsssmthnhvtlkdbtfrwhlnwwthhckrnws
 :END:
 : I remember in the 90s people all thought Stallman was crazy. And by people I mean developers, Linux users, people on usenet, etc. We all appreciated his contributions but at the end of the day just figured he was wearing a tin foil hat.
 * [2020-11-22] [[https://stackoverflow.com/questions/22832104/how-can-i-see-hidden-app-data-in-google-drive][How can I see hidden app data in Google Drive? - Stack Overflow]] :sadinfra:
 :PROPERTIES:
-:ID:       snsstckvrflwcmqstnshwcnshshddnppdtnggldrvstckvrflw
+:ID:       sstckvrflwcmqstnshwcnshddshddnppdtnggldrvstckvrflw
 :END:
 fascinating, apparently this is how you access your own data for google drive apps?
 * [2020-12-15] [[https://nitter.net/mekarpeles/status/1338766203192451074#m][Mek (@mekarpeles): "What's something about the web that's obviously broken? I'll start: No version control history and all the content is dynamic." | nitter]] :sadinfra:
 :PROPERTIES:
-:ID:       tsnttrntmkrplssttsmmkmkrpstryndllthcntntsdynmcnttr
+:ID:       snttrntmkrplssttsmmkmkrplstryndllthcntntsdynmcnttr
 :END:
 : What's something about the web that's obviously broken?
 
@@ -156,12 +156,12 @@ really good thread
 :END:
 * STRT [#C] [2020-10-08] [[https://news.ycombinator.com/item?id=24699615][Project Cambria: Translate your data with lenses | Hacker News]] :malleable:
 :PROPERTIES:
-:ID:       thsnwsycmbntrcmtmdprjctcmrtrnsltyrdtwthlnsshckrnws
+:ID:       snwsycmbntrcmtmdprjctcmbrtrnsltyrdtwthlnsshckrnws
 :END:
 
 * STRT [#C] [2019-10-01] Introductions · Issue 20 · d-cook/SomethingNew :malleable:social:
 :PROPERTIES:
-:ID:       tntrdctnsssdcksmthngnw
+:ID:       ntrdctnsssdcksmthngnw
 :END:
 https://github.com/d-cook/SomethingNew/issues/20
 
@@ -183,80 +183,80 @@ https://github.com/d-cook/SomethingNew/issues/20
 https://mobile.twitter.com/jborichevskiy/status/1228372354956394496
 * [#B] [2019-12-30] Roger Gregory Interview at Ted Nelson Book Launch : Internet Archive : Free Download, Borrow, and Streaming : Internet Archive :tednelson:towatch:
 :PROPERTIES:
-:ID:       mnrgrgrgryntrvwttdnlsnbklwnldbrrwndstrmngntrntrchv
+:ID:       rgrgrgryntrvwttdnlsnbklncwnldbrrwndstrmngntrntrchv
 :END:
 https://archive.org/details/possiplexrogergregoryinterview
 
 * TODO [#B] [2019-10-01] Steve Krouse: "Future of Coding" · Issue 23 · d-cook/SomethingNew :tolisten:
 :PROPERTIES:
-:ID:       tstvkrsftrfcdngssdcksmthngnw
+:ID:       stvkrsftrfcdngssdcksmthngnw
 :END:
 https://github.com/d-cook/SomethingNew/issues/23
 : I just came across a gold mine called FutureOfCoding.org. The author (Steve Krouse) already has many times more resources there then we have here, and he has put a TON of work and thought into reinventing programming to be more accessible (mainly to children).
 ** [2020-05-15] ok, it does look like a good podcast -- devine, hillel
 :PROPERTIES:
-:ID:       frktdslklkgdpdcstdvnhlll
+:ID:       ktdslklkgdpdcstdvnhlll
 :END:
 * STRT [#B] [2020-10-26] [[https://futureofcoding.org/community][Community | Future of Coding]]
 :PROPERTIES:
-:ID:       mnsftrfcdngrgcmmntycmmntyftrfcdng
+:ID:       sftrfcdngrgcmmntycmmntyftrfcdng
 :END:
 : Our 4 most popular channels are bridged to Matrix rooms. They should be accessible in any Matrix client using the following aliases:
 : Matrix Bridge
 
 * TODO [#C] [2019-09-06] Offline First and the Circle of Web        :offline:
 :PROPERTIES:
-:ID:       frfflnfrstndthcrclfwb
+:ID:       fflnfrstndthcrclfwb
 :END:
 http://hood.ie/blog/offline-first-and-the-circle-of-web.html
 
 ** TODO [#C] [2019-09-06] Offline First and the Circle of Web, Part II: Breaking the Circle :offline:
 :PROPERTIES:
-:ID:       frfflnfrstndthcrclfwbprtbrkngthcrcl
+:ID:       fflnfrstndthcrclfwbprtbrkngthcrcl
 :END:
 http://hood.ie/blog/offline-first-and-the-circle-of-web-part-ii-breaking-the-circle.html
 * [#D] [2019-06-01] Offline First                                   :offline:
 :PROPERTIES:
-:ID:       stfflnfrst
+:ID:       fflnfrst
 :END:
 http://offlinefirst.org/
 
 * [2020-06-13] [[https://news.ycombinator.com/item?id=23496800][Design Principles Behind Smalltalk (1981) | Hacker News]] :towatch:smalltalk:
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmddsgnprncplsbhndsmlltlkhckrnws
+:ID:       snwsycmbntrcmtmddsgnprncplsbhndsmlltlkhckrnws
 :END:
 : If you're tired of hearing about the virtues of Smalltalk (like I was at one point) and ask "if it is so good, why isn't it popular?", then watch @deech's talk (Aditya Siram) - "What FP can learn from SmallTalk" - https://www.youtube.com/watch?v=baxtyeFVn3w
 : I think it is the most accessible explanation of the marvel of Smalltalk, for those who were not lucky to work with it during the late 80-90s.
 
 * DONE [#B] [2020-06-03] [[https://www.infoq.com/presentations/We-Really-Dont-Know-How-To-Compute/][We Really Don't Know How To Compute!]] :towatch:
 :PROPERTIES:
-:ID:       wdswwwnfqcmprsnttnswrllydhwtcmptwrllydntknwhwtcmpt
+:ID:       swwwnfqcmprsnttnswrllydnthwtcmptwrllydntknwhwtcmpt
 :END:
 ** [2021-01-03] basically the point is that computing is cheap and we need to embrace constraint solver paradigm more? e.g. instead of imperative, where reasonable
 :PROPERTIES:
-:ID:       snbscllythpntsthtcmptngscrdgmmrgnstdfmprtvwhrrsnbl
+:ID:       bscllythpntsthtcmptngschprdgmmrgnstdfmprtvwhrrsnbl
 :END:
 * [#D] [2020-02-21] Files are fraught with peril https://danluu.com/deconstruct-files
 :PROPERTIES:
-:ID:       frflsrfrghtwthprlsdnlcmdcnstrctfls
+:ID:       flsrfrghtwthprlsdnlcmdcnstrctfls
 :END:
 - ok, files are hard
 
 * [#C] [2020-02-07] POSSE - IndieWeb                                   :silo:
 :PROPERTIES:
-:ID:       frpssndwb
+:ID:       pssndwb
 :END:
 https://indieweb.org/POSSE#Publishing_Flows
 
 * [#C] [2020-05-17] Nonlinear Conversational Medium — gray crawford
 :PROPERTIES:
-:ID:       snnnlnrcnvrstnlmdmgrycrwfrd
+:ID:       nnlnrcnvrstnlmdmgrycrwfrd
 :END:
 https://www.graycrawford.com/nonlinear-conversational-medium
 : Conversations branch out, delineating subtopics spatially. This allows the conversation to be more surveyable, and individual topics can split off into their own subtopics.
 * [2020-12-03] [[https://www.arp242.net/webui.html][The web as a GUI toolkit]] :web:html:css:
 :PROPERTIES:
-:ID:       thswwwrpntwbhtmlthwbsgtlkt
+:ID:       swwwrpntwbhtmlthwbsgtlkt
 :END:
 : Some things that work really well that are often hard in native GUI toolkits:
 :     You can zoom pretty much any content as large or small as you like. Doing this in native UI involves either editing obscure config files, or mucking about with the system’s DPI settings (not easy to zoom per-app or changing zoom levels depending on mood or screen you’re using).
@@ -270,13 +270,13 @@ https://www.graycrawford.com/nonlinear-conversational-medium
 :     Very compatible; the first website: last modified somewhere in the early 90s still works in your Firefox or Chrome today.
 * [2020-10-08] [[https://news.ycombinator.com/item?id=24710565][Generalizing 'jq' and Traversal Systems using optics and standard monads | Hacker News]] intuition behind lenses
 :PROPERTIES:
-:ID:       thsnwsycmbntrcmtmdgnrlzngrdmndshckrnwsnttnbhndlnss
+:ID:       snwsycmbntrcmtmdgnrlzngjqrdmndshckrnwsnttnbhndlnss
 :END:
 : The point is really that lenses are values that represent locations in a data structure. And, as values, they can be combined, transformed, serialized, etc etc. Imagine having a type that represents a chain of method selectors, and that gives you some idea of the purpose.
 : The fact that method selectors only appear very rarely as first-class values in most languages means that most people aren’t tuned in to scenarios where they could be applied. But I bet you’ve invented special cases of this yourself, when you had a function that needed to dig data out of one of several locations, depending on other inputs.
 ** [2020-10-08] [[https://news.ycombinator.com/item?id=24710565][Generalizing 'jq' and Traversal Systems using optics and standard monads | Hacker News]]
 :PROPERTIES:
-:ID:       thsnwsycmbntrcmtmdgnrlzngngptcsndstndrdmndshckrnws
+:ID:       snwsycmbntrcmtmdgnrlzngjqngptcsndstndrdmndshckrnws
 :END:
 : jkachmar 4 hours ago [–]
 : It definitely can feel a bit strained at times, but the basic metaphor of:
@@ -285,12 +285,12 @@ https://www.graycrawford.com/nonlinear-conversational-medium
 : ...feels nice when you’ve been working with it for awhile.
 * [2020-11-09] [[https://yoric.github.io/post/why-did-mozilla-remove-xul-addons/][Why Did Mozilla Remove XUL Add-ons?]]
 :PROPERTIES:
-:ID:       mnsyrcgthbpstwhyddmzllrmvxlddnswhyddmzllrmvxlddns
+:ID:       syrcgthbpstwhyddmzllrmvxlddnswhyddmzllrmvxlddns
 :END:
 
 * [#C] [2019-10-01] Multiple tools · Issue 32 · d-cook/SomethingNew
 :PROPERTIES:
-:ID:       tmltpltlsssdcksmthngnw
+:ID:       mltpltlsssdcksmthngnw
 :END:
 https://github.com/d-cook/SomethingNew/issues/32
 : Chris Granger (creator of Eve) presents and interesting point about creating multiple tools instead of one general purpose one: http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/#fn2
@@ -307,30 +307,30 @@ https://twitter.com/rektide/status/1268321433735827457
 
 * DONE [#C] [2020-01-28] [[https://news.ycombinator.com/item?id=22167121][Ask HN: What are some interesting projects to reuse your old devices?]]
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdskhnwhtrmntrstngprjctstrsyrlddvcs
+:ID:       snwsycmbntrcmtmdskhnwhtrsmntrstngprjctstrsyrlddvcs
 :END:
 https://news.ycombinator.com/item?id=22167121
 * DONE [#C] [2020-04-15] [[http://willghatch.net/blog/2020/01/14/plan-9-from-the-1990s/][Plan 9 From The 1990s]]
 :PROPERTIES:
-:ID:       wdwllghtchntblgplnfrmthsplnfrmths
+:ID:       wllghtchntblgplnfrmthsplnfrmths
 :END:
 * [#C] [2020-10-05] [[https://news.ycombinator.com/item?id=24688831][Show HN: A gallery of interesting Jupyter Notebooks | Hacker News]]
 :PROPERTIES:
-:ID:       mnsnwsycmbntrcmtmdshwhnglfntrstngjpytrntbkshckrnws
+:ID:       snwsycmbntrcmtmdshwhngllrfntrstngjpytrntbkshckrnws
 :END:
 * STRT [#C] [2020-08-24] [[https://lobste.rs/s/8aiw6g/what_software_do_you_dream_about_do_not][What software do you dream about, but do not have time to do yourself? | Lobsters]]
 :PROPERTIES:
-:ID:       mnslbstrsswgwhtsftwrdydrmmbtbtdnthvtmtdyrslflbstrs
+:ID:       slbstrsswgwhtsftwrdydrmbtmbtbtdnthvtmtdyrslflbstrs
 :END:
 ** [2020-08-24] [[https://lobste.rs/s/8aiw6g/what_software_do_you_dream_about_do_not#c_tnkntw][What software do you dream about, but do not have time to do yourself? | Lobsters]] :emacs:browser:
 :PROPERTIES:
-:ID:       mnslbstrsswgwhtsftwrdydrmmbtbtdnthvtmtdyrslflbstrs
+:ID:       slbstrsswgwhtsftwrdydrmbtmbtbtdnthvtmtdyrslflbstrs
 :END:
 : Two things.
 :     An Emacs for the web – browser primitives, but with hooks and definitions that allow full user control over the entire experience, integrated with a good extension language, to allow for exploratory development. Bonus points if it can be integrated into Emacs;
 * [#D] [2019-05-30] Chrome to limit full ad blocking extensions to enterprise users - 9to5Google :motivation:firefox:degoogle:
 :PROPERTIES:
-:ID:       thchrmtlmtflldblckngxtnsnstntrprssrstggl
+:ID:       chrmtlmtflldblckngxtnsnstntrprssrstggl
 :END:
 https://9to5google.com/2019/05/29/chrome-ad-blocking-enterprise-manifest-v3/
 
@@ -347,7 +347,7 @@ https://twitter.com/grishka11/status/1220026067060187137
 
 * [#C] [2020-06-22] [[https://twitter.com/benedictevans/status/1275122175784124417][Benedict Evans on Twitter: "🚨 SET DEFAULT EMAIL AND BROWSER APPS 🚨 https://t.co/RepotEto2E" / Twitter]] :malleable:
 :PROPERTIES:
-:ID:       mnstwttrcmbndctvnssttsbndtmlndbrwsrppsstcrptttwttr
+:ID:       stwttrcmbndctvnssttsbndcttmlndbrwsrppsstcrptttwttr
 :END:
 : SET DEFAULT EMAIL AND BROWSER APPS
 
@@ -355,7 +355,7 @@ so fucking annoyed by people getting excited about such trivial things.
 It's should be malleable in the first place
 * [#C] [2020-03-05] [[https://news.ycombinator.com/item?id=22493216][The History of the URL]]
 :PROPERTIES:
-:ID:       thsnwsycmbntrcmtmdthhstryfthrl
+:ID:       snwsycmbntrcmtmdthhstryfthrl
 :END:
 https://blog.cloudflare.com/the-history-of-the-url/
 * TODO [#C] Peak UI 90s                                                  :ui:
@@ -367,7 +367,7 @@ https://blog.cloudflare.com/the-history-of-the-url/
 
 * [#B] [2020-01-22] How I Switched to Plan 9 | Hacker News         :sadinfra:
 :PROPERTIES:
-:ID:       wdhwswtchdtplnhckrnws
+:ID:       hwswtchdtplnhckrnws
 :END:
 https://news.ycombinator.com/item?id=21701798
 : To me this is part of a need to integrate my digital life. I understand the swimming against the tide here (recovering FreeBSD laptop user) - because an integrated life is a controllable life
@@ -380,27 +380,27 @@ https://news.ycombinator.com/item?id=21701798
 : I want this for each member of my family too
 ** [#B] [2020-01-22] How I Switched to Plan 9 | Hacker News
 :PROPERTIES:
-:ID:       wdhwswtchdtplnhckrnws
+:ID:       hwswtchdtplnhckrnws
 :END:
 https://news.ycombinator.com/item?id=21701798
 : It's almost 2020. Forget the flying car, why does my web browser still not provide full text history search if I want it? It's text, and this isn't the 1980s! Why can't it snapshot the textual portion of the DOM for each page I visit if that's what I want? Half terabyte SSDs with 700 MB/s sustained write are $80!
 ** [#B] [2020-01-22] How I Switched to Plan 9 | Hacker News
 :PROPERTIES:
-:ID:       wdhwswtchdtplnhckrnws
+:ID:       hwswtchdtplnhckrnws
 :END:
 https://news.ycombinator.com/item?id=21701798
 :  adambyrtek 47 days ago [-]
 :  Maybe the authors don't mind if their ideas get incorporated in other projects? Maybe they are more interested in spreading their ideas than owning them?
 ** [#B] [2020-01-22] How I Switched to Plan 9 | Hacker News
 :PROPERTIES:
-:ID:       wdhwswtchdtplnhckrnws
+:ID:       hwswtchdtplnhckrnws
 :END:
 https://news.ycombinator.com/item?id=21701798
 :  deadbunny 47 days ago [-]
 :  Exactly why I used the MIT license, even if it is on my ultimately non important stuff. I'd rather it was out there (potentially) being used by anyone that wants to for whatever purpose
 ** [#B] [2020-01-22] How I Switched to Plan 9 | Hacker News
 :PROPERTIES:
-:ID:       wdhwswtchdtplnhckrnws
+:ID:       hwswtchdtplnhckrnws
 :END:
 https://news.ycombinator.com/item?id=21701798
 :  jethro_tell 48 days ago [-]
@@ -409,13 +409,13 @@ https://news.ycombinator.com/item?id=21701798
 :  "Because it’s there" (George Mallory, when asked why climb Mt. Everest).
 * [2019-03-14] Bret Victor The Future of Programming - YouTube
 :PROPERTIES:
-:ID:       thbrtvctrthftrfprgrmmngytb
+:ID:       brtvctrthftrfprgrmmngytb
 :END:
 https://www.youtube.com/watch?v=8pTEmbeENF4&list=WL&t=906s&index=70
 the point is basically that there are ways of thinking beyond ones you're capable of
 * [2019-03-24] Bret Victor - Inventing on Principle - YouTube    :bretvictor:
 :PROPERTIES:
-:ID:       snbrtvctrnvntngnprncplytb
+:ID:       brtvctrnvntngnprncplytb
 :END:
 https://www.youtube.com/watch?v=PUv66718DII&list=WL&index=62&t=0s
 really awesome talk! 
@@ -423,12 +423,12 @@ coolest thing in the second part, he talks of his desire to give creators better
 he mentions that to find some principle to invent on he just did many different things. Very inspirational!
 * DONE [#A] [2020-02-01] [[https://news.ycombinator.com/item?id=22207932][My Second Phone Is in the Cloud]] :sadinfra:
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmdmyscndphnsnthcld
+:ID:       snwsycmbntrcmtmdmyscndphnsnthcld
 :END:
 https://lucassimpson.com/blog/2020-01-23/my-second-phone-is-in-the-cloud/
 ** [2020-02-15] ok, interesting idea -- basically give everyone a VPS and treat as a phone (containerized apps etc)
 :PROPERTIES:
-:ID:       stkntrstngdbscllygvvrynvpsndtrtsphncntnrzdppstc
+:ID:       kntrstngdbscllygvvrynvpsndtrtsphncntnrzdppstc
 :END:
 * DONE [#A] [2020-01-25] mek.fyi | Universal todo list             :sadinfra:
 :PROPERTIES:
@@ -437,13 +437,13 @@ https://lucassimpson.com/blog/2020-01-23/my-second-phone-is-in-the-cloud/
 https://mek.fyi/essays/universal-knowledge/universal-todo-list
 * [2020-11-01] [[https://www.youtube.com/watch?v=kZRE7HIO3vk&list=WL&index=69][The Thirty Million Line Problem - YouTube]]
 :PROPERTIES:
-:ID:       snswwwytbcmwtchvkzrhvklstlndxththrtymllnlnprblmytb
+:ID:       swwwytbcmwtchvkzrhvklstwlndxththrtymllnlnprblmytb
 :END:
 seems kinda geared towards games?
 I mean ok you can drop 17M LOC from Linux kernel, but what about the rest?
 * [#B] [2020-05-25] I had to jailbreak my iPhone to change the default browser | Lobsters :security:malleable:
 :PROPERTIES:
-:ID:       mnhdtjlbrkmyphntchngthdfltbrwsrlbstrs
+:ID:       hdtjlbrkmyphntchngthdfltbrwsrlbstrs
 :END:
 https://lobste.rs/s/oyxpva/i_had_jailbreak_my_iphone_change_default
 : In my opinion, a security model that cuts this deeply into the ecosystem and customisability deserves only criticism. I don’t want to have such a platform for my personal computing needs.
@@ -452,24 +452,24 @@ https://lobste.rs/s/oyxpva/i_had_jailbreak_my_iphone_change_default
 : Without these permissions, modern computing is less exciting than the computers that existed 40 years ago.
 * [#B] [2020-02-15] Jethro Kuan on Twitter: "Org-roam is built by 1 person, but it remains competitive by drawing on the Org ecosystem. You're free to build your own APIs, customize Org-roam as you like. Whereas with @RoamResearch you can only make a feature request and hope… :malleable:
 :PROPERTIES:
-:ID:       stjthrknntwttrrgrmsbltbypmrsrchycnnlymkftrrqstndhp
+:ID:       jthrknntwttrrgrmsbltbyprsmrsrchycnnlymkftrrqstndhp
 :END:
 https://mobile.twitter.com/jethroksy/status/1228590202626531329
 * [2019-04-13] Bret Victor, beast of burden             :bretvictor:thinking:
 :PROPERTIES:
-:ID:       stbrtvctrbstfbrdn
+:ID:       brtvctrbstfbrdn
 :END:
 http://worrydream.com/#!/KillMath
 
 * DONE [#C] [2020-01-02] Good times create weak men @ tonsky.me    :sadinfra:
 :PROPERTIES:
-:ID:       thgdtmscrtwkmntnskym
+:ID:       gdtmscrtwkmntnskym
 :END:
 https://tonsky.me/blog/good-times-weak-men
 
 * [#D] [2019-01-01] https://www.youtube.com/watch?v=baxtyeFVn3w what fp can learn from smalltalk :fp:
 :PROPERTIES:
-:ID:       tswwwytbcmwtchvbxtyfvnwwhtfpcnlrnfrmsmlltlk
+:ID:       swwwytbcmwtchvbxtyfvnwwhtfpcnlrnfrmsmlltlk
 :END:
 ** nice introspection .. I guess, but tied in in a single IDE
 :PROPERTIES:
@@ -481,12 +481,12 @@ https://tonsky.me/blog/good-times-weak-men
 :END:
 * [2020-05-13] [[https://en.wikipedia.org/wiki/ZigZag_(software)][ZigZag (software) - Wikipedia]] :tednelson:pkm:
 :PROPERTIES:
-:ID:       wdsnwkpdrgwkzgzgsftwrzgzgsftwrwkpd
+:ID:       snwkpdrgwkzgzgsftwrzgzgsftwrwkpd
 :END:
 ah, it's also Ted Nelson... I suppose explains why I couldn't understand what it was for
 * [2020-10-02] [[https://news.ycombinator.com/item?id=24648820][> where you get nothing for a PR You already got payment up front: software tha... | Hacker News]] :opensource:
 :PROPERTIES:
-:ID:       frsnwsycmbntrcmtmdwhrygtntpymntpfrntsftwrthhckrnws
+:ID:       snwsycmbntrcmtmdwhrygtnthtpymntpfrntsftwrthhckrnws
 :END:
 : > where you get nothing for a PR
 : You already got payment up front: software that the author(s) have made available to you for free.

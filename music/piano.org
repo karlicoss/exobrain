@@ -38,7 +38,7 @@ https://www.youtube.com/watch?v=jSeaVnVmIFk
 
 ** TODO [#C] [2019-09-09] The Lonely Shepherd - Wikipedia
 :PROPERTIES:
-:ID:       mnthlnlyshphrdwkpd
+:ID:       thlnlyshphrdwkpd
 :END:
 https://en.wikipedia.org/wiki/The_Lonely_Shepherd
 
@@ -56,7 +56,7 @@ https://en.wikipedia.org/wiki/The_Lonely_Shepherd
 
 * TODO [#C] [2019-04-20] What Does a Pianist See? | Eye Tracking - Episode 1 - YouTube
 :PROPERTIES:
-:ID:       stwhtdspnstsytrckngpsdytb
+:ID:       whtdspnstsytrckngpsdytb
 :END:
 https://www.youtube.com/watch?v=GVvY8KfXXgE
 
@@ -66,13 +66,13 @@ https://www.youtube.com/watch?v=GVvY8KfXXgE
 :END:
 ** [#C] [2019-01-23] Online Ear Training with Intervals, Melodies, Jazz Chord Progressions | IWasDoingAllRight
 :PROPERTIES:
-:ID:       wdnlnrtrnngwthntrvlsmldsjzzchrdprgrssnswsdngllrght
+:ID:       nlnrtrnngwthntrvlsmldsjzzchrdprgrssnswsdngllrght
 :END:
 https://www.iwasdoingallright.com/tools/ear_training/online/
 
 ** [#C] [2019-05-19] Note Identification
 :PROPERTIES:
-:ID:       snntdntfctn
+:ID:       ntdntfctn
 :END:
 https://www.musictheory.net/exercises/note
 
@@ -90,27 +90,27 @@ https://sightreading.training/
 
 ** [2019-01-28] lollergater comments on Share your techniques for practicing the beginner/foundational music reading skills!
 :PROPERTIES:
-:ID:       mnlllrgtrcmmntsnshryrtchnthbgnnrfndtnlmscrdngsklls
+:ID:       lllrgtrcmmntsnshryrtchnqsthbgnnrfndtnlmscrdngsklls
 :END:
 https://www.reddit.com/r/musictheory/comments/5lzr3o/share_your_techniques_for_practicing_the/dc0jhl1/
 : Instant chord recognition and instant interval recognition are the foundational bane of musical existence. If one can get past that, understanding the compositional concept is much easier. Much like sight reading for performance. If I struggle to read the note and locate it on the instrument, it makes the higher order musical part that much harder.
 *** STRT [#D] [2019-02-14] ankify that ?
 :PROPERTIES:
-:ID:       thnkfytht
+:ID:       nkfytht
 :END:
 ** [2019-05-19] [[https://reddit.com/r/musictheory/comments/8i9y58/need_to_improve_at_sight_reading_as_fast_as/dyq70ou/][Need to improve at sight reading as fast as possible]] /r/musictheory
 :PROPERTIES:
-:ID:       snsrddtcmrmscthrycmmntsynghtrdngsfstspssblrmscthry
+:ID:       srddtcmrmscthrycmmntsyndtghtrdngsfstspssblrmscthry
 :END:
 : I used sightreadingfactory.com and while it's a little weird and costs some money, it works. It basically generates music with algorithms for you to sight read.
 ** [2019-05-19] [[https://reddit.com/r/piano/comments/5bacza/people_who_can_sightread_fast_what_specific/d9myy6o/][People who can sight-read fast, what specific practice did you use?]] /r/piano
 :PROPERTIES:
-:ID:       snsrddtcmrpncmmntsbczpplwrdfstwhtspcfcprctcddysrpn
+:ID:       srddtcmrpncmmntsbczpplwhcrdfstwhtspcfcprctcddysrpn
 :END:
 :  I'm not perfect at sight reading, but I know my sight reading improved when I stopped focusing on repertoire and just started playing tons of songs. I just went online, found songs that weren't too easy/too hard, and played them. Just make sure you're constantly exposing yourself to new music you haven't seen before. Eventually, you get better and better at recognizing patterns and chords, and it makes you sight read faster. There's probably certain special techniques to improve, but it's not like this won't help
 ** [2019-05-19] [[https://reddit.com/r/musictheory/comments/8i9y58/need_to_improve_at_sight_reading_as_fast_as/dyqo0pu/][Need to improve at sight reading as fast as possible]] /r/musictheory
 :PROPERTIES:
-:ID:       snsrddtcmrmscthrycmmntsynghtrdngsfstspssblrmscthry
+:ID:       srddtcmrmscthrycmmntsyndtghtrdngsfstspssblrmscthry
 :END:
 :  The habit you have to break if you are going to improve your sight reading is the urge to correct yourself.
 : 
@@ -122,7 +122,7 @@ https://www.reddit.com/r/musictheory/comments/5lzr3o/share_your_techniques_for_p
 
 * TODO [#C] [2019-05-19] We know how to practice effectively. - Piano Practice Assistant
 :PROPERTIES:
-:ID:       snwknwhwtprctcffctvlypnprctcssstnt
+:ID:       wknwhwtprctcffctvlypnprctcssstnt
 :END:
 http://pianopracticeassistant.com/
 
@@ -136,7 +136,7 @@ https://www.musictheory.net/exercises
 
 * [2019-05-19] [[https://reddit.com/r/IWantToLearn/comments/92xaqj/iwtl_how_to_improve_piano_technique/e3pkwp5/][IWTL How to improve piano technique]] /r/IWantToLearn
 :PROPERTIES:
-:ID:       snsrddtcmrwnttlrncmmntsxqwtlhwtmprvpntchnqrwnttlrn
+:ID:       srddtcmrwnttlrncmmntsxqjwwtlhwtmprvpntchnqrwnttlrn
 :END:
 :  OP,
 :  I’ve studied technique for 3 decades.  It boils down to very simple things.
@@ -157,7 +157,7 @@ https://www.musictheory.net/exercises
 :END:
 ** [2019-05-23] [[https://reddit.com/r/musictheory/comments/5vccxp/i_dont_understand_time_signatures/de1g58y/][I don't understand time signatures...]] /r/musictheory
 :PROPERTIES:
-:ID:       thsrddtcmrmscthrycmmntsvcntndrstndtmsgntrsrmscthry
+:ID:       srddtcmrmscthrycmmntsvccxntndrstndtmsgntrsrmscthry
 :END:
 : In addition to what everyone else has said: if it's confusing to you that the time signature doesn't have anything to do with actual *time*, like in seconds and minutes, it may help to remember that music notation is *old*.
 : 
@@ -168,14 +168,14 @@ https://www.musictheory.net/exercises
 : But yeah, that has nothing actually to do with the "time" signature. In fact, I'd go so far as to say that "time signature" is a lousy name for that marking you see at the front of the score. It should really be called something like "beat structure," since that's what it really tells you.
 ** [2019-05-23] [[https://reddit.com/r/musictheory/comments/5vccxp/i_dont_understand_time_signatures/de0yp15/][I don't understand time signatures...]] /r/musictheory
 :PROPERTIES:
-:ID:       thsrddtcmrmscthrycmmntsvcntndrstndtmsgntrsrmscthry
+:ID:       srddtcmrmscthrycmmntsvccxntndrstndtmsgntrsrmscthry
 :END:
 : The only real difference between 4/8, 4/4, and 4/2 is the way they are written. They would sound they same if played at the same tempo. That said, in modern music, there is an implication that 4/8 would be played at a faster tempo than 4/2.
 : 
 : Any time signature can be played at any tempo, but there are some generally followed conventions. 3/8 is usually felt in one to the bar, which means it is usually faster than 3/4. 3/2 wouldn't typically be used for a fast scherzo. The idea is to impart the most information to the reader, which means using the time signature that most readers would interpret the way you want.
 * CNCL [#D] [2019-05-25] [[https://reddit.com/r/piano/comments/1v45oe/rollup_piano_waste_of_timemoney_or_a_usable/ceojj0m/][Roll-up piano. Waste of time/money, or a usable practice instrument?]] /r/piano
 :PROPERTIES:
-:ID:       stsrddtcmrpncmmntsvrllppnftmmnyrsblprctcnstrmntrpn
+:ID:       srddtcmrpncmmntsvrllppnwsftmmnyrsblprctcnstrmntrpn
 :END:
 : My grandmother got me one a couple of years ago and I can assure you that it's a complete waste of money.
 : You will not improve your playing in any way, its useless for practising, its almost impossible to hit more than 2 keys at the same time and it's just not like a piano. Should you really manage to learn a real piece on one of those things I myself will buy you a medal.
@@ -221,6 +221,6 @@ memorising: 4th is on first line below. So distance two octaves above got to be 
 :END:
 * [2019-05-25] [[https://reddit.com/r/piano/comments/1v45oe/rollup_piano_waste_of_timemoney_or_a_usable/ceokoyl/][Roll-up piano. Waste of time/money, or a usable practice instrument?]] /r/piano
 :PROPERTIES:
-:ID:       stsrddtcmrpncmmntsvrllppnftmmnyrsblprctcnstrmntrpn
+:ID:       srddtcmrpncmmntsvrllppnwsftmmnyrsblprctcnstrmntrpn
 :END:
 :  IMHO, you'd be better off getting a two octave MIDI keyboard and practicing one-handed techniques. Still not the same feel, but immeasurably closer than those roll-up toys.

@@ -67,11 +67,11 @@ integral k comes because of periodicity of unit circle, if it was R, it would be
 
 * START [2018-09-05] Woit book is quite elaborate. Ugh, it's all very hard :(
 :PROPERTIES:
-:ID:       wdwtbksqtlbrtghtsllvryhrd
+:ID:       wtbksqtlbrtghtsllvryhrd
 :END:
 ** DONE [2019-01-20]  SU 2 (chapter 3)
 :PROPERTIES:
-:ID:       snschptr
+:ID:       schptr
 :END:
 ok, still unclear what is spin 0. it shouldn't change under coordinate transformations right, but what is it from the representation theory point of view??
 *** TODO some annotations in Polar
@@ -80,7 +80,7 @@ ok, still unclear what is spin 0. it shouldn't change under coordinate transform
 :END:
 ** START [2019-01-20] chapter 5. .. skipped it for now
 :PROPERTIES:
-:ID:       snchptrskppdtfrnw
+:ID:       chptrskppdtfrnw
 :END:
 ** Spin(3) = Sp(1), unitary quaternions
 :PROPERTIES:
@@ -90,7 +90,7 @@ and Sp(1) = SU(2)
 SO(3) is kinda like S^3 but with opposite points of the sphere identified
 ** START [2019-01-23]  chapter 10.2.1
 :PROPERTIES:
-:ID:       wdchptr
+:ID:       chptr
 :END:
 important point -- schrodinger equation
 i h d/dt |psi> = H |psi>
@@ -146,22 +146,22 @@ only for Pauli_3 it's diagonal. ugh, don't understand anything
 :END:
 *** [2018-09-06]
 :PROPERTIES:
-:ID:       th
+:ID:       2965_3428
 :END:
 : The spin vector operator is denoted S ^ = ( S x ^ , S y ^ , S z ^ ) {\displaystyle {\widehat {\mathbf {S} }}=({\widehat {S_{x}}},{\widehat {S_{y}}},{\widehat {S_{z}}})} {\widehat {\mathbf {S} }}=({\widehat {S_{x}}},{\widehat {S_{y}}},{\widehat {S_{z}}}). The eigenvalues of its components are the possible outcomes (in units of ℏ {\displaystyle \hbar } \hbar ) of a measurement of the spin projected onto one of the basis directions.
 *** [2018-09-06]
 :PROPERTIES:
-:ID:       th
+:ID:       3428_3743
 :END:
 : Rotations (of ordinary space) about an axis a ^ {\displaystyle {\hat {\mathbf {a} }}} {\hat {\mathbf {a} }} through angle θ about the unit vector a ^ {\displaystyle {\hat {a}}} {\hat {a}} in space acting on a multicomponent wave function (spinor) at a point in space is represented by:
 *** [2018-09-06]
 :PROPERTIES:
-:ID:       th
+:ID:       3743_4016
 :END:
 : In relativistic quantum mechanics, wavefunctions are no longer single-component scalar fields, but now 2(2s + 1) component spinor fields, where s is the spin of the particle. The transformations of these functions in spacetime are given below.
 *** TODO [#B] [2019-01-23] Representation of a Lie group - Wikipedia    :lie:
 :PROPERTIES:
-:ID:       wdrprsnttnflgrpwkpd
+:ID:       rprsnttnflgrpwkpd
 :END:
 https://en.wikipedia.org/wiki/Representation_of_a_Lie_group#An_example:_The_rotation_group_SO.283.29
 :  ne subtlety of this analysis is that the representations of the group and the Lie algebra are not in one-to-one correspondence, a point that is critical in understanding the distinction between integer spin and half-integer spin.
@@ -175,37 +175,37 @@ https://en.wikipedia.org/wiki/Representation_of_a_Lie_group#An_example:_The_rota
 from wiki:
 *** [#B] [2019-02-07] Spinors, on the other hand, are constructed in such a way that makes them sensitive to how the gradual rotation of the coordinates arrived there: they exhibit path-dependence. It turns out that, for any final configuration of the coordinates, there are actually two ("topologically") inequivalent gradual (continuous) rotations of the coordinate system that result in this same configuration. This ambiguity is called the homotopy class of the gradual rotation
 :PROPERTIES:
-:ID:       thspnrsnththrhndrcnstrctdlldthhmtpyclssfthgrdlrttn
+:ID:       spnrsnththrhndrcnstrctdnslldthhmtpyclssfthgrdlrttn
 :END:
 *** [#B] [2019-02-07] This group acts by conjugation on the real vector space spanned by the Pauli matrices themselves,[nb 12] realizing it as a group of rotations among them,[nb 13] but it also acts on the column vectors (that is, the spinors).
 :PROPERTIES:
-:ID:       ththsgrpctsbycnjgtnnthrlvtsnthclmnvctrsthtsthspnrs
+:ID:       thsgrpctsbycnjgtnnthrlvcttsnthclmnvctrsthtsthspnrs
 :END:
 *** [#B] [2019-02-07] onetheless, the concept is generally considered notoriously difficult to understand, as illustrated by Michael Atiyah's statement that is recounted by Dirac's biographer Graham Farmelo:
 :PROPERTIES:
-:ID:       thnthlssthcncptsgnrllycnsrcntdbydrcsbgrphrgrhmfrml
+:ID:       nthlssthcncptsgnrllycnsdrrcntdbydrcsbgrphrgrhmfrml
 :END:
 No one fully understands spinors. Their algebra is formally understood but their general significance is mysterious. In some sense they describe the "square root" of geometry and, just as understanding the square root of −1 took centuries, the same might be true of spinors.[11]
 
 *** [#B] [2019-02-07] What is a spinor? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       thwhtsspnrphyscsstckxchng
+:ID:       whtsspnrphyscsstckxchng
 :END:
 A spinor is a mathematical representation of a harmonic standing-wave quantum field "topological structure" or excitation which typically exhibits a spin ½ geometry 
 *** [#B] [2019-01-14] Plate trick - Wikipedia                           :viz:
 :PROPERTIES:
-:ID:       mnplttrckwkpd
+:ID:       plttrckwkpd
 :END:
 https://en.wikipedia.org/wiki/Plate_trick
 *** [#C] [2019-01-23] Eigenspinor - Wikipedia
 :PROPERTIES:
-:ID:       wdgnspnrwkpd
+:ID:       gnspnrwkpd
 :END:
 https://en.wikipedia.org/wiki/Eigenspinor
 
 * [2019-01-23] SO(3)
 :PROPERTIES:
-:ID:       wds
+:ID:       s
 :END:
 https://en.wikipedia.org/wiki/3D_rotation_group#Topology
 mmm.. proof of no simple connectedness is a bit tricky...
@@ -215,25 +215,25 @@ Maybe the intuition with torus works? But the torus is more of a long pipe
 
 * [2019-01-20]  misc stuff vvvvvvvvvvvvvvvv
 :PROPERTIES:
-:ID:       snmscstffvvvvvvvvvvvvvvvv
+:ID:       mscstffvvvvvvvvvvvvvvvv
 :END:
 
 * [2019-01-20] Irreducible representation - Wikipedia
 :PROPERTIES:
-:ID:       snrrdcblrprsnttnwkpd
+:ID:       rrdcblrprsnttnwkpd
 :END:
 https://en.wikipedia.org/wiki/Irreducible_representation
 : In quantum physics and quantum chemistry, each set of degenerate eigenstates of the Hamiltonian operator comprises a vector space V for a representation of the symmetry group of the Hamiltonian, a "multiplet", best studied through reduction to its irreducible parts. Identifying the irreducible representations therefore allows one to label the states, predict how they will split under perturbations; or transition to other states in V. Thus, in quantum mechanics, irreducible representations of the symmetry group of the system partially or completely label the energy levels of the system, allowing the selection rules to be determined.[5]
 
 * TODO [#B] [2018-09-03] representation theory of the lorenz group :reprtheory:
 :PROPERTIES:
-:ID:       mnrprsnttnthryfthlrnzgrp
+:ID:       rprsnttnthryfthlrnzgrp
 :END:
 https://en.wikipedia.org/wiki/Representation_theory_of_the_Lorentz_group
 
 * [#B] [2018-08-25] symmetry groups                                :symmetry:
 :PROPERTIES:
-:ID:       stsymmtrygrps
+:ID:       symmtrygrps
 :END:
 what is the meaning of symmetry? I guess that the actually observed values are unchanged
 
@@ -276,23 +276,23 @@ George Mackey, The Mathematical Foundations of Quantum Mechanics, Dover, New Yor
 
 * TODO [#B] [2018-11-16] Representation Theory
 :PROPERTIES:
-:ID:       frrprsnttnthry
+:ID:       rprsnttnthry
 :END:
 https://www.math.columbia.edu/~woit/RepThy/
 
 * [2018-09-03]  This holds in particular for any representation of a finite group over the complex numbers, since the characteristic of the complex numbers is zero, which never divides the size of a group. :reprtheory:
 :PROPERTIES:
-:ID:       mnthshldsnprtclrfrnyrprsnbrsszrwhchnvrdvdsthszfgrp
+:ID:       thshldsnprtclrfrnyrprsnttbrsszrwhchnvrdvdsthszfgrp
 :END:
 
 * [2018-11-10] Introduction to gauge theory - Wikipedia :reprtheory:symmetry:
 :PROPERTIES:
-:ID:       stntrdctntggthrywkpd
+:ID:       ntrdctntggthrywkpd
 :END:
 https://en.wikipedia.org/wiki/Introduction_to_gauge_theory
 ** [#B] [2019-01-10]  Suppose that there existed some process by which one could briefly violate conservation of charge by creating a charge q at a certain point in space, 1, moving it to some other point 2, and then destroying it. We might imagine that this process was consistent with conservation of energy. We could posit a rule stating that creating the charge required an input of energy E1=qV1 and destroying it released E2=qV2, which would seem natural since qV measures the extra energy stored in the electric field because of the existence of a charge at a certain point. Outside of the interval during which the particle exists, conservation of energy would be satisfied, because the net energy released by creation and destruction of the particle, qV2-qV1, would be equal to the work done in moving the particle from 1 to 2, qV2-qV1. But although this scenario salvages conservation of energy, it violates gauge symmetry. Gauge symmetry requires that the laws of physics be invariant under the transformation {\displaystyle V\rightarrow V+C} V\rightarrow V+C, which implies that no experiment should be able to measure the absolute potential, without reference to some external standard such as an electrical ground. But the proposed rules E1=qV1 and E2=qV2 for the energies of creation and destruction would allow an experimenter to determine the absolute potential, simply by comparing the energy input required to create the charge q at a particular point in space in the case where the potential is {\displaystyle V} V and {\displaystyle V+C} V+C respectively. The conclusion is that if gauge symmetry holds, and energy is conserved, then charge must be conserved.[1
 :PROPERTIES:
-:ID:       thsppsthtthrxstdsmprcssbyyscnsrvdthnchrgmstbcnsrvd
+:ID:       sppsthtthrxstdsmprcssbywhyscnsrvdthnchrgmstbcnsrvd
 :END:
 huh, that' very interesting point!!
 
@@ -301,12 +301,12 @@ interesting, also in sense it's similar to comparing absolute units and diferern
 not sure if it's very convincing, e.g. proposed rules are pretty arbitrary
 ** [2019-01-10]
 :PROPERTIES:
-:ID:       th
+:ID:       11824_12464
 :END:
 Not only that, but it is not even necessary to change the speed of each clock by a fixed amount. We could change the angle of the hand on each clock by a varying amount θ, where θ could depend on both the position in space and on time. This would have no effect on the result of the experiment, since the final observation of the location of the electron occurs at a single place and time, so that the phase shift in each electron's "clock" would be the same, and the two effects would cancel out. This is another example of a gauge transformation: it is local, and it does not change the results of experiments.
 ** [2019-01-10]
 :PROPERTIES:
-:ID:       th
+:ID:       12464_13334
 :END:
 As a way of visualizing the choice of a gauge, consider whether it is possible to tell if a cylinder has been twisted. If the cylinder has no bumps, marks, or scratches on it, we cannot tell. We could, however, draw an arbitrary curve along the cylinder, defined by some function θ(x), where x measures distance along the axis of the cylinder. Once this arbitrary choice (the choice of gauge) has been made, it becomes possible to detect it if someone later twists the cylinde  
 
@@ -314,7 +314,7 @@ In 1954, Chen Ning Yang and Robert Mills proposed to generalize these ideas to n
 
 ** [2019-01-10] uu, nice demo for Aharonov-Bohm effect!
 :PROPERTIES:
-:ID:       thncdmfrhrnvbhmffct
+:ID:       ncdmfrhrnvbhmffct
 :END:
 https://www.youtube.com/watch?v=OgDPK5MLVnE
 so it gets global phase shift?
@@ -352,7 +352,7 @@ C^2, upper triangular matrices W = k (1 0) for k in C is a subrepr, but there is
 
 ** [2018-10-09] ok hold on for now; he assumes we know what's a lie algebra, etc..
 :PROPERTIES:
-:ID:       tkhldnfrnwhssmswknwwhtsllgbrtc
+:ID:       khldnfrnwhssmswknwwhtsllgbrtc
 :END:
 http://math.ucr.edu/home/baez/qg-fall2008/
 https://golem.ph.utexas.edu/category/2008/09/lie_theory_through_examples_1.html
@@ -360,7 +360,7 @@ http://math.ucr.edu/home/baez/qg-fall2008/lie1.pdf
 
 * [2018-09-11] http://blog.sigfpe.com/2007/11/whats-all-this-e8-stuff-about-then-part.html
 :PROPERTIES:
-:ID:       tblgsgfpcmwhtsllthsstffbtthnprthtml
+:ID:       blgsgfpcmwhtsllthsstffbtthnprthtml
 :END:
 lie algebras describe rate of change of element of lie group, they are not wrapping around!
 
@@ -383,7 +383,7 @@ https://math.stackexchange.com/a/1823425/15108 -- so(3) are skew symmetric matri
 :END:
 *** [2018-10-18] p.4. matrix Lie group -- closed subgroup of general linear.
 :PROPERTIES:
-:ID:       thpmtrxlgrpclsdsbgrpfgnrllnr
+:ID:       pmtrxlgrpclsdsbgrpfgnrllnr
 :END:
 SO group: A* = A^(-1)
 SO is subgroup of O
@@ -430,7 +430,7 @@ In the language of manifolds, the generators are the elements of the tangent spa
 
 * TODO [2018-10-09]  people also recommend Duistermaat-Kolk: Lie Groups.
 :PROPERTIES:
-:ID:       tppllsrcmmnddstrmtklklgrps
+:ID:       ppllsrcmmnddstrmtklklgrps
 :END:
 
 
@@ -440,7 +440,7 @@ In the language of manifolds, the generators are the elements of the tangent spa
 :END:
 ** [2018-10-09]  trying to prove that identity connected component of a lie group is a normal  subgroup and a lie group
 :PROPERTIES:
-:ID:       ttryngtprvthtdnttycnnctdcpnntflgrpsnrmlsbgrpndlgrp
+:ID:       tryngtprvthtdnttycnnctdcmpnntflgrpsnrmlsbgrpndlgrp
 :END:
 first of all -- shy is it normal.
 
@@ -501,7 +501,7 @@ https://en.wikipedia.org/wiki/Quotient_space_(topology)
 
 ** [2018-10-15] carrying on...
 :PROPERTIES:
-:ID:       mncrryngn
+:ID:       crryngn
 :END:
 *** ok, I'm a bit stuck at understanding topologocal continuity again I think. shame :(
 :PROPERTIES:
@@ -560,7 +560,7 @@ ok, boring, we get the original topology
 
 ** [2018-10-18] carrying on... quotient topology is discrete
 :PROPERTIES:
-:ID:       thcrryngnqtnttplgysdscrt
+:ID:       crryngnqtnttplgysdscrt
 :END:
 Q = G/G^0
 suppose T_Q (topology) is not discrete. that means there is A_Q in Q such that {A_Q} is not open. A_Q corresponds to G^0 + [some] A, so that means it is not open in the original topology T. however, that contradicts G^0 + A being connected component.
@@ -610,7 +610,7 @@ U× a discrete space→U.
 
 ** [2018-10-18] uh... skipped to 2.4
 :PROPERTIES:
-:ID:       thhskppdt
+:ID:       hskppdt
 :END:
 
 
@@ -648,7 +648,7 @@ Representation
 
 * [2018-09-11] O(n) http://mathworld.wolfram.com/OrthogonalGroup.html
 :PROPERTIES:
-:ID:       tnmthwrldwlfrmcmrthgnlgrphtml
+:ID:       nmthwrldwlfrmcmrthgnlgrphtml
 :END:
 O(n) preserve the quadratic form sum (x^i)^2 (hence, circles for O(2))
 
@@ -661,16 +661,16 @@ O(1, 1) -- preserves x^2 - y^2 (hyperobolas)
 
 * [2019-01-20] misc
 :PROPERTIES:
-:ID:       snmsc
+:ID:       msc
 :END:
 ** TODO [#B] [2018-08-26] quantum field theory - Why particles are thought as irreducible representation in plain English? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       snqntmfldthrywhyprtclsrthnnplnnglshphyscsstckxchng
+:ID:       qntmfldthrywhyprtclsrthghnnplnnglshphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/277986/why-particles-are-thought-as-irreducible-representation-in-plain-english
 ** [2018-12-07] Worked problems in physics using representation theory? : AskPhysics
 :PROPERTIES:
-:ID:       frwrkdprblmsnphyscssngrprsnttnthryskphyscs
+:ID:       wrkdprblmsnphyscssngrprsnttnthryskphyscs
 :END:
 https://www.reddit.com/r/AskPhysics/comments/93clmt/worked_problems_in_physics_using_representation/ 
 I haven't read the mechanics book you mentioned, so I don't know how similar these are to that, but some good books I've used that go into representation theory outside of particle physics are Hamermesh's Group theory and its application to physical problems and Petrashen's Applications of group theory in quantum mechanics.
@@ -689,29 +689,29 @@ I once read through the book "Solved Problems in Lagrangian and Hamiltonian Mech
 
 * [#C] [2019-01-24] Short Introduction to and Motivation for Representation Theory – Jakob Schwichtenberg :reprtheory:
 :PROPERTIES:
-:ID:       thshrtntrdctntndmtvtnfrrprsnttnthryjkbschwchtnbrg
+:ID:       shrtntrdctntndmtvtnfrrprsnttnthryjkbschwchtnbrg
 :END:
 http://jakobschwichtenberg.com/short-introduction-motivation-representation-theory/
 well, ok it's really basic
 * STRT [#B] [2019-01-24] What’s so special about the adjoint representation of a Lie group? – Jakob Schwichtenberg :reprtheory:
 :PROPERTIES:
-:ID:       thwhtssspclbtthdjntrprsnttnflgrpjkbschwchtnbrg
+:ID:       whtssspclbtthdjntrprsnttnflgrpjkbschwchtnbrg
 :END:
 http://jakobschwichtenberg.com/adjoint-representation/
 : P.S. I wrote a textbook which is in some sense the book I wished had existed when I started my journey in physics. It's called "Physics from Symmetry" and you can buy it, for example, at Amazon.
 * [#C] [2019-01-23] [[https://reddit.com/r/math/comments/3k3jwh/best_intro_to_representation_theory/cuugprk/][Best intro to representation theory?]] /r/math
 :PROPERTIES:
-:ID:       wdsrddtcmrmthcmmntskjwhbsrkbstntrtrprsnttnthryrmth
+:ID:       srddtcmrmthcmmntskjwhbstnrkbstntrtrprsnttnthryrmth
 :END:
 : I think Fulton and Harris has become one of the gold standards. Serre's "Linear Representations of Finite Groups " is fantastic, but is a bit more terse and requires lots of mathematical maturity.
 * [#C] [2019-01-23] [[https://reddit.com/r/math/comments/1emn1m/representation_theory/ca1pyp4/][Representation Theory]] /r/math
 :PROPERTIES:
-:ID:       wdsrddtcmrmthcmmntsmnmrprnthrycpyprprsnttnthryrmth
+:ID:       srddtcmrmthcmmntsmnmrprsnnthrycpyprprsnttnthryrmth
 :END:
 :  Representation Theory is fucking everywhere. It's the opposite of a dead end. A co-dead end. The only issue is that at first glance it doesn't seem that exciting. Then, as you continue your studies, it will start to pop-up everywhere because it gives you invaluable tools with which to study abstract groups.
 * [#C] [2019-01-23] [[https://reddit.com/r/math/comments/1emn1m/representation_theory/ca1qrdl/][Representation Theory]] /r/math
 :PROPERTIES:
-:ID:       wdsrddtcmrmthcmmntsmnmrprthrycqrdlrprsnttnthryrmth
+:ID:       srddtcmrmthcmmntsmnmrprsnthrycqrdlrprsnttnthryrmth
 :END:
 : I have to agree with functor7 that representation theory comes up everywhere. I think it's rather exciting from a basic level too.
 
@@ -732,7 +732,7 @@ http://jakobschwichtenberg.com/adjoint-representation/
 : This point of view explains things like what the character table of a group does and does not see, and explains why you can't recover the group from the character table.
 * [#C] [2019-01-23] [[https://reddit.com/r/math/comments/i73t4/can_representation_theory_be_explained_using/c21iiba/][Can Representation Theory be Explained Using Basic Abstract and Linear Algebra?]] /r/math
 :PROPERTIES:
-:ID:       wdsrddtcmrmthcmmntstcnrprsngbscbstrctndlnrlgbrrmth
+:ID:       srddtcmrmthcmmntstcnrprsnsngbscbstrctndlnrlgbrrmth
 :END:
 : Sternberg's *Group Theory and Physics*.
 : Go to Amazon and order it [*right now*](http://www.amazon.com/Group-Theory-Physics-S-Sternberg/dp/0521558859).  It's an easy book^1 that will put you **ridiculously far ahead** of anyone else with a similar background.  That's because representation theory is usually taught abstractly, and Sternberg contains nothing but concrete examples.  With *numbers*.  So while everyone else is trying to parse  word-salad about rings of maps between modules over groups of categoric chain algebras, you'll already have a fairly good idea of what's happening by analogy with what you already know.
@@ -742,12 +742,12 @@ http://jakobschwichtenberg.com/adjoint-representation/
 : [1] For math, anyway.  You still have to "read" it with pen & paper.
 * [#C] [2019-01-23] [[https://reddit.com/r/math/comments/1c9uax/book_suggestions_for_modern_representation_theory/c9ehg8n/][Book suggestions for modern representation theory?]] /r/math
 :PROPERTIES:
-:ID:       wdsrddtcmrmthcmmntscxbksgtnsfrmdrnrprsnttnthryrmth
+:ID:       srddtcmrmthcmmntscxbksggstnsfrmdrnrprsnttnthryrmth
 :END:
 : How much representation theory do you already know? If you're just starting out and want a good book to help develop intuition I recommend [Groups, Representations, and Characters](http://product.half.ebay.com/Groups-Representations-and-Characters-by-Victor-E-Hill-1976-Hardcover/1315464&tg=info) by Hill. It takes a sort of naive approach, so it's not awfully rigorous, but I found it to be a great companion to the denser graduate stuff. It doesn't cover harmonic analysis or compact groups, but it was the only gently written text on rep theory I could find during a semester of independent study.
 * [#C] [2019-01-23] [[https://reddit.com/r/math/comments/8i7x6s/everything_about_representation_theory_of_finite/dyq2qxg/][Everything about Representation theory of finite groups]] /r/math
 :PROPERTIES:
-:ID:       wdsrddtcmrmthcmmntsxsvryttrprsnttnthryffntgrpsrmth
+:ID:       srddtcmrmthcmmntsxsvrythntrprsnttnthryffntgrpsrmth
 :END:
 :  Really all of QM depends on representation theory. Take a potential, and find all the operations \(rotations, inversions, etc.\) which leave it invariant. For example, take a potential from 3 protons in an equilateral triangle. There are 6 'covering' operations: Rotation by 60/120 degrees with the axis of rotation normal to the plane of the triangle and 3 180 degree rotations about axes in the plane of the triangle. This is the [Dihedral Group D3](http://mathworld.wolfram.com/DihedralGroupD3.html). Like any group, it is closed under multiplication of the elements, where in this case multiplication AB is defined as applying operation B then applying operation A. So a multiplication table can be made that show every possible product in the group.
 :  As of now, the elements of the group are just operations. Representation theory is writing a set of matrices  homomorphic to the group, where each matrix represents a particular operation. In this case, this means the matrices must obey the multiplication table of the group. Keep in mind that setting all matrices to the scalar 1 forms a representation for any group, because If you need to satisfy AB = C then 1\*1 = 1. After a bunch of math, group theory tells us that there are a set number of possible representations with different matrix dimensions \(all square\). At the end of the day, we can define all operations which leave the Hamiltonian in QM unchanged as the group of the Schrodinger equation \(this is the same as saying the group of all operations which commute with the Hamiltonian\). The KE operator has no effect on the symmetry, so we can just look to the potential for the operations which leave the hamiltonian invariant.
@@ -761,25 +761,25 @@ http://jakobschwichtenberg.com/adjoint-representation/
 :  Back to a 1\-dimensional crystal: Clearly each element in an Abelian group forms its own class because the X and X\^\-1 will commute through the A and cancel out, so each element will only generate itself. Crystals actually have a finite number of elements, so the way we have stated the problem the operators won't form a group because they aren't closed under Ta\^\(N\+1\), where we have 'walked off' the end of the crystal. So to simulate the effects of an 'infinite' crystal, we use periodic boundary conditions and suppose that the end loops back around to the beginning. So now we have a nice cyclic group of N elements with N representations since each element forms its own class. The laws of group theory also fix the sum of the squares of the dimensions of the representations to be equal to the number of elements in the group, so this fixes each representation to be one dimensional, or in other words each representation is just some scalar. Say that in a particular representation the generating element Ta is written as r, so r\^N = 1 by the periodic boundary conditions. So r = exp\(2\*pi\*i\*p/h\), where p = 1,2,3 ... h. But since psi must belong to a representation of the group, we must have Ta psi\(x\) = psi\(x \+ a\) = exp\(2\*pi\*i\*p/h\), and we eventually find that any function satisfying these conditions can be written as u\(x\)e\^\(ikx\), which is the very important Bloch Theorem. My derivation here doesn't have all the explanations, and I skipped the entire process of relabeling p to k, but I actually have to go so maybe I'll come back later and fix it.
 * [#C] [2019-01-23] [[https://reddit.com/r/math/comments/8i7x6s/everything_about_representation_theory_of_finite/dyq36b0/][Everything about Representation theory of finite groups]] /r/math
 :PROPERTIES:
-:ID:       wdsrddtcmrmthcmmntsxsvryttrprsnttnthryffntgrpsrmth
+:ID:       srddtcmrmthcmmntsxsvrythntrprsnttnthryffntgrpsrmth
 :END:
 : I tried to add at the top that this all follows almost exactly from Tinkham's Group Theory and Quantum Mechanics. But that put me over the character limit so I decided to just say it in a reply. I'm not an expert on this stuff and I don't even have a 100&#37; grasp on the stuff I wrote above, but I'm working on it. Also there's a decent chance you already know basic group theory. I mostly just put that stuff in for myself because I'm terrible at it and I need to repeat it every chance I can get.
 * TODO [#D] [2018-09-03] grand unified theory resources    :study:reprtheory:
 :PROPERTIES:
-:ID:       mngrndnfdthryrsrcs
+:ID:       grndnfdthryrsrcs
 :END:
 http://jakobschwichtenberg.com/resources-that-helped-me-understand-grand-unified-theories/
 
 * [2020-08-03] [[https://twitter.com/EricRWeinstein/status/1290383725599973376][Eric Weinstein on Twitter: "You can call S^3 by all of the following names: S^3, Spin(3), SU(2), Sp(1) only they lead to *different* generalizations. Unfortunately Spin(4)=SU(2)xSU(2) is seldom written Spin(4)=Sp(1)xS^3 which should be preferred. But why is one naming better? It‘s because it generalizes." / Twitter]]
 :PROPERTIES:
-:ID:       mnstwttrcmrcrwnstnsttsrcwnmngbttrtsbcstgnrlzstwttr
+:ID:       stwttrcmrcrwnstnsttsrcwnsnmngbttrtsbcstgnrlzstwttr
 :END:
 : You can call S^3 by all of the following names:
 : 
 : S^3, Spin(3), SU(2), Sp(1)
 * DONE [2019-01-20] Physics from Symmetry - Jakob Schwichtenberg - Google Books :book:reprtheory:
 :PROPERTIES:
-:ID:       snphyscsfrmsymmtryjkbschwchtnbrggglbks
+:ID:       physcsfrmsymmtryjkbschwchtnbrggglbks
 :END:
 - State "STRT"      from "TODO"       [2019-02-27]
 https://books.google.co.uk/books?id=bipBDwAAQBAJ&pg=PA91&lpg=PA91&dq=%22spin+0%22+representation&source=bl&ots=tn4XLPmWDc&sig=ACfU3U1dUSMAyjpvDV-6Vx0f6k0oXTrguw&hl=en&sa=X&ved=2ahUKEwjz7LC_2vzfAhUlQRUIHXxOBrwQ6AEwEHoECBYQAQ#v=onepage&q=%22spin%200%22%20representation&f=false

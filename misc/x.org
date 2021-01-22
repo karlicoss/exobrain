@@ -10,5 +10,5 @@ File to control logseq behaviour
 
 * TODO [2021-01-16] ignore some tags like 'inspiration'. they make a mess in the graph, but mostly only make sense to me anyway :logseq:
 :PROPERTIES:
-:ID:       stgnrsmtgslknsprtnthymkmsgrphbtmstlynlymksnstmnywy
+:ID:       gnrsmtgslknsprtnthymkmssngrphbtmstlynlymksnstmnywy
 :END:

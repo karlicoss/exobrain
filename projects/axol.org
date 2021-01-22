@@ -37,13 +37,13 @@ rss is awesome! downsides
 :END:
 ** TODO [#D] [2019-12-30] Ask HN: Do you still use RSS? | Hacker News :rss:blog:
 :PROPERTIES:
-:ID:       mnskhndystllsrsshckrnws
+:ID:       skhndystllsrsshckrnws
 :END:
 https://news.ycombinator.com/item?id=21913598
 : I've just started using Feedbin about a month ago, and although my HN firehose feed is at like 1100 something, it definitely limits the rest of the HN feeds. The show and ask feeds are both stuck around 400 something.
 ** [#D] [2018-11-24] problems with diff approach
 :PROPERTIES:
-:ID:       stprblmswthdffpprch
+:ID:       prblmswthdffpprch
 :END:
 *** random errors, resulting in empty diff
 :PROPERTIES:
@@ -60,11 +60,11 @@ https://news.ycombinator.com/item?id=21913598
 the downside -- having to keep the state :(
 ** [#C] [[http://twitter.com/karlicoss/status/1047228539156750336][TW]] at [2018-10-02] А кто-нибудь знает тулы типа https://t.co/EbpbNZWQFC , но чтобы туда можно было вбить грубо говоря любую поисковую кверю, или API (например reddit/github); и оно отслеживало результаты?
 :PROPERTIES:
-:ID:       twttrcmkrlcsssttstwttактоионоотслеживалорезультаты
+:ID:       twttrcmkrlcsssttstwtактонионоотслеживалорезультаты
 :END:
 *** [2019-10-02] huh
 :PROPERTIES:
-:ID:       wdhh
+:ID:       hh
 :END:
 * [#B] Similar/existing projects
 :PROPERTIES:
@@ -72,12 +72,12 @@ the downside -- having to keep the state :(
 :END:
 ** [#C] [2020-03-03] [[https://news.ycombinator.com/item?id=22474282][Show HN: Mailbrew – Automated Email Digests from HN, RSS, Reddit, Twitter]]
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdshwhnmlbdmldgstsfrmhnrssrddttwttr
+:ID:       snwsycmbntrcmtmdshwhnmlbrdmldgstsfrmhnrssrddttwttr
 :END:
 https://mailbrew.com/
 ** TODO [#C] [2019-12-26] awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of hosting and managing applications instead of renting from Software-as-a-Service providers
 :PROPERTIES:
-:ID:       thwsmslfhstdwsmslfhstdlstfrntngfrmsftwrssrvcprvdrs
+:ID:       wsmslfhstdwsmslfhstdlstfffrntngfrmsftwrssrvcprvdrs
 :END:
 https://github.com/awesome-selfhosted/awesome-selfhosted
 : Search Engines
@@ -100,7 +100,7 @@ https://github.com/trulia/thoth -- unclear what it's doing
 keyword tracking (SERP) -- not sure if an overkill..
 *** DONE [2018-11-06] just implement a provider for kibitzr?
 :PROPERTIES:
-:ID:       tjstmplmntprvdrfrkbtzr
+:ID:       jstmplmntprvdrfrkbtzr
 :END:
 *** CANCEL rust?
 :PROPERTIES:
@@ -153,7 +153,7 @@ also axol doctor to check individual providers + reuse in tests
 :END:
 ** TODO [#C] [2019-04-15] axol results for reddit_pkm, rendered at Fri 12 Apr 2019 05:07
 :PROPERTIES:
-:ID:       mnxlrsltsfrrddtpkmrndrdtfrpr
+:ID:       xlrsltsfrrddtpkmrndrdtpr
 :END:
 reddit_pkm.html
 shit. need to ignore the weapons subreddits
@@ -184,41 +184,41 @@ tabledresser
 :END:
 *** [2020-01-01] twitter_mypy (211) - Miniflux
 :PROPERTIES:
-:ID:       wdtwttrmypymnflx
+:ID:       twttrmypymnflx
 :END:
 https://axol.karlicoss.xyz/feed/53/entries
 : /mypy1031
 *** [2020-01-01] twitter_mypy (211) - Miniflux
 :PROPERTIES:
-:ID:       wdtwttrmypymnflx
+:ID:       twttrmypymnflx
 :END:
 https://axol.karlicoss.xyz/feed/53/entries
 : /aymk_mypy/status/1211970059205107712 All
 : twitter_mypy 7 hours ago Original @Witch_Astaroth みどりさん！この垢にしてから相互になった方の中では割と話せたと思ってます笑 来年もよろしくお願いします！
 *** [2020-01-01] twitter_mypy (111) - Miniflux
 :PROPERTIES:
-:ID:       wdtwttrmypymnflx
+:ID:       twttrmypymnflx
 :END:
 https://axol.karlicoss.xyz/feed/53/entries
 : /mypy2424/status/1211845733210443778 All
 : twitter_mypy 7 hours ago Original 事実でも噂でも、クズとかいうやつお前はその人より努力してからいえよな〜って思うよ！！！！！ 好きな
 *** [2020-01-01] twitter_mypy (111) - Miniflux
 :PROPERTIES:
-:ID:       wdtwttrmypymnflx
+:ID:       twttrmypymnflx
 :END:
 https://axol.karlicoss.xyz/feed/53/entries
 : /soe1113/status/741281801323175936 All
 :    twitter_mypy 7 hours ago O
 *** [2020-01-03] twitter_lifelogging (20) - Miniflux
 :PROPERTIES:
-:ID:       frtwttrlflggngmnflx
+:ID:       twttrlflggngmnflx
 :END:
 https://axol.karlicoss.xyz/feed/52/entries
 : /jager_atami/status/24390787028 All
 : twitter_lifelogging 2 days ago Original #udetate #lifelogging 陶房で壺割り 12 個 201
 *** [2020-01-03] twitter_quantified_self (36) - Miniflux
 :PROPERTIES:
-:ID:       frtwttrqntfdslfmnflx
+:ID:       twttrqntfdslfmnflx
 :END:
 https://axol.karlicoss.xyz/feed/55/entries
 : /hiperesoterismo/status/1212803558203985920 All
@@ -268,90 +268,90 @@ maybe some simple cmdline available from anywhere. or org mode as source?
 :END:
 *** [2019-12-07] not much on reddit for 'data liberation:
 :PROPERTIES:
-:ID:       stntmchnrddtfrdtlbrtn
+:ID:       ntmchnrddtfrdtlbrtn
 :END:
 *** [2020-03-10] 'data export' looks promising on github
 :PROPERTIES:
-:ID:       tdtxprtlksprmsngngthb
+:ID:       dtxprtlksprmsngngthb
 :END:
 ** TODO [#C] [2020-01-12] github.com/karlicoss - Twitter Search / Twitter :self:
 :PROPERTIES:
-:ID:       sngthbcmkrlcsstwttrsrchtwttr
+:ID:       gthbcmkrlcsstwttrsrchtwttr
 :END:
 https://twitter.com/search?q=github.com%2Fkarlicoss&src=typed_query&f=live
 *** [2020-03-10] right, it looks quite reasonable to have
 :PROPERTIES:
-:ID:       trghttlksqtrsnblthv
+:ID:       rghttlksqtrsnblthv
 :END:
 **** [2020-11-30] very few results though
 :PROPERTIES:
-:ID:       mnvryfwrsltsthgh
+:ID:       vryfwrsltsthgh
 :END:
 *** [2020-03-30] All | Search powered by Algolia
 :PROPERTIES:
-:ID:       mnllsrchpwrdbylgl
+:ID:       llsrchpwrdbylgl
 :END:
 https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=github.com%2Fkarlicoss&sort=byPopularity&type=story
 
 
 ** STRT [#C] [2020-01-30] my. package | Mildly entertainingᵝ        :qs:read:
 :PROPERTIES:
-:ID:       thmypckgmldlyntrtnngᵝ
+:ID:       mypckgmldlyntrtnngᵝ
 :END:
 https://beepb00p.xyz/mypkg.html
 : Interesting experiment! Thanks for sharing :-) You might find this person's musings about such experiments interesting: https://www.plomlompom.de/index.en.html#topic_postprivacy
 *** TODO [2020-03-01] axol it
 :PROPERTIES:
-:ID:       snxlt
+:ID:       xlt
 :END:
 ** STRT [#B] [2019-02-15] What Universal Human Experiences Are You Missing Without Realizing It? | Slate Star Codex :mind:
 :PROPERTIES:
-:ID:       frwhtnvrslhmnxprncsrymssngwthtrlzngtsltstrcdx
+:ID:       whtnvrslhmnxprncsrymssngwthtrlzngtsltstrcdx
 :END:
 - State "STRT"      from "TODO"       [2019-04-13]
   https://slatestarcodex.com/2014/03/17/what-universal-human-experiences-are-you-missing-without-realizing-it/
 search this post on reddit or something
 *** [2019-04-22] actually even found something interesting on gh..
 :PROPERTIES:
-:ID:       mnctllyvnfndsmthngntrstngngh
+:ID:       ctllyvnfndsmthngntrstngngh
 :END:
 https://github.com/search?q=what-universal-human-experiences-are-you-missing-without-realizing-it&type=Code
 although, it's code search, not repo search
 *** [2019-04-22] so trying to google that query
 :PROPERTIES:
-:ID:       mnstryngtgglthtqry
+:ID:       stryngtgglthtqry
 :END:
 if looking for past month, that basically results in random keywords
 what universal human experiences are you missing without realizing it
 *** [2019-06-13] yeah, twitter feed is not too huge, so could subscribe to it
 :PROPERTIES:
-:ID:       thyhtwttrfdsntthgscldsbscrbtt
+:ID:       yhtwttrfdsntthgscldsbscrbtt
 :END:
 
 ** TODO [#D] [2019-06-29] https://github.com/hypotext/notation - Twitter Search
 :PROPERTIES:
-:ID:       stsgthbcmhyptxtnttntwttrsrch
+:ID:       sgthbcmhyptxtnttntwttrsrch
 :END:
 https://twitter.com/search?q=https%3A%2F%2Fgithub.com%2Fhypotext%2Fnotation&partner=Firefox&source=desktop-search
 *** [2019-08-09] axol this?
 :PROPERTIES:
-:ID:       frxlths
+:ID:       xlths
 :END:
 **** [2019-08-25] or aaxol for twitter? although doesn't seem to be posted often
 :PROPERTIES:
-:ID:       snrxlfrtwttrlthghdsntsmtbpstdftn
+:ID:       rxlfrtwttrlthghdsntsmtbpstdftn
 :END:
 
 
 ** [#C] [2020-01-09] karlicoss/cachew - Twitter Search / Twitter     :cachew:
 :PROPERTIES:
-:ID:       thkrlcsscchwtwttrsrchtwttr
+:ID:       krlcsscchwtwttrsrchtwttr
 :END:
 https://twitter.com/search?q=karlicoss%2Fcachew&partner=Firefox&source=desktop-search
 
 ** TODO [#B] [2020-08-24] [[https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNoon_Universe&sort=byPopularity&type=all][All | Search powered by Algolia]] Noon Universe search
 :PROPERTIES:
-:ID:       mnshnlglcmdtrngllpgprfxtrllsrchpwrdbylglnnnvrssrch
+:ID:       shnlglcmdtrngllpgprfxtrqrllsrchpwrdbylglnnnvrssrch
 :END:
 
 ** STRT [#C] mypy -- exclude mypython; prioritize topics               :mypy:
@@ -371,15 +371,15 @@ https://twitter.com/search?q=karlicoss%2Fcachew&partner=Firefox&source=desktop-s
 :END:
 *** [2019-06-13] uh. need a proper interface for it
 :PROPERTIES:
-:ID:       thhndprprntrfcfrt
+:ID:       hndprprntrfcfrt
 :END:
 **** STRT [2019-06-13] what's the quickest possible way to create guis? still gonna be python config, right? perhaps self-checking!
 :PROPERTIES:
-:ID:       thwhtsthqckstpssblwytcrtgthncnfgrghtprhpsslfchckng
+:ID:       whtsthqckstpssblwytcrtgssthncnfgrghtprhpsslfchckng
 :END:
 ***** [2019-06-15] ok, just main function sounds ok..
 :PROPERTIES:
-:ID:       stkjstmnfnctnsndsk
+:ID:       kjstmnfnctnsndsk
 :END:
 ** TODO [#C] ted chiang -- pretty nice to search on twitter       :tedchiang:
 :PROPERTIES:
@@ -393,12 +393,12 @@ https://twitter.com/search?q=karlicoss%2Fcachew&partner=Firefox&source=desktop-s
 :END:
 *** STRT [#B] [2019-06-15] youtube.com/watch?v=YrXk2buqsgg
 :PROPERTIES:
-:ID:       stytbcmwtchvyrxkbqsgg
+:ID:       ytbcmwtchvyrxkbqsgg
 :END:
 can find some interesting stuff on twitter..
 *** DONE [2019-07-28] "виктор аргонов" got some good results on twitter
 :PROPERTIES:
-:ID:       snвиктораргоновgtsmgdrsltsntwttr
+:ID:       виктораргоновgtsmgdrsltsntwttr
 :END:
 ** STRT [#C] kobo; spaced repetition?                             :spacedrep:
 :PROPERTIES:
@@ -407,11 +407,11 @@ can find some interesting stuff on twitter..
 :END:
 *** [2019-12-07] eh, kobo not so interesting..
 :PROPERTIES:
-:ID:       sthkbntsntrstng
+:ID:       hkbntsntrstng
 :END:
 ** STRT [#C] [2018-08-25] scott alexander unsong - Twitter Search
 :PROPERTIES:
-:ID:       stscttlxndrnsngtwttrsrch
+:ID:       scttlxndrnsngtwttrsrch
 :END:
 https://twitter.com/search?f=tweets&vertical=default&q=scott%20alexander%20unsong&src=typd&lang=en-gb
 
@@ -426,11 +426,11 @@ https://twitter.com/search?f=tweets&vertical=default&q=scott%20alexander%20unson
 :END:
 *** [2019-06-15] doesn't look much on pinboard...
 :PROPERTIES:
-:ID:       stdsntlkmchnpnbrd
+:ID:       dsntlkmchnpnbrd
 :END:
 *** [2019-12-07] not much interesting
 :PROPERTIES:
-:ID:       stntmchntrstng
+:ID:       ntmchntrstng
 :END:
 ** STRT [#C] cancel scott alexander search alert
 :PROPERTIES:
@@ -449,11 +449,11 @@ https://twitter.com/search?f=tweets&vertical=default&q=scott%20alexander%20unson
 :END:
 *** [2020-11-30] or 'Hamiltonian'? at least on HN
 :PROPERTIES:
-:ID:       mnrhmltnntlstnhn
+:ID:       rhmltnntlstnhn
 :END:
 ** [#C] [2020-03-09] #promnesia
 :PROPERTIES:
-:ID:       mnprmns
+:ID:       prmns
 :END:
 : GitHub - karlicoss/promnesia - Another piece of your extended mind
 
@@ -470,12 +470,12 @@ search on pinboard? or even axol..
 :END:
 ** TODO [#D] [2020-05-01] [[https://pinboard.in/t:eeg][Pinboard bookmarks tagged eeg]]
 :PROPERTIES:
-:ID:       frspnbrdntgpnbrdbkmrkstggdg
+:ID:       spnbrdntgpnbrdbkmrkstggdg
 :END:
 
 ** TODO [#D] [2020-05-01] [[https://pinboard.in/t:km][Pinboard bookmarks tagged km]] :pkm:
 :PROPERTIES:
-:ID:       frspnbrdntkmpnbrdbkmrkstggdkm
+:ID:       spnbrdntkmpnbrdbkmrkstggdkm
 :END:
 
 ** STRT [#B] memex? esp github                                        :memex:
@@ -495,7 +495,7 @@ search on pinboard? or even axol..
 :END:
 ** [#D] [2019-10-01] tried aaxol for
 :PROPERTIES:
-:ID:       ttrdxlfr
+:ID:       trdxlfr
 :END:
 *** "pocket export"
 :PROPERTIES:
@@ -532,13 +532,13 @@ ugh, not sure how convenient it'd be to filter this shit
 :END:
 ** [#D] [2019-12-02] axol results for hackernews_pkm, rendered at 02 Dec 2019 11:05
 :PROPERTIES:
-:ID:       mnxlrsltsfrhckrnwspkmrndrdtdc
+:ID:       xlrsltsfrhckrnwspkmrndrdtdc
 :END:
 axol/summary/hackernews_pkm.html
 : Personal Knowledge database
 ** [#D] [2019-12-02] axol results for hackernews_pkm, rendered at 02 Dec 2019 11:05
 :PROPERTIES:
-:ID:       mnxlrsltsfrhckrnwspkmrndrdtdc
+:ID:       xlrsltsfrhckrnwspkmrndrdtdc
 :END:
 axol/summary/hackernews_pkm.html
 : Personal knowledge base
@@ -568,7 +568,7 @@ axol/summary/hackernews_pkm.html
 :END:
 *** [2019-06-15] eh, search is a bit weird...
 :PROPERTIES:
-:ID:       sthsrchsbtwrd
+:ID:       hsrchsbtwrd
 :END:
 
 
@@ -590,7 +590,7 @@ axol/summary/hackernews_pkm.html
 :END:
 *** [2019-07-20] eh, tried few queries and does't look that result appear that often...
 :PROPERTIES:
-:ID:       sthtrdfwqrsnddstlkthtrsltpprthtftn
+:ID:       htrdfwqrsnddstlkthtrsltpprthtftn
 :END:
 ** TODO [#C] World be great to search in comments               :axol:reddit:
 :PROPERTIES:
@@ -605,22 +605,22 @@ axol/summary/hackernews_pkm.html
 :END:
 *** [2019-07-28] not that many results on pkm/quantified self..
 :PROPERTIES:
-:ID:       snntthtmnyrsltsnpkmqntfdslf
+:ID:       ntthtmnyrsltsnpkmqntfdslf
 :END:
 *** [2019-07-28] more on spaced repetition and ted chiang
 :PROPERTIES:
-:ID:       snmrnspcdrpttnndtdchng
+:ID:       mrnspcdrpttnndtdchng
 :END:
 ** TODO [#C] [2019-07-28] Schedule - pushshift.io
 :PROPERTIES:
-:ID:       snschdlpshshft
+:ID:       schdlpshshft
 :END:
 https://pushshift.io/schedule/
 : Current Schedule
 :     April comments should be available around May 20 ,2018.
 ** TODO [#C] [2019-07-28] New API endpoint -- Now you can search comments! : redditdev
 :PROPERTIES:
-:ID:       snnwpndpntnwycnsrchcmmntsrddtdv
+:ID:       nwpndpntnwycnsrchcmmntsrddtdv
 :END:
 https://www.reddit.com/r/redditdev/comments/3fv8vv/new_api_endpoint_now_you_can_search_comments/
 : New API endpoint -- Now you can search comments!
@@ -631,13 +631,13 @@ https://www.reddit.com/r/redditdev/comments/3fv8vv/new_api_endpoint_now_you_can_
 :END:
 ** [#C] [2019-12-28] Search Reddit Comments by User
 :PROPERTIES:
-:ID:       stsrchrddtcmmntsbysr
+:ID:       srchrddtcmmntsbysr
 :END:
 https://redditcommentsearch.com/
 : Search through comments of a particular reddit user.
 ** TODO [#C] [2020-01-11] pushshift/api: Pushshift API
 :PROPERTIES:
-:ID:       stpshshftppshshftp
+:ID:       pshshftppshshftp
 :END:
 https://github.com/pushshift/api
 
@@ -648,13 +648,13 @@ https://github.com/pushshift/api
 :END:
 ** [#C] [2019-12-01] Pushshift Reddit Search                  :reddit:scrape:
 :PROPERTIES:
-:ID:       snpshshftrddtsrch
+:ID:       pshshftrddtsrch
 :END:
 https://redditsearch.io/?term=beepb00p.xyz&dataviz=false&aggs=false&subreddits=&searchtype=posts,comments&search=true&start=0&end=1575221715&size=100
 
 ** [#C] [2019-12-15] hacker-news-favorites-api/main.js at master · reactual/hacker-news-favorites-api
 :PROPERTIES:
-:ID:       snhckrnwsfvrtspmnjstmstrrctlhckrnwsfvrtsp
+:ID:       hckrnwsfvrtspmnjstmstrrctlhckrnwsfvrtsp
 :END:
 https://github.com/reactual/hacker-news-favorites-api/blob/master/src/main.js
 : const x = require('x-ray')()
@@ -662,7 +662,7 @@ https://github.com/reactual/hacker-news-favorites-api/blob/master/src/main.js
 hmm, it's got 'paginate'?
 ** TODO [#B] [2020-05-18] [[https://hypothes.is/search?q=beepb00p.xyz][Hypothesis]]
 :PROPERTIES:
-:ID:       mnshypthsssrchqbpbpxyzhypthss
+:ID:       shypthsssrchqbpbpxyzhypthss
 :END:
 eh need to run orger I guess? or axol!
 
@@ -674,7 +674,7 @@ eh need to run orger I guess? or axol!
 also use more generic hooks?
 ** [2020-05-03] [[https://grep.app/search?q=import%20my%5C..%2A%24&regexp=true&filter[lang][0]=Python][import my\..*$ - grep.app]]
 :PROPERTIES:
-:ID:       snsgrpppsrchqmprtmycrgxptrfltrlngpythnmprtmygrppp
+:ID:       sgrpppsrchqmprtmycrgxptrfltrlngpythnmprtmygrppp
 :END:
 * [#C] CI/testing
 :PROPERTIES:
@@ -711,12 +711,12 @@ Not sure if I should overwrite or update? Could decide later and query with uniq
 :END:
 * TODO [#B] [2020-11-21] [[https://news.ycombinator.com/item?id=25161117][Show HN: I made an alternative to Google Alerts that listens to social media]]
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmdshwhnmdntvtggllrtsthtlstnstsclmd
+:ID:       snwsycmbntrcmtmdshwhnmdnlntvtggllrtsthtlstnstsclmd
 :END:
 https://www.pmalerts.com/
 ** [2020-12-05] eh, demands to register etc
 :PROPERTIES:
-:ID:       sthdmndstrgstrtc
+:ID:       hdmndstrgstrtc
 :END:
 * STRT [#C] shit, seems that the timestamps are wrong and also I got the link wrong
 :PROPERTIES:
@@ -736,7 +736,7 @@ might need to work on this: axol/databases/twitter_extended_mind.sqlite
 :END:
 ** [2019-06-15] yeah, need to make this bit more effecient..
 :PROPERTIES:
-:ID:       styhndtmkthsbtmrffcnt
+:ID:       yhndtmkthsbtmrffcnt
 :END:
 * STRT [#C] maybe, summary and 'rendered' are really sort of the same page? just different sorting...
 :PROPERTIES:
@@ -810,19 +810,19 @@ Can Google’s AI-powered Clips make people care about lifelogging? http://ift.t
 :END:
 ** [2019-12-02] hmmm. actually could do it in a twitter account??
 :PROPERTIES:
-:ID:       mnhmmmctllyclddtntwttrccnt
+:ID:       hmmmctllyclddtntwttrccnt
 :END:
 ** TODO [2019-12-04] could ask on HN?                                :outbox:
 :PROPERTIES:
-:ID:       wdcldsknhn
+:ID:       cldsknhn
 :END:
 ** [2019-12-04] or RSS?  https://github.com/awesome-selfhosted/awesome-selfhosted#feed-readers
 :PROPERTIES:
-:ID:       wdrrsssgthbcmwsmslfhstdwsmslfhstdfdrdrs
+:ID:       rrsssgthbcmwsmslfhstdwsmslfhstdfdrdrs
 :END:
 * TODO [#C] [2019-12-24] Edit Feed: beepb00p.xyz - Miniflux
 :PROPERTIES:
-:ID:       tdtfdbpbpxyzmnflx
+:ID:       dtfdbpbpxyzmnflx
 :END:
 https://axol.karlicoss.xyz/feed/56/edit
 : Scraper Rules
@@ -832,7 +832,7 @@ https://axol.karlicoss.xyz/feed/56/edit
 
 * TODO [#C] [2019-12-24] Command Line Usage - Documentation
 :PROPERTIES:
-:ID:       tcmmndlnsgdcmnttn
+:ID:       cmmndlnsgdcmnttn
 :END:
 https://miniflux.app/docs/cli.html
 : miniflux -config-file /etc/miniflux.conf
@@ -843,7 +843,7 @@ https://miniflux.app/docs/cli.html
 :END:
 * [#C] [2020-05-27] [[https://news.ycombinator.com/item?id=23321646][Axol: Personal automatic news feed – crawl Reddit/Twitter/HN and read as RSS | Hacker News]]
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdxlprsnlddttwttrhnndrdsrsshckrnws
+:ID:       snwsycmbntrcmtmdxlprsnltmddttwttrhnndrdsrsshckrnws
 :END:
 
 * TODO [#C] perhaps redefine everything in entities? and have relations -- people, subreddits, urls, tags, etc
@@ -931,7 +931,7 @@ pinboard:tag:scottalexander
 :END:
 ** [2019-07-20] maybe, try to intersect known user's tags and see what they got in common?
 :PROPERTIES:
-:ID:       stmybtrytntrsctknwnsrstgsndswhtthygtncmmn
+:ID:       mybtrytntrsctknwnsrstgsndswhtthygtncmmn
 :END:
 
 * TODO [#D] running under docker results in /app/axol/js/sorttable
@@ -962,13 +962,13 @@ e.g. I crawled quite a bit of pokemon crap, would be good to filter it?
 
 * [#C] [2019-04-15] Pinboard: network for karlicoss           :pinboard:axol:
 :PROPERTIES:
-:ID:       mnpnbrdntwrkfrkrlcss
+:ID:       pnbrdntwrkfrkrlcss
 :END:
 https://pinboard.in/network/
 shit... too many tweets. I need a way to filter the network...
 ** [2021-01-16] in fact it's the most common request to pinboard author apparently
 :PROPERTIES:
-:ID:       stnfcttsthmstcmmnrqsttpnbrdthrpprntly
+:ID:       nfcttsthmstcmmnrqsttpnbrdthrpprntly
 :END:
 * TODO [#C] spinboard: something's not right. e.g. try
 :PROPERTIES:
@@ -989,12 +989,12 @@ whereas chrome does show up 50 entries; but if you go to the second page they ar
 :END:
 * STRT [#D] [2019-11-06] classes — classes 0.1.0 documentation
 :PROPERTIES:
-:ID:       wdclsssclsssdcmnttn
+:ID:       clsssclsssdcmnttn
 :END:
 https://classes.readthedocs.io/en/latest/
 ** [2020-02-15] hmm, somethihg  I was trying to do in axol?...         :axol:
 :PROPERTIES:
-:ID:       sthmmsmthhgwstryngtdnxl
+:ID:       hmmsmthhgwstryngtdnxl
 :END:
 
 * doesn't look active. all top results are from 2017            :axol:upspin:
@@ -1004,12 +1004,12 @@ https://classes.readthedocs.io/en/latest/
 :END:
 * STRT [#D] [2019-09-04] ScriptSmith/socialreaper: Social media scraping / data collection library for Facebook, Twitter, Reddit, YouTube, Pinterest, and Tumblr APIs :reddit:scrape:axol:
 :PROPERTIES:
-:ID:       wdscrptsmthsclrprsclmdscrttrrddtytbpntrstndtmblrps
+:ID:       scrptsmthsclrprsclmdscrpnttrrddtytbpntrstndtmblrps
 :END:
 https://github.com/ScriptSmith/socialreaper
 : Reddit
 : Get the top 10 comments from the top 50 threads of all time on reddit
 ** [#C] [2020-05-16] ok, seems to be using real APIs, so overall I'm skeptical. but it's got a nice panel for tokens :exports:jdoe:
 :PROPERTIES:
-:ID:       stksmstbsngrlpssvrllmskptclbttsgtncpnlfrtkns
+:ID:       ksmstbsngrlpssvrllmskptclbttsgtncpnlfrtkns
 :END:

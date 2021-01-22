@@ -7,18 +7,18 @@
 :END:
 * STRT [#A] [2019-12-23] [[https://reddit.com/r/emacs/comments/eemb76/what_feature_of_emacs_you_tried_in_2019_and_now/fbuoo9s/][What feature of emacs you tried in 2019 and now you can't live without?]] /r/emacs :setup:
 :PROPERTIES:
-:ID:       mnsrddtcmrmcscmmntsmbwhtfcsytrdnndnwycntlvwthtrmcs
+:ID:       srddtcmrmcscmmntsmbwhtftrcsytrdnndnwycntlvwthtrmcs
 :END:
 :  helm -- it's like it reads my mind of what file, buffer, command, etc that I want
 :  pytest-one and pytest-all -- easy  way  to run your python tests (in pytest, of course)
 :  direnv-mode -- a .envrc file has become my emacs config
 ** [2020-02-28] hmm, what could I use direnv for?
 :PROPERTIES:
-:ID:       frhmmwhtcldsdrnvfr
+:ID:       hmmwhtcldsdrnvfr
 :END:
 * TODO [#D] [2019-05-18] [[https://reddit.com/r/spacemacs/comments/bnlgkv/refactoring_in_spacemacs_using_iedit_and_helmedit/][Refactoring in Spacemacs using iedit and helm-edit]] /r/spacemacs
 :PROPERTIES:
-:ID:       stsrddtcmrspcmcscmmntsbnlspcmcssngdtndhlmdtrspcmcs
+:ID:       srddtcmrspcmcscmmntsbnlgkspcmcssngdtndhlmdtrspcmcs
 :END:
 * TODO [#B] [2020-01-30] deadgrep                                       :pkm:
 :PROPERTIES:
@@ -40,7 +40,7 @@ https://beepb00p.xyz/pkm-search.html
 :END:
 ** [2020-10-13] ok, limit line width?
 :PROPERTIES:
-:ID:       tklmtlnwdth
+:ID:       klmtlnwdth
 :END:
 * TODO [#B] need to hack on to prevent reordering etc I guess helm-rg--helm-pattern-to-ripgrep-regexp
 :PROPERTIES:
@@ -49,13 +49,13 @@ https://beepb00p.xyz/pkm-search.html
 :END:
 * TODO [#C] [2019-09-05] Deft for Emacs
 :PROPERTIES:
-:ID:       thdftfrmcs
+:ID:       dftfrmcs
 :END:
 https://jblevins.org/projects/deft
 : Deft is an Emacs mode for quickly browsing, filtering, and editing directories of plain text notes, inspired by Notational Velocity. It was designed for increased productivity when writing and taking notes by making it fast and simple to find the right file at the right time and by automating many of the usual tasks such as creating new files and saving files.
 * [#C] [2019-12-26] cask/cask: Project management tool for Emacs
 :PROPERTIES:
-:ID:       thcskcskprjctmngmnttlfrmcs
+:ID:       cskcskprjctmngmnttlfrmcs
 :END:
 https://github.com/cask/cask
 : Cask is a project management tool for Emacs that helps automate the package development cycle; development, dependencies, testing, building, packaging and more.
@@ -96,7 +96,7 @@ I haven't tried it with docker, but you can chain tramp hops:
 :END:
 * STRT [#B] [2018-12-26] millejoh/emacs-ipython-notebook: Jupyter notebook client in Emacs
 :PROPERTIES:
-:ID:       wdmlljhmcspythnntbkjpytrntbkclntnmcs
+:ID:       mlljhmcspythnntbkjpytrntbkclntnmcs
 :END:
 https://github.com/millejoh/emacs-ipython-notebook
 * TODO [#C] Tweet from ¬¬(Dan Piponi) (@sigfpe), at May 31, 22:14
@@ -116,25 +116,25 @@ https://twitter.com/sigfpe/status/1134568962140753920
 :END:
 * TODO [#C] [2019-09-01] emacs-tw/awesome-emacs: A community driven list of useful Emacs packages, libraries and others.
 :PROPERTIES:
-:ID:       snmcstwwsmmcscmmntydrvnlstfsflmcspckgslbrrsndthrs
+:ID:       mcstwwsmmcscmmntydrvnlstfsflmcspckgslbrrsndthrs
 :END:
 https://github.com/emacs-tw/awesome-emacs
 
 * TODO [#C] [2019-09-02] noctuid/evil-guide: Draft of a guide for using emacs with evil
 :PROPERTIES:
-:ID:       mnnctdvlgddrftfgdfrsngmcswthvl
+:ID:       nctdvlgddrftfgdfrsngmcswthvl
 :END:
 https://github.com/noctuid/evil-guide
 : emacs-state-ma
 * TODO [#C] [2019-07-30] EmacsConf 2019 - Call for Proposals
 :PROPERTIES:
-:ID:       tmcscnfcllfrprpsls
+:ID:       mcscnfcllfrprpsls
 :END:
 https://emacsconf.org/2019/cfp
 
 * TODO [#C] [2019-10-18] [[https://reddit.com/r/emacs/comments/djfh3t/emacsconf_2019_schedule/][EmacsConf 2019 Schedule]] /r/emacs :watch:
 :PROPERTIES:
-:ID:       frsrddtcmrmcscmmntsdjfhtmcscnfschdlmcscnfschdlrmcs
+:ID:       srddtcmrmcscmmntsdjfhtmcscnfschdlmcscnfschdlrmcs
 :END:
 
 * TODO [#C] ein is adding some metadata?? wtf?                      :ipython:
@@ -160,14 +160,14 @@ https://emacsconf.org/2019/cfp
 :END:
 * TODO [#C] [2019-12-23] [[https://reddit.com/r/emacs/comments/eemb76/what_feature_of_emacs_you_tried_in_2019_and_now/][What feature of emacs you tried in 2019 and now you can't live without?]] /r/emacs
 :PROPERTIES:
-:ID:       mnsrddtcmrmcscmmntsmbwhtfcsytrdnndnwycntlvwthtrmcs
+:ID:       srddtcmrmcscmmntsmbwhtftrcsytrdnndnwycntlvwthtrmcs
 :END:
 :  Modes, packages, themes, starter-kits you tried this year which blown you away.
 : 
 :  Mine: emacs itself
 * TODO [#C] [2019-10-20] Enabling helm-follow-mode on a per-command basis. · Issue 2006 · emacs-helm/helm
 :PROPERTIES:
-:ID:       snnblnghlmfllwmdnprcmmndbssssmcshlmhlm
+:ID:       nblnghlmfllwmdnprcmmndbssssmcshlmhlm
 :END:
 https://github.com/emacs-helm/helm/issues/2006
 : We have helm-moccur and helm-occur perfectly integrated in helm, faster
@@ -175,13 +175,13 @@ https://github.com/emacs-helm/helm/issues/2006
 : that you can configure it to behave like helm-swoop.
 * TODO [#C] [2020-01-03] MatthewZMD/.emacs.d: M-EMACS, a customized full-featured GNU Emacs configuration
 :PROPERTIES:
-:ID:       frmtthwzmdmcsdmmcscstmzdfllftrdgnmcscnfgrtn
+:ID:       mtthwzmdmcsdmmcscstmzdfllftrdgnmcscnfgrtn
 :END:
 https://github.com/MatthewZMD/.emacs.d#org3642bad
 : (fset 'yes-or-no-p 'y-or-n-p)
 * TODO [#C] [2019-12-29] Forge – Work with Git forges from the comfort of Magit | Hacker News
 :PROPERTIES:
-:ID:       snfrgwrkwthgtfrgsfrmthcmfrtfmgthckrnws
+:ID:       frgwrkwthgtfrgsfrmthcmfrtfmgthckrnws
 :END:
 https://news.ycombinator.com/item?id=19137353
 : That's so true! Emacs has got some modern and really well crafted packages during last decade (e.g. Magit, Org or Notmuch). It's a really interesting and vibrant platform right now. I have high hopes for lsp-mode.
@@ -222,12 +222,12 @@ but multiple dirs aren't working. spent 20 minutes trying to figure out how it's
 :END:
 * STRT [#C] [2019-09-28] eli-oat/pillow-fort.org: A literate emacs configuration :literate:
 :PROPERTIES:
-:ID:       stltpllwfrtrgltrtmcscnfgrtn
+:ID:       ltpllwfrtrgltrtmcscnfgrtn
 :END:
 https://github.com/eli-oat/pillow-fort.org
 * STRT [#C] [2019-09-07] raxod502/el-patch: ✨ Future-proof your Emacs Lisp customizations! :setup:
 :PROPERTIES:
-:ID:       strxdlptchftrprfyrmcslspcstmztns
+:ID:       rxdlptchftrprfyrmcslspcstmztns
 :END:
 https://github.com/raxod502/el-patch
 : Why does it exist
@@ -235,13 +235,13 @@ https://github.com/raxod502/el-patch
 : Such a situation is not ideal, since the original definition of the function might change when you update Emacs or one of its packages, and your overridden version would then be outdated. This could prevent you from benefitting from bugfixes made to the original function, or introduce new bugs into your configuration. Even worse, there is no way to tell when the original definition has changed! The correctness of your configuration is basically based on faith.
 * [#C] [2019-11-03] Ambrevar / emacs-gif-screencast · GitLab
 :PROPERTIES:
-:ID:       snmbrvrmcsgfscrncstgtlb
+:ID:       mbrvrmcsgfscrncstgtlb
 :END:
 https://gitlab.com/ambrevar/emacs-gif-screencast
 
 * [#C] [2019-11-08] Whats your emacs setup like ? | Lobsters           :blog:
 :PROPERTIES:
-:ID:       frwhtsyrmcsstplklbstrs
+:ID:       whtsyrmcsstplklbstrs
 :END:
 https://lobste.rs/s/754vk6/whats_your_emacs_setup_like
 : I have an extensive literate configuration that configures many different subsystems, changes many default, etc. It’s rather verbose, but I hope it’s written in a way that even someone with minimal experiences my understand. I loosely inspired, but shorter and simpler configuration be found here (but watch out, the comments are in German!).
@@ -265,7 +265,7 @@ find-function-C-source-directory
 ugh couldn't find in apt
 * [#C] [2020-01-03] (Officially) Introducing M-EMACS ;) : emacs
 :PROPERTIES:
-:ID:       frffcllyntrdcngmmcsmcs
+:ID:       ffcllyntrdcngmmcsmcs
 :END:
 https://www.reddit.com/r/emacs/comments/eewwyh/officially_introducing_memacs/
 :     add-to-list
@@ -288,19 +288,19 @@ https://www.reddit.com/r/emacs/comments/eewwyh/officially_introducing_memacs/
 :END:
 * [#C] [2020-02-28] MatthewZMD/.emacs.d: M-EMACS, a customized full-featured GNU Emacs configuration
 :PROPERTIES:
-:ID:       frmtthwzmdmcsdmmcscstmzdfllftrdgnmcscnfgrtn
+:ID:       mtthwzmdmcsdmmcscstmzdfllftrdgnmcscnfgrtn
 :END:
 https://github.com/MatthewZMD/.emacs.d#snails
 : Snails, a fuzzy search framework
 * [#C] [2020-02-28] bbatsov/super-save: Save Emacs buffers when they lose focus
 :PROPERTIES:
-:ID:       frbbtsvsprsvsvmcsbffrswhnthylsfcs
+:ID:       bbtsvsprsvsvmcsbffrswhnthylsfcs
 :END:
 https://github.com/bbatsov/super-save
 : super-save auto-saves your buffers, when certain events happen - e.g. you switch between buffers, an Emacs frame loses focus, etc.
 * TODO [#C] [2020-02-28] MatthewZMD/.emacs.d: M-EMACS, a customized full-featured GNU Emacs configuration
 :PROPERTIES:
-:ID:       frmtthwzmdmcsdmmcscstmzdfllftrdgnmcscnfgrtn
+:ID:       mtthwzmdmcsdmmcscstmzdfllftrdgnmcscnfgrtn
 :END:
 https://github.com/MatthewZMD/.emacs.d#super-save
 :  (recentf-exclude '((expand-file-name package-user-dir)
@@ -326,7 +326,7 @@ use. map SPC s f?
 : (helm-locate-with-db "/tmp/locate.db")
 * [#C] [2020-04-12] How do I prevent messages from showing in the minibuffer? · Issue 2878 · hlissner/doom-emacs
 :PROPERTIES:
-:ID:       snhwdprvntmssgsfrmshwngnthmnbffrsshlssnrdmmcs
+:ID:       hwdprvntmssgsfrmshwngnthmnbffrsshlssnrdmmcs
 :END:
 https://github.com/hlissner/doom-emacs/issues/2878
 : What have you tried?
@@ -335,7 +335,7 @@ https://github.com/hlissner/doom-emacs/issues/2878
 : ivy. However, I'm still seeing the GC me
 * [#C] [2020-05-07] [[https://www.emacswiki.org/emacs/CategoryExtensionLanguage][EmacsWiki: Category Extension Language]]
 :PROPERTIES:
-:ID:       thswwwmcswkrgmcsctgryxtnsnlnggmcswkctgryxtnsnlngg
+:ID:       swwwmcswkrgmcsctgryxtnsnlnggmcswkctgryxtnsnlngg
 :END:
 * TODO [#C] hmm maybe highlight closing parens less than opening? not sure :elisp:
 :PROPERTIES:
@@ -344,7 +344,7 @@ https://github.com/hlissner/doom-emacs/issues/2878
 :END:
 * [#C] [2020-02-28] MatthewZMD/.emacs.d: M-EMACS, a customized full-featured GNU Emacs configuration
 :PROPERTIES:
-:ID:       frmtthwzmdmcsdmmcscstmzdfllftrdgnmcscnfgrtn
+:ID:       mtthwzmdmcsdmmcscstmzdfllftrdgnmcscnfgrtn
 :END:
 https://github.com/MatthewZMD/.emacs.d
 : (Optional) On Ubuntu, emacs-snapshot is a great way to get latest version of Emacs.
@@ -359,13 +359,13 @@ https://github.com/MatthewZMD/.emacs.d
 :END:
 * [#C] [2020-01-10] alphapapa/makem.sh: Makefile-like script for building and testing Emacs Lisp packages
 :PROPERTIES:
-:ID:       frlphppmkmshmkfllkscrptfrbldngndtstngmcslsppckgs
+:ID:       lphppmkmshmkfllkscrptfrbldngndtstngmcslsppckgs
 :END:
 https://github.com/alphapapa/makem.sh
 : Makefile-like script for building and testing Emacs Lisp packages
 * TODO [#C] [2020-02-24] doom-emacs/api.org at develop · hlissner/doom-emacs :doom:
 :PROPERTIES:
-:ID:       mndmmcsprgtdvlphlssnrdmmcs
+:ID:       dmmcsprgtdvlphlssnrdmmcs
 :END:
 https://github.com/hlissner/doom-emacs/blob/develop/docs/api.org
 : after!
@@ -373,13 +373,13 @@ https://github.com/hlissner/doom-emacs/blob/develop/docs/api.org
 what's the difference from with-eval-after-load
 * [#C] [2020-02-24] doom-emacs/index.org at develop · hlissner/doom-emacs
 :PROPERTIES:
-:ID:       mndmmcsndxrgtdvlphlssnrdmmcs
+:ID:       dmmcsndxrgtdvlphlssnrdmmcs
 :END:
 https://github.com/hlissner/doom-emacs/blob/develop/docs/index.org
 : Doom is a configuration framework for GNU Emacs 26.3+ tailored for Emacs bankruptcy veterans who want less framework in their frameworks and the performance of a hand rolled config (or better). It can be a foundation for your own config or a resource for Emacs enthusiasts to learn more about our favorite OS.
 * [#C] [2020-03-14] manateelazycat/emacs-application-framework: Emacs application framework
 :PROPERTIES:
-:ID:       stmntlzyctmcspplctnfrmwrkmcspplctnfrmwrk
+:ID:       mntlzyctmcspplctnfrmwrkmcspplctnfrmwrk
 :END:
 https://github.com/manateelazycat/emacs-application-framework
 : EAF is a GUI application framework that revolutionizes Emacs graphical capabilities to ultimately Live in Emacs.
@@ -397,7 +397,7 @@ hmm nice apparently you can write non-elisp code and easily intergrate?
 :END:
 ** [2020-06-19] maybe in title??
 :PROPERTIES:
-:ID:       frmybnttl
+:ID:       mybnttl
 :END:
 * TODO [#D] tramp hangs while sending password                        :setup:
 :PROPERTIES:
@@ -447,7 +447,7 @@ https://www.youtube.com/watch?v=B39tFs2ifHg
 :END:
 * [#D] [2018-11-05] alphapapa/org-ql: An Org query language, and experimental code for a next-generation Org Agenda
 :PROPERTIES:
-:ID:       mnlphpprgqlnrgqrylnggndxprmntlcdfrnxtgnrtnrggnd
+:ID:       lphpprgqlnrgqrylnggndxprmntlcdfrnxtgnrtnrggnd
 :END:
 https://github.com/alphapapa/org-ql
 * TODO [#D] try skeletor
@@ -496,7 +496,7 @@ vaB -- select block
 
 * [#D] [2019-09-04] kunalb/poet: An emacs theme that's well suited for modes using variable pitch: particularly org-mode and markdown-mode.
 :PROPERTIES:
-:ID:       wdknlbptnmcsthmthtswllstdtchprtclrlyrgmdndmrkdwnmd
+:ID:       knlbptnmcsthmthtswllstdfrtchprtclrlyrgmdndmrkdwnmd
 :END:
 https://github.com/kunalb/poet
 
@@ -522,7 +522,7 @@ https://github.com/kunalb/poet
 :END:
 * [#D] [2019-10-31] camcorder.el - Creating Animated Gifs & Videos for Spacemacs | jr0cket
 :PROPERTIES:
-:ID:       thcmcrdrlcrtngnmtdgfsvdsfrspcmcsjrckt
+:ID:       cmcrdrlcrtngnmtdgfsvdsfrspcmcsjrckt
 :END:
 http://jr0cket.co.uk/2017/01/spacemacs-creating-animated-gifs-videos.html
 : camcorder.el - Creating Animated Gifs & Videos for Spacemacs
@@ -530,13 +530,13 @@ http://jr0cket.co.uk/2017/01/spacemacs-creating-animated-gifs-videos.html
 
 * TODO [#D] [2019-12-20] belak/emacs-grayscale-theme
 :PROPERTIES:
-:ID:       frblkmcsgrysclthm
+:ID:       blkmcsgrysclthm
 :END:
 https://github.com/belak/emacs-grayscale-theme
 
 * TODO [#D] [2019-12-20] Whats your emacs setup like ? | Lobsters
 :PROPERTIES:
-:ID:       frwhtsyrmcsstplklbstrs
+:ID:       whtsyrmcsstplklbstrs
 :END:
 https://lobste.rs/s/754vk6/whats_your_emacs_setup_like
 
@@ -547,7 +547,7 @@ https://lobste.rs/s/754vk6/whats_your_emacs_setup_like
 :END:
 * [#D] [2018-11-06] narendraj9/hledger-mode: An Emacs major mode for Hledger
 :PROPERTIES:
-:ID:       tnrndrjhldgrmdnmcsmjrmdfrhldgr
+:ID:       nrndrjhldgrmdnmcsmjrmdfrhldgr
 :END:
 https://github.com/narendraj9/hledger-mode
 
@@ -577,7 +577,7 @@ Perhaps I should switch to thunderbird? Not sure what is used real world TODO?
 
 * [#D] [2020-01-03] (Officially) Introducing M-EMACS ;) : emacs
 :PROPERTIES:
-:ID:       frffcllyntrdcngmmcsmcs
+:ID:       ffcllyntrdcngmmcsmcs
 :END:
 https://www.reddit.com/r/emacs/comments/eewwyh/officially_introducing_memacs/
 :     add-hook
@@ -589,7 +589,7 @@ https://www.reddit.com/r/emacs/comments/eewwyh/officially_introducing_memacs/
 :END:
 * [#D] [2020-05-01] [[https://lobste.rs/s/qkpwpa/on_usability_editable_software][on the usability of editable software | Lobsters]]
 :PROPERTIES:
-:ID:       frslbstrssqkpwpnsbltydtblrnthsbltyfdtblsftwrlbstrs
+:ID:       slbstrssqkpwpnsbltydtblsfrnthsbltyfdtblsftwrlbstrs
 :END:
 : 
 : emoses avatar emoses 2 hours ago | link |
@@ -787,11 +787,11 @@ maybe swap a and A? note sure
 https://github.com/raxod502/straight.el#comparison-to-packageel
 * [#C] [2020-07-06] [[https://github.com/shrysr/.emacs.d/blob/7e8514c98b63724ad0e97b8b3c56b96d00d56b7f/index.md][.emacs.d/index.md at 7e8514c98b63724ad0e97b8b3c56b96d00d56b7f · shrysr/.emacs.d]]
 :PROPERTIES:
-:ID:       mnsgthbcmshrysrmcsdblbcbdxmdtcbdbbcbddbfshrysrmcsd
+:ID:       sgthbcmshrysrmcsdblbcbdbbxmdtcbdbbcbddbfshrysrmcsd
 :END:
 * [#C] [2020-07-06] [[https://github.com/shrysr/.emacs.d/blob/7e8514c98b63724ad0e97b8b3c56b96d00d56b7f/emacs-config.org][.emacs.d/emacs-config.org at 7e8514c98b63724ad0e97b8b3c56b96d00d56b7f · shrysr/.emacs.d]]
 :PROPERTIES:
-:ID:       mnsgthbcmshrysrmcsdblbcbdgrgtcbdbbcbddbfshrysrmcsd
+:ID:       sgthbcmshrysrmcsdblbcbdbbgrgtcbdbbcbddbfshrysrmcsd
 :END:
 * TODO [#C] idpb tty to emacs config??                                 :ipdb:
 :PROPERTIES:
@@ -803,7 +803,7 @@ https://github.com/raxod502/straight.el#comparison-to-packageel
 :     ipdb.set_trace()
 * [#C] [2019-10-06] My Emacs + Scimax configuration | Shreyas Ragavan
 :PROPERTIES:
-:ID:       snmymcsscmxcnfgrtnshrysrgvn
+:ID:       mymcsscmxcnfgrtnshrysrgvn
 :END:
 https://shrysr.github.io/docs/sr-config/
 : Swiper
@@ -816,25 +816,25 @@ I use swiper for a general search. However helm-swoop is awesome.
 :END:
 * TODO [#C] [2019-10-11] My Personal Emacs History
 :PROPERTIES:
-:ID:       frmyprsnlmcshstry
+:ID:       myprsnlmcshstry
 :END:
 https://karl-voit.at/2017/06/03/emacs-history/
 : My Personal Emacs History
 
 ** [2019-10-21] As a drawback, I sometimes seem to repel others when I start praising my setup. My long journey with Emacs did result in a personal cozy environment that normal computer users do not seem to understand any more. Therefore, I have to remember to suppress the urge of mentioning the virtues of my environment. I have to stick to mentioning only the ultimate basics when I promote Emacs to normal computer users. Which is a pity, in my opinion.
 :PROPERTIES:
-:ID:       mnsdrwbcksmtmssmtrplthrswrmlcmptrsrswhchsptynmypnn
+:ID:       sdrwbcksmtmssmtrplthrswhnrmlcmptrsrswhchsptynmypnn
 :END:
 huh, very similar experience
 
 * TODO [#B] [2020-12-09] [[https://lobste.rs/s/cocdgn/favorite_emacs_packages][Favorite Emacs Packages | Lobsters]]
 :PROPERTIES:
-:ID:       wdslbstrssccdgnfvrtmcspckgsfvrtmcspckgslbstrs
+:ID:       slbstrssccdgnfvrtmcspckgsfvrtmcspckgslbstrs
 :END:
 : deadgrep. When using counsel-rg gives to many results, deadgrep offers a very clean interface to view and navigate the results of a search. I especially love that by default it finds the root of the project (a Git project for example) so it DWIMs pretty well.
 * [#B] [2020-09-25] [[https://news.ycombinator.com/item?id=24593616][Toward a “Modern” Emacs]] :emacs:
 :PROPERTIES:
-:ID:       frsnwsycmbntrcmtmdtwrdmdrnmcs
+:ID:       snwsycmbntrcmtmdtwrdmdrnmcs
 :END:
 https://lwn.net/SubscriberLink/832311/03910e26a3f3e814/
 * TODO [#B] explore doom-snippets?                                   :python:
@@ -854,20 +854,20 @@ vim core/core-debug.el , (defvar spacemacs-debug-timer-threshold 0.05 to adjust
 ~emacs --debug-init --profile~ -- will create CPU and memory profile
 * [2020-03-24] Wilfred/helpful: A better Emacs *help* buffer          :emacs:
 :PROPERTIES:
-:ID:       twlfrdhlpflbttrmcshlpbffr
+:ID:       wlfrdhlpflbttrmcshlpbffr
 :END:
 https://github.com/Wilfred/helpful
 
 * [2019-11-15] Voice typing in emacs talk                   :dictation:emacs:
 :PROPERTIES:
-:ID:       frvctypngnmcstlk
+:ID:       vctypngnmcstlk
 :END:
 Main point I guess is using refactorings and modifiers (e.g. camel before saying car name)
 Optimizing the most common ops first
 
 * [#C] [2019-08-18] emacs-tw/awesome-emacs: A community driven list of useful Emacs packages, libraries and others. :emacs:
 :PROPERTIES:
-:ID:       snmcstwwsmmcscmmntydrvnlstfsflmcspckgslbrrsndthrs
+:ID:       mcstwwsmmcscmmntydrvnlstfsflmcspckgslbrrsndthrs
 :END:
 https://github.com/emacs-tw/awesome-emacs#readme
 
@@ -899,11 +899,11 @@ https://github.com/emacs-tw/awesome-emacs#readme
 : Anyways, enough babbling, feel free to [check it out](https://github.com/MatthewZMD/.emacs.d) during this holiday season :)
 ** [2020-02-28] good example of reasonable emacs configurations (althrough Doom has most of it)
 :PROPERTIES:
-:ID:       frgdxmplfrsnblmcscnfgrtnslthrghdmhsmstft
+:ID:       gdxmplfrsnblmcscnfgrtnslthrghdmhsmstft
 :END:
 * DONE [#B] [2019-09-06] emacsclient Options - GNU Emacs Manual       :emacs:
 :PROPERTIES:
-:ID:       frmcsclntptnsgnmcsmnl
+:ID:       mcsclntptnsgnmcsmnl
 :END:
 https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html
 : ‘--alternate-editor=command’
@@ -926,7 +926,7 @@ emacs-startup-hook
 
 * [2018-05-02] debugging flycheck problems: 'flycheck-compile' will show you the command :emacs:
 :PROPERTIES:
-:ID:       wddbggngflychckprblmsflychckcmplwllshwythcmmnd
+:ID:       dbggngflychckprblmsflychckcmplwllshwythcmmnd
 :END:
 * debugging                                                     :emacs:debug:
 :PROPERTIES:

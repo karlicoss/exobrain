@@ -13,7 +13,7 @@
 
 ** [2018-08-06] hmm, that could work given that I spontaneously wake up at 5am sometimes. However I need a bit more willpower to actually get up.
 :PROPERTIES:
-:ID:       mnhmmthtcldwrkgvnthtspntnhwvrndbtmrwllpwrtctllygtp
+:ID:       hmmthtcldwrkgvnthtspntnslhwvrndbtmrwllpwrtctllygtp
 :END:
 
 * STRT [#B] develop a system to estimate how well i slept        :scoring:qs:
@@ -48,7 +48,7 @@ unclear how to measure
 
 *** [2018-08-26] eh, doesn't work really well. almost always 1
 :PROPERTIES:
-:ID:       snhdsntwrkrllywlllmstlwys
+:ID:       hdsntwrkrllywlllmstlwys
 :END:
 *** 2 -- very high
 :PROPERTIES:
@@ -70,7 +70,7 @@ Unclear how to measure I guess binary is easiest, but expect to correlate with w
 
 *** [2018-08-26] doesn't work really well either, almost always 1
 :PROPERTIES:
-:ID:       sndsntwrkrllywllthrlmstlwys
+:ID:       dsntwrkrllywllthrlmstlwys
 :END:
 *** 2 -- extremely good
 :PROPERTIES:
@@ -150,12 +150,12 @@ ok, since higher is better, let it be like:
 :END:
 * [#B] [2018-08-28] Ученые рассчитали благоприятное для здоровья количество сна
 :PROPERTIES:
-:ID:       tученыерассчиталиблагоприедляздоровьяколичествосна
+:ID:       ученыерассчиталиблагоприяедляздоровьяколичествосна
 :END:
 
 * STRT [#B] [2018-10-03] Sleep - Biohacker's Handbook
 :PROPERTIES:
-:ID:       wdslpbhckrshndbk
+:ID:       slpbhckrshndbk
 :END:
 https://biohackingbook.com/bonus-materials/sleep/
 : Biohacher's handbook
@@ -192,7 +192,7 @@ https://biohackingbook.com/bonus-materials/sleep/
 :END:
 ** [2018-10-27] eh, not that much useful stuff.
 :PROPERTIES:
-:ID:       sthntthtmchsflstff
+:ID:       hntthtmchsflstff
 :END:
 * STRT [#B] Nap for 15 minutes? Or Google optimal length
 :PROPERTIES:
@@ -202,13 +202,13 @@ https://biohackingbook.com/bonus-materials/sleep/
 
 * [#B] [2018-10-27] Sweet Dreams On A Hard Surface: The Ergonomics Of Sleep - Carolina Morning Designs™
 :PROPERTIES:
-:ID:       stswtdrmsnhrdsrfcthrgnmcsfslpcrlnmrnngdsgns
+:ID:       swtdrmsnhrdsrfcthrgnmcsfslpcrlnmrnngdsgns
 :END:
 https://zafu.net/sleep-therapy/sleepergonomics
 
 * [#B] [2018-10-27] Throwing Out My Bed Woke Me Up – Personal Growth – Medium
 :PROPERTIES:
-:ID:       stthrwngtmybdwkmpprsnlgrwthmdm
+:ID:       thrwngtmybdwkmpprsnlgrwthmdm
 :END:
 https://medium.com/personal-growth/throwing-out-my-bed-woke-me-up-fa3c26b4c776
 
@@ -229,7 +229,7 @@ https://www.reddit.com/r/sleep/comments/6hs1nk/i_have_the_mutated_dec2_gene_allo
 
 ** [2018-10-27]  I think it should be irrelevant. no way it can make any actual difference to sleep quality
 :PROPERTIES:
-:ID:       stthnktshldbrrlvntnwytcnmknyctldffrnctslpqlty
+:ID:       thnktshldbrrlvntnwytcnmknyctldffrnctslpqlty
 :END:
 * STRT [#C] Estimate sleep by phone activity                    :qs:timeline:
 :PROPERTIES:
@@ -277,7 +277,7 @@ https://www.reddit.com/r/sleep/comments/6hs1nk/i_have_the_mutated_dec2_gene_allo
 
 * [#C] [2018-08-21] JGWol comments on ELI5: Why does heat make you sleepy?
 :PROPERTIES:
-:ID:       tjgwlcmmntsnlwhydshtmkyslpy
+:ID:       jgwlcmmntsnlwhydshtmkyslpy
 :END:
 https://www.reddit.com/r/explainlikeimfive/comments/22mty5/eli5_why_does_heat_make_you_sleepy/cgojqrg/
 : Your blood vessels are going to expand when the ambient temperature increases, causing decreased blood pressure throughout your body.. This means less blood flow, especially to the brain. The benefit to this of course is your body can cool down.
@@ -291,7 +291,7 @@ https://www.reddit.com/r/explainlikeimfive/comments/22mty5/eli5_why_does_heat_ma
 
 * [#C] [2019-04-23] Hillel on Twitter: "After 24 hours awake, novice software devs lost half of their dev skills: https://t.co/o8DRiXkWwM Chronically getting less than 7 hours of sleep causes dramatic degradation on all mental tests: https://t.co/2XIDdvgHHQ People can't tell when SD degrades their ability (ibid)."
 :PROPERTIES:
-:ID:       thlllntwttrftrhrswknvcsftcnttllwhnsddgrdsthrbltybd
+:ID:       hlllntwttrftrhrswknvcsftwcnttllwhnsddgrdsthrbltybd
 :END:
 https://twitter.com/hillelogram/status/1119709868833820677
 : Chronically getting less than 7 hours of sleep causes dramatic degradation on all mental tests: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2656292/ …
@@ -329,12 +329,12 @@ It generates a sleep score which I find pretty useless cause it mostly correlate
 
 * [#D] [2019-06-18] https://vk.com/@kurilka.gutenberga-plohie-geny-plohoi-son
 :PROPERTIES:
-:ID:       tsvkcmkrlkgtnbrgplhgnyplhsn
+:ID:       svkcmkrlkgtnbrgplhgnyplhsn
 :END:
 http://neuronovosti.ru/plohie-geny-plohoj-son/
 ** [2019-06-20] eh, doesn't look like they found any strong correlations
 :PROPERTIES:
-:ID:       thhdsntlklkthyfndnystrngcrrltns
+:ID:       hdsntlklkthyfndnystrngcrrltns
 :END:
 
 * https://www.gwern.net/Zeo                                  :qs:sleep:gwern:
@@ -427,7 +427,7 @@ http://neuronovosti.ru/plohie-geny-plohoj-son/
 :END:
 ** [#B] [2018-08-21] Pillow Guide | JYSK
 :PROPERTIES:
-:ID:       tpllwgdjysk
+:ID:       pllwgdjysk
 :END:
 https://jysk.co.uk/guide/pillow-guide
 :  A pillow that provides the correct support is a key factor in getting the best night's sleep possible. At JYSK you'll find pillows in two different heights: low and high. When selecting the pillow's height, keep in mind that your ideal sleeping position is one in which your spinal column is completely straight. Your preferred sleeping position should determine which height you should select.
@@ -465,12 +465,12 @@ https://jysk.co.uk/guide/pillow-guide
 :END:
 ** [2020-09-05] eh. I sleep with open windows all summer, probably doesn't matter
 :PROPERTIES:
-:ID:       sthslpwthpnwndwsllsmmrprbblydsntmttr
+:ID:       hslpwthpnwndwsllsmmrprbblydsntmttr
 :END:
 
 * [2018-11-26] maxcap comments on IsItBullshit: Sleeping with a hard mattress is better than a soft one
 :PROPERTIES:
-:ID:       mnmxcpcmmntsnstbllshtslpngwthhrdmttrsssbttrthnsftn
+:ID:       mxcpcmmntsnstbllshtslpngwthhrdmttrsssbttrthnsftn
 :END:
 https://www.reddit.com/r/IsItBullshit/comments/8rjo02/isitbullshit_sleeping_with_a_hard_mattress_is/e0rtxhb/ 
 :  It entirely depends on your predominant sleeping position. A hard mattress is awful for side sleepers:
@@ -512,7 +512,7 @@ https://www.reddit.com/r/IsItBullshit/comments/8rjo02/isitbullshit_sleeping_with
 
 ** [2019-01-24] huh that works pretty well actually..
 :PROPERTIES:
-:ID:       thhhthtwrksprttywllctlly
+:ID:       hhthtwrksprttywllctlly
 :END:
 * TODO День сурка
 :PROPERTIES:
@@ -534,7 +534,7 @@ https://www.reddit.com/r/IsItBullshit/comments/8rjo02/isitbullshit_sleeping_with
 :END:
 * [2019-07-22] N + 1 on Twitter: "Американские ученые, проведя метаанализ 13 работ, выяснили, что горячая (40–42 градуса Цельсия) ванна или душ перед сном помогает быстрее засыпать и спать дольше https://t.co/RQBcfWdW3q… https://t.co/hDI2bccrfj"
 :PROPERTIES:
-:ID:       mnnntwttrамериканскиеученшеstcrqbcfwdwqstchdbccrfj
+:ID:       nntwttrамериканскиеученыешеstcrqbcfwdwqstchdbccrfj
 :END:
 https://twitter.com/nplusodin/status/1153363362316791809
 : Американские ученые, проведя метаанализ 13 работ, выяснили, что горячая (40–42 градуса Цельсия) ванна или душ перед сном помогает быстрее засыпать и спать дольше
@@ -568,7 +568,7 @@ wonder how bad is mine then?
 :END:
 ** [2019-06-20] eh, not very googlable
 :PROPERTIES:
-:ID:       thhntvrygglbl
+:ID:       hntvrygglbl
 :END:
 
 * DONE https://vk.com/@kurilka.gutenberga-sovinoe-schaste-kak-pomoch-prosnutsya-utrom
@@ -578,7 +578,7 @@ wonder how bad is mine then?
 :END:
 ** [2019-06-20] 22 participants *eyeroll*
 :PROPERTIES:
-:ID:       thprtcpntsyrll
+:ID:       prtcpntsyrll
 :END:
 
 * DONE [#B] Try using weekly contacts to see if it would make me wake up easier? :sleep:
@@ -588,7 +588,7 @@ wonder how bad is mine then?
 :END:
 ** [2020-09-05] eh, don't think so
 :PROPERTIES:
-:ID:       sthdntthnks
+:ID:       hdntthnks
 :END:
 
 * TODO The question posed in the present headline was intentionally provocative. You cannot fall asleep faster, but you can fall asleep fast. All you need to do is to wait for the right time. Instead of trying to fall asleep faster, go to sleep later, and fall asleep fast.
@@ -625,7 +625,7 @@ None
 [[https://hyp.is/UNgRcgfsEeqFuxe_cKOKpw/guzey.com/books/why-we-sleep/][in context]]
 * [#C] [2020-01-31] Rooms can be as bright as the outdoors | Hacker News
 :PROPERTIES:
-:ID:       frrmscnbsbrghtsthtdrshckrnws
+:ID:       rmscnbsbrghtsthtdrshckrnws
 :END:
 https://news.ycombinator.com/item?id=21660718
 : benhurmarcel 62 days ago [-]
@@ -645,7 +645,7 @@ https://twitter.com/RabbiODrugz/status/1317971528588447744
 : Причина неизвестна https://t.co/EjyGnVmymB
 * [2020-09-17] [[https://turbomaze.github.io/28-hour-day/][28 Hour Day]]
 :PROPERTIES:
-:ID:       thstrbmzgthbhrdyhrdy
+:ID:       strbmzgthbhrdyhrdy
 :END:
 * TODO [#B] experiment with 6 "6 days week"? basically make sure mon-fri workdays are always captured, and just gradually shift?
 :PROPERTIES:
@@ -658,12 +658,12 @@ go to bed at 5-ish on monday and then sleep 20/8.
 only day when I sleep is friday (even that from 5 to 12, so ok)
 * STRT [#B] [2020-08-17] [[https://news.ycombinator.com/item?id=24170225][Not everyone needs 8 hours of sleep: new research]]
 :PROPERTIES:
-:ID:       mnsnwsycmbntrcmtmdntvrynndshrsfslpnwrsrch
+:ID:       snwsycmbntrcmtmdntvrynndshrsfslpnwrsrch
 :END:
 https://time.com/5876614/circadian-rhythm-study/
 ** [2020-09-06] eh, some interesting discussions in comments but nothing too actionable otherwise?
 :PROPERTIES:
-:ID:       snhsmntrstngdscssnsncmmntsbtnthngtctnblthrws
+:ID:       hsmntrstngdscssnsncmmntsbtnthngtctnblthrws
 :END:
 I wonder how I could wind myself down before sleep.. I already tried reading books but not sure
 * DONE [#B] Tweet from Kaare Mikkelsen (@dphys), at Nov 15, 13:58 :sleep:eeg:
@@ -678,17 +678,17 @@ I wonder how I could wind myself down before sleep.. I already tried reading boo
 https://twitter.com/dphys/status/1195083374257483776
 ** [2019-11-22] Finally, 19/20 subjects found that the ear-EEG had little to no negative effect on their sleep
 :PROPERTIES:
-:ID:       frfnllysbjctsfndthtthrghdlttltnngtvffctnthrslp
+:ID:       fnllysbjctsfndthtthrghdlttltnngtvffctnthrslp
 :END:
 * [2019-07-21] ELI5: Why does blue light make it hard to sleep? : explainlikeimfive
 :PROPERTIES:
-:ID:       snlwhydsbllghtmkthrdtslpxplnlkmfv
+:ID:       lwhydsbllghtmkthrdtslpxplnlkmfv
 :END:
 https://www.reddit.com/r/explainlikeimfive/comments/6rns4x/eli5_why_does_blue_light_make_it_hard_to_sleep/
 : There is basically no naturally occurring source of blue light aside from the sun. Our bodies adapted to start producing melatonin (a hormone that helps us sleep) only when we do not sense blue light
 * [2019-06-22] [[https://reddit.com/r/explainlikeimfive/comments/1eg3xn/eli5_why_do_i_always_wake_up_early_after_i_drink/c9zwqg6/][ELI5: Why do I always wake up early after I drink alcohol?]] /r/explainlikeimfive :alcohol:sleep:
 :PROPERTIES:
-:ID:       stsrddtcmrxplnlkmfvcmmntsprlyftrdrnklchlrxplnlkmfv
+:ID:       srddtcmrxplnlkmfvcmmntsgxprlyftrdrnklchlrxplnlkmfv
 :END:
 :  Alcohol is a depressant.  Your body tries to counteract the depressant by releasing stimulants.  Alcohol wins the race so you go to sleep.  However, your body processes the alcohol out of your system and you are left with the (longer-lasting) stimulants, which is why you wake up earlier.
 

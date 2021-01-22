@@ -3,12 +3,12 @@
 
 * TODO [#C] [2020-01-17] radicle                             :federation:vcs:
 :PROPERTIES:
-:ID:       frrdcl
+:ID:       rdcl
 :END:
 https://radicle.xyz/towards-decentralized-code-collaboration.html
 * [#C] [2020-03-21] MichaelMure/git-bug: Distributed, offline-first bug tracker embedded in git, with bridges :git:
 :PROPERTIES:
-:ID:       stmchlmrgtbgdstrbtdfflnfrstbgtrckrmbdddngtwthbrdgs
+:ID:       mchlmrgtbgdstrbtdfflnfrstbgtrckrmbdddngtwthbrdgs
 :END:
 https://github.com/MichaelMure/git-bug
 : Distributed, offline-first bug tracker embedded in git, with bridges
@@ -20,22 +20,22 @@ https://github.com/MichaelMure/git-bug
 :END:
 * STRT [#C] [2019-10-21] steve-vincent/awesome-decentralized: A curated list of decentralized, P2P (peer-to-peer), and distributed platforms and applications ("dapps").
 :PROPERTIES:
-:ID:       mnstvvncntwsmdcntrlzdcrtdtrbtdpltfrmsndpplctnsdpps
+:ID:       stvvncntwsmdcntrlzdcrtdlstrbtdpltfrmsndpplctnsdpps
 :END:
 https://github.com/steve-vincent/awesome-decentralized
 
 ** [2019-12-07] didn't find much interesting stuff?
 :PROPERTIES:
-:ID:       stddntfndmchntrstngstff
+:ID:       ddntfndmchntrstngstff
 :END:
 * STRT [#C] [2019-05-05] IPFS is the Distributed Web :selfhosted:decentralize:ipfs:
 :PROPERTIES:
-:ID:       snpfssthdstrbtdwb
+:ID:       pfssthdstrbtdwb
 :END:
 https://ipfs.io/#why
 * STRT [#C] [2019-10-21] kgryte/awesome-peer-to-peer: A list of peer-to-peer resources.
 :PROPERTIES:
-:ID:       mnkgrytwsmprtprlstfprtprrsrcs
+:ID:       kgrytwsmprtprlstfprtprrsrcs
 :END:
 https://github.com/kgryte/awesome-peer-to-peer
 * TODO [#D] Build p2p collaborative applications without any server infrastructure   https://github.com/automerge/hypermerge
@@ -45,7 +45,7 @@ https://github.com/kgryte/awesome-peer-to-peer
 :END:
 * [#B] [2019-04-17] [[https://reddit.com/r/Maps/comments/be3p32/alternative_to_google_maps/el32dfa/][Alternative to Google Maps?]] /r/Maps :degoogle:maps:osm:
 :PROPERTIES:
-:ID:       wdsrddtcmrmpscmmntsbpltrnglmpsldfltrntvtgglmpsrmps
+:ID:       srddtcmrmpscmmntsbpltrntvglmpsldfltrntvtgglmpsrmps
 :END:
 :  We on /r/openstreetmap made a list of websites that use OSM data. Maybe some of them are useful for you:
 :  **Maps**
@@ -97,13 +97,13 @@ https://github.com/kgryte/awesome-peer-to-peer
 :  * [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) - Wiki of the OSM project
 * TODO [#D] [2019-09-21] ipfs/awesome-ipfs: Useful resources for using IPFS and building things on top of it :ipfs:
 :PROPERTIES:
-:ID:       stpfswsmpfssflrsrcsfrsngpfsndbldngthngsntpft
+:ID:       pfswsmpfssflrsrcsfrsngpfsndbldngthngsntpft
 :END:
 https://github.com/ipfs/awesome-ipfs#readme
 
 * TODO [#C] [2019-12-07] WebRTC - Wikipedia
 :PROPERTIES:
-:ID:       stwbrtcwkpd
+:ID:       wbrtcwkpd
 :END:
 https://en.wikipedia.org/wiki/WebRTC
 : WebRTC (Web Real-Time Communication) is a free, open-source project that provides web browsers and mobile applications with real-time communication (RTC) via simple application programming interfaces (APIs). It allows audio and video communication to work inside web pages by allowing direct peer-to-peer communication
@@ -117,28 +117,28 @@ https://lobste.rs/s/ipc2wb/earthstar_offline_first_distributed
 
 * [2020-04-02] Tweet from @TheMagic_Ian https://twitter.com/TheMagic_Ian/status/1245580360743710721
 :PROPERTIES:
-:ID:       thtwtfrmthmgcnstwttrcmthmgcnstts
+:ID:       twtfrmthmgcnstwttrcmthmgcnstts
 :END:
 : @TheMagic_Ian: Stop using fake-secure, or insecure video conferencing apps like Zoom, Skype, Duo, HouseParty,  Facebook Messenger, Slack, Teams! Consider Jitsi or Matrix clients like Riot.
 * STRT [#C] [2019-11-05] The IndieWeb Movement: Owning Your Data and Being the Change You Want to See in the Web · Jamie Tanna | Software (Quality) Engineer
 :PROPERTIES:
-:ID:       tthndwbmvmntwnngyrdtndbngtsnthwbjmtnnsftwrqltyngnr
+:ID:       thndwbmvmntwnngyrdtndbngttsnthwbjmtnnsftwrqltyngnr
 :END:
 https://www.jvt.me/posts/2019/10/20/indieweb-talk
 ok, interesting, but that's again kind of reinventing new standard?
 ** [2019-12-03] https://indiewebify.me/validate-h-card/
 :PROPERTIES:
-:ID:       tsndwbfymvldthcrd
+:ID:       sndwbfymvldthcrd
 :END:
 : Other humans can already understand your profile information and the things you post on your site. By adding a few simple class names to your HTML, other people’s software can understand it and use it for things like reply contexts, cross-site comments, event RSVPs, and more.
 
 ** TODO [2019-12-03]  http://microformats.org/wiki/h-card#Properties
 :PROPERTIES:
-:ID:       tmcrfrmtsrgwkhcrdprprts
+:ID:       mcrfrmtsrgwkhcrdprprts
 :END:
 ** [2019-12-03] https://indiewebify.me/validate-h-entry/?url=https%3A%2F%2Fbeepb00p.xyz%2Fannotating.html
 :PROPERTIES:
-:ID:       tsndwbfymvldthntryrlsffbpbpxyzfnnttnghtml
+:ID:       sndwbfymvldthntryrlsffbpbpxyzfnnttnghtml
 :END:
 <article class="h-entry">
   <div class="e-content p-name">Hello world! This is my first indieweb post.</div>
@@ -164,12 +164,12 @@ https://twitter.com/wwwjim/status/1321940199769698304
 : You are your own ACL.
 * TODO [#C] [2019-06-27] FreedomBox/LeavingTheCloud - Debian Wiki :degoogle:decentralize:offline:
 :PROPERTIES:
-:ID:       thfrdmbxlvngthclddbnwk
+:ID:       frdmbxlvngthclddbnwk
 :END:
 https://wiki.debian.org/FreedomBox/LeavingTheCloud
 * [#C] [2020-02-27] ActivityPub, the secret weapon of the Fediverse | Hacker News :community:decentralize:
 :PROPERTIES:
-:ID:       thctvtypbthscrtwpnfthfdvrshckrnws
+:ID:       ctvtypbthscrtwpnfthfdvrshckrnws
 :END:
 https://news.ycombinator.com/item?id=22333994
 : slightwinder 12 days ago [-]
@@ -177,13 +177,13 @@ https://news.ycombinator.com/item?id=22333994
 : Small tribes have better control and more trust. Big crowds are lacking this for the individuals.
 * [#C] [2020-01-28] Three protocols and a future of the decentralized internet :decentralize:
 :PROPERTIES:
-:ID:       tthrprtclsndftrfthdcntrlzdntrnt
+:ID:       thrprtclsndftrfthdcntrlzdntrnt
 :END:
 https://blog.datproject.org/2019/03/22/three-protocols-and-a-future-of-the-decentralized-internet/
 
 * TODO [#B] [2020-01-06] John Backus on Twitter: "Interested in decentralization today? Learn what worked in the 2000s for p2p file sharing: ⚖️ Decentralization is a legal tactic used alongside activism ⌛ Decentralizing the wrong things is a waste of time ☠️ Decentralizing everything is suicide by bad UX Thread! 👇" / Twitter :federation:decentralize:
 :PROPERTIES:
-:ID:       mnjhnbcksntwttrntrstdndcnvrythngsscdbybdxthrdtwttr
+:ID:       jhnbcksntwttrntrstdndcntrvrythngsscdbybdxthrdtwttr
 :END:
 https://twitter.com/backus/status/1039701785789620224
 
@@ -197,12 +197,12 @@ How to they perform against each other?
 
 * [2018-07-04] Google                                              :degoogle:
 :PROPERTIES:
-:ID:       wdggl
+:ID:       ggl
 :END:
 https://www.reddit.com/r/YouShouldKnow/comments/6i2erz/ysk_that_google_tracks_everywhere_you_go_with/
 * TODO [#C] [2019-09-07] Federated architecture - Wikipedia
 :PROPERTIES:
-:ID:       stfdrtdrchtctrwkpd
+:ID:       fdrtdrchtctrwkpd
 :END:
 https://en.wikipedia.org/wiki/Federated_architecture
 
@@ -213,16 +213,16 @@ https://en.wikipedia.org/wiki/Federated_architecture
 https://homehack.nl/activitypub-the-secret-weapon-of-the-fediverse
 ** [2020-02-27] not much interesting in the discussion
 :PROPERTIES:
-:ID:       thntmchntrstngnthdscssn
+:ID:       ntmchntrstngnthdscssn
 :END:
 * [#C] [2019-11-21] dat:// — a peer-to-peer protocol
 :PROPERTIES:
-:ID:       thdtprtprprtcl
+:ID:       dtprtprprtcl
 :END:
 https://dat.foundation
 : dat:// — a peer-to-peer protocol
 : Community-driven project for distributed data synchronization
 ** [2019-11-21] ink & switch!!
 :PROPERTIES:
-:ID:       thnkswtch
+:ID:       nkswtch
 :END:

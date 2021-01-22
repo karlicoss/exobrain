@@ -169,11 +169,11 @@
 :END:
 * [2020-08-26] [[https://testtubegames.com/velocityraptor.html][Velocity Raptor | TestTubeGames]] :relativity:game:
 :PROPERTIES:
-:ID:       wdststtbgmscmvlctyrptrhtmlvlctyrptrtsttbgms
+:ID:       ststtbgmscmvlctyrptrhtmlvlctyrptrtsttbgms
 :END:
 * [2015-03-16] some special relativity notes                     :relativity:
 :PROPERTIES:
-:ID:       mnsmspclrltvtynts
+:ID:       smspclrltvtynts
 :END:
 - t'^2 = t^2 - x^2
 - The gravity on the poles in a bit larger than the gravity on the equator due to the centrifugal force.

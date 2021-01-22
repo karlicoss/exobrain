@@ -8,13 +8,13 @@ Related: #pkm, #lifelogging, #quantifiedself
 :END:
 ** [#A] [2020-03-07] [[https://hyfen.net/memex][Memex]] by Andrew Louis + [[https://www.youtube.com/watch?v=DFWxvQn4cf8][RubyConf 2018 talk]]
 :PROPERTIES:
-:ID:       stshyfnntmmxmmxbyndrwlsswcmwtchvdfwxvqncfrbycnftlk
+:ID:       shyfnntmmxmmxbyndrwlsswwwcmwtchvdfwxvqncfrbycnftlk
 :END:
 whoa, this is awesome
 he mentions the same problems I struggled with literally in the same words!
 ** [#B] [2020-05-25] [[https://memri.cloud][Memri]]: a very promising project with the focus on user data ownership and privacy
 :PROPERTIES:
-:ID:       mnsmmrcldmmrvryprmsngprjcththfcsnsrdtwnrshpndprvcy
+:ID:       smmrcldmmrvryprmsngprjctwththfcsnsrdtwnrshpndprvcy
 :END:
 
 * remembrance agents
@@ -25,14 +25,14 @@ he mentions the same problems I struggled with literally in the same words!
 
 ** STRT [#C] [2020-01-06] [[http://alumni.media.mit.edu/~rhodes/Papers/remembrance.html][Remembrance Agent: A continuously running automated information retrieval system (1997)]]
 :PROPERTIES:
-:ID:       mnlmnmdmtdrhdspprsrmmbrncrnnngtmtdnfrmtnrtrvlsystm
+:ID:       lmnmdmtdrhdspprsrmmbrnchtrnnngtmtdnfrmtnrtrvlsystm
 :END:
 This looks cool, but doesn't seem to work anymore?
 
 - [2019-12-28] [[https://news.ycombinator.com/item?id=4246330][The Remembrance Agent | Hacker News]]
 ** TODO [#C] [2020-04-28] [[https://github.com/remembrance-agent][A Desktop Remembrance Agent]]
 :PROPERTIES:
-:ID:       tsgthbcmrmmbrncgntdsktprmmbrncgnt
+:ID:       sgthbcmrmmbrncgntdsktprmmbrncgnt
 :END:
 : As you type, every five seconds the prior 60 characters of your keyboard buffer are sent to the RA. Suggestions are presented as clickable buttons
 
@@ -44,13 +44,13 @@ Ok, this looks pretty cool.. maybe need to contact them and discuss
 :END:
 ** TODO [#B] [2020-06-06] [[https://hyfen.net/memex/updates/bad-remembrance-machines][hyfen.net/memex/updates/bad-remembrance-machines]]
 :PROPERTIES:
-:ID:       stshyfnntmmxpdtsbdrmmbrncfnntmmxpdtsbdrmmbrncmchns
+:ID:       shyfnntmmxpdtsbdrmmbrncmcfnntmmxpdtsbdrmmbrncmchns
 :END:
 : This maps pretty well to the triplestore architecture that stores triples of subject-predicate-object
 
 ** [#B] [2019-12-03] [[https://jon.bo/posts/digital-tools/#a-centralized-search-interface-for-my-digital-brain-memex][Digital Tools I Wish Existed: A centralized search interface for my digital brain]] :jonbo:
 :PROPERTIES:
-:ID:       tsjnbpstsdgtltlscntrlzdsrtrlzdsrchntrfcfrmydgtlbrn
+:ID:       sjnbpstsdgtltlscntrlzdsrctrlzdsrchntrfcfrmydgtlbrn
 :END:
 : This tool should: accept and parse the following queries:
 :  spacex announcement type:video 2016
@@ -64,7 +64,7 @@ Ok, this looks pretty cool.. maybe need to contact them and discuss
 
 ** [#C] [2020-05-10] [[https://twitter.com/lehrjulian/status/1259526773236215814][lehrjulian/status/1259526773236215814]] :timeline:
 :PROPERTIES:
-:ID:       snstwttrcmlhrjlnsttslhrjlnstts
+:ID:       stwttrcmlhrjlnsttslhrjlnstts
 :END:
 : I like the idea of converting a calendar into a diary / life log by integrating different data layers.
 : Other layers I'd like to add:
@@ -81,7 +81,7 @@ Ok, this looks pretty cool.. maybe need to contact them and discuss
 :END:
 ** TODO [#B] [2020-05-28] [[https://twitter.com/karlicoss/status/1266090022123470851][karlicoss/status/1266090022123470851]]
 :PROPERTIES:
-:ID:       thstwttrcmkrlcsssttskrlcssstts
+:ID:       stwttrcmkrlcsssttskrlcssstts
 :END:
 : @karlicoss
 : I think I want to create some sort of community chat on the topic of knowledge management and tools around it, with the emphasis on interoperability, malleability, owning your data, local-first, org-mode etc.
@@ -96,7 +96,7 @@ Ok, this looks pretty cool.. maybe need to contact them and discuss
 - [2020-06-18] I want it to be a space to discuss configuration, and get detailed technical help etc. So needs to be more like an IM chat, with fine grained topics (so you can steer off a discussion without spamming everyone)
 *** [2021-01-04] sadly haven't had time to set up something so far, also wouldn't want to spawn more communities with large overlap
 :PROPERTIES:
-:ID:       mnsdlyhvnthdtmtstpsmthngsnttspwnmrcmmntswthlrgvrlp
+:ID:       sdlyhvnthdtmtstpsmthngsfrnttspwnmrcmmntswthlrgvrlp
 :END:
 Related:
 - [[https://malleable.systems][Malleable Systems Collective]] + Matrix chat
@@ -114,7 +114,7 @@ A huge downside of discords is that you can't engage with the information (e.g. 
 :END:
 ** TODO [#C] [2020-10-07] eh, would be really nice to have some sort of memex at this point :promnesia:memex:
 :PROPERTIES:
-:ID:       wdhwldbrllyncthvsmsrtfmmxtthspnt
+:ID:       hwldbrllyncthvsmsrtfmmxtthspnt
 :END:
 maybe it could have some basic core (e.g. with couchdb), and then used in different apps?
 e.g. promnesia uses it to jump and browse the history
@@ -131,10 +131,10 @@ https://twitter.com/mekarpeles/status/1271226785439428608
 
 * [#B] [2020-06-06] [[https://hyfen.net/memex/updates/bad-remembrance-machines][hyfen.net/memex/updates/bad-remembrance-machines]] :lifelogging:
 :PROPERTIES:
-:ID:       stshyfnntmmxpdtsbdrmmbrncfnntmmxpdtsbdrmmbrncmchns
+:ID:       shyfnntmmxpdtsbdrmmbrncmcfnntmmxpdtsbdrmmbrncmchns
 :END:
 
 * [#C] [2018-09-04] tesseract is best apparently? but couldn't handle elliptical photos.. :ocr:
 :PROPERTIES:
-:ID:       ttssrctsbstpprntlybtcldnthndlllptclphts
+:ID:       tssrctsbstpprntlybtcldnthndlllptclphts
 :END:

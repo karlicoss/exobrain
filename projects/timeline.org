@@ -9,12 +9,12 @@ Timeline is a simple attempt to display various life events as list. Sort of a s
 :END:
 ** [2018-08-06] It is useful to answer the question 'what were you doing' lately. Both to other people and yourself
 :PROPERTIES:
-:ID:       mntssfltnswrthqstnwhtwrydngltlybthtthrpplndyrslf
+:ID:       tssfltnswrthqstnwhtwrydngltlybthtthrpplndyrslf
 :END:
 
 ** [2018-08-06] I need better activity log to tell people about stuff. Hypothesis, goodreads, youtube
 :PROPERTIES:
-:ID:       mnndbttrctvtylgttllpplbtstffhypthssgdrdsytb
+:ID:       ndbttrctvtylgttllpplbtstffhypthssgdrdsytb
 :END:
 
 ** TODO [#C] use it for some sort of spaced repetition for the previous week/month? :spacedrep:
@@ -48,26 +48,26 @@ Timeline is a simple attempt to display various life events as list. Sort of a s
 :END:
 ** [#B] [2019-02-26] matthiasn/meins: a personal and smart journal
 :PROPERTIES:
-:ID:       tmtthsnmnsprsnlndsmrtjrnl
+:ID:       mtthsnmnsprsnlndsmrtjrnl
 :END:
 https://github.com/matthiasn/meins
 *** [2019-03-12] guy is duing something similar
 :PROPERTIES:
-:ID:       tgysdngsmthngsmlr
+:ID:       gysdngsmthngsmlr
 :END:
 ** [2018-12-28] inspiration... http://busterbenson.com/
 :PROPERTIES:
-:ID:       frnsprtnbstrbnsncm
+:ID:       nsprtnbstrbnsncm
 :END:
 
 ** [2019-04-15] 28 years of events (Phil Gyford’s website)      :inspiration:
 :PROPERTIES:
-:ID:       mnyrsfvntsphlgyfrdswbst
+:ID:       yrsfvntsphlgyfrdswbst
 :END:
 https://www.gyford.com/phil/writing/2018/03/28/events-part-1/
 ** CANCEL [2018-04-29] Personalapi                                      :hpi:
 :PROPERTIES:
-:ID:       snprsnlp
+:ID:       prsnlp
 :END:
 https://github.com/stefangrund/PersonalAPI
 meh, hasn't updated and even unclear what they implemented
@@ -120,7 +120,7 @@ shazam for geolocation
 :END:
 ** START [#C] [2016-06-10]  sleep data                                :sleep:
 :PROPERTIES:
-:ID:       frslpdt
+:ID:       slpdt
 :END:
 rescuetime for sleep data
 ** START places
@@ -129,7 +129,7 @@ rescuetime for sleep data
 :END:
 *** [2018-08-30] some progress with location provider
 :PROPERTIES:
-:ID:       thsmprgrsswthlctnprvdr
+:ID:       smprgrsswthlctnprvdr
 :END:
 ** [#D] chats
 :PROPERTIES:
@@ -191,7 +191,7 @@ exclude running dates to avoid confusion?
 
 * TODO [#A] [2020-01-21] ui inspiration: Clemens Scott: "Chronicle is another personal tool I created in a…" - Merveilles
 :PROPERTIES:
-:ID:       tnsprtnclmnsscttchrnclsnthrprsnltlcrtdnmrvlls
+:ID:       nsprtnclmnsscttchrnclsnthrprsnltlcrtdnmrvlls
 :END:
 https://merveilles.town/@rostiger/103519643370144222
 : Chronicle is another personal tool I created in an effort to better understand and know myself. It creates a timeline UI from text based data using @neauoire's tablatal format and parser.
@@ -203,20 +203,20 @@ huh, very nice encoding ('encrypting'?) to make data appear private while keepin
 :END:
 ** TODO [#B] [2018-06-24] theopolisme/location-history-visualizer: Visualize your Google Location History using an interactive heatmap :photomap:
 :PROPERTIES:
-:ID:       snthplsmlctnhstryvslzrvslgllctnhstrysngnntrctvhtmp
+:ID:       thplsmlctnhstryvslzrvslzygllctnhstrysngnntrctvhtmp
 :END:
 https://github.com/theopolisme/location-history-visualizer
 ** [2020-07-31] https://github.com/berrnd/locory
 :PROPERTIES:
-:ID:       frsgthbcmbrrndlcry
+:ID:       sgthbcmbrrndlcry
 :END:
 ** [#B] [2020-07-31] https://github.com/CartoDB/cartodb
 :PROPERTIES:
-:ID:       frsgthbcmcrtdbcrtdb
+:ID:       sgthbcmcrtdbcrtdb
 :END:
 ** [2020-07-31] https://github.com/OpenGeoscience/geojs
 :PROPERTIES:
-:ID:       frsgthbcmpngscncgjs
+:ID:       sgthbcmpngscncgjs
 :END:
 
 * TODO [#B] need different layers or something. e.g. display location/music/rescuetime in parallel
@@ -231,7 +231,7 @@ https://github.com/theopolisme/location-history-visualizer
 :END:
 ** [2019-04-04] need to be careful so I don't overlap with existing timeline entries
 :PROPERTIES:
-:ID:       thndtbcrflsdntvrlpwthxstngtmlnntrs
+:ID:       ndtbcrflsdntvrlpwthxstngtmlnntrs
 :END:
 * TODO [#B] hmm, for location maybe I should use something custom? Even sort of offline is fine, upload coordinates when you are charging or wifi connected?
 :PROPERTIES:
@@ -255,7 +255,7 @@ then I could disable the google one. I'd own the data and be able to receive it 
 :END:
 ** [2019-04-03] hm. maybe instead, separate public timeline (which won't have workouts for instance) and private one?
 :PROPERTIES:
-:ID:       wdhmmybnstdsprtpblctmlnwhhwnthvwrktsfrnstncndprvtn
+:ID:       hmmybnstdsprtpblctmlnwhchwnthvwrktsfrnstncndprvtn
 :END:
 
 * TODO [#B] treat commits with same message and date as same? At least visual indication that they are 'merged'
@@ -265,7 +265,7 @@ then I could disable the google one. I'd own the data and be able to receive it 
 :END:
 * TODO [#B] [2019-08-22] Pagination strategies with PouchDB           :infra:
 :PROPERTIES:
-:ID:       thpgntnstrtgswthpchdb
+:ID:       pgntnstrtgswthpchdb
 :END:
 https://pouchdb.com/2014/04/14/pagination-strategies-with-pouchdb.html
 
@@ -277,18 +277,18 @@ https://pouchdb.com/2014/04/14/pagination-strategies-with-pouchdb.html
 
 * [#B] [2020-02-10] mholt/timeliner: All your digital life on a single timeline, stored locally
 :PROPERTIES:
-:ID:       mnmhlttmlnrllyrdgtllfnsngltmlnstrdlclly
+:ID:       mhlttmlnrllyrdgtllfnsngltmlnstrdlclly
 :END:
 https://github.com/mholt/timeliner
 * [#B] [2019-12-02] Ask HN: What's is the state of the art of lifelogging? | Hacker News :lifelogging:
 :PROPERTIES:
-:ID:       mnskhnwhtssthsttfthrtflflggnghckrnws
+:ID:       skhnwhtssthsttfthrtflflggnghckrnws
 :END:
 https://news.ycombinator.com/item?id=21268588
 : Where can I find more about the state-of-the-art in lifelogging, self tracking, quantified self, activity detection,
 * TODO [#B] [2020-05-08] [[https://news.ycombinator.com/item?id=23101869#23113061][Show HN: Interface for all digital aspects of my life | Hacker News]] :hpi:
 :PROPERTIES:
-:ID:       frsnwsycmbntrcmtmdshwhnntfrlldgtlspctsfmylfhckrnws
+:ID:       snwsycmbntrcmtmdshwhnntrffrlldgtlspctsfmylfhckrnws
 :END:
 : Kudos - this looks like a great project and is fully usable now.
 : I have a similar project, DL, that's unfinished. Mine revolves around using a custom API in both Rust and REST to aggregate all my digital life events using ActivityStreams 2.0 and extensions to that, in a manner that is decentralized and ranked/categorized through machine learning. I am still working on it and releasing it Open Source is one of this year's goals.
@@ -296,11 +296,11 @@ https://news.ycombinator.com/item?id=21268588
 : Jeremie Miller, one of the creators of XMPP, had something similar revolving around the Telehash protocol. As far as I can tell, that effort is discontinued, or at least no longer Open Source.
 * TODO [#B] [2020-05-30] [[https://github.com/chr15m/ntpl][chr15m/ntpl: Python lib to modify & render HTML.]]
 :PROPERTIES:
-:ID:       stsgthbcmchrmntplchrmntplpythnlbtmdfyrndrhtml
+:ID:       sgthbcmchrmntplchrmntplpythnlbtmdfyrndrhtml
 :END:
 * [#B] [2018-11-07] jasonrudolph/stratify: Rails + MongoDB app for building a consolidated timeline of your data from disparate sources (e.g., Twitter, GitHub, Foursquare, etc.)
 :PROPERTIES:
-:ID:       wdjsnrdlphstrtfyrlsmngdbpsprtsrcsgtwttrgthbfrsqrtc
+:ID:       jsnrdlphstrtfyrlsmngdbppfsprtsrcsgtwttrgthbfrsqrtc
 :END:
 https://github.com/jasonrudolph/stratify
 * TODO [#B] highlight personal notes as some really distinctive colour
@@ -315,11 +315,11 @@ https://github.com/jasonrudolph/stratify
 :END:
 ** [2019-04-04] http get https://api.topcoder.com/v3/members/karlicos/stats/history
 :PROPERTIES:
-:ID:       thgtsptpcdrcmvmmbrskrlcssttshstry
+:ID:       gtsptpcdrcmvmmbrskrlcssttshstry
 :END:
 ** [2019-04-04] http get 'https://codeforces.com/api/user.rating?handle=gerasimovd'
 :PROPERTIES:
-:ID:       thgtscdfrcscmpsrrtnghndlgrsmvd
+:ID:       gtscdfrcscmpsrrtnghndlgrsmvd
 :END:
 http get 'https://codeforces.com/api/contest.list' | pp_json > contests-20190404.json
 * START [#C] direct link to the org note (e.g. if I want to edit it)
@@ -416,7 +416,7 @@ https://developer.feedly.com/v3/subscriptions/ -- that could def be useful
 https://developer.feedly.com/v3/markers/#mark-one-or-multiple-articles-as-saved that too
 ** [2019-04-04] unclear from the API if it's possible to extract when something was read
 :PROPERTIES:
-:ID:       thnclrfrmthpftspssbltxtrctwhnsmthngwsrd
+:ID:       nclrfrmthpftspssbltxtrctwhnsmthngwsrd
 :END:
 * START [#C] most important things are: geo location, coding commits/activity, meals eaten, exercise
 :PROPERTIES:
@@ -486,7 +486,7 @@ https://developer.feedly.com/v3/markers/#mark-one-or-multiple-articles-as-saved 
 :END:
 * TODO [#C] [2019-03-28] [[https://reddit.com/r/selfhosted/comments/b42all/timeliner_is_a_personal_data_aggregation_utility/][Timeliner is a personal data aggregation utility. It collects all your digital things from pretty much anywhere and stores them on your own computer, indexes them, and projects them onto a single, unified timeline.]] /r/selfhosted :inspiration:
 :PROPERTIES:
-:ID:       thsrddtcmrslfhstdcmmntsblsthmntsnglnfdtmlnrslfhstd
+:ID:       srddtcmrslfhstdcmmntsblltsthmntsnglnfdtmlnrslfhstd
 :END:
 
 * TODO [#C] need plot for items for each provider so it's easy to track broken shit
@@ -512,19 +512,19 @@ https://developer.feedly.com/v3/markers/#mark-one-or-multiple-articles-as-saved 
 :END:
 ** [2019-07-06] so layout step takes about 6 seconds on my desktop
 :PROPERTIES:
-:ID:       stslytstptksbtscndsnmydsktp
+:ID:       slytstptksbtscndsnmydsktp
 :END:
 disabling CSS didn't change anything
 err, trying to remove tags made it twice as slow... wtf??
 * [#C] [2019-04-19] How I Tracked a Year in Time and What It Meant - Minding the Borderlands :qs:inspiration:
 :PROPERTIES:
-:ID:       frhwtrckdyrntmndwhttmntmndngthbrdrlnds
+:ID:       hwtrckdyrntmndwhttmntmndngthbrdrlnds
 :END:
 http://www.markwk.com/2016/01/a-year-of-time-tracking-2015.html
 
 * [#C] [2019-08-18] PouchDB, the JavaScript Database that Syncs!      :infra:
 :PROPERTIES:
-:ID:       snpchdbthjvscrptdtbsthtsyncs
+:ID:       pchdbthjvscrptdtbsthtsyncs
 :END:
 https://pouchdb.com/
 : The Database that Syncs!
@@ -533,7 +533,7 @@ https://pouchdb.com/
 : It enables applications to store data locally while offline, then synchronize it with CouchDB and compatible servers when the application is back online, keeping the user's data in sync no matter where they next login.
 ** START [2019-08-18] hmm. could use for timeline? If it keeps items in database, then I can just rely on it and implement pagination?
 :PROPERTIES:
-:ID:       snhmmcldsfrtmlnftkpstmsndhncnjstrlyntndmplmntpgntn
+:ID:       hmmcldsfrtmlnftkpstmsndtbhncnjstrlyntndmplmntpgntn
 :END:
 * TODO [#C] hmm maybe I want feedly logs in timeline and promnesia?     :hpi:
 :PROPERTIES:
@@ -552,7 +552,7 @@ https://pouchdb.com/
 
 * START [#C] [2019-08-18] API Reference                               :infra:
 :PROPERTIES:
-:ID:       snprfrnc
+:ID:       prfrnc
 :END:
 https://pouchdb.com/api.html
 : Notes: For pagination, options.limit and options.skip are also available, but the same performance concerns as in CouchDB apply. Use the startkey/endkey pattern instead.
@@ -563,24 +563,24 @@ https://pouchdb.com/api.html
 :END:
 * [#C] [2019-04-15] Describing events in code (Phil Gyford’s website)
 :PROPERTIES:
-:ID:       mndscrbngvntsncdphlgyfrdswbst
+:ID:       dscrbngvntsncdphlgyfrdswbst
 :END:
 https://www.gyford.com/phil/writing/2018/03/28/events-part-2/
 ** [2019-08-09] about the model he uses for events, nothing too enlightening..
 :PROPERTIES:
-:ID:       frbtthmdlhssfrvntsnthngtnlghtnng
+:ID:       btthmdlhssfrvntsnthngtnlghtnng
 :END:
 
 * TODO [#C] [2019-09-06] hood.ie intro                                :infra:
 :PROPERTIES:
-:ID:       frhdntr
+:ID:       hdntr
 :END:
 http://hood.ie/intro/
 : Welcome to Hoodie!
 : Hoodie enables you to express yourself through technology by making web application development very fast, easy and accessible.
 ** TODO [#C] [2019-09-06] hood.ie intro
 :PROPERTIES:
-:ID:       frhdntr
+:ID:       hdntr
 :END:
 http://hood.ie/intro/
 : Hoodie is a noBackend technology — it's there for making the lives of frontend developers easier by abstracting away the backend and keeping you from worrying about backends. It gives you Dreamcode: a simple, easy-to-learn-and-implement frontend API built into it. Hoodie is also Offline First, which means that your app users’ data is stored locally by default so your Hoodie-based apps are accessible and usable anytime, independent from your users’ internet connection.
@@ -600,7 +600,7 @@ Some highlights for the other attempt to build something similar to timeline
 
 * TODO [#C] [2019-08-18] quangv/awesome-couchdb: CouchDB - curated meta resources & best practices list
 :PROPERTIES:
-:ID:       snqngvwsmcchdbcchdbcrtdmtrsrcsbstprctcslst
+:ID:       qngvwsmcchdbcchdbcrtdmtrsrcsbstprctcslst
 :END:
 https://github.com/quangv/awesome-couchdb#readme
 
@@ -612,19 +612,19 @@ https://github.com/quangv/awesome-couchdb#readme
 
 * TODO [#C] [2020-01-05] ejplatform/hyperpython: A small DSL to write HTML in Python. :python:html:
 :PROPERTIES:
-:ID:       snjpltfrmhyprpythnsmlldsltwrthtmlnpythn
+:ID:       jpltfrmhyprpythnsmlldsltwrthtmlnpythn
 :END:
 https://github.com/ejplatform/hyperpython
 : Hyperpython
 : Hyperpython is a Python interpretation of Hyperscript. If you are not familiar with Hyperscript, think of it as a pure Javascript alternative to JSX.
 * [#C] [2019-08-28] pouchdb-browser - npm
 :PROPERTIES:
-:ID:       wdpchdbbrwsrnpm
+:ID:       pchdbbrwsrnpm
 :END:
 https://www.npmjs.com/package/pouchdb-browser
 * TODO [#C] [2019-12-26] awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of hosting and managing applications instead of renting from Software-as-a-Service providers :spreadsheet:
 :PROPERTIES:
-:ID:       thwsmslfhstdwsmslfhstdlstfrntngfrmsftwrssrvcprvdrs
+:ID:       wsmslfhstdwsmslfhstdlstfffrntngfrmsftwrssrvcprvdrs
 :END:
 https://github.com/awesome-selfhosted/awesome-selfhosted
 : Office Suites
@@ -632,7 +632,7 @@ https://github.com/awesome-selfhosted/awesome-selfhosted
 could use spreadsheets for that?
 * TODO [#C] [2019-12-04] ben VOTE goldacre on Twitter: "Oh wow long term follow up cohorts with contemporaneous data to identify recall bias are a beautiful thing https://t.co/3QN5JXqaeA" / Twitter
 :PROPERTIES:
-:ID:       wdbnvtgldcrntwttrhwwlngtrlbsrbtflthngstcqnjxqtwttr
+:ID:       bnvtgldcrntwttrhwwlngtrmflbsrbtflthngstcqnjxqtwttr
 :END:
 https://twitter.com/bengoldacre/status/1202328740623241218
 : Oh wow long term follow up cohorts with contemporaneous data to identify recall bias are a beautiful thing
@@ -643,7 +643,7 @@ https://twitter.com/bengoldacre/status/1202328740623241218
 :END:
 * [#C] [2019-01-17] Effective Use of Arbtt                            :arbtt:
 :PROPERTIES:
-:ID:       thffctvsfrbtt
+:ID:       ffctvsfrbtt
 :END:
 http://arbtt.nomeata.de/doc/users_guide/effective-use.html
 figure out if you need to refine rules?
@@ -738,7 +738,7 @@ Planned meals, holidays etc
 :END:
 * [#D] [2018-11-27] GH Archive
 :PROPERTIES:
-:ID:       tghrchv
+:ID:       ghrchv
 :END:
 https://www.gharchive.org/
 
@@ -754,11 +754,11 @@ https://www.gharchive.org/
 :END:
 ** [2019-04-08] shit, doesn't look that it's accessible from api
 :PROPERTIES:
-:ID:       mnshtdsntlkthttsccssblfrmp
+:ID:       shtdsntlkthttsccssblfrmp
 :END:
 ** [2021-01-14] doesn't look like there is any convenient GDPR either
 :PROPERTIES:
-:ID:       thdsntlklkthrsnycnvnntgdprthr
+:ID:       dsntlklkthrsnycnvnntgdprthr
 :END:
 * TODO [#D] fix locations... they were gone for some reason, wonder if because of changes to group_by_cmp in kython
 :PROPERTIES:
@@ -779,7 +779,7 @@ e.g. you highlighted something, on second reading annotated it; on the next read
 
 * [#D] [2019-07-06] HTML Table Vs Pure CSS DIV: Which Loads Faster? - Web Development | Dream.In.Code :html:performance:
 :PROPERTIES:
-:ID:       sthtmltblvsprcssdvwhchldsfstrwbdvlpmntdrmncd
+:ID:       htmltblvsprcssdvwhchldsfstrwbdvlpmntdrmncd
 :END:
 https://www.dreamincode.net/forums/topic/265384-html-table-vs-pure-css-div-which-loads-faster/
 : However, you also need to take into account that tables can't begin rendering without being completely received, because the table width may change depending on what content is put in it. Additionally, you can't render the next row until the previous one is rendered (otherwise you will either go too large or too small - both cases will cause the page to look off).
@@ -801,17 +801,17 @@ eh, it's quite primitive. could borrow some design ideas
 :END:
 * [2019-05-19] timeline.html
 :PROPERTIES:
-:ID:       sntmlnhtml
+:ID:       tmlnhtml
 :END:
 make repo name semibold? also link (could get from commits provider)
 * [2019-05-19] timeline.html                                     :reddit:hpi:
 :PROPERTIES:
-:ID:       sntmlnhtml
+:ID:       tmlnhtml
 :END:
 todo shit this looks just plain wrong. I didn't do stuff on my phone at 1AM. right?
 ** [2019-05-24] mm. some reddit stuff..
 :PROPERTIES:
-:ID:       frmmsmrddtstff
+:ID:       mmsmrddtstff
 :END:
 * TODO sanity checks
 :PROPERTIES:
@@ -824,12 +824,12 @@ these look bad
 : [ERROR timeline-checker 190423 20:45:48 sanity:142] Removed stats: {'kobo': 27, 'location': 86}
 * [2020-03-07] Josh: "Lined it up with my time-tracking data. Here's my…" - Merveilles :inspiration:
 :PROPERTIES:
-:ID:       stjshlndtpwthmytmtrckngdthrsmymrvlls
+:ID:       jshlndtpwthmytmtrckngdthrsmymrvlls
 :END:
 https://merveilles.town/@joshavanier/103301033112044431
 * [2020-05-03] wtf?? are these because of 1000 saved items limits? :reddit:hpi:exports:
 :PROPERTIES:
-:ID:       snwtfrthsbcsfsvdtmslmts
+:ID:       wtfrthsbcsfsvdtmslmts
 :END:
 : 22:31: unfavorited Calisthenics Exercise Library: Movement Breakdowns, Common Form Faults, and Variations with GIFs and Pictures! reddit
 : 22:31: favorited "Org-mode database" and linking / searching text reddit
@@ -847,7 +847,7 @@ https://merveilles.town/@joshavanier/103301033112044431
 : 22:21: favorited ANN: org-special-block-extras is now on MELPA reddit
 * [2020-06-30] [[https://github.com/mholt/timeliner][mholt/timeliner: All your digital life on a single timeline, stored locally]]
 :PROPERTIES:
-:ID:       tsgthbcmmhlttmlnrmhlttmlnrdgtllfnsngltmlnstrdlclly
+:ID:       sgthbcmmhlttmlnrmhlttmlnrrdgtllfnsngltmlnstrdlclly
 :END:
 
 * DONE [#B] Some tool to check extracted entries to make sure they their count increases
@@ -865,17 +865,17 @@ ok, the comparison tool is probably gonna be generic?
 :END:
 * [#C] [2020-05-25] [[https://twitter.com/azlenelza/status/1264956508774649859][(1) Azlen Elza on Twitter: "Conversations are recorded and visualized based off who hears who, by selecting one person's track of messages you can see highlighted who they were within hearing range with at the time Visualizing three properties: time, message length, and proximity https://t.co/uruYyg9ip8" / Twitter]]
 :PROPERTIES:
-:ID:       mnstwttrcmzlnlzsttszlnlznngthndprxmtystcryygptwttr
+:ID:       stwttrcmzlnlzsttszlnlzntwngthndprxmtystcryygptwttr
 :END:
 : Visualizing three properties: time, message length, and proximity
 * [#C] [2019-01-14] Robin Weis                     :qs:dashboard:inspiration:
 :PROPERTIES:
-:ID:       mnrbnws
+:ID:       rbnws
 :END:
 http://robinwe.is/
 ** [2019-04-06] nice visualitions as colored strips. also some cool dating visualisations
 :PROPERTIES:
-:ID:       stncvsltnssclrdstrpslssmcldtngvslstns
+:ID:       ncvsltnssclrdstrpslssmcldtngvslstns
 :END:
 
 * TODO [#C] could expose public timeline just without timestamps? :lifelogging:
@@ -932,7 +932,7 @@ Although it's kinda calendar?
 - rosalind
 * [2020-11-04] [[https://github.com/sorrycc/awesome-javascript#timeline][sorrycc/awesome-javascript: 🐢 A collection of awesome browser-side JavaScript libraries, resources and shiny things.]]
 :PROPERTIES:
-:ID:       wdsgthbcmsrryccwsmjvscrptcrptlbrrsrsrcsndshnythngs
+:ID:       sgthbcmsrryccwsmjvscrpttmcrptlbrrsrsrcsndshnythngs
 :END:
 
 * TODO could feed my tweets into memacs, then display agenda one year ago? :memex:
@@ -990,7 +990,7 @@ ok, kmb files are weird, but I could have a regular task to open maps.me app, re
 
 * [#C] [2019-11-13] martijnvermaat/calmap: Calendar heatmaps from Pandas time series data
 :PROPERTIES:
-:ID:       wdmrtjnvrmtclmpclndrhtmpsfrmpndstmsrsdt
+:ID:       mrtjnvrmtclmpclndrhtmpsfrmpndstmsrsdt
 :END:
 https://github.com/martijnvermaat/calmap
 * DONE [#C] Kickball/awesome-selfhosted: This is a list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of locally hosting and managing applications instead of renting from SaaS providers. :timeline:
@@ -1027,6 +1027,6 @@ php though
 :END:
 * [2018-10-18] [[https://reddit.com/r/selfhosted/comments/9op2kn/photoprism_new_selfhosted_free_software_photo/e7vwj4i/][PhotoPrism: New self-hosted free software photo manager]] /r/selfhosted
 :PROPERTIES:
-:ID:       thsrddtcmrslfhstdcmmntspkstdfrsftwrphtmngrrslfhstd
+:ID:       srddtcmrslfhstdcmmntspknpstdfrsftwrphtmngrrslfhstd
 :END:
 : That is why I am sticking to Piwigo.

@@ -183,7 +183,7 @@ CREATED: [2018-02-01]
 
 * [#B] [2018-06-28] healthy foods that shouldn't be consumed together? :nutrition:
 :PROPERTIES:
-:ID:       thhlthyfdsthtshldntbcnsmdtgthr
+:ID:       hlthyfdsthtshldntbcnsmdtgthr
 :END:
 https://www.reddit.com/r/nutrition/comments/8d90ig/healthy_foods_that_shouldnt_be_consumed_together/
 * TODO [#C] Review my most frequent meals to correct micro and see if there are any conflicts :nutrino:
@@ -236,7 +236,7 @@ http://www.aif.ru/dontknows/1235443
 
 ** [2018-01-06] protein in bodyweight exercise                     :exercise:
 :PROPERTIES:
-:ID:       stprtnnbdywghtxrcs
+:ID:       prtnnbdywghtxrcs
 :END:
 apparently the general recommendations are still from 90 to 150g
 http://bodyweighttrainingarena.com/calisthenics-diet/
@@ -247,15 +247,15 @@ http://bodyweighttrainingarena.com/calisthenics-diet/
 :END:
 ** TODO [#B] [2017-11-29] make sure I get enough vitamin B in absense of bread? :nutrino:
 :PROPERTIES:
-:ID:       wdmksrgtnghvtmnbnbsnsfbrd
+:ID:       mksrgtnghvtmnbnbsnsfbrd
 :END:
 ** TODO [2017-11-29] vitamin B5: acne?                            :nutrition:
 :PROPERTIES:
-:ID:       wdvtmnbcn
+:ID:       vtmnbcn
 :END:
 ** TODO [2017-11-30] figure out if I am getting enough B vitamins   :nutrino:
 :PROPERTIES:
-:ID:       thfgrtfmgttngnghbvtmns
+:ID:       fgrtfmgttngnghbvtmns
 :END:
 * Vitamin D
 :PROPERTIES:
@@ -303,42 +303,42 @@ CREATED: [2018-02-01]
 
 * [2017-11-29] Sugars affect your blood sugars                    :nutrition:
 :PROPERTIES:
-:ID:       wdsgrsffctyrbldsgrs
+:ID:       sgrsffctyrbldsgrs
 :END:
 : and since they are carbs they have the same caloric value and no other nutritional value. Sugar alcohols are artificial sweeteners and have no impact on blood sugars. They have lesser calories too. Sugar alcohols have a laxative effect when taken in excess tho.
 : Yes its bad for you. Despite being in good shape, the repeated effects of high insulin spikes will certainly damage your liver/ other organs in the long run.
 
 * [2018-01-06] will all fat get absorbed?                        :metabolism:
 :PROPERTIES:
-:ID:       stwllllftgtbsrbd
+:ID:       wllllftgtbsrbd
 :END:
 : You don't absorb 100% of the nutrients in your food, if you gorge on lots of food with a decent amount of fibre a lot of it will go through you without being absorbed, especially the fat. On the other hand oily diarrhoea is usually even more unpleasant than portion control.
 
 * TODO [2018-01-06] protein synthesis after exercise              :nutrition:
 :PROPERTIES:
-:ID:       stprtnsynthssftrxrcs
+:ID:       prtnsynthssftrxrcs
 :END:
 https://examine.com/nutrition/second-look-at-protein-quantity-after-exercise/
 
 * TODO [2017-11-30] figure out impact of food processing on vitamins :nutrition:
 :PROPERTIES:
-:ID:       thfgrtmpctffdprcssngnvtmns
+:ID:       fgrtmpctffdprcssngnvtmns
 :END:
 * TODO [2018-01-01] figure out ways to get more calcium             :nutrino:
 :PROPERTIES:
-:ID:       mnfgrtwystgtmrclcm
+:ID:       fgrtwystgtmrclcm
 :END:
 cheese?
 
 * [2018-06-30] leptin -- made by adipose cells, helps to regulate energy balance by inhibiting hunger :metabolism:
 :PROPERTIES:
-:ID:       stlptnmdbydpscllshlpstrgltnrgyblncbynhbtnghngr
+:ID:       lptnmdbydpscllshlpstrgltnrgyblncbynhbtnghngr
 :END:
 https://en.wikipedia.org/wiki/Leptin
 obesity -- decreased sensitivity to leptin
 * [2018-07-01] B12 binds to a protein in saliva with protects it against stomack acid :metabolism:
 :PROPERTIES:
-:ID:       snbbndstprtnnslvwthprtctstgnststmckcd
+:ID:       bbndstprtnnslvwthprtctstgnststmckcd
 :END:
 https://en.wikipedia.org/wiki/Haptocorrin
 * cholesterol and satfat                                         :metabolism:
@@ -442,7 +442,7 @@ hmm, interesting..
 :END:
 * [#C] [2018-07-17] mandragara comments on Why are carbs important?
 :PROPERTIES:
-:ID:       tmndrgrcmmntsnwhyrcrbsmprtnt
+:ID:       mndrgrcmmntsnwhyrcrbsmprtnt
 :END:
 https://www.reddit.com/r/nutrition/comments/8vg3n2/why_are_carbs_important/e1oz1oq/ 
 :  ome hunter gatherer cultures consume higher protein\lower carb diets.
@@ -452,11 +452,11 @@ https://www.reddit.com/r/nutrition/comments/8vg3n2/why_are_carbs_important/e1oz1
 
 * [#C] [2018-06-10] ketosis | Optimising Nutrition https://optimisingnutrition.com/category/ketosis/ :keto:
 :PROPERTIES:
-:ID:       snktssptmsngntrtnsptmsngntrtncmctgryktss
+:ID:       ktssptmsngntrtnsptmsngntrtncmctgryktss
 :END:
 * [#C] [2018-07-17] jrcoreymv comments on carbohydrates and weightlifting...how important are they?
 :PROPERTIES:
-:ID:       tjrcrymvcmmntsncrbhydrtsndwghtlftnghwmprtntrthy
+:ID:       jrcrymvcmmntsncrbhydrtsndwghtlftnghwmprtntrthy
 :END:
 https://www.reddit.com/r/Fitness/comments/1b6efy/carbohydrates_and_weightliftinghow_important_are/c943l1x/
 :  Speaking from personal experience, very low carb diets ruin my workouts. I'm on my 3rd week of Keto (carbs under 25g/day) and every one of my workouts has been a struggle. My lifts have decreased, some substantially. If you're not following a strict low-carb diet, I'd suggest eating some carbs if you want good workouts.
@@ -468,7 +468,7 @@ https://www.reddit.com/r/Fitness/comments/1b6efy/carbohydrates_and_weightlifting
 :END:
 * [#C] [2018-07-17] Wet_Walrus comments on carbohydrates and weightlifting...how important are they?
 :PROPERTIES:
-:ID:       twtwlrscmmntsncrbhydrtsndwghtlftnghwmprtntrthy
+:ID:       wtwlrscmmntsncrbhydrtsndwghtlftnghwmprtntrthy
 :END:
 https://www.reddit.com/r/Fitness/comments/1b6efy/carbohydrates_and_weightliftinghow_important_are/c941sve/ 
 :   carb cycle. So every 5th day I'll eat 350g to 400g of carbs in one day and on every other day I keep my carbs down to around 50g or 75g.
@@ -479,31 +479,31 @@ https://www.reddit.com/r/Fitness/comments/1b6efy/carbohydrates_and_weightlifting
 
 * [#C] [2018-07-17] StormyTUNDRAwolf comments on What are the benefits of carbohydrates?
 :PROPERTIES:
-:ID:       tstrmytndrwlfcmmntsnwhtrthbnftsfcrbhydrts
+:ID:       strmytndrwlfcmmntsnwhtrthbnftsfcrbhydrts
 :END:
 https://www.reddit.com/r/nutrition/comments/8oynzx/what_are_the_benefits_of_carbohydrates/e073v09/ 
 :  In my unprofessional view I feel as If I have allot more physical endurance when eating carbs. Eg: When I'm in ketosis I'd only be able to surf for an hour then I feel weak When I'm on normal recommend macros I could spend 2+ hours in the water
 
 * [#C] [2018-10-03] SuppVersity - Nutrition and Exercise Science for Everyone :nutrition:
 :PROPERTIES:
-:ID:       wdsppvrstyntrtnndxrcsscncfrvryn
+:ID:       sppvrstyntrtnndxrcsscncfrvryn
 :END:
 https://suppversity.blogspot.com/
 * [#C] [2018-08-25] The Ultimate Keto Food Swap List | KetoDiet Blog   :keto:
 :PROPERTIES:
-:ID:       stthltmtktfdswplstktdtblg
+:ID:       thltmtktfdswplstktdtblg
 :END:
 https://ketodietapp.com/Blog/lchf/the-ultimate-keto-food-swap-list
 
 * [#D] [2018-08-25] Keto Diet Food List | KetoDiet Blog
 :PROPERTIES:
-:ID:       stktdtfdlstktdtblg
+:ID:       ktdtfdlstktdtblg
 :END:
 https://ketodietapp.com/Blog/lchf/Keto-Diet-Food-List-What-to-Eat-and-Avoid
 
 * TODO [#B] [2019-12-05] Implausible results in human nutrition research | The BMJ :nutrition:
 :PROPERTIES:
-:ID:       thmplsblrsltsnhmnntrtnrsrchthbmj
+:ID:       mplsblrsltsnhmnntrtnrsrchthbmj
 :END:
 https://www.bmj.com/content/347/bmj.f6698
 : Implausible results in human nutrition research
@@ -511,13 +511,13 @@ https://www.bmj.com/content/347/bmj.f6698
 recommended by reddit
 * TODO [#B] [2019-12-05] Nutrition offers its resignation, and the reply | Hacker News :read:
 :PROPERTIES:
-:ID:       thntrtnffrstsrsgntnndthrplyhckrnws
+:ID:       ntrtnffrstsrsgntnndthrplyhckrnws
 :END:
 https://news.ycombinator.com/item?id=16740450
 : The real issue is, and the author's real point (whether he knows it or not), is that non-scientists don't, and currently mostly can't, know anything about nutrition.
 * DONE [#B] [2019-08-27] Nutrition: the Emperor has no clothes | Meaningness :nutrition:
 :PROPERTIES:
-:ID:       tntrtnthmprrhsnclthsmnngnss
+:ID:       ntrtnthmprrhsnclthsmnngnss
 :END:
 https://meaningness.com/nutrition
 TLDR: nutrition is bad science
@@ -531,7 +531,7 @@ TLDR: nutrition is bad science
 - You can buy lactose-digesting enzymes in liquid form now
 * [2017-06-17] Ginkgo biloba                                     :supplement:
 :PROPERTIES:
-:ID:       stgnkgblb
+:ID:       gnkgblb
 :END:
 https://examine.com/supplements/Ginkgo+biloba/
 according to that, mostly useless?
@@ -539,13 +539,13 @@ according to that, mostly useless?
 - Took for a month, no noticable difference. Although didn't do any cognitive tests
 * [2019-12-21] GrimGrains — Nutrition
 :PROPERTIES:
-:ID:       stgrmgrnsntrtn
+:ID:       grmgrnsntrtn
 :END:
 https://grimgrains.com/#nutrition
 
 * [#C] [2018-06-27] FDA recognised new types of fiber?      :nutrition:fiber:
 :PROPERTIES:
-:ID:       wdfdrcgnsdnwtypsffbr
+:ID:       fdrcgnsdnwtypsffbr
 :END:
 https://www.reddit.com/r/nutrition/comments/8rdcxt/fda_to_recognize_8_new_carbohydrates_as_dietary/?utm_content=comments&utm_medium=user&utm_source=reddit&utm_name=u_karlicoss
 
@@ -561,13 +561,13 @@ https://www.reddit.com/r/nutrition/comments/8rdcxt/fda_to_recognize_8_new_carboh
 
 * [#C] [2018-08-27] Eating nuts caused tooth decay in hunter-gatherers :nutrition:paleo:
 :PROPERTIES:
-:ID:       mntngntscsdtthdcynhntrgthrrs
+:ID:       tngntscsdtthdcynhntrgthrrs
 :END:
 https://m.phys.org/news/2014-01-nuts-tooth-hunter-gatherers.html
 
 * [#C] [2018-07-17] right, so tryglicerides are glycerol + 3 fatty acids :nutrition:
 :PROPERTIES:
-:ID:       trghtstryglcrdsrglycrlfttycds
+:ID:       rghtstryglcrdsrglycrlfttycds
 :END:
 https://en.wikipedia.org/wiki/Triglyceride
 can te fatty acids be arbitrary
@@ -576,7 +576,7 @@ ah, ok, so trig is unsaturated if one ore more fatty acids is unsat
 
 * [#C] [2018-07-23] axcho comments on Soluble vs insoluble fiber in Complete Foods :fiber:nutrition:
 :PROPERTIES:
-:ID:       mnxchcmmntsnslblvsnslblfbrncmpltfds
+:ID:       xchcmmntsnslblvsnslblfbrncmpltfds
 :END:
 https://www.reddit.com/r/soylent/comments/8chmx2/soluble_vs_insoluble_fiber_in_complete_foods/dxktx5e/
 : You'd probably do well to include a mix of prebiotic fibers to support a diverse range of microbes, as Ample does - here are some commonly available options:
@@ -592,6 +592,6 @@ https://www.reddit.com/r/soylent/comments/8chmx2/soluble_vs_insoluble_fiber_in_c
 
 * [2019-10-05] [[https://reddit.com/r/nutrition/comments/ddlb3f/anyone_only_eat_food_not_taking_supplements/f2jy78f/][Anyone only eat food? (not taking supplements)]] /r/nutrition
 :PROPERTIES:
-:ID:       stsrddtcmrntrtncmmntsddlblytfdnttkngspplmntsrntrtn
+:ID:       srddtcmrntrtncmmntsddlbfnlytfdnttkngspplmntsrntrtn
 :END:
 : Rule of thumb. Every week, eat veggies from every color of the rainbow

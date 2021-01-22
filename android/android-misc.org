@@ -7,22 +7,22 @@
 :END:
 ** [#B] [2020-02-27] [[https://reddit.com/r/fossdroid/comments/faezd9/termux_for_what_are_you_using_it/][Termux: For what are you using it?]] /r/fossdroid
 :PROPERTIES:
-:ID:       thsrddtcmrfssdrdcmmntsfzdngttrmxfrwhtrysngtrfssdrd
+:ID:       srddtcmrfssdrdcmmntsfzdtrngttrmxfrwhtrysngtrfssdrd
 :END:
 :  I use it to change fonts, someone mentioned we can download YouTube videos through it.
 :  I'm am wondering what else you guys are using it for?
 ** [2020-02-21] Termux:API - Termux Wiki
 :PROPERTIES:
-:ID:       frtrmxptrmxwk
+:ID:       trmxptrmxwk
 :END:
 https://wiki.termux.com/wiki/Termux:API
 * [2020-02-17] right, holding power + up + down allows to reset everything :oneplus6t:
 :PROPERTIES:
-:ID:       mnrghthldngpwrpdwnllwstrstvrythng
+:ID:       rghthldngpwrpdwnllwstrstvrythng
 :END:
 * [2019-08-21] [[https://reddit.com/r/fdroid/comments/8ofkht/easer_how_to_guide/e2ce88o/][Easer - How to Guide?]] /r/fdroid :android:
 :PROPERTIES:
-:ID:       wdsrddtcmrfdrdcmmntsfkhtsrhwtgdcsrhwtgdrfdrd
+:ID:       srddtcmrfdrdcmmntsfkhtsrhwtgdcsrhwtgdrfdrd
 :END:
 :  Easer defeated me. I screwed around with it for a couple of days tying to get it to disable mobile data when connected to wifi, but the 'event' and 'condition' and 'profile' system was just too damn confusing for me to get it to work.
 :  There is no step-by-step tutorial or good explanation of how the app works that I could find, so I moved on to other software to solve my problem.
@@ -35,10 +35,10 @@ https://wiki.termux.com/wiki/Termux:API
 https://wiki.termux.com/wiki/Touch_Keyboard
 * [#C] [2020-05-05] [[https://geeks-world.github.io/articles/468337/index.html][Working with cron for Android and adding a shell script to autorun when the device boots]]
 :PROPERTIES:
-:ID:       tsgkswrldgthbrtclsndxhtmlgshllscrptttrnwhnthdvcbts
+:ID:       sgkswrldgthbrtclsndxhtmlwgshllscrptttrnwhnthdvcbts
 :END:
 : Working with cron for Android and adding a shell script to autorun when the device boots
 * [#D] [2017-12-17] sdkmanager --licenses                           :android:
 :PROPERTIES:
-:ID:       snsdkmngrlcnss
+:ID:       sdkmngrlcnss
 :END:

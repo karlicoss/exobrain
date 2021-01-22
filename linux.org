@@ -12,7 +12,7 @@
 :END:
 ** [2021-01-12] figuring out what takes disk space  ~docker images | awk '{print $3}' | xargs docker inspect | less~ :docker:
 :PROPERTIES:
-:ID:       tfgrngtwhttksdskspcdckrmgswkprntxrgsdckrnspctlss
+:ID:       fgrngtwhttksdskspcdckrmgswkprntxrgsdckrnspctlss
 :END:
 * systemd                                                           :systemd:
 :PROPERTIES:
@@ -63,13 +63,13 @@ one the other machine
 :END:
 ** [2018-02-26] if cron fails to start a job, it will send the output to local mail
 :PROPERTIES:
-:ID:       mnfcrnflststrtjbtwllsndthtpttlclml
+:ID:       fcrnflststrtjbtwllsndthtpttlclml
 :END:
 : grep cron /var/log/syslog
 : tail -f /var/log/syslog | grep cron
 ** [2018-05-10] mail subject -- use bash comment operator
 :PROPERTIES:
-:ID:       thmlsbjctsbshcmmntprtr
+:ID:       mlsbjctsbshcmmntprtr
 :END:
 :  *:* TestJob; cron command
 
@@ -96,11 +96,11 @@ mind the space after colon!
 :END:
 ** [2019-03-07] when you update rules file ~sudo udevadm control --reload-rules~
 :PROPERTIES:
-:ID:       thwhnypdtrlsflsddvdmcntrlrldrls
+:ID:       whnypdtrlsflsddvdmcntrlrldrls
 :END:
 ** [2019-03-07] to trigger the target script ~sudo udevadm trigger~
 :PROPERTIES:
-:ID:       thttrggrthtrgtscrptsddvdmtrggr
+:ID:       ttrggrthtrgtscrptsddvdmtrggr
 :END:
 
 * [#C] [2017-05-08] Gateway 0.0.0.0 means that the subnet is link-local i.e. there is no gateway involved, the packets are delivered directly to the target :network:
@@ -115,7 +115,7 @@ mind the space after colon!
 ok apparently setuid shell scripts are quite risky...
 * [#C] [2020-01-29] linux - How to make htop sort by PID
 :PROPERTIES:
-:ID:       wdlnxhwtmkhtpsrtbypd
+:ID:       lnxhwtmkhtpsrtbypd
 :END:
 https://superuser.com/questions/275873/how-to-make-htop-sort-by-pid
 : @OSX Press >.
@@ -123,7 +123,7 @@ https://superuser.com/questions/275873/how-to-make-htop-sort-by-pid
 press > and select RES
 * [#C] [2020-01-24] logs - View stdout/stderr of systemd service
 :PROPERTIES:
-:ID:       frlgsvwstdtstdrrfsystmdsrvc
+:ID:       lgsvwstdtstdrrfsystmdsrvc
 :END:
 https://unix.stackexchange.com/questions/20399/view-stdout-stderr-of-systemd-service
 : Note that using the standard logging mechanism like this will not create persistent logs by default. To do that, you'll need to create /var/log/journal, and then run sudo systemctl restart systemd-journald
@@ -135,7 +135,7 @@ https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
 : Hide user threads (shift + H) and close the process tree view (F5), t
 * [2020-06-15] [[https://superuser.com/questions/621870/test-if-a-port-on-a-remote-system-is-reachable-without-telnet][linux - Test if a port on a remote system is reachable (without telnet) - Super User]]
 :PROPERTIES:
-:ID:       mnssprsrcmqstnststfprtnrmtsystmsrchblwthttlntsprsr
+:ID:       ssprsrcmqstnststfprtnrmtstsystmsrchblwthttlntsprsr
 :END:
 : Nice and verbose! From the man pages.
 : Single port:
@@ -145,18 +145,18 @@ https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
 testing if port is open
 * [2018-04-27] guide to XKB                                           :linux:
 :PROPERTIES:
-:ID:       frgdtxkb
+:ID:       gdtxkb
 :END:
 https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450
 
 * [#D] [2020-12-04] [[https://superuser.com/questions/1115983/prevent-system-freeze-unresponsiveness-due-to-swapping-run-away-memory-usage][linux - prevent system freeze/unresponsiveness due to swapping run away memory usage - Super User]]
 :PROPERTIES:
-:ID:       frssprsrcmqstnsprvntsystmssdtswppngrnwymmrysgsprsr
+:ID:       ssprsrcmqstnsprvntsystmfrssdtswppngrnwymmrysgsprsr
 :END:
 : If a process demands a lot of memory, the system moves all other process to the swap file. Including it seems, necessary processes like the X11 server or the terminal.
 * [2019-09-04] shell - Usage of dash (-) in place of a filename - Unix & Linux Stack Exchange
 :PROPERTIES:
-:ID:       wdshllsgfdshnplcfflnmnxlnxstckxchng
+:ID:       shllsgfdshnplcfflnmnxlnxstckxchng
 :END:
 https://unix.stackexchange.com/questions/16357/usage-of-dash-in-place-of-a-filename
 : Using - as a filename to mean stdin/stdout is a convention that a lot of programs use. It is not a special property of the filename. The kernel does not recognise - as special so any system calls referring to - as a filename will use - literally as the filename.

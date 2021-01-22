@@ -9,7 +9,7 @@ We'll need to figure this out...
 :END:
 * [#A] [2020-01-30] [[https://news.ycombinator.com/item?id=22193451][Today I Learned That Not Everyone Has an Internal Monologue]] :mind:
 :PROPERTIES:
-:ID:       thsnwsycmbntrcmtmdtdylrndthtntvrynhsnntrnlmnlg
+:ID:       snwsycmbntrcmtmdtdylrndthtntvrynhsnntrnlmnlg
 :END:
 https://ryanandrewlangdon.wordpress.com/2020/01/28/today-i-learned-that-not-everyone-has-an-internal-monologue-and-it-has-ruined-my-day/
 * TODO [#C] walking flow https://vk.com/topic-23865151_38545249?post=684 :mind:
@@ -26,21 +26,21 @@ https://ryanandrewlangdon.wordpress.com/2020/01/28/today-i-learned-that-not-ever
 
 * [#D] [2018-08-15] Flow Genome Project « The Official Source For Flow Science And Training :mind:
 :PROPERTIES:
-:ID:       wdflwgnmprjctthffclsrcfrflwscncndtrnng
+:ID:       flwgnmprjctthffclsrcfrflwscncndtrnng
 :END:
 http://www.flowgenomeproject.com/
 
 ** [2018-10-22]  eh. googled that and nothing specific, overall sound like bullshit, they are just selling subscriptions.
 :PROPERTIES:
-:ID:       mnhggldthtndnthngspcfcvrllshtthyrjstsllngsbscrptns
+:ID:       hggldthtndnthngspcfcvrllslshtthyrjstsllngsbscrptns
 :END:
 ** TODO [2018-10-22]  ? add to                                         :axol:
 :PROPERTIES:
-:ID:       mnddt
+:ID:       ddt
 :END:
 * TODO [#D] [2019-02-15] What Universal Human Experiences Are You Missing Without Realizing It? | Slate Star Codex :music:mind:
 :PROPERTIES:
-:ID:       frwhtnvrslhmnxprncsrymssngwthtrlzngtsltstrcdx
+:ID:       whtnvrslhmnxprncsrymssngwthtrlzngtsltstrcdx
 :END:
 https://slatestarcodex.com/2014/03/17/what-universal-human-experiences-are-you-missing-without-realizing-it/
 : Some people can differentiate between orders of magnitude more colors than other people. You can test yourself here: http://www.apartmenttherapy.com/how-well-do-you-see-color-173018
@@ -49,19 +49,19 @@ https://slatestarcodex.com/2014/03/17/what-universal-human-experiences-are-you-m
 
 * [#D] [2019-12-05] Optimizing Mindfulness – Tasshin
 :PROPERTIES:
-:ID:       thptmzngmndflnsstsshn
+:ID:       ptmzngmndflnsstsshn
 :END:
 https://tasshin.com/blog/optimizing-mindfulness/
 
 * [#C] [2019-11-25] bohendo.eth on Twitter: "@literalbanana @Aella_Girl If my theory of consiousness is correct, then it's impossible to process info normally but be unconscious. It's like saying "a computer that runs all the same apps but w/out any info in RAM" https://t.co/OXp8C3Y88B" / Twitter :consciousness:
 :PROPERTIES:
-:ID:       mnbhndthntwttrltrlbnnllgrsbtwtnynfnrmstcxpcybtwttr
+:ID:       bhndthntwttrltrlbnnllgrlfsbtwtnynfnrmstcxpcybtwttr
 :END:
 https://twitter.com/bohendo/status/1198072891528667137
 : If my theory of consiousness is correct, then it's impossible to process info normally but be unconscious.
 * TODO [#D] [2019-06-13] Mo on Twitter: "Also https://t.co/il3yBMVMZi… "
 :PROPERTIES:
-:ID:       thmntwttrlsstclybmvmz
+:ID:       mntwttrlsstclybmvmz
 :END:
 https://twitter.com/MuhammadPuter12/status/1114525993069203457
 : I wish everybody on Twitter could each go ultra-viral because it's actually a very eye-opening and humbling experience. I feel like it would be worth listing out some thoughts from the various occasions where my timeline blew up, even if it gets interpreted negatively
@@ -72,13 +72,13 @@ https://twitter.com/MuhammadPuter12/status/1114525993069203457
 :END:
 * TODO [#C] [2019-02-15] What Universal Human Experiences Are You Missing Without Realizing It? | Slate Star Codex
 :PROPERTIES:
-:ID:       frwhtnvrslhmnxprncsrymssngwthtrlzngtsltstrcdx
+:ID:       whtnvrslhmnxprncsrymssngwthtrlzngtsltstrcdx
 :END:
 https://slatestarcodex.com/2014/03/17/what-universal-human-experiences-are-you-missing-without-realizing-it/
 : That first thing sounds like anhedonia.
 * [#B] [2020-07-28] [[https://news.ycombinator.com/item?id=23962817][A new way to control experimentation with dreams | Hacker News]] :lucid:
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdnwwytcntrlxprmnttnwthdrmshckrnws
+:ID:       snwsycmbntrcmtmdnwwytcntrlxprmnttnwthdrmshckrnws
 :END:
 : Same here. More than once a week when I was a kid, once a week as a teen, now it's about once every few months in my late 30s. I have correlated it to body temperature though - the more blankets I use and the hotter I am over night, the more dreams remembered, lucid dreams, and nightmares I get. Although they're fun, I value my sleep more, and so these days sleep with the thinnest donna with the windows open (even in winter).
 * TODO [#D] That said, meditation can be an intense experience with a history of adverse effects (Love, 2018; Kornfield, 1979; Lindahl, 2017). Most meditators, especially 10-minutes-a-day
@@ -97,7 +97,7 @@ from [[https://www.instapaper.com/read/1217243447/11062214][ip]]   [[http://www.
 
 * DONE [2018-11-06] Vipassana for Hackers [pdf] | Hacker News    :meditation:
 :PROPERTIES:
-:ID:       tvpssnfrhckrspdfhckrnws
+:ID:       vpssnfrhckrspdfhckrnws
 :END:
 - State "DONE"       from              [2019-04-13]
 https://news.ycombinator.com/item?id=16842040
@@ -111,7 +111,7 @@ https://en.wikipedia.org/wiki/Hard_problem_of_consciousness
 
 * [2020-09-30] Tweet from @naval                                       :mind:
 :PROPERTIES:
-:ID:       wdtwtfrmnvl
+:ID:       twtfrmnvl
 :END:
 : https://twitter.com/naval/status/1311207887293812736
 : 
@@ -123,26 +123,26 @@ https://en.wikipedia.org/wiki/Hard_problem_of_consciousness
 : • Practicing a craft, pursuing curiosity, work done for its own sake, flow.
 * [#D] [2019-02-12] (9) Your Mind Is Eight-Dimensional - Your Brain as Math Part 3 | Infinite Series - YouTube :brain:topology:
 :PROPERTIES:
-:ID:       tyrmndsghtdmnsnlyrbrnsmthprtnfntsrsytb
+:ID:       yrmndsghtdmnsnlyrbrnsmthprtnfntsrsytb
 :END:
 https://www.youtube.com/watch?v=akgU8nRNIp0&list=WL&index=72
 huh, so simplicial complexes in (human?) brain are not random
 * [2019-03-31] Conceptual thinking - PsychonautWiki                     :psy:
 :PROPERTIES:
-:ID:       sncncptlthnkngpsychntwk
+:ID:       cncptlthnkngpsychntwk
 :END:
 https://psychonautwiki.org/wiki/Conceptual_thinking
 : Thoughts cease to be spoken by an internal narrator and are instead “felt” and intuitively understood.
 
 * [2019-04-02] Neil Harbisson: I listen to color - YouTube             :mind:
 :PROPERTIES:
-:ID:       tnlhrbssnlstntclrytb
+:ID:       nlhrbssnlstntclrytb
 :END:
 https://www.youtube.com/watch?v=ygRNoieAnzI
 guy that doesn't have color vision and that developed a device that converts color into sound. Interesing, he claims he can sense more colors now than average people, however the thing when he drew 'picture' of hitler's voice and asked people what did they think of it is quite stupid...
 * [2018-09-25] can meditation be bad?                            :meditation:
 :PROPERTIES:
-:ID:       tcnmdttnbbd
+:ID:       cnmdttnbbd
 :END:
 ** https://www.quora.com/Can-meditation-lead-to-mental-illness
 :PROPERTIES:
@@ -152,7 +152,7 @@ dull states, addiction, powers, attachment to body -- pretty interesting
 
 ** [2018-09-13] Is there any way meditation can be bad? : Meditation
 :PROPERTIES:
-:ID:       thsthrnywymdttncnbbdmdttn
+:ID:       sthrnywymdttncnbbdmdttn
 :END:
 https://www.reddit.com/r/Meditation/comments/1qf9y4/is_there_any_way_meditation_can_be_bad/
 : Look up Willoughby Britton's research - The Dark Side of the Contemplative Path. She's a neuroscientist doing research into meditation, and one of her projects is exactly what you're asking about.
@@ -161,14 +161,14 @@ https://www.reddit.com/r/Meditation/comments/1qf9y4/is_there_any_way_meditation_
 
 * [2019-04-29] My Conversation with Michael Pollan - Marginal REVOLUTION :psy:
 :PROPERTIES:
-:ID:       mnmycnvrstnwthmchlpllnmrgnlrvltn
+:ID:       mycnvrstnwthmchlpllnmrgnlrvltn
 :END:
 : Pollan: "But I did not have a powerful desire to do it again."
 : Alan Watts, on why he stopped taking LSD: "When you've gotten the message, you hang up the phone."
 
 * [#C] [2018-09-04] [[https://reddit.com/r/Meditation/comments/1qf9y4/is_there_any_way_meditation_can_be_bad/cdd938u/][Is there any way meditation can be bad?]] /r/Meditation :meditation:
 :PROPERTIES:
-:ID:       tsrddtcmrmdttncmmntsqfystdsthrnywymdttncnbbdrmdttn
+:ID:       srddtcmrmdttncmmntsqfysthdsthrnywymdttncnbbdrmdttn
 :END:
 :  By dullness I mean a subtle lack of clarity of awareness, which, if nothing is done about it, tends to gradually increase to the point of tiredness/drowsiness, and eventually sleep. A lot of people succeed in stopping gross dullness but continue to meditate in subtle dullness. A good way to tell if you're meditating with subtle dullness is if a background sound causes a "startle" effect, where your body or even just your mind will have a sudden "jolt" caused by the sound. If you meditate frequently you probably know what I mean. As clarity of awareness increases, sounds are less likely to startle you.
 
@@ -177,21 +177,21 @@ https://www.reddit.com/r/Meditation/comments/1qf9y4/is_there_any_way_meditation_
 :  - that's where I got these ideas and having worked with them I find them very useful.
 * [#C] [2019-04-14] Dan Harris: "10% Happier" | Talks At Google - YouTube :meditation:
 :PROPERTIES:
-:ID:       sndnhrrshpprtlkstgglytb
+:ID:       dnhrrshpprtlkstgglytb
 :END:
 https://www.youtube.com/watch?v=Dt5Qv9tUObI&list=WL&index=24
 if you're going to the gym and it's easy you are cheating. same with meditation?
 
 * [#C] [2019-04-14] Dan Harris: "10% Happier" | Talks At Google - YouTube :meditation:
 :PROPERTIES:
-:ID:       sndnhrrshpprtlkstgglytb
+:ID:       dnhrrshpprtlkstgglytb
 :END:
 https://www.youtube.com/watch?v=Dt5Qv9tUObI&list=WL&index=24
 interesting, his wife doesn't meditate! even though she's a scientist
 
 * [2019-12-02] Can we create new senses for humans? | David Eagleman - YouTube
 :PROPERTIES:
-:ID:       mncnwcrtnwsnssfrhmnsdvdglmnytb
+:ID:       cnwcrtnwsnssfrhmnsdvdglmnytb
 :END:
 https://www.youtube.com/watch?v=4c1lqFXHvqI&list=WL&index=52&t=0s
 cool stuff! 
@@ -199,13 +199,13 @@ sensory substitution
 e.g. they claim that deaf person with a vibro vest can regain hearing similar to how blind person can read braile
 * [2019-09-21] Bicameralism (psychology) - Wikipedia
 :PROPERTIES:
-:ID:       stbcmrlsmpsychlgywkpd
+:ID:       bcmrlsmpsychlgywkpd
 :END:
 https://en.wikipedia.org/wiki/Bicameralism_(psychology)
 : Bicameralism (the condition of being divided into "two-chambers") is a hypothesis in psychology that argues that the human mind once operated in a state in which cognitive functions were divided between one part of the brain which appears to be "speaking", and a second part which listens and obeys — a bicameral mind. The term was coined by Julian Jaynes, who presented the idea in his 1976 book The Origin of Consciousness in the Breakdown of the Bicameral Mind,[1] wherein he made the case that a bicameral mentality was the normal and ubiquitous state of the human mind as recently as 3,000 years ago, near the end of the Mediterranean bronze age. 
 * [2019-02-14] Sensory Substitution
 :PROPERTIES:
-:ID:       thsnsrysbstttn
+:ID:       snsrysbstttn
 :END:
 https://www.eagleman.com/research/sensory-substitution
 substitute tactile sensing for hearing.
@@ -222,13 +222,13 @@ guess I should read his vk
 
 * START [#D] [2018-11-26] Trevor Slocum / Meditation Assistant · GitLab :meditation:
 :PROPERTIES:
-:ID:       mntrvrslcmmdttnssstntgtlb
+:ID:       trvrslcmmdttnssstntgtlb
 :END:
 https://gitlab.com/tslocum/meditationassistant
 
 * [#C] [2018-08-21] Problems with siting up straight? (A graphic that illustrates the importance of sitting on a high cushion) : Meditation :meditation:posture:
 :PROPERTIES:
-:ID:       tprblmswthstngpstrghtgrphmprtncfsttngnhghcshnmdttn
+:ID:       prblmswthstngpstrghtgrphcmprtncfsttngnhghcshnmdttn
 :END:
 https://www.reddit.com/r/Meditation/comments/22pafg/problems_with_siting_up_straight_a_graphic_that/
 
@@ -236,23 +236,23 @@ hmm, actually I'm sitting in quite a similar way to the second picture.. so I'm 
 
 * DONE [#B] [2019-08-05] RomanPlusPlus/mindfilesResources: A collection of resources related to mindfiles (digital representations of your mind)
 :PROPERTIES:
-:ID:       mnrmnplsplsmndflsrsrcscllmndflsdgtlrprsnttnsfyrmnd
+:ID:       rmnplsplsmndflsrsrcscllctmndflsdgtlrprsnttnsfyrmnd
 :END:
 https://github.com/RomanPlusPlus/mindfilesResources
 
 ** [2019-09-01] eh, need something to watch github commits
 :PROPERTIES:
-:ID:       snhndsmthngtwtchgthbcmmts
+:ID:       hndsmthngtwtchgthbcmmts
 :END:
 * [#D] [2019-03-05] пропаганда машин on Twitter: "Напоминаю, что вот так выглядит депрессия. Необязательно в виде лежащего и ничего не хотящего, уставившегося в одну точку, грустного человека. Вашим очень веселым и успешным людям тоже может быть плохо. Не забывайте иногда спрашивать, все ли у них хорошо. https://t.co/SPGXltmNAh" / Twitter :empathy:
 :PROPERTIES:
-:ID:       tпропагандамашинntwttrнапиххорошоstcspgxltmnhtwttr
+:ID:       пропагандамашинntwttrнапоиххорошоstcspgxltmnhtwttr
 :END:
 https://twitter.com/_vanswan/status/1102690190408253440
 
 * [2019-12-28] The Habits of Effective Artists - YouTube     :art:creativity:
 :PROPERTIES:
-:ID:       stthhbtsfffctvrtstsytb
+:ID:       thhbtsfffctvrtstsytb
 :END:
 https://www.youtube.com/watch?v=vM39qhXle4g&list=WL&index=45&t=1s
 : 1. daily work
@@ -264,36 +264,36 @@ https://www.youtube.com/watch?v=vM39qhXle4g&list=WL&index=45&t=1s
 : 7. create what you love
 * DONE [#B] [2018-08-21] A Math Theory for Why People Hallucinate | Quanta Magazine
 :PROPERTIES:
-:ID:       tmththryfrwhypplhllcntqntmgzn
+:ID:       mththryfrwhypplhllcntqntmgzn
 :END:
 https://www.quantamagazine.org/a-math-theory-for-why-people-hallucinate-20180730/
 * DONE [#C] [2018-07-21] The Hyperbolic Geometry of DMT Experiences: Symmetries, Sheets, and Saddled Scenes | Qualia Computing
 :PROPERTIES:
-:ID:       stthhyprblcgmtryfdmtxprncrsshtsndsddldscnsqlcmptng
+:ID:       thhyprblcgmtryfdmtxprncssrsshtsndsddldscnsqlcmptng
 :END:
 https://qualiacomputing.com/2016/12/12/the-hyperbolic-geometry-of-dmt-experiences/
 
 
 * DONE [#B] [2019-07-03] Extended cognition - Wikipedia
 :PROPERTIES:
-:ID:       wdxtnddcgntnwkpd
+:ID:       xtnddcgntnwkpd
 :END:
 https://en.wikipedia.org/wiki/Extended_cognition
 - [2019-07-15] not much on reddit
 
 * [2017-10-06] Erasing notes of someone who has memory problems (e.g memento), basically murder :extendedmind:
 :PROPERTIES:
-:ID:       frrsngntsfsmnwhhsmmryprblmsgmmntbscllymrdr
+:ID:       rsngntsfsmnwhhsmmryprblmsgmmntbscllymrdr
 :END:
 
 * DONE [2019-09-21] Quantum Ethics? Suffering In The Multiverse     :quantum:
 :PROPERTIES:
-:ID:       stqntmthcssffrngnthmltvrs
+:ID:       qntmthcssffrngnthmltvrs
 :END:
 https://www.abolitionist.com/multiverse.html
 
 * [2018-06-18] Психоделики помогли нейронам вырасти длинными и ветвистыми :psy:
 :PROPERTIES:
-:ID:       mnпсиходеликипомоглинейроырастидлиннымииветвистыми
+:ID:       психоделикипомоглинейронаырастидлиннымииветвистыми
 :END:
 https://nplus1.ru/news/2018/06/14/psychedelic-depression

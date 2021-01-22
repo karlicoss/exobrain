@@ -3,7 +3,7 @@
 
 * [#C] [2019-09-23] NiklasRosenstein/pydoc-markdown: Create Python API documentation in Markdown format.
 :PROPERTIES:
-:ID:       mnnklsrsnstnpydcmrkdwncrtpythnpdcmnttnnmrkdwnfrmt
+:ID:       nklsrsnstnpydcmrkdwncrtpythnpdcmnttnnmrkdwnfrmt
 :END:
 https://github.com/NiklasRosenstein/pydoc-markdown
 
@@ -30,7 +30,7 @@ https://github.com/NiklasRosenstein/pydoc-markdown
 
 * TODO [#C] [2019-09-01] docopt—language for description of command-line interfaces http://docopt.org/ :literate:
 :PROPERTIES:
-:ID:       sndcptlnggfrdscrptnfcmmndlnntrfcsdcptrg
+:ID:       dcptlnggfrdscrptnfcmmndlnntrfcsdcptrg
 :END:
 : docopt helps you:
 : 
@@ -40,26 +40,26 @@ https://github.com/NiklasRosenstein/pydoc-markdown
 : docopt is based on conventions that have been used for decades in help messages and man pages for describing a program's interface. An interface description in docopt is such a help message, but formalized. Here is an example:
 * STRT [#C] [2020-01-19] Noweb home page                           :literate:
 :PROPERTIES:
-:ID:       snnwbhmpg
+:ID:       nwbhmpg
 :END:
 https://www.cs.tufts.edu/~nr/noweb
 : Noweb — A Simple, Extensible Tool for Literate Programming
 * STRT [#D] [2019-09-15] Automatic code documentation with recorded examples from runtime :literate:
 :PROPERTIES:
-:ID:       sntmtccddcmnttnwthrcrddxmplsfrmrntm
+:ID:       tmtccddcmnttnwthrcrddxmplsfrmrntm
 :END:
 https://www.geoffreylitt.com/margin-notes
 
 * TODO [#B] [2020-05-20] [[https://news.ycombinator.com/item?id=23233791][Why does it need a metric ton of permissions? To everything - data, history, not... | Hacker News]] :literate:security:webext:
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdwhydstnstvrythngdthstrynthckrnws
+:ID:       snwsycmbntrcmtmdwhydstndmstvrythngdthstrynthckrnws
 :END:
 : Why does it need a metric ton of permissions? To everything - data, history, notifications etc.
 
 literate permissions?
 * [2019-08-14] Pycco - Beautiful Literate Python : Python   :literate:python:
 :PROPERTIES:
-:ID:       wdpyccbtflltrtpythnpythn
+:ID:       pyccbtflltrtpythnpythn
 :END:
 https://www.reddit.com/r/Python/comments/ekked/pycco_beautiful_literate_python/
 : I'd rather use something that processes docstrings. Using comments like this doesn't feel very Pythonic.
@@ -67,5 +67,5 @@ https://www.reddit.com/r/Python/comments/ekked/pycco_beautiful_literate_python/
 pycco for literate python programming...
 ** [2019-08-21] eh, it's a bit too linear
 :PROPERTIES:
-:ID:       wdhtsbttlnr
+:ID:       htsbttlnr
 :END:

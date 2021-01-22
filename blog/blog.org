@@ -8,7 +8,7 @@
 :END:
 ** STRT [#B] [2019-12-21] What are your RSS Feed Size limits? – dlvr.it support
 :PROPERTIES:
-:ID:       stwhtryrrssfdszlmtsdlvrtspprt
+:ID:       whtryrrssfdszlmtsdlvrtspprt
 :END:
 https://support.dlvrit.com/hc/en-us/articles/115000029293-What-are-your-RSS-Feed-Size-limits-
 : What are your RSS Feed Size limits?
@@ -18,12 +18,12 @@ https://support.dlvrit.com/hc/en-us/articles/115000029293-What-are-your-RSS-Feed
 - ugh! need to minify?
 * STRT [#B] [2020-01-10] Stop using so many divs! An intro to semantic HTML - DEV Community
 :PROPERTIES:
-:ID:       frstpsngsmnydvsnntrtsmntchtmldvcmmnty
+:ID:       stpsngsmnydvsnntrtsmntchtmldvcmmnty
 :END:
 https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
 ** TODO [2020-01-18] org-html-timestamp -- to time
 :PROPERTIES:
-:ID:       strghtmltmstmpttm
+:ID:       rghtmltmstmpttm
 :END:
 
 * inspiration (design/presentation)
@@ -52,7 +52,7 @@ Very good blog post!
 :END:
 ** TODO [#C] [2019-11-21] Projects | Intuitive Explanations :blog:inspiration:
 :PROPERTIES:
-:ID:       thprjctsnttvxplntns
+:ID:       prjctsnttvxplntns
 :END:
 https://intuitiveexplanations.com/about/projects
 have list of my projects? moslty populate from github?
@@ -62,27 +62,27 @@ have list of my projects? moslty populate from github?
 :END:
 *** DONE [#C] [2019-05-29] Accessing list metadata in Hakyll :blog:inspiration:
 :PROPERTIES:
-:ID:       wdccssnglstmtdtnhkyll
+:ID:       ccssnglstmtdtnhkyll
 :END:
 http://mattwetmore.me/posts/hakyll-list-metadata.html
 looks like nice sidenotes ...
 **** [2019-07-20] implemented via tables though..
 :PROPERTIES:
-:ID:       stmplmntdvtblsthgh
+:ID:       mplmntdvtblsthgh
 :END:
 *** DONE [#B] [2019-06-01] Local-first software: You own your data, in spite of the cloud :blog:inspiration:
 :PROPERTIES:
-:ID:       stlclfrstsftwrywnyrdtnsptfthcld
+:ID:       lclfrstsftwrywnyrdtnsptfthcld
 :END:
 https://www.inkandswitch.com/local-first.html
 nice side annotations
 **** [2019-07-20] ok, used this. TODO credit
 :PROPERTIES:
-:ID:       stksdthstdcrdt
+:ID:       ksdthstdcrdt
 :END:
 *** TODO [2019-05-30] March 2019 news - Gwern.net                      :blog:
 :PROPERTIES:
-:ID:       thmrchnwsgwrnnt
+:ID:       mrchnwsgwrnnt
 :END:
 https://www.gwern.net/newsletter/2019/03
 :  gwern.net CSS changes: Tufte-style sidenotes (for displaying footnotes in margins on wide screens) via Obormot’s new JS library, sidenotes.js
@@ -99,7 +99,7 @@ https://jeffhuang.com/designed_to_last/
 : Stick with the 13 web safe fonts +2
 ** [#B] [2020-01-18] How do you clear the Open Graph cache of an URL on Telegram? - Stack Overflow :staticblog:
 :PROPERTIES:
-:ID:       sthwdyclrthpngrphcchfnrlntlgrmstckvrflw
+:ID:       hwdyclrthpngrphcchfnrlntlgrmstckvrflw
 :END:
 https://stackoverflow.com/questions/34707915/how-do-you-clear-the-open-graph-cache-of-an-url-on-telegram/35156177#35156177
 ** TODO [#B] go through every bit of code and make quick blog posts off them?? maybe even literate :blog:
@@ -117,17 +117,17 @@ Free tooltip for something without having to CSS a tooltip.
 
 ** STRT [#C] [2019-12-27] The Open Graph protocol                      :blog:
 :PROPERTIES:
-:ID:       frthpngrphprtcl
+:ID:       thpngrphprtcl
 :END:
 https://ogp.me/
 : The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.
 *** TODO [2020-01-18] add description?
 :PROPERTIES:
-:ID:       stdddscrptn
+:ID:       dddscrptn
 :END:
 ** TODO [#C] [2019-11-10] Cookies vs localStorage - Data Driven Investor - Medium :blog:
 :PROPERTIES:
-:ID:       sncksvslclstrgdtdrvnnvstrmdm
+:ID:       cksvslclstrgdtdrvnnvstrmdm
 :END:
 https://medium.com/datadriveninvestor/cookies-vs-local-storage-2f3732c7d977
 : Cookies and local storage serve different purposes. Cookies are mainly for reading server-side, whereas local storage can only be read by the client-side.
@@ -136,12 +136,12 @@ huh, so I can implement settings without having to use cookies!
 could poist about it
 * [#C] [2020-01-23] Web bloat                                 :webbloat:blog:
 :PROPERTIES:
-:ID:       thwbblt
+:ID:       wbblt
 :END:
 https://danluu.com/web-bloat/
 
 * DONE [#A] [2020-02-12] [[https://news.ycombinator.com/item?id=22304759][Use a:visited in your CSS stylesheet]] :css:blog:
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdsvstdnyrcssstylsht
+:ID:       snwsycmbntrcmtmdsvstdnyrcssstylsht
 :END:
 https://evertpot.com/visited-links

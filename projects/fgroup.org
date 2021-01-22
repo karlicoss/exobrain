@@ -30,7 +30,7 @@ Approximate them by segments, that should work
 
 * [2019-02-01] my initial notes
 :PROPERTIES:
-:ID:       frmyntlnts
+:ID:       myntlnts
 :END:
 Triangulate the manifold
 then do some sort of random walk and stop at the initial point with some probability
@@ -58,19 +58,19 @@ if the point or edge is glued, treat it as special?
 :END:
 ** TODO [2019-02-01] mm. ok this ended up a bit different from what I imagined initially. still though, maybe contracting loops manually is ok, people are better at that?
 :PROPERTIES:
-:ID:       frmmkthsnddpbtdffrntfrmwhtnglpsmnllyskpplrbttrttht
+:ID:       mmkthsnddpbtdffrntfrmwhtmtnglpsmnllyskpplrbttrttht
 :END:
 basically you declare some of the loops as 'trivial', but manually
 
 ** TODO [2019-02-02] hmm. if you consider a torus, composed of two triangles, looks like all vertices are labeled in the same
 :PROPERTIES:
-:ID:       sthmmfycnsdrtrscmpsdftwtrglslkslkllvrtcsrlbldnthsm
+:ID:       hmmfycnsdrtrscmpsdftwtrnglslkslkllvrtcsrlbldnthsm
 :END:
 however, that's not enough to classify, we should be considering edges instead?
 
 * DONE [2019-02-01] initial python impl in file:projects/fund/main.py
 :PROPERTIES:
-:ID:       frntlpythnmplnflprjctsfndmnpy
+:ID:       ntlpythnmplnflprjctsfndmnpy
 :END:
 pretty inefficient, should rewrite in rust for finer control. also, make multithreaded
 

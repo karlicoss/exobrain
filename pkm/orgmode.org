@@ -40,7 +40,7 @@ use with 'org-toggle-time-stamp-overlays?'
 - State "STRT"      from "TODO"       [2019-02-16]
 ** [2019-02-16] https://lists.gnu.org/archive/html//emacs-orgmode/2009-04/msg00149.html eh, not very helpful.. looks like it's not there
 :PROPERTIES:
-:ID:       stslstsgnrgrchvhtmlmcsrgmmlhntvryhlpfllkslktsntthr
+:ID:       slstsgnrgrchvhtmlmcsrgmdmmlhntvryhlpfllkslktsntthr
 :END:
 https://lists.gnu.org/archive/html/emacs-orgmode/2009-04/msg00133.html
 
@@ -52,12 +52,12 @@ https://lists.gnu.org/archive/html/emacs-orgmode/2009-04/msg00133.html
 
 * TODO [#B] [2019-10-07] outline sections [[https://reddit.com/r/orgmode/comments/dd6wr5/weekly_rorgmode_open_discussion_october_04_2019/f2v6be3/][Weekly /r/Orgmode Open Discussion - October 04, 2019]] /r/orgmode :blog:
 :PROPERTIES:
-:ID:       mntlnsctnssrddtcmrrgmdcmmklyrrgmdpndscssnctbrrrgmd
+:ID:       tlnsctnssrddtcmrrgmdcmmntklyrrgmdpndscssnctbrrrgmd
 :END:
 No ... But workarounds exist ... https://orgmode.org/worg/org-faq.html#closing-outline-sections
 * TODO [#A] [2018-10-27] Fast refiling in org-mode with hydras | Josh Moller-Mara
 :PROPERTIES:
-:ID:       stfstrflngnrgmdwthhydrsjshmllrmr
+:ID:       fstrflngnrgmdwthhydrsjshmllrmr
 :END:
 https://mollermara.com/blog/Fast-refiling-in-org-mode-with-hydras/
 * TODO [#A] Map unschedule to capital u?
@@ -74,22 +74,22 @@ https://mollermara.com/blog/Fast-refiling-in-org-mode-with-hydras/
 perhaps has to do with this... https://emacs.stackexchange.com/questions/32473/edit-org-mode-tags-using-ido-or-ivy-completion
 * STRT [#B] [2019-10-01] alphapapa/org-sidebar: A helpful sidebar for Org mode
 :PROPERTIES:
-:ID:       tlphpprgsdbrhlpflsdbrfrrgmd
+:ID:       lphpprgsdbrhlpflsdbrfrrgmd
 :END:
 https://github.com/alphapapa/org-sidebar
 ** [2019-10-06] ok, interesting but not sure how it would be useful for me?
 :PROPERTIES:
-:ID:       snkntrstngbtntsrhwtwldbsflfrm
+:ID:       kntrstngbtntsrhwtwldbsflfrm
 :END:
 ** [2020-12-06] org-sidebar-backlinks looks good? maybe  use a sidebar with all todo items summary
 :PROPERTIES:
-:ID:       snrgsdbrbcklnkslksgdmybssdbrwthlltdtmssmmry
+:ID:       rgsdbrbcklnkslksgdmybssdbrwthlltdtmssmmry
 :END:
 need to setup a hook though to refresh it on buffer switch
 
 * TODO [#B] [2019-10-05] Is it possible to clear src results in org-mode? - Emacs Stack Exchange
 :PROPERTIES:
-:ID:       ststpssbltclrsrcrsltsnrgmdmcsstckxchng
+:ID:       stpssbltclrsrcrsltsnrgmdmcsstckxchng
 :END:
 https://emacs.stackexchange.com/questions/35537/is-it-possible-to-clear-src-results-in-org-mode
 : Option 2 - Use :results replace drawer
@@ -118,12 +118,12 @@ CREATED: [2018-01-23]
 
 * STRT [#B] [2020-01-10] [[https://reddit.com/r/emacs/comments/emran7/amazing_library_for_org_hackers/][Amazing library for org hackers]] /r/emacs
 :PROPERTIES:
-:ID:       frsrddtcmrmcscmmntsmrnmznkrsmznglbrryfrrghckrsrmcs
+:ID:       srddtcmrmcscmmntsmrnmznglkrsmznglbrryfrrghckrsrmcs
 :END:
 https://github.com/ndwarshuis/om.el
 * TODO [#B] [2020-02-16] alphapapa/org-ql: An Org-mode query language, including search commands and saved views
 :PROPERTIES:
-:ID:       snlphpprgqlnrgmdqrylnggncldngsrchcmmndsndsvdvws
+:ID:       lphpprgqlnrgmdqrylnggncldngsrchcmmndsndsvdvws
 :END:
 https://github.com/alphapapa/org-ql#helm-org-ql
 : helm-org-ql
@@ -134,7 +134,7 @@ https://github.com/alphapapa/org-ql#helm-org-ql
 :END:
 ** [#B] [2019-07-30] novoid/github-orgmode-tests: This is a test project where you can explore how github interprets Org-mode files
 :PROPERTIES:
-:ID:       tnvdgthbrgmdtststhsststprnxplrhwgthbntrprtsrgmdfls
+:ID:       nvdgthbrgmdtststhsststprjnxplrhwgthbntrprtsrgmdfls
 :END:
 https://github.com/novoid/github-orgmode-tests
 ** TODO [#C] for fucks sake https://github.com/wallyqs/org-ruby/issues/45
@@ -149,20 +149,20 @@ https://github.com/novoid/github-orgmode-tests
 :END:
 *** [2020-02-26] ah, maybe it's fine.. just needs :exports results?
 :PROPERTIES:
-:ID:       wdhmybtsfnjstndsxprtsrslts
+:ID:       hmybtsfnjstndsxprtsrslts
 :END:
 *** [2020-03-17] yeah, it's org-ruby and it's =#+results:= thing that's breaking it...
 :PROPERTIES:
-:ID:       tyhtsrgrbyndtsrsltsthngthtsbrkngt
+:ID:       yhtsrgrbyndtsrsltsthngthtsbrkngt
 :END:
 *** [2020-05-10] right. apparently preempting with newline and using a drawe allows not to remove it?
 :PROPERTIES:
-:ID:       snrghtpprntlyprmptngwthnwlnndsngdrwllwsnttrmvt
+:ID:       rghtpprntlyprmptngwthnwlnndsngdrwllwsnttrmvt
 :END:
 see hpi/doc/MODULES.org
 *** [2020-07-15] right. apparently, :results scalar wraps it in begin_example and also works? see kobuddy
 :PROPERTIES:
-:ID:       wdrghtpprntlyrsltssclrwrpstnbgnxmplndlswrksskbddy
+:ID:       rghtpprntlyrsltssclrwrpstnbgnxmplndlswrksskbddy
 :END:
 ** TODO ugh, seems that #+result drawer fails to render?
 :PROPERTIES:
@@ -212,13 +212,13 @@ https://github.com/m-cat/org-recur#recommended-org-mode-settings
 
 * TODO [#B] [2019-10-26] Code blocks - Org Babel reference card        :blog:
 :PROPERTIES:
-:ID:       stcdblcksrgbblrfrnccrd
+:ID:       cdblcksrgbblrfrnccrd
 :END:
 https://org-babel.readthedocs.io/en/latest/eval/
 : You can define a code block somewhere and then call it explicitly elsewhere — provided the code block has a #+name: meta data to label it.
 * STRT [#B] [2020-02-06] Introducing Org Roam - Jethro Kuan
 :PROPERTIES:
-:ID:       thntrdcngrgrmjthrkn
+:ID:       ntrdcngrgrmjthrkn
 :END:
 https://blog.jethro.dev/posts/introducing_org_roam/
 
@@ -228,17 +228,17 @@ https://blog.jethro.dev/posts/introducing_org_roam/
 :END:
 ** TODO [#B] [2019-10-04] [[https://reddit.com/r/orgmode/comments/dd6wr5/weekly_rorgmode_open_discussion_october_04_2019/f2evhwh/][Weekly /r/Orgmode Open Discussion - October 04, 2019]] /r/orgmode
 :PROPERTIES:
-:ID:       frsrddtcmrrgmdcmmntsddwrwklyrrgmdpndscssnctbrrrgmd
+:ID:       srddtcmrrgmdcmmntsddwrwklklyrrgmdpndscssnctbrrrgmd
 :END:
 :  Here's another discussion [https://stackoverflow.com/questions/11718401/how-to-use-todo-tags-in-org-mode-without-defining-headings](https://stackoverflow.com/questions/11718401/how-to-use-todo-tags-in-org-mode-without-defining-headings)
 ** TODO [#B] [2019-10-04] [[https://reddit.com/r/orgmode/comments/dd6wr5/weekly_rorgmode_open_discussion_october_04_2019/f2ektrl/][Weekly /r/Orgmode Open Discussion - October 04, 2019]] /r/orgmode
 :PROPERTIES:
-:ID:       frsrddtcmrrgmdcmmntsddwrwklyrrgmdpndscssnctbrrrgmd
+:ID:       srddtcmrrgmdcmmntsddwrwklklyrrgmdpndscssnctbrrrgmd
 :END:
 :  There's no way to do that, and it would probably be very messy to implement.  But try "inline tasks."
 ** TODO [#B] [2019-10-04] [[https://reddit.com/r/orgmode/comments/dd6wr5/weekly_rorgmode_open_discussion_october_04_2019/f2eiggk/][Weekly /r/Orgmode Open Discussion - October 04, 2019]] /r/orgmode
 :PROPERTIES:
-:ID:       frsrddtcmrrgmdcmmntsddwrwklyrrgmdpndscssnctbrrrgmd
+:ID:       srddtcmrrgmdcmmntsddwrwklklyrrgmdpndscssnctbrrrgmd
 :END:
 :   While it is not a solution, i use checkboxes i these kind of situations. Another workaround could be to create a checklist underneath the top heading and link to the subheadings.
 : 
@@ -258,7 +258,7 @@ https://blog.jethro.dev/posts/introducing_org_roam/
 :  ```
 ** STRT [#C] [2019-12-17] [[https://reddit.com/r/opensource/comments/cazgsa/annotating_everything_overview_of_linuxandroid/fb7p2w7/][Annotating everything: overview of Linux/Android tools for active reading]] /r/opensource
 :PROPERTIES:
-:ID:       tsrddtcmrpnsrccmmntsczgsnlnxndrdtlsfrctvrdngrpnsrc
+:ID:       srddtcmrpnsrccmmntsczgsnnlnxndrdtlsfrctvrdngrpnsrc
 :END:
 :  > One big drawback with Org mode (and I believe most of outline/task list formats) though is that if you insert child outline items in the middle of text, it would structurally break it in two parts, so you'd have to append > your commend to the end of current outline (which can be potentially very long). On the other hand, plain list items, which you can insert in arbitrary place, are very limited and don't support most of things outline support like tags, timestamps, priorities etc.
 : 
@@ -280,7 +280,7 @@ https://blog.jethro.dev/posts/introducing_org_roam/
 :END:
 ** [2020-06-03] ugh! desperately need insert-date things
 :PROPERTIES:
-:ID:       wdghdsprtlyndnsrtdtthngs
+:ID:       ghdsprtlyndnsrtdtthngs
 :END:
 perhaps it should be smart and add whitespace (move point too)
 ** TODO [2020-06-09] use my/now C-t? maybe alt-t is better or something :habit:
@@ -290,13 +290,13 @@ perhaps it should be smart and add whitespace (move point too)
 
 * TODO [#C] [2019-03-29] org mode - Update the org-agenda-daily-view automatically on background - Emacs Stack Exchange
 :PROPERTIES:
-:ID:       frrgmdpdtthrggnddlyvwtmtcllynbckgrndmcsstckxchng
+:ID:       rgmdpdtthrggnddlyvwtmtcllynbckgrndmcsstckxchng
 :END:
 https://emacs.stackexchange.com/questions/47254/update-the-org-agenda-daily-view-automatically-on-background
 : (run-with-idle-timer 300 t (lambda () (org-agenda nil "a")) )
 * TODO [#C] [2019-05-12] Org-mode Hidden Gems - 01 Document Structure
 :PROPERTIES:
-:ID:       snrgmdhddngmsdcmntstrctr
+:ID:       rgmdhddngmsdcmntstrctr
 :END:
 https://yiufung.net/post/org-mode-hidden-gems-pt1/
 : And I only learn the existence of Description list today. Writing:
@@ -306,29 +306,29 @@ https://yiufung.net/post/org-mode-hidden-gems-pt1/
 :   authoring documents with a fast and effective plain-text system
 * [#C] [2020-02-27] wow, highlighting broken file links is very cool   :doom:
 :PROPERTIES:
-:ID:       thwwhghlghtngbrknfllnkssvrycl
+:ID:       wwhghlghtngbrknfllnkssvrycl
 :END:
 * TODO [#B] [2020-01-28] [[https://reddit.com/r/orgmode/comments/ev28kw/wip_orgqlview_dispatch_popup_like_magit/][WIP: org-ql-view dispatch popup (like Magit)]] /r/orgmode :orgql:
 :PROPERTIES:
-:ID:       tsrddtcmrrgmdcmmntsvkwwprrgqlvwdsptchppplkmgtrrgmd
+:ID:       srddtcmrrgmdcmmntsvkwwprgrgqlvwdsptchppplkmgtrrgmd
 :END:
 ** [2020-12-06] oh wow it's super neat! interactive old-dispatch
 :PROPERTIES:
-:ID:       snhwwtssprntntrctvlddsptch
+:ID:       hwwtssprntntrctvlddsptch
 :END:
 * STRT [#C] [2019-10-26] m-cat/org-recur: Recurring org-mode tasks
 :PROPERTIES:
-:ID:       stmctrgrcrrcrrngrgmdtsks
+:ID:       mctrgrcrrcrrngrgmdtsks
 :END:
 https://github.com/m-cat/org-recur
 : This package extends org-mode and org-agenda with support for defining recurring tasks and easily scheduling them.
 ** [2020-06-10] ugh. |3| didn't work, regardless org-recur-mode or org-recur-agenda-mode...
 :PROPERTIES:
-:ID:       wdghddntwrkrgrdlssrgrcrmdrrgrcrgndmd
+:ID:       ghddntwrkrgrdlssrgrcrmdrrgrcrgndmd
 :END:
 * TODO [#C] [2019-11-02] Org mode for meeting minutes                  :blog:
 :PROPERTIES:
-:ID:       strgmdfrmtngmnts
+:ID:       rgmdfrmtngmnts
 :END:
 https://lists.gnu.org/archive/html/emacs-orgmode/2019-10/msg00300.html
 : *** Reports from the sub teams
@@ -346,7 +346,7 @@ hmm, inline tasks could actually work ok... could even hack them in export?
 :END:
 ** [2019-11-02] mm, ok, I gues 1-7 keys do this well
 :PROPERTIES:
-:ID:       stmmkgskysdthswll
+:ID:       mmkgskysdthswll
 :END:
 
 * TODO [#C] use org-agenda-open-link, set up def browser
@@ -379,12 +379,12 @@ hmm, maybe just mark task as DND (do not delete) in the heading
 :END:
 ** [2020-06-09] eh? I think it was referring to the priority changing? was resolved probably?
 :PROPERTIES:
-:ID:       ththnktwsrfrrngtthprrtychngngwsrslvdprbbly
+:ID:       hthnktwsrfrrngtthprrtychngngwsrslvdprbbly
 :END:
 
 * TODO [#C] [2019-02-15] The Org Manual: Speed keys
 :PROPERTIES:
-:ID:       frthrgmnlspdkys
+:ID:       thrgmnlspdkys
 :END:
 https://orgmode.org/manual/Speed-keys.html
 
@@ -426,7 +426,7 @@ works as expected without raw though..
 e.g. in edit mode, alt + hjkl is operating on the structure and can't change the text?
 * TODO [#C] [2019-10-11] [[https://reddit.com/r/orgmode/comments/dgeojs/weekly_rorgmode_open_discussion_october_11_2019/f3dfy7n/][Weekly /r/Orgmode Open Discussion - October 11, 2019]] /r/orgmode :performance:
 :PROPERTIES:
-:ID:       frsrddtcmrrgmdcmmntsdgjswklyrrgmdpndscssnctbrrrgmd
+:ID:       srddtcmrrgmdcmmntsdgjswklklyrrgmdpndscssnctbrrrgmd
 :END:
 :  Several megabytes.  I think the slowest thing in my Org config is activating `org-bullets-mode` and `org-indent-mode`, which only happens when a file is first opened.
 :  What kind of stutters are you getting, i.e. when do they happen?  You might just need to make a few adjustments to your config.
@@ -448,7 +448,7 @@ there is bunch of functions in widnow.el (e.g. display-buffer-in-atom-window),
 but couldn't force it
 * [#C] [2020-05-06] [[https://www.youtube.com/watch?v=jEJC-9iUXY8&list=PLomc4HLgvuCWuJVVwsT8pbLWYR-n3G8bH&index=4][(1) EmacsConf 2019 - 05 - Use Org mode when away from the desktop - Zen Monk Alain M. Lafon - YouTube]] :blog:
 :PROPERTIES:
-:ID:       wdswwwytbcmwtchvjjcxylstpyfrmthdsktpznmnklnmlfnytb
+:ID:       swwwytbcmwtchvjjcxylstplmyfrmthdsktpznmnklnmlfnytb
 :END:
 go through slides, it explains well history why how and what for he's using orgmode
 * TODO [#C] clipping/capturing images
@@ -466,7 +466,7 @@ then easy to locate with org-mode
 
 ** [2018-06-20] PRO and CON lists
 :PROPERTIES:
-:ID:       wdprndcnlsts
+:ID:       prndcnlsts
 :END:
 TLDR: just use + PRO, + CON and then use the post-export-hook
 https://lists.gnu.org/archive/html/emacs-orgmode/2010-04/msg00248.html
@@ -479,7 +479,7 @@ https://lists.gnu.org/archive/html/emacs-orgmode/2010-04/msg00248.html
 
 * STRT [#C] [2018-08-25] need feedback for org-mode web app - view/search org files from Dropbox on web : orgmode
 :PROPERTIES:
-:ID:       stndfdbckfrrgmdwbppvwsrchrgflsfrmdrpbxnwbrgmd
+:ID:       ndfdbckfrrgmdwbppvwsrchrgflsfrmdrpbxnwbrgmd
 :END:
 https://www.reddit.com/r/orgmode/comments/9522eg/need_feedback_for_orgmode_web_app_viewsearch_org/
 
@@ -487,18 +487,18 @@ mm, not sure how far he made it...
 
 ** [2019-01-13] https://www.reddit.com/r/orgmode/comments/9522eg/need_feedback_for_orgmode_web_app_viewsearch_org/
 :PROPERTIES:
-:ID:       snswwwrddtcmrrgmdcmmntsgndfdbckfrrgmdwbppvwsrchrg
+:ID:       swwwrddtcmrrgmdcmmntsgndfdbckfrrgmdwbppvwsrchrg
 :END:
 https://orgmodeweb.org/
 
 it looks sort of ok, but still bugs in the interface. note sure if better than nuage?
 ** [2019-03-27] looks broken :(
 :PROPERTIES:
-:ID:       wdlksbrkn
+:ID:       lksbrkn
 :END:
 ** [2019-05-30] still no updates...
 :PROPERTIES:
-:ID:       thstllnpdts
+:ID:       stllnpdts
 :END:
 
 * TODO [#C] how to separate or archive org state history?
@@ -519,7 +519,7 @@ it looks sort of ok, but still bugs in the interface. note sure if better than n
 :END:
 * TODO [#C] [2019-02-10] profiler - How do I speed up org-mode agenda generation - Emacs Stack Exchange
 :PROPERTIES:
-:ID:       snprflrhwdspdprgmdgndgnrtnmcsstckxchng
+:ID:       prflrhwdspdprgmdgndgnrtnmcsstckxchng
 :END:
 https://emacs.stackexchange.com/questions/804/how-do-i-speed-up-org-mode-agenda-generation
 : I've created this workaround, which pregenerates an agenda buffer whenever Emacs is idle for more than 5 seconds. The next time the agenda command is run, generation takes less than a second, since the org buffers have already been loaded.
@@ -538,7 +538,7 @@ https://emacs.stackexchange.com/questions/804/how-do-i-speed-up-org-mode-agenda-
 :END:
 ** [2019-06-23] https://stackoverflow.com/a/25668739/706389 Take note that it's defined as a constant, so you're not encouraged to fiddle with it (but you still can:).
 :PROPERTIES:
-:ID:       snsstckvrflwcmtkntthttsdfntncrgdtfddlwthtbtystllcn
+:ID:       sstckvrflwcmtkntthttsdfndntncrgdtfddlwthtbtystllcn
 :END:
 * TODO [#C] helm-org-refile is a bit stupid; e.g. try refiling to 'watch'
 :PROPERTIES:
@@ -548,7 +548,7 @@ https://emacs.stackexchange.com/questions/804/how-do-i-speed-up-org-mode-agenda-
 
 * [#C] [2019-10-23] [O] noweb strip-export
 :PROPERTIES:
-:ID:       wdnwbstrpxprt
+:ID:       nwbstrpxprt
 :END:
 https://www.mail-archive.com/emacs-orgmode@gnu.org/msg123779.html
 : Aloha all,
@@ -560,7 +560,7 @@ https://www.mail-archive.com/emacs-orgmode@gnu.org/msg123779.html
 :END:
 * TODO [#C] [2019-10-05] emacs - Inline code in org-mode - Stack Overflow
 :PROPERTIES:
-:ID:       stmcsnlncdnrgmdstckvrflw
+:ID:       mcsnlncdnrgmdstckvrflw
 :END:
 https://stackoverflow.com/questions/16186843/inline-code-in-org-mode
 : While monospaced is good enough for most cases, inline code blocks have the form src_LANG[headers]{your code}. For example, src_xml[:exports code]{<tag>text</tag>}.
@@ -570,7 +570,7 @@ https://stackoverflow.com/questions/16186843/inline-code-in-org-mode
 : - Inline code src_sh[:exports code]{echo -e "test"}
 * TODO [#C] [2019-10-26] Code blocks - Org Babel reference card        :blog:
 :PROPERTIES:
-:ID:       stcdblcksrgbblrfrnccrd
+:ID:       cdblcksrgbblrfrnccrd
 :END:
 https://org-babel.readthedocs.io/en/latest/eval/
 : Syntax
@@ -586,23 +586,23 @@ https://org-babel.readthedocs.io/en/latest/eval/
 :END:
 * STRT [#C] [2020-01-10] ndwarshuis/om.el: A functional library for org-mode
 :PROPERTIES:
-:ID:       frndwrshsmlfnctnllbrryfrrgmd
+:ID:       ndwrshsmlfnctnllbrryfrrgmd
 :END:
 https://github.com/ndwarshuis/om.el
 : A functional API for org-mode inspired by @magnars's dash.el and s.el libraries.
 * [#C] [2020-05-03] [[https://www.reddit.com/r/emacs/comments/gckuv2/a_featureful_blog_made_with_emacs_orgmode/][A Featureful Blog made with Emacs Org-mode : emacs]]
 :PROPERTIES:
-:ID:       snswwwrddtcmrmcscmmntsgckmdftrflblgmdwthmcsrgmdmcs
+:ID:       swwwrddtcmrmcscmmntsgckvfmdftrflblgmdwthmcsrgmdmcs
 :END:
 
 * TODO [#C] [2020-11-24] [[https://github.com/landakram/org-z][landakram/org-z: Lightweight, Org-mode flavored zettelkasten links.]]
 :PROPERTIES:
-:ID:       tsgthbcmlndkrmrgzlndkrmrgwghtrgmdflvrdzttlkstnlnks
+:ID:       sgthbcmlndkrmrgzlndkrmrgzwghtrgmdflvrdzttlkstnlnks
 :END:
 
 * [#C] [2020-06-09] my/org-sort-entries -- actually it's good it's keeping stable sort for same prios
 :PROPERTIES:
-:ID:       tmyrgsrtntrsctllytsgdtskpngstblsrtfrsmprs
+:ID:       myrgsrtntrsctllytsgdtskpngstblsrtfrsmprs
 :END:
 that way I can refile to the end of the same file and it will sink item to the bottom
 * STRT [#C] make ,s to "refile to the same file"? i.e. "sink"
@@ -617,7 +617,7 @@ that way I can refile to the end of the same file and it will sink item to the b
 :END:
 * TODO [#C] [2020-10-09] [[https://orgmode.org/worg/dev/org-syntax.html][Org Syntax (draft)]]
 :PROPERTIES:
-:ID:       frsrgmdrgwrgdvrgsyntxhtmlrgsyntxdrft
+:ID:       srgmdrgwrgdvrgsyntxhtmlrgsyntxdrft
 :END:
 * TODO [#C] function to 'sink' a heading down till the next priority.. might be unstable though
 :PROPERTIES:
@@ -634,12 +634,12 @@ apparently this function, but not configurable at the moment?
 : (defun org-ql-view--format-element (element)
 * TODO [#C] [2019-10-31] [[https://reddit.com/r/orgmode/comments/dpk84w/done_tasks_with_different_color/f5w05hh/][DONE tasks with different color]] /r/orgmode
 :PROPERTIES:
-:ID:       thsrddtcmrrgmdcmmntsdpkwdhhdntskswthdffrntclrrrgmd
+:ID:       srddtcmrrgmdcmmntsdpkwdnthhdntskswthdffrntclrrrgmd
 :END:
 :  Setting `org-fontify-done-headline` to `t` will (in most themes) make any DONE heading grey. The `leuven` theme also makes the heading ~~strikethrough~~.
 * [#C] [2019-11-14] Python Source Code Blocks in Org Mode
 :PROPERTIES:
-:ID:       thpythnsrccdblcksnrgmd
+:ID:       pythnsrccdblcksnrgmd
 :END:
 https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html
 : Org Mode supports graphical output for LaTeX and HTML documents using Matplotlib.
@@ -650,12 +650,12 @@ https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html
 :END:
 * TODO [#D] [2020-04-26] [[https://github.com/toshism/org-super-links][toshism/org-super-links: Package to create links with auto backlinks]]
 :PROPERTIES:
-:ID:       snsgthbcmtshsmrgsprlnkstskspckgtcrtlnkswthtbcklnks
+:ID:       sgthbcmtshsmrgsprlnkstshskspckgtcrtlnkswthtbcklnks
 :END:
 : Package to create links with auto backlinks
 * TODO [#D] [2019-10-30] [[https://reddit.com/r/emacs/comments/domrl6/weekly_tipstricketc_thread/f5thc8l/][Weekly tips/trick/etc/ thread]] /r/emacs
 :PROPERTIES:
-:ID:       wdsrddtcmrmcscmmntsdmrlwkthclwklytpstrcktcthrdrmcs
+:ID:       srddtcmrmcscmmntsdmrlwklythclwklytpstrcktcthrdrmcs
 :END:
 :  Cool, I didn't know about `imenu-add-menubar-index`.
 :  You may also find `org-sidebar-tree` helpful: https://github.com/alphapapa/org-sidebar
@@ -691,7 +691,7 @@ via some browser extension? the most important thing is to hash the contents (pr
 then easy to locate with org-mode
 * DONE [#C] [2019-12-26] The Org Manual: Literal examples
 :PROPERTIES:
-:ID:       ththrgmnlltrlxmpls
+:ID:       thrgmnlltrlxmpls
 :END:
 https://orgmode.org/manual/Literal-examples.html
 : For simplicity when using small examples, you can also start the example lines with a colon followed by a space. There may also be additional whitespace before the colon:
@@ -718,20 +718,20 @@ could prob improve, e.g. detect actual stars?
 : rg '..............................*#(A|B|C|D)]'
 * TODO [#C] [2020-11-14] [[https://reddit.com/r/emacs/comments/jtydiy/who_needs_github_to_manage_a_project_when_you/][Who needs GitHub to manage a project when you have Emacs and Org]] /r/emacs
 :PROPERTIES:
-:ID:       stsrddtcmrmcscmmntsjtydywmngprjctwhnyhvmcsndrgrmcs
+:ID:       srddtcmrmcscmmntsjtydywhnmngprjctwhnyhvmcsndrgrmcs
 :END:
 ** [2020-12-11] tab-bar-mode and global-tab-line-mode ?
 :PROPERTIES:
-:ID:       frtbbrmdndglbltblnmd
+:ID:       tbbrmdndglbltblnmd
 :END:
 
 * STRT [#B] [2020-06-07] [[https://reddit.com/r/emacs/comments/gybdbq/orgro_an_orgmode_viewer_for_mobile/][Orgro: an org-mode viewer for mobile]] /r/emacs
 :PROPERTIES:
-:ID:       snsrddtcmrmcscmmntsgybdbqfrmblrgrnrgmdvwrfrmblrmcs
+:ID:       srddtcmrmcscmmntsgybdbqrgfrmblrgrnrgmdvwrfrmblrmcs
 :END:
 ** [2020-10-24] waiting for fdroid https://github.com/amake/orgro/issues/15
 :PROPERTIES:
-:ID:       stwtngfrfdrdsgthbcmmkrgrsss
+:ID:       wtngfrfdrdsgthbcmmkrgrsss
 :END:
 
 * TODO [2020-12-17] [[https://karl-voit.at/2019/09/25/categories-versus-tags/][UOMF: Using Org Mode Categories Versus Tags]] :habit:
@@ -800,7 +800,7 @@ https://www.gnu.org/software/emacs/manual/html_node/emacs/Specifying-File-Variab
 :END:
 * TODO [#D] [2020-04-12] [[https://orgmode.org/manual/Literal-Examples.html][Literal Examples (The Org Manual)]]
 :PROPERTIES:
-:ID:       snsrgmdrgmnlltrlxmplshtmlltrlxmplsthrgmnl
+:ID:       srgmdrgmnlltrlxmplshtmlltrlxmplsthrgmnl
 :END:
 : There is one limitation, however. You must insert a comma right before lines starting with either ‘*’, ‘,*’, ‘#+’ or ‘,#+’, as those may be interpreted as outlines nodes or some other special syntax. Org transparently strips these additional commas whenever it accesses the contents of the block.
 * TODO [#B] habits/drill should probably have importance? So the unimportant things are showed less frequently :spacedrep:
@@ -828,7 +828,7 @@ or cancelled
 
 * [#C] [2019-10-05] Re: [O] Bug: spurious newline after comment
 :PROPERTIES:
-:ID:       strbgsprsnwlnftrcmmnt
+:ID:       rbgsprsnwlnftrcmmnt
 :END:
 https://lists.gnu.org/archive/html/emacs-orgmode/2016-08/msg00276.html
 : 
@@ -838,7 +838,7 @@ https://lists.gnu.org/archive/html/emacs-orgmode/2016-08/msg00276.html
 :   `org-export-before-processing-hook'.
 * [#C] [2019-09-22] alphapapa/org-super-agenda: Supercharge your Org daily/weekly agenda by grouping items
 :PROPERTIES:
-:ID:       snlphpprgsprgndsprchrgyrrgdlywklygndbygrpngtms
+:ID:       lphpprgsprgndsprchrgyrrgdlywklygndbygrpngtms
 :END:
 https://github.com/alphapapa/org-super-agenda
 : If you want to install manually, you must also install these packages:
@@ -860,7 +860,7 @@ https://github.com/alphapapa/org-super-agenda
   : (setq locale-coding-system 'utf-8)       ; please
 * [#C] [2019-10-22] [[https://reddit.com/r/emacs/comments/dllhr7/rethink_org_mode_meets_professional_web_design/][Rethink: Org mode meets professional web design]] /r/emacs :org:
 :PROPERTIES:
-:ID:       tsrddtcmrmcscmmntsdllhrrtkrgmdmtsprfssnlwbdsgnrmcs
+:ID:       srddtcmrmcscmmntsdllhrrthkrgmdmtsprfssnlwbdsgnrmcs
 :END:
 :  Hi all,
 :  I recently posted a link on here about an org mode export template called [Imagine](https://jessekelly881-imagine.surge.sh/). I have been working on a new(and I believe much better) template recently called [Rethink](https://jessekelly881-rethink.surge.sh/). Yes, I know the name isn't the best.
@@ -892,12 +892,12 @@ huh.. fixed it via making that...
 :END:
 * CANCEL [#C] [2018-06-10] fniessen/org-html-themes: How to export Org mode files into awesome HTML in 2 minutes :org:blog:
 :PROPERTIES:
-:ID:       snfnssnrghtmlthmshwtxprtrgmdflsntwsmhtmlnmnts
+:ID:       fnssnrghtmlthmshwtxprtrgmdflsntwsmhtmlnmnts
 :END:
 https://github.com/fniessen/org-html-themes
 ** [2018-10-28]  eh, not so sure about it. doesn't look nice
 :PROPERTIES:
-:ID:       snhntssrbttdsntlknc
+:ID:       hntssrbttdsntlknc
 :END:
 
 
@@ -912,7 +912,7 @@ https://github.com/fniessen/org-html-themes
 
 * [#C] [2019-10-27] org babel - How to automatically tangle another source block to file when evaluate a source block in org-mode? - Emacs Stack Exchange
 :PROPERTIES:
-:ID:       snrgbblhwttmtcllytnglnthrtsrcblcknrgmdmcsstckxchng
+:ID:       rgbblhwttmtcllytnglnthrsrtsrcblcknrgmdmcsstckxchng
 :END:
 https://emacs.stackexchange.com/questions/14153/how-to-automatically-tangle-another-source-block-to-file-when-evaluate-a-source
 
@@ -937,7 +937,7 @@ http://kitchingroup.cheme.cmu.edu/blog/2016/11/04/New-link-features-in-org-9/
 
 * [#D] [2017-12-23] custom timestamp format                             :org:
 :PROPERTIES:
-:ID:       stcstmtmstmpfrmt
+:ID:       cstmtmstmpfrmt
 :END:
 https://emacs.stackexchange.com/questions/3179/how-to-make-org-mode-dwim-when-it-reads-times-in-timestamps
 
@@ -961,15 +961,15 @@ https://www.reddit.com/r/orgmode/comments/c6kc5r/org_mode_exporting_to_html/
 :END:
 ** [2019-11-02] eh?
 :PROPERTIES:
-:ID:       sth
+:ID:       h
 :END:
 * DONE [#D] [2019-07-29] sort by property TAGS                          :org:
 :PROPERTIES:
-:ID:       mnsrtbyprprtytgs
+:ID:       srtbyprprtytgs
 :END:
 * [#D] [2019-10-23] The Org Manual: Extracting source code
 :PROPERTIES:
-:ID:       wdthrgmnlxtrctngsrccd
+:ID:       thrgmnlxtrctngsrccd
 :END:
 https://orgmode.org/manual/Extracting-source-code.html
 : 14.4 Extracting source code
@@ -977,7 +977,7 @@ https://orgmode.org/manual/Extracting-source-code.html
 : Extracting source code from code blocks is a basic task in literate programming.
 * [#D] [2019-10-05] The Org Manual: Structure of code blocks
 :PROPERTIES:
-:ID:       stthrgmnlstrctrfcdblcks
+:ID:       thrgmnlstrctrfcdblcks
 :END:
 https://orgmode.org/manual/Structure-of-code-blocks.html
 : An inline code block conforms to this structure:
@@ -1019,7 +1019,7 @@ looks only by tag...
 
 * [#C] [2019-12-10] The Org Manual                                     :blog:
 :PROPERTIES:
-:ID:       tthrgmnl
+:ID:       thrgmnl
 :END:
 https://www.gnu.org/software/emacs/manual/html_mono/org.html
 :      BEGIN_aside
@@ -1050,7 +1050,7 @@ Ok looks this guy posted several posts and everyone is fine with that
 :END:
 ** [2019-11-02] eh?
 :PROPERTIES:
-:ID:       sth
+:ID:       h
 :END:
 * TODO [#D] wonder if this was causing issues for me in test.org ?     :doom:
 :PROPERTIES:
@@ -1068,7 +1068,7 @@ Ok looks this guy posted several posts and everyone is fine with that
 :END:
 * TODO [#C] [2020-09-22] [[https://github.com/hlissner/doom-emacs/issues/1116][When refiling: Invalid function: org-preserve-local-variables · Issue #1116 · hlissner/doom-emacs]]
 :PROPERTIES:
-:ID:       tsgthbcmhlssnrdmmcsssswhnrsrvlclvrblssshlssnrdmmcs
+:ID:       sgthbcmhlssnrdmmcsssswhnrrsrvlclvrblssshlssnrdmmcs
 :END:
 : ~/.emacs.d/.local/straight/build/org-mode/*.elc
 * CANCEL [#B] shit, looks my coefficient makes 3,4,5 pretty much irrelevant :spacedrep:orgdrill:
@@ -1114,7 +1114,7 @@ hmm, maybe disassemble dropsync to hack update frequency via automate on wifi?
 :END:
 * TODO [#D] [2019-10-26] EmacsConf 2019 - Schedule                  :towatch:
 :PROPERTIES:
-:ID:       stmcscnfschdl
+:ID:       mcscnfschdl
 :END:
 https://emacsconf.org/2019/schedule
 : Managing your life with org-mode and other tools
@@ -1122,19 +1122,19 @@ https://emacsconf.org/2019/schedule
 
 * [#D] [2019-12-04] Org mode for Emacs – Release notes                  :org:
 :PROPERTIES:
-:ID:       wdrgmdfrmcsrlsnts
+:ID:       rgmdfrmcsrlsnts
 :END:
 https://orgmode.org/Changes.html
 : New link-type: Attachment
 * TODO [#D] [2019-10-19] org-emms - MELPA                    :org:annotation:
 :PROPERTIES:
-:ID:       strgmmsmlp
+:ID:       rgmmsmlp
 :END:
 https://melpa.org/#/org-emms
 interesting, could use for annotating?
 * TODO [#D] [2019-09-25] Blog Series: Using Org Mode Features (UOMF)    :org:
 :PROPERTIES:
-:ID:       wdblgsrssngrgmdftrsmf
+:ID:       blgsrssngrgmdftrsmf
 :END:
 https://karl-voit.at/2019/09/25/using-orgmode/
 : Using many or few Org mode files
@@ -1143,65 +1143,65 @@ https://karl-voit.at/2019/09/25/using-orgmode/
 : Update on contact management
 * [#C] [2020-02-13] alphapapa/org-almanac: Almanac for Org mode         :org:
 :PROPERTIES:
-:ID:       thlphpprglmnclmncfrrgmd
+:ID:       lphpprglmnclmncfrrgmd
 :END:
 https://github.com/alphapapa/org-almanac
 how are people using org-mode
 
 * [#D] [2019-11-15] alphapapa/org-protocol-capture-html: Capture HTML from the browser selection into Emacs as org-mode content :org:capture:
 :PROPERTIES:
-:ID:       frlphpprgprtclcptrhtmlcptbrwsrslctnntmcssrgmdcntnt
+:ID:       lphpprgprtclcptrhtmlcptrhbrwsrslctnntmcssrgmdcntnt
 :END:
 https://github.com/alphapapa/org-protocol-capture-html
 
 * [2021-01-04] ~ vs = : the former preserves underscores? so better to use it? :org:
 :PROPERTIES:
-:ID:       mnvsthfrmrprsrvsndrscrssbttrtst
+:ID:       vsthfrmrprsrvsndrscrssbttrtst
 :END:
 * [#B] [2019-07-20] Org-mode Frequently Asked Questions                 :org:
 :PROPERTIES:
-:ID:       strgmdfrqntlyskdqstns
+:ID:       rgmdfrqntlyskdqstns
 :END:
 https://orgmode.org/worg/org-faq.html#closing-outline-sections
 The short answer to the question is no. Org-mode adheres to the cascading logic of outlines, in which a section is closed only by another section that occupies an equal or greater level.
 
 * [#A] [2020-01-28] [[https://reddit.com/r/orgmode/comments/ev5ox4/some_orgmode_features_you_may_not_know/][Some org-mode features you may not know]] /r/orgmode
 :PROPERTIES:
-:ID:       tsrddtcmrrgmdcmmntsvxsmrgnwsmrgmdftrsymyntknwrrgmd
+:ID:       srddtcmrrgmdcmmntsvxsmrgmnwsmrgmdftrsymyntknwrrgmd
 :END:
 - [2020-03-21] cool, but personally haven't found them useful
 * [2019-10-06] Emacs Org-mode - a system for note-taking and project planning - YouTube
 :PROPERTIES:
-:ID:       snmcsrgmdsystmfrnttkngndprjctplnnngytb
+:ID:       mcsrgmdsystmfrnttkngndprjctplnnngytb
 :END:
 https://www.youtube.com/watch?v=oJTwQvgfgMM&list=WL&index=35&t=4s
 eh, pretty intro level
 Don't think I need to watch org-mode demos anymore, really...
 * [2019-09-05] hmm, actually org-brain is pretty keyboard oriented. not sure how good is it in visualising stuff...
 :PROPERTIES:
-:ID:       thhmmctllyrgbrnsprttykybrrntdntsrhwgdstnvslsngstff
+:ID:       hmmctllyrgbrnsprttykybrdrntdntsrhwgdstnvslsngstff
 :END:
 * [2019-09-05] orgbrain: ok, it was somewhat interesting, but not sure if I it's visual enough...
 :PROPERTIES:
-:ID:       thrgbrnktwssmwhtntrstngbtntsrftsvslngh
+:ID:       rgbrnktwssmwhtntrstngbtntsrftsvslngh
 :END:
 * CANCEL [#B] [2018-07-24] Kungsgeten/org-brain: Org-mode wiki + concept-mapping :pkm:
 :PROPERTIES:
-:ID:       tkngsgtnrgbrnrgmdwkcncptmppng
+:ID:       kngsgtnrgbrnrgmdwkcncptmppng
 :END:
 https://github.com/Kungsgeten/org-brain
 mm, the brain looks very GUI and mouse demanding. org is def. better for me
 
 * [2018-07-24] Civilizer - Cleverly manage your data/knowledge/idea     :pkm:
 :PROPERTIES:
-:ID:       tcvlzrclvrlymngyrdtknwldgd
+:ID:       cvlzrclvrlymngyrdtknwldgd
 :END:
 https://suewonjp.github.io/civilizer/
 meh, looks very basic, is not backed by plaintext, not very googlable...
 
 * [2019-01-17] BuboFlash - helps with learning                :pkm:spacedrep:
 :PROPERTIES:
-:ID:       thbbflshhlpswthlrnng
+:ID:       bbflshhlpswthlrnng
 :END:
 https://buboflash.eu/bubo5/log-in?called-from=/bubo5/homepage
 mm, interesting thing, for web annotation. not sure if I want to use it?

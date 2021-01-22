@@ -7,13 +7,13 @@
 :END:
 ** TODO [#B] [2020-03-27] Hypothesis has a set of Pandas strategies for generating data :pandas:
 :PROPERTIES:
-:ID:       frhypthsshsstfpndsstrtgsfrgnrtngdt
+:ID:       hypthsshsstfpndsstrtgsfrgnrtngdt
 :END:
 : https://www.hillelwayne.com/talks/beyond-unit-tests/
 
 ** [2020-05-05] [[https://stackoverflow.com/questions/22627659/run-code-before-and-after-each-test-in-py-test][python - Run code before and after each test in py.test? - Stack Overflow]]
 :PROPERTIES:
-:ID:       tsstckvrflwcmqstnsrncdbfrndftrchtstnpytststckvrflw
+:ID:       sstckvrflwcmqstnsrncdbfrnndftrchtstnpytststckvrflw
 :END:
 : py.test fixtures are a technically adequate method to achieve your purpose.
 : 
@@ -23,7 +23,7 @@
 : def run_around_tests():
 ** [2019-08-02] python - How should I structure a pytest test only package? - Stack Overflow :testing:project:pip:
 :PROPERTIES:
-:ID:       frpythnhwshldstrctrpytsttstnlypckgstckvrflw
+:ID:       pythnhwshldstrctrpytsttstnlypckgstckvrflw
 :END:
 https://stackoverflow.com/questions/48111426/how-should-i-structure-a-pytest-test-only-package/48350323#48350323
 distribute tests with package..
@@ -43,7 +43,7 @@ distribute tests with package..
 :END:
 ** [#B] [2020-03-08] what-studio/profiling: An interactive continuous Python profiler
 :PROPERTIES:
-:ID:       snwhtstdprflngnntrctvcntnspythnprflr
+:ID:       whtstdprflngnntrctvcntnspythnprflr
 :END:
 https://github.com/what-studio/profiling
 : profiling live-profile webserver.py
@@ -51,24 +51,24 @@ https://github.com/what-studio/profiling
 ok, this is really nice and easy to use
 *** [2020-07-28] kinda unmaintainerd though?
 :PROPERTIES:
-:ID:       tkndnmntnrdthgh
+:ID:       kndnmntnrdthgh
 :END:
 ** [#A] [2019-07-20] profiling with cprof
 :PROPERTIES:
-:ID:       stprflngwthcprf
+:ID:       prflngwthcprf
 :END:
 : python3 -m cProfile -o stats.prof script.py
 : snakeviz stats.prof
 
 ** [#C] [2020-01-13] rkern/line_profiler: Line-by-line profiling for Python
 :PROPERTIES:
-:ID:       mnrkrnlnprflrlnbylnprflngfrpythn
+:ID:       rkrnlnprflrlnbylnprflngfrpythn
 :END:
 https://github.com/rkern/line_profiler
 
 ** [2018-03-10] profiling
 :PROPERTIES:
-:ID:       stprflng
+:ID:       prflng
 :END:
 : python3 -m cProfile -s tottime process.py | less
 : sudo apt install kcachegrind
@@ -95,7 +95,7 @@ https://github.com/rkern/line_profiler
 :END:
 ** [2020-04-02] minimal-setup-py/setup.py at master · maet3608/minimal-setup-py
 :PROPERTIES:
-:ID:       thmnmlstppystppytmstrmtmnmlstppy
+:ID:       mnmlstppystppytmstrmtmnmlstppy
 :END:
 https://github.com/maet3608/minimal-setup-py/blob/master/setup.py
 
@@ -112,26 +112,26 @@ ok, apparently pip does use some sort of 'set compiling', so worth doing that
 
 ** [#A] [2020-04-24] local PIP dependency: if the repo is in ~/path/to/repo~, put ~HPI@git+file://DUMMY/path/to/repo@master~ in ~setup.py~ :pip:
 :PROPERTIES:
-:ID:       frlclppdpndncyfthrpsnpthtpgtfldmmypthtrpmstrnstppy
+:ID:       lclppdpndncyfthrpsnpthtrppgtfldmmypthtrpmstrnstppy
 :END:
 no idea why you need DUMMY bit, must be some parsing quirk :shrug:
 also, sometimes it needs //DUMMY, sometimes ///DUMMY ???
 
 ** TODO [#B] [2019-12-15] bast/pypi-howto: How to publish Python packages on PyPI. :pypi:
 :PROPERTIES:
-:ID:       snbstpyphwthwtpblshpythnpckgsnpyp
+:ID:       bstpyphwthwtpblshpythnpckgsnpyp
 :END:
 https://github.com/bast/pypi-howto
 
 ** TODO [#C] [2019-07-02] Testing & Packaging · Homepage of Hynek Schlawack
 :PROPERTIES:
-:ID:       ttstngpckgnghmpgfhynkschlwck
+:ID:       tstngpckgnghmpgfhynkschlwck
 :END:
 https://hynek.me/articles/testing-packaging/
 : Your tests do not run against the package as it will be installed by its users. They run against whatever the situation in your project directory is.
 *** [2019-07-25] o
 :PROPERTIES:
-:ID:       th
+:ID:       3149_3409
 :END:
 : To achieve that, you just move your packages into a src directory and add a where argument to find_packages() in your setup.py:
 : 
@@ -159,7 +159,7 @@ ok, that seems to be way easier
 :END:
 ** [#C] [2019-12-05] python3.7 has a ~breakpoint()~ builtin + more https://hackernoon.com/python-3-7s-new-builtin-breakpoint-a-quick-tour-4f1aebc444c
 :PROPERTIES:
-:ID:       thpythnhsbrkpntbltnmrshckthnsnwbltnbrkpntqcktrfbcc
+:ID:       pythnhsbrkpntbltnmrshckrnthnsnwbltnbrkpntqcktrfbcc
 :END:
 
 ** TODO ~ipdb pp~ for pretty print                                    :habit:
@@ -201,7 +201,7 @@ however there are not any tools which do that...
 https://github.com/openstack/bandit
 *** [2021-01-16] wouldn't say it's super useful... might detect occasional eval or whatever, but won't help with more sophisticated stuff
 :PROPERTIES:
-:ID:       stwldntsytssprsflmghtdtctbtwnthlpwthmrsphstctdstff
+:ID:       wldntsytssprsflmghtdtctccbtwnthlpwthmrsphstctdstff
 :END:
 * [#C] * libraries
 :PROPERTIES:
@@ -209,13 +209,13 @@ https://github.com/openstack/bandit
 :END:
 ** [2019-04-02] peopledoc/workalendar: Worldwide holidays and workdays computational toolkit.
 :PROPERTIES:
-:ID:       tppldcwrklndrwrldwdhldysndwrkdyscmpttnltlkt
+:ID:       ppldcwrklndrwrldwdhldysndwrkdyscmpttnltlkt
 :END:
 https://github.com/peopledoc/workalendar
 
 ** [2018-12-09] Altair: Declarative Visualization in Python — Altair 2.3.0 documentation :viz:
 :PROPERTIES:
-:ID:       snltrdclrtvvslztnnpythnltrdcmnttn
+:ID:       ltrdclrtvvslztnnpythnltrdcmnttn
 :END:
 https://altair-viz.github.io/index.html
 * [#C] * Import system
@@ -228,20 +228,20 @@ https://altair-viz.github.io/index.html
 :END:
 ** [2017-12-17] from . import module
 :PROPERTIES:
-:ID:       snfrmmprtmdl
+:ID:       frmmprtmdl
 :END:
 local import
 
 ** [#B] [2020-01-17] Alone Djangonaut – How python's import machinery works
 :PROPERTIES:
-:ID:       frlndjngnthwpythnsmprtmchnrywrks
+:ID:       lndjngnthwpythnsmprtmchnrywrks
 :END:
 https://manikos.github.io/how-pythons-import-machinery-works
 : origin
 
 ** [#C] [2019-06-29] python - Relative imports for the billionth time - Stack Overflow
 :PROPERTIES:
-:ID:       stpythnrltvmprtsfrthbllnthtmstckvrflw
+:ID:       pythnrltvmprtsfrthbllnthtmstckvrflw
 :END:
 https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time
 : .. are only relative in a package
@@ -257,7 +257,7 @@ https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-
 :END:
 ** [#B] [2018-09-04] utcfromtimestamp -- returns timestamp, unaware; fromtimestamp -- returns offset + timestamp, unaware
 :PROPERTIES:
-:ID:       ttcfrmtmstmprtrnstmstmpnwmtmstmprtrnsffsttmstmpnwr
+:ID:       tcfrmtmstmprtrnstmstmpnwrmtmstmprtrnsffsttmstmpnwr
 :END:
 : In : datetime.fromtimestamp(123)
 : Out: datetime.datetime(1970, 1, 1, 4, 2, 3)
@@ -267,18 +267,18 @@ https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-
 : Out: datetime.datetime(1970, 1, 1, 0, 2, 3)
 ** [#B] [2018-09-04] ok, seems that it's better to use ~pytz.utc.localize(tz_unaware_datetime)~
 :PROPERTIES:
-:ID:       tksmsthttsbttrtspytztclclztznwrdttm
+:ID:       ksmsthttsbttrtspytztclclztznwrdttm
 :END:
 
 ** [2020-05-02] [[https://github.com/zachwill/moment][zachwill/moment: Dealing with dates in Python shouldn't have to suck.]]
 :PROPERTIES:
-:ID:       stsgthbcmzchwllmmntzchwllgwthdtsnpythnshldnthvtsck
+:ID:       sgthbcmzchwllmmntzchwllmmgwthdtsnpythnshldnthvtsck
 :END:
 : # Create a moment with words in it
 : moment.date("December 18, 2012")
 ** [2020-05-02] [[https://github.com/zachwill/moment][zachwill/moment: Dealing with dates in Python shouldn't have to suck.]]
 :PROPERTIES:
-:ID:       stsgthbcmzchwllmmntzchwllgwthdtsnpythnshldnthvtsck
+:ID:       sgthbcmzchwllmmntzchwllmmgwthdtsnpythnshldnthvtsck
 :END:
 : # Create a moment that would normally be pretty hard to do
 : moment.date("2 weeks ago")
@@ -288,7 +288,7 @@ https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-
 :END:
 ** [2018-07-05] creating top level logger is always bad (may happen before configuring). use factory method :logging:
 :PROPERTIES:
-:ID:       thcrtngtplvllggrslwysbdmyhppnbfrcnfgrngsfctrymthd
+:ID:       crtngtplvllggrslwysbdmyhppnbfrcnfgrngsfctrymthd
 :END:
 
 * [#C] * docs
@@ -315,7 +315,7 @@ https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-
 related #repl
 ** TODO [#D] [2019-04-09] python - Use IPython magic functions in ipdb shell - Stack Overflow
 :PROPERTIES:
-:ID:       tpythnspythnmgcfnctnsnpdbshllstckvrflw
+:ID:       pythnspythnmgcfnctnsnpdbshllstckvrflw
 :END:
 https://stackoverflow.com/questions/16184487/use-ipython-magic-functions-in-ipdb-shell
 : shell.find_line_magic('cpaste')()
@@ -326,26 +326,26 @@ https://stackoverflow.com/questions/16184487/use-ipython-magic-functions-in-ipdb
 
 * [#B] [2019-09-22] [[https://reddit.com/r/Python/comments/d4zfhc/python3_fstrings_a_complete_guide_to_the_most/f0ieyws/][Python3 f-strings - A complete guide to the most well received feature of Python 3.]] /r/Python
 :PROPERTIES:
-:ID:       snsrddtcmrpythncmmntsdzfhmstwllrcvdftrfpythnrpythn
+:ID:       srddtcmrpythncmmntsdzfhcpmstwllrcvdftrfpythnrpythn
 :END:
 : That’s a part of python’s data model like `len`, `reversed`, `iter`, …:
 : `datetime` simply defines [`datetime.__format__`](https://docs.python.org/3/library/datetime.html#datetime.date.__format__). The method [is explained here](https://docs.python.org/3/reference/datamodel.html#object.__format__).
 
 * TODO [#B] [2019-09-16] typeddjango/awesome-python-typing: Collection of awesome Python types, stubs, plugins, and tools to work with them. https://github.com/typeddjango/awesome-python-typing
 :PROPERTIES:
-:ID:       mntypddjngwsmpythntypngclhbcmtypddjngwsmpythntypng
+:ID:       typddjngwsmpythntypngcllchbcmtypddjngwsmpythntypng
 :END:
 
 * [#B] [2019-05-11] To yield or not to yield                          :yield:
 :PROPERTIES:
-:ID:       sttyldrnttyld
+:ID:       tyldrnttyld
 :END:
 https://barahilia.github.io/blog/computers/2017/01/04/to-yield-or-not-to-yield.html
 : Finally we came to this. To me it is more important that generators make code more elegant. Performance is usually relevant to smaller hot spots.
 : The idea is simple: in comparison to list interface where computation results are first saved and are returned only at the end, “yielding” could reach faster code and reduce memory usage. As a quick simulation we may use %timeit magic command in IPython with the following two functions:
 ** [2019-07-30] good point about separating validation and generation
 :PROPERTIES:
-:ID:       tgdpntbtsprtngvldtnndgnrtn
+:ID:       gdpntbtsprtngvldtnndgnrtn
 :END:
 * [#B] AST ~ast.dump(ast.parse("'a' in 'aa' in 'aaa'"))~
 :PROPERTIES:
@@ -360,11 +360,11 @@ https://barahilia.github.io/blog/computers/2017/01/04/to-yield-or-not-to-yield.h
 
 * TODO [#B] [2018-06-18] log optimizers i used
 :PROPERTIES:
-:ID:       mnlgptmzrssd
+:ID:       lgptmzrssd
 :END:
 * [#B] [2018-06-11] optimizing python CLI tools https://files.bemusement.org/talks/OSDC2008-FastPython/
 :PROPERTIES:
-:ID:       mnptmzngpythncltlssflsbmsmntrgtlkssdcfstpythn
+:ID:       ptmzngpythncltlssflsbmsmntrgtlkssdcfstpythn
 :END:
 interpreter -- about 10ms
 lazy imports
@@ -432,17 +432,17 @@ This gives you the power to use actual classes with actual types in your code in
 :END:
 * [#B] [2019-01-01] multiline string -- lstrip('\n') for nicer formatting!
 :PROPERTIES:
-:ID:       tmltlnstrnglstrpnfrncrfrmttng
+:ID:       mltlnstrnglstrpnfrncrfrmttng
 :END:
 * [#B] [2019-03-20] Tweet from Vladislav Isenbaev (@isenbaev), at Mar 20, 03:48: pickle просто скотски медленный, если что - кратно медленнее даже json'а
 :PROPERTIES:
-:ID:       wdtwtfrmvldslvsnbvsnbvtmrтократномедленнеедажеjsnа
+:ID:       twtfrmvldslvsnbvsnbvtmrpcтократномедленнеедажеjsnа
 :END:
 https://twitter.com/isenbaev/status/1108213595920166912
 
 * [#B] [2019-08-11] multiprocessing vs multithreading vs asyncio in Python 3.4 - Stack Overflow :concurrency:performance:
 :PROPERTIES:
-:ID:       snmltprcssngvsmltthrdngvssyncnpythnstckvrflw
+:ID:       mltprcssngvsmltthrdngvssyncnpythnstckvrflw
 :END:
 https://stackoverflow.com/questions/27435284/multiprocessing-vs-multithreading-vs-asyncio-in-python-3-4
 : if io_bound:
@@ -454,22 +454,22 @@ https://stackoverflow.com/questions/27435284/multiprocessing-vs-multithreading-v
 :     print("Multi Processing")
 * [#B] [2020-01-03] adamchainz/patchy: Patch the inner source of python functions at runtime. :lisp:
 :PROPERTIES:
-:ID:       frdmchnzptchyptchthnnrsrcfpythnfnctnstrntm
+:ID:       dmchnzptchyptchthnnrsrcfpythnfnctnstrntm
 :END:
 https://github.com/adamchainz/patchy#patchy
 : Patch the inner source of python functions at runtime.
 * TODO [#C] [2019-12-31] PyPy.js: Python in the web browser | Hacker News :js:webext:
 :PROPERTIES:
-:ID:       tpypyjspythnnthwbbrwsrhckrnws
+:ID:       pypyjspythnnthwbbrwsrhckrnws
 :END:
 https://news.ycombinator.com/item?id=17819138
 * [#C] [2018-06-22] ~difflib.unified_diff~ is suuuuper slow...
 :PROPERTIES:
-:ID:       frdfflbnfddffssprslw
+:ID:       dfflbnfddffssprslw
 :END:
 * [#C] [2018-04-21] scrapy debugging                                 :scrapy:
 :PROPERTIES:
-:ID:       stscrpydbggng
+:ID:       scrpydbggng
 :END:
 scrapy shell
 
@@ -487,7 +487,7 @@ mind that it might be different from browsing in chrome. because of user agent?
 
 * [#C] [2018-08-30] python's for..else makes in 'syntactially' look like a total function
 :PROPERTIES:
-:ID:       thpythnsfrlsmksnsyntctllylklkttlfnctn
+:ID:       pythnsfrlsmksnsyntctllylklkttlfnctn
 :END:
 * [#C] NamedTuple
 :PROPERTIES:
@@ -518,7 +518,7 @@ def N(*args, **kwargs):
 
 * [#C] [2018-12-08] get current function/method name
 :PROPERTIES:
-:ID:       stgtcrrntfnctnmthdnm
+:ID:       gtcrrntfnctnmthdnm
 :END:
 def fname():
     import inspect
@@ -530,7 +530,7 @@ def fname():
 :END:
 * [#C] [2019-04-30] [[https://reddit.com/r/flask/comments/9ort38/whats_the_difference_between_marshmallow_and/e7w8ror/][What's the difference between marshmallow and sql-alchemy?]] /r/flask
 :PROPERTIES:
-:ID:       tsrddtcmrflskcmmntsrtwhtswnmrshmllwndsqllchmyrflsk
+:ID:       srddtcmrflskcmmntsrtwhtstwnmrshmllwndsqllchmyrflsk
 :END:
 :  Marshmallow “converts” (deserializes) dicts to SQLAlchemy models or serializes SQLAlchemy models to dicts.
 :  SQLAlchemy is an ORM. It maps database schema (tables) and data to Python objects.
@@ -538,47 +538,47 @@ def fname():
 :  Flask-Marshmallow gives you a convenient interface to Marshmallow under Flask.
 * [#C] [2019-06-29] dominatepp/.travis.yml at master · karlicoss/dominatepp :ci:
 :PROPERTIES:
-:ID:       stdmntpptrvsymltmstrkrlcssdmntpp
+:ID:       dmntpptrvsymltmstrkrlcssdmntpp
 :END:
 https://github.com/karlicoss/dominatepp/blob/master/.travis.yml
 hmm, minimalistic travis is not so bad..
 * [#C] [2019-08-12] use ~re.VERBOSE~ for inline comments in regexes
 :PROPERTIES:
-:ID:       mnsrvrbsfrnlncmmntsnrgxs
+:ID:       srvrbsfrnlncmmntsnrgxs
 :END:
 * [#C] [2019-10-21] python - What do (lambda) function closures capture? - Stack Overflow :plt:
 :PROPERTIES:
-:ID:       mnpythnwhtdlmbdfnctnclsrscptrstckvrflw
+:ID:       pythnwhtdlmbdfnctnclsrscptrstckvrflw
 :END:
 https://stackoverflow.com/questions/2295290/what-do-lambda-function-closures-capture
 : Scoping in Python is dynamic and lexical. A closure will always remember the name and scope of the variable, not the object it's pointing to.
 * [#C] [2019-09-27] Python Negatypes • Hillel Wayne                  :typing:
 :PROPERTIES:
-:ID:       frpythnngtypshlllwyn
+:ID:       pythnngtypshlllwyn
 :END:
 https://www.hillelwayne.com/post/negatypes/
 
 * [#C] [2019-12-30] argparse — Parser for command-line options, arguments and sub-commands — Python 3.8.1 documentation
 :PROPERTIES:
-:ID:       mnrgprsprsrfrcmmndlnptnsrntsndsbcmmndspythndcmnttn
+:ID:       rgprsprsrfrcmmndlnptnsrgmntsndsbcmmndspythndcmnttn
 :END:
 https://docs.python.org/3/library/argparse.html
 : metavar - A name for the argument in usage messages.
 * [#C] [2020-01-07] Performance — python-rapidjson 0.4 documentation   :json:
 :PROPERTIES:
-:ID:       tprfrmncpythnrpdjsndcmnttn
+:ID:       prfrmncpythnrpdjsndcmnttn
 :END:
 https://python-rapidjson.readthedocs.io/en/latest/benchmarks.html
 ok, so loads speedups are not that significant for my purposes
 * [#C] [2019-07-19] python - Argparse: Way to include default values in '--help'? - Stack Overflow
 :PROPERTIES:
-:ID:       frpythnrgprswytnclddfltvlsnhlpstckvrflw
+:ID:       pythnrgprswytnclddfltvlsnhlpstckvrflw
 :END:
 https://stackoverflow.com/questions/12151306/argparse-way-to-include-default-values-in-help/18507871#18507871
 : Add '%(default)' to the help parameter to control what is displayed.
 * [#D] [2019-12-31] PyPy - packages http://packages.pypy.org           :pypy:
 :PROPERTIES:
-:ID:       tpypypckgspckgspypyrg
+:ID:       pypypckgspckgspypyrg
 :END:
 
 * [#D] Construct: kinda like struct but better? https://construct.readthedocs.io/en/latest/ :parsing:
@@ -591,44 +591,44 @@ https://stackoverflow.com/questions/12151306/argparse-way-to-include-default-val
 :END:
 * [#D] [2019-07-21] kython@git+https://github.com/karlicoss/kython.git@master dependency for setup.cfg :pip:
 :PROPERTIES:
-:ID:       snkythngtsgthbcmkrlcsskythngtmstrdpndncyfrstpcfg
+:ID:       kythngtsgthbcmkrlcsskythngtmstrdpndncyfrstpcfg
 :END:
 
 * TODO [#D] [2018-07-22] PyCon 2018 Talk Videos : Python https://www.reddit.com/r/Python/comments/8j4ep6/pycon_2018_talk_videos/ :towatch:
 :PROPERTIES:
-:ID:       snpycntlkvdspythnswwwrddtmrpythncmmntsjppycntlkvds
+:ID:       pycntlkvdspythnswwwrddtcmrpythncmmntsjppycntlkvds
 :END:
 
 * [#D] [2019-08-02] Basic usage — tox 3.13.3.dev13 documentation
 :PROPERTIES:
-:ID:       frbscsgtxdvdcmnttn
+:ID:       bscsgtxdvdcmnttn
 :END:
 https://tox.readthedocs.io/en/latest/example/basic.html#integration-with-setup-py-test-command
 : As the python eco-system rather moves away from using setup.py as a tool entry point it’s maybe best to not go for any setup.py test integration.
 * TODO [#D] [2018-06-12] if there is a 'main.py' in script dir, it gets imported -- wtf????
 :PROPERTIES:
-:ID:       tfthrsmnpynscrptdrtgtsmprtdwtf
+:ID:       fthrsmnpynscrptdrtgtsmprtdwtf
 :END:
 (while debugging telegram2org)
 * [#D] [2019-07-20] concurrent.futures https://docs.python.org/3.7/library/concurrent.futures.html?highlight=processpoolexecutor use ~map~
 :PROPERTIES:
-:ID:       stcncrrntftrssdcspythnrglhtmlhghlghtprcssplxctrsmp
+:ID:       cncrrntftrssdcspythnrglbrhtmlhghlghtprcssplxctrsmp
 :END:
 * [#D] [2019-08-11] PyCQA/pyflakes: A simple program which checks Python source files for errors
 :PROPERTIES:
-:ID:       snpycqpyflkssmplprgrmwhchchckspythnsrcflsfrrrrs
+:ID:       pycqpyflkssmplprgrmwhchchckspythnsrcflsfrrrrs
 :END:
 https://github.com/PyCQA/pyflakes
 : Pyflakes makes a simple promise: it will never complain about style, and it will try very, very hard to never emit false positives.
 : Pyflakes is also faster than Pylint or Pychecker. This is largely because Pyflakes only examines the syntax tree of each file individually. As a consequence, Pyflakes is more limited in the types of things it can check.
 * [#D] [2019-08-02] posargs are needed to passing adhoc args, e.g.      :tox:
 :PROPERTIES:
-:ID:       frpsrgsrnddtpssngdhcrgsg
+:ID:       psrgsrnddtpssngdhcrgsg
 :END:
 https://tox.readthedocs.io/en/latest/example/general.html#interactively-passing-positional-arguments
 * [#D] [2018-04-17] some misc notes
 :PROPERTIES:
-:ID:       tsmmscnts
+:ID:       smmscnts
 :END:
 : ## Print with @padding
 : `print("{:>d}{}".fomat(i, a[i]))` prints i aligned to at least two spaces as a decimal.
@@ -688,21 +688,21 @@ https://tox.readthedocs.io/en/latest/example/general.html#interactively-passing-
 :END:
 * [2019-04-22] yield is often preferrable because python doesn't have bindings in generators
 :PROPERTIES:
-:ID:       mnyldsftnprfrrblbcspythndsnthvbndngsngnrtrs
+:ID:       yldsftnprfrrblbcspythndsnthvbndngsngnrtrs
 :END:
 * [2019-05-01] there is a difference between returning generator and yield from generator. the latter keeps scope, which might be useful if you have open files
 :PROPERTIES:
-:ID:       wdthrsdffrncbtwnrtrnnggnrsscpwhchmghtbsflfyhvpnfls
+:ID:       thrsdffrncbtwnrtrnnggnrtrsscpwhchmghtbsflfyhvpnfls
 :END:
 * DONE [#C] [2019-07-30] To yield or not to yield                 :decorator:
 :PROPERTIES:
-:ID:       ttyldrnttyld
+:ID:       tyldrnttyld
 :END:
 https://barahilia.github.io/blog/computers/2017/01/04/to-yield-or-not-to-yield.html
 hmm. if I decorate function with list constructor, I can get both ease of use and yield in function's body
 ** [2019-07-30] huh, some things are mentioned in the original post actually
 :PROPERTIES:
-:ID:       thhsmthngsrmntndnthrgnlpstctlly
+:ID:       hhsmthngsrmntndnthrgnlpstctlly
 :END:
 
 
@@ -720,18 +720,18 @@ hmm. if I decorate function with list constructor, I can get both ease of use an
 : http://poetry.eustace.io
 ** [2021-01-16] eh, don't think it worked for me, I prefer to rely on setup.py
 :PROPERTIES:
-:ID:       sthdntthnktwrkdfrmprfrtrlynstppy
+:ID:       hdntthnktwrkdfrmprfrtrlynstppy
 :END:
 
 * [#C] [2019-08-25] https://docs.python.org/3.7/library/argparse.html argparse: use ~set_defaults~
 :PROPERTIES:
-:ID:       snsdcspythnrglbrryrgprshtmlrgprssstdflts
+:ID:       sdcspythnrglbrryrgprshtmlrgprssstdflts
 :END:
 : One particularly effective way of handling sub-commands is to combine the use of the add_subparsers() method with calls to set_defaults() so that each subparser knows which Python function it should execute. For example:
 : This way, you can let parse_args() do the job of calling the appropriate function after argument parsing is complete. Associating functions with actions like this is typically the easiest way to handle the different actions for each of your subparsers. However, if it is necessary to check the name of the subparser that was invoked, the dest keyword argument to the add_subparsers() call will work:
 ** [2019-09-02] ah, could pass lambda to forward to actual handler function!
 :PROPERTIES:
-:ID:       mnhcldpsslmbdtfrwrdtctlhndlrfnctn
+:ID:       hcldpsslmbdtfrwrdtctlhndlrfnctn
 :END:
 
 * TODO [#C] generate_ordering?                                       :python:
@@ -741,29 +741,29 @@ hmm. if I decorate function with list constructor, I can get both ease of use an
 :END:
 * TODO [#B] [2020-07-05] [[https://stackoverflow.com/questions/384076/how-can-i-color-python-logging-output][How can I color Python logging output? - Stack Overflow]] :logging:kython:
 :PROPERTIES:
-:ID:       snsstckvrflwcmqstnshwcnclclrpythnlggngtptstckvrflw
+:ID:       sstckvrflwcmqstnshwcnclrpclrpythnlggngtptstckvrflw
 :END:
 : 2020 code, no additional packages required, Python 3
 * TODO [#B] [2020-02-16] Direct URL PEP 508 support and installing sub-dependencies from Git · Issue 5566 · pypa/pip :pip:
 :PROPERTIES:
-:ID:       sndrctrlppspprtndnstllngsbdpndncsfrmgtsspyppp
+:ID:       drctrlppspprtndnstllngsbdpndncsfrmgtsspyppp
 :END:
 https://github.com/pypa/pip/issues/5566#issuecomment-402417467
 : We disabled the ability to use PEP 508 URL requirements in dependencies, since we don't want that a package installed from PyPI to result in the pip reaching out to an arbitary web URL. Basically, pip install spam should not make pip reach out to anything except PyPI.
 * [#B] [2020-02-16] Allow direct urls in install_requires · Issue 6301 · pypa/pip :python:
 :PROPERTIES:
-:ID:       snllwdrctrlsnnstllrqrssspyppp
+:ID:       llwdrctrlsnnstllrqrssspyppp
 :END:
 https://github.com/pypa/pip/issues/6301
 : ugh. so I can't have URL dependencies if it's meant to be on pypi???
 * TODO [#C] [2019-07-25] rstojnic/lazydata: Lazydata: Scalable data dependencies for Python projects
 :PROPERTIES:
-:ID:       thrstjnclzydtlzydtsclbldtdpndncsfrpythnprjcts
+:ID:       rstjnclzydtlzydtsclbldtdpndncsfrpythnprjcts
 :END:
 https://github.com/rstojnic/lazydata
 ** [2020-03-27] so it kinda keeps textual 'submodules' for data??
 :PROPERTIES:
-:ID:       frstkndkpstxtlsbmdlsfrdt
+:ID:       stkndkpstxtlsbmdlsfrdt
 :END:
 
 * TODO [#C] using pytest fixtures to inject stuff into the module :python:pytest:
@@ -773,7 +773,7 @@ https://github.com/rstojnic/lazydata
 :END:
 ** [2019-08-02] like in tz provider
 :PROPERTIES:
-:ID:       frlkntzprvdr
+:ID:       lkntzprvdr
 :END:
 * STRT [#C] end2end gui semi manual tests          :promnesia:python:testing:
 :PROPERTIES:
@@ -788,7 +788,7 @@ https://github.com/rstojnic/lazydata
 py, more-itertools, zipp, importlib-metadata, pluggy, six, pyparsing, packaging, atomicwrites, wcwidth, attrs, pytest, orger
 * TODO [#C] [2019-12-31] backoff · PyPI
 :PROPERTIES:
-:ID:       tbckffpyp
+:ID:       bckffpyp
 :END:
 https://pypi.org/project/backoff/
 : It is also possible to specify an alternate logger with the logger keyword argument. If a string value is specified the logger will be looked up by name.
@@ -805,7 +805,7 @@ https://pypi.org/project/backoff/
 
 * [#D] [2019-12-15] Support automatic versioning setuptools_scm-style? · Issue 140 · python-poetry/poetry
 :PROPERTIES:
-:ID:       snspprttmtcvrsnngstptlsscmstylsspythnptryptry
+:ID:       spprttmtcvrsnngstptlsscmstylsspythnptryptry
 :END:
 https://github.com/python-poetry/poetry/issues/140
 : right, poetry can't infer version...
@@ -816,13 +816,13 @@ https://github.com/python-poetry/poetry/issues/140
 :END:
 * [#D] [2019-07-26] python - pytest exits with no error but with "collected 0 items" - Stack Overflow :pytest:
 :PROPERTIES:
-:ID:       frpythnpytstxtswthnrrrbtwthcllctdtmsstckvrflw
+:ID:       pythnpytstxtswthnrrrbtwthcllctdtmsstckvrflw
 :END:
 https://stackoverflow.com/questions/37353960/pytest-exits-with-no-error-but-with-collected-0-items
 : pytest gathers tests according to a naming convention. By default any file that is to contain tests must be named starting with test_ and any function in a file that should be treated as a test must also start with test_.
 * TODO [#D] [2019-10-26] traceback — Print or retrieve a stack traceback — Python 3.8.0 documentation :errors:
 :PROPERTIES:
-:ID:       sttrcbckprntrrtrvstcktrcbckpythndcmnttn
+:ID:       trcbckprntrrtrvstcktrcbckpythndcmnttn
 :END:
 https://docs.python.org/3/library/traceback.html#tracebackexception-objects
 : TracebackException Objects
@@ -835,7 +835,7 @@ hmm, could use that?
 :END:
 * [#C] [2019-11-09] python - Run an OLS regression with Pandas Data Frame - Stack Overflow
 :PROPERTIES:
-:ID:       stpythnrnnlsrgrssnwthpndsdtfrmstckvrflw
+:ID:       pythnrnnlsrgrssnwthpndsdtfrmstckvrflw
 :END:
 https://stackoverflow.com/questions/19991445/run-an-ols-regression-with-pandas-data-frame
 : I think you can almost do exactly what you thought would be ideal, using the statsmodels package which was one of pandas' optional dependencies before pandas' version 0.20.0 (it was used for a few things in pandas.stats.)
@@ -846,7 +846,7 @@ https://stackoverflow.com/questions/19991445/run-an-ols-regression-with-pandas-d
 :END:
 * TODO [#C] [2019-09-01] vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources :tui:
 :PROPERTIES:
-:ID:       snvntwsmpythncrtdlstfwsmpnfrmwrkslbrrssftwrndrsrcs
+:ID:       vntwsmpythncrtdlstfwsmpytnfrmwrkslbrrssftwrndrsrcs
 :END:
 https://github.com/vinta/awesome-python
 : urwid - A library for creating terminal GUI applications with strong support for widgets, events, rich colors, etc.
@@ -893,32 +893,32 @@ https://github.com/vinta/awesome-python
 fucking hell..
 ** [2020-03-27] see takeout provider
 :PROPERTIES:
-:ID:       frstktprvdr
+:ID:       stktprvdr
 :END:
 
 * [#C] [2020-03-12] encode/httpx: A next generation HTTP client for Python. 🦋
 :PROPERTIES:
-:ID:       thncdxnxtgnrtnclntfrpythn
+:ID:       ncdxnxtgnrtnclntfrpythn
 :END:
 https://github.com/encode/httpx
 : HTTPX is a fully featured HTTP client for Python 3, which provides sync and async APIs, and support for both HTTP/1.1 and HTTP/2.
 * TODO [#C] [2020-09-02] [[https://python-prompt-toolkit.readthedocs.io/en/master/index.html][Python Prompt Toolkit 3.0 — prompt_toolkit 3.0.2 documentation]] :tui:python:
 :PROPERTIES:
-:ID:       wdspythnprmpttlktrdthdcsnprmpttlktprmpttlktdcmnttn
+:ID:       spythnprmpttlktrdthdcsnmsprmpttlktprmpttlktdcmnttn
 :END:
 * [2020-09-18] [[https://stackoverflow.com/questions/29284244/python-tox-install-a-dependency-as-editable][testing - Python/tox Install a dependency as editable - Stack Overflow]] :python:tox:pip:
 :PROPERTIES:
-:ID:       frsstckvrflwcmqstnspythntstlldpndncysdtblstckvrflw
+:ID:       sstckvrflwcmqstnspythntxnstlldpndncysdtblstckvrflw
 :END:
 how to install a dependency as editable
 * [2020-09-18] [[https://stackoverflow.com/questions/29284244/python-tox-install-a-dependency-as-editable][testing - Python/tox Install a dependency as editable - Stack Overflow]] :hpi:
 :PROPERTIES:
-:ID:       frsstckvrflwcmqstnspythntstlldpndncysdtblstckvrflw
+:ID:       sstckvrflwcmqstnspythntxnstlldpndncysdtblstckvrflw
 :END:
 add this to developer guide.. fucking hell
 * [2020-09-27] [[https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe][python - What is the difference between venv, pyvenv, pyenv, virtualenv, virtualenvwrapper, pipenv, etc? - Stack Overflow]]
 :PROPERTIES:
-:ID:       snsstckvrflwcmqstnswhtsthrtlnvwrpprppnvtcstckvrflw
+:ID:       sstckvrflwcmqstnswhtsthdfrtlnvwrpprppnvtcstckvrflw
 :END:
 : pipenv- like venv - can be used to create virtual envelopes but additionally rolls-in package management and vulnerability checking functionality. Instead of using requirements.txt, pipenv delivers package management via Pipfile. As PyPA endorses pipenv for PACKAGE MANAGEMENT, that would seem to imply pipfile is to supplant requirements.txt.
 : 
@@ -930,13 +930,13 @@ add this to developer guide.. fucking hell
 :END:
 * TODO [#C] [2019-08-25] argparseweb · PyPI
 :PROPERTIES:
-:ID:       snrgprswbpyp
+:ID:       rgprswbpyp
 :END:
 https://pypi.org/project/argparseweb
 
 * STRT [#C] [2019-09-01] vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources :cli:
 :PROPERTIES:
-:ID:       snvntwsmpythncrtdlstfwsmpnfrmwrkslbrrssftwrndrsrcs
+:ID:       vntwsmpythncrtdlstfwsmpytnfrmwrkslbrrssftwrndrsrcs
 :END:
 https://github.com/vinta/awesome-python
 : Command-line Interface Development
@@ -944,7 +944,7 @@ https://github.com/vinta/awesome-python
 :     Command-line Application Development
 * TODO [#B] [2019-08-02] GrahamDumpleton/wrapt: A Python module for decorators, wrappers and monkey patching.
 :PROPERTIES:
-:ID:       frgrhmdmpltnwrptpythnmdlfrdcrtrswrpprsndmnkyptchng
+:ID:       grhmdmpltnwrptpythnmdlfrdcrtrswrpprsndmnkyptchng
 :END:
 https://github.com/GrahamDumpleton/wrapt
 :  It therefore goes way beyond existing mechanisms such as functools.wraps() to ensure that decorators preserve introspectability, signatures, type checking abilities etc. Th
@@ -980,15 +980,15 @@ https://github.com/pypa/setuptools_scm/#default-versioning-scheme
 :END:
 * [2020-03-31] why it is hard -- if you have 2fa you can't upload packages :pypi:
 :PROPERTIES:
-:ID:       twhytshrdfyhvfycntpldpckgs
+:ID:       whytshrdfyhvfycntpldpckgs
 :END:
 ** [2020-03-31] ah ok, actually it allows for a token, so even better!
 :PROPERTIES:
-:ID:       thkctllytllwsfrtknsvnbttr
+:ID:       hkctllytllwsfrtknsvnbttr
 :END:
 * [#D] [2019-12-15] tox support python-poetry/poetry
 :PROPERTIES:
-:ID:       sntxspprtpythnptryptry
+:ID:       txspprtpythnptryptry
 :END:
 https://github.com/python-poetry/poetry/issues/222
 : For now, you can use poetry with tox by using something similar to what I did in pendulum: https://github.com/sdispater/pendulum/blob/master/tox.ini
@@ -1018,13 +1018,13 @@ https://github.com/python-poetry/poetry/issues/222
 :  That doesn't look great. `display` is quoting plain
 * CANCEL [#C] [2019-09-01] KoffeinFlummi/Chronyk: A Python 3 library for parsing human-written times and dates
 :PROPERTIES:
-:ID:       snkffnflmmchrnykpythnlbrryfrprsnghmnwrttntmsnddts
+:ID:       kffnflmmchrnykpythnlbrryfrprsnghmnwrttntmsnddts
 :END:
 https://github.com/KoffeinFlummi/Chronyk
 
 * [#D] [2019-11-17] sampleproject/setup.py at master · pypa/sampleproject
 :PROPERTIES:
-:ID:       snsmplprjctstppytmstrpypsmplprjct
+:ID:       smplprjctstppytmstrpypsmplprjct
 :END:
 https://github.com/pypa/sampleproject/blob/master/setup.py
 :     # This field corresponds to the "Description-Content-Type" metadata field:
@@ -1042,7 +1042,7 @@ https://github.com/pypa/sampleproject/blob/master/setup.py
 :END:
 * TODO [#D] [2019-07-25] pytest-profiling · PyPI
 :PROPERTIES:
-:ID:       thpytstprflngpyp
+:ID:       pytstprflngpyp
 :END:
 https://pypi.org/project/pytest-profiling/
 
@@ -1061,12 +1061,12 @@ https://pypi.org/project/pytest-profiling/
 :END:
 * [#C] [2020-10-06] [[https://brython.info/][Brython]]           :python:web:
 :PROPERTIES:
-:ID:       tsbrythnnfbrythn
+:ID:       sbrythnnfbrythn
 :END:
 : Speed of execution is similar to CPython for most operations.
 * TODO [#C] [2020-01-09] logzero: Python logging made easy — logzero 1.5.0 documentation
 :PROPERTIES:
-:ID:       thlgzrpythnlggngmdsylgzrdcmnttn
+:ID:       lgzrpythnlggngmdsylgzrdcmnttn
 :END:
 https://logzero.readthedocs.io/en/latest/
 : logzero.setup_logger(name=None, logfile
@@ -1089,7 +1089,7 @@ zoopla/zoopla/schemas.py
 
 * [#D] [2019-10-27] Ability to execute certain tests sequentially while using -n (xdist) · Issue #385 · pytest-dev/pytest-xdist
 :PROPERTIES:
-:ID:       snbltytxctcrtntstssqntllyngnxdstsspytstdvpytstxdst
+:ID:       bltytxctcrtntstssqntllywhngnxdstsspytstdvpytstxdst
 :END:
 https://github.com/pytest-dev/pytest-xdist/issues/385
 : Isn't this enough?
@@ -1097,7 +1097,7 @@ https://github.com/pytest-dev/pytest-xdist/issues/385
 : py.test -m "non sequential" -n8
 * [#D] [2019-10-27] pylint exceed maximum recursion depth · Issue #2388 · PyCQA/pylint
 :PROPERTIES:
-:ID:       snpylntxcdmxmmrcrsndpthsspycqpylnt
+:ID:       pylntxcdmxmmrcrsndpthsspycqpylnt
 :END:
 https://github.com/PyCQA/pylint/issues/2388
 : Thanks for the tip. I actually had that setting before and still keep it on. --extension-pkg-whitelist=numpy
@@ -1107,13 +1107,13 @@ https://github.com/PyCQA/pylint/issues/2388
 : astroid 2.2.5
 * [#D] [2019-10-27] Search pylint configuration in setup.cfg and pyproject.toml · Issue #617 · PyCQA/pylint
 :PROPERTIES:
-:ID:       snsrchpylntcnfgrtnnstpcfgndpyprjcttmlsspycqpylnt
+:ID:       srchpylntcnfgrtnnstpcfgndpyprjcttmlsspycqpylnt
 :END:
 https://github.com/PyCQA/pylint/issues/617#event-2701192212
 : Search pylint configuration in setup.cfg and pyproject.toml
 * TODO [#D] [2019-11-08] How do I use regex in a SQLite query? - Stack Overflow :sqlite:
 :PROPERTIES:
-:ID:       frhwdsrgxnsqltqrystckvrflw
+:ID:       hwdsrgxnsqltqrystckvrflw
 :END:
 https://stackoverflow.com/questions/5071601/how-do-i-use-regex-in-a-sqlite-query
 : With python, assuming con is the connection to SQLite, you can define the required UDF by writing:
@@ -1130,7 +1130,7 @@ https://stackoverflow.com/questions/5071601/how-do-i-use-regex-in-a-sqlite-query
 :END:
 * TODO [#C] [2020-06-07] [[https://blog.meadsteve.dev/programming/2020/02/10/types-at-the-edges-in-python/][Types at the edges in Python – MeadSteve's Dev Blog]] :python:
 :PROPERTIES:
-:ID:       snsblgmdstvdvprgrmmngtypspstthdgsnpythnmdstvsdvblg
+:ID:       sblgmdstvdvprgrmmngtypsttpstthdgsnpythnmdstvsdvblg
 :END:
 : Pydantic checks that each key I expected exists and is of the correct type. So now all the assumptions I’ve made about the shape of the data is a runtime contract, expressed in native python. If in production it turns out that description is, in fact, optional I’ll get a very descriptive error and the code will fail early.
 * TODO figuring out why has the package ended up in path             :python:
@@ -1142,7 +1142,7 @@ https://stackoverflow.com/questions/5071601/how-do-i-use-regex-in-a-sqlite-query
 : d for d in sorted(pkg_resources.working_set, key=lambda p: p.project_name)]
 * [2020-12-08] [[https://hakibenita.com/python-mypy-exhaustive-checking][Exhaustiveness Checking with Mypy | Haki Benita]] :python:mypy:
 :PROPERTIES:
-:ID:       tshkbntcmpythnmypyxhstvchhstvnsschckngwthmypyhkbnt
+:ID:       shkbntcmpythnmypyxhstvchchstvnsschckngwthmypyhkbnt
 :END:
 : Exhaustiveness Checking
 
@@ -1156,34 +1156,34 @@ use else clause with NoReturn, then mypy assists in refining
 : also I like how multiplication doesn't commute so the 'first' plot wins the layout parameters
 * TODO [#C] [2020-04-09] naiquevin/pipdeptree: A command line utility to display dependency tree of the installed Python packages [NOT ACCEPTING PRs FOR A WHILE BECAUSE OF MAJOR REFACTORING IN ANOTHER BRANCH]
 :PROPERTIES:
-:ID:       thnqvnppdptrcmmndlntltytdlbcsfmjrrfctrngnnthrbrnch
+:ID:       nqvnppdptrcmmndlntltytdsplbcsfmjrrfctrngnnthrbrnch
 :END:
 https://github.com/naiquevin/pipdeptree
 * [#C] [2020-04-23] [[https://github.com/pandas-dev/pandas/blob/master/setup.py][pandas/setup.py at master · pandas-dev/pandas]] :pip:
 :PROPERTIES:
-:ID:       thsgthbcmpndsdvpndsblbmstypndsstppytmstrpndsdvpnds
+:ID:       sgthbcmpndsdvpndsblbmstrsypndsstppytmstrpndsdvpnds
 :END:
 : Docum
 ** [2020-05-09] nice, pandas is using quite elaborate setup.py with proper documentation links
 :PROPERTIES:
-:ID:       stncpndsssngqtlbrtstppywthprprdcmnttnlnks
+:ID:       ncpndsssngqtlbrtstppywthprprdcmnttnlnks
 :END:
 * TODO [#C] [2019-07-28] kirankoduru/scrapy-programmatically: Running scrapy spider programmatically. :scrape:
 :PROPERTIES:
-:ID:       snkrnkdrscrpyprgrmmtcllyrnnngscrpyspdrprgrmmtclly
+:ID:       krnkdrscrpyprgrmmtcllyrnnngscrpyspdrprgrmmtclly
 :END:
 https://github.com/kirankoduru/scrapy-programmatically
 
 * [#D] [2020-04-23] [[https://github.com/karlicoss/promnesia/runs/612863976?check_suite_focus=true][detect all subpackages properly · karlicoss/promnesia@f7451c4]]
 :PROPERTIES:
-:ID:       thsgthbcmkrlcssprmnsrnschbpckgsprprlykrlcssprmnsfc
+:ID:       sgthbcmkrlcssprmnsrnschckbpckgsprprlykrlcssprmnsfc
 :END:
 : tests/integration_test.py::test_example_config
 :   /Users/runner/runners/2.169.1/work/promnesia/promnesia/.tox/py3/lib/python3.7/site-packages/hug/use.py:185: DeprecationWarning: invalid escape sequence \d
 :     status_code = int("".join(re.findall("\d+", response.status)))
 * [#D] [2020-04-05] Configs suck? Try a real programming language | Hacker News
 :PROPERTIES:
-:ID:       sncnfgsscktryrlprgrmmnglngghckrnws
+:ID:       cnfgsscktryrlprgrmmnglngghckrnws
 :END:
 https://news.ycombinator.com/item?id=22787332
 : mjw1007 28 minutes ago [-]
@@ -1191,16 +1191,16 @@ https://news.ycombinator.com/item?id=22787332
 : This avoids the security problems and the risk that someone will start to write programs inside the configuration file, but gives you the reasonably nice and powerful syntax.
 * [#C] [2020-10-14] [[https://github.com/google/python-fire][google/python-fire: Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.]] :cli:
 :PROPERTIES:
-:ID:       wdsgthbcmgglpythnfrgglpytcsclsfrmbsltlynypythnbjct
+:ID:       sgthbcmgglpythnfrgglpythncsclsfrmbsltlynypythnbjct
 :END:
 : ython Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
 * [#C] [2020-04-23] [[https://github.com/samuelhwilliams/Eel][samuelhwilliams/Eel: A little Python library for making simple Electron-like HTML/JS GUI apps]] :gui:
 :PROPERTIES:
-:ID:       thsgthbcmsmlhwllmslsmlhwlmkngsmpllctrnlkhtmljsgpps
+:ID:       sgthbcmsmlhwllmslsmlhwllmmkngsmpllctrnlkhtmljsgpps
 :END:
 * TODO [#C] [2020-04-15] [[https://github.com/pypa/setuptools/blob/master/setuptools/__init__.py#L80-L85][setuptools/__init__.py at master · pypa/setuptools]]
 :PROPERTIES:
-:ID:       wdsgthbcmpypstptlsblbmstrlstptlsntpytmstrpypstptls
+:ID:       sgthbcmpypstptlsblbmstrstlstptlsntpytmstrpypstptls
 :END:
 why is it not including files at all??
 * TODO [#C] hmm, seems like fastapi always has to be wrapped in pydantic. ugh!
@@ -1240,7 +1240,7 @@ run with uvicorn fa:app --reload --port 9090
 :     pytest = Mock()
 * [2020-04-30] [[https://docs.python.org/3/library/pkgutil.html][pkgutil — Package extension utility — Python 3.8.3rc1 documentation]]
 :PROPERTIES:
-:ID:       thsdcspythnrglbrrypkgtlhtkgxtnsntltypythnrcdcmnttn
+:ID:       sdcspythnrglbrrypkgtlhtmlkgxtnsntltypythnrcdcmnttn
 :END:
 : pkgutil.extend_path(path, name)
 : 
@@ -1252,41 +1252,41 @@ run with uvicorn fa:app --reload --port 9090
 :     This will add to the package’s __path__ all subdirectories of directories on sys.path named after the package. This is useful if one wants to distribute different parts of a single logical package as multiple directories.
 * TODO [#C] [2020-03-24] PEP 593 -- Flexible function and variable annotations | Python.org
 :PROPERTIES:
-:ID:       tppflxblfnctnndvrblnnttnspythnrg
+:ID:       ppflxblfnctnndvrblnnttnspythnrg
 :END:
 https://www.python.org/dev/peps/pep-0593/
 * TODO [#C] [2019-08-24] Simple dependent types in Python - DEV Community 👩‍💻👨‍💻 :mypy:python:
 :PROPERTIES:
-:ID:       stsmpldpndnttypsnpythndvcmmnty
+:ID:       smpldpndnttypsnpythndvcmmnty
 :END:
 https://dev.to/wemake-services/simple-dependent-types-in-python-4e14
 : Now, we are going to combine our new knowledge about Literal and @overload together to solve our problem with open. At last!
 * TODO [#B] [2020-07-08] [[https://news.ycombinator.com/item?id=23747133][SymPy - a Python library for symbolic mathematics | Hacker News]] :sympy:sage:
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdsympypyrryfrsymblcmthmtcshckrnws
+:ID:       snwsycmbntrcmtmdsympypythrryfrsymblcmthmtcshckrnws
 :END:
 : As one point of comparison, SymPy is comically slow compared to Sage. This is mostly because SymPy is purely Python; Sage on the other hand uses a derivative of GiNaC [1] for its internal symbolic expression representation, and then multiple external libraries for non-trivial operations. Symbolic transformations are mostly Maxima [3]. Sage literally converts expressions to strings, pipes them through a Maxima process, and then parses the result back. This is still much faster than the pure Python SymPy.
 : There is an effort to speed up SymPy core, SymEngine [3], but it's been in development for years now, and still isn't integrated into SymPy. Not sure why.
 : Case in point: 'expand("(2+3x+4x*y)^60")' takes 5 seconds with SymPy; Sage does the same in 0.02 seconds.
 * STRT [#B] [2020-07-26] [[https://qtconsole.readthedocs.io/en/stable/][The Qt Console for Jupyter — Jupyter Qt Console 4.7.5 documentation]]
 :PROPERTIES:
-:ID:       snsqtcnslrdthdcsnstblthqtfrjpytrjpytrqtcnsldcmnttn
+:ID:       sqtcnslrdthdcsnstblthqtcnfrjpytrjpytrqtcnsldcmnttn
 :END:
 : The Qt console is a very lightweight application that largely feels like a terminal, but provides a number of enhancements only possible in a GUI, such as inline figures, proper multi-line editing with syntax highlighting, graphical calltips, and much more. The Qt console can use any Jupyter kernel.
 * [#B] [2020-10-15] [[http://farmdev.com/src/secrets/framehack/][Frame Hacks]] :python:
 :PROPERTIES:
-:ID:       thfrmdvcmsrcscrtsfrmhckfrmhcks
+:ID:       frmdvcmsrcscrtsfrmhckfrmhcks
 :END:
 
 * [#B] [2019-03-17] pylint useful stuff                              :python:
 :PROPERTIES:
-:ID:       snpylntsflstff
+:ID:       pylntsflstff
 :END:
 : cell-var-from-loop -- can detect bad lambda capturing
 :  pylint --disable='C,fixme,'
 * [#C] [2020-01-26] Hypermodern Python Chapter 4: Typing · Claudio Jolowicz's website
 :PROPERTIES:
-:ID:       snhyprmdrnpythnchptrtypngcldjlwczswbst
+:ID:       hyprmdrnpythnchptrtypngcldjlwczswbst
 :END:
 https://cjolowicz.github.io/posts/hypermodern-python-04-typing/
 : Typeguard is a runtime type checker for Python:
@@ -1297,56 +1297,56 @@ https://cjolowicz.github.io/posts/hypermodern-python-04-typing/
 :END:
 * [#C] [2020-05-25] [[https://dmerej.info/blog/post/docopt-v-argparse/][docopt v argparse • Dimitri Merejkowsky]] :python:
 :PROPERTIES:
-:ID:       mnsdmrjnfblgpstdcptvrgprsdcptvrgprsdmtrmrjkwsky
+:ID:       sdmrjnfblgpstdcptvrgprsdcptvrgprsdmtrmrjkwsky
 :END:
 : But for big projects with lots of subcommands, written in Python, using argparse may be a better idea, especially if you need to do advanced stuff for your parsing, like configuring common options in one function, allow plug-ins to change the command line API, and so on …
 * [#D] [2019-12-08] Dynamically change __slots__ in Python 3 - Stack Overflow :python:
 :PROPERTIES:
-:ID:       sndynmcllychngsltsnpythnstckvrflw
+:ID:       dynmcllychngsltsnpythnstckvrflw
 :END:
 https://stackoverflow.com/questions/27907373/dynamically-change-slots-in-python-3
 : Normally, an object's attributes are stored in a dict, which requires a fair bit of memory itself. If you are creating millions of objects then the space required by these dicts becomes prohibitive. __slots__ informs the python machinery that makes the class object that there will only be so many attributes refered to by instances of this class and what the names of the attributes will be. Therefore, the class can make an optimisation by storing the attributes directly on the instance rather than in a dict. It places the memory for the (pointers to the) attributes directly on the object, rather than creating a new dict for the object.
 * [#C] [2020-10-24] [[https://news.ycombinator.com/item?id=24874102][LiveCode is a modern day HyperCard (2019) | Hacker News]] :python:gui:
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmdlvcdsmdrndyhyprcrdhckrnws
+:ID:       snwsycmbntrcmtmdlvcdsmdrndyhyprcrdhckrnws
 :END:
 : In the spirit of HN contrarian comments, I'd say the closest thing spiritually to a modern-day HyperCard is PySimpleGUI: https://github.com/PySimpleGUI
 * [#C] [2020-01-15] [[https://news.ycombinator.com/item?id=22054433][Show HN: CrossHair – SMT Assisted Testing for Python]] :testing:python:
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdshwhncrsshrsmtssstdtstngfrpythn
+:ID:       snwsycmbntrcmtmdshwhncrsshrsmtssstdtstngfrpythn
 :END:
 https://github.com/pschanely/CrossHair
 * STRT [#B] [2019-11-10] lihaoyi/macropy: Macros in Python: quasiquotes, case classes, LINQ and more! :macro:python:lisp:
 :PROPERTIES:
-:ID:       snlhymcrpymcrsnpythnqsqtscsclssslnqndmr
+:ID:       lhymcrpymcrsnpythnqsqtscsclssslnqndmr
 :END:
 https://github.com/lihaoyi/macropy
 ** [2020-05-16] wow that's amazing https://macropy3.readthedocs.io/en/latest/discussion.html#function-advice
 :PROPERTIES:
-:ID:       stwwthtsmzngsmcrpyrdthdcsnltstdscssnhtmlfnctndvc
+:ID:       wwthtsmzngsmcrpyrdthdcsnltstdscssnhtmlfnctndvc
 :END:
 
 * [#D] [2020-01-09] What does it do? — Logbook               :python:logging:
 :PROPERTIES:
-:ID:       thwhtdstdlgbk
+:ID:       whtdstdlgbk
 :END:
 https://logbook.readthedocs.io/en/stable/features.html#advantages-over-logging
 
 * TODO [#C] [2019-11-24] How formulas work — patsy 0.5.1+dev documentation
 :PROPERTIES:
-:ID:       snhwfrmlswrkptsydvdcmnttn
+:ID:       hwfrmlswrkptsydvdcmnttn
 :END:
 https://patsy.readthedocs.io/en/latest/formulas.html
 : The formula language is actually fairly simple once you get the hang of it, but if you’re ever in doubt as to what some construction means, you can always ask Patsy how it expands.
 * TODO [#D] [2019-12-20] Pipenv: promises a lot, delivers very little | Chris Warrick :pip:
 :PROPERTIES:
-:ID:       frppnvprmssltdlvrsvrylttlchrswrrck
+:ID:       ppnvprmssltdlvrsvrylttlchrswrrck
 :END:
 https://chriswarrick.com/blog/2018/07/17/pipenv-promises-a-lot-delivers-very-little/
 
 * [2020-08-19] [[https://packaging.python.org/discussions/install-requires-vs-requirements/][install_requires vs requirements files — Python Packaging User Guide]] :pip:
 :PROPERTIES:
-:ID:       wdspckgngpythnrgdscssnsnsrqrmntsflspythnpckgngsrgd
+:ID:       spckgngpythnrgdscssnsnstlrqrmntsflspythnpckgngsrgd
 :END:
 : Requirements Files described most simply, are just a list of pip install arguments placed into a file.
 : Whereas install_requires defines the dependencies for a single project, Requirements Files are often used to define the requirements for a complete Python environment.
@@ -1355,13 +1355,13 @@ https://chriswarrick.com/blog/2018/07/17/pipenv-promises-a-lot-delivers-very-lit
 : Whereas install_requires metadata is automatically analyzed by pip during an install, requirements files are not, and only are used when a user specifically installs them using pip install -r.
 * [2019-04-10] kynan/nbstripout: strip output from Jupyter and IPython notebooks :git:ipython:
 :PROPERTIES:
-:ID:       wdkynnnbstrptstrptptfrmjpytrndpythnntbks
+:ID:       kynnnbstrptstrptptfrmjpytrndpythnntbks
 :END:
 https://github.com/kynan/nbstripout
 
 * [2020-08-22] [[https://pauliacomi.com/2020/06/07/plotly-v-bokeh.html][Plotly vs. Bokeh: Interactive Python Visualisation Pros and Cons | Paul Iacomi]] :bokeh:viz:
 :PROPERTIES:
-:ID:       stsplcmcmpltlyvbkhhtmlplttvpythnvslstnprsndcnsplcm
+:ID:       splcmcmpltlyvbkhhtmlpltlytvpythnvslstnprsndcnsplcm
 :END:
 pretty good comparizon
 * [#C] hack to allow optional git dependencies                     :pip:pypi:
@@ -1376,12 +1376,12 @@ pretty good comparizon
 :        },
 * [#C] [2019-11-29] typeddjango/awesome-python-typing: Collection of awesome Python types, stubs, plugins, and tools to work with them.
 :PROPERTIES:
-:ID:       frtypddjngwsmpythntypngclsstbsplgnsndtlstwrkwththm
+:ID:       typddjngwsmpythntypngcllcsstbsplgnsndtlstwrkwththm
 :END:
 https://github.com/typeddjango/awesome-python-typing
 * [#C] [2020-03-14] jestem króliczkiem on Twitter: "or, you can encode dependencies in types: @dataclass(init=False) class FancyPath: path: Path mtime: float def __init__(self, path: Path): self.path = path self.mtime = path.stat().st_mtime" / Twitter :cachew:python:
 :PROPERTIES:
-:ID:       stjstmkrólczkmntwttrrycnnpthslfmtmpthsttstmtmtwttr
+:ID:       jstmkrólczkmntwttrrycnncdpthslfmtmpthsttstmtmtwttr
 :END:
 https://twitter.com/karlicoss/status/1238791294547353601
 : @dataclass
@@ -1396,29 +1396,29 @@ https://twitter.com/karlicoss/status/1238791294547353601
 right, I suppose it's type to use dataclasses
 * [#C] [2020-04-11] Traps for the Unwary in Python’s Import System — Nick Coghlan's Python Notes 1.0 documentation :python:
 :PROPERTIES:
-:ID:       sttrpsfrthnwrynpythnsmprtmnckcghlnspythnntsdcmnttn
+:ID:       trpsfrthnwrynpythnsmprtsymnckcghlnspythnntsdcmnttn
 :END:
 http://python-notes.curiousefficiency.org/en/latest/python_concepts/import_traps.html#the-init-py-trap
 
 * STRT [#C] [2020-05-13] [[https://github.com/amontalenti/elements-of-python-style][amontalenti/elements-of-python-style: Goes beyond PEP8 to discuss what makes Python code feel great. A Strunk & White for Python.]] :python:
 :PROPERTIES:
-:ID:       wdsgthbcmmntlntlmntsfpyththncdflgrtstrnkwhtfrpythn
+:ID:       sgthbcmmntlntlmntsfpythnsthncdflgrtstrnkwhtfrpythn
 :END:
 : Use parens (...) for fluent APIs
 * [#B] [2020-05-18] [[https://chrisyeh96.github.io/2017/08/08/definitive-guide-python-imports.html][The Definitive Guide to Python import Statements | Chris Yeh]] :python:
 :PROPERTIES:
-:ID:       mnschrsyhgthbdfntvgdpythngdtpythnmprtsttmntschrsyh
+:ID:       schrsyhgthbdfntvgdpythnmpgdtpythnmprtsttmntschrsyh
 :END:
 
 * [#B] [2020-08-09] [[https://stackoverflow.com/questions/18770504/resize-ipython-notebook-output-window][resize ipython notebook output window - Stack Overflow]]
 :PROPERTIES:
-:ID:       snsstckvrflwcmqstnsrszpytpythnntbktptwndwstckvrflw
+:ID:       sstckvrflwcmqstnsrszpythnpythnntbktptwndwstckvrflw
 :END:
 : You can toggle the scroll window in the main menu of the notebook
 : Cell -> Current Outputs -> Toggle Scrolling
 * [#C] [2020-01-26] Not really. Enable something like MyPy or PyType on a big enough codebase with z... | Hacker News
 :PROPERTIES:
-:ID:       snntrllynblsmthnglkmypyrpytypnbgnghcdbswthzhckrnws
+:ID:       ntrllynblsmthnglkmypyrpytypnbgnghcdbswthzhckrnws
 :END:
 https://news.ycombinator.com/item?id=21902827
 : Not really. Enable something like MyPy or PyType on a big enough codebase with zero explicit annotation and it'll already find plenty of bugs and unhandled cases from the inferred types alone. Some of these are stuff a strong IDE may catch too (using the wrong function name, passing wrong number of args, etc), but some other ones are actually deeper in the code.
@@ -1426,42 +1426,42 @@ https://news.ycombinator.com/item?id=21902827
 : So already, with zero annotations, you already get value out, let alone once you type a few tricky variables that are harder for Python to track.
 * TODO [#B] [2020-07-21] [[https://github.com/tmbo/questionary][tmbo/questionary: Python library to build pretty command line user prompts ✨Easy to use multi-select lists, confirmations, free text prompts ...]] :tui:
 :PROPERTIES:
-:ID:       tsgthbcmtmbqstnrytmbqstnrctlstscnfrmtnsfrtxtprmpts
+:ID:       sgthbcmtmbqstnrytmbqstnryctlstscnfrmtnsfrtxtprmpts
 :END:
 * [2020-09-07] [[https://docs.pytest.org/en/stable/goodpractices.html][Good Integration Practices — pytest documentation]]
 :PROPERTIES:
-:ID:       mnsdcspytstrgnstblgdprctcdntgrtnprctcspytstdcmnttn
+:ID:       sdcspytstrgnstblgdprctcshdntgrtnprctcspytstdcmnttn
 :END:
 tests in a separate dir vs tests in a subpackage
 * [2019-07-23] Python Scatterplot Matrix | Plotly                       :viz:
 :PROPERTIES:
-:ID:       tpythnscttrpltmtrxpltly
+:ID:       pythnscttrpltmtrxpltly
 :END:
 https://plot.ly/python/splom/
 
 * [2019-08-18] box/flaky: Plugin for nose or pytest that automatically reruns flaky tests. :pytest:
 :PROPERTIES:
-:ID:       snbxflkyplgnfrnsrpytstthttmtcllyrrnsflkytsts
+:ID:       bxflkyplgnfrnsrpytstthttmtcllyrrnsflkytsts
 :END:
 https://github.com/box/flaky
 
 * [2019-03-05] ipython -pylab                                       :ipython:
 :PROPERTIES:
-:ID:       tpythnpylb
+:ID:       pythnpylb
 :END:
 
 * [#C] [2018-12-23] lambdalisue/jupyter-vim-binding: Jupyter meets Vim. Vimmer will fall in love. :vim:jupyter:
 :PROPERTIES:
-:ID:       snlmbdlsjpytrvmbndngjpytrmtsvmvmmrwllfllnlv
+:ID:       lmbdlsjpytrvmbndngjpytrmtsvmvmmrwllfllnlv
 :END:
 https://github.com/lambdalisue/jupyter-vim-binding
 ** [2019-04-13] eh, I'm using emacs now...
 :PROPERTIES:
-:ID:       sthmsngmcsnw
+:ID:       hmsngmcsnw
 :END:
 * [2019-05-10] [[https://reddit.com/r/Python/comments/3pn88a/is_sqlalchemy_recommended_for_a_highly/cw8ovva/][Is SQLAlchemy recommended for a highly transactional, large volume database?]] /r/Python
 :PROPERTIES:
-:ID:       frsrddtcmrpythncmmntspnssytrnsctnllrgvlmdtbsrpythn
+:ID:       srddtcmrpythncmmntspnssqlytrnsctnllrgvlmdtbsrpythn
 :END:
 :  Yes. I've written a few systems using SQLAlchemy that see 50-100k writes  and 200k or so reads per second, and as long as you're using the Core everything works fine. Also allows you to use the ORM for ease-of-development on bits that don't need performance.
 : 
@@ -1470,23 +1470,23 @@ https://github.com/lambdalisue/jupyter-vim-binding
 :  Also, the lead dev is extremely responsive on the google group and is more than happy to answer questions.
 * [#C] [2020-02-16] Command Line Scripts — Python Packaging Tutorial    :pip:
 :PROPERTIES:
-:ID:       sncmmndlnscrptspythnpckgngttrl
+:ID:       cmmndlnscrptspythnpckgngttrl
 :END:
 https://python-packaging.readthedocs.io/en/latest/command-line-scripts.html#the-console-scripts-entry-point
 ** [2020-12-14] hmm maybe best to use 'scripts', seems more manageable
 :PROPERTIES:
-:ID:       mnhmmmybbsttsscrptssmsmrmngbl
+:ID:       hmmmybbsttsscrptssmsmrmngbl
 :END:
 
 * [2019-10-18] Hy - Wikipedia                                   :lisp:python:
 :PROPERTIES:
-:ID:       frhywkpd
+:ID:       hywkpd
 :END:
 https://en.wikipedia.org/wiki/Hy
 
 * [2019-12-18] Python VS Common Lisp, workflow and ecosystem - Lisp journey :lisp:python:
 :PROPERTIES:
-:ID:       wdpythnvscmmnlspwrkflwndcsystmlspjrny
+:ID:       pythnvscmmnlspwrkflwndcsystmlspjrny
 :END:
 https://lisp-journey.gitlab.io/pythonvslisp
 don't feel like it's very objective comparison.
@@ -1494,41 +1494,41 @@ lots of things are picked etc
 although I'm not very positive towards lisp either
 * [2019-02-27] When do you us Beautiful Soup or Scrapy? : Python :scrape:python:
 :PROPERTIES:
-:ID:       wdwhndysbtflsprscrpypythn
+:ID:       whndysbtflsprscrpypythn
 :END:
 https://www.reddit.com/r/Python/comments/69wym8/when_do_you_us_beautiful_soup_or_scrapy/
 : why would you never use BS
 : The selectors system lack in flexibility, it is slow and its HTML parser is not really good for the modern world of opening a page in a browser and looking at what's there to know what to do.
 ** [2019-03-05] TLDR: scrapy is better
 :PROPERTIES:
-:ID:       ttldrscrpysbttr
+:ID:       tldrscrpysbttr
 :END:
 
 * [2019-04-07] DataFrame — pandas 0.24.2 documentation               :pandas:
 :PROPERTIES:
-:ID:       sndtfrmpndsdcmnttn
+:ID:       dtfrmpndsdcmnttn
 :END:
 https://pandas.pydata.org/pandas-docs/stable/reference/frame.html
 
 * [2019-04-07] Comparison with SQL — pandas 0.24.2 documentation     :pandas:
 :PROPERTIES:
-:ID:       sncmprsnwthsqlpndsdcmnttn
+:ID:       cmprsnwthsqlpndsdcmnttn
 :END:
 https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html#compare-with-sql-join
 
 * [2019-02-14] There's now a dead simple way to slap a web interface on a command line script : Python (click library) :tui:web:
 :PROPERTIES:
-:ID:       ththrsnwddsmplwytslpwbntrmmndlnscrptpythnclcklbrry
+:ID:       thrsnwddsmplwytslpwbntrfcmmndlnscrptpythnclcklbrry
 :END:
 https://www.reddit.com/r/Python/comments/akgctg/theres_now_a_dead_simple_way_to_slap_a_web/
 
 * [2020-05-26] multiprocess.Pool + submit_async work properly with timeouts... unlike concurrent.futures? :python:
 :PROPERTIES:
-:ID:       tmltprcssplsbmtsyncwrkprprlywthtmtsnlkcncrrntftrs
+:ID:       mltprcssplsbmtsyncwrkprprlywthtmtsnlkcncrrntftrs
 :END:
 * [2020-03-08] right, so sync_column is taking quite a bit of time... I suppose because of column detection stuff :dataset:sqlite:python:
 :PROPERTIES:
-:ID:       snrghtssyncclmnstkngqtbtftmsppsbcsfclmndtctnstff
+:ID:       rghtssyncclmnstkngqtbtftmsppsbcsfclmndtctnstff
 :END:
 * TODO [#B] gotcha with yield                                  :yield:python:
 :PROPERTIES:
@@ -1544,7 +1544,7 @@ https://www.reddit.com/r/Python/comments/akgctg/theres_now_a_dead_simple_way_to_
 :             breakpoint()
 * [2019-07-23] date index                                :pandas:python:data:
 :PROPERTIES:
-:ID:       tdtndx
+:ID:       dtndx
 :END:
 I guess it's somewhat useful to have multiple stages
 
@@ -1552,7 +1552,7 @@ raw providers emit dataframe without any index in case of reporting dateless err
 then consumer can filter out errors and present them and then choose their own index and aggregateion
 * [2019-07-23] Which one is better: Bokeh or Plotly? - Quora     :viz:python:
 :PROPERTIES:
-:ID:       twhchnsbttrbkhrpltlyqr
+:ID:       whchnsbttrbkhrpltlyqr
 :END:
 https://www.quora.com/Which-one-is-better-Bokeh-or-Plotly
 : Compare Bokeh with Plotly
@@ -1564,25 +1564,25 @@ https://www.quora.com/Which-one-is-better-Bokeh-or-Plotly
 : 6. Less integrated with Panda than Plotly.
 * [2019-07-23] Plotly vs Bokeh vs ... : Python                   :viz:python:
 :PROPERTIES:
-:ID:       tpltlyvsbkhvspythn
+:ID:       pltlyvsbkhvspythn
 :END:
 https://www.reddit.com/r/Python/comments/5nwk9r/plotly_vs_bokeh_vs/
 : The last advantage I found that plotly has over bokeh is that almost everything in plotly is a dict. This is really useful because I've found certain plotly functions are really slow for some reason or can't be called when you use the multiprocessing module because of pickling issues. Not a problem, in the end they generate dicts under the hood, you can do the same yourself and still pass those dicts to plotly. Also calling help() on plotly objects tells you what keys and values you need to add to your dict.
 * [2019-05-18] unwrap vs assert: assert is a statement, so can't do in one line :python:
 :PROPERTIES:
-:ID:       stnwrpvsssrtssrtssttmntscntdnnln
+:ID:       nwrpvsssrtssrtssttmntscntdnnln
 :END:
 * [2018-11-10] imp.load_source for loading python module from file   :python:
 :PROPERTIES:
-:ID:       stmpldsrcfrldngpythnmdlfrmfl
+:ID:       mpldsrcfrldngpythnmdlfrmfl
 :END:
 * [2018-06-21] Ok, to prevent pollution just assert everything in __all_ isinstance :python:
 :PROPERTIES:
-:ID:       thktprvntplltnjstssrtvrythngnllsnstnc
+:ID:       ktprvntplltnjstssrtvrythngnllsnstnc
 :END:
 * [2018-08-26] dill seems to be superior to pickle
 :PROPERTIES:
-:ID:       sndllsmstbsprrtpckl
+:ID:       dllsmstbsprrtpckl
 :END:
 e.g. unpicling requires exactly same modules etc? might be hard if you want to unpickle elsewhere
 
@@ -1590,23 +1590,23 @@ https://stackoverflow.com/a/25244948/706389
 
 * [#B] [2019-02-12] Choosing a Python Visualization Tool - Practical Business Python :python:viz:
 :PROPERTIES:
-:ID:       tchsngpythnvslztntlprctclbsnsspythn
+:ID:       chsngpythnvslztntlprctclbsnsspythn
 :END:
 https://pbpython.com/python-vis-flowchart.html
 
 * [#B] [2019-02-12] Quickstart — Bokeh 1.0.4 documentation              :viz:
 :PROPERTIES:
-:ID:       tqckstrtbkhdcmnttn
+:ID:       qckstrtbkhdcmnttn
 :END:
 https://bokeh.pydata.org/en/latest/docs/user_guide/quickstart.html#userguide-quickstart
 ** [2019-04-06] ok, so apparently bokeh is more akin to plotly?
 :PROPERTIES:
-:ID:       stkspprntlybkhsmrkntpltly
+:ID:       kspprntlybkhsmrkntpltly
 :END:
 
 * [#C] [2019-02-12] python - how to set readable xticks in seaborn's facetgrid? - Stack Overflow :plotting:seaborn:
 :PROPERTIES:
-:ID:       tpythnhwtstrdblxtcksnsbrnsfctgrdstckvrflw
+:ID:       pythnhwtstrdblxtcksnsbrnsfctgrdstckvrflw
 :END:
 https://stackoverflow.com/questions/43727278/how-to-set-readable-xticks-in-seaborns-facetgrid
 : The seaborn.pointplot is not the right tool for this plot.
@@ -1614,7 +1614,7 @@ https://stackoverflow.com/questions/43727278/how-to-set-readable-xticks-in-seabo
 plotting a lot of data via seaborn
 * [#C] [2019-12-12] #45 Control color of each marker | seaborn – The Python Graph Gallery :seaborn:
 :PROPERTIES:
-:ID:       thcntrlclrfchmrkrsbrnthpythngrphgllry
+:ID:       cntrlclrfchmrkrsbrnthpythngrphgllry
 :END:
 https://python-graph-gallery.com/45-control-color-of-each-marker-seaborn/
 : scatter_kws={'facecolors':df['color']}
@@ -1631,7 +1631,7 @@ Comment:
 : pandas date ticks
 * [2020-04-18] screw hatch. it's got some weird defaults and doesn't provide much value :pip:
 :PROPERTIES:
-:ID:       stscrwhtchtsgtsmwrddfltsnddsntprvdmchvl
+:ID:       scrwhtchtsgtsmwrddfltsnddsntprvdmchvl
 :END:
 i.e. default got username set to "", which gets in the way of using __token__
 * [#C] [2020-02-16] python - Argparse: Way to include default values in '--help'? - Stack Overflow
@@ -1644,12 +1644,12 @@ https://stackoverflow.com/questions/12151306/argparse-way-to-include-default-val
 :     formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 * [#D] [2019-07-20] [[https://reddit.com/r/Python/comments/cf7y1m/i_created_a_github_repository_explaining_the/][I created a GitHub repository explaining the complete process of gathering data, transforming it, getting insights and making plots using pandas, NumPy, Matplotlib and Seaborn.]] /r/Python :python:viz:
 :PROPERTIES:
-:ID:       stsrddtcmrpythncmmntscfymdsnmpymtpltlbndsbrnrpythn
+:ID:       srddtcmrpythncmmntscfymcrdsnmpymtpltlbndsbrnrpythn
 :END:
 - [2019-07-24] I know all of that but maybe good for newbies
 
 * [#C] [2020-02-18] google/pytype: A static type analyzer for Python code
 :PROPERTIES:
-:ID:       tgglpytypsttctypnlyzrfrpythncd
+:ID:       gglpytypsttctypnlyzrfrpythncd
 :END:
 https://github.com/google/pytype

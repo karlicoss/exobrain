@@ -23,7 +23,7 @@ Main project page: https://github.com/karlicoss/orgparse
 :END:
 ** STRT [#C] [2020-06-17] [[https://github.com/org-roam/test-org-files][org-roam/test-org-files: Test files for performance-testing Org-roam]] :org:testing:
 :PROPERTIES:
-:ID:       wdsgthbcmrgrmtstrgflsrgrmststflsfrprfrmnctstngrgrm
+:ID:       sgthbcmrgrmtstrgflsrgrmtsststflsfrprfrmnctstngrgrm
 :END:
 ** TODO [#D] test on item with duplicated properties headers
 :PROPERTIES:
@@ -38,7 +38,7 @@ Main project page: https://github.com/karlicoss/orgparse
 :END:
 * TODO [#D] [2020-01-31] try some online notebook and load up a massive org-mode file in it?
 :PROPERTIES:
-:ID:       frtrysmnlnntbkndldpmssvrgmdflnt
+:ID:       trysmnlnntbkndldpmssvrgmdflnt
 :END:
 * TODO [#D] implement simple cmdline interface? need rendering though..
 :PROPERTIES:

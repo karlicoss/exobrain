@@ -4,7 +4,7 @@
 
 * [2018-05-02] My rants about interface updates                          :ui:
 :PROPERTIES:
-:ID:       wdmyrntsbtntrfcpdts
+:ID:       myrntsbtntrfcpdts
 :END:
 https://twitter.com/search?q=from%3Akarlicoss%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81&src=typd
 
@@ -39,12 +39,12 @@ https://twitter.com/burntsushi5/status/1321996275567517702
 
 * [#C] [2020-05-05] [[https://drewdevault.com/2019/03/04/sourcehut-design.html][Sourcehut’s spartan approach to web design | Drew DeVault’s Blog]] :webbloat:ui:
 :PROPERTIES:
-:ID:       tsdrwdvltcmsrchtdsgnhtmlstnpprchtwbdsgndrwdvltsblg
+:ID:       sdrwdvltcmsrchtdsgnhtmlsrtnpprchtwbdsgndrwdvltsblg
 :END:
 : Sourcehut's spartan approach to web design
 * [2019-01-01] Tweet from Al Dragon (@aldragon_net), at Jan 1, 21:35 :interfaces:
 :PROPERTIES:
-:ID:       ttwtfrmldrgnldrgnnttjn
+:ID:       twtfrmldrgnldrgnnttjn
 :END:
 : …наиболее вероятно значение w<-1, при котором бесконечное расстояние между элементами интерфейса будет достигнуто за конечное время […] За месяц до этого потеряет связность лента, за день — растянутся на несколько экранов твиты. За секунду до Большого Разрыва разрушатся эмодзи.
 
@@ -53,38 +53,38 @@ https://twitter.com/aldragon_net/status/1080215989109821440
 
 * DONE [#B] [2020-04-18] [[https://news.ycombinator.com/item?id=22901541][The Decline of Usability]] :ui:
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmdthdclnfsblty
+:ID:       snwsycmbntrcmtmdthdclnfsblty
 :END:
 https://datagubbe.se/decusab/
 * [#C] [2020-01-25] guides/ALTERNATIVES.md at master · mayfrost/guides
 :PROPERTIES:
-:ID:       stgdsltrntvsmdtmstrmyfrstgds
+:ID:       gdsltrntvsmdtmstrmyfrstgds
 :END:
 https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md
 : ALTERNATIVES TO BLOATWARE
 
 * [#C] [2020-04-13] [[https://liberapay.com/][Liberapay]] insanely clean ui :ui:
 :PROPERTIES:
-:ID:       mnslbrpycmlbrpynsnlycln
+:ID:       slbrpycmlbrpynsnlycln
 :END:
 * [#B] [2020-05-11] [[https://twitter.com/amyhoy/status/1209693440872603651][Amy "Social Distancing" Hoy on Twitter: "OKAY *cracks knuckles* i’ve got a glass of austrian rosè that’s making me sweat like i’m literally dying &amp; my husband went to sleep at 9:30 with a migraine so LET’S DO THIS 1 like, 1 design opinion" / Twitter]] :design:
 :PROPERTIES:
-:ID:       mnstwttrcmmyhysttsmyscldsgrnsltsdthslkdsgnpnntwttr
+:ID:       stwttrcmmyhysttsmyscldstngrnsltsdthslkdsgnpnntwttr
 :END:
 
 * [[https://twitter.com/i/web/status/584492360349913088][TW]] at [2015-04-04] Когда я читаю в release notes софтины "various style and layout fixes", автоматически предполагаю что выпилили полезные настройки.
 :PROPERTIES:
-:ID:       stwttrcmwbsttstwtstкогдаявыпилилиполезныенастройки
+:ID:       stwttrcmwbsttstwtкогдаячивыпилилиполезныенастройки
 :END:
 * [2019-05-20] Yak Shaving
 :PROPERTIES:
-:ID:       mnykshvng
+:ID:       ykshvng
 :END:
 https://projects.csail.mit.edu/gsb/old-archive/gsb-archive/gsb2000-02-11.html
 
 * [#C] [2020-01-22] Plan 9 released under GPLv2 | Hacker News       :license:
 :PROPERTIES:
-:ID:       wdplnrlsdndrgplvhckrnws
+:ID:       plnrlsdndrgplvhckrnws
 :END:
 https://news.ycombinator.com/item?id=7232042
 some discussions on GPL/BSD/MIT licensing
@@ -101,7 +101,7 @@ https://twitter.com/turbojedi/status/1136280629564399616
 
 * [2019-09-22] I have a question for the OP... Why the MIT licence, and not putting your code i... | Hacker News :license:
 :PROPERTIES:
-:ID:       snhvqstnfrthpwhythmtlcncndntpttngyrcdhckrnws
+:ID:       hvqstnfrthpwhythmtlcncndntpttngyrcdhckrnws
 :END:
 https://news.ycombinator.com/item?id=3267665
 : My understanding is that there are more legal gray areas with public domain than there are with even very permissive licenses (MIT, new-BSD, etc). I vaguely recall something about potential issues with public domain and other license incompatibilities, but I don't recall the specifics (and am certainly not a lawyer), so that probably isn't a useful datapoint.
@@ -109,13 +109,13 @@ https://news.ycombinator.com/item?id=3267665
 : Apache license has patent clauses that make it quite different than the new-BSD/MIT-style licenses.
 * [2019-12-20] The Website Obesity Crisis                         :macej:web:
 :PROPERTIES:
-:ID:       frthwbstbstycrss
+:ID:       thwbstbstycrss
 :END:
 https://idlewords.com/talks/website_obesity.htm
 
 * [2020-05-18] [[https://news.ycombinator.com/item?id=8863][My YC app: Dropbox - Throw away your USB drive | Hacker News]]
 :PROPERTIES:
-:ID:       mnsnwsycmbntrcmtmdmyycppdrpbxthrwwyyrsbdrvhckrnws
+:ID:       snwsycmbntrcmtmdmyycppdrpbxthrwwyyrsbdrvhckrnws
 :END:
 : I have a few qualms with this app:
 : 1. For a Linux user, you can already build such a system yourself quite trivially by getting an FTP account, mounting it locally with curlftpfs, and then using SVN or CVS on the mounted filesystem. From Windows or Mac, this FTP account could be accessed through built-in software.
@@ -125,27 +125,27 @@ https://idlewords.com/talks/website_obesity.htm
 haha fascinating
 * [2018-09-18] rant: Software disenchantment @ tonsky.me        :performance:
 :PROPERTIES:
-:ID:       trntsftwrdsnchntmnttnskym
+:ID:       rntsftwrdsnchntmnttnskym
 :END:
 http://tonsky.me/blog/disenchantment/
 
 * [#B] [2020-06-24] [[https://twitter.com/gravislizard/status/927594710364909568][Gravis (edited) on Twitter: "one of the primary reasons computers were *created* was to cross reference data. that is nearly impossible in most software now." / Twitter]] :rant:performance:
 :PROPERTIES:
-:ID:       wdstwttrcmgrvslzrdsttsgrvrlympssblnmstsftwrnwtwttr
+:ID:       stwttrcmgrvslzrdsttsgrvsdrlympssblnmstsftwrnwtwttr
 :END:
 : one of the primary reasons computers were *created* was to cross reference data. that is nearly impossible in most software now.
 * DONE [#A] [2020-02-10] [[https://news.ycombinator.com/item?id=22281801][Web Design: The First 100 Years (2014)]] :webbloat:
 :PROPERTIES:
-:ID:       mnsnwsycmbntrcmtmdwbdsgnthfrstyrs
+:ID:       snwsycmbntrcmtmdwbdsgnthfrstyrs
 :END:
 https://idlewords.com/talks/web_design_first_100_years.htm
 ** [2020-02-15] https://news.ycombinator.com/item?id=9920121
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmd
+:ID:       snwsycmbntrcmtmd
 :END:
 ** [2020-02-15] https://news.ycombinator.com/item?id=9920121
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmd
+:ID:       snwsycmbntrcmtmd
 :END:
 * [#C] If I'm using a GPL 3 library in my project, can I license my project under MIT license? - Open Source Stack Exchange :license:
 :PROPERTIES:
@@ -157,18 +157,18 @@ https://idlewords.com/talks/web_design_first_100_years.htm
 : One caveat: you can also license your work under annother license. As long as people can get it under GPL, that satisfies the GPL requirements, and you can dual-license with MIT, for example. People can choose which license to follow.
 * [#B] [2020-01-13] Writing Software to Last 50 Years | Lobsters
 :PROPERTIES:
-:ID:       mnwrtngsftwrtlstyrslbstrs
+:ID:       wrtngsftwrtlstyrslbstrs
 :END:
 https://lobste.rs/s/nt9kfo/writing_software_last_50_years
 
 * [2020-06-08] [[https://kevingal.com/blog/metronome.html][Obese websites and planet-sized metronomes]]
 :PROPERTIES:
-:ID:       mnskvnglcmblgmtrnmhtmlbswbstsndplntszdmtrnms
+:ID:       skvnglcmblgmtrnmhtmlbswbstsndplntszdmtrnms
 :END:
 : Obese websites and planet-sized metronomes
 * [2019-01-15] The Website Obesity Crisis
 :PROPERTIES:
-:ID:       tthwbstbstycrss
+:ID:       thwbstbstycrss
 :END:
 https://idlewords.com/talks/website_obesity.htm
 video: https://www.youtube.com/watch?v=iYpl0QVCr6U
@@ -176,13 +176,13 @@ video: https://www.youtube.com/watch?v=iYpl0QVCr6U
 pretty interesting talk, quite hilarious in the beginning
 * [2019-01-17] The Bullshit Web — Pixel Envy                          :bloat:
 :PROPERTIES:
-:ID:       ththbllshtwbpxlnvy
+:ID:       thbllshtwbpxlnvy
 :END:
 https://pxlnv.com/blog/bullshit-web/
 
 * [2019-08-18] Tweet from Hillel (@hillelogram), at Aug 17, 23:45  :software:
 :PROPERTIES:
-:ID:       sntwtfrmhlllhlllgrmtg
+:ID:       twtfrmhlllhlllgrmtg
 :END:
 : But there's a lot of ways software does better too. In particular, we seem a lot better at PROCESS. We're more willing to create tools that improve our ability to engineer, partially because we use the same skills to make tools and products.
 : Best example? Version control.

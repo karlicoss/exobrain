@@ -13,7 +13,7 @@ I also maintain a [[https://www.goodreads.com/user/show/22191391-dima-gerasimov]
 :END:
 ** TODO [#B] [2019-01-06] [[https://www.reddit.com/r/suggestmeabook/comments/67umiu/books_like_borges_and_ted_chiang][Books like Borges and Ted Chiang : suggestmeabook]]
 :PROPERTIES:
-:ID:       snswwwrddtcmrsggstmbkcmmnbkslkbrgsndtdchngsggstmbk
+:ID:       swwwrddtcmrsggstmbkcmmntsbkslkbrgsndtdchngsggstmbk
 :END:
 : I greatly enjoyed Borges' work. I also like Georges Perec, especially Life: A User's Manual
 : Gene Wolfe: Peace is maybe his best book IMO if you are hesitant to read something as long as the Solar Cycle
@@ -23,15 +23,15 @@ I also maintain a [[https://www.goodreads.com/user/show/22191391-dima-gerasimov]
   : The entire block is primarily presented frozen in time, on June 23, 1975, just before 8 pm, moments after the death of Bartlebooth. Nonetheless, the constraints system creates hundreds of separate stories concerning the inhabitants of the block, past and present, and the other people in their lives. The story of Bartlebooth is the principal thread, but it interlinks with many others.
 *** [2019-06-26] gwern recommends it too
 :PROPERTIES:
-:ID:       wdgwrnrcmmndstt
+:ID:       gwrnrcmmndstt
 :END:
 ** TODO [#B] [2019-06-15] [[https://medium.com/@max_cherepitsa/bret-victor-bookshelf-transcribed-eae4d63aa493][Bret Victor Bookshelf Transcribed | Max Cherepitsa]]
 :PROPERTIES:
-:ID:       stsmdmcmmxchrptsbrtvctrbkctrbkshlftrnscrbdmxchrpts
+:ID:       smdmcmmxchrptsbrtvctrbkshctrbkshlftrnscrbdmxchrpts
 :END:
 ** TODO [#B] [2019-09-02] [[https://reddit.com/r/scifi/comments/cvy78o/searching_stories_with_super_intelligence_in/eyldzyb/][Searching stories with super intelligence in humans theme | /r/scifi]]
 :PROPERTIES:
-:ID:       mnsrddtcmrscfcmmntscvysrcwthsprntllgncnhmnsthmrscf
+:ID:       srddtcmrscfcmmntscvysrchnwthsprntllgncnhmnsthmrscf
 :END:
 : Love and recommend "Brainchild" just for this. Explores multiple different angles of what we call intelligence.
 : https://www.amazon.com/Brain-Child-Novel-George-Turner/dp/0688105955
@@ -47,7 +47,7 @@ I also maintain a [[https://www.goodreads.com/user/show/22191391-dima-gerasimov]
 
 ** STRT [#C] [2018-09-22] [[https://twitter.com/future_is_meow/status/1043042205479395328][флоучарт для выбора НФ-книг по куче разных критериев]]
 :PROPERTIES:
-:ID:       ststwttrcmftrsmwsttsфлоучкнигпокучеразныхкритериев
+:ID:       stwttrcmftrsmwsttsфлоучаркнигпокучеразныхкритериев
 :END:
 *** DONE Diaspora by Greg Egan
 :PROPERTIES:
@@ -79,36 +79,36 @@ I also maintain a [[https://www.goodreads.com/user/show/22191391-dima-gerasimov]
 - The principle of simplicity has driven us to reluctantly make a decision—in this paper DP is a particle model and all processes in DP are consequences of the motions and interactions of particles.
 ** TODO [#C] [2018-06-10] [[https://www.goodreads.com/review/list/5512374-yuri-krupenin?shelf=%23ALL%23][Yuri Krupenin’s books on Goodreads]]
 :PROPERTIES:
-:ID:       snswwwgdrdscmrvwlstyrkrpnnshlfllyrkrpnnsbksngdrds
+:ID:       swwwgdrdscmrvwlstyrkrpnnshlfllyrkrpnnsbksngdrds
 :END:
 ** TODO [#C] [2019-01-18] read the road to reality  (Woit's recommendation) :physics:
 :PROPERTIES:
-:ID:       frrdthrdtrltywtsrcmmndtn
+:ID:       rdthrdtrltywtsrcmmndtn
 :END:
 : His remarkable book The Road to Reality4 gives an extensive overview of theoretical physics, largely from the point of view of general relativity rather than particle physics
 : , and can be consulted for a summary of the main ideas of twistor theory
 : from Not Even Wrong: The Failure of String Theory and the Search for Unity in Physical Law for Unity in Physical Law
 ** DONE [#B] [2019-05-08] [[https://www.kobo.com/us/en/ebook/exhalation-4][Exhalation eBook by Ted Chiang | Rakuten Kobo]]
 :PROPERTIES:
-:ID:       wdswwwkbcmsnbkxhltnxhltnbkbytdchngrktnkb
+:ID:       swwwkbcmsnbkxhltnxhltnbkbytdchngrktnkb
 :END:
 ** DONE [#A] [2019-12-28] [[https://en.wikipedia.org/wiki/Permutation_City][Permutation City - Wikipedia]]
 :PROPERTIES:
-:ID:       stsnwkpdrgwkprmttnctyprmttnctywkpd
+:ID:       snwkpdrgwkprmttnctyprmttnctywkpd
 :END:
 ** DONE [#B] [2019-03-19] [[https://www.reddit.com/r/printSF/comments/azo1o6/new_ted_chiang_incoming][New Ted Chiang Incoming : printSF]]
 :PROPERTIES:
-:ID:       tswwwrddtcmrprntsfcmmntszgncmngnwtdchngncmngprntsf
+:ID:       swwwrddtcmrprntsfcmmntszngncmngnwtdchngncmngprntsf
 :END:
 - [2019-04-08] Omphalos and Anxiety is the Dizziness of Freedom are the new ones.
 ** DONE [#B] [2019-05-05] Greg Egan: Perihelion summer (recommended by [[https://twitter.com/johncarlosbaez/status/1125070015172997120][John Baez]])
 :PROPERTIES:
-:ID:       sngrggnprhlnsmmrrcmmnddbytwttrcmjhncrlsbzsttsjhnbz
+:ID:       grggnprhlnsmmrrcmmnddbystwttrcmjhncrlsbzsttsjhnbz
 :END:
 
 ** DONE [#B] [2019-11-06] [[https://twitter.com/i/web/status/1176017858414800906][Brian Armstrong: "Some interesting sci-fi short stories I've read recently | Twitter]]
 :PROPERTIES:
-:ID:       wdstwttrcmwbsttsbrnrmstrnscfshrtstrsvrdrcntlytwttr
+:ID:       stwttrcmwbsttsbrnrmstrngsscfshrtstrsvrdrcntlytwttr
 :END:
 : Some interesting sci-fi short stories I've read recently
 : Understand by Ted Chiang
@@ -117,7 +117,7 @@ I also maintain a [[https://www.goodreads.com/user/show/22191391-dima-gerasimov]
 :   http://skyhunter.com/marcs/GentleSeduction.html…
 ** CNCL [#B] [2019-11-03] "God Shaped Hole by Zero HP Lovecraft"
 :PROPERTIES:
-:ID:       sngdshpdhlbyzrhplvcrft
+:ID:       gdshpdhlbyzrhplvcrft
 :END:
 : How sci-fi should be done in 2019. You may not agree with the moral thrusts (I don't, at times), but the work is undeniably imaginative; an enchanted dream, refreshing in the age of shattered illusions. And don't miss the maze of secondary material! https://t.co/rFfrVF6Fgs
 : https://twitter.com/simpolism/status/1190774586905911298
@@ -130,12 +130,12 @@ from Blindsight by Peter Watts
 
 ** TODO [#B] [2019-01-24] Reinventing Discovery: The New Era of Networked Science: Amazon.co.uk: Michael Nielsen: 9780691160191: Books :read:nielsen:
 :PROPERTIES:
-:ID:       thrnvntngdscvrythnwrfntwrkdscncmznckmchlnlsnbks
+:ID:       rnvntngdscvrythnwrfntwrkdscncmznckmchlnlsnbks
 :END:
 https://www.amazon.co.uk/Reinventing-Discovery-New-Networked-Science/dp/0691160198
 *** [2019-05-26] https://www.kobo.com/gb/en/ebook/reinventing-discovery
 :PROPERTIES:
-:ID:       snswwwkbcmgbnbkrnvntngdscvry
+:ID:       swwwkbcmgbnbkrnvntngdscvry
 :END:
 
 ** TODO [#B] QED and the Men who Made it” by Sam Schweber. recommendation from Tong :qed:
@@ -164,7 +164,7 @@ https://twitter.com/arula_artwork/status/1176981913359278080
 
 ** TODO [#B] [2019-10-19] Different Worlds | Slate Star Codex
 :PROPERTIES:
-:ID:       stdffrntwrldssltstrcdx
+:ID:       dffrntwrldssltstrcdx
 :END:
 https://slatestarcodex.com/2017/10/02/different-worlds/
 : People curious to know more about these kinds of things should be aware that there’s a large literature on these topics. A sort-of-okay-ish book on related topics is Handbook of Individual Differences in Social Behavior. It covers a wide variety of ways in which different people behave differently or interpret behaviour differently. One of the main things I learned from that book is that there are a lot of ways in which people are different (many more than I’d have thought), and everybody will likely have a lot of ‘blind spots’ in terms of these things because there are just so many ways in which people vary that it’s very difficult to spot all of them and keep them in mind, even if you know about their existence.
@@ -178,7 +178,7 @@ from [[https://www.instapaper.com/read/1281810886/12376505][ip]]   [[https://www
 
 ** [#B] [2020-03-13] Saga Press on Twitter: "🚨COVER REVEAL🚨 The Year’s Best Science Fiction Vol.1 cover is here! This anthology is a must-have collection of the best short sci-fi and speculative fiction of 2019. And we have ANOTHER sneak peek for you! Also check out the Table of Contents! ✨ Out this September! https://t.co/yo7YSEk6pD" / Twitter
 :PROPERTIES:
-:ID:       frsgprssntwttrcvrrvlthyrsstthssptmbrstcyyskpdtwttr
+:ID:       sgprssntwttrcvrrvlthyrsbsstthssptmbrstcyyskpdtwttr
 :END:
 https://twitter.com/SagaSFF/status/1238523906652352512
 : COVER REVEAL
@@ -186,40 +186,40 @@ https://twitter.com/SagaSFF/status/1238523906652352512
 : And we have ANOTHER sneak peek for you! Also check out the Table of Contents!
 ** TODO [#B] [2019-05-03] [[https://reddit.com/r/printSF/comments/beiw3b/so_i_want_to_get_into_scifi_mostly_short_storys/el6qzkg/][So i want to get into SciFi - mostly Short Storys...]] /r/printSF
 :PROPERTIES:
-:ID:       frsrddtcmrprntsfcmmntsbwbtscfmstlyshrtstrysrprntsf
+:ID:       srddtcmrprntsfcmmntsbwbswtscfmstlyshrtstrysrprntsf
 :END:
 :   If you liked Ted Chiang, then I assume you like hard sf.
 :   I recommend to check out: Greg [Egan](http://gregegan.net/BIBLIOGRAPHY/Online.html), Alastair [Reynolds](https://www.freesfonline.de/authors/Alastair_Reynolds.html) and Peter [Watts](https://rifters.com/real/shorts.htm).
 :   I linked to short stories online, but they all have paper collections as well.
 ** TODO [#C] [2019-10-02] Shtetl-Optimized » 2014 » June plato at the googleplex
 :PROPERTIES:
-:ID:       wdshttlptmzdjnplttthgglplx
+:ID:       shttlptmzdjnplttthgglplx
 :END:
 https://www.kobo.com/gb/en/ebook/plato-at-the-googleplex-1
  https://www.scottaaronson.com/blog/?m=201406
 : Namely, Rebecca Newberger Goldstein—who’s far and away my favorite contemporary novelist—published a charming new book entitled Plato at the Googleplex: Why Philosophy Won’t Go Away.
 ** STRT [#B] [2019-10-24] Greg Egan on Twitter: "@johncarlosbaez @antiselfdual @thephysicist137 I wrote a short story, “Transition Dreams”, which concludes that almost all experience goes unremembered." / Twitter
 :PROPERTIES:
-:ID:       thgrggnntwttrjhncrlsbzntslmstllxprncgsnrmmbrdtwttr
+:ID:       grggnntwttrjhncrlsbzntslflmstllxprncgsnrmmbrdtwttr
 :END:
 https://twitter.com/gregeganSF/status/1178809696527908864
 : I wrote a short story, “Transition Dreams”, which concludes that almost all experience goes unremembered.
 *** [2020-08-24] ok, it's in luminous. reread?
 :PROPERTIES:
-:ID:       mnktsnlmnsrrd
+:ID:       ktsnlmnsrrd
 :END:
 **** [2020-08-24] also would be nice for kobo.org to dump chapter names
 :PROPERTIES:
-:ID:       mnlswldbncfrkbrgtdmpchptrnms
+:ID:       lswldbncfrkbrgtdmpchptrnms
 :END:
 ** STRT [#B] [2020-05-04] [[https://www.goodreads.com/book/show/64341.The_Metamorphosis_of_Prime_Intellect][The Metamorphosis of Prime Intellect by Roger Williams | Goodreads]] :read:
 :PROPERTIES:
-:ID:       mnswwwgdrdscmbkshwthmtmrpfprmntllctbyrgrwllmsgdrds
+:ID:       swwwgdrdscmbkshwthmtmrphsfprmntllctbyrgrwllmsgdrds
 :END:
 :  As a child, I tried to figure out how to start with a grain of sand and end up with a working computer. Today, I'm a computer programmer who creates custom systems for heavy industry. Somewhere along the way, I became interested in the question of just how far the human mind can go, assuming a sufficiently advanced technology. Maybe sometimes...a little too far. I am the author of THE METAMORPHOSIS OF PRIME INTELLECT and several short stories in the Mortal Passage series -- including "Mortal Passage" itself, a novelette recently republished in Volume #5 of the science fiction magazine, Bull Spec. (
 ** STRT [#B] [2020-08-19] [[https://twitter.com/metaweta/status/1296145484327747584][Mike Stay on Twitter: "@michael_nielsen @gregeganSF does this all the time in his books. In Incandescence, a civilization evolves inside a dwarf planet around a collapsed star and works out general relativity first. Forward's book Dragon's Egg is similar: civilization evolves on the surface of a neutron star." / Twitter]] :read:
 :PROPERTIES:
-:ID:       wdstwttrcmmtwtsttsmkstyntnvlvsnthsrfcfntrnstrtwttr
+:ID:       stwttrcmmtwtsttsmkstyntwtnvlvsnthsrfcfntrnstrtwttr
 :END:
 : Forward's book Dragon's Egg is similar: civilization evolves on the surface of a neutron star.
 ** TODO [#B] [[https://instapaper.com/read/1325172052/13460492][X]] The following are excerpts from Freeman Dyson‘s beautiful essay “Field Theory”, written in 1953, as presented in his book From Eros to Gaia
@@ -231,7 +231,7 @@ todo
 from [[https://gravityandlevity.wordpress.com/2010/08/30/our-stability-is-but-balance-freeman-dyson-on-how-to-imagine-quantum-fields/][“Our stability is but balance” — Freeman Dyson on how to imagine quantum fields]]
 ** TODO [#C] [2019-11-22] ⟨𝜙∣𝜑⟩ (@weirdnik) / Twitter
 :PROPERTIES:
-:ID:       fr𝜙𝜑wrdnktwttr
+:ID:       𝜙𝜑wrdnktwttr
 :END:
 https://twitter.com/weirdnik
 :  “The Electric State” by @simonstalenhag
@@ -244,13 +244,13 @@ https://twitter.com/weirdnik
 : from The Emperor's New Mind: Concerning Computers, Minds, and the Laws of Physics (Popular Science) by Penrose, Roger
 ** TODO [#C] [2018-11-25] The Ego Tunnel: The Science of the Mind and the Myth of the Self by Thomas Metzinger | Goodreads
 :PROPERTIES:
-:ID:       snthgtnnlthscncfthmndndththfthslfbythmsmtzngrgdrds
+:ID:       thgtnnlthscncfthmndndthmythfthslfbythmsmtzngrgdrds
 :END:
 https://www.goodreads.com/book/show/5895503-the-ego-tunnel
 
 ** [#C] [2019-06-26] Альфина’s books on Goodreads (122 books)
 :PROPERTIES:
-:ID:       wdальфинаsbksngdrdsbks
+:ID:       альфинаsbksngdrdsbks
 :END:
  https://www.goodreads.com/review/list/6382468?sort=review&view=reviews
 read alphyna's recommendations?
@@ -266,7 +266,7 @@ read alphyna's recommendations?
 https://twitter.com/gwern/status/1142510178312605696
 ** [#C] [2019-06-15] [[https://reddit.com/r/rational/comments/84m24a/anyone_else_loves_greg_egan_what_do_you_think_is/dvqkkdy/][Anyone else loves Greg Egan? What do you think is his best work?]] /r/rational
 :PROPERTIES:
-:ID:       stsrddtcmrrtnlcmmntsmnynlgnwhtdythnkshsbstwrkrrtnl
+:ID:       srddtcmrrtnlcmmntsmnynlslgnwhtdythnkshsbstwrkrrtnl
 :END:
 :   His best books for me are _Schild's Ladder_ and _Diaspora_. The first chapter of _Diaspora_ was originally published as a short story and is available online as ["Orphanogenesis"](http://www.gregegan.net/DIASPORA/01/Orphanogenesis.html).
 :   I would be careful about _Distress_, the first chapter was really disturbing and it doesn't lighten up all that much. It's really good, just, pushes boundaries about personhood and bodily integrity. And of course has an underpinning of weird physics, like always...
@@ -285,19 +285,19 @@ https://twitter.com/gregeganSF/status/1159953634269913088
 
 ** TODO [#C] [2019-08-18] sindresorhus/awesome-scifi: Sci-Fi worth consuming
 :PROPERTIES:
-:ID:       snsndrsrhswsmscfscfwrthcnsmng
+:ID:       sndrsrhswsmscfscfwrthcnsmng
 :END:
 https://github.com/sindresorhus/awesome-scifi#hard-science-fiction
 
 ** TODO [#C] [2019-10-09] Sean Carroll, "Something Deeply Hidden: Quantum Worlds and the Emergence of Spacetime", 2019
 :PROPERTIES:
-:ID:       wdsncrrllsmthngdplyhddnqntmwrldsndthmrgncfspctm
+:ID:       sncrrllsmthngdplyhddnqntmwrldsndthmrgncfspctm
 :END:
 https://thedeemon.livejournal.com/140306.html
 : Я "джва года ждал" (с) ее выхода. Когда эта книга уже была готова, и до выхода оставалась пара дней, автор выпустил серию своего подкаста, где за пару часов практически пересказал все содержание, может даже еще лучше, чем в самой книжке. Рекомендую ту серию послушать, она взрывает мозг и делает это несколько раз. В книжке у него примерно все то же, но более подробно. Последовательно излагается многомировая интерпретация (MWI), показывается, почему она самая простая и прямая. Что это "суровая квантовая механика" - что получается, если брать чисто формулы и их предсказания за содержание, не добавляя никаких дополнительных постулатов вроде коллапса волновой функции, различия между квантовым и классическим мирами и т.п. Недавно широко известная в узких кругах теорфизики Sabine Hossenfelder сперва похвалила эту книжку Кэрролла, а потом отдельным постом попыталась объяснить, в чем ее претензии к многомировой интерпретации, но у меня так и не получилось ухватить ее мысль, даже после некоторых ее уточнений в комментариях
 ** TODO [#C] [2019-10-09] Adam Becker, "What Is Real?: The Unfinished Quest for the Meaning of Quantum Physics", 2018.
 :PROPERTIES:
-:ID:       wddmbckrwhtsrlthnfnshdqstfrthmnngfqntmphyscs
+:ID:       dmbckrwhtsrlthnfnshdqstfrthmnngfqntmphyscs
 :END:
 https://thedeemon.livejournal.com/140306.html
 :  Click-baity заголовок долго меня отпугивал от этой книжки, но после явной наводки Кэрролла я все же решил ее открыть. И скажу вам, это лучшая книга, что я вообще читал/слушал в этом году, и может быть не только в этом. Книга не топит ни за одну конкретную интерпретацию (в отличие от явного эвереттиста Кэрролла), не дает окончательных ответов (увы), зато очень здорово рассказывает историю развития взглядов, идей и интерпретаций за последние 115 лет. Все основные персонажи - Планк, Эйнштейн, Бор, Гейзенберг, Шредингер, фон Нейман, Бом, Уилер, Эверетт, Белл, Дойч, Zeh, Zurek и пр. - показаны очень живыми и конкретными людьми в конкретных исторических событиях, видно, как их идеи не возникали из воздуха, а рождались в интересной борьбе на фоне других важных событий, часто не относящихся напрямую к науке.
@@ -322,12 +322,12 @@ None
 
 ** TODO [#C] [2020-07-07] [[https://www.theatlantic.com/magazine/archive/2000/07/the-jaguar-and-the-fox/378264/][The Jaguar and the Fox - The Atlantic]] :read:
 :PROPERTIES:
-:ID:       tswwwthtlntccmmgznrchvthjrndthfxthjgrndthfxthtlntc
+:ID:       swwwthtlntccmmgznrchvthjgrndthfxthjgrndthfxthtlntc
 :END:
 : The Quark and the Jaguar
 ** [#C] [2020-02-07] *The Network Revolution – confessions of a computer scientist* (1982)¹ is the ti... | Hacker News
 :PROPERTIES:
-:ID:       frthntwrkrvltncnfssnsfcmptrscntstsththckrnws
+:ID:       thntwrkrvltncnfssnsfcmptrscntstsththckrnws
 :END:
 https://news.ycombinator.com/item?id=22095277
 : teddyh 18 days ago | parent | favorite | on: Ask HN: What are the best unknown books you have r...
@@ -337,13 +337,13 @@ https://news.ycombinator.com/item?id=22095277
 : It also talks a lot about very early Internet history, and gives the history of many things which I have not seen others reference, like Lee Felsenstein and Community Memory.
 ** [#C] [2019-12-06] [[https://reddit.com/r/printSF/comments/e754xr/what_are_some_good_scififantasy_short_story/][What are some good sci-fi/fantasy short story collections?]] /r/printSF
 :PROPERTIES:
-:ID:       frsrddtcmrprntsfcmmntsxrwtsyshrtstrycllctnsrprntsf
+:ID:       srddtcmrprntsfcmmntsxrwhttsyshrtstrycllctnsrprntsf
 :END:
 :   Just finished "The Paper Menagerie and Other Stories" be Ken Liu and it was marvelous. The stories each pulled me in, some brought me close to tears, while others left me pensive. It was just a great experience.
 :   Previously I have enjoyed "Stories of Your Life and Others" and well as the new "Exhalation: Stories" both by Ted Chiang. Thought those were both great as well, and at this point I've come to appreciate short stories much more than I used to, so I was wondering if there is more like this out there, or if there is any short story collection that is dear to your heart that you could share with me?
 ** [#C] [2020-03-10] Open-sourcing Riskquant, a library for quantifying risk | Hacker News :security:
 :PROPERTIES:
-:ID:       tpnsrcngrskqntlbrryfrqntfyngrskhckrnws
+:ID:       pnsrcngrskqntlbrryfrqntfyngrskhckrnws
 :END:
 https://news.ycombinator.com/item?id=22528597
 : The relevant book for this is Measuring and Managing Information Risk: A FAIR Approach by Freund and Jones[0].
@@ -371,7 +371,7 @@ https://twitter.com/skdh/status/1282476055907926016
 
 ** TODO [#D] [2019-05-03] 72 Upcoming SFF books that qualify for this year's Bingo : Fantasy
 :PROPERTIES:
-:ID:       frpcmngsffbksthtqlfyfrthsyrsbngfntsy
+:ID:       pcmngsffbksthtqlfyfrthsyrsbngfntsy
 :END:
 https://www.reddit.com/r/Fantasy/comments/bjhdyq/72_upcoming_sff_books_that_qualify_for_this_years/
 *** TODO Five Short Stories (all hard mode)
@@ -396,7 +396,7 @@ https://www.reddit.com/r/Fantasy/comments/bjhdyq/72_upcoming_sff_books_that_qual
 :END:
 ** [#D] [2019-05-26] Reach for Infinity Audiobook by Pat Cadigan - 9781501973970 | Rakuten Kobo
 :PROPERTIES:
-:ID:       snrchfrnfntydbkbyptcdgnrktnkb
+:ID:       rchfrnfntydbkbyptcdgnrktnkb
 :END:
 https://www.kobo.com/gb/en/audiobook/reach-for-infinity-1
 :  Reach for Infinity
@@ -405,14 +405,14 @@ https://www.kobo.com/gb/en/audiobook/reach-for-infinity-1
 
 ** [#D] [2019-05-26] Upgraded eBook by Neil Clarke - 9781890464318 | Rakuten Kobo
 :PROPERTIES:
-:ID:       snpgrddbkbynlclrkrktnkb
+:ID:       pgrddbkbynlclrkrktnkb
 :END:
 https://www.kobo.com/gb/en/ebook/upgraded-1
 : Upgraded
 : by Neil Clarke, Greg Egan, Elizabeth Bear
 ** STRT [#D] [2018-11-26] Book similar to Daniel Keyes' Flowers for Algernon, Robert Silverberg's Dying Inside and Ted Chiang's Understand. : suggestmeabook
 :PROPERTIES:
-:ID:       mnbksmlrtdnlkysflwrsfrlgrdndtdchngsndrstndsggstmbk
+:ID:       bksmlrtdnlkysflwrsfrlgrnndndtdchngsndrstndsggstmbk
 :END:
 :   https://www.reddit.com/r/suggestmeabook/comments/7ezv7l/book_similar_to_daniel_keyes_flowers_for_algernon/
 :   n a Sci-fi context, Solaris
@@ -434,7 +434,7 @@ from The Strangest Man by Graham Farmelo
 :END:
 ** [#C] [2020-09-16] [[https://twitter.com/ID_AA_Carmack/status/1306109831401492486][John Carmack on Twitter: "@lexfridman Neuromancer by Gibson and Fire Upon The Deep by Vinge should be on the list, and the sequels if you enjoy them." / Twitter]]
 :PROPERTIES:
-:ID:       wdstwttrcmdcrmcksttsjhncrhlstndthsqlsfynjythmtwttr
+:ID:       stwttrcmdcrmcksttsjhncrmchlstndthsqlsfynjythmtwttr
 :END:
 : Fire Upon The Deep by Vinge should be on the list
 
@@ -446,152 +446,152 @@ from The Strangest Man by Graham Farmelo
 :END:
 ** [2020-10-22] [[https://en.wikipedia.org/wiki/Infinite_Jest][Infinite Jest - Wikipedia]] :read:
 :PROPERTIES:
-:ID:       thsnwkpdrgwknfntjstnfntjstwkpd
+:ID:       snwkpdrgwknfntjstnfntjstwkpd
 :END:
 hotz recommendation?
 ** [#C] [2020-09-07] [[https://www.math.columbia.edu/~woit/wordpress/?p=11978][Quantum Reality | Not Even Wrong]] :read:
 :PROPERTIES:
-:ID:       mnswwwmthclmbdwtwrdprsspqntmrltyntvnwrng
+:ID:       swwwmthclmbdwtwrdprsspqntmrltyntvnwrng
 :END:
 : Jim Baggott’s new book, Quantum Reality, is now out here in US, and I highly recommend it to anyone interested in the issues surrounding the interpretation of quantum mechanics.
 ** TODO [#B] [2020-11-24] [[https://news.ycombinator.com/item?id=25187100][Could we reboot a modern civilization without fossil fuels? (2016) | Hacker News]] :prepping:
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdcldwrbtmncvlztnwthtfsslflshckrnws
+:ID:       snwsycmbntrcmtmdcldwrbtmdncvlztnwthtfsslflshckrnws
 :END:
 : Ringworld goes into this topic quite a bit, so it was interesting to me to see that the author is an astrobiologist who wrote "The Knowledge", about restarting civilization from scratch
 ** [2020-07-11] [[https://twitter.com/skdh/status/1267770018827309057][Sabine Hossenfelder on Twitter: "The paperback edition of my book "Lost in Math" is out now! https://t.co/qGVnJBSPXt https://t.co/nz39qMacWo" / Twitter]]
 :PROPERTIES:
-:ID:       ststwttrcmskdhsttssbnhssncqgvnjbspxtstcnzqmcwtwttr
+:ID:       stwttrcmskdhsttssbnhssnflcqgvnjbspxtstcnzqmcwtwttr
 :END:
 : The paperback edition of my book "Lost in Math" is out now!
 : 
 : https://basicbooks.com/titles/sabine-hossenfelder/lost-in-math/9781541646766/
 ** [2020-12-14] [[https://johncarlosbaez.wordpress.com/2019/10/10/foundations-of-math-and-physics-one-century-after-hilbert/][Foundations of Math and Physics One Century After Hilbert | Azimuth]] :book:read:
 :PROPERTIES:
-:ID:       mnsjhncrlsbzwrdprsscmfndtdphyscsncntryftrhlbrtzmth
+:ID:       sjhncrlsbzwrdprsscmfndtnsdphyscsncntryftrhlbrtzmth
 :END:
 : Foundations of Math and Physics One Century After Hilbert
 * TODO [#B] [2020-01-13] [[https://twitter.com/litgenstein/status/1216512864015417344][@litgenstein: In this text, by the way, Schwinger gives a very clear ~20 page summary of the history of the classical —> quantum transition]] :physics:
 :PROPERTIES:
-:ID:       mnstwttrcmltgnstnsttsltgnhhstryfthclssclqntmtrnstn
+:ID:       stwttrcmltgnstnsttsltgnsthhstryfthclssclqntmtrnstn
 :END:
 : touching on their different theories of measurement, mathematical frameworks, the philosophy of the so-called “fundamental,” and so on
 * TODO [#B] [2020-04-03] [[https://twitter.com/DRMacIver/status/1229061018019651587][David R. MacIver on Twitter: "I'm going to try doing a bit more longform writing with half-formed thoughts on my notebook blog, as I've not been doing enough of it recently. Here's a thread for them as I write them." / Twitter]]
 :PROPERTIES:
-:ID:       frstwttrcmdrmcvrsttsdvdrmyhrsthrdfrthmswrtthmtwttr
+:ID:       stwttrcmdrmcvrsttsdvdrmcvyhrsthrdfrthmswrtthmtwttr
 :END:
 : I'm going to try doing a bit more longform writing with half-formed thoughts on my notebook blog, as I've not been doing enough of it recently. Here's a thread for them as I write them.
 
 wow, lots of cool stuff here..
 * TODO [#B] [2020-01-20] [[http://web.eecs.utk.edu/~azh/blog/notebookpainpoints.html][What's wrong with computational notebooks? - Austin Z. Henley]]
 :PROPERTIES:
-:ID:       mnwbcstkdzhblgntbkpnpntshngwthcmpttnlntbksstnzhnly
+:ID:       wbcstkdzhblgntbkpnpntshtmngwthcmpttnlntbksstnzhnly
 :END:
 
 * TODO [#B] [2020-04-15] [[https://www.quantamagazine.org/does-time-really-flow-new-clues-come-from-a-century-old-approach-to-math-20200407/][Does Time Really Flow? New Clues Come From a Century-Old Approach to Math. | Quanta Magazine]] :physics:
 :PROPERTIES:
-:ID:       wdswwwqntmgznrgdstmrllyflrmcntryldpprchtmthqntmgzn
+:ID:       swwwqntmgznrgdstmrllyflwnrmcntryldpprchtmthqntmgzn
 :END:
 * TODO [#B] [2020-04-21] http://metamodular.com/lispos.pdf            :emacs:
 :PROPERTIES:
-:ID:       tmtmdlrcmlspspdf
+:ID:       mtmdlrcmlspspdf
 :END:
 : In response to some of your worries about security and the future of Emacs as an OS, I tend to follow the ideals of this paper:
 
 [[https://riot.im/app/#/room/#malleable-systems:matrix.org][Riot [Offline] | Malleable Systems Collective]]
 * TODO [#C] [2019-12-30] goodenough biography
 :PROPERTIES:
-:ID:       mngdnghbgrphy
+:ID:       gdnghbgrphy
 :END:
 * TODO [#C] [2019-08-04] [[https://hyp.is/0o-JzLcEEemwIzO6lukdMg/worrydream.com/ClimateChange][Here are a handful of languages intended for modeling, simulating, or designing physical systems]] :climate:
 :PROPERTIES:
-:ID:       snshypsjzlcmwzlkdmgwrrydrsmltngrdsgnngphysclsystms
+:ID:       shypsjzlcmwzlkdmgwrrydrmcsmltngrdsgnngphysclsystms
 :END:
 [[http://worrydream.com/ClimateChange/][What can a technologist do about climate change? A personal view.]]
 
 * TODO [#C] [2019-08-23] [[https://www.nytimes.com/2011/10/26/science/26mccarthy.html][John McCarthy, Pioneer in Artificial Intelligence, Dies at 84 - The New York Times]]
 :PROPERTIES:
-:ID:       frswwwnytmscmscncmccrthyhrtfclntllgncdstthnwyrktms
+:ID:       swwwnytmscmscncmccrthyhtmrtfclntllgncdstthnwyrktms
 :END:
 hmm, maybe read his biography?
 * TODO [#C] [2019-09-21] [[https://github.com/hackerkid/Mind-Expanding-Books#fiction][hackerkid/Mind-Expanding-Books: Books that will blow your mind]]
 :PROPERTIES:
-:ID:       stsgthbcmhckrkdmndxpndngbpndngbksbksthtwllblwyrmnd
+:ID:       sgthbcmhckrkdmndxpndngbkspndngbksbksthtwllblwyrmnd
 :END:
 ** TODO [2019-12-31] ugh, need some sort of online commit history viewer
 :PROPERTIES:
-:ID:       tghndsmsrtfnlncmmthstryvwr
+:ID:       ghndsmsrtfnlncmmthstryvwr
 :END:
 
 * TODO [#C] [2019-12-10] [[https://twitter.com/gwern/status/1204194533422047234][Tweet from 𝔊𝔴𝔢𝔯𝔫: I've written a mini-essay summarizing how I think causality & correlation work in the softer sciences, how experiments show correlation≠causation, and why we do a bad job at internalizing that]]
 :PROPERTIES:
-:ID:       tstwttrcmgwrnsttstwtfrm𝔊𝔴tnndwhywdbdjbtntrnlzngtht
+:ID:       stwttrcmgwrnsttstwtfrm𝔊𝔴𝔢tnndwhywdbdjbtntrnlzngtht
 :END:
 
 * STRT [#C] [2019-08-11] [[https://nsaphra.github.io/post/hands][What Does a Coder Do If They Can't Type? | Objective Funk]]
 :PROPERTIES:
-:ID:       snsnsphrgthbpsthndswhtdscdrdfthycnttypbjctvfnk
+:ID:       snsphrgthbpsthndswhtdscdrdfthycnttypbjctvfnk
 :END:
 - [2019-12-05] https://news.ycombinator.com/item?id=20662232 good discussion, few more suggestions
 * TODO [#C] [2020-03-31] [[https://news.ycombinator.com/item?id=22735417][Awesome risk quantification | Hacker News]]
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdwsmrskqntfctnhckrnws
+:ID:       snwsycmbntrcmtmdwsmrskqntfctnhckrnws
 :END:
 * TODO [#C] [2020-04-03] [[https://blog.mozilla.org/addons/2020/04/01/extensions-in-firefox-75][Extensions in Firefox 75 | Mozilla Add-ons Blog]]
 :PROPERTIES:
-:ID:       frsblgmzllrgddnsxtnsnsnfrfxxtnsnsnfrfxmzllddnsblg
+:ID:       sblgmzllrgddnsxtnsnsnfrfxxtnsnsnfrfxmzllddnsblg
 :END:
 * TODO [#C] [2020-04-03] [[https://twitter.com/hillelogram/status/1246151009451327489][Hillel on Twitter: semantic benefits of sphinx/restructured text vs markdown]] :rst:
 :PROPERTIES:
-:ID:       frstwttrcmhlllgrmsttshlllfsphnxrstrctrdtxtvsmrkdwn
+:ID:       stwttrcmhlllgrmsttshlllntfsphnxrstrctrdtxtvsmrkdwn
 :END:
 : I recently moved a large documentation project (>10k words) from github/markdown to sphinx/restructured text. It's now much easier to extend and modify! The syntax is a bit clunkier but the semantic benefits are _huge_. Let's go through some of the things I like!
 * STRT [#C] [2019-09-21] [[https://twitter.com/michael_nielsen/status/1175482689228394496][=@michael_nielsen=: I had a terrible time choosing. Feynman. Bret Victor. Alexei Kitaev. David Deutsch. Vernor Vinge]]
 :PROPERTIES:
-:ID:       ststwttrcmmchlnlsnsttsmchtvctrlxktvdvddtschvrnrvng
+:ID:       stwttrcmmchlnlsnsttsmchlntvctrlxktvdvddtschvrnrvng
 :END:
 ** STRT [2019-11-01] [[https://web.archive.org/web/20090902224414/http://reason.com/news/show/119237.html][Vernor Vinge on science fiction, the Singularity, and the state]]
 :PROPERTIES:
-:ID:       frswbrchvrgwbrsncmnwsshwhnscncfctnthsnglrtyndthstt
+:ID:       swbrchvrgwbrsncmnwsshwhtmnscncfctnthsnglrtyndthstt
 :END:
 * TODO [#C] [2019-12-26] [[https://twitter.com/Meaningness/status/1210312100591132683][David Chapman on Twitter: Half a century later, Andy and I are approximately the only people in the world who write hypertext books]]
 :PROPERTIES:
-:ID:       thstwttrcmmnngnsssttsdvdcpplnthwrldwhwrthyprtxtbks
+:ID:       stwttrcmmnngnsssttsdvdchppplnthwrldwhwrthyprtxtbks
 :END:
 : Ted Nelson published Computer Lib / Dream Machines in 1974. I read it that year. It’s the incredible vision that specifically inspired the web—and it was about *books*.
 : Half a century later, Andy & I are approximately the only people in the world who write hypertext books.
 * TODO [#C] [2019-09-26] [[https://twitter.com/michael_nielsen/status/979210483579289600][=@michael_nielsen=: "How to manage information overload? What are the real bottlenecks?"]] :pkm:
 :PROPERTIES:
-:ID:       thstwttrcmmchlnlsnsttsmchfrmtnvrldwhtrthrlbttlncks
+:ID:       stwttrcmmchlnlsnsttsmchlnfrmtnvrldwhtrthrlbttlncks
 :END:
 : How to manage information overload? What are the real bottlenecks? How can we make vastly better computer note taking systems? Why haven't we gone beyond the file metaphor? How can we build better personal memory systems? Better collective memory systems? So many great problems!
 * TODO [#C] [2019-08-18] [[https://twitter.com/michael_nielsen/status/1162809444184383488][=@michael_nielsen=: for the practice of science as recounted by practitioners, see the astonishing oral history site of the AIP]]
 :PROPERTIES:
-:ID:       snstwttrcmmchlnlsnsttsmchrssthstnshngrlhstrystfthp
+:ID:       stwttrcmmchlnlsnsttsmchlnrssthstnshngrlhstrystfthp
 :END:
 : Incidentally, for the practice of science as recounted by practitioners, see the astonishing oral history site of the AIP: https://aip.org/history-programs/niels-bohr-library/oral-histories
 : The Feynman interview is a great place to start - the interviewer, Charles Weiner, does a wonderful job.
 
 * TODO [#C] [2020-01-15] https://vankessel.io/disproving-quantum-immortality
 :PROPERTIES:
-:ID:       wdsvnkssldsprvngqntmmmrtlty
+:ID:       svnkssldsprvngqntmmmrtlty
 :END:
 * STRT [#C] [2019-10-18] [[https://lobste.rs/s/lsxf4b/road_common_lisp][A Road to Common Lisp | Lobsters]] :lisp:
 :PROPERTIES:
-:ID:       frslbstrsslsxfbrdcmmnlsprdtcmmnlsplbstrs
+:ID:       slbstrsslsxfbrdcmmnlsprdtcmmnlsplbstrs
 :END:
 - [2019-11-02] http://stevelosh.com/blog/2018/08/a-road-to-common-lisp
 * TODO [#C] [2020-04-16] [[http://jakobschwichtenberg.com][Jakob Schwichtenberg]] :physics:
 :PROPERTIES:
-:ID:       thjkbschwchtnbrgcmjkbschwchtnbrg
+:ID:       jkbschwchtnbrgcmjkbschwchtnbrg
 :END:
 * TODO [#C] [2020-05-03] [[https://news.ycombinator.com/item?id=8547249][Foundations by Greg Egan (1998) | Hacker News]]
 :PROPERTIES:
-:ID:       snsnwsycmbntrcmtmdfndtnsbygrggnhckrnws
+:ID:       snwsycmbntrcmtmdfndtnsbygrggnhckrnws
 :END:
 * STRT [#C] [2018-06-15] [[https://www.scottaaronson.com/blog/?p=3679][scott aaronson fav books]]
 :PROPERTIES:
-:ID:       frswwwscttrnsncmblgpscttrnsnfvbks
+:ID:       swwwscttrnsncmblgpscttrnsnfvbks
 :END:
 ** TODO [#B] Fads and Fallacies in the Name of Science by Martin Gardner
 :PROPERTIES:
@@ -660,7 +660,7 @@ hmm, maybe read his biography?
 :END:
 *** [2019-06-26] he autobiography of mathematician Stanislaw Ulam, one of the great scientific minds of the twentieth century, tells a story rich with amazingly prophetic speculations and peppered with lively anecdotes. As a member of the Los Alamos National Laboratory from 1944 on, Ulam helped to precipitate some of the most dramatic changes of the postwar world. He was among the first to use and advocate computers for scientific research
 :PROPERTIES:
-:ID:       wdhtbgrphyfmthmtcnstnslwlnddvctcmptrsfrscntfcrsrch
+:ID:       htbgrphyfmthmtcnstnslwlmnnddvctcmptrsfrscntfcrsrch
 :END:
 ** TODO [#C] A Beautiful Mind by Sylvia Nasar
 :PROPERTIES:
@@ -733,7 +733,7 @@ hmm, maybe read his biography?
 :END:
 *** [2019-06-26] Edited by Timothy Gowers, a recipient of the Fields Medal, it presents nearly two hundred entries, written especially for this book by some of the world's leading mathematicians, that introduce basic mathematical tools and vocabulary; trace the development of modern mathematics; explain essential terms and concepts
 :PROPERTIES:
-:ID:       wddtdbytmthygwrsrcpntfthfmtcsxplnssntltrmsndcncpts
+:ID:       dtdbytmthygwrsrcpntfthfldmtcsxplnssntltrmsndcncpts
 :END:
 ** TODO [#D] The Mind’s I by Douglas Hofstadter and Daniel Dennett
 :PROPERTIES:
@@ -741,7 +741,7 @@ hmm, maybe read his biography?
 :END:
 *** [2019-06-26] The Mind's I: Fantasies and reflections on self and soul is a 1981 collection of essays and other texts about the nature of the mind and the self, edited with commentary by philosophers Douglas R. Hofstadter and Daniel C. Dennett
 :PROPERTIES:
-:ID:       wdthmndsfntssndrflctnsnslrsdglsrhfstdtrnddnlcdnntt
+:ID:       thmndsfntssndrflctnsnslfnrsdglsrhfstdtrnddnlcdnntt
 :END:
 ** DONE [#B] The Mind-Body Problem by Rebecca Goldstein
 :PROPERTIES:
@@ -821,62 +821,62 @@ and here https://www.scottaaronson.com/blog/?p=93
 :END:
 * TODO [#D] [2020-04-01] [[https://superorganizers.substack.com/p/how-to-build-a-digital-zettelkasten-e6d][How To Build A Digital Zettelkasten - Superorganizers]]
 :PROPERTIES:
-:ID:       wdssprrgnzrssbstckcmphwtbtblddgtlzttlkstnsprrgnzrs
+:ID:       ssprrgnzrssbstckcmphwtbldtblddgtlzttlkstnsprrgnzrs
 :END:
 * STRT [#D] [2019-10-18] LOW←TECH MAGAZINE  https://solar.lowtechmagazine.com :sustainability:environment:inspiration:
 :PROPERTIES:
-:ID:       frlwtchmgznsslrlwtchmgzncm
+:ID:       lwtchmgznsslrlwtchmgzncm
 :END:
 * TODO [#D] [2019-10-22] A Complete Understanding is No Longer Possible (2012) | Lobsters
 :PROPERTIES:
-:ID:       tcmpltndrstndngsnlngrpssbllbstrs
+:ID:       cmpltndrstndngsnlngrpssbllbstrs
 :END:
 : There is a 1958 essay describing how a simple pencil is too complicated for any one person to create, and requires an economical system: https://fee.org/resources/i-pencil
 * TODO [#D] [2019-08-28] Presidential Election 2012 FAQ http://norvig.com/election-faq-2012.html
 :PROPERTIES:
-:ID:       wdprsdntllctnfqnrvgcmlctnfqhtml
+:ID:       prsdntllctnfqnrvgcmlctnfqhtml
 :END:
 * TODO [#D] [2018-08-21] Overcoming Bias https://www.overcomingbias.com :rational:
 :PROPERTIES:
-:ID:       tvrcmngbsswwwvrcmngbscm
+:ID:       vrcmngbsswwwvrcmngbscm
 :END:
 
 * TODO [#D] [2019-02-02] [[https://www.ebay.co.uk/itm/Visualizing-Mathematics-with-3D-Printing-by-Henry-Segerman-Hardcover-Book-Free-S][Visualizing Mathematics with 3D Printing by Henry Segerman Hardcover Book Free S | eBay]] :viz:
 :PROPERTIES:
-:ID:       stswwwbycktmvslzngmthmtcsgbyhnrysgrmnhrdcvrbkfrsby
+:ID:       swwwbycktmvslzngmthmtcswtgbyhnrysgrmnhrdcvrbkfrsby
 :END:
 
 * TODO [#D] [2019-07-18] [[https://twitter.com/karpathy/status/1151887984691576833][Tweet from @karpathy: Autocompletion with deep learning, very cool!]]
 :PROPERTIES:
-:ID:       thstwttrcmkrpthysttstwtfrthytcmpltnwthdplrnngvrycl
+:ID:       stwttrcmkrpthysttstwtfrmkthytcmpltnwthdplrnngvrycl
 :END:
 : I tried related ideas a long while ago in days of char-rnn but it wasn't very useful at the time. With new toys (GPT-2) and more focus this may start to work quite well
 
 * TODO [#D] [2019-08-23] [[https://twitter.com/newsycombinator/status/1164855307278913537][OpenGPT-2: We Replicated GPT-2 Because You Can Too]]
 :PROPERTIES:
-:ID:       frstwttrcmnwsycmbntrsttspngptwrplctdgptbcsycnt
+:ID:       stwttrcmnwsycmbntrsttspngptwrplctdgptbcsycnt
 :END:
 * TODO [#D] [2019-07-09] [[https://twitter.com/nplusodin/status/1148645120616607745][Tweet from @nplusodin: Ученые показали, что кусок стекла с правильно размещенными внутри неоднородностями может производить «вычисления» и распознавать рукописные цифры]] :computation:
 :PROPERTIES:
-:ID:       tstwttrcmnplsdnsttstwtfrmспознаватьрукописныецифры
+:ID:       stwttrcmnplsdnsttstwtfrmnспознаватьрукописныецифры
 :END:
 * TODO [#D] [2019-08-29] https://blog.stephenwolfram.com/2019/08/a-book-from-alan-turing-and-a-mysterious-piece-of-paper
 :PROPERTIES:
-:ID:       thsblgstphnwlfrmcmbkfrmlntrngndmystrspcfppr
+:ID:       sblgstphnwlfrmcmbkfrmlntrngndmystrspcfppr
 :END:
 
 * TODO [#D] [2019-08-30] [[https://reddit.com/r/transhumanism/comments/cwvv7v/what_is_transhumanism_this_site_does_a_pretty/]["What Is Transhumanism?" - This site does a pretty thorough job of answering that question | /r/transhumanism]]
 :PROPERTIES:
-:ID:       frsrddtcmrtrnshmnsmcmmntsbfnswrngthtqstnrtrnshmnsm
+:ID:       srddtcmrtrnshmnsmcmmntscwbfnswrngthtqstnrtrnshmnsm
 :END:
 : maintained by a bunch of famous Transhumanists
 * TODO [#D] [2018-09-03] https://aiimpacts.org
 :PROPERTIES:
-:ID:       mnsmpctsrg
+:ID:       smpctsrg
 :END:
 * DONE [#B] [2020-03-09] [[https://www.lesswrong.com/events/aSGYPDsiw3u6MFwxJ/most-of-what-you-read-on-the-internet-is-written-by-insane][Most of What You Read on the Internet is Written by Insane People - LessWrong 2.0]]
 :PROPERTIES:
-:ID:       mnswwwlsswrngcmvntssgypdstrntswrttnbynsnppllsswrng
+:ID:       swwwlsswrngcmvntssgypdswmtrntswrttnbynsnppllsswrng
 :END:
 - [2020-03-24] https://www.reddit.com/r/slatestarcodex/comments/9rvroo/most_of_what_you_read_on_the_internet_is_written
 * DONE [#C] Dirac biography?
@@ -886,7 +886,7 @@ and here https://www.scottaaronson.com/blog/?p=93
 :END:
 ** DONE [2020-04-29] paul dirac the strangest man            :read:biography:
 :PROPERTIES:
-:ID:       wdpldrcthstrngstmn
+:ID:       pldrcthstrngstmn
 :END:
 (from PBS Space TIme guy)
 
@@ -899,41 +899,41 @@ and here https://www.scottaaronson.com/blog/?p=93
 from Three Roads to Quantum Gravity
 ** [2019-10-19] not sure what's up with bohr
 :PROPERTIES:
-:ID:       stntsrwhtspwthbhr
+:ID:       ntsrwhtspwthbhr
 :END:
 ** [2020-06-04]  I don't know these books but here is one by Bohr https://twitter.com/johncarlosbaez/status/1268330373361987584
 :PROPERTIES:
-:ID:       thdntknwthsbksbthrsnbybhrstwttrcmjhncrlsbzstts
+:ID:       dntknwthsbksbthrsnbybhrstwttrcmjhncrlsbzstts
 :END:
 : I don't know these books but here is one by Bohr:
 : https://amazon.com/Atomic-Physics-Human-Knowledge-Dover/dp/0486479285
 : One reviewer writes "Bohr must be the worst writer in the history of the written word" - sounds true, there's a famous paper where he left out some sentences, it didn't make sense, but nobody noticed.
 ** [2020-06-04] Quantum Mechanics by Schwinger https://twitter.com/litgenstein/status/1268330658729881602
 :PROPERTIES:
-:ID:       thqntmmchncsbyschwngrstwttrcmltgnstnstts
+:ID:       qntmmchncsbyschwngrstwttrcmltgnstnstts
 :END:
 ** [2020-06-04] This seems like a nontechnical book by Heisenberg https://twitter.com/johncarlosbaez/status/1268331327603871744
 :PROPERTIES:
-:ID:       ththssmslknntchnclbkbyhsnbrgstwttrcmjhncrlsbzstts
+:ID:       thssmslknntchnclbkbyhsnbrgstwttrcmjhncrlsbzstts
 :END:
 : https://amazon.com/Physics-Philosophy-Revolution-Modern-Science/dp/0061209198/
 : I guess I should read it sometime!   3/3
 
 * TODO [#B] [2020-10-06] [[https://news.ycombinator.com/item?id=24686247][Science Fiction Stories with Good Astronomy and Physics: A Topical Index]] :read:
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdscncfctnthgdstrnmyndphyscstpclndx
+:ID:       snwsycmbntrcmtmdscncfctnsthgdstrnmyndphyscstpclndx
 :END:
 https://astrosociety.org/file_download/inline/621a63fc-04d5-4794-8d2b-38e7195056e9
 * DONE [#C] [2019-07-23] Richard Feynman - Session V | American Institute of Physics :biography:
 :PROPERTIES:
-:ID:       trchrdfynmnsssnvmrcnnstttfphyscs
+:ID:       rchrdfynmnsssnvmrcnnstttfphyscs
 :END:
 https://www.aip.org/history-programs/niels-bohr-library/oral-histories/5020-5
 : Oral History Interviews
 : Interviews that offer unique insights into the lives, works, and personalities of modern scientists
 * [#C] [2020-05-30] mark_l_watson on Twitter: "free update for the 6th edition of my book "Loving Common Lisp, or the Savvy Programmer's Secret Weapon" released today: https://t.co/ntwFJ4J353 - New chapter on Knowledge Graph Navigator - More material on Common Lisp and Python interop - Many small changes and corrections" / Twitter :lisp:
 :PROPERTIES:
-:ID:       stmrklwtsnntwttrfrpdtfrthnysmllchngsndcrrctnstwttr
+:ID:       mrklwtsnntwttrfrpdtfrththnysmllchngsndcrrctnstwttr
 :END:
 https://twitter.com/mark_l_watson/status/1266806550363901952
 : free update for the 6th edition of my book "Loving Common Lisp, or the Savvy Programmer's Secret Weapon" released today: https://leanpub.com/lovinglisp
@@ -957,33 +957,33 @@ https://mobile.twitter.com/gwern/status/1104879445368864773
 
 * TODO [#C] [2019-11-24] Biographical Memoirs Home
 :PROPERTIES:
-:ID:       snbgrphclmmrshm
+:ID:       bgrphclmmrshm
 :END:
 http://nasonline.org/publications/biographical-memoirs
 
 * TODO [#C] [2019-12-20] [ACC] Is Eating Meat A Net Harm? | Slate Star Codex
 :PROPERTIES:
-:ID:       frccstngmtnthrmsltstrcdx
+:ID:       ccstngmtnthrmsltstrcdx
 :END:
 https://slatestarcodex.com/2019/12/11/acc-is-eating-meat-a-net-harm/
 ** STRT [#C] [2019-12-12] [ACC] Is Eating Meat A Net Harm? | Slate Star Codex :consciousness:diet:vegetarian:
 :PROPERTIES:
-:ID:       thccstngmtnthrmsltstrcdx
+:ID:       ccstngmtnthrmsltstrcdx
 :END:
 : By contrast, fish do not have any neural architecture unique to the consciousness-related parts of the brain and are probably unable to feel fear or pain in the way a human would – we strongly encourage you to read this article in full to convince yourself of this claim. Although fish show pain-like responses to harmful stimulus and do so less if given painkillers, this is true even when the entire telencephalon (which includes the forebrain) is removed so on balance it is unlikely they are having a qualitative experience to accompany that response.
 
 * TODO [#C] [2019-12-08] Alan Kay's reading list | Hacker News
 :PROPERTIES:
-:ID:       snlnkysrdnglsthckrnws
+:ID:       lnkysrdnglsthckrnws
 :END:
 https://news.ycombinator.com/item?id=11803165
 * [#C] [2020-04-13] [[http://www.winestockwebdesign.com/Essays/Alien_Life.html][Alien Life is Over-Hyped]]
 :PROPERTIES:
-:ID:       mnwwwwnstckwbdsgncmssyslnlfhtmllnlfsvrhypd
+:ID:       wwwwnstckwbdsgncmssyslnlfhtmllnlfsvrhypd
 :END:
 * TODO [#C] [2020-03-01] Post-Privacy: Prima leben ohne Privatsphäre | Start :german:read:qs:
 :PROPERTIES:
-:ID:       snpstprvcyprmlbnhnprvtsphärstrt
+:ID:       pstprvcyprmlbnhnprvtsphärstrt
 :END:
 http://www.plomlompom.de/PostPrivacyBuch
 * TODO [#C] Tweet from @preskill
@@ -1002,21 +1002,21 @@ https://twitter.com/preskill/status/1278502381324365826
 
 * [#C] [2020-07-12] [[https://news.ycombinator.com/item?id=23813428][July 11, 2020 RIP my darling boy | Hacker News]]
 :PROPERTIES:
-:ID:       snsnwsycmbntrcmtmdjlyrpmydrlngbyhckrnws
+:ID:       snwsycmbntrcmtmdjlyrpmydrlngbyhckrnws
 :END:
 : Take some time to read through Aaron's blog if you haven't: http://www.aaronsw.com/weblog/archive. I'd recommend starting with his series of posts called Raw Nerve (http://www.aaronsw.com/weblog/rawnerve).
 * [#C] [2020-06-30] [[https://rationalwiki.org/wiki/Quantum_suicide][Quantum suicide - RationalWiki]]
 :PROPERTIES:
-:ID:       tsrtnlwkrgwkqntmscdqntmscdrtnlwk
+:ID:       srtnlwkrgwkqntmscdqntmscdrtnlwk
 :END:
 
 * TODO [#C] [2020-06-30] [[http://bach.ai/][Joscha Bach]]              :read:
 :PROPERTIES:
-:ID:       tbchjschbch
+:ID:       bchjschbch
 :END:
 * STRT [#C] [2020-05-23] [[https://github.com/albertz/wiki][albertz/wiki: some useful information]] :read:
 :PROPERTIES:
-:ID:       stsgthbcmlbrtzwklbrtzwksmsflnfrmtn
+:ID:       sgthbcmlbrtzwklbrtzwksmsflnfrmtn
 :END:
 * TODO [#C] Tweet from @Plinz
 :PROPERTIES:
@@ -1029,7 +1029,7 @@ https://twitter.com/Plinz/status/1285729949211664385
 
 * TODO [#C] [2019-08-04] Ch 5 Page 35: Sustainable Energy - without the hot air | David MacKay :climate:
 :PROPERTIES:
-:ID:       snchpgsstnblnrgywthtthhtrdvdmcky
+:ID:       chpgsstnblnrgywthtthhtrdvdmcky
 :END:
 http://www.withouthotair.com/c5/page_35.shtml
 : Let’s make clear what this means. Flying once per year has an energy
@@ -1037,7 +1037,7 @@ http://www.withouthotair.com/c5/page_35.shtml
 : a day, all year.
 * [#C] [2020-08-19] [[https://en.wikipedia.org/wiki/Paul_Dirac][Paul Dirac - Wikipedia]] :read:
 :PROPERTIES:
-:ID:       wdsnwkpdrgwkpldrcpldrcwkpd
+:ID:       snwkpdrgwkpldrcpldrcwkpd
 :END:
 : Lectures on Quantum Mechanics (1966): Much of this book deals with quantum mechanics in curved space-time.
 : Lectures on Quantum Field Theory (1966): This book lays down the foundations of quantum field theory using the Hamiltonian formalism.
@@ -1045,26 +1045,26 @@ http://www.withouthotair.com/c5/page_35.shtml
 : General Theory of Relativity (1975): This 69-page work summarises Einstein's general theory of relativity.
 * STRT [#C] [2019-02-13] The Third Triumvirate – Overthinking Overtime :read:
 :PROPERTIES:
-:ID:       wdththrdtrmvrtvrthnkngvrtm
+:ID:       ththrdtrmvrtvrthnkngvrtm
 :END:
 https://thirdtriumvirate.wordpress.com/
 
 * [#C] [2020-11-17] [[https://news.ycombinator.com/item?id=25115746][What Gödel Discovered]]
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdwhtgödldscvrd
+:ID:       snwsycmbntrcmtmdwhtgödldscvrd
 :END:
 https://stopa.io/post/269
 * [#C] [2020-03-05] [[https://news.ycombinator.com/item?id=22488927][Landmark computer science proof cascades through physics and math]]
 :PROPERTIES:
-:ID:       thsnwsycmbntrcmtmdlndmrkccprfcscdsthrghphyscsndmth
+:ID:       snwsycmbntrcmtmdlndmrkcmpcprfcscdsthrghphyscsndmth
 :END:
 https://www.quantamagazine.org/landmark-computer-science-proof-cascades-through-physics-and-math-20200304/
 * [#C] [2020-09-13] [[https://news.ycombinator.com/item?id=24449309][Freeman Dyson’s letters offer another glimpse of genius]]
 :PROPERTIES:
-:ID:       snsnwsycmbntrcmtmdfrmndysnslttrsffrnthrglmpsfgns
+:ID:       snwsycmbntrcmtmdfrmndysnslttrsffrnthrglmpsfgns
 :END:
 https://www.newyorker.com/tech/annals-of-technology/freeman-dysons-letters-offer-another-glimpse-of-genius
 * TODO [#C] [2020-10-21] [[https://deepmind.com/blog/article/FermiNet][FermiNet: Quantum Physics and Chemistry from First Principles | DeepMind]]
 :PROPERTIES:
-:ID:       wdsdpmndcmblgrtclfrmntfrmhmstryfrmfrstprncplsdpmnd
+:ID:       sdpmndcmblgrtclfrmntfrmnthmstryfrmfrstprncplsdpmnd
 :END:

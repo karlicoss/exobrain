@@ -3,13 +3,13 @@
 
 * [2017-11-30] Continuum hypothesis
 :PROPERTIES:
-:ID:       thcntnmhypthss
+:ID:       cntnmhypthss
 :END:
 Godel: proved that ZFC + CH is consistnent
 Cohen: proved that ZFC + ~CH is consistnent (actually, any intermediate number of infinities)
 * [2015-08-26] depenedent sum
 :PROPERTIES:
-:ID:       wddpndntsm
+:ID:       dpndntsm
 :END:
 Sum    (a : A) (B(A)) = {(a, b) | a \in A, b \in B(a)}
 Exists (a : A) (B(A)) = || Sum a B ||

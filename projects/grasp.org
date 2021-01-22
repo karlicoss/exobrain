@@ -33,16 +33,16 @@ next time you want to order something you don't need to go throught all the book
 :END:
 * TODO [#B] [2019-07-09] [[https://reddit.com/r/fossdroid/comments/c96vff/markor_v20_search_dotfiles_pdf_export_markdown/][Markor v2.0 - Search, dotFiles, PDF export - Markdown & todo.txt texteditor for Android]] /r/fossdroid
 :PROPERTIES:
-:ID:       tsrddtcmrfssdrdcmmntscvffntdtxttxtdtrfrndrdrfssdrd
+:ID:       srddtcmrfssdrdcmmntscvffmntdtxttxtdtrfrndrdrfssdrd
 :END:
 ** [2019-10-12] could support templates in grasp so they are compatible with this app... although not that much point for android considering it's got share?
 :PROPERTIES:
-:ID:       stcldspprttmpltsngrspsthychpntfrndrdcnsdrngtsgtshr
+:ID:       cldspprttmpltsngrspsthyrcchpntfrndrdcnsdrngtsgtshr
 :END:
 
 * TODO [#B] [2019-12-21] Idea: HTTP server in Emacs · Issue 28 · karlicoss/grasp https://github.com/karlicoss/grasp/issues/28
 :PROPERTIES:
-:ID:       stdsrvrnmcssskrlcssgrspsgthbcmkrlcssgrspsss
+:ID:       dsrvrnmcssskrlcssgrspsgthbcmkrlcssgrspsss
 :END:
 : Ah, gotcha. Sorry for misunderstanding! Appreciate the ideas, I just interpreted it as if you were trying to use this and were asking for features :)
 : Thanks for the questions, they'll help me to update readme to make the aim and scope clearer.
@@ -62,7 +62,7 @@ https://twitter.com/blueminder/status/1231402101432971264
 
 * [#D] [2019-02-10] Todo.txt for Chrome - simple task management - Chrome Web Store
 :PROPERTIES:
-:ID:       sntdtxtfrchrmsmpltskmngmntchrmwbstr
+:ID:       tdtxtfrchrmsmpltskmngmntchrmwbstr
 :END:
 https://chrome.google.com/webstore/detail/todotxt-for-chrome-simple/mndijfcodpjlhgjcpcbhncjakaboedbl?hl=en
 
@@ -80,18 +80,18 @@ https://chrome.google.com/webstore/detail/todotxt-for-chrome-simple/mndijfcodpjl
 Allow setting of tags and description when capturing
 * TODO [#C] [2019-10-30] [[https://reddit.com/r/fossdroid/comments/dpbbm2/markor_v22_presentations_voice_notes_markdown/][Markor v2.2 - Presentations, Voice notes, Markdown table editor]] /r/fossdroid
 :PROPERTIES:
-:ID:       wdsrddtcmrfssdrdcmmntsdpbsvcntsmrkdwntbldtrrfssdrd
+:ID:       srddtcmrfssdrdcmmntsdpbbmsvcntsmrkdwntbldtrrfssdrd
 :END:
 
 * [#C] [2019-07-16] axol results for quantum_gravity, rendered at Tue 16 Jul 2019 05:13 file:C:/Users/dima/Downloads/rendered/quantum_gravity.html
 :PROPERTIES:
-:ID:       txlrsltsfrqntmgrvtyrndrdtmdwnldsrndrdqntmgrvtyhtml
+:ID:       xlrsltsfrqntmgrvtyrndrdtjmdwnldsrndrdqntmgrvtyhtml
 :END:
 would be pretty cool to extract hyperlinks from selected content and convert to org?
 Would be good to have preview of what's gonna be added to server I guess. Maybe make server as dumb as possible; merely writing the formatted data?
 * TODO [#C] [2019-10-27] [sprig/org-capture-extension] Activate via context menu (#59) - karlicoss@gmail.com - Gmail
 :PROPERTIES:
-:ID:       snsprgrgcptrxtnsnctvtvcntxtmnkrlcssgmlcmgml
+:ID:       sprgrgcptrxtnsnctvtvcntxtmnkrlcssgmlcmgml
 :END:
 : It would be convenient to have Org Capture context menu so that user would:
 : 
@@ -100,7 +100,7 @@ Would be good to have preview of what's gonna be added to server I guess. Maybe 
 :     and the action is right here, under the cursor
 * [#C] [2019-11-21] 🔎Julia Evans🔍 on Twitter: "thinking about what makes programming exercises good. So far I have: * I can easily see how it relates to my life * I learn something new * I can do the exercise in less than 3 hours * No complicated setup required" / Twitter
 :PROPERTIES:
-:ID:       thjlvnsntwttrthnkngbtwhtmhnhrsncmplctdstprqrdtwttr
+:ID:       jlvnsntwttrthnkngbtwhtmkshnhrsncmplctdstprqrdtwttr
 :END:
 https://twitter.com/b0rk/status/1197282185230860288
 : thinking about what makes programming exercises good. So far I have:
@@ -113,7 +113,7 @@ eh, might need inorganic to escape the body...
 :END:
 * [#D] [2019-07-06] Todo.txt: Future-proof task tracking in a file you control
 :PROPERTIES:
-:ID:       sttdtxtftrprftsktrckngnflycntrl
+:ID:       tdtxtftrprftsktrckngnflycntrl
 :END:
 http://todotxt.org/
 support this?
@@ -124,7 +124,7 @@ support this?
 :END:
 * [#D] [2019-10-19] open in sidebar (issue 20)               :webext:firefox:
 :PROPERTIES:
-:ID:       stpnnsdbrss
+:ID:       pnnsdbrss
 :END:
 : A feature improvement I could suggest is to open the input area in the sidebar, instead of a pop-up. The pop-up closes when one continues to read the given article. At least for me, this also interrupts the process of thought, I can't reflect on what I have noted already.
 : I found the side-bar easier for writing and collecting notes, such as in this extension:

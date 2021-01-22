@@ -36,20 +36,20 @@ I guess we could backoff indefinitely; and rely on global timeout if necessary
 :END:
 ** TODO [2019-10-19] add to post?                                      :blog:
 :PROPERTIES:
-:ID:       stddtpst
+:ID:       ddtpst
 :END:
 * [#A] [2018-04-03] Joe Duffy: the error model http://joeduffyblog.com/2016/02/07/the-error-model/ :errors:
 :PROPERTIES:
-:ID:       tjdffythrrrmdljdffyblgcmthrrrmdl
+:ID:       jdffythrrrmdljdffyblgcmthrrrmdl
 :END:
 
 * [#C] [2019-11-22] Error Handling Survey                       :rust:errors:
 :PROPERTIES:
-:ID:       frrrrhndlngsrvy
+:ID:       rrrhndlngsrvy
 :END:
 https://blog.yoshuawuyts.com/error-handling-survey
 
 * [2018-04-05] catching and rethrowing might be a good way of adding context :errors:
 :PROPERTIES:
-:ID:       thctchngndrthrwngmghtbgdwyfddngcntxt
+:ID:       ctchngndrthrwngmghtbgdwyfddngcntxt
 :END:

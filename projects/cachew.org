@@ -35,15 +35,15 @@ why using separate columns at all
 :END:
 *** [2019-07-25] sqlalchemy core doesn't support binding? that dataset got their own ResultIter adapter
 :PROPERTIES:
-:ID:       thsqllchmycrdsntspprtbndngthtdtstgtthrwnrslttrdptr
+:ID:       sqllchmycrdsntspprtbndngthtdtstgtthrwnrslttrdptr
 :END:
 *** [2019-07-25] https://docs.sqlalchemy.org/en/13/core/custom_types.html somewhat awkward and invasive for existing types
 :PROPERTIES:
-:ID:       thsdcssqllchmyrgncrcstmtywhtwkwrdndnvsvfrxstngtyps
+:ID:       sdcssqllchmyrgncrcstmtypswhtwkwrdndnvsvfrxstngtyps
 :END:
 *** [2019-07-30] performance: I haven't tested
 :PROPERTIES:
-:ID:       tprfrmnchvnttstd
+:ID:       prfrmnchvnttstd
 :END:
 
 ** TODO [#C] combines some of my favorite python features: type annotations, decorators, generators, context managers :python:blog:
@@ -53,7 +53,7 @@ why using separate columns at all
 :END:
 ** [#D] [2019-07-19] Is it possible to use a namedtuple with SQLalchemy? : Python
 :PROPERTIES:
-:ID:       frstpssbltsnmdtplwthsqllchmypythn
+:ID:       stpssbltsnmdtplwthsqllchmypythn
 :END:
 https://www.reddit.com/r/Python/comments/kz7vj/is_it_possible_to_use_a_namedtuple_with_sqlalchemy/
 : sqlalchemy needs to attach attributes onto a mapped class, which include one for each column mapped, as well as an attribute _sa_instance_state for bookkeeping. It also, as someone mentioned, needs to create a weak reference to the object. So a SQLAlchemy-mapped class needs to be a "new style class", extending from object.
@@ -72,25 +72,25 @@ https://www.reddit.com/r/Python/comments/kz7vj/is_it_possible_to_use_a_namedtupl
 : When you have to convert your structured data into data types other libraries can handle, cattrs turns your classes and enumerations into dictionaries, integers and strings.
 *** [2020-05-16] ok, not sure if it supports NT/dataclasses? Hypothesis tests are nice though
 :PROPERTIES:
-:ID:       stkntsrftspprtsntdtclssshypthsststsrncthgh
+:ID:       kntsrftspprtsntdtclssshypthsststsrncthgh
 :END:
 
 ** [#C] [2020-05-16] [[https://github.com/UnitedIncome/json-syntax][UnitedIncome/json-syntax: Generates functions to convert Python classes to and from JSON friendly objects]] :python:json:
 :PROPERTIES:
-:ID:       stsgthbcmntdncmjsnsyntxntclssstndfrmjsnfrndlybjcts
+:ID:       sgthbcmntdncmjsnsyntxntdnclssstndfrmjsnfrndlybjcts
 :END:
 ** TODO [#C] [2020-05-26] [[https://github.com/freelancer/pavlova][freelancer/pavlova: A python deserialisation library built on top of dataclasses]] :cache:
 :PROPERTIES:
-:ID:       tsgthbcmfrlncrpvlvfrlncrpsrlstnlbrrybltntpfdtclsss
+:ID:       sgthbcmfrlncrpvlvfrlncrpvsrlstnlbrrybltntpfdtclsss
 :END:
 *** [2020-07-13] register types in the same way? https://github.com/freelancer/pavlova#adding-custom-types
 :PROPERTIES:
-:ID:       mnrgstrtypsnthsmwysgthbcmfrlncrpvlvddngcstmtyps
+:ID:       rgstrtypsnthsmwysgthbcmfrlncrpvlvddngcstmtyps
 :END:
 
 ** [#C] [2020-03-11] unmade/apiwrappers: Build API clients that work both with regular and async code :axol:
 :PROPERTIES:
-:ID:       wdnmdpwrpprsbldpclntsthtwrkbthwthrglrndsynccd
+:ID:       nmdpwrpprsbldpclntsthtwrkbthwthrglrndsynccd
 :END:
 https://github.com/unmade/apiwrappers
 : Modern - decode JSON with no effort using dataclasses and type annotations
@@ -209,7 +209,7 @@ feels a bit more atomic...
 
 *** [2019-08-14] tried to implement tuples support... but it's just too freaking hacky...
 :PROPERTIES:
-:ID:       wdtrdtmplmnttplsspprtbttsjsttfrknghcky
+:ID:       trdtmplmnttplsspprtbttsjsttfrknghcky
 :END:
 :  def test_typing_tuple(tmp_path):
 :      tdir = Path(tmp_path)
@@ -223,7 +223,7 @@ feels a bit more atomic...
 :      assert list(get_data())[-1][1] == 2
 ** TODO [#C] [2020-01-13] Shit! If merging is implemented recursivelyz like Fibonacci, cachew could support properly incremental exports?
 :PROPERTIES:
-:ID:       mnshtfmrgngsmplmntdrcrsvlldspprtprprlyncrmntlxprts
+:ID:       shtfmrgngsmplmntdrcrsvlyzldspprtprprlyncrmntlxprts
 :END:
 
 * [#B] publicity                                                    :publish:
@@ -232,13 +232,13 @@ feels a bit more atomic...
 :END:
 ** [#C] [2020-04-09] Pyfiddle                                          :demo:
 :PROPERTIES:
-:ID:       thpyfddl
+:ID:       pyfddl
 :END:
 https://pyfiddle.io/fiddle/4de2f70f-e421-4326-bbb8-b06d5efa547d/?i=true
 yeah really need to give a demo
 ** DONE [#D] [2020-01-09] PyCoder’s Weekly on Twitter: "cachew: Persistent Cache/Serialization Powered by Type Hints https://t.co/x587YrhtLE" / Twitter
 :PROPERTIES:
-:ID:       thpycdrswklyntwttrcchwprsrdbytyphntsstcxyrhtltwttr
+:ID:       pycdrswklyntwttrcchwprsstrdbytyphntsstcxyrhtltwttr
 :END:
 https://twitter.com/pycoders/status/1214956434519154688
 
@@ -316,21 +316,21 @@ perhaps with more processing difference would be even more striking...
 :END:
 ** [#B] [2020-10-09] [[https://github.com/karlicoss/cachew][karlicoss/cachew: Transparent and persistent cache/serialization powered by type hints]]
 :PROPERTIES:
-:ID:       frsgthbcmkrlcsscchwkrlcsstntcchsrlztnpwrdbytyphnts
+:ID:       sgthbcmkrlcsscchwkrlcsscctntcchsrlztnpwrdbytyphnts
 :END:
 : During reading cache all that happens is reading rows from sqlite and mapping them onto your target datatype, so the only overhead would be from reading sqlite, which is quite fast.
 
 ugh, grammar is a bit odd
 ** [#B] [2020-10-09] [[https://github.com/karlicoss/cachew][karlicoss/cachew: Transparent and persistent cache/serialization powered by type hints]]
 :PROPERTIES:
-:ID:       frsgthbcmkrlcsscchwkrlcsstntcchsrlztnpwrdbytyphnts
+:ID:       sgthbcmkrlcsscchwkrlcsscctntcchsrlztnpwrdbytyphnts
 :END:
 : attemps to cause
 
 to call
 ** [#B] [2020-10-09] [[https://github.com/karlicoss/cachew][karlicoss/cachew: Transparent and persistent cache/serialization powered by type hints]]
 :PROPERTIES:
-:ID:       frsgthbcmkrlcsscchwkrlcsstntcchsrlztnpwrdbytyphnts
+:ID:       sgthbcmkrlcsscchwkrlcsscctntcchsrlztnpwrdbytyphnts
 :END:
 : caching for
 
@@ -350,7 +350,7 @@ globally?
 Maybe even dal is fine if I illustrate it by integration test?
 *** [2020-01-08] pdf annotations could be a really good one. MASSIVE difference
 :PROPERTIES:
-:ID:       wdpdfnnttnscldbrllygdnmssvdffrnc
+:ID:       pdfnnttnscldbrllygdnmssvdffrnc
 :END:
 
 ** DONE Use ipynb for docs?                                :ipython:literate:
@@ -360,7 +360,7 @@ Maybe even dal is fine if I illustrate it by integration test?
 :END:
 *** [2019-08-18] pretty nice actually!
 :PROPERTIES:
-:ID:       snprttyncctlly
+:ID:       prttyncctlly
 :END:
 ** DONE generate readme from unit tests?                           :literate:
 :PROPERTIES:
@@ -369,7 +369,7 @@ Maybe even dal is fine if I illustrate it by integration test?
 :END:
 ** TODO [#B] [2020-11-14] [[https://github.com/karlicoss/cachew#examples][karlicoss/cachew: Transparent and persistent cache/serialization powered by type hints]]
 :PROPERTIES:
-:ID:       stsgthbcmkrlcsscchwxmplsktntcchsrlztnpwrdbytyphnts
+:ID:       sgthbcmkrlcsscchwxmplskrltntcchsrlztnpwrdbytyphnts
 :END:
 add a super simple, trivial example. just with some dictionaries maybe?
 
@@ -385,7 +385,7 @@ add a super simple, trivial example. just with some dictionaries maybe?
 :END:
 *** [2019-07-30] err, log of what?
 :PROPERTIES:
-:ID:       trrlgfwht
+:ID:       rrlgfwht
 :END:
 ** STRT [#C] fuck, if I want people to use it, I'm gonna need some documentation...
 :PROPERTIES:
@@ -413,7 +413,7 @@ generally it's fast enough or at least 'much faster', not that it's super high p
 : # self.db = sqlalchemy.create_engine(f'sqlite:///{db_path}', listeners=[MyListener()])
 ** [#C] [2019-07-25] profiling
 :PROPERTIES:
-:ID:       thprflng
+:ID:       prflng
 :END:
 test_dbcache_many
 
@@ -429,7 +429,7 @@ after updating to nice binders
 :    1M: about 31.5 seconds
 *** [2019-07-30] I haven't bothered much with profiling and optimizing since for now the benefits of using this are clear
 :PROPERTIES:
-:ID:       thvntbthrdmchwthprflngndpsncfrnwthbnftsfsngthsrclr
+:ID:       hvntbthrdmchwthprflngndptsncfrnwthbnftsfsngthsrclr
 :END:
 ** TODO [#D] some old comments
 :PROPERTIES:

@@ -15,67 +15,67 @@ This is kind of a todo-list with raw ideas and things not (yet?) worthy of githu
 :END:
 ** STRT [#C] [2019-12-11] [[https://en.wikipedia.org/wiki/Solid_(web_decentralization_project)][Solid (web decentralization project) - Wikipedia]]
 :PROPERTIES:
-:ID:       wdsnwkpdrgwksldwbdcntrlztctsldwbdcntrlztnprjctwkpd
+:ID:       snwkpdrgwksldwbdcntrlztnpctsldwbdcntrlztnprjctwkpd
 :END:
 : Solid (Social Linked Data)[1] is a web decentralization project led by Tim Berners-Lee, the inventor of the World Wide Web, developed collaboratively at the Massachusetts Institute of Technology (MIT). The project "aims to radically change the way Web applications work today, resulting in true data ownership as well as improved privacy"[2] by developing a platform for linked-data applications that are completely decentralized and fully under users' control rather than controlled by other entities. The ultimate goal of Solid is to allow users to have full control of their own data, including access control and storage location. To that end, Tim Berners-Lee formed a company called Inrupt to help build a commercial ecosystem to fuel Solid.
 *** [2020-01-15] eh.. instructions are a bit mental even for technical users... https://solidproject.org/for-developers/pod-server
 :PROPERTIES:
-:ID:       wdhnstrctnsrbtmntlvnfrtchssldprjctrgfrdvlprspdsrvr
+:ID:       hnstrctnsrbtmntlvnfrtchncssldprjctrgfrdvlprspdsrvr
 :END:
 *** [2020-01-16] https://solidproject.org/use-solid/apps apps are a bit disorganised and lots of duplicates
 :PROPERTIES:
-:ID:       thssldprjctrgssldppsppsrbtdsrgnsdndltsfdplcts
+:ID:       ssldprjctrgssldppsppsrbtdsrgnsdndltsfdplcts
 :END:
 *** [2020-01-17] Is it possible to use Solid offline (at least partially)?
 :PROPERTIES:
-:ID:       frstpssbltssldfflntlstprtlly
+:ID:       stpssbltssldfflntlstprtlly
 :END:
 : Yes, the Solid long term vision includes local first and a flexibility of different topologies of patch-passing sync networks. However, there are no implementations yet.
 
 *** [2020-01-16] https://karlicoss.inrupt.net trying out pod
 :PROPERTIES:
-:ID:       thskrlcssnrptnttryngtpd
+:ID:       skrlcssnrptnttryngtpd
 :END:
 apps are mostly very simplistic. Calendar/notepad/etc.
 **** [2020-01-17] https://vincenttunru.gitlab.io/poddit eh, odd. saves bookmarks as xml, really?...
 :PROPERTIES:
-:ID:       frsvncnttnrgtlbpddthddsvsbkmrkssxmlrlly
+:ID:       svncnttnrgtlbpddthddsvsbkmrkssxmlrlly
 :END:
 **** [2020-01-17] tiddlywiki thing -- didn't work
 :PROPERTIES:
-:ID:       frtddlywkthngddntwrk
+:ID:       tddlywkthngddntwrk
 :END:
 **** [2020-01-17] I guess main question is -- how do they interact with each other
 :PROPERTIES:
-:ID:       frgssmnqstnshwdthyntrctwthchthr
+:ID:       gssmnqstnshwdthyntrctwthchthr
 :END:
 *** [2020-01-17] When it comes to malicious cyber attacks, an attack on a single source of many people’s data is generally more likely than on an individual level.
 :PROPERTIES:
-:ID:       frwhntcmstmlcscybrttcksntgnrllymrlklythnnnndvdllvl
+:ID:       whntcmstmlcscybrttcksnttcgnrllymrlklythnnnndvdllvl
 :END:
 good point
 *** [2020-01-17] overall, it feels a bit raw and I don't see how it can assist existing infrastructure we have
 :PROPERTIES:
-:ID:       frvrlltflsbtrwnddntshwtcnssstxstngnfrstrctrwhv
+:ID:       vrlltflsbtrwnddntshwtcnssstxstngnfrstrctrwhv
 :END:
 *** [#C] [2020-01-17] I guess add this to HPI?
 :PROPERTIES:
-:ID:       frgssddthsthp
+:ID:       gssddthsthp
 :END:
 Or maybe even separate post, e.g. my experience with solid/camlistore/etc?
 ** TODO [#B] [2020-01-17] [[https://masterscrat.github.io/Chatistics][Chatistics |  Python scripts to parse your Messenger, Hangouts, WhatsApp and Telegram chat logs into DataFrames]]
 :PROPERTIES:
-:ID:       frsmstrscrtgthbchtstcschttsppndtlgrmchtlgsntdtfrms
+:ID:       smstrscrtgthbchtstcschtsttsppndtlgrmchtlgsntdtfrms
 :END:
 pretty nice format; perhaps I should do that?
 ** TODO [#B] [2020-03-21] [[https://github.com/KrauseFx/FxLifeSheet][KrauseFx/FxLifeSheet: Tracking the key metrics of my life]]
 :PROPERTIES:
-:ID:       stsgthbcmkrsfxfxlfshtkrsflfshttrckngthkymtrcsfmylf
+:ID:       sgthbcmkrsfxfxlfshtkrsfxflfshttrckngthkymtrcsfmylf
 :END:
 wow, that looks quite elaborate and cool!
 ** TODO [#C] [2019-12-18] [[https://github.com/ErikBjare/chatalysis][ErikBjare/chatalysis: Analyse (group)chat messages]]
 :PROPERTIES:
-:ID:       wdsgthbcmrkbjrchtlyssrkbjrchtlyssnlysgrpchtmssgs
+:ID:       sgthbcmrkbjrchtlyssrkbjrchtlyssnlysgrpchtmssgs
 :END:
 : Currently supports: Facebook Messenger. Planned: Slack, WhatsApp, Telegram, Signal, Wire
 
@@ -90,7 +90,7 @@ wow, that looks quite elaborate and cool!
 :END:
 ** TODO [#B] [2020-05-09] [[https://github.com/andrey-utkin/taskdb/wiki/Live-demo#workout-dashboard][Live demo · andrey-utkin/taskdb Wiki]]
 :PROPERTIES:
-:ID:       stsgthbcmndrytkntskdbwklvtdshbrdlvdmndrytkntskdbwk
+:ID:       sgthbcmndrytkntskdbwklvdmtdshbrdlvdmndrytkntskdbwk
 :END:
 : it is pretty neat already for analysis with querying and visualization. But your stuff is orders of magnitude bigger. Possibly I will set up HPI for myself some day.
 ** TODO [#C] Demo with QS ledger: should be easy it is to integrate    :blog:
@@ -102,7 +102,7 @@ e.g. https://github.com/markwk/qs_ledger/blob/master/instapaper/instapaper_data_
 or lastfm ipynb?
 ** TODO [#A] [2020-05-14] could caption "HPI meets X"                  :blog:
 :PROPERTIES:
-:ID:       thcldcptnhpmtsx
+:ID:       cldcptnhpmtsx
 :END:
 
 * [#A] data providers/sources
@@ -116,12 +116,12 @@ or lastfm ipynb?
 :END:
 *** [2020-07-31] mm, ok, so it's a bit unclear, but https://www.rescuetime.com/apidoc#analytic-api-reference mentions stuff like "defined by the user’s selected time zone"?
 :PROPERTIES:
-:ID:       frmmkstsbtnclrbtswwwrsctmtfflkdfndbythsrsslctdtmzn
+:ID:       mmkstsbtnclrbtswwwrsctmcmtfflkdfndbythsrsslctdtmzn
 :END:
 so I guess it would mostly be London for me? And I guess I'd need to return dataclasses, 'thaw' them and patch up the timezone? ugh.
 *** [2020-10-13] looks like local time.. either way still need to resolve todos code/rescuexport/src/rescuexport/dal.py
 :PROPERTIES:
-:ID:       tlkslklcltmthrwystllndtrsdscdrscxprtsrcrscxprtdlpy
+:ID:       lkslklcltmthrwystllndtrsldscdrscxprtsrcrscxprtdlpy
 :END:
 
 ** STRT [#B] [[https://github.com/karlicoss/HPI/pull/96#issuecomment-719826514][gpslogger?]]
@@ -131,7 +131,7 @@ so I guess it would mostly be London for me? And I guess I'd need to return data
 :END:
 ** TODO [#B] [2019-09-17] [[https://github.com/jlumpe/pyorg][jlumpe/pyorg: Python library for working with Emacs org mode.]] :org:
 :PROPERTIES:
-:ID:       tsgthbcmjlmppyrgjlmppyrgpthnlbrryfrwrkngwthmcsrgmd
+:ID:       sgthbcmjlmppyrgjlmppyrgpythnlbrryfrwrkngwthmcsrgmd
 :END:
 : >>> org.orgdir  # Obtained automatically from org-directory variable in Emacs
 : OrgDir('/home/jlumpe/org/')
@@ -139,11 +139,11 @@ so I guess it would mostly be London for me? And I guess I'd need to return data
 huh that's quite mad!
 *** [2020-09-11] could add it as an issue? maybe someone would be interested..
 :PROPERTIES:
-:ID:       frcldddtsnssmybsmnwldbntrstd
+:ID:       cldddtsnssmybsmnwldbntrstd
 :END:
 ** [#C] [2020-10-05] [[https://github.com/seanbreckenridge/ipgeocache][seanbreckenridge/ipgeocache: A small cache layer for IP geolocation info]]
 :PROPERTIES:
-:ID:       mnsgthbcmsnbrcknrdgpgcchspgcchsmllcchlyrfrpglctnnf
+:ID:       sgthbcmsnbrcknrdgpgcchsnbpgcchsmllcchlyrfrpglctnnf
 :END:
 ** TODO [#C] commits -- need to cachew?                              :cachew:
 :PROPERTIES:
@@ -162,7 +162,7 @@ huh that's quite mad!
 :END:
 ** TODO [#C] [2020-05-21] [[https://github.com/ping/instagram_private_api][=ping/instagram_private_api=: A Python library to access Instagram's private API.]]
 :PROPERTIES:
-:ID:       thsgthbcmpngnstgrmprvtppnthnlbrrytccssnstgrmsprvtp
+:ID:       sgthbcmpngnstgrmprvtppngnthnlbrrytccssnstgrmsprvtp
 :END:
 ** TODO [#C] some ijson warnings                                   :location:
 :PROPERTIES:
@@ -205,7 +205,7 @@ huh, that's random
 :   'Asia/Novosibirsk'),
 *** TODO [2019-07-24] what's up with LMT+2:30:00 STD?
 :PROPERTIES:
-:ID:       wdwhtspwthlmtstd
+:ID:       whtspwthlmtstd
 :END:
 ** TODO [#C] twitter archive trims the retweets (TODO put in the documentation?) :twitter:
 :PROPERTIES:
@@ -214,7 +214,7 @@ huh, that's random
 :END:
 ** TODO [#C] [2020-10-15] [[https://github.com/wger-project/wger/blob/c70150b4850f2c7ab2fdc7a953c3c11f84d31e8c/wger/exercises/fixtures/exercises.json][wger/exercises.json at c70150b4850f2c7ab2fdc7a953c3c11f84d31e8c · wger-project/wger]] :exercise:
 :PROPERTIES:
-:ID:       thsgthbcmwgrprjctwgrblbcbtcbfcbfdcccfdcwgrprjctwgr
+:ID:       sgthbcmwgrprjctwgrblbcbfctcbfcbfdcccfdcwgrprjctwgr
 :END:
 : "creation_date": null,
 :  "category": 12,
@@ -228,7 +228,7 @@ huh, that's random
 ok, nice it already has muscles involved.. I could use this data
 *** [2020-10-17] could reuse the same exercise names as wger uses?
 :PROPERTIES:
-:ID:       stcldrsthsmxrcsnmsswgrss
+:ID:       cldrsthsmxrcsnmsswgrss
 :END:
 ** TODO stackexchange gdpr has ip addresses
 :PROPERTIES:
@@ -259,7 +259,7 @@ has 'playbackDate' in episodes table
 seems that only podcastAddict.db is useful, the rest is just crap
 *** [2020-12-08] need to merge databases, I lost state at some point?
 :PROPERTIES:
-:ID:       tndtmrgdtbsslststttsmpnt
+:ID:       ndtmrgdtbsslststttsmpnt
 :END:
 ** TODO [#C] twint doesn't get retweets                       :twint:twitter:
 :PROPERTIES:
@@ -286,7 +286,7 @@ https://github.com/twintproject/twint/issues/786
 :END:
 *** TODO [2020-05-06] takeout merging/synthetic export is also a good example :myinfra:
 :PROPERTIES:
-:ID:       wdtktmrgngsynthtcxprtslsgdxmpl
+:ID:       tktmrgngsynthtcxprtslsgdxmpl
 :END:
 ** STRT [#B] overlay/extension docs: document how to 'overlay' parts of it? with RSS or twitter as examples
 :PROPERTIES:
@@ -314,12 +314,12 @@ akin to spacemacs/doom
 I guess ideally, the user could explicitly set export_dir = None for such source and it would be defensive? dunno.
 *** STRT [#C] [2020-09-20] [[https://packaging.python.org/guides/creating-and-discovering-plugins/#using-namespace-packages][Creating and discovering plugins — Python Packaging User Guide]]
 :PROPERTIES:
-:ID:       snspckgngpythnrggdscrtngncvrngplgnspythnpckgngsrgd
+:ID:       spckgngpythnrggdscrtngnddcvrngplgnspythnpckgngsrgd
 :END:
 maybe doctor (or 'modules') could list that? with paths (e.g. so default/third party are easily distinguished apart)
 *** [#D] [2020-09-20] [[https://packaging.python.org/guides/creating-and-discovering-plugins/][Creating and discovering plugins — Python Packaging User Guide]]
 :PROPERTIES:
-:ID:       snspckgngpythnrggdscrtngncvrngplgnspythnpckgngsrgd
+:ID:       spckgngpythnrggdscrtngnddcvrngplgnspythnpckgngsrgd
 :END:
 
 ** TODO [#C] example of overriding -- maybe tzinfo map?
@@ -353,14 +353,14 @@ maybe doctor (or 'modules') could list that? with paths (e.g. so default/third p
 :END:
 ** TODO [#B] readme: [2020-06-02] [[https://github.com/karlicoss/HPI/blob/master/doc/SETUP.org#data-flow][HPI/SETUP.org at master · karlicoss/HPI]]
 :PROPERTIES:
-:ID:       rdmtsgthbcmkrlcsshpblbmstdtflwhpstprgtmstrkrlcsshp
+:ID:       rdmsgthbcmkrlcsshpblbmstrdtflwhpstprgtmstrkrlcsshp
 :END:
 :  except one – you can only use meaningfully use it through Polar app. Which is, by all means, great!
 
 weird phrasing
 ** TODO [#B] readme: [2020-06-02] [[https://github.com/karlicoss/HPI][karlicoss/HPI: Human Programming Interface]]
 :PROPERTIES:
-:ID:       rdmtsgthbcmkrlcsshpkrlcsshphmnprgrmmngntrfc
+:ID:       rdmsgthbcmkrlcsshpkrlcsshphmnprgrmmngntrfc
 :END:
 : Also see “Data flow” documentation with some nice diagrams explaining on specific examples.
 
@@ -372,7 +372,7 @@ add link
 :END:
 *** TODO [2020-09-28] would be nice to add a meta-warning about missing stats method??
 :PROPERTIES:
-:ID:       mnwldbnctddmtwrnngbtmssngsttsmthd
+:ID:       wldbnctddmtwrnngbtmssngsttsmthd
 :END:
 ** TODO [#C] doc: I guess google takeout would be a good demonstration
 :PROPERTIES:
@@ -392,11 +392,11 @@ add link
 also default attributes are pretty important because of caching, error handling policies, etc
 *** [2020-05-10] ah shit, not quite true. works in runtime, but mypy complains...
 :PROPERTIES:
-:ID:       snhshtntqttrwrksnrntmbtmypycmplns
+:ID:       hshtntqttrwrksnrntmbtmypycmplns
 :END:
 ** STRT [#C] [2020-05-18] [[https://github.com/karlicoss/HPI/blob/master/doc/SETUP.org#setting-up-the-modules][HPI/SETUP.org at master · karlicoss/HPI]]
 :PROPERTIES:
-:ID:       mnsgthbcmkrlcsshpblbmstrdhmdlshpstprgtmstrkrlcsshp
+:ID:       sgthbcmkrlcsshpblbmstrdcshmdlshpstprgtmstrkrlcsshp
 :END:
 : ~/.config/my/my/config.py
 
@@ -409,7 +409,7 @@ can't have config/repos dir and config.py at the same time
 :END:
 ** TODO [#D] [2019-12-10] doc: another example of patching in private package in my.holidays
 :PROPERTIES:
-:ID:       tdcnthrxmplfptchngnprvtpckgnmyhldys
+:ID:       dcnthrxmplfptchngnprvtpckgnmyhldys
 :END:
 ** TODO [#D] doc: Hmm i wonder if egg links can be used on systems without symlinks? :pip:python:
 :PROPERTIES:
@@ -464,20 +464,20 @@ use some really really public account?
 
 ** TODO [#C] [2020-09-02] [[https://github.com/AnandChowdhary/life][AnandChowdhary/life: 🧬 All life data — location, health, work, play, and more — open sourced]] :jdoe:
 :PROPERTIES:
-:ID:       wdsgthbcmnndchwdhrylfnndctlctnhlthwrkplyndmrpnsrcd
+:ID:       sgthbcmnndchwdhrylfnndchwtlctnhlthwrkplyndmrpnsrcd
 :END:
 ** TODO [#C] [2020-04-24] [[https://github.com/saladmanssss/salad][saladmanssss/salad]] :jdoe:takeout:
 :PROPERTIES:
-:ID:       frsgthbcmsldmnsssssldsldmnsssssld
+:ID:       sgthbcmsldmnsssssldsldmnsssssld
 :END:
 
 ** STRT [#D] [2020-04-24] [[https://github.com/ANSSI-FR/ctf/tree/master/forensics-CryptoDIY][ctf/forensics-CryptoDIY at master · ANSSI-FR/ctf]] :jdoe:takeout:
 :PROPERTIES:
-:ID:       frsgthbcmnssfrctftrmstrfrrnscscryptdytmstrnssfrctf
+:ID:       sgthbcmnssfrctftrmstrfrnsrnscscryptdytmstrnssfrctf
 :END:
 *** [2020-04-24] eh, only mail. not so interesting
 :PROPERTIES:
-:ID:       frhnlymlntsntrstng
+:ID:       hnlymlntsntrstng
 :END:
 * [#A] publicity & reaching out to other people
 :PROPERTIES:
@@ -520,7 +520,7 @@ Same way as TODO think of some analogy? when you're using a todo list app, you'v
 :END:
 *** [2020-10-31] or maybe make the dashboard more robust towards it? not sure..
 :PROPERTIES:
-:ID:       strmybmkthdshbrdmrrbsttwrdstntsr
+:ID:       rmybmkthdshbrdmrrbsttwrdstntsr
 :END:
 ** STRT [#C] keep date as the first attribute to make sorting easier
 :PROPERTIES:
@@ -546,7 +546,7 @@ Same way as TODO think of some analogy? when you're using a todo list app, you'v
 that could help for configuration mistakes
 ** [#D] [2020-05-16] [[https://macropy3.readthedocs.io/en/latest/lazy.html#lazy][Lazy — MacroPy3 1.1.0 documentation]] :python:
 :PROPERTIES:
-:ID:       stsmcrpyrdthdcsnltstlzyhtmllzylzymcrpydcmnttn
+:ID:       smcrpyrdthdcsnltstlzyhtmllzylzymcrpydcmnttn
 :END:
 hmmm... nice
 maybe could try it dith defensive behaviour...
@@ -557,7 +557,7 @@ maybe could try it dith defensive behaviour...
 :END:
 ** [#D] [2020-05-03] reddit: zstd vs lz4 comparison      :reddit:exports:hpi:
 :PROPERTIES:
-:ID:       snrddtzstdvslzcmprsn
+:ID:       rddtzstdvslzcmprsn
 :END:
 about 3803 files
 :   du -ch *.xz | tail -n 1
@@ -572,11 +572,11 @@ about 3803 files
 :END:
 *** [2020-09-28] eh? why? as long as the timezone is passed it's fine? maybe have a custom lint for that
 :PROPERTIES:
-:ID:       mnhwhyslngsthtmznspssdtsfnmybhvcstmlntfrtht
+:ID:       hwhyslngsthtmznspssdtsfnmybhvcstmlntfrtht
 :END:
 ** [#D] [2020-05-03] comparison of zstd vs lz4                   :reddit:hpi:
 :PROPERTIES:
-:ID:       sncmprsnfzstdvslz
+:ID:       cmprsnfzstdvslz
 :END:
 (every tenth file, cache disabled)
 : lz4 : ./test  31.20s user 2.58s system 101% cpu 33.285 total
@@ -610,20 +610,20 @@ downsides:
   although could just have lazy inputs() key. not that bad.
 *** [2020-10-13] handled in cachew?
 :PROPERTIES:
-:ID:       thndldncchw
+:ID:       hndldncchw
 :END:
 * STRT [#B] [2020-03-18] [[https://github.com/ricklamers/gridstudio][ricklamers/gridstudio: Grid studio is a web-based application for data science with full integration of open source data science frameworks and languages]] :pandas:
 :PROPERTIES:
-:ID:       wdsgthbcmrcklmrsgrdstdrckpnsrcdtscncfrmwrksndlnggs
+:ID:       sgthbcmrcklmrsgrdstdrcklmpnsrcdtscncfrmwrksndlnggs
 :END:
 hmm, looks interesting, but it's all dockerized, so might be tricky to expose my data..
 ** [2020-07-31] ugh, weird website with no infromation and only pricing..
 :PROPERTIES:
-:ID:       frghwrdwbstwthnnfrmtnndnlyprcng
+:ID:       ghwrdwbstwthnnfrmtnndnlyprcng
 :END:
 ** [2020-11-01] hmm ok, soo tried out
 :PROPERTIES:
-:ID:       snhmmkstrdt
+:ID:       hmmkstrdt
 :END:
 : import sys
 : # TODO ugh. it's a mess, and struggled to launch it as non-root...
@@ -669,7 +669,7 @@ https://repl.it/talk/all?lang=python_turtle
 :END:
 * STRT [#B] [2020-05-06] [[https://github.com/KrauseFx/FxLifeSheet/issues/34][Find alternative to Google Data Studio · Issue #34 · KrauseFx/FxLifeSheet]] :spreadsheet:degoogle:
 :PROPERTIES:
-:ID:       wdsgthbcmkrsfxfxlfshtsssftvtggldtstdsskrsfxfxlfsht
+:ID:       sgthbcmkrsfxfxlfshtsssfndtvtggldtstdsskrsfxfxlfsht
 :END:
 : Ciao Felix.
 : Have you considered Redash? It's open source, self hosted and pretty solid.
@@ -677,7 +677,7 @@ https://repl.it/talk/all?lang=python_turtle
 google docs-like interface
 * [#B] [2020-08-26] readme: [[https://github.com/seanbreckenridge/HPI#modified-from-karlicosshpi-to-more-fit-my-life][seanbreckenridge/HPI: Human Programming Interface]]
 :PROPERTIES:
-:ID:       wdrdmsgthbcmsnbrcknrdghpmrcknrdghphmnprgrmmngntrfc
+:ID:       rdmsgthbcmsnbrcknrdghpmdfrcknrdghphmnprgrmmngntrfc
 :END:
 : Modified from karlicoss/HPI to more fit my life
 * STRT [#B] integrate with private overlay
@@ -688,7 +688,7 @@ google docs-like interface
 need to test behaviour w.r.t order of running local install?
 * TODO [#B] [2020-10-16] [[https://forum.quantifiedself.com/t/need-your-insights-on-a-self-data-hub-ideation/8553/14][Need your insights on a “Self Data Hub” ideation - Quantified Self / Apps & Tools - Quantified Self Forum]]
 :PROPERTIES:
-:ID:       frsfrmqntfdslfcmtndyrnsghqntfdslfppstlsqntfdslffrm
+:ID:       sfrmqntfdslfcmtndyrnsghtsqntfdslfppstlsqntfdslffrm
 :END:
 : hook it right into open humans
 * TODO [#B] Automatic sqlite interface.. People seem to like it?     :cachew:
@@ -698,15 +698,15 @@ need to test behaviour w.r.t order of running local install?
 :END:
 ** [2020-09-21] yep, again would be easy to map from pandas?
 :PROPERTIES:
-:ID:       mnypgnwldbsytmpfrmpnds
+:ID:       ypgnwldbsytmpfrmpnds
 :END:
 ** [2020-11-01] that would def be very useful for automatic discovery... maybe start with some markers
 :PROPERTIES:
-:ID:       snthtwlddfbvrysflfrtmtcdscvrymybstrtwthsmmrkrs
+:ID:       thtwlddfbvrysflfrtmtcdscvrymybstrtwthsmmrkrs
 :END:
 ** [2020-11-24] maybe promnesia sqlite module, similarly to doctor..
 :PROPERTIES:
-:ID:       tmybprmnssqltmdlsmlrlytdctr
+:ID:       mybprmnssqltmdlsmlrlytdctr
 :END:
 * STRT [#B] get rid of individual cache paths? there is no point in them really... :cachew:
 :PROPERTIES:
@@ -720,21 +720,21 @@ need to test behaviour w.r.t order of running local install?
 :END:
 * [#B] [2020-11-14] [[https://news.ycombinator.com/item?id=25090218][Personal Data Warehouses: Reclaiming Your Data | Hacker News]]
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmdprsnldtwrhssrclmngyrdthckrnws
+:ID:       snwsycmbntrcmtmdprsnldtwrhssrclmngyrdthckrnws
 :END:
 : I believe all data warehouses are limited by the quality of their data model. Most start with good relational intentions over a small domain, but eventually get bogged down arguing how semantic angels might dance on ontological pins. The parts that work become ossified and impossible to change. The system starts to fragment into multiple federated datastores or unstructured file dumps (“big data!”) where you have to build your own integration every time you want to use the data. Someone comes along and proposes a unifying model (“everything is an event!”) and rebuilds the whole thing but with an extra layer of complexity. Someone suggests buying an industry data model instead - surely the data experts will have solved all these problems for us? A skunkworks project spins up and starts implementing the bought model with good relational intentions over a small domain...
 : 
 : I don’t think personal data warehouses are immune to any of these forces.
 * TODO [#B] [2020-12-07] [[https://news.ycombinator.com/item?id=25304257][CLI Guidelines – A guide to help you write better command-line programs | Hacker News]]
 :PROPERTIES:
-:ID:       mnsnwsycmbntrcmtmdclgdlnstbttrcmmndlnprgrmshckrnws
+:ID:       snwsycmbntrcmtmdclgdlnsgdtbttrcmmndlnprgrmshckrnws
 :END:
 : if you are displaying tabular data, present an ncurses interface
 
 feed into visidata?
 * TODO [#B] [2020-11-10] [[https://github.com/karlicoss/promnesia/issues/125][User workflow documentation / understanding how components fit together · Issue #125 · karlicoss/promnesia]] :infra:
 :PROPERTIES:
-:ID:       tsgthbcmkrlcssprmnsssssrwpnntsfttgthrsskrlcssprmns
+:ID:       sgthbcmkrlcssprmnsssssrwrpnntsfttgthrsskrlcssprmns
 :END:
 * STRT [#B] configuration                                               :hpi:
 :PROPERTIES:
@@ -757,11 +757,11 @@ maybe instead of defining dynamic bits, import stuff from my.module.config? and 
 might be annoying to implement token retrieval on JS only?
 ** [2020-04-12] add this to myinfra repository??
 :PROPERTIES:
-:ID:       snddthstmynfrrpstry
+:ID:       ddthstmynfrrpstry
 :END:
 ** TODO [#B] [2020-05-27] dunno, I'm a bit tired and not as motivated to build it... but could post so someone else picks up :blog:
 :PROPERTIES:
-:ID:       wddnnmbttrdndntsmtvtdtbldtbtcldpstssmnlspcksp
+:ID:       dnnmbttrdndntsmtvtdtbldtbtcldpstssmnlspcksp
 :END:
 * TODO [#C] could write a tool to process historic stats for github referrers etc? :blog:coding:
 :PROPERTIES:
@@ -775,7 +775,7 @@ might be annoying to implement token retrieval on JS only?
 :END:
 * TODO [#C] [2019-12-24] Credentials - Huginn                   :inspiration:
 :PROPERTIES:
-:ID:       tcrdntlshgnn
+:ID:       crdntlshgnn
 :END:
 http://localhost:3000/user_credentials
 : Your Credentials
@@ -815,49 +815,49 @@ some hackery...
 :         return query((lat, lon))
 * TODO [#C] [2020-05-08] [[https://github.com/heedy/heedy][heedy/heedy: An Open-Source Platform for Quantified Self & IoT]]
 :PROPERTIES:
-:ID:       frsgthbcmhdyhdyhdyhdynpnsrcpltfrmfrqntfdslft
+:ID:       sgthbcmhdyhdyhdyhdynpnsrcpltfrmfrqntfdslft
 :END:
 
 * STRT [#C] [2019-12-20] Datasette — Datasette documentation tool for exploring data?
 :PROPERTIES:
-:ID:       frdtsttdtsttdcmnttntlfrxplrngdt
+:ID:       dtsttdtsttdcmnttntlfrxplrngdt
 :END:
 : https://datasette.readthedocs.io/en/stable
 : Datasette is a tool for exploring and publishing data. It helps people take data of any shape or size and publish that as an interactive, explorable website and accompanying API.
 : Datasette is aimed at data journalists, museum curators, archivists, local governments and anyone else who has data that they wish to share with the world.
 ** [2020-01-17] ok, so it's like a web UI for sqlite
 :PROPERTIES:
-:ID:       frkstslkwbfrsqlt
+:ID:       kstslkwbfrsqlt
 :END:
 *** [2020-09-21] wonder if could reuse it for padnas? def could convert pandas to sqlite and use it
 :PROPERTIES:
-:ID:       mnwndrfcldrstfrpdnsdfcldcnvrtpndstsqltndst
+:ID:       wndrfcldrstfrpdnsdfcldcnvrtpndstsqltndst
 :END:
 ** [2020-11-14] tried with photos https://news.ycombinator.com/item?id=25090218
 :PROPERTIES:
-:ID:       sttrdwthphtssnwsycmbntrcmtmd
+:ID:       trdwthphtssnwsycmbntrcmtmd
 :END:
 * TODO [#C] [2020-05-12] [[https://github.com/karlicoss/HPI/blob/master/doc/CONFIGURING.org][HPI/CONFIGURING.org at master · karlicoss/HPI]]  defensive Protocol stub?
 :PROPERTIES:
-:ID:       tsgthbcmkrlcsshpblbmstrdcmstrkrlcsshpdfnsvprtclstb
+:ID:       sgthbcmkrlcsshpblbmstrdccmstrkrlcsshpdfnsvprtclstb
 :END:
 : so using it requires guarding the code with if typing.TYPE_CHECKING, which is a bit confusing and bloating.
 
 could have a defensive import in my.core.typing
 ** [2020-09-28] I guess my.core.compat makes more sense for such stuff
 :PROPERTIES:
-:ID:       mngssmycrcmptmksmrsnsfrschstff
+:ID:       gssmycrcmptmksmrsnsfrschstff
 :END:
 * STRT [#C] [2019-12-12] Re: [Scarygami/location-history-json-converter] Streaming parsing (#16) :location:
 :PROPERTIES:
-:ID:       thrscrygmlctnhstryjsncnvrtrstrmngprsng
+:ID:       rscrygmlctnhstryjsncnvrtrstrmngprsng
 :END:
 : o Scarygami/location-history-json-converter, me, Author
 : Streaming parsing (--iterative) is now possible.
 : The functionality requires ijson to be installed.
 * [#C] [2020-05-15] [[https://github.com/python/mypy/issues/7866][Type alias as a class member is not valid as a type · Issue #7866 · python/mypy]] :mypy:hpi:
 :PROPERTIES:
-:ID:       frsgthbcmpythnmypyssstyplmmbrsntvldstypsspythnmypy
+:ID:       sgthbcmpythnmypyssstyplssmmbrsntvldstypsspythnmypy
 :END:
 : Alias = NamedTuple("Alias", [("field", str)])
 
@@ -950,7 +950,7 @@ and then, location caching also never properly happens. uhoh
 :END:
 * TODO [#C] [2020-10-14] [[https://github.com/seanbreckenridge/HPI/blob/4a0eb2d8e3ae963e315f0eaa7f538b46ef5513f5/my/skype.py][HPI/skype.py at 4a0eb2d8e3ae963e315f0eaa7f538b46ef5513f5 · seanbreckenridge/HPI]]
 :PROPERTIES:
-:ID:       wdsgthbcmsnbrcknrdghpblbbkyppytbdffbffsnbrcknrdghp
+:ID:       sgthbcmsnbrcknrdghpblbbdfkyppytbdffbffsnbrcknrdghp
 :END:
 * TODO [#C] cachew: make it depend on the git hash? I guess global override would be nice :cachew:
 :PROPERTIES:
@@ -959,13 +959,13 @@ and then, location caching also never properly happens. uhoh
 :END:
 * [#C] [2020-10-05] [[https://github.com/seanbreckenridge/HPI/commit/fbe4ffca13f24ccaed6cc729b4ef0284a7221722][mention data gathering libraries · seanbreckenridge/HPI@fbe4ffc]]
 :PROPERTIES:
-:ID:       mnsgthbcmsnbrcknrdghpcmmtrnglbrrssnbrcknrdghpfbffc
+:ID:       sgthbcmsnbrcknrdghpcmmtfbrnglbrrssnbrcknrdghpfbffc
 :END:
 : Disregarding tools which actively collect data (like [`ttt`](https://github.com/seanbreckenridge/ttt)/[`window_watcher`](https://github.com/seanbreckenridge/aw-watcher-window)), I have some other libraries I've created for this project, to provide more context to some of the data.
 : - [`ipgeocache`](https://github.com/seanbreckenridge/ipgeocache) - for any IPs gathered from data exports, provides geolocation info, so I have location info going back to 2013 (thanks facebook)
 * [#C] [2020-10-05] [[https://github.com/eco-pass/ecopass/blob/80f1afa346136d80c6319a1770501bff5bf8e25f/ecopass-travel/src/test/resources/5kLineLocationHistory.json][ecopass/5kLineLocationHistory.json at 80f1afa346136d80c6319a1770501bff5bf8e25f · eco-pass/ecopass]] :jdoe:location:
 :PROPERTIES:
-:ID:       mnsgthbcmcpsscpssblbffdcbtryjsntffdcbffbffcpsscpss
+:ID:       sgthbcmcpsscpssblbffdcbfftryjsntffdcbffbffcpsscpss
 :END:
 
 * TODO [#C] think about overlaying user config on top of default dynamically? not sure...
@@ -985,27 +985,27 @@ and then, location caching also never properly happens. uhoh
 :END:
 * [#C] [2020-05-18] [[https://benjamincongdon.me/blog/2020/05/17/Quarantine-Notes-Week-10/][Quarantine Notes - Week 10 | Ben Congdon]]
 :PROPERTIES:
-:ID:       mnsbnjmncngdnmblgqrntnntswkqrntnntswkbncngdn
+:ID:       sbnjmncngdnmblgqrntnntswkqrntnntswkbncngdn
 :END:
 : This probably warrants its own post, but I strongly agree with the philosophy of Dogsheep: everything lives in a SQLite database (that you own!), each exporter tool is its own separate CLI, and Datasette is an extremely flexible tool to explore data. The Dogsheep ecosystem is totally self-hosted (you own your data) and free (as in beer), unlike personal data aggregator platforms like Exist.io and Gyroscope.
 * [#C] [2020-09-11] [[https://twitter.com/thingskatedid/status/1286559756967002113][Kate on Twitter: "I made a super simple CLI plotting thingy, reads numbers on stdin, draws svg to stdout. Just for seeing the shape of data. It's written in awk. https://t.co/TFYKbn2SKT" / Twitter]]
 :PROPERTIES:
-:ID:       frstwttrcmthngsktddsttsktwrttnnwkstctfykbnskttwttr
+:ID:       stwttrcmthngsktddsttsktntwrttnnwkstctfykbnskttwttr
 :END:
 :  made a super simple CLI plotting thingy, reads numbers on stdin, draws svg to stdout
 * [#C] [2020-09-21] [[https://github.com/seanbreckenridge/HPI-1][seanbreckenridge/HPI-1: (This repo is an actual fork. My HPI repo has diverged so much that I doubt I could contribute changes back, so plan is to patch items back into this fork and contribute back)]]
 :PROPERTIES:
-:ID:       mnsgthbcmsnbrcknrdghpsnbrtmsbckntthsfrkndcntrbtbck
+:ID:       sgthbcmsnbrcknrdghpsnbrcktmsbckntthsfrkndcntrbtbck
 :END:
 
 * STRT [#C] [2020-05-08] intake.github.io/status                :inspiration:
 :PROPERTIES:
-:ID:       frntkgthbstts
+:ID:       ntkgthbstts
 :END:
 https://intake.github.io/status
 ** [#B] [2020-05-08] intake/README.md at master · intake/intake · GitHub
 :PROPERTIES:
-:ID:       frntkrdmmdtmstrntkntkgthb
+:ID:       ntkrdmmdtmstrntkntkgthb
 :END:
 https://github.com/intake/intake/blob/master/README.md
 : Intake: A general interface for loading data
@@ -1016,32 +1016,32 @@ https://github.com/intake/intake/blob/master/README.md
 : (4) a GUI for browsing data sources
 ** [2020-05-12] ugh. struggled with installing gui https://intake.readthedocs.io/en/latest/gui.html
 :PROPERTIES:
-:ID:       tghstrggldwthnstllnggsntkrdthdcsnltstghtml
+:ID:       ghstrggldwthnstllnggsntkrdthdcsnltstghtml
 :END:
 ** [2020-05-12] anyways, I suppose it's more
 :PROPERTIES:
-:ID:       tnywyssppstsmr
+:ID:       nywyssppstsmr
 :END:
 * TODO [#C] [2020-02-10] [[https://reddit.com/r/coolgithubprojects/comments/f1nqh6/python_package_which_helps_generate_big_volumes/][Python package, which helps generate big volumes of fake data for a variety of purposes in a variety of languages.]] /r/coolgithubprojects :jdoe:
 :PROPERTIES:
-:ID:       mnsrddtcmrclgthbprjctscmmsnvrtyflnggsrclgthbprjcts
+:ID:       srddtcmrclgthbprjctscmmntsnvrtyflnggsrclgthbprjcts
 :END:
 : >What could it be used for?
 : For generating placeholder data, bootstrapping database with anonymized data, generating JSON data, creating fake API endpoints and et.c
 * TODO [#D] [2020-09-19] [[https://github.com/seanbreckenridge/HPI/commit/90a16bb686c8e3e57ccd48c37647b4f4c57a4cdb][iterable -> iterator · seanbreckenridge/HPI@90a16bb]]
 :PROPERTIES:
-:ID:       stsgthbcmsnbrcknrdghpcmmtcdbtrbltrtrsnbrcknrdghpbb
+:ID:       sgthbcmsnbrcknrdghpcmmtbbcdbtrbltrtrsnbrcknrdghpbb
 :END:
 wonder why did he do that?
 Iterable needs to be iter(), e.g. you can't return list as Iterator
 * TODO [#D] [2019-12-30] [[https://github.com/esnme/ultrajson][esnme/ultrajson: Ultra fast JSON decoder and encoder written in C with Python bindings]]
 :PROPERTIES:
-:ID:       mnsgthbcmsnmltrjsnsnmltrjncdrwrttnncwthpythnbndngs
+:ID:       sgthbcmsnmltrjsnsnmltrjsnncdrwrttnncwthpythnbndngs
 :END:
 make it optional dependency with fallback?
 ** [#C] [2020-01-16] didn't seem like it'd be massive speedup?
 :PROPERTIES:
-:ID:       thddntsmlktdbmssvspdp
+:ID:       ddntsmlktdbmssvspdp
 :END:
 * TODO [#D] Slots vs dataclasses                                :python:mypy:
 :PROPERTIES:
@@ -1054,11 +1054,11 @@ make it optional dependency with fallback?
 : That's not a very convincing reason to avoid dataclasses except in the most performance-constrained environments -- and even then I'm doubtful it'd help. Especially with `slots=True`, dataclasses can take less resources.
 ** TODO [2020-09-28] this could be some sort of meta-attribute? e.g. if someone needs to override, they can monkey patch slots=False? would be nice to add to some FAQ
 :PROPERTIES:
-:ID:       mnthscldbsmsrtfmtttrbtgfsptchsltsflswldbnctddtsmfq
+:ID:       thscldbsmsrtfmtttrbtgfsmnptchsltsflswldbnctddtsmfq
 :END:
 * [#D] [2020-05-16] [[https://lobste.rs/u/awal][User awal | Lobsters]]
 :PROPERTIES:
-:ID:       stslbstrswlsrwllbstrs
+:ID:       slbstrswlsrwllbstrs
 :END:
 : Anyway, thanks a lot for building all this stuff. Definitely gonna explore and it also helped me refine some of my thoughts on the subject!
 * TODO [#D] hmm, keeping history of when I followed people on twitter could be useful.. :promnesia:hpi:
@@ -1078,7 +1078,7 @@ make it optional dependency with fallback?
 :         tz_lookup[x] = tz
 * WAIT [#D] [2020-04-11] stephen-bunn/file-config: Attrs-like file config definitions inspired from https://github.com/hynek/environ_config :config:
 :PROPERTIES:
-:ID:       ststphnbnnflcnfgttrslkflcprdfrmsgthbcmhynknvrncnfg
+:ID:       stphnbnnflcnfgttrslkflcnfprdfrmsgthbcmhynknvrncnfg
 :END:
 https://github.com/stephen-bunn/file-config
 * TODO doctor diaginfo command?
@@ -1095,12 +1095,12 @@ os/python version?
 :END:
 * [2020-10-15] [[https://github.com/wger-project/wger][wger-project/wger: Self hosted FLOSS fitness/workout and weight tracker written with Django]] :exercise:
 :PROPERTIES:
-:ID:       thsgthbcmwgrprjctwgrwgrprktndwghttrckrwrttnwthdjng
+:ID:       sgthbcmwgrprjctwgrwgrprjcktndwghttrckrwrttnwthdjng
 :END:
 integrate with it?
 * DONE [#A] [2020-05-02] [[https://hyfen.net/memex/updates/putting-the-memex-into-a-container-shazam-other-memex-sightings][hyfen.net/memex/updates/putting-the-memex-into-a-container-shazam-other-memex-sightings]]
 :PROPERTIES:
-:ID:       stshyfnntmmxpdtspttngthmmxntcntnrshzmthrmmxsghtngs
+:ID:       shyfnntmmxpdtspttngthmmxnxntcntnrshzmthrmmxsghtngs
 :END:
 : My main objective right now is packaging what I’m working on into something that I can easily get to beta testers.
 * CNCL [#D] 'hpi shell' command launches python shell
@@ -1110,13 +1110,13 @@ integrate with it?
 :END:
 ** [2020-03-14] wmy alias to start with
 :PROPERTIES:
-:ID:       stwmylststrtwth
+:ID:       wmylststrtwth
 :END:
 ** [2020-09-21] and then what? seem complicated
 :PROPERTIES:
-:ID:       mnndthnwhtsmcmplctd
+:ID:       ndthnwhtsmcmplctd
 :END:
 ** [2020-09-28] actully, pyenv shell in hpi env could make more sense?
 :PROPERTIES:
-:ID:       mnctllypynvshllnhpnvcldmkmrsns
+:ID:       ctllypynvshllnhpnvcldmkmrsns
 :END:

@@ -20,23 +20,23 @@
 :END:
 *** TODO [#C] [2020-12-30] display 'current' graph without clicking on 'page graph' all over again? :outbox:
 :PROPERTIES:
-:ID:       wddsplycrrntgrphwthtclckngnpggrphllvrgn
+:ID:       dsplycrrntgrphwthtclckngnpggrphllvrgn
 :END:
 *** STRT [#B] [2020-12-30] hmmm... I'd like to see 'related' pages, e.g. when certain tags are siblings?
 :PROPERTIES:
-:ID:       wdhmmmdlktsrltdpgsgwhncrtntgsrsblngs
+:ID:       hmmmdlktsrltdpgsgwhncrtntgsrsblngs
 :END:
 https://discord.com/channels/725182569297215569/725182570131751005/746244953910411324
 maybe https://github.com/logseq/logseq/issues/207
 *** STRT [2020-12-30] eh. singe page (toexobrain export) didn't quite work well
 :PROPERTIES:
-:ID:       wdhsngpgtxbrnxprtddntqtwrkwll
+:ID:       hsngpgtxbrnxprtddntqtwrkwll
 :END:
 - relativize links in index.html? then easier to use as a single page app without selfhosting
 - graph doesn't seem to work
 **** STRT [2020-12-30] ok, try switching abs paths to relative
 :PROPERTIES:
-:ID:       wdktryswtchngbspthstrltv
+:ID:       ktryswtchngbspthstrltv
 :END:
 ** TODO [#B] might be nice to have several 'layers'                :exobrain:
 :PROPERTIES:
@@ -47,7 +47,7 @@ e.g. people could be on a different layer
 it could be achieved by having them not participate in constraints and just layed out on top with different color?
 ** TODO [#B] [2020-12-29] [[https://logseq.github.io/page/publishing][Publishing]] :logseq:exobrain:
 :PROPERTIES:
-:ID:       tslgsqgthbpgpblshngpblshng
+:ID:       slgsqgthbpgpblshngpblshng
 :END:
 ok, nice, this worked (need to run http server though, doesn't work as a fully static page?)
 ** TODO [#C] dev mode suggesion: reindex on refreshed code (or force reindex) :outbox:
@@ -83,7 +83,7 @@ e.g. I want two tags to be connected if they are siblings -- basically only want
 :END:
 ** TODO [#C] [2021-01-07] [[https://github.com/logseq/logseq/blob/14e4af295781a00aacdb9104bda9c8121000b2cb/src/main/frontend/handler/graph.cljs#L112][logseq/graph.cljs at 14e4af295781a00aacdb9104bda9c8121000b2cb · logseq/logseq]] :logseq:
 :PROPERTIES:
-:ID:       thsgthbcmlgsqlgsqblbfcdbbphcljstfcdbbdcbcblgsqlgsq
+:ID:       sgthbcmlgsqlgsqblbfcdbbdcphcljstfcdbbdcbcblgsqlgsq
 :END:
 :             (map (fn [[p aliases]]
 
@@ -95,7 +95,7 @@ aliases for graph view
 :END:
 ** [#D] [2021-01-08] right, it treats # as tags?                        :org:
 :PROPERTIES:
-:ID:       frrghtttrtsstgs
+:ID:       rghtttrtsstgs
 :END:
 ** DONE need to highlight connections when I drag the enode :logseq:exobrain:
 :PROPERTIES:
@@ -160,7 +160,7 @@ https://github.com/orgzly/orgzly-android/issues/148
 :END:
 **** [2018-11-20] eh, tbh I don't need it that often. I usually use docsearch (or could use recoll!)
 :PROPERTIES:
-:ID:       thtbhdntndtthtftnsllysdcsrchrcldsrcll
+:ID:       htbhdntndtthtftnsllysdcsrchrcldsrcll
 :END:
 
 ** TODO [#B] https://github.com/orgzly/orgzly-android/issues/345  :spacedrep:
@@ -178,11 +178,11 @@ https://github.com/orgzly/orgzly-android/issues/148
 https://github.com/orgzly/orgzly-android/issues/80
 *** [2019-02-21] shit. gradle sync didn't work. tried updating Kotlin but that didn't help...
 :PROPERTIES:
-:ID:       thshtgrdlsyncddntwrktrdpdtngktlnbtthtddnthlp
+:ID:       shtgrdlsyncddntwrktrdpdtngktlnbtthtddnthlp
 :END:
 *** [2019-02-21] basic idea: first approximation -- reuse widget for notebook, just trigger note creation on opening
 :PROPERTIES:
-:ID:       thbscdfrstpprxmtnrswdgtfrntbkjsttrggrntcrtnnpnng
+:ID:       bscdfrstpprxmtnrswdgtfrntbkjsttrggrntcrtnnpnng
 :END:
 we want
 name, template, target (could be file in the first approximation, but think how we would address subheadings)
@@ -196,7 +196,7 @@ name, template, target (could be file in the first approximation, but think how 
 :END:
 *** DONE [2019-02-24] https://github.com/orgzly/orgzly-android/pull/466
 :PROPERTIES:
-:ID:       snsgthbcmrgzlyrgzlyndrdpll
+:ID:       sgthbcmrgzlyrgzlyndrdpll
 :END:
 
 ** STRT [#B] Orgzly notification high priority only? Or even a search query
@@ -245,12 +245,12 @@ I guess it would be a new preference in Settings / Reminders that can contain a 
 Would require support in notebook interface
 *** [2019-02-10] there were some suggestions already, for tagging in particular https://github.com/orgzly/orgzly-android/issues/32
 :PROPERTIES:
-:ID:       snthrwrsmsggstnslrdyfrtggrsgthbcmrgzlyrgzlyndrdsss
+:ID:       thrwrsmsggstnslrdyfrtggngrsgthbcmrgzlyrgzlyndrdsss
 :END:
 
 ** TODO [#C] [2019-02-10] Implement auto synchronization · Issue  · orgzly/orgzly-android :orgzly:
 :PROPERTIES:
-:ID:       snmplmnttsynchrnztnssrgzlyrgzlyndrd
+:ID:       mplmnttsynchrnztnssrgzlyrgzlyndrd
 :END:
 https://github.com/orgzly/orgzly-android/issues/8
 
@@ -262,19 +262,19 @@ https://github.com/orgzly/orgzly-android/issues/8
 
 ** TODO [#C] [2019-12-15] Detect org files in subfolders · Issue #225 · orgzly/orgzly-android
 :PROPERTIES:
-:ID:       sndtctrgflsnsbfldrsssrgzlyrgzlyndrd
+:ID:       dtctrgflsnsbfldrsssrgzlyrgzlyndrd
 :END:
 https://github.com/orgzly/orgzly-android/issues/225
 : ctory tree with bunch of org files around it, and right now orgzly only detects the org files on top level. Would
 *** [2019-12-15] Detect org files in subfolders · Issue #225 · orgzly/orgzly-android
 :PROPERTIES:
-:ID:       sndtctrgflsnsbfldrsssrgzlyrgzlyndrd
+:ID:       dtctrgflsnsbfldrsssrgzlyrgzlyndrd
 :END:
 https://github.com/orgzly/orgzly-android/issues/225
 : Just checked out attern is having a directorytop level.
 ** [#D] [2020-07-11] [orgzly/orgzly-android] Detect org files in subfolders
 :PROPERTIES:
-:ID:       strgzlyrgzlyndrddtctrgflsnsbfldrs
+:ID:       rgzlyrgzlyndrddtctrgflsnsbfldrs
 :END:
 : I switched from orgzly to markor exactly because of the lack of this feature. Yes, I know, these apps differs a lot, but I use them simply as a text editor. I'm still waiting when this will become available in orgzly. Why it's so hard to implement it?
 * [#B] * syncthing                                                :syncthing:
@@ -289,12 +289,12 @@ https://syncthing.net
 :END:
 ** TODO [#B] [2019-09-06] dschrempf/syncthing-resolve-conflicts: A small bash script that handles synchronization conflicts with Syncthing. Inspired by 'pacdiff' from Arch Linux. https://github.com/dschrempf/syncthing-resolve-conflicts
 :PROPERTIES:
-:ID:       frdschrmpfsyncthngrslvcnfchrmpfsyncthngrslvcnflcts
+:ID:       dschrmpfsyncthngrslvcnflcchrmpfsyncthngrslvcnflcts
 :END:
 
 ** TODO [#B] [2019-09-06] jjkramok/syncthing-conflict-notifier: Detects conflict files in a single syncthing shared folder and sends a push notification if conflicts are found. https://github.com/jjkramok/syncthing-conflict-notifier
 :PROPERTIES:
-:ID:       frjjkrmksyncthngcnflctntfmjjkrmksyncthngcnflctntfr
+:ID:       jjkrmksyncthngcnflctntfrdmjjkrmksyncthngcnflctntfr
 :END:
 
 ** TODO [#C] commit conflict detector? show alter in the inteface
@@ -304,7 +304,7 @@ https://syncthing.net
 :END:
 *** [2020-12-19] eh? apparently it's already presetn? https://github.com/kozec/syncthing-gtk/issues/261
 :PROPERTIES:
-:ID:       sthpprntlytslrdyprstnsgthbcmkzcsyncthnggtksss
+:ID:       hpprntlytslrdyprstnsgthbcmkzcsyncthnggtksss
 :END:
 interesting..
 ** TODO [#C] ok, syncthing paranoid should simply reuse logic in cloud-heartbeat :cloud:
@@ -340,7 +340,7 @@ mm, doesn't look like there is a nice terminal interface?
 :END:
 *** [2020-06-07] yeah, it's a really good idea.. wonder how to run it more often
 :PROPERTIES:
-:ID:       snyhtsrllygddwndrhwtrntmrftn
+:ID:       yhtsrllygddwndrhwtrntmrftn
 :END:
 ** TODO [#C] issue with Out of sync items/ sync stuck at 99%
 :PROPERTIES:
@@ -357,16 +357,16 @@ https://docs.syncthing.net/dev/rest.html
 
 ** DONE [2019-04-17] implement more regular checks for syncthing?
 :PROPERTIES:
-:ID:       wdmplmntmrrglrchcksfrsyncthng
+:ID:       mplmntmrrglrchcksfrsyncthng
 :END:
 *** [2019-04-17] also allow selective syncing on mobile/wifi
 :PROPERTIES:
-:ID:       wdlsllwslctvsyncngnmblwf
+:ID:       lsllwslctvsyncngnmblwf
 :END:
 
 ** [2019-06-05] shit, weird. syncthing has got some sort of mismatch between GUI and web file/folder count; borg was showing differnt counts as well (script in dropbox that I used to check for differences) :cloud:
 :PROPERTIES:
-:ID:       wdshtwrdsyncthnghsgtsmsrtndrpbxthtsdtchckfrdffrncs
+:ID:       shtwrdsyncthnghsgtsmsrtfmndrpbxthtsdtchckfrdffrncs
 :END:
 * [#B] * wildcard                                                  :wildcard:
 :PROPERTIES:
@@ -377,17 +377,17 @@ related: #interop #malleable #spreadsheet
 
 ** TODO [#B] [2020-05-13] [[https://news.ycombinator.com/item?id=23165901][Ask HN: Anyone else upvote HN comments to track comments they have already read? | Hacker News]] :pkm:
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdskhnnynkcmmntsthyhvlrdyrdhckrnws
+:ID:       snwsycmbntrcmtmdskhnnynlskcmmntsthyhvlrdyrdhckrnws
 :END:
 
 ** [#B] [2020-05-05] [[https://selectorgadget.com/][SelectorGadget: point and click CSS selectors]] :css:
 :PROPERTIES:
-:ID:       tsslctrgdgtcmslctrgdgtpntndclckcssslctrs
+:ID:       sslctrgdgtcmslctrgdgtpntndclckcssslctrs
 :END:
 
 ** TODO [#B] [2020-05-11] [[https://twitter.com/karlicoss/status/1259893586365161472][(10) jestem króliczkiem on Twitter: "@jtraub аа, понял. Крутая идея, да! это было бы оч легко, даже не модифицируя экстеншн если бы браузеры разрешали экстеншнам друг на друге оперировать, а так можно будет добавить в Wildcard" / Twitter]]
 :PROPERTIES:
-:ID:       mnstwttrcmkrlcsssttsjstmkбудетдобавитьвwldcrdtwttr
+:ID:       stwttrcmkrlcsssttsjstmkróбудетдобавитьвwldcrdtwttr
 :END:
 : аа, понял. Крутая идея, да!
 : это было бы оч легко, даже не модифицируя экстеншн если бы браузеры разрешали экстеншнам друг на друге оперировать, а так можно будет добавить в Wildcard
@@ -427,7 +427,7 @@ Another thing I noticed was [this bit](https://github.com/geoffreylitt/wildcard/
 : Often (citation needed though) websites have completely dynamic ids, so you would need to do some sort of completely dynamic query to determine the content and the items
 ** TODO [#C] [2020-05-07] [[https://github.com/geoffreylitt/wildcard/issues/17][Restrict expressiveness of site adapters · Issue #17 · geoffreylitt/wildcard]]
 :PROPERTIES:
-:ID:       thsgthbcmgffrylttwldcrdsssfstdptrsssgffrylttwldcrd
+:ID:       sgthbcmgffrylttwldcrdsssrsfstdptrsssgffrylttwldcrd
 :END:
 contribute to the discussion here
 ** TODO [#C] Generic scraping with chrome inspector?
@@ -442,19 +442,19 @@ contribute to the discussion here
 :END:
 ** TODO [#C] [2020-05-11] bug: [[https://github.com/Vrroom][Vrroom]]
 :PROPERTIES:
-:ID:       mnbgsgthbcmvrrmvrrm
+:ID:       bgsgthbcmvrrmvrrm
 :END:
 - load this page, then click 'repositories', wildcard doesn't show up (it should)
 - then refresh (shows up, as expected)
 - then go back -- it doesn't disappear (it should)
 ** TODO [#C] [2020-05-12] [[https://fraidyc.at/][Fraidycat]]
 :PROPERTIES:
-:ID:       tsfrdyctfrdyct
+:ID:       sfrdyctfrdyct
 :END:
 
 ** [#C] [2020-05-16] [[https://politepol.com/en/][Generate RSS feeds for any web page | PolitePol]]
 :PROPERTIES:
-:ID:       stspltplcmngnrtrssfdsfrnywbpgpltpl
+:ID:       spltplcmngnrtrssfdsfrnywbpgpltpl
 :END:
 ok, nice so it allows you to choose elements dynamically, could be useful
 ** [#D] would be nice to keep images outside of the git repository... perhaps even prune
@@ -467,7 +467,7 @@ separate repository for binary assets is better
 
 ** [2020-05-26] [[https://twitter.com/jaredpalmer/status/1265298834906910729][(2) Jared Palmer on Twitter: "PSA: You can usually crank up Webpack rebuild/HMR speed by ~7x on TypeScript projects by doing this to your Webpack config in development. Diff to create-react-app: https://t.co/nMikcH4At8 https://t.co/TgPl5LUwLH" / Twitter]] :wildcard:
 :PROPERTIES:
-:ID:       tstwttrcmjrdplmrsttsjrdplstcnmkchtstctgpllwlhtwttr
+:ID:       stwttrcmjrdplmrsttsjrdplmstcnmkchtstctgpllwlhtwttr
 :END:
 : PSA: You can usually crank up Webpack rebuild/HMR speed by ~7x on TypeScript projects by doing this to your Webpack config in development.
 * [#B] * sympy                                                        :sympy:
@@ -502,7 +502,7 @@ related #sim #math
 
 ** [#D] [2018-12-24] Added a few rules for imageset simplification by hargup · Pull Request 7625 · sympy/sympy
 :PROPERTIES:
-:ID:       mndddfwrlsfrmgstsmplfctnbyhrgppllrqstsympysympy
+:ID:       dddfwrlsfrmgstsmplfctnbyhrgppllrqstsympysympy
 :END:
 https://github.com/sympy/sympy/pull/7625/files
 ** DONE dsolve bug https://github.com/sympy/sympy/issues/15707        :sympy:
@@ -528,7 +528,7 @@ https://github.com/sympy/sympy/pull/7625/files
 :END:
 ** TODO [2019-12-21] [#C] set link as a title when sharing??
 :PROPERTIES:
-:ID:       stcstlnksttlwhnshrng
+:ID:       cstlnksttlwhnshrng
 :END:
 https://github.com/hidroh/materialistic/issues/1075
 
@@ -551,11 +551,11 @@ https://github.com/hidroh/materialistic/issues/1075
 related #git #github #decentralize
 ** TODO [#C] [2020-11-02] git-bug isn't syncing PRs?
 :PROPERTIES:
-:ID:       mngtbgsntsyncngprs
+:ID:       gtbgsntsyncngprs
 :END:
 ** TODO [#C] [2020-11-21] [[https://github.com/MichaelMure/git-bug/blob/b3318335986618388637a9d35d68b39633e4548a/bridge/core/import.go#L54][git-bug/import.go at b3318335986618388637a9d35d68b39633e4548a · MichaelMure/git-bug]]
 :PROPERTIES:
-:ID:       stsgthbcmmchlmrgtbgblbbddlgtbgmprtgtbddbmchlmrgtbg
+:ID:       sgthbcmmchlmrgtbgblbbddbblgtbgmprtgtbddbmchlmrgtbg
 :END:
 ugh fuck, this should go to stderr?
 * [#C] * Hypothesis                                              :hypothesis:
@@ -568,7 +568,7 @@ ugh fuck, this should go to stderr?
 :END:
 ** STRT [#C] [2018-06-11] just be a bit more explicit about not logged in
 :PROPERTIES:
-:ID:       mnjstbbtmrxplctbtntlggdn
+:ID:       jstbbtmrxplctbtntlggdn
 :END:
 *** DONE [#D] ok, what I actually want is the extension to be more vocal about logouts
 :PROPERTIES:
@@ -577,23 +577,23 @@ ugh fuck, this should go to stderr?
 https://github.com/hypothesis/client/issues/12
 *** DONE [2019-02-20] https://github.com/hypothesis/client/pull/967
 :PROPERTIES:
-:ID:       wdsgthbcmhypthssclntpll
+:ID:       sgthbcmhypthssclntpll
 :END:
 *** [2019-06-27] ok, it was partially resolved, at least it expands the sidebar now. Swill major problem for usability though, can easily disapppoint new users.
 :PROPERTIES:
-:ID:       thktwsprtllyrslvdtlsttxpnbltythghcnslydspppntnwsrs
+:ID:       ktwsprtllyrslvdtlsttxpndsbltythghcnslydspppntnwsrs
 :END:
 
 ** TODO [#C] [2019-02-20] hypothesis/client: The Hypothesis web-based annotation client.
 :PROPERTIES:
-:ID:       wdhypthssclntthhypthsswbbsdnnttnclnt
+:ID:       hypthssclntthhypthsswbbsdnnttnclnt
 :END:
 https://github.com/hypothesis/client
 : Join us on Slack - request an invite or log in once you've already created an account - or in #hypothes.is on freenode for discussion.
 : If you'd like to contribute to the project, you should consider subscribing to the development mailing list, where we can help you plan your contributions.
 *** TODO [2021-01-16] disuss about cannon                     :cannon:outbox:
 :PROPERTIES:
-:ID:       stdsssbtcnnn
+:ID:       dsssbtcnnn
 :END:
 
 ** TODO [#C] doesn't work on hackernews, some content-security policy thing :hypothesis:
@@ -603,12 +603,12 @@ https://github.com/hypothesis/client
 :END:
 ** [2020-05-05] [[https://gist.github.com/mGBUfLn9/7cadffcf7c3c23b7376350165a67735f][history.txt]] :hypothesis:annotation:
 :PROPERTIES:
-:ID:       tsgstgthbcmmgbflncdffcfccbfhstrytxt
+:ID:       sgstgthbcmmgbflncdffcfccbfhstrytxt
 :END:
 doesn't work on github?? ugh.
 ** [#C] [2019-07-18] John Maynard Keynes: "Newton, the Man"
 :PROPERTIES:
-:ID:       thjhnmynrdkynsnwtnthmn
+:ID:       jhnmynrdkynsnwtnthmn
 :END:
 about:reader?url=http%3A%2F%2Fwww-history.mcs.st-and.ac.uk%2FExtras%2FKeynes_Newton.html
 hmm, hypothesis doesn't work with Firefox reading mode?
@@ -668,12 +668,12 @@ related: #twitter
 
 ** [2020-04-13] [[https://news.ycombinator.com/item?id=22843225#22854995][Show HN: Twint – Twitter scraping tool written in Python | Hacker News]] :twint:promnesia:hpi:
 :PROPERTIES:
-:ID:       mnsnwsycmbntrcmtmdshwhntwcrpngtlwrttnnpythnhckrnws
+:ID:       snwsycmbntrcmtmdshwhntwntcrpngtlwrttnnpythnhckrnws
 :END:
 hmm maybe use it real quick?
 *** [2020-04-14] [[https://github.com/twintproject/twint/wiki][Home · twintproject/twint Wiki]] :hpi:
 :PROPERTIES:
-:ID:       tsgthbcmtwntprjcttwntwkhmtwntprjcttwntwk
+:ID:       sgthbcmtwntprjcttwntwkhmtwntprjcttwntwk
 :END:
 maybe use github wiki?
 * CNCL [#D] * org-sync
@@ -685,11 +685,11 @@ syncing #github issues with #org mode
 using #gitbug instead now
 ** CNCL [#D] [2019-12-27] not sure if I like sorting by modified time... OPEN and id is better :orgsync:
 :PROPERTIES:
-:ID:       frntsrflksrtngbymdfdtmpnnddsbttr
+:ID:       ntsrflksrtngbymdfdtmpnnddsbttr
 :END:
 ** CNCL [#D] [2020-04-12] for org-sync thing -- could keep private notes in a separate file, but link into ids? :github:
 :PROPERTIES:
-:ID:       snfrrgsyncthngcldkpprvtntsnsprtflbtlnkntds
+:ID:       frrgsyncthngcldkpprvtntsnsprtflbtlnkntds
 :END:
 
 * --------------------------------
@@ -704,7 +704,7 @@ using #gitbug instead now
 :END:
 ** [2020-01-25] https://github.com/tuskyapp/Tusky/issues/1655
 :PROPERTIES:
-:ID:       stsgthbcmtskypptskysss
+:ID:       sgthbcmtskypptskysss
 :END:
 
 * TODO [#C] validate systemd?                                       :pyinfra:
@@ -731,7 +731,7 @@ https://github.com/miniflux/miniflux/blob/f9a773ab18815a57e74bedc243ede1ad70e899
 :END:
 * TODO [#C] [2019-09-08] Validate inputs before saving · Issue #2 · fregante/webext-options-sync
 :PROPERTIES:
-:ID:       snvldtnptsbfrsvngssfrgntwbxtptnssync
+:ID:       vldtnptsbfrsvngssfrgntwbxtptnssync
 :END:
 https://github.com/fregante/webext-options-sync/issues/2
 * STRT [#C] problem with escaping table name                       :visidata:

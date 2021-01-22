@@ -57,7 +57,7 @@ end with ~p~ or ~-p~
 
 * [2018-04-24] elisp basics
 :PROPERTIES:
-:ID:       tlspbscs
+:ID:       lspbscs
 :END:
 cursor point region http://ergoemacs.org/emacs/elisp_cursor_position.html
 http://ergoemacs.org/emacs/elisp_editing_basics.html
@@ -72,12 +72,12 @@ thing-at-point
 
 * [#B] [2018-06-18] sharp-quote names of functions ~(mapcar #'fun list)~
 :PROPERTIES:
-:ID:       mnshrpqtnmsffnctnsmpcrfnlst
+:ID:       shrpqtnmsffnctnsmpcrfnlst
 :END:
 
 * [#C] [2020-02-27] regexps are case sensitive
 :PROPERTIES:
-:ID:       thrgxpsrcssnstv
+:ID:       rgxpsrcssnstv
 :END:
 https://www.reddit.com/r/emacs/comments/5jip0g/strange_replaceregexpinstring_behavior/
 : So, if you want case sensitive, do
@@ -91,11 +91,11 @@ fucking hell.. regexes in elisp are case sensitive, and that's controlled by a f
 
 * [#B] [2020-02-02] [[https://reddit.com/r/emacs/comments/exnxha/withemacs_almost_all_you_need_to_know_about/][with-emacs · (Almost) All You Need to Know About Variables]] /r/emacs
 :PROPERTIES:
-:ID:       snsrddtcmrmcscmmntsxnxhwtslmstllyndtknwbtvrblsrmcs
+:ID:       srddtcmrmcscmmntsxnxhwthmslmstllyndtknwbtvrblsrmcs
 :END:
 * TODO [#D] [2019-07-24] [[https://reddit.com/r/emacs/comments/chfv7y/tutorial_on_good_lisp_programming_style/][Tutorial on Good Lisp Programming Style]] /r/emacs :elisp:
 :PROPERTIES:
-:ID:       wdsrddtcmrmcscmmntschfvyttrlngdlspprgrmmngstylrmcs
+:ID:       srddtcmrmcscmmntschfvyttrtrlngdlspprgrmmngstylrmcs
 :END:
 
 * TODO defaul error reporting sucks                                   :elisp:
@@ -185,7 +185,7 @@ advice-patch
 :END:
 * [2021-01-06] unwind-protect works as with / try-finally block :python:elisp:
 :PROPERTIES:
-:ID:       wdnwndprtctwrksswthtryfnllyblck
+:ID:       nwndprtctwrksswthtryfnllyblck
 :END:
 * TODO good things: hacking on the config while loading stuff via eval-defun :elisp:
 :PROPERTIES:
@@ -195,16 +195,16 @@ advice-patch
 i.e. I think people who advocate for REPL are pitching for a completely wrong thing -- I want to keep my code tidy, it's just nice to execute it instantly
 * [#C] [2020-12-13] [[https://karthinks.com/software/more-batteries-included-with-emacs/][More batteries included with emacs | Karthinks]] regexes in elisp :elisp:
 :PROPERTIES:
-:ID:       snskrthnkscmsftwrmrbttrsnclddwthmcskrthnksrgxsnlsp
+:ID:       skrthnkscmsftwrmrbttrsnclclddwthmcskrthnksrgxsnlsp
 :END:
 : A cleaner approach to regular expressions in Emacs, as most package maintainers will tell you, is to use the rx library instead. rx translates regular expressions in sexp form to a regexp string:
 * [2019-09-05] magnars/s.el: The long lost Emacs string manipulation library. :elisp:
 :PROPERTIES:
-:ID:       thmgnrsslthlnglstmcsstrngmnpltnlbrry
+:ID:       mgnrsslthlnglstmcsstrngmnpltnlbrry
 :END:
 https://github.com/magnars/s.el
 
 * [2018-10-13] debugging ~(message (buffer-string))~
 :PROPERTIES:
-:ID:       stdbggngmssgbffrstrng
+:ID:       dbggngmssgbffrstrng
 :END:

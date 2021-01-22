@@ -10,7 +10,7 @@
 
 * [#B] [2017-11-30] protein folding                              :complexity:
 :PROPERTIES:
-:ID:       thprtnfldng
+:ID:       prtnfldng
 :END:
 given a chain of amino acids, can you predict how is it going to fold?
 ideally, folding should end up in the minimal energy state. if it doesn't you end up with prions?
@@ -18,7 +18,7 @@ in general, folding is an NP complete problem, are our body cells actually solvi
 conjecture: evolution wouldn't actually use hard instances of protein folding, only computationally easy ones.
 * [2017-05-15] [[http://en.wikipedia.org/wiki/Ethanol_fermentation][Fermentation]]
 :PROPERTIES:
-:ID:       mnnwkpdrgwkthnlfrmnttnfrmnttn
+:ID:       nwkpdrgwkthnlfrmnttnfrmnttn
 :END:
 yeast anaerobic -> alcohol
 muscle anaerobic -> lactic acid
@@ -34,7 +34,7 @@ https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5
 
 * [2020-12-26] [[https://news.ycombinator.com/item?id=25538820][Reverse Engineering the Source Code of the BioNTech/Pfizer SARS-CoV-2 Vaccine | Hacker News]]
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmdrvrsngnbntchpfzrsrscvvccnhckrnws
+:ID:       snwsycmbntrcmtmdrvrsngnrnbntchpfzrsrscvvccnhckrnws
 :END:
 : Synthetic Biology: A Primer
 : 
@@ -47,12 +47,12 @@ https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5
 from [[https://www.instapaper.com/read/1234260607/11339250][ip]]   [[https://www.scottaaronson.com/blog/?p=4253][Shtetl-Optimized » Blog Archive » On two blog posts of Jerry Coyne]]
 * [2020-04-08] Watch the Life Cycle of HIV in Colorful New Detail - Scientific American Blog Network :biology:
 :PROPERTIES:
-:ID:       wdwtchthlfcyclfhvnclrflnwdtlscntfcmrcnblgntwrk
+:ID:       wtchthlfcyclfhvnclrflnwdtlscntfcmrcnblgntwrk
 :END:
 https://blogs.scientificamerican.com/observations/watch-the-life-cycle-of-hiv-in-colorful-new-detail/
 * [#C] [2020-04-26] [[https://news.ycombinator.com/item?id=22989280][Ask HN: What scientific phenomenon do you wish someone would explain better? | Hacker News]] :biology:
 :PROPERTIES:
-:ID:       snsnwsycmbntrcmtmdskhnwhtywshsmnwldxplnbttrhckrnws
+:ID:       snwsycmbntrcmtmdskhnwhtscywshsmnwldxplnbttrhckrnws
 :END:
 : The issue with these animations is that they're getting rid of all the thermal noise.
 : In reality, single proteins are flying around the whole length of the cell many times a second, just from their thermal motion.
@@ -60,7 +60,7 @@ https://blogs.scientificamerican.com/observations/watch-the-life-cycle-of-hiv-in
 : However, if any of this were shown, the animations would become impossible to understand.
 ** [2020-05-09] https://news.ycombinator.com/item?id=22993812
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmd
+:ID:       snwsycmbntrcmtmd
 :END:
 : It's not so much "magic" as it is the sheer rate of molecular collisions in the cytosol. There are so many collisions happening that at least one of them will do what you want. Here's a back-of-the-napkin example, admittedly with many simplifications:
 : A tRNA molecule at body temperature travels at roughly 10 m/s. Assuming a point-sized tRNA and stationary ribosome of radius 125 * 10^-10 m, the ray casted by the moving tRNA will collide with the ribosome when their centers are within 125 * 10^-10 m of each other. The path of the tRNA sweeps a "collidable" circle of the radius of 125 * 10^-10 m, for a cross-sectional area of 5 * 10^-16 m^2. Multiplied by the tRNA velocity, the tRNA sweeps a volume of 5 * 10^-15 m^3 per second. Constrained inside an ordinary animal cell of volume 10^-15 m^3, the tRNA would have swept the entire volume of the cell five times over in a single second. Obviously the collision path would have significant self-overlap, but at this rate it's quite likely for the two to collide at least once any given second.
@@ -68,7 +68,7 @@ https://blogs.scientificamerican.com/observations/watch-the-life-cycle-of-hiv-in
 : Any given molecule in the cell will experience millions to billions of collisions per second. The fact that molecules move so fast relative to their size is what allows these reactions to happen on reasonable timescales.
 * [2020-08-15] [[https://en.wikipedia.org/wiki/OpenWorm][OpenWorm - Wikipedia]] :sim:
 :PROPERTIES:
-:ID:       stsnwkpdrgwkpnwrmpnwrmwkpd
+:ID:       snwkpdrgwkpnwrmpnwrmwkpd
 :END:
 : OpenWorm is an international open science project to simulate the roundworm Caenorhabditis elegans at the cellular level as a simulation.[1][2][3] Although the long-term goal is to model all 959 cells of the C. elegans, the first stage is to model the worm's locomotion by simulating the 302 neurons and 95 muscle cells.
 * TODO [#B] how cell compute                                        :towatch:
@@ -89,7 +89,7 @@ from Come as You Are
 
 * TODO [#C] [2019-01-29] 5 Minute DNA Extraction in a Shot Glass: 7 Steps (with Pictures) :dna:
 :PROPERTIES:
-:ID:       tmntdnxtrctnnshtglssstpswthpctrs
+:ID:       mntdnxtrctnnshtglssstpswthpctrs
 :END:
 https://www.instructables.com/id/5-minute-DNA-Extraction-in-a-Shot-Glass/
 : The detergents in the dish soap (like the sodium laurel sulfate, aka sodium dodecyl sulfate) destabilize the membranes of the cells, spilling their contents into the rest of the solution of saliva.
@@ -97,19 +97,19 @@ https://www.instructables.com/id/5-minute-DNA-Extraction-in-a-Shot-Glass/
 can you do this with muscle cells? E.g. shred meat, add some water and salt and see what happens
 * [#C] [2019-01-29] 5 Minute DNA Extraction in a Shot Glass: 7 Steps (with Pictures) :dna:
 :PROPERTIES:
-:ID:       tmntdnxtrctnnshtglssstpswthpctrs
+:ID:       mntdnxtrctnnshtglssstpswthpctrs
 :END:
 https://www.instructables.com/id/5-minute-DNA-Extraction-in-a-Shot-Glass/
 
 * TODO [#D] [2019-08-05] Eli Shlizerman on Twitter: "1/ THREAD: Excited to share our work on whole nervous system and body model for celegans. The model simulates how connectome + neural interactions + body interact together to generate locomotion. Preprint: https://t.co/vgwGbIeuGc Samples of videos: https://t.co/0afVJ7MBuo https://t.co/0Tb9Z6LSBX" / Twitter
 :PROPERTIES:
-:ID:       mnlshlzrmnntwttrthrdxctdtdsstcfvjmbstctbzlsbxtwttr
+:ID:       lshlzrmnntwttrthrdxctdtshdsstcfvjmbstctbzlsbxtwttr
 :END:
 https://twitter.com/shlizee/status/1158486688307400705
 
 * DONE [#A] [2019-08-25] [[https://reddit.com/r/askscience/comments/cu9h9i/how_are_molecular_structures_determined_with_such/][How are molecular structures determined with such precision? How were they determined in the past?]] /r/askscience
 :PROPERTIES:
-:ID:       snsrddtcmrskscnccmmntschhwwrthydtrmndnthpstrskscnc
+:ID:       srddtcmrskscnccmmntschhwrwwrthydtrmndnthpstrskscnc
 :END:
 : My question was inspired by learning that [lutein](https://en.wikipedia.org/wiki/Lutein#/media/File:Lutein_molecule_spacefill.png) and [zeaxanthin](https://en.wikipedia.org/wiki/Zeaxanthin#/media/File:Zeaxanthin_molecule_spacefill.png) are nearly identical molecules (C40H56O2), with the only difference between the two being that a single double bond is found in neighboring positions along a hexagon at one end of the molecule. These molecules are rather large. How are molecular structures determined so exactly? When did chemists acquire this capability? And what were the major milestones in our ability to determine molecular structure?
 
@@ -117,24 +117,24 @@ https://twitter.com/shlizee/status/1158486688307400705
 : I don't just mean how many of each kind of element and where they are, but also things as subtle as the position of a single double bond. A lot of molecules are smaller than a wavelength of visible light, so it's not as if we could just look at them under a microscope, yet we know their structures exactly. So how do chemists figure these things out?
 * [2020-04-05] [[https://reddit.com/r/askscience/comments/fvcjhn/how_does_even_if_this_flu_shot_isnt_an_exact/fmi7dix/][How does “even if this flu shot isn’t an exact match, if you do get the flu it won’t be as bad” work?]] /r/askscience :vaccine:
 :PROPERTIES:
-:ID:       snsrddtcmrskscnccmmntsfvcdgtthfltwntbsbdwrkrskscnc
+:ID:       srddtcmrskscnccmmntsfvcjhdgtthfltwntbsbdwrkrskscnc
 :END:
 : There's actually a very cool effect where either getting infected with flu or getting vaccinated boosts your antibody response to all previous strains of flu you've encountered (by getting flu or by being vaccinated). In recent years WHO have begun to shift towards using antigenically advanced vaccines, whereby they predict how currently circulating strains of flu will evolve and artificially create vaccines for the flu strain they think will be circulating in 6 months time, as even if the virus doesn't mutate to a new strain, the antibody backboost means you still get protection against most circulating strains. Check out this paper (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4246172/) if you want a more detailed explanation, but basically the vaccine can boost your antibody response to a fairly wide range of influenza virus strains  (this is at least true for type A H3N2 influenza, there are 4 different types of influenza in the annual vaccine)
 * [2019-03-29] The World in UV - YouTube                                :dna:
 :PROPERTIES:
-:ID:       frthwrldnvytb
+:ID:       thwrldnvytb
 :END:
 https://www.youtube.com/watch?v=V9K6gjR07Po
 huh, apparently UV protective pigments are also inside the cells, around nucleus to protect DNA
 * [2019-03-28] Cellular Visions: The Inner Life of a Cell - Studio Daily :biology:viz:
 :PROPERTIES:
-:ID:       thclllrvsnsthnnrlffcllstddly
+:ID:       clllrvsnsthnnrlffcllstddly
 :END:
 http://www.studiodaily.com/2006/07/cellular-visions-the-inner-life-of-a-cell/
 
 * [2019-12-06] Watch "How Quantum Biology Might Explain Life’s Biggest Questions | Jim Al-Khalili | TED Talks" on YouTube
 :PROPERTIES:
-:ID:       frwtchhwqntmblgymghtxplnlgstqstnsjmlkhlltdtlksnytb
+:ID:       wtchhwqntmblgymghtxplnlfsgstqstnsjmlkhlltdtlksnytb
 :END:
 https://youtu.be/_qgSz1UmcBM
 
@@ -144,7 +144,7 @@ Birds might sense magnet field via entangled electrons?
 
 * [#B] [2018-07-17]  about 7-10% of fat can be converted to glucose :metabolism:
 :PROPERTIES:
-:ID:       tbtfftcnbcnvrtdtglcs
+:ID:       btfftcnbcnvrtdtglcs
 :END:
 https://biology.stackexchange.com/a/48322
 This is because triglyceride is made up of one 3-carbon glycerol molecule and three 16- or 18-carbon fatty acids. The glycerol (3/51-to-57 = 5.2–5.9%) can be converted to glucose in the liver by gluconeogenesis (after conversion to dihydroxyacetone phosphate).
@@ -161,7 +161,7 @@ The FA chains are cleaved off of the glycerol backbone. The 3 FA chains are oxid
 :END:
 * [#C] [2018-07-07] glucose vs fructose                          :metabolism:
 :PROPERTIES:
-:ID:       stglcsvsfrcts
+:ID:       glcsvsfrcts
 :END:
 : Another thing to consider: Not all types of carbohydrates end up the same way when digested. Glucose, as said earlier, can be stored in the form of glycogen in the body. Fructose, on the other hand, cannot do the same and is directly converted into fat if it cannot be used immediately. This means that if you eat a lot of carbohydrates in the form of fructose (white sugar, corn syrup, fruits) many of it will be converted into fat without any opportunity to be used. This is also why since low-fat food arrived everywhere, the obesity epidemic started. Fat has been replaced by sugar and corn syrup, and voilà. Same result, but since it says "no fat" on the product we think we can eat all we want. Hope I have been some help.
 : hm, or is it? https://www.reddit.com/r/Fitness/comments/4a5fws/can_someone_please_shed_light_on_the_sugar_makes/d0y7r0o/

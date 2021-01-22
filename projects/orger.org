@@ -9,7 +9,7 @@ I write more about it [[https://beepb00p.xyz/orger.html][here]] and [[https://be
 :END:
 ** STRT [#B] [2020-03-22] Reddit's Save Functionality Sucks | My Random Thoughts by Cedric Amaya :reddit:exports:
 :PROPERTIES:
-:ID:       snrddtssvfnctnltyscksmyrndmthghtsbycdrcmy
+:ID:       rddtssvfnctnltyscksmyrndmthghtsbycdrcmy
 :END:
 https://cedric.tech/blog/reddits-save-functionality-sucks/
 : For those unaware, saving things on Reddit as a non-Premium member works in the following way:
@@ -27,7 +27,7 @@ wow, the fuck?? they are deleted from history??
 :END:
 ** STRT [#C] [2020-02-15] https://news.ycombinator.com/item?id=22177077 :reddit:
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmd
+:ID:       snwsycmbntrcmtmd
 :END:
 : I'm tackling the issue of managing Reddit saves.
 : Across all platforms (not just Reddit), people including myself like to save/bookmark interesting content in the hopes of getting some use out of it later.
@@ -49,7 +49,7 @@ wow, the fuck?? they are deleted from history??
 :END:
 ** TODO [#C] [2020-03-24] lobste.rs/s/r9oskz.json                 :orger:hpi:
 :PROPERTIES:
-:ID:       tlbstrssrskzjsn
+:ID:       lbstrssrskzjsn
 :END:
 https://lobste.rs/saved.json
 : port saved lobsters posts?
@@ -79,7 +79,7 @@ https://lobste.rs/saved.json
 :END:
 ** [#B] [2020-06-08] the idea is that modules are simple and short enough for you to simply copy and modify as you wish
 :PROPERTIES:
-:ID:       mnthdsthtmdlsrsmplndshrtnghfrytsmplycpyndmdfysywsh
+:ID:       thdsthtmdlsrsmplndshrtnghfrytsmplycpyndmdfysywsh
 :END:
 thanks to decoupling the data retrieval (#hpi)
 
@@ -137,7 +137,7 @@ thanks to decoupling the data retrieval (#hpi)
 
 * [#C] [2020-05-31] [[https://github.com/novoid/Memacs/blob/master/docs/FAQs_and_Best_Practices.org][novoid/Memacs: FAQs and Best Practices.org]] :errors:orger:
 :PROPERTIES:
-:ID:       snsgthbcmnvdmmcsblbmstrdcrgnvdmmcsfqsndbstprctcsrg
+:ID:       sgthbcmnvdmmcsblbmstrdcsfrgnvdmmcsfqsndbstprctcsrg
 :END:
 : Because our memacs-modules run automatically, it would be difficult to be notified in case of an error.
 : So memacs-modules handle errors by appending them to a file:
@@ -158,7 +158,7 @@ Very nice pattern, could use it for other stuff too
 :END:
 * TODO [#B] [2020-05-20] add examples? [[https://github.com/karlicoss/orger#types-of-modules][karlicoss/orger: Tool to convert data into searchable and interactive org-mode views]]
 :PROPERTIES:
-:ID:       wdddxmplssgthbcmkrlcssrgrdtntsrchblndntrctvrgmdvws
+:ID:       ddxmplssgthbcmkrlcssrgrtydtntsrchblndntrctvrgmdvws
 :END:
 : Mirror (old name StaticView): mirrors all data from a source, and generated from scratch every time, hence read only.
 * STRT [#C] attempt to generate literate readme              :orger:literate:
@@ -169,11 +169,11 @@ Very nice pattern, could use it for other stuff too
 
 ** [2019-10-05] fuck. multiline result can't be used...
 :PROPERTIES:
-:ID:       stfckmltlnrsltcntbsd
+:ID:       fckmltlnrsltcntbsd
 :END:
 * TODO [#C] [2019-10-20] Orger part II: reading Reddit via org-mode, quick todos from chat messages and spaced repetition : orgmode
 :PROPERTIES:
-:ID:       snrgrprtrdngrddtvrgmdqcktrmchtmssgsndspcdrpttnrgmd
+:ID:       rgrprtrdngrddtvrgmdqcktdsrmchtmssgsndspcdrpttnrgmd
 :END:
 https://www.reddit.com/r/orgmode/comments/dgdej4/orger_part_ii_reading_reddit_via_orgmode_quick/
 : All right. I am trying to install it. I have installed python on Windowz.
@@ -184,5 +184,5 @@ https://www.reddit.com/r/orgmode/comments/dgdej4/orger_part_ii_reading_reddit_vi
 create issue in orger repo
 * [#C] [2020-01-30] [karlicoss/orger] Include/support/contribute orgformat (#5) - karlicoss@gmail.com - Gmail
 :PROPERTIES:
-:ID:       thkrlcssrgrncldspprtcntrbtrgfrmtkrlcssgmlcmgml
+:ID:       krlcssrgrncldspprtcntrbtrgfrmtkrlcssgmlcmgml
 :END:

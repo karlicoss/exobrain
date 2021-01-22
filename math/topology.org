@@ -3,7 +3,7 @@
 
 * [2019-04-24] charts and atlases
 :PROPERTIES:
-:ID:       wdchrtsndtlss
+:ID:       chrtsndtlss
 :END:
 ** chart -- homeomorphism from an open subset of manifold to some other space (not necessarily eucledian generally)
 :PROPERTIES:
@@ -15,7 +15,7 @@
 :END:
 *** [2019-04-24] think of Earth as the space and atlas as a set of flat maps
 :PROPERTIES:
-:ID:       wdthnkfrthsthspcndtlssstffltmps
+:ID:       thnkfrthsthspcndtlssstffltmps
 :END:
 ** if codomain of atlas is eucledian, the space is a manifold
 :PROPERTIES:
@@ -27,17 +27,17 @@
 :END:
 ** [2019-04-24] https://en.wikipedia.org/wiki/Atlas_(topology)
 :PROPERTIES:
-:ID:       wdsnwkpdrgwktlstplgy
+:ID:       snwkpdrgwktlstplgy
 :END:
 One often desires more structure on a manifold than simply the topological structure. For example, if one would like an unambiguous notion of differentiation of functions on a manifold, then it is necessary to construct an atlas whose transition functions are differentiable. Such a manifold is called differentiable. Given a differentiable manifold, one can unambiguously define the notion of tangent vectors and then directional derivatives.
 
 * [2019-04-24] identification of circles etc
 :PROPERTIES:
-:ID:       wddntfctnfcrclstc
+:ID:       dntfctnfcrclstc
 :END:
 ** [2019-04-24] https://math.stackexchange.com/a/433969/15108 antipodal gluing of circle is circle again. nice gif
 :PROPERTIES:
-:ID:       wdsmthstckxchngcmntpdlglngfcrclscrclgnncgf
+:ID:       smthstckxchngcmntpdlglngfcrclscrclgnncgf
 :END:
 *** [2019-04-24] antipodal identification of circle (S^1) is [ circle ] :drill:
 :PROPERTIES:
@@ -45,11 +45,11 @@ One often desires more structure on a manifold than simply the topological struc
 :END:
 ** [2019-04-24] identificaiton of 2D disk: right -- it's exactly the first diagram here! https://en.wikipedia.org/wiki/Real_projective_plane if you draw disk as a square.
 :PROPERTIES:
-:ID:       wddntfctnfddskrghttsxctlywkrlprjctvplnfydrwdskssqr
+:ID:       dntfctnfddskrghttsxctlythwkrlprjctvplnfydrwdskssqr
 :END:
 *** [2019-04-24] this also kinda makes sense if you draw for a bit https://math.stackexchange.com/a/1391731/15108
 :PROPERTIES:
-:ID:       wdthslskndmkssnsfydrwfrbtsmthstckxchngcm
+:ID:       thslskndmkssnsfydrwfrbtsmthstckxchngcm
 :END:
 *** [2019-04-24] antipodal identificaiton of disk (D^2) is { RP^2 }   :drill:
 :PROPERTIES:
@@ -57,7 +57,7 @@ One often desires more structure on a manifold than simply the topological struc
 :END:
 *** [2019-04-24] https://mathcurve.com/surfaces.gb/planprojectif/planprojectif.shtml
 :PROPERTIES:
-:ID:       wdsmthcrvcmsrfcsgbplnprjctfplnprjctfshtml
+:ID:       smthcrvcmsrfcsgbplnprjctfplnprjctfshtml
 :END:
 Here are classic models of the projective plane: 
 - The set of vectors of R^3 with the natural topology
@@ -67,7 +67,7 @@ Here are classic models of the projective plane:
 
 * [#C] [2019-01-23] (2) Gluing a Sphere - YouTube                  :topology:
 :PROPERTIES:
-:ID:       wdglngsphrytb
+:ID:       glngsphrytb
 :END:
 https://www.youtube.com/watch?v=mmkreUEoGr8
 Selection:
@@ -75,7 +75,7 @@ Often the fundamental group of the glued object can be calculated from the piece
 
 * [#C] [2019-01-23] Union of two simply connected open subsets with path-connected intersection is simply connected - Topospaces :topology:
 :PROPERTIES:
-:ID:       wdnnftwsmplycnnctdpnsbstsntrsctnssmplycnnctdtpspcs
+:ID:       nnftwsmplycnnctdpnsbstswtntrsctnssmplycnnctdtpspcs
 :END:
 https://topospaces.subwiki.org/wiki/Union_of_two_simply_connected_open_subsets_with_path-connected_intersection_is_simply_connected
 Selection:
@@ -87,33 +87,33 @@ Both  and  are trivial, so we get  is an amalgamated free product of two trivial
 :END:
 ** [#C] [2019-01-26] Infinite compact sets
 :PROPERTIES:
-:ID:       stnfntcmpctsts
+:ID:       nfntcmpctsts
 :END:
 https://perl.plover.com/classes/data-topology/samples/slide022.html
 Selection:
  one-point compactification of ℕ
 ** [#C] [2019-01-26] Compactness
 :PROPERTIES:
-:ID:       stcmpctnss
+:ID:       cmpctnss
 :END:
 https://perl.plover.com/classes/data-topology/samples/slide021.html
 Selection:
 Compact set	=	Set that can be exhaustively searched
 ** [#C] [2019-01-26] Equality
 :PROPERTIES:
-:ID:       stqlty
+:ID:       qlty
 :END:
 https://perl.plover.com/classes/data-topology/samples/slide019.html
 Selection:
 Discrete space	=	Semidecidable equality
 ** [#C] [2019-01-26] Topology of Data Types
 :PROPERTIES:
-:ID:       sttplgyfdttyps
+:ID:       tplgyfdttyps
 :END:
 https://perl.plover.com/classes/data-topology/
 ** [#C] [2019-01-26] References and further reading
 :PROPERTIES:
-:ID:       strfrncsndfrthrrdng
+:ID:       rfrncsndfrthrrdng
 :END:
 https://perl.plover.com/classes/data-topology/samples/slide027.html
 Selection:
@@ -121,13 +121,13 @@ Other materials at http://www.cs.bham.ac.uk/~mhe/
 
 * DONE [#C] [2019-01-26] A Logical Interpretation of Some Bits of Topology – XOR’s Hammer :logic:
 :PROPERTIES:
-:ID:       stlgclntrprttnfsmbtsftplgyxrshmmr
+:ID:       lgclntrprttnfsmbtsftplgyxrshmmr
 :END:
 - State "DONE"       from              [2019-04-24]
 https://xorshammer.com/2011/07/09/a-logical-interpretation-of-some-bits-of-topology/
 ** [2019-04-24] mm, not sure how this can be useful now...
 :PROPERTIES:
-:ID:       wdmmntsrhwthscnbsflnw
+:ID:       mmntsrhwthscnbsflnw
 :END:
 
 * TODO [#D] Tweet from John Carlos Baez (@johncarlosbaez), at Mar 16, 01:18
@@ -148,7 +148,7 @@ https://twitter.com/johncarlosbaez/status/1106726463607209985
 :END:
 ** [2016-06-18] compactness
 :PROPERTIES:
-:ID:       stcmpctnss
+:ID:       cmpctnss
 :END:
 - usual axioms of real numbers: forall a, b: a + b = b + a, forall x, y. exists z. x * z > y, so on
 - add constant eps
@@ -159,7 +159,7 @@ for infinite set: no model with \bbR as domain! Nonstandard real numbers, hyperr
 
 ** [2016-06-20]  connectedness
 :PROPERTIES:
-:ID:       mncnnctdnss
+:ID:       cnnctdnss
 :END:
 Connected: can't be represented as a union of two disjoint open sets.
 Locally connected at x: for every open V(x), there is connected open U(x) \subset V(x). X is locally connected if locally connected at every point.
@@ -175,7 +175,7 @@ Locally simply connected: admits a base of simply connected sets. Also locally p
 
 ** [2015-06-14] Extracting topology from convergence
 :PROPERTIES:
-:ID:       snxtrctngtplgyfrmcnvrgnc
+:ID:       xtrctngtplgyfrmcnvrgnc
 :END:
 f_n -> weak(*) f if forall x. f_n(x) -> f(x)
 How to develop intuition abut the open sets?
@@ -188,7 +188,7 @@ forall O(f). exists N. forall n > N. f_n \in O
 What is O? finite number of points do not converge? 
 * [2016-06-18] hausdorff spaces                                    :topology:
 :PROPERTIES:
-:ID:       sthsdrffspcs
+:ID:       hsdrffspcs
 :END:
 Hausdorff if any two points can be separated by neighborhoods (diagonal is closed in product topology).
 
@@ -210,10 +210,10 @@ Space is discrete iff its equality map
 is continuous
 * [#C] [2019-01-23] (2) bothmer - YouTube          :topology:viz:inspiration:
 :PROPERTIES:
-:ID:       wdbthmrytb
+:ID:       bthmrytb
 :END:
 https://www.youtube.com/channel/UCngLGVygGfVo3pxsRzeCN_A
 ** [2019-02-24] some topology visualisations
 :PROPERTIES:
-:ID:       snsmtplgyvslstns
+:ID:       smtplgyvslstns
 :END:

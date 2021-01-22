@@ -39,59 +39,59 @@ huh. interesting, it seemed to have published instantly...
 
 * TODO [#B] [2019-08-18] [[https://github.com/fregante/Awesome-WebExtensions#readme][fregante/Awesome-WebExtensions: A curated list of awesome resources for WebExtensions development.]] :promnesia:grasp:webext:
 :PROPERTIES:
-:ID:       snsgthbcmfrgntwsmwbxtnsnswsmrsrcsfrwbxtnsnsdvlpmnt
+:ID:       sgthbcmfrgntwsmwbxtnsnsrdwsmrsrcsfrwbxtnsnsdvlpmnt
 :END:
 : Chrome Webstore Upload - Upload the extension to the Chrome Web Store via cli (or on Travis, automatically).
 ** [2019-09-02] https://github.com/LinusU/wext-shipit this works also for firefox? :webext:firefox:
 :PROPERTIES:
-:ID:       mnsgthbcmlnswxtshptthswrkslsfrfrfx
+:ID:       sgthbcmlnswxtshptthswrkslsfrfrfx
 :END:
 * TODO [#C] [2019-08-18] [[https://github.com/acvetkov/sinon-chrome][use sinon-chrome? Mocks the Chrome Extensions API for testing]] :grasp:promnesia:webext:
 :PROPERTIES:
-:ID:       snsgthbcmcvtkvsnnchrmssnnmmcksthchrmxtnsnspfrtstng
+:ID:       sgthbcmcvtkvsnnchrmssnnchmmcksthchrmxtnsnspfrtstng
 :END:
 
 
 * START [#B] [2019-08-28] Working with quota on mobile browsers: A research report on browser storage - HTML5 Rocks :html:webext:
 :PROPERTIES:
-:ID:       wdwrkngwthqtnmblbrwsrsrsrchrprtnbrwsrstrghtmlrcks
+:ID:       wrkngwthqtnmblbrwsrsrsrchrprtnbrwsrstrghtmlrcks
 :END:
 :LOGBOOK: 
 - State "START"      from "TODO"       [2019-09-07]
 :END: https://www.html5rocks.com/en/tutorials/offline/quota-research/ 
 ** [2019-09-07] To do this research, I have built a tool called Browser Storage Abuser to minimize the manual work. You can store as much data as possible to see the limit of each storage on your browser.
 :PROPERTIES:
-:ID:       sttdthsrsrchhvblttlclldbrsbltsthlmtfchstrgnyrbrwsr
+:ID:       tdthsrsrchhvblttlclldbrwssbltsthlmtfchstrgnyrbrwsr
 :END:
 ** [2019-09-07] Android firefox: For IndexedDB, you can use up to 50MB on desktop, 5MB on mobile for free. However, the user can allow the limit to be removed by granting permission.
 :PROPERTIES:
-:ID:       stndrdfrfxfrndxddbycnsptmthlmttbrmvdbygrntngprmssn
+:ID:       ndrdfrfxfrndxddbycnsptmbnthlmttbrmvdbygrntngprmssn
 :END:
 * DONE [#C] [2019-05-01] telotortium/org-capture-extension at native-messaging-host
 :PROPERTIES:
-:ID:       wdtltrtmrgcptrxtnsntntvmssgnghst
+:ID:       tltrtmrgcptrxtnsntntvmssgnghst
 :END:
 https://github.com/telotortium/org-capture-extension/tree/native-messaging-host
 : Native Messaging Host
 : This is a version of the Org Capture Extension using the Chrome Native Messaging host
 ** [2019-08-10] [[https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging][hmm firefox also got it?]]
 :PROPERTIES:
-:ID:       stsdvlprmzllrgnsdcsmzllddnsnsntvmssgnghmmfrfxlsgtt
+:ID:       sdvlprmzllrgnsdcsmzllddnsnsnsntvmssgnghmmfrfxlsgtt
 :END:
 
 ** [2020-02-15] ok, seems tricky, and apparently requires installing via OS
 :PROPERTIES:
-:ID:       stksmstrckyndpprntlyrqrsnstllngvs
+:ID:       ksmstrckyndpprntlyrqrsnstllngvs
 :END:
 
 * TODO [#C] [2019-09-08] [[https://github.com/fregante/webext-options-sync][fregante/webext-options-sync: Helps you manage and autosave your extension's options. Chrome and Firefox.]] :promnesia:grasp:
 :PROPERTIES:
-:ID:       snsgthbcmfrgntwbxtptnssyntsvyrxtnsnsptnschrmndfrfx
+:ID:       sgthbcmfrgntwbxtptnssyncftsvyrxtnsnsptnschrmndfrfx
 :END:
 : webext-domain-permission-toggle -
 * TODO [#C] [2019-08-29] [[https://stackoverflow.com/questions/35857606/chrome-messaging-chrome-runtime-sendmessage-not-working-on-the-newest-release-4][javascript - Chrome messaging: chrome.runtime.sendMessage not working on the newest release 49 - Stack Overflow]] :webext:
 :PROPERTIES:
-:ID:       thsstckvrflwcmqstnschrmmstwrkngnthnwstrlsstckvrflw
+:ID:       sstckvrflwcmqstnschrmmssgtwrkngnthnwstrlsstckvrflw
 :END:
 : This is the intended behaviour. Messages were not supposed to be received by the sending page. The old behaviour was a bug. This is discussed in these bug reports: 479425 479951.
 * TODO [#C] browser_action impacts presense of menu item on android.. :webext:
@@ -101,18 +101,18 @@ https://github.com/telotortium/org-capture-extension/tree/native-messaging-host
 :END:
 * [#C] [2019-10-27] Re: [fregante/webext-options-sync] feat: optionally use chrome.storage.local (#19) - karlicoss@gmail.com - Gmail
 :PROPERTIES:
-:ID:       snrfrgntwbxtptnssyncftptnchrmstrglclkrlcssgmlcmgml
+:ID:       rfrgntwbxtptnssyncftptnllchrmstrglclkrlcssgmlcmgml
 :END:
 : I'd rather not offer this option because I think cross-device sync is always preferable from the user's point of view, but I'm willing to add this for extensions with options that are meant to be local (e.g. a port number)
 : PR welcome, documentation included.
 * TODO [#C] [2019-09-08] [[https://github.com/fregante/webext-options-sync/pull/8/commits/58aea6988d268b73f197894839a3318d909b06a0][let the user decide what storage type shall be used by obama · Pull Request #8 · fregante/webext-options-sync]]
 :PROPERTIES:
-:ID:       snsgthbcmfrgntwbxtptnssynmpllrqstfrgntwbxtptnssync
+:ID:       sgthbcmfrgntwbxtptnssyncpmpllrqstfrgntwbxtptnssync
 :END:
 
 * DONE [#B] [2019-09-08] notlmn/browser-extension-template: Barebones boilerplate with webpack, options handler and auto-publishing :grasp:webext:
 :PROPERTIES:
-:ID:       snntlmnbrwsrxtnsntmpltbrbhwbpckptnshndlrndtpblshng
+:ID:       ntlmnbrwsrxtnsntmpltbrbnshwbpckptnshndlrndtpblshng
 :END:
 https://github.com/notlmn/browser-extension-template
 : Features
@@ -123,33 +123,33 @@ https://github.com/notlmn/browser-extension-template
 
 * [2020-02-08] [[https://blog.mozilla.org/addons/2018/02/28/discontinuing-support-for-beta-versions/][Discontinuing support for beta versions | Mozilla Add-ons Blog]]
 :PROPERTIES:
-:ID:       stsblgmzllrgddnsdscntnngsspprtfrbtvrsnsmzllddnsblg
+:ID:       sblgmzllrgddnsdscntnngsppspprtfrbtvrsnsmzllddnsblg
 :END:
 : AMO supports signing self-hosted (unlisted) versions, which we believe is a good replacement. With self-hosted versions, developers can create multiple development update channels if needed. They can easily move users between channels. The main caveat is that the files and update mechanisms need to be hosted by the developer
 * [2020-02-15] [[https://dev.to/napolux/how-to-add-comments-to-packagejson-5doi][How to add comments to package.json? - DEV Community 👩‍💻👨‍💻]] :blog:
 :PROPERTIES:
-:ID:       stsdvtnplxhwtddcmmntstpcktddcmmntstpckgjsndvcmmnty
+:ID:       sdvtnplxhwtddcmmntstpckgjtddcmmntstpckgjsndvcmmnty
 :END:
 : How to add comments to package.json?
 * TODO [#C] [2020-02-15] [[https://www.npmjs.com/package/xo][xo - npm]]
 :PROPERTIES:
-:ID:       stswwwnpmjscmpckgxxnpm
+:ID:       swwwnpmjscmpckgxxnpm
 :END:
 : Opinionated but configurable ESLint wrapper with lots of goodies included. Enforces strict and readable code. Never discuss code style on a pull request again! No decision-making. No .eslintrc or .jshintrc to manage. It just works!
 * [2020-02-15] [[https://github.com/notlmn/browser-extension-template/blob/master/source/options-storage.js][browser-extension-template/options-storage.js at master · notlmn/browser-extension-template]]
 :PROPERTIES:
-:ID:       stsgthbcmntlmnbrwsrxtnsnttmstrntlmnbrwsrxtnsntmplt
+:ID:       sgthbcmntlmnbrwsrxtnsntmptmstrntlmnbrwsrxtnsntmplt
 :END:
 : import OptionsSync from 'webext-options-sync';
 
 * TODO [#C] [2020-02-15] [[https://github.com/notlmn/browser-extension-template#publishing][notlmn/browser-extension-template: Barebones boilerplate with webpack, options handler and auto-publishing]]
 :PROPERTIES:
-:ID:       stsgthbcmntlmnbrwsrxtnsnthwbpckptnshndlrndtpblshng
+:ID:       sgthbcmntlmnbrwsrxtnsntmphwbpckptnshndlrndtpblshng
 :END:
 : Target respective browsers using .babelrc.
 * [#C] [2020-02-15] [[https://github.com/DrewML/chrome-webstore-upload-cli][DrewML/chrome-webstore-upload-cli: Upload/Publish Chrome Web Store extensions from the CLI]] :webext:
 :PROPERTIES:
-:ID:       stsgthbcmdrwmlchrmwbstrpllshchrmwbstrxtnsnsfrmthcl
+:ID:       sgthbcmdrwmlchrmwbstrpldclshchrmwbstrxtnsnsfrmthcl
 :END:
 : chrome-webstore-upload-cli
 
@@ -157,7 +157,7 @@ https://github.com/notlmn/browser-extension-template
 : guide for publishing on chrome store
 * [#C] [2020-02-21] [[https://lobste.rs/s/2bq29z/choosing_browser_write_extensions_for][Choosing a browser to write extensions for | Lobsters]]
 :PROPERTIES:
-:ID:       frslbstrssbqzchsngbrwsrwrngbrwsrtwrtxtnsnsfrlbstrs
+:ID:       slbstrssbqzchsngbrwsrwrtxngbrwsrtwrtxtnsnsfrlbstrs
 :END:
 : Thanks for the advice! I was actually inspired to go down this route by seeing the things you’ve been building. I think my interests are similar, but not quite the same.
 : There are two main extensions I want to build. First, a way to archive and mark up webpages. There is a Chrome extension called Weava that does something similar, but it’s SaaS and I doesn’t seem to have a convenient export format.
@@ -165,24 +165,24 @@ https://github.com/notlmn/browser-extension-template
 : I’m happy to get in touch and consider collaborating if you’re interested.
 * [#B] [2020-02-18] [[https://github.com/mozilla/web-ext][mozilla/web-ext: A command line tool to help build, run, and test web extensions]]
 :PROPERTIES:
-:ID:       tsgthbcmmzllwbxtmzllwbxtcntlthlpbldrnndtstwbxtnsns
+:ID:       sgthbcmmzllwbxtmzllwbxtcmntlthlpbldrnndtstwbxtnsns
 :END:
 : Hi! This tool is under active development. To get involved you can watch the repo, file issues, create pull requests, or ask a question on dev-addons
 * [#B] [2020-02-18] [[https://github.com/mozilla/web-ext/issues/804][Add `web-ext submit` to submit listed add-ons to AMO · Issue #804 · mozilla/web-ext]]
 :PROPERTIES:
-:ID:       tsgthbcmmzllwbxtsssddwbxttsbmtlstdddnstmssmzllwbxt
+:ID:       sgthbcmmzllwbxtsssddwbxtstsbmtlstdddnstmssmzllwbxt
 :END:
 : web-ext submit would submit to amo only. If you want the zip you can already use web-ext build
 * [#B] [2018-11-08] Shraymonks/flow-interfaces-chrome: Flow interface declarations for the Chrome extensions API :js:flow:
 :PROPERTIES:
-:ID:       thshrymnksflwntrfcschrmflrfcdclrtnsfrthchrmxtnsnsp
+:ID:       shrymnksflwntrfcschrmflwnrfcdclrtnsfrthchrmxtnsnsp
 :END:
 https://github.com/Shraymonks/flow-interfaces-chrome/
 : npm install --save-dev flow-interfaces-chrome
 
 * [#D] [2020-02-17] [[https://lea.verou.me/2012/07/introducing-prism-an-awesome-new-syntax-highlighter/#more-1841][Introducing Prism: An awesome new syntax highlighter | Lea Verou]]
 :PROPERTIES:
-:ID:       mnslvrmntrdcngprsmnwsmnwsrsmnwsmnwsyntxhghlghtrlvr
+:ID:       slvrmntrdcngprsmnwsmnwsynrsmnwsmnwsyntxhghlghtrlvr
 :END:
 
 * TODO chrome got far better profiling, better debugging information + screenshots :webext:
@@ -198,7 +198,7 @@ https://github.com/Shraymonks/flow-interfaces-chrome/
 https://developer.chrome.com/apps/manifest/version
 * [2020-04-05] [[https://github.com/roam-unofficial/roam-toolkit/blob/master/webpack.config.js][roam-toolkit/webpack.config.js at master · roam-unofficial/roam-toolkit]] :webext:
 :PROPERTIES:
-:ID:       snsgthbcmrmnffclrmtlktblbkcnfgjstmstrrmnffclrmtlkt
+:ID:       sgthbcmrmnffclrmtlktblbmskcnfgjstmstrrmnffclrmtlkt
 :END:
 : new webpack.DefinePlugin({
 : 			'NODE_ENV': JSON.stringify(nodeEnv),
@@ -209,7 +209,7 @@ https://developer.chrome.com/apps/manifest/version
 : hmm wonder if this is useful?
 * [2018-03-29] how webext works?
 :PROPERTIES:
-:ID:       thhwwbxtwrks
+:ID:       hwwbxtwrks
 :END:
 background runs all the time. communicate with extension via message passing. TODO runtime_handlers?
 content scripts have no access to background
@@ -222,11 +222,11 @@ make sure you return false at the end
 from content page, ~console.log~ goes to the page console, whereas from the rest to ~background.html~
 * TODO [#C] [2020-11-04] [[https://github.com/softvar/awesome-web-storage][softvar/awesome-web-storage: Everything you need to know about Client-side Storage.]] :webext:js:
 :PROPERTIES:
-:ID:       wdsgthbcmsftvrwsmwbstrgsfrythngyndtknwbtclntsdstrg
+:ID:       sgthbcmsftvrwsmwbstrgsftvrythngyndtknwbtclntsdstrg
 :END:
 * [#C] [2020-05-14] [[https://news.ycombinator.com/item?id=23168874][Let's guess what Google requires in 14 days or they kill our extension | Hacker News]] :webext:
 :PROPERTIES:
-:ID:       thsnwsycmbntrcmtmdltsgsswsndysrthykllrxtnsnhckrnws
+:ID:       snwsycmbntrcmtmdltsgsswhtsndysrthykllrxtnsnhckrnws
 :END:
 : In practice I was able to use native messaging to spawn the executable but to actually talk with it I needed to use a websocket, kind of defeating the point.
 
@@ -237,12 +237,12 @@ from content page, ~console.log~ goes to the page console, whereas from the rest
 :END:
 ** [2020-02-15] ok, first time you need to create manually; after that, get the id (it's public, so ok to put in a git repo) and use it with the build script
 :PROPERTIES:
-:ID:       stkfrsttmyndtcrtmnllyftrttptngtrpndstwththbldscrpt
+:ID:       kfrsttmyndtcrtmnllyftrthttptngtrpndstwththbldscrpt
 :END:
 
 ** [2020-05-17] listed vs unlisted
 :PROPERTIES:
-:ID:       snlstdvsnlstd
+:ID:       lstdvsnlstd
 :END:
 so according to this https://blog.mozilla.org/addons/2017/01/26/mixing-listed-and-unlisted-on-amo , you can have mixed self distributed/AMO with the same extension id, but not the same version
 so adding --unlisted is a reasonable way to beta test
@@ -257,27 +257,27 @@ https://addons.mozilla.org/en-US/developers/addons
 
 * [#C] [2020-05-24] [[https://developer.chrome.com/extensions/background_pages][Manage Events with Background Scripts - Google Chrome]]
 :PROPERTIES:
-:ID:       snsdvlprchrmcmxtnsnsbckgrtswthbckgrndscrptsgglchrm
+:ID:       sdvlprchrmcmxtnsnsbckgrndtswthbckgrndscrptsgglchrm
 :END:
 : The only occasion to keep a background script persistently active is if the extension uses chrome.webRequest API to block or modify network requests. The webRequest API is incompatible with non-persistent background pages.
 
 * [#C] [2020-05-13] [[https://news.ycombinator.com/item?id=23168874#23171176][Let's guess what Google requires in 14 days or they kill our extension | Hacker News]] :google:
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdltsgsswsndysrthykllrxtnsnhckrnws
+:ID:       snwsycmbntrcmtmdltsgsswhtsndysrthykllrxtnsnhckrnws
 :END:
 - [2020-05-13] [[https://news.ycombinator.com/item?id=23168874][Let's guess what Google requires in 14 days or they kill our extension | Hacker News]]
 * [#C] [2019-07-07] client/security.rst at 734e3a25318364819a8c38ef881e4788a2b06365 · hypothesis/client :webext:security:
 :PROPERTIES:
-:ID:       snclntscrtyrsttcfbhypthssclnt
+:ID:       clntscrtyrsttcfbhypthssclnt
 :END:
 https://github.com/hypothesis/client/blob/734e3a25318364819a8c38ef881e4788a2b06365/docs/developers/security.rst
 ** [2019-08-04] For example: in order to draw highlights, the annotated page needs to know the location of annotations, but it does not ever need to know the body text of an an annotation, and so it should not be possible to expose this over the messaging interface.
 :PROPERTIES:
-:ID:       snfrxmplnrdrtdrwhghlghtstsbltxpsthsvrthmssgngntrfc
+:ID:       frxmplnrdrtdrwhghlghtsthnsbltxpsthsvrthmssgngntrfc
 :END:
 * TODO [#B] [2020-11-09] [[https://addons.mozilla.org/en-GB/firefox/collections/4757633/webdeveloper/][Web Developer's Toolbox – Add-ons for Firefox (en-GB)]] :webext:
 :PROPERTIES:
-:ID:       mnsddnsmzllrgngbfrfxcllctwbdvlprstlbxddnsfrfrfxngb
+:ID:       sddnsmzllrgngbfrfxcllctnswbdvlprstlbxddnsfrfrfxngb
 :END:
 
 * [#B] android debugging
@@ -288,22 +288,22 @@ https://github.com/hypothesis/client/blob/734e3a25318364819a8c38ef881e4788a2b063
 ~web-ext run --target=firefox-android --android-device=XXXX~
 ** [2019-08-10] remote debugging; use =Shift-F8= to open web ide https://developer.mozilla.org/en-US/docs/Tools/Remote_Debugging/Debugging_Firefox_for_Android_with_WebIDE#Enable_remote_debugging_in_Firefox_for_Android
 :PROPERTIES:
-:ID:       strmtdbggngsshftftpnwbdsdbdnblrmtdbggngnfrfxfrndrd
+:ID:       rmtdbggngsshftftpnwbdsdvlbdnblrmtdbggngnfrfxfrndrd
 :END:
 
 
 * [#C] [2019-02-16] Creating a Chrome extension in 2018: The good, the bad and the meh | Checkly
 :PROPERTIES:
-:ID:       stcrtngchrmxtnsnnthgdthbdndthmhchckly
+:ID:       crtngchrmxtnsnnthgdthbdndthmhchckly
 :END:
 https://checklyhq.com/blog/2018/08/creating-a-chrome-extension-in-2018-the-good-the-bad-and-the-meh/
 ** [2019-08-10] basic intro with examples of testing and explaining the extensions architecture
 :PROPERTIES:
-:ID:       stbscntrwthxmplsftstngndxplnngthxtnsnsrchtctr
+:ID:       bscntrwthxmplsftstngndxplnngthxtnsnsrchtctr
 :END:
 ** TODO [#D] [2019-06-01] Creating a Chrome extension in 2018: The good, the bad and the meh :grasp:
 :PROPERTIES:
-:ID:       stcrtngchrmxtnsnnthgdthbdndthmh
+:ID:       crtngchrmxtnsnnthgdthbdndthmh
 :END:
 https://blog.checklyhq.com/creating-a-chrome-extension-in-2018-the-good-the-bad-and-the-meh/
 :  // boots a Chrome instance using Puppeteer and adds the extension we build in the earlier test
@@ -313,21 +313,21 @@ https://blog.checklyhq.com/creating-a-chrome-extension-in-2018-the-good-the-bad-
 
 * [#C] [2019-06-29] Using Firefox WebExtensions with Selenium
 :PROPERTIES:
-:ID:       stsngfrfxwbxtnsnswthslnm
+:ID:       sngfrfxwbxtnsnswthslnm
 :END:
 https://intoli.com/blog/firefox-extensions-with-selenium/
 nice, this guy contributed to selenium?
 
 * TODO [#C] [2019-06-29] Standard8/example-webextension: Example repository containing templates and good practices for creating a WebExtension for Firefox
 :PROPERTIES:
-:ID:       ststndrdxmplwbxtnsnxmplrprctcsfrcrtngwbxtnsnfrfrfx
+:ID:       stndrdxmplwbxtnsnxmplrpstrctcsfrcrtngwbxtnsnfrfrfx
 :END:
 https://github.com/Standard8/example-webextension/
 : Example repository containing templates and good practices for creating a WebExtension for Firefox
 
 * [#C] [2019-07-08] GUI and Headless Browser Testing - Travis CI         :ci:
 :PROPERTIES:
-:ID:       mngndhdlssbrwsrtstngtrvsc
+:ID:       gndhdlssbrwsrtstngtrvsc
 :END:
 https://docs.travis-ci.com/user/gui-and-headless-browsers/#using-the-chrome-addon-in-the-headless-mode
 : Using the Firefox addon in headless mode #
@@ -341,95 +341,95 @@ https://docs.travis-ci.com/user/gui-and-headless-browsers/#using-the-chrome-addo
 
 * [#C] [2019-06-12] Getting started with web-ext - Mozilla | MDN
 :PROPERTIES:
-:ID:       wdgttngstrtdwthwbxtmzllmdn
+:ID:       gttngstrtdwthwbxtmzllmdn
 :END:
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Getting_started_with_web-ext
 ** [2019-08-10] web-ext is a nice tool for signing, linting and even simple browser testing (e.g. web-ext run)
 :PROPERTIES:
-:ID:       stwbxtsnctlfrsgnnglntngndvnsmplbrwsrtstnggwbxtrn
+:ID:       wbxtsnctlfrsgnnglntngndvnsmplbrwsrtstnggwbxtrn
 :END:
 
 * [#C] [2019-06-12] Extensions in Firefox 66 | Mozilla Add-ons Blog
 :PROPERTIES:
-:ID:       wdxtnsnsnfrfxmzllddnsblg
+:ID:       xtnsnsnfrfxmzllddnsblg
 :END:
 https://blog.mozilla.org/addons/2019/02/15/extensions-in-firefox-66/
 : Firefox no longer emits a warning when the manifest property `background.persistent` is set to `true`.
 * [#C] [2019-06-12] commands.update() - Mozilla | MDN
 :PROPERTIES:
-:ID:       wdcmmndspdtmzllmdn
+:ID:       cmmndspdtmzllmdn
 :END:
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/update
 ** [#C] [2019-06-12] 1475043 - Allow commands.update() to un-set a shortcut, disabling the command
 :PROPERTIES:
-:ID:       wdllwcmmndspdttnstshrtctdsblngthcmmnd
+:ID:       llwcmmndspdttnstshrtctdsblngthcmmnd
 :END:
 https://bugzilla.mozilla.org/show_bug.cgi?id=1475043
 
 * [#C] [2019-06-12] Differences between desktop and Android extensions - Mozilla | MDN
 :PROPERTIES:
-:ID:       wddffrncsbtwndsktpndndrdxtnsnsmzllmdn
+:ID:       dffrncsbtwndsktpndndrdxtnsnsmzllmdn
 :END:
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Differences_between_desktop_and_Android
 
 * [#C] [2019-06-12] 1520119 - Support removing a shortcut in manage shortcuts
 :PROPERTIES:
-:ID:       wdspprtrmvngshrtctnmngshrtcts
+:ID:       spprtrmvngshrtctnmngshrtcts
 :END:
 https://bugzilla.mozilla.org/show_bug.cgi?id=1520119
 
 * [#C] [2019-06-12] Debugging Firefox for Android over WiFi - Firefox Developer Tools | MDN
 :PROPERTIES:
-:ID:       wddbggngfrfxfrndrdvrwffrfxdvlprtlsmdn
+:ID:       dbggngfrfxfrndrdvrwffrfxdvlprtlsmdn
 :END:
 https://developer.mozilla.org/en-US/docs/Tools/Remote_Debugging/Debugging_Firefox_for_Android_over_Wifi
 : The computer with desktop Firefox and your Android device must be connected to the same Wi-Fi network. Desktop Firefox cannot be using a wired connection that routes to the Wi-Fi network; both must truly be on Wi-Fi.
 * [#C] [2019-06-12] Developing extensions for Firefox for Android - Mozilla | MDN
 :PROPERTIES:
-:ID:       wddvlpngxtnsnsfrfrfxfrndrdmzllmdn
+:ID:       dvlpngxtnsnsfrfrfxfrndrdmzllmdn
 :END:
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Developing_WebExtensions_for_Firefox_for_Android#Install_and_run_your_extension_in_Firefox_for_Android
 ** [2019-08-10] need to open browser on android prior to running web-ext command!
 :PROPERTIES:
-:ID:       stndtpnbrwsrnndrdprrtrnnngwbxtcmmnd
+:ID:       ndtpnbrwsrnndrdprrtrnnngwbxtcmmnd
 :END:
 
 * [#C] [2019-06-12] Setting up an extension development environment - Archive of obsolete content | MDN
 :PROPERTIES:
-:ID:       wdsttngpnxtnsndvlpmntnvrnmntrchvfbsltcntntmdn
+:ID:       sttngpnxtnsndvlpmntnvrnmntrchvfbsltcntntmdn
 :END:
 https://developer.mozilla.org/en-US/docs/Archive/Add-ons/Setting_up_extension_development_environment
 * [#D] [2019-07-07] javascript - How to make side panel in chrome extension? - Stack Overflow
 :PROPERTIES:
-:ID:       snjvscrpthwtmksdpnlnchrmxtnsnstckvrflw
+:ID:       jvscrpthwtmksdpnlnchrmxtnsnstckvrflw
 :END:
 https://stackoverflow.com/questions/39610205/how-to-make-side-panel-in-chrome-extension
 
 * [#D] [2019-06-01] Extensionizr - boilerplate for your chrome extension
 :PROPERTIES:
-:ID:       stxtnsnzrblrpltfryrchrmxtnsn
+:ID:       xtnsnzrblrpltfryrchrmxtnsn
 :END:
 : http://extensionizr.com/!#{%22modules%22:[%22hidden-mode%22,%22with-bg%22,%22with-persistent-bg%22,%22no-options%22,%22no-override%22],%22boolean_perms%22:[],%22match_ptrns%22:[]}
 
 * [#D] [2019-06-01] Creating a history clearing Chrome extension | Jake Lee
 :PROPERTIES:
-:ID:       stcrtnghstryclrngchrmxtnsnjkl
+:ID:       crtnghstryclrngchrmxtnsnjkl
 :END:
 https://blog.jakelee.co.uk/creating-a-history-clearing-chrome-extension/
 ** [2019-08-10] pretty simple guide
 :PROPERTIES:
-:ID:       stprttysmplgd
+:ID:       prttysmplgd
 :END:
 
 * [#D] [2019-06-13] what is the state of add-on/extensions development for firefox? : firefox
 :PROPERTIES:
-:ID:       thwhtsthsttfddnxtnsnsdvlpmntfrfrfxfrfx
+:ID:       whtsthsttfddnxtnsnsdvlpmntfrfrfxfrfx
 :END:
 https://www.reddit.com/r/firefox/comments/886wms/what_is_the_state_of_addonextensions_development/
 :  I think you're supposed to call "browser.*" and I would not be surprised if calling "chrome.*" gets deprecated on the long term)
 * [2020-12-07] Webext special commands                               :webext:
 :PROPERTIES:
-:ID:       mnwbxtspclcmmnds
+:ID:       wbxtspclcmmnds
 :END:
 _execute_browser_action: works like a click on the extension's browser action.
 _execute_page_action: works like a click on the extension's page action.
@@ -437,50 +437,50 @@ _execute_sidebar_action: opens the extension's sidebar. Only supported in Firefo
 
 * [2020-11-09] [[https://app.element.io/#/room/#malleable-systems:matrix.org][Element | Malleable Systems Collective]]
 :PROPERTIES:
-:ID:       mnspplmntrmmllblsystmsmtrxrglmntmllblsystmscllctv
+:ID:       spplmntrmmllblsystmsmtrxrglmntmllblsystmscllctv
 :END:
 : Ohh thanks! I thought the 'browser console' was just a log at first, apparently you have to enable devtools.chrome.enabled in about:config first for the terminal to show up!
 * TODO [#C] [2019-09-22] javascript - Chrome extension - page update twice then removed on YouTube - Stack Overflow :promnesia:
 :PROPERTIES:
-:ID:       snjvscrptchrmxtnsnpgpdttwcthnrmvdnytbstckvrflw
+:ID:       jvscrptchrmxtnsnpgpdttwcthnrmvdnytbstckvrflw
 :END:
 https://stackoverflow.com/questions/36808309/chrome-extension-page-update-twice-then-removed-on-youtube/36818991#36818991
 
 * [2020-05-05] [[https://github.com/geoffreylitt/wildcard/blob/master/chrome-autoreload.js][wildcard/chrome-autoreload.js at master · geoffreylitt/wildcard]] :webext:
 :PROPERTIES:
-:ID:       tsgthbcmgffrylttwldcrdblbtrldjstmstrgffrylttwldcrd
+:ID:       sgthbcmgffrylttwldcrdblbmtrldjstmstrgffrylttwldcrd
 :END:
 * [#C] [2019-12-09] Request the right permissions | Extension Workshop
 :PROPERTIES:
-:ID:       mnrqstthrghtprmssnsxtnsnwrkshp
+:ID:       rqstthrghtprmssnsxtnsnwrkshp
 :END:
 https://extensionworkshop.com/documentation/develop/request-the-right-permissions/#Request_permissions_at_runtime
 : A good example of this approach is Gesturefy, which offers users the following advice:
 * [#C] [2020-07-28] Mozilla Add-ons Blog
 :PROPERTIES:
-:ID:       tmzllddnsblg
+:ID:       mzllddnsblg
 :END:
 https://blog.mozilla.org/addons/
 
 * [2020-05-05] [[https://github.com/mozilla/web-ext/pull/1784][feat: Added option to `--watch-file` to address eager reloading by jezhou · Pull Request #1784 · mozilla/web-ext]]
 :PROPERTIES:
-:ID:       tsgthbcmmzllwbxtpllftdddprldngbyjzhpllrqstmzllwbxt
+:ID:       sgthbcmmzllwbxtpllftdddptrldngbyjzhpllrqstmzllwbxt
 :END:
 
 * [#C] [2020-05-24] [[https://gist.github.com/jjperezaguinaga/4243341][Understanding Google Chrome Extensions]]
 :PROPERTIES:
-:ID:       snsgstgthbcmjjprzgngndrstndnggglchrmxtnsns
+:ID:       sgstgthbcmjjprzgngndrstndnggglchrmxtnsns
 :END:
 
 * DONE [#C] [2019-08-29] Implement a settings page - Mozilla | MDN   :webext:
 :PROPERTIES:
-:ID:       thmplmntsttngspgmzllmdn
+:ID:       mplmntsttngspgmzllmdn
 :END:
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page
 : You can also open this page programmatically using the runtime.openOptionsPage() function.
 * [2019-04-21] When to use margin vs padding in CSS - Stack Overflow    :css:
 :PROPERTIES:
-:ID:       snwhntsmrgnvspddngncssstckvrflw
+:ID:       whntsmrgnvspddngncssstckvrflw
 :END:
 https://stackoverflow.com/questions/2189452/when-to-use-margin-vs-padding-in-css
 : To me, the biggest difference between padding and margin is that vertical margins auto-collapse, and padding doesn't.
@@ -490,11 +490,11 @@ https://stackoverflow.com/questions/2189452/when-to-use-margin-vs-padding-in-css
 :END:
 *** [2019-10-27] mnemonic is alphabetic order? dunno.
 :PROPERTIES:
-:ID:       snmnmncslphbtcrdrdnn
+:ID:       mnmncslphbtcrdrdnn
 :END:
 ** TODO [2019-05-13] this is also a good example for drill             :blog:
 :PROPERTIES:
-:ID:       mnthsslsgdxmplfrdrll
+:ID:       thsslsgdxmplfrdrll
 :END:
 * DONE [#B] js library for chrome settings, too annoying to bind them manually.. :promnesia:grasp:
 :PROPERTIES:
@@ -503,18 +503,18 @@ https://stackoverflow.com/questions/2189452/when-to-use-margin-vs-padding-in-css
 :END:
 ** [2019-08-24] found something the other day; must be in links
 :PROPERTIES:
-:ID:       stfndsmthngththrdymstbnlnks
+:ID:       fndsmthngththrdymstbnlnks
 :END:
 * [2019-11-19] [Question] How to set cors headers? · Issue #308 · http-party/http-server :cors:
 :PROPERTIES:
-:ID:       tqstnhwtstcrshdrsssprtysrvr
+:ID:       qstnhwtstcrshdrsssprtysrvr
 :END:
 https://github.com/http-party/http-server/issues/308
 fucking hell, why is that shit so hard???
 
 * [2019-11-18] python - Enable access control on simple HTTP server - Stack Overflow :cors:
 :PROPERTIES:
-:ID:       mnpythnnblccsscntrlnsmplsrvrstckvrflw
+:ID:       pythnnblccsscntrlnsmplsrvrstckvrflw
 :END:
 https://stackoverflow.com/questions/21956683/enable-access-control-on-simple-http-server
 : @HairOfTheDog The SimpleHTTPRequestHandler doesn’t support the OPTIONS HTTP method. You could add it if you want (read the Python manual about HTTP servers); or you could just not try to access the server like that.
@@ -525,12 +525,12 @@ https://stackoverflow.com/questions/21956683/enable-access-control-on-simple-htt
 :END:
 * [2019-06-13] fuck. looks like firefox doesn't allow persistent dev extensions, that really sucks. and unbranded version doesn't have PPA? wtf? how are developers supposed to test their stuff :firefox:
 :PROPERTIES:
-:ID:       thfcklkslkfrfxdsntllwprsshwrdvlprssppsdttstthrstff
+:ID:       fcklkslkfrfxdsntllwprsstnhwrdvlprssppsdttstthrstff
 :END:
 
 * [2019-08-31] uBlock/manifest.json at 6c34b3c3c96756b6db7ff2f3a0394472d81cde3e · gorhill/uBlock
 :PROPERTIES:
-:ID:       stblckmnfstjsntcbccbdbfffdcdgrhllblck
+:ID:       blckmnfstjsntcbccbdbfffdcdgrhllblck
 :END:
 https://github.com/gorhill/uBlock/blob/6c34b3c3c96756b6db7ff2f3a0394472d81cde3e/platform/webext/manifest.json
 : "options_ui": {
@@ -539,7 +539,7 @@ https://github.com/gorhill/uBlock/blob/6c34b3c3c96756b6db7ff2f3a0394472d81cde3e/
 :   },
 * DONE [2019-09-01] keepassxc-browser/manifest.json at develop · keepassxreboot/keepassxc-browser :webext:
 :PROPERTIES:
-:ID:       snkpssxcbrwsrmnfstjsntdvlpkpssxrbtkpssxcbrwsr
+:ID:       kpssxcbrwsrmnfstjsntdvlpkpssxrbtkpssxcbrwsr
 :END:
 https://github.com/keepassxreboot/keepassxc-browser/blob/develop/keepassxc-browser/manifest.json
 :     "options_ui": {

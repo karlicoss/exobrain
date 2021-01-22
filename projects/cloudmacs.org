@@ -97,7 +97,7 @@ compose file doesn't declare services https://github.com/hyeonsangjeon/gotty-doc
 : Only keyboard, which is not a limitation for me though.
 ** [2019-09-10] and while vim navigation is doable, TODO links to the package
 :PROPERTIES:
-:ID:       tndwhlvmnvgtnsdbltdlnkstthpckg
+:ID:       ndwhlvmnvgtnsdbltdlnkstthpckg
 :END:
 it's hard to reinvent all the amazing emacs packages and features I'm used to: nerdtree, helm, refile, swoop, agenda, org-drill etc.
 not that elisp is superiour to JS, but reimplementing everything is going to be extremely hard
@@ -119,22 +119,22 @@ Think about mobile though
 :END:
 ** [2019-11-26] Cloudmacs: access your Emacs in browser | Hacker News  https://news.ycombinator.com/item?id=21633149#21635348
 :PROPERTIES:
-:ID:       tcldmcsccssyrmcsnbrwsrhckrnwssnwsycmbntrcmtmd
+:ID:       cldmcsccssyrmcsnbrwsrhckrnwssnwsycmbntrcmtmd
 :END:
 : Although a section explaining how to build container that runs as non-root user in the first place (even though it requires modifying Dockerfile, I think) would be useful, so I'll add it, thanks!
 ** [2019-11-26] Cloudmacs: access your Emacs in browser | Hacker News  https://news.ycombinator.com/item?id=21633149#21635348
 :PROPERTIES:
-:ID:       tcldmcsccssyrmcsnbrwsrhckrnwssnwsycmbntrcmtmd
+:ID:       cldmcsccssyrmcsnbrwsrhckrnwssnwsycmbntrcmtmd
 :END:
 : suppose the GUI analog to gotty is Apache Guacamole, which should run emacs fine (along with most anything else).
 ** [2019-11-26] Cloudmacs: access your Emacs in browser | Hacker News https://news.ycombinator.com/item?id=21633149#21635495
 :PROPERTIES:
-:ID:       tcldmcsccssyrmcsnbrwsrhckrnwssnwsycmbntrcmtmd
+:ID:       cldmcsccssyrmcsnbrwsrhckrnwssnwsycmbntrcmtmd
 :END:
 : However you got me thinking: do you know any emacsclient implementations that run purely in browser? Presumably that would be not that hard to implement and will make more sense.
 * [#D] [2019-10-27] [karlicoss/cloudmacs] Emacs without X (#2) - karlicoss@gmail.com - Gmail
 :PROPERTIES:
-:ID:       snkrlcsscldmcsmcswthtxkrlcssgmlcmgml
+:ID:       krlcsscldmcsmcswthtxkrlcssgmlcmgml
 :END:
 : Noticed one of your todos suggested building emacs without GUI as a way to reduce the docker layer.
 : Below are the instructions on how to configure and build emacs from source without images and X features

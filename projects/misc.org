@@ -9,7 +9,7 @@ related #exports #hpi:
 ~J. Doe~ (Joe Doe? Jane Doe?) is a made up person with a narrative to showcase different quantifiedself/memex tools
 ** TODO [2021-01-22] have some info on ideas page
 :PROPERTIES:
-:ID:       frhvsmnfndspg
+:ID:       hvsmnfndspg
 :END:
 
 ** TODO [#C] ask where to get sample API data?                         :jdoe:
@@ -30,7 +30,7 @@ ugh, still might leak some private data...
 : jq 'walk(if type == "object" then del(.profile, .account, .groups) else . end)' pocket_20190923T210004Z.json
 ** [#C] [2020-04-04] jackreid.xyz/pocket.json at master · JackWReid/jackreid.xyz :jdoe:
 :PROPERTIES:
-:ID:       stjckrdxyzpcktjsntmstrjckwrdjckrdxyz
+:ID:       jckrdxyzpcktjsntmstrjckwrdjckrdxyz
 :END:
 https://github.com/JackWReid/jackreid.xyz/blob/master/data/pocket.json
 hmm nice pretty extensive pocket export
@@ -52,7 +52,7 @@ https://beepb00p.xyz/kython.html
 - State "STRT"      from "TODO"       [2019-04-03]
 *** [2019-10-27] but need something more finetuned? like for DELETED reddit posts...
 :PROPERTIES:
-:ID:       snbtndsmthngmrfntndlkfrdltdrddtpsts
+:ID:       btndsmthngmrfntndlkfrdltdrddtpsts
 :END:
 ** TODO [#D] get rid of remianing JsonState methods.. I think it's only spotisync? :kython:
 :PROPERTIES:
@@ -69,7 +69,7 @@ started tsomething in kython.datetime module
 
 *** TODO [2018-12-30] recurrent in workouts ??
 :PROPERTIES:
-:ID:       snrcrrntnwrkts
+:ID:       rcrrntnwrkts
 :END:
 *** TODO maybe, blog or do some sort of benchmark??
 :PROPERTIES:
@@ -92,7 +92,7 @@ ok capable of kindle dates kida like Wednesday, November 22, 2017 9:11:56 PM
 couldn't handle insta photo...
 **** [2019-02-16] ok, handled hypothesis!
 :PROPERTIES:
-:ID:       stkhndldhypthss
+:ID:       khndldhypthss
 :END:
 
 *** https://github.com/bear/parsedatetime ??
@@ -131,13 +131,13 @@ couldn't handle insta photo...
 :END:
 **** [2019-01-13] hm, maybe I want to contribute to their dateparser rather than using my own?
 :PROPERTIES:
-:ID:       snhmmybwnttcntrbttthrdtprsrrthrthnsngmywn
+:ID:       hmmybwnttcntrbttthrdtprsrrthrthnsngmywn
 :END:
 
 
 ** STRT [#B] [2020-01-13] functools — Higher-order functions and operations on callable objects — Python 3.8.1 documentation :kython:
 :PROPERTIES:
-:ID:       mnfnctlshghrrdrfnctnsndprnsncllblbjctspythndcmnttn
+:ID:       fnctlshghrrdrfnctnsndprtnsncllblbjctspythndcmnttn
 :END:
 https://docs.python.org/3.8/library/functools.html
 : @functools.cached_property(func)¶
@@ -209,7 +209,7 @@ access from other tools
 :     #     return
 ** [#D] [2020-05-07] [[https://github.com/karlicoss/kobuddy/issues/6][Any way to filter out Pocket articles? · Issue #6 · karlicoss/kobuddy]] :kobuddy:
 :PROPERTIES:
-:ID:       thsgthbcmkrlcsskbddysssnytrtpcktrtclssskrlcsskbddy
+:ID:       sgthbcmkrlcsskbddysssnywytrtpcktrtclssskrlcsskbddy
 :END:
 : Kobo H2O Libra
 ** TODO [#D] might be useful for calibre??
@@ -219,7 +219,7 @@ access from other tools
 :END:
 ** TODO [#C] [2019-11-07] my/kobo.py at master · karlicoss/my           :hpi:
 :PROPERTIES:
-:ID:       thmykbpytmstrkrlcssmy
+:ID:       mykbpytmstrkrlcssmy
 :END:
 https://github.com/karlicoss/my/blob/master/my/books/kobo.py
 : from my_configuration import paths
@@ -240,7 +240,7 @@ not sure, do we want this instead?
 
 ** [#C] [2019-05-19] https://github.com/search?q=kobo+ExtraData&type=Code -- no result, which kinda means no one did it :kobo:
 :PROPERTIES:
-:ID:       snsgthbcmsrchqkbxtrdttypcdnrsltwhchkndmnsnnddt
+:ID:       sgthbcmsrchqkbxtrdttypcdnrsltwhchkndmnsnnddt
 :END:
 same for LastOccurrence
 * [#C] * workout ledger                                             :wledger:
@@ -326,7 +326,7 @@ my #twitter exporter
 :END:
 * TODO [#C] [2020-03-19] karlicoss/sufs: Merge multiple directories into one via symlinks
 :PROPERTIES:
-:ID:       thkrlcsssfsmrgmltpldrctrsntnvsymlnks
+:ID:       krlcsssfsmrgmltpldrctrsntnvsymlnks
 :END:
 https://github.com/karlicoss/sufs
 : sufs is a tool for 'merging' multiple directories into one via symlinks.
@@ -339,7 +339,7 @@ add example?
 :END:
 ** [2019-01-31] eh?
 :PROPERTIES:
-:ID:       thh
+:ID:       h
 :END:
 * TODO [#C] might be better to check against mpd?? It updates the database in background... :spotisync:
 :PROPERTIES:
@@ -353,13 +353,13 @@ add example?
 :END:
 * [#D] [2019-11-10] tantivy::tokenizer - Rust                     :scrapyroo:
 :PROPERTIES:
-:ID:       sntntvytknzrrst
+:ID:       tntvytknzrrst
 :END:
 https://tantivy-search.github.io/tantivy/tantivy/tokenizer/index.html
 : In addition to what default does, the en_stem tokenizer also apply stemming to your tokens. Stemming consists in trimming words to remove their inflection. This tokenizer is slower than the default one, but is recommended to improve recall.
 ** TODO [2019-11-10] demonstrate different tokenizers?
 :PROPERTIES:
-:ID:       sndmnstrtdffrnttknzrs
+:ID:       dmnstrtdffrnttknzrs
 :END:
 * TODO [#D] name my package pyrog?                                      :org:
 :PROPERTIES:
@@ -403,11 +403,11 @@ Update description
 :END:
 ** TODO [2018-12-05] whooops... not really!h
 :PROPERTIES:
-:ID:       wdwhpsntrllyh
+:ID:       whpsntrllyh
 :END:
 ** [2019-09-02] huh, ignoring could be implemented via special playlist...
 :PROPERTIES:
-:ID:       mnhhgnrngcldbmplmntdvspclplylst
+:ID:       hhgnrngcldbmplmntdvspclplylst
 :END:
 * TODO [#D] list all cool things I tried and learned          :python:hikkup:
 :PROPERTIES:

@@ -4,7 +4,7 @@
 
 * [#C] [2016-08-07] .
 :PROPERTIES:
-:ID:       sn
+:ID:       40_123
 :END:
 ihaskell install
 jupyter console --kernel haskell
@@ -97,7 +97,7 @@ https://twitter.com/ChShersh/status/1002393643288686592
 
 * DONE [#C] [2018-10-23] krispo/awesome-haskell: A collection of awesome Haskell links, frameworks, libraries and software. Inspired by awesome projects line. :haskell:
 :PROPERTIES:
-:ID:       tkrspwsmhskllcllctnfwsmhsndsftwrnsprdbywsmprjctsln
+:ID:       krspwsmhskllcllctnfwsmhskndsftwrnsprdbywsmprjctsln
 :END:
 - State "DONE"       from              [2019-04-22]
 https://github.com/krispo/awesome-haskell 
@@ -105,24 +105,24 @@ https://github.com/krispo/awesome-haskell
 
 * [#B] [2018-11-24] debug: what I learnt during setting app hakyll blog..
 :PROPERTIES:
-:ID:       stdbgwhtlrntdrngsttngpphkyllblg
+:ID:       dbgwhtlrntdrngsttngpphkyllblg
 :END:
 - stack ghci
 - Debug.Trace.traceShowM within do block
 - pandoc --metadata
 * [#C] [2019-01-06] Resilient-Haskell-Software - Gwern.net          :haskell:
 :PROPERTIES:
-:ID:       snrslnthskllsftwrgwrnnt
+:ID:       rslnthskllsftwrgwrnnt
 :END:
 https://www.gwern.net/Resilient-Haskell-Software
 * [2019-02-11] Stackage Server https://www.stackage.org/
 :PROPERTIES:
-:ID:       mnstckgsrvrswwwstckgrg
+:ID:       stckgsrvrswwwstckgrg
 :END:
 
 * [2019-04-14] debugging ghci
 :PROPERTIES:
-:ID:       sndbggngghc
+:ID:       dbggngghc
 :END:
 : stack ghci (module loaded automatically)
 : :set args rebuild
@@ -130,7 +130,7 @@ https://www.gwern.net/Resilient-Haskell-Software
 : :break 222
 * [#B] [2019-01-05] debug: stack trace
 :PROPERTIES:
-:ID:       stdbgstcktrc
+:ID:       dbgstcktrc
 :END:
 : stack build --profile
 : stack exec -- site rebuild +RTS -xc 

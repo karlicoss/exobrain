@@ -59,16 +59,16 @@ ah, I need https://github.com/forslund/spotify-skill/tree/07cb663ec317f6b409e23b
 :END:
 *** [2019-06-25] need audio confirmation for started timer...
 :PROPERTIES:
-:ID:       tnddcnfrmtnfrstrtdtmr
+:ID:       nddcnfrmtnfrstrtdtmr
 :END:
 ** TODO [#D] [2019-06-25] start using it for timers?
 :PROPERTIES:
-:ID:       tstrtsngtfrtmrs
+:ID:       strtsngtfrtmrs
 :END:
 
 * [#B] [2020-03-14] Ask HN: Non-cloud voice recognition for home use? | Hacker News
 :PROPERTIES:
-:ID:       stskhnnncldvcrcgntnfrhmshckrnws
+:ID:       skhnnncldvcrcgntnfrhmshckrnws
 :END:
 https://news.ycombinator.com/item?id=22576589
 * TODO [#C] Mycroft, Sirius, Jasper, Jarvis, Betty, etc.
@@ -120,23 +120,23 @@ sphinx kinda works after specifying language... but doesn't look very precise?
 
 * [#C] [2018-06-10] Home Assistant
 :PROPERTIES:
-:ID:       snhmssstnt
+:ID:       hmssstnt
 :END:
 https://www.home-assistant.io/
 raspberry pi?
 
 * [2019-03-19] leon-ai/leon: 🧠 Leon is your open-source personal assistant. https://github.com/leon-ai/leon
 :PROPERTIES:
-:ID:       tlnlnlnsyrpnsrcprsnlssstntsgthbcmlnln
+:ID:       lnlnlnsyrpnsrcprsnlssstntsgthbcmlnln
 :END:
 ** [2019-04-08] eh. unclear how is it better than other assistants https://blog.getleon.ai/the-story-behind-leon/
 :PROPERTIES:
-:ID:       mnhnclrhwstbttrthnthrssstntssblggtlnthstrybhndln
+:ID:       hnclrhwstbttrthnthrssstntssblggtlnthstrybhndln
 :END:
 
 * [2018-12-24] [[https://reddit.com/r/selfhosted/comments/a70c95/best_of_open_source_smart_home_home_assistant_vs/][Best of open source smart home: Home Assistant vs OpenHAB]] /r/selfhosted
 :PROPERTIES:
-:ID:       mnsrddtcmrslfhstdcmmntscbthmhmssstntvspnhbrslfhstd
+:ID:       srddtcmrslfhstdcmmntscbstthmhmssstntvspnhbrslfhstd
 :END:
 
 * Mycroft AI                                                        :mycroft:
@@ -145,18 +145,18 @@ raspberry pi?
 :END:
 ** TODO [#C] [2019-06-13] Mycroft Project: Search Engine Plugins - Firefox IE Chrome https://mycroftproject.com/ :search:
 :PROPERTIES:
-:ID:       thmycrftprjctsrchngnplgnsfrfxchrmsmycrftprjctcm
+:ID:       mycrftprjctsrchngnplgnsfrfxchrmsmycrftprjctcm
 :END:
 
 ** [2019-06-25] Things I've learned and things I still don't know after a couple of days with Mycroft - Mycroft Project - Mycroft Community Forum
 :PROPERTIES:
-:ID:       tthngsvlrndndthngsstlldntycrftprjctmycrftcmmntyfrm
+:ID:       thngsvlrndndthngsstlldntkycrftprjctmycrftcmmntyfrm
 :END:
 https://community.mycroft.ai/t/things-ive-learned-and-things-i-still-dont-know-after-a-couple-of-days-with-mycroft/5053
 
 ** [#C] [2019-05-04] [[https://reddit.com/r/IAmA/comments/9uzpux/i_am_the_founder_and_ceo_of_mycroft_ai_the/e98ssgu/][I am the Founder and CEO of Mycroft AI the privacy focused, open source, AI voice assistant. AMA!]] /r/IAmA
 :PROPERTIES:
-:ID:       stsrddtcmrmcmmntszpxmthfnprvcyfcsdpnsrcvcssstntmrm
+:ID:       srddtcmrmcmmntszpxmthfndrprvcyfcsdpnsrcvcssstntmrm
 :END:
 : As the Software Architect of the backend code, I can tell you that we do plan to make that code public.  We are in the middle of an architecture change right now.  After all the backend code is using the new architecture, we will make the change.
 ** TODO [#C] eh, mycroft consuming 40% cpu ??
@@ -173,12 +173,12 @@ https://community.mycroft.ai/t/things-ive-learned-and-things-i-still-dont-know-a
 
 ** TODO [#C] [2019-06-25] voice.mycroft.ai - Mycroft https://mycroft.ai/voice-mycroft-ai
 :PROPERTIES:
-:ID:       tvcmycrftmycrftsmycrftvcmycrft
+:ID:       vcmycrftmycrftsmycrftvcmycrft
 :END:
 
 ** [2020-03-28] Home assistant + Mycroft
 :PROPERTIES:
-:ID:       sthmssstntmycrft
+:ID:       hmssstntmycrft
 :END:
 : Home assistant is a home automation tool, not a voice assistant. You can even hook up Mycroft to Home Assistant.
 
@@ -188,17 +188,17 @@ https://community.mycroft.ai/t/things-ive-learned-and-things-i-still-dont-know-a
 :END:
 * STRT [#D] [2019-09-22] DongjunLee/kino-bot: Personal Assistant Based on Slack Bot for Myself :passistant:
 :PROPERTIES:
-:ID:       sndngjnlknbtprsnlssstntbsdnslckbtfrmyslf
+:ID:       dngjnlknbtprsnlssstntbsdnslckbtfrmyslf
 :END:
 https://github.com/DongjunLee/kino-bot
 
 * STRT [#D] [2019-09-25] Некстджен и Усиление on Twitter: "За один вечер - USB-чарджер, наушники, очки и кольцо с Alexa. Неплохо, осталось носки и баттплаг с ней соорудить, чтобы Алекса точно 24 часа в сутки могла слушать, как кряхтит всё мясо планеты - может, однажды ответит и на этот невербализованный вопрос. https://t.co/4TIOO35G3e" / Twitter :passistant:
 :PROPERTIES:
-:ID:       wdнекстджениусилениеntwttизованныйвопросstctgtwttr
+:ID:       некстджениусилениеntwttrзизованныйвопросstctgtwttr
 :END:
 https://twitter.com/turbojedi/status/1176960914639269890
 : а один вечер - USB-чарджер, наушники, очки и кольцо с Alexa.
 ** [2020-05-14] only invitation for now
 :PROPERTIES:
-:ID:       thnlynvttnfrnw
+:ID:       nlynvttnfrnw
 :END:

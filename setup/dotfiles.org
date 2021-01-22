@@ -157,7 +157,7 @@ https://jqplay.org/ is also quite convenient
 
 * DONE [2018-06-20] configs which are not symlinking -- have a script which checks them against reference every few hours and complains if config doesn't match the reference?
 :PROPERTIES:
-:ID:       wdcnfgswhchrntsymlnknghvsmplnsfcnfgdsntmtchthrfrnc
+:ID:       cnfgswhchrntsymlnknghvscrmplnsfcnfgdsntmtchthrfrnc
 :END:
 I guess it would belong to configuration repository
 
@@ -168,12 +168,12 @@ I guess it would belong to configuration repository
 :END:
 * [#D] [2019-06-01] motivation for core.worktree         :git:setup:dotfiles:
 :PROPERTIES:
-:ID:       stmtvtnfrcrwrktr
+:ID:       mtvtnfrcrwrktr
 :END:
 can't use bare repository since they don't have index
 we don't want to use working directory since it's just confusing
 solution is git config core.worktree $HOME
 * [#C] [2020-07-12] [[https://news.opensuse.org/2020/03/27/Manage-dotfiles-with-Git/][Manage your dotfiles with Git - openSUSE News]] :git:
 :PROPERTIES:
-:ID:       snsnwspnssrgmngdtflswthgtmngyrdtflswthgtpnssnws
+:ID:       snwspnssrgmngdtflswthgtmngyrdtflswthgtpnssnws
 :END:

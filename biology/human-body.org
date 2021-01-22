@@ -9,12 +9,12 @@
 
 * [#B] [2018-07-08] In novice strength trainers, the muscle's ability to generate force is most strongly limited by nerve’s ability to sustain a high-frequency signal
 :PROPERTIES:
-:ID:       snnnvcstrngthtrnrsthmsclsrvsbltytsstnhghfrqncysgnl
+:ID:       nnvcstrngthtrnrsthmsclsblrvsbltytsstnhghfrqncysgnl
 :END:
 
 * [2018-07-01] nervous system
 :PROPERTIES:
-:ID:       snnrvssystm
+:ID:       nrvssystm
 :END:
 ANS
 - sympathetic -- short term survival (githg or flight) response
@@ -23,11 +23,11 @@ ANS
 
 * [2018-07-21] Leptin inhibits hunger. in obesity, decreased sensitive to leptin occurs so you're unable to detect hunger [wiki]
 :PROPERTIES:
-:ID:       stlptnnhbtshngrnbstydcrsdlptnccrssyrnbltdtcthngrwk
+:ID:       lptnnhbtshngrnbstydcrsdsnlptnccrssyrnbltdtcthngrwk
 :END:
 * [2018-07-18] TLDR: serotonin and dopamine are just transmitters and have MANY functions
 :PROPERTIES:
-:ID:       wdtldrsrtnnnddpmnrjsttrnsmttrsndhvmnyfnctns
+:ID:       tldrsrtnnnddpmnrjsttrnsmttrsndhvmnyfnctns
 :END:
 : Some neurotransmitters almost always do one thing: GABA is almost always an inhibitor of some kind, kind of like how a green wire is almost always a ground. Glutamate is always an excitatory neurotransmitter, kind of like black wires are almost always the "hot" wire in home electrical wiring.
 : dopamine is more like a purple wire. used for various purposes. Saying dopamine is a reward neurotransmitter is like saying purple wires are for right-rear car speakers.
@@ -55,14 +55,14 @@ https://www.reddit.com/r/explainlikeimfive/comments/251kby/eli5_the_difference_b
 
 * [2017-07-27] blood types
 :PROPERTIES:
-:ID:       thbldtyps
+:ID:       bldtyps
 :END:
 : Apes and old-world monkeys have ABO blood types like us.
 : Other animals have blood types, but not the same ones as us. There are thirteen different dog blood types, but cats are categorised as A, B, or AB. Not the same as human A and B.
 
 * [2018-08-17] http://biology.stackexchange.com/questions/324/why-did-the-process-of-sleep-evolve-in-many-animals-what-is-its-evolutionary-ad
 :PROPERTIES:
-:ID:       frblgystckxchngcmqstnswhypvlvnmnynmlswhtstsvltnryd
+:ID:       blgystckxchngcmqstnswhyddpvlvnmnynmlswhtstsvltnryd
 :END:
 :  sleep is a state required for nervous system plasticity. In other words, in order for the nervous system to grow and change, there must be down time of active behavior.
 
@@ -76,7 +76,7 @@ resynthesis of brain glycogen
 implications: women might not be as sad as you think; men might be sad without you realizing
 * [2017-04-18] Cold shower burns fat? https://www.reddit.com/r/todayilearned/comments/1efdzs/til_taking_cold_showers_can_help_you_lose_weight/ :humanbody:
 :PROPERTIES:
-:ID:       tcldshwrbrnsftswwwrddtcmrltkngcldshwrscnhlpylswght
+:ID:       cldshwrbrnsftswwwrddtcmrtltkngcldshwrscnhlpylswght
 :END:
 : The time you spent sitting in a cold shower will not burn as much energy as high-intensity physical activity performed for the same length of time.
 : TL:DR: Yes, it works. But it's extremely inefficient and your time is better spent on high-intensity physical activity if fat-loss is your goal. /r/fitness and /r/loseit are your friends.
@@ -85,17 +85,17 @@ right, only brown adipose tissue produces heat (it contains many more mitochondr
 But there isn't that much of it really. reserves are stored in white adipose tissue
 * [2015-03-05] How morning after pills work?
 :PROPERTIES:
-:ID:       thhwmrnngftrpllswrk
+:ID:       hwmrnngftrpllswrk
 :END:
 Progestin? Birth control pills
 
 * [2015-03-05] http://biology.stackexchange.com/a/2740/14563 Do men have significant hormonal cycles? :humanbody:
 :PROPERTIES:
-:ID:       thblgystckxchngcmdmnhvsgnfcnthrmnlcycls
+:ID:       blgystckxchngcmdmnhvsgnfcnthrmnlcycls
 :END:
 * [2018-04-11] Why we have hangovers?                               :alcohol:
 :PROPERTIES:
-:ID:       wdwhywhvhngvrs
+:ID:       whywhvhngvrs
 :END:
 ** acetaldehyde
 :PROPERTIES:
@@ -120,7 +120,7 @@ Progestin? Birth control pills
 : So there are factors that aren't even identified exactly, and these could fit the mixing of drinks observation.
 * [2015-06-19] impact of radiation                                :humanbody:
 :PROPERTIES:
-:ID:       frmpctfrdtn
+:ID:       mpctfrdtn
 :END:
 Gamma rays excite electrons and eject them from the atom, causing ionization
 Ionization breaks chemical bonds, and produces new.
@@ -143,16 +143,16 @@ Least sensitive: Nervous system
 This also means that a developing embryo is most sensitive to radiation during the early stages of differentiation, and an embryo/fetus is more sensitive to radiation exposure in the first trimester than in later trimesters
 * [2018-07-02] Fat soluble vitamins are stockpiled in the body in fatty tissue and the liver :metabolism:
 :PROPERTIES:
-:ID:       mnftslblvtmnsrstckpldnthbdynfttytssndthlvr
+:ID:       ftslblvtmnsrstckpldnthbdynfttytssndthlvr
 :END:
 * [2018-09-04] [[https://reddit.com/r/askscience/comments/pbm4z/what_happens_to_veins_when_an_arm_or_leg_gets/c3o3a5b/][What happens to veins when an arm or leg gets amputated? (x-post from AskReddit)]] /r/askscience :humanbody:
 :PROPERTIES:
-:ID:       tsrddtcmrskscnccmmntspbmzmpttdxpstfrmskrddtrskscnc
+:ID:       srddtcmrskscnccmmntspbmzwmpttdxpstfrmskrddtrskscnc
 :END:
 : The blood in your arteries enters capillaries(about the diameter of one red blood cell). The blood leaves the capillaries and is absorbed into venules that carry the blood into veins back to your heart. Think of it as a highway system. Your vein is the highway and the venules are the 'on ramps'. After surgery the vein is simply cut off and shut after the point of amputation. This doesn't stop the vein from collecting blood through the venules closer than your forearm.
 * [2018-09-04] [[https://reddit.com/r/askscience/comments/1dw81v/when_a_human_limb_is_amputated_how_does_the/c9ullwl/][When a human limb is amputated, how does the circulatory system redirect blood flow?]] /r/askscience :humanbody:
 :PROPERTIES:
-:ID:       tsrddtcmrskscnccmmntsdwvwrysystmrdrctbldflwrskscnc
+:ID:       srddtcmrskscnccmmntsdwvwhrysystmrdrctbldflwrskscnc
 :END:
 :  This was asked a few months ago, here's my answer:
 :  
@@ -169,44 +169,44 @@ This also means that a developing embryo is most sensitive to radiation during t
 : CGI animated graphic of the human heart, sectioned, with motions and timing synced with the Wiggers diagram. The section shows the opened ventricles contracting once per heartbeat, or once per each cardiac cycle (link: https://t.co/vm59PKRG00) https://t.co/vm59PKRG00 https://t.co/EAukPtid8u https://twitter.com/Rainmaker1973/status/1160574126815358977?s=17
 * [2020-12-20] [[https://courses.lumenlearning.com/cuny-csi-ap-1/chapter/muscular-homeostasis/][Muscular Homeostasis | Anatomy and Physiology I]]
 :PROPERTIES:
-:ID:       snscrsslmnlrnngcmcnycspchsmsclrhmstssntmyndphyslgy
+:ID:       scrsslmnlrnngcmcnycspchptsmsclrhmstssntmyndphyslgy
 :END:
 : Skeletal muscles contribute to maintaining temperature homeostasis in the body by generating heat. Muscle contraction requires energy and produces heat as a byproduct of metabolism. All types of muscle produce heat, but because of the large amount of skeletal muscle present in the body, skeletal muscle contributes most greatly to heat production. This is very noticeable during exercise, when sustained muscle movement causes body temperature to rise. In cases of extreme cold, shivering produces random skeletal muscle contractions to generate heat as part of the negative feedback mechanism of maintaining body temperature.
 * [2020-12-20] [[https://www.runnersworld.com/training/a25998598/what-causes-post-workout-muscle-soreness/][What Causes Sore Muscles? | Why Am I So Sore?]]
 :PROPERTIES:
-:ID:       snswwwrnnrswrldcmtrnngwhtsrnsswhtcsssrmsclswhymssr
+:ID:       swwwrnnrswrldcmtrnngwhtcssrnsswhtcsssrmsclswhymssr
 :END:
 : Aching muscles after a workout, otherwise known as delayed onset muscle soreness (DOMS), are due to micro-tears in your muscles that occur when you put stress on them, says Schoenfeld. Usually, you’ll begin to feel sore 24 to 48 hours after a workout—that’s how long it takes for your body to produce inflammation as a result of that injury, which is responsible for your muscle pain.
 * [2019-03-27] [[https://reddit.com/r/askscience/comments/b3qjuo/if_darker_skin_colors_absorb_more_heat_energy_and/][If darker skin colors absorb more heat energy and have a higher resistance to cancer then why did humans who live in snowy/colder climates develop fare skin?]] /r/askscience :humanbody:
 :PROPERTIES:
-:ID:       wdsrddtcmrskscnccmmntsbqjcldrclmtsdvlpfrsknrskscnc
+:ID:       srddtcmrskscnccmmntsbqjfdcldrclmtsdvlpfrsknrskscnc
 :END:
 * [#C] [2018-08-04] nkukushkin                                    :humanbody:
 :PROPERTIES:
-:ID:       stnkkshkn
+:ID:       nkkshkn
 :END:
 https://vk.com/wall5695154_20731 
 : . В результате этого в митохондриях нервных клеток Потапа некуда стало девать электроны, вырабатываемые при переработке питательных веществ и в норме сбрасываемые на кислород. Из-за этого основной путь переработки питательных веществ – окислительное фосфорилирование – застрял. Переработка пошла через другой, в десять-пятнадцать раз менее эффективный бескислородный процесс с выработкой молочной кислоты. Молочная кислота стала повреждать мозг Потапа, но куда серьёзнее его повредила другая проблема: недостаток энергии, добытой из питательных веществ. Нервным клеткам энергия нужна постоянно для поддержания заряда на мембране.
 
 * [2019-08-27] [[https://reddit.com/r/interestingasfuck/comments/cw11t8/baby_born_inside_of_amniotic_sac_also_called_an/][Baby born inside of amniotic sac. Also called an en caul birth, it occurs approximately 1 in every 80,000 births. Various famous figures in history are alleged to have been born this wa.]] /r/interestingasfuck :humanbody:
 :PROPERTIES:
-:ID:       tsrddtcmrntrstngsfckcmmntdthvbnbrnthswrntrstngsfck
+:ID:       srddtcmrntrstngsfckcmmntsdthvbnbrnthswrntrstngsfck
 :END:
 
 * DONE [2019-12-13] [[https://reddit.com/r/biology/comments/ea0paz/why_isnt_blood_attracted_to_magnets/fan67dx/][Why isn't blood attracted to magnets?]] /r/biology :humanbody:blood:
 :PROPERTIES:
-:ID:       frsrddtcmrblgycmmntspzwhyhysntbldttrctdtmgntsrblgy
+:ID:       srddtcmrblgycmmntspzwhysnhysntbldttrctdtmgntsrblgy
 :END:
 : There is an educational video on Youtube which shows blood being repelled by a powerful magnet. 
 : The video is called: "Monster magnet meets blood"
 ** [2019-12-13] [[https://reddit.com/r/biology/comments/ea0paz/why_isnt_blood_attracted_to_magnets/fan2e24/][Why isn't blood attracted to magnets?]] /r/biology
 :PROPERTIES:
-:ID:       frsrddtcmrblgycmmntspzwhyhysntbldttrctdtmgntsrblgy
+:ID:       srddtcmrblgycmmntspzwhysnhysntbldttrctdtmgntsrblgy
 :END:
 :  Because it's one iron atom surrounded by a huge hydrogen and carbon matrix... the iron's electrons are dedicated to bonds, and not free to be magnetized.
 * [#C] [2019-06-20] [[https://reddit.com/r/AskReddit/comments/3lttds/whats_the_most_amazing_thing_the_human_body_does/cv97kna/][What's the most amazing thing the human body does that people have no idea about?]] /r/AskReddit :humanbody:
 :PROPERTIES:
-:ID:       thsrddtcmrskrddtcmmntslttnbdydsthtpplhvndbtrskrddt
+:ID:       srddtcmrskrddtcmmntslttdsnbdydsthtpplhvndbtrskrddt
 :END:
 : Look at an object on the wall across the room.  Now keep looking at it while you move your head back and forth, up and down.  Your eyes stay pointed at that spot.  Not hard to do, is it?
 : For that to happen, you brain needs to calculate the direction and rate of change your head is moving in 3 dimensional space and then send corresponding signals to the muscles in your eyes to **exactly** counter match the rotation and speed in order to keep them pointed at that spot.  And not only that, the muscles that have to be moved (and the rate at which they move) are different for *each* eye, since if you turn your head quickly right, you R eye contracts the muscles on the nose side to compensate, and the L eye contracts the muscles on the temple side.

@@ -44,7 +44,7 @@ https://en.wikipedia.org/wiki/Olbers'_paradox
 
 * [2018-07-03] old notes
 :PROPERTIES:
-:ID:       tldnts
+:ID:       ldnts
 :END:
 : Flatness problem: fine tuning, Omega parameter diverges from 1 TODO
 : 
@@ -102,18 +102,18 @@ hmm, but does it make sense to speak about V if D is not changing???
 
 * [#B] [2020-04-10] Emily Levesque Public Lecture: The Weirdest Stars in the Universe - YouTube :cosmology:
 :PROPERTIES:
-:ID:       frmlylvsqpblclctrthwrdststrsnthnvrsytb
+:ID:       mlylvsqpblclctrthwrdststrsnthnvrsytb
 :END:
 https://www.youtube.com/watch?v=YR-l0b2iYy0
 pretty cool talk!
 * [2015-06-14] CMB                                                :cosmology:
 :PROPERTIES:
-:ID:       sncmb
+:ID:       cmb
 :END:
 : Just like the CMB tells us what was happening 300,000 years ago, the cosmological gravitational wave background will tell us about the nature of the universe at the time when they start their journey toward us.
 * [2019-02-21] 'A Universe From Nothing' by Lawrence Krauss, AAI 2009 - YouTube
 :PROPERTIES:
-:ID:       thnvrsfrmnthngbylwrnckrssytb
+:ID:       nvrsfrmnthngbylwrnckrssytb
 :END:
 https://www.youtube.com/watch?v=7ImvlS8PLIo&list=WL&index=70
 all the heavy elements in the human bodies were created from exploded starts. this is indeed beautiful!

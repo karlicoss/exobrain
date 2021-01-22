@@ -57,7 +57,7 @@
 
 * [#B] [2020-02-12] Guido van Rossum on Twitter: "@jonasrk You missed mypy. Simpler docs use markdown, not ReST (Sphinx). Black is overrated unless your team argues over style a lot. You don't need Pylint if you're using flake8. Never heard of poetry or dependabot. And you should use a CI solution, e.g. Travis-CI, to run your tests." / Twitter https://twitter.com/gvanrossum/status/1227126706089021440
 :PROPERTIES:
-:ID:       wdgdvnrssmntwttrjnsrkymssstwttrstwttrcmgvnrssmstts
+:ID:       gdvnrssmntwttrjnsrkymssdmstwttrstwttrcmgvnrssmstts
 :END:
 : You don't need Pylint if you're using flake8
 
@@ -65,5 +65,5 @@ hmm
 
 * [#C] [2018-05-08] configuration via class variables -- not great while testing since configuration has to be reloaded...
 :PROPERTIES:
-:ID:       tcnfgrtnvclssvrblsntgrtwhltstngsnccnfgrtnhstbrldd
+:ID:       cnfgrtnvclssvrblsntgrtwhltstngsnccnfgrtnhstbrldd
 :END:

@@ -23,11 +23,11 @@ Github project: https://github.com/karlicoss/dron
 :END:
 ** [2020-03-18] eh, I'm finding that copy paste in crontabs is not too bad as long as you align everything...
 :PROPERTIES:
-:ID:       wdhmfndngthtcpypstncrntbssnttbdslngsylgnvrythng
+:ID:       hmfndngthtcpypstncrntbssnttbdslngsylgnvrythng
 :END:
 ** [#D] [2020-04-08] it's easier to align in python, because of string concatenation
 :PROPERTIES:
-:ID:       wdtssrtlgnnpythnbcsfstrngcnctntn
+:ID:       tssrtlgnnpythnbcsfstrngcnctntn
 :END:
 compare:
 
@@ -56,11 +56,11 @@ vs
 - you can just start any jobs (+autocomplete)
 * TODO [#B] [2020-05-29] I guess what I was confused about was that if the job is running simultaneouslyu to previous instance, it's silently not running
 :PROPERTIES:
-:ID:       frgsswhtwscnfsdbtwsthtfthtprvsnstnctsslntlyntrnnng
+:ID:       gsswhtwscnfsdbtwsthtfthjbtprvsnstnctsslntlyntrnnng
 :END:
 ** [2020-05-29] wonder if could email on this!
 :PROPERTIES:
-:ID:       frwndrfcldmlnths
+:ID:       wndrfcldmlnths
 :END:
 * TODO [#B] hmm, managed status drops after reinstalling crontabs... I guess, timers?
 :PROPERTIES:
@@ -88,7 +88,7 @@ implemented via flocks on files named same as tags
 
 * TODO [#B] [2019-10-24] to enable the systemd service you can run the following. :systemd:
 :PROPERTIES:
-:ID:       thtnblthsystmdsrvcycnrnthfllwng
+:ID:       tnblthsystmdsrvcycnrnthfllwng
 :END:
 : systemctl --user enable --now matrixcli
 * TODO [#C] create separate target (instead of timers.target)? that way it'd be less messy
@@ -120,34 +120,34 @@ implemented via flocks on files named same as tags
 :END:
 * [#C] [2020-01-28] arch linux - systemd: cpu usage of services - Super User https://superuser.com/questions/1060670/systemd-cpu-usage-of-services
 :PROPERTIES:
-:ID:       trchlnxsystmdcpsgfsrvcsspsrcmqstnssystmdcpsgfsrvcs
+:ID:       rchlnxsystmdcpsgfsrvcssprsrcmqstnssystmdcpsgfsrvcs
 :END:
 : If you enabled the cpuacct cgroup subgroup in the kernel. You can try systemd-cgtop to identify which systemd service causes high cpu usage.
 * [#C] [2020-01-28] systemd - systemctl status not showing CPU/Memory usage? - Ask Ubuntu https://askubuntu.com/questions/901075/systemctl-status-not-showing-cpu-memory-usage
 :PROPERTIES:
-:ID:       tsystmdsystmctlsttsntshwnstmctlsttsntshwngcpmmrysg
+:ID:       systmdsystmctlsttsntshwngstmctlsttsntshwngcpmmrysg
 :END:
 : CPUAccounting = yes
 : MemoryAccounting = yes
 * [#C] [2020-01-26] Systemd: How to make two services mutually exclusive but run both? - Super User
 :PROPERTIES:
-:ID:       snsystmdhwtmktwsrvcsmtllyxclsvbtrnbthsprsr
+:ID:       systmdhwtmktwsrvcsmtllyxclsvbtrnbthsprsr
 :END:
 https://superuser.com/questions/1492025/systemd-how-to-make-two-services-mutually-exclusive-but-run-both
 
 * [#C] [2020-01-26] systemd.service https://www.freedesktop.org/software/systemd/man/systemd.service.html#TimeoutStartSec=
 :PROPERTIES:
-:ID:       snsystmdsrvcswwwfrdsktprgmnsystmdsrvchtmltmtstrtsc
+:ID:       systmdsrvcswwwfrdsktprgsfmnsystmdsrvchtmltmtstrtsc
 :END:
 wonder if this is useful wrt to dependencies and conflicts
 * [#C] [2020-01-26] systemd.service https://www.freedesktop.org/software/systemd/man/systemd.service.html
 :PROPERTIES:
-:ID:       snsystmdsrvcswwwfrdsktprgtwrsystmdmnsystmdsrvchtml
+:ID:       systmdsrvcswwwfrdsktprgsftwrsystmdmnsystmdsrvchtml
 :END:
 : If set to simple (the default if ExecStart= is specified but neither Type= nor BusName= are),
 * [#C] [2020-01-28] systemd-analyze https://www.freedesktop.org/software/systemd/man/systemd-analyze.html
 :PROPERTIES:
-:ID:       tsystmdnlyzswwwfrdsktprgstwrsystmdmnsystmdnlyzhtml
+:ID:       systmdnlyzswwwfrdsktprgsftwrsystmdmnsystmdnlyzhtml
 :END:
 : systemd-analyze verify FILE...
 : 
@@ -196,7 +196,7 @@ and impossible to fix. e.g. add some garbage to onCalendar and try applying
 :END:
 * [#D] [2020-01-28] systemd-cgtop
 :PROPERTIES:
-:ID:       tsystmdcgtp
+:ID:       systmdcgtp
 :END:
 https://www.freedesktop.org/software/systemd/man/systemd-cgtop.html
 : systemd-cgtop — Show top control groups by their resource usage
@@ -205,7 +205,7 @@ https://www.freedesktop.org/software/systemd/man/systemd-cgtop.html
 : wonder if I could use it?
 * STRT [#D] [2020-01-18] watchdog?
 :PROPERTIES:
-:ID:       stwtchdg
+:ID:       wtchdg
 :END:
 https://www.freedesktop.org/software/systemd/man/systemd.service.html
 : WatchdogSec=
@@ -218,16 +218,16 @@ https://www.freedesktop.org/software/systemd/man/systemd.service.html
 :END:
 * TODO [#D] [2020-05-04] [[https://blog.darknedgy.net/technology/2020/05/02/0/index.html][systemd, 10 years later: a historical and technical retrospective]]
 :PROPERTIES:
-:ID:       mnsblgdrkndgynttchnlgyndxltrhstrclndtchnclrtrspctv
+:ID:       sblgdrkndgynttchnlgyndxhtltrhstrclndtchnclrtrspctv
 :END:
 : Yes, we currently handle socket-triggered, bus-triggered, file-triggered, mount-triggered, automount-triggered, device-triggered
 * [2020-05-29] ok, so timeouts via RuntimeMaxSec work as expected   :systemd:
 :PROPERTIES:
-:ID:       frkstmtsvrntmmxscwrksxpctd
+:ID:       kstmtsvrntmmxscwrksxpctd
 :END:
 * CNCL [#C] [2020-02-01] schedule — schedule 0.4.0 documentation
 :PROPERTIES:
-:ID:       stschdlschdldcmnttn
+:ID:       schdlschdldcmnttn
 :END:
 https://schedule.readthedocs.io/en/stable/
 
@@ -265,5 +265,5 @@ https://adam.herokuapp.com/past/2010/4/13/rethinking_cron
 : Rethinking Cron
 ** [2020-02-29] good wishlist for missing cron features
 :PROPERTIES:
-:ID:       stgdwshlstfrmssngcrnftrs
+:ID:       gdwshlstfrmssngcrnftrs
 :END:

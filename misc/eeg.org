@@ -89,7 +89,7 @@ http://www.autodidacts.io/neurotech-hardware-roundup-eeg-bci-tdcs-neurofeedback/
 
 * [2018-07-15] how are EMG and EEG different?                           :emg:
 :PROPERTIES:
-:ID:       snhwrmgndgdffrnt
+:ID:       hwrmgndgdffrnt
 :END:
 ok, so surface EMG needs two electrodes since it's recording potential difference
 
@@ -244,7 +244,7 @@ https://www.reddit.com/r/Biohackers/comments/8imlo7/muse_headband_has_anyone_her
 
 ** xxx [2018-07-15]
 :PROPERTIES:
-:ID:       xxxsn
+:ID:       xxx
 :END:
 ok, so apparently objections are that often it can't distinguish between muscular activity and brain activity.
 
@@ -296,29 +296,29 @@ https://www.reddit.com/r/DrugNerds/comments/2pmnxc/im_using_an_eeg_neurofeedback
 
 * [#D] [2019-02-04] neurable: Announcing the world’s first brain-computer interface for virtual reality :eeg:vr:
 :PROPERTIES:
-:ID:       mnnrblnnncngthwrldsfrstbrncmptrntrfcfrvrtlrlty
+:ID:       nrblnnncngthwrldsfrstbrncmptrntrfcfrvrtlrlty
 :END:
 https://medium.com/neurable/announcing-the-worlds-first-brain-computer-interface-for-virtual-reality-a3110db62607
 ** [2019-02-15] dunno, almost nothing on reddit, you can't buy it now etc. try again somewhat later...
 :PROPERTIES:
-:ID:       frdnnlmstnthngnrddtycntbytnwtctrygnsmwhtltr
+:ID:       dnnlmstnthngnrddtycntbytnwtctrygnsmwhtltr
 :END:
 
 * [#B] [2019-01-24] EEG-SMT - Open Source Hardware Board                :eeg:
 :PROPERTIES:
-:ID:       thgsmtpnsrchrdwrbrd
+:ID:       gsmtpnsrchrdwrbrd
 :END:
 https://www.olimex.com/Products/EEG/OpenEEG/EEG-SMT/
 ok, people on reddit generally recommend it...
 * [#B] [2019-01-27] How to build a brain interface — and why we should connect our minds :eeg:
 :PROPERTIES:
-:ID:       snhwtbldbrnntrfcndwhywshldcnnctrmnds
+:ID:       hwtbldbrnntrfcndwhywshldcnnctrmnds
 :END:
 https://medium.com/@justlv/how-to-build-a-brain-interface-and-why-we-should-connect-our-minds-35003841c4b7
 describing various potential neurointerfaces -- somewhat interesting stuff
 * [#C] [2019-02-24] Somaxis EMG EKG EEG sensors – muscle, heart, brain, posture, activity
 :PROPERTIES:
-:ID:       snsmxsmgkggsnsrsmsclhrtbrnpstrctvty
+:ID:       smxsmgkggsnsrsmsclhrtbrnpstrctvty
 :END:
 http://www.somaxis.com/
 huh that's interesting
@@ -328,84 +328,84 @@ huh that's interesting
 :END:
 ** [#C] [2019-01-20] BioShare.info
 :PROPERTIES:
-:ID:       snbshrnf
+:ID:       bshrnf
 :END:
 https://www.bioshare.info/en
 
 ** [#D] [2019-01-20] Physiological Monitoring | HaB Direct
 :PROPERTIES:
-:ID:       snphyslgclmntrnghbdrct
+:ID:       physlgclmntrnghbdrct
 :END:
 https://www.habdirect.co.uk/product-category/fitness/fitness-testing-and-sports-performance/activity-monitoring-fitness-testing-and-sports-performance/
 
 ** [#D] [2019-01-20] BioHarness 3 Compression Shirts | HaB Direct
 :PROPERTIES:
-:ID:       snbhrnsscmprssnshrtshbdrct
+:ID:       bhrnsscmprssnshrtshbdrct
 :END:
 https://www.habdirect.co.uk/product/bioharness-3-compression-shirts/?attribute_size=Medium&gclid=CjwKCAiAsoviBRAoEiwATm8OYIZqIO56Lq78SqDfgoV5j6QuQq9eh5qlh3Y_7fMDN_2kWD66lexhlxoCGykQAvD_BwE
 
 ** [#D] [2019-01-20] SnapECG Portable EKG Monitor, Handheld ECG Heart Rate Monitor for Smart Phone, Wireless Heart Performance Tracking without ECG Electrodes Required, Home Use Ekg Monitoring Devices for iPhone & Android: Amazon.co.uk: Sports & Outdoors
 :PROPERTIES:
-:ID:       snsnpcgprtblkgmntrhndhldccsfrphnndrdmzncksprtstdrs
+:ID:       snpcgprtblkgmntrhndhldcghcsfrphnndrdmzncksprtstdrs
 :END:
 https://www.amazon.co.uk/SnapECG-Portable-Performance-Electrodes-Monitoring/dp/B07FKYPTDQ/ref=sr_1_3?ie=UTF8&qid=1547946837&sr=8-3&keywords=qardiocore
 
 ** [#D] [2019-01-20] EKG ECG Heart Rate Monitor: QardioCore Continuous Electrocardiograph ECG/EKG Mobile Machine - Wireless, Portable, Wearable Heart Monitoring Equipment - Bluetooth Mobile Digital Cardio Devices: Amazon.co.uk: Health & Personal Care
 :PROPERTIES:
-:ID:       snkgcghrtrtmntrqrdcrcntnstlcrddvcsmznckhlthprsnlcr
+:ID:       kgcghrtrtmntrqrdcrcntnslctlcrddvcsmznckhlthprsnlcr
 :END:
 https://www.amazon.co.uk/EKG-Heart-Rate-Monitor-Electrocardiograph/dp/B073VW2ZZV/ref=sr_1_1_a_it?ie=UTF8&qid=1547946837&sr=8-1&keywords=qardiocore
 
 ** [#D] [2019-01-20] eMotion EMG | shop.bittium.com                  :emg:qs:
 :PROPERTIES:
-:ID:       snmtnmgshpbttmcm
+:ID:       mtnmgshpbttmcm
 :END:
 https://shop.bittium.com/product/6/emotion-emg
 fucking hell... 4K!
 ** [#D] [2019-01-20] Bittium Faros - Bittium                             :hr:
 :PROPERTIES:
-:ID:       snbttmfrsbttm
+:ID:       bttmfrsbttm
 :END:
 https://www.bittium.com/products__services/medical/bittium_faros#technical_details
 looks very cool, but also fucking expensive, 3K
 ** [#C] [2019-01-20] My Baseline Network Physiology: 10 Days of EEG, EGG, EKG, CGM, Temperature, Activity and Food Logs - Quantified Self / Project Logs - Quantified Self Forum :qs:
 :PROPERTIES:
-:ID:       snmybslnntwrkphyslgydysfgtfdslfprjctlgsqntfdslffrm
+:ID:       mybslnntwrkphyslgydysfgggtfdslfprjctlgsqntfdslffrm
 :END:
 https://forum.quantifiedself.com/t/my-baseline-network-physiology-10-days-of-eeg-egg-ekg-cgm-temperature-activity-and-food-logs/5671/21
 awesome correlation experiment between hr, body temperature, food etc
 ** [2019-01-20] DS1922L-F5# Thermochron iButton [-40 to 85°C] - 8K Memory | iButtonLink :qs:
 :PROPERTIES:
-:ID:       sndslfthrmchrnbttntckmmrybttnlnk
+:ID:       dslfthrmchrnbttntckmmrybttnlnk
 :END:
 https://www.ibuttonlink.com/products/ds1922l
 think for body temperature tracking... although would be very adhoc, would need a patch to hold it or something like that. expect the skin to be irritated
 ** [2019-01-20] MySignals - eHealth and Medical IoT Development Platform :qs:gadget:
 :PROPERTIES:
-:ID:       snmysgnlshlthndmdcltdvlpmntpltfrm
+:ID:       mysgnlshlthndmdcltdvlpmntpltfrm
 :END:
 http://www.my-signals.com/
 that costs about 1K, but looks pretty cool. EKG,   EMG, respiratory sensor etc. will be inconvenient to wear though
 ** [2019-01-20] Reliable wearable ECG - Quantified Self / Apps & Tools - Quantified Self Forum :hr:
 :PROPERTIES:
-:ID:       snrlblwrblcgqntfdslfppstlsqntfdslffrm
+:ID:       rlblwrblcgqntfdslfppstlsqntfdslffrm
 :END:
 https://forum.quantifiedself.com/t/reliable-wearable-ecg/2653
 a lot of ecg related medical grade tools
 ** [2019-01-20] Firstbeat Firstbeat Bodyguard 2                          :hr:
 :PROPERTIES:
-:ID:       snfrstbtfrstbtbdygrd
+:ID:       frstbtfrstbtbdygrd
 :END:
 http://shop.firstbeat.com/us/bodyguard.html#.XEQ3KVX7TMg
 uses electrodes..
 ok, so apparently currently there is no reliable way of tracking very accurate continuous HR without changing electrodes etc
 * [2019-05-10] [[https://reddit.com/r/BrainMachineInterface/comments/begb98/new_neural_implant_in_trials/][New neural implant in trials]] /r/BrainMachineInterface :bci:
 :PROPERTIES:
-:ID:       frsrddtcmrbrnmchnntrfccmmrlmplntntrlsrbrnmchnntrfc
+:ID:       srddtcmrbrnmchnntrfccmmntrlmplntntrlsrbrnmchnntrfc
 :END:
 ** [2019-05-12] huh, pretty cool, electrod mesh injected via a vein right into the brain
 :PROPERTIES:
-:ID:       snhhprttycllctrdmshnjctdvvnrghtntthbrn
+:ID:       hhprttycllctrdmshnjctdvvnrghtntthbrn
 :END:
 * EEG/EMG
 :PROPERTIES:
@@ -413,105 +413,105 @@ ok, so apparently currently there is no reliable way of tracking very accurate c
 :END:
 ** STRT [#C] [2019-01-20] Backyard Brains Store https://backyardbrains.com/products/ :hobby:
 :PROPERTIES:
-:ID:       snbckyrdbrnsstrsbckyrdbrnscmprdcts
+:ID:       bckyrdbrnsstrsbckyrdbrnscmprdcts
 :END:
 *** [2019-01-25] hmm that looks pretty promising I think
 :PROPERTIES:
-:ID:       frhmmthtlksprttyprmsngthnk
+:ID:       hmmthtlksprttyprmsngthnk
 :END:
 *** [2019-02-24] huh? free delivery? https://www.onbuy.com/gb/science-and-discovery/backyard-brains-muscle-spikerbox-neuroscience-in-a-box~c2371~p6511442/
 :PROPERTIES:
-:ID:       snhhfrdlvryswwwnbycmgbscnbrnsmsclspkrbxnrscncnbxcp
+:ID:       hhfrdlvryswwwnbycmgbscncnbrnsmsclspkrbxnrscncnbxcp
 :END:
 
 ** STRT [#C] [2019-01-20] Myoware EMG Sensor - Arduino Tutorial | Cost Effective EMG Sensor - RootSaid :emg:
 :PROPERTIES:
-:ID:       snmywrmgsnsrrdnttrlcstffctvmgsnsrrtsd
+:ID:       mywrmgsnsrrdnttrlcstffctvmgsnsrrtsd
 :END:
 https://rootsaid.com/myoware-emg-sensor-arduino/
 *** [2019-01-25] simple tutorial.. but fuck it's so tedious to read the signal! E.g. you need to clean the skin etc.
 :PROPERTIES:
-:ID:       frsmplttrlbtfcktsstdstrdthsgnlgyndtclnthskntc
+:ID:       smplttrlbtfcktsstdstrdthsgnlgyndtclnthskntc
 :END:
 *** [2019-02-24] https://www.youtube.com/embed/DOFtN67y1j0 hmm, that looks promising..
 :PROPERTIES:
-:ID:       snswwwytbcmmbddftnyjhmmthtlksprmsng
+:ID:       swwwytbcmmbddftnyjhmmthtlksprmsng
 :END:
 
 ** [#C] [2019-01-25] Advancer Technologies, LLC: [DIY] Conductive Fabric Electrodes :emg:
 :PROPERTIES:
-:ID:       frdvncrtchnlgsllcdycndctvfbrclctrds
+:ID:       dvncrtchnlgsllcdycndctvfbrclctrds
 :END:
 http://www.advancertechnologies.com/2013/03/diy-conductive-fabric-electrodes.html
 hmm, that's pretty cool, could get reusable electrodes that way
 ** [#C] [2019-02-14] Hacking Your Brain Waves: A Guide To Wearable Meditation Headsets https://www.diygenius.com/hacking-your-brain-waves/
 :PROPERTIES:
-:ID:       thhckngyrbrnwvsgdtwrblmdtsswwwdygnscmhckngyrbrnwvs
+:ID:       hckngyrbrnwvsgdtwrblmdttnsswwwdygnscmhckngyrbrnwvs
 :END:
 
 ** [#C] [2019-02-24] TrueSense Exploration Kit | OP Innovations     :eeg:emg:
 :PROPERTIES:
-:ID:       sntrsnsxplrtnktpnnvtns
+:ID:       trsnsxplrtnktpnnvtns
 :END:
 https://www.op-innovations.com/en/node/96
 
 * [#C] [2019-04-11] Anyone had experience with EEG headsets? : QuantifiedSelf https://www.reddit.com/r/QuantifiedSelf/comments/ac5x6u/anyone_had_experience_with_eeg_headsets/
 :PROPERTIES:
-:ID:       thnynhdxprncwthghdstsqntfmntscxnynhdxprncwthghdsts
+:ID:       nynhdxprncwthghdstsqntfdsmntscxnynhdxprncwthghdsts
 :END:
 : I wrote an app for the NeuroSky, but eventually gave up on it because getting a good signal was so tedious.
 * [#C] [2019-05-21] How to Hack Toy EEGs | Frontier Nerds http://www.frontiernerds.com/brain-hack
 :PROPERTIES:
-:ID:       thwthcktygsfrntrnrdswwwfrntrnrdscmbrnhck
+:ID:       hwthcktygsfrntrnrdswwwfrntrnrdscmbrnhck
 :END:
 
 * [#C] [2019-05-21] Home                                             :eeg:vr:
 :PROPERTIES:
-:ID:       thm
+:ID:       hm
 :END:
 https://myndplay.com/
 
 * TODO [#C] [2019-06-22] Contents — visbrain 0.4.4 documentation    :emg:viz:
 :PROPERTIES:
-:ID:       stcntntsvsbrndcmnttn
+:ID:       cntntsvsbrndcmnttn
 :END:
 http://visbrain.org/index.html
 : Visbrain documentation _static/ico/visbrain.png
 : A multi-purpose GPU-accelerated open-source suite for brain data visualization.
 * DONE [#B] [2019-04-15] Using deep learning to “read your thoughts” — with Keras and an EEG sensor :eeg:mind:openbci:
 :PROPERTIES:
-:ID:       mnsngdplrnngtrdyrthghtswthkrsndngsnsr
+:ID:       sngdplrnngtrdyrthghtswthkrsndngsnsr
 :END:
 https://medium.com/@justlv/using-ai-to-read-your-thoughts-with-keras-and-an-eeg-sensor-167ace32e84a
 ** [2019-07-31] very cool! lots of good techniquies with signal processing and neural networks
 :PROPERTIES:
-:ID:       wdvryclltsfgdtchnqswthsgnlprcssngndnrlntwrks
+:ID:       vryclltsfgdtchnqswthsgnlprcssngndnrlntwrks
 :END:
 
 * [2019-07-20] Inria - Comparison of a consumer grade EEG amplifier with medical grade equipment in BCI applications https://hal.inria.fr/hal-01278245
 :PROPERTIES:
-:ID:       stnrcmprsnfcnsmrgrdgmplfrdqpmntnbcpplctnsshlnrfrhl
+:ID:       nrcmprsnfcnsmrgrdgmplfrwtdqpmntnbcpplctnsshlnrfrhl
 :END:
 : Abstract : This paper presents a comparison between a consumer grade EEG (electroencephalography) amplifier and a medical grade equipment. Using the same set of EEG electrodes, signals recorded from the OpenBCI board are compared side-by-side with those recorded from the g.tec g.USBamp device. Two BCI (brain-computer interface) applications are studied: a P300 speller and a workload estimator. In both applications EEG features are highly correlated. Moreover, the classification performances obtained with the OpenBCI board come close to the accuracy achieved with the g.tec g.USBamp. Overall, these preliminary results suggest that the OpenBCI board -- or a similar solution based on the Texas Instrument ADS1299 chip -- may be an alternative to traditional EEG amplifiers, widening the realm of applications and increasing the number of potential users.
 * [2019-07-20] MIT researcher takes the quantified self to the extreme with an EEG helmet — Quartz https://qz.com/1348242/the-human-cyborg-collecting-his-memories-on-video/
 :PROPERTIES:
-:ID:       stmtrsrchrtksthqntfdslftthhmncybrgcllctnghsmmrsnvd
+:ID:       mtrsrchrtksthqntfdslftthxhhmncybrgcllctnghsmmrsnvd
 :END:
 
 * [#B] [2019-02-24] Alex Grey on Tracking Muscle Data (EMG, ECG) - Quantified Self :qs:emg:
 :PROPERTIES:
-:ID:       snlxgryntrckngmscldtmgcgqntfdslf
+:ID:       lxgryntrckngmscldtmgcgqntfdslf
 :END:
 http://quantifiedself.com/2012/03/alex-grey-on-tracking-muscle-data-emg-ecg/
 
 * [#B] [2019-02-24] QS Resource Guide                                   :emg:
 :PROPERTIES:
-:ID:       snqsrsrcgd
+:ID:       qsrsrcgd
 :END:
 http://experimentable.com/qs-guide/
 * STRT [#B] [2018-07-14] ici·bici: here's a low cost, open source brain-computer interface :bci:eeg:
 :PROPERTIES:
-:ID:       stcbchrslwcstpnsrcbrncmptrntrfc
+:ID:       cbchrslwcstpnsrcbrncmptrntrfc
 :END:
 https://icibici.github.io/site/
 https://www.reddit.com/r/NeuroHacking/comments/89qasr/does_anybody_knows_how_to_buy_this_bci_20_kit/ mm unclear how to buy it...

@@ -166,12 +166,12 @@ allegedly good, but was closed at the time :(
 :END:
 *** [2019-04-05] [[https://wikitravel.org/en/Porto][Geres National Park]]
 :PROPERTIES:
-:ID:       frswktrvlrgnprtgrsntnlprk
+:ID:       swktrvlrgnprtgrsntnlprk
 :END:
 : Go on a day trip to the Gerês National Park. The wildlife and nature in this park are really worth a visit, and the scenery is magnificent.
 *** [2019-04-05] [[https://wikitravel.org/en/Porto][Vunho Verde]]
 :PROPERTIES:
-:ID:       frswktrvlrgnprtvnhvrd
+:ID:       swktrvlrgnprtvnhvrd
 :END:
 : Taste the "Vinho Verde", freely translated as "Green Wine" - this is mostly a low alcoholic grade, young and fresh kind of wine, that you won't find anywhere else.
 
@@ -238,7 +238,7 @@ Coast could be very shallow though (e.g Zandvoort), so mind the waves.
 :END:
 *** [2018-05-27] Van der Linde https://goo.gl/maps/pawDXa2wL4y
 :PROPERTIES:
-:ID:       snvndrlndsgglmpspwdxwly
+:ID:       vndrlndsgglmpspwdxwly
 :END:
 : Nieuwendijk 183, 1012 MG Amsterdam, Netherlands
 
@@ -255,7 +255,7 @@ very decent, you're better off buying tickets online couple of days in advance
 :END:
 *** [2018-05-27] Tijger & de Vis https://goo.gl/maps/1eVeg9DmQG52
 :PROPERTIES:
-:ID:       sntjgrdvssgglmpsvgdmqg
+:ID:       tjgrdvssgglmpsvgdmqg
 :END:
 : Lindengracht 158, 1015 KK Amsterdam, Netherlands
 
@@ -291,16 +291,16 @@ amazing, highly recommended. check out the souvenir shop, awesome postcards.
 :END:
 *** [#B] [2018-06-06] burrata cheese
 :PROPERTIES:
-:ID:       wdbrrtchs
+:ID:       brrtchs
 :END:
 Very very good! Especially with some berries.
 *** [#C] [2018-06-07] Grom good gelato
 :PROPERTIES:
-:ID:       thgrmgdglt
+:ID:       grmgdglt
 :END:
 *** [#D] [2018-06-06] coda alla vaccinara
 :PROPERTIES:
-:ID:       wdcdllvccnr
+:ID:       cdllvccnr
 :END:
 well - sort of ok
 
@@ -385,12 +385,12 @@ pretty close to Glasgo!
 :END:
 *** [#C] [2020-10-16] [[https://www.10adventures.com/hikes/snowdonia/][10 Greatest Walks in Snowdonia National Park, Wales]]
 :PROPERTIES:
-:ID:       frswwwdvntrscmhkssnwdngrtstwlksnsnwdnntnlprkwls
+:ID:       swwwdvntrscmhkssnwdngrtstwlksnsnwdnntnlprkwls
 :END:
 
 ** TODO [#C] [2019-03-27] [[https://reddit.com/r/CasualUK/comments/b4yqej/a_view_from_the_roman_walls_of_chester/eja0y0g/][A view from the Roman walls of Chester]] /r/CasualUK
 :PROPERTIES:
-:ID:       wdsrddtcmrcslkcmmntsbyqjvvwfrmthrmnwllsfchstrrcslk
+:ID:       srddtcmrcslkcmmntsbyqjvwfvwfrmthrmnwllsfchstrrcslk
 :END:
 : I think Chester is one of the prettiest cities in the country. Thanks for the reminder.
 
@@ -409,11 +409,11 @@ pretty close to Glasgo!
 :END:
 *** TODO [#D] [2019-08-27] [[https://reddit.com/r/travel/comments/cpsd21/ushguli_georgia_felt_like_a_village_frozen_in/][Ushguli, Georgia felt like a village frozen in time 900 years ago.]] /r/travel
 :PROPERTIES:
-:ID:       tsrddtcmrtrvlcmmntscpsdshfltlkvllgfrznntmyrsgrtrvl
+:ID:       srddtcmrtrvlcmmntscpsdshgfltlkvllgfrznntmyrsgrtrvl
 :END:
 *** TODO [#D] [2018-04-18] https://twitter.com/abroadunderhood/status/986632898685145089
 :PROPERTIES:
-:ID:       wdstwttrcmbrdndrhdstts
+:ID:       stwttrcmbrdndrhdstts
 :END:
 : Пробежимся немного по ночной жизни Тбилиси: здесь с этим все более чем хорошо, потому что грузины любят и умеют веселиться. Для любителей техно тут есть клуб Bassiani, который входит в топ 10 техно-клубов мира. Еще есть khidi (мост) и Mtkvarze. Пожалуй, это самые популярные клубы
 
@@ -435,19 +435,19 @@ pretty close to Glasgo!
 :END:
 * [#B] [2020-07-20] [[https://en.mapy.cz/zakladni?x=-0.0200000&y=51.5064000&z=11][Mapy.cz]] :travel:hiking:maps:
 :PROPERTIES:
-:ID:       mnsnmpyczzkldnxyzmpycz
+:ID:       snmpyczzkldnxyzmpycz
 :END:
 
 * [2020-07-23] [[https://www.routeyou.com/][Enjoy the nicest routes | RouteYou]] :maps:
 :PROPERTIES:
-:ID:       thswwwrtycmnjythncstrtsrty
+:ID:       swwwrtycmnjythncstrtsrty
 :END:
 * [2019-04-29] [[https://reddit.com/r/CampingGear/comments/93a5pg/opinions_on_hiking_shoes/e3bwwhj/][Opinions on hiking shoes?]] /r/CampingGear :hiking:
 :PROPERTIES:
-:ID:       mnsrddtcmrcmpnggrcmmntspgbwwhjpnnsnhkngshsrcmpnggr
+:ID:       srddtcmrcmpnggrcmmntspgpnbwwhjpnnsnhkngshsrcmpnggr
 :END:
 : Solomon X Ultra are very comfortable, lightweight, and still supportive
 ** [2020-10-05] yep, can confirm
 :PROPERTIES:
-:ID:       mnypcncnfrm
+:ID:       ypcncnfrm
 :END:

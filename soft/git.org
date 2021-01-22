@@ -2,15 +2,15 @@
 #+filetags: git
 * [#C] [2020-04-19] [[https://jeremykun.com/2020/01/14/the-communicative-value-of-using-git-well/][The Communicative Value of Using Git Well – Math ∩ Programming]] :git:
 :PROPERTIES:
-:ID:       snsjrmykncmthcmmnctvvlfsnctvvlfsnggtwllmthprgrmmng
+:ID:       sjrmykncmthcmmnctvvlfsnggctvvlfsnggtwllmthprgrmmng
 :END:
 * [2017-05-06] use =hg-fast-export= to convert                :mercurial:git:
 :PROPERTIES:
-:ID:       stshgfstxprttcnvrt
+:ID:       shgfstxprttcnvrt
 :END:
 * [2016-09-07] git stores snapshots, not diffs                          :git:
 :PROPERTIES:
-:ID:       wdgtstrssnpshtsntdffs
+:ID:       gtstrssnpshtsntdffs
 :END:
 : Different from SVN
 : It is important to note that this is very different from most SCM systems that you may be familiar with. Subversion, CVS, Perforce, Mercurial and the like all use Delta Storage systems - they store the differences between one commit and the next.
@@ -24,7 +24,7 @@
 
 * [#C] [2019-08-18] Highlights from Git 2.23 - The GitHub Blog          :git:
 :PROPERTIES:
-:ID:       snhghlghtsfrmgtthgthbblg
+:ID:       hghlghtsfrmgtthgthbblg
 :END:
 https://github.blog/2019-08-16-highlights-from-git-2-23/
 : You may have used git grep to search for some text in your Git project, just as you may have used git diff to view active changes. What do the two have in common? They both display some contents in your repository, and both have support to show the surrounding function context with -p (short for --show-function) or -W (short for --function-context), respectively.
@@ -38,7 +38,7 @@ https://github.blog/2019-08-16-highlights-from-git-2-23/
 https://www.moxio.com/blog/43/ignoring-bulk-change-commits-w...
 * TODO [#D] [2019-08-24] Fossil Versus Git | Lobsters                   :git:
 :PROPERTIES:
-:ID:       stfsslvrssgtlbstrs
+:ID:       fsslvrssgtlbstrs
 :END:
 https://lobste.rs/s/e3blgf/fossil_versus_git
 : This article is getting a few things about git wrong. They claim git only supports ‘One check-out per repository’. Heard of git worktree?
@@ -74,7 +74,7 @@ extra worktree dir
 
 * [2019-08-02] git - How do I remove a submodule? - Stack Overflow      :git:
 :PROPERTIES:
-:ID:       frgthwdrmvsbmdlstckvrflw
+:ID:       gthwdrmvsbmdlstckvrflw
 :END:
 https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule/21211232#21211232
 : git rm the_submodule
@@ -82,35 +82,35 @@ https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule/21211232
 
 * [2019-12-11] git reflog expire --expire=now --all && git gc --prune=now --aggressive :github:
 :PROPERTIES:
-:ID:       wdgtrflgxprxprnwllgtgcprnnwggrssv
+:ID:       gtrflgxprxprnwllgtgcprnnwggrssv
 :END:
 * [2019-05-10] git rebase --committer-date-is-author-date  --autostash HEAD~1 :git:
 :PROPERTIES:
-:ID:       frgtrbscmmttrdtsthrdttstshhd
+:ID:       gtrbscmmttrdtsthrdttstshhd
 :END:
 * [#C] [2020-06-08] [[https://git-rebase.io/][Learn to change history with git rebase!]]
 :PROPERTIES:
-:ID:       mnsgtrbslrntchnghstrywthgtrbs
+:ID:       sgtrbslrntchnghstrywthgtrbs
 :END:
 * [2018-11-28] extraction - How to extract one file with commit history from a git repo with index-filter & co - Stack Overflow :git:
 :PROPERTIES:
-:ID:       wdxtrctnhwtxtrctnflwthcmmmgtrpwthndxfltrcstckvrflw
+:ID:       xtrctnhwtxtrctnflwthcmmthmgtrpwthndxfltrcstckvrflw
 :END:
 https://stackoverflow.com/questions/7375528/how-to-extract-one-file-with-commit-history-from-a-git-repo-with-index-filter/37037151
 : git filter-branch --index-filter 'git read-tree --empty; git reset $GIT_COMMIT -- $your $files $here' -- --all --
 ** [2019-04-10] set up git project commmand
 :PROPERTIES:
-:ID:       wdstpgtprjctcmmmnd
+:ID:       stpgtprjctcmmmnd
 :END:
 
 * [#D] [2020-07-12] [[https://news.ycombinator.com/item?id=23805931][- GitHub + why do we centralize issues, documents for a *distributed* version... | Hacker News]]
 :PROPERTIES:
-:ID:       snsnwsycmbntrcmtmdgthbwhycmntsfrdstrbtdvrsnhckrnws
+:ID:       snwsycmbntrcmtmdgthbwhydwcmntsfrdstrbtdvrsnhckrnws
 :END:
 : for an academic treatment of the defects in Git read: What's Wrong with Git? A Conceptual Design Analysis S. Perez De Rosso and D. Jackson. In Proceedings of the 2013 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming & Software (Onward! 2013) 
 * [#C] [2018-01-01] detect file type changes                            :git:
 :PROPERTIES:
-:ID:       mndtctfltypchngs
+:ID:       dtctfltypchngs
 :END:
 : for r in *; do pushd $r; git whatchanged | grep "\.\.\..T"; popd; done
 

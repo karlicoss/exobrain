@@ -7,7 +7,7 @@ Bash & shell programming
 :END:
 ** [2017-12-25] boolean return value
 :PROPERTIES:
-:ID:       mnblnrtrnvl
+:ID:       blnrtrnvl
 :END:
 : function whatever {
 :  if (x)
@@ -21,7 +21,7 @@ Bash & shell programming
 : then ...
 ** [2017-12-26] multi-line string varible
 :PROPERTIES:
-:ID:       tmltlnstrngvrbl
+:ID:       mltlnstrngvrbl
 :END:
 : MULTILINE=$(cat <<-END
 : here
@@ -33,7 +33,7 @@ Bash & shell programming
 
 ** [2017-12-30] iterate over array
 :PROPERTIES:
-:ID:       sttrtvrrry
+:ID:       trtvrrry
 :END:
 : EXTRA_STOWS=("home-arbtt" "home-emacs" "home-anacron")
 : for s in "${EXTRA_STOWS[@]}"
@@ -45,7 +45,7 @@ Bash & shell programming
 
 ** [2018-04-26] get current script directory
 :PROPERTIES:
-:ID:       thgtcrrntscrptdrctry
+:ID:       gtcrrntscrptdrctry
 :END:
 : DIR=$(dirname "$(readlink -f "$0")")
 
@@ -66,7 +66,7 @@ instead, better to use ~if [[ $0 == "$BASH_SOURCE" ]]; then set -eux; fi~
 priorities roughly indicate how useful I find each command
 ** [#A] [2015-07-23] ~diff <(ls dir1) <(ls dir2)~
 :PROPERTIES:
-:ID:       thdfflsdrlsdr
+:ID:       dfflsdrlsdr
 :END:
 ** [#B] use sigquit {Ctrl-\} to kill processes that are really stuck (when Ctrl-C isn't working) :habit:
 :PROPERTIES:
@@ -86,7 +86,7 @@ priorities roughly indicate how useful I find each command
 
 ** [#C] [2018-05-08] ~ps aufx~ to list all processes
 :PROPERTIES:
-:ID:       tpsfxtlstllprcsss
+:ID:       psfxtlstllprcsss
 :END:
 
 ** [#C] tree -pufi for file tree with permissions                     :habit:
@@ -105,7 +105,7 @@ priorities roughly indicate how useful I find each command
 
 ** [#D] [2015-07-23] merging pdfs
 :PROPERTIES:
-:ID:       thmrgngpdfs
+:ID:       mrgngpdfs
 :END:
 : pdftk out.pdf j1-process.pdf j1-process-2.pdf j1-process-3.pdf cat output merged.pdf
 : pdftk full-pdf.pdf cat 1 1 1 2  3 4 12-15 output outfile_p12-15.pdf

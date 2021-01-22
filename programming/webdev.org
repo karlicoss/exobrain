@@ -13,39 +13,39 @@ TODO weird. why didn't this work?  #js #css #html etc
 :END:
 ** STRT [#C] [2019-11-11] A Complete Guide to Flexbox | CSS-Tricks
 :PROPERTIES:
-:ID:       mncmpltgdtflxbxcsstrcks
+:ID:       cmpltgdtflxbxcsstrcks
 :END:
 https://css-tricks.com/snippets/css/a-guide-to-flexbox
 * [#C] [2019-10-27] ~<pre>~ tag respects newlines                      :html:
 :PROPERTIES:
-:ID:       snprtgrspctsnwlns
+:ID:       prtgrspctsnwlns
 :END:
 * TODO [#C] [2019-08-28] Managing HTML5 Offline Storage - Google Chrome https://developer.chrome.com/apps/offline_storage#temporary
 :PROPERTIES:
-:ID:       wdmngnghtmlfflnstrggglchrprchrmcmppsfflnstrgtmprry
+:ID:       mngnghtmlfflnstrggglchrmsprchrmcmppsfflnstrgtmprry
 :END:
 : Each app can have up to 20% of the shared pool. As an example, if the total available disk space is 60 GB, the shared pool is 20 GB, and the app can have up to 4 GB. This is calculated from 20% (up to 4 GB) of 1/3 (up to 20 GB) of the available disk space (60 GB).
 * [#B] [2020-01-30] microsoft/playwright: Node library to automate Chromium, Firefox and WebKit with a single API :testing:
 :PROPERTIES:
-:ID:       thmcrsftplywrghtndlbrryttmtchrmmfrfxndwbktwthsnglp
+:ID:       mcrsftplywrghtndlbrryttmtchrmmfrfxndwbktwthsnglp
 :END:
 https://github.com/microsoft/playwright
 : Puppeteer is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer project is active and is maintained by Google.
 ** [2020-01-30] microsoft/playwright: Node library to automate Chromium, Firefox and WebKit with a single API
 :PROPERTIES:
-:ID:       thmcrsftplywrghtndlbrryttmtchrmmfrfxndwbktwthsnglp
+:ID:       mcrsftplywrghtndlbrryttmtchrmmfrfxndwbktwthsnglp
 :END:
 https://github.com/microsoft/playwright
 : [capabilities] With Playwright, we aim at providing a more capable driver, including support for mobile viewports, touch, web & service workers, geolocation, csp, cookie policies, permissions, accessibility, etc.
 * [#C] [2019-07-20] Responsive Design Mode - Firefox Developer Tools | MDN
 :PROPERTIES:
-:ID:       strspnsvdsgnmdfrfxdvlprtlsmdn
+:ID:       rspnsvdsgnmdfrfxdvlprtlsmdn
 :END:
 https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode
 
 * TODO [#C] [2019-08-18] dypsilon/frontend-dev-bookmarks: Manually curated collection of resources for frontend web developers.
 :PROPERTIES:
-:ID:       sndypslnfrntnddvbkmrksmnlctnfrsrcsfrfrntndwbdvlprs
+:ID:       dypslnfrntnddvbkmrksmnllyctnfrsrcsfrfrntndwbdvlprs
 :END:
 https://github.com/dypsilon/frontend-dev-bookmarks#readme
 : Workflow
@@ -57,12 +57,12 @@ https://github.com/dypsilon/frontend-dev-bookmarks#readme
 :END:
 * [#B] [2020-08-25] [[https://httptoolkit.tech/will-it-cors/][Will It CORS?]] :cors:
 :PROPERTIES:
-:ID:       tstlkttchwlltcrswlltcrs
+:ID:       stlkttchwlltcrswlltcrs
 :END:
 
 * [#C] [2020-02-16] (8) 🔎Julia Evans🔍 on Twitter: "CORS https://t.co/uSrLqGIWR0" / Twitter :cors:
 :PROPERTIES:
-:ID:       snjlvnsntwttrcrsstcsrlqgwrtwttr
+:ID:       jlvnsntwttrcrsstcsrlqgwrtwttr
 :END:
 https://twitter.com/b0rk/status/1162392625057583104
 * TODO [#D] These include DOM mutation breakpoints and inactive CSS rule indicators in the DevTools, several new CSS text properties, two-value display syntax, and JS numeric separators.
@@ -75,7 +75,7 @@ https://twitter.com/b0rk/status/1162392625057583104
 
 * [#C] [2019-12-16] What are the pros and cons of using flexbox? - Quora :css:
 :PROPERTIES:
-:ID:       mnwhtrthprsndcnsfsngflxbxqr
+:ID:       whtrthprsndcnsfsngflxbxqr
 :END:
 https://www.quora.com/What-are-the-pros-and-cons-of-using-flexbox
 : The pros are plentiful.
@@ -83,23 +83,23 @@ https://www.quora.com/What-are-the-pros-and-cons-of-using-flexbox
 : Unfortunately, not all browsers can identify and correctly interpret flexbox. Give it a few more years for (mostly) mobile browsers to catchup.
 * [#C] [2020-04-07] Firefox 75 for developers - Mozilla | MDN
 :PROPERTIES:
-:ID:       tfrfxfrdvlprsmzllmdn
+:ID:       frfxfrdvlprsmzllmdn
 :END:
 https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/75
 : In the inspector, you can now use XPath expressions to locate elements, in addition to locating elements using CSS selectors as before (bug 963933).
 * [2019-02-28] Is there a CSS selector for elements containing certain text? - Stack Overflow :css:
 :PROPERTIES:
-:ID:       thsthrcssslctrfrlmntscntnngcrtntxtstckvrflw
+:ID:       sthrcssslctrfrlmntscntnngcrtntxtstckvrflw
 :END:
 https://stackoverflow.com/questions/1520429/is-there-a-css-selector-for-elements-containing-certain-text
 ** [2019-03-12] apparently no...
 :PROPERTIES:
-:ID:       tpprntlyn
+:ID:       pprntlyn
 :END:
 
 * [#C] [2019-11-17] to deal with cors issues (e.g. querying for external scripts for local html page) :cors:
 :PROPERTIES:
-:ID:       sntdlwthcrssssgqryngfrxtrnlscrptsfrlclhtmlpg
+:ID:       tdlwthcrssssgqryngfrxtrnlscrptsfrlclhtmlpg
 :END:
 ** python's simplehttpserver doesn't work
 :PROPERTIES:
@@ -113,13 +113,13 @@ also navigate to 127.0.0.1:8000. That's IMPORTANT! Apparently Cors header is har
 
 * [2019-11-10] html - Difference between DIV as-is and a SPAN with display:block - Stack Overflow
 :PROPERTIES:
-:ID:       snhtmldffrncbtwndvssndspnwthdsplyblckstckvrflw
+:ID:       htmldffrncbtwndvssndspnwthdsplyblckstckvrflw
 :END:
 https://stackoverflow.com/questions/1142104/difference-between-div-as-is-and-a-span-with-displayblock
 : A <div> is a block level element that has no specific semantics of its own, beyond defining a discrete block of content. A <span> is an inline element that has no specific semantics of its own, beyond defining a discrete segment of inline content.
 * [#C] [2019-09-30] javascript - CORS request blocked in locally opened html - Stack Overflow :cors:webdev:
 :PROPERTIES:
-:ID:       mnjvscrptcrsrqstblckdnlcllypndhtmlstckvrflw
+:ID:       jvscrptcrsrqstblckdnlcllypndhtmlstckvrflw
 :END:
 https://stackoverflow.com/questions/48362093/cors-request-blocked-in-locally-opened-html
 : You can tell your browser to allow to connect from localhost to a backend if you change your backend to return the following header:

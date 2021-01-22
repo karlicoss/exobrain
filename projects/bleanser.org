@@ -42,7 +42,7 @@ upper bound
 started compressing reddit...
 ** [2019-03-25] also compressing rtm
 :PROPERTIES:
-:ID:       mnlscmprssngrtm
+:ID:       lscmprssngrtm
 :END:
 
 * TODO [#D] smscalls
@@ -70,7 +70,7 @@ started compressing reddit...
 
 * TODO [#D] [2021-01-11] move description to github
 :PROPERTIES:
-:ID:       mnmvdscrptntgthb
+:ID:       mvdscrptntgthb
 :END:
 
 * [#D] related                                         :exports:backup:infra:

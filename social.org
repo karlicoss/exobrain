@@ -39,25 +39,25 @@ https://www.alexandrapalace.com/ice-rink/ice-skating-london/
 
 * TODO [#C] [2019-08-19] How to make friends over the internet - Alexey Guzey :social:
 :PROPERTIES:
-:ID:       mnhwtmkfrndsvrthntrntlxygzy
+:ID:       hwtmkfrndsvrthntrntlxygzy
 :END:
 https://guzey.com/how-to-make-friends-over-the-internet/
 
 * [#C] [2020-01-09] hackers.town - hackers.town
 :PROPERTIES:
-:ID:       thhckrstwnhckrstwn
+:ID:       hckrstwnhckrstwn
 :END:
 https://hackers.town/about
 
 * [#C] [2020-01-13] fediverse.space / fediverse.space · GitLab
 :PROPERTIES:
-:ID:       mnfdvrsspcfdvrsspcgtlb
+:ID:       fdvrsspcfdvrsspcgtlb
 :END:
 https://gitlab.com/fediverse.space/fediverse.space
 
 * TODO [#C] [2019-12-07] Max Ionov on Twitter: "Just sent a message ’Hey! Are you in the mood to talk about anthropic principle in cosmology?’ and realised that I have never received a message like this from anyone in my contact list. SAD!" / Twitter
 :PROPERTIES:
-:ID:       stmxnvntwttrjstsntmssghyrsfrmnynnmycntctlstsdtwttr
+:ID:       mxnvntwttrjstsntmssghyrynsfrmnynnmycntctlstsdtwttr
 :END:
 https://twitter.com/mr_freedom/status/1185989089360658432
 : Just sent a message ’Hey! Are you in the mood to talk about anthropic principle in cosmology?’ and realised that I have never received a message like this from anyone in my contact list. SAD!
@@ -70,7 +70,7 @@ https://twitter.com/mr_freedom/status/1185989089360658432
 
 * TODO [#D] [2019-12-21] cybre.space                               :mastodon:
 :PROPERTIES:
-:ID:       stcybrspc
+:ID:       cybrspc
 :END:
 https://instances.social/cybre.space
 : Cybrespace strives to be a tightly-knit community of cyber-enthusiasts. Artists, musicians, and writers; Programmers, engineers and other technical people; we emphasize creativity (but don't require it). Anyone can join, but be warned we will enforce the mastodon.social code of conduct to ensure the best possible experience for as many people in the community as possible. 
@@ -83,31 +83,31 @@ https://instances.social/cybre.space
 
 * [#C] [2019-01-29] (99+) London Hackspace - Google Groups :social:biohacking:
 :PROPERTIES:
-:ID:       tlndnhckspcgglgrps
+:ID:       lndnhckspcgglgrps
 :END:
 https://groups.google.com/forum/#!forum/london-hack-space
 
 * [#C] [2020-05-28] [[https://meta.wikimedia.org/wiki/Research_on_open_source_team_communication_tools][Research on open source team communication tools - Meta]]
 :PROPERTIES:
-:ID:       thsmtwkmdrgwkrsrchnpnsrctrsrchnpnsrctmcmmnctntlsmt
+:ID:       smtwkmdrgwkrsrchnpnsrctmcrsrchnpnsrctmcmmnctntlsmt
 :END:
 
 * [#B] [2020-06-08] [[https://jborichevskiy.com/posts/friends-in-nature/][I want to live in nature with friends :: Up and to the Right — Jonathan Borichevskiy]] :jonbo:thirdspace:
 :PROPERTIES:
-:ID:       mnsjbrchvskycmpstsfrndsnndspndtthrghtjnthnbrchvsky
+:ID:       sjbrchvskycmpstsfrndsnntrdspndtthrghtjnthnbrchvsky
 :END:
 * DONE [#C] [2019-12-18] Trunk for the Fediverse            :mastodon:social:
 :PROPERTIES:
-:ID:       wdtrnkfrthfdvrs
+:ID:       trnkfrthfdvrs
 :END:
 https://communitywiki.org/trunk
 
 * [#B] [2020-05-14] [[https://en.wikipedia.org/wiki/Third_place][Third place - Wikipedia]]
 :PROPERTIES:
-:ID:       thsnwkpdrgwkthrdplcthrdplcwkpd
+:ID:       snwkpdrgwkthrdplcthrdplcwkpd
 :END:
 : In community building, the third place is the social surroundings separate from the two usual social environments of home ("first place") and the workplace ("second place"). Examples of third places would be environments such as churches, cafes, clubs, public libraries, bookstores or parks.
 * [2020-05-12] [[https://guzey.com/twitter/][Why (and How) You Should Join Twitter Right Now - Alexey Guzey]] :social:twitter:
 :PROPERTIES:
-:ID:       tsgzycmtwttrwhyndhwyshldjntwttrrghtnwlxygzy
+:ID:       sgzycmtwttrwhyndhwyshldjntwttrrghtnwlxygzy
 :END:

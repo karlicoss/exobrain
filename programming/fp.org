@@ -3,7 +3,7 @@
 
 * [2016-06-20] What is functional programming?
 :PROPERTIES:
-:ID:       stwhtsfnctnlprgrmmng
+:ID:       whtsfnctnlprgrmmng
 :END:
 - First-class and higher-order functions
 - Pure functions
@@ -34,7 +34,7 @@
 
 * [2016-10-24] Kleisli monads                                         :monad:
 :PROPERTIES:
-:ID:       mnklslmnds
+:ID:       klslmnds
 :END:
 Earlier I said that the key to a monad is its Kleisli arrows. The reason why is that Kleisli arrows are morphisms in the Kleisli category, where (>=>) is Kleisli arrow composition:
 
@@ -55,18 +55,18 @@ Like all categories, the Kleisli category must obey the category laws:
 
 * [2016-02-05] type classes: downcasting and instanceof are impossible!
 :PROPERTIES:
-:ID:       frtypclsssdwncstngndnstncfrmpssbl
+:ID:       typclsssdwncstngndnstncfrmpssbl
 :END:
 
 * [2016-09-25] parametricity
 :PROPERTIES:
-:ID:       snprmtrcty
+:ID:       prmtrcty
 :END:
 : In a parametric language the presence of a universally quantified type variable intuitively conveys a very strong guarantee: A (part of a) value passed to a parametric polymorphic function in the position of a type variable is guaranteed only to be copied and moved around, but never inspected in the function
 
 * [2016-08-07] semantics
 :PROPERTIES:
-:ID:       snsmntcs
+:ID:       smntcs
 :END:
 Denotational semantics: natural, maps to mathematical domains
 Operational semantics: describes execution on an abstract machine
@@ -115,7 +115,7 @@ Might cause OOM: foldr (+) 0 [1..1000000]
 TODO: internal thunk stack?
 * [2015-06-20] let polymorphism http://stackoverflow.com/a/12033549/706389 :fp:
 :PROPERTIES:
-:ID:       stltplymrphsmstckvrflwcm
+:ID:       ltplymrphsmstckvrflwcm
 :END:
 We might want to define 
 	let x = expr in t

@@ -22,13 +22,13 @@
 
 * [#C] [2019-02-13] HARFANG® 3D                                      :python:
 :PROPERTIES:
-:ID:       wdhrfngd
+:ID:       hrfngd
 :END:
 https://www.harfang3d.com/
 from awesome-python
 * STRT [#C] [2019-02-01] Singularity Hacker - Your Virtual Reality Shortlist :ar:gadget:
 :PROPERTIES:
-:ID:       frsnglrtyhckryrvrtlrltyshrtlst
+:ID:       snglrtyhckryrvrtlrltyshrtlst
 :END:
 http://singularityhacker.com/post/70342744357/your-virtual-reality-shortlist
 : 4. Myo
@@ -38,7 +38,7 @@ hmm could use it for kinda mouse? that'd be pretty cool, basically controlling m
 
 ** [2019-02-01] shit, discontinued...
 :PROPERTIES:
-:ID:       frshtdscntnd
+:ID:       shtdscntnd
 :END:
 * TODO [#C] wonder if I could represent timeline somehow     :memex:timeline:
 :PROPERTIES:
@@ -56,7 +56,7 @@ Basically the idea is you can mark the pole and walk around it
 Kinda binary search!
 ** [2019-05-06] and then do same for cube, for instance
 :PROPERTIES:
-:ID:       mnndthndsmfrcbfrnstnc
+:ID:       ndthndsmfrcbfrnstnc
 :END:
 
 * TODO [#C] hmm, looks like no quantum physics simulations in VR? I could totally plot something interesting... :quantum:viz:
@@ -66,19 +66,19 @@ Kinda binary search!
 :END:
 * [#C] [2019-06-15] jeromeetienne/AR.js: Efficient Augmented Reality for the Web - 60fps on mobile! :ar:
 :PROPERTIES:
-:ID:       stjrmtnnrjsffcntgmntdrltyfrthwbfpsnmbl
+:ID:       jrmtnnrjsffcntgmntdrltyfrthwbfpsnmbl
 :END:
 https://github.com/jeromeetienne/AR.js
 
 * [#C] [2019-07-27] Non-euclidean virtual reality - YouTube :physics:viz:math:
 :PROPERTIES:
-:ID:       stnncldnvrtlrltyytb
+:ID:       nncldnvrtlrltyytb
 :END:
 https://www.youtube.com/watch?v=ztsi0CLxmjw&list=WL&index=50
 ok, that's pretty interesting, they demonstrate parallel transport
 * STRT [#C] [2019-06-01] Joshua Corvinus (@JoshuaCorvinus) | Twitter
 :PROPERTIES:
-:ID:       stjshcrvnsjshcrvnstwttr
+:ID:       jshcrvnsjshcrvnstwttr
 :END:
 https://twitter.com/JoshuaCorvinus
 - [2019-06-11] some AR/VR guy?
@@ -86,19 +86,19 @@ https://twitter.com/JoshuaCorvinus
 
 * TODO [#C] [2019-06-28] First day Valve Index, Loving it already! And using it to its max potential, obviously : virtualreality
 :PROPERTIES:
-:ID:       frfrstdyvlvndxlvngtlrdyndgtttsmxptntlbvslyvrtlrlty
+:ID:       frstdyvlvndxlvngtlrdyndsngtttsmxptntlbvslyvrtlrlty
 :END:
 https://www.reddit.com/r/virtualreality/comments/c6jbxk/first_day_valve_index_loving_it_already_and_using/
 : First day Valve Index, Loving it already! And using it to its max potential, obviously
 * [#C] [2019-11-10] The Electric Brain - Mind Field S2 (Ep 8) - YouTube :eyetracking:
 :PROPERTIES:
-:ID:       snthlctrcbrnmndfldspytb
+:ID:       thlctrcbrnmndfldspytb
 :END:
 https://www.youtube.com/watch?v=NXNGvDdkXZE&list=PLZRRxQcaEjA7wmh3Z6EQuOK9fm1CqnJCI&index=8
 some pretty cool eye tracking device for locked in syndrome in 23:30
 * [#C] [2019-12-12] Visakan Veerasamy on Twitter: "Can’t wait to have AR glasses that sync with @roamresearch so that every object in my house can be tagged and networked" / Twitter :ar:
 :PROPERTIES:
-:ID:       thvsknvrsmyntwttrcntwtthvnmyhscnbtggdndntwrkdtwttr
+:ID:       vsknvrsmyntwttrcntwtthvrgnmyhscnbtggdndntwrkdtwttr
 :END:
 https://twitter.com/visakanv/status/1205001027386138624
 : Visakan Veerasamy
@@ -119,7 +119,7 @@ https://twitter.com/visakanv/status/1205001027386138624
 
 * [#D] [2019-06-18] Real-Time Facial Tracking in VR : virtualreality
 :PROPERTIES:
-:ID:       trltmfcltrckngnvrvrtlrlty
+:ID:       rltmfcltrckngnvrvrtlrlty
 :END:
 https://www.reddit.com/r/virtualreality/comments/bsyaxs/realtime_facial_tracking_in_vr/
 
@@ -131,53 +131,53 @@ https://www.reddit.com/r/virtualreality/comments/bsyaxs/realtime_facial_tracking
 
 * [2019-08-13] [[https://reddit.com/r/virtualreality/comments/cpat34/modeled_in_vr_oculusmedium_quill_rendered_in/][Modeled in VR (oculusmedium, quill), rendered in Unity with a toonshader.]] /r/virtualreality
 :PROPERTIES:
-:ID:       tsrddtcmrvrtlrltycmmntscpdrdnntywthtnshdrrvrtlrlty
+:ID:       srddtcmrvrtlrltycmmntscptdrdnntywthtnshdrrvrtlrlty
 :END:
 
 * DONE [#B] [2019-06-06] [[https://reddit.com/r/Python/comments/bwlo4g/i_made_an_augmented_reality_real_time_sudoku/][I made an augmented reality real time sudoku solver in Python (source code in comments)]] /r/Python :ar:
 :PROPERTIES:
-:ID:       thsrddtcmrpythncmmntsbwlgrnpythnsrccdncmmntsrpythn
+:ID:       srddtcmrpythncmmntsbwlgmdrnpythnsrccdncmmntsrpythn
 :END:
 * TODO [#C] [2019-06-18] Non-euclidean virtual reality - YouTube :towatch:vr:
 :PROPERTIES:
-:ID:       tnncldnvrtlrltyytb
+:ID:       nncldnvrtlrltyytb
 :END:
 https://www.youtube.com/watch?v=ztsi0CLxmjw
 
 * TODO [#C] [2019-06-18] What does VR reveal about the 4th dimension? - YouTube :towatch:vr:
 :PROPERTIES:
-:ID:       twhtdsvrrvlbtththdmnsnytb
+:ID:       whtdsvrrvlbtththdmnsnytb
 :END:
 https://www.youtube.com/watch?v=S-yRYmdsnGs
 
 * TODO [#C] [2019-06-18] Non-euclidean virtual reality using ray marching - YouTube :towatch:vr:
 :PROPERTIES:
-:ID:       tnncldnvrtlrltysngrymrchngytb
+:ID:       nncldnvrtlrltysngrymrchngytb
 :END:
 https://www.youtube.com/watch?v=ivHG4AOkhYA
 ray marching?
 
 * TODO [#C] [2019-06-18] Chroma Lab - VR Physics Simulation Sandbox - YouTube :towatch:vr:
 :PROPERTIES:
-:ID:       tchrmlbvrphyscssmltnsndbxytb
+:ID:       chrmlbvrphyscssmltnsndbxytb
 :END:
 https://www.youtube.com/watch?v=qu8lB3l20wY
 
 * DONE [#B] [2020-10-31] [[https://news.ycombinator.com/item?id=24934722][Show HN: What would mechanical programming look like?]] :vr:
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmdshwhnwhtwldmchnclprgrmmnglklk
+:ID:       snwsycmbntrcmtmdshwhnwhtwldmchnclprgrmmnglklk
 :END:
 https://mockmechanics.com/
 * DONE [#B] [2019-04-08] Arcan is a powerful development framework for creating virtually anything between user interfaces for specialised embedded applications all the way to full-blown standalone desktop environments :vr:interface:
 :PROPERTIES:
-:ID:       mnrcnspwrfldvlpmntfrmwrkfllblwnstndlndsktpnvrnmnts
+:ID:       rcnspwrfldvlpmntfrmwrkfrcllblwnstndlndsktpnvrnmnts
 :END:
 https://arcan-fe.com/about/
 ** [2019-07-23] One of the absolute main goals with the Arcan project as a whole is to explore different models for all the technical aspects that goes into how we interact with computers, and to provide the infrastructure for reducing the barrier to entry for such explorations.
 :PROPERTIES:
-:ID:       tnfthbsltmnglswththrcnprjngthbrrrtntryfrschxplrtns
+:ID:       nfthbsltmnglswththrcnprjcngthbrrrtntryfrschxplrtns
 :END:
 ** [2019-07-23] ok it's interesting, but not sure what it's got for me now
 :PROPERTIES:
-:ID:       tktsntrstngbtntsrwhttsgtfrmnw
+:ID:       ktsntrstngbtntsrwhttsgtfrmnw
 :END:

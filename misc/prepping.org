@@ -3,7 +3,7 @@
 
 * [#C] [2019-02-01] WikiReader - Wikipedia https://en.wikipedia.org/wiki/WikiReader
 :PROPERTIES:
-:ID:       frwkrdrwkpdsnwkpdrgwkwkrdr
+:ID:       wkrdrwkpdsnwkpdrgwkwkrdr
 :END:
 huh, something like that could be cool!
 
@@ -18,19 +18,19 @@ huh, something like that could be cool!
 :END:
 * [#D] [2019-10-11] Collapse OS — Bootstrap post-collapse technology :prepping:bootstrap:
 :PROPERTIES:
-:ID:       frcllpssbtstrppstcllpstchnlgy
+:ID:       cllpssbtstrppstcllpstchnlgy
 :END:
 https://collapseos.org/
 ** [#D] [2019-10-11] Collapse OS — Bootstrap post-collapse technology | Lobsters :prepping:
 :PROPERTIES:
-:ID:       frcllpssbtstrppstcllpstchnlgylbstrs
+:ID:       cllpssbtstrppstcllpstchnlgylbstrs
 :END:
 https://lobste.rs/s/nxxttu/collapse_os_bootstrap_post_collapse
 : If computers are useful post-collapse (big if), people will scavenge x86 boxes because they’re everywhere, people are far likelier to know how to use it, and they already run most everything. There’s enough around that scavenging is easier than using 1970s tech, and the older examples are quite workable with a soldering iron anyway.
 
 * [2015-06-19] how to protect from radiation?            :humanbody:prepping:
 :PROPERTIES:
-:ID:       frhwtprtctfrmrdtn
+:ID:       hwtprtctfrmrdtn
 :END:
 - Iodine-131: one of the products of the radioactive Uranium and Plutonium decay. Half-life: 8 days.
 - The thyroid gland basically stores Iodine in the human body.
@@ -49,7 +49,7 @@ http://longnow.org/
 
 * [2019-06-17] Jonathan Blow - Preventing the Collapse of Civilization (English only) - YouTube :collapse:
 :PROPERTIES:
-:ID:       mnjnthnblwprvntngthcllpsfcvlztnnglshnlyytb
+:ID:       jnthnblwprvntngthcllpsfcvlztnnglshnlyytb
 :END:
 https://www.youtube.com/watch?v=pW-SOdj4Kkk
 well I mean he makes good points that software and hardware are too complicated and present an easy target for failure/civilisational collapse/whatever. but what's the alternative?

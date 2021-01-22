@@ -32,66 +32,66 @@ with strength training this is something very hard to measure and not sure if ma
 :END:
 ** [#B] [2019-01-13] quantified awesome                                  :qs:
 :PROPERTIES:
-:ID:       snqntfdwsm
+:ID:       qntfdwsm
 :END:
 http://quantifiedawesome.com/
 https://github.com/sachac/quantified
 *** [2019-04-06] ok, looks pretty clean, but might require some tinkering
 :PROPERTIES:
-:ID:       stklksprttyclnbtmghtrqrsmtnkrng
+:ID:       klksprttyclnbtmghtrqrsmtnkrng
 :END:
 
 ** [#C] [2018-06-06] Qs dashboard example                                :qs:
 :PROPERTIES:
-:ID:       wdqsdshbrdxmpl
+:ID:       qsdshbrdxmpl
 :END:
 https://qself-dashboard.herokuapp.com
 *** [2019-04-06] interesting dashboards: spotify, writing and reading. otherwise not that much stuff
 :PROPERTIES:
-:ID:       stntrstngdshbrdssptfywrtngndrdngthrwsntthtmchstff
+:ID:       ntrstngdshbrdssptfywrtngndrdngthrwsntthtmchstff
 :END:
 *** [2020-08-22] ok seems that they use similar architecture to mine https://forum.quantifiedself.com/t/personal-dashboards-for-self-tracking-data/8202/4?u=karlicoss
 :PROPERTIES:
-:ID:       stksmsthtthyssmlrrchtctrtshbrdsfrslftrckngdtkrlcss
+:ID:       ksmsthtthyssmlrrchtctrtmnshbrdsfrslftrckngdtkrlcss
 :END:
 
 ** DONE [2019-02-21] Beau Gunderson                                      :qs:
 :PROPERTIES:
-:ID:       thbgndrsn
+:ID:       bgndrsn
 :END:
 - State "DONE"       from              [2019-04-06]
 https://beaugunderson.com/
 realtime qs... whoa
 *** [2019-04-06] ok, but nothing too exciting apart from projects list design (cv)
 :PROPERTIES:
-:ID:       stkbtnthngtxctngprtfrmprjctslstdsgncv
+:ID:       kbtnthngtxctngprtfrmprjctslstdsgncv
 :END:
 *** [2019-06-29] also nice design and colors
 :PROPERTIES:
-:ID:       stlsncdsgnndclrs
+:ID:       lsncdsgnndclrs
 :END:
 
 ** [#B] [2019-02-21] Buster Benson                              :qs:timeline:
 :PROPERTIES:
-:ID:       thbstrbnsn
+:ID:       bstrbnsn
 :END:
 http://busterbenson.com
 https://notes.busterbenson.com/life-in-weeks
 pretty cool stuff too..
 *** [2019-04-06] nice matrix that highlights life events, life beliefs etc
 :PROPERTIES:
-:ID:       stncmtrxththghlghtslfvntslfblfstc
+:ID:       ncmtrxththghlghtslfvntslfblfstc
 :END:
 
 ** [#C] [2019-05-21] quelf/report.Rmd at master · JakobGM/quelf
 :PROPERTIES:
-:ID:       tqlfrprtrmdtmstrjkbgmqlf
+:ID:       qlfrprtrmdtmstrjkbgmqlf
 :END:
 https://github.com/JakobGM/quelf/blob/master/analysis/report.Rmd
 
 ** [#D] [2019-01-08] [[https://reddit.com/r/QuantifiedSelf/comments/acxy1v/personal_dashboard/][Personal Dashboard]] /r/QuantifiedSelf
 :PROPERTIES:
-:ID:       tsrddtcmrqntfdslfcmmntscxshbrdprsnldshbrdrqntfdslf
+:ID:       srddtcmrqntfdslfcmmntscxyshbrdprsnldshbrdrqntfdslf
 :END:
 :  Hi all,
 :  So I made a dashboard, I'd love to know what you think.
@@ -100,19 +100,19 @@ https://github.com/JakobGM/quelf/blob/master/analysis/report.Rmd
 : https://i.redd.it/ufpm4s9k0o821.png
 *** [2019-04-11] itis not very elaborate though...
 :PROPERTIES:
-:ID:       thtsntvrylbrtthgh
+:ID:       tsntvrylbrtthgh
 :END:
 ** [#B] [2020-08-22] event chart https://forum.quantifiedself.com/t/best-examples-of-quanitified-self-dashboards/4590/9
 :PROPERTIES:
-:ID:       stvntchrtsfrmqntfdslfcmtbstxmplsfqntfdslfdshbrds
+:ID:       vntchrtsfrmqntfdslfcmtbstxmplsfqntfdslfdshbrds
 :END:
 ** [#C] [2020-08-22] ok, looks kinda slick.. https://flowdash.co/app/about
 :PROPERTIES:
-:ID:       stklkskndslcksflwdshcppbt
+:ID:       klkskndslcksflwdshcppbt
 :END:
 ** [#C] [2020-08-22]  https://forum.quantifiedself.com/t/personal-dashboards-for-self-tracking-data/8202/15 some good dashboards
 :PROPERTIES:
-:ID:       stsfrmqntfdslfcmtprsnldshsfrslftrckngdtsmgddshbrds
+:ID:       sfrmqntfdslfcmtprsnldshbrsfrslftrckngdtsmgddshbrds
 :END:
 workouts, weight, sleep, hr
 
@@ -126,56 +126,56 @@ https://exploratory.openhumans.org/notebooks/?source=google%20takeouts&order_by=
 
 ** STRT [#B] [2020-07-02] [[https://github.com/jeffshek/betterself][jeffshek/betterself: Your body's dashboard.]]
 :PROPERTIES:
-:ID:       thsgthbcmjffshkbttrslfjffshkbttrslfyrbdysdshbrd
+:ID:       sgthbcmjffshkbttrslfjffshkbttrslfyrbdysdshbrd
 :END:
 *** [2020-08-24] demo https://app.betterself.io
 :PROPERTIES:
-:ID:       mndmsppbttrslf
+:ID:       dmsppbttrslf
 :END:
 - table with notes is kinda nice?
   eh. would be nice to have something automatic for dataframes
 ** TODO [#C] [2019-12-22] Whereisfelix                                   :qs:
 :PROPERTIES:
-:ID:       snwhrsflx
+:ID:       whrsflx
 :END:
 https://whereisfelix.today
 ** TODO [#B] [2019-11-24] heedy/heedy: An Open-Source Platform for Quantified Self & IoT
 :PROPERTIES:
-:ID:       snhdyhdynpnsrcpltfrmfrqntfdslft
+:ID:       hdyhdynpnsrcpltfrmfrqntfdslft
 :END:
 https://github.com/heedy/heedy
 *** [2020-08-23] interesing, automatic jupyter notebook connection??
 :PROPERTIES:
-:ID:       snntrsngtmtcjpytrntbkcnnctn
+:ID:       ntrsngtmtcjpytrntbkcnnctn
 :END:
 
 ** TODO [#C] [2019-09-22] markwk/qs_ledger: Quantified Self Personal Data Aggregator and Data Analysis :qs:dataliberation:
 :PROPERTIES:
-:ID:       snmrkwkqsldgrqntfdslfprsnldtggrgtrnddtnlyss
+:ID:       mrkwkqsldgrqntfdslfprsnldtggrgtrnddtnlyss
 :END:
 https://github.com/markwk/qs_ledger
 interesting, but data exports are not very reusable
 *** [2019-09-28] I guess once I export everything could send a link to that guy?
 :PROPERTIES:
-:ID:       stgssncxprtvrythngcldsndlnktthtgy
+:ID:       gssncxprtvrythngcldsndlnktthtgy
 :END:
 ** TODO [#B] [2020-09-03] https://github.com/KrauseFx/FxLifeSheet
 :PROPERTIES:
-:ID:       thsgthbcmkrsfxfxlfsht
+:ID:       sgthbcmkrsfxfxlfsht
 :END:
 ** [#C] [2020-04-04] ammanvedi/quantified-self-server: Aggregate data about myself (workouts, blog posts, music listening history) into a graphql API
 :PROPERTIES:
-:ID:       stmmnvdqntfdslfsrvrggrgtdtsmsclstnnghstryntgrphqlp
+:ID:       mmnvdqntfdslfsrvrggrgtdtbtsmsclstnnghstryntgrphqlp
 :END:
 https://github.com/ammanvedi/quantified-self-server
 ** [2020-09-10] [[https://github.com/quantifiedbob/bob-body-composition-viz][quantifiedbob/bob-body-composition-viz: Jupyter Notebook vizualizing 10+ years of my body composition data]]
 :PROPERTIES:
-:ID:       thsgthbcmqntfdbbbbbdycmpsbkvzlzngyrsfmybdycmpstndt
+:ID:       sgthbcmqntfdbbbbbdycmpstnbkvzlzngyrsfmybdycmpstndt
 :END:
 
 ** TODO [2020-09-10] [[https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/][Top 50 matplotlib Visualizations - The Master Plots (w/ Full Python Code) | ML+]]
 :PROPERTIES:
-:ID:       thswwwmchnlrnngplscmpltstnsthmstrpltswfllpythncdml
+:ID:       swwwmchnlrnngplscmpltstpmnsthmstrpltswfllpythncdml
 :END:
 : 39. Time Series Decomposition Plot
 
@@ -193,7 +193,7 @@ https://connect.garmin.com/modern/activities
 
 ** [2020-10-27] [[https://connect.garmin.com/modern/activity/5736337040][Garmin Connect]]
 :PROPERTIES:
-:ID:       tscnnctgrmncmmdrnctvtygrmncnnct
+:ID:       scnnctgrmncmmdrnctvtygrmncnnct
 :END:
 pretty nice clean visualizations, I need to borrow these I guess
 ** TODO [#B] keeping query in the address string is pretty clever... can bookmark and easily restart it! :datasette:inspiration:
@@ -203,7 +203,7 @@ pretty nice clean visualizations, I need to borrow these I guess
 :END:
 ** [#D] [2019-04-19] How to Create a Time Tracking Dashboard using RescueTime, IFTTT and Google Sheets - Minding the Borderlands :inspiration:qs:
 :PROPERTIES:
-:ID:       frhwtcrttmtrckngdshbrdsngtndgglshtsmndngthbrdrlnds
+:ID:       hwtcrttmtrckngdshbrdsngrstndgglshtsmndngthbrdrlnds
 :END:
 http://www.markwk.com/data-processing-time-tracking.html
 
@@ -232,13 +232,13 @@ http://www.markwk.com/data-processing-time-tracking.html
 :END:
 ** STRT [#C] [2019-08-21] Respiratory rate - Wikipedia                :sleep:
 :PROPERTIES:
-:ID:       wdrsprtryrtwkpd
+:ID:       rsprtryrtwkpd
 :END:
 https://en.m.wikipedia.org/wiki/Respiratory_rate
 : For humans, the typical respiratory rate for a healthy adult at rest is 12–18 breaths per minute.[
 *** [2020-08-24] add to dataframe
 :PROPERTIES:
-:ID:       mnddtdtfrm
+:ID:       ddtdtfrm
 :END:
 ** TODO [#B] correlate with sliding exponential mean instead?         :sleep:
 :PROPERTIES:
@@ -308,7 +308,7 @@ https://en.m.wikipedia.org/wiki/Respiratory_rate
 :END:
 *** [2020-08-25] could plot on the sleep bars plot?
 :PROPERTIES:
-:ID:       tcldpltnthslpbrsplt
+:ID:       cldpltnthslpbrsplt
 :END:
 ** TODO [#C] integrate old melatonin experiment, maybe post about it
 :PROPERTIES:
@@ -322,7 +322,7 @@ https://en.m.wikipedia.org/wiki/Respiratory_rate
 :END:
 ** [#C] [2018-06-20] Emfit qs estimated my sleep high, even though i felt a bit like shit. I wonder if it just correlates with sleep length..
 :PROPERTIES:
-:ID:       wdmftqsstmtdmyslphghvnthgndrftjstcrrltswthslplngth
+:ID:       mftqsstmtdmyslphghvnthghfndrftjstcrrltswthslplngth
 :END:
 ** TODO [#C] temperature during sleep                              :qs:sleep:
 :PROPERTIES:
@@ -348,7 +348,7 @@ https://en.m.wikipedia.org/wiki/Respiratory_rate
 :END:
 *** [2020-08-25] could even plot activity bars
 :PROPERTIES:
-:ID:       tcldvnpltctvtybrs
+:ID:       cldvnpltctvtybrs
 :END:
 ** TODO [#C] figure out alarm wakeup vs 'natural' wakeup, could tell me something about sleep intervals :qs:
 :PROPERTIES:
@@ -411,7 +411,7 @@ Huh that's a nice way to save on space
 :END:
 ** [#B] [2019-11-14] Опыт обращения к сомнологу                    :qs:sleep:
 :PROPERTIES:
-:ID:       thопытобращенияксомнологу
+:ID:       опытобращенияксомнологу
 :END:
 http://vsevolodustinov.ru/blog/all/opyt-obrascheniya-k-somnologu/
 : . Никакого алкоголя
@@ -479,12 +479,12 @@ wonder if it's related to my quality of sleep?
 :END:
 ** [#B] [2020-09-30] [[https://forum.quantifiedself.com/t/relationships-between-hrv-sleep-and-physical-activity-in-personal-oura-ring-data/8524][Relationships between HRV, sleep and physical activity in personal Oura ring data - Quantified Self / General Health - Quantified Self Forum]] :hrv:hr:sleep:exercise:
 :PROPERTIES:
-:ID:       wdsfrmqntfdslfcmtrltnshpstfdslfgnrlhlthqntfdslffrm
+:ID:       sfrmqntfdslfcmtrltnshpsbttfdslfgnrlhlthqntfdslffrm
 :END:
 nice, pretty similar to my findings?
 ** TODO [2020-09-30] fucking hell! after naples HRV jumped and HR dropped very significantly :self:sleep:
 :PROPERTIES:
-:ID:       wdfcknghllftrnplshrvjmpdndhrdrppdvrysgnfcntly
+:ID:       fcknghllftrnplshrvjmpdndhrdrppdvrysgnfcntly
 :END:
 ** TODO [#B] correlate dreams with rem/deep etc?                      :sleep:
 :PROPERTIES:
@@ -503,7 +503,7 @@ nice, pretty similar to my findings?
 :END:
 *** [2020-09-03] also make sure it's easy to do
 :PROPERTIES:
-:ID:       thlsmksrtssytd
+:ID:       lsmksrtssytd
 :END:
 
 * TODO [#A] come up with a better name? just in case of pypi release...
@@ -522,7 +522,7 @@ nice, pretty similar to my findings?
 :END:
 ** [2020-09-01] ok, this lag thing in bokeh could work
 :PROPERTIES:
-:ID:       tkthslgthngnbkhcldwrk
+:ID:       kthslgthngnbkhcldwrk
 :END:
 
 * STRT [#B] need to try different date shifts to see it's not correlated
@@ -532,7 +532,7 @@ nice, pretty similar to my findings?
 :END:
 * [#B] [2019-04-19] qs_ledger/example_correlation_explorer_with_plotly.py at master · markwk/qs_ledger
 :PROPERTIES:
-:ID:       frqsldgrxmplcrrltnxplrrwthpltlypytmstrmrkwkqsldgr
+:ID:       qsldgrxmplcrrltnxplrrwthpltlypytmstrmrkwkqsldgr
 :END:
 https://github.com/markwk/qs_ledger/blob/master/example_correlation_explorer_with_plotly.py
 plotly dash regression example
@@ -548,11 +548,11 @@ plotly dash regression example
 :END:
 * TODO [#B] [2019-10-15] [[https://reddit.com/r/Biohackers/comments/di60ub/why_you_should_continuously_track_your_energy/][Why you should continuously track your energy level and what I've learned from it.]] /r/Biohackers :qs:
 :PROPERTIES:
-:ID:       tsrddtcmrbhckrscmmntsdbwhylvlndwhtvlrndfrmtrbhckrs
+:ID:       srddtcmrbhckrscmmntsdbwhyylvlndwhtvlrndfrmtrbhckrs
 :END:
 ** [2019-10-18] about tracker matching subjective score
 :PROPERTIES:
-:ID:       frbttrckrmtchngsbjctvscr
+:ID:       bttrckrmtchngsbjctvscr
 :END:
 
 * STRT [#B] def need to measure decay to 60 to get more data...  :qs:hr:blog:
@@ -562,7 +562,7 @@ plotly dash regression example
 :END:
 * STRT [#B] [2019-12-27] Getting started — Datasette documentation      :hpi:
 :PROPERTIES:
-:ID:       frgttngstrtddtsttdcmnttn
+:ID:       gttngstrtddtsttdcmnttn
 :END:
 https://datasette.readthedocs.io/en/stable/getting_started.html#glitch
 : Try Datasette without installing anything using Glitch
@@ -594,7 +594,7 @@ https://datasette.readthedocs.io/en/stable/getting_started.html#glitch
 have a core subpackages and various tabs... not sure how to refactor them out later
 ** [2020-09-01] similarly to HPI, it's more of a demonstration how it can be done. Ideally people would be able to reuse core and build their own dashboards
 :PROPERTIES:
-:ID:       tsmlrlythptsmrfdmnstrtnhwbbltrscrndbldthrwndshbrds
+:ID:       smlrlythptsmrfdmnstrtnhwtbbltrscrndbldthrwndshbrds
 :END:
 * STRT [#B] wonder if it's possible to output errors in dashboard... I guess make them defensive and display :motivation:
 :PROPERTIES:
@@ -623,7 +623,7 @@ have a core subpackages and various tabs... not sure how to refactor them out la
 :END:
 ** [2020-09-20] maybe could be automatic/agnostic? add to cdf check?
 :PROPERTIES:
-:ID:       snmybcldbtmtcgnstcddtcdfchck
+:ID:       mybcldbtmtcgnstcddtcdfchck
 :END:
 * TODO [#B] restrict datapoints 'by experiment'? same way it's done with date sliders?
 :PROPERTIES:
@@ -642,7 +642,7 @@ have a core subpackages and various tabs... not sure how to refactor them out la
 :END:
 ** [2020-09-03] need to test it, just to double check
 :PROPERTIES:
-:ID:       thndttsttjsttdblchck
+:ID:       ndttsttjsttdblchck
 :END:
 
 * TODO [#B] I think dashboard needs to preserve state somehow, it's annoying to edit code every time.. wonder if dash supports it?
@@ -676,7 +676,7 @@ plotly:
 - possibly better html elements support?
 ** [2020-09-03] compromise: keep it as framework independent and decoupled as possible. Support both frameworks!
 :PROPERTIES:
-:ID:       thcmprmskptsfrmwrkndpndntcpldspssblspprtbthfrmwrks
+:ID:       cmprmskptsfrmwrkndpndntndcpldspssblspprtbthfrmwrks
 :END:
 * STRT [#B] basically have a core library that's imported in all notebooks. move stuff to core as long as possible, but allow quick button to mess with the data in notebook :blog:
 :PROPERTIES:
@@ -691,7 +691,7 @@ plotly:
 
 * TODO [#B] [2019-04-11] Visualization — pandas 0.24.2 documentation    :viz:
 :PROPERTIES:
-:ID:       thvslztnpndsdcmnttn
+:ID:       vslztnpndsdcmnttn
 :END:
 https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html#visualization-autocorrelation
 
@@ -702,7 +702,7 @@ https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html#visua
 :END:
 ** [2020-09-06] write that ideally it would be one of the goals? wonder how can I approach this.
 :PROPERTIES:
-:ID:       snwrtthtdllytwldbnfthglswndrhwcnpprchths
+:ID:       wrtthtdllytwldbnfthglswndrhwcnpprchths
 :END:
 maybe just go over all series? and then generate all pairwise correlations and sort by correlation coefficient + R^2? some sort of pareto surface?
 * TODO [#B] would be cool to scale arbitrarily vertically and horizontally, the whole plot :bokeh:
@@ -738,11 +738,11 @@ maybe the data is sifted through the elliptical/running/spinning modules and wha
 
 * TODO [#B] [2020-09-16] [[https://forum.quantifiedself.com/t/building-a-data-dashboard/449][Building a Data Dashboard - Quantified Self / Apps & Tools - Quantified Self Forum]]
 :PROPERTIES:
-:ID:       wdsfrmqntfdslfcmtbldngdtdqntfdslfppstlsqntfdslffrm
+:ID:       sfrmqntfdslfcmtbldngdtdshqntfdslfppstlsqntfdslffrm
 :END:
 * TODO [#B] [2020-08-23] [[https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=hvplot&sort=byPopularity&type=all][All | Search powered by Algolia]]
 :PROPERTIES:
-:ID:       snshnlglcmdtrngllpgprfxtrplrtytypllllsrchpwrdbylgl
+:ID:       shnlglcmdtrngllpgprfxtrqrplrtytypllllsrchpwrdbylgl
 :END:
 : Panel, hvPlot, HoloViews, GeoViews, Datashader, Param, Colorcet -- all working together to make Python data visualization easier and more powerful.
 * TODO [#B] would be nice to zoom individual plots..
@@ -762,33 +762,33 @@ maybe the data is sifted through the elliptical/running/spinning modules and wha
 :END:
 * TODO [#B] [2020-10-11] [[https://docs.bokeh.org/en/latest/docs/user_guide/webgl.html][Accelerating with WebGL — Bokeh 2.2.1 Documentation]]
 :PROPERTIES:
-:ID:       snsdcsbkhrgnltstdcssrgdwblcclrtngwthwbglbkhdcmnttn
+:ID:       sdcsbkhrgnltstdcssrgdwbgllcclrtngwthwbglbkhdcmnttn
 :END:
 ** [2020-10-11] [[https://docs.bokeh.org/en/latest/docs/user_guide/webgl.html][Accelerating with WebGL — Bokeh 2.2.1 Documentation]]
 :PROPERTIES:
-:ID:       snsdcsbkhrgnltstdcssrgdwblcclrtngwthwbglbkhdcmnttn
+:ID:       sdcsbkhrgnltstdcssrgdwbgllcclrtngwthwbglbkhdcmnttn
 :END:
 : Only a subset of Bokeh’s objects are capable of rendering in WebGL. Currently supported are the circle and line glyphs, and many markers: asterisk, circle, square, diamond, triangle, inverted_triangle, cross, circle_cross, square_cross, diamond_cross, x, square_x, and circle_x. You can safely combine multiple glyphs in a plot, even if some are rendered in WebGL, and some are not.
 ** [2020-10-11] hmm, didn't seem to have any effect??
 :PROPERTIES:
-:ID:       snhmmddntsmthvnyffct
+:ID:       hmmddntsmthvnyffct
 :END:
 * TODO [#C] [2019-04-09] Short- and long-term effects of a single bout of exercise on heart rate variability: comparison between constant and interval training exercises. - PubMed - NCBI :hrv:
 :PROPERTIES:
-:ID:       tshrtndlngtrmffctsfsnglbttndntrvltrnngxrcsspbmdncb
+:ID:       shrtndlngtrmffctsfsnglbtftndntrvltrnngxrcsspbmdncb
 :END:
 https://www.ncbi.nlm.nih.gov/pubmed/15461995
 : R-R intervals, TP, and HF/TP were significantly decreased while LF/TP and LF/HF were significantly increased during the early recovery, when compared with control values. This could be a response to the significant decrease in SAP and DAP at this time. Twenty-four and 48 h after the end of the exercise, HRV parameters were at the same levels as before exercises in the supine posture, but a persistent tachycardia continued to be observed in the upright posture, together with reduced TP values, showing that cardiovascular functions were still disturbed. The short-term HRV recovery seemed dependent on the type of exercise, contrary to the long-term recovery.
 * TODO [#C] [2019-08-17] Plotting with categorical data — seaborn 0.9.0 documentation :viz:
 :PROPERTIES:
-:ID:       stplttngwthctgrcldtsbrndcmnttn
+:ID:       plttngwthctgrcldtsbrndcmnttn
 :END:
 https://seaborn.pydata.org/tutorial/categorical.html#categorical-tutorial
 : Boxplots
 : The first is the familiar boxplot(). This kind of plot shows the three quartile values of the distribution along with extreme values. The “whiskers” extend to points that lie within 1.5 IQRs of the lower and upper quartile, and then observations that fall outside this range are displayed independently. This means that each value in the boxplot corresponds to an actual observation in the data.
 ** [2020-09-02] not sure if boxplots in particular are usefult to me?
 :PROPERTIES:
-:ID:       wdntsrfbxpltsnprtclrrsflttm
+:ID:       ntsrfbxpltsnprtclrrsflttm
 :END:
 * TODO [#C] display photos as an optional layer along with the map?
 :PROPERTIES:
@@ -797,7 +797,7 @@ https://seaborn.pydata.org/tutorial/categorical.html#categorical-tutorial
 :END:
 ** [2020-09-06] just need to integrate dashboard with photomap
 :PROPERTIES:
-:ID:       snjstndtntgrtdshbrdwthphtmp
+:ID:       jstndtntgrtdshbrdwthphtmp
 :END:
 * STRT [#C] temperature -- probably, seasonality?                        :qs:
 :PROPERTIES:
@@ -819,7 +819,7 @@ maybe run the original data retrieval? not sure
 :END:
 ** TODO [2019-04-10] could add to dashboard?
 :PROPERTIES:
-:ID:       wdcldddtdshbrd
+:ID:       cldddtdshbrd
 :END:
 * TODO [#C] 'Other' workouts i'm using for HR decay  -- shit, I think I lost hr here after 10th minute.  Could detect it automatically I guess? :qs:hr:
 :PROPERTIES:
@@ -838,18 +838,18 @@ maybe run the original data retrieval? not sure
 :END:
 ** [#C] [2019-10-27] plotly/dash@1.4.0
 :PROPERTIES:
-:ID:       snpltlydsh
+:ID:       pltlydsh
 :END:
 : plotly/dash@v1.4.0
 : Dash v1.4.0
 ** [#C] [2020-04-10] Re: [plotly/plotly.py] Importing plotly takes a lot of time (740)
 :PROPERTIES:
-:ID:       frrpltlypltlypymprtngpltlytksltftm
+:ID:       rpltlypltlypymprtngpltlytksltftm
 :END:
 : Import time and initialization time should be much improved on Python 3.7 with PR 2368.
 ** [#C] [2019-04-10] Dash offline is enabled?  plotly/dash
 :PROPERTIES:
-:ID:       wddshfflnsnbldpltlydsh
+:ID:       dshfflnsnbldpltlydsh
 :END:
 https://github.com/plotly/dash/issues/46
 : from dash import Dash
@@ -875,7 +875,7 @@ https://github.com/plotly/dash/issues/46
 :END:
 ** [#C] [2020-08-26] Re: plotly/plotly.py Importing plotly takes a lot of time (740)
 :PROPERTIES:
-:ID:       wdrpltlypltlypymprtngpltlytksltftm
+:ID:       rpltlypltlypymprtngpltlytksltftm
 :END:
 : Re: [plotly/plotly.py] Importing plotly takes a lot of time (740
 * STRT [#C] always keep a tab running on one for my desktops? or pinned
@@ -885,7 +885,7 @@ https://github.com/plotly/dash/issues/46
 :END:
 * TODO [#C] [2019-04-06] shit. influxdb seems to be very unsuitable for the kind of thing I want. also very awkward to render dashboards...
 :PROPERTIES:
-:ID:       stshtnflxdbsmstbvrynstblfwntlsvrywkwrdtrndrdshbrds
+:ID:       shtnflxdbsmstbvrynstblfrtwntlsvrywkwrdtrndrdshbrds
 :END:
 * TODO [#C] calculate some sort of 'integral' heart rate and also score for interval trainings? :exercise:
 :PROPERTIES:
@@ -894,7 +894,7 @@ https://github.com/plotly/dash/issues/46
 :END:
 ** [2020-09-06] eh? maybe I wanted to break down my interval trainings per activity bursts?
 :PROPERTIES:
-:ID:       snhmybwntdtbrkdwnmyntrvltrnngsprctvtybrsts
+:ID:       hmybwntdtbrkdwnmyntrvltrnngsprctvtybrsts
 :END:
 * TODO [#C] shit. if I had food stats that would be just amazing
 :PROPERTIES:
@@ -913,7 +913,7 @@ https://github.com/plotly/dash/issues/46
 :END:
 ** [2020-09-06] probably not enough data...
 :PROPERTIES:
-:ID:       snprbblyntnghdt
+:ID:       prbblyntnghdt
 :END:
 * STRT [#C] integrate elliptical workouts? Could plot workout specific things and make them easy to compare
 :PROPERTIES:
@@ -928,7 +928,7 @@ https://github.com/plotly/dash/issues/46
 pretty sure pandas frames can be easily serialised?
 * [#B] [2020-10-11] [[https://github.com/FifthHour/correlator][FifthHour/correlator: Timeseries correlation in Python, Bokeh Server and on Heroku]] :bokeh:
 :PROPERTIES:
-:ID:       snsgthbcmffthhrcrrltrffthcrrltnnpythnbkhsrvrndnhrk
+:ID:       sgthbcmffthhrcrrltrffthhrcrrltnnpythnbkhsrvrndnhrk
 :END:
 * STRT [#C] I really want proper and fast location history..
 :PROPERTIES:
@@ -1018,7 +1018,7 @@ by combining the HR data (recorded by endomondo) and manual data we get the comp
 (if I add visual highlight on the table, that would be fucking amazing)
 *** [2020-09-14] maybe post on QS forum??
 :PROPERTIES:
-:ID:       mnmybpstnqsfrm
+:ID:       mybpstnqsfrm
 :END:
 ** TODO [#C] error handling -- demonstrate on 'multiple sleeps'
 :PROPERTIES:
@@ -1045,7 +1045,7 @@ by combining the HR data (recorded by endomondo) and manual data we get the comp
 :END:
 * [#C] [2020-09-01] [[https://hvplot.holoviz.org/user_guide/Pandas_API.html][Pandas API — hvPlot 0.6.0 documentation]]
 :PROPERTIES:
-:ID:       tshvplthlvzrgsrgdpndsphtmlpndsphvpltdcmnttn
+:ID:       shvplthlvzrgsrgdpndsphtmlpndsphvpltdcmnttn
 :END:
 : Lag Plot
 : Lag plots are used to check if a data set or time series is random. Random data should not exhibit any structure in the lag plot. Non-random structure implies that the underlying data are not random.
@@ -1092,7 +1092,7 @@ Same for weight?
 :END:
 ** [2020-08-22] eh? what did I mean?
 :PROPERTIES:
-:ID:       sthwhtddmn
+:ID:       hwhtddmn
 :END:
 * TODO [#D] quantified mind? already have plots
 :PROPERTIES:
@@ -1146,7 +1146,7 @@ influxdb on default port... everything is admin/admin
 :END:
 * [#D] [2019-04-07] Dash User Guide and Documentation - Dash by Plotly
 :PROPERTIES:
-:ID:       sndshsrgdnddcmnttndshbypltly
+:ID:       dshsrgdnddcmnttndshbypltly
 :END:
 https://dash.plot.ly/dash-core-components/tabs
 : Note that this method has a drawback: it requires that you compute the children property for each individual tab upfront and send all of the tab's content over the network at once. The callback method allows you to compute the tab's content on the fly (that is, when the tab is clicked).
@@ -1178,26 +1178,26 @@ https://dash.plot.ly/dash-core-components/tabs
 
 * DONE [#B] [2019-05-30] ucg8j/awesome-dash: A curated list of awesome Dash (plotly) resources :viz:dash:
 :PROPERTIES:
-:ID:       thcgjwsmdshcrtdlstfwsmdshpltlyrsrcs
+:ID:       cgjwsmdshcrtdlstfwsmdshpltlyrsrcs
 :END:
 https://github.com/ucg8j/awesome-dash
 ** [2019-07-24] https://dash-gallery.plotly.host/Portal/
 :PROPERTIES:
-:ID:       wdsdshgllrypltlyhstprtl
+:ID:       sdshgllrypltlyhstprtl
 :END:
 ** [2019-07-24] eh, dunno otherwise not so interesting? maybe I'm not really lacking anything, I can think of many things I can add that still need to be implemented..
 :PROPERTIES:
-:ID:       wdhdnnthrwsntsntrstngmybmngscnddthtstllndtbmplmntd
+:ID:       hdnnthrwsntsntrstngmybmntngscnddthtstllndtbmplmntd
 :END:
 
 * DONE [#B] [2019-04-15] Python Data Visualization 2018: Why So Many Libraries? - Anaconda
 :PROPERTIES:
-:ID:       mnpythndtvslztnwhysmnylbrrsncnd
+:ID:       pythndtvslztnwhysmnylbrrsncnd
 :END:
 https://www.anaconda.com/python-data-visualization-2018-why-so-many-libraries/
 ** TODO [2019-09-10] try using in
 :PROPERTIES:
-:ID:       ttrysngn
+:ID:       trysngn
 :END:
 
 * DONE try to find correlation between sleep and exercise?               :qs:
@@ -1215,12 +1215,12 @@ in the simplest approach, try to only use cardio and see how it correlates (bina
 - State "DONE"       from "TODO"       [2019-04-11]
 * DONE [2019-04-14] iris_splom.py — Bokeh 1.1.0 documentation
 :PROPERTIES:
-:ID:       snrssplmpybkhdcmnttn
+:ID:       rssplmpybkhdcmnttn
 :END:
 https://bokeh.pydata.org/en/latest/docs/gallery/iris_splom.html
 ** [2019-07-23] eh, defaults don't look great. maybe it's faster but unclear
 :PROPERTIES:
-:ID:       thdfltsdntlkgrtmybtsfstrbtnclr
+:ID:       hdfltsdntlkgrtmybtsfstrbtnclr
 :END:
 * TODO [#B] for correlations, there is overview + zoomed in individual plots showing all the errors, outliers, etc
 :PROPERTIES:
@@ -1281,11 +1281,11 @@ https://bokeh.pydata.org/en/latest/docs/gallery/iris_splom.html
 exercise will probably have a lot of impact... but then hr is elevated because of the pizza
 ** [2020-10-18] maybe really need to try two-parameter regression?
 :PROPERTIES:
-:ID:       snmybrllyndttrytwprmtrrgrssn
+:ID:       mybrllyndttrytwprmtrrgrssn
 :END:
 ** [2020-10-18] take into the account past pizza orders? this is gonna have systematic impact on my sundays?
 :PROPERTIES:
-:ID:       sntkntthccntpstpzzrdrsthssgnnhvsystmtcmpctnmysndys
+:ID:       tkntthccntpstpzzrdrsthssgnnhvsystmtcmpctnmysndys
 :END:
 * TODO [#B] wtf... without seasons it seems to correlate less??       :sleep:
 :PROPERTIES:
@@ -1299,7 +1299,7 @@ exercise will probably have a lot of impact... but then hr is elevated because o
 :END:
 ** [2020-10-24] or could check seasonality for months that didn't involve running?
 :PROPERTIES:
-:ID:       strcldchckssnltyfrmnthsthtddntnvlvrnnng
+:ID:       rcldchckssnltyfrmnthsthtddntnvlvrnnng
 :END:
 * TODO Each rolling plot can also handle seasonality, residuals etc?
 :PROPERTIES:
@@ -1336,58 +1336,58 @@ e.g. I have a few traffic lights on my way that might affect my speed/cadence da
 :END:
 * TODO [2020-11-01] [[https://jupyterlab.readthedocs.io/en/stable/?ref=hackernoon.com][JupyterLab Documentation — JupyterLab 2.3.0a1 documentation]]
 :PROPERTIES:
-:ID:       snsjpytrlbrdthdcsnstblrfhtrlbdcmnttnjpytrlbdcmnttn
+:ID:       sjpytrlbrdthdcsnstblrfhcktrlbdcmnttnjpytrlbdcmnttn
 :END:
 * [2020-11-03] [[https://github.com/joshlk/dataclassframe][joshlk/dataclassframe: A container for dataclasses with multi-indexing and bulk operations.]] :HPI:
 :PROPERTIES:
-:ID:       tsgthbcmjshlkdtclssfrmjshlssswthmltndxngndblkprtns
+:ID:       sgthbcmjshlkdtclssfrmjshllssswthmltndxngndblkprtns
 :END:
 
 * [2020-11-03] [[https://github.com/joshlk/dataclassframe][joshlk/dataclassframe: A container for dataclasses with multi-indexing and bulk operations.]]
 :PROPERTIES:
-:ID:       tsgthbcmjshlkdtclssfrmjshlssswthmltndxngndblkprtns
+:ID:       sgthbcmjshlkdtclssfrmjshllssswthmltndxngndblkprtns
 :END:
 hmm.. doesn't have any typing imports at all?? what does he mean 'working nicely with type hints', that they don't crash??
 * [#B] [2020-11-11] [[https://github.com/raphaelvallat/pingouin][raphaelvallat/pingouin: Statistical package in Python based on Pandas]]
 :PROPERTIES:
-:ID:       wdsgthbcmrphlvlltpngnrphlsttstclpckgnpythnbsdnpnds
+:ID:       sgthbcmrphlvlltpngnrphlvlsttstclpckgnpythnbsdnpnds
 :END:
 
 * STRT [#B] [2020-10-31] [[https://hackernoon.com/introducing-grid-studio-a-spreadsheet-app-with-python-to-make-data-science-easier-tdup38f7][How I built a spreadsheet app with Python to make data science easier | Hacker Noon]] :spreadsheet:
 :PROPERTIES:
-:ID:       stshckrnncmntrdcnggrdstdswthpythntmkdtscncsrhckrnn
+:ID:       shckrnncmntrdcnggrdstdsprwthpythntmkdtscncsrhckrnn
 :END:
 * [#B] [2020-10-25] [[https://www.tableau.com/en-gb/products/desktop][Tableau Desktop]] :viz:qs:
 :PROPERTIES:
-:ID:       snswwwtblcmngbprdctsdsktptbldsktp
+:ID:       swwwtblcmngbprdctsdsktptbldsktp
 :END:
 
 * TODO [#B] [2020-10-28] [[https://reddit.com/r/compsci/comments/jjf8ys/i_just_updated_my_pandas_gui_project_to_have_some/][I just updated my Pandas GUI project to have some sample datasets, here it is working with a Simpsons dataset and proving that the early seasons are the best...]] /r/compsci
 :PROPERTIES:
-:ID:       wdsrddtcmrcmpsccmmntsjjfygthtthrlyssnsrthbstrcmpsc
+:ID:       srddtcmrcmpsccmmntsjjfysjgthtthrlyssnsrthbstrcmpsc
 :END:
 * [#C] [2020-06-16] [[https://news.ycombinator.com/item?id=23539541][A Jupyter Kernel for SQLite]] :hpi:
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdjpytrkrnlfrsqlt
+:ID:       snwsycmbntrcmtmdjpytrkrnlfrsqlt
 :END:
 https://blog.jupyter.org/a-jupyter-kernel-for-sqlite-9549c5dcf551
 ** [2020-12-05] hmm, kinda nice, but not sure if it's better than sqlitebrowser when used locally
 :PROPERTIES:
-:ID:       sthmmkndncbtntsrftsbttrthnsqltbrwsrwhnsdlclly
+:ID:       hmmkndncbtntsrftsbttrthnsqltbrwsrwhnsdlclly
 :END:
 * TODO [#B] [2019-11-24] Jupyter tools to increase productivity - Towards Data Science :jupiter:
 :PROPERTIES:
-:ID:       snjpytrtlstncrsprdctvtytwrdsdtscnc
+:ID:       jpytrtlstncrsprdctvtytwrdsdtscnc
 :END:
 https://towardsdatascience.com/jupyter-tools-to-increase-productivity-7b3c6b90be09
 : Jupyter tools to increase productivity
 ** [2020-05-12] widgets, debugging, toc
 :PROPERTIES:
-:ID:       twdgtsdbggngtc
+:ID:       wdgtsdbggngtc
 :END:
 ** TODO [2020-09-10] from IPython.core.debugger import set_trace
 :PROPERTIES:
-:ID:       thfrmpythncrdbggrmprtsttrc
+:ID:       frmpythncrdbggrmprtsttrc
 :END:
 * TODO use for daily dashboard or something?                     :remarkable:
 :PROPERTIES:
@@ -1396,22 +1396,22 @@ https://towardsdatascience.com/jupyter-tools-to-increase-productivity-7b3c6b90be
 :END:
 * [#C] [2020-09-06] [[https://github.com/bokeh/bokeh/blob/2.2.1/examples/howto/server_embed/notebook_embed.ipynb][bokeh/notebook_embed.ipynb at 2.2.1 · bokeh/bokeh]]
 :PROPERTIES:
-:ID:       snsgthbcmbkhbkhblbxmplshwpynbbkhntbkmbdpynbtbkhbkh
+:ID:       sgthbcmbkhbkhblbxmplshwtspynbbkhntbkmbdpynbtbkhbkh
 :END:
 
 * [2020-12-05] [[https://xkcd.com/1725/][xkcd: Linear Regression]]
 :PROPERTIES:
-:ID:       stsxkcdcmxkcdlnrrgrssn
+:ID:       sxkcdcmxkcdlnrrgrssn
 :END:
 : Linear Regression
 * START [#B] [2020-12-07] [[https://github.com/oschuett/appmode][oschuett/appmode: A Jupyter extensions that turns notebooks into web applications.]]
 :PROPERTIES:
-:ID:       mnsgthbcmschttppmdschttppnsthttrnsntbksntwbpplctns
+:ID:       sgthbcmschttppmdschttppmdnsthttrnsntbksntwbpplctns
 :END:
 : A Jupyter extensions that turns notebooks into web applications.
 * TODO [2020-12-10] [[https://pypi.org/project/panel/][panel · PyPI]]
 :PROPERTIES:
-:ID:       thspyprgprjctpnlpnlpyp
+:ID:       spyprgprjctpnlpnlpyp
 :END:
 
 

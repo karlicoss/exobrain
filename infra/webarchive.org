@@ -26,7 +26,7 @@
 
 *** START [2018-11-05] just backup everything you can find in promnesia? :promnesia:
 :PROPERTIES:
-:ID:       mnjstbckpvrythngycnfndnprmns
+:ID:       jstbckpvrythngycnfndnprmns
 :END:
 
 * [#B] * archivebox                                              :archivebox:
@@ -108,13 +108,13 @@ Ok, and second run the next day said it's already added all of them to index. Ni
 :END:
 *** [2020-08-11] ok, need to starti without the pdf, screenshot etc... takes too long
 :PROPERTIES:
-:ID:       tkndtstrtwthtthpdfscrnshttctkstlng
+:ID:       kndtstrtwthtthpdfscrnshttctkstlng
 :END:
 also make sure it's possibe to add pdfs as an afterthought?
 
 ** STRT [#B] [2020-08-05] [[https://github.com/pirate/ArchiveBox/releases/tag/v0.4.9][Release Major new ArchiveBox version, with a brand new CLI, UI, and SQLite index · pirate/ArchiveBox]]
 :PROPERTIES:
-:ID:       wdsgthbcmprtrchvbxrlsstgvrndnwclndsqltndxprtrchvbx
+:ID:       sgthbcmprtrchvbxrlsstgvrlrndnwclndsqltndxprtrchvbx
 :END:
 : Major new ArchiveBox version, with a brand new CLI, UI, and SQLite index
 
@@ -131,19 +131,19 @@ also make sure it's possibe to add pdfs as an afterthought?
 - hmm, DOM is probably HTML??
 *** TODO [2020-10-25] would be nice to have parallel execution or something..
 :PROPERTIES:
-:ID:       snwldbncthvprlllxctnrsmthng
+:ID:       wldbncthvprlllxctnrsmthng
 :END:
 *** STRT [#B] [2020-10-25]  hmm, if archiving is interrupted, how to carry on?  apparently 'archivebox update'?
 :PROPERTIES:
-:ID:       snhmmfrchvngsntrrptdhwtcrrynpprntlyrchvbxpdt
+:ID:       hmmfrchvngsntrrptdhwtcrrynpprntlyrchvbxpdt
 :END:
 **** [2020-10-25] ok, it fetches new data on config change when running update? that's nice
 :PROPERTIES:
-:ID:       snktftchsnwdtncnfgchngwhnrnnngpdtthtsnc
+:ID:       ktftchsnwdtncnfgchngwhnrnnngpdtthtsnc
 :END:
 *** TODO [2020-10-25] media -- could def download later/in parallel..
 :PROPERTIES:
-:ID:       snmdclddfdwnldltrnprlll
+:ID:       mdclddfdwnldltrnprlll
 :END:
 ** TODO [#C] ok, I think I just want to take promnesia and run it against all non-browser sources :promnesia:
 :PROPERTIES:
@@ -187,13 +187,13 @@ would be nice to mark different sources as well if possible?
 :END:
 *** [2019-04-06] should run it after I normalise all the wereyouhere links?
 :PROPERTIES:
-:ID:       stshldrntftrnrmlsllthwryhrlnks
+:ID:       shldrntftrnrmlsllthwryhrlnks
 :END:
 I guess filter out all suspicious ones, containing special characters?
 
 *** [2019-04-16] ok, he's working on django backend where we can use hashes  https://github.com/pirate/ArchiveBox/issues/74
 :PROPERTIES:
-:ID:       tkhswrkngndjngbckndwhrwcnshshssgthbcmprtrchvbxsss
+:ID:       khswrkngndjngbckndwhrwcnshshssgthbcmprtrchvbxsss
 :END:
 
 ** TODO [#C] I guess some sites (with comments) -- useful to update regularly, but most are okay with one snapshot?
@@ -219,7 +219,7 @@ I guess filter out all suspicious ones, containing special characters?
 
 ** [#D] [2019-04-16] pirate/ArchiveBox: 🗃 The open source self-hosted web archive. Takes browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...
 :PROPERTIES:
-:ID:       tprtrchvbxthpnsrcslfhstdwnbrdtcsvshtmljspdfsmdndmr
+:ID:       prtrchvbxthpnsrcslfhstdwbnbrdtcsvshtmljspdfsmdndmr
 :END:
 https://github.com/pirate/ArchiveBox/
 : Storage Requirements
@@ -227,13 +227,13 @@ https://github.com/pirate/ArchiveBox/
 
 ** [#D] [2019-04-16] pirate/ArchiveBox: 🗃 The open source self-hosted web archive. Takes browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...
 :PROPERTIES:
-:ID:       tprtrchvbxthpnsrcslfhstdwnbrdtcsvshtmljspdfsmdndmr
+:ID:       prtrchvbxthpnsrcslfhstdwbnbrdtcsvshtmljspdfsmdndmr
 :END:
 https://github.com/pirate/ArchiveBox/
 : Support for saving multiple snapshots of each site over time will be added soon (along with the ability to view diffs of the changes between runs).
 ** [#D] [2019-04-16] [pirate/ArchiveBox] Bugfixes, new data integrity and invariant checks, remove title prefetching
 :PROPERTIES:
-:ID:       tprtrchvbxbgfxsnwdtntgrtydnvrntchcksrmvttlprftchng
+:ID:       prtrchvbxbgfxsnwdtntgrtyndnvrntchcksrmvttlprftchng
 :END:
 : re-save index after archiving completes to update titles and urls
 : emove title prefetching in favor of new FETCH_TITLE archive method
@@ -261,12 +261,12 @@ e.g. wget -N -E -np -x -H -k -K -S --restrict-file-names=unix -p --user-agent=Bo
 
 * [#D] [2018-10-03] kanishka-linux/reminiscence: Self-Hosted Bookmark And Archive Manager
 :PROPERTIES:
-:ID:       wdknshklnxrmnscncslfhstdbkmrkndrchvmngr
+:ID:       knshklnxrmnscncslfhstdbkmrkndrchvmngr
 :END:
 https://github.com/kanishka-linux/reminiscence
 ** [2018-10-05] wonder how is it different from my bookmark archiver?
 :PROPERTIES:
-:ID:       frwndrhwstdffrntfrmmybkmrkrchvr
+:ID:       wndrhwstdffrntfrmmybkmrkrchvr
 :END:
 
 * TODO [#C] https://github.com/webrecorder/webrecorder           :webarchive:
@@ -286,33 +286,33 @@ https://twitter.com/gwern/status/1233112807253716992
 
 * [#C] [2019-12-20] Web Archiving Community · pirate/ArchiveBox Wiki :linkrot:
 :PROPERTIES:
-:ID:       frwbrchvngcmmntyprtrchvbxwk
+:ID:       wbrchvngcmmntyprtrchvbxwk
 :END:
 https://github.com/pirate/ArchiveBox/wiki/Web-Archiving-Community
 
 * [#C] [2019-12-11] Verizon/Yahoo Blocking Attempts to Archive Yahoo Groups – Deletion: Dec. 14 | Hacker News
 :PROPERTIES:
-:ID:       wdvrznyhblckngttmptstrchvyhgrpsdltndchckrnws
+:ID:       vrznyhblckngttmptstrchvyhgrpsdltndchckrnws
 :END:
 https://news.ycombinator.com/item?id=21737696
 : ven if we still had the Library of Alexandria, it may have shed zero light on the actual lives of citizens. Archiving content on the internet means capturing thousands of individual level perspectives and experiences. We don't know what will end up being important to historians 50 or 100 years from now. I would bet there are dozens if not hundreds of historians that would give anything for a record of their favorite time period that contains even a fraction of the amount of content today's archive efforts are storing.
 * [#B] [2020-05-28] [[https://indieweb.org/site-deaths][site-deaths - IndieWeb]] :linkrot:
 :PROPERTIES:
-:ID:       thsndwbrgstdthsstdthsndwb
+:ID:       sndwbrgstdthsstdthsndwb
 :END:
 * [#C] [2019-04-19] Bret Victor on Twitter: "60% of my fav links from 10 yrs ago are 404. I wonder if Library of Congress expects 60% of their collection to go up in smoke every decade." :linkrot:
 :PROPERTIES:
-:ID:       frbrtvctrntwttrfmyfvlnksftsfthrcllctntgpnsmkvrydcd
+:ID:       brtvctrntwttrfmyfvlnksfrmtsfthrcllctntgpnsmkvrydcd
 :END:
 https://twitter.com/worrydream/status/478087637031325697
 
 * [2019-06-13] Time Travel: Find Mementos in Internet Archive, Archive-It, British Library, archive.today, GitHub and many more! http://timetravel.mementoweb.org/ :search:linkrot:
 :PROPERTIES:
-:ID:       thtmtrvlfndmmntsnntrntrchgthbndmnymrtmtrvlmmntwbrg
+:ID:       tmtrvlfndmmntsnntrntrchvrgthbndmnymrtmtrvlmmntwbrg
 :END:
 
 * DONE [#A] [2019-12-22] [[https://news.ycombinator.com/item?id=21840140][This Page is Designed to Last]] :linkrot:
 :PROPERTIES:
-:ID:       snsnwsycmbntrcmtmdthspgsdsgndtlst
+:ID:       snwsycmbntrcmtmdthspgsdsgndtlst
 :END:
 https://jeffhuang.com/designed_to_last/

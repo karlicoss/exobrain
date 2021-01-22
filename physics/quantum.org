@@ -4,7 +4,7 @@
 
 * [#A] [2013-09-21] [[http://www.scottaaronson.com/papers/island.pdf][Scott Aaronson - Is Quantum Meachanics An Island In Theoryspace?]]
 :PROPERTIES:
-:ID:       stwwwscttrnsncmpprsslndpdnsqntmmchncsnslndnthryspc
+:ID:       wwwscttrnsncmpprsslndpdfsnsqntmmchncsnslndnthryspc
 :END:
 http://www.scottaaronson.com/democritus/lec9.html
 
@@ -16,7 +16,7 @@ http://www.scottaaronson.com/democritus/lec9.html
 
 * [#B] [2018-08-25] copenhagen interpretation is not time symmetric, we lose quantum information when wavefunction collapses
 :PROPERTIES:
-:ID:       stcpnhgnntrprttnsnttmsymmntmnfrmtnwhnwvfnctncllpss
+:ID:       cpnhgnntrprttnsnttmsymmtrntmnfrmtnwhnwvfnctncllpss
 :END:
 
 * [#C] [2017-06-03] pilot wave theory
@@ -37,7 +37,7 @@ pilot wave theory is both physical and deterministic
 
 * [#C] [2015-08-26]  .
 :PROPERTIES:
-:ID:       wd
+:ID:       1500_1797
 :END:
 a |00> + b |01> + c |10> + d |11>
 Measure of entanglement: ad - bc
@@ -52,7 +52,7 @@ T(u) f = \ip{Tu}{f}
 
 * [2015-08-26] Lower bound for quantum search
 :PROPERTIES:
-:ID:       wdlwrbndfrqntmsrch
+:ID:       lwrbndfrqntmsrch
 :END:
 Theorem: any quantum algorithm must take at least O(sqrt(N)) queries.
 Lemma: 1 query => no algorithm can guarantee success prob >= const / N.
@@ -60,7 +60,7 @@ t steps: P[success] = O(t^2)/N
 
 * [#C] [2015-08-26] continuous and discrete symmetries             :symmetry:
 :PROPERTIES:
-:ID:       wdcntnsnddscrtsymmtrs
+:ID:       cntnsnddscrtsymmtrs
 :END:
 commutator with Hamiltonian => time derivative (todo what?)
 V = I - i eps G (generator)
@@ -72,7 +72,7 @@ degenerate level. Degeneracy is a consequence of symmetry
 
 * [#C] [2015-08-26] bosons and fermions
 :PROPERTIES:
-:ID:       wdbsnsndfrmns
+:ID:       bsnsndfrmns
 :END:
 P(r_a, r_b) = P_a(r_a) P_b(r_b)
 
@@ -93,45 +93,45 @@ two identical particles can't occupy same single-particle states. Pauli exclusio
 
 * STRT [#C] [2015-08-26] Fock space ???
 :PROPERTIES:
-:ID:       wdfckspc
+:ID:       fckspc
 :END:
 * TODO [2015-08-26] [A, H] = 0, [B, H] = 0, [A, B] = C; C \notin L(A, B) => [C, H] = 0 commutator algebra, lie algebra :lie:
 :PROPERTIES:
-:ID:       wdhbhbccntnlbchcmmttrlgbrllgbr
+:ID:       hbhbccntnlbchcmmttrlgbrllgbr
 :END:
 * [#B] [2013-09-21] Simplified Bell's experiment http://www.scottaaronson.com/democritus/lec11.html
 :PROPERTIES:
-:ID:       stsmplfdbllsxprmntwwwscttrnsncmdmcrtslchtml
+:ID:       smplfdbllsxprmntwwwscttrnsncmdmcrtslchtml
 :END:
 
 * [#C] [2015-08-26] Extended Church-Turing thesis: Any "reasonable" model of computation can be simulated on a probabilistic Turing machine with at most polynomial overhead.
 :PROPERTIES:
-:ID:       wdxtnddchrchtrngthssnyrsntrngmchnwthtmstplynmlvrhd
+:ID:       xtnddchrchtrngthssnyrsnbltrngmchnwthtmstplynmlvrhd
 :END:
 
 * [#C] [2013-09-21] Lucien Hardy — Quantum Theory From Five Reasonable Axioms http://arxiv.org/abs/quant-ph/0101012
 :PROPERTIES:
-:ID:       stlcnhrdyqntmthryfrmfvrsnblxmsrxvrgbsqntph
+:ID:       lcnhrdyqntmthryfrmfvrsnblxmsrxvrgbsqntph
 :END:
 
 * [#C] [2013-09-21] Hidden variables and "nice" properties http://www.scottaaronson.com/democritus/lec11.htm
 :PROPERTIES:
-:ID:       sthddnvrblsndncprprtswwwscttrnsncmdmcrtslchtm
+:ID:       hddnvrblsndncprprtswwwscttrnsncmdmcrtslchtm
 :END:
 
 * [#C] [2013-09-21] Bohmian interpretation www.scottaaronson.com/democritus/lec11.html
 :PROPERTIES:
-:ID:       stbhmnntrprttnwwwscttrnsncmdmcrtslchtml
+:ID:       bhmnntrprttnwwwscttrnsncmdmcrtslchtml
 :END:
 
 * TODO [#C] [2013-09-21] Read David P. DiVincenzo "Two-bit gates are universal for quantum computation" :qcomp:
 :PROPERTIES:
-:ID:       strddvdpdvncnztwbtgtsrnvrslfrqntmcmpttn
+:ID:       rddvdpdvncnztwbtgtsrnvrslfrqntmcmpttn
 :END:
 
 * [#D] [2013-09-21] Prover, verifier (Из лекции Шеня в ПОМИ 30 сентября 2012)
 :PROPERTIES:
-:ID:       stprvrvrfrизлекциишенявпомисентября
+:ID:       prvrvrfrизлекциишенявпомисентября
 :END:
 1. Sequential repetition
 2. Parallel repetition
@@ -150,7 +150,7 @@ two identical particles can't occupy same single-particle states. Pauli exclusio
 
 * [#D] [2013-09-21] Simon's problem http://en.wikipedia.org/wiki/Simon%27s_problem :qcomp:
 :PROPERTIES:
-:ID:       stsmnsprblmnwkpdrgwksmnsprblm
+:ID:       smnsprblmnwkpdrgwksmnsprblm
 :END:
 * related                                                             :qcomp:
 :PROPERTIES:
@@ -159,13 +159,13 @@ two identical particles can't occupy same single-particle states. Pauli exclusio
 
 * [#B] [2019-05-06] quantum mechanics - What equation describes the wavefunction of a single photon? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       mnqntmmchncswhtqtndscrbstnfsnglphtnphyscsstckxchng
+:ID:       qntmmchncswhtqtndscrbsthwnfsnglphtnphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/437/what-equation-describes-the-wavefunction-of-a-single-photon
 : In quantum field theory, the Dirac equation and the Schrödinger equation have very different roles. The Dirac equation is an equation for the field, which is not a particle. The time evolution of a particle, ie, a quantum state, is always given by the Schrödinger equation. The hamiltonian for this time evolution is written in terms of fields which obey a certain equation themselves. So, the proper answer is: Schrödinger equation with a hamiltonian given in terms of a massless vector field whose equation is nothing else but Maxwell's equation.
 * [#B] [2019-05-06] wavefunction - Can particle quantum spin be described with a wave function? - Physics Stack Exchange :spin:
 :PROPERTIES:
-:ID:       mnwvfnctncnprtclqntmspnbdwthwvfnctnphyscsstckxchng
+:ID:       wvfnctncnprtclqntmspnbdscwthwvfnctnphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/251673/can-particle-quantum-spin-be-described-with-a-wave-function
 : Within the context of first quantization (the Schrodinger equation), spin itself is not characterized by the spatial or momentum space wave function (the function that defines a complex quantity over all space). It is instead treated with a separate Hilbert space that quantifies the spin states 'tacked on' to this wavefunction by an outer product. It is a matter of semantics whether you consider 'wavefunction' to refer to the complex field alone, or the composite field/spin hilbert spaces.
@@ -173,19 +173,19 @@ https://physics.stackexchange.com/questions/251673/can-particle-quantum-spin-be-
 : More advanced field equations incorporate spin more naturally. The Dirac equation, for example, no longer describes the evolution of a complex scalar field, but the evolution of a four-vector, that naturally describes spin states. For this system, spin isis characterized in the wavefunction itself.
 * TODO [#C] [2019-05-29] Anyon - Wikipedia
 :PROPERTIES:
-:ID:       wdnynwkpd
+:ID:       nynwkpd
 :END:
 https://en.wikipedia.org/wiki/Anyon
 : So it can be seen that the topological notion of equivalence comes from a study of the Feynman path integral.[3]:28
 * TODO [#C] [2019-05-29] Spin–statistics theorem - Wikipedia
 :PROPERTIES:
-:ID:       wdspnsttstcsthrmwkpd
+:ID:       spnsttstcsthrmwkpd
 :END:
 https://en.wikipedia.org/wiki/Spin%E2%80%93statistics_theorem
 
 * [#C] [2019-05-29] [[https://reddit.com/r/askscience/comments/34aevv/why_are_all_particles_bosons_or_fermions/cqstqvp/][Why are all particles bosons or fermions?]] /r/askscience (on anyons)
 :PROPERTIES:
-:ID:       wdsrddtcmrskscnccmmntsvvwclsbsnsrfrmnsrskscncnnyns
+:ID:       srddtcmrskscnccmmntsvvwhyclsbsnsrfrmnsrskscncnnyns
 :END:
 :  Excellent questions - the answers are very subtle.
 : 
@@ -208,26 +208,26 @@ https://en.wikipedia.org/wiki/Spin%E2%80%93statistics_theorem
 
 * [#C] [2014-11-24] А также хочу осознать книжку Teschlа по квантовой механике( :self:
 :PROPERTIES:
-:ID:       mnатакжехочуосознатькнижкtschlапоквантовоймеханике
+:ID:       атакжехочуосознатькнижкуtschlапоквантовоймеханике
 :END:
 http://twitter.com/statuses/536870238781194240
 
 
 * [#C] [2019-05-29] What exactly are anyons and how are they relevant to topological quantum computing? - Quantum Computing Stack Exchange
 :PROPERTIES:
-:ID:       wdwhtxctlyrnynsndhwrthyrlcmptngqntmcmptngstckxchng
+:ID:       whtxctlyrnynsndhwrthyrlvncmptngqntmcmptngstckxchng
 :END:
 https://quantumcomputing.stackexchange.com/questions/2030/what-exactly-are-anyons-and-how-are-they-relevant-to-topological-quantum-computi
 
 * [#C] [2019-05-29] What exactly are anyons and how are they relevant to topological quantum computing? - Quantum Computing Stack Exchange
 :PROPERTIES:
-:ID:       wdwhtxctlyrnynsndhwrthyrlcmptngqntmcmptngstckxchng
+:ID:       whtxctlyrnynsndhwrthyrlvncmptngqntmcmptngstckxchng
 :END:
 https://quantumcomputing.stackexchange.com/questions/2030/what-exactly-are-anyons-and-how-are-they-relevant-to-topological-quantum-computi
 
 * [#C] [2019-05-29] [[https://reddit.com/r/askscience/comments/34aevv/why_are_all_particles_bosons_or_fermions/cqsutjj/][Why are all particles bosons or fermions?]] /r/askscience
 :PROPERTIES:
-:ID:       wdsrddtcmrskscnccmmntsvvwllprtclsbsnsrfrmnsrskscnc
+:ID:       srddtcmrskscnccmmntsvvwhyllprtclsbsnsrfrmnsrskscnc
 :END:
 : > Your second question, of why a particle can't have other spins. It's a result of putting special relativity and quantum mechanics together, actually, in 3 spatial dimensions. For the mathematically inclined, it has to do with the fact that 1/2-integer and integer spins are the only allowed representations of the Lorentz group (which is the set of symmetries of spacetime in special relativity).
 : 
@@ -235,20 +235,20 @@ https://quantumcomputing.stackexchange.com/questions/2030/what-exactly-are-anyon
 
 * [#C] [2019-02-20] Aspects of objectivity in quantum mechanics
 :PROPERTIES:
-:ID:       wdspctsfbjctvtynqntmmchncs
+:ID:       spctsfbjctvtynqntmmchncs
 :END:
 http://philsci-archive.pitt.edu/223/1/Objectivity.pdf
 : The best summary can be found starting at page 7 in http://philsci-archive.pitt.edu/223/1/Objectivity.pdf
 : Especially: "local gauge invariance in quantum theory does not imply the existence of an external electromagnetic field"!
 ** [#C] [2019-02-20] Aspects of objectivity in quantum mechanics
 :PROPERTIES:
-:ID:       wdspctsfbjctvtynqntmmchncs
+:ID:       spctsfbjctvtynqntmmchncs
 :END:
 http://philsci-archive.pitt.edu/223/1/Objectivity.pdf
 yeah, it's got some pretty interesting results... definitely read more
 * TODO [#D] [2018-12-18] quantum mechanics - A "Hermitian" operator with imaginary eigenvalues - Physics Stack Exchange
 :PROPERTIES:
-:ID:       tqntmmchncshrmtnprtrwthmgnrygnvlsphyscsstckxchng
+:ID:       qntmmchncshrmtnprtrwthmgnrygnvlsphyscsstckxchng
 :END:
 :  https://physics.stackexchange.com/questions/81041/a-hermitian-operator-with-imaginary-eigenvalues?rq=1
 :  For your model, the classical hamiltonian H=12(q3p+pq3)=q3pH=12(q3p+pq3)=q3p produces the Hamilton equations
@@ -261,7 +261,7 @@ yeah, it's got some pretty interesting results... definitely read more
 
 * TODO [#D] [2018-10-17] Baez on hologram principle
 :PROPERTIES:
-:ID:       wdbznhlgrmprncpl
+:ID:       bznhlgrmprncpl
 :END:
 : String theorists like anti-de Sitter spacetime... but it's very weird.  In 2d it's the hyperboloid shown here!  Time loops around in a circle, while space extends infinitely far left and right.   (The blue cone is just for fun, not part of the spacetime.)
 : (continued) https://t.co/hxTWwjiH6a
@@ -270,7 +270,7 @@ https://twitter.com/johncarlosbaez/status/1052634350695501824
 
 * TODO [#D] [2018-12-24] quantum mechanics - Infinite square well in momentum space - Physics Stack Exchange
 :PROPERTIES:
-:ID:       mnqntmmchncsnfntsqrwllnmmntmspcphyscsstckxchng
+:ID:       qntmmchncsnfntsqrwllnmmntmspcphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/52768/infinite-square-well-in-momentum-space/289368#289368
 :  space is a bounded region of the real axis, so no translation group can be defined
@@ -279,33 +279,33 @@ huh, that's interesting...
 
 * TODO [#D] [2018-12-24] quantum mechanics - Conservation of momentum in infinite square well - Physics Stack Exchange
 :PROPERTIES:
-:ID:       mnqntmmchncscnsrvtnfmmntmnfntsqrwllphyscsstckxchng
+:ID:       qntmmchncscnsrvtnfmmntmnnfntsqrwllphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/232831/conservation-of-momentum-in-infinite-square-well
 
 * [#D] [2019-01-28] [[https://reddit.com/r/Physics/comments/ad23sp/why_the_schrodinger_equation_fails_at_relativity/ede2t8f/][Why The Schrodinger Equation Fails at Relativity]] /r/Physics
 :PROPERTIES:
-:ID:       mnsrddtcmrphyscscmmntsdsprdngrqtnflstrltvtyrphyscs
+:ID:       srddtcmrphyscscmmntsdspwhrdngrqtnflstrltvtyrphyscs
 :END:
 : Physics students always say that the Schrodinger equation doesn't hold for SR, but it does. It's not the Schrodinger equation that fails though, it's the non-relativistic Hamiltonian that fails. The Dirac equation *is* the Schrodinger equation, but with the Dirac Hamiltonian. The Schrodinger equation is valid.
 ** [#D] [2019-01-28] [[https://reddit.com/r/Physics/comments/ad23sp/why_the_schrodinger_equation_fails_at_relativity/edpla85/][Why The Schrodinger Equation Fails at Relativity]] /r/Physics
 :PROPERTIES:
-:ID:       mnsrddtcmrphyscscmmntsdsprdngrqtnflstrltvtyrphyscs
+:ID:       srddtcmrphyscscmmntsdspwhrdngrqtnflstrltvtyrphyscs
 :END:
 : Yeah the schroedinger equation just defines the hamiltonian as the generator of time translations, it can't be *wrong* any more than the number 4 can be wrong.
 * [2020-07-21] [[https://physics.stackexchange.com/questions/506695/is-schrodingers-cat-itself-an-observer/506701][quantum mechanics - Is Schrodinger's Cat itself an observer? - Physics Stack Exchange]]
 :PROPERTIES:
-:ID:       tsphyscsstckxchngcmqstnsstslfnbsrvrphyscsstckxchng
+:ID:       sphyscsstckxchngcmqstnssstslfnbsrvrphyscsstckxchng
 :END:
 : The point is, it has made you think about the issue. Whereas we all might agree a hydrogen atom is not an observer and a human is an observer, the case of a cat is not so clear. The point of the thought experiment is to expose problems with the Copenhagen interpretation - which it does very successfully.
 * [2020-07-21] [[https://physics.stackexchange.com/questions/506695/is-schrodingers-cat-itself-an-observer/506701][quantum mechanics - Is Schrodinger's Cat itself an observer? - Physics Stack Exchange]]
 :PROPERTIES:
-:ID:       tsphyscsstckxchngcmqstnsstslfnbsrvrphyscsstckxchng
+:ID:       sphyscsstckxchngcmqstnssstslfnbsrvrphyscsstckxchng
 :END:
 : As you open the box, this quantum state again evolves unitarily (i.e. without any kind of "collapse") into
 * [2020-07-21] [[https://en.wikipedia.org/wiki/Copenhagen_interpretation#1._Schr%C3%B6dinger's_cat][Copenhagen interpretation - Wikipedia]]
 :PROPERTIES:
-:ID:       tsnwkpdrgwkcpnhgnntrprttndngrsctcpnhgnntrprttnwkpd
+:ID:       snwkpdrgwkcpnhgnntrprttnsdngrsctcpnhgnntrprttnwkpd
 :END:
 :  Wigner's friend
 : 
@@ -315,25 +315,25 @@ https://physics.stackexchange.com/questions/232831/conservation-of-momentum-in-i
 : 
 ** [2020-07-21] hmm, heisenber's cut is kinda like event horizon??
 :PROPERTIES:
-:ID:       thmmhsnbrsctskndlkvnthrzn
+:ID:       hmmhsnbrsctskndlkvnthrzn
 :END:
 * [2020-08-01] [[http://physics.gu.se/~tfkhj/TOPO/DiracEquation.pdf][Untitled - DiracEquation.pdf]]
 :PROPERTIES:
-:ID:       stphyscsgstfkhjtpdrcqtnpdfnttlddrcqtnpdf
+:ID:       physcsgstfkhjtpdrcqtnpdfnttlddrcqtnpdf
 :END:
 * [2020-08-03] [[https://www.youtube.com/watch?v=tR6UebCvFqE&list=WL&index=11&t=137s][(2) Quantum Mechanics 12b - Dirac Equation II - YouTube]]
 :PROPERTIES:
-:ID:       mnswwwytbcmwtchvtrbcvfqlsndxtsqntmmchncsbdrcqtnytb
+:ID:       swwwytbcmwtchvtrbcvfqlstwndxtsqntmmchncsbdrcqtnytb
 :END:
 studying spinors -- try to translate dirac equation solution from moving reference frame (only p_x component) to still
 * TODO [2020-08-03] [[https://www.youtube.com/watch?v=tR6UebCvFqE&list=WL&index=11&t=137s][(2) Quantum Mechanics 12b - Dirac Equation II - YouTube]]
 :PROPERTIES:
-:ID:       mnswwwytbcmwtchvtrbcvfqlsndxtsqntmmchncsbdrcqtnytb
+:ID:       swwwytbcmwtchvtrbcvfqlstwndxtsqntmmchncsbdrcqtnytb
 :END:
 make some flashcards from this video..
 * DONE [#B] [2019-01-07] quantum mechanics - How is the Schroedinger equation a wave equation? - Physics Stack Exchange :pde:
 :PROPERTIES:
-:ID:       mnqntmmchncshwsthschrdngrqtnwvqtnphyscsstckxchng
+:ID:       qntmmchncshwsthschrdngrqtnwvqtnphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/75363/how-is-the-schroedinger-equation-a-wave-equation/75374#75374
 : Actually, a wave equation is any equation that admits wave-like solutions, which take the form f(x⃗ ±v⃗ t)f(x→±v→t). The equation ∂2f∂t2=c2∇2f∂2f∂t2=c2∇2f, despite being called "the wave equation," is not the only equation that does this.
@@ -342,14 +342,14 @@ hmm, so if you do variable transform and substitute in pde, the substitution beh
 
 * [#B] [2020-08-11] [[https://en.wikipedia.org/wiki/Majorana_equation][Majorana equation - Wikipedia]] :sm:
 :PROPERTIES:
-:ID:       tsnwkpdrgwkmjrnqtnmjrnqtnwkpd
+:ID:       snwkpdrgwkmjrnqtnmjrnqtnwkpd
 :END:
 right, so it's unclear whether neutrinos get their mass from Higgs or something else
 
 So far most particles we discovered seem to be described by Dirac equation? We haven't seen evidence of Majorana particles so far?
 * [#B] [2020-08-12] [[https://studfile.net/preview/5767029/page:17/][Circular reasoning?]] :spinor:
 :PROPERTIES:
-:ID:       wdsstdflntprvwpgcrclrrsnng
+:ID:       sstdflntprvwpgcrclrrsnng
 :END:
 : We can even deﬁne a ‘metric’ that is antisymmetric: a two-dimensional space called spinor space has such a metric, and it turns out to be of fundamental importance in physics.
 
@@ -365,23 +365,23 @@ youtu.be/kvQuuFB8fpk?t=179
 
 * [2014-07-18] Quantum entanglement is not nonlocality, it's correlation! :quantum:
 :PROPERTIES:
-:ID:       frqntmntnglmntsntnnlcltytscrrltn
+:ID:       qntmntnglmntsntnnlcltytscrrltn
 :END:
 Vector potential is important because it is impossible to state action principle in a Lorentz invariant way directly in terms of E and B fields.
 * [2016-09-03] infinite dimentional Hilbert space is crucial for quantum mechanics? :quantum:
 :PROPERTIES:
-:ID:       stnfntdmntnlhlbrtspcscrclfrqntmmchncs
+:ID:       nfntdmntnlhlbrtspcscrclfrqntmmchncs
 :END:
 : The most famous such equation is the position/momentum commutation relation mentioned earlier, which for our purposes is just the following matrix equation:
 : AB – BA = I.
 : This equation can’t be satisfied by any finite-dimensional matrices, since AB and BA have the same trace, so Tr(AB-BA)=0, but Tr(I) is nonzero.
 * [2020-07-21] [[https://twitter.com/DanielandJorge/status/1285463683758358528][Explain the Universe on Twitter: "What are phonons, rotons, plasmons, anyons and excitons? Get yourself into a pure stream of explainons in our new episodon on quasiparticles: https://t.co/1l9lTmzjcj" / Twitter]] :tolisten:
 :PROPERTIES:
-:ID:       tstwttrcmdnlndjrgsttsxplnnqsprtclsstclltmzjcjtwttr
+:ID:       stwttrcmdnlndjrgsttsxplntnqsprtclsstclltmzjcjtwttr
 :END:
 * [#B] [2019-07-17] [[https://en.wikipedia.org/wiki/Quantum_Zeno_effect][Quantum Zeno effect]]
 :PROPERTIES:
-:ID:       wdsnwkpdrgwkqntmznffctqntmznffct
+:ID:       snwkpdrgwkqntmznffctqntmznffct
 :END:
 ** [2020-12-20] quantum zeno effect: measure the system often enough, it appears as if it's not changing. :drill:
 :PROPERTIES:
@@ -390,7 +390,7 @@ Vector potential is important because it is impossible to state action principle
 evolution is linear, so after time dt the amplitude of changing state is proportional to dt, and probability to dt^2. So by making dt low enough, probability of ever changing state is arbitrary close to 0
 ** [2020-12-20] https://physics.stackexchange.com/questions/47252/simple-explanation-of-quantum-zeno-effect
 :PROPERTIES:
-:ID:       snsphyscsstckxchngcmqstnssmplxplntnfqntmznffct
+:ID:       sphyscsstckxchngcmqstnssmplxplntnfqntmznffct
 :END:
 
 * [#C] Uncertaincy principle nice video                         :quantum:viz:
@@ -401,38 +401,38 @@ evolution is linear, so after time dt the amplitude of changing state is proport
 https://youtu.be/VwGyqJMPmvE?t=469 -- if you limit the time domain of a pure note, counterintuitively, you'll have to use more sine waves to approximate it, so widen the frequency domain
 * TODO [#D] [2019-12-22] karldray/quantum: Simulate reverse causality using quantum suicide. :philosophy:quantum:
 :PROPERTIES:
-:ID:       snkrldryqntmsmltrvrscsltysngqntmscd
+:ID:       krldryqntmsmltrvrscsltysngqntmscd
 :END:
 https://github.com/karldray/quantum
 
 * [#B] [2020-06-30] [[https://quantumcomputing.stackexchange.com/questions/1262/how-are-quantum-gates-realised-in-terms-of-the-dynamic][architecture - How are quantum gates realised, in terms of the dynamic? - Quantum Computing Stack Exchange]] :qcomp:
 :PROPERTIES:
-:ID:       tsqntmcmptngstckxchngcmqshdynmcqntmcmptngstckxchng
+:ID:       sqntmcmptngstckxchngcmqsthdynmcqntmcmptngstckxchng
 :END:
 * [#C] [2020-01-15] [[https://news.ycombinator.com/item?id=22048086][Disprove quantum immortality without risking your life (2019)]] :philosophy:
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmddsprvqntmmmrtltywthtrskngyrlf
+:ID:       snwsycmbntrcmtmddsprvqntmmmrtltywthtrskngyrlf
 :END:
 https://vankessel.io/disproving-quantum-immortality
 * [2019-08-28] wigner's friend experiment
 :PROPERTIES:
-:ID:       wdwgnrsfrndxprmnt
+:ID:       wgnrsfrndxprmnt
 :END:
 * [#C] [2019-12-11] Māris Ozols on Twitter: "Helping my students to see beyond equations. https://t.co/4TioiOP5Sk" / Twitter :quantum:notation:
 :PROPERTIES:
-:ID:       wdmārszlsntwttrhlpngmystdntstsbyndqtnsstctpsktwttr
+:ID:       mārszlsntwttrhlpngmystdntstsbyndqtnsstctpsktwttr
 :END:
 https://twitter.com/enclanglement/status/1204556108561559552
 : Helping my students to see beyond equations.
 * [2018-09-25] "It’s hard to think when someone Hadamards your brain" :fun:cs:quantum:
 :PROPERTIES:
-:ID:       ttshrdtthnkwhnsmnhdmrdsyrbrn
+:ID:       tshrdtthnkwhnsmnhdmrdsyrbrn
 :END:
 https://www.scottaaronson.com/blog/?p=3975
 
 * TODO [#C] [2019-08-02] 〈 Berger | Dillon 〉 on Twitter: "A changing Magnetic flux induces an Electric field. This can create a current in a wire to power a💡! No battery needed! https://t.co/ggeayJedFD" / Twitter :viz:inspiration:
 :PROPERTIES:
-:ID:       frbrgrdllnntwttrchngngmgnrnbttrynddstcggyjdfdtwttr
+:ID:       brgrdllnntwttrchngngmgntcrnbttrynddstcggyjdfdtwttr
 :END:
 https://twitter.com/InertialObservr/status/1157356874729046016
 : A changing Magnetic flux induces an Electric field. This can create a current in a wire to power a
@@ -441,7 +441,7 @@ https://twitter.com/InertialObservr/status/1157356874729046016
 very nice visualisation!
 * DONE [#C] [2020-03-24] New essay: "How quantum teleportation works"
 :PROPERTIES:
-:ID:       tnwssyhwqntmtlprttnwrks
+:ID:       nwssyhwqntmtlprttnwrks
 :END:
 : I'm excited to announce the launch of a new essay, "How quantum teleportation works" (joint with Andy Matuschak). Teleportation is fun and surprising, and a fundamental primitive in quantum computation. This essay explains in detail how it works. It's available here:
 

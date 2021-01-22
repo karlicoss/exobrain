@@ -21,26 +21,26 @@
 
 * TODO [#C] [2020-01-19] John Carlos Baez on Twitter: "Entropy is the amount of information you don't have about the random details of a system: what you'd need to describe those details. It takes 500 zettabytes to fully describe a gram of liquid water, but a manageable amount per molecule! (1/n) https://t.co/cDg7ZFpLt3" / Twitter
 :PROPERTIES:
-:ID:       snjhncrlsbzntwttrntrpysthntprmlclnstccdgzfplttwttr
+:ID:       jhncrlsbzntwttrntrpysthmnntprmlclnstccdgzfplttwttr
 :END:
 https://twitter.com/johncarlosbaez/status/1218927345836285952
 : Entropy is the amount of information you don't have about the random details of a system: what you'd need to describe those details.
 : It takes 500 zettabytes to fully describe a gram of liquid water, but a manageable amount per molecule!
 * [#C] [2020-01-19] Gibbs paradox - Wikipedia
 :PROPERTIES:
-:ID:       sngbbsprdxwkpd
+:ID:       gbbsprdxwkpd
 :END:
 https://en.wikipedia.org/wiki/Gibbs_paradox
 
 * [#C] [2020-02-17] Nikita Lisitsa on Twitter: "Simulating Hamiltonian mechanics instead of Metropolis-Hastings algorithm: https://t.co/cVZiaTGP7u" / Twitter
 :PROPERTIES:
-:ID:       mnnktlstsntwttrsmltnghmltstngslgrthmstccvztgptwttr
+:ID:       nktlstsntwttrsmltnghmltnnstngslgrthmstccvztgptwttr
 :END:
 https://twitter.com/lisyarus/status/1229487593684901889
 : Simulating Hamiltonian mechanics instead of Metropolis-Hastings algorithm:
 * [2020-04-06] Antenna-Theory.com - Introduction to Antennas
 :PROPERTIES:
-:ID:       mnntnnthrycmntrdctntntnns
+:ID:       ntnnthrycmntrdctntntnns
 :END:
 http://www.antenna-theory.com/intro/main.php
 * TODO [#A] ok, so I understand quite a bit about standard model now I suppose. I need some specific thing I want to understand though. Something to do with spinors; and also visualize them?? :study:
@@ -50,34 +50,34 @@ http://www.antenna-theory.com/intro/main.php
 :END:
 * [#A] [2020-07-19] [[https://news.ycombinator.com/item?id=23891655][Magnets cannot exist under classical mechanics]]
 :PROPERTIES:
-:ID:       snsnwsycmbntrcmtmdmgntscnntxstndrclssclmchncs
+:ID:       snwsycmbntrcmtmdmgntscnntxstndrclssclmchncs
 :END:
 https://en.wikipedia.org/wiki/Bohr%E2%80%93van_Leeuwen_theorem
 * TODO [#A] [2020-08-01] [[http://www.vttoth.com/CMS/index.php/physics-notes/138][Viktor T. Toth - Spinors in three dimensions]]
 :PROPERTIES:
-:ID:       stwwwvttthcmcmsndxphpphystsvktrttthspnrsnthrdmnsns
+:ID:       wwwvttthcmcmsndxphpphyscstsvktrttthspnrsnthrdmnsns
 :END:
 : So what are spinors for anyway? Quantities that transform like a spinor appear in quantum mechanics: the coefficients in the Dirac-equation form a spinor, for instance, because when you rewrite the equation under a change of coordinates, in order for it to remain invariant, the Dirac-coefficients must transform as spinors do.
 
 ok, this is a very clear spinor explanation
 * TODO [#A] [2020-07-14] [[https://www.mathpages.com/home/kmath654/kmath654.htm][mathpages.com/home/kmath654/kmath654.htm]] :diraceq:study:
 :PROPERTIES:
-:ID:       tswwwmthpgscmhmkmthkmthhtmmthpgscmhmkmthkmthhtm
+:ID:       swwwmthpgscmhmkmthkmthhtmmthpgscmhmkmthkmthhtm
 :END:
 whoa, the best motivation for Dirac equation I've seen so far
 * [2020-06-23] [[https://thedeemon.livejournal.com/139921.html][Quantum vs. classical - Dee Mon. Былое и думы — LiveJournal]]
 :PROPERTIES:
-:ID:       tsthdmnlvjrnlcmhtmlqntmvsclsscldmnбылоеидумыlvjrnl
+:ID:       sthdmnlvjrnlcmhtmlqntmvsclsscldmnбылоеидумыlvjrnl
 :END:
 : Потому, кстати, диаграммы с большим числом промежуточных узлов вносят очень малый вклад - там заряд в энной степени, и если он изначально мал, в энной степени выходит совсем мало. Кроме сильного взаимодействия, там он не так мал.
 * [#B] [2020-07-15] [[https://news.ycombinator.com/item?id=23850874][Understanding quaternions and the Dirac belt trick (2010)]]
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdndrstndngqtrnnsndthdrcblttrck
+:ID:       snwsycmbntrcmtmdndrstndngqtrnnsndthdrcblttrck
 :END:
 https://arxiv.org/abs/1001.1778
 * [#B] [2019-01-26] general topology - What is a topological space good for? - Mathematics Stack Exchange :topology:
 :PROPERTIES:
-:ID:       stgnrltplgywhtstplgclspcgdfrmthmtcsstckxchng
+:ID:       gnrltplgywhtstplgclspcgdfrmthmtcsstckxchng
 :END:
 https://math.stackexchange.com/questions/1795583/what-is-a-topological-space-good-for/1795995
 : Given topological spaces X,YX,Y, the product topology on X×YX×Y is the smallest topology which makes the projections continuous. (this also holds for infinite products)
@@ -86,7 +86,7 @@ https://math.stackexchange.com/questions/1795583/what-is-a-topological-space-goo
 : The topology induced by a metric on XX is the smallest topology which makes dd a continuous functions.
 * [#B] [2019-02-23] III Advanced Quantum Field Theory - QFT in one dimension (i.e. QM) :qft:
 :PROPERTIES:
-:ID:       stdvncdqntmfldthryqftnndmnsnqm
+:ID:       dvncdqntmfldthryqftnndmnsnqm
 :END:
 https://dec41.user.srcf.net/h/III_L/advanced_quantum_field_theory/2_4
 
@@ -96,22 +96,22 @@ https://dec41.user.srcf.net/h/III_L/advanced_quantum_field_theory/2_4
 :END:
 ** [#B] [2019-02-11] A new way of visualising quantum fields - IOPscience :qft:viz:
 :PROPERTIES:
-:ID:       mnnwwyfvslsngqntmfldspscnc
+:ID:       nwwyfvslsngqntmfldspscnc
 :END:
 https://iopscience.iop.org/article/10.1088/1361-6404/aaa032
 ** [#B] [2019-02-11] software - Where can I find visualizations of quantum field theory equations? - Physics Stack Exchange :qft:viz:
 :PROPERTIES:
-:ID:       mnsftwrwhrcnfndvslztnsfqnldthryqtnsphyscsstckxchng
+:ID:       sftwrwhrcnfndvslztnsfqntmldthryqtnsphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/325730/where-can-i-find-visualizations-of-quantum-field-theory-equations
 *** [2019-02-11] shit... so apparently it's pretty much impossible to visualise due to high number of states...
 :PROPERTIES:
-:ID:       mnshtspprntlytsprttymchmpssbltvslsdthghnmbrfstts
+:ID:       shtspprntlytsprttymchmpssbltvslsdthghnmbrfstts
 :END:
 
 ** [#B] [2019-02-11] Proton quarks empty mass calculation GIF : askscience :qft:
 :PROPERTIES:
-:ID:       mnprtnqrksmptymssclcltngfskscnc
+:ID:       prtnqrksmptymssclcltngfskscnc
 :END:
 https://www.reddit.com/r/askscience/comments/gyqaz/proton_quarks_empty_mass_calculation_gif/
 : The only way we've figured out for handling these calculations is to do them numerically, on a lattice. (In the computer program, we discretize space and time instead of having them be continuous.) Even with this, the calculations are notoriously hard to implement, but some of them turn out good results. That animation is the result of one of those.
@@ -119,7 +119,7 @@ https://www.reddit.com/r/askscience/comments/gyqaz/proton_quarks_empty_mass_calc
 right, so lattice QCD will result in something fruitful presumably
 ** [#B] [2019-02-11] Derek Leinweber                                :viz:qcd:
 :PROPERTIES:
-:ID:       mndrklnwbr
+:ID:       drklnwbr
 :END:
 http://www.physics.adelaide.edu.au/theory/staff/leinweber/VisualQCD/Nobel/
 ** TODO [#B] hmm, no one seems to have visualised klein gordon, even numerically? :quantum:viz:
@@ -129,14 +129,14 @@ http://www.physics.adelaide.edu.au/theory/staff/leinweber/VisualQCD/Nobel/
 :END:
 ** [#B] [2019-02-11] (8) Empty Space is NOT Empty - YouTube         :qft:viz:
 :PROPERTIES:
-:ID:       mnmptyspcsntmptyytb
+:ID:       mptyspcsntmptyytb
 :END:
 https://www.youtube.com/watch?v=J3xLuZNKhlY&feature=youtu.be
 visualisation of vacuum for a proton sized box
 
 * START [#B] [2019-02-24] Is it true that the Schrödinger equation only applies to spin-1/2 particles? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       snsttrthtthschrödngrqtnnltspnprtclsphyscsstckxchng
+:ID:       sttrthtthschrödngrqtnnlyptspnprtclsphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/129667/is-it-true-that-the-schr%C3%B6dinger-equation-only-applies-to-spin-1-2-particles/129744
 : If we pretend the wave function is a classical field (which happens all the time during the "second quantization" procedure), then it turns out to describe a spin-0 field. See Brian Hatfield's Quantum Field Theory of Point Particles and Strings, specifically chapter 2 --- on "Second Quantization".
@@ -144,18 +144,18 @@ https://physics.stackexchange.com/questions/129667/is-it-true-that-the-schr%C3%B
 : Joy Christian's "Exactly Soluble Sector of Quantum Gravity"
 ** [2019-05-06] mm. can't say I really understand it..
 :PROPERTIES:
-:ID:       mnmmcntsyrllyndrstndt
+:ID:       mmcntsyrllyndrstndt
 :END:
 : The "vanilla" Schrodinger's equation (from non-relativistic QM) does not describe a spin-1/2 particle.
 : The plain, old Schrodinger's equation describes a non-relativistic spin-0 field.
 
 ** [2019-05-06] for those interested in more on this, geocalc.clas.asu.edu/pdf/Consistency.pdf argues that "Schrodinger theory is identical to the Pauli theory when the electron is in an eigenstate of the spin"
 :PROPERTIES:
-:ID:       mnfrthsntrstdnmrnthsgclccywhnthlctrnsnngnsttfthspn
+:ID:       frthsntrstdnmrnthsgclcclsywhnthlctrnsnngnsttfthspn
 :END:
 * [#B] [2019-02-10] (6) Quantum Spin - Visualizing the physics and mathematics - YouTube :spin:viz:
 :PROPERTIES:
-:ID:       snqntmspnvslzngthphyscsndmthmtcsytb
+:ID:       qntmspnvslzngthphyscsndmthmtcsytb
 :END:
 https://www.youtube.com/watch?v=3k5IWlVdMbo&list=WL&t=0s&index=81
 : Eugene Khutoryansky
@@ -163,22 +163,22 @@ https://www.youtube.com/watch?v=3k5IWlVdMbo&list=WL&t=0s&index=81
 really good spin visualisations. ok, so spin is a unit quaternion, ok
 * TODO [#B] [2019-02-23] III Advanced Quantum Field Theory - QFT in zero dimensions :qft:study:
 :PROPERTIES:
-:ID:       stdvncdqntmfldthryqftnzrdmnsns
+:ID:       dvncdqntmfldthryqftnzrdmnsns
 :END:
 https://dec41.user.srcf.net/h/III_L/advanced_quantum_field_theory/1
 ** [2019-03-12] really nice looking book!
 :PROPERTIES:
-:ID:       trllynclkngbk
+:ID:       rllynclkngbk
 :END:
 
 * [#B] [2019-02-23] Lagrangian formalism for fields - Scholarpedia :lagrangian:spinor:
 :PROPERTIES:
-:ID:       stlgrngnfrmlsmfrfldsschlrpd
+:ID:       lgrngnfrmlsmfrfldsschlrpd
 :END:
 http://www.scholarpedia.org/article/Lagrangian_formalism_for_fields
 ** [2019-04-24] pretty good motivation for the shape of lagrangian and examples with different kinds of fields
 :PROPERTIES:
-:ID:       wdprttygdmtvtnfrthshpflgrndxmplswthdffrntkndsfflds
+:ID:       prttygdmtvtnfrthshpflgrngndxmplswthdffrntkndsfflds
 :END:
 
 * [#B] Tensors                                                       :tensor:
@@ -187,47 +187,47 @@ http://www.scholarpedia.org/article/Lagrangian_formalism_for_fields
 :END:
 ** TODO [2019-04-24] need to make sure I understand it and archive
 :PROPERTIES:
-:ID:       wdndtmksrndrstndtndrchv
+:ID:       ndtmksrndrstndtndrchv
 :END:
 ** [#C] [2019-02-23] Tensor Calculus                                 :tensor:
 :PROPERTIES:
-:ID:       sttnsrclcls
+:ID:       tnsrclcls
 :END:
 https://ion.uwinnipeg.ca/~vincent/4500.6-001/Cosmology/Tensor-Calculus.htm
 : This problem arises because of the very definition of the derivative. Differentiation involves comparing a quantity evaluated at two neighbouring points,
 : To define a tensor derivative we shall introduce a quantity called an affine connection and use it to define covariant differentiation.
 ** [#C] [2019-02-23] Tensor derivative (continuum mechanics) - Wikipedia
 :PROPERTIES:
-:ID:       sttnsrdrvtvcntnmmchncswkpd
+:ID:       tnsrdrvtvcntnmmchncswkpd
 :END:
 https://en.wikipedia.org/wiki/Tensor_derivative_(continuum_mechanics)#Derivative_of_the_inverse_of_a_second-order_tensor
 ** [#C] [2019-02-23] Partial derivative of tensor with respect to tensor - Mathematics Stack Exchange
 :PROPERTIES:
-:ID:       stprtldrvtvftnsrwthrspctttnsrmthmtcsstckxchng
+:ID:       prtldrvtvftnsrwthrspctttnsrmthmtcsstckxchng
 :END:
 https://math.stackexchange.com/questions/2803090/partial-derivative-of-tensor-with-respect-to-tensor
 ** [#C] [2019-02-23] partial differentiation of a variable w.r.t. its time derivative - Mathematics Stack Exchange
 :PROPERTIES:
-:ID:       stprtldffrnttnfvrblwrttstmdrvtvmthmtcsstckxchng
+:ID:       prtldffrnttnfvrblwrttstmdrvtvmthmtcsstckxchng
 :END:
 https://math.stackexchange.com/questions/720979/partial-differentiation-of-a-variable-w-r-t-its-time-derivative
 ** [#D] [2019-02-23] Tensors_Poor_Man.pdf
 :PROPERTIES:
-:ID:       sttnsrsprmnpdf
+:ID:       tnsrsprmnpdf
 :END:
 https://web2.ph.utexas.edu/~jcfeng/notes/Tensors_Poor_Man.pdf
 some ok explanations for covariant derivatives ans some index notation
 
 * START [#B] [2019-02-11] Aharonov-Bohm Experiment            :quantum:study:
 :PROPERTIES:
-:ID:       mnhrnvbhmxprmnt
+:ID:       hrnvbhmxprmnt
 :END:
 - State "START"      from              [2019-04-20]
 https://physicstravelguide.com/experiments/aharonov-bohm#tab__abstract
 : Functions that are not single valued can only exist in spaces that are not simply connected, or those that do not have trivial first homotopy group. We see that the manifold of the vacuum is thus the key to understanding the new physical result, and the topological defect gives us the intuition
 ** [#B] [2019-02-22] Euler–Lagrange equation - Wikipedia         :lagrangian:
 :PROPERTIES:
-:ID:       frlrlgrngqtnwkpd
+:ID:       lrlgrngqtnwkpd
 :END:
 https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation
 : Derivation of one-dimensional Euler–Lagrange equation
@@ -236,7 +236,7 @@ https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation
 Derivation of one-dimensional Euler–Lagrange equation -- this section is actually the one that makes sense of it
 ** [2019-02-22] basically
 :PROPERTIES:
-:ID:       frbsclly
+:ID:       bsclly
 :END:
 we have J = int F(x, f, f'). for any variaiton v, g_e = f + e v. So, F_e = F(x, g_e, g'_e) and J_e = int F(x, g_e, g'_e)
 next, total derivative: dJ_e/de = int dF_e/de dx
@@ -252,12 +252,12 @@ use integration by parts to eliminate higher order derivatives of the variation
 
 * [#B] [2019-02-23] Einstein–Hilbert action - Wikipedia
 :PROPERTIES:
-:ID:       stnstnhlbrtctnwkpd
+:ID:       nstnhlbrtctnwkpd
 :END:
 https://en.wikipedia.org/wiki/Einstein%E2%80%93Hilbert_action
 ** [2019-03-12] some nice calculations involving tensor chain rule   :tensor:
 :PROPERTIES:
-:ID:       tsmncclcltnsnvlvngtnsrchnrl
+:ID:       smncclcltnsnvlvngtnsrchnrl
 :END:
 
 * [#B] SO3 vs SU2 https://labcit.ligo.caltech.edu/~ethrane/Resources/seminar/Ch2.Spinors.pdf :reprtheory:
@@ -272,7 +272,7 @@ SO3 -- more tricky
   these angles are ALSO a surface of a three sphere; but if we have a degeneracy, opposite points are identified
 * [#B] [2019-03-19] Quantum computing for the very curious              :qft:
 :PROPERTIES:
-:ID:       tqntmcmptngfrthvrycrs
+:ID:       qntmcmptngfrthvrycrs
 :END:
 https://quantum.country/qcvc
 : The standard model is an example of a particular type of quantum mechanical theory called a quantum field theory. John Preskill and his collaborators have written a series of papersFor a review of progress see: John Preskill, Simulating quantum field theory with a quantum computer (2018). explaining how to use quantum computers to efficiently simulate quantum field theories. Those papers don’t yet simulate the full standard model, but they do make considerable progress. It remains an exciting open problem, albeit a problem where much encouraging progress has been made.
@@ -280,7 +280,7 @@ https://quantum.country/qcvc
 
 * [#B] [2019-03-20] What is the point of complex fields in classical field theory? - Physics Stack Exchange :qft:
 :PROPERTIES:
-:ID:       wdwhtsthpntfcmplxfldsnclssclfldthryphyscsstckxchng
+:ID:       whtsthpntfcmplxfldsnclssclfldthryphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/232589/what-is-the-point-of-complex-fields-in-classical-field-theory
 : Two real scalar fields ϕ1ϕ1 and ϕ2ϕ2 satisfying an SO(2)SO(2) symmetry and one complex scalar field ψψ are equivalent. However, the latter is more convenient because the particles made by ψψ and ψ†ψ† are each others' antiparticles. In the real case, the fields that have this property are ϕ1±iϕ2ϕ1±iϕ2, so once you change basis from ϕ1ϕ1 and ϕ2ϕ2 to ϕ1±iϕ2ϕ1±iϕ2 you've reinvented the complex scalar field.
@@ -288,37 +288,37 @@ https://physics.stackexchange.com/questions/232589/what-is-the-point-of-complex-
 : This is explained nicely starting from p.53 in Sidney Coleman's QFT notes.
 * START [#B] [2019-02-15] electromagnetism - Are electron fields and photon fields part of the same field in QED? - Physics Stack Exchange :qft:
 :PROPERTIES:
-:ID:       frlctrmgntsmrlctrnfldsndpthsmfldnqdphyscsstckxchng
+:ID:       lctrmgntsmrlctrnfldsndphtthsmfldnqdphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/166709/are-electron-fields-and-photon-fields-part-of-the-same-field-in-qed
 : In our modern understanding, every electron is thought to be a localized excitation of the electron (or Dirac) (spinor) field Ψ(xμ)Ψ(xμ), while every photon is considered to be an excitation of the photon (vector) field Aν(xμ)Aν(xμ), which is the quantum field-theoretic counterpart of the classical four-potential.
 ** [2019-05-06] The 'covariant derivative' Dμ≡∂μ+ieAμ encodes the interaction between the two fields Aμ and Ψ, and the 'strength' of the interaction is given by e, the charge of the electron.
 :PROPERTIES:
-:ID:       mnthcvrntdrvtvdμμμncdsthntrctnsgvnbythchrgfthlctrn
+:ID:       thcvrntdrvtvdμμμncdsthntrtrctnsgvnbythchrgfthlctrn
 :END:
 *** [2019-05-06] hmm that sort of makes sense, because covariant derivatives gives the connection for fiber bundle, which is related to the gauges and that stuff??
 :PROPERTIES:
-:ID:       mnhmmthtsrtfmkssnsbcscvrnlwhchsrltdtthggsndthtstff
+:ID:       hmmthtsrtfmkssnsbcscvrntdlwhchsrltdtthggsndthtstff
 :END:
 * [#B] [2019-03-12] Cambridge Notes                            :math:physics:
 :PROPERTIES:
-:ID:       tcmbrdgnts
+:ID:       cmbrdgnts
 :END:
 https://dec41.user.srcf.net/notes/
 ** [2019-06-12] some nicery rendered stuff
 :PROPERTIES:
-:ID:       wdsmncryrndrdstff
+:ID:       smncryrndrdstff
 :END:
 
 * [#B] [2019-03-12] III Quantum Field Theory - Spinors
 :PROPERTIES:
-:ID:       tqntmfldthryspnrs
+:ID:       qntmfldthryspnrs
 :END:
 https://dec41.user.srcf.net/h/III_M/quantum_field_theory/4_1
 read all these course notes over again
 * [#B] [2019-03-28] Simulation of Lattice Quantum-Chromodynamics and Other Lattice Models : TechWeb : Boston University :viz:qft:
 :PROPERTIES:
-:ID:       thsmltnflttcqntmchrmdynmchrlttcmdlstchwbbstnnvrsty
+:ID:       smltnflttcqntmchrmdynmcsnhrlttcmdlstchwbbstnnvrsty
 :END:
 https://www.bu.edu/tech/support/research/visualization/gallery/lattice-qcd09/
 
@@ -333,20 +333,20 @@ https://www.bu.edu/tech/support/research/visualization/gallery/lattice-qcd09/
 https://twitter.com/borjasotomayor/status/1113038716929560578
 ** [2019-06-12] huh. liberal arts means whole set of sciences, not just 'art'
 :PROPERTIES:
-:ID:       wdhhlbrlrtsmnswhlstfscncsntjstrt
+:ID:       hhlbrlrtsmnswhlstfscncsntjstrt
 :END:
 ** TODO [2019-06-12] do some of these? https://www.coursera.org/browse/arts-and-humanities
 :PROPERTIES:
-:ID:       wddsmfthsswwwcrsrrgbrwsrtsndhmnts
+:ID:       dsmfthsswwwcrsrrgbrwsrtsndhmnts
 :END:
 *** [2019-06-12] graphic design could be interesting, 'modern art & ideas'; creative writing?
 :PROPERTIES:
-:ID:       wdgrphcdsgncldbntrstngmdrnrtdscrtvwrtng
+:ID:       grphcdsgncldbntrstngmdrnrtdscrtvwrtng
 :END:
 
 * [#B] [2019-04-24] angular momentum - An electron has no known internal structure, does that imply it has an unknown one? - Physics Stack Exchange :spin:
 :PROPERTIES:
-:ID:       wdnglrmmntmnlctrnhsnknwnnthsnnknwnnphyscsstckxchng
+:ID:       nglrmmntmnlctrnhsnknwnntrthsnnknwnnphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/130649/an-electron-has-no-known-internal-structure-does-that-imply-it-has-an-unknown-o/130655#130655
 : Spin is a purely quantum mechanical phenomenon, it cannot be understood with classical physics alone, and every analogy will break down. It has also, intrinsically, nothing to do with any kind of internal structure.
@@ -358,13 +358,13 @@ https://physics.stackexchange.com/questions/130649/an-electron-has-no-known-inte
 :END:
 ** [#B] [2019-04-24] polarization - What is polarisation, spin, helicity, chirality and parity? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       wdplrztnwhtsplrstnspnhlctrltyndprtyphyscsstckxchng
+:ID:       plrztnwhtsplrstnspnhlctycrltyndprtyphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/232591/what-is-polarisation-spin-helicity-chirality-and-parity/232600#232600
 : Spin is determined from the representation of the Lorentz group the quantum field transforms in. The projective finite-dimensional representations of the Lorentz group are labeled by two half-integers (s1,s2)(s1,s2). The spin of a field is the sum s=s1+s2s=s1+s2. For example, a scalar transforms in (0,0)(0,0), a vector field in (12,12)(12,12), a Dirac spinor in (12,0)⊕(0,12)(12,0)⊕(0,12), and those have spin 00, 11 and 1212, respectively.
 ** [#B] [2019-04-24] polarization - What is polarisation, spin, helicity, chirality and parity? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       wdplrztnwhtsplrstnspnhlctrltyndprtyphyscsstckxchng
+:ID:       plrztnwhtsplrstnspnhlctycrltyndprtyphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/232591/what-is-polarisation-spin-helicity-chirality-and-parity/232600#232600
 : What is polarisation, spin, helicity, chirality and parity?
@@ -372,7 +372,7 @@ https://physics.stackexchange.com/questions/232591/what-is-polarisation-spin-hel
 good answer from acurious mind
 ** [#B] [2019-04-24] What should be the intuitive explanation of wave equation? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       wdwhtshldbthnttvxplntnfwvqtnphyscsstckxchng
+:ID:       whtshldbthnttvxplntnfwvqtnphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/174862/what-should-be-the-intuitive-explanation-of-wave-equation/174867#174867
 : Observe that
@@ -385,7 +385,7 @@ https://physics.stackexchange.com/questions/174862/what-should-be-the-intuitive-
 hmm.... wonder if that might help with solving wave equation in sympy
 ** [#C] [2019-02-08] polarisation and helicity some derivations       :gauge:
 :PROPERTIES:
-:ID:       frplrstnndhlctysmdrvtns
+:ID:       plrstnndhlctysmdrvtns
 :END:
 https://www.ippp.dur.ac.uk/~krauss/Lectures/QuarksLeptons/QED/QEDLagrangian_4.html
 
@@ -396,19 +396,19 @@ https://www.ippp.dur.ac.uk/~krauss/Lectures/QuarksLeptons/QED/QEDLagrangian_4.ht
 :END:
 * [#B] [2019-06-05] Gauge invariance - Scholarpedia
 :PROPERTIES:
-:ID:       wdggnvrncschlrpd
+:ID:       ggnvrncschlrpd
 :END:
 http://www.scholarpedia.org/article/Gauge_invariance
 
 * TODO [#B] [2019-06-20] Jacopo Bertolotti on Twitter: "I am not satisfied yet, but this is my spin rotating around the x-axis, with the color representing the phase term common to both components of the spinor (which shows that you need two rounds to go back to the original state). I will work more on it in the next days.… https://t.co/ji4cYUNRu8" :spinor:viz:
 :PROPERTIES:
-:ID:       thjcpbrtlttntwttrmntstsfdlwrkmrntnthnxtdysstcjcynr
+:ID:       jcpbrtlttntwttrmntstsfdytlwrkmrntnthnxtdysstcjcynr
 :END:
 https://twitter.com/j_bertolotti/status/1141724827599941633
 : I am not satisfied yet, but this is my spin rotating around the x-axis, with the color representing the phase term common to both components of the spinor (which shows that you need two rounds to go back to the original state). I will work more on it in the next days.
 ** [2019-08-09] also baez got a discussion in comments, so might help with my understaning! :baez:
 :PROPERTIES:
-:ID:       frlsbzgtdscssnncmmntssmghthlpwthmyndrstnng
+:ID:       lsbzgtdscssnncmmntssmghthlpwthmyndrstnng
 :END:
 * TODO [#B] Tweet from George Corney (@Haxiomic), at Oct 3, 00:08   :sim:qft:
 :PROPERTIES:
@@ -421,13 +421,13 @@ https://twitter.com/Haxiomic/status/1179112422503833601
 
 * STRT [#B] [2019-11-14] John Carlos Baez on Twitter: "Murray Gell-Mann won the Nobel prize for discovering "quarks":" protons, neutrons, and other baryons are made of 3 quarks, while pions, kaons and other mesons are made of a quark and an antiquark. But he got some help from his tennis partner! (1/n) https://t.co/YHGDNpvfZX" / Twitter
 :PROPERTIES:
-:ID:       thjhncrlsbzntwttrmrrygllmsprtnrnstcyhgdnpvfzxtwttr
+:ID:       jhncrlsbzntwttrmrrygllmnnsprtnrnstcyhgdnpvfzxtwttr
 :END:
 https://twitter.com/johncarlosbaez/status/1195047685922807808
 : Murray Gell-Mann won the Nobel prize for discovering "quarks":" protons, neutrons, and other baryons are made of 3 quarks, while pions, kaons and other mesons are made of a quark and an antiquark.   But he got some help from his tennis partner!
 ** TODO [#C] [2019-11-23] https://en.wikipedia.org/wiki/Eightfold_way_(physics) :study:
 :PROPERTIES:
-:ID:       stsnwkpdrgwkghtfldwyphyscs
+:ID:       snwkpdrgwkghtfldwyphyscs
 :END:
 * TODO [#B] Tweet from Nikita Lisitsa (@lisyarus), at Nov 22, 14:40
 :PROPERTIES:
@@ -450,13 +450,13 @@ https://twitter.com/martinkl/status/1195302299465326592
 
 ** [2019-11-23] Experimental test of local observer independence | Science Advances :quantum:
 :PROPERTIES:
-:ID:       stxprmntltstflclbsrvrndpndncscncdvncs
+:ID:       xprmntltstflclbsrvrndpndncscncdvncs
 :END:
 https://advances.sciencemag.org/content/5/9/eaaw9832
 eh, still didn't quite get what are the mscroscopic consequences of that?
 * [#B] [2020-05-11] [[https://twitter.com/NathanielVirgo/status/1259609274805882886][Mel Andrews 𓃻 on Twitter: "Explain mean field theory to philosophers in one sentence GO!" / Twitter]]
 :PROPERTIES:
-:ID:       mnstwttrcmnthnlvrgsttsmlnhrytphlsphrsnnsntncgtwttr
+:ID:       stwttrcmnthnlvrgsttsmlndrhrytphlsphrsnnsntncgtwttr
 :END:
 : Nathaniel Virgo
 : @NathanielVirgo
@@ -477,23 +477,23 @@ eh, still didn't quite get what are the mscroscopic consequences of that?
 : 2/ the *average* of all other parts of the system, regardless of their spatial location or network structure. For deep and surprising reasons, this sometimes gives not just approximately the right answer, but *exactly* the right answer, at least in an infinite limit.
 * TODO [#B] [2020-05-11] [[https://twitter.com/karlicoss/status/1259843632892436483][(1) jestem króliczkiem on Twitter: "@litgenstein I was hoping to work on some interactive Python notebooks based on this: https://t.co/yUd0TyTmQZ Will finally have some time to try it out soon!" / Twitter]] :blog:
 :PROPERTIES:
-:ID:       mnstwttrcmkrlcsssttsjstmklfnllyhvsmtmttryttsntwttr
+:ID:       stwttrcmkrlcsssttsjstmkrólfnllyhvsmtmttryttsntwttr
 :END:
 : I was hoping to work on some interactive Python notebooks based on this: https://dec41.user.srcf.net/h/III_L/advanced_quantum_field_theory/   1
 : Will finally have some time to try it out soon!
 * STRT [#B] [2020-05-19] [[https://www.youtube.com/watch?v=4v9A9hQUcBQ][(3) Mapping the Multiverse - YouTube]] :study:blackhole:
 :PROPERTIES:
-:ID:       tswwwytbcmwtchvvhqcbqmppngthmltvrsytb
+:ID:       swwwytbcmwtchvvhqcbqmppngthmltvrsytb
 :END:
 shit 4:00 actually great demo of normal spacetime & black hole on the penrose diagram
 * TODO [#B] [2020-06-03] [[https://twitter.com/j_bertolotti/status/1268130937117847552][(1) Jacopo Bertolotti on Twitter: "#PhysicsFactlet (230) If the forces acting on your system can't be written as a potential, you can still write a Euler-Lagrange equation in terms of the kinetic energy T and the components of the forces tangent to the generalized coordinates q. https://t.co/Hd0xbUsHCw" / Twitter]] :tweet:physics:
 :PROPERTIES:
-:ID:       wdstwttrcmjbrtlttsttsjcpbzdcrdntsqstchdxbshcwtwttr
+:ID:       stwttrcmjbrtlttsttsjcpbrtzdcrdntsqstchdxbshcwtwttr
 :END:
 post very short intro into lagrangians?
 * [#B] [2020-05-25] [[https://twitter.com/ValFadeev/status/1264877695604842496][Valentin Fadeev on Twitter: "Hamiltonian or Lagrangian? Why choose when you can have the best of both (provided you have some cyclic coordinates). Enter Routhian. From L&amp;L "Mechanics" §41. https://t.co/AcuXAxR4hf" / Twitter]]
 :PROPERTIES:
-:ID:       mnstwttrcmvlfdvsttsvlntnfmlmplmchncsstccxxrhftwttr
+:ID:       stwttrcmvlfdvsttsvlntnfdvmlmplmchncsstccxxrhftwttr
 :END:
 : Valentin Fadeev
 : @ValFadeev
@@ -501,17 +501,17 @@ post very short intro into lagrangians?
 : Hamiltonian or Lagrangian? Why choose when you can have the best of both (provided you have some cyclic coordinates). Enter Routhian. From L&L "Mechanics" §41.
 * TODO [#B] [2020-06-23] [[https://twitter.com/lisyarus/status/1275398148081491969][Nikita Lisitsa on Twitter: "Digging through "Introduction to Quantum Field Theory for Mathematicians" by Sourav Chatterjee. The first book with a title like this I've found that seems to actually do the job." / Twitter]] :study:
 :PROPERTIES:
-:ID:       tstwttrcmlsyrssttsnktlstsfndthtsmstctllydthjbtwttr
+:ID:       stwttrcmlsyrssttsnktlstsnfndthtsmstctllydthjbtwttr
 :END:
 : Digging through "Introduction to Quantum Field Theory for Mathematicians" by Sourav Chatterjee. The first book with a title like this I've found that seems to actually do the job.
 * [#B] [2020-07-09] [[https://ahelwer.ca/post/2019-12-21-quantum-chemistry/][Simulating physical reality with a quantum computer]] :tweet:
 :PROPERTIES:
-:ID:       thshlwrcpstqntmchmstrysmltngphysclrltywthqntmcmptr
+:ID:       shlwrcpstqntmchmstrysmltngphysclrltywthqntmcmptr
 :END:
 useful for my tweet thread for physical impl of quantum computations
 * [#B] [2020-07-16] [[https://twitter.com/johncarlosbaez/status/1283810090806439936][(1) John Carlos Baez on Twitter: "A wonderful thing: any differentiable function from the complex numbers to the complex numbers preserves angles - except where its derivative is zero. So it's a conformal mapping! The complex numbers capture the geometry of angles in 2 dimensions. (4/n) https://t.co/NQBOMOFibR" / Twitter]]
 :PROPERTIES:
-:ID:       thstwttrcmjhncrlsbzsttsjhlsndmnsnsnstcnqbmfbrtwttr
+:ID:       stwttrcmjhncrlsbzsttsjhnclsndmnsnsnstcnqbmfbrtwttr
 :END:
 : A wonderful thing: any differentiable function from the complex numbers to the complex numbers preserves angles - except where its derivative is zero.   So it's a conformal mapping!
 : 
@@ -526,31 +526,31 @@ useful for my tweet thread for physical impl of quantum computations
 
 * STRT [#B] [2020-07-18] [[https://gravityandlevity.wordpress.com/2020/07/14/how-can-electrons-be-topological/][How can electrons be “topological”? | Gravity and Levity]]
 :PROPERTIES:
-:ID:       stsgrvtyndlvtywrdprsscmhwnlctrnsbtplgclgrvtyndlvty
+:ID:       sgrvtyndlvtywrdprsscmhwcnnlctrnsbtplgclgrvtyndlvty
 :END:
 
 * STRT [#B] [2020-08-09] [[http://systems-sciences.uni-graz.at/etextbook/sw2/phpl_examples.html][Phase plane analysis: examples]] :blog:
 :PROPERTIES:
-:ID:       snsystmsscncsngrzttxtbkswxmplshtmlphsplnnlyssxmpls
+:ID:       systmsscncsngrzttxtbkswphxmplshtmlphsplnnlyssxmpls
 :END:
 ** [2020-12-20] useful for they see me flowin they hatin
 :PROPERTIES:
-:ID:       snsflfrthysmflwnthyhtn
+:ID:       sflfrthysmflwnthyhtn
 :END:
 
 * STRT [#B] [2020-11-20] [[https://www.youtube.com/watch?v=MmG2ah5Df4g&list=WL&index=75&t=20s][Quantum Field Theory visualized - YouTube]]
 :PROPERTIES:
-:ID:       frswwwytbcmwtchvmmghdfglslndxtsqntmfldthryvslzdytb
+:ID:       swwwytbcmwtchvmmghdfglstwlndxtsqntmfldthryvslzdytb
 :END:
 
 * [#B] [2020-10-20] [[http://www.gregegan.net/APPLETS/21/21.html][Dirac — Greg Egan]]
 :PROPERTIES:
-:ID:       twwwgrggnntppltshtmldrcgrggn
+:ID:       wwwgrggnntppltshtmldrcgrggn
 :END:
 nice illustration of spinor states
 * [#B] [2020-08-31] [[https://reddit.com/r/Physics/comments/ijzfr7/i_made_an_animation_showing_how_a_ring_of_n/][I made an animation showing how a ring of N classical (left) or quantum (right) harmonic oscillators reproduces the physics of fields when N becomes large! (More details in comments)]] /r/Physics
 :PROPERTIES:
-:ID:       mnsrddtcmrphyscscmmntsjzfmslrgmrdtlsncmmntsrphyscs
+:ID:       srddtcmrphyscscmmntsjzfrmmslrgmrdtlsncmmntsrphyscs
 :END:
 
 * TODO [#B] Tweet from Nikita Lisitsa (@lisyarus), at Jul 17, 15:52
@@ -582,7 +582,7 @@ https://twitter.com/lisyarus/status/1151504899907162112
 
 * TODO [#B] [2019-10-09] Три книги - Dee Mon. Былое и думы — LiveJournal
 :PROPERTIES:
-:ID:       wdтрикнигиdmnбылоеидумыlvjrnl
+:ID:       трикнигиdmnбылоеидумыlvjrnl
 :END:
 https://thedeemon.livejournal.com/140306.html
 : Клейн-Гордон и Дирак логически вылезают из метрики п-ва Минковского. Ну и чуток постулирования, как и оное пространство с его метрикой. И с СТО математически КМ давно подружили, на этом вся КТП стоит. А вот как эти формулы понимать, что они говорят содержательно о мире - это вопрос интерпретаций. И тут не все одинаково хорошо справляются.
@@ -604,11 +604,11 @@ it depends on the definition of |D> and I guess here quantum immortality comes i
 actually I guess somehow the idea is that |1> |A> is transformed into |1> |D> somehow. This is def weird and something is missing
 ** [2020-07-21] ah, ok, so transformation from |A> to |A> + |D> is ok, it's unitary?
 :PROPERTIES:
-:ID:       thkstrnsfrmtnfrmtdsktsntry
+:ID:       hkstrnsfrmtnfrmtdsktsntry
 :END:
 * [#B] [2020-08-11] [[https://en.wikipedia.org/wiki/Higgs_mechanism#Consequences_for_fermions][Higgs mechanism - Wikipedia]]
 :PROPERTIES:
-:ID:       tsnwkpdrgwkhggsmchnsmcnsqncsfrfrmnshggsmchnsmwkpd
+:ID:       snwkpdrgwkhggsmchnsmcnsqncsfrfrmnshggsmchnsmwkpd
 :END:
 : Fermions, such as the leptons and quarks in the Standard Model, can also acquire mass as a result of their interaction with the Higgs field, but not in the same way as the gauge bosons. 
 * TODO [#B] weinstein says yang-mills equations are simpler?          :study:
@@ -619,17 +619,17 @@ actually I guess somehow the idea is that |1> |A> is transformed into |1> |D> so
 
 * [#B] [2020-09-15] Higgs fermions and bosons
 :PROPERTIES:
-:ID:       thggsfrmnsndbsns
+:ID:       hggsfrmnsndbsns
 :END:
 : In this model, the particles acquire mass through spontaneous symmetry breaking; the W and Z as a result of a local gauge symmetry and the fermions, such as the muon, as a result of Yukawa couplings to the Higgs field – a novel type of interaction among fundamental particles that is not derived from a symmetry principle
 * TODO [#B] [2020-10-22] [[https://en.wikipedia.org/wiki/Nyquist_frequency][Nyquist frequency - Wikipedia]]
 :PROPERTIES:
-:ID:       thsnwkpdrgwknyqstfrqncynyqstfrqncywkpd
+:ID:       snwkpdrgwknyqstfrqncynyqstfrqncywkpd
 :END:
 
 * [#B] [2020-07-04] [[https://en.wikipedia.org/wiki/Gluon][Gluon - Wikipedia]]
 :PROPERTIES:
-:ID:       stsnwkpdrgwkglnglnwkpd
+:ID:       snwkpdrgwkglnglnwkpd
 :END:
 : It is often said that the stable strongly interacting particles (such as the proton and the neutron, i.e. hadrons) observed in nature are "colorless", but more precisely they are in a "color singlet" state, which is mathematically analogous to a spin singlet state.[7] Such states allow interaction with other color singlets, but not with other color states; because long-range gluon interactions do not exist, this illustrates that gluons in the singlet state do not exist either.[7]
 * TODO [#B] Tweet from @wickrotate
@@ -647,91 +647,91 @@ https://twitter.com/wickrotate/status/1280624828026740737
 :END:
 ** [2020-07-13] [[https://www.mathpages.com/home/kmath703/kmath703.htm][On the Higgs Mechanism]]
 :PROPERTIES:
-:ID:       mnswwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
+:ID:       swwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
 :END:
 
 ** [2020-07-13] [[https://www.mathpages.com/home/kmath703/kmath703.htm][On the Higgs Mechanism]]
 :PROPERTIES:
-:ID:       mnswwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
+:ID:       swwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
 :END:
 : However, there is one remaining case to consider. Suppose there exists a field ψi with non-zero Ki and with a non-zero self-interaction coefficient kii. Such a field, in isolation, satisfies the equation
 ** [2020-07-13] [[https://www.mathpages.com/home/kmath703/kmath703.htm][On the Higgs Mechanism]]
 :PROPERTIES:
-:ID:       mnswwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
+:ID:       swwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
 :END:
 : The particles have an effective mass only because of the existence of one special field, called the Higgs field, whose governing equation has a negative Ki and positive kii.
 ** [2020-07-13] [[https://en.wikipedia.org/wiki/Self-energy][Self-energy - Wikipedia]]
 :PROPERTIES:
-:ID:       mnsnwkpdrgwkslfnrgyslfnrgywkpd
+:ID:       snwkpdrgwkslfnrgyslfnrgywkpd
 :END:
 : The photon and gluon do not get a mass through renormalization because gauge symmetry protects them from getting a mass.
 ** [2020-07-13] [[https://en.wikipedia.org/wiki/Self-energy][Self-energy - Wikipedia]]
 :PROPERTIES:
-:ID:       mnsnwkpdrgwkslfnrgyslfnrgywkpd
+:ID:       snwkpdrgwkslfnrgyslfnrgywkpd
 :END:
 : The photon and gluon do not get a mass through renormalization because gauge symmetry protects them from getting a mass. This is a consequence of the Ward identity. The W-boson and the Z-boson get their masses through the Higgs mechanism; they do undergo mass renormalization through the renormalization of the electroweak theory. 
 ** [2020-07-13] [[https://www.mathpages.com/home/kmath703/kmath703.htm][On the Higgs Mechanism]]
 :PROPERTIES:
-:ID:       mnswwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
+:ID:       swwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
 :END:
 : Consequently, whenever some quantity of energy is contained and prevented from propagating (macroscopically) at the speed c, the configuration has rest mass.
 ** [2020-07-13] [[https://www.mathpages.com/home/kmath703/kmath703.htm][On the Higgs Mechanism]]
 :PROPERTIES:
-:ID:       mnswwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
+:ID:       swwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
 :END:
 : For example, a photon bouncing around inside a box with mirrored internal walls is microscopically massless and propagates at c as it travels from wall to wall, but the photon’s energy contained within the box contributes to the rest mass of the stationary box. Likewise the mass of an atom is not just the sum of the microscopic rest masses of the constituent elementary particles, it also has contributions from the bound kinetic energies of those particles, as well as the binding energies.
 ** [2020-07-13] [[https://www.mathpages.com/home/kmath703/kmath703.htm][On the Higgs Mechanism]]
 :PROPERTIES:
-:ID:       mnswwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
+:ID:       swwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
 :END:
 : Thus it would be more accurate to say that all rest mass arises from mechanisms that constrain configurations of energy, preventing them from propagating (at least macroscopically) at the speed of light, which implies that they are (at least macroscopically) stationary in some inertial frame. The Higgs interaction is just one such mechanism, albeit one that operates on perhaps the most fundamental level.
 * [#B] [2020-07-13] [[https://en.wikipedia.org/wiki/Klein%E2%80%93Gordon_equation][Klein–Gordon equation - Wikipedia]]
 :PROPERTIES:
-:ID:       mnsnwkpdrgwkklngrdnqtnklngrdnqtnwkpd
+:ID:       snwkpdrgwkklngrdnqtnklngrdnqtnwkpd
 :END:
 : Since the Higgs boson is a spin-zero particle, it is the first observed ostensibly elementary particle to be described by the Klein–Gordon equation
 * [#B] [2020-07-13] [[https://physics.stackexchange.com/questions/23161/why-don-t-photons-interact-with-the-higgs-field][Why don’t photons interact with the Higgs field? - Physics Stack Exchange]]
 :PROPERTIES:
-:ID:       mnsphyscsstckxchngcmqstnshthhggsfldphyscsstckxchng
+:ID:       sphyscsstckxchngcmqstnswhhthhggsfldphyscsstckxchng
 :END:
 * [#B] [2020-07-13] [[https://www.mathpages.com/home/kmath703/kmath703.htm][On the Higgs Mechanism]]
 :PROPERTIES:
-:ID:       mnswwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
+:ID:       swwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
 :END:
 : Even if we were previously unacquainted with the Dirac equation, these considerations might have led us to suspect that most elementary quantum fields have multiple components that would individually be massless and propagate at c, but that are mutually coupled together in a bound configuration of energy that possesses a rest frame. 
 * [#B] [2020-07-13] [[https://www.mathpages.com/home/kmath703/kmath703.htm][On the Higgs Mechanism]]
 :PROPERTIES:
-:ID:       mnswwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
+:ID:       swwwmthpgscmhmkmthkmthhtmnthhggsmchnsm
 :END:
 : Likewise the mass of an electron (for example) can be associated with the coupling between the two 2-spinor components of Dirac’s model.
 * [#B] [2020-07-14] [[https://www.mathpages.com/home/kmath654/kmath654.htm][mathpages.com/home/kmath654/kmath654.htm]] :readagain:
 :PROPERTIES:
-:ID:       tswwwmthpgscmhmkmthkmthhtmmthpgscmhmkmthkmthhtm
+:ID:       swwwmthpgscmhmkmthkmthhtmmthpgscmhmkmthkmthhtm
 :END:
 
 * [#B] [2020-07-18] [[https://en.wikipedia.org/wiki/Klein%E2%80%93Gordon_equation][Klein–Gordon equation - Wikipedia]]
 :PROPERTIES:
-:ID:       stsnwkpdrgwkklngrdnqtnklngrdnqtnwkpd
+:ID:       snwkpdrgwkklngrdnqtnklngrdnqtnwkpd
 :END:
 : The analogous limit of a quantum Klein-Gordon field is complicated by the non-commutativity of the field operator. In the limit v << c, the creation and annihilation operators decouple and behave as independent quantum Schrödinger fields.
 * [#B] [2020-07-20] dirac gif
 :PROPERTIES:
-:ID:       mndrcgf
+:ID:       drcgf
 :END:
 [[https://www.gregegan.net/images/DiracAnimation.gif][DiracAnimation.gif (GIF Image, 500 × 330 pixels)]]
 * [#B] [2020-07-24] [[https://www.scottaaronson.com/blog/?p=710][Shtetl-Optimized » Blog Archive » Rosser’s Theorem via Turing machines]]
 :PROPERTIES:
-:ID:       frswwwscttrnsncmblgpshttllgrchvrssrsthrmvtrngmchns
+:ID:       swwwscttrnsncmblgpshttlptlgrchvrssrsthrmvtrngmchns
 :END:
 : Why didn’t Gödel simply talk about soundness?  Because unlike consistency or ω-consistency, soundness is a “metatheoretic” concept that’s impossible to formalize in F.  So, if he used soundness, then the First Incompleteness Theorem couldn’t even be stated, let alone proved, in F itself, and that in turn would create problems for the proof of his Second Incompleteness Theorem.
 * [#B] [2020-08-01] [[http://www.vttoth.com/CMS/physics-notes/165-quaternions-and-the-dirac-equation][Viktor T. Toth - Quaternions and the Dirac equation]]
 :PROPERTIES:
-:ID:       stwwwvttthcmcmsphyscsntsqnvktrttthqtrnnsndthdrcqtn
+:ID:       wwwvttthcmcmsphyscsntsqtrnvktrttthqtrnnsndthdrcqtn
 :END:
 :  One way to make this work is to have αi that satisfy the equation, αiαj+αjαi=ηij+ηji, where ηij is the Minkowski-metric.
 * [#B] [2020-08-01] [[https://spinor.info/weblog/][Spinor Info – About physics and other things]]
 :PROPERTIES:
-:ID:       stsspnrnfwblgspnrnfbtphyscsndthrthngs
+:ID:       sspnrnfwblgspnrnfbtphyscsndthrthngs
 :END:
 * TODO [#B] Tweet from michael_nielsen (@michael_nielsen), at Oct 18, 20:59
 :PROPERTIES:
@@ -769,7 +769,7 @@ https://twitter.com/johncarlosbaez/status/1200480005119078400
 
 * [#B] [2020-05-01] [[https://physicstravelguide.com/advanced_tools/gauge_symmetry#tab__intuitive][Gauge Symmetry [The Physics Travel Guide]]
 :PROPERTIES:
-:ID:       frsphyscstrvlgdcmdvncdtlstvggsymmtrythphyscstrvlgd
+:ID:       sphyscstrvlgdcmdvncdtlsggtvggsymmtrythphyscstrvlgd
 :END:
 : The best laymen explanation can be found in The symmetry and simplicity of the laws of physics and the Higgs boson by Juan Maldacena
 * TODO [#B] ax
@@ -786,11 +786,11 @@ https://twitter.com/johncarlosbaez/status/1200480005119078400
 The reason that textbooks mix these things up is because in relativistic quantum field theories these two phases are always the same, by virtue of the spin-statistics theorem. But the anyons of condensed matter are nonrelativistic.
 * [#B] [2020-06-24] [[https://en.wikipedia.org/wiki/File:Metals_and_insulators,_quantum_difference_from_band_structure.ogv][File:Metals and insulators, quantum difference from band structure.ogv - Wikipedia]]
 :PROPERTIES:
-:ID:       wdsnwkpdrgwkflmtlsndnsltrmdffrncfrmbndstrctrgvwkpd
+:ID:       snwkpdrgwkflmtlsndnsltrsqmdffrncfrmbndstrctrgvwkpd
 :END:
 * [#B] [2020-07-03] [[https://twitter.com/sarah_zrf/status/1279065626951274496][america hater sarahzrf on Twitter: "@lisyarus ...so conservation of energy is {H, H} = 0 when the hamiltonian is the same as energy, which i seem to recall being the case exactly when consrevation of energy is true 👀" / Twitter]]
 :PROPERTIES:
-:ID:       frstwttrcmsrhzrfsttsmrchtlywhncnsrvtnfnrgystrtwttr
+:ID:       stwttrcmsrhzrfsttsmrchtrslywhncnsrvtnfnrgystrtwttr
 :END:
 : ...so conservation of energy is {H, H} = 0 when the hamiltonian is the same as energy, which i seem to recall being the case exactly when consrevation of energy is true 
 * TODO [#B] Tweet from @gregeganSF
@@ -806,7 +806,7 @@ The reason that textbooks mix these things up is because in relativistic quantum
 : https://t.co/PbmBsaVXAs
 * [#B] [2020-03-23] [[https://reddit.com/r/Physics/comments/fnr7jp/black_holes_are_not_empty_voids_a_black_hole_at/][Black Holes Are Not Empty Voids. A Black Hole at the Heart!]] /r/Physics
 :PROPERTIES:
-:ID:       mnsrddtcmrphyscscmmntsfnrptyvdsblckhltthhrtrphyscs
+:ID:       srddtcmrphyscscmmntsfnrjpptyvdsblckhltthhrtrphyscs
 :END:
 * TODO [#B] The hydrogen atom is the simplest atom, and you ought to be able to understand it if you understand atoms at all :study:
 :PROPERTIES:
@@ -817,17 +817,17 @@ todo
 from [[https://www.instapaper.com/read/1171585718/12393958][ip]]   [[https://www.quantamagazine.org/a-math-puzzle-worthy-of-freeman-dyson-20140326/][A Math Puzzle Worthy of Freeman Dyson | Quanta Magazine]]
 * [#B] [2020-05-26] [[https://www.nanowerk.com/nanotechnology-news2/newsid=55232.php][Novel insight reveals topological tangle in unexpected corner of the universe]]
 :PROPERTIES:
-:ID:       tswwwnnwrkcmnntchnlgynwsngcltnglnnxpctdcrnrfthnvrs
+:ID:       swwwnnwrkcmnntchnlgynwsnwgcltnglnnxpctdcrnrfthnvrs
 :END:
 
 * [#B] [2020-06-18] [[https://twitter.com/johncarlosbaez/status/1273640991522557952][John Carlos Baez on Twitter: "I love condensed matter physics! I hadn't even known dielectrons were a thing: normally electrons repel. But in a sodium-ammonia solution, electrons pair up with opposite spins. Here's a new simulation of a dielectron, lasting 2.75 picoseconds: (2/n) https://t.co/onDLm8yP4S" / Twitter]]
 :PROPERTIES:
-:ID:       thstwttrcmjhncrlsbzsttsjhngpcscndsnstcndlmypstwttr
+:ID:       stwttrcmjhncrlsbzsttsjhncngpcscndsnstcndlmypstwttr
 :END:
 : I love condensed matter physics!  I hadn't even known dielectrons were a thing: normally electrons repel.  But in a sodium-ammonia solution, electrons pair up with opposite spins. 
 * TODO [#C] [2020-06-15] [[https://amacfie.github.io/2017/11/12/quote-compressed-physics/][Quote of the day: Physics · Andrew's Blog]]
 :PROPERTIES:
-:ID:       mnsmcfgthbqtcmprssdphyscsqtfthdyphyscsndrwsblg
+:ID:       smcfgthbqtcmprssdphyscsqtfthdyphyscsndrwsblg
 :END:
 : If one wants to summarize our knowledge of physics in the briefest possible terms, there are three really fundamental observations: (i) Space-time is a pseudo-Riemannian manifold M, endowed with a metric tensor and goverened by geometrical laws. (ii) Over M is a vector bundle X with a nonabelian gauge group G. (iii) Fermions are sections of (S~+⊗VR)⊕(S~−⊗VR~). R and R~ are not isomorphic; their failure to be isomorphic explains why the light fermions are light and presumably has its origins in a representation difference Δ
 : 
@@ -836,7 +836,7 @@ from [[https://www.instapaper.com/read/1171585718/12393958][ip]]   [[https://www
 : -Edward Witten, “Physics and Geometry”, 1986
 * STRT [#C] [2020-04-14] [[https://writings.stephenwolfram.com/2020/04/finally-we-may-have-a-path-to-the-fundamental-theory-of-physics-and-its-beautiful/][Finally We May Have a Path to the Fundamental Theory of Physics… and It’s Beautiful—Stephen Wolfram Writings]]
 :PROPERTIES:
-:ID:       tswrtngsstphnwlfrmcmfnllysndtsbtflstphnwlfrmwrtngs
+:ID:       swrtngsstphnwlfrmcmfnllywsndtsbtflstphnwlfrmwrtngs
 :END:
 * STRT [#C] Tweet from @lisyarus Quantum Chemistry Done Wrong
 :PROPERTIES:
@@ -856,16 +856,16 @@ https://twitter.com/lisyarus/status/1251429402526846976
 : [0] https://twitter.com/dennybritz/status/1260137814982787073
 * STRT [#C] [2020-10-18] [[https://dangirsh.org/posts/foundations_journal_club.html][Dan Girshovich - Foundations Journal Club.]] :social:study:physics:
 :PROPERTIES:
-:ID:       snsdngrshrgpstsfndtnsjrnltmldngrshvchfndtnsjrnlclb
+:ID:       sdngrshrgpstsfndtnsjrnlcltmldngrshvchfndtnsjrnlclb
 :END:
 : I’ve been organizing the Foundations Journal Club, which meets online every few weeks. If you’d like to be included, shoot me an email.
 ** [2020-11-27] eh, no rss
 :PROPERTIES:
-:ID:       frhnrss
+:ID:       hnrss
 :END:
 * TODO [#C] [2019-08-05] books http://math.ucr.edu/home/baez/books.html
 :PROPERTIES:
-:ID:       mnbksmthcrdhmbzbkshtml
+:ID:       bksmthcrdhmbzbkshtml
 :END:
 
 * [#C] Unruh effect
@@ -874,7 +874,7 @@ https://twitter.com/lisyarus/status/1251429402526846976
 :END:
 ** [2019-09-02] The Unruh Effect | Space Time - YouTube
 :PROPERTIES:
-:ID:       mnthnrhffctspctmytb
+:ID:       thnrhffctspctmytb
 :END:
 https://www.youtube.com/watch?v=7cj6oiFDEXc&list=WL&index=3&t=0s
 ok, interesting. basically the idea is that observer
@@ -884,25 +884,25 @@ Even temporary acceleration creates temporary Rindler horizons.
 Then, it's similar to hawking radiation and for an accelerating observer it would create particles.
 ** [2019-09-02] Эффект Унру — Википедия
 :PROPERTIES:
-:ID:       mnэффектунрувикипедия
+:ID:       эффектунрувикипедия
 :END:
 https://ru.wikipedia.org/wiki/%D0%AD%D1%84%D1%84%D0%B5%D0%BA%D1%82_%D0%A3%D0%BD%D1%80%D1%83
 : Эффект Унру позволяет дать грубое объяснение излучения Хокинга, но не может считаться полным его аналогом.[4] При равноускоренном движении позади ускоряющегося тела тоже возникает горизонт событий, но разница в граничных условиях задач даёт различные решения для этих эффектов. В частности, подход, основанный на расчёте ограниченных интегралов по путям, даёт следующую картину для эффекта Унру: «тепловая атмосфера» ускоренного наблюдателя состоит из виртуальных частиц, но если такая виртуальная частица поглощается ускоренным наблюдателем, то соответствующая античастица становится реальной и доступна для детектирования инерциальным наблюдателем.[4] В этом случае ускоренный наблюдатель теряет часть своей энергии. В случае эффекта Хокинга для чёрной дыры, сформировавшейся в результате гравитационного коллапса, картина другая: появляющиеся в результате эффекта частицы «тепловой атмосферы» являются реальными. Эти частицы, уходящие на бесконечность, могут наблюдаться и поглощаться удаленным наблюдателем, однако, независимо от их поглощения, эти частицы уносят массу (энергию) чёрной дыры.[4]
 ** [2019-09-02] Unruh effect - Wikipedia
 :PROPERTIES:
-:ID:       mnnrhffctwkpd
+:ID:       nrhffctwkpd
 :END:
 https://en.wikipedia.org/wiki/Unruh_effect
 : The free field needs to be decomposed into positive and negative frequency components before defining the creation and annihilation operators. This can only be done in spacetimes with a timelike Killing vector field. This decomposition happens to be different in Cartesian and Rindler coordinates (although the two are related by a Bogoliubov transformation). This explains why the "particle numbers", which are defined in terms of the creation and annihilation operators, are different in both coordinat
 ** [2019-09-02] What causes the Unruh effect? : askscience
 :PROPERTIES:
-:ID:       mnwhtcssthnrhffctskscnc
+:ID:       whtcssthnrhffctskscnc
 :END:
 https://www.reddit.com/r/askscience/comments/4s653u/what_causes_the_unruh_effect/
 : Because the accelerating and inertial observer can "see" different portions of spacetime (the accelerating observer sees only a wedge of spacetime bounded by a Rindler horizon). Therefore they are not bound to agree on what the state of minimum energy (the ground aka the vacuum) is, because inertial dude has access to a larger system.
 ** [2019-09-02] Can someone explain the Unruh effect/radiation to me? How are virtual particles forced into existence if they are nothing but convenient mathematical models and don't actually exist? : askscience
 :PROPERTIES:
-:ID:       mncnsmnxplnthnrhffctrdtntclmdlsnddntctllyxstskscnc
+:ID:       cnsmnxplnthnrhffctrdtntmhclmdlsnddntctllyxstskscnc
 :END:
 https://www.reddit.com/r/askscience/comments/1hcc2b/can_someone_explain_the_unruh_effectradiation_to/
 : From "Spacetime and Geometry, an Introduction to General Relativity" by Sean Carroll, chapter 9, pg. 412:
@@ -922,16 +922,16 @@ https://susy.written.ru/2011/02/28/Unruh_effect
 
 * [#C] [2020-07-19] [[https://en.wikipedia.org/wiki/Talk%3APhoton%2FPhotons_and_Mass_Debate3#Weight/mass_of_single_photon_in_a_box_bouncing_up_and_down][Talk:Photon/Photons and Mass Debate3 - Wikipedia]]
 :PROPERTIES:
-:ID:       snsnwkpdrgwktlkphtnfphtnsntlkphtnphtnsndmssdbtwkpd
+:ID:       snwkpdrgwktlkphtnfphtnsndntlkphtnphtnsndmssdbtwkpd
 :END:
 : Weight/mass of single photon in a box bouncing up and down
 * [#C] [2020-07-19] [[https://physics.stackexchange.com/questions/8295/einsteins-box-unclear-about-bohrs-retort][quantum mechanics - Einstein's box - unclear about Bohr's retort - Physics Stack Exchange]]
 :PROPERTIES:
-:ID:       snsphyscsstckxchngcmqstnsbtbhrsrtrtphyscsstckxchng
+:ID:       sphyscsstckxchngcmqstnsnsbtbhrsrtrtphyscsstckxchng
 :END:
 * [#C] [2020-07-19] [[https://physics.stackexchange.com/questions/10612/explain-how-or-if-a-box-full-of-photons-would-weigh-more-due-to-massless-photo][energy - Explain how (or if) a box full of photons would weigh more due to massless photons - Physics Stack Exchange]]
 :PROPERTIES:
-:ID:       snsphyscsstckxchngcmqstnssslssphtnsphyscsstckxchng
+:ID:       sphyscsstckxchngcmqstnsxpsslssphtnsphyscsstckxchng
 :END:
 * TODO [#C] from Lisitsa: алгебры клиффорда и спинорные группы      :towatch:
 :PROPERTIES:
@@ -944,7 +944,7 @@ https://www.lektorium.tv/course/22937
 
 * TODO [#C] [2019-04-14] CFDPython/14_Step_11.ipynb at master · barbagroup/CFDPython :ipython:
 :PROPERTIES:
-:ID:       sncfdpythnstppynbtmstrbrbgrpcfdpythn
+:ID:       cfdpythnstppynbtmstrbrbgrpcfdpythn
 :END:
 https://github.com/barbagroup/CFDPython/blob/master/lessons/14_Step_11.ipynb
 go throught and make sure I understand how I compute things...
@@ -1028,32 +1028,32 @@ book: simplicial structure by ferrario, p.202
 right, apparently to compute really effeciently we need van kampen theorem..
 * TODO [#C] [2019-01-25] Schrödinger Equation
 :PROPERTIES:
-:ID:       frschrödngrqtn
+:ID:       schrödngrqtn
 :END:
 https://physicstravelguide.com/equations/schroedinger_equation#tab__faq
 : Schrodinger's equation can be derived using symmetry arguments. Specifically, you write out the commutation relations that exist between the generators of the Galilei group and then choose the position representation. What you find is that the generator of time translations has the same form that is usually ascribed to the Hamiltonian. Details can be found, for example, in the third chapter of Ballentine's "Quantum Mechanics: A Modern Development"
 : Schrödingers equation can be derived by using Galilei invariance: "I encourage everyone to learn the derivation of Schrödinger's equation straight from the representation theory of the Galilei group! It's cool. (I think it appears in the books by Mackey and Jauch listed here.)" http://math.ucr.edu/home/baez/symmetries.html -> Page 209 in Josef M. Jauch, Foundations of Quantum Mechanics page V (I.e. chapter 12-5)
 * START [#C] [2019-01-23] Everything about Representation theory of finite groups : math :reprtheory:
 :PROPERTIES:
-:ID:       wdvrythngbtrprsnttnthryffntgrpsmth
+:ID:       vrythngbtrprsnttnthryffntgrpsmth
 :END:
 https://www.reddit.com/r/math/comments/8i7x6s/everything_about_representation_theory_of_finite/dyq2qxg/
 : Then RH psi = R E psi, which means H (R psi) = E (R psi), so (R psi) is a new eigenfunction which has the same energy as the original. We can continue with all operations in the group to find all the degenerate wavefunctions corresponding to the eigenvalue E
 ** [2019-05-06] These representations are unique up to a change of basis (equivalent to a similarity transform), so this means each possible eigenvalue of the Hamiltonian 'belongs' to a certain representation of the group of the Schrodinger Equation.
 :PROPERTIES:
-:ID:       mnthsrprsnttnsrnqptchngfbsnttnfthgrpfthschrdngrqtn
+:ID:       thsrprsnttnsrnqptchngfbsssnttnfthgrpfthschrdngrqtn
 :END:
 ** [2019-05-06] Also remember that each eigenvalue has its own representation, so different eigenvalues of the same Hamiltonian can have different degeneracy.
 :PROPERTIES:
-:ID:       mnlsrmmbrthtchgnvlhstswnrhsmhmltnncnhvdffrntdgnrcy
+:ID:       lsrmmbrthtchgnvlhstswnrprhsmhmltnncnhvdffrntdgnrcy
 :END:
 ** [2019-01-23] Normally, if the degeneracy cannot be explained by symmetry then it is known as an 'accidental' degeneracy, but Fock showed that there is actually a set of operations in 4-D which exploits the symmetry. The hydrogen potential has the group O(4), and you should be able to understand most of the language in the introduction here.
 :PROPERTIES:
-:ID:       wdnrmllyfthdgnrcycnntbxpltndmstfthlnggnthntrdctnhr
+:ID:       nrmllyfthdgnrcycnntbxplndtndmstfthlnggnthntrdctnhr
 :END:
 * [#C] [2019-01-14] (2) Quantum Tunneling - Complex Plot - YouTube :quantum:viz:
 :PROPERTIES:
-:ID:       mnqntmtnnlngcmplxpltytb
+:ID:       qntmtnnlngcmplxpltytb
 :END:
 https://www.youtube.com/watch?v=BI7dbp3uIdY
 
@@ -1065,7 +1065,7 @@ https://www.youtube.com/watch?v=BI7dbp3uIdY
 https://twitter.com/lisyarus/status/1101210066059964418
 ** [2019-05-06] http://math.ucr.edu/home/baez/gq/
 :PROPERTIES:
-:ID:       mnmthcrdhmbzgq
+:ID:       mthcrdhmbzgq
 :END:
 
 * [#C] ¬¬(Dan Piponi) on Twitter: "What I find confusing is that I learnt QFT two different ways: (1) pretending univariate wavefunction is classical and quantizing again & (2) considering multivariate wavefunctions. Not obvious these get you to the same place.… https://t.co/uaw1AZIEDz" :qft:
@@ -1077,19 +1077,19 @@ https://twitter.com/sigfpe/status/1101554393126584320
 : What I find confusing is that I learnt QFT two different ways: (1) pretending univariate wavefunction is classical and quantizing again & (2) considering multivariate wavefunctions. Not obvious these get you to the same place.
 ** [2019-04-13] https://twitter.com/johncarlosbaez/status/1101541977105981440 Furthermore unitary time evolution in a Hilbert space is a fine classical dynamics. So, we can quantize a classical system, get a Hilbert space, and treat *that* as a classical system and quantize it again.   This is a nice way to get Fock space
 :PROPERTIES:
-:ID:       ststwttrcmjhncrlsbzsttsfrdqntztgnthssncwytgtfckspc
+:ID:       stwttrcmjhncrlsbzsttsfrthdqntztgnthssncwytgtfckspc
 :END:
 hmm....
 
 
 * [#C] [2019-04-07] Field Play                                          :viz:
 :PROPERTIES:
-:ID:       snfldply
+:ID:       fldply
 :END:
 https://anvaka.github.io/fieldplay/?cx=-0.02210000000000001&cy=-1.8154000000000001&w=8.541&h=8.541&dt=0.01&fo=0.998&dp=0.009&cm=1
 ** [2019-04-24] nice vizualisation for 2D vector fields, allows to change integration parameters etc
 :PROPERTIES:
-:ID:       wdncvzlstnfrdvctrfldsllwstchngntgrtnprmtrstc
+:ID:       ncvzlstnfrdvctrfldsllwstchngntgrtnprmtrstc
 :END:
 
 * TODO [#C] На пути к теории всего https://nplus1.ru/material/2018/02/02/just-looking-for-some-action
@@ -1102,13 +1102,13 @@ https://anvaka.github.io/fieldplay/?cx=-0.02210000000000001&cy=-1.81540000000000
 
 * [#C] [2019-03-17] Quantum electrodynamics - Wikipedia                 :qed:
 :PROPERTIES:
-:ID:       snqntmlctrdynmcswkpd
+:ID:       qntmlctrdynmcswkpd
 :END:
 https://en.wikipedia.org/wiki/Quantum_electrodynamics#Mathematics
 
 * [#C] [2019-02-01] SnapPea - Wikipedia                          :autopology:
 :PROPERTIES:
-:ID:       frsnppwkpd
+:ID:       snppwkpd
 :END:
 https://en.wikipedia.org/wiki/SnapPea
 
@@ -1125,7 +1125,7 @@ https://en.wikipedia.org/wiki/SnapPea
 :END:
 * [#C] [2018-11-22] John Carlos Baez on Twitter: "I am thankful for the beauty of mathematics and physics, which always go deeper than I expect. For example, Hamilton's equations describe the motion of a particle if you know its energy. But they turn out to look a lot like Maxwell's relations in thermodynamics! (continued)… https://t.co/fPASYpm9WB" :thermodynamics:
 :PROPERTIES:
-:ID:       thjhncrlsbzntwttrmthnkflfhrmdynmcscntndstcfpsypmwb
+:ID:       jhncrlsbzntwttrmthnkflfrthrmdynmcscntndstcfpsypmwb
 :END:
 https://twitter.com/johncarlosbaez/status/1065715514381557761
 * TODO [#C] rendering curved spacetime                            :blackhole:
@@ -1148,7 +1148,7 @@ if you parallell transport a pair of vectors, the angle should be preserverd, he
 interesting point about coordinates swapping in black hole https://thedeemon.dreamwidth.org/123575.html?thread=1996983#cmt1996983
 ** [2019-04-24] Именно такъ - внутри дыры никакихъ статическихъ наблюдателей не можетъ существовать
 :PROPERTIES:
-:ID:       wdименнотакъвнутридырыниктелейнеможетъсуществовать
+:ID:       именнотакъвнутридырыникактелейнеможетъсуществовать
 :END:
 
 * TODO [#C] revise cs/math/physics stuff                    :habit:spacedrep:
@@ -1162,12 +1162,12 @@ interesting point about coordinates swapping in black hole https://thedeemon.dre
 
 * START [#C] [2018-10-30] Topoi: The Categorial Analysis of Logic (Dover Books on Mathematics): Amazon.co.uk: Robert Goldblatt: 0800759450268: Books
 :PROPERTIES:
-:ID:       ttpthctgrlnlyssflgcdvrbksthmtcsmznckrbrtgldblttbks
+:ID:       tpthctgrlnlyssflgcdvrbksnthmtcsmznckrbrtgldblttbks
 :END:
 https://www.amazon.co.uk/Topoi-Categorial-Analysis-Logic-Mathematics/dp/0486450260
 * [#C] [2018-12-23] Integral manipulations · Issue #5396 · sympy/sympy
 :PROPERTIES:
-:ID:       snntgrlmnpltnssssympysympy
+:ID:       ntgrlmnpltnssssympysympy
 :END:
 https://github.com/sympy/sympy/issues/5396
 * START [#C] PAC learning                                                :ml:
@@ -1179,7 +1179,7 @@ Probably Approximately Correct (PAC) learning model
 from Scott Aaronson on Philosophical Progress - Machine Intelligence Research Institute https://intelligence.org/2013/12/13/aaronson/
 ** [2019-07-22] An important innovation of the PAC framework is the introduction of complexity theory concepts to ML
 :PROPERTIES:
-:ID:       mnnmprtntnnvtnfthpcfrmwrkdctnfcmplxtythrycncptstml
+:ID:       nmprtntnnvtnfthpcfrmwrkstdctnfcmplxtythrycncptstml
 :END:
 
 * TODO [#C] Tweet from John Carlos Baez (@johncarlosbaez), at Jan 21, 18:29 :symplectic:towatch:
@@ -1213,32 +1213,32 @@ https://twitter.com/johncarlosbaez/status/1087416965012942849
 :END:
 * [#C] [2019-01-26] A Neighborhood of Infinity: What's all this E8 stuff about then? Part 1. :reprtheory:
 :PROPERTIES:
-:ID:       stnghbrhdfnfntywhtsllthsstffbtthnprt
+:ID:       nghbrhdfnfntywhtsllthsstffbtthnprt
 :END:
 http://blog.sigfpe.com/2007/11/whats-all-this-e8-stuff-about-then-part.html
 
 * TODO [#C] [2019-02-11] A Journey to The Manifold SU(2): Differentiation, Spheres and Fiber Bundles :study:
 :PROPERTIES:
-:ID:       mnjrnytthmnfldsdffrnttnsphrsndfbrbndls
+:ID:       jrnytthmnfldsdffrnttnsphrsndfbrbndls
 :END:
 https://www.physicsforums.com/insights/journey-manifold-su2mathbbc-part/
 really read this through and try to understand all the definitions. e.g. coordinate charts etc
 * [#C] [2019-01-10] www.math.lsa.umich.edu/~idolga/lecturenotes.html :math:physics:lagrangian:
 :PROPERTIES:
-:ID:       thwwwmthlsmchddlglctrntshtml
+:ID:       wwwmthlsmchddlglctrntshtml
 :END:
 http://www.math.lsa.umich.edu/~idolga/lecturenotes.html
 shit.. some interesting mathematical details about metric from the very beginning
 
 * START [#C] [2019-01-23] Charts on SO(3) - Wikipedia
 :PROPERTIES:
-:ID:       wdchrtsnswkpd
+:ID:       chrtsnswkpd
 :END:
 - State "START"      from              [2019-04-24]
 https://en.wikipedia.org/wiki/Charts_on_SO(3)#The_hypersphere_of_rotations
 ** [2019-04-24] shit.
 :PROPERTIES:
-:ID:       wdsht
+:ID:       sht
 :END:
 :    Problems of this sort are inevitable, since SO(3) is diffeomorphic to real projective space P3(R), which is a quotient of S3 by identifying antipodal points
 
@@ -1247,31 +1247,31 @@ another thought: if you have a disk with opposite points identified -- which top
 
 * [#C] [2019-01-23] 3D rotation group - Wikipedia
 :PROPERTIES:
-:ID:       wddrttngrpwkpd
+:ID:       drttngrpwkpd
 :END:
 https://en.wikipedia.org/wiki/3D_rotation_group
 : Consider the solid ball in R3 of radius π (that is, all points of R3 of distance π or less from the origin). Given the above, for every point in this ball there is a rotation, with axis through the point and the origin, and rotation angle equal to the distance of the point from the origin. The identity rotation corresponds to the point at the center of the ball. Rotation through angles between 0 and −π correspond to the point on the same axis and distance from the origin but on the opposite side of the origin. The one remaining issue is that the two rotations through π and through −π are the same. So we identify (or "glue together") antipodal points on the surface of the ball. After this identification, we arrive at a topological space homeomorphic to the rotation group.
 * [#C] [2019-01-24] How is a Lie Algebra able to describe a Group? – Jakob Schwichtenberg :lie:
 :PROPERTIES:
-:ID:       thhwsllgbrbltdscrbgrpjkbschwchtnbrg
+:ID:       hwsllgbrbltdscrbgrpjkbschwchtnbrg
 :END:
 http://jakobschwichtenberg.com/lie-algebra-able-describe-group/
 well, ok, so the point we can associal lie algebra elements with lie groups elements via exponentiation
 * [#C] [2019-01-23] Group Theory and Physics - S. Sternberg - Google Books
 :PROPERTIES:
-:ID:       wdgrpthryndphyscssstrnbrggglbks
+:ID:       grpthryndphyscssstrnbrggglbks
 :END:
 https://books.google.co.uk/books/about/Group_Theory_and_Physics.html?id=k2Fp3JA93oYC&printsec=frontcover&source=kp_read_button&redir_esc=y#v=onepage&q&f=false
 
 * [#C] [2019-02-01] List of Fundamental Groups of Common Spaces - Mathonline
 :PROPERTIES:
-:ID:       frlstffndmntlgrpsfcmmnspcsmthnln
+:ID:       lstffndmntlgrpsfcmmnspcsmthnln
 :END:
 http://mathonline.wikidot.com/list-of-fundamental-groups-of-common-spaces
 
 * [#C] [2018-11-24] Seminar: Fall 2008                                 :baez:
 :PROPERTIES:
-:ID:       stsmnrfll
+:ID:       smnrfll
 :END:
 http://math.ucr.edu/home/baez/qg-fall2008/
 
@@ -1284,24 +1284,24 @@ https://twitter.com/lisyarus/status/1101517866250186752
 
 * START [#C] [2018-11-10] User ACuriousMind - Physics Stack Exchange
 :PROPERTIES:
-:ID:       stsrcrsmndphyscsstckxchng
+:ID:       srcrsmndphyscsstckxchng
 :END:
 - State "START"      from              [2019-04-24]
 https://physics.stackexchange.com/users/50583/acuriousmind
 ** TODO [2019-04-24] https://physics.stackexchange.com/users/50583/acuriousmind?tab=questions&sort=votes
 :PROPERTIES:
-:ID:       wdsphyscsstckxchngcmsrscrsmndtbqstnssrtvts
+:ID:       sphyscsstckxchngcmsrscrsmndtbqstnssrtvts
 :END:
 
 * [#C] [2019-01-23] quantum mechanics - Spin operators in QM - Physics Stack Exchange :spin:
 :PROPERTIES:
-:ID:       wdqntmmchncsspnprtrsnqmphyscsstckxchng
+:ID:       qntmmchncsspnprtrsnqmphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/295412/spin-operators-in-qm
 : to be precise, in quantum mechanics we are interested in projective representations because physically, two vectors that differ by a phase are indistinguishable.
 * [#C] [2019-01-26] * To semidecide this, just start generating every possible proof.
 :PROPERTIES:
-:ID:       sttsmdcdthsjststrtgnrtngvrypssblprf
+:ID:       tsmdcdthsjststrtgnrtngvrypssblprf
 :END:
 https://perl.plover.com/classes/data-topology/samples/slide007.html
 : Gödel's first incompleteness theorem:
@@ -1309,7 +1309,7 @@ https://perl.plover.com/classes/data-topology/samples/slide007.html
 : This property is semidecidable, but not decidable.
 * [#C] [2019-01-26] * Suppose the property _N_[D[_x_]D](_y_) = (_x_ ≠ _y_) is semidecidable for each _x_
 :PROPERTIES:
-:ID:       stsppsthprprtyndxdyxyssmdcdblfrchx
+:ID:       sppsthprprtyndxdyxyssmdcdblfrchx
 :END:
 https://perl.plover.com/classes/data-topology/samples/slide020.html
 : Suppose the property Nx(y) = (x ≠ y) is semidecidable for each x
@@ -1319,29 +1319,29 @@ https://perl.plover.com/classes/data-topology/samples/slide020.html
 : Then the space is Hausdorff
 * [#C] [2019-02-23] homework and exercises - Functional Derivative of action - Physics Stack Exchange
 :PROPERTIES:
-:ID:       sthmwrkndxrcssfnctnldrvtvfctnphyscsstckxchng
+:ID:       hmwrkndxrcssfnctnldrvtvfctnphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/229200/functional-derivative-of-action
 
 * [#C] [2019-02-23] resource recommendations - What is a complete book for introductory quantum field theory? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       strsrcrcmmndtnswhtscmpltbntmfldthryphyscsstckxchng
+:ID:       rsrcrcmmndtnswhtscmpltbkfntmfldthryphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/8441/what-is-a-complete-book-for-introductory-quantum-field-theory
 : Mark Srednicki, Quantum Field Theory. I really like the organisation and design of the book, which consists of around a hundred of short and essentially self-contained chapters that introduce a single topic, discuss it in the necessary level of detail, and move on to the next topic.
 * START [#C] [2019-02-26] Is there a reason why a relativistic quantum theory of a single fermion exists, but of a single scalar not? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       tsthrrsnwhyrltvstcqntmthrsnglsclrntphyscsstckxchng
+:ID:       sthrrsnwhyrltvstcqntmthrysnglsclrntphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/199827/is-there-a-reason-why-a-relativistic-quantum-theory-of-a-single-fermion-exists
 ** [2019-05-06] eh, can't say I understood any of arguments
 :PROPERTIES:
-:ID:       mnhcntsyndrstdnyfrgmnts
+:ID:       hcntsyndrstdnyfrgmnts
 :END:
 
 * [#C] [2019-02-10] general topology - Triangulation of torus - understanding why - Mathematics Stack Exchange :topology:
 :PROPERTIES:
-:ID:       sngnrltplgytrngltnftrsndrstndngwhymthmtcsstckxchng
+:ID:       gnrltplgytrngltnftrsndrstndngwhymthmtcsstckxchng
 :END:
 https://math.stackexchange.com/questions/1772650/triangulation-of-torus-understanding-why
 : In a triangulation (specifically, a simplicial complex), the three vertices of a triangle are distinct.
@@ -1349,13 +1349,13 @@ https://math.stackexchange.com/questions/1772650/triangulation-of-torus-understa
 right, maybe for computational and efficiency purposes it would be ok to generate pseudo triangulations
 * [#C] [2019-02-14] What is a Lagrangian? What is the action? Why does the principle of least (stationary) action work? : askscience
 :PROPERTIES:
-:ID:       thwhtslgrngnwhtsthctnwhydcplflststtnryctnwrkskscnc
+:ID:       whtslgrngnwhtsthctnwhydstcplflststtnryctnwrkskscnc
 :END:
 https://www.reddit.com/r/askscience/comments/84tbeh/what_is_a_lagrangian_what_is_the_action_why_does/dvs9zv6/
 : Although the action S may not generally have a meaningful interpretation, there is an alternative formulation of the EL-equations which gives an equation that gives the value of S directly but not the function that achieves the minimum value of S. This equation is called the Hamilton-Jacobi equation, and is also a very widely studied equation, particularly in the context of conservation laws and symplectic geometry. The standard method of solving the HJ-equation is by the method of characteristics. The characteristic equations are precisely the Hamiltonian equations also learned in a typical mechanics course.
 * [#C] [2019-02-14] What is a Lagrangian? What is the action? Why does the principle of least (stationary) action work? : askscience
 :PROPERTIES:
-:ID:       thwhtslgrngnwhtsthctnwhydcplflststtnryctnwrkskscnc
+:ID:       whtslgrngnwhtsthctnwhydstcplflststtnryctnwrkskscnc
 :END:
 https://www.reddit.com/r/askscience/comments/84tbeh/what_is_a_lagrangian_what_is_the_action_why_does/dvs9zv6/
 : At this point you can look in any standard text to see what happens next. The gold standard in calculus of variations is the text by Gelfand & Fomin (I strongly recommend this text, and it's also very cheap). The punchline here is twofold.
@@ -1365,26 +1365,26 @@ https://www.reddit.com/r/askscience/comments/84tbeh/what_is_a_lagrangian_what_is
 : Under the same conditions, the minimum value of S (and which functions achieve that minimum) can be found by solving the associated Euler-Lagrange equations, which is a set of coupled, non-linear partial differential equations. (The EL-equations are found by using L.)
 * [#C] [2019-02-14] What is a Lagrangian? What is the action? Why does the principle of least (stationary) action work? : askscience
 :PROPERTIES:
-:ID:       thwhtslgrngnwhtsthctnwhydcplflststtnryctnwrkskscnc
+:ID:       whtslgrngnwhtsthctnwhydstcplflststtnryctnwrkskscnc
 :END:
 https://www.reddit.com/r/askscience/comments/84tbeh/what_is_a_lagrangian_what_is_the_action_why_does/dvs9zv6/
 : This study started in the 1930s (?), and Douglas discovered necessary and sufficient conditions for a Lagrangian to exist. These conditions, which you would think should be called the Douglas conditions, are called the Helmholtz conditions. (Douglas was a mathematician who won a Fields Medal for his work in the calculus of variations, specifically in the theory of minimal surfaces (think: soap films).) These conditions though are not at all easy to verify though. The conditions are of the form "Lagrangian exists if there is a non-singular matrix G such that (1), (2), and (3)". The first condition is purely algebraic, the second condition is that a certain ODE for the components of G have a solution, and the third condition is that a certain system of coupled PDE's for the components of G have a solution. The third condition is the one that is not at all easy to verify.
 
 * [#C] [2019-02-10] general topology - Why aren’t continuous functions defined the other way around? - Mathematics Stack Exchange :topology:
 :PROPERTIES:
-:ID:       sngnrltplgywhyrntcntnsfnchthrwyrndmthmtcsstckxchng
+:ID:       gnrltplgywhyrntcntnsfnctnhthrwyrndmthmtcsstckxchng
 :END:
 https://math.stackexchange.com/questions/3094706/why-aren-t-continuous-functions-defined-the-other-way-around/3094713#3094713
 
 * [#C] [2019-02-23] From Griffiths to Peskin: a lit review for beginners | An American Physics Student in England
 :PROPERTIES:
-:ID:       stfrmgrffthstpsknltrvwfrbnrsnmrcnphyscsstdntnnglnd
+:ID:       frmgrffthstpsknltrvwfrbgnnrsnmrcnphyscsstdntnnglnd
 :END:
 https://fliptomato.wordpress.com/2006/12/30/from-griffiths-to-peskin-a-lit-review-for-beginners/
 
 * [#C] [2019-02-22] general relativity - Why do we select the metric tensor for raising and lowering indices? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       frgnrlrltvtywhydwslctthmtdlwrngndcsphyscsstckxchng
+:ID:       gnrlrltvtywhydwslctthmtrcdlwrngndcsphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/333736/why-do-we-select-the-metric-tensor-for-raising-and-lowering-indices
 : If your manifold is guaranteed to carry other non-degenerate 2-tensors, then you may use those as well to raise and lower indices (though the meaning is different from that of raising and lowering with the metric). This is the case, for instance, if your manifold is symplectic (i.e. carries a closed, non-degenerate 2-form ωω).
@@ -1405,19 +1405,19 @@ jeez, this guy is a graphomaniac...
 
 * [#C] [2019-02-22] Book_Chapter_Lagrangian.pdf
 :PROPERTIES:
-:ID:       frbkchptrlgrngnpdf
+:ID:       bkchptrlgrngnpdf
 :END:
 chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://www.physics-quest.org/Book_Chapter_Lagrangian.pdf
 whoa. that's something interesitng
 * [#C] [2019-02-23] lec33.dvi - lec33.pdf
 :PROPERTIES:
-:ID:       stlcdvlcpdf
+:ID:       lcdvlcpdf
 :END:
 chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://www.tapir.caltech.edu/~chirata/ph236/2011-12/lec33.pdf
 ok, this is kind of on the right track
 * [#C] [2019-02-23] radiation.dvi - radiation.pdf
 :PROPERTIES:
-:ID:       strdtndvrdtnpdf
+:ID:       rdtndvrdtnpdf
 :END:
 chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=http://www.iphc.cnrs.fr/IMG/pdf/radiation.pdf
 ok, at least here they are treating variations with asymptotic terms...
@@ -1427,40 +1427,40 @@ ok, at least here they are treating variations with asymptotic terms...
 :END:
 ** TODO [#C] [2018-07-31] Soham Chowdhury on Twitter: "Vakil (in his book, or perhaps on MO) likens the Yoneda lemma to a particle accelerator, in that if you know how a particle reacts to being smashed into by other particles, you know everything about it… https://t.co/jtdQupZoGH"
 :PROPERTIES:
-:ID:       tshmchwdhryntwttrvklnhsbkyknwvrythngbttstcjtdqpzgh
+:ID:       shmchwdhryntwttrvklnhsbkryknwvrythngbttstcjtdqpzgh
 :END:
 https://twitter.com/mrkgrnao/status/979353398225993728
 :   Vakil (in his book, or perhaps on MO) likens the Yoneda lemma to a particle accelerator, in that if you know how a particle reacts to being smashed into by other particles, you know everything about it
 
 ** [#B] [2018-07-31] From the Yoneda lemma to categorical physics
 :PROPERTIES:
-:ID:       tfrmthyndlmmtctgrclphyscs
+:ID:       frmthyndlmmtctgrclphyscs
 :END:
 https://www.classe.cornell.edu/spr/1999-09/msg0017972.html
 ** [#B] [2018-08-08] 🇪🇸🇵🇹_jack on Twitter: Yoneda
 :PROPERTIES:
-:ID:       wdjckntwttrynd
+:ID:       jckntwttrynd
 :END:
 https://twitter.com/Iceland_jack/status/1018229009786826752
 ** [#B] [2018-08-08] Understanding Yoneda |   Bartosz Milewski's Programming Cafe
 :PROPERTIES:
-:ID:       wdndrstndngyndbrtszmlwsksprgrmmngcf
+:ID:       ndrstndngyndbrtszmlwsksprgrmmngcf
 :END:
 https://bartoszmilewski.com/2013/05/15/understanding-yoneda/
 ** [#B] [2018-08-08] The Yoneda Lemma — Math3ma
 :PROPERTIES:
-:ID:       wdthyndlmmmthm
+:ID:       thyndlmmmthm
 :END:
 http://www.math3ma.com/mathema/2017/9/14/the-yoneda-lemma
 * [#C] [2019-02-23] Introduction to the Modern Theory of Dynamical Systems - Anatole Katok, Boris Hasselblatt - Google Books :lagrangian:
 :PROPERTIES:
-:ID:       stntrdctntthmdrnthryfdynmmsntlktkbrshsslblttgglbks
+:ID:       ntrdctntthmdrnthryfdynmclmsntlktkbrshsslblttgglbks
 :END:
 https://books.google.co.uk/books?id=9nL7ZX8Djp4C&pg=PA367&lpg=PA367&dq=%22euler+lagrange%22+solutions+%22global+minimum%22&source=bl&ots=oUmdX3lEHJ&sig=lWeYTxDvVFemkLadlfSg7rgc8_8&hl=en&sa=X&ved=2ahUKEwjF4c7ukoDfAhU9SxUIHatDDmYQ6AEwD3oECA8QAQ#v=onepage&q=%22euler%20lagrange%22%20solutions%20%22global%20minimum%22&f=false
 sufficiently long segments cease to be the minimum..
 * [#C] [2019-03-04] [[https://reddit.com/r/Python/comments/awtry9/a_python_utility_for_analyzing_a_given_solution/][A Python utility for analyzing a given solution to the Einstein field equations.]] /r/Python
 :PROPERTIES:
-:ID:       mnsrddtcmrpythncmmntswtrynsltntthnstnfldqtnsrpythn
+:ID:       srddtcmrpythncmmntswtrypynsltntthnstnfldqtnsrpythn
 :END:
 : I wanted to share with the community an open source python package I had been developing since November. It is called Spacetime Engine.
 : [github.com/spacetimeengineer/spacetimeengine](https://github.com/spacetimeengineer/spacetimeengine)
@@ -1468,19 +1468,19 @@ sufficiently long segments cease to be the minimum..
 
 * [#C] [2019-03-19] Gödel metric - Wikipedia
 :PROPERTIES:
-:ID:       tgödlmtrcwkpd
+:ID:       gödlmtrcwkpd
 :END:
 https://en.wikipedia.org/wiki/G%C3%B6del_metric
 
 * [#C] [2019-03-31] quantum mechanics - Relation between radio waves and photons generated by a classical current - Physics Stack Exchange
 :PROPERTIES:
-:ID:       snqntmmchncsrltnbtwnrdwvslssclcrrntphyscsstckxchng
+:ID:       qntmmchncsrltnbtwnrdwvsndlssclcrrntphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/443760/relation-between-radio-waves-and-photons-generated-by-a-classical-current
 
 * [#C] [2019-02-23] [[https://reddit.com/r/rust/comments/atdkeg/ive_been_making_a_gravity_simulator_using/][I've been making a gravity simulator using Rust-SDL2! Source is in the comments, hope you enjoy it!]] /r/rust :sim:
 :PROPERTIES:
-:ID:       stsrddtcmrrstcmmntstdkgvblsrcsnthcmmntshpynjytrrst
+:ID:       srddtcmrrstcmmntstdkgvbnmlsrcsnthcmmntshpynjytrrst
 :END:
 * [#C] Higgs
 :PROPERTIES:
@@ -1488,29 +1488,29 @@ https://physics.stackexchange.com/questions/443760/relation-between-radio-waves-
 :END:
 ** [#C] [2019-02-11] Higgs Mechanism
 :PROPERTIES:
-:ID:       mnhggsmchnsm
+:ID:       hggsmchnsm
 :END:
 https://physicstravelguide.com/advanced_notions/symmetry_breaking/higgs_mechanism#tab__faq
 : “In summary, the Higgs mechanism accounts for about 1 per cent of the mass of ordinary matter, and for only 0.2 per cent of the mass of the universe. This is not nearly enough to justify the claim of explaining the origin of mass”.
 ** [#C] [2019-02-11] Higgs Mechanism
 :PROPERTIES:
-:ID:       mnhggsmchnsm
+:ID:       hggsmchnsm
 :END:
 https://physicstravelguide.com/advanced_notions/symmetry_breaking/higgs_mechanism#tab__why_is_it_interesting
 : (Breaking of gauge symmetry is a bad thing, because the renormalizability, i.e. the removing of the infinities that pop-up in most quantum field theory calculations, depends on the existence of gauge symmetry
 ** [#C] [2019-02-11] Demystifying the Higgs mechanism – Jakob Schwichtenberg
 :PROPERTIES:
-:ID:       mndmystfyngthhggsmchnsmjkbschwchtnbrg
+:ID:       dmystfyngthhggsmchnsmjkbschwchtnbrg
 :END:
 http://jakobschwichtenberg.com/higgs-intuitively/
 ** [2019-04-24] I thunk I should postpone reading about the Higgs etc until I start properly understanding photons at least.
 :PROPERTIES:
-:ID:       wdthnkshldpstpnrdngbtthhgtprprlyndrstndngphtnstlst
+:ID:       thnkshldpstpnrdngbtthhggstprprlyndrstndngphtnstlst
 :END:
 
 * [#C] [2019-03-20] lagrangian formalism - What is the difference between a complex scalar field and two real scalar fields? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       wdlgrngnfrmlsmwhtsthdffrnrlsclrfldsphyscsstckxchng
+:ID:       lgrngnfrmlsmwhtsthdffrncbrlsclrfldsphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/3503/what-is-the-difference-between-a-complex-scalar-field-and-two-real-scalar-fields
 : They're identical. Typically, we use complex fields if we have a U(1)U(1) symmetry, or some more complicated gauge group with complex representations.
@@ -1518,24 +1518,24 @@ https://physics.stackexchange.com/questions/3503/what-is-the-difference-between-
 : Incidentally, the same comment applies to whether we use Majorana spinors or Weyl spinors.
 * [#C] [2019-04-20] Aharonov-Bohm Experiment
 :PROPERTIES:
-:ID:       sthrnvbhmxprmnt
+:ID:       hrnvbhmxprmnt
 :END:
 https://physicstravelguide.com/experiments/aharonov-bohm#tab__concrete
 : The best explanation can be found here: http://gregnaber.com/wp-content/uploads/GAUGE-FIELDS-AND-GEOMETRY-A-PICTURE-BOOK.pdf at page 18ff
 * [#C] [2019-02-19] Векторный потенциал — Википедия   :momentum:aaronov_bohm:
 :PROPERTIES:
-:ID:       tвекторныйпотенциалвикипедия
+:ID:       векторныйпотенциалвикипедия
 :END:
 https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%82%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB
 :  Подобно тому, как скалярный потенциал связан с понятием энергии, векторный потенциал обнаруживает тесную связь с понятием импульса
 :  Так, в случае быстрого отключения магнитного поля частица, находившаяся в нём, получает дополнительный импульс qA.
 ** [2019-04-20] right, so it happens because a change in vector potential results in electric field (maxwell's laws)
 :PROPERTIES:
-:ID:       strghtsthppnsbcschngnvctrtlrsltsnlctrcfldmxwllslws
+:ID:       rghtsthppnsbcschngnvctrpttlrsltsnlctrcfldmxwllslws
 :END:
 * [#C] [2019-04-24] at.algebraic topology - How to demonstrate $SO(3)$ is not simply connected? - MathOverflow
 :PROPERTIES:
-:ID:       wdtlgbrctplgyhwtdmnstrtssntsmplycnnctdmthvrflw
+:ID:       tlgbrctplgyhwtdmnstrtssntsmplycnnctdmthvrflw
 :END:
 https://mathoverflow.net/questions/22975/how-to-demonstrate-so3-is-not-simply-connected
 : here are two kinds of loops on the unit ball with antipodal identifications in the boundary: either it's also a loop in the ball (without identifications) or else it starts and ends at antipodal points. The example curve in the question is of the latter kind. It seems intuitive that any continuous deformation of this curve which remains closed has to still connect antipodal points, since you cannot move the ends closer to each other -- which is what you'd have to do in order to get a contractible loop -- while keeping it a closed curve.
@@ -1543,7 +1543,7 @@ https://mathoverflow.net/questions/22975/how-to-demonstrate-so3-is-not-simply-co
 hm, good point, I have to move both points on the sphere?
 * [#C] [2019-04-24] Real projective plane - Wikipedia
 :PROPERTIES:
-:ID:       wdrlprjctvplnwkpd
+:ID:       rlprjctvplnwkpd
 :END:
 https://en.wikipedia.org/wiki/Real_projective_plane
 : The projective sphere[edit]
@@ -1553,37 +1553,37 @@ https://en.wikipedia.org/wiki/Real_projective_plane
 : any two distinct pairs of antipodal points lie on a single great circle.
 * [#C] [2019-04-24] mass - Why is the $S_{z} =0$ state forbidden for photons? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       wdmsswhysthszsttfrbddnfrphtnsphyscsstckxchng
+:ID:       msswhysthszsttfrbddnfrphtnsphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/46643/why-is-the-s-z-0-state-forbidden-for-photons/265646#265646
 : physics.stackexchange.com/q/73911 . For photon we use helicity, not spin, because massless representations of the Poincare group can't be characterized by the spin. – user8817 Aug 31 '13 at 17:27
 * [#C] [2019-04-24] mass - Why is the $S_{z} =0$ state forbidden for photons? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       wdmsswhysthszsttfrbddnfrphtnsphyscsstckxchng
+:ID:       msswhysthszsttfrbddnfrphtnsphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/46643/why-is-the-s-z-0-state-forbidden-for-photons/265646#265646
 : Massless particles with spin do not have a "Sz=0Sz=0" state because they actually do not have spin like massive particles do. They have helicity, which is the value of the projection of the spin operator onto the momentum operator. The reason for this is the representation theory of the group of spacetime symmetry, the Poincaré group.
 * [#C] [2019-04-26] Quarks, Gluon flux tubes, Strong Nuclear Force, & Quantum Chromodynamics - YouTube :viz:
 :PROPERTIES:
-:ID:       frqrksglnflxtbsstrngnclrfrcqntmchrmdynmcsytb
+:ID:       qrksglnflxtbsstrngnclrfrcqntmchrmdynmcsytb
 :END:
 https://www.youtube.com/watch?v=FoR3hq5b5yE
 at 9:11 interesting visual explanation why the force is not decreasing for strong nuclear force
 * [#C] [2019-01-17] Quantum Diaries
 :PROPERTIES:
-:ID:       thqntmdrs
+:ID:       qntmdrs
 :END:
 https://www.quantumdiaries.org/2014/12/01/standard-model-introduction/
 : In fact, electric charge is a combination of hyper and isospin charges.
 * [#C] [2019-01-17] Quantum Diaries
 :PROPERTIES:
-:ID:       thqntmdrs
+:ID:       qntmdrs
 :END:
 https://www.quantumdiaries.org/2014/12/01/standard-model-introduction/
 : Mass and Electroweak Symmetry Breaking: In the early universe, all elementary fermions and gauge bosons were massless. At some point, everything underwent a phase transition that broke the hypercharge and isospin conservation laws. During this phase transition, quarks and charged leptons acquired mass
 * [#C] [2019-02-10] classification theorem                         :topology:
 :PROPERTIES:
-:ID:       snclssfctnthrm
+:ID:       clssfctnthrm
 :END:
 compact closed surfaces are spheres with handles and  klein bottles (remove a disk, attach the mobius strip, which has a circular surface)
 * TODO [#C] renormalisation group flow
@@ -1612,7 +1612,7 @@ from [[https://www.instapaper.com/read/1193269751/10712031][ip]]   [[https://www
 :END:
 ** [2019-05-19] could at least do it in pairs
 :PROPERTIES:
-:ID:       sncldtlstdtnprs
+:ID:       cldtlstdtnprs
 :END:
 
 
@@ -1634,34 +1634,34 @@ https://www.schoolofcomposition.com/what-is-the-difference-between-3-4-and-6-8-t
 
 * TODO [#C] [2019-05-10] [[https://reddit.com/r/math/comments/bkkcu8/higher_homotopy_groups_are_spooky_enter_the_world/]["Higher Homotopy Groups Are Spooky: Enter the world of 3-dimensional holes in 2-dimensional objects". A blog post by Evelyn Lamb.]] /r/math
 :PROPERTIES:
-:ID:       frsrddtcmrmthcmmntsbkkchglbjctsblgpstbyvlynlmbrmth
+:ID:       srddtcmrmthcmmntsbkkchghrlbjctsblgpstbyvlynlmbrmth
 :END:
 * TODO [#C] [2019-03-25] (2) Dirac equation: Zitterbewegung in two dimensions - YouTube
 :PROPERTIES:
-:ID:       mndrcqtnzttrbwgngntwdmnsnsytb
+:ID:       drcqtnzttrbwgngntwdmnsnsytb
 :END:
 https://www.youtube.com/watch?v=uJjOiNehZ3c
 
 * [#C] [2019-06-01] Topological Quantum Computer - Professor John Preskill, Caltech - YouTube :qcomp:
 :PROPERTIES:
-:ID:       sttplgclqntmcmptrprfssrjhnprskllcltchytb
+:ID:       tplgclqntmcmptrprfssrjhnprskllcltchytb
 :END:
 https://www.youtube.com/watch?v=igPXzKjqrNg
 
 * TODO [#C] [2018-12-23] Quantum Python: Animating the Schrodinger Equation | Pythonic Perambulations :viz:python:matplotlib:
 :PROPERTIES:
-:ID:       snqntmpythnnmtngthschrdngrqtnpythncprmbltns
+:ID:       qntmpythnnmtngthschrdngrqtnpythncprmbltns
 :END:
 https://jakevdp.github.io/blog/2012/09/05/quantum-python/
 * TODO [#C] [2019-02-10] Dynamical triangulation of the 2-torus - YouTube :qg:autopology:
 :PROPERTIES:
-:ID:       sndynmcltrngltnfthtrsytb
+:ID:       dynmcltrngltnfthtrsytb
 :END:
 https://www.youtube.com/watch?v=c3NdgSIe030
 
 * TODO [#C] [2019-02-08] Spare me the math: the Lamb Shift | Gravity and Levity :quantum:
 :PROPERTIES:
-:ID:       frsprmthmththlmbshftgrvtyndlvty
+:ID:       sprmthmththlmbshftgrvtyndlvty
 :END:
 https://gravityandlevity.wordpress.com/2013/04/24/the-lamb-shift/
 some supposedly simple argument about Lamb shift... still need to follow more carefully. maybe, visualise?
@@ -1690,13 +1690,13 @@ from renormalization http://math.ucr.edu/home/baez/renormalization.html
 
 * TODO [#C] [2019-01-17] Looking inside the standard model: Electromagnetism, photons, and symmetry
 :PROPERTIES:
-:ID:       thlkngnsdthstndrdmdllctrmgntsmphtnsndsymmtry
+:ID:       lkngnsdthstndrdmdllctrmgntsmphtnsndsymmtry
 :END:
 https://axelmaas.blogspot.com/2010/10/electromagnetism-photons-and-symmetry.html
 : Now, the relation between the four convenient numbers and the two important ones is quite in analogy to this case, and is therefore also a U(1) symmetry. That is how the symmetry becomes associated with electromagnetism. This tells us that if we change the four numbers by, so to say, moving them around on the circle, we do not change the two numbers describing the photon (or the six describing the electric and magnetic field). Only when we move away from the circumference, the two (and six) numbers change.
 * TODO [#C] [2019-01-23] what happens when computer: structural regular expressions :study:project:
 :PROPERTIES:
-:ID:       wdwhthppnswhncmptrstrctrlrglrxprssns
+:ID:       whthppnswhncmptrstrctrlrglrxprssns
 :END:
 https://what.happens.when.computer/2016-08-30/structural-res/
 : As Ron Minnich once said:
@@ -1704,19 +1704,19 @@ https://what.happens.when.computer/2016-08-30/structural-res/
 
 * TODO [#C] [2019-05-10] Problems with the Standard Model Higgs | Azimuth
 :PROPERTIES:
-:ID:       frprblmswththstndrdmdlhggszmth
+:ID:       prblmswththstndrdmdlhggszmth
 :END:
 https://johncarlosbaez.wordpress.com/2019/02/25/problems-with-the-standard-model-higgs/
 
 * [#C] [2019-06-05] GitHub - qg-cpt-marseille/sl2cfoam: Library for computing EPRL transition amplitudes in Loop Quantum Gravity. :lqg:
 :PROPERTIES:
-:ID:       wdgthbqgcptmrsllslcfmlbrrltrnstnmpltdsnlpqntmgrvty
+:ID:       gthbqgcptmrsllslcfmlbrryfltrnstnmpltdsnlpqntmgrvty
 :END:
 https://github.com/qg-cpt-marseille/sl2cfoam
 
 * TODO [#C] [2019-06-12] [[https://reddit.com/r/AskReddit/comments/2qm34x/serious_whats_the_most_useful_course_i_can_take/cn7by2w/][Serious What's the most USEFUL course I can take online for FREE?]] /r/AskReddit
 :PROPERTIES:
-:ID:       wdsrddtcmrskrddtcmmntsqmxtsflcrscntknlnfrfrrskrddt
+:ID:       srddtcmrskrddtcmmntsqmxsrtsflcrscntknlnfrfrrskrddt
 :END:
 : A basic first aid course.
 * TODO [#C] Tweet from Eric Aleman (@EricAleman_), at Jun 13, 10:28
@@ -1736,7 +1736,7 @@ https://twitter.com/EricAleman_/status/1139102125039005696
 :END:
 ** [2019-06-20] https://physics.stackexchange.com/questions/160759/einsteins-first-postulate-implies-the-second ok so basically we need some speed in lorentz transformations, that's how we end up with c
 :PROPERTIES:
-:ID:       thsphyscsstckxchngcmqstnsztrnsfrmtnsthtshwwndpwthc
+:ID:       sphyscsstckxchngcmqstnsnsztrnsfrmtnsthtshwwndpwthc
 :END:
 
 * TODO [#C] Tweet from Smart Biology (@SmartBiology3D), at Jun 24, 15:17
@@ -1752,24 +1752,24 @@ https://twitter.com/SmartBiology3D/status/1142837932388167685
 
 * TODO [#C] [2019-04-23] fast.ai · Making neural nets uncool again       :ai:
 :PROPERTIES:
-:ID:       tfstmkngnrlntsnclgn
+:ID:       fstmkngnrlntsnclgn
 :END:
 https://www.fast.ai/
 ** [2019-07-15] has practical deep learning for coders course
 :PROPERTIES:
-:ID:       mnhsprctcldplrnngfrcdrscrs
+:ID:       hsprctcldplrnngfrcdrscrs
 :END:
 
 * START [#C] [2019-02-11] The Picture Book of Quantum Mechanics: Siegmund Brandt, Hans Dieter Dahmen: 9781461439509: Amazon.com: Books :quantum:
 :PROPERTIES:
-:ID:       mnthpctrbkfqntmmchncssgmndbrndthnsdtrdhmnmzncmbks
+:ID:       thpctrbkfqntmmchncssgmndbrndthnsdtrdhmnmzncmbks
 :END:
 - State "START"      from              [2019-02-27]
 https://www.amazon.com/Picture-Book-Quantum-Mechanics/dp/1461439507
 
 * START [#C] [2018-11-15] The Geometry of Physics: An Introduction: Amazon.co.uk: Theodore Frankel: 9781107602601: Books
 :PROPERTIES:
-:ID:       ththgmtryfphyscsnntrdctnmznckthdrfrnklbks
+:ID:       thgmtryfphyscsnntrdctnmznckthdrfrnklbks
 :END:
 https://www.amazon.co.uk/Geometry-Physics-Introduction-Theodore-Frankel/dp/1107602602
 
@@ -1799,19 +1799,19 @@ https://twitter.com/turbojedi/status/1151797865532014592
 
 * [#C] [2019-01-15] Kevin Boone's Web site
 :PROPERTIES:
-:ID:       tkvnbnswbst
+:ID:       kvnbnswbst
 :END:
 http://www.kevinboone.net/separation_variables.html
 basically the point is that separation of variables is disguised chain rule -- make sense
 * TODO [#C] [2019-06-20] Amir on Twitter: "Итого, чтобы собрать программируемый транзисторный микропроцессор, нужно уметь проектировать 1) ISA – см. MIPS 2) микроархитектуру – см Harris&Harris 3) RTL - верилог 4) цифровую технику - см курс Панчула… https://t.co/MqVes4WlZu"
 :PROPERTIES:
-:ID:       thmrntwttrитогочтобысобракусмкурспанчулаstcmqvswlz
+:ID:       mrntwttrитогочтобысобратькусмкурспанчулаstcmqvswlz
 :END:
 https://twitter.com/disruptnhandlr/status/1141788486938349578
 : Итого, чтобы собрать программируемый транзисторный микропроцессор, нужно уметь проектировать 1) ISA – см. MIPS 2) микроархитектуру – см Harris&Harris 3) RTL - верилог 4) цифровую технику - см курс Панчула
 * [#C] [2019-05-10] Keep it Simplex, Stupid! |   Bartosz Milewski's Programming Cafe :autopology:
 :PROPERTIES:
-:ID:       frkptsmplxstpdbrtszmlwsksprgrmmngcf
+:ID:       kptsmplxstpdbrtszmlwsksprgrmmngcf
 :END:
 https://bartoszmilewski.com/2018/12/11/keep-it-simplex-stupid/
 
@@ -1842,54 +1842,54 @@ https://twitter.com/InertialObservr/status/1156595791378571265
 
 * [#C] [2019-08-02] 〈 Berger | Dillon 〉 (@InertialObservr) / Twitter
 :PROPERTIES:
-:ID:       frbrgrdllnnrtlbsrvrtwttr
+:ID:       brgrdllnnrtlbsrvrtwttr
 :END:
 https://twitter.com/InertialObservr
 : SSB is when the equations of motion satisfy a certain symmetry, but its lowest-energy vacuum solutions do not
 
 * [#C] [2018-12-24] convention - Obtaining the $\frac{1}{2\pi}$ factor in the Fourier transform - Mathematics Stack Exchange
 :PROPERTIES:
-:ID:       mncnvntnbtnngthfrcpfctrntrrtrnsfrmmthmtcsstckxchng
+:ID:       cnvntnbtnngthfrcpfctrnthfrrtrnsfrmmthmtcsstckxchng
 :END:
 https://math.stackexchange.com/questions/301860/obtaining-the-frac12-pi-factor-in-the-fourier-transform/301862#301862
 * [#C] [2018-12-24] ho.history overview - The $2\pi$ in the definition of the Fourier transform - MathOverflow
 :PROPERTIES:
-:ID:       mnhhstryvrvwthpnthdfntnfthfrrtrnsfrmmthvrflw
+:ID:       hhstryvrvwthpnthdfntnfthfrrtrnsfrmmthvrflw
 :END:
 https://mathoverflow.net/questions/265299/the-2-pi-in-the-definition-of-the-fourier-transform
 * TODO [#C] [2019-06-12] Quantum Diaries                          :readagain:
 :PROPERTIES:
-:ID:       wdqntmdrs
+:ID:       qntmdrs
 :END:
 https://www.quantumdiaries.org/2011/06/19/helicity-chirality-mass-and-the-higgs/
 omg, that's a really super intuitive explanation of chirality, helicity, interactions with Higgs and I think explains the representations as well.
 * [#C] [2019-07-27] Michael Nielsen
 :PROPERTIES:
-:ID:       stmchlnlsn
+:ID:       mchlnlsn
 :END:
 http://michaelnielsen.org/
 : Geometric complexity: Understanding quantum computing as free fall in a curved geometry. And some preliminary investigations into how that curved geometry works.
 * [#C] [2019-07-27] Non-euclidean virtual reality using ray marching - YouTube
 :PROPERTIES:
-:ID:       stnncldnvrtlrltysngrymrchngytb
+:ID:       nncldnvrtlrltysngrymrchngytb
 :END:
 https://www.youtube.com/watch?v=ivHG4AOkhYA&list=WL&index=51
 
 * TODO [#C] [2019-05-04] Cadabra manual: Sphere                         :cas:
 :PROPERTIES:
-:ID:       stcdbrmnlsphr
+:ID:       cdbrmnlsphr
 :END:
 https://cadabra.science/notebooks/sphere.html
 : This notebook computes the curvature of a 2-sphere by computing connection coefficients and the Riemann tensor components.
 * [#C] [2019-05-10] Geometric Quantization (Part 1) | Azimuth
 :PROPERTIES:
-:ID:       frgmtrcqntztnprtzmth
+:ID:       gmtrcqntztnprtzmth
 :END:
 https://johncarlosbaez.wordpress.com/2018/12/01/geometric-quantization-part-1/
 
 * [#C] [2019-07-23] resource recommendations - Gentle introduction to the Formalism of Quantum Zeno Effect - Physics Stack Exchange
 :PROPERTIES:
-:ID:       trsrcrcmmndtnsgntlntrdctnqntmznffctphyscsstckxchng
+:ID:       rsrcrcmmndtnsgntlntrdctntqntmznffctphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/345588/gentle-introduction-to-the-formalism-of-quantum-zeno-effect?noredirect=1&lq=1
 : My first, introductory, quantum course was (partially) from Griffiths introduction to quantum mechanics. We went through the whole book and, I recall a section introducing the quantum Zeno effect. They did a nice series expansion of the decay probability fir a state transition and showed for measurements very close together you can increase (or possibly decrease) the lifetime of a state. Very simple introductory explanation. –
@@ -1902,13 +1902,13 @@ https://twitter.com/michael_nielsen/status/1117855694936371201
 
 * [#C] [2019-06-18] Jacopo Bertolotti on Twitter: ""I quickly learned to hate spinors. They’re non-intuitive, far more complicated than they have any right to be, and come either with two components or four, both versions being equally hard to comprehend." A Child’s Guide to Spinors William O. Straub"
 :PROPERTIES:
-:ID:       tjcpbrtlttntwttrqcklylrndrhndchldsgdtspnrswllmstrb
+:ID:       jcpbrtlttntwttrqcklylrndtrhndchldsgdtspnrswllmstrb
 :END:
 https://twitter.com/j_bertolotti/status/1140611372214038528
 thread where Baez answers some questions about spinors
 * [#C] [2019-08-03] (6) Abhishek Singharoy on Twitter: "The first study of an entire cell organelle in all-atom details. https://t.co/R2t6YdyiAu I am told it'll take the field either 30 years back or 30 years forward. Please help me decide :)" / Twitter
 :PROPERTIES:
-:ID:       stbhshksnghryntwttrthfrstkryrsfrwrdplshlpmdcdtwttr
+:ID:       bhshksnghryntwttrthfrststkryrsfrwrdplshlpmdcdtwttr
 :END:
 https://twitter.com/abhisekhsingha1/status/1157302336219312128
 : Abhishek Singharoy
@@ -1939,7 +1939,7 @@ https://twitter.com/johncarlosbaez/status/1161585331600150529
 
 * [#C] [2019-08-11] (3) michael_nielsen on Twitter: "Amazing Twitter thread, giving an overview of work on quantum computer architectures. Lots of intuition-building tidbits, broad principles, and detailed references. Summarized here: https://t.co/VDzUrfCpA8 https://t.co/i30oRFruw2" / Twitter
 :PROPERTIES:
-:ID:       snmchlnlsnntwttrmzngtwttrdhrstcvdzrfcpstcrfrwtwttr
+:ID:       mchlnlsnntwttrmzngtwttrthdhrstcvdzrfcpstcrfrwtwttr
 :END:
 https://twitter.com/michael_nielsen/status/1160319447900545024
 
@@ -1980,24 +1980,24 @@ https://mathoverflow.net/questions/37115/why-arent-representations-of-monoids-st
 
 * [#C] [2019-08-18] (1) Daniel Litt on Twitter: "The fundamental group of SO(3) is Z/2Z! https://t.co/MnJS0YnNrJ" / Twitter
 :PROPERTIES:
-:ID:       sndnllttntwttrthfndmntlgrpfsszzstcmnjsynnrjtwttr
+:ID:       dnllttntwttrthfndmntlgrpfsszzstcmnjsynnrjtwttr
 :END:
 https://twitter.com/littmath/status/1162723903204220930
 : The fundamental group of SO(3) is Z/2Z!
 * [#C] [2019-08-19] (1) Daniel Piker on Twitter: "New 'Live Soap' component for interactive form-finding of minimal surfaces with topology changes https://t.co/YuARGfXlSO" / Twitter
 :PROPERTIES:
-:ID:       mndnlpkrntwttrnwlvspcmpnntplgychngsstcyrgfxlstwttr
+:ID:       dnlpkrntwttrnwlvspcmpnntftplgychngsstcyrgfxlstwttr
 :END:
 https://twitter.com/KangarooPhysics/status/1135989061976563715
 : New 'Live Soap' component for interactive form-finding of minimal surfaces with topology changes
 * TODO [#C] [2019-06-28] Anki decks by LW users - LessWrong 2.0
 :PROPERTIES:
-:ID:       frnkdcksbylwsrslsswrng
+:ID:       nkdcksbylwsrslsswrng
 :END:
 https://www.lesswrong.com/posts/Kbp8riSbpKv8jie8o/anki-decks-by-lw-users
 ** [2019-08-25] mm, I guess only music is interesting for me?
 :PROPERTIES:
-:ID:       snmmgssnlymscsntrstngfrm
+:ID:       mmgssnlymscsntrstngfrm
 :END:
 
 * TODO [#C] Tweet from Nikita Lisitsa (@lisyarus), at Aug 26, 18:32
@@ -2044,19 +2044,19 @@ https://twitter.com/InertialObservr/status/1139242278755553280
 
 * [#C] [2019-06-21] Finding a potential function for conservative vector fields - Math Insight
 :PROPERTIES:
-:ID:       frfndngptntlfnctnfrcnsrvtvvctrfldsmthnsght
+:ID:       fndngptntlfnctnfrcnsrvtvvctrfldsmthnsght
 :END:
 https://mathinsight.org/conservative_vector_field_find_potential
 
 * [#C] [2019-06-21] Finding a potential function for conservative vector fields - Math Insight
 :PROPERTIES:
-:ID:       frfndngptntlfnctnfrcnsrvtvvctrfldsmthnsght
+:ID:       fndngptntlfnctnfrcnsrvtvvctrfldsmthnsght
 :END:
 https://mathinsight.org/conservative_vector_field_find_potential
 
 * TODO [#C] [2019-09-06] David Pfau on Twitter: "Thrilled to be able to share what I've been working on for the last year - solving the fundamental equations of quantum mechanics with deep learning! https://t.co/pzp0Xhsxbu" / Twitter
 :PROPERTIES:
-:ID:       frdvdpfntwttrthrlldtbbltsthdplrnngstcpzpxhsxbtwttr
+:ID:       dvdpfntwttrthrlldtbbltshrthdplrnngstcpzpxhsxbtwttr
 :END:
 https://twitter.com/pfau/status/1169981588412817409
 : David Pfau
@@ -2064,25 +2064,25 @@ https://twitter.com/pfau/status/1169981588412817409
 : Thrilled to be able to share what I've been working on for the last year - solving the fundamental equations of quantum mechanics with deep learning!
 ** [2019-09-06] David Pfau on Twitter: "Thrilled to be able to share what I've been working on for the last year - solving the fundamental equations of quantum mechanics with deep learning! https://t.co/pzp0Xhsxbu" / Twitter
 :PROPERTIES:
-:ID:       frdvdpfntwttrthrlldtbbltsthdplrnngstcpzpxhsxbtwttr
+:ID:       dvdpfntwttrthrlldtbbltshrthdplrnngstcpzpxhsxbtwttr
 :END:
 https://twitter.com/pfau/status/1169981588412817409
 : We've developed a new neural network architecture that can represent wavefunctions for systems of fermions - the kind of particles that make up most matter - and show that it is much more accurate than conventional approximate wavefunctions.
 ** [2019-09-06] David Pfau (@pfau) / Twitter
 :PROPERTIES:
-:ID:       frdvdpfpftwttr
+:ID:       dvdpfpftwttr
 :END:
 https://twitter.com/pfau
 :  study brains and intelligence. Anarchist biocosmist. So far I have not found the science, but the numbers keep on circling me. http://davidpfau.com
 * [#C] [2019-06-29] Particle filter - Wikipedia
 :PROPERTIES:
-:ID:       stprtclfltrwkpd
+:ID:       prtclfltrwkpd
 :END:
 https://en.wikipedia.org/wiki/Particle_filter
 
 * TODO [#C] [2019-07-27] explained.ai                                    :ai:
 :PROPERTIES:
-:ID:       stxplnd
+:ID:       xplnd
 :END:
 https://explained.ai
 
@@ -2107,34 +2107,34 @@ https://www.math3ma.com/blog/the-yoneda-perspective
 
 * [#C] [2019-09-29] John Carlos Baez on Twitter: "@sigfpe There are theorems about this stuff. A simple example is the lowest eigenvalue of -d²/dx² + x² + λx⁴ as a function of λ. You can formally compute the Taylor series of this function, which diverges, and Borel sum it, and get the right answer for λ&gt;0." / Twitter
 :PROPERTIES:
-:ID:       snjhncrlsbzntwttrsgfpthrrtndgtthrghtnswrfrλgttwttr
+:ID:       jhncrlsbzntwttrsgfpthrrthtndgtthrghtnswrfrλgttwttr
 :END:
 https://twitter.com/johncarlosbaez/status/1178330369449328641
 : There are theorems about this stuff.  A simple example is the lowest eigenvalue of -d²/dx² + x² + λx⁴ as a function of λ.   You can formally compute the Taylor series of this function, which diverges, and Borel sum it, and get the right answer for λ>0.
 * [#C] [2019-05-24] Going Critical — Melting Asphalt                    :sim:
 :PROPERTIES:
-:ID:       frgngcrtclmltngsphlt
+:ID:       gngcrtclmltngsphlt
 :END:
 https://meltingasphalt.com/interactive/going-critical/
 
 * [#C] [2012-08-10] [[https://reddit.com/r/programming/comments/xztiv/an_argument_against_callcc/c5r9w45/][An argument against call/cc]] /r/programming
 :PROPERTIES:
-:ID:       frsrddtcmrprgrmmngcmmntsxwnrgmntgnstcllccrprgrmmng
+:ID:       srddtcmrprgrmmngcmmntsxztwnrgmntgnstcllccrprgrmmng
 :END:
 :  I was reading this thinking "heck yeah... but I hope they're aware of delimited continuations". Then I look at the site address... *rolleyes* It's Oleg -- I use *his* delimcc.
 * TODO [#C] [2012-08-10] [[https://reddit.com/r/programming/comments/xztiv/an_argument_against_callcc/][An argument against call/cc]] /r/programming
 :PROPERTIES:
-:ID:       frsrddtcmrprgrmmngcmmntsxcnrgmntgnstcllccrprgrmmng
+:ID:       srddtcmrprgrmmngcmmntsxztcnrgmntgnstcllccrprgrmmng
 :END:
 
 * TODO [#C] [2019-07-04] [[https://reddit.com/r/cpp/comments/c8ovdk/understandable_raytracing_in_256_lines_of_bare_c/][Understandable RayTracing in 256 lines of bare C++]] /r/cpp
 :PROPERTIES:
-:ID:       thsrddtcmrcppcmmntscvdkndstndblrytrcngnlnsfbrcrcpp
+:ID:       srddtcmrcppcmmntscvdkndrsstndblrytrcngnlnsfbrcrcpp
 :END:
 
 * TODO [#C] [2019-08-28] [[https://reddit.com/r/explainlikeimfive/comments/pd9p7/eli5_the_wigners_friend_thought_experiment/c3ofppn/][ELI5 The Wigner's Friend Thought Experiment]] /r/explainlikeimfive :quantum:
 :PROPERTIES:
-:ID:       wdsrddtcmrxplnlkmfvcmmntsfrndthghtxprmntrxplnlkmfv
+:ID:       srddtcmrxplnlkmfvcmmntspdfrndthghtxprmntrxplnlkmfv
 :END:
 :  To understand Wigner's Friend, you must first understand Schrödinger's cat; so if you don't, search ELI5 for explanations of that first.
 : 
@@ -2167,13 +2167,13 @@ https://projecteuclid.org/download/pdf_1/euclid.bams/1183555452
 
 * [#C] [2019-12-02] The Hardware of a Quantum Computer | edX
 :PROPERTIES:
-:ID:       mnthhrdwrfqntmcmptrdx
+:ID:       thhrdwrfqntmcmptrdx
 :END:
 https://www.edx.org/course/hardware-of-quantum-computer
 
 * [#C] [2019-01-05] [[https://reddit.com/r/Physics/comments/7i7r1v/are_we_expecting_to_have_a_symmetry_breaking_of/dqwsk68/][Are we expecting to have a symmetry breaking of the electromagnetic force in the future?]] /r/Physics
 :PROPERTIES:
-:ID:       stsrddtcmrphyscscmmntsrvrlctrmgntcfrcnthftrrphyscs
+:ID:       srddtcmrphyscscmmntsrvrwxlctrmgntcfrcnthftrrphyscs
 :END:
 : One can think of superconductivity as a breakdown of electromagnetism gauge symmetry. In other words, the "photon" acquires a mass in a superconductor. This is the description for instance given by Weinberg in his book "Quantum Field Theory" if you want to take a look. The order parameter is related to the attractive strength of electrons in the condensation of Cooper pairs.
 
@@ -2181,12 +2181,12 @@ https://www.edx.org/course/hardware-of-quantum-computer
 : However that does not apply to the universe as a whole. A material piece of superconductor does break Lorentz invariance in a sense (the material occupies a finite amount of space so it is not invariant under translations).
 * [#C] [2019-01-05] [[https://reddit.com/r/Physics/comments/7i7r1v/are_we_expecting_to_have_a_symmetry_breaking_of/dqx8uam/][Are we expecting to have a symmetry breaking of the electromagnetic force in the future?]] /r/Physics
 :PROPERTIES:
-:ID:       stsrddtcmrphyscscmmntsrvrlctrmgntcfrcnthftrrphyscs
+:ID:       srddtcmrphyscscmmntsrvrwxlctrmgntcfrcnthftrrphyscs
 :END:
 :  Just as an FYI, electromagnetic gauge symmetry is not *really* broken in a superconductor. The BCS wavefunction is still fully gauge invariant. [This paper here](https://arxiv.org/abs/cond-mat/0503400) gives a good discussion, but the basic point is that superconductivity comes about due to global U(1) symmetry breaking, and that a gauge symmetry can never *really* be broken in a physical system because it is not a physical symmetry - only a symmetry of description.
 * [#C] [2019-01-05] [[https://reddit.com/r/Physics/comments/8brgig/what_exactly_is_explicit_symmetry_breaking_and/dx92u71/][What exactly is explicit symmetry breaking? And what are some examples?]] /r/Physics
 :PROPERTIES:
-:ID:       stsrddtcmrphyscscmmntsbrgbrkngndwhtrsmxmplsrphyscs
+:ID:       srddtcmrphyscscmmntsbrggwbrkngndwhtrsmxmplsrphyscs
 :END:
 : If you understand SSB, you’re probably familiar with the Mexican hat potential. Let’s say I have a system where the potential energy function V(**r**) = U(r), where U(r) is a typical Mexican hat potential. The potential energy function has rotational symmetry, but the ground state of the system doesn’t. That’s a spontaneous symmetry breaking.
 
@@ -2197,7 +2197,7 @@ https://www.edx.org/course/hardware-of-quantum-computer
 : Now my potential has explicit dependence on x. This is an explicit breaking of rotational symmetry. The symmetry is broken in the Hamiltonian and the ground state of the system.
 * [#C] [2019-01-23] [[https://reddit.com/r/math/comments/i73t4/can_representation_theory_be_explained_using/c21ggf9/][Can Representation Theory be Explained Using Basic Abstract and Linear Algebra?]] /r/math
 :PROPERTIES:
-:ID:       wdsrddtcmrmthcmmntstcnrprsngbscbstrctndlnrlgbrrmth
+:ID:       srddtcmrmthcmmntstcnrprsnsngbscbstrctndlnrlgbrrmth
 :END:
 :  I highly recommend [this book](http://www.amazon.com/Representations-Characters-Groups-Second-Gordon/dp/052100392X) for an introduction to representation theory over the complex numbers.  It's one of my favorite math books as far as presentation and writing style are concerned.
 : 
@@ -2229,7 +2229,7 @@ https://twitter.com/sigfpe/status/1206001431691419648
 
 * [#C] [2019-07-18] [[https://reddit.com/r/Physics/comments/bx49se/quantum_leaps_long_assumed_to_be_instantaneous/eq49pzc/][Quantum Leaps, Long Assumed to Be Instantaneous, Take Time | Quanta Magazine]] /r/Physics
 :PROPERTIES:
-:ID:       thsrddtcmrphyscscmmntsbxsnstntnstktmqntmgznrphyscs
+:ID:       srddtcmrphyscscmmntsbxsqnnstntnstktmqntmgznrphyscs
 :END:
 :  The experiment is great, but it needs to be emphasized that it does not overturn _anything_ we know about quantum mechanics. It is a cool experimental technique, not a theoretical revolution.
 : 
@@ -2246,7 +2246,7 @@ https://twitter.com/hillelogram/status/1207382046890496002
 
 * TODO [#C] [2019-12-20] 1/(1 - 1/(1 - 1/(1 - Dan Piponi))) on Twitter: "The p-adics are like science fiction in mathematics. They are alternative universes alongside the familiar realm of the reals. And there are objects that transcend the barriers between these worlds but manifest a little differently in each one." / Twitter
 :PROPERTIES:
-:ID:       frdnppnntwttrthpdcsrlkscnnfstlttldffrntlynchntwttr
+:ID:       dnppnntwttrthpdcsrlkscncfnfstlttldffrntlynchntwttr
 :END:
 https://twitter.com/sigfpe/status/1208051225255538688
 : 1/(1 - 1/(1 - 1/(1 - Dan Piponi)))
@@ -2254,7 +2254,7 @@ https://twitter.com/sigfpe/status/1208051225255538688
 : The p-adics are like science fiction in mathematics. They are alternative universes alongside the familiar realm of the reals. And there are objects that transcend the barriers between these worlds but manifest a little differently in each one.
 * [#C] [2019-12-24] 〈 Berger |🎄| Dillon 〉 on Twitter: "Putting it all together, we get the leading order Feynman diagram that led to the discovery of the Higgs Boson. 👀 https://t.co/w9ug4yfJc1" / Twitter
 :PROPERTIES:
-:ID:       tbrgrdllnntwttrpttngtlltgyfthhggsbsnstcwgyfjctwttr
+:ID:       brgrdllnntwttrpttngtlltgtyfthhggsbsnstcwgyfjctwttr
 :END:
 https://twitter.com/InertialObservr/status/1139315877080207360
 : 〈 Berger |
@@ -2264,13 +2264,13 @@ https://twitter.com/InertialObservr/status/1139315877080207360
 : Putting it all together, we get the leading order Feynman diagram that led to the discovery of the Higgs Boson.
 * TODO [#C] [2019-12-20] What Makes the Hardest Equations in Physics So Difficult? (2018) | Hacker News
 :PROPERTIES:
-:ID:       frwhtmksthhrdstqtnsnphyscssdffclthckrnws
+:ID:       whtmksthhrdstqtnsnphyscssdffclthckrnws
 :END:
 https://news.ycombinator.com/item?id=21832980
 
 * [#C] [2019-12-28] Simulating physical reality with a quantum computer
 :PROPERTIES:
-:ID:       stsmltngphysclrltywthqntmcmptr
+:ID:       smltngphysclrltywthqntmcmptr
 :END:
 https://ahelwer.ca/post/2019-12-21-quantum-chemistry/
 
@@ -2292,7 +2292,7 @@ https://twitter.com/InertialObservr/status/1213543568754634752
 
 * TODO [#C] [2019-08-04] the Synthetic Biology Open Language (SBOL) | a language for genetic design
 :PROPERTIES:
-:ID:       snthsynthtcblgypnlnggsbllnggfrgntcdsgn
+:ID:       thsynthtcblgypnlnggsbllnggfrgntcdsgn
 :END:
 http://sbolstandard.org
 
@@ -2309,19 +2309,19 @@ http://sbolstandard.org
 https://twitter.com/johncarlosbaez/status/1218225086202703873
 * TODO [#C] [2020-02-27] bollu.github.io | code + contents of my website, and programming life
 :PROPERTIES:
-:ID:       thbllgthbcdcntntsfmywbstndprgrmmnglf
+:ID:       bllgthbcdcntntsfmywbstndprgrmmnglf
 :END:
 https://bollu.github.io/#stuff-i-learnt-in-2019
 : Gravitation by Misner Thorne and Wheeler This is an imposing book. I first read through the entire thing (Well, the parts I thought I needed), to be able to get a vague sense of what they’re going for. They’re rigorous in a very curious way: It has a bunch of great physics perspectives of looking at things, and that was invaluable to me. Their view of forms as “slot machines” is also fun. In general, I found myself repeatedly consulting this book for the “true physical” meaning of a thing, such as curvature, parallel transport, the equation of a geodesic, and whatnot.
 * [#C] [2020-03-06] Spin, Statistics, CPT and All That Jazz
 :PROPERTIES:
-:ID:       frspnsttstcscptndllthtjzz
+:ID:       spnsttstcscptndllthtjzz
 :END:
 http://math.ucr.edu/home/baez/spin_stat.html
 
 * [#C] [2020-03-24] [[https://reddit.com/r/askscience/comments/fo4igl/are_quantum_fields_in_any_way_similar_to/fld7dv0/][Are quantum fields in any way similar to classical fields?]] /r/askscience
 :PROPERTIES:
-:ID:       tsrddtcmrskscnccmmntsfglrywysmlrtclssclfldsrskscnc
+:ID:       srddtcmrskscnccmmntsfglrqywysmlrtclssclfldsrskscnc
 :END:
 :  In the canonical picture, quantum fields are operator-valued fields (distributions, to be more precise). The Hilbert space on which they act is spanned by number states. Each number state consists of a given number of particles with given momenta and other quantum numbers (spin, color etc.). In fact the \*free\* fields behave like a set of harmonic oscillators for each momentum/spin/color/etc. Of course not every state is a number state, but they provide a basis by which you can express any state by linear combination.
 :  In this picture, the fields are just operators that create and destroy particles, but the particle content is in the abstract quantum state.
@@ -2363,59 +2363,59 @@ https://twitter.com/johncarlosbaez/status/1117837769546428416
 https://twitter.com/johncarlosbaez/status/1117834503118942208
 * [#C] [2020-05-07] [[https://news.ycombinator.com/item?id=23098090][Physicists Criticize Stephen Wolfram’s ‘Theory of Everything’ | Hacker News]]
 :PROPERTIES:
-:ID:       thsnwsycmbntrcmtmdphyscstwlfrmsthryfvrythnghckrnws
+:ID:       snwsycmbntrcmtmdphyscstscwlfrmsthryfvrythnghckrnws
 :END:
 * [#C] [2019-12-13] Simone Sturniolo on Twitter: "@InertialObservr @__ice9 @tequehead That we observe a single eigenvalue isn't what interpretations are about. Interpretations try to explain WHY we do. Which is the whole problem." / Twitter
 :PROPERTIES:
-:ID:       frsmnstrnlntwttrnrtlbsrvrwhywdwhchsthwhlprblmtwttr
+:ID:       smnstrnlntwttrnrtlbsrvrctwhywdwhchsthwhlprblmtwttr
 :END:
 https://twitter.com/SturnioloSimone/status/1205422218005622784
 : That we observe a single eigenvalue isn't what interpretations are about. Interpretations try to explain WHY we do. Which is the whole problem.
 * [#C] [2019-12-07] Mathematical formulation of the Standard Model - Wikipedia
 :PROPERTIES:
-:ID:       stmthmtclfrmltnfthstndrdmdlwkpd
+:ID:       mthmtclfrmltnfthstndrdmdlwkpd
 :END:
 https://en.wikipedia.org/wiki/Mathematical_formulation_of_the_Standard_Model#Free_parameters
 : Renormalization scheme (point)
 * [#C] [2019-12-07] Mathematical formulation of the Standard Model - Wikipedia
 :PROPERTIES:
-:ID:       stmthmtclfrmltnfthstndrdmdlwkpd
+:ID:       mthmtclfrmltnfthstndrdmdlwkpd
 :END:
 https://en.wikipedia.org/wiki/Mathematical_formulation_of_the_Standard_Model#Free_parameters
 : From the theoretical point of view, the Standard Model exhibits four additional global symmetries, not postulated at the outset of its construction, collectively denoted accidental symmetries, which are continuous U(1) global symmetries.
 * [#C] [2019-12-08] newtonian mechanics - Anti-gravity in an infinite lattice of point masses - Physics Stack Exchange
 :PROPERTIES:
-:ID:       snnwtnnmchncsntgrvtynnnfntcfpntmsssphyscsstckxchng
+:ID:       nwtnnmchncsntgrvtynnnfntltcfpntmsssphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/2196/anti-gravity-in-an-infinite-lattice-of-point-masses
 : This is incorrect--- but Newton made the same mistake, so no downvote. The constant density over all space Newtonian gravitating system is not allowed, except in an expanding or contracting Newtonian cosmology, and there is no antigravity for the missing particle. The symmetry arguments are misleading, because the limit is subtle.
 * [#C] [2019-12-08] electrostatics - Paradox with Gauss' law when space is uniformly charged everywhere - Physics Stack Exchange
 :PROPERTIES:
-:ID:       snlctrsttcsprdxwthgsslwwhhrgdvrywhrphyscsstckxchng
+:ID:       lctrsttcsprdxwthgsslwwhnshrgdvrywhrphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/39654/paradox-with-gauss-law-when-space-is-uniformly-charged-everywhere
 : The quantities you want to associate with the infinite distribution (electric field, gravitational potential, whatever) depend on how you construct it, and there is no clear "natural" way to do it.
 * [#C] [2019-12-09] AVƎ on Twitter: "If you're interested in the animated anatomy studies; Here's a 1 minute tute on how to make your own (You'll only need Zbrush) : https://t.co/RMlLZKSLH0 They've definitely helped me improve my understanding, hope they help you :) https://t.co/pXZew0PP9k" / Twitter
 :PROPERTIES:
-:ID:       mnvǝntwttrfyrntrstdnthnmtghpthyhlpystcpxzwppktwttr
+:ID:       vǝntwttrfyrntrstdnthnmtdnghpthyhlpystcpxzwppktwttr
 :END:
 https://twitter.com/NotArtofAve/status/1195466035924570113
 
 * [#C] [2019-12-09] AVƎ on Twitter: "2/6 - Anatomy studies. Arm supination/pronation and flex.
 :PROPERTIES:
-:ID:       mnvǝntwttrntmystdsrmspntnprntnndflx
+:ID:       vǝntwttrntmystdsrmspntnprntnndflx
 :END:
 https://twitter.com/NotArtofAve/status/1194694932574851072
 
 * [#C] [2019-12-10] 1/(1 - 1/(1 - 1/(1 - Dan Piponi))) on Twitter: "An explanation of dimensional regularisation, one of the more bizarre sounding ideas in physics, applied to *classical* electrodynamics. Should make it accessible to a wider audience https://t.co/3Dj0eG3Brv (Spot the 1/ε subtraction, related to my recent "moral truth" example.)" / Twitter
 :PROPERTIES:
-:ID:       tdnppnntwttrnxplntnfdmnsntdtmyrcntmrltrthxmpltwttr
+:ID:       dnppnntwttrnxplntnfdmnsnltdtmyrcntmrltrthxmpltwttr
 :END:
 https://twitter.com/sigfpe/status/1204513555791278080
 : An explanation of dimensional regularisation, one of the more bizarre sounding ideas in physics, applied to *classical* electrodynamics.
 * [#C] [2020-05-11] [[https://twitter.com/litgenstein/status/1259799041279328257][\mathcal{L} on Twitter: "Are there any good QFT visualizations that facilitate genuine understanding and don’t mislead?" / Twitter]]
 :PROPERTIES:
-:ID:       mnstwttrcmltgnstnsttsmthcnnndrstndngnddntmsldtwttr
+:ID:       stwttrcmltgnstnsttsmthcllnnndrstndngnddntmsldtwttr
 :END:
 : Are there any good QFT visualizations that facilitate genuine understanding and don’t mislead?
 * TODO [#C] EPR is arguably the most controversial paper Einstein ever published,
@@ -2447,7 +2447,7 @@ https://twitter.com/litgenstein/status/1211827581105754113
 
 * [#C] [2020-04-13] [[https://lobste.rs/s/v5rrhi/your_statement_is_100_correct_misses][Your statement is 100% correct but misses the entire point | Lobsters]] :security:
 :PROPERTIES:
-:ID:       mnslbstrssvrrhyrsttmntscrcrrctbtmsssthntrpntlbstrs
+:ID:       slbstrssvrrhyrsttmntscrrccrrctbtmsssthntrpntlbstrs
 :END:
 : There are books on threat modeling that actually go into a variety of models.
 * [#C] Tweet from @johncarlosbaez: In 1907 Einstein tried to combine special relativity with gravity - and very soon he realized gravity would make clocks tick slower, and would bend light
@@ -2461,7 +2461,7 @@ https://twitter.com/johncarlosbaez/status/1230905689809121280
 
 * TODO [#C] [2020-01-15] Path Integral Salesman on Twitter: "I’ve been reading a lot of old conference proceedings. Here are some from the 1927 Solvay Conference attended by Einstein, Planck, Pauli, Born, Lorentz, Schrödinger, etc. https://t.co/1mD4Fdk4GS Responding to Einstein, Bohr says: “I do not know what quantum mechanics is.” https://t.co/ybyKjp6EHK" / Twitter
 :PROPERTIES:
-:ID:       wdpthntgrlslsmnntwttrvbnrtmmchncssstcybykjphktwttr
+:ID:       pthntgrlslsmnntwttrvbnrdntmmchncssstcybykjphktwttr
 :END:
 https://twitter.com/litgenstein/status/1211823189237456896
 : I’ve been reading a lot of old conference proceedings. Here are some from the 1927 Solvay Conference attended by Einstein, Planck, Pauli, Born, Lorentz, Schrödinger, etc. https://arxiv.org/pdf/quant-ph/0609184.pdf
@@ -2469,7 +2469,7 @@ https://twitter.com/litgenstein/status/1211823189237456896
 : Responding to Einstein, Bohr says: “I do not know what quantum mechanics is.”
 * TODO [#C] [2019-12-25] (1) John Carlos Baez on Twitter: "For more, see Hubert Goenner's article "On the history of unified field theories". Part I: https://t.co/vapByPYAi4 Part II: https://t.co/YBIqX120Gg" / Twitter :qft:
 :PROPERTIES:
-:ID:       wdjhncrlsbzntwttrfrmrshbrtcvpbypyprtstcybqxggtwttr
+:ID:       jhncrlsbzntwttrfrmrshbrtgtcvpbypyprtstcybqxggtwttr
 :END:
 https://twitter.com/johncarlosbaez/status/1209903923227549696
 : For more, see Hubert Goenner's article "On the history of unified field theories".
@@ -2488,7 +2488,7 @@ https://twitter.com/johncarlosbaez/status/1209903923227549696
 
 * [#C] [2019-12-02] Paul Dirac: The Mozart of Science (2008) | Hacker News
 :PROPERTIES:
-:ID:       mnpldrcthmzrtfscnchckrnws
+:ID:       pldrcthmzrtfscnchckrnws
 :END:
 https://news.ycombinator.com/item?id=20667889
 : The creativity of the Dirac equation really struck me when I first learned it. Basically, it uses a mathematical trick to write sqrt(a^2 + b^2) = a + b, which doesn't work for normal math, but does work if a and b anticommute: ab = -ba. You can implement this with matrices, and in the resulting solution quantum spin just pops out. Astounding.
@@ -2503,12 +2503,12 @@ https://news.ycombinator.com/item?id=20667889
 https://twitter.com/Haxiomic/status/1179123732247384066
 ** [2020-01-01] eh? I don't quite understand, what 'coupling' between gravity and other forces??
 :PROPERTIES:
-:ID:       wdhdntqtndrstndwhtcplngbtwngrvtyndthrfrcs
+:ID:       hdntqtndrstndwhtcplngbtwngrvtyndthrfrcs
 :END:
 
 * TODO [#C] [2019-12-25] (1) John Carlos Baez on Twitter: "Einstein worked obsessively on unified field theories until his death in 1955. He lost touch with his colleagues' discoveries in particle physics. He had an assistant try to teach him quantum field theory, but lost interest in a month. But there's more to this story... (6/n) https://t.co/f4C9e7iAHx" / Twitter
 :PROPERTIES:
-:ID:       wdjhncrlsbzntwttrnstnwrkdrsmrtthsstrynstcfchxtwttr
+:ID:       jhncrlsbzntwttrnstnwrkdbsrsmrtthsstrynstcfchxtwttr
 :END:
 https://twitter.com/johncarlosbaez/status/1209900884131401728
 : Schrödinger & Einstein helped invent quantum mechanics, but they didn't really believe in it, so they were sidelined for the rest of their careers.  While others studied elementary particles, they criticized quantum theory and tried to invent "unified field theories".
@@ -2531,17 +2531,17 @@ https://twitter.com/johncarlosbaez/status/1209900884131401728
 
 * TODO [#C] [2020-07-09] [[https://www.youtube.com/watch?v=JHYSJHyJSn0][(1) 14 Subatomic Stories: Where Einstein failed- quantum gravity - YouTube]]
 :PROPERTIES:
-:ID:       thswwwytbcmwtchvjhysjhyjstrswhrnstnfldqntmgrvtyytb
+:ID:       swwwytbcmwtchvjhysjhyjsnstrswhrnstnfldqntmgrvtyytb
 :END:
 weinberg spin 2 boson GR
 * STRT [#C] [2020-07-14] [[https://twitter.com/MBarkeshli/status/1283139300901695488][Maissam Barkeshli on Twitter: "1/ The study of topological quantum matter has been one of the most popular and exciting developments in physics in the last 15 years, although there has been a steady stream of amazing developments for the last 50 years." / Twitter]]
 :PROPERTIES:
-:ID:       tstwttrcmmbrkshlsttsmssmbngdvlpmntsfrthlstyrstwttr
+:ID:       stwttrcmmbrkshlsttsmssmbrngdvlpmntsfrthlstyrstwttr
 :END:
 : The study of topological quantum matter has been one of the most popular and exciting developments in physics in the last 15 years, although there has been a steady stream of amazing developments for the last 50 years
 * [#C] [2020-02-27] bollu.github.io | code + contents of my website, and programming life
 :PROPERTIES:
-:ID:       thbllgthbcdcntntsfmywbstndprgrmmnglf
+:ID:       bllgthbcdcntntsfmywbstndprgrmmnglf
 :END:
 https://bollu.github.io/#leapfrog-integration
 : We have a system we wish to simulate using hamilton’s equations:
@@ -2559,14 +2559,14 @@ https://t.co/SseLaMU2zI
 
 * [#C] [2020-07-09] [[https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D1%87%D0%B0%D1%81%D1%82%D0%B8%D1%86%D1%8B][Спиральность частицы — Википедия]]
 :PROPERTIES:
-:ID:       thsrwkpdrgwkddbfdbddbdbbdральностьчастицывикипедия
+:ID:       srwkpdrgwkddbfdbddbdbbdcdральностьчастицывикипедия
 :END:
 : Спиральность — квантовое число[1], характеристика состояния элементарной частицы. Представляет собой проекцию спина частицы на направление движения. Используется при описании элементарных частиц, движущихся со скоростью света или близкой к ней. Является сохраняющейся лоренц-инвариантной величиной для безмассовых частиц.[2][3]
 
 helicity
 * [#C] [2020-07-15] [[https://news.ycombinator.com/item?id=23850874][Understanding quaternions and the Dirac belt trick (2010) | Hacker News]]
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdndrstndrnnsndthdrcblttrckhckrnws
+:ID:       snwsycmbntrcmtmdndrstndngrnnsndthdrcblttrckhckrnws
 :END:
 : I am pretty sure I have studied every interpretation and explanation of spinors and the non-simply-connectedness of SO(3) rotations, and I eventually finally understood it -- but, by ignoring explanations like the 'belt trick', rather than embracing them. I don't think this article makes it any better. As long as you're stuck on quaternions you're not going to be able to see what's going on, and the belt metaphor just adds complexity as well.
 * TODO [#C] Tweet from Statebox | ステートボックス (@statebox), at Dec 18, 18:38
@@ -2584,36 +2584,36 @@ https://twitter.com/statebox/status/1207369444852424704
 
 * [#C] [2020-08-09] [[https://www.amazon.com/exec/obidos/ASIN/0201554097/o/qid=937458620/sr=8-1/002-3669569-1935412][Amazon.com: Lectures On Phase Transitions And The Renormalization Group (Frontiers in Physics) (9780201554090): Goldenfeld, Nigel: Books]]
 :PROPERTIES:
-:ID:       snswwwmzncmxcbdssnqdsrmznrntrsnphyscsgldnfldnglbks
+:ID:       swwwmzncmxcbdssnqdsrmzncmrntrsnphyscsgldnfldnglbks
 :END:
 
 * [#C] [2020-08-19] [[https://twitter.com/michael_nielsen/status/1296134814878195717][Michael Nielsen on Twitter: "Somehow, the combination: quasiparticles + statistics + universality / RG + equilibrium is just mindbogglingly rich." / Twitter]]
 :PROPERTIES:
-:ID:       wdstwttrcmmchlnlsnsttsmchrmsjstmndbgglnglyrchtwttr
+:ID:       stwttrcmmchlnlsnsttsmchlnrmsjstmndbgglnglyrchtwttr
 :END:
 : Somehow, the combination: quasiparticles + statistics + universality / RG + equilibrium is just mindbogglingly rich.
 * TODO [#C] [2020-08-11] [[https://en.wikipedia.org/wiki/Neutrino_oscillation#Origins_of_neutrino_mass][Neutrino oscillation - Wikipedia]]
 :PROPERTIES:
-:ID:       tsnwkpdrgwkntrnsclltnrgnsfntrnmssntrnsclltnwkpd
+:ID:       snwkpdrgwkntrnsclltnrgnsfntrnmssntrnsclltnwkpd
 :END:
 :  In the Standard Model of particle physics, fermions only have mass because of interactions with the Higgs field
 
 Hm, and what about bosons?
 * [#C] [2020-08-11] [[https://physics.stackexchange.com/questions/17944/how-does-the-higgs-mechanism-work][quantum field theory - How does the Higgs mechanism work? - Physics Stack Exchange]]
 :PROPERTIES:
-:ID:       tsphyscsstckxchngcmqstnshsmchnsmwrkphyscsstckxchng
+:ID:       sphyscsstckxchngcmqstnshwsmchnsmwrkphyscsstckxchng
 :END:
 : The Higgs mechanism is no different from superconductivity, except the condensate responsible for superconductivity is a relativistically invariant scalar field.
 : 
 : If you have a bosonic field, its particles can be in a Bose-Einstein condensate. When this condensate is charged, you call it a superconductor. A photon in a superconductor gets a mass, and this is the Higgs mechanism.
 * [#C] [2020-08-11] [[http://web.mst.edu/~hale/courses/Physics_357_457/Notes/Lecture.17.Higgs.Mechanism/HiggsLectureNote.pdf][HiggsLectureNote.pdf - HiggsLectureNote.pdf]]
 :PROPERTIES:
-:ID:       twbmstdhlcrssphyscsntslctggslctrntpdfhggslctrntpdf
+:ID:       wbmstdhlcrssphyscsntslctrggslctrntpdfhggslctrntpdf
 :END:
 
 * [#C] [2020-08-12] [[https://math.stackexchange.com/questions/2192159/how-can-su2-group-has-3-dimensional-representation/2192198#2192198][How can SU(2) group has 3 dimensional representation? - Mathematics Stack Exchange]] :reprtheory:
 :PROPERTIES:
-:ID:       wdsmthstckxchngcmqstnshwclrprsnttnmthmtcsstckxchng
+:ID:       smthstckxchngcmqstnshwcnslrprsnttnmthmtcsstckxchng
 :END:
 : o construct the n-dimensional irreducible representation of SU(2), use the spin j=(n−1)/2 angular momentum matrices as Jx,Jy,Jz.
 * TODO [#C] Tweet from @akivaw
@@ -2628,37 +2628,37 @@ https://twitter.com/akivaw/status/1313727123325161472
 
 * [#C] [2020-08-19] [[http://hyperphysics.phy-astr.gsu.edu/hbase/Forces/funfor.html][Fundamental Forces]]
 :PROPERTIES:
-:ID:       wdhyprphyscsphystrgsdhbsfrcsfnfrhtmlfndmntlfrcs
+:ID:       hyprphyscsphystrgsdhbsfrcsfnfrhtmlfndmntlfrcs
 :END:
 : One of the four fundamental forces, the weak interaction involves the exchange of the intermediate vector bosons, the W and the Z. Since the mass of these particles is on the order of 80 GeV, the uncertainty principle dictates a range of about 10-18 meters which is about 0.1% of the diameter of a proton.
 * [#C] [2020-08-19] [[https://twitter.com/gravity_levity/status/1296136996071657478][Brian Skinner on Twitter: "@michael_nielsen @sigfpe I like this example. Generally bosonic systems store heat/entropy much more easily than fermionic systems. In a boson system, all the particles can store heat, while in a fermionic system only the ones near the Fermi surface can." / Twitter]]
 :PROPERTIES:
-:ID:       wdstwttrcmgrvtylvtysttsbrnlythnsnrthfrmsrfccntwttr
+:ID:       stwttrcmgrvtylvtysttsbrnsnlythnsnrthfrmsrfccntwttr
 :END:
 : I like this example.  Generally bosonic systems store heat/entropy much more easily than fermionic systems.  In a boson system, all the particles can store heat, while in a fermionic system only the ones near the Fermi surface can.
 ** [2020-08-19] hmm. what if we 'store heat' carefully in a bosonic quasiparticle condensate, and then disturb it to make it fermionic again? What would happen?
 :PROPERTIES:
-:ID:       wdhmmwhtfwstrhtcrfllynbsntrbttmktfrmncgnwhtwldhppn
+:ID:       hmmwhtfwstrhtcrfllynbsncqtrbttmktfrmncgnwhtwldhppn
 :END:
 * [#C] [2020-08-19] [[https://twitter.com/MBarkeshli/status/1296143737719070721][Maissam Barkeshli on Twitter: "@michael_nielsen But we do live in a superconductor in a sense! The Higgs boson has condensed, which is the origin of mass, similar to how photons acquire mass in electronic superconductors. The idea of technicolor in particle physics is that the Higgs may be a pair of more fundamental fermions" / Twitter]]
 :PROPERTIES:
-:ID:       wdstwttrcmmbrkshlsttsmssmmybprfmrfndmntlfrmnstwttr
+:ID:       stwttrcmmbrkshlsttsmssmbrmybprfmrfndmntlfrmnstwttr
 :END:
 : But we do live in a superconductor in a sense! The Higgs boson has condensed, which is the origin of mass, similar to how photons acquire mass in electronic superconductors. The idea of technicolor in particle physics is that the Higgs may be a pair of more fundamental fermions
 * STRT [#C] [2020-08-20] [[https://twitter.com/vijay_mocherla/status/1296225027709263872][Vijay Mocherla on Twitter: "@michael_nielsen Check out the notes by David Tong from Cambridge. Ch3 of statistical physics notes is the shortest comprehensive summary of BEC I can think off. https://t.co/ED0PrMXvBK" / Twitter]]
 :PROPERTIES:
-:ID:       thstwttrcmvjymchrlsttsvjyccnthnkffstcdprmxvbktwttr
+:ID:       stwttrcmvjymchrlsttsvjymcccnthnkffstcdprmxvbktwttr
 :END:
 : Check out the notes by David Tong from Cambridge.  Ch3 of statistical physics notes is the shortest comprehensive summary of BEC I can think off.
 : 
 : https://damtp.cam.ac.uk/user/tong/statphys/three.pdf
 * [#C] [2020-08-21] [[https://arxiv.org/pdf/0910.4855.pdf][arXiv:0910.4855v1 [hep-ph] 26 Oct 2009 - 0910.4855.pdf]]
 :PROPERTIES:
-:ID:       frsrxvrgpdfpdfrxvvhpphctpdf
+:ID:       srxvrgpdfpdfrxvvhpphctpdf
 :END:
 * [#C] [2020-08-23] [[https://physics.stackexchange.com/questions/287572/why-dont-we-construct-a-spin-1-4-spinor/287578][special relativity - Why don't we construct a spin 1/4 spinor? - Physics Stack Exchange]]
 :PROPERTIES:
-:ID:       snsphyscsstckxchngcmqstnsrctspnspnrphyscsstckxchng
+:ID:       sphyscsstckxchngcmqstnswhrctspnspnrphyscsstckxchng
 :END:
 : Dirac spinors actually belong to the 4-dimensional reducible representation
 : (1/2,0)⊕(0,1/2).
@@ -2699,22 +2699,22 @@ todo drill
 from [[https://gravityandlevity.wordpress.com/2020/07/14/how-can-electrons-be-topological/][How can electrons be “topological”?]]
 * [#C] [2020-08-11] [[https://www2.ph.ed.ac.uk/~playfer/PPlect17.pdf][PPlect17.pdf]] lecture 17 -- the Higgs Boson
 :PROPERTIES:
-:ID:       tswwwphdckplyfrpplctpdfpplctpdflctrthhggsbsn
+:ID:       swwwphdckplyfrpplctpdfpplctpdflctrthhggsbsn
 :END:
 
 * [#C] [2020-08-13] [[http://www.tesl-ej.org/books/lomb-2nd-Ed.pdf][lomb-2nd-Ed.pdf]] Lomb: Polyglot - How I Learn Languages
 :PROPERTIES:
-:ID:       thwwwtsljrgbkslmbnddpdflmnddpdflmbplyglthwlrnlnggs
+:ID:       wwwtsljrgbkslmbnddpdflmbnddpdflmbplyglthwlrnlnggs
 :END:
 
 * TODO [#C] [2020-08-01] [[http://www.vttoth.com/CMS/physics-notes/118-kaluza-klein-theory][Viktor T. Toth - Kaluza-Klein theory]]
 :PROPERTIES:
-:ID:       stwwwvttthcmcmsphyscsntskklnthryvktrttthklzklnthry
+:ID:       wwwvttthcmcmsphyscsntsklzklnthryvktrttthklzklnthry
 :END:
 
 * TODO [#C] [2019-06-17] Quantum computing | Microsoft
 :PROPERTIES:
-:ID:       mnqntmcmptngmcrsft
+:ID:       qntmcmptngmcrsft
 :END:
 https://www.microsoft.com/en-us/quantum/
 : The only scalable quantum solution
@@ -2743,7 +2743,7 @@ https://twitter.com/nmwsharp/status/1153993638134910977
 
 * TODO [#C] [2019-08-05] Metamorphisms |   Bartosz Milewski's Programming Cafe https://bartoszmilewski.com/2019/01/03/metamorphisms/
 :PROPERTIES:
-:ID:       mnmtmrphsmsbrtszmlwsksprggcfsbrtszmlwskcmmtmrphsms
+:ID:       mtmrphsmsbrtszmlwsksprgrmgcfsbrtszmlwskcmmtmrphsms
 :END:
 
 * TODO [#C] Tweet from John Carlos Baez (@johncarlosbaez), at Sep 9, 08:09
@@ -2759,7 +2759,7 @@ https://twitter.com/johncarlosbaez/status/1170957378432290817
 
 * [#C] [2018-11-30] Magnetic field requires three dimensions
 :PROPERTIES:
-:ID:       frmgntcfldrqrsthrdmnsns
+:ID:       mgntcfldrqrsthrdmnsns
 :END:
 * TODO [#C] black hole study
 :PROPERTIES:
@@ -2771,7 +2771,7 @@ https://twitter.com/preskill/status/1177270572125810688
 
 * TODO [#C] [2019-09-21] Shtetl-Optimized » 2013 » March The zone
 :PROPERTIES:
-:ID:       stshttlptmzdmrchthzn
+:ID:       shttlptmzdmrchthzn
 :END:
 https://www.scottaaronson.com/blog/?m=201303
 : Lenny gave a typically-masterful summary, which for the first time enabled me to understand the role played in the AMPS argument by “the Zone” (a region near the black hole but outside its event horizon, in which the Hawking radiation behaves a little differently than it does when it’s further away).
@@ -2826,14 +2826,14 @@ https://twitter.com/johncarlosbaez/status/1184495830843064322
 
 * TODO [#C] [2019-08-24] Greg Egan on Twitter: "[1/4] Welcome to HopfWorld! Every point on the surface of our own world has been replaced by a circle, creating a three-dimensional sphere in four dimensions. If you take a rotating slice through that 3-sphere (as shown in the second image), this is what the slice looks like: https://t.co/Rn12So6iKf" / Twitter
 :PROPERTIES:
-:ID:       stgrggnntwttrwlcmthpfwrldhtthslclkslkstcrnskftwttr
+:ID:       grggnntwttrwlcmthpfwrldvrhtthslclkslkstcrnskftwttr
 :END:
 https://twitter.com/gregeganSF/status/1165249104672219136
 : [1/4] Welcome to HopfWorld! Every point on the surface of our own world has been replaced by a circle, creating a three-dimensional sphere in four dimensions.
 : If you take a rotating slice through that 3-sphere (as shown in the second image), this is what the slice looks like:
 * TODO [#C] [2019-10-09] Три книги - Dee Mon. Былое и думы — LiveJournal
 :PROPERTIES:
-:ID:       wdтрикнигиdmnбылоеидумыlvjrnl
+:ID:       трикнигиdmnбылоеидумыlvjrnl
 :END:
 https://thedeemon.livejournal.com/140306.html
 : У КМ ровно две проблемы вследствие которых она не может быть объединена с релятивистской теорией.
@@ -2846,81 +2846,81 @@ https://thedeemon.livejournal.com/140306.html
 :END:
 * [#C] [2016-09-25] gravitational waves
 :PROPERTIES:
-:ID:       sngrvttnlwvs
+:ID:       grvttnlwvs
 :END:
 : The last term, O(ε2 ω2 |x|2 ) , may be hard to understand for beginners. It says that, actually, the plane wave isn’t plane, it gets corrections that grow quadratically with distance. These corrections, which I do not spell out in detail, come from the non-linear terms in Einstein’s equations. For trained physicists, however, it is easy to understand their physical origin: the gravitational wave carries energy, therefore has a tiny mass density, and therefore generates a gravitational field by itself. For LIGO, this is totally negligible: only if |x| becomes hundreds of millions of light years, this term becomes bothersome, but the actual gravitational source is not that far away, and/or does not shine for so many millions of years, so we never have a wave that stretches that far. To be precise: in practice you only need the linear parts of Einstein’s equations, and you have to build wave packets by superimposing these plane waves. Then, these wave packets don’t stretch that far, and the bothersome correction term never becomes large.
 * [#C] [2013-02-15] fusion
 :PROPERTIES:
-:ID:       mnfsn
+:ID:       fsn
 :END:
 : Nuclear fusion: lighter elements merge into heavier elements, using kinetic energy.
 : Energy has to bypass electrostatic repulsion, however, two factors are decreasing the temperature needed for the reaction:
 : 1. Quantum effects: particles can tunnel through the electrostatic potential barrier
 * [#C] [2020-02-19] wigner's friend experiment is different from shrodinger's cat in that the entangled observer (the friend) is conscious :quantum:
 :PROPERTIES:
-:ID:       wdwgnrsfrndxprmntsdffrntfthntngldbsrvrthfrndscnscs
+:ID:       wgnrsfrndxprmntsdffrntfrmthntngldbsrvrthfrndscnscs
 :END:
 * [#C] [2020-08-26] [[https://en.wikipedia.org/wiki/Van_der_Waals_force][Van der Waals force - Wikipedia]]
 :PROPERTIES:
-:ID:       wdsnwkpdrgwkvndrwlsfrcvndrwlsfrcwkpd
+:ID:       snwkpdrgwkvndrwlsfrcvndrwlsfrcwkpd
 :END:
 : The van der Waals force has the same origin as the Casimir effect, arising from quantum interactions with the zero-point field.[2]
 * [#C] [2020-07-05] [[https://en.wikipedia.org/wiki/Feynman_diagram][Feynman diagram - Wikipedia]]
 :PROPERTIES:
-:ID:       snsnwkpdrgwkfynmndgrmfynmndgrmwkpd
+:ID:       snwkpdrgwkfynmndgrmfynmndgrmwkpd
 :END:
 * [#C] [2020-07-13] [[https://www.mathpages.com/home/iphysics.htm][MathPages: Physics]]
 :PROPERTIES:
-:ID:       mnswwwmthpgscmhmphyscshtmmthpgsphyscs
+:ID:       swwwmthpgscmhmphyscshtmmthpgsphyscs
 :END:
 * [#C] [2020-07-11] [[https://www.youtube.com/watch?v=XT_iZ7QEit8&list=WL&index=66&t=0s][Cracking a Black Hole Paradox - Sixty Symbols - YouTube]] :study:
 :PROPERTIES:
-:ID:       stswwwytbcmwtchvxtzqtlstwngblckhlprdxsxtysymblsytb
+:ID:       swwwytbcmwtchvxtzqtlstwlnngblckhlprdxsxtysymblsytb
 :END:
 read the papers
 * [#C] [2020-07-14] [[https://www.mathpages.com/rr/rrtoc.htm][Reflections on Relativity]] :read:study:
 :PROPERTIES:
-:ID:       tswwwmthpgscmrrrrtchtmrflctnsnrltvty
+:ID:       swwwmthpgscmrrrrtchtmrflctnsnrltvty
 :END:
 
 * [#C] [2020-07-18] [[http://matematicas.uam.es/~fernando.chamizo/physics/files/fine_structure.pdf][fine_structure.pdf]]
 :PROPERTIES:
-:ID:       stmtmtcsmsfrnndchmzphyscsflsfnstrctrpdffnstrctrpdf
+:ID:       mtmtcsmsfrnndchmzphyscsflsfnstrctrpdffnstrctrpdf
 :END:
 * [#C] [2020-07-18] [[http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/lamb.html][The Lamb Shift]]
 :PROPERTIES:
-:ID:       sthyprphyscsphystrgsdhbsqntmlmbhtmlthlmbshft
+:ID:       hyprphyscsphystrgsdhbsqntmlmbhtmlthlmbshft
 :END:
 * [#C] [2020-07-18] [[http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/h21.html#c1][The Hydrogen 21-cm Line]]
 :PROPERTIES:
-:ID:       sthyprphyscsphystrgsdhbsqntmhhtmlcthhydrgncmln
+:ID:       hyprphyscsphystrgsdhbsqntmhhtmlcthhydrgncmln
 :END:
 : The 1420 MHz radiation comes from the transition between the two levels of the hydrogen 1s ground state, slightly split by the interaction between the electron spin and the nuclear spin. The splitting is known as hyperfine structure.
 ** TODO [2020-12-20] need to split roughtly in 'facts' and 'actual todos/stuff I need to learn'
 :PROPERTIES:
-:ID:       snndtspltrghtlynfctsndctltdsstffndtlrn
+:ID:       ndtspltrghtlynfctsndctltdsstffndtlrn
 :END:
 * [#C] [2020-07-20] [[https://eater.net/quaternions/video/intro][Visualizing quaternions | 3blue1brown + Ben Eater]]
 :PROPERTIES:
-:ID:       mnstrntqtrnnsvdntrvslzngqtrnnsblbrwnbntr
+:ID:       strntqtrnnsvdntrvslzngqtrnnsblbrwnbntr
 :END:
 * [#C] [2020-07-20] [[https://ridiculousfish.com/wavefiz/#numerical_method][Wavefunction Visualizer]]
 :PROPERTIES:
-:ID:       mnsrdclsfshcmwvfznmrclmthdwvfnctnvslzr
+:ID:       srdclsfshcmwvfznmrclmthdwvfnctnvslzr
 :END:
 * [#C] [2020-07-20] [[https://medium.com/starts-with-a-bang/ask-ethan-36-the-amazing-spinning-electron-34e97ce952c2][Ask Ethan #36: The Amazing Spinning Electron | by Ethan Siegel | Starts With A Bang! | Medium]]
 :PROPERTIES:
-:ID:       mnsmdmcmstrtswthbngskthnttrnbythnsglstrtswthbngmdm
+:ID:       smdmcmstrtswthbngskthnthmtrnbythnsglstrtswthbngmdm
 :END:
 : So if we ask how do two hydrogen atoms can be configured together, there are two possible configurations: either in a spatially-symmetric but spin-anti-aligned state, or in a spatially-anti-symmetric but spin-aligned state!
 * [#C] [2020-07-30] [[https://twitter.com/BarbaraFantechi/status/1288586452922703882][algebraic geometer BLM on Twitter: "@KSHartnett @stevenstrogatz @QuantaMagazine Sad that there was no room for one of the main storylines, the love/hate relationship/competition between symplectic and complex geometry." / Twitter]]
 :PROPERTIES:
-:ID:       thstwttrcmbrbrfntchsttslgsymplctcndcmplxgmtrytwttr
+:ID:       stwttrcmbrbrfntchsttslgbrsymplctcndcmplxgmtrytwttr
 :END:
 : Sad that there was no room for one of the main storylines, the love/hate relationship/competition between symplectic and complex geometry.
 * [#C] [2020-07-31] [[https://vk.com/@mind_vs_trash-clifford-1][Алгебры Клиффорда, часть 1 | VK]]
 :PROPERTIES:
-:ID:       frsvkcmmndvstrshclffrdалгебрыклиффордачастьvk
+:ID:       svkcmmndvstrshclffrdалгебрыклиффордачастьvk
 :END:
 : Мы поступим так: не будем пытаться задать произведение любой пары элементов, а потребуем лишь, чтобы квадрат x² вектора x в смысле умножения в алгебре совпадал с его скалярным квадратом <x,x>. Собственно, так и определяется алгебра Клиффорда — как самая общая алгебра, удовлетворяющая этому соотношению (самая общая — в смысле некого универсального свойства в соответствующих категориях). Технически
 * TODO [#C] Tweet from michael_nielsen (@michael_nielsen), at Aug 5, 22:37
@@ -2941,7 +2941,7 @@ https://hyp.is/adaalFGBEemsHa807OIUkQ/en.wikipedia.org/wiki/Canonical_quantizati
 
 * [#C] [2019-10-19] statistical mechanics - Is there any proof for the 2nd law of thermodynamics? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       ststtstclmchncssthrnyprffthrmdynmcsphyscsstckxchng
+:ID:       sttstclmchncssthrnyprffrtthrmdynmcsphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/10690/is-there-any-proof-for-the-2nd-law-of-thermodynamics
 : It's simple to "roughly prove" the second law in the context of statistical physics. The evolution A→B
@@ -2959,7 +2959,7 @@ https://twitter.com/DavidSHolz/status/1192556452121993216
 
 * TODO [#C] [2019-11-07] Bartosz Milewski on Twitter: "@johncarlosbaez @sigfpe I even adapted his notation to profunctors. https://t.co/f7p0BErEip" / Twitter
 :PROPERTIES:
-:ID:       thbrtszmlwskntwttrjhncrlsttntprfnctrsstcfpbrptwttr
+:ID:       brtszmlwskntwttrjhncrlsbzttntprfnctrsstcfpbrptwttr
 :END:
 https://twitter.com/BartoszMilewski/status/1192494002144067584
 : Einstein was a very important physicist 'n' all, but let's face it, the way he touches most of our lives in a technical capacity is that he gave us license to leave out our sigma signs.
@@ -2971,7 +2971,7 @@ https://twitter.com/BartoszMilewski/status/1192494002144067584
 : I even adapted his notation to profunctors
 * TODO [#C] [2019-11-10] michael_nielsen on Twitter: "@predzemshara The IPCC report is surprisingly good - try assessment report 5. There are, of course, many many books. I enjoyed Daniel Schrag's EdX class, though it focuses more on the earth-system aspect, and only gradually moves onto human-caused climate stuff." / Twitter :climate:
 :PROPERTIES:
-:ID:       snmchlnlsnntwttrprdzmshrtymvsnthmncsdclmtstfftwttr
+:ID:       mchlnlsnntwttrprdzmshrthpymvsnthmncsdclmtstfftwttr
 :END:
 https://twitter.com/michael_nielsen/status/1193629850721865728
 : The IPCC report is surprisingly good - try assessment report 5. There are, of course, many many books. I enjoyed Daniel Schrag's EdX class, though it focuses more on the earth-system aspect, and only gradually moves onto human-caused climate stuff.
@@ -2985,33 +2985,33 @@ https://twitter.com/michael_nielsen/status/1193629850721865728
 
 * [#C] [2020-06-02] [[https://twitter.com/seanmcarroll/status/1267830222734241804][(1) Sean Carroll on Twitter: "The Biggest Ideas in the Universe: idea #11 is Renormalization. We deal with "infinities" in quantum field theory by admitting that we don't understand arbitrarily high energies, and constructing "effective" theories instead. https://t.co/kZ8pnYJ5nA" / Twitter]]
 :PROPERTIES:
-:ID:       tstwttrcmsnmcrrllsttssncrtvthrsnstdstckzpnyjntwttr
+:ID:       stwttrcmsnmcrrllsttssncrrtvthrsnstdstckzpnyjntwttr
 :END:
 : The Biggest Ideas in the Universe: idea #11 is Renormalization. We deal with "infinities" in quantum field theory by admitting that we don't understand arbitrarily high energies, and constructing "effective" theories instead.
 * [#C] [2020-06-19] [[https://news.ycombinator.com/item?id=23562164][Breakthrough in inverse Laplace transform procedures | Hacker News]]
 :PROPERTIES:
-:ID:       frsnwsycmbntrcmtmdbrkthrgslplctrnsfrmprcdrshckrnws
+:ID:       snwsycmbntrcmtmdbrkthrghnslplctrnsfrmprcdrshckrnws
 :END:
 : Yes. The Fourier transform characterizes on a circle (usually the unit circle in the complex domain) at different frequencies. It is properly defined for periodic signals.
 : 
 : The Laplace transform takes any exponential spiral in the complex plane, and reduces to the Fourier transform if you only care about the unit circle.
 * [#C] [2020-06-19] [[https://news.ycombinator.com/item?id=23562164][Breakthrough in inverse Laplace transform procedures | Hacker News]]
 :PROPERTIES:
-:ID:       frsnwsycmbntrcmtmdbrkthrgslplctrnsfrmprcdrshckrnws
+:ID:       snwsycmbntrcmtmdbrkthrghnslplctrnsfrmprcdrshckrnws
 :END:
 : With Fourier you can analyze oscillatory characteristics of function (frequency and phase). With Laplace you can also analyze amplification/attenuation.
 * [#C] [2020-06-26] [[https://www.cs.umd.edu/~akader/files/MathStory%20-%20Hilberts%20Problems%281%29.pdf][MathStory - Hilberts Problems(1).pdf]]
 :PROPERTIES:
-:ID:       frswwwcsmddkdrflsmthstryhpdfmthstryhlbrtsprblmspdf
+:ID:       swwwcsmddkdrflsmthstryhlbpdfmthstryhlbrtsprblmspdf
 :END:
 * [#C] [2020-06-30] [[https://www.youtube.com/watch?v=mwlWIfNvt1w][(2) Introduction to Energy Band Theory - Material Science - YouTube]] :study:
 :PROPERTIES:
-:ID:       tswwwytbcmwtchvmwlwfnvtwntntnrgybndthrymtrlscncytb
+:ID:       swwwytbcmwtchvmwlwfnvtwnttntnrgybndthrymtrlscncytb
 :END:
 
 * [#C] [2020-07-03] [[https://twitter.com/sigfpe/status/1278901675789414401][D ␣ a ␣ n ␣ P ␣ i ␣ p ␣ o ␣ n ␣ i on Twitter: "@johncarlosbaez @sarah_zrf Yeah, symplectic integrators are the way to go. They often conserve not-quite-energy which is the wrong thing to conserve but it still stops things getting out of hand." / Twitter]]
 :PROPERTIES:
-:ID:       frstwttrcmsgfpsttsdnppnntlstpsthngsgttngtfhndtwttr
+:ID:       stwttrcmsgfpsttsdnppnntwtlstpsthngsgttngtfhndtwttr
 :END:
 : Yeah, symplectic integrators are the way to go. They often conserve not-quite-energy which is the wrong thing to conserve but it still stops things getting out of hand.
 * TODO [#C] Tweet from @johncarlosbaez
@@ -3028,13 +3028,13 @@ https://twitter.com/johncarlosbaez/status/1279106414493831169
 
 * [#C] [2020-03-14] Dave Burke on Twitter: "RNA looks like DNA except the T is replaced with a U. The RNA moves out into the cell and is used to build proteins it specifies. This DNA-&gt;RNA-&gt;protein sequence is called the central dogma of molecular biology." / Twitter
 :PROPERTIES:
-:ID:       stdvbrkntwttrrnlkslkdnxcpthcntrldgmfmlclrblgytwttr
+:ID:       dvbrkntwttrrnlkslkdnxcpttthcntrldgmfmlclrblgytwttr
 :END:
 https://twitter.com/davey_burke/status/1238672101545893889
 : RNA looks like DNA except the T is replaced with a U. The RNA moves out into the cell and is used to build proteins it specifies. This DNA->RNA->protein sequence is called the central dogma of molecular biology.
 * [#C] [2020-03-14] Dave Burke on Twitter: "Every cell in your body contains your full DNA or genome (3 bn base pairs). But each cell doesn't use all of the instructions, e.g. a skin cell shouldn't make an iris. This is where gene expression comes in. DNA in the nucleus is first copied to short strands of RNA." / Twitter
 :PROPERTIES:
-:ID:       stdvbrkntwttrvrycllnyrbdyrstcpdtshrtstrndsfrntwttr
+:ID:       dvbrkntwttrvrycllnyrbdycnrstcpdtshrtstrndsfrntwttr
 :END:
 https://twitter.com/davey_burke/status/1238672100832862215
 : Every cell in your body contains your full DNA or genome (3 bn base pairs). But each cell doesn't use all of the instructions, e.g. a skin cell shouldn't make an iris. This is where gene expression comes in. DNA in the nucleus is first copied to short strands of RNA.
@@ -3062,7 +3062,7 @@ https://twitter.com/litgenstein/status/1253904085742313472
 : @litgenstein: astonishing how wrong Dirac was here https://t.co/4zHvPfQHuQ
 * [#C] [2020-04-28] (1) The Holographic Universe Explained - YouTube :physics:
 :PROPERTIES:
-:ID:       tthhlgrphcnvrsxplndytb
+:ID:       thhlgrphcnvrsxplndytb
 :END:
 https://www.youtube.com/watch?v=klpDHn8viX8&list=WL&index=13&t=0s
 good intro to the holographic principle and ads/cft correspondense
@@ -3070,17 +3070,17 @@ scale invariance
 
 * [#C] [2020-04-29] [[https://www.youtube.com/watch?v=CliW7kSxxWU&list=WL&index=18&t=0s][Tensors Explained Intuitively: Covariant, Contravariant, Rank - YouTube]]
 :PROPERTIES:
-:ID:       wdswwwytbcmwtchvclwksxxwlnttvlycvrntcntrvrntrnkytb
+:ID:       swwwytbcmwtchvclwksxxwlstnttvlycvrntcntrvrntrnkytb
 :END:
 "contra"variant -- when you increase basis vectors, the components decrease
 * [#C] [2020-04-29] [[https://www.youtube.com/watch?v=CliW7kSxxWU&list=WL&index=18&t=0s][Tensors Explained Intuitively: Covariant, Contravariant, Rank - YouTube]]
 :PROPERTIES:
-:ID:       wdswwwytbcmwtchvclwksxxwlnttvlycvrntcntrvrntrnkytb
+:ID:       swwwytbcmwtchvclwksxxwlstnttvlycvrntcntrvrntrnkytb
 :END:
 but if you describe a vector with dot products (with the bases), the associated dot products will double with the scaling of the basis vectors
 * [#C] [2020-04-30] [[https://www.youtube.com/watch?v=y-Gk_Ddhr0M][A theory of everything | Garrett Lisi - YouTube]] :qft:
 :PROPERTIES:
-:ID:       thswwwytbcmwtchvygkddhrmthryfvrythnggrrttlsytb
+:ID:       swwwytbcmwtchvygkddhrmthryfvrythnggrrttlsytb
 :END:
 electric charge is a combination of isoweak and hyperchange?
 higgs breaks the symmetry so weak particles are too massive?
@@ -3102,7 +3102,7 @@ https://twitter.com/johncarlosbaez/status/1262058096643325952
 (3/n) https://t.co/Rz14sNzhfa
 * TODO [#C] [2020-05-20] [[https://www.youtube.com/watch?v=5nvq-63ild0][Subatomic Stories: Antimatter - YouTube]] :study:
 :PROPERTIES:
-:ID:       wdswwwytbcmwtchvnvqldsbtmcstrsntmttrytb
+:ID:       swwwytbcmwtchvnvqldsbtmcstrsntmttrytb
 :END:
 : Of all of the claims of modern physics, perhaps the most amazing is that for every kind of known matter, there is a cousin version called antimatter.  Antimatter is the opposite of ordinary matter and will annihilate into pure energy when it encounters matter. In episode 7 of Subatomic Stories, Fermilab’s Dr. Don Lincoln gives you the lowdown on this amazing substance.
 
@@ -3118,7 +3118,7 @@ https://twitter.com/litgenstein/status/1266178085574946816
 @litgenstein: easy twitter.com/samuelgwalters/sta... pic.twitter.com/oEjbxX...
 * [#C] [2020-06-12] [[https://www.youtube.com/watch?v=X9JLij1obHY][Joe Rogan Experience #1203 - Eric Weinstein - YouTube]] :study:
 :PROPERTIES:
-:ID:       frswwwytbcmwtchvxjljbhyjrgnxprncrcwnstnytb
+:ID:       swwwytbcmwtchvxjljbhyjrgnxprncrcwnstnytb
 :END:
 55:10 hopf worlds weinstein
 * TODO [#C] Tweet from @johncarlosbaez
@@ -3140,7 +3140,7 @@ https://twitter.com/johncarlosbaez/status/1275677652586823682
 - energy bands -- X axis is momentum?? https://www.youtube.com/watch?v=w3rFHJkUuIM
 * [#C] [2020-06-23] [[https://en.wikipedia.org/wiki/Majorana_fermion][Majorana fermion - Wikipedia]]
 :PROPERTIES:
-:ID:       tsnwkpdrgwkmjrnfrmnmjrnfrmnwkpd
+:ID:       snwkpdrgwkmjrnfrmnmjrnfrmnwkpd
 :END:
 : In condensed matter physics, bound Majorana fermions can appear as quasiparticle excitations—the collective movement of several individual particles, not a single one, and they are governed by non-abelian statistics. 
 * START [#D] https://www.reddit.com/r/ketogains/wiki/index#wiki_protein_and_the_ketogenic_diet :read:keto:
@@ -3169,24 +3169,24 @@ https://twitter.com/johncarlosbaez/status/1126865911858618369
 
 * [#D] [2019-02-14] Why The Schrodinger Equation Fails at Relativity : Physics
 :PROPERTIES:
-:ID:       thwhythschrdngrqtnflstrltvtyphyscs
+:ID:       whythschrdngrqtnflstrltvtyphyscs
 :END:
 https://www.reddit.com/r/Physics/comments/ad23sp/why_the_schrodinger_equation_fails_at_relativity/
 : Physics students always say that the Schrodinger equation doesn't hold for SR, but it does. It's not the Schrodinger equation that fails though, it's the non-relativistic Hamiltonian that fails. The Dirac equation is the Schrodinger equation, but with the Dirac Hamiltonian. The Schrodinger equation is valid.
 * [#D] [2019-01-26] Locally constant function - Wikipedia
 :PROPERTIES:
-:ID:       stlcllycnstntfnctnwkpd
+:ID:       lcllycnstntfnctnwkpd
 :END:
 https://en.wikipedia.org/wiki/Locally_constant_function
 : Every locally constant function from the real numbers R to R is constant, by the connectedness of R. But the function f from the rationals Q to R, defined by f(x) = 0 for x < π, and f(x) = 1 for x > π, is locally constant (here we use the fact that π is irrational and that therefore the two sets {x∈Q : x < π} and {x∈Q : x > π} are both open in Q).
 * TODO [#D] [2019-01-26] Math3ma                                  :cattheory:
 :PROPERTIES:
-:ID:       stmthm
+:ID:       mthm
 :END:
 https://www.math3ma.com/
 ** [2019-02-22] interesting, some illustreated category theory?
 :PROPERTIES:
-:ID:       frntrstngsmllstrtdctgrythry
+:ID:       ntrstngsmllstrtdctgrythry
 :END:
 
 * TODO [#D] books                                         :study:electronics:
@@ -3200,52 +3200,52 @@ https://www.allaboutcircuits.com/
 
 * [#D] [2019-02-11] Life on the lattice                             :qft:qcd:
 :PROPERTIES:
-:ID:       mnlfnthlttc
+:ID:       lfnthlttc
 :END:
 https://latticeqcd.blogspot.com/
 some blog abbout lattice qft/qcd
 * [#D] [2019-02-11] [hep-lat/0506036] Lattice QCD for Novices           :qcd:
 :PROPERTIES:
-:ID:       mnhpltlttcqcdfrnvcs
+:ID:       hpltlttcqcdfrnvcs
 :END:
 https://arxiv.org/abs/hep-lat/0506036
 
 * [#D] [2019-01-23] pushout in nLab                               :cattheory:
 :PROPERTIES:
-:ID:       wdpshtnnlb
+:ID:       pshtnnlb
 :END:
 https://ncatlab.org/nlab/show/pushout
 ** [2019-04-24] try to understand it sentence by sentence..
 :PROPERTIES:
-:ID:       wdtrytndrstndtsntncbysntnc
+:ID:       trytndrstndtsntncbysntnc
 :END:
 * [#D] [2019-01-26] logic - How can a formal system ever be non-obviously unsound? - Mathematics Stack Exchange :logic:
 :PROPERTIES:
-:ID:       stlgchwcnfrmlsystmvrbnnbvslynsndmthmtcsstckxchng
+:ID:       lgchwcnfrmlsystmvrbnnbvslynsndmthmtcsstckxchng
 :END:
 https://math.stackexchange.com/questions/3007684/how-can-a-formal-system-ever-be-non-obviously-unsound
 
 * [#D] [2019-03-08] (2) Slut_jack on Twitter: "Q: wat is Functor F A: you can add F to both ends a -&gt; b F a -&gt; F b Q: FullyFaithful F? A: rm F from both ends F a -&gt; F b a -&gt; b Q: L left adjoint to R? A: Pulling L right turns it to R A: Pulling R left turns it to L L a -&gt; b a -&gt; R b L a -&gt; b" / Twitter
 :PROPERTIES:
-:ID:       frsltjckntwttrqwtsfnctrfyttrnsttllgtbgtrblgtbtwttr
+:ID:       sltjckntwttrqwtsfnctrfycnttrnsttllgtbgtrblgtbtwttr
 :END:
 https://twitter.com/Iceland_jack/status/1103800222008991744
 
 * [#D] [2019-02-09] topos
 :PROPERTIES:
-:ID:       sttps
+:ID:       tps
 :END:
 http://math.ucr.edu/home/baez/topos.html
 
 * [#D] [2019-02-10] at.algebraic topology - Algorithm for computing fundamental group of simplicial complexes - MathOverflow
 :PROPERTIES:
-:ID:       sntlgbrctplgylgrthmfrcmptlgrpfsmplclcmplxsmthvrflw
+:ID:       tlgbrctplgylgrthmfrcmptnglgrpfsmplclcmplxsmthvrflw
 :END:
 https://mathoverflow.net/questions/304481/algorithm-for-computing-fundamental-group-of-simplicial-complexes
 : Depends on what you mean by "computing" and "algorithm". It is undecidable (even for a two-complex) whether the fundamental group is trivial, though computing a presentation is relatively easy.
 * TODO [#D] [2019-02-10] at.algebraic topology - Algorithm for computing fundamental group of simplicial complexes - MathOverflow
 :PROPERTIES:
-:ID:       sntlgbrctplgylgrthmfrcmptlgrpfsmplclcmplxsmthvrflw
+:ID:       tlgbrctplgylgrthmfrcmptnglgrpfsmplclcmplxsmthvrflw
 :END:
 https://mathoverflow.net/questions/304481/algorithm-for-computing-fundamental-group-of-simplicial-complexes
 : Kruskal's algorithm will give you a maximal tree, and after that the presentation just involves listing the remaining edges as generators, and listing the relations that come from the 2-simplices. I don't really see anything interesting going on algorithmically once you've selected a maximal tree.
@@ -3303,13 +3303,13 @@ https://www.reddit.com/r/haskell/comments/a2d3pg/_/eax3ml7?context=1000
 
 * [#D] [2018-06-10] Hacker's guide to Neural Networks                    :nn:
 :PROPERTIES:
-:ID:       snhckrsgdtnrlntwrks
+:ID:       hckrsgdtnrlntwrks
 :END:
 https://karpathy.github.io/neuralnets/
 
 * [#D] [2018-06-10] How a Kalman filter works, in pictures | Bzarg
 :PROPERTIES:
-:ID:       snhwklmnfltrwrksnpctrsbzrg
+:ID:       hwklmnfltrwrksnpctrsbzrg
 :END:
 http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/
 
@@ -3319,33 +3319,33 @@ http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/
 :END:
 ** [#D] [2018-11-11] agda/Records.agda at master · agda/agda
 :PROPERTIES:
-:ID:       sngdrcrdsgdtmstrgdgd
+:ID:       gdrcrdsgdtmstrgdgd
 :END:
 https://github.com/agda/agda/blob/master/examples/SummerSchool07/Lecture/Records.agda
 ** [#D] [2018-11-11] agda/Sigma.agda at master · agda/agda
 :PROPERTIES:
-:ID:       sngdsgmgdtmstrgdgd
+:ID:       gdsgmgdtmstrgdgd
 :END:
 https://github.com/agda/agda/blob/master/src/data/lib/prim/Agda/Builtin/Sigma.agda
 ** [#D] [2018-11-13] Abstract Algebra in Agda
 :PROPERTIES:
-:ID:       tbstrctlgbrngd
+:ID:       bstrctlgbrngd
 :END:
 https://people.inf.elte.hu/pgj/agda/tutorial/Application.Algebra.html
 ** [#D] [2018-11-13] With-Abstraction — Agda 2.6.0 documentation
 :PROPERTIES:
-:ID:       twthbstrctngddcmnttn
+:ID:       wthbstrctngddcmnttn
 :END:
 https://agda.readthedocs.io/en/latest/language/with-abstraction.html#simultaneous-abstraction
 * [#D] [2018-11-29] myPhysicsLab Single Spring                          :viz:
 :PROPERTIES:
-:ID:       thmyphyscslbsnglsprng
+:ID:       myphyscslbsnglsprng
 :END:
 https://www.myphysicslab.com/springs/single-spring-en.html
 3.00
 * TODO [#D] [2018-12-13] Derivatives and dissections of data types | Lambda the Ultimate
 :PROPERTIES:
-:ID:       thdrvtvsnddssctnsfdttypslmbdthltmt
+:ID:       drvtvsnddssctnsfdttypslmbdthltmt
 :END:
 http://lambda-the-ultimate.org/node/1957
 * TODO [#D] Really interesting and informative site about physical simulations and mechanics, and the maths behind it.👍👍👍 :viz:sim:
@@ -3380,13 +3380,13 @@ https://twitter.com/johncarlosbaez/status/1109502266174636032
 
 * [#D] [2019-03-27] Лингвопанк on Twitter: "Фонетическая карта человеческого рта. Для каждого звука дан его источник (для большинства — положение языка) запись IPA и английское слово, где он звучит. https://t.co/7msjnHxPHi https://t.co/wqsiAAvVkU" / Twitter
 :PROPERTIES:
-:ID:       wdлингвопанкntwttrфонетичstcmsjnhxphstcwqsvvktwttr
+:ID:       лингвопанкntwttrфонетичесstcmsjnhxphstcwqsvvktwttr
 :END:
 https://twitter.com/linguopunk_ru/status/1110814030703271936
 
 * TODO [#D] [2019-01-10] [[https://reddit.com/r/Physics/comments/4m7eos/how_to_study_string_theory_in_my_free_time_that_is/d3t8g3w/][How to study string theory? In my free time, that is.]] /r/Physics :stringth:
 :PROPERTIES:
-:ID:       thsrddtcmrphyscscmmntsmshrngthrynmyfrtmthtsrphyscs
+:ID:       srddtcmrphyscscmmntsmshwtrngthrynmyfrtmthtsrphyscs
 :END:
 : Before QFT course: Zwiebach
 : After QFT course: David Tong's lecture notes.
@@ -3394,7 +3394,7 @@ https://twitter.com/linguopunk_ru/status/1110814030703271936
 : Stay away from: Becker, Becker, Schwarz
 * [#D] [2019-03-04] [[https://reddit.com/r/math/comments/aumiz0/plot_of_sinzz_mouse_position_in_the_complex_plane/eh8zyer/][plot of sin(z)/(z - mouse position) in the complex plane]] /r/math :viz:
 :PROPERTIES:
-:ID:       mnsrddtcmrmthcmmntsmzpltfsnzzmspstnnthcmplxplnrmth
+:ID:       srddtcmrmthcmmntsmzpltfsnsnzzmspstnnthcmplxplnrmth
 :END:
 This is generated with [https://kisonecat.github.io/phase-plot/](https://kisonecat.github.io/phase-plot/)
 
@@ -3428,24 +3428,24 @@ https://twitter.com/sigfpe/status/1116084820784766982
 
 * [#D] [2019-04-24] Fundamental polygon - Wikipedia
 :PROPERTIES:
-:ID:       wdfndmntlplygnwkpd
+:ID:       fndmntlplygnwkpd
 :END:
 https://en.wikipedia.org/wiki/Fundamental_polygon
 
 * [#D] [2018-09-16] The 5/8 Theorem | Azimuth
 :PROPERTIES:
-:ID:       snththrmzmth
+:ID:       ththrmzmth
 :END:
 https://johncarlosbaez.wordpress.com/2018/09/16/the-5-8-theorem/
 
 * [#D] [2019-02-10] klein bottle                                   :topology:
 :PROPERTIES:
-:ID:       snklnbttl
+:ID:       klnbttl
 :END:
 bend a cylinder as you would do for torus. then you need to match the circles, but in the direction opposite to cicle. in order to do that you'd have to pierce through the cylinder
 * [#D] [2019-02-10] armstrong p.138 van jampen theorem for simplicial complexes :topology:
 :PROPERTIES:
-:ID:       snrmstrngpvnjmpnthrmfrsmplclcmplxs
+:ID:       rmstrngpvnjmpnthrmfrsmplclcmplxs
 :END:
 * TODO [#D] Tweet from John Carlos Baez (@johncarlosbaez), at May 12, 17:51 :baez:
 :PROPERTIES:
@@ -3480,7 +3480,7 @@ https://twitter.com/lisyarus/status/1133375027548762113
 
 * TODO [#D] [2018-11-27] Pinboard: bookmarks for karlicoss tagged 'fp'   :fp:
 :PROPERTIES:
-:ID:       tpnbrdbkmrksfrkrlcsstggdfp
+:ID:       pnbrdbkmrksfrkrlcsstggdfp
 :END:
 https://pinboard.in/u:karlicoss/t:fp
 
@@ -3513,13 +3513,13 @@ https://twitter.com/relizarov/status/1130591159775105026
 
 * [#D] [2019-03-18] Product Spaces                                 :topology:
 :PROPERTIES:
-:ID:       mnprdctspcs
+:ID:       prdctspcs
 :END:
 https://notgnoshi.github.io/product-spaces/
 
 * TODO [#D] [2017-11-06] https://www.reddit.com/r/AskElectronics/wiki/education :electronics:
 :PROPERTIES:
-:ID:       mnswwwrddtcmrsklctrncswkdctn
+:ID:       swwwrddtcmrsklctrncswkdctn
 :END:
 * TODO [#D] Физик оправдал принцип космической цензуры https://nplus1.ru/news/2019/06/19/censorship
 :PROPERTIES:
@@ -3535,13 +3535,13 @@ https://notgnoshi.github.io/product-spaces/
 
 * TODO [#D] [2019-06-28] John Carlos Baez on Twitter: "Fong and Spivak's book on applied category theory is coming out! I'm getting my copy in the mail soon! (cont)… "
 :PROPERTIES:
-:ID:       frjhncrlsbzntwttrfngndspvmngtmgttngmycpynthmlsncnt
+:ID:       jhncrlsbzntwttrfngndspvksmngtmgttngmycpynthmlsncnt
 :END:
 https://twitter.com/johncarlosbaez/status/1144662487356231680
 : Fong and Spivak's book on applied category theory is coming out! I'm getting my copy in the mail soon! (cont)
 * [#D] [2018-11-29] Mathematical Methods of Classical Mechanics (Graduate Texts in Mathematics, Vol. 60): V. I. Arnold, A. Weinstein, K. Vogtmann: 9780387968902: Amazon.com: Books :math:physics:
 :PROPERTIES:
-:ID:       thmthmtclmthdsfclssclmchnvrnldwnstnkvgtmnnmzncmbks
+:ID:       mthmtclmthdsfclssclmchncsvrnldwnstnkvgtmnnmzncmbks
 :END:
 https://www.amazon.com/Mathematical-Classical-Mechanics-Graduate-Mathematics/dp/0387968903
 
@@ -3569,7 +3569,7 @@ https://twitter.com/SamuelGWalters/status/767888754543505408
 
 ** [2019-04-15] how einstein got his field equations https://arxiv.org/abs/1608.05752
 :PROPERTIES:
-:ID:       mnhwnstngthsfldqtnssrxvrgbs
+:ID:       hwnstngthsfldqtnssrxvrgbs
 :END:
 * TODO [#D] Tweet from Derek Lowe (@Dereklowe), at Oct 11, 15:03      :study:
 :PROPERTIES:
@@ -3584,13 +3584,13 @@ https://twitter.com/Dereklowe/status/1182657925321580548
 
 * TODO [#D] [2019-04-07] A Proposal for Proquints: Identifiers that are Readable, Spellable, and Pronounceable
 :PROPERTIES:
-:ID:       snprpslfrprqntsdntfrsthtrrdblspllblndprnncbl
+:ID:       prpslfrprqntsdntfrsthtrrdblspllblndprnncbl
 :END:
 https://arxiv.org/html/0901.4016
 
 * TODO [#D] [2019-11-09] [[https://reddit.com/r/dependent_types/comments/dtz81w/formalizing_expresiveness_of_line_editors/][Formalizing expresiveness of line editors]] /r/dependent_types
 :PROPERTIES:
-:ID:       stsrddtcmrdpndnttypscmmntprsvnssflndtrsrdpndnttyps
+:ID:       srddtcmrdpndnttypscmmntsdprsvnssflndtrsrdpndnttyps
 :END:
 
 * TODO [#D] Tweet from Nikita Lisitsa (@lisyarus), at Nov 27, 08:41
@@ -3612,14 +3612,14 @@ https://twitter.com/lisyarus/status/1199609128110436358
 :END:
 * TODO [#D] [2020-05-22] [[https://reddit.com/r/Physics/comments/gotl97/physicists_of_reddits_whats_the_most_intetesting/fri349s/][Physicists of reddits, what's the most Intetesting stuff you've studied so far??]] /r/Physics
 :PROPERTIES:
-:ID:       frsrddtcmrphyscscmmntsgtltstngstffyvstddsfrrphyscs
+:ID:       srddtcmrphyscscmmntsgtlphtstngstffyvstddsfrrphyscs
 :END:
 :  Honestly, no matter the subject, very old foundational articles.
 : 
 :  Someone explaining extremely clearly and formally a very basic concept, because it was breaking new at the point of writing, is deeply satisfying. There's a clarity in those papers that's impossible to find mostly anywhere else.
 * [#D] [2020-07-07] [[https://travisdowns.github.io/blog/2020/07/06/concurrency-costs.html][A Concurrency Cost Hierarchy | Performance Matters]]
 :PROPERTIES:
-:ID:       tstrvsdwnsgthbblgcncrrncyrncycsthrrchyprfrmncmttrs
+:ID:       strvsdwnsgthbblgcncrrncycrncycsthrrchyprfrmncmttrs
 :END:
 * [#D] https://arbital.com/p/bayes_rule_proportional/?pathId=36904
 :PROPERTIES:
@@ -3641,17 +3641,17 @@ https://twitter.com/EricLengyel/status/1155309290229358592
 
 * [#D] [2019-08-04] Same-origin policy - Wikipedia https://en.wikipedia.org/wiki/Same-origin_policy
 :PROPERTIES:
-:ID:       snsmrgnplcywkpdsnwkpdrgwksmrgnplcy
+:ID:       smrgnplcywkpdsnwkpdrgwksmrgnplcy
 :END:
 * [#D] [2019-08-05] Об Байеса - 2: plakhov — LiveJournal
 :PROPERTIES:
-:ID:       mnоббайесаplkhvlvjrnl
+:ID:       оббайесаplkhvlvjrnl
 :END:
 https://plakhov.livejournal.com/227597.html
 
 * [#D] [2019-08-06] reddit: the front page of the internet
 :PROPERTIES:
-:ID:       trddtthfrntpgfthntrnt
+:ID:       rddtthfrntpgfthntrnt
 :END:
 https://www.reddit.com/r/dataisbeautiful/wiki/advice
 : Information about Colorblindness
@@ -3677,13 +3677,13 @@ https://twitter.com/johncarlosbaez/status/1161464741191012352
 
 * [#D] [2019-11-24] Breit–Wheeler process - Wikipedia
 :PROPERTIES:
-:ID:       snbrtwhlrprcsswkpd
+:ID:       brtwhlrprcsswkpd
 :END:
 https://en.wikipedia.org/wiki/Breit%E2%80%93Wheeler_process
 : The Breit–Wheeler process or Breit–Wheeler pair production is a physical process in which a positron–electron pair is created from the collision of two photons. It is the simplest mechanism by which pure light can be potentially transformed into matter.
 * [#D] [2020-04-14] [[https://news.ycombinator.com/item?id=22869274][(1) We certainly do have formal derivations of Lorentz covariance and the Einste... | Hacker News]]
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdwcrtnlydflrntzcvrncndthnsthckrnws
+:ID:       snwsycmbntrcmtmdwcrtnlydhflrntzcvrncndthnsthckrnws
 :END:
 : (1) We certainly do have formal derivations of Lorentz covariance and the Einstein field equations, given in detail here:
 : http://wolframcloud.com/obj/wolframphysics/Documents/some-re...
@@ -3768,7 +3768,7 @@ https://en.wikipedia.org/wiki/Margolus%E2%80%93Levitin_theorem
 
 * [2019-11-01] John Carlos Baez on Twitter: "Take the real numbers. Throw in some square roots of +1 and some square roots of -1, all anticommuting. You get a Clifford algebra. Clifford algebras are important in geometry and physics - we need them to understand spin! They also display some amazing patterns. (1/n) https://t.co/IlnbpTbBqN" / Twitter
 :PROPERTIES:
-:ID:       frjhncrlsbzntwttrtkthrlnmgpttrnsnstclnbptbbqntwttr
+:ID:       jhncrlsbzntwttrtkthrlnmbrgpttrnsnstclnbptbbqntwttr
 :END:
 https://twitter.com/johncarlosbaez/status/1190314607979585536
 : Take the real numbers.  Throw in some square roots of +1 and some square roots of -1, all anticommuting.  You get a Clifford algebra.
@@ -3777,7 +3777,7 @@ https://twitter.com/johncarlosbaez/status/1190314607979585536
 
 * [2019-10-01] John Carlos Baez on Twitter: "@gregeganSF @monsoon0 @wtgowers @LauraDeming Okay, you've managed to cancel out any potential "insult" with an overload of praise. It was this paper: https://t.co/vlxpqR8G1w The stabilization hypothesis, homotopy hypothesis, cobordism hypothesis and tangle hypothesis are in here. No theorems, amusingly." / Twitter
 :PROPERTIES:
-:ID:       tjhncrlsbzntwttrgrggnsfmnthssrnhrnthrmsmsnglytwttr
+:ID:       jhncrlsbzntwttrgrggnsfmnsthssrnhrnthrmsmsnglytwttr
 :END:
 https://twitter.com/johncarlosbaez/status/1178816967601340417
 : Okay, you've managed to cancel out any potential "insult" with an overload of praise.   It was this paper:
@@ -3785,12 +3785,12 @@ https://twitter.com/johncarlosbaez/status/1178816967601340417
 : The stabilization hypothesis, homotopy hypothesis, cobordism hypothesis and tangle hypothesis are in here.  No theorems, amusingly.
 * TODO [2019-10-30] [[https://reddit.com/r/agda/comments/dpdtrd/jesper_cockx_rewriting_type_theory/][Jesper Cockx - Rewriting type theory]] /r/agda
 :PROPERTIES:
-:ID:       wdsrddtcmrgdcmmntsdpdtrdjyjsprcckxrwrtngtypthryrgd
+:ID:       srddtcmrgdcmmntsdpdtrdjspyjsprcckxrwrtngtypthryrgd
 :END:
 
 * [2019-11-12] Sofia 🧹 on Twitter: "Follow up, matrix multiplication is essentially the unique solution to the following problem: given dot :: (j -&gt; a) -&gt; (j -&gt; b) -&gt; c derive mmul :: (i -&gt; j -&gt; a) -&gt; (j -&gt; k -&gt; b) -&gt; (i -&gt; k -&gt; c) the solution is: mmul as bs i k = dot (as i) (flip bs k)" / Twitter
 :PROPERTIES:
-:ID:       tsfntwttrfllwpmtrxmltplctltnsmmlsbskdtsflpbsktwttr
+:ID:       sfntwttrfllwpmtrxmltplctnltnsmmlsbskdtsflpbsktwttr
 :END:
 https://twitter.com/typeswitch/status/1193878474940960770
 : Follow up, matrix multiplication is essentially the unique solution to the following problem:
@@ -3805,7 +3805,7 @@ https://twitter.com/typeswitch/status/1193878474940960770
 : mmul as bs i k = dot (as i) (flip bs k)
 * [2019-11-12] Nikita Lisitsa on Twitter: "Hence we are forced to include this bizarre state into consideration. Are we missing some more states? Surely we are. This all boils down to representations of the SO(3) group and how those behave under tensor product - this is known as Clebsch-Gordan decomposition. (8/8)" / Twitter
 :PROPERTIES:
-:ID:       tnktlstsntwttrhncwrfrcdtnwnsclbschgrdndcmpstntwttr
+:ID:       nktlstsntwttrhncwrfrcdtncwnsclbschgrdndcmpstntwttr
 :END:
 https://twitter.com/lisyarus/status/1194374457676247045
 : Hence we are forced to include this bizarre state into consideration. Are we missing some more states? Surely we are. This all boils down to representations of the SO(3) group and how those behave under tensor product - this is known as Clebsch-Gordan decomposition. (8/8)
@@ -3872,7 +3872,7 @@ https://twitter.com/michael_nielsen/status/1202785958074019840
 
 * [2019-12-20] verbit.ru/Job/HSE/Curriculum/all.txt                    :math:
 :PROPERTIES:
-:ID:       frvrbtrjbhscrrclmlltxt
+:ID:       vrbtrjbhscrrclmlltxt
 :END:
 http://verbit.ru/Job/HSE/Curriculum/all.txt
 
@@ -3891,14 +3891,14 @@ https://twitter.com/PonceCampuzano/status/1214850688506716160
 
 * TODO [2019-12-28] Path Integral Salesman on Twitter: "As the pope of climate science, I declare as our holy book: https://t.co/nrvStKMcS4 https://t.co/nsHhCxX2XA" / Twitter
 :PROPERTIES:
-:ID:       stpthntgrlslsmnntwttrsthpnrvstkmcsstcnshhcxxxtwttr
+:ID:       pthntgrlslsmnntwttrsthppfnrvstkmcsstcnshhcxxxtwttr
 :END:
 https://twitter.com/litgenstein/status/1210890946201739269
 : @litgenstein
 : Such a great book, really clear description of renormalization
 * [2019-12-30] Path Integral Salesman on Twitter: "If you want to study physics but your life just does not permit you the time or energy to do maths rigorously (or, at least, however rigorously we physicists do maths), check out these 3 friendly texts: https://t.co/G62SmoXuPc https://t.co/uFCqVj4Exs https://t.co/1QhwJVOKBI https://t.co/ZWhDtvFyju" / Twitter
 :PROPERTIES:
-:ID:       mnpthntgrlslsmnntwttrfywncqhwjvkbstczwhdtvfyjtwttr
+:ID:       pthntgrlslsmnntwttrfywnttcqhwjvkbstczwhdtvfyjtwttr
 :END:
 https://twitter.com/litgenstein/status/1210643695046811648
 : Path Integral Salesman
@@ -3907,43 +3907,43 @@ https://twitter.com/litgenstein/status/1210643695046811648
 
 * TODO [2020-01-03] vacuum
 :PROPERTIES:
-:ID:       frvcm
+:ID:       vcm
 :END:
 http://math.ucr.edu/home/baez/vacuum.html
 
 * [2019-12-27] mathematical_offering.pdf
 :PROPERTIES:
-:ID:       frmthmtclffrngpdf
+:ID:       mthmtclffrngpdf
 :END:
 chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://musicaeadoracao.com.br/recursos/arquivos/tecnicos/matematica/mathematical_offering.pdf
 
 * [2019-12-27] notes10.pdf
 :PROPERTIES:
-:ID:       frntspdf
+:ID:       ntspdf
 :END:
 http://www.math.columbia.edu/~woit/notes10.pdf
 topics in repr theory woit
 * [2019-12-27] 404 Not Found
 :PROPERTIES:
-:ID:       frntfnd
+:ID:       ntfnd
 :END:
 https://www.physics.indiana.edu/~dermisek/QFT_08/qft-I-2-1p.pdf
 
 * [2019-12-27] 404 Not Found
 :PROPERTIES:
-:ID:       frntfnd
+:ID:       ntfnd
 :END:
 http://www.damtp.cam.ac.uk/user/ch558/pdf/Representations.pdf
 
 * [2019-12-31] Klein–Gordon equation - Wikipedia
 :PROPERTIES:
-:ID:       tklngrdnqtnwkpd
+:ID:       klngrdnqtnwkpd
 :END:
 https://en.wikipedia.org/wiki/Klein%E2%80%93Gordon_equation
 : Any solution of the free Dirac equation is, component-wise, a solution of the free Klein–Gordon equation.
 * [2019-12-31] Schrödinger field - Wikipedia
 :PROPERTIES:
-:ID:       tschrödngrfldwkpd
+:ID:       schrödngrfldwkpd
 :END:
 https://en.wikipedia.org/wiki/Schr%C3%B6dinger_field
 
@@ -3980,13 +3980,13 @@ https://twitter.com/litgenstein/status/1232891521109676033
 @litgenstein: The jets are themselves reconstructed using recombination schemes which tell you what the properties of the jets are given the observed constituents of the jets. Perhaps it will surprise you that Voronoi diagrams find a use here too: pic.twitter.com/4NSVTE...
 * [2020-03-07] reference request - Atlas-like websites on specific areas of mathematics - MathOverflow
 :PROPERTIES:
-:ID:       strfrncrqsttlslkwbstsnspcfcrsfmthmtcsmthvrflw
+:ID:       rfrncrqsttlslkwbstsnspcfcrsfmthmtcsmthvrflw
 :END:
 https://mathoverflow.net/questions/354327/atlas-like-websites-on-specific-areas-of-mathematics
 
 * [2020-03-07] Phil Lynch on Twitter: "My copy of the Bible finally arrived https://t.co/8XomO2d887" / Twitter
 :PROPERTIES:
-:ID:       stphllynchntwttrmycpyfthbblfnllyrrvdstcxmdtwttr
+:ID:       phllynchntwttrmycpyfthbblfnllyrrvdstcxmdtwttr
 :END:
 https://twitter.com/PhilipLynchGW/status/1236343035220365312
 : My copy of the Bible finally arrived
@@ -3994,7 +3994,7 @@ https://twitter.com/PhilipLynchGW/status/1236343035220365312
 wheeler gravitation
 * [2020-03-08] On the shoulders of the giants | Hacker News
 :PROPERTIES:
-:ID:       snnthshldrsfthgntshckrnws
+:ID:       nthshldrsfthgntshckrnws
 :END:
 https://news.ycombinator.com/item?id=22515743
 : I’ll second designing data intensive applications as one of the most interesting, readable, and relevant technical books I’ve ever read.
@@ -4010,7 +4010,7 @@ https://twitter.com/johncarlosbaez/status/1236359942619070464
 : For much more, read my blog article:
 * [2020-03-19] John Carlos Baez on Twitter: "@seanmcarroll The CRC Handbook of Chemistry and Physics. Imagine how much work it took to collect all that knowledge..." / Twitter
 :PROPERTIES:
-:ID:       thjhncrlsbzntwttrsnmcrrllttktcllctllthtknwldgtwttr
+:ID:       jhncrlsbzntwttrsnmcrrllthttktcllctllthtknwldgtwttr
 :END:
 https://twitter.com/johncarlosbaez/status/1240670369775665153
 : The CRC Handbook of Chemistry and Physics.
@@ -4018,7 +4018,7 @@ https://twitter.com/johncarlosbaez/status/1240670369775665153
 : Imagine how much work it took to collect all that knowledge...
 * [2020-04-14] [[https://news.ycombinator.com/item?id=22866284][The Wolfram Physics Project | Hacker News]]
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdthwlfrmphyscsprjcthckrnws
+:ID:       snwsycmbntrcmtmdthwlfrmphyscsprjcthckrnws
 :END:
 ** TODO notes                                                :wolframphysics:
 :PROPERTIES:
@@ -4033,12 +4033,12 @@ time dilation thing was very weird... feels contrived
 :END:
 * DONE [#A] [2019-01-29] John Baez on Research Tactics - Machine Intelligence Research Institute :research:learning:
 :PROPERTIES:
-:ID:       tjhnbznrsrchtctcsmchnntllgncrsrchnsttt
+:ID:       jhnbznrsrchtctcsmchnntllgncrsrchnsttt
 :END:
 https://intelligence.org/2014/02/21/john-baez-on-research-tactics/
 ** [2019-02-09] some instapaper notes
 :PROPERTIES:
-:ID:       stsmnstpprnts
+:ID:       smnstpprnts
 :END:
 *** TODO look for problems in between disciplines
 :PROPERTIES:
@@ -4055,21 +4055,21 @@ https://intelligence.org/2014/02/21/john-baez-on-research-tactics/
 
 * DONE [#B] [2019-05-21] [[https://reddit.com/r/Anki/comments/bl1vym/how_i_learn_and_practice_music_with_anki/][How I learn and practice music with anki]] /r/Anki :music:spacedrep:
 :PROPERTIES:
-:ID:       tsrddtcmrnkcmmntsblvymhwlnkhwlrnndprctcmscwthnkrnk
+:ID:       srddtcmrnkcmmntsblvymhwlrnkhwlrnndprctcmscwthnkrnk
 :END:
 ** [2019-07-22] ok, interesting, he basically learns systematically fingering, chords etc
 :PROPERTIES:
-:ID:       mnkntrstnghbscllylrnssystmtcllyfngrngchrdstc
+:ID:       kntrstnghbscllylrnssystmtcllyfngrngchrdstc
 :END:
 * DONE [#B] [2019-02-13] The Frustrating Success of Our Best Theory of Physics – The Third Triumvirate :relativity:physics:
 :PROPERTIES:
-:ID:       wdthfrstrtngsccssfrbstthryfphyscsththrdtrmvrt
+:ID:       thfrstrtngsccssfrbstthryfphyscsththrdtrmvrt
 :END:
 https://thirdtriumvirate.wordpress.com/2019/02/13/the-frustrating-success-of-the-standard-model/
 fucking hell, really awesome explanation for standard model.. read it again!
 ** [2019-06-12] very intuitive explanations how to get physical fields from symmetry justification; and rationale for Higgs field
 :PROPERTIES:
-:ID:       wdvrynttvxplntnshwtgtphystryjstfctnndrtnlfrhggsfld
+:ID:       vrynttvxplntnshwtgtphyscltryjstfctnndrtnlfrhggsfld
 :END:
 * DONE [#C] https://vk.com/wall-9471321_26902 Фундаментально ли время во Вселенной
 :PROPERTIES:
@@ -4079,33 +4079,33 @@ fucking hell, really awesome explanation for standard model.. read it again!
 - State "START"      from "TODO"       [2019-04-24]
 ** [2019-05-06] В 2013 году команда исследователей из Италии экспериментально продемонстрировала этот феномен. Подводя итоги своей работы, ученые сообщали: «Мы показываем, как статическое запутанное состояние двух фотонов можно рассматривать в качестве развивающегося с точки зрения наблюдателя, использующего один из двух фотонов как часы — для оценки временного развития другого фотона. Однако сторонний наблюдатель может показать, что глобально запутанное состояние не развивается».
 :PROPERTIES:
-:ID:       mnвгодукомандаисследоватеноесостояниенеразвивается
+:ID:       вгодукомандаисследователеноесостояниенеразвивается
 :END:
 
 * TODO [#B] [2020-07-16] [[https://calculus123.com/wiki/Topology_Illustrated][Topology Illustrated - Mathematics Is A Science]]
 :PROPERTIES:
-:ID:       thsclclscmwktplgyllstrtdtplgyllstrtdmthmtcssscnc
+:ID:       sclclscmwktplgyllstrtdtplgyllstrtdmthmtcssscnc
 :END:
 ** [#C] [2020-07-16] [[https://news.ycombinator.com/item?id=23854329][Topology Illustrated (2015) | Hacker News]]
 :PROPERTIES:
-:ID:       thsnwsycmbntrcmtmdtplgyllstrtdhckrnws
+:ID:       snwsycmbntrcmtmdtplgyllstrtdhckrnws
 :END:
 
 * [2020-12-03] [[https://www.youtube.com/watch?v=nLcr-DWVEto&list=WL&index=5][The fundamental Group of the Torus is abelian - YouTube]]
 :PROPERTIES:
-:ID:       thswwwytbcmwtchvnlcrdwvtlthfndmntlgrpfthtrssblnytb
+:ID:       swwwytbcmwtchvnlcrdwvtlstthfndmntlgrpfthtrssblnytb
 :END:
 : The fundamental Group of the Torus is abelian
 
 video 'proof'
 * [2020-12-20] [[https://en.wikipedia.org/wiki/Two-state_quantum_system][Two-state quantum system - Wikipedia]]
 :PROPERTIES:
-:ID:       snsnwkpdrgwktwsttqntmsystmtwsttqntmsystmwkpd
+:ID:       snwkpdrgwktwsttqntmsystmtwsttqntmsystmwkpd
 :END:
 : The two-state system cannot be used as a description of absorption or decay, because such processes require coupling to a continuum. Such processes would involve exponential decay of the amplitudes, but the solutions of the two-state system are oscillatory. 
 * [2020-12-20] [[http://web.mit.edu/8.05/handouts/Twostates_03.pdf][Twostates_03.tex - Twostates_03.pdf]] :quantum:study:
 :PROPERTIES:
-:ID:       snwbmtdhndtstwsttspdftwsttstxtwsttspdf
+:ID:       wbmtdhndtstwsttspdftwsttstxtwsttspdf
 :END:
 good summary of two state systems
 - energy can be chosen arbitrarily such that eigenvalues are +- eps
@@ -4114,12 +4114,12 @@ good summary of two state systems
 - right, so during the state evolution, hilbert state (all of it?) simply rotates https://www.youtube.com/watch?v=x-M-a-Gm9u8
 ** [2020-12-20] [[https://www.feynmanlectures.caltech.edu/III_08.html#Ch8-S4][The Feynman Lectures on Physics Vol. III Ch. 8: The Hamiltonian Matrix]]
 :PROPERTIES:
-:ID:       snswwwfynmnlctrscltchdhtmrsnphyscsvlchthhmltnnmtrx
+:ID:       swwwfynmnlctrscltchdhtmlcrsnphyscsvlchthhmltnnmtrx
 :END:
 : Now the interesting thing is that if the molecule is known to be in some state at some instant, it will not be in the same state a little while later. 
 * [2020-12-20] [[https://www.feynmanlectures.caltech.edu/III_09.html][The Feynman Lectures on Physics Vol. III Ch. 9: The Ammonia Maser]]
 :PROPERTIES:
-:ID:       snswwwfynmnlctrscltchdhtmnlctrsnphyscsvlchthmmnmsr
+:ID:       swwwfynmnlctrscltchdhtmltnlctrsnphyscsvlchthmmnmsr
 :END:
 : Note that each of the Eqs. (9.8) and (9.9) look just like what we had in Section 8–6 for the equation of a one-state system. They have a simple exponential time dependence corresponding to a single energy. As time goes on, the amplitudes to be in each state act independently.
 
@@ -4180,7 +4180,7 @@ w_x = v
 w_y = u / gamma_v
 * [2015-01-11] [[https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BD%D0%B7%D0%BE%D1%80_%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D0%B8-%D0%B8%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81%D0%B0][Тензор энергии-импульса]]
 :PROPERTIES:
-:ID:       snsrwkpdrgwkddbdbddbdbdddcddbтензорэнергииимпульса
+:ID:       srwkpdrgwkddbdbddbdbddddbcddbтензорэнергииимпульса
 :END:
 : Подматрица 3 x 3 из чисто пространственных компонент
 :  T^{ik} \ = \ \left( \begin{matrix}

@@ -92,7 +92,7 @@ apparently, not very precise, fluctuates a lot depending on water intake
 :END:
 *** TODO [2021-01-19] add screenshots
 :PROPERTIES:
-:ID:       tddscrnshts
+:ID:       ddscrnshts
 :END:
 
 * tracking: computer/phone usage
@@ -109,7 +109,7 @@ apparently, not very precise, fluctuates a lot depending on water intake
 :END:
 *** STRT [2018-05-31] extracting activity data (e.g. sleep)
 :PROPERTIES:
-:ID:       thxtrctngctvtydtgslp
+:ID:       xtrctngctvtydtgslp
 :END:
 
 ** CANCEL [#D] http://www.qualitytimeapp.com/
@@ -195,7 +195,7 @@ ugh, apparently, it only has five experminents
 :END:
 ** TODO [2017-09-29] [#C] Serge Faguet: https://hackernoon.com/im-32-and-spent-200k-on-biohacking-became-calmer-thinner-extroverted-healthier-happier-2a2e846ae113
 :PROPERTIES:
-:ID:       frcsrgfgtshckrnncmmndspntclmrthnnrxtrvrtdhlthrhppr
+:ID:       csrgfgtshckrnncmmndspntknclmrthnnrxtrvrtdhlthrhppr
 :END:
 A bit insane (or is it?). But worth going through the biomarkers tests, etc, might be something useful there
 

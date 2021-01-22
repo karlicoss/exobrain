@@ -3,7 +3,7 @@
 
 * [2018-11-24] my thoughts on that
 :PROPERTIES:
-:ID:       stmythghtsntht
+:ID:       mythghtsntht
 :END:
 : so basically, treat dx, dy as formal symbols? you can multiply them by scalar, add them up
 : NOTE in agda it would be just n-form with ordered requirement? or just a subset?
@@ -114,7 +114,7 @@ mm, I guess this bit is crucial to my understanding of alternating property
 
 * [2018-11-06]  differential forms ^ : wedge/exterior product
 :PROPERTIES:
-:ID:       tdffrntlfrmswdgxtrrprdct
+:ID:       dffrntlfrmswdgxtrrprdct
 :END:
 f(x, y, z) dx ^ dy ^ dx -- integrated over volume, gives volume
 d operation -- exterior derivative, results in k+1 form
@@ -128,7 +128,7 @@ ok so treat dx, dy, dz formally in form expression
 
 * [2018-11-25] ok, so diff forms are special types of tensors. Not all tensors are diff forms :tensor:
 :PROPERTIES:
-:ID:       snksdfffrmsrspcltypsftnsrsntlltnsrsrdfffrms
+:ID:       ksdfffrmsrspcltypsftnsrsntlltnsrsrdfffrms
 :END:
 https://en.wikipedia.org/wiki/Antisymmetric_tensor
 a completely antisymmetric covariant tensor -- p-form; contravarian -- p-vector
@@ -136,7 +136,7 @@ https://en.wikipedia.org/wiki/Volume_form#Riemannian_volume_form
 
 * DONE [2018-11-14] calculus - What does $dx$ mean in differential form? - Mathematics Stack Exchange
 :PROPERTIES:
-:ID:       wdclclswhtdsdxmnndffrntlfrmmthmtcsstckxchng
+:ID:       clclswhtdsdxmnndffrntlfrmmthmtcsstckxchng
 :END:
 https://math.stackexchange.com/questions/664648/what-does-dx-mean-in-differential-form/664674#664674
 dx_1 is a differential 1-form, linear map acting on tangent space. Action is: (1, 0, .... 0) 
@@ -194,7 +194,7 @@ ok, so I guess definition might involve coordinates; but otherwise they are coor
 
 * [2018-11-10] Дифференциал (дифференциальная геометрия) — Википедия https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%84%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB_(%D0%B4%D0%B8%D1%84%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B3%D0%B5%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F)
 :PROPERTIES:
-:ID:       stдифференциалдифференциаcdbddbdfdbdbdbdbcdbdddbdf
+:ID:       дифференциалдифференциальcdbddbdfdbdbdbdbcdbdddbdf
 :END:
 : Пусть {\displaystyle M} M — гладкое многообразие и {\displaystyle f\colon M\to \mathbb {R} } {\displaystyle f\colon M\to \mathbb {R} } гладкая функция. Дифференциал {\displaystyle f} f представляет собой 1-форму на {\displaystyle M} M, обычно обозначается {\displaystyle df} df и определяется соотношением
 : {\displaystyle df(X)=d_{p}f(X)=Xf,} {\displaystyle df(X)=d_{p}f(X)=Xf,}
@@ -206,7 +206,7 @@ hmm, that actually makes sense too!
 
 * [2018-11-10] differentiation in nLab https://ncatlab.org/nlab/show/differentiation
 :PROPERTIES:
-:ID:       stdffrnttnnnlbsnctlbrgnlbshwdffrnttn
+:ID:       dffrnttnnnlbsnctlbrgnlbshwdffrnttn
 :END:
 : 1. Idea
 : Differentiation is the process that assigns to a function f:X→Y f : X \to Y its derivative, sometimes denoted df d f. The derivative is a function that, roughly speaking, assigns to each point x∈X x \in X the linear transformation dfx d f_x that maps infinitesimal differences y−x y - x (for points y y infinitesimally close to x x) to infinitesimal differences f(y)−f(x) f(y) - f(x).
@@ -214,12 +214,12 @@ hmm, that actually makes sense too!
 
 * [2018-11-18] differential geometry - What is a covector and what is it used for? - Mathematics Stack Exchange
 :PROPERTIES:
-:ID:       sndffrntlgmtrywhtscvctrndwhtstsdfrmthmtcsstckxchng
+:ID:       dffrntlgmtrywhtscvctrndwhtstsdfrmthmtcsstckxchng
 :END:
 https://math.stackexchange.com/questions/240491/what-is-a-covector-and-what-is-it-used-for
 * [2018-11-24] Closed and exact differential forms - Wikipedia
 :PROPERTIES:
-:ID:       stclsdndxctdffrntlfrmswkpd
+:ID:       clsdndxctdffrntlfrmswkpd
 :END:
 https://en.wikipedia.org/wiki/Closed_and_exact_differential_forms 
 :  In mathematics, especially vector calculus and differential topology, a closed form is a differential form α whose exterior derivative is zero (dα = 0), and an exact form is a differential form, α, that is the exterior derivative of another differential form β. Thus, an exact form is in the image of d, and a closed form is in the kernel of d.
@@ -229,11 +229,11 @@ https://en.wikipedia.org/wiki/Closed_and_exact_differential_forms
 : Because d2 = 0, any exact form is necessarily closed. The question of whether every closed form is exact depends on the topology of the domain of interest. On a contractible domain, every closed form is exact by the Poincaré lemma. More general questions of this kind on an arbitrary differentiable manifold are the subject of de Rham cohomology, which allows one to obtain purely topological information using differential methods.
 * START [#B] [2019-01-24] A Visual Introduction to Differential Forms and Calculus on Manifolds | Jon Pierre Fortney | Springer :viz:
 :PROPERTIES:
-:ID:       thvslntrdctntdffrntlfrmsnlsnmnfldsjnprrfrtnysprngr
+:ID:       vslntrdctntdffrntlfrmsndclsnmnfldsjnprrfrtnysprngr
 :END:
 - State "START"      from "TODO"       [2019-02-27]
 https://www.springer.com/us/book/9783319969916
 ** [2019-06-12] ok, so illustrations are ok and there are many of them. explanations seemed ok as well I guess
 :PROPERTIES:
-:ID:       wdksllstrtnsrkndthrrmnyfthmxplntnssmdkswllgss
+:ID:       ksllstrtnsrkndthrrmnyfthmxplntnssmdkswllgss
 :END:

@@ -4,7 +4,7 @@
 
 * DONE [2018-10-24] Feeder
 :PROPERTIES:
-:ID:       wdfdr
+:ID:       fdr
 :END:
 Feeder (RSS feed reader) - https://f-droid.org/app/com.nononsenseapps.feeder
 it's ok I guess, but no feedly support. anyway I need at least something syncing to web

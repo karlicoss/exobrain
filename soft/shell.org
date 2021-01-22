@@ -2,13 +2,13 @@
 #+filetags: shell
 * [#C] [2019-11-03] Why Create a New Unix Shell?
 :PROPERTIES:
-:ID:       snwhycrtnwnxshll
+:ID:       whycrtnwnxshll
 :END:
 https://www.oilshell.org/blog/2018/01/28.html
 
 * [#C] [2020-02-21] Ambitions for a Unix Shell | Hacker News
 :PROPERTIES:
-:ID:       frmbtnsfrnxshllhckrnws
+:ID:       mbtnsfrnxshllhckrnws
 :END:
 https://news.ycombinator.com/item?id=22150603
 : Thanks for the support! Since I may not get to those blog posts in a timely fashion, here's a little outline (and maybe this comment will form the seed of them)
@@ -23,13 +23,13 @@ One possibility is to use the sqlite3 command line client to export both databas
 : diff first.dump second.dump
 * TODO [#C] [2019-08-26] Seven God-Like Bash History Shortcuts You Will Actually Use | Lobsters
 :PROPERTIES:
-:ID:       mnsvngdlkbshhstryshrtctsywllctllyslbstrs
+:ID:       svngdlkbshhstryshrtctsywllctllyslbstrs
 :END:
 https://lobste.rs/s/l2fk5f/seven_god_like_bash_history_shortcuts_you
 
 * [2020-04-15] [[https://ashishb.net/all/the-first-two-statements-of-your-bash-script-should-be/][The first two statements of your BASH script should be…]]
 :PROPERTIES:
-:ID:       wdsshshbntllthfrsttwsttmntwsttmntsfyrbshscrptshldb
+:ID:       sshshbntllthfrsttwsttmntstwsttmntsfyrbshscrptshldb
 :END:
 : #!/usr/bin/env bash
 : set -euo pipefail

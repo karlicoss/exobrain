@@ -40,7 +40,7 @@ https://github.com/zmyaro/chrome-voice-actions
 
 * [#B] [2018-08-27] Michael Sheldon's Stuff » Speech Recognition – Mozilla’s DeepSpeech, GStreamer and IBus
 :PROPERTIES:
-:ID:       mnmchlshldnsstffspchrcgntnmzllsdpspchgstrmrndbs
+:ID:       mchlshldnsstffspchrcgntnmzllsdpspchgstrmrndbs
 :END:
 http://blog.mikeasoft.com/2017/12/30/speech-recognition-mozillas-deepspeech-gstreamer-and-ibus/
 * [#B] using voice to code                                           :coding:
@@ -53,7 +53,7 @@ http://ergoemacs.org/emacs/using_voice_to_code.html
 : “It’s freaking unbelievable, and it makes me so much more productive. I’m using it constantly, both at my desk and when I’m walking around. I have the new version for the phone that lets me dictate anywhere—waiting for a plane, backstage, or even walking in Manhattan,” he says. While working at Intel, Nainan had repetitive stress injuries in his wrists, so the technology has been a “godsend,” he says. While he says “training” the software to recognize your own speech patterns and accent isn’t necessary, the platform is more efficient when you take the time to do so, he says.
 * [#B] [2018-08-27] Is there any decent speech recognition software for Linux? - Unix & Linux Stack Exchange
 :PROPERTIES:
-:ID:       mnsthrnydcntspchrcgntnsftwrfrlnxnxlnxstckxchng
+:ID:       sthrnydcntspchrcgntnsftwrfrlnxnxlnxstckxchng
 :END:
 https://unix.stackexchange.com/questions/256138/is-there-any-decent-speech-recognition-software-for-linux
 ** DONE add to kibitzr? or some similar tool for tracking, apparently there are no subscriptions on stackexchange :(
@@ -62,7 +62,7 @@ https://unix.stackexchange.com/questions/256138/is-there-any-decent-speech-recog
 :END:
 *** [2021-01-11] oh very nice; in has RSS feed
 :PROPERTIES:
-:ID:       mnhvryncnhsrssfd
+:ID:       hvryncnhsrssfd
 :END:
 
 * TODO [#C] python speech recognition https://www.reddit.com/r/Python/comments/86440q/the_ultimate_guide_to_speech_recognition_with/
@@ -86,12 +86,12 @@ https://venturebeat.com/2018/06/07/mozilla-goes-multilingual-with-open-source-co
 https://www.youtube.com/watch?v=3z7LBW_Rl9c
 ** [2018-05-08] https://github.com/Picovoice/Porcupine
 :PROPERTIES:
-:ID:       tsgthbcmpcvcprcpn
+:ID:       sgthbcmpcvcprcpn
 :END:
 
 * [#C] [2018-10-03] ugh, researched a bit and it seems like there are no decent russian models.. dunno maybe I could train one against mozilla's deepspeech??
 :PROPERTIES:
-:ID:       wdghrsrchdbtndtsmslkthrrnmybcldtrnngnstmzllsdpspch
+:ID:       ghrsrchdbtndtsmslkthrrndcmybcldtrnngnstmzllsdpspch
 :END:
 this is closest I could find.. https://github.com/sovse/Rus-SpeechRecognition-LSTM-CTC-VoxForge
 
@@ -187,25 +187,25 @@ what's up with default dictionary??
 :END:
 * TODO [#C] [2019-10-19] Common Voice                                :speech:
 :PROPERTIES:
-:ID:       stcmmnvc
+:ID:       cmmnvc
 :END:
 https://voice.mozilla.org/en?utm_source=missionmozillians&utm_medium=snippet&utm_campaign=common_voice_volunteers_october&utm_term=21473&utm_content=REL
 * [#C] [2020-01-01] [[https://news.ycombinator.com/item?id=21926027][Rhasspy is an open source, fully offline voice assistant toolkit]]
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdrhsspyspnsrcfllyfflnvcssstnttlkt
+:ID:       snwsycmbntrcmtmdrhsspysnpnsrcfllyfflnvcssstnttlkt
 :END:
 https://rhasspy.readthedocs.io/en/latest/
 * [#C] [2019-06-25] Challenges in open source voice interfaces | Opensource.com :mycroft:
 :PROPERTIES:
-:ID:       tchllngsnpnsrcvcntrfcspnsrccm
+:ID:       chllngsnpnsrcvcntrfcspnsrccm
 :END:
 https://opensource.com/article/19/1/open-source-voice-interfaces
 ** [2019-07-25] good article breaking down the pipeline of voice assictant
 :PROPERTIES:
-:ID:       thgdrtclbrkngdwnthpplnfvcssctnt
+:ID:       gdrtclbrkngdwnthpplnfvcssctnt
 :END:
 
 * [2018-10-31] tried installing dragon 15 on win 8.1 VM but it would fail with https://nuance.custhelp.com/app/answers/detail/a_id/5684 :( :dictation:
 :PROPERTIES:
-:ID:       wdtrdnstllngdrgnnwnvmbttwthsnnccsthlpcmppnswrsdtld
+:ID:       trdnstllngdrgnnwnvmbttwldthsnnccsthlpcmppnswrsdtld
 :END:

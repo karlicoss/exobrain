@@ -98,7 +98,7 @@ good points about meaning in the very end
 :END:
 ** TODO [2019-01-15] http://cp3-origins.dk/a/14332                     :blog:
 :PROPERTIES:
-:ID:       tcprgnsdk
+:ID:       cprgnsdk
 :END:
 When the action, and hence the phase, is stationary changing it by a small amount doesn’t change the phase by much. In a small region (compared to ℏ) these paths can add up coherently to give a significant contribution to the sum above. This is what we see in the cartoon above for a very small subset of paths.
 Classical mechanics is quantum mechanics using the stationary phase approximation.
@@ -115,26 +115,26 @@ eh?
 :END:
 *** [2019-01-15] classical mechanics - Deriving the Lagrangian for a free particle - Physics Stack Exchange :lagrangian:
 :PROPERTIES:
-:ID:       tclssclmchncsdrvngthlgrngnfrfrprtclphyscsstckxchng
+:ID:       clssclmchncsdrvngthlgrngnfrfrprtclphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/23098/deriving-the-lagrangian-for-a-free-particle
 Comment:
 justification of lagrangian for classical mechanics from Landau... weird, didn't really get it
 *** [2018-11-29] classical mechanics - Why does Lagrangian of free particle depend on the square of the velocity ? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       thclssclmchncswhydslgrngnqrfthvlctyphyscsstckxchng
+:ID:       clssclmchncswhydslgrngnffqrfthvlctyphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/63370/why-does-lagrangian-of-free-particle-depend-on-the-square-of-the-velocity/92561 
 
 The Lagrangian should not only be independent of the direction of v⃗ v→ but it should also change correctly under a Galilean transformation. For instance, if KK and K′K′ are two frames of reference with a relative velocity V⃗ V→ then the two Lagrangians LL and L′L′ should differ only by a total time derivative.
 *** [#C] [2018-11-29] newtonian mechanics - Galilean invariance of Lagrangian for non-relativistic free point particle? - Physics Stack Exchange :lagrangian:
 :PROPERTIES:
-:ID:       thnwtnnmchncsgllnnvrncflgfrpntprtclphyscsstckxchng
+:ID:       nwtnnmchncsgllnnvrncflgrnfrpntprtclphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/14875/galilean-invariance-of-lagrangian-for-non-relativistic-free-point-particle
 ** TODO [2018-11-30] Degenerate Lagrangian? - My Math Forum
 :PROPERTIES:
-:ID:       frdgnrtlgrngnmymthfrm
+:ID:       dgnrtlgrngnmymthfrm
 :END:
 http://mymathforum.com/differential-equations/43493-degenerate-lagrangian.html
 a degenerate Lagrangian is one who's Hesse determinant is zero. It's a condition on the second partial derivatives of the Lagrangian.
@@ -142,7 +142,7 @@ a degenerate Lagrangian is one who's Hesse determinant is zero. It's a condition
 there is also a link to pdf, might be worth reading...
 ** [2018-11-25] What does a Lagrangian of the form $L=m^2\dot x^4 +U(x)\dot x^2 -W(x)$ represent? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       snwhtdslgrngnfthfrmlmdtxxtxwxrprsntphyscsstckxchng
+:ID:       whtdslgrngnfthfrmlmdtxxdtxwxrprsntphyscsstckxchng
 :END:
  https://physics.stackexchange.com/questions/17406/what-does-a-lagrangian-of-the-form-l-m2-dot-x4-ux-dot-x2-wx-represent
 eh, weird. complex expression for lagrangian that ends up looking same as classical. well ok 
@@ -155,25 +155,25 @@ eh, weird. complex expression for lagrangian that ends up looking same as classi
 :END:
 *** [2018-12-04] lagrangian formalism - Confusion regarding the principle of least action in Landau & Lifshitz "The Classical Theory of Fields" - Physics Stack Exchange
 :PROPERTIES:
-:ID:       tlgrngnfrmlsmcnfsnrgrdngtlthryffldsphyscsstckxchng
+:ID:       lgrngnfrmlsmcnfsnrgrdngthlthryffldsphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/122486/confusion-regarding-the-principle-of-least-action-in-landau-lifshitz-the-clas#comment249472_122504
 conjugate points; about infinitesimal path, characteristic scale of the problem
 conditions for lagrangian regularity and conjugate points
 *** [2018-12-04] lagrangian formalism - Hamilton's Principle - Physics Stack Exchange
 :PROPERTIES:
-:ID:       tlgrngnfrmlsmhmltnsprncplphyscsstckxchng
+:ID:       lgrngnfrmlsmhmltnsprncplphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/9/hamiltons-principle
 :   Basically, the whole thing is summarized in a nutshell in Richard P. Feynman, The Feynman Lectures on Physics (Addison–Wesley, Reading, MA, 1964), Vol. II, Chap. 19. (I think, please correct me if I'm wrong here). The fundamental idea is that the action integral defines the quantum mechanical amplitude for the position of the particle, and the amplitude is stable to interference effects (-->has nonzero probability of occurrence) only at extrema or saddle points of the action integral. The particle really does explore all alternative paths probabilistically.
 *** [2018-12-02] http://www.scholarpedia.org/article/Principle_of_least_action#When_Action_is_a_Minimum
 :PROPERTIES:
-:ID:       snwwwschlrpdrgrtclprncplflstctnwhnctnsmnmm
+:ID:       wwwschlrpdrgrtclprncplflstctnwhnctnsmnmm
 :END:
 :  or some 1D potentials V(x) (those with ∂2V/∂x2≤0 everywhere), e.g. V(x)=0 , V(x)=mgx , and V(x)=−Cx2 , all true trajectories have minimum S . For most potentials, however, only sufficiently short true trajectories have minimum action; the others have an action saddle point. "Sufficiently short" means that the final space-time event occurs before the so-called kinetic focus event of the trajectory.
 *** [2018-12-02] Even more trivial example when least action principle doesn't work
 :PROPERTIES:
-:ID:       snvnmrtrvlxmplwhnlstctnprncpldsntwrk
+:ID:       vnmrtrvlxmplwhnlstctnprncpldsntwrk
 :END:
 :  Принцип наименьшего действия. Часть 2 / Хабр https://habr.com/ru/post/426253/
 : 
@@ -182,7 +182,7 @@ https://physics.stackexchange.com/questions/9/hamiltons-principle
 
 ** TODO [2018-11-30] Лагранжиан L {\displaystyle L} L называется вырожденным, если его оператор Эйлера — Лагранжа удовлетворяет нетривиальным тождествам Нётер. В этом случае уравнения Эйлера — Лагранжа не являются независимыми
 :PROPERTIES:
-:ID:       frлагранжианldsplystylllннжанеявляютсянезависимыми
+:ID:       лагранжианldsplystylllназнжанеявляютсянезависимыми
 :END:
 https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%B6%D0%B4%D0%B5%D1%81%D1%82%D0%B2%D0%B0_%D0%9D%D1%91%D1%82%D0%B5%D1%80
 
@@ -191,27 +191,27 @@ https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%B6%D0%B4%D0%B5%D1%81%D1%82%D0%B2%D
 
 * [2019-01-15] Legendre transform
 :PROPERTIES:
-:ID:       tlgndrtrnsfrm
+:ID:       lgndrtrnsfrm
 :END:
 ** [2019-01-15] nice intuition in terms of areas
 :PROPERTIES:
-:ID:       tncnttnntrmsfrs
+:ID:       ncnttnntrmsfrs
 :END:
 https://physics.stackexchange.com/a/69374/40624
 ** [2018-11-29] Преобразование Лежандра — Википедия              :lagrangian:
 :PROPERTIES:
-:ID:       thпреобразованиележандравикипедия
+:ID:       преобразованиележандравикипедия
 :END:
 https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%9B%D0%B5%D0%B6%D0%B0%D0%BD%D0%B4%D1%80%D0%B0
 *** [2019-01-15] В том случае, когда лагранжиан не вырожден по скоростям, то есть
 :PROPERTIES:
-:ID:       tвтомслучаекогдалагранжиавырожденпоскоростямтоесть
+:ID:       втомслучаекогдалагранжианвырожденпоскоростямтоесть
 :END:
 {\displaystyle p=\nabla _{u}L(q,u)\neq 0,} {\displaystyle p=\nabla _{u}L(q,u)\neq 0,}
 можно сделать преобразование Лежандра по скоростям и получить новую функцию, называемую гамильтонианом:
 ** [2019-01-15] Making Sense of the Legendre Transform
 :PROPERTIES:
-:ID:       tmkngsnsfthlgndrtrnsfrm
+:ID:       mkngsnsfthlgndrtrnsfrm
 :END:
 nice pdf, basically they say it's just a different view, sometimes it's easier to control the derivative
 they introduce generalised forces too
@@ -261,7 +261,7 @@ https://physics.stackexchange.com/questions/89035/whats-the-point-of-hamiltonian
 :END:
 ** [2019-01-16] is hamiltonian same thing as energy?
 :PROPERTIES:
-:ID:       wdshmltnnsmthngsnrgy
+:ID:       shmltnnsmthngsnrgy
 :END:
 *** TODO https://physics.stackexchange.com/questions/11905/when-is-the-hamiltonian-of-a-system-not-equal-to-its-total-energy?noredirect=1&lq=1
 :PROPERTIES:
@@ -269,7 +269,7 @@ https://physics.stackexchange.com/questions/89035/whats-the-point-of-hamiltonian
 :END:
 *** [2018-11-25] classical mechanics - Example where Hamiltonian $H \neq T+V=E$, but $E=T+V$ is conserved - Physics Stack Exchange
 :PROPERTIES:
-:ID:       snclssclmchncsxmplwhrhmltttvscnsrvdphyscsstckxchng
+:ID:       clssclmchncsxmplwhrhmltnnttvscnsrvdphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/194772/example-where-hamiltonian-h-neq-tv-e-but-e-tv-is-conserved
 
@@ -288,12 +288,12 @@ https://physics.stackexchange.com/questions/194772/example-where-hamiltonian-h-n
 
 * ---------- [2019-01-15]  ------------ review later...
 :PROPERTIES:
-:ID:       trvwltr
+:ID:       rvwltr
 :END:
 
 * [#C] [2018-11-29] homework and exercises - Lagrangian in a system with a specific velocity dependent potential - Physics Stack Exchange :lagrangian:
 :PROPERTIES:
-:ID:       thhmwrkndxrcsslgrngnnsystpndntptntlphyscsstckxchng
+:ID:       hmwrkndxrcsslgrngnnsystmwpndntptntlphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/261221/lagrangian-in-a-system-with-a-specific-velocity-dependent-potential#comment596613_261221
 
@@ -301,7 +301,7 @@ https://physics.stackexchange.com/questions/261221/lagrangian-in-a-system-with-a
 
 * -----------  [2019-01-15]  -------------- needs review
 :PROPERTIES:
-:ID:       tndsrvw
+:ID:       ndsrvw
 :END:
 
 * TODO [#D] Griffith classical mechanics
@@ -311,7 +311,7 @@ https://physics.stackexchange.com/questions/261221/lagrangian-in-a-system-with-a
 
 * [2018-07-24] Classical Mechanics
 :PROPERTIES:
-:ID:       tclssclmchncs
+:ID:       clssclmchncs
 :END:
  I guess I need to work out some simple classical system by myself
 understand:
@@ -436,7 +436,7 @@ benefit of generalised coordinates is most apparent when considering double pend
 
 * [2018-07-31] some random notes                     :lagrangian:hamiltonian:
 :PROPERTIES:
-:ID:       tsmrndmnts
+:ID:       smrndmnts
 :END:
 x'^2 + x^2 = C^2 -- energy conservation
 
@@ -491,41 +491,41 @@ Poisson brackets
 - {Q, L_y} -- change of quantity over rotation
 * TODO [#C] [2018-11-25] Zero Hamiltonian and its energies | Physics Forums
 :PROPERTIES:
-:ID:       snzrhmltnnndtsnrgsphyscsfrms
+:ID:       zrhmltnnndtsnrgsphyscsfrms
 :END:
 https://www.physicsforums.com/threads/zero-hamiltonian-and-its-energies.145574/
 :  First of all, you are not understanding what he Hamiltonian is. The Hamiltonian is not the value of the energy, it is a relationship between position and momentum for a particular system. If the Hamiltonian is p^2 + q^2, and the value of p^2 + q^2 is zero, then the Hamiltonian is p^2 + q^2, not zero. It is analogous to Bush being the president. Bush is the current VALUE of "president", but the concept of president is not synonymous with "Bush".
 ** [2019-06-18] eh, they are talking about invariance by reparametrization, but I don't think I really understand what they mean...
 :PROPERTIES:
-:ID:       ththyrtlkngbtnvrncbyrprmtntthnkrllyndrstndwhtthymn
+:ID:       hthyrtlkngbtnvrncbyrprmtrntthnkrllyndrstndwhtthymn
 :END:
 
 * STRT [#B] [2018-12-02] Are the Hamiltonian and Lagrangian always convex functions? - Physics Stack Exchange :lagrangian:
 :PROPERTIES:
-:ID:       snrthhmltnnndlgrngnlwyscnvxfnctnsphyscsstckxchng
+:ID:       rthhmltnnndlgrngnlwyscnvxfnctnsphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/103997/are-the-hamiltonian-and-lagrangian-always-convex-functions
 
 ** [2019-01-16] also good answer, basically explaining that it's not great to impose convexity conditions on only one set of canonical coordinates https://physics.stackexchange.com/a/104279/40624
 :PROPERTIES:
-:ID:       wdlsgdnswrbscllyxplnngthtlcrdntssphyscsstckxchngcm
+:ID:       lsgdnswrbscllyxplnngthttslcrdntssphyscsstckxchngcm
 :END:
 :  In conclusion, convexity does not seem to be a first principle per se, but rather a consequence of the type of QFTs that we typically are able to make sense of. It might be that it is possible to give a non-perturbative definition of a non-convex (but unitary) theory.
 
 ** [2019-01-16] https://physics.stackexchange.com/questions/103997/are-the-hamiltonian-and-lagrangian-always-convex-functions#comment760950_339519
 :PROPERTIES:
-:ID:       wdsphyscsstckxchngcmqstnslgrngnlwyscnvxfnctnscmmnt
+:ID:       sphyscsstckxchngcmqstnsrtlgrngnlwyscnvxfnctnscmmnt
 :END:
 hmm that's interesting, he got a reply about considering sheets of the hamiltonian, each sheet convex... so maybe it does make sense??
 
 * [#B] [2018-11-15] Proof by Picture                                    :viz:
 :PROPERTIES:
-:ID:       thprfbypctr
+:ID:       prfbypctr
 :END:
 http://www.physicsinsights.org/proof_by_picture.html
 * TODO [#B] [2018-11-18] book: Structure and Interpretation of Classical Mechanics
 :PROPERTIES:
-:ID:       snbkstrctrndntrprttnfclssclmchncs
+:ID:       bkstrctrndntrprttnfclssclmchncs
 :END:
 https://groups.csail.mit.edu/mac/users/gjs/6946/sicm-html/
 
@@ -543,7 +543,7 @@ https://groups.csail.mit.edu/mac/users/gjs/6946/sicm-html/
 https://physics.stackexchange.com/questions/212909/lagrangian-is-isotropic-in-space
 ** [2019-06-18] Now since space is isotropic, L should be independent of velocity v⃗ , and should in fact be a function of |v⃗ |2.
 :PROPERTIES:
-:ID:       tnwsncspcsstrpclshldbndpnlctyv⃗ndshldnfctbfnctnfv⃗
+:ID:       nwsncspcsstrpclshldbndpndlctyv⃗ndshldnfctbfnctnfv⃗
 :END:
 
 
@@ -554,12 +554,12 @@ https://physics.stackexchange.com/questions/212909/lagrangian-is-isotropic-in-sp
 :END:
 ** [2019-06-18] https://en.wikipedia.org/wiki/Variational_integrator
 :PROPERTIES:
-:ID:       tsnwkpdrgwkvrtnlntgrtr
+:ID:       snwkpdrgwkvrtnlntgrtr
 :END:
 
 * TODO [#C] [2018-11-30] Задачка на Лагранжиан : Помогите решить / разобраться (Ф) - Страница 3
 :PROPERTIES:
-:ID:       frзадачканалагранжианпомоешитьразобратьсяфстраница
+:ID:       задачканалагранжианпомогиешитьразобратьсяфстраница
 :END:
 https://dxdy.ru/post552620.html
 
@@ -573,11 +573,11 @@ https://dxdy.ru/post552620.html
 
 * [#B] [2020-08-09] [[http://users.etown.edu/h/hughesjr/ma321/notes/c6s1.html][Notes & HW for Section 6.1]] :lagrangian:
 :PROPERTIES:
-:ID:       snsrstwndhhghsjrmntscshtmlntshwfrsctn
+:ID:       srstwndhhghsjrmntscshtmlntshwfrsctn
 :END:
 classification of critical points
 * [#B] [2020-08-09] [[https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/preface001.html][Structure and Interpretation of Classical Mechanics: Chapter 7]]
 :PROPERTIES:
-:ID:       snsmtprssmtdstsdfltflsttltrprttnfclssclmchncschptr
+:ID:       smtprssmtdstsdfltflsttlsctrprttnfclssclmchncschptr
 :END:
 : The Lagrangian L must be interpreted as a function of the position and velocity components qi and q˙i, so that the partial derivatives make sense, but then in order for the time derivative d/dt to make sense solution paths must have been inserted into the partial derivatives of the Lagrangian to make functions of time. The traditional use of ambiguous notation is convenient in simple situations, but in more complicated situations it can be a serious handicap to clear reasoning. In order that the reasoning be clear and unambiguous, we have adopted a more precise mathematical notation. Our notation is functional and follows that of modern mathematical presentations.2 An introduction to our functional notation is in an appendix.

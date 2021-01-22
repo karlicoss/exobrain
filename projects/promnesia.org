@@ -55,7 +55,7 @@ not sure what to do about dates.. support None for datetime??
 :END:
 *** STRT [2020-04-04] right, SEEN database got some stuff /data/data/me.ccrama.redditslide/SEEN
 :PROPERTIES:
-:ID:       strghtsndtbsgtsmstffdtdtmccrmrddtsldsn
+:ID:       rghtsndtbsgtsmstffdtdtmccrmrddtsldsn
 :END:
 ** TODO [#C] use my.pinboard                                   :hpi:pinboard:
 :PROPERTIES:
@@ -69,7 +69,7 @@ not sure what to do about dates.. support None for datetime??
 :END:
 ** TODO [#C] [2020-01-25] http://www.lord-enki.net/links.html import enki's wiki? :exobrain:
 :PROPERTIES:
-:ID:       stwwwlrdnkntlnkshtmlmprtnkswk
+:ID:       wwwlrdnkntlnkshtmlmprtnkswk
 :END:
 ** TODO [#D] android resquetime database?                    :hpi:rescuetime:
 :PROPERTIES:
@@ -89,7 +89,7 @@ not sure what to do about dates.. support None for datetime??
 also wonder, maybe I should turn google search history off?
 ** [#C] [2020-09-05] hmm, firefox on android has 'combined' view??  :firefox:
 :PROPERTIES:
-:ID:       sthmmfrfxnndrdhscmbndvw
+:ID:       hmmfrfxnndrdhscmbndvw
 :END:
 right, it seems to group stuff
 : select date, url, title, history_guid from combined where history_id != -1 ORDER BY history_guid
@@ -113,7 +113,7 @@ shit ok, takeouts are a decent way to preload it...
 :END:
 ** [#C] [2020-05-01] [[https://plus.maths.org/content/][plus.maths.org |]]
 :PROPERTIES:
-:ID:       frsplsmthsrgcntntplsmthsrg
+:ID:       splsmthsrgcntntplsmthsrg
 :END:
 hypothesis extractor could generate a nicer title of the document?
 ** TODO [#C] google takeout -- parse json instead??             :hpi:takeout:
@@ -155,7 +155,7 @@ hypothesis extractor could generate a nicer title of the document?
 :END:
 *** [2020-12-04] although it's over the whole domain, so not super useful
 :PROPERTIES:
-:ID:       frlthghtsvrthwhldmnsntsprsfl
+:ID:       lthghtsvrthwhldmnsntsprsfl
 :END:
 * [#B] * extension issues/improvements
 :PROPERTIES:
@@ -170,7 +170,7 @@ hypothesis extractor could generate a nicer title of the document?
 i guess just need to ignore explicitly for now
 *** [2020-11-19] eh. on the one hand, what else it should do? fragment could be anything
 :PROPERTIES:
-:ID:       thhnthnhndwhtlstshlddfrgmntcldbnythng
+:ID:       hnthnhndwhtlstshlddfrgmntcldbnythng
 :END:
 and also doesn't happen anywhere else
 ** TODO [#C] improving highlights                                :annotation:
@@ -197,21 +197,21 @@ https://github.com/karlicoss/promnesia#how-does-it-work
 :END:
 *** [2019-08-31] document.querySelector("link[rel='canonical']").href;
 :PROPERTIES:
-:ID:       stdcmntqryslctrlnkrlcnnclhrf
+:ID:       dcmntqryslctrlnkrlcnnclhrf
 :END:
 *** [2019-08-31] Determining canonical url
 :PROPERTIES:
-:ID:       stdtrmnngcnnclrl
+:ID:       dtrmnngcnnclrl
 :END:
 sort of a standard is using link rel canonical tag.
 *** [2019-09-03] eh, it's a bit tricky because requires extra content script execution and merging. And in 99.99% cases it's gonna be same as canonified url?
 :PROPERTIES:
-:ID:       thtsbttrckybcsrqrsxtrcntngngndncsstsgnnbsmscnnfdrl
+:ID:       htsbttrckybcsrqrsxtrcntntgngndncsstsgnnbsmscnnfdrl
 :END:
 https://physicstravelguide.com/advanced_tools/gauge_symmetry#tab__faq this for example gives gauge_symmetry page as canonical
 *** [#B] [2020-05-01] maybe use it first? only then fallback on default algo. could make it configurable?
 :PROPERTIES:
-:ID:       frmybstfrstnlythnfllbckndfltlgcldmktcnfgrbl
+:ID:       mybstfrstnlythnfllbckndfltlgcldmktcnfgrbl
 :END:
 
 ** DONE [#B] trying to debug unresponsiveness after idling        :promnesia:
@@ -235,12 +235,12 @@ https://physicstravelguide.com/advanced_tools/gauge_symmetry#tab__faq this for e
   ok, almost def has to do with it!
 ** TODO [#C] [2020-11-18] [[https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=browsercompany&sort=byPopularity&type=all][All | Search powered by Algolia]] :promnesia:
 :PROPERTIES:
-:ID:       wdshnlglcmdtrngllpgprfxtrplrtytypllllsrchpwrdbylgl
+:ID:       shnlglcmdtrngllpgprfxtrqrplrtytypllllsrchpwrdbylgl
 :END:
 breaks this header..
 ** TODO [#C] [2020-05-25] [[https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onActivated][tabs.onActivated - Mozilla | MDN]] :promnesia:
 :PROPERTIES:
-:ID:       mnsdvlprmzllrgnsdcsmzllddtbsnctvtdtbsnctvtdmzllmdn
+:ID:       sdvlprmzllrgnsdcsmzllddnstbsnctvtdtbsnctvtdmzllmdn
 :END:
 might need to respond to this
 ** TODO [#C] try loading stuff earlier, while URL updates         :promnesia:
@@ -267,7 +267,7 @@ icon goes to grey, showing 'no visits'
 :END:
 ** TODO [#C] [2020-05-01] doesn't work with readability? [[https://www.quantumdiaries.org/2011/11/21/why-do-we-expect-a-higgs-boson-part-i-electroweak-symmetry-breaking/][Quantum Diaries]] :promnesia:
 :PROPERTIES:
-:ID:       frdsntwrkwthrdbltyswwwqntlctrwksymmtrybrkngqntmdrs
+:ID:       dsntwrkwthrdbltyswwwqntmdlctrwksymmtrybrkngqntmdrs
 :END:
 doesn't work with readability extension?
 add an explicit "refresh" button?
@@ -278,7 +278,7 @@ add an explicit "refresh" button?
 :END:
 *** [2019-09-09] right, I guess that's because first page that's opened on chrome is options_page...
 :PROPERTIES:
-:ID:       mnrghtgssthtsbcsfrstpgthtspndnchrmsptnspg
+:ID:       rghtgssthtsbcsfrstpgthtspndnchrmsptnspg
 :END:
 maybe frontend pages need to 'ask' backend to register callbacks?...
 ** STRT [#C] need to defensify everything                     :toblog:webext:
@@ -294,7 +294,7 @@ maybe frontend pages need to 'ask' backend to register callbacks?...
 :END:
 ** TODO [#C] [2020-05-11] [[https://twitter.com/ajflores1604/status/1259752083315703810][Alexander Flores on Twitter: "@karlicoss having a pane like that but scroll synced to content in article would be ideal for me" / Twitter]]
 :PROPERTIES:
-:ID:       mnstwttrcmjflrssttslxndrftcntntnrtclwldbdlfrmtwttr
+:ID:       stwttrcmjflrssttslxndrflrtcntntnrtclwldbdlfrmtwttr
 :END:
 : having a pane like that but scroll synced to content in article would be ideal for me
 ** TODO [#C] usability: perhaps easier with overlay in the middle of screen? then there are no issues with displaying...
@@ -333,29 +333,29 @@ maybe frontend pages need to 'ask' backend to register callbacks?...
 :END:
 *** [2019-08-01] eh, ended up implementing mine for now...
 :PROPERTIES:
-:ID:       thhnddpmplmntngmnfrnw
+:ID:       hnddpmplmntngmnfrnw
 :END:
 *** [#C] [2019-07-07] jeremychurch/FixedContent.js: A mobile-friendly, jQuery plugin that persists sidebar content, nav, etc.
 :PROPERTIES:
-:ID:       snjrmychrchfxdcntntjsmblflgnthtprsstssdbrcntntnvtc
+:ID:       jrmychrchfxdcntntjsmblfrnlgnthtprsstssdbrcntntnvtc
 :END:
 https://github.com/jeremychurch/FixedContent.js
 hmm,that looks interesting. sticky
 *** [#C] [2019-07-07] arkon/ng-sidebar: Angular sidebar component.
 :PROPERTIES:
-:ID:       snrknngsdbrnglrsdbrcmpnnt
+:ID:       rknngsdbrnglrsdbrcmpnnt
 :END:
 https://github.com/arkon/ng-sidebar
 another sidebar, seems ok
 ** TODO [#D] [2019-04-19] ui: Designing a Personal Knowledgebase – A Curious Mix :promnesia:org:
 :PROPERTIES:
-:ID:       frdsgnngprsnlknwldgbscrsmx
+:ID:       dsgnngprsnlknwldgbscrsmx
 :END:
 http://www.acuriousmix.com/2014/09/03/designing-a-personal-knowledgebase
 eh, need to improve rendering of context. look at this link, for instance
 *** [2019-12-26] i guess it was referring to unhighlighted links etc?
 :PROPERTIES:
-:ID:       thgsstwsrfrrngtnhghlghtdlnkstc
+:ID:       gsstwsrfrrngtnhghlghtdlnkstc
 :END:
 * [#B] * github issues
 :PROPERTIES:
@@ -368,11 +368,11 @@ eh, need to improve rendering of context. look at this link, for instance
 :END:
 *** [2019-07-20] more generally, non-invasive? and not sure if ml is necessary for that at all...
 :PROPERTIES:
-:ID:       stmrgnrllynnnvsvndntsrfmlsncssryfrthttll
+:ID:       mrgnrllynnnvsvndntsrfmlsncssryfrthttll
 :END:
 ** STRT [#C] [2020-09-13] [[https://psychonautwiki.org/wiki/Cannabidiol][Cannabidiol - PsychonautWiki]]
 :PROPERTIES:
-:ID:       snspsychntwkrgwkcnnbdlcnnbdlpsychntwk
+:ID:       spsychntwkrgwkcnnbdlcnnbdlpsychntwk
 :END:
 extension works weird on this page w.r.t. scrolling
 ** WAIT [#B] multiple processes
@@ -387,7 +387,7 @@ extension works weird on this page w.r.t. scrolling
 :END:
 *** [2020-11-08] ugh fuck, def useful for indexing code..
 :PROPERTIES:
-:ID:       snghfckdfsflfrndxngcd
+:ID:       ghfckdfsflfrndxngcd
 :END:
 ** TODO [#B] load more if page is scrolled? gonna be tricky...
 :PROPERTIES:
@@ -421,21 +421,21 @@ extension works weird on this page w.r.t. scrolling
 : }
 * STRT [#B] [2020-11-22] extension: twitter is pretty slow & logs are spammy [[https://twitter.com/home][Home / Twitter]]
 :PROPERTIES:
-:ID:       snxtnsntwttrsprttyslwlgsrspmmystwttrcmhmhmtwttr
+:ID:       xtnsntwttrsprttyslwlgsrspmmystwttrcmhmhmtwttr
 :END:
 fuck, seems that twitter updates all the time? when scrolling
 also bindSidebarData (in logs) is quite slow and also logs are spammy
 ** [2020-11-23] ugh, so also impacts 'show this thread'
 :PROPERTIES:
-:ID:       mnghslsmpctsshwthsthrd
+:ID:       ghslsmpctsshwthsthrd
 :END:
 * STRT [#B] [2020-06-07] [[https://github.com/inkandswitch/ksp-browser][inkandswitch/ksp-browser: Connect the things you already know in your browser.]] :pkm:
 :PROPERTIES:
-:ID:       snsgthbcmnkndswtchkspbrwsctththngsylrdyknwnyrbrwsr
+:ID:       sgthbcmnkndswtchkspbrwsrnctththngsylrdyknwnyrbrwsr
 :END:
 ** [2020-09-11] hmm, need to outreach them?
 :PROPERTIES:
-:ID:       frhmmndttrchthm
+:ID:       hmmndttrchthm
 :END:
 
 * TODO [#B] different notions of 'visited'                            :think:
@@ -452,24 +452,24 @@ anothe is visual, i.e. scrape off the links that were on the screen and store (k
 :END:
 ** STRT [2019-07-15] reddit definitely. Slightly harder to motivate backups :reddit:
 :PROPERTIES:
-:ID:       mnrddtdfntlyslghtlyhrdrtmtvtbckps
+:ID:       rddtdfntlyslghtlyhrdrtmtvtbckps
 :END:
 ** [2019-07-15] could integrate with my reddit backup script then? reindexing would trigger backup; seems kinda ok
 :PROPERTIES:
-:ID:       mncldntgrtwthmyrddtbckpscrndxngwldtrggrbckpsmskndk
+:ID:       cldntgrtwthmyrddtbckpscrprndxngwldtrggrbckpsmskndk
 :END:
 ** DONE [2019-08-31] pocket perhaps?
 :PROPERTIES:
-:ID:       stpcktprhps
+:ID:       pcktprhps
 :END:
 ** TODO [#B] [2019-08-31] actually, pinboard; keep one backup in repository to test the extractor or demonstrate json extractor? :pinboard:
 :PROPERTIES:
-:ID:       stctllypnbrdkpnbckpnrpstrthxtrctrrdmnstrtjsnxtrctr
+:ID:       ctllypnbrdkpnbckpnrpstrytthxtrctrrdmnstrtjsnxtrctr
 :END:
 
 * TODO [#B] [2019-12-15] Andy Matuschak on Twitter: "@LiquidTextCorp I'm very excited to try!" :motivation:
 :PROPERTIES:
-:ID:       snndymtschkntwttrlqdtxtcrpmvryxctdttry
+:ID:       ndymtschkntwttrlqdtxtcrpmvryxctdttry
 :END:
 https://twitter.com/andy_matuschak/status/1206055315000528898
 : @andy_matuschak:  @LiquidTextCorp @spiralstairs
@@ -479,22 +479,22 @@ https://twitter.com/andy_matuschak/status/1206055315000528898
 should tweet at Andy Matuschak perhaps?
 * TODO [#B] [2020-03-22] It would be also great if it would work backwards aswell, eg.: "the link I found on twitter last week"
 :PROPERTIES:
-:ID:       sntwldblsgrtftwldwrkbckwrsswllgthlnkfndntwttrlstwk
+:ID:       twldblsgrtftwldwrkbckwrdsswllgthlnkfndntwttrlstwk
 :END:
 https://news.ycombinator.com/threads?id=karlicoss#22657236
 : I love this idea and I would def use it! It would be also great if it would work backwards aswell, eg.: "the link I found on twitter last week"
 ** [2020-05-28] I mean it will once I integrate with the database properly...
 :PROPERTIES:
-:ID:       thmntwllncntgrtwththdtbsprprly
+:ID:       mntwllncntgrtwththdtbsprprly
 :END:
 * STRT [#B] [2020-05-03] [[https://twitter.com/spencerc99/status/1256747294482825216][(7) Spencer Chang on Twitter: "@jborichevskiy @Twitter @Wikipedia @hypothes_is @RoamResearch Love this have been thinking in the same space where the content you consume is linked in-place to the content you (or the people you think are important) curate. Looking forward to seeing where this goes!" / Twitter]] :ui:
 :PROPERTIES:
-:ID:       snstwttrcmspncrcsttsspncrkngfrwrdtsngwhrthsgstwttr
+:ID:       stwttrcmspncrcsttsspncrchkngfrwrdtsngwhrthsgstwttr
 :END:
 : Love this have been thinking in the same space where the content you consume is linked in-place to the content you (or the people you think are important) curate. Looking forward to seeing where this goes!
 * STRT [#B] [2020-05-06] [[https://twitter.com/worldbrain/status/1258031458356277249][WorldBrain.io on Twitter: "We are starting the development of the Memex Reader, an offline-first Pocket-style reader for desktop and mobile + mobile annotations. https://t.co/5lUpNSImFe Is anyone interested in collaborating/contributing to this? We need some more (wo)man power. ❤️" / Twitter]] :worldbrain:
 :PROPERTIES:
-:ID:       wdstwttrcmwrldbrnsttswrldngtthswndsmmrwmnpwr️twttr
+:ID:       stwttrcmwrldbrnsttswrldbrngtthswndsmmrwmnpwr️twttr
 :END:
 : We are starting the development of the Memex Reader, an offline-first Pocket-style reader for desktop and mobile + mobile annotations.
 : https://notion.so/worldbrain/Reader-Web-Archiver-Mobile-Annotations-extension-mobile-4ce4576dd1154f3f87f33eb6830ecebf
@@ -503,7 +503,7 @@ https://news.ycombinator.com/threads?id=karlicoss#22657236
 : We need some more (wo)man power.
 * [#B] [2020-06-22] [[https://twitter.com/worldbrain/status/1275042929845903361][WorldBrain.io on Twitter: "We're working on sharing/collaboration features of Memex and would love to have your input! Watch a quick rundown on some early mockups: https://t.co/brncMElHFr We'd love to have you for a 30-min call to get a grip on your use cases: https://t.co/AT52JajznO" / Twitter]] :worldbrain:social:
 :PROPERTIES:
-:ID:       mnstwttrcmwrldbrnsttswrldgtgrpnyrscssstctjjzntwttr
+:ID:       stwttrcmwrldbrnsttswrldbrgtgrpnyrscssstctjjzntwttr
 :END:
 : We're working on sharing/collaboration features of Memex and would love to have your input!
 : 
@@ -513,7 +513,7 @@ https://news.ycombinator.com/threads?id=karlicoss#22657236
 : We'd love to have you for a 30-min call to get a grip on your use cases:
 * [#B] [2020-06-17] [[https://twitter.com/TrailHub1/status/1273226379757322243][TrailHub on Twitter: "https://t.co/do5RBGjjk4 Ready to give StorexHub a whirl! Take @hypothes_is annotations, and bookmark the pages in memex so that they will show up as a liked page in memex and be indexed Add Page notes to Memex that link to hypothesis annotations https://t.co/SUk55b3ADn https://t.co/QsybMSwHxo" / Twitter]]
 :PROPERTIES:
-:ID:       wdstwttrcmtrlhbsttstrlhbnstcskbdnstcqsybmswhxtwttr
+:ID:       stwttrcmtrlhbsttstrlhbntwstcskbdnstcqsybmswhxtwttr
 :END:
 : Ready to give StorexHub a whirl!
 : Take @hypothes_is
@@ -521,7 +521,7 @@ https://news.ycombinator.com/threads?id=karlicoss#22657236
 : Add Page notes to Memex that link to hypothesis annotations
 * STRT [#B] [2020-03-21] westoncb/mymex
 :PROPERTIES:
-:ID:       stwstncbmymx
+:ID:       wstncbmymx
 :END:
 https://github.com/westoncb/mymex
 : Mymex[0] is an application designed for quick retreival of information from a variety of (web/local) data sources. One of its main goals is to make pieces of information located on the web easier and more reliable to return to. It does this by:
@@ -547,7 +547,7 @@ https://github.com/westoncb/mymex
 :END:
 * STRT [#B] [2020-02-11] mek.fyi | Home
 :PROPERTIES:
-:ID:       tmkfyhm
+:ID:       mkfyhm
 :END:
 https://mek.fyi/#about-me
 : Historia (Provenance) #chrome-extension
@@ -555,7 +555,7 @@ https://mek.fyi/#about-me
 fuck me! Some very similar goals
 ** [2020-11-19] tweet at Mek after releasing new version?
 :PROPERTIES:
-:ID:       thtwttmkftrrlsngnwvrsn
+:ID:       twttmkftrrlsngnwvrsn
 :END:
 * TODO [#B] demo: post again on /r/orgmode? with demos of highlights/translusion/backreferences?
 :PROPERTIES:
@@ -564,12 +564,12 @@ fuck me! Some very similar goals
 :END:
 * TODO [#B] [2020-11-19] demo: [[https://www.youtube.com/feed/subscriptions][good demo for mark visited Subscriptions - YouTube]]
 :PROPERTIES:
-:ID:       thdmswwwytbcmfdsbscrptnsgddmfrmrkvstdsbscrptnsytb
+:ID:       dmswwwytbcmfdsbscrptnsgddmfrmrkvstdsbscrptnsytb
 :END:
 this would be a good demo for 'mark visited'
 * TODO [#A] [2020-11-17] usecase: [[https://news.ycombinator.com/newest?next=25125588&n=31][New Links | Hacker News]]
 :PROPERTIES:
-:ID:       tscssnwsycmbntrcmnwstnxtnnwlnkshckrnws
+:ID:       scssnwsycmbntrcmnwstnxtnnwlnkshckrnws
 :END:
 I think I've figured out how to read hackernews 'new' page
 
@@ -607,25 +607,25 @@ I think I've figured out how to read hackernews 'new' page
 :END:
 * STRT [#C] [2020-11-21] control logging in content scripts
 :PROPERTIES:
-:ID:       stcntrllggngncntntscrpts
+:ID:       cntrllggngncntntscrpts
 :END:
 : Installed it and it seemed to work! But it was spammy in the console and I'm doing webdev, so I had to uninstall it. Would reinstall if you could silence the debug stuff
 
 ugh fuck
 * TODO [#C] [2019-07-08] testing: unitest/History at master · scriptmasters/unitest :hpi:jdoe:
 :PROPERTIES:
-:ID:       mntstngntsthstrytmstrscrptmstrsntst
+:ID:       tstngntsthstrytmstrscrptmstrsntst
 :END:
 https://github.com/scriptmasters/unitest/blob/master/%7E/.e2e-chrome-profile/Default/History
 
 * STRT [#C] [2019-11-22] highlight: https://news.ycombinator.com/item?id=21403294
 :PROPERTIES:
-:ID:       frhghlghtsnwsycmbntrcmtmd
+:ID:       hghlghtsnwsycmbntrcmtmd
 :END:
 if 'most' of page matches, then highlight is prob. wrong?
 ** [2019-12-27] I guess if I show it on HN, better get it right
 :PROPERTIES:
-:ID:       frgssfshwtnhnbttrgttrght
+:ID:       gssfshwtnhnbttrgttrght
 :END:
 
 * TODO [#C] test: for the end2end test, run it against a database indexed with an older (PIP) version
@@ -635,7 +635,7 @@ if 'most' of page matches, then highlight is prob. wrong?
 :END:
 ** [2020-11-19] actually not super important; in most cases database is overwritten
 :PROPERTIES:
-:ID:       thctllyntsprmprtntnmstcssdtbssvrwrttn
+:ID:       ctllyntsprmprtntnmstcssdtbssvrwrttn
 :END:
 * STRT [#C] docs: make sure it's possible to run merely by creading config, then index, then serve
 :PROPERTIES:
@@ -656,7 +656,7 @@ test it on a fresh docker
 :END:
 * [#C] [2020-05-11] [[https://twitter.com/sir_deenicus/status/1259792881679818752][deen-chan on Twitter: "@ajflores1604 @karlicoss @jborichevskiy I've implemented this (augmented sidebar) and it's quite hard to come up with something that works well for all sites. You quickly run into sites which don't reflow, assuming a certain layout. But that was years ago. Responsive design is a lot more common these days so might work" / Twitter]]
 :PROPERTIES:
-:ID:       mnstwttrcmsrdncssttsdnchnmrcmmnthsdyssmghtwrktwttr
+:ID:       stwttrcmsrdncssttsdnchnntmrcmmnthsdyssmghtwrktwttr
 :END:
 : deen-chan
 : @sir_deenicus
@@ -669,12 +669,12 @@ test it on a fresh docker
 : I've implemented this (augmented sidebar) and it's quite hard to come up with something that works well for all sites. You quickly run into sites which don't reflow, assuming a certain layout. But that was years ago. Responsive design is a lot more common these days so might work
 * TODO [#C] [2020-07-05] [[https://filemagic.readthedocs.io/en/latest/guide.html][Guide to using filemagic — filemagic 1.6 documentation]]
 :PROPERTIES:
-:ID:       snsflmgcrdthdcsnltstgdhtmlgdtsngflmgcflmgcdcmnttn
+:ID:       sflmgcrdthdcsnltstgdhtmlgdtsngflmgcflmgcdcmnttn
 :END:
 : Before installing filemagic, the libmagic library will need to be availabile. To test this is the check for the presence of the file command and/or the libmagic man page.
 * TODO [#C] [2020-05-20] [[https://news.ycombinator.com/item?id=23230915][I remember using this software last time, it is wayyyy~ too buggy, it stalls, cr... | Hacker News]] :promnesia:worldbrain:
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdrmmbrsnwyyyytbggytstllscrhckrnws
+:ID:       snwsycmbntrcmtmdrmmbrsngtwyyyytbggytstllscrhckrnws
 :END:
 : I remember using this software last time, it is wayyyy~ too buggy, it stalls, crashes, and slows down the browser. Also that import feature is actually crawling the site, beware if you are using a proxy or something with rate limit.
 * TODO [#C] fucking hell. figure out how to fix version exposed during the adhoc install....
@@ -684,22 +684,22 @@ test it on a fresh docker
 :END:
 * STRT [#C] [2019-12-12] demo: Digital Tools I Wish Existed :: Up and to the Right — Jonathan Borichevskiy
 :PROPERTIES:
-:ID:       thdmdgtltlswshxstdpndtthrghtjnthnbrchvsky
+:ID:       dmdgtltlswshxstdpndtthrghtjnthnbrchvsky
 :END:
 https://jborichevskiy.com/posts/digital-tools
 potentially good example of highlights
 also they don't look quite well in dark mode?
 ** STRT [2020-03-28] maybe make a screenshot out of it?
 :PROPERTIES:
-:ID:       stmybmkscrnshttft
+:ID:       mybmkscrnshttft
 :END:
 * TODO [#C] [2020-05-20] [[https://thinkingtools.space/t/introduce-yourself/16][Introduce Yourself - Thinking Tools]] :social:publish:promnesia:
 :PROPERTIES:
-:ID:       wdsthnkngtlsspctntrdcyrslfntrdcyrslfthnkngtls
+:ID:       sthnkngtlsspctntrdcyrslfntrdcyrslfthnkngtls
 :END:
 * TODO [#C] [2020-04-29] integrate in Memex?                     :worldbrain:
 :PROPERTIES:
-:ID:       wdntgrtnmmx
+:ID:       ntgrtnmmx
 :END:
 
 * STRT [#C] post automatic demo gifs                                :publish:
@@ -719,16 +719,16 @@ also they don't look quite well in dark mode?
 :END:
 ** [2020-05-21] or ~editor://~ ??
 :PROPERTIES:
-:ID:       thrdtr
+:ID:       rdtr
 :END:
 ** [2020-05-29] ok, so it seems that emacs:/// works and is backwards compatible, which is kinda good news
 :PROPERTIES:
-:ID:       frkstsmsthtmcswrksndsbckwrdscmptblwhchskndgdnws
+:ID:       kstsmsthtmcswrksndsbckwrdscmptblwhchskndgdnws
 :END:
 for editor, could set it up as mime type? dunno.
 *** [2020-05-30] right. so I guess I know what to do
 :PROPERTIES:
-:ID:       strghtsgssknwwhttd
+:ID:       rghtsgssknwwhttd
 :END:
 - During the indexing, detect either. If detected emacs:, then warn about deprecation and suggest to remove
   Need to think how to accumulate indexing warnings and show in the end... but later I guess
@@ -737,15 +737,15 @@ for editor, could set it up as mime type? dunno.
   Version it!
 ** TODO [#B] [2020-05-29] could add to doctor?
 :PROPERTIES:
-:ID:       frcldddtdctr
+:ID:       cldddtdctr
 :END:
 ** [2020-11-01] maybe mimes should be configured & tested in the frontend? could add to the extension troubleshooting page
 :PROPERTIES:
-:ID:       snmybmmsshldbcnfgrdtstdntdcldddtthxtnsntrblshtngpg
+:ID:       mybmmsshldbcnfgrdtstdnthfdcldddtthxtnsntrblshtngpg
 :END:
 * TODO [#C] [2019-12-08] motivation:
 :PROPERTIES:
-:ID:       snmtvtn
+:ID:       mtvtn
 :END:
 https://news.ycombinator.com/threads?id=grblovrflowerrr&next=17598881
 : j2kun on June 1, 2018 [-]
@@ -760,7 +760,7 @@ also use some guessing magic to quickly disable it? could test on https://pinboa
 or just hide stuff that linked more than once on the page?
 ** TODO [2020-05-16] hmm, make sure visited marker/css is tweakable? I suppose it needs to be in the 'main', sidebar section. confusing...
 :PROPERTIES:
-:ID:       sthmmmksrvstdmrkrcssstwkbtndstbnthmnsdbrsctncnfsng
+:ID:       hmmmksrvstdmrkrcssstwkblstndstbnthmnsdbrsctncnfsng
 :END:
 if I make marker larger instead and the same color as links, it might be easier to filter out visually?
 : proromnesia-visited::after {
@@ -784,7 +784,7 @@ border actually works quite well!
 this isn't supper pretty, but enough to visually glance and notice
 *** DONE [#A] [2020-05-16] post about it -- why don't we abuse a human brain which is much better at pattern recognition than computers (so far)
 :PROPERTIES:
-:ID:       stpstbttwhydntwbshmnbrnwhrtpttrnrcgntnthncmptrssfr
+:ID:       pstbttwhydntwbshmnbrnwhchrtpttrnrcgntnthncmptrssfr
 :END:
 
 * WAIT [#C] publish packed zips in releases; assemble automatically on ci :ci:webext:promnesia:
@@ -799,11 +799,11 @@ this isn't supper pretty, but enough to visually glance and notice
 :END:
 ** [2020-05-14] actually I might need it later.. if I populate them from #arbtt
 :PROPERTIES:
-:ID:       thctllymghtndtltrfppltthmfrmrbtt
+:ID:       ctllymghtndtltrfppltthmfrmrbtt
 :END:
 * [#C] [2020-01-13] usecase: l3kn/org-fc: Spaced Repetition System for Emacs org-mode
 :PROPERTIES:
-:ID:       mnscslknrgfcspcdrpttnsystmfrmcsrgmd
+:ID:       scslknrgfcspcdrpttnsystmfrmcsrgmd
 :END:
 https://github.com/l3kn/org-fc
 : drill
@@ -811,35 +811,35 @@ https://github.com/l3kn/org-fc
 very nice, apparently ran into that guy on merveilles and was able to track it in search!
 * TODO [#C] [2019-11-01] ui: Shtetl-Optimized » 2016 » April
 :PROPERTIES:
-:ID:       frshttlptmzdprl
+:ID:       shttlptmzdprl
 :END:
 https://www.scottaaronson.com/blog/?m=201604
 maybe, make the notification more subtle?
 ** [2019-11-04] allow to be configured via CSS
 :PROPERTIES:
-:ID:       mnllwtbcnfgrdvcss
+:ID:       llwtbcnfgrdvcss
 :END:
 *** TODO [2019-11-04] how to automate it actually?
 :PROPERTIES:
-:ID:       mnhwttmttctlly
+:ID:       hwttmttctlly
 :END:
 * STRT [#C] [2019-11-09] bug: Introduction - Everything I know
 :PROPERTIES:
-:ID:       stbgntrdctnvrythngknw
+:ID:       bgntrdctnvrythngknw
 :END:
 https://wiki.nikitavoloboev.xyz/?q=gree
 constantly reloads on this page :(
 ** [2019-11-12] eh. fair enough, it's changing URL. Not sure if there is much that can be done?
 :PROPERTIES:
-:ID:       thfrnghtschngngrlntsrfthrsmchthtcnbdn
+:ID:       hfrnghtschngngrlntsrfthrsmchthtcnbdn
 :END:
 *** [2019-12-25] except if cannon works clientside. Ugh!
 :PROPERTIES:
-:ID:       wdxcptfcnnnwrksclntsdgh
+:ID:       xcptfcnnnwrksclntsdgh
 :END:
 ** [2019-12-07] can be solved temporarily with proper blacklisting
 :PROPERTIES:
-:ID:       stcnbslvdtmprrlywthprprblcklstng
+:ID:       cnbslvdtmprrlywthprprblcklstng
 :END:
 
 * STRT [#C] be less annoying about errors.. not sure how though      :errors:
@@ -849,15 +849,15 @@ constantly reloads on this page :(
 :END:
 ** [2019-08-31] just implement different options for notifications?
 :PROPERTIES:
-:ID:       stjstmplmntdffrntptnsfrntfctns
+:ID:       jstmplmntdffrntptnsfrntfctns
 :END:
 ** [2019-09-01] quick option do disable/enable notifications; later find some generic component to snooze them?
 :PROPERTIES:
-:ID:       snqckptnddsblnblntfctnsltrfndsmgnrccmpnnttsnzthm
+:ID:       qckptnddsblnblntfctnsltrfndsmgnrccmpnnttsnzthm
 :END:
 *** [2019-09-09] yeah, I guess they'd be ok on sidebar? Basically, make sure sidebar _always_ slides since it's convenient for settings, access to search etc.
 :PROPERTIES:
-:ID:       mnyhgssthydbknsdbrbscllymcnvnntfrsttngsccsstsrchtc
+:ID:       yhgssthydbknsdbrbscllymkscnvnntfrsttngsccsstsrchtc
 :END:
 
 * TODO [#C] Def need way to make it less spammy on network errors on phone. System wide notification is too much :errors:
@@ -877,28 +877,28 @@ constantly reloads on this page :(
 :END:
 * STRT [#C] [2019-08-29] mozilla/webextension-polyfill: A lightweight polyfill library for Promise-based WebExtension APIs in Chrome :webext:
 :PROPERTIES:
-:ID:       thmzllwbxtnsnplyflllghtwgryfrprmsbsdwbxtnsnpsnchrm
+:ID:       mzllwbxtnsnplyflllghtwghtryfrprmsbsdwbxtnsnpsnchrm
 :END:
 https://github.com/mozilla/webextension-polyfill
 Use this thing?
 * STRT [#C] [2019-09-10] handle when pages aren't available better
 :PROPERTIES:
-:ID:       thndlwhnpgsrntvlblbttr
+:ID:       hndlwhnpgsrntvlblbttr
 :END:
 https://tuxspace.net/@Qwxlea
 check when pages are not available...
 ** [2019-09-23] need to implement at least popup
 :PROPERTIES:
-:ID:       mnndtmplmnttlstppp
+:ID:       ndtmplmnttlstppp
 :END:
 * TODO [#C] [2019-09-05] lukeed/tinydate: A tiny (349B) reusable date formatter. Extremely fast! :datetime:js:
 :PROPERTIES:
-:ID:       thlkdtnydttnybrsbldtfrmttrxtrmlyfst
+:ID:       lkdtnydttnybrsbldtfrmttrxtrmlyfst
 :END:
 https://github.com/lukeed/tinydate
 * [#C] [2019-07-14] Surprisingly Turing-Complete - Gwern.net
 :PROPERTIES:
-:ID:       snsrprsnglytrngcmpltgwrnnt
+:ID:       srprsnglytrngcmpltgwrnnt
 :END:
 https://www.gwern.net/Turing-complete#on-seeing-through-and-unseeing
 anchors are good examples of 'direct' visits and siblings?
@@ -909,7 +909,7 @@ anchors are good examples of 'direct' visits and siblings?
 :END:
 ** [2019-07-22] search kind of contributes towards that
 :PROPERTIES:
-:ID:       mnsrchkndfcntrbtstwrdstht
+:ID:       srchkndfcntrbtstwrdstht
 :END:
 * STRT [#C] stuff in database seems to be unnormalised (e.g. case). need some sort of checker ... :cannon:togithub:
 :PROPERTIES:
@@ -918,7 +918,7 @@ anchors are good examples of 'direct' visits and siblings?
 :END:
 ** DONE [2019-06-16] hmm, do that I guess  sqlite3 visits.sqlite "select norm_url,tag from visits where norm_url LIKE '%usg%'"
 :PROPERTIES:
-:ID:       snhmmdthtgsssqltvstssqltsrmrltgfrmvstswhrnrmrllksg
+:ID:       hmmdthtgsssqltvstssqltslcrmrltgfrmvstswhrnrmrllksg
 :END:
 * STRT [#C] useful to populate from old backups (e.g pinboard) in case I delete articles/bookmarks :motivation:promnesia:
 :PROPERTIES:
@@ -953,11 +953,11 @@ anchors are good examples of 'direct' visits and siblings?
 :END:
 ** [2019-06-02] use chrome from_visit?
 :PROPERTIES:
-:ID:       snschrmfrmvst
+:ID:       schrmfrmvst
 :END:
 ** [2021-01-20] search basically does this
 :PROPERTIES:
-:ID:       wdsrchbscllydsths
+:ID:       srchbscllydsths
 :END:
 * TODO [#C] need some thing which normalises and merges messages? or maybe just disregard duplicate links from old and new backups... :backup:telegram:promnesia:
 :PROPERTIES:
@@ -971,7 +971,7 @@ anchors are good examples of 'direct' visits and siblings?
 :END:
 ** [2019-07-31] I guess I meant from plaintext search
 :PROPERTIES:
-:ID:       wdgssmntfrmplntxtsrch
+:ID:       gssmntfrmplntxtsrch
 :END:
 * TODO [#C] publish: /r/dataisbeautiful post my visited urls stats?
 :PROPERTIES:
@@ -989,7 +989,7 @@ https://twitter.com/gwern/status/1104879445368864773
 
 * [#C] [2019-04-15] Pinboard: bookmarks for tswaterman tagged 'math'
 :PROPERTIES:
-:ID:       mnpnbrdbkmrksfrtswtrmntggdmth
+:ID:       pnbrdbkmrksfrtswtrmntggdmth
 :END:
 https://pinboard.in/u:tswaterman/t:math/
 I definitely need to integrate promnesia crawling with webpages backups, that way I'd have way more context
@@ -1046,7 +1046,7 @@ Example a complete guide for tagging
 :END:
 ** [2019-07-14] could be useful if we can extract URL; but encountered some issues while extracting context etc; could emit both visit and error
 :PROPERTIES:
-:ID:       sncldbsflfwcnxtrctrlbtncnngcntxttccldmtbthvstndrrr
+:ID:       cldbsflfwcnxtrctrlbtncntrngcntxttccldmtbthvstndrrr
 :END:
 * STRT [#C] not sure, maybe I should just use native async/await? Most mobile and desktop browsers support it
 :PROPERTIES:
@@ -1055,7 +1055,7 @@ Example a complete guide for tagging
 :END:
 ** [2019-07-15] generally figure out how much can I get away with using modern JS as opposed to webpacked
 :PROPERTIES:
-:ID:       mngnrllyfgrthwmchcngtwywthsngmdrnjssppsdtwbpckd
+:ID:       gnrllyfgrthwmchcngtwywthsngmdrnjssppsdtwbpckd
 :END:
 also def worth it for debugging and developing
 * TODO [#C] go through existing urls and try to normalise them?  :webarchive:
@@ -1072,20 +1072,20 @@ switching frames works fine on https://web.hypothes.is/blog/annotation-is-now-a-
 though
 ** [2019-07-07] shit. ok, so chrome experiment confirms that it just doesn't work for extensions.
 :PROPERTIES:
-:ID:       snshtkschrmxprmntcnfrmsthttjstdsntwrkfrxtnsns
+:ID:       shtkschrmxprmntcnfrmsthttjstdsntwrkfrxtnsns
 :END:
 ** [2019-07-07] shit. do I need bookmarklet or what???
 :PROPERTIES:
-:ID:       snshtdndbkmrkltrwht
+:ID:       shtdndbkmrkltrwht
 :END:
 * [#C] [2019-07-08] Search · filename:places.sqlite https://github.com/search?p=2&q=filename%3Aplaces.sqlite&type=Code
 :PROPERTIES:
-:ID:       mnsrchflnmplcssqltsgthbcmsrchpqflnmplcssqlttypcd
+:ID:       srchflnmplcssqltsgthbcmsrchpqflnmplcssqlttypcd
 :END:
 
 * TODO [#C] [2019-07-14] mitchellkrogza/Ultimate.Hosts.Blacklist: The Ultimate Unified Hosts file for protecting your network, computer, smartphones and Wi-Fi devices against millions of bad web sites. Protect your children and family from gaining access to bad web sites and protect your devices and pc from being infected with Malware or Ransomware.
 :PROPERTIES:
-:ID:       snmtchllkrgzltmthstsblcklfrmbngnfctdwthmlwrrrnsmwr
+:ID:       mtchllkrgzltmthstsblcklstfrmbngnfctdwthmlwrrrnsmwr
 :END:
 https://github.com/mitchellkrogza/Ultimate.Hosts.Blacklist
 
@@ -1096,20 +1096,20 @@ https://github.com/mitchellkrogza/Ultimate.Hosts.Blacklist
 :END:
 * [#C] [2019-03-08] motivation: Nikita Lisitsa on Twitter: "@_bravit У меня так на stackoverflow / math.stackexchange бывает. Ищу ответ на вопрос, нахожу, читаю, ставлю лайк - "вы не можете поставить лайк своему собственному посту"." / Twitter :promnesia:
 :PROPERTIES:
-:ID:       frmtvtnnktlstsntwttrbrvtуемусобственномупостуtwttr
+:ID:       mtvtnnktlstsntwttrbrvtумеемусобственномупостуtwttr
 :END:
 https://twitter.com/lisyarus/status/1104104035588755457
 
 * [#C] [2019-07-08] Does Firefox ship with a new default for "history expires after..."? - Super User
 :PROPERTIES:
-:ID:       mndsfrfxshpwthnwdfltfrhstryxprsftrsprsr
+:ID:       dsfrfxshpwthnwdfltfrhstryxprsftrsprsr
 :END:
 https://superuser.com/questions/1114637/does-firefox-ship-with-a-new-default-for-history-expires-after
 : places.history.expiration.max_pages is maximum number of pages that are retained before pages are expired.
 : I had system disk fil
 ** [#C] [2019-07-08] Does Firefox ship with a new default for "history expires after..."? - Super User
 :PROPERTIES:
-:ID:       mndsfrfxshpwthnwdfltfrhstryxprsftrsprsr
+:ID:       dsfrfxshpwthnwdfltfrhstryxprsftrsprsr
 :END:
 https://superuser.com/questions/1114637/does-firefox-ship-with-a-new-default-for-history-expires-after
 : Workaround
@@ -1122,7 +1122,7 @@ https://superuser.com/questions/1114637/does-firefox-ship-with-a-new-default-for
 :END:
 * TODO [#C] [2019-07-23] demo: Best Mangal Bar & Kitchen delivery from Farringdon - Order with Deliveroo
 :PROPERTIES:
-:ID:       tdmbstmnglbrktchndlvryfrmfrrngdnrdrwthdlvr
+:ID:       dmbstmnglbrktchndlvryfrmfrrngdnrdrwthdlvr
 :END:
 https://deliveroo.co.uk/menu/london/farringdon/best-mangal-farringdon
 allow breaking down important and unimportant schema parts from extensions?
@@ -1148,7 +1148,7 @@ allow breaking down important and unimportant schema parts from extensions?
 :END:
 ** [2019-08-01] ??
 :PROPERTIES:
-:ID:       th
+:ID:       41391_41420
 :END:
 * TODO [#C] open in new tab from search?
 :PROPERTIES:
@@ -1177,7 +1177,7 @@ allow breaking down important and unimportant schema parts from extensions?
 :END:
 ** [2020-04-28] I guess this is possible judging by greasemonkey
 :PROPERTIES:
-:ID:       tgssthsspssbljdgngbygrsmnky
+:ID:       gssthsspssbljdgngbygrsmnky
 :END:
 * TODO [#C] could expand the grouped things on grey area press? :promnesia:togithub:
 :PROPERTIES:
@@ -1191,7 +1191,7 @@ allow breaking down important and unimportant schema parts from extensions?
 :END:
 ** [2019-12-26] eh?
 :PROPERTIES:
-:ID:       thh
+:ID:       h
 :END:
 * TODO [#C] moz-extension://b966cab9-aded-44e8-b116-a900ab825442/search.html?timestamp=1561844122.151
 :PROPERTIES:
@@ -1227,7 +1227,7 @@ ugh. some have both media and secure_media??
 :END:
 * TODO [#C] [2019-08-31] uBlock/manifest.json at 6c34b3c3c96756b6db7ff2f3a0394472d81cde3e · gorhill/uBlock :webext:
 :PROPERTIES:
-:ID:       stblckmnfstjsntcbccbdbfffdcdgrhllblck
+:ID:       blckmnfstjsntcbccbdbfffdcdgrhllblck
 :END:
 https://github.com/gorhill/uBlock/blob/6c34b3c3c96756b6db7ff2f3a0394472d81cde3e/platform/webext/manifest.json
 :  "optional_permissions": [
@@ -1246,11 +1246,11 @@ https://github.com/gorhill/uBlock/blob/6c34b3c3c96756b6db7ff2f3a0394472d81cde3e/
 in debugger looks like code just starts running at     for (const action of (await actions()))
 ** [2019-09-22] doesn't seem to do with hacky injector backed initialization either. odd
 :PROPERTIES:
-:ID:       sndsntsmtdwthhckynjctrbckdntlztnthrdd
+:ID:       dsntsmtdwthhckynjctrbckdntlztnthrdd
 :END:
 ** [2019-09-22] also only happens in firefox, apparently...
 :PROPERTIES:
-:ID:       snlsnlyhppnsnfrfxpprntly
+:ID:       lsnlyhppnsnfrfxpprntly
 :END:
 * TODO [#C] https://slatestarcodex.com/2014/03/17/what-universal-human-experiences-are-you-missing-without-realizing-it/
 :PROPERTIES:
@@ -1260,7 +1260,7 @@ in debugger looks like code just starts running at     for (const action of (awa
 looks like some visits duplicate; and also they aren't grouped
 * TODO [#C] [2019-07-30] hmm it triggers on clicking anchors. not sure it's a good idea? also add to end2end tests
 :PROPERTIES:
-:ID:       thmmttrggrsnclckngnchrsntsrtsgddlsddtndndtsts
+:ID:       hmmttrggrsnclckngnchrsntsrtsgddlsddtndndtsts
 :END:
 https://beepb00p.xyz/annotating.html#org000001b
 
@@ -1271,7 +1271,7 @@ https://beepb00p.xyz/annotating.html#org000001b
 :END:
 * TODO [#C] [2019-09-09] test: fabianonline/telegram_backup: Java app to download all your telegram data.
 :PROPERTIES:
-:ID:       mntstfbnnlntlgrmbckpjvpptdwnldllyrtlgrmdt
+:ID:       tstfbnnlntlgrmbckpjvpptdwnldllyrtlgrmdt
 :END:
 https://github.com/fabianonline/telegram_backup
 : fabianonline/telegram_backup
@@ -1309,7 +1309,7 @@ clicking on title causes page reloading, also shows notification etc. a bit spam
 :END:
 * STRT [#C] [2019-10-19] Re: [fregante/webext-options-sync] Race condition in OptionsSync constructor
 :PROPERTIES:
-:ID:       strfrgntwbxtptnssyncrccndtnnptnssynccnstrctr
+:ID:       rfrgntwbxtptnssyncrccndtnnptnssynccnstrctr
 :END:
 
 * STRT [#C] Highlight blacklisted and paywalled websites
@@ -1320,12 +1320,12 @@ clicking on title causes page reloading, also shows notification etc. a bit spam
 Like ft, technology review
 ** [2020-11-19] with mark visited it's much easier now.. could even have a special source and apply special style to them?
 :PROPERTIES:
-:ID:       thwthmrkvstdtsmchsrnwcldvspclsrcndpplyspclstyltthm
+:ID:       wthmrkvstdtsmchsrnwcldvnhspclsrcndpplyspclstyltthm
 :END:
 
 * STRT [#C] [2019-11-04] performance: vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources
 :PROPERTIES:
-:ID:       mnprfrmncvntwsmpythncrtdlnfrmwrkslbrrssftwrndrsrcs
+:ID:       prfrmncvntwsmpythncrtdlstnfrmwrkslbrrssftwrndrsrcs
 :END:
 https://github.com/vinta/awesome-python
 : Loggi
@@ -1333,11 +1333,11 @@ https://github.com/vinta/awesome-python
 pretty slow on thins page... I guess highlights
 ** [2020-11-14] hmm, now it's fine but it highlights a bit too much info? not sure what to do about the fragment normalisation...
 :PROPERTIES:
-:ID:       sthmmnwtsfnbtthghlghtsbtttsrwhttdbtthfrgmntnrmlstn
+:ID:       hmmnwtsfnbtthghlghtsbttmctsrwhttdbtthfrgmntnrmlstn
 :END:
 * TODO [#C] [2019-11-04] promnesia/hypothesis.py at master · karlicoss/promnesia
 :PROPERTIES:
-:ID:       mnprmnshypthsspytmstrkrlcssprmns
+:ID:       prmnshypthsspytmstrkrlcssprmns
 :END:
 https://github.com/karlicoss/promnesia/blob/master/src/promnesia/indexers/hypothesis.py
 :     # TODO what I really need is my hypothesis provider... is it possible to share somehow?
@@ -1346,7 +1346,7 @@ https://github.com/karlicoss/promnesia/blob/master/src/promnesia/indexers/hypoth
 I think I need to figure out how to make them standalone basically? Need some sort of defensive policy for dependencies?
 * TODO [#C] [2019-11-09] On todo lists | Mildly entertainingᵝ
 :PROPERTIES:
-:ID:       stntdlstsmldlyntrtnngᵝ
+:ID:       ntdlstsmldlyntrtnngᵝ
 :END:
 http://127.0.0.1:8000/pkm-todos.html
 bindSidebarData fails on quick refresh
@@ -1362,7 +1362,7 @@ bindSidebarData fails on quick refresh
 https://twitter.com/WillManidis/status/1199337719295381509
 ** [2019-12-26] ugh, tweet is gone??
 :PROPERTIES:
-:ID:       thghtwtsgn
+:ID:       ghtwtsgn
 :END:
 
 * TODO [#C] ui, phone: don't really have to tweak body? as it's easy to hide/show sidebar :promnesia:togithub:
@@ -1402,7 +1402,7 @@ but why did I follow them in the first place, there must have been good reason?
 e.g. how did I get here?? https://mortoray.com/2019/06/11/a-failed-experiment-with-python-type-annotations/
 * TODO [#C] [2019-12-15] bug: Теория вычислимости — Викиконспекты
 :PROPERTIES:
-:ID:       snbgтеориявычислимостивикиконспекты
+:ID:       bgтеориявычислимостивикиконспекты
 :END:
 http://neerc.ifmo.ru/wiki/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8
 not sure, shouldn't show popup on every transition... have a timer or something?
@@ -1442,7 +1442,7 @@ not sure, shouldn't show popup on every transition... have a timer or something?
 
 * TODO [#C] [2020-01-25] Robot&AIWorld on Twitter: "Here's more footage of MIT's Mini Cheetahs cavorting, frolicking, back-flipping, playing soccer and generally acting fun and cute, courtesy of the Biomimetic Robotics Lab @MITMechE  https://t.co/8ZQzDvCDVW" / Twitter
 :PROPERTIES:
-:ID:       strbtwrldntwttrhrsmrftgfmslbmtmchstczqzdvcdvwtwttr
+:ID:       rbtwrldntwttrhrsmrftgfmtsslbmtmchstczqzdvcdvwtwttr
 :END:
 https://twitter.com/RobotAndAIWorld/status/1192429991813881856
 should be handled, I liked/RTd it on twitter
@@ -1453,7 +1453,7 @@ should be handled, I liked/RTd it on twitter
 :END:
 ** [2021-01-20] this should really be easier...
 :PROPERTIES:
-:ID:       wdthsshldrllybsr
+:ID:       thsshldrllybsr
 :END:
 
 * TODO [#C] shit, google docs trigger a lot of reloads.. really should debounce
@@ -1479,13 +1479,13 @@ should be handled, I liked/RTd it on twitter
 www.services.online-banking.hsbc.co.uk
 * TODO [#C] [2019-12-27] Adventures in WhatsApp DB — extracting messages from backups (with code examples) :promnesia:whatsapp:
 :PROPERTIES:
-:ID:       frdvntrsnwhtsppdbxtrctngmssgsfrmbckpswthcdxmpls
+:ID:       dvntrsnwhtsppdbxtrctngmssgsfrmbckpswthcdxmpls
 :END:
 https://medium.com/@1522933668924/extracting-whatsapp-messages-from-backups-with-code-examples-49186de94ab4
 wow, someone managed to get whatsapp export working?
 * [#C] [2019-12-30] What am I meditating for? In Pursuit of A Definition of Meditation - Mark Koester
 :PROPERTIES:
-:ID:       mnwhtmmdttngfrnprstfdfntnfmdttnmrkkstr
+:ID:       whtmmdttngfrnprstfdfntnfmdttnmrkkstr
 :END:
 http://www.markwk.com/what-is-meditation.html
 Highlight domain differently?
@@ -1503,7 +1503,7 @@ https://webpack.js.org/guides/code-splitting/
 e.g. if the page is updated in the background (e.g. youtube video), do we want to refresh promnesia stats? although it's basically only limited to youtube
 ** [2020-02-15] maybe instead I could simply check last requested url on tab switch?
 :PROPERTIES:
-:ID:       stmybnstdcldsmplychcklstrqstdrlntbswtch
+:ID:       mybnstdcldsmplychcklstrqstdrlntbswtch
 :END:
 * TODO [#C] ok, I guess I could make "tabs" an optional permission; by default only request stuff via click on a popup (that requires 'activeTab'?)
 :PROPERTIES:
@@ -1517,7 +1517,7 @@ e.g. if the page is updated in the background (e.g. youtube video), do we want t
 
 * STRT [#C] [2019-08-10] right, chrome doesn't support android extensions. could use bookmarklet or something?? https://stackoverflow.com/a/10606887/706389
 :PROPERTIES:
-:ID:       strghtchrmdsntspprtndrdxtkmrkltrsmthngsstckvrflwcm
+:ID:       rghtchrmdsntspprtndrdxtnskmrkltrsmthngsstckvrflwcm
 :END:
 * STRT [#C] as a docker app?
 :PROPERTIES:
@@ -1551,7 +1551,7 @@ e.g. if the page is updated in the background (e.g. youtube video), do we want t
 :END:
 * STRT [#C] [2019-12-05] Erik Torenberg (@eriktorenberg) / Twitter :motivation:demo:
 :PROPERTIES:
-:ID:       thrktrnbrgrktrnbrgtwttr
+:ID:       rktrnbrgrktrnbrgtwttr
 :END:
 https://twitter.com/eriktorenberg
 ran into twitter account recommendation (by michael nielsen, clicked it, found out I've already got few liked tweets by that guy
@@ -1568,12 +1568,12 @@ ran into twitter account recommendation (by michael nielsen, clicked it, found o
 :END:
 * TODO [#C] [2020-01-25] hyperhype/hyperscript: Create HyperText with JavaScript.
 :PROPERTIES:
-:ID:       sthyprhyphyprscrptcrthyprtxtwthjvscrpt
+:ID:       hyprhyphyprscrptcrthyprtxtwthjvscrpt
 :END:
 https://github.com/hyperhype/hyperscript
 * TODO [#C] [2020-03-30] Troubleshoot extensions, themes and hardware acceleration issues to solve common Firefox problems | Firefox Help :webext:
 :PROPERTIES:
-:ID:       mntrblshtxtnsnsthmsndhrdwtslvcmmnfrfxprblmsfrfxhlp
+:ID:       trblshtxtnsnsthmsndhrdwrctslvcmmnfrfxprblmsfrfxhlp
 :END:
 https://support.mozilla.org/en-US/kb/troubleshoot-extensions-themes-to-fix-problems#w_checking-extension-settings
 
@@ -1615,7 +1615,7 @@ https://support.mozilla.org/en-US/kb/troubleshoot-extensions-themes-to-fix-probl
 :END:
 * [#C] [2020-04-07] usecase: Idle Words https://idlewords.com/
 :PROPERTIES:
-:ID:       tscsdlwrdssdlwrdscm
+:ID:       scsdlwrdssdlwrdscm
 :END:
 * TODO [#C] could test on twint??                                   :twitter:
 :PROPERTIES:
@@ -1631,14 +1631,14 @@ https://github.com/karlicoss/promnesia/issues/13
 
 ** [2019-08-01] ugh. surfingkeys is capable of working on my iframe, but can't switch
 :PROPERTIES:
-:ID:       thghsrfngkysscpblfwrkngnmyfrmbtcntswtch
+:ID:       ghsrfngkysscpblfwrkngnmyfrmbtcntswtch
 :END:
 look somewhere along
 https://github.com/brookhong/Surfingkeys/blob/57fccbbeeb60ee2be0d2d60cfc50bd3aca3b0436/background.js#L1091
 https://github.com/brookhong/Surfingkeys/blob/f27a6cd30df285b05d78922a201b9e71912edd0e/content_scripts/front.js#L362
 ** [2019-08-26] at least write about it in readme/faq
 :PROPERTIES:
-:ID:       mntlstwrtbttnrdmfq
+:ID:       tlstwrtbttnrdmfq
 :END:
 * TODO [#C] could draw a small 'visits/contexts' tree? would be fun..
 :PROPERTIES:
@@ -1704,21 +1704,21 @@ What else???
 :END:
 * [#C] [2019-11-21] raxod502/mercury: Emacs interface to Facebook Messenger :facebook:hpi:
 :PROPERTIES:
-:ID:       thrxdmrcrymcsntrfctfcbkmssngr
+:ID:       rxdmrcrymcsntrfctfcbkmssngr
 :END:
 https://github.com/raxod502/mercury
 ** [2019-12-02] could be useful...
 :PROPERTIES:
-:ID:       mncldbsfl
+:ID:       cldbsfl
 :END:
 * TODO [#C] [2019-09-22] 1397667 - "No matching message handler" error when tabs.update().then(tabs.executeScript()) :webext:
 :PROPERTIES:
-:ID:       snnmtchngmssghndlrrrrwhntbspdtthntbsxctscrpt
+:ID:       nmtchngmssghndlrrrrwhntbspdtthntbsxctscrpt
 :END:
 https://bugzilla.mozilla.org/show_bug.cgi?id=1397667
 * TODO [#C] [2019-09-22] 1290016 - tabs.executeScript in webRequest.onCompleted gives "Unchecked lastError value: Error: No matching message handler" :webext:
 :PROPERTIES:
-:ID:       sntbsxctscrptnwbrqstncmpltrrrvlrrrnmtchngmssghndlr
+:ID:       tbsxctscrptnwbrqstncmpltdtrrrvlrrrnmtchngmssghndlr
 :END:
 https://bugzilla.mozilla.org/show_bug.cgi?id=1290016
 * TODO [#C] visual web scraper? geoffrey litt mentioned generalised nocode stuff (Pavel's question)
@@ -1728,7 +1728,7 @@ https://bugzilla.mozilla.org/show_bug.cgi?id=1290016
 :END:
 * [#C] [2020-05-07] [[https://www.npmjs.com/package/eslint-plugin-no-unsafe-innerhtml][eslint-plugin-no-unsafe-innerhtml - npm]] :webext:
 :PROPERTIES:
-:ID:       thswwwnpmjscmpckgslntplgntmlslntplgnnnsfnnrhtmlnpm
+:ID:       swwwnpmjscmpckgslntplgnnntmlslntplgnnnsfnnrhtmlnpm
 :END:
 * STRT [#C] be more informative; show full history or at least last visit and potentially sources (e.g. hypothesis)
 :PROPERTIES:
@@ -1764,7 +1764,7 @@ could make a screenshot from a test_chrome_visits test
 : - only few results in search results!
 * TODO [#C] [2020-05-20] [[https://github.com/WorldBrain/Memex/blob/develop/src/manifest.json][Memex/manifest.json at develop · WorldBrain/Memex]] :project:
 :PROPERTIES:
-:ID:       wdsgthbcmwrldbrnmmxblbdvlmxmnfstjsntdvlpwrldbrnmmx
+:ID:       sgthbcmwrldbrnmmxblbdvlpsmxmnfstjsntdvlpwrldbrnmmx
 :END:
 :  "omnibox": {
 :      "keyword": "m"
@@ -1773,7 +1773,7 @@ could make a screenshot from a test_chrome_visits test
 nice idea...
 * TODO [#C] [2020-05-23] [[https://news.ycombinator.com/item?id=23275315][Programming Inside a Container | Hacker News]] :docker:hpi:promnesia:
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmdprgrmmngnsdcntnrhckrnws
+:ID:       snwsycmbntrcmtmdprgrmmngnsdcntnrhckrnws
 :END:
 * TODO [#C] what if I could apply :visited state for links that I marked as seen?
 :PROPERTIES:
@@ -1787,15 +1787,15 @@ nice idea...
 :END:
 * TODO [#C] [2020-05-13] [[https://developer.chrome.com/extensions/nativeMessaging][Native Messaging - Google Chrome]] :webext:promnesia:
 :PROPERTIES:
-:ID:       wdsdvlprchrmcmxtnsnsntvmssgngntvmssgnggglchrm
+:ID:       sdvlprchrmcmxtnsnsntvmssgngntvmssgnggglchrm
 :END:
 * STRT [#C] [2020-05-27] [[https://news.ycombinator.com/item?id=23324598][Show HN: Obsidian – A knowledge base that works on local Markdown files | Hacker News]]
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdshwhnbstwrksnlclmrkdwnflshckrnws
+:ID:       snwsycmbntrcmtmdshwhnbsdntwrksnlclmrkdwnflshckrnws
 :END:
 ** [2021-01-20] some people apparently already used against obsidian db?
 :PROPERTIES:
-:ID:       wdsmpplpprntlylrdysdgnstbsdndb
+:ID:       smpplpprntlylrdysdgnstbsdndb
 :END:
 * TODO [#B] Lesson                                  :promnesia:publish:think:
 :PROPERTIES:
@@ -1829,16 +1829,16 @@ https://firefox-source-docs.mozilla.org/testing/marionette/Intro.html
 :END:
 * [#C] [2019-05-24] useful to have links just added to instapaper to know that you are planning to read them there
 :PROPERTIES:
-:ID:       frsflthvlnksjstdddtnstpprtknwthtyrplnnngtrdthmthr
+:ID:       sflthvlnksjstdddtnstpprtknwthtyrplnnngtrdthmthr
 :END:
 * [#C] [2020-04-29] [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Dead_object][TypeError: can't access dead object - JavaScript | MDN]]
 :PROPERTIES:
-:ID:       wdsdvlprmzllrgnsdcswbjvscrrcntccssddbjctjvscrptmdn
+:ID:       sdvlprmzllrgnsdcswbjvscrprrcntccssddbjctjvscrptmdn
 :END:
 shit.. wonder if it could happen because of messing with window. or something??
 * [#C] [2020-05-05] [[https://github.com/python/mypy/issues/5354][type alias to union is invalid in runtime context · Issue #5354 · python/mypy]]
 :PROPERTIES:
-:ID:       tsgthbcmpythnmypyssstyplsnvldnrntmcntxtsspythnmypy
+:ID:       sgthbcmpythnmypyssstyplstnvldnrntmcntxtsspythnmypy
 :END:
 usecase: find all occurences of the bug in your code (e.g. if it got fixed)
 * TODO [#C] docs: mention that I'll be posting about breaking changes in releases
@@ -1848,20 +1848,20 @@ usecase: find all occurences of the bug in your code (e.g. if it got fixed)
 :END:
 ** [2020-05-29] even better to do this in commits and simply reference stuff in releases? or, sync releases with a file in repository
 :PROPERTIES:
-:ID:       frvnbttrtdthsncmmtsndsmplrlssrsyncrlsswthflnrpstry
+:ID:       vnbttrtdthsncmmtsndsmplyrrlssrsyncrlsswthflnrpstry
 :END:
 * [#C] [2020-06-03] [[https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers][Using Service Workers - Web APIs | MDN]] :webext:
 :PROPERTIES:
-:ID:       wdsdvlprmzllrgnsdcswbpsrvcwrkrssngsrvcwrkrswbpsmdn
+:ID:       sdvlprmzllrgnsdcswbpsrvcwcwrkrssngsrvcwrkrswbpsmdn
 :END:
 * STRT [#C] [2020-06-03] highlights: [[https://www.hedweb.com/quora/2015.html#purposesuf][Quora Answers by David Pearce (2015 - 2020) : transhumanism with a human face]]
 :PROPERTIES:
-:ID:       wdhghlghtsswwwhdwbcmqrhtmbydvdprctrnshmnsmwthhmnfc
+:ID:       hghlghtsswwwhdwbcmqrhtmlpbydvdprctrnshmnsmwthhmnfc
 :END:
 not great here
 ** [2020-11-14] hmm, performance OK, but it throws ruandom erros now??
 :PROPERTIES:
-:ID:       sthmmprfrmnckbttthrwsrndmrrsnw
+:ID:       hmmprfrmnckbttthrwsrndmrrsnw
 :END:
 * TODO [#C] They record where you come from, what pages you visit, how long you stay on each, where you click and where you go next.
 :PROPERTIES:
@@ -1873,7 +1873,7 @@ imagine if this information was available to you instead
 [[https://hyp.is/skitAqDSEeqkeb8sgw1DCw/neustadt.fr/essays/against-a-user-hostile-web/][in context]]
 * [#C] [2019-07-28] [[https://reddit.com/r/firefox/comments/6p6470/firefox_doesnt_recognize_telegramdesktops_tg_link/dpap5ok/][Firefox doesn't recognize telegramdesktop's tg link.]] /r/firefox :telegram:
 :PROPERTIES:
-:ID:       snsrddtcmrfrfxcmmntspfrfxcgnztlgrmdsktpstglnkrfrfx
+:ID:       srddtcmrfrfxcmmntspfrfxdscgnztlgrmdsktpstglnkrfrfx
 :END:
 : I bumped on this post today while I was trying to find the solution for the org capture protocol. It's been a while since you posted it, but no one posted the solution, so I guess this might be helpful.
 : The thing is that any new protocol must be introduced by clicking on the link instead of passing the address to the location bar directly. Once you connect the new protocol with the app it will work regularly.
@@ -1885,12 +1885,12 @@ imagine if this information was available to you instead
 : * Check the box in order to remember it for future use
 * [#C] [2020-05-25] [[https://twitter.com/dvbobrov/status/1264995425175711745][Dmitry Bobrov on Twitter: "@karlicoss No idea about the service, but I do have experience with Chrome extensions if that’s what you mean" / Twitter]]
 :PROPERTIES:
-:ID:       mnstwttrcmdvbbrvsttsdmtryhrmxtnsnsfthtswhtymntwttr
+:ID:       stwttrcmdvbbrvsttsdmtrybbhrmxtnsnsfthtswhtymntwttr
 :END:
 : No idea about the service, but I do have experience with Chrome extensions if that’s what you mean
 * [#C] [2020-06-11] doc: [[https://github.com/karlicoss/promnesia/issues/114#issuecomment-642710398][Share database between machine? · Issue #114 · karlicoss/promnesia]]
 :PROPERTIES:
-:ID:       thdcsgthbcmkrlcssprmnssssdtbsbtwnmchnsskrlcssprmns
+:ID:       dcsgthbcmkrlcssprmnssssssdtbsbtwnmchnsskrlcssprmns
 :END:
 * TODO [#C] reuse readability extensions for better content highlight?
 :PROPERTIES:
@@ -1915,14 +1915,14 @@ imagine if this information was available to you instead
 :END:
 * TODO [#C] [2020-05-11] [[https://news.ycombinator.com/item?id=23143315][ESLint v7.0.0 Released | Hacker News]] :promnesia:webext:
 :PROPERTIES:
-:ID:       mnsnwsycmbntrcmtmdslntvrlsdhckrnws
+:ID:       snwsycmbntrcmtmdslntvrlsdhckrnws
 :END:
 : There is a rule in eslint that warns you when a promise is dangling and hasn't been handled.
 : 
 : PLEASE USE THAT RULE. So many bugs in the JS world is because of dangling promises.
 * [#C] [2020-05-25] [[https://twitter.com/korobochka191/status/1265029486782922752][Korobochka on Twitter: "@karlicoss Via Twitter?) For the last ~6 months I am developing a Chrome extension at work, can take a look as well." / Twitter]]
 :PROPERTIES:
-:ID:       mnstwttrcmkrbchksttskrbchmxtnsntwrkcntklkswlltwttr
+:ID:       stwttrcmkrbchksttskrbchknmxtnsntwrkcntklkswlltwttr
 :END:
 : Via Twitter?)
 : For the last ~6 months I am developing a Chrome extension at work, can take a look as well.
@@ -1952,7 +1952,7 @@ imagine if this information was available to you instead
 
 * [#C] [2020-09-25] [[https://building-a-second-brain.circle.so/c/emacs-org-mode/anyone-use-promnesia][(20) Anyone use Promnesia? | Building a Second Brain]]
 :PROPERTIES:
-:ID:       frsbldngscndbrncrclscmcsrrmnsnynsprmnsbldngscndbrn
+:ID:       sbldngscndbrncrclscmcsrgmrmnsnynsprmnsbldngscndbrn
 :END:
 * TODO [#C] hm, for serving reuse config, but allow to split config bits to make defensive?? not sure..
 :PROPERTIES:
@@ -2022,41 +2022,41 @@ one downside is that need to return both? one for display, another for matching 
 :END:
 * TODO [#C] [2020-11-10] [[https://github.com/inkandswitch/ksp-browser][inkandswitch/ksp-browser: Connect the things you already know in your browser.]]
 :PROPERTIES:
-:ID:       tsgthbcmnkndswtchkspbrwsrctththngsylrdyknwnyrbrwsr
+:ID:       sgthbcmnkndswtchkspbrwsrnctththngsylrdyknwnyrbrwsr
 :END:
 : Backlinks
 : 
 : A backlink is a link to this page from somewhere else you've been. It might be a blog post you read, or another page on the same site. It could also be a link saved in a local note on your computer.
 * TODO [#C] [2020-11-19] [[https://www.gwern.net/index][Essays · Gwern.net]]
 :PROPERTIES:
-:ID:       thswwwgwrnntndxssysgwrnnt
+:ID:       swwwgwrnntndxssysgwrnnt
 :END:
 tweet at gwern & share
 * TODO [#C] [2020-11-18] [[https://www.youtube.com/playlist?list=WL][Watch later - YouTube]]
 :PROPERTIES:
-:ID:       wdswwwytbcmplylstlstwlwtchltrytb
+:ID:       swwwytbcmplylstlstwlwtchltrytb
 :END:
 share youtube watchlist with highlights
 * TODO [#C] [2020-11-17] [[https://merveilles.town/web/getting-started][Merveilles   ]] it's pretty dynamic and might not work well with 'mark visited'
 :PROPERTIES:
-:ID:       tsmrvllstwnwbgttngstrtdmrcndmghtntwrkwllwthmrkvstd
+:ID:       smrvllstwnwbgttngstrtdmrvcndmghtntwrkwllwthmrkvstd
 :END:
 some websites
 
 basically log them along with the URL
 * TODO [#C] [2020-11-17] [[https://www.reddit.com/r/QuantifiedSelf/comments/jp9xw5/withings_body_vs_withings_body_cardio/][Withings body+ vs. Withings body cardio : QuantifiedSelf]]
 :PROPERTIES:
-:ID:       tswwwrddtcmrqntfdslfcmmntbdyvswthngsbdycrdqntfdslf
+:ID:       swwwrddtcmrqntfdslfcmmntsbdyvswthngsbdycrdqntfdslf
 :END:
 for mark visited blacklist, need to normalise? not sure...
 I guess ideally, yes..
 * TODO [#C] [2020-11-14] [[https://gist.github.com/paulirish/5d52fb081b3570c81e3a][What forces layout/reflow. The comprehensive list.]]
 :PROPERTIES:
-:ID:       stsgstgthbcmplrshdfbbcwhtfrcslytrflwthcmprhnsvlst
+:ID:       sgstgthbcmplrshdfbbcwhtfrcslytrflwthcmprhnsvlst
 :END:
 * TODO [#C] [2020-11-16] [[https://tweetdeck.twitter.com/][TweetDeck]]
 :PROPERTIES:
-:ID:       mnstwtdcktwttrcmtwtdck
+:ID:       stwtdcktwttrcmtwtdck
 :END:
 sidebar isn't closing on this page..
 unless you press 'close'?? wtf..
@@ -2067,7 +2067,7 @@ unless you press 'close'?? wtf..
 :END:
 * TODO [#C] [2020-11-22] [[https://web.dev/file-system-access/][The File System Access API: simplifying access to local files]] :promnesia:
 :PROPERTIES:
-:ID:       snswbdvflsystmccssthflsysmccsspsmplfyngccsstlclfls
+:ID:       swbdvflsystmccssthflsystmccsspsmplfyngccsstlclfls
 :END:
 * TODO [#C] visited marks might impact ellipsized content
 :PROPERTIES:
@@ -2083,7 +2083,7 @@ https://github.com/karlicoss/promnesia
 : Content Security Policy: The page's settings blocked the loading of a resource at inline ("style-src").
 ** [2020-11-22] eh, not sure if this is the case with extensions? bookmarklets (like Hypothesis on HN -- yeah)
 :PROPERTIES:
-:ID:       snhntsrfthssthcswthxtnsnsbkmrkltslkhypthssnhnyh
+:ID:       hntsrfthssthcswthxtnsnsbkmrkltslkhypthssnhnyh
 :END:
 * DONE [#D] Add donation link, to bastien?                   :readme:project:
 :PROPERTIES:
@@ -2092,7 +2092,7 @@ https://github.com/karlicoss/promnesia
 :END:
 ** [2020-06-05] share between projects
 :PROPERTIES:
-:ID:       frshrbtwnprjcts
+:ID:       shrbtwnprjcts
 :END:
 
 * TODO [#D] if I use sidebar, it will work even on websites that forbid html injections? :togithub:firefox:
@@ -2113,7 +2113,7 @@ https://github.com/karlicoss/promnesia
 https://www.fordfoundation.org/media/2976/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure.pdf
 ** [2019-12-26] could be disabled via blacklisting *.pdf probably?
 :PROPERTIES:
-:ID:       thcldbdsbldvblcklstngpdfprbbly
+:ID:       cldbdsbldvblcklstngpdfprbbly
 :END:
 * TODO [#D] process archive as well?                 :promnesia:org:togithub:
 :PROPERTIES:
@@ -2132,11 +2132,11 @@ https://www.fordfoundation.org/media/2976/roads-and-bridges-the-unseen-labor-beh
 :END:
 ** [2020-11-16] eh?
 :PROPERTIES:
-:ID:       mnh
+:ID:       h
 :END:
 * STRT [#D] [2020-05-25] [[https://github.com/iorate/uBlacklist][iorate/uBlacklist: Blocks specific sites from appearing in Google search results]] :webext:promnesia:
 :PROPERTIES:
-:ID:       mnsgthbcmrtblcklstrtblcklcstsfrmpprngngglsrchrslts
+:ID:       sgthbcmrtblcklstrtblcklstcstsfrmpprngngglsrchrslts
 :END:
 good support for blacklist, reportedly good code quality
 * STRT [#D] add some throttling for the notification at least
@@ -2146,11 +2146,11 @@ good support for blacklist, reportedly good code quality
 :END:
 ** [2020-02-25] added suppressing..
 :PROPERTIES:
-:ID:       tdddspprssng
+:ID:       dddspprssng
 :END:
 ** [2020-03-23] maybe, it's better just to turn it off by default...
 :PROPERTIES:
-:ID:       mnmybtsbttrjstttrntffbydflt
+:ID:       mybtsbttrjstttrntffbydflt
 :END:
 * TODO [#D] prefill with domain name?                      :promnesia:search:
 :PROPERTIES:
@@ -2174,7 +2174,7 @@ good support for blacklist, reportedly good code quality
 :END:
 * [#D] [2020-05-02] [[https://gist.github.com/Isk1n/54315d74264c857856c73f18c81278dc][Plain text linkifiers comparison (work in progress) (http://jsbench.github.io/#54315d74264c857856c73f18c81278dc)]]
 :PROPERTIES:
-:ID:       stsgstgthbcmskndccfcdcplnknprgrssjsbnchgthbdccfcdc
+:ID:       sgstgthbcmskndccfcdcplntxknprgrssjsbnchgthbdccfcdc
 :END:
 * TODO [#D] closing tab before it's finished loading causing error. I guess that's fine and shouldn't be defensified..
 :PROPERTIES:
@@ -2204,7 +2204,7 @@ perhaps I could sketch some simple library/api similarly to how android does tha
 :END:
 * [#D] [2020-03-02] windows 10 - Disable Chrome to ask for confirmation to open external application everytime - Super User :promnesia:mimemacs:
 :PROPERTIES:
-:ID:       mnwndwsdsblchrmtskfrcnfrmntpnxtrnlpplctnvrytmsprsr
+:ID:       wndwsdsblchrmtskfrcnfrmtntpnxtrnlpplctnvrytmsprsr
 :END:
 https://superuser.com/questions/1481851/disable-chrome-to-ask-for-confirmation-to-open-external-application-everytime
 : Disable Chrome to ask for confirmation to open external application everytime
@@ -2225,17 +2225,17 @@ https://superuser.com/questions/1481851/disable-chrome-to-ask-for-confirmation-t
 :END:
 * STRT [#D] [2019-09-15] bug: raw.githubusercontent.com/karlicoss/dotfiles/master/surfingkeys/config.txt
 :PROPERTIES:
-:ID:       snbgrwgthbsrcntntcmkrlcssdtflsmstrsrfngkyscnfgtxt
+:ID:       bgrwgthbsrcntntcmkrlcssdtflsmstrsrfngkyscnfgtxt
 :END:
 https://raw.githubusercontent.com/karlicoss/dotfiles/master/surfingkeys/config.txt
 shows error on this file very consistently..
 ** [2019-09-22] ugh. works fine in dev firefox and doesn't even have sources on release?
 :PROPERTIES:
-:ID:       snghwrksfnndvfrfxnddsntvnhvsrcsnrls
+:ID:       ghwrksfnndvfrfxnddsntvnhvsrcsnrls
 :END:
 ** [2019-09-23] also seems to be fine in chrome, however doesn't display kkj
 :PROPERTIES:
-:ID:       mnlssmstbfnnchrmhwvrdsntdsplykkj
+:ID:       lssmstbfnnchrmhwvrdsntdsplykkj
 :END:
 * TODO [#D] process confidences and somehow add this information in visit line
 :PROPERTIES:
@@ -2249,11 +2249,11 @@ shows error on this file very consistently..
 :END:
 ** [2019-06-02] eh??
 :PROPERTIES:
-:ID:       snh
+:ID:       h
 :END:
 ** [2019-12-27] I guess I meant ignore normalisation etc
 :PROPERTIES:
-:ID:       frgssmntgnrnrmlstntc
+:ID:       gssmntgnrnrmlstntc
 :END:
 * TODO [#D] pinboard last seen
 :PROPERTIES:
@@ -2298,11 +2298,11 @@ shows error on this file very consistently..
 :END:
 ** [2019-12-26] what?
 :PROPERTIES:
-:ID:       thwht
+:ID:       wht
 :END:
 ** [2021-01-20] like a remembrance agent maybe?
 :PROPERTIES:
-:ID:       wdlkrmmbrncgntmyb
+:ID:       lkrmmbrncgntmyb
 :END:
 
 * TODO [#D] backend: URL extraction via NN?
@@ -2317,7 +2317,7 @@ shows error on this file very consistently..
 :END:
 ** [2019-08-05] eh?
 :PROPERTIES:
-:ID:       mnh
+:ID:       h
 :END:
 * TODO [#D] Watch "There is No Algorithm for Truth - with Tom Scott" on YouTube :promnesia:motivation:
 :PROPERTIES:
@@ -2331,7 +2331,7 @@ Why did I add this video? I don't know the speaker or anything
 
 ** [2019-11-21] eh, not sure..
 :PROPERTIES:
-:ID:       thhntsr
+:ID:       hntsr
 :END:
 * TODO [#D] people who followed you?
 :PROPERTIES:
@@ -2340,7 +2340,7 @@ Why did I add this video? I don't know the speaker or anything
 :END:
 ** [2020-11-20] not sure what I meant here?
 :PROPERTIES:
-:ID:       frntsrwhtmnthr
+:ID:       ntsrwhtmnthr
 :END:
 * TODO [#D] wonder if it would help me to figure out what was the video https://www.youtube.com/watch?v=Z-R2xO3phVM
 :PROPERTIES:
@@ -2397,13 +2397,13 @@ I guess it's not very reasonable to expect 10K items to render really really fas
 : The user should have the power. Also the interface should be as powerful as possible. One such browser that embraces this philosophy is Next https://github.com/atlas-engineer/next. Source: biased author
 * [#D] [2020-04-24] usecase: [[https://github.com/jauntywunderkind/compute-space/blob/master/compute-space.md][compute-space/compute-space.md at master · jauntywunderkind/compute-space]]
 :PROPERTIES:
-:ID:       frscssgthbcmjntywndrkndcmmdtmstrjntywndrkndcmptspc
+:ID:       scssgthbcmjntywndrkndcmptmdtmstrjntywndrkndcmptspc
 :END:
 found that bookmark in my notes without any comments. why did I add it?
 click on local -- found rektide's post!
 * [#D] [2020-04-24] usecase: [[https://github.com/westoncb/mymex][westoncb/mymex]]
 :PROPERTIES:
-:ID:       frscssgthbcmwstncbmymxwstncbmymx
+:ID:       scssgthbcmwstncbmymxwstncbmymx
 :END:
 useful for processing bookmarks
 e.g. I've got a list of websites/projects I bookmkrked.
@@ -2411,14 +2411,14 @@ sometimes they are a bit experimental and cryptic, and I struggle to remember wh
 here -- click on last visit results in HN post
 * [#D] [2020-05-06] [[https://news.ycombinator.com/item?id=23085188][Firefox for Mobile now supports NoScript, PrivacyBadger, HTTPS Everywhere | Hacker News]]
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdfrfxfrmptprvcybdgrsvrywhrhckrnws
+:ID:       snwsycmbntrcmtmdfrfxfrmblptprvcybdgrsvrywhrhckrnws
 :END:
 : I fear they're going to force it as the release version while supporting just 1% of most used extensions, forgetting that it's a fat-tailed distribution. I use video background fix to play youtube with a minimized browser (no I don't want to use a separate app if I don't have to).
 : 
 : At that point I'm just going to switch to Brave.
 * [#D] [2019-01-19] Switching over to communicating via private server
 :PROPERTIES:
-:ID:       stswtchngvrtcmmnctngvprvtsrvr
+:ID:       swtchngvrtcmmnctngvprvtsrvr
 :END:
 ok, keeping the items in memory was definitely a bad idea..
 looks like the way to go is just running a server in parallel. the benefit is being able to run against the remote server, so not having to sync the links
@@ -2429,7 +2429,7 @@ looks like the way to go is just running a server in parallel. the benefit is be
 
 * [#D] [2020-06-30] [[https://news.ycombinator.com/item?id=23173724][Native messaging is extremely broken and has bad documentation. I never got repl... | Hacker News]] :webext:
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdntvmssgnsbddcmnttnnvrgtrplhckrnws
+:ID:       snwsycmbntrcmtmdntvmssgngsbddcmnttnnvrgtrplhckrnws
 :END:
 : Native messaging is extremely broken and has bad documentation. I never got replies to my bug reports about it and gave up and just used websockets.
 * TODO [#D] browser history: clicked 'forget about this site' for google.com by accident.. wonder if it's gonna erase stuff
@@ -2439,17 +2439,17 @@ looks like the way to go is just running a server in parallel. the benefit is be
 :END:
 * [#D] [2020-07-06] [[https://www.theregister.com/2020/07/06/linux_kernel_coders_propose_inclusive/][Linux kernel coders propose inclusive terminology coding guidelines, note: 'Arguments about why people should not be offended do not scale' • The Register]]
 :PROPERTIES:
-:ID:       mnswwwthrgstrcmlnxkrnlcdrshldntbffndddntsclthrgstr
+:ID:       swwwthrgstrcmlnxkrnlcdrspshldntbffndddntsclthrgstr
 :END:
 : Words to be avoided include "slave", with suggested substitutions such as secondary, subordinate, replica or follower, and "blacklist", for which the replacements could be blocklist or denylist.
 * [#D] [2020-11-06] [[https://github.com/jeanralphaviles/comment_parser][jeanralphaviles/comment_parser: Python module to extract comments from source code files of various types.]]
 :PROPERTIES:
-:ID:       frsgthbcmjnrlphvlscmmntprcmmntsfrmsrccdflsfvrstyps
+:ID:       sgthbcmjnrlphvlscmmntprsrcmmntsfrmsrccdflsfvrstyps
 :END:
 hmm, try on this first? also wonder why its libmagic version is fixed??
 * STRT [#D] [2020-11-08] [[https://github.com/karlicoss/promnesia/runs/1368981214?check_suite_focus=true][target browsers insteadd of Node, remove old react stuff, update eslint babel · karlicoss/promnesia@c8380e0]]
 :PROPERTIES:
-:ID:       snsgthbcmkrlcssprmnsrnschtffpdtslntbblkrlcssprmnsc
+:ID:       sgthbcmkrlcssprmnsrnschcktffpdtslntbblkrlcssprmnsc
 :END:
 : test_blacklist_builtin
 
@@ -2457,7 +2457,7 @@ failed on github ci selenium.common.exceptions.NoAlertPresentException: Message:
 test_blacklist_builtin
 * TODO [#D] [2020-11-16] [[https://github.com/gorhill/uBlock/blob/5aca41960373656c79d547b1a983f053e6adb633/platform/chromium/webext.js][uBlock/webext.js at 5aca41960373656c79d547b1a983f053e6adb633 · gorhill/uBlock]]
 :PROPERTIES:
-:ID:       mnsgthbcmgrhllblckblbccdbckwbxtjstccdbfdbgrhllblck
+:ID:       sgthbcmgrhllblckblbccdbfdckwbxtjstccdbfdbgrhllblck
 :END:
 async chrome apis examples
 * DONE [#B] bug: right, seems that extension disconnects after a timeout in chrome based browsers
@@ -2468,7 +2468,7 @@ async chrome apis examples
 e.g. leave a tab open for several minutes and do smth else -- it stops responding
 * DONE [#B] [2019-09-01] keepassxc-browser/manifest.json at develop · keepassxreboot/keepassxc-browser :webext:
 :PROPERTIES:
-:ID:       snkpssxcbrwsrmnfstjsntdvlpkpssxrbtkpssxcbrwsr
+:ID:       kpssxcbrwsrmnfstjsntdvlpkpssxrbtkpssxcbrwsr
 :END:
 https://github.com/keepassxreboot/keepassxc-browser/blob/develop/keepassxc-browser/manifest.json
 :     "applications": {
@@ -2478,7 +2478,7 @@ https://github.com/keepassxreboot/keepassxc-browser/blob/develop/keepassxc-brows
 :        }
 ** [2019-09-08] figure out why is this necessary?
 :PROPERTIES:
-:ID:       snfgrtwhysthsncssry
+:ID:       fgrtwhysthsncssry
 :END:
 * DONE [#B] hmm, need to overwrite database in order to handle schema updates? not sure what would be a clean way of doing it...
 :PROPERTIES:
@@ -2487,11 +2487,11 @@ https://github.com/keepassxreboot/keepassxc-browser/blob/develop/keepassxc-brows
 :END:
 ** [2019-08-07] I guess similar to cachew?
 :PROPERTIES:
-:ID:       wdgsssmlrtcchw
+:ID:       gsssmlrtcchw
 :END:
 ** [2019-09-03] ok, although haven't tested that behaviour
 :PROPERTIES:
-:ID:       tklthghhvnttstdthtbhvr
+:ID:       klthghhvnttstdthtbhvr
 :END:
 * DONE [#B] I really need page notes... e.g. reasons why I removed the bookmark and whether I already visited it..
 :PROPERTIES:
@@ -2509,15 +2509,15 @@ https://github.com/keepassxreboot/keepassxc-browser/blob/develop/keepassxc-brows
 :END:
 ** [2019-06-01] need automatic generation for differently colored icons...
 :PROPERTIES:
-:ID:       stndtmtcgnrtnfrdffrntlyclrdcns
+:ID:       ndtmtcgnrtnfrdffrntlyclrdcns
 :END:
 ** [2019-06-02] distinguish contexts as well
 :PROPERTIES:
-:ID:       sndstngshcntxtsswll
+:ID:       dstngshcntxtsswll
 :END:
 ** [2019-08-08] just needs a better documenting..
 :PROPERTIES:
-:ID:       thjstndsbttrdcmntng
+:ID:       jstndsbttrdcmntng
 :END:
 * CANCEL [#B] share code with js .... ugh, all the projects I found really suck... :ffi:malleable:
 :PROPERTIES:
@@ -2531,7 +2531,7 @@ I guess just share the 'normalizing regex'?
 :END:
 ** [2019-06-01] suggest tags? maybe by querying from api, although presumably there wouldn't be too many. make the config YAML
 :PROPERTIES:
-:ID:       stsggsttgsmybbyqryngfrmplythrwldntbtmnymkthcnfgyml
+:ID:       sggsttgsmybbyqryngfrmplthythrwldntbtmnymkthcnfgyml
 :END:
 * DONE [#B] make sure it searches in archive...
 :PROPERTIES:
@@ -2547,11 +2547,11 @@ I guess just share the 'normalizing regex'?
 
 * DONE [#C] [2020-05-27] [[https://github.com/sshkarupa/url-handlers][sshkarupa/url-handlers]] :mimemacs:
 :PROPERTIES:
-:ID:       wdsgthbcmsshkrprlhndlrssshkrprlhndlrs
+:ID:       sgthbcmsshkrprlhndlrssshkrprlhndlrs
 :END:
 * DONE [#C] [2019-09-01] vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources
 :PROPERTIES:
-:ID:       snvntwsmpythncrtdlstfwsmpnfrmwrkslbrrssftwrndrsrcs
+:ID:       vntwsmpythncrtdlstfwsmpytnfrmwrkslbrrssftwrndrsrcs
 :END:
 https://github.com/vinta/awesome-python
 : Mistune - Fastest and full featured pure Python parsers of Markdown.
@@ -2562,11 +2562,11 @@ https://github.com/vinta/awesome-python
 :END:
 ** [2019-10-12] ok, they do save a bit of space for me, e.g. 575Mb vs 376 Mb. I guess keep my private ones for now and keep them empty in config, can resolve later
 :PROPERTIES:
-:ID:       stkthydsvbtfspcfrmgmbvsmbndkpthmmptyncnfgcnrslvltr
+:ID:       kthydsvbtfspcfrmgmbvsmbgsndkpthmmptyncnfgcnrslvltr
 :END:
 *** [2019-10-27] fuck I'm so glad I'm keeping notes! Would have never remembered why db size changed otherwise..
 :PROPERTIES:
-:ID:       snfckmsgldmkpngntswldhvnvrrmmbrdwhydbszchngdthrws
+:ID:       fckmsgldmkpngntswldhvnvrrmmbrdwhydbszchngdthrws
 :END:
 * DONE [#C] reddit link in context
 :PROPERTIES:
@@ -2603,17 +2603,17 @@ kinda suspicious, he gives prism in demo, but uses highlight js himself..
 :END:
 ** [2019-12-26] would be hard because of need to login, etc...
 :PROPERTIES:
-:ID:       thwldbhrdbcsfndtlgntc
+:ID:       wldbhrdbcsfndtlgntc
 :END:
 
 * [#A] [2020-02-18] [[https://addons.mozilla.org/en-US/developers/addon/promnesia/versions/submit/][Upload Add-on :: Promnesia :: Add-ons for Firefox]]
 :PROPERTIES:
-:ID:       tsddnsmzllrgnsdvlprsddnprsbmtpldddnprmnsddnsfrfrfx
+:ID:       sddnsmzllrgnsdvlprsddnprmsbmtpldddnprmnsddnsfrfrfx
 :END:
 
 * TODO [#C] [2020-10-28] [[https://github.com/thesephist/histools][thesephist/histools: A collection of tools for generating data visualizations from browser history data]]
 :PROPERTIES:
-:ID:       wdsgthbcmthsphsthstlsthspgdtvslztnsfrmbrwsrhstrydt
+:ID:       sgthbcmthsphsthstlsthsphsgdtvslztnsfrmbrwsrhstrydt
 :END:
 
 * STRT [#C] release: suggest to update the backend
@@ -2651,22 +2651,22 @@ https://twitter.com/posobin/status/1330005221410529282
 
 * [#D] [2020-11-07] ugh. looked in codemirror src, but unclear how to optimize the size further. it's just big *shrug*
 :PROPERTIES:
-:ID:       stghlkdncdmrrrsrcbtnclrhwtptmzthszfrthrtsjstbgshrg
+:ID:       ghlkdncdmrrrsrcbtnclrhwtptmzthszfrthrtsjstbgshrg
 :END:
 * [2020-05-06] agnostic extraction -- extracting context is pretty much impossible :promnesia:hpi:
 :PROPERTIES:
-:ID:       wdgnstcxtrctnxtrctngcntxtsprttymchmpssbl
+:ID:       gnstcxtrctnxtrctngcntxtsprttymchmpssbl
 :END:
 * [2020-11-01] profiling: so overall it seems that half time spent in parsing org-mode, half in url extraction. meh
 :PROPERTIES:
-:ID:       snprflngsvrlltsmsththlftmtnprsngrgmdhlfnrlxtrctnmh
+:ID:       prflngsvrlltsmsththlftmsptnprsngrgmdhlfnrlxtrctnmh
 :END:
 : time py-spy record -o profile.svg -r 1000 -- scripts/promnesia demo data/notes/
 
 results in source-org-profile.svg
 ** [2021-01-20] this py-spy thing is very nice           :performance:python:
 :PROPERTIES:
-:ID:       wdthspyspythngsvrync
+:ID:       thspyspythngsvrync
 :END:
 * TODO [#C] https://www.freecodecamp.org/news/lossless-web-navigation-spatial-model-37f83438201d/ https://merveilles.town/@aynish/105139837128207627
 :PROPERTIES:
@@ -2691,55 +2691,55 @@ results in source-org-profile.svg
 :END:
 * [2020-11-26] [[https://nyxt.atlas.engineer/#features][Nyxt]]
 :PROPERTIES:
-:ID:       thsnyxttlsngnrftrsnyxt
+:ID:       snyxttlsngnrftrsnyxt
 :END:
 : Tree based history- lossless by design.
 * [2020-11-27] showvisited: [[https://myshows.me/profile/][Новые серии / MyShows.me]]
 :PROPERTIES:
-:ID:       frshwvstdsmyshwsmprflновыесерииmyshwsm
+:ID:       shwvstdsmyshwsmprflновыесерииmyshwsm
 :END:
 visited marks shift the left menu
 * TODO [#B] [2020-12-14] [[https://gephi.org/][Gephi - The Open Graph Viz Platform]] :timeline:
 :PROPERTIES:
-:ID:       mnsgphrggphthpngrphvzpltfrm
+:ID:       sgphrggphthpngrphvzpltfrm
 :END:
 ** [2020-12-14] could draw en edge if the visits are close in time?
 :PROPERTIES:
-:ID:       mnclddrwndgfthvstsrclsntm
+:ID:       clddrwndgfthvstsrclsntm
 :END:
 * [#C] [2020-05-17] [[http://www.hntoplinks.com/all][All Time - Hacker News Top Links]]
 :PROPERTIES:
-:ID:       snwwwhntplnkscmlllltmhckrnwstplnks
+:ID:       wwwhntplnkscmlllltmhckrnwstplnks
 :END:
 * [2020-01-22] Playing around with Chrome's history https://gist.github.com/dropmeaword/9372cbeb29e8390521c2#chrome :chrome:
 :PROPERTIES:
-:ID:       wdplyngrndwthchrmshstrysgstgthbcmdrpmwrdcbbcchrm
+:ID:       plyngrndwthchrmshstrysgstgthbcmdrpmwrdcbbcchrm
 :END:
 
 * TODO [#C] [2020-12-05] interop: [[https://github.com/DIYgod/RSSHub][DIYgod/RSSHub: 🍰 Everything is RSSible]] :rss:promnesia:wildcard:
 :PROPERTIES:
-:ID:       stntrpsgthbcmdygdrsshbdygdrsshbvrythngsrssbl
+:ID:       ntrpsgthbcmdygdrsshbdygdrsshbvrythngsrssbl
 :END:
 hmm extractors for different sites could be reused
 * TODO [2020-12-06] [[https://www.orgroam.com/manual.html][Org-roam User Manual]]
 :PROPERTIES:
-:ID:       snswwwrgrmcmmnlhtmlrgrmsrmnl
+:ID:       swwwrgrmcmmnlhtmlrgrmsrmnl
 :END:
 : • The roam-file protocol:
 : • The roam-ref protocol:
 * [2020-12-06] [[https://www.orgroam.com/manual.html#Roam-Protocol-1][Org-roam User Manual]] :grasp:promnesia:
 :PROPERTIES:
-:ID:       snswwwrgrmcmmnlhtmlrmprtclrgrmsrmnl
+:ID:       swwwrgrmcmmnlhtmlrmprtclrgrmsrmnl
 :END:
 fucking hell.. protocols and mime handling are a mess
 * [2020-12-06] [[https://neovim.io/news/2020/10/][Newsletter 10 - Neovim v0.4.4 - Neovim]]
 :PROPERTIES:
-:ID:       snsnvmnwsnwslttrnvmvnvm
+:ID:       snvmnwsnwslttrnvmvnvm
 :END:
 moves the top navigation here
 * [2020-12-13] showvisited: [[https://www.mileendwall.org.uk/][Mile End Climbing Wall]]
 :PROPERTIES:
-:ID:       snshwvstdswwwmlndwllrgkmlndclmbngwll
+:ID:       shwvstdswwwmlndwllrgkmlndclmbngwll
 :END:
 moves around links here
 * TODO somehow lower priority for org_archive stuff                     :org:
@@ -2749,7 +2749,7 @@ moves around links here
 :END:
 * [#C] [2020-04-13] [[https://news.ycombinator.com/item?id=22857232][Show HN: Built an extension to put an end to paywalls and popups | Hacker News]]
 :PROPERTIES:
-:ID:       mnsnwsycmbntrcmtmdshwhnblptnndtpywllsndpppshckrnws
+:ID:       snwsycmbntrcmtmdshwhnbltnptnndtpywllsndpppshckrnws
 :END:
 highlight paywalled links?
 although out of scope, probably

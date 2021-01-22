@@ -57,7 +57,7 @@ so that?? why the minus sign?
 
 * [2018-11-10] ok, trying to break down this thing http://math.mit.edu/~cohn/Thoughts/symplectic.html
 :PROPERTIES:
-:ID:       stktryngtbrkdwnthsthngmthmtdchnthghtssymplctchtml
+:ID:       ktryngtbrkdwnthsthngmthmtdchnthghtssymplctchtml
 :END:
 the idea is to generalise phase space mechanics to abstract (not necessarily eucledian spaces)   
 
@@ -100,7 +100,7 @@ process : (T(m) -> R) -> T(m) =
 
 ** [2018-11-18]
 :PROPERTIES:
-:ID:       sn
+:ID:       5558_5969
 :END:
 ok, use conservation of energy
 that means that Hamiltonian is constant along the flow. for any H: dH(V_H) = 0, hence w(V_H, V_H) = 0. For every V, we can find its H, s.t. V_H = V, so w(V, V) = 0 for all V? so the form is alternating
@@ -116,7 +116,7 @@ TODO non-degeneracy?
 
 * START [2018-11-16]  Topics in Representation Theory: Hamiltonian Mechanics and Symplectic Geometry
 :PROPERTIES:
-:ID:       frtpcsnrprsnttnthryhmltnnmchncsndsymplctcgmtry
+:ID:       tpcsnrprsnttnthryhmltnnmchncsndsymplctcgmtry
 :END:
  good point on first page: a more obvious set of equations is gradient flow:
 dp_i/dt = -df/dp_i
@@ -173,7 +173,7 @@ bridge University Press, 1984.
 
 * START [2018-11-17] Terence Tao: Phase Space
 :PROPERTIES:
-:ID:       sttrnctphsspc
+:ID:       trnctphsspc
 :END:
 ok, so his stuff is pretty similar.
 positions q in conf space M
@@ -315,7 +315,7 @@ canonical poincare 1-form Theta = \Sum_i p_i dq^i, which satisfies a^* Theta = a
 
 * TODO [2018-11-10]  digression: [Goldberg] A Little Tase of Symplectic Geometry.pdf -- very cool!!!
 :PROPERTIES:
-:ID:       stdgrssngldbrglttltsfsymplctcgmtrypdfvrycl
+:ID:       dgrssngldbrglttltsfsymplctcgmtrypdfvrycl
 :END:
 
 * TODO something interesting about basis of tangent vectors?... https://math.stackexchange.com/a/454663/15108 v \in T_p M = v^i \delta_i?
@@ -349,7 +349,7 @@ any 2n-dimensional symplectic manifold looks like R^2n, w_0
 
 * START [2018-11-18] ok, I should implement some simple phase space portrait plotting first
 :PROPERTIES:
-:ID:       snkshldmplmntsmsmplphsspcprtrtplttngfrst
+:ID:       kshldmplmntsmsmplphsspcprtrtplttngfrst
 :END:
 https://github.com/BartoszMilewski/gravity-sim
 haskell or rust?... not sure
@@ -362,7 +362,7 @@ soo, if it's a linear dependency on velocity... it's kind of time coordinate tra
 
 * [2018-11-21]  understood A LOT while waiting for Metric concert!
 :PROPERTIES:
-:ID:       wdndrstdltwhlwtngfrmtrccncrt
+:ID:       ndrstdltwhlwtngfrmtrccncrt
 :END:
 ** https://en.wikipedia.org/wiki/Hamiltonian_mechanics#Deriving_Hamilton's_equations
 :PROPERTIES:
@@ -447,7 +447,7 @@ sad...
 
 * [2018-11-20] why symplectic spaces?
 :PROPERTIES:
-:ID:       twhysymplctcspcs
+:ID:       whysymplctcspcs
 :END:
 :   historically, we empirically noticed/observed that principle of least action works (Lagrangian formulation), and there is an alternative and completely equivalent formulation (Hamiltonian).
 : When we study symplectic geometry, we ask: what are the minimum requirements to *define* familiar basic physical concepts (energy/time), and so that we still have the usual properties (e.g. Hamiltonian flow).
@@ -460,7 +460,7 @@ sad...
 
 * [2018-11-10] intuition - What is a symplectic form intuitively? - MathOverflow
 :PROPERTIES:
-:ID:       stnttnwhtssymplctcfrmnttvlymthvrflw
+:ID:       nttnwhtssymplctcfrmnttvlymthvrflw
 :END:
 https://mathoverflow.net/questions/19932/what-is-a-symplectic-form-intuitively/19935#19935
 
@@ -495,54 +495,54 @@ https://twitter.com/johncarlosbaez/status/1065727111120310272
 
 * [2018-11-10] What moment map is (as a physical concept) in sympletic geometry - Mathematics Stack Exchange
 :PROPERTIES:
-:ID:       stwhtmmntmpssphysclcncptnpltcgmtrymthmtcsstckxchng
+:ID:       whtmmntmpssphysclcncptnsypltcgmtrymthmtcsstckxchng
 :END:
 https://math.stackexchange.com/questions/2447269/what-moment-map-is-as-a-physical-concept-in-sympletic-geometry
 * [2018-11-10] classical mechanics - Intuition about Momentum Maps - Physics Stack Exchange
 :PROPERTIES:
-:ID:       stclssclmchncsnttnbtmmntmmpsphyscsstckxchng
+:ID:       clssclmchncsnttnbtmmntmmpsphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/203653/intuition-about-momentum-maps
 * [2018-11-14] sg.symplectic geometry - How to see the Phase Space of a Physical System as the Cotangent Bundle - MathOverflow
 :PROPERTIES:
-:ID:       wdsgsymplctcgmtryhwtsthphystmsthctngntbndlmthvrflw
+:ID:       sgsymplctcgmtryhwtsthphssystmsthctngntbndlmthvrflw
 :END:
 https://mathoverflow.net/questions/16460/how-to-see-the-phase-space-of-a-physical-system-as-the-cotangent-bundle/16462#16462
 * [2018-11-19] Legendre transformation - Wikipedia
 :PROPERTIES:
-:ID:       mnlgndrtrnsfrmtnwkpd
+:ID:       lgndrtrnsfrmtnwkpd
 :END:
 https://en.wikipedia.org/wiki/Legendre_transformation#Further_properties 
 : For a strictly convex function, the Legendre transformation can be interpreted as a mapping between the graph of the function and the family of tangents of the graph.
 * TODO [2018-11-18] Symplectic integrator - Wikipedia
 :PROPERTIES:
-:ID:       snsymplctcntgrtrwkpd
+:ID:       symplctcntgrtrwkpd
 :END:
 https://en.wikipedia.org/wiki/Symplectic_integrator
 * [2018-11-19] mathematical physics - Is there an analogue of configuration space in quantum mechanics? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       mnmthmtclphyscssthrnnlgfcqntmmchncsphyscsstckxchng
+:ID:       mthmtclphyscssthrnnlgfcnfqntmmchncsphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/33897/is-there-an-analogue-of-configuration-space-in-quantum-mechanics
 * [2018-11-18] Applying Runge-Kutta method to circular - C++ Forum
 :PROPERTIES:
-:ID:       snpplyngrngkttmthdtcrclrcfrm
+:ID:       pplyngrngkttmthdtcrclrcfrm
 :END:
 http://www.cplusplus.com/forum/general/103744/
 * [#B] [2018-09-13] Chel_of_the_sea comments on ELI5: What is symplectic geometry?
 :PROPERTIES:
-:ID:       thchlfthscmmntsnlwhtssymplctcgmtry
+:ID:       chlfthscmmntsnlwhtssymplctcgmtry
 :END:
 https://www.reddit.com/r/explainlikeimfive/comments/47lwch/eli5_what_is_symplectic_geometry/d0duju7/
 :  It's geometry done on a curved surface that carries enough structure to measure area. In the same way that in Calc III you could do double integral over f dA to measure a sort of 'weighted area', on a symplectic manifold you can (in a suitable sense) take a double integral over f d(omega).
 
 * [2018-08-13] poisson brackets are related to symplectic geometry (explains phase space)
 :PROPERTIES:
-:ID:       mnpssnbrcktsrrltdtsymplctcgmtryxplnsphsspc
+:ID:       pssnbrcktsrrltdtsymplctcgmtryxplnsphsspc
 :END:
 * [2018-08-13] poisson brackets explained
 :PROPERTIES:
-:ID:       mnpssnbrcktsxplnd
+:ID:       pssnbrcktsxplnd
 :END:
 https://www.quora.com/What-is-an-intuitive-way-of-explaining-the-Poisson-bracket
 {fg, h} = f {g, h} + g {f, h}
@@ -565,12 +565,12 @@ algebra with poisson bracket (lie bracket) is lie algebra
 Thus, the time evolution of a function f on a symplectic manifold can be given as a one-parameter family of symplectomorphisms (i.e., canonical transformations, area-preserving diffeomorphisms), with the time t being the parameter
 ** [2019-06-12] need to add this to drill..
 :PROPERTIES:
-:ID:       wdndtddthstdrll
+:ID:       ndtddthstdrll
 :END:
 
 * [2018-11-15]
 :PROPERTIES:
-:ID:       th
+:ID:       24215_25224
 :END:
 phase space: R^3 x R^3 -- it's a base space for manifold
 Hamiltonaian is defined on manifold, not on its tangent bundle!
@@ -628,19 +628,19 @@ to compute individual jump probabilities: use propagators solutions for free ele
 :END:
 * [#D] [2018-12-15] symplectic geometry - Learn Anything
 :PROPERTIES:
-:ID:       stsymplctcgmtrylrnnythng
+:ID:       symplctcgmtrylrnnythng
 :END:
 https://learn-anything.xyz
 
 * [#C] [2019-06-18] Energy drift - Wikipedia                     :symplectic:
 :PROPERTIES:
-:ID:       tnrgydrftwkpd
+:ID:       nrgydrftwkpd
 :END:
 https://en.wikipedia.org/wiki/Energy_drift
 : Energy drift - usually damping - is substantial for numerical integration schemes that are not symplectic, such as the Runge-Kutta family.
 * [#C] [2020-01-18] chakravala/Grassmann.jl: ⟨Leibniz-Grassmann-Clifford⟩ differential geometric algebra / multivector simplicial complex :symplectic:
 :PROPERTIES:
-:ID:       stchkrvlgrssmnnjllbnzgrsstrclgbrmltvctrsmplclcmplx
+:ID:       chkrvlgrssmnnjllbnzgrssmntrclgbrmltvctrsmplclcmplx
 :END:
 https://github.com/chakravala/Grassmann.jl
 : The Grassmann.jl package provides tools for doing computations based on multi-linear algebra, differential geometry, and spin groups using the extended tensor algebra known as Leibniz-Grassmann-Clifford-Hestenes geometric algebra.

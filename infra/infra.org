@@ -9,7 +9,7 @@
 
 * TODO [#B] [2020-07-01] [[https://docs.docker.com/compose/extends/][Share Compose configurations between files and projects | Docker Documentation]] :docker:
 :PROPERTIES:
-:ID:       wdsdcsdckrcmcmpsxtndsshrctwnflsndprjctsdckrdcmnttn
+:ID:       sdcsdckrcmcmpsxtndsshrcmptwnflsndprjctsdckrdcmnttn
 :END:
 
 * STRT [#B] attempting to overcome read-only editable packages... :python:pip:
@@ -47,7 +47,7 @@
 
 * [#C] [2019-06-29] frenck/awesome-home-assistant: A curated list of amazingly awesome Home Assistant resources.
 :PROPERTIES:
-:ID:       stfrnckwsmhmssstntcrtdlstfmznglywsmhmssstntrsrcs
+:ID:       frnckwsmhmssstntcrtdlstfmznglywsmhmssstntrsrcs
 :END:
 https://github.com/frenck/awesome-home-assistant
 * STRT [#C] trying out podman                                 :docker:podman:
@@ -86,12 +86,12 @@ e.g. create empty node_modules
 :END:
 * [#C] [2020-07-07] [[https://devops.stackexchange.com/questions/6246/when-would-i-use-docker-composes-service-ports-flag][When would I use docker-compose's "--service-ports" flag? - DevOps Stack Exchange]] :docker:
 :PROPERTIES:
-:ID:       tsdvpsstckxchngcmqstnswhnssrvcprtsflgdvpsstckxchng
+:ID:       sdvpsstckxchngcmqstnswhnwssrvcprtsflgdvpsstckxchng
 :END:
 : To start the service to run in the background you use docker-compose -f <FILE> up --detach but if you wanted to look inside the container using a terminal, you would run docker-compose run bash.
 * TODO [#C] [2020-05-26] [[https://brig.readthedocs.io/en/latest/][brig - decentralized & secure synchronization — brig v0.4.0-beta documentation]] :cloud:
 :PROPERTIES:
-:ID:       tsbrgrdthdcsnltstbrgdcntrcrsynchrnztnbrgvbtdcmnttn
+:ID:       sbrgrdthdcsnltstbrgdcntrlcrsynchrnztnbrgvbtdcmnttn
 :END:
 : Simplified git version control only limited by your storage space.
 : Synchronization algorithm that can handle moved files and empty directories and files.
@@ -103,30 +103,30 @@ e.g. create empty node_modules
 
 * [#C] [2020-09-11] [[https://mycroftai.activehosted.com/index.php?action=social&chash=a666587afda6e89aec274a3657558a27.613&s=a097e7aac8da6ebed9dcda7ec603a22e][GUI, Core Update, and Dev Sync Videos!]] :mycroft:
 :PROPERTIES:
-:ID:       frsmycrftctvhstdcmndxphpccdbddcdcgcrpdtnddvsyncvds
+:ID:       smycrftctvhstdcmndxphpctncdbddcdcgcrpdtnddvsyncvds
 :END:
 : GUI now available on Ubuntu and Manjaro
 : If you have Mycroft running on the latest (K)Ubuntu or Manjaro releases, you can now install the Alpha release of the Mycroft GUI powered by Qt and Kirigami. Simply use the same basic commands used to install mycroft-core.
 * [#C] [2020-12-20] [[https://github.com/tulir/mautrix-facebook/wiki/Bridge-setup-with-Docker][Bridge setup with Docker · tulir/mautrix-facebook Wiki]] :matrix:
 :PROPERTIES:
-:ID:       snsgthbcmtlrmtrxfcbkwkbrddgstpwthdckrtlrmtrxfcbkwk
+:ID:       sgthbcmtlrmtrxfcbkwkbrdgsdgstpwthdckrtlrmtrxfcbkwk
 :END:
 : Upgrading
 :     Pull the new version (setup step 1)
 :     Start the new version (setup step 7)
 ** TODO [2020-12-20] [[https://github.com/tulir/mautrix-facebook/wiki/Bridge-setup-with-Docker][Bridge setup with Docker · tulir/mautrix-facebook Wiki]] :matrix:
 :PROPERTIES:
-:ID:       snsgthbcmtlrmtrxfcbkwkbrddgstpwthdckrtlrmtrxfcbkwk
+:ID:       sgthbcmtlrmtrxfcbkwkbrdgsdgstpwthdckrtlrmtrxfcbkwk
 :END:
 ugh. kinda annoying it's running as root
 * [#D] [2019-05-16] [[https://reddit.com/r/selfhosted/comments/bmxqwd/i_made_a_selfhosted_personal_lastfm_alternative/][I made a self-hosted personal Last.fm alternative with support for custom artwork, multiple artists per track and self-defined rules for metadata correction]] /r/selfhosted :music:
 :PROPERTIES:
-:ID:       thsrddtcmrslfhstdcmmntsbmndrlsfrmtdtcrrctnrslfhstd
+:ID:       srddtcmrslfhstdcmmntsbmxqndrlsfrmtdtcrrctnrslfhstd
 :END:
 
 * STRT [#B] [2020-01-18] bb4242/sdnotify: A pure Python implementation of systemd's service notification protocol (sd_notify) -- can be used for watchdog? :infra:systemd:
 :PROPERTIES:
-:ID:       stbbsdntfyprpythnmplmnttnnprtclsdntfycnbsdfrwtchdg
+:ID:       bbsdntfyprpythnmplmnttnfsnprtclsdntfycnbsdfrwtchdg
 :END:
 https://github.com/bb4242/sdnotify
 * STRT [#B] replace backoff with that other thing?             :arctee:infra:
@@ -141,12 +141,12 @@ https://github.com/bb4242/sdnotify
 :END:
 * [#C] [2020-01-12] [[https://news.ycombinator.com/item?id=22027459][Deploy your side-projects at scale for basically nothing – Google Cloud Run]] :hpi:promnesia:project:
 :PROPERTIES:
-:ID:       snsnwsycmbntrcmtmddplyyrstsclfrbscllynthnggglcldrn
+:ID:       snwsycmbntrcmtmddplyyrsdptsclfrbscllynthnggglcldrn
 :END:
 https://alexolivier.me/posts/deploy-container-stateless-cheap-google-cloud-run-serverless
 ** [2020-08-15] can deploy docker container and run?
 :PROPERTIES:
-:ID:       stcndplydckrcntnrndrn
+:ID:       cndplydckrcntnrndrn
 :END:
 * TODO [#D] figure out unmatching origin/master? always check it even without fetch?? :clustergit:
 :PROPERTIES:
@@ -155,19 +155,19 @@ https://alexolivier.me/posts/deploy-container-stateless-cheap-google-cloud-run-s
 :END:
 * TODO [#C] [2019-08-18] Elasticlunr.js, lightweight full-text search engine in Javascript for browser search and offline search. :search:
 :PROPERTIES:
-:ID:       snlstclnrjslghtwghtflltxtcrptfrbrwsrsrchndfflnsrch
+:ID:       lstclnrjslghtwghtflltxtsrcrptfrbrwsrsrchndfflnsrch
 :END:
 http://elasticlunr.com/
 I think I'm using it in scrapyroo.. perhaps I should index all my git repos?
 * [#C] [2019-09-01] vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources :search:
 :PROPERTIES:
-:ID:       snvntwsmpythncrtdlstfwsmpnfrmwrkslbrrssftwrndrsrcs
+:ID:       vntwsmpythncrtdlstfwsmpytnfrmwrkslbrrssftwrndrsrcs
 :END:
 https://github.com/vinta/awesome-python
 : fuzzywuzzy - Fuzzy String Matching.
 * TODO [#C] [2019-06-29] mark-rushakoff/awesome-influxdb: A curated list of awesome projects, libraries, tools, etc. related to InfluxDB :influx:
 :PROPERTIES:
-:ID:       stmrkrshkffwsmnflxdbcrtdljctslbrrstlstcrltdtnflxdb
+:ID:       mrkrshkffwsmnflxdbcrtdlstjctslbrrstlstcrltdtnflxdb
 :END:
 https://github.com/mark-rushakoff/awesome-influxdb
 
@@ -192,14 +192,14 @@ how can we bring Python programming experience closer to this?
 :END:
 * STRT [#C] [2019-09-21] Friz-zy/awesome-linux-containers: A curated list of awesome Linux Containers frameworks, libraries and software :sandbox:
 :PROPERTIES:
-:ID:       stfrzzywsmlnxcntnrscrtdlscntnrsfrmwrkslbrrsndsftwr
+:ID:       frzzywsmlnxcntnrscrtdlstfcntnrsfrmwrkslbrrsndsftwr
 :END:
 https://github.com/Friz-zy/awesome-linux-containers#readme
 : Sandboxes
 :     Firejail is a SUID sandbox program that reduces the risk of security breaches by restricting the running environment of untrusted applications using Linux namespaces, seccomp-bpf and Linux capabilities.
 * [#D] [2019-06-11] compression - Difference between --xz and --lzma in GNU tar? - Unix & Linux Stack Exchange
 :PROPERTIES:
-:ID:       tcmprssndffrncbtwnxzndlzmngntrnxlnxstckxchng
+:ID:       cmprssndffrncbtwnxzndlzmngntrnxlnxstckxchng
 :END:
 https://unix.stackexchange.com/questions/72037/difference-between-xz-and-lzma-in-gnu-tar
 : This options control which external binary tar calls for compressing its data stream: lzma and xz respectively. While both of them uses the same compression algorithm by default, xz is considered more up-to-date and feature rich, with lzma being somewhat legacy tool. Modern version of xz-utils provides both commands, with lzma being an 'alias' for xz --format=lzma (man xz).
@@ -211,7 +211,7 @@ https://unix.stackexchange.com/questions/72037/difference-between-xz-and-lzma-in
 
 * [#C] [2020-03-18] remarkable: What's their portability story? I don't want my personal knowledge store to be l... | Hacker News :remarkable:
 :PROPERTIES:
-:ID:       wdrmrkblwhtsthrprtbltystryprsnlknwldgstrtblhckrnws
+:ID:       rmrkblwhtsthrprtbltystrydyprsnlknwldgstrtblhckrnws
 :END:
 https://news.ycombinator.com/item?id=22607112
 : Not great, you can only officially export PDF, PNG, or SVG, though their cloud management does seem to work really well and as I understand, files are stored locally on each device once synced.
@@ -220,36 +220,36 @@ https://news.ycombinator.com/item?id=22607112
 : It may be possilbe you could hack it to run xournal, but I've no idea.
 * TODO [#C] [2020-04-16] [[https://lobste.rs/s/jwwhb6/gnu_guix_1_1_0_released#c_88slhh][GNU Guix 1.1.0 released | Lobsters]] :nix:towatch:
 :PROPERTIES:
-:ID:       thslbstrssjwwhbgngxrlsdcslhhgngxrlsdlbstrs
+:ID:       slbstrssjwwhbgngxrlsdcslhhgngxrlsdlbstrs
 :END:
 : I never understood what all the fuzz is about until I saw this talk at fosdem this year: https://fosdem.org/2020/schedule/event/guix/
 : I really liked all the features presented, unfortunately I am not in an environment where I could use guix, but it is def. something I keep an eye on.
 
 * [#C] [2020-06-18] [[https://pythonspeed.com/articles/dockerizing-python-is-hard/][Broken by default: why you should avoid most Dockerfile examples]]
 :PROPERTIES:
-:ID:       thspythnspdcmrtclsdckrzngtwhyyshldvdmstdckrflxmpls
+:ID:       spythnspdcmrtclsdckrzngpytwhyyshldvdmstdckrflxmpls
 :END:
 : If you want fast builds, you want to rely on Docker’s layer caching. But by copying in the file before running pip install, all later layers are invalidated—this image will be rebuilt from scratch every time.
 * [#C] [2020-02-08] Haskell for all: Why Dhall advertises the absence of Turing-completeness :configs:
 :PROPERTIES:
-:ID:       sthskllfrllwhydhlldvrtssthbsncftrngcmpltnss
+:ID:       hskllfrllwhydhlldvrtssthbsncftrngcmpltnss
 :END:
 http://www.haskellforall.com/2020/01/why-dhall-advertises-absence-of-turing.html
 : Why Dhall advertises the absence of Turing-completeness
 * [#C] [2020-08-22] use chronic (by default cron spams with stdout/stderr)
 :PROPERTIES:
-:ID:       stschrncbydfltcrnspmswthstdtstdrr
+:ID:       schrncbydfltcrnspmswthstdtstdrr
 :END:
 : I use `chronic` in almost all of my cron jobs so that cron sends me an email with the output only if the command has a return code of != 0.
 * [#C] [2020-01-25] tmuxinator/tmuxinator: Manage complex tmux sessions easily
 :PROPERTIES:
-:ID:       sttmxntrtmxntrmngcmplxtmxsssnssly
+:ID:       tmxntrtmxntrmngcmplxtmxsssnssly
 :END:
 https://github.com/tmuxinator/tmuxinator
 
 * [#C] [2020-02-20] backup - Basic rsync command for bit-identical copies - Unix & Linux Stack Exchange
 :PROPERTIES:
-:ID:       thbckpbscrsynccmmndfrbtdntclcpsnxlnxstckxchng
+:ID:       bckpbscrsynccmmndfrbtdntclcpsnxlnxstckxchng
 :END:
 https://unix.stackexchange.com/questions/118883/basic-rsync-command-for-bit-identical-copies
 : So this is the basic command to make the destination identical to the source (absent hard links, ACLs and extended attributes):
@@ -257,7 +257,7 @@ https://unix.stackexchange.com/questions/118883/basic-rsync-command-for-bit-iden
 : rsync -a --delete SOURCE/ DESTINATION/
 * [#C] [2020-04-19] [[https://news.ycombinator.com/item?id=22914789][QRCP: Transfer files to mobile device by scanning a QR code from the terminal | Hacker News]]
 :PROPERTIES:
-:ID:       snsnwsycmbntrcmtmdqrcptrnnnngqrcdfrmthtrmnlhckrnws
+:ID:       snwsycmbntrcmtmdqrcptrnsfnnngqrcdfrmthtrmnlhckrnws
 :END:
 * TODO [#D] Even though Ahrens argues that there neither can nor should be any overview, I disobediently wrote another script to make an SVG image of it using GraphViz. I originally had it generating PNGs but they rapidly got too large. Here’s what the whole system looks like as of this morning:
 :PROPERTIES:
@@ -270,87 +270,87 @@ cool!
 
 * [2020-04-05] Start all of your commands with a comma (2009) | Hacker News
 :PROPERTIES:
-:ID:       snstrtllfyrcmmndswthcmmhckrnws
+:ID:       strtllfyrcmmndswthcmmhckrnws
 :END:
 https://news.ycombinator.com/item?id=22778988
 * [#C] [2020-01-09] Canop/broot: A new way to see and navigate directory trees
 :PROPERTIES:
-:ID:       thcnpbrtnwwytsndnvgtdrctrytrs
+:ID:       cnpbrtnwwytsndnvgtdrctrytrs
 :END:
 https://github.com/Canop/broot
 
 * [2020-04-01] Jitsi Meet: An open source alternative to Zoom | Hacker News
 :PROPERTIES:
-:ID:       wdjtsmtnpnsrcltrntvtzmhckrnws
+:ID:       jtsmtnpnsrcltrntvtzmhckrnws
 :END:
 https://news.ycombinator.com/item?id=22669968
 * [#C] [2020-10-12] [[https://github.com/jarun/nnn][jarun/nnn: n³ The unorthodox terminal file manager.]]
 :PROPERTIES:
-:ID:       mnsgthbcmjrnnnnjrnnnnnthnrthdxtrmnlflmngr
+:ID:       sgthbcmjrnnnnjrnnnnnthnrthdxtrmnlflmngr
 :END:
 
 * [#D] [2020-10-05] [[https://github.com/tridactyl/tridactyl][tridactyl/tridactyl: A Vim-like interface for Firefox, inspired by Vimperator/Pentadactyl.]] :vim:
 :PROPERTIES:
-:ID:       mnsgthbcmtrdctyltrdctyltrfrfxnsprdbyvmprtrpntdctyl
+:ID:       sgthbcmtrdctyltrdctyltrdcfrfxnsprdbyvmprtrpntdctyl
 :END:
 * [#C] [2020-04-25] [[https://github.com/naelstrof/slop][naelstrof/slop: slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout.]] :exports:
 :PROPERTIES:
-:ID:       stsgthbcmnlstrfslpnlstrfsnfrmthsrndprntsthrgntstdt
+:ID:       sgthbcmnlstrfslpnlstrfslpnfrmthsrndprntsthrgntstdt
 :END:
 : NixOS: slop
 * [2020-07-02] benefit of compose -- builds automatically, so very easy to run stuff :docker:
 :PROPERTIES:
-:ID:       thbnftfcmpsbldstmtcllysvrysytrnstff
+:ID:       bnftfcmpsbldstmtcllysvrysytrnstff
 :END:
 * [2020-07-01] ok, using explicit type: bind shows warning when source dir doesn't exist :docker:
 :PROPERTIES:
-:ID:       wdksngxplcttypbndshwswrnngwhnsrcdrdsntxst
+:ID:       ksngxplcttypbndshwswrnngwhnsrcdrdsntxst
 :END:
 * [#B] [2019-12-03] [[https://news.ycombinator.com/item?id=21685166][TLDR Digital Safety Checklist]] :security:
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdtldrdgtlsftychcklst
+:ID:       snwsycmbntrcmtmdtldrdgtlsftychcklst
 :END:
 https://github.com/hongkonggong/tldr-digital-security/blob/master/README.md
 * [2019-07-27] shell into image docker run -it --entrypoint /bin/bash circleci/python:latest :docker:
 :PROPERTIES:
-:ID:       stshllntmgdckrrntntrypntbnbshcrclcpythnltst
+:ID:       shllntmgdckrrntntrypntbnbshcrclcpythnltst
 :END:
 * [2019-08-24] systemd.unit
 :PROPERTIES:
-:ID:       stsystmdnt
+:ID:       systmdnt
 :END:
 https://www.freedesktop.org/software/systemd/man/systemd.unit.html#
 : Note that systemctl reset-failed will cause the restart rate counter for a service to be flushed
 * [#D] [2019-01-25] LTD-Beget/sprutio: Beget File Manager App (two-panel)
 :PROPERTIES:
-:ID:       frltdbgtsprtbgtflmngrpptwpnl
+:ID:       ltdbgtsprtbgtflmngrpptwpnl
 :END:
 https://github.com/LTD-Beget/sprutio
 holy crap, that's elaborate!
 ** [2019-06-01] last updated 2 years ago...
 :PROPERTIES:
-:ID:       stlstpdtdyrsg
+:ID:       lstpdtdyrsg
 :END:
 
 * [#C] [2018-09-29] huginn/huginn: Create agents that monitor and act on your behalf. Your agents are standing by! :selfhosted:
 :PROPERTIES:
-:ID:       sthgnnhgnncrtgntsthtmntrndctnyrbhlfyrgntsrstndngby
+:ID:       hgnnhgnncrtgntsthtmntrndctnyrbhlfyrgntsrstndngby
 :END:
 https://github.com/huginn/huginn
 ** [2018-10-05]  hmm, interesting, kinda like open source ifttt. Wonder if I can come up to any decent uses?
 :PROPERTIES:
-:ID:       frhmmntrstngkndlkpnsrcftttwndrfcncmptnydcntss
+:ID:       hmmntrstngkndlkpnsrcftttwndrfcncmptnydcntss
 :END:
 * [2019-09-08] How can I add a volume to an existing Docker container? - Stack Overflow :docker:
 :PROPERTIES:
-:ID:       snhwcnddvlmtnxstngdckrcntnrstckvrflw
+:ID:       hwcnddvlmtnxstngdckrcntnrstckvrflw
 :END:
 https://stackoverflow.com/questions/28302178/how-can-i-add-a-volume-to-an-existing-docker-container
 : You can commit your existing container (that is create a new image from container’s changes) and then run it with your new mounts.
 
 * [2019-05-03] Nested folders - Support - Syncthing Forum         :syncthing:
 :PROPERTIES:
-:ID:       frnstdfldrsspprtsyncthngfrm
+:ID:       nstdfldrsspprtsyncthngfrm
 :END:
 https://forum.syncthing.net/t/nested-folders/11793/10
 : Ildar Yusupov
@@ -366,25 +366,25 @@ https://forum.syncthing.net/t/nested-folders/11793/10
 
 * [2019-05-03] nice, fork syncs pretty instantaneously            :syncthing:
 :PROPERTIES:
-:ID:       frncfrksyncsprttynstntnsly
+:ID:       ncfrksyncsprttynstntnsly
 :END:
 * [2020-07-04] ok, so it's capable of catching up from a config file only (if you discard caches and certificates) :syncthing:
 :PROPERTIES:
-:ID:       stkstscpblfctchngpfrmcnfgflnlyfydscrdcchsndcrtfcts
+:ID:       kstscpblfctchngpfrmcnfgflnlyfydscrdcchsndcrtfcts
 :END:
 * [2020-03-15] wow nice command to introspect everything       :systemd:dbus:
 :PROPERTIES:
-:ID:       snwwnccmmndtntrspctvrythng
+:ID:       wwnccmmndtntrspctvrythng
 :END:
 : gdbus introspect -r --session --dest org.freedesktop.systemd1 --object-path /org/freedesktop/systemd1
 * [2020-04-06] Dhall
 :PROPERTIES:
-:ID:       mndhll
+:ID:       dhll
 :END:
 : It's hard to take Dhall seriously because it seems like its authors don't take it seriously, and work on it for entertainment. They went through the trouble of creating bindings for five (!!) different languages, and the most popular of them, by a pretty wide margin, is Ruby. I assume Fortran, Delphi, and Idris are next on their list.
 * [2020-05-04] [[https://blog.darknedgy.net/technology/2020/05/02/0/index.html][systemd, 10 years later: a historical and technical retrospective]] :systemd:
 :PROPERTIES:
-:ID:       mnsblgdrkndgynttchnlgyndxltrhstrclndtchnclrtrspctv
+:ID:       sblgdrkndgynttchnlgyndxhtltrhstrclndtchnclrtrspctv
 :END:
 : 3.6. Case studies
 : The above may sound rather theoretical and nitpicking, so let’s illustrate with a few examples.
@@ -413,27 +413,27 @@ https://github.com/syncthing/syncthing-android/issues/748 ok, it can be disabled
 :END:
 * [2019-09-07] Set current host user for docker container - Faun - Medium :docker:
 :PROPERTIES:
-:ID:       ststcrrnthstsrfrdckrcntnrfnmdm
+:ID:       stcrrnthstsrfrdckrcntnrfnmdm
 :END:
 https://medium.com/faun/set-current-host-user-for-docker-container-4e521cef9ffc
 ** [2019-09-15] some ways of managing user permissions
 :PROPERTIES:
-:ID:       snsmwysfmngngsrprmssns
+:ID:       smwysfmngngsrprmssns
 :END:
 
 * [#C] [2019-09-01] How to mount encrypted LVM logical volume
 :PROPERTIES:
-:ID:       snhwtmntncryptdlvmlgclvlm
+:ID:       hwtmntncryptdlvmlgclvlm
 :END:
 https://blog.sleeplessbeastie.eu/2015/11/16/how-to-mount-encrypted-lvm-logical-volume/
 * [#D] [2020-01-29] Jorgen’s Weblog: Why systemd?                   :systemd:
 :PROPERTIES:
-:ID:       wdjrgnswblgwhysystmd
+:ID:       jrgnswblgwhysystmd
 :END:
 http://blog.jorgenschaefer.de/2014/07/why-systemd.html
 * [2020-01-28] systemd as a tradegy                                 :systemd:
 :PROPERTIES:
-:ID:       tsystmdstrdgy
+:ID:       systmdstrdgy
 :END:
 ** https://news.ycombinator.com/item?id=19023232
 :PROPERTIES:
@@ -446,19 +446,19 @@ http://blog.jorgenschaefer.de/2014/07/why-systemd.html
 : (And yes, I still consider it a weakness of UNIX that "logout" doesn't really mean "logout", but just "maybe, please, if you'd be so kind, i'd like to exit, but not quite". I mean, that's not how you build a secure system. We fixed that really, fully knowing it would depart from UNIX tradition, but that's why we made it both compile-time and runtime configurable)
 * [#C] [2018-06-30] dropmeaword/kobo-aura-remote: Enable remote access on a Kobo Aura eReader :kobo:
 :PROPERTIES:
-:ID:       stdrpmwrdkbrrmtnblrmtccssnkbrrdr
+:ID:       drpmwrdkbrrmtnblrmtccssnkbrrdr
 :END:
 https://github.com/dropmeaword/kobo-aura-remote
 
 ** [2018-09-10] Wireless gone · Issue #1 · dropmeaword/kobo-aura-remote :kobo:
 :PROPERTIES:
-:ID:       mnwrlssgnssdrpmwrdkbrrmt
+:ID:       wrlssgnssdrpmwrdkbrrmt
 :END:
 https://github.com/dropmeaword/kobo-aura-remote/issues/1
 
 * [2017-08-10] mutt                                                    :mail:
 :PROPERTIES:
-:ID:       thmtt
+:ID:       mtt
 :END:
 - couldn't set up html colors rendering
 -- apparently, no automatic filtering and folders
@@ -466,25 +466,25 @@ https://github.com/dropmeaword/kobo-aura-remote/issues/1
 I guess I'm better off setting retention policy for thunderbird
 * [#D] [2020-06-13] ok, so literally setting domain main is enough for TLS. kinda incredible :caddy:
 :PROPERTIES:
-:ID:       stksltrllysttngdmnmnsnghfrtlskndncrdbl
+:ID:       ksltrllysttngdmnmnsnghfrtlskndncrdbl
 :END:
 * [#D] [2018-06-10] python-daemon · PyPI
 :PROPERTIES:
-:ID:       snpythndmnpyp
+:ID:       pythndmnpyp
 :END:
 https://pypi.org/project/python-daemon/
 
 * [#B] [2020-07-16] [[https://news.ycombinator.com/item?id=23860338][Zulip 3.0: Threaded Open Source Team Chat | Hacker News]] :zulip:
 :PROPERTIES:
-:ID:       thsnwsycmbntrcmtmdzlpthrddpnsrctmchthckrnws
+:ID:       snwsycmbntrcmtmdzlpthrddpnsrctmchthckrnws
 :END:
 ** [2020-07-31] ok, Zulip is clearly really good, I think I should use it
 :PROPERTIES:
-:ID:       frkzlpsclrlyrllygdthnkshldst
+:ID:       kzlpsclrlyrllygdthnkshldst
 :END:
 * DONE [#C] [2019-12-20] 9 best open-source findings, November 2019 - DEV Community 👩‍💻👨‍💻 :docker:
 :PROPERTIES:
-:ID:       frbstpnsrcfndngsnvmbrdvcmmnty
+:ID:       bstpnsrcfndngsnvmbrdvcmmnty
 :END:
 https://dev.to/sobolevn/9-best-open-source-findings-november-2019-gi0
 : lazydocker
@@ -492,55 +492,55 @@ https://dev.to/sobolevn/9-best-open-source-findings-november-2019-gi0
 : Written in Go.
 * [2020-01-18] Cron/Anacron vs. Systemd - Ask Ubuntu
 :PROPERTIES:
-:ID:       stcrnncrnvssystmdskbnt
+:ID:       crnncrnvssystmdskbnt
 :END:
 https://askubuntu.com/questions/1023186/cron-anacron-vs-systemd
 : Systemd timers have some overhead to learn and setup, but provide a number of benefits. There some packages like systemd-cron and systemd-cron-next that allow you to have cron entries converted to systemd-timers, to try to provide a best-of-both-worlds solution
 * [2020-01-22] systemd.service
 :PROPERTIES:
-:ID:       wdsystmdsrvc
+:ID:       systmdsrvc
 :END:
 https://www.freedesktop.org/software/systemd/man/systemd.service.html
 : Type=oneshot is the implied default if neither Type= nor ExecStart= are specified.
 * DONE [#A] [2020-02-23] [[https://news.ycombinator.com/item?id=22396911][Daily Life with the Offline Laptop]] :offline:
 :PROPERTIES:
-:ID:       snsnwsycmbntrcmtmddlylfwththfflnlptp
+:ID:       snwsycmbntrcmtmddlylfwththfflnlptp
 :END:
 https://dataswamp.org/~solene/2020-02-18-offline-laptop-v2.html
 * [#B] [2019-11-26] Is it possible to escalate privileges and escaping from a Docker container? - Information Security Stack Exchange
 :PROPERTIES:
-:ID:       tstpssbltscltprvlgsndscpncntnrnfrmtnscrtystckxchng
+:ID:       stpssbltscltprvlgsndscpngcntnrnfrmtnscrtystckxchng
 :END:
 https://security.stackexchange.com/questions/152978/is-it-possible-to-escalate-privileges-and-escaping-from-a-docker-container/153016#153016
 : A user on a Docker host who has access to the docker group or privileges to sudo docker commands is effectively root (as you can do things like use docker to run a privilieged container or mount the root filesystem inside a container), which is why it's very important to control that right.
 * [#C] [2020-04-15] [[https://news.ycombinator.com/item?id=22877355][My experience with NixOS | Hacker News]]
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdmyxprncwthnxshckrnws
+:ID:       snwsycmbntrcmtmdmyxprncwthnxshckrnws
 :END:
 : My tip: don't use nix-env to install packages like it's Aptitude or Pacman, use `nix run` if you need a package temporarily, home-manager if you need a user-level package permanently, or just straight up change the configuration.nix to include the package as a system-wide one.
 : If you use nix-env you're just polluting your environment in an imperative way and that is pretty much going against Nix' declarative nature.
 * [#C] [2020-12-05] [[https://news.ycombinator.com/item?id=25142405][Librem 5 Mass Production Phone Has Begun Shipping | Hacker News]]
 :PROPERTIES:
-:ID:       stsnwsycmbntrcmtmdlbrmmssdctnphnhsbgnshppnghckrnws
+:ID:       snwsycmbntrcmtmdlbrmmssprdctnphnhsbgnshppnghckrnws
 :END:
 : I've been trying to use the PinePhone as a daily driver and it simply isn't there yet: camera is slow to the point of unusable and sometimes it hard crashes when making calls.
 : Here's hoping that Purism has done a good job of cleaning up some of the issues in Phosh.
 * [2019-09-29] Kobonotes: Store all your annotations and highlights from your Kobo :kobo:
 :PROPERTIES:
-:ID:       snkbntsstrllyrnnttnsndhghlghtsfrmyrkb
+:ID:       kbntsstrllyrnnttnsndhghlghtsfrmyrkb
 :END:
 https://www.thekobonotes.com/faq
 
 * [#D] [2019-01-25] How do I ssh into the Kobo Aura One in 2017 - MobileRead Forums :kobo:
 :PROPERTIES:
-:ID:       frhwdsshntthkbrnnmblrdfrms
+:ID:       hwdsshntthkbrnnmblrdfrms
 :END:
 https://www.mobileread.com/forums/showthread.php?t=286085
 : KoboLauncher has UsbNet tool (+new dropbear + new sftp-server from openssh)
 : P.S. Works with latest FW
 * [#D] [2019-01-25] How do I ssh into the Kobo Aura One in 2017 - MobileRead Forums :kobo:
 :PROPERTIES:
-:ID:       frhwdsshntthkbrnnmblrdfrms
+:ID:       hwdsshntthkbrnnmblrdfrms
 :END:
 https://www.mobileread.com/forums/showthread.php?t=286085
 : The first way does not work with FW 4.6.9995 (or any other FW from May on). I tried it and had to do a firmware reset after it.
@@ -549,7 +549,7 @@ https://www.mobileread.com/forums/showthread.php?t=286085
 : Does anyone have a KoboRoot.tgz or start script for (k)filemon stat starts dropbear along with WiFi?
 * CANCEL [2018-10-22] robbinch/kobo-utils: SSH client for Kobo Aura One :kobo:
 :PROPERTIES:
-:ID:       mnrbbnchkbtlssshclntfrkbrn
+:ID:       rbbnchkbtlssshclntfrkbrn
 :END:
 https://github.com/robbinch/kobo-utils
 ** https://yingtongli.me/blog/2018/07/30/kobo-ssh.html  some dropbear thing??
@@ -558,26 +558,26 @@ https://github.com/robbinch/kobo-utils
 :END:
 ** [2019-02-09] eh.. perhaps not worth the trouble
 :PROPERTIES:
-:ID:       sthprhpsntwrththtrbl
+:ID:       hprhpsntwrththtrbl
 :END:
 
 
 * [#B] [2018-09-04] prefer xz over lzma (recommended by the author)
 :PROPERTIES:
-:ID:       tprfrxzvrlzmrcmmnddbyththr
+:ID:       prfrxzvrlzmrcmmnddbyththr
 :END:
 * [#B] [2020-01-07] chkservice Is A systemd Unit Manager With A Terminal User Interface (New Version Available) - Linux Uprising Blog :dron:systemd:
 :PROPERTIES:
-:ID:       tchksrvcssystmdntmngrwthttrfcnwvrsnvlbllnxprsngblg
+:ID:       chksrvcssystmdntmngrwthtrtrfcnwvrsnvlbllnxprsngblg
 :END:
 https://www.linuxuprising.com/2019/11/chkservice-is-systemd-units-manager.html
 ** [2020-01-16] eh, not too useful when it's 600 services? Also can only enable/disable via interface
 :PROPERTIES:
-:ID:       thhnttsflwhntssrvcslscnnlynbldsblvntrfc
+:ID:       hnttsflwhntssrvcslscnnlynbldsblvntrfc
 :END:
 
 * [#D] [2020-01-07] serman                                          :systemd:
 :PROPERTIES:
-:ID:       tsrmn
+:ID:       srmn
 :END:
 https://xyne.archlinux.ca/projects/serman/

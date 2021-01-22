@@ -4,17 +4,17 @@
 
 * [2018-07-31] https://en.wikipedia.org/wiki/Ostrogradsky_instability -- explanation why differential equations of orders higher than two do not appear in physics :diffeq:
 :PROPERTIES:
-:ID:       tsnwkpdrgwkstrgrdskynstbldrshghrthntwdntpprnphyscs
+:ID:       snwkpdrgwkstrgrdskynstbltdrshghrthntwdntpprnphyscs
 :END:
 * [2018-08-25] In classical mechanics, the state of a system is determined by a point in phase space :lagrangian:
 :PROPERTIES:
-:ID:       stnclssclmchncsthsttfsystmsdtrmndbypntnphsspc
+:ID:       nclssclmchncsthsttfsystmsdtrmndbypntnphsspc
 :END:
 It's unique! In the same way as quantum state is unique
 
 * [2018-08-23] Zee's book is a bit hard to read.. lots of jumping around and notation abuse... :physics:qft:
 :PROPERTIES:
-:ID:       thzsbksbthrdtrdltsfjmpngrndndnttnbs
+:ID:       zsbksbthrdtrdltsfjmpngrndndnttnbs
 :END:
 * TODO Why do we not have spin greater than 2? - Physics Stack Exchange :spin:
 :PROPERTIES:
@@ -38,19 +38,19 @@ https://twitter.com/johncarlosbaez/status/1036455724996382721
 
 * TODO [2018-11-14] A soft introduction to physics for mathematicians who don't know the first thing about physics - MathOverflow :math:physics:connection:
 :PROPERTIES:
-:ID:       wdsftntrdctntphyscsfrmthmhfrstthngbtphyscsmthvrflw
+:ID:       sftntrdctntphyscsfrmthmtchfrstthngbtphyscsmthvrflw
 :END:
 https://mathoverflow.net/questions/51395/a-soft-introduction-to-physics-for-mathematicians-who-dont-know-the-first-thing/51411#51411
 ** [2019-01-10] shit, that's intense..
 :PROPERTIES:
-:ID:       thshtthtsntns
+:ID:       shtthtsntns
 :END:
 : Another question: Why in general relativity E=mc2?
 : Math Answer: Because the group of Poincaré has no cohomology
 
 * [2019-01-07] classical mechanics - What if the Euler Lagrange equation yields a 'trivial' answer - Mathematics Stack Exchange :lagrangian:
 :PROPERTIES:
-:ID:       mnclssclmchncswhtfthlrlgrstrvlnswrmthmtcsstckxchng
+:ID:       clssclmchncswhtfthlrlgrngstrvlnswrmthmtcsstckxchng
 :END:
 https://math.stackexchange.com/questions/191935/what-if-the-euler-lagrange-equation-yields-a-trivial-answer
 example lagrangian independent of path, all paths are stationary
@@ -75,7 +75,7 @@ example lagrangian independent of path, all paths are stationary
 
 * [2015-03-09] some old notes on nuclear physics
 :PROPERTIES:
-:ID:       mnsmldntsnnclrphyscs
+:ID:       smldntsnnclrphyscs
 :END:
 : Neutron decays into proton, electron and anti-neutrino.
 : 
@@ -105,13 +105,13 @@ example lagrangian independent of path, all paths are stationary
 : Describing it as "absorbed and re-emitted" makes me think way too much that some electron absorbs the energy, enters a discrete excited state for some time, and then transitions back to a lower-energy state while giving off a photon.
 * [#C] [2019-05-06] Self-energy - Wikipedia
 :PROPERTIES:
-:ID:       mnslfnrgywkpd
+:ID:       slfnrgywkpd
 :END:
 https://en.wikipedia.org/wiki/Self-energy
 : The photon and gluon do not get a mass through renormalization because gauge symmetry protects them from getting a mass. This is a consequence of the Ward identity. The W-boson and the Z-boson get their masses through the Higgs mechanism; they do undergo mass renormalization through the renormalization of the electroweak theory.
 * STRT [#C] [2018-12-09] Clifford Algebra: A visual introduction | slehar
 :PROPERTIES:
-:ID:       snclffrdlgbrvslntrdctnslhr
+:ID:       clffrdlgbrvslntrdctnslhr
 :END:
 : https://slehar.wordpress.com/2014/03/18/clifford-algebra-a-visual-introduction/
 : Another feature of Clifford Algebra is that it uses a coordinate-free representation. Instead of defining motion with respect to an external coordinate system, motion is described with respect to a coordinate frame defined on the object in question, which greatly simplifies many models.
@@ -127,27 +127,27 @@ from Not Even Wrong: The Failure of String Theory and the Search for Unity in Ph
 
 * TODO [#C] [2018-12-09] Gerard ’t Hooft, Theoretical Physics as a Challenge :study:read:
 :PROPERTIES:
-:ID:       sngrrdthftthrtclphyscsschllng
+:ID:       grrdthftthrtclphyscsschllng
 :END:
 http://www.staff.science.uu.nl/~hooft101/theorist.html
 
 ** [2019-01-10] go through it and figure out where I am
 :PROPERTIES:
-:ID:       thgthrghtndfgrtwhrm
+:ID:       gthrghtndfgrtwhrm
 :END:
 * TODO [#C] [2018-08-17] Baez -- how to learn physics http://math.ucr.edu/home/baez/books.html :book:
 :PROPERTIES:
-:ID:       frbzhwtlrnphyscsmthcrdhmbzbkshtml
+:ID:       bzhwtlrnphyscsmthcrdhmbzbkshtml
 :END:
 * [#C] [2019-04-13] Physics Educational Software                        :viz:
 :PROPERTIES:
-:ID:       stphyscsdctnlsftwr
+:ID:       physcsdctnlsftwr
 :END:
 http://physics.weber.edu/schroeder/software/
 
 * [#C] [2019-02-13] [[https://reddit.com/r/Physics/comments/aq9k8v/the_frustrating_success_of_our_best_theory_of/egeig24/][The Frustrating Success of Our Best Theory of Physics]] /r/Physics
 :PROPERTIES:
-:ID:       wdsrddtcmrphyscscmmntsqkvssfrbstthryfphyscsrphyscs
+:ID:       srddtcmrphyscscmmntsqkvthssfrbstthryfphyscsrphyscs
 :END:
 :  Noether's first theorem applies to global symmetries (finite groups, to be more precise) and leads to charges which are conserved upon imposing the equations of motion, aka the laws of physics (meaning it's not mathematically inconsistent to imagine charges not being conserved, it's just that real universes don't have that).
 : 
@@ -217,7 +217,7 @@ huh nice -- it's kinda like in Zee's book
 
 * [#D] [2018-12-22] file:Wigner function for tunnelling.ogv - Wikipedia :viz:
 :PROPERTIES:
-:ID:       stflwgnrfnctnfrtnnllnggvwkpd
+:ID:       flwgnrfnctnfrtnnllnggvwkpd
 :END:
 https://en.wikipedia.org/wiki/File:Wigner_function_for_tunnelling.ogv
 
@@ -257,7 +257,7 @@ https://twitter.com/sean_a_mcclure/status/1139133916584009728
 
 ** [#C] [2018-11-10] Tangent bundle - Wikipedia                  :symplectic:
 :PROPERTIES:
-:ID:       sttngntbndlwkpd
+:ID:       tngntbndlwkpd
 :END:
 https://en.wikipedia.org/wiki/Tangent_bundle
 One of the main roles of the tangent bundle is to provide a domain and range for the derivative of a smooth function. Namely, if f : M → N is a smooth function, with M and N smooth manifolds, its derivative is a smooth function Df : TM → TN.
@@ -269,7 +269,7 @@ One of the main roles of the tangent bundle is to provide a domain and range for
 https://thirdtriumvirate.wordpress.com/2019/02/13/the-frustrating-success-of-the-standard-model/
 *** [2019-06-16] however it depends on the way we count them  (e.g. taking into account spontageous symmetry breaking or not)
 :PROPERTIES:
-:ID:       snhwvrtdpndsnthwywcntthmgccntspntgssymmtrybrkngrnt
+:ID:       hwvrtdpndsnthwywcntthmgtkccntspntgssymmtrybrkngrnt
 :END:
   https://physics.stackexchange.com/a/305026
 Counting this way gives us 37 fields. As you can see, field counting can be very arbitrary as it depends on what you understand by a single quantum field
@@ -285,7 +285,7 @@ https://thirdtriumvirate.wordpress.com/2019/02/13/the-frustrating-success-of-the
 https://www.quantumdiaries.org/2011/06/19/helicity-chirality-mass-and-the-higgs/
 *** [2020-12-08] I guess electron can interact because of weak force handedness?
 :PROPERTIES:
-:ID:       tgsslctrncnntrctbcsfwkfrchnddnss
+:ID:       gsslctrncnntrctbcsfwkfrchnddnss
 :END:
 
 ** [2019-06-12] Gluons are also massless, but they have a short range force due to their confinement :drill:
@@ -300,24 +300,24 @@ https://www.quantumdiaries.org/2011/05/05/a-diagrammatic-hint-of-masses-from-the
 https://coherence.wordpress.com/2012/07/08/the-higgs-boson-simply-explained/
 * [2020-07-20] [[https://en.wikipedia.org/wiki/Spin_isomers_of_hydrogen][Spin isomers of hydrogen - Wikipedia]]
 :PROPERTIES:
-:ID:       mnsnwkpdrgwkspnsmrsfhydrgnspnsmrsfhydrgnwkpd
+:ID:       snwkpdrgwkspnsmrsfhydrgnspnsmrsfhydrgnwkpd
 :END:
 : Molecular hydrogen occurs in two isomeric forms, one with its two proton nuclear spins aligned parallel (orthohydrogen), the other with its two proton spins aligned antiparallel (parahydrogen).[1] These two forms are often referred to as spin isomers.[2]
 : 
 : Parahydrogen is in a lower energy state than is orthohydrogen. At room temperature and thermal equilibrium, thermal excitation causes hydrogen to consist of approximately 75% orthohydrogen and 25% parahydrogen. When hydrogen is liquified at low temperature, there is a slow spontaneous transition to a predominantly para ratio, with the released energy having implications for storage. Essentially pure parahydrogen form can be obtained at very low temperatures, but it is not possible to obtain a sample containing more than 75% orthohydrogen by heating.
 * [2020-07-20] [[http://hyperphysics.phy-astr.gsu.edu/hbase/molecule/hmol.html][Hydrogen Molecule]]
 :PROPERTIES:
-:ID:       mnhyprphyscsphystrgsdhbsmlclhmlhtmlhydrgnmlcl
+:ID:       hyprphyscsphystrgsdhbsmlclhmlhtmlhydrgnmlcl
 :END:
 :  The potential energy of the anti-bonding orbital shown gives some insight into why a third hydrogen atom cannot bond to the two atoms of the hydrogen molecule. It would be in an anti-bonding situation with one of the other hydrogen atoms and would therefore be repelled. We say that the bond in the hydrogen molecule is "saturated" because it cannot accept another bond.
 * [2020-07-20] [[https://en.wikipedia.org/wiki/Exchange_interaction][Exchange interaction - Wikipedia]]
 :PROPERTIES:
-:ID:       mnsnwkpdrgwkxchngntrctnxchngntrctnwkpd
+:ID:       snwkpdrgwkxchngntrctnxchngntrctnwkpd
 :END:
 : Both bosons and fermions can experience the exchange interaction. For fermions, this interaction is sometimes called Pauli repulsion and is related to the Pauli exclusion principle. For bosons, the exchange interaction takes the form of an effective attraction that causes identical particles to be found closer together, as in Bose–Einstein condensation.
 * [2020-07-20] [[http://www.eng.fsu.edu/~dommelen/quantum/style_a/nt_hmolsol.html][D.23 Solution of the hydrogen molecule]]
 :PROPERTIES:
-:ID:       mnwwwngfsddmmlnqntmstylntlslhtmldsltnfthhydrgnmlcl
+:ID:       wwwngfsddmmlnqntmstylnthmlslhtmldsltnfthhydrgnmlcl
 :END:
 : The nu­cleus to elec­tron at­trac­tion en­er­gies are 82 eV for the sym­met­ric state, and 83.2 eV for the an­ti­sym­met­ric state, so the an­ti­sym­met­ric state has the lower po­ten­tial en­ergy, like in the hy­dro­gen mol­e­c­u­lar ion case, and un­like what you read in some books. The sym­met­ric state has the lower en­ergy be­cause of lower ki­netic en­ergy, not po­ten­tial en­ergy.
 : 
@@ -326,34 +326,34 @@ https://coherence.wordpress.com/2012/07/08/the-higgs-boson-simply-explained/
 : As a con­se­quence, the an­ti­sym­met­ric state also has less po­ten­tial en­ergy with re­spect to these re­pul­sions. Adding it all to­gether, the sym­met­ric state has quite a lot less ki­netic en­ergy than the an­ti­sym­met­ric one.
 * [2020-07-20] [[https://universe-review.ca/F12-molecule09.htm][Molecules]]
 :PROPERTIES:
-:ID:       mnsnvrsrvwcfmlclhtmmlcls
+:ID:       snvrsrvwcfmlclhtmmlcls
 :END:
 : When two hydrogen atoms approach each other, the final configuration depends on the spin of the two electrons (a consequence of the Exclusion Principle). If the spin of the two electrons is parallel as shown in the right side of Figure 12-08, the two atoms remain separated. However, if the spin of the two electrons is antiparallel as shown in the left side of Figure 12-08, the two atoms combine to form a hydrogen molecule. There is a high probability of finding the electrons in between the atomic nuclei and this "electron cloud" tends to keep them from breaking up. This kind of binding is called covalent bond, and is purely
 * [2020-07-20] [[https://ch301.cm.utexas.edu/section2.php?target=imfs/mo/antibonding-orbitals.html][anti-bonding orbitals]]
 :PROPERTIES:
-:ID:       mnschcmtxsdsctnphptrgtmfsndngrbtlshtmlntbndngrbtls
+:ID:       schcmtxsdsctnphptrgtmfsmnndngrbtlshtmlntbndngrbtls
 :END:
 : A common question is why would "anti-bonding" orbitals exist.
 * [2020-07-20] [[https://socratic.org/questions/i-am-very-confused-about-anti-bonding-orbitals-how-they-form-i-mean-when-two-ato-1][I am very confused about anti-bonding orbitals, how they form? I mean when two atomic orbitals produce bonding orbital + anti-banding orbital?? Please clear my basics. I am really worried, please solve my problem | Socratic]]
 :PROPERTIES:
-:ID:       mnsscrtcrgqstnsmvrycnfsdbllywrrdplsslvmyprblmscrtc
+:ID:       sscrtcrgqstnsmvrycnfsdbtnllywrrdplsslvmyprblmscrtc
 :END:
 : We start from the following postulates:
 : 
 : 1) Molecular orbitals are mathematically defined as a linear combination of atomic orbitals :
 * [2020-07-20] [[https://socratic.org/questions/i-am-very-confused-about-anti-bonding-orbitals-how-they-form-i-mean-when-two-ato-1][I am very confused about anti-bonding orbitals, how they form? I mean when two atomic orbitals produce bonding orbital + anti-banding orbital?? Please clear my basics. I am really worried, please solve my problem | Socratic]]
 :PROPERTIES:
-:ID:       mnsscrtcrgqstnsmvrycnfsdbllywrrdplsslvmyprblmscrtc
+:ID:       sscrtcrgqstnsmvrycnfsdbtnllywrrdplsslvmyprblmscrtc
 :END:
 : Half of the molecular orbitals obtained by combining atomic orbitals of the same or similar energy are more stabilized (have less energy) than these and we will call them bonding. The other half are called anti-bonding and have more energy than the atomic orbitals from which they come. They are usually represented by adding an asterisk (*) to the name of the orbital.
 * [2020-07-20] [[https://wps.prenhall.com/wps/media/objects/3081/3155729/blb0907.html][Chapter 9, Section 7]]
 :PROPERTIES:
-:ID:       mnswpsprnhllcmwpsmdbjctsblbhtmlchptrsctn
+:ID:       swpsprnhllcmwpsmdbjctsblbhtmlchptrsctn
 :END:
 : In contrast, the hypothetical He2 molecule requires four electrons to fill its molecular orbitals, as in Figure 9.33(b). Because only two electrons can be put in the 1s orbital, the other two must be placed in the *1s. The energy decrease from the two electrons in the bonding molecular orbital is offset by the energy increase from the two electrons in the antibonding orbital. (In fact, antibonding molecular orbitals are slightly more unfavorable than bonding orbitals are favorable. Thus, whenever there is an equal number of electrons in bonding and antibonding orbitals, the energy is slightly higher than it is for the isolated atoms and no bond is formed.) Hence, He2 is not a stable molecule. Molecular orbital theory correctly predicts that hydrogen forms diatomic molecules but helium does not.
 * [2020-07-20] [[https://physics.stackexchange.com/questions/20345/wave-function-of-hydrogen-atom-including-spin-of-nucleus][quantum mechanics - Wave function of hydrogen atom including spin of nucleus - Physics Stack Exchange]]
 :PROPERTIES:
-:ID:       mnsphyscsstckxchngcmqstnsngspnfnclsphyscsstckxchng
+:ID:       sphyscsstckxchngcmqstnswvngspnfnclsphyscsstckxchng
 :END:
 : The hard way
 : 
@@ -361,83 +361,83 @@ https://coherence.wordpress.com/2012/07/08/the-higgs-boson-simply-explained/
 : .
 * [2020-07-20] [[https://en.wikipedia.org/wiki/Born%E2%80%93Oppenheimer_approximation][Born–Oppenheimer approximation - Wikipedia]]
 :PROPERTIES:
-:ID:       mnsnwkpdrgwkbrnppnhmrpprxmtnbrnppnhmrpprxmtnwkpd
+:ID:       snwkpdrgwkbrnppnhmrpprxmtnbrnppnhmrpprxmtnwkpd
 :END:
 : In quantum chemistry and molecular physics, the Born–Oppenheimer (BO) approximation is the most known mathematical approximation in molecular dynamics. Specifically, it is the assumption that the motion of atomic nuclei and electrons in a molecule can be treated separately, based on the fact that the nuclei are much heavier than the electrons.
 * [2020-07-20] [[http://hitoshi.berkeley.edu/221B-S01/7.pdf][7.pdf]]
 :PROPERTIES:
-:ID:       mnhtshbrklydbspdfpdf
+:ID:       htshbrklydbspdfpdf
 :END:
 * [2020-07-20] [[http://hitoshi.berkeley.edu/221B-S01/7.pdf][7.pdf]]
 :PROPERTIES:
-:ID:       mnhtshbrklydbspdfpdf
+:ID:       htshbrklydbspdfpdf
 :END:
 * [2020-07-20] [[https://www.feynmanlectures.caltech.edu/III_10.html][The Feynman Lectures on Physics Vol. III Ch. 10: Other Two-State Systems]]
 :PROPERTIES:
-:ID:       mnswwwfynmnlctrscltchdhtmnphyscsvlchthrtwsttsystms
+:ID:       swwwfynmnlctrscltchdhtmltnphyscsvlchthrtwsttsystms
 :END:
 : For instance, “electron a” might be near the first proton and “electron b” might be in another state around the same proton. We’ll disregard such a case, since it will certainly have higher energy (because of the large Coulomb repulsion between the two electrons). For greater accuracy, we would have to include such states, but we can get the essentials of the molecular binding by considering just the two states of Fig. 10–4. To this approximation we can describe any state by giving the amplitude ⟨1|ϕ⟩ to be in the state |1⟩ and an amplitude ⟨2|ϕ⟩ to be in state |2⟩. In other words, the state vector |ϕ⟩ can be written as the linear combination
 : |ϕ⟩=∑i|i⟩⟨i|ϕ⟩.
 * [2020-07-20] [[https://www.feynmanlectures.caltech.edu/III_10.html][The Feynman Lectures on Physics Vol. III Ch. 10: Other Two-State Systems]]
 :PROPERTIES:
-:ID:       mnswwwfynmnlctrscltchdhtmnphyscsvlchthrtwsttsystms
+:ID:       swwwfynmnlctrscltchdhtmltnphyscsvlchthrtwsttsystms
 :END:
 : which is −|I⟩, as required. So if we bring two hydrogen atoms near to each other with their electrons spinning in the same direction, they can go into the state |I⟩ and not state |II⟩. But notice that state |I⟩ is the upper energy state. Its curve of energy versus separation has no minimum. The two hydrogens will always repel and will not form a molecule. So we conclude that the hydrogen molecule cannot exist with parallel electron spins. And that is right.
 * [2020-07-21] [[https://physics.stackexchange.com/questions/5031/can-black-holes-form-in-a-finite-amount-of-time][general relativity - Can black holes form in a finite amount of time? - Physics Stack Exchange]]
 :PROPERTIES:
-:ID:       tsphyscsstckxchngcmqstnscnfntmntftmphyscsstckxchng
+:ID:       sphyscsstckxchngcmqstnscnnfntmntftmphyscsstckxchng
 :END:
 * [2020-07-21] [[https://physics.stackexchange.com/questions/412331/if-iron-can-t-undergo-fusion-does-that-mean-a-black-hole-is-mostly-iron][nuclear physics - If iron can’t undergo fusion, does that mean a black hole is mostly iron? - Physics Stack Exchange]]
 :PROPERTIES:
-:ID:       tsphyscsstckxchngcmqstnsfhlsmstlyrnphyscsstckxchng
+:ID:       sphyscsstckxchngcmqstnsfrhlsmstlyrnphyscsstckxchng
 :END:
 : Iron can undergo fusion. However, iron is the point where fusions starts to cost more energy than it yields, so in a typical star it doesn't fuse.
 : 
 : In a supernova, and the abundance of energy available in one, iron will continue to fuse to heavier materials, which is probably how we got heavier metals here on earth in the first place (it has to have fused somewhere, after all).
 * [2020-07-21] [[https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BD%D0%B5%D1%83%D1%81%D1%82%D0%BE%D0%B9%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%8C][Гравитационная неустойчивость — Википедия]]
 :PROPERTIES:
-:ID:       tsrwkpdrgwkdddbdbdbddbddbаянеустойчивостьвикипедия
+:ID:       srwkpdrgwkdddbdbdbddbddbdаянеустойчивостьвикипедия
 :END:
 : Гравитацио́нная неусто́йчивость (неустойчивость Джинса) — нарастание со временем пространственных флуктуаций скорости и плотности вещества под действием сил тяготения (гравитационных возмущений).
 : 
 : Гравитационная неустойчивость ведёт к образованию неоднородностей (сгустков) в первоначально однородной среде и сопровождается уменьшением гравитационной энергии системы, переходящей в кинетическую энергию сжимающегося вещества, которая, в свою очередь, может переходить в тепловую энергию и излучение.
 * [2020-07-25] [[https://en.wikipedia.org/wiki/Renormalization_group][Renormalization group - Wikipedia]]
 :PROPERTIES:
-:ID:       stsnwkpdrgwkrnrmlztngrprnrmlztngrpwkpd
+:ID:       snwkpdrgwkrnrmlztngrprnrmlztngrpwkpd
 :END:
 
 * [2020-07-27] [[https://twitter.com/bencbartlett/status/1287802625602117632][Ben Bartlett on Twitter: "Hydrogen wavefunctions transitioning between states with different quantum numbers 𝒏,𝒍,𝒎. ⚛️ Each transition shows a state α|𝒏𝒍𝒎⟩+β|𝒏'𝒍'𝒎'⟩, where α decreases and β increases. Dots represent the values of 𝒏𝒍𝒎, and the solid lines show possible allowed values. https://t.co/vPppgZuHfP" / Twitter]]
 :PROPERTIES:
-:ID:       mnstwttrcmbncbrtlttsttsbnlllwdvlsstcvpppgzhfptwttr
+:ID:       stwttrcmbncbrtlttsttsbnbrlllwdvlsstcvpppgzhfptwttr
 :END:
 : Hydrogen wavefunctions transitioning between states with different quantum numbers 𝒏,𝒍,𝒎.
 : ⚛️
 * [2020-08-01] [[https://en.wikipedia.org/wiki/Klein_paradox][Klein paradox - Wikipedia]]
 :PROPERTIES:
-:ID:       stsnwkpdrgwkklnprdxklnprdxwkpd
+:ID:       snwkpdrgwkklnprdxklnprdxwkpd
 :END:
 : However, Klein’s result showed that if the potential is of the order of the electron mass, V ∼ m c 2 {\displaystyle V\sim mc^{2}} V\sim mc^{2}, the barrier is nearly transparent. Moreover, as the potential approaches infinity, the reflection diminishes and the electron is always transmitted.
 
 wow, pretty insane
 * [2020-08-01] [[https://courses.physics.ucsd.edu/2014/Fall/physics215a/project/KleinsParadox-Holstein.pdf][KleinsParadox-Holstein.pdf]]
 :PROPERTIES:
-:ID:       stscrssphyscscsddfllphyscxhlstnpdfklnsprdxhlstnpdf
+:ID:       scrssphyscscsddfllphyscspxhlstnpdfklnsprdxhlstnpdf
 :END:
 * [2020-08-01] [[https://courses.physics.ucsd.edu/2014/Fall/physics215a/project/KleinsParadox-Holstein.pdf][KleinsParadox-Holstein.pdf]]
 :PROPERTIES:
-:ID:       stscrssphyscscsddfllphyscxhlstnpdfklnsprdxhlstnpdf
+:ID:       scrssphyscscsddfllphyscspxhlstnpdfklnsprdxhlstnpdf
 :END:
 * [2020-08-01] [[https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D0%BD%D0%BE%D1%80][Спинор — Википедия]]
 :PROPERTIES:
-:ID:       stsrwkpdrgwkddbfdbdbddbdспинорвикипедия
+:ID:       srwkpdrgwkddbfdbdbddbdспинорвикипедия
 :END:
 * [2020-08-01] [[http://www.vttoth.com/CMS/index.php/physics-notes][Viktor T. Toth - Physics notes]]
 :PROPERTIES:
-:ID:       stwwwvttthcmcmsndxphpphyscsntsvktrttthphyscsnts
+:ID:       wwwvttthcmcmsndxphpphyscsntsvktrttthphyscsnts
 :END:
 * [2020-08-01] [[https://en.wikipedia.org/wiki/Proton_spin_crisis][Proton spin crisis - Wikipedia]]
 :PROPERTIES:
-:ID:       stsnwkpdrgwkprtnspncrssprtnspncrsswkpd
+:ID:       snwkpdrgwkprtnspncrssprtnspncrsswkpd
 :END:
 : Unsolved problem in physics:
 : How do the quarks and gluons carry the spin of protons?
@@ -452,16 +452,16 @@ wow, pretty insane
 
 * TODO [#B] [2020-08-01] [[http://www.vttoth.com/CMS/physics-notes][Viktor T. Toth - Physics notes]]
 :PROPERTIES:
-:ID:       stwwwvttthcmcmsphyscsntsvktrttthphyscsnts
+:ID:       wwwvttthcmcmsphyscsntsvktrttthphyscsnts
 :END:
 ok, this is amazing.. def need to read everything
 * TODO [#B] [2020-08-01] [[http://www.vttoth.com/CMS/physics-notes/126-spinors-and-fields][Viktor T. Toth - Spinors and fields]]
 :PROPERTIES:
-:ID:       stwwwvttthcmcmsphyscsntssndfldsvktrttthspnrsndflds
+:ID:       wwwvttthcmcmsphyscsntsspnndfldsvktrttthspnrsndflds
 :END:
 * TODO [#B] [2020-08-01] [[http://www.vttoth.com/CMS/physics-notes/297-building-a-quantum-theory][Viktor T. Toth - Building a quantum theory]]
 :PROPERTIES:
-:ID:       stwwwvttthcmcmsphyscsntsbthryvktrttthbldngqntmthry
+:ID:       wwwvttthcmcmsphyscsntsbldthryvktrttthbldngqntmthry
 :END:
 * TODO [#C] The wavefunction Ψ is a 4×1 column vector (also known as a spinor) and each element is a function of space and time, representing the spin state (up or down) of the electron and the associated positron solution.
 :PROPERTIES:
@@ -473,27 +473,27 @@ ok, this is amazing.. def need to read everything
 
 * TODO [#B] [2019-10-25] [[https://reddit.com/r/Physics/comments/dmxgh3/i_made_a_webbased_interactive_simulator_for/][I made a web-based interactive simulator for electromagnetic waves]] /r/Physics :sim:viz:
 :PROPERTIES:
-:ID:       frsrddtcmrphyscscmmntsdmxmltrfrlctrmgntcwvsrphyscs
+:ID:       srddtcmrphyscscmmntsdmxghmltrfrlctrmgntcwvsrphyscs
 :END:
 ** [2019-12-29] wow, awesome simulation..                               :sim:
 :PROPERTIES:
-:ID:       snwwwsmsmltn
+:ID:       wwwsmsmltn
 :END:
 *** [2019-12-29] wonder if I could do smth similar for post on lagrangians? :toblog:
 :PROPERTIES:
-:ID:       snwndrfclddsmthsmlrfrpstnlgrngns
+:ID:       wndrfclddsmthsmlrfrpstnlgrngns
 :END:
 e.g. exploring Lagrangia??
 
 * [#B] [2014-11-01] [[https://reddit.com/r/askscience/comments/2ky0re/what_stops_the_hydrogen_atom_from_being_destroyed/clptwvp/][What stops the Hydrogen atom from being destroyed?]] /r/askscience
 :PROPERTIES:
-:ID:       stsrddtcmrskscnccmmntskyrdrgntmfrmbngdstrydrskscnc
+:ID:       srddtcmrskscnccmmntskyrwhdrgntmfrmbngdstrydrskscnc
 :END:
 : That is a weak interaction effect and not something mediated by the electromagnetic interaction, which was specifically what the OP was asking about. To discuss that we'd really need to move to QFT and beyond just the Schrodinger equation.
 : Though I presume the next logical question is why the weak interaction doesn't induce electron capture with hydrogen... In this case, it is because a free neutron is a higher energy, less stable system. Electron capture is only relevant in systems where the resulting neutron is stabilized by the rest of the nucleus. In cases where the neutron is *not* stabilized, you get positron emission. It is no accident that positron emission is a *common* decay mode among neutron rich nuclei.
 * [2020-10-19] https://en.wikipedia.org/wiki/Static_forces_and_virtual-particle_exchange
 :PROPERTIES:
-:ID:       mnsnwkpdrgwksttcfrcsndvrtlprtclxchng
+:ID:       snwkpdrgwksttcfrcsndvrtlprtclxchng
 :END:
 : There are limits to the validity of the virtual particle picture. The virtual-particle formulation is derived from a method known as perturbation theory which is an approximation assuming interactions are not too strong, and was intended for scattering problems, not bound states such as atoms. For the strong force binding quarks into nucleons at low energies, perturbation theory has never been shown to yield results in accord with experiments,[3] thus, the validity of the "force-mediating particle" picture is questionable. Similarly, for bound states the method fails.[4] In these cases the physical interpretation must be re-examined. As an example, the calculations of atomic structure in atomic physics or of molecular structure in quantum chemistry could not easily be repeated, if at all, using the "force-mediating particle" picture
 * TODO hadron was now the general term for particles that felt the strong force. :drill:
@@ -506,19 +506,19 @@ from Genius: The Life and Science of Richard Feynman
 
 * [#C] [2020-04-05] Max Tegmark on Steps toward building an AI physicist - YouTube :physics:
 :PROPERTIES:
-:ID:       snmxtgmrknstpstwrdbldngnphyscstytb
+:ID:       mxtgmrknstpstwrdbldngnphyscstytb
 :END:
 https://www.youtube.com/watch?v=9atnfAHBfSI&list=WL&index=41&t=0s
 : ok, interesting. so it's using some techniques to discover symbolic expressions, discover symmetries etc
 * TODO [#C] [2019-02-10] [[https://reddit.com/r/Physics/comments/60t98m/visualization_of_quantum_physics_quantum_mechanics/dfa6a13/][Visualization of Quantum Physics (Quantum Mechanics)]] /r/Physics :viz:
 :PROPERTIES:
-:ID:       snsrddtcmrphyscscmmntstmvtmphyscsqntmmchncsrphyscs
+:ID:       srddtcmrphyscscmmntstmvsltmphyscsqntmmchncsrphyscs
 :END:
 :  I am particularly impartial towards his Electromagnetism video. It is 45 minutes of pure ecstacy.
 
 * [2017-11-06] penrose diagram
 :PROPERTIES:
-:ID:       mnpnrsdgrm
+:ID:       pnrsdgrm
 :END:
 https://jila.colorado.edu/~ajsh/insidebh/penrose.html
 https://www.youtube.com/watch?v=mht-1c4wc0Q
@@ -526,12 +526,12 @@ http://casa.colorado.edu/~ajsh/schw.shtml
 
 * [2020-08-11] [[https://en.wikipedia.org/wiki/Tachyonic_field][Tachyonic field - Wikipedia]]
 :PROPERTIES:
-:ID:       tsnwkpdrgwktchyncfldtchyncfldwkpd
+:ID:       snwkpdrgwktchyncfldtchyncfldwkpd
 :END:
 : A tachyonic field, or simply tachyon, is a field with an imaginary mass
 * [2017-11-03] [[https://reddit.com/r/askscience/comments/7ad5y0/how_large_could_a_rocky_planet_get/dpa0c1q/][How large could a rocky planet get?]] /r/askscience
 :PROPERTIES:
-:ID:       frsrddtcmrskscnccmmntsdyhhwlrgcldrckyplntgtrskscnc
+:ID:       srddtcmrskscnccmmntsdyhwlhwlrgcldrckyplntgtrskscnc
 :END:
 :  It all really depends on your definition of a rocky planet. Or a rock for that matter.
 :  [Athleticon93](/u/Athleticon93) is right for normally formed planets. Any planet getting really big as just a rocky planet is going to accrete lots of gas too and become a gas giant. But if we want to *make* a really big rocky planet, physics won't stop us for a while
@@ -542,14 +542,14 @@ http://casa.colorado.edu/~ajsh/schw.shtml
 :  Let's start again, again. We can't use rocks anymore, but we can use iron. Iron is at least a solid, and we can imagine running around on it pretty similarly to a regular planet. Get a big ball of iron and start the teleportation machine again with chunks of iron instead of rocks. Again, you'll see the planet grow, but after a certain point, roughly 2.5 times the radius of the earth, and several hundred times the mass, adding more mass will actually cause the radius to shrink. The iron planet will also be getting very very hot (tens of thousands of kelvin). What's happening is that the additional matter is causing increased gravity, and your planet is no longer being supported by the everyday pressure of electrostatics, like what keeps your feet from compressing a concrete floor. Instead the core is now dominated by electron degeneracy pressure. It's acting like a very hot, ultra dense gas. As you add more iron, you create more gravity. More gravity makes more pressure, more degenerate matter, and a smaller radius. Your "planet" is now a white dwarf. If you let it cool off for a few trillion years you'd be left with a ball of iron that, if you could walk around in about a hundred thousand g's of gravity, you could walk on and would be (sorta, kinda) like a planet. And that's as big as you can make a planet.
 * [2020-07-21] [[https://reddit.com/r/askscience/comments/hv1wua/is_there_a_natural_reference_for_the_correct_time/fyrhwvr/][Is there a natural reference for the correct time, down to the milliseconds?]] /r/askscience
 :PROPERTIES:
-:ID:       tsrddtcmrskscnccmmntshvwscttmdwntthmllscndsrskscnc
+:ID:       srddtcmrskscnccmmntshvwstcttmdwntthmllscndsrskscnc
 :END:
 :  Astronomer here! One I haven’t seen mentioned yet are [pulsars](https://en.m.wikipedia.org/wiki/Pulsar), which are rapidly spinning neutron stars that give off a regular radio pulse. They are *so* regular that we can model the pulses to within one second in a million years, and every pulsar is different in its pulsar profile. So I’ve heard it said that in the far future we could use them for interstellar GPS of sorts.
 : 
 :  So yeah you could definitely use pulsars for this reference assuming you lost all the clocks on Earth but kept all the info about pulsars and radio astronomy. Some pulsars are even millisecond pulsars, meaning they spin every few milliseconds, so you could even cover that part of the time scale.
 * [#B] [2019-01-20] The Standard Model – The Physics Hypertextbook :relativity:
 :PROPERTIES:
-:ID:       snthstndrdmdlthphyscshyprtxtbk
+:ID:       thstndrdmdlthphyscshyprtxtbk
 :END:
 https://physics.info/standard
 pretty good, soft overview with highlights of different parts
@@ -557,7 +557,7 @@ pretty good, soft overview with highlights of different parts
 
 * [#B] [2015-03-16] [[https://reddit.com/r/askscience/comments/2z8r01/how_fast_does_electricity_move_in_a_wire/cph2d70/][How fast does electricity move in a wire?]] /r/askscience
 :PROPERTIES:
-:ID:       mnsrddtcmrskscnccmmntszrhwfstdslctrctymvnwrrskscnc
+:ID:       srddtcmrskscnccmmntszrhwfwfstdslctrctymvnwrrskscnc
 :END:
 :  ~~Electronics~~ Electrons (thanks /u/StopDataAbuse) push each other away because of their negativity. This is what transfers the signal, and goes at about 50% to 99% of the speed of light depending on the material. Note that this is not related to the actual speed of the electrons themselves.
 :  Now the speed of the electrons themselves is more interesting (I think). I once calculated this and I'll do it again for fun. Let's take a simple DC circuit:
@@ -565,7 +565,7 @@ pretty good, soft overview with highlights of different parts
 :  The volume of the wire is 0.823mm^2 * L meter = 0.823 10^-6 * L m^3. The density of the wire is (from Wikipedia) 8.96 g * cm^-3  = 8960 kg * m^-3. Multiply those numbers and we'll get the weight of the wire, which is 7.374 * L * 10^-3 kg. I searched for the number of free electrons every copper atom has, and a google search returns 1. So now we need the number of atoms in those wires. 7.347 * L g / (63.546 g / mol) * 6.022 * 10^23 / mol = 6.988 * 10^22 L. That's the number of free electrons in the wires. 1A is 1C / s = 6.241 * 10^18 electrons per second. That's the number of electrons that flow into the wire and out the other end every second. Divide 6.988 * 10^22 L with 6.241 * 10^18 / s and you'll get 11197 * L s. That's the number of seconds any electron stays in the wires before leaving the other end. Divide the length by this time and you'll get the speed: speed = L meters (as the length of the wires were L) / (11197Ls) = 8.93 × 10^-5 m / s. That's not very fast. It would take over 3 hours to travel through a 1 meter wire. Hope I got all the numbers right :S
 * [2020-08-21] [[https://en.wikipedia.org/wiki/Chirality_(physics)][Chirality (physics) - Wikipedia]]
 :PROPERTIES:
-:ID:       frsnwkpdrgwkchrltyphyscschrltyphyscswkpd
+:ID:       snwkpdrgwkchrltyphyscschrltyphyscswkpd
 :END:
 : For massless particles – photons, gluons, and (hypothetical) gravitons – chirality is the same as helicity; a given massless particle appears to spin in the same direction along its axis of motion regardless of point of view of the observer.
 * TODO [#C] Render waves in 4d space                        :physics:sim:viz:
@@ -585,55 +585,55 @@ None
 
 * [2019-08-25] MAGNETS: How Do They Work? - YouTube
 :PROPERTIES:
-:ID:       snmgntshwdthywrkytb
+:ID:       mgntshwdthywrkytb
 :END:
 https://www.youtube.com/watch?v=hFAOXdXZ5TM
 atoms with half shells filled are magnetic. Full shells -- electron magnetic moments cancel out
 * [2019-09-06] Например, космический корабль, который движется с ускорением свободного падения g, пройдет расстояние 13 миллиардов световых лет (долетит до края наблюдаемой Вселенной!) менее чем за сто лет, если считать время в собственной системе отсчета.
 :PROPERTIES:
-:ID:       frнапримеркосмическийкорасобственнойсистемеотсчета
+:ID:       напримеркосмическийкораблсобственнойсистемеотсчета
 :END:
 
 * [2019-08-25] How Special Relativity Makes Magnets Work - YouTube :sr:electromagnetism:
 :PROPERTIES:
-:ID:       snhwspclrltvtymksmgntswrkytb
+:ID:       hwspclrltvtymksmgntswrkytb
 :END:
 https://www.youtube.com/watch?v=1TKSfAkWWN0
 very good intuitive explanation! Basically, since charges in wire (protons/electrons) are moving relative to each other, they are slightly contracted  so in other frames of reference it creates a force
 * [2019-02-18] (12) Lecture by Douglas Hofstadter: Albert Einstein on Light; Light on Albert Einstein - YouTube :biography:
 :PROPERTIES:
-:ID:       mnlctrbydglshfstdtrlbrtnstnnlghtlghtnlbrtnstnytb
+:ID:       lctrbydglshfstdtrlbrtnstnnlghtlghtnlbrtnstnytb
 :END:
 https://www.youtube.com/watch?v=ePA1zq56J1I&list=WL&index=72&t=838s
 Einstein was given Nobel Prize for photoelectic effect; no one in the commitee believed in light quanta
 * [2019-02-18] (12) Lecture by Douglas Hofstadter: Albert Einstein on Light; Light on Albert Einstein - YouTube :physics:
 :PROPERTIES:
-:ID:       mnlctrbydglshfstdtrlbrtnstnnlghtlghtnlbrtnstnytb
+:ID:       lctrbydglshfstdtrlbrtnstnnlghtlghtnlbrtnstnytb
 :END:
 https://www.youtube.com/watch?v=ePA1zq56J1I&list=WL&index=72&t=838s
 apparently, Planck still didn't believe in light quanta in 1913
 * [2019-02-21] 'A Universe From Nothing' by Lawrence Krauss, AAI 2009 - YouTube
 :PROPERTIES:
-:ID:       thnvrsfrmnthngbylwrnckrssytb
+:ID:       nvrsfrmnthngbylwrnckrssytb
 :END:
 https://www.youtube.com/watch?v=7ImvlS8PLIo&list=WL&t=1033s&index=70
 eh, not really anything new. Also a bit too much on mocking religious people..
 
 * [2019-04-30] «Ботаники в неведомой стране»
 :PROPERTIES:
-:ID:       tботаникивневедомойстране
+:ID:       ботаникивневедомойстране
 :END:
 : Неровной нейтронную звезду может сделать также ее собственное сильное магнитное поле, которое придаст ей несферическую форму. Магнитное поле несферически симметрично, поэтому оно сжимает нейтронную звезду в каком-то направлении, и тогда она тоже начинает излучать. Соответственно, нейтронные звезды с большими магнитными полями могут быть источниками гравитационного излучения.
 
 * [2019-01-27] good lagrangian points intuition https://www.reddit.com/r/dataisbeautiful/comments/adttul/oc_peusdopotential_in_the_earthmoon_system/edk9f1j/ :physics:space:
 :PROPERTIES:
-:ID:       sngdlgrngnpntsnttnswwwrddpsdptntlnthrthmnsystmdkfj
+:ID:       gdlgrngnpntsnttnswwwrddtcpsdptntlnthrthmnsystmdkfj
 :END:
 : This is a graph of potential, which also serves as an analogy that sort of helps you figure out what the overall force on an orbiting object is: if you placed a ball on this surface and it was going to roll "downhill", which way would it go? The five crosses mark points where the top surface is flat, so an object at those points will experience no overall force acting on it (if it's orbiting at the same speed as the moon). These are therefore pseudo-stable points where you could leave a satellite orbiting.
 
 * [2019-10-27] How Trees Bend the Laws of Physics - YouTube         :biology:
 :PROPERTIES:
-:ID:       snhwtrsbndthlwsfphyscsytb
+:ID:       hwtrsbndthlwsfphyscsytb
 :END:
 https://www.youtube.com/watch?v=BickMFHAZR0
 wonder what if you hack into the tubes and push the water? would it make trees grow higher?
@@ -644,26 +644,26 @@ wonder what if you hack into the tubes and push the water? would it make trees g
 :END:
 ** [2019-02-11] https://medium.com/starts-with-a-bang/ask-ethan-100-why-doesn-t-dark-matter-form-black-holes-c5b6d90b1883
 :PROPERTIES:
-:ID:       mnsmdmcmstrtswthbngskthnwdsntdrkmttrfrmblckhlscbdb
+:ID:       smdmcmstrtswthbngskthnwhydsntdrkmttrfrmblckhlscbdb
 :END:
 right, so interaction only throught gravity is not powerful enough to make the clump of matter dense enough to form a black hole
   without other forces there's nothing to slow the dark matter particles down when they reach each other and their momentum just carries them past each other.
 * [2019-12-21] Nobel Lecture: James Peebles, Nobel Prize in Physics 2019 - YouTube
 :PROPERTIES:
-:ID:       stnbllctrjmspblsnblprznphyscsytb
+:ID:       nbllctrjmspblsnblprznphyscsytb
 :END:
 https://www.youtube.com/watch?v=cM3Fk4TUV58&list=WL&index=48
 nothing really special
 I guess only interesting bit is that often people came up with cosmological concepts completely independently
 * [2019-02-24] Why does light slow down in water? - YouTube         :physics:
 :PROPERTIES:
-:ID:       snwhydslghtslwdwnnwtrytb
+:ID:       whydslghtslwdwnnwtrytb
 :END:
 https://www.youtube.com/watch?v=CUjt36SD3h8&index=71&t=0s&list=WL
 slowdown of light in material is just apparent! due to combined EM field with electrons oscillating
 * [2019-02-11] (8) Polarization of Light: circularly polarized, linearly polarized, unpolarized light. - YouTube :inspiration:viz:
 :PROPERTIES:
-:ID:       mnplrztnflghtcrclrlyplrzdlnrlyplrzdnplrzdlghtytb
+:ID:       plrztnflghtcrclrlyplrzdlnrlyplrzdnplrzdlghtytb
 :END:
 https://www.youtube.com/watch?v=8YkfEft4p-w
 : really good explanation of light polarisation! I like how he adds vectors dynamically in a really nice way
@@ -672,13 +672,13 @@ TLDR: individual solutions are just simple linear oscillations, but if you add t
 there is also a wave plate, which passes through it light in different directions with different phase shifts. So you can convert linear light into circularly polarised
 * [2019-02-11] Could Dark Matter form "Dark Black Holes?" : askscience :darkmatter:
 :PROPERTIES:
-:ID:       mnclddrkmttrfrmdrkblckhlsskscnc
+:ID:       clddrkmttrfrmdrkblckhlsskscnc
 :END:
 https://www.reddit.com/r/askscience/comments/4zwy2d/could_dark_matter_form_dark_black_holes/
 : Dark matter as we understand it today is, dare I say, "boring" physics. It seems to be simply another particle like the neutrino we must add to our particle zoo except that it is quite massive and there is a lot of it. Important to note that while the macroscopic evidence for dark matter is very strong, the same is not true for the microscopic description so my prior sentence could be shown to be very wrong.
 * [#B] [2019-02-11] What Is Spacetime, Really?—Stephen Wolfram Blog :wolfram:
 :PROPERTIES:
-:ID:       mnwhtsspctmrllystphnwlfrmblg
+:ID:       whtsspctmrllystphnwlfrmblg
 :END:
 https://blog.stephenwolfram.com/2015/12/what-is-spacetime-really/
 : Here the news is very good too: subject to various assumptions, I managed in the late 1990s to derive Einstein’s Equations from the dynamics of networks.
@@ -686,26 +686,26 @@ https://blog.stephenwolfram.com/2015/12/what-is-spacetime-really/
 whoa
 * [#C] [2019-11-21] [[https://reddit.com/r/Physics/comments/dzj60i/physicists_just_created_the_most_detailed/][Physicists Just Created the Most Detailed Simulation of the Universe in History]] /r/Physics :sim:
 :PROPERTIES:
-:ID:       thsrddtcmrphyscscmmntsdzjsmltnfthnvrsnhstryrphyscs
+:ID:       srddtcmrphyscscmmntsdzjphsmltnfthnvrsnhstryrphyscs
 :END:
 ** [2019-11-21] [[https://reddit.com/r/Physics/comments/dzj60i/physicists_just_created_the_most_detailed/f88mqvr/][Physicists Just Created the Most Detailed Simulation of the Universe in History]] /r/Physics
 :PROPERTIES:
-:ID:       thsrddtcmrphyscscmmntsdzjsmltnfthnvrsnhstryrphyscs
+:ID:       srddtcmrphyscscmmntsdzjphsmltnfthnvrsnhstryrphyscs
 :END:
 :  [Direct link to 1080p simulation on Max Planck](https://www.tng-project.org/images/press/tng50_galaxy_evolution_1080p.mp4) because fuck this obnoxiously ad-laden website. Absolute cancer to navigate on mobile.
 
 * [#D] [2018-09-23] Derivation of Avogadro's law
 :PROPERTIES:
-:ID:       sndrvtnfvgdrslw
+:ID:       drvtnfvgdrslw
 :END:
 ** [2019-05-06] https://www.reddit.com/r/askscience/comments/1x1zs4/why_does_avogadros_law_hold/cf7gfn4/
 :PROPERTIES:
-:ID:       mnswwwrddtcmrskscnccmmntsxzswhydsvgdrslwhldcfgfn
+:ID:       swwwrddtcmrskscnccmmntsxzswhydsvgdrslwhldcfgfn
 :END:
 : Avogadro's law holds because a perfectly ideal gas behaves exactly like a huge number of rigid macroscopic particles flying around and colliding (billiard balls, air hockey pucks, etc.). For a given temperature, pressure, and volume, the only other quantity of interest is the number of particles. Their masses do not matter because this is already taken into account in the temperature (average kinetic energy), so all systems of "ideal gasses" (or billiard balls) with the same P, V, T and particle number behave in the same way.
 * [2019-11-21] 3 Perplexing Physics Problems - YouTube
 :PROPERTIES:
-:ID:       thprplxngphyscsprblmsytb
+:ID:       prplxngphyscsprblmsytb
 :END:
 https://www.youtube.com/watch?v=K-Fc08X56R0&list=WL&index=50&t=0s
 wow, awesome.
@@ -726,20 +726,20 @@ Also plastic vs paper straws: paper straws also make it fizzier.
 :END:
 * [#C] [2020-06-15] [[https://www.youtube.com/watch?v=rIAZJNe7YtE&list=WL&index=61][(1) Eric Weinstein: Geometric Unity and the Call for New Ideas, Leaders & Institutions | AI Podcast #88 - YouTube]]
 :PROPERTIES:
-:ID:       mnswwwytbcmwtchvrzjnytlstfrnwdsldrsnstttnspdcstytb
+:ID:       swwwytbcmwtchvrzjnytlstwlfrnwdsldrsnstttnspdcstytb
 :END:
 : Is it just me or it seems like Eric does not want to be understood? He seems to enjoy this title of the crazy smart guy who is so above intellectually that we cannot comprehend his thoughts. I do not buy his shtick because Richard Feynmann (who has ACTUAL contributions in physics) does a way better job in explaining  concepts. I agree with Einstein when he says "If you can't explain it simply, you don't understand it well enough", and since Eric talks in such a convoluted manner about his theory (even in his lecture), it seems to me that Eric's goal is NOT to present his idea.. but to plant this idea in his audience that he is right and the entire academic community is corrupt and wrong. 
 : 
 : I actually share that sentiment and I agree that academia has its fair share of issues (self citation, institutional bias etc).. But if you do not even upload a manuscript on the internet and expect your audience to believe your claims purely based on your vague explanation of your theory.. I just do not trust him. 
 * [2019-07-22] Астрофизики определили форму Местного войда
 :PROPERTIES:
-:ID:       mnастрофизикиопределилиформуместноговойда
+:ID:       астрофизикиопределилиформуместноговойда
 :END:
 https://nplus1.ru/news/2019/07/22/local-void
 :  Наиболее близок к нам Местный войд, который простирается примерно на 40 процентов площади неба и начинается у края Местной группы на расстоянии около одного мегапарсека.
 * [2019-12-06] Graham Farmelo on Paul Dirac and Mathematical Beauty - YouTube
 :PROPERTIES:
-:ID:       frgrhmfrmlnpldrcndmthmtclbtyytb
+:ID:       grhmfrmlnpldrcndmthmtclbtyytb
 :END:
 https://www.youtube.com/watch?v=YfYon2WdR40&list=WL&index=51
 apparently Dirac was taken by mathematical beauty
@@ -748,20 +748,20 @@ he'd never mind discarding old theory if it wasn't 'beautiful' enough
 despised nuclear weapons even though contributed to manhattan project?
 * [2019-12-26] [[https://reddit.com/r/askscience/comments/efuiql/is_a_neutron_star_a_perfect_electrical_insulator/fc2pzph/][Is a neutron star a perfect electrical insulator?]] /r/askscience
 :PROPERTIES:
-:ID:       thsrddtcmrskscnccmmntsfqltrprfctlctrclnsltrrskscnc
+:ID:       srddtcmrskscnccmmntsfqlsntrprfctlctrclnsltrrskscnc
 :END:
 : On the contrary, they are very very good conductors.
 : Neutron stars are in 'beta equilibrium.' This means that there are a small number of protons and electrons. If you have too many neutrons, it is energetically favorable for some of them to beta decay and become protons and electrons. It's somewhere between a 10 to 1 or 20 to 1 ratio of neutrons to protons.
 : The protons in the core are under such enormous pressure that they form Cooper pairs. This basically means that protons pair by spin, like electrons filling atomic orbitals. This produces a 'superconductor,' a conducting medium which supports enormous electric currents and magnetic fields.
 * [#B] [2019-11-14] Ash Jogalekar on Twitter: "Robert Oppenheimer didn't just teach his students physics; he taught them life. Mozart, Plato and Sanskrit were as much a part of their shared lives as cosmic rays and quantum electrodynamics. https://t.co/i8I7xxcURT" / Twitter :physics:
 :PROPERTIES:
-:ID:       thshjglkrntwttrrbrtppnhmrtmlctrdynmcsstcxxcrttwttr
+:ID:       shjglkrntwttrrbrtppnhmrddtmlctrdynmcsstcxxcrttwttr
 :END:
 https://twitter.com/curiouswavefn/status/1195045873375334401
 : Robert Oppenheimer didn't just teach his students physics; he taught them life. Mozart, Plato and Sanskrit were as much a part of their shared lives as cosmic rays and quantum electrodynamics.
 * [#C] [2020-08-10] [[https://www.youtube.com/watch?v=GOrWy_yNBvY][(4) Thermodynamics and the End of the Universe: Energy, Entropy, and the fundamental laws of physics. - YouTube]]
 :PROPERTIES:
-:ID:       mnswwwytbcmwtchvgrwyynbvyyndthfndmntllwsfphyscsytb
+:ID:       swwwytbcmwtchvgrwyynbvythyndthfndmntllwsfphyscsytb
 :END:
 : I don't understand why you say it will NEVER happen that the balls will all go back into the corner. It can happen, it's just extremely unlikely, and becomes more unlikely the more balls you add.
 : 58
@@ -771,22 +771,22 @@ https://twitter.com/curiouswavefn/status/1195045873375334401
 : The caveat is that though there IS a small chance, that probability is several orders of magnitude beyond the predicted lifespan of the current universe. And just for one event so never is quite appropriate but for extremely intense critics, just don't take it so literally.
 * DONE [#A] [2020-01-15] [[https://news.ycombinator.com/item?id=22033012][Noether’s Theorem – A Quick Explanation (2019)]]
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdnthrsthrmqckxplntn
+:ID:       snwsycmbntrcmtmdnthrsthrmqckxplntn
 :END:
 https://quantum-friend-theory.tumblr.com/post/172814384897/noethers-theorem-a-quick-explanation
 * [2019-02-03] (4) Legitimate Cold Fusion Exists | Muon-Catalyzed Fusion - YouTube :fusion:
 :PROPERTIES:
-:ID:       snlgtmtcldfsnxstsmnctlyzdfsnytb
+:ID:       lgtmtcldfsnxstsmnctlyzdfsnytb
 :END:
 https://www.youtube.com/watch?v=aDfB3gnxRhc
 huh, really cool. apparently muon fusion is a thing!
 * [2019-06-13] [[https://reddit.com/r/Physics/comments/bxpnti/dirac_and_feynman_one_a_man_of_few_words_and_the/][Dirac and Feynman. One, a man of few words and the other quite the opposite. Both geniuses.]] /r/Physics :physics:inspiration:
 :PROPERTIES:
-:ID:       thsrddtcmrphyscscmmntsbxpthrqtthppstbthgnssrphyscs
+:ID:       srddtcmrphyscscmmntsbxpntthrqtthppstbthgnssrphyscs
 :END:
 * [#C] [2020-02-05] the theory space Tweet from Path Integral Salesman (@litgenstein), at Feb 5, 16:12 :fun:physics:
 :PROPERTIES:
-:ID:       wdththryspctwtfrmpthntgrlslsmnltgnstntfb
+:ID:       ththryspctwtfrmpthntgrlslsmnltgnstntfb
 :END:
 this one always gets me https://t.co/FQbK6pI9tj
 
@@ -794,34 +794,34 @@ https://twitter.com/litgenstein/status/1225089907690852353
 
 * [#D] [2019-01-17] foreXiv – Meta humor means you're smarter       :physics:
 :PROPERTIES:
-:ID:       thfrxvmthmrmnsyrsmrtr
+:ID:       frxvmthmrmnsyrsmrtr
 :END:
 http://blog.jessriedel.com/
 interesting blog, but not sure if the physics in it is kind I want to read about
 * [#C] [2019-06-22] [[https://reddit.com/r/physicsmemes/comments/c1mcip/the_dangers_of_learning_statistical_mechanics/][The dangers of learning statistical mechanics]] /r/physicsmemes :fun:physics:
 :PROPERTIES:
-:ID:       stsrddtcmrphyscsmmscmmntsngsttstclmchncsrphyscsmms
+:ID:       srddtcmrphyscsmmscmmntscmngsttstclmchncsrphyscsmms
 :END:
 * [#B] [2018-07-21] LSD and Quantum Measurements: Can you see Schrödinger’s cat both dead and alive on acid? | Qualia Computing :quantum:psy:
 :PROPERTIES:
-:ID:       stlsdndqntmmsrmntscnysschgrsctbthddndlvncdqlcmptng
+:ID:       lsdndqntmmsrmntscnysschrögrsctbthddndlvncdqlcmptng
 :END:
 https://qualiacomputing.com/2016/10/29/lsd-and-quantum-measurements-can-you-see-schrodingers-cat-both-dead-and-alive-on-acid/
 
 * [2020-05-22] [[https://twitter.com/litgenstein/status/1263735852112285698][(8) \mathcal{L} on Twitter: "appreciate how Feynman begins his thesis https://t.co/syV140kikr" / Twitter]]
 :PROPERTIES:
-:ID:       frstwttrcmltgnstnsttsmthcnbgnshsthssstcsyvkkrtwttr
+:ID:       stwttrcmltgnstnsttsmthcllnbgnshsthssstcsyvkkrtwttr
 :END:
 : appreciate how Feynman begins his thesis
 * [2019-06-14] Dirac and Feynman. One, a man of few words and the other quite the opposite. Both geniuses. : Physics
 :PROPERTIES:
-:ID:       frdrcndfynmnnmnffwwrdsndththrqtthppstbthgnssphyscs
+:ID:       drcndfynmnnmnffwwrdsndththrqtthppstbthgnssphyscs
 :END:
 https://www.reddit.com/r/Physics/comments/bxpnti/dirac_and_feynman_one_a_man_of_few_words_and_the/
 : “He is a second Dirac, only this time human.”—Eugene Wigner
 * [2019-06-14] Dirac and Feynman. One, a man of few words and the other quite the opposite. Both geniuses. : Physics
 :PROPERTIES:
-:ID:       frdrcndfynmnnmnffwwrdsndththrqtthppstbthgnssphyscs
+:ID:       drcndfynmnnmnffwwrdsndththrqtthppstbthgnssphyscs
 :END:
 https://www.reddit.com/r/Physics/comments/bxpnti/dirac_and_feynman_one_a_man_of_few_words_and_the/
 : Stephen Hawking when asked about his I.Q.:

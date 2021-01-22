@@ -5,12 +5,12 @@
 Stuff which I have processed, but not sure where it belongs
 * TODO [#B] [2019-08-11] alexmojaki/heartrate: Simple real time visualisation of the execution of a Python program. :profiling:python:viz:
 :PROPERTIES:
-:ID:       snlxmjkhrtrtsmplrltmvslstnfthxctnfpythnprgrm
+:ID:       lxmjkhrtrtsmplrltmvslstnfthxctnfpythnprgrm
 :END:
 https://github.com/alexmojaki/heartrate
 * [#C] [2019-10-11] kivy/kivy: Open source UI framework written in Python, running on Windows, Linux, macOS, Android and iOS :android:gui:
 :PROPERTIES:
-:ID:       frkvykvypnsrcfrmwrkwrttnnnrnnngnwndwslnxmcsndrdnds
+:ID:       kvykvypnsrcfrmwrkwrttnnpynrnnngnwndwslnxmcsndrdnds
 :END:
 https://github.com/kivy/kivy
 
@@ -21,22 +21,22 @@ https://github.com/kivy/kivy
 or maybe, that? ... https://github.com/pfalcon/picotui
 * TODO [#D] [2019-09-06] Robot Framework
 :PROPERTIES:
-:ID:       frrbtfrmwrk
+:ID:       rbtfrmwrk
 :END:
 https://robotframework.org/
 : let's start with a real-life example from our web demo project. Here we have a test suite with one test case which tests that login is valid. As you can see, test data syntax is based on keywords.
 ** [2020-03-27] not sure.. looks like cucumber??
 :PROPERTIES:
-:ID:       frntsrlkslkccmbr
+:ID:       ntsrlkslkccmbr
 :END:
 * [#D] [2018-11-18] blitzcode/rust-exp: Software rasterization, N-Body simulation and Game of Life in Rust + Haskell
 :PROPERTIES:
-:ID:       snbltzcdrstxpsftwrrstrztnnbdysmltnndgmflfnrsthskll
+:ID:       bltzcdrstxpsftwrrstrztnnbdysmltnndgmflfnrsthskll
 :END:
 https://github.com/blitzcode/rust-exp
 * [#D] [2018-12-16] Kobzol/hardware-effects: Demonstration of various hardware effects.
 :PROPERTIES:
-:ID:       snkbzlhrdwrffctsdmnstrtnfvrshrdwrffcts
+:ID:       kbzlhrdwrffctsdmnstrtnfvrshrdwrffcts
 :END:
 https://github.com/Kobzol/hardware-effects
 
@@ -56,7 +56,7 @@ make sure you can generate sceleton easily and run from terminal
 develop quick prototype and post in blog?
 * TODO [#C] [2019-12-20] 9 best open-source findings, November 2019 - DEV Community 👩‍💻👨‍💻 :python:js:
 :PROPERTIES:
-:ID:       frbstpnsrcfndngsnvmbrdvcmmnty
+:ID:       bstpnsrcfndngsnvmbrdvcmmnty
 :END:
 https://dev.to/sobolevn/9-best-open-source-findings-november-2019-gi0
 : And now I will show you something really unusual!
@@ -64,7 +64,7 @@ https://dev.to/sobolevn/9-best-open-source-findings-november-2019-gi0
 : Written in Python.
 * STRT [#C] [2019-12-20] 9 best open-source findings, November 2019 - DEV Community 👩‍💻👨‍💻 :pandas:dashboard:
 :PROPERTIES:
-:ID:       frbstpnsrcfndngsnvmbrdvcmmnty
+:ID:       bstpnsrcfndngsnvmbrdvcmmnty
 :END:
 https://dev.to/sobolevn/9-best-open-source-findings-november-2019-gi0
 : ​​dovpanda
@@ -109,12 +109,12 @@ https://dev.to/sobolevn/9-best-open-source-findings-november-2019-gi0
 :   - Collection<? super T>: contravariant
 * TODO [#D] [2018-01-06] [[https://reddit.com/r/rust/comments/7ok8p3/web_scraping_with_rust/dsa7sxm/][Web Scraping With Rust]] /r/rust :scrape:
 :PROPERTIES:
-:ID:       stsrddtcmrrstcmmntskpwbscstdssxmwbscrpngwthrstrrst
+:ID:       srddtcmrrstcmmntskpwbscrpstdssxmwbscrpngwthrstrrst
 :END:
 :  I have found no exaggeration when people say that Rust, with the right crates, has an experience similar to Python when it comes to a "scripting experience". :) This is why ALL of my new projects have been in Rust for the last year.
 * [#C] [2020-05-22] [[https://github.com/novoid/orgformat][novoid/orgformat: Utility library for providing functions to generate and modify Org mode syntax elements like links, time-stamps, or date-stamps.]]
 :PROPERTIES:
-:ID:       frsgthbcmnvdrgfrmtnvdrgfrmntslklnkstmstmpsrdtstmps
+:ID:       sgthbcmnvdrgfrmtnvdrgfrmtmntslklnkstmstmpsrdtstmps
 :END:
 : How to Thank Me
 * TODO [#E] Speed up some open source projects via gold?
@@ -131,12 +131,12 @@ https://dev.to/sobolevn/9-best-open-source-findings-november-2019-gi0
 
 * DONE [#B] [2020-05-28] talk: [[https://lobste.rs/s/zte1xm/ideology][Ideology | Lobsters]] :programming:
 :PROPERTIES:
-:ID:       thtlkslbstrssztxmdlgydlgylbstrs
+:ID:       tlkslbstrssztxmdlgydlgylbstrs
 :END:
 - [2021-01-10] TLDR: both "I don't need tests" and "I don't need types" people are wrong, often because they haven't seen better alternatives
 * [2016-10-02] distributed system patterns                      :distributed:
 :PROPERTIES:
-:ID:       sndstrbtdsystmpttrns
+:ID:       dstrbtdsystmpttrns
 :END:
 - Load balancer
 - Scatter and gather
@@ -145,27 +145,27 @@ https://dev.to/sobolevn/9-best-open-source-findings-november-2019-gi0
 - Bulk requests
 * [2016-09-15] caching styles                                       :caching:
 :PROPERTIES:
-:ID:       thcchngstyls
+:ID:       cchngstyls
 :END:
 write-through: synchronous writes both to the cache and the backing store
 write-back: initially, only in cache, write to backing store postponed until it's about to be modified/replaced
 * [2016-05-27] Your real job as a software engineer isn’t to write code. It’s to translate hand-wavy business requirements into detailed specs that a computer can https://medium.com/swizec-s-nightowls/what-should-you-learn-to-get-a-better-coding-job-6453ef083597#.wc1oba7v3
 :PROPERTIES:
-:ID:       fryrrljbssftwrngnrsnttwrthldylrntgtbttrcdngjbfwcbv
+:ID:       yrrljbssftwrngnrsnttwrtcdhldylrntgtbttrcdngjbfwcbv
 :END:
 * [2020-03-31] circle CI's mac plan is paid (40$/month min)        :circleci:
 :PROPERTIES:
-:ID:       tcrclcsmcplnspdmnthmn
+:ID:       crclcsmcplnspdmnthmn
 :END:
 * [#C] [2018-12-09] mre/awesome-static-analysis: Static analysis tools for all programming languages
 :PROPERTIES:
-:ID:       snmrwsmsttcnlysssttcnlysstlsfrllprgrmmnglnggs
+:ID:       mrwsmsttcnlysssttcnlysstlsfrllprgrmmnglnggs
 :END:
 https://github.com/mre/awesome-static-analysis/
 
 * TODO [#C] [2020-11-17] [[https://github.com/actions/virtual-environments/issues/1816][Ubuntu-latest workflows will use Ubuntu-20.04 · Issue 1816 · actions/virtual-environments]] :githubci:
 :PROPERTIES:
-:ID:       tsgthbcmctnsvrtlnvrnmntsswllsbntssctnsvrtlnvrnmnts
+:ID:       sgthbcmctnsvrtlnvrnmntssswllsbntssctnsvrtlnvrnmnts
 :END:
 * TODO [#C] use latest version of act (just download binary from github) :ci:github:
 :PROPERTIES:
@@ -188,14 +188,14 @@ https://github.com/pixelb/crudini/issues/33#issuecomment-240365862
 
 * STRT [#C] [2020-01-11] qawolf/qawolf: 🐺Create browser tests 10x faster :testing:promnesia:grasp:
 :PROPERTIES:
-:ID:       stqwlfqwlfcrtbrwsrtstsxfstr
+:ID:       qwlfqwlfcrtbrwsrtstsxfstr
 :END:
 https://github.com/qawolf/qawolf
 : QA Wolf is an open source node library for creating browser tests 10x faster:
 :     Skip writing boilerplate. Your browser actions are converted to Puppeteer and Jest code.
 ** [2020-03-27] I mean, ok it looks pretty compact
 :PROPERTIES:
-:ID:       frmnktlksprttycmpct
+:ID:       mnktlksprttycmpct
 :END:
 https://flood.io/blog/selenium-vs-puppeteer-for-test-automation-is-a-new-leader-emerging
 puppeteer is only available on chrome though??
@@ -211,23 +211,23 @@ puppeteer is only available on chrome though??
 :END:
 * [#C] [2020-01-04] Relative imports in Python 3 - Stack Overflow   :exports:
 :PROPERTIES:
-:ID:       strltvmprtsnpythnstckvrflw
+:ID:       rltvmprtsnpythnstckvrflw
 :END:
 https://stackoverflow.com/questions/16981921/relative-imports-in-python-3
 link to explaining wtf is with DAL etc
 ** [2021-01-22] eh?
 :PROPERTIES:
-:ID:       frh
+:ID:       h
 :END:
 * TODO [#C] [2020-02-12] Dmitry Zuykov on Twitter: "firefox умеет автоматизацию через Marionette, который просто асинхронный tcp/json, для которого есть HTTP-враппер geckodriver, клиент для этой обёртки есть даже в нашем уютненьком и работает. Можно скрэпить через браузер, у меня… :scrape:
 :PROPERTIES:
-:ID:       wddmtryzykvntwttrfrfxумеескрэпитьчерезбраузеруменя
+:ID:       dmtryzykvntwttrfrfxумеетаскрэпитьчерезбраузеруменя
 :END:
 https://mobile.twitter.com/voidlizard/status/1227505059963035648
 
 * TODO [#B] [2020-04-22] [[https://lobste.rs/s/lg2cmt/tools_made_you_productive_saved_you_time#c_m8frty][Tools that made you productive or saved you time | Lobsters]]
 :PROPERTIES:
-:ID:       wdslbstrsslgcmttlsmdyprdcthtmdyprdctvrsvdytmlbstrs
+:ID:       slbstrsslgcmttlsmdyprdctvthtmdyprdctvrsvdytmlbstrs
 :END:
 * TODO [#D] ML kit android                                       :ml:android:
 :PROPERTIES:
@@ -245,7 +245,7 @@ https://mobile.twitter.com/voidlizard/status/1227505059963035648
 
 * [#C] [2019-11-01] Why TDD Isn't Crap • Hillel Wayne               :testing:
 :PROPERTIES:
-:ID:       frwhytddsntcrphlllwyn
+:ID:       whytddsntcrphlllwyn
 :END:
 https://www.hillelwayne.com/post/why-tdd-isnt-crap/
 : While the first PBT library was Haskell Quickcheck, arguably the most sophisticated is the Hypothesis Python library.
@@ -258,38 +258,38 @@ https://www.hillelwayne.com/post/why-tdd-isnt-crap/
 https://news.ycombinator.com/item?id=21641760
 * [#C] [2020-03-30] karan/Projects: A list of practical projects that anyone can solve in any programming language.
 :PROPERTIES:
-:ID:       mnkrnprjctslstfprctclprjchtnyncnslvnnyprgrmmnglngg
+:ID:       krnprjctslstfprctclprjctshtnyncnslvnnyprgrmmnglngg
 :END:
 https://github.com/karan/Projects
 
 * [#A] [2020-03-31] Debugging with tmate · Actions · GitHub Marketplace :debug:githubci:
 :PROPERTIES:
-:ID:       tdbggngwthtmtctnsgthbmrktplc
+:ID:       dbggngwthtmtctnsgthbmrktplc
 :END:
 https://github.com/marketplace/actions/debugging-with-tmate
 ok, nice it's like circleci ssh debugging.
 less convenient because you have to commit a step, but ok considering you don't need it often
 * [#D] [2020-01-19] Home - Mozilla Hacks - the Web developer blog
 :PROPERTIES:
-:ID:       snhmmzllhcksthwbdvlprblg
+:ID:       hmmzllhcksthwbdvlprblg
 :END:
 https://hacks.mozilla.org/
 
 * [2018-03-01] danluu: latency matters https://danluu.com/input-lag/ :ux:performance:
 :PROPERTIES:
-:ID:       thdnlltncymttrssdnlcmnptlg
+:ID:       dnlltncymttrssdnlcmnptlg
 :END:
 : try typing in terminal with 30ms ping
 * [#D] [2015-11-04] inversion of control
 :PROPERTIES:
-:ID:       wdnvrsnfcntrl
+:ID:       nvrsnfcntrl
 :END:
 : Inversion of Control principle, which basically states that the flow of your application depends on the object graph that is built up during program execution, and such a dynamic flow is made possible by object interactions being defined through abstractions.
 : This run-time binding is achieved by mechanisms such as dependency injection or a service locator.
 
 * [#D] [2018-06-16] Tweet from Gary Bernhardt (@garybernhardt), at Jun 16, 13:54 :performance:
 :PROPERTIES:
-:ID:       sttwtfrmgrybrnhrdtgrybrnhrdttjn
+:ID:       twtfrmgrybrnhrdtgrybrnhrdttjn
 :END:
 : In 2008, I was extremely frustrated by Ruby imposing a constant ~100 ms startup penalty on hello world. In 2018, computers are ~3.5 times faster (4479 vs. 1266 Geekbench for 2007 vs. 2017 MBP). TypeScript imposes a 1600 ms startup penalty on hello world. https://t.co/GzMcXPoFNU
 
@@ -333,20 +333,20 @@ https://twitter.com/awesome__re/status/1138001812718440448
 
 * [#C] [2019-08-08] Web Colors                                       :design:
 :PROPERTIES:
-:ID:       thwbclrs
+:ID:       wbclrs
 :END:
 https://www.rapidtables.com/web/color/index.html
 
 * TODO [#C] [2019-08-18] cpuu/awesome-fuzzing: A curated list of awesome Fuzzing(or Fuzz Testing) for software security
 :PROPERTIES:
-:ID:       sncpwsmfzzngcrtdlstfwsmfzzngrfzztstngfrsftwrscrty
+:ID:       cpwsmfzzngcrtdlstfwsmfzzngrfzztstngfrsftwrscrty
 :END:
 https://github.com/cpuu/awesome-fuzzing#readme
 : Awesome Fuzzing
 
 * [#C] [2020-02-28] Repl.it - EmbellishedWanConcentrate
 :PROPERTIES:
-:ID:       frrpltmbllshdwncncntrt
+:ID:       rpltmbllshdwncncntrt
 :END:
 https://repl.it/repls/EmbellishedWanConcentrate
 wow, nice
@@ -374,7 +374,7 @@ You have to make sure that you have the package with the libstdc++ library compi
 For clang: ~-fno-limit-debug-info~ do not limit debug information produced to reduce size of debug binary
 * TODO [#B] [2020-05-21] [[https://github.com/datalib/libextract][datalib/libextract: Extract data from websites using basic statistical magic]] :scrape:
 :PROPERTIES:
-:ID:       thsgthbcmdtlblbxtrctdtlbltfrmwbstssngbscsttstclmgc
+:ID:       sgthbcmdtlblbxtrctdtlblbxtfrmwbstssngbscsttstclmgc
 :END:
 : Libextract is a statistics-enabled data extraction library that works on HTML and XML documents and written in Python.
 : Originating from eatiht, the extraction algorithm works by making one simple assumption: data appear as collections of repetitive elements. You can read about the reasoning here.
@@ -404,16 +404,16 @@ lots of interesing links...
 :END:
 * [#C] [2020-04-22] [[https://github.community/t5/GitHub-Actions/Will-GitHub-Actions-support-pull-request-events-from-a-fork-to-a/td-p/44488/page/3][Will GitHub Actions support pull_request events fr... - Page 3 - GitHub Community Forum]] :githubci:
 :PROPERTIES:
-:ID:       wdsgthbcmmntytgthbctnswllrqstvntsfrpggthbcmmntyfrm
+:ID:       sgthbcmmntytgthbctnswllgtrqstvntsfrpggthbcmmntyfrm
 :END:
 * TODO [#C] [2020-06-08] [[https://shalabh.com/programmable-systems/files-and-file-formats.html][Files, Formats and Byte Arrays]] :malleable:
 :PROPERTIES:
-:ID:       mnsshlbhcmprgrmmblsystmsfrmtshtmlflsfrmtsndbytrrys
+:ID:       sshlbhcmprgrmmblsystmsflsrmtshtmlflsfrmtsndbytrrys
 :END:
 read comments here
 ** TODO [2021-01-22] create file for #computing ?
 :PROPERTIES:
-:ID:       frcrtflfrcmptng
+:ID:       crtflfrcmptng
 :END:
 * TODO [#B] Tweet from @EvMill                                        :julia:
 :PROPERTIES:
@@ -426,18 +426,18 @@ https://twitter.com/EvMill/status/1314544492935032832
 
 * [#C] [2020-06-02] [[https://news.ycombinator.com/item?id=23358863][Where can you use SQLite? Embedded Systems: Yes Raspberry Pi : Yes Mobile ... | Hacker News]]
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdwhrcnysstmsysrspbrrypysmblhckrnws
+:ID:       snwsycmbntrcmtmdwhrcnyssqtmsysrspbrrypysmblhckrnws
 :END:
 : Browsers: yes
 : https://github.com/sql-js/sql.js
 * [#D] [2018-11-18] mythmon/rust-nbodies: N-Bodies gravity simulation in Rust :sim:
 :PROPERTIES:
-:ID:       snmythmnrstnbdsnbdsgrvtysmltnnrst
+:ID:       mythmnrstnbdsnbdsgrvtysmltnnrst
 :END:
 https://github.com/mythmon/rust-nbodies
 * TODO [#D] [2019-12-18] Software Tools for Hobby-Scale Projects        :vps:
 :PROPERTIES:
-:ID:       wdsftwrtlsfrhbbysclprjcts
+:ID:       sftwrtlsfrhbbysclprjcts
 :END:
 https://rickcarlino.com/2019/11/02/software-tools-for-hobby-sized-projects-html.html
 : Vultr - Dirt Cheap VPS Hosting
@@ -446,11 +446,11 @@ https://rickcarlino.com/2019/11/02/software-tools-for-hobby-sized-projects-html.
 : Vultr is my go-to solution for cheap hosting. As of this writing, the cheapest plan they offer is $2.50 a month. Although their cheapest plan defintely won’t be able to fuel your next high-powered computing project, it is a great solution when you need to host small scale tasks such as cron jobs.
 * [2020-04-15] [[https://twitter.com/borkdude/status/1249818512295632897][(λ. borkdude) on Twitter: "Cool idea! Alternative: $ alias bbjq='bb "(json/parse-stream *in* true)" | bb' $ curl -s 'https://t.co/IGRoyvYOdv' | bbjq '(-&gt;&gt; *input* (map (comp :login :author)))' ;;=&gt; ("jr0cket" "borkdude" "rymndhng" "borkdude" "OscarMarshall") babashka https://t.co/rk76nGsTGW" / Twitter]]
 :PROPERTIES:
-:ID:       wdstwttrcmbrkddsttsλbrkddshllbbshkstcrkngstgwtwttr
+:ID:       stwttrcmbrkddsttsλbrkddntshllbbshkstcrkngstgwtwttr
 :END:
 * [2020-04-25] [[https://circleci.com/gh/karlicoss/promnesia/1130?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link][Continuous Integration and Deployment]]
 :PROPERTIES:
-:ID:       stscrclccmghkrlcssprmnstmldlnkcntnsntgrtnnddplymnt
+:ID:       scrclccmghkrlcssprmnstmcmldlnkcntnsntgrtnnddplymnt
 :END:
 :     def get_extension_page_firefox(driver):
 :         moz_profile = Path(driver.capabilities['moz:profile'])
@@ -476,40 +476,40 @@ https://rickcarlino.com/2019/11/02/software-tools-for-hobby-sized-projects-html.
 : >       assert addon_id is not None
 * TODO [#B] [2019-12-18] Software Tools for Hobby-Scale Projects       :json:
 :PROPERTIES:
-:ID:       wdsftwrtlsfrhbbysclprjcts
+:ID:       sftwrtlsfrhbbysclprjcts
 :END:
 https://rickcarlino.com/2019/11/02/software-tools-for-hobby-sized-projects-html.html
 : MyJSON.com - Free Cloud Storage for JSON
 * [#B] [2018-06-19] https://samwho.co.uk/blog/2017/04/22/emulating-bad-networks/ :network:testing:
 :PROPERTIES:
-:ID:       tssmwhckblgmltngbdntwrks
+:ID:       ssmwhckblgmltngbdntwrks
 :END:
 * [#C] [2020-02-24] doom-emacs/faq.org at develop · hlissner/doom-emacs :opensource:
 :PROPERTIES:
-:ID:       mndmmcsfqrgtdvlphlssnrdmmcs
+:ID:       dmmcsfqrgtdvlphlssnrdmmcs
 :END:
 https://github.com/hlissner/doom-emacs/blob/develop/docs/faq.org#how-do-i-change-the-leaderlocalleader-keys
 : Don’t be that guy who PRs 99 whitespace adjustments around his one-line contribution.
 * [#C] [2020-05-19] [[https://github.community/t5/GitHub-Actions/is-there-expression-syntax-to-do-pattern-matching-regex-on/td-p/36295][Solved: is there expression syntax to do pattern matching ... - GitHub Community Forum]] :githubci:
 :PROPERTIES:
-:ID:       tsgthbcmmntytgthbctnssthrdpttrnmtchnggthbcmmntyfrm
+:ID:       sgthbcmmntytgthbctnssthrxdpttrnmtchnggthbcmmntyfrm
 :END:
 : Regex cannot be used in expression for now,
 
 for fucks sake, can't use regexes in github acitons pipelines?
 * [#C] [2019-12-13] [[https://news.ycombinator.com/item?id=21780659][Show HN: Happy Hues – Curated colors in context]] :design:
 :PROPERTIES:
-:ID:       frsnwsycmbntrcmtmdshwhnhppyhscrtdclrsncntxt
+:ID:       snwsycmbntrcmtmdshwhnhppyhscrtdclrsncntxt
 :END:
 https://www.happyhues.co/
 * [#C] [2019-12-20] [[https://news.ycombinator.com/item?id=21844007][Bugjail, a completely new way of debugging]] :debug:
 :PROPERTIES:
-:ID:       frsnwsycmbntrcmtmdbgjlcmpltlynwwyfdbggng
+:ID:       snwsycmbntrcmtmdbgjlcmpltlynwwyfdbggng
 :END:
 https://bugjail.com/
 ** [2020-01-31] basically, debugging database? e.g. you can trace all arguments, callers etc
 :PROPERTIES:
-:ID:       frbscllydbggngdtbsgycntrcllrgmntscllrstc
+:ID:       bscllydbggngdtbsgycntrcllrgmntscllrstc
 :END:
 * TODO [#C] use repl.it instead of ideone?                              :ide:
 :PROPERTIES:
@@ -518,92 +518,92 @@ https://bugjail.com/
 :END:
 * [#B] [2020-06-10] [[https://news.ycombinator.com/item?id=23468193][Ask HN: Which tools have made you a much better programmer? | Hacker News]]
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdskhnwhcvmdymchbttrprgrmmrhckrnws
+:ID:       snwsycmbntrcmtmdskhnwhchtvmdymchbttrprgrmmrhckrnws
 :END:
 * TODO [#D] [2019-12-26] awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of hosting and managing applications instead of renting from Software-as-a-Service providers
 :PROPERTIES:
-:ID:       thwsmslfhstdwsmslfhstdlstfrntngfrmsftwrssrvcprvdrs
+:ID:       wsmslfhstdwsmslfhstdlstfffrntngfrmsftwrssrvcprvdrs
 :END:
 https://github.com/awesome-selfhosted/awesome-selfhosted
 : API Management
 * [2013-02-11] Seems like uniqueness encoded not by type system, but by 'attributes', https://www.cs.tcd.ie/~devriese/pub/ifl07-paper.pdf :lineartypes:
 :PROPERTIES:
-:ID:       mnsmslknqnssncddntbytypsytsswwwcstcddvrspbflpprpdf
+:ID:       smslknqnssncddntbytypsysttsswwwcstcddvrspbflpprpdf
 :END:
 * [2019-01-27] Daibhi O Domhnaill on Twitter: "Лайфхак: если во время собеседования на вопрос "какова сложность этого алгоритма?" ответить "а что, тормозит что ли? да перенесите на SSD и все дела", то сразу возьмут техническим директором" / Twitter
 :PROPERTIES:
-:ID:       sndbhdmhnllntwttrлайфхакеехническимдиректоромtwttr
+:ID:       dbhdmhnllntwttrлайфхакеслехническимдиректоромtwttr
 :END:
 https://twitter.com/OhTheAnguish/status/1089461515273621504
 
 * TODO [2018-06-10] hackers guide to NN https://karpathy.github.io/neuralnets :nn:
 :PROPERTIES:
-:ID:       snhckrsgdtnnskrpthygthbnrlnts
+:ID:       hckrsgdtnnskrpthygthbnrlnts
 :END:
 * [2020-10-13] [[https://tyrrrz.me/blog/fakes-over-mocks][Prefer Fakes Over Mocks | Alexey Golub]] :testing:
 :PROPERTIES:
-:ID:       tstyrrrzmblgfksvrmcksprfrfksvrmckslxyglb
+:ID:       styrrrzmblgfksvrmcksprfrfksvrmckslxyglb
 :END:
 * [2020-09-27] .
 :PROPERTIES:
-:ID:       sn
+:ID:       20390_20738
 :END:
 : Something that I’m surprised a lot of devs don’t know; there are official domains you’re supposed to use for documentation, testing, etc. They are specifically reserved by IANA for these purposes. Originally I think it was just example.com, but they now have a list of all them: https://www.iana.org/domains/reserved
 
 * [#C] [2020-04-07] [[https://news.ycombinator.com/item?id=22801661][Show HN: A curated set of colour combinations]] :design:
 :PROPERTIES:
-:ID:       tsnwsycmbntrcmtmdshwhncrtdstfclrcmbntns
+:ID:       snwsycmbntrcmtmdshwhncrtdstfclrcmbntns
 :END:
 https://duo.alexpate.uk/
 * [#C] [2020-05-17] Fragile narrow laggy asynchronous mismatched pipes kill productivity - Tristan Hume :distributed:
 :PROPERTIES:
-:ID:       snfrglnrrwlggysynchrnsmsmtchdppskllprdctvtytrstnhm
+:ID:       frglnrrwlggysynchrnsmsmtchdppskllprdctvtytrstnhm
 :END:
 https://thume.ca/2020/05/17/pipes-kill-productivity/
 
 * [#C] [2020-05-22] [[https://scrapism.lav.io/][Scrapism - Scrapism]] scraping tutorial :scrape:
 :PROPERTIES:
-:ID:       frsscrpsmlvscrpsmscrpsmscrpngttrl
+:ID:       sscrpsmlvscrpsmscrpsmscrpngttrl
 :END:
 * [#C] [2020-01-25] fpereiro/backendlore: How I write backends      :backend:
 :PROPERTIES:
-:ID:       stfprrbckndlrhwwrtbcknds
+:ID:       fprrbckndlrhwwrtbcknds
 :END:
 https://github.com/fpereiro/backendlore
 
 * [#C] [2020-03-31] nektos/act: Run your GitHub Actions locally 🚀
 :PROPERTIES:
-:ID:       tnktsctrnyrgthbctnslclly
+:ID:       nktsctrnyrgthbctnslclly
 :END:
 https://github.com/nektos/act
 : ok it works with CI now...
 * [#B] [2019-11-17] Top 50 matplotlib Visualizations - The Master Plots (w/ Full Python Code) | ML+ :viz:
 :PROPERTIES:
-:ID:       sntpmtpltlbvslztnsthmstrpltswfllpythncdml
+:ID:       tpmtpltlbvslztnsthmstrpltswfllpythncdml
 :END:
 https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/
 
 * [#B] [2019-10-18] About GitHub Actions - GitHub Help
 :PROPERTIES:
-:ID:       frbtgthbctnsgthbhlp
+:ID:       btgthbctnsgthbhlp
 :END:
 https://help.github.com/en/articles/about-github-actions
 
 * [#C] [2020-05-20] [[https://twitter.com/lukaseder/status/1262770756997591042][Lukas Eder on Twitter: "Still one of the best explanations of covariance vs contravariance, or consumers vs producers https://t.co/UPnpItRdi7 https://t.co/P8KzmWzX8R" / Twitter]]
 :PROPERTIES:
-:ID:       wdstwttrcmlksdrsttslksdrnstcpnptrdstcpkzmwzxrtwttr
+:ID:       stwttrcmlksdrsttslksdrntwstcpnptrdstcpkzmwzxrtwttr
 :END:
 : Still one of the best explanations of covariance vs contravariance, or consumers vs producers
 * [2020-05-28] [[https://softwareengineering.stackexchange.com/questions/290566/is-localstorage-under-the-cookie-law][javascript - Is localStorage under The Cookie Law? - Software Engineering Stack Exchange]] :privacy:
 :PROPERTIES:
-:ID:       thssftwrngnrngstckxchngcmhcklwsftwrngnrngstckxchng
+:ID:       ssftwrngnrngstckxchngcmqshcklwsftwrngnrngstckxchng
 :END:
 : The cookie law is not actually about cookies (and its not actually called the cookie law). Its about tracking users, storing and sharing the information with third parties. Cookies are just the most popular method to track users.
 : If you don't want to show the "cookie warning" then just don't track the users beyond the session and don't share traffic data with third parties.
 : The actual directive.
 * [2020-09-29] on windows                                       :ci:circleci:
 :PROPERTIES:
-:ID:       tnwndws
+:ID:       nwndws
 :END:
 - bash works odd, powershell as well
 - had to disable setup_requires=['setuptools_scm'] in setup.py, some ssl errors
@@ -611,33 +611,33 @@ https://help.github.com/en/articles/about-github-actions
 - shell history (with arrows) doesn't work
 * STRT [#B] [2019-12-11] kootenpv/gittyleaks: Find sensitive information for a git repo :security:project:promnesia:hpi:
 :PROPERTIES:
-:ID:       wdktnpvgttylksfndsnstvnfrmtnfrgtrp
+:ID:       ktnpvgttylksfndsnstvnfrmtnfrgtrp
 :END:
 https://github.com/kootenpv/gittyleaks
 ** [#C] [2020-01-17] eh, doesn't give you commit hash?
 :PROPERTIES:
-:ID:       frhdsntgvycmmthsh
+:ID:       hdsntgvycmmthsh
 :END:
 
 * [2020-11-08] [[https://www.digitalocean.com/community/questions/i-want-to-know-how-to-block-ip-addresses-via-digitalocean][I want to know how to block IP addresses via Digitalocean? | DigitalOcean]] :hosting:
 :PROPERTIES:
-:ID:       snswwwdgtlcncmcmmntyqstnstblckpddrsssvdgtlcndgtlcn
+:ID:       swwwdgtlcncmcmmntyqstnswntblckpddrsssvdgtlcndgtlcn
 :END:
 : The simplest way to block specific IP address or ranges of them would be to set up a basic firewall using UFW. It is included with Ubuntu by default.
 : You can then block a specific IP address by running:
 :     sudo ufw deny from XXX.XXX.XX.XX
 * [2016-06-12] mutation testing
 :PROPERTIES:
-:ID:       snmttntstng
+:ID:       mttntstng
 :END:
 * [#C] [2020-05-05] [[https://twitter.com/rocallahan/status/1257497527957385216][Robert O'Callahan on Twitter: "Prolific rr contributor Keno Fischer has a great writeup of how the Julia project is integrating rr to capture user bugs. https://t.co/fpbunBDnay https://t.co/iUg04Jq3F3" / Twitter]] :julia:debug:
 :PROPERTIES:
-:ID:       tstwttrcmrcllhnsttsrbrtclgsstcfpbnbdnystcgjqftwttr
+:ID:       stwttrcmrcllhnsttsrbrtcllgsstcfpbnbdnystcgjqftwttr
 :END:
 : Prolific rr contributor Keno Fischer has a great writeup of how the Julia project is integrating rr to capture user bugs.
 * [#C] [2019-12-08] Coroutines, exceptions, time-traveling search, generators and threads: Continuations by example
 :PROPERTIES:
-:ID:       sncrtnsxcptnstmtrvlngsrchnrtrsndthrdscntntnsbyxmpl
+:ID:       crtnsxcptnstmtrvlngsrchgnrtrsndthrdscntntnsbyxmpl
 :END:
 http://matt.might.net/articles/programming-with-continuations--exceptions-backtracking-search-threads-generators-coroutines
 
@@ -657,36 +657,36 @@ https://twitter.com/yoshikischmitz/status/1279566482188333056
 :END:
 * [#C] [2020-01-16] Running Lisp in Production                         :lisp:
 :PROPERTIES:
-:ID:       thrnnnglspnprdctn
+:ID:       rnnnglspnprdctn
 :END:
 https://tech.grammarly.com/blog/running-lisp-in-production
 * TODO [#D] [2020-01-01] pavelfatin/toyide: Modern IDE plus custom programming languages with interpreters and compilers
 :PROPERTIES:
-:ID:       wdpvlftntydmdrndplscstmprglnggswthntrprtrsndcmplrs
+:ID:       pvlftntydmdrndplscstmprgrglnggswthntrprtrsndcmplrs
 :END:
 https://github.com/pavelfatin/toyide
 
 * [#C] [2020-02-16] Elastic tabstops - a better way to indent and align code :codestyle:
 :PROPERTIES:
-:ID:       snlstctbstpsbttrwytndntndlgncd
+:ID:       lstctbstpsbttrwytndntndlgncd
 :END:
 http://nickgravgaard.com/elastic-tabstops/
 
 * [#C] [2020-02-19] Open Source Design
 :PROPERTIES:
-:ID:       wdpnsrcdsgn
+:ID:       pnsrcdsgn
 :END:
 https://opensourcedesign.net/
 
 * TODO [#D] [2019-11-05] Web Scraping With Rust - codeburst :scrape:scrapyroo:
 :PROPERTIES:
-:ID:       twbscrpngwthrstcdbrst
+:ID:       wbscrpngwthrstcdbrst
 :END:
 https://codeburst.io/web-scraping-in-rust-881b534a60f7
 
 ** [2019-11-18] A great tool for this is the Chrome extension Selector Gadget
 :PROPERTIES:
-:ID:       mngrttlfrthssthchrmxtnsnslctrgdgt
+:ID:       grttlfrthssthchrmxtnsnslctrgdgt
 :END:
 * TODO [#D] A Few Haskell Highlights: Top Haskell Resources of 2019    :agda:
 :PROPERTIES:
@@ -698,7 +698,7 @@ https://codeburst.io/web-scraping-in-rust-881b534a60f7
 
 * [2020-07-07] [[https://lobste.rs/s/fepvea/against_testing#c_t52joz][against testing | Lobsters]] :testing:
 :PROPERTIES:
-:ID:       tslbstrssfpvgnsttstngctjzgnsttstnglbstrs
+:ID:       slbstrssfpvgnsttstngctjzgnsttstnglbstrs
 :END:
 : I don’t write tests to avoid bugs. I write tests to avoid regressions.
 * TODO [#C] Guide to Web Automation - By
@@ -710,22 +710,22 @@ https://codeburst.io/web-scraping-in-rust-881b534a60f7
 https://hackernoon.com/guide-to-web-automation-889557804453
 * [2019-04-21] [[https://reddit.com/r/agda/comments/bej1jr/cubical_agda_and_probability_monads/][Cubical Agda and Probability Monads]] /r/agda :agda:
 :PROPERTIES:
-:ID:       snsrddtcmrgdcmmntsbjjrcbcndscbclgdndprbbltymndsrgd
+:ID:       srddtcmrgdcmmntsbjjrcbclgndscbclgdndprbbltymndsrgd
 :END:
 * [2019-05-06] [[https://reddit.com/r/rust/comments/bjnxd3/a_guide_to_rust_graphics_libraries_as_of_2019/][A Guide to Rust Graphics Libraries as of 2019]] /r/rust
 :PROPERTIES:
-:ID:       mnsrddtcmrrstcmmntsbjnxdgsfgdtrstgrphcslbrrssfrrst
+:ID:       srddtcmrrstcmmntsbjnxdgdtsfgdtrstgrphcslbrrssfrrst
 :END:
 * [2019-12-19] Discovering Hard Disk Physical Geometry through Microbenchmarking « Blog :hardware:performance:
 :PROPERTIES:
-:ID:       thdscvrnghrddskphysclgmtrythrghmcrbnchmrkngblg
+:ID:       dscvrnghrddskphysclgmtrythrghmcrbnchmrkngblg
 :END:
 http://blog.stuffedcow.net/2019/09/hard-disk-geometry-microbenchmarking/
 very impressive and thorough analysis
 lots of detailed plots and pretty clear explanations
 * [2018-12-15] Tweet from Steve Canon (@stephentyrone), at Dec 15, 16:56 :testing:
 :PROPERTIES:
-:ID:       sttwtfrmstvcnnstphntyrntdc
+:ID:       twtfrmstvcnnstphntyrntdc
 :END:
 I bring this up every time someone thinks “full code coverage” means anything at all, but:
 
@@ -742,7 +742,7 @@ https://twitter.com/stephentyrone/status/1073795608819855367
 
 * [2018-10-03] Scheme Lisp: feel the cool Andy Balaam Accu 2018   :talk:lisp:
 :PROPERTIES:
-:ID:       wdschmlspflthclndyblmcc
+:ID:       schmlspflthclndyblmcc
 :END:
 ** 38:46 weird code as data (define s (lsit '+ 4 7))
 :PROPERTIES:
@@ -750,75 +750,75 @@ https://twitter.com/stephentyrone/status/1073795608819855367
 :END:
 ** [2019-10-20] eh, very basic talk and also doesn't really communicate why scheme/lisp are cool if you're experienced with multiple languages already. Thing with numbers and mscons at the end can be done on any PL
 :PROPERTIES:
-:ID:       snhvrybsctlkndlsdsntrllycbrsndmscnstthndcnbdnnnypl
+:ID:       hvrybsctlkndlsdsntrllycmmbrsndmscnstthndcnbdnnnypl
 :END:
 * [#C] [2018-03-19] CI_ERROR_TAG in comment, and then grep it       :testing:
 :PROPERTIES:
-:ID:       mncrrrtgncmmntndthngrpt
+:ID:       crrrtgncmmntndthngrpt
 :END:
 * [#C] [2020-02-05] Working example of sub · Issue #694 · stedolan/jq    :jq:
 :PROPERTIES:
-:ID:       wdwrkngxmplfsbssstdlnjq
+:ID:       wrkngxmplfsbssstdlnjq
 :END:
 https://github.com/stedolan/jq/issues/694
 : You have fallen in the main trap in jq: the comma IS NOT an arguments separator in function calls.
 : Allways use the semi-colon!
 * TODO [#B] [2019-12-29] Web scraping in 2018 — forget HTML, use XHRs, metadata or JavaScript variables :scrape:
 :PROPERTIES:
-:ID:       snwbscrpngnfrgthtmlsxhrsmtdtrjvscrptvrbls
+:ID:       wbscrpngnfrgthtmlsxhrsmtdtrjvscrptvrbls
 :END:
 https://blog.apify.com/web-scraping-in-2018-forget-html-use-xhrs-metadata-or-javascript-variables-8167f252439c
 : This approach can be used for scraping data from Airbnb. You don’t even need to open the page in a headless browser, you just need to get the token first and then use their API:
 * DONE [#B] [2019-09-01] scrapinghub/portia: Visual scraping for Scrapy :scrapy:
 :PROPERTIES:
-:ID:       snscrpnghbprtvslscrpngfrscrpy
+:ID:       scrpnghbprtvslscrpngfrscrpy
 :END:
 https://github.com/scrapinghub/portia
 : Portia is a tool that allows you to visually scrape websites without any programming knowledge required. With Portia you can annotate a web page to identify the data you wish to extract, and Portia will understand based on these annotations how to scrape data from similar pages.
 * [2019-02-14] splash couldn't handle deliveroo main page. maybe should have waited longer though?? :scrape:scrapy:
 :PROPERTIES:
-:ID:       thsplshcldnthndldlvrmnpgmybshldhvwtdlngrthgh
+:ID:       splshcldnthndldlvrmnpgmybshldhvwtdlngrthgh
 :END:
 * [2019-02-13] Self-contained minimum example script to run scrapy   :scrapy:
 :PROPERTIES:
-:ID:       wdslfcntndmnmmxmplscrpttrnscrpy
+:ID:       slfcntndmnmmxmplscrpttrnscrpy
 :END:
 https://gist.github.com/alecxe/fc1527d6d9492b59c610
 
 * [#D] [2018-12-09] spaCy · Industrial-strength Natural Language Processing in Python :nlp:parsing:
 :PROPERTIES:
-:ID:       snspcyndstrlstrngthntrllnggprcssngnpythn
+:ID:       spcyndstrlstrngthntrllnggprcssngnpythn
 :END:
 https://spacy.io/
 ** [2019-02-21] ok, pretty interesting, but suitable for proper natural language, not my kind of logging...
 :PROPERTIES:
-:ID:       thkprttyntrstngbtstblfrprprntrllnggntmykndflggng
+:ID:       kprttyntrstngbtstblfrprprntrllnggntmykndflggng
 :END:
 * [#D] [2019-08-17] public-apis/public-apis: A collective list of free APIs for use in software and web development.
 :PROPERTIES:
-:ID:       stpblcpspblcpscllctvlstffrpsfrsnsftwrndwbdvlpmnt
+:ID:       pblcpspblcpscllctvlstffrpsfrsnsftwrndwbdvlpmnt
 :END:
 https://github.com/public-apis/public-apis
 
 * [2018-11-13] good with explanation https://agda.readthedocs.io/en/latest/language/with-abstraction.html#simultaneous-abstraction :agda:
 :PROPERTIES:
-:ID:       tgdwthxplntnsgdrdthdcsnlthbstrctnhtmlsmltnsbstrctn
+:ID:       gdwthxplntnsgdrdthdcsnltshbstrctnhtmlsmltnsbstrctn
 :END:
 tldr: write multiple with clauses; then pattern match on them to rewrite and eliminate
 * [2019-04-08] Syntactor                                           :json:ide:
 :PROPERTIES:
-:ID:       mnsyntctr
+:ID:       syntctr
 :END:
 https://gregoor.github.io/syntactor/
 
 * [2019-03-06] Mobile-Friendly Test - Google Search Console             :web:
 :PROPERTIES:
-:ID:       wdmblfrndlytstgglsrchcnsl
+:ID:       mblfrndlytstgglsrchcnsl
 :END:
 https://search.google.com/test/mobile-friendly
 * [2019-06-13] [[https://reddit.com/r/cpp/comments/by12cc/cnow_2019_kris_jusiak_dependency_injection_a/eqc1utq/][C++Now 2019: Kris Jusiak “Dependency Injection - a 25-dollar term for a 5-cent concept”]] /r/cpp :programming:
 :PROPERTIES:
-:ID:       thsrddtcmrcppcmmntsbycccnjctndllrtrmfrcntcncptrcpp
+:ID:       srddtcmrcppcmmntsbycccnwkjctndllrtrmfrcntcncptrcpp
 :END:
 - DI is just a fancy term for using constructors (25 dollar concept...)
 - DI can be easily misused
@@ -826,12 +826,12 @@ https://search.google.com/test/mobile-friendly
 - DI library/framework helps with the wiring mess
 * [#D] [2019-04-27] Rust cheat sheet  https://upsuper.github.io/rust-cheatsheet/ :rust:
 :PROPERTIES:
-:ID:       strstchtshtspsprgthbrstchtsht
+:ID:       rstchtshtspsprgthbrstchtsht
 :END:
 
 * [2019-08-11] dariusk/corpora: A collection of small corpuses of interesting data for the creation of bots and similar stuff.
 :PROPERTIES:
-:ID:       sndrskcrprcllctnfsmllcrpsgdtfrthcrtnfbtsndsmlrstff
+:ID:       drskcrprcllctnfsmllcrpssfgdtfrthcrtnfbtsndsmlrstff
 :END:
 https://github.com/dariusk/corpora
 : This project is a collection of static corpora (plural of "corpus") that are potentially useful in the creation of weird internet stuff. I've found that, as a creator, sometimes I am making something that needs access to a lot of adjectives, but not necessarily every adjective in the English language. So for the last year I've been copy/pasting an adjs.json file from project to project. This is kind of awful, so I'm hoping that this project will at least help me keep everything in one place.
@@ -850,16 +850,16 @@ https://github.com/dariusk/corpora
 : - Offset pagination is bad for performance. Avoid it at all costs unless you want some spider indexing page 10,432 of your archives to eat all your CPU.
 * [#C] [2019-12-11] [[https://news.ycombinator.com/item?id=21760483][A guide to Web Scraping without getting blocked]] :scrape:
 :PROPERTIES:
-:ID:       wdsnwsycmbntrcmtmdgdtwbscrpngwthtgttngblckd
+:ID:       snwsycmbntrcmtmdgdtwbscrpngwthtgttngblckd
 :END:
 https://www.scrapingbee.com/blog/web-scraping-without-getting-blocked
 * [2020-03-09] sqldiff can generate diff                             :sqlite:
 :PROPERTIES:
-:ID:       mnsqldffcngnrtdff
+:ID:       sqldffcngnrtdff
 :END:
 * [#B] [2018-08-27] [[https://reddit.com/r/lisp/comments/9ar7mp/a_road_to_common_lisp_steve_losh/e4xx2ic/][A Road to Common Lisp / Steve Losh]] /r/lisp
 :PROPERTIES:
-:ID:       mnsrddtcmrlspcmmntsrmprdtshxxcrdtcmmnlspstvlshrlsp
+:ID:       srddtcmrlspcmmntsrmprdtcmshxxcrdtcmmnlspstvlshrlsp
 :END:
 : I've always liked this example, from _Practical Common Lisp_ (2007).
 : > `DOLIST` is similar to Perl's `foreach` or Python's `for`. Java added a similar kind of loop construct with the "enhanced" `for` loop in Java 1.5, as part of JSR-201. Notice what a difference macros make. A Lisp programmer who notices a common pattern in their code can write a macro to give themselves a source-level abstraction of that pattern. A Java programmer who notices the same pattern has to convince Sun that this particular abstraction is worth adding to the language. Then Sun has to publish a JSR and convene an industry-wide "expert group" to hash everything out. That process--according to Sun--takes an average of 18 months. After that, the compiler writers all have to go upgrade their compilers to support the new feature. And even once the Java programmer's favorite compiler supports the new version of Java, they probably still can't use the new feature until they're allowed to break source compatibility with older versions of Java. So an annoyance that Common Lisp programmers can resolve for themselves within five minutes plagues Java programmers for years.
@@ -871,23 +871,23 @@ https://www.scrapingbee.com/blog/web-scraping-without-getting-blocked
 :END:
 * [#C] [2020-12-11] [[https://news.ycombinator.com/item?id=25383066][Monads and GATs in Nightly Rust | Hacker News]]
 :PROPERTIES:
-:ID:       frsnwsycmbntrcmtmdmndsndgtsnnghtlyrsthckrnws
+:ID:       snwsycmbntrcmtmdmndsndgtsnnghtlyrsthckrnws
 :END:
 : We don't need new languages without features: it has already been proven that you only need exactly one feature in your programming language to write any program possible. Look up single instruction languages for proof that it is possible and such single features languages exist.
 : What we need are languages with many features that are easy to use to create complex programs that are still easy to understand.
 * [#C] [2018-12-23] solveset is pretty useful!!                       :sympy:
 :PROPERTIES:
-:ID:       snslvstsprttysfl
+:ID:       slvstsprttysfl
 :END:
 * [2019-06-23] Automate the Boring Stuff with Python             :automation:
 :PROPERTIES:
-:ID:       sntmtthbrngstffwthpythn
+:ID:       tmtthbrngstffwthpythn
 :END:
 https://automatetheboringstuff.com/
 I guess it's good for other people who are not that good in programming, but I know all of it already
 * TODO [#C] [2019-01-27] https://www.youtube.com/watch?v=PorfLSr3DDI Give me 15 minutes & I'll change your view of GDB :gdb:
 :PROPERTIES:
-:ID:       snswwwytbcmwtchvprflsrddgvmmntsllchngyrvwfgdb
+:ID:       swwwytbcmwtchvprflsrddgvmmntsllchngyrvwfgdb
 :END:
 https://www.reddit.com/r/cpp/comments/9cndcr/lldb_now_supports_syntax_highlighting/e5c63eg/
 : Sure, the thing that first showed me that gdb is more than just a console debugger you can use over ssh was this video few years ago:
@@ -895,12 +895,12 @@ https://www.reddit.com/r/cpp/comments/9cndcr/lldb_now_supports_syntax_highlighti
 
 ** [2019-02-01] meh seriously?? people on cppcon don't know that gdb has got tui mode? that's pretty mad.
 :PROPERTIES:
-:ID:       frmhsrslypplncppcndntknwthtgdbhsgttmdthtsprttymd
+:ID:       mhsrslypplncppcndntknwthtgdbhsgttmdthtsprttymd
 :END:
 
 * [2019-10-23] Let Over Lambda                                         :lisp:
 :PROPERTIES:
-:ID:       wdltvrlmbd
+:ID:       ltvrlmbd
 :END:
 https://letoverlambda.com/textmode.cl/guest/chap5.html
 dunno, wasn't really impressed much...

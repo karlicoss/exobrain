@@ -24,17 +24,17 @@ Kind notes/highlights on [[https://prog21.dadgum.com][Programming in the XXI cen
 
 * DONE [#C] [2018-03-04] [[https://prog21.dadgum.com/7.html][Trapped! Inside a Recursive Data Structure]]
 :PROPERTIES:
-:ID:       snsprgddgmcmhtmltrppdnsdrcrsvdtstrctr
+:ID:       sprgddgmcmhtmltrppdnsdrcrsvdtstrctr
 :END:
 : Whenever the head of the list is a list itself, the tail is pushed onto Stack so it can be continued with later, and the list is processed. When there's no more input, check to see if Stack has any data on it.
 ** [2018-03-04] kinda like BFS
 :PROPERTIES:
-:ID:       snkndlkbfs
+:ID:       kndlkbfs
 :END:
 
 * DONE [#C] [2018-03-04] [[https://prog21.dadgum.com/4.html][Follow-up to "Admitting that Functional Programming Can Be Awkward"]]
 :PROPERTIES:
-:ID:       snsprgddgmcmhtmlfllwptdmtthtfnctnlprgrmmngcnbwkwrd
+:ID:       sprgddgmcmhtmlfllwptdmttnthtfnctnlprgrmmngcnbwkwrd
 :END:
 : For a bouncing ball or spinning cube, yes, that's easy. But is there a closed-form solution for a game where entities can collide with each other and react to what the player is doing?
 
@@ -64,7 +64,7 @@ Kind notes/highlights on [[https://prog21.dadgum.com][Programming in the XXI cen
 
 * DONE [#D] [2018-03-08] [[https://prog21.dadgum.com/34.html][Macho Programming]]
 :PROPERTIES:
-:ID:       thsprgddgmcmhtmlmchprgrmmng
+:ID:       sprgddgmcmhtmlmchprgrmmng
 :END:
 : What struck me about this argument, besides that people actually argue about such things, is how many other respected activities don't have anywhere near the same level of paranoia about protection from mistakes. On the guitar--or any musical instrument--you can play any note at any time, even if it's out of key or, more fundamentally, not played correctly (wrong finger placement or pressure or accidentally muting the string). And people play instruments live, in-concert in front of thousands of people this way, knowing that the solo is improvised in Dorian E, and there's no physical barrier preventing a finger from hitting notes that aren't in that mode. The same goes for sculpting, or painting, or carpentry...almost anything that requires skill.
 
@@ -80,7 +80,7 @@ Kind notes/highlights on [[https://prog21.dadgum.com][Programming in the XXI cen
 : One of my favorite non-alphanumeric characters for function names is "?". Why say is_uppercase (or IsUppercase or isUppercase) when you can use the more straightforward Uppercase? instead? That's standard practice in Scheme and Forth, and I'm surprised it hasn't caught on in all new languages.
 ** [2021-01-05] yep, also in Agda or lisps. Same for dashes, underscores look a bit awkward (e.g. ~uppercase-p~)
 :PROPERTIES:
-:ID:       typlsngdrlspssmfrdshsndrscrslkbtwkwrdgpprcsp
+:ID:       yplsngdrlspssmfrdshsndrscrslkbtwkwrdgpprcsp
 :END:
 
 * DONE page 72 | Location 1099-1105 | Wednesday, March 7, 2018 10:28:00 PM
