@@ -732,3 +732,8 @@ https://github.com/fregante/webext-options-sync/issues/2
 :    def getColumns(self, tableName):
 :        cols = []
 :        for i, r in enumerate(self.conn.execute('PRAGMA TABLE_INFO("%s")' % tableName)):
+* TODO [#D] Allow users to mark posts as searchable/not searchable? :mastodon:
+:PROPERTIES:
+:CREATED:  [2019-09-10]
+:ID:       llwsrstmrkpstsssrchblntsrchbl
+:END:

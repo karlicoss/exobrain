@@ -168,3 +168,27 @@ https://lobste.rs/s/u2dyrr/small_trick_on_using_console_log_print
 :END:
 : Tried out DenoJS to play around with Vue and it was very pleasant to use.
 : I'm going to have to read more into it, but I think any personal JS projects will be using Deno simply due to the lack of dependencies and speed.
+* [#C] [2020-04-02] [[https://news.ycombinator.com/item?id=22758218][How to manage HTML DOM with vanilla JavaScript only?]]
+:PROPERTIES:
+:ID:       thsnwsycmbntrcmtmdhwtmnghtmldmwthvnlljvscrptnly
+:END:
+https://htmldom.dev/
+* [2021-01-03] IMO, long names like appendChild, getElementById, createTextNode, etc discourage use of vanilla js :plt:js:
+:PROPERTIES:
+:ID:       snmlngnmslkppndchldgtlmntydcrttxtndtcdscrgsfvnlljs
+:END:
+* [[https://nodejs.org/api/util.html#util_util_inspect_object_options][inspecting object]] :nodejs:debug:
+:PROPERTIES:
+:ID:       sndjsrgptlhtmltltlnspctbjctptnsnspctngbjct
+:END:
+: let util = require('util')
+: console.log(util.inspect(resp, {showHidden: false, depth: 1}))
+* [2020-04-08] antonmedv/codejar: An embeddable code editor for the browser 🍯
+:PROPERTIES:
+:ID:       wdntnmdvcdjrnmbddblcddtrfrthbrwsr
+:END:
+https://github.com/antonmedv/codejar
+: CodeJar honey_pot can be used via modules:
+: <script type="module">
+:   import {CodeJar} from 'https://medv.io/codejar/codejar.js'
+: </script>

@@ -193,3 +193,8 @@ advice-patch
 :ID:       gdthngshckngnthcnfgwhlldngstffvvldfn
 :END:
 i.e. I think people who advocate for REPL are pitching for a completely wrong thing -- I want to keep my code tidy, it's just nice to execute it instantly
+* [#C] [2020-12-13] [[https://karthinks.com/software/more-batteries-included-with-emacs/][More batteries included with emacs | Karthinks]] regexes in elisp :elisp:
+:PROPERTIES:
+:ID:       snskrthnkscmsftwrmrbttrsnclddwthmcskrthnksrgxsnlsp
+:END:
+: A cleaner approach to regular expressions in Emacs, as most package maintainers will tell you, is to use the rx library instead. rx translates regular expressions in sexp form to a regexp string:

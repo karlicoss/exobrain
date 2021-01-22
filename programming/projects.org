@@ -191,3 +191,65 @@ need to figure out how to quickly selfhost stuff
 Link to the actual repo: https://github.com/hellojoshuatonga/react-use-fuzzy
 
 As others said, I recommend adding a GitHub pages of a demo or something. Not fun having to spin this up yourself to test what it does/looks like.
+
+* [#C] [2020-04-21] [[http://localhost:3000/agents/new][Create Agent - Huginn]] :project:
+:PROPERTIES:
+:ID:       tlclhstgntsnwcrtgnthgnn
+:END:
+so nice that huginn just gives you examples you can follow
+* [#C] [2020-05-27] [[https://fraidyc.at/][Fraidycat]]  :project:inspiration:
+:PROPERTIES:
+:ID:       wdsfrdyctfrdyct
+:END:
+nice design and summary on this page
+* [#C] [2020-01-02] Open source project name checker - OSPNC        :project:
+:PROPERTIES:
+:ID:       thpnsrcprjctnmchckrspnc
+:END:
+http://ivantomic.com/projects/ospnc/
+* [#C] [2020-06-06] [[https://drewdevault.com/2020/06/06/Add-a-contrib-directory.html][Add a “contrib” directory to your projects | Drew DeVault’s Blog]] :project:
+:PROPERTIES:
+:ID:       stsdrwdvltcmddcntrbdrctryrctrytyrprjctsdrwdvltsblg
+:END:
+
+* [#C] [2019-12-23] [[https://news.ycombinator.com/item?id=21860741][Show HN: Generate names like snapchat, dropbox, paypal for your next project]] :project:
+:PROPERTIES:
+:ID:       mnsnwsycmbntrcmtmdshwhngnpchtdrpbxpyplfryrnxtprjct
+:END:
+https://namewink.com/
+* TODO [#C] [2020-12-07] [[https://news.ycombinator.com/item?id=25322091#25325329][VisiData in 60 Seconds | Hacker News]] :project:
+:PROPERTIES:
+:ID:       mnsnwsycmbntrcmtmdvsdtnscndshckrnws
+:END:
+: Wow, the project homepage has a great dynamic command-line generator that lets you specify what you are trying to do. This may exist elsewhere, but it's the first time I've seen it and I hope to see it on more projects! https://www.visidata.org/
+* STRT [#C] [2020-01-16] ngrok - secure introspectable tunnels to localhost :project:
+:PROPERTIES:
+:ID:       thngrkscrntrspctbltnnlstlclhst
+:END:
+https://ngrok.com/
+* [#C] [2020-05-04] [[https://intoli.com/blog/terminal-recorders/][Terminal Recorders: A Comprehensive Guide]] :demo:
+:PROPERTIES:
+:ID:       mnsntlcmblgtrmnlrcrdrstrmnlrcrdrscmprhnsvgd
+:END:
+
+* [#C] [2020-05-05] [[https://www.djcbsoftware.nl/code/mu/mu4e/High_002dlevel-overview.html][High-level overview (Mu4e 1.4 user manual)]] :software:
+:PROPERTIES:
+:ID:       tswwwdjcbsftwrnlcdmmhghdllvrvwhtmlhghlvlvrvwmsrmnl
+:END:
+:               +---------+
+:               | emacs   |
+:               |    +------+
+:               +----| mu4e | --> send mail (smtpmail)
+:                    +------+
+:                     |  A
+:                     V  |  ---/ search, view, move mail
+:               +---------+    \
+:               |   mu    |
+:               +---------+
+:                 |    A
+:                 V    |
+:               +---------+
+:               | Maildir |  <--- receive mail (fetchmail,
+:               +---------+                     offlineimap, ...)
+
+characters (e.g. A, V) can be used for drawing

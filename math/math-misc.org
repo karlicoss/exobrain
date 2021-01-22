@@ -424,3 +424,27 @@ Does not have a convergent subsequence!
 
 Fischer-Rietz theorem: L^p is a Banach space.
 Dominated convergence theorem.
+* [#D] [2019-11-26] Interactive Linear Algebra | Hacker News
+:PROPERTIES:
+:ID:       tntrctvlnrlgbrhckrnws
+:END:
+https://news.ycombinator.com/item?id=21628449
+
+* [#C] [2019-11-21] Differential Equation Solution Strategies | Intuitive Explanations :diffeq:
+:PROPERTIES:
+:ID:       thdffrntlqtnsltnstrtgsnttvxplntns
+:END:
+https://intuitiveexplanations.com/math/differential-equation-solution-strategies
+
+* [#C] [2019-11-26] Immersive Math
+:PROPERTIES:
+:ID:       tmmrsvmth
+:END:
+http://immersivemath.com/ila/index.html
+
+* [2020-04-02] Is there something like this for math? Does anyone know? | Hacker News :math:
+:PROPERTIES:
+:ID:       thsthrsmthnglkthsfrmthdsnynknwhckrnws
+:END:
+https://news.ycombinator.com/item?id=16373386
+like physics travel guide, but for math

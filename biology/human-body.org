@@ -118,3 +118,30 @@ Progestin? Birth control pills
 :END:
 : Congeners, the byproducts of individual alcohol preparations (which are found primarily in brandy, wine, tequila, whiskey, and other dark liquors), increase the frequency and severity of hangover (24, 39, 40). Clear liquors, such as rum, vodka, and gin, tend to cause hangover less frequently.
 : So there are factors that aren't even identified exactly, and these could fit the mixing of drinks observation.
+* [2015-06-19] impact of radiation                                :humanbody:
+:PROPERTIES:
+:ID:       frmpctfrdtn
+:END:
+Gamma rays excite electrons and eject them from the atom, causing ionization
+Ionization breaks chemical bonds, and produces new.
+
+Ionizes water, producing harmful free radicals H+, OH-
+
+In general, the radiation sensitivity of a tissue is:
+
+proportional to the rate of proliferation of its cells
+inversely proportional to the degree of cell differentiation
+For example, the following tissues and organs are listed from most radiosensitive to least radiosensitive: 
+
+Most Sensitive: Blood-forming organs
+Reproductive organs
+Skin
+Bone and teeth
+Muscle
+Least sensitive: Nervous system
+
+This also means that a developing embryo is most sensitive to radiation during the early stages of differentiation, and an embryo/fetus is more sensitive to radiation exposure in the first trimester than in later trimesters
+* [2018-07-02] Fat soluble vitamins are stockpiled in the body in fatty tissue and the liver :metabolism:
+:PROPERTIES:
+:ID:       mnftslblvtmnsrstckpldnthbdynfttytssndthlvr
+:END:

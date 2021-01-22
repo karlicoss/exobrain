@@ -86,3 +86,37 @@ https://twitter.com/karpathy/status/1261457314713792512
 :ID:       f130f3f2-8979-466d-aa57-5294d86c1c2e
 :END:
 from Come as You Are
+
+* TODO [#C] [2019-01-29] 5 Minute DNA Extraction in a Shot Glass: 7 Steps (with Pictures) :dna:
+:PROPERTIES:
+:ID:       tmntdnxtrctnnshtglssstpswthpctrs
+:END:
+https://www.instructables.com/id/5-minute-DNA-Extraction-in-a-Shot-Glass/
+: The detergents in the dish soap (like the sodium laurel sulfate, aka sodium dodecyl sulfate) destabilize the membranes of the cells, spilling their contents into the rest of the solution of saliva.
+
+can you do this with muscle cells? E.g. shred meat, add some water and salt and see what happens
+* [#C] [2019-01-29] 5 Minute DNA Extraction in a Shot Glass: 7 Steps (with Pictures) :dna:
+:PROPERTIES:
+:ID:       tmntdnxtrctnnshtglssstpswthpctrs
+:END:
+https://www.instructables.com/id/5-minute-DNA-Extraction-in-a-Shot-Glass/
+
+* TODO [#D] [2019-08-05] Eli Shlizerman on Twitter: "1/ THREAD: Excited to share our work on whole nervous system and body model for celegans. The model simulates how connectome + neural interactions + body interact together to generate locomotion. Preprint: https://t.co/vgwGbIeuGc Samples of videos: https://t.co/0afVJ7MBuo https://t.co/0Tb9Z6LSBX" / Twitter
+:PROPERTIES:
+:ID:       mnlshlzrmnntwttrthrdxctdtdsstcfvjmbstctbzlsbxtwttr
+:END:
+https://twitter.com/shlizee/status/1158486688307400705
+
+* DONE [#A] [2019-08-25] [[https://reddit.com/r/askscience/comments/cu9h9i/how_are_molecular_structures_determined_with_such/][How are molecular structures determined with such precision? How were they determined in the past?]] /r/askscience
+:PROPERTIES:
+:ID:       snsrddtcmrskscnccmmntschhwwrthydtrmndnthpstrskscnc
+:END:
+: My question was inspired by learning that [lutein](https://en.wikipedia.org/wiki/Lutein#/media/File:Lutein_molecule_spacefill.png) and [zeaxanthin](https://en.wikipedia.org/wiki/Zeaxanthin#/media/File:Zeaxanthin_molecule_spacefill.png) are nearly identical molecules (C40H56O2), with the only difference between the two being that a single double bond is found in neighboring positions along a hexagon at one end of the molecule. These molecules are rather large. How are molecular structures determined so exactly? When did chemists acquire this capability? And what were the major milestones in our ability to determine molecular structure?
+
+
+: I don't just mean how many of each kind of element and where they are, but also things as subtle as the position of a single double bond. A lot of molecules are smaller than a wavelength of visible light, so it's not as if we could just look at them under a microscope, yet we know their structures exactly. So how do chemists figure these things out?
+* [2020-04-05] [[https://reddit.com/r/askscience/comments/fvcjhn/how_does_even_if_this_flu_shot_isnt_an_exact/fmi7dix/][How does “even if this flu shot isn’t an exact match, if you do get the flu it won’t be as bad” work?]] /r/askscience :vaccine:
+:PROPERTIES:
+:ID:       snsrddtcmrskscnccmmntsfvcdgtthfltwntbsbdwrkrskscnc
+:END:
+: There's actually a very cool effect where either getting infected with flu or getting vaccinated boosts your antibody response to all previous strains of flu you've encountered (by getting flu or by being vaccinated). In recent years WHO have begun to shift towards using antigenically advanced vaccines, whereby they predict how currently circulating strains of flu will evolve and artificially create vaccines for the flu strain they think will be circulating in 6 months time, as even if the virus doesn't mutate to a new strain, the antibody backboost means you still get protection against most circulating strains. Check out this paper (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4246172/) if you want a more detailed explanation, but basically the vaccine can boost your antibody response to a fairly wide range of influenza virus strains  (this is at least true for type A H3N2 influenza, there are 4 different types of influenza in the annual vaccine)

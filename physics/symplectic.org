@@ -631,3 +631,16 @@ to compute individual jump probabilities: use propagators solutions for free ele
 :ID:       stsymplctcgmtrylrnnythng
 :END:
 https://learn-anything.xyz
+
+* [#C] [2019-06-18] Energy drift - Wikipedia                     :symplectic:
+:PROPERTIES:
+:ID:       tnrgydrftwkpd
+:END:
+https://en.wikipedia.org/wiki/Energy_drift
+: Energy drift - usually damping - is substantial for numerical integration schemes that are not symplectic, such as the Runge-Kutta family.
+* [#C] [2020-01-18] chakravala/Grassmann.jl: ⟨Leibniz-Grassmann-Clifford⟩ differential geometric algebra / multivector simplicial complex :symplectic:
+:PROPERTIES:
+:ID:       stchkrvlgrssmnnjllbnzgrsstrclgbrmltvctrsmplclcmplx
+:END:
+https://github.com/chakravala/Grassmann.jl
+: The Grassmann.jl package provides tools for doing computations based on multi-linear algebra, differential geometry, and spin groups using the extended tensor algebra known as Leibniz-Grassmann-Clifford-Hestenes geometric algebra.

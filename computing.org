@@ -6,9 +6,25 @@ Software must eat the world, there is just no other way.
 How can we make it more powerful, intuitive, pleasant to use?
 
 
-* related                                                 :malleable:interop:
+* related
 :PROPERTIES:
 :ID:       rltd
+:END:
+** .                                                       :decentralization:
+:PROPERTIES:
+:ID:       199_223
+:END:
+** .                                                               :software:
+:PROPERTIES:
+:ID:       223_239
+:END:
+** .                                                              :malleable:
+:PROPERTIES:
+:ID:       239_256
+:END:
+** .                                                                :interop:
+:PROPERTIES:
+:ID:       256_271
 :END:
 
 * [#A] the sad state of personal data and infrastructure           :sadinfra:
@@ -170,3 +186,161 @@ https://mobile.twitter.com/jborichevskiy/status/1228372354956394496
 :ID:       mnrgrgrgryntrvwttdnlsnbklwnldbrrwndstrmngntrntrchv
 :END:
 https://archive.org/details/possiplexrogergregoryinterview
+
+* TODO [#B] [2019-10-01] Steve Krouse: "Future of Coding" · Issue 23 · d-cook/SomethingNew :tolisten:
+:PROPERTIES:
+:ID:       tstvkrsftrfcdngssdcksmthngnw
+:END:
+https://github.com/d-cook/SomethingNew/issues/23
+: I just came across a gold mine called FutureOfCoding.org. The author (Steve Krouse) already has many times more resources there then we have here, and he has put a TON of work and thought into reinventing programming to be more accessible (mainly to children).
+** [2020-05-15] ok, it does look like a good podcast -- devine, hillel
+:PROPERTIES:
+:ID:       frktdslklkgdpdcstdvnhlll
+:END:
+* STRT [#B] [2020-10-26] [[https://futureofcoding.org/community][Community | Future of Coding]]
+:PROPERTIES:
+:ID:       mnsftrfcdngrgcmmntycmmntyftrfcdng
+:END:
+: Our 4 most popular channels are bridged to Matrix rooms. They should be accessible in any Matrix client using the following aliases:
+: Matrix Bridge
+
+* TODO [#C] [2019-09-06] Offline First and the Circle of Web        :offline:
+:PROPERTIES:
+:ID:       frfflnfrstndthcrclfwb
+:END:
+http://hood.ie/blog/offline-first-and-the-circle-of-web.html
+
+** TODO [#C] [2019-09-06] Offline First and the Circle of Web, Part II: Breaking the Circle :offline:
+:PROPERTIES:
+:ID:       frfflnfrstndthcrclfwbprtbrkngthcrcl
+:END:
+http://hood.ie/blog/offline-first-and-the-circle-of-web-part-ii-breaking-the-circle.html
+* [#D] [2019-06-01] Offline First                                   :offline:
+:PROPERTIES:
+:ID:       stfflnfrst
+:END:
+http://offlinefirst.org/
+
+* [2020-06-13] [[https://news.ycombinator.com/item?id=23496800][Design Principles Behind Smalltalk (1981) | Hacker News]] :towatch:smalltalk:
+:PROPERTIES:
+:ID:       stsnwsycmbntrcmtmddsgnprncplsbhndsmlltlkhckrnws
+:END:
+: If you're tired of hearing about the virtues of Smalltalk (like I was at one point) and ask "if it is so good, why isn't it popular?", then watch @deech's talk (Aditya Siram) - "What FP can learn from SmallTalk" - https://www.youtube.com/watch?v=baxtyeFVn3w
+: I think it is the most accessible explanation of the marvel of Smalltalk, for those who were not lucky to work with it during the late 80-90s.
+
+* DONE [#B] [2020-06-03] [[https://www.infoq.com/presentations/We-Really-Dont-Know-How-To-Compute/][We Really Don't Know How To Compute!]] :towatch:
+:PROPERTIES:
+:ID:       wdswwwnfqcmprsnttnswrllydhwtcmptwrllydntknwhwtcmpt
+:END:
+** [2021-01-03] basically the point is that computing is cheap and we need to embrace constraint solver paradigm more? e.g. instead of imperative, where reasonable
+:PROPERTIES:
+:ID:       snbscllythpntsthtcmptngscrdgmmrgnstdfmprtvwhrrsnbl
+:END:
+* [#D] [2020-02-21] Files are fraught with peril https://danluu.com/deconstruct-files
+:PROPERTIES:
+:ID:       frflsrfrghtwthprlsdnlcmdcnstrctfls
+:END:
+- ok, files are hard
+
+* [#C] [2020-02-07] POSSE - IndieWeb                                   :silo:
+:PROPERTIES:
+:ID:       frpssndwb
+:END:
+https://indieweb.org/POSSE#Publishing_Flows
+
+* [#C] [2020-05-17] Nonlinear Conversational Medium — gray crawford
+:PROPERTIES:
+:ID:       snnnlnrcnvrstnlmdmgrycrwfrd
+:END:
+https://www.graycrawford.com/nonlinear-conversational-medium
+: Conversations branch out, delineating subtopics spatially. This allows the conversation to be more surveyable, and individual topics can split off into their own subtopics.
+* [2020-12-03] [[https://www.arp242.net/webui.html][The web as a GUI toolkit]] :web:html:css:
+:PROPERTIES:
+:ID:       thswwwrpntwbhtmlthwbsgtlkt
+:END:
+: Some things that work really well that are often hard in native GUI toolkits:
+:     You can zoom pretty much any content as large or small as you like. Doing this in native UI involves either editing obscure config files, or mucking about with the system’s DPI settings (not easy to zoom per-app or changing zoom levels depending on mood or screen you’re using).
+:     More cross-platform than pretty much anything else.
+:     Open anything in a new context (tab or window).
+:     Copy/paste anything.
+:     Search any text with e.g. Ctrl+F.
+:     Back button.
+:     Modifying anything easily; even if you’re not doing this directly yourself this has huge benefits in the form of e.g. some simple bookmarklets, or your adblocker.
+:     Unlike desktop applications, everything is sandboxed. If you think persistent tracking and fingerprinting on the web is bad: it’s even easier on the desktop. Something like hash(/etc/passwd) should do the trick to generate a persistent unique device ID.
+:     Very compatible; the first website: last modified somewhere in the early 90s still works in your Firefox or Chrome today.
+* [2020-10-08] [[https://news.ycombinator.com/item?id=24710565][Generalizing 'jq' and Traversal Systems using optics and standard monads | Hacker News]] intuition behind lenses
+:PROPERTIES:
+:ID:       thsnwsycmbntrcmtmdgnrlzngrdmndshckrnwsnttnbhndlnss
+:END:
+: The point is really that lenses are values that represent locations in a data structure. And, as values, they can be combined, transformed, serialized, etc etc. Imagine having a type that represents a chain of method selectors, and that gives you some idea of the purpose.
+: The fact that method selectors only appear very rarely as first-class values in most languages means that most people aren’t tuned in to scenarios where they could be applied. But I bet you’ve invented special cases of this yourself, when you had a function that needed to dig data out of one of several locations, depending on other inputs.
+** [2020-10-08] [[https://news.ycombinator.com/item?id=24710565][Generalizing 'jq' and Traversal Systems using optics and standard monads | Hacker News]]
+:PROPERTIES:
+:ID:       thsnwsycmbntrcmtmdgnrlzngngptcsndstndrdmndshckrnws
+:END:
+: jkachmar 4 hours ago [–]
+: It definitely can feel a bit strained at times, but the basic metaphor of:
+: - lenses “focus” on elements of a product type
+: - prisms “split” a sum type so that optics can work over selected branches
+: ...feels nice when you’ve been working with it for awhile.
+* [2020-11-09] [[https://yoric.github.io/post/why-did-mozilla-remove-xul-addons/][Why Did Mozilla Remove XUL Add-ons?]]
+:PROPERTIES:
+:ID:       mnsyrcgthbpstwhyddmzllrmvxlddnswhyddmzllrmvxlddns
+:END:
+
+* [#C] [2019-10-01] Multiple tools · Issue 32 · d-cook/SomethingNew
+:PROPERTIES:
+:ID:       tmltpltlsssdcksmthngnw
+:END:
+https://github.com/d-cook/SomethingNew/issues/32
+: Chris Granger (creator of Eve) presents and interesting point about creating multiple tools instead of one general purpose one: http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy/#fn2
+: The take-away for me is to build different tools for different needs, but have a way to easily transport models from one to the other. For example, using something like Bret Victor's dynamic drawing medium for rendering, and then "dragging" the data (or code) into something better suited for editing program flow.
+* DONE [#D] Tweet from @rektide                                   :smalltalk:
+:PROPERTIES:
+:CREATED:  [2020-06-04]
+:ID:       twtfrmrktd
+:END:
+https://twitter.com/rektide/status/1268321433735827457
+: @rektide: for compare, there's some interesting exploration of "what happened to smalltalk" going on now.
+: wirfs-brock.com/allen/posts/91...
+: interesting exploration of the challenges to success, of this interesting, rich, technically sophisticated system.
+
+* DONE [#C] [2020-01-28] [[https://news.ycombinator.com/item?id=22167121][Ask HN: What are some interesting projects to reuse your old devices?]]
+:PROPERTIES:
+:ID:       tsnwsycmbntrcmtmdskhnwhtrmntrstngprjctstrsyrlddvcs
+:END:
+https://news.ycombinator.com/item?id=22167121
+* DONE [#C] [2020-04-15] [[http://willghatch.net/blog/2020/01/14/plan-9-from-the-1990s/][Plan 9 From The 1990s]]
+:PROPERTIES:
+:ID:       wdwllghtchntblgplnfrmthsplnfrmths
+:END:
+* [#C] [2020-10-05] [[https://news.ycombinator.com/item?id=24688831][Show HN: A gallery of interesting Jupyter Notebooks | Hacker News]]
+:PROPERTIES:
+:ID:       mnsnwsycmbntrcmtmdshwhnglfntrstngjpytrntbkshckrnws
+:END:
+* STRT [#C] [2020-08-24] [[https://lobste.rs/s/8aiw6g/what_software_do_you_dream_about_do_not][What software do you dream about, but do not have time to do yourself? | Lobsters]]
+:PROPERTIES:
+:ID:       mnslbstrsswgwhtsftwrdydrmmbtbtdnthvtmtdyrslflbstrs
+:END:
+** [2020-08-24] [[https://lobste.rs/s/8aiw6g/what_software_do_you_dream_about_do_not#c_tnkntw][What software do you dream about, but do not have time to do yourself? | Lobsters]] :emacs:browser:
+:PROPERTIES:
+:ID:       mnslbstrsswgwhtsftwrdydrmmbtbtdnthvtmtdyrslflbstrs
+:END:
+: Two things.
+:     An Emacs for the web – browser primitives, but with hooks and definitions that allow full user control over the entire experience, integrated with a good extension language, to allow for exploratory development. Bonus points if it can be integrated into Emacs;
+* [#D] [2019-05-30] Chrome to limit full ad blocking extensions to enterprise users - 9to5Google :motivation:firefox:degoogle:
+:PROPERTIES:
+:ID:       thchrmtlmtflldblckngxtnsnstntrprssrstggl
+:END:
+https://9to5google.com/2019/05/29/chrome-ad-blocking-enterprise-manifest-v3/
+
+* TODO [#D] Tweet from Гришка (@grishka11), at Jan 22, 16:50
+:PROPERTIES:
+:CREATED:  [2020-01-22]
+:ID:       twtfrmгришкаgrshktjn
+:END:
+
+: @internetofshit There should be a law or something that if you stop updating an IoT device, its last firmware version must be open sourced so that people who actually care could help others keep using it.
+
+
+https://twitter.com/grishka11/status/1220026067060187137

@@ -43,3 +43,122 @@ https://github.com/kgryte/awesome-peer-to-peer
 :CREATED:  [2020-05-17]
 :ID:       bldppcllbrtvpplctnswthtnyrstrctrsgthbcmtmrghyprmrg
 :END:
+* [#B] [2019-04-17] [[https://reddit.com/r/Maps/comments/be3p32/alternative_to_google_maps/el32dfa/][Alternative to Google Maps?]] /r/Maps :degoogle:maps:osm:
+:PROPERTIES:
+:ID:       wdsrddtcmrmpscmmntsbpltrnglmpsldfltrntvtgglmpsrmps
+:END:
+:  We on /r/openstreetmap made a list of websites that use OSM data. Maybe some of them are useful for you:
+:  **Maps**
+:  * [OpenTopoMap](https://opentopomap.org) - same as above, Topographic map, has contour lines
+:  * [Waymarked Trails - Hiking](https://hiking.waymarkedtrails.org/) - Hiking trails, "clickable", .gpx Download, background can be changed to OpenTopoMap
+:  * [Waymarked Trails - Cycling](https://cycling.waymarkedtrails.org/) - same as above for cycle ways
+:  * [OpenSeaMap](http://map.openseamap.org/) -  free nautical database
+:  * [OpenRailwayMap](http://www.openrailwaymap.org/) - the worlds railway infrastructure on one map
+:  * [OpenCycleMap](http://opencyclemap.org) - map made for cyclists, highlights cycle routes and pubs :D
+:  * [Flosm](http://www.flosm.de/en/poimap.html) - search through informations (opening hours, telephone number...) of a lot of POIs on OpenStreetMap, see list on the left
+:  * [F4 map](http://demo.f4map.com/) and [OSMbuildings](https://osmbuildings.org/) - both show map in 3D
+:  * [LiveMap24](http://livemap24.com) - see public transport in realtime, clickable, uses open data from public transport services
+:  * [WheelMap](http://wheelmap.org) - shows the wheelchair accessibility
+:  * [Historic Maps](http://gk.historic.place/historische_objekte/translate/en/index-en.html) - a map that combines OpenStreetMap with Wikipedia, shows historic objects and old maps as overlay
+:  * [uMap](http://umap.Openstreetmap.fr) - save markers, lines and shapes on different map styles, example: [Map from /r/Castles](http://u.osmfr.org/m/56578/)
+:  * [ÖPNV-Karte](https://www.öpnvkarte.de) - a visualisation of the mapped public transport in OSM
+: 
+:  **Apps (all work offline)**
+:  * [OsmAnd](http://osmand.net/) - very advanced but strange GUI, shows public transport and hiking symbols, opening hours, etc, has routing, downloads offline wikipedia articles to objects, Android and iOS (less functions)
+:  * [Maps.me](http://maps.me/en/home) - fast, easy tool, no hiking tools, elementary routing, free, Android and iOS
+:  * [Locus Map](http://www.locusmap.eu/) - different map sources (also non-OSM like SwissOrdonance), has routing, Android only
+:  * [OruxMaps](http://www.oruxmaps.com/cs/en) - Map and sports tracker, can also connect with different bluetooth devices, Android
+:  * List of apps for [Android](http://wiki.openstreetmap.org/wiki/Android) and [iOS](http://wiki.openstreetmap.org/wiki/Apple_iOS)
+: 
+:  **Routing Services**
+: 
+:  * [OpenRouteService](https://openrouteservice.org/directions?a=null,null,null,null&b=0&c=0&k1=en-US&k2=km) - car, cycle and pedestrian routing with a lot of options, shows surface and type of used roads
+:  * [Brouter Web](http://brouter.de/brouter-web/) - fast router,shows height profile,  where routing table can be changed by yourself
+:  * [GPSies](http://www.gpsies.com/createTrack.do) - create tours for different transport modes, press "follow roads" to get routing feature, elevation profile, lot of map layers
+:  * [Kurviger](https://kurviger.de/) - a route planner that prefers curvy roads and slopes, but avoid cities and highways, automatic round trips based on a given length
+:  * [Cycle.travel](http://cycle.travel/map) - a map made for cyclists, which has a routing and roundtrip feature, created by /u/doctor_fegg
+: 
+: 
+:  **Printing OpenStreetMap Maps**
+: 
+:  * [MapOSMatic](https://maposmatic.osm-baustelle.de/) - printable atlases and single paper up to A0, lot of different map styles and overlays (like Waymarked Trails), free
+:  * [Field papers](http://fieldpapers.org) - create an atlas yourself with different map styles,
+:  * [Inkatlas](https://inkatlas.com/) - different styles, up to 6 pages A4 for free
+: 
+:  **Advanced/Other OSM based services**
+: 
+:  * [Overpass Turbo](http://overpass-turbo.eu/s/pWM) - web based data mining tool for OpenStreetMap, linked is an example for cycle shops in Berlin
+:  * [MapCompare](http://tools.geofabrik.de/mc/) - compare different map sources (Google, OSM, Here, Satellite data) with each other
+:  * [OpenInfraMap](https://openinframap.org/)  - view of the world's hidden infrastructure (power lines, petroleum and water)
+:  * [Mapillary](https://mapillary.com) - an open-source Streetview-Version you can contribute to
+:  * [Peakfinder](https://www.peakfinder.org/en/) - shows all all surrounding peaks from the given point also available as app
+:  * [OpenFireMap](http://openfiremap.org/) - map with all the fire houses and hydrants in OSM
+:  * [Node Density](https://tyrasd.github.io/osm-node-density) - How dense is the OpenStreetMap database?
+:  * [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) - Wiki of the OSM project
+* TODO [#D] [2019-09-21] ipfs/awesome-ipfs: Useful resources for using IPFS and building things on top of it :ipfs:
+:PROPERTIES:
+:ID:       stpfswsmpfssflrsrcsfrsngpfsndbldngthngsntpft
+:END:
+https://github.com/ipfs/awesome-ipfs#readme
+
+* TODO [#C] [2019-12-07] WebRTC - Wikipedia
+:PROPERTIES:
+:ID:       stwbrtcwkpd
+:END:
+https://en.wikipedia.org/wiki/WebRTC
+: WebRTC (Web Real-Time Communication) is a free, open-source project that provides web browsers and mobile applications with real-time communication (RTC) via simple application programming interfaces (APIs). It allows audio and video communication to work inside web pages by allowing direct peer-to-peer communication
+* TODO [#C] Earthstar - Offline-first, distributed, syncable, embedded document database for use in p2p | Lobsters
+:PROPERTIES:
+:CREATED:  [2020-06-26]
+:ID:       rthstrfflnfrstdstrbtdsyncbddddcmntdtbsfrsnpplbstrs
+:END:
+
+https://lobste.rs/s/ipc2wb/earthstar_offline_first_distributed
+
+* [2020-04-02] Tweet from @TheMagic_Ian https://twitter.com/TheMagic_Ian/status/1245580360743710721
+:PROPERTIES:
+:ID:       thtwtfrmthmgcnstwttrcmthmgcnstts
+:END:
+: @TheMagic_Ian: Stop using fake-secure, or insecure video conferencing apps like Zoom, Skype, Duo, HouseParty,  Facebook Messenger, Slack, Teams! Consider Jitsi or Matrix clients like Riot.
+* STRT [#C] [2019-11-05] The IndieWeb Movement: Owning Your Data and Being the Change You Want to See in the Web · Jamie Tanna | Software (Quality) Engineer
+:PROPERTIES:
+:ID:       tthndwbmvmntwnngyrdtndbngtsnthwbjmtnnsftwrqltyngnr
+:END:
+https://www.jvt.me/posts/2019/10/20/indieweb-talk
+ok, interesting, but that's again kind of reinventing new standard?
+** [2019-12-03] https://indiewebify.me/validate-h-card/
+:PROPERTIES:
+:ID:       tsndwbfymvldthcrd
+:END:
+: Other humans can already understand your profile information and the things you post on your site. By adding a few simple class names to your HTML, other people’s software can understand it and use it for things like reply contexts, cross-site comments, event RSVPs, and more.
+
+** TODO [2019-12-03]  http://microformats.org/wiki/h-card#Properties
+:PROPERTIES:
+:ID:       tmcrfrmtsrgwkhcrdprprts
+:END:
+** [2019-12-03] https://indiewebify.me/validate-h-entry/?url=https%3A%2F%2Fbeepb00p.xyz%2Fannotating.html
+:PROPERTIES:
+:ID:       tsndwbfymvldthntryrlsffbpbpxyzfnnttnghtml
+:END:
+<article class="h-entry">
+  <div class="e-content p-name">Hello world! This is my first indieweb post.</div>
+
+  <a class="u-url" href="https://example.com/my-first-post">
+    Published <time class="dt-published">2019-12-03 08:51:04+0000</time>
+  </a>
+</article>
+
+* TODO [#C] Tweet from @wwwjim
+:PROPERTIES:
+:CREATED:  [2020-10-30]
+:ID:       twtfrmwwwjm
+:END:
+
+https://twitter.com/wwwjim/status/1321940199769698304
+
+: @wwwjim: You should be able to talk to peers without being online.
+: You should be able to surf a web without being online.
+: Syncing data from a website as a choice.
+: Not a service, a tool.
+: You tell websites what metadata you're willing to provide.
+: You are your own ACL.

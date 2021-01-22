@@ -484,3 +484,214 @@ https://rickcarlino.com/2019/11/02/software-tools-for-hobby-sized-projects-html.
 :PROPERTIES:
 :ID:       tssmwhckblgmltngbdntwrks
 :END:
+* [#C] [2020-02-24] doom-emacs/faq.org at develop · hlissner/doom-emacs :opensource:
+:PROPERTIES:
+:ID:       mndmmcsfqrgtdvlphlssnrdmmcs
+:END:
+https://github.com/hlissner/doom-emacs/blob/develop/docs/faq.org#how-do-i-change-the-leaderlocalleader-keys
+: Don’t be that guy who PRs 99 whitespace adjustments around his one-line contribution.
+* [#C] [2020-05-19] [[https://github.community/t5/GitHub-Actions/is-there-expression-syntax-to-do-pattern-matching-regex-on/td-p/36295][Solved: is there expression syntax to do pattern matching ... - GitHub Community Forum]] :githubci:
+:PROPERTIES:
+:ID:       tsgthbcmmntytgthbctnssthrdpttrnmtchnggthbcmmntyfrm
+:END:
+: Regex cannot be used in expression for now,
+
+for fucks sake, can't use regexes in github acitons pipelines?
+* [#C] [2019-12-13] [[https://news.ycombinator.com/item?id=21780659][Show HN: Happy Hues – Curated colors in context]] :design:
+:PROPERTIES:
+:ID:       frsnwsycmbntrcmtmdshwhnhppyhscrtdclrsncntxt
+:END:
+https://www.happyhues.co/
+* [#C] [2019-12-20] [[https://news.ycombinator.com/item?id=21844007][Bugjail, a completely new way of debugging]] :debug:
+:PROPERTIES:
+:ID:       frsnwsycmbntrcmtmdbgjlcmpltlynwwyfdbggng
+:END:
+https://bugjail.com/
+** [2020-01-31] basically, debugging database? e.g. you can trace all arguments, callers etc
+:PROPERTIES:
+:ID:       frbscllydbggngdtbsgycntrcllrgmntscllrstc
+:END:
+* TODO [#C] use repl.it instead of ideone?                              :ide:
+:PROPERTIES:
+:CREATED:  [2019-09-21]
+:ID:       srpltnstdfdn
+:END:
+* [#B] [2020-06-10] [[https://news.ycombinator.com/item?id=23468193][Ask HN: Which tools have made you a much better programmer? | Hacker News]]
+:PROPERTIES:
+:ID:       wdsnwsycmbntrcmtmdskhnwhcvmdymchbttrprgrmmrhckrnws
+:END:
+* TODO [#D] [2019-12-26] awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted locally. Selfhosting is the process of hosting and managing applications instead of renting from Software-as-a-Service providers
+:PROPERTIES:
+:ID:       thwsmslfhstdwsmslfhstdlstfrntngfrmsftwrssrvcprvdrs
+:END:
+https://github.com/awesome-selfhosted/awesome-selfhosted
+: API Management
+* [2013-02-11] Seems like uniqueness encoded not by type system, but by 'attributes', https://www.cs.tcd.ie/~devriese/pub/ifl07-paper.pdf :lineartypes:
+:PROPERTIES:
+:ID:       mnsmslknqnssncddntbytypsytsswwwcstcddvrspbflpprpdf
+:END:
+* [2019-01-27] Daibhi O Domhnaill on Twitter: "Лайфхак: если во время собеседования на вопрос "какова сложность этого алгоритма?" ответить "а что, тормозит что ли? да перенесите на SSD и все дела", то сразу возьмут техническим директором" / Twitter
+:PROPERTIES:
+:ID:       sndbhdmhnllntwttrлайфхакеехническимдиректоромtwttr
+:END:
+https://twitter.com/OhTheAnguish/status/1089461515273621504
+
+* TODO [2018-06-10] hackers guide to NN https://karpathy.github.io/neuralnets :nn:
+:PROPERTIES:
+:ID:       snhckrsgdtnnskrpthygthbnrlnts
+:END:
+* [2020-10-13] [[https://tyrrrz.me/blog/fakes-over-mocks][Prefer Fakes Over Mocks | Alexey Golub]] :testing:
+:PROPERTIES:
+:ID:       tstyrrrzmblgfksvrmcksprfrfksvrmckslxyglb
+:END:
+* [2020-09-27] .
+:PROPERTIES:
+:ID:       sn
+:END:
+: Something that I’m surprised a lot of devs don’t know; there are official domains you’re supposed to use for documentation, testing, etc. They are specifically reserved by IANA for these purposes. Originally I think it was just example.com, but they now have a list of all them: https://www.iana.org/domains/reserved
+
+* [#C] [2020-04-07] [[https://news.ycombinator.com/item?id=22801661][Show HN: A curated set of colour combinations]] :design:
+:PROPERTIES:
+:ID:       tsnwsycmbntrcmtmdshwhncrtdstfclrcmbntns
+:END:
+https://duo.alexpate.uk/
+* [#C] [2020-05-17] Fragile narrow laggy asynchronous mismatched pipes kill productivity - Tristan Hume :distributed:
+:PROPERTIES:
+:ID:       snfrglnrrwlggysynchrnsmsmtchdppskllprdctvtytrstnhm
+:END:
+https://thume.ca/2020/05/17/pipes-kill-productivity/
+
+* [#C] [2020-05-22] [[https://scrapism.lav.io/][Scrapism - Scrapism]] scraping tutorial :scrape:
+:PROPERTIES:
+:ID:       frsscrpsmlvscrpsmscrpsmscrpngttrl
+:END:
+* [#C] [2020-01-25] fpereiro/backendlore: How I write backends      :backend:
+:PROPERTIES:
+:ID:       stfprrbckndlrhwwrtbcknds
+:END:
+https://github.com/fpereiro/backendlore
+
+* [#C] [2020-03-31] nektos/act: Run your GitHub Actions locally 🚀
+:PROPERTIES:
+:ID:       tnktsctrnyrgthbctnslclly
+:END:
+https://github.com/nektos/act
+: ok it works with CI now...
+* [#B] [2019-11-17] Top 50 matplotlib Visualizations - The Master Plots (w/ Full Python Code) | ML+ :viz:
+:PROPERTIES:
+:ID:       sntpmtpltlbvslztnsthmstrpltswfllpythncdml
+:END:
+https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/
+
+* [#B] [2019-10-18] About GitHub Actions - GitHub Help
+:PROPERTIES:
+:ID:       frbtgthbctnsgthbhlp
+:END:
+https://help.github.com/en/articles/about-github-actions
+
+* [#C] [2020-05-20] [[https://twitter.com/lukaseder/status/1262770756997591042][Lukas Eder on Twitter: "Still one of the best explanations of covariance vs contravariance, or consumers vs producers https://t.co/UPnpItRdi7 https://t.co/P8KzmWzX8R" / Twitter]]
+:PROPERTIES:
+:ID:       wdstwttrcmlksdrsttslksdrnstcpnptrdstcpkzmwzxrtwttr
+:END:
+: Still one of the best explanations of covariance vs contravariance, or consumers vs producers
+* [2020-05-28] [[https://softwareengineering.stackexchange.com/questions/290566/is-localstorage-under-the-cookie-law][javascript - Is localStorage under The Cookie Law? - Software Engineering Stack Exchange]] :privacy:
+:PROPERTIES:
+:ID:       thssftwrngnrngstckxchngcmhcklwsftwrngnrngstckxchng
+:END:
+: The cookie law is not actually about cookies (and its not actually called the cookie law). Its about tracking users, storing and sharing the information with third parties. Cookies are just the most popular method to track users.
+: If you don't want to show the "cookie warning" then just don't track the users beyond the session and don't share traffic data with third parties.
+: The actual directive.
+* [2020-09-29] on windows                                       :ci:circleci:
+:PROPERTIES:
+:ID:       tnwndws
+:END:
+- bash works odd, powershell as well
+- had to disable setup_requires=['setuptools_scm'] in setup.py, some ssl errors
+- how to edit stuff? vim doesn't really work the quickes was git push/git pull
+- shell history (with arrows) doesn't work
+* STRT [#B] [2019-12-11] kootenpv/gittyleaks: Find sensitive information for a git repo :security:project:promnesia:hpi:
+:PROPERTIES:
+:ID:       wdktnpvgttylksfndsnstvnfrmtnfrgtrp
+:END:
+https://github.com/kootenpv/gittyleaks
+** [#C] [2020-01-17] eh, doesn't give you commit hash?
+:PROPERTIES:
+:ID:       frhdsntgvycmmthsh
+:END:
+
+* [2020-11-08] [[https://www.digitalocean.com/community/questions/i-want-to-know-how-to-block-ip-addresses-via-digitalocean][I want to know how to block IP addresses via Digitalocean? | DigitalOcean]] :hosting:
+:PROPERTIES:
+:ID:       snswwwdgtlcncmcmmntyqstnstblckpddrsssvdgtlcndgtlcn
+:END:
+: The simplest way to block specific IP address or ranges of them would be to set up a basic firewall using UFW. It is included with Ubuntu by default.
+: You can then block a specific IP address by running:
+:     sudo ufw deny from XXX.XXX.XX.XX
+* [2016-06-12] mutation testing
+:PROPERTIES:
+:ID:       snmttntstng
+:END:
+* [#C] [2020-05-05] [[https://twitter.com/rocallahan/status/1257497527957385216][Robert O'Callahan on Twitter: "Prolific rr contributor Keno Fischer has a great writeup of how the Julia project is integrating rr to capture user bugs. https://t.co/fpbunBDnay https://t.co/iUg04Jq3F3" / Twitter]] :julia:debug:
+:PROPERTIES:
+:ID:       tstwttrcmrcllhnsttsrbrtclgsstcfpbnbdnystcgjqftwttr
+:END:
+: Prolific rr contributor Keno Fischer has a great writeup of how the Julia project is integrating rr to capture user bugs.
+* [#C] [2019-12-08] Coroutines, exceptions, time-traveling search, generators and threads: Continuations by example
+:PROPERTIES:
+:ID:       sncrtnsxcptnstmtrvlngsrchnrtrsndthrdscntntnsbyxmpl
+:END:
+http://matt.might.net/articles/programming-with-continuations--exceptions-backtracking-search-threads-generators-coroutines
+
+* TODO [#C] Tweet from @yoshikischmitz filtering data accept/reject      :ml:
+:PROPERTIES:
+:CREATED:  [2020-07-05]
+:ID:       twtfrmyshkschmtzfltrngdtccptrjct
+:END:
+
+https://twitter.com/yoshikischmitz/status/1279566482188333056
+: @yoshikischmitz: Are there any apps out there for quickly filtering arbitrary lists of data w/ a simple "reject" and "accept" gesture? Thinking of something like Tinder but I make the cards, and can get a list of the accepted ones.
+
+* TODO [#C] matplotvr for a project name?                            :vr:viz:
+:PROPERTIES:
+:CREATED:  [2020-10-08]
+:ID:       mtpltvrfrprjctnm
+:END:
+* [#C] [2020-01-16] Running Lisp in Production                         :lisp:
+:PROPERTIES:
+:ID:       thrnnnglspnprdctn
+:END:
+https://tech.grammarly.com/blog/running-lisp-in-production
+* TODO [#D] [2020-01-01] pavelfatin/toyide: Modern IDE plus custom programming languages with interpreters and compilers
+:PROPERTIES:
+:ID:       wdpvlftntydmdrndplscstmprglnggswthntrprtrsndcmplrs
+:END:
+https://github.com/pavelfatin/toyide
+
+* [#C] [2020-02-16] Elastic tabstops - a better way to indent and align code :codestyle:
+:PROPERTIES:
+:ID:       snlstctbstpsbttrwytndntndlgncd
+:END:
+http://nickgravgaard.com/elastic-tabstops/
+
+* [#C] [2020-02-19] Open Source Design
+:PROPERTIES:
+:ID:       wdpnsrcdsgn
+:END:
+https://opensourcedesign.net/
+
+* TODO [#D] [2019-11-05] Web Scraping With Rust - codeburst :scrape:scrapyroo:
+:PROPERTIES:
+:ID:       twbscrpngwthrstcdbrst
+:END:
+https://codeburst.io/web-scraping-in-rust-881b534a60f7
+
+** [2019-11-18] A great tool for this is the Chrome extension Selector Gadget
+:PROPERTIES:
+:ID:       mngrttlfrthssthchrmxtnsnslctrgdgt
+:END:
+* TODO [#D] A Few Haskell Highlights: Top Haskell Resources of 2019    :agda:
+:PROPERTIES:
+:CREATED:  [2019-12-27]
+:ID:       fwhskllhghlghtstphskllrsrcsf
+:END:
+
+: To get to know Agda better, you can read this introductory post by Danya Rogozin.

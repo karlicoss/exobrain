@@ -351,16 +351,16 @@ maybe doctor (or 'modules') could list that? with paths (e.g. so default/third p
 :CREATED:  [2020-01-07]
 :ID:       spcfyxprtfrmtsndcstrngsndtgnrt
 :END:
-** TODO [#B] [2020-06-02] [[https://github.com/karlicoss/HPI/blob/master/doc/SETUP.org#data-flow][HPI/SETUP.org at master · karlicoss/HPI]] :readme:
+** TODO [#B] readme: [2020-06-02] [[https://github.com/karlicoss/HPI/blob/master/doc/SETUP.org#data-flow][HPI/SETUP.org at master · karlicoss/HPI]]
 :PROPERTIES:
-:ID:       tsgthbcmkrlcsshpblbmstrdcdtflwhpstprgtmstrkrlcsshp
+:ID:       rdmtsgthbcmkrlcsshpblbmstdtflwhpstprgtmstrkrlcsshp
 :END:
 :  except one – you can only use meaningfully use it through Polar app. Which is, by all means, great!
 
 weird phrasing
-** TODO [#B] [2020-06-02] [[https://github.com/karlicoss/HPI][karlicoss/HPI: Human Programming Interface]] :readme:
+** TODO [#B] readme: [2020-06-02] [[https://github.com/karlicoss/HPI][karlicoss/HPI: Human Programming Interface]]
 :PROPERTIES:
-:ID:       tsgthbcmkrlcsshpkrlcsshphmnprgrmmngntrfc
+:ID:       rdmtsgthbcmkrlcsshpkrlcsshphmnprgrmmngntrfc
 :END:
 : Also see “Data flow” documentation with some nice diagrams explaining on specific examples.
 
@@ -662,10 +662,10 @@ https://repl.it/talk/all?lang=python_turtle
 :CREATED:  [2020-08-23]
 :ID:       prhpsfkdtgnrtrsblngtdlhpswllthtwysytkpnsync
 :END:
-* STRT [#B] keep list of packages other people forked? suggest to send me links :readme:
+* STRT [#B] readme: keep list of packages other people forked? suggest to send me links
 :PROPERTIES:
 :CREATED:  [2020-01-19]
-:ID:       kplstfpckgsthrpplfrkdsggsttsndmlnks
+:ID:       rdmkplstfpckgsthrpplfrkdsggsttsndmlnks
 :END:
 * STRT [#B] [2020-05-06] [[https://github.com/KrauseFx/FxLifeSheet/issues/34][Find alternative to Google Data Studio · Issue #34 · KrauseFx/FxLifeSheet]] :spreadsheet:degoogle:
 :PROPERTIES:

@@ -208,3 +208,88 @@ https://unix.stackexchange.com/questions/72037/difference-between-xz-and-lzma-in
 :CREATED:  [2020-08-21]
 :ID:       tnssdnrsnc
 :END:
+
+* [#C] [2020-03-18] remarkable: What's their portability story? I don't want my personal knowledge store to be l... | Hacker News :remarkable:
+:PROPERTIES:
+:ID:       wdrmrkblwhtsthrprtbltystryprsnlknwldgstrtblhckrnws
+:END:
+https://news.ycombinator.com/item?id=22607112
+: Not great, you can only officially export PDF, PNG, or SVG, though their cloud management does seem to work really well and as I understand, files are stored locally on each device once synced.
+: That said, it runs linux so you could conceivably backup the files yourself. You can ssh into your tablet, run sftp, w/e. But they are in some proprietary .lines format.
+: There's a wiki with more details (the file format stuff is further down): https://remarkablewiki.com/tech/filesystem
+: It may be possilbe you could hack it to run xournal, but I've no idea.
+* TODO [#C] [2020-04-16] [[https://lobste.rs/s/jwwhb6/gnu_guix_1_1_0_released#c_88slhh][GNU Guix 1.1.0 released | Lobsters]] :nix:towatch:
+:PROPERTIES:
+:ID:       thslbstrssjwwhbgngxrlsdcslhhgngxrlsdlbstrs
+:END:
+: I never understood what all the fuzz is about until I saw this talk at fosdem this year: https://fosdem.org/2020/schedule/event/guix/
+: I really liked all the features presented, unfortunately I am not in an environment where I could use guix, but it is def. something I keep an eye on.
+
+* [#C] [2020-06-18] [[https://pythonspeed.com/articles/dockerizing-python-is-hard/][Broken by default: why you should avoid most Dockerfile examples]]
+:PROPERTIES:
+:ID:       thspythnspdcmrtclsdckrzngtwhyyshldvdmstdckrflxmpls
+:END:
+: If you want fast builds, you want to rely on Docker’s layer caching. But by copying in the file before running pip install, all later layers are invalidated—this image will be rebuilt from scratch every time.
+* [#C] [2020-02-08] Haskell for all: Why Dhall advertises the absence of Turing-completeness :configs:
+:PROPERTIES:
+:ID:       sthskllfrllwhydhlldvrtssthbsncftrngcmpltnss
+:END:
+http://www.haskellforall.com/2020/01/why-dhall-advertises-absence-of-turing.html
+: Why Dhall advertises the absence of Turing-completeness
+* [#C] [2020-08-22] use chronic (by default cron spams with stdout/stderr)
+:PROPERTIES:
+:ID:       stschrncbydfltcrnspmswthstdtstdrr
+:END:
+: I use `chronic` in almost all of my cron jobs so that cron sends me an email with the output only if the command has a return code of != 0.
+* [#C] [2020-01-25] tmuxinator/tmuxinator: Manage complex tmux sessions easily
+:PROPERTIES:
+:ID:       sttmxntrtmxntrmngcmplxtmxsssnssly
+:END:
+https://github.com/tmuxinator/tmuxinator
+
+* [#C] [2020-02-20] backup - Basic rsync command for bit-identical copies - Unix & Linux Stack Exchange
+:PROPERTIES:
+:ID:       thbckpbscrsynccmmndfrbtdntclcpsnxlnxstckxchng
+:END:
+https://unix.stackexchange.com/questions/118883/basic-rsync-command-for-bit-identical-copies
+: So this is the basic command to make the destination identical to the source (absent hard links, ACLs and extended attributes):
+: 
+: rsync -a --delete SOURCE/ DESTINATION/
+* [#C] [2020-04-19] [[https://news.ycombinator.com/item?id=22914789][QRCP: Transfer files to mobile device by scanning a QR code from the terminal | Hacker News]]
+:PROPERTIES:
+:ID:       snsnwsycmbntrcmtmdqrcptrnnnngqrcdfrmthtrmnlhckrnws
+:END:
+* TODO [#D] Even though Ahrens argues that there neither can nor should be any overview, I disobediently wrote another script to make an SVG image of it using GraphViz. I originally had it generating PNGs but they rapidly got too large. Here’s what the whole system looks like as of this morning:
+:PROPERTIES:
+:CREATED:  [2019-12-30]
+:ID:       vnthghhrnsrgsthtthrnthrcnthwhlsystmlkslksfthsmrnng
+:END:
+cool!
+[[https://clerestory.netlify.com/zk1/][Zettelkasten!]]
+[[https://hyp.is/H1SH2isnEeqUGW-mAPhEsg/clerestory.netlify.com/zk1/][in context]]
+
+* [2020-04-05] Start all of your commands with a comma (2009) | Hacker News
+:PROPERTIES:
+:ID:       snstrtllfyrcmmndswthcmmhckrnws
+:END:
+https://news.ycombinator.com/item?id=22778988
+* [#C] [2020-01-09] Canop/broot: A new way to see and navigate directory trees
+:PROPERTIES:
+:ID:       thcnpbrtnwwytsndnvgtdrctrytrs
+:END:
+https://github.com/Canop/broot
+
+* [2020-04-01] Jitsi Meet: An open source alternative to Zoom | Hacker News
+:PROPERTIES:
+:ID:       wdjtsmtnpnsrcltrntvtzmhckrnws
+:END:
+https://news.ycombinator.com/item?id=22669968
+* [#C] [2020-10-12] [[https://github.com/jarun/nnn][jarun/nnn: n³ The unorthodox terminal file manager.]]
+:PROPERTIES:
+:ID:       mnsgthbcmjrnnnnjrnnnnnthnrthdxtrmnlflmngr
+:END:
+
+* [#D] [2020-10-05] [[https://github.com/tridactyl/tridactyl][tridactyl/tridactyl: A Vim-like interface for Firefox, inspired by Vimperator/Pentadactyl.]] :vim:
+:PROPERTIES:
+:ID:       mnsgthbcmtrdctyltrdctyltrfrfxnsprdbyvmprtrpntdctyl
+:END:

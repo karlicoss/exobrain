@@ -113,11 +113,23 @@ mind the space after colon!
 :ID:       lnxgnrsthstdbtnllntrprtdxctblsxctblsstrtngwthln
 :END:
 ok apparently setuid shell scripts are quite risky...
-* [#C] [2020-01-29] linux - How to make htop sort by PID - Super User  :htop:
+* [#C] [2020-01-29] linux - How to make htop sort by PID
 :PROPERTIES:
-:ID:       wdlnxhwtmkhtpsrtbypdsprsr
+:ID:       wdlnxhwtmkhtpsrtbypd
 :END:
 https://superuser.com/questions/275873/how-to-make-htop-sort-by-pid
 : @OSX Press >.
 
 press > and select RES
+* [#C] [2020-01-24] logs - View stdout/stderr of systemd service
+:PROPERTIES:
+:ID:       frlgsvwstdtstdrrfsystmdsrvc
+:END:
+https://unix.stackexchange.com/questions/20399/view-stdout-stderr-of-systemd-service
+: Note that using the standard logging mechanism like this will not create persistent logs by default. To do that, you'll need to create /var/log/journal, and then run sudo systemctl restart systemd-journald
+* [#C] [2020-01-29] How to read memory usage in htop? - Server Fault  :drill:
+:PROPERTIES:
+:ID:       873c3c56-09ec-4783-aa15-b69a9ed1e6a5
+:END:
+https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
+: Hide user threads (shift + H) and close the process tree view (F5), t

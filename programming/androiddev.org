@@ -125,3 +125,9 @@
 : React native on the other hand uses the native components of the OS. So it’s not a web view, which means your app will feel much smoother. The downside of react native is that it uses its own components on top of the native ones which makes it hard to reuse your frontend code to the extent you  could with a Cordova app.
 : Personal opinion: In my opinion and based on my past experience I would go with react native if I had to choose a framework based on JavaScript.
 : Hope this helps :)
+* TODO [#C] [2019-08-18] JStumpp/awesome-android: A curated list of awesome Android packages and resources.
+:PROPERTIES:
+:ID:       snjstmppwsmndrdcrtdlstfwsmndrdpckgsndrsrcs
+:END:
+https://github.com/JStumpp/awesome-android#readme
+: Development Alternatives

@@ -502,3 +502,83 @@ e.g. exploring Lagrangia??
 :ID:       9a202fcd-b8f6-47ee-9928-184fe5b0e991
 :END:
 from Genius: The Life and Science of Richard Feynman
+
+
+* [#C] [2020-04-05] Max Tegmark on Steps toward building an AI physicist - YouTube :physics:
+:PROPERTIES:
+:ID:       snmxtgmrknstpstwrdbldngnphyscstytb
+:END:
+https://www.youtube.com/watch?v=9atnfAHBfSI&list=WL&index=41&t=0s
+: ok, interesting. so it's using some techniques to discover symbolic expressions, discover symmetries etc
+* TODO [#C] [2019-02-10] [[https://reddit.com/r/Physics/comments/60t98m/visualization_of_quantum_physics_quantum_mechanics/dfa6a13/][Visualization of Quantum Physics (Quantum Mechanics)]] /r/Physics :viz:
+:PROPERTIES:
+:ID:       snsrddtcmrphyscscmmntstmvtmphyscsqntmmchncsrphyscs
+:END:
+:  I am particularly impartial towards his Electromagnetism video. It is 45 minutes of pure ecstacy.
+
+* [2017-11-06] penrose diagram
+:PROPERTIES:
+:ID:       mnpnrsdgrm
+:END:
+https://jila.colorado.edu/~ajsh/insidebh/penrose.html
+https://www.youtube.com/watch?v=mht-1c4wc0Q
+http://casa.colorado.edu/~ajsh/schw.shtml
+
+* [2020-08-11] [[https://en.wikipedia.org/wiki/Tachyonic_field][Tachyonic field - Wikipedia]]
+:PROPERTIES:
+:ID:       tsnwkpdrgwktchyncfldtchyncfldwkpd
+:END:
+: A tachyonic field, or simply tachyon, is a field with an imaginary mass
+* [2017-11-03] [[https://reddit.com/r/askscience/comments/7ad5y0/how_large_could_a_rocky_planet_get/dpa0c1q/][How large could a rocky planet get?]] /r/askscience
+:PROPERTIES:
+:ID:       frsrddtcmrskscnccmmntsdyhhwlrgcldrckyplntgtrskscnc
+:END:
+:  It all really depends on your definition of a rocky planet. Or a rock for that matter.
+:  [Athleticon93](/u/Athleticon93) is right for normally formed planets. Any planet getting really big as just a rocky planet is going to accrete lots of gas too and become a gas giant. But if we want to *make* a really big rocky planet, physics won't stop us for a while
+:  Start with a chunk of rock floating around in space. Let's say we borrowed mars for a bit. Don't worry, the solar system won't ask for it back. Now toss a rock down onto it. You have a bigger rocky planet. Keep doing that for a bit. The planet gets bigger and bigger. Surface gravity increases, and for now, the density of material at the core stays the same (ish). Things start to fork at this point though, depending on the thought experiment.
+:  First off, just dropping the rocks is going to be a problem. Dumping planetfulls of rocks onto an ever larger planet makes heat. A *lot* of heat, which will liquefy, and eventually boil our rocks. This will also drive out any volatiles in the rock; gasses, bound water, sulfur, etc. Pretty much anything that isn't iron or nickel or another high boiling element or very stable compound. For example, limestone, a common rock, will happily decompose to CO2 and CaO. Now our ball of rocks is surrounded by an ever thickening atmosphere of gasses. Whoops, we made a gas giant.
+:  So lets start again, but instead we'll teleport our rocks down to the surface. Compaction will produce some heat, but not enough to boil our rocks. *Yet...*
+:  The planet could get quite big (somewhere around 3-4 times the radius of the earth), but eventually the compressive forces of gravity will be enough to start severely compressing even solid material. The density of the core will go way up. You'll notice you're adding hundreds of cubic kilometres of stuff and your planet is only growing by tens of cubic kilometers. This is going to make a lot of heat. If our rocks have a fair bit of lighter elements in them (pretty much anything higher on the periodic table than iron), eventually somewhere around 60 times the mass of Jupiter the heat and pressure will be too much and our "rocky planet" will ignite into a very weird star
+:  Let's start again, again. We can't use rocks anymore, but we can use iron. Iron is at least a solid, and we can imagine running around on it pretty similarly to a regular planet. Get a big ball of iron and start the teleportation machine again with chunks of iron instead of rocks. Again, you'll see the planet grow, but after a certain point, roughly 2.5 times the radius of the earth, and several hundred times the mass, adding more mass will actually cause the radius to shrink. The iron planet will also be getting very very hot (tens of thousands of kelvin). What's happening is that the additional matter is causing increased gravity, and your planet is no longer being supported by the everyday pressure of electrostatics, like what keeps your feet from compressing a concrete floor. Instead the core is now dominated by electron degeneracy pressure. It's acting like a very hot, ultra dense gas. As you add more iron, you create more gravity. More gravity makes more pressure, more degenerate matter, and a smaller radius. Your "planet" is now a white dwarf. If you let it cool off for a few trillion years you'd be left with a ball of iron that, if you could walk around in about a hundred thousand g's of gravity, you could walk on and would be (sorta, kinda) like a planet. And that's as big as you can make a planet.
+* [2020-07-21] [[https://reddit.com/r/askscience/comments/hv1wua/is_there_a_natural_reference_for_the_correct_time/fyrhwvr/][Is there a natural reference for the correct time, down to the milliseconds?]] /r/askscience
+:PROPERTIES:
+:ID:       tsrddtcmrskscnccmmntshvwscttmdwntthmllscndsrskscnc
+:END:
+:  Astronomer here! One I haven’t seen mentioned yet are [pulsars](https://en.m.wikipedia.org/wiki/Pulsar), which are rapidly spinning neutron stars that give off a regular radio pulse. They are *so* regular that we can model the pulses to within one second in a million years, and every pulsar is different in its pulsar profile. So I’ve heard it said that in the far future we could use them for interstellar GPS of sorts.
+: 
+:  So yeah you could definitely use pulsars for this reference assuming you lost all the clocks on Earth but kept all the info about pulsars and radio astronomy. Some pulsars are even millisecond pulsars, meaning they spin every few milliseconds, so you could even cover that part of the time scale.
+* [#B] [2019-01-20] The Standard Model – The Physics Hypertextbook :relativity:
+:PROPERTIES:
+:ID:       snthstndrdmdlthphyscshyprtxtbk
+:END:
+https://physics.info/standard
+pretty good, soft overview with highlights of different parts
+
+
+* [#B] [2015-03-16] [[https://reddit.com/r/askscience/comments/2z8r01/how_fast_does_electricity_move_in_a_wire/cph2d70/][How fast does electricity move in a wire?]] /r/askscience
+:PROPERTIES:
+:ID:       mnsrddtcmrskscnccmmntszrhwfstdslctrctymvnwrrskscnc
+:END:
+:  ~~Electronics~~ Electrons (thanks /u/StopDataAbuse) push each other away because of their negativity. This is what transfers the signal, and goes at about 50% to 99% of the speed of light depending on the material. Note that this is not related to the actual speed of the electrons themselves.
+:  Now the speed of the electrons themselves is more interesting (I think). I once calculated this and I'll do it again for fun. Let's take a simple DC circuit:
+:  3 volt power source, 3 ohm resistor giving 1A of current. Lets take 18 awg copper wires with a cross section surface of 0.823mm^2 according to [this](http://www.technick.net/public/code/cp_dpage.php?aiocp_dp=guide_awg_to_metric). The length of the wires we'll define as L meter, as you'll see it doesn't matter which L we pick as long as we ignore the resistance it brings.
+:  The volume of the wire is 0.823mm^2 * L meter = 0.823 10^-6 * L m^3. The density of the wire is (from Wikipedia) 8.96 g * cm^-3  = 8960 kg * m^-3. Multiply those numbers and we'll get the weight of the wire, which is 7.374 * L * 10^-3 kg. I searched for the number of free electrons every copper atom has, and a google search returns 1. So now we need the number of atoms in those wires. 7.347 * L g / (63.546 g / mol) * 6.022 * 10^23 / mol = 6.988 * 10^22 L. That's the number of free electrons in the wires. 1A is 1C / s = 6.241 * 10^18 electrons per second. That's the number of electrons that flow into the wire and out the other end every second. Divide 6.988 * 10^22 L with 6.241 * 10^18 / s and you'll get 11197 * L s. That's the number of seconds any electron stays in the wires before leaving the other end. Divide the length by this time and you'll get the speed: speed = L meters (as the length of the wires were L) / (11197Ls) = 8.93 × 10^-5 m / s. That's not very fast. It would take over 3 hours to travel through a 1 meter wire. Hope I got all the numbers right :S
+* [2020-08-21] [[https://en.wikipedia.org/wiki/Chirality_(physics)][Chirality (physics) - Wikipedia]]
+:PROPERTIES:
+:ID:       frsnwkpdrgwkchrltyphyscschrltyphyscswkpd
+:END:
+: For massless particles – photons, gluons, and (hypothetical) gravitons – chirality is the same as helicity; a given massless particle appears to spin in the same direction along its axis of motion regardless of point of view of the observer.
+* TODO [#C] Render waves in 4d space                        :physics:sim:viz:
+:PROPERTIES:
+:CREATED:  [2018-03-14]
+:ID:       rndrwvsndspc
+:END:
+
+* TODO [#D] Physical Church-Turing Thesis: {laws of physics can be simulated to any desired precision by a TM (or at any rate, by a probabilistic TM)} :hyp2org:drill:
+:PROPERTIES:
+:CREATED:  [2019-11-01]
+:ID:       e3e16186-4726-4ed1-b3b3-9789a009c0f4
+:END:
+None
+[[https://www.scottaaronson.com/blog/?p=2756][Shtetl-Optimized  » Blog Archive   » “Can computers become conscious?”: My reply to Roger Penrose]]
+[[https://hyp.is/LJqhJPz0Eem1V4OZGz8ddg/www.scottaaronson.com/blog/?p=2756][in context]]

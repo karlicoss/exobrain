@@ -106,3 +106,8 @@ hmm, but does it make sense to speak about V if D is not changing???
 :END:
 https://www.youtube.com/watch?v=YR-l0b2iYy0
 pretty cool talk!
+* [2015-06-14] CMB                                                :cosmology:
+:PROPERTIES:
+:ID:       sncmb
+:END:
+: Just like the CMB tells us what was happening 300,000 years ago, the cosmological gravitational wave background will tell us about the nature of the universe at the time when they start their journey toward us.

@@ -283,3 +283,16 @@ https://github.com/kanishka-linux/reminiscence
 https://twitter.com/gwern/status/1233112807253716992
 
 @gwern: @karlicoss @thomas536 Not documented in there yet is my latest archiving tool: https://t.co/If2Ypw1T1M https://t.co/NLh23nrkrh Currently costs 20GB for 7,677 PDFs & self-contained single-file HTML mirrors.
+
+* [#C] [2019-12-20] Web Archiving Community · pirate/ArchiveBox Wiki :linkrot:
+:PROPERTIES:
+:ID:       frwbrchvngcmmntyprtrchvbxwk
+:END:
+https://github.com/pirate/ArchiveBox/wiki/Web-Archiving-Community
+
+* [#C] [2019-12-11] Verizon/Yahoo Blocking Attempts to Archive Yahoo Groups – Deletion: Dec. 14 | Hacker News
+:PROPERTIES:
+:ID:       wdvrznyhblckngttmptstrchvyhgrpsdltndchckrnws
+:END:
+https://news.ycombinator.com/item?id=21737696
+: ven if we still had the Library of Alexandria, it may have shed zero light on the actual lives of citizens. Archiving content on the internet means capturing thousands of individual level perspectives and experiences. We don't know what will end up being important to historians 50 or 100 years from now. I would bet there are dozens if not hundreds of historians that would give anything for a record of their favorite time period that contains even a fraction of the amount of content today's archive efforts are storing.

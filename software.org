@@ -37,3 +37,43 @@ https://news.ycombinator.com/item?id=22137556
 :END:
 https://twitter.com/burntsushi5/status/1321996275567517702
 : @burntsushi5: Finally had a chance to write this in one place. Here are my thoughts on software licensing and why I oppose copyleft.
+
+* [#C] [2020-05-05] [[https://drewdevault.com/2019/03/04/sourcehut-design.html][Sourcehut’s spartan approach to web design | Drew DeVault’s Blog]] :webbloat:ui:
+:PROPERTIES:
+:ID:       tsdrwdvltcmsrchtdsgnhtmlstnpprchtwbdsgndrwdvltsblg
+:END:
+: Sourcehut's spartan approach to web design
+* [2019-01-01] Tweet from Al Dragon (@aldragon_net), at Jan 1, 21:35 :interfaces:
+:PROPERTIES:
+:ID:       ttwtfrmldrgnldrgnnttjn
+:END:
+: …наиболее вероятно значение w<-1, при котором бесконечное расстояние между элементами интерфейса будет достигнуто за конечное время […] За месяц до этого потеряет связность лента, за день — растянутся на несколько экранов твиты. За секунду до Большого Разрыва разрушатся эмодзи.
+
+
+https://twitter.com/aldragon_net/status/1080215989109821440
+
+* DONE [#B] [2020-04-18] [[https://news.ycombinator.com/item?id=22901541][The Decline of Usability]] :ui:
+:PROPERTIES:
+:ID:       stsnwsycmbntrcmtmdthdclnfsblty
+:END:
+https://datagubbe.se/decusab/
+* [#C] [2020-01-25] guides/ALTERNATIVES.md at master · mayfrost/guides
+:PROPERTIES:
+:ID:       stgdsltrntvsmdtmstrmyfrstgds
+:END:
+https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md
+: ALTERNATIVES TO BLOATWARE
+
+* [#C] [2020-04-13] [[https://liberapay.com/][Liberapay]] insanely clean ui :ui:
+:PROPERTIES:
+:ID:       mnslbrpycmlbrpynsnlycln
+:END:
+* [#B] [2020-05-11] [[https://twitter.com/amyhoy/status/1209693440872603651][Amy "Social Distancing" Hoy on Twitter: "OKAY *cracks knuckles* i’ve got a glass of austrian rosè that’s making me sweat like i’m literally dying &amp; my husband went to sleep at 9:30 with a migraine so LET’S DO THIS 1 like, 1 design opinion" / Twitter]] :design:
+:PROPERTIES:
+:ID:       mnstwttrcmmyhysttsmyscldsgrnsltsdthslkdsgnpnntwttr
+:END:
+
+* [[https://twitter.com/i/web/status/584492360349913088][TW]] at [2015-04-04] Когда я читаю в release notes софтины "various style and layout fixes", автоматически предполагаю что выпилили полезные настройки.
+:PROPERTIES:
+:ID:       stwttrcmwbsttstwtstкогдаявыпилилиполезныенастройки
+:END:

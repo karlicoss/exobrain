@@ -695,3 +695,18 @@ I don't know wtf is wrong. I don't get how to extract title from the note. (om-g
 :ID:       stblgrfxnbtthsblgwhtdmnbyndhtmlwhtdmnbynd
 :END:
 good explanation
+* [#C] [2019-12-07] knowledge/wiki-workflow.md at c978beb37bc769a9925fa6664ed9a4f3be183697 · nikitavoloboev/knowledge :exobrain:
+:PROPERTIES:
+:ID:       stknwldgwkwrkflwmdtcbbbcfdfbnktvlbvknwldg
+:END:
+https://github.com/nikitavoloboev/knowledge/blob/c978beb37bc769a9925fa6664ed9a4f3be183697/other/wiki-workflow.md#similar-wikis-i-liked
+
+* TODO [#C] [2020-01-01] RichardLitt/meta-knowledge: 💡 A list of knowledge repositories :publish:exobrain:
+:PROPERTIES:
+:ID:       wdrchrdlttmtknwldglstfknwldgrpstrs
+:END:
+https://github.com/RichardLitt/meta-knowledge
+** [2020-01-17] later when I publish my org-mode sources
+:PROPERTIES:
+:ID:       frltrwhnpblshmyrgmdsrcs
+:END:

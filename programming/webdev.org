@@ -1,7 +1,7 @@
-#+TITLE: Web programming
-#+filetags: :programming:
+#+TITLE: Webdev
+#+filetags: :webdev:
 
-* related                                                       :js:css:html:
+* related                                           :programming:js:css:html:
 :PROPERTIES:
 :ID:       rltd
 :END:
@@ -11,7 +11,7 @@ TODO weird. why didn't this work?  #js #css #html etc
 :PROPERTIES:
 :ID:       css
 :END:
-** STRT [#C] [2019-11-11] A Complete Guide to Flexbox | CSS-Tricks     :flex:
+** STRT [#C] [2019-11-11] A Complete Guide to Flexbox | CSS-Tricks
 :PROPERTIES:
 :ID:       mncmpltgdtflxbxcsstrcks
 :END:
@@ -59,3 +59,31 @@ https://github.com/dypsilon/frontend-dev-bookmarks#readme
 :PROPERTIES:
 :ID:       tstlkttchwlltcrswlltcrs
 :END:
+
+* [#C] [2020-02-16] (8) 🔎Julia Evans🔍 on Twitter: "CORS https://t.co/uSrLqGIWR0" / Twitter :cors:
+:PROPERTIES:
+:ID:       snjlvnsntwttrcrsstcsrlqgwrtwttr
+:END:
+https://twitter.com/b0rk/status/1162392625057583104
+* TODO [#D] These include DOM mutation breakpoints and inactive CSS rule indicators in the DevTools, several new CSS text properties, two-value display syntax, and JS numeric separators.
+:PROPERTIES:
+:CREATED:  [2019-10-23]
+:ID:       thsnclddmmttnbrkpntsndnctldsplysyntxndjsnmrcsprtrs
+:END:
+[[https://hacks.mozilla.org/2019/10/firefox-70-a-bountiful-release-for-all/][Firefox 70 — a bountiful release for all – Mozilla Hacks - the Web developer blog]]
+[[https://hyp.is/ojMC-PWPEemZk89OVNg-xQ/hacks.mozilla.org/2019/10/firefox-70-a-bountiful-release-for-all/][in context]]
+
+* [#C] [2019-12-16] What are the pros and cons of using flexbox? - Quora :css:
+:PROPERTIES:
+:ID:       mnwhtrthprsndcnsfsngflxbxqr
+:END:
+https://www.quora.com/What-are-the-pros-and-cons-of-using-flexbox
+: The pros are plentiful.
+: It makes things like space allocation a lot simpler and far fewer lines of code.
+: Unfortunately, not all browsers can identify and correctly interpret flexbox. Give it a few more years for (mostly) mobile browsers to catchup.
+* [#C] [2020-04-07] Firefox 75 for developers - Mozilla | MDN
+:PROPERTIES:
+:ID:       tfrfxfrdvlprsmzllmdn
+:END:
+https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/75
+: In the inspector, you can now use XPath expressions to locate elements, in addition to locating elements using CSS selectors as before (bug 963933).

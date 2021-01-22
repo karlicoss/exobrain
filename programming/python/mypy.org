@@ -375,3 +375,46 @@ https://pydantic-docs.helpmanual.io/
 :     User(signup_ts='broken', friends=[1, 2, 'not number'])
 : except ValidationError as e:
 :     print(e.json())
+* [#C] [2020-06-22] [[https://news.ycombinator.com/item?id=22305446][We've been running mypy on our project for about a year now and it's one of the ... | Hacker News]] :mypy:
+:PROPERTIES:
+:ID:       mnsnwsycmbntrcmtmdwvbnrnnctfrbtyrnwndtsnfthhckrnws
+:END:
+: We implemented it progressively. At first I added it as a make target but didn't make it mandatory in CI so I could learn how to use it. Then I made it mandatory for a few files that I was the only active contributor to. Then I slowly added more and more files across the project, sometimes as I touched them for other reason and other times as independent changes. Eventually as mypy caught more and more bugs in other contributor's changes they started getting on board and adding type hints as well, until the vast majority of the project was hinted (we'll be getting to 100% within a few weeks).
+* [#D] [2019-12-07] Still alive? · Issue 25 · machinalis/mypy-data :mypy:numpy:
+:PROPERTIES:
+:ID:       ststlllvssmchnlsmypydt
+:END:
+https://github.com/machinalis/mypy-data/issues/25
+
+* TODO [#C] [2019-12-08] pytester's comments | Hacker News             :mypy:
+:PROPERTIES:
+:ID:       snpytstrscmmntshckrnws
+:END:
+https://news.ycombinator.com/threads?id=pytester
+some very reasonable thoughts on typing from this guy
+* TODO mypy + multiple python versions                                 :mypy:
+:PROPERTIES:
+:CREATED:  [2020-10-31]
+:ID:       mypymltplpythnvrsns
+:END:
+this is mypy friendly
+: if sys.version_info[:2] >= (3, 8):
+
+this isn't
+: if sys.version_info.minor >= 7:
+* [#C] [2020-12-08] [[https://hakibenita.com/python-mypy-exhaustive-checking#type-narrowing-in-mypy][Exhaustiveness Checking with Mypy | Haki Benita]]
+:PROPERTIES:
+:ID:       tshkbntcmpythnmypyxhstvchhstvnsschckngwthmypyhkbnt
+:END:
+
+* [#C] [2019-12-08] Statically-typed error handling in Python using Mypy | Hacker News :errors:mypy:
+:PROPERTIES:
+:ID:       snsttcllytypdrrrhndlngnpythnsngmypyhckrnws
+:END:
+https://news.ycombinator.com/item?id=21736620
+: My approach is to dial up strictness gradually as code proves its value. I'll start out building a project and not validating on I/O, but as the requirements get locked down and the code has proven itself, I'll clean up all the edge cases - which will often mean adding in progressively stricter validation on border code.
+: The advantage of this is that if you end up not wasting too much time "building the wrong thing". Let's say that you took one form of I/O and built massively strict validation in and then realized later that you should have taken an entirely different form of I/O for your subsystem. All that time building in validation on that useless part of code was a pointless waste.
+: I don't have any stats, but my gut feel is that on average 40% of code can end up being tossed in this way (in some projects it's 100% =).
+: Prototyping speed is, additionally, not just useful in reducing the cost of building the right kind of code, it's useful in reducing the cost of building the right kind of test (a really underappreciated facet of building mission critical systems).
+
+In my younger years I used to believe that for mission critical systems "building the wrong thing" was somehow less of a problem in code because you could fix requirements and do architecture upfront with some sort of genius architect. Turns out this was wrong.

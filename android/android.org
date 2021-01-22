@@ -1,6 +1,16 @@
-#+TITLE: Why root your Android?
+#+TITLE: 
+#+title:: Android
 #+filetags: android
 
+* related                                                             :phone:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
+* Why root your Android? :sadinfra
+:PROPERTIES:
+:ID:       whyrtyrndrdsdnfr
+:END:
 - Pixel: impossible to disable screenshot shutter sound
 - Impossible to issue iptables command and forward VPN ofer wifi
 - could access applications internals, use for backups and adjusting settings
@@ -10,3 +20,9 @@
   https://www.reddit.com/r/LineageOS/comments/84easg/is_it_possible_to_disable_direct_share/
 - fdroid autoupdate
 - oandbackup
+* [#C] [2020-01-20] BusyBox cron container example
+:PROPERTIES:
+:ID:       mnbsybxcrncntnrxmpl
+:END:
+https://gist.github.com/andyshinn/3ae01fa13cb64c9d36e7
+: Try crond --help:

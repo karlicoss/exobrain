@@ -842,3 +842,18 @@ https://lwn.net/SubscriberLink/832311/03910e26a3f3e814/
 :CREATED:  [2020-03-08]
 :ID:       xplrdmsnppts
 :END:
+* profiling emacs                                                     :emacs:
+:PROPERTIES:
+:ID:       prflngmcs
+:END:
+~emacs --debug-init --timed-requires~
+
+(will create a buffer with load times)
+vim core/core-debug.el , (defvar spacemacs-debug-timer-threshold 0.05 to adjust
+
+~emacs --debug-init --profile~ -- will create CPU and memory profile
+* [2020-03-24] Wilfred/helpful: A better Emacs *help* buffer          :emacs:
+:PROPERTIES:
+:ID:       twlfrdhlpflbttrmcshlpbffr
+:END:
+https://github.com/Wilfred/helpful

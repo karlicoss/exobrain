@@ -1295,3 +1295,136 @@ https://cjolowicz.github.io/posts/hypermodern-python-04-typing/
 :CREATED:  [2019-08-02]
 :ID:       trysngdvpfrpldng
 :END:
+* [#C] [2020-05-25] [[https://dmerej.info/blog/post/docopt-v-argparse/][docopt v argparse • Dimitri Merejkowsky]] :python:
+:PROPERTIES:
+:ID:       mnsdmrjnfblgpstdcptvrgprsdcptvrgprsdmtrmrjkwsky
+:END:
+: But for big projects with lots of subcommands, written in Python, using argparse may be a better idea, especially if you need to do advanced stuff for your parsing, like configuring common options in one function, allow plug-ins to change the command line API, and so on …
+* [#D] [2019-12-08] Dynamically change __slots__ in Python 3 - Stack Overflow :python:
+:PROPERTIES:
+:ID:       sndynmcllychngsltsnpythnstckvrflw
+:END:
+https://stackoverflow.com/questions/27907373/dynamically-change-slots-in-python-3
+: Normally, an object's attributes are stored in a dict, which requires a fair bit of memory itself. If you are creating millions of objects then the space required by these dicts becomes prohibitive. __slots__ informs the python machinery that makes the class object that there will only be so many attributes refered to by instances of this class and what the names of the attributes will be. Therefore, the class can make an optimisation by storing the attributes directly on the instance rather than in a dict. It places the memory for the (pointers to the) attributes directly on the object, rather than creating a new dict for the object.
+* [#C] [2020-10-24] [[https://news.ycombinator.com/item?id=24874102][LiveCode is a modern day HyperCard (2019) | Hacker News]] :python:gui:
+:PROPERTIES:
+:ID:       stsnwsycmbntrcmtmdlvcdsmdrndyhyprcrdhckrnws
+:END:
+: In the spirit of HN contrarian comments, I'd say the closest thing spiritually to a modern-day HyperCard is PySimpleGUI: https://github.com/PySimpleGUI
+* [#C] [2020-01-15] [[https://news.ycombinator.com/item?id=22054433][Show HN: CrossHair – SMT Assisted Testing for Python]] :testing:python:
+:PROPERTIES:
+:ID:       wdsnwsycmbntrcmtmdshwhncrsshrsmtssstdtstngfrpythn
+:END:
+https://github.com/pschanely/CrossHair
+* STRT [#B] [2019-11-10] lihaoyi/macropy: Macros in Python: quasiquotes, case classes, LINQ and more! :macro:python:lisp:
+:PROPERTIES:
+:ID:       snlhymcrpymcrsnpythnqsqtscsclssslnqndmr
+:END:
+https://github.com/lihaoyi/macropy
+** [2020-05-16] wow that's amazing https://macropy3.readthedocs.io/en/latest/discussion.html#function-advice
+:PROPERTIES:
+:ID:       stwwthtsmzngsmcrpyrdthdcsnltstdscssnhtmlfnctndvc
+:END:
+
+* [#D] [2020-01-09] What does it do? — Logbook               :python:logging:
+:PROPERTIES:
+:ID:       thwhtdstdlgbk
+:END:
+https://logbook.readthedocs.io/en/stable/features.html#advantages-over-logging
+
+* TODO [#C] [2019-11-24] How formulas work — patsy 0.5.1+dev documentation
+:PROPERTIES:
+:ID:       snhwfrmlswrkptsydvdcmnttn
+:END:
+https://patsy.readthedocs.io/en/latest/formulas.html
+: The formula language is actually fairly simple once you get the hang of it, but if you’re ever in doubt as to what some construction means, you can always ask Patsy how it expands.
+* TODO [#D] [2019-12-20] Pipenv: promises a lot, delivers very little | Chris Warrick :pip:
+:PROPERTIES:
+:ID:       frppnvprmssltdlvrsvrylttlchrswrrck
+:END:
+https://chriswarrick.com/blog/2018/07/17/pipenv-promises-a-lot-delivers-very-little/
+
+* [2020-08-19] [[https://packaging.python.org/discussions/install-requires-vs-requirements/][install_requires vs requirements files — Python Packaging User Guide]] :pip:
+:PROPERTIES:
+:ID:       wdspckgngpythnrgdscssnsnsrqrmntsflspythnpckgngsrgd
+:END:
+: Requirements Files described most simply, are just a list of pip install arguments placed into a file.
+: Whereas install_requires defines the dependencies for a single project, Requirements Files are often used to define the requirements for a complete Python environment.
+: Whereas install_requires requirements are minimal, requirements files often contain an exhaustive listing of pinned versions for the purpose of achieving repeatable installations of a complete environment.
+: Whereas install_requires requirements are “Abstract”, i.e. not associated with any particular index, requirements files often contain pip options like --index-url or --find-links to make requirements “Concrete”, i.e. associated with a particular index or directory of packages. 1
+: Whereas install_requires metadata is automatically analyzed by pip during an install, requirements files are not, and only are used when a user specifically installs them using pip install -r.
+* [2019-04-10] kynan/nbstripout: strip output from Jupyter and IPython notebooks :git:ipython:
+:PROPERTIES:
+:ID:       wdkynnnbstrptstrptptfrmjpytrndpythnntbks
+:END:
+https://github.com/kynan/nbstripout
+
+* [2020-08-22] [[https://pauliacomi.com/2020/06/07/plotly-v-bokeh.html][Plotly vs. Bokeh: Interactive Python Visualisation Pros and Cons | Paul Iacomi]] :bokeh:viz:
+:PROPERTIES:
+:ID:       stsplcmcmpltlyvbkhhtmlplttvpythnvslstnprsndcnsplcm
+:END:
+pretty good comparizon
+* [#C] hack to allow optional git dependencies                     :pip:pypi:
+:PROPERTIES:
+:CREATED:  [2020-04-19]
+:ID:       hcktllwptnlgtdpndncs
+:END:
+: def building_for_pypi() -> bool:
+:     return sys.argv[1] == 'sdist'
+:    for_pypi = building_for_pypi()
+:            'my': [] if for_pypi else ['HPI @ git+https://github.com/karlicoss/my.git'],
+:        },
+* [#C] [2019-11-29] typeddjango/awesome-python-typing: Collection of awesome Python types, stubs, plugins, and tools to work with them.
+:PROPERTIES:
+:ID:       frtypddjngwsmpythntypngclsstbsplgnsndtlstwrkwththm
+:END:
+https://github.com/typeddjango/awesome-python-typing
+* [#C] [2020-03-14] jestem króliczkiem on Twitter: "or, you can encode dependencies in types: @dataclass(init=False) class FancyPath: path: Path mtime: float def __init__(self, path: Path): self.path = path self.mtime = path.stat().st_mtime" / Twitter :cachew:python:
+:PROPERTIES:
+:ID:       stjstmkrólczkmntwttrrycnnpthslfmtmpthsttstmtmtwttr
+:END:
+https://twitter.com/karlicoss/status/1238791294547353601
+: @dataclass
+: (init=False)
+: class FancyPath:
+:     path: Path
+:     mtime: float
+:     def __init__(self, path: Path):
+:         self.path = path
+:         self.mtime = path.stat().st_mtime
+
+right, I suppose it's type to use dataclasses
+* [#C] [2020-04-11] Traps for the Unwary in Python’s Import System — Nick Coghlan's Python Notes 1.0 documentation :python:
+:PROPERTIES:
+:ID:       sttrpsfrthnwrynpythnsmprtmnckcghlnspythnntsdcmnttn
+:END:
+http://python-notes.curiousefficiency.org/en/latest/python_concepts/import_traps.html#the-init-py-trap
+
+* STRT [#C] [2020-05-13] [[https://github.com/amontalenti/elements-of-python-style][amontalenti/elements-of-python-style: Goes beyond PEP8 to discuss what makes Python code feel great. A Strunk & White for Python.]] :python:
+:PROPERTIES:
+:ID:       wdsgthbcmmntlntlmntsfpyththncdflgrtstrnkwhtfrpythn
+:END:
+: Use parens (...) for fluent APIs
+* [#B] [2020-05-18] [[https://chrisyeh96.github.io/2017/08/08/definitive-guide-python-imports.html][The Definitive Guide to Python import Statements | Chris Yeh]] :python:
+:PROPERTIES:
+:ID:       mnschrsyhgthbdfntvgdpythngdtpythnmprtsttmntschrsyh
+:END:
+
+* [#B] [2020-08-09] [[https://stackoverflow.com/questions/18770504/resize-ipython-notebook-output-window][resize ipython notebook output window - Stack Overflow]]
+:PROPERTIES:
+:ID:       snsstckvrflwcmqstnsrszpytpythnntbktptwndwstckvrflw
+:END:
+: You can toggle the scroll window in the main menu of the notebook
+: Cell -> Current Outputs -> Toggle Scrolling
+* [#C] [2020-01-26] Not really. Enable something like MyPy or PyType on a big enough codebase with z... | Hacker News
+:PROPERTIES:
+:ID:       snntrllynblsmthnglkmypyrpytypnbgnghcdbswthzhckrnws
+:END:
+https://news.ycombinator.com/item?id=21902827
+: Not really. Enable something like MyPy or PyType on a big enough codebase with zero explicit annotation and it'll already find plenty of bugs and unhandled cases from the inferred types alone. Some of these are stuff a strong IDE may catch too (using the wrong function name, passing wrong number of args, etc), but some other ones are actually deeper in the code.
+: 
+: So already, with zero annotations, you already get value out, let alone once you type a few tricky variables that are harder for Python to track.
+* TODO [#B] [2020-07-21] [[https://github.com/tmbo/questionary][tmbo/questionary: Python library to build pretty command line user prompts ✨Easy to use multi-select lists, confirmations, free text prompts ...]] :tui:
+:PROPERTIES:
+:ID:       tsgthbcmtmbqstnrytmbqstnrctlstscnfrmtnsfrtxtprmpts
+:END:

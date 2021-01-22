@@ -392,3 +392,25 @@ evolution is linear, so after time dt the amplitude of changing state is proport
 :PROPERTIES:
 :ID:       snsphyscsstckxchngcmqstnssmplxplntnfqntmznffct
 :END:
+
+* [#C] Uncertaincy principle nice video                         :quantum:viz:
+:PROPERTIES:
+:CREATED:  [2018-10-08]
+:ID:       ncrtncyprncplncvd
+:END:
+https://youtu.be/VwGyqJMPmvE?t=469 -- if you limit the time domain of a pure note, counterintuitively, you'll have to use more sine waves to approximate it, so widen the frequency domain
+* TODO [#D] [2019-12-22] karldray/quantum: Simulate reverse causality using quantum suicide. :philosophy:quantum:
+:PROPERTIES:
+:ID:       snkrldryqntmsmltrvrscsltysngqntmscd
+:END:
+https://github.com/karldray/quantum
+
+* [#B] [2020-06-30] [[https://quantumcomputing.stackexchange.com/questions/1262/how-are-quantum-gates-realised-in-terms-of-the-dynamic][architecture - How are quantum gates realised, in terms of the dynamic? - Quantum Computing Stack Exchange]] :qcomp:
+:PROPERTIES:
+:ID:       tsqntmcmptngstckxchngcmqshdynmcqntmcmptngstckxchng
+:END:
+* [#C] [2020-01-15] [[https://news.ycombinator.com/item?id=22048086][Disprove quantum immortality without risking your life (2019)]] :philosophy:
+:PROPERTIES:
+:ID:       wdsnwsycmbntrcmtmddsprvqntmmmrtltywthtrskngyrlf
+:END:
+https://vankessel.io/disproving-quantum-immortality

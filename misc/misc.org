@@ -7,12 +7,6 @@
 :END:
 https://news.ycombinator.com/item?id=22672392
 
-* [2020-03-24] Wilfred/helpful: A better Emacs *help* buffer          :emacs:
-:PROPERTIES:
-:ID:       twlfrdhlpflbttrmcshlpbffr
-:END:
-https://github.com/Wilfred/helpful
-
 * [2020-03-26] EMDR Therapy (Eye Movement Desensitization & Reprocessing)
 :PROPERTIES:
 :ID:       thmdrthrpyymvmntdsnstztnrprcssng
@@ -25,7 +19,7 @@ try it off youtube?
 :END:
 https://twitter.com/michael_nielsen/status/1220538523603763200
 : Empirically, it's not really correct. The most unusual people I know are mostly extreme loners; a smaller minority are mostly at the other end of being extremely social, but with an intense capacity to be alone. Grothendieck said it quite well:
-* [2020-03-31] Kill the newsletter: Convert newsletters into RSS feeds | Hacker News
+* [2020-03-31] Kill the newsletter: Convert newsletters into RSS feeds | Hacker News :rss:
 :PROPERTIES:
 :ID:       tkllthnwslttrcnvrtnwslttrsntrssfdshckrnws
 :END:
@@ -38,18 +32,6 @@ https://news.ycombinator.com/item?id=12949154
 https://news.ycombinator.com/item?id=22608287
 : You are my spirit animal.
 : I just got a polar/readwise/orgmode/Anki setup together and I'd love to use this.
-* [2020-04-01] Jitsi Meet: An open source alternative to Zoom | Hacker News
-:PROPERTIES:
-:ID:       wdjtsmtnpnsrcltrntvtzmhckrnws
-:END:
-https://news.ycombinator.com/item?id=22669968
-* [2020-04-02] Is there something like this for math? Does anyone know? | Hacker News :math:
-:PROPERTIES:
-:ID:       thsthrsmthnglkthsfrmthdsnynknwhckrnws
-:END:
-https://news.ycombinator.com/item?id=16373386
-like physics travel guide, but for math
-
 * TODO todos
 :PROPERTIES:
 :ID:       tds
@@ -58,111 +40,16 @@ like physics travel guide, but for math
 :PROPERTIES:
 :ID:       frmybsrtbyprrtydtnxprtrspcfysrtrdrnprprts
 :END:
-* [[https://twitter.com/i/web/status/584492360349913088][TW]] at [2015-04-04] Когда я читаю в release notes софтины "various style and layout fixes", автоматически предполагаю что выпилили полезные настройки.
-:PROPERTIES:
-:ID:       stwttrcmwbsttstwtstкогдаявыпилилиполезныенастройки
-:END:
 * TODO [#C] [2019-12-29] LOOPY: a tool for thinking in systems     :thinking:
 :PROPERTIES:
 :ID:       snlpytlfrthnkngnsystms
 :END:
 https://ncase.me/loopy/
-* TODO [#D] [2020-01-01] pavelfatin/toyide: Modern IDE plus custom programming languages with interpreters and compilers
-:PROPERTIES:
-:ID:       wdpvlftntydmdrndplscstmprglnggswthntrprtrsndcmplrs
-:END:
-https://github.com/pavelfatin/toyide
-
-* [#C] [2020-01-16] Running Lisp in Production                         :lisp:
-:PROPERTIES:
-:ID:       thrnnnglspnprdctn
-:END:
-https://tech.grammarly.com/blog/running-lisp-in-production
-* [#C] [2020-02-16] Elastic tabstops - a better way to indent and align code
-:PROPERTIES:
-:ID:       snlstctbstpsbttrwytndntndlgncd
-:END:
-http://nickgravgaard.com/elastic-tabstops/
-
-* [#C] [2020-02-19] Open Source Design
-:PROPERTIES:
-:ID:       wdpnsrcdsgn
-:END:
-https://opensourcedesign.net/
-
-* [#C] [2020-02-19] Can make syncthing only use LAN connection for some folders? - Support - Syncthing Forum
-:PROPERTIES:
-:ID:       wdcnmksyncthngnlyslncnnctfrsmfldrsspprtsyncthngfrm
-:END:
-https://forum.syncthing.net/t/can-make-syncthing-only-use-lan-connection-for-some-folders/7523/4
-: I have few places (LANs) with “desktop server” in them, those servers sync everything using one syncthing instance (global discovery + relays as well).
-: And then I have a mobile unit: One syncthing instance that syncs constantly only a handful of crucial folders (via LAN and Internet). Second syncthing instance that syncs all “non-critical + huge-sized” folders that has only local discovery on, hence will only sync when i’m on the same LAN with one of the “desktop servers”.
 * [#C] [2020-02-16] VGraupera/1on1-questions: Mega list of 1 on 1 meeting questions compiled from a variety to sources
 :PROPERTIES:
 :ID:       snvgrprnqstnsmglstfnmtngqstnscmpldfrmvrtytsrcs
 :END:
 https://github.com/VGraupera/1on1-questions
-
-* [#C] [2020-01-09] Canop/broot: A new way to see and navigate directory trees
-:PROPERTIES:
-:ID:       thcnpbrtnwwytsndnvgtdrctrytrs
-:END:
-https://github.com/Canop/broot
-
-* [#C] [2020-01-20] BusyBox cron container example
-:PROPERTIES:
-:ID:       mnbsybxcrncntnrxmpl
-:END:
-https://gist.github.com/andyshinn/3ae01fa13cb64c9d36e7
-: Try crond --help:
-* [#C] [2020-01-18] chakravala/Grassmann.jl: ⟨Leibniz-Grassmann-Clifford⟩ differential geometric algebra / multivector simplicial complex :symplectic:
-:PROPERTIES:
-:ID:       stchkrvlgrssmnnjllbnzgrsstrclgbrmltvctrsmplclcmplx
-:END:
-https://github.com/chakravala/Grassmann.jl
-: The Grassmann.jl package provides tools for doing computations based on multi-linear algebra, differential geometry, and spin groups using the extended tensor algebra known as Leibniz-Grassmann-Clifford-Hestenes geometric algebra.
-* [2020-04-02] Tweet from @TheMagic_Ian https://twitter.com/TheMagic_Ian/status/1245580360743710721
-:PROPERTIES:
-:ID:       thtwtfrmthmgcnstwttrcmthmgcnstts
-:END:
-: @TheMagic_Ian: Stop using fake-secure, or insecure video conferencing apps like Zoom, Skype, Duo, HouseParty,  Facebook Messenger, Slack, Teams! Consider Jitsi or Matrix clients like Riot.
-* [2020-04-06] (HN discussion on configs) wow, people have such strong opinions about software architecture, what it *should* be and what it *shouldn't be* etc
-:PROPERTIES:
-:ID:       mnhndscssnncnfgswwpplhvscrwhttshldbndwhttshldntbtc
-:END:
-Like, unconditionally assuming that there is data and there is code, and that there is no middle ground whatsoever
-often assuming there is one single way of doing things and that's it. incredible
-* [2020-04-05] Start all of your commands with a comma (2009) | Hacker News
-:PROPERTIES:
-:ID:       snstrtllfyrcmmndswthcmmhckrnws
-:END:
-https://news.ycombinator.com/item?id=22778988
-* [#C] [2020-04-07] Firefox 75 for developers - Mozilla | MDN
-:PROPERTIES:
-:ID:       tfrfxfrdvlprsmzllmdn
-:END:
-https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/75
-: In the inspector, you can now use XPath expressions to locate elements, in addition to locating elements using CSS selectors as before (bug 963933).
-* [2020-04-08] antonmedv/codejar: An embeddable code editor for the browser 🍯
-:PROPERTIES:
-:ID:       wdntnmdvcdjrnmbddblcddtrfrthbrwsr
-:END:
-https://github.com/antonmedv/codejar
-: CodeJar honey_pot can be used via modules:
-: <script type="module">
-:   import {CodeJar} from 'https://medv.io/codejar/codejar.js'
-: </script>
-* TODO [#C] [2019-08-18] JStumpp/awesome-android: A curated list of awesome Android packages and resources.
-:PROPERTIES:
-:ID:       snjstmppwsmndrdcrtdlstfwsmndrdpckgsndrsrcs
-:END:
-https://github.com/JStumpp/awesome-android#readme
-: Development Alternatives
-* TODO [#C] Render waves in 4d space                        :physics:sim:viz:
-:PROPERTIES:
-:CREATED:  [2018-03-14]
-:ID:       rndrwvsndspc
-:END:
 
 * [2020-08-01] [[https://github.com/jamiebuilds/tinykeys][jamiebuilds/tinykeys: A tiny (~400 B) & modern library for keybindings.]]
 :PROPERTIES:
@@ -214,34 +101,6 @@ https://tilde.news/
 :PROPERTIES:
 :ID:       thdnnwrdgysstldvrsrgmmbrs
 :END:
-* STRT [#C] [2019-11-05] The IndieWeb Movement: Owning Your Data and Being the Change You Want to See in the Web · Jamie Tanna | Software (Quality) Engineer
-:PROPERTIES:
-:ID:       tthndwbmvmntwnngyrdtndbngtsnthwbjmtnnsftwrqltyngnr
-:END:
-https://www.jvt.me/posts/2019/10/20/indieweb-talk
-ok, interesting, but that's again kind of reinventing new standard?
-** [2019-12-03] https://indiewebify.me/validate-h-card/
-:PROPERTIES:
-:ID:       tsndwbfymvldthcrd
-:END:
-: Other humans can already understand your profile information and the things you post on your site. By adding a few simple class names to your HTML, other people’s software can understand it and use it for things like reply contexts, cross-site comments, event RSVPs, and more.
-
-** TODO [2019-12-03]  http://microformats.org/wiki/h-card#Properties
-:PROPERTIES:
-:ID:       tmcrfrmtsrgwkhcrdprprts
-:END:
-** [2019-12-03] https://indiewebify.me/validate-h-entry/?url=https%3A%2F%2Fbeepb00p.xyz%2Fannotating.html
-:PROPERTIES:
-:ID:       tsndwbfymvldthntryrlsffbpbpxyzfnnttnghtml
-:END:
-<article class="h-entry">
-  <div class="e-content p-name">Hello world! This is my first indieweb post.</div>
-
-  <a class="u-url" href="https://example.com/my-first-post">
-    Published <time class="dt-published">2019-12-03 08:51:04+0000</time>
-  </a>
-</article>
-
 * STRT [#C] [2020-03-08] (2) Ian Calvert on Twitter: "If you work with data and don't already have @visidata, you want to check it out. Even just for basic features it's fantastic - "quick give me a count of X where condition Y, now let's have a look at those rows, and now save that as a file for loading elsewhere" for example https://t.co/VGQjeqhW9i" / Twitter :hpi:viz:
 :PROPERTIES:
 :ID:       snnclvrtntwttrfywrkwthdtnswhrfrxmplstcvgqjqhwtwttr
@@ -289,23 +148,6 @@ https://github.com/search?o=desc&q=fingerprint&s=stars&type=Repositories
 :CREATED:  [2019-06-28]
 :ID:       smvkcmkrlkgtnbrgszdldsmlycvslnnnchnynzntkkt
 :END:
-* TODO [#C] Earthstar - Offline-first, distributed, syncable, embedded document database for use in p2p | Lobsters
-:PROPERTIES:
-:CREATED:  [2020-06-26]
-:ID:       rthstrfflnfrstdstrbtdsyncbddddcmntdtbsfrsnpplbstrs
-:END:
-
-https://lobste.rs/s/ipc2wb/earthstar_offline_first_distributed
-
-* TODO [#C] Tweet from @yoshikischmitz filtering data accept/reject      :ml:
-:PROPERTIES:
-:CREATED:  [2020-07-05]
-:ID:       twtfrmyshkschmtzfltrngdtccptrjct
-:END:
-
-https://twitter.com/yoshikischmitz/status/1279566482188333056
-: @yoshikischmitz: Are there any apps out there for quickly filtering arbitrary lists of data w/ a simple "reject" and "accept" gesture? Thinking of something like Tinder but I make the cards, and can get a list of the accepted ones.
-
 * STRT [#C] Some hand blistering thing to prepare for bouldering? :bouldering:
 :PROPERTIES:
 :CREATED:  [2019-08-18]
@@ -321,55 +163,17 @@ https://twitter.com/yoshikischmitz/status/1279566482188333056
 :PROPERTIES:
 :ID:       frsbckystrncmbdytchnlgyntrfcsbdyscknc
 :END:
-* TODO [#C] matplotvr for a project name?                            :vr:viz:
-:PROPERTIES:
-:CREATED:  [2020-10-08]
-:ID:       mtpltvrfrprjctnm
-:END:
 * TODO [#C] use rain cloak instead of umbrella? weights and takes same space if not less :minimalism:
 :PROPERTIES:
 :CREATED:  [2020-10-05]
 :ID:       srnclknstdfmbrllwghtsndtkssmspcfntlss
-:END:
-* [#C] [2020-10-05] [[https://news.ycombinator.com/item?id=24688831][Show HN: A gallery of interesting Jupyter Notebooks | Hacker News]]
-:PROPERTIES:
-:ID:       mnsnwsycmbntrcmtmdshwhnglfntrstngjpytrntbkshckrnws
 :END:
 * [#C] [2020-10-07] [[https://bustimes.org/][bustimes.org]]
 :PROPERTIES:
 :ID:       wdsbstmsrgbstmsrg
 :END:
 
-* [#C] [2020-10-12] [[https://github.com/jarun/nnn][jarun/nnn: n³ The unorthodox terminal file manager.]]
-:PROPERTIES:
-:ID:       mnsgthbcmjrnnnnjrnnnnnthnrthdxtrmnlflmngr
-:END:
-
-* TODO [#C] Tweet from @wwwjim
-:PROPERTIES:
-:CREATED:  [2020-10-30]
-:ID:       twtfrmwwwjm
-:END:
-
-https://twitter.com/wwwjim/status/1321940199769698304
-
-: @wwwjim: You should be able to talk to peers without being online.
-: You should be able to surf a web without being online.
-: Syncing data from a website as a choice.
-: Not a service, a tool.
-: You tell websites what metadata you're willing to provide.
-: You are your own ACL.
-* STRT [#C] [2020-08-24] [[https://lobste.rs/s/8aiw6g/what_software_do_you_dream_about_do_not][What software do you dream about, but do not have time to do yourself? | Lobsters]]
-:PROPERTIES:
-:ID:       mnslbstrsswgwhtsftwrdydrmmbtbtdnthvtmtdyrslflbstrs
-:END:
-** [2020-08-24] [[https://lobste.rs/s/8aiw6g/what_software_do_you_dream_about_do_not#c_tnkntw][What software do you dream about, but do not have time to do yourself? | Lobsters]]
-:PROPERTIES:
-:ID:       mnslbstrsswgwhtsftwrdydrmmbtbtdnthvtmtdyrslflbstrs
-:END:
-: Two things.
-:     An Emacs for the web – browser primitives, but with hooks and definitions that allow full user control over the entire experience, integrated with a good extension language, to allow for exploratory development. Bonus points if it can be integrated into Emacs;
-* [#C] [2020-09-12] [[https://github.com/hikerpig/marka-js][hikerpig/marka-js]]
+* [#C] [2020-09-12] [[https://github.com/hikerpig/marka-js][hikerpig/marka-js]] :pkm:
 :PROPERTIES:
 :ID:       stsgthbcmhkrpgmrkjshkrpgmrkjs
 :END:
@@ -387,12 +191,6 @@ https://twitter.com/nevoitbien/status/1335504980854239235
 :ID:       aec38d13-26fb-41d5-90bf-c3b8130903e9
 :END:
 
-* [#C] [2020-01-29] How to read memory usage in htop? - Server Fault  :drill:
-:PROPERTIES:
-:ID:       873c3c56-09ec-4783-aa15-b69a9ed1e6a5
-:END:
-https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
-: Hide user threads (shift + H) and close the process tree view (F5), t
 * [#C] [2017-09-12] [[https://reddit.com/r/youtube/comments/6zn2pq/how_to_open_mobile_version_of_youtube_on_pc/dmwrg8x/][How to open mobile version of youtube on PC?]] /r/youtube
 :PROPERTIES:
 :ID:       tsrddtcmrytbcmmntsznpqhwtgxhwtpnmblvrsnfytbnpcrytb
@@ -413,29 +211,6 @@ https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
 
 https://github.com/tootsuite/mastodon/issues/12423
 
-* TODO [#D] https://mobile.twitter.com/ankitmalik/status/1227636734478831618 :annotation:gadget:
-:PROPERTIES:
-:CREATED:  [2020-02-12]
-:ID:       smbltwttrcmnktmlkstts
-:END:
-
-https://mobile.twitter.com/ankitmalik/status/1227636734478831618
-: Nova Boox Pro e-ink writer similar to remarkable?
-
-* [#D] [2019-05-30] Chrome to limit full ad blocking extensions to enterprise users - 9to5Google :motivation:firefox:degoogle:
-:PROPERTIES:
-:ID:       thchrmtlmtflldblckngxtnsnstntrprssrstggl
-:END:
-https://9to5google.com/2019/05/29/chrome-ad-blocking-enterprise-manifest-v3/
-
-* TODO [#D] NATO phonetic alphabet - Wikipedia https://en.m.wikipedia.org/wiki/NATO_phonetic_alphabet :study:
-:PROPERTIES:
-:CREATED:  [2019-04-15]
-:ID:       ntphntclphbtwkpdsnmwkpdrgwkntphntclphbt
-:END:
-
-https://en.wikipedia.org/wiki/Allied_Military_phonetic_spelling_alphabets#RAF_radiotelephony_spelling_alphabet
-
 * [#D] [2018-06-15] Rayman (1995 - Windows/DOS). Ссылки, описание, обзоры, скриншоты, видеоролики на Old-Games.RU :games:
 :PROPERTIES:
 :ID:       frrymnwndwsdsссылкиописаниншотывидеороликинаldgmsr
@@ -447,12 +222,6 @@ https://www.old-games.ru/game/83.html
 :CREATED:  [2019-05-01]
 :ID:       svrtycmgmngnwsrthwrmjmdtls
 :END:
-
-* [#D] [2019-06-01] Offline First                                   :offline:
-:PROPERTIES:
-:ID:       stfflnfrst
-:END:
-http://offlinefirst.org/
 
 * TODO [#D] Tweet from michael_nielsen (@michael_nielsen), at Jun 16, 05:42
 :PROPERTIES:
@@ -476,20 +245,6 @@ https://twitter.com/michael_nielsen/status/1140117434038226944
 
 : There is no black and white in these types of situations.  Either scenario is OK and if you really want to figure out how to minimize your carbon footprint, an accurate accounting depends on your local water and electricity rates.
 
-* [#D] [2019-09-03] Hard problem of consciousness - Wikipedia         :drill:
-:PROPERTIES:
-:ID:       2e497058-b22d-4a58-a8a3-4d57b5d1412c
-:END:
-
-https://en.wikipedia.org/wiki/Hard_problem_of_consciousness
-: The hard problem of consciousness is the problem of explaining how and why sentient organisms have qualia or phenomenal experiences—how and why it is that some internal states are felt states, such as heat or pain, rather than unfelt states, as in a thermostat or a toaster.[1] The philosopher David Chalmers, who introduced the term "hard problem" of consciousness,[2] contrasts this with the "easy problems" of explaining the ability to discriminate, integrate information, report mental states, focus attention, and so forth.
-
-* TODO [#D] Allow users to mark posts as searchable/not searchable? :mastodon:
-:PROPERTIES:
-:CREATED:  [2019-09-10]
-:ID:       llwsrstmrkpstsssrchblntsrchbl
-:END:
-
 * [#D] [2019-09-22] The Brain Zoo - Basics of Meditation - YouTube  :writing:
 :PROPERTIES:
 :ID:       snthbrnzbscsfmdttnytb
@@ -507,35 +262,6 @@ think why exurbias videos are so good and engaging
 
 
 https://twitter.com/SmartBiology3D/status/1183043774831837186
-
-* TODO [#D] [2019-11-05] Web Scraping With Rust - codeburst :scrape:scrapyroo:
-:PROPERTIES:
-:ID:       twbscrpngwthrstcdbrst
-:END:
-https://codeburst.io/web-scraping-in-rust-881b534a60f7
-
-** [2019-11-18] A great tool for this is the Chrome extension Selector Gadget
-:PROPERTIES:
-:ID:       mngrttlfrthssthchrmxtnsnslctrgdgt
-:END:
-* TODO [#D] A Few Haskell Highlights: Top Haskell Resources of 2019    :agda:
-:PROPERTIES:
-:CREATED:  [2019-12-27]
-:ID:       fwhskllhghlghtstphskllrsrcsf
-:END:
-
-: To get to know Agda better, you can read this introductory post by Danya Rogozin.
-
-* TODO [#D] Tweet from Гришка (@grishka11), at Jan 22, 16:50
-:PROPERTIES:
-:CREATED:  [2020-01-22]
-:ID:       twtfrmгришкаgrshktjn
-:END:
-
-: @internetofshit There should be a law or something that if you stop updating an IoT device, its last firmware version must be open sourced so that people who actually care could help others keep using it.
-
-
-https://twitter.com/grishka11/status/1220026067060187137
 
 * [#D] Accesskey?
 :PROPERTIES:
@@ -580,15 +306,6 @@ https://github.com/trending
 :END:
 
 http://pinpopular.in
-* TODO [#D] Physical Church-Turing Thesis: {laws of physics can be simulated to any desired precision by a TM (or at any rate, by a probabilistic TM)} :hyp2org:drill:
-:PROPERTIES:
-:CREATED:  [2019-11-01]
-:ID:       e3e16186-4726-4ed1-b3b3-9789a009c0f4
-:END:
-None
-[[https://www.scottaaronson.com/blog/?p=2756][Shtetl-Optimized  » Blog Archive   » “Can computers become conscious?”: My reply to Roger Penrose]]
-[[https://hyp.is/LJqhJPz0Eem1V4OZGz8ddg/www.scottaaronson.com/blog/?p=2756][in context]]
-
 * TODO [#D] Tweet from @cj_pais
 :PROPERTIES:
 :CREATED:  [2020-08-10]
@@ -608,11 +325,7 @@ https://github.com/drone/drone
 : pipeline: backend: image: golang commands: - go get - go build - go test frontend: image: node:6 commands: - npm install - npm test publish: image: plugins/docker repo: octocat/hello-world tags: [ 1, 1.1, latest ] registry: index.docker.io notify: image: plugins/slack channel: developers username: drone
 
 hmm looks kinda nice..
-* [#D] [2020-10-05] [[https://github.com/tridactyl/tridactyl][tridactyl/tridactyl: A Vim-like interface for Firefox, inspired by Vimperator/Pentadactyl.]] :vim:
-:PROPERTIES:
-:ID:       mnsgthbcmtrdctyltrdctyltrfrfxnsprdbyvmprtrpntdctyl
-:END:
-* [#D] [2020-10-10] [[https://vasilishynkarenka.com/how-to-type-3x-faster/][How to type 3x faster]]
+* [#D] [2020-10-10] [[https://vasilishynkarenka.com/how-to-type-3x-faster/][How to type 3x faster]] :typing:
 :PROPERTIES:
 :ID:       stsvslshynkrnkcmhwttypxfstrhwttypxfstr
 :END:
@@ -672,11 +385,6 @@ pro: deletion of internal nodes is complicated
 pro: we can link all leaf nodes, data can be easily scanned
 pro: implementation (e.g. deletion of internal nodes) is easier
 con: store redundant search keys
-* TODO When you run into a new YT channel, go through it on computer, add good videos to a separate playlist, then watch without hassle :pkm:habit:
-:PROPERTIES:
-:ID:       5144691c-6a35-43aa-8ff6-28dadb4edb2b
-:END:
-
 * START [#A] You've got to prioritize things better. Don't start things out of order, evaluate in Todo lots first :productivity:
 :PROPERTIES:
 :CREATED:  [2018-06-04]
@@ -815,3 +523,785 @@ http://www.drbunsen.org/vim-croquet/
   : These people are clueless. Creatine is the single best-attested and best-validated workout supplement other than protein powder.
   : It has diminishing returns, however; furthermore, it is found naturally in food, and excessive intake leads to bloating.
   : These factors cause some people to avoid it.
+* [#C] [2020-05-28] [[https://softwareengineering.stackexchange.com/questions/290566/is-localstorage-under-the-cookie-law][javascript - Is localStorage under The Cookie Law? - Software Engineering Stack Exchange]] :privacy:
+:PROPERTIES:
+:ID:       thssftwrngnrngstckxchngcmhcklwsftwrngnrngstckxchng
+:END:
+: The cookie law is not actually about cookies (and its not actually called the cookie law). Its about tracking users, storing and sharing the information with third parties. Cookies are just the most popular method to track users.
+: If you don't want to show the "cookie warning" then just don't track the users beyond the session and don't share traffic data with third parties.
+: The actual directive.
+* [#C] [2019-12-15] Terms of Service; Didn't Read                   :privacy:
+:PROPERTIES:
+:ID:       sntrmsfsrvcddntrd
+:END:
+https://tosdr.org/
+
+* [#C] [2020-05-28] [[https://github.com/rht/star.zulipchat.com][rht/star.zulipchat.com: Public realms found in *.zulipchat.com]] :zulip:
+:PROPERTIES:
+:ID:       thsgthbcmrhtstrzlpchtcmrhchtcmpblcrlmsfndnzlpchtcm
+:END:
+* [2017-11-30] post's problem: intermediate computability     :computability:
+:PROPERTIES:
+:ID:       thpstsprblmntrmdtcmptblty
+:END:
+* STRT [#D] [2019-08-25] RaiMan's SikuliX                        :automation:
+:PROPERTIES:
+:ID:       snrmnssklx
+:END:
+http://sikulix.com/#home1
+:    Automate what you see on a computer monitor
+: What is it?     For what is it?     Get it?     Use it?     Get help?     Contribute?
+: Latest news - version 1.1.4
+: … read about the new version — be sure: it is rewarding ;-)
+: Needs at least Java 8 - but works on Java 10 and 11
+: No longer needs setup - download and use it.
+: Sikuli is God's Eye
+: … in Huichol Indian culture: the power to see and understand things unknown.
+: (Thanks for the picture showing a Sikuli)
+: Sikuli was started somewhen in 2009 as an open-source research project at the User Interface Design Group at MIT by Tsung-Hsiang Chang and Tom Yeh.
+: Both left the project at Sikuli-X-1.0rc3 during 2012, when I decided to take over development and support and name it SikuliX.
+: What is SikuliX?
+: SikuliX automates anything you see on the screen of your desktop computer running Windows, Mac or some Linux/Unix. It uses image recognition powered by OpenCV to identify and control GUI components. This is handy in cases when there is no easy access to a GUI's internals or the source code of the application or web page you want to act on.
+* Lifehacks                                                        :lifehack:
+:PROPERTIES:
+:ID:       lfhcks
+:END:
+** cleaning the microwave: boil water for 1-2 minutes before cleaning
+:PROPERTIES:
+:ID:       clnngthmcrwvblwtrfrmntsbfrclnng
+:END:
+** turn gloves inside out to dry.
+:PROPERTIES:
+:ID:       trnglvsnsdttdry
+:END:
+** switch the pocket you carry your wallet in, so trousers will last longer
+:PROPERTIES:
+:ID:       swtchthpcktycrryyrwlltnstrsrswlllstlngr
+:END:
+** automatic led in bathroom so you don't have to turn on the bright lights at night
+:PROPERTIES:
+:ID:       tmtcldnbthrmsydnthvttrnnthbrghtlghtstnght
+:END:
+
+* [2016-08-22] Loop habit tracker app                            :discipline:
+:PROPERTIES:
+:ID:       mnlphbttrckrpp
+:END:
+: + nice UI
+: + notifications
+: + no ads
+: ++ open source, on f-droid?
+: - too simple, no tags and stuff
+* [#D] [2019-12-18] Generalized One-Night Stands ← We Can Solve This
+:PROPERTIES:
+:ID:       wdgnrlzdnnghtstndswcnslvths
+:END:
+http://sandymaguire.me/blog/one-night-stands/
+
+* TODO [#D] [2019-12-18] I find journaling indispensable | Hacker News
+:PROPERTIES:
+:ID:       wdfndjrnlngndspnsblhckrnws
+:END:
+https://news.ycombinator.com/item?id=20849148
+: have been writing down what I do every day since 2002. So 17 years of daily notes about what I did, how I feel, what I was excited about that day. One cool thing about the journal is that it is electronic. So its searchable which is kind of cool. Its always handy to look up stuff you did in the past and when you did it, who you were with, when you went on that great vacation to the beach etc... I highly recommend keeping a journal, for people who are into it.
+* [#B] [2020-10-26] [[https://fossandcrafts.org/][FOSS and Crafts]] :tolisten:
+:PROPERTIES:
+:ID:       mnsfssndcrftsrgfssndcrfts
+:END:
+* TODO [#B] [2020-10-27] [[https://twitter.com/gravity_levity/status/1321166643406524417][Brian Skinner on Twitter: "Just had a great conversation with the podcast team (@BrandiWooten17 and Roland Valdes Aguilar) for the Center of Emergent Materials at @OSUPhysics. https://t.co/uRFtdu5B9K My favorite part is the discussion of imposter syndrome, starting at 30:00." / Twitter]] :tolisten:
+:PROPERTIES:
+:ID:       tstwttrcmgrvtylvtysttsbrnnfmpstrsyndrmstrtngttwttr
+:END:
+: Just had a great conversation with the podcast team (@BrandiWooten17
+:  and Roland Valdes Aguilar) for the Center of Emergent Materials at @OSUPhysics
+: .
+* TODO [#B] [2020-11-03] [[https://podcast.sustainoss.org/][Sustain]] podcast :tolisten:
+:PROPERTIES:
+:ID:       tspdcstsstnssrgsstnpdcst
+:END:
+* [#C] [2020-09-03] [[https://www.scottaaronson.com/blog/?p=4949][Shtetl-Optimized » Blog Archive » My Utility+ podcast with Matthew Putman]] :tolisten:
+:PROPERTIES:
+:ID:       thswwwscttrnsncmblgpshttlhvmytltypdcstwthmtthwptmn
+:END:
+: On that note, please enjoy my new one-hour podcast on Spotify, with Matthew Putman of Utility+.
+* TODO [#C] [2020-10-13] [[https://anchor.fm/nikolay1/episodes/ep-ehqf3t][Вера Котельникова: зачем вообще ходить на свидания by правило 34 • A podcast on Anchor]] :tolisten:
+:PROPERTIES:
+:ID:       tsnchrfmnklypsdsphqftвераиданияbyправилоpdcstnnchr
+:END:
+* [#C] [2020-06-16] [[https://twitter.com/TomLisankie/status/1272929825989296129][(3) Thomas Lisλnkie 💻🌱 on Twitter: "Hey everyone, I started a podcast about hypermedia (generalized hypertext)! Covering its past, present, and future. YouTube: https://t.co/XXjcI9eSpX Apple Podcasts: https://t.co/YR9c5APkAB Spotify: https://t.co/Zn4XpIoyKw Twitter: @HypermediaToday https://t.co/AqQ7eaHcbe" / Twitter]] :tolisten:
+:PROPERTIES:
+:ID:       tstwttrcmtmlsnksttsthmslsttrhyprmdtdystcqqhcbtwttr
+:END:
+: Hey everyone, I started a podcast about hypermedia (generalized hypertext)!
+: Covering its past, present, and future.
+* TODO [#C] [2020-11-22] [[https://twitter.com/HackerRadioShow][Hacker Radio Show (@HackerRadioShow) / Twitter]] :tolisten:podcast:
+:PROPERTIES:
+:ID:       snstwttrcmhckrrdshwhckrrdshwhckrrdshwtwttr
+:END:
+* TODO [#C] Monte Carlo tree search algorithms
+:PROPERTIES:
+:CREATED:  [2019-02-21]
+:ID:       mntcrltrsrchlgrthms
+:END:
+: from Is AlphaGo Really Such a Big Deal? | Quanta Magazine https://www.quantamagazine.org/is-alphago-really-such-a-big-deal-20160329/
+* [#D] [2018-06-30] janeczku/calibre-web: Web app for browsing, reading and downloading eBooks stored in a Calibre database :selfhosted:
+:PROPERTIES:
+:ID:       stjnczkclbrwbwbppfrbrwsngnddwnldngbksstrdnclbrdtbs
+:END:
+https://github.com/janeczku/calibre-web
+
+* TODO Tweet from @preskill                                         :towatch:
+:PROPERTIES:
+:CREATED:  [2020-07-23]
+:ID:       twtfrmprskll
+:END:
+https://twitter.com/preskill/status/1286126731087101952
+: @preskill: Joan Feynman 1927-2020. You can get a sense of how remarkable Joan was from her presentation in 2018 at the Feynman 100 celebration.
+
+* [2020-08-27] [[https://www.youtube.com/watch?v=IRyO_nd4aFY][(1) Joe Rogan Experience #285 - Tim Ferriss - YouTube]] :towatch:
+:PROPERTIES:
+:ID:       thswwwytbcmwtchvryndfyjrgnxprnctmfrrssytb
+:END:
+* TODO [#D] Tweet from Котонавты (@meownauts) Наташа Макэлхоун сыграет Кортану в сериале по Halo от Showtime https://t.co/Vl8A35Xuzc https://twitter.com/meownauts/status/1157609470706561025?s=17 :towatch:
+:PROPERTIES:
+:CREATED:  [2019-08-05]
+:ID:       twtfrmкотонавтыmwntsнаташtcvlxzcstwttrcmmwntssttss
+:END:
+
+* TODO [#D] Tweet from Roman Elizarov (@relizarov), at May 8, 17:14 :towatch:
+:PROPERTIES:
+:CREATED:  [2019-05-08]
+:ID:       twtfrmrmnlzrvrlzrvtmy
+:END:
+
+: Watch “Declarative UI patterns” talk today at 3:30 pm on Stage 1 at io19 about Compose. It might seem simply being Kotlin-style React, but its desing is very different and has mind-blowing implications.  It is still pre-alpha, but it will change the way you program In the future
+
+
+https://twitter.com/relizarov/status/1126158529289568256
+
+* [#C] [2018-07-30] [[https://reddit.com/r/Scotland/comments/9380v0/recommend_me_films_where_actors_speak_with_an/e3ba63l/][Recommend me films where actors speak with an authentic Scottish accent!]] /r/Scotland :towatch:
+:PROPERTIES:
+:ID:       mnsrddtcmrsctlndcmmntsvrcthnthntcscttshccntrsctlnd
+:END:
+: Local Hero, Shallow Grave, Gregory's Girl
+* TODO [#C] lovecraft https://merveilles.town/@somnius/103439326106034644
+:PROPERTIES:
+:CREATED:  [2020-01-07]
+:ID:       lvcrftsmrvllstwnsmns
+:END:
+
+* TODO yesteryear                                                     :drill:
+:PROPERTIES:
+:CREATED:  [2019-09-18]
+:ID:       b3e873c3-c3e0-4018-9041-2620a4b0fa19
+:END:
+from Worm
+
+* TODO disquieting.                                                   :drill:
+:PROPERTIES:
+:CREATED:  [2019-08-27]
+:ID:       28652353-c905-46b1-b4a5-bc2daf71125d
+:END:
+from Worm
+
+* TODO {Volition} ability to exercise willpower                       :drill:
+:PROPERTIES:
+:CREATED:  [2019-03-31]
+:ID:       fcb36439-0849-4119-863a-2ee6b57d8d03
+:END:
+from Luminous
+
+* TODO nonconcordance,                                                :drill:
+:PROPERTIES:
+:CREATED:  [2019-10-20]
+:ID:       f9d48916-3091-4392-ae01-dcb777b6e213
+:END:
+from Come as You Are
+
+* TODO [#D] [2019-08-12] [[https://reddit.com/r/functionalprogramming/comments/cnplr3/yow_lambda_jam_2019_philip_wadler_programming/][YOW! Lambda Jam 2019 - Philip Wadler: (Programming Languages) in Agda = Programming (Languages in Agda)]] /r/functionalprogramming :towatch:agda:
+:PROPERTIES:
+:ID:       mnsrddtcmrfnctnlprgrmmngcnglnggsngdrfnctnlprgrmmng
+:END:
+* TODO [#C] [2020-12-07] [[https://twitter.com/NetflixNordic/status/1334044635547635712][Netflix Nordic on Twitter: "Do the Finnish even feel fear? @arieldjarn isn't sure. Pardon My Icelandic is now on Netflix. https://t.co/MBVEjwcekQ" / Twitter]] :towatch:
+:PROPERTIES:
+:ID:       mnstwttrcmntflxnrdcsttsntsnwnntflxstcmbvjwckqtwttr
+:END:
+: Do the Finnish even feel fear? @arieldjarn
+:  isn't sure. Pardon My Icelandic is now on Netflix.
+* TODO [2020-12-10] [[https://nitter.net/ArulaRatnakar/status/1335767092260265984][Arula Ratnakar 🧠💕 (@ArulaRatnakar): "I'll do my most recent published story too, why not? Top three honest inspirations for "Lone Puppeteer of a Sleeping City" in @clarkesworld -The Matrix (1999) -Predestination (2014) -DARK (the Netflix show)" | nitter]] :towatch:
+:PROPERTIES:
+:ID:       thsnttrntrlrtnkrsttsrlrtnprdstntndrkthntflxshwnttr
+:END:
+: I'll do my most recent published story too, why not? Top three honest inspirations for "Lone Puppeteer of a Sleeping City" in @clarkesworld
+: 
+: -The Matrix (1999)
+: -Predestination (2014)
+: -DARK (the Netflix show)
+* TODO [#C] Tweet from michael_nielsen (@michael_nielsen), at Sep 18, 09:38 blade runner; tears in rain monologue
+:PROPERTIES:
+:CREATED:  [2019-09-18]
+:ID:       twtfrmmchlnlsnmchlnlsntspbldrnnrtrsnrnmnlg
+:END:
+
+: Reflecting on the proposed Princess Bride remake, & thinking about how much luck is involved in making great movies. Blade Runner is a great movie without the "Tears in Rain" monologue, but much less so. And that was re-written by Rutger Hauer at the last minute. Talk about luck!
+
+https://twitter.com/michael_nielsen/status/1174195913671282689
+
+* [#B] [2020-10-07] [[https://news.ycombinator.com/item?id=24706787][There's a documentary on Netflix "Human Nature" that discusses the history of CR... | Hacker News]] :towatch:
+:PROPERTIES:
+:ID:       wdsnwsycmbntrcmtmdthrsdcmhtdscsssthhstryfcrhckrnws
+:END:
+: There's a documentary on Netflix "Human Nature" that discusses the history of CRISPR and features interviews with both Emmanuelle Charpentier and Jennifer Doudna.
+* TODO [#B] [2019-08-17] Andy Matuschak on Twitter: "🗣🎙 I had a wonderful time discussing technologies for thought on this week's EconTalk: https://t.co/Clgzx7uAJR @econtalker's even-handed analytical style has made this my favorite podcast for years, but of course he's also an experienced educator. A great combo for this topic!" / Twitter :towatch:
+:PROPERTIES:
+:ID:       stndymtschkntwttrhdwndrflcddctrgrtcmbfrthstpctwttr
+:END:
+https://twitter.com/andy_matuschak/status/1158428901716066304
+
+** [#B] [2019-08-17] Andy Matuschak on Books and Learning - Econlib
+:PROPERTIES:
+:ID:       stndymtschknbksndlrnngcnlb
+:END:
+http://www.econtalk.org/andy-matuschak-on-books-and-learning/
+
+* [#D] [2019-12-02] How to read 10 times more without any speed reading hacks? — Santhosh Guru :reading:
+:PROPERTIES:
+:ID:       mnhwtrdtmsmrwthtnyspdrdnghckssnthshgr
+:END:
+https://www.santhoshguru.com/essays/on-reading
+
+* TODO [#D] Tweet from Miguel de Icaza (@migueldeicaza), at Jan 29, 17:56 :privacy:
+:PROPERTIES:
+:CREATED:  [2020-01-29]
+:ID:       twtfrmmgldczmgldcztjn
+:END:
+: After two years of not using Facebook - I logged in today to check out this new tool that shows what Facebook has been tracking.   Despite this, they have seen my every move on the Internet - this is creepier than I had imagined. https://t.co/BsqpjT3qid
+
+
+https://twitter.com/migueldeicaza/status/1222503250269818880
+
+* [#C] [2019-11-24] Abstruse Goose | Moment of Clarity(?) - part 2
+:PROPERTIES:
+:ID:       snbstrsgsmmntfclrtyprt
+:END:
+https://abstrusegoose.com/342
+* DONE [#B] [2019-10-21] Einstein Versus the Physical Review: Physics Today: Vol 58, No 9
+:PROPERTIES:
+:ID:       mnnstnvrssthphysclrvwphyscstdyvln
+:END:
+https://physicstoday.scitation.org/doi/10.1063/1.2117822
+
+* [2017-10-03] hyperbolic discounting                              :rational:
+:PROPERTIES:
+:ID:       thyprblcdscntng
+:END:
+https://www.gwern.net/Melatonin#self-discipline
+: This dilemma is far from unique. It is called hyperbolic discounting; humans can make the rational decision when at a great distance from a choice, but the closer they come, the more warped their decisions are.
+
+* [2017-11-30] 3SAT limit of approxibility Hastad                :complexity:
+:PROPERTIES:
+:ID:       thstlmtfpprxbltyhstd
+:END:
+satisfying 7/8 clauses: randomize, polynomial (linearity of expectation)
+satisfying 7/8 + eps: NPC
+* [2015-06-19] Байконур                                               :space:
+:PROPERTIES:
+:ID:       frбайконур
+:END:
+Союз: escape pod для критических ситуаций, отделяется первым
+потом боковые двигатели, падают в незаселенной местности
+3.5 G на несколько секунд
+Взлетает несколько минут
+
+side burn to avoid the colision
+
+Reentry: 140 km: separates descent module
+
+Capsule's lift increases/decreases when it is rotating, enables the possibility for "surfing" the atmosphere
+* [2020-12-01] [[https://reddit.com/r/math/comments/k4hcor/john_von_neumanns_genius_and_flaws/ge8tlm0/][John von Neumann's genius and flaws]] /r/math
+:PROPERTIES:
+:ID:       tsrddtcmrmthcmmntskhcrjhnlmjhnvnnmnnsgnsndflwsrmth
+:END:
+: Bear in mind that the scientists in the Manhattan Project thought they were developing a weapon to destroy Hitler. (As it happened the war in Europe ended a few months before the bomb was ready.)
+: When you consider that von Neumann was Jewish, and had worked in Germany just before Hitler's rise to power, and certainly had many, many friends and colleagues lose their lives in the death camps--it starts to make a bit of sense. With historical figures like this, I often find it helpful to imagine being in their shoes making decisions, rather than thinking about it from our detached current-day perspective with perfect hindsight.
+: Also you've probably learned that von Neumann invented the modern subject of game theory. He understood that Mutual Assured Destruction meant that, ironically, the great powers would be unlikely to ever use nuclear weapons against each other. Which has--so far--been the case. Von Neumann, if he were alive today, might point out that the number of people killed in wars has dramatically dropped since the invention of the bomb.
+* [2020-07-27] [[https://www.youtube.com/playlist?list=PLVV0r6CmEsFxKFx-0lsQDs6oLP3SZ9BlA][Murray Gell-Mann (Scientist) - YouTube]]
+:PROPERTIES:
+:ID:       mnswwwytbcmplylstlstplvvrlpszblmrrygllmnnscntstytb
+:END:
+* [2020-10-01] [[https://www.youtube.com/watch?v=yVOnHWnLSeU&list=WL&index=80][(1) The Mystery Flaw of Solar Panels - YouTube]]
+:PROPERTIES:
+:ID:       thswwwytbcmwtchvyvnhwnlslndxthmystryflwfslrpnlsytb
+:END:
+very good explanation of solar panel physics
+* [2020-09-16] [[https://en.wikipedia.org/wiki/IKEA_effect][IKEA effect - Wikipedia]]
+:PROPERTIES:
+:ID:       wdsnwkpdrgwkkffctkffctwkpd
+:END:
+: The IKEA effect is a cognitive bias in which consumers place a disproportionately high value on products they partially created.
+* [2020-09-13] [[https://www.youtube.com/watch?v=jcu581GBmPs&list=WL&index=69&t=0s][(14) Батыгин - русская звезда мировой науки (English subs) - YouTube]] :russian:
+:PROPERTIES:
+:ID:       snswwwytbcmwtchvjcgbmpslsдамировойнаукиnglshsbsytb
+:END:
+awesome guy, nice interview
+* [2020-08-12] [[https://www.youtube.com/watch?v=fwjwePe-HmA][(4) Why Trains are so Expensive - YouTube]]
+:PROPERTIES:
+:ID:       wdswwwytbcmwtchvfwjwphmwhytrnsrsxpnsvytb
+:END:
+
+* [2017-04-20] Lagrangian points                                      :space:
+:PROPERTIES:
+:ID:       mnlgrngnpnts
+:END:
+: Only the first three Lagrangian points are unstable positions. They're unstable in the same way as the point at the top of a hill. A ball balanced exactly in the center of the peak will stay put, but given a slight nudge in any direction it will roll down the slope and away.
+: (This is the main reason SOHO doesn't sit exactly on the L1 point, but orbits it instead.)
+: The Trojan points, L4 and L5, are stable. They act more like the bottom of a bowl. If an object there is nudged, gravity will tend to draw it back toward where it started.
+* [2020-08-18] [[https://ru.wikipedia.org/wiki/%D0%98%D0%B2%D0%B0%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE,_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87][Иваненко, Дмитрий Дмитриевич — Википедия]]
+:PROPERTIES:
+:ID:       tsrwkpdrgwkddbdbdbddbdbddмитрийдмитриевичвикипедия
+:END:
+:  В. Л. Гинзбург в интервью утверждает, что Иваненко писал доносы на Тамма и на него
+* [2013-02-15] http://www.ted.com/talks/lang/ru/phil_plait_how_to_defend_earth_from_asteroids.html :earth:
+:PROPERTIES:
+:ID:       frwwwtdcmtlkslngrphlplthwtdfndrthfrmstrdshtml
+:END:
+* [2015-06-14] animation of Earth seen from the Sun http://en.wikipedia.org/wiki/Season#Elliptical_Earth_orbit Elliptical Earth orbit does not influence seasons :earth:
+:PROPERTIES:
+:ID:       snnmtnfrthsnfrmthsnnwkpdrllptclrthrbtdsntnflncssns
+:END:
+* [2014-01-27] [[https://reddit.com/r/AskHistorians/comments/1wa3kc/is_there_any_truth_to_the_story_of_heisenberg/cf033ai/][Is there any truth to the story of Heisenberg intentionally sabotaging the Nazi nuclear program in WWII?]] /r/AskHistorians
+:PROPERTIES:
+:ID:       mnsrddtcmrskhstrnscmmntswthnznclrprgrmnwwrskhstrns
+:END:
+: During World War II, the German atomic energy program decided, by 1942, to be entirely focused on reactor development. This was, they thought, the area of nuclear fission research was most likely to produce useful military results in the short term. They thought bombs were probably possible but incredibly difficult to construct, and did not think any other nation was going to have any success with them in the short term. The German teams honestly thought they were ahead of the entire world in fission research, and when a group of the top people were carted off to a British manor house, Farm Hall, at the end of the war, they thought that maybe the Allies were trying to keep them from giving their knowledge to the Soviets (true) and that the Allies would want their knowledge for themselves (false).
+
+
+: When they heard about the bombing of Hiroshima, they were shocked and surprised. Many of them refused to believe the United States could have pulled off a bomb. After getting more news information and talking it over, they realized it was in fact possible if the USA had thrown tremendous resources at it, and also realized that some of their assumptions about the size of the critical mass for the bomb were off.
+
+
+: This left them in a tricky situation in terms of their egos and their nationalism. Were they simply failures? This is what Otto Hahn (discoverer of fission, and no fan of Hitler) suggested — that they were just second-raters.
+
+
+: But many of them started to create and cling to a different story. They weren't accidental failures — maybe they were _deliberate_ failures. Maybe they didn't really _want_ to make a bomb, and that's why they didn't do it. This isn't the same thing as saying they _intentionally sabotaged_ the project, but it was more of a psychological explanation. If they had wanted to make a bomb, surely they would have done more work in that direction, right? So they must not have wanted to make a bomb. Because who would want to give Hitler a bomb?
+
+
+: This story — known to historians as the _Lesart_ of the German atomic program — was propagated in subtle ways in the aftermath of World War II. It achieved its initial circulation in Robert Jungk's _ Brighter than a Thousand Suns_ (_Heller als tausend Sonnen_) in 1956. Jungk was the first to suggest, based on a vague _Lesart_ explanation offered up by Heisenberg, that Heisenberg had intentionally sabotaged the project. Heisenberg himself was somewhat appalled by this. Here is what he wrote to Jungk in 1956:
+
+
+: > You speak here towards the end of the second paragraph about active resistance to Hitler, and I believe—pardon my frankness—that this passage is determined by a total misunderstanding of a totalitarian dictatorship. In a dictatorship active resistance can only be practiced by people who seemingly take part in the system. When someone speaks openly against the system, he quite certainly deprives himself of any possibility of active resistance. For either he then expresses his criticism of the system only occasionally in a politically harmless form, and then his political influence can be blocked very easily; say, with respect to the youth, by people saying: Sure, old Professor X is a nice old man, but he naturally has no understanding for the enthusiasm of the youth, or something of the sort. Or, conversely, he really tries, say, to move the students politically, and then within a few days he naturally would meet his end in a concentration camp, and even his self-sacrificing death would remain practically unknown, since no one would be allowed to talk about it. _I would not want this remark to be misunderstood as saying that I myself engaged in resistance to Hitler._
+
+
+: Which is rather equivocating to say the least. Heisenberg isn't actually implying he did _anything_ in this particular letter, though he is implying that he did some kind of passive resistance.
+
+
+: Historians have gone over Heisenberg's wartime activities in detail. There's no evidence whatsoever of intentional sabotage. Heisenberg actually went to great lengths to show he was in line with Nazi Germany's overall foreign intentions, and used his position to stump for Germany and German culture in occupied countries. He vigorously pursued reactor research. He did not vigorously pursue bomb research, but this is because, again, he did not think it was feasible in the short term. Here is another Heisenberg letter to Jungk, from 1957:
+
+
+: > [In 1941] we in the uranium project had come to the following conclusion, on the basis of our experiments with uranium and heavy water: It will definitely be possible to build an energy-producing reactor out of uranium and heavy water. In this reactor (on the basis of theoretical work by von Weizsäcker) a product of U-239 [U-239 decays into Plutonium-239] will be generated that, like U-235, will be suitable as an explosive for atomic bombs. At the time we did not know of any process that could have produced significant quantities of U-235 with an effort that could be realized technically in Germany under wartime conditions. Since the production of atomic explosives using reactors could also obviously be realized only through many years of running huge reactors, it was clear to us in any case that the production of atomic bombs would only be possible with an enormous technical effort. Thus we knew that atomic bombs could be made in principle, but we also estimated that the necessary technical effort was
+: bigger than it really was.
+
+
+: > This situation seemed to us a particularly favorable precondition for the physicists to have an influence on the further course of events. For if the production of atomic bombs had been impossible, then the problem would not have arisen at all; but if it had been easily possible, then the physicists surely would not have been able to hinder their production. But the actual situation gave the physicists at this time a decisive influence on the further course of events, since they could argue vis-a-vis their governments that the atomic bombs would probably not come into
+: play in the course of the war, or else argue that it would instead perhaps still be possible, with absolutely enormous efforts, to put them into play. That both ways of arguing were objectively fully justified was shown by the course of developments; for in fact even the Americans could not put the atomic bomb to use against Germany.
+
+
+: The first paragraph of this letter is born out through documentation — the Germans knew that reactors might be a route to the bomb, but they also knew it would require large reactors. Their work on a small research reactor (which would have been worthless for bomb use) was slow and piecemeal and did not reflect any active bomb concern. They knew about uranium enrichment but considered it too difficult to really pursue in earnest.
+
+
+: The second paragraph is the more problematic one. Again, Heisenberg isn't actually saying that he sabotaged anything. What he's saying was, under the conditions that existed, physicists could have pushed for the bomb if they really thought they could do it, but nobody in the government would fault them if they didn't. Is he saying they didn't push for the bomb because they didn't want Hitler to have one? No. But he's allowing that interpretation to be made if you want to make it.
+
+
+: In short, even Heisenberg himself didn't ever really claim that he sabotaged the German atomic bomb project in any real way. At best he implied that maybe he wasn't as enthusiastic about the bomb as he could have been, which is in line with the preservation of the idea that he wasn't just a screw-up on this front. But there's no evidence he did anything like that. Of course, as Heisenberg himself pointed out in the first letter I quoted, the nature of being a passive resister in a totalitarian government is that you appear to be going along with the plan but you might not actually be going along with it. This makes the Heisenberg issue a tricky one for historians, because, as he points out, if he simply withheld enthusiasm for the bomb but otherwise made like a good German, it would be _indistinguishable_ from the situation where he just didn't push for it because he thought it wasn't very feasible.
+
+
+: I think the Farm Hall transcripts make it clear that Heisenberg truly didn't think it was feasible, and in fact hadn't thought seriously about the physics of atomic bombs at all. (His discussions there reflect deep misunderstandings about how fast neutron fission chain reactions work.) Which to me puts him in the "was just a screw-up" camp, as opposed to the "was silently and passively resisting" camp.
+* TODO [#B] nice and wholesome people                              :exobrain:
+:PROPERTIES:
+:CREATED:  [2020-06-17]
+:ID:       ncndwhlsmppl
+:END:
+- Chris Hadfield
+- Rob Zombie
+- John Carmack
+- Lex Fridman
+* [#C] [2020-05-06] [[https://teletype.atom.io/][Teletype for Atom]]
+:PROPERTIES:
+:ID:       wdstltyptmtltypfrtm
+:END:
+collaborative editing
+* [#C] [2020-05-19] [[https://news.ycombinator.com/item?id=23237559][Blogging Is Not Dead | Hacker News]] :rss:
+:PROPERTIES:
+:ID:       tsnwsycmbntrcmtmdblggngsntddhckrnws
+:END:
+: If you want to see more high quality blog posts, then I highly recommend taking actions to help promote and encourage them. Sign up for a mailing list or subscribe to an RSS feed when you find a blog that consistently produces quality material. Post new or old content on Hacker News, Reddit, Lobsters, Twitter, and other communities where you think they would be a good fit. Upvote and retweet quality content that you run across, and flag stuff that's blatantly marketing spam. Leave comments on the blog or reach out to the author over email. Even as a single individual, these sort of actions have a much bigger impact than you might expect.
+* [#C] [2019-12-17] [[https://news.ycombinator.com/item?id=21811888][MIT's browser based climate change simulation]] :climate:
+:PROPERTIES:
+:ID:       tsnwsycmbntrcmtmdmtsbrwsrbsdclmtchngsmltn
+:END:
+https://en-roads.climateinteractive.org/scenario.html?v=2.7.6
+* [#C] [2019-11-29] [[https://news.ycombinator.com/item?id=21655958][Firefox Replay]]
+:PROPERTIES:
+:ID:       frsnwsycmbntrcmtmdfrfxrply
+:END:
+https://firefox-replay.com/
+* [#C] [2020-03-04] [[https://news.ycombinator.com/item?id=22478854][Reddit has become a guide to personal finance]]
+:PROPERTIES:
+:ID:       wdsnwsycmbntrcmtmdrddthsbcmgdtprsnlfnnc
+:END:
+https://qz.com/1707479/reddit-has-become-a-guide-to-personal-finance/
+* [#C] [2020-03-07] [[https://news.ycombinator.com/item?id=22502541][If nearly all Airbnb reviews are positive, does that make them meaningless?]] :scoring:
+:PROPERTIES:
+:ID:       stsnwsycmbntrcmtmdfnrlyllvwsrpstvdsthtmkthmmnnglss
+:END:
+https://www.academia.edu/30544981/If_Nearly_all_Airbnb_Reviews_are_Positive_Does_that_Make_them_Meaningless?email_work_card=title
+* [#C] [2019-12-05] Hedonic treadmill - Wikipedia
+:PROPERTIES:
+:ID:       thhdnctrdmllwkpd
+:END:
+https://en.wikipedia.org/wiki/Hedonic_treadmill
+: The hedonic treadmill, also known as hedonic adaptation, is the observed tendency of humans to quickly return to a relatively stable level of happiness despite major positive or negative events or life changes
+* [#C] [2019-12-21] cheeaun/awesome-hacker-news: Awesome Hacker News: a collection of awesome Hacker News apps, libraries, resources and shiny things. :hackernews:
+:PROPERTIES:
+:ID:       stchnwsmhckrnwswsmhckrnwssppslbrrsrsrcsndshnythngs
+:END:
+https://github.com/cheeaun/awesome-hacker-news
+
+* [#C] [2019-10-25] About this website | LOW←TECH MAGAZINE
+:PROPERTIES:
+:ID:       frbtthswbstlwtchmgzn
+:END:
+https://solar.lowtechmagazine.com/about.html
+: Below are some of the design decisions we made to reduce energy use. We have published a separate document that focuses on the front-end efforts, and one that focuses on the back-end. We have also released the source code for our website design.
+** [#C] [2019-10-25] About this website | LOW←TECH MAGAZINE
+:PROPERTIES:
+:ID:       frbtthswbstlwtchmgzn
+:END:
+https://solar.lowtechmagazine.com/about.html
+: We wrote two extra articles with more in-depth technical information: How to build a low-tech website: software and hardware, which focuses on the back-end, and How to Build a Low-tech Website: Design Techniques and Process, which focuses on the front-end.
+* [#D] [2017-06-28] erasing online presence                         :privacy:
+:PROPERTIES:
+:ID:       wdrsngnlnprsnc
+:END:
+https://www.reddit.com/r/IWantToLearn/comments/6fa0vk/iwtl_how_to_erase_my_online_presence
+deseat.me
+* [2015-06-19] Mir: The attitude (orientation) of the station was independently determined by a set of externally mounted sun, star and horizon sensors :space:
+:PROPERTIES:
+:ID:       frmrthtttdrnttnfthsttnwsnrnllymntdsnstrndhrznsnsrs
+:END:
+* [#C] [2019-01-29] (99+) DIYbio - Google Groups                 :biohacking:
+:PROPERTIES:
+:ID:       tdybgglgrps
+:END:
+https://groups.google.com/forum/#!forum/diybio
+
+* cool biohacking wiki                                           :biohacking:
+:PROPERTIES:
+:ID:       clbhckngwk
+:END:
+** [#C] [2019-01-29] diy-human-gene-therapy-with-crispr :biohacking:crispr:dna:
+:PROPERTIES:
+:ID:       tdyhmngnthrpywthcrspr
+:END:
+http://diyhpl.us/wiki/transcripts/diy-human-gene-therapy-with-crispr/
+pretty hilarious
+** [#C] [2019-01-29] kits http://diyhpl.us/wiki/diybio/faq/kits/
+:PROPERTIES:
+:ID:       tktsdyhplswkdybfqkts
+:END:
+
+** [#C] [2019-01-29] equipment http://diyhpl.us/wiki/diybio/faq/equipment/
+:PROPERTIES:
+:ID:       tqpmntdyhplswkdybfqqpmnt
+:END:
+
+** [#C] [2019-01-29] articles http://diyhpl.us/wiki/articles/
+:PROPERTIES:
+:ID:       trtclsdyhplswkrtcls
+:END:
+
+* TODO [#C] that they improve cognitive performance in people who have “too little dopamine” (Parkinson’s patients, ADHD patients, val/val COMT genotypes) but are useless or worse in those who have “too much dopamine” (met/met COMT genotypes.)
+:PROPERTIES:
+:CREATED:  [2019-05-14]
+:ID:       thtthymprvcgntvprfrmncnppwhhvtmchdpmnmtmtcmtgntyps
+:END:
+todo
+from [[https://www.instapaper.com/read/1192861979/10709024][ip]]   [[https://srconstantin.wordpress.com/2016/06/06/nootropics/][Nootropics]]
+
+* TODO [#C] Aspiring to canonicity, one fun project would be to take the  most recent IPCC climate assessment report (perhaps starting  with a small part), and develop a version which is  executable. Instead of a report full of assertions and  references, you'd have a live climate model – actually,  many interrelated models – for people to explore. If it  was good enough, people would teach classes from it; :environment:
+:PROPERTIES:
+:CREATED:  [2019-10-06]
+:ID:       sprngtcnnctynfnprjctwldbtwsgdnghpplwldtchclsssfrmt
+:END:
+None
+[[https://numinous.productions/ttft/][How can we develop transformative tools for thought?]]
+[[https://hyp.is/FVTkuOg5EemCcS8fYA_Tiw/numinous.productions/ttft/][in context]]
+
+* TODO [#B] In its mathematics it is quite unlike any of Dirac’s later works (for example, he brings in fine differences between rational and irrational numbers), and “pre-invents” techniques developed by other people only decades later. (I say pre-invents because the paper was forgotten until recently.) :biography:
+:PROPERTIES:
+:CREATED:  [2019-12-02]
+:ID:       ntsmthmtcstsqtnlknyfdrcslbcsthpprwsfrgttnntlrcntly
+:END:
+TODO
+[[https://physicsworld.com/a/paul-dirac-the-purest-soul-in-physics/][Paul Dirac: the purest soul in physics – Physics World]]
+[[https://hyp.is/L8U9SBU-Eeq4CKdPsjEgnw/physicsworld.com/a/paul-dirac-the-purest-soul-in-physics/][in context]]
+
+* [2019-01-25] Henry de Valence on Twitter: "7 years ago i was very smart and wrote my website in haskell and now i can't update it because i forgot how to make a monad out of posts" / Twitter :haskell:
+:PROPERTIES:
+:ID:       frhnrydvlncntwttryrsgwsvrcsfrgthwtmkmndtfpststwttr
+:END:
+https://twitter.com/hdevalence/status/1088649294746275840
+
+* TODO [#D] [2019-12-21] Ask HN: Who are your favourite people to follow on Mastodon? | Hacker News
+:PROPERTIES:
+:ID:       stskhnwhryrfvrtppltfllwnmstdnhckrnws
+:END:
+https://news.ycombinator.com/item?id=16741116
+
+* TODO [#D] [2019-11-09] hypothesis improvements                 :hypothesis:
+:PROPERTIES:
+:ID:       sthypthssmprvmnts
+:END:
+: Thread: We're rolling out a number of small but essential user-experience (#UX) and accessibility (#a11y) improvements as part of our work to improve the overall usability of the @hypothes_is client and ensure full accessibility for keyboard-only users. 1/
+
+* TODO [#D] [2019-12-15] the Webb blog ∙ Stick around
+:PROPERTIES:
+:ID:       snthwbbblgstckrnd
+:END:
+https://blog.webb.page/
+** TODO [#B] [2019-12-15] the Webb blog ∙ And so, it begins
+:PROPERTIES:
+:ID:       snthwbbblgndstbgns
+:END:
+https://blog.webb.page/2016/it-begins
+: thought about porting the posts from my previous blog, but I'd rather start fresh. After all, after the tumultuous year that was 2016, I think we could all use a fresh start.
+
+* [#D] [2020-01-18] Workflow Patterns Home Page
+:PROPERTIES:
+:ID:       stwrkflwpttrnshmpg
+:END:
+http://workflowpatterns.com/
+: Welcome to the Workflow Patterns home page
+* [#D] [2019-11-22] Secure Shell App - Chrome Web Store
+:PROPERTIES:
+:ID:       frscrshllppchrmwbstr
+:END:
+https://chrome.google.com/webstore/detail/secure-shell-app/pnhechapfaindjhompbnflcldabbghjo
+
+* STRT [#D] [2019-09-30] ПОСТ №017 - Vlad Lunachev - Medium
+:PROPERTIES:
+:ID:       mnпостvldlnchvmdm
+:END:
+https://medium.com/@VladLunachev/%D0%BF%D0%BE%D1%81%D1%82-017-6efedf595558
+: Например, чистить стаканы от блендера не самое приятное занятие. Пусть лучше это сделает шуруповерт с ершиком. Он лучше справится с задачей, чем я вручную губкой.
+* STRT [#D] [2019-12-22] Create lists to follow certain people on GitHub similar to Twitter on Ideas | Trello :nikv:
+:PROPERTIES:
+:ID:       sncrtlststfllwcrtnpplngthbsmlrttwttrndstrll
+:END:
+https://trello.com/c/k7hu7UAH/82-create-lists-to-follow-certain-people-on-github-similar-to-twitter
+: I follow too many people on GitHub and it's very hard to see many updates from people I care about. Would be awesome to add a way to create Twitter like lists where you can add people to the list and only see updates from these people only.
+* TODO [#C] [2019-12-21] minimaxir/hacker-news-undocumented: Some of the hidden norms about Hacker News not otherwise covered in the Guidelines and the FAQ.
+:PROPERTIES:
+:ID:       stmnmxrhckrnwsndcmntdsmftntthrwscvrdnthgdlnsndthfq
+:END:
+https://github.com/minimaxir/hacker-news-undocumented
+: All public URLS with user-generated content
+
+* TODO [#C] [2019-12-21] minimaxir/hacker-news-undocumented: Some of the hidden norms about Hacker News not otherwise covered in the Guidelines and the FAQ. :hackernews:
+:PROPERTIES:
+:ID:       stmnmxrhckrnwsndcmntdsmftntthrwscvrdnthgdlnsndthfq
+:END:
+https://github.com/minimaxir/hacker-news-undocumented
+: HN Search provides real-time full-text search for Hacker News. The web app is open source and powered by Algolia Search.
+* [#C] [2020-04-25] [[https://ncase.me/][It's Nicky Case!]]             :sim:
+:PROPERTIES:
+:ID:       stsncsmtsnckycs
+:END:
+
+* [#C] [2020-01-01] Pavel Fatin » Blog Archive » Typing with pleasure - Blog about human and technology :latency:inspiration:
+:PROPERTIES:
+:ID:       wdpvlftnblgrchvtypngwthplsrblgbthmnndtchnlgy
+:END:
+https://pavelfatin.com/typing-with-pleasure/
+Amazing in-depth analysis of keyboard typing latency
+could also benchmark org-mode with the tool they mentioned
+* [#C] [2019-10-06] tmrowco/tmrowapp-contrib: Tomorrow automatically calculates the climate impact of your daily choices by connecting to apps and services you already use. :environment:
+:PROPERTIES:
+:ID:       sntmrwctmrwppcntrbtmrrwtmycnnctngtppsndsrvcsylrdys
+:END:
+https://github.com/tmrowco/tmrowapp-contrib
+: The connect method is used to ask for user credentials (OAuth flows are also supported). The collect method is called periodically (typically every few hours) to fetch new activities. As the methods are pure, and to avoid re-asking the user for credentials everytime the collect method is called, a state object can be used to persist information (such as password, tokens..) across collects.
+: 
+: Activities require a certain formatting:
+* [#C] [2018-07-12] https://github.com/fasouto/awesome-dataviz      :dataviz:
+:PROPERTIES:
+:ID:       thsgthbcmfstwsmdtvz
+:END:
+* [2020-08-23] Nth Country Experiment - Wikipedia                   :nuclear:
+:PROPERTIES:
+:ID:       snnthcntryxprmntwkpd
+:END:
+: The experiment consisted in paying three recent young physicists who had just received their PhDs, though had no prior weapons experience, to develop a working nuclear weapon design using only unclassified information, and with basic computational and technical support.
+
+https://en.m.wikipedia.org/wiki/Nth_Country_Experiment
+
+* [2020-08-18] [[https://news.ycombinator.com/item?id=6198209][Being in the topic of Paul Dirac, there is a wonderful biography - **The Strange... | Hacker News]]
+:PROPERTIES:
+:ID:       tsnwsycmbntrcmtmdbngnthtpndrflbgrphythstrnghckrnws
+:END:
+: Being in the topic of Paul Dirac, there is a wonderful biography - The Strangest Man: The Hidden Life of Paul Dirac, Quantum Genius, by Graham Farmelo.
+: 
+: It is an exceptionally well-written biography of one of the greatest physicists, and a rare combination of a page-turner and a book written with the English reserve.
+: 
+: Besides the history of an important part of physics, and its historical background (including the rise of Nazism and Stalinism, WWII and later - Cold War) one can clearly see that science is not a dry product, polished from its very beginning. It's a process, created by various people, of different personalities and views, having simple and genial ideas, making blunt mistakes, and having life besides science (even Dirac).
+: 
+: Also, it shows science (here: physics) as a sociological process, with its centre shifting from Cambridge (centred around E. Rutherford), Copenhagen and Gottingen to Princeton, Moscow, ...
+* [#D] [2020-09-25] Tweet from @alexeyguzey
+:PROPERTIES:
+:ID:       frtwtfrmlxygzy
+:END:
+: https://twitter.com/alexeyguzey/status/1309584536376872961
+: @alexeyguzey: @patrickc Higgs: "Today I wouldn't get an academic job. It's as simple as that. I don't think I would be regarded as productive enough." https://t.co/wOlfbj9OUL
+* TODO [#C] [2020-05-18] [[https://github.com/MatthieuBizien/roam-to-git/issues/4][Suggestion: use Github actions to execute backup & commit changes to the repository · Issue 4 · MatthieuBizien/roam-to-git]] :hpi:promnesia:
+:PROPERTIES:
+:ID:       mnsgthbcmmtthbznrmtgtssssgstthrpstryssmtthbznrmtgt
+:END:
+: schedule:
+: - cron: "*/10 * * * *"
+* [#B] [2020-02-28] [[https://news.ycombinator.com/item?id=22434259][The war on food waste is a waste of time]] :environment:
+:PROPERTIES:
+:ID:       frsnwsycmbntrcmtmdthwrnfdwstswstftm
+:END:
+https://theoutline.com/post/8739/food-waste-fight-waste-of-time
+* [#B] [2020-08-20] [[https://news.ycombinator.com/item?id=24223701][Who to ignore – bullshit filters]] :media:
+:PROPERTIES:
+:ID:       thsnwsycmbntrcmtmdwhtgnrbllshtfltrs
+:END:
+https://ernest.oppet.it/2020/08/14/who-to-ignore/
+* [#B] [2019-12-02] Paul Dirac                                    :biography:
+:PROPERTIES:
+:ID:       mnpldrc
+:END:
+http://www.dirac.ch/PaulDirac.html
+: Dirac's writing was famous for its clarity and simplicity. When Niels Bohr was writing a scientific paper - with many hesitations and redraftings, as was his custom, Bohr stopped: "I do not know how to finish this sentence."
+: Dirac replied: "I was taught at school that you should never start a sentence without knowing the end
+* [#C] [2019-12-16] 3 shell scripts: Kill weasel words, avoid the passive, eliminate duplicates :writing:
+:PROPERTIES:
+:ID:       mnshllscrptskllwslwrdsvdthpssvlmntdplcts
+:END:
+http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/
+: 3 shell scripts to improve your writing, or "My Ph.D. advisor rewrote himself in bash."
+* [2020-10-29] [[https://fcenter.ru/online/softarticles/interview/6862][Интервью с создателем Total Commander - Статьи Software]]
+:PROPERTIES:
+:ID:       thsfcntrrnlnsftrtclsntrvwтелемttlcmmndrстатьиsftwr
+:END:
+* DONE [#B] [2019-12-05] Ash Jogalekar on Twitter: "Robert Oppenheimer didn't just teach his students physics; he taught them life. Mozart, Plato and Sanskrit were as much a part of their shared lives as cosmic rays and quantum electrodynamics. https://t.co/i8I7xxcURT" / Twitter
+:PROPERTIES:
+:ID:       thshjglkrntwttrrbrtppnhmrtmlctrdynmcsstcxxcrttwttr
+:END:
+https://twitter.com/curiouswavefn/status/1195045873375334401
+: Max Planck and Albert Einstein also used to meet regularly to play chamber music together!! Einstein supposedly said once, “Mozart's music is so pure and beautiful that I see it as a reflection of the inner beauty of the universe itself”
+* [#D] [2019-08-07] Can We Terraform the Sahara to Stop Climate Change? - YouTube :environment:
+:PROPERTIES:
+:ID:       wdcnwtrrfrmthshrtstpclmtchngytb
+:END:
+https://www.youtube.com/watch?v=lfo8XHGFAIQ
+
+* [#D] [2020-07-31] https://wiki.openstreetmap.org/wiki/StreetComplete :maps:osm:
+:PROPERTIES:
+:ID:       frswkpnstrtmprgwkstrtcmplt
+:END:
+* [#D] [2019-12-02] John Carlos Baez on Twitter: "Can we actually remove carbon dioxide from the air? Yes! Can we remove enough to make a difference? Yes! But what are the best ways, and how much can they accomplish? I explain that in my new article in Nautilus, an online science magazine: https://t.co/y4rQjKvm5J" / Twitter
+:PROPERTIES:
+:ID:       mnjhncrlsbzntwttrcnwctllynscncmgznstcyrqjkvmjtwttr
+:END:
+https://twitter.com/johncarlosbaez/status/1201541199003176960
+: Can we actually remove carbon dioxide from the air?   Yes!  Can we remove enough to make a difference?   Yes!    But what are the best ways, and how much can they accomplish?   I explain that in my new article in Nautilus, an online science magazine:
+* [#B] [2020-10-07] [[https://news.ycombinator.com/item?id=24706670][The Nobel Prize in Chemistry 2020: Genetic Scissors | Hacker News]] :tolisten:
+:PROPERTIES:
+:ID:       wdsnwsycmbntrcmtmdthnblprnchmstrygntcscssrshckrnws
+:END:
+: I've heard a number of interviews/podcasts with Jennifer 'The Dude' Doudna about CRISPR/Cas9 over the years. Usually a great listen, she's pretty funny and from all indications has that great combo of taking her work seriously but not herself.
+* [#C] [2019-10-22] Shtetl-Optimized » Blog Archive » Paul Bernays Lectures :study:towatch:
+:PROPERTIES:
+:ID:       tshttlptmzdblgrchvplbrnyslctrs
+:END:
+https://www.scottaaronson.com/blog/?p=4301
+: If you’re interested, streaming video of the lectures is available as of today (though I haven’t watched it—let me know if the quality is OK!), as well as of course my slides. Here you go:
+
+* [#C] [2019-11-23] I Miss the Old Internet | Hacker News
+:PROPERTIES:
+:ID:       stmssthldntrnthckrnws
+:END:
+https://news.ycombinator.com/item?id=21402518
+: Wikipedia is even pushing further forward on that vision with Wikidata, a general-purpose knowledge base that's perhaps the most successful example of such a thing, succeeding where many other efforts have failed dismally. (Already, Wikidata gets more edits per minute than Wikipedia, albeit much of the activity is performed by bots.) It's also a successful use of Linked-Open-Data and Semantic-Web technologies (the Wikidata site hosts a SPARQL endpoint, for general queries of all sorts), so while it might not be "Old Web" per se, it feels quite retro-futuristic in many ways.
+** [#C] [2019-11-23] I Miss the Old Internet | Hacker News
+:PROPERTIES:
+:ID:       stmssthldntrnthckrnws
+:END:
+https://news.ycombinator.com/item?id=21402518
+: And of course, all the well-known personal assistant AI's rely on it quite a bit, although they're not eager to advertise that fact.
+** [#C] [2019-11-23] I Miss the Old Internet | Hacker News
+:PROPERTIES:
+:ID:       stmssthldntrnthckrnws
+:END:
+https://news.ycombinator.com/item?id=21402518
+: pmlnr 23 days ago [-]
+: Even Firefox dropped it's built-in RSS support by now, so for the current September generation, this is meaningless, unfortunately. Still, as infrastructure, it's very important, because it's simple to transform RSS into other formats: JSON feed, h-feed[^1], etc.
+: As for how to "follow" (I'd prefer to use subscribe instead) a personal site these days, it's a hard problem, reasonably well documented here: https://indieweb.org/follow
+: There is a current effort, called microsub[^2] to tackle the problem, but it's new, and is not user friendly enough at all.
+* TODO [#C] [2019-11-22] philsturgeon/awesome-earth: The planet doesn't need to be simultaneously on fire and underwater. We can fix things. :environment:
+:PROPERTIES:
+:ID:       frphlstrgnwsmrththplntdsnnslynfrndndrwtrwcnfxthngs
+:END:
+https://github.com/philsturgeon/awesome-earth#readme
+
+* [#C] [2020-06-19] [[https://news.ycombinator.com/item?id=11662380][This is our long-running experiment in story re-upping. I've described it at htt... | Hacker News]] :hackernews:
+:PROPERTIES:
+:ID:       frsnwsycmbntrcmtmdthssrlnyrppngvdscrbdtthtthckrnws
+:END:
+* TODO . The gun didn't go off. It simply disappeared in a brilliant flash of blue light,
+:PROPERTIES:
+:CREATED:  [2019-07-06]
+:ID:       thgnddntgfftsmplydspprdnbrllntflshfbllght
+:END:
+Todo blog about singularity books
+from The Metamorphosis of Prime Intellect by Roger Williams
+
+* TODO [#D] [2019-12-03] melvinroest/doodledocs: An app for collaborative doodling via a p2p library called Bugout with RoR websocket bindings as fallback
+:PROPERTIES:
+:ID:       tmlvnrstddldcsnppfrcllbrttwthrrwbscktbndngssfllbck
+:END:
+https://github.com/melvinroest/doodledocs
+: To counter scalability issues, I added a P2P layer on top of it, built with a modified version of Bugout.
+* TODO [#C] [2020-05-04] [[https://twitter.com/andy_matuschak/status/1257334987390685185][Andy Matuschak on Twitter: "Going to try an experiment: livestreaming part of my morning writing today at 9AM PST. I’ll mostly be consolidating some hazy questions from Design Unbound. No live interaction with viewers (hard enough w/o that). Video (probably) available afterwards. https://t.co/fYDlx2stYJ" / Twitter]] :towatch:
+:PROPERTIES:
+:ID:       mnstwttrcmndymtschksttsndlftrwrdsstcfydlxstyjtwttr
+:END:
+: Going to try an experiment: livestreaming part of my morning writing today at 9AM PST. I’ll mostly be consolidating some hazy questions from Design Unbound. No live interaction with viewers (hard enough w/o that). Video (probably) available afterwards.
+
+* [#C] [2019-11-21] michael_nielsen on Twitter: "@AdamMarblestone @james_ough @DavidDeutschOxf In addition to Adam's notes, let me also mention the NAS survey report, freely available here: https://t.co/WkJOWP9sAz It's a pretty helpful survey, IMO!" / Twitter
+:PROPERTIES:
+:ID:       thmchlnlsnntwttrdmmrblstnpsztsprttyhlpflsrvymtwttr
+:END:
+https://twitter.com/michael_nielsen/status/1197620041748865024
+: In addition to Adam's notes, let me also mention the NAS survey report, freely available here: https://nap.edu/catalog/25259/negative-emissions-technologies-and-reliable-sequestration-a-research-agenda It's a pretty helpful survey, IMO!
+* [#C] [2019-12-11] 1/(1 - 1/(1 - 1/(1 - Dan Piponi))) on Twitter: "This seems so obvious to me but people often seem to disagree with it. To improve your ability to solve a type of problem it helps to get familiar with harder problems of a similar type even if you'll never meet those harder problems in the course of solving the original problem." / Twitter :thinking:
+:PROPERTIES:
+:ID:       wddnppnntwttrthssmssbvstmcrsfslvngthrgnlprblmtwttr
+:END:
+https://twitter.com/sigfpe/status/1204816722252840960
+: This seems so obvious to me but people often seem to disagree with it. To improve your ability to solve a type of problem it helps to get familiar with harder problems of a similar type even if you'll never meet those harder problems in the course of solving the original problem.
+* TODO [#C] [2019-11-03] Philip Ryan on Twitter: "@antonhowes Lots * CRISPR * Reusable self landing rockets (space-x) * volume Battery Electric Vehicles * Mars Rovers * Gravitational Wave Observatory * CMOS deep sub micron (&lt;16nm) * Hubble * gene sequencing * HPV vaccine, ulcers caused by bacteria * internet + smart phones + comms + GPS" / Twitter
+:PROPERTIES:
+:ID:       snphlprynntwttrntnhwsltscntrntsmrtphnscmmsgpstwttr
+:END:
+https://twitter.com/RealPhilipRyan/status/1190950587380011008
+: What is the technological wonder of the present age? The smartphone? A particular infrastructure project? I know what they were in the 1580s or the 1780s (see my next newsletter), but not sure about now.
+* TODO [#B] [2020-05-18] [[https://github.com/cookiengineer/stealth][cookiengineer/stealth: Stealth - Secure, Peer-to-Peer, Private and Automateable Web Browser/Scraper/Proxy]]
+:PROPERTIES:
+:ID:       mnsgthbcmckngnrstlthckngnvtndtmtblwbbrwsrscrprprxy
+:END:
+* https://github.com/randyrants/sharpkeys/releases to remap caps to esc :windows:setup:
+:PROPERTIES:
+:ID:       sgthbcmrndyrntsshrpkysrlsstrmpcpstsc
+:END:

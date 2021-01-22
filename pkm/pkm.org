@@ -1951,3 +1951,70 @@ anyone knows of something like it?
 :PROPERTIES:
 :ID:       snsmdcccdvgltngpthdvntgsfdvntgsfflnmcnvntnsndtggng
 :END:
+* STRT [#C] people working on PKM things with examples of products etc :toblog:
+:PROPERTIES:
+:CREATED:  [2019-12-18]
+:ID:       pplwrkngnpkmthngswthxmplsfprdctstc
+:END:
+
+
+* [#C] [2020-06-21] [[https://dansilvestre.com/gtd-gmail/][GTD Gmail: Inbox Zero and Optimized Email Workflow]] :gtd:
+:PROPERTIES:
+:ID:       snsdnslvstrcmgtdgmlgtdgmlnbxzrndptmzdmlwrkflw
+:END:
+* [2019-06-22] W3C Web Annotation Working Group              :pkm:annotation:
+:PROPERTIES:
+:ID:       stwcwbnnttnwrknggrp
+:END:
+https://www.w3.org/annotation/
+** [2019-06-27] https://twitter.com/mrgunn/status/1129033408628133888
+:PROPERTIES:
+:ID:       thstwttrcmmrgnnstts
+:END:
+** [2019-06-27] https://web.hypothes.is/blog/annotation-is-now-a-web-standard/
+:PROPERTIES:
+:ID:       thswbhypthssblgnnttnsnwwbstndrd
+:END:
+
+* [2017-07-27] YSK: You can see deleted posts by replacing the "r" in "reddit" with a "c" in the URL. :reddit:
+:PROPERTIES:
+:ID:       thyskycnsdltdpstsbyrplcngthrnrddtwthcnthrl
+:END:
+* [#D] [2019-11-21] twitter - Find the most liked tweet from an account - Web Applications Stack Exchange :twitter:
+:PROPERTIES:
+:ID:       thtwttrfndthmstlkdtwtfrmnccntwbpplctnsstckxchng
+:END:
+https://webapps.stackexchange.com/questions/105958/find-the-most-liked-tweet-from-an-account
+: Pop your handle into Social Bearing's Twitter Handle Search: Found Here. A dashboard should come up with all their tweets.
+* TODO A super clean organization system does not actually help us retain knowledge. Rather, such system requires so much maintenance effort that it subverts the very thing that it promises to do–help us learn–. I ended up expanding an exorbitant amount of time managing tags, keywords, and hierarchy of data that I may never even retrieve. All in all, organizing knowledge should never become the goal when building a personal knowledge base. :pkm:toblog:
+:PROPERTIES:
+:CREATED:  [2019-12-17]
+:ID:       sprclnrgnztnsystmdsntctllthglwhnbldngprsnlknwldgbs
+:END:
+None
+[[https://www.getdnote.com/blog/how-i-built-personal-knowledge-base-for-myself/][How I Built a Personal Knowledge Base for Myself]]
+[[https://hyp.is/tOon_iEoEeq0dhutPtBWzQ/www.getdnote.com/blog/how-i-built-personal-knowledge-base-for-myself/][in context]]
+
+* STRT StorexHub is our offline-first API and plugin platform that allows you to work with Memex data outside of the browser. But it also works between different apps, making it a bit like an offline-first Zapier. You can query Memex data, listen to changes or write to its database. :worldbrain:
+:PROPERTIES:
+:CREATED:  [2020-05-09]
+:ID:       strxhbsrfflnfrstpndplgnplmxdtlstntchngsrwrtttsdtbs
+:END:
+None
+[[https://medium.com/@WorldBrain/vision-mission-values-2020-update-d70aa35a638][Vision, Mission & Values — 2020 Update]]
+[[https://hyp.is/Zl_A8pINEeq0ri-1nf7cdA/medium.com/@WorldBrain/vision-mission-values-2020-update-d70aa35a638][in context]]
+
+
+* TODO [#D] https://mobile.twitter.com/ankitmalik/status/1227636734478831618 :annotation:gadget:
+:PROPERTIES:
+:CREATED:  [2020-02-12]
+:ID:       smbltwttrcmnktmlkstts
+:END:
+
+https://mobile.twitter.com/ankitmalik/status/1227636734478831618
+: Nova Boox Pro e-ink writer similar to remarkable?
+
+* TODO When you run into a new YT channel, go through it on computer, add good videos to a separate playlist, then watch without hassle :pkm:habit:
+:PROPERTIES:
+:ID:       5144691c-6a35-43aa-8ff6-28dadb4edb2b
+:END:

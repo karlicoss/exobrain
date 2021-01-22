@@ -466,3 +466,8 @@ https://blog.mozilla.org/addons/
 :PROPERTIES:
 :ID:       tsgthbcmmzllwbxtpllftdddprldngbyjzhpllrqstmzllwbxt
 :END:
+
+* [#C] [2020-05-24] [[https://gist.github.com/jjperezaguinaga/4243341][Understanding Google Chrome Extensions]]
+:PROPERTIES:
+:ID:       snsgstgthbcmjjprzgngndrstndnggglchrmxtnsns
+:END:

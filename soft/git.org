@@ -62,3 +62,12 @@ image diff
 nbstirpout
 iadd
 extra worktree dir
+* TODO [#C] The Communicative Value of Using Git Well – Math ∩ Programming :git:practices:
+:PROPERTIES:
+:CREATED:  [2020-01-16]
+:ID:       thcmmnctvvlfsnggtwllmthprgrmmng
+:END:
+: I’ve written up my ideas, under the name ‘Literate Git’, at https://github.com/bennorth/literate-git if you’re interested.
+: The tool I wrote turns a structured git history into an interactive web page.
+: There’s an example there of how the ideas might work in a tutorial setting.
+: After I gave a talk on this work, one of the people in the audience tried it with the Haskell LLVM tutorial: https://lukelau.me/kaleidoscope/

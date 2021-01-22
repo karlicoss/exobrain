@@ -1119,3 +1119,42 @@ hmm, maybe disassemble dropsync to hack update frequency via automate on wifi?
 https://emacsconf.org/2019/schedule
 : Managing your life with org-mode and other tools
 : Marcin Swieczkowski
+
+* [#D] [2019-12-04] Org mode for Emacs – Release notes                  :org:
+:PROPERTIES:
+:ID:       wdrgmdfrmcsrlsnts
+:END:
+https://orgmode.org/Changes.html
+: New link-type: Attachment
+* TODO [#D] [2019-10-19] org-emms - MELPA                    :org:annotation:
+:PROPERTIES:
+:ID:       strgmmsmlp
+:END:
+https://melpa.org/#/org-emms
+interesting, could use for annotating?
+* TODO [#D] [2019-09-25] Blog Series: Using Org Mode Features (UOMF)    :org:
+:PROPERTIES:
+:ID:       wdblgsrssngrgmdftrsmf
+:END:
+https://karl-voit.at/2019/09/25/using-orgmode/
+: Using many or few Org mode files
+: Agenda filters
+: Finding stuff within Org mode
+: Update on contact management
+* [#C] [2020-02-13] alphapapa/org-almanac: Almanac for Org mode         :org:
+:PROPERTIES:
+:ID:       thlphpprglmnclmncfrrgmd
+:END:
+https://github.com/alphapapa/org-almanac
+how are people using org-mode
+
+* [#D] [2019-11-15] alphapapa/org-protocol-capture-html: Capture HTML from the browser selection into Emacs as org-mode content :org:capture:
+:PROPERTIES:
+:ID:       frlphpprgprtclcptrhtmlcptbrwsrslctnntmcssrgmdcntnt
+:END:
+https://github.com/alphapapa/org-protocol-capture-html
+
+* [2021-01-04] ~ vs = : the former preserves underscores? so better to use it? :org:
+:PROPERTIES:
+:ID:       mnvsthfrmrprsrvsndrscrssbttrtst
+:END:

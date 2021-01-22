@@ -1002,3 +1002,14 @@ https://classes.readthedocs.io/en/latest/
 :CREATED:  [2020-04-02]
 :ID:       dsntlkctvlltprsltsrfrm
 :END:
+* STRT [#D] [2019-09-04] ScriptSmith/socialreaper: Social media scraping / data collection library for Facebook, Twitter, Reddit, YouTube, Pinterest, and Tumblr APIs :reddit:scrape:axol:
+:PROPERTIES:
+:ID:       wdscrptsmthsclrprsclmdscrttrrddtytbpntrstndtmblrps
+:END:
+https://github.com/ScriptSmith/socialreaper
+: Reddit
+: Get the top 10 comments from the top 50 threads of all time on reddit
+** [#C] [2020-05-16] ok, seems to be using real APIs, so overall I'm skeptical. but it's got a nice panel for tokens :exports:jdoe:
+:PROPERTIES:
+:ID:       stksmstbsngrlpssvrllmskptclbttsgtncpnlfrtkns
+:END:

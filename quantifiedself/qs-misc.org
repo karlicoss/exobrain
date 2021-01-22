@@ -1937,3 +1937,70 @@ no scores, just levels
 :PROPERTIES:
 :ID:       mndsntlklktskpngrwdtthrtrdnchtdrdgh
 :END:
+* [#C] [2020-06-08] [[https://julian.digital/2020/02/23/my-quantified-self-setup/][My Quantified Self Setup « julian.digital]] :qs:
+:PROPERTIES:
+:ID:       mnsjlndgtlmyqntfdslfstpmyqntfdslfstpjlndgtl
+:END:
+lots of interesting subjective/percieved stats
+* [#C] [2018-05-01] conducting blind experiments                         :qs:
+:PROPERTIES:
+:ID:       tcndctngblndxprmnts
+:END:
+https://www.gwern.net/Nootropics#blinding-yourself
+https://www.gwern.net/Nootropics#modalert-blind-day-trial
+
+* [#D] [2019-02-17] Psychology Tools                           :qs:cognitive:
+:PROPERTIES:
+:ID:       snpsychlgytls
+:END:
+https://psychology-tools.com/
+
+* [2019-04-29] [[https://reddit.com/r/CampingGear/comments/9ewy7u/how_to_track_multiday_hikes_best_gps_watch_unit/e5s3x66/][How to track multi-day hikes? Best GPS watch / unit with longest battery life?]] /r/CampingGear :qs:gps:
+:PROPERTIES:
+:ID:       mnsrddtcmrcmpnggrcmmntswyntwthlngstbttrylfrcmpnggr
+:END:
+: I really like GPS Logger on Android. It's really simple, highly configurable, and open source. Plus, it's not like I'm using my phone anyway. Setting it at 10-30 second intervals in airplane mode will last me a couple days. I haven't found a watch that won't break the bank that can do that.
+: 
+: https://play.google.com/store/apps/details?id=com.mendhak.gpslogger
+: 
+: It's just GPS points though. If you want to see them on map, you'll have to open it in a map program. I use GPX Viewer, but I don't think it's anything extra special. I also upload them automatically when I get internet again to Google Drive and Dropbox.
+: 
+: I pretty much have used my phone for everything since smart phones have been a thing. They are the ultimate multipurpose devices. I've never really felt the need or been able to justify things like smart watches, E-Readers, Cameras (once smartphones hit 5mp or so).
+* [2019-02-04] oliexdev/openScale: Open-source weight and body metrics tracker, with support for Bluetooth scales :qs:
+:PROPERTIES:
+:ID:       mnlxdvpnsclpnsrcwghtndbdystrckrwthspprtfrbltthscls
+:END:
+https://github.com/oliexdev/openScale
+
+* [#C] [2019-05-21] How To Build A Smart Home Sensor | Popular Science   :qs:
+:PROPERTIES:
+:ID:       thwtbldsmrthmsnsrpplrscnc
+:END:
+https://www.popsci.com/how-build-home-sensor
+
+* [#C] [2019-02-13] Get raw data from commercial activity trackers | okinesio :qs:
+:PROPERTIES:
+:ID:       wdgtrwdtfrmcmmrclctvtytrckrskns
+:END:
+http://okinesio.org/development/how-to-get-raw-data-from-commercial-activity-trackers
+
+* [#C] [2020-03-26] [[https://news.ycombinator.com/item?id=22685537][Ask HN: Best sleep trackers?]] :sleep:
+:PROPERTIES:
+:ID:       thsnwsycmbntrcmtmdskhnbstslptrckrs
+:END:
+https://news.ycombinator.com/item?id=22685537
+** [2020-08-16] not much interesting for me, but probably good summary of what are people using (in comments)
+:PROPERTIES:
+:ID:       snntmchntrstngfrmbtprbblygdsmmryfwhtrpplsngncmmnts
+:END:
+* [2017-09-07] https://www.humanbenchmark.com/dashboard        :qs:cognitive:
+:PROPERTIES:
+:ID:       thswwwhmnbnchmrkcmdshbrd
+:END:
+* TODO [#D] n-back                                          :nback:cognitive:
+:PROPERTIES:
+:CREATED:  [2018-05-29]
+:ID:       nbck
+:END:
+
+the question of whether n-back training produces real-world improvements to working memory remains controversial.

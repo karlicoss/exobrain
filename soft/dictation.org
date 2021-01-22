@@ -190,3 +190,8 @@ what's up with default dictionary??
 :ID:       stcmmnvc
 :END:
 https://voice.mozilla.org/en?utm_source=missionmozillians&utm_medium=snippet&utm_campaign=common_voice_volunteers_october&utm_term=21473&utm_content=REL
+* [#C] [2020-01-01] [[https://news.ycombinator.com/item?id=21926027][Rhasspy is an open source, fully offline voice assistant toolkit]]
+:PROPERTIES:
+:ID:       wdsnwsycmbntrcmtmdrhsspyspnsrcfllyfflnvcssstnttlkt
+:END:
+https://rhasspy.readthedocs.io/en/latest/

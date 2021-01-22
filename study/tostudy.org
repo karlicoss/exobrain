@@ -4190,3 +4190,10 @@ w_y = u / gamma_v
 :        \end{matrix} \right)
 : есть 3-мерный тензор плотности потока импульса, или тензор напряжений со знаком минус. В механике жидкости диагональные её компоненты соответствуют давлению, а прочие составляющие — тангенциальным усилиям (напряжениям или в старой терминологии — натяжениям), вызванным вязкостью.
 : Для жидкости в покое тензор энергии-импульса сводится к диагональной матрице ~{\rm{diag}}({{\rho}c^2},~p,~p,~p), где ~{\rho} есть плотность массы, а ~p — гидростатическое давление.
+* TODO [#D] NATO phonetic alphabet - Wikipedia https://en.m.wikipedia.org/wiki/NATO_phonetic_alphabet :study:
+:PROPERTIES:
+:CREATED:  [2019-04-15]
+:ID:       ntphntclphbtwkpdsnmwkpdrgwkntphntclphbt
+:END:
+
+https://en.wikipedia.org/wiki/Allied_Military_phonetic_spelling_alphabets#RAF_radiotelephony_spelling_alphabet

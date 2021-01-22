@@ -166,3 +166,10 @@ I guess it would belong to configuration repository
 :PROPERTIES:
 :ID:       rltd
 :END:
+* [#D] [2019-06-01] motivation for core.worktree         :git:setup:dotfiles:
+:PROPERTIES:
+:ID:       stmtvtnfrcrwrktr
+:END:
+can't use bare repository since they don't have index
+we don't want to use working directory since it's just confusing
+solution is git config core.worktree $HOME

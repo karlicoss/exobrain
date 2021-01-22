@@ -529,3 +529,14 @@ https://www.reddit.com/r/Nootropics/comments/9jcxfn/hobbies_that_provide_cogniti
 : Just do new things. Go to new places, talk to new people, try new things. It can be as simple as not taking the same route to work/grocery store/etc every time. Mix it up.
 : Some claim that time feels quicker as you get older because each passing minute is a smaller and smaller portion of your life(e.g. summer for a 6 year old is 5% of their life, whereas it is only half a percent of the life of a 50 year old). But I don't buy that.
 : Time goes quicker as you get older because people get stuck in the same routine, and it is quite easy to compress memories together when you do the same thing every day. So, go explore, every day, even if it is just mental exploration through books or music, and time will surely slow down.
+* [#C] [2020-06-16] emotion wheel [[https://twitter.com/QiaochuYuan/status/1272990004633989120][(1) QC on Twitter: "TL feels heavy today so let's do another vibe check with the feel wheel. how's everyone feeling today? in as much or as little detail as you're into https://t.co/X95f6LZnV6" / Twitter]] :emotions:
+:PROPERTIES:
+:ID:       tmtnwhlstwttrcmqchynsttsqttldtlsyrntstcxflznvtwttr
+:END:
+: TL feels heavy today so let's do another vibe check with the feel wheel. how's everyone feeling today? in as much or as little detail as you're into
+* [2020-04-06] (HN discussion on configs) wow, people have such strong opinions about software architecture, what it *should* be and what it *shouldn't be* etc
+:PROPERTIES:
+:ID:       mnhndscssnncnfgswwpplhvscrwhttshldbndwhttshldntbtc
+:END:
+Like, unconditionally assuming that there is data and there is code, and that there is no middle ground whatsoever
+often assuming there is one single way of doing things and that's it. incredible
