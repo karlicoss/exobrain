@@ -574,7 +574,7 @@ pretty good, soft overview with highlights of different parts
 :ID:       rndrwvsndspc
 :END:
 
-* TODO [#D] Physical Church-Turing Thesis: {laws of physics can be simulated to any desired precision by a TM (or at any rate, by a probabilistic TM)} :hyp2org:drill:
+* TODO [#D] Physical Church-Turing Thesis: {laws of physics can be simulated to any desired precision by a TM (or at any rate, by a probabilistic TM)} :drill:
 :PROPERTIES:
 :CREATED:  [2019-11-01]
 :ID:       e3e16186-4726-4ed1-b3b3-9789a009c0f4
@@ -833,3 +833,14 @@ https://www.reddit.com/r/Physics/comments/bxpnti/dirac_and_feynman_one_a_man_of_
 :PROPERTIES:
 :ID:       sthscncplygrndcmxplrthscncplygrnd
 :END:
+
+* [2021-01-23] [[http://www.damtp.cam.ac.uk/user/tong/topicsinqm.html][David Tong: Topics in Quantum Mechanics]] :tong:physics:quantum:
+:PROPERTIES:
+:ID:       wwwdmtpcmcksrtngtpcsnqmhtmldvdtngtpcsnqntmmchncs
+:END:
+
+* [#C] [2020-11-13] [[https://twitter.com/pavel_bazant/status/1327341200333037570][Pavel Bažant on Twitter: "@Plinz @shlevy @The_Lagrangian Exactly. But laymen and popsci outlets like her (mostly bogus) criticism of modern physics, because it gives them "hope" that those elitist physicists are just as clueless as the layman. Now she cannot easily change her stance even if she wanted :-(" / Twitter]]
+:PROPERTIES:
+:ID:       stwttrcmpvlbzntsttspvlbžnychnghrstncvnfshwntdtwttr
+:END:
+: Exactly. But laymen and popsci outlets like her (mostly bogus) criticism of modern physics, because it gives them "hope" that those elitist physicists are just as clueless as the layman. Now she cannot easily change her stance even if she wanted :-(

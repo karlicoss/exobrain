@@ -2105,3 +2105,9 @@ https://talk.automators.fm/t/how-i-track-my-life-with-integromat-airtable-shortc
 :PROPERTIES:
 :ID:       slmstrmbrgcmdyswthrrngdysyrvltnswthhrvddctdtptmztn
 :END:
+
+* [#B] [2020-09-13] [[https://beepb00p.xyz/exercise-bike-model.html][Analyzing accuracy of power reported by stationary bike | beepb00p]]
+:PROPERTIES:
+:ID:       sbpbpxyzxrcsbkmdlhtmlnlyzcyfpwrrprtdbysttnrybkbpbp
+:END:
+: hey, I looked at same thing for tunturi e35. A much cheaper bike. The problem is this not a linear function. In magnetic resistance bikes, torque increases as linear function of RPM.

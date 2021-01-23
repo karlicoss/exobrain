@@ -509,7 +509,7 @@ very good expression
 :ID:       spplmntrmmllblsystmsmtrxrglmntmllblsystmscllctv
 :END:
 : I'd love for someone to sketch up what a better state of affairs could look like, because this is a major unsolved problem. There's a clear application to browser add-ons /  extensions and mobile app stores of today, but also future systems as well.
-* [2021-01-16] [[https://treenotation.org/][Tree Notation]] :spreadsheets:hpi:
+* [2021-01-16] [[https://treenotation.org/][Tree Notation]] :spreadsheet:hpi:
 :PROPERTIES:
 :ID:       strnttnrgtrnttn
 :END:
@@ -539,3 +539,13 @@ very good expression
 : Sadly very few runtimes come close.
 : Lisp and Smalltalk made implementation easy.
 : Prolog makes it very easy, but it's easy to write Prolog in Lisp and Smalltalk, so there you go.
+* [#C] [2020-09-14] [[https://datatables.net/][DataTables | Table plug-in for jQuery]] :spreadsheet:
+:PROPERTIES:
+:ID:       sdttblsntdttblstblplgnfrjqry
+:END:
+: Advanced tables, instantly
+: DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, built upon the foundations of progressive enhancement, that adds all of these advanced features to any HTML table.
+* [2020-12-28] [[https://spectrum-os.org/][Spectrum, a step towards usable secure computing]] :security:
+:PROPERTIES:
+:ID:       sspctrmsrgspctrmstptwrdssblscrcmptng
+:END:

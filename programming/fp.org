@@ -137,3 +137,8 @@ A key insight in this matter is that rather than just typing a lambda-abstractio
 Basically, we can write polymorphic functions, but can't use arguments in polymorphic way.
 
 Note that it's perfectly possible to pass a polymorphic function as an argument to another function. So something like map id ["a","b","c"] is perfectly legal. But the function may only use it as monomorphic. In the example map uses id as if it had type String -> String
+* [2021-01-01] [[https://nitter.net/BartoszMilewski/status/1345082689129365504][Bartosz Milewski (@BartoszMilewski): "Starting the new year with a new project: The Dao of Functional Programming. Here's a short intro." | nitter]]
+:PROPERTIES:
+:ID:       snttrntbrtszmlwsksttsbrtstnlprgrmmnghrsshrtntrnttr
+:END:
+: Starting the new year with a new project: The Dao of Functional Programming. Here's a short intro.

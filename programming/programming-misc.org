@@ -965,3 +965,85 @@ dunno, wasn't really impressed much...
 :ID:       snwsycmbntrcmtmdcrtdgrmswthcdsnggrphvzhckrnws
 :END:
 : 1. For manual editing, dot -Tx11 foo.dot displays the graph in a window and updates it automatically whenever you save. So you can have an editor window open and the dot window and see the results of every tweak. For automatically generated graphs, this provides you with a window that you can update by overwriting a file with a new graph description.
+* [#D] [2020-07-03] [[https://twitter.com/Josh_Ebner/status/1278733040181817345][Joshua Ebner on Twitter: "@_julesh_ @paulg Honest question: What's so great about Lisp?" / Twitter]] :lisp:
+:PROPERTIES:
+:ID:       stwttrcmjshbnrsttsjshbnrnnstqstnwhtssgrtbtlsptwttr
+:END:
+: Honest question:
+: What's so great about Lisp?
+* [#D] [2020-05-13] [[https://news.ycombinator.com/item?id=23164614][Janet: a lightweight, expressive and modern Lisp | Hacker News]] :lisp:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdjntlghtwghtxprssvndmdrnlsphckrnws
+:END:
+: Okay, so when Clojure came along, it came with a strong underlying philosophy of what the language was supposed to be/do. Among them were design decisions such as, e.g.,:
+: 
+:   - VMs, not OSes, are the platforms of the future, so target the JVM
+:   - Object Orientation is overrated, but polymorphism is a good thing
+:   - Multi-core is here to stay, so use immutable data structures to greatly facilitate writing correct concurrent programs
+:   - Leverage the strengths of LISP but give it a modern overhaul (most notably, throw in different parenthesis)
+* [2020-12-31] [[https://common-lisp.net/project/mcclim/excite.html][McCLIM – A powerful GUI toolkit for Common Lisp]] :lisp:
+:PROPERTIES:
+:ID:       scmmnlspntprjctmcclmxcthtlmcclmpwrflgtlktfrcmmnlsp
+:END:
+
+* [2021-01-01] [[https://news.ycombinator.com/item?id=942684][Forth compiler in one literate x86 assembly file | Hacker News]] :lisp:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdfrthcmplrnnltrtxssmblyflhckrnws
+:END:
+: Syntax is of course the most obvious `backward' thing. Conceptually Lisp moves you away from the machine and closer to math, Forth stays way closer. Forth does not (normally) include a garbage collector. Naming variables is discouraged. Forth is almost untyped, Lisp is strongly-dynamically typed. 
+* [2021-01-01] [[https://hyperpolyglot.org/lisp][Lisp: Common Lisp, Racket, Clojure, Emacs Lisp - Hyperpolyglot]] :lisp:
+:PROPERTIES:
+:ID:       shyprplygltrglsplspcmmnlsprcktcljrmcslsphyprplyglt
+:END:
+
+* TODO [2021-01-02] [[https://www.youtube.com/playlist?list=PLgq_B39Y_kKD9_sdCeE5SufaeAtbYPv80][(1) Online Lisp Meeting Videos - YouTube]] :lisp:towatch:
+:PROPERTIES:
+:ID:       swwwytbcmplylstlstplgqbykdcsftbypvnlnlspmtngvdsytb
+:END:
+
+* TODO [#C] [2021-01-08] [[https://norvig.com/python-lisp.html][Python for Lisp Programmers]] :python:lisp:
+:PROPERTIES:
+:ID:       snrvgcmpythnlsphtmlpythnfrlspprgrmmrs
+:END:
+
+* STRT [#C] [2020-01-20] A Totally Polished and not-at-all half-baked Take on Static vs Dynamic Typing • Buttondown :mypy:
+:PROPERTIES:
+:ID:       ttllyplshdndnttllhlfbkdtknsttcvsdynmctypngbttndwn
+:END:
+https://buttondown.email/hillelwayne/archive/a-totally-polished-and-not-at-all-half-baked-take/
+: Mypy
+* STRT [#C] [2020-01-20] A Totally Polished and not-at-all half-baked Take on Static vs Dynamic Typing • Buttondown
+:PROPERTIES:
+:ID:       ttllyplshdndnttllhlfbkdtknsttcvsdynmctypngbttndwn
+:END:
+https://buttondown.email/hillelwayne/archive/a-totally-polished-and-not-at-all-half-baked-take/
+: No, dynamic type systems are not inherently more open, by Alexis King. King is a PLT (programming language theory) researcher and an expert in both static and dynamic languages,
+* TODO [#C] [2020-12-05] [[https://news.ycombinator.com/item?id=24942797][Launch HN: Deepnote (YC S19) – A better data science notebook | Hacker News]] :notebook:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdlnchhndpntycsbttrdtscncntbkhckrnws
+:END:
+: Quick summary: - real time collaboration - integrations (databases, S3 buckets, environment variables) - persistent (and much much faster) filesystem - hardware doesn't shut off - many more features like variable explorer or automatic visualizations - much nicer interface so you can share with non-technical people - paid plan so you can build your data science team around it - no GPU/TPU machines yet, but that's coming
+
+deepnote vs google colab
+* TODO [#C] [2020-12-10] [[https://rtpg.co/2020/12/11/dbg-in-python.html][Implementing Rust's dbg! in Python]] :python:rust:
+:PROPERTIES:
+:ID:       srtpgcdbgnpythnhtmlmplmntngrstsdbgnpythn
+:END:
+: Implementing Rust's dbg! in Python
+* TODO [#C] [2020-10-30] [[https://docs.github.com/en/free-pro-team@latest/actions/managing-workflow-runs/manually-running-a-workflow][Manually running a workflow - GitHub Docs]]
+:PROPERTIES:
+:ID:       sdcsgthbcmnfrprtmltstctnslwmnllyrnnngwrkflwgthbdcs
+:END:
+: In this article
+:     Running a workflow on GitHub
+:     Running a workflow using the REST API
+: To run a workflow manually, the workflow must be configured to run on the workflow_dispatch event. For more information, see "Events that trigger workflows."
+* [#C] [2020-11-13] [[http://shape-of-code.coding-guidelines.com/2020/11/08/evidence-based-software-engineering-book-released/][The Shape of Code » Evidence-based software engineering: book released]]
+:PROPERTIES:
+:ID:       shpfcdcdnggdlnscmvdncbsdsdvdncbsdsftwrngnrngbkrlsd
+:END:
+
+* [#B] [2020-10-21] [[https://news.ycombinator.com/item?id=24846887][Hands-Free Coding: How I develop software using dictation and eye-tracking | Hacker News]] :dictation:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdhndsfrcdnrsngdcttnndytrcknghckrnws
+:END:

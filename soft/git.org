@@ -124,3 +124,9 @@ https://stackoverflow.com/questions/7375528/how-to-extract-one-file-with-commit-
 :PROPERTIES:
 :ID:       sbtgtlbcmblgkpgthstryclnwthstryclnwthntrctvrbsgtlb
 :END:
+
+* [#C] [2020-11-16] [[https://lobste.rs/s/in8vp4/why_git_blame_sucks_for_understanding_wtf][Why Git blame sucks for understanding WTF code (and what you should use instead) | Lobsters]]
+:PROPERTIES:
+:ID:       slbstrssnvpwhygtblmscksfrtfcdndwhtyshldsnstdlbstrs
+:END:
+: For archeology I really love git gui blame despite its dated UI

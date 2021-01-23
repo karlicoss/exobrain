@@ -223,3 +223,18 @@ https://github.com/magnars/s.el
 
 ugh, this fucking sucks. how the fuck is this makes it easier. 
 e.g. if you swap if and else clauses, indentation changes
+* [#D] [2020-02-16] Changing Properties - GNU Emacs Lisp Reference Manual
+:PROPERTIES:
+:ID:       chngngprprtsgnmcslsprfrncmnl
+:END:
+https://www.gnu.org/software/emacs/manual/html_node/elisp/Changing-Properties.html
+: Function: add-text-properties start end props &optional object
+: This function adds or overrides text properties for the text between start and end in the string or buffer object. If object is nil, it defaults to the current buffer.
+
+jesus
+* [#D] [2019-10-20] Output Functions - GNU Emacs Lisp Reference Manual :elisp:lisp:
+:PROPERTIES:
+:ID:       tptfnctnsgnmcslsprfrncmnl
+:END:
+https://www.gnu.org/software/emacs/manual/html_node/elisp/Output-Functions.html#Output-Functions
+: why lisp sucks

@@ -457,3 +457,9 @@ http://calpaterson.com/mypy-hints.html
 :PROPERTIES:
 :ID:       gd
 :END:
+
+* [#C] [2020-11-25] [[https://github.com/python/mypy/issues/1362][Decorated property not supported · Issue #1362 · python/mypy]]
+:PROPERTIES:
+:ID:       sgthbcmpythnmypysssdcrtdprprtyntspprtdsspythnmypy
+:END:
+: As a workaround, you could try defining your own alias to the property decorator that is annotated to return Any. If you use your custom property decorator (that at runtime behaves exactly like property) for all decorated properties, mypy will silently give all such properties the Any type.

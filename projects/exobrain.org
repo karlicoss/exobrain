@@ -526,7 +526,7 @@ https://pbat.ch/wiki
 https://github.com/wayanjimmy/notebook
 ** STRT [#C] [2020-03-24] 0oo                                      :exobrain:
 :PROPERTIES:
-:ID:       18113_18557
+:ID:       17422_17866
 :END:
 https://0oo.li/
 : Categories
@@ -553,6 +553,16 @@ https://0oo.li/
 https://twitter.com/yoshikischmitz/status/1202727796755189760
 : Just found @gordonbrander's  patterns page.
 : Personally loving the small pages with clear, focused writing and evocative titles, deeply interconnected, with backlinks for context - it feels like "pure knowledge".
+** TODO [#C] [2020-12-02] [[https://memo.barrucadu.co.uk/][barrucadu's memos]]
+:PROPERTIES:
+:ID:       smmbrrcdckbrrcdsmms
+:END:
+read through their weeknotes
+** [#C] [2020-11-06] [[https://github.com/jakeisnt/wiki][jakeisnt/wiki: public wiki / knowledge base]]
+:PROPERTIES:
+:ID:       sgthbcmjksntwkjksntwkpblcwkknwldgbs
+:END:
+
 * [#C] * content to add
 :PROPERTIES:
 :ID:       cntnttdd
@@ -747,3 +757,25 @@ basically, add to a private search engine thing
 :ID:       sstckvrflwcmqstnsssgndstvndstvryntrynrgmdstckvrflw
 :END:
 ugh. not sure about this way... at least it's gonna be deterministic then
+* STRT [#D] [2021-01-23] graph                                       :logseq:
+:PROPERTIES:
+:ID:       grph
+:END:
+- repulsive force: charges (forceManyBody)
+  - distanceMin is interesting (e.g. set to 1000000). pushes unrelated stuff far, but it ends up clumping
+  - distanecMax -- if I lower it, it ends up clumping + some circular artifacts (although they might be intesting too!)
+  - strenght: setting to something like -400 effectively has the same effect as default zoom? they are just a bit more spread apart
+    ok, -200 is good enough
+- attractive force: forceLink
+  : return 1 / Math.min(count[link.source.index], count[link.target.index]);
+
+  - defaultStrenght: low value makes it appear like a blob
+  - defaultStrength: smth like 10 completely breaks the simulation?
+  - changing min to max results in 'leafy' nodes pushed very far apart
+  - adding Math.pow(count, 2) -- weird. I guess pow has similar effect and reduces the force effectively
+  - changing distance to large values -- again, weird cicrular artifacts??
+    I guess it's sort of an 'expected distance'? and at some point it's dominated by the repulsion anyway. default 30 is good enough
+* TODO [#C] [2020-12-16] [[https://thume.ca/2020/07/19/my-youtube-tier-list/][My tier list of interesting YouTube channels - Tristan Hume]]
+:PROPERTIES:
+:ID:       sthmcmyytbtrlstmytrlstfntrstngytbchnnlstrstnhm
+:END:

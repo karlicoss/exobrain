@@ -767,3 +767,14 @@ https://github.com/fregante/webext-options-sync/issues/2
 :CREATED:  [2019-09-10]
 :ID:       llwsrstmrkpstsssrchblntsrchbl
 :END:
+
+* TODO [#C] [2020-12-11] [[https://community.worldbrain.io/t/export-annotations/437/5][Export annotations - ⭐️Feature Requests - Memex Community]] :worldbrain:
+:PROPERTIES:
+:ID:       scmmntywrldbrntxprtnnttnstnnttns️ftrrqstsmmxcmmnty
+:END:
+: Here is a guide on how to use the StorexHub API to get your Memex annotations.
+: It’s still in developer alpha, so it will require Javascript knowledge in building something useful:
+: https://worldbrain.github.io/storex-docs/#/storex-hub/guides/memex/?id=use-case-3-importexport-data-on-demand 12
+
+sigh.. it's a bit overcomplicated
+really need a simple json export..

@@ -167,7 +167,7 @@ The FA chains are cleaved off of the glycerol backbone. The 3 FA chains are oxid
 : hm, or is it? https://www.reddit.com/r/Fitness/comments/4a5fws/can_someone_please_shed_light_on_the_sugar_makes/d0y7r0o/
 : This is a common misconception. Fructose and glucose are both broken down to the same triose sugars and can both therefore enter the gluconeogenic pathway. De Novo lipogenesis from carbs is fairly uncommon because it is metabolically ludicrously inefficient. You have to massively overfeed on carbs.
 
-* [#D] http://vmh.uni.lu/#reconmap metabolism interactive map :biology:metabolism:visualisation:
+* [#D] http://vmh.uni.lu/#reconmap metabolism interactive map :biology:metabolism:viz:
 :PROPERTIES:
 :ID:       vmhnlrcnmpmtblsmntrctvmp
 :END:
@@ -198,3 +198,7 @@ neuron connections are a higher dimension simplicial complex
 :ID:       stwttrcmlgvpttrssnsttslgvнуювируснуюднквгеномtwttr
 :END:
 : Чтобы вирусу встроиться в геном, у него должно быть два гена: 1) обратная транскриптаза для перевода РНК в ДНК и 2) интеграза, кодирующая белок который встраивает свежесделанную вирусную ДНК в геном.
+* [#C] [2020-06-09] [[https://github.com/prathyvsh/formal-systems-in-biology][prathyvsh/formal-systems-in-biology: Application of formal systems to model biological systems]]
+:PROPERTIES:
+:ID:       sgthbcmprthyvshfrmlsystmsfrmlsystmstmdlblgclsystms
+:END:

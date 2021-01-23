@@ -42,3 +42,7 @@ https://wiki.termux.com/wiki/Touch_Keyboard
 :PROPERTIES:
 :ID:       sdkmngrlcnss
 :END:
+* [#C] [2020-05-18] [[https://news.ycombinator.com/item?id=23224669][Android 10 Is killing Termux terminal app | Hacker News]] :sadinfra:security:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdndrdskllngtrmxtrmnlpphckrnws
+:END:

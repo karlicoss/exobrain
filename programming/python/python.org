@@ -1734,3 +1734,18 @@ https://buttondown.email/hillelwayne/archive/why-python-is-my-favorite-language/
 :ID:       sgthbcmtngltyprtngltyprtytclssytcdbsdnpythntyphnts
 :END:
 : Typer, build great CLIs. Easy to code. Based on Python type hints.
+* TODO [#C] [2020-11-30] [[https://github.com/pypa/setuptools/issues/1854][Allow to customize location of .eggs directory · Issue #1854 · pypa/setuptools]]
+:PROPERTIES:
+:ID:       sgthbcmpypstptlssssllwtcslctnfggsdrctrysspypstptls
+:END:
+: My code lives in a read-only partition mounted into a Docker container and therefore the build fails:
+* [#C] [2020-10-20] [[https://news.ycombinator.com/item?id=24836833][PyInstrument – A statistical Python profile that focuses on the slow parts | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdpynstrmntlthtfcssnthslwprtshckrnws
+:END:
+
+* [#C] [2020-11-25] [[https://stackoverflow.com/questions/11414894/extract-traceback-info-from-an-exception-object][python - Extract traceback info from an exception object - Stack Overflow]] :errors:
+:PROPERTIES:
+:ID:       sstckvrflwcmqstnsxtrcttrcknffrmnxcptnbjctstckvrflw
+:END:
+: There's a very good reason the traceback is not stored in the exception; because the traceback holds references to its stack's locals, this would result in a circular reference and (temporary) memory leak until the circular GC kicks in. (This is why you should never store the traceback in a local variable.)

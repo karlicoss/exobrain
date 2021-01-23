@@ -75,7 +75,7 @@ Ok, this looks pretty cool.. maybe need to contact them and discuss
 : 
 : @aaronzlewis : concept: a Spotify calendar integration that lets you see what you were listening to alongside your old meetings and events. revisit the vibe of any moment with the Musical Time Machine
 
-* communities
+* communities                                                        :social:
 :PROPERTIES:
 :ID:       cmmnts
 :END:
@@ -85,54 +85,44 @@ Ok, this looks pretty cool.. maybe need to contact them and discuss
 :END:
 : @karlicoss
 : I think I want to create some sort of community chat on the topic of knowledge management and tools around it, with the emphasis on interoperability, malleability, owning your data, local-first, org-mode etc.
-: Anyone would be interested to join?
 
+- [2020-06-18] I think I want the focus on existing tools and setup rather than discussing mockups and vague concepts. both are important, but I want to build something now
+- [2020-06-18] I want it to be a space to discuss configuration, and get detailed technical help etc. So needs to be more like an IM chat, with fine grained topics (so you can steer off a discussion without spamming everyone)
+*** [2021-01-04] sadly haven't had time to set up something so far, also wouldn't want to overlap with existing ones
+:PROPERTIES:
+:ID:       sdlyhvnthdtmtstpsmthngsfrlswldntwnttvrlpwthxstngns
+:END:
+Some existing communities:
+- [[https://malleable.systems][Malleable Systems Collective]] + Matrix chat
+- https://thinkingtools.space
+- [[https://twitter.com/dr_kvj/status/1319144262806634496][The Productivitst Discord]]
+- [[https://discord.gg/gPn9EARR][PKM Discord]]
+- [[https://discord.gg/KPwE2rQX][dendron Discord]]
+- [[https://discord.gg/KPwE2rQX][logseq Discord]]
+*** where should it be?
+:PROPERTIES:
+:ID:       whrshldtb
+:END:
 - [2020-05-27] likely needs to be [[Zulip]] (or even better, [[Matrix]] when they support threads in Element?)
 - [2020-06-30] [[discord]] sucks
   - ok, discord is a bit crap because lacks proper threading
   - need to sign up to read & search it
+  - you can't engage with the information (e.g. search) without joining first.
   - closed source
-- [2020-06-18] I think I want the focus on existing tools and setup rather than discussing mockups and vague concepts. both are important, but I want to build something now
-- [2020-06-18] I want it to be a space to discuss configuration, and get detailed technical help etc. So needs to be more like an IM chat, with fine grained topics (so you can steer off a discussion without spamming everyone)
-*** [2021-01-04] sadly haven't had time to set up something so far, also wouldn't want to spawn more communities with large overlap
-:PROPERTIES:
-:ID:       sdlyhvnthdtmtstpsmthngsfrnttspwnmrcmmntswthlrgvrlp
-:END:
-Related:
-- [[https://malleable.systems][Malleable Systems Collective]] + Matrix chat
-- https://thinkingtools.space
-- PKM https://discord.gg/gPn9EARR
-- dendron https://discord.gg/KPwE2rQX
-- logseq https://discord.gg/KPwE2rQX
-
-A huge downside of discords is that you can't engage with the information (e.g. search) without joining first.
-
-
-* misc
-:PROPERTIES:
-:ID:       msc
-:END:
-** TODO [#C] [2020-10-07] eh, would be really nice to have some sort of memex at this point :promnesia:memex:
-:PROPERTIES:
-:ID:       hwldbrllyncthvsmsrtfmmxtthspnt
-:END:
-maybe it could have some basic core (e.g. with couchdb), and then used in different apps?
-e.g. promnesia uses it to jump and browse the history
-dashboard uses to display all events
-timeline -- similarly for all life events
-* TODO [#D] Tweet from @mekarpeles                                    :memex:
-:PROPERTIES:
-:CREATED:  [2020-06-12]
-:ID:       twtfrmmkrpls
-:END:
-
-https://twitter.com/mekarpeles/status/1271226785439428608
-: @mekarpeles: Finally made a short 📽️ of https://t.co/glrT8wpAk2: Free + open source v. of @wikidata meets @RoamResearch (both which I 👍)
+  - aggressive towards alternative clients
 
 * [#B] [2020-06-06] [[https://hyfen.net/memex/updates/bad-remembrance-machines][hyfen.net/memex/updates/bad-remembrance-machines]] :lifelogging:
 :PROPERTIES:
 :ID:       shyfnntmmxpdtsbdrmmbrncmcfnntmmxpdtsbdrmmbrncmchns
 :END:
+
+* TODO [#D] Tweet from @mekarpeles                                    :memex:
+:PROPERTIES:
+:CREATED:  [2020-06-12]
+:ID:       twtfrmmkrpls
+:END:
+https://twitter.com/mekarpeles/status/1271226785439428608
+: @mekarpeles: Finally made a short 📽️ of https://t.co/glrT8wpAk2: Free + open source v. of @wikidata meets @RoamResearch (both which I 👍)
 
 * [#C] [2018-09-04] tesseract is best apparently? but couldn't handle elliptical photos.. :ocr:
 :PROPERTIES:
@@ -142,3 +132,18 @@ https://twitter.com/mekarpeles/status/1271226785439428608
 :PROPERTIES:
 :ID:       swwwrndylnstckgdlcvgjvqcrtxnsprtnscrtxnsprtnsrn
 :END:
+
+* TODO [#C] [2020-10-07] eh, would be really nice to have some sort of memex at this point :promnesia:memex:
+:PROPERTIES:
+:ID:       hwldbrllyncthvsmsrtfmmxtthspnt
+:END:
+maybe it could have some basic core (e.g. with couchdb), and then used in different apps?
+e.g. promnesia uses it to jump and browse the history
+dashboard uses to display all events
+timeline -- similarly for all life events
+
+* TODO [#C] [2020-11-30] [[https://github.com/appaquet/exocore#roadmap][appaquet/exocore: A distributed private application framework]] :memex:
+:PROPERTIES:
+:ID:       sgthbcmppqtxcrrdmpppqtxcrdstrbtdprvtpplctnfrmwrk
+:END:
+: Exocore is a distributed applications framework with private and encrypted data storage. Think of like an infrastructure that allows a user to own his own personal cloud that is extensible via WebAssembly applications and accessible via Web/Mobile SDKs. It is designed to be resilient to failures, allow offline usage (ex: on mobile).

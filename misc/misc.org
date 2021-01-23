@@ -2205,3 +2205,29 @@ People have figured out these things! The formulas exist in Excel spreadsheets a
 :PROPERTIES:
 :ID:       swwwmrlprrcmthvlsfmcsthnvvmrvltnndthvscdgrllmrlprr
 :END:
+
+* [#C] [2020-11-04] [[https://jemma.dev/blog/intermediate-vim-tips][Vim Tips for the Intermediate Vim User | Jemma Issroff]] :vim:
+:PROPERTIES:
+:ID:       sjmmdvblgntrmdtvmtpsvmtpsfrthntrmdtvmsrjmmssrff
+:END:
+* TODO [#C] [2020-12-07] [[https://github.com/zedeus/nitter/wiki/Extensions][Extensions · zedeus/nitter Wiki]] :twitter:
+:PROPERTIES:
+:ID:       sgthbcmzdsnttrwkxtnsnsxtnsnszdsnttrwk
+:END:
+: Privacy Redirect: Redirects Twitter, Youtube, Instagram and Google Maps requests to privacy friendly alternatives (Nitter, Invidious, Bibliogram and OpenStreetMap).
+* TODO [#C] [2020-12-31] [[https://szymonkaliski.com/newsletter/2020-12-28-end-of-2020/][End of 2020 ‒ Szymon Kaliski]] :toblog:
+:PROPERTIES:
+:ID:       sszymnklskcmnwslttrndfndfszymnklsk
+:END:
+* [#C] [2020-10-30] [[https://news.ycombinator.com/item?id=24943685][Goodbye IFTTT | Hacker News]] :automation:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdgdbyfttthckrnws
+:END:
+* TODO [#C] [2020-11-16] [[https://nodes.io/story/][Nodes - our story]]
+:PROPERTIES:
+:ID:       sndsstryndsrstry
+:END:
+** TODO [#C] [2020-11-22] nodes: [[https://nodes.io/playground/data-visualisation/][data-visualisation]]
+:PROPERTIES:
+:ID:       ndssndsplygrnddtvslstndtvslstn
+:END:

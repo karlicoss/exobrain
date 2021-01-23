@@ -546,3 +546,24 @@ https://github.com/keepassxreboot/keepassxc-browser/blob/develop/keepassxc-brows
 :         "page": "options/options.html",
 :         "open_in_tab": true
 :     },
+* [#C] [2020-11-15] [[https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts#Connection-based_messaging][Content scripts - Mozilla | MDN]]
+:PROPERTIES:
+:ID:       sdvlprmzllrgnsdcsmzllddnsdmssgngcntntscrptsmzllmdn
+:END:
+
+* [#C] [2020-10-19] [[https://bugzilla.mozilla.org/show_bug.cgi?id=1309288][1309288 - Install addons permanently from about:debugging]]
+:PROPERTIES:
+:ID:       sbgzllmzllrgshwbgcgdnstllddnsprmnntlyfrmbtdbggng
+:END:
+
+* [#C] [2020-11-10] [[https://stackoverflow.com/questions/49209913/in-chrome-extension-development-how-do-i-pass-a-variable-from-background-js-to][In Chrome Extension development, how do I pass a variable from background.js to a content script that embedded as a script node? - Stack Overflow]]
+:PROPERTIES:
+:ID:       sstckvrflwcmqstnsnchrmxtnthtmbdddsscrptndstckvrflw
+:END:
+: getBackgroundPage returns the JavaScript 'window' object for the background page running inside the current extension and not in the content script.
+* [#C] [2020-11-10] [[https://stackoverflow.com/questions/26766268/chrome-extension-message-from-background-js-to-content-js][Chrome extension: message from background.js to content.js - Stack Overflow]]
+:PROPERTIES:
+:ID:       sstckvrflwcmqstnschrmxtnsckgrndjstcntntjsstckvrflw
+:END:
+: chrome.runtime.sendMessage sends a message to all open extension pages (i.e. background, popup, etc.)
+: chrome.tabs.sendMessage sends a message to all content scripts from the extension in a given tab (possibly filtered by frame ID)

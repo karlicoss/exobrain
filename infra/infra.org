@@ -613,3 +613,11 @@ ugh. add a script for it?
 :ID:       sgthbcmdckrcmpssssxctcmmndftrrnssdckrcmps
 :END:
 ugh, very annoying that there is no way to setup something...
+* [#C] [2020-06-01] [[https://github.com/DIYgod/RSSHub][DIYgod/RSSHub: 🍰 Everything is RSSible]] :rss:
+:PROPERTIES:
+:ID:       sgthbcmdygdrsshbdygdrsshbvrythngsrssbl
+:END:
+* [#C] [2020-10-25] [[https://framagit.org/medoc92/recollwebui/][Projects · Jean-Francois Dockes / recoll-webui · GitLab]]
+:PROPERTIES:
+:ID:       sfrmgtrgmdcrcllwbprjctsjnfrncsdcksrcllwbgtlb
+:END:

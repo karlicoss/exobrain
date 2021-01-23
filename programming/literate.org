@@ -74,3 +74,7 @@ pycco for literate python programming...
 :ID:       sdcsrcktlngrgpllnpllnthbksprgrm
 :END:
 : Pollen: the book is a program
+* [#C] [2020-05-19] [[https://observablehq.com/][The magic notebook for exploring data / Observable]] :javascript:literate:
+:PROPERTIES:
+:ID:       sbsrvblhqcmthmgcntbkfrxplrngdtbsrvbl
+:END:

@@ -61,3 +61,10 @@ well I mean he makes good points that software and hardware are too complicated 
 : Jonathan Blow - Preventing the Collapse of Civilization https://t.co/NnvPOP3MJW interesting talk, a bear case for monotonic and exponential progress of technology due to turtles on turtles in our tech stacks and generational loss of knowledge.
 
 https://twitter.com/karpathy/status/1132171497798156288
+* [#C] [2020-10-21] [[https://github.com/civboot/civboot][civboot/civboot: Civilizational bootstrap: landing page and wiki]] :bootstrap:
+:PROPERTIES:
+:ID:       sgthbcmcvbtcvbtcvbtcvbtcvlztnlbtstrplndngpgndwk
+:END:
+: For the past several decades the complexity of technology has continuously outpaced our ability to understand and replicate it from a first principles understanding. Not only does this leave humanity itself vulnerable to an outage of the internet or the global supply chain, it also harms our ability to understand the core technology of our civilization and violates the philosophical principle that civilization itself should have ownership of the building blocks which form it. Civboot gives humanity a place to start over -- to rethink how technology should be built from first principles as well as a place which can be improved for the benefit of all.
+: 
+: A Civboot is a civilizational bootstrapper, meaning it contains all essential components necessary to build and improve itself using only knowledge and tools contained within itself. In other words, it is the set of tools and knowledge necessary to design, modify and build all components that modern civilization depends on such as computers, motors, machinery, metals, electronic displays, buildings, air conditioners, energy generation, energy storage, etc. It must be able to achieve this using only raw materials, human involvement and the tools and knowledge contained within itself.

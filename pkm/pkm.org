@@ -2252,3 +2252,13 @@ https://www.tagspaces.org/
 :PROPERTIES:
 :ID:       sfrmbsdnmdtztrbstprctcsztprctcsknwldgmngmntbsdnfrm
 :END:
+
+* [2020-12-31] [[https://lucaongaro.eu/blog/2019/01/30/minisearch-client-side-fulltext-search-engine.html][Luca Ongaro - MiniSearch, a client-side full-text search engine]] :search:
+:PROPERTIES:
+:ID:       slcngrblgmnsrchclntsdflltmnsrchclntsdflltxtsrchngn
+:END:
+: MiniSearch offers an auto-suggestion feature out of the box. For example, for the partial search “uni”, MiniSearch could suggest “university”, “unicorn”, etc. The suggestions are calculated on the actual documents, and sorted by relevance. This feature can be used to implement auto-completion, like in the demo application shown above. Lunr does not currently offer this feature.
+* TODO [#B] [2020-09-13] [[https://news.ycombinator.com/item?id=24461070][Web Clipper Browser Extension with Automatic Content Extraction, Now Open Source | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdwbclpprbrcntntxtrctnnwpnsrchckrnws
+:END:

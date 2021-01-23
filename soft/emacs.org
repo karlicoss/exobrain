@@ -950,3 +950,9 @@ https://github.com/alphapapa/emacs-package-dev-handbook
 :PROPERTIES:
 :ID:       srrlrgblgplvrgngmcsntrspctnrrl
 :END:
+
+* [#C] [2020-10-28] [[https://github.com/emacs-helm/helm/commit/c11779cd11a1f62cd160ea9507641f8cc1a9d321][Add support for fd shell command · emacs-helm/helm@c11779c]]
+:PROPERTIES:
+:ID:       sgthbcmmcshlmhlmcmmtccdfctfrfdshllcmmndmcshlmhlmcc
+:END:
+: Add support for fd shell command

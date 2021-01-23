@@ -226,3 +226,12 @@ https://dat.foundation
 :PROPERTIES:
 :ID:       nkswtch
 :END:
+* [#C] [2020-06-11] [[https://en.wikipedia.org/wiki/Data_Transfer_Project][Data Transfer Project - Wikipedia]]
+:PROPERTIES:
+:ID:       snwkpdrgwkdttrnsfrprjctdttrnsfrprjctwkpd
+:END:
+* [#C] [2020-06-03] [[https://github.com/automerge/automerge][automerge/automerge: A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.]]
+:PROPERTIES:
+:ID:       sgthbcmtmrgtmrgtmrgtmrgjsydffrntsrsndmrgdgntmtclly
+:END:
+: Automerge is a library of data structures for building collaborative applications in JavaScript.

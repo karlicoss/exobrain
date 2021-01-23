@@ -462,3 +462,7 @@ basic idea: draw the wavefunction in the orthogonal plane, then it's easy to see
 :ID:       swwwytbcmwtchvknbrrhkjcrkcnthnvrsqntmchrmdynmcsytb
 :END:
 nice derivation of strong force energy via E=mc^2, the uncertaincy principle, and radius of the nucleus
+* [2020-12-29] [[https://physics.stackexchange.com/questions/369902/neutrino-oscillations-in-their-rest-frame][quantum mechanics - Neutrino oscillations in their rest frame - Physics Stack Exchange]]
+:PROPERTIES:
+:ID:       sphyscsstckxchngcmqstnsntnthrrstfrmphyscsstckxchng
+:END:
