@@ -813,3 +813,17 @@ but then it's gonna link the while filetag with the exobrain, which is somewhat 
 :END:
 - use org-ql-search summary (e.g. broken down by tags)
 - if it doesn't belong anywhere, refile to the same file so it 'sinks', esp. useful with 'misc' files
+* STRT [#C] I'm a bit fan of tags. I think it first started around 2012? I got annoyed about not being able to place a bookmark under a single subfolder. blah blah pinboard :toblog:self:exobrain:
+:PROPERTIES:
+:CREATED:  [2018-11-27]
+:ID:       mbtfnftgsthnktfrststrtdrnkndrsnglsbfldrblhblhpnbrd
+:END:
+- State "START"      from "TODO"       [2019-02-18]
+** [2019-10-08] perhaps it belongs in personal wiki category? and organizing information?
+:PROPERTIES:
+:ID:       prhpstblngsnprsnlwkctgryndrgnzngnfrmtn
+:END:
+** [2019-10-08] two separate directories. (notes/zim) zim is more like knowledge archive, it's more structred. notes are more chaotic and generally a giant todo list
+:PROPERTIES:
+:ID:       twsprtdrctrsntszmzmsmrlkktsrmrchtcndgnrllygnttdlst
+:END:

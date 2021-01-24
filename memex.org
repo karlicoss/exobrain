@@ -1,6 +1,16 @@
 #+TITLE: Memex
 #+filetags: memex
 
+#+begin_verse
+I have not increased nor diminished the measure,
+I have not diminished the palm,
+I have not encroached upon fields,
+I have not added to the balance weights,
+I have not tempered with the plumb bob of the balance.
+          -- The Book of the Dead, Spell 125.
+#+end_verse
+
+
 Related: #pkm, #lifelogging, #quantifiedself
 * prior art & inspiration
 :PROPERTIES:
@@ -147,3 +157,8 @@ timeline -- similarly for all life events
 :ID:       sgthbcmppqtxcrrdmpppqtxcrdstrbtdprvtpplctnfrmwrk
 :END:
 : Exocore is a distributed applications framework with private and encrypted data storage. Think of like an infrastructure that allows a user to own his own personal cloud that is extensible via WebAssembly applications and accessible via Web/Mobile SDKs. It is designed to be resilient to failures, allow offline usage (ex: on mobile).
+* TODO [#C] show random photos                        :spacedrep:lifelogging:
+:PROPERTIES:
+:CREATED:  [2019-12-06]
+:ID:       shwrndmphts
+:END:

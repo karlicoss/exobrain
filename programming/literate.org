@@ -1,21 +1,47 @@
 #+TITLE: Literate programming and documentation
 #+filetags: :literate:
 
+* related                                                       :programming:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
+* [#A] [2019-09-24] it started bothering me increasingly. formulating thoughts is hard and when you've came up and TODO shaped? good atom of information, last thing you want to do is duplicate it.
+:PROPERTIES:
+:ID:       tstrtdbthrngmncrsnglyfrmlfrmtnlstthngywnttdsdplctt
+:END:
+it gets worse when you have different markdown formats (e.g. RST for python)
+
+* TODO [#C] why org is superior for readmes                      :toblog:org:
+:PROPERTIES:
+:CREATED:  [2019-10-12]
+:ID:       whyrgssprrfrrdms
+:END:
+org-babel (search by begin_src) in my readmes
+comments?
+
+* TODO [#C] defining custom language on top of existing, e.g. demonstrating static analysis tools
+:PROPERTIES:
+:CREATED:  [2019-10-23]
+:ID:       dfnngcstmlnggntpfxstnggdmnstrtngsttcnlysstls
+:END:
+
+* [#C] [2019-08-18] tried to use cog, but it doesn't really work well for interacting with python functions :literate:python:
+:PROPERTIES:
+:ID:       trdtscgbttdsntrllywrkwllfrntrctngwthpythnfnctns
+:END:
+
+* -----------------------------------
+:PROPERTIES:
+:ID:       837_876
+:END:
+
 * [#C] [2019-09-23] NiklasRosenstein/pydoc-markdown: Create Python API documentation in Markdown format.
 :PROPERTIES:
 :ID:       nklsrsnstnpydcmrkdwncrtpythnpdcmnttnnmrkdwnfrmt
 :END:
 https://github.com/NiklasRosenstein/pydoc-markdown
 
-* related                                                       :programming:
-:PROPERTIES:
-:ID:       rltd
-:END:
-
-* amend
-:PROPERTIES:
-:ID:       mnd
-:END:
 * TODO [#C] https://mastodon.social/@vertigo/103490093047542336    :literate:
 :PROPERTIES:
 :CREATED:  [2020-01-16]
@@ -78,3 +104,26 @@ pycco for literate python programming...
 :PROPERTIES:
 :ID:       sbsrvblhqcmthmgcntbkfrxplrngdtbsrvbl
 :END:
+
+* [#C] mpastell/Pweave: Pweave is a scientific report generator and a literate programming tool for Python. It can capture the results and plots from data analysis and works well with numpy, scipy and matplotlib.
+:PROPERTIES:
+:CREATED:  [2019-01-09]
+:ID:       mpstllpwvpwvsscntfcrprtgnkswllwthnmpyscpyndmtpltlb
+:END:
+https://github.com/mpastell/Pweave
+* TODO [#D] example of using --help or __doc__                      :kobuddy:
+:PROPERTIES:
+:CREATED:  [2019-10-09]
+:ID:       xmplfsnghlprdc
+:END:
+
+benefit is that your source becomes literate and you can keep doc next to source code
+* TODO [#C] [2019-10-26] Literal examples - The Org Manual https://www.gnu.org/software/emacs/manual/html_node/org/Literal-examples.html
+:PROPERTIES:
+:ID:       ltrlxmplsthrgmnlswwwgnrgssmnlhtmlndrgltrlxmplshtml
+:END:
+* TODO [#C] [2020-02-12] Show HN: Anansi – a NoWeb-inspired literate programming preprocessor | Hacker News https://news.ycombinator.com/item?id=17484093
+:PROPERTIES:
+:ID:       shwhnnnsnwbnsprdltrtprgrmsrhckrnwssnwsycmbntrcmtmd
+:END:
+: In practice, very few pieces of software are written in a way that lends itself to a cohesive narrative. Software is written by numerous developers, layer by layer, often with hacks thrown in. New people come on, don't understand the whole thing, change parts of it, and move on. The requirements change, and the system contorts itself to serve multiple purposes that weren't envisioned by the original coders.

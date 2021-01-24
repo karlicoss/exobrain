@@ -1,19 +1,15 @@
 #+TITLE: Learning: meta
+#+logseq_title: learning
 #+filetags: learning
+
+* related                                                         :spacedrep:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
+
 * [#A] [2020-02-14] [[https://news.ycombinator.com/item?id=22325975][Ask HN: How do you learn complex, dense technical information?]] :learning:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdskhnhwdylrncmplxdnstchnclnfrmtn
 :END:
 https://news.ycombinator.com/item?id=22325975
-
-
-* Spaced repetition apps                                          :spacedrep:
-:PROPERTIES:
-:ID:       spcdrpttnpps
-:END:
-- AnkiDroid -- kinda ok
-- duolinguo: spaced repetition for language learning
-  weird, goes straight into grammar, doesn't really explain anything, synthesised voice
-- memrise: spaced repetition for language learning
-  ok, good progress, but feels too easy occasionally, weird exercise suggestions sometimes.
-- using org-drill after all

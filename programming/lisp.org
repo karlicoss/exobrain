@@ -84,3 +84,10 @@ dunno, wasn't really impressed much...
 :END:
 - 38:46 weird code as data (define s (lsit '+ 4 7))
 - [2019-10-20] eh, very basic talk and also doesn't really communicate why scheme/lisp are cool if you're experienced with multiple languages already. Thing with numbers and mscons at the end can be done on any PL
+* TODO [#D] Write a post following that common lisp post and comparing :python:lisp:
+:PROPERTIES:
+:CREATED:  [2020-01-06]
+:ID:       wrtpstfllwngthtcmmnlsppstndcmprng
+:END:
+
+I don't mean to offend lisp lovers or anything. I'm just desperately trying to find what's so special about lisp I don't see, so would be happy to know if you Todo missing aspect

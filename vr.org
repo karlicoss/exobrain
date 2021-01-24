@@ -123,7 +123,7 @@ https://twitter.com/visakanv/status/1205001027386138624
 :END:
 https://www.reddit.com/r/virtualreality/comments/bsyaxs/realtime_facial_tracking_in_vr/
 
-* TODO [#D] Can I use vr for drill? Some visual clue?             :spacedrep:
+* TODO [#D] Can I use vr for drill? Some visual clue?          :vr:spacedrep:
 :PROPERTIES:
 :CREATED:  [2019-06-29]
 :ID:       cnsvrfrdrllsmvslcl

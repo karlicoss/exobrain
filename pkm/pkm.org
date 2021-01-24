@@ -342,15 +342,6 @@ https://twitter.com/Conaw/status/1283178647449333761
 :END:
 https://news.ycombinator.com/user?id=h0p3
 huh, this guy uploads his mind onto wiki
-* TODO [#C] Try spaced repetition for stuff from hypothesis and instapaper. Or even books in general :spacedrep:read:
-:PROPERTIES:
-:CREATED:  [2018-08-13]
-:ID:       tryspcdrpttnfrstfffrmhypthssndnstpprrvnbksngnrl
-:END:
-
-could also use timeline for that...
-especially now that I got intermediate representation? I could even load it up as an always running server!
-
 * STRT [#C] Need a tool to match and highlight arbitrary text in pdf :coding:annotation:
 :PROPERTIES:
 :CREATED:  [2018-06-27]
@@ -526,11 +517,11 @@ https://github.com/matthewmueller/x-ray
 :CREATED:  [2019-04-20]
 :ID:       srchbyrgtgs
 :END:
-* TODO [#D] [2019-04-13] renerocksai/sublime_zk: A SublimeText3 package featuring ID based wiki style links, and #tags, intended for zettelkasten method users. Loaded with tons of features like inline image display, sophisticated tag search, note transclusion features, support for note templates, bibliography support, support for multiple panes, etc. to make working in your Zettelkasten a joy . :pkm:inspiration:
+* TODO [#D] [2019-04-13] inspiration: [[https://github.com/renerocksai/sublime_zk][renerocksai/sublime_zk]]
 :PROPERTIES:
-:ID:       rnrckssblmzksblmtxtpckgftnstctmkwrkngnyrzttlkstnjy
+:ID:       nsprtnsgthbcmrnrckssblmzkrnrckssblmzk
 :END:
-https://github.com/renerocksai/sublime_zk
+: A SublimeText3 package featuring ID based wiki style links, and tags, intended for zettelkasten method users. Loaded with tons of features like inline image display, sophisticated tag search, note transclusion features, support for note templates, bibliography support, support for multiple panes, etc. to make working in your Zettelkasten a joy
 
 * [#C] [2019-04-19] Post-Evernote: How to Migrate Your Evernote Notes, Images and Tags into Plain Text Markdown - Minding the Borderlands :pkm:
 :PROPERTIES:
@@ -735,16 +726,6 @@ https://twitter.com/schlagetown/status/1191814458957418497
 : -could be a good theme / brand for http://antilibrari.es!
 : 
 : (con: "personal librarian" has another meaning…)
-* TODO [#C] Space repetition for all my stuff. Start from latest added? Doesn't matter if there is duplication in other views :pkm:spacedrep:
-:PROPERTIES:
-:CREATED:  [2019-11-25]
-:ID:       spcrpttnfrllmystffstrtfrmsntmttrfthrsdplctnnthrvws
-:END:
-
-** [2019-11-30] or even randomly presenting is ok
-:PROPERTIES:
-:ID:       rvnrndmlyprsntngsk
-:END:
 * TODO [#C] Ask HN: How do you organize document digests / personal knowledge? | Hacker News
 :PROPERTIES:
 :CREATED:  [2019-11-28]
@@ -1137,11 +1118,6 @@ https://github.com/alraban/org-recoll
 :ID:       grphnpststfgrtwhttfltrntsr
 :END:
 
-* TODO [#C] show random photos                        :spacedrep:lifelogging:
-:PROPERTIES:
-:CREATED:  [2019-12-06]
-:ID:       shwrndmphts
-:END:
 * TODO [#C] motivation for searching over my own posts: quick plaintext interface that works offline :motivation:pkm:
 :PROPERTIES:
 :CREATED:  [2020-01-14]
@@ -1842,17 +1818,6 @@ https://github.com/taroved/pol
 :ID:       hmmthssghttbbkmrklt
 :END:
 
-* TODO [#C] Tweet from michael_nielsen (@michael_nielsen), at Dec 9, 16:44 :spacedrep:
-:PROPERTIES:
-:CREATED:  [2019-12-09]
-:ID:       twtfrmmchlnlsnmchlnlsntdc
-:END:
-
-: Here's the distribution of time people spend reviewing cards at https://t.co/QbN9qttrGe.  The median time is about 6 seconds. The _average_ time is almost twice as long, at 11 seconds! https://t.co/dGTDfsTxg8
-
-
-https://twitter.com/michael_nielsen/status/1204079371339698177
-
 * TODO [#C] [2019-12-20] hckr news - Hacker News sorted by time  :hackernews:
 :PROPERTIES:
 :ID:       hckrnwshckrnwssrtdbytm
@@ -1890,36 +1855,6 @@ https://twitter.com/yoshikischmitz/status/1203135482655232000
 https://socialbearing.com/search/user/fortelabs
 cool thing, might be good to overview accounts
 
-* [2017-11-01] anki vs supermemo                                  :spacedrep:
-:PROPERTIES:
-:ID:       nkvssprmm
-:END:
-: Basically what you have said. Everything are disadvantages but maybe the algorithm. However, I think Anki's algorithm is based on Supermemo's algorithm, it is just that it is not based on the most recent but Anki's and Supermemo's are very similar. There is no reason why someone would use Supermemo instead of Anki. All that said, I use Supermemo and Anki, because I think the few free decks for languages Supermemo have are quite great and there is no way to export them so I use Supermemo with some of these decks but Anki for everything else.
-* START spaced repetition                                         :spacedrep:
-:PROPERTIES:
-:ID:       spcdrpttn
-:END:
-** anki for habits (both personal and e.g. remembering hotkeys)
-:PROPERTIES:
-:ID:       nkfrhbtsbthprsnlndgrmmbrnghtkys
-:END:
-*** [2018-04-17] UPD: org-habits
-:PROPERTIES:
-:ID:       pdrghbts
-:END:
-** memrise app for learning German
-:PROPERTIES:
-:ID:       mmrsppfrlrnnggrmn
-:END:
-** START org drill
-:PROPERTIES:
-:ID:       rgdrll
-:END:
-- ok, it's pretty nice, plaintext
-- keyboard
-- unclear where to find decks
-- no mobile app
-- no images
 * TODO [#D] Google search                                     :search:google:
 :PROPERTIES:
 :CREATED:  [2020-01-25]
@@ -2119,21 +2054,6 @@ https://news.ycombinator.com/item?id=5285929
 :END:
 https://github.com/JacobEvelyn/friends#overview
 
-* DONE [#A] [2018-09-26] Augmenting Long-term Memory      :nielsen:spacedrep:
-:PROPERTIES:
-:ID:       gmntnglngtrmmmry
-:END:
-http://augmentingcognition.com/ltm.html
-** [2019-01-10] huh! it's the guy who wrote quantum computing book!
-:PROPERTIES:
-:ID:       hhtsthgywhwrtqntmcmptngbk
-:END:
-
-** [2019-01-25] ok, pretty good article!
-:PROPERTIES:
-:ID:       kprttygdrtcl
-:END:
-
 * STRT [#C] [2020-01-30] [[https://reddit.com/r/productivity/comments/evjtlz/build_the_ultimate_personal_knowledge_management/ffzb4zg/][Build the ultimate personal knowledge management system]] /r/productivity :pkm:
 :PROPERTIES:
 :ID:       srddtcmrprdctvtycmmntsvjtnwldgmngmntsystmrprdctvty
@@ -2152,19 +2072,6 @@ http://augmentingcognition.com/ltm.html
 :ID:       snwsycmbntrcmtmdswmythnk
 :END:
 https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/
-** [2020-01-31] might be interesting to keep something like "history of knowledge management"?
-:PROPERTIES:
-:ID:       mghtbntrstngtkpsmthnglkhstryfknwldgmngmnt
-:END:
-* [2020-01-16] Tweet from POLAR - Personal knowledge repository (@getpolarized), at Jan 16, 21:00 "cognitive prosthetic :spacedrep:
-:PROPERTIES:
-:ID:       twtfrmplrprsnlknwldgrpstrygtplrzdtjncgntvprsthtc
-:END:
-: @michael_nielsen The analogy of supervised learning and spaced repetition I think is dead on. I've been referring to Polar as a "cognitive prosthetic".  My background is partly in machine learning so when I got into #spacedrepetition I immediately realized it was supervised learning for humans.
-
-
-https://twitter.com/getpolarized/status/1217914450889428992
-
 * DONE [#C] Piotr Limanowski 🔥 Reading for Programmers     :productivity:pkm:
 :PROPERTIES:
 :CREATED:  [2018-06-14]
@@ -2222,10 +2129,6 @@ https://praxis.fortelabs.co/a-complete-guide-to-tagging-for-personal-knowledge-m
 :ID:       swwwthfrtnlbscmprsnlknwldrsnlknwldgmngmntthfrtnlbs
 :END:
 three step process
-* TODO [#C] [2020-06-22] [[https://github.com/ulangi/ulangi][ulangi/ulangi: Ulangi is an Anki alternative for users to learn languages better with spaced repetition system.]] :spacedrep:
-:PROPERTIES:
-:ID:       sgthbcmlnglnglnglnglngsnnnggsbttrwthspcdrpttnsystm
-:END:
 * [#C] [2020-06-06] [[https://ramses.blog/why-take-notes/][Why I take notes of everything I learn | Ramses' Blog]] :pkm:notes:
 :PROPERTIES:
 :ID:       srmssblgwhytkntswhytkntsfvrythnglrnrmssblg
@@ -2242,11 +2145,6 @@ pretty cool in detail guide
 :END:
 https://www.tagspaces.org/
 - [2019-07-23] dunno, maybe it could be useful for photo tagging, but that's not too high of priority to me now
-
-* [2021-01-13] [[https://blog.jethro.dev/posts/taking_srs_seriously/][Taking Spaced Repetition Seriously · Jethro Kuan]] :spacedrep:
-:PROPERTIES:
-:ID:       sblgjthrdvpststkngsrssrslytkngspcdrpttnsrslyjthrkn
-:END:
 
 * [2021-01-17] [[https://forum.obsidian.md/t/zotero-best-practices/164/57][Zotero best practices - Knowledge management - Obsidian Forum]]
 :PROPERTIES:

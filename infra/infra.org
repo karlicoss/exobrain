@@ -631,3 +631,19 @@ ugh, very annoying that there is no way to setup something...
 :PROPERTIES:
 :ID:       hsppststmtjstpstt
 :END:
+
+* [#C] write about my desktop environment?                           :toblog:
+:PROPERTIES:
+:CREATED:  [2019-09-05]
+:ID:       wrtbtmydsktpnvrnmnt
+:END:
+* TODO [#C] about my cgit thing; how I manage public and private dotfiles; symlink frendliness; tokens; nginx :toblog:dotfiles:setup:
+:PROPERTIES:
+:CREATED:  [2018-11-22]
+:ID:       btmycgtthnghwmngpblcndprvflssymlnkfrndlnsstknsngnx
+:END:
+* TODO [#D] post about vim keybindings                           :vim:toblog:
+:PROPERTIES:
+:CREATED:  [2019-09-05]
+:ID:       pstbtvmkybndngs
+:END:

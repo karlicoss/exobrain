@@ -211,6 +211,12 @@ pretty nice clean visualizations, I need to borrow these I guess
 :END:
 http://www.markwk.com/data-processing-time-tracking.html
 
+** [#B] [2020-01-08] samsquire/ideas: a record of ideas           :dashboard:
+:PROPERTIES:
+:ID:       smsqrdsrcrdfds
+:END:
+https://github.com/samsquire/ideas
+: Life engine is a dashboard that attempts to collect information about your life and display relevant data on a single screen.
 * [#B] * sleep dashboard/experiments                                  :sleep:
 :PROPERTIES:
 :ID:       slpdshbrdxprmnts
@@ -1422,4 +1428,10 @@ https://towardsdatascience.com/jupyter-tools-to-increase-productivity-7b3c6b90be
 * [2021-01-11] [[https://github.com/yihong0618/running_page][yihong0618/running_page: Make your own running home page]]
 :PROPERTIES:
 :ID:       sgthbcmyhngrnnngpgyhngrnnngpgmkyrwnrnnnghmpg
+:END:
+
+* TODO need to post it somewhere... but not sure how to present to people. could def post some plots to quantifiedself? :dashboard:toblog:qs:
+:PROPERTIES:
+:CREATED:  [2019-04-09]
+:ID:       ndtpsttsmwhrbtntsrhwtprsnplclddfpstsmpltstqntfdslf
 :END:

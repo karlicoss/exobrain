@@ -179,6 +179,13 @@ like in arctee
 : #+RESULTS:
 : #+begin_example
 
+** TODO [#C] caveat: github doesn't respect your custom ids :transclusion:github:org:
+:PROPERTIES:
+:CREATED:  [2020-03-17]
+:ID:       cvtgthbdsntrspctyrcstmds
+:END:
+
+e.g. it's generating "How do you use it?" -> how-do-you-use-it
 * TODO [#B] search for completed tasks that have todo subtasks?
 :PROPERTIES:
 :CREATED:  [2020-05-30]
@@ -848,7 +855,7 @@ https://github.com/alphapapa/org-super-agenda
 :     org-mode >= 9.0
 :     s >= 1.10
 :     ts
-* STRT [#C] weirdness with encoding in Polar documents  :polar:orgmode:emacs:
+* STRT [#C] weirdness with encoding in Polar documents      :polar:org:emacs:
 :PROPERTIES:
 :CREATED:  [2020-05-15]
 :ID:       wrdnsswthncdngnplrdcmnts
@@ -1229,3 +1236,79 @@ capturing via a function to prompt for the target file
 : The Org export can filter not just for back-ends, but also for specific files through the ‘BIND’ keyword. Here is an example with two filters; one removes brackets from time stamps, and the other removes strike-through text. The filter functions are defined in a code block in the same Org file, which is a handy location for debugging.
 
 whoa
+* TODO [#C] [2019-05-18] [[https://reddit.com/r/orgmode/comments/bmxvlv/weekly_rorgmode_open_discussion_may_10_2019/en3uler/][Weekly /r/Orgmode Open Discussion - May 10, 2019]] /r/orgmode :toblog:publish:
+:PROPERTIES:
+:ID:       srddtcmrrgmdcmmntsbmxvlvwrwklyrrgmdpndscssnmyrrgmd
+:END:
+: I would really like to see a book written on org mode taking someone from nothing to having their whole life organised by org mode. The manual is good to find out how stuff works but you kinda need to know what you want to do beforehand. It would be great if something could also show you what is possible, stuff I wouldn't have even thought of...
+
+* TODO [#D] name: "You need more Org in your life" or something?        :org:
+:PROPERTIES:
+:CREATED:  [2019-09-13]
+:ID:       nmyndmrrgnyrlfrsmthng
+:END:
+
+* TODO [#C] refile was hard to appreciate until I got used to navigating among multiple files and using several files as org agenda sources :toblog:org:
+:PROPERTIES:
+:CREATED:  [2019-10-01]
+:ID:       rflwshrdtpprctntlgtsdtnvgflsndsngsvrlflssrggndsrcs
+:END:
+
+* TODO [#C] motivation for collecting agenda files by myself: emacs is slow and buggy :blog:org:
+:PROPERTIES:
+:CREATED:  [2019-10-29]
+:ID:       mtvtnfrcllctnggndflsbymyslfmcssslwndbggy
+:END:
+e.g. agenda tries to include lock files!
+** [2021-01-24] not sure what I meant there?
+:PROPERTIES:
+:ID:       ntsrwhtmntthr
+:END:
+* TODO [#A] Mention that it's very easy to get lost in org features :toblog:pkm:org:
+:PROPERTIES:
+:CREATED:  [2019-05-28]
+:ID:       mntnthttsvrysytgtlstnrgftrs
+:END:
+** [2019-09-29] could actually blog why is it org mode vs markdown vs yaml/whatever for me
+:PROPERTIES:
+:ID:       cldctllyblgwhystrgmdvsmrkdwnvsymlwhtvrfrm
+:END:
+
+
+* TODO [#C] org-capture main motivation: it's immediately in my filesystem. :grasp:
+:PROPERTIES:
+:CREATED:  [2019-01-31]
+:ID:       rgcptrmnmtvtntsmmdtlynmyflsystm
+:END:
+I don't need a dedicated day when I'm manually moving things from bookmarks 
+If i add a 'drill' tag, it would be added to my spaced repetition queue immediately.
+It becomes plain text searchable immediately, at which point I can find it by vaguely remembering link title.
+* [#B] [2019-10-08] capture: often I'd put a quick tag if I expect myself to search for that outline later (e.g. if I need to buy something), or if it's some thought related to one of the projects I'm doing. If it's something I really need to remember I'd also schedule it.
+:PROPERTIES:
+:ID:       cptrftndptqcktgfxpctmyslfthngrllyndtrmmbrdlsschdlt
+:END:
+Otherwise I try to spend as little time capturing TODO ??? I found premature organizing to be too time consuming and often distrupting thinking.
+* [#B] [2019-10-08] capture: I find it less distracting to keep logs (e.g. quantified self style, like sleep, exercise, weight etc) in a separate file.
+:PROPERTIES:
+:ID:       cptrfndtlssdstrctngtkplgstyllkslpxrcswghttcnsprtfl
+:END:
+TODO post about my automatic parsing and extraction?   
+
+
+* [#B] (in post about capture)                                        :grasp:
+:PROPERTIES:
+:CREATED:  [2019-09-04]
+:ID:       npstbtcptr
+:END:
+It's pretty stupid, but such a conceptually simple tool is one of the most useful things I've developed
+It instantly ends up in my knowledge repository, immediately accesible by search, agenda etc
+* TODO [#B] What’s awesome is that at the time of capture it immediately becomes searchable and indexable as any plaintext would without any extra effort (unlike if you added it to browser bookmarks/pinboard). :grasp:
+:PROPERTIES:
+:CREATED:  [2019-10-29]
+:ID:       whtswsmsthttthtmfcptrtmmdlkfydddttbrwsrbkmrkspnbrd
+:END:
+
+* [2020-04-13] http://www.acuriousmix.com/2014/09/03/designing-a-personal-knowledgebase motivation for fast capture there
+:PROPERTIES:
+:ID:       wwwcrsmxcmdsgnngprsnlknwldgbsmtvtnfrfstcptrthr
+:END:

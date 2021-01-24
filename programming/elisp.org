@@ -238,3 +238,13 @@ jesus
 :END:
 https://www.gnu.org/software/emacs/manual/html_node/elisp/Output-Functions.html#Output-Functions
 : why lisp sucks
+* TODO [#D] [2019-09-20] How to Locate the Variable I Need? : orgmode :toblog:org:elisp:
+:PROPERTIES:
+:ID:       hwtlctthvrblndrgmd
+:END:
+https://www.reddit.com/r/orgmode/comments/d6wzkr/how_to_locate_the_variable_i_need/
+: The way I deal with these things: if it's not immediately searchable on stackoverlow, I wouldn't bother doing web search.
+: My thinking would be:
+: Ok, what builting org function could possibly use number of stars? Right, when I promote/demote the subtree it must be using that at some point.
+
+small tutorial for hacking on emacs?

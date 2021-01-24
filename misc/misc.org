@@ -2057,6 +2057,10 @@ when it's not too crazy, more resiliency, possibly even nomadic lifestyle
 :PROPERTIES:
 :ID:       cmptrscnc
 :END:
+** [2021-01-24] people: inpiring/funny/awesome in any way
+:PROPERTIES:
+:ID:       pplnprngfnnywsmnnywy
+:END:
 * TODO [#C] Hackernews reader app?
 :PROPERTIES:
 :CREATED:  [2019-11-27]
@@ -2114,3 +2118,7 @@ https://twitter.com/kafkaisnotdead/status/1192558540340236288
 
 
 https://twitter.com/alphyna/status/1194682309095698432
+* [#D] [2019-06-03] ansible is convenient because of its caching capabilities (+idempotence), so it makes it easy to make a reproducible script :toblog:setup:
+:PROPERTIES:
+:ID:       nsblscnvnntbcsftscchngcpbncstmkstsytmkrprdcblscrpt
+:END:
