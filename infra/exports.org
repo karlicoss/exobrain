@@ -483,7 +483,7 @@ yes!
 :END:
 https://gist.github.com/vanne02135/6901cc2b92315881080d0ce0f07c1a17
 
-* [#D] [2020-05-29] emfit API didn't work for about three days straight... :emfit:backups:
+* [#D] [2020-05-29] emfit API didn't work for about three days straight... :emfit:backup:
 :PROPERTIES:
 :ID:       mftpddntwrkfrbtthrdysstrght
 :END:
@@ -831,3 +831,39 @@ link to explaining wtf is with DAL etc
 :PROPERTIES:
 :ID:       h
 :END:
+* TODO [#C] [[https://twitter.com/i/web/status/822927519586381824][TW]] at [2017-01-21] Играюсь с IMDB, думал придется beautiful soap доставать айтемы из вотчлиста, а там в стейте реакта лежит JSONка :exports:
+:PROPERTIES:
+:ID:       stwttrcmwbsttstwtиграюсьсамвстейтереакталежитjsnка
+:END:
+* STRT [#D] automating google drive                  :takeout:backup:exports:
+:PROPERTIES:
+:CREATED:  [2019-02-22]
+:ID:       tmtngggldrv
+:END:
+- ocamlfuse + script to move to desired location
+- basically that only requires you to request new archive occasionally
+* STRT [#A] data liberation or to be more specific, personal data liberation :toblog:exports:
+:PROPERTIES:
+:CREATED:  [2019-09-21]
+:ID:       dtlbrtnrtbmrspcfcprsnldtlbrtn
+:END:
+
+
+* TODO [#C] What data on myself I collect, why and how I use it
+:PROPERTIES:
+:CREATED:  [2020-01-13]
+:ID:       whtdtnmyslfcllctwhyndhwst
+:END:
+
+https://reddit.com/r/QuantifiedSelf/comments/eo41j6/what_data_on_myself_i_collect_why_and_how_i_use_it/fe8pxih?context=3
+
+* TODO [#B] github backups                                          :exports:
+:PROPERTIES:
+:CREATED:  [2020-02-01]
+:ID:       gthbbckps
+:END:
+
+: > if the official repo is taken down, your forks will disappear unless you have a copy.
+: https://help.github.com/en/github/collaborating-with-issues-...
+: I don't think that's true, I've personally recovered deleted repositories by finding its forks.
+: edit: Ah never mind it seems things work differently in the case of DMCA takedowns

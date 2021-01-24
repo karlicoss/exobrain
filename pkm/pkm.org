@@ -2188,3 +2188,9 @@ https://github.com/RomanPlusPlus/mindfilesResources
 : You can also subcribe to changes using RSS.
 
 huh, didn't know that!!
+* TODO [#C] [2019-12-03] How to annotate literally everything | beepb00p :kobo:annotation:
+:PROPERTIES:
+:ID:       hwtnnttltrllyvrythngbpbp
+:END:
+https://beepb00p.xyz/annotating.html
+: In .kobo/Kobo/Kobo ereader.conf, add [FeatureSettings] ExportHighlights=true

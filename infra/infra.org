@@ -647,3 +647,14 @@ ugh, very annoying that there is no way to setup something...
 :CREATED:  [2019-09-05]
 :ID:       pstbtvmkybndngs
 :END:
+* STRT [#C] Describe my current setup and what could be improved :infra:toblog:setup:exports:
+:PROPERTIES:
+:CREATED:  [2019-12-25]
+:ID:       dscrbmycrrntstpndwhtcldbmprvd
+:END:
+E.g. dashboard for token refreshing that stores then in files
+
+* TODO [#C] [2019-12-01] inspiration: people Describing Their Hardware/Software Setup https://karl-voit.at/other-peoples-IT-setup/ :setup:toblog:
+:PROPERTIES:
+:ID:       nsprtnppldscrbngthrhrdwrsftwrstpskrlvttthrpplststp
+:END:

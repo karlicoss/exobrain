@@ -1344,9 +1344,9 @@ https://github.com/karlicoss/promnesia/blob/master/src/promnesia/indexers/hypoth
 :     for x in annotations:
 
 I think I need to figure out how to make them standalone basically? Need some sort of defensive policy for dependencies?
-* TODO [#C] [2019-11-09] On todo lists | Mildly entertainingᵝ
+* TODO [#C] [2019-11-09] On todo lists | beepb00p
 :PROPERTIES:
-:ID:       ntdlstsmldlyntrtnngᵝ
+:ID:       ntdlstsbpbp
 :END:
 http://127.0.0.1:8000/pkm-todos.html
 bindSidebarData fails on quick refresh

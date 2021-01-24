@@ -190,3 +190,12 @@ create issue in orger repo
 :PROPERTIES:
 :ID:       krlcssrgrncldspprtcntrbtrgfrmtkrlcssgmlcmgml
 :END:
+* TODO [#D] usecase: new isso comments in agenda?         :toblog:blog:orger:
+:PROPERTIES:
+:CREATED:  [2019-09-20]
+:ID:       scsnwsscmmntsngnd
+:END:
+** [2021-01-24] although for this maybe RSS is better? on the other hand agenda is like lite todo-first version of RSS?
+:PROPERTIES:
+:ID:       lthghfrthsmybrsssbttrnththndgndslklttdfrstvrsnfrss
+:END:

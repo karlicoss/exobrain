@@ -1749,3 +1749,37 @@ https://buttondown.email/hillelwayne/archive/why-python-is-my-favorite-language/
 :ID:       sstckvrflwcmqstnsxtrcttrcknffrmnxcptnbjctstckvrflw
 :END:
 : There's a very good reason the traceback is not stored in the exception; because the traceback holds references to its stack's locals, this would result in a circular reference and (temporary) memory leak until the circular GC kicks in. (This is why you should never store the traceback in a local variable.)
+* TODO frustrating: so much duplication                                 :pip:
+:PROPERTIES:
+:CREATED:  [2020-04-18]
+:ID:       frstrtngsmchdplctn
+:END:
+there is github topics, github description, readme, pypi readem, readthedocs readme, classifiers etc
+* [#D] [2020-05-28] [[https://lobste.rs/s/2dcejo/hypermodern_python#c_kvr6lk][Hypermodern Python | Lobsters]]
+:PROPERTIES:
+:ID:       slbstrssdcjhyprmdrnpythnckvrlkhyprmdrnpythnlbstrs
+:END:
+: Agree. I now have a sudden urge to write a guide how to start from very simple (i.e. system interpreter, no packaging, minimal verification) and how to progress further on. And how to decide what tools do you even need to consider and at which stage.
+: 
+: In hindsight as a somewhat experienced Python programmer I can see how each of these tools can be helpful – but if I was a beginner I would be completely overwhelmed.
+* TODO [#C] why mypy is good: injector DI library               :toblog:mypy:
+:PROPERTIES:
+:CREATED:  [2019-12-24]
+:ID:       whymypysgdnjctrdlbrry
+:END:
+* TODO [#D] Why python is good                                       :toblog:
+:PROPERTIES:
+:ID:       whypythnsgd
+:END:
+generators, decorators and random dynamic things with examples
+
+** TODO [#C] Literal types and demonstrate mypy? Perhaps timezones as example? :blog:python:config:
+:PROPERTIES:
+:CREATED:  [2019-12-05]
+:ID:       ltrltypsnddmnstrtmypyprhpstmznssxmpl
+:END:
+
+* TODO [#C] [2020-05-30] [[https://www.hillelwayne.com/post/learning-a-language/][The Hard Part of Learning a Language • Hillel Wayne]] :toblog:python:
+:PROPERTIES:
+:ID:       swwwhlllwyncmpstlrnnglnggthhrdprtflrnnglngghlllwyn
+:END:

@@ -294,9 +294,9 @@ https://twitter.com/search?q=github.com%2Fkarlicoss&src=typed_query&f=live
 https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=github.com%2Fkarlicoss&sort=byPopularity&type=story
 
 
-** STRT [#C] [2020-01-30] my. package | Mildly entertainingᵝ        :qs:read:
+** STRT [#C] [2020-01-30] my. package | beepb00p      :postprivacy:qs:toread:
 :PROPERTIES:
-:ID:       mypckgmldlyntrtnngᵝ
+:ID:       mypckgbpbp
 :END:
 https://beepb00p.xyz/mypkg.html
 : Interesting experiment! Thanks for sharing :-) You might find this person's musings about such experiments interesting: https://www.plomlompom.de/index.en.html#topic_postprivacy

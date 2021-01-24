@@ -925,3 +925,7 @@ https://twitter.com/OhTheAnguish/status/1089461515273621504
 :END:
 kina like in MC?
 https://github.com/pixelb/crudini/issues/33#issuecomment-240365862
+* TODO [#D] [2019-08-31] circleci SSH debugging                    :circleci:
+:PROPERTIES:
+:ID:       crclcsshdbggng
+:END:

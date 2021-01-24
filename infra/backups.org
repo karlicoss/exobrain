@@ -101,3 +101,9 @@ kinda makes sense since when you restore you don't want to overwrite...
 :PROPERTIES:
 :ID:       trdrchvmntmhcntpdtrchvnthfly
 :END:
+* TODO [#B] [2020-01-27] Re: backup software · Issue 1 · albertz/wiki  :borg:
+:PROPERTIES:
+:ID:       rbckpsftwrsslbrtzwk
+:END:
+https://github.com/albertz/wiki/issues/1
+my comments here

@@ -1131,3 +1131,9 @@ integrate with it?
 :ID:       sgthbcmdntrpyblgblbfccddbffmdtfccddbfdbdfdntrpyblg
 :END:
 : What features would I want in my HPI?
+* TODO [#B] [2020-02-03] Foreign data wrappers - PostgreSQL wiki        :hpi:
+:PROPERTIES:
+:ID:       frgndtwrpprspstgrsqlwk
+:END:
+https://wiki.postgresql.org/wiki/Foreign_data_wrappers
+: Twitter

@@ -555,3 +555,9 @@ very good expression
 :ID:       sshlbhcmprgrmmblsystmsflsrmtshtmlflsfrmtsndbytrrys
 :END:
 read comments here
+* [#C] [2019-07-02] [[https://reddit.com/r/DataHoarder/comments/c7jrrp/microsoft_is_about_to_shut_off_its_ebook_drm/][Microsoft is about to shut off its ebook DRM servers: "The books will stop working"]] /r/DataHoarder :sadinfra:
+:PROPERTIES:
+:ID:       srddtcmrdthrdrcmmntscjrrprsthbkswllstpwrkngrdthrdr
+:END:
+: [Microsoft is about to shut off its ebook DRM servers: "The books will stop working"](https://boingboing.net/2019/06/28/jun-17-2004.html)
+: Yet another sobering reminder that data bought/hoarded with DRM is only data rented. You can – and almost certainly will – lose access to it at any time.
