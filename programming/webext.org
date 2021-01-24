@@ -126,7 +126,7 @@ https://github.com/notlmn/browser-extension-template
 :ID:       sblgmzllrgddnsdscntnngsppspprtfrbtvrsnsmzllddnsblg
 :END:
 : AMO supports signing self-hosted (unlisted) versions, which we believe is a good replacement. With self-hosted versions, developers can create multiple development update channels if needed. They can easily move users between channels. The main caveat is that the files and update mechanisms need to be hosted by the developer
-* [2020-02-15] [[https://dev.to/napolux/how-to-add-comments-to-packagejson-5doi][How to add comments to package.json? - DEV Community 👩‍💻👨‍💻]] :blog:
+* [2020-02-15] [[https://dev.to/napolux/how-to-add-comments-to-packagejson-5doi][How to add comments to package.json? - DEV Community 👩‍💻👨‍💻]] :toblog:
 :PROPERTIES:
 :ID:       sdvtnplxhwtddcmmntstpckgjtddcmmntstpckgjsndvcmmnty
 :END:

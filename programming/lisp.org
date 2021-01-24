@@ -1,0 +1,86 @@
+#+TITLE: Lisp(s)
+#+logseq_title: lisp
+#+filetags: lisp
+
+Ok, let's figure out why there is so much hype about lisp.
+
+* related                                   :programming:elisp:plt:computing:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
+* DONE [#B] [2019-10-18] What did Alan Kay mean by, "Lisp is the greatest single programming language ever designed"? | Lobsters :lisp:
+:PROPERTIES:
+:ID:       whtddlnkymnbylspsthgrtstsprgrmmnglnggvrdsgndlbstrs
+:END:
+https://lobste.rs/s/np3por/what_did_alan_kay_mean_by_lisp_is_greatest
+** [2019-12-04] eh, dunno feels like it's hard to appreciate Lisp now because it hasn't evolved much and concepts that were novel once are taken for granted now
+:PROPERTIES:
+:ID:       hdnnflslktshrdtpprctlspnwtsthtwrnvlncrtknfrgrntdnw
+:END:
+
+* [#C] [2020-01-16] Running Lisp in Production                         :lisp:
+:PROPERTIES:
+:ID:       rnnnglspnprdctn
+:END:
+https://tech.grammarly.com/blog/running-lisp-in-production
+* [2019-10-23] [[https://letoverlambda.com/textmode.cl/guest/chap5.html][Let Over Lambda]]
+:PROPERTIES:
+:ID:       sltvrlmbdcmtxtmdclgstchphtmlltvrlmbd
+:END:
+dunno, wasn't really impressed much...
+* [2021-01-01] [[https://news.ycombinator.com/item?id=5227258][I think it would be not that much better than prefix. Infix is easier to read, ... | Hacker News]] :lisp:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdthnktwldbtrthnprfxnfxssrtrdhckrnws
+:END:
+: The second thing is, intermediate variables makes code much more readable, but lisp strongly discourages this. The only way to create a lexical variable is with LET. But this causes indenting, which is pretty ugly. In fact, the use of indenting for both logical nesting and variable creation is a really nasty thing:
+* [2021-01-03] [[https://mikelevins.github.io/posts/2020-12-18-repl-driven/][On repl-driven programming - by mikel evins]] :repl:lisp:
+:PROPERTIES:
+:ID:       smklvnsgthbpstsrpldrvnnrpldrvnprgrmmngbymklvns
+:END:
+* TODO [#C] [2021-01-08] [[https://norvig.com/python-lisp.html][Python for Lisp Programmers]] :python:lisp:
+:PROPERTIES:
+:ID:       snrvgcmpythnlsphtmlpythnfrlspprgrmmrs
+:END:
+
+* [2021-01-01] [[https://hyperpolyglot.org/lisp][Lisp: Common Lisp, Racket, Clojure, Emacs Lisp - Hyperpolyglot]] :lisp:
+:PROPERTIES:
+:ID:       shyprplygltrglsplspcmmnlsprcktcljrmcslsphyprplyglt
+:END:
+
+* TODO [2021-01-02] [[https://www.youtube.com/playlist?list=PLgq_B39Y_kKD9_sdCeE5SufaeAtbYPv80][(1) Online Lisp Meeting Videos - YouTube]] :lisp:towatch:
+:PROPERTIES:
+:ID:       swwwytbcmplylstlstplgqbykdcsftbypvnlnlspmtngvdsytb
+:END:
+* [2020-12-31] [[https://common-lisp.net/project/mcclim/excite.html][McCLIM – A powerful GUI toolkit for Common Lisp]] :lisp:
+:PROPERTIES:
+:ID:       scmmnlspntprjctmcclmxcthtlmcclmpwrflgtlktfrcmmnlsp
+:END:
+
+* [#D] [2020-05-13] [[https://news.ycombinator.com/item?id=23164614][Janet: a lightweight, expressive and modern Lisp | Hacker News]] :lisp:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdjntlghtwghtxprssvndmdrnlsphckrnws
+:END:
+: Okay, so when Clojure came along, it came with a strong underlying philosophy of what the language was supposed to be/do. Among them were design decisions such as, e.g.,:
+: 
+:   - VMs, not OSes, are the platforms of the future, so target the JVM
+:   - Object Orientation is overrated, but polymorphism is a good thing
+:   - Multi-core is here to stay, so use immutable data structures to greatly facilitate writing correct concurrent programs
+:   - Leverage the strengths of LISP but give it a modern overhaul (most notably, throw in different parenthesis)
+* [2021-01-01] [[https://news.ycombinator.com/item?id=942684][Forth compiler in one literate x86 assembly file | Hacker News]] :lisp:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdfrthcmplrnnltrtxssmblyflhckrnws
+:END:
+: Syntax is of course the most obvious `backward' thing. Conceptually Lisp moves you away from the machine and closer to math, Forth stays way closer. Forth does not (normally) include a garbage collector. Naming variables is discouraged. Forth is almost untyped, Lisp is strongly-dynamically typed. 
+* [#D] [2020-07-03] [[https://twitter.com/Josh_Ebner/status/1278733040181817345][Joshua Ebner on Twitter: "@_julesh_ @paulg Honest question: What's so great about Lisp?" / Twitter]] :lisp:
+:PROPERTIES:
+:ID:       stwttrcmjshbnrsttsjshbnrnnstqstnwhtssgrtbtlsptwttr
+:END:
+: Honest question:
+: What's so great about Lisp?
+* [#B] [2018-10-03] Scheme Lisp: feel the cool Andy Balaam Accu 2018   :lisp:
+:PROPERTIES:
+:ID:       schmlspflthclndyblmcc
+:END:
+- 38:46 weird code as data (define s (lsit '+ 4 7))
+- [2019-10-20] eh, very basic talk and also doesn't really communicate why scheme/lisp are cool if you're experienced with multiple languages already. Thing with numbers and mscons at the end can be done on any PL

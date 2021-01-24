@@ -2262,3 +2262,31 @@ https://www.tagspaces.org/
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdwbclpprbrcntntxtrctnnwpnsrchckrnws
 :END:
+
+* [2020-04-01] You are my spirit animal. I just got a polar/readwise/orgmode/Anki setup togeth... | Hacker News :remarkable:
+:PROPERTIES:
+:ID:       yrmysprtnmljstgtplrrdwsrgmdnkstptgthhckrnws
+:END:
+https://news.ycombinator.com/item?id=22608287
+: You are my spirit animal.
+: I just got a polar/readwise/orgmode/Anki setup together and I'd love to use this.
+* [2020-03-31] Kill the newsletter: Convert newsletters into RSS feeds | Hacker News :rss:
+:PROPERTIES:
+:ID:       kllthnwslttrcnvrtnwslttrsntrssfdshckrnws
+:END:
+https://news.ycombinator.com/item?id=12949154
+
+* [#C] [2019-12-30] Hacker News RSS                          :rss:hackewnews:
+:PROPERTIES:
+:ID:       hckrnwsrss
+:END:
+https://edavis.github.io/hnrss/
+
+* DONE [#C] [2019-08-28] RomanPlusPlus/mindfilesResources: A collection of resources related to mindfiles (digital representations of your mind) :github:rss:
+:PROPERTIES:
+:ID:       rmnplsplsmndflsrsrcscllctmndflsdgtlrprsnttnsfyrmnd
+:END:
+https://github.com/RomanPlusPlus/mindfilesResources
+: You can also subcribe to changes using RSS.
+
+huh, didn't know that!!

@@ -549,3 +549,9 @@ very good expression
 :PROPERTIES:
 :ID:       sspctrmsrgspctrmstptwrdssblscrcmptng
 :END:
+
+* TODO [#C] [2020-06-08] [[https://shalabh.com/programmable-systems/files-and-file-formats.html][Files, Formats and Byte Arrays]] :malleable:
+:PROPERTIES:
+:ID:       sshlbhcmprgrmmblsystmsflsrmtshtmlflsfrmtsndbytrrys
+:END:
+read comments here

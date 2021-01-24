@@ -280,3 +280,15 @@ http://blog.devork.be/2009/11/python-modules-and-gpl-i-still-dont-get.html
 https://www.b-list.org/weblog/2009/jul/14/licensing/
 : This is why we need answers
 : Nobody that I know is trying to steal anyone else’s code or sneak around someone else’s license. As someone who both benefits from and produces freely-licensed software, I wouldn’t stand for that. But well-meaning people can easily get bogged down in the morass that is license terms. To deal with this problem, the types of questions Jacob was asking yesterday need clear, common answers, many of which are not currently found in the FAQ documents of popular licenses (e.g., what exactly is “linking” in the context of a language like Python? If software is only used inside a particular company, is it being “distributed”?). Of course, any such answers would be subject to “until a court rules definitively one way or another”, but anything would be better than what we have right now.
+* [#B] [2019-10-07] [[https://reddit.com/r/gwern/comments/del1oi/roads_and_bridges_the_unseen_labor_behind_our/]["Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure", Nadia Eghbal 2016]] /r/gwern :opensource:
+:PROPERTIES:
+:ID:       srddtcmrgwrncmmntsdlrdsndrdgtlnfrstrctrndghblrgwrn
+:END:
+
+* [2019-04-19] Bret Victor, beast of burden                :bloat:bretvictor:
+:PROPERTIES:
+:ID:       brtvctrbstfbrdn
+:END:
+http://worrydream.com/#!/ABriefRantOnTheFutureOfInteractionDesign
+I mean, his page is awesome but because of overly heavy design all annotations end u orphaned
+- [2019-04-19] shit, even selection doesn't work

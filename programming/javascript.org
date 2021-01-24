@@ -241,7 +241,7 @@ https://stackoverflow.com/questions/10471759/inserting-large-quantities-in-index
 :END:
 https://www.pluralsight.com/guides/javascript-callbacks-variable-scope-problem
 : ECMAScript 6 introduces the let keyword which allows you to declare a variable scoped to the nearest enclosing block and not global like var does. Thus the closure problem can be solved simply by replacing var with let:
-* [2021-01-07] [[https://github.com/vasturiano/react-force-graph][vasturiano/react-force-graph: React component for 2D, 3D, VR and AR force directed graphs]] :viz:javascript:
+* [2021-01-07] [[https://github.com/vasturiano/react-force-graph][vasturiano/react-force-graph: React component for 2D, 3D, VR and AR force directed graphs]] :viz:js:
 :PROPERTIES:
 :ID:       sgthbcmvstrnrctfrcgrphvstnntfrddvrndrfrcdrctdgrphs
 :END:

@@ -2759,7 +2759,7 @@ although out of scope, probably
 :END:
 : else try xdg-terminal
 : else try x-terminal-emulator
-* [#D] [2020-11-02] [[https://repl.it/languages/nodejs][Repl.it - Node.js Online Compiler and IDE - Fast, Powerful, Free]] :javascript:datetime:promnesia:
+* [#D] [2020-11-02] [[https://repl.it/languages/nodejs][Repl.it - Node.js Online Compiler and IDE - Fast, Powerful, Free]] :js:datetime:promnesia:
 :PROPERTIES:
 :ID:       srpltlnggsndjsrpltndjsnlncmplrnddfstpwrflfr
 :END:

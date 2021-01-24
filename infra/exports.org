@@ -821,3 +821,13 @@ https://twitter.com/Pinboard/status/1113807174717792256
 :CREATED:  [2021-01-24]
 :ID:       tskyndrdppkpssmhstryntskydb
 :END:
+* [#C] [2020-01-04] Relative imports in Python 3 - Stack Overflow   :exports:
+:PROPERTIES:
+:ID:       rltvmprtsnpythnstckvrflw
+:END:
+https://stackoverflow.com/questions/16981921/relative-imports-in-python-3
+link to explaining wtf is with DAL etc
+** [2021-01-22] eh?
+:PROPERTIES:
+:ID:       h
+:END:

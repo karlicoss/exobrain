@@ -1620,7 +1620,7 @@ https://twitter.com/altini_marco/status/1319191871281897472
 : Higher levels of physical activity seem associated with better HRV regardless of gender, age and BMI
 : cc @dsquintana: dug a bit deeper, inspired by your paper pic.twitter.com/CtB7hm...
 
-* TODO [#C] Comparison between emfit and Garmin?          :emfit:garmin:blog:
+* TODO [#C] Comparison between emfit and Garmin?        :emfit:garmin:toblog:
 :PROPERTIES:
 :CREATED:  [2020-10-21]
 :ID:       cmprsnbtwnmftndgrmn
@@ -2032,7 +2032,7 @@ the question of whether n-back training produces real-world improvements to work
 :ID:       pprntlyhsgdtsbjctvscrswndrfhddnyprprdtnlysstll
 :END:
 
-* [#B] [2020-01-22] [[https://reddit.com/r/QuantifiedSelf/comments/esbp0e/how_i_log_almost_everything_to_airtable_with_ios/][How I log (almost) EVERYTHING to AIRTABLE with iOS Shortcuts, Integromat, Pushcut, NFC tags and Timing app from my mind, Fitbit, Oura, Withings, EliteHRV, Yazio, Calm, Clue, Social media accounts, Photos and other sources. (A long thread I wrote to Automators forum, you can read it without sign-in )]] /r/QuantifiedSelf :blog:qs:lifelogging:
+* [#B] [2020-01-22] [[https://reddit.com/r/QuantifiedSelf/comments/esbp0e/how_i_log_almost_everything_to_airtable_with_ios/][How I log (almost) EVERYTHING to AIRTABLE with iOS Shortcuts, Integromat, Pushcut, NFC tags and Timing app from my mind, Fitbit, Oura, Withings, EliteHRV, Yazio, Calm, Clue, Social media accounts, Photos and other sources. (A long thread I wrote to Automators forum, you can read it without sign-in )]] /r/QuantifiedSelf :toblog:qs:lifelogging:
 :PROPERTIES:
 :ID:       srddtcmrqntfdslfcmmntssbprmycnrdtwthtsgnnrqntfdslf
 :END:

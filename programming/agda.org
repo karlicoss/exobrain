@@ -39,3 +39,30 @@
   onlyone (fzero .Z) = refl
   onlyone (fsucc .Z ())
 #+end_src
+* TODO [#D] [2019-08-12] [[https://reddit.com/r/functionalprogramming/comments/cnplr3/yow_lambda_jam_2019_philip_wadler_programming/][YOW! Lambda Jam 2019 - Philip Wadler: (Programming Languages) in Agda = Programming (Languages in Agda)]] /r/functionalprogramming :towatch:agda:
+:PROPERTIES:
+:ID:       srddtcmrfnctnlprgrmmngcmmnglnggsngdrfnctnlprgrmmng
+:END:
+* [#D] [2018-10-10] Agda Beginner(-ish) Tips, Tricks, & Pitfalls - Donnacha Oisín Kidney :agda:
+:PROPERTIES:
+:ID:       gdbgnnrshtpstrcksptfllsdnnchsínkdny
+:END:
+https://doisinkidney.com/posts/2018-09-20-agda-tips.html
+
+* TODO [#D] A Few Haskell Highlights: Top Haskell Resources of 2019    :agda:
+:PROPERTIES:
+:CREATED:  [2019-12-27]
+:ID:       fwhskllhghlghtstphskllrsrcsf
+:END:
+
+: To get to know Agda better, you can read this introductory post by Danya Rogozin.
+
+* [2019-04-21] [[https://reddit.com/r/agda/comments/bej1jr/cubical_agda_and_probability_monads/][Cubical Agda and Probability Monads]] /r/agda :agda:
+:PROPERTIES:
+:ID:       srddtcmrgdcmmntsbjjrcbclgndscbclgdndprbbltymndsrgd
+:END:
+* [2018-11-13] good with explanation https://agda.readthedocs.io/en/latest/language/with-abstraction.html#simultaneous-abstraction :agda:
+:PROPERTIES:
+:ID:       gdwthxplntnsgdrdthdcsnltshbstrctnhtmlsmltnsbstrctn
+:END:
+tldr: write multiple with clauses; then pattern match on them to rewrite and eliminate

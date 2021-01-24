@@ -797,3 +797,19 @@ for now, suppressing in the config...
 :END:
 e.g. sometimes file has a filetag, but a task is there because it's related for example to exobrain.
 but then it's gonna link the while filetag with the exobrain, which is somewhat misleading
+* TODO [#A] move in old drafts from blog drafts
+:PROPERTIES:
+:CREATED:  [2021-01-24]
+:ID:       mvnlddrftsfrmblgdrfts
+:END:
+* TODO [2020-04-03] maybe sort by priority/date on export? or specify sort order in properties :exobrain:
+:PROPERTIES:
+:ID:       mybsrtbyprrtydtnxprtrspcfysrtrdrnprprts
+:END:
+* TODO processing process
+:PROPERTIES:
+:CREATED:  [2021-01-24]
+:ID:       prcssngprcss
+:END:
+- use org-ql-search summary (e.g. broken down by tags)
+- if it doesn't belong anywhere, refile to the same file so it 'sinks', esp. useful with 'misc' files

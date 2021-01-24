@@ -525,3 +525,15 @@ https://www.reddit.com/r/NeuroHacking/comments/89qasr/does_anybody_knows_how_to_
 :PROPERTIES:
 :ID:       rltd
 :END:
+* TODO [#C] [2019-09-02] [[https://reddit.com/r/Python/comments/cdwea0/mind_controlled_text_writer/][Mind controlled text writer]] /r/Python :eeg:openbci:
+:PROPERTIES:
+:ID:       srddtcmrpythncmmntscdwmndtrmndcntrlldtxtwrtrrpythn
+:END:
+https://www.youtube.com/watch?v=1GdjMx5t4ls
+:  **Idea of P300 speller:**
+:  Highlight rows and cols and record EEG reaction to these events. If row/col with target character is highlighted \~after 300ms peak on EEG diagram will occur and it's possible to train classifier to  detect it. To remove noise from EEG data repeat it multiple times and use bandpass filter
+: 
+:  **Hardware:** [OpenBCI Cyton](https://brainflow.readthedocs.io/en/latest/SupportedBoards.html#openbci-cyton)
+:  **Software:**
+:  * [BrainFlow library](https://github.com/Andrey1994/brainflow) to read and preprocess data from OpenBCI board
+:  * [P300 implementation](https://github.com/Andrey1994/brainapps/tree/master/p300-speller)

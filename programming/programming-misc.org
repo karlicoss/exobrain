@@ -167,7 +167,7 @@ https://github.com/mre/awesome-static-analysis/
 :PROPERTIES:
 :ID:       sgthbcmctnsvrtlnvrnmntssswllsbntssctnsvrtlnvrnmnts
 :END:
-* TODO [#C] use latest version of act (just download binary from github) :ci:github:
+* TODO [#C] use latest version of act (just download binary from github) :githubci:
 :PROPERTIES:
 :CREATED:  [2020-03-31]
 :ID:       sltstvrsnfctjstdwnldbnryfrmgthb
@@ -179,13 +179,6 @@ you can docker exec -it /bin/bash into the container and debug there
 :CREATED:  [2019-09-13]
 :ID:       frfxscrnshtslmntslctnptntllysflfrmytrssthng
 :END:
-* TODO [#D] crudini whitespace around option
-:PROPERTIES:
-:ID:       crdnwhtspcrndptn
-:END:
-kina like in MC?
-https://github.com/pixelb/crudini/issues/33#issuecomment-240365862
-
 * STRT [#C] [2020-01-11] qawolf/qawolf: 🐺Create browser tests 10x faster :testing:promnesia:grasp:
 :PROPERTIES:
 :ID:       qwlfqwlfcrtbrwsrtstsxfstr
@@ -199,25 +192,10 @@ https://github.com/qawolf/qawolf
 :END:
 https://flood.io/blog/selenium-vs-puppeteer-for-test-automation-is-a-new-leader-emerging
 puppeteer is only available on chrome though??
-* TODO [#C] add favoriting with javascript?                      :hackernews:
-:PROPERTIES:
-:CREATED:  [2020-02-15]
-:ID:       ddfvrtngwthjvscrpt
-:END:
-* TODO [#C] using tabs (tab stops) are a fairly reasonable way of aligning?
+* TODO [#C] using tabs (tab stops) is a fairly reasonable way of aligning? :codestyle:
 :PROPERTIES:
 :CREATED:  [2020-02-19]
 :ID:       4786ba77-cb6c-42f3-80dd-8c3014981922
-:END:
-* [#C] [2020-01-04] Relative imports in Python 3 - Stack Overflow   :exports:
-:PROPERTIES:
-:ID:       rltvmprtsnpythnstckvrflw
-:END:
-https://stackoverflow.com/questions/16981921/relative-imports-in-python-3
-link to explaining wtf is with DAL etc
-** [2021-01-22] eh?
-:PROPERTIES:
-:ID:       h
 :END:
 * TODO [#C] [2020-02-12] Dmitry Zuykov on Twitter: "firefox умеет автоматизацию через Marionette, который просто асинхронный tcp/json, для которого есть HTTP-враппер geckodriver, клиент для этой обёртки есть даже в нашем уютненьком и работает. Можно скрэпить через браузер, у меня… :scrape:
 :PROPERTIES:
@@ -406,15 +384,6 @@ lots of interesing links...
 :PROPERTIES:
 :ID:       sgthbcmmntytgthbctnswllgtrqstvntsfrpggthbcmmntyfrm
 :END:
-* TODO [#C] [2020-06-08] [[https://shalabh.com/programmable-systems/files-and-file-formats.html][Files, Formats and Byte Arrays]] :malleable:
-:PROPERTIES:
-:ID:       sshlbhcmprgrmmblsystmsflsrmtshtmlflsfrmtsndbytrrys
-:END:
-read comments here
-** TODO [2021-01-22] create file for #computing ?
-:PROPERTIES:
-:ID:       crtflfrcmptng
-:END:
 * TODO [#B] Tweet from @EvMill                                        :julia:
 :PROPERTIES:
 :CREATED:  [2020-10-09]
@@ -526,19 +495,13 @@ https://bugjail.com/
 :END:
 https://github.com/awesome-selfhosted/awesome-selfhosted
 : API Management
-* [2013-02-11] Seems like uniqueness encoded not by type system, but by 'attributes', https://www.cs.tcd.ie/~devriese/pub/ifl07-paper.pdf :lineartypes:
+* [2013-02-11] [[https://www.cs.tcd.ie/~devriese/pub/ifl07-paper.pdf][Seems like uniqueness encoded not by type system, but by 'attributes',]] :lineartypes:
 :PROPERTIES:
-:ID:       smslknqnssncddntbytypsysttsswwwcstcddvrspbflpprpdf
+:ID:       swwwcstcddvrspbflpprpdfsmcddntbytypsystmbtbyttrbts
 :END:
-* [2019-01-27] Daibhi O Domhnaill on Twitter: "Лайфхак: если во время собеседования на вопрос "какова сложность этого алгоритма?" ответить "а что, тормозит что ли? да перенесите на SSD и все дела", то сразу возьмут техническим директором" / Twitter
+* TODO [2018-06-10] [[https://karpathy.github.io/neuralnets][hackers guide to NN]] :nn:
 :PROPERTIES:
-:ID:       dbhdmhnllntwttrлайфхакеслехническимдиректоромtwttr
-:END:
-https://twitter.com/OhTheAnguish/status/1089461515273621504
-
-* TODO [2018-06-10] hackers guide to NN https://karpathy.github.io/neuralnets :nn:
-:PROPERTIES:
-:ID:       hckrsgdtnnskrpthygthbnrlnts
+:ID:       skrpthygthbnrlntshckrsgdtnn
 :END:
 * [2020-10-13] [[https://tyrrrz.me/blog/fakes-over-mocks][Prefer Fakes Over Mocks | Alexey Golub]] :testing:
 :PROPERTIES:
@@ -546,7 +509,7 @@ https://twitter.com/OhTheAnguish/status/1089461515273621504
 :END:
 * [2020-09-27] .
 :PROPERTIES:
-:ID:       20390_20738
+:ID:       19390_19738
 :END:
 : Something that I’m surprised a lot of devs don’t know; there are official domains you’re supposed to use for documentation, testing, etc. They are specifically reserved by IANA for these purposes. Originally I think it was just example.com, but they now have a list of all them: https://www.iana.org/domains/reserved
 
@@ -565,29 +528,26 @@ https://thume.ca/2020/05/17/pipes-kill-productivity/
 :PROPERTIES:
 :ID:       sscrpsmlvscrpsmscrpsmscrpngttrl
 :END:
-* [#C] [2020-01-25] fpereiro/backendlore: How I write backends      :backend:
+* [#C] [2020-01-25] [[https://github.com/fpereiro/backendlore][fpereiro/backendlore: How I write backends]]
 :PROPERTIES:
-:ID:       fprrbckndlrhwwrtbcknds
+:ID:       sgthbcmfprrbckndlrfprrbckndlrhwwrtbcknds
 :END:
-https://github.com/fpereiro/backendlore
 
-* [#C] [2020-03-31] nektos/act: Run your GitHub Actions locally 🚀
+* [#C] [2020-03-31] [[https://github.com/nektos/act][nektos/act: Run your GitHub Actions locally]] :githubci:
 :PROPERTIES:
-:ID:       nktsctrnyrgthbctnslclly
+:ID:       sgthbcmnktsctnktsctrnyrgthbctnslclly
 :END:
-https://github.com/nektos/act
-: ok it works with CI now...
+ok it works with CI now...
 * [#B] [2019-11-17] Top 50 matplotlib Visualizations - The Master Plots (w/ Full Python Code) | ML+ :viz:
 :PROPERTIES:
 :ID:       tpmtpltlbvslztnsthmstrpltswfllpythncdml
 :END:
 https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/
 
-* [#B] [2019-10-18] About GitHub Actions - GitHub Help
+* [#B] [2019-10-18] [[https://help.github.com/en/articles/about-github-actions][About GitHub Actions - GitHub Help]] :githubci:
 :PROPERTIES:
-:ID:       btgthbctnsgthbhlp
+:ID:       shlpgthbcmnrtclsbtgthbctnsbtgthbctnsgthbhlp
 :END:
-https://help.github.com/en/articles/about-github-actions
 
 * [#C] [2020-05-20] [[https://twitter.com/lukaseder/status/1262770756997591042][Lukas Eder on Twitter: "Still one of the best explanations of covariance vs contravariance, or consumers vs producers https://t.co/UPnpItRdi7 https://t.co/P8KzmWzX8R" / Twitter]]
 :PROPERTIES:
@@ -609,16 +569,6 @@ https://help.github.com/en/articles/about-github-actions
 - had to disable setup_requires=['setuptools_scm'] in setup.py, some ssl errors
 - how to edit stuff? vim doesn't really work the quickes was git push/git pull
 - shell history (with arrows) doesn't work
-* STRT [#B] [2019-12-11] kootenpv/gittyleaks: Find sensitive information for a git repo :security:project:promnesia:hpi:
-:PROPERTIES:
-:ID:       ktnpvgttylksfndsnstvnfrmtnfrgtrp
-:END:
-https://github.com/kootenpv/gittyleaks
-** [#C] [2020-01-17] eh, doesn't give you commit hash?
-:PROPERTIES:
-:ID:       hdsntgvycmmthsh
-:END:
-
 * [2020-11-08] [[https://www.digitalocean.com/community/questions/i-want-to-know-how-to-block-ip-addresses-via-digitalocean][I want to know how to block IP addresses via Digitalocean? | DigitalOcean]] :hosting:
 :PROPERTIES:
 :ID:       swwwdgtlcncmcmmntyqstnswntblckpddrsssvdgtlcndgtlcn
@@ -626,7 +576,7 @@ https://github.com/kootenpv/gittyleaks
 : The simplest way to block specific IP address or ranges of them would be to set up a basic firewall using UFW. It is included with Ubuntu by default.
 : You can then block a specific IP address by running:
 :     sudo ufw deny from XXX.XXX.XX.XX
-* [2016-06-12] mutation testing
+* [2016-06-12] mutation testing                                     :testing:
 :PROPERTIES:
 :ID:       mttntstng
 :END:
@@ -650,16 +600,6 @@ http://matt.might.net/articles/programming-with-continuations--exceptions-backtr
 https://twitter.com/yoshikischmitz/status/1279566482188333056
 : @yoshikischmitz: Are there any apps out there for quickly filtering arbitrary lists of data w/ a simple "reject" and "accept" gesture? Thinking of something like Tinder but I make the cards, and can get a list of the accepted ones.
 
-* TODO [#C] matplotvr for a project name?                            :vr:viz:
-:PROPERTIES:
-:CREATED:  [2020-10-08]
-:ID:       mtpltvrfrprjctnm
-:END:
-* [#C] [2020-01-16] Running Lisp in Production                         :lisp:
-:PROPERTIES:
-:ID:       rnnnglspnprdctn
-:END:
-https://tech.grammarly.com/blog/running-lisp-in-production
 * TODO [#D] [2020-01-01] pavelfatin/toyide: Modern IDE plus custom programming languages with interpreters and compilers
 :PROPERTIES:
 :ID:       pvlftntydmdrndplscstmprgrglnggswthntrprtrsndcmplrs
@@ -688,14 +628,6 @@ https://codeburst.io/web-scraping-in-rust-881b534a60f7
 :PROPERTIES:
 :ID:       grttlfrthssthchrmxtnsnslctrgdgt
 :END:
-* TODO [#D] A Few Haskell Highlights: Top Haskell Resources of 2019    :agda:
-:PROPERTIES:
-:CREATED:  [2019-12-27]
-:ID:       fwhskllhghlghtstphskllrsrcsf
-:END:
-
-: To get to know Agda better, you can read this introductory post by Danya Rogozin.
-
 * [2020-07-07] [[https://lobste.rs/s/fepvea/against_testing#c_t52joz][against testing | Lobsters]] :testing:
 :PROPERTIES:
 :ID:       slbstrssfpvgnsttstngctjzgnsttstnglbstrs
@@ -708,10 +640,6 @@ https://codeburst.io/web-scraping-in-rust-881b534a60f7
 :END:
 
 https://hackernoon.com/guide-to-web-automation-889557804453
-* [2019-04-21] [[https://reddit.com/r/agda/comments/bej1jr/cubical_agda_and_probability_monads/][Cubical Agda and Probability Monads]] /r/agda :agda:
-:PROPERTIES:
-:ID:       srddtcmrgdcmmntsbjjrcbclgndscbclgdndprbbltymndsrgd
-:END:
 * [2019-05-06] [[https://reddit.com/r/rust/comments/bjnxd3/a_guide_to_rust_graphics_libraries_as_of_2019/][A Guide to Rust Graphics Libraries as of 2019]] /r/rust
 :PROPERTIES:
 :ID:       srddtcmrrstcmmntsbjnxdgdtsfgdtrstgrphcslbrrssfrrst
@@ -740,18 +668,6 @@ I bring this up every time someone thinks “full code coverage” means anythin
 
 https://twitter.com/stephentyrone/status/1073795608819855367
 
-* [2018-10-03] Scheme Lisp: feel the cool Andy Balaam Accu 2018   :talk:lisp:
-:PROPERTIES:
-:ID:       schmlspflthclndyblmcc
-:END:
-** 38:46 weird code as data (define s (lsit '+ 4 7))
-:PROPERTIES:
-:ID:       wrdcdsdtdfnslst
-:END:
-** [2019-10-20] eh, very basic talk and also doesn't really communicate why scheme/lisp are cool if you're experienced with multiple languages already. Thing with numbers and mscons at the end can be done on any PL
-:PROPERTIES:
-:ID:       hvrybsctlkndlsdsntrllycmmbrsndmscnstthndcnbdnnnypl
-:END:
 * [#C] [2018-03-19] CI_ERROR_TAG in comment, and then grep it       :testing:
 :PROPERTIES:
 :ID:       crrrtgncmmntndthngrpt
@@ -800,11 +716,6 @@ https://spacy.io/
 :END:
 https://github.com/public-apis/public-apis
 
-* [2018-11-13] good with explanation https://agda.readthedocs.io/en/latest/language/with-abstraction.html#simultaneous-abstraction :agda:
-:PROPERTIES:
-:ID:       gdwthxplntnsgdrdthdcsnltshbstrctnhtmlsmltnsbstrctn
-:END:
-tldr: write multiple with clauses; then pattern match on them to rewrite and eliminate
 * [2019-04-08] Syntactor                                           :json:ide:
 :PROPERTIES:
 :ID:       syntctr
@@ -898,22 +809,6 @@ https://www.reddit.com/r/cpp/comments/9cndcr/lldb_now_supports_syntax_highlighti
 :ID:       mhsrslypplncppcndntknwthtgdbhsgttmdthtsprttymd
 :END:
 
-* [2019-10-23] Let Over Lambda                                         :lisp:
-:PROPERTIES:
-:ID:       ltvrlmbd
-:END:
-https://letoverlambda.com/textmode.cl/guest/chap5.html
-dunno, wasn't really impressed much...
-* [2021-01-01] [[https://news.ycombinator.com/item?id=5227258][I think it would be not that much better than prefix. Infix is easier to read, ... | Hacker News]] :lisp:
-:PROPERTIES:
-:ID:       snwsycmbntrcmtmdthnktwldbtrthnprfxnfxssrtrdhckrnws
-:END:
-: The second thing is, intermediate variables makes code much more readable, but lisp strongly discourages this. The only way to create a lexical variable is with LET. But this causes indenting, which is pretty ugly. In fact, the use of indenting for both logical nesting and variable creation is a really nasty thing:
-* [2021-01-03] [[https://mikelevins.github.io/posts/2020-12-18-repl-driven/][On repl-driven programming - by mikel evins]] :repl:lisp:
-:PROPERTIES:
-:ID:       smklvnsgthbpstsrpldrvnnrpldrvnprgrmmngbymklvns
-:END:
-
 * TODO [#B] [2020-07-27] [[https://news.ycombinator.com/item?id=23965209][Apache Arrow 1.0 | Hacker News]] :ffi:cachew:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdpchrrwhckrnws
@@ -965,47 +860,6 @@ dunno, wasn't really impressed much...
 :ID:       snwsycmbntrcmtmdcrtdgrmswthcdsnggrphvzhckrnws
 :END:
 : 1. For manual editing, dot -Tx11 foo.dot displays the graph in a window and updates it automatically whenever you save. So you can have an editor window open and the dot window and see the results of every tweak. For automatically generated graphs, this provides you with a window that you can update by overwriting a file with a new graph description.
-* [#D] [2020-07-03] [[https://twitter.com/Josh_Ebner/status/1278733040181817345][Joshua Ebner on Twitter: "@_julesh_ @paulg Honest question: What's so great about Lisp?" / Twitter]] :lisp:
-:PROPERTIES:
-:ID:       stwttrcmjshbnrsttsjshbnrnnstqstnwhtssgrtbtlsptwttr
-:END:
-: Honest question:
-: What's so great about Lisp?
-* [#D] [2020-05-13] [[https://news.ycombinator.com/item?id=23164614][Janet: a lightweight, expressive and modern Lisp | Hacker News]] :lisp:
-:PROPERTIES:
-:ID:       snwsycmbntrcmtmdjntlghtwghtxprssvndmdrnlsphckrnws
-:END:
-: Okay, so when Clojure came along, it came with a strong underlying philosophy of what the language was supposed to be/do. Among them were design decisions such as, e.g.,:
-: 
-:   - VMs, not OSes, are the platforms of the future, so target the JVM
-:   - Object Orientation is overrated, but polymorphism is a good thing
-:   - Multi-core is here to stay, so use immutable data structures to greatly facilitate writing correct concurrent programs
-:   - Leverage the strengths of LISP but give it a modern overhaul (most notably, throw in different parenthesis)
-* [2020-12-31] [[https://common-lisp.net/project/mcclim/excite.html][McCLIM – A powerful GUI toolkit for Common Lisp]] :lisp:
-:PROPERTIES:
-:ID:       scmmnlspntprjctmcclmxcthtlmcclmpwrflgtlktfrcmmnlsp
-:END:
-
-* [2021-01-01] [[https://news.ycombinator.com/item?id=942684][Forth compiler in one literate x86 assembly file | Hacker News]] :lisp:
-:PROPERTIES:
-:ID:       snwsycmbntrcmtmdfrthcmplrnnltrtxssmblyflhckrnws
-:END:
-: Syntax is of course the most obvious `backward' thing. Conceptually Lisp moves you away from the machine and closer to math, Forth stays way closer. Forth does not (normally) include a garbage collector. Naming variables is discouraged. Forth is almost untyped, Lisp is strongly-dynamically typed. 
-* [2021-01-01] [[https://hyperpolyglot.org/lisp][Lisp: Common Lisp, Racket, Clojure, Emacs Lisp - Hyperpolyglot]] :lisp:
-:PROPERTIES:
-:ID:       shyprplygltrglsplspcmmnlsprcktcljrmcslsphyprplyglt
-:END:
-
-* TODO [2021-01-02] [[https://www.youtube.com/playlist?list=PLgq_B39Y_kKD9_sdCeE5SufaeAtbYPv80][(1) Online Lisp Meeting Videos - YouTube]] :lisp:towatch:
-:PROPERTIES:
-:ID:       swwwytbcmplylstlstplgqbykdcsftbypvnlnlspmtngvdsytb
-:END:
-
-* TODO [#C] [2021-01-08] [[https://norvig.com/python-lisp.html][Python for Lisp Programmers]] :python:lisp:
-:PROPERTIES:
-:ID:       snrvgcmpythnlsphtmlpythnfrlspprgrmmrs
-:END:
-
 * STRT [#C] [2020-01-20] A Totally Polished and not-at-all half-baked Take on Static vs Dynamic Typing • Buttondown :mypy:
 :PROPERTIES:
 :ID:       ttllyplshdndnttllhlfbkdtknsttcvsdynmctypngbttndwn
@@ -1043,7 +897,31 @@ deepnote vs google colab
 :ID:       shpfcdcdnggdlnscmvdncbsdsdvdncbsdsftwrngnrngbkrlsd
 :END:
 
-* [#B] [2020-10-21] [[https://news.ycombinator.com/item?id=24846887][Hands-Free Coding: How I develop software using dictation and eye-tracking | Hacker News]] :dictation:
+* [2019-05-27] Tweet from Виталий Брагилевский (@_bravit)               :fun:
 :PROPERTIES:
-:ID:       snwsycmbntrcmtmdhndsfrcdnrsngdcttnndytrcknghckrnws
+:ID:       twtfrmвиталийбрагилевскийbrvt
 :END:
+: Виталий Брагилевский (@_bravit) Tweeted:
+: @SrgGrch У программистов одна проблема — они тупые. Цель разработчиков языков программирования в том, чтобы этот факт не сильно мешал. https://twitter.com/_bravit/status/1130567953118834688?s=17
+
+* [2019-10-19] [[https://reddit.com/r/haskell/comments/dk69hc/empathy_and_subjective_experience_in_programming/][Empathy and subjective experience in programming languages]] /r/haskell :empathy:
+:PROPERTIES:
+:ID:       srddtcmrhskllcmmntsdkhcmpxprncnprgrmmnglnggsrhskll
+:END:
+
+* [#D] [2019-01-27] Daibhi O Domhnaill on Twitter: "Лайфхак: если во время собеседования на вопрос "какова сложность этого алгоритма?" ответить "а что, тормозит что ли? да перенесите на SSD и все дела", то сразу возьмут техническим директором" / Twitter
+:PROPERTIES:
+:ID:       dbhdmhnllntwttrлайфхакеслехническимдиректоромtwttr
+:END:
+https://twitter.com/OhTheAnguish/status/1089461515273621504
+* TODO [#C] add favoriting with javascript?                      :hackernews:
+:PROPERTIES:
+:CREATED:  [2020-02-15]
+:ID:       ddfvrtngwthjvscrpt
+:END:
+* TODO [#D] crudini whitespace around option
+:PROPERTIES:
+:ID:       crdnwhtspcrndptn
+:END:
+kina like in MC?
+https://github.com/pixelb/crudini/issues/33#issuecomment-240365862

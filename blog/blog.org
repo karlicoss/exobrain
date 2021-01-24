@@ -200,3 +200,8 @@ https://ogp.me/
 :PROPERTIES:
 :ID:       sstckvrflwcmqstnshwdyclrtrphcchfnrlntlgrmstckvrflw
 :END:
+* [#C] [2020-09-12] [[https://github.com/hikerpig/marka-js][hikerpig/marka-js]] :blog:exobrain:
+:PROPERTIES:
+:ID:       sgthbcmhkrpgmrkjshkrpgmrkjs
+:END:
+: Marka is a JavaScript lib that runs in the browser, it will mark anchor elements and add icons according to the href. It is inspired by https://beepb00p.xyz and anchorjs.

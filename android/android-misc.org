@@ -46,3 +46,7 @@ https://wiki.termux.com/wiki/Touch_Keyboard
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdndrdskllngtrmxtrmnlpphckrnws
 :END:
+* [#C] [2020-05-05] [[https://news.ycombinator.com/item?id=17002885][Google, please fix Android's slow, bloated share UI | Hacker News]] :android:sadinfra:interop:ui:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdgglplsfxndrdsslwbltdshrhckrnws
+:END:

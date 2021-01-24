@@ -134,3 +134,8 @@ https://www.gwern.net/Resilient-Haskell-Software
 :END:
 : stack build --profile
 : stack exec -- site rebuild +RTS -xc 
+* [2019-01-25] Henry de Valence on Twitter: "7 years ago i was very smart and wrote my website in haskell and now i can't update it because i forgot how to make a monad out of posts" / Twitter :haskell:fun:
+:PROPERTIES:
+:ID:       hnrydvlncntwttryrsgwsvryscsfrgthwtmkmndtfpststwttr
+:END:
+https://twitter.com/hdevalence/status/1088649294746275840
