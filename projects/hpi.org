@@ -83,24 +83,24 @@ wow, that looks quite elaborate and cool!
 :PROPERTIES:
 :ID:       rdprtyntgrtns
 :END:
-** TODO [#B] def need demonstration with Memacs...                   :memacs:
+** TODO [#B] demo: def need demonstration with Memacs...             :memacs:
 :PROPERTIES:
 :CREATED:  [2020-04-24]
-:ID:       dfnddmnstrtnwthmmcs
+:ID:       dmdfnddmnstrtnwthmmcs
 :END:
 ** TODO [#B] [2020-05-09] [[https://github.com/andrey-utkin/taskdb/wiki/Live-demo#workout-dashboard][Live demo · andrey-utkin/taskdb Wiki]]
 :PROPERTIES:
 :ID:       sgthbcmndrytkntskdbwklvdmtdshbrdlvdmndrytkntskdbwk
 :END:
 : it is pretty neat already for analysis with querying and visualization. But your stuff is orders of magnitude bigger. Possibly I will set up HPI for myself some day.
-** TODO [#C] Demo with QS ledger: should be easy it is to integrate    :blog:
+** TODO [#C] demo: with QS ledger: should be easy it is to integrate :qs:toblog:
 :PROPERTIES:
 :CREATED:  [2019-11-14]
 :ID:       dmwthqsldgrshldbsytstntgrt
 :END:
 e.g. https://github.com/markwk/qs_ledger/blob/master/instapaper/instapaper_data_analysis.ipynb
 or lastfm ipynb?
-** TODO [#A] [2020-05-14] could caption "HPI meets X"                  :blog:
+** TODO [#A] [2020-05-14] could caption "HPI meets X"                :toblog:
 :PROPERTIES:
 :ID:       cldcptnhpmtsx
 :END:
@@ -284,7 +284,7 @@ https://github.com/twintproject/twint/issues/786
 :ID:       mdldpndncsptnmdlsctllymybnmthmprgrmmtclly
 :END:
 
-** STRT [#B] Add data arbitration example for twitter                  :blog:
+** STRT [#B] Add data arbitration example for twitter                :toblog:
 :PROPERTIES:
 :CREATED:  [2020-04-15]
 :ID:       dddtrbtrtnxmplfrtwttr
@@ -435,7 +435,7 @@ can't have config/repos dir and config.py at the same time
 :PROPERTIES:
 :ID:       gthbsss
 :END:
-** STRT [#C] For demos of my tools generate fake data? Automatically map over fields; maybe env var? :jdoe:blog:
+** STRT [#C] For demos of my tools generate fake data? Automatically map over fields; maybe env var? :jdoe:
 :PROPERTIES:
 :CREATED:  [2019-07-11]
 :ID:       frdmsfmytlsgnrtfkdttmtcllympvrfldsmybnvvr
@@ -488,13 +488,13 @@ use some really really public account?
 :PROPERTIES:
 :ID:       pblctyrchngttthrppl
 :END:
-** TODO [#B] describe what I've done by the commit history? and comments etc :blog:
+** TODO [#B] describe what I've done by the commit history? and comments etc :toblog:
 :PROPERTIES:
 :CREATED:  [2020-09-30]
 :ID:       dscrbwhtvdnbythcmmthstryndcmmntstc
 :END:
 
-** TODO [#B] one of the goals is demonstraing the *architecture*       :blog:
+** TODO [#B] one of the goals is demonstraing the *architecture*     :toblog:
 :PROPERTIES:
 :CREATED:  [2020-05-22]
 :ID:       nfthglssdmnstrngthrchtctr
@@ -764,16 +764,16 @@ might be annoying to implement token retrieval on JS only?
 :PROPERTIES:
 :ID:       ddthstmynfrrpstry
 :END:
-** TODO [#B] [2020-05-27] dunno, I'm a bit tired and not as motivated to build it... but could post so someone else picks up :blog:
+** TODO [#B] [2020-05-27] dunno, I'm a bit tired and not as motivated to build it... but could post so someone else picks up :toblog:
 :PROPERTIES:
 :ID:       dnnmbttrdndntsmtvtdtbldtbtcldpstssmnlspcksp
 :END:
-* TODO [#C] could write a tool to process historic stats for github referrers etc? :blog:coding:
+* TODO [#C] could write a tool to process historic stats for github referrers etc? :toblog:coding:
 :PROPERTIES:
 :CREATED:  [2020-04-29]
 :ID:       cldwrttltprcsshstrcsttsfrgthbrfrrrstc
 :END:
-* TODO [#C] Make simplified data projections, so plots can be generated in couple of pandas commands :blog:dashboard:
+* TODO [#C] Make simplified data projections, so plots can be generated in couple of pandas commands :toblog:dashboard:
 :PROPERTIES:
 :CREATED:  [2019-12-25]
 :ID:       mksmplfddtprjctnsspltscnbgnrtdncplfpndscmmnds

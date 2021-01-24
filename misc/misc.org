@@ -2231,3 +2231,13 @@ People have figured out these things! The formulas exist in Excel spreadsheets a
 :PROPERTIES:
 :ID:       ndssndsplygrnddtvslstndtvslstn
 :END:
+* TODO [#B] go through every bit of code and make quick blog posts off them?? maybe even literate :literate:toexobrain:toblog:
+:PROPERTIES:
+:CREATED:  [2020-03-27]
+:ID:       gthrghvrybtfcdndmkqckblgpstsffthmmybvnltrt
+:END:
+* DONE [#A] [2020-02-12] [[https://news.ycombinator.com/item?id=22304759][Use a:visited in your CSS stylesheet]] :css:blog:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdsvstdnyrcssstylsht
+:END:
+https://evertpot.com/visited-links

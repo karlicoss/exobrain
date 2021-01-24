@@ -132,7 +132,7 @@ https://github.com/noctuid/evil-guide
 :END:
 https://emacsconf.org/2019/cfp
 
-* TODO [#C] [2019-10-18] [[https://reddit.com/r/emacs/comments/djfh3t/emacsconf_2019_schedule/][EmacsConf 2019 Schedule]] /r/emacs :watch:
+* TODO [#C] [2019-10-18] [[https://reddit.com/r/emacs/comments/djfh3t/emacsconf_2019_schedule/][EmacsConf 2019 Schedule]] /r/emacs :towatch:
 :PROPERTIES:
 :ID:       srddtcmrmcscmmntsdjfhtmcscnfschdlmcscnfschdlrmcs
 :END:
@@ -239,7 +239,7 @@ https://github.com/raxod502/el-patch
 :END:
 https://gitlab.com/ambrevar/emacs-gif-screencast
 
-* [#C] [2019-11-08] Whats your emacs setup like ? | Lobsters           :blog:
+* [#C] [2019-11-08] Whats your emacs setup like ? | Lobsters         :toblog:
 :PROPERTIES:
 :ID:       whtsyrmcsstplklbstrs
 :END:

@@ -55,7 +55,7 @@ tried gc -- didn't help
 :CREATED:  [2019-09-07]
 :ID:       smnmlpckgwthtx
 :END:
-* [#D] big problem is that all of them are trying to mix hosting files and  editing. :cloudmacs:blog:
+* [#D] big problem is that all of them are trying to mix hosting files and  editing. :cloudmacs:toblog:interop:
 :PROPERTIES:
 :CREATED:  [2019-09-08]
 :ID:       bgprblmsthtllfthmrtryngtmxhstngflsnddtng
@@ -106,7 +106,7 @@ Usecases:
 - public computers where you can't or don't want to install emacs
 - demonstrating emacs packages?
 
-* DONE If I dockerize it, could post about it...                 :blog:emacs:
+* DONE If I dockerize it, could post about it...               :toblog:emacs:
 :PROPERTIES:
 :CREATED:  [2019-09-06]
 :ID:       fdckrztcldpstbtt

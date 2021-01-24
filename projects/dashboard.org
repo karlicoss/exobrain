@@ -559,7 +559,7 @@ plotly dash regression example
 :ID:       bttrckrmtchngsbjctvscr
 :END:
 
-* STRT [#B] def need to measure decay to 60 to get more data...  :qs:hr:blog:
+* STRT [#B] def need to measure decay to 60 to get more data... :qs:hr:toblog:
 :PROPERTIES:
 :CREATED:  [2019-08-16]
 :ID:       dfndtmsrdcyttgtmrdt
@@ -682,7 +682,7 @@ plotly:
 :PROPERTIES:
 :ID:       cmprmskptsfrmwrkndpndntndcpldspssblspprtbthfrmwrks
 :END:
-* STRT [#B] basically have a core library that's imported in all notebooks. move stuff to core as long as possible, but allow quick button to mess with the data in notebook :blog:
+* STRT [#B] basically have a core library that's imported in all notebooks. move stuff to core as long as possible, but allow quick button to mess with the data in notebook :toblog:
 :PROPERTIES:
 :CREATED:  [2020-08-24]
 :ID:       bscllyhvcrlbrrythtsmprtdnlwqckbttntmsswththdtnntbk
@@ -1053,7 +1053,7 @@ by combining the HR data (recorded by endomondo) and manual data we get the comp
 :END:
 : Lag Plot
 : Lag plots are used to check if a data set or time series is random. Random data should not exhibit any structure in the lag plot. Non-random structure implies that the underlying data are not random.
-* TODO [#C] it's very important to benefit from the existing data science infrastructure as much as possible. jupiter, pandas, etc. :blog:
+* TODO [#C] it's very important to benefit from the existing data science infrastructure as much as possible. jupiter, pandas, etc. :interop:toblog:
 :PROPERTIES:
 :CREATED:  [2020-10-01]
 :ID:       tsvrymprtnttbnftfrmthxstntrctrsmchspssbljptrpndstc

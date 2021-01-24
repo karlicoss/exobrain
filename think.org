@@ -496,7 +496,7 @@ e.g. strip off unnecessary images and javascript , make CSS denser and more info
 :ID:       strtpblshngsmfmystffmybstrtwthrddtcmmnts
 :END:
 
-* TODO [#C] dunno about sunk cost                             :blog:software:
+* TODO [#C] dunno about sunk cost                           :toblog:software:
 :PROPERTIES:
 :CREATED:  [2020-05-20]
 :ID:       dnnbtsnkcst
@@ -628,7 +628,7 @@ Kedr
 :ID:       vrtlphtns
 :END:
 
-* TODO [#C] thread on quantum computation and errors?            :tweet:blog:
+* TODO [#C] thread on quantum computation and errors?          :tweet:toblog:
 :PROPERTIES:
 :CREATED:  [2020-08-02]
 :ID:       thrdnqntmcmpttnndrrrs
@@ -860,7 +860,7 @@ so things are a mix of regular grammar and just some extractors. think about it.
 :PROPERTIES:
 :ID:       hdfwntrstngthghtsthrncmmnts
 :END:
-* STRT [#C] simulate musical instruments with interesting boundary conditions ... :ideas:music:sim:quitar:blog:
+* STRT [#C] simulate musical instruments with interesting boundary conditions ... :ideas:music:sim:quitar:toblog:
 :PROPERTIES:
 :CREATED:  [2018-12-21]
 :ID:       smltmsclnstrmntswthntrstngbndrycndtns

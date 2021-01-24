@@ -4,13 +4,15 @@
  :page-name-order "file"
  :all-pages-public? true
  :feature/enable-journals? false
- :suppressed-tags ["watch", "towatch",
-                   "tolisten",
-                   "read", "toread", ;; TODO "think"? "study"? not sure, ideally need a separate layer...
-                   "buy",
-                   "motivation", "inspiration",
-                   "outbox", "tweet",
-                   "habit", "drill"]
+ :suppressed-tags #{"watch", "towatch",
+                    "tolisten",
+                    "read", "toread", ;; TODO "think"? "study"? not sure, ideally need a separate layer...
+                    ;; TODO "toblog" as well?
+                    "buy",
+                    "motivation", "inspiration",
+                    "outbox", "tweet",
+                    "habit", "drill",
+                    "A", "B", "C", "D", "E"} ;; ??? bug in logseq? not sure if there is much value in displayin this in graph?
  ;; TODO study as well?
 
  :project {

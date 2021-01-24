@@ -3,7 +3,7 @@
 
 Timeline is a simple attempt to display various life events as list. Sort of a simplistic #memex.
 
-* [#A] Rationale                                              :timeline:blog:
+* [#A] Rationale                                                   :timeline:
 :PROPERTIES:
 :ID:       rtnl
 :END:
@@ -77,7 +77,7 @@ meh, hasn't updated and even unclear what they implemented
 :PROPERTIES:
 :ID:       pblctyrchngttthrppl
 :END:
-** TODO [#C] I should post about it somewhere                          :blog:
+** TODO [#C] I should post about it somewhere                       :publish:
 :PROPERTIES:
 :ID:       shldpstbttsmwhr
 :END:

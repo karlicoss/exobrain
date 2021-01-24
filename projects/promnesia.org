@@ -2085,16 +2085,11 @@ https://github.com/karlicoss/promnesia
 :PROPERTIES:
 :ID:       hntsrfthssthcswthxtnsnsbkmrkltslkhypthssnhnyh
 :END:
-* DONE [#D] Add donation link, to bastien?                   :readme:project:
+* DONE [#D] Add donation link, to bastien?
 :PROPERTIES:
 :CREATED:  [2020-06-01]
 :ID:       dddntnlnktbstn
 :END:
-** [2020-06-05] share between projects
-:PROPERTIES:
-:ID:       shrbtwnprjcts
-:END:
-
 * TODO [#D] if I use sidebar, it will work even on websites that forbid html injections? :togithub:firefox:
 :PROPERTIES:
 :CREATED:  [2020-03-09]

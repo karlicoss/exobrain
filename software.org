@@ -21,7 +21,7 @@ https://twitter.com/karlicoss/status/945787882547105794
 
 
 - fb messenger https://twitter.com/karlicoss/status/991638799926034438
-* STRT [#C] Use basic html Gmail?                            :gmail:webbloat:
+* STRT [#C] Use basic html Gmail?                               :gmail:bloat:
 :PROPERTIES:
 :CREATED:  [2020-01-25]
 :ID:       sbschtmlgml
@@ -37,7 +37,7 @@ https://news.ycombinator.com/item?id=22137556
 https://twitter.com/burntsushi5/status/1321996275567517702
 : @burntsushi5: Finally had a chance to write this in one place. Here are my thoughts on software licensing and why I oppose copyleft.
 
-* [#C] [2020-05-05] [[https://drewdevault.com/2019/03/04/sourcehut-design.html][Sourcehut’s spartan approach to web design | Drew DeVault’s Blog]] :webbloat:ui:
+* [#C] [2020-05-05] [[https://drewdevault.com/2019/03/04/sourcehut-design.html][Sourcehut’s spartan approach to web design | Drew DeVault’s Blog]] :bloat:ui:
 :PROPERTIES:
 :ID:       sdrwdvltcmsrchtdsgnhtmlsrtnpprchtwbdsgndrwdvltsblg
 :END:
@@ -134,7 +134,7 @@ http://tonsky.me/blog/disenchantment/
 :ID:       stwttrcmgrvslzrdsttsgrvsdrlympssblnmstsftwrnwtwttr
 :END:
 : one of the primary reasons computers were *created* was to cross reference data. that is nearly impossible in most software now.
-* DONE [#A] [2020-02-10] [[https://news.ycombinator.com/item?id=22281801][Web Design: The First 100 Years (2014)]] :webbloat:
+* DONE [#A] [2020-02-10] [[https://news.ycombinator.com/item?id=22281801][Web Design: The First 100 Years (2014)]] :bloat:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdwbdsgnthfrstyrs
 :END:

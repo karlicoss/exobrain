@@ -13,7 +13,7 @@ This is possible for example for JSON: if the export from today is a superset of
 For a few I've got slight adjustments that normalise them before comparing by removing certain fields that change often, but not very important. For example, Reddit upvotes/downvotes always jump, so I just exclude them from the comparison.
 It's similar to extracting the useful fields, but instead it filters the useless ones. That makes it safer in case new fields are added by the backend, I'd rather keep extra data than potentially lose useful information.
 
-* TODO [#A] pattern of handling unknown data sources                   :blog:
+* TODO [#A] pattern of handling unknown data sources                 :toblog:
 :PROPERTIES:
 :CREATED:  [2020-12-08]
 :ID:       pttrnfhndlngnknwndtsrcs

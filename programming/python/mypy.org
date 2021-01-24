@@ -234,7 +234,7 @@ I guess I have to be careful on module levels then if I don't want unwanted crap
 : Just for the record: if someone needs to change the return type of the function inside the decorator and still have typed parameters, you can use a custom mypy plugin that literally takes 15 LoC: https://github.com/dry-python/returns/blob/92eda5574a8e41f4f5af4dd29887337886301ee3/returns/contrib/mypy/decorator_plugin.py
 : 
 : Saved me a lot of time!
-* [#B] [2020-05-25] [[https://github.com/python/mypy/issues/1927][Making a decorator which preserves function signature · Issue #1927 · python/mypy]] :mypy:blog:
+* [#B] [2020-05-25] [[https://github.com/python/mypy/issues/1927][Making a decorator which preserves function signature · Issue #1927 · python/mypy]] :mypy:
 :PROPERTIES:
 :ID:       sgthbcmpythnmypysssmkngdcsrvsfnctnsgntrsspythnmypy
 :END:

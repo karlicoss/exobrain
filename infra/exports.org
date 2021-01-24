@@ -318,7 +318,7 @@ https://www.blinkist.com/en/nc/highlights
 :PROPERTIES:
 :ID:       hhctllyfwbdrvrcldvsdrpnjsnrspnsswldbprfct
 :END:
-** TODO [2019-08-13] post in on github...                              :blog:
+** TODO [2019-08-13] post in on github...                            :toblog:
 :PROPERTIES:
 :ID:       pstnngthb
 :END:
@@ -816,3 +816,8 @@ https://twitter.com/Pinboard/status/1113807174717792256
 :ID:       snttrntbnjjsttsmbncxbnjjshftnwsmnnycfrrcrscntrnttr
 :END:
 : So I grabbed all of the chat logs,tweets and GDPR dumps I could get my hands on and compiled this graph on when I am generally "active" showing an impressive commitment to going to bed at midnight through the last 10 years...
+* TODO tusky android app keeps some history in tuskyDb         :hpi:mastodon:
+:PROPERTIES:
+:CREATED:  [2021-01-24]
+:ID:       tskyndrdppkpssmhstryntskydb
+:END:

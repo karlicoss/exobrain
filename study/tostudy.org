@@ -475,7 +475,7 @@ eh, still didn't quite get what are the mscroscopic consequences of that?
 : 9h
 : Level 3:
 : 2/ the *average* of all other parts of the system, regardless of their spatial location or network structure. For deep and surprising reasons, this sometimes gives not just approximately the right answer, but *exactly* the right answer, at least in an infinite limit.
-* TODO [#B] [2020-05-11] [[https://twitter.com/karlicoss/status/1259843632892436483][(1) jestem króliczkiem on Twitter: "@litgenstein I was hoping to work on some interactive Python notebooks based on this: https://t.co/yUd0TyTmQZ Will finally have some time to try it out soon!" / Twitter]] :blog:
+* TODO [#B] [2020-05-11] [[https://twitter.com/karlicoss/status/1259843632892436483][(1) jestem króliczkiem on Twitter: "@litgenstein I was hoping to work on some interactive Python notebooks based on this: https://t.co/yUd0TyTmQZ Will finally have some time to try it out soon!" / Twitter]] :toblog:
 :PROPERTIES:
 :ID:       stwttrcmkrlcsssttsjstmkrólfnllyhvsmtmttryttsntwttr
 :END:
@@ -529,7 +529,7 @@ useful for my tweet thread for physical impl of quantum computations
 :ID:       sgrvtyndlvtywrdprsscmhwcnnlctrnsbtplgclgrvtyndlvty
 :END:
 
-* STRT [#B] [2020-08-09] [[http://systems-sciences.uni-graz.at/etextbook/sw2/phpl_examples.html][Phase plane analysis: examples]] :blog:
+* STRT [#B] [2020-08-09] [[http://systems-sciences.uni-graz.at/etextbook/sw2/phpl_examples.html][Phase plane analysis: examples]] :toblog:
 :PROPERTIES:
 :ID:       systmsscncsngrzttxtbkswphxmplshtmlphsplnnlyssxmpls
 :END:
@@ -589,7 +589,7 @@ https://thedeemon.livejournal.com/140306.html
 : 
 : Про разложение в КТП есть такое, там при критическом анализе у математиков волосы дыбом встают, ряды частенько не сходятся. Но как-то получается у физиков на это наплевать и получать практически подтверждаемые результаты. :)
 : Но это не относится к вопросу интерпретации, это к вопросу вычислений.
-* [#B] thinking about schrodinger's cat experiment         :study:think:blog:
+* [#B] thinking about schrodinger's cat experiment       :study:think:toblog:
 :PROPERTIES:
 :CREATED:  [2020-07-21]
 :ID:       thnkngbtschrdngrsctxprmnt
@@ -4197,3 +4197,9 @@ w_y = u / gamma_v
 :END:
 
 https://en.wikipedia.org/wiki/Allied_Military_phonetic_spelling_alphabets#RAF_radiotelephony_spelling_alphabet
+
+* [#B] For Lagrangian stuff, talk out loud             :writing:tostudy:blog:
+:PROPERTIES:
+:CREATED:  [2020-02-21]
+:ID:       frlgrngnstfftlktld
+:END:

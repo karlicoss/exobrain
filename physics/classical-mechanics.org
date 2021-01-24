@@ -96,17 +96,18 @@ good points about meaning in the very end
 :PROPERTIES:
 :ID:       whnyfndthlrlgrngqtnsfryrssfrcsbtwrttnnthsgnrlvrbls
 :END:
-** TODO [2019-01-15] http://cp3-origins.dk/a/14332                     :blog:
+** TODO [2019-01-15] http://cp3-origins.dk/a/14332                   :toblog:
 :PROPERTIES:
 :ID:       cprgnsdk
 :END:
-When the action, and hence the phase, is stationary changing it by a small amount doesn’t change the phase by much. In a small region (compared to ℏ) these paths can add up coherently to give a significant contribution to the sum above. This is what we see in the cartoon above for a very small subset of paths.
-Classical mechanics is quantum mechanics using the stationary phase approximation.
+: When the action, and hence the phase, is stationary changing it by a small amount doesn’t change the phase by much. In a small region (compared to ℏ) these paths can add up coherently to give a significant contribution to the sum above. This is what we see in the cartoon above for a very small subset of paths.
+: Classical mechanics is quantum mechanics using the stationary phase approximation.
 *** hmm, interesting about Wick rotation...
 :PROPERTIES:
 :ID:       hmmntrstngbtwckrttn
 :END:
-Paths far from the minimum hardly contribute anything and so it isn’t necessary to calculate the action arbitrarily accurately.
+: Paths far from the minimum hardly contribute anything and so it isn’t necessary to calculate the action arbitrarily accurately.
+
 eh?
 
 ** Galilean invariance forces classical lagrangian to depend on velocity quadratically
@@ -334,7 +335,7 @@ understand:
 :END:
 ** ????
 :PROPERTIES:
-:ID:       12280_12288
+:ID:       12276_12284
 :END:
 
 

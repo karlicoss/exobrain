@@ -351,7 +351,7 @@ not very conclusive, no clear trends
 :END:
 https://www.reddit.com/r/Digital_Immortality/comments/b5g7xw/xpost_with_lifelogging_whats_your_setup_to/
 
-* TODO [#C] quick show and tell about my post on cognitive testing? :self:qs:blog:
+* TODO [#C] quick show and tell about my post on cognitive testing? :self:qs:toblog:
 :PROPERTIES:
 :CREATED:  [2019-04-22]
 :ID:       qckshwndtllbtmypstncgntvtstng
@@ -553,7 +553,7 @@ ok, can enable 'show log records' online..
 
 
 : At the moment I track my running pace and recovery times. I use the information to set a goal for each workout and plan them according to my energy levels. One of my friends is very organized in this sense and has tracked nearly all his runs this year. I've learned a great deal from him but I'd like to know more and understand what other ways there are to make use of the data that's out there.
-* STRT [#C] [2019-11-14] What I track and how : QuantifiedSelf      :blog:qs:
+* STRT [#C] [2019-11-14] What I track and how : QuantifiedSelf    :toblog:qs:
 :PROPERTIES:
 :ID:       whttrckndhwqntfdslf
 :END:

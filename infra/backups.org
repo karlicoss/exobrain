@@ -17,7 +17,7 @@ https://www.gwern.net/Notes#november-2016-data-loss-postmortem
 :PROPERTIES:
 :ID:       swwwrddtcmrdthrdrwkzfs
 :END:
-* STRT [#C] backups and cloud sync should be treated differently     :backup:
+* STRT [#C] backups and cloud sync should be treated differently     :toblog:
 :PROPERTIES:
 :CREATED:  [2019-04-03]
 :ID:       bckpsndcldsyncshldbtrtddffrntly
@@ -29,7 +29,7 @@ https://www.gwern.net/Notes#november-2016-data-loss-postmortem
 :END:
 https://archiveprogram.github.com/
 
-* TODO [#C] three purposes?                                     :blog:backup:
+* TODO [#C] three purposes?                                          :toblog:
 :PROPERTIES:
 :CREATED:  [2020-02-26]
 :ID:       24da6861-159f-42f4-b768-9fce2956d4eb

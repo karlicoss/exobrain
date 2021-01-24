@@ -125,3 +125,7 @@ https://stackoverflow.com/questions/48362093/cors-request-blocked-in-locally-ope
 : You can tell your browser to allow to connect from localhost to a backend if you change your backend to return the following header:
 : access-control-allow-origin: https://localhost:8888
 : And, you also need to tell your localhost server to serve your page in HTTPS instead of HTTP. Once both conditions are met, CORS validations won't fail.
+* [#C] [2019-11-10] localStorage can be used on client side to preserve state (no need to use cookies!) :webdev:
+:PROPERTIES:
+:ID:       lclstrgcnbsdnclntsdtprsrvsttnndtscks
+:END:

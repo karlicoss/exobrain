@@ -34,7 +34,7 @@ I guess we could backoff indefinitely; and rely on global timeout if necessary
 :CREATED:  [2018-04-09]
 :ID:       ntwrkrrrsshldbnnftlsncthygnrllycnbgrcfllyhndld
 :END:
-** TODO [2019-10-19] add to post?                                      :blog:
+** TODO [2019-10-19] add to post?                                    :toblog:
 :PROPERTIES:
 :ID:       ddtpst
 :END:
@@ -61,3 +61,8 @@ https://blog.yoshuawuyts.com/error-handling-survey
 : Like so many other things, error handling ultimately is a trade-off. When we're writing our initial code, we don't want to think about errors. We code to the happy path. How productive would you be if you had to derail every line of code with thought processes around the myriad ways your code could fail?
 : 
 : But then we're debugging a production issue, and we definitely want to think about errors. We curse our lazy selves for not handling an error case that obviously could have arisen. "Why did I decide to abort the process when the TCP connection failed? I should have retried! I should have logged the address I tried to connect to!"
+* TODO [#B] Post mypy err handling on GitHub as a separate thing     :toblog:
+:PROPERTIES:
+:CREATED:  [2020-02-06]
+:ID:       pstmypyrrhndlngngthbssprtthng
+:END:

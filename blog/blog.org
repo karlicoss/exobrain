@@ -2,55 +2,42 @@
 #+logseq_title: blog
 #+filetags: blog
 
-* Feed
-:PROPERTIES:
-:ID:       fd
-:END:
-** STRT [#B] [2019-12-21] What are your RSS Feed Size limits? – dlvr.it support
-:PROPERTIES:
-:ID:       whtryrrssfdszlmtsdlvrtspprt
-:END:
-https://support.dlvrit.com/hc/en-us/articles/115000029293-What-are-your-RSS-Feed-Size-limits-
-: What are your RSS Feed Size limits?
-: We do have RSS Feed Size limits that we employ to make posting more efficient for our Users.  For our Basic plan users, this limit is 512 KB,
+My blog is https://beepb00p.xyz, so far it's been for long form posts, whereas exobrain is for more raw unprocessed thoughts and notes.
 
+Here I collect notes/todos relevant to improving the blog experience.
 
-- ugh! need to minify?
-* STRT [#B] [2020-01-10] Stop using so many divs! An intro to semantic HTML - DEV Community
+* related
 :PROPERTIES:
-:ID:       stpsngsmnydvsnntrtsmntchtmldvcmmnty
+:ID:       rltd
 :END:
-https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
-** TODO [2020-01-18] org-html-timestamp -- to time
+** I mark things I want to write about with 'toblog' tag             :toblog:
 :PROPERTIES:
-:ID:       rghtmltmstmpttm
+:ID:       mrkthngswnttwrtbtwthtblgtg
+:END:
+** exobrain is a staging area for my blog                          :exobrain:
+:PROPERTIES:
+:ID:       xbrnsstgngrfrmyblg
 :END:
 
-* inspiration (design/presentation)
+* [#B] * inspiration (design/presentation)
 :PROPERTIES:
 :ID:       nsprtndsgnprsnttn
 :END:
-** [#B] [2020-01-17] Singing in the Wilderness             :inspiration:blog:
+** [#B] [2020-01-17] [[https://ai6ua.net][Singing in the Wilderness]]
 :PROPERTIES:
 :ID:       bb1a5249-f7a8-4c92-96fd-d90f97f09f2b
 :END:
-https://ai6ua.net
 right, so pretty nice design
-** TODO Большой пост о том, как я переезжал в Берлин :: Блог Вастрик.ру :blog:inspiration:
+** [#C] [2019-04-21] [[https://vas3k.ru/blog/go_to_berlin][Большой пост о том, как я переезжал в Берлин :: Вастрик.ру]]
 :PROPERTIES:
-:CREATED:  [2019-04-21]
-:ID:       большойпостотомкакяпереезжалвберлинблогвастрикру
+:ID:       svskrblggtbrlnбольшойпостпереезжалвберлинвастрикру
 :END:
-
-https://vas3k.ru/blog/go_to_berlin/
 Very good blog post!
-
-*** Во многом благодаря рисункам, как мне кажется. Норм мотивация поучиться рисовать :hobby:drawing:
+*** [2019-04-23] Во многом благодаря рисункам, как мне кажется. Норм мотивация поучиться рисовать :hobby:drawing:
 :PROPERTIES:
-:CREATED:  [2019-04-23]
 :ID:       вомногомблагодарярисункамотивацияпоучитьсярисовать
 :END:
-** TODO [#C] [2019-11-21] Projects | Intuitive Explanations :blog:inspiration:
+** TODO [#C] [2019-11-21] Projects | Intuitive Explanations
 :PROPERTIES:
 :ID:       prjctsnttvxplntns
 :END:
@@ -60,92 +47,72 @@ have list of my projects? moslty populate from github?
 :PROPERTIES:
 :ID:       sdnts
 :END:
-*** DONE [#C] [2019-05-29] Accessing list metadata in Hakyll :blog:inspiration:
+*** DONE [#C] [2019-05-29] [[http://mattwetmore.me/posts/hakyll-list-metadata.html][Accessing list metadata in Hakyll]]
 :PROPERTIES:
-:ID:       ccssnglstmtdtnhkyll
+:ID:       mttwtmrmpstshkylllstmtdthtmlccssnglstmtdtnhkyll
 :END:
-http://mattwetmore.me/posts/hakyll-list-metadata.html
 looks like nice sidenotes ...
 **** [2019-07-20] implemented via tables though..
 :PROPERTIES:
 :ID:       mplmntdvtblsthgh
 :END:
-*** DONE [#B] [2019-06-01] Local-first software: You own your data, in spite of the cloud :blog:inspiration:
+*** DONE [#B] [2019-06-01] [[https://www.inkandswitch.com/local-first.html][ink & switch: Local-first software]]
 :PROPERTIES:
-:ID:       lclfrstsftwrywnyrdtnsptfthcld
+:ID:       swwwnkndswtchcmlclfrsthtmlnkswtchlclfrstsftwr
 :END:
-https://www.inkandswitch.com/local-first.html
 nice side annotations
 **** [2019-07-20] ok, used this. TODO credit
 :PROPERTIES:
 :ID:       ksdthstdcrdt
 :END:
-*** TODO [2019-05-30] March 2019 news - Gwern.net                      :blog:
+*** TODO [2019-05-30] [[https://www.gwern.net/newsletter/2019/03][March 2019 news - Gwern.net]]
 :PROPERTIES:
-:ID:       mrchnwsgwrnnt
+:ID:       swwwgwrnntnwslttrmrchnwsgwrnnt
 :END:
-https://www.gwern.net/newsletter/2019/03
 :  gwern.net CSS changes: Tufte-style sidenotes (for displaying footnotes in margins on wide screens) via Obormot’s new JS library, sidenotes.js
 
-* amend
+** TODO [#B] Offer to help                                       :jonbo:blog:
 :PROPERTIES:
-:ID:       mnd
+:CREATED:  [2020-02-10]
+:ID:       ffrthlp
 :END:
-** TODO [#B] [2020-02-15] This Page is Designed to Last: A Manifesto for Preserving Content on the Web :blog:
-:PROPERTIES:
-:ID:       290bb11b-3d53-49ff-91a8-5b4924f8b972
-:END:
-https://jeffhuang.com/designed_to_last/
-: Stick with the 13 web safe fonts +2
-** [#B] [2020-01-18] How do you clear the Open Graph cache of an URL on Telegram? - Stack Overflow :staticblog:
-:PROPERTIES:
-:ID:       hwdyclrthpngrphcchfnrlntlgrmstckvrflw
-:END:
-https://stackoverflow.com/questions/34707915/how-do-you-clear-the-open-graph-cache-of-an-url-on-telegram/35156177#35156177
-** TODO [#B] go through every bit of code and make quick blog posts off them?? maybe even literate :blog:
-:PROPERTIES:
-:CREATED:  [2020-03-27]
-:ID:       gthrghvrybtfcdndmkqckblgpstsffthmmybvnltrt
-:END:
-** TODO [#C] https://merveilles.town/@lains/103527776315019237 abbr as tooltip :blog:
-:PROPERTIES:
-:CREATED:  [2020-01-22]
-:ID:       smrvllstwnlnsbbrstltp
-:END:
-I like to use <abbr> when I can :D
-Free tooltip for something without having to CSS a tooltip.
+: requests and/or offers of help: what are you looking for, and how are you willing to help others? Always be willing to pay it forward.
 
-** STRT [#C] [2019-12-27] The Open Graph protocol                      :blog:
+** [2021-01-14] [[https://wiki.xxiivv.com/site/left.html][XXIIVV — left]] :exobrain:blog:inspiration:
 :PROPERTIES:
-:ID:       thpngrphprtcl
+:ID:       swkxxvvcmstlfthtmlxxvvlft
 :END:
-https://ogp.me/
-: The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.
-*** TODO [2020-01-18] add description?
-:PROPERTIES:
-:ID:       dddscrptn
-:END:
-** TODO [#C] [2019-11-10] Cookies vs localStorage - Data Driven Investor - Medium :blog:
-:PROPERTIES:
-:ID:       cksvslclstrgdtdrvnnvstrmdm
-:END:
-https://medium.com/datadriveninvestor/cookies-vs-local-storage-2f3732c7d977
-: Cookies and local storage serve different purposes. Cookies are mainly for reading server-side, whereas local storage can only be read by the client-side.
+: A web version was initially created to help rekka with the writing of wiktopher,
 
-huh, so I can implement settings without having to use cookies!
-could poist about it
-* [#C] [2020-01-23] Web bloat                                 :webbloat:blog:
+very nice {internal} vs [external] link syntax
+* [#C] * visual style
 :PROPERTIES:
-:ID:       wbblt
+:ID:       vslstyl
 :END:
-https://danluu.com/web-bloat/
+** STRT [#B] all stuff in TOC should have _proper_ links               :blog:
+:PROPERTIES:
+:CREATED:  [2020-01-18]
+:ID:       765d9507-0bf8-4985-a8cd-d0b5739ae5a3
+:END:
+** TODO [#C] Display TODO as lowercase?                       :exobrain:blog:
+:PROPERTIES:
+:CREATED:  [2020-01-08]
+:ID:       dsplytdslwrcs
+:END:
 
-* DONE [#A] [2020-02-12] [[https://news.ycombinator.com/item?id=22304759][Use a:visited in your CSS stylesheet]] :css:blog:
+** WAIT [#C] perhaps tags should be displayed on top in the post?      :blog:
 :PROPERTIES:
-:ID:       snwsycmbntrcmtmdsvstdnyrcssstylsht
+:CREATED:  [2019-05-13]
+:ID:       prhpstgsshldbdsplydntpnthpst
 :END:
-https://evertpot.com/visited-links
-* TODO [#D] [2020-11-01] [[https://twitter.com/ThomasKainrad/status/1322928321097814016][Thomas Kainrad on Twitter: "About once a month, someone sends me an email to ask how I implemented the position-aware TOC sidebar on my blog. The answer is Tocbot: https://t.co/ifVHpq5C8Z https://t.co/q6eAzYv855" / Twitter]] :blog:
+** TODO [#C] Shit links are very hard to see without contacts/in dark
+:PROPERTIES:
+:CREATED:  [2019-11-04]
+:ID:       shtlnksrvryhrdtswthtcntctsndrk
+:END:
+for me, Recoll is mostly for searching and quickly jumping to results in PDFs and EPUBs (see screenshot).  There is helm-recoll
+
+** TODO [#D] [2020-11-01] [[https://twitter.com/ThomasKainrad/status/1322928321097814016][Thomas Kainrad on Twitter: "About once a month, someone sends me an email to ask how I implemented the position-aware TOC sidebar on my blog. The answer is Tocbot: https://t.co/ifVHpq5C8Z https://t.co/q6eAzYv855" / Twitter]] :blog:
 :PROPERTIES:
 :ID:       stwttrcmthmsknrdsttsthmskcbtstcfvhpqczstcqzyvtwttr
 :END:
@@ -154,10 +121,82 @@ https://evertpot.com/visited-links
 : https://tscanlin.github.io/tocbot/
 
 https://github.com/table-of-contents-sidebar/table-of-contents-sidebar
-* [2021-01-14] [[https://wiki.xxiivv.com/site/left.html][XXIIVV — left]] :exobrain:blog:inspiration:
+* [#C] * feed
 :PROPERTIES:
-:ID:       swkxxvvcmstlfthtmlxxvvlft
+:ID:       fd
 :END:
-: A web version was initially created to help rekka with the writing of wiktopher, 
+** STRT [#B] [2019-12-21] rss feeds sometimes have limits?
+:PROPERTIES:
+:ID:       rssfdssmtmshvlmts
+:END:
+- e.g. 512Kb here https://support.dlvrit.com/hc/en-us/articles/115000029293-What-are-your-RSS-Feed-Size-limits-
+*** TODO ugh! need to minify?
+:PROPERTIES:
+:ID:       ghndtmnfy
+:END:
 
-very nice {internal} vs [external] link syntax
+* [#D] * markup improvements
+:PROPERTIES:
+:ID:       mrkpmprvmnts
+:END:
+e.g. making it cleaner and more semantic
+
+** TODO [#B] detect multiple items with same id?              :exobrain:blog:
+:PROPERTIES:
+:CREATED:  [2020-01-19]
+:ID:       dtctmltpltmswthsmd
+:END:
+** STRT [#C] [2020-01-10] Stop using so many divs! An intro to semantic HTML - DEV Community :html:exobrain:
+:PROPERTIES:
+:ID:       stpsngsmnydvsnntrtsmntchtmldvcmmnty
+:END:
+https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
+*** TODO [2020-01-18] org-html-timestamp -- to time
+:PROPERTIES:
+:ID:       rghtmltmstmpttm
+:END:
+
+** TODO [#C] https://merveilles.town/@lains/103527776315019237 abbr as tooltip :exobrain:html:blog:
+:PROPERTIES:
+:CREATED:  [2020-01-22]
+:ID:       smrvllstwnlnsbbrstltp
+:END:
+: I like to use <abbr> when I can :D
+: Free tooltip for something without having to CSS a tooltip.
+
+** DONE [#A] [2020-02-12] [[https://news.ycombinator.com/item?id=22304759][Use a:visited in your CSS stylesheet]] :css:blog:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdsvstdnyrcssstylsht
+:END:
+https://evertpot.com/visited-links
+* TODO [#B] [2020-02-15] This Page is Designed to Last: A Manifesto for Preserving Content on the Web :blog:
+:PROPERTIES:
+:ID:       290bb11b-3d53-49ff-91a8-5b4924f8b972
+:END:
+https://jeffhuang.com/designed_to_last/
+: Stick with the 13 web safe fonts +2
+
+* ----------------------------------------------------------
+:PROPERTIES:
+:ID:       5701_5763
+:END:
+
+* [#C] [2020-01-23] Web bloat                                         :bloat:
+:PROPERTIES:
+:ID:       wbblt
+:END:
+https://danluu.com/web-bloat/
+* STRT [#C] [2019-12-27] The Open Graph protocol                       :blog:
+:PROPERTIES:
+:ID:       thpngrphprtcl
+:END:
+https://ogp.me/
+: The Open Graph protocol enables any web page to become a rich object in a social graph. For instance, this is used on Facebook to allow any web page to have the same functionality as any other object on Facebook.
+** TODO [2020-01-18] add description?
+:PROPERTIES:
+:ID:       dddscrptn
+:END:
+* [#C] [2020-01-18] [[https://stackoverflow.com/questions/34707915/how-do-you-clear-the-open-graph-cache-of-an-url-on-telegram/35156177#35156177][How do you clear the Open Graph cache of an URL on Telegram? - Stack Overflow]]
+:PROPERTIES:
+:ID:       sstckvrflwcmqstnshwdyclrtrphcchfnrlntlgrmstckvrflw
+:END:

@@ -343,3 +343,7 @@ apparently people like specific demos
 :ID:       lclhstlbjpytrlb
 :END:
 good setting design with system defaults (readonly) and user preferences on the side
+* [2020-06-05] share donation links in readme between projects
+:PROPERTIES:
+:ID:       shrdntnlnksnrdmbtwnprjcts
+:END:

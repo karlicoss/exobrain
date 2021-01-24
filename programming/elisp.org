@@ -130,7 +130,7 @@ but discoverability really suffers
 :ID:       gdprnfrsmtmssqtnc
 :END:
 sometimes though it arbitrarily reararnges parens. e..g I have to be _really_ careful when pasting big source blocks from elsewhere
-* TODO good parts                                                :elisp:blog:
+* TODO good parts                                              :elisp:toblog:
 :PROPERTIES:
 :CREATED:  [2021-01-01]
 :ID:       gdprts
@@ -178,7 +178,7 @@ advice-patch
 :   `(,nx ,ny)))
 : 
 : наверное это можно добиться если добавить какую-нибудь магию вроде макроса (scope ...), который эти let' правильно интерпретирует
-* TODO lisp unpacking like in python  =(let ((x '(2 3))) `(1 ,@x 4 5))= :drill:blog:elisp:
+* TODO lisp unpacking like in python  =(let ((x '(2 3))) `(1 ,@x 4 5))= :drill:toblog:elisp:
 :PROPERTIES:
 :CREATED:  [2021-01-01]
 :ID:       lspnpcknglknpythnltxx

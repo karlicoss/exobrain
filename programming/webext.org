@@ -492,7 +492,7 @@ https://stackoverflow.com/questions/2189452/when-to-use-margin-vs-padding-in-css
 :PROPERTIES:
 :ID:       mnmncslphbtcrdrdnn
 :END:
-** TODO [2019-05-13] this is also a good example for drill             :blog:
+** TODO [2019-05-13] this is also a good example for drill :spacedrep:toblog:
 :PROPERTIES:
 :ID:       thsslsgdxmplfrdrll
 :END:

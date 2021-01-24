@@ -587,7 +587,7 @@ you can't easily sort person's timeline even by objective metrics. let alone pic
 :CREATED:  [2021-01-02]
 :ID:       pblshnrgmdrddtmybwthsmhghlghts
 :END:
-** TODO [#C] about my simple search?                            :search:blog:
+** TODO [#C] about my simple search?                          :search:toblog:
 :PROPERTIES:
 :CREATED:  [2021-01-03]
 :ID:       btmysmplsrch
@@ -779,3 +779,21 @@ ugh. not sure about this way... at least it's gonna be deterministic then
 :PROPERTIES:
 :ID:       sthmcmyytbtrlstmytrlstfntrstngytbchnnlstrstnhm
 :END:
+* TODO need refile to inherit parent tag? definitely makes sense for exobrain refiles :org:
+:PROPERTIES:
+:CREATED:  [2021-01-24]
+:ID:       ndrfltnhrtprnttgdfntlymkssnsfrxbrnrfls
+:END:
+* TODO wtf? priorities are displayed in the graph now?               :logseq:
+:PROPERTIES:
+:CREATED:  [2021-01-24]
+:ID:       wtfprrtsrdsplydnthgrphnw
+:END:
+for now, suppressing in the config... 
+* TODO [#C] I guess sibling tags have a bigger weight than parent tags (and especially filetags?) :logseq:
+:PROPERTIES:
+:CREATED:  [2021-01-24]
+:ID:       gsssblngtgshvbggrwghtthnprnttgsndspcllyfltgs
+:END:
+e.g. sometimes file has a filetag, but a task is there because it's related for example to exobrain.
+but then it's gonna link the while filetag with the exobrain, which is somewhat misleading

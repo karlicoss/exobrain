@@ -20,7 +20,11 @@ https://cedric.tech/blog/reddits-save-functionality-sucks/
 :     pagination limit on Reddit site is limited to 25 items, thus requiring users to use the “Next Page” or “Prev Page” buttons a lot
 
 wow, the fuck?? they are deleted from history??
-** TODO [#C] motivation: I've got reddit, hackernews (no api, so mobile is separate), links from telegram, RSS :blog:orger:
+*** TODO [2021-01-04] add to blog too?                       :exports:toblog:
+:PROPERTIES:
+:ID:       ddtblgt
+:END:
+** TODO [#C] motivation: I've got reddit, hackernews (no api, so mobile is separate), links from telegram, RSS :toblog:orger:
 :PROPERTIES:
 :CREATED:  [2020-03-21]
 :ID:       mtvtnvgtrddthckrnwsnpsmblssprtlnksfrmtlgrmrss

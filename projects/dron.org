@@ -17,7 +17,7 @@ Github project: https://github.com/karlicoss/dron
 :CREATED:  [2020-03-16]
 :ID:       mngdvwwldbnctdsplytmrsnlyndcmmndnkyprsslkcrn
 :END:
-* [#B] readme/post amendemens?                                         :blog:
+* [#B] readme/post amendemens?                                       :toblog:
 :PROPERTIES:
 :ID:       rdmpstmndmns
 :END:

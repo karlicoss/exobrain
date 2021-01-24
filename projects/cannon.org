@@ -529,3 +529,8 @@ well, it's kinda fine now...
 :END:
 https://solar.lowtechmagazine.com/2016/11/the-curse-of-the-modern-office.html
 e.g. that link doesn't have 'canonical' even though it's a mirror
+* TODO would be useful to use the same normalising engine for #archivebox for example? :webarchive:
+:PROPERTIES:
+:CREATED:  [2021-01-24]
+:ID:       wldbsfltsthsmnrmlsngngnfrrchvbxfrxmpl
+:END:

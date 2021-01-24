@@ -232,7 +232,7 @@ https://twitter.com/nikitavoloboev/status/1231337713858732039
 :ID:       snwsycmbntrcmtmdxtrmlydslndwthtchnlgyplshlphckrnws
 :END:
 : It's okay to build things that aren't popular, that don't scale, or that aren't economically viable, for the delight of a few users.
-* TODO [#C] malleable organic memories with perfect digital archives. We will have a record :blog:
+* TODO [#C] malleable organic memories with perfect digital archives. We will have a record :toblog:
 :PROPERTIES:
 :CREATED:  [2019-10-24]
 :ID:       mllblrgncmmrswthprfctdgtlrchvswwllhvrcrd
@@ -240,7 +240,7 @@ https://twitter.com/nikitavoloboev/status/1231337713858732039
 Todo
 from Exhalation by Ted Chiang
 
-* TODO [#C] crap, it just feels like it's taking WAY too much time to share thing :tweet:blog:software:
+* TODO [#C] crap, it just feels like it's taking WAY too much time to share thing :tweet:toblog:software:
 :PROPERTIES:
 :CREATED:  [2020-05-20]
 :ID:       crptjstflslktstkngwytmchtmtshrthng
@@ -438,13 +438,13 @@ there is stuff to build and solve
 :END:
 ** [2020-12-16] .
 :PROPERTIES:
-:ID:       20554_20716
+:ID:       20558_20720
 :END:
 Dunno wtf? I kinda chilled all day, barely worked, cooked etc
 And yet I feel kinda sleepy, eyes really tired etc. The fuck is this??
 ** [2020-12-19] .
 :PROPERTIES:
-:ID:       20716_20901
+:ID:       20720_20905
 :END:
 Spent all day kinda procrastinating.. I definitely don't seem to know how to relax
 I guess in normal circumstances I could have gone bouldering or something

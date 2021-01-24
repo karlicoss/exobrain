@@ -1085,10 +1085,10 @@ https://twitter.com/mekarpeles/status/1281494830372335619
 : My takeaway from the recent trend in articles talking about how great the Zettelkasten method is:
 : 
 : Document what you do, as if you were describing your work and/or learning to a stranger. That stranger is you, in 6 months to 5 years time.
-* TODO [#C] example: enabling properties export for my blog   :blog:pkm:demo:
+* TODO [#C] example/demo: enabling properties export for my blog :elisp:toblog:
 :PROPERTIES:
 :CREATED:  [2019-11-17]
-:ID:       xmplnblngprprtsxprtfrmyblg
+:ID:       xmpldmnblngprprtsxprtfrmyblg
 :END:
 
 found that answer in google

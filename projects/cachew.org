@@ -46,7 +46,7 @@ why using separate columns at all
 :ID:       prfrmnchvnttstd
 :END:
 
-** TODO [#C] combines some of my favorite python features: type annotations, decorators, generators, context managers :python:blog:
+** TODO [#C] combines some of my favorite python features: type annotations, decorators, generators, context managers :python:toblog:
 :PROPERTIES:
 :CREATED:  [2019-05-01]
 :ID:       cmbnssmfmyfvrtpythnftrstytnsdcrtrsgnrtrscntxtmngrs
@@ -373,7 +373,7 @@ Maybe even dal is fine if I illustrate it by integration test?
 :END:
 add a super simple, trivial example. just with some dictionaries maybe?
 
-** STRT [#D] example could be merging of highlights from different sources, e.g. kobo and kindle :blog:
+** STRT [#D] example could be merging of highlights from different sources, e.g. kobo and kindle :toblog:
 :PROPERTIES:
 :CREATED:  [2019-04-21]
 :ID:       xmplcldbmrgngfhghlghtsfrmdffrntsrcsgkbndkndl
