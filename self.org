@@ -501,6 +501,16 @@ was gonna do some work on axol, or on blog... instead just not sure where to sta
 :ID:       yh
 :END:
 
+** [2020-04-12] spent an hour trying to get org-sync back into the working state :emacs:elisp:
+:PROPERTIES:
+:ID:       spntnhrtryngtgtrgsyncbckntthwrkngstt
+:END:
+https://twitter.com/karlicoss/status/1249271137105838084
+just fuck this. I'm better off rewriting it in Python
+
+: (switch-to-buffer (url-retrieve-synchronously "https://api.github.com/repos/karlicoss/HPI/issues")
+
+this (used in org-sync internals) simply results in empty buffer and silently ignored by org-sync. fucking hell.
 * I love open source                                                   :self:
 :PROPERTIES:
 :ID:       lvpnsrc

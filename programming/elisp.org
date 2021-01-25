@@ -1,33 +1,62 @@
 #+TITLE: Elisp
 #+filetags: elisp
 
-* related                                                             :emacs:
+* related                                                        :lisp:emacs:
 :PROPERTIES:
 :ID:       rltd
 :END:
 
+* [#A] * lists manipulation
+:PROPERTIES:
+:ID:       lstsmnpltn
+:END:
+** [#A] use ~dash.el~
+:PROPERTIES:
+:ID:       sdshl
+:END:
+** ~append '(a b c) '(d e f)~ to concat
+:PROPERTIES:
+:ID:       ppndbcdftcnct
+:END:
 
-* [#B] * code style
+* [#A] * string manipulation
+:PROPERTIES:
+:ID:       strngmnpltn
+:END:
+** [#A] [2019-09-05] [[https://github.com/magnars/s.el][magnars/s.el: The long lost Emacs string manipulation library]]
+:PROPERTIES:
+:ID:       sgthbcmmgnrsslmgnrsslthlnglstmcsstrngmnpltnlbrry
+:END:
+much saner and more consisten than builtins
+
+* [#B] * debugging
+:PROPERTIES:
+:ID:       dbggng
+:END:
+** [#C] [2018-10-13] ~(message (buffer-string))~
+:PROPERTIES:
+:ID:       mssgbffrstrng
+:END:
+
+
+* [#C] * code style
 :PROPERTIES:
 :CREATED:  [2018-04-24]
 :ID:       cdstyl
 :END:
 http://lisp-lang.org/style-guide/
 
-** variable naming
-:PROPERTIES:
-:ID:       vrblnmng
-:END:
-- ~*earmuff*~ style for mutable globals?
-However:
-- dynamic variables have a prefix
-- local variables (or anything set with a let) do not have a prefix
+- variable naming
+  - ~*earmuff*~ style for mutable globals?
+  but:
+  - dynamic variables have a prefix
+  - local variables (or anything set with a let) do not have a prefix
 
-** predicates
-:PROPERTIES:
-:ID:       prdcts
-:END:
-end with ~p~ or ~-p~
+- prefer =when cond= to =if cond ...=, prefer =unless cond= to =if (not cond)=
+
+- predicates
+  end with ~p~ or ~-p~
+- doesn't have namespaces. ~package--private-function~ ~package-public-function~
 
 ** defclass?
 :PROPERTIES:
@@ -37,25 +66,14 @@ end with ~p~ or ~-p~
 :PROPERTIES:
 :ID:       typslttrvltypslb
 :END:
-** use when smth instead of if smth (dox), use nuless smth instead of if not smth (dox)
+
+
+* [#C] [2018-06-18] sharp-quote names of functions ~(mapcar #'fun list)~
 :PROPERTIES:
-:ID:       swhnsmthnstdffsmthdxsnlsssmthnstdffntsmthdx
-:END:
-** package--private-function package-public-function
-:PROPERTIES:
-:ID:       pckgprvtfnctnpckgpblcfnctn
+:ID:       shrpqtnmsffnctnsmpcrfnlst
 :END:
 
-* lists manipulation
-:PROPERTIES:
-:ID:       lstsmnpltn
-:END:
-** append '(a b c) '(d e f) -- concat lists
-:PROPERTIES:
-:ID:       ppndbcdfcnctlsts
-:END:
-
-* [2018-04-24] elisp basics
+* [#C] [2018-04-24] elisp basics
 :PROPERTIES:
 :ID:       lspbscs
 :END:
@@ -70,174 +88,50 @@ no named params, no type checking..
 
 thing-at-point
 
-* [#B] [2018-06-18] sharp-quote names of functions ~(mapcar #'fun list)~
+* [#B] [2020-02-02] /r/emacs: [[https://reddit.com/r/emacs/comments/exnxha/withemacs_almost_all_you_need_to_know_about/][(Almost) All You Need to Know About Variables]]
 :PROPERTIES:
-:ID:       shrpqtnmsffnctnsmpcrfnlst
+:ID:       rmcssrddtcmrmcscmmntsxnxhknwbtlmstllyndtknwbtvrbls
 :END:
 
-* [#C] [2020-02-27] regexps are case sensitive
+* [#C] [2021-01-06] unwind-protect works as with / try-finally block :python:elisp:
 :PROPERTIES:
-:ID:       rgxpsrcssnstv
-:END:
-https://www.reddit.com/r/emacs/comments/5jip0g/strange_replaceregexpinstring_behavior/
-: So, if you want case sensitive, do
-: (let ((case-fold-search nil))
-:      (replace-regexp-in-string "my" "your" "mycat.txt" t t)
-: )
-
-fucking hell.. regexes in elisp are case sensitive, and that's controlled by a fucking variable. jesus
-
-
-
-* [#B] [2020-02-02] [[https://reddit.com/r/emacs/comments/exnxha/withemacs_almost_all_you_need_to_know_about/][with-emacs · (Almost) All You Need to Know About Variables]] /r/emacs
-:PROPERTIES:
-:ID:       srddtcmrmcscmmntsxnxhwthmslmstllyndtknwbtvrblsrmcs
-:END:
-* TODO [#D] [2019-07-24] [[https://reddit.com/r/emacs/comments/chfv7y/tutorial_on_good_lisp_programming_style/][Tutorial on Good Lisp Programming Style]] /r/emacs :elisp:
-:PROPERTIES:
-:ID:       srddtcmrmcscmmntschfvyttrtrlngdlspprgrmmngstylrmcs
+:ID:       nwndprtctwrksswthtryfnllyblck
 :END:
 
-* TODO defaul error reporting sucks                                   :elisp:
-:PROPERTIES:
-:CREATED:  [2021-01-01]
-:ID:       dflrrrrprtngscks
-:END:
-e.g. try making a typo here. by default it dumps a single message with absolutely no context whatsoever (file/line number)
-: (advice-add #'org-org-section         :befoire #'exobrain/before-org-org-section)
-
-stacktrace is pretty useful too
-* TODO elisp sucks                                                    :elisp:
-:PROPERTIES:
-:CREATED:  [2021-01-01]
-:ID:       lspscks
-:END:
-let bindings struct is _really_ annoying, which discourages naming variables
-* TODO sort of hard to express... but basically                       :elisp:
-:PROPERTIES:
-:CREATED:  [2021-01-01]
-:ID:       srtfhrdtxprssbtbsclly
-:END:
-maybe it's just org-mode thing since this is the only 'big' elisp system I worked with
-example with org-element-set/adopt in exobrain source code
-if it was language with 'real' types, it would be easy to dir() or somethign to see what methods are available
-but maybe it would be less flexible, I dunno
-on the other hands it means that you can always hack it *somehow* and then maybe figure out 'proper'
-but discoverability really suffers
-* TODO good: parinfer sometimes is quite nice                         :elisp:
-:PROPERTIES:
-:CREATED:  [2021-01-01]
-:ID:       gdprnfrsmtmssqtnc
-:END:
-sometimes though it arbitrarily reararnges parens. e..g I have to be _really_ careful when pasting big source blocks from elsewhere
-* TODO good parts                                              :elisp:toblog:
-:PROPERTIES:
-:CREATED:  [2021-01-01]
-:ID:       gdprts
-:END:
-advice-patch
-* TODO elisp sucks: discourages intermediate variables                :elisp:
-:PROPERTIES:
-:CREATED:  [2021-01-01]
-:ID:       lspscksdscrgsntrmdtvrbls
-:END:
-
-: собственно мотивационный пример на питоне
-: 
-: def normalize(vec):
-:    x, y = vec
-:    len = sqrt(x ** 2 + y ** 2)
-:    if len == 0:
-:        raise RuntimeError(f'bad vector {vec}')
-: 
-:    nx = x / len
-:    ny = y / len
-:    return (nx, ny)
-: 
-: на елиспе
-: 
-: (defun normalize (vec)
-:   (let* ((x   (car vec))
-:          (y   (cdr vec)))
-:          (len (sqrt (* x x) (* y y))))
-:     (if (=0 len)
-:         (error (format "bad vector %s" vec)))
-:     (let* ((nx (/ x len))
-:            (ny (/ y len)))
-:       `(,nx ,ny)))
-: 
-: а я хочу как-то так
-: 
-: (defun normalize (vec)
-:   (let' (x y) vec) ;; can't do in elisp?? maybe with cl-destructuring-bind...
-:   (let' len   (sqrt (* x x) (* y y)))
-:   (if (= 0 len)
-:       (error (format "bad vector %s" vec))
-:   (let' nx (/ x len)
-:         ny (/ y len))
-:   `(,nx ,ny)))
-: 
-: наверное это можно добиться если добавить какую-нибудь магию вроде макроса (scope ...), который эти let' правильно интерпретирует
-* TODO lisp unpacking like in python  =(let ((x '(2 3))) `(1 ,@x 4 5))= :drill:toblog:elisp:
+* TODO [#C] lisp unpacking like in python  =(let ((x '(2 3))) `(1 ,@x 4 5))= :drill:python:
 :PROPERTIES:
 :CREATED:  [2021-01-01]
 :ID:       lspnpcknglknpythnltxx
 :END:
-* [2021-01-06] unwind-protect works as with / try-finally block :python:elisp:
+
+* ----------------------------------------
 :PROPERTIES:
-:ID:       nwndprtctwrksswthtryfnllyblck
+:ID:       1793_1837
 :END:
-* TODO good things: hacking on the config while loading stuff via eval-defun :elisp:
+
+* TODO [#D] [2019-07-24] /r/emacs: [[https://reddit.com/r/emacs/comments/chfv7y/tutorial_on_good_lisp_programming_style/][Tutorial on Good Lisp Programming Style]]
 :PROPERTIES:
-:CREATED:  [2021-01-06]
-:ID:       gdthngshckngnthcnfgwhlldngstffvvldfn
+:ID:       rmcssrddtcmrmcscmmntschfvtylttrlngdlspprgrmmngstyl
 :END:
-i.e. I think people who advocate for REPL are pitching for a completely wrong thing -- I want to keep my code tidy, it's just nice to execute it instantly
-* [#C] [2020-12-13] [[https://karthinks.com/software/more-batteries-included-with-emacs/][More batteries included with emacs | Karthinks]] regexes in elisp :elisp:
+
+* [#C] [2020-12-13] [[https://karthinks.com/software/more-batteries-included-with-emacs/][More batteries included with emacs | Karthinks]] regexes in elisp
 :PROPERTIES:
 :ID:       skrthnkscmsftwrmrbttrsnclclddwthmcskrthnksrgxsnlsp
 :END:
 : A cleaner approach to regular expressions in Emacs, as most package maintainers will tell you, is to use the rx library instead. rx translates regular expressions in sexp form to a regexp string:
-* [2019-09-05] magnars/s.el: The long lost Emacs string manipulation library. :elisp:
-:PROPERTIES:
-:ID:       mgnrsslthlnglstmcsstrngmnpltnlbrry
-:END:
-https://github.com/magnars/s.el
-
-* [2018-10-13] debugging ~(message (buffer-string))~
-:PROPERTIES:
-:ID:       dbggngmssgbffrstrng
-:END:
-
-
-* [2021-01-02] [[https://github.com/Wilfred/ht.el][Wilfred/ht.el: The missing hash table library for Emacs]]
+* TODO [#C] [2021-01-02] [[https://github.com/Wilfred/ht.el][Wilfred/ht.el: The missing hash table library for Emacs]]
 :PROPERTIES:
 :ID:       sgthbcmwlfrdhtlwlfrdhtlthmssnghshtbllbrryfrmcs
 :END:
 
-* [2021-01-16] [[https://www.gnu.org/software/emacs/manual/html_node/eintr/else.html][gnu.org/software/emacs/manual/html_node/eintr/else.html]] :elisp:
+* [#D] [2020-02-16] Changing Properties - GNU Emacs Lisp Reference Manual https://www.gnu.org/software/emacs/manual/html_node/elisp/Changing-Properties.html
 :PROPERTIES:
-:ID:       swwwgnrgsftwrmcsmnlhtmlndftwrmcsmnlhtmlndntrlshtml
+:ID:       chngngprprtsgnmcslsprfrnchtmlndlspchngngprprtshtml
 :END:
-: Note that the different levels of indentation make it easy to distinguish the then-part from the else-part.
-
-ugh, this fucking sucks. how the fuck is this makes it easier. 
-e.g. if you swap if and else clauses, indentation changes
-* [#D] [2020-02-16] Changing Properties - GNU Emacs Lisp Reference Manual
-:PROPERTIES:
-:ID:       chngngprprtsgnmcslsprfrncmnl
-:END:
-https://www.gnu.org/software/emacs/manual/html_node/elisp/Changing-Properties.html
 : Function: add-text-properties start end props &optional object
 : This function adds or overrides text properties for the text between start and end in the string or buffer object. If object is nil, it defaults to the current buffer.
 
 jesus
-* [#D] [2019-10-20] Output Functions - GNU Emacs Lisp Reference Manual :elisp:lisp:
-:PROPERTIES:
-:ID:       tptfnctnsgnmcslsprfrncmnl
-:END:
-https://www.gnu.org/software/emacs/manual/html_node/elisp/Output-Functions.html#Output-Functions
-: why lisp sucks
 * TODO [#D] [2019-09-20] How to Locate the Variable I Need? : orgmode :toblog:org:elisp:
 :PROPERTIES:
 :ID:       hwtlctthvrblndrgmd
@@ -248,8 +142,8 @@ https://www.reddit.com/r/orgmode/comments/d6wzkr/how_to_locate_the_variable_i_ne
 : Ok, what builting org function could possibly use number of stars? Right, when I promote/demote the subtree it must be using that at some point.
 
 small tutorial for hacking on emacs?
-* TODO [#C] "How do we kill Elisp?"                            :elisp:toblog:
+* TODO [#C] mention defvar vs setq                                    :emacs:
 :PROPERTIES:
-:CREATED:  [2020-04-12]
-:ID:       hwdwklllsp
+:CREATED:  [2020-02-24]
+:ID:       mntndfvrvsstq
 :END:
