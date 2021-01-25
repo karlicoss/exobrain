@@ -199,3 +199,64 @@ create issue in orger repo
 :PROPERTIES:
 :ID:       lthghfrthsmybrsssbttrnththndgndslklttdfrstvrsnfrss
 :END:
+
+* STRT [#B] demo: materialistic app              :toblog:orger:materialistic:
+:PROPERTIES:
+:CREATED:  [2020-04-28]
+:ID:       dmmtrlstcpp
+:END:
+Hi, this yet another demo of Orger and today I want to show how I'm using it to process my Hackernews bookmarks.
+
+So, on my Andoird phone I'm using this app, called Materialistic.
+It's a nice, clean, open source. It cache articles for offline, so I quite like it.
+
+But, one downside is that the list of saved items its not synchronised with your Hackernews account.
+That is, it only keeps saved articles locally on the phone.
+
+I guess the main reason is because Hackernews doesn't have an API. So if the developers were to implement saving functionality,
+they would have to use web scraping etc, which is tedious. But anyway, that's not the point.
+Because even if it sync, your save items list on hackernews is static.
+You can't reorder it, you can't prioritize it, you can't add some comment or annotation.
+
+(TODO show screenshot)
+
+And I'm saving a lot of links, and I don't have enough time to read all of them.
+
+So.. and let me show how Orger helps with this.
+TODO jump to the file
+So as you can see I've already got some stuff organized. For now let's jump to the end, where new saved items are added.
+It's easy to spot items that are new, since they don't have a priority yet.
+So what I would normally do is -- I would check out this file, perhaps once it couple of weeks.
+
+First, I'm going through new items, and putting a priority on each of them from A to D, just based on the title.
+TODO so for example (show examples of items the I want to read now, hence put A, and unlikely, so put D)
+
+Once I've done that, I can sort everything. So we can select everything. and call org-sort-entries, and choose 'prioirity'
+And -- whoops, you can see it's put the highest priority stuff on the top.
+
+So I've got like, two articles marked as A, which I can read right now.
+Sometimes I would also go through the items marked as B/C and once again, top up the prirority, sort, and here you go.
+That way you can process the most important and relevant stuff and keep up to your content queue.
+
+One question people often ask -- if you admit you will probably never have time to read everything, why don't you just remove stuff with the lowest priority.
+
+Two ansers: 1 -- sometimes I might go throught them and top up the priority. TODO priorities change, etc., so I might be TODO to read this later.
+
+The second answer -- it's useful for search. So I might not necessarily read the item directly. But I've got a global search over all of my information.
+
+TODO demonstrate, for example.
+
+I'm using similar TODO for reddit.
+And you can set it up for pretty much anything similar.
+
+
+TODO demonstrate on global search for 'Database Schema'?
+
+TODO set (setq frame-title-format "%b") in emacs for presentation mode
+
+
+
+TODO at the end of video demonstrate HPI?? and the command running in cron?
+TODO the script running on phone? ... not sure...
+but could show a snippet I guess
+crontab -l | grep materialistic, etc

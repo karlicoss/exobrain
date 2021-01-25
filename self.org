@@ -665,3 +665,17 @@ I like when people are passionate and excited about their work and hobbies? Make
 :ID:       swwwytbcmwtchvdlmszpjrgnxprncjhncrmckytb
 :END:
 1:16 Carmack speaking about good sides of online
+* [#C] dependency/milestone graph                               :self:toblog:
+:PROPERTIES:
+:CREATED:  [2020-05-13]
+:ID:       dpndncymlstngrph
+:END:
+
+need to live long <- need to be physically healthy <- need to eat good food <- research/learn about the nutrition, different diets etc <-
+log all food <- can't log restaurant/takeaway food <- cook almost all food by youself
+need to spend less time cooking food <- become less fussy, cook in bulk, as little prep and processing as possible_
+* TODO [#B] [2019-11-08] Alexey Guzey https://guzey.com
+:PROPERTIES:
+:ID:       lxygzysgzycm
+:END:
+: I wanted to make my vision of the future more probable

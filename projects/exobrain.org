@@ -827,3 +827,9 @@ but then it's gonna link the while filetag with the exobrain, which is somewhat 
 :PROPERTIES:
 :ID:       twsprtdrctrsntszmzmsmrlkktsrmrchtcndgnrllygnttdlst
 :END:
+* STRT [#C] Summarise things that interest me via org tags         :exobrain:
+:PROPERTIES:
+:CREATED:  [2019-02-01]
+:ID:       smmrsthngsthtntrstmvrgtgs
+:END:
+That's also an example of how can I use porg

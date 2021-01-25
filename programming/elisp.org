@@ -248,3 +248,8 @@ https://www.reddit.com/r/orgmode/comments/d6wzkr/how_to_locate_the_variable_i_ne
 : Ok, what builting org function could possibly use number of stars? Right, when I promote/demote the subtree it must be using that at some point.
 
 small tutorial for hacking on emacs?
+* TODO [#C] "How do we kill Elisp?"                            :elisp:toblog:
+:PROPERTIES:
+:CREATED:  [2020-04-12]
+:ID:       hwdwklllsp
+:END:

@@ -188,7 +188,7 @@ https://news.ycombinator.com/item?id=19137353
 : Another package with great UI is calfw.
 : Of course, there were already plenty of great classic packages (e.g. Dired, Calc, Gnus or Eshell) and modes (e.g. AucTeX, SLIME, ESS...). But things are getting really good lately.
 : ELPA and use-package have also done away with lots of friction points when installing and updating packages.
-* TODO [#C] emacs need something like check_call in case rg is missing :config:
+* TODO [#C] emacs need something like check_call in case rg is missing :elisp:
 :PROPERTIES:
 :CREATED:  [2019-09-08]
 :ID:       mcsndsmthnglkchckcllncsrgsmssng
@@ -956,3 +956,8 @@ https://github.com/alphapapa/emacs-package-dev-handbook
 :ID:       sgthbcmmcshlmhlmcmmtccdfctfrfdshllcmmndmcshlmhlmcc
 :END:
 : Add support for fd shell command
+* TODO [#C] most common commands I'm using? could collect some stats automatically perhaps :emacs:toblog:
+:PROPERTIES:
+:CREATED:  [2020-02-24]
+:ID:       23def293-ed05-4f0a-b8c2-91dfe86451ca
+:END:

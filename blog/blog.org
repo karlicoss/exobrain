@@ -205,3 +205,37 @@ https://ogp.me/
 :ID:       sgthbcmhkrpgmrkjshkrpgmrkjs
 :END:
 : Marka is a JavaScript lib that runs in the browser, it will mark anchor elements and add icons according to the href. It is inspired by https://beepb00p.xyz and anchorjs.
+* [#D] [2020-03-19] my jinja templats were basically code with if and for statements
+:PROPERTIES:
+:ID:       myjnjtmpltswrbscllycdwthfndfrsttmnts
+:END:
+* [#D] [2020-04-09] karlicoss: "Also, the total size of Hakyll code is 500 LOC (w…" - Merveilles :blog:
+:PROPERTIES:
+:ID:       krlcsslsthttlszfhkyllcdslcwmrvlls
+:END:
+https://merveilles.town/@karlicoss/103965589931203958
+: Also, the total size of Hakyll code is 500 LOC (without the comments), which supports my guess that Haskell isn't necessarily good for such task.
+: (And that doesn't take the Hakyll library itself into account!)
+* TODO [#D] arguments against compiling in emacs: it's single threaded? :exobrain:emacs:blog:
+:PROPERTIES:
+:CREATED:  [2020-04-09]
+:ID:       rgmntsgnstcmplngnmcstssnglthrdd
+:END:
+* TODO [#D] nice thing about using @cache is that I don't have to mess with inotify. there are very few inputs for my blog and I can just check them every second :blog:
+:PROPERTIES:
+:CREATED:  [2020-04-10]
+:ID:       ncthngbtsngcchsthtdnthvtmyblgndcnjstchckthmvryscnd
+:END:
+I guess the only downside is
+I need poke-symlink which gets around inotify anyway!
+* TODO [#D] mention configuring github actions for automatic releases? :blog:
+:PROPERTIES:
+:CREATED:  [2020-04-18]
+:ID:       mntncnfgrnggthbctnsfrtmtcrlss
+:END:
+* TODO [#D] I find it very useful? to read post on a mobile device :blog:writing:
+:PROPERTIES:
+:CREATED:  [2020-01-12]
+:ID:       fndtvrysfltrdpstnmbldvc
+:END:
+I guess different screen size makes your reading patterns different, so you notice different things

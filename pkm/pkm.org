@@ -2194,3 +2194,27 @@ huh, didn't know that!!
 :END:
 https://beepb00p.xyz/annotating.html
 : In .kobo/Kobo/Kobo ereader.conf, add [FeatureSettings] ExportHighlights=true
+* TODO [#C] [2019-04-19] inspiration: About – A Curious Mix          :qs:pkm:
+:PROPERTIES:
+:ID:       nsprtnbtcrsmx
+:END:
+http://www.acuriousmix.com/about
+summary of software they use
+* TODO [#C] using Reddit as search engine              :search:reddit:toblog:
+:PROPERTIES:
+:CREATED:  [2019-10-31]
+:ID:       sngrddtssrchngn
+:END:
+
+https://news.ycombinator.com/item?id=21403294
+
+* TODO [#D] I'm interested in ways of fast processing of semistructured data like json (link to kython things?) :toblog:pkm:
+:PROPERTIES:
+:CREATED:  [2019-06-16]
+:ID:       mntrstdnwysffstprcssngfsmctrddtlkjsnlnktkythnthngs
+:END:
+* TODO [#D] write about fmc?                                     :toblog:pkm:
+:PROPERTIES:
+:CREATED:  [2019-09-04]
+:ID:       wrtbtfmc
+:END:

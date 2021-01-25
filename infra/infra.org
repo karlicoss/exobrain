@@ -218,13 +218,6 @@ https://news.ycombinator.com/item?id=22607112
 : That said, it runs linux so you could conceivably backup the files yourself. You can ssh into your tablet, run sftp, w/e. But they are in some proprietary .lines format.
 : There's a wiki with more details (the file format stuff is further down): https://remarkablewiki.com/tech/filesystem
 : It may be possilbe you could hack it to run xournal, but I've no idea.
-* TODO [#C] [2020-04-16] [[https://lobste.rs/s/jwwhb6/gnu_guix_1_1_0_released#c_88slhh][GNU Guix 1.1.0 released | Lobsters]] :nix:towatch:
-:PROPERTIES:
-:ID:       slbstrssjwwhbgngxrlsdcslhhgngxrlsdlbstrs
-:END:
-: I never understood what all the fuzz is about until I saw this talk at fosdem this year: https://fosdem.org/2020/schedule/event/guix/
-: I really liked all the features presented, unfortunately I am not in an environment where I could use guix, but it is def. something I keep an eye on.
-
 * [#C] [2020-06-18] [[https://pythonspeed.com/articles/dockerizing-python-is-hard/][Broken by default: why you should avoid most Dockerfile examples]]
 :PROPERTIES:
 :ID:       spythnspdcmrtclsdckrzngpytwhyyshldvdmstdckrflxmpls
@@ -657,4 +650,93 @@ E.g. dashboard for token refreshing that stores then in files
 * TODO [#C] [2019-12-01] inspiration: people Describing Their Hardware/Software Setup https://karl-voit.at/other-peoples-IT-setup/ :setup:toblog:
 :PROPERTIES:
 :ID:       nsprtnppldscrbngthrhrdwrsftwrstpskrlvttthrpplststp
+:END:
+* DONE [#C] [2020-04-16] [[https://lobste.rs/s/jwwhb6/gnu_guix_1_1_0_released#c_88slhh][GNU Guix 1.1.0 released | Lobsters]]
+:PROPERTIES:
+:ID:       slbstrssjwwhbgngxrlsdcslhhgngxrlsdlbstrs
+:END:
+video (50m) fosdem talk Guix: [[https://fosdem.org/2020/schedule/event/guix/][Unifying provisioning, deployment, and package management in the age of containers]]
+- [2021-01-24] hmm so it has ~--container~ mode, nice
+* TODO [#D] how to organize your filesystem, cloud sync & backups?   :toblog:
+:PROPERTIES:
+:CREATED:  [2020-03-13]
+:ID:       hwtrgnzyrflsystmcldsyncbckps
+:END:
+scheck, dangling etc
+* TODO [#C] cloud heartbeat thing for syncthing/dropbox?              :cloud:
+:PROPERTIES:
+:ID:       cldhrtbtthngfrsyncthngdrpbx
+:END:
+the quicker you notice, the better because conflict resolution sucks
+
+** [2019-09-29] on few occasions I had
+:PROPERTIES:
+:ID:       nfwccsnshd
+:END:
+** [2019-09-29] android power settings might mess
+:PROPERTIES:
+:ID:       ndrdpwrsttngsmghtmss
+:END:
+
+** TODO [#C] Release my heartbeat thing? For phone and desktop Could work for both Dropbox and synching
+:PROPERTIES:
+:CREATED:  [2019-09-05]
+:ID:       rlsmyhrtbtthngfrphnnddsktcldwrkfrbthdrpbxndsynchng
+:END:
+E.g. systemd has no graphical indication if something crashed
+*** [2019-09-06] also could post somewhere? maybe on selfhosted
+:PROPERTIES:
+:ID:       lscldpstsmwhrmybnslfhstd
+:END:
+*** [2019-09-06] make sure there is nothing existing?
+:PROPERTIES:
+:ID:       mksrthrsnthngxstng
+:END:
+
+* TODO [#C] [2019-11-07] lab notebook // thoughts and notes     :infra:setup:
+:PROPERTIES:
+:ID:       lbntbkthghtsndnts
+:END:
+http://joshmontague.com/
+: The Setup
+: My version of The Setup, a post about how I get things done.
+* STRT [#C] Wrote a blog post on my current setup of applications/services that I am using. :infra:toblog:
+:PROPERTIES:
+:CREATED:  [2019-10-08]
+:ID:       wrtblgpstnmycrrntstpfpplctnssrvcsthtmsng
+:END:
+http://maniacanshul.com/proDigitalPrivacy/Alternatives.html
+
+* STRT how to tell people about my way of handling personal data (yielding exceptions, being defensive etc) :toblog:exports:
+:PROPERTIES:
+:CREATED:  [2019-04-09]
+:ID:       hwttllpplbtmywyfhndlngprsnldtyldngxcptnsbngdfnsvtc
+:END:
+
+* TODO [#C] Heartbeat for syncthing?                           :cloud:toblog:
+:PROPERTIES:
+:CREATED:  [2018-10-24]
+:ID:       hrtbtfrsyncthng
+:END:
+* TODO [#C] [2019-12-12] aesadde | My Personal Filesystem   :pkm:setup:infra:
+:PROPERTIES:
+:ID:       sddmyprsnlflsystm
+:END:
+http://aesadde.xyz/posts/2019/2019-08-13-filesystem.html
+** [2019-12-18] ok, nothing too crazy, but good example of setup
+:PROPERTIES:
+:ID:       knthngtcrzybtgdxmplfstp
+:END:
+
+* STRT [#C] What's next?                                       :infra:toblog:
+:PROPERTIES:
+:CREATED:  [2020-01-07]
+:ID:       whtsnxt
+:END:
+Find a way to simplify and make it more effecient.
+
+* TODO [#C] syncthing paranoid: node_modules, rust dirs etc?          :cloud:
+:PROPERTIES:
+:CREATED:  [2019-11-23]
+:ID:       syncthngprndndmdlsrstdrstc
 :END:

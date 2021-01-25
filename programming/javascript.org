@@ -250,3 +250,9 @@ https://www.pluralsight.com/guides/javascript-callbacks-variable-scope-problem
 :PROPERTIES:
 :ID:       sstrsdvncdftrsnflwhtmldvncdftrsnflwstrs
 :END:
+
+* TODO [#C] Js flow example with tweets l, then could post on JavaScript subreddit? :js:toblog:errors:
+:PROPERTIES:
+:CREATED:  [2019-10-31]
+:ID:       jsflwxmplwthtwtslthncldpstnjvscrptsbrddt
+:END:

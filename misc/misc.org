@@ -2134,3 +2134,29 @@ How I write back ends - https://news.ycombinator.com/item?id=22106482
 :CREATED:  [2019-04-19]
 :ID:       nmbrfntrsnmyntbksrtlstcptrvsnncptr
 :END:
+* TODO [#D] Post my hn userscript?                                   :toblog:
+:PROPERTIES:
+:CREATED:  [2020-04-26]
+:ID:       pstmyhnsrscrpt
+:END:
+* [#C] [2019-11-01] [[https://reddit.com/r/emacs/comments/dq42vk/building_personal_search_engine_using_emacs_and/f61kptm/][Building personal search engine: using Emacs and Ripgrep to search in your code and knowledge]] /r/emacs :pinboard:
+:PROPERTIES:
+:ID:       srddtcmrmcscmmntsdqvkbldngrptsrchnyrcdndknwldgrmcs
+:END:
+:   Happy that you liked it!
+:   I used to be a heavy user of [Pinboard](https://pinboard.in/u:karlicoss), however after I got used to Org-mode, managing bookmarks in browser started feeling more and more clumsy. I wanted something really fast, immediately searchable, easy to archive or move around. So I ended up implementing an extension for that, [grasp](https://github.com/karlicoss/grasp)! I write about it in detail [here](https://beepb00p.xyz/grasp.html).
+: 
+:   Basically, I found it so convenient that I just stopped adding new bookmaks to Pinboard altogether (you can see they end on January, when I released Grasp :D ). I don't really think of captured links as 'bookmarks' anymore even, more like normal urls you could put anywhere in your notes you feel convenient. For instance, I don't need to keep a separate bookmark in some special place for the website where I'm buying contact lens, I just keep a link under the recurring task that reminds me to buy contacts. Of course having links in my org-mode lets me utilize all the things it offers like properties, tags, etc.
+: 
+:   I still think Pinboard has great social value, so one day I want to write some script that collects urls from my org-mode notes and syncs them back to Pinboard, so other people could find them.
+* TODO [#D] Resorted movie ratings                            :rating:toblog:
+:PROPERTIES:
+:CREATED:  [2019-09-04]
+:ID:       rsrtdmvrtngs
+:END:
+
+* TODO [#E] About Sennheisers if i get to crafting my own            :toblog:
+:PROPERTIES:
+:CREATED:  [2018-11-09]
+:ID:       btsnnhsrsfgttcrftngmywn
+:END:

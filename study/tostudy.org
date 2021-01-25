@@ -4203,3 +4203,8 @@ https://en.wikipedia.org/wiki/Allied_Military_phonetic_spelling_alphabets#RAF_ra
 :CREATED:  [2020-02-21]
 :ID:       frlgrngnstfftlktld
 :END:
+* TODO [#C] symplectic.ipynb                             :symplectic:tostudy:
+:PROPERTIES:
+:CREATED:  [2019-04-02]
+:ID:       symplctcpynb
+:END:

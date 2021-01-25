@@ -2116,3 +2116,30 @@ https://talk.automators.fm/t/how-i-track-my-life-with-integromat-airtable-shortc
 :CREATED:  [2019-02-20]
 :ID:       slpmsrngshwthmntlsttvrbl
 :END:
+* TODO [#C] https://naked-science.ru/article/biology/poterya-vsego-16-minut-sna-mozhet fuck this study! Self reporting on the scale from 0 to 4 for 8 days -- what the hell is that?? :qs:
+:PROPERTIES:
+:CREATED:  [2019-04-26]
+:ID:       snkdscncrrtclblgyptryvsgmhsclfrmtfrdyswhtthhllstht
+:END:
+* TODO [#C] map of europe with some pins and photos? :travel:toblog:lifelogging:
+:PROPERTIES:
+:CREATED:  [2019-05-11]
+:ID:       mpfrpwthsmpnsndphts
+:END:
+* TODO [#D] Public photo gallery?                       :self:qs:lifelogging:
+:PROPERTIES:
+:CREATED:  [2019-04-11]
+:ID:       pblcphtgllry
+:END:
+** [2019-05-26] post some photos; referred dynamically by file names? defensive so warn if photos could not be found
+:PROPERTIES:
+:ID:       pstsmphtsrfrrddynmcllybyfmsdfnsvswrnfphtscldntbfnd
+:END:
+** [2019-05-26] If I want to do it in org mode, wonder if just easier to render via my own parser...
+:PROPERTIES:
+:ID:       fwnttdtnrgmdwndrfjstsrtrndrvmywnprsr
+:END:
+** [2021-01-24] I guess it should be fine to explicitly link to the public ones, no one needs all photos there
+:PROPERTIES:
+:ID:       gsstshldbfntxplctlylnktthpblcnsnnndsllphtsthr
+:END:

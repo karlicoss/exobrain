@@ -10,22 +10,27 @@ How can we make it more powerful, intuitive, pleasant to use?
 :PROPERTIES:
 :ID:       rltd
 :END:
-** .                                                       :decentralization:
-:PROPERTIES:
-:ID:       199_223
-:END:
 ** .                                                               :software:
 :PROPERTIES:
-:ID:       223_239
+:ID:       199_215
+:END:
+** .                                                            :programming:
+:PROPERTIES:
+:ID:       215_234
+:END:
+** .                                                           :decentralize:
+:PROPERTIES:
+:ID:       234_254
 :END:
 ** .                                                              :malleable:
 :PROPERTIES:
-:ID:       239_256
+:ID:       254_271
 :END:
 ** .                                                                :interop:
 :PROPERTIES:
-:ID:       256_271
+:ID:       271_286
 :END:
+
 
 * [#A] the sad state of personal data and infrastructure           :sadinfra:
 :PROPERTIES:
@@ -181,11 +186,13 @@ https://github.com/d-cook/SomethingNew/issues/20
 :END:
 
 https://mobile.twitter.com/jborichevskiy/status/1228372354956394496
-* [#B] [2019-12-30] Roger Gregory Interview at Ted Nelson Book Launch : Internet Archive : Free Download, Borrow, and Streaming : Internet Archive :tednelson:towatch:
+* DONE [#C] [2019-12-30] video (20m): [[https://archive.org/details/possiplexrogergregoryinterview][Roger Gregory: Interview at Ted Nelson Book Launch]] :xanadu:
 :PROPERTIES:
-:ID:       rgrgrgryntrvwttdnlsnbklncwnldbrrwndstrmngntrntrchv
+:ID:       vdmsrchvrgdtlspssplxrgrgrgrgrgryntrvwttdnlsnbklnch
 :END:
-https://archive.org/details/possiplexrogergregoryinterview
+- [2021-01-24]
+  they anticipated 'same data model, many interfaces'. Instead we have multiple ways of storing the same data and the same interface (web browser)
+  also very relatable when Roger talks about wanting to fix something because it's shit.
 
 * TODO [#B] [2019-10-01] Steve Krouse: "Future of Coding" · Issue 23 · d-cook/SomethingNew :tolisten:
 :PROPERTIES:
@@ -220,13 +227,6 @@ http://hood.ie/blog/offline-first-and-the-circle-of-web-part-ii-breaking-the-cir
 :ID:       fflnfrst
 :END:
 http://offlinefirst.org/
-
-* [2020-06-13] [[https://news.ycombinator.com/item?id=23496800][Design Principles Behind Smalltalk (1981) | Hacker News]] :towatch:smalltalk:
-:PROPERTIES:
-:ID:       snwsycmbntrcmtmddsgnprncplsbhndsmlltlkhckrnws
-:END:
-: If you're tired of hearing about the virtues of Smalltalk (like I was at one point) and ask "if it is so good, why isn't it popular?", then watch @deech's talk (Aditya Siram) - "What FP can learn from SmallTalk" - https://www.youtube.com/watch?v=baxtyeFVn3w
-: I think it is the most accessible explanation of the marvel of Smalltalk, for those who were not lucky to work with it during the late 80-90s.
 
 * DONE [#B] [2020-06-03] [[https://www.infoq.com/presentations/We-Really-Dont-Know-How-To-Compute/][We Really Don't Know How To Compute!]] :towatch:
 :PROPERTIES:
@@ -467,18 +467,18 @@ http://worrydream.com/#!/KillMath
 :END:
 https://tonsky.me/blog/good-times-weak-men
 
-* [#D] [2019-01-01] https://www.youtube.com/watch?v=baxtyeFVn3w what fp can learn from smalltalk :fp:
+* [#D] [2019-01-01] talk: [[https://www.youtube.com/watch?v=baxtyeFVn3w][what fp can learn from smalltalk]] :fp:smalltalk:
 :PROPERTIES:
-:ID:       swwwytbcmwtchvbxtyfvnwwhtfpcnlrnfrmsmlltlk
+:ID:       tlkswwwytbcmwtchvbxtyfvnwwhtfpcnlrnfrmsmlltlk
 :END:
-** nice introspection .. I guess, but tied in in a single IDE
+- nice introspection .. I guess, but tied to a single IDE
+- not sure why is he talking specifically about fp??
+** [2020-06-13] [[https://news.ycombinator.com/item?id=23496800][Design Principles Behind Smalltalk (1981) | Hacker News]]
 :PROPERTIES:
-:ID:       ncntrspctngssbttdnnsngld
+:ID:       snwsycmbntrcmtmddsgnprncplsbhndsmlltlkhckrnws
 :END:
-** Not sure why is he talking specifically about fp??
-:PROPERTIES:
-:ID:       ntsrwhyshtlkngspcfcllybtfp
-:END:
+: I think it is the most accessible explanation of the marvel of Smalltalk, for those who were not lucky to work with it during the late 80-90s.
+
 * [2020-05-13] [[https://en.wikipedia.org/wiki/ZigZag_(software)][ZigZag (software) - Wikipedia]] :tednelson:pkm:
 :PROPERTIES:
 :ID:       snwkpdrgwkzgzgsftwrzgzgsftwrwkpd
@@ -561,3 +561,8 @@ read comments here
 :END:
 : [Microsoft is about to shut off its ebook DRM servers: "The books will stop working"](https://boingboing.net/2019/06/28/jun-17-2004.html)
 : Yet another sobering reminder that data bought/hoarded with DRM is only data rented. You can – and almost certainly will – lose access to it at any time.
+* DONE [#C] [2019-06-01] End-user programming
+:PROPERTIES:
+:ID:       ndsrprgrmmng
+:END:
+https://www.inkandswitch.com/end-user-programming.html

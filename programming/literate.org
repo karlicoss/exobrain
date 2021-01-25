@@ -127,3 +127,8 @@ benefit is that your source becomes literate and you can keep doc next to source
 :ID:       shwhnnnsnwbnsprdltrtprgrmsrhckrnwssnwsycmbntrcmtmd
 :END:
 : In practice, very few pieces of software are written in a way that lends itself to a cohesive narrative. Software is written by numerous developers, layer by layer, often with hacks thrown in. New people come on, don't understand the whole thing, change parts of it, and move on. The requirements change, and the system contorts itself to serve multiple purposes that weren't envisioned by the original coders.
+* TODO [#C] [2020-01-26] literate-readme · GitHub Topics
+:PROPERTIES:
+:ID:       ltrtrdmgthbtpcs
+:END:
+https://github.com/topics/literate-readme

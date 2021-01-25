@@ -1773,7 +1773,7 @@ there is github topics, github description, readme, pypi readem, readthedocs rea
 :END:
 generators, decorators and random dynamic things with examples
 
-** TODO [#C] Literal types and demonstrate mypy? Perhaps timezones as example? :blog:python:config:
+** TODO [#C] Literal types and demonstrate mypy? Perhaps timezones as example? :toblog:python:configs:
 :PROPERTIES:
 :CREATED:  [2019-12-05]
 :ID:       ltrltypsnddmnstrtmypyprhpstmznssxmpl
@@ -1783,3 +1783,17 @@ generators, decorators and random dynamic things with examples
 :PROPERTIES:
 :ID:       swwwhlllwyncmpstlrnnglnggthhrdprtflrnnglngghlllwyn
 :END:
+* [#B] I've gained massive amounts of random Python knowledge over the past month of actively working on my projects :toblog:python:
+:PROPERTIES:
+:CREATED:  [2020-04-19]
+:ID:       vgndmssvmntsfrndmpythnknwtmnthfctvlywrkngnmyprjcts
+:END:
+but I have no idea how to communicate it.
+some problems are just obscure to write a proper blog post or something
+self-answering stackoverflow questions??
+* TODO [#D] [2020-01-04] python - How can I make setuptools install a package that's not on PyPI? - Stack Overflow
+:PROPERTIES:
+:ID:       pythnhwcnmkstptlsnstllpckgthtsntnpypstckvrflw
+:END:
+https://stackoverflow.com/questions/3472430/how-can-i-make-setuptools-install-a-package-thats-not-on-pypi
+why python sucks: dependencies

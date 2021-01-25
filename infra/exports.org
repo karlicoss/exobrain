@@ -867,3 +867,103 @@ https://reddit.com/r/QuantifiedSelf/comments/eo41j6/what_data_on_myself_i_collec
 : https://help.github.com/en/github/collaborating-with-issues-...
 : I don't think that's true, I've personally recovered deleted repositories by finding its forks.
 : edit: Ah never mind it seems things work differently in the case of DMCA takedowns
+
+* [#C] [2019-12-27] 'hostage model' is a good term :toblog:dataliberation:sadinfra:
+:PROPERTIES:
+:ID:       hstgmdlsgdtrm
+:END:
+referring to software/services when data is held
+* TODO [#A] [2020-02-03] Data lake - Wikipedia                  :dal:exports:
+:PROPERTIES:
+:ID:       a8ff52d6-d6b9-40ee-b07c-561831ced351
+:END:
+https://en.wikipedia.org/wiki/Data_lake
+
+* [#C] [2020-03-17] "GitHub blocked me and all my libraries"  https://news.ycombinator.com/item?id=22593595
+:PROPERTIES:
+:ID:       gthbblckdmndllmylbrrssnwsycmbntrcmtmd
+:END:
+
+* TODO [#B] thinking about data providers                    :dataliberation:
+:PROPERTIES:
+:CREATED:  [2019-09-04]
+:ID:       thnkngbtdtprvdrs
+:END:
+
+Easiest option is just to have separate scripts to run regularly?
+
+** most users won't care about keeping historic data? Or maybe not keeping data at all? jsut provide lambda?
+:PROPERTIES:
+:ID:       mstsrswntcrbtkpnghstrcdtrmybntkpngdttlljstprvdlmbd
+:END:
+so the backup script could provide TODO
+
+** most users won't have cron set up?
+:PROPERTIES:
+:ID:       mstsrswnthvcrnstp
+:END:
+so need a way to trigger backup from promnesia indexer itself? Fairly easy to achieve as it's all just python code?
+
+** to backup, use some python patternt library?
+:PROPERTIES:
+:ID:       tbckpssmpythnpttrntlbrry
+:END:
+** example how it could work:
+:PROPERTIES:
+:ID:       xmplhwtcldwrk
+:END:
+in promnesia
+
+: def index_reddit():
+:     from exporters.reddit import export
+:     # TODO?
+:     return
+* [#C] BM export                                                :bluemaestro:
+:PROPERTIES:
+:ID:       bmxprt
+:END:
+** TODO [#C] automate, about how I back up bluemaestro data          :toblog:
+:PROPERTIES:
+:CREATED:  [2019-02-13]
+:ID:       tmtbthwbckpblmstrdt
+:END:
+** [2019-09-29] yeah, could elaborate on backing up android data, could be quite generic? :android:
+:PROPERTIES:
+:ID:       yhcldlbrtnbckngpndrddtcldbqtgnrc
+:END:
+
+* STRT [#C] Post about various ways of data handling  :toblog:dataliberation:
+:PROPERTIES:
+:CREATED:  [2019-09-25]
+:ID:       pstbtvrswysfdthndlng
+:END:
+Mock response from backend
+Ignore method
+Mypy literal
+This is what rust does
+
+* [#A] [2019-10-03] another big goal is having little operational overhead. I'd rather set up a (potentially elaborate) system once and tthen never have to update it and think how it works :exports:infra:
+:PROPERTIES:
+:ID:       nthrbgglshvnglttlprtnlvrhhnnvrhvtpdttndthnkhwtwrks
+:END:
+** [2019-10-03] that involves automatic ci                               :ci:
+:PROPERTIES:
+:ID:       thtnvlvstmtcc
+:END:
+** [2019-10-03] continuous cloud sync                                 :cloud:
+:PROPERTIES:
+:ID:       cntnscldsync
+:END:
+** [2019-10-03] automation/cron jobs for orger                         :dron:
+:PROPERTIES:
+:ID:       tmtncrnjbsfrrgr
+:END:
+* TODO [#C] Hypothesis API are cloned as well.
+:PROPERTIES:
+:CREATED:  [2020-01-19]
+:ID:       hypthssprclndswll
+:END:
+** [2020-01-21] fix in hypexport?
+:PROPERTIES:
+:ID:       fxnhypxprt
+:END:

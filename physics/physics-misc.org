@@ -855,3 +855,46 @@ https://www.reddit.com/r/Physics/comments/bxpnti/dirac_and_feynman_one_a_man_of_
 :END:
 http://www.kevinboone.net/gateaux.html
 nice, demo of second variation, some nontrivial EL equation
+* TODO [#C] use the term minimizing because, to    my knowledge, there is no verb to express making a quantity stationary. I tried    stationaryizing, stationizing, and a few others, but I eventually gave up and took the    path of least action. But :toblog:
+:PROPERTIES:
+:CREATED:  [2020-02-01]
+:ID:       sthtrmmnmzngbcstmyknwldgttllygvpndtkthpthflstctnbt
+:END:
+Todo
+from The Theoretical Minimum by George Hrabovsky
+* [#D] [2018-12-09] in the symplectic geometry post? https://en.wikipedia.org/wiki/Connection_(mathematics) :toblog:
+:PROPERTIES:
+:ID:       nthsymplctcgmtrypstsnwkpdrgwkcnnctnmthmtcs
+:END:
+* STRT [#C] projects/wympy attempt to solve wave equation :wympy:toblog:physics:
+:PROPERTIES:
+:CREATED:  [2019-08-20]
+:ID:       prjctswympyttmpttslvwvqtn
+:END:
+* START writing about my experiments with lagrangian      :lagrangian:toblog:
+:PROPERTIES:
+:CREATED:  [2018-11-19]
+:ID:       wrtngbtmyxprmntswthlgrngn
+:END:
+* TODO Please provide nonexamples or made up examples. If they are technical even a prompt for where to look would be good. It's way harder to google if you dont knoq what to google :toblog:lagrangian:
+:PROPERTIES:
+:CREATED:  [2018-11-30]
+:ID:       plsprvdnnxmplsrmdpxmplsftwyhrdrtgglfydntknqwhttggl
+:END:
+
+* TODO [#B] some lagr stuff in soft/ipynb_output_filter      :toblog:physics:
+:PROPERTIES:
+:CREATED:  [2019-09-15]
+:ID:       smlgrstffnsftpynbtptfltr
+:END:
+* TODO [#C] post short notes about what physical concepts I have learnt with links to clear explanations? :physics:toblog:
+:PROPERTIES:
+:CREATED:  [2018-08-15]
+:ID:       pstshrtntsbtwhtphysclcncpshvlrntwthlnkstclrxplntns
+:END:
+
+* STRT [#C] about euler lagrange equations and runge kutta?  :physics:toblog:
+:PROPERTIES:
+:CREATED:  [2018-11-18]
+:ID:       btlrlgrngqtnsndrngktt
+:END:

@@ -567,3 +567,42 @@ https://github.com/keepassxreboot/keepassxc-browser/blob/develop/keepassxc-brows
 :END:
 : chrome.runtime.sendMessage sends a message to all open extension pages (i.e. background, popup, etc.)
 : chrome.tabs.sendMessage sends a message to all content scripts from the extension in a given tab (possibly filtered by frame ID)
+* TODO [#A] What I learned about writing web extensions         :webext:blog:
+:PROPERTIES:
+:ID:       whtlrndbtwrtngwbxtnsns
+:END:
+** [#B] there is an incredible lack of documentation for building web extensions and the best practices :webext:blog:
+:PROPERTIES:
+:CREATED:  [2020-05-02]
+:ID:       thrsnncrdbllckfdcmnttnfrbldngwbxtnsnsndthbstprctcs
+:END:
+combining it with npm/webpack weirdness and kind of slow feedback loop (reloading etc, it makes it very hard)
+** TODO [#D] 1. Use JS Flow 2. Use async. I mean, seriously.      :js:webext:
+:PROPERTIES:
+:CREATED:  [2019-08-06]
+:ID:       sjsflwssyncmnsrsly
+:END:
+*** [2019-09-29] could link that stackoverflow post and replace typescript advice with flow?
+:PROPERTIES:
+:ID:       cldlnkthtstckvrflwpstndrplctypscrptdvcwthflw
+:END:
+
+** [#C] structure my post like                                :toblog:webext:
+:PROPERTIES:
+:CREATED:  [2020-05-02]
+:ID:       strctrmypstlk
+:END:
+
+- what is very hard or broken
+- what it's ought to be?
+- how I fixed it in the meantime
+** TODO [#D] developing firefox/chrome extensions?
+:PROPERTIES:
+:CREATED:  [2019-06-29]
+:ID:       dvlpngfrfxchrmxtnsns
+:END:
+** TODO [#C] post about testing grasp?                              :testing:
+:PROPERTIES:
+:CREATED:  [2019-06-29]
+:ID:       pstbttstnggrsp
+:END:

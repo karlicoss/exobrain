@@ -929,3 +929,73 @@ https://github.com/pixelb/crudini/issues/33#issuecomment-240365862
 :PROPERTIES:
 :ID:       crclcsshdbggng
 :END:
+* [#D] rant: fucking hell, github actions are impossible to configure :webext:githubci:
+:PROPERTIES:
+:CREATED:  [2020-05-19]
+:ID:       rntfcknghllgthbctnsrmpssbltcnfgr
+:END:
+there is no easy way to self distribute extensions
+- CWR reviews take ages, also tedious to figure out, especially in the early dev stage
+
+users have to do it manually
+
+- users that are not logged in are not allowed to see the artifacts
+  both github actions/circle ci
+
+- alternative
+  imagine if instead of that crap, APIs etc, I could simply copy a file to a shared filesystem or something.
+* TODO [#D] write a blog post of all the different kinds of testing I was ever doing? :testing:toblog:
+:PROPERTIES:
+:CREATED:  [2019-06-29]
+:ID:       wrtblgpstfllthdffrntkndsftstngwsvrdng
+:END:
+* TODO [#D] steps are isolated so I can't use pipenv properly... :githubci:configs:
+:PROPERTIES:
+:CREATED:  [2020-04-18]
+:ID:       stpsrsltdscntsppnvprprly
+:END:
+* TODO [#D] actions/setup-python@v1 -- didn't work with act, failed at finding python versions :githubci:configs:
+:PROPERTIES:
+:CREATED:  [2020-04-18]
+:ID:       ctnsstppythnvddntwrkwthctfldtfndngpythnvrsns
+:END:
+
+debugging is impossible, it's some typescript shit that's unclear how to debug
+* TODO can anyone explain why does it have to be this declarative bullshit and not a DSK or a subset of a real language like skylark? :toblog:ci:githubci:
+:PROPERTIES:
+:CREATED:  [2021-01-24]
+:ID:       cnnynxplnwhydsthvtbthsdclntdskrsbstfrllngglkskylrk
+:END:
+I'm sure I'm missing out some imortant context, so please point me
+* TODO [#D] [2019-10-13] Similar Subreddits To r/fossdroid By User Overlap :reddit:
+:PROPERTIES:
+:ID:       smlrsbrddtstrfssdrdbysrvrlp
+:END:
+https://subredditstats.com/subreddit-user-overlaps/fossdroid
+build a tool that collects all your subreddits (bookmarklet??) oe just ask to copy list, queries them and shows new ones
+
+* TODO [#D] update about 'ci' is tedious, but maybe deserves a separate post :toblog:ci:grasp:
+:PROPERTIES:
+:CREATED:  [2019-07-03]
+:ID:       pdtbtcstdsbtmybdsrvssprtpst
+:END:
+
+* TODO [#D] usecase I can't do                                     :githubci:
+:PROPERTIES:
+:CREATED:  [2020-04-18]
+:ID:       scscntd
+:END:
+
+run build on matrix, then deploy artifacts.
+
+I want for _all_ builds to succeed, then deploy
+* TODO [#D] adding directory to path to have effect for the rest of pipeline :githubci:toblog:
+:PROPERTIES:
+:CREATED:  [2020-04-18]
+:ID:       ddngdrctrytpththvffctfrthrstfppln
+:END:
+:    # fuck me. https://help.github.com/en/actions/reference/workflow-commands-for-github-actions#adding-a-system-path
+:    - run:
+:        echo "::add-path::$HOME/.local/bin"
+
+at least now I can use pip install --user!

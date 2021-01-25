@@ -332,10 +332,10 @@ maybe doctor (or 'modules') could list that? with paths (e.g. so default/third p
 :CREATED:  [2020-10-26]
 :ID:       xmplfvrrdngmybtznfmp
 :END:
-** TODO [#B] improve config helper to warn about the attributes?     :config:
+** TODO [#B] config: improve config helper to warn about the attributes?
 :PROPERTIES:
 :CREATED:  [2020-05-10]
-:ID:       mprvcnfghlprtwrnbtthttrbts
+:ID:       cnfgmprvcnfghlprtwrnbtthttrbts
 :END:
 :     return previsits_to_history(*args, **kwargs, src='whatever')[0] # TODO meh
 : src/promnesia/common.py:333: in previsits_to_history
@@ -1081,7 +1081,7 @@ make it optional dependency with fallback?
 :     infos = getattr(tz, '_tzinfos', [])
 :     for _, _, x in infos:
 :         tz_lookup[x] = tz
-* WAIT [#D] [2020-04-11] stephen-bunn/file-config: Attrs-like file config definitions inspired from https://github.com/hynek/environ_config :config:
+* WAIT [#D] [2020-04-11] stephen-bunn/file-config: Attrs-like file config definitions inspired from https://github.com/hynek/environ_config :configs:
 :PROPERTIES:
 :ID:       stphnbnnflcnfgttrslkflcnfprdfrmsgthbcmhynknvrncnfg
 :END:
@@ -1137,3 +1137,8 @@ integrate with it?
 :END:
 https://wiki.postgresql.org/wiki/Foreign_data_wrappers
 : Twitter
+* TODO [#D] publish the thing about HPI configs?                 :hpi:toblog:
+:PROPERTIES:
+:CREATED:  [2020-05-10]
+:ID:       pblshththngbthpcnfgs
+:END:

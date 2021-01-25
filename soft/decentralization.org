@@ -235,3 +235,9 @@ https://dat.foundation
 :ID:       sgthbcmtmrgtmrgtmrgtmrgjsydffrntsrsndmrgdgntmtclly
 :END:
 : Automerge is a library of data structures for building collaborative applications in JavaScript.
+* [#D] [2019-07-31] Muneeb on Twitter: "After Github’s ban on developers in certain countries a decentralized alternative is inevitable. Git protocol is already decentralized. All we need is decentralized login, storage, and social graph on top." / Twitter :federation:
+:PROPERTIES:
+:ID:       mnbntwttrftrgthbsbnndvlprdlgnstrgndsclgrphntptwttr
+:END:
+https://twitter.com/muneeb/status/1155524704540737537
+some 'decentralised github' projects
