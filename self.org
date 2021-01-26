@@ -511,6 +511,10 @@ just fuck this. I'm better off rewriting it in Python
 : (switch-to-buffer (url-retrieve-synchronously "https://api.github.com/repos/karlicoss/HPI/issues")
 
 this (used in org-sync internals) simply results in empty buffer and silently ignored by org-sync. fucking hell.
+** [2020-07-20] kinda stupid that I am basically not using dron edit even though invested enough time into it :dron:
+:PROPERTIES:
+:ID:       kndstpdthtmbscllyntsngdrndtvnthghnvstdnghtmntt
+:END:
 * I love open source                                                   :self:
 :PROPERTIES:
 :ID:       lvpnsrc

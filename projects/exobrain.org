@@ -347,7 +347,7 @@ huh, emojis in TOC are quite nice actually?
 
 * [#C] * other's exobrains
 :PROPERTIES:
-:ID:       thrsxbrns
+:CUSTOM_ID: other
 :END:
 ** TODO [#A] [2020-08-06] [[https://commonplace.doubleloop.net/?stackedNotes=%2Fwikis.html][Home]] :org:
 :PROPERTIES:
@@ -526,7 +526,7 @@ https://pbat.ch/wiki
 https://github.com/wayanjimmy/notebook
 ** STRT [#C] [2020-03-24] 0oo                                      :exobrain:
 :PROPERTIES:
-:ID:       17422_17866
+:ID:       17459_17903
 :END:
 https://0oo.li/
 : Categories

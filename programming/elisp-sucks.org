@@ -1,4 +1,4 @@
-#+TITLE: Elisp sucks (and can we make it suck less?)
+#+TITLE: ⭐ Elisp sucks (and can we make it suck less?)
 #+filetags: elisp
 
 The purpose of this is not just to rant, but
@@ -165,7 +165,7 @@ but discoverability really suffers
 
 * --------------------------------------------
 :PROPERTIES:
-:ID:       8080_8127
+:ID:       8082_8129
 :END:
 * TODO [#C] defaul error reporting sucks                              :elisp:
 :PROPERTIES:
@@ -244,7 +244,7 @@ e.g. if you swap if and else clauses, indentation changes
 
 * --------------------------------------------
 :PROPERTIES:
-:ID:       11429_11476
+:ID:       11431_11478
 :END:
 * [2019-12-26] [[https://twitter.com/karlicoss/status/1210287248467517440][I appreciate eshell/monkey patching/edebug, but that doesn't really strike me as *that* good. I mean, most modern interpreted languages have this, unless I'm missing on something?]]
 :PROPERTIES:

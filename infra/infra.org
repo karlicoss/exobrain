@@ -559,7 +559,7 @@ https://github.com/robbinch/kobo-utils
 :PROPERTIES:
 :ID:       prfrxzvrlzmrcmmnddbyththr
 :END:
-* [#B] [2020-01-07] chkservice Is A systemd Unit Manager With A Terminal User Interface (New Version Available) - Linux Uprising Blog :dron:systemd:
+* [#D] [2020-01-07] chkservice Is A systemd Unit Manager With A Terminal User Interface (New Version Available) - Linux Uprising Blog :dron:systemd:
 :PROPERTIES:
 :ID:       chksrvcssystmdntmngrwthtrtrfcnwvrsnvlbllnxprsngblg
 :END:
@@ -740,3 +740,19 @@ Find a way to simplify and make it more effecient.
 :CREATED:  [2019-11-23]
 :ID:       syncthngprndndmdlsrstdrstc
 :END:
+* STRT [#D] make beat and check mutually exclusive               :cloud:dron:
+:PROPERTIES:
+:CREATED:  [2020-01-25]
+:ID:       mkbtndchckmtllyxclsv
+:END:
+* WAIT [#D] separate disk intensive jobs (maybe via systemd resources/tags?) :dron:
+:PROPERTIES:
+:CREATED:  [2018-11-09]
+:ID:       sprtdskntnsvjbsmybvsystmdrsrcstgs
+:END:
+
+* [#C] [2020-01-26] systemd.service https://www.freedesktop.org/software/systemd/man/systemd.service.html
+:PROPERTIES:
+:ID:       systmdsrvcswwwfrdsktprgsftwrsystmdmnsystmdsrvchtml
+:END:
+: If set to simple (the default if ExecStart= is specified but neither Type= nor BusName= are),

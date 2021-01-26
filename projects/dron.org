@@ -6,18 +6,145 @@ Motivating blog post: https://beepb00p.xyz/scheduler.html
 
 Github project: https://github.com/karlicoss/dron
 
+* related                                                :infra:cron:systemd:
+:PROPERTIES:
+:ID:       rltd
+:END:
 
-* TODO [#A] I think I need to enable/start regardless changes; just in case
+* [#A] * motivation
+:PROPERTIES:
+:ID:       mtvtn
+:END:
+mostly in the blog post, some extra links there too
+
+** DONE [#B] [2020-02-01] Rethinking Cron
+:PROPERTIES:
+:ID:       rthnkngcrn
+:END:
+https://adam.herokuapp.com/past/2010/4/13/rethinking_cron
+: Rethinking Cron
+*** [2020-02-29] good wishlist for missing cron features
+:PROPERTIES:
+:ID:       gdwshlstfrmssngcrnftrs
+:END:
+
+** STRT [#C] hmm it's kind of nice that in cron you can embed snippets of code... a bit harder in systemd
+:PROPERTIES:
+:CREATED:  [2020-04-13]
+:ID:       hmmtskndfncthtncrnycnmbdsnpptsfcdbthrdrnsystmd
+:END:
+* [#B] * improvements
+:PROPERTIES:
+:ID:       mprvmnts
+:END:
+** STRT [#D] [2019-08-25] maybe forbid creating pycache?
+:PROPERTIES:
+:ID:       mybfrbdcrtngpycch
+:END:
+
+** TODO [#A] I think I need to enable/start regardless changes; just in case
 :PROPERTIES:
 :CREATED:  [2020-03-08]
 :ID:       thnkndtnblstrtrgrdlsschngsjstncs
 :END:
-* TODO [#B] managed view -- would be nice to display timers only; and a command on a keypress. like cron
+** TODO [#B] managed view -- would be nice to display timers only; and a command on a keypress. like cron
 :PROPERTIES:
 :CREATED:  [2020-03-16]
 :ID:       mngdvwwldbnctdsplytmrsnlyndcmmndnkyprsslkcrn
 :END:
-* [#B] readme/post amendemens?                                       :toblog:
+** TODO [#B] conflicting jobs, e.g. promnesia generator and db backer
+:PROPERTIES:
+:CREATED:  [2018-05-31]
+:ID:       cnflctngjbsgprmnsgnrtrnddbbckr
+:END:
+maybe there should be multiple tags? if two jobs got same tags, they can't run at the same time
+implemented via flocks on files named same as tags
+
+** TODO [#C] create separate target (instead of timers.target)? that way it'd be less messy
+:PROPERTIES:
+:CREATED:  [2020-03-08]
+:ID:       crtsprttrgtnstdftmrstrgtthtwytdblssmssy
+:END:
+** TODO [#C] jcu got lots of potentially useful stuff..
+:PROPERTIES:
+:CREATED:  [2020-01-24]
+:ID:       jcgtltsfptntllysflstff
+:END:
+:  -t --identifier=STRING     Show entries with the specified syslog identifier
+:   -p --priority=RANGE        Show entries with the specified priority
+** TODO [#C] Wonder if there is a way to overview _all_ systems job failures over past boot? :systemd:
+:PROPERTIES:
+:CREATED:  [2020-01-25]
+:ID:       wndrfthrswytvrvwllsystmsjbflrsvrpstbt
+:END:
+** TODO [#C] mode to confirm systemd files diff first?
+:PROPERTIES:
+:CREATED:  [2020-11-02]
+:ID:       mdtcnfrmsystmdflsdfffrst
+:END:
+** TODO [#C] for running now -- show time it's been running for
+:PROPERTIES:
+:CREATED:  [2020-05-29]
+:ID:       frrnnngnwshwtmtsbnrnnngfr
+:END:
+** TODO [#D] show desktop notification on failure
+:PROPERTIES:
+:CREATED:  [2020-02-27]
+:ID:       05efef54-31fe-4817-9fc0-43ba79bd97c6
+:END:
+* [#B] * bugs
+:PROPERTIES:
+:ID:       bgs
+:END:
+** STRT [#B] shit, monitor is consuming quite a bit of CPU. should run less often I guess.. wonder if possible to only run when I look at it?
+:PROPERTIES:
+:CREATED:  [2020-06-12]
+:ID:       shtmntrscnsmngqtbtfcpshldsswndrfpssbltnlyrnwhnlktt
+:END:
+- [2021-01-25] ugh. did some work, but it seems that it's just bus communication that still takes cpu and it's sort of inevitable?
+** TODO [#C] next time should be local instead of utc...
+:PROPERTIES:
+:CREATED:  [2020-06-14]
+:ID:       nxttmshldblclnstdftc
+:END:
+** TODO [#D] might fail if manually disabled the timer?
+:PROPERTIES:
+:CREATED:  [2020-11-09]
+:ID:       mghtflfmnllydsbldthtmr
+:END:
+: Traceback (most recent call last):
+:   File "/home/karlicos/.local/bin/dron", line 11, in <module>
+:     load_entry_point('dron', 'console_scripts', 'dron')()
+:   File "/code/dron/dron.py", line 1168, in main
+:     cmd_monitor(params)
+:   File "/code/dron/dron.py", line 966, in cmd_monitor
+:     _cmd_monitor(managed, params=params)
+:   File "/code/dron/dron.py", line 849, in _cmd_monitor
+:     [service, timer] = gr
+: ValueError: not enough values to unpack (expected 2, got 1)
+** TODO [#B] [2020-05-29] I guess what I was confused about was that if the job is running simultaneouslyu to previous instance, it's silently not running
+:PROPERTIES:
+:ID:       gsswhtwscnfsdbtwsthtfthjbtprvsnstnctsslntlyntrnnng
+:END:
+*** [2020-05-29] wonder if could email on this!
+:PROPERTIES:
+:ID:       wndrfcldmlnths
+:END:
+* [#C] * publicity                                                  :publish:
+:PROPERTIES:
+:ID:       pblcty
+:END:
+** TODO [#C] lobsters maybe and elsewhere? when it gets a bit more mature
+:PROPERTIES:
+:CREATED:  [2020-01-26]
+:ID:       lbstrsmybndlswhrwhntgtsbtmrmtr
+:END:
+** STRT [#C] post about it? really need a proper circleci test...
+:PROPERTIES:
+:CREATED:  [2020-01-25]
+:ID:       pstbttrllyndprprcrclctst
+:END:
+* [#B] * readme/post amendemens?                                     :toblog:
 :PROPERTIES:
 :ID:       rdmpstmndmns
 :END:
@@ -54,216 +181,112 @@ vs
 :END:
 - running custom jobs is easier
 - you can just start any jobs (+autocomplete)
-* TODO [#B] [2020-05-29] I guess what I was confused about was that if the job is running simultaneouslyu to previous instance, it's silently not running
-:PROPERTIES:
-:ID:       gsswhtwscnfsdbtwsthtfthjbtprvsnstnctsslntlyntrnnng
-:END:
-** [2020-05-29] wonder if could email on this!
-:PROPERTIES:
-:ID:       wndrfcldmlnths
-:END:
-* TODO [#B] hmm, managed status drops after reinstalling crontabs... I guess, timers?
-:PROPERTIES:
-:CREATED:  [2020-03-16]
-:ID:       hmmmngdsttsdrpsftrrnstllngcrntbsgsstmrs
-:END:
-* TODO [#B] simple frontend for Systemd,
+** TODO [#B] simple frontend for Systemd,
 :PROPERTIES:
 :CREATED:  [2020-05-13]
 :ID:       smplfrntndfrsystmd
 :END:
 Not frontend, generator?
-* STRT [#B] shit, monitor is consuming quite a bit of CPU. should run less often I guess.. wonder if possible to only run when I look at it?
-:PROPERTIES:
-:CREATED:  [2020-06-12]
-:ID:       shtmntrscnsmngqtbtfcpshldsswndrfpssbltnlyrnwhnlktt
-:END:
-* TODO [#B] conflicting jobs, e.g. promnesia generator and db backer
-:PROPERTIES:
-:CREATED:  [2018-05-31]
-:ID:       cnflctngjbsgprmnsgnrtrnddbbckr
-:END:
-maybe there should be multiple tags? if two jobs got same tags, they can't run at the same time
-implemented via flocks on files named same as tags
 
-* TODO [#B] [2019-10-24] to enable the systemd service you can run the following. :systemd:
+* STRT [#D] [2020-01-18] watchdog?                                  :systemd:
 :PROPERTIES:
-:ID:       tnblthsystmdsrvcycnrnthfllwng
+:ID:       wtchdg
 :END:
-: systemctl --user enable --now matrixcli
-* TODO [#C] create separate target (instead of timers.target)? that way it'd be less messy
-:PROPERTIES:
-:CREATED:  [2020-03-08]
-:ID:       crtsprttrgtnstdftmrstrgtthtwytdblssmssy
-:END:
-* TODO [#C] lobsters maybe and elsewhere? when it gets a bit more mature :publish:
-:PROPERTIES:
-:CREATED:  [2020-01-26]
-:ID:       lbstrsmybndlswhrwhntgtsbtmrmtr
-:END:
-* TODO [#C] jcu got lots of potentially useful stuff..
-:PROPERTIES:
-:CREATED:  [2020-01-24]
-:ID:       jcgtltsfptntllysflstff
-:END:
-:  -t --identifier=STRING     Show entries with the specified syslog identifier
-:   -p --priority=RANGE        Show entries with the specified priority
-* TODO [#C] Wonder if there is a way to overview _all_ systems job failures over past boot?
-:PROPERTIES:
-:CREATED:  [2020-01-25]
-:ID:       wndrfthrswytvrvwllsystmsjbflrsvrpstbt
-:END:
-* STRT [#C] post about it? really need a proper circleci test...    :publish:
-:PROPERTIES:
-:CREATED:  [2020-01-25]
-:ID:       pstbttrllyndprprcrclctst
-:END:
-* [#C] [2020-01-28] arch linux - systemd: cpu usage of services - Super User https://superuser.com/questions/1060670/systemd-cpu-usage-of-services
-:PROPERTIES:
-:ID:       rchlnxsystmdcpsgfsrvcssprsrcmqstnssystmdcpsgfsrvcs
-:END:
-: If you enabled the cpuacct cgroup subgroup in the kernel. You can try systemd-cgtop to identify which systemd service causes high cpu usage.
-* [#C] [2020-01-28] systemd - systemctl status not showing CPU/Memory usage? - Ask Ubuntu https://askubuntu.com/questions/901075/systemctl-status-not-showing-cpu-memory-usage
-:PROPERTIES:
-:ID:       systmdsystmctlsttsntshwngstmctlsttsntshwngcpmmrysg
-:END:
-: CPUAccounting = yes
-: MemoryAccounting = yes
-* [#C] [2020-01-26] Systemd: How to make two services mutually exclusive but run both? - Super User
-:PROPERTIES:
-:ID:       systmdhwtmktwsrvcsmtllyxclsvbtrnbthsprsr
-:END:
-https://superuser.com/questions/1492025/systemd-how-to-make-two-services-mutually-exclusive-but-run-both
+https://www.freedesktop.org/software/systemd/man/systemd.service.html
+: WatchdogSec=
+:     Configures the watchdog timeout for a service. The watchdog is activated when the start-up is completed. The service must call sd_notify(3) regularly with "WATCHDOG=1" (i.e. the "keep-alive ping")
 
-* [#C] [2020-01-26] systemd.service https://www.freedesktop.org/software/systemd/man/systemd.service.html#TimeoutStartSec=
+* CNCL [#D] [2020-02-01] [[https://schedule.readthedocs.io/en/stable/][schedule python library]]
 :PROPERTIES:
-:ID:       systmdsrvcswwwfrdsktprgsfmnsystmdsrvchtmltmtstrtsc
+:ID:       sschdlrdthdcsnstblschdlpythnlbrry
 :END:
-wonder if this is useful wrt to dependencies and conflicts
-* [#C] [2020-01-26] systemd.service https://www.freedesktop.org/software/systemd/man/systemd.service.html
+nope, just a completely custom scheduler, definitely not ideal
+
+* ---------------------------------------
 :PROPERTIES:
-:ID:       systmdsrvcswwwfrdsktprgsftwrsystmdmnsystmdsrvchtml
+:ID:       8567_8610
 :END:
-: If set to simple (the default if ExecStart= is specified but neither Type= nor BusName= are),
-* [#C] [2020-01-28] systemd-analyze https://www.freedesktop.org/software/systemd/man/systemd-analyze.html
+
+* TODO [#B] hmm, managed status drops after reinstalling crontabs... I guess, timers?
 :PROPERTIES:
-:ID:       systmdnlyzswwwfrdsktprgsftwrsystmdmnsystmdnlyzhtml
+:CREATED:  [2020-03-16]
+:ID:       hmmmngdsttsdrpsftrrnstllngcrntbsgsstmrs
 :END:
-: systemd-analyze verify FILE...
-: 
-: This command will load unit files and print warnings if any errors are detected. Files specified on the command line will be loaded, but also any other units referenced by them. The full unit search path is formed by combining the directories for all command line arguments, and the usual unit load paths (variable $SYSTEMD_UNIT_PATH is supported, and may be used to replace or augment the compiled in set of unit load paths; see systemd.unit(5)). All units files present in the directories containing the command line arguments will be used in preference to the other paths.
-: The following errors are currently detected:
-:     unknown sections and directives,
-:     missing dependencies which are required to start the given unit,
-:     man pages listed in Documentation= which are not found in the system,
-:     commands listed in ExecStart= and similar which are not found in the system or not executable.
 * TODO [#C] if there is an invalid systemd file, it fails to load state hence you have to fix manually
 :PROPERTIES:
 :CREATED:  [2020-05-28]
 :ID:       fthrsnnvldsystmdfltflstldstthncyhvtfxmnlly
 :END:
 and impossible to fix. e.g. add some garbage to onCalendar and try applying
-* STRT [#C] hmm it's kind of nice that in cron you can embed snippets of code... a bit harder in systemd
+* TODO [#B] [2019-10-24] to enable the systemd service you can run the following. :systemd:
 :PROPERTIES:
-:CREATED:  [2020-04-13]
-:ID:       hmmtskndfncthtncrnycnmbdsnpptsfcdbthrdrnsystmd
+:ID:       tnblthsystmdsrvcycnrnthfllwng
 :END:
-* TODO [#C] for running now -- show time it's been running for
+: systemctl --user enable --now matrixcli
+* [#C] [2020-01-28] [[https://superuser.com/questions/1060670/systemd-cpu-usage-of-services][arch linux - systemd: cpu usage of services - Super User]]
 :PROPERTIES:
-:CREATED:  [2020-05-29]
-:ID:       frrnnngnwshwtmtsbnrnnngfr
+:ID:       ssprsrcmqstnssystmdcpsgfshlnxsystmdcpsgfsrvcssprsr
 :END:
-* TODO [#C] next time should be local instead of utc...
+: If you enabled the cpuacct cgroup subgroup in the kernel. You can try systemd-cgtop to identify which systemd service causes high cpu usage.
+* [#C] [2020-01-28] [[https://askubuntu.com/questions/901075/systemctl-status-not-showing-cpu-memory-usage][systemd - systemctl status not showing CPU/Memory usage? - Ask Ubuntu]]
 :PROPERTIES:
-:CREATED:  [2020-06-14]
-:ID:       nxttmshldblclnstdftc
+:ID:       sskbntcmqstnssystmctlsttslsttsntshwngcpmmrysgskbnt
 :END:
-* TODO [#C] mode to confirm systemd files diff first?
+: CPUAccounting = yes
+: MemoryAccounting = yes
+* [#C] [2020-01-26] [[https://superuser.com/questions/1492025/systemd-how-to-make-two-services-mutually-exclusive-but-run-both][Systemd: How to make two services mutually exclusive but run both? - Super User]] :systemd:
 :PROPERTIES:
-:CREATED:  [2020-11-02]
-:ID:       mdtcnfrmsystmdflsdfffrst
+:ID:       ssprsrcmqstnssystmdhwtmktvcsmtllyxclsvbtrnbthsprsr
 :END:
+
+* [#C] [2020-01-26] systemd.service https://www.freedesktop.org/software/systemd/man/systemd.service.html#TimeoutStartSec=
+:PROPERTIES:
+:ID:       systmdsrvcswwwfrdsktprgsfmnsystmdsrvchtmltmtstrtsc
+:END:
+wonder if this is useful wrt to dependencies and conflicts
+* [#C] [2020-01-28] systemd-analyze https://www.freedesktop.org/software/systemd/man/systemd-analyze.html
+:PROPERTIES:
+:ID:       systmdnlyzswwwfrdsktprgsftwrsystmdmnsystmdnlyzhtml
+:END:
+: systemd-analyze verify FILE...
+: The following errors are currently detected:
+:     unknown sections and directives,
+:     missing dependencies which are required to start the given unit,
+:     man pages listed in Documentation= which are not found in the system,
+:     commands listed in ExecStart= and similar which are not found in the system or not executable.
 * STRT [#C] using fzf to start service
 :PROPERTIES:
 :CREATED:  [2020-11-25]
 :ID:       sngfzftstrtsrvc
 :END:
 : systemctl --user start $(ls ~/.config/systemd/user/ | fzf)
-* TODO [#D] show desktop notification on failure
+* [#D] [2020-01-28] [[https://www.freedesktop.org/software/systemd/man/systemd-cgtop.html][systemd-cgtop]]
 :PROPERTIES:
-:CREATED:  [2020-02-27]
-:ID:       05efef54-31fe-4817-9fc0-43ba79bd97c6
+:ID:       swwwfrdsktprgsftwrsystmdmnsystmdcgtphtmlsystmdcgtp
 :END:
-* [#D] [2020-01-28] systemd-cgtop
-:PROPERTIES:
-:ID:       systmdcgtp
-:END:
-https://www.freedesktop.org/software/systemd/man/systemd-cgtop.html
 : systemd-cgtop — Show top control groups by their resource usage
 
-- Comment:
-: wonder if I could use it?
-* STRT [#D] [2020-01-18] watchdog?
-:PROPERTIES:
-:ID:       wtchdg
-:END:
-https://www.freedesktop.org/software/systemd/man/systemd.service.html
-: WatchdogSec=
-: 
-:     Configures the watchdog timeout for a service. The watchdog is activated when the start-up is completed. The service must call sd_notify(3) regularly with "WATCHDOG=1" (i.e. the "keep-alive ping")
-* STRT [#D] make beat and check mutually exclusive
-:PROPERTIES:
-:CREATED:  [2020-01-25]
-:ID:       mkbtndchckmtllyxclsv
-:END:
+wonder if I could use it?
 * TODO [#D] [2020-05-04] [[https://blog.darknedgy.net/technology/2020/05/02/0/index.html][systemd, 10 years later: a historical and technical retrospective]]
 :PROPERTIES:
 :ID:       sblgdrkndgynttchnlgyndxhtltrhstrclndtchnclrtrspctv
 :END:
 : Yes, we currently handle socket-triggered, bus-triggered, file-triggered, mount-triggered, automount-triggered, device-triggered
+
 * [2020-05-29] ok, so timeouts via RuntimeMaxSec work as expected   :systemd:
 :PROPERTIES:
 :ID:       kstmtsvrntmmxscwrksxpctd
 :END:
-* CNCL [#C] [2020-02-01] schedule — schedule 0.4.0 documentation
+* TODO [#C] dron: one year later                                :dron:toblog:
 :PROPERTIES:
-:ID:       schdlschdldcmnttn
+:CREATED:  [2020-11-30]
+:ID:       drnnyrltr
 :END:
-https://schedule.readthedocs.io/en/stable/
-
-* TODO [#D] might fail if manually disabled the timer?
-:PROPERTIES:
-:CREATED:  [2020-11-09]
-:ID:       mghtflfmnllydsbldthtmr
-:END:
-: Traceback (most recent call last):
-:   File "/home/karlicos/.local/bin/dron", line 11, in <module>
-:     load_entry_point('dron', 'console_scripts', 'dron')()
-:   File "/code/dron/dron.py", line 1168, in main
-:     cmd_monitor(params)
-:   File "/code/dron/dron.py", line 966, in cmd_monitor
-:     _cmd_monitor(managed, params=params)
-:   File "/code/dron/dron.py", line 849, in _cmd_monitor
-:     [service, timer] = gr
-: ValueError: not enough values to unpack (expected 2, got 1)
-* related                                                :infra:cron:systemd:
-:PROPERTIES:
-:ID:       rltd
-:END:
-
-
-* STRT [#D] maybe forbid creating pycache?
-:PROPERTIES:
-:CREATED:  [2019-08-25]
-:ID:       mybfrbdcrtngpycch
-:END:
-* DONE [#B] [2020-02-01] Rethinking Cron                               :dron:
-:PROPERTIES:
-:ID:       adefaa6b-d941-4165-9cd3-8b9e59e4ddfa
-:END:
-https://adam.herokuapp.com/past/2010/4/13/rethinking_cron
-: Rethinking Cron
-** [2020-02-29] good wishlist for missing cron features
-:PROPERTIES:
-:ID:       gdwshlstfrmssngcrnftrs
-:END:
+what worked:
+- systemd integration is excellent, can hack on systemd to experiment, and then reapply changes properly via dron
+- while mailing is sort of hacky, don't think it has ever let me down
+what didn't work
+- barely used dron edit, mainly dron apply
+what to improve:
+- speed up dron apply?
+- monitor too slow?
