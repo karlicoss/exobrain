@@ -107,7 +107,7 @@ fucking hell.. regexes in elisp are case sensitive, and that's controlled by a f
 :END:
 as long as the author extracted the variable in defvar, it's hackable
 
-** [#D] why elisp sucks: no check_output/check_call                   :elisp:
+** [#D] why elisp sucks: no ~check_output~ / ~check_call~             :elisp:
 :PROPERTIES:
 :CREATED:  [2019-10-19]
 :ID:       whylspscksnchcktptchckcll
@@ -165,7 +165,7 @@ but discoverability really suffers
 
 * --------------------------------------------
 :PROPERTIES:
-:ID:       8082_8129
+:ID:       8088_8135
 :END:
 * TODO [#C] defaul error reporting sucks                              :elisp:
 :PROPERTIES:
@@ -244,7 +244,7 @@ e.g. if you swap if and else clauses, indentation changes
 
 * --------------------------------------------
 :PROPERTIES:
-:ID:       11431_11478
+:ID:       11437_11484
 :END:
 * [2019-12-26] [[https://twitter.com/karlicoss/status/1210287248467517440][I appreciate eshell/monkey patching/edebug, but that doesn't really strike me as *that* good. I mean, most modern interpreted languages have this, unless I'm missing on something?]]
 :PROPERTIES:
@@ -358,3 +358,10 @@ let's compare: e.g. vimscript. When I used vim I haven't even attempted to custo
 :CREATED:  [2020-04-12]
 :ID:       hwdwklllsp
 :END:
+* TODO when I paste stuff  from org-mode source to experiment, I often end up with ruined code (as in, broken code!)
+:PROPERTIES:
+:CREATED:  [2021-01-26]
+:ID:       whnpststfffrmrgmdsrctxprmntftnndpwthrndcdsnbrkncd
+:END:
+example: (defun org-html-format-headline-default-function
+maybe I need to disable parinfer during pasting, not sure

@@ -1,19 +1,45 @@
-#+TITLE: Backup cleanser
+#+TITLE: ⭐ Backup cleanser
 #+logseq_title: bleanser
 #+filetags: :bleanser:
 
 Github page: [[https://github.com/karlicoss/bleanser][karlicoss/bleanser]]
 
-bleanser stands for 'backup cleanser'.
+Bleanser' stands for 'backup cleanser'.
 
-The idea is figuring out 'redundant' backups, but in a data source agnostic way.
+The idea is figuring out 'redundant' backups and removing them to
+
+- save on disk space
+- same on data access time (see [[https://beepb00p.xyz/exports.html#dal]["data access layer"]])
+
 This is the most relevant to [[https://beepb00p.xyz/exports.html#types][incremental/synthetic]] style data exports.
+
+It's not necessarily hard to implement for something specific, but the challenge is to do it in a data source agnostic way,
+or at least with as minimum effort as possible.
+
 
 This is possible for example for JSON: if the export from today is a superset of an export from yesterday, you can safely remove the old export. This actually works surprisingly well as is for many data sources.
 For a few I've got slight adjustments that normalise them before comparing by removing certain fields that change often, but not very important. For example, Reddit upvotes/downvotes always jump, so I just exclude them from the comparison.
 It's similar to extracting the useful fields, but instead it filters the useless ones. That makes it safer in case new fields are added by the backend, I'd rather keep extra data than potentially lose useful information.
 
-* TODO [#A] pattern of handling unknown data sources                 :toblog:
+* related                                              :exports:backup:infra:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
+* [#A] * motivation
+:PROPERTIES:
+:ID:       mtvtn
+:END:
+** TODO [#D] reddit processing takes quite a bit.. but I guess bleanser will optimize it :hpi:bleanser:reddit:
+:PROPERTIES:
+:CREATED:  [2019-05-01]
+:ID:       rddtprcssngtksqtbtbtgssblnsrwllptmzt
+:END:
+* [#A] * ideas
+:PROPERTIES:
+:ID:       ds
+:END:
+** TODO [#A] pattern of handling unknown data sources                :toblog:
 :PROPERTIES:
 :CREATED:  [2020-12-08]
 :ID:       pttrnfhndlngnknwndtsrcs
@@ -28,10 +54,41 @@ if you only do that you might miss new useful data/schema changes like renames e
 if you only do that you end up with too much garbage
   specify data (fileds/files etc) to drop
 upper bound
-* STRT [#B] firefox history?                             :promnesia:bleanser:
+
+* [#B] * specific data sources
+:PROPERTIES:
+:ID:       spcfcdtsrcs
+:END:
+** STRT [#B] firefox history?                            :promnesia:bleanser:
 :PROPERTIES:
 :CREATED:  [2020-06-10]
 :ID:       frfxhstry
+:END:
+
+** TODO [#C] github-events -- prune via triplet approach?
+:PROPERTIES:
+:CREATED:  [2020-09-05]
+:ID:       gthbvntsprnvtrpltpprch
+:END:
+** TODO [#D] smscalls
+:PROPERTIES:
+:CREATED:  [2020-12-08]
+:ID:       smsclls
+:END:
+** TODO [#D] not sure, maybe ignore comment/link karma? it results in lots of differences... :reddit:
+:PROPERTIES:
+:CREATED:  [2019-09-29]
+:ID:       ntsrmybgnrcmmntlnkkrmtrsltsnltsfdffrncs
+:END:
+
+* [#C] * bugs
+:PROPERTIES:
+:ID:       bgs
+:END:
+** TODO [#C] shit, dry run still left turds???
+:PROPERTIES:
+:CREATED:  [2019-12-29]
+:ID:       shtdryrnstlllfttrds
 :END:
 
 * STRT [#C] compress backups?                                         :infra:
@@ -45,35 +102,13 @@ started compressing reddit...
 :ID:       lscmprssngrtm
 :END:
 
-* TODO [#D] smscalls
-:PROPERTIES:
-:CREATED:  [2020-12-08]
-:ID:       smsclls
-:END:
-* TODO [#C] github-events -- prune via triplet approach?
-:PROPERTIES:
-:CREATED:  [2020-09-05]
-:ID:       gthbvntsprnvtrpltpprch
-:END:
-* TODO [#C] shit, dry run still left turds???
-:PROPERTIES:
-:CREATED:  [2019-12-29]
-:ID:       shtdryrnstlllfttrds
-:END:
-
-* TODO [#D] not sure, maybe ignore comment/link karma? it results in lots of differences... :reddit:
-:PROPERTIES:
-:CREATED:  [2019-09-29]
-:ID:       ntsrmybgnrcmmntlnkkrmtrsltsnltsfdffrncs
-:END:
-
-
 * TODO [#D] [2021-01-11] move description to github
 :PROPERTIES:
 :ID:       mvdscrptntgthb
 :END:
 
-* [#D] related                                         :exports:backup:infra:
+
+* -----------------------------------
 :PROPERTIES:
-:ID:       rltd
+:ID:       2965_3003
 :END:

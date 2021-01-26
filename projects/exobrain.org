@@ -833,3 +833,13 @@ but then it's gonna link the while filetag with the exobrain, which is somewhat 
 :ID:       smmrsthngsthtntrstmvrgtgs
 :END:
 That's also an example of how can I use porg
+* TODO right, seems that async/background export still uses only one process :( :org:
+:PROPERTIES:
+:CREATED:  [2021-01-26]
+:ID:       rghtsmsthtsyncbckgrndxprtstllssnlynprcss
+:END:
+* TODO move ideas page into exobrain                                   :blog:
+:PROPERTIES:
+:CREATED:  [2021-01-26]
+:ID:       mvdspgntxbrn
+:END:

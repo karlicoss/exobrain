@@ -765,11 +765,6 @@ https://www.gharchive.org/
 :CREATED:  [2019-04-23]
 :ID:       fxlctnsthywrgnfrsmrsnwndrfbcsfchngstgrpbycmpnkythn
 :END:
-* TODO [#D] reddit processing takes quite a bit.. but I guess bleanser will optimize it :hpi:bleanser:reddit:
-:PROPERTIES:
-:CREATED:  [2019-05-01]
-:ID:       rddtprcssngtksqtbtbtgssblnsrwllptmzt
-:END:
 * STRT [#D] hypothesis provider (and other annotation): collect changes over all backups? :dal:hpi:
 :PROPERTIES:
 :CREATED:  [2019-06-12]

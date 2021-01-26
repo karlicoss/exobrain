@@ -1,18 +1,65 @@
-#+TITLE: Memex
+#+TITLE: ⭐ Memex
 #+filetags: memex
 
-#+begin_verse
-I have not increased nor diminished the measure,
-I have not diminished the palm,
-I have not encroached upon fields,
-I have not added to the balance weights,
-I have not tempered with the plumb bob of the balance.
-          -- The Book of the Dead, Spell 125.
-#+end_verse
+Memex is a system that keeps all your data and acts as an ultimate interface to it.
+It gives you fast (ideally instant access), convenient interfaces and ultimately makes you better at thinking and analysing, acting as an auxiliary brain.
+Arguably so far none have been built :)
 
+I write more on why would you want it in [[https://beepb00p.xyz/sad-infra.html#why][The sad state of personal data and infrastructure]].
 
-Related: #pkm, #lifelogging, #quantifiedself
-* prior art & inspiration
+* related
+:PROPERTIES:
+:ID:       rltd
+:END:
+** memex is the ultiplate knowledge management solution                 :pkm:
+:PROPERTIES:
+:ID:       mmxsthltpltknwldgmngmntsltn
+:END:
+** memex makes lifelogging data alive useful                    :lifelogging:
+:PROPERTIES:
+:ID:       mmxmkslflggngdtlvsfl
+:END:
+** memex can give you quantified self insights                           :qs:
+:PROPERTIES:
+:ID:       mmxcngvyqntfdslfnsghts
+:END:
+
+* [#A] * my current progress
+:PROPERTIES:
+:ID:       mycrrntprgrss
+:END:
+My Memex so far isn't a single unified system, but has multiple facets and interfaces.
+
+** [[file:projects/hpi.org][Human Programming Interface]]               :hpi:
+:PROPERTIES:
+:ID:       flprjctshprghmnprgrmmngntrfc
+:END:
+The backbone of my memex, providing data for other components.
+
+** [[file:projects/promnesia.org][promnesia]]                     :promnesia:
+:PROPERTIES:
+:ID:       flprjctsprmnsrgprmns
+:END:
+Promnesia connects the web browser to the rest of your personal data.
+
+** [[file:projects/dashboard.org][dashboard]]                     :dashboard:
+:PROPERTIES:
+:ID:       flprjctsdshbrdrgdshbrd
+:END:
+My quantified self component to Memex.
+
+** [[file:projects/orger.org][orger]]                                 :orger:
+:PROPERTIES:
+:ID:       flprjctsrgrrgrgr
+:END:
+Reflects my data for easier search, providing a plaintext interface.
+
+** [[file:projects/timeline.org][timeline]]                        :timeline:
+:PROPERTIES:
+:ID:       flprjctstmlnrgtmln
+:END:
+
+* [#A] * prior art & inspiration
 :PROPERTIES:
 :ID:       prrrtnsprtn
 :END:
@@ -27,7 +74,7 @@ he mentions the same problems I struggled with literally in the same words!
 :ID:       smmrcldmmrvryprmsngprjctwththfcsnsrdtwnrshpndprvcy
 :END:
 
-* remembrance agents
+* [#B] * remembrance agents
 :PROPERTIES:
 :CUSTOM_ID: remembrance_agent
 :END:
@@ -48,11 +95,11 @@ This looks cool, but doesn't seem to work anymore?
 
 Ok, this looks pretty cool.. maybe need to contact them and discuss
 
-* ideas & concepts
+* [#B] * ideas & concepts
 :PROPERTIES:
 :ID:       dscncpts
 :END:
-** TODO [#B] [2020-06-06] [[https://hyfen.net/memex/updates/bad-remembrance-machines][hyfen.net/memex/updates/bad-remembrance-machines]]
+** TODO [#B] [2020-06-06] [[https://hyfen.net/memex/updates/bad-remembrance-machines][hyfen.net/memex/updates/bad-remembrance-machines]] :lifelogging:
 :PROPERTIES:
 :ID:       shyfnntmmxpdtsbdrmmbrncmcfnntmmxpdtsbdrmmbrncmchns
 :END:
@@ -85,10 +132,21 @@ Ok, this looks pretty cool.. maybe need to contact them and discuss
 : 
 : @aaronzlewis : concept: a Spotify calendar integration that lets you see what you were listening to alongside your old meetings and events. revisit the vibe of any moment with the Musical Time Machine
 
-* communities                                                        :social:
+* [#C] * features & usecases
+:PROPERTIES:
+:ID:       ftrsscss
+:END:
+** TODO [#C] show random photos                       :spacedrep:lifelogging:
+:PROPERTIES:
+:CREATED:  [2019-12-06]
+:ID:       shwrndmphts
+:END:
+* [#C] * communities                                                 :social:
 :PROPERTIES:
 :ID:       cmmnts
 :END:
+This is something we can't build alone. Let's find each other and cooperate.
+
 ** TODO [#B] [2020-05-28] [[https://twitter.com/karlicoss/status/1266090022123470851][karlicoss/status/1266090022123470851]]
 :PROPERTIES:
 :ID:       stwttrcmkrlcsssttskrlcssstts
@@ -121,9 +179,23 @@ Some existing communities:
   - closed source
   - aggressive towards alternative clients
 
-* [#B] [2020-06-06] [[https://hyfen.net/memex/updates/bad-remembrance-machines][hyfen.net/memex/updates/bad-remembrance-machines]] :lifelogging:
+
+* [#C] [2018-09-04] tesseract is best apparently? but couldn't handle elliptical photos.. :ocr:
 :PROPERTIES:
-:ID:       shyfnntmmxpdtsbdrmmbrncmcfnntmmxpdtsbdrmmbrncmchns
+:ID:       tssrctsbstpprntlybtcldnthndlllptclphts
+:END:
+* TODO [#B] [2020-10-07] eh, would be really nice to have some sort of memex at this point :promnesia:memex:
+:PROPERTIES:
+:ID:       hwldbrllyncthvsmsrtfmmxtthspnt
+:END:
+maybe it could have some basic core (e.g. with couchdb), and then used in different apps?
+e.g. promnesia uses it to jump and browse the history
+dashboard uses to display all events
+timeline -- similarly for all life events
+
+* ----------------------------
+:PROPERTIES:
+:ID:       6887_6919
 :END:
 
 * TODO [#D] Tweet from @mekarpeles                                    :memex:
@@ -134,31 +206,13 @@ Some existing communities:
 https://twitter.com/mekarpeles/status/1271226785439428608
 : @mekarpeles: Finally made a short 📽️ of https://t.co/glrT8wpAk2: Free + open source v. of @wikidata meets @RoamResearch (both which I 👍)
 
-* [#C] [2018-09-04] tesseract is best apparently? but couldn't handle elliptical photos.. :ocr:
-:PROPERTIES:
-:ID:       tssrctsbstpprntlybtcldnthndlllptclphts
-:END:
-* [2021-01-21] [[https://www.are.na/dylan-steck-gdlcvugj6vq/cortex-inspirations][Cortex Inspirations — Are.na]]
+* TODO [#B] [2021-01-21] [[https://www.are.na/dylan-steck-gdlcvugj6vq/cortex-inspirations][Cortex Inspirations — Are.na]]
 :PROPERTIES:
 :ID:       swwwrndylnstckgdlcvgjvqcrtxnsprtnscrtxnsprtnsrn
 :END:
 
-* TODO [#C] [2020-10-07] eh, would be really nice to have some sort of memex at this point :promnesia:memex:
-:PROPERTIES:
-:ID:       hwldbrllyncthvsmsrtfmmxtthspnt
-:END:
-maybe it could have some basic core (e.g. with couchdb), and then used in different apps?
-e.g. promnesia uses it to jump and browse the history
-dashboard uses to display all events
-timeline -- similarly for all life events
-
-* TODO [#C] [2020-11-30] [[https://github.com/appaquet/exocore#roadmap][appaquet/exocore: A distributed private application framework]] :memex:
+* TODO [#C] [2020-11-30] [[https://github.com/appaquet/exocore#roadmap][appaquet/exocore: A distributed private application framework]]
 :PROPERTIES:
 :ID:       sgthbcmppqtxcrrdmpppqtxcrdstrbtdprvtpplctnfrmwrk
 :END:
 : Exocore is a distributed applications framework with private and encrypted data storage. Think of like an infrastructure that allows a user to own his own personal cloud that is extensible via WebAssembly applications and accessible via Web/Mobile SDKs. It is designed to be resilient to failures, allow offline usage (ex: on mobile).
-* TODO [#C] show random photos                        :spacedrep:lifelogging:
-:PROPERTIES:
-:CREATED:  [2019-12-06]
-:ID:       shwrndmphts
-:END:
