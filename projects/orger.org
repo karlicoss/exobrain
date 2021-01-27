@@ -87,7 +87,7 @@ https://lobste.rs/saved.json
 :END:
 thanks to decoupling the data retrieval (#hpi)
 
-** TODO [#C] post updated polar module                                :tweet:
+** TODO [#C] post updated polar module                              :totweet:
 :PROPERTIES:
 :CREATED:  [2020-05-15]
 :ID:       pstpdtdplrmdl

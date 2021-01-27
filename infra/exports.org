@@ -967,3 +967,33 @@ This is what rust does
 :PROPERTIES:
 :ID:       fxnhypxprt
 :END:
+
+* [#C] [2020-01-01] perkeep/gphotos-cdp: This program uses the Chrome DevTools Protocol to drive a Chrome session that downloads your photos stored in Google Photos. https://github.com/perkeep/gphotos-cdp
+:PROPERTIES:
+:ID:       prkpgphtscdpthsprgrmssthcglphtssgthbcmprkpgphtscdp
+:END:
+:  we'd like our photos mirrored in seconds or minutes, not weeks.
+* [#C] [2020-01-01] Apply — Twitter Developers https://developer.twitter.com/en/application/intent :twitter:
+:PROPERTIES:
+:ID:       pplytwttrdvlprssdvlprtwttrcmnpplctnntnt
+:END:
+: Be thorough
+: We need to completely understand your use case before we can approve it. So, please include as much detail as possible in your application.
+
+jesus...
+* [2020-04-29] need to mirror HN...                      :hackernews:exports:
+:PROPERTIES:
+:ID:       ndtmrrrhn
+:END:
+* [#C] [2020-01-15] Hi, Camlistore author here. Andrew Gerrand worked with me on Camlistore too and... | Hacker News :infra:exports:
+:PROPERTIES:
+:ID:       hcmlstrthrhrndrwgrrndwrkdwthmncmlstrtndhckrnws
+:END:
+https://news.ycombinator.com/item?id=13700968
+: bradfitz on Feb 21, 2017 | parent | favorite | on: Upspin – Another option for file sharing
+: Hi, Camlistore author here.
+: Andrew Gerrand worked with me on Camlistore too and is one of the Upspin authors.
+: The main difference I see is that Camlistore can model POSIX filesystems for backup and FUSE, but that's not its preferred view of the world. It is perfectly happy modeling a tweet or a "like" on its own, without any name in the world.
+: Upspin's data model is very much a traditional filesystem.
+: Also, upspin cared about the interop between different users from day 1 with keyservers etc, whereas for Camlistore that was not the primary design criteria. (We're only starting to work on that now in Camlistore).
+: But there is some similarity for sure, and Andrew knows both.

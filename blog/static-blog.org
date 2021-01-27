@@ -1,0 +1,147 @@
+#+TITLE: Why use static blog?
+#+filetags: blog
+
+Some extra info here https://beepb00p.xyz/site.html#easier_blogs (probably need to merge the two)
+
+* [#A] * why use static blog?
+:PROPERTIES:
+:ID:       whyssttcblg
+:END:
+** [#A] [2019-09-15] static blog: benefits of having it compiled with git directory -- it's trivial to track changes
+:PROPERTIES:
+:ID:       sttcblgbnftsfhvngtcmpldwthgtdrctrytstrvlttrckchngs
+:END:
+just need to make sure there are no random ids/hashes etc
+** [#B] [2019-09-04] Normal are too linear, can't trick them into doing what I want
+:PROPERTIES:
+:ID:       nrmlrtlnrcnttrckthmntdngwhtwnt
+:END:
+** [#C] [2019-09-02] everything you don't like you can hack in code    :self:
+:PROPERTIES:
+:ID:       vrythngydntlkycnhckncd
+:END:
+code can do literally anything you wish, this is very empowering
+
+* [#B] * what makes it hard?
+:PROPERTIES:
+:ID:       whtmksthrd
+:END:
+** TODO why it's hard: proper search (e.g. stemming)
+:PROPERTIES:
+:CREATED:  [2019-12-04]
+:ID:       whytshrdprprsrchgstmmng
+:END:
+** TODO [#C] why it's hard: limiting feed size
+:PROPERTIES:
+:CREATED:  [2020-01-05]
+:ID:       whytshrdlmtngfdsz
+:END:
+*** TODO make something generic for Hakyll?
+:PROPERTIES:
+:ID:       mksmthnggnrcfrhkyll
+:END:
+** TODO [#C] why it is hard: making them useful for non-programmers
+:PROPERTIES:
+:CREATED:  [2019-09-29]
+:ID:       whytshrdmkngthmsflfrnnprgrmmrs
+:END:
+*** [2019-12-26] link to sad-infra
+:PROPERTIES:
+:ID:       lnktsdnfr
+:END:
+* ---------------------
+:PROPERTIES:
+:ID:       1060_1085
+:END:
+
+* TODO [#C] don't be afraid to use conventional command line tools    :ipynb:
+:PROPERTIES:
+:CREATED:  [2019-09-15]
+:ID:       dntbfrdtscnvntnlcmmndlntls
+:END:
+example with stripping private todos
+
+why it may seem unreliable or hacky, it's very effortless to try it out and in conjunction with
+version control for your outputs, you're unlikely to mess anything up massively 
+* TODO [#C] as a tip: have a test page
+:PROPERTIES:
+:CREATED:  [2019-09-13]
+:ID:       stphvtstpg
+:END:
+
+* TODO [#B] post about screenshot comparison
+:PROPERTIES:
+:CREATED:  [2019-09-02]
+:ID:       pstbtscrnshtcmprsn
+:END:
+** [2019-09-21] could post that separately?
+:PROPERTIES:
+:ID:       cldpstthtsprtly
+:END:
+** [2019-09-21] change CSS on tags and demonstrate it?
+:PROPERTIES:
+:ID:       chngcssntgsnddmnstrtt
+:END:
+* STRT [#C] checker that anything that was ever on my blog is still available (post about it too!)
+:PROPERTIES:
+:CREATED:  [2018-11-19]
+:ID:       chckrthtnythngthtwsvrnmyblgsstllvlblpstbttt
+:END:
+** [2019-09-02] link checker kinda does that?
+:PROPERTIES:
+:ID:       lnkchckrknddstht
+:END:
+
+* TODO [#C] firefox responsive view thing
+:PROPERTIES:
+:CREATED:  [2019-07-21]
+:ID:       frfxrspnsvvwthng
+:END:
+
+* STRT [#C] meta: technical choices
+:PROPERTIES:
+:CREATED:  [2019-02-09]
+:ID:       mttchnclchcs
+:END:
+- State "STRT"      from "TODO"       [2019-02-18]
+minimalistic design
+
+disqus: I'd love to use something else... 
+
+sorry for that: I'm still allowing guest comments though
+Note: Registered users must now verify their email address prior to posting a comment. Pre-moderation is always enabled for guest comments.
+
+* TODO [#C] Editing blog                                          :cloudmacs:
+:PROPERTIES:
+:CREATED:  [2019-09-12]
+:ID:       dtngblg
+:END:
+
+* if possible, use [[https://orgmode.org/manual/Search-options.html#Search-options][=file:=]] links in =.org= files instead of HTML links :org:
+:PROPERTIES:
+:CREATED:  [2019-12-21]
+:ID:       fpssblssrgmdrgmnlsrchptnsfllnksnrgflsnstdfhtmllnks
+:END:
+E.g. instead of
+: [[./sad-infra.html#why][here]]
+
+, you can use:
+: [[file:sad-infra.org::#why][here]]
+
+Benefit of the latter is that link also works in org-mode source (unlike the former). During the export it's automatically resolved to HTML.
+* TODO about storing data in git repository, report via diff
+:PROPERTIES:
+:CREATED:  [2019-01-07]
+:ID:       btstrngdtngtrpstryrprtvdff
+:END:
+* TODO [#C] Post about symlink watcher thing?
+:PROPERTIES:
+:CREATED:  [2019-12-18]
+:ID:       pstbtsymlnkwtchrthng
+:END:
+
+* TODO [#B] feature of org-compile: output files. wonder how would you achieve that in pandoc
+:PROPERTIES:
+:CREATED:  [2019-11-14]
+:ID:       ftrfrgcmpltptflswndrhwwldychvthtnpndc
+:END:

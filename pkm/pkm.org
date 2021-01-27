@@ -149,7 +149,7 @@ although I'm gonna need to disable html export bits then
 :ID:       smdmcmwrldbrnvsnmssnvlspdbbvsnmssnvlspdtwrldbrnmdm
 :END:
 : or translate the data into other data models, like the open annotation data model.
-* STRT [#B] firefox saved searches via bookmarks actually get synced? :pkm:tweet:toblog:
+* STRT [#B] firefox saved searches via bookmarks actually get synced? :pkm:totweet:toblog:
 :PROPERTIES:
 :CREATED:  [2020-07-05]
 :ID:       frfxsvdsrchsvbkmrksctllygtsyncd
@@ -1868,7 +1868,7 @@ cool thing, might be good to overview accounts
 :CREATED:  [2020-03-16]
 :ID:       sgthbcmbrntsshrpgrpsssndxngrpgrp
 :END:
-* STRT [#C] I want an extension to do this             :hackernews:tweet:pkm:
+* STRT [#C] I want an extension to do this           :hackernews:totweet:pkm:
 :PROPERTIES:
 :CREATED:  [2020-04-23]
 :ID:       wntnxtnsntdths
@@ -2218,3 +2218,67 @@ https://news.ycombinator.com/item?id=21403294
 :CREATED:  [2019-09-04]
 :ID:       wrtbtfmc
 :END:
+* STRT [#B] [2019-12-02] Ask HN: How did you build up your personal knowledge base? | Hacker News
+:PROPERTIES:
+:ID:       skhnhwddybldpyrprsnlknwldgbshckrnws
+:END:
+https://news.ycombinator.com/item?id=21332957
+** [2019-12-03] arguments for forgetting?
+:PROPERTIES:
+:ID:       rgmntsfrfrgttng
+:END:
+:  +1, I think this links well with Alan Kay's thoughts on book reading. Some of his insights from a (maybe famous) HN thread:
+*** DONE "Mind palace", forgetting, "relax!": https://news.ycombinator.com/item?id=11809676
+:PROPERTIES:
+:ID:       mndplcfrgttngrlxsnwsycmbntrcmtmd
+:END:
+*** DONE "Oxbridge method": https://news.ycombinator.com/item?id=11805264
+:PROPERTIES:
+:ID:       xbrdgmthdsnwsycmbntrcmtmd
+:END:
+*** DONE Not taking notes: https://news.ycombinator.com/item?id=11853258
+:PROPERTIES:
+:ID:       nttkngntssnwsycmbntrcmtmd
+:END:
+
+* STRT [#C] Build the ultimate personal knowledge management system - productivity
+:PROPERTIES:
+:CREATED:  [2020-01-29]
+:ID:       bldthltmtprsnlknwldgmngmntsystmprdctvty
+:END:
+https://www.reddit.com/r/productivity/comments/evjtlz/build_the_ultimate_personal_knowledge_management/
+
+* STRT [#B] [2020-01-30] Digital Tools I Wish Existed | Hacker News     :pkm:
+:PROPERTIES:
+:ID:       dgtltlswshxstdhckrnws
+:END:
+https://news.ycombinator.com/item?id=21659876
+: What I see missing is an ecosystem of interoperable tools.
+: It would be great if I could have a location/format in which all my digital knowledge is stored. And then be able to use different tools which support multiple processes/flows:
+: 
+: - a flow for discovering content
+: - a flow for archiving the highlights I take on the web
+: - a flow for writing notes
+: 
+: it would be great if I could change any tool while keeping the flow intact.
+: The only thing that somehow mirrors this is Evernote + Readwise + IFTT. There are tons of integrations that allow you to populate Evernote from tweets, Highly, Kindle highlights, etc. What I would love is if I could easily swap Evernote with any other editor (e.g. Bear) without changing much.
+: I wouldn't mind paying for these tools I would just like this personal knowledge software to work in a way in which you can natively add blocks/functionality to it. Most of them have huger vendor lock in.
+
+interesting approah; "content discovery flow" seems like a good post title?
+* TODO [#C] https://news.ycombinator.com/item?id=21653923    :pkm:annotation:
+:PROPERTIES:
+:CREATED:  [2019-11-28]
+:ID:       snwsycmbntrcmtmd
+:END:
+
+: Yes, this siloing stops me from using annotation features "native" to each app and format as such as well.
+: Instead, I prefer to exfiltrate information from the silos(apps, formats, etc) and put them into my note taking system. Then I can do highlights, annotations, etc. on my own terms and also get the benefits of centralization such as searching and linking(the OP has another post describing their own system, which is pretty cool[1]). Currently I'm using Notion, which is also a silo of its own, but it's one that gives me a lot of control over how I lay my information out(and an escape plan from).
+: There are a lot of perspectives on this issue with data silos and walled gardens. But I'm of the opinion that it's a fairly bad state for all of us "end users". Computers to me are about infinite flexibility and malleability, but ironically the tools we have for annotation and remixing are in practice worse than what we have in the physical world. Reading a book in the physical world, I can converse with the author simply by jotting marginalia with my pencil. It's fluid, intuitive, and the medium of paper encourages it(in fact it can't help but be mutated by my use!: pages get bended, stained, torn, etc.). If I want to go further I can add post-it notes to mark interesting passages, I can xerox some pages and create subsections, if it's a magazine I can just tear them all out! That kind of flexibility just isn't available on a computer.
+: I think it's worth thinking really hard why we're in this state, especially since computing pioneers were actually very optimistic that data and computing would be way more personally malleable than it is now(I've been working on a small comic on this theme myself[2]). For example, check out this short demo[3] of Smalltalk where Alan Kay hooks up a single frame from an animation of a bouncing ball to a painting program, to modify that one frame while also monitoring the loop. Smarter than paper, but way more flexible.
+
+
+: [1] https://beepb00p.xyz/pkm-search.html
+: [2] https://twitter.com/yoshikischmitz/status/1188455560045158400
+: [3] https://youtu.be/AnrlSqtpOkw?t=607
+
+basically my thoughts

@@ -1762,23 +1762,6 @@ there is github topics, github description, readme, pypi readem, readthedocs rea
 : Agree. I now have a sudden urge to write a guide how to start from very simple (i.e. system interpreter, no packaging, minimal verification) and how to progress further on. And how to decide what tools do you even need to consider and at which stage.
 : 
 : In hindsight as a somewhat experienced Python programmer I can see how each of these tools can be helpful – but if I was a beginner I would be completely overwhelmed.
-* TODO [#C] why mypy is good: injector DI library               :toblog:mypy:
-:PROPERTIES:
-:CREATED:  [2019-12-24]
-:ID:       whymypysgdnjctrdlbrry
-:END:
-* TODO [#D] Why python is good                                       :toblog:
-:PROPERTIES:
-:ID:       whypythnsgd
-:END:
-generators, decorators and random dynamic things with examples
-
-** TODO [#C] Literal types and demonstrate mypy? Perhaps timezones as example? :toblog:python:configs:
-:PROPERTIES:
-:CREATED:  [2019-12-05]
-:ID:       ltrltypsnddmnstrtmypyprhpstmznssxmpl
-:END:
-
 * TODO [#C] [2020-05-30] [[https://www.hillelwayne.com/post/learning-a-language/][The Hard Part of Learning a Language • Hillel Wayne]] :toblog:python:
 :PROPERTIES:
 :ID:       swwwhlllwyncmpstlrnnglnggthhrdprtflrnnglngghlllwyn
@@ -1797,3 +1780,18 @@ self-answering stackoverflow questions??
 :END:
 https://stackoverflow.com/questions/3472430/how-can-i-make-setuptools-install-a-package-thats-not-on-pypi
 why python sucks: dependencies
+* [#C] [2020-04-17] [[https://github.com/pypa/gh-action-pypi-publish][pypa/gh-action-pypi-publish: GitHub Action for publishing pre-built distribution packages to PyPI (from `dist/` dir)]] :githubci:
+:PROPERTIES:
+:ID:       sgthbcmpypghctnpyppblshpytdstrbtnpckgstpypfrmdstdr
+:END:
+: - name: Publish a Python distribution to PyPI
+:   uses: pypa/gh-action-pypi-publish@master
+:   with:
+:     user: __token__
+:     password: ${{ secrets.pypi_password }}
+
+so much indirection!!
+* [#C] [2020-04-18] [[https://packaging.python.org/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/][Publishing package distribution releases using GitHub Actions CI/CD workflows — Python Packaging User Guide]] :githubci:
+:PROPERTIES:
+:ID:       spckgngpythnrggdspblshngpccdwrkflwspythnpckgngsrgd
+:END:

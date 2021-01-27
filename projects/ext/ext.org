@@ -666,8 +666,6 @@ related: #twitter
 :ID:       hmmtlkslktcntprstwtds
 :END:
 : CRITICAL:root:twint.get:Tweet:time data '' does not match format '%Y-%m-%d %H:%M:%S'
-: CRITICAL:root:twint.get:Tweet:time data '' does not match format '%Y-%m-%d %H:%M:%S'
-: CRITICAL:root:twint.get:Tweet:time data '' does not match format '%Y-%m-%d %H:%M:%S'
 : 1249982874150932480 2020-04-14 09:48:35 BST <karlicoss> I love it, one of the best physics textbooks I know ! Will probably take  years for me to fully grasp, but it's very pleasant to read! https://twitter.com/JakobSchwich/status/1249569424622878720 …
 : 1249856617031630848 2020-04-14 01:26:53 BST <karlicoss> I'm almost sure you've seen it, but this is a fascinating read:  https://slatestarcodex.com/2014/03/17/what-universal-human-experiences-are-you-missing-without-realizing-it/ … (comments too!)
 : 1249820865593847814 2020-04-13 23:04:49 BST <karlicoss> It's probably for the first time in years when I actually liked some user interface. Wow.
@@ -704,7 +702,7 @@ using #gitbug instead now
 
 * --------------------------------
 :PROPERTIES:
-:ID:       23391_23427
+:ID:       23217_23253
 :END:
 
 * STRT [#C] share link and content                                    :tusky:

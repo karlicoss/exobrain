@@ -1,7 +1,7 @@
 #+TITLE: Singularity
 #+filetags: singularity
 
-I want to make it to the singularity
+I want to make it to the singularity. Then I can finally relax.
 
 * related
 :PROPERTIES:
@@ -26,11 +26,10 @@ I want to make it to the singularity
 :PROPERTIES:
 :ID:       dth
 :END:
-** [2019-08-02] Why Age? Should We End Aging Forever? - YouTube :aging:death:
+** [2019-08-02] [[https://www.youtube.com/watch?v=GoJsr4IwCm4][Why Age? Should We End Aging Forever? - YouTube]] :aging:death:
 :PROPERTIES:
-:ID:       whygshldwndgngfrvrytb
+:ID:       swwwytbcmwtchvgjsrwcmwhygshldwndgngfrvrytb
 :END:
-https://www.youtube.com/watch?v=GoJsr4IwCm4&list=WL&index=40&t=0s
 : shallow, but ok video
 ** TODO [#C] Do you fear death? Why/why not?                    :think:death:
 :PROPERTIES:
@@ -39,11 +38,10 @@ https://www.youtube.com/watch?v=GoJsr4IwCm4&list=WL&index=40&t=0s
 :END:
 https://www.reddit.com/r/askreddit/comments/ba89s2/_/
 
-** [2019-08-03] Why Die? - YouTube
+** [2019-08-03] [[https://www.youtube.com/watch?v=C25qzDhGLx8][Why Die? - YouTube]]
 :PROPERTIES:
-:ID:       whydytb
+:ID:       swwwytbcmwtchvcqzdhglxwhydytb
 :END:
-https://www.youtube.com/watch?v=C25qzDhGLx8&list=WL&index=39&t=13s
 : good point that death is not a solution to our problems, and similar thought that I had that death is not a good way to appreciate life (as contrast)
 ** TODO [#C] [2019-10-16] [[https://reddit.com/r/transhumanism/comments/dikn00/why_dont_more_people_care_about_not_dying/f3wimm3/][Why don't more people care about not dying]] /r/transhumanism :death:
 :PROPERTIES:
@@ -89,7 +87,7 @@ https://github.com/RomanPlusPlus/scientific-progress-towards-cryonics
 
 * -----------------------
 :PROPERTIES:
-:ID:       3734_3761
+:ID:       3725_3752
 :END:
 
 * TODO [#B] [2020-09-01] [[https://news.ycombinator.com/item?id=24344613][Mind Emulation Foundation]] :immortality:
@@ -97,46 +95,24 @@ https://github.com/RomanPlusPlus/scientific-progress-towards-cryonics
 :ID:       snwsycmbntrcmtmdmndmltnfndtn
 :END:
 https://mindemulation.org/
-* [#B] [2019-10-26] Цифровое бессмертие. Алексей Турчин. - YouTube :longevity:immortality:
+* [#B] [2019-10-26] talk: [[https://www.youtube.com/watch?v=oQdotI4gH_0][Цифровое бессмертие. Алексей Турчин. - YouTube]] :longevity:immortality:
 :PROPERTIES:
-:ID:       цифровоебессмертиеалексейтурчинytb
+:ID:       tlkswwwytbcmwtchvqdtghцифессмертиеалексейтурчинytb
 :END:
-https://www.youtube.com/watch?v=oQdotI4gH_0
 ok, pretty good talk actually. Touches quite a few subjects, but a bit shallow. although you can't go much deeper because many things are just conjectured
 * STRT [#C] [2019-05-05] Quora Answers 2015 - 2019 by David Pearce: towards a "triple S" civilisation of superintelligence, superlongevity and superhappiness
 :PROPERTIES:
 :ID:       qrnswrsbydvdprctwrdstrplsllgncsprlngvtyndsprhppnss
 :END:
 https://www.hedweb.com/quora/index.html
-** [2019-07-23] read up to 100; there are also other links on this blog..
-:PROPERTIES:
-:ID:       rdptthrrlsthrlnksnthsblg
-:END:
-** [2019-09-03] read up to 200
-:PROPERTIES:
-:ID:       rdpt
-:END:
-** [2019-09-21] read up to 300
-:PROPERTIES:
-:ID:       rdpt
-:END:
-** [2020-06-03] read up to 400
-:PROPERTIES:
-:ID:       rdpt
-:END:
-** [2020-06-26] done all!
-:PROPERTIES:
-:ID:       dnll
-:END:
-** TODO [2019-09-30] tweet it                                  :outbox:tweet:
+** TODO [2019-09-30] tweet it                                :outbox:totweet:
 :PROPERTIES:
 :ID:       twtt
 :END:
-* [#C] [2020-03-24] H+Pedia                                   :transhumanism:
+* [#C] [2020-03-24] [[https://hpluspedia.org/wiki/Main_Page][H+Pedia]] :transhumanism:
 :PROPERTIES:
-:ID:       hpd
+:ID:       shplspdrgwkmnpghpd
 :END:
-https://hpluspedia.org/wiki/Main_Page
 
 * DONE [#D] wetware hacking                            :biohacking:nootropic:
 :PROPERTIES:

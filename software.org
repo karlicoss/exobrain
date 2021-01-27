@@ -292,3 +292,18 @@ https://www.b-list.org/weblog/2009/jul/14/licensing/
 http://worrydream.com/#!/ABriefRantOnTheFutureOfInteractionDesign
 I mean, his page is awesome but because of overly heavy design all annotations end u orphaned
 - [2019-04-19] shit, even selection doesn't work
+* what's a good app for building communities around software?        :social:
+:PROPERTIES:
+:ID:       whtsgdppfrbldngcmmntsrndsftwr
+:END:
+- [2020-05-27] needs to be [[Zulip]] (or even better, [[Matrix]] when they support threads in Element?)
+- [2020-06-30] [[discord]] sucks
+  - ok, discord is a bit crap because lacks proper threading
+  - need to sign up to read & search it
+  - you can't engage with the information (e.g. search) without joining first.
+  - closed source
+  - aggressive towards alternative clients
+** e.g. for #memex community
+:PROPERTIES:
+:ID:       gfrmmxcmmnty
+:END:

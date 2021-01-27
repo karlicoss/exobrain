@@ -70,16 +70,14 @@ Here are classic models of the projective plane:
 :ID:       glngsphrytb
 :END:
 https://www.youtube.com/watch?v=mmkreUEoGr8
-Selection:
-Often the fundamental group of the glued object can be calculated from the pieces (here two rectangles) and the glue (here a circle). The mathematical tool to do this is called the Seifert-van Kampen Theorem.
+: Often the fundamental group of the glued object can be calculated from the pieces (here two rectangles) and the glue (here a circle). The mathematical tool to do this is called the Seifert-van Kampen Theorem.
 
 * [#C] [2019-01-23] Union of two simply connected open subsets with path-connected intersection is simply connected - Topospaces :topology:
 :PROPERTIES:
 :ID:       nnftwsmplycnnctdpnsbstswtntrsctnssmplycnnctdtpspcs
 :END:
 https://topospaces.subwiki.org/wiki/Union_of_two_simply_connected_open_subsets_with_path-connected_intersection_is_simply_connected
-Selection:
-Both  and  are trivial, so we get  is an amalgamated free product of two trivial groups, hence it must be trivial.
+: Both  and  are trivial, so we get  is an amalgamated free product of two trivial groups, hence it must be trivial.
 
 * [#D] Data type topology                                          :topology:
 :PROPERTIES:
@@ -90,22 +88,19 @@ Both  and  are trivial, so we get  is an amalgamated free product of two trivial
 :ID:       nfntcmpctsts
 :END:
 https://perl.plover.com/classes/data-topology/samples/slide022.html
-Selection:
- one-point compactification of ℕ
+:  one-point compactification of ℕ
 ** [#C] [2019-01-26] Compactness
 :PROPERTIES:
 :ID:       cmpctnss
 :END:
 https://perl.plover.com/classes/data-topology/samples/slide021.html
-Selection:
-Compact set	=	Set that can be exhaustively searched
+: Compact set	=	Set that can be exhaustively searched
 ** [#C] [2019-01-26] Equality
 :PROPERTIES:
 :ID:       qlty
 :END:
 https://perl.plover.com/classes/data-topology/samples/slide019.html
-Selection:
-Discrete space	=	Semidecidable equality
+: Discrete space	=	Semidecidable equality
 ** [#C] [2019-01-26] Topology of Data Types
 :PROPERTIES:
 :ID:       tplgyfdttyps
@@ -116,8 +111,7 @@ https://perl.plover.com/classes/data-topology/
 :ID:       rfrncsndfrthrrdng
 :END:
 https://perl.plover.com/classes/data-topology/samples/slide027.html
-Selection:
-Other materials at http://www.cs.bham.ac.uk/~mhe/
+: Other materials at http://www.cs.bham.ac.uk/~mhe/
 
 * DONE [#C] [2019-01-26] A Logical Interpretation of Some Bits of Topology – XOR’s Hammer :logic:
 :PROPERTIES:

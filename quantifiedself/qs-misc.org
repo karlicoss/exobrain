@@ -2143,3 +2143,17 @@ https://talk.automators.fm/t/how-i-track-my-life-with-integromat-airtable-shortc
 :PROPERTIES:
 :ID:       gsstshldbfntxplctlylnktthpblcnsnnndsllphtsthr
 :END:
+
+* TODO [#C] quantifiedmind post: build an automatic graph for model? So I could reason about placebo etc :qs:toblog:
+:PROPERTIES:
+:CREATED:  [2018-08-17]
+:ID:       qntfdmndpstbldntmtcgrphfrmdlscldrsnbtplcbtc
+:END:
+- [2019-11-16] not sure what I meant here, but would be cool to make notebooks completely interactive so people could plug in their models?j
+* TODO [#C] [2020-09-13] [[https://beepb00p.xyz/exercise-bike-model.html][Analyzing accuracy of power reported by stationary bike | beepb00p]] :qs:toblog:
+:PROPERTIES:
+:ID:       sbpbpxyzxrcsbkmdlhtmlnlyzcyfpwrrprtdbysttnrybkbpbp
+:END:
+: make the free coefficient positive.
+
+eh, maybe just use "intercept" with a link to wikipedia? not sure if free variable is a common language

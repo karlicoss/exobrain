@@ -471,20 +471,6 @@ ok, this is amazing.. def need to read everything
 [[https://physicsworld.com/a/paul-dirac-the-purest-soul-in-physics/][Paul Dirac: the purest soul in physics – Physics World]]
 [[https://hyp.is/5j-XThU-Eeq1vntOZQ5ywg/physicsworld.com/a/paul-dirac-the-purest-soul-in-physics/][in context]]
 
-* TODO [#B] [2019-10-25] [[https://reddit.com/r/Physics/comments/dmxgh3/i_made_a_webbased_interactive_simulator_for/][I made a web-based interactive simulator for electromagnetic waves]] /r/Physics :sim:viz:
-:PROPERTIES:
-:ID:       srddtcmrphyscscmmntsdmxghmltrfrlctrmgntcwvsrphyscs
-:END:
-** [2019-12-29] wow, awesome simulation..                               :sim:
-:PROPERTIES:
-:ID:       wwwsmsmltn
-:END:
-*** [2019-12-29] wonder if I could do smth similar for post on lagrangians? :toblog:
-:PROPERTIES:
-:ID:       wndrfclddsmthsmlrfrpstnlgrngns
-:END:
-e.g. exploring Lagrangia??
-
 * [#B] [2014-11-01] [[https://reddit.com/r/askscience/comments/2ky0re/what_stops_the_hydrogen_atom_from_being_destroyed/clptwvp/][What stops the Hydrogen atom from being destroyed?]] /r/askscience
 :PROPERTIES:
 :ID:       srddtcmrskscnccmmntskyrwhdrgntmfrmbngdstrydrskscnc
@@ -834,7 +820,7 @@ https://www.reddit.com/r/Physics/comments/bxpnti/dirac_and_feynman_one_a_man_of_
 :ID:       sthscncplygrndcmxplrthscncplygrnd
 :END:
 
-* [2021-01-23] [[http://www.damtp.cam.ac.uk/user/tong/topicsinqm.html][David Tong: Topics in Quantum Mechanics]] :tong:physics:quantum:
+* [2021-01-23] [[http://www.damtp.cam.ac.uk/user/tong/topicsinqm.html][David Tong: Topics in Quantum Mechanics]] :physics:quantum:
 :PROPERTIES:
 :ID:       wwwdmtpcmcksrtngtpcsnqmhtmldvdtngtpcsnqntmmchncs
 :END:
@@ -898,3 +884,18 @@ from The Theoretical Minimum by George Hrabovsky
 :CREATED:  [2018-11-18]
 :ID:       btlrlgrngqtnsndrngktt
 :END:
+* TODO [#B] [2020-02-09] Лагранжева механика — Википедия             :toblog:
+:PROPERTIES:
+:ID:       4836776f-b013-4c60-bc39-d96087d0aad8
+:END:
+https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B3%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D0%B0_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0
+: В буквальном смысле принцип наименьшего действия справедлив лишь локально. А именно, имеет место
+:     Теорема Бобылёва[1]: действие вдоль прямого пути M 1 M 2 {\displaystyle M_{1}M_{2}} M_{1}M_{2} имеет наименьшее значение по сравнению с окольными путями, если на дуге M 1 M 2 {\displaystyle M_{1}M_{2}} M_{1}M_{2} нет сопряжённого для M 1 {\displaystyle M_{1}} M_{1} кинетического фокуса.
+* TODO [#B] About  the principle of least action is a lie            :toblog:
+:PROPERTIES:
+:CREATED:  [2020-05-09]
+:ID:       btthprncplflstctnsl
+:END:
+
+One thing is giving up and accepting the axiomatic. OK, deal  with it and move on, do some real work instead. Fair enough.
+Another is trying to come up with magical explanations that the nature 'wants' something

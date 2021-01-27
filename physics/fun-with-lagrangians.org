@@ -1,0 +1,136 @@
+#+TITLE: 🚧 Fun with lagrangians
+#+filetags: lagrangian
+
+My long outstanding post on some experiments with Lagrangians: [[https://beepb00p.xyz/lagrangians.html][They see me flowin' they hatin']].
+
+* related:                                                   :physics:toblog:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
+* [#A] * why
+:PROPERTIES:
+:ID:       why
+:END:
+** TODO [#B] write motivation for trying to understand; and also note that lagrangians do not necessarily describe fundamental physics (e.g. solid state etc)
+:PROPERTIES:
+:CREATED:  [2019-07-14]
+:ID:       wrtmtvtnfrtryngtndrstndndcrbfndmntlphyscsgsldstttc
+:END:
+
+** TODO [#C] Motivation for investigating the shape
+:PROPERTIES:
+:CREATED:  [2019-10-25]
+:ID:       mtvtnfrnvstgtngthshp
+:END:
+
+One could just say it's pointless to try different shapes because the normal lagrangian works. Analogy is aaronsons speculations on l2 norm for quantum mechanics
+
+* [#B] * ideas
+:PROPERTIES:
+:ID:       ds
+:END:
+** TODO [#B] [2019-10-25] [[https://reddit.com/r/Physics/comments/dmxgh3/i_made_a_webbased_interactive_simulator_for/][I made a web-based interactive simulator for electromagnetic waves]] /r/Physics :sim:viz:
+:PROPERTIES:
+:ID:       srddtcmrphyscscmmntsdmxghmltrfrlctrmgntcwvsrphyscs
+:END:
+*** [2019-12-29] wow, awesome simulation..                              :sim:
+:PROPERTIES:
+:ID:       wwwsmsmltn
+:END:
+**** [2019-12-29] wonder if I could do smth similar for post on lagrangians? :toblog:
+:PROPERTIES:
+:ID:       wndrfclddsmthsmlrfrpstnlgrngns
+:END:
+e.g. exploring Lagrangia??
+
+** TODO [#B] [2020-06-03] apply some ideas from 'toward an exploratory medium' to my post on lagrangians? make it really interactive, with typing in arbitrary formula and numeric integration??
+:PROPERTIES:
+:ID:       pplysmdsfrmtwrdnxplrtrymdngnrbtrryfrmlndnmrcntgrtn
+:END:
+** STRT [#C] Lagrangian 3d                                              :viz:
+:PROPERTIES:
+:CREATED:  [2019-01-28]
+:ID:       lgrngnd
+:END:
+
+** DONE [#B] name the post "they see me flowin' they hatin'"  and add short summary below
+:PROPERTIES:
+:CREATED:  [2019-01-17]
+:ID:       nmthpstthysmflwnthyhtnndddshrtsmmryblw
+:END:
+
+** TODO [#C] plot actual trajectories??
+:PROPERTIES:
+:CREATED:  [2019-01-15]
+:ID:       pltctltrjctrs
+:END:
+
+** STRT [#C] draw slope field!!!
+:PROPERTIES:
+:CREATED:  [2018-12-28]
+:ID:       drwslpfld
+:END:
+
+** TODO [#D] Meditate what would be ideal form for my post about Lagrangians (formula is important unlike what Bret Victor says).pinching for phase plots, automatic numerical solving, tooltips, highlighted stuff
+:PROPERTIES:
+:CREATED:  [2019-06-17]
+:ID:       mdttwhtwldbdlfrmfrmypstbtrclslvngtltpshghlghtdstff
+:END:
+
+* [#C] * publicity
+:PROPERTIES:
+:ID:       pblcty
+:END:
+** TODO [#B] [2020-06-03] [[https://twitter.com/j_bertolotti/status/1268130937117847552][(1) Jacopo Bertolotti on Twitter: "#PhysicsFactlet (230) If the forces acting on your system can't be written as a potential, you can still write a Euler-Lagrange equation in terms of the kinetic energy T and the components of the forces tangent to the generalized coordinates q. https://t.co/Hd0xbUsHCw" / Twitter]] :totweet:physics:
+:PROPERTIES:
+:ID:       stwttrcmjbrtlttsttsjcpbrtzdcrdntsqstchdxbshcwtwttr
+:END:
+post very short intro into lagrangians?
+
+
+* -------------------------------
+:PROPERTIES:
+:ID:       2595_2630
+:END:
+
+* [#C] [2018-11-29] hmm I understood quite a few things while writing that post about lagrangian :writing:study:
+:PROPERTIES:
+:ID:       hmmndrstdqtfwthngswhlwrtngthtpstbtlgrngn
+:END:
+* [#C] [2018-12-28] The Feynman Lectures on Physics Vol. II Ch. 19: The Principle of Least Action :toblog:physics:
+:PROPERTIES:
+:ID:       thfynmnlctrsnphyscsvlchthprncplflstctn
+:END:
+http://www.feynmanlectures.caltech.edu/II_19.html
+:  “Here is how it works: Suppose that for all paths, SS is very large compared to ℏℏ. One path contributes a certain amplitude. For a nearby path, the phase is quite different, because with an enormous SS even a small change in SS means a completely different phase—because ℏℏ is so tiny. So nearby paths will normally cancel their effects out in taking the sum—except for one region, and that is when a path and a nearby path all give the same phase in the first approximation (more precisely, the same action within ℏℏ). Only those paths will be the important ones. So in the limiting case in which Planck’s constant ℏℏ goes to zero, the correct quantum-mechanical laws can be summarized by simply saying: ‘Forget about all these probability amplitudes. The particle does go on a special path, namely, that one for which SS does not vary in the first approximation.’ That’s the relation between the principle of least action and quantum mechanics. The fact that quantum mechanics can be formulated in this way was discovered in 1942 by a student of that same teacher, Bader, I spoke of at the beginning of this lecture. [Quantum mechanics was originally formulated by giving a differential equation for the amplitude (Schrödinger) and also by some other matrix mathematics (Heisenberg).]
+** TODO this is for my legendre post?
+:PROPERTIES:
+:ID:       thssfrmylgndrpst
+:END:
+** TODO pun around Le?
+:PROPERTIES:
+:ID:       pnrndl
+:END:
+* TODO [#D] Shit, legendre transform is not unique???
+:PROPERTIES:
+:CREATED:  [2019-06-21]
+:ID:       shtlgndrtrnsfrmsntnq
+:END:
+
+* TODO [#C] [2018-12-03] Calculus of variations - Wikipedia             :viz:
+:PROPERTIES:
+:ID:       clclsfvrtnswkpd
+:END:
+:  https://en.wikipedia.org/wiki/Calculus_of_variations#Lavrentiev_phenomenon
+:  L(t,x,x')=(x^{3}-t)^{2}x'^{6},
+:  hmm, that would be pretty cool to visualise!!
+
+also what about Euler-Lagrange??
+* TODO [#B] Let’s take another example. Suppose the Hamiltonian is given by
+:PROPERTIES:
+:CREATED:  [2020-02-01]
+:ID:       ltstknthrxmplsppsthhmltnnsgvnby
+:END:
+Todo H=pq similar to my expriments
+from The Theoretical Minimum by George Hrabovsky

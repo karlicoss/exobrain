@@ -1,0 +1,138 @@
+#+TITLE: Some things and techniques I like python for
+#+filetags: python
+
+* TODO [#C] [2019-07-21] hacked seaborn to display vs on pairplots
+:PROPERTIES:
+:ID:       hckdsbrntdsplyvsnprplts
+:END:
+used inspect to extract directly from local variables, lol
+https://github.com/mwaskom/seaborn/blob/master/seaborn/axisgrid.py#L1340-L1341
+** TODO [#D] why python is good: patching seaborn bootstrap
+:PROPERTIES:
+:CREATED:  [2020-01-13]
+:ID:       whypythnsgdptchngsbrnbtstrp
+:END:
+
+I've had nondeterministic behaviour due to random seed
+was not propagated, but with a patch it's possible to achieve
+
+https://github.com/mwaskom/seaborn/blob/065d3c1ed58b029d61913cca8fc315cc985ffc91/seaborn/regression.py#L235
+
+: # TODO careful.. need to do this ONCE
+: bootstrap_orig = sns.algorithms.bootstrap
+: def bootstrap_hacked(*args, **kwargs):
+:     return bootstrap_orig(*args, random_seed=0, **kwargs)
+: sns.algorithms.bootstrap = bootstrap_hacked
+
+
+https://github.com/mwaskom/seaborn/issues/1924
+* TODO [#C] hacking logging.Logger to do basicConfig
+:PROPERTIES:
+:CREATED:  [2019-09-17]
+:ID:       hcknglggnglggrtdbsccnfg
+:END:
+:  logging.basicConfig(
+:      format='%(asctime)s %(levelname)-8s %(message)s',
+:      level=logging.INFO,
+:      datefmt='%Y-%m-%d %H:%M:%S')
+
+
+However if you are a well-mannered person, you don't want to mess with other loggers and you're probably providing your own logger method
+
+This is a bit horrible
+https://stackoverflow.com/a/28330410/706389
+
+For my personal projects I'm using logzero which has got a single line setup method. However, for code I'm sharing with other people I prefer to have as little external dependencies as you can
+
+
+e.g. libraries should never configure logging
+https://www.reddit.com/r/learnpython/comments/69grzn/logging_confuses_me/dh6ngvo/
+** [2019-09-17] could publish in r/python?
+:PROPERTIES:
+:ID:       cldpblshnrpythn
+:END:
+** [2019-09-17] sometimes it makes sense for your library to configure other loggers (e.g. requests)
+:PROPERTIES:
+:ID:       smtmstmkssnsfryrlbrrytcnfgrthrlggrsgrqsts
+:END:
+* TODO [#C] why generators are good: fbchat export example
+:PROPERTIES:
+:CREATED:  [2019-12-03]
+:ID:       whygnrtrsrgdfbchtxprtxmpl
+:END:
+separating network retrieval and storing in database. with generators can do it simultaneously
+* TODO [#C] another example of cool generator use in fbchat
+:PROPERTIES:
+:CREATED:  [2019-12-04]
+:ID:       nthrxmplfclgnrtrsnfbcht
+:END:
+
+: mts = int(r.timestamp)
+: if newest is not None and oldest is not None and newest > mts > oldest:
+:     logger.info('Fetched everything for %s', thread.name)
+:     break # interrupt, thus interrupting fetching data
+: db.insert_message(thread, r)
+* TODO example of hacky setup_logger
+:PROPERTIES:
+:CREATED:  [2019-11-04]
+:ID:       xmplfhckystplggr
+:END:
+* [#C] hacky 'autonaming'
+:PROPERTIES:
+:CREATED:  [2020-05-27]
+:ID:       hckytnmng
+:END:
+: import ast
+: import traceback
+: import inspect
+: 
+: src = ast.parse(open(__file__).read())
+: 
+: def find_name(lno: int):
+:     # TODO end_lineno is not set??
+:     node = None
+:     for x in src.body:
+:         if x.lineno >= lno:
+:             break
+:         node = x
+:     [tg] = node.targets
+:     return tg.id
+: 
+: class Namer:
+:     @property
+:     def auto(self) -> str:
+:         stack = inspect.stack()
+:         fr = stack[1]
+:         lno = fr.lineno
+:         return find_name(lno)
+: 
+: N = Namer()
+: 
+: 
+: aaaa = (
+:     1,
+:     N.auto,
+: )
+: bbbb = (
+:     2,
+:     N.auto,
+: )
+: 
+: print(aaaa)
+: print(bbbb)
+* TODO [#C] why mypy is good: injector DI library               :toblog:mypy:
+:PROPERTIES:
+:CREATED:  [2019-12-24]
+:ID:       whymypysgdnjctrdlbrry
+:END:
+* TODO [#D] Why python is good                                       :toblog:
+:PROPERTIES:
+:ID:       whypythnsgd
+:END:
+generators, decorators and random dynamic things with examples
+
+* TODO [#C] Literal types and demonstrate mypy? Perhaps timezones as example? :toblog:mypy:configs:
+:PROPERTIES:
+:CREATED:  [2019-12-05]
+:ID:       ltrltypsnddmnstrtmypyprhpstmznssxmpl
+:END:

@@ -2,6 +2,11 @@
 #+logseq_title: linux
 #+filetags: linux
 
+* related                                                             :infra:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
 * docker                                                             :docker:
 :PROPERTIES:
 :ID:       dckr
@@ -14,17 +19,18 @@
 :PROPERTIES:
 :ID:       fgrngtwhttksdskspcdckrmgswkprntxrgsdckrnspctlss
 :END:
+
 * systemd                                                           :systemd:
 :PROPERTIES:
 :ID:       systmd
 :END:
-** Debugging: ~systemctl --failed~,  ~journalctl~
+** debugging: ~systemctl --failed~,  ~journalctl~
 :PROPERTIES:
 :ID:       dbggngsystmctlfldjrnlctl
 :END:
 logs -- for individual jobs you can see them via status (or sdj)
 presistent is not showing anythin by default?
-** Profiling: ~systemd-analyze blame~
+** profiling: ~systemd-analyze blame~
 :PROPERTIES:
 :ID:       prflngsystmdnlyzblm
 :END:
@@ -48,6 +54,15 @@ presistent is not showing anythin by default?
 one the other machine
 : echo "TEST" | netcat host 5559
 
+** [2020-06-15] [[https://superuser.com/questions/621870/test-if-a-port-on-a-remote-system-is-reachable-without-telnet][linux - Test if a port on a remote system is reachable (without telnet) - Super User]]
+:PROPERTIES:
+:ID:       ssprsrcmqstnststfprtnrmtstsystmsrchblwthttlntsprsr
+:END:
+: Nice and verbose! From the man pages.
+: Single port:
+: nc -zv 127.0.0.1 80
+
+testing if port is open
 * apt
 :PROPERTIES:
 :ID:       pt
@@ -79,6 +94,10 @@ mind the space after colon!
 :PROPERTIES:
 :ID:       sndbxng
 :END:
+** docker is excellent for quick sandboxes (just use ~ubuntu:latest~ image or something)
+:PROPERTIES:
+:ID:       dckrsxcllntfrqcksndbxsjstsbntltstmgrsmthng
+:END:
 ** ~firejail~ for network sandbox                           :network:testing:
 :PROPERTIES:
 :ID:       frjlfrntwrksndbx
@@ -108,24 +127,25 @@ mind the space after colon!
 :ID:       gtwymnsthtthsbntslnklclthhpcktsrdlvrddrctlytthtrgt
 :END:
 
-* [2018-06-08] Linux ignores the setuid bit on all interpreted executables (i.e. executables starting with a #! line).
+* -----------------------------------------
+:PROPERTIES:
+:ID:       2045_2090
+:END:
+
+* [#C] [2018-06-08] Linux ignores the setuid bit on all interpreted executables (i.e. executables starting with a ~#!~ line).
 :PROPERTIES:
 :ID:       lnxgnrsthstdbtnllntrprtdxctblsxctblsstrtngwthln
 :END:
 ok apparently setuid shell scripts are quite risky...
-* [#C] [2020-01-29] linux - How to make htop sort by PID
+* [#C] [2020-01-29] [[https://superuser.com/questions/275873/how-to-make-htop-sort-by-pid][linux - How to make htop sort by PID]]
 :PROPERTIES:
-:ID:       lnxhwtmkhtpsrtbypd
+:ID:       ssprsrcmqstnshwtmkhtpsrtbypdlnxhwtmkhtpsrtbypd
 :END:
-https://superuser.com/questions/275873/how-to-make-htop-sort-by-pid
-: @OSX Press >.
-
 press > and select RES
-* [#C] [2020-01-24] logs - View stdout/stderr of systemd service
+* [#C] [2020-01-24] [[https://unix.stackexchange.com/questions/20399/view-stdout-stderr-of-systemd-service][logs - View stdout/stderr of systemd service]] :systemd:
 :PROPERTIES:
-:ID:       lgsvwstdtstdrrfsystmdsrvc
+:ID:       snxstckxchngcmqstnsvwstdtlgsvwstdtstdrrfsystmdsrvc
 :END:
-https://unix.stackexchange.com/questions/20399/view-stdout-stderr-of-systemd-service
 : Note that using the standard logging mechanism like this will not create persistent logs by default. To do that, you'll need to create /var/log/journal, and then run sudo systemctl restart systemd-journald
 * [#C] [2020-01-29] How to read memory usage in htop? - Server Fault  :drill:
 :PROPERTIES:
@@ -133,30 +153,17 @@ https://unix.stackexchange.com/questions/20399/view-stdout-stderr-of-systemd-ser
 :END:
 https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
 : Hide user threads (shift + H) and close the process tree view (F5), t
-* [2020-06-15] [[https://superuser.com/questions/621870/test-if-a-port-on-a-remote-system-is-reachable-without-telnet][linux - Test if a port on a remote system is reachable (without telnet) - Super User]]
-:PROPERTIES:
-:ID:       ssprsrcmqstnststfprtnrmtstsystmsrchblwthttlntsprsr
-:END:
-: Nice and verbose! From the man pages.
-: Single port:
-: 
-: nc -zv 127.0.0.1 80
-
-testing if port is open
-* [2018-04-27] guide to XKB                                           :linux:
-:PROPERTIES:
-:ID:       gdtxkb
-:END:
-https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450
-
 * [#D] [2020-12-04] [[https://superuser.com/questions/1115983/prevent-system-freeze-unresponsiveness-due-to-swapping-run-away-memory-usage][linux - prevent system freeze/unresponsiveness due to swapping run away memory usage - Super User]]
 :PROPERTIES:
 :ID:       ssprsrcmqstnsprvntsystmfrssdtswppngrnwymmrysgsprsr
 :END:
 : If a process demands a lot of memory, the system moves all other process to the swap file. Including it seems, necessary processes like the X11 server or the terminal.
-* [2019-09-04] shell - Usage of dash (-) in place of a filename - Unix & Linux Stack Exchange
+* [#D] [2018-04-27] [[https://medium.com/@damko/a-simple-humble-but-comprehensive-guide-to-xkb-for-linux-6f1ad5e13450][guide to XKB]]
 :PROPERTIES:
-:ID:       shllsgfdshnplcfflnmnxlnxstckxchng
+:ID:       smdmcmdmksmplhmblbtcmprhnsvgdtxkbfrlnxfdgdtxkb
 :END:
-https://unix.stackexchange.com/questions/16357/usage-of-dash-in-place-of-a-filename
-: Using - as a filename to mean stdin/stdout is a convention that a lot of programs use. It is not a special property of the filename. The kernel does not recognise - as special so any system calls referring to - as a filename will use - literally as the filename.
+
+* -------------------------------------------
+:PROPERTIES:
+:ID:       3687_3733
+:END:

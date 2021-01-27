@@ -1142,3 +1142,10 @@ https://wiki.postgresql.org/wiki/Foreign_data_wrappers
 :CREATED:  [2020-05-10]
 :ID:       pblshththngbthpcnfgs
 :END:
+* TODO [#D] [2020-01-01] John Stultz on Twitter: "random idea: Want something that I can point it at various services (imap/rss/other web services like gphotos,twitter) or takeout archives and it will import/dedup/index/archive locally on my system." / Twitter https://twitter.com/johnstultz_work/status/1156691692772196352 :hpi:webarchive:
+:PROPERTIES:
+:ID:       jhnstltzntwttrrndmdwntsmttrstwttrcmjhnstltzwrkstts
+:END:
+: John Stultz
+: @johnstultz_work
+: random idea: Want something that I can point it at various services (imap/rss/other web services like gphotos,twitter) or takeout archives and it will import/dedup/index/archive locally on my system.

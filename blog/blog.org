@@ -1,4 +1,4 @@
-#+TITLE: Blog related stuff
+#+TITLE: ⭐ Blog related stuff
 #+logseq_title: blog
 #+filetags: blog
 
@@ -18,6 +18,16 @@ Here I collect notes/todos relevant to improving the blog experience.
 :PROPERTIES:
 :ID:       xbrnsstgngrfrmyblg
 :END:
+
+* [#A] * why blog?
+:PROPERTIES:
+:ID:       whyblg
+:END:
+** [#B] [2019-11-08] [[https://guzey.com][Alexey Guzey]]               :self:
+:PROPERTIES:
+:ID:       sgzycmlxygzy
+:END:
+: I wanted to make my vision of the future more probable
 
 * [#B] * inspiration (design/presentation)
 :PROPERTIES:
@@ -176,9 +186,14 @@ https://evertpot.com/visited-links
 https://jeffhuang.com/designed_to_last/
 : Stick with the 13 web safe fonts +2
 
+* TODO [#A] [2021-01-27] need to merge with https://beepb00p.xyz/site.html I guess...
+:PROPERTIES:
+:ID:       ndtmrgwthsbpbpxyzsthtmlgss
+:END:
+
 * ----------------------------------------------------------
 :PROPERTIES:
-:ID:       5701_5763
+:ID:       5950_6012
 :END:
 
 * [#C] [2020-01-23] Web bloat                                         :bloat:
@@ -239,3 +254,14 @@ I need poke-symlink which gets around inotify anyway!
 :ID:       fndtvrysfltrdpstnmbldvc
 :END:
 I guess different screen size makes your reading patterns different, so you notice different things
+* TODO [#C] tell about id checks, so they don't contribute to link rot :exobrain:blog:
+:PROPERTIES:
+:CREATED:  [2020-01-18]
+:ID:       tllbtdchckssthydntcntrbttlnkrt
+:END:
+add anchors, so it's easy to link to specific parts of the post
+* TODO [#B] get material for posts from HN and reddit comments         :blog:
+:PROPERTIES:
+:CREATED:  [2020-04-29]
+:ID:       gtmtrlfrpstsfrmhnndrddtcmmnts
+:END:

@@ -1965,7 +1965,7 @@ imagine if this information was available to you instead
 :ID:       cldspndcfrsrvnghtml
 :END:
 one downside is that need to return both? one for display, another for matching highlights?
-* TODO [#C] about realtime indexing (give a demo of entr??) :tweet:promnesia:
+* TODO [#C] about realtime indexing (give a demo of entr??) :totweet:promnesia:
 :PROPERTIES:
 :CREATED:  [2020-11-02]
 :ID:       btrltmndxnggvdmfntr

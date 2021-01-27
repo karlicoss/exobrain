@@ -8,6 +8,7 @@
                     "tolisten",
                     "read", "toread", ;; TODO "think"? "study"? not sure, ideally need a separate layer...
                     ;; TODO "toblog" as well?
+                    "totweet",
                     "buy",
                     "motivation", "inspiration",
                     "outbox", "tweet",

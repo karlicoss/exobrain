@@ -587,7 +587,7 @@ if count > 0:
 
 Try to find an answer why? Why do I want to remove all this physical routine from my life? What do I do instead?
 
-* TODO [#C] [2020-04-27] [[https://riot.im/app/#/room/#malleable-systems:matrix.org/$6FbdyKSWiPTwn_9xN4qPqbw3Q0F-7fx5fjxGXZuKhkI][Riot | Malleable Systems Collective]] :tweet:
+* TODO [#C] [2020-04-27] [[https://riot.im/app/#/room/#malleable-systems:matrix.org/$6FbdyKSWiPTwn_9xN4qPqbw3Q0F-7fx5fjxGXZuKhkI][Riot | Malleable Systems Collective]] :totweet:
 :PROPERTIES:
 :ID:       srtmpprmmllblsystmsmtrxrggxzkhkrtmllblsystmscllctv
 :END:
@@ -628,7 +628,7 @@ Kedr
 :ID:       vrtlphtns
 :END:
 
-* TODO [#C] thread on quantum computation and errors?          :tweet:toblog:
+* TODO [#C] thread on quantum computation and errors?        :totweet:toblog:
 :PROPERTIES:
 :CREATED:  [2020-08-02]
 :ID:       thrdnqntmcmpttnndrrrs
@@ -704,7 +704,7 @@ https://twitter.com/karlicoss/status/1195858695692980225
 :END:
 simulation bugs must be fucking annoying -- in real programs program states are often very hacky and arbitrary even from the outside, let alone how hard would it be to grasp from within inside
 
-* [#C] [2020-06-22] [[https://www.youtube.com/watch?v=OpSmCKe27WE][Ben Goertzel: Artificial General Intelligence | AI Podcast #103 with Lex Fridman - YouTube]] :tweet:
+* [#C] [2020-06-22] [[https://www.youtube.com/watch?v=OpSmCKe27WE][Ben Goertzel: Artificial General Intelligence | AI Podcast #103 with Lex Fridman - YouTube]] :totweet:
 :PROPERTIES:
 :ID:       swwwytbcmwtchvpsmckwbngrtntllgncpdcstwthlxfrdmnytb
 :END:

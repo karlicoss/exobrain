@@ -1,4 +1,4 @@
-#+TITLE: Programming (uncategorized)
+#+TITLE: 🗄️ Programming (uncategorized)
 #+logseq_graph: false
 #+filetags: programming
 
@@ -509,7 +509,7 @@ https://github.com/awesome-selfhosted/awesome-selfhosted
 :END:
 * [2020-09-27] .
 :PROPERTIES:
-:ID:       19390_19738
+:ID:       19393_19741
 :END:
 : Something that I’m surprised a lot of devs don’t know; there are official domains you’re supposed to use for documentation, testing, etc. They are specifically reserved by IANA for these purposes. Originally I think it was just example.com, but they now have a list of all them: https://www.iana.org/domains/reserved
 
@@ -999,3 +999,8 @@ I want for _all_ builds to succeed, then deploy
 :        echo "::add-path::$HOME/.local/bin"
 
 at least now I can use pip install --user!
+* [2019-09-04] [[https://unix.stackexchange.com/questions/16357/usage-of-dash-in-place-of-a-filename][shell - Usage of dash (-) in place of a filename - Unix & Linux Stack Exchange]] :cli:
+:PROPERTIES:
+:ID:       snxstckxchngcmqstnssgfdshshnplcfflnmnxlnxstckxchng
+:END:
+: Using - as a filename to mean stdin/stdout is a convention that a lot of programs use. It is not a special property of the filename. The kernel does not recognise - as special so any system calls referring to - as a filename will use - literally as the filename.

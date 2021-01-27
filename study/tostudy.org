@@ -486,11 +486,6 @@ eh, still didn't quite get what are the mscroscopic consequences of that?
 :ID:       swwwytbcmwtchvvhqcbqmppngthmltvrsytb
 :END:
 shit 4:00 actually great demo of normal spacetime & black hole on the penrose diagram
-* TODO [#B] [2020-06-03] [[https://twitter.com/j_bertolotti/status/1268130937117847552][(1) Jacopo Bertolotti on Twitter: "#PhysicsFactlet (230) If the forces acting on your system can't be written as a potential, you can still write a Euler-Lagrange equation in terms of the kinetic energy T and the components of the forces tangent to the generalized coordinates q. https://t.co/Hd0xbUsHCw" / Twitter]] :tweet:physics:
-:PROPERTIES:
-:ID:       stwttrcmjbrtlttsttsjcpbrtzdcrdntsqstchdxbshcwtwttr
-:END:
-post very short intro into lagrangians?
 * [#B] [2020-05-25] [[https://twitter.com/ValFadeev/status/1264877695604842496][Valentin Fadeev on Twitter: "Hamiltonian or Lagrangian? Why choose when you can have the best of both (provided you have some cyclic coordinates). Enter Routhian. From L&amp;L "Mechanics" §41. https://t.co/AcuXAxR4hf" / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmvlfdvsttsvlntnfdvmlmplmchncsstccxxrhftwttr
@@ -504,7 +499,7 @@ post very short intro into lagrangians?
 :ID:       stwttrcmlsyrssttsnktlstsnfndthtsmstctllydthjbtwttr
 :END:
 : Digging through "Introduction to Quantum Field Theory for Mathematicians" by Sourav Chatterjee. The first book with a title like this I've found that seems to actually do the job.
-* [#B] [2020-07-09] [[https://ahelwer.ca/post/2019-12-21-quantum-chemistry/][Simulating physical reality with a quantum computer]] :tweet:
+* [#B] [2020-07-09] [[https://ahelwer.ca/post/2019-12-21-quantum-chemistry/][Simulating physical reality with a quantum computer]] :totweet:
 :PROPERTIES:
 :ID:       shlwrcpstqntmchmstrysmltngphysclrltywthqntmcmptr
 :END:

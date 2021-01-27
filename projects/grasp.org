@@ -138,3 +138,11 @@ TODO about kindle bookmarks https://twitter.com/karlicoss/status/744135701957054
 TODO I find having to write same things here and there pretty annoying. Wonder if there exists a good way of dealing with it.
 TODO NOTE sadly I've only had exact timestamps since Pinboard, that is, 2012
 TODO better video or gif for refile. it would actually be useful in general
+
+* [#D] [2020-02-20] karlicoss/grasp: A reliable org-capture browser extension for Chrome/Firefox https://github.com/karlicoss/grasp
+:PROPERTIES:
+:ID:       krlcssgrsprlblrgcptrbrwsrchrmfrfxsgthbcmkrlcssgrsp
+:END:
+: If you have to work on a computer where you can't run python scripts, or your target capture file is just not there, you can selfhost the server part elsewhere and use the 'any host' version
+
+amend

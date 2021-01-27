@@ -67,3 +67,9 @@ hmm
 :PROPERTIES:
 :ID:       cnfgrtnvclssvrblsntgrtwhltstngsnccnfgrtnhstbrldd
 :END:
+
+* TODO [#C] write about setting up elaborate python project + circleci? maybe demonstrate on grasp? :ci:
+:PROPERTIES:
+:CREATED:  [2019-08-02]
+:ID:       wrtbtsttngplbrtpythnprjctcrclcmybdmnstrtngrsp
+:END:

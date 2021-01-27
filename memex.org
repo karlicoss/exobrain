@@ -167,19 +167,6 @@ Some existing communities:
 - [[https://discord.gg/gPn9EARR][PKM Discord]]
 - [[https://discord.gg/KPwE2rQX][dendron Discord]]
 - [[https://discord.gg/KPwE2rQX][logseq Discord]]
-*** where should it be?
-:PROPERTIES:
-:ID:       whrshldtb
-:END:
-- [2020-05-27] likely needs to be [[Zulip]] (or even better, [[Matrix]] when they support threads in Element?)
-- [2020-06-30] [[discord]] sucks
-  - ok, discord is a bit crap because lacks proper threading
-  - need to sign up to read & search it
-  - you can't engage with the information (e.g. search) without joining first.
-  - closed source
-  - aggressive towards alternative clients
-
-
 * [#C] [2018-09-04] tesseract is best apparently? but couldn't handle elliptical photos.. :ocr:
 :PROPERTIES:
 :ID:       tssrctsbstpprntlybtcldnthndlllptclphts
@@ -195,7 +182,7 @@ timeline -- similarly for all life events
 
 * ----------------------------
 :PROPERTIES:
-:ID:       6887_6919
+:ID:       6456_6488
 :END:
 
 * TODO [#D] Tweet from @mekarpeles                                    :memex:

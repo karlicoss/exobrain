@@ -240,7 +240,7 @@ https://twitter.com/nikitavoloboev/status/1231337713858732039
 Todo
 from Exhalation by Ted Chiang
 
-* TODO [#C] crap, it just feels like it's taking WAY too much time to share thing :tweet:toblog:software:
+* TODO [#C] crap, it just feels like it's taking WAY too much time to share thing :totweet:toblog:software:
 :PROPERTIES:
 :CREATED:  [2020-05-20]
 :ID:       crptjstflslktstkngwytmchtmtshrthng
@@ -438,13 +438,13 @@ there is stuff to build and solve
 :END:
 ** [2020-12-16] .
 :PROPERTIES:
-:ID:       20558_20720
+:ID:       20560_20722
 :END:
 Dunno wtf? I kinda chilled all day, barely worked, cooked etc
 And yet I feel kinda sleepy, eyes really tired etc. The fuck is this??
 ** [2020-12-19] .
 :PROPERTIES:
-:ID:       20720_20905
+:ID:       20722_20907
 :END:
 Spent all day kinda procrastinating.. I definitely don't seem to know how to relax
 I guess in normal circumstances I could have gone bouldering or something
@@ -688,8 +688,9 @@ I like when people are passionate and excited about their work and hobbies? Make
 need to live long <- need to be physically healthy <- need to eat good food <- research/learn about the nutrition, different diets etc <-
 log all food <- can't log restaurant/takeaway food <- cook almost all food by youself
 need to spend less time cooking food <- become less fussy, cook in bulk, as little prep and processing as possible_
-* TODO [#B] [2019-11-08] Alexey Guzey https://guzey.com
+* TODO [#C] things that interest me: learning mathematics and alternative ways of doing so :math:
 :PROPERTIES:
-:ID:       lxygzysgzycm
+:CREATED:  [2019-06-23]
+:ID:       thngsthtntrstmlrnngmthmtcsndltrntvwysfdngs
 :END:
-: I wanted to make my vision of the future more probable
+proof assitants, visual things (autopology)

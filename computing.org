@@ -566,3 +566,28 @@ read comments here
 :ID:       ndsrprgrmmng
 :END:
 https://www.inkandswitch.com/end-user-programming.html
+
+* TODO [#A] missing composability and modularity in software
+:PROPERTIES:
+:ID:       mssngcmpsbltyndmdlrtynsftwr
+:END:
+dark mode
+keybindings
+cloud sync
+** TODO [#D] [2019-09-04] mickael-kerjean/filestash: 🦄 A modern web client for SFTP, S3, FTP, WebDAV, Git, S3, FTPS, Minio, LDAP, Caldav, Carddav, Mysql, Backblaze, ... :toblog:
+:PROPERTIES:
+:ID:       mcklkrjnflstshmdrnwbclntfmnldpcldvcrddvmysqlbckblz
+:END:
+https://github.com/mickael-kerjean/filestash
+After update I couldn't connect it to Dropbox at all due to some obscure error, and I though setting up sftp for that purpose is a bit too much so I gave up on it.
+
+Basically I think it should be split in two separate bits. One would be editing that can be implemented in javascript as a browser extension/bookmarklet. Another is serving (and displaying?) files which can be agnostic to the editing mechanism
+** TODO [#C] global surfingkeys-like navigation. basically being able to click on 'interesting' elements. e.g. if it looks like a scrollbar, allow interacting (OS knows it anyway?) :think:vim:toblog:
+:PROPERTIES:
+:CREATED:  [2019-07-07]
+:ID:       glblsrfngkyslknvgtnbscllyrllbrllwntrctngsknwstnywy
+:END:
+*** [2019-07-07] inspired by being unable to interact with extensions via surfingkeys due to browser security restrictions
+:PROPERTIES:
+:ID:       nsprdbybngnbltntrctwthxtnngkysdtbrwsrscrtyrstrctns
+:END:

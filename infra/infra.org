@@ -756,3 +756,17 @@ Find a way to simplify and make it more effecient.
 :ID:       systmdsrvcswwwfrdsktprgsftwrsystmdmnsystmdsrvchtml
 :END:
 : If set to simple (the default if ExecStart= is specified but neither Type= nor BusName= are),
+* TODO [#C] Write about random bitsof my infra but in more detail :toblog:hpi:infra:
+:PROPERTIES:
+:CREATED:  [2020-02-11]
+:ID:       wrtbtrndmbtsfmynfrbtnmrdtl
+:END:
+** [2020-02-14] eh?
+:PROPERTIES:
+:ID:       h
+:END:
+* TODO [#C] extracting pipeline in an external script allows to reuse CI config (because they are so fucking hard to get right, you want to copy paste) :ci:configs:
+:PROPERTIES:
+:CREATED:  [2020-04-17]
+:ID:       xtrctngpplnnnxtrnlscrptllcknghrdtgtrghtywnttcpypst
+:END:

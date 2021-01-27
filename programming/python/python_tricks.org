@@ -1,0 +1,80 @@
+#+TITLE: Various cool python tricks I want to write about
+#+filetags: python
+
+
+* TODO [#C] contextmanager example: temporary kobo database
+:PROPERTIES:
+:CREATED:  [2019-07-21]
+:ID:       cntxtmngrxmpltmprrykbdtbs
+:END:
+* TODO [#C] write about cool examples of me using decorators
+:PROPERTIES:
+:CREATED:  [2019-07-10]
+:ID:       wrtbtclxmplsfmsngdcrtrs
+:END:
+dominate + my hack
+my hack for praw
+lru cache
+dbcache and generating decorators
+process group kill
+unit test fixtures
+* TODO [#C] example of decorator with cd
+:PROPERTIES:
+:CREATED:  [2019-07-13]
+:ID:       xmplfdcrtrwthcd
+:END:
+
+* TODO [#C] about python consuming parsing                          :parsing:
+:PROPERTIES:
+:CREATED:  [2019-05-03]
+:ID:       btpythncnsmngprsng
+:END:
+* TODO [#C] post about my functools.lru cache thing and PathWithMtime
+:PROPERTIES:
+:CREATED:  [2019-04-21]
+:ID:       pstbtmyfnctlslrcchthngndpthwthmtm
+:END:
+* TODO [#C] lru_cache is kind of runtime level make
+:PROPERTIES:
+:CREATED:  [2019-04-21]
+:ID:       lrcchskndfrntmlvlmk
+:END:
+
+* TODO about traity things I did in axol?                              :axol:
+:PROPERTIES:
+:CREATED:  [2019-01-01]
+:ID:       bttrtythngsddnxl
+:END:
+
+* TODO [#C] Hacky logging thing
+:PROPERTIES:
+:CREATED:  [2019-09-23]
+:ID:       hckylggngthng
+:END:
+
+I often write python scripts instead of shell
+
+* TODO [#C] when whiting about lru_cache trick, I need to come up to some proper example, that would benefit almost everyone
+:PROPERTIES:
+:CREATED:  [2019-04-21]
+:ID:       whnwhtngbtlrcchtrckndtcmprprxmplthtwldbnftlmstvryn
+:END:
+* TODO [#C] Context manager and wrapping pid?
+:PROPERTIES:
+:CREATED:  [2019-07-08]
+:ID:       cntxtmngrndwrppngpd
+:END:
+
+* TODO [#C] another usecase for LRU cache thing -- merging multiple files
+:PROPERTIES:
+:CREATED:  [2019-04-23]
+:ID:       nthrscsfrlrcchthngmrgngmltplfls
+:END:
+
+* TODO [#D] Monadic parsing with decorators?
+:PROPERTIES:
+:CREATED:  [2019-09-25]
+:ID:       mndcprsngwthdcrtrs
+:END:
+
+Write about problems with left recursion?
