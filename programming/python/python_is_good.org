@@ -136,3 +136,9 @@ generators, decorators and random dynamic things with examples
 :CREATED:  [2019-12-05]
 :ID:       ltrltypsnddmnstrtmypyprhpstmznssxmpl
 :END:
+
+* TODO By highlighting this i will know what patterns to look for in other languages :toblog:
+:PROPERTIES:
+:CREATED:  [2021-01-28]
+:ID:       byhghlghtngthswllknwwhtpttrnstlkfrnthrlnggs
+:END:

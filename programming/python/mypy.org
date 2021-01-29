@@ -242,7 +242,7 @@ I guess I have to be careful on module levels then if I don't want unwanted crap
 : FuncT = TypeVar('FuncT', bound=Callable[..., Any])
 
 ok, this + overrides allowed me to type it properly
-* TODO [#A] [2020-10-05] [[https://www.python.org/dev/peps/pep-0585/][PEP 585 -- Type Hinting Generics In Standard Collections | Python.org]]
+* TODO [#C] [2020-10-05] [[https://www.python.org/dev/peps/pep-0585/][PEP 585 -- Type Hinting Generics In Standard Collections | Python.org]]
 :PROPERTIES:
 :ID:       swwwpythnrgdvppspppptyphnnrcsnstndrdcllctnspythnrg
 :END:

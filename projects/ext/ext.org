@@ -118,6 +118,11 @@ maybe they are more like attributes.. or tiny dots around tag, each of dots repr
 :ID:       sgthbcmlgsqlgsqsssdrctryhtxstslclflsystmsslgsqlgsq
 :END:
 
+** TODO [#C] do not parse tags in quoted text                        :logseq:
+:PROPERTIES:
+:CREATED:  [2021-01-22]
+:ID:       dntprstgsnqtdtxt
+:END:
 * [#B] * Orgzly                                                      :orgzly:
 :PROPERTIES:
 :ID:       rgzly
@@ -702,7 +707,7 @@ using #gitbug instead now
 
 * --------------------------------
 :PROPERTIES:
-:ID:       23217_23253
+:ID:       23334_23370
 :END:
 
 * STRT [#C] share link and content                                    :tusky:

@@ -1435,3 +1435,10 @@ https://towardsdatascience.com/jupyter-tools-to-increase-productivity-7b3c6b90be
 :CREATED:  [2019-04-09]
 :ID:       ndtpsttsmwhrbtntsrhwtprsnplclddfpstsmpltstqntfdslf
 :END:
+
+* TODO [#B] https://github.com/thesephist/histools            :dashboard:viz:
+:PROPERTIES:
+:CREATED:  [2020-12-24]
+:ID:       sgthbcmthsphsthstls
+:END:
+: A collection of tools for generating data visualizations from browser history data 

@@ -211,3 +211,14 @@ https://vk.com/wall5695154_20731
 : Look at an object on the wall across the room.  Now keep looking at it while you move your head back and forth, up and down.  Your eyes stay pointed at that spot.  Not hard to do, is it?
 : For that to happen, you brain needs to calculate the direction and rate of change your head is moving in 3 dimensional space and then send corresponding signals to the muscles in your eyes to **exactly** counter match the rotation and speed in order to keep them pointed at that spot.  And not only that, the muscles that have to be moved (and the rate at which they move) are different for *each* eye, since if you turn your head quickly right, you R eye contracts the muscles on the nose side to compensate, and the L eye contracts the muscles on the temple side.
 : It's an absolutely amazing, fine-tuned process involving incredible spacial calculations and microsecond signaling and adjusting that we do all the time and take completely for granted.
+* why do people black out on alcohol?                     :alcohol:humanbody:
+:PROPERTIES:
+:CREATED:  [2021-01-14]
+:ID:       whydpplblcktnlchl
+:END:
+: We sort of know: alcohol makes neurons in the hippocampus stop talking to each other properly, which prevents the formation (encoding) of longer-term memory, which means that by the next morning, you don't remember what happened the previous night.
+: Rapidly increasing BAC (like binge-drinking) seems to cause more memory problems. Some people are simply more susceptible to alcohol-related memory impairment than others, and no one is entirely sure why that is.
+: Be careful with black out-level drinking. Short-term, it can put you in dangerous situations. Long-term, it may not be very good for your brain's health.
+: 
+: All that really happens is that your GABA receptors stop working, which causes you to be unable to encode new memories. While you're in the moment, you're as much in control as you were five minutes before, you'll just suddenly have great difficulty remembering the conversation you're in, and you'll often find yourself getting tunnel vision. You can walk yourself home, you can brush your teeth, take a shower; hell, even play a video game for a few hours. You just won't remember it in the morning.
+: The reason blacking out is considered to be scary is that you could have done more-or-less anything during that time, since drinking reduces inhibitions.

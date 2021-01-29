@@ -2282,3 +2282,13 @@ interesting approah; "content discovery flow" seems like a good post title?
 : [3] https://youtu.be/AnrlSqtpOkw?t=607
 
 basically my thoughts
+* TODO process .archive, but show them at the very end? similar with ignored files maybe? :pkm:search:
+:PROPERTIES:
+:CREATED:  [2021-01-10]
+:ID:       prcssrchvbtshwthmtthvryndsmlrwthgnrdflsmyb
+:END:
+* [#C] [2020-12-28] https://github.com/jameslittle230/stork          :search:
+:PROPERTIES:
+:ID:       sgthbcmjmslttlstrk
+:END:
+- [2020-12-29] ugh shit. seems that it only supports document level granularity

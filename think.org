@@ -916,3 +916,8 @@ Could check it on examples from this dragon slaying game
 :PROPERTIES:
 :ID:       rrrthngwhchstllhsfllbckdtdwrpsrgnltypfltsprttycmmn
 :END:
+* TODO undocumented untyped systems are kind of ok if you have a responsive repl? :repl:typing:
+:PROPERTIES:
+:CREATED:  [2021-01-27]
+:ID:       ndcmntdntypdsystmsrkndfkfyhvrspnsvrpl
+:END:

@@ -203,3 +203,8 @@ https://twitter.com/mekarpeles/status/1271226785439428608
 :ID:       sgthbcmppqtxcrrdmpppqtxcrdstrbtdprvtpplctnfrmwrk
 :END:
 : Exocore is a distributed applications framework with private and encrypted data storage. Think of like an infrastructure that allows a user to own his own personal cloud that is extensible via WebAssembly applications and accessible via Web/Mobile SDKs. It is designed to be resilient to failures, allow offline usage (ex: on mobile).
+* TODO ugh. it's still more convenient to use google location than any of my tools.. :memex:location:
+:PROPERTIES:
+:CREATED:  [2021-01-09]
+:ID:       ghtsstllmrcnvnnttsggllctnthnnyfmytls
+:END:

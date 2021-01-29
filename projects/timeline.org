@@ -1025,3 +1025,8 @@ php though
 :ID:       srddtcmrslfhstdcmmntspknpstdfrsftwrphtmngrrslfhstd
 :END:
 : That is why I am sticking to Piwigo.
+* TODO [#C] parse regular headlines with dates? maybe just a single string is enough :org:lifelogging:
+:PROPERTIES:
+:CREATED:  [2021-01-27]
+:ID:       prsrglrhdlnswthdtsmybjstsnglstrngsngh
+:END:

@@ -1,12 +1,14 @@
 #+TITLE: ⭐ Elisp sucks (and can we make it suck less?)
 #+filetags: elisp
 
-The purpose of this is not just to rant, but
-- share shortcomings and point people at
+Emacs is often praised for Elisp, which is presented as some sort of silver bullet and magical tool that solves everything.
+In my opinion, this raises the expectations too high, and then you end up disappointed when you struggle to do very simple things (and you even end up having impostor thoughts).
+Emacs is possibly the most malleable environment out there, I use it all the time and enjoy hacking it, however I like the result, not the process. I often feel that I have to do it despite Elisp.
+
+The purpose of this not is not just to rant, but
+- share annoyances and point people at ways of coping with them
 - share clues for people familiar with other languages (like python/js)
-- hopefully if many people have the same problems, we can even improve Elisp language or default behaviours.
-- despite all the frustration & shortcomings I have, I'm spending most of my time in Emacs
-  I enjoy hacking it, and it's probably the best malleable environment out ther (perhaps on par with the web browser)
+- hopefully if many people have the same problems, we can even improve Elisp language or certain default behaviours
 
 [2019-10-19] [[https://twitter.com/karlicoss/status/1185607527460937729][how it started]]
 : I just started writing down reasons why elisp sucks every time I'm frustrated, so I can let off the steam instead of shitposting and ranting. It might actually result into something useful.
@@ -32,13 +34,17 @@ Disclaimer: different people obviously engage with different parts of standard l
 :PROPERTIES:
 :ID:       vryncnsstntnmng
 :END:
-Of course naming is always hard, but it's not that big of a problem in other languages:
-- in C++ (which is OO language), you can refer to the documentation of the objects' class, e.g. [[https://en.cppreference.com/w/cpp/container/vector#Member_functions][~std::vector~]]
+Of course naming is a hard problem, but it's not that big of an issue in some other languages:
+- in C++/Java (OO languages), you can refer to the documentation of the objects' class, e.g. [[https://en.cppreference.com/w/cpp/container/vector#Member_functions][~std::vector~]]
+  granted, someone has to generate the documentation in the first place, but in the worst case you can check the class' source code/header file
 - in Python/JS you can do the same (e.g. [[https://docs.python.org/3/tutorial/datastructures.html#more-on-lists][python's list docs]])
   in addition, you can use the REPL (something like ~dir/vars~) to discover which methods/properties the object has
 - Haskell is not OO, but you can use something like [[https://hoogle.haskell.org/?hoogle=Text%20-%3E%20Text][Hoogle]] to discover all functions that operate on a given data type
 
-In untyped language like Elisp all bets are off, the only way to find out how to use the object is to rely on the documentation. And it's a mess.
+In untyped language like Elisp all bets are off, the only way to find out how to use the object are
+- rely on the documentation (and it's a mess)
+- read the package source code to discover all the functions available, perhaps search over variable names
+  this is usually what I have to resort to, even for builtin packages like org-mode
 *** TODO [#A] hmm how to arrange it with 'documentation' section?
 :PROPERTIES:
 :ID:       hmmhwtrrngtwthdcmnttnsctn
@@ -60,6 +66,8 @@ I hope this is a constructive thing I (or someone else) can borrow from Clojure 
 :PROPERTIES:
 :ID:       lstmnpltnrtnsrbd
 :END:
+This is very important because dealing with list-like structures is a massive part of any programming.
+
 *** TODO ~cadr~ ~cdar~ ~cadddr~ -- what the fuck.
 :PROPERTIES:
 :CREATED:  [2021-01-25]
@@ -77,6 +85,8 @@ I mean, simply compare [[https://github.com/magnars/dash.el#functions][its refer
 :PROPERTIES:
 :ID:       strngmnpltnsbd
 :END:
+Similarly, something we have to deal with all the time, and *especially* in a text editor.
+
 *** TODO [2021-01-25] the short answer is to use s.el
 :PROPERTIES:
 :ID:       thshrtnswrstssl
@@ -86,6 +96,8 @@ I mean, simply compare [[https://github.com/magnars/dash.el#functions][its refer
 :PROPERTIES:
 :ID:       rrrhndlngsbd
 :END:
+And again, a very important part of programming -- how to make your programs behave predictably under any circumstances?
+
 - [2020-04-12] [[https://twitter.com/karlicoss/status/1249271137105838084][another excellent piece of standard elisp library: What happens if a connection error/HTTP error happens? Who the fuck knows 🤷 pic.twitter.com/ksR3C41VXk]]
   - [2020-04-12] [[https://twitter.com/karlicoss/status/1249271166335946753][Spoiler: it actually dumps HTTP headers in the buffer and you're meant to parse them manually I guess. Of course, often no one bothers and assumes it's succeded]]
     - [2020-04-12] [[https://twitter.com/karlicoss/status/1249271524076531713][Of course there are decent and modern requests-like libraries for elisp. I just want to raise awareness that standard elisp library is garbage and we should throw it away to stay sane.]]
@@ -165,7 +177,7 @@ but discoverability really suffers
 
 * --------------------------------------------
 :PROPERTIES:
-:ID:       8088_8135
+:ID:       9070_9117
 :END:
 * TODO [#C] defaul error reporting sucks                              :elisp:
 :PROPERTIES:
@@ -244,7 +256,7 @@ e.g. if you swap if and else clauses, indentation changes
 
 * --------------------------------------------
 :PROPERTIES:
-:ID:       11437_11484
+:ID:       12419_12466
 :END:
 * [2019-12-26] [[https://twitter.com/karlicoss/status/1210287248467517440][I appreciate eshell/monkey patching/edebug, but that doesn't really strike me as *that* good. I mean, most modern interpreted languages have this, unless I'm missing on something?]]
 :PROPERTIES:

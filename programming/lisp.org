@@ -91,3 +91,15 @@ dunno, wasn't really impressed much...
 :END:
 
 I don't mean to offend lisp lovers or anything. I'm just desperately trying to find what's so special about lisp I don't see, so would be happy to know if you Todo missing aspect
+
+
+* TODO lisp sucks: dunno, my eyes kinda hurt without explicit else keyword... :lisp:
+:PROPERTIES:
+:CREATED:  [2021-01-09]
+:ID:       lspscksdnnmyyskndhrtwthtxplctlskywrd
+:END:
+* TODO [#C] hmm, maybe show visual cues for indentation level? but this requires very strict formatting rules :lisp:
+:PROPERTIES:
+:CREATED:  [2021-01-10]
+:ID:       hmmmybshwvslcsfrndnttnlvlthsrqrsvrystrctfrmttngrls
+:END:

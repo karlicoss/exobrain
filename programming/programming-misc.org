@@ -1004,3 +1004,74 @@ at least now I can use pip install --user!
 :ID:       snxstckxchngcmqstnssgfdshshnplcfflnmnxlnxstckxchng
 :END:
 : Using - as a filename to mean stdin/stdout is a convention that a lot of programs use. It is not a special property of the filename. The kernel does not recognise - as special so any system calls referring to - as a filename will use - literally as the filename.
+
+* TODO hmm. observable notebooks are reactive? wonder if jupyter can be too :jypyter:observable:notebooks:
+:PROPERTIES:
+:CREATED:  [2021-01-14]
+:ID:       hmmbsrvblntbksrrctvwndrfjpytrcnbt
+:END:
+* TODO can embed calculations directly in MD                     :observable:
+:PROPERTIES:
+:CREATED:  [2021-01-14]
+:ID:       cnmbdclcltnsdrctlynmd
+:END:
+* TODO [#C] Bridge setup with Docker · tulir/mautrix-facebook Wiki · GitHub
+:PROPERTIES:
+:CREATED:  [2020-12-20]
+:ID:       brdgstpwthdckrtlrmtrxfcbkwkgthb
+:END:
+
+https://github.com/tulir/mautrix-facebook/wiki/Bridge-setup-with-Docker
+
+* TODO [#C] https://twitter.com/Glench/status/1341553639563911168 community maintained scrapers? :wildcard:promnesia:
+:PROPERTIES:
+:CREATED:  [2020-12-23]
+:ID:       stwttrcmglnchsttscmmntymntndscrprs
+:END:
+: @Glench: @karlicoss Don't forget that this already exists in Gmail.js! https://t.co/zd1dc63Xxy
+
+* TODO [#B] Tweet from @tryolabs                          :dashboard:hpi:viz:
+:PROPERTIES:
+:CREATED:  [2020-12-22]
+:ID:       twtfrmtrylbs
+:END:
+https://twitter.com/tryolabs/status/1341076817277562880
+: This library helps discover correlations and patterns in high-dimensional data using parallel plots and other graphical ways to represent information. https://t.co/0OAaa25OrB
+
+* TODO [#C] https://github.com/alirezamika/autoscraper             :scraping:
+:PROPERTIES:
+:CREATED:  [2020-12-22]
+:ID:       sgthbcmlrzmktscrpr
+:END:
+: A Smart, Automatic, Fast and Lightweight Web Scraper for Python
+
+* TODO [#B] https://github.com/emacs-ng/emacs-ng                   :emacs:js:
+:PROPERTIES:
+:CREATED:  [2021-01-07]
+:ID:       sgthbcmmcsngmcsng
+:END:
+
+* TODO [#C] Tweet from @rsnous
+:PROPERTIES:
+:CREATED:  [2021-01-07]
+:ID:       twtfrmrsns
+:END:
+
+https://twitter.com/rsnous/status/1346944636145684488
+: @rsnous: i think people overrate the difficulty of doing a FUSE filesystem because it's exotic; it might not actually be that much harder than making a usable CLI or a reliable file-tree-watching thing. when you make a filesystem, you don't have to design a frontend, for instance
+
+* TODO [#B] https://github.com/tkem/cachetools               :python:caching:
+:PROPERTIES:
+:CREATED:  [2021-01-13]
+:ID:       sgthbcmtkmcchtls
+:END:
+: Extensible memoizing collections and decorators
+
+* TODO [#D] https://github.com/ContentMine/quickscrape
+:PROPERTIES:
+:CREATED:  [2020-12-29]
+:ID:       sgthbcmcntntmnqckscrp
+:END:
+: A scraping command line tool for the modern web 
+
+(seems that not updated)

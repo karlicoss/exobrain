@@ -843,3 +843,37 @@ That's also an example of how can I use porg
 :CREATED:  [2021-01-26]
 :ID:       mvdspgntxbrn
 :END:
+* TODO need to jack in public stuff like twitter/hypothesis/reddit/hackernews? :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-01-10]
+:ID:       ndtjcknpblcstfflktwttrhypthssrddthckrnws
+:END:
+also how to post-process stuff post-factum? I guess need a way to assign meta-data to stuff.. ugh
+maybe need to generate uid as a property.... simple 
+* TODO [#D] snapshot every month and plot an animation for the graph? :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-01-22]
+:ID:       snpshtvrymnthndpltnnmtnfrthgrph
+:END:
+* TODO [#C] post an announcement                            :exobrain:toblog:
+:PROPERTIES:
+:CREATED:  [2021-01-20]
+:ID:       pstnnnncmnt
+:END:
+* TODO [#C] maybe add a keybinding to force clean? this would make it much easier, won't have to rerun anything :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-01-27]
+:ID:       mybddkybndngtfrcclnthswldmktmchsrwnthvtrrnnythng
+:END:
+* TODO demonstrate how I wanted to learn physics & be a bit more healthy and over qs, pkm etc it grew into the clusterfuck which is in the middle :exobrain:toblog:outbox:
+:PROPERTIES:
+:CREATED:  [2021-01-20]
+:ID:       dmnstrthwwntdtlrnphyscsbbwntthclstrfckwhchsnthmddl
+:END:
+- some of my oldest notes are on category theory, quantum physics etc. etc (demonstrate some old notes?)
+- same with qs (demonstrate some stats form 2015?)
+* TODO [#C] How to force crawlers to process it?                   :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-01-20]
+:ID:       hwtfrccrwlrstprcsst
+:END:

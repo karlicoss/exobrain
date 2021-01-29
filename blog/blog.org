@@ -265,3 +265,21 @@ add anchors, so it's easy to link to specific parts of the post
 :CREATED:  [2020-04-29]
 :ID:       gtmtrlfrpstsfrmhnndrddtcmmnts
 :END:
+* TODO [#C] [2019-05-07] shit, org mode generates some random ids every time :blog:org:
+:PROPERTIES:
+:ID:       shtrgmdgnrtssmrndmdsvrytm
+:END:
+
+* TODO [#C] [2019-05-09] add importance, so it's easier to skip over not necessarily interesting stuff (like sufs) :blog:
+:PROPERTIES:
+:ID:       ddmprtncstssrtskpvrntncssrlyntrstngstfflksfs
+:END:
+* TODO [#D] [2019-05-09] for sufs, would be good to have a special 'github' type of post? not sure how to cache local/offline copy... or just need to merge md files :blog:
+:PROPERTIES:
+:ID:       frsfswldbgdthvspclgthbtyplclfflncpyrjstndtmrgmdfls
+:END:
+* TODO [#C] [2019-05-07] rerender regularly so I could fix typos etc?  :blog:
+:PROPERTIES:
+:ID:       rrndrrglrlyscldfxtypstc
+:END:
+Can I base in on or perhaps manual inotify or something?? use folder differen than _site for output?

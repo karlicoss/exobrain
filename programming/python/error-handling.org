@@ -66,3 +66,11 @@ https://blog.yoshuawuyts.com/error-handling-survey
 :CREATED:  [2020-02-06]
 :ID:       pstmypyrrhndlngngthbssprtthng
 :END:
+
+
+* TODO hmm, so setting __cause__ doesn't really work with multiprocessing, it's lost :python:errors:
+:PROPERTIES:
+:CREATED:  [2021-01-28]
+:ID:       hmmssttngcsdsntrllywrkwthmltprcssngtslst
+:END:
+ugh. I guess the way to go is appending args

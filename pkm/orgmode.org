@@ -1312,3 +1312,9 @@ It instantly ends up in my knowledge repository, immediately accesible by search
 :PROPERTIES:
 :ID:       wwwcrsmxcmdsgnngprsnlknwldgbsmtvtnfrfstcptrthr
 :END:
+* TODO ask if it would be nice if org-mode supported inline tags? :outbox:reddit:org:
+:PROPERTIES:
+:CREATED:  [2021-01-10]
+:ID:       skftwldbncfrgmdspprtdnlntgs
+:END:
+although maybe easier to emulate with [[ links?

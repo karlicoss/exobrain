@@ -2789,3 +2789,9 @@ ugh..
 :ID:       sdscrdcmchnnlsnnttntlks
 :END:
 : Weird.. but thanks for letting me know. There is a promnesia doctor command that troubleshoots some common problems, I can suggest users to run it with python3 -m promnesia doctor, so it can detect the missing .local/bin and warn them!
+* TODO fetch all new posts and match them against promnesia? :promnesia:hackernews:
+:PROPERTIES:
+:CREATED:  [2021-01-14]
+:ID:       ftchllnwpstsndmtchthmgnstprmns
+:END:
+even simple rss + local email could work

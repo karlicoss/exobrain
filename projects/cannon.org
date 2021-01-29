@@ -534,3 +534,8 @@ e.g. that link doesn't have 'canonical' even though it's a mirror
 :CREATED:  [2021-01-24]
 :ID:       wldbsfltsthsmnrmlsngngnfrrchvbxfrxmpl
 :END:
+* TODO wonder if we could cooperate?                           :agora:cannon:
+:PROPERTIES:
+:CREATED:  [2021-01-22]
+:ID:       wndrfwcldcprt
+:END:

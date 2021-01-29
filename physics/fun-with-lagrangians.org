@@ -134,3 +134,15 @@ also what about Euler-Lagrange??
 :END:
 Todo H=pq similar to my expriments
 from The Theoretical Minimum by George Hrabovsky
+
+* TODO xx                                        :totweet:outbox:lagrangians:
+:PROPERTIES:
+:CREATED:  [2021-01-14]
+:ID:       xx
+:END:
+in classical mechanics, lagrangian blablabla
+but what if we use a different function, which is not included in the textbooks
+...
+complete bullshit
+well maybe they don't include it in the textbook for reasons
+N/N

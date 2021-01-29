@@ -1149,3 +1149,13 @@ https://wiki.postgresql.org/wiki/Foreign_data_wrappers
 : John Stultz
 : @johnstultz_work
 : random idea: Want something that I can point it at various services (imap/rss/other web services like gphotos,twitter) or takeout archives and it will import/dedup/index/archive locally on my system.
+* TODO about endomondo shutting down and using runnerup for workouts, show the commits :hpi:tweet:outbox:
+:PROPERTIES:
+:CREATED:  [2021-01-12]
+:ID:       btndmndshttngdwnndsngrnnrpfrwrktsshwthcmmts
+:END:
+* TODO expose and connect to observable?                     :hpi:observable:
+:PROPERTIES:
+:CREATED:  [2021-01-14]
+:ID:       xpsndcnncttbsrvbl
+:END:
