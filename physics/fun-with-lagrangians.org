@@ -146,3 +146,15 @@ but what if we use a different function, which is not included in the textbooks
 complete bullshit
 well maybe they don't include it in the textbook for reasons
 N/N
+* TODO [#B] [2019-08-03] [[https://reddit.com/r/Python/comments/ciojde/simulating_quantum_mechanics_using_matplotlib_and/][Simulating Quantum Mechanics Using Matplotlib and Tkinter]] /r/Python
+:PROPERTIES:
+:ID:       srddtcmrpythncmmntscjdsmlcssngmtpltlbndtkntrrpythn
+:END:
+** [2019-08-04] huh. apparently people in comments really love the fact that you can interact with the simulator. even though it's quite simple to implement :sim:
+:PROPERTIES:
+:ID:       hhpprntlypplncmmntsrllylvmltrvnthghtsqtsmpltmplmnt
+:END:
+*** TODO [2019-08-04] wonder if I could do smth similar with my lagrangian thing? Maybe mess with potential interactively
+:PROPERTIES:
+:ID:       wndrfclddsmthsmlrwthmylgrhngmybmsswthptntlntrctvly
+:END:

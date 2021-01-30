@@ -2245,3 +2245,19 @@ https://twitter.com/in_Burgundy/status/1347982398361907201
 
 : @in_Burgundy: «Как оказалось, недостаток сна примерно в два раза увеличивает время реакции на внешние факторы и в целых пять раз усиливает невнимательность.
 : В то же время самим участникам эксперимента казалось, что все хорошо, и они работают так же хорошо, как и всегда»
+
+* [#A] [2020-05-07] [[https://twitter.com/amyhoy/status/1209715374561693696][Amy "Social Distancing" Hoy on Twitter: "31. browser makers are asleep at the wheel. it’s 2019 and all major browsers give you in terms of your browsing history is a flat list, which a large fraction of the titles just saying “google” or whatever because they didn’t update the record when the redirect finished" / Twitter]]
+:PROPERTIES:
+:ID:       stwttrcmmyhysttsmyscldstnhrcrdwhnthrdrctfnshdtwttr
+:END:
+: 31. browser makers are asleep at the wheel. it’s 2019 and all major browsers give you in terms of your browsing history is a flat list, which a large fraction of the titles just saying “google” or whatever because they didn’t update the record when the redirect finished
+* TODO [#B] Tweet from @worldbrain
+:PROPERTIES:
+:CREATED:  [2020-05-20]
+:ID:       twtfrmwrldbrn
+:END:
+https://twitter.com/worldbrain/status/1263004943465820160
+: @worldbrain: @karlicoss @hypothes_is thanks @karlicoss for the kind words.
+: Good news: We are currently planning an interoperable annotation network between @hypothes_is @factmata and Memex. Built on StorexHub https://t.co/MnVbNYFvht
+: That may be interesting for you too @joshm?
+: Let's have a chat sometimes?

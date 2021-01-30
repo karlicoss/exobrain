@@ -539,3 +539,97 @@ e.g. that link doesn't have 'canonical' even though it's a mirror
 :CREATED:  [2021-01-22]
 :ID:       wndrfwcldcprt
 :END:
+* TODO [#B] [2020-05-23] [[https://web.hypothes.is/help/how-to-establish-or-avoid-document-equivalence-in-the-hypothesis-system/][How to establish (or avoid) document equivalence in the Hypothesis system : Hypothesis]]
+:PROPERTIES:
+:ID:       swbhypthsshlphwtstblshrvdlncnthhypthsssystmhypthss
+:END:
+"document equivalence"
+* TODO [#B] I want urls that represent information, regardless the way it's presented
+:PROPERTIES:
+:CREATED:  [2020-04-04]
+:ID:       wntrlsthtrprsntnfrmtnrgrdlssthwytsprsntd
+:END:
+let alone all the tracking/etc crap
+* TODO [#C] motivation: twitter and mobile twitter
+:PROPERTIES:
+:CREATED:  [2019-10-11]
+:ID:       mtvtntwttrndmbltwttr
+:END:
+Generally mobile version of sites are good motivation.
+No one would argue that TODO link to tweets are exactly the same thing from the 'informational' perspective, yet there is no easy way to unify them
+TODO demonstrate <canonical> attribute
+* TODO [#D] [2019-11-02] motivation: The Curse of the Modern Office | LOW←TECH MAGAZINE https://solar.lowtechmagazine.com/2016/11/the-curse-of-the-modern-office.html
+:PROPERTIES:
+:ID:       mtvtnthcrsfthmdrnffclwtchmgzncmthcrsfthmdrnffchtml
+:END:
+e.g. that link doesn't have 'canonical' even though it's a mirror
+
+* TODO [#D] motivation: no canonical on gist
+:PROPERTIES:
+:CREATED:  [2019-11-08]
+:ID:       mtvtnncnnclngst
+:END:
+https://gist.github.com/dneto/2258454
+same as https://gist.github.com/2258454 -- hmm, this thing redirects now..
+* STRT [#C] Hmm could be helpful for hypothesis?
+:PROPERTIES:
+:CREATED:  [2019-06-27]
+:ID:       hmmcldbhlpflfrhypthss
+:END:
+- [2020-04-29] write about it? the future?
+
+* TODO [#C] stuff like this:  youtu.be/1TKSfAkWWN0
+:PROPERTIES:
+:CREATED:  [2019-08-25]
+:ID:       stfflkthsytbtksfkwwn
+:END:
+** [2019-08-25] this is also motivation for canonifying. this is a redirect link in tweet, and there is no way to associate it with canonical
+:PROPERTIES:
+:ID:       thsslsmtvtnfrcnnfyngthssrwtndthrsnwytsscttwthcnncl
+:END:
+* TODO [#C] Google no longer providing original URL in AMP for image search results :promnesia:cannon:
+:PROPERTIES:
+:CREATED:  [2020-05-27]
+:ID:       gglnlngrprvdngrgnlrlnmpfrmgsrchrslts
+:END:
+
+: Google no longer providing original URL in AMP for image search results - https://news.ycombinator.com/item?id=23322730
+
+* TODO [2020-04-29] [[https://news.ycombinator.com/item?id=23015742][> I’ve already pulled down my 2-300GB Google Photos archive How? I've tried sev... | Hacker News]] :promnesia:cannon:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdvlrdyplldglphtsrchvhwvtrdsvhckrnws
+:END:
+comment - submission relations
+* STRT [2019-02-24] normalization is tricky.. for some urls, stuff after # is important https://en.wikipedia.org/wiki/Tendon#cite_note-14 . for some, it's utter garbage
+:PROPERTIES:
+:ID:       nrmlztnstrckyfrsmrlsstfffrgwktndnctntfrsmtsttrgrbg
+:END:
+however we can sort of get away with normalizing on server only?
+* [2020-05-02] https://hubs.mozilla.com/#/                           :cannon:
+:PROPERTIES:
+:ID:       shbsmzllcm
+:END:
+
+* TODO [2020-05-28] archive.org is messing with canonical            :cannon:
+:PROPERTIES:
+:ID:       rchvrgsmssngwthcnncl
+:END:
+* TODO [#C] motivation for using your own normalization
+:PROPERTIES:
+:CREATED:  [2019-11-01]
+:ID:       mtvtnfrsngyrwnnrmlztn
+:END:
+
+e.g. if the original page is gone I can still easily link my saved annotations to archived page
+
+https://web.archive.org/web/20090902224414/http://reason.com/news/show/119237.html
+* TODO hypothesis: wonder how it works on timestamped archive.org stuff?
+:PROPERTIES:
+:CREATED:  [2019-11-01]
+:ID:       hypthsswndrhwtwrksntmstmpdrchvrgstff
+:END:
+* TODO [#C] parent and sibling relations                   :cannon:promnesia:
+:PROPERTIES:
+:CREATED:  [2019-08-19]
+:ID:       prntndsblngrltns
+:END:

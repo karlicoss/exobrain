@@ -283,3 +283,181 @@ add anchors, so it's easy to link to specific parts of the post
 :ID:       rrndrrglrlyscldfxtypstc
 :END:
 Can I base in on or perhaps manual inotify or something?? use folder differen than _site for output?
+
+* TODO [#C] [2020-02-07] The /now page movement | Derek Sivers
+:PROPERTIES:
+:ID:       51dc9991-d612-463c-9186-dee4825b6439
+:END:
+https://sivers.org/nowff
+
+* TODO [#C] add 'site longevity' section or something                  :blog:
+:PROPERTIES:
+:CREATED:  [2020-06-03]
+:ID:       ddstlngvtysctnrsmthng
+:END:
+** [2020-06-03] upload to archive automatically?
+:PROPERTIES:
+:ID:       pldtrchvtmtclly
+:END:
+* TODO [#C] isso comments converter should have failed at the empty database. seriously, what the fuck :blog:
+:PROPERTIES:
+:CREATED:  [2020-03-21]
+:ID:       sscmmntscnvrtrshldhvfldtthmptydtbssrslywhtthfck
+:END:
+* TODO [#C] isso: trying multiple comments threads on ideas page
+:PROPERTIES:
+:CREATED:  [2019-11-17]
+:ID:       sstryngmltplcmmntsthrdsndspg
+:END:
+: #+HTML: <script data-isso="https://beepb00p.xyz/comments/"
+: #+HTML:         data-isso-reply-to-self="true"
+: #+HTML:         src="https://beepb00p.xyz/comments/js/embed.js">
+: #+HTML: </script>
+: #+HTML: </script>
+: #+HTML: <section
+: #+HTML:     id="isso-thread"
+: #+HTML:     data-isso-id="isso_pkm_search"
+: #+HTML: ></section>
+* STRT [#D] Myinfra comments are lost, ugh!                            :blog:
+:PROPERTIES:
+:CREATED:  [2020-02-13]
+:ID:       mynfrcmmntsrlstgh
+:END:
+(during isso outage almost for a month)
+
+* TODO [#D] [2019-11-02] Building personal search infrastructure https://beepb00p.xyz/pkm-search.html
+:PROPERTIES:
+:ID:       bldngprsnlsrchnfrstrctrsbpbpxyzpkmsrchhtml
+:END:
+reactions would be quite nice to have, as a means of acknowledgement
+* [#D] [2019-02-18] Overview  https://posativ.org/isso/docs
+:PROPERTIES:
+:ID:       vrvwspstvrgssdcs
+:END:
+: No anonymous comments (IP address, email and name recorded), hosted in the USA, third-party. Just like IntenseDebate, livefrye etc. When you embed Disqus, they can do anything with your readers (and probably mine Bitcoins, see the loading times).
+* TODO [#D] try to base my comments off an anonymous hypothesis instance? :blog:
+:PROPERTIES:
+:CREATED:  [2019-06-27]
+:ID:       trytbsmycmmntsffnnnymshypthssnstnc
+:END:
+* TODO [#C] maybe even try to set up hypothesis-based comments? might require an elaborate overlay though? also serve static version :blog:
+:PROPERTIES:
+:CREATED:  [2019-06-27]
+:ID:       mybvntrytstphypthssbsdcmmlbrtvrlythghlssrvsttcvrsn
+:END:
+* STRT [#D] really need to do smth about comments; perhaps find comments without replies and use orger? :blog:
+:PROPERTIES:
+:CREATED:  [2019-10-05]
+:ID:       rllyndtdsmthbtcmmntsprhpsfndcmmntswthtrplsndsrgr
+:END:
+* [#E] [2019-02-19]  Commenting server
+:PROPERTIES:
+:ID:       cmmntngsrvr
+:END:
+Here you go:
+
+Parameter	Commento	Isso	Schnack
+Latency (50% percentile)	17 ms	169 ms	236 ms
+Latency (99% percentile)	132 ms	664 ms	313 ms
+Requests per second	21,764 RPS	692 RPS	3,392 RPS
+Memory usage	240 kB	2.2 MB	2.4 MB
+Payload	15.9 kB	173 kB	40 kB
+** DONE [#B] [2019-02-09] Isso – a commenting server similar to Disqus :grasp:
+:PROPERTIES:
+:ID:       sscmmntngsrvrsmlrtdsqs
+:END:
+- State "DONE"       from "STRT"      [2019-02-19]
+- State "STRT"      from              [2019-02-18]
+https://posativ.org/isso/
+*** [2019-02-18] ok, so in sqlite table, it uses urls... I guess that should make migration easy (if necessary at ll)
+:PROPERTIES:
+:ID:       ksnsqlttbltssrlsgssthtshldmkmgrtnsyfncssrytll
+:END:
+*** [2019-02-19] ok, isso is pretty good. easy to set up, administer, etc
+:PROPERTIES:
+:ID:       ksssprttygdsytstpdmnstrtc
+:END:
+
+** Commento -- dunno. also it's in Go
+:PROPERTIES:
+:ID:       cmmntdnnlstsng
+:END:
+*** [2018-11-15] adtac/commento-ce: A fast, bloat-free discussion platform https://github.com/adtac/commento-ce
+:PROPERTIES:
+:ID:       dtccmmntcfstbltfrdscssnpltfrmsgthbcmdtccmmntc
+:END:
+
+*** [2019-02-09] Commento / Commento · GitLab https://gitlab.com/commento/commento
+:PROPERTIES:
+:ID:       cmmntcmmntgtlbsgtlbcmcmmntcmmnt
+:END:
+
+*** [2019-02-09] Commento is a lightweight, privacy-focused, self-hostable alternative to Disqus : selfhosted https://www.reddit.com/r/selfhosted/comments/7fx99u/commento_is_a_lightweight_privacyfocused  /
+:PROPERTIES:
+:ID:       cmmntslghtwghtprvcyfcsdslfxcmmntslghtwghtprvcyfcsd
+:END:
+
+** [#B] [2019-02-09] vkuznecovas/mouthful: Mouthful is a self-hosted alternative to Disqus https://github.com/vkuznecovas/mouthful
+:PROPERTIES:
+:ID:       vkzncvsmthflmthflsslfhstdvtdsqssgthbcmvkzncvsmthfl
+:END:
+** [#B] [2019-02-09] Schnack - simple self-hosted comment system for static websites https://schnack.cool
+:PROPERTIES:
+:ID:       schncksmplslfhstdcmmntsystmfrsttcwbstssschnckcl
+:END:
+
+
+* [2019-07-06] Articles - Physiqonomics http://physiqonomics.com/articles :writing:
+:PROPERTIES:
+:ID:       rtclsphysqnmcsphysqnmcscmrtcls
+:END:
+got a really good style, and I like pictures
+* TODO [#D] metadata_cache_time=60 -- adjust                           :blog:
+:PROPERTIES:
+:CREATED:  [2019-02-22]
+:ID:       mtdtcchtmdjst
+:END:
+* CANCEL [#D] YBlog - Hakyll setup
+:PROPERTIES:
+:CREATED:  [2019-01-05]
+:ID:       yblghkyllstp
+:END:
+http://yannesposito.com/Scratch/en/blog/Hakyll-setup/#simplify-url
+
+* [#D] [2018-11-24] fniessen/org-html-themes: How to export Org mode files into awesome HTML in 2 minutes https://github.com/fniessen/org-html-themes :org:
+:PROPERTIES:
+:ID:       fnssnrghtmlthmshwtxprtrgmntssgthbcmfnssnrghtmlthms
+:END:
+* [#C] [2020-01-18] Sharing Debugger - Facebook for Developers https://developers.facebook.com/tools/debug/
+:PROPERTIES:
+:ID:       shrngdbggrfcbkfrdvlprssdvlprsfcbkcmtlsdbg
+:END:
+
+* STRT [#C] [2019-07-03] leungwensen/svg-icon: An ultimate SVG icons collection DONE RIGHT, with over 10,000 SVG icons out of the box.
+:PROPERTIES:
+:ID:       lngwnsnsvgcnnltmtsvgcnscltndnrghtwthvrsvgcnstfthbx
+:END:
+https://github.com/leungwensen/svg-icon
+
+* DONE [#D] [2019-05-30] Accessing list metadata in Hakyll
+:PROPERTIES:
+:ID:       ccssnglstmtdtnhkyll
+:END:
+http://mattwetmore.me/posts/hakyll-list-metadata.html
+
+* TODO [#C] [2019-12-21] Devine Lu Linvega: "I'll try and generate a beautiful .txt version of…" - Merveilles https://merveilles.town/@neauoire/103313823155208496
+:PROPERTIES:
+:ID:       dvnllnvglltryndgnrtbtfltxtvrsnfmrvllssmrvllstwnnr
+:END:
+: if you stick to a few basic tags, going to pure txt should only take a bit of code (and is probably already doable with lynx --dump)
+* STRT [#B] [2020-03-09] (Ángel)μν on Twitter: "1/15) What is the Hamiltonian? And why is it so special? Most importantly, how does it relate to Lagrangian mechanics and give us equations of motion? This is a thread on how H, the Hamiltonian can tell you the same story as L, the Lagrangian. [Warning: Technical thread] https://t.co/B18nwRAO7f" / Twitter :publish:blog:
+:PROPERTIES:
+:ID:       ánglμνntwttrwhtsthhmltnnnngtchnclthrdstcbnwrftwttr
+:END:
+https://twitter.com/astroparticular/status/1198070673819619328
+tweet short summaries of my blog posts?
+* TODO [#D] not sure about karlicoss.github.io in referrers            :blog:
+:PROPERTIES:
+:CREATED:  [2019-12-01]
+:ID:       ntsrbtkrlcssgthbnrfrrrs
+:END:

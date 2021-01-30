@@ -22,7 +22,6 @@ Personally I'm not really looking at average book scores, I'm rather interested 
 Another problem is information loss: when you look at your score few years later you might not remember why did you had given the book a specific score.
 Ideally I think books scoring should be some sort of yes-no questionnaire. Kinda like what Foursquare does when you are prompted about a place you've been to: you don't get to give it a numeric score, instead your are asked questions like "Is this place cozy?", "Is this good for groups?", "Is it loud?", "Does it have parking", etc.
 
-
 ** TODO figure out similar scale for movies? Because of more genres might be even more difficult.
 :PROPERTIES:
 :ID:       fgrtsmlrsclfrmvsbcsfmrgnrsmghtbvnmrdffclt

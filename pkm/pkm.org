@@ -2292,3 +2292,19 @@ basically my thoughts
 :ID:       sgthbcmjmslttlstrk
 :END:
 - [2020-12-29] ugh shit. seems that it only supports document level granularity
+* TODO [#C] rename to 'my personal knowledge and information' setup? also how to cope with fleshy body and brain? :pkm:infra:toblog:
+:PROPERTIES:
+:CREATED:  [2020-09-16]
+:ID:       rnmtmyprsnlknwldgndnfrmtntplshwtcpwthflshybdyndbrn
+:END:
+* TODO [#C] [2020-05-03] [[https://karl-voit.at/2020/01/25/avoid-complex-folder-hierarchies/][Don't Do Complex Folder Hierarchies - They Don't Work and This Is Why and What to Do Instead]] :toblog:tagging:
+:PROPERTIES:
+:ID:       skrlvttvdcmplxfldrhrrchsdntwrkndthsswhyndwhttdnstd
+:END:
+* TODO [#C] [2020-05-01] [[https://twitter.com/karlicoss/status/1255935557110243328][(1) jestem króliczkiem on Twitter: "@cj_pais I've had this existential crisis with browser bookmarks few years ago, which made me switch to Pinboard" / Twitter]] :toblog:pkm:
+:PROPERTIES:
+:ID:       stwttrcmkrlcsssttsjstmkrósgwhchmdmswtchtpnbrdtwttr
+:END:
+: I've had this existential crisis with browser bookmarks few years ago, which made me switch to Pinboard
+
+prompts for possible post about bookmarks...

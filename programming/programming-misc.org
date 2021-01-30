@@ -1075,3 +1075,8 @@ https://twitter.com/rsnous/status/1346944636145684488
 : A scraping command line tool for the modern web 
 
 (seems that not updated)
+
+* TODO [#D] [2018-11-09] about syntactically sharing code with JS    :toblog:
+:PROPERTIES:
+:ID:       btsyntctcllyshrngcdwthjs
+:END:

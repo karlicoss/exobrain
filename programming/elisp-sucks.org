@@ -377,3 +377,9 @@ let's compare: e.g. vimscript. When I used vim I haven't even attempted to custo
 :END:
 example: (defun org-html-format-headline-default-function
 maybe I need to disable parinfer during pasting, not sure
+* TODO [#C] debugging: very often it's much easier to copy over the function and use output debug :elisp:
+:PROPERTIES:
+:CREATED:  [2020-12-06]
+:ID:       dbggngvryftntsmchsrtcpyvrthfnctnndstptdbg
+:END:
+also use with-current-buffer and a separate buffer -- oftern much easier than repl...

@@ -260,3 +260,135 @@ TODO at the end of video demonstrate HPI?? and the command running in cron?
 TODO the script running on phone? ... not sure...
 but could show a snippet I guess
 crontab -l | grep materialistic, etc
+* TODO [#D] myshows marked episodes                                   :orger:
+:PROPERTIES:
+:CREATED:  [2019-07-18]
+:ID:       myshwsmrkdpsds
+:END:
+* TODO [#B] [2019-12-18] karlicoss/orger: Tool to convert data into searchable and interactive org-mode views
+:PROPERTIES:
+:ID:       krlcssrgrtltcnvrtdtntsrchblndntrctvrgmdvws
+:END:
+https://github.com/karlicoss/orger
+: The trick to accessing data is in import my.coding.github. You can learn about setting it up and using here.
+
+link to HPI?
+* DONE [#C] github comments                                           :orger:
+:PROPERTIES:
+:CREATED:  [2019-09-16]
+:ID:       gthbcmmnts
+:END:
+** STRT [2019-09-18] need to publish github_provider first?..
+:PROPERTIES:
+:ID:       ndtpblshgthbprvdrfrst
+:END:
+* TODO publish: I guess can post it on org-mode featuring orger? :kobuddy:orger:
+:PROPERTIES:
+:CREATED:  [2019-09-10]
+:ID:       pblshgsscnpsttnrgmdftrngrgr
+:END:
+* DONE [#C] reddit grabber -- prevents deleted posts
+:PROPERTIES:
+:CREATED:  [2019-08-05]
+:ID:       rddtgrbbrprvntsdltdpsts
+:END:
+
+* START [#B] Permanent view onto reddit bookmarks.. hard to distinguish between unfavorited or nonexistent though :reddit:exports:
+:PROPERTIES:
+:CREATED:  [2019-02-20]
+:ID:       prmnntvwntrddtbkmrkshrdtdgshbtwnnfvrtdrnnxstntthgh
+:END:
+- State "START"      from "TODO"       [2019-03-15]
+* TODO [#D] goodreads                                                 :orger:
+:PROPERTIES:
+:CREATED:  [2019-05-19]
+:ID:       gdrds
+:END:
+* STRT [#D] [2019-03-02] really need extensive tests...
+:PROPERTIES:
+:ID:       rllyndxtnsvtsts
+:END:
+* TODO [#C] I guess id want to rearrange items based on topics and probably threads/posts :reddit:org:
+:PROPERTIES:
+:CREATED:  [2019-02-20]
+:ID:       gssdwnttrrrngtmsbsdntpcsndprbblythrdspsts
+:END:
+Also would make it really easier to prioritize etc
+
+* STRT [#C] give a demo of my orger file                :toblog:orger:reddit:
+:PROPERTIES:
+:CREATED:  [2019-08-21]
+:ID:       gvdmfmyrgrfl
+:END:
+* TODO [#C] plaintext mirror of your digital self                     :orger:
+:PROPERTIES:
+:CREATED:  [2020-01-16]
+:ID:       plntxtmrrrfyrdgtlslf
+:END:
+* TODO [#B] Every bookmark manager ever made                      :pkm:orger:
+:PROPERTIES:
+:CREATED:  [2019-12-10]
+:ID:       vrybkmrkmngrvrmd
+:END:
+: Every bookmark manager ever made - https://news.ycombinator.com/item?id=21744774
+
+People wonder why are bookmarks so hard
+** [2020-01-17] ediscoverability
+:PROPERTIES:
+:ID:       dscvrblty
+:END:
+: My issue with all bookmark managers, including the one I currently use (Larder.io), is re-discoverability. I will happily bookmark this and that, but it's unlikely I'll ever actually go back to the bookmark. Every once in a while I'll go through the library when I feel like looking for random gems, but the first port of call when trying to solve a problem will always be a search engine.
+* STRT [#C] Post about reading Reddit. Need Reddit provider for that though... Could just extract a separate script for saved :orger:
+:PROPERTIES:
+:CREATED:  [2019-07-20]
+:ID:       pstbtrdngrddtndrddtprvdrfcldjstxtrctsprtscrptfrsvd
+:END:
+
+* DONE hypothesis view?                                          :coding:org:
+:PROPERTIES:
+:CREATED:  [2019-02-22]
+:ID:       hypthssvw
+:END:
+- State "DONE"       from "START"      [2019-03-15]
+- State "START"      from "TODO"       [2019-03-12]
+** [2019-03-02] for hyp:
+:PROPERTIES:
+:ID:       frhyp
+:END:
+original url with timestamp
+page comments
+each item is a note with possibly a comment
+tags?
+transformations? Could actually be generic across the whole provider. need a decent way of applying them though
+** TODO [#D] how to make everything is consumed?? would be interesting thing for jsons.
+:PROPERTIES:
+:ID:       hwtmkvrythngscnsmdwldbntrstngthngfrjsns
+:END:
+basically wrap every node and assert it's expanded?
+*** [2019-03-15] I guess could do that for tests only.. since often attribute retrieval is lazy..
+:PROPERTIES:
+:ID:       gssclddthtfrtstsnlysncftnttrbtrtrvlslzy
+:END:
+** [2019-03-02] ok, let's think what do we want
+:PROPERTIES:
+:ID:       kltsthnkwhtdwwnt
+:END:
+*** DONE [#C] [2019-03-02] also not sure about append only... that's pretty tricky
+:PROPERTIES:
+:ID:       lsntsrbtppndnlythtsprttytrcky
+:END:
+I guess on the slightest parsing weirdness it should refuse to do anything
+for now, start with read only I suppose
+*** DONE [#C] [2019-03-15] rely on emacs lock files? perhaps there is some library which can handle that for other text editors?
+:PROPERTIES:
+:ID:       rlynmcslckflsprhpsthrssmlwhchcnhndlthtfrthrtxtdtrs
+:END:
+**** [2019-09-17] didn't find any good lib
+:PROPERTIES:
+:ID:       ddntfndnygdlb
+:END:
+*** DONE [2019-03-15] I guess I could also just track state. that way appending would make more sense. perhaps even different files for all reddit bookmarks and my view which I am manipulating..
+:PROPERTIES:
+:ID:       gsscldlsjsttrcksttthtwypptbkmrksndmyvwwhchmmnpltng
+:END:
+I guess that's the way to go, yep

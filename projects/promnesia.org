@@ -157,6 +157,11 @@ hypothesis extractor could generate a nicer title of the document?
 :PROPERTIES:
 :ID:       lthghtsvrthwhldmnsntsprsfl
 :END:
+** TODO [#B] right, I am not using chrome anymore, which means takeout history is less and less useful for me :promnesia:takeout:
+:PROPERTIES:
+:CREATED:  [2020-01-06]
+:ID:       rghtmntsngchrmnymrwhchmnstkthstryslssndlsssflfrm
+:END:
 * [#B] * extension issues/improvements
 :PROPERTIES:
 :ID:       xtnsnsssmprvmnts
@@ -1148,7 +1153,7 @@ allow breaking down important and unimportant schema parts from extensions?
 :END:
 ** [2019-08-01] ??
 :PROPERTIES:
-:ID:       41391_41420
+:ID:       41573_41602
 :END:
 * TODO [#C] open in new tab from search?
 :PROPERTIES:
@@ -2795,3 +2800,191 @@ ugh..
 :ID:       ftchllnwpstsndmtchthmgnstprmns
 :END:
 even simple rss + local email could work
+* TODO [#B] I'd say the biggest problem with something like this is that it's a silo. You're... | Hacker News :worldbrain:interop:promnesia:
+:PROPERTIES:
+:CREATED:  [2019-10-31]
+:ID:       dsythbggstprblmwthsmthnglkthssthttsslyrhckrnws
+:END:
+https://news.ycombinator.com/item?id=21310988
+- [2019-11-23] xx
+: I'd say the biggest problem with something like this is that it's a silo. You're suddenly 100% reliant on them providing the right tools and functions to access your data in the way you want/need. And if your needs/preferences change, then you're entirely reliant on whether the silo has foreseen the new use case.
+: I already have an existing knowledge base (that not only consists of webpages, but also org files, videos, pdf's, etc.) that's accessible and synchronized across multiple devices - and while having a complete searchable history of all my browsing would be fantastic, there's no way to integrate it into my system (or any other system) with my own tools.
+
+* STRT [#A] [2020-05-02] [[https://medium.com/@WorldBrain/vision-mission-values-2020-update-d70aa35a638][Vision, Mission & Values — 2020 Update - WorldBrain.io - Medium]] :worldbrain:
+:PROPERTIES:
+:ID:       smdmcmwrldbrnvsnmssnvlspdtdvsnmssnvlspdtwrldbrnmdm
+:END:
+** [2020-05-09] hmm, this storex hub thing could be used to feed in promnesia data
+:PROPERTIES:
+:ID:       hmmthsstrxhbthngcldbsdtfdnprmnsdt
+:END:
+I guess my big difference is the
+- backend
+- normalization
+- context and 'child visits'
+I've already had the UI. Next step would be seeing if we can cooperate. I'll try to reach some people in Memex and chat perhaps.
+
+* TODO [#C] Potential social features (other people's annotations)
+:PROPERTIES:
+:CREATED:  [2019-11-30]
+:ID:       ptntlsclftrsthrpplsnnttns
+:END:
+
+* TODO [#C] demonstrate on some provider how it works as plaintext (e.g. grep), then as json and then as specific provider (and what do we get from that?)
+:PROPERTIES:
+:CREATED:  [2019-12-26]
+:ID:       dmnstrtnsmprvdrhwtwrkssplspcfcprvdrndwhtdwgtfrmtht
+:END:
+* TODO [#C] demonstrate indexing as json and as more specific instapaper? :promnesia:
+:PROPERTIES:
+:CREATED:  [2019-11-07]
+:ID:       dmnstrtndxngsjsnndsmrspcfcnstppr
+:END:
+* TODO [#C] in contexts if you add extra text it may potentially mess with highlighting. will be resolved with fuzzy I guess :promnesia:
+:PROPERTIES:
+:CREATED:  [2019-11-08]
+:ID:       ncntxtsfyddxtrtxttmyptntllghtngwllbrslvdwthfzzygss
+:END:
+* TODO [#C] It could be a tool similar to browser. Maybe you don't use it very often, but when you want it it's pretty good to have it, like browser history. Also it's a an actually working prototype unlike most of other snippet's I've  seen
+:PROPERTIES:
+:CREATED:  [2019-06-13]
+:ID:       tcldbtlsmlrtbrwsrmybydntsprttypnlkmstfthrsnpptsvsn
+:END:
+* TODO [#C] not sure how to decouple in the future?
+:PROPERTIES:
+:CREATED:  [2020-02-12]
+:ID:       ntsrhwtdcplnthftr
+:END:
+* TODO [#C] motivaiton: If you're digging for some topic you find yourself increasingly running at the same people
+:PROPERTIES:
+:CREATED:  [2019-12-27]
+:ID:       mtvtnfyrdggngfrsmtpcyfndyrslfncrsnglyrnnngtthsmppl
+:END:
+
+* STRT [#C] Crucial ability is jumping right into context (tweet/tg message/etc). That complements search really well :infra:promnesia:
+:PROPERTIES:
+:CREATED:  [2019-12-18]
+:ID:       crclbltysjmpngrghtntcntxtgtcthtcmplmntssrchrllywll
+:END:
+
+* STRT [#D] Tweet from @jethroksy                                 :promnesia:
+:PROPERTIES:
+:CREATED:  [2020-02-28]
+:ID:       twtfrmjthrksy
+:END:
+https://twitter.com/jethroksy/status/1233408971437821952
+: @jethroksy: I wrote a feature for Org-roam I really like! Have notes tied to arbitrary web pages, use a Firefox bookmarklet to instantaneously bring you to the correct notes file. Template flexible, can prefill with all kinds of things! https://t.co/KpMGazgS0I
+** [2020-04-27] ok, I think it ties it via ID or something.. so not so agnostic..
+:PROPERTIES:
+:ID:       kthnkttstvdrsmthngsntsgnstc
+:END:
+* [#D] @dalmo3: Built this chrome extension to get your @hypothes_is annotations into @RoamResearch https://t.co/X3A1AxfFkg :promnesia:
+:PROPERTIES:
+:CREATED:  [2020-04-02]
+:ID:       dlmbltthschrmxtnsntgtyrhysnnttnsntrmrsrchstcxxffkg
+:END:
+https://twitter.com/dalmo3/status/1229733827595001856
+
+* [#C] [2020-05-24] [[https://news.ycombinator.com/item?id=13984122][Vivaldi browser v1.8 released, with calendar-style browsing history | Hacker News]] :promnesia:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdvvldbrwsrndrstylbrwsnghstryhckrnws
+:END:
+: This. Susan Dumais at Microsoft had a project called "Stuff I've Seen" [1] in the early days of desktop search. In a nutshell, it's indexing and information retrieval on the data that you use in your daily life -- web browsing, calendar events, etc.
+: 
+: I've often thought about trying to re-implement some of their ideas with a local caching proxy or a browser extension. If there's an open source attempt at this already, I'd love to hear about it.
+* TODO [#B] People clearly like curating bookmarks. I could pitch it :toblog:
+:PROPERTIES:
+:CREATED:  [2020-01-27]
+:ID:       pplclrlylkcrtngbkmrkscldptcht
+:END:
+* TODO [#D] andy matuschak https://twitter.com/andy_matuschak/status/1206055315000528898
+:PROPERTIES:
+:ID:       ndymtschkstwttrcmndymtschkstts
+:END:
+
+* TODO [#B] [2020-04-28] tweet at mek?
+:PROPERTIES:
+:ID:       twttmk
+:END:
+: @mekarpeles hey, I've ran into your google doc https://docs.google.com/document/d/1QlrVpAl59gmJD7Kl--q3uyfZo936iZIb45fim6EV53k , I'm working on a browser extension that's addressing Problem 1 https://github.com/karlicoss/promnesia#readme
+
+* [#B] I tried to make sure it's as resilient as possible  :promnesia:errors:
+:PROPERTIES:
+:CREATED:  [2019-09-22]
+:ID:       trdtmksrtssrslntspssbl
+:END:
+
+in js, it's very easy to swallow errors. at best it just stops code halfway and renders system weird (exceptions would only be visible in extensions logs which no user would look at)
+worst case you end up with inconsistent state (TODO reformulate) or break some invariants
+I've wrapped everything in TODO defensify
+But that manifested in lots of spurious errors for various edge cases, so I had to deal with it. tests; fuzzing
+
+* TODO [#D] highlight css styling among features                        :css:
+:PROPERTIES:
+:CREATED:  [2019-12-25]
+:ID:       hghlghtcssstylngmngftrs
+:END:
+* TODO [#B] Urls a good candidate because they sure at least somewhat curated :cannon:
+:PROPERTIES:
+:CREATED:  [2019-09-07]
+:ID:       rlsgdcnddtbcsthysrtlstsmwhtcrtd
+:END:
+
+* TODO [#C] attempt to implement uniform engine for annotation: not necessary for hypothesis to do so :promnesia:
+:PROPERTIES:
+:CREATED:  [2019-07-15]
+:ID:       ttmpttmplmntnfrmngnfrnnttnntncssryfrhypthsstds
+:END:
+* TODO [#C] design: few things became apparent: realtime updates are tedious to implement, however it's way easier to make stuff recompute everything from scratch. kcache was motivated by that :toblog:promnesia:
+:PROPERTIES:
+:CREATED:  [2019-06-16]
+:ID:       dsgnfwthngsbcmpprntrltmpdfrmscrtchkcchwsmtvtdbytht
+:END:
+
+* TODO [#C] design: There is no way to implement this without keeping the data locally (or to be more specific, in one place)
+:PROPERTIES:
+:CREATED:  [2019-12-17]
+:ID:       dsgnthrsnwytmplmntthswthtgthdtlcllyrtbmrspcfcnnplc
+:END:
+
+* TODO [#D] [2019-08-25] demo: HN Classics https://posobin.com/hn_classics/
+:PROPERTIES:
+:ID:       dmhnclsscsspsbncmhnclsscs
+:END:
+nice, 'show dots' works really well for that
+** [2020-04-27] eh, red dots don't look nice here?
+:PROPERTIES:
+:ID:       hrddtsdntlknchr
+:END:
+* TODO [#C] I was to make an emphasis: it's not a vaporware!
+:PROPERTIES:
+:CREATED:  [2019-12-27]
+:ID:       wstmknmphsstsntvprwr
+:END:
+
+It's not even a prototype! It's a but raw, but it works for me, and there is no reason it won't work for you apart from some infrastructural overhead.
+I would like to raise a discussion on making this easier. I appreciate it may still be far from being possible to use by non-technical people, but at least my goal is so people who know/capable how to git clone and run from jobs could set this up
+
+* TODO [#D] in the process I had to fix the python url extraction library... :promnesia:toblog:
+:PROPERTIES:
+:CREATED:  [2019-02-24]
+:ID:       nthprcsshdtfxthpythnrlxtrctnlbrry
+:END:
+** [2020-04-29] could add this to yak shaving section
+:PROPERTIES:
+:ID:       cldddthstykshvngsctn
+:END:
+* TODO [#D] Ideally I'd want some sort of AI assistant that would detect relevant bits and highlight them
+:PROPERTIES:
+:CREATED:  [2019-11-22]
+:ID:       dllydwntsmsrtfssstntthtwlddtctrlvntbtsndhghlghtthm
+:END:
+for now we can at least do some sort of fuzzy highlighting?
+* TODO [#D] benefit of using browser history (sqlite) databases: easier to sync them around (or if you can't be bothered to do google takeout every now and then) :promnesia:
+:PROPERTIES:
+:CREATED:  [2019-07-03]
+:ID:       bnftfsngbrwsrhstrysqltdtbtbbthrdtdggltktvrynwndthn
+:END:
+
+Two sided?
+The only downside is you won't have timestamps unless you write them out

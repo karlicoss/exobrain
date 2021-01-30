@@ -1318,3 +1318,14 @@ It instantly ends up in my knowledge repository, immediately accesible by search
 :ID:       skftwldbncfrgmdspprtdnlntgs
 :END:
 although maybe easier to emulate with [[ links?
+* TODO HTML_CONTAINER property could be useful..          :org:exobrain:blog:
+:PROPERTIES:
+:ID:       htmlcntnrprprtycldbsfl
+:END:
+* TODO looks like h is hardcoded here...
+:PROPERTIES:
+:ID:       lkslkhshrdcddhr
+:END:
+:  (format "\n<h%d id=\"%s\">%s</h%d>\n"
+:       level
+:       id

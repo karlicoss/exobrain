@@ -49,9 +49,15 @@ code can do literally anything you wish, this is very empowering
 :PROPERTIES:
 :ID:       lnktsdnfr
 :END:
+** TODO [#C] ugh, nondeterministic order of outputs?             :blog:sympy:
+:PROPERTIES:
+:CREATED:  [2020-01-13]
+:ID:       ghnndtrmnstcrdrftpts
+:END:
+- didn't help: import random; random.seed(0)
 * ---------------------
 :PROPERTIES:
-:ID:       1060_1085
+:ID:       1234_1259
 :END:
 
 * TODO [#C] don't be afraid to use conventional command line tools    :ipynb:
@@ -145,3 +151,8 @@ Benefit of the latter is that link also works in org-mode source (unlike the for
 :CREATED:  [2019-11-14]
 :ID:       ftrfrgcmpltptflswndrhwwldychvthtnpndc
 :END:
+* TODO [#D] [2020-01-13] why it's hard: nondeterminism                :ipynb:
+:PROPERTIES:
+:ID:       whytshrdnndtrmnsm
+:END:
+link to issue with seaborn

@@ -74,3 +74,18 @@ https://blog.yoshuawuyts.com/error-handling-survey
 :ID:       hmmssttngcsdsntrllywrkwthmltprcssngtslst
 :END:
 ugh. I guess the way to go is appending args
+
+
+* STRT [#C] could probably even post to /r/programming               :toblog:
+:PROPERTIES:
+:CREATED:  [2019-10-23]
+:ID:       cldprbblyvnpsttrprgrmmng
+:END:
+** [2019-10-31] demonstrate for JS flow? https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield
+:PROPERTIES:
+:ID:       dmnstrtfrjsflwsdvlprmzllrdcswbjvscrptrfrncprtrsyld
+:END:
+** [2020-01-18] eh, someone already posted?..
+:PROPERTIES:
+:ID:       hsmnlrdypstd
+:END:

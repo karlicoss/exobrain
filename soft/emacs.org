@@ -961,3 +961,16 @@ https://github.com/alphapapa/emacs-package-dev-handbook
 :CREATED:  [2020-02-24]
 :ID:       23def293-ed05-4f0a-b8c2-91dfe86451ca
 :END:
+* TODO [#B] [2019-11-21] [[https://reddit.com/r/emacs/comments/dzn3yj/how_do_you_use_emacs/][How do you use Emacs?]] /r/emacs
+:PROPERTIES:
+:ID:       srddtcmrmcscmmntsdznyjhwdysmcshwdysmcsrmcs
+:END:
+: Hi everyone.
+: Considering our beloved Emacs can be used as anything from an all encompassing GUI window manager/userspace behemoth to a casual simple text editor via emacsclient similar to what vimmers do, where is your sweet spot?
+: If you don't do exwm, what's your favorite de/wm? (assuming of course you use Linux (The Gnu system of which Linux is just a kernel of don't stone me gnu guys))
+: How much of general computing you do in emacs? Email, Internet, etc.
+: I would love to hear your input.
+** [2019-12-02] link on blog?                                        :toblog:
+:PROPERTIES:
+:ID:       lnknblg
+:END:

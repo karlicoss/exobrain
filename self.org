@@ -515,6 +515,11 @@ this (used in org-sync internals) simply results in empty buffer and silently ig
 :PROPERTIES:
 :ID:       kndstpdthtmbscllyntsngdrndtvnthghnvstdnghtmntt
 :END:
+** [2020-04-28] I haven't solved all my goals, but at least i feel im on the right path :promnesia:
+:PROPERTIES:
+:ID:       hvntslvdllmyglsbttlstflmnthrghtpth
+:END:
+
 * I love open source                                                   :self:
 :PROPERTIES:
 :ID:       lvpnsrc
@@ -694,3 +699,8 @@ need to spend less time cooking food <- become less fussy, cook in bulk, as litt
 :ID:       thngsthtntrstmlrnngmthmtcsndltrntvwysfdngs
 :END:
 proof assitants, visual things (autopology)
+* TODO [#B] smaller separate updates feed for a 'one year later' commentary? :blog:
+:PROPERTIES:
+:CREATED:  [2020-11-01]
+:ID:       smllrsprtpdtsfdfrnyrltrcmmntry
+:END:

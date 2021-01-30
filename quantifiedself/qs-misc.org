@@ -2157,3 +2157,13 @@ https://talk.automators.fm/t/how-i-track-my-life-with-integromat-airtable-shortc
 : make the free coefficient positive.
 
 eh, maybe just use "intercept" with a link to wikipedia? not sure if free variable is a common language
+* TODO [#B] about autocorrelation analysis of sleep HR         :qs:hr:toblog:
+:PROPERTIES:
+:CREATED:  [2020-10-22]
+:ID:       bttcrrltnnlyssfslphr
+:END:
+highlight
+- how easy it is to import data (demonstrate lru_cache?)
+- plot the data
+- want to find out the correlation with other things
+- autocorrelation + fft analysis then
