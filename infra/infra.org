@@ -165,7 +165,7 @@ I think I'm using it in scrapyroo.. perhaps I should index all my git repos?
 :END:
 https://github.com/vinta/awesome-python
 : fuzzywuzzy - Fuzzy String Matching.
-* TODO [#C] [2019-06-29] mark-rushakoff/awesome-influxdb: A curated list of awesome projects, libraries, tools, etc. related to InfluxDB :influx:
+* TODO [#C] [2019-06-29] mark-rushakoff/awesome-influxdb: A curated list of awesome projects, libraries, tools, etc. related to InfluxDB
 :PROPERTIES:
 :ID:       mrkrshkffwsmnflxdbcrtdlstjctslbrrstlstcrltdtnflxdb
 :END:
@@ -457,9 +457,9 @@ https://github.com/dropmeaword/kobo-aura-remote/issues/1
 -- apparently, no automatic filtering and folders
 
 I guess I'm better off setting retention policy for thunderbird
-* [#D] [2020-06-13] ok, so literally setting domain main is enough for TLS. kinda incredible :caddy:
+* [#D] [2020-06-13] ok, so in Caddy literally setting domain is enough for TLS. kinda incredible
 :PROPERTIES:
-:ID:       ksltrllysttngdmnmnsnghfrtlskndncrdbl
+:ID:       ksncddyltrllysttngdmnsnghfrtlskndncrdbl
 :END:
 * [#D] [2018-06-10] python-daemon · PyPI
 :PROPERTIES:

@@ -3,6 +3,11 @@
 
 I write more about it [[https://beepb00p.xyz/orger.html][here]] and [[https://beepb00p.xyz/orger-todos.html][here]].
 
+* related                                                         :memex:pkm:
+:PROPERTIES:
+:ID:       rltd
+:END:
+
 * [#A] * motivation
 :PROPERTIES:
 :ID:       mtvtn
@@ -46,6 +51,11 @@ wow, the fuck?? they are deleted from history??
 :CREATED:  [2019-09-20]
 :ID:       ytbcldmrksdltdflnkttl
 :END:
+*** TODO [2021-01-31] would be nice to have some module that can supply metadata when it's missing
+:PROPERTIES:
+:ID:       wldbncthvsmmdlthtcnspplymtdtwhntsmssng
+:END:
+maybe it's fine to make the program super customizable, just guard it (and make sure the minimal setup runs smoothly)
 ** TODO [#C] mirror emails, but maybe to people only? e.g. some reasonable volume cutoff to exclude notifications etc? :orger:hpi:
 :PROPERTIES:
 :CREATED:  [2020-03-18]
@@ -72,6 +82,11 @@ https://lobste.rs/saved.json
 :CREATED:  [2020-05-21]
 :ID:       mstdnbkmrksndpstftr
 :END:
+** TODO [#D] goodreads                                                :orger:
+:PROPERTIES:
+:CREATED:  [2019-05-19]
+:ID:       gdrds
+:END:
 * [#C] * publicity
 :PROPERTIES:
 :ID:       pblcty
@@ -97,6 +112,11 @@ thanks to decoupling the data retrieval (#hpi)
 :CREATED:  [2018-11-07]
 :ID:       xprtrfrmtlgrmtrgmd
 :END:
+** TODO [#C] publish: I guess can post it on org-mode featuring orger? :kobuddy:orger:
+:PROPERTIES:
+:CREATED:  [2019-09-10]
+:ID:       pblshgsscnpsttnrgmdftrngrgr
+:END:
 * [#B] * todos
 :PROPERTIES:
 :ID:       tds
@@ -117,22 +137,31 @@ thanks to decoupling the data retrieval (#hpi)
 :CREATED:  [2020-05-25]
 :ID:       hmmmybprsrvthrdrsncthrsndtwhnylkdsmthng
 :END:
-** TODO [#B] for reddit, need to use pandoc
-:PROPERTIES:
-:CREATED:  [2020-12-10]
-:ID:       frrddtndtspndc
-:END:
-** TODO [#B] reddit -- use colon to quote?
-:PROPERTIES:
-:CREATED:  [2020-07-31]
-:ID:       rddtsclntqt
-:END:
-** TODO [#C] reddit -- use quoting and convert syntax via pandoc?
+** WAIT [#C] reddit -- use quoting and convert syntax via pandoc?
 :PROPERTIES:
 :CREATED:  [2020-07-20]
 :ID:       rddtsqtngndcnvrtsyntxvpndc
 :END:
 
+** DONE [#B] reddit -- use colon to quote?
+:PROPERTIES:
+:CREATED:  [2020-07-31]
+:ID:       rddtsclntqt
+:END:
+** TODO [#D] myshows marked episodes                                  :orger:
+:PROPERTIES:
+:CREATED:  [2019-07-18]
+:ID:       myshwsmrkdpsds
+:END:
+** STRT [#D] [2019-03-02] really need extensive tests...
+:PROPERTIES:
+:ID:       rllyndxtnsvtsts
+:END:
+** TODO [#C] "eh why" -- not converted to org?                  :orger:polar:
+:PROPERTIES:
+:CREATED:  [2020-05-25]
+:ID:       hwhyntcnvrtdtrg
+:END:
 * TODO [#B] feels more and more that they should be a single tool :memex:promnesia:orger:
 :PROPERTIES:
 :CREATED:  [2020-02-27]
@@ -150,16 +179,6 @@ Very nice pattern, could use it for other stuff too
 
 
 
-* related                                                         :memex:pkm:
-:PROPERTIES:
-:ID:       rltd
-:END:
-
-
-* [#D] amend
-:PROPERTIES:
-:ID:       mnd
-:END:
 * TODO [#B] [2020-05-20] add examples? [[https://github.com/karlicoss/orger#types-of-modules][karlicoss/orger: Tool to convert data into searchable and interactive org-mode views]]
 :PROPERTIES:
 :ID:       ddxmplssgthbcmkrlcssrgrtydtntsrchblndntrctvrgmdvws
@@ -260,11 +279,6 @@ TODO at the end of video demonstrate HPI?? and the command running in cron?
 TODO the script running on phone? ... not sure...
 but could show a snippet I guess
 crontab -l | grep materialistic, etc
-* TODO [#D] myshows marked episodes                                   :orger:
-:PROPERTIES:
-:CREATED:  [2019-07-18]
-:ID:       myshwsmrkdpsds
-:END:
 * TODO [#B] [2019-12-18] karlicoss/orger: Tool to convert data into searchable and interactive org-mode views
 :PROPERTIES:
 :ID:       krlcssrgrtltcnvrtdtntsrchblndntrctvrgmdvws
@@ -282,32 +296,18 @@ link to HPI?
 :PROPERTIES:
 :ID:       ndtpblshgthbprvdrfrst
 :END:
-* TODO publish: I guess can post it on org-mode featuring orger? :kobuddy:orger:
-:PROPERTIES:
-:CREATED:  [2019-09-10]
-:ID:       pblshgsscnpsttnrgmdftrngrgr
-:END:
 * DONE [#C] reddit grabber -- prevents deleted posts
 :PROPERTIES:
 :CREATED:  [2019-08-05]
 :ID:       rddtgrbbrprvntsdltdpsts
 :END:
 
-* START [#B] Permanent view onto reddit bookmarks.. hard to distinguish between unfavorited or nonexistent though :reddit:exports:
+* STRT [#B] Permanent view onto reddit bookmarks.. hard to distinguish between unfavorited or nonexistent though :reddit:exports:
 :PROPERTIES:
 :CREATED:  [2019-02-20]
 :ID:       prmnntvwntrddtbkmrkshrdtdgshbtwnnfvrtdrnnxstntthgh
 :END:
-- State "START"      from "TODO"       [2019-03-15]
-* TODO [#D] goodreads                                                 :orger:
-:PROPERTIES:
-:CREATED:  [2019-05-19]
-:ID:       gdrds
-:END:
-* STRT [#D] [2019-03-02] really need extensive tests...
-:PROPERTIES:
-:ID:       rllyndxtnsvtsts
-:END:
+- State "STRT"      from "TODO"       [2019-03-15]
 * TODO [#C] I guess id want to rearrange items based on topics and probably threads/posts :reddit:org:
 :PROPERTIES:
 :CREATED:  [2019-02-20]
@@ -349,8 +349,8 @@ People wonder why are bookmarks so hard
 :CREATED:  [2019-02-22]
 :ID:       hypthssvw
 :END:
-- State "DONE"       from "START"      [2019-03-15]
-- State "START"      from "TODO"       [2019-03-12]
+- State "DONE"       from "STRT"      [2019-03-15]
+- State "STRT"      from "TODO"       [2019-03-12]
 ** [2019-03-02] for hyp:
 :PROPERTIES:
 :ID:       frhyp

@@ -66,3 +66,51 @@ https://doisinkidney.com/posts/2018-09-20-agda-tips.html
 :ID:       gdwthxplntnsgdrdthdcsnltshbstrctnhtmlsmltnsbstrctn
 :END:
 tldr: write multiple with clauses; then pattern match on them to rewrite and eliminate
+* TODO [#D] https://math.stackexchange.com/a/1307770/15108 prove isomorphism? :tostudy:agda:
+:PROPERTIES:
+:CREATED:  [2018-11-14]
+:ID:       smthstckxchngcmprvsmrphsm
+:END:
+* TODO [#D] Philip Wadler and Wen Kokke publish book on Programming Language Foundations in Agda
+:PROPERTIES:
+:CREATED:  [2019-01-01]
+:ID:       phlpwdlrndwnkkkpblshbknprgrmmnglnggfndtnsngd
+:END:
+
+https://www.reddit.com/r/haskell/comments/a2d3pg/_/eax3ml7?context=1000
+
+* TODO [#D] Tweet from Denis Moskvin (@deniok), at Apr 12, 17:20       :agda:
+:PROPERTIES:
+:CREATED:  [2019-04-12]
+:ID:       twtfrmdnsmskvndnktpr
+:END:
+
+: В Агдочку Prop'ов завезли! https://t.co/1s98uSyGd8
+
+
+https://twitter.com/deniok/status/1116737917421064192
+
+* [#D] Agda stuff
+:PROPERTIES:
+:ID:       gdstff
+:END:
+** [#D] [2018-11-11] agda/Records.agda at master · agda/agda
+:PROPERTIES:
+:ID:       gdrcrdsgdtmstrgdgd
+:END:
+https://github.com/agda/agda/blob/master/examples/SummerSchool07/Lecture/Records.agda
+** [#D] [2018-11-11] agda/Sigma.agda at master · agda/agda
+:PROPERTIES:
+:ID:       gdsgmgdtmstrgdgd
+:END:
+https://github.com/agda/agda/blob/master/src/data/lib/prim/Agda/Builtin/Sigma.agda
+** [#D] [2018-11-13] Abstract Algebra in Agda
+:PROPERTIES:
+:ID:       bstrctlgbrngd
+:END:
+https://people.inf.elte.hu/pgj/agda/tutorial/Application.Algebra.html
+** [#D] [2018-11-13] With-Abstraction — Agda 2.6.0 documentation
+:PROPERTIES:
+:ID:       wthbstrctngddcmnttn
+:END:
+https://agda.readthedocs.io/en/latest/language/with-abstraction.html#simultaneous-abstraction

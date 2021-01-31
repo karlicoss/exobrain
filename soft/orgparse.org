@@ -55,23 +55,23 @@ https://github.com/karlicoss/porg
 Turned out to be not as useful as I thought it would be.
 
 
-** STRT [#D] maybe it belongs to orgparse.experimental or something?   :porg:
+** STRT [#D] maybe it belongs to orgparse.experimental or something?
 :PROPERTIES:
 :CREATED:  [2020-09-01]
 :ID:       mybtblngstrgprsxprmntlrsmthng
 :END:
 
-** WAIT [#D] eh, maybe get rid of hiccup. too complicated              :porg:
+** WAIT [#D] eh, maybe get rid of hiccup. too complicated
 :PROPERTIES:
 :CREATED:  [2020-09-01]
 :ID:       hmybgtrdfhccptcmplctd
 :END:
-** STRT [#D] use for stocklist? Although special agenda is prob. more appropriate :porg:
+** STRT [#D] use for stocklist? Although special agenda is prob. more appropriate
 :PROPERTIES:
 :CREATED:  [2018-11-06]
 :ID:       sfrstcklstlthghspclgndsprbmrpprprt
 :END:
-** STRT [#C] handle multiline headings                                 :porg:
+** STRT [#C] handle multiline headings
 :PROPERTIES:
 :ID:       hndlmltlnhdngs
 :END:

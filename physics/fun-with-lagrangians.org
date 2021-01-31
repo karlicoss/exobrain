@@ -158,3 +158,20 @@ N/N
 :PROPERTIES:
 :ID:       wndrfclddsmthsmlrwthmylgrhngmybmsswthptntlntrctvly
 :END:
+* [2019-01-27] good lagrangian points intuition https://www.reddit.com/r/dataisbeautiful/comments/adttul/oc_peusdopotential_in_the_earthmoon_system/edk9f1j/ :physics:space:
+:PROPERTIES:
+:ID:       gdlgrngnpntsnttnswwwrddtcpsdptntlnthrthmnsystmdkfj
+:END:
+: This is a graph of potential, which also serves as an analogy that sort of helps you figure out what the overall force on an orbiting object is: if you placed a ball on this surface and it was going to roll "downhill", which way would it go? The five crosses mark points where the top surface is flat, so an object at those points will experience no overall force acting on it (if it's orbiting at the same speed as the moon). These are therefore pseudo-stable points where you could leave a satellite orbiting.
+
+* [#B] [2019-01-07] classical mechanics - What if the Euler Lagrange equation yields a 'trivial' answer - Mathematics Stack Exchange :toblog:lagrangian:
+:PROPERTIES:
+:ID:       clssclmchncswhtfthlrlgrngstrvlnswrmthmtcsstckxchng
+:END:
+https://math.stackexchange.com/questions/191935/what-if-the-euler-lagrange-equation-yields-a-trivial-answer
+example lagrangian independent of path, all paths are stationary
+* [#B] For Lagrangian stuff, talk out loud             :writing:tostudy:blog:
+:PROPERTIES:
+:CREATED:  [2020-02-21]
+:ID:       frlgrngnstfftlktld
+:END:

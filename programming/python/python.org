@@ -1526,9 +1526,9 @@ https://www.reddit.com/r/Python/comments/akgctg/theres_now_a_dead_simple_way_to_
 :PROPERTIES:
 :ID:       mltprcssplsbmtsyncwrkprprlywthtmtsnlkcncrrntftrs
 :END:
-* [2020-03-08] right, so sync_column is taking quite a bit of time... I suppose because of column detection stuff :dataset:sqlite:python:
+* [#D] [2020-03-08] dataset: right, so sync_column is taking quite a bit of time... I suppose because of column detection stuff :sqlite:python:
 :PROPERTIES:
-:ID:       rghtssyncclmnstkngqtbtftmsppsbcsfclmndtctnstff
+:ID:       dtstrghtssyncclmnstkngqtbtftmsppsbcsfclmndtctnstff
 :END:
 * TODO [#B] gotcha with yield                                  :yield:python:
 :PROPERTIES:

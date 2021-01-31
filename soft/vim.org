@@ -1,4 +1,6 @@
-#+TITLE: 
+#+TITLE: vim
+#+filetags: vim
+
 * {~} Switch case of letter                                           :habit:
 :PROPERTIES:
 :ID:       8ca57b16-07a4-44ce-8628-9878c2149f98

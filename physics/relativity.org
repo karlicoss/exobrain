@@ -198,3 +198,53 @@
 :ID:       swwwytbcmwtchvmfjlkbycldspwrprndthnvrsdstrytslfytb
 :END:
 only preferred local frames of reference are forbidden, you can still have preferred global frames of reference. For example, big bang frame of reference, where the CMB appears still?
+* [2019-08-25] How Special Relativity Makes Magnets Work - YouTube https://www.youtube.com/watch?v=1TKSfAkWWN0 :relativity:
+:PROPERTIES:
+:ID:       hwspclrltvtymksmgntswrkytbswwwytbcmwtchvtksfkwwn
+:END:
+very good intuitive explanation! Basically, since charges in wire (protons/electrons) are moving relative to each other, they are slightly contracted  so in other frames of reference it creates a force
+* [#C] [2019-09-06] Например, космический корабль, который движется с ускорением свободного падения g, пройдет расстояние 13 миллиардов световых лет (долетит до края наблюдаемой Вселенной!) менее чем за сто лет, если считать время в собственной системе отсчета.
+:PROPERTIES:
+:ID:       напримеркосмическийкораблсобственнойсистемеотсчета
+:END:
+* TODO GR workbook?                                                   :study:
+:PROPERTIES:
+:CREATED:  [2017-05-15]
+:ID:       grwrkbk
+:END:
+- Box 20.1
+- 224 the cosmological constant
+* [#D] [2015-01-12] perpendicular velocity addition in special relatility
+:PROPERTIES:
+:ID:       prpndclrvlctyddtnnspclrltlty
+:END:
+: A's frame: (1, 0, 0)
+: O's frame: gamma (1, 0, 0.9)
+: B's frame: (gamma^2, 0.9 gamma^2, 0.9 gamma)
+: 
+: A's frame: U_A = (1, 0, 0)
+: Boost at the Y direction: u
+: LT(u) =
+: {
+: 	gamma_u   , 0, -gamma_u u
+: 	0         , 1, 0
+: 	-gamma_u u, 0, gamma_u
+: }
+: O's frame: U_O = LT(u) U_A = (gamma_u, 0, -gamma_u u)
+: Boost at the X direction: v
+: LT(v) =
+: {
+: 	gamma_v   , -gamma_v v, 0
+: 	-gamma_v v, gamma_v   , 0
+: 	0         , 0         , 1
+: }
+: B's frame: U_B = LT(v) U_O = (gamma_u gamma_v, gamma_u * -gamma_v v, -gamma_u u)
+: 
+: U_B = LT(w) U_A (1, 0, 0)
+: 
+: gamma_w = gamma_u gamma_v
+: -gamma_w w_x = -gamma_u gamma_v v
+: -gamma_w w_y = -gamma_u u
+: 
+: w_x = v
+: w_y = u / gamma_v

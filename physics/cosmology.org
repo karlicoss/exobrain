@@ -100,12 +100,6 @@ V = a'(t) dx
 V/D = a /a' = H(t) -- hubble's constant
 hmm, but does it make sense to speak about V if D is not changing???
 
-* [#B] [2020-04-10] Emily Levesque Public Lecture: The Weirdest Stars in the Universe - YouTube :cosmology:
-:PROPERTIES:
-:ID:       mlylvsqpblclctrthwrdststrsnthnvrsytb
-:END:
-https://www.youtube.com/watch?v=YR-l0b2iYy0
-pretty cool talk!
 * [2015-06-14] CMB                                                :cosmology:
 :PROPERTIES:
 :ID:       cmb
@@ -117,3 +111,77 @@ pretty cool talk!
 :END:
 https://www.youtube.com/watch?v=7ImvlS8PLIo&list=WL&index=70
 all the heavy elements in the human bodies were created from exploded starts. this is indeed beautiful!
+* DONE [#B] [2019-02-09] Dark matter black hole        :darkmatter:blackhole:
+:PROPERTIES:
+:ID:       drkmttrblckhl
+:END:
+** [2019-02-11] https://medium.com/starts-with-a-bang/ask-ethan-100-why-doesn-t-dark-matter-form-black-holes-c5b6d90b1883
+:PROPERTIES:
+:ID:       smdmcmstrtswthbngskthnwhydsntdrkmttrfrmblckhlscbdb
+:END:
+right, so interaction only throught gravity is not powerful enough to make the clump of matter dense enough to form a black hole
+without other forces there's nothing to slow the dark matter particles down when they reach each other and their momentum just carries them past each other.
+* [#C] [2020-07-21] [[https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BD%D0%B5%D1%83%D1%81%D1%82%D0%BE%D0%B9%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%8C][Гравитационная неустойчивость — Википедия]]
+:PROPERTIES:
+:ID:       srwkpdrgwkdddbdbdbddbddbdаянеустойчивостьвикипедия
+:END:
+: Гравитационная неустойчивость (неустойчивость Джинса) — нарастание со временем пространственных флуктуаций скорости и плотности вещества под действием сил тяготения (гравитационных возмущений).
+: Гравитационная неустойчивость ведёт к образованию неоднородностей (сгустков) в первоначально однородной среде и сопровождается уменьшением гравитационной энергии системы, переходящей в кинетическую энергию сжимающегося вещества, которая, в свою очередь, может переходить в тепловую энергию и излучение.
+* [#C] [2020-08-10] [[https://www.youtube.com/watch?v=GOrWy_yNBvY][Thermodynamics and the End of the Universe: Energy, Entropy, and the fundamental laws of physics. - YouTube]]
+:PROPERTIES:
+:ID:       swwwytbcmwtchvgrwyynbvythyndthfndmntllwsfphyscsytb
+:END:
+: I don't understand why you say it will NEVER happen that the balls will all go back into the corner. It can happen, it's just extremely unlikely, and becomes more unlikely the more balls you add.
+
+- 
+: The caveat is that though there IS a small chance, that probability is several orders of magnitude beyond the predicted lifespan of the current universe. And just for one event so never is quite appropriate but for extremely intense critics, just don't take it so literally.
+* [#C] [2019-11-21] [[https://reddit.com/r/Physics/comments/dzj60i/physicists_just_created_the_most_detailed/][Physicists Just Created the Most Detailed Simulation of the Universe in History]] /r/Physics :sim:
+:PROPERTIES:
+:ID:       srddtcmrphyscscmmntsdzjphsmltnfthnvrsnhstryrphyscs
+:END:
+** [2019-11-21] [[https://reddit.com/r/Physics/comments/dzj60i/physicists_just_created_the_most_detailed/f88mqvr/][Physicists Just Created the Most Detailed Simulation of the Universe in History]] /r/Physics
+:PROPERTIES:
+:ID:       srddtcmrphyscscmmntsdzjphsmltnfthnvrsnhstryrphyscs
+:END:
+:  [Direct link to 1080p simulation on Max Planck](https://www.tng-project.org/images/press/tng50_galaxy_evolution_1080p.mp4) because fuck this obnoxiously ad-laden website. Absolute cancer to navigate on mobile.
+
+* TODO [#C] [2020-07-21] [[https://physics.stackexchange.com/questions/5031/can-black-holes-form-in-a-finite-amount-of-time][general relativity - Can black holes form in a finite amount of time? - Physics Stack Exchange]]
+:PROPERTIES:
+:ID:       sphyscsstckxchngcmqstnscnnfntmntftmphyscsstckxchng
+:END:
+* TODO [#C] rendering curved spacetime                            :blackhole:
+:PROPERTIES:
+:CREATED:  [2018-06-15]
+:ID:       rndrngcrvdspctm
+:END:
+
+https://thedeemon.livejournal.com/127151.html
+https://thedeemon.livejournal.com/127473.html
+https://thedeemon.livejournal.com/127697.html
+covariant derivative -- takes geometry change along the derivation variable into account
+something useful about parallel transport
+parallell transport means that the vector is locally parallell to the curve.
+geodesic is a curve whose tangent vector is parallell transported along the curve itself
+
+if you parallell transport a pair of vectors, the angle should be preserverd, hence the covariant derivative of metric tensor must be 0
+
+
+interesting point about coordinates swapping in black hole https://thedeemon.dreamwidth.org/123575.html?thread=1996983#cmt1996983
+** [2019-04-24] Именно такъ - внутри дыры никакихъ статическихъ наблюдателей не можетъ существовать
+:PROPERTIES:
+:ID:       именнотакъвнутридырыникактелейнеможетъсуществовать
+:END:
+
+* TODO [#C] black hole study
+:PROPERTIES:
+:CREATED:  [2019-09-26]
+:ID:       blckhlstdy
+:END:
+
+https://twitter.com/preskill/status/1177270572125810688
+
+* STRT [#B] [2020-05-19] [[https://www.youtube.com/watch?v=4v9A9hQUcBQ][(3) Mapping the Multiverse - YouTube]] :tostudy:blackhole:
+:PROPERTIES:
+:ID:       swwwytbcmwtchvvhqcbqmppngthmltvrsytb
+:END:
+shit 4:00 actually great demo of normal spacetime & black hole on the penrose diagram

@@ -185,7 +185,7 @@ what's up with default dictionary??
 :PROPERTIES:
 :ID:       sgthbcmjlsspchjls
 :END:
-* TODO [#C] [2019-10-19] Common Voice                                :speech:
+* TODO [#C] [2019-10-19] Common Voice
 :PROPERTIES:
 :ID:       cmmnvc
 :END:

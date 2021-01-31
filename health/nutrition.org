@@ -509,7 +509,7 @@ https://www.bmj.com/content/347/bmj.f6698
 : Implausible results in human nutrition research
 
 recommended by reddit
-* TODO [#B] [2019-12-05] Nutrition offers its resignation, and the reply | Hacker News :read:
+* TODO [#B] [2019-12-05] Nutrition offers its resignation, and the reply | Hacker News :toread:
 :PROPERTIES:
 :ID:       ntrtnffrstsrsgntnndthrplyhckrnws
 :END:
@@ -595,3 +595,15 @@ https://www.reddit.com/r/soylent/comments/8chmx2/soluble_vs_insoluble_fiber_in_c
 :ID:       srddtcmrntrtncmmntsddlbfnlytfdnttkngspplmntsrntrtn
 :END:
 : Rule of thumb. Every week, eat veggies from every color of the rainbow
+* START [#D] https://www.reddit.com/r/ketogains/wiki/index#wiki_protein_and_the_ketogenic_diet :read:keto:
+:PROPERTIES:
+:ID:       swwwrddtcmrktgnswkndxwkprtnndthktgncdt
+:END:
+** TODO protein and ketosis
+:PROPERTIES:
+:ID:       prtnndktss
+:END:
+:  Although there are no hard and fast rules for how much protein can inhibit ketosis, some individuals have reported trouble maintaining ketosis if they consume too much protein per day, or even excessive amounts of protein at a given meal.
+:  To the contrary, some individuals have eaten 1.2 grams protein/lb or higher and had no problems establishing and maintaining ketosis.
+: 
+:  l;dr: excess protein is not carbs and probably isn't all that bad. Part of it gets turned to ketones, part of it gets used directly for energy, and part gets turned to glucose. The story is very complicated, and that being said, some people swear by limiting protein to maximize fat loss, and maybe it works, but the story isn't so black & white.

@@ -289,9 +289,9 @@ https://github.com/twintproject/twint/issues/786
 :CREATED:  [2020-04-15]
 :ID:       dddtrbtrtnxmplfrtwttr
 :END:
-*** TODO [2020-05-06] takeout merging/synthetic export is also a good example :myinfra:
+*** TODO [2020-05-06] myinfra: takeout merging/synthetic export is also a good example
 :PROPERTIES:
-:ID:       tktmrgngsynthtcxprtslsgdxmpl
+:ID:       mynfrtktmrgngsynthtcxprtslsgdxmpl
 :END:
 ** STRT [#B] overlay/extension docs: document how to 'overlay' parts of it? with RSS or twitter as examples
 :PROPERTIES:

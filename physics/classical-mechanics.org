@@ -582,3 +582,17 @@ classification of critical points
 :ID:       smtprssmtdstsdfltflsttlsctrprttnfclssclmchncschptr
 :END:
 : The Lagrangian L must be interpreted as a function of the position and velocity components qi and q˙i, so that the partial derivatives make sense, but then in order for the time derivative d/dt to make sense solution paths must have been inserted into the partial derivatives of the Lagrangian to make functions of time. The traditional use of ambiguous notation is convenient in simple situations, but in more complicated situations it can be a serious handicap to clear reasoning. In order that the reasoning be clear and unambiguous, we have adopted a more precise mathematical notation. Our notation is functional and follows that of modern mathematical presentations.2 An introduction to our functional notation is in an appendix.
+* [#C] [2018-08-25] In classical mechanics, the state of a system is determined by a point in phase space :lagrangian:
+:PROPERTIES:
+:ID:       nclssclmchncsthsttfsystmsdtrmndbypntnphsspc
+:END:
+It's unique! In the same way as quantum state is unique
+
+* [#C] [2019-03-20] lagrangian formalism - What is the difference between a complex scalar field and two real scalar fields? - Physics Stack Exchange
+:PROPERTIES:
+:ID:       lgrngnfrmlsmwhtsthdffrncbrlsclrfldsphyscsstckxchng
+:END:
+https://physics.stackexchange.com/questions/3503/what-is-the-difference-between-a-complex-scalar-field-and-two-real-scalar-fields
+: They're identical. Typically, we use complex fields if we have a U(1)U(1) symmetry, or some more complicated gauge group with complex representations.
+: 
+: Incidentally, the same comment applies to whether we use Majorana spinors or Weyl spinors.

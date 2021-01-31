@@ -245,3 +245,40 @@ pretty good lecture, also turns out Tong is quite hilarious!
 :END:
 https://www.youtube.com/watch?v=59uLGIrkMxM&list=WL&index=61&t=0s
 I guess same stuff that Baez was writing about, didn't find talk particularly interesting
+* [#C] [2019-05-06] [[https://en.wikipedia.org/wiki/Self-energy][Self-energy - Wikipedia]]
+:PROPERTIES:
+:ID:       snwkpdrgwkslfnrgyslfnrgywkpd
+:END:
+: The photon and gluon do not get a mass through renormalization because gauge symmetry protects them from getting a mass. This is a consequence of the Ward identity. The W-boson and the Z-boson get their masses through the Higgs mechanism; they do undergo mass renormalization through the renormalization of the electroweak theory.
+* [#C] [2018-08-23] Zee's book is a bit hard to read.. lots of jumping around and notation abuse... :physics:qft:
+:PROPERTIES:
+:ID:       zsbksbthrdtrdltsfjmpngrndndnttnbs
+:END:
+* [#B] [2020-10-19] https://en.wikipedia.org/wiki/Static_forces_and_virtual-particle_exchange
+:PROPERTIES:
+:ID:       snwkpdrgwksttcfrcsndvrtlprtclxchng
+:END:
+: There are limits to the validity of the virtual particle picture. The virtual-particle formulation is derived from a method known as perturbation theory which is an approximation assuming interactions are not too strong, and was intended for scattering problems, not bound states such as atoms.
+: For the strong force binding quarks into nucleons at low energies, perturbation theory has never been shown to yield results in accord with experiments,[3] thus, the validity of the "force-mediating particle" picture is questionable.
+: Similarly, for bound states the method fails.[4] In these cases the physical interpretation must be re-examined.
+: As an example, the calculations of atomic structure in atomic physics or of molecular structure in quantum chemistry could not easily be repeated, if at all, using the "force-mediating particle" picture
+* TODO SU 2 = Spin 3                                              :drill:qft:
+:PROPERTIES:
+:CREATED:  [2019-03-17]
+:ID:       c891dac5-144c-4332-889b-e2b2e84af26f
+:END:
+
+* TODO QFT in a nutshell                                              :study:
+:PROPERTIES:
+:CREATED:  [2017-05-15]
+:ID:       qftnntshll
+:END:
+- 9 path integrals
+- 12 Lagrangian
+* TODO [2019-12-28] Path Integral Salesman on Twitter: "As the pope of climate science, I declare as our holy book: https://t.co/nrvStKMcS4 https://t.co/nsHhCxX2XA" / Twitter
+:PROPERTIES:
+:ID:       pthntgrlslsmnntwttrsthppfnrvstkmcsstcnshhcxxxtwttr
+:END:
+https://twitter.com/litgenstein/status/1210890946201739269
+: @litgenstein
+: Such a great book, really clear description of renormalization

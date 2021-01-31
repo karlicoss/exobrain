@@ -15,3 +15,64 @@
 
 : If you like hard sci-fi, Greg Egan has a written a few books that cover what life would be like if there were 2 dimensions of time (http://www.gregegan.net/DICHRONAUTS/DICHRONAUTS.html) or if the dimension of time was sumed instead of subtracted when measuring distance (http://www.gregegan.net/ORTHOGONAL/ORTHOGONAL.html)
 : It's amazing to think how the universe is ruled by such minute details.
+
+* START [#C] PAC learning                                                :ml:
+:PROPERTIES:
+:CREATED:  [2019-02-07]
+:ID:       pclrnng
+:END:
+Probably Approximately Correct (PAC) learning model
+from Scott Aaronson on Philosophical Progress - Machine Intelligence Research Institute https://intelligence.org/2013/12/13/aaronson/
+** [2019-07-22] An important innovation of the PAC framework is the introduction of complexity theory concepts to ML
+:PROPERTIES:
+:ID:       nmprtntnnvtnfthpcfrmwrkstdctnfcmplxtythrycncptstml
+:END:
+
+* [#D] [2019-03-27] Лингвопанк on Twitter: "Фонетическая карта человеческого рта. Для каждого звука дан его источник (для большинства — положение языка) запись IPA и английское слово, где он звучит. https://t.co/7msjnHxPHi https://t.co/wqsiAAvVkU" / Twitter
+:PROPERTIES:
+:ID:       лингвопанкntwttrфонетичесstcmsjnhxphstcwqsvvktwttr
+:END:
+https://twitter.com/linguopunk_ru/status/1110814030703271936
+
+* TODO [#D] learn IPA                                               :english:
+:PROPERTIES:
+:CREATED:  [2018-02-17]
+:ID:       lrnp
+:END:
+
+** https://www.reddit.com/r/IWantToLearn/comments/2hf8vh/iwtl_the_international_phonetic_alphabet/cks8f1g/
+:PROPERTIES:
+:ID:       swwwrddtcmrwnttlrncmmntshlthntrntnlphntclphbtcksfg
+:END:
+** https://en.wikipedia.org/wiki/Help:IPA/English
+:PROPERTIES:
+:ID:       snwkpdrgwkhlppnglsh
+:END:
+* TODO [#D] read https://lwn.net/                                     :study:
+:PROPERTIES:
+:CREATED:  [2018-03-21]
+:ID:       rdslwnnt
+:END:
+
+* [#D] [2019-02-09] topos http://math.ucr.edu/home/baez/topos.html
+:PROPERTIES:
+:ID:       tpsmthcrdhmbztpshtml
+:END:
+
+* TODO [#D] how to implement DNS?                                   :tostudy:
+:PROPERTIES:
+:CREATED:  [2018-04-03]
+:ID:       hwtmplmntdns
+:END:
+
+* TODO [#D] Learn to buy gifts                                      :tostudy:
+:PROPERTIES:
+:CREATED:  [2018-02-03]
+:ID:       lrntbygfts
+:END:
+
+* TODO [#D] reverse eng for beginners https://beginners.re/        :ctf:read:
+:PROPERTIES:
+:CREATED:  [2018-04-03]
+:ID:       rvrsngfrbgnnrssbgnnrsr
+:END:

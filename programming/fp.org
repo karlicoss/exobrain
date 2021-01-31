@@ -142,3 +142,8 @@ Note that it's perfectly possible to pass a polymorphic function as an argument 
 :ID:       snttrntbrtszmlwsksttsbrtstnlprgrmmnghrsshrtntrnttr
 :END:
 : Starting the new year with a new project: The Dao of Functional Programming. Here's a short intro.
+* TODO [#D] [2018-11-27] Pinboard: bookmarks for karlicoss tagged 'fp'   :fp:
+:PROPERTIES:
+:ID:       pnbrdbkmrksfrkrlcsstggdfp
+:END:
+https://pinboard.in/u:karlicoss/t:fp

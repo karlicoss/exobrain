@@ -644,3 +644,35 @@ https://en.wikipedia.org/wiki/Energy_drift
 :END:
 https://github.com/chakravala/Grassmann.jl
 : The Grassmann.jl package provides tools for doing computations based on multi-linear algebra, differential geometry, and spin groups using the extended tensor algebra known as Leibniz-Grassmann-Clifford-Hestenes geometric algebra.
+* [#C] [2018-11-10] Tangent bundle - Wikipedia https://en.wikipedia.org/wiki/Tangent_bundle :symplectic:drill:
+:PROPERTIES:
+:ID:       tngntbndlwkpdsnwkpdrgwktngntbndl
+:END:
+:  One of the main roles of the tangent bundle is to provide a domain and range for the derivative of a smooth function. Namely, if f : M → N is a smooth function, with M and N smooth manifolds, its derivative is a smooth function Df : TM → TN.
+
+* TODO Symplectic geometry foundations
+:PROPERTIES:
+:CREATED:  [2019-12-02]
+:ID:       symplctcgmtryfndtns
+:END:
+
+: Quite interestingly, Symplectic Geometry is currently under review/investigation for some of the foundational papers in the field having serious gaps and outright errors after closer inspection. These concerns were always spoken of in hush hush tones and only in recent times have people stated their concerns publically. Some of the original authors refuse to retract their papers despite being assured their academic positions (which realistically, came through the reputation built up by these papers) are secure. Here's a quanta article about this fiasco: https://www.quantamagazine.org/the-fight-to-fix-symplectic-g...
+
+** TODO Intro to symplectic geom
+:PROPERTIES:
+:CREATED:  [2019-12-02]
+:ID:       ntrtsymplctcgm
+:END:
+
+:  For those into physics, I wholeheartedly recommend Marsden and Ratiu's book, "Introduction to Mechanics and Symmetry", which deals mainly with the different formulations of physics applied to symplectic and associated geometries.
+
+* TODO [#C] Tweet from John Carlos Baez (@johncarlosbaez), at Jan 21, 18:29 :symplectic:towatch:
+:PROPERTIES:
+:CREATED:  [2019-01-21]
+:ID:       twtfrmjhncrlsbzjhncrlsbztjn
+:END:
+
+: Symplectic geometry is like the evil twin of Euclidean geometry: instead of a dot product with v⋅w = w⋅v, we have one with v⋅w = -w⋅v.   But it's not really evil.   Check out Jonathan Lorand's talk!
+
+
+https://twitter.com/johncarlosbaez/status/1087416965012942849

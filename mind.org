@@ -226,9 +226,9 @@ guess I should read his vk
 :END:
 https://gitlab.com/tslocum/meditationassistant
 
-* [#C] [2018-08-21] Problems with siting up straight? (A graphic that illustrates the importance of sitting on a high cushion) : Meditation :meditation:posture:
+* [#C] [2018-08-21] posture: Problems with siting up straight? (A graphic that illustrates the importance of sitting on a high cushion) : Meditation :meditation:
 :PROPERTIES:
-:ID:       prblmswthstngpstrghtgrphcmprtncfsttngnhghcshnmdttn
+:ID:       pstrprblmswthstngpstrghtgmprtncfsttngnhghcshnmdttn
 :END:
 https://www.reddit.com/r/Meditation/comments/22pafg/problems_with_siting_up_straight_a_graphic_that/
 
@@ -311,3 +311,8 @@ https://en.wikipedia.org/wiki/Hedonic_treadmill
 :END:
 
 That's why I'm learning more about nature of human mind and why we humans in general need to solve it
+* [#B] [2018-07-21] LSD and Quantum Measurements: Can you see Schrödinger’s cat both dead and alive on acid? | Qualia Computing :quantum:psy:
+:PROPERTIES:
+:ID:       lsdndqntmmsrmntscnysschrögrsctbthddndlvncdqlcmptng
+:END:
+https://qualiacomputing.com/2016/10/29/lsd-and-quantum-measurements-can-you-see-schrodingers-cat-both-dead-and-alive-on-acid/

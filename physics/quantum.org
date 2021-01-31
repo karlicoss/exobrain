@@ -474,3 +474,119 @@ nice derivation of strong force energy via E=mc^2, the uncertaincy principle, an
 :END:
 https://twitter.com/nonlocalpodcast/status/1340138479502692352
 : @nonlocalpodcast: Seasons greetings! We - @captainhamptons , William, @henryquantum - are excited (and nervous!) to announce a project we've been working on: a quantum computing podcast! We have two episodes posted, and a bunch more to come. Tune in @ https://t.co/Nwz2cbHD8W, Spotify, or iTunes!
+
+* [#C] [2019-02-18] Lecture by Douglas Hofstadter: Albert Einstein on Light; Light on Albert Einstein - YouTube :biography:
+:PROPERTIES:
+:ID:       lctrbydglshfstdtrlbrtnstnnlghtlghtnlbrtnstnytb
+:END:
+https://www.youtube.com/watch?v=ePA1zq56J1I&t=838s
+Einstein was given Nobel Prize for photoelectic effect; no one in the commitee believed in light quanta
+* [#C] [2019-02-18] Lecture by Douglas Hofstadter: Albert Einstein on Light; Light on Albert Einstein - YouTube :physics:
+:PROPERTIES:
+:ID:       lctrbydglshfstdtrlbrtnstnnlghtlghtnlbrtnstnytb
+:END:
+https://www.youtube.com/watch?v=ePA1zq56J1I&t=838s
+apparently, Planck still didn't believe in light quanta in 1913
+* TODO Fermions are matter bosons are forces                      :stm:drill:
+:PROPERTIES:
+:CREATED:  [2019-01-30]
+:ID:       e49dd300-2d72-4d08-935f-445b333970cf
+:END:
+
+* [#B] [2020-08-21] [[https://en.wikipedia.org/wiki/Chirality_(physics)][Chirality (physics) - Wikipedia]]
+:PROPERTIES:
+:ID:       snwkpdrgwkchrltyphyscschrltyphyscswkpd
+:END:
+: For massless particles – photons, gluons, and (hypothetical) gravitons – chirality is the same as helicity; a given massless particle appears to spin in the same direction along its axis of motion regardless of point of view of the observer.
+* TODO [#B] [2021-01-23] [[http://www.damtp.cam.ac.uk/user/tong/topicsinqm.html][David Tong: Topics in Quantum Mechanics]] :physics:quantum:
+:PROPERTIES:
+:ID:       wwwdmtpcmcksrtngtpcsnqmhtmldvdtngtpcsnqntmmchncs
+:END:
+
+* TODO [#B] [2020-08-01] [[https://en.wikipedia.org/wiki/Klein_paradox][Klein paradox - Wikipedia]]
+:PROPERTIES:
+:ID:       snwkpdrgwkklnprdxklnprdxwkpd
+:END:
+: However, Klein’s result showed that if the potential is of the order of the electron mass, V ∼ m c 2 {\displaystyle V\sim mc^{2}} V\sim mc^{2}, the barrier is nearly transparent. Moreover, as the potential approaches infinity, the reflection diminishes and the electron is always transmitted.
+
+wow, pretty insane
+* TODO [#C] The wavefunction Ψ is a 4×1 column vector (also known as a spinor) and each element is a function of space and time, representing the spin state (up or down) of the electron and the associated positron solution.
+:PROPERTIES:
+:CREATED:  [2019-12-02]
+:ID:       thwvfnctnψsclmnvctrlsknwnthlctrnndthssctdpstrnsltn
+:END:
+[[https://physicsworld.com/a/paul-dirac-the-purest-soul-in-physics/][Paul Dirac: the purest soul in physics – Physics World]]
+[[https://hyp.is/5j-XThU-Eeq1vntOZQ5ywg/physicsworld.com/a/paul-dirac-the-purest-soul-in-physics/][in context]]
+
+* TODO [#B] [2020-08-01] [[http://www.vttoth.com/CMS/physics-notes/126-spinors-and-fields][Viktor T. Toth - Spinors and fields]]
+:PROPERTIES:
+:ID:       wwwvttthcmcmsphyscsntsspnndfldsvktrttthspnrsndflds
+:END:
+* TODO [#B] [2020-08-01] [[http://www.vttoth.com/CMS/physics-notes/297-building-a-quantum-theory][Viktor T. Toth - Building a quantum theory]]
+:PROPERTIES:
+:ID:       wwwvttthcmcmsphyscsntsbldthryvktrttthbldngqntmthry
+:END:
+* [#B] [2014-11-01] [[https://reddit.com/r/askscience/comments/2ky0re/what_stops_the_hydrogen_atom_from_being_destroyed/clptwvp/][What stops the Hydrogen atom from being destroyed?]] /r/askscience
+:PROPERTIES:
+:ID:       srddtcmrskscnccmmntskyrwhdrgntmfrmbngdstrydrskscnc
+:END:
+: That is a weak interaction effect and not something mediated by the electromagnetic interaction, which was specifically what the OP was asking about.
+: To discuss that we'd really need to move to QFT and beyond just the Schrodinger equation.
+: Though I presume the next logical question is why the weak interaction doesn't induce electron capture with hydrogen...
+: In this case, it is because a free neutron is a higher energy, less stable system. Electron capture is only relevant in systems where the resulting neutron is stabilized by the rest of the nucleus.
+: In cases where the neutron is *not* stabilized, you get positron emission. It is no accident that positron emission is a *common* decay mode among neutron rich nuclei.
+* TODO [#C] Why do we not have spin greater than 2? - Physics Stack Exchange https://physics.stackexchange.com/questions/14932/why-do-we-not-have-spin-greater-than-2 :spin:
+:PROPERTIES:
+:CREATED:  [2018-09-06]
+:ID:       whydwnthvspngrtrthnphyscsmqstnswhydwnthvspngrtrthn
+:END:
+
+* [#C] [2019-04-20] Aharonov-Bohm Experiment https://physicstravelguide.com/experiments/aharonov-bohm#tab__concrete
+:PROPERTIES:
+:ID:       hrnvbhmxprmntsphyscstrvlgdcmxprmntshrnvbhmtbcncrt
+:END:
+: The best explanation can be found here: http://gregnaber.com/wp-content/uploads/GAUGE-FIELDS-AND-GEOMETRY-A-PICTURE-BOOK.pdf at page 18ff
+* [#C] [2019-02-19] Векторный потенциал — Википедия https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%82%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB
+:PROPERTIES:
+:ID:       векторныйпотенциалвикипедbddbdbdbfdbddbdbdddbdbdbb
+:END:
+:  Подобно тому, как скалярный потенциал связан с понятием энергии, векторный потенциал обнаруживает тесную связь с понятием импульса
+:  Так, в случае быстрого отключения магнитного поля частица, находившаяся в нём, получает дополнительный импульс qA.
+** [2019-04-20] right, so it happens because a change in vector potential results in electric field (maxwell's laws)
+:PROPERTIES:
+:ID:       rghtsthppnsbcschngnvctrpttlrsltsnlctrcfldmxwllslws
+:END:
+* TODO [#D] anyons: 2D quasi particles, global phase picked up after interchange :drill:quantum:
+:PROPERTIES:
+:CREATED:  [2019-05-29]
+:ID:       ad2db13c-6f4d-4ab6-8acb-a7ce71b97228
+:END:
+* TODO [2019-05-29] what is topological QC: {tries to rely on topological (more stable) properties of anyons} :drill:quantum:
+:PROPERTIES:
+:ID:       d92c4fea-07af-4abd-a5ab-231f9d72058d
+:END:
+* [#C] [2018-11-30] Magnetic field requires three dimensions
+:PROPERTIES:
+:ID:       mgntcfldrqrsthrdmnsns
+:END:
+* TODO [#C] [2019-06-17] Quantum computing | Microsoft https://www.microsoft.com/en-us/quantum/
+:PROPERTIES:
+:ID:       qntmcmptngmcrsftswwwmcrsftcmnsqntm
+:END:
+: The only scalable quantum solution
+: We've taken a scalable topological approach, harnessing superior qubits that perform more complex computations, at lower cost, with higher accuracy.
+* [#C] [2019-06-05] GitHub - qg-cpt-marseille/sl2cfoam: Library for computing EPRL transition amplitudes in Loop Quantum Gravity. :qg:
+:PROPERTIES:
+:ID:       gthbqgcptmrsllslcfmlbrryfltrnstnmpltdsnlpqntmgrvty
+:END:
+https://github.com/qg-cpt-marseille/sl2cfoam
+
+* TODO maybe read Dirac's original paper?                     :dirac:tostudy:
+:PROPERTIES:
+:CREATED:  [2019-12-02]
+:ID:       mybrddrcsrgnlppr
+:END:
+* [#A] [2020-07-19] [[https://news.ycombinator.com/item?id=23891655][Magnets cannot exist under classical mechanics]] https://en.wikipedia.org/wiki/Bohr%E2%80%93van_Leeuwen_theorem
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdmgntscnntncssnwkpdrgwkbhrvnlwnthrm
+:END:

@@ -223,3 +223,8 @@ https://en.wikipedia.org/wiki/Long_line_(topology)
 :ID:       nsphrssmplycnnctdfrngrtrthntpspcs
 :END:
 https://topospaces.subwiki.org/wiki/N-sphere_is_simply_connected_for_n_greater_than_1
+
+* [2019-01-26] open set = semidecidable property             :drill:topology:
+:PROPERTIES:
+:ID:       a52b1e71-46be-413b-b2e3-e6f0da87e6c6
+:END:

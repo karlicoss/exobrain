@@ -1,0 +1,53 @@
+#+TITLE: Astronomy
+
+* related                                                   :space:cosmology:
+:PROPERTIES:
+:ID:       rltd
+:END:
+* [#B] [2020-04-10] [[https://www.youtube.com/watch?v=YR-l0b2iYy0][Emily Levesque Public Lecture: The Weirdest Stars in the Universe - YouTube]]
+:PROPERTIES:
+:ID:       swwwytbcmwtchvyrlbyymlylvlctrthwrdststrsnthnvrsytb
+:END:
+pretty cool talk!
+* [#B] [2019-04-30] «Ботаники в неведомой стране»
+:PROPERTIES:
+:ID:       ботаникивневедомойстране
+:END:
+: Неровной нейтронную звезду может сделать также ее собственное сильное магнитное поле, которое придаст ей несферическую форму. Магнитное поле несферически симметрично, поэтому оно сжимает нейтронную звезду в каком-то направлении, и тогда она тоже начинает излучать. Соответственно, нейтронные звезды с большими магнитными полями могут быть источниками гравитационного излучения.
+
+* [#B] [2017-11-03] [[https://reddit.com/r/askscience/comments/7ad5y0/how_large_could_a_rocky_planet_get/dpa0c1q/][How large could a rocky planet get?]] /r/askscience
+:PROPERTIES:
+:ID:       srddtcmrskscnccmmntsdyhwlhwlrgcldrckyplntgtrskscnc
+:END:
+:  It all really depends on your definition of a rocky planet. Or a rock for that matter.
+:  [Athleticon93](/u/Athleticon93) is right for normally formed planets. Any planet getting really big as just a rocky planet is going to accrete lots of gas too and become a gas giant. But if we want to *make* a really big rocky planet, physics won't stop us for a while
+:  Start with a chunk of rock floating around in space. Let's say we borrowed mars for a bit. Don't worry, the solar system won't ask for it back. Now toss a rock down onto it. You have a bigger rocky planet. Keep doing that for a bit. The planet gets bigger and bigger. Surface gravity increases, and for now, the density of material at the core stays the same (ish). Things start to fork at this point though, depending on the thought experiment.
+:  First off, just dropping the rocks is going to be a problem. Dumping planetfulls of rocks onto an ever larger planet makes heat. A *lot* of heat, which will liquefy, and eventually boil our rocks. This will also drive out any volatiles in the rock; gasses, bound water, sulfur, etc. Pretty much anything that isn't iron or nickel or another high boiling element or very stable compound. For example, limestone, a common rock, will happily decompose to CO2 and CaO. Now our ball of rocks is surrounded by an ever thickening atmosphere of gasses. Whoops, we made a gas giant.
+:  So lets start again, but instead we'll teleport our rocks down to the surface. Compaction will produce some heat, but not enough to boil our rocks. *Yet...*
+:  The planet could get quite big (somewhere around 3-4 times the radius of the earth), but eventually the compressive forces of gravity will be enough to start severely compressing even solid material. The density of the core will go way up. You'll notice you're adding hundreds of cubic kilometres of stuff and your planet is only growing by tens of cubic kilometers. This is going to make a lot of heat. If our rocks have a fair bit of lighter elements in them (pretty much anything higher on the periodic table than iron), eventually somewhere around 60 times the mass of Jupiter the heat and pressure will be too much and our "rocky planet" will ignite into a very weird star
+:  Let's start again, again. We can't use rocks anymore, but we can use iron. Iron is at least a solid, and we can imagine running around on it pretty similarly to a regular planet. Get a big ball of iron and start the teleportation machine again with chunks of iron instead of rocks. Again, you'll see the planet grow, but after a certain point, roughly 2.5 times the radius of the earth, and several hundred times the mass, adding more mass will actually cause the radius to shrink. The iron planet will also be getting very very hot (tens of thousands of kelvin). What's happening is that the additional matter is causing increased gravity, and your planet is no longer being supported by the everyday pressure of electrostatics, like what keeps your feet from compressing a concrete floor. Instead the core is now dominated by electron degeneracy pressure. It's acting like a very hot, ultra dense gas. As you add more iron, you create more gravity. More gravity makes more pressure, more degenerate matter, and a smaller radius. Your "planet" is now a white dwarf. If you let it cool off for a few trillion years you'd be left with a ball of iron that, if you could walk around in about a hundred thousand g's of gravity, you could walk on and would be (sorta, kinda) like a planet. And that's as big as you can make a planet.
+* [#B] [2019-12-26] [[https://reddit.com/r/askscience/comments/efuiql/is_a_neutron_star_a_perfect_electrical_insulator/fc2pzph/][Is a neutron star a perfect electrical insulator?]] /r/askscience :quantum:
+:PROPERTIES:
+:ID:       srddtcmrskscnccmmntsfqlsntrprfctlctrclnsltrrskscnc
+:END:
+: On the contrary, they are very very good conductors.
+: Neutron stars are in 'beta equilibrium.' This means that there are a small number of protons and electrons. If you have too many neutrons, it is energetically favorable for some of them to beta decay and become protons and electrons. It's somewhere between a 10 to 1 or 20 to 1 ratio of neutrons to protons.
+: The protons in the core are under such enormous pressure that they form Cooper pairs. This basically means that protons pair by spin, like electrons filling atomic orbitals. This produces a 'superconductor,' a conducting medium which supports enormous electric currents and magnetic fields.
+* [#C] [2019-02-11] [[https://www.reddit.com/r/askscience/comments/4zwy2d/could_dark_matter_form_dark_black_holes/][Could Dark Matter form "Dark Black Holes?" : askscience]] :darkmatter:
+:PROPERTIES:
+:ID:       swwwrddtcmrskscnccmmntszwrkmttrfrmdrkblckhlsskscnc
+:END:
+: Dark matter as we understand it today is, dare I say, "boring" physics. It seems to be simply another particle like the neutrino we must add to our particle zoo except that it is quite massive and there is a lot of it. Important to note that while the macroscopic evidence for dark matter is very strong, the same is not true for the microscopic description so my prior sentence could be shown to be very wrong.
+* [#C] [2020-07-21] [[https://reddit.com/r/askscience/comments/hv1wua/is_there_a_natural_reference_for_the_correct_time/fyrhwvr/][Is there a natural reference for the correct time, down to the milliseconds?]] /r/askscience :space:
+:PROPERTIES:
+:ID:       srddtcmrskscnccmmntshvwstcttmdwntthmllscndsrskscnc
+:END:
+:  Astronomer here! One I haven’t seen mentioned yet are [pulsars](https://en.m.wikipedia.org/wiki/Pulsar), which are rapidly spinning neutron stars that give off a regular radio pulse. They are *so* regular that we can model the pulses to within one second in a million years, and every pulsar is different in its pulsar profile. So I’ve heard it said that in the far future we could use them for interstellar GPS of sorts.
+: 
+:  So yeah you could definitely use pulsars for this reference assuming you lost all the clocks on Earth but kept all the info about pulsars and radio astronomy. Some pulsars are even millisecond pulsars, meaning they spin every few milliseconds, so you could even cover that part of the time scale.
+* [#C] [2020-07-21] [[https://physics.stackexchange.com/questions/412331/if-iron-can-t-undergo-fusion-does-that-mean-a-black-hole-is-mostly-iron][nuclear physics - If iron can’t undergo fusion, does that mean a black hole is mostly iron? - Physics Stack Exchange]]
+:PROPERTIES:
+:ID:       sphyscsstckxchngcmqstnsfrhlsmstlyrnphyscsstckxchng
+:END:
+: Iron can undergo fusion. However, iron is the point where fusions starts to cost more energy than it yields, so in a typical star it doesn't fuse.
+: In a supernova, and the abundance of energy available in one, iron will continue to fuse to heavier materials, which is probably how we got heavier metals here on earth in the first place (it has to have fused somewhere, after all).

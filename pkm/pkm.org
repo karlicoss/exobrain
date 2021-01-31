@@ -1210,11 +1210,6 @@ wow that's fascinating
 :ID:       blckngstfrmsrch
 :END:
 : This used to be built-in to google itself. You could choose to block a site from future results from any results page. But they killed it, along with forum search, code search, usenet search, and so many other useful things.
-* TODO [#C] "eh why" -- not converted to org?                   :orger:polar:
-:PROPERTIES:
-:CREATED:  [2020-05-25]
-:ID:       hwhyntcnvrtdtrg
-:END:
 * [#C] [2020-07-03] [[https://twitter.com/sarah_zrf/status/1279055034798440449][america hater sarahzrf on Twitter: "god damn its nice to be able to just type a few keywords from a title into zotero's search instead of having to remember what shitty filename i saved something under" / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmsrhzrfsttsmrchtrshttyflnmsvdsmthngndrtwttr

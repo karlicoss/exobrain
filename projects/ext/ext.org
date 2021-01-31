@@ -627,6 +627,11 @@ doesn't work on github?? ugh.
 :END:
 about:reader?url=http%3A%2F%2Fwww-history.mcs.st-and.ac.uk%2FExtras%2FKeynes_Newton.html
 hmm, hypothesis doesn't work with Firefox reading mode?
+** TODO bug: ugh, doesn't work with Linkedin
+:PROPERTIES:
+:CREATED:  [2021-01-31]
+:ID:       bgghdsntwrkwthlnkdn
+:END:
 * [#D] * tantivy                                                    :tantivy:
 :PROPERTIES:
 :ID:       tntvy
@@ -707,7 +712,7 @@ using #gitbug instead now
 
 * --------------------------------
 :PROPERTIES:
-:ID:       23334_23370
+:ID:       23432_23468
 :END:
 
 * STRT [#C] share link and content                                    :tusky:
