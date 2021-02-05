@@ -633,3 +633,14 @@ https://web.archive.org/web/20090902224414/http://reason.com/news/show/119237.ht
 :CREATED:  [2019-08-19]
 :ID:       prntndsblngrltns
 :END:
+* [2021-01-30] [[https://community.worldbrain.io/t/ignore-url-parameters/551/5][Ignore URL parameters - ⭐️Feature Requests - Memex Community]] :cannon:
+:PROPERTIES:
+:ID:       scmmntywrldbrntgnrrlprmtrlprmtrs️ftrrqstsmmxcmmnty
+:END:
+
+* [2021-01-24] [[https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=941827][#941827 - module loading fails with error: "Lockdown: modprobe: Loading of unsigned module is restricted; see https://wiki.debian.org/SecureBoot" - Debian Bug report logs]] :cannon:
+:PROPERTIES:
+:ID:       sbgsdbnrgcgbnbgrprtcgbgmdswkdbnrgscrbtdbnbgrprtlgs
+:END:
+:  https://wiki.debian.org/SecureBoot#MOK_-_Machine_Owner_Keycanonical: wiki.debian.org/SecureBootsources : notes[[https://wiki.debian.org/SecureBoot][SecureBoot - Debian Wiki]]
+: logs/mlog2.org:58102/06/2020, 08:00:00 di

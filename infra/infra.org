@@ -770,3 +770,12 @@ Find a way to simplify and make it more effecient.
 :CREATED:  [2020-04-17]
 :ID:       xtrctngpplnnnxtrnlscrptllcknghrdtgtrghtywnttcpypst
 :END:
+* TODO [#C] [2020-12-22] [[https://github.com/jessfraz/dockerfiles][jessfraz/dockerfiles: Various Dockerfiles I use on the desktop and on servers.]]
+:PROPERTIES:
+:ID:       sgthbcmjssfrzdckrflsjssfrsdckrflssnthdsktpndnsrvrs
+:END:
+
+* TODO [#C] [2020-12-22] [[https://github.com/justin-vanwinkle/Docker-GUI-Example][justin-vanwinkle/Docker-GUI-Example: An example of how run GUI apps with Docker.]]
+:PROPERTIES:
+:ID:       sgthbcmjstnvnwnkldckrgxmpxmplnxmplfhwrngppswthdckr
+:END:

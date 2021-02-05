@@ -227,3 +227,19 @@ https://nplus1.ru/material/2019/03/28/head-transplantation
 :ID:       hwtrsbndthlwsfphyscsytbswwwytbcmwtchvbckmfhzr
 :END:
 wonder what if you hack into the tubes and push the water? would it make trees grow higher?
+* [#B] [2021-01-11] [[https://berthub.eu/articles/posts/amazing-dna/][DNA seen through the eyes of a coder (or, If you are a hammer, everything looks like a nail) - Articles]]
+:PROPERTIES:
+:ID:       sbrthbrtclspstsmzngdndnsnyrhmmrvrythnglkslknlrtcls
+:END:
+
+* [#C] [2020-12-26] [[https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/][Reverse Engineering the source code of the BioNTech/Pfizer SARS-CoV-2 Vaccine - Articles]]
+:PROPERTIES:
+:ID:       sbrthbrtclspstsrvrsngnrngthbntchpfzrsrscvvccnrtcls
+:END:
+: However, it turns out that RNA with a higher amount
+: of Gs and Cs is also converted more efficiently into proteins,
+: And this has been achieved in the vaccine RNA by replacing many characters with Gs and Cs wherever this was possible.
+* [#C] [2020-12-26] [[https://berthub.eu/articles/posts/dna-the-code-of-life/][Dna the Code of Life - Articles]]
+:PROPERTIES:
+:ID:       sbrthbrtclspstsdnthcdflfdnthcdflfrtcls
+:END:

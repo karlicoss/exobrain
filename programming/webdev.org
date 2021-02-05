@@ -134,3 +134,7 @@ https://stackoverflow.com/questions/48362093/cors-request-blocked-in-locally-ope
 :CREATED:  [2020-01-19]
 :ID:       pprntlyntmnypplknwcsshsvrbls
 :END:
+* [#C] [2021-01-24] [[https://wiki.csswg.org/ideas/mistakes][Incomplete List of Mistakes in the Design of CSS CSS Working Group Wiki]] :css:
+:PROPERTIES:
+:ID:       swkcsswgrgdsmstksncmpltlssnthdsgnfcsscsswrknggrpwk
+:END:

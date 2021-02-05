@@ -2303,3 +2303,17 @@ basically my thoughts
 : I've had this existential crisis with browser bookmarks few years ago, which made me switch to Pinboard
 
 prompts for possible post about bookmarks...
+* [#C] [2021-01-17] [[https://discord.com/channels/727903265437777944/772319656471822337][annotation-talks]]
+:PROPERTIES:
+:ID:       sdscrdcmchnnlsnnttntlks
+:END:
+: if you search the obsidian forums for Zotero best practices it's prob the best repository for all of that! I keep meaning to write all this out but haven't had the chance
+* [#B] [2021-01-25] [[https://news.ycombinator.com/item?id=25903596][Everything I Know – Wiki | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdvrythngknwwkhckrnws
+:END:
+: Agree with your sentiment. Contextuality and Applicability are definitely two main components when it comes to knowledge acquisition. But there are people who just derive pleasure from learning, irrespective of whether the concepts are connected or disjoint, and I think it is very important that we have all variety of people, and encourage them into pursuing what gives them satisfaction.
+* [#C] [2021-01-20] [[https://github.com/RyanGreenup/cadmus][RyanGreenup/cadmus: Shell Scripts to Facilitate Effective Note Taking]] :pkm:
+:PROPERTIES:
+:ID:       sgthbcmryngrnpcdmsryngrnpllscrptstfclttffctvnttkng
+:END:

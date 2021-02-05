@@ -997,3 +997,27 @@ https://news.ycombinator.com/item?id=13700968
 : Upspin's data model is very much a traditional filesystem.
 : Also, upspin cared about the interop between different users from day 1 with keyservers etc, whereas for Camlistore that was not the primary design criteria. (We're only starting to work on that now in Camlistore).
 : But there is some similarity for sure, and Andrew knows both.
+* [#C] [2020-11-27] [[https://github.com/tcgoetz/GarminDB/wiki/Success-Stories][Success Stories · tcgoetz/GarminDB Wiki]] :garmin:
+:PROPERTIES:
+:ID:       sgthbcmtcgtzgrmndbwksccsstrssccssstrstcgtzgrmndbwk
+:END:
+
+* TODO [#C] [2020-12-19] [[https://blog.openlibrary.org/2020/12/13/importing-your-goodreads-accessing-them-with-open-librarys-apis/][Importing your Goodreads & Accessing them with Open Library’s APIs]]
+:PROPERTIES:
+:ID:       sblgpnlbrryrgmprtngyrgdrdrdsccssngthmwthpnlbrrysps
+:END:
+: Importing your Goodreads & Accessing them with Open Library’s APIs
+* TODO [#B] [2020-08-29] [[https://github.com/seanbreckenridge/ffexport][seanbreckenridge/ffexport: export and interface with firefox history/visits and site metadata]]
+:PROPERTIES:
+:ID:       sgthbcmsnbrcknrdgffxprtsncwthfrfxhstryvstsndstmtdt
+:END:
+
+* CANCEL [#C] [2020-05-24] [[https://remotestorage.io/][remoteStorage ‒ An open protocol for per-user storage on the Web]]
+:PROPERTIES:
+:ID:       srmtstrgrmtstrgnpnprtclfrprsrstrgnthwb
+:END:
+* TODO wonder if it's possible to get watch position?       :takeout:youtube:
+:PROPERTIES:
+:CREATED:  [2021-02-03]
+:ID:       wndrftspssbltgtwtchpstn
+:END:

@@ -461,3 +461,15 @@ tweet short summaries of my blog posts?
 :CREATED:  [2019-12-01]
 :ID:       ntsrbtkrlcssgthbnrfrrrs
 :END:
+* TODO [#C] [2020-02-15] This Page is Designed to Last: A Manifesto for Preserving Content on the Web https://jeffhuang.com/designed_to_last/ :blog:
+:PROPERTIES:
+:ID:       thspgsdsgndtlstmnfstfrprsntnthwbsjffhngcmdsgndtlst
+:END:
+: But why not? Well, you don't save much because your web pages should be gzipped before being sent over the network, so preemptively shrinking your content probably doesn't do much to save bandwidth if anything at all.
+* [#C] [2021-01-29] [[https://indieweb.org/commentpara.de][commentpara.de - IndieWeb]] :blog:
+:PROPERTIES:
+:ID:       sndwbrgcmmntprdcmmntprdndwb
+:END:
+: commentpara.de is an anonymous commenting system for the indieweb.
+
+ok, this seems like the best choice

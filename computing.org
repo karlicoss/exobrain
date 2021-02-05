@@ -598,3 +598,34 @@ Basically I think it should be split in two separate bits. One would be editing 
 :END:
 wow. such a great interview (also has annotations if you want to skim through)
 twitter tread with some interesting/fun bits https://twitter.com/karlicoss/status/1354044610792853504
+* [#B] [2021-01-20] [[https://www.youtube.com/playlist?list=PLTI2Kz0V2OFlgbkROVmzkfQRW2FrX2KfR][Ted Nelson's Computers for Cynics - YouTube]]
+:PROPERTIES:
+:ID:       swwwytbcmplylstlstpltkzvffrtdnlsnscmptrsfrcyncsytb
+:END:
+
+* [#B] [2021-01-27] [[https://openvault.wgbh.org/catalog/V_4D37F2D8E1054BA49999027BF9D18957#at_2872.361_s][Machine That Changed The World, The; Interview with Ted Nelson, 1990]] :computing:tednelson:
+:PROPERTIES:
+:ID:       spnvltwgbhrgctlgvdfdbbfdtngdthwrldthntrvwwthtdnlsn
+:END:
+"Why are computers so seductive"?
+* STRT [#B] [2021-01-30] [[https://openvault.wgbh.org/catalog?f%5Baccess%5D%5B%5D=Available+Online&f%5Bseries_title%5D%5B%5D=Machine+That+Changed+The+World%2C+The][GBH Openvault Search Results]] :computing:towatch:
+:PROPERTIES:
+:ID:       spnvltwgbhrgctlgfbccssdbdhwrldcthgbhpnvltsrchrslts
+:END:
+
+* [#C] [2021-01-25] [[https://catonmat.net/videos/the-computer-revolution-hasnt-happened-yet][The Computer Revolution Hasn't Happened Yet by Alan Kay]] :computing:
+:PROPERTIES:
+:ID:       sctnmtntvdsthcmptrrvltnhsptrrvltnhsnthppndytbylnky
+:END:
+
+* TODO [#C] [2021-01-04] [[https://liliputing.com/2020/12/dragonbox-pyra-begins-shipping-to-customers-open-hardware-handheld-gaming-pc.html][Dragonbox Pyra begins shipping to customers (open hardware handheld gaming PC) - Liliputing]]
+:PROPERTIES:
+:ID:       sllptngcmdrgnbxpyrbgnsshppnhrdwrhndhldgmngpcllptng
+:END:
+
+* [#B] [2021-01-30] [[https://indieweb.org/FAQ#Why_can_no_one_make_something_consumer_friendly][FAQ - IndieWeb]]
+:PROPERTIES:
+:ID:       sndwbrgfqwhycnnnmksmthngcnsmrfrndlyfqndwb
+:END:
+: "Q: Why can't someone make something consumer friendly then?"[1]
+: A: Because they can't even make something self-friendly, that is, something that they themselves will use, daily, and thus continuously improv

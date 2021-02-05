@@ -76,3 +76,14 @@ https://twitter.com/karpathy/status/1132171497798156288
 : He was missing a large portion of his right hand, and he’d had the presence of mind to try to loop his belt around the injury to control the blood loss, pulling it tight.
 
 from Worm by wildbow
+
+* TODO [#C] [2021-01-30] [[https://lcamtuf.coredump.cx/prep/][Doomsday prepping for less crazy folk]] :prepping:
+:PROPERTIES:
+:ID:       slcmtfcrdmpcxprpdmsdyprppngfrlsscrzyflk
+:END:
+
+* TODO [#C] [2020-12-19] [[https://news.ycombinator.com/item?id=21182628][Collapse OS | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdcllpsshckrnws
+:END:
+: Forth is the ideal language for bootstrapping a cobbled-together computer from whatever scraps you can find. Forth gives you a shell, an assembler, a disassembler, and a rich, extensible programming language in a few kilobytes. You can peek or poke hardware interactively, or use the REPL as a calculator. Forth-style assemblers also make cross-compilation very practical.

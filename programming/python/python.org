@@ -1795,3 +1795,9 @@ so much indirection!!
 :PROPERTIES:
 :ID:       spckgngpythnrggdspblshngpccdwrkflwspythnpckgngsrgd
 :END:
+
+* TODO [#C] [2020-12-22] [[https://github.com/uva-graphics/autoimp][uva-graphics/autoimp: Automatic Python imports]]
+:PROPERTIES:
+:ID:       sgthbcmvgrphcstmpvgrphcstmptmtcpythnmprts
+:END:
+: The autoimp module imports all available Python modules automatically at the Python interactive prompt, similarly to Matlab:

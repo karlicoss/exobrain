@@ -2261,3 +2261,91 @@ https://twitter.com/worldbrain/status/1263004943465820160
 : Good news: We are currently planning an interoperable annotation network between @hypothes_is @factmata and Memex. Built on StorexHub https://t.co/MnVbNYFvht
 : That may be interesting for you too @joshm?
 : Let's have a chat sometimes?
+* [#C] [2021-01-09] [[https://www.webdesignmuseum.org/][Web Design Museum 1991 – 2006]]
+:PROPERTIES:
+:ID:       swwwwbdsgnmsmrgwbdsgnmsm
+:END:
+
+* [#C] [2021-01-02] [[https://petapixel.com/2019/07/13/shooting-high-res-thermal-photos-of-iceland-to-show-nature-at-work/?q=5][Shooting High-Res Thermal Photos of Iceland to Show Nature at Work]]
+:PROPERTIES:
+:ID:       sptpxlcmshtnghghrsthrmlphthrmlphtsfclndtshwntrtwrk
+:END:
+
+* [#B] [2019-12-30] Tobi Lutke 🌳🌲🛒🕹 on Twitter: "For creative work, you can't cheat. My believe is that there are 5 creative hours in everyone's day. All I ask of people at Shopify is that 4 of those are channeled into the company." / Twitter
+:PROPERTIES:
+:ID:       tbltkntwttrfrcrtvwrkycntcfthsrchnnldntthcmpnytwttr
+:END:
+https://twitter.com/tobi/status/1210242188870930433
+: That's fine. We are not moist robots
+* TODO [#B] [2021-01-30] [[https://fosdem.org/2021/][FOSDEM 2021 - Home]] :towatch:
+:PROPERTIES:
+:ID:       sfsdmrgfsdmhm
+:END:
+
+* [#C] [2020-05-12] https://fedi.xerz.one/notice/9uyW6Uv8k0DQjsbsdU
+:PROPERTIES:
+:ID:       sfdxrznntcywvkdqjsbsd
+:END:
+: be born => work on custom OSes for fun => want to help the world => despise harming => accidentally do harm => approach carefulness => notice mistakes in stuff => try to make an ideal OS => learn maths => Gödel => fuck your ass => whoops my worldview needs fixes
+* TODO [#C] [2020-12-14] [[https://joeyh.name/code/moreutils/][moreutils]]
+:PROPERTIES:
+:ID:       sjyhnmcdmrtlsmrtls
+:END:
+: vidir: edit a directory in your text editor
+* TODO [#C] [2020-12-14] [[https://joeyh.name/code/moreutils/][moreutils]]
+:PROPERTIES:
+:ID:       sjyhnmcdmrtlsmrtls
+:END:
+: mispipe: pipe two commands, returning the exit status of the first
+* [#C] [2020-09-29] [[https://github.com/jmathai/elodie][jmathai/elodie: An EXIF-based photo assistant, organizer, manager and workflow automation tool.]]
+:PROPERTIES:
+:ID:       sgthbcmjmthldjmthldnxfbsdntrgnzrmngrndwrkflwtmtntl
+:END:
+
+* TODO [#C] [2021-01-09] [[https://moa.party/][Moa]] : Link your Mastodon account to Twitter
+:PROPERTIES:
+:ID:       smprtymlnkyrmstdnccntttwttr
+:END:
+* [#C] [2021-01-12] [[https://twitter.com/VitalikButerin/status/1348894467877531650][vitalik.eth on Twitter: "7. The attempts at bringing down Parler are very worrying. Apple, Google, AWS are much more like "common infrastructure providers" than a social media site is. Parler has a right to exist, full stop." / Twitter]]
+:PROPERTIES:
+:ID:       stwttrcmvtlkbtrnsttsvtlktprlrhsrghttxstfllstptwttr
+:END:
+good thread with reflections of Parler ban
+* [#C] [2021-01-27] [[https://mathmap.quantamagazine.org/map/][The Map of Mathematics]] :inspiration:viz:pkm:
+:PROPERTIES:
+:ID:       smthmpqntmgznrgmpthmpfmthmtcs
+:END:
+hmm could be nice to viz connections between pages on my blog this way? not sure
+* [#C] [[https://www.lesswrong.com/posts/HEn2qiMxk5BggN83J/boring-advice-repository][Boring Advice Repository - LessWrong 2.0]]
+:PROPERTIES:
+:ID:       swwwlsswrngcmpstshnqmxkbgpstrybrngdvcrpstrylsswrng
+:END:
+- [2019-06-13] 
+  : When in need of a conversation topic, ask a question about the other person's life. Anything about their life. (If I can't think of something else, I ask about weekend plans.) Listen for what part of their answer they're most interested in. Ask followup questions about that thing. Repeat as necessary.
+  : People like to talk about themselves. This cuts awkward silences down to nothing and makes people like you. I've also learned all sorts of fascinating things about my acquaintances.
+- [2019-06-13] 
+  : Try to live close to where you work. Failing that, try to work close to where you live. Commuting takes a lot of time and you don't get paid for it.
+  : Alternative: commute effectively. Taking a train to NYC from Long Island I get almost 2 hours to read/watch lectures or entertainment. Some days these are 2 best hours of the day.
+- [2019-06-13]
+  : If you are trying to do X, surround yourself with people who are also doing X. Takes much less willpower to keep doing it.
+- [2019-06-13]
+  : The 80/20 rule is especially true for cleaning. Better to get it 80% clean twice as often than 99% clean half as often.
+* DONE [#D] [2021-01-09] [[https://news.ycombinator.com/item?id=25700135][Ask HN: Show me your half baked project | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdskhnshwmyrhlfbkdprjcthckrnws
+:END:
+
+* [#D] [2020-02-09] Gordon Brander on Twitter: "Scuttlebutt offers an important insight, as a protocol: mesh density can be very low, yet still deliver a viable UX, if the messages are shared in big batches." / Twitter https://twitter.com/gordonbrander/status/1226554545867612160
+:PROPERTIES:
+:ID:       grdnbrndrntwttrscttlbttffwttrstwttrcmgrdnbrndrstts
+:END:
+: Scuttlebutt offers an important insight, as a protocol: mesh density can be very low, yet still deliver a viable UX, if the messages are shared in big batches.
+* STRT [#C] [2020-12-09] [[https://unhosted.org/][unhosted web apps]] :offline:localfirst:
+:PROPERTIES:
+:ID:       snhstdrgnhstdwbpps
+:END:
+** [2021-01-31] ok, looks interesting, need to research more
+:PROPERTIES:
+:ID:       klksntrstngndtrsrchmr
+:END:
+Seems to have been worked on for the past 10 years? Wonder what's up with it (but also understandable considering I've been working on my stuff for years as well)

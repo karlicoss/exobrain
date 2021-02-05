@@ -596,3 +596,17 @@ https://physics.stackexchange.com/questions/3503/what-is-the-difference-between-
 : They're identical. Typically, we use complex fields if we have a U(1)U(1) symmetry, or some more complicated gauge group with complex representations.
 : 
 : Incidentally, the same comment applies to whether we use Majorana spinors or Weyl spinors.
+* [#C] [2018-07-31] https://en.wikipedia.org/wiki/Ostrogradsky_instability -- explanation why differential equations of orders higher than two do not appear in physics :math:physics:diffeq:
+:PROPERTIES:
+:ID:       snwkpdrgwkstrgrdskynstbltdrshghrthntwdntpprnphyscs
+:END:
+** [2021-01-31] http://www.scholarpedia.org/article/Ostrogradsky%27s_theorem_on_Hamiltonian_instability more detailed explanation
+:PROPERTIES:
+:ID:       wwwschlrpdrgrtclstrgrdskyhmltnnnstbltymrdtldxplntn
+:END:
+
+* DONE [#A] [2020-01-15] [[https://news.ycombinator.com/item?id=22033012][Noether’s Theorem – A Quick Explanation (2019)]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdnthrsthrmqckxplntn
+:END:
+https://quantum-friend-theory.tumblr.com/post/172814384897/noethers-theorem-a-quick-explanation

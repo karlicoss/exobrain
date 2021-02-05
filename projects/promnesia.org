@@ -2988,3 +2988,11 @@ for now we can at least do some sort of fuzzy highlighting?
 
 Two sided?
 The only downside is you won't have timestamps unless you write them out
+* TODO [#C] bug: database might be lock while creating index? probably because of periodic indexer
+:PROPERTIES:
+:CREATED:  [2021-01-31]
+:ID:       bgdtbsmghtblckwhlcrtngndxprbblybcsfprdcndxr
+:END:
+: sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+: [SQL: CREATE INDEX index_norm_url ON visits (norm_url)]
+: (Background on this error at: http://sqlalche.me/e/13/e3q8)

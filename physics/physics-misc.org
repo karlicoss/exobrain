@@ -2,24 +2,7 @@
 #+filetags: physics
 #+logseq_graph: false
 
-* TODO [#D] baez: "Today I learned: unlike in our universe, in 2d space solids melt in two separate stages!  Solid, hexatic, liquid"
-:PROPERTIES:
-:CREATED:  [2018-10-31]
-:ID:       bztdylrndnlknrnvrsndspcslsmltntwsprtstgssldhxtclqd
-:END:
-: Today I learned: unlike in our universe, in 2d space solids melt in two separate stages!  Solid, hexatic, liquid - shown below.
-: People have shown this mathematically but confirmed it experimentally using a layer of small magnetized beads.
-: (continued) https://t.co/djVgmFyFL7
-
-https://twitter.com/johncarlosbaez/status/1057710731901071360
-
-* [#C] [2018-07-31] https://en.wikipedia.org/wiki/Ostrogradsky_instability -- explanation why differential equations of orders higher than two do not appear in physics :math:physics:diffeq:
-:PROPERTIES:
-:ID:       snwkpdrgwkstrgrdskynstbltdrshghrthntwdntpprnphyscs
-:END:
-
-
-* TODO [#B] About  the principle of least action is a lie            :toblog:
+* TODO [#B] About the principle of least action is a lie             :toblog:
 :PROPERTIES:
 :CREATED:  [2020-05-09]
 :ID:       btthprncplflstctnsl
@@ -34,15 +17,24 @@ Another is trying to come up with magical explanations that the nature 'wants' s
 :END:
 slowdown of light in material is just apparent! due to combined EM field with electrons oscillating
 
-* TODO [#B] [2020-07-25] [[https://en.wikipedia.org/wiki/Renormalization_group][Renormalization group - Wikipedia]]
+* STRT [#B] [2020-07-25] [[https://en.wikipedia.org/wiki/Renormalization_group][Renormalization group - Wikipedia]]
 :PROPERTIES:
 :ID:       snwkpdrgwkrnrmlztngrprnrmlztngrpwkpd
 :END:
+** [2021-01-31]
+:PROPERTIES:
+:ID:       849_1429
+:END:
+so the idea is that some systems behave as a function of their components (and each component is a function of its subcomponents etc)
+(sort of like dynamic programming?)
 
+the coupling can express interaction between particles, e.g. for a magnetic system it can express tendency of neighbouring particles to oppose their spins
+if we have parameters, describing the system, we can iterate the process (going from smaller to larger subproblems)?
+sometimes we'll run into 'fixed points' (of coupling/macro parameters?), which correspond to phase transitions
 
 * ----------------------------------------------
 :PROPERTIES:
-:ID:       1506_1578
+:ID:       1430_1502
 :END:
 unprocessed stuff vvv
 
@@ -121,11 +113,6 @@ unprocessed stuff vvv
 :ID:       swwwfynmnlctrscltchdhtmltnphyscsvlchthrtwsttsystms
 :END:
 : which is −|I⟩, as required. So if we bring two hydrogen atoms near to each other with their electrons spinning in the same direction, they can go into the state |I⟩ and not state |II⟩. But notice that state |I⟩ is the upper energy state. Its curve of energy versus separation has no minimum. The two hydrogens will always repel and will not form a molecule. So we conclude that the hydrogen molecule cannot exist with parallel electron spins. And that is right.
-* DONE [#A] [2020-01-15] [[https://news.ycombinator.com/item?id=22033012][Noether’s Theorem – A Quick Explanation (2019)]]
-:PROPERTIES:
-:ID:       snwsycmbntrcmtmdnthrsthrmqckxplntn
-:END:
-https://quantum-friend-theory.tumblr.com/post/172814384897/noethers-theorem-a-quick-explanation
 * [2021-01-15] [[https://thescienceplayground.com/][Explore - The Science Playground]] :sim:physics:
 :PROPERTIES:
 :ID:       sthscncplygrndcmxplrthscncplygrnd
@@ -133,7 +120,7 @@ https://quantum-friend-theory.tumblr.com/post/172814384897/noethers-theorem-a-qu
 
 * --------------------------------------
 :PROPERTIES:
-:ID:       10350_10428
+:ID:       9966_10044
 :END:
 processing round on [2020-01-30]
 * [#D] [2019-01-17] foreXiv – Meta humor means you're smarter http://blog.jessriedel.com :physics:
@@ -643,4 +630,19 @@ time dilation thing was very weird... feels contrived
 :PROPERTIES:
 :CREATED:  [2019-03-17]
 :ID:       ksndrstndqtbtbtstndrdmdlnthngtdwthspnrsndlsvslzthm
+:END:
+
+* [#D] [2018-10-31] baez: "Today I learned: unlike in our universe, in 2d space solids melt in two separate stages!  Solid, hexatic, liquid"
+:PROPERTIES:
+:ID:       bztdylrndnlknrnvrsndspcslsmltntwsprtstgssldhxtclqd
+:END:
+: Today I learned: unlike in our universe, in 2d space solids melt in two separate stages!  Solid, hexatic, liquid - shown below.
+: People have shown this mathematically but confirmed it experimentally using a layer of small magnetized beads.
+: (continued) https://t.co/djVgmFyFL7
+
+https://twitter.com/johncarlosbaez/status/1057710731901071360
+https://web.archive.org/web/20181031192641/https://grasp-lab.org/2013/06/18/hexatic/
+* ---------------------------------------
+:PROPERTIES:
+:ID:       42078_42120
 :END:

@@ -877,3 +877,33 @@ maybe need to generate uid as a property.... simple
 :CREATED:  [2021-01-20]
 :ID:       hwtfrccrwlrstprcsst
 :END:
+
+* [#C] [2021-01-23] [[https://tomroth.com.au/fdg-custom/][Force directed graph: custom forces - Tom Roth]] :blog:inspiration:
+:PROPERTIES:
+:ID:       stmrthcmfdgcstmfrcdrctdgrphcstmfrcstmrth
+:END:
+: Or maybe you want to utilise your node and link attributes to change the sizes of some nodes over time. You’d use a custom force.
+
+nice indication of links (via background)
+* STRT [#C] [2021-01-30] [[https://indieweb.org/Getting_Started][Getting Started - IndieWeb]]
+:PROPERTIES:
+:ID:       sndwbrggttngstrtdgttngstrtdndwb
+:END:
+
+* TODO [#C] [2021-01-06] [[https://github.com/flancian/garden/blob/69fe163b30a00e76e3eb8637c97fa86ac0fb2a9e/exobrain.md][garden/exobrain.md at 69fe163b30a00e76e3eb8637c97fa86ac0fb2a9e · flancian/garden]]
+:PROPERTIES:
+:ID:       sgthbcmflncngrdnblbfbbcfcnxbrnmdtfbbcfcfbflncngrdn
+:END:
+
+* [#C] [2021-01-23] [[https://github.com/vasturiano/react-force-graph][vasturiano/react-force-graph: React component for 2D, 3D, VR and AR force directed graphs]] :exobrain:
+:PROPERTIES:
+:ID:       sgthbcmvstrnrctfrcgrphvstnntfrddvrndrfrcdrctdgrphs
+:END:
+: Click to expand/collapse nodes (source)
+
+wow, this might really be useful
+* TODO [#C] export state changes (esp. with comments?)                  :org:
+:PROPERTIES:
+:CREATED:  [2021-01-31]
+:ID:       xprtsttchngsspwthcmmnts
+:END:

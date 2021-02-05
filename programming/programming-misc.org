@@ -1080,3 +1080,36 @@ https://twitter.com/rsnous/status/1346944636145684488
 :PROPERTIES:
 :ID:       btsyntctcllyshrngcdwthjs
 :END:
+* TODO [#C] [2021-01-15] [[https://lobste.rs/s/hwuhhx/tour_self][A tour of Self | Lobsters]] :smalltalk:
+:PROPERTIES:
+:ID:       slbstrsshwhhxtrslftrfslflbstrs
+:END:
+
+* TODO [#C] [2021-01-26] [[https://schema.org/][Schema.org - Schema.org]]
+:PROPERTIES:
+:ID:       sschmrgschmrgschmrg
+:END:
+: Schema.org is a collaborative, community activity with a mission to create, maintain, and promote schemas for structured data on the Internet, on web pages, in email messages, and beyond.
+
+* TODO [#C] [2020-12-22] [[https://kaitai.io/][Kaitai Struct: declarative binary format parsing language]]
+:PROPERTIES:
+:ID:       sktktstrctdclrtvbnryfrmtprsnglngg
+:END:
+: A new way to develop parsers for binary structures.
+: Declarative: describe the very structure of the data, not how you read or write it
+: Language-neutral: write once, use in all supported languages:
+* TODO [#C] [2021-01-18] [[https://github.com/Firemoon777/tgfs][Firemoon777/tgfs: telegram attachments in FUSE filesystem]]
+:PROPERTIES:
+:ID:       sgthbcmfrmntgfsfrmntgfstlgrmttchmntsnfsflsystm
+:END:
+
+* TODO [#C] [2021-01-01] [[https://www.onegraph.com/graphiql][Dashboard - Build Integrations 10x-100x Faster]] :graphql:
+:PROPERTIES:
+:ID:       swwwngrphcmgrphqldshbrdbldntgrtnsxxfstr
+:END:
+graphql api explorer?
+
+* TODO [#D] [2020-07-11] [[https://news.ycombinator.com/item?id=23802208][CRDTs: The Hard Parts [video] | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdcrdtsthhrdprtsvdhckrnws
+:END:

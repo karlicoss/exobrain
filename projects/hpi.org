@@ -1159,3 +1159,7 @@ https://wiki.postgresql.org/wiki/Foreign_data_wrappers
 :CREATED:  [2021-01-14]
 :ID:       xpsndcnncttbsrvbl
 :END:
+* TODO [#B] [2021-01-26] [[https://gephi.org/][Gephi - The Open Graph Viz Platform]] :hpi:exobrain:
+:PROPERTIES:
+:ID:       sgphrggphthpngrphvzpltfrm
+:END:

@@ -163,10 +163,9 @@ This is something we can't build alone. Let's find each other and cooperate.
 Some existing communities:
 - [[https://malleable.systems][Malleable Systems Collective]] + Matrix chat
 - https://thinkingtools.space
-- [[https://twitter.com/dr_kvj/status/1319144262806634496][The Productivitst Discord]]
-- [[https://discord.gg/gPn9EARR][PKM Discord]]
-- [[https://discord.gg/KPwE2rQX][dendron Discord]]
-- [[https://discord.gg/KPwE2rQX][logseq Discord]]
+- [[https://disboard.org/server/join/727903265437777944][The Productivitst Discord]]
+- [[https://discord.gg/AE3NRw9][dendron Discord]]
+- [[https://discord.gg/KpN4eHY][logseq Discord]]
 * [#C] [2018-09-04] tesseract is best apparently? but couldn't handle elliptical photos.. :ocr:
 :PROPERTIES:
 :ID:       tssrctsbstpprntlybtcldnthndlllptclphts
@@ -182,7 +181,7 @@ timeline -- similarly for all life events
 
 * ----------------------------
 :PROPERTIES:
-:ID:       6456_6488
+:ID:       6405_6437
 :END:
 
 * TODO [#D] Tweet from @mekarpeles                                    :memex:
@@ -207,4 +206,8 @@ https://twitter.com/mekarpeles/status/1271226785439428608
 :PROPERTIES:
 :CREATED:  [2021-01-09]
 :ID:       ghtsstllmrcnvnnttsggllctnthnnyfmytls
+:END:
+* TODO [#C] [2021-01-21] [[https://github.com/steve-1820/memex][steve-1820/memex: A brief POC of what a Memex could potentially be.]] :memex:
+:PROPERTIES:
+:ID:       sgthbcmstvmmxstvmmxbrfpcfwhtmmxcldptntllyb
 :END:
