@@ -1113,3 +1113,135 @@ graphql api explorer?
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdcrdtsthhrdprtsvdhckrnws
 :END:
+
+* [#D] [2020-04-06] Ask HN: What are your favorite low-coding apps / tools as a developer? | Hacker News https://news.ycombinator.com/item?id=22786853
+:PROPERTIES:
+:ID:       skhnwhtryrfvrtlwcdngppstlprhckrnwssnwsycmbntrcmtmd
+:END:
+
+* [#D] [2020-06-21] [[https://thomazleite.com/posts/development-with-nix-python/][Development with Nix: Python - Thomaz Leite]] :python:nix:
+:PROPERTIES:
+:ID:       sthmzltcmpstsdvlpmntwthnxhndvlpmntwthnxpythnthmzlt
+:END:
+
+* [#D] [2020-03-07] gitsec — gitsec documentation https://gitsec.readthedocs.io/en/latest/
+:PROPERTIES:
+:ID:       gtscgtscdcmnttnsgtscrdthdcsnltst
+:END:
+* [#C] [2019-12-30] tiangolo/fastapi: FastAPI framework, high performance, easy to learn, fast to code, ready for production :hpi:
+:PROPERTIES:
+:ID:       tnglfstpfstpfrmwrkhghprfrncsytlrnfsttcdrdyfrprdctn
+:END:
+https://github.com/tiangolo/fastapi
+: Interactive API docs
+: Now go to http://127.0.0.1:8000/docs.
+: 
+: You will see the automatic interactive API documentation (provided by Swagger UI):
+** [2019-12-30] tiangolo/fastapi: FastAPI framework, high performance, easy to learn, fast to code, ready for production
+:PROPERTIES:
+:ID:       tnglfstpfstpfrmwrkhghprfrncsytlrnfsttcdrdyfrprdctn
+:END:
+https://github.com/tiangolo/fastapi
+: Conversion of output data: converting from Python data and types to network data (as JSON):
+: Convert Python types (str, int, float, bool, list, etc).
+: datetime objects.
+: UUID objects.
+: Database models.
+: ...and many more.
+* [#D] [2019-10-05] Siderus - decentralized storage https://siderus.io
+:PROPERTIES:
+:ID:       sdrsdcntrlzdstrgssdrs
+:END:
+** [2019-11-21] eh, not very popular anywhere, unclear what are they doing
+:PROPERTIES:
+:ID:       hntvrypplrnywhrnclrwhtrthydng
+:END:
+
+* [#D] [2020-01-16] Hypermodeling Hyperproperties • Hillel Wayne https://www.hillelwayne.com/post/hyperproperties/
+:PROPERTIES:
+:ID:       hyprmdlnghyprprprtshlllwywwwhlllwyncmpsthyprprprts
+:END:
+
+* [#D] [2020-01-08] Write less code https://svelte.dev/blog/write-less-code
+:PROPERTIES:
+:ID:       wrtlsscdssvltdvblgwrtlsscd
+:END:
+: Write less code
+: The most important metric you're not paying attention to
+* [#D] [2020-02-12] codelucas/newspaper: News, full-text, and article metadata extraction in Python 3. Advanced docs: https://github.com/codelucas/newspaper
+:PROPERTIES:
+:ID:       cdlcsnwspprnwsflltxtndrtcvncddcssgthbcmcdlcsnwsppr
+:END:
+: News, full-text, and article metadata extraction in Python 3
+* TODO [#D] [2019-12-29] danistefanovic/build-your-own-x: 🤓 Build your own (insert technology here) https://github.com/danistefanovic/build-your-own-x
+:PROPERTIES:
+:ID:       dnstfnvcbldyrwnxbldyrwnnshrsgthbcmdnstfnvcbldyrwnx
+:END:
+
+* TODO [#D] [2019-02-04] stanfordnlp/stanfordnlp: Official Stanford NLP Python Library for Many Human Languages https://github.com/stanfordnlp/stanfordnlp :nlp:
+:PROPERTIES:
+:ID:       stnfrdnlpstnfrdnlpffclstnsgthbcmstnfrdnlpstnfrdnlp
+:END:
+
+* TODO [#D] [2019-02-11] FunctionalPlus/README.md at master · Dobiasd/FunctionalPlus https://github.com/Dobiasd/FunctionalPlus/blob/master/README.md
+:PROPERTIES:
+:ID:       fnctnlplsrdmmdtmstrdbsdfndbsdfnctnlplsblbmstrrdmmd
+:END:
+
+* [#D] [2019-05-30] Roman Elizarov on Twitter: "I really wish all languages move to suspend instead of async/await. The advantage is clear. It is disturbing to see that some languages are still adding async/await even as a better way was already obviously discovered.… https://t.co/PRQqtwdVJO"
+:PROPERTIES:
+:ID:       rmnlzrvntwttrrllywshlllngdybvslydscvrdstcprqqtwdvj
+:END:
+https://twitter.com/relizarov/status/1134190090547281920
+
+* [#D] [2019-06-20] PyCharm 2019.1 EAP 5 | PyCharm Blog https://blog.jetbrains.com/pycharm/2019/02/pycharm-2019-1-eap-5/
+:PROPERTIES:
+:ID:       pychrmppychrmblgsblgjtbrnscmpychrmpychrmp
+:END:
+: All-new Jupyter Notebooks
+* [#D] [2019-06-20] The Mypy Blog: Mypy 0.710 Released: New Semantic Analyzer https://mypy-lang.blogspot.com/2019/06/mypy-0710-released-new-semantic-analyzer.html?spref=tw
+:PROPERTIES:
+:ID:       thmypyblgmypyrlsdnwsmntcnlsdnwsmntcnlyzrhtmlsprftw
+:END:
+
+* [#D] [2019-07-03] Color Selector - Random and Unique Colors http://kkmet.com/color/ :design:
+:PROPERTIES:
+:ID:       clrslctrrndmndnqclrskkmtcmclr
+:END:
+
+* [#D] [2019-07-07] Pull requests not triggering build - Build Environment - CircleCI Discuss https://discuss.circleci.com/t/pull-requests-not-triggering-build/1213/24 :circleci:
+:PROPERTIES:
+:ID:       pllrqstsnttrggrngbldbldnvlccmtpllrqstsnttrggrngbld
+:END:
+
+* [#D] [2019-07-07] Show test results for prospective merge of a Github | CircleCI Ideas https://ideas.circleci.com/ideas/CCI-I-926 :circleci:
+:PROPERTIES:
+:ID:       shwtstrsltsfrprspctvmrgfgthbcrclcdssdscrclccmdscc
+:END:
+
+* [#D] [2019-10-06] Host Your Site Under Your Domain on IPFS https://gist.github.com/claus/1287f47b5fbaaea338ac8a04d02bf258
+:PROPERTIES:
+:ID:       hstyrstndryrdmnnpfssgstgthbcmclsfbfbcdbf
+:END:
+: Set up DNS
+* TODO [#D] [2019-09-20] Modern C https://modernc.gforge.inria.fr
+:PROPERTIES:
+:ID:       mdrncsmdrncgfrgnrfr
+:END:
+
+* TODO [#D] [2019-10-09] Railway Oriented Programming | F# for fun and profit https://fsharpforfunandprofit.com/rop/
+:PROPERTIES:
+:ID:       rlwyrntdprgrmmngffrfnndprftsfshrpfrfnndprftcmrp
+:END:
+
+* TODO [#D] [2019-07-30] mahmoud/boltons: 🔩 Like builtins, but boltons. 230+ constructs, recipes, and snippets which extend (and rely on nothing but) the Python standard library. Nothing like Michael Bolton. https://github.com/mahmoud/boltons
+:PROPERTIES:
+:ID:       mhmdbltnslkbltnsbtbltnscnkmchlbltnsgthbcmmhmdbltns
+:END:
+: cache
+* [#D] [2019-09-10] Is this project dead? · Issue #883 · scrapinghub/portia https://github.com/scrapinghub/portia/issues/883 :scraping:
+:PROPERTIES:
+:ID:       sthsprjctddssscrpnghbprtsgthbcmscrpnghbprtsss
+:END:
+: Provided Portia is no longer been offered by Scrapinghub, I think the company is no longer funding the maintenance of this project.
+: Source: https://support.scrapinghub.com/support/solutions/articles/22000200405-which-services-are-available-on-scrapy-cloud-

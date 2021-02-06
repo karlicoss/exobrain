@@ -606,3 +606,11 @@ combining it with npm/webpack weirdness and kind of slow feedback loop (reloadin
 :CREATED:  [2019-06-29]
 :ID:       pstbttstnggrsp
 :END:
+
+* TODO [#D] [2020-01-25] [h-dev] Abridged summary of dev@list.hypothes.is - 1 update in 1 topic
+:PROPERTIES:
+:ID:       hdvbrdgdsmmryfdvlsthypthsspdtntpc
+:END:
+: I think that it works last I checked! There is only a need to get the build
+: infrastructure working and have an owner on addons.mozilla.org, and for
+: Mozilla to approve it.

@@ -143,3 +143,7 @@ https://github.com/fastlane/fastlane
 :END:
 https://askubuntu.com/questions/680591/android-adb-no-permission
 : Change the USB mode in your phone to File Transfer. That's what worked for me.
+* [#D] [2019-12-27] How to Debug a Third Party Android App | Lobsters https://lobste.rs/s/vlawsw/how_debug_third_party_android_app
+:PROPERTIES:
+:ID:       hwtdbgthrdprtyndrdpplbstrsvlwswhwdbgthrdprtyndrdpp
+:END:

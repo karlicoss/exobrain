@@ -3700,3 +3700,13 @@ https://twitter.com/nmwsharp/status/1153993638134910977
 :PROPERTIES:
 :ID:       scnvshrvrddcrssssgnmntssyssyllbsfrclsscsfcmptrscnc
 :END:
+
+* TODO [#D] [2019-08-18] kitspace/awesome-electronics: A curated list of awesome resources for electronic engineers and hobbyists https://github.com/kitspace/awesome-electronics
+:PROPERTIES:
+:ID:       ktspcwsmlctrncscrtdlstfwsstssgthbcmktspcwsmlctrncs
+:END:
+
+* TODO [#D] [2019-01-17] Maldacena: The symmetry and simplicity of thelaws of physics and the Higgs boson https://arxiv.org/pdf/1410.6753.pdf
+:PROPERTIES:
+:ID:       mldcnthsymmtryndsmplctyftcsndthhggsbsnsrxvrgpdfpdf
+:END:

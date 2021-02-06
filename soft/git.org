@@ -130,3 +130,10 @@ https://stackoverflow.com/questions/7375528/how-to-extract-one-file-with-commit-
 :ID:       slbstrssnvpwhygtblmscksfrtfcdndwhtyshldsnstdlbstrs
 :END:
 : For archeology I really love git gui blame despite its dated UI
+* [#D] [2019-07-21] git - How do I remove a submodule? - Stack Overflow https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule/7646931#7646931 :git:
+:PROPERTIES:
+:ID:       gthwdrmvsbmdlstckvrflwsstckvrflwcmqstnshwdrmvsbmdl
+:END:
+: he majority of answers to this question are outdated, incomplete, or unnecessarily complex.
+: 
+: A submodule cloned using git 1.7.8 or newer will leave at most four traces of itself in your local repo. The process for removing those four traces is given by the three commands below:

@@ -114,3 +114,7 @@ https://people.inf.elte.hu/pgj/agda/tutorial/Application.Algebra.html
 :ID:       wthbstrctngddcmnttn
 :END:
 https://agda.readthedocs.io/en/latest/language/with-abstraction.html#simultaneous-abstraction
+* [#D] [2019-01-26] agda-ring-solver https://oisdk.github.io/agda-ring-solver/README.html
+:PROPERTIES:
+:ID:       gdrngslvrssdkgthbgdrngslvrrdmhtml
+:END:

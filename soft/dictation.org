@@ -214,3 +214,8 @@ https://opensource.com/article/19/1/open-source-voice-interfaces
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdhndsfrcdnrsngdcttnndytrcknghckrnws
 :END:
+
+* TODO [#D] [2019-06-29] Elleo/gst-deepspeech: Speech recognition plugin for GStreamer based on Mozilla's DeepSpeech model https://github.com/Elleo/gst-deepspeech :dictation:
+:PROPERTIES:
+:ID:       llgstdpspchspchrcgntnplgnspchmdlsgthbcmllgstdpspch
+:END:

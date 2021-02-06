@@ -138,3 +138,13 @@ https://stackoverflow.com/questions/48362093/cors-request-blocked-in-locally-ope
 :PROPERTIES:
 :ID:       swkcsswgrgdsmstksncmpltlssnthdsgnfcsscsswrknggrpwk
 :END:
+
+* [#D] [2020-01-29] Use and Reuse Everything in SVG; Even Animations | Lobsters https://lobste.rs/s/pd1ccu/use_reuse_everything_svg_even_animations
+:PROPERTIES:
+:ID:       sndrsvrythngnsvgvnnmtnslbspdccsrsvrythngsvgvnnmtns
+:END:
+* [#D] [2019-07-06] Stop using so many divs! An intro to semantic HTML - DEV Community 👩‍💻👨‍💻
+:PROPERTIES:
+:ID:       stpsngsmnydvsnntrtsmntchtmldvcmmnty
+:END:
+https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i

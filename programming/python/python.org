@@ -1801,3 +1801,21 @@ so much indirection!!
 :ID:       sgthbcmvgrphcstmpvgrphcstmptmtcpythnmprts
 :END:
 : The autoimp module imports all available Python modules automatically at the Python interactive prompt, similarly to Matlab:
+* [#D] [2020-01-25] My Python setup for 2020 | Noam Elfanbaum https://noamelf.com/posts/my-python-setup-for-2020/
+:PROPERTIES:
+:ID:       mypythnstpfrnmlfnbmsnmlfcmpstsmypythnstpfr
+:END:
+:  pyenv install 3.8.0
+:  pyenv shell 3.8.0
+:  https://noamelf.com/posts/my-python-setup-for-2020/
+
+* TODO [#D] [2019-09-17] Vendoring Python dependencies with pip - Underdog.io Engineering Team - Medium https://medium.com/underdog-io-engineering/vendoring-python-dependencies-with-pip-b9eb6078b9c0 :python:
+:PROPERTIES:
+:ID:       vndrngpythndpndncswthppnddrngpythndpndncswthppbbbc
+:END:
+
+* [#D] [2020-02-04] PyPy - Performance https://pypy.org/performance.html#profiler
+:PROPERTIES:
+:ID:       pypyprfrmncspypyrgprfrmnchtmlprflr
+:END:
+: PyPy 2.6 introduced vmprof, a very-low-overhead statistical profiler. The standard, non-statistical cProfile is also supported, and can be enabled without turning off the JIT. We do recommend vmprof anyway because turning on cProfile can distort the result (sometimes massively, though hopefully this should not be too common).

@@ -2349,3 +2349,135 @@ hmm could be nice to viz connections between pages on my blog this way? not sure
 :ID:       klksntrstngndtrsrchmr
 :END:
 Seems to have been worked on for the past 10 years? Wonder what's up with it (but also understandable considering I've been working on my stuff for years as well)
+
+* [#D] [2020-05-29] [[http://xahlee.info/comp/unicode_drawing_shapes.html][Unicode Box Art ░ ▒ ▓]]
+:PROPERTIES:
+:ID:       xhlnfcmpncddrwngshpshtmlncdbxrt
+:END:
+
+* [#D] [2020-05-22] [[https://news.ycombinator.com/item?id=23271732][Show HN: Plopdown HTML5 Video Annotator Released | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdshwhnplpdwnhtmlvdnnttrrlsdhckrnws
+:END:
+
+* [#D] [2020-05-13] [[https://www.hillelwayne.com/post/ahk/][In Praise of AutoHotKey • Hillel Wayne]]
+:PROPERTIES:
+:ID:       swwwhlllwyncmpsthknprsfthtkyhlllwyn
+:END:
+
+* [#D] [2020-05-14] [[https://lobste.rs/s/pznfdh/is_going_conferences_useless_for][Is going to conferences useless for learning? How do you learn? | Lobsters]]
+:PROPERTIES:
+:ID:       slbstrsspznfdhsgngcnfrncssslssfrlrnnghwdylrnlbstrs
+:END:
+
+* [#D] [2020-05-15] [[https://twitter.com/MentalNodes/status/1261010969230270470][(4) Mental Nodes on Twitter: "There is git for projects—should we have git for ideas? https://t.co/70jIbHRlSb" / Twitter]] :git:
+:PROPERTIES:
+:ID:       stwttrcmmntlndssttsmntlnddwhvgtfrdsstcjbhrlsbtwttr
+:END:
+: There is git for projects—should we have git for ideas?
+* [#D] [2020-05-31] [[https://github.com/novoid/lazyblorg/wiki/Images#embedding-tsfile-image-files][Images · novoid/lazyblorg Wiki]] :memacs:
+:PROPERTIES:
+:ID:       sgthbcmnvdlzyblrgwkmgsmbdgtsflmgflsmgsnvdlzyblrgwk
+:END:
+: As you can see, you don’t have to cope with the directory, where the image file is located.
+: Using the Memacs and/or the file traversal method, image files are located and copied independent of their current location.
+* [#D] [2020-06-03] [[https://twitter.com/hypotext/status/1268218107476291585][(3) Katherine Ye on Twitter: "Our system is not yet ready to use, but you can sign up for the mailing list to hear more: https://t.co/L4NEexeipc We’re looking to collaborate with educators and authors on making diagrams. If that sounds like you, get in touch here: https://t.co/MJwBm31WwQ" / Twitter]]
+:PROPERTIES:
+:ID:       stwttrcmhyptxtsttskthrnynygtntchhrstcmjwbmwwqtwttr
+:END:
+: Our system is not yet ready to use, but you can sign up for the mailing list to hear more: https://penrose.ink
+* [#D] [2019-07-27] nielsen: How much do our (supposed) intellectual elite know about human progress? https://m.facebook.com/permalink.php?story_fbid=165938533888688&id=100014176268390
+:PROPERTIES:
+:ID:       nlsnhwmchdrsppsdntllctlltsmfcbkcmprmlnkphpstryfbdd
+:END:
+: I'm not usually bothered by this kind of thing. Media love to bemoan surveys showing lack of basic scientific knowledge among the general population. That kind of thing doesn't alarm me. We're a society in which most people specialize, and it's not surprising if most of us are ignorant in major areas; collectively we can still do pretty well.
+* [#D] [2019-07-29] Effective Altruism London - Home https://www.facebook.com/LondonAltruism/
+:PROPERTIES:
+:ID:       ffctvltrsmlndnhmswwwfcbkcmlndnltrsm
+:END:
+* TODO [#D] [2019-09-10] documentation/FAQ.md at master · tootsuite/documentation https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/FAQ.md :mastodon:
+:PROPERTIES:
+:ID:       dcmnttnfqmdtmstrttstdcmntcmnttnblbmstrsngmstdnfqmd
+:END:
+: Federated universe. The network of compatible social media servers such as Mastodon, Friendica, Hubzilla, Kroeg, PeerTube and more. Typically if you've got one account on a server in the fediverse, you can follow and be followed by folks from other servers.
+* TODO [#D] [2019-09-10] documentation/FAQ.md at master · tootsuite/documentation https://github.com/tootsuite/documentation/blob/master/Using-Mastodon/FAQ.md :mastodon:
+:PROPERTIES:
+:ID:       dcmnttnfqmdtmstrttstdcmntcmnttnblbmstrsngmstdnfqmd
+:END:
+: Since Mastodon version 1.6 we use the ActivityPub protocol which is a recommended W3C standard.
+* TODO [#D] [2019-09-10] Mastodon Twitter Crossposter https://crossposter.masto.donte.com.br/ :mastodon:
+:PROPERTIES:
+:ID:       mstdntwttrcrsspstrscrsspstrmstdntcmbr
+:END:
+* [#D] mastodon + search
+:PROPERTIES:
+:ID:       mstdnsrch
+:END:
+** [#D] [2019-09-10] Eugen: "If text search is ever implemented, it should be …" - Mastodon https://mastodon.social/@Gargron/4947733
+:PROPERTIES:
+:ID:       gnftxtsrchsvrmplmntdtshldbmstdnsmstdnsclgrgrn
+:END:
+: If text search is ever implemented, it should be limited to your home timeline/mentions only. Lack of full-text search on general content is intentional, due to negative social dynamics of it in other networks
+** [#D] [2019-09-10] Search doesn't find posts · Issue #594 · tootsuite/mastodon https://github.com/tootsuite/mastodon/issues/594
+:PROPERTIES:
+:ID:       srchdsntfndpstsssttstmstdnsgthbcmttstmstdnsss
+:END:
+: In my opinion, being able to search for as much as possible is quite appealing.
+: To still give users a tool against harrasment and avoiding surprises, I suggest a opt-out privacy option to allow own Toots to be find by such a search.
+* TODO [#D] [2019-12-28] Walking the faster-than-light tightrope https://ahelwer.ca/post/2018-12-07-chsh/
+:PROPERTIES:
+:ID:       wlkngthfstrthnlghttghtrpshlwrcpstchsh
+:END:
+* [#D] [2020-05-28] [[https://twitter.com/vgr/status/1266104435958140929][(8) Venkatesh Rao on Twitter: "If anyone is still gets me and @visakanv confused, these tweet maps say it all 🤣 Guess which one is me and which one is visa’s? https://t.co/YF0vhXOEsY" / Twitter]]
+:PROPERTIES:
+:ID:       stwttrcmvgrsttsvnktshrntwdwhchnsvssstcyfvhxsytwttr
+:END:
+: If anyone is still gets me and @visakanv
+:  confused, these tweet maps say it all
+: Guess which one is me and which one is visa’s?
+* TODO [#D] [2019-09-02] Dagre Interactive Demo https://dagrejs.github.io/project/dagre-d3/latest/demo/interactive-demo.html :viz:graph:
+:PROPERTIES:
+:ID:       dgrntrctvdmsdgrjsgthbprjctdgrdltstdmntrctvdmhtml
+:END:
+* [#D] [2019-03-06] SparkFun Electronics https://www.sparkfun.com/
+:PROPERTIES:
+:ID:       sprkfnlctrncsswwwsprkfncm
+:END:
+
+* [#D] [2019-06-16] Windows 95 for VirtualBox : windows95 https://www.reddit.com/r/windows95/comments/8uoefs/windows_95_for_virtualbox/
+:PROPERTIES:
+:ID:       wndwsfrvrtlbxwndwsswwwrddndwscmmntsfswndwsfrvrtlbx
+:END:
+* [#D] [2019-06-16] [Sun Care] Bioré vs La Roche-Posay? : SkincareAddiction https://www.reddit.com/r/SkincareAddiction/comments/7c04yb/sun_care_bior%C3%A9_vs_la_rocheposay/
+:PROPERTIES:
+:ID:       sncrbrévslrchpsyskncrddctcmmntscybsncrbrcvslrchpsy
+:END:
+: I would go for LRP, it has better UVA protection compared to Biore and does not have alcohol. Both should not leave a significant white cast. Anthelios can get a bit sticky though.
+: LRP has a line in Japan call "Uvidea" which has the protection of LRP standard and consistency of typical Japanese sunscreen. You may want to check that out.
+* [#D] [2019-06-16] Daniel's XL Toolbox - Local file sharing with Samba and VirtualBox guests https://www.xltoolbox.net/blog/2013/11/local-file-sharing-with-samba-and-virtualbox-guests.html
+:PROPERTIES:
+:ID:       dnlsxltlbxlclflshrngwthsmrngwthsmbndvrtlbxgstshtml
+:END:
+: Make sure to not allow others to create and delete files in this folder.
+: Alternatively, if you like to use the terminal, issue something like this:
+: net usershare add documents /home/daniel/Documents "Vhost documents" daniel:f
+: Of course, you need to adjust the paths and user name to your own.
+: The net usershare command also provides options to list and remove shares; the options are displayed when the command is issued as-is.
+* [#D] [2019-11-15] serializer - 300 https://serializer.io
+:PROPERTIES:
+:ID:       srlzrssrlzr
+:END:
+** [2019-11-21] reader for hackernews?
+:PROPERTIES:
+:ID:       rdrfrhckrnws
+:END:
+
+* [#D] [2019-05-26] Finding the Perfect 10: How We Developed the Foursquare Venue Rating System https://medium.com/foursquare-direct/finding-the-perfect-10-how-we-developed-the-foursquare-venue-rating-system-c76b08f7b9b3 :rating:
+:PROPERTIES:
+:ID:       fndngthprfcthwwdvlpdthfrspdthfrsqrvnrtngsystmcbfbb
+:END:
+
+* [#D] [2019-08-03] Scientists create first billion-atom biomolecular simulation https://phys.org/news/2019-04-scientists-billion-atom-biomolecular-simulation.html
+:PROPERTIES:
+:ID:       scntstscrtfrstbllntmbmlcltstsbllntmbmlclrsmltnhtml
+:END:

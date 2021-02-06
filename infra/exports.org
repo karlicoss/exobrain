@@ -1021,3 +1021,16 @@ https://news.ycombinator.com/item?id=13700968
 :CREATED:  [2021-02-03]
 :ID:       wndrftspssbltgtwtchpstn
 :END:
+* TODO [#D] [2019-09-02] vincaslt/memparse: A Memrise courses parser https://github.com/vincaslt/memparse
+:PROPERTIES:
+:ID:       vncsltmmprsmmrscrssprsrsgthbcmvncsltmmprs
+:END:
+* [#D] [2019-07-28] jonbakerfish/TweetScraper: TweetScraper is a simple crawler/spider for Twitter Search without using API https://github.com/jonbakerfish/TweetScraper :twitter:
+:PROPERTIES:
+:ID:       jnbkrfshtwtscrprtwtscrprsgpsgthbcmjnbkrfshtwtscrpr
+:END:
+* [#D] [2019-07-29] taspinar/twitterscraper: Scrape Twitter for Tweets https://github.com/taspinar/twitterscraper
+:PROPERTIES:
+:ID:       tspnrtwttrscrprscrptwttrfwtssgthbcmtspnrtwttrscrpr
+:END:
+: One of the bigger disadvantages of the Search API is that you can only access Tweets written in the past 7 days. This is a major bottleneck for anyone looking for older past data to make a model from. With TwitterScraper there is no such limitation.

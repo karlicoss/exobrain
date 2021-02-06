@@ -921,3 +921,11 @@ Could check it on examples from this dragon slaying game
 :CREATED:  [2021-01-27]
 :ID:       ndcmntdntypdsystmsrkndfkfyhvrspnsvrpl
 :END:
+* TODO [#D] [2019-09-10] Using Portia to make spiders - YouTube https://www.youtube.com/watch?v=g7FaK7gdK_I :inspiration:
+:PROPERTIES:
+:ID:       sngprttmkspdrsytbswwwytbcmwtchvgfkgdk
+:END:
+: Portia uses Scrapy project and enable users to make annotations in webpages. Then users can do crawlers for these webpages.
+
+hmm, interesting, could use that for RSS extractor thingy? although common ancestor thing might be easier:
+basically go up until you meet

@@ -790,3 +790,9 @@ https://books.google.co.uk/books?id=bipBDwAAQBAJ&pg=PA91&lpg=PA91&dq=%22spin+0%2
 :END:
 
 https://mathoverflow.net/questions/37115/why-arent-representations-of-monoids-studied-so-much
+
+* [#D] [2019-02-24] Nikita Lisitsa on Twitter: "Representation theory of finite groups in action. Here are 3 lowest-energy orbitals of a hypothetical H₃²⁺ ion, with hydrogen nuclei arranged into a regular triangle. The permutation group S₃ acts on the system simply by permuting the nuclei. https://t.co/KvFsQVHuCG" / Twitter
+:PROPERTIES:
+:ID:       nktlstsntwttrrprsnttnthrytngthnclstckvfsqvhcgtwttr
+:END:
+https://twitter.com/lisyarus/status/1099620329612365824

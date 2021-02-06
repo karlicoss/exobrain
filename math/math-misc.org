@@ -591,3 +591,33 @@ Note that the theorem only guarantees the existence of solution nearby the initi
 :ID:       tpthctgrlnlyssflgcdvrbksnthmtcsmznckrbrtgldblttbks
 :END:
 https://www.amazon.co.uk/Topoi-Categorial-Analysis-Logic-Mathematics/dp/0486450260
+* [#D] [2019-05-10] What is Applied Category Theory? | Azimuth https://johncarlosbaez.wordpress.com/2018/09/18/what-is-applied-category-theory/
+:PROPERTIES:
+:ID:       whtsppldctgrythryzmthsjhnrdprsscmwhtsppldctgrythry
+:END:
+
+* [#D] [2019-05-10] Об Байеса - 2 - Не кинокритик. Не палеонтолог. https://plakhov.livejournal.com/227597.html
+:PROPERTIES:
+:ID:       оббайесанекинокритикнепалонтологsplkhvlvjrnlcmhtml
+:END:
+
+* [#D] [2019-05-04] Sage Manifolds - Wikipedia https://en.wikipedia.org/wiki/Sage_Manifolds
+:PROPERTIES:
+:ID:       sgmnfldswkpdsnwkpdrgwksgmnflds
+:END:
+
+* [#D] [2019-02-22] The Calculus of Variations | Bounded Rationality https://bjlkeng.github.io/posts/the-calculus-of-variations/
+:PROPERTIES:
+:ID:       thclclsfvrtnsbnddrtnltysblknggthbpststhclclsfvrtns
+:END:
+some good explanations for calculus of variations
+* [#D] [2019-11-03] I hate the Pumping Lemma | Bosker Blog https://bosker.wordpress.com/2013/08/18/i-hate-the-pumping-lemma/
+:PROPERTIES:
+:ID:       htthpmpnglmmbskrblgsbskrwrdprsscmhtthpmpnglmm
+:END:
+
+* [#D] [2019-08-27] The Existential Risk of Math Errors - Gwern.net https://www.gwern.net/The-Existential-Risk-of-Mathematical-Error#sn25
+:PROPERTIES:
+:ID:       thxstntlrskfmthrrrsgwrnnttthxstntlrskfmthmtclrrrsn
+:END:
+: Reading great mathematicians like Terence Tao discuss the heuristics they use on unsolved problems25, they bear some resemblances to computer science techniques.

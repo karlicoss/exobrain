@@ -129,3 +129,14 @@ https://communitywiki.org/trunk
 :END:
 : #share-your-work
 : This is the channel for discussion about your own work, with a particular emphasis on work that pushes us toward the future of computing. If you want feedback, collaborators, high-fives, or just a place to drop your latest output, this is the place. This channel is especially sensitive to tone, so please keep things positive and constructive. Critique is great, criticism is not.
+* TODO [#D] [2019-09-10] What I wish I knew before joining Mastodon :social:mastodon:
+:PROPERTIES:
+:ID:       whtwshknwbfrjnngmstdn
+:END:
+https://hackernoon.com/what-i-wish-i-knew-before-joining-mastodon-7a17e7f12a2b
+: Who should I follow on Mastodon?
+* [#D] [2020-01-16] tilde.town https://tilde.town
+:PROPERTIES:
+:ID:       tldtwnstldtwn
+:END:
+: tilde.town is non-commercial, donation supported, and committed to rejecting false technological progress in favor of empathy and sustainable computing.

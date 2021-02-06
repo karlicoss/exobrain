@@ -979,3 +979,12 @@ https://github.com/alphapapa/emacs-package-dev-handbook
 :ID:       sgthbcmhlssnrdmmcssssrdstfrrdfnctnltysshlssnrdmmcs
 :END:
 : Either enable :emacs undo (for undo-fu), :emacs (undo +tree) (for undo-tree), or upgrade to Emacs 28 (for undo-redo). If you don't know which one to pick, I recommend the first.
+* [#D] [2020-02-22] .doom.d/config.el at master · nmartin84/.doom.d https://github.com/nmartin84/.doom.d/blob/master/config.el
+:PROPERTIES:
+:ID:       dmdcnfgltmstrnmrtndmdsgthbcmnmrtndmdblbmstrcnfgl
+:END:
+
+* [#D] [2020-02-22] nmartin84/.doom.d: This is my private DOOM emacs configuration. https://github.com/nmartin84/.doom.d
+:PROPERTIES:
+:ID:       nmrtndmdthssmyprvtdmmcscnfgrtnsgthbcmnmrtndmd
+:END:
