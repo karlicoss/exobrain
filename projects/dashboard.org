@@ -1,183 +1,390 @@
-#+TITLE: Dashboard
+#+TITLE: ⭐ Dashboard
 #+filetags: dashboard
 
-* related                                                 :timeline:memex:qs:
+
+Dashboard (not a very unique name, I know) is a set of tools to visualize personal data on a, well, some sort of dashboard.
+
+I'm gradually publishing it [[https://github.com/karlicoss/dashboard][here]] and got some old screenshots [[https://www.reddit.com/r/QuantifiedSelf/comments/cokt4f/what_do_you_all_do_with_your_data/ewmucgk][here]].
+
+Ideally I'd like to reuse existing libraries and other people's projects to the maximum extent possible, so we could join forces.
+
+* related
 :PROPERTIES:
 :ID:       rltd
 :END:
+** used to visualize #qs data                                            :qs:
+:PROPERTIES:
+:ID:       sdtvslzqsdt
+:END:
+** very similar to #timeline and #memex                      :timeline:memex:
+:PROPERTIES:
+:ID:       vrysmlrttmlnndmmx
+:END:
+I haven't quite figured out the difference as well yet. Likely will merge in a single tool.
+** #hpi provides data for my dashboard                                  :hpi:
+:PROPERTIES:
+:ID:       hpprvdsdtfrmydshbrd
+:END:
+Although in theory you can plug in any Pandas dataframes in it (assuming they fit the schema).
 
-* [#A] motivation
+* [#A] * motivation
 :PROPERTIES:
 :ID:       mtvtn
 :END:
-** TODO group together routines for handling errors, formatting (e.g. holidays), etc
+- same motivation as for [[file:../quantifiedself/qs.org][quantified self]]
+- a 'research' goal: figuring out the patterns and common routines for processing and preparing this data for visualizing.
+
+** [#A] why not use something existing?
 :PROPERTIES:
-:CREATED:  [2020-09-01]
-:ID:       grptgthrrtnsfrhndlngrrrsfrmttngghldystc
+:ID:       whyntssmthngxstng
 :END:
-** TODO [#C] datetimes
+- low-code/no-code 'platforms' I've seen aren't enough to deal with noisy data or novel usecases.
+  - filtering outliers, correcting data, etc., is mipossible in a no-code environment
+  - something like seasonality detection would be impossible without a real programming language
+
+- interoperability: if you want some data source that the platform doesn't support, too bad.
+
+** [#B] figuring out core patterns for manipulating and representing this data
 :PROPERTIES:
-:CREATED:  [2020-10-16]
-:ID:       dttms
+:ID:       fgrngtcrpttrnsfrmnpltngndrprsntngthsdt
 :END:
-- missing dates (e.g. parsing errors)
-- might have timezone. might not have timezone. might be some mix.
-  reminder that the comparator for tz aware and unaware dates fail
-** TODO splitting into cardio and non-cardio
+Many things are very tedious to redo and reinvent from scratch every time
+- #datetime handling
+  - missing dates (e.g. parsing errors)
+  - some data sources hane timezones, some don't.
+    Some are a mixture, which is even worse. E.g. depending on the language you can't sort the dates with mixed timezones.
+- #errors handling
+  Quantified self data is often fuzzy/incomplete etc. If manual inputs are involved, parsing errors are inevitable.
+  While in most software it's reasonable to crash on the first error, this would be very annoying if your dashboard breaks of one broken data point!
+  On the other hand, you don't want to filter out errors either, since you'd never know they were present in the first place.
+
+  So it needs to be something in between, a pattern for propagating errors as far as possible, and handling them gracefully during the visualization phase.
+
+- detecting holidays
+  E.g. for almost all data it makes sense to differentiate/correlate against days off work
+
+- geographical/location data
+
+** [#B] automatically detecting interesting correlations between data
+:PROPERTIES:
+:ID:       tmtcllydtctngntrstngcrrltnsbtwndt
+:END:
+*** TODO [#B] [2019-08-15] wonder if massive dataframe with literally everything could help
+:PROPERTIES:
+:ID:       wndrfmssvdtfrmwthltrllyvrythngcldhlp
+:END:
+*** TODO maybe just go over all series? and then generate all pairwise correlations and sort by correlation coefficient + R^2? some sort of pareto surface?
+:PROPERTIES:
+:ID:       mybjstgvrllsrsndthngnrtllrrltncffcntrsmsrtfprtsrfc
+:END:
+
+** [#B] what I want to figure out:
+:PROPERTIES:
+:ID:       whtwnttfgrt
+:END:
+*** very similar to https://github.com/KrauseFx/FxLifeSheet#questions-to-answer
+:PROPERTIES:
+:ID:       vrysmlrtsgthbcmkrsfxfxlfshtqstnstnswr
+:END:
+*** TODO [#B] are 'sleep phases' a thing (or at least the way they are measured in conventional tackers)? how do they impact my waking up, alertness etc? :sleep:
+:PROPERTIES:
+:CREATED:  [2021-02-04]
+:ID:       rslpphssthngrtlstthwythyrhwdthympctmywkngplrtnsstc
+:END:
+
+*** TODO [#C] [2020-10-27] calculating custom exercise stats
+:PROPERTIES:
+:ID:       clcltngcstmxrcsstts
+:END:
+e.g. I have a few traffic lights on my way that might affect my speed/cadence data, and I might want to filter it out
+
+** [#C] custom/personalized data processing
+:PROPERTIES:
+:ID:       cstmprsnlzddtprcssng
+:END:
+*** TODO [#C] splitting exercise into cardio and non-cardio
 :PROPERTIES:
 :CREATED:  [2020-10-18]
-:ID:       splttngntcrdndnncrd
+:ID:       splttngxrcsntcrdndnncrd
 :END:
-with cardio (at least, endurance styl) there is a somewhat convincing metric -- number of heartbeats, which is basically the same as calories burnt
-with strength training this is something very hard to measure and not sure if makes sense at all?
-* [#A] * inspiration                                            :inspiration:
+- with cardio (at least, endurance styl) there is a somewhat convincing metric -- number of heartbeats, which is basically the same as calories burnt?
+- with strength training this is something very hard to measure and not sure if makes sense at all?
+* [#A] * inspiration
 :PROPERTIES:
 :ID:       nsprtn
 :END:
-** [#B] [2019-01-13] quantified awesome                                  :qs:
+** STRT [#A] [2019-11-24] [[https://github.com/heedy/heedy][heedy/heedy: An Open-Source Platform for Quantified Self & IoT]]
 :PROPERTIES:
-:ID:       qntfdwsm
+:ID:       sgthbcmhdyhdyhdyhdynpnsrcpltfrmfrqntfdslft
 :END:
-http://quantifiedawesome.com/
-https://github.com/sachac/quantified
-*** [2019-04-06] ok, looks pretty clean, but might require some tinkering
+: Heedy is an open-source aggregator built for storage and analysis of your personal data.
+: It provides a powerful plugin system, allowing easy integration with various services, as well as deep extensibility.
+
+
+: Extensible: Even a system with fantastic visualizations and powerful analysis has limited utility.
+: This is because it can only show what the original authors assumed would be useful. Heedy offers a powerful plugin system - plugin writers can add new integrations, plots, or even modify core functionality with a few lines of python or javascript.
+: A registry is planned, so that users can install plugins with the click of a button.
+
+*** [2020-08-23] interesing, automatic jupyter notebook connection??
 :PROPERTIES:
-:ID:       klksprttyclnbtmghtrqrsmtnkrng
+:ID:       ntrsngtmtcjpytrntbkcnnctn
+:END:
+*** [2021-02-06] yeah looks like very much what I want
+:PROPERTIES:
+:ID:       yhlkslkvrymchwhtwnt
 :END:
 
-** [#C] [2018-06-06] Qs dashboard example                                :qs:
+** STRT [#B] [2018-06-06] [[https://qself-dashboard.herokuapp.com][andreilyskov: qs dashboard example]] :qs:
 :PROPERTIES:
-:ID:       qsdshbrdxmpl
+:ID:       sqslfdshbrdhrkppcmndrlyskvqsdshbrdxmpl
 :END:
-https://qself-dashboard.herokuapp.com
+- "so if you want to collaborate feel free to email me"
 *** [2019-04-06] interesting dashboards: spotify, writing and reading. otherwise not that much stuff
 :PROPERTIES:
 :ID:       ntrstngdshbrdssptfywrtngndrdngthrwsntthtmchstff
 :END:
-*** [2020-08-22] ok seems that they use similar architecture to mine https://forum.quantifiedself.com/t/personal-dashboards-for-self-tracking-data/8202/4?u=karlicoss
+*** [2020-08-22] ok seems that they use similar architecture to mine https://forum.quantifiedself.com/t/personal-dashboards-for-self-tracking-data/8202/4
 :PROPERTIES:
-:ID:       ksmsthtthyssmlrrchtctrtmnshbrdsfrslftrckngdtkrlcss
+:ID:       ksmsthtthyssmlrrchtctrtmnprsnldshbrdsfrslftrckngdt
 :END:
 
-** DONE [2019-02-21] Beau Gunderson                                      :qs:
+** STRT [#B] [2020-08-22] [[https://flowdash.co/app/about][Flow Dashboard]]
 :PROPERTIES:
-:ID:       bgndrsn
+:ID:       sflwdshcppbtflwdshbrd
 :END:
-- State "DONE"       from              [2019-04-06]
-https://beaugunderson.com/
-realtime qs... whoa
-*** [2019-04-06] ok, but nothing too exciting apart from projects list design (cv)
+ok, looks kinda slick..
+open source: https://github.com/onejgordon/flow-dashboard
+
+: Public Github commits
+: Google Fit - track any activity durations by keyword
+: Evernote - pull excerpts from specified notebooks
+: Pocket - Sync stored articles & add notes
+: Goodreads - Sync currently reading shelf
+: Track any abstract data via REST API
+*** TODO [2021-02-06] ok, rest api thing is cool, should try connecting it to #hpi :hpi:
 :PROPERTIES:
-:ID:       kbtnthngtxctngprtfrmprjctslstdsgncv
-:END:
-*** [2019-06-29] also nice design and colors
-:PROPERTIES:
-:ID:       lsncdsgnndclrs
+:ID:       krstpthngsclshldtrycnnctngtthp
 :END:
 
-** [#B] [2019-02-21] Buster Benson                              :qs:timeline:
+** STRT [#C] [2019-05-21] [[https://github.com/JakobGM/quelf/blob/master/analysis/report.Rmd][quelf/report.Rmd at master · JakobGM/quelf]]
 :PROPERTIES:
-:ID:       bstrbnsn
+:ID:       sgthbcmjkbgmqlfblbmstrnlymdqlfrprtrmdtmstrjkbgmqlf
 :END:
-http://busterbenson.com
-https://notes.busterbenson.com/life-in-weeks
-pretty cool stuff too..
-*** [2019-04-06] nice matrix that highlights life events, life beliefs etc
+jupyter notebooks
+: Sleep data [sleep as android, sleepcycle]
+: Study hours [toggl]
+: Exercise [runkeeper, strong]
+: Programming [wakatime]
+
+** STRT [#C] [2019-09-22] [[https://github.com/markwk/qs_ledger][markwk/qs_ledger: Quantified Self Personal Data Aggregator and Data Analysis]] :qs:dataliberation:
 :PROPERTIES:
-:ID:       ncmtrxththghlghtslfvntslfblfstc
+:ID:       sgthbcmmrkwkqsldgrmrkwkqsslfprsnldtggrgtrnddtnlyss
+:END:
+interesting, but data exports are not very reusable
+*** [2019-09-28] I guess once I export everything could send a link to that guy?
+:PROPERTIES:
+:ID:       gssncxprtvrythngcldsndlnktthtgy
 :END:
 
-** [#C] [2019-05-21] quelf/report.Rmd at master · JakobGM/quelf
+** STRT [#C] [2020-09-03] https://github.com/KrauseFx/FxLifeSheet
 :PROPERTIES:
-:ID:       qlfrprtrmdtmstrjkbgmqlf
+:ID:       sgthbcmkrsfxfxlfsht
 :END:
-https://github.com/JakobGM/quelf/blob/master/analysis/report.Rmd
-
-** [#D] [2019-01-08] [[https://reddit.com/r/QuantifiedSelf/comments/acxy1v/personal_dashboard/][Personal Dashboard]] /r/QuantifiedSelf
+: the dashboard is currently hard-coded in Google Data Studio
+** TODO [#C] [2020-08-22] some good dashboards   https://forum.quantifiedself.com/t/personal-dashboards-for-self-tracking-data/8202/15
 :PROPERTIES:
-:ID:       srddtcmrqntfdslfcmmntscxyshbrdprsnldshbrdrqntfdslf
-:END:
-:  Hi all,
-:  So I made a dashboard, I'd love to know what you think.
-:  Any other stats you think would be good to collect or things I could change?
-:  Happy to answer questions about it also.
-: https://i.redd.it/ufpm4s9k0o821.png
-*** [2019-04-11] itis not very elaborate though...
-:PROPERTIES:
-:ID:       tsntvrylbrtthgh
-:END:
-** [#B] [2020-08-22] event chart https://forum.quantifiedself.com/t/best-examples-of-quanitified-self-dashboards/4590/9
-:PROPERTIES:
-:ID:       vntchrtsfrmqntfdslfcmtbstxmplsfqntfdslfdshbrds
-:END:
-** [#C] [2020-08-22] ok, looks kinda slick.. https://flowdash.co/app/about
-:PROPERTIES:
-:ID:       klkskndslcksflwdshcppbt
-:END:
-** [#C] [2020-08-22]  https://forum.quantifiedself.com/t/personal-dashboards-for-self-tracking-data/8202/15 some good dashboards
-:PROPERTIES:
-:ID:       sfrmqntfdslfcmtprsnldshbrsfrslftrckngdtsmgddshbrds
+:ID:       smgddshbrdssfrmqntfdslfcmprsnldshbrdsfrslftrckngdt
 :END:
 workouts, weight, sleep, hr
 
-** TODO [#C] Juno's Personal Data Exploratory                        :pkm:qs:
+** TODO [#C] Juno's Personal Data Exploratory  https://exploratory.openhumans.org/notebooks :pkm:qs:
 :PROPERTIES:
 :CREATED:  [2019-12-19]
-:ID:       jnsprsnldtxplrtry
+:ID:       jnsprsnldtxplrtrysxplrtrypnhmnsrgntbks
 :END:
 
-https://exploratory.openhumans.org/notebooks/?source=google%20takeouts&order_by=updated_at
-
-** STRT [#B] [2020-07-02] [[https://github.com/jeffshek/betterself][jeffshek/betterself: Your body's dashboard.]]
+** STRT [#C] [2020-07-02] [[https://github.com/jeffshek/betterself][jeffshek/betterself: Your body's dashboard.]]
 :PROPERTIES:
 :ID:       sgthbcmjffshkbttrslfjffshkbttrslfyrbdysdshbrd
 :END:
+https://github.com/jeffshek/open
 *** [2020-08-24] demo https://app.betterself.io
 :PROPERTIES:
 :ID:       dmsppbttrslf
 :END:
 - table with notes is kinda nice?
   eh. would be nice to have something automatic for dataframes
-** TODO [#C] [2019-12-22] Whereisfelix                                   :qs:
+** STRT [#C] [2019-01-13] [[http://quantifiedawesome.com][Sacha Chua: quantified awesome]] :qs:
 :PROPERTIES:
-:ID:       whrsflx
+:ID:       qntfdwsmcmschchqntfdwsm
 :END:
-https://whereisfelix.today
-** TODO [#B] [2019-11-24] heedy/heedy: An Open-Source Platform for Quantified Self & IoT
+realtime dashboard
+- source: https://github.com/sachac/quantified
+*** [2019-04-06] ok, looks pretty clean, but might require some tinkering
 :PROPERTIES:
-:ID:       hdyhdynpnsrcpltfrmfrqntfdslft
+:ID:       klksprttyclnbtmghtrqrsmtnkrng
 :END:
-https://github.com/heedy/heedy
-*** [2020-08-23] interesing, automatic jupyter notebook connection??
+*** [2021-02-06] also pretty much only time tracking?
 :PROPERTIES:
-:ID:       ntrsngtmtcjpytrntbkcnnctn
+:ID:       lsprttymchnlytmtrckng
 :END:
 
-** TODO [#C] [2019-09-22] markwk/qs_ledger: Quantified Self Personal Data Aggregator and Data Analysis :qs:dataliberation:
-:PROPERTIES:
-:ID:       mrkwkqsldgrqntfdslfprsnldtggrgtrnddtnlyss
-:END:
-https://github.com/markwk/qs_ledger
-interesting, but data exports are not very reusable
-*** [2019-09-28] I guess once I export everything could send a link to that guy?
-:PROPERTIES:
-:ID:       gssncxprtvrythngcldsndlnktthtgy
-:END:
-** TODO [#B] [2020-09-03] https://github.com/KrauseFx/FxLifeSheet
-:PROPERTIES:
-:ID:       sgthbcmkrsfxfxlfsht
-:END:
-** [#C] [2020-04-04] ammanvedi/quantified-self-server: Aggregate data about myself (workouts, blog posts, music listening history) into a graphql API
-:PROPERTIES:
-:ID:       mmnvdqntfdslfsrvrggrgtdtbtsmsclstnnghstryntgrphqlp
-:END:
-https://github.com/ammanvedi/quantified-self-server
-** [2020-09-10] [[https://github.com/quantifiedbob/bob-body-composition-viz][quantifiedbob/bob-body-composition-viz: Jupyter Notebook vizualizing 10+ years of my body composition data]]
+** DONE [#C] [2020-09-10] [[https://github.com/quantifiedbob/bob-body-composition-viz][quantifiedbob/bob-body-composition-viz: Jupyter Notebook vizualizing 10+ years of my body composition data]]
 :PROPERTIES:
 :ID:       sgthbcmqntfdbbbbbdycmpstnbkvzlzngyrsfmybdycmpstndt
 :END:
+ok, but just a plot
 
-** TODO [2020-09-10] [[https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/][Top 50 matplotlib Visualizations - The Master Plots (w/ Full Python Code) | ML+]]
+** STRT [#D] [2020-04-04] [[https://github.com/ammanvedi/quantified-self-server][ammanvedi/quantified-self-server: Aggregate data about myself (workouts, blog posts, music listening history) into a graphql API]]
+:PROPERTIES:
+:ID:       sgthbcmmmnvdqntfdslfsrvrmtsmsclstnnghstryntgrphqlp
+:END:
+: Blog posts (markdown from github)
+: Workout data (Strava API)
+: Recent music (Tidal API)
+: into one graphql API that can be called from my personal site.
+** CANCEL [#D] [2019-04-19] [[http://www.markwk.com/data-processing-time-tracking.html][markwk: How to Create a Time Tracking Dashboard using RescueTime, IFTTT and Google Sheets]] :qs:
+:PROPERTIES:
+:ID:       wwwmrkwkcmdtprcssngtmtrckhbrdsngrsctmftttndgglshts
+:END:
+ok, but too low code for me
+
+** CANCEL [#D] [2019-01-08] [[https://reddit.com/r/QuantifiedSelf/comments/acxy1v/personal_dashboard/][Personal Dashboard]] /r/QuantifiedSelf
+:PROPERTIES:
+:ID:       srddtcmrqntfdslfcmmntscxyshbrdprsnldshbrdrqntfdslf
+:END:
+: https://i.redd.it/ufpm4s9k0o821.png
+*** [2019-04-11] it is not very elaborate though...
+:PROPERTIES:
+:ID:       tsntvrylbrtthgh
+:END:
+
+
+** [#B] minor ideas
+:PROPERTIES:
+:ID:       mnrds
+:END:
+*** TODO [#B] keeping query in the address string is pretty clever... can bookmark and easily restart it! :datasette:
+:PROPERTIES:
+:CREATED:  [2020-11-25]
+:ID:       kpngqrynthddrssstrngsprttyclvrcnbkmrkndslyrstrtt
+:END:
+*** TODO [#C] [2020-08-22] event chart https://forum.quantifiedself.com/t/best-examples-of-quanitified-self-dashboards/4590/9
+:PROPERTIES:
+:ID:       vntchrtsfrmqntfdslfcmtbstxmplsfqntfdslfdshbrds
+:END:
+*** TODO [#C] use tabs within tabs? kinda like in garmin https://connect.garmin.com/modern/activities
+:PROPERTIES:
+:CREATED:  [2020-10-15]
+:ID:       stbswthntbskndlkngrmnscnnctgrmncmmdrnctvts
+:END:
+*** TODO [#C] [2020-10-27] [[https://connect.garmin.com/modern/activity/5736337040][Garmin Connect]]
+:PROPERTIES:
+:ID:       scnnctgrmncmmdrnctvtygrmncnnct
+:END:
+pretty nice clean visualizations, I need to borrow these I guess
+
+** TODO [#C] [2021-01-11] [[https://github.com/yihong0618/running_page][yihong0618/running_page: Make your own running home page]]
+:PROPERTIES:
+:ID:       sgthbcmyhngrnnngpgyhngrnnngpgmkyrwnrnnnghmpg
+:END:
+
+* [#B] * implementation
+:PROPERTIES:
+:ID:       mplmnttn
+:END:
+How to actuallly implement it, which software/tools/libraries to use.
+** TODO [#A] (meta?)goals
+:PROPERTIES:
+:CREATED:  [2020-08-22]
+:ID:       mtgls
+:END:
+- interact with the backend (so it's possible to reload newer data)
+  plotly can do it, bokeh can as well
+  - ideally, autorefresh?
+- remember the state (e.g. various panes on/off etc)
+- be hackable
+  - via js
+  - autoreload the code for faster iteradion?
+- be able to derive new data on the fly? not sure how to achieve this in the browser
+- have a jupyter interface for better interactivity? ideally, 'edit' any tab as a jupyter notebook
+*** TODO keep it modular, I guess
+:PROPERTIES:
+:CREATED:  [2020-08-22]
+:ID:       kptmdlrgss
+:END:
+have a core subpackages and various tabs... not sure how to refactor them out later
+*** [2020-09-01] similarly to HPI, it's more of a demonstration how it can be done. Ideally people would be able to reuse core and build their own dashboards
+:PROPERTIES:
+:ID:       smlrlythptsmrfdmnstrtnhwtbbltrscrndbldthrwndshbrds
+:END:
+** TODO [#A] it's very important to benefit from the existing data science infrastructure as much as possible. jupyter, pandas, etc. :interop:
+:PROPERTIES:
+:CREATED:  [2020-10-01]
+:ID:       tsvrymprtnttbnftfrmthxstnrctrsmchspssbljpytrpndstc
+:END:
+** STRT [#A] [2020-12-10] [[https://pypi.org/project/panel/][panel · PyPI]]
+:PROPERTIES:
+:ID:       spyprgprjctpnlpnlpyp
+:END:
+: A high-level app and dashboarding solution for Python
+
+
+ok, this is super promising:
+: Panel can also be used with the separate Param project to create interactively configurable objects with or without associated visualizations, in a fully declarative way. With this approach, you declare your configurable object using the pure-Python, zero-dependency param library, annotating your code with parameter ranges, documentation, and dependencies between parameters and your code. Using this information, you can make all of your domain-specific code be optionally configurable in a GUI, with optional visual displays and debugging information if you like, all with just a few lines of declarations. With this approach, you don’t ever have to decide whether your code will eventually be used in a notebook, in a GUI app, or completely behind the scenes in batch processing, servers, or reports – the same code can support all of these cases equally well, once you declare the associated parameters and constraints.
+
+** STRT [#A] [2020-12-07] [[https://github.com/oschuett/appmode][oschuett/appmode: A Jupyter extensions that turns notebooks into web applications.]]
+:PROPERTIES:
+:ID:       sgthbcmschttppmdschttppmdnsthttrnsntbksntwbpplctns
+:END:
+: A Jupyter extensions that turns notebooks into web applications.
+*** [2021-02-06] ok, nice, has 'edit app' button which opens jupyter to edit??
+:PROPERTIES:
+:ID:       knchsdtppbttnwhchpnsjpytrtdt
+:END:
+** [#B] [2020-08-23] ok, #jupyter is the ultimate ad-hoc solution. it preserves state, can be exposed as a frontend and allows for python code
+:PROPERTIES:
+:ID:       kjpytrsthltmtdhcsltntprsrpsdsfrntndndllwsfrpythncd
+:END:
+** STRT [#B] bokeh vs plotly dash
+:PROPERTIES:
+:CREATED:  [2020-08-22]
+:ID:       bkhvspltlydsh
+:END:
+there are couple of example apps here
+https://www.sicara.ai/blog/2018-01-30-bokeh-dash-best-dashboard-framework-python
+
+bokeh
+- seems snappier?
+
+plotly:
+- possibly better html elements support?
+*** [2020-09-03] compromise: keep it as framework independent and decoupled as possible. Support both frameworks!
+:PROPERTIES:
+:ID:       cmprmskptsfrmwrkndpndntndcpldspssblspprtbthfrmwrks
+:END:
+** STRT [#B] basically have a core library that's imported in all notebooks. move stuff to core as long as possible, but allow quick button to mess with the data in notebook :toblog:
+:PROPERTIES:
+:CREATED:  [2020-08-24]
+:ID:       bscllyhvcrlbrrythtsmprtdnlwqckbttntmsswththdtnntbk
+:END:
+** TODO [#B] try jupyterlab
+:PROPERTIES:
+:CREATED:  [2020-11-06]
+:ID:       tryjpytrlb
+:END:
+** TODO [#B] I think dashboard needs to preserve state somehow, it's annoying to edit code every time.. wonder if dash supports it?
+:PROPERTIES:
+:CREATED:  [2020-07-28]
+:ID:       thnkdshbrdndstprsrvsttsmhtdtcdvrytmwndrfdshspprtst
+:END:
+** TODO [#C] use multiprocessing...
+:PROPERTIES:
+:CREATED:  [2019-07-24]
+:ID:       smltprcssng
+:END:
+pretty sure pandas frames can be easily serialised?
+** TODO [#C] [2020-09-10] [[https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/][Top 50 matplotlib Visualizations - The Master Plots (w/ Full Python Code) | ML+]]
 :PROPERTIES:
 :ID:       swwwmchnlrnngplscmpltstpmnsthmstrpltswfllpythncdml
 :END:
@@ -187,40 +394,17 @@ ok, this is pretty intersting
 re: autocorrelation -- what was up with the 'blue region', significance thing??
 also good: Seasonal Plot
 would be initersting to quickly toggle it in dashboard?
-** TODO [#C] use tabs within tabs? kinda like in garmin
+** TODO [#C] grafana could simply be one of the interfaces
 :PROPERTIES:
-:CREATED:  [2020-10-15]
-:ID:       stbswthntbskndlkngrmn
+:CREATED:  [2020-08-25]
+:ID:       grfncldsmplybnfthntrfcs
 :END:
-https://connect.garmin.com/modern/activities
-
-
-** [2020-10-27] [[https://connect.garmin.com/modern/activity/5736337040][Garmin Connect]]
-:PROPERTIES:
-:ID:       scnnctgrmncmmdrnctvtygrmncnnct
-:END:
-pretty nice clean visualizations, I need to borrow these I guess
-** TODO [#B] keeping query in the address string is pretty clever... can bookmark and easily restart it! :datasette:inspiration:
-:PROPERTIES:
-:CREATED:  [2020-11-25]
-:ID:       kpngqrynthddrssstrngsprttyclvrcnbkmrkndslyrstrtt
-:END:
-** [#D] [2019-04-19] How to Create a Time Tracking Dashboard using RescueTime, IFTTT and Google Sheets - Minding the Borderlands :inspiration:qs:
-:PROPERTIES:
-:ID:       hwtcrttmtrckngdshbrdsngrstndgglshtsmndngthbrdrlnds
-:END:
-http://www.markwk.com/data-processing-time-tracking.html
-
-** [#B] [2020-01-08] samsquire/ideas: a record of ideas           :dashboard:
-:PROPERTIES:
-:ID:       smsqrdsrcrdfds
-:END:
-https://github.com/samsquire/ideas
-: Life engine is a dashboard that attempts to collect information about your life and display relevant data on a single screen.
 * [#B] * sleep dashboard/experiments                                  :sleep:
 :PROPERTIES:
 :ID:       slpdshbrdxprmnts
 :END:
+Sleep is one of the biggest things I wanna figure out, and I have quite a few ideas of what to test.
+
 ** TODO [#B] Maybe run pca for my sleep data?                   :sleep:qs:ml:
 :PROPERTIES:
 :CREATED:  [2019-10-20]
@@ -502,227 +686,49 @@ nice, pretty similar to my findings?
 :ID:       crrltdrmswthrmdptc
 :END:
 
-* [#C] * patterns
+** TODO [#B] wtf... without seasons it seems to correlate less??      :sleep:
 :PROPERTIES:
-:ID:       pttrns
+:CREATED:  [2020-10-23]
+:ID:       wtfwthtssnstsmstcrrltlss
 :END:
-** STRT [#B] Always plot isolated metrics (temp, hr, etc) -- good for debugging :qs:
+** TODO [#C] negative correlation of coverage with temperature is pretty weird :emfit:
 :PROPERTIES:
-:CREATED:  [2020-06-26]
-:ID:       lwyspltsltdmtrcstmphrtcgdfrdbggng
+:CREATED:  [2020-10-11]
+:ID:       ngtvcrrltnfcvrgwthtmprtrsprttywrd
 :END:
-*** [2020-09-03] also make sure it's easy to do
+** TODO [#C] Compare fitbit                                           :hr:qs:
 :PROPERTIES:
-:ID:       lsmksrtssytd
-:END:
-
-* TODO [#A] come up with a better name? just in case of pypi release...
-:PROPERTIES:
-:CREATED:  [2020-08-22]
-:ID:       cmpwthbttrnmjstncsfpyprls
-:END:
-* TODO [#C] links into food dashboards.. I guess I need anchors.    :nutrino:
-:PROPERTIES:
-:ID:       lnksntfddshbrdsgssndnchrs
-:END:
-* STRT [#B] how to detect temporal correlation?                    :study:qs:
-:PROPERTIES:
-:CREATED:  [2018-02-28]
-:ID:       hwtdtcttmprlcrrltn
-:END:
-** [2020-09-01] ok, this lag thing in bokeh could work
-:PROPERTIES:
-:ID:       kthslgthngnbkhcldwrk
+:CREATED:  [2017-12-21]
+:ID:       cmprftbt
 :END:
 
-* STRT [#B] need to try different date shifts to see it's not correlated
-:PROPERTIES:
-:CREATED:  [2019-04-09]
-:ID:       ndttrydffrntdtshftststsntcrrltd
-:END:
-* [#B] [2019-04-19] qs_ledger/example_correlation_explorer_with_plotly.py at master · markwk/qs_ledger
-:PROPERTIES:
-:ID:       qsldgrxmplcrrltnxplrrwthpltlypytmstrmrkwkqsldgr
-:END:
-https://github.com/markwk/qs_ledger/blob/master/example_correlation_explorer_with_plotly.py
-plotly dash regression example
-* TODO [#B] labels: need to display weekday (also on HR nodes?)
-:PROPERTIES:
-:CREATED:  [2019-11-23]
-:ID:       lblsndtdsplywkdylsnhrnds
-:END:
-* STRT [#C] would be nice to display source?                          :blood:
-:PROPERTIES:
-:CREATED:  [2020-08-22]
-:ID:       wldbnctdsplysrc
-:END:
-* TODO [#B] [2019-10-15] [[https://reddit.com/r/Biohackers/comments/di60ub/why_you_should_continuously_track_your_energy/][Why you should continuously track your energy level and what I've learned from it.]] /r/Biohackers :qs:
-:PROPERTIES:
-:ID:       srddtcmrbhckrscmmntsdbwhyylvlndwhtvlrndfrmtrbhckrs
-:END:
-** [2019-10-18] about tracker matching subjective score
-:PROPERTIES:
-:ID:       bttrckrmtchngsbjctvscr
-:END:
-
-* STRT [#B] def need to measure decay to 60 to get more data... :qs:hr:toblog:
-:PROPERTIES:
-:CREATED:  [2019-08-16]
-:ID:       dfndtmsrdcyttgtmrdt
-:END:
-* STRT [#B] [2019-12-27] Getting started — Datasette documentation      :hpi:
-:PROPERTIES:
-:ID:       gttngstrtddtsttdcmnttn
-:END:
-https://datasette.readthedocs.io/en/stable/getting_started.html#glitch
-: Try Datasette without installing anything using Glitch
-: Glitch is a free online tool for building web apps directly from your web browser. You can use Glitch to try out Datasette without needing to install any software on your own computer.
-* STRT [#B] process google location and guess walks from it     :exercise:qs:
-:PROPERTIES:
-:CREATED:  [2020-08-01]
-:ID:       prcssggllctnndgsswlksfrmt
-:END:
-* TODO [#B] (meta?)goals                                         :motivation:
-:PROPERTIES:
-:CREATED:  [2020-08-22]
-:ID:       mtgls
-:END:
-- interact with the backend (so it's possible to reload newer data)
-  plotly can do it, bokeh can as well
-  - ideally, autorefresh?
-- remember the state (e.g. various panes on/off etc)
-- be hackable
-  - via js
-  - autoreload the code for faster iteradion?
-- be able to derive new data on the fly? not sure how to achieve this in the browser
-- have a jupyter interface for better interactivity? ideally, 'edit' any tab as a jupyter notebook
-** TODO keep it modular, I guess
-:PROPERTIES:
-:CREATED:  [2020-08-22]
-:ID:       kptmdlrgss
-:END:
-have a core subpackages and various tabs... not sure how to refactor them out later
-** [2020-09-01] similarly to HPI, it's more of a demonstration how it can be done. Ideally people would be able to reuse core and build their own dashboards
-:PROPERTIES:
-:ID:       smlrlythptsmrfdmnstrtnhwtbbltrscrndbldthrwndshbrds
-:END:
-* STRT [#B] wonder if it's possible to output errors in dashboard... I guess make them defensive and display :motivation:
-:PROPERTIES:
-:CREATED:  [2019-04-07]
-:ID:       wndrftspssblttptrrrsndshbrdgssmkthmdfnsvnddsply
-:END:
-* TODO [#B] ok, jupyter is the ultimate ad-hoc solution. it preserves state, can be exposed as a frontend and allows for python code
-:PROPERTIES:
-:CREATED:  [2020-08-23]
-:ID:       kjpytrsthltmtdhcsltntprsrpsdsfrntndndllwsfrpythncd
-:END:
-* TODO [#B] indicate how recent datapoints are by color? (in the correlations)
-:PROPERTIES:
-:CREATED:  [2019-04-09]
-:ID:       ndcthwrcntdtpntsrbyclrnthcrrltns
-:END:
-* TODO [#B] src in volume
-:PROPERTIES:
-:CREATED:  [2019-04-12]
-:ID:       srcnvlm
-:END:
-* TODO [#B] links to event sources (e.g. emfit etc)
-:PROPERTIES:
-:CREATED:  [2019-07-20]
-:ID:       lnkstvntsrcsgmfttc
-:END:
-** [2020-09-20] maybe could be automatic/agnostic? add to cdf check?
-:PROPERTIES:
-:ID:       mybcldbtmtcgnstcddtcdfchck
-:END:
-* TODO [#B] restrict datapoints 'by experiment'? same way it's done with date sliders?
-:PROPERTIES:
-:CREATED:  [2019-07-24]
-:ID:       rstrctdtpntsbyxprmntsmwytsdnwthdtsldrs
-:END:
-* TODO [#A] use dynamic sliders for different regression windows
-:PROPERTIES:
-:CREATED:  [2019-07-30]
-:ID:       sdynmcsldrsfrdffrntrgrssnwndws
-:END:
-* TODO [#B] not sure what mavg is doing. e.g. HR plots of specific exercise -- if I didn't exercise during the past month mavg for 14 days should just take value of my last exercise. right??
-:PROPERTIES:
-:CREATED:  [2019-08-15]
-:ID:       ntsrwhtmvgsdngghrpltsfspcshldjsttkvlfmylstxrcsrght
-:END:
-** [2020-09-03] need to test it, just to double check
-:PROPERTIES:
-:ID:       ndttsttjsttdblchck
-:END:
-
-* TODO [#B] I think dashboard needs to preserve state somehow, it's annoying to edit code every time.. wonder if dash supports it?
-:PROPERTIES:
-:CREATED:  [2020-07-28]
-:ID:       thnkdshbrdndstprsrvsttsmhtdtcdvrytmwndrfdshspprtst
-:END:
-* TODO [#B] exercise provider: trust more notes which got HR data        :qs:
-:PROPERTIES:
-:CREATED:  [2018-05-11]
-:ID:       xrcsprvdrtrstmrntswhchgthrdt
-:END:
-
-* STRT [#B] For sleep, probably a good idea to log room temperature :sleep:qs:
+** STRT [#B] For sleep, probably a good idea to log room temperature :sleep:qs:
 :PROPERTIES:
 :CREATED:  [2017-11-13]
 :ID:       frslpprbblygddtlgrmtmprtr
 :END:
-* STRT [#B] bokeh vs plotly dash
+** TODO [#B] hmm, maybe I need to remove seasonality from the sleep first and then search other correlations?? not sure..
 :PROPERTIES:
-:CREATED:  [2020-08-22]
-:ID:       bkhvspltlydsh
+:CREATED:  [2020-10-22]
+:ID:       hmmmybndtrmvssnltyfrmthslstndthnsrchthrcrrltnsntsr
 :END:
-there are couple of example apps here
-https://www.sicara.ai/blog/2018-01-30-bokeh-dash-best-dashboard-framework-python
-
-bokeh
-- seems snappier?
-
-plotly:
-- possibly better html elements support?
-** [2020-09-03] compromise: keep it as framework independent and decoupled as possible. Support both frameworks!
+** TODO [#B] ugh. today is gonna be confusing                      :qs:sleep:
 :PROPERTIES:
-:ID:       cmprmskptsfrmwrkndpndntndcpldspssblspprtbthfrmwrks
+:CREATED:  [2020-10-09]
+:ID:       ghtdysgnnbcnfsng
 :END:
-* STRT [#B] basically have a core library that's imported in all notebooks. move stuff to core as long as possible, but allow quick button to mess with the data in notebook :toblog:
+exercise will probably have a lot of impact... but then hr is elevated because of the pizza
+*** [2020-10-18] maybe really need to try two-parameter regression?
 :PROPERTIES:
-:CREATED:  [2020-08-24]
-:ID:       bscllyhvcrlbrrythtsmprtdnlwqckbttntmsswththdtnntbk
+:ID:       mybrllyndttrytwprmtrrgrssn
 :END:
-* TODO [#B] Detect walks and runs from google data and plot them. Mark velocity with colours. Could also do 'walking intervals' (e.g. if was in a shop inbetween) :exercise:
+*** [2020-10-18] take into the account past pizza orders? this is gonna have systematic impact on my sundays?
 :PROPERTIES:
-:CREATED:  [2020-08-23]
-:ID:       dtctwlksndrnsfrmggldtndpldwlkngntrvlsgfwsnshpnbtwn
+:ID:       tkntthccntpstpzzrdrsthssgnnhvsystmtcmpctnmysndys
 :END:
-
-* TODO [#B] [2019-04-11] Visualization — pandas 0.24.2 documentation    :viz:
+* [#B] * exercise dashboard/experiments
 :PROPERTIES:
-:ID:       vslztnpndsdcmnttn
-:END:
-https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html#visualization-autocorrelation
-
-* TODO [#B] automatically detect interesting correlations? wonder if massive dataframe with literally everything could help :motivation:
-:PROPERTIES:
-:CREATED:  [2019-08-15]
-:ID:       tmtcllydtctntrstngcrrltnsfrmwthltrllyvrythngcldhlp
-:END:
-** [2020-09-06] write that ideally it would be one of the goals? wonder how can I approach this.
-:PROPERTIES:
-:ID:       wrtthtdllytwldbnfthglswndrhwcnpprchths
-:END:
-maybe just go over all series? and then generate all pairwise correlations and sort by correlation coefficient + R^2? some sort of pareto surface?
-* TODO [#B] would be cool to scale arbitrarily vertically and horizontally, the whole plot :bokeh:
-:PROPERTIES:
-:CREATED:  [2020-09-10]
-:ID:       wldbcltsclrbtrrlyvrtcllyndhrzntllythwhlplt
-:END:
-* [#B] exercise dashboard
-:PROPERTIES:
-:ID:       xrcsdshbrd
+:ID:       xrcsdshbrdxprmnts
 :END:
 ** TODO [#B] running dashboard -- custom dataframe + add distance + merge with manual notes in a similar way
 :PROPERTIES:
@@ -745,107 +751,349 @@ maybe the data is sifted through the elliptical/running/spinning modules and wha
 :CREATED:  [2019-09-25]
 :ID:       shwdstncnspdhrplt
 :END:
+** STRT [#B] def need to measure decay to 60 to get more data... :qs:hr:toblog:
+:PROPERTIES:
+:CREATED:  [2019-08-16]
+:ID:       dfndtmsrdcyttgtmrdt
+:END:
+** STRT [#B] process google location and guess walks from it    :exercise:qs:
+:PROPERTIES:
+:CREATED:  [2020-08-01]
+:ID:       prcssggllctnndgsswlksfrmt
+:END:
+** TODO [#B] Detect walks and runs from google data and plot them. Mark velocity with colours. Could also do 'walking intervals' (e.g. if was in a shop inbetween) :exercise:
+:PROPERTIES:
+:CREATED:  [2020-08-23]
+:ID:       dtctwlksndrnsfrmggldtndpldwlkngntrvlsgfwsnshpnbtwn
+:END:
 
-* TODO [#B] [2020-09-16] [[https://forum.quantifiedself.com/t/building-a-data-dashboard/449][Building a Data Dashboard - Quantified Self / Apps & Tools - Quantified Self Forum]]
+** TODO [#C] calculate some sort of 'integral' heart rate and also score for interval trainings? :exercise:
 :PROPERTIES:
-:ID:       sfrmqntfdslfcmtbldngdtdshqntfdslfppstlsqntfdslffrm
+:CREATED:  [2019-04-09]
+:ID:       clcltsmsrtfntgrlhrtrtndlsscrfrntrvltrnngs
 :END:
-* TODO [#B] [2020-08-23] [[https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=hvplot&sort=byPopularity&type=all][All | Search powered by Algolia]]
+*** [2020-09-06] eh? maybe I wanted to break down my interval trainings per activity bursts?
 :PROPERTIES:
-:ID:       shnlglcmdtrngllpgprfxtrqrplrtytypllllsrchpwrdbylgl
+:ID:       hmybwntdtbrkdwnmyntrvltrnngsprctvtybrsts
 :END:
-: Panel, hvPlot, HoloViews, GeoViews, Datashader, Param, Colorcet -- all working together to make Python data visualization easier and more powerful.
-* TODO [#B] would be nice to zoom individual plots..
+** STRT [#C] integrate elliptical workouts? Could plot workout specific things and make them easy to compare
+:PROPERTIES:
+:CREATED:  [2019-07-23]
+:ID:       ntgrtllptclwrktscldpltwrktspcfcthngsndmkthmsytcmpr
+:END:
+** STRT [#C] filter out specific exercises and plot separately to see the progress :exercise:
+:PROPERTIES:
+:CREATED:  [2020-10-13]
+:ID:       fltrtspcfcxrcssndpltsprtlytsthprgrss
+:END:
+** TODO [#C] go through the most common exercise (past) sessions and check them :exercise:
+:PROPERTIES:
+:CREATED:  [2020-10-15]
+:ID:       gthrghthmstcmmnxrcspstsssnsndchckthm
+:END:
+*** [2021-02-06] I guess it's a more general pattern for reviewing data too
+:PROPERTIES:
+:ID:       gsstsmrgnrlpttrnfrrvwngdtt
+:END:
+** TODO [#B] exercise provider: trust more notes which got HR data       :qs:
+:PROPERTIES:
+:CREATED:  [2018-05-11]
+:ID:       xrcsprvdrtrstmrntswhchgthrdt
+:END:
+
+** STRT [#C] Look at hr data, its almost 180 all the time. Is it because i was doing cardio less? :qs:health:exercise:
+:PROPERTIES:
+:CREATED:  [2019-01-05]
+:ID:       lkthrdttslmstllthtmstbcswsdngcrdlss
+:END:
+
+* [#C] * patterns
+:PROPERTIES:
+:ID:       pttrns
+:END:
+as in, patterns of working with data, best practices for visualizing things etc
+
+** TODO [#A] use dynamic sliders for different regression windows
+:PROPERTIES:
+:CREATED:  [2019-07-30]
+:ID:       sdynmcsldrsfrdffrntrgrssnwndws
+:END:
+** STRT [#B] Always plot isolated metrics (temp, hr, etc) -- good for debugging :qs:
+:PROPERTIES:
+:CREATED:  [2020-06-26]
+:ID:       lwyspltsltdmtrcstmphrtcgdfrdbggng
+:END:
+*** [2020-09-03] also make sure it's easy to do
+:PROPERTIES:
+:ID:       lsmksrtssytd
+:END:
+
+** TODO [#B] restrict datapoints 'by experiment'? same way it's done with date sliders?
+:PROPERTIES:
+:CREATED:  [2019-07-24]
+:ID:       rstrctdtpntsbyxprmntsmwytsdnwthdtsldrs
+:END:
+** STRT [#B] need to try different date shifts to see it's not correlated
+:PROPERTIES:
+:CREATED:  [2019-04-09]
+:ID:       ndttrydffrntdtshftststsntcrrltd
+:END:
+** TODO [#B] labels: need to display weekday (also on HR nodes?)
+:PROPERTIES:
+:CREATED:  [2019-11-23]
+:ID:       lblsndtdsplywkdylsnhrnds
+:END:
+
+** TODO [#B] would be nice to zoom individual plots..
 :PROPERTIES:
 :CREATED:  [2020-10-09]
 :ID:       wldbnctzmndvdlplts
 :END:
-* TODO [#B] many hrv points are 0. wtf???                             :sleep:
+** [#B] * error hanling                                              :errors:
 :PROPERTIES:
-:CREATED:  [2020-10-12]
-:ID:       mnyhrvpntsrwtf
+:ID:       rrrhnlng
 :END:
-* TODO [#B] hrv is 0 on some days... need to refresh the data do double check? :sleep:
+*** TODO [#C] about importance of error handling when working with personal data :toblog:
 :PROPERTIES:
-:CREATED:  [2020-10-08]
-:ID:       hrvsnsmdysndtrfrshthdtddblchck
+:CREATED:  [2020-09-14]
+:ID:       btmprtncfrrrhndlngwhnwrkngwthprsnldt
 :END:
-* TODO [#B] [2020-10-11] [[https://docs.bokeh.org/en/latest/docs/user_guide/webgl.html][Accelerating with WebGL — Bokeh 2.2.1 Documentation]]
+data is inherently messy and error prone
+it's sensible to be defensive and try to relax as much as possible (unless you have time to literally tend to them immediately)
+on the other hand, you want to make sure you are aware about the issues in data
+example: running dashboard -- has a warning about 0 speed
+see screenshot at the same time (fix JS table first so duration & start_time have proper rendering)
+you can instantly see it on the plot (yellow markers). if you hover, you'll see that the error is about zero speed (and you can also see it in the table)
+in the table, you can clearly spot that the problem is the treadmill -- indeed, treadmill wasn't connected to the phone in any way, and I'm stationary, so endomondo has no idea how much I moved
+however, I did log the distance (along with the training regime) manually
+by combining the HR data (recorded by endomondo) and manual data we get the complete representation
+(if I add visual highlight on the table, that would be fucking amazing)
+**** [2020-09-14] maybe post on QS forum??
 :PROPERTIES:
-:ID:       sdcsbkhrgnltstdcssrgdwbgllcclrtngwthwbglbkhdcmnttn
+:ID:       mybpstnqsfrm
 :END:
-** [2020-10-11] [[https://docs.bokeh.org/en/latest/docs/user_guide/webgl.html][Accelerating with WebGL — Bokeh 2.2.1 Documentation]]
+*** TODO [#C] error handling -- demonstrate on 'multiple sleeps'
 :PROPERTIES:
-:ID:       sdcsbkhrgnltstdcssrgdwbgllcclrtngwthwbglbkhdcmnttn
+:CREATED:  [2020-09-12]
+:ID:       rrrhndlngdmnstrtnmltplslps
 :END:
-: Only a subset of Bokeh’s objects are capable of rendering in WebGL. Currently supported are the circle and line glyphs, and many markers: asterisk, circle, square, diamond, triangle, inverted_triangle, cross, circle_cross, square_cross, diamond_cross, x, square_x, and circle_x. You can safely combine multiple glyphs in a plot, even if some are rendered in WebGL, and some are not.
-** [2020-10-11] hmm, didn't seem to have any effect??
+*** TODO [#C] demo: running speed/hr plot is a good candidate
 :PROPERTIES:
-:ID:       hmmddntsmthvnyffct
+:CREATED:  [2020-09-16]
+:ID:       dmrnnngspdhrpltsgdcnddt
 :END:
-* TODO [#C] [2019-04-09] Short- and long-term effects of a single bout of exercise on heart rate variability: comparison between constant and interval training exercises. - PubMed - NCBI :hrv:
+- show both types of errors (zero speed/no HR)
+- need to disable tooltip on avg plot
+- would be nice to highlight the point under the tooltip?
+*** TODO [#C] demo: unmark one of cardio/non-cardio and demonstrate warnings
 :PROPERTIES:
-:ID:       shrtndlngtrmffctsfsnglbtftndntrvltrnngxrcsspbmdncb
+:CREATED:  [2020-09-17]
+:ID:       dmnmrknfcrdnncrdnddmnstrtwrnngs
 :END:
-https://www.ncbi.nlm.nih.gov/pubmed/15461995
-: R-R intervals, TP, and HF/TP were significantly decreased while LF/TP and LF/HF were significantly increased during the early recovery, when compared with control values. This could be a response to the significant decrease in SAP and DAP at this time. Twenty-four and 48 h after the end of the exercise, HRV parameters were at the same levels as before exercises in the supine posture, but a persistent tachycardia continued to be observed in the upright posture, together with reduced TP values, showing that cardiovascular functions were still disturbed. The short-term HRV recovery seemed dependent on the type of exercise, contrary to the long-term recovery.
-* TODO [#C] [2019-08-17] Plotting with categorical data — seaborn 0.9.0 documentation :viz:
+*** TODO [#C] document error handling pattern with 'error'    :errors:toblog:
 :PROPERTIES:
-:ID:       plttngwthctgrcldtsbrndcmnttn
+:CREATED:  [2020-09-07]
+:ID:       dcmntrrrhndlngpttrnwthrrr
 :END:
-https://seaborn.pydata.org/tutorial/categorical.html#categorical-tutorial
-: Boxplots
-: The first is the familiar boxplot(). This kind of plot shows the three quartile values of the distribution along with extreme values. The “whiskers” extend to points that lie within 1.5 IQRs of the lower and upper quartile, and then observations that fall outside this range are displayed independently. This means that each value in the boxplot corresponds to an actual observation in the data.
-** [2020-09-02] not sure if boxplots in particular are usefult to me?
+** TODO [#B] for correlations, there is overview + zoomed in individual plots showing all the errors, outliers, etc
 :PROPERTIES:
-:ID:       ntsrfbxpltsnprtclrrsflttm
+:CREATED:  [2020-10-18]
+:ID:       frcrrltnsthrsvrvwzmdnndvdlpltsshwngllthrrrstlrstc
 :END:
-* TODO [#C] display photos as an optional layer along with the map?
+** TODO [#B] Each rolling plot can also handle seasonality, residuals etc?
 :PROPERTIES:
-:CREATED:  [2020-08-24]
-:ID:       dsplyphtssnptnllyrlngwththmp
+:CREATED:  [2020-10-23]
+:ID:       chrllngpltcnlshndlssnltyrsdlstc
 :END:
-** [2020-09-06] just need to integrate dashboard with photomap
+
+** TODO [#B] would be cool to scale arbitrarily vertically and horizontally, the whole plot
 :PROPERTIES:
-:ID:       jstndtntgrtdshbrdwthphtmp
+:CREATED:  [2020-09-10]
+:ID:       wldbcltsclrbtrrlyvrtcllyndhrzntllythwhlplt
 :END:
-* STRT [#C] temperature -- probably, seasonality?                        :qs:
+** TODO [#B] indicate how recent datapoints are by color? (in the correlations)
+:PROPERTIES:
+:CREATED:  [2019-04-09]
+:ID:       ndcthwrcntdtpntsrbyclrnthcrrltns
+:END:
+** TODO [#C] corr plot: include influence/leverage etc
+:PROPERTIES:
+:CREATED:  [2020-10-10]
+:ID:       crrpltncldnflnclvrgtc
+:END:
+** STRT [#C] would be nice to display data source?
+:PROPERTIES:
+:CREATED:  [2020-08-22]
+:ID:       wldbnctdsplydtsrc
+:END:
+e.g. for blood dashboard
+*** TODO [#B] [2019-07-20] links to event sources (e.g. emfit etc)
+:PROPERTIES:
+:ID:       lnkstvntsrcsgmfttc
+:END:
+**** [2020-09-20] maybe could be automatic/agnostic? add to cdf check?
+:PROPERTIES:
+:ID:       mybcldbtmtcgnstcddtcdfchck
+:END:
+*** TODO [#C] [2019-04-12] src in exercise volume
+:PROPERTIES:
+:ID:       srcnxrcsvlm
+:END:
+
+*** TODO [#C] add src for jawbone/emfit sleep
+:PROPERTIES:
+:CREATED:  [2020-10-21]
+:ID:       ddsrcfrjwbnmftslp
+:END:
+** TODO [#C] link to original event from point? or just 'context'
+:PROPERTIES:
+:CREATED:  [2019-08-25]
+:ID:       lnktrgnlvntfrmpntrjstcntxt
+:END:
+e.g. endomondo
+** TODO [#C] vertical line tooltip sucks... probably need a single point instead
+:PROPERTIES:
+:CREATED:  [2020-10-24]
+:ID:       vrtcllntltpscksprbblyndsnglpntnstd
+:END:
+** TODO [#C] definitely need to take seasonality (e.g. weekly) into the account, e.g. for multi regression
+:PROPERTIES:
+:CREATED:  [2020-10-19]
+:ID:       dfntlyndttkssnltygwklyntthccntgfrmltrgrssn
+:END:
+** TODO [#C] I guess need seasonality analisys for each metric? maybe have it on a separate pane, e.g. 'debug/insights'? would be nice to do it for all dataframes?
+:PROPERTIES:
+:CREATED:  [2020-10-23]
+:ID:       gssndssnltynlsysfrchmtrcmnsghtswldbnctdtfrlldtfrms
+:END:
+** TODO [#C] would be nice to include the org file link to the context... then could use mimemacs for it :promnesia:
+:PROPERTIES:
+:CREATED:  [2020-10-16]
+:ID:       wldbnctncldthrgfllnktthcntxtthncldsmmmcsfrt
+:END:
+* [#C] * ideas for more dashboards
+:PROPERTIES:
+:ID:       dsfrmrdshbrds
+:END:
+** TODO [#B] rescuetime summarizes my sleep intervals pretty well? could at least have upper bound on sleep during holidays/when not using emfit? :rescuetime:hpi:
+:PROPERTIES:
+:CREATED:  [2020-09-18]
+:ID:       rsctmsmmrzsmyslpntrvlsprtdnslpdrnghldyswhnntsngmft
+:END:
+** STRT [#C] temperature -- probably, seasonality?                       :qs:
 :PROPERTIES:
 :CREATED:  [2019-08-04]
 :ID:       tmprtrprbblyssnlty
 :END:
-* STRT [#C] thinking about making it public                             :hpi:
+** TODO [#C] display photos as an optional layer along with the map?
 :PROPERTIES:
-:CREATED:  [2020-05-13]
-:ID:       thnkngbtmkngtpblc
+:CREATED:  [2020-08-24]
+:ID:       dsplyphtssnptnllyrlngwththmp
 :END:
-where to run it? it's gotta be sufficiently dynamic?
-run from google cloud? suck in the data once? or refresh continuously?
-maybe run the original data retrieval? not sure
-* TODO [#C] add more dashboards to web?
+*** [2020-09-06] just need to integrate dashboard with photomap
 :PROPERTIES:
-:CREATED:  [2018-10-30]
-:ID:       ddmrdshbrdstwb
+:ID:       jstndtntgrtdshbrdwthphtmp
 :END:
-** TODO [2019-04-10] could add to dashboard?
+** TODO [#C] links into food dashboards.. I guess I need anchors.   :nutrino:
 :PROPERTIES:
-:ID:       cldddtdshbrd
+:ID:       lnksntfddshbrdsgssndnchrs
 :END:
-* TODO [#C] 'Other' workouts i'm using for HR decay  -- shit, I think I lost hr here after 10th minute.  Could detect it automatically I guess? :qs:hr:
+** TODO [#C] favsmap should be part of dashboard... also could be the first bit in my public dashboard?
 :PROPERTIES:
-:CREATED:  [2019-08-18]
-:ID:       thrwrktsmsngfrhrdcyshtthntrthmntclddtctttmtcllygss
+:CREATED:  [2020-08-02]
+:ID:       fvsmpshldbprtfdshbrdlscldbthfrstbtnmypblcdshbrd
+:END:
+merge google and foursquare, display google labels on top of osm mapS
+rationale: various tools for working with maps in one place
+
+** TODO [#C] shit. if I had food stats that would be just amazing
+:PROPERTIES:
+:CREATED:  [2019-04-09]
+:ID:       shtfhdfdsttsthtwldbjstmzng
+:END:
+** TODO [#D] takeout -- contains list of places                 :takeout:hpi:
+:PROPERTIES:
+:CREATED:  [2020-09-01]
+:ID:       tktcntnslstfplcs
+:END:
+basically could merge with 4sq? and custom addresses
+** TODO [#D] money? not sure
+:PROPERTIES:
+:CREATED:  [2020-08-22]
+:ID:       mnyntsr
+:END:
+** TODO [#D] quantified mind? already have plots
+:PROPERTIES:
+:CREATED:  [2019-08-20]
+:ID:       qntfdmndlrdyhvplts
+:END:
+** TODO [#D] Add check-ins to favsmap
+:PROPERTIES:
+:CREATED:  [2019-11-28]
+:ID:       ddchcknstfvsmp
 :END:
 
-* TODO [#C] link to endomondo event from point? or just 'context'
+* [#C] * ideas for experiments
 :PROPERTIES:
-:CREATED:  [2019-08-25]
-:ID:       lnktndmndvntfrmpntrjstcntxt
+:ID:       dsfrxprmnts
 :END:
-* [#C] plotly dash
+** TODO [#B] correlate number of commits/lines vs sleep?
+:PROPERTIES:
+:CREATED:  [2020-10-21]
+:ID:       crrltnmbrfcmmtslnsvsslp
+:END:
+** TODO [#B] glucose and ketone measurements vs food?
+:PROPERTIES:
+:CREATED:  [2019-04-09]
+:ID:       glcsndktnmsrmntsvsfd
+:END:
+*** [2020-09-06] probably not enough data...
+:PROPERTIES:
+:ID:       prbblyntnghdt
+:END:
+** TODO [#C] correlate temp sensor with hiking?       :toblog:qs:lifelogging:
+:PROPERTIES:
+:CREATED:  [2019-10-30]
+:ID:       crrlttmpsnsrwthhkng
+:END:
+** TODO [#C] hmm, maybe need to try running/eating pizza on a different day? to make sure the seasonality is not due to running? :exercise:qs:sleep:
+:PROPERTIES:
+:CREATED:  [2020-10-24]
+:ID:       hmmmybndttryrnnngtngpzznddytmksrthssnltysntdtrnnng
+:END:
+*** [2020-10-24] or could check seasonality for months that didn't involve running?
+:PROPERTIES:
+:ID:       rcldchckssnltyfrmnthsthtddntnvlvrnnng
+:END:
+** TODO [#C] volume vs avg temp is an interesting one to demonstrate the correlation that shouldn't exist
+:PROPERTIES:
+:CREATED:  [2020-10-19]
+:ID:       vlmvsvgtmpsnntrstngntdmnstrtthcrrltnthtshldntxst
+:END:
+(although again in theory there might be some seasonality)
+** DONE [#C] try to find correlation between sleep and exercise?         :qs:
+:PROPERTIES:
+:CREATED:  [2019-02-24]
+:ID:       trytfndcrrltnbtwnslpndxrcs
+:END:
+- State "DONE"       from "TODO"       [2019-04-06]
+in the simplest approach, try to only use cardio and see how it correlates (binary, for instance). although not enough points..
+** TODO [#C] temperature plots: would be interesting to have avg plot for 'indoors' and 'outdoors' periods?
+:PROPERTIES:
+:CREATED:  [2020-08-23]
+:ID:       tmprtrpltswldbntrstngthvvgpltfrndrsndtdrsprds
+:END:
+** TODO [#D] plot spinning power vs heartbeats?                          :qs:
+:PROPERTIES:
+:CREATED:  [2019-11-23]
+:ID:       pltspnnngpwrvshrtbts
+:END:
+* [#D] * plotly dash                                                 :plotly:
 :PROPERTIES:
 :ID:       pltlydsh
 :END:
+For now using #bokeh instead
+
 ** [#C] [2019-10-27] plotly/dash@1.4.0
 :PROPERTIES:
 :ID:       pltlydsh
@@ -888,6 +1136,180 @@ https://github.com/plotly/dash/issues/46
 :ID:       rpltlypltlypymprtngpltlytksltftm
 :END:
 : Re: [plotly/plotly.py] Importing plotly takes a lot of time (740
+** [#D] [2019-04-07] Dash User Guide and Documentation - Dash by Plotly
+:PROPERTIES:
+:ID:       dshsrgdnddcmnttndshbypltly
+:END:
+https://dash.plot.ly/dash-core-components/tabs
+: Note that this method has a drawback: it requires that you compute the children property for each individual tab upfront and send all of the tab's content over the network at once. The callback method allows you to compute the tab's content on the fly (that is, when the tab is clicked).
+** DONE [#B] [2019-05-30] ucg8j/awesome-dash: A curated list of awesome Dash (plotly) resources :viz:
+:PROPERTIES:
+:ID:       cgjwsmdshcrtdlstfwsmdshpltlyrsrcs
+:END:
+https://github.com/ucg8j/awesome-dash
+*** [2019-07-24] https://dash-gallery.plotly.host/Portal/
+:PROPERTIES:
+:ID:       sdshgllrypltlyhstprtl
+:END:
+*** [2019-07-24] eh, dunno otherwise not so interesting? maybe I'm not really lacking anything, I can think of many things I can add that still need to be implemented..
+:PROPERTIES:
+:ID:       hdnnthrwsntsntrstngmybmntngscnddthtstllndtbmplmntd
+:END:
+
+* -----------------------------------------
+:PROPERTIES:
+:ID:       37011_37056
+:END:
+
+* TODO [#A] come up with a better name? just in case of pypi release...
+:PROPERTIES:
+:CREATED:  [2020-08-22]
+:ID:       cmpwthbttrnmjstncsfpyprls
+:END:
+* STRT [#B] how to detect temporal correlation?                    :study:qs:
+:PROPERTIES:
+:CREATED:  [2018-02-28]
+:ID:       hwtdtcttmprlcrrltn
+:END:
+** [2020-09-01] ok, this lag thing in bokeh could work
+:PROPERTIES:
+:ID:       kthslgthngnbkhcldwrk
+:END:
+
+* [#B] [2019-04-19] qs_ledger/example_correlation_explorer_with_plotly.py at master · markwk/qs_ledger
+:PROPERTIES:
+:ID:       qsldgrxmplcrrltnxplrrwthpltlypytmstrmrkwkqsldgr
+:END:
+https://github.com/markwk/qs_ledger/blob/master/example_correlation_explorer_with_plotly.py
+plotly dash regression example
+* TODO [#B] [2019-10-15] [[https://reddit.com/r/Biohackers/comments/di60ub/why_you_should_continuously_track_your_energy/][Why you should continuously track your energy level and what I've learned from it.]] /r/Biohackers :qs:
+:PROPERTIES:
+:ID:       srddtcmrbhckrscmmntsdbwhyylvlndwhtvlrndfrmtrbhckrs
+:END:
+** [2019-10-18] about tracker matching subjective score
+:PROPERTIES:
+:ID:       bttrckrmtchngsbjctvscr
+:END:
+
+* TODO [#B] not sure what mavg is doing. e.g. HR plots of specific exercise -- if I didn't exercise during the past month mavg for 14 days should just take value of my last exercise. right??
+:PROPERTIES:
+:CREATED:  [2019-08-15]
+:ID:       ntsrwhtmvgsdngghrpltsfspcshldjsttkvlfmylstxrcsrght
+:END:
+** [2020-09-03] need to test it, just to double check
+:PROPERTIES:
+:ID:       ndttsttjsttdblchck
+:END:
+
+* TODO [#B] [2019-04-11] Visualization — pandas 0.24.2 documentation    :viz:
+:PROPERTIES:
+:ID:       vslztnpndsdcmnttn
+:END:
+https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html#visualization-autocorrelation
+
+* TODO [#B] [2020-09-16] [[https://forum.quantifiedself.com/t/building-a-data-dashboard/449][Building a Data Dashboard - Quantified Self / Apps & Tools - Quantified Self Forum]]
+:PROPERTIES:
+:ID:       sfrmqntfdslfcmtbldngdtdshqntfdslfppstlsqntfdslffrm
+:END:
+* TODO [#B] [2020-08-23] [[https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=hvplot&sort=byPopularity&type=all][All | Search powered by Algolia]]
+:PROPERTIES:
+:ID:       shnlglcmdtrngllpgprfxtrqrplrtytypllllsrchpwrdbylgl
+:END:
+: Panel, hvPlot, HoloViews, GeoViews, Datashader, Param, Colorcet -- all working together to make Python data visualization easier and more powerful.
+* TODO [#B] [2020-10-11] [[https://docs.bokeh.org/en/latest/docs/user_guide/webgl.html][Accelerating with WebGL — Bokeh 2.2.1 Documentation]]
+:PROPERTIES:
+:ID:       sdcsbkhrgnltstdcssrgdwbgllcclrtngwthwbglbkhdcmnttn
+:END:
+** [2020-10-11] [[https://docs.bokeh.org/en/latest/docs/user_guide/webgl.html][Accelerating with WebGL — Bokeh 2.2.1 Documentation]]
+:PROPERTIES:
+:ID:       sdcsbkhrgnltstdcssrgdwbgllcclrtngwthwbglbkhdcmnttn
+:END:
+: Only a subset of Bokeh’s objects are capable of rendering in WebGL. Currently supported are the circle and line glyphs, and many markers: asterisk, circle, square, diamond, triangle, inverted_triangle, cross, circle_cross, square_cross, diamond_cross, x, square_x, and circle_x. You can safely combine multiple glyphs in a plot, even if some are rendered in WebGL, and some are not.
+** [2020-10-11] hmm, didn't seem to have any effect??
+:PROPERTIES:
+:ID:       hmmddntsmthvnyffct
+:END:
+* TODO [#B] [2020-10-11] [[https://github.com/FifthHour/correlator][FifthHour/correlator: Timeseries correlation in Python, Bokeh Server and on Heroku]] :bokeh:
+:PROPERTIES:
+:ID:       sgthbcmffthhrcrrltrffthhrcrrltnnpythnbkhsrvrndnhrk
+:END:
+* TODO [#B] [2020-11-01] [[https://jupyterlab.readthedocs.io/en/stable][JupyterLab Documentation — JupyterLab 2.3.0a1 documentation]]
+:PROPERTIES:
+:ID:       sjpytrlbrdthdcsnstbljpytrlbdcmnttnjpytrlbdcmnttn
+:END:
+* TODO [#B] [2020-11-11] [[https://github.com/raphaelvallat/pingouin][raphaelvallat/pingouin: Statistical package in Python based on Pandas]]
+:PROPERTIES:
+:ID:       sgthbcmrphlvlltpngnrphlvlsttstclpckgnpythnbsdnpnds
+:END:
+
+* STRT [#B] [2020-10-31] [[https://hackernoon.com/introducing-grid-studio-a-spreadsheet-app-with-python-to-make-data-science-easier-tdup38f7][How I built a spreadsheet app with Python to make data science easier | Hacker Noon]] :spreadsheet:
+:PROPERTIES:
+:ID:       shckrnncmntrdcnggrdstdsprwthpythntmkdtscncsrhckrnn
+:END:
+* TODO [#B] [2020-10-28] [[https://reddit.com/r/compsci/comments/jjf8ys/i_just_updated_my_pandas_gui_project_to_have_some/][I just updated my Pandas GUI project to have some sample datasets, here it is working with a Simpsons dataset and proving that the early seasons are the best...]] /r/compsci
+:PROPERTIES:
+:ID:       srddtcmrcmpsccmmntsjjfysjgthtthrlyssnsrthbstrcmpsc
+:END:
+* TODO [#B] [2019-11-24] Jupyter tools to increase productivity - Towards Data Science :jupyter:
+:PROPERTIES:
+:ID:       jpytrtlstncrsprdctvtytwrdsdtscnc
+:END:
+https://towardsdatascience.com/jupyter-tools-to-increase-productivity-7b3c6b90be09
+: Jupyter tools to increase productivity
+** [2020-05-12] widgets, debugging, toc
+:PROPERTIES:
+:ID:       wdgtsdbggngtc
+:END:
+** TODO [2020-09-10] from IPython.core.debugger import set_trace
+:PROPERTIES:
+:ID:       frmpythncrdbggrmprtsttrc
+:END:
+* TODO [#B] need to post it somewhere... but not sure how to present to people. could def post some plots to quantifiedself? :dashboard:toblog:qs:
+:PROPERTIES:
+:CREATED:  [2019-04-09]
+:ID:       ndtpsttsmwhrbtntsrhwtprsnplclddfpstsmpltstqntfdslf
+:END:
+
+* TODO [#C] [2019-04-09] Short- and long-term effects of a single bout of exercise on heart rate variability: comparison between constant and interval training exercises. - PubMed - NCBI :hrv:
+:PROPERTIES:
+:ID:       shrtndlngtrmffctsfsnglbtftndntrvltrnngxrcsspbmdncb
+:END:
+https://www.ncbi.nlm.nih.gov/pubmed/15461995
+: R-R intervals, TP, and HF/TP were significantly decreased while LF/TP and LF/HF were significantly increased during the early recovery, when compared with control values. This could be a response to the significant decrease in SAP and DAP at this time. Twenty-four and 48 h after the end of the exercise, HRV parameters were at the same levels as before exercises in the supine posture, but a persistent tachycardia continued to be observed in the upright posture, together with reduced TP values, showing that cardiovascular functions were still disturbed. The short-term HRV recovery seemed dependent on the type of exercise, contrary to the long-term recovery.
+* TODO [#C] [2019-08-17] Plotting with categorical data — seaborn 0.9.0 documentation :viz:
+:PROPERTIES:
+:ID:       plttngwthctgrcldtsbrndcmnttn
+:END:
+https://seaborn.pydata.org/tutorial/categorical.html#categorical-tutorial
+: Boxplots
+: The first is the familiar boxplot(). This kind of plot shows the three quartile values of the distribution along with extreme values. The “whiskers” extend to points that lie within 1.5 IQRs of the lower and upper quartile, and then observations that fall outside this range are displayed independently. This means that each value in the boxplot corresponds to an actual observation in the data.
+** [2020-09-02] not sure if boxplots in particular are usefult to me?
+:PROPERTIES:
+:ID:       ntsrfbxpltsnprtclrrsflttm
+:END:
+* STRT [#C] thinking about making it public                             :hpi:
+:PROPERTIES:
+:CREATED:  [2020-05-13]
+:ID:       thnkngbtmkngtpblc
+:END:
+where to run it? it's gotta be sufficiently dynamic?
+run from google cloud? suck in the data once? or refresh continuously?
+maybe run the original data retrieval? not sure
+* TODO [#C] add more dashboards to web?
+:PROPERTIES:
+:CREATED:  [2018-10-30]
+:ID:       ddmrdshbrdstwb
+:END:
+** TODO [2019-04-10] could add to dashboard?
+:PROPERTIES:
+:ID:       cldddtdshbrd
+:END:
+* TODO [#C] 'Other' workouts i'm using for HR decay  -- shit, I think I lost hr here after 10th minute.  Could detect it automatically I guess? :qs:hr:
+:PROPERTIES:
+:CREATED:  [2019-08-18]
+:ID:       thrwrktsmsngfrhrdcyshtthntrthmntclddtctttmtcllygss
+:END:
+
 * STRT [#C] always keep a tab running on one for my desktops? or pinned
 :PROPERTIES:
 :CREATED:  [2020-07-25]
@@ -897,50 +1319,7 @@ https://github.com/plotly/dash/issues/46
 :PROPERTIES:
 :ID:       shtnflxdbsmstbvrynstblfrtwntlsvrywkwrdtrndrdshbrds
 :END:
-* TODO [#C] calculate some sort of 'integral' heart rate and also score for interval trainings? :exercise:
-:PROPERTIES:
-:CREATED:  [2019-04-09]
-:ID:       clcltsmsrtfntgrlhrtrtndlsscrfrntrvltrnngs
-:END:
-** [2020-09-06] eh? maybe I wanted to break down my interval trainings per activity bursts?
-:PROPERTIES:
-:ID:       hmybwntdtbrkdwnmyntrvltrnngsprctvtybrsts
-:END:
-* TODO [#C] shit. if I had food stats that would be just amazing
-:PROPERTIES:
-:CREATED:  [2019-04-09]
-:ID:       shtfhdfdsttsthtwldbjstmzng
-:END:
-* TODO [#C] at least, track tea and coffee maybe?
-:PROPERTIES:
-:CREATED:  [2019-04-09]
-:ID:       tlsttrcktndcffmyb
-:END:
-* TODO [#C] glucose and ketone measurements vs food?
-:PROPERTIES:
-:CREATED:  [2019-04-09]
-:ID:       glcsndktnmsrmntsvsfd
-:END:
-** [2020-09-06] probably not enough data...
-:PROPERTIES:
-:ID:       prbblyntnghdt
-:END:
-* STRT [#C] integrate elliptical workouts? Could plot workout specific things and make them easy to compare
-:PROPERTIES:
-:CREATED:  [2019-07-23]
-:ID:       ntgrtllptclwrktscldpltwrktspcfcthngsndmkthmsytcmpr
-:END:
-* TODO [#C] use multiprocessing...
-:PROPERTIES:
-:CREATED:  [2019-07-24]
-:ID:       smltprcssng
-:END:
-pretty sure pandas frames can be easily serialised?
-* [#B] [2020-10-11] [[https://github.com/FifthHour/correlator][FifthHour/correlator: Timeseries correlation in Python, Bokeh Server and on Heroku]] :bokeh:
-:PROPERTIES:
-:ID:       sgthbcmffthhrcrrltrffthhrcrrltnnpythnbkhsrvrndnhrk
-:END:
-* STRT [#C] I really want proper and fast location history..
+* STRT [#C] I really want proper and fast location history..       :location:
 :PROPERTIES:
 :CREATED:  [2020-07-28]
 :ID:       rllywntprprndfstlctnhstry
@@ -956,129 +1335,12 @@ pretty sure pandas frames can be easily serialised?
 :ID:       shwmydshbrd
 :END:
 
-* TODO [#C] money? not sure
-:PROPERTIES:
-:CREATED:  [2020-08-22]
-:ID:       mnyntsr
-:END:
-* TODO [#C] Compare fitbit                                            :hr:qs:
-:PROPERTIES:
-:CREATED:  [2017-12-21]
-:ID:       cmprftbt
-:END:
-
-* TODO [#C] favsmap should be part of dashboard... also could be the first bit in my public dashboard?
-:PROPERTIES:
-:CREATED:  [2020-08-02]
-:ID:       fvsmpshldbprtfdshbrdlscldbthfrstbtnmypblcdshbrd
-:END:
-merge google and foursquare, display google labels on top of osm mapS
-rationale: various tools for working with maps in one place
-* STRT [#C] Look at hr data, its almost 180 all the time. Is it because i was doing cardio less? :qs:health:exercise:
-:PROPERTIES:
-:CREATED:  [2019-01-05]
-:ID:       lkthrdttslmstllthtmstbcswsdngcrdlss
-:END:
-
-* TODO [#C] correlate temp sensor with hiking?        :toblog:qs:lifelogging:
-:PROPERTIES:
-:CREATED:  [2019-10-30]
-:ID:       crrlttmpsnsrwthhkng
-:END:
-* TODO [#C] temperature plots: would be interesting to have avg plot for 'indoors' and 'outdoors' periods?
-:PROPERTIES:
-:CREATED:  [2020-08-23]
-:ID:       tmprtrpltswldbntrstngthvvgpltfrndrsndtdrsprds
-:END:
-* TODO [#C] grafana could simply be one of the interfaces
-:PROPERTIES:
-:CREATED:  [2020-08-25]
-:ID:       grfncldsmplybnfthntrfcs
-:END:
-* TODO [#C] takeout -- contains list of places                          :hpi:
-:PROPERTIES:
-:CREATED:  [2020-09-01]
-:ID:       tktcntnslstfplcs
-:END:
-basically could merge with 4sq? and custom addresses
-* TODO [#C] consolidating common functions to work with geographical/location data. tedious to redo from scratch every time and requires fine tuning the ways to browse it :motivation:
-:PROPERTIES:
-:CREATED:  [2020-09-06]
-:ID:       cnsldtngcmmnfnctnstwrkwthtmndrqrsfntnngthwystbrwst
-:END:
-
-* [#B] * error hanling                                               :errors:
-:PROPERTIES:
-:ID:       rrrhnlng
-:END:
-** TODO [#C] about importance of error handling when working with personal data :toblog:
-:PROPERTIES:
-:CREATED:  [2020-09-14]
-:ID:       btmprtncfrrrhndlngwhnwrkngwthprsnldt
-:END:
-data is inherently messy and error prone
-it's sensible to be defensive and try to relax as much as possible (unless you have time to literally tend to them immediately)
-on the other hand, you want to make sure you are aware about the issues in data
-example: running dashboard -- has a warning about 0 speed
-see screenshot at the same time (fix JS table first so duration & start_time have proper rendering)
-you can instantly see it on the plot (yellow markers). if you hover, you'll see that the error is about zero speed (and you can also see it in the table)
-in the table, you can clearly spot that the problem is the treadmill -- indeed, treadmill wasn't connected to the phone in any way, and I'm stationary, so endomondo has no idea how much I moved
-however, I did log the distance (along with the training regime) manually
-by combining the HR data (recorded by endomondo) and manual data we get the complete representation
-(if I add visual highlight on the table, that would be fucking amazing)
-*** [2020-09-14] maybe post on QS forum??
-:PROPERTIES:
-:ID:       mybpstnqsfrm
-:END:
-** TODO [#C] error handling -- demonstrate on 'multiple sleeps'
-:PROPERTIES:
-:CREATED:  [2020-09-12]
-:ID:       rrrhndlngdmnstrtnmltplslps
-:END:
-** TODO [#C] demo: running speed/hr plot is a good candidate
-:PROPERTIES:
-:CREATED:  [2020-09-16]
-:ID:       dmrnnngspdhrpltsgdcnddt
-:END:
-- show both types of errors (zero speed/no HR)
-- need to disable tooltip on avg plot
-- would be nice to highlight the point under the tooltip?
-** TODO [#C] demo: unmark one of cardio/non-cardio and demonstrate warnings
-:PROPERTIES:
-:CREATED:  [2020-09-17]
-:ID:       dmnmrknfcrdnncrdnddmnstrtwrnngs
-:END:
-** TODO [#C] document error handling pattern with 'error'     :errors:toblog:
-:PROPERTIES:
-:CREATED:  [2020-09-07]
-:ID:       dcmntrrrhndlngpttrnwthrrr
-:END:
 * [#C] [2020-09-01] [[https://hvplot.holoviz.org/user_guide/Pandas_API.html][Pandas API — hvPlot 0.6.0 documentation]]
 :PROPERTIES:
 :ID:       shvplthlvzrgsrgdpndsphtmlpndsphvpltdcmnttn
 :END:
 : Lag Plot
 : Lag plots are used to check if a data set or time series is random. Random data should not exhibit any structure in the lag plot. Non-random structure implies that the underlying data are not random.
-* TODO [#C] it's very important to benefit from the existing data science infrastructure as much as possible. jupiter, pandas, etc. :interop:toblog:
-:PROPERTIES:
-:CREATED:  [2020-10-01]
-:ID:       tsvrymprtnttbnftfrmthxstntrctrsmchspssbljptrpndstc
-:END:
-* TODO [#C] corr plot: include influence/leverage etc
-:PROPERTIES:
-:CREATED:  [2020-10-10]
-:ID:       crrpltncldnflnclvrgtc
-:END:
-* TODO [#C] negative correlation of coverage with temperature is pretty weird :emfit:
-:PROPERTIES:
-:CREATED:  [2020-10-11]
-:ID:       ngtvcrrltnfcvrgwthtmprtrsprttywrd
-:END:
-* STRT [#C] filter out specific exercises and plot separately to see the progress :exercise:
-:PROPERTIES:
-:CREATED:  [2020-10-13]
-:ID:       fltrtspcfcxrcssndpltsprtlytsthprgrss
-:END:
 * STRT [#C] mixing in data from taplog                   :weight:exercise:qs:
 :PROPERTIES:
 :CREATED:  [2020-10-13]
@@ -1090,25 +1352,43 @@ Join with taplog (maybe even as a df)
 Win! Maybe check some similarity score too
 Same for weight?
 
-* TODO [#C] rescuetime summarizes my sleep intervals pretty well? could at least have upper bound on sleep during holidays/when not using emfit? :rescuetime:hpi:
+* TODO [#C] on the hrv plot, diplay as arrow if the trend is up or down :sleep:
 :PROPERTIES:
-:CREATED:  [2020-09-18]
-:ID:       rsctmsmmrzsmyslpntrvlsprtdnslpdrnghldyswhnntsngmft
+:CREATED:  [2020-11-17]
+:ID:       nthhrvpltdplysrrwfthtrndsprdwn
 :END:
-* TODO [#D] caching endomondo is not great..
+* STRT [#C] [2020-11-03] [[https://github.com/joshlk/dataclassframe][joshlk/dataclassframe: A container for dataclasses with multi-indexing and bulk operations.]]
 :PROPERTIES:
-:CREATED:  [2019-08-25]
-:ID:       cchngndmndsntgrt
+:ID:       sgthbcmjshlkdtclssfrmjshllssswthmltndxngndblkprtns
 :END:
-** [2020-08-22] eh? what did I mean?
+hmm.. doesn't have any typing imports at all?? what do they mean 'working nicely with type hints', that they don't crash??
+** [2021-02-06] ah ok, something added.. maybe reevaluate it later
 :PROPERTIES:
-:ID:       hwhtddmn
+:ID:       hksmthngdddmybrvlttltr
 :END:
-* TODO [#D] quantified mind? already have plots
+* TODO [#C] use for daily dashboard or something?                :remarkable:
 :PROPERTIES:
-:CREATED:  [2019-08-20]
-:ID:       qntfdmndlrdyhvplts
+:CREATED:  [2020-12-13]
+:ID:       sfrdlydshbrdrsmthng
 :END:
+* TODO [#C] [2020-09-06] [[https://github.com/bokeh/bokeh/blob/2.2.1/examples/howto/server_embed/notebook_embed.ipynb][bokeh/notebook_embed.ipynb at 2.2.1 · bokeh/bokeh]]
+:PROPERTIES:
+:ID:       sgthbcmbkhbkhblbxmplshwtspynbbkhntbkmbdpynbtbkhbkh
+:END:
+
+* STRT [#C] https://github.com/thesephist/histools            :dashboard:viz:
+:PROPERTIES:
+:CREATED:  [2020-12-24]
+:ID:       sgthbcmthsphsthstls
+:END:
+: A collection of tools for generating data visualizations from browser history data
+
+looks like a heatmap?
+* TODO [#C] [2020-12-30] [[manual_exercise.html][manual_exercise]]    :bokeh:
+:PROPERTIES:
+:ID:       mnlxrcshtmlmnlxrcs
+:END:
+goddamnit. so frustrating that I can't zoom it properly
 * STRT [#D] Grafana                                                :timeline:
 :PROPERTIES:
 :CREATED:  [2018-01-31]
@@ -1154,21 +1434,10 @@ influxdb on default port... everything is admin/admin
 :CREATED:  [2019-02-20]
 :ID:       fgrtgrfn
 :END:
-* [#D] [2019-04-07] Dash User Guide and Documentation - Dash by Plotly
-:PROPERTIES:
-:ID:       dshsrgdnddcmnttndshbypltly
-:END:
-https://dash.plot.ly/dash-core-components/tabs
-: Note that this method has a drawback: it requires that you compute the children property for each individual tab upfront and send all of the tab's content over the network at once. The callback method allows you to compute the tab's content on the fly (that is, when the tab is clicked).
 * TODO [#D] post on dataisbeautiful?                           :reddit:sleep:
 :PROPERTIES:
 :CREATED:  [2019-07-22]
 :ID:       pstndtsbtfl
-:END:
-* TODO [#D] plot spinning power vs heartbeats?                           :qs:
-:PROPERTIES:
-:CREATED:  [2019-11-23]
-:ID:       pltspnnngpwrvshrtbts
 :END:
 * TODO [#D] fix dovpandas warnings
 :PROPERTIES:
@@ -1180,49 +1449,25 @@ https://dash.plot.ly/dash-core-components/tabs
 :CREATED:  [2020-08-07]
 :ID:       whnrlstmksrtwrksbthgnstpblcndprvthpbts
 :END:
-* TODO [#D] Add check-ins to favsmap
+* TODO [#D] profile stuff a bit?
 :PROPERTIES:
-:CREATED:  [2019-11-28]
-:ID:       ddchcknstfvsmp
+:CREATED:  [2020-10-18]
+:ID:       prflstffbt
 :END:
-
-* DONE [#B] [2019-05-30] ucg8j/awesome-dash: A curated list of awesome Dash (plotly) resources :viz:dash:
+* TODO [#D] [2020-12-05] [[https://xkcd.com/1725/][xkcd: Linear Regression]] :toblog:
 :PROPERTIES:
-:ID:       cgjwsmdshcrtdlstfwsmdshpltlyrsrcs
+:ID:       sxkcdcmxkcdlnrrgrssn
 :END:
-https://github.com/ucg8j/awesome-dash
-** [2019-07-24] https://dash-gallery.plotly.host/Portal/
-:PROPERTIES:
-:ID:       sdshgllrypltlyhstprtl
-:END:
-** [2019-07-24] eh, dunno otherwise not so interesting? maybe I'm not really lacking anything, I can think of many things I can add that still need to be implemented..
-:PROPERTIES:
-:ID:       hdnnthrwsntsntrstngmybmntngscnddthtstllndtbmplmntd
-:END:
-
 * DONE [#B] [2019-04-15] Python Data Visualization 2018: Why So Many Libraries? - Anaconda
 :PROPERTIES:
 :ID:       pythndtvslztnwhysmnylbrrsncnd
 :END:
 https://www.anaconda.com/python-data-visualization-2018-why-so-many-libraries/
-** TODO [2019-09-10] try using in
+** TODO [2019-09-10] try using in dashboard
 :PROPERTIES:
-:ID:       trysngn
+:ID:       trysngndshbrd
 :END:
 
-* DONE try to find correlation between sleep and exercise?               :qs:
-:PROPERTIES:
-:CREATED:  [2019-02-24]
-:ID:       trytfndcrrltnbtwnslpndxrcs
-:END:
-- State "DONE"       from "TODO"       [2019-04-06]
-in the simplest approach, try to only use cardio and see how it correlates (binary, for instance). although not enough points..
-* DONE collect 'sleepy' entries from capture                          :sleep:
-:PROPERTIES:
-:CREATED:  [2019-04-09]
-:ID:       cllctslpyntrsfrmcptr
-:END:
-- State "DONE"       from "TODO"       [2019-04-11]
 * DONE [2019-04-14] iris_splom.py — Bokeh 1.1.0 documentation
 :PROPERTIES:
 :ID:       rssplmpybkhdcmnttn
@@ -1232,213 +1477,12 @@ https://bokeh.pydata.org/en/latest/docs/gallery/iris_splom.html
 :PROPERTIES:
 :ID:       hdfltsdntlkgrtmybtsfstrbtnclr
 :END:
-* TODO [#B] for correlations, there is overview + zoomed in individual plots showing all the errors, outliers, etc
-:PROPERTIES:
-:CREATED:  [2020-10-18]
-:ID:       frcrrltnsthrsvrvwzmdnndvdlpltsshwngllthrrrstlrstc
-:END:
-* TODO [#D] profile stuff a bit?
-:PROPERTIES:
-:CREATED:  [2020-10-18]
-:ID:       prflstffbt
-:END:
-* TODO [#C] definitely need to take seasonality (e.g. weekly) into the account, e.g. for multi regression
-:PROPERTIES:
-:CREATED:  [2020-10-19]
-:ID:       dfntlyndttkssnltygwklyntthccntgfrmltrgrssn
-:END:
-* TODO [#C] volume vs avg temp is an interesting one to demonstrate the correlation that shouldn't exist
-:PROPERTIES:
-:CREATED:  [2020-10-19]
-:ID:       vlmvsvgtmpsnntrstngntdmnstrtthcrrltnthtshldntxst
-:END:
-(although again in theory there might be some seasonality)
-* TODO [#C] add src for jawbone/emfit sleep
-:PROPERTIES:
-:CREATED:  [2020-10-21]
-:ID:       ddsrcfrjwbnmftslp
-:END:
-* TODO [#B] correlate number of commits/lines vs sleep?
-:PROPERTIES:
-:CREATED:  [2020-10-21]
-:ID:       crrltnmbrfcmmtslnsvsslp
-:END:
-* TODO [#B] hmm, maybe I need to remove seasonality from the sleep first and then search other correlations?? not sure..
-:PROPERTIES:
-:CREATED:  [2020-10-22]
-:ID:       hmmmybndtrmvssnltyfrmthslstndthnsrchthrcrrltnsntsr
-:END:
-* TODO [#C] I guess need seasonality analisys for each metric? maybe have it on a separate pane, e.g. 'debug/insights'? would be nice to do it for all dataframes?
-:PROPERTIES:
-:CREATED:  [2020-10-23]
-:ID:       gssndssnltynlsysfrchmtrcmnsghtswldbnctdtfrlldtfrms
-:END:
-* TODO [#C] vertical line tooltip sucks... probably need a single point instead
-:PROPERTIES:
-:CREATED:  [2020-10-24]
-:ID:       vrtcllntltpscksprbblyndsnglpntnstd
-:END:
-* TODO got throught the most common exercise (past) sessions and check them :exercise:
-:PROPERTIES:
-:CREATED:  [2020-10-15]
-:ID:       gtthrghtthmstcmmnxrcspstsssnsndchckthm
-:END:
-* TODO [#B] ugh. today is gonna be confusing                       :qs:sleep:
-:PROPERTIES:
-:CREATED:  [2020-10-09]
-:ID:       ghtdysgnnbcnfsng
-:END:
-exercise will probably have a lot of impact... but then hr is elevated because of the pizza
-** [2020-10-18] maybe really need to try two-parameter regression?
-:PROPERTIES:
-:ID:       mybrllyndttrytwprmtrrgrssn
-:END:
-** [2020-10-18] take into the account past pizza orders? this is gonna have systematic impact on my sundays?
-:PROPERTIES:
-:ID:       tkntthccntpstpzzrdrsthssgnnhvsystmtcmpctnmysndys
-:END:
-* TODO [#B] wtf... without seasons it seems to correlate less??       :sleep:
-:PROPERTIES:
-:CREATED:  [2020-10-23]
-:ID:       wtfwthtssnstsmstcrrltlss
-:END:
-* TODO hmm, maybe need to try running/eating pizza on a different day? to make sure the seasonality is not due to running? :exercise:qs:sleep:
-:PROPERTIES:
-:CREATED:  [2020-10-24]
-:ID:       hmmmybndttryrnnngtngpzznddytmksrthssnltysntdtrnnng
-:END:
-** [2020-10-24] or could check seasonality for months that didn't involve running?
-:PROPERTIES:
-:ID:       rcldchckssnltyfrmnthsthtddntnvlvrnnng
-:END:
-* TODO Each rolling plot can also handle seasonality, residuals etc?
-:PROPERTIES:
-:CREATED:  [2020-10-23]
-:ID:       chrllngpltcnlshndlssnltyrsdlstc
-:END:
-
-* TODO Something like seasonality detection would be impossible without a real programming language :motivation:
-:PROPERTIES:
-:CREATED:  [2020-10-23]
-:ID:       smthnglkssnltydtctnwldbmpssblwthtrlprgrmmnglngg
-:END:
-
-* TODO [#C] would be nice to include the org file link to the context... then could use mimemacs for it :promnesia:
-:PROPERTIES:
-:CREATED:  [2020-10-16]
-:ID:       wldbnctncldthrgfllnktthcntxtthncldsmmmcsfrt
-:END:
-* TODO calculating custom exercise stats                         :motivation:
-:PROPERTIES:
-:CREATED:  [2020-10-27]
-:ID:       clcltngcstmxrcsstts
-:END:
-e.g. I have a few traffic lights on my way that might affect my speed/cadence data
-* TODO [#B] try jupiterlab
-:PROPERTIES:
-:CREATED:  [2020-11-06]
-:ID:       tryjptrlb
-:END:
-* TODO [#C] on the hrv plot, diplay as error if the trend is up or down :sleep:
-:PROPERTIES:
-:CREATED:  [2020-11-17]
-:ID:       nthhrvpltdplysrrrfthtrndsprdwn
-:END:
-* TODO [2020-11-01] [[https://jupyterlab.readthedocs.io/en/stable/?ref=hackernoon.com][JupyterLab Documentation — JupyterLab 2.3.0a1 documentation]]
-:PROPERTIES:
-:ID:       sjpytrlbrdthdcsnstblrfhcktrlbdcmnttnjpytrlbdcmnttn
-:END:
-* [2020-11-03] [[https://github.com/joshlk/dataclassframe][joshlk/dataclassframe: A container for dataclasses with multi-indexing and bulk operations.]] :HPI:
-:PROPERTIES:
-:ID:       sgthbcmjshlkdtclssfrmjshllssswthmltndxngndblkprtns
-:END:
-
-* [2020-11-03] [[https://github.com/joshlk/dataclassframe][joshlk/dataclassframe: A container for dataclasses with multi-indexing and bulk operations.]]
-:PROPERTIES:
-:ID:       sgthbcmjshlkdtclssfrmjshllssswthmltndxngndblkprtns
-:END:
-hmm.. doesn't have any typing imports at all?? what does he mean 'working nicely with type hints', that they don't crash??
-* [#B] [2020-11-11] [[https://github.com/raphaelvallat/pingouin][raphaelvallat/pingouin: Statistical package in Python based on Pandas]]
-:PROPERTIES:
-:ID:       sgthbcmrphlvlltpngnrphlvlsttstclpckgnpythnbsdnpnds
-:END:
-
-* STRT [#B] [2020-10-31] [[https://hackernoon.com/introducing-grid-studio-a-spreadsheet-app-with-python-to-make-data-science-easier-tdup38f7][How I built a spreadsheet app with Python to make data science easier | Hacker Noon]] :spreadsheet:
-:PROPERTIES:
-:ID:       shckrnncmntrdcnggrdstdsprwthpythntmkdtscncsrhckrnn
-:END:
-* [#B] [2020-10-25] [[https://www.tableau.com/en-gb/products/desktop][Tableau Desktop]] :viz:qs:
+* CANCEL [#B] [2020-10-25] [[https://www.tableau.com/en-gb/products/desktop][Tableau Desktop]] :viz:qs:
 :PROPERTIES:
 :ID:       swwwtblcmngbprdctsdsktptbldsktp
 :END:
 
-* TODO [#B] [2020-10-28] [[https://reddit.com/r/compsci/comments/jjf8ys/i_just_updated_my_pandas_gui_project_to_have_some/][I just updated my Pandas GUI project to have some sample datasets, here it is working with a Simpsons dataset and proving that the early seasons are the best...]] /r/compsci
+* ---------- last housekeeping on [2021-02-06] ----------
 :PROPERTIES:
-:ID:       srddtcmrcmpsccmmntsjjfysjgthtthrlyssnsrthbstrcmpsc
+:ID:       lsthskpngn
 :END:
-* [#C] [2020-06-16] [[https://news.ycombinator.com/item?id=23539541][A Jupyter Kernel for SQLite]] :hpi:
-:PROPERTIES:
-:ID:       snwsycmbntrcmtmdjpytrkrnlfrsqlt
-:END:
-https://blog.jupyter.org/a-jupyter-kernel-for-sqlite-9549c5dcf551
-** [2020-12-05] hmm, kinda nice, but not sure if it's better than sqlitebrowser when used locally
-:PROPERTIES:
-:ID:       hmmkndncbtntsrftsbttrthnsqltbrwsrwhnsdlclly
-:END:
-* TODO [#B] [2019-11-24] Jupyter tools to increase productivity - Towards Data Science :jupiter:
-:PROPERTIES:
-:ID:       jpytrtlstncrsprdctvtytwrdsdtscnc
-:END:
-https://towardsdatascience.com/jupyter-tools-to-increase-productivity-7b3c6b90be09
-: Jupyter tools to increase productivity
-** [2020-05-12] widgets, debugging, toc
-:PROPERTIES:
-:ID:       wdgtsdbggngtc
-:END:
-** TODO [2020-09-10] from IPython.core.debugger import set_trace
-:PROPERTIES:
-:ID:       frmpythncrdbggrmprtsttrc
-:END:
-* TODO use for daily dashboard or something?                     :remarkable:
-:PROPERTIES:
-:CREATED:  [2020-12-13]
-:ID:       sfrdlydshbrdrsmthng
-:END:
-* [#C] [2020-09-06] [[https://github.com/bokeh/bokeh/blob/2.2.1/examples/howto/server_embed/notebook_embed.ipynb][bokeh/notebook_embed.ipynb at 2.2.1 · bokeh/bokeh]]
-:PROPERTIES:
-:ID:       sgthbcmbkhbkhblbxmplshwtspynbbkhntbkmbdpynbtbkhbkh
-:END:
-
-* [2020-12-05] [[https://xkcd.com/1725/][xkcd: Linear Regression]]
-:PROPERTIES:
-:ID:       sxkcdcmxkcdlnrrgrssn
-:END:
-: Linear Regression
-* START [#B] [2020-12-07] [[https://github.com/oschuett/appmode][oschuett/appmode: A Jupyter extensions that turns notebooks into web applications.]]
-:PROPERTIES:
-:ID:       sgthbcmschttppmdschttppmdnsthttrnsntbksntwbpplctns
-:END:
-: A Jupyter extensions that turns notebooks into web applications.
-* TODO [2020-12-10] [[https://pypi.org/project/panel/][panel · PyPI]]
-:PROPERTIES:
-:ID:       spyprgprjctpnlpnlpyp
-:END:
-
-
-* [2021-01-11] [[https://github.com/yihong0618/running_page][yihong0618/running_page: Make your own running home page]]
-:PROPERTIES:
-:ID:       sgthbcmyhngrnnngpgyhngrnnngpgmkyrwnrnnnghmpg
-:END:
-
-* TODO need to post it somewhere... but not sure how to present to people. could def post some plots to quantifiedself? :dashboard:toblog:qs:
-:PROPERTIES:
-:CREATED:  [2019-04-09]
-:ID:       ndtpsttsmwhrbtntsrhwtprsnplclddfpstsmpltstqntfdslf
-:END:
-
-* TODO [#B] https://github.com/thesephist/histools            :dashboard:viz:
-:PROPERTIES:
-:CREATED:  [2020-12-24]
-:ID:       sgthbcmthsphsthstls
-:END:
-: A collection of tools for generating data visualizations from browser history data 

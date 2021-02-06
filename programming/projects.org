@@ -2,7 +2,13 @@
 #+filetags: project
 
 How to make good programming projects?
-Best practices in communicating and explaining, neat ideas, demos, presentations, etc.
+
+Best practices (or at least the ones I liked) in:
+- documenting
+- communicating
+- demoing
+- presentation
+- licensing
 
 * [#B] * demos/screencasting                                :demo:screencast:
 :PROPERTIES:
@@ -94,7 +100,7 @@ https://opensource.google/docs/thirdparty/licenses/#LinkingRequirements
 
 * ----------------------------------
 :PROPERTIES:
-:ID:       4138_4176
+:ID:       4169_4207
 :END:
 
 * [#A] [2020-05-04] Make sure it's very easy to contribute          :project:
@@ -103,11 +109,11 @@ https://opensource.google/docs/thirdparty/licenses/#LinkingRequirements
 :END:
 ** TODO .                                                               :hpi:
 :PROPERTIES:
-:ID:       4255_4271
+:ID:       4286_4302
 :END:
 ** TODO .                                                         :promnesia:
 :PROPERTIES:
-:ID:       4271_4293
+:ID:       4302_4324
 :END:
 * [#B] [2019-08-18] "why not use..." section link in [[http://www.attrs.org/en/stable/why.html][attrs]]
 :PROPERTIES:
@@ -347,3 +353,10 @@ good setting design with system defaults (readonly) and user preferences on the 
 :PROPERTIES:
 :ID:       shrdntnlnksnrdmbtwnprjcts
 :END:
+* STRT [#B] [2019-12-27] Getting started — Datasette documentation :projects:hpi:
+:PROPERTIES:
+:ID:       gttngstrtddtsttdcmnttn
+:END:
+https://datasette.readthedocs.io/en/stable/getting_started.html#glitch
+: Try Datasette without installing anything using Glitch
+: Glitch is a free online tool for building web apps directly from your web browser. You can use Glitch to try out Datasette without needing to install any software on your own computer.

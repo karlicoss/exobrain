@@ -211,3 +211,9 @@ https://twitter.com/mekarpeles/status/1271226785439428608
 :PROPERTIES:
 :ID:       sgthbcmstvmmxstvmmxbrfpcfwhtmmxcldptntllyb
 :END:
+
+* [#B] [2020-01-08] [[https://github.com/samsquire/ideas][samsquire/ideas: life engine]]
+:PROPERTIES:
+:ID:       sgthbcmsmsqrdssmsqrdslfngn
+:END:
+: Life engine is a dashboard that attempts to collect information about your life and display relevant data on a single screen.

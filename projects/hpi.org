@@ -1163,3 +1163,13 @@ https://wiki.postgresql.org/wiki/Foreign_data_wrappers
 :PROPERTIES:
 :ID:       sgphrggphthpngrphvzpltfrm
 :END:
+
+* [#C] [2020-06-16] [[https://news.ycombinator.com/item?id=23539541][A Jupyter Kernel for SQLite]] :hpi:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdjpytrkrnlfrsqlt
+:END:
+https://blog.jupyter.org/a-jupyter-kernel-for-sqlite-9549c5dcf551
+** [2020-12-05] hmm, kinda nice, but not sure if it's better than sqlitebrowser when used locally
+:PROPERTIES:
+:ID:       hmmkndncbtntsrftsbttrthnsqltbrwsrwhnsdlclly
+:END:

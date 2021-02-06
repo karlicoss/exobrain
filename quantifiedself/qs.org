@@ -210,3 +210,18 @@ A bit insane (or is it?). But worth going through the biomarkers tests, etc, mig
 :CREATED:  [2019-11-13]
 :ID:       myfndmntlclclsntsthtdnttrdspcllymybltytdtctwksgnls
 :END:
+* TODO [#B] many hrv points are 0. wtf???                       :emfit:sleep:
+:PROPERTIES:
+:CREATED:  [2020-10-12]
+:ID:       mnyhrvpntsrwtf
+:END:
+* TODO [#B] hrv is 0 on some days... need to refresh the data do double check? :emfit:sleep:
+:PROPERTIES:
+:CREATED:  [2020-10-08]
+:ID:       hrvsnsmdysndtrfrshthdtddblchck
+:END:
+* TODO [#D] at least, track tea and coffee maybe?
+:PROPERTIES:
+:CREATED:  [2019-04-09]
+:ID:       tlsttrcktndcffmyb
+:END:

@@ -95,6 +95,25 @@ nice side annotations
 : A web version was initially created to help rekka with the writing of wiktopher,
 
 very nice {internal} vs [external] link syntax
+** DONE [2019-02-21] [[https://beaugunderson.com][Beau Gunderson]]
+:PROPERTIES:
+:ID:       sbgndrsncmbgndrsn
+:END:
+- State "DONE"       from              [2019-04-06]
+realtime qs... whoa
+*** [2019-04-06] ok, but nothing too exciting apart from projects list design (cv)
+:PROPERTIES:
+:ID:       kbtnthngtxctngprtfrmprjctslstdsgncv
+:END:
+*** [2019-06-29] also nice design and colors                           :blog:
+:PROPERTIES:
+:ID:       lsncdsgnndclrs
+:END:
+*** TODO [#B] [2021-02-06] I definitely want it for blog, much better than github pins (maybe also plot activity over time) :blog:
+:PROPERTIES:
+:ID:       dfntlywnttfrblgmchbttrthngthbpnsmyblspltctvtyvrtm
+:END:
+
 * [#C] * visual style
 :PROPERTIES:
 :ID:       vslstyl
@@ -193,7 +212,7 @@ https://jeffhuang.com/designed_to_last/
 
 * ----------------------------------------------------------
 :PROPERTIES:
-:ID:       5950_6012
+:ID:       6437_6499
 :END:
 
 * [#C] [2020-01-23] Web bloat                                         :bloat:

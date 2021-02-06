@@ -520,6 +520,10 @@ this (used in org-sync internals) simply results in empty buffer and silently ig
 :ID:       hvntslvdllmyglsbttlstflmnthrghtpth
 :END:
 
+** [2020-09-19] nice, everything is kind of coming together, pretty neatly. propagated fake data through the system, glued stuff together, etc. it could work :hpi:dashboard:
+:PROPERTIES:
+:ID:       ncvrythngskndfcmngtgthrprystmgldstfftgthrtctcldwrk
+:END:
 * I love open source                                                   :self:
 :PROPERTIES:
 :ID:       lvpnsrc
