@@ -1,44 +1,763 @@
-#+TITLE: Data exports
+#+TITLE: ⭐ Data exports & liberation
 #+filetags: exports
 
-* related                                       :infra:backup:dataliberation:
+I need data exports to build tools around my personal data, and the actual process of exporting it from a silo is the first step.
+
+After I export it I use it to build a [[https://beepb00p.xyz/sad-infra.html#data_mirror]['data mirror']].
+
+Here I mostly keep the notes about the data I haven't finished exporting.
+The ones I have already/mostly finished are mentioned here:
+
+- [[https://beepb00p.xyz/myinfra.html][Map of my infrastructure]]
+- [[https://beepb00p.xyz/my-data.html][What data on myself I collect and why?]]
+
+
+* related
 :PROPERTIES:
 :ID:       rltd
 :END:
-* TODO [#B] [2019-09-28] life-vault/selenium_takeout.py at master · ThorbenJensen/life-vault
+** .                                                                   :silo:
 :PROPERTIES:
-:ID:       lfvltslnmtktpytmstrthrbnjnsnlfvlt
+:ID:       590_602
 :END:
+** .                                                                  :infra:
+:PROPERTIES:
+:ID:       602_615
+:END:
+** .                                                                 :backup:
+:PROPERTIES:
+:ID:       615_629
+:END:
+** .                                                         :dataliberation:
+:PROPERTIES:
+:ID:       629_651
+:END:
+
+* [#A] * motivation
+:PROPERTIES:
+:ID:       mtvtn
+:END:
+Similar to [[file:backups.org][backups]].
+
+** [#C] [2020-03-17] "GitHub blocked me and all my libraries"  https://news.ycombinator.com/item?id=22593595
+:PROPERTIES:
+:ID:       gthbblckdmndllmylbrrssnwsycmbntrcmtmd
+:END:
+
+
+** TODO [#B] motivation for using gdpr/takeouts: convenient when you're migrating off the service? don't have to worry about regular exports
+:PROPERTIES:
+:CREATED:  [2021-02-06]
+:ID:       mtvtnfrsnggdprtktscnvnntwsrvcdnthvtwrrybtrglrxprts
+:END:
+** [#C] [2020-05-31] [[https://www.youtube.com/watch?v=X3SrZuH00GQ][Own your content on Social Media using the IndieWeb - YouTube]] :dataliberation:
+:PROPERTIES:
+:ID:       swwwytbcmwtchvxsrzhgqwnyrcntntnsclmdsngthndwbytb
+:END:
+
+* [#B] * implementation: goals/tips/practices
+:PROPERTIES:
+:ID:       mplmnttnglstpsprctcs
+:END:
+** [#A] [2019-10-03] another big goal is having little operational overhead. I'd rather set up a (potentially elaborate) system once and tthen never have to update it and think how it works :exports:infra:
+:PROPERTIES:
+:ID:       nthrbgglshvnglttlprtnlvrhhnnvrhvtpdttndthnkhwtwrks
+:END:
+*** [2019-10-03] that involves automatic ci                              :ci:
+:PROPERTIES:
+:ID:       thtnvlvstmtcc
+:END:
+*** [2019-10-03] continuous cloud sync                                :cloud:
+:PROPERTIES:
+:ID:       cntnscldsync
+:END:
+*** [2019-10-03] automation/cron jobs for orger                        :dron:
+:PROPERTIES:
+:ID:       tmtncrnjbsfrrgr
+:END:
+** STRT [#B] recommend checking the database to make sure it's got specific things you need :backupchecker:
+:PROPERTIES:
+:CREATED:  [2020-01-10]
+:ID:       rcmmndchckngthdtbstmksrtsgtspcfcthngsynd
+:END:
+** TODO [#B] synthetic style exports allow for defensive error handling -- you can at least get data from the last state :errors:
+:PROPERTIES:
+:CREATED:  [2020-06-06]
+:ID:       synthtcstylxprtsllwfrdfnslngycntlstgtdtfrmthlststt
+:END:
+** TODO [#D] eh. maybe get rid of colored logs for export process? presumably no one would look at them often
+:PROPERTIES:
+:CREATED:  [2020-06-13]
+:ID:       hmybgtrdfclrdlgsfrxprtprcssprsmblynnwldlktthmftn
+:END:
+** TODO [#D] use submodule for common files, but release as a standalone package? I guess it's the best of both
+:PROPERTIES:
+:CREATED:  [2020-07-05]
+:ID:       ssbmdlfrcmmnflsbtrlssstndlnpckggsststhbstfbth
+:END:
+** [#C] [2020-01-01] ChromeDevTools/devtools-protocol: Chrome DevTools Protocol :exports:scrape:
+:PROPERTIES:
+:ID:       chrmdvtlsdvtlsprtclchrmdvtlsprtcl
+:END:
+https://github.com/ChromeDevTools/devtools-protocol
+** TODO [#C] [2020-04-19] [[https://github.com/karlicoss/rexport/pull/6/files][open files using utf-8 encoding (fixes #5) by miguelrochefort · Pull Request #6 · karlicoss/rexport]]
+:PROPERTIES:
+:ID:       sgthbcmkrlcssrxprtpllflsplrchfrtpllrqstkrlcssrxprt
+:END:
+apply this to export helper...
+** TODO [#D] backup-wrapper is a more generic tool... basically running arb command and saving output with pattern
+:PROPERTIES:
+:CREATED:  [2018-11-29]
+:ID:       bckpwrpprsmrgnrctlbscllyrgrbcmmndndsvngtptwthpttrn
+:END:
+** TODO [#B] thinking about data providers                   :dataliberation:
+:PROPERTIES:
+:CREATED:  [2019-09-04]
+:ID:       thnkngbtdtprvdrs
+:END:
+
+Easiest option is just to have separate scripts to run regularly?
+
+*** most users won't care about keeping historic data? Or maybe not keeping data at all? jsut provide lambda?
+:PROPERTIES:
+:ID:       mstsrswntcrbtkpnghstrcdtrmybntkpngdttlljstprvdlmbd
+:END:
+so the backup script could provide TODO
+
+*** most users won't have cron set up?
+:PROPERTIES:
+:ID:       mstsrswnthvcrnstp
+:END:
+so need a way to trigger backup from promnesia indexer itself? Fairly easy to achieve as it's all just python code?
+
+*** to backup, use some python patternt library?
+:PROPERTIES:
+:ID:       tbckpssmpythnpttrntlbrry
+:END:
+*** example how it could work:
+:PROPERTIES:
+:ID:       xmplhwtcldwrk
+:END:
+in promnesia
+
+: def index_reddit():
+:     from exporters.reddit import export
+:     # TODO?
+:     return
+** TODO [#C] dashboard for tokens + expose json or something so any language can have bindings :infra:exports:
+:PROPERTIES:
+:CREATED:  [2020-03-24]
+:ID:       dshbrdfrtknsxpsjsnrsmthngsnylnggcnhvbndngs
+:END:
+might be annoying to implement token retrieval on JS only?
+*** [2020-04-12] add this to myinfra repository??
+:PROPERTIES:
+:ID:       ddthstmynfrrpstry
+:END:
+*** TODO [#B] [2020-05-27] dunno, I'm a bit tired and not as motivated to build it... but could post so someone else picks up :toblog:
+:PROPERTIES:
+:ID:       dnnmbttrdndntsmtvtdtbldtbtcldpstssmnlspcksp
+:END:
+* STRT [#B] * twitter                                               :twitter:
+:PROPERTIES:
+:ID:       twttr
+:END:
+Twitter is a big pain in the ass, they've become very hostile towards API access.
+Even the archives are somewhat incomplete (e.g. favorites lack some metadata).
+
+E.g. from [[https://developer.twitter.com/en/application/intent][Apply for API — Twitter Developers]]
+
+: Be thorough
+: We need to completely understand your use case before we can approve it. So, please include as much detail as possible in your application.
+
+** TODO [#A] hmm. links that you get through search or API are shortened? :linkrot:twitter:twint:
+:PROPERTIES:
+:CREATED:  [2020-04-28]
+:ID:       hmmlnksthtygtthrghsrchrprshrtnd
+:END:
+*** TODO [2020-04-28] shit.. also RTs are shortened?? so I need to get retweets properly?
+:PROPERTIES:
+:ID:       shtlsrtsrshrtndsndtgtrtwtsprprly
+:END:
+** STRT [#B] [2021-01-19] [[https://github.com/bisguzar/twitter-scraper][bisguzar/twitter-scraper: Scrape the Twitter Frontend API without authentication.]] :twitter:exports:
+:PROPERTIES:
+:ID:       sgthbcmbsgzrtwttrscrprbsgthtwttrfrntndpwthtthntctn
+:END:
+
+** TODO [#C] twint itself should work as incremental export... and then DAL should combine :twint:
+:PROPERTIES:
+:CREATED:  [2020-11-30]
+:ID:       twnttslfshldwrksncrmntlxprtndthndlshldcmbn
+:END:
+Even though Twint uses db, they seem to treat is as a temporary storage, so the schema might change.
+I'm also not super convinced by how reliable the code is (from quick glance), so would worry about data loss.
+
+** TODO [#D] [2019-07-28] [[https://github.com/jonbakerfish/TweetScraper][jonbakerfish/TweetScraper: TweetScraper is a simple crawler/spider for Twitter Search without using API]] :twitter:
+:PROPERTIES:
+:ID:       sgthbcmjnbkrfshtwtscrprjnlrspdrfrtwttrsrchwthtsngp
+:END:
+** TODO [#D] talon databases (lots of them!)                    :hpi:android:
+:PROPERTIES:
+:CREATED:  [2020-04-28]
+:ID:       tlndtbssltsfthm
+:END:
+** [#D] [2019-07-29] taspinar/twitterscraper: Scrape Twitter for Tweets https://github.com/taspinar/twitterscraper
+:PROPERTIES:
+:ID:       tspnrtwttrscrprscrptwttrfwtssgthbcmtspnrtwttrscrpr
+:END:
+: One of the bigger disadvantages of the Search API is that you can only access Tweets written in the past 7 days. This is a major bottleneck for anyone looking for older past data to make a model from. With TwitterScraper there is no such limitation.
+** TODO [#C] err, new twitter exports are half gig each?
+:PROPERTIES:
+:CREATED:  [2019-08-17]
+:ID:       rrnwtwttrxprtsrhlfggch
+:END:
+* STRT [#B] * hackernews                                         :hackernews:
+:PROPERTIES:
+:ID:       hckrnws
+:END:
+** TODO [#B] [2020-04-05] Our plan is for the next version of HN's API to simply serve a JSON version of e... | Hacker News :hackernews:
+:PROPERTIES:
+:ID:       rplnsfrthnxtvrsnfhnsptsmplysrvjsnvrsnfhckrnws
+:END:
+https://news.ycombinator.com/item?id=22788526
+:  Our plan is for the next version of HN's API to simply serve a JSON version of every page. I'm hoping to get to that this year.
+** TODO [#D] [2020-04-07] Profile: karlicoss | Hacker News
+:PROPERTIES:
+:ID:       prflkrlcsshckrnws
+:END:
+https://news.ycombinator.com/user?id=karlicoss
+: user:	karlicoss
+: created:	August 25, 2016
+: karma:	757
+
+capture HN karma? maybe on all comments
+** [2020-04-29] need to mirror HN...                     :hackernews:exports:
+:PROPERTIES:
+:ID:       ndtmrrrhn
+:END:
+* STRT [#C] * google takeout/other google data                      :takeout:
+:PROPERTIES:
+:ID:       ggltktthrggldt
+:END:
+Google Takeout doesn't have a proper API, and periodic expots are kind of annoying... would be good to automate them.
+
+Another difficulty is that the data [[https://beepb00p.xyz/takeout-data-gone.html][seems to have a certain retention]],
+so you can't just take the latest takeout, for some data you need to merge all of them.
+
+** TODO [#B] wonder if it's possible to get watch position? :takeout:youtube:
+:PROPERTIES:
+:CREATED:  [2021-02-03]
+:ID:       wndrftspssbltgtwtchpstn
+:END:
+** TODO [#C] automating login & downloading
+:PROPERTIES:
+:ID:       tmtnglgndwnldng
+:END:
+*** TODO [#B] [2019-09-28] life-vault/selenium_takeout.py at master · ThorbenJensen/life-vault https://github.com/ThorbenJensen/life-vault/blob/master/src/takeout/selenium_takeout.py
+:PROPERTIES:
+:ID:       lfvltslnmtktpytmstrthrbnjvltblbmstrsrctktslnmtktpy
+:END:
+
+*** STRT automating google drive                     :takeout:backup:exports:
+:PROPERTIES:
+:CREATED:  [2019-02-22]
+:ID:       tmtngggldrv
+:END:
+- ocamlfuse + script to move to desired location
+- basically that only requires you to request new archive occasionally
+*** STRT automate google takeouts?
+:PROPERTIES:
+:CREATED:  [2018-11-18]
+:ID:       tmtggltkts
+:END:
+maybe release my module for 2FA separately?
 https://github.com/ThorbenJensen/life-vault/blob/master/src/takeout/selenium_takeout.py
 
-* TODO [#B] hmm, 9000 limit? might be necessary to do synthetic export instead... :hypothesis:
+** TODO [#C] [2021-01-10] [[https://hypothes.is/a/b-fmWlHEEeuiFt9suM9mMQ][Hypothesis]] :takeout:
+:PROPERTIES:
+:ID:       shypthssbfmwlhftsmmmqhypthss
+:END:
+: Seriously, check out ratarmount if you haven't. Since the Google Takeout spans multiple 50GB tgz files (I'm at ~14, not including Google Drive in the takeout), ratarmount is brilliant. It merges all of the tgz contents into a single folder structure so /path/a/1.jpg and /path/a/1.json might be in different tgz folders but are mounted in to the same folder.
+** TODO [#C] could sync mini-takeouts? with only necessary stuff picked from them :takeout:
+:PROPERTIES:
+:CREATED:  [2019-06-11]
+:ID:       cldsyncmntktswthnlyncssrystffpckdfrmthm
+:END:
+
+** TODO [#C] youtube watch history -- should be accumulated from multiple takeouts :youtube:
+:PROPERTIES:
+:CREATED:  [2019-09-17]
+:ID:       ytbwtchhstryshldbccmltdfrmmltpltkts
+:END:
+** [#D] [2019-06-11] eh, recompressing to .tar.xz only saved 100 mb :takeout:
+:PROPERTIES:
+:ID:       hrcmprssngttrxznlysvdmb
+:END:
+** TODO [#D] ugh, also when it's too large, they split archive in two :takeout:
+:PROPERTIES:
+:CREATED:  [2020-01-23]
+:ID:       ghlswhntstlrgthyspltrchvntw
+:END:
+** TODO [#D] also disappearing Disover/Myacvitiy??                  :takeout:
+:PROPERTIES:
+:CREATED:  [2020-04-24]
+:ID:       lsdspprngdsvrmycvty
+:END:
+: 20180807 My Activity/Discover/MyActivity.html                                    20190523 20181015 My Activity/Discover/MyActivity.html                                    20190522 20181213 My Activity/Discover/MyActivity.html                                    20200122
+
+
+
+** [2020-04-23] [[https://beepb00p.xyz/takeout-data-gone.html][I've found Google Takeouts to silently remove old data | beepb00p]]
+:PROPERTIES:
+:ID:       sbpbpxyztktdtgnhtmlvfndggltktstslntlyrmvlddtbpbp
+:END:
+huh, so with my script to search takeout duplicates, I've figured out that from 2015 at least Search/MyActivity.html hasn't been erased? interesting
+but looks like Chrome/MyActivity.html still being removed
+** [2020-04-24] [[https://support.google.com/websearch/forum/AAAAgtjJeM4qYYSPkPYJw8/?hl=en&gpf=%23!topic%2Fwebsearch%2FqYYSPkPYJw8%3Bcontext-place%3Dforum%2Fwebsearch][Takeout/My Activity/Search data is limited to last 10 years. Please remove limit - Google Search Community]]
+:PROPERTIES:
+:ID:       sspprtgglcmwbsrchfrmgtjjmyrsplsrmvlmtgglsrchcmmnty
+:END:
+: Takeout/My Activity/Search data is limited to last 10 years. Please remove limit
+** TODO [#C] [2020-04-29] [[https://news.ycombinator.com/item?id=23015742][> I’ve already pulled down my 2-300GB Google Photos archive How? I've tried sev... | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdvlrdyplldglphtsrchvhwvtrdsvhckrnws
+:END:
+: cuu508 1 hour ago [-]
+: Takeout doesn't work in practice for bigger collections (archive creation routinely fails, timeouts while downloading, 50GB max size results in many splits)
+: I've used this 3rd party tool and it worked OK: https://github.com/gilesknap/gphotos-sync/
+: geekgonecrazy 1 hour ago [-]
+: I forgot to mention this. But yes the export failed several dozen times. I believe I ended up doing in chunks. It was hard to get them off
+** [#C] [2020-05-04] [[https://news.ycombinator.com/item?id=23032818][I replied to a similar point about hashing here - https://news.ycombinator.com/i... | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdrpldtsmlrhnghrsnwsycmbntrcmhckrnws
+:END:
+: You're correct that the methods I described are a far cry from actually guaranteeing that the backup has no errors. In the same way that a unit test doesn't prove code is error-free, but _can_ justify increased confidence in the code, I'm interested in techniques that can justify increased confidence in my backups. Particularly in cases where I don't have direct access to the original data, and where exhaustively checking the data manually is too time-consuming to be worth it.
+
+yes!
+** TODO [#C] [2020-01-01] perkeep/gphotos-cdp: This program uses the Chrome DevTools Protocol to drive a Chrome session that downloads your photos stored in Google Photos. :scrape:
+:PROPERTIES:
+:ID:       prkpgphtscdpthsprgrmssthctdwnldsyrphtsstrdngglphts
+:END:
+https://github.com/perkeep/gphotos-cdp
+: In our original Perkeep issue, @bradfitz said that we might have to give up on APIs and resort to scraping, noting that the Chrome DevTools Protocol makes this pretty easy.
+** TODO [#C] [2019-06-28] After hoarding over 50k YouTube videos, here is the youtube-dl command I settled on. : DataHoarder
+:PROPERTIES:
+:ID:       ftrhrdngvrkytbvdshrsthytbdlcmmndsttldndthrdr
+:END:
+https://www.reddit.com/r/DataHoarder/comments/c6fh4x/after_hoarding_over_50k_youtube_videos_here_is/
+: After hoarding over 50k YouTube videos, here is the youtube-dl command I settled on.
+
+** [#C] [2020-01-01] perkeep/gphotos-cdp: This program uses the Chrome DevTools Protocol to drive a Chrome session that downloads your photos stored in Google Photos. https://github.com/perkeep/gphotos-cdp
+:PROPERTIES:
+:ID:       prkpgphtscdpthsprgrmssthcglphtssgthbcmprkpgphtscdp
+:END:
+:  we'd like our photos mirrored in seconds or minutes, not weeks.
+* STRT [#C] * emfit sleep tracker                                     :emfit:
+:PROPERTIES:
+:ID:       mftslptrckr
+:END:
+Emfit QS is my sleep tracker.
+
+** TODO [#B] [2018-08-18] Emfit has local API; would be nice to use it... :emfit:
+:PROPERTIES:
+:ID:       mfthslclpwldbnctst
+:END:
+https://gist.github.com/harperreed/9d063322eb84e88bc2d0580885011bdd
+https://gist.github.com/karlicoss/3361f6a239048a451daa2a02982ee180
+
+** [#C] [2019-12-17] downloadEmfitAPI.py https://gist.github.com/vanne02135/6901cc2b92315881080d0ce0f07c1a17
+:PROPERTIES:
+:ID:       dwnldmftppysgstgthbcmvnnccbdcfc
+:END:
+
+** TODO [#C] ugh. maybe autorefresh the token? Fuckig hell.           :emfit:
+:PROPERTIES:
+:CREATED:  [2020-08-27]
+:ID:       ghmybtrfrshthtknfckghll
+:END:
+*** [2021-02-06] I think I ended up just using login + password. meh
+:PROPERTIES:
+:ID:       thnknddpjstsnglgnpsswrdmh
+:END:
+** TODO [#D] hmm, with emfit can code some sort of feedback tool which signals me to move when emfit loses signal :emfit:
+:PROPERTIES:
+:CREATED:  [2018-10-16]
+:ID:       hmmwthmftcncdsmsrtffdbckthchsgnlsmtmvwhnmftlsssgnl
+:END:
+** [#D] [2020-05-29] emfit API didn't work for about three days straight... :emfit:backup:
+:PROPERTIES:
+:ID:       mftpddntwrkfrbtthrdysstrght
+:END:
+
+** [#D] [2019-12-21] samuelmr/emfit-qs: Unofficial Node client for Emfit QS
+:PROPERTIES:
+:ID:       smlmrmftqsnffclndclntfrmftqs
+:END:
+https://github.com/samuelmr/emfit-qs
+: Exchange username and password to a token (expires in 7 days). You can also log in to qs.emfit.com and check the ´remember_token´ parameter passed to API calls (e.g. with developer tools of your browser).
+* STRT [#C] * bluemaestro temperature sensor                    :bluemaestro:
+:PROPERTIES:
+:ID:       blmstrtmprtrsnsr
+:END:
+** STRT [#C] figure out bluemaestro, make sure all merged       :bluemaestro:
+:PROPERTIES:
+:CREATED:  [2019-03-06]
+:ID:       fgrtblmstrmksrllmrgd
+:END:
+- State "STRT"      from "TODO"       [2019-03-12]
+
+** TODO [#C] actually wonder if I can connect it to computer?   :bluemaestro:
+:PROPERTIES:
+:CREATED:  [2019-10-06]
+:ID:       ctllywndrfcncnnctttcmptr
+:END:
+** STRT [#C] merge bluemaestros, plot separate environmental dashboard? :dashboard:
+:PROPERTIES:
+:CREATED:  [2020-07-06]
+:ID:       mrgblmstrspltsprtnvrnmntldshbrd
+:END:
+** TODO [#C] automate, about how I back up bluemaestro data          :toblog:
+:PROPERTIES:
+:CREATED:  [2019-02-13]
+:ID:       tmtbthwbckpblmstrdt
+:END:
+** [2019-09-29] yeah, could elaborate on backing up android data, could be quite generic? :android:
+:PROPERTIES:
+:ID:       yhcldlbrtnbckngpndrddtcldbqtgnrc
+:END:
+
+* STRT [#C] * reddit                                                 :reddit:
+:PROPERTIES:
+:ID:       rddt
+:END:
+** TODO [#C] I think cool fact should just be converted into org mode from backups (merged!) but generally there is no point capturing them? :reddit:
+:PROPERTIES:
+:CREATED:  [2019-01-27]
+:ID:       thnkclfctshldjstbcnvrtdntbtgnrllythrsnpntcptrngthm
+:END:
+*** [2019-09-10] er, I guess for orger need to extract a simple reddit provider that just merges various timestamped backups?
+:PROPERTIES:
+:ID:       rgssfrrgrndtxtrctsmplrddtthtjstmrgsvrstmstmpdbckps
+:END:
+
+** TODO [#C] I guess just rely on bleanser instead after all? Just make it less spammy :bleanser:reddit:
+:PROPERTIES:
+:CREATED:  [2019-08-01]
+:ID:       gssjstrlynblnsrnstdftrlljstmktlssspmmy
+:END:
+** STRT [#D] Check for deleted favorites                             :reddit:
+:PROPERTIES:
+:CREATED:  [2019-01-01]
+:ID:       chckfrdltdfvrts
+:END:
+- State "STRT"      from "TODO"       [2019-03-23]
+*** [2019-08-25] yep, it def happens; promnesia triggers it
+:PROPERTIES:
+:ID:       yptdfhppnsprmnstrggrst
+:END:
+
+** DONE [#C] shit. need to bleanse reddit properly, otherwise looks like it's too much data... :reddit:
+:PROPERTIES:
+:CREATED:  [2019-04-12]
+:ID:       shtndtblnsrddtprprlythrwslkslktstmchdt
+:END:
+
+** TODO [#C] basically, just go through stuff that doesn't exist anymore but was in favorites ever (and suppress errors for some of them) :reddit:
+:PROPERTIES:
+:CREATED:  [2019-01-27]
+:ID:       bscllyjstgthrghstffthtdsnrtsvrndspprssrrrsfrsmfthm
+:END:
+
+** [#C] [2020-01-11] Getting Started — PRAW 3.6.0 documentation      :reddit:
+:PROPERTIES:
+:ID:       gttngstrtdprwdcmnttn
+:END:
+https://praw.readthedocs.io/en/v3.6.0/pages/getting_started.html#connecting-to-reddit
+: You may also have realized that the karma values change from run to run. This inconsistency is due to reddit’s obfuscation of the upvotes and downvotes. The obfuscation is done to everything and everybody to thwart potential cheaters. There’s nothing we can do to prevent this.
+* STRT [#C] * browser history
+:PROPERTIES:
+:ID:       brwsrhstry
+:END:
+** TODO [#D] compress databases as xz? would same about half of space at least, even more on firefox databases :promnesia:
+:PROPERTIES:
+:CREATED:  [2019-10-12]
+:ID:       cmprssdtbsssxzwldsmbthlffspctlstvnmrnfrfxdtbss
+:END:
+*** [2020-09-05] probably not necessary with pruning
+:PROPERTIES:
+:ID:       prbblyntncssrywthprnng
+:END:
+** STRT [#C] cleanup firefox phone exports...
+:PROPERTIES:
+:CREATED:  [2020-05-06]
+:ID:       clnpfrfxphnxprts
+:END:
+** STRT [#C] firefox history -- db format has changed??           :hpi:infra:
+:PROPERTIES:
+:CREATED:  [2020-08-28]
+:ID:       frfxhstrydbfrmthschngd
+:END:
+** STRT [#C] firefox history -- could compress with zstd? seems like 30x compression :promnesia:
+:PROPERTIES:
+:CREATED:  [2020-06-10]
+:ID:       frfxhstrycldcmprsswthzstdsmslkxcmprssn
+:END:
+*** [2020-06-10] to start with -- simply compress locally once the db is synced, will think about doing something smarter later
+:PROPERTIES:
+:ID:       tstrtwthsmplycmprsslcllynllthnkbtdngsmthngsmrtrltr
+:END:
+** STRT [#B] firefox dev history                                      :phone:
+:PROPERTIES:
+:CREATED:  [2020-12-03]
+:ID:       frfxdvhstry
+:END:
+** TODO [#B] [2020-08-29] [[https://github.com/seanbreckenridge/ffexport][seanbreckenridge/ffexport: export and interface with firefox history/visits and site metadata]]
+:PROPERTIES:
+:ID:       sgthbcmsnbrcknrdgffxprtsncwthfrfxhstryvstsndstmtdt
+:END:
+
+* STRT [#C] * hypothesis                                         :hypothesis:
+:PROPERTIES:
+:ID:       hypthss
+:END:
+** TODO [#B] hmm, 9000 limit? might be necessary to do synthetic export instead... :hypothesis:
 :PROPERTIES:
 :CREATED:  [2019-12-30]
 :ID:       hmmlmtmghtbncssrytdsynthtcxprtnstd
 :END:
-* TODO [#B] Feedbin starred stuff
+** TODO [#C] Hypothesis API are cloned as well.                  :hypothesis:
 :PROPERTIES:
-:CREATED:  [2019-12-18]
-:ID:       fdbnstrrdstff
+:CREATED:  [2020-01-19]
+:ID:       hypthssprclndswll
+:END:
+*** [2020-01-21] fix in hypexport?
+:PROPERTIES:
+:ID:       fxnhypxprt
 :END:
 
-* TODO [#B] /data/data/com.whatsapp/databases/msgstore.db          :whatsapp:
+* STRT [#D] * github                                                 :github:
+:PROPERTIES:
+:ID:       gthb
+:END:
+** [#B] [2020-02-01] motivation for github backups                  :exports:
+:PROPERTIES:
+:ID:       mtvtnfrgthbbckps
+:END:
+: > if the official repo is taken down, your forks will disappear unless you have a copy.
+: https://help.github.com/en/github/collaborating-with-issues-...
+: I don't think that's true, I've personally recovered deleted repositories by finding its forks.
+: edit: Ah never mind it seems things work differently in the case of DMCA takedowns
+
+** TODO [#C] warn about large repos?                                 :github:
+:PROPERTIES:
+:CREATED:  [2019-12-29]
+:ID:       wrnbtlrgrps
+:END:
+** TODO [#D] ghexport -- read times out                            :ghexport:
+:PROPERTIES:
+:CREATED:  [2020-06-22]
+:ID:       ghxprtrdtmst
+:END:
+: requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.github.com', port=443): Read timed out. (read timeout=15)
+** TODO [#D] 500 error                                             :ghexport:
+:PROPERTIES:
+:CREATED:  [2020-06-22]
+:ID:       rrr
+:END:
+:  File "/home/karlicos/.local/lib/python3.7/site-packages/github/Requester.py",
+: line 276, in requestJsonAndCheck
+:     return self.__check(*self.requestJson(verb, url, parameters, headers,
+: input, self.__customConnection(url)))
+:   File "/home/karlicos/.local/lib/python3.7/site-packages/github/Requester.py",
+: line 287, in __check
+:     raise self.__createException(status, responseHeaders, output)
+: github.GithubException.GithubException: 500 None
+** TODO [#D] backport old github backups to new format? should be enough to just wrap in 'events' :backup:timeline:promnesia:
+:PROPERTIES:
+:CREATED:  [2019-09-19]
+:ID:       bckprtldgthbbckpstnwfrmtshldbnghtjstwrpnvnts
+:END:
+** TODO [#C] github -- starred repos aren't updated??
+:PROPERTIES:
+:CREATED:  [2020-03-14]
+:ID:       gthbstrrdrpsrntpdtd
+:END:
+
+* TODO [#D] * whatsapp                                             :whatsapp:
+:PROPERTIES:
+:ID:       whtspp
+:END:
+I don't really use it and it's pretty hostile so unlikely I'll bother.
+
+** TODO [#B] /data/data/com.whatsapp/databases/msgstore.db         :whatsapp:
 :PROPERTIES:
 :CREATED:  [2020-01-11]
 :ID:       dtdtcmwhtsppdtbssmsgstrdb
 :END:
 actually has messages!
-* TODO [#C] need to switch all formats to json.. I guess it's still reasonable to have HTML parser because old takeouts didn't have it :takeout:
+
+** [#C] [2020-01-17] MasterScrat/Chatistics: 💬 Python scripts to parse your Messenger, Hangouts, WhatsApp and Telegram chat logs into DataFrames. :whatsapp:
 :PROPERTIES:
-:CREATED:  [2019-05-19]
-:ID:       ndtswtchllfrmtstjsngsstssvhtmlprsrbcsldtktsddnthvt
+:ID:       mstrscrtchtstcspythnscrpttsppndtlgrmchtlgsntdtfrms
 :END:
-** TODO [#B] [2019-09-10] that's also important before releasing  :promnesia:
+https://github.com/MasterScrat/Chatistics
+: Unfortunately, WhatsApp only lets you export your conversations from your phone and one by one.
+: 
+:     On your phone, open the chat conversation you want to export
+:     On Android, tap on ⋮ > More > Export chat. On iOS, tap on the interlocutor's name > Export chat
+:     Choose "Without Media"
+:     Send chat to yourself eg via Email
+:     Unpack the archive and add the individual .txt files to the folder ./raw_data/whatsapp/
+** [#C] [2019-07-13] tgalal/yowsup: The WhatsApp lib https://github.com/tgalal/yowsup
 :PROPERTIES:
-:ID:       thtslsmprtntbfrrlsng
+:ID:       tgllywspthwhtspplbsgthbcmtgllywsp
+:END:
+: It seems that recently yowsup gets detected during registration resulting in an instant ban for your number right after registering with the code you receive by sms/voice. I'd strongly recommend to not attempt registration through yowsup until I look further into this. Follow the status of this here.
+* STRT [#D] * stackexchange                                   :stackexchange:
+:PROPERTIES:
+:ID:       stckxchng
+:END:
+** TODO [#C] [2019-09-01] Usage of /users/{ids}/favorites <span class='http-method' title='expects a GET HTTP method'>GET</span> - Stack Exchange API :promnesia:
+:PROPERTIES:
+:ID:       sgfsrsdsfvrtsspnclssmthdtpctsgtmthdgtspnstckxchngp
+:END:
+https://api.stackexchange.com/docs/favorites-on-users
+:  Usage of /users/{ids}/favorites GET
+:  Discussion
+:  Get the questions that users in {ids} have favorited.
+:  This method is effectively a view onto a user's favorites tab.
+:  {ids} can contain up to 100 semicolon delimited ids. To find ids programmatically look for user_id on user or shallow_user objects.
+:  The sorts accepted by this method operate on the following fields of the question object:
+:      activity – last_activity_date
+:      creation – creation_date
+:      votes – score
+:      added – when the user favorited the question
+:  activity is the default sort.
+:  It is possible to create moderately complex queries using sort, min, max, fromdate, and todate.
+:  This method returns a list of questions.
+*** [2019-09-16] shit. seems that no way to get upvoted posts... https://meta.stackexchange.com/questions/299264/how-to-get-the-list-of-all-posts-ive-upvoted-via-the-api
+:PROPERTIES:
+:ID:       shtsmsthtnwytgtpvtdpstssmwtgtthlstfllpstsvpvtdvthp
+:END:
+*** [2019-09-16] https://meta.stackexchange.com/questions/148008/how-can-i-see-comments-that-ive-upvoted
+:PROPERTIES:
+:ID:       smtstckxchngcmqstnshwcnscmmntsthtvpvtd
+:END:
+*** TODO [2019-09-16] fuck. I guess I'm gonna have to scrape votes... https://stackoverflow.com/users/706389/karlicoss?tab=votes
+:PROPERTIES:
+:ID:       fckgssmgnnhvtscrpvtssstckvrflwcmsrskrlcsstbvts
+:END:
+** TODO [#C] stackexchange -- there are comments in GDPR requested data :stackexchange:
+:PROPERTIES:
+:CREATED:  [2019-09-17]
+:ID:       stckxchngthrrcmmntsngdprrqstddt
+:END:
+** TODO [#C] stackexchange -- shit
+:PROPERTIES:
+:CREATED:  [2019-09-21]
+:ID:       stckxchngsht
+:END:
+:  ERROR:stexport:Giving up fetch_backoff(...) after 1 tries (stackapi.stackapi.StackAPIError: ('https://api.stackexchange.com/2.2/users/706389/privileges/?pagesize=100&page=1&filter=%21LVBj2%28M0Wr1s_VedzkH%28VG&site=alcohol.meta', 502, 'throttle_violation', 'too many requests from this IP, more requests available in 50511 seconds')
+** TODO [#C] stackexchange -- need to figure out how to import remaining data...
+:PROPERTIES:
+:CREATED:  [2019-10-05]
+:ID:       stckxchngndtfgrthwtmprtrmnngdt
+:END:
+** TODO [#C] Today I would probably have tried parsing the Stack Exchange Data Dump instead.
+:PROPERTIES:
+:CREATED:  [2020-02-09]
+:ID:       tdywldprbblyhvtrdprsngthstckxchngdtdmpnstd
+:END:
+Todo promnesia
+from [[https://www.instapaper.com/read/1275853358/12253044][ip]]   [[https://www.vidarholen.net/contents/blog/?p=859][Lessons learned from writing ShellCheck, GitHub’s now most starred Haskell project – Vidar's Blog]]
+*** [2021-02-06] hmm, it's actual dump of _all_ comments... bit too much I guess
+:PROPERTIES:
+:ID:       hmmtsctldmpfllcmmntsbttmchgss
 :END:
 
-* STRT [#C] Need my email mirrored                                :plaintext:
+* TODO [#D] * mastodon                                             :mastodon:
+:PROPERTIES:
+:ID:       mstdn
+:END:
+** [#C] [2020-01-11] kensanata/mastodon-backup: Archive your statuses, favorites and media using the Mastodon API (i.e. login required)
+:PROPERTIES:
+:ID:       knsntmstdnbckprchvyrsttssrtsndmdsngthmstdnplgnrqrd
+:END:
+https://github.com/kensanata/mastodon-backup
+:  Thus, if every request gets 20 toots, then we can get at most 6000 toots per five minutes.
+** TODO zigg/grabby: tools for scraping your Mastodon account data :mastodon:
+:PROPERTIES:
+:CREATED:  [2020-01-13]
+:ID:       zgggrbbytlsfrscrpngyrmstdnccntdt
+:END:
+
+https://github.com/zigg/grabby
+
+** TODO [#D] [2019-12-29] halcy/Mastodon.py: Python wrapper for the Mastodon ( https://github.com/tootsuite/mastodon/ ) API. :mastodon:
+:PROPERTIES:
+:ID:       hlcymstdnpypythnwrpprfrthmstdnsgthbcmttstmstdnp
+:END:
+https://github.com/halcy/Mastodon.py
+
+** TODO [#C] tusky android app keeps some history in tuskyDb   :hpi:mastodon:
+:PROPERTIES:
+:CREATED:  [2021-01-24]
+:ID:       tskyndrdppkpssmhstryntskydb
+:END:
+
+* STRT [#D] * pinboard                                             :pinboard:
+:PROPERTIES:
+:ID:       pnbrd
+:END:
+** TODO [#D] huh looks like pinboard is quite unstable with regards to backup... unless the backup script is wrong or something? :bleanser:
+:PROPERTIES:
+:CREATED:  [2019-03-24]
+:ID:       hhlkslkpnbrdsqtnstblwthrgssthbckpscrptswrngrsmthng
+:END:
+
+** [#C] [2019-04-19] Pinboard on Twitter: "Next question is, does a raw API call give the same results as the website? The API and website search engine run off of different indexes.… https://t.co/CZrLE7YNWo" :pinboard:
+:PROPERTIES:
+:ID:       pnbrdntwttrnxtqstnsdsrwpcrnfffdffrntndxsstcczrlynw
+:END:
+https://twitter.com/Pinboard/status/1113807174717792256
+: Next question is, does a raw API call give the same results as the website? The API and website search engine run off of different indexes.
+
+* ------------ other data sources  ---------------
+:PROPERTIES:
+:ID:       thrdtsrcs
+:END:
+
+* STRT [#B] Podcast addict data
+:PROPERTIES:
+:CREATED:  [2020-08-04]
+:ID:       pdcstddctdt
+:END:
+
+* TODO [#B] [2020-07-31] [[https://github.com/alexattia/Maps-Location-History][alexattia/Maps-Location-History: Get, Concatenate and Process you location history from Google Maps TimeLine]] :location:timeline:qs:
+:PROPERTIES:
+:ID:       sgthbcmlxttmpslctnhstrylxssylctnhstryfrmgglmpstmln
+:END:
+: In order to export processed data from Google Maps website from a python script, you need to get your actual cookie.
+
+fuck me! it actually exports kml files
+* TODO [#B] ok, so need to preserve all (incl.older) versions of notebooks? dunno feels a bit excessive :timeline:remarkable:
+:PROPERTIES:
+:CREATED:  [2020-11-27]
+:ID:       ksndtprsrvllnclldrvrsnsfntbksdnnflsbtxcssv
+:END:
+* [#B] [2020-10-25] [[https://connect.garmin.com/modern/daily-summary/2020-10-25/heartRate][Garmin Connect]] :garmin:
+:PROPERTIES:
+:ID:       scnnctgrmncmmdrndlysmmryhrtrtgrmncnnct
+:END:
+: Looks like you experienced a time change. This may cause some inaccuracies with today's data.
+
+jesus!
+* TODO [#B] [2020-12-30] [[https://github.com/fbchat-dev/fbchat/issues/613][Notice: This project is unmaintained · Issue #613 · fbchat-dev/fbchat]] :facebook:
+:PROPERTIES:
+:ID:       sgthbcmfbchtdvfbchtsssntcrjctsnmntndssfbchtdvfbcht
+:END:
+
+* STRT [#C] Need my email mirrored                                    :email:
 :PROPERTIES:
 :CREATED:  [2019-02-06]
 :ID:       ndmymlmrrrd
@@ -48,76 +767,101 @@ actually has messages!
 :PROPERTIES:
 :ID:       gsswntcntnsntsrhwtchvthtprhpssmmlclntnthbckgrnd
 :END:
-* STRT [#C] figure out bluemaestro, make sure all merged        :bluemaestro:
-:PROPERTIES:
-:CREATED:  [2019-03-06]
-:ID:       fgrtblmstrmksrllmrgd
-:END:
-- State "STRT"      from "TODO"       [2019-03-12]
-
-* TODO [#C] could sync mini-takeouts? with only necessary stuff picked from them :takeout:
-:PROPERTIES:
-:CREATED:  [2019-06-11]
-:ID:       cldsyncmntktswthnlyncssrystffpckdfrmthm
-:END:
-
-* TODO [#C] err, new twitter exports are half gig each?
-:PROPERTIES:
-:CREATED:  [2019-08-17]
-:ID:       rrnwtwttrxprtsrhlfggch
-:END:
-* TODO [#C] [2019-09-01] Usage of /users/{ids}/favorites <span class='http-method' title='expects a GET HTTP method'>GET</span> - Stack Exchange API :promnesia:
-:PROPERTIES:
-:ID:       sgfsrsdsfvrtsspnclssmthdtpctsgtmthdgtspnstckxchngp
-:END:
-https://api.stackexchange.com/docs/favorites-on-users
-:  Usage of /users/{ids}/favorites GET
-:  Discussion
-: 
-:  Get the questions that users in {ids} have favorited.
-: 
-:  This method is effectively a view onto a user's favorites tab.
-: 
-:  {ids} can contain up to 100 semicolon delimited ids. To find ids programmatically look for user_id on user or shallow_user objects.
-: 
-:  The sorts accepted by this method operate on the following fields of the question object:
-: 
-:      activity – last_activity_date
-:      creation – creation_date
-:      votes – score
-:      added – when the user favorited the question
-: 
-:  activity is the default sort.
-: 
-:  It is possible to create moderately complex queries using sort, min, max, fromdate, and todate.
-: 
-:  This method returns a list of questions.
-** [2019-09-16] shit. seems that no way to get upvoted posts... https://meta.stackexchange.com/questions/299264/how-to-get-the-list-of-all-posts-ive-upvoted-via-the-api
-:PROPERTIES:
-:ID:       shtsmsthtnwytgtpvtdpstssmwtgtthlstfllpstsvpvtdvthp
-:END:
-** [2019-09-16] https://meta.stackexchange.com/questions/148008/how-can-i-see-comments-that-ive-upvoted
-:PROPERTIES:
-:ID:       smtstckxchngcmqstnshwcnscmmntsthtvpvtd
-:END:
-** TODO [2019-09-16] fuck. I guess I'm gonna have to scrape votes... https://stackoverflow.com/users/706389/karlicoss?tab=votes
-:PROPERTIES:
-:ID:       fckgssmgnnhvtscrpvtssstckvrflwcmsrskrlcsstbvts
-:END:
-* STRT [#C] [2019-06-13] joeyates/imap-backup: Backup GMail (or other IMAP) accounts to disk
+* STRT [#C] [2019-06-13] joeyates/imap-backup: Backup GMail (or other IMAP) accounts to disk :email:
 :PROPERTIES:
 :ID:       jytsmpbckpbckpgmlrthrmpccntstdsk
 :END:
 https://github.com/joeyates/imap-backup
 
-* TODO [#C] I think cool fact should just be converted into org mode from backups (merged!) but generally there is no point capturing them? :reddit:
+* TODO [#C] Bandcamp history
 :PROPERTIES:
-:CREATED:  [2019-01-27]
-:ID:       thnkclfctshldjstbcnvrtdntbtgnrllythrsnpntcptrngthm
+:CREATED:  [2020-12-04]
+:ID:       bndcmphstry
 :END:
-** [2019-09-10] er, I guess for orger need to extract a simple reddit provider that just merges various timestamped backups?
+** [2020-12-13] https://bandcamp.com/developer no listening history though...
 :PROPERTIES:
-:ID:       rgssfrrgrndtxtrctsmplrddtthtjstmrgsvrstmstmpdbckps
+:ID:       sbndcmpcmdvlprnlstnnghstrythgh
+:END:
+
+* TODO [#C] hmm memrise personal data request is neat! It's got all you training sessions + learned words and phrases :publish:
+:PROPERTIES:
+:CREATED:  [2019-09-25]
+:ID:       hmmmmrsprsnldtrqstsnttsgttrnngsssnslrndwrdsndphrss
+:END:
+* TODO [#C] do a full remarkable backup too?                     :remarkable:
+:PROPERTIES:
+:CREATED:  [2020-11-27]
+:ID:       dfllrmrkblbckpt
+:END:
+** [2020-11-27] [[https://remarkablewiki.com/tech/ssh][tech:ssh [reMarkableWiki]]]
+:PROPERTIES:
+:ID:       srmrkblwkcmtchsshtchsshrmrkblwk
+:END:
+: # the xochitl binary, if you plan on replacing or modifying it in any way
+: scp root@remarkable:/usr/bin/xochitl remarkable-backup/
+* TODO [#C] better docs on what to do on expiry                       :monzo:
+:PROPERTIES:
+:CREATED:  [2020-05-05]
+:ID:       bttrdcsnwhttdnxpry
+:END:
+: Traceback (most recent call last):
+:   File "pymonzo/monzo_api.py", line 209, in _get_response
+:     raise TokenExpiredError
+: oauthlib.oauth2.rfc6749.errors.TokenExpiredError: (token_expired
+
+
+this is how token looks like after:
+: modified: .pymonzo-token
+: {
+:     "code": "internal_service",
+:     "message": "An error occurred processing the request"
+: }
+* TODO [#C] huh, thriva uses an api...
+:PROPERTIES:
+:CREATED:  [2020-03-22]
+:ID:       hhthrvssnp
+:END:
+* STRT [#C] call history from my old(er?)  phones? (e.g. nokia)
+:PROPERTIES:
+:CREATED:  [2020-04-15]
+:ID:       cllhstryfrmmyldrphnsgnk
+:END:
+* TODO [#C] increase sample rate to 10 seconds maybe?                 :arbtt:
+:PROPERTIES:
+:CREATED:  [2020-06-07]
+:ID:       ncrssmplrttscndsmyb
+:END:
+* TODO [#C] process old 'backups' repo?
+:PROPERTIES:
+:CREATED:  [2020-07-08]
+:ID:       prcssldbckpsrp
+:END:
+* TODO [#C] reading hr data                                           :wahoo:
+:PROPERTIES:
+:CREATED:  [2020-10-09]
+:ID:       rdnghrdt
+:END:
+: import fitparse
+: ff = fitparse.FitFile('2020-10-02-161142-TICKR X 076C-1601655102-0.fit')
+: [m.get_value('timestamp') for m in ff.messages]
+
+NOTE: not all messages are hr messages, there is also some metadata etc.
+https://github.com/perrygeo/graph-kickr/blob/master/app.py
+** [2020-10-09] also tried gpsbabel, but it resulted in no data... weird
+:PROPERTIES:
+:ID:       lstrdgpsbblbttrsltdnndtwrd
+:END:
+: gpsbabel -i garmin_fit,allpoints=1 -f '2020-10-02-161142-TICKR X 076C-1601655102-0.fit' -o unicsv -F res.csv
+* [#C] [2019-04-08] python - Steam API get historical player count of specific game - Stack Overflow
+:PROPERTIES:
+:ID:       pythnstmpgthstrclplyrcntfspcfcgmstckvrflw
+:END:
+https://stackoverflow.com/questions/45983820/steam-api-get-historical-player-count-of-specific-game
+There is no Steam Web API method for historical player count of a specific game.
+* TODO [#C] Feedbin starred stuff
+:PROPERTIES:
+:CREATED:  [2019-12-18]
+:ID:       fdbnstrrdstff
 :END:
 
 * TODO [#C] [2019-07-14] fabianonline/telegram_backup: Java app to download all your telegram data.
@@ -126,22 +870,6 @@ https://github.com/joeyates/imap-backup
 :END:
 https://github.com/fabianonline/telegram_backup
 : Use --with-supergroups and / or --with-channels to also download all messages from the supergroups / channels you have joined that have been active in the last time.
-* TODO [#C] stackexchange -- there are comments in GDPR requested data :stackexchange:
-:PROPERTIES:
-:CREATED:  [2019-09-17]
-:ID:       stckxchngthrrcmmntsngdprrqstddt
-:END:
-* TODO [#C] youtube watch history -- should be accumulated from multiple takeouts :takeout:
-:PROPERTIES:
-:CREATED:  [2019-09-17]
-:ID:       ytbwtchhstryshldbccmltdfrmmltpltkts
-:END:
-* TODO [#C] stackexchange -- shit
-:PROPERTIES:
-:CREATED:  [2019-09-21]
-:ID:       stckxchngsht
-:END:
-:  ERROR:stexport:Giving up fetch_backoff(...) after 1 tries (stackapi.stackapi.StackAPIError: ('https://api.stackexchange.com/2.2/users/706389/privileges/?pagesize=100&page=1&filter=%21LVBj2%28M0Wr1s_VedzkH%28VG&site=alcohol.meta', 502, 'throttle_violation', 'too many requests from this IP, more requests available in 50511 seconds')
 * TODO [#C] eh, should include older account? compare oldest and one of newer files.. :monzo:
 :PROPERTIES:
 :CREATED:  [2019-10-15]
@@ -152,25 +880,10 @@ https://github.com/fabianonline/telegram_backup
 :CREATED:  [2019-07-20]
 :ID:       myshwshmmslkslkpvsdprctdftsrwjsnsfrmxstngbckpscrpt
 :END:
-* TODO [#C] I guess just rely on bleanser instead after all? Just make it less spammy :bleanser:reddit:
-:PROPERTIES:
-:CREATED:  [2019-08-01]
-:ID:       gssjstrlynblnsrnstdftrlljstmktlssspmmy
-:END:
 * TODO [#C] compress chrome histories? would require backup script to compress it I suppose... maybe just go through them regularly and recompress
 :PROPERTIES:
 :CREATED:  [2019-08-31]
 :ID:       cmprsschrmhstrswldrqrbckptgthrghthmrglrlyndrcmprss
-:END:
-* TODO [#C] actually wonder if I can connect it to computer?    :bluemaestro:
-:PROPERTIES:
-:CREATED:  [2019-10-06]
-:ID:       ctllywndrfcncnnctttcmptr
-:END:
-* TODO [#C] stackexchange -- need to figure out how to import remaining data...
-:PROPERTIES:
-:CREATED:  [2019-10-05]
-:ID:       stckxchngndtfgrthwtmprtrmnngdt
 :END:
 * TODO [#C] bookmarks limit through api???                       :instapaper:
 :PROPERTIES:
@@ -181,35 +894,63 @@ https://github.com/fabianonline/telegram_backup
 :PROPERTIES:
 :ID:       ndtchckhstrcxprtsndfgrtt
 :END:
-* [#C] [2020-01-11] kensanata/mastodon-backup: Archive your statuses, favorites and media using the Mastodon API (i.e. login required)
+* TODO [#C] gpslogger -- add to backup checker??                   :location:
 :PROPERTIES:
-:ID:       knsntmstdnbckprchvyrsttssrtsndmdsngthmstdnplgnrqrd
+:CREATED:  [2020-07-31]
+:ID:       gpslggrddtbckpchckr
 :END:
-https://github.com/kensanata/mastodon-backup
-:  Thus, if every request gets 20 toots, then we can get at most 6000 toots per five minutes.
-* TODO [#D] compress databases as xz? would same about half of space at least, even more on firefox databases :promnesia:
+* TODO [#C] [2020-10-03] [[https://reddit.com/r/coolgithubprojects/comments/j4kn3y/statify_pull_your_playlist_and_listening_data/][Statify: Pull your playlist and listening data from the Spotify API to a Sqlite database]] /r/coolgithubprojects
 :PROPERTIES:
-:CREATED:  [2019-10-12]
-:ID:       cmprssdtbsssxzwldsmbthlffspctlstvnmrnfrfxdtbss
+:ID:       srddtcmrclgthbprjctscmmntfyptsqltdtbsrclgthbprjcts
 :END:
-** [2020-09-05] probably not necessary with pruning
+
+* STRT [#C] monzo export: make sure it works with original repo.. :exports:monzo:
 :PROPERTIES:
-:ID:       prbblyntncssrywthprnng
+:CREATED:  [2019-12-25]
+:ID:       mnzxprtmksrtwrkswthrgnlrp
 :END:
-* TODO [#C] warn about large repos?                                  :github:
+** [2019-12-29] huh, actually the problem might be in saving _token variable?
+:PROPERTIES:
+:ID:       hhctllythprblmmghtbnsvngtknvrbl
+:END:
+*** TODO [2019-12-29] instead could just print it from disk? maybe even that is unnecessary?
+:PROPERTIES:
+:ID:       nstdcldjstprnttfrmdskmybvnthtsnncssry
+:END:
+* TODO [#C] ugh, need to retrieve pinboard notes           :pinboard:exports:
 :PROPERTIES:
 :CREATED:  [2019-12-29]
-:ID:       wrnbtlrgrps
+:ID:       ghndtrtrvpnbrdnts
 :END:
-* STRT [#D] Check for deleted favorites                              :reddit:
+e.g. motivational example of API discovery; I just assumed they all would be retrieved https://api.pinboard.in/v1/notes/ID
+* TODO [#C] [2019-04-23] feedbin/feedbin-api: Feedbin API Documentation :feedbin:
 :PROPERTIES:
-:CREATED:  [2019-01-01]
-:ID:       chckfrdltdfvrts
+:ID:       fdbnfdbnpfdbnpdcmnttn
 :END:
-- State "STRT"      from "TODO"       [2019-03-23]
-** [2019-08-25] yep, it def happens; promnesia triggers it
+https://github.com/feedbin/feedbin-api#readme
+: The base URL for all requests is https://api.feedbin.com/v2/ Only https is supported.
+: The Feedbin API uses HTTP Basic authentication
+: curl -u 'example@example.com:password' https://api.feedbin.com/v2/subscriptions.json
+
+* STRT [#C] [2020-11-27] [[https://github.com/tcgoetz/GarminDB/wiki/Success-Stories][Success Stories · tcgoetz/GarminDB Wiki]] :garmin:
 :PROPERTIES:
-:ID:       yptdfhppnsprmnstrggrst
+:ID:       sgthbcmtcgtzgrmndbwksccsstrssccssstrstcgtzgrmndbwk
+:END:
+
+* TODO [#C] [2020-12-19] [[https://blog.openlibrary.org/2020/12/13/importing-your-goodreads-accessing-them-with-open-librarys-apis/][Importing your Goodreads & Accessing them with Open Library’s APIs]]
+:PROPERTIES:
+:ID:       sblgpnlbrryrgmprtngyrgdrdrdsccssngthmwthpnlbrrysps
+:END:
+: Importing your Goodreads & Accessing them with Open Library’s APIs
+* TODO [#C] [2020-06-24] [[https://gadgets.ndtv.com/apps/news/telegram-export-chats-notifications-exceptions-passport-encryption-1906903][Telegram Now Lets You Export Your Chats, View Notification Exceptions | Technology News]] :telegram:
+:PROPERTIES:
+:ID:       sgdgtsndtvcmppsnwstlgrmxpsvwntfctnxcptnstchnlgynws
+:END:
+
+* TODO [#D] get off the messages stored in old format and make sure nothing  is missing, dedup? :vk:
+:PROPERTIES:
+:CREATED:  [2019-02-26]
+:ID:       gtffthmssgsstrdnldfrmtndmksrnthngsmssngddp
 :END:
 
 * TODO [#D] shit, they stopped you from accessing messages api. fuck.    :vk:
@@ -224,12 +965,32 @@ https://vk.com/wall-1_390510
 :PROPERTIES:
 :ID:       thtsvrygnrctrndthnkltmtlywjstndbttrtlstscrptht
 :END:
-* TODO [#D] huh looks like pinboard is quite unstable with regards to backup... unless the backup script is wrong or something? :bleanser:
+* STRT [#D] Headspace stats                                        :timeline:
 :PROPERTIES:
-:CREATED:  [2019-03-24]
-:ID:       hhlkslkpnbrdsqtnstblwthrgssthbckpscrptswrngrsmthng
+:CREATED:  [2018-11-12]
+:ID:       hdspcstts
 :END:
+UserTimelineEntry?
 
+* STRT [#D] .polar directory                                       :timeline:
+:PROPERTIES:
+:CREATED:  [2019-01-20]
+:ID:       plrdrctry
+:END:
+* TODO [#D] [2019-09-02] vincaslt/memparse: A Memrise courses parser https://github.com/vincaslt/memparse
+:PROPERTIES:
+:ID:       vncsltmmprsmmrscrssprsrsgthbcmvncsltmmprs
+:END:
+* STRT [#D] skype call history?
+:PROPERTIES:
+:CREATED:  [2020-04-15]
+:ID:       skypcllhstry
+:END:
+** [2020-04-19] shit https://answers.microsoft.com/en-us/skype/forum/all/skype-api/e025d0f6-7ae4-4bc4-9d5a-b2d70136deab
+:PROPERTIES:
+:ID:       shtsnswrsmcrsftcmnsskypfrmllskyppdfbcdbddb
+:END:
+: I regret to inform you but we do not have API or a program in Skype that lets you export your chat history that will include dates, timestamps etc.
 * STRT [#D] amazon orders history
 :PROPERTIES:
 :ID:       mznrdrshstry
@@ -243,67 +1004,27 @@ https://vk.com/wall-1_390510
 https://www.amazon.co.uk/gp/b2b/reports
 Then could connect to drebedengi and add comments (even with breakdown)
 
-* STRT [#D] Headspace stats                                        :timeline:
+** STRT [2019-02-23] backups/amazon
 :PROPERTIES:
-:CREATED:  [2018-11-12]
-:ID:       hdspcstts
+:ID:       bckpsmzn
 :END:
-UserTimelineEntry?
+- State "STRT"      from              [2019-02-23]
 
-* STRT [#D] automate google takeouts?                            :takeout:qs:
-:PROPERTIES:
-:CREATED:  [2018-11-18]
-:ID:       tmtggltkts
-:END:
-- State "STRT"      from "TODO"       [2019-02-23]
-maybe release my module for 2FA separately?
-
-https://github.com/ThorbenJensen/life-vault/blob/master/src/takeout/selenium_takeout.py
-
-* STRT [#D] .polar directory                                       :timeline:
-:PROPERTIES:
-:CREATED:  [2019-01-20]
-:ID:       plrdrctry
-:END:
-* TODO [#D] get off the messages stored in old format and make sure nothing  is missing, dedup? :vk:
-:PROPERTIES:
-:CREATED:  [2019-02-26]
-:ID:       gtffthmssgsstrdnldfrmtndmksrnthngsmssngddp
-:END:
-
-* [#D] [2019-06-11] eh, recompressing to .tar.xz only saved 100 mb  :takeout:
-:PROPERTIES:
-:ID:       hrcmprssngttrxznlysvdmb
-:END:
-* TODO [#D] backport old github backups to new format? should be enough to just wrap in 'events' backup:timeline:promnesia:
-:PROPERTIES:
-:CREATED:  [2019-09-19]
-:ID:       bckprtldgthbbckpstnwfrmtstjstwrpnvntsbckptmlnprmns
-:END:
-* [#D] [2019-12-21] samuelmr/emfit-qs: Unofficial Node client for Emfit QS
-:PROPERTIES:
-:ID:       smlmrmftqsnffclndclntfrmftqs
-:END:
-https://github.com/samuelmr/emfit-qs
-: Exchange username and password to a token (expires in 7 days). You can also log in to qs.emfit.com and check the ´remember_token´ parameter passed to API calls (e.g. with developer tools of your browser).
-* TODO [#D] ugh, they now split it in two?? fucking hell.           :takeout:
-:PROPERTIES:
-:CREATED:  [2020-01-23]
-:ID:       ghthynwsplttntwfcknghll
-:END:
 * TODO ugh, bookmarks method in api is not exhaustive (elif item.get("type") == 'bookmark') :instapaper:
 :PROPERTIES:
 :CREATED:  [2020-01-04]
 :ID:       ghbkmrksmthdnpsntxhstvlftmgttypbkmrk
 :END:
-* TODO zigg/grabby: tools for scraping your Mastodon account data  :mastodon:
+* [#D] [2019-04-01] [[https://reddit.com/r/Polarfitness/comments/b3cz6t/polar_accesslink_api_daily_activity_goal/ejwgklq/][Polar AccessLink Api Daily Activity Goal]] /r/Polarfitness
 :PROPERTIES:
-:CREATED:  [2020-01-13]
-:ID:       zgggrbbytlsfrscrpngyrmstdnccntdt
+:ID:       srddtcmrplrftnsscmmntsbczsslnkpdlyctvtyglrplrftnss
 :END:
-
-https://github.com/zigg/grabby
-
+: The API. You do need a session cookie for it and I didn't find an official documentation. The cookie can be retrieved by mimicking their login form. If you do have specific questions you can send me a DM but basically you just need to copy the requests their web app is making.
+* STRT [#D] just reuse files dir? def no harm in it                :telegram:
+:PROPERTIES:
+:CREATED:  [2020-07-14]
+:ID:       jstrsflsdrdfnhrmnt
+:END:
 * DONE [#B] blinkist: scrape off my highlights
 :PROPERTIES:
 :CREATED:  [2019-08-13]
@@ -327,29 +1048,10 @@ https://www.blinkist.com/en/nc/highlights
 :CREATED:  [2020-01-12]
 :ID:       xprtbtbckt
 :END:
-* DONE [#C] shit. need to bleanse reddit properly, otherwise looks like it's too much data... :reddit:
-:PROPERTIES:
-:CREATED:  [2019-04-12]
-:ID:       shtndtblnsrddtprprlythrwslkslktstmchdt
-:END:
-
 * DONE [#D] feedbin
 :PROPERTIES:
 :CREATED:  [2019-05-02]
 :ID:       fdbn
-:END:
-
-* TODO [#C] [2019-06-28] After hoarding over 50k YouTube videos, here is the youtube-dl command I settled on. : DataHoarder
-:PROPERTIES:
-:ID:       ftrhrdngvrkytbvdshrsthytbdlcmmndsttldndthrdr
-:END:
-https://www.reddit.com/r/DataHoarder/comments/c6fh4x/after_hoarding_over_50k_youtube_videos_here_is/
-: After hoarding over 50k YouTube videos, here is the youtube-dl command I settled on.
-
-* TODO [#C] basically, just go through stuff that doesn't exist anymore but was in favorites ever (and suppress errors for some of them) :reddit:
-:PROPERTIES:
-:CREATED:  [2019-01-27]
-:ID:       bscllyjstgthrghstffthtdsnrtsvrndspprssrrrsfrsmfthm
 :END:
 
 * CANCEL [2020-03-05] signalnerve/roam-backup: Automated Roam Research backups using GitHub Actions and AWS S3
@@ -358,580 +1060,38 @@ https://www.reddit.com/r/DataHoarder/comments/c6fh4x/after_hoarding_over_50k_you
 :END:
 https://github.com/signalnerve/roam-backup
 : To use it, just fork this repo and add the following secrets to your repo (naming must match!):
-: 
 :     roamEmail
 :     roamPasswor
-* TODO github -- starred repos aren't updated??
+* ----------------------------------------------------
 :PROPERTIES:
-:CREATED:  [2020-03-14]
-:ID:       gthbstrrdrpsrntpdtd
+:ID:       37168_37223
 :END:
-* TODO hmm memrise personal data request is neat! It's got all you training sessions + learned words and phrases :publish:
+* [#A] [2020-02-03] Data lake - Wikipedia                       :dal:exports:
 :PROPERTIES:
-:CREATED:  [2019-09-25]
-:ID:       hmmmmrsprsnldtrqstsnttsgttrnngsssnslrndwrdsndphrss
+:ID:       dtlkwkpd
 :END:
-* [#C] [2019-07-13] tgalal/yowsup: The WhatsApp lib
-:PROPERTIES:
-:ID:       tgllywspthwhtspplb
-:END:
-https://github.com/tgalal/yowsup
-: It seems that recently yowsup gets detected during registration resulting in an instant ban for your number right after registering with the code you receive by sms/voice. I'd strongly recommend to not attempt registration through yowsup until I look further into this. Follow the status of this here.
-* TODO huh, thriva uses an api...
-:PROPERTIES:
-:CREATED:  [2020-03-22]
-:ID:       hhthrvssnp
-:END:
-* [#B] [2020-04-05] Our plan is for the next version of HN's API to simply serve a JSON version of e... | Hacker News
-:PROPERTIES:
-:ID:       rplnsfrthnxtvrsnfhnsptsmplysrvjsnvrsnfhckrnws
-:END:
-https://news.ycombinator.com/item?id=22788526
-:  Our plan is for the next version of HN's API to simply serve a JSON version of every page. I'm hoping to get to that this year.
-* STRT [#B] recommend checking the database to make sure it's got specific things you need
-:PROPERTIES:
-:CREATED:  [2020-01-10]
-:ID:       rcmmndchckngthdtbstmksrtsgtspcfcthngsynd
-:END:
-* STRT [#C] call history from my old(er?)  phones? (e.g. nokia)
-:PROPERTIES:
-:CREATED:  [2020-04-15]
-:ID:       cllhstryfrmmyldrphnsgnk
-:END:
-* STRT [#D] skype call history?
-:PROPERTIES:
-:CREATED:  [2020-04-15]
-:ID:       skypcllhstry
-:END:
-** [2020-04-19] shit https://answers.microsoft.com/en-us/skype/forum/all/skype-api/e025d0f6-7ae4-4bc4-9d5a-b2d70136deab
-:PROPERTIES:
-:ID:       shtsnswrsmcrsftcmnsskypfrmllskyppdfbcdbddb
-:END:
-: I regret to inform you but we do not have API or a program in Skype that lets you export your chat history that will include dates, timestamps etc.
-* TODO [#D] also disappearing Disover/Myacvitiy??                   :takeout:
-:PROPERTIES:
-:CREATED:  [2020-04-24]
-:ID:       lsdspprngdsvrmycvty
-:END:
-: 20180807 My Activity/Discover/MyActivity.html                                    20190523 20181015 My Activity/Discover/MyActivity.html                                    20190522 20181213 My Activity/Discover/MyActivity.html                                    20200122
-* TODO [#A] hmm. links that you get through search or API are shortened? :twitter:twint:
-:PROPERTIES:
-:CREATED:  [2020-04-28]
-:ID:       hmmlnksthtygtthrghsrchrprshrtnd
-:END:
-** TODO [2020-04-28] shit.. also RTs are shortened?? so I need to get retweets properly?
-:PROPERTIES:
-:ID:       shtlsrtsrshrtndsndtgtrtwtsprprly
-:END:
-* TODO [#C] talon databases (lots of them!)                     :hpi:android:
-:PROPERTIES:
-:CREATED:  [2020-04-28]
-:ID:       tlndtbssltsfthm
-:END:
-* STRT cleanup firefox phone exports...
-:PROPERTIES:
-:CREATED:  [2020-05-06]
-:ID:       clnpfrfxphnxprts
-:END:
-* TODO better docs on what to do on expiry                            :monzo:
-:PROPERTIES:
-:CREATED:  [2020-05-05]
-:ID:       bttrdcsnwhttdnxpry
-:END:
-: Traceback (most recent call last):
-:   File "pymonzo/monzo_api.py", line 209, in _get_response
-:     raise TokenExpiredError
-: oauthlib.oauth2.rfc6749.errors.TokenExpiredError: (token_expired
-
-
-this is how token looks like after:
-: modified: .pymonzo-token
-: {
-:     "code": "internal_service",
-:     "message": "An error occurred processing the request"
-: }
-* [2020-04-23] [[https://beepb00p.xyz/takeout-data-gone.html][I've found Google Takeouts to silently remove old data | beepb00p]]
-:PROPERTIES:
-:ID:       sbpbpxyztktdtgnhtmlvfndggltktstslntlyrmvlddtbpbp
-:END:
-huh, so with my script to search takeout duplicates, I've figured out that from 2015 at least Search/MyActivity.html hasn't been erased? interesting
-but looks like Chrome/MyActivity.html still being removed
-* [2020-04-24] [[https://support.google.com/websearch/forum/AAAAgtjJeM4qYYSPkPYJw8/?hl=en&gpf=%23!topic%2Fwebsearch%2FqYYSPkPYJw8%3Bcontext-place%3Dforum%2Fwebsearch][Takeout/My Activity/Search data is limited to last 10 years. Please remove limit - Google Search Community]]
-:PROPERTIES:
-:ID:       sspprtgglcmwbsrchfrmgtjjmyrsplsrmvlmtgglsrchcmmnty
-:END:
-: Takeout/My Activity/Search data is limited to last 10 years. Please remove limit
-* [2020-04-29] [[https://news.ycombinator.com/item?id=23015742][> I’ve already pulled down my 2-300GB Google Photos archive How? I've tried sev... | Hacker News]]
-:PROPERTIES:
-:ID:       snwsycmbntrcmtmdvlrdyplldglphtsrchvhwvtrdsvhckrnws
-:END:
-: cuu508 1 hour ago [-]
-: Takeout doesn't work in practice for bigger collections (archive creation routinely fails, timeouts while downloading, 50GB max size results in many splits)
-: I've used this 3rd party tool and it worked OK: https://github.com/gilesknap/gphotos-sync/
-: geekgonecrazy 1 hour ago [-]
-: I forgot to mention this. But yes the export failed several dozen times. I believe I ended up doing in chunks. It was hard to get them off
-* [2020-05-04] [[https://news.ycombinator.com/item?id=23032818][I replied to a similar point about hashing here - https://news.ycombinator.com/i... | Hacker News]]
-:PROPERTIES:
-:ID:       snwsycmbntrcmtmdrpldtsmlrhnghrsnwsycmbntrcmhckrnws
-:END:
-: You're correct that the methods I described are a far cry from actually guaranteeing that the backup has no errors. In the same way that a unit test doesn't prove code is error-free, but _can_ justify increased confidence in the code, I'm interested in techniques that can justify increased confidence in my backups. Particularly in cases where I don't have direct access to the original data, and where exhaustively checking the data manually is too time-consuming to be worth it.
-
-yes!
-* [#C] [2019-12-17] downloadEmfitAPI.py                               :emfit:
-:PROPERTIES:
-:ID:       dwnldmftppy
-:END:
-https://gist.github.com/vanne02135/6901cc2b92315881080d0ce0f07c1a17
-
-* [#D] [2020-05-29] emfit API didn't work for about three days straight... :emfit:backup:
-:PROPERTIES:
-:ID:       mftpddntwrkfrbtthrdysstrght
-:END:
-* TODO [#C] Today I would probably have tried parsing the Stack Exchange Data Dump instead.
-:PROPERTIES:
-:CREATED:  [2020-02-09]
-:ID:       tdywldprbblyhvtrdprsngthstckxchngdtdmpnstd
-:END:
-Todo promnesia
-from [[https://www.instapaper.com/read/1275853358/12253044][ip]]   [[https://www.vidarholen.net/contents/blog/?p=859][Lessons learned from writing ShellCheck, GitHub’s now most starred Haskell project – Vidar's Blog]]
-
-* TODO increase sample rate to 10 seconds maybe?                      :arbtt:
-:PROPERTIES:
-:CREATED:  [2020-06-07]
-:ID:       ncrssmplrttscndsmyb
-:END:
-* TODO synthetic style exports allow for defensive error handling -- you can at least get data from the last state
-:PROPERTIES:
-:CREATED:  [2020-06-06]
-:ID:       synthtcstylxprtsllwfrdfnslngycntlstgtdtfrmthlststt
-:END:
-* TODO eh. maybe get rid of colored logs for export process? presumably no one would look at them often
-:PROPERTIES:
-:CREATED:  [2020-06-13]
-:ID:       hmybgtrdfclrdlgsfrxprtprcssprsmblynnwldlktthmftn
-:END:
-* STRT [#C] merge bluemaestros, plot separate environmental dashboard? :dashboard:
-:PROPERTIES:
-:CREATED:  [2020-07-06]
-:ID:       mrgblmstrspltsprtnvrnmntldshbrd
-:END:
-* TODO use submodule for common files, but release as a standalone package? I guess it's the best of both
-:PROPERTIES:
-:CREATED:  [2020-07-05]
-:ID:       ssbmdlfrcmmnflsbtrlssstndlnpckggsststhbstfbth
-:END:
-* [2020-06-24] [[https://gadgets.ndtv.com/apps/news/telegram-export-chats-notifications-exceptions-passport-encryption-1906903][Telegram Now Lets You Export Your Chats, View Notification Exceptions | Technology News]] :telegram:
-:PROPERTIES:
-:ID:       sgdgtsndtvcmppsnwstlgrmxpsvwntfctnxcptnstchnlgynws
-:END:
-
-* TODO [#D] [2019-12-29] halcy/Mastodon.py: Python wrapper for the Mastodon ( https://github.com/tootsuite/mastodon/ ) API. :mastodon:
-:PROPERTIES:
-:ID:       hlcymstdnpypythnwrpprfrthmstdnsgthbcmttstmstdnp
-:END:
-https://github.com/halcy/Mastodon.py
-
-* [#C] [2020-01-17] MasterScrat/Chatistics: 💬 Python scripts to parse your Messenger, Hangouts, WhatsApp and Telegram chat logs into DataFrames. :whatsapp:
-:PROPERTIES:
-:ID:       mstrscrtchtstcspythnscrpttsppndtlgrmchtlgsntdtfrms
-:END:
-https://github.com/MasterScrat/Chatistics
-: Unfortunately, WhatsApp only lets you export your conversations from your phone and one by one.
-: 
-:     On your phone, open the chat conversation you want to export
-:     On Android, tap on ⋮ > More > Export chat. On iOS, tap on the interlocutor's name > Export chat
-:     Choose "Without Media"
-:     Send chat to yourself eg via Email
-:     Unpack the archive and add the individual .txt files to the folder ./raw_data/whatsapp/
-* TODO [#C] process old 'backups' repo?
-:PROPERTIES:
-:CREATED:  [2020-07-08]
-:ID:       prcssldbckpsrp
-:END:
-* STRT just reuse files dir? def no harm in it                     :telegram:
-:PROPERTIES:
-:CREATED:  [2020-07-14]
-:ID:       jstrsflsdrdfnhrmnt
-:END:
-* [#C] [2020-07-31] [[https://github.com/alexattia/Maps-Location-History][alexattia/Maps-Location-History: Get, Concatenate and Process you location history from Google Maps TimeLine]] :timeline:qs:
-:PROPERTIES:
-:ID:       sgthbcmlxttmpslctnhstrylxssylctnhstryfrmgglmpstmln
-:END:
-: In order to export processed data from Google Maps website from a python script, you need to get your actual cookie.
-
-fuck me! it actually exports kml files
-* STRT Podcast addict data
-:PROPERTIES:
-:CREATED:  [2020-08-04]
-:ID:       pdcstddctdt
-:END:
-
-* TODO gpslogger -- add to backup checker??                        :location:
-:PROPERTIES:
-:CREATED:  [2020-07-31]
-:ID:       gpslggrddtbckpchckr
-:END:
-* TODO [#C] ugh. maybe autorefresh the token? Fuckig hell.            :emfit:
-:PROPERTIES:
-:CREATED:  [2020-08-27]
-:ID:       ghmybtrfrshthtknfckghll
-:END:
-* STRT [#C] firefox history -- db format has changed??            :hpi:infra:
-:PROPERTIES:
-:CREATED:  [2020-08-28]
-:ID:       frfxhstrydbfrmthschngd
-:END:
-* TODO [#C] script to grab files from downloads and move accodingly? e.g. for oyster statements
-:PROPERTIES:
-:CREATED:  [2020-09-06]
-:ID:       scrpttgrbflsfrmdwnldsndmvccdnglygfrystrsttmnts
-:END:
-* STRT [#C] firefox history -- could compress with zstd? seems like 30x compression :promnesia:
-:PROPERTIES:
-:CREATED:  [2020-06-10]
-:ID:       frfxhstrycldcmprsswthzstdsmslkxcmprssn
-:END:
-** [2020-06-10] to start with -- simply compress locally once the db is synced, will think about doing something smarter later
-:PROPERTIES:
-:ID:       tstrtwthsmplycmprsslcllynllthnkbtdngsmthngsmrtrltr
-:END:
-* TODO reading hr data                                                :emfit:
-:PROPERTIES:
-:CREATED:  [2020-10-09]
-:ID:       rdnghrdt
-:END:
-: import fitparse
-: ff = fitparse.FitFile('2020-10-02-161142-TICKR X 076C-1601655102-0.fit')
-: [m.get_value('timestamp') for m in ff.messages]
-
-NOTE: not all messages are hr messages, there is also some metadata etc.
-https://github.com/perrygeo/graph-kickr/blob/master/app.py
-** [2020-10-09] also tried gpsbabel, but it resulted in no data... weird
-:PROPERTIES:
-:ID:       lstrdgpsbblbttrsltdnndtwrd
-:END:
-: gpsbabel -i garmin_fit,allpoints=1 -f '2020-10-02-161142-TICKR X 076C-1601655102-0.fit' -o unicsv -F res.csv
-* [2019-04-01] [[https://reddit.com/r/Polarfitness/comments/b3cz6t/polar_accesslink_api_daily_activity_goal/ejwgklq/][Polar AccessLink Api Daily Activity Goal]] /r/Polarfitness
-:PROPERTIES:
-:ID:       srddtcmrplrftnsscmmntsbczsslnkpdlyctvtyglrplrftnss
-:END:
-The API. You do need a session cookie for it and I didn't find an official documentation. The cookie can be retrieved by mimicking their login form. If you do have specific questions you can send me a DM but basically you just need to copy the requests their web app is making. 
-* TODO [#B] ok, so need to preserve all (incl.older) versions of notebooks? dunno feels a bit excessive :timeline:remarkable:
-:PROPERTIES:
-:CREATED:  [2020-11-27]
-:ID:       ksndtprsrvllnclldrvrsnsfntbksdnnflsbtxcssv
-:END:
-* TODO twint itself should work as incremental export... and then DAL should combine :twint:
-:PROPERTIES:
-:CREATED:  [2020-11-30]
-:ID:       twnttslfshldwrksncrmntlxprtndthndlshldcmbn
-:END:
-* TODO [#C] [2020-10-03] [[https://reddit.com/r/coolgithubprojects/comments/j4kn3y/statify_pull_your_playlist_and_listening_data/][Statify: Pull your playlist and listening data from the Spotify API to a Sqlite database]] /r/coolgithubprojects
-:PROPERTIES:
-:ID:       srddtcmrclgthbprjctscmmntfyptsqltdtbsrclgthbprjcts
-:END:
-
-* TODO [#C] Bandcamp history
-:PROPERTIES:
-:CREATED:  [2020-12-04]
-:ID:       bndcmphstry
-:END:
-** [2020-12-13] https://bandcamp.com/developer no listening history though...
-:PROPERTIES:
-:ID:       sbndcmpcmdvlprnlstnnghstrythgh
-:END:
-
-* STRT [#B] firefox dev history                                       :phone:
-:PROPERTIES:
-:CREATED:  [2020-12-03]
-:ID:       frfxdvhstry
-:END:
-* TODO [#C] do a full remarkable backup too?
-:PROPERTIES:
-:CREATED:  [2020-11-27]
-:ID:       dfllrmrkblbckpt
-:END:
-** [2020-11-27] [[https://remarkablewiki.com/tech/ssh][tech:ssh [reMarkableWiki]]]
-:PROPERTIES:
-:ID:       srmrkblwkcmtchsshtchsshrmrkblwk
-:END:
-: # the xochitl binary, if you plan on replacing or modifying it in any way
-: scp root@remarkable:/usr/bin/xochitl remarkable-backup/
-* STRT [#C] monzo export: make sure it works with original repo.. :exports:monzo:
-:PROPERTIES:
-:CREATED:  [2019-12-25]
-:ID:       mnzxprtmksrtwrkswthrgnlrp
-:END:
-** [2019-12-29] huh, actually the problem might be in saving _token variable?
-:PROPERTIES:
-:ID:       hhctllythprblmmghtbnsvngtknvrbl
-:END:
-*** TODO [2019-12-29] instead could just print it from disk? maybe even that is unnecessary?
-:PROPERTIES:
-:ID:       nstdcldjstprnttfrmdskmybvnthtsnncssry
-:END:
-* TODO [#C] ugh, need to retrieve pinboard notes           :pinboard:exports:
-:PROPERTIES:
-:CREATED:  [2019-12-29]
-:ID:       ghndtrtrvpnbrdnts
-:END:
-e.g. motivational example of API discovery; I just assumed they all would be retrieved https://api.pinboard.in/v1/notes/ID
-* [2021-01-19] [[https://github.com/bisguzar/twitter-scraper][bisguzar/twitter-scraper: Scrape the Twitter Frontend API without authentication.]] :twitter:exports:
-:PROPERTIES:
-:ID:       sgthbcmbsgzrtwttrscrprbsgthtwttrfrntndpwthtthntctn
-:END:
-
-* TODO [#B] start awesome-exports list?                     :exports:publish:
-:PROPERTIES:
-:CREATED:  [2020-02-21]
-:ID:       ffc5de8e-0e8b-49d3-b7ad-d61860cff89c
-:END:
-* TODO [#D] ghexport -- read times out                             :ghexport:
-:PROPERTIES:
-:CREATED:  [2020-06-22]
-:ID:       ghxprtrdtmst
-:END:
-: requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.github.com', port=443): Read timed out. (read timeout=15)
-* TODO [#D] 500 error                                              :ghexport:
-:PROPERTIES:
-:CREATED:  [2020-06-22]
-:ID:       rrr
-:END:
-:  File "/home/karlicos/.local/lib/python3.7/site-packages/github/Requester.py",
-: line 276, in requestJsonAndCheck
-:     return self.__check(*self.requestJson(verb, url, parameters, headers,
-: input, self.__customConnection(url)))
-:   File "/home/karlicos/.local/lib/python3.7/site-packages/github/Requester.py",
-: line 287, in __check
-:     raise self.__createException(status, responseHeaders, output)
-: github.GithubException.GithubException: 500 None
-* [2020-04-21] fucking hell. so materialistic export stopped working  :phone:
+https://en.wikipedia.org/wiki/Data_lake
+* [#B] [2020-04-21] fucking hell. so materialistic export stopped working :phone:
 :PROPERTIES:
 :ID:       fcknghllsmtrlstcxprtstppdwrkng
 :END:
 ... because I was copying sqlite file only
 and the app suddenly decided to keep everything in WAL. it's been growing over the past week without ever writing into the database
 what the fuck??? how do I deal with it???
-* [2021-01-10] [[https://hypothes.is/a/b-fmWlHEEeuiFt9suM9mMQ][Hypothesis]] :takeout:
+* TODO [#B] start awesome-exports list?                     :exports:publish:
 :PROPERTIES:
-:ID:       shypthssbfmwlhftsmmmqhypthss
+:CREATED:  [2020-02-21]
+:ID:       ffc5de8e-0e8b-49d3-b7ad-d61860cff89c
 :END:
-: Seriously, check out ratarmount if you haven't. Since the Google Takeout spans multiple 50GB tgz files (I'm at ~14, not including Google Drive in the takeout), ratarmount is brilliant. It merges all of the tgz contents into a single folder structure so /path/a/1.jpg and /path/a/1.json might be in different tgz folders but are mounted in to the same folder.
-* TODO [#D] automatic date extraction? could work, e.g. for rescuetime :datetime:backupchecker:
+* TODO [#C] script to grab files from downloads and move accodingly? e.g. for oyster statements
 :PROPERTIES:
-:CREATED:  [2019-04-08]
-:ID:       tmtcdtxtrctncldwrkgfrrsctm
-:END:
-* TODO [#D] hmm, with emfit can code some sort of feedback tool which signals me to move when emfit loses signal :emfit:
-:PROPERTIES:
-:CREATED:  [2018-10-16]
-:ID:       hmmwthmftcncdsmsrtffdbckthchsgnlsmtmvwhnmftlsssgnl
-:END:
-* TODO [#D] backup-wrapper is a more generic tool... basically running arb command and saving output with pattern
-:PROPERTIES:
-:CREATED:  [2018-11-29]
-:ID:       bckpwrpprsmrgnrctlbscllyrgrbcmmndndsvngtptwthpttrn
-:END:
-
-* TODO [#C] [2020-01-01] perkeep/gphotos-cdp: This program uses the Chrome DevTools Protocol to drive a Chrome session that downloads your photos stored in Google Photos. :scrape:
-:PROPERTIES:
-:ID:       prkpgphtscdpthsprgrmssthctdwnldsyrphtsstrdngglphts
-:END:
-https://github.com/perkeep/gphotos-cdp
-: In our original Perkeep issue, @bradfitz said that we might have to give up on APIs and resort to scraping, noting that the Chrome DevTools Protocol makes this pretty easy.
-* TODO [#D] [2020-04-07] Profile: karlicoss | Hacker News
-:PROPERTIES:
-:ID:       prflkrlcsshckrnws
-:END:
-https://news.ycombinator.com/user?id=karlicoss
-: user:	karlicoss
-: created:	August 25, 2016
-: karma:	757
-
-capture HN karma? maybe on all comments
-* TODO [#C] [2020-04-19] [[https://github.com/karlicoss/rexport/pull/6/files][open files using utf-8 encoding (fixes #5) by miguelrochefort · Pull Request #6 · karlicoss/rexport]]
-:PROPERTIES:
-:ID:       sgthbcmkrlcssrxprtpllflsplrchfrtpllrqstkrlcssrxprt
-:END:
-apply this to export helper...
-
-* [#C] [2020-01-01] ChromeDevTools/devtools-protocol: Chrome DevTools Protocol :exports:scrape:
-:PROPERTIES:
-:ID:       chrmdvtlsdvtlsprtclchrmdvtlsprtcl
-:END:
-https://github.com/ChromeDevTools/devtools-protocol
-* [2019-04-08] python - Steam API get historical player count of specific game - Stack Overflow
-:PROPERTIES:
-:ID:       pythnstmpgthstrclplyrcntfspcfcgmstckvrflw
-:END:
-https://stackoverflow.com/questions/45983820/steam-api-get-historical-player-count-of-specific-game
-There is no Steam Web API method for historical player count of a specific game.
-* [#B] [2018-08-18] EMFIT QS Sleep tracker local API                  :emfit:
-:PROPERTIES:
-:ID:       mftqsslptrckrlclp
-:END:
-https://gist.github.com/harperreed/9d063322eb84e88bc2d0580885011bdd
-https://gist.github.com/karlicoss/3361f6a239048a451daa2a02982ee180
-
-* [2019-04-23] feedbin/feedbin-api: Feedbin API Documentation       :feedbin:
-:PROPERTIES:
-:ID:       fdbnfdbnpfdbnpdcmnttn
-:END:
-https://github.com/feedbin/feedbin-api#readme
-: The base URL for all requests is https://api.feedbin.com/v2/ Only https is supported.
-: The Feedbin API uses HTTP Basic authentication
-: curl -u 'example@example.com:password' https://api.feedbin.com/v2/subscriptions.json
-
-* [2020-10-25] [[https://connect.garmin.com/modern/daily-summary/2020-10-25/heartRate][Garmin Connect]] :garmin:
-:PROPERTIES:
-:ID:       scnnctgrmncmmdrndlysmmryhrtrtgrmncnnct
-:END:
-: Looks like you experienced a time change. This may cause some inaccuracies with today's data.
-
-jesus!
-* [#C] [2020-01-11] Getting Started — PRAW 3.6.0 documentation       :reddit:
-:PROPERTIES:
-:ID:       gttngstrtdprwdcmnttn
-:END:
-https://praw.readthedocs.io/en/v3.6.0/pages/getting_started.html#connecting-to-reddit
-: You may also have realized that the karma values change from run to run. This inconsistency is due to reddit’s obfuscation of the upvotes and downvotes. The obfuscation is done to everything and everybody to thwart potential cheaters. There’s nothing we can do to prevent this.
-* [2020-05-31] [[https://www.youtube.com/watch?v=X3SrZuH00GQ][Own your content on Social Media using the IndieWeb - YouTube]] :dataliberation:
-:PROPERTIES:
-:ID:       swwwytbcmwtchvxsrzhgqwnyrcntntnsclmdsngthndwbytb
-:END:
-
-* [#C] [2019-04-19] Pinboard on Twitter: "Next question is, does a raw API call give the same results as the website? The API and website search engine run off of different indexes.… https://t.co/CZrLE7YNWo" :pinboard:
-:PROPERTIES:
-:ID:       pnbrdntwttrnxtqstnsdsrwpcrnfffdffrntndxsstcczrlynw
-:END:
-https://twitter.com/Pinboard/status/1113807174717792256
-: Next question is, does a raw API call give the same results as the website? The API and website search engine run off of different indexes.
-* [2020-12-30] [[https://github.com/fbchat-dev/fbchat/issues/613][Notice: This project is unmaintained · Issue #613 · fbchat-dev/fbchat]] :facebook:
-:PROPERTIES:
-:ID:       sgthbcmfbchtdvfbchtsssntcrjctsnmntndssfbchtdvfbcht
-:END:
-
-* TODO [#B] [2020-12-07] [[https://nitter.net/Benjojo12/status/1335569822776700928#m][Ben Cox (@Benjojo12): "So I grabbed all of the chat logs,tweets and GDPR dumps I could get my hands on and compiled this graph on when I am generally "active" showing an impressive commitment to going to bed at midnight through the last 10 years... The shift in 2018 was me in NYC for @recursecenter :)" | nitter]]
-:PROPERTIES:
-:ID:       snttrntbnjjsttsmbncxbnjjshftnwsmnnycfrrcrscntrnttr
-:END:
-: So I grabbed all of the chat logs,tweets and GDPR dumps I could get my hands on and compiled this graph on when I am generally "active" showing an impressive commitment to going to bed at midnight through the last 10 years...
-* TODO tusky android app keeps some history in tuskyDb         :hpi:mastodon:
-:PROPERTIES:
-:CREATED:  [2021-01-24]
-:ID:       tskyndrdppkpssmhstryntskydb
-:END:
-* [#C] [2020-01-04] Relative imports in Python 3 - Stack Overflow   :exports:
-:PROPERTIES:
-:ID:       rltvmprtsnpythnstckvrflw
-:END:
-https://stackoverflow.com/questions/16981921/relative-imports-in-python-3
-link to explaining wtf is with DAL etc
-** [2021-01-22] eh?
-:PROPERTIES:
-:ID:       h
+:CREATED:  [2020-09-06]
+:ID:       scrpttgrbflsfrmdwnldsndmvccdnglygfrystrsttmnts
 :END:
 * TODO [#C] [[https://twitter.com/i/web/status/822927519586381824][TW]] at [2017-01-21] Играюсь с IMDB, думал придется beautiful soap доставать айтемы из вотчлиста, а там в стейте реакта лежит JSONка :exports:
 :PROPERTIES:
 :ID:       stwttrcmwbsttstwtиграюсьсамвстейтереакталежитjsnка
 :END:
-* STRT [#D] automating google drive                  :takeout:backup:exports:
-:PROPERTIES:
-:CREATED:  [2019-02-22]
-:ID:       tmtngggldrv
-:END:
-- ocamlfuse + script to move to desired location
-- basically that only requires you to request new archive occasionally
-* STRT [#A] data liberation or to be more specific, personal data liberation :toblog:exports:
-:PROPERTIES:
-:CREATED:  [2019-09-21]
-:ID:       dtlbrtnrtbmrspcfcprsnldtlbrtn
-:END:
-
-
-* TODO [#C] What data on myself I collect, why and how I use it
-:PROPERTIES:
-:CREATED:  [2020-01-13]
-:ID:       whtdtnmyslfcllctwhyndhwst
-:END:
-
-https://reddit.com/r/QuantifiedSelf/comments/eo41j6/what_data_on_myself_i_collect_why_and_how_i_use_it/fe8pxih?context=3
-
-* TODO [#B] github backups                                          :exports:
-:PROPERTIES:
-:CREATED:  [2020-02-01]
-:ID:       gthbbckps
-:END:
-
-: > if the official repo is taken down, your forks will disappear unless you have a copy.
-: https://help.github.com/en/github/collaborating-with-issues-...
-: I don't think that's true, I've personally recovered deleted repositories by finding its forks.
-: edit: Ah never mind it seems things work differently in the case of DMCA takedowns
-
-* [#C] [2019-12-27] 'hostage model' is a good term :toblog:dataliberation:sadinfra:
-:PROPERTIES:
-:ID:       hstgmdlsgdtrm
-:END:
-referring to software/services when data is held
-* TODO [#A] [2020-02-03] Data lake - Wikipedia                  :dal:exports:
-:PROPERTIES:
-:ID:       a8ff52d6-d6b9-40ee-b07c-561831ced351
-:END:
-https://en.wikipedia.org/wiki/Data_lake
-
-* [#C] [2020-03-17] "GitHub blocked me and all my libraries"  https://news.ycombinator.com/item?id=22593595
-:PROPERTIES:
-:ID:       gthbblckdmndllmylbrrssnwsycmbntrcmtmd
-:END:
-
-* TODO [#B] thinking about data providers                    :dataliberation:
-:PROPERTIES:
-:CREATED:  [2019-09-04]
-:ID:       thnkngbtdtprvdrs
-:END:
-
-Easiest option is just to have separate scripts to run regularly?
-
-** most users won't care about keeping historic data? Or maybe not keeping data at all? jsut provide lambda?
-:PROPERTIES:
-:ID:       mstsrswntcrbtkpnghstrcdtrmybntkpngdttlljstprvdlmbd
-:END:
-so the backup script could provide TODO
-
-** most users won't have cron set up?
-:PROPERTIES:
-:ID:       mstsrswnthvcrnstp
-:END:
-so need a way to trigger backup from promnesia indexer itself? Fairly easy to achieve as it's all just python code?
-
-** to backup, use some python patternt library?
-:PROPERTIES:
-:ID:       tbckpssmpythnpttrntlbrry
-:END:
-** example how it could work:
-:PROPERTIES:
-:ID:       xmplhwtcldwrk
-:END:
-in promnesia
-
-: def index_reddit():
-:     from exporters.reddit import export
-:     # TODO?
-:     return
-* [#C] BM export                                                :bluemaestro:
-:PROPERTIES:
-:ID:       bmxprt
-:END:
-** TODO [#C] automate, about how I back up bluemaestro data          :toblog:
-:PROPERTIES:
-:CREATED:  [2019-02-13]
-:ID:       tmtbthwbckpblmstrdt
-:END:
-** [2019-09-29] yeah, could elaborate on backing up android data, could be quite generic? :android:
-:PROPERTIES:
-:ID:       yhcldlbrtnbckngpndrddtcldbqtgnrc
-:END:
-
 * STRT [#C] Post about various ways of data handling  :toblog:dataliberation:
 :PROPERTIES:
 :CREATED:  [2019-09-25]
@@ -941,50 +1101,11 @@ Mock response from backend
 Ignore method
 Mypy literal
 This is what rust does
-
-* [#A] [2019-10-03] another big goal is having little operational overhead. I'd rather set up a (potentially elaborate) system once and tthen never have to update it and think how it works :exports:infra:
+* [#C] [2019-12-27] 'hostage model' is a good term :toblog:dataliberation:sadinfra:
 :PROPERTIES:
-:ID:       nthrbgglshvnglttlprtnlvrhhnnvrhvtpdttndthnkhwtwrks
+:ID:       hstgmdlsgdtrm
 :END:
-** [2019-10-03] that involves automatic ci                               :ci:
-:PROPERTIES:
-:ID:       thtnvlvstmtcc
-:END:
-** [2019-10-03] continuous cloud sync                                 :cloud:
-:PROPERTIES:
-:ID:       cntnscldsync
-:END:
-** [2019-10-03] automation/cron jobs for orger                         :dron:
-:PROPERTIES:
-:ID:       tmtncrnjbsfrrgr
-:END:
-* TODO [#C] Hypothesis API are cloned as well.
-:PROPERTIES:
-:CREATED:  [2020-01-19]
-:ID:       hypthssprclndswll
-:END:
-** [2020-01-21] fix in hypexport?
-:PROPERTIES:
-:ID:       fxnhypxprt
-:END:
-
-* [#C] [2020-01-01] perkeep/gphotos-cdp: This program uses the Chrome DevTools Protocol to drive a Chrome session that downloads your photos stored in Google Photos. https://github.com/perkeep/gphotos-cdp
-:PROPERTIES:
-:ID:       prkpgphtscdpthsprgrmssthcglphtssgthbcmprkpgphtscdp
-:END:
-:  we'd like our photos mirrored in seconds or minutes, not weeks.
-* [#C] [2020-01-01] Apply — Twitter Developers https://developer.twitter.com/en/application/intent :twitter:
-:PROPERTIES:
-:ID:       pplytwttrdvlprssdvlprtwttrcmnpplctnntnt
-:END:
-: Be thorough
-: We need to completely understand your use case before we can approve it. So, please include as much detail as possible in your application.
-
-jesus...
-* [2020-04-29] need to mirror HN...                      :hackernews:exports:
-:PROPERTIES:
-:ID:       ndtmrrrhn
-:END:
+referring to software/services when data is held
 * [#C] [2020-01-15] Hi, Camlistore author here. Andrew Gerrand worked with me on Camlistore too and... | Hacker News :infra:exports:
 :PROPERTIES:
 :ID:       hcmlstrthrhrndrwgrrndwrkdwthmncmlstrtndhckrnws
@@ -997,40 +1118,12 @@ https://news.ycombinator.com/item?id=13700968
 : Upspin's data model is very much a traditional filesystem.
 : Also, upspin cared about the interop between different users from day 1 with keyservers etc, whereas for Camlistore that was not the primary design criteria. (We're only starting to work on that now in Camlistore).
 : But there is some similarity for sure, and Andrew knows both.
-* [#C] [2020-11-27] [[https://github.com/tcgoetz/GarminDB/wiki/Success-Stories][Success Stories · tcgoetz/GarminDB Wiki]] :garmin:
+* TODO [#D] automatic date extraction? could work, e.g. for rescuetime :datetime:backupchecker:
 :PROPERTIES:
-:ID:       sgthbcmtcgtzgrmndbwksccsstrssccssstrstcgtzgrmndbwk
+:CREATED:  [2019-04-08]
+:ID:       tmtcdtxtrctncldwrkgfrrsctm
 :END:
-
-* TODO [#C] [2020-12-19] [[https://blog.openlibrary.org/2020/12/13/importing-your-goodreads-accessing-them-with-open-librarys-apis/][Importing your Goodreads & Accessing them with Open Library’s APIs]]
+* ----- last housekeeping on [2021-02-06] --------
 :PROPERTIES:
-:ID:       sblgpnlbrryrgmprtngyrgdrdrdsccssngthmwthpnlbrrysps
+:ID:       lsthskpngn
 :END:
-: Importing your Goodreads & Accessing them with Open Library’s APIs
-* TODO [#B] [2020-08-29] [[https://github.com/seanbreckenridge/ffexport][seanbreckenridge/ffexport: export and interface with firefox history/visits and site metadata]]
-:PROPERTIES:
-:ID:       sgthbcmsnbrcknrdgffxprtsncwthfrfxhstryvstsndstmtdt
-:END:
-
-* CANCEL [#C] [2020-05-24] [[https://remotestorage.io/][remoteStorage ‒ An open protocol for per-user storage on the Web]]
-:PROPERTIES:
-:ID:       srmtstrgrmtstrgnpnprtclfrprsrstrgnthwb
-:END:
-* TODO wonder if it's possible to get watch position?       :takeout:youtube:
-:PROPERTIES:
-:CREATED:  [2021-02-03]
-:ID:       wndrftspssbltgtwtchpstn
-:END:
-* TODO [#D] [2019-09-02] vincaslt/memparse: A Memrise courses parser https://github.com/vincaslt/memparse
-:PROPERTIES:
-:ID:       vncsltmmprsmmrscrssprsrsgthbcmvncsltmmprs
-:END:
-* [#D] [2019-07-28] jonbakerfish/TweetScraper: TweetScraper is a simple crawler/spider for Twitter Search without using API https://github.com/jonbakerfish/TweetScraper :twitter:
-:PROPERTIES:
-:ID:       jnbkrfshtwtscrprtwtscrprsgpsgthbcmjnbkrfshtwtscrpr
-:END:
-* [#D] [2019-07-29] taspinar/twitterscraper: Scrape Twitter for Tweets https://github.com/taspinar/twitterscraper
-:PROPERTIES:
-:ID:       tspnrtwttrscrprscrptwttrfwtssgthbcmtspnrtwttrscrpr
-:END:
-: One of the bigger disadvantages of the Search API is that you can only access Tweets written in the past 7 days. This is a major bottleneck for anyone looking for older past data to make a model from. With TwitterScraper there is no such limitation.

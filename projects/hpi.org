@@ -274,6 +274,16 @@ seems that only podcastAddict.db is useful, the rest is just crap
 https://github.com/twintproject/twint/issues/786
 
 : twint -u karlicoss --retweets
+** TODO [#C] need to switch all formats to json.. I guess it's still reasonable to have HTML parser because old takeouts didn't have it :takeout:
+:PROPERTIES:
+:CREATED:  [2019-05-19]
+:ID:       ndtswtchllfrmtstjsngsstssvhtmlprsrbcsldtktsddnthvt
+:END:
+*** TODO [#B] [2019-09-10] that's also important before releasing :promnesia:
+:PROPERTIES:
+:ID:       thtslsmprtntbfrrlsng
+:END:
+
 * [#A] * documentation & user friendliness improvements             :hpi_doc:
 :PROPERTIES:
 :CREATED:  [2020-05-18]
@@ -753,20 +763,6 @@ maybe instead of defining dynamic bits, import stuff from my.module.config? and 
 :PROPERTIES:
 :CREATED:  [2020-08-23]
 :ID:       frfrqncygblmstrlsndtclcltrqncyghwmnymntntrvlsrcvrd
-:END:
-* TODO [#C] dashboard for tokens + expose json or something so any language can have bindings :infra:exports:
-:PROPERTIES:
-:CREATED:  [2020-03-24]
-:ID:       dshbrdfrtknsxpsjsnrsmthngsnylnggcnhvbndngs
-:END:
-might be annoying to implement token retrieval on JS only?
-** [2020-04-12] add this to myinfra repository??
-:PROPERTIES:
-:ID:       ddthstmynfrrpstry
-:END:
-** TODO [#B] [2020-05-27] dunno, I'm a bit tired and not as motivated to build it... but could post so someone else picks up :toblog:
-:PROPERTIES:
-:ID:       dnnmbttrdndntsmtvtdtbldtbtcldpstssmnlspcksp
 :END:
 * TODO [#C] could write a tool to process historic stats for github referrers etc? :toblog:coding:
 :PROPERTIES:

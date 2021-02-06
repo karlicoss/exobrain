@@ -907,3 +907,8 @@ wow, this might really be useful
 :CREATED:  [2021-01-31]
 :ID:       xprtsttchngsspwthcmmnts
 :END:
+* TODO sync with #pinboard? should be super easy now with inherited tags.... :pinboard:
+:PROPERTIES:
+:CREATED:  [2021-02-06]
+:ID:       syncwthpnbrdshldbsprsynwwthnhrtdtgs
+:END:
