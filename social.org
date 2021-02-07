@@ -140,3 +140,12 @@ https://hackernoon.com/what-i-wish-i-knew-before-joining-mastodon-7a17e7f12a2b
 :ID:       tldtwnstldtwn
 :END:
 : tilde.town is non-commercial, donation supported, and committed to rejecting false technological progress in favor of empathy and sustainable computing.
+* TODO [#D] [2019-12-27] A Brief Guide to Getting Started in the Fediverse | The Wonder Dome https://www.wonderdome.net/guide.html
+:PROPERTIES:
+:ID:       brfgdtgttngstrtdnthfdvrsthwndrdmswwwwndrdmntgdhtml
+:END:
+: PeerTube - A relatively new application which aims to give a YouTube-like experience while using peer-to-peer sharing to cut down on video hosting costs.
+* [#D] [2020-01-09] fediverse.space https://www.fediverse.space/
+:PROPERTIES:
+:ID:       fdvrsspcswwwfdvrsspc
+:END:

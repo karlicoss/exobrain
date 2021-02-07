@@ -2333,3 +2333,50 @@ prompts for possible post about bookmarks...
 :ID:       thtswhywcnthvncpdfslnxswwmntsyrthtswhywcnthvncpdfs
 :END:
 : Okular
+* TODO [#D] [2020-01-05] What tools do you use to maintain a personal log/journal ? | Lobsters https://lobste.rs/s/peevtw/what_tools_do_you_use_maintain_personal
+:PROPERTIES:
+:ID:       whttlsdystmntnprsnllgjrnlrsspvtwwhttlsdysmntnprsnl
+:END:
+
+* TODO [#D] [2019-11-20] How to not use Google search - Shahinism https://shahinism.com/en/posts/alternative-to-google-search/ :search:
+:PROPERTIES:
+:ID:       hwtntsgglsrchshhnsmsshhnsmcmnpstsltrntvtgglsrch
+:END:
+
+* [#D] [2019-09-02] bryanph/GeistMap: A personal knowledge base/network with a focus on connections https://github.com/bryanph/GeistMap
+:PROPERTIES:
+:ID:       brynphgstmpprsnlknwldgbsncnnctnssgthbcmbrynphgstmp
+:END:
+
+* [#D] [2020-05-07] [[https://github.com/returntocorp/semgrep][returntocorp/semgrep: like grep but for code: fast and syntax-aware semantic code pattern search for many languages]] :search:
+:PROPERTIES:
+:ID:       sgthbcmrtrntcrpsmgrprtrntmntccdpttrnsrchfrmnylnggs
+:END:
+
+* [#D] [2019-09-21] full-stack monastic 🧘‍♂️🗺 on Twitter: "tags are useful as a secondary organizational method, especially as the # of notes you have increases. don’t tag everything ahead of time. wait until you have many notes to process, then build structure. you can create custom tags specific to your profession or big projects. https://t.co/CtlOvTNDzm" / Twitter
+:PROPERTIES:
+:ID:       fllstckmnstc️ntwttrtgsrsfbgprjctsstcctlvtndzmtwttr
+:END:
+https://twitter.com/tasshinfogleman/status/1083157910257975298
+: tags are useful as a secondary organizational method, especially as the # of notes you have increases. don’t tag everything ahead of time. wait until you have many notes to process, then build structure. you can create custom tags specific to your profession or big projects.
+* [2021-01-03] [[https://news.ycombinator.com/item?id=25390546][Ask HN: What Do You Think? | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdskhnwhtdythnkhckrnws
+:END:
+: 	The problem (IMHO) around notes, scheduling, and productivity apps is that they have only subset of features that a given user needs. User workflows are very unique and diverse. Some may prefer calendar integration, some may not. Others may prefer inline image support while some only require text. The examples are endless. It seems inevitable that a note/scheduling/productivity app can only bloat user experience while being in the infinite race to onboard features their users/competitors demand.
+* STRT [#D] [2020-05-11] [[https://twitter.com/ErikAllberg/status/1249924334325465089][Erik Allberg on Twitter: "As Erik's tweets get influence, I have to comment, with the risks of what is happening around networked text (Ex Roam, OrgRoam, OpenRoam, Athens, Dumbledore. ex. Live without 2nd brain? Risk @nntaleb Cult around Roam? Nah / Syntheism @Bardissimo Scenario:Dumbledore non-profit" / Twitter]]
+:PROPERTIES:
+:ID:       stwttrcmrkllbrgsttsrkllbrdssmscnrdmbldrnnprfttwttr
+:END:
+: As Erik's tweets get influence, I have to comment, with the risks of what is happening around networked text (Ex Roam, OrgRoam, OpenRoam, Athens, Dumbledore.
+* STRT [#C] [2021-01-29] [[https://www.notion.so/Artificial-Brain-Networked-notebook-app-a131b468fc6f43218fb8105430304709][Artificial Brain Networked notebook app]]
+:PROPERTIES:
+:ID:       swwwntnsrtfclbrnntwrkdntbfcffbrtfclbrnntwrkdntbkpp
+:END:
+table with comparison of note taking apps: roam/logseq/dendrom/org-roam etc
+
+* [#C] [2020-11-24] [[https://twitter.com/__ice9/status/1214378560925970432][ice9 on Twitter: "@tentontintin It's even more ambiguous at this point, given the useless new 'BERT' NLP system used for generating results-- it routinely ignores terms from the query, even ones with obvious semantic importance, so results are often entirely irrelevant to the complete requested term set." / Twitter]] :google:search:
+:PROPERTIES:
+:ID:       stwttrcmcsttscntwttrtntntnttthcmpltrqstdtrmsttwttr
+:END:
+: It's even more ambiguous at this point, given the useless new 'BERT' NLP system used for generating results-- it routinely ignores terms from the query, even ones with obvious semantic importance, so results are often entirely irrelevant to the complete requested term set.

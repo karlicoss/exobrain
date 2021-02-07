@@ -492,3 +492,7 @@ tweet short summaries of my blog posts?
 : commentpara.de is an anonymous commenting system for the indieweb.
 
 ok, this seems like the best choice
+* TODO [#D] [2019-12-03] myles/awesome-static-generators: A curated list of static web site generators. https://github.com/myles/awesome-static-generators
+:PROPERTIES:
+:ID:       mylswsmsttcgnrtrscrtdlstfssgthbcmmylswsmsttcgnrtrs
+:END:

@@ -988,3 +988,28 @@ https://github.com/alphapapa/emacs-package-dev-handbook
 :PROPERTIES:
 :ID:       nmrtndmdthssmyprvtdmmcscnfgrtnsgthbcmnmrtndmd
 :END:
+
+* TODO [#D] [2020-01-03] Exploring large projects with Projectile and Helm Projectile https://tuhdo.github.io/helm-projectile.html
+:PROPERTIES:
+:ID:       xplrnglrgprjctswthprjctlnjctlsthdgthbhlmprjctlhtml
+:END:
+
+* [#D] [2020-02-22] Why is doom emacs so fast? · Issue #310 · hlissner/doom-emacs https://github.com/hlissner/doom-emacs/issues/310
+:PROPERTIES:
+:ID:       whysdmmcssfstsshlssnrdmmcssgthbcmhlssnrdmmcssss
+:END:
+
+* [#D] [2020-02-21] doom-emacs/getting_started.org at develop · hlissner/doom-emacs https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org
+:PROPERTIES:
+:ID:       dmmcsgttngstrtdrgtdvlphlsmcsblbdvlpdcsgttngstrtdrg
+:END:
+: Important: you may encounter errors after up/downgrading Emacs. Emacs bytecode is generally not forward compatible. You will have to recompile or reinstall your packages to fix this, i.e.
+: 
+:     doom build, to rebuild all your installed packages,
+* [#D] [2020-02-27] hlissner/emacs-doom-themes: An opinionated pack of modern color-themes https://github.com/hlissner/emacs-doom-themes
+:PROPERTIES:
+:ID:       hlssnrmcsdmthmsnpnntdpckfhmssgthbcmhlssnrmcsdmthms
+:END:
+: Re-set org-todo' & org-headline-done' faces to make them respect underlying faces (i.e. don't override the :height or :background of underlying faces).
+
+- very nice!

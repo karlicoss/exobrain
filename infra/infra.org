@@ -789,3 +789,17 @@ Find a way to simplify and make it more effecient.
 : The best part about dry is using it through docker itself.
 : PikachuEXE 6 months ago [-]
 : Oh thanks for sharing! I found this one more "mature"
+* [#D] [2020-05-11] [[https://news.ycombinator.com/item?id=23136413][Pi-hole 5.0 | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdphlhckrnws
+:END:
+: The default way would be to install the package unattendedupgrade which will install security updates on your system every day.
+* [#D] [2020-09-01] [[https://news.ycombinator.com/item?id=24341867][Htop 3.0 | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdhtphckrnws
+:END:
+: - docker stats (htop equivalent for docker containers)
+* [#D] [2020-11-04] [[https://github.com/pwaller/docker-show-context][pwaller/docker-show-context: Show where time is wasted during the context upload of `docker build`]]
+:PROPERTIES:
+:ID:       sgthbcmpwllrdckrshwcntxtpstddrngthcntxtpldfdckrbld
+:END:

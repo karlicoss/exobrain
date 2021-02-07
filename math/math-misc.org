@@ -621,3 +621,45 @@ some good explanations for calculus of variations
 :ID:       thxstntlrskfmthrrrsgwrnnttthxstntlrskfmthmtclrrrsn
 :END:
 : Reading great mathematicians like Terence Tao discuss the heuristics they use on unsolved problems25, they bear some resemblances to computer science techniques.
+* [#D] [2019-12-26] The Future of Mathematics? [video] | Hacker News https://news.ycombinator.com/item?id=21200721
+:PROPERTIES:
+:ID:       thftrfmthmtcsvdhckrnwssnwsycmbntrcmtmd
+:END:
+: Lean: https://leanprover.github.io/
+: Repo: https://github.com/leanprover/lean/
+: Chat: https://leanprover.zulipchat.com/
+: The maths course (in French) that can be seen during the presentation: https://www.math.u-psud.fr/~pmassot/enseignement/math114/
+* [#D] [2019-12-26] Theorem Proving in Lean | Hacker News https://news.ycombinator.com/item?id=17171101
+:PROPERTIES:
+:ID:       thrmprvngnlnhckrnwssnwsycmbntrcmtmd
+:END:
+: Lean deserves wide recognition. First, it's fast enough for highly interactive theorem development. Second it can also be used as a programming language. And lastly its syntax is pleasant to work with which is important to the experience.
+: If you have only heard about interactive theorem provers and don't yet have any opinions I'd give Lean a try first. The interactive tutorials are nice and the aforementioned features make it pleasant to work with.
+* [#D] [2019-12-26] Theorem Proving in Lean | Hacker News https://news.ycombinator.com/item?id=17171101
+:PROPERTIES:
+:ID:       thrmprvngnlnhckrnwssnwsycmbntrcmtmd
+:END:
+: bandali on May 28, 2018 [-]
+: An Introduction to Lean [0] is another nice (albeit incomplete) tutorial.
+: There’s a fairly active community over on Zulip [1] if you like to drop by for a chat or get some help.
+: [0]: https://leanprover.github.io/introduction_to_lean/
+: [1]: https://leanprover.zulipchat.com
+* [#D] [2019-12-26] A Review of the Lean Theorem Prover | Jigger Wit https://jiggerwit.wordpress.com/2018/09/18/a-review-of-the-lean-theorem-prover/
+:PROPERTIES:
+:ID:       rvwfthlnthrmprvrjggrwtsjgwrdprsscmrvwfthlnthrmprvr
+:END:
+
+* [#D] [2019-12-08] 11.3 - Identifying Outliers (Unusual y Values) | STAT 501 https://newonlinecourses.science.psu.edu/stat501/lesson/11/11.3
+:PROPERTIES:
+:ID:       dntfyngtlrsnslyvlssttsnwnlncrssscncpsdsttlssn
+:END:
+: An observation with an internally studentized residual that is larger than 3 (in absolute value) is generally deemed an outlier.
+* [#D] [2020-05-12] [[https://news.ycombinator.com/item?id=23150699][A 2020 Vision of Linear Algebra | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdvsnflnrlgbrhckrnws
+:END:
+
+* [#D] [2020-07-31] [[https://store.steampowered.com/app/1256230/Hyperbolica/][Hyperbolica on Steam]] :math:games:
+:PROPERTIES:
+:ID:       sstrstmpwrdcmpphyprblchyprblcnstm
+:END:

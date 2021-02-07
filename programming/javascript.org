@@ -256,3 +256,18 @@ https://www.pluralsight.com/guides/javascript-callbacks-variable-scope-problem
 :CREATED:  [2019-10-31]
 :ID:       jsflwxmplwthtwtslthncldpstnjvscrptsbrddt
 :END:
+
+* TODO [#D] [2019-12-22] BigInt Eilish 🌟 on Twitter: "@sveltejs Rewrote my Twitter search from React to Svelte @Reactjs 42kb Code: https://t.co/4fDXi7hqwG Site: https://t.co/Ync9baSs2n @Sveltejs 5kb Code: https://t.co/lD1gywleNp Site: https://t.co/pgmavoPLBy Had trouble w/ eslint/prettier, but overall much less code to write cc @wgao19 https://t.co/BthQ2I6C77" / Twitter
+:PROPERTIES:
+:ID:       bgntlshntwttrsvltjsrwrtmysscdtwrtccwgstcbthqctwttr
+:END:
+https://twitter.com/swyx/status/1208461215069945856
+: Rewrote my Twitter search from React to Svelte
+: @Reactjs  42kb
+: Code: https://github.com/sw-yx/bettertwitter/tree/reactapp
+: Site: https://inspiring-fermat.netlify.com
+: 
+: @Sveltejs 5kb
+: Code: https://github.com/sw-yx/bettertwitter/tree/master
+: Site: https://bettertwitter.netlify.com
+: Had trouble w/ eslint/prettier, but overall much less code to write

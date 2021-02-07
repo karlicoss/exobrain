@@ -563,6 +563,11 @@ read through their weeknotes
 :ID:       sgthbcmjksntwkjksntwkpblcwkknwldgbs
 :END:
 
+** [#D] ExoBrain | Jibran Kalia
+:PROPERTIES:
+:ID:       xbrnjbrnkl
+:END:
+
 * [#C] * content to add
 :PROPERTIES:
 :ID:       cntnttdd
@@ -911,4 +916,8 @@ wow, this might really be useful
 :PROPERTIES:
 :CREATED:  [2021-02-06]
 :ID:       syncwthpnbrdshldbsprsynwwthnhrtdtgs
+:END:
+* STRT [#B] [2020-12-30] [[https://anagora.org/node/agora][Agora]]
+:PROPERTIES:
+:ID:       sngrrgndgrgr
 :END:

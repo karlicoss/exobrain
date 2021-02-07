@@ -1329,3 +1329,8 @@ although maybe easier to emulate with [[ links?
 :  (format "\n<h%d id=\"%s\">%s</h%d>\n"
 :       level
 :       id
+
+* [#D] [2019-11-21] Literate Theorem Proving with Org https://chame.co/writeups/org_coq/post.html
+:PROPERTIES:
+:ID:       ltrtthrmprvngwthrgschmcwrtpsrgcqpsthtml
+:END:

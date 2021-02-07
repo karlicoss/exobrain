@@ -2481,3 +2481,267 @@ Seems to have been worked on for the past 10 years? Wonder what's up with it (bu
 :PROPERTIES:
 :ID:       scntstscrtfrstbllntmbmlcltstsbllntmbmlclrsmltnhtml
 :END:
+* [#D] [2020-02-15] 42wim/matterbridge: bridge between mattermost, IRC, gitter, xmpp, slack, discord, telegram, rocketchat, steam, twitch, ssh-chat, zulip, whatsapp, keybase, matrix and more with REST API (mattermost not required!) https://github.com/42wim/matterbridge
+:PROPERTIES:
+:ID:       wmmttrbrdgbrdgbtwnmttrmststntrqrdsgthbcmwmmttrbrdg
+:END:
+
+* [#D] [2020-04-11] The Sad Saga of Purism and the Librem 5 | Hacker News https://news.ycombinator.com/item?id=21369733
+:PROPERTIES:
+:ID:       thsdsgfprsmndthlbrmhckrnwssnwsycmbntrcmtmd
+:END:
+
+* TODO [#D] [2019-07-30] a list of @visakanv's threads https://www.notion.so/a-list-of-visakanv-s-threads-1a6ed25cf06e49e388a303903d597b73
+:PROPERTIES:
+:ID:       lstfvsknvsthrdsswwwntnslstfvsknvsthrdsdcfdb
+:END:
+* [#D] [2018-12-22] c# - Writing musical notes to a wav file - Stack Overflow https://stackoverflow.com/questions/4974531/writing-musical-notes-to-a-wav-file :quitar:
+:PROPERTIES:
+:ID:       cwrtngmsclntstwvflstckvrfwcmqstnswrtngmsclntstwvfl
+:END:
+* [#D] [2018-06-10] Stumbled into /r/homelab? Start Here! : homelab https://www.reddit.com/r/homelab/comments/5gz4yp/stumbled_into_rhomelab_start_here/ :hobby:
+:PROPERTIES:
+:ID:       stmbldntrhmlbstrthrhmlbswtsgzypstmbldntrhmlbstrthr
+:END:
+* [#D] [2019-12-26] Airtable https://airtable.com
+:PROPERTIES:
+:ID:       rtblsrtblcm
+:END:
+* TODO [#D] [2020-01-01] Why I Switched from ZSH to FISH - DEV Community 👩‍💻👨‍💻 https://dev.to/joshmedeski/why-i-switched-from-zsh-to-fish-2j17
+:PROPERTIES:
+:ID:       whyswtchdfrmzshtfshdvcmmnhmdskwhyswtchdfrmzshtfshj
+:END:
+* TODO [#D] [2020-01-02] Bridge setup with Docker · tulir/mautrix-telegram Wiki https://github.com/tulir/mautrix-telegram/wiki/Bridge-setup-with-Docker :telegram:matrix:
+:PROPERTIES:
+:ID:       brdgstpwthdckrtlrmtrxtlgrmtrxtlgrmwkbrdgstpwthdckr
+:END:
+* [#D] [2020-01-05]  reMarkable: the perfect tablet for academics https://artagnon.com/articles/rM :remarkable:
+:PROPERTIES:
+:ID:       rmrkblthprfcttbltfrcdmcssrtgnncmrtclsrm
+:END:
+* [#D] [2020-01-06] Hundred Rabbits — Off the grid https://100r.co/pages/off_the_grid.html#visas :offline:offgrid:
+:PROPERTIES:
+:ID:       hndrdrbbtsffthgrdsrcpgsffthgrdhtmlvss
+:END:
+* [#D] [2020-01-09] Bálint 🎭: "This is amazing, we evolved the alphabet from pic…" - x0r.be https://x0r.be/@szbalint/99834795406169086
+:PROPERTIES:
+:ID:       bálntthssmzngwvlvdthlphbtfrmpcxrbsxrbszblnt
+:END:
+: This is amazing, we evolved the alphabet from pictograms to highly stylized characters to letters and now we're going full circle by incorporating emojis
+* [#D] [2020-01-11] 1x Engineer https://1x.engineer/
+:PROPERTIES:
+:ID:       xngnrsxngnr
+:END:
+* TODO [#D] [2019-12-24] Comparison to similar solutions — kibitzr 5.4.3 documentation https://kibitzr.readthedocs.io/en/latest/comparison.html
+:PROPERTIES:
+:ID:       cmprsntsmlrsltnskbtzrdcmntzrrdthdcsnltstcmprsnhtml
+:END:
+: Kibitzr vs Huginn
+* [#D] [2019-12-22] Year in Review: 2019 :: Up and to the Right — Jonathan Borichevskiy https://jborichevskiy.com/posts/year-in-review-2019/
+:PROPERTIES:
+:ID:       yrnrvwpndtthrghtjnthnbrchskysjbrchvskycmpstsyrnrvw
+:END:
+:  Lots of downstream effects from getting this right - better remote education, professional collaboration, and more accessible therapy to name a few.
+* [#D] [2019-12-24] algebrai I ran into the same problem again, and there's a much better solution now. Just use pygtail:
+:PROPERTIES:
+:ID:       lgbrrnntthsmprblmgnndthrsmchbttrsltnnwjstspygtl
+:END:
+:    Pygtail reads log file lines that have not been read. It will even handle log files that have been rotated. Based on logcheck's logtail2 (http://logcheck.org)
+* [#D] [2019-12-24] Does anyone else use Huginn? What do you use it … - homelab - Reddit https://www.reddit.com/r/homelab/comments/8fol6y/does_anyone_else_use_huginn_what_do_you_use_it_for/
+:PROPERTIES:
+:ID:       dsnynlsshgnnwhtdysthmlbrdsflydsnynlsshgnnwhtdystfr
+:END:
+* TODO [#D] [2019-09-23] Thoughts on improving chat systems | Lobsters https://lobste.rs/s/5cxjxw/thoughts_on_improving_chat_systems
+:PROPERTIES:
+:ID:       thghtsnmprvngchtsystmslbsjxwthghtsnmprvngchtsystms
+:END:
+* TODO [#D] [2019-11-03] Check4Change – Get this Extension for 🦊 Firefox (en-US) https://addons.mozilla.org/en-US/firefox/addon/check4change/?src=search
+:PROPERTIES:
+:ID:       chckchnggtthsxtnsnfrfrfxngnsfrfxddnchckchngsrcsrch
+:END:
+* [#D] [2019-11-22] Cohen's kappa - Wikipedia https://en.wikipedia.org/wiki/Cohen%27s_kappa
+:PROPERTIES:
+:ID:       chnskppwkpdsnwkpdrgwkchnskpp
+:END:
+: Cohen's kappa measures the agreement between two raters who each classify N items into C mutually exclusive categories.
+* TODO [#D] [2019-12-18] Calm Technology https://calmtech.com/
+:PROPERTIES:
+:ID:       clmtchnlgysclmtchcm
+:END:
+* [#D] [2020-05-23] [[https://github.com/open-keychain/open-keychain/issues/1380][Multi decrypt: Detached file signatures · Issue #1380 · open-keychain/open-keychain]]
+:PROPERTIES:
+:ID:       sgthbcmpnkychnpnkychnsssmdflsgntrssspnkychnpnkychn
+:END:
+: Multi decrypt: Detached file signatures
+* TODO [#D] [2019-09-03] I'm the author of ag. That was a really good comparison of the different code se... | Hacker News https://news.ycombinator.com/item?id=12567328
+:PROPERTIES:
+:ID:       mththrfgthtwsrllygdcmprsndshckrnwssnwsycmbntrcmtmd
+:END:
+* [#D] [2019-09-08] Биохакеры пообещали создать «пиратскую» генную терапию в сто раз дешевле оригинала https://nplus1.ru/news/2019/09/02/biohackingglybera
+:PROPERTIES:
+:ID:       биохакерыпообещалисоздатьиналаsnplsrnwsbhckngglybr
+:END:
+: Биохакеры пообещали создать «пиратскую» генную терапию в сто раз дешевле оригинала
+* TODO [#D] [2019-09-09] Efficiency hacks for programmers | Lobsters https://lobste.rs/s/lfl2en/efficiency_hacks_for_programmers
+:PROPERTIES:
+:ID:       ffcncyhcksfrprgrmmrslbstrslflnffcncyhcksfrprgrmmrs
+:END:
+: Thanks to qutebrowser, I pretty much never have to use a mouse. Plus its integration with gopass including TOTP, extremely customizable config settings, and custom keybindings to integrate stuff like MPV for playing videos or opening magnet links with aria2, it’s incredible.
+* [#D] [2019-09-10] Browse Standard Ebooks - Standard Ebooks: Free and liberated ebooks, carefully produced for the true book lover. https://standardebooks.org/ebooks/
+:PROPERTIES:
+:ID:       brwsstndrdbksstndrdbksfrnrthtrbklvrsstndrdbksrgbks
+:END:
+* [#D] [2019-09-10] WoeUSB/README.md at master · slacka/WoeUSB https://github.com/slacka/WoeUSB/blob/master/README.md :windows:
+:PROPERTIES:
+:ID:       wsbrdmmdtmstrslckwsbsgthbcmslckwsbblbmstrrdmmd
+:END:
+: A Linux program to create a Windows USB stick installer from a real Windows DVD or image.
+* STRT [#D] [2019-05-04] Biohacking Is a Bitch – NEO.LIFE – Medium https://medium.com/neodotlife/david-ishee-crispr-dogs-dalmatians-d24a48d5d874
+:PROPERTIES:
+:ID:       bhckngsbtchnlfmdmsmdmcmndtlfdvdshcrsprdgsdlmtnsddd
+:END:
+
+* [#D] [2019-05-21] quiksilver10152/P300: Uses OpenBCI headset to interpret subject's focus on a 6x6 grid of letters and numbers and type out the corresponding figure. https://github.com/quiksilver10152/P300 :bci:
+:PROPERTIES:
+:ID:       qkslvrpsspnbchdsttntrprtsrrspndngfgrsgthbcmqkslvrp
+:END:
+* [#D] [2019-01-06] viguix/OpenBCI_GUI_Alpha_Power_Battle: What is more exciting than a brain-controlled helicopter battle against two people? We only need two brains, one OpenBCI board, one Arduino board, two digital potentiometers, and two toy helicopters. Are you ready for this? https://github.com/viguix/OpenBCI_GUI_Alpha_Power_Battle :bci:
+:PROPERTIES:
+:ID:       vgxpnbcglphpwrbttlwhtsmrxsgthbcmvgxpnbcglphpwrbttl
+:END:
+* [#D] [2019-04-23] How to make touch career decisions - 80,000 Hours https://80000hours.org/career-decision/article/?utm_source=The+EA+Newsletter&utm_campaign=04ca3c2244-EMAIL_CAMPAIGN_2019_04_03_04_26&utm_medium=email&utm_term=0_51c1df13ac-04ca3c2244-318697649
+:PROPERTIES:
+:ID:       hwtmktchcrrdcsnshrsshrsrgmlcmpgntmmdmmltmtrmcdfccc
+:END:
+* TODO [#D] [2019-05-10] Literature Review: MDMA – Aceso Under Glass https://acesounderglass.com/2018/09/19/literature-review-mdma/ :psy:
+:PROPERTIES:
+:ID:       ltrtrrvwmdmcsndrglssscsndrglsscmltrtrrvwmdm
+:END:
+* TODO [#D] [2019-02-14] [[https://reddit.com/r/arduino/comments/35928o/what_are_some_of_the_coolest_sensors_i_might_not/][What are some of the coolest sensors I might not know about?]] /r/arduino
+:PROPERTIES:
+:ID:       srddtcmrrdncmmntswhtrsmfthclstsnsrsmghtntknwbtrrdn
+:END:
+** [2019-02-14] Gesture sensor: https://www.sparkfun.com/products/12787?gclid=CMeE99XUscUCFRCCaQod2aYAcw
+:PROPERTIES:
+:ID:       gstrsnsrswwwsprkfncmprdctsgcldcmxsccfrccqdycw
+:END:
+https://www.reddit.com/r/arduino/comments/35928o/what_are_some_of_the_coolest_sensors_i_might_not/
+** TODO [2019-04-11] Air movement sensor https://www.reddit.com/r/arduino/comments/35928o/what_are_some_of_the_coolest_sensors_i_might_not/cr2kd71/
+:PROPERTIES:
+:ID:       rmvmntsnsrswwwrddtcmrrdncrsmfthclstsnsrsmghtntcrkd
+:END:
+hmm could use it for bathroom?
+
+* [#D] [2019-05-10] How To Shortcut The Mindfulness Learning Curve with e-Meditation - Warrior.do https://www.warrior.do/e-meditation/
+:PROPERTIES:
+:ID:       hwtshrtctthmndflnsslrnngchmdttnwrrrdswwwwrrrdmdttn
+:END:
+
+* [#D] [2020-04-05] The happy state of | Lobsters https://lobste.rs/s/3wknua/happy_state
+:PROPERTIES:
+:ID:       thhppysttflbstrsslbstrsswknhppystt
+:END:
+* [#D] [2020-02-12] Bookmarklet Creator with Script Includer - Peter Coles https://mrcoles.com/bookmarklet/
+:PROPERTIES:
+:ID:       bkmrkltcrtrwthscrptncldrptrclssmrclscmbkmrklt
+:END:
+
+* [#D] [2020-01-14] Post-glacial rebound - Wikipedia https://en.wikipedia.org/wiki/Post-glacial_rebound
+:PROPERTIES:
+:ID:       pstglclrbndwkpdsnwkpdrgwkpstglclrbnd
+:END:
+* [#D] [2020-05-19] [[https://github.com/adept/full-fledged-hledger][adept/full-fledged-hledger: Tutorial on Hledger setup with multi-year files, multi-source imports and a range of auto-generated reports]]
+:PROPERTIES:
+:ID:       sgthbcmdptfllfldgdhldgrdpsrcmprtsndrngftgnrtdrprts
+:END:
+
+* [#D] [2020-07-24] [[https://news.ycombinator.com/item?id=23938007][Ask HN: Is it just me? why is “news” so addictive? | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdskhnstjstmwhysnwssddctvhckrnws
+:END:
+
+* [#D] [2020-06-05] [[https://wiby.me/][Wiby - Search Engine for the Classic Web]]
+:PROPERTIES:
+:ID:       swbymwbysrchngnfrthclsscwb
+:END:
+* [#D] [2020-09-16] [[https://bigthink.com/mind-brain/dmt-beings?rebelltitem=4#rebelltitem4][Study investigates ‘entities’ seen while using DMT - Big Think]] :psy:
+:PROPERTIES:
+:ID:       sbgthnkcmmndbrndmtbngsrbltgtsnttssnwhlsngdmtbgthnk
+:END:
+* [#D] [2020-12-19] [[http://megaprocessor.com/][Megaprocessor]]
+:PROPERTIES:
+:ID:       mgprcssrcmmgprcssr
+:END:
+: The Megaprocessor is a micro-processor built large. Very large.
+* [#D] [2021-01-23] [[https://www.youtube.com/watch?v=WRdJCFEqFTU&list=WL&index=55][(1) Joscha: Computational Meta-Psychology - YouTube]]
+:PROPERTIES:
+:ID:       swwwytbcmwtchvwrdjcfqftlsxjschcmpttnlmtpsychlgyytb
+:END:
+48:27 evolution of PLs vs religion hahaha
+* TODO [#D] [2019-12-20] Awesome Bar v2 - MozillaWiki https://wiki.mozilla.org/Awesome_Bar_v2
+:PROPERTIES:
+:ID:       wsmbrvmzllwkswkmzllrgwsmbrv
+:END:
+
+* TODO [#D] [2019-12-04] Personality Characteristics https://web.archive.org/web/20190805194413/http://www.catb.org/jargon/html/personality.html
+:PROPERTIES:
+:ID:       prsnltychrctrstcsswbrchvrwctbrgjrgnhtmlprsnltyhtml
+:END:
+: The most obvious common ‘personality’ characteristics of hackers are high intelligence, consuming curiosity, and facility with intellectual abstractions. Also, most hackers are ‘neophiles’, stimulated by and appreciative of novelty (especially intellectual novelty). Most are also relatively individualistic and anti-conformist.
+* TODO [#D] [2019-11-18] Giulio S. on Twitter: "I made a chrome extension that tells you the likelihood that the selected text was generated by an AI. Have a look everyone! github repo link: https://t.co/iIVoXvCa00 chrome web store link: https://t.co/76fv2LNm32 https://t.co/F8quNMK7Cf https://t.co/sj5lnGDSWu" / Twitter
+:PROPERTIES:
+:ID:       glsntwttrmdchrmxtnsnthttltcfqnmkcfstcsjlngdswtwttr
+:END:
+https://twitter.com/thesofakillers/status/1196410719006285826
+:  made a chrome extension that tells you the likelihood that the selected text was generated by an AI. Have a look everyone!
+* [#D] [2020-06-07] [[https://github.com/Evizero/UnicodePlots.jl][Evizero/UnicodePlots.jl: Unicode-based scientific plotting for working in the terminal]] :viz:cli:
+:PROPERTIES:
+:ID:       sgthbcmvzrncdpltsjlvzrncdntfcplttngfrwrkngnthtrmnl
+:END:
+* [#D] [2020-06-15] [[https://guix.gnu.org/blog/2019/guix-reduces-bootstrap-seed-by-50/][Guix Reduces Bootstrap Seed by 50% — 2019 — Blog — GNU Guix]]
+:PROPERTIES:
+:ID:       sgxgnrgblggxrdcsbtstrpsdbygxrdcsbtstrpsdbyblggngx
+:END:
+** [#D] [2020-06-15] [[https://guix.gnu.org/blog/2020/guix-further-reduces-bootstrap-seed-to-25/][Guix Further Reduces Bootstrap Seed to 25% — 2020 — Blog — GNU Guix]]
+:PROPERTIES:
+:ID:       sgxgnrgblggxfrthrrdcsbtstfrthrrdcsbtstrpsdtblggngx
+:END:
+: In a previous blog post we elaborate on why this reduction and bootstrappability in general is so important.
+* [#D] [2020-05-27] [[https://github.com/Soldat/soldat][Soldat/soldat: Soldat is a unique 2D (side-view) multiplayer action game]] :games:
+:PROPERTIES:
+:ID:       sgthbcmsldtsldtsldtsldtsldtsnqdsdvwmltplyrctngm
+:END:
+* [#D] [2020-06-20] [[https://news.ycombinator.com/item?id=23584954][Why Figma Wins | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdwhyfgmwnshckrnws
+:END:
+: Designer here. My experience has been that Figma has done the opposite. It's created a lot of consistency with shared component libraries and standardized type / color styles. Also, the fact that engineers can jump into Figma and inspect CSS has been immensely helpful.
+: In the design world, Figma is like the equivalent of getting a robust IDE with syntax highlighting, code completion, compilation, and debugging. It's replaced multiple tools and connected people in a way that's never been possible.
+* [#D] [2020-11-08] [[https://github.com/crowdsecurity/crowdsec][crowdsecurity/crowdsec: Crowdsec - An open-source, lightweight agent to detect and respond to bad behaviours. It also automatically benefits from our global community-wide IP reputation database.]]
+:PROPERTIES:
+:ID:       sgthbcmcrwdscrtycrwdsccrwrmrglblcmmntywdprpttndtbs
+:END:
+
+* TODO [#D] [2019-09-15] Death Trash http://deathtrash.com/index.html :games:
+:PROPERTIES:
+:ID:       dthtrshdthtrshcmndxhtml
+:END:
+
+* STRT [#D] [2020-01-02] I hear that argument very frequently and I don’t buy it. Think about all the ga... | Hacker News https://news.ycombinator.com/item?id=21930751
+:PROPERTIES:
+:ID:       hrthtrgmntvryfrqntlynddnthghckrnwssnwsycmbntrcmtmd
+:END:
+: jupp0r 2 hours ago | unvote | parent | flag | favorite | on: Software Disenchantment (2018)
+: I hear that argument very frequently and I don’t buy it.
+: Think about all the gas that is saved because people don’t have to drive to the library, all the plane trips saved by video conferencing, all the photo film, all the sheets of paper in file cabinets, all the letters being sent as emails, all the mail order catalogues, ... you get the idea.
+: Does anybody know of a comprehensive study on this?
+* [#D] [2020-06-12] [[https://twitter.com/dhh/status/1264999220613767168][(6) DHH on Twitter: "I don't know exactly what I'm making yet! I don't know what the API is supposed to finally feel like. But I know I'm getting closer. And then, once the idea has a clear shape and an outline, I bring in the tests to make finishing up go faster." / Twitter]]
+:PROPERTIES:
+:ID:       stwttrcmdhhsttsdhhntwttrdhtststmkfnshngpgfstrtwttr
+:END:
+: I don't know exactly what I'm making yet! I don't know what the API is supposed to finally feel like. But I know I'm getting closer. And then, once the idea has a clear shape and an outline, I bring in the tests to make finishing up go faster.
+* TODO [#C] [2020-12-29] [[http://www.activepapers.org/][activepapers.org/]]
+:PROPERTIES:
+:ID:       wwwctvpprsrgctvpprsrg
+:END:
+: computational science made reproducible and understandable

@@ -246,3 +246,33 @@ some 'decentralised github' projects
 :ID:       stwttrcmbzzfdnwssttstwtfrmbzzfdnws
 :END:
 : @BuzzFeedNews: NEW: Amazon is booting Parler off AWS, its web hosting service, knocking the pro-Trump social network offline until it finds a new host. https://t.co/zdR68ASJM2
+
+* [#D] [2019-10-05] Home - SimpleAsWater https://simpleaswater.com/ipfs/getting_started/init :ipfs:
+:PROPERTIES:
+:ID:       hmsmplswtrssmplswtrcmpfsgttngstrtdnt
+:END:
+: The hash after "peer identity: <HASH>" is your node’s ID and will be DIFFERENT from the one shown in the above output. Other nodes on the network use it to find and connect to you. You can run ipfs id at any time to get it again if you need it.
+* [#D] [2020-06-02] [[https://matrix.org/blog/2020/06/02/introducing-p-2-p-matrix][Introducing P2P Matrix | Matrix.org]]
+:PROPERTIES:
+:ID:       smtrxrgblgntrdcngppmtrxntrdcngppmtrxmtrxrg
+:END:
+
+* [#D] [2020-05-28] [[https://github.com/zulip/zulip-archive][zulip/zulip-archive: A tool for archiving and displaying Zulip chat channels.]] :zulip:
+:PROPERTIES:
+:ID:       sgthbcmzlpzlprchvzlpzlprchvngnddsplyngzlpchtchnnls
+:END:
+
+* [#D] [2020-05-26] [[https://forum.syncthing.net/t/is-it-possible-to-make-syncthing-implement-based-on-ipfs/12841/10][Is it possible to make Syncthing implement based on IPFS? - Feature - Syncthing Community Forum]] :ipfs:
+:PROPERTIES:
+:ID:       sfrmsyncthngnttstpssbltmkdnpfsftrsyncthngcmmntyfrm
+:END:
+: Syncthing has a filesystem abstraction, so if you care strongly, and have the skills (given you are a developer), knock yourself out and add a blockchain based singing dancing filesystem.
+* DONE [#B] [2021-01-28] [[https://ruben.verborgh.org/blog/2020/12/07/a-data-ecosystem-fosters-sustainable-innovation/][A data ecosystem fosters sustainable innovation | Ruben Verborgh]] :iterop:
+:PROPERTIES:
+:ID:       srbnvrbrghrgblgdtcsystmfsfstrssstnblnnvtnrbnvrbrgh
+:END:
+* STRT [#D] [2020-06-16] [[https://twitter.com/gozala/status/1272988011689422848][gozala on Twitter: "This might be a good moment to highlight how https://t.co/jsfesvIzIz innovates email. Instead of walled garden it introduces overly protocol improving security of existing email infrastructure and provides alternative interaction model." / Twitter]] :interop:
+:PROPERTIES:
+:ID:       stwttrcmgzlsttsgzlntwttrtprvdsltrntvntrctnmdltwttr
+:END:
+: This might be a good moment to highlight how https://delta.chat innovates email. Instead of walled garden it introduces overly protocol improving security of existing email infrastructure and provides alternative interaction model.

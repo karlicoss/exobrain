@@ -644,3 +644,8 @@ https://web.archive.org/web/20090902224414/http://reason.com/news/show/119237.ht
 :END:
 :  https://wiki.debian.org/SecureBoot#MOK_-_Machine_Owner_Keycanonical: wiki.debian.org/SecureBootsources : notes[[https://wiki.debian.org/SecureBoot][SecureBoot - Debian Wiki]]
 : logs/mlog2.org:58102/06/2020, 08:00:00 di
+* TODO [#C] could be useful for surfingkey/nyxt browser to hint 'interesitng' urls?
+:PROPERTIES:
+:CREATED:  [2021-02-07]
+:ID:       cldbsflfrsrfngkynyxtbrwsrthntntrstngrls
+:END:

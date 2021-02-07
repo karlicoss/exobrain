@@ -217,3 +217,13 @@ https://twitter.com/mekarpeles/status/1271226785439428608
 :ID:       sgthbcmsmsqrdssmsqrdslfngn
 :END:
 : Life engine is a dashboard that attempts to collect information about your life and display relevant data on a single screen.
+* TODO [#A] [2021-01-31] [[https://github.com/NickSto/life-browser][NickSto/life-browser: View a timeline of your own history through your personal data.]] :timeline:memex:
+:PROPERTIES:
+:ID:       sgthbcmnckstlfbrwsrnckstlnfyrwnhstrythrghyrprsnldt
+:END:
+: This is a project I began to try to collate all the digital breadcrumbs of my life and show them in an easily viewable timeline.
+** [#C] [2020-05-11] [[https://news.ycombinator.com/item?id=23131402][Thanks, I'll check it out! Yep, agree about the common codebase, that's why I'm... | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdthnksllchthcmmncdbsthtswhymhckrnws
+:END:
+: Hmm it's interesting how diverse the data sources people are actually using, but there's definitely overlap.

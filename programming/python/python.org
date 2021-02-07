@@ -1819,3 +1819,69 @@ so much indirection!!
 :ID:       pypyprfrmncspypyrgprfrmnchtmlprflr
 :END:
 : PyPy 2.6 introduced vmprof, a very-low-overhead statistical profiler. The standard, non-statistical cProfile is also supported, and can be enabled without turning off the JIT. We do recommend vmprof anyway because turning on cProfile can distort the result (sometimes massively, though hopefully this should not be too common).
+* [#D] [2020-05-03] [[https://www.python.org/dev/peps/pep-0612/][PEP 612 -- Parameter Specification Variables | Python.org]]
+:PROPERTIES:
+:ID:       swwwpythnrgdvppsppppprmtrspcfctnvrblspythnrg
+:END:
+
+* [#D] [2020-01-06] Please Fix Your Decorators · Homepage of Hynek Schlawack https://hynek.me/articles/decorators/
+:PROPERTIES:
+:ID:       plsfxyrdcrtrshmpgfhynkschlwckshynkmrtclsdcrtrs
+:END:
+: If your Python decorator unintentionally changes the signatures of my callables or doesn’t work with class methods, it’s broken and should be fixed. Sadly most decorators are broken because the web is full of bad advice.
+* [#D] [2019-09-23] bast/somepackage: Show how to structure a Python project. https://github.com/bast/somepackage
+:PROPERTIES:
+:ID:       bstsmpckgshwhwtstrctrpythnprjctsgthbcmbstsmpckg
+:END:
+* TODO [#D] [2019-11-17] holtzy/The-Python-Graph-Gallery: A website displaying hundreds of charts made with Python https://github.com/holtzy/The-Python-Graph-Gallery :viz:
+:PROPERTIES:
+:ID:       hltzythpythngrphgllrywbsthbcmhltzythpythngrphgllry
+:END:
+* [#D] [2019-12-05] Debugging Jupyter notebooks - David Hamann https://davidhamann.de/2017/04/22/debugging-jupyter-notebooks/
+:PROPERTIES:
+:ID:       dbggngjpytrntbksdvdhmnnsdvdhmnnddbggngjpytrntbks
+:END:
+: There’s also ipdb but importing and calling it directly only works in the terminal, not in notebooks (see this issue).
+* [#D] [2019-12-13] python-poetry/poetry: Python dependency management and packaging made easy. https://github.com/python-poetry/poetry
+:PROPERTIES:
+:ID:       pythnptryptrypythndpndncygmdsysgthbcmpythnptryptry
+:END:
+: In other words, poetry uses pyproject.toml to replace setup.py, requirements.txt, setup.cfg, MANIFEST.in and the newly added Pipfile.
+* TODO [#C] [2020-12-13] [[https://lobste.rs/s/ik1apx/do_you_have_any_offline_programming][Do You Have Any Offline Programming Techniques or Tools? | Lobsters]]
+:PROPERTIES:
+:ID:       slbstrsskpxdyhvnyfflnprgrnprgrmmngtchnqsrtlslbstrs
+:END:
+: import pdb; pdb.pm() starts a post-mortem debugger. When you get an error in an interactive session (such as a Jupyter notebook), this will jump to the scene of the error, let you inspect local variables, and let you walk up and down the stack.
+* [#D] [2020-02-15] pschanely/CrossHair: A static analysis tool for Python that blurs the line between testing and type systems. https://github.com/pschanely/CrossHair
+:PROPERTIES:
+:ID:       pschnlycrsshrsttcnlysstlfystmssgthbcmpschnlycrsshr
+:END:
+* [#D] [2020-04-15] [[https://github.com/pypa/pip/issues/6558][egg-info in local directory makes pip think package is installed · Issue #6558 · pypa/pip]]
+:PROPERTIES:
+:ID:       sgthbcmpypppsssggnfnlcldrsppthnkpckgsnstlldsspyppp
+:END:
+: egg-info in local directory makes pip think package is installed
+* [#D] [2020-04-15] [[https://github.com/fonttools/fonttools/issues/929][I hate easy-install.pth · Issue #929 · fonttools/fonttools]]
+:PROPERTIES:
+:ID:       sgthbcmfnttlsfnttlsssshtsynstllpthssfnttlsfnttls
+:END:
+: I hate easy-install.pth
+
+shit. I guess this explains why it was finding mypkgs...
+* [#D] [2020-05-16] [[https://lobste.rs/s/4vyz7g/macropy_syntactic_macros_for_python][macropy: syntactic macros for Python | Lobsters]]
+:PROPERTIES:
+:ID:       slbstrssvyzgmcrpysyntctcmysyntctcmcrsfrpythnlbstrs
+:END:
+: acropy is excellent when one wants to use syntactic macros. One problem I had was that, for my scripts, I cannot directly use macropy and other syntax modifiers since they rely on the import hooks, which means that you can not use them directly on the script file. You have to import them separately, which makes their use cumbersome.
+: 
+: This was my project to work around this issue. It works, but is very hacky, and requires adding a new codec to the Python installation.
+* [#D] [2020-08-22] [[http://holoviews.org/][Installation — HoloViews 1.13.3 documentation]]
+:PROPERTIES:
+:ID:       hlvwsrgnstlltnhlvwsdcmnttn
+:END:
+: HoloViews is an open-source Python library designed to make data analysis and visualization seamless and simple. With HoloViews, you can usually express what you want to do in very few lines of code, letting you focus on what you are trying to explore and convey, not on the process of plotting.
+* [#D] [2020-05-08] [[https://pyfound.blogspot.com/2020/04/the-path-forward-for-typing-python.html][Python Software Foundation News: The path forward for typing - Python Language Summit 2020]]
+:PROPERTIES:
+:ID:       spyfndblgsptcmthpthfrwrdffrwrdfrtypngpythnlnggsmmt
+:END:
+: Thanks to this PEP, types which had been defined like List[int] can now be spelled list[int], with a lowercase "L". As Van Rossum told the Python Language Summit, "We want to avoid a world where users have to remember, 'Here I have to use a capital-L List and here I use a lowercase-L list.'"

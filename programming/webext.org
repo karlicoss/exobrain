@@ -614,3 +614,18 @@ combining it with npm/webpack weirdness and kind of slow feedback loop (reloadin
 : I think that it works last I checked! There is only a need to get the build
 : infrastructure working and have an owner on addons.mozilla.org, and for
 : Mozilla to approve it.
+
+* [#D] [2019-12-09] Add `web-ext submit` to submit listed add-ons to AMO · Issue #804 · mozilla/web-ext https://github.com/mozilla/web-ext/issues/804
+:PROPERTIES:
+:ID:       ddwbxtsbmttsbmtlstdddnstmzllwbxtsgthbcmmzllwbxtsss
+:END:
+: Automate all the things! wink Here people discussed the Chrome Web Store version, but it also applies to AMO sindresorhus/module-requests#66
+* [#D] [2020-04-22] [[https://github.com/hypothesis/browser-extension/issues/310][Publish Firefox extension on addons.mozilla.org · Issue #310 · hypothesis/browser-extension]]
+:PROPERTIES:
+:ID:       sgthbcmhypthssbrwsrxtnsnsmzllrgsshypthssbrwsrxtnsn
+:END:
+: I know it's not perfect and I would also like to see a Firefox addon, but some friends and I have been using Hypothesis seamlessly in Firefox, both for desktop and for mobile, following the instructions I posted here: https://medium.com/@delahera/hypothesis-web-annotation-mobile-358db1f9ec46
+* [#D] [2020-11-09] [[https://github.com/orgs/mozilla-mobile/projects/44#card-26664450][A-C: WebExtensions and AddOns]]
+:PROPERTIES:
+:ID:       sgthbcmrgsmzllmblprjctscrdcwbxtnsnsndddns
+:END:

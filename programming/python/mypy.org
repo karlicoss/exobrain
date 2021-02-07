@@ -463,3 +463,12 @@ http://calpaterson.com/mypy-hints.html
 :ID:       sgthbcmpythnmypysssdcrtdprprtyntspprtdsspythnmypy
 :END:
 : As a workaround, you could try defining your own alias to the property decorator that is annotated to return Any. If you use your custom property decorator (that at runtime behaves exactly like property) for all decorated properties, mypy will silently give all such properties the Any type.
+* [#D] [2019-12-08] Statically-typed error handling in Python using Mypy | Hacker News https://news.ycombinator.com/item?id=21736620
+:PROPERTIES:
+:ID:       sttcllytypdrrrhndlngnpythpyhckrnwssnwsycmbntrcmtmd
+:END:
+: Third party libraries: I sometimes see them annotated, but what people don't suspect, is that you need to include 'py.typed' file with your package in order for it to be discoverable. Perhaps that's something setuptools could warn the developer about..
+* [#D] [2019-12-12] Statically-typed error handling in Python using … - Reddit https://www.reddit.com/r/Python/comments/e971w5/staticallytyped_error_handling_in_python_using/
+:PROPERTIES:
+:ID:       sttcllytypdrrrhndlngnpythllytypdrrrhndlngnpythnsng
+:END:

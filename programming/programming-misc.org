@@ -1245,3 +1245,295 @@ https://twitter.com/relizarov/status/1134190090547281920
 :END:
 : Provided Portia is no longer been offered by Scrapinghub, I think the company is no longer funding the maintenance of this project.
 : Source: https://support.scrapinghub.com/support/solutions/articles/22000200405-which-services-are-available-on-scrapy-cloud-
+* TODO [#D] [2019-08-27] Should small Rust structs be passed by-copy or by-borrow? https://www.forrestthewoods.com/blog/should-small-rust-structs-be-passed-by-copy-or-by-borrow/
+:PROPERTIES:
+:ID:       shldsmllrststrctsbpssdbycststrctsbpssdbycpyrbybrrw
+:END:
+: Next I decided to crack open VTune. Here the difference was revealed plain as day!
+* [#D] [2020-02-11] Event-Driven Architecture | Hacker News https://news.ycombinator.com/item?id=22288526
+:PROPERTIES:
+:ID:       vntdrvnrchtctrhckrnwssnwsycmbntrcmtmd
+:END:
+: snovv_crash 4 minutes ago [-]
+: Event driven architecture is like GOTOs but with data instead of execution flow. Throw your data to the wind, someone somewhere will handle it (I hope).
+* [#D] [2019-08-17] JSON Blob | create, edit, view, format, and share JSON https://jsonblob.com/
+:PROPERTIES:
+:ID:       jsnblbcrtdtvwfrmtndshrjsnsjsnblbcm
+:END:
+
+* [#D] [2019-05-26] The whole web at maximum FPS: How WebRender gets rid of jank - Mozilla Hacks - the Web developer blog https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/
+:PROPERTIES:
+:ID:       thwhlwbtmxmmfpshwwbrndrgttmxmmfpshwwbrndrgtsrdfjnk
+:END:
+
+* [#D] [2018-11-27] StackExchange/blackbox: Safely store secrets in Git/Mercurial/Subversion https://github.com/StackExchange/blackbox
+:PROPERTIES:
+:ID:       stckxchngblckbxsflystrscrrsnsgthbcmstckxchngblckbx
+:END:
+
+* [#D] [2018-11-26] thma/LtuPatternFactory at 1be9521591f8a7f06b35a7ae5929e7beaf0b8e43 https://github.com/thma/LtuPatternFactory/tree/1be9521591f8a7f06b35a7ae5929e7beaf0b8e43
+:PROPERTIES:
+:ID:       thmltpttrnfctrytbffbbfbsgmthmltpttrnfctrytrbffbbfb
+:END:
+
+* [#D] [2019-12-02] avinassh/haxor: Unofficial Python wrapper for official Hacker News API https://github.com/avinassh/haxor :hackernews:
+:PROPERTIES:
+:ID:       vnsshhxrnffclpythnwrpprfrclhckrnwspsgthbcmvnsshhxr
+:END:
+
+* [#D] [2019-12-02] mvanveen/hncrawl: A scrapy-based Hacker News crawler. https://github.com/mvanveen/hncrawl :hackernews:
+:PROPERTIES:
+:ID:       mvnvnhncrwlscrpybsdhckrnwscrwlrsgthbcmmvnvnhncrwl
+:END:
+
+* [#D] [2019-12-02] donnemartin/haxor-news: Browse Hacker News like a haxor: A Hacker News command line interface (CLI). https://github.com/donnemartin/haxor-news :hackernews:
+:PROPERTIES:
+:ID:       dnnmrtnhxrnwsbrwshckrnwslrfcclsgthbcmdnnmrtnhxrnws
+:END:
+
+* [#D] [2019-11-23] optimization - Step-by-step example of reverse-mode automatic differentiation - Cross Validated https://stats.stackexchange.com/questions/224140/step-by-step-example-of-reverse-mode-automatic-differentiation
+:PROPERTIES:
+:ID:       ptmztnstpbystpxmplfrvrsmdtpxmplfrvrsmdtmtcdffrnttn
+:END:
+: Step-by-step example of reverse-mode automatic differentiation
+
+good explanation of automatic differentiation
+* [#D] [2020-01-06] crev-dev/cargo-crev: A cryptographically verifiable code review system for the cargo (Rust) package manager. https://github.com/crev-dev/cargo-crev
+:PROPERTIES:
+:ID:       crvdvcrgcrvcryptgrphcllyvckgmngrsgthbcmcrvdvcrgcrv
+:END:
+
+* [#D] [2020-02-12] The First Time SICP Blew My Mind | Lobsters https://lobste.rs/s/jee87g/first_time_sicp_blew_my_mind#c_vu6rli
+:PROPERTIES:
+:ID:       thfrsttmscpblwmymndlbstrsssjgfrsttmscpblwmymndcvrl
+:END:
+: "When will you learn? Closures are a poor man's object."
+* [#D] [2019-09-21] vasanthv/jsonbox: A Free HTTP based JSON storage. https://github.com/vasanthv/jsonbox :json:
+:PROPERTIES:
+:ID:       vsnthvjsnbxfrbsdjsnstrgsgthbcmvsnthvjsnbx
+:END:
+
+* [#D] [2019-11-22] CppCon/CppCon2018: Slides and other materials from CppCon 2018 https://github.com/CppCon/CppCon2018
+:PROPERTIES:
+:ID:       cppcncppcnsldsndthrmtrlsfrmcppcnsgthbcmcppcncppcn
+:END:
+
+* [#D] [2019-12-07] W3C Recommends WebAssembly to push the limits for speed, efficiency and responsiveness | Lobsters https://lobste.rs/s/aveemy/w3c_recommends_webassembly_push_limits
+:PROPERTIES:
+:ID:       wcrcmmndswbssmblytpshthlmywcrcmmndswbssmblypshlmts
+:END:
+
+* TODO [#D] [2019-12-20] Other examples of “standing-on-the-shoulders-of-giants” tools? | Lobsters https://lobste.rs/s/d8ureu/other_examples_standing_on_shoulders
+:PROPERTIES:
+:ID:       thrxmplsfstndngnthshldrsfssdrthrxmplsstndngnshldrs
+:END:
+: awk
+: This was a tool written by three of the smartest people in the field at the time (Aho, Weinberger, Kernighan) to solve a problem they had often.
+: awk is still an excellent tool for exploring unstructured, semi-structured, and record-based data, and can be abused for lots of other use cases. Despite it’s age, it still includes many features that people expect from modern languages (hash tables, not having to pre-declare variables, easy use of regexes). If you know awk, you can throw out a lot of other shell tools, such as grep, cut, head, tail, and many more. Where I might have reached for a dozen or two line Python script, I often just write a dozen or two characters of awk.
+: “The AWK Programming Language” is one of the clearest and most concise technical books I’ve ever read, and definitely the best ROI I’ve gotten from reading any book.
+* TODO [#D] [2019-12-21] elasticsearch-formal-models/ZenWithTerms.tla at master · elastic/elasticsearch-formal-models https://github.com/elastic/elasticsearch-formal-models/blob/master/ZenWithTerms/tla/ZenWithTerms.tla
+:PROPERTIES:
+:ID:       lstcsrchfrmlmdlsznwthtrmsstrznwthtrmstlznwthtrmstl
+:END:
+
+* [#C] [2021-01-01] [[https://omar.website/][Omar Rizwan]]
+:PROPERTIES:
+:ID:       smrwbstmrrzwn
+:END:
+
+* [#D] [2020-04-06] Old CSS, new CSS / fuzzy notepad https://eev.ee/blog/2020/02/01/old-css-new-css/
+:PROPERTIES:
+:ID:       ldcssnwcssfzzyntpdsvblgldcssnwcss
+:END:
+
+* [#D] [2019-07-29] aqLists: unobtrusive DHTML and the power of unordered lists https://kryogenix.org/code/browser/aqlists/
+:PROPERTIES:
+:ID:       qlstsnbtrsvdhtmlndthpwrfnlstsskrygnxrgcdbrwsrqlsts
+:END:
+
+* TODO [#D] [2019-09-06] Node-RED https://nodered.org/#features
+:PROPERTIES:
+:ID:       ndrdsndrdrgftrs
+:END:
+
+* [#D] [2019-09-21] Explanations - Introduction & Table of Contents (about X server) https://magcius.github.io/xplain/article/index.html#credits
+:PROPERTIES:
+:ID:       xplntnsntrdctntblfcntntsbsgthbxplnrtclndxhtmlcrdts
+:END:
+
+* TODO [#D] [2019-09-10] Hugo and IPFS: how this blog works (and scales to serve 5,000% spikes instantly!) | With Blue Ink https://withblue.ink/2019/03/20/hugo-and-ipfs-how-this-blog-works-and-scales.html :ipfs:
+:PROPERTIES:
+:ID:       hgndpfshwthsblgwrksndsclspfshwthsblgwrksndsclshtml
+:END:
+: Fun fact: if you’re reading this article, you’re using the distributed web. Since mid-February 2019, this blog, With Blue Ink, has been served through IPFS and the Cloudflare Distributed Web Gateway.
+* [#D] [2020-01-19] Kieran McHugh on Twitter: "Things I did but don’t do any more... - Say “guys” - Call things “crazy” or “mad” - Call myself “OCD” - Use “master/slave” technical terminology - Use “whitelist/blacklist” I don’t miss any of them and it actually feels good. Words matter!" / Twitter
+:PROPERTIES:
+:ID:       krnmchghntwttrthngsddbtdndtctllyflsgdwrdsmttrtwttr
+:END:
+https://twitter.com/kieranmch/status/1218294511027269632
+: Not a native speaker here. What’s an alternative for whitelist/blacklist?
+: Allow list and block list
+: Which is also more descriptive than white/black list. It tells you what it does!
+* [#D] [2020-01-19] Kieran McHugh on Twitter: "Things I did but don’t do any more... - Say “guys” - Call things “crazy” or “mad” - Call myself “OCD” - Use “master/slave” technical terminology - Use “whitelist/blacklist” I don’t miss any of them and it actually feels good. Words matter!" / Twitter
+:PROPERTIES:
+:ID:       krnmchghntwttrthngsddbtdndtctllyflsgdwrdsmttrtwttr
+:END:
+https://twitter.com/kieranmch/status/1218294511027269632
+: Interested to know what you use rather than master/slave and black/white list
+: Kieran McHugh
+: @kieranmch
+: Depends on context, but Primary/Replica is an example. Instead of saying “merchant whitelist” I would say “allowed merchant list”.
+* [#D] [2020-01-14] CC2650STK SimpleLink™ Bluetooth low energy/Multi-standard SensorTag | TI.com https://www.ti.com/tool/CC2650STK
+:PROPERTIES:
+:ID:       ccstksmpllnkbltthlwnrgymlrdsnsrtgtcmswwwtcmtlccstk
+:END:
+
+* [#C] [2020-01-07] ignore - Rust https://docs.rs/ignore/0.4.10/ignore/
+:PROPERTIES:
+:ID:       gnrrstsdcsrsgnrgnr
+:END:
+: The ignore crate provides a fast recursive directory iterator that respects various filters such as globs, file types and .gitignore files. The precise matching rules and precedence is explained in the documentation for WalkBuilder.
+* [#D] [2020-04-07] linux - Moving a directory atomically - Stack Overflow https://stackoverflow.com/questions/307437/moving-a-directory-atomically
+:PROPERTIES:
+:ID:       lnxmvngdrctrytmcllystckvrlwcmqstnsmvngdrctrytmclly
+:END:
+: Since Linux 3.15, the new renameat2 system call can atomically exchange two paths on the same file system. However, there’s not even a glibc wrapper for it yet, let alone a coreutils way to access it.
+* [#D] [2020-04-08] Molecular Flipbook https://molecularflipbook.org/
+:PROPERTIES:
+:ID:       mlclrflpbksmlclrflpbkrg
+:END:
+: OPEN-SOURCE SOFTWARE
+: Molecular FLipbook is a free and open-source molecular animation program. The animation toolkit is based on the GPL-license Blender Game Engine.
+* [#D] [2020-04-12] start [the libarynth] https://libarynth.org/start
+:PROPERTIES:
+:ID:       strtthlbrynthslbrynthrgstrt
+:END:
+: The ever-growing Libarynth is almost exactly what its name implies – a hybrid between a library and a labyrinth, a maze of pages in various stages of completion.
+* [#D] [2020-05-12] [[https://blog.m-ou.se/writing-python-inside-rust-3/][Writing Python inside your Rust code — Part 3 - Mara's Blog]]
+:PROPERTIES:
+:ID:       sblgmswrtngpythnnsdrstwrtgpythnnsdyrrstcdprtmrsblg
+:END:
+: Writing Python inside your Rust code
+* [#D] [2020-05-19] [[https://www.dein.fr/2019-09-06-test-coverage-only-matters-if-at-100-percent.html][Test coverage only matters if it's at 100% | dein.fr]]
+:PROPERTIES:
+:ID:       swwwdnfrtstcvrgnlymttrsftmltstcvrgnlymttrsftstdnfr
+:END:
+
+* [#D] [2020-05-28] [[https://www.xanthir.com/b4wJ1][Tab Completion]]
+:PROPERTIES:
+:ID:       swwwxnthrcmbwjtbcmpltn
+:END:
+: Strings Shouldn't Be Iterable By Default
+* [#D] [2020-07-06] [[https://stackoverflow.com/questions/53965417/merging-yaml-arrarys-nested][arrays - Merging Yaml arrarys nested - Stack Overflow]] :configs:
+:PROPERTIES:
+:ID:       sstckvrflwcmqstnsmrgngymlrgngymlrrrysnstdstckvrflw
+:END:
+fucking yaml..
+* TODO [#D] [2020-12-14] [[https://joeyh.name/code/moreutils/][moreutils]]
+:PROPERTIES:
+:ID:       sjyhnmcdmrtlsmrtls
+:END:
+: ts: timestamp standard input
+* [#C] [2020-11-30] [[https://lobste.rs/s/f8gnzb/i_am_80_column_purist][I am an 80 column purist | Lobsters]]
+:PROPERTIES:
+:ID:       slbstrssfgnzbmclmnprstmnclmnprstlbstrs
+:END:
+: The solution is to use tabs for indentation but spaces for alignment. So for the second line of your code example, tabs would be used up to the indentation level of int, and spaces would be used from that point on to align float.
+* [#D] [2019-11-23] 1/(1 - 1/(1 - 1/(1 - Dan Piponi))) on Twitter: "@RAnachro There is a sense in which automatic integration has been completely solved. There's a program J s.t. if you write a program F that computes your f to any specified number of digits, J(F) can compute ∫f(x)dx (over [0,1] say) to as many digits as you like. https://t.co/cd9MV60rd4" / Twitter
+:PROPERTIES:
+:ID:       dnppnntwttrrnchrthrssnsnwmnydgtssylkstccdmvrdtwttr
+:END:
+https://twitter.com/sigfpe/status/1174089914897453056
+: There is a sense in which automatic integration has been completely solved.
+* [#D] [2019-11-20] 🔎Julia Evans🔍 on Twitter: "thinking about what makes programming exercises good. So far I have: * I can easily see how it relates to my life * I learn something new * I can do the exercise in less than 3 hours * No complicated setup required" / Twitter
+:PROPERTIES:
+:ID:       jlvnsntwttrthnkngbtwhtmkshnhrsncmplctdstprqrdtwttr
+:END:
+https://twitter.com/b0rk/status/1197282185230860288
+: hinking about what makes programming exercises good. So far I have:
+: ** I can easily see how it relates to my life
+: ** I learn something new
+: ** I can do the exercise in less than 3 hours
+: ** No complicated setup required
+* [#D] [2020-06-01] [[https://codepen.io/gifteconomist/pen/dNLePJ][Testing CSS3 pseudo-classes on SVG elements]] :svg:
+:PROPERTIES:
+:ID:       scdpngftcnmstpndnlpjtstngcsspsdclsssnsvglmnts
+:END:
+
+* [#D] [2020-06-08] [[https://makelinux.github.io/kernel/map/][Interactive map of Linux kernel]]
+:PROPERTIES:
+:ID:       smklnxgthbkrnlmpntrctvmpflnxkrnl
+:END:
+
+* [#D] [2020-06-14] [[https://wiki.mozilla.org/Performance/Avoid_SQLite_In_Your_Next_Firefox_Feature][Performance/Avoid SQLite In Your Next Firefox Feature - MozillaWiki]]
+:PROPERTIES:
+:ID:       swkmzllrgprfrmncvdsqltnyrvdsqltnyrnxtfrfxftrmzllwk
+:END:
+
+* [#D] [2020-04-07] Hillel on Twitter: "@JYCabello All of them https://t.co/E9M6G5GfAd" / Twitter
+:PROPERTIES:
+:ID:       hlllntwttrjycbllllfthmstcmggfdtwttr
+:END:
+https://twitter.com/hillelogram/status/1247614748419592192
+: What testing/checking strategy SQLite follows?
+: Hillel
+: @hillelogram
+: All of them
+
+
+https://sqlite.org/testing.html
+* [#D] [2020-04-16] [[https://ambrevar.xyz/guix-advance/][Guix: A most advanced operating system]] :configs:
+:PROPERTIES:
+:ID:       smbrvrxyzgxdvncgxmstdvncdprtngsystm
+:END:
+: “Rolling out one’s own programming language” is a very common fallacy in software development. It struck hard many projects where the configuration or programming language was:
+: 
+:     limited in expressiveness and features;
+:     yet another language to learn (but not something very useful and reusable) which requires some effort on the user end and thus creates an entry barrier;
+:     harder to read (at least at the beginning);
+:     and often with poor performance.
+
+relevant to configs-suck
+* [#D] [2019-12-24] Operators – Liquid template language https://shopify.github.io/liquid/basics/operators/ :huginn:
+:PROPERTIES:
+:ID:       prtrslqdtmpltlnggsshpfygthblqdbscsprtrs
+:END:
+
+* [#D] [2020-05-26] [[https://joeyates.info/2018/12/16/dotfiles/][Dotfiles - Joe Yates' Blog]]
+:PROPERTIES:
+:ID:       sjytsnfdtflsdtflsjytsblg
+:END:
+
+* [#D] [2020-09-12] [[https://news.ycombinator.com/item?id=24453007][From Rust to TypeScript | Hacker News]] :errors:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdfrmrstttypscrpthckrnws
+:END:
+: The fundamental difference between Rust's approach and Java-style checked exceptions arises when those three functions have different error types. In Java, you would annotate the function with every possible exception that the function can throw. In Rust, a library (or module with a library) would normally design its own Result type to encompass every error that the library/module can throw, and use that type on every error-producing function (you could reproduce the Java approach by defining a new Result type for each function, but I've never seen anyone bother with that).
+* [#D] [2020-06-18] [[https://news.ycombinator.com/item?id=23562256][Why is there a “V” in SIGSEGV Segmentation Fault? | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdwhysthrvnsgsgvsgmnttnflthckrnws
+:END:
+: And by using LD_PRELOAD magic, this can even be retrofitted onto existing applications without changing or recompiling them.
+* [#D] [2020-06-17] [[https://twitter.com/DynamicWebPaige/status/1272986394026053632][👩‍💻 DynamicWebPaige @ 127.0.0.1 🏠 on Twitter: ""We announce the release of a @ProjectJupyter kernel for SQLite, which supports the complete SQLite syntax as well as some extra operations such as opening or closing database files, or visualizing the data in different ways using Jupyter magics." https://t.co/73KBvarVzI https://t.co/zFx0nX0gDc" / Twitter]]
+:PROPERTIES:
+:ID:       stwttrcmdynmcwbpgsttsdynmstckbvrvzstczfxnxgdctwttr
+:END:
+: "We announce the release of a @ProjectJupyter
+:  kernel for SQLite, which supports the complete SQLite syntax as well as some extra operations such as opening or closing database files, or visualizing the data in different ways using Jupyter magics."
+* [#D] [2020-05-21] [[https://twitter.com/jaredforsyth/status/1232532781936173056][(2) Jared Forsyth on Twitter: "Here's a visual comparison of the data structures underlying three different "collaborative text editing" algorithms. - yjs uses a doubly-linked list of nodes - mine uses a tree - automerge uses a transaction log (and has in-memory caches for perf) https://t.co/MT11riVycx https://t.co/YUTtvVLaDh" / Twitter]]
+:PROPERTIES:
+:ID:       stwttrcmjrdfrsythsttsjrdftcmtrvycxstcyttvvldhtwttr
+:END:
+: Here's a visual comparison of the data structures underlying three different "collaborative text editing" algorithms.
+: - yjs uses a doubly-linked list of nodes
+: - mine uses a tree
+: - automerge uses a transaction log (and has in-memory caches for perf)
+* TODO [#D] [2021-01-07] [[https://www.pixijs.com/][PixiJS]]
+:PROPERTIES:
+:ID:       swwwpxjscmpxjs
+:END:
+
+* TODO [#B] [2021-01-03] [[https://vimeo.com/230220635][REPL-Based Development Demo on Vimeo]] :towatch:repl:
+:PROPERTIES:
+:ID:       svmcmrplbsddvlpmntdmnvm
+:END:

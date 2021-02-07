@@ -147,3 +147,24 @@ small tutorial for hacking on emacs?
 :CREATED:  [2020-02-24]
 :ID:       mntndfvrvsstq
 :END:
+* [#D] [2020-02-15] Emacs Should Be Emacs Lisp - Tom Tromey https://braindump.jethro.dev/talks/emacs_should_be_emacs_lisp/ :elisp:
+:PROPERTIES:
+:ID:       mcsshldbmcslsptmtrmysbrndpjthrdvtlksmcsshldbmcslsp
+:END:
+
+* [#D] [2020-02-16] What's the performance · Issue #19 · alphapapa/org-ql https://github.com/alphapapa/org-ql/issues/19
+:PROPERTIES:
+:ID:       whtsthprfrmncsslphpprgqlsgthbcmlphpprgqlsss
+:END:
+: Yes, it's generally slower because it checks every heading with predicates. The tradeoff is that the code is more composable and understandable than the 5-screens-long functions in org-agenda.el. Even so, for a lot of use cases, it's fast enough already. There is already a per-buffer, per-query cache that makes performance fast on repeated queries in unchanged buffers, which helps a lot.
+* [#D] [2020-02-16] What's the performance · Issue #19 · alphapapa/org-ql https://github.com/alphapapa/org-ql/issues/19
+:PROPERTIES:
+:ID:       whtsthprfrmncsslphpprgqlsgthbcmlphpprgqlsss
+:END:
+:     One cool trick that elfeed implements is JIT-compilation of search queries. If you call a function in a map or a loop or something similar this makes a difference.
+: Yeah, I learned that trick from Chris's code. Both the "predicate" function and "action" function are byte-compiled before running the "query".
+* [#D] [2020-02-24] bbatsov/emacs-lisp-style-guide: A community-driven Emacs Lisp style guide :elisp:
+:PROPERTIES:
+:ID:       bbtsvmcslspstylgdcmmntydrvnmcslspstylgd
+:END:
+https://github.com/bbatsov/emacs-lisp-style-guide

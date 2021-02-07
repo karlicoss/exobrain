@@ -1127,3 +1127,20 @@ https://news.ycombinator.com/item?id=13700968
 :PROPERTIES:
 :ID:       lsthskpngn
 :END:
+* [#D] [2020-04-13] [[https://github.com/twintproject/twint][twintproject/twint: An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a user's followers, following, Tweets and more while evading most API limitations.]]
+:PROPERTIES:
+:ID:       sgthbcmtwntprjcttwnttwntptwtsndmrwhlvdngmstplmttns
+:END:
+* [#D] [2020-04-23] [[https://github.com/MatthieuBizien/roam-to-git][MatthieuBizien/roam-to-git: Automatic RoamResearch backup to Git]]
+:PROPERTIES:
+:ID:       sgthbcmmtthbznrmtgtmtthbznrmtgttmtcrmrsrchbckptgt
+:END:
+:  Format [[links]]
+: Format #links
+: Format attribute::
+: Format [[ [[link 1]] [[link 2]] ]]
+: Format ((link))
+* [#D] [2020-04-28] [[https://github.com/timgrossmann/InstaPy][timgrossmann/InstaPy: 📷 Instagram Bot - Tool for automated Instagram interactions]]
+:PROPERTIES:
+:ID:       sgthbcmtmgrssmnnnstpytmgrrmbttlfrtmtdnstgrmntrctns
+:END:

@@ -219,3 +219,9 @@ https://opensource.com/article/19/1/open-source-voice-interfaces
 :PROPERTIES:
 :ID:       llgstdpspchspchrcgntnplgnspchmdlsgthbcmllgstdpspch
 :END:
+
+* TODO [#D] [2019-12-19] at16k/at16k: Trained models for automatic speech recognition (ASR). A library to quickly build applications that require speech to text conversion.  https://github.com/at16k/at16k
+:PROPERTIES:
+:ID:       tktktrndmdlsfrtmtcspchrcgspchttxtcnvrsnsgthbcmtktk
+:END:
+: ask what are the differences to deepspeech etc?
