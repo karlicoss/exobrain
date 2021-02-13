@@ -802,7 +802,7 @@ for now, suppressing in the config...
 :END:
 e.g. sometimes file has a filetag, but a task is there because it's related for example to exobrain.
 but then it's gonna link the while filetag with the exobrain, which is somewhat misleading
-* TODO [#A] move in old drafts from blog drafts
+* STRT [#A] move in old drafts from blog drafts
 :PROPERTIES:
 :CREATED:  [2021-01-24]
 :ID:       mvnlddrftsfrmblgdrfts
@@ -921,3 +921,42 @@ wow, this might really be useful
 :PROPERTIES:
 :ID:       sngrrgndgrgr
 :END:
+
+* TODO [#B] "dragging nodes pins them in fixed position"           :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-01-30]
+:ID:       drggngndspnsthmnfxdpstn
+:END:
+add a note that it's convenient to explore the graph
+also need to add link to main exobrain (for now just share it alongside)
+mention mess & slowness
+* TODO [#C] notion interface/remnote interface?                    :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-01-31]
+:ID:       ntnntrfcrmntntrfc
+:END:
+* TODO [#C] would be nice to highlight actual text (e.g. difference color for property drawers, markup etc) :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-01-31]
+:ID:       wldbncthghlghtctltxtgdffrncclrfrprprtydrwrsmrkptc
+:END:
+* TODO [#A] interaction: "Do you know about X? Have you seen/heard of X?" :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-02-07]
+:ID:       ntrctndyknwbtxhvysnhrdfx
+:END:
+
+can be answered instantly without waiting for my response!
+again, it's not that removing 'real' interaction is the point, so I'm happy to answer anyway. But it can lead the person to ask a more specific question, for example.
+* TODO [#B] ok, def need a proper exobrain agenda with all high prio todo/strt items :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-02-07]
+:ID:       kdfndprprxbrngndwthllhghprtdstrttms
+:END:
+* TODO [#C] things that became evident                     :exobrain:totweet:
+:PROPERTIES:
+:CREATED:  [2021-02-02]
+:ID:       thngsthtbcmvdnt
+:END:
+- need more toggles/dimension adjustment/graph distance etc etc
+- and... need to be decoupled from a specific app

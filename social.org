@@ -17,12 +17,6 @@
 :ID:       mybmtwthsmnrsrchrsmhppytshrmydtndthywldnlyst
 :END:
 
-* TODO [#B] Lebedev ideas matrix                                       :gift:
-:PROPERTIES:
-:CREATED:  [2018-12-06]
-:ID:       lbdvdsmtrx
-:END:
-
 * TODO [#C] Wakeboard                                       :social:exercise:
 :PROPERTIES:
 :CREATED:  [2018-09-06]

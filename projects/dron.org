@@ -290,3 +290,13 @@ what didn't work
 what to improve:
 - speed up dron apply?
 - monitor too slow?
+* TODO bug: try stoping an active timer with systemctl explicitly; it will be displayed as some weird big number (should be 'never')
+:PROPERTIES:
+:CREATED:  [2021-02-08]
+:ID:       bgtrystpngnctvtmrwthsystmsplydssmwrdbgnmbrshldbnvr
+:END:
+* TODO [#C] feature: for 'next' if the date is today, hide it
+:PROPERTIES:
+:CREATED:  [2021-02-08]
+:ID:       ftrfrnxtfthdtstdyhdt
+:END:

@@ -629,3 +629,14 @@ twitter tread with some interesting/fun bits https://twitter.com/karlicoss/statu
 :END:
 : "Q: Why can't someone make something consumer friendly then?"[1]
 : A: Because they can't even make something self-friendly, that is, something that they themselves will use, daily, and thus continuously improv
+* STRT [#A] computing revolution?
+:PROPERTIES:
+:CREATED:  [2021-01-30]
+:ID:       cmptngrvltn
+:END:
+short term: hpi, promnesia, data liberation
+medium/long term: degoogle/political campaigning/education?
+* [#B] [2021-02-03] electron: browser extensions like surfingkeys aren't available :malleable:
+:PROPERTIES:
+:ID:       lctrnbrwsrxtnsnslksrfngkysrntvlbl
+:END:

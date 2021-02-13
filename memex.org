@@ -227,3 +227,8 @@ https://twitter.com/mekarpeles/status/1271226785439428608
 :ID:       snwsycmbntrcmtmdthnksllchthcmmncdbsthtswhymhckrnws
 :END:
 : Hmm it's interesting how diverse the data sources people are actually using, but there's definitely overlap.
+* TODO [#C] maybe prolog for queries?                             :memex:hpi:
+:PROPERTIES:
+:CREATED:  [2021-02-05]
+:ID:       mybprlgfrqrs
+:END:

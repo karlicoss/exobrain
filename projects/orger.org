@@ -401,3 +401,9 @@ I guess that's the way to go, yep
 :PROPERTIES:
 :ID:       mghtbgdfrgrswll
 :END:
+* TODO [#C] organizing github stars?                                  :orger:
+:PROPERTIES:
+:CREATED:  [2021-01-31]
+:ID:       rgnznggthbstrs
+:END:
+maybe it should really be queue-type... so I can organize it myself

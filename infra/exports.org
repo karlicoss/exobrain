@@ -192,20 +192,28 @@ E.g. from [[https://developer.twitter.com/en/application/intent][Apply for API â
 Even though Twint uses db, they seem to treat is as a temporary storage, so the schema might change.
 I'm also not super convinced by how reliable the code is (from quick glance), so would worry about data loss.
 
-** TODO [#D] [2019-07-28] [[https://github.com/jonbakerfish/TweetScraper][jonbakerfish/TweetScraper: TweetScraper is a simple crawler/spider for Twitter Search without using API]] :twitter:
+** STRT [#D] [2019-07-28] [[https://github.com/jonbakerfish/TweetScraper][jonbakerfish/TweetScraper: TweetScraper is a simple crawler/spider for Twitter Search without using API]] :twitter:
 :PROPERTIES:
 :ID:       sgthbcmjnbkrfshtwtscrprjnlrspdrfrtwttrsrchwthtsngp
+:END:
+*** [2021-02-09] doesn't work, this error :( https://github.com/bisguzar/twitter-scraper/issues/168
+:PROPERTIES:
+:ID:       dsntwrkthsrrrsgthbcmbsgzrtwttrscrprsss
 :END:
 ** TODO [#D] talon databases (lots of them!)                    :hpi:android:
 :PROPERTIES:
 :CREATED:  [2020-04-28]
 :ID:       tlndtbssltsfthm
 :END:
-** [#D] [2019-07-29] taspinar/twitterscraper: Scrape Twitter for Tweets https://github.com/taspinar/twitterscraper
+** STRT [#D] [2019-07-29] [[https://github.com/taspinar/twitterscraper][taspinar/twitterscraper: Scrape Twitter for Tweets]]
 :PROPERTIES:
-:ID:       tspnrtwttrscrprscrptwttrfwtssgthbcmtspnrtwttrscrpr
+:ID:       sgthbcmtspnrtwttrscrprtsptwttrscrprscrptwttrfrtwts
 :END:
 : One of the bigger disadvantages of the Search API is that you can only access Tweets written in the past 7 days. This is a major bottleneck for anyone looking for older past data to make a model from. With TwitterScraper there is no such limitation.
+*** [2021-02-09] https://github.com/taspinar/twitterscraper/issues/344 broken as well
+:PROPERTIES:
+:ID:       sgthbcmtspnrtwttrscrprsssbrknswll
+:END:
 ** TODO [#C] err, new twitter exports are half gig each?
 :PROPERTIES:
 :CREATED:  [2019-08-17]
@@ -358,12 +366,16 @@ https://www.reddit.com/r/DataHoarder/comments/c6fh4x/after_hoarding_over_50k_you
 :END:
 Emfit QS is my sleep tracker.
 
-** TODO [#B] [2018-08-18] Emfit has local API; would be nice to use it... :emfit:
+** STRT [#B] [2018-08-18] Emfit has local API; would be nice to use it... :emfit:
 :PROPERTIES:
 :ID:       mfthslclpwldbnctst
 :END:
 https://gist.github.com/harperreed/9d063322eb84e88bc2d0580885011bdd
 https://gist.github.com/karlicoss/3361f6a239048a451daa2a02982ee180
+*** [2020-09-11] [[https://github.com/sanielfishawy/emfit_data_getter][sanielfishawy/emfit_data_getter: Gets heart rate and respiration rate from an Emfit QS device on the same local network.]] :emfit:
+:PROPERTIES:
+:ID:       sgthbcmsnlfshwymftdtgttrsfrmnmftqsdvcnthsmlclntwrk
+:END:
 
 ** [#C] [2019-12-17] downloadEmfitAPI.py https://gist.github.com/vanne02135/6901cc2b92315881080d0ce0f07c1a17
 :PROPERTIES:
@@ -1064,7 +1076,7 @@ https://github.com/signalnerve/roam-backup
 :     roamPasswor
 * ----------------------------------------------------
 :PROPERTIES:
-:ID:       37168_37223
+:ID:       37830_37885
 :END:
 * [#A] [2020-02-03] Data lake - Wikipedia                       :dal:exports:
 :PROPERTIES:
@@ -1144,3 +1156,21 @@ https://news.ycombinator.com/item?id=13700968
 :PROPERTIES:
 :ID:       sgthbcmtmgrssmnnnstpytmgrrmbttlfrtmtdnstgrmntrctns
 :END:
+* TODO [#B] ok, exposing a stream is sort of good? and then filtering? makes it easier to use synthetic exports :hpi:exports:dal:
+:PROPERTIES:
+:CREATED:  [2021-01-30]
+:ID:       kxpsngstrmssrtfgdndthnfltrngmkstsrtssynthtcxprts
+:END:
+* TODO [#B] HN data provider                            :hpi:orger:promnesia:
+:PROPERTIES:
+:CREATED:  [2021-01-31]
+:ID:       hndtprvdr
+:END:
+https://github.com/HackerNews/API
+https://hacker-news.firebaseio.com/v0/user/karlicoss.json?print=pretty -- get user data
+extract 'submitted'
+https://hacker-news.firebaseio.com/v0/item/25971799.json?print=pretty -- comment
+https://hacker-news.firebaseio.com/v0/item/25971380.json?print=pretty -- type: "story"
+dunno if useful to keep scores over time?
+not sure if should dump everything in a single json? or split by files?
+can change later I guess

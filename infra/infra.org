@@ -165,11 +165,10 @@ I think I'm using it in scrapyroo.. perhaps I should index all my git repos?
 :END:
 https://github.com/vinta/awesome-python
 : fuzzywuzzy - Fuzzy String Matching.
-* TODO [#C] [2019-06-29] mark-rushakoff/awesome-influxdb: A curated list of awesome projects, libraries, tools, etc. related to InfluxDB
+* TODO [#C] [2019-06-29] mark-rushakoff/awesome-influxdb: A curated list of awesome projects, libraries, tools, etc. related to InfluxDB https://github.com/mark-rushakoff/awesome-influxdb
 :PROPERTIES:
-:ID:       mrkrshkffwsmnflxdbcrtdlstjctslbrrstlstcrltdtnflxdb
+:ID:       mrkrshkffwsmnflxdbcrtdlstsgthbcmmrkrshkffwsmnflxdb
 :END:
-https://github.com/mark-rushakoff/awesome-influxdb
 
 * TODO [#C] compare how similar pipeline in python would look? :huginn:ideas:
 :PROPERTIES:
@@ -802,4 +801,37 @@ Find a way to simplify and make it more effecient.
 * [#D] [2020-11-04] [[https://github.com/pwaller/docker-show-context][pwaller/docker-show-context: Show where time is wasted during the context upload of `docker build`]]
 :PROPERTIES:
 :ID:       sgthbcmpwllrdckrshwcntxtpstddrngthcntxtpldfdckrbld
+:END:
+
+* My infrastructure diagram                                         :myinfra:
+:PROPERTIES:
+:ID:       mynfrstrctrdgrm
+:END:
+https://beepb00p.xyz/myinfra.html
+** TODO [#B] feels like need to merge together block with export layer and storage :myinfra:
+:PROPERTIES:
+:CREATED:  [2021-02-03]
+:ID:       flslkndtmrgtgthrblckwthxprtlyrndstrg
+:END:
+still can use labels via html tables?... ugh
+or maybe put them in clusters? so they are aligned vertically
+** TODO [#C] incomplete, too much; typical usecases          :toblog:myinfra:
+:PROPERTIES:
+:CREATED:  [2021-02-05]
+:ID:       ncmplttmchtypclscss
+:END:
+** TODO [#C] mark stuff I'm using/abandoned                         :myinfra:
+:PROPERTIES:
+:CREATED:  [2021-02-04]
+:ID:       mrkstffmsngbndnd
+:END:
+** TODO [#C] could add browser before reddit/telegra/twitter etc? and also phone? :myinfra:
+:PROPERTIES:
+:CREATED:  [2021-02-04]
+:ID:       cldddbrwsrbfrrddttlgrtwttrtcndlsphn
+:END:
+** TODO [#C] ugh. def need js highlight or something                :myinfra:
+:PROPERTIES:
+:CREATED:  [2021-02-02]
+:ID:       ghdfndjshghlghtrsmthng
 :END:

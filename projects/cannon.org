@@ -649,3 +649,8 @@ https://web.archive.org/web/20090902224414/http://reason.com/news/show/119237.ht
 :CREATED:  [2021-02-07]
 :ID:       cldbsflfrsrfngkynyxtbrwsrthntntrstngrls
 :END:
+* TODO [#B] https://app.element.io/#/room/#blockchain:fosdem.org     :cannon:
+:PROPERTIES:
+:CREATED:  [2021-02-07]
+:ID:       spplmntrmblckchnfsdmrg
+:END:

@@ -686,7 +686,6 @@ https://repl.it/talk/all?lang=python_turtle
 :PROPERTIES:
 :ID:       sgthbcmkrsfxfxlfshtsssfndtvtggldtstdsskrsfxfxlfsht
 :END:
-: Ciao Felix.
 : Have you considered Redash? It's open source, self hosted and pretty solid.
 
 google docs-like interface

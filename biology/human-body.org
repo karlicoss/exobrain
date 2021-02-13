@@ -222,3 +222,26 @@ https://vk.com/wall5695154_20731
 : 
 : All that really happens is that your GABA receptors stop working, which causes you to be unable to encode new memories. While you're in the moment, you're as much in control as you were five minutes before, you'll just suddenly have great difficulty remembering the conversation you're in, and you'll often find yourself getting tunnel vision. You can walk yourself home, you can brush your teeth, take a shower; hell, even play a video game for a few hours. You just won't remember it in the morning.
 : The reason blacking out is considered to be scary is that you could have done more-or-less anything during that time, since drinking reduces inhibitions.
+* [#B] [2018-07-17] about 7-10% of fat can be converted to glucose :metabolism:
+:PROPERTIES:
+:ID:       btfftcnbcnvrtdtglcs
+:END:
+https://biology.stackexchange.com/a/48322
+: This is because triglyceride is made up of one 3-carbon glycerol molecule and three 16- or 18-carbon fatty acids. The glycerol (3/51-to-57 = 5.2–5.9%) can be converted to glucose in the liver by gluconeogenesis (after conversion to dihydroxyacetone phosphate).
+*** process:
+:PROPERTIES:
+:ID:       prcss
+:END:
+The FA chains are cleaved off of the glycerol backbone. The 3 FA chains are oxidized and you get some Acetyl-CoA to use in the Krebs cycle. You also are left with the glycerol backbone. It was the 3 carbon chain holding these FAs together. Remember pyruvate from before? Well, it's also a 3 carbon molecule and glycerol is converted to pyruvate, which then is converted to Acetyl-CoA. A perfect design! Now you can put all that Acetyl-CoA into the Krebs cycle.
+
+*** good diagram https://en.wikibooks.org/wiki/Principles_of_Biochemistry/Gluconeogenesis_and_Glycogenesis
+:PROPERTIES:
+:ID:       gddgrmsnwkbksrgwkprncplsfchmstryglcngnssndglycgnss
+:END:
+* [#C] [2018-07-07] glucose vs fructose                          :metabolism:
+:PROPERTIES:
+:ID:       glcsvsfrcts
+:END:
+: Another thing to consider: Not all types of carbohydrates end up the same way when digested. Glucose, as said earlier, can be stored in the form of glycogen in the body. Fructose, on the other hand, cannot do the same and is directly converted into fat if it cannot be used immediately. This means that if you eat a lot of carbohydrates in the form of fructose (white sugar, corn syrup, fruits) many of it will be converted into fat without any opportunity to be used. This is also why since low-fat food arrived everywhere, the obesity epidemic started. Fat has been replaced by sugar and corn syrup, and voilà. Same result, but since it says "no fat" on the product we think we can eat all we want. Hope I have been some help.
+: hm, or is it? https://www.reddit.com/r/Fitness/comments/4a5fws/can_someone_please_shed_light_on_the_sugar_makes/d0y7r0o/
+: This is a common misconception. Fructose and glucose are both broken down to the same triose sugars and can both therefore enter the gluconeogenic pathway. De Novo lipogenesis from carbs is fairly uncommon because it is metabolically ludicrously inefficient. You have to massively overfeed on carbs.

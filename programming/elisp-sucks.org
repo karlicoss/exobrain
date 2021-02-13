@@ -383,3 +383,8 @@ maybe I need to disable parinfer during pasting, not sure
 :ID:       dbggngvryftntsmchsrtcpyvrthfnctnndstptdbg
 :END:
 also use with-current-buffer and a separate buffer -- oftern much easier than repl...
+* TODO [#D] try finding out how to take nth character of a string :elisp_sucks:
+:PROPERTIES:
+:CREATED:  [2021-02-06]
+:ID:       tryfndngthwttknthchrctrfstrng
+:END:

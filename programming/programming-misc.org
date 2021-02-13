@@ -855,17 +855,20 @@ https://www.reddit.com/r/cpp/comments/9cndcr/lldb_now_supports_syntax_highlighti
 :ID:       strylbscmblgtppythnlbrrsflbrrsfyshldknwbttrylbsblg
 :END:
 : PrettyErrors does only one thing and does it well. In terminals that support colored output, it transforms the cryptic stack traces into something that is much better suited for parsing with our puny human eyes. No more scanning the entire screen to find the culprit of your exception… You can now find it at a glance!
-* TODO [#A] [2020-06-10] [[https://news.ycombinator.com/item?id=23475225][Create diagrams with code using Graphviz | Hacker News]] :viz:
+* [#A] [2020-06-10] [[https://news.ycombinator.com/item?id=23475225][Create diagrams with code using Graphviz | Hacker News]] :viz:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdcrtdgrmswthcdsnggrphvzhckrnws
 :END:
-: 1. For manual editing, dot -Tx11 foo.dot displays the graph in a window and updates it automatically whenever you save. So you can have an editor window open and the dot window and see the results of every tweak. For automatically generated graphs, this provides you with a window that you can update by overwriting a file with a new graph description.
+: 1. For manual editing, dot -Tx11 foo.dot displays the graph in a window and updates it automatically whenever you save. So you can have an editor window open and the dot window and see the results of every tweak.
+** [2021-02-09] eh, I mean ok, but it's not very interactive. although probably works better than ~entr~ for dot -> png?
+:PROPERTIES:
+:ID:       hmnkbttsntvryntrctvlthghpbblywrksbttrthnntrfrdtpng
+:END:
 * STRT [#C] [2020-01-20] A Totally Polished and not-at-all half-baked Take on Static vs Dynamic Typing • Buttondown :mypy:
 :PROPERTIES:
 :ID:       ttllyplshdndnttllhlfbkdtknsttcvsdynmctypngbttndwn
 :END:
 https://buttondown.email/hillelwayne/archive/a-totally-polished-and-not-at-all-half-baked-take/
-: Mypy
 * STRT [#C] [2020-01-20] A Totally Polished and not-at-all half-baked Take on Static vs Dynamic Typing • Buttondown
 :PROPERTIES:
 :ID:       ttllyplshdndnttllhlfbkdtknsttcvsdynmctypngbttndwn
@@ -1499,11 +1502,6 @@ relevant to configs-suck
 :ID:       prtrslqdtmpltlnggsshpfygthblqdbscsprtrs
 :END:
 
-* [#D] [2020-05-26] [[https://joeyates.info/2018/12/16/dotfiles/][Dotfiles - Joe Yates' Blog]]
-:PROPERTIES:
-:ID:       sjytsnfdtflsdtflsjytsblg
-:END:
-
 * [#D] [2020-09-12] [[https://news.ycombinator.com/item?id=24453007][From Rust to TypeScript | Hacker News]] :errors:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdfrmrstttypscrpthckrnws
@@ -1537,3 +1535,27 @@ relevant to configs-suck
 :PROPERTIES:
 :ID:       svmcmrplbsddvlpmntdmnvm
 :END:
+
+* TODO [#C] good examples of vertical alignment in myinfra generate.py :codestyle:
+:PROPERTIES:
+:CREATED:  [2021-02-04]
+:ID:       gdxmplsfvrtcllgnmntnmynfrgnrtpy
+:END:
+- demonstrate how black messes it up
+- suggest the rule to disable it
+* TODO [#C] join pharo discord (later)                            :smalltalk:
+:PROPERTIES:
+:CREATED:  [2021-02-07]
+:ID:       jnphrdscrdltr
+:END:
+* TODO [#B] arranging code in grid would be very convenient at times (e.g. typeclass/data type axis) :programming:
+:PROPERTIES:
+:CREATED:  [2021-02-03]
+:ID:       rrngngcdngrdwldbvrycnvnntttmsgtypclssdttypxs
+:END:
+* TODO [#C] https://types.pl/@vdash/105642916589584815
+:PROPERTIES:
+:CREATED:  [2021-01-30]
+:ID:       stypsplvdsh
+:END:
+: vdash@types.pl - Subtyping is good, state is fine when used with care, inheritance is a Bad Plan, composition is a Good Plan, algebraic datatypes are objectively morally correct. I can't think of any more takes

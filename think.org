@@ -929,3 +929,23 @@ Could check it on examples from this dragon slaying game
 
 hmm, interesting, could use that for RSS extractor thingy? although common ancestor thing might be easier:
 basically go up until you meet
+* STRT [#C] [2021-02-05] x                                        :money:ubi:
+:PROPERTIES:
+:ID:       x
+:END:
+Hm. I guess money, to an extent, is a motivation for unpleasant work?
+E.g. once we solve basic needs with UBI, someone will have to for example, assemble computers.. or program them (also kind of unpleasant work?)
+
+Agree it would be way better off, but I'm not sure that 'profit motive' will go away. Money is not just luxury, it's also a distributed computation of the utility (somewhat flawed, sometimes very flawed, but still), and also a means of getting resources.
+* TODO [#B] we will probably part ways?             :think:totweet:computing:
+:PROPERTIES:
+:CREATED:  [2021-01-30]
+:ID:       wwllprbblyprtwys
+:END:
+people who want open, interoperable and malleable worlds while potentially trading some security
+people who want (need?) to be locked in and nannied by the big corporations etc
+* TODO [#B] rememberance agent idea: on highlighting something, show fuzzy search results somewhere in the sidebar/other buffer :think:pkm:
+:PROPERTIES:
+:CREATED:  [2021-01-31]
+:ID:       rmmbrncgntdnhghlghtngsmthhrsltssmwhrnthsdbrthrbffr
+:END:

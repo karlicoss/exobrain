@@ -27,17 +27,6 @@ https://web.archive.org/web/20131221225841/http://iancackett.wordpress.com:80/20
 :CREATED:  [2019-02-05]
 :ID:       trcklrmsttsstpdsmssdtc
 :END:
-* TODO [#A] Tweet from Ray Maker (@dcrainmakerblog), at May 21, 10:11 suunto 5
-:PROPERTIES:
-:CREATED:  [2019-05-21]
-:ID:       twtfrmrymkrdcrnmkrblgtmysnt
-:END:
-
-: The Suunto 5 is out! Here's everything you need to know about Suunto's latest multisport unit (priced at $329, including a stainless steel bezel). From newly incorporated FirstBeat metrics to the accuracy of the new GPS, battery life and first test runs: https://t.co/tfxdII4Vh9 https://t.co/ZI6R5P3Ner
-
-
-https://twitter.com/dcrainmakerblog/status/1130762562050646017
-
 * TODO [#B] cross correlation -- dependency of correlation on shift      :qs:
 :PROPERTIES:
 :CREATED:  [2018-07-15]
@@ -750,14 +739,6 @@ https://wger.de/en/software/features
 :END:
 https://en.wikipedia.org/wiki/Bristol_stool_scale
 
-* TODO [#D] try connectordb?                                             :qs:
-:PROPERTIES:
-:CREATED:  [2018-05-01]
-:ID:       trycnnctrdb
-:END:
-
-https://github.com/connectordb/connectordb
-
 * TODO [#D] experiment with modafinil https://www.gwern.net/Modafinil
 :PROPERTIES:
 :ID:       xprmntwthmdfnlswwwgwrnntmdfnl
@@ -1374,10 +1355,6 @@ shit, this looks awesome!!
 * [2020-09-11] [[https://www.polar.com/accesslink-api/#exercise-sample-types][Exercise sample types – Polar Accesslink API]]
 :PROPERTIES:
 :ID:       swwwplrcmccsslnkpxrcssmplpsxrcssmpltypsplrccsslnkp
-:END:
-* [2020-09-11] [[https://github.com/sanielfishawy/emfit_data_getter][sanielfishawy/emfit_data_getter: Gets heart rate and respiration rate from an Emfit QS device on the same local network.]]
-:PROPERTIES:
-:ID:       sgthbcmsnlfshwymftdtgttrsfrmnmftqsdvcnthsmlclntwrk
 :END:
 * [2020-09-11] [[https://www.polar.com/accesslink-api/#get-fit-beta][Get FIT (beta) – Polar Accesslink API]]
 :PROPERTIES:

@@ -100,10 +100,17 @@ pycco for literate python programming...
 :ID:       sdcsrcktlngrgpllnpllnthbksprgrm
 :END:
 : Pollen: the book is a program
-* [#C] [2020-05-19] [[https://observablehq.com/][The magic notebook for exploring data / Observable]] :js:literate:
+* STRT [#C] [2020-05-19] [[https://observablehq.com/][The magic notebook for exploring data / Observable]] :js:literate:
 :PROPERTIES:
 :ID:       sbsrvblhqcmthmgcntbkfrxplrngdtbsrvbl
 :END:
+** [2021-02-11] ugh. it kinda sucked
+:PROPERTIES:
+:ID:       ghtkndsckd
+:END:
+- can't run notebook locally
+- can't preserver the outputs
+- can't export to static HTML
 
 * [#C] mpastell/Pweave: Pweave is a scientific report generator and a literate programming tool for Python. It can capture the results and plots from data analysis and works well with numpy, scipy and matplotlib.
 :PROPERTIES:

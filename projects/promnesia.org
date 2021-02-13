@@ -2996,3 +2996,30 @@ The only downside is you won't have timestamps unless you write them out
 : sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
 : [SQL: CREATE INDEX index_norm_url ON visits (norm_url)]
 : (Background on this error at: http://sqlalche.me/e/13/e3q8)
+* TODO [#D] exclude fonts                                         :promnesia:
+:PROPERTIES:
+:CREATED:  [2021-01-30]
+:ID:       xcldfnts
+:END:
+: 'While indexing exobrain/exobrain-logseq/static/fonts/IBMPlexMono-Text-Latin1.woff', 'No extractor for suffix .woff, mime font/woff
+* TODO [#C] was in some sort of infinite/super slow binding loop in the sidebar on discord, turned it off for now :promnesia:
+:PROPERTIES:
+:CREATED:  [2021-01-30]
+:ID:       wsnsmsrtfnfntsprslwbndnglpnthsdbrndscrdtrndtfffrnw
+:END:
+* TODO [#B] further directions                             :promnesia:toblog:
+:PROPERTIES:
+:CREATED:  [2021-01-31]
+:ID:       frthrdrctns
+:END:
+I'd like to solve some general problems, so we can all benefit
+- cannon
+- timeline storage etc
+- how to embed metadata into the page?
+  usually
+  empty space detection
+* TODO [#C] hmm, interferes?  e.g. try highlighting over a 'visited' mark :promnesia:hypothesis:
+:PROPERTIES:
+:CREATED:  [2021-01-31]
+:ID:       hmmntrfrsgtryhghlghtngvrvstdmrk
+:END:

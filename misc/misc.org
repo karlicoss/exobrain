@@ -1336,11 +1336,10 @@ https://en.wikipedia.org/wiki/Bret_Victor
 :ID:       wrrydrmcmkllmth
 :END:
 
-* [2019-04-13] Dynamicland                              :bretvictor:thinking:
+* [2019-04-13] Dynamicland https://dynamicland.org/     :bretvictor:thinking:
 :PROPERTIES:
-:ID:       dynmclnd
+:ID:       dynmclndsdynmclndrg
 :END:
-https://dynamicland.org/
 
 * [2019-03-23] Bret Victor - The Humane Representation of Thought - YouTube :thinking:
 :PROPERTIES:
@@ -2745,3 +2744,8 @@ https://twitter.com/thesofakillers/status/1196410719006285826
 :ID:       wwwctvpprsrgctvpprsrg
 :END:
 : computational science made reproducible and understandable
+* TODO [#B] hmm it's renderer agnostic! interesting                    :nyxt:
+:PROPERTIES:
+:CREATED:  [2021-02-07]
+:ID:       hmmtsrndrrgnstcntrstng
+:END:

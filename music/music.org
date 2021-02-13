@@ -5,7 +5,7 @@ Music expliration, music I like, etc.
 
 #+toc: headlines 2
 
-* TODO [#A] figure out proper music exploration routine
+* STRT [#A] figure out proper music exploration routine
 :PROPERTIES:
 :ID:       fgrtprprmscxplrtnrtn
 :END:
@@ -14,11 +14,21 @@ also log the whole procedure for downloading, etc
 
 I guess adding to spotify is kinda fine.
 
-** TODO [#B] LPT: If you like one song by an artist, but don't dig the rest of their stuff. find out who the producer is and see what other work they've done. The producer can play a big role in how the final song turns out :music:
+** TODO [#B] "LPT: If you like one song by an artist, but don't dig the rest of their stuff. find out who the producer is and see what other work they've done. The producer can play a big role in how the final song turns out" :music:
 :PROPERTIES:
 :CREATED:  [2018-04-10]
 :ID:       lptfylknsngbynrtstbtdntdgcnplybgrlnhwthfnlsngtrnst
 :END:
+** TODO [#C] [2021-02-09] https://rateyourmusic.com/discover
+:PROPERTIES:
+:ID:       srtyrmsccmdscvr
+:END:
+https://twitter.com/bizarre_bezoar/status/1359279349149663235
+** TODO [#C] [2021-02-09] soundcloud? https://twitter.com/ajflores1604/status/1359278682167205890
+:PROPERTIES:
+:ID:       sndcldstwttrcmjflrsstts
+:END:
+: SoundCloud still my go-to for electronic music. Find some artists you like and dig thru what they like or comment on.
 
 * STRT [#B] Music I like
 :PROPERTIES:
@@ -312,17 +322,15 @@ https://twitter.com/rivatez/status/1210970550266449923
 :PROPERTIES:
 :ID:       swwwrddtcmrtchncmmntsbgtnwttchnslghtlyvrwhlmd
 :END:
-* TODO [#D] https://open.spotify.com/track/6mib3N4E8PZHAGQ3xy7bho?si=4DKKBZGXRiyzh28zif2kXg moonage dream Reminds me of Jesus Christ superstar
+* [#D] [2019-08-05] https://open.spotify.com/track/6mib3N4E8PZHAGQ3xy7bho?si=4DKKBZGXRiyzh28zif2kXg moonage dream Reminds me of Jesus Christ superstar
 :PROPERTIES:
-:CREATED:  [2019-08-05]
 :ID:       spnsptfycmtrckmbnpzhgqxybgdrmrmndsmfjsschrstsprstr
 :END:
 
-* TODO [#D] [2019-08-18] ciconia/awesome-music: Awesome Music Projects
+* TODO [#D] [2019-08-18] ciconia/awesome-music: Awesome Music Projects https://github.com/ciconia/awesome-music#readme
 :PROPERTIES:
-:ID:       ccnwsmmscwsmmscprjcts
+:ID:       ccnwsmmscwsmmscprjctssgthbcmccnwsmmscrdm
 :END:
-https://github.com/ciconia/awesome-music#readme
 
 * TODO [#D] [2020-08-22] [[https://listenbrainz.org/][ListenBrainz]] :spotify:lastfm:
 :PROPERTIES:

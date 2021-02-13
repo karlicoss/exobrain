@@ -342,7 +342,7 @@ https://twitter.com/Conaw/status/1283178647449333761
 :END:
 https://news.ycombinator.com/user?id=h0p3
 huh, this guy uploads his mind onto wiki
-* STRT [#C] Need a tool to match and highlight arbitrary text in pdf :coding:annotation:
+* STRT [#C] Need a tool to match and highlight arbitrary text in pdf :annotation:
 :PROPERTIES:
 :CREATED:  [2018-06-27]
 :ID:       ndtltmtchndhghlghtrbtrrytxtnpdf

@@ -394,7 +394,7 @@ ok, this is pretty intersting
 re: autocorrelation -- what was up with the 'blue region', significance thing??
 also good: Seasonal Plot
 would be initersting to quickly toggle it in dashboard?
-** TODO [#C] grafana could simply be one of the interfaces
+** STRT [#C] grafana could simply be one of the interfaces
 :PROPERTIES:
 :CREATED:  [2020-08-25]
 :ID:       grfncldsmplybnfthntrfcs
@@ -1158,7 +1158,7 @@ https://github.com/ucg8j/awesome-dash
 
 * -----------------------------------------
 :PROPERTIES:
-:ID:       37011_37056
+:ID:       37089_37134
 :END:
 
 * TODO [#A] come up with a better name? just in case of pypi release...

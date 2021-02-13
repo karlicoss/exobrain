@@ -8,6 +8,11 @@
 :END:
 
 
+* TODO [#B] B vs T immunity                                 :tostudy:biology:
+:PROPERTIES:
+:CREATED:  [2021-01-12]
+:ID:       bvstmmnty
+:END:
 * [#B] [2017-11-30] protein folding                              :complexity:
 :PROPERTIES:
 :ID:       prtnfldng
@@ -16,7 +21,7 @@ given a chain of amino acids, can you predict how is it going to fold?
 ideally, folding should end up in the minimal energy state. if it doesn't you end up with prions?
 in general, folding is an NP complete problem, are our body cells actually solving them somehow?
 conjecture: evolution wouldn't actually use hard instances of protein folding, only computationally easy ones.
-* [2017-05-15] [[http://en.wikipedia.org/wiki/Ethanol_fermentation][Fermentation]]
+* [#C] [2017-05-15] [[http://en.wikipedia.org/wiki/Ethanol_fermentation][Fermentation]]
 :PROPERTIES:
 :ID:       nwkpdrgwkthnlfrmnttnfrmnttn
 :END:
@@ -24,20 +29,17 @@ yeast anaerobic -> alcohol
 muscle anaerobic -> lactic acid
 
 : Fermentation is a metabolic process that converts sugar to acids, gases, and/or alcohol.
-
-F: ermentation takes place in the lack of oxygen (when the electron transport chain is unusable) and becomes the cell’s primary means of ATP (energy) production.[1] It turns NADHand pyruvate produced in the glycolysis step into NAD+ and various small molecules depending on the type of fermentation (see examples below). In the presence of O2, NADH and pyruvate are used to generate ATP in respiration. This is called oxidative phosphorylation, and it generates much more ATP than glycolysis alone. For that reason, cells generally benefit from avoiding fermentation when oxygen is available. Exceptions include obligate anaerobes, which cannot tolerate oxygen.
+: Fermentation takes place in the lack of oxygen (when the electron transport chain is unusable) and becomes the cell’s primary means of ATP (energy) production.[1] It turns NADHand pyruvate produced in the glycolysis step into NAD+ and various small molecules depending on the type of fermentation (see examples below). In the presence of O2, NADH and pyruvate are used to generate ATP in respiration. This is called oxidative phosphorylation, and it generates much more ATP than glycolysis alone. For that reason, cells generally benefit from avoiding fermentation when oxygen is available. Exceptions include obligate anaerobes, which cannot tolerate oxygen.
 
 https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5
-
 : Пируваты (соли пировиноградной кислоты) — важные химические соединения в биохимии. Они являются конечным продуктом метаболизма глюкозы в процессегликолиза. Одна молекула глюкозы превращается при этом в две молекулы пировиноградной кислоты. Дальнейший метаболизм пировиноградной кислоты возможен двумя путями — аэробным и анаэробным.
 
 
-* [2020-12-26] [[https://news.ycombinator.com/item?id=25538820][Reverse Engineering the Source Code of the BioNTech/Pfizer SARS-CoV-2 Vaccine | Hacker News]]
+* TODO [2020-12-26] [[https://news.ycombinator.com/item?id=25538820][Reverse Engineering the Source Code of the BioNTech/Pfizer SARS-CoV-2 Vaccine | Hacker News]]
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdrvrsngnrnbntchpfzrsrscvvccnhckrnws
 :END:
 : Synthetic Biology: A Primer
-: 
 : Wetware: A Computer in Every Living Cell
 * TODO [#D] there have only been maybe {~10^40} organisms in earth’s history :drill:biology:
 :PROPERTIES:
@@ -45,7 +47,7 @@ https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5
 :ID:       6d460198-82c2-4fe7-9766-aded22b1e81e
 :END:
 from [[https://www.instapaper.com/read/1234260607/11339250][ip]]   [[https://www.scottaaronson.com/blog/?p=4253][Shtetl-Optimized » Blog Archive » On two blog posts of Jerry Coyne]]
-* [2020-04-08] Watch the Life Cycle of HIV in Colorful New Detail - Scientific American Blog Network :biology:
+* TODO [#B] [2020-04-08] Watch the Life Cycle of HIV in Colorful New Detail - Scientific American Blog Network :biology:
 :PROPERTIES:
 :ID:       wtchthlfcyclfhvnclrflnwdtlscntfcmrcnblgntwrk
 :END:
@@ -66,7 +68,7 @@ https://blogs.scientificamerican.com/observations/watch-the-life-cycle-of-hiv-in
 : A tRNA molecule at body temperature travels at roughly 10 m/s. Assuming a point-sized tRNA and stationary ribosome of radius 125 * 10^-10 m, the ray casted by the moving tRNA will collide with the ribosome when their centers are within 125 * 10^-10 m of each other. The path of the tRNA sweeps a "collidable" circle of the radius of 125 * 10^-10 m, for a cross-sectional area of 5 * 10^-16 m^2. Multiplied by the tRNA velocity, the tRNA sweeps a volume of 5 * 10^-15 m^3 per second. Constrained inside an ordinary animal cell of volume 10^-15 m^3, the tRNA would have swept the entire volume of the cell five times over in a single second. Obviously the collision path would have significant self-overlap, but at this rate it's quite likely for the two to collide at least once any given second.
 : Now, consider that this analysis was only for a single ribosome/tRNA pair. A single ribosome will experience this collision rate multiplied by the total number of tRNA in the cell, on the order of thousands to millions. If a ribosome is bombarded by tens of thousands of tRNA in a single second, it's very likely one of those tRNA will (1) be charged with an amino acid, (2) be the correct tRNA for the current 3-nucleotide sequence, and (3) collide specifically with the binding site on the ribosome in the correct orientation. In actuality, a ribosome synthesizes a protein at a rate of ~10 amino acid residues per second.
 : Any given molecule in the cell will experience millions to billions of collisions per second. The fact that molecules move so fast relative to their size is what allows these reactions to happen on reasonable timescales.
-* [2020-08-15] [[https://en.wikipedia.org/wiki/OpenWorm][OpenWorm - Wikipedia]] :sim:
+* [#C] [2020-08-15] [[https://en.wikipedia.org/wiki/OpenWorm][OpenWorm - Wikipedia]] :sim:
 :PROPERTIES:
 :ID:       snwkpdrgwkpnwrmpnwrmwkpd
 :END:
@@ -76,30 +78,27 @@ https://blogs.scientificamerican.com/observations/watch-the-life-cycle-of-hiv-in
 :CREATED:  [2020-05-16]
 :ID:       hwcllcmpt
 :END:
-
 https://twitter.com/karpathy/status/1261457314713792512
 : @karpathy: This was actually really good. I've spent some time translating biology to CS/EE terms/abstractions, this makes a lot of those analogies explicit. +"Genetic circuit design automation" Science paper [2016] link science.sciencemag.org/content... twitter.com/Reza_Zadeh/status/...
 
-* TODO sympathetic nervous system {“accelerator”} and your parasympathetic nervous system {“brake”} :drill:
+* TODO [#C] sympathetic nervous system {“accelerator”} and your parasympathetic nervous system {“brake”} :drill:
 :PROPERTIES:
 :CREATED:  [2019-08-17]
 :ID:       f130f3f2-8979-466d-aa57-5294d86c1c2e
 :END:
 from Come as You Are
 
-* TODO [#C] [2019-01-29] 5 Minute DNA Extraction in a Shot Glass: 7 Steps (with Pictures) :dna:
+* [#C] [2019-01-29] 5 Minute DNA Extraction in a Shot Glass: 7 Steps (with Pictures) https://www.instructables.com/id/5-minute-DNA-Extraction-in-a-Shot-Glass/ :dna:
 :PROPERTIES:
-:ID:       mntdnxtrctnnshtglssstpswthpctrs
+:ID:       mntdnxtrctnnshtglssstpswtblscmdmntdnxtrctnnshtglss
 :END:
-https://www.instructables.com/id/5-minute-DNA-Extraction-in-a-Shot-Glass/
+** TODO [#C] [2019-01-29]
+:PROPERTIES:
+:ID:       7286_7619
+:END:
 : The detergents in the dish soap (like the sodium laurel sulfate, aka sodium dodecyl sulfate) destabilize the membranes of the cells, spilling their contents into the rest of the solution of saliva.
 
 can you do this with muscle cells? E.g. shred meat, add some water and salt and see what happens
-* [#C] [2019-01-29] 5 Minute DNA Extraction in a Shot Glass: 7 Steps (with Pictures) :dna:
-:PROPERTIES:
-:ID:       mntdnxtrctnnshtglssstpswthpctrs
-:END:
-https://www.instructables.com/id/5-minute-DNA-Extraction-in-a-Shot-Glass/
 
 * TODO [#D] [2019-08-05] Eli Shlizerman on Twitter: "1/ THREAD: Excited to share our work on whole nervous system and body model for celegans. The model simulates how connectome + neural interactions + body interact together to generate locomotion. Preprint: https://t.co/vgwGbIeuGc Samples of videos: https://t.co/0afVJ7MBuo https://t.co/0Tb9Z6LSBX" / Twitter
 :PROPERTIES:
@@ -120,52 +119,23 @@ https://twitter.com/shlizee/status/1158486688307400705
 :ID:       srddtcmrskscnccmmntsfvcjhdgtthfltwntbsbdwrkrskscnc
 :END:
 : There's actually a very cool effect where either getting infected with flu or getting vaccinated boosts your antibody response to all previous strains of flu you've encountered (by getting flu or by being vaccinated). In recent years WHO have begun to shift towards using antigenically advanced vaccines, whereby they predict how currently circulating strains of flu will evolve and artificially create vaccines for the flu strain they think will be circulating in 6 months time, as even if the virus doesn't mutate to a new strain, the antibody backboost means you still get protection against most circulating strains. Check out this paper (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4246172/) if you want a more detailed explanation, but basically the vaccine can boost your antibody response to a fairly wide range of influenza virus strains  (this is at least true for type A H3N2 influenza, there are 4 different types of influenza in the annual vaccine)
-* [2019-03-29] The World in UV - YouTube                                :dna:
+* TODO [#C] [2019-03-28] Cellular Visions: The Inner Life of a Cell - Studio Daily http://www.studiodaily.com/2006/07/cellular-visions-the-inner-life-of-a-cell/ :biology:viz:
 :PROPERTIES:
-:ID:       thwrldnvytb
+:ID:       clllrvsnsthnnrlffcllstddldlycmclllrvsnsthnnrlffcll
 :END:
-https://www.youtube.com/watch?v=V9K6gjR07Po
-huh, apparently UV protective pigments are also inside the cells, around nucleus to protect DNA
-* [2019-03-28] Cellular Visions: The Inner Life of a Cell - Studio Daily :biology:viz:
-:PROPERTIES:
-:ID:       clllrvsnsthnnrlffcllstddly
-:END:
-http://www.studiodaily.com/2006/07/cellular-visions-the-inner-life-of-a-cell/
 
-* [2019-12-06] Watch "How Quantum Biology Might Explain Life’s Biggest Questions | Jim Al-Khalili | TED Talks" on YouTube
+* TODO [#C] [2019-10-27] [[https://www.youtube.com/watch?v=BickMFHAZR0][How Trees Bend the Laws of Physics - YouTube]] :physics:biology:
 :PROPERTIES:
-:ID:       wtchhwqntmblgymghtxplnlfsgstqstnsjmlkhlltdtlksnytb
+:ID:       swwwytbcmwtchvbckmfhzrhwtrsbndthlwsfphyscsytb
 :END:
-https://youtu.be/_qgSz1UmcBM
-
+wonder what if you hack into the tubes and push the water? would it make trees grow higher?
+* [#C] [2019-12-06] [[https://youtu.be/_qgSz1UmcBM]["How Quantum Biology Might Explain Life’s Biggest Questions | Jim Al-Khalili | TED Talks"]]
+:PROPERTIES:
+:ID:       sytbqgszmcbmhwqntmblgymghfsbggstqstnsjmlkhlltdtlks
+:END:
 Photon Coherense inside photosynthesic bacteria?
 Protons/electrons tunnel? (enzymes)
 Birds might sense magnet field via entangled electrons?
-
-* [#B] [2018-07-17]  about 7-10% of fat can be converted to glucose :metabolism:
-:PROPERTIES:
-:ID:       btfftcnbcnvrtdtglcs
-:END:
-https://biology.stackexchange.com/a/48322
-This is because triglyceride is made up of one 3-carbon glycerol molecule and three 16- or 18-carbon fatty acids. The glycerol (3/51-to-57 = 5.2–5.9%) can be converted to glucose in the liver by gluconeogenesis (after conversion to dihydroxyacetone phosphate).
-
-*** process:
-:PROPERTIES:
-:ID:       prcss
-:END:
-The FA chains are cleaved off of the glycerol backbone. The 3 FA chains are oxidized and you get some Acetyl-CoA to use in the Krebs cycle. You also are left with the glycerol backbone. It was the 3 carbon chain holding these FAs together. Remember pyruvate from before? Well, it's also a 3 carbon molecule and glycerol is converted to pyruvate, which then is converted to Acetyl-CoA. A perfect design! Now you can put all that Acetyl-CoA into the Krebs cycle.
-
-*** good diagram https://en.wikibooks.org/wiki/Principles_of_Biochemistry/Gluconeogenesis_and_Glycogenesis
-:PROPERTIES:
-:ID:       gddgrmsnwkbksrgwkprncplsfchmstryglcngnssndglycgnss
-:END:
-* [#C] [2018-07-07] glucose vs fructose                          :metabolism:
-:PROPERTIES:
-:ID:       glcsvsfrcts
-:END:
-: Another thing to consider: Not all types of carbohydrates end up the same way when digested. Glucose, as said earlier, can be stored in the form of glycogen in the body. Fructose, on the other hand, cannot do the same and is directly converted into fat if it cannot be used immediately. This means that if you eat a lot of carbohydrates in the form of fructose (white sugar, corn syrup, fruits) many of it will be converted into fat without any opportunity to be used. This is also why since low-fat food arrived everywhere, the obesity epidemic started. Fat has been replaced by sugar and corn syrup, and voilà. Same result, but since it says "no fat" on the product we think we can eat all we want. Hope I have been some help.
-: hm, or is it? https://www.reddit.com/r/Fitness/comments/4a5fws/can_someone_please_shed_light_on_the_sugar_makes/d0y7r0o/
-: This is a common misconception. Fructose and glucose are both broken down to the same triose sugars and can both therefore enter the gluconeogenic pathway. De Novo lipogenesis from carbs is fairly uncommon because it is metabolically ludicrously inefficient. You have to massively overfeed on carbs.
 
 * [#D] http://vmh.uni.lu/#reconmap metabolism interactive map :biology:metabolism:viz:
 :PROPERTIES:
@@ -183,26 +153,21 @@ can we use it for figuring out the fundaemntal group after that?
 e.g. torus -- second betty number is 1 since the hole are the insides of torus
 
 neuron connections are a higher dimension simplicial complex
-* [2021-01-06] [[https://nplus1.ru/material/2020/07/02/why-theres-no-hiv-vaccine][Без вакцины]]
-:PROPERTIES:
-:ID:       snplsrmtrlwhythrsnhvvccnбезвакцины
-:END:
-: Ситуация осложняется тем, что после первого же промаха ружье можно выкидывать. Поскольку ВИЧ — ретровирус, он встраивает свои гены в ядерную ДНК. И вычеркнуть их оттуда мы уже не можем — по крайней мере, до сих пор не научились
-* [2021-01-10] [[https://github.com/keller-mark/awesome-biological-visualizations#readme][keller-mark/awesome-biological-visualizations: A list of web-based interactive biological data visualizations.]] :biology:viz:
+* TODO [2021-01-10] [[https://github.com/keller-mark/awesome-biological-visualizations#readme][keller-mark/awesome-biological-visualizations: A list of web-based interactive biological data visualizations.]] :biology:viz:
 :PROPERTIES:
 :ID:       sgthbcmkllrmrkwsmblgclvslwbbsdntrctvblgcldtvslztns
 :END:
 
-* [2021-01-16] [[https://twitter.com/OlgaVPettersson/status/1350337989134659584][(1) Olga V. Pettersson on Twitter: "Балтимор, в 70х, открыл вирусный механизм, который этим занимается. Чтобы вирусу встроиться в геном, у него должно быть два гена: 1) обратная транскриптаза для перевода РНК в ДНК и 2) интеграза, кодирующая белок который встраивает свежесделанную вирусную ДНК в геном." / Twitter]]
+* TODO [2021-01-16] [[https://twitter.com/OlgaVPettersson/status/1350337989134659584][(1) Olga V. Pettersson on Twitter: "Балтимор, в 70х, открыл вирусный механизм, который этим занимается. Чтобы вирусу встроиться в геном, у него должно быть два гена: 1) обратная транскриптаза для перевода РНК в ДНК и 2) интеграза, кодирующая белок который встраивает свежесделанную вирусную ДНК в геном." / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmlgvpttrssnsttslgvнуювируснуюднквгеномtwttr
 :END:
 : Чтобы вирусу встроиться в геном, у него должно быть два гена: 1) обратная транскриптаза для перевода РНК в ДНК и 2) интеграза, кодирующая белок который встраивает свежесделанную вирусную ДНК в геном.
-* [#C] [2020-06-09] [[https://github.com/prathyvsh/formal-systems-in-biology][prathyvsh/formal-systems-in-biology: Application of formal systems to model biological systems]]
+* TODO [#C] [2020-06-09] [[https://github.com/prathyvsh/formal-systems-in-biology][prathyvsh/formal-systems-in-biology: Application of formal systems to model biological systems]]
 :PROPERTIES:
 :ID:       sgthbcmprthyvshfrmlsystmsfrmlsystmstmdlblgclsystms
 :END:
-* [2019-03-31] Пациент без головы: Научились ли хирурги восстанавливать перерезанный спинной мозг
+* [#C] [2019-03-31] Пациент без головы: Научились ли хирурги восстанавливать перерезанный спинной мозг
 :PROPERTIES:
 :ID:       пациентбезголовынаучилисьтьперерезанныйспинноймозг
 :END:
@@ -212,26 +177,27 @@ https://nplus1.ru/material/2019/03/28/head-transplantation
   : Сделавший ее хирург Кристиан Барнард неоднократно приезжал в лабораторию Демихова и впоследствии называл его своим учителем.
 - [2019-03-31]
   :  С этой проблемой Канаверо тоже предполагал справиться хирургическим путем — разрушив участок мозга, отвечающий за передачу эмоционального компонента боли, который и вызывает связанное с ней страдание
-* TODO B vs T immunity                                      :tostudy:biology:
-:PROPERTIES:
-:CREATED:  [2021-01-12]
-:ID:       bvstmmnty
-:END:
-* [#B] [2021-01-04] podcast: [Sean Carroll's Mindscape: Science, Society, Philosophy, Culture, Arts, and Ideas] 112 | Fyodor Urnov on Gene Editing, CRISPR, and Human Engineering https://podcastaddict.com/episode/111823121 via @PodcastAddict :biology:
+* DONE [#B] [2021-01-04] podcast: [Sean Carroll's Mindscape: Science, Society, Philosophy, Culture, Arts, and Ideas] 112 | Fyodor Urnov on Gene Editing, CRISPR, and Human Engineering https://podcastaddict.com/episode/111823121 via @PodcastAddict :biology:
 :PROPERTIES:
 :ID:       pdcstsncrrllsmndscpscncscspdcstddctcmpsdvpdcstddct
 :END:
+very cool podcast, the guy is super enthusiastic, pleasure to hear such people
 
-* TODO [#C] [2019-10-27] How Trees Bend the Laws of Physics - YouTube https://www.youtube.com/watch?v=BickMFHAZR0 :physics:biology:
+* [#B] [2019-03-29] [[https://www.youtube.com/watch?v=V9K6gjR07Po][The World in UV - YouTube]] :dna:
 :PROPERTIES:
-:ID:       hwtrsbndthlwsfphyscsytbswwwytbcmwtchvbckmfhzr
+:ID:       swwwytbcmwtchvvkgjrpthwrldnvytb
 :END:
-wonder what if you hack into the tubes and push the water? would it make trees grow higher?
+huh, apparently UV protective pigments are also inside the cells, around nucleus to protect DNA
 * [#B] [2021-01-11] [[https://berthub.eu/articles/posts/amazing-dna/][DNA seen through the eyes of a coder (or, If you are a hammer, everything looks like a nail) - Articles]]
 :PROPERTIES:
 :ID:       sbrthbrtclspstsmzngdndnsnyrhmmrvrythnglkslknlrtcls
 :END:
 
+* [#C] [2021-01-06] [[https://nplus1.ru/material/2020/07/02/why-theres-no-hiv-vaccine][Без вакцины]]
+:PROPERTIES:
+:ID:       snplsrmtrlwhythrsnhvvccnбезвакцины
+:END:
+: Ситуация осложняется тем, что после первого же промаха ружье можно выкидывать. Поскольку ВИЧ — ретровирус, он встраивает свои гены в ядерную ДНК. И вычеркнуть их оттуда мы уже не можем — по крайней мере, до сих пор не научились
 * [#C] [2020-12-26] [[https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/][Reverse Engineering the source code of the BioNTech/Pfizer SARS-CoV-2 Vaccine - Articles]]
 :PROPERTIES:
 :ID:       sbrthbrtclspstsrvrsngnrngthbntchpfzrsrscvvccnrtcls
@@ -244,25 +210,23 @@ wonder what if you hack into the tubes and push the water? would it make trees g
 :ID:       sbrthbrtclspstsdnthcdflfdnthcdflfrtcls
 :END:
 
-* [#D] [2019-02-14] Gene Engineering Kits - The ODIN
+* [#D] [2019-02-14] [[http://www.the-odin.com/gene-engineering-kits/][Gene Engineering Kits - The ODIN]]
 :PROPERTIES:
-:ID:       gnngnrngktsthdn
+:ID:       wwwthdncmgnngnrngktsgnngnrngktsthdn
 :END:
-http://www.the-odin.com/gene-engineering-kits/
 
-* [#D] [2019-02-14] Biohacker 101 Class - The ODIN
+* [#D] [2019-02-14] [[http://www.the-odin.com/biohacker-101-class/][Biohacker 101 Class - The ODIN]]
 :PROPERTIES:
-:ID:       bhckrclssthdn
+:ID:       wwwthdncmbhckrclssbhckrclssthdn
 :END:
-http://www.the-odin.com/biohacker-101-class/
 
-* [#D] [2019-12-07] The Deep Sea https://neal.fun/deep-sea
+* [#D] [2019-12-07] [[https://neal.fun/deep-sea][The Deep Sea]]
 :PROPERTIES:
-:ID:       thdpssnlfndps
+:ID:       snlfndpsthdps
 :END:
 : Meals are rare in the deep sea. Deep sea creatures have adapted to this - one Giant Isopod in captivity went five years without eating.
-* [#D] [2020-01-09] AFEW - Flora & Fauna https://atlas-for-the-end-of-the-world.com/flora_and_fauna.html
+* [#D] [2020-01-09] [[https://atlas-for-the-end-of-the-world.com/flora_and_fauna.html][AFEW - Flora & Fauna]]
 :PROPERTIES:
-:ID:       fwflrfnstlsfrthndfthwrldcmflrndfnhtml
+:ID:       stlsfrthndfthwrldcmflrndfnhtmlfwflrfn
 :END:
 :  The guide presents a catalogue of curious creatures and life-forms that have evolved in often unexpected ways to cope with the stresses and pressures of a changed world.

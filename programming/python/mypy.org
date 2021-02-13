@@ -472,3 +472,9 @@ http://calpaterson.com/mypy-hints.html
 :PROPERTIES:
 :ID:       sttcllytypdrrrhndlngnpythllytypdrrrhndlngnpythnsng
 :END:
+* TODO [#D] hmm, aliases aren't working with new annotations? ~Rows = list[list[str]]~ :mypy:
+:PROPERTIES:
+:CREATED:  [2021-02-02]
+:ID:       hmmlssrntwrkngwthnwnnttnsrwslstlststr
+:END:
+: TypeError: 'type' object is not subscriptable

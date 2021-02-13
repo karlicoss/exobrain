@@ -61,3 +61,16 @@ https://gist.github.com/andyshinn/3ae01fa13cb64c9d36e7
 :  horrifying. I wake up at 6:30am with no alarm because I just do. I grab my phone to look at facebook while I take a dump. Its probably not charged and the battery is at 5% and the screen is too dim to read. So I sit it on the floor and read the back of a misc bottle on the sink. I plug in my phone and spend the next 2 hours drinking coffee and playing candy crush, facebook and reddit on my ipad (unless I forgot to charge that too) or my laptop. Eventually I decide to go to work. I might plug my phone into the radio using the headphone jack or I might just listen to music on radio, or NPR. Either way I drive 10 minutes to work while not thinking at all about whether I have to send an email. I'm probably thinking about boobs.
 :  I get to work and do whatever I want, respond to a bunch of emails, ignore some others, work some on my manuscripts, teach a class. Maybe look at my phone once to see if I got a text. Go home when I feel like it. Listen to radio on way home. Put my phone down somewhere once I'm there and forget to charge it. Drink beer and watch old eps of Louis C.K. and fuck my wife (edit: or wait until she's asleep and take my phone into the bathroom to jerk it to some vid on beeg.com).
 :  repeat.
+* TODO [#B] OnePlus 6 and OnePlus 6T seeing work for mainline Linux kernel support :android:
+:PROPERTIES:
+:CREATED:  [2021-01-30]
+:ID:       nplsndnplstsngwrkfrmnlnlnxkrnlspprt
+:END:
+
+: OnePlus 6 and OnePlus 6T seeing work for mainline Linux kernel support - https://news.ycombinator.com/item?id=25969614
+
+* [#C] [2021-01-31] SQLiteViewer ugh didn't work, just displayed blank when opening file
+:PROPERTIES:
+:ID:       sqltvwrghddntwrkjstdsplydblnkwhnpnngfl
+:END:
+: SQLiteViewer (A simple SQLite database viewer) - https://f-droid.org/packages/com.orpheusdroid.sqliteviewer

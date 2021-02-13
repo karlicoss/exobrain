@@ -177,3 +177,8 @@ solution is git config core.worktree $HOME
 :PROPERTIES:
 :ID:       snwspnssrgmngdtflswthgtmngyrdtflswthgtpnssnws
 :END:
+* [#B] [2020-05-26] [[https://joeyates.info/2018/12/16/dotfiles/][Dotfiles - Joe Yates' Blog]] :git:dotfiles:
+:PROPERTIES:
+:ID:       sjytsnfdtflsdtflsjytsblg
+:END:
+very similal to how I manage it -- the git based approach is super simple, portable and predictable
