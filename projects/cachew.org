@@ -534,3 +534,11 @@ Maybe, set the attribute to the function? Seems good enough?
 :CREATED:  [2020-12-19]
 :ID:       hdtcncchwhmmm
 :END:
+
+* TODO [#A] use appdirs                                              :cachew:
+:PROPERTIES:
+:CREATED:  [2021-02-14]
+:ID:       sppdrs
+:END:
+- maybe allow using app specific subcaches?
+  e.g. make_cachew(prefix='my')

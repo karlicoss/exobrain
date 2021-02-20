@@ -112,3 +112,24 @@ started compressing reddit...
 :PROPERTIES:
 :ID:       2965_3003
 :END:
+* TODO [#B] should be possible to handle?              :bleanser:bluemaestro:
+:PROPERTIES:
+:CREATED:  [2021-02-12]
+:ID:       shldbpssblthndl
+:END:
+maybe if containes the other database completely....
+* TODO [#C] generic sqlite databases export                        :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-02-11]
+:ID:       gnrcsqltdtbssxprt
+:END:
+- do not remove; move to killzone
+- get all tables
+- make sure all schemas match
+- maybe convert it to json or something? and then compare jsons...
+- checks that entries are dominated?
+* TODO [#B] hmm. they serve sort of the same purpose??? :bleanser:backupchecker:
+:PROPERTIES:
+:CREATED:  [2021-02-11]
+:ID:       hmmthysrvsrtfthsmprps
+:END:

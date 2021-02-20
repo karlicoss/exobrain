@@ -94,7 +94,7 @@ mind the space after colon!
 :PROPERTIES:
 :ID:       sndbxng
 :END:
-** docker is excellent for quick sandboxes (just use ~ubuntu:latest~ image or something)
+** docker is excellent for quick sandboxes (just use ~ubuntu:latest~ image or something) :docker:
 :PROPERTIES:
 :ID:       dckrsxcllntfrqcksndbxsjstsbntltstmgrsmthng
 :END:
@@ -129,7 +129,7 @@ mind the space after colon!
 
 * -----------------------------------------
 :PROPERTIES:
-:ID:       2045_2090
+:ID:       2054_2099
 :END:
 
 * [#C] [2018-06-08] Linux ignores the setuid bit on all interpreted executables (i.e. executables starting with a ~#!~ line).
@@ -165,5 +165,5 @@ https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
 
 * -------------------------------------------
 :PROPERTIES:
-:ID:       3687_3733
+:ID:       3696_3742
 :END:

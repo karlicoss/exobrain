@@ -239,3 +239,9 @@ A bit insane (or is it?). But worth going through the biomarkers tests, etc, mig
 :PROPERTIES:
 :ID:       sgthbcmssxqntfdslfrprtsssxqntfdslfrprts
 :END:
+
+* TODO [#B] questions i want answered: can i have a smart alarm that actually works? Like, detects hrv or sleep phase or something and wakes me up? :qs:sleep:
+:PROPERTIES:
+:CREATED:  [2021-02-08]
+:ID:       qstnswntnswrdcnhvsmrtlrmtshrvrslpphsrsmthngndwksmp
+:END:

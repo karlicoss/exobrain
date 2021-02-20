@@ -694,3 +694,8 @@ https://www.reddit.com/r/explainlikeimfive/comments/6rns4x/eli5_why_does_blue_li
 
 
 http://en.wikipedia.org/wiki/Alcohol_use_and_sleep
+* TODO [#C] process raw capture and do some sort of fourier? :emfit:hr:sleep:
+:PROPERTIES:
+:CREATED:  [2021-02-14]
+:ID:       prcssrwcptrnddsmsrtffrr
+:END:

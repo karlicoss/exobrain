@@ -499,7 +499,7 @@ https://www.freedesktop.org/software/systemd/man/systemd.service.html
 :ID:       snwsycmbntrcmtmddlylfwththfflnlptp
 :END:
 https://dataswamp.org/~solene/2020-02-18-offline-laptop-v2.html
-* [#B] [2019-11-26] Is it possible to escalate privileges and escaping from a Docker container? - Information Security Stack Exchange
+* [#B] [2019-11-26] Is it possible to escalate privileges and escaping from a Docker container? - Information Security Stack Exchange :docker:
 :PROPERTIES:
 :ID:       stpssbltscltprvlgsndscpngcntnrnfrmtnscrtystckxchng
 :END:
@@ -835,3 +835,9 @@ or maybe put them in clusters? so they are aligned vertically
 :CREATED:  [2021-02-02]
 :ID:       ghdfndjshghlghtrsmthng
 :END:
+* TODO [#C] sync paranoid -- detect rust/python/etc                   :cloud:
+:PROPERTIES:
+:CREATED:  [2021-02-08]
+:ID:       syncprnddtctrstpythntc
+:END:
+generally 'big directories with binaries/object files'?

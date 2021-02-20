@@ -1017,3 +1017,8 @@ https://github.com/ScriptSmith/socialreaper
 :PROPERTIES:
 :ID:       ksmstbsngrlpssvrllmskptclbttsgtncpnlfrtkns
 :END:
+* TODO [#B] pruning -- for now via sqlitedbbrowser? make sure it locks the db? :axol:
+:PROPERTIES:
+:CREATED:  [2021-02-09]
+:ID:       prnngfrnwvsqltdbbrwsrmksrtlcksthdb
+:END:

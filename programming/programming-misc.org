@@ -855,7 +855,7 @@ https://www.reddit.com/r/cpp/comments/9cndcr/lldb_now_supports_syntax_highlighti
 :ID:       strylbscmblgtppythnlbrrsflbrrsfyshldknwbttrylbsblg
 :END:
 : PrettyErrors does only one thing and does it well. In terminals that support colored output, it transforms the cryptic stack traces into something that is much better suited for parsing with our puny human eyes. No more scanning the entire screen to find the culprit of your exception… You can now find it at a glance!
-* [#A] [2020-06-10] [[https://news.ycombinator.com/item?id=23475225][Create diagrams with code using Graphviz | Hacker News]] :viz:
+* [#A] [2020-06-10] [[https://news.ycombinator.com/item?id=23475225][Create diagrams with code using Graphviz | Hacker News]] :graphviz:viz:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdcrtdgrmswthcdsnggrphvzhckrnws
 :END:
@@ -1559,3 +1559,16 @@ relevant to configs-suck
 :ID:       stypsplvdsh
 :END:
 : vdash@types.pl - Subtyping is good, state is fine when used with care, inheritance is a Bad Plan, composition is a Good Plan, algebraic datatypes are objectively morally correct. I can't think of any more takes
+
+* TODO [#B] developing under windows...                             :windows:
+:PROPERTIES:
+:CREATED:  [2021-02-16]
+:ID:       dvlpngndrwndws
+:END:
+- chocolatey
+- vs code
+- git + can use bash inside git
+* [#B] [2021-02-16] always use TEXT; STRING does implicit type conversions :sqlite:
+:PROPERTIES:
+:ID:       lwysstxtstrngdsmplcttypcnvrsns
+:END:

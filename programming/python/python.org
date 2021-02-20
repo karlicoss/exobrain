@@ -1885,3 +1885,8 @@ shit. I guess this explains why it was finding mypkgs...
 :ID:       spyfndblgsptcmthpthfrwrdffrwrdfrtypngpythnlnggsmmt
 :END:
 : Thanks to this PEP, types which had been defined like List[int] can now be spelled list[int], with a lowercase "L". As Van Rossum told the Python Language Summit, "We want to avoid a world where users have to remember, 'Here I have to use a capital-L List and here I use a lowercase-L list.'"
+* [#C] [2021-02-14] ok, naming test modules the same as originals doesn't end up well... :python:
+:PROPERTIES:
+:ID:       knmngtstmdlsthsmsrgnlsdsntndpwll
+:END:
+e.g. when I was writing ~pytest tests/core/test_pandas.py~ vs ~pytest tests/core/pandas.py~

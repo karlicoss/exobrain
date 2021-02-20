@@ -1315,9 +1315,13 @@ maybe run the original data retrieval? not sure
 :CREATED:  [2020-07-25]
 :ID:       lwyskptbrnnngnnfrmydsktpsrpnnd
 :END:
-* TODO [#C] [2019-04-06] shit. influxdb seems to be very unsuitable for the kind of thing I want. also very awkward to render dashboards...
+* [#C] [2019-04-06] shit. influxdb seems to be very unsuitable for the kind of thing I want. also very awkward to render dashboards... :influxdb:
 :PROPERTIES:
 :ID:       shtnflxdbsmstbvrynstblfrtwntlsvrywkwrdtrndrdshbrds
+:END:
+** [2021-02-13] hmm I guess what I meant is that it's for aggregate data only, and a bit awkwards to explore by-point data?
+:PROPERTIES:
+:ID:       hmmgsswhtmntsthttsfrggrgtnlyndbtwkwrdstxplrbypntdt
 :END:
 * STRT [#C] I really want proper and fast location history..       :location:
 :PROPERTIES:
