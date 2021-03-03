@@ -1890,3 +1890,52 @@ shit. I guess this explains why it was finding mypkgs...
 :ID:       knmngtstmdlsthsmsrgnlsdsntndpwll
 :END:
 e.g. when I was writing ~pytest tests/core/test_pandas.py~ vs ~pytest tests/core/pandas.py~
+* [#C] [2021-02-09] [[https://stackoverflow.com/questions/128573/using-property-on-classmethods][python - Using property() on classmethods - Stack Overflow]]
+:PROPERTIES:
+:ID:       sstckvrflwcmqstnssngprprtprprtynclssmthdsstckvrflw
+:END:
+: Python 3.9 2020 UPDATE
+: You can just use them together (taken from the 3.9 docs):
+: class G:
+:     @classmethod
+:     @property
+:     def __doc__(cls):
+:         return f'A doc for {cls.__name__!r}'
+: 
+* [#B] [2021-02-10] [[https://news.ycombinator.com/item?id=26090243][Web Scraping 101 with Python | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdwbscrpngwthpythnhckrnws
+:END:
+:     import pandas as pd
+:     dfs = pd.read_html(url)
+
+wow. can scrape off table elements?
+* TODO [#C] --system-site-packages?                                    :pipx:
+:PROPERTIES:
+:CREATED:  [2021-02-17]
+:ID:       systmstpckgs
+:END:
+* TODO [#C] strptime idea -- cache time string and somehow speed up? :python:
+:PROPERTIES:
+:CREATED:  [2021-02-24]
+:ID:       strptmdcchtmstrngndsmhwspdp
+:END:
+could be like re.Pattern, or with automatic cache?
+* TODO [#B] hmm, maybe possible to self-pack minimal package in setup.py? could work... :python:
+:PROPERTIES:
+:CREATED:  [2021-03-03]
+:ID:       hmmmybpssbltslfpckmnmlpckgnstppycldwrk
+:END:
+* [#C] [2021-02-23] [[https://github.com/Tiendil/smart-imports][Tiendil/smart-imports: smart imports for Python]] :python:
+:PROPERTIES:
+:ID:       sgthbcmtndlsmrtmprtstndlsmrtmprtssmrtmprtsfrpythn
+:END:
+* [#C] [2021-02-21] [[https://github.com/djrobstep/logx#list-of-sweet-features][djrobstep/logx: best practice, zero config python logging]] :python:logging:
+:PROPERTIES:
+:ID:       sgthbcmdjrbstplgxlstfswtfxbstprctczrcnfgpythnlggng
+:END:
+reasonable list (aka why python logging sucks by default)
+* [#C] [2021-02-23] [[file:/usr/share/doc/python3/html/library/textwrap.html][textwrap — Text wrapping and filling — Python 3.8.5 documentation]]
+:PROPERTIES:
+:ID:       flsrshrdcpythnhtmllbrrytxwrppngndfllngpythndcmnttn
+:END:

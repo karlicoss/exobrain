@@ -245,3 +245,33 @@ A bit insane (or is it?). But worth going through the biomarkers tests, etc, mig
 :CREATED:  [2021-02-08]
 :ID:       qstnswntnswrdcnhvsmrtlrmtshrvrslpphsrsmthngndwksmp
 :END:
+
+* [2021-02-06] [[https://en.wikipedia.org/wiki/Cooper_test][Cooper test - Wikipedia]] :qs:vo2:
+:PROPERTIES:
+:ID:       snwkpdrgwkcprtstcprtstwkpd
+:END:
+: The results can be correlated with VO2 Max.
+
+max distance ran in 12 mins
+* TODO [#C] [2021-01-31] [[https://strengthlevel.com/][Strength Level - Weightlifting Calculator (Bench/Squat/Deadlift)]] :wledger:
+:PROPERTIES:
+:ID:       sstrngthlvlcmstrngthlvlwghtlftngclcltrbnchsqtddlft
+:END:
+* TODO [#B] Correlate sleep with rescuetime/arbtt data?            :qs:sleep:
+:PROPERTIES:
+:CREATED:  [2020-10-24]
+:ID:       crrltslpwthrsctmrbttdt
+:END:
+
+Generally correlate time before asleep?
+
+* TODO [#B] Heat plot hr at specific hour + sunrise                :qs:sleep:
+:PROPERTIES:
+:CREATED:  [2020-10-27]
+:ID:       htplthrtspcfchrsnrs
+:END:
+
+* TODO [#C] [2021-02-06] [[https://forum.quantifiedself.com/t/new-oura-vs-emfit-qs/4899][New Oura vs Emfit QS? - Quantified Self Forum]] :emfit:sleep:oura:
+:PROPERTIES:
+:ID:       sfrmqntfdslfcmtnwrvsmftqsnwrvsmftqsqntfdslffrm
+:END:

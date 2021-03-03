@@ -2144,3 +2144,7 @@ highlight
 - plot the data
 - want to find out the correlation with other things
 - autocorrelation + fft analysis then
+* TODO [#C] [2021-02-08] [[https://dailyvis.com/posts/quantified-self-why-i-track-my-life-in-data/][Quantifying the self - Why I track 80 metrics about my life every day]]
+:PROPERTIES:
+:ID:       sdlyvscmpstsqntfdslfwhytrlfwhytrckmtrcsbtmylfvrydy
+:END:

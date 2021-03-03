@@ -16,7 +16,7 @@
 : If you like hard sci-fi, Greg Egan has a written a few books that cover what life would be like if there were 2 dimensions of time (http://www.gregegan.net/DICHRONAUTS/DICHRONAUTS.html) or if the dimension of time was sumed instead of subtracted when measuring distance (http://www.gregegan.net/ORTHOGONAL/ORTHOGONAL.html)
 : It's amazing to think how the universe is ruled by such minute details.
 
-* START [#C] PAC learning                                                :ml:
+* STRT [#C] PAC learning                                                 :ml:
 :PROPERTIES:
 :CREATED:  [2019-02-07]
 :ID:       pclrnng

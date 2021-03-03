@@ -388,3 +388,8 @@ also use with-current-buffer and a separate buffer -- oftern much easier than re
 :CREATED:  [2021-02-06]
 :ID:       tryfndngthwttknthchrctrfstrng
 :END:
+* [#C] [2021-02-06] [[https://emacs.stackexchange.com/questions/8261/how-to-determine-if-the-current-character-is-a-letter][elisp - How to determine if the current character is a letter - Emacs Stack Exchange]] :elisp_sucks:
+:PROPERTIES:
+:ID:       smcsstckxchngcmqstnshwtdtntchrctrslttrmcsstckxchng
+:END:
+: n case you were very concerned about national characters and precise treatment of Unicode character classes, then the only solution I was able to find so far is the Python regex library. Both grep and Perl (to my utter surprise!) didn't do the job properly.

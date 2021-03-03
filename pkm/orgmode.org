@@ -1333,3 +1333,42 @@ although maybe easier to emulate with [[ links?
 :PROPERTIES:
 :ID:       ltrtthrmprvngwthrgschmcwrtpsrgcqpsthtml
 :END:
+
+* TODO [#C] Tecos config? Maintainer of org site                        :org:
+:PROPERTIES:
+:CREATED:  [2021-02-20]
+:ID:       tcscnfgmntnrfrgst
+:END:
+
+He's the maintainer for the org-mode website now so he knows whereof he speaks
+
+* TODO [#B] use files as todos? have a crawler go through them and put in a special tasklist :org:
+:PROPERTIES:
+:CREATED:  [2021-02-08]
+:ID:       sflsstdshvcrwlrgthrghthmndptnspcltsklst
+:END:
+e.g. if it contains TODO, enough already and maybe also parse tags (and timestamp?)
+- not sure about scheduling it?
+- maybe use queue -- unique id (file hash?) need to be careful with empty files though
+- voit must have something
+** STRT @publicvoit@graz.social thought you'd be a kind of person who knows it -- is there some existing tool to crawl the filesystem and maintain an org-mode file with todos corresponding to files matching a certain pattern?
+:PROPERTIES:
+:ID:       pblcvtgrzsclthghtydbkndfpspndngtflsmtchngcrtnpttrn
+:END:
+My usecase is that I often put TODO in screenshots of bugs, ideas for possible features etc; often on my phone so using [file:] links is not so convenient (+ I tend to move files around)
+* TODO [#C] implement a tool for 'reviewing' tasks?                     :org:
+:PROPERTIES:
+:CREATED:  [2021-02-09]
+:ID:       mplmnttlfrrvwngtsks
+:END:
+do in python
+- go by priority/oldest created/etc
+- exclude some tags?
+- keep state (use some simple SR algo?)
+  just use hash of the heading? seems quite enough
+- jump to the file/line via mimemacs?
+* TODO [#C] hmm wonder if possible to display org stuff on remarkable? at least reflect views? and exobrain? :remarkable:org:
+:PROPERTIES:
+:CREATED:  [2021-02-20]
+:ID:       hmmwndrfpssbltdsplyrgstffnrmrkbltlstrflctvwsndxbrn
+:END:

@@ -325,3 +325,40 @@ https://jeffhuang.com/designed_to_last/
 :PROPERTIES:
 :ID:       rchvngrlshckrnwssnwsycmbntrcmtmd
 :END:
+* [#C] [2021-02-25] [[https://en.wikipedia.org/wiki/Wikipedia:Database_download][Wikipedia:Database download - Wikipedia]] :wikipedia:
+:PROPERTIES:
+:ID:       snwkpdrgwkwkpddtbsdwnldwkpddtbsdwnldwkpd
+:END:
+: pages-articles-multistream.xml.bz2 – Current revisions only, no talk or user pages; this is probably what you want, and is approximately 18 GB compressed (expands to over 78 GB when decompressed).
+* TODO [#C] ugh. image preservation is a mess...       :wikipedia:webarchive:
+:PROPERTIES:
+:CREATED:  [2021-02-25]
+:ID:       ghmgprsrvtnsmss
+:END:
+* [2021-02-25] [[https://en.wikipedia.org/wiki/Wikipedia:Database_download][Wikipedia:Database download - Wikipedia]]
+:PROPERTIES:
+:ID:       snwkpdrgwkwkpddtbsdwnldwkpddtbsdwnldwkpd
+:END:
+: pages-articles.xml.bz2 and pages-articles-multistream.xml.bz2 both contain the same xml contents. So if you unpack either, you get the same data. But with multistream, it is possible to get an article from the archive without unpacking the whole thing.
+* STRT [#C] [2021-02-25] [[https://wiki.kiwix.org/wiki/Main_Page][Main Page - Kiwix]] :prepping:wikipedia:
+:PROPERTIES:
+:ID:       swkkwxrgwkmnpgmnpgkwx
+:END:
+
+* [#C] [2021-02-25] [[https://www.reddit.com/r/DataHoarder/comments/khjv59/the_full_english_wikipedia_on_kiwix_now_weighs/ggm8ijt/][jeharu comments on The full English Wikipedia on Kiwix now weighs 79Gb instead of 94Gb thanks to improvements in image compression]] :kiwix:prepping:
+:PROPERTIES:
+:ID:       swwwrddtcmrdthrdrcmmntskhbthnkstmprvmntsnmgcmprssn
+:END:
+: [–]jeharu54TB 46 points 2 months ago
+: no support yet for incremental updating, right? bummer.
+: 
+:     permalinkembedsavereportgive awardreply
+: [–]The_other_kiwix_guy[S] 66 points 2 months ago
+: We've started working on a prototype but that'll take time and a lot more money than we have. Would not expect anything before another 2-3 years.
+
+hm okay sad.. guess I can do a backup per year or smth for now
+* [2021-02-25] [[https://en.wikipedia.org/wiki/Wikipedia:Database_download][Wikipedia:Database download - Wikipedia]]
+:PROPERTIES:
+:ID:       snwkpdrgwkwkpddtbsdwnldwkpddtbsdwnldwkpd
+:END:
+: The only downside to multistream is that it is marginally larger

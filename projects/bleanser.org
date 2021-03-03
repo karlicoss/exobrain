@@ -133,3 +133,26 @@ maybe if containes the other database completely....
 :CREATED:  [2021-02-11]
 :ID:       hmmthysrvsrtfthsmprps
 :END:
+* TODO [#B] maybe 'dynamic' optimizer for bleanser? and later can  use it to actually delete stuff :hpi:
+:PROPERTIES:
+:CREATED:  [2021-02-24]
+:ID:       mybdynmcptmzrfrblnsrndltrcnsttctllydltstff
+:END:
+** [2021-03-02] I guess HPI could import it as a dependency..
+:PROPERTIES:
+:ID:       gsshpcldmprttsdpndncy
+:END:
+* TODO [#C] github events via triples would be a good example      :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-02-21]
+:ID:       gthbvntsvtrplswldbgdxmpl
+:END:
+* TODO [#C] [2021-03-02] [[https://pypi.org/search/?q=pruny][Search results · PyPI]] :bleanser:
+:PROPERTIES:
+:ID:       spyprgsrchqprnysrchrsltspyp
+:END:
+could name like this...
+* [#C] [2021-02-27] [[https://github.com/trailofbits/graphtage][trailofbits/graphtage: A semantic diff utility and library for tree-like files such as JSON, JSON5, XML, HTML, YAML, and CSV.]] :bleanser:
+:PROPERTIES:
+:ID:       sgthbcmtrlfbtsgrphtgtrlfbschsjsnjsnxmlhtmlymlndcsv
+:END:

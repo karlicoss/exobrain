@@ -841,3 +841,43 @@ or maybe put them in clusters? so they are aligned vertically
 :ID:       syncprnddtctrstpythntc
 :END:
 generally 'big directories with binaries/object files'?
+* [2021-01-08] [[https://github.com/ddvk/remarkable-hacks][ddvk/remarkable-hacks: additional functionality via binary patching]]
+:PROPERTIES:
+:ID:       sgthbcmddvkrmrkblhcksddvksddtnlfnctnltyvbnryptchng
+:END:
+
+* [#C] [2021-02-15] [[https://scoop.sh/][Scoop]]                    :windows:
+:PROPERTIES:
+:ID:       sscpshscp
+:END:
+
+* TODO [#B] [2021-02-20] [[https://rgoswami.me/posts/my-life-in-eink/][My Life in E-ink :: Rohit Goswami — Reflections]]
+:PROPERTIES:
+:ID:       srgswmmpstsmylfnnkmylfnnkrhtgswmrflctns
+:END:
+
+* TODO [#C] [2021-02-20] [[https://ebooks.stackexchange.com/questions/7607/how-to-install-koreader-on-kobo-aura-one?newreg=3699a07edc4c42878d6e866076e1b223][pdf - How to install KOReader on Kobo Aura ONE - Ebooks Stack Exchange]]
+:PROPERTIES:
+:ID:       sbksstckxchngcmqstnshwtnsstllkrdrnkbrnbksstckxchng
+:END:
+
+* [#C] [2021-02-24] [[https://rudd-o.com/linux-and-free-software/setting-up-a-mail-server-using-postfix-in-5-minutes][Setting up a mail server using Postfix in 5 minutes — Rudd-O.com]]
+:PROPERTIES:
+:ID:       srddcmlnxndfrsftwrsttngpmpmlsrvrsngpstfxnmntsrddcm
+:END:
+
+* TODO [#C] [2021-02-20] [[https://github.com/koreader/koreader/wiki/Installation-on-ReMarkable][Installation on ReMarkable · koreader/koreader Wiki]] :remarkable:
+:PROPERTIES:
+:ID:       sgthbcmkrdrkrdrwknstlltnnlnstlltnnrmrkblkrdrkrdrwk
+:END:
+
+* TODO [#C] [2021-02-20] [[https://rgoswami.me/posts/my-life-in-eink/][My Life in E-ink :: Rohit Goswami — Reflections]] :kobo:
+:PROPERTIES:
+:ID:       srgswmmpstsmylfnnkmylfnnkrhtgswmrflctns
+:END:
+: Koreader is probably the best thing to happen to e-ink devices since sliced bread. It replaces the need to use any cables with an e-reader; since newer versions have a nice SSH server, and can also update itself.
+* [#C] [2021-02-09] [[https://discord.com/channels/708122962422792194/714804822909517935][#💪-v1-self-hosted]] :cloud:
+:PROPERTIES:
+:ID:       sdscrdcmchnnlsvslfhstd
+:END:
+: 2) Another is to use a filesync service like Syncthing/Dropbox (no server), and append all transactions to a log file or directory. Then sync and recreate the db from these transaction logs

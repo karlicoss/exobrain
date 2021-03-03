@@ -360,3 +360,17 @@ good setting design with system defaults (readonly) and user preferences on the 
 https://datasette.readthedocs.io/en/stable/getting_started.html#glitch
 : Try Datasette without installing anything using Glitch
 : Glitch is a free online tool for building web apps directly from your web browser. You can use Glitch to try out Datasette without needing to install any software on your own computer.
+* [#C] [2021-02-13] [[https://archive.docs.influxdata.com/influxdb/v1.2/administration/config/#enabled-false][Database Configuration | InfluxData Documentation Archive]] :hpi:
+:PROPERTIES:
+:ID:       srchvdcsnflxdtcmnflxdbvdmscnfgrtnnflxdtdcmnttnrchv
+:END:
+: [admin]
+: Controls the availability of the built-in, web-based admin interface.
+:     Note: The Admin UI is deprecated as of InfluxDB 1.2.
+: enabled = false
+: Set to true to enable the admin interface.
+: 
+: Environment variable: INFLUXDB_ADMIN_ENABLED
+
+I guess it's a good pattern?
+e.g. split env variable by _ and bind to code

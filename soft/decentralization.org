@@ -276,3 +276,21 @@ some 'decentralised github' projects
 :ID:       stwttrcmgzlsttsgzlntwttrtprvdsltrntvntrctnmdltwttr
 :END:
 : This might be a good moment to highlight how https://delta.chat innovates email. Instead of walled garden it introduces overly protocol improving security of existing email infrastructure and provides alternative interaction model.
+* DONE [#B] A Decentralized Web Primer: Dat | Lobsters           :federation:
+:PROPERTIES:
+:CREATED:  [2020-01-10]
+:ID:       dcntrlzdwbprmrdtlbstrs
+:END:
+https://lobste.rs/s/la8hpt/decentralized_web_primer_dat#c_kxmozz
+: Does anybody know of a good article comparing dat, ipfs, and scuttlebutt? and optionally any other contenders? Including practical aspects, such as
+
+* TODO [#C] [2021-02-07] [[https://wiki.p2pfoundation.net/Self-Sovereign_Identity][Self-Sovereign Identity - P2P Foundation]]
+:PROPERTIES:
+:ID:       swkppfndtnntslfsvrgndnttyslfsvrgndnttyppfndtn
+:END:
+
+* TODO [#C] [2021-02-05] [[https://satellite.earth/][Satellite]]
+:PROPERTIES:
+:ID:       sstlltrthstllt
+:END:
+: Utilizing digital signatures, peer-to-peer networks, and a content-surfacing algorithm designed to reward publishers who find common ground, Satellite is a new take on what a social platform can be.

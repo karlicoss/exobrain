@@ -168,3 +168,10 @@ small tutorial for hacking on emacs?
 :ID:       bbtsvmcslspstylgdcmmntydrvnmcslspstylgd
 :END:
 https://github.com/bbatsov/emacs-lisp-style-guide
+
+* [#C] [2021-02-09] [[https://www.youtube.com/watch?v=XjKtkEMUYGc&list=WL&index=63][(8) Writing A Spotify Client in 16 Minutes - YouTube]] :elisp:
+:PROPERTIES:
+:ID:       swwwytbcmwtchvxjktkmygclsndxwrtngsptfyclntnmntsytb
+:END:
+I mean.. ok, but nothing super remarkable idk?
+should do a similar demo in python, for example

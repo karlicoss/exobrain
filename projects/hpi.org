@@ -83,7 +83,7 @@ wow, that looks quite elaborate and cool!
 :PROPERTIES:
 :ID:       rdprtyntgrtns
 :END:
-** TODO [#B] demo: def need demonstration with Memacs...             :memacs:
+** STRT [#B] demo: def need demonstration with Memacs...             :memacs:
 :PROPERTIES:
 :CREATED:  [2020-04-24]
 :ID:       dmdfnddmnstrtnwthmmcs
@@ -548,6 +548,11 @@ https://github.com/twintproject/twint/issues/786
 :ID:       thfckftrbtthtmstmpsfrndvdlmsrmntsbscllystppdpdtng
 :END:
 wtf?????
+** TODO [#C] [2021-02-04] [[https://github.com/seanbreckenridge/discord_data][seanbreckenridge/discord_data: Library to parse messages/activity from the discord data export]] :discord:hpi:
+:PROPERTIES:
+:ID:       sgthbcmsnbrcknrdgdscrddtsssgsctvtyfrmthdscrddtxprt
+:END:
+
 * [#B] * improving testing & CI
 :PROPERTIES:
 :ID:       mprvngtstngc
@@ -726,7 +731,7 @@ need to test behaviour w.r.t order of running local install?
 :CREATED:  [2020-07-26]
 :ID:       gtrdfndvdlcchpthsthrsnpntnthmrlly
 :END:
-* TODO [#B] rename mcachew to cachew?? so it's less confusing        :cachew:
+* TODO [#C] rename mcachew to cachew?? so it's less confusing        :cachew:
 :PROPERTIES:
 :CREATED:  [2020-09-14]
 :ID:       rnmmcchwtcchwstslsscnfsng
@@ -1185,3 +1190,111 @@ e.g. depending on the 'aspects' the data provider has, would be different plots/
 :CREATED:  [2021-02-12]
 :ID:       mybldlltpstgrswldlswrkncwthcchw
 :END:
+* TODO [#C] pattern: avoid importing config early so modules can work without it? :hpi:
+:PROPERTIES:
+:CREATED:  [2021-02-21]
+:ID:       pttrnvdmprtngcnfgrlysmdlscnwrkwthtt
+:END:
+
+Add an example, maybe with dynamic my.config module
+
+* TODO [#B] Hpi to anki interface?                                  :hpi:srs:
+:PROPERTIES:
+:CREATED:  [2021-02-23]
+:ID:       hptnkntrfc
+:END:
+
+That way would be able to easily import and remember lots if tgings. Just need stable ids..
+
+* TODO [#B] def try redash, seems to be a 'free' interface??       :influxdb:
+:PROPERTIES:
+:CREATED:  [2021-02-12]
+:ID:       dftryrdshsmstbfrntrfc
+:END:
+* TODO [#C] update doc about using ~hpi install [--user] my.modulename~ :hpi:
+:PROPERTIES:
+:CREATED:  [2021-02-18]
+:ID:       pdtdcbtsnghpnstllsrmymdlnm
+:END:
+* TODO [#C] ok, guess I need to figure out a nice interface to connect to grafana? :grafana:hpi:
+:PROPERTIES:
+:CREATED:  [2021-02-12]
+:ID:       kgssndtfgrtncntrfctcnncttgrfn
+:END:
+* TODO [#C] upload stats; with coverage?                      :emfit:grafana:
+:PROPERTIES:
+:CREATED:  [2021-02-18]
+:ID:       pldsttswthcvrg
+:END:
+* [#C] [2021-02-23] [[https://tiendil.org/yet-another-tarantoga/][Yet another Тарантога]] :hpi:
+:PROPERTIES:
+:ID:       stndlrgytnthrtrntgytnthrтарантога
+:END:
+* TODO [#C] [2021-02-28] [[https://github.com/qnzl-archivist][Archivers]] :hpi:
+:PROPERTIES:
+:ID:       sgthbcmqnzlrchvstrchvrs
+:END:
+** [2021-02-28] [[https://archivist.qnzl.co/][Archivist - Prevent your content from disappearing]]
+:PROPERTIES:
+:ID:       srchvstqnzlcrchvstprvntyrcntntfrmdspprng
+:END:
+** [2021-02-28] [[https://github.com/qnzl-archivist/archivist][qnzl-archivist/archivist]]
+:PROPERTIES:
+:ID:       sgthbcmqnzlrchvstrchvstqnzlrchvstrchvst
+:END:
+
+* TODO [#C] [2021-02-27] [[https://news.ycombinator.com/upvoted?id=karlicoss][Upvoted submissions | Hacker News]] :hackernews:orger:hpi:
+:PROPERTIES:
+:ID:       snwsycmbntrcmpvtddkrlcsspvtdsbmssnshckrnws
+:END:
+
+* TODO [#C] [2021-02-15] [[https://twitter.com/InfluxDB][(6) InfluxData (@InfluxDB) / Twitter]] :hpi:publish:
+:PROPERTIES:
+:ID:       stwttrcmnflxdbnflxdtnflxdbtwttr
+:END:
+could tweet at them/grafana?
+* TODO [#C] [2021-02-11] [[https://blog.repl.it/alwayson][Repl.it - Hosting Apps with Always On]] :hpi:promnesia:computing:
+:PROPERTIES:
+:ID:       sblgrpltlwysnrplthstngppswthlwysn
+:END:
+: As a reminder, Replit gives you most of what you need to rapidly build and ship apps in the cloud -- at lightning speed:
+: 
+:     A blazing fast online IDE
+:     Automatic Package Management
+:     Automatic hosting
+:     Automatic SSL/HTTPS
+:     Domain linking
+:     A simple and fast Database for persistence
+:     A secure way to store secrets
+* TODO [#B] [2021-02-08] [[https://gitlab.com/bramw/baserow][Bram Wiepjes / baserow · GitLab]] :hpi:exobrain:
+:PROPERTIES:
+:ID:       sgtlbcmbrmwbsrwbrmwpjsbsrwgtlb
+:END:
+: Open source online database tool and Airtable alternative.
+* [#B] [2021-02-04] [[https://news.ycombinator.com/item?id=26018187][Apache Arrow 3.0 | Hacker News]] :hpi:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdpchrrwhckrnws
+:END:
+: Not only in between processes, but also in between languages in a single process. In this POC I spun up a Python interpreter in a Go process and pass the Arrow data buffer between processes in constant time. https://github.com/nickpoorman/go-py-arrow-bridge
+
+hmm would be pretty cool if possible to use
+* [#C] [2021-02-14] [[https://github.com/influxdata/influxdb-python][influxdata/influxdb-python: Python client for InfluxDB]] :influx:pandas:hpi:
+:PROPERTIES:
+:ID:       sgthbcmnflxdtnflxdbpythnnxdbpythnpythnclntfrnflxdb
+:END:
+: Additional dependencies are:
+:     pandas: for writing from and reading to DataFrames (http://pandas.pydata.org/
+
+hmm this is useful.. wonder if could benefit from it
+* TODO [#B] [2021-02-26] [[https://twitter.com/karlicoss/status/1365431101917978624][karlicoss (ex. jestem króliczkiem) on Twitter: "@nikitavoloboev I guess if I decide on some opinionated defaults it could just be a single container/VM (maybe you'd need to specify the path to data on disk and that's it). After that maybe people can decide whether they are happy with the defaults or are willing to tweak." / Twitter]] :hpi:dashboard:
+:PROPERTIES:
+:ID:       stwttrcmkrlcsssttskrlcssxththdfltsrrwllngttwktwttr
+:END:
+
+* TODO [#C] [2020-12-14] [[https://nitter.net/simonw/status/1338265856699035648][Simon Willison (@simonw): "sqlite-utils 3.1 adds a new command: sqlite-utils analyze-tables my.db It queries every column of every table and outputs useful statistics about them: https://sqlite-utils.readthedocs.io/en/stable/changelog.html#v3-1" | nitter]] :hpi:
+:PROPERTIES:
+:ID:       snttrntsmnwsttssmnwllsnsmthdcsnstblchnglghtmlvnttr
+:END:
+: sqlite-utils 3.1 adds a new command:
+:     sqlite-utils analyze-tables my.db
+: It queries every column of every table and outputs useful statistics about them

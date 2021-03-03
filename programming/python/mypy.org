@@ -478,3 +478,13 @@ http://calpaterson.com/mypy-hints.html
 :ID:       hmmlssrntwrkngwthnwnnttnsrwslstlststr
 :END:
 : TypeError: 'type' object is not subscriptable
+* [#C] [2021-02-11]  TypeVar to represent a Callable's arguments
+:PROPERTIES:
+:ID:       typvrtrprsntcllblsrgmnts
+:END:
+: PEP 612 (https://www.python.org/dev/peps/pep-0612/) ended up providing a similar feature. I think we can close this issue now.
+* [#C] [2021-02-19] [[https://mypy-lang.blogspot.com/2021/02/mypy-0812-released.html][The Mypy Blog: Mypy 0.812 Released]]
+:PROPERTIES:
+:ID:       smypylngblgsptcmmypyrlsdhtmlthmypyblgmypyrlsd
+:END:
+: Excluding Paths

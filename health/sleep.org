@@ -699,3 +699,33 @@ http://en.wikipedia.org/wiki/Alcohol_use_and_sleep
 :CREATED:  [2021-02-14]
 :ID:       prcssrwcptrnddsmsrtffrr
 :END:
+* TODO [#C] [2021-02-09] [[https://news.ycombinator.com/item?id=22686669][Anecdata: Have sleep apnea, so am interested in better sleep, and I'm hooked up ... | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdncdthvslpstdnbttrslpndmhkdphckrnws
+:END:
+: Anecdata: Have sleep apnea, so am interested in better sleep, and I'm hooked up to a CPAP machine which registers every breath I take. I've tried several devices (withings, 2 garmin smart watches and a fitbit), and quite frankly, the results have been appalling.
+: Some random observations:
+: * My latest garmin has an "SpO2" sensor. Which is basically a random number generator with red LED. When I compare the results with an actual on-finger SpO2 monitor, there is zero correlation.
+: * Both the fitbit and the garmins have mistaken masturbation for deep sleep. You would think that the wrist movement would be a clue to not being asleep, but no. Deep sleep.
+: * The deep sleep vs REM classification seems to be based more on time-of-day than on anything else. Apparently I always start my nights with a block of deep sleep, followed by an alternating pattern of light & REM. This is true even when I'm awake during this "deep sleep" malarky.
+: * My CPAP, on the other hand, is very useful for telling apart sleep & waking. Breathing rate becomes much more steady when asleep. I can see when I woke up, even if it's just for a few seconds while I change position.
+* TODO [#C] try SAD lamp?                                             :sleep:
+:PROPERTIES:
+:CREATED:  [2021-02-19]
+:ID:       trysdlmp
+:END:
+* TODO [#A] [2021-02-09] [[https://news.ycombinator.com/item?id=19209230][Two innovations have revolutionized my life—CPAP and Sleepyhead. I volunteered ... | Hacker News]] :sleep:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdtwnnvtnshfcppndslpyhdvlntrdhckrnws
+:END:
+: Two innovations have revolutionized my life—CPAP and Sleepyhead.
+: I volunteered to do a sleep study at the famous Stanford Sleep Clinic some 15 years ago hoping that they would tell me I’m superhuman and don’t need sleep. They came back and told me that I sleep very poorly.
+: CPAP machines are (finally) wonderful, but the manufacturers don’t share any of the data that their machines collect other than basics like hours slept. For those of us with the intellectual curiosity to actually double click on your sleep numbers, Mark’s work is invaluable. I have over 1,500 nights of sleep logged in Sleepyhead...I learned the perils of drinking wine with dinner, the value in tucking in at the same time every night, and which masks work best for me—just to name a few benefits.
+: I use sleep medicine to improve my life, the same way that I use a screwdriver to tighten screws—which is to say, I pay no attention to the sleep-apnea forums and I suspect most users are the same. I’m sharing all of this here in case Mark by chance frequents this forum—and hopefully if enough others like me discuss the value that this free product creates every night for so many millions of users, he may reconsider. I for one, would gladly pay for a Sleepyhead subscription if that meant continued support.
+
+hmm. wonder if I should do a sleep study..
+* [#C] [2021-02-08] [[https://forum.quantifiedself.com/t/oura-ring-vs-emfit-qs-my-detailed-comparison-what-do-you-think/8978][Oura ring vs. Emfit QS (My detailed comparison) - What do you think? - Quantified Self / Sports, Physical Activity, and Fitness - Quantified Self Forum]] :emfit:oura:sleep:
+:PROPERTIES:
+:ID:       sfrmqntfdslfcmtrrngvsmftqclctvtyndftnssqntfdslffrm
+:END:
+: Oura ring vs. Emfit QS (My detailed comparison) - What do you think?

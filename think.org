@@ -949,3 +949,19 @@ people who want (need?) to be locked in and nannied by the big corporations etc
 :CREATED:  [2021-01-31]
 :ID:       rmmbrncgntdnhghlghtngsmthhrsltssmwhrnthsdbrthrbffr
 :END:
+* TODO [#C] Hmm. Wonder if there is a way to implement artificial chemistry/proteins and simulate diffusion? :think:biology:
+:PROPERTIES:
+:CREATED:  [2021-02-28]
+:ID:       hmmwndrfthrswytmplmntrtfclchmstryprtnsndsmltdffsn
+:END:
+
+* TODO [#B] matching people with some skill to work on open projects :opensource:think:
+:PROPERTIES:
+:CREATED:  [2021-02-21]
+:ID:       mtchngpplwthsmsklltwrknpnprjcts
+:END:
+* TODO [#B] sponsors -- (auto?) route money for other projects :think:github:
+:PROPERTIES:
+:CREATED:  [2021-02-28]
+:ID:       spnsrstrtmnyfrthrprjcts
+:END:

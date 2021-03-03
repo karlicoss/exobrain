@@ -202,15 +202,17 @@ https://twitter.com/mekarpeles/status/1271226785439428608
 :ID:       sgthbcmppqtxcrrdmpppqtxcrdstrbtdprvtpplctnfrmwrk
 :END:
 : Exocore is a distributed applications framework with private and encrypted data storage. Think of like an infrastructure that allows a user to own his own personal cloud that is extensible via WebAssembly applications and accessible via Web/Mobile SDKs. It is designed to be resilient to failures, allow offline usage (ex: on mobile).
-* TODO ugh. it's still more convenient to use google location than any of my tools.. :memex:location:
+* TODO [#B] ugh. it's still more convenient to use google location than any of my tools.. :dashboard:grafana:memex:location:
 :PROPERTIES:
 :CREATED:  [2021-01-09]
 :ID:       ghtsstllmrcnvnnttsggllctnthnnyfmytls
 :END:
-* TODO [#C] [2021-01-21] [[https://github.com/steve-1820/memex][steve-1820/memex: A brief POC of what a Memex could potentially be.]] :memex:
+- [2021-02-22] to be fair I didn't really do much on it yet
+* DONE [#D] [2021-01-21] [[https://github.com/steve-1820/memex][steve-1820/memex: A brief POC of what a Memex could potentially be.]] :memex:
 :PROPERTIES:
 :ID:       sgthbcmstvmmxstvmmxbrfpcfwhtmmxcldptntllyb
 :END:
+ok, so it's more of a prototype at this point? and they are reinventing editor/annotation... not sure
 
 * [#B] [2020-01-08] [[https://github.com/samsquire/ideas][samsquire/ideas: life engine]]
 :PROPERTIES:
@@ -231,4 +233,8 @@ https://twitter.com/mekarpeles/status/1271226785439428608
 :PROPERTIES:
 :CREATED:  [2021-02-05]
 :ID:       mybprlgfrqrs
+:END:
+* DONE [#B] [2021-02-23] [[https://tiendil.org/exocortex-3-5/][Экзокортекс 3.5]] :memex:
+:PROPERTIES:
+:ID:       stndlrgxcrtxэкзокортекс
 :END:

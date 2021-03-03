@@ -1490,3 +1490,29 @@ https://bokeh.pydata.org/en/latest/docs/gallery/iris_splom.html
 :PROPERTIES:
 :ID:       lsthskpngn
 :END:
+* TODO [#C] can overlay activity data vs sleep data from different tools? :dashboard:sleep:hpi:
+:PROPERTIES:
+:CREATED:  [2021-02-12]
+:ID:       cnvrlyctvtydtvsslpdtfrmdffrnttls
+:END:
+* TODO [#B] demo of errors: typical mistake is confuising wlog and weight tags (weight gets unrecognized as exercise) :dashboard:
+:PROPERTIES:
+:CREATED:  [2021-02-18]
+:ID:       dmfrrrstypclmstkscnfsngwlghttgswghtgtsnrcgnzdsxrcs
+:END:
+* TODO [#B] [2021-02-17] [[https://github.com/apache/superset#superset][apache/superset: Apache Superset is a Data Visualization and Data Exploration Platform]] :dashboard:hpi:
+:PROPERTIES:
+:ID:       sgthbcmpchsprstsprstpchspsdtvslztnnddtxplrtnpltfrm
+:END:
+: A modern, enterprise-ready business intelligence web application.
+
+whoa looks interesting...
+* TODO [#B] [2021-02-12] [[https://github.com/grafana/worldmap-panel][grafana/worldmap-panel: Worldmap panel plugin for Grafana 3.0 that can be overlaid with circles for data points.]] :location:dashboard:
+:PROPERTIES:
+:ID:       sgthbcmgrfnwrldmppnlgrfnwhtcnbvrldwthcrclsfrdtpnts
+:END:
+* TODO [#B] [2021-02-18] [[https://forum.quantifiedself.com/t/personal-dashboards-for-self-tracking-data/8202/50?u=karlicoss][Personal Dashboards for Self-Tracking Data - Quantified Self / Apps & Tools - Quantified Self Forum]] :hpi:dashboard:publish:
+:PROPERTIES:
+:ID:       sfrmqntfdslfcmtprsnldshbrqntfdslfppstlsqntfdslffrm
+:END:
+some screenshots

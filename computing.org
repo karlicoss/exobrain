@@ -49,10 +49,11 @@ https://github.com/d-cook/SomethingNew/blob/master/Resources.md
 :ID:       smthngnwcncptsmdtmstrdcksmthngnw
 :END:
 https://github.com/d-cook/SomethingNew/blob/master/Concepts.md
-* TODO [#B] [2020-04-18] [[https://news.ycombinator.com/item?id=22907211][Ask HN: What are some great posts or articles about history of computing? | Hacker News]] :computing:
+* DONE [#C] [2020-04-18] [[https://news.ycombinator.com/item?id=22907211][Ask HN: What are some great posts or articles about history of computing? | Hacker News]] :computing:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdskhnwhtrstclsbthstryfcmptnghckrnws
 :END:
+- [2021-02-21] some interesting links, but I think I'm familiar with most..
 * STRT [#C] https://github.com/jhaip/programmable-space           :computing:
 :PROPERTIES:
 :CREATED:  [2020-10-17]
@@ -78,24 +79,22 @@ https://github.com/d-cook/SomethingNew/issues/12
 :ID:       swwwdvrgntdsktprgblgprncpvwprncplsfrdvrgngdsktpftr
 :END:
 
-* TODO [[https://hyp.is/xrhdvhDQEeuOoA9nvvzgxQ/adamwiggins.com/making-computers-better/][X]] What do I mean by “better”? :computing:sadinfra:
+* [#B] [2020-10-17] [[https://hyp.is/xrhdvhDQEeuOoA9nvvzgxQ/adamwiggins.com/making-computers-better/][X]]  from [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]] :computing:sadinfra:
 :PROPERTIES:
-:CREATED:  [2020-10-17]
-:ID:       shypsxrhdvhdqnvvzgxqdmwggngcmptrsbttrxwhtdmnbybttr
+:ID:       shypsxrhdvhdqnvvzgxqdmwggbttrmkngcmptrsbttrdmwggns
 :END:
+: What do I mean by “better”?
 : Computing aids and encourages humanity’s noblest pursuits: science, reason, art, philosophy.
 : Computing directly supports improving the mental health, physical health, prosperity, and happiness of all humans.
 : Computing help us master (or at least, doesn’t intensify) our problematic tendencies: addiction, status anxiety, socioeconomic divisions, tribalism, fear, hate.
 : The economic and intellectual horsepower in Silicon Valley and the wider tech world seems to be pointed away from these goals.
 : For example: algorithms designed to maximize watch time, the social media outrage machine, loot boxes and other psuedo-gambling, and smartphone notifications activating Skinner-box tendencies.
 
-from [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
-* TODO [#B] Tweet from @flyingcroissant room sized displays    :computing:vr:
+* [#C] [2020-05-13] Tweet from @flyingcroissant room sized displays :computing:vr:
 :PROPERTIES:
-:CREATED:  [2020-05-13]
 :ID:       twtfrmflyngcrssntrmszddsplys
 :END:
-: https://twitter.com/flyingcroissant/status/1260409306337275904
+https://twitter.com/flyingcroissant/status/1260409306337275904
 : @flyingcroissant: Finally got around to reading this and it's incredible: https://t.co/DeSVRCU8Az
 : Room-sized display walls in your home would open up a lot of new interface opportunities and would be cool for VR, too.
 * [#C] [2020-11-24] [[https://news.ycombinator.com/item?id=25187702][I created an alternative to the YouTube algorithm to stop me wasting time]] :sadinfra:
@@ -113,11 +112,7 @@ https://djrobstep.com/posts/programs-are-a-prison
 :ID:       swwwdcrnmkrcmstrvctsffldrsrdprtyppsfrllndmrdcrnmkr
 :END:
 
-* [2020-10-25] [[https://news.ycombinator.com/item?id=24866279][The Coming Civil War over General Purpose Computing (2012) | Hacker News]] :sadinfra:
-:PROPERTIES:
-:ID:       snwsycmbntrcmtmdthcmngcvlwrvrgnrlprpscmptnghckrnws
-:END:
-* [2020-10-26] [[https://news.ycombinator.com/item?id=24891576][What's crazy to me is how insanely overspec'd mobile devices are for what they d... | Hacker News]] :sadinfra:
+* [#B] [2020-10-26] [[https://news.ycombinator.com/item?id=24891576][What's crazy to me is how insanely overspec'd mobile devices are for what they d... | Hacker News]] :sadinfra:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdwhtscrzytdmbldvcsrfrwhtthydhckrnws
 :END:
@@ -133,28 +128,38 @@ https://djrobstep.com/posts/programs-are-a-prison
 : 
 : And then you would tell me that it's mostly used to shitpost on reddit and Twitter and would be completely useless as a development machine, and the manufactures would do everything to make it impossible to put what software I want on it...and also it would spy on me everywhere I went in order to sell me garbage...
 : We took a wrong turn somewhere, didn't we?
-* [2020-10-26] [[https://news.ycombinator.com/item?id=24897279][25 Years In Speech Technology and I still don’t talk to my computer | Hacker News]] :sadinfra:
+* [2020-10-25] [[https://news.ycombinator.com/item?id=24866279][The Coming Civil War over General Purpose Computing (2012) | Hacker News]] :sadinfra:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdthcmngcvlwrvrgnrlprpscmptnghckrnws
+:END:
+* [#C] [2020-10-26] [[https://news.ycombinator.com/item?id=24897279][25 Years In Speech Technology and I still don’t talk to my computer | Hacker News]] :sadinfra:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdyrsnspchtstlldnttlktmycmptrhckrnws
 :END:
+** [2021-02-21] https://news.ycombinator.com/item?id=24897981
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmd
+:END:
+: Which is exactly why I prefer formal query languages over NLP queries. In both cases (at least with most state of the art NLP techniques), you have to learn certain patterns and ways to phrase a query so that the system will reliably understand it. With formal query languages, these patterns are well-defined, can be looked up and will most likely not change significantly (so there is value in memorizing them). With NLP systems, the patterns are completely opaque, you have to learn them through trial and error, they may change anytime (e.g. because the model is retrained) and they are usually significantly less powerful.
+: I sometimes feel that the trend to prefer NLP over formal query languages is comparable to the trend to prefer GUIs over consoles in the 80ies and 90ies.
 * [2020-11-03] [[https://news.ycombinator.com/item?id=24881893][This is something Stallman[1] and others have talked about for a while now, with... | Hacker News]] :sadinfra:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdthsssmthnhvtlkdbtfrwhlnwwthhckrnws
 :END:
 : I remember in the 90s people all thought Stallman was crazy. And by people I mean developers, Linux users, people on usenet, etc. We all appreciated his contributions but at the end of the day just figured he was wearing a tin foil hat.
-* [2020-11-22] [[https://stackoverflow.com/questions/22832104/how-can-i-see-hidden-app-data-in-google-drive][How can I see hidden app data in Google Drive? - Stack Overflow]] :sadinfra:
+* [#C] [2020-11-22] [[https://stackoverflow.com/questions/22832104/how-can-i-see-hidden-app-data-in-google-drive][How can I see hidden app data in Google Drive? - Stack Overflow]] :sadinfra:
 :PROPERTIES:
 :ID:       sstckvrflwcmqstnshwcnshddshddnppdtnggldrvstckvrflw
 :END:
 fascinating, apparently this is how you access your own data for google drive apps?
-* [2020-12-15] [[https://nitter.net/mekarpeles/status/1338766203192451074#m][Mek (@mekarpeles): "What's something about the web that's obviously broken? I'll start: No version control history and all the content is dynamic." | nitter]] :sadinfra:
+* [#C] [2020-12-15] [[https://twitter.com/mekarpeles/status/1338766203192451074#m][Mek (@mekarpeles): "What's something about the web that's obviously broken? I'll start: No version control history and all the content is dynamic." | twitter]] :sadinfra:
 :PROPERTIES:
-:ID:       snttrntmkrplssttsmmkmkrplstryndllthcntntsdynmcnttr
+:ID:       stwttrcmmkrplssttsmmkmkrptryndllthcntntsdynmctwttr
 :END:
 : What's something about the web that's obviously broken?
 
 really good thread
-* TODO LSP for interlanguage communication? Like an IPC matrix :malleable:programming:think:
+* TODO [#C] LSP for interlanguage communication? Like an IPC matrix :malleable:programming:think:
 :PROPERTIES:
 :CREATED:  [2021-01-19]
 :ID:       lspfrntrlnggcmmnctnlknpcmtrx
@@ -194,7 +199,7 @@ https://mobile.twitter.com/jborichevskiy/status/1228372354956394496
   they anticipated 'same data model, many interfaces'. Instead we have multiple ways of storing the same data and the same interface (web browser)
   also very relatable when Roger talks about wanting to fix something because it's shit.
 
-* TODO [#B] [2019-10-01] Steve Krouse: "Future of Coding" · Issue 23 · d-cook/SomethingNew :tolisten:
+* TODO [#C] [2019-10-01] Steve Krouse: "Future of Coding" · Issue 23 · d-cook/SomethingNew :tolisten:
 :PROPERTIES:
 :ID:       stvkrsftrfcdngssdcksmthngnw
 :END:
@@ -232,10 +237,7 @@ http://offlinefirst.org/
 :PROPERTIES:
 :ID:       swwwnfqcmprsnttnswrllydnthwtcmptwrllydntknwhwtcmpt
 :END:
-** [2021-01-03] basically the point is that computing is cheap and we need to embrace constraint solver paradigm more? e.g. instead of imperative, where reasonable
-:PROPERTIES:
-:ID:       bscllythpntsthtcmptngschprdgmmrgnstdfmprtvwhrrsnbl
-:END:
+- [2021-01-03] basically the point is that computing is cheap and we need to embrace constraint solver paradigm more? e.g. instead of imperative, where reasonable
 * [#D] [2020-02-21] Files are fraught with peril https://danluu.com/deconstruct-files
 :PROPERTIES:
 :ID:       flsrfrghtwthprlsdnlcmdcnstrctfls
@@ -302,8 +304,10 @@ https://github.com/d-cook/SomethingNew/issues/32
 :END:
 https://twitter.com/rektide/status/1268321433735827457
 : @rektide: for compare, there's some interesting exploration of "what happened to smalltalk" going on now.
-: wirfs-brock.com/allen/posts/91...
+: wirfs-brock.com/allen/posts/914
 : interesting exploration of the challenges to success, of this interesting, rich, technically sophisticated system.
+
+- [2021-02-21] https://news.ycombinator.com/item?id=23397560
 
 * DONE [#C] [2020-01-28] [[https://news.ycombinator.com/item?id=22167121][Ask HN: What are some interesting projects to reuse your old devices?]]
 :PROPERTIES:
@@ -334,16 +338,11 @@ https://news.ycombinator.com/item?id=22167121
 :END:
 https://9to5google.com/2019/05/29/chrome-ad-blocking-enterprise-manifest-v3/
 
-* TODO [#D] Tweet from Гришка (@grishka11), at Jan 22, 16:50
+* [#D] [2020-01-22] Tweet from Гришка (@grishka11), at Jan 22, 16:50 https://twitter.com/grishka11/status/1220026067060187137
 :PROPERTIES:
-:CREATED:  [2020-01-22]
-:ID:       twtfrmгришкаgrshktjn
+:ID:       twtfrmгришкаgrshktjnstwttrcmgrshkstts
 :END:
-
 : @internetofshit There should be a law or something that if you stop updating an IoT device, its last firmware version must be open sourced so that people who actually care could help others keep using it.
-
-
-https://twitter.com/grishka11/status/1220026067060187137
 
 * [#C] [2020-06-22] [[https://twitter.com/benedictevans/status/1275122175784124417][Benedict Evans on Twitter: "🚨 SET DEFAULT EMAIL AND BROWSER APPS 🚨 https://t.co/RepotEto2E" / Twitter]] :malleable:
 :PROPERTIES:
@@ -358,12 +357,12 @@ It's should be malleable in the first place
 :ID:       snwsycmbntrcmtmdthhstryfthrl
 :END:
 https://blog.cloudflare.com/the-history-of-the-url/
-* TODO [#C] Peak UI 90s                                                  :ui:
+* [#C] [2020-02-08] https://news.ycombinator.com/item?id=22276995        :ui:
 :PROPERTIES:
-:CREATED:  [2020-02-08]
-:ID:       pks
+:ID:       snwsycmbntrcmtmd
 :END:
-: The decline of usability, recognizability and coherence in desktop user interfaces. I honestly think we reached peak UX some time in the mid-90s. With the advent of touch devices, paradigms are mixing in a way that's directly hostile to productivity.
+: The decline of usability, recognizability and coherence in desktop user interfaces.
+: I honestly think we reached peak UX some time in the mid-90s. With the advent of touch devices, paradigms are mixing in a way that's directly hostile to productivity.
 
 * [#B] [2020-01-22] How I Switched to Plan 9 | Hacker News         :sadinfra:
 :PROPERTIES:
@@ -407,13 +406,13 @@ https://news.ycombinator.com/item?id=21701798
 :  Every time I always want the article 'WHY I Switched to Plan 9'
 :  yjftsjthsd-h 48 days ago [-]
 :  "Because it’s there" (George Mallory, when asked why climb Mt. Everest).
-* [2019-03-14] Bret Victor The Future of Programming - YouTube
+* [#B] [2019-03-14] Bret Victor The Future of Programming - YouTube
 :PROPERTIES:
 :ID:       brtvctrthftrfprgrmmngytb
 :END:
 https://www.youtube.com/watch?v=8pTEmbeENF4&list=WL&t=906s&index=70
 the point is basically that there are ways of thinking beyond ones you're capable of
-* [2019-03-24] Bret Victor - Inventing on Principle - YouTube    :bretvictor:
+* [#B] [2019-03-24] Bret Victor - Inventing on Principle - YouTube :bretvictor:
 :PROPERTIES:
 :ID:       brtvctrnvntngnprncplytb
 :END:
@@ -430,7 +429,7 @@ https://lucassimpson.com/blog/2020-01-23/my-second-phone-is-in-the-cloud/
 :PROPERTIES:
 :ID:       kntrstngdbscllygvvrynvpsndtrtsphncntnrzdppstc
 :END:
-* DONE [#A] [2020-01-25] mek.fyi | Universal todo list             :sadinfra:
+* DONE [#B] [2020-01-25] mek.fyi | Universal todo list             :sadinfra:
 :PROPERTIES:
 :ID:       70aec2d0-cf09-49e7-a06e-745667852a26
 :END:
@@ -479,12 +478,12 @@ https://tonsky.me/blog/good-times-weak-men
 :END:
 : I think it is the most accessible explanation of the marvel of Smalltalk, for those who were not lucky to work with it during the late 80-90s.
 
-* [2020-05-13] [[https://en.wikipedia.org/wiki/ZigZag_(software)][ZigZag (software) - Wikipedia]] :tednelson:pkm:
+* [#D] [2020-05-13] [[https://en.wikipedia.org/wiki/ZigZag_(software)][ZigZag (software) - Wikipedia]] :tednelson:pkm:
 :PROPERTIES:
 :ID:       snwkpdrgwkzgzgsftwrzgzgsftwrwkpd
 :END:
 ah, it's also Ted Nelson... I suppose explains why I couldn't understand what it was for
-* [2020-10-02] [[https://news.ycombinator.com/item?id=24648820][> where you get nothing for a PR You already got payment up front: software tha... | Hacker News]] :opensource:
+* [#C] [2020-10-02] [[https://news.ycombinator.com/item?id=24648820][> where you get nothing for a PR You already got payment up front: software tha... | Hacker News]] :opensource:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdwhrygtnthtpymntpfrntsftwrthhckrnws
 :END:
@@ -492,18 +491,16 @@ ah, it's also Ted Nelson... I suppose explains why I couldn't understand what it
 : You already got payment up front: software that the author(s) have made available to you for free.
 : You get payment by the author spending time to review your changes.
 : You also get payment afterward: free maintenance for your pet feature. (Not guaranteed of course but generally the case.)
-* [2021-01-01] [[https://omar.website/tabfs/#run-script][TabFS]]
+* TODO [#B] [2021-01-01] [[https://omar.website/tabfs/#run-script][TabFS]]
 :PROPERTIES:
 :ID:       smrwbsttbfsrnscrpttbfs
 :END:
 
-* [2020-12-29] [[https://app.element.io/#/room/#malleable-systems:matrix.org][Element | Malleable Systems Collective]]
+* [#C] [2020-12-29] "software equivalent of environmental pollution"
 :PROPERTIES:
-:ID:       spplmntrmmllblsystmsmtrxrglmntmllblsystmscllctv
+:ID:       sftwrqvlntfnvrnmntlplltn
 :END:
-: software equivalent of environmental pollution
-
-very good expression
+very good expression (from [[https://app.element.io/#/room/#malleable-systems:matrix.org][Element | Malleable Systems Collective]])
 * TODO [#C] [2020-11-09] [[https://app.element.io/#/room/#malleable-systems:matrix.org][Element | Malleable Systems Collective]] :malleable:think:
 :PROPERTIES:
 :ID:       spplmntrmmllblsystmsmtrxrglmntmllblsystmscllctv
@@ -514,7 +511,7 @@ very good expression
 :ID:       strnttnrgtrnttn
 :END:
 
-* [2021-01-05] [[https://www.youtube.com/watch?v=c6SUOeAqOjU&list=WL&index=46][(1) Computers for Cynics 2 - It All Went Wrong at Xerox PARC - YouTube]] :tednelson:
+* [#C] [2021-01-05] [[https://www.youtube.com/watch?v=c6SUOeAqOjU&list=WL&index=46][(1) Computers for Cynics 2 - It All Went Wrong at Xerox PARC - YouTube]] :tednelson:
 :PROPERTIES:
 :ID:       swwwytbcmwtchvcsqjlstwlndcyncstllwntwrngtxrxprcytb
 :END:
@@ -527,7 +524,7 @@ very good expression
 : to be a wonderful walkthrough. I highly recommend getting a copy of 9front running, and going through some the exercises in the paper.
 : It’s very long, but definitely a great way to get a feel for how some of the concepts in Plan 9 are applied.
 : Edit: Since I was reminded how much I like this paper, I decided to submit it as a story.
-* TODO [#B] [2020-06-20] [[https://twitter.com/coreload/status/1274139256064098306][(2) 🌊 🇺🇸 on Twitter: "What should a runtime consist of? 1. Triples with matching 2. Backtracking search 3. Dataflow Sadly very few runtimes come close. Lisp and Smalltalk made implementation easy. Prolog makes it very easy, but it's easy to write Prolog in Lisp and Smalltalk, so there you go. ~1969" / Twitter]]
+* STRT [#C] [2020-06-20] [[https://twitter.com/coreload/status/1274139256064098306][(2) 🌊 🇺🇸 on Twitter: "What should a runtime consist of? 1. Triples with matching 2. Backtracking search 3. Dataflow Sadly very few runtimes come close. Lisp and Smalltalk made implementation easy. Prolog makes it very easy, but it's easy to write Prolog in Lisp and Smalltalk, so there you go. ~1969" / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmcrldsttsntwttrwhtgnlspndsmlltlksthrygtwttr
 :END:
@@ -539,22 +536,19 @@ very good expression
 : Sadly very few runtimes come close.
 : Lisp and Smalltalk made implementation easy.
 : Prolog makes it very easy, but it's easy to write Prolog in Lisp and Smalltalk, so there you go.
+
+- [2021-02-22] wonder what they replied to... was it some rektide's tweet?
 * [#C] [2020-09-14] [[https://datatables.net/][DataTables | Table plug-in for jQuery]] :spreadsheet:
 :PROPERTIES:
 :ID:       sdttblsntdttblstblplgnfrjqry
 :END:
 : Advanced tables, instantly
 : DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, built upon the foundations of progressive enhancement, that adds all of these advanced features to any HTML table.
-* [2020-12-28] [[https://spectrum-os.org/][Spectrum, a step towards usable secure computing]] :security:
+* STRT [#C] [2020-12-28] [[https://spectrum-os.org/][Spectrum, a step towards usable secure computing]] :security:
 :PROPERTIES:
 :ID:       sspctrmsrgspctrmstptwrdssblscrcmptng
 :END:
 
-* TODO [#C] [2020-06-08] [[https://shalabh.com/programmable-systems/files-and-file-formats.html][Files, Formats and Byte Arrays]] :malleable:
-:PROPERTIES:
-:ID:       sshlbhcmprgrmmblsystmsflsrmtshtmlflsfrmtsndbytrrys
-:END:
-read comments here
 * [#C] [2019-07-02] [[https://reddit.com/r/DataHoarder/comments/c7jrrp/microsoft_is_about_to_shut_off_its_ebook_drm/][Microsoft is about to shut off its ebook DRM servers: "The books will stop working"]] /r/DataHoarder :sadinfra:
 :PROPERTIES:
 :ID:       srddtcmrdthrdrcmmntscjrrprsthbkswllstpwrkngrdthrdr
@@ -598,11 +592,11 @@ Basically I think it should be split in two separate bits. One would be editing 
 :END:
 wow. such a great interview (also has annotations if you want to skim through)
 twitter tread with some interesting/fun bits https://twitter.com/karlicoss/status/1354044610792853504
-* [#B] [2021-01-20] [[https://www.youtube.com/playlist?list=PLTI2Kz0V2OFlgbkROVmzkfQRW2FrX2KfR][Ted Nelson's Computers for Cynics - YouTube]]
+* [#B] [2021-01-20] mini-series (1.5h total): [[https://www.youtube.com/playlist?list=PLTI2Kz0V2OFlgbkROVmzkfQRW2FrX2KfR][Ted Nelson's Computers for Cynics - YouTube]]
 :PROPERTIES:
-:ID:       swwwytbcmplylstlstpltkzvffrtdnlsnscmptrsfrcyncsytb
+:ID:       mnsrshttlswwwytbcmplylstlfrtdnlsnscmptrsfrcyncsytb
 :END:
-
+great series, kind of an alternative view on the history of computing
 * [#B] [2021-01-27] [[https://openvault.wgbh.org/catalog/V_4D37F2D8E1054BA49999027BF9D18957#at_2872.361_s][Machine That Changed The World, The; Interview with Ted Nelson, 1990]] :computing:tednelson:
 :PROPERTIES:
 :ID:       spnvltwgbhrgctlgvdfdbbfdtngdthwrldthntrvwwthtdnlsn
@@ -636,7 +630,55 @@ twitter tread with some interesting/fun bits https://twitter.com/karlicoss/statu
 :END:
 short term: hpi, promnesia, data liberation
 medium/long term: degoogle/political campaigning/education?
-* [#B] [2021-02-03] electron: browser extensions like surfingkeys aren't available :malleable:
+* [#B] [2021-02-03] why electron sucks: browser extensions like surfingkeys aren't available :malleable:
 :PROPERTIES:
-:ID:       lctrnbrwsrxtnsnslksrfngkysrntvlbl
+:ID:       whylctrnscksbrwsrxtnsnslksrfngkysrntvlbl
 :END:
+* [#D] [2021-01-31] [[https://openvault.wgbh.org/catalog/V_7C97C4381B7849D791CD357588C2FE89][Machine That Changed The World, The; Interview with Bill Gates, 1990]]
+:PROPERTIES:
+:ID:       spnvltwgbhrgctlgvccbdcdcfngdthwrldthntrvwwthbllgts
+:END:
+wasn't so engaging, mostly about project management
+* [#C] [2021-02-05] [[https://openvault.wgbh.org/catalog/V_EC93438EE8A747989743A3987DD21409][Machine That Changed The World, The; Interview with Marvin Minsky, 1990]]
+:PROPERTIES:
+:ID:       spnvltwgbhrgctlgvcddmchntthwrldthntrvwwthmrvnmnsky
+:END:
+- .
+  : We call this representation of knowledge or model of the world or something.
+  : And these wonderful, ah, high powered programs each use one way of representing the world and one way of representing knowledge.
+  : But in language, each thing we do uses, I suspect, three or four major different kinds of representations and maybe 20 or 30 minor ones.
+  : And so, everything than an ordinary person does in ordinary life is a, is, consists of maybe 20 different ways of preceding{?) and all their relations between them.
+- .
+: Minsky: The computer is when people started understanding processes instead of just static things.
+:        ...Before 1950 there was no way to describe something that was changing.
+: Minsky:  So most people don't know that what happened in 1950 that man for the first time learned to talk.
+:          We didn't have—everybody says well we learned speech sometime 30,000 years ago, nobody knows when.
+:          But what I'm saying is a thousand years from now it'll be 1950 when, when this animal learned to talk.
+:          The stuff before was just emotional utterances 'cause he couldn't describe processes, he could just describe...there's a thing there.
+* TODO [#C] [2021-02-16] [[https://news.ycombinator.com/item?id=26133702][The fundamental challenge of GUIs is that they have state as a core concern. Unl... | Hacker News]] :gui:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdthfndmntlthyhvsttscrcncrnnlhckrnws
+:END:
+: The fundamental challenge of GUIs is that they have state as a core concern. Unlike most systems, state is not an implementation detail that can be refactored away. It is central to the problem domain. The end user sees and cares about having a stateful system.
+: The hardest part of dealing with state in a complex system is maintaining consistency in different places. Some instances of this this can be avoided by creating single-sources-of-truth, but in other cases you can't unify your state, or you're dealing with an external stateful system (like the DOM), and you have no choice but to find a way to keep separate pieces of state in sync.
+: I should probably write a blog post on this
+* TODO [#C] [2021-02-25] [[https://cheapskatesguide.org/articles/war-on-gp-computing.html][Taking a Stand in the War on General-Purpose Computing]]
+:PROPERTIES:
+:ID:       schpsktsgdrgrtclswrngpcmpgstndnthwrngnrlprpscmptng
+:END:
+
+* TODO [#B] [2021-02-24] [[https://seirdy.one/2021/02/23/keeping-platforms-open.html][Keeping platforms open - Seirdy]]
+:PROPERTIES:
+:ID:       ssrdynkpngpltfrmspnhtmlkpngpltfrmspnsrdy
+:END:
+
+* [#B] [2021-02-07] [[https://chat.fosdem.org/#/room/#legal-digitalmarketsact:fosdem.org][FOSDEM 2021 [4] | Open Source, Interoperability and the Digital Markets Act]]
+:PROPERTIES:
+:ID:       schtfsdmrgrmlgldgtlmrktsccntrprbltyndthdgtlmrktsct
+:END:
+:  If you want to support policy action in favour of interoperability, that's what we're working on at EDRi, so donating to EDRi evidently helps :) Alternatively: if you're building software that would benefit from mandatory interoperability of dominant digital services, I'd like to hear from you. Having concrete examples for our advocacy work is hugely beneficial!
+* TODO [#C] [2021-02-07] [[https://chat.fosdem.org/#/room/#legal:fosdem.org][FOSDEM 2021 [3] | Legal and Policy Issues Devroom]] :think:
+:PROPERTIES:
+:ID:       schtfsdmrgrmlglfsdmrgfsdmlglndplcysssdvrm
+:END:
+: Question: Can we expect actions to be taken pro marketing of open standards, versus the propaganda of big corporations?  To keep the public's views open.

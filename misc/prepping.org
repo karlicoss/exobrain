@@ -1,9 +1,9 @@
 #+TITLE: Prepping
 #+filetags: prepping
 
-* [#C] [2019-02-01] WikiReader - Wikipedia https://en.wikipedia.org/wiki/WikiReader
+* [#C] [2019-02-01] [[https://en.wikipedia.org/wiki/WikiReader][WikiReader - Wikipedia]] :wikipedia:
 :PROPERTIES:
-:ID:       wkrdrwkpdsnwkpdrgwkwkrdr
+:ID:       snwkpdrgwkwkrdrwkrdrwkpd
 :END:
 huh, something like that could be cool!
 
@@ -87,3 +87,8 @@ from Worm by wildbow
 :ID:       snwsycmbntrcmtmdcllpsshckrnws
 :END:
 : Forth is the ideal language for bootstrapping a cobbled-together computer from whatever scraps you can find. Forth gives you a shell, an assembler, a disassembler, and a rich, extensible programming language in a few kilobytes. You can peek or poke hardware interactively, or use the REPL as a calculator. Forth-style assemblers also make cross-compilation very practical.
+* TODO [#C] [2021-02-04] [[http://resiliencemaps.org/][Resilience Maps - Simple Critical Infrastructure Maps]]
+:PROPERTIES:
+:ID:       rslncmpsrgrslncmpssmplcrtclnfrstrctrmps
+:END:
+: Simple Critical Infrastructure Maps is a Creative Commons licenced mapping and analysis tool for evaluating personal and social resilience.

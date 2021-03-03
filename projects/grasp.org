@@ -146,3 +146,8 @@ TODO better video or gif for refile. it would actually be useful in general
 : If you have to work on a computer where you can't run python scripts, or your target capture file is just not there, you can selfhost the server part elsewhere and use the 'any host' version
 
 amend
+* TODO [#C] ideally it would work like an Android intent with a response? so you could confirm that the operation succeeded :grasp:
+:PROPERTIES:
+:CREATED:  [2021-02-21]
+:ID:       dllytwldwrklknndrdntntwthssycldcnfrmthtthprtnsccdd
+:END:

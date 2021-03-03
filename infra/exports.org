@@ -1174,3 +1174,63 @@ https://hacker-news.firebaseio.com/v0/item/25971380.json?print=pretty -- type: "
 dunno if useful to keep scores over time?
 not sure if should dump everything in a single json? or split by files?
 can change later I guess
+
+* [#C] [2021-02-05] [[https://github.com/Chiaki/VKBK][Chiaki/VKBK: Инструмент для создания и синхронизации локального бэкапа вашего профиля ВКонтакте (Profile backup & synchronization tool for Vk.com)]] :vk:exports:
+:PROPERTIES:
+:ID:       sgthbcmchkvkbkchkvkbkинстrflbckpsynchrnztntlfrvkcm
+:END:
+ugh fuck.. apache & mysql? a bit much for me :(
+* TODO [#C] [2021-02-07] [[https://github.com/Tyrrrz/DiscordChatExporter/issues/171][Against developer terms of service? · Issue #171 · Tyrrrz/DiscordChatExporter]]
+:PROPERTIES:
+:ID:       sgthbcmtyrrrzdscrdchtxprtsrvcsstyrrrzdscrdchtxprtr
+:END:
+* TODO [#C] make it kinda smarter?                            :backupchecker:
+:PROPERTIES:
+:CREATED:  [2021-02-08]
+:ID:       mktkndsmrtr
+:END:
+if it's a single file, don't do anything just yet?
+or treat it as 'simple' with month duration or something
+just do it doesn't warn immediately. could be a takeout archive or something
+* TODO [#C] hmm, takeout has all tcx files?                       :endomondo:
+:PROPERTIES:
+:CREATED:  [2021-02-08]
+:ID:       hmmtkthslltcxfls
+:END:
+* TODO [#C] hide praw logs unless interactive? too spammy in syslog   :infra:
+:PROPERTIES:
+:CREATED:  [2021-02-23]
+:ID:       hdprwlgsnlssntrctvtspmmynsyslg
+:END:
+* TODO [#D] hm nice podcast addict simply backs up its database     :exports:
+:PROPERTIES:
+:CREATED:  [2021-02-28]
+:ID:       hmncpdcstddctsmplybcksptsdtbs
+:END:
+(although it only maintains two?)
+* TODO [#C] Hmm maybe need to check for similar dst problems... Basically mismatch between hr and sleep start/end? :emfit:
+:PROPERTIES:
+:CREATED:  [2020-11-01]
+:ID:       hmmmybndtchckfrsmlrdstprblymsmtchbtwnhrndslpstrtnd
+:END:
+* [#C] [2021-02-25] [[https://github.com/ryanmcgrath/twython][ryanmcgrath/twython: Actively maintained, pure Python wrapper for the Twitter API. Supports both normal and streaming Twitter APIs.]] :python:twitter:
+:PROPERTIES:
+:ID:       sgthbcmrynmcgrthtwythnrynrtsbthnrmlndstrmngtwttrps
+:END:
+hmm still working? nice...
+* [#C] [2021-02-04] [[https://www.redditinc.com/policies/privacy-policy#data-subject-and-consumer-information-requests][Privacy Policy - October 15, 2020 - Reddit]] :reddit:exports:
+:PROPERTIES:
+:ID:       swwwrddtnccmplcsprvcyplcymtnrqstsprvcyplcyctbrrddt
+:END:
+ugh. gdpr takeout has to be emailed?
+* [#C] [2021-02-05] [[https://github.com/Rapptz/discord.py][Rapptz/discord.py: An API wrapper for Discord written in Python.]] :discord:exports:
+:PROPERTIES:
+:ID:       sgthbcmrpptzdscrdpyrpptzdnpwrpprfrdscrdwrttnnpythn
+:END:
+* [#C] [2021-02-08] [[https://forum.quantifiedself.com/t/oura-ring-vs-emfit-qs-my-detailed-comparison-what-do-you-think/8978][Oura ring vs. Emfit QS (My detailed comparison) - What do you think? - Quantified Self / Sports, Physical Activity, and Fitness - Quantified Self Forum]] :emfit:exports:
+:PROPERTIES:
+:ID:       sfrmqntfdslfcmtrrngvsmftqclctvtyndftnssqntfdslffrm
+:END:
+: Can only store 10 hours of data on the device & 360 days in the cloud
+
+huh? motivation for exports I guess

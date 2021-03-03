@@ -113,7 +113,7 @@ https://en.wikipedia.org/wiki/Hard_problem_of_consciousness
 :PROPERTIES:
 :ID:       twtfrmnvl
 :END:
-: https://twitter.com/naval/status/1311207887293812736
+https://twitter.com/naval/status/1311207887293812736
 : 
 : @naval: Highs that don’t lead to subsequent lows:
 : 
@@ -121,11 +121,10 @@ https://en.wikipedia.org/wiki/Hard_problem_of_consciousness
 : • Yoga, exercise, play, nature walks.
 : • Creating art, reading for fun, singing, poetry.
 : • Practicing a craft, pursuing curiosity, work done for its own sake, flow.
-* [#D] [2019-02-12] (9) Your Mind Is Eight-Dimensional - Your Brain as Math Part 3 | Infinite Series - YouTube :brain:topology:
+* [#D] [2019-02-12] (9) Your Mind Is Eight-Dimensional - Your Brain as Math Part 3 | Infinite Series - YouTube https://www.youtube.com/watch?v=akgU8nRNIp0&list=WL&index=72 :brain:topology:
 :PROPERTIES:
-:ID:       yrmndsghtdmnsnlyrbrnsmthprtnfntsrsytb
+:ID:       yrmndsghtdmnsnlyrbrnsmthpwytbcmwtchvkgnrnplstwlndx
 :END:
-https://www.youtube.com/watch?v=akgU8nRNIp0&list=WL&index=72
 huh, so simplicial complexes in (human?) brain are not random
 * [2019-03-31] Conceptual thinking - PsychonautWiki                     :psy:
 :PROPERTIES:
@@ -134,13 +133,12 @@ huh, so simplicial complexes in (human?) brain are not random
 https://psychonautwiki.org/wiki/Conceptual_thinking
 : Thoughts cease to be spoken by an internal narrator and are instead “felt” and intuitively understood.
 
-* [2019-04-02] Neil Harbisson: I listen to color - YouTube             :mind:
+* [#D] [2019-04-02] Neil Harbisson: I listen to color - YouTube https://www.youtube.com/watch?v=ygRNoieAnzI :mind:
 :PROPERTIES:
-:ID:       nlhrbssnlstntclrytb
+:ID:       nlhrbssnlstntclrytbswwwytbcmwtchvygrnnz
 :END:
-https://www.youtube.com/watch?v=ygRNoieAnzI
 guy that doesn't have color vision and that developed a device that converts color into sound. Interesing, he claims he can sense more colors now than average people, however the thing when he drew 'picture' of hitler's voice and asked people what did they think of it is quite stupid...
-* [2018-09-25] can meditation be bad?                            :meditation:
+* [#B] [2018-09-25] can meditation be bad?                       :meditation:
 :PROPERTIES:
 :ID:       cnmdttnbbd
 :END:
@@ -159,7 +157,7 @@ https://www.reddit.com/r/Meditation/comments/1qf9y4/is_there_any_way_meditation_
 : 
 : I can share a personal anecdote too. As I've got more into meditation, I have felt all the expected positive outcomes - more tranquil, more equanimity in my dealings with people, just generally more calm and ordered internally. However the expanded awareness that has come, not necessarily directly because of meditation but the things i've been using my new-found attention to focus on, has caused a few bouts of existential depression and anxiety. I think this is only natural as we confront our Shadow selves in the natural introspective part of the meditation journey - it's meant to be tough, so we can appreciate the light on the other side. Hell, purgatory, and heaven are not physical places but personal mental states that you can experience.
 
-* [2019-04-29] My Conversation with Michael Pollan - Marginal REVOLUTION :psy:
+* [#B] [2019-04-29] My Conversation with Michael Pollan - Marginal REVOLUTION :psy:
 :PROPERTIES:
 :ID:       mycnvrstnwthmchlpllnmrgnlrvltn
 :END:
@@ -189,7 +187,7 @@ if you're going to the gym and it's easy you are cheating. same with meditation?
 https://www.youtube.com/watch?v=Dt5Qv9tUObI&list=WL&index=24
 interesting, his wife doesn't meditate! even though she's a scientist
 
-* [2019-12-02] Can we create new senses for humans? | David Eagleman - YouTube
+* [#C] [2019-12-02] Can we create new senses for humans? | David Eagleman - YouTube
 :PROPERTIES:
 :ID:       cnwcrtnwsnssfrhmnsdvdglmnytb
 :END:
@@ -311,7 +309,7 @@ https://en.wikipedia.org/wiki/Hedonic_treadmill
 :END:
 
 That's why I'm learning more about nature of human mind and why we humans in general need to solve it
-* [#B] [2018-07-21] LSD and Quantum Measurements: Can you see Schrödinger’s cat both dead and alive on acid? | Qualia Computing :quantum:psy:
+* TODO [#C] [2018-07-21] LSD and Quantum Measurements: Can you see Schrödinger’s cat both dead and alive on acid? | Qualia Computing :quantum:psy:
 :PROPERTIES:
 :ID:       lsdndqntmmsrmntscnysschrögrsctbthddndlvncdqlcmptng
 :END:
@@ -335,3 +333,14 @@ https://qualiacomputing.com/2016/10/29/lsd-and-quantum-measurements-can-you-see-
 :END:
 : Building a New Science of Consciousness
 : Qualia Research Institute is a nonprofit research group studying consciousness in a consistent, meaningful, and rigorous way         
+
+* [#C] [2021-02-02] [[https://twitter.com/the_aiju/status/1356734430644215810][💎 Emily / aiju 💎 on Twitter: "it’s weird how many people respond to “meditation has risks” with “no!!!! meditation is good!!!!!!!!” like yea sex is good too but it has huge risks too that should be acknowledged and taken into consideration" / Twitter]]
+:PROPERTIES:
+:ID:       stwttrcmthjsttsmlyjntwttrnwldgdndtknntcnsdrtntwttr
+:END:
+: it’s weird how many people respond to “meditation has risks” with “no!!!! meditation is good!!!!!!!!”
+: like yea sex is good too but it has huge risks too that should be acknowledged and taken into consideration
+* TODO [#C] [2021-02-19] [[https://newatlas.com/science/lucid-dream-communication/][Scientists establish freaky two-way communications with lucid dreamers]]
+:PROPERTIES:
+:ID:       snwtlscmscnclcddrmcmmnctnkytwwycmmnctnswthlcddrmrs
+:END:

@@ -20,6 +20,29 @@
 :ID:       fgrngtwhttksdskspcdckrmgswkprntxrgsdckrnspctlss
 :END:
 
+** [#C] [2021-02-12] [[https://stackoverflow.com/questions/35429837/docker-compose-port-mapping/46220742][Docker compose port mapping - Stack Overflow]]
+:PROPERTIES:
+:ID:       sstckvrflwcmqstnsdckrcmpsdckrcmpsprtmppngstckvrflw
+:END:
+: If you want to bind to the redis port from your nodejs container you will have to expose that port in the redis container:
+: 
+: version: '2'
+: services:
+:   nodejs:
+:     build:
+:       context: .
+:       dockerfile: DockerFile
+:     ports:
+:       - "4000:4000"
+:     links:
+:       - redis
+:   redis:
+:     build:
+:       context: .
+:       dockerfile: Dockerfile-redis
+:     expose:
+:       - "6379"
+: The expose tag will let you expose ports without publishing them to the host machine, but they will be exposed to the containers networks.
 * systemd                                                           :systemd:
 :PROPERTIES:
 :ID:       systmd
@@ -129,7 +152,7 @@ mind the space after colon!
 
 * -----------------------------------------
 :PROPERTIES:
-:ID:       2054_2099
+:ID:       2781_2826
 :END:
 
 * [#C] [2018-06-08] Linux ignores the setuid bit on all interpreted executables (i.e. executables starting with a ~#!~ line).
@@ -165,5 +188,5 @@ https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
 
 * -------------------------------------------
 :PROPERTIES:
-:ID:       3696_3742
+:ID:       4423_4469
 :END:

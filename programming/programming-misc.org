@@ -1572,3 +1572,82 @@ relevant to configs-suck
 :PROPERTIES:
 :ID:       lwysstxtstrngdsmplcttypcnvrsns
 :END:
+* [#C] [2021-01-31] [[https://github.com/jamalex/notion-py][jamalex/notion-py: Unofficial Python API client for Notion.so]]
+:PROPERTIES:
+:ID:       sgthbcmjmlxntnpyjmlxntnpynffclpythnpclntfrntns
+:END:
+
+* TODO [#B] [2021-02-03] [[https://news.ycombinator.com/item?id=26018187][Apache Arrow 3.0 | Hacker News]] :ffi:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdpchrrwhckrnws
+:END:
+
+* [#B] [2021-02-16] [[https://discord.com/channels/708122962422792194/708375112537342025][#🧠-learning]] :opensource:
+:PROPERTIES:
+:ID:       sdscrdcmchnnlslrnng
+:END:
+: Not an Athens developer, but hopefully can give some general advice..
+: Generally open source projects welcome contributions, especially if the contribution complies with project guidelines, covered with tests, doesn't contain unrelated changes, etc.. However there are some things to consider:
+: 
+: One of the biggest factors is maintainer's time, and often guiding a person to improve their code takes more time & energy than implementing the same from scratch.
+: I guess for this the only advice is to read guides carefully, search stuff & ask elsewhere if possible, so you would ideally only ask the maintainers for things specific for the project.
+: Basically whatever you would do in general when you're doing independent learning. Although of course the author might be happy to guide you for small things -- which is great too. But good to keep this in mind.
+: 
+: Another factor to keep in mind is that the developers might want to keep the project compact and minimal in terms of features.
+: The reason is that generally the more features you have, the more code you have ===> the more likely it would break which is a burden on the maintainer.
+: Plus depending on the project features that maintainer isn't using themselves would end up poorly tested (yet another reason to make sure you have tests with your contribution if possible).
+: To avoid this it's best to ask the maintainers whether the feature would be welcome in advance. It's very sad to work on something for a week to find out they don't want to merge it. In some cases you can work off a fork, but not always.
+: 
+: Apart from this, I can't imagine the cases when bugfixes or extra test coverage won't be welcome. Which could also be a great way to get familiar with a new project (or even programming language!).
+* TODO [#B] [2021-02-16] [[https://github.com/LambdaP/opensource-challenges][LambdaP/opensource-challenges: A list of resources to think about free software and open source challenges]] :opensource:
+:PROPERTIES:
+:ID:       sgthbcmlmbdppnsrcchllngslnkbtfrsftwrndpnsrcchllngs
+:END:
+
+* TODO [#C] [2021-02-11] [[https://observablehq.com/@observablehq/observables-not-javascript][Observable’s not JavaScript / Observable / Observable]]
+:PROPERTIES:
+:ID:       sbsrvblhqcmbsrvblhqbsrvblvblsntjvscrptbsrvblbsrvbl
+:END:
+
+* TODO [#C] [2021-02-11] [[https://observablehq.com/@observablehq/introduction-to-require][Introduction to require / Observable / Observable]]
+:PROPERTIES:
+:ID:       sbsrvblhqcmbsrvblhqntrdctqrntrdctntrqrbsrvblbsrvbl
+:END:
+
+* TODO [#C] hmm, not clear how sliding average works for influx... I guess it sort of 'smoothens' stuff a bit :influxdb:
+:PROPERTIES:
+:CREATED:  [2021-02-13]
+:ID:       hmmntclrhwsldngvrgwrksfrnflxgsstsrtfsmthnsstffbt
+:END:
+* TODO [#C] Cambria adversarial interop
+:PROPERTIES:
+:CREATED:  [2020-10-24]
+:ID:       cmbrdvrsrlntrp
+:END:
+
+E.g. integrate with guthub, but use custom software for it
+
+* TODO [#C] [2021-02-06] [[https://news.ycombinator.com/item?id=26048800][Show HN: LibreTranslate – Open-source neural machine translation API | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdshwhnlbrtsrcnrlmchntrnsltnphckrnws
+:END:
+
+* TODO [#C] [2021-02-22] [[https://news.ycombinator.com/item?id=26217754][Cross-Database Queries in SQLite | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdcrssdtbsqrsnsqlthckrnws
+:END:
+
+* TODO [#C] [2021-02-19] [[https://gtoolkit.com/][Glamorous Toolkit]] :smalltalk:
+:PROPERTIES:
+:ID:       sgtlktcmglmrstlkt
+:END:
+
+* TODO [#C] [2021-02-17] [[https://docs.github.com/en/actions/reference/events-that-trigger-workflows][Events that trigger workflows - GitHub Docs]] :ci:promnesia:hpi:
+:PROPERTIES:
+:ID:       sdcsgthbcmnctnsrfrncvntstntsthttrggrwrkflwsgthbdcs
+:END:
+
+* [#C] [2021-02-11] [[https://github.com/KDAB/hotspot][KDAB/hotspot: The Linux perf GUI for performance analysis.]] :performance:
+:PROPERTIES:
+:ID:       sgthbcmkdbhtsptkdbhtsptthlnxprfgfrprfrmncnlyss
+:END:

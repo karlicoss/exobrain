@@ -41,6 +41,11 @@ https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5
 :END:
 : Synthetic Biology: A Primer
 : Wetware: A Computer in Every Living Cell
+** STRT [#B] [2021-02-22]  https://news.ycombinator.com/item?id=24345320 :toread:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmd
+:END:
+: There's a good book, Wetware: A Computer in Every Living Cell, by Dennis Bray going into detail on how much functionality and physical processes are at work even in the most simplest cells that is routinely ignored by these analogies of the brain to a digital computer.
 * TODO [#D] there have only been maybe {~10^40} organisms in earth’s history :drill:biology:
 :PROPERTIES:
 :CREATED:  [2019-09-18]
@@ -94,7 +99,7 @@ from Come as You Are
 :END:
 ** TODO [#C] [2019-01-29]
 :PROPERTIES:
-:ID:       7286_7619
+:ID:       7728_8061
 :END:
 : The detergents in the dish soap (like the sodium laurel sulfate, aka sodium dodecyl sulfate) destabilize the membranes of the cells, spilling their contents into the rest of the solution of saliva.
 

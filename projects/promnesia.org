@@ -162,6 +162,11 @@ hypothesis extractor could generate a nicer title of the document?
 :CREATED:  [2020-01-06]
 :ID:       rghtmntsngchrmnymrwhchmnstkthstryslssndlsssflfrm
 :END:
+** TODO [#C] use twidump as extra source?!                        :promnesia:
+:PROPERTIES:
+:CREATED:  [2021-02-22]
+:ID:       stwdmpsxtrsrc
+:END:
 * [#B] * extension issues/improvements
 :PROPERTIES:
 :ID:       xtnsnsssmprvmnts
@@ -1153,7 +1158,7 @@ allow breaking down important and unimportant schema parts from extensions?
 :END:
 ** [2019-08-01] ??
 :PROPERTIES:
-:ID:       41573_41602
+:ID:       41690_41719
 :END:
 * TODO [#C] open in new tab from search?
 :PROPERTIES:
@@ -3022,4 +3027,24 @@ I'd like to solve some general problems, so we can all benefit
 :PROPERTIES:
 :CREATED:  [2021-01-31]
 :ID:       hmmntrfrsgtryhghlghtngvrvstdmrk
+:END:
+* TODO [#B] need to log less in serve?                            :promnesia:
+:PROPERTIES:
+:CREATED:  [2021-02-25]
+:ID:       ndtlglssnsrv
+:END:
+maybe allow changing logging level via a signal??
+* TODO [#D] querying for datetimes accounting for tz ~SELECT norm_url, dt, src, (coalesce(datetime(substr(dt,1,instr(dt,' ')-1)), datetime(dt))) FROM visits WHERE rowid IN (SELECT rowid FROM visits ORDER BY RANDOM() LIMIT 1000)~ :promnesia:sqlite:
+:PROPERTIES:
+:CREATED:  [2021-02-12]
+:ID:       qryngfrdttmsccntngfrtzslclctrwdfrmvstsrdrbyrndmlmt
+:END:
+* TODO [#B] [2021-02-07] [[http://bbdb.sourceforge.net/bbdb.html][Insidious Big Brother Database User Manual: 1. BBDB]] :promnesia:
+:PROPERTIES:
+:ID:       bbdbsrcfrgntbbdbhtmlnsdsbgbrthrdtbssrmnlbbdb
+:END:
+someone from Matrix nyxt suggested it's similar?
+* [#C] [2021-02-07] [[https://discourse.atlas.engineer/c/nyxt/5][Latest Nyxt topics - Atlas]] :promnesia:
+:PROPERTIES:
+:ID:       sdscrstlsngnrcnyxtltstnyxttpcstls
 :END:

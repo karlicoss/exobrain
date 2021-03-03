@@ -960,3 +960,33 @@ again, it's not that removing 'real' interaction is the point, so I'm happy to a
 :END:
 - need more toggles/dimension adjustment/graph distance etc etc
 - and... need to be decoupled from a specific app
+* TODO [#C] [2021-02-11] [[https://discord.com/channels/708122962422792194/714656944572596354][#🧠-v2-personal]] :exobrain:
+:PROPERTIES:
+:ID:       sdscrdcmchnnlsvprsnl
+:END:
+: danieldToday at 7:35 AM
+: There is certainly beauty in randomness.
+: 
+: How about an option which presents you a visualisation of a set of random connections in the daily notes (as a link to a new data visualisation page)? Maybe with options to turn on and off certain branches of thought (in cases you are working on something specific). This way you get your daily inspiration right in your daily notes (or you can turn it off if you don't like it).
+: 
+: Ultimately, it would be very unique if these random connections also generate a page with all block and page references to the visualised links. Basically you forgo the problem of an empty page, not knowing where to start.
+: 
+: I am a Social Scientist and my daily bread and butter is to synthesise knowledge, reproduce it, change it and generate new knowledge. However, most importantly, use that knowledge to have an impact in non-academic contexts (where it matters the most, I think).
+: Jeff Tang 🏛Today at 8:51 AM
+: I was especially thinking about making a Twitter-like feed for mobile, to explore random blocks @danield
+* TODO [#B] need to make sure there is no "export" tag, otherwise it'll exclude the rest of the file
+:PROPERTIES:
+:CREATED:  [2021-03-03]
+:ID:       ndtmksrthrsnxprttgthrwstllxcldthrstfthfl
+:END:
+* TODO [#B] [2021-02-14] [[https://twitter.com/marcinignac/status/1282625655725858817][Marcin Ignac on Twitter: "I'm fascinated by @andy_matuschak digital garden of his notes at https://t.co/G9PQ1UaIeq. At the same time i'm disappointed by the tools available to navigate those kind of information spaces. So here is quick thread how I got from the hairball graph to a readable concept map 1/5 https://t.co/rEZhDRpQP5" / Twitter]] :exobrain:
+:PROPERTIES:
+:ID:       stwttrcmmrcngncsttsmrcngnblcncptmpstcrzhdrpqptwttr
+:END:
+: I'm fascinated by @andy_matuschak
+:  digital garden of his notes at http://notes.andymatuschak.org. At the same time i'm disappointed by the tools available to navigate those kind of information spaces. So here is quick thread how I got from the hairball graph to a readable concept map 1/5
+** [2021-02-14] whoa, need to go through athens discord to figure it out... https://discord.com/channels/708122962422792194/708156396906086468
+:PROPERTIES:
+:ID:       whndtgthrghthnsdscrdtfgrttsdscrdcmchnnls
+:END:
+https://github.com/athensresearch/athens/discussions/605

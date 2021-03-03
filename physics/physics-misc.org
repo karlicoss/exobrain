@@ -651,3 +651,21 @@ https://web.archive.org/web/20181031192641/https://grasp-lab.org/2013/06/18/hexa
 :ID:       ntrnsccrvtrndsnglrtsytbswytbcmwtchvdlqdfrslstwlndx
 :END:
 : 3:16 curvature = 1/R_1 x 1/R_2 -- saddle curvature
+* [#B] [2020-07-07] Tweet from @MBarkeshli
+:PROPERTIES:
+:ID:       twtfrmmbrkshl
+:END:
+https://twitter.com/MBarkeshli/status/1280236950906122241
+: @MBarkeshli: An absolutely incredible, highly interconnected web of ideas connecting some of the most important discoveries of late twentieth century physics and mathematics. This is an extremely abridged, biased history (1970-2010) with many truly ground-breaking works still not mentioned:
+
+* TODO [#C] [2021-02-23] [[https://twitter.com/michael_nielsen/status/1364337425401569281][Michael Nielsen on Twitter: "There's a norm against anything that seems like flattery. But to hell with that norm: @preskill has an incredibly broad and deep view of physics (and of quantum computing), _and_ he's a superb writer and speaker. So if you've got the technical background, go watch!" / Twitter]] :towatch:quantum:
+:PROPERTIES:
+:ID:       stwttrcmmchlnlsnsttsmchlnthtchnclbckgrndgwtchtwttr
+:END:
+: There's a norm against anything that seems like flattery. But to hell with that norm: @preskill
+:  has an incredibly broad and deep view of physics (and of quantum computing), _and_ he's a superb writer and speaker. So if you've got the technical background, go watch!
+* [#B] [2021-01-31] [[http://www.scholarpedia.org/article/Ostrogradsky%27s_theorem_on_Hamiltonian_instability][Ostrogradsky's theorem on Hamiltonian instability - Scholarpedia]] :lagrangians:
+:PROPERTIES:
+:ID:       wwwschlrpdrgrtclstrgrdskythrmnhmltnnnstbltyschlrpd
+:END:
+: The assumption that ∂2L∂x˙2≠0 is known as nondegeneracy. If the Lagrangian is nondegenerate one can write (1) in the form Newton assumed so long ago for the laws of physics,

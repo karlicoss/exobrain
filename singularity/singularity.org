@@ -90,11 +90,10 @@ https://github.com/RomanPlusPlus/scientific-progress-towards-cryonics
 :ID:       3725_3752
 :END:
 
-* TODO [#B] [2020-09-01] [[https://news.ycombinator.com/item?id=24344613][Mind Emulation Foundation]] :immortality:
+* TODO [#B] [2020-09-01] [[https://news.ycombinator.com/item?id=24344613][Mind Emulation Foundation]] https://mindemulation.org/ :immortality:
 :PROPERTIES:
-:ID:       snwsycmbntrcmtmdmndmltnfndtn
+:ID:       snwsycmbntrcmtmdmndmltnfndtnsmndmltnrg
 :END:
-https://mindemulation.org/
 * [#B] [2019-10-26] talk: [[https://www.youtube.com/watch?v=oQdotI4gH_0][Цифровое бессмертие. Алексей Турчин. - YouTube]] :longevity:immortality:
 :PROPERTIES:
 :ID:       tlkswwwytbcmwtchvqdtghцифессмертиеалексейтурчинytb
@@ -128,17 +127,15 @@ https://www.securitylab.ru/analytics/241606.php
 :END:
 Eh, dunno. He is kinda transhumanistically thinking, but very vague
 
-* [#D] [2019-04-29] 94: Douglas Rushkof - Rethinking Transhumanism and Reuniting Humanity - YouTube
+* [#D] [2019-04-29] 94: Douglas Rushkof - Rethinking Transhumanism and Reuniting Humanity - YouTube https://www.youtube.com/watch?v=z5g6W4kFpyo&list=WL&index=47&t=1068s
 :PROPERTIES:
-:ID:       dglsrshkfrthnkngtrnshmnsmndrntnghmntyytb
+:ID:       dglsrshkfrthnkngtrnshmnsmbcmwtchvzgwkfpylstwlndxts
 :END:
-https://www.youtube.com/watch?v=z5g6W4kFpyo&list=WL&index=47&t=1068s
 eh, the guy didn't say anything particular, just something about transumanists defying human nature and wanting to get rid of emotions etc
-* [2019-12-15] How to Slow Aging (and even reverse it) - YouTube
+* [#C] [2019-12-15] How to Slow Aging (and even reverse it) - YouTube https://www.youtube.com/watch?v=QRt7LjqJ45k
 :PROPERTIES:
-:ID:       hwtslwgngndvnrvrstytb
+:ID:       hwtslwgngndvnrvrstytbswwwytbcmwtchvqrtljqjk
 :END:
-https://www.youtube.com/watch?v=QRt7LjqJ45k
 
 * DONE [#C] [2019-12-02] Some Details of My Personal Infrastructure | Hacker News :wolfram:
 :PROPERTIES:
@@ -157,10 +154,11 @@ https://news.ycombinator.com/item?id=19220889
 : Perhaps all that data I’ve collected on myself will one day let one basically just built a “bot of me”.
 : In the end all we want is freedom. I suspect that productivity optimization is our unconscious search of a (social) way of getting free.
 
-* [2018-09-04] [[https://reddit.com/r/singularity/comments/3vb88y/what_its_like_trying_to_discuss_the_singularity/][What it's like trying to discuss the singularity with friends]] /r/singularity :singularity:
+* [#C] [2018-09-04] [[https://reddit.com/r/singularity/comments/3vb88y/what_its_like_trying_to_discuss_the_singularity/][What it's like trying to discuss the singularity with friends]] /r/singularity :singularity:
 :PROPERTIES:
 :ID:       srddtcmrsnglrtycmmntsvbywthsnglrtywthfrndsrsnglrty
 :END:
+relatable..
 * TODO [#C] [2020-01-19] Nintil - The Longevity FAQ https://nintil.com/longevity/
 :PROPERTIES:
 :ID:       nntlthlngvtyfqsnntlcmlngvty

@@ -55,3 +55,10 @@ https://wiki.termux.com/wiki/Touch_Keyboard
 :ID:       swkpstmrktsrgwknbxnbxpstmrkts
 :END:
 : Anbox runs Android apps on Linux using a trimmed down version of Android in a container.
+* TODO [#B] 100% FOSS Smartphone Hardening non-root Guide 3.0 (for normal people) ft. some advanced tricks
+:PROPERTIES:
+:CREATED:  [2021-02-28]
+:ID:       fsssmrtphnhrdnngnnrtgdfrnrmlpplftsmdvncdtrcks
+:END:
+
+https://www.reddit.com/r/fossdroid/comments/lpynso/100_foss_smartphone_hardening_nonroot_guide_30/
