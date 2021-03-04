@@ -1,4 +1,4 @@
-#+TITLE: Reading list
+#+TITLE: 🗄️ Reading list
 #+logseq_graph: false
 #+filetags: read
 #+sort: t
@@ -454,7 +454,7 @@ hotz recommendation?
 :ID:       swwwmthclmbdwtwrdprsspqntmrltyntvnwrng
 :END:
 : Jim Baggott’s new book, Quantum Reality, is now out here in US, and I highly recommend it to anyone interested in the issues surrounding the interpretation of quantum mechanics.
-** TODO [#B] [2020-11-24] [[https://news.ycombinator.com/item?id=25187100][Could we reboot a modern civilization without fossil fuels? (2016) | Hacker News]] :prepping:
+** TODO [#B] [2020-11-24] [[https://news.ycombinator.com/item?id=25187100][Could we reboot a modern civilization without fossil fuels? (2016) | Hacker News]] :toread:book:prepping:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdcldwrbtmdncvlztnwthtfsslflshckrnws
 :END:

@@ -481,7 +481,6 @@ https://pypi.org/project/python-daemon/
 https://dev.to/sobolevn/9-best-open-source-findings-november-2019-gi0
 : lazydocker
 : Minimalistic TUI to work with docker. Supports mouse.
-: Written in Go.
 * [2020-01-18] Cron/Anacron vs. Systemd - Ask Ubuntu
 :PROPERTIES:
 :ID:       crnncrnvssystmdskbnt
