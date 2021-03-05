@@ -1,45 +1,224 @@
-#+TITLE: Building cool software projects
+#+TITLE: ⭐ Building cool software projects
 #+filetags: project
 
-How to make good programming projects?
+How to make good programming (specially open source) projects?
 
-Best practices (or at least the ones I liked) in:
-- documenting
-- communicating
-- demoing
-- presentation
-- licensing
+I don't claim to be an expert, but I think I have accumulated a fair amound of experience.
 
-* [#B] * demos/screencasting                                :demo:screencast:
+Here I collect best practices, or at least the ones I liked.
+
+* related
 :PROPERTIES:
-:ID:       dmsscrncstng
+:ID:       rltd
 :END:
-** [2020-03-25] screenkey program to display keys
+** .                                                             :opensource:
 :PROPERTIES:
-:ID:       scrnkyprgrmtdsplykys
+:ID:       293_311
 :END:
-** TODO [#B] [2019-12-10] [[https://reddit.com/r/coolgithubprojects/comments/e8pu54/github_asciinemaasciinema_terminal_session/][GitHub - asciinema/asciinema: Terminal session recorder 📹]] /r/coolgithubprojects
+** .                                                                 :social:
+:PROPERTIES:
+:ID:       311_325
+:END:
+
+* [#A] * clearly state the purpose
+:PROPERTIES:
+:ID:       clrlysttthprps
+:END:
+** [2019-06-13] [[https://github.com/joeyates/imap-backup][joeyates/imap-backup: Backup GMail (or other IMAP) accounts to disk]]
+:PROPERTIES:
+:ID:       sgthbcmjytsmpbckpjytsmpbckpbckpgmlrthrmpccntstdsk
+:END:
+: Design Goals
+
+it's good to state design goals
+
+* [#A] * compare with similar projects
+:PROPERTIES:
+:ID:       cmprwthsmlrprjcts
+:END:
+Often there are multiple projects that do the same thing, and it's nice to know why you should prefer one over another.
+** [#B] [2019-08-18] "why not use..." section link in [[http://www.attrs.org/en/stable/why.html][attrs]]
+:PROPERTIES:
+:ID:       whyntssctnlnknwwwttrsrgnstblwhyhtmlttrs
+:END:
+** [#B] [2020-03-01] provide comparison with other similar projects
+:PROPERTIES:
+:ID:       prvdcmprsnwththrsmlrprjcts
+:END:
+- https://fastapi.tiangolo.com/alternatives
+  : Alternatives, Inspiration and Comparisons - FastAPI
+
+  very cool comparison page, I really like it
+* [#B] * demos                                                         :demo:
+:PROPERTIES:
+:ID:       dms
+:END:
+- it's nice if you can provide a web-based demo that doesn't require any installation.
+- perhaps the next worst thing is something like a Docker container -- you can safely try it knowing you won't mess up your OS
+  It also basically means 'reproducible build', and easer testing.
+** TODO [#A] [2020-12-07] [[https://news.ycombinator.com/item?id=25322091#25325329][VisiData in 60 Seconds | Hacker News]] :project:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdvsdtnscndshckrnws
+:END:
+: Wow, the project homepage has a great dynamic command-line generator that lets you specify what you are trying to do.
+: This may exist elsewhere, but it's the first time I've seen it and I hope to see it on more projects! https://www.visidata.org/
+** STRT [#B] [2019-12-27] [[https://datasette.readthedocs.io/en/stable/getting_started.html#glitch][Getting started — Datasette documentation]] :demo:
+:PROPERTIES:
+:ID:       sdtsttrdthdcsnstblgttngsttchgttngstrtddtsttdcmnttn
+:END:
+: Try Datasette without installing anything using Glitch
+: Glitch is a free online tool for building web apps directly from your web browser. You can use Glitch to try out Datasette without needing to install any software on your own computer.
+*** TODO [#C] [2021-03-05] do for HPI                                   :hpi:
+:PROPERTIES:
+:ID:       dfrhp
+:END:
+** [#B] [2020-05-22] [[https://news.ycombinator.com/item?id=23271053][Using SQL to find my best photo of a pelican according to Apple Photos | Hacker News]] :hpi:publish:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdsngsqltfnplcnccrdngtpplphtshckrnws
+:END:
+apparently people like specific demos
+** [#B] [2020-06-06] 'Example interaction' section
+:PROPERTIES:
+:ID:       xmplntrctnsctn
+:END:
+- like here [[https://pipxproject.github.io/pipx/comparisons/][Comparison to Other Tools - pipx]]
+: Example interaction: Install pipx with pip: pip install --user pipx
+** [#B] [2020-01-16] [[https://ngrok.com/][ngrok - secure introspectable tunnels to localhost]]
+:PROPERTIES:
+:ID:       sngrkcmngrkscrntrspctbltnnlstlclhst
+:END:
+** STRT [#B] Demos are important!                                   :project:
+:PROPERTIES:
+:CREATED:  [2019-12-11]
+:ID:       dmsrmprtnt
+:END:
+: Link to the actual repo: https://github.com/hellojoshuatonga/react-use-fuzzy
+: As others said, I recommend adding a GitHub pages of a demo or something. Not fun having to spin this up yourself to test what it does/looks like.
+
+** [#C] [2019-11-21] [[https://github.com/cybersemics/em][cybersemics/em: 🖋A multi-hierarchical mind-mapping app for personal sensemaking.]] :selfhosted:project:
+:PROPERTIES:
+:ID:       sgthbcmcybrsmcsmcybrsmcsmlmndmppngppfrprsnlsnsmkng
+:END:
+: Localhost can be tunneled to a public url for mobile testing purposes using ngrok.
+
+need to figure out how to quickly selfhost stuff
+* [#B] * configuration                                              :configs:
+:PROPERTIES:
+:ID:       cnfgrtn
+:END:
+** [#A] try to use as many reasonable defaults as possible :project:software:
+:PROPERTIES:
+:CREATED:  [2020-05-24]
+:ID:       trytssmnyrsnbldfltsspssbl
+:END:
+Seems that people hate complicated configuration
+- $HOME for configs/paths/cache (e.g. XDG-compliant, something like ~appdirs~)
+** [#B] [[https://beepb00p.xyz/configs-suck.html]["configs suck"]] think how malleable your config needs to be
+:PROPERTIES:
+:ID:       sbpbpxyzcnfgssckhtmlcnfgssckthnkhwmllblyrcnfgndstb
+:END:
+** [#C] [2021-02-13] [[https://archive.docs.influxdata.com/influxdb/v1.2/administration/config/#enabled-false][Database Configuration | InfluxData Documentation Archive]] :configs:
+:PROPERTIES:
+:ID:       srchvdcsnflxdtcmnflxdbvdmscnfgrtnnflxdtdcmnttnrchv
+:END:
+: [admin]
+: Controls the availability of the built-in, web-based admin interface.
+:     Note: The Admin UI is deprecated as of InfluxDB 1.2.
+: enabled = false
+: Set to true to enable the admin interface.
+: 
+: Environment variable: INFLUXDB_ADMIN_ENABLED
+
+I guess it's a good pattern?
+e.g. split env variable by _ and bind to code
+
+** [#C] [2021-01-09] [[https://jupyterlab.readthedocs.io/en/stable/user/interface.html#keyboard-shortcuts][JupyterLab]] :ui:
+:PROPERTIES:
+:ID:       sjpytrlbrdthdcsnstblsrntrfchtmlkybrdshrtctsjpytrlb
+:END:
+good setting design with system defaults (readonly) and user preferences on the side
+* [#B] * documentation                                        :documentation:
+:PROPERTIES:
+:ID:       dcmnttn
+:END:
+Documentation is frustrating because it usually requires you to document what you already know, it's usually also duplicates tests, docstrings etc.
+** [#B] related: literate programming                              :literate:
+:PROPERTIES:
+:ID:       rltdltrtprgrmmng
+:END:
+
+** [#C] [2020-05-05] [[https://www.djcbsoftware.nl/code/mu/mu4e/High_002dlevel-overview.html][High-level overview (Mu4e 1.4 user manual)]] :software:
+:PROPERTIES:
+:ID:       swwwdjcbsftwrnlcdmmhghdlvlvrvwhtmlhghlvlvrvwmsrmnl
+:END:
+:  +---------+
+:  | emacs   |
+:  |    +------+
+:  +----| mu4e | --> send mail (smtpmail)
+:       +------+
+:        |  A
+:        V  |  ---/ search, view, move mail
+:  +---------+    \
+:  |   mu    |
+:  +---------+
+:    |    A
+:    V    |
+:  +---------+
+:  | Maildir |  <--- receive mail (fetchmail,
+:  +---------+                     offlineimap, ...)
+
+characters (e.g. A, V) can be used for drawing
+
+** [#C] [2020-04-21] inspiration: [[https://blog.andrewcantino.com/blog/2014/04/13/adding-rss-feeds-to-any-site-with-huginn][Create Agent - Huginn]]
+:PROPERTIES:
+:ID:       nsprtnsblgndrwcntncmblgddfdstnystwthhgnncrtgnthgnn
+:END:
+Huginn is nice, when you try to create 'agent' it shows the documentation/examples aside
+* [#B] * collaborating
+:PROPERTIES:
+:ID:       cllbrtng
+:END:
+How to make the project more welcome to contributions?
+** [#A] [2020-05-04] make sure it's very easy to contribute         :project:
+:PROPERTIES:
+:ID:       mksrtsvrysytcntrbt
+:END:
+- use CI
+- specify how to run tests (usually clear from CI coffig)
+- specify how to spin up the developer environment (e.g. editable install)
+*** TODO .                                                              :hpi:
+:PROPERTIES:
+:ID:       6315_6332
+:END:
+*** TODO .                                                        :promnesia:
+:PROPERTIES:
+:ID:       6332_6355
+:END:
+** [#C] [2020-06-06] [[https://drewdevault.com/2020/06/06/Add-a-contrib-directory.html][Add a “contrib” directory to your projects | Drew DeVault’s Blog]] :project:
+:PROPERTIES:
+:ID:       sdrwdvltcmddcntrbdrctryhtrctrytyrprjctsdrwdvltsblg
+:END:
+* [#C] * screencasting                                           :screencast:
+:PROPERTIES:
+:ID:       scrncstng
+:END:
+I found screencasting to be pretty finicky.
+Especially when you want to automate things, e.g. like I did with short demos for [[https://github.com/karlicoss/promnesia#readme][promnesia]].
+(see [[https://github.com/karlicoss/promnesia/blob/65e77cd67740ef391cba73bc9eac200d9a5b6e63/tests/demos.py][demos.py]] -- it's extremely hacky and not sure how to make it generic)
+
+** TODO [#B] [2019-12-10] [[https://reddit.com/r/coolgithubprojects/comments/e8pu54/github_asciinemaasciinema_terminal_session/][GitHub - asciinema/asciinema: Terminal session recorder 📹]] /r/coolgithubprojects :cli:
 :PROPERTIES:
 :ID:       srddtcmrclgthbprjctscmmntmnlsssnrcrdrrclgthbprjcts
 :END:
-** [2020-04-02] [[https://github.com/phw/peek#how-can-i-capture-mouse-clicks-andor-keystrokes][phw/peek: Simple animated GIF screen recorder with an easy to use interface]]
+** [#B] [2020-03-25] screenkey program to display keypresses
 :PROPERTIES:
-:ID:       sgthbcmphwpkhwcncptrmsclcdgfscrnrcrdrwthnsytsntrfc
+:ID:       scrnkyprgrmtdsplykyprsss
 :END:
-: Peek does not support this natively. But you could install an external tool like key-mon which is usually included in most distributions, so you can easily install with your package manager. Then start key-mon with key-mon --visible_click. The --visible_click option is for drawing small circles around mouse clicks.
-** [2020-04-02] [[https://trac.ffmpeg.org/wiki/Capture/Desktop][Capture/Desktop – FFmpeg]]
+** [#C] [2020-04-02] [[https://trac.ffmpeg.org/wiki/Capture/Desktop][Capture/Desktop – FFmpeg]]
 :PROPERTIES:
 :ID:       strcffmpgrgwkcptrdsktpcptrdsktpffmpg
 :END:
-** [2020-04-02] recordmyscreen
-:PROPERTIES:
-:ID:       rcrdmyscrn
-:END:
-I think it dumps broken ogv file. There is some jerkiness.
-When you convert it to something else with ffmpeg, it's complaining about broken frames and sometimes even segfaults
-
-also it hasn't been updated for a decade, apparently
-** TODO [#B] [2019-10-11] [[https://reddit.com/r/orgmode/comments/dgeojs/weekly_rorgmode_open_discussion_october_11_2019/f3d7d0u/][Weekly /r/Orgmode Open Discussion - October 11, 2019]] /r/orgmode -- gif screencasting tool
+** [#C] [2019-10-11] [[https://reddit.com/r/orgmode/comments/dgeojs/weekly_rorgmode_open_discussion_october_11_2019/f3d7d0u/][Weekly /r/Orgmode Open Discussion - October 11, 2019]] /r/orgmode -- gif screencasting tool :emacs:
 :PROPERTIES:
 :ID:       srddtcmrrgmdcmmntsdgjswklssnctbrrrgmdgfscrncstngtl
 :END:
@@ -47,7 +226,7 @@ also it hasn't been updated for a decade, apparently
 : Your demo GIF is pretty cool.  You might find this interesting: after recording and tidying up demo GIFs for `helm-org-ql` several times, I wrote a shell script to make it easier.  Using the `gif-screencast` package for Emacs, all I have to do is run the script, make the Emacs window active, and it does the rest.
 
 https://github.com/alphapapa/org-ql/blob/master/images/demo-helm-org-ql.sh
-** [#B] [2020-01-27] [[https://reddit.com/r/emacs/comments/eut02p/gifscreencast_11_is_out/][gif-screencast 1.1 is out]] /r/emacs :demo:emacs:
+** [#C] [2020-01-27] [[https://reddit.com/r/emacs/comments/eut02p/gifscreencast_11_is_out/][gif-screencast 1.1 is out]] /r/emacs :emacs:
 :PROPERTIES:
 :ID:       srddtcmrmcscmmntstpgfscrncststgfscrncststrmcs
 :END:
@@ -62,315 +241,160 @@ https://github.com/alphapapa/org-ql/blob/master/images/demo-helm-org-ql.sh
 :  - New `gif-screencast-start-or-stop` command.
 :  - Log the complete command lines of all invokes commands.
 
-* [#B] * licensing                                                  :license:
+** [#C] [2020-05-04] [[https://intoli.com/blog/terminal-recorders/][Terminal Recorders: A Comprehensive Guide]] :cli:
+:PROPERTIES:
+:ID:       sntlcmblgtrmnlrcrdrstrmnlrcrdrscmprhnsvgd
+:END:
+
+** [#C] [2020-04-02] [[https://github.com/phw/peek#how-can-i-capture-mouse-clicks-andor-keystrokes][phw/peek: Simple animated GIF screen recorder with an easy to use interface]]
+:PROPERTIES:
+:ID:       sgthbcmphwpkhwcncptrmsclcdgfscrnrcrdrwthnsytsntrfc
+:END:
+: Peek does not support this natively. But you could install an external tool like key-mon which is usually included in most distributions, so you can easily install with your package manager. Then start key-mon with key-mon --visible_click. The --visible_click option is for drawing small circles around mouse clicks.
+
+- [2020-04-02] looked at peek for demo automation, and it doesn't quite do the trick
+  - you can continue/pause recording from the console
+  - you can't set window id/adjust (granted, you can do it externally via xdotool which is arguably more modular)
+  - you can't set recording format/path from the console (and even save the video?)
+    that made it useless for my purposes
+** TODO [#D] [2019-09-10] Input Overlay | OBS Forums https://obsproject.com/forum/resources/input-overlay.552/ :screencast:demo:
+:PROPERTIES:
+:ID:       nptvrlybsfrmssbsprjctcmfrmrsrcsnptvrly
+:END:
+: A small plugin for obs studio that shows keyboard, mouse and gamepad inputs on stream.
+: Supports Windows and Linux (64bit, if you need 32bit either compile it yourself or message me)
+** [#D] [2020-04-02] recordmyscreen
+:PROPERTIES:
+:ID:       rcrdmyscrn
+:END:
+I think it dumps broken ogv file. There is some jerkiness.
+When you convert it to something else with ffmpeg, it's complaining about broken frames and sometimes even segfaults
+
+also it hasn't been updated for a decade, apparently
+* [#C] * landing page
+:PROPERTIES:
+:ID:       lndngpg
+:END:
+Often "langing pages" for startups are bloated and very infromation sparse.
+For open source projects it's usually better though (especially considering readme is usually enough!).
+Here I'll collect the ones I liked.
+
+** [#C] [2020-05-27] inspiration: [[https://fraidyc.at/][Fraidycat]]
+:PROPERTIES:
+:ID:       nsprtnsfrdyctfrdyct
+:END:
+nice design and summary on this page
+*** TODO [2021-03-05] could do similar for promnesia              :promnesia:
+:PROPERTIES:
+:ID:       clddsmlrfrprmns
+:END:
+* [#C] * licensing                                                  :license:
 :PROPERTIES:
 :ID:       lcnsng
 :END:
-** [#B] [2019-12-30] [[https://www.arp242.net/license.html][Choosing a license for GoatCounter]] :license:
+** [#B] [2019-12-30] [[https://www.arp242.net/license.html][Choosing a license for GoatCounter]]
 :PROPERTIES:
 :ID:       swwwrpntlcnshtmlchsnglcnsfrgtcntr
 :END:
 : GPL (any version)
 : Bad: doesn’t have the “network protection”: you don’t need to submit changes back to me if you modify the code and run it only as a SaaS.
-
-** TODO [#C] [2019-10-12] Licenses – opensource.google.com          :license:
+** TODO [#C] [2019-10-12] [[https://opensource.google/docs/thirdparty/licenses/#restricted][Licenses – opensource.google.com]]
 :PROPERTIES:
-:ID:       lcnsspnsrcgglcm
+:ID:       spnsrcggldcsthrdprtylcnssrstrctdlcnsspnsrcgglcm
 :END:
-https://opensource.google/docs/thirdparty/licenses/#restricted
 : GNU GPL v1, v2, v3
-** TODO [#C] [2019-10-12] Licenses – opensource.google.com          :license:
+** TODO [#C] [2019-10-12] [[https://opensource.google/docs/thirdparty/licenses/#LinkingRequirements][Licenses – opensource.google.com]]
 :PROPERTIES:
-:ID:       lcnsspnsrcgglcm
+:ID:       spnsrcggldcsthrdprtylcnsskngrqrmntslcnsspnsrcgglcm
 :END:
-https://opensource.google/docs/thirdparty/licenses/#LinkingRequirements
 : The following steps are required in order to be able to take advantage of the reduced requirements:
-: 
 :     The LGPL-licensed library must be used as a shared library (dynamically-linked).
 :     For LGPL v3 only, the user must be able to replace the shared library with a compatible library and have it work (the user must be able to swap out libraries on the device).
 :     Customers must receive either object files or source code (including any modifications) of the LGPL-licensed library.
+** [#C] 
+:PROPERTIES:
+:ID:       12034_12042
+:END:
+** [#C] [2019-12-11] [[https://github.com/kootenpv/gittyleaks/pull/10][Create LICENSE by MitchTalmadge · Pull Request #10 · kootenpv/gittyleaks]]
+:PROPERTIES:
+:ID:       sgthbcmktnpvgttylkspllcrthtlmdgpllrqstktnpvgttylks
+:END:
+: If you are the copyright holder, it's up to you how you license your work —I think the only catch is that you can't retrospectively revoke open-source licenses for previous versions, but I think you could easily publish an updated version with a different license, or even license with two different licenses if you wanted to. Also, if others have previously contributed to the project whilst it was under a given license, you will need their permission to relicense it, unless you have a copyright-grant agreement with them (such that they assign copyright to their contributions to you).
 * [#C] * naming
 :PROPERTIES:
 :ID:       nmng
 :END:
+It's annoying to have to come up with name when the project is ready and you are keen to release it.
+- my personal strategy is thinking and having short brainstoming sessions now and then and writing down ideas
+  Then after some time I just pick the one I like most.
+- use thesaurus to find synonyms
+- make sure it's unique enough, search for existing projects with the same name
+
 ** [#C] [2019-09-17] [[https://www.litscape.com/word_tools/contains_sequence.php][Find words containing these letters in sequence]]
 :PROPERTIES:
 :ID:       swwwltscpcmwrdtlscntnssqnndwrdscntnngthslttrsnsqnc
 :END:
 
-* ----------------------------------
+** [#C] [2020-01-02] [[http://ivantomic.com/projects/ospnc/][Open source project name checker - OSPNC]]
 :PROPERTIES:
-:ID:       4169_4207
+:ID:       vntmccmprjctsspncpnsrcprjctnmchckrspnc
 :END:
-
-* [#A] [2020-05-04] Make sure it's very easy to contribute          :project:
-:PROPERTIES:
-:ID:       mksrtsvrysytcntrbt
-:END:
-** TODO .                                                               :hpi:
-:PROPERTIES:
-:ID:       4286_4302
-:END:
-** TODO .                                                         :promnesia:
-:PROPERTIES:
-:ID:       4302_4324
-:END:
-* [#B] [2019-08-18] "why not use..." section link in [[http://www.attrs.org/en/stable/why.html][attrs]]
-:PROPERTIES:
-:ID:       whyntssctnlnknwwwttrsrgnstblwhyhtmlttrs
-:END:
-* [#B] [2020-01-02] for end user software, calendar versioning is more useful than semantic
-:PROPERTIES:
-:ID:       frndsrsftwrclndrvrsnngsmrsflthnsmntc
-:END:
-
-* TODO [#B] [2020-01-19] [[https://lobste.rs/s/pg1ne9/how_do_you_stay_inline_with_your_vision_on#c_ihhrfy][How do you stay inline with your vision on long term projects? | Lobsters]]
-:PROPERTIES:
-:ID:       slbstrsspgnhwdystynlnwthyhyrvsnnlngtrmprjctslbstrs
-:END:
-
-* TODO [#B] ok, definitely should keep changelog in the repository file (and then link to headings), instead of github native interface :project:hpi:promnesia:
-:PROPERTIES:
-:CREATED:  [2020-12-05]
-:ID:       kdfntlyshldkpchnglgnthrpsnkthdngsnstdfgthbntvntrfc
-:END:
-* [#B] [2020-06-06] 'Example interaction' section
-:PROPERTIES:
-:ID:       xmplntrctnsctn
-:END:
-- like here [[https://pipxproject.github.io/pipx/comparisons/][Comparison to Other Tools - pipx]]
-: Example interaction: Install pipx with pip: pip install --user pipx
-* [#B] [2020-03-01] provide comparison with other similar projects
-:PROPERTIES:
-:ID:       prvdcmprsnwththrsmlrprjcts
-:END:
-- https://fastapi.tiangolo.com/alternatives
-  : Alternatives, Inspiration and Comparisons - FastAPI
-
-  very cool comparison page, I really like it
-
-* TODO [#C] [2020-04-09] thebjorn/pydeps: Python Module Dependency graphs :python:
-:PROPERTIES:
-:ID:       thbjrnpydpspythnmdldpndncygrphs
-:END:
-https://github.com/thebjorn/pydeps
-
-* [#D] [2019-06-13] joeyates/imap-backup: Backup GMail (or other IMAP) accounts to disk
-:PROPERTIES:
-:ID:       jytsmpbckpbckpgmlrthrmpccntstdsk
-:END:
-https://github.com/joeyates/imap-backup
-: Design Goals
-
-gm, I guess it's good to state design goals
-
-* TODO [#D] tools that only take stdin/stdout are a bit horrible to debug (no io to gdb) :debug:
-:PROPERTIES:
-:CREATED:  [2020-02-27]
-:ID:       a62b0e84-320e-49b8-9656-9afd3232a574
-:END:
-* TODO [#C] [2019-11-21] cybersemics/em: 🖋A multi-hierarchical mind-mapping app for personal sensemaking. :selfhosted:project:
-:PROPERTIES:
-:ID:       cybrsmcsmmlthrrchclmndmppngppfrprsnlsnsmkng
-:END:
-https://github.com/cybersemics/em
-: Localhost can be tunneled to a public url for mobile testing purposes using ngrok.
-: To allow logins, the ngrok domain must be added to Firebase Authorized Domains.
-
-need to figure out how to quickly selfhost stuff
-* TODO [#D] guthub name                                             :project:
-:PROPERTIES:
-:CREATED:  [2019-12-02]
-:ID:       gthbnm
-:END:
-* TODO [#B] Add project status to my stuff, like in upspin          :project:
-:PROPERTIES:
-:CREATED:  [2020-01-15]
-:ID:       ddprjctsttstmystfflknpspn
-:END:
-
-* STRT [#B] Demos are important!                                    :project:
-:PROPERTIES:
-:CREATED:  [2019-12-11]
-:ID:       dmsrmprtnt
-:END:
-Link to the actual repo: https://github.com/hellojoshuatonga/react-use-fuzzy
-
-As others said, I recommend adding a GitHub pages of a demo or something. Not fun having to spin this up yourself to test what it does/looks like.
-
-* [#C] [2020-04-21] [[http://localhost:3000/agents/new][Create Agent - Huginn]] :project:
-:PROPERTIES:
-:ID:       lclhstgntsnwcrtgnthgnn
-:END:
-so nice that huginn just gives you examples you can follow
-* [#C] [2020-05-27] [[https://fraidyc.at/][Fraidycat]]  :project:inspiration:
-:PROPERTIES:
-:ID:       sfrdyctfrdyct
-:END:
-nice design and summary on this page
-* [#C] [2020-01-02] Open source project name checker - OSPNC        :project:
-:PROPERTIES:
-:ID:       pnsrcprjctnmchckrspnc
-:END:
-http://ivantomic.com/projects/ospnc/
-* [#C] [2020-06-06] [[https://drewdevault.com/2020/06/06/Add-a-contrib-directory.html][Add a “contrib” directory to your projects | Drew DeVault’s Blog]] :project:
-:PROPERTIES:
-:ID:       sdrwdvltcmddcntrbdrctryhtrctrytyrprjctsdrwdvltsblg
-:END:
-
-* [#C] [2019-12-23] [[https://news.ycombinator.com/item?id=21860741][Show HN: Generate names like snapchat, dropbox, paypal for your next project]] :project:
+** [#C] [2019-12-23] [[https://news.ycombinator.com/item?id=21860741][Show HN: Generate names like snapchat, dropbox, paypal for your next project]]
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdshwhngnrtpchtdrpbxpyplfryrnxtprjct
 :END:
 https://namewink.com/
-* TODO [#C] [2020-12-07] [[https://news.ycombinator.com/item?id=25322091#25325329][VisiData in 60 Seconds | Hacker News]] :project:
+* [#D] * versioning
 :PROPERTIES:
-:ID:       snwsycmbntrcmtmdvsdtnscndshckrnws
+:ID:       vrsnng
 :END:
-: Wow, the project homepage has a great dynamic command-line generator that lets you specify what you are trying to do. This may exist elsewhere, but it's the first time I've seen it and I hope to see it on more projects! https://www.visidata.org/
-* STRT [#C] [2020-01-16] ngrok - secure introspectable tunnels to localhost :project:
+** [#B] [2020-01-02] for end user software (i.e. not 'libraries'), calendar versioning is more useful than semantic
 :PROPERTIES:
-:ID:       ngrkscrntrspctbltnnlstlclhst
-:END:
-https://ngrok.com/
-* [#C] [2020-05-04] [[https://intoli.com/blog/terminal-recorders/][Terminal Recorders: A Comprehensive Guide]] :demo:
-:PROPERTIES:
-:ID:       sntlcmblgtrmnlrcrdrstrmnlrcrdrscmprhnsvgd
+:ID:       frndsrsftwrntlbrrsclndrvrsnngsmrsflthnsmntc
 :END:
 
-* [#C] [2020-05-05] [[https://www.djcbsoftware.nl/code/mu/mu4e/High_002dlevel-overview.html][High-level overview (Mu4e 1.4 user manual)]] :software:
+** [#B] ok, definitely should keep changelog in the repository file (and then link to headings), instead of github native interface
 :PROPERTIES:
-:ID:       swwwdjcbsftwrnlcdmmhghdlvlvrvwhtmlhghlvlvrvwmsrmnl
+:CREATED:  [2020-12-05]
+:ID:       kdfntlyshldkpchnglgnthrpsnkthdngsnstdfgthbntvntrfc
 :END:
-:               +---------+
-:               | emacs   |
-:               |    +------+
-:               +----| mu4e | --> send mail (smtpmail)
-:                    +------+
-:                     |  A
-:                     V  |  ---/ search, view, move mail
-:               +---------+    \
-:               |   mu    |
-:               +---------+
-:                 |    A
-:                 V    |
-:               +---------+
-:               | Maildir |  <--- receive mail (fetchmail,
-:               +---------+                     offlineimap, ...)
-
-characters (e.g. A, V) can be used for drawing
-
-* STRT [#C] [2019-06-30] Ask HN: How do you come up with new project ideas? | Hacker News :project:
+The reason is to avoid siloing the changelog on Github. It's fine to also copy it on "Releases" page as well, but make the CHANGELOG.md (or any other plaintext file) the primary source of truth.
+* ----------------------------------
 :PROPERTIES:
-:ID:       skhnhwdycmpwthnwprjctdshckrnws
+:ID:       14349_14386
 :END:
-https://news.ycombinator.com/item?id=1916801
-
-** [2019-07-23] A vague mental checklist I've been accumulating:
+* STRT [#B] [2020-01-19] [[https://lobste.rs/s/pg1ne9/how_do_you_stay_inline_with_your_vision_on#c_ihhrfy][How do you stay inline with your vision on long term projects? | Lobsters]]
 :PROPERTIES:
-:ID:       vgmntlchcklstvbnccmltng
+:ID:       slbstrsspgnhwdystynlnwthyhyrvsnnlngtrmprjctslbstrs
 :END:
-*** Why didn't I stick with my last idea?
+* STRT [#C] [2019-06-30] [[https://news.ycombinator.com/item?id=1916801][Ask HN: How do you come up with new project ideas? | Hacker News]]
 :PROPERTIES:
-:ID:       whyddntstckwthmylstd
+:ID:       snwsycmbntrcmtmdskhnhwdycmpwthnwprjctdshckrnws
 :END:
-*** Could I make that idea simpler?
+** [2019-07-23] [[https://news.ycombinator.com/item?id=1917002]["A vague mental checklist I've been accumulating"]]
 :PROPERTIES:
-:ID:       cldmkthtdsmplr
+:ID:       snwsycmbntrcmtmdvgmntlchcklstvbnccmltng
 :END:
-*** Could I reuse that idea elsewhere?
+- Why didn't I stick with my last idea?
+- Could I make that idea simpler?
+- Could I reuse that idea elsewhere?
+- Why am I not motivated to work on this idea (any more)?
+- Could I change it around so that I am?
+- What are people looking for?
+- What are people NOT looking for?
+- What ideas are already floating out there, that haven't been popularized, but could be done better?
+- What ideas are getting too much hype and attention, so that I can filter them out?
+- Is my idea trivial enough not to scare me?
+* TODO [#C] [2020-06-05] share donation links in readme between my projects
 :PROPERTIES:
-:ID:       cldrsthtdlswhr
+:ID:       shrdntnlnksnrdmbtwnmyprjcts
 :END:
-*** Why am I not motivated to work on this idea (any more)?
+I don't need money myself, but would be nice to 'reroute' donations to the libraries I use, or tool that lets me build the projects.
+* [#D] [2020-02-27] tools that only take stdin/stdout are a bit horrible to debug (no io to gdb) :debug:cli:
 :PROPERTIES:
-:ID:       whymntmtvtdtwrknthsdnymr
+:ID:       tlsthtnlytkstdnstdtrbthrrbltdbgntgdb
 :END:
-*** Could I change it around so that I am?
+* ----------------------------------
 :PROPERTIES:
-:ID:       cldchngtrndsthtm
+:ID:       15971_16008
 :END:
-*** What are people looking for?
-:PROPERTIES:
-:ID:       whtrppllkngfr
-:END:
-*** What are people NOT looking for?
-:PROPERTIES:
-:ID:       whtrpplntlkngfr
-:END:
-*** What ideas are already floating out there, that haven't been popularized, but could be done better?
-:PROPERTIES:
-:ID:       whtdsrlrdyfltngtthrththvntbnpplrzdbtcldbdnbttr
-:END:
-*** What ideas are getting too much hype and attention, so that I can filter them out?
-:PROPERTIES:
-:ID:       whtdsrgttngtmchhypndttntnsthtcnfltrthmt
-:END:
-And more recently:
-
-*** Is my idea trivial enough not to scare me?
-:PROPERTIES:
-:ID:       smydtrvlnghnttscrm
-:END:
-* TODO [#C] try to use as many reasonable defaults as possible :project:software:
-:PROPERTIES:
-:CREATED:  [2020-05-24]
-:ID:       trytssmnyrsnbldfltsspssbl
-:END:
-- $HOME for configs/paths/cache
-* TODO [#C] [2019-09-10] Input Overlay | OBS Forums         :screencast:demo:
-:PROPERTIES:
-:ID:       nptvrlybsfrms
-:END:
-https://obsproject.com/forum/resources/input-overlay.552/
-: A small plugin for obs studio that shows keyboard, mouse and gamepad inputs on stream.
-: Supports Windows and Linux (64bit, if you need 32bit either compile it yourself or message me)
-* [2020-04-02] looked at peek, and it doesn't quite do the trick either :demo:
-:PROPERTIES:
-:ID:       lkdtpkndtdsntqtdthtrckthr
-:END:
-- you can continue/pause recording from the console
-- you can't set window id/adjust (granted, you can do it externally via xdotool which is arguably more modular)
-- you can't set recording format/path from the console (and even save the video?)
-  that made it useless for my purposes
-* [#C] [2019-12-11] Create LICENSE by MitchTalmadge · Pull Request #10 · kootenpv/gittyleaks
-:PROPERTIES:
-:ID:       crtlcnsbymtchtlmdgpllrqstktnpvgttylks
-:END:
-https://github.com/kootenpv/gittyleaks/pull/10
-: If you are the copyright holder, it's up to you how you license your work —I think the only catch is that you can't retrospectively revoke open-source licenses for previous versions, but I think you could easily publish an updated version with a different license, or even license with two different licenses if you wanted to. Also, if others have previously contributed to the project whilst it was under a given license, you will need their permission to relicense it, unless you have a copyright-grant agreement with them (such that they assign copyright to their contributions to you).
-* TODO [#B] [2020-05-22] [[https://news.ycombinator.com/item?id=23271053][Using SQL to find my best photo of a pelican according to Apple Photos | Hacker News]] :hpi:publish:
-:PROPERTIES:
-:ID:       snwsycmbntrcmtmdsngsqltfnplcnccrdngtpplphtshckrnws
-:END:
-apparently people like specific demos
-* [2021-01-09] [[http://localhost:8888/lab][JupyterLab]]                 :ui:
-:PROPERTIES:
-:ID:       lclhstlbjpytrlb
-:END:
-good setting design with system defaults (readonly) and user preferences on the side
-* [2020-06-05] share donation links in readme between projects
-:PROPERTIES:
-:ID:       shrdntnlnksnrdmbtwnprjcts
-:END:
-* STRT [#B] [2019-12-27] Getting started — Datasette documentation :projects:hpi:
-:PROPERTIES:
-:ID:       gttngstrtddtsttdcmnttn
-:END:
-https://datasette.readthedocs.io/en/stable/getting_started.html#glitch
-: Try Datasette without installing anything using Glitch
-: Glitch is a free online tool for building web apps directly from your web browser. You can use Glitch to try out Datasette without needing to install any software on your own computer.
-* [#C] [2021-02-13] [[https://archive.docs.influxdata.com/influxdb/v1.2/administration/config/#enabled-false][Database Configuration | InfluxData Documentation Archive]] :hpi:
-:PROPERTIES:
-:ID:       srchvdcsnflxdtcmnflxdbvdmscnfgrtnnflxdtdcmnttnrchv
-:END:
-: [admin]
-: Controls the availability of the built-in, web-based admin interface.
-:     Note: The Admin UI is deprecated as of InfluxDB 1.2.
-: enabled = false
-: Set to true to enable the admin interface.
-: 
-: Environment variable: INFLUXDB_ADMIN_ENABLED
-
-I guess it's a good pattern?
-e.g. split env variable by _ and bind to code

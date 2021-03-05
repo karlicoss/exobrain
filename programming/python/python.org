@@ -1939,3 +1939,7 @@ reasonable list (aka why python logging sucks by default)
 :PROPERTIES:
 :ID:       flsrshrdcpythnhtmllbrrytxwrppngndfllngpythndcmnttn
 :END:
+* TODO [#C] [2020-04-09] thebjorn/pydeps: Python Module Dependency graphs https://github.com/thebjorn/pydeps :project:python:
+:PROPERTIES:
+:ID:       thbjrnpydpspythnmdldpndncygrphssgthbcmthbjrnpydps
+:END:
