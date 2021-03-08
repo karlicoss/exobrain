@@ -663,3 +663,11 @@ https://web.archive.org/web/20090902224414/http://reason.com/news/show/119237.ht
 :PROPERTIES:
 :ID:       spprsssrncmslpprscfmbstrcnbynlmrchrdswdrwhrtzgssrn
 :END:
+* TODO [#B] maybe we can achieve 95% accuracy with generic rules and by handling the most popular websites
+:PROPERTIES:
+:CREATED:  [2021-03-07]
+:ID:       mybwcnchvccrcywthgnrcrlsndbyhndlngthmstpplrwbsts
+:END:
+for the rest
+- allow user to customize
+- allow user to submit normalization errors (where?)

@@ -48,7 +48,7 @@ dunno, wasn't really impressed much...
 :ID:       shyprplygltrglsplspcmmnlsprcktcljrmcslsphyprplyglt
 :END:
 
-* TODO [2021-01-02] [[https://www.youtube.com/playlist?list=PLgq_B39Y_kKD9_sdCeE5SufaeAtbYPv80][(1) Online Lisp Meeting Videos - YouTube]] :lisp:towatch:
+* TODO [#C] [2021-01-02] [[https://www.youtube.com/playlist?list=PLgq_B39Y_kKD9_sdCeE5SufaeAtbYPv80][(1) Online Lisp Meeting Videos - YouTube]] :lisp:towatch:
 :PROPERTIES:
 :ID:       swwwytbcmplylstlstplgqbykdcsftbypvnlnlspmtngvdsytb
 :END:

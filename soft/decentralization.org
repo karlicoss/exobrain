@@ -294,3 +294,14 @@ https://lobste.rs/s/la8hpt/decentralized_web_primer_dat#c_kxmozz
 :ID:       sstlltrthstllt
 :END:
 : Utilizing digital signatures, peer-to-peer networks, and a content-surfacing algorithm designed to reward publishers who find common ground, Satellite is a new take on what a social platform can be.
+* STRT [#C] Activitypub
+:PROPERTIES:
+:CREATED:  [2019-12-11]
+:ID:       ctvtypb
+:END:
+: To those of you pushing for ActivityPub:
+: Webber's trashed it (the initial author) and is working on a way to mitigate the problems of it by implementing incompatible changes, the biggest piece of software claiming to implement it doesn't even implement it (Mastodon), the only piece of software that stays semi-faithful is full of devs who hate it (Pleroma).
+: AP is completely broken for anything but publicly-scoped content, relying on a lot of trust for every party involved. This gets broken frequently, and has had consequences so far on networks implementing it (like half of them are incompatible implementations, so I think it's completely fine to say "networks").
+: The specification itself is far too ambiguous. Here's a post by a maintainer of Diaspora explaining this part further: https://schub.io/blog/2018/02/01/activitypub-one-protocol-to-rule-them-all.html
+: So let's assume you can get Twitter to implement ActivityPub perfectly to-spec. Great! It doesn't work with literally any pre-existing ActivityPub software, and users' DMs and are more or less public, with users' private accounts literally being public.
+: I use AP daily, and while it's fine for technical users with a reasonable understanding that anything they post is public, putting naive users' data at risk has never and will never be acceptable; pushing AP will harm everyone.

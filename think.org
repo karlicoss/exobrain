@@ -916,7 +916,7 @@ Could check it on examples from this dragon slaying game
 :PROPERTIES:
 :ID:       rrrthngwhchstllhsfllbckdtdwrpsrgnltypfltsprttycmmn
 :END:
-* TODO undocumented untyped systems are kind of ok if you have a responsive repl? :repl:typing:
+* TODO undocumented untyped systems are kind of ok if you have a responsive repl? :repl:types:
 :PROPERTIES:
 :CREATED:  [2021-01-27]
 :ID:       ndcmntdntypdsystmsrkndfkfyhvrspnsvrpl
@@ -964,4 +964,9 @@ people who want (need?) to be locked in and nannied by the big corporations etc
 :PROPERTIES:
 :CREATED:  [2021-02-28]
 :ID:       spnsrstrtmnyfrthrprjcts
+:END:
+* STRT [#C] https://github.com/samsquire/wants                        :ideas:
+:PROPERTIES:
+:CREATED:  [2020-01-14]
+:ID:       sgthbcmsmsqrwnts
 :END:

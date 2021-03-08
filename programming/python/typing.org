@@ -1,0 +1,473 @@
+#+TITLE: 📜 Python typing tips & tricks
+#+logseq_title: mypy
+#+filetags: :python:
+
+I used to be in the 'static types only' camp and kind of hated Python. But mypy (and [[https://en.wikipedia.org/wiki/Gradual_typing][gradual typing]]) changed my mind about dynamic languages in general.
+At some point it 'clicked' and I learnt to sense better when I'm comfortable with some dynamic madness, and when it makes sense to set it in stone by typing.
+
+Here I'm collecting some guides to get started, cool not well known features I find useful, and some common annoying issues.
+Mostly it's going to be about mypy, but not limited to.
+
+* [#A] * 'philosophy' of mypy                                          :mypy:
+:PROPERTIES:
+:ID:       phlsphyfmypy
+:END:
+Aka when and how it's best to use or not to use it
+
+** [#B] [2019-12-08] similar approach to mine: [[https://news.ycombinator.com/item?id=21736620][Statically-typed error handling in Python using Mypy | Hacker News]]
+:PROPERTIES:
+:ID:       smlrpprchtmnsnwsycmbntrcmndlngnpythnsngmypyhckrnws
+:END:
+: My approach is to dial up strictness gradually as code proves its value. I'll start out building a project and not validating on I/O, but as the requirements get locked down and the code has proven itself, I'll clean up all the edge cases - which will often mean adding in progressively stricter validation on border code.
+: The advantage of this is that if you end up not wasting too much time "building the wrong thing". Let's say that you took one form of I/O and built massively strict validation in and then realized later that you should have taken an entirely different form of I/O for your subsystem. All that time building in validation on that useless part of code was a pointless waste.
+: I don't have any stats, but my gut feel is that on average 40% of code can end up being tossed in this way (in some projects it's 100% =).
+: Prototyping speed is, additionally, not just useful in reducing the cost of building the right kind of code, it's useful in reducing the cost of building the right kind of test (a really underappreciated facet of building mission critical systems).
+: In my younger years I used to believe that for mission critical systems "building the wrong thing" was somehow less of a problem in code because you could fix requirements and do architecture upfront with some sort of genius architect. Turns out this was wrong.
+** [#B] [2020-06-22] [[https://news.ycombinator.com/item?id=22305446][We've been running mypy on our project for about a year now and it's one of the best decisions we've made | Hacker News]] :mypy:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdwvbnrnnngtsnfthbstdcsnswvmdhckrnws
+:END:
+: We implemented it progressively. At first I added it as a make target but didn't make it mandatory in CI so I could learn how to use it.
+: Then I made it mandatory for a few files that I was the only active contributor to.
+: Then I slowly added more and more files across the project, sometimes as I touched them for other reason and other times as independent changes.
+: Eventually as mypy caught more and more bugs in other contributor's changes they started getting on board and adding type hints as well, until the vast majority of the project was hinted (we'll be getting to 100% within a few weeks).
+
+This is super reasonable, especially for existing projects which are hard to type in one go.
+** [#C] [2021-02-19] [[https://mypy.readthedocs.io/en/latest/command_line.html#cmdoption-mypy-exclude][you can use =--exclude= ]] to exclude (duh) individual files you haven't yet managed to type properly
+:PROPERTIES:
+:ID:       smypyrdthdcsnltstcmmndlnhlflsyhvntytmngdttypprprly
+:END:
+* [#B] * typing tutorials/feature overviews                           :types:
+:PROPERTIES:
+:ID:       typngttrlsftrvrvws
+:END:
+** [#B] [2019-12-30] good mypy intro, demonstrates many important features: [[https://kunigami.blog/2019/12/26/python-type-hints][Python Type Hints – NP-Incompleteness]] :mypy:
+:PROPERTIES:
+:ID:       gdmypyntrdmnstrtsmnymprtntspythntyphntsnpncmpltnss
+:END:
+
+** [#B] [2020-02-05] [[http://calpaterson.com/mypy-hints.html][Applying mypy to real world projects]]: very good intro on configuration & fine tuning :mypy:
+:PROPERTIES:
+:ID:       clptrsncmmypyhntshtmlpplyctsvrygdntrncnfgrtnfntnng
+:END:
+** [#B] [2021-03-08] [[https://beepb00p.xyz/mypy-error-handling.html][mypy-assisted error handling]] :mypy:
+:PROPERTIES:
+:ID:       sbpbpxyzmypyrrrhndlnghtmlmypyssstdrrrhndlng
+:END:
+** [#C] [2020-12-08] [[https://hakibenita.com/python-mypy-exhaustive-checking#type-narrowing-in-mypy][Exhaustiveness Checking with Mypy | Haki Benita]] :mypy:
+:PROPERTIES:
+:ID:       shkbntcmpythnmypyxhstvchchstvnsschckngwthmypyhkbnt
+:END:
+
+** [#C] [2020-01-26] [[https://cjolowicz.github.io/posts/hypermodern-python-04-typing/][Hypermodern Python Chapter 4: Typing · Claudio Jolowicz's website]]
+:PROPERTIES:
+:ID:       scjlwczgthbpstshyprmdrnpyhnchptrtypngcldjlwczswbst
+:END:
+* [#B] * various useful mypy tricks/features                           :mypy:
+:PROPERTIES:
+:ID:       vrssflmypytrcksftrs
+:END:
+** [#A] [2018-10-12] https://mypy.readthedocs.io/en/latest/additional_features.html#dataclasses-support
+:PROPERTIES:
+:ID:       smypyrdthdcsnltstddtnlftrshtmldtclsssspprt
+:END:
+** [#B] ~get_origin/get_args~ is nice for metaprogramming/automatic discovery
+:PROPERTIES:
+:CREATED:  [2019-12-06]
+:ID:       gtrgngtrgssncfrmtprgrmmngtmtcdscvry
+:END:
+: get_origin(Union[T, int]) is Union
+: get_origin(List[Tuple[T, T]][int]) == list
+: get_args(Dict[str, int]) == (str, int)
+: get_args(Union[int, Tuple[T, int]][str]) == (int, Tuple[str, int])
+
+- [2021-03-08] started using it in HPI for automatic output detection
+
+** [#B] [2019-10-26] [[https://mypy.readthedocs.io/en/latest/common_issues.html?highlight=reveal_type#reveal-type][reveal_type]] can be used during the type checking
+:PROPERTIES:
+:ID:       smypyrdthdcsnltstcmmnssshvltypcnbsddrngthtypchckng
+:END:
+=reveal_type(a)  # N: Revealed type is 'builtins.int'=
+: https://github.com/python/mypy/blob/09c243dcc12935b989367f31d1d25d7fd0ec634c/test-data/unit/check-python38.test
+
+https://github.com/python/mypy/blob/master/test-data/unit/README.md
+apparently there is also =reveal_locals()=!
+
+** [#B] [[https://github.com/karlicoss/pymplate/blob/master/mypy.ini][flags I like]]
+:PROPERTIES:
+:ID:       sgthbcmkrlcsspympltblbmstrmypynflgslk
+:END:
+: pretty = True
+: show_error_context = True
+: show_error_codes = True
+: check_untyped_defs = True
+: namespace_packages = True
+
+they probably make sense everywhere, you might even want to add them to ~/.config/mypy/config
+
+*** TODO [#C] =disallow_generic_any= could be good...                  :mypy:
+:PROPERTIES:
+:CREATED:  [2020-05-25]
+:ID:       dsllwgnrcnycldbgd
+:END:
+** STRT [#C] [2020-10-05] =from __future__ import annotations= to be able to write something like =list[int]=
+:PROPERTIES:
+:ID:       frmftrmprtnnttnstbbltwrtsmthnglklstnt
+:END:
+[[https://www.python.org/dev/peps/pep-0585/][PEP 585 -- Type Hinting Generics In Standard Collections | Python.org]]
+: Starting with Python 3.7, when from __future__ import annotations is used, function and variable annotations can parameterize standard collections directly.
+: haystack: dict[str, list[int]]
+** [#C] [2019-12-08] [[https://www.python.org/dev/peps/pep-0484/#version-and-platform-checking][mypy is aware of =sys.version_info=]], it can help for writing backwards compatible code
+:PROPERTIES:
+:ID:       swwwpythnrgdvppsppvrsnndphlpfrwrtngbckwrdscmptblcd
+:END:
+** [#C] [2020-05-06] [[https://mypy.readthedocs.io/en/stable/protocols.html#using-isinstance-with-protocols][Protocols and structural subtyping]] :mypy:
+:PROPERTIES:
+:ID:       smypyrdthdcsnstblprtclshtclsprtclsndstrctrlsbtypng
+:END:
+: You can use a protocol class with isinstance() if you decorate it with the @runtime_checkable class decorator. The decorator adds support for basic runtime structural checks:
+** [#C] [2019-10-12] [[https://mypy.readthedocs.io/en/latest/protocols.html][Protocols and structural subtyping — Mypy]]
+:PROPERTIES:
+:ID:       smypyrdthdcsnltstprtclshtrtclsndstrctrlsbtypngmypy
+:END:
+: isinstance() also works with the predefined protocols in typing such as Iterable.
+** [#D] [2020-08-19] [[https://mypy.readthedocs.io/en/stable/running_mypy.html#reading-a-list-of-files-from-a-file][Reading a list of files from a file]] :mypy:
+:PROPERTIES:
+:ID:       smypyrdthdcsnstblrnnngmypfflsfrmflrdnglstfflsfrmfl
+:END:
+: any command-line argument starting with @ reads additional command-line arguments from the file following the @ character.
+: This is primarily useful if you have a file containing a list of files that you want to be type-checked
+* [#C] * mypy gotchas/bugs                                             :mypy:
+:PROPERTIES:
+:ID:       mypygtchsbgs
+:END:
+** [#A] [2019-12-08] [[https://news.ycombinator.com/item?id=21737700][Statically-typed error handling in Python using Mypy | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdsttcllytyndlngnpythnsngmypyhckrnws
+:END:
+you need 'py.typed' file and also [[https://github.com/karlicoss/pymplate/blob/aa2b12775d190af44c0ea69fe43ae7f98045464e/setup.py#L24][explicitly mentioning it in setup.py]]
+: Third party libraries: I sometimes see them annotated, but what people don't suspect, is that you need to include 'py.typed' file with your package in order for it to be discoverable.
+*** TODO [#B] [2021-03-08] I think it's a really annoying obstacle to typing adoption. Perhaps that's something setuptools could warn the developer about?
+:PROPERTIES:
+:ID:       thnktsrllynnyngbstclttypnthngstptlscldwrnthdvlprbt
+:END:
+** [#B] [2019-03-12] looks like mypy doesn't like the lack of __init__ file, and struggles to discover submodules if it's missing?
+:PROPERTIES:
+:ID:       lkslkmypydsntlkthlckfntflrgglstdscvrsbmdlsftsmssng
+:END:
+My current workaround [[https://github.com/karlicoss/pymplate/blob/master/src/karlicoss_pymplate/__init__.pyi][is using =__init__.pyi=]]
+
+** [#C] [2020-10-31] mypy + multiple python versions                   :mypy:
+:PROPERTIES:
+:ID:       mypymltplpythnvrsns
+:END:
+this is mypy friendly
+: if sys.version_info[:2] >= (3, 8):
+
+this isn't
+: if sys.version_info.minor >= 7:
+** TODO [#D] hmm, aliases aren't working with new annotations? ~Rows = list[list[str]]~ :mypy:
+:PROPERTIES:
+:CREATED:  [2021-02-02]
+:ID:       hmmlssrntwrkngwthnwnnttnsrwslstlststr
+:END:
+: TypeError: 'type' object is not subscriptable
+** TODO [#D] that's odd, behaviour when checking package vs files is different? :mypy:
+:PROPERTIES:
+:CREATED:  [2019-06-02]
+:ID:       thtsddbhvrwhnchckngpckgvsflssdffrnt
+:END:
+mypy wereyouhere/extractors/custom.py
+: wereyouhere/extractors/custom.py:56: error: Unexpected keyword argument "line" for "make" of "Loc"
+: wereyouhere/extractors/custom.py:144: error: Too few arguments for "make" of "Loc"
+
+mypy wereyouhere
+: no errors?
+
+** TODO [#D] shit. I don't get why there is a difference between checking source and directly??? :mypy:
+:PROPERTIES:
+:CREATED:  [2020-09-12]
+:ID:       shtdntgtwhythrsdffrncbtwnchckngsrcnddrctly
+:END:
+: $ mypy my/endomondo.py
+: my/endomondo.py:8: error: Skipping analyzing '.core.common': found module but no type hints or library stubs  [import]
+:     from .core.common import Paths, get_files
+:     ^
+: my/endomondo.py:8: note: See https://mypy.readthedocs.io/en/latest/running_mypy.html#missing-imports
+: my/endomondo.py:39: error: Skipping analyzing '.core.error': found module but no type hints or library stubs  [import]
+:     from .core.error import Res
+:     ^
+: my/endomondo.py:54: error: Skipping analyzing '.core': found module but no type hints or library stubs  [import]
+:         from .core import stat
+:     ^
+: Found 3 errors in 1 file (checked 1 source file)
+: $ mypy -p my.endomondo
+: my/endomondo.py: note: In function "workouts":
+: my/endomondo.py:48: error: Incompatible types in "yield" (actual type "endoapi.endomondo.Workout", expected type "Union[my.endomondo.Workout, Exception]")  [misc]
+:                 yield w
+:                 ^
+: Found 1 error in 1 file (checked 1 source file)
+** TODO [#D] hmm, apparently function parameter/argument names are taken into the account? :mypy:
+:PROPERTIES:
+:CREATED:  [2019-12-07]
+:ID:       hmmpprntlyfnctnprmtrrgmntnmsrtknntthccnt
+:END:
+:  def testx(x: int) -> None:
+:      pass
+: 
+:  def testy(y: int) -> None:
+:      pass
+: 
+:  test = testx
+:  test = testy
+** [#D] [2018-06-20] __all__ and pycharm and mypy                      :mypy:
+:PROPERTIES:
+:ID:       llndpychrmndmypy
+:END:
+TLDR: messing with __all__ results in problems, don't do that..
+I guess I have to be careful on module levels then if I don't want unwanted crap...
+
+** WAIT [#D] error with reusing exception variable: https://github.com/python/mypy/issues/5080
+:PROPERTIES:
+:CREATED:  [2018-08-22]
+:ID:       rrrwthrsngxcptnvrblsgthbcmpythnmypysss
+:END:
+: try:
+:   pass
+: except Exception as e:
+:   pass
+: 
+: for e in []:
+:   pass
+
+* [#C] * typing complicated code                                       :mypy:
+:PROPERTIES:
+:ID:       typngcmplctdcd
+:END:
+** TODO [#B] [2019-11-02] [[https://www.reddit.com/r/Python/comments/79vddc/type_hints_for_naiveaware_datetime_objects][Type hints for naive/aware datetime objects? : Python]] :datetime:mypy:
+:PROPERTIES:
+:ID:       swwwrddtcmrpythncmmntsvddphntsfrnvwrdttmbjctspythn
+:END:
+*** [2019-12-20] use NewType for that?
+:PROPERTIES:
+:ID:       snwtypfrtht
+:END:
+: ndt = NewType('ndt', datetime.datetime)
+: dt = NewType('dt', datetime.datetime)
+: 
+: def dt_to_ndt(dt: dt) -> ndt:
+:     pass
+
+** [#B] [2019-10-27] [[https://github.com/python/mypy/issues/5107][how to define type of =lru_cache=]] (also works on similar decorators)
+:PROPERTIES:
+:ID:       sgthbcmpythnmypyssshwtdfnypflrcchlswrksnsmlrdcrtrs
+:END:
+: from typing import TYPE_CHECKING, TypeVar
+: if TYPE_CHECKING:
+:     F = TypeVar('F', Callable)
+:     def lru_cache(f: F) -> F: pass
+: else:
+:     from functools import lru_cache
+
+
+** [#B] [2020-05-25] [[https://github.com/python/mypy/issues/1927][Making a decorator which preserves function signature · Issue #1927 · python/mypy]] :mypy:
+:PROPERTIES:
+:ID:       sgthbcmpythnmypysssmkngdcsrvsfnctnsgntrsspythnmypy
+:END:
+: from typing import Any, Callable, TypeVar
+: FuncT = TypeVar('FuncT', bound=Callable[..., Any])
+
+ok, this + overrides allowed me to type it properly
+** [#B] [2020-05-03] [[https://github.com/python/mypy/issues/3157#issuecomment-502434084][Support function decorators excellently · Issue #3157 · python/mypy]]
+:PROPERTIES:
+:ID:       sgthbcmpythnmypyssssscmmndcrtrsxcllntlysspythnmypy
+:END:
+: Just for the record: if someone needs to change the return type of the function inside the decorator and still have typed parameters, you can use a custom mypy plugin that literally takes 15 LoC: https://github.com/dry-python/returns/blob/92eda5574a8e41f4f5af4dd29887337886301ee3/returns/contrib/mypy/decorator_plugin.py
+: 
+: Saved me a lot of time!
+** [#C] [2019-12-07] [[https://www.reddit.com/r/Python/comments/8hmjq9/the_other_great_benefit_of_python_type_annotations/dyl1wjt][hack for preventing unnecessary module imports]]
+:PROPERTIES:
+:ID:       swwwrddtcmrpythncmmntshmjkfrprvntngnncssrymdlmprts
+:END:
+Type annotation will require importing modules that you wouldn't need to import without it. However there is now a workaround (quote the name and import in a dead if):
+: if False:
+:     from bar_module import bar
+: 
+: def foo(a: 'bar'):
+:      pass
+
+** [#C] [2019-08-31] [[https://github.com/python/typing/issues/182][Define a JSON type · Issue 182 · python/typing]]
+:PROPERTIES:
+:ID:       sgthbcmpythntypngsssdfnjsntypsspythntypng
+:END:
+: With that and the idea of string self referencing, JSONType can be defined as:
+: 
+: from typing import Recursive, Union, List, Dict
+: 
+: JSONType = Recursive(
+:     "JSONType",
+:     Union[int, float, str, bool, None, List["JSONType"], Dict[str, "JSONType"]]
+: )
+*** [#C] [2019-08-31] .
+:PROPERTIES:
+:ID:       13653_13838
+:END:
+: Unless I'm mistaken, recursive types with ForwardRefs can already be checked correctly at runtime by using ForwardRef._evaluate(globals(), locals())
+** [#C] [2020-11-25] [[https://github.com/python/mypy/issues/1362][Decorated property not supported · Issue #1362 · python/mypy]]
+:PROPERTIES:
+:ID:       sgthbcmpythnmypysssdcrtdprprtyntspprtdsspythnmypy
+:END:
+: As a workaround, you could try defining your own alias to the property decorator that is annotated to return Any. If you use your custom property decorator (that at runtime behaves exactly like property) for all decorated properties, mypy will silently give all such properties the Any type.
+** [#C] [2018-12-11] use =Protocol= for classes which I can't control, they are very neat! :python:mypy:habit:
+:PROPERTIES:
+:ID:       a57ea940-d567-4a15-8a12-1c02fb3116d5
+:END:
+
+
+** [#C] [2021-02-11] [[https://github.com/python/mypy/issues/3028][TypeVar to represent a Callable's arguments (for decorators/wrappers)]]
+:PROPERTIES:
+:ID:       sgthbcmpythnmypyssstypvrtllblsrgmntsfrdcrtrswrpprs
+:END:
+: PEP 612 (https://www.python.org/dev/peps/pep-0612/) ended up providing a similar feature. I think we can close this issue now.
+** TODO [#D] [2019-04-16] mypy overloads                               :mypy:
+:PROPERTIES:
+:ID:       mypyvrlds
+:END:
+: @overload
+: def fetch_data(raw: Literal[True]) -> bytes: ...
+: @overload
+: def fetch_data(raw: Literal[False]) -> str: ...
+: # Fallback overload if the user provides a regular bool
+** [#D] [2019-12-07] Still alive? · Issue 25 · machinalis/mypy-data https://github.com/machinalis/mypy-data/issues/25 :numpy:
+:PROPERTIES:
+:ID:       stlllvssmchnlsmypydtsgthbcmmchnlsmypydtsss
+:END:
+
+* [#D] * other type checking tools                                    :types:
+:PROPERTIES:
+:ID:       thrtypchckngtls
+:END:
+Overall everything I've seen (pyre/pydantic) seems to target large codebases.
+They might make sense for huge monorepos, but if you need to cooperate between many libraries (my usecase) they aren't useful. So I don't know much about them.
+** [#C] [2020-03-12] [[https://pydantic-docs.helpmanual.io/][pydantic]]
+:PROPERTIES:
+:ID:       spydntcdcshlpmnlpydntc
+:END:
+: If validation fails pydantic will raise an error with a breakdown of what was wrong:
+: from pydantic import ValidationError
+: 
+: try:
+:     User(signup_ts='broken', friends=[1, 2, 'not number'])
+: except ValidationError as e:
+:     print(e.json())
+** [#C] [2020-03-22] MonkeyType: A system for Python that automatically generates type annotations | Hacker News https://news.ycombinator.com/item?id=22624845
+:PROPERTIES:
+:ID:       mnkytypsystmfrpythnthttmtnshckrnwssnwsycmbntrcmtmd
+:END:
+: Check out mypy with "--no-any-expression" flag and Pydantic.
+
+* TODO [#A] [2019-09-16] [[https://github.com/typeddjango/awesome-python-typing][typeddjango/awesome-python-typing: Collection of awesome Python types, stubs, plugins, and tools to work with them.]]
+:PROPERTIES:
+:ID:       sgthbcmtypddjngwsmpythntysstbsplgnsndtlstwrkwththm
+:END:
+
+* [#C] [2019-09-27] [[https://www.hillelwayne.com/post/negatypes][Python Negatypes • Hillel Wayne]] :types:
+:PROPERTIES:
+:ID:       swwwhlllwyncmpstngtypspythnngtypshlllwyn
+:END:
+* [#C] [2020-10-03] tried this https://github.com/predictive-analytics-lab/data-science-types seems to give many false positives... :pandas:mypy:
+:PROPERTIES:
+:ID:       trdthssgthbcmprdctvnlytcsscnctypssmstgvmnyflspstvs
+:END:
+* TODO [#C] https://github.com/wemake-services/wemake-python-styleguide/blob/master/styles/mypy.toml :mypy:
+:PROPERTIES:
+:CREATED:  [2019-11-09]
+:ID:       sgthbcmwmksrvcswmkpythnstylgdblbmstrstylsmypytml
+:END:
+
+* STRT [#C] [2019-12-30] [[https://news.ycombinator.com/item?id=19441195][Show HN: FastAPI: build Python APIs with Go-like speed and automatic UI docs | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdshwhnfstpwthglkspdndtmtcdcshckrnws
+:END:
+: To use Python type hints, and get automatic data validation, serialization, and documentation for your API (including interactive UI docs for your API). All that, even for deeply nested JSON bodies. And by using type hints, you get autocomplete everywhere, type error checks, etc.
+: Your API gets documented with standards: OpenAPI and JSON Schema.
+: Or to be able to have WebSockets.
+: Or for its dependency injection system, that saves you a lot of code and plugins.
+: You can check the features here: https://fastapi.tiangolo.com/features/
+: And you can see alternatives and comparisons here: https://fastapi.tiangolo.com/alternatives/
+** [2020-03-01] ok, nice, so it uses mypy types, not custom types (like hug?)
+:PROPERTIES:
+:ID:       kncstssmypytypsntcstmtypslkhg
+:END:
+* STRT [#C] stricter mypy flags
+:PROPERTIES:
+:CREATED:  [2019-07-25]
+:ID:       strctrmypyflgs
+:END:
+: --strict                  Strict mode; enables the following flags:
+: 
+: --warn-unused-ignores
+: --warn-redundant-casts
+: 
+: --warn-unused-configs
+: --disallow-subclassing-any
+: --disallow-any-generics
+: --disallow-untyped-calls
+: --disallow-untyped-defs
+: --disallow-incomplete-defs
+: --check-untyped-defs
+: --disallow-untyped-decorators
+: --no-implicit-optional
+: --warn-return-any
+
+- [2021-03-08] frankly it never stuck to me to use any of these except --check-untyped-defs
+* TODO [#C] hmm, seems like fastapi always has to be wrapped in pydantic. ugh!
+:PROPERTIES:
+:CREATED:  [2020-03-12]
+:ID:       hmmsmslkfstplwyshstbwrppdnpydntcgh
+:END:
+run with uvicorn fa:app --reload --port 9090
+
+: from typing import NamedTuple
+: from fastapi import FastAPI
+: app = FastAPI()
+: from dataclasses import dataclass
+
+
+: @dataclass
+: class X:
+:     a: int
+:     x: str
+: 
+: @app.get("/", response_model=X)
+: async def root() -> X:
+:     return X(a=123, x="fwef")
+
+
+* CNCL [#C] PathIsh thing can be generalized to Path constructible?    :mypy:
+:PROPERTIES:
+:CREATED:  [2019-05-02]
+:ID:       pthshthngcnbgnrlzdtpthcnstrctbl
+:END:
+** [2019-06-28] not sure if __init__ would do well? https://mypy.readthedocs.io/en/latest/protocols.html
+:PROPERTIES:
+:ID:       ntsrfntwlddwllsmypyrdthdcsnltstprtclshtml
+:END:
+** [2019-08-24] eh, so os.PathLike[str] kinda solves it, but using .pyi file for that is not really worth it
+:PROPERTIES:
+:ID:       hsspthlkstrkndslvstbtsngpyflfrthtsntrllywrtht
+:END:
+* TODO [#D] [2019-04-12] need =py.typed= for injector?
+:PROPERTIES:
+:ID:       ndpytypdfrnjctr
+:END:
+* TODO [#D] seems like a bug in fbmessenger export (on a branch)       :mypy:
+:PROPERTIES:
+:CREATED:  [2020-01-13]
+:ID:       smslkbgnfbmssngrxprtnbrnch
+:END:
+
+* -------------------------------------------------
+:PROPERTIES:
+:ID:       19746_19798
+:END:

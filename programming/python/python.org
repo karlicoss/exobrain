@@ -331,11 +331,6 @@ https://stackoverflow.com/questions/16184487/use-ipython-magic-functions-in-ipdb
 : That’s a part of python’s data model like `len`, `reversed`, `iter`, …:
 : `datetime` simply defines [`datetime.__format__`](https://docs.python.org/3/library/datetime.html#datetime.date.__format__). The method [is explained here](https://docs.python.org/3/reference/datamodel.html#object.__format__).
 
-* TODO [#B] [2019-09-16] typeddjango/awesome-python-typing: Collection of awesome Python types, stubs, plugins, and tools to work with them. https://github.com/typeddjango/awesome-python-typing
-:PROPERTIES:
-:ID:       typddjngwsmpythntypngcllchbcmtypddjngwsmpythntypng
-:END:
-
 * [#B] [2019-05-11] To yield or not to yield                          :yield:
 :PROPERTIES:
 :ID:       tyldrnttyld
@@ -552,12 +547,6 @@ hmm, minimalistic travis is not so bad..
 :END:
 https://stackoverflow.com/questions/2295290/what-do-lambda-function-closures-capture
 : Scoping in Python is dynamic and lexical. A closure will always remember the name and scope of the variable, not the object it's pointing to.
-* [#C] [2019-09-27] Python Negatypes • Hillel Wayne                  :typing:
-:PROPERTIES:
-:ID:       pythnngtypshlllwyn
-:END:
-https://www.hillelwayne.com/post/negatypes/
-
 * [#C] [2019-12-30] argparse — Parser for command-line options, arguments and sub-commands — Python 3.8.1 documentation
 :PROPERTIES:
 :ID:       rgprsprsrfrcmmndlnptnsrgmntsndsbcmmndspythndcmnttn
@@ -1004,7 +993,7 @@ https://github.com/python-poetry/poetry/issues/222
 * TODO [#C] eee                                                     :ipython:
 :PROPERTIES:
 :CREATED:  [2019-04-14]
-:ID:       34009_34472
+:ID:       33687_34150
 :END:
 
 :  ldisplay_md("hi")
@@ -1203,29 +1192,6 @@ https://news.ycombinator.com/item?id=22787332
 :ID:       sgthbcmpypstptlsblbmstrstlstptlsntpytmstrpypstptls
 :END:
 why is it not including files at all??
-* TODO [#C] hmm, seems like fastapi always has to be wrapped in pydantic. ugh!
-:PROPERTIES:
-:CREATED:  [2020-03-12]
-:ID:       hmmsmslkfstplwyshstbwrppdnpydntcgh
-:END:
-run with uvicorn fa:app --reload --port 9090
-
-: #!/usr/bin/env python3
-: from typing import NamedTuple
-: from fastapi import FastAPI
-: 
-: app = FastAPI()
-: 
-: from dataclasses import dataclass
-: 
-: @dataclass
-: class X:
-:     a: int
-:     x: str
-: 
-: @app.get("/", response_model=X)
-: async def root() -> X:
-:     return X(a=123, x="fwef")
 * [#B] keeping testss side by side with code                         :pytest:
 :PROPERTIES:
 :CREATED:  [2020-04-30]
@@ -1284,12 +1250,6 @@ https://dev.to/wemake-services/simple-dependent-types-in-python-4e14
 :END:
 : cell-var-from-loop -- can detect bad lambda capturing
 :  pylint --disable='C,fixme,'
-* [#C] [2020-01-26] Hypermodern Python Chapter 4: Typing · Claudio Jolowicz's website
-:PROPERTIES:
-:ID:       hyprmdrnpythnchptrtypngcldjlwczswbst
-:END:
-https://cjolowicz.github.io/posts/hypermodern-python-04-typing/
-: Typeguard is a runtime type checker for Python:
 * STRT [#B] try using devpi for uploading?                              :tox:
 :PROPERTIES:
 :CREATED:  [2019-08-02]
@@ -1374,11 +1334,6 @@ pretty good comparizon
 :    for_pypi = building_for_pypi()
 :            'my': [] if for_pypi else ['HPI @ git+https://github.com/karlicoss/my.git'],
 :        },
-* [#C] [2019-11-29] typeddjango/awesome-python-typing: Collection of awesome Python types, stubs, plugins, and tools to work with them.
-:PROPERTIES:
-:ID:       typddjngwsmpythntypngcllcsstbsplgnsndtlstwrkwththm
-:END:
-https://github.com/typeddjango/awesome-python-typing
 * [#C] [2020-03-14] jestem króliczkiem on Twitter: "or, you can encode dependencies in types: @dataclass(init=False) class FancyPath: path: Path mtime: float def __init__(self, path: Path): self.path = path self.mtime = path.stat().st_mtime" / Twitter :cachew:python:
 :PROPERTIES:
 :ID:       jstmkrólczkmntwttrrycnncdpthslfmtmpthsttstmtmtwttr
@@ -1880,11 +1835,6 @@ shit. I guess this explains why it was finding mypkgs...
 :ID:       hlvwsrgnstlltnhlvwsdcmnttn
 :END:
 : HoloViews is an open-source Python library designed to make data analysis and visualization seamless and simple. With HoloViews, you can usually express what you want to do in very few lines of code, letting you focus on what you are trying to explore and convey, not on the process of plotting.
-* [#D] [2020-05-08] [[https://pyfound.blogspot.com/2020/04/the-path-forward-for-typing-python.html][Python Software Foundation News: The path forward for typing - Python Language Summit 2020]]
-:PROPERTIES:
-:ID:       spyfndblgsptcmthpthfrwrdffrwrdfrtypngpythnlnggsmmt
-:END:
-: Thanks to this PEP, types which had been defined like List[int] can now be spelled list[int], with a lowercase "L". As Van Rossum told the Python Language Summit, "We want to avoid a world where users have to remember, 'Here I have to use a capital-L List and here I use a lowercase-L list.'"
 * [#C] [2021-02-14] ok, naming test modules the same as originals doesn't end up well... :python:
 :PROPERTIES:
 :ID:       knmngtstmdlsthsmsrgnlsdsntndpwll
@@ -1943,3 +1893,11 @@ reasonable list (aka why python logging sucks by default)
 :PROPERTIES:
 :ID:       thbjrnpydpspythnmdldpndncygrphssgthbcmthbjrnpydps
 :END:
+
+* [#C] [2020-05-15] [[https://dmerej.info/blog/post/hello-flake8/][Hello flake8 • Dimitri Merejkowsky]] :pylint:
+:PROPERTIES:
+:ID:       sdmrjnfblgpsthllflkhllflkdmtrmrjkwsky
+:END:
+: Itamar Turner-Trauring 2, in the comment section on dev.to gave an interesting example:
+
+handling accidental variable capture in closures
