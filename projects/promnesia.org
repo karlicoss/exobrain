@@ -583,11 +583,6 @@ this would be a good demo for 'mark visited'
 :END:
 I think I've figured out how to read hackernews 'new' page
 
-* TODO [#B] if 'children' relations can't be determined by substring matching, perhaps cannon should generate 'virtual' urls? :promnesia:cannon:
-:PROPERTIES:
-:CREATED:  [2019-10-13]
-:ID:       fchldrnrltnscntbdtrmndbysgprhpscnnnshldgnrtvrtlrls
-:END:
 * CANCEL [#B] ugh, something's not working with release build in firefox??
 :PROPERTIES:
 :CREATED:  [2020-05-02]
@@ -1158,7 +1153,7 @@ allow breaking down important and unimportant schema parts from extensions?
 :END:
 ** [2019-08-01] ??
 :PROPERTIES:
-:ID:       41690_41719
+:ID:       41493_41522
 :END:
 * TODO [#C] open in new tab from search?
 :PROPERTIES:
@@ -2929,12 +2924,6 @@ But that manifested in lots of spurious errors for various edge cases, so I had 
 :CREATED:  [2019-12-25]
 :ID:       hghlghtcssstylngmngftrs
 :END:
-* TODO [#B] Urls a good candidate because they sure at least somewhat curated :cannon:
-:PROPERTIES:
-:CREATED:  [2019-09-07]
-:ID:       rlsgdcnddtbcsthysrtlstsmwhtcrtd
-:END:
-
 * TODO [#C] attempt to implement uniform engine for annotation: not necessary for hypothesis to do so :promnesia:
 :PROPERTIES:
 :CREATED:  [2019-07-15]
@@ -3047,4 +3036,10 @@ someone from Matrix nyxt suggested it's similar?
 * [#C] [2021-02-07] [[https://discourse.atlas.engineer/c/nyxt/5][Latest Nyxt topics - Atlas]] :promnesia:
 :PROPERTIES:
 :ID:       sdscrstlsngnrcnyxtltstnyxttpcstls
+:END:
+
+* TODO [#C] right, url extraction: https://github.com/lipoja/URLExtract/issues/13#issuecomment-467635302 and also I guess cut off trailing dots?
+:PROPERTIES:
+:CREATED:  [2019-02-26]
+:ID:       rghtrlxtrctnsgthbcmlpjrlxscmmntndlsgssctfftrlngdts
 :END:

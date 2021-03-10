@@ -547,11 +547,10 @@ https://github.com/sympy/sympy/pull/7625/files
 :PROPERTIES:
 :ID:       mtrlstcppfrhckrnws
 :END:
-** TODO [2019-12-21] [#C] set link as a title when sharing??
+** TODO [2019-12-21] [#C] set link as a title when sharing?? https://github.com/hidroh/materialistic/issues/1075
 :PROPERTIES:
-:ID:       cstlnksttlwhnshrng
+:ID:       cstlnksttlwhnshrngsgthbcmhdrhmtrlstcsss
 :END:
-https://github.com/hidroh/materialistic/issues/1075
 
 ** TODO [#C] Hn materialistic: change view on press
 :PROPERTIES:
@@ -605,18 +604,12 @@ https://github.com/hypothesis/client/issues/12
 :ID:       ktwsprtllyrslvdtlsttxpndsbltythghcnslydspppntnwsrs
 :END:
 
-** TODO [#C] [2019-02-20] hypothesis/client: The Hypothesis web-based annotation client.
+** TODO [#C] [2019-02-20] [[https://github.com/hypothesis/client][hypothesis/client: The Hypothesis web-based annotation client.]]
 :PROPERTIES:
-:ID:       hypthssclntthhypthsswbbsdnnttnclnt
+:ID:       sgthbcmhypthssclnthypthssntthhypthsswbbsdnnttnclnt
 :END:
-https://github.com/hypothesis/client
 : Join us on Slack - request an invite or log in once you've already created an account - or in #hypothes.is on freenode for discussion.
 : If you'd like to contribute to the project, you should consider subscribing to the development mailing list, where we can help you plan your contributions.
-*** TODO [2021-01-16] disuss about cannon                     :cannon:outbox:
-:PROPERTIES:
-:ID:       dsssbtcnnn
-:END:
-
 ** TODO [#C] doesn't work on hackernews, some content-security policy thing :hypothesis:
 :PROPERTIES:
 :CREATED:  [2020-02-27]
@@ -725,7 +718,7 @@ using #gitbug instead now
 
 * --------------------------------
 :PROPERTIES:
-:ID:       24310_24346
+:ID:       24212_24248
 :END:
 
 * STRT [#C] share link and content                                    :tusky:

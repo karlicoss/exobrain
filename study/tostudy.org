@@ -3659,7 +3659,7 @@ https://t.co/44YfxUYhsh
 
 * ---------------------------------------
 :PROPERTIES:
-:ID:       190248_190321
+:ID:       190249_190322
 :END:
 processing on [2021-01-31]
 * TODO [#C] Tweet from @mekarpeles                                  :chinese:
@@ -3689,7 +3689,7 @@ https://twitter.com/nmwsharp/status/1153993638134910977
 
 * ----------------------------------------------
 :PROPERTIES:
-:ID:       191307_191356
+:ID:       191308_191357
 :END:
 * TODO [#C] [2021-01-22] [[http://bach.ai/pub/ECAP10%20Joscha%20Bach%20on%20AI%20singularity.pdf][ECAP10 Joscha Bach on AI singularity.pdf]]
 :PROPERTIES:

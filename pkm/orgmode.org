@@ -748,7 +748,7 @@ could prob improve, e.g. detect actual stars?
 * TODO use ,. for refiling to current file                            :habit:
 :PROPERTIES:
 :CREATED:  [2021-01-04]
-:ID:       sfrrflngtcrrntfl
+:ID:       9e3f6cae-b141-4d52-95be-dd8410eacc68
 :END:
 * TODO [#C] have a repository of org-mode demo files? generate it w.r.t to today so it's easy to demonstrate? org could hack current day somehow, but that could be tricky
 :PROPERTIES:

@@ -1,191 +1,250 @@
-#+TITLE: Cannon
+#+TITLE: ⭐ Cannon
 #+filetags: cannon
 
-Cannon is a project? (algorithm? not sure) to compute canonical/normalised URLs.
+Cannon is an idea for a project attempting to compute canonical/normalised URLs and extract some information from them ('entities'), merely by looking at the URL, and ideally without using the "rel=canonical" metadata.
+I describe the problem it tries to solve here: [[https://beepb00p.xyz/promnesia.html#urls_broken]["urls are broken"]], also see "motivation".
 
-At the moment it's a subproject of [[promnesia]]
-https://github.com/karlicoss/promnesia/blob/master/src/promnesia/cannon.py
+At the moment it's a subproject of promnesia: see [[https://github.com/karlicoss/promnesia/blob/master/src/promnesia/cannon.py][cannon.py]]
+and [[https://github.com/karlicoss/promnesia/blob/master/tests/cannon.py][tests/cannon.py]].
 
-I describe the problem it tries to solve here https://beepb00p.xyz/promnesia.html#urls_broken
+If anyone knows of similar efforts/prior art, *please let me know*! I'd really like to avoid reinvening the wheel here.
 
-
-* TODO [#B] [2020-05-12] [[https://github.com/coleifer/micawber][coleifer/micawber: a small library for extracting rich content from urls]]
+* related
 :PROPERTIES:
-:ID:       sgthbcmclfrmcwbrclfrmcwbrryfrxtrctngrchcntntfrmrls
+:ID:       rltd
 :END:
-* TODO [#C] [2019-09-03] Page Not Found (404) · PyPI
+** promnesia as a primary application (for me)                    :promnesia:
 :PROPERTIES:
-:ID:       pgntfndpyp
+:ID:       prmnssprmrypplctnfrm
 :END:
-https://pypi.org/project/cannon
-* TODO [#B] [2019-05-24] Annotation of content on sites like Facebook or Twitter? - Google Groups :hypothesis:
+** .                                                                :linkrot:
 :PROPERTIES:
-:ID:       nnttnfcntntnstslkfcbkrtwttrgglgrps
-:END:
- https://groups.google.com/a/list.hypothes.is/forum/#!topic/dev/kcmS7H8ssis
-kinda related since the guy basically wants canonical urls
-* STRT [#B] would be convenient to normalise reddit annotations so annotations from all comments would be collected
-:PROPERTIES:
-:CREATED:  [2019-05-06]
-:ID:       wldbcnvnnttnrmlsrddtnnttnttnsfrmllcmmntswldbcllctd
-:END:
-* STRT [#B] [2019-06-23] A Brief Intro to Topological Quantum Field Theories. - YouTube
-:PROPERTIES:
-:ID:       brfntrttplgclqntmfldthrsytb
-:END:
- https://www.youtube.com/watch?v=59uLGIrkMxM&list=WL&index=61&t=0s
-eh, rules might be a bit complicated. E.g. if both v and list are present, we wanna ditch list, otherwise keep list
-* STRT [#C] [2019-04-20] Aharonov-Bohm Experiment
-:PROPERTIES:
-:ID:       hrnvbhmxprmnt
-:END:
-https://physicstravelguide.com/experiments/aharonov-bohm#tab__concrete
-url normalising... this is an example where hashes are important
-** [2019-08-26] here I guess it could yield url with hash + parent url?
-:PROPERTIES:
-:ID:       hrgsstcldyldrlwthhshprntrl
-:END:
-** TODO [2019-08-26] always assume that parents in uri hierarchy are actual parents? I guess that's fairly reasonable
-:PROPERTIES:
-:ID:       lwysssmthtprntsnrhrrchyrctlprntsgssthtsfrlyrsnbl
-:END:
-* TODO [#C] right, url extraction: https://github.com/lipoja/URLExtract/issues/13#issuecomment-467635302 and also I guess cut of trailing dots?
-:PROPERTIES:
-:CREATED:  [2019-02-26]
-:ID:       rghtrlxtrctnsgthbcmlpjrlxsscmmntndlsgssctftrlngdts
+:ID:       863_878
 :END:
 
-* TODO [#C] m.wikipedia normalisation could also be useful for hypothesis? :hypothesis:
+* [#A] * motivation
 :PROPERTIES:
-:CREATED:  [2019-07-23]
-:ID:       mwkpdnrmlstncldlsbsflfrhypthss
+:ID:       mtvtn
 :END:
-** [2019-07-23] mm, it's got canonical though..
+Once you are sold on motivation in this section, and wondering why would this require a separate library/database, check out "testcases" section.
+** [#A] [2020-04-04] I want urls that represent information, regardless the way it's presented
 :PROPERTIES:
-:ID:       mmtsgtcnnclthgh
+:ID:       wntrlsthtrprsntnfrmtnrgrdlssthwytsprsntd
 :END:
-** TODO [2019-07-23] perhaps promnesia should respond both to canonical and its own idea of normalised (preferring canonical)
+let alone all the tracking/etc crap
+*** [#B] [2020-05-23] "document equivalence" is a good term: [[https://web.hypothes.is/help/how-to-establish-or-avoid-document-equivalence-in-the-hypothesis-system/][How to establish (or avoid) document equivalence in the Hypothesis system : Hypothesis]]
 :PROPERTIES:
-:ID:       prhpsprmnsshldrspndbthtcndtswndfnrmlsdprfrrngcnncl
+:ID:       dcmntqvlncsgdtrmswbhypthslncnthhypthsssystmhypthss
 :END:
-* TODO [#C] X.m.wikipedia.org
+** [#B] why not use "rel=canonical" metadata field?
 :PROPERTIES:
-:CREATED:  [2019-07-23]
-:ID:       xmwkpdrg
+:ID:       whyntsrlcnnclmtdtfld
 :END:
-* TODO [#C] semiconductors video should be unified properly. well, or again hierarchical thing? might be too spammy for 'watch later'
+*** [#B] [2020-05-27] [[https://news.ycombinator.com/item?id=23322730][Google no longer providing original URL in AMP for image search results]]
 :PROPERTIES:
-:CREATED:  [2019-07-15]
-:ID:       smcndctrsvdshldbnfdprprlylthngmghtbtspmmyfrwtchltr
+:ID:       snwsycmbntrcmtmdgglnlngrpdngrgnlrlnmpfrmgsrchrslts
 :END:
-* STRT [#D] should be more defensive
+*** [#B] [2019-10-11] mobile versions of sites sometimes have different "canonical", e.g. mobile.twitter.com
 :PROPERTIES:
-:CREATED:  [2019-06-05]
-:ID:       shldbmrdfnsv
+:ID:       mblvrsnsfstssmtmshvdffrntcnnclgmbltwttrcm
 :END:
-:  ValueError: netloc ' +79869929087, mak34@gmail.com' contains invalid characters under NFKC normalization
-** [2019-08-26] did I do it?
+No one would argue that a tweet is the same regardless where it's presented, yet there is no easy way to unify this
+*** [#C] [2020-05-28] archive.org is messing with canonical          :cannon:
 :PROPERTIES:
-:ID:       dddt
+:ID:       rchvrgsmssngwthcnncl
 :END:
-* TODO [#C] reddit: tested on https://www.reddit.com/r/explainlikeimfive/comments/1vavyq/eli5_godels_ontological_proof/ceqlupx/ :hypothesis:
+*** [#D] [2019-11-02] e.g. this link doesn't have 'canonical' even though it's a mirror: https://solar.lowtechmagazine.com/2016/11/the-curse-of-the-modern-office.html
 :PROPERTIES:
-:CREATED:  [2019-07-09]
-:ID:       rddttstdnswwwrddtcmrxplnltsvvyqlgdlsntlgclprfcqlpx
+:ID:       gthslnkdsnthvcnnclvnthghtmgzncmthcrsfthmdrnffchtml
 :END:
-huh, so reddit seems to normalise to the main page, and displays annotations as 'orphaned' for comment views?
-** [2019-07-09] so look like reddit referes to the 'post' page as canonical. Right.
+*** [#D] [2019-11-08] no canonical on gist https://gist.github.com/dneto/2258454
 :PROPERTIES:
-:ID:       slklkrddtrfrstthpstpgscnnclrght
+:ID:       ncnnclngstsgstgthbcmdnt
 :END:
-* TODO [#C] hmm some local and remote pages may overlap
+same as https://gist.github.com/2258454 -- hmm, this thing redirects now..
+** [#B] [2019-08-19] parent and sibling relations can be determined from the URL :cannon:promnesia:
 :PROPERTIES:
-:CREATED:  [2019-07-13]
-:ID:       hmmsmlclndrmtpgsmyvrlp
+:ID:       prntndsblngrltnscnbdtrmndfrmthrl
 :END:
-e.g. this is very likely to be mapped to normal py docss
-file:/usr/share/doc/python3/html/library/contextlib.html
+e.g. subreddit-post/user-comment/user-tweet, etc.
+** [#B] [2019-11-01] if the original page is gone I can still easily link my saved annotations (Instapaper/Pocket/Hypothesis) to archived page
+:PROPERTIES:
+:ID:       fthrgnlpgsgncnstllslylnkmnstpprpckthypthsstrchvdpg
+:END:
+https://web.archive.org/web/20090902224414/http://reason.com/news/show/119237.html
+** [#B] [2019-09-07] urls a good candidate to determine 'entities' because they sure at least somewhat curated :cannon:
+:PROPERTIES:
+:ID:       rlsgdcnddttdtrmnnttsbcsthysrtlstsmwhtcrtd
+:END:
+** [#C] [2019-02-24] normalization is tricky.. for some urls, stuff after # is important https://en.wikipedia.org/wiki/Tendon#cite_note-14 . for some, it's utter garbage
+:PROPERTIES:
+:ID:       nrmlztnstrckyfrsmrlsstfffrgwktndnctntfrsmtsttrgrbg
+:END:
+however we can sort of get away with normalizing on server only?
+** DONE [#C] [2019-08-07] The Problem With URLs https://blog.codinghorror.com/the-problem-with-urls/
+:PROPERTIES:
+:ID:       thprblmwthrlssblgcdnghrrrcmthprblmwthrls
+:END:
+- [2019-08-27] not very insigntful, example of msdn with weird characters in urls
+** [#C] [2020-01-02] motivation: siloing: instapaper 'imports' pages and assigns an id: https://www.instapaper.com/read/1265139707
+:PROPERTIES:
+:ID:       mtvtnslngnstpprmprtspgsndssgnsndswwwnstpprcmrd
+:END:
+so you can't connect your annotations on instapaper to notes etc
 
-* [#B] [2019-07-09] h/uri.py at 0fc8a0d345741d43b4f80856a7cbb8f5afa70f80 · hypothesis/h :hypothesis:
+** [#C] [2021-03-07] could normalize historic URLs which are already down? :linkrot:
 :PROPERTIES:
-:ID:       hrpytfcddbfcbbfffhypthssh
+:ID:       cldnrmlzhstrcrlswhchrlrdydwn
 :END:
-https://github.com/hypothesis/h/blob/0fc8a0d345741d43b4f80856a7cbb8f5afa70f80/h/util/uri.py
-** [2019-07-09] blacklisted query params!
+perhaps not super useful if we can't access them, but still
+* [#A] * projects that could benefit from it
 :PROPERTIES:
-:ID:       blcklstdqryprms
+:ID:       prjctsthtcldbnftfrmt
 :END:
-** [2019-07-09] right, I could probably reuse hypothesis's canonify and contribute back. looks very similar to mine
+Apart from Promnesia, I believe it could be quite useful for other projects.
+** STRT [#B] [2019-06-27] Hmm could be helpful for hypothesis?   :hypothesis:
+:PROPERTIES:
+:ID:       hmmcldbhlpflfrhypthss
+:END:
+- [2020-04-29] write about it? the future?
+*** NEXT [#B] [2021-01-16] discuss about cannon (maybe on Slack)? :hypothesis:cannon:
+:PROPERTIES:
+:ID:       dscssbtcnnnmybnslck
+:END:
+*** [#C] [2019-05-24] [[https://groups.google.com/a/list.hypothes.is/forum/#!topic/dev/kcmS7H8ssis][Annotation of content on sites like Facebook or Twitter? - Google Groups]] :hypothesis:
+:PROPERTIES:
+:ID:       sgrpsgglcmlsthypthssfrmtpntnstslkfcbkrtwttrgglgrps
+:END:
+kinda related since they basically want canonical urls
+** TODO [#B] [2021-01-30] [[https://community.worldbrain.io/t/ignore-url-parameters/551/5][Ignore URL parameters - Feature Requests - Memex Community]] :worldbrain:
+:PROPERTIES:
+:ID:       scmmntywrldbrntgnrrlprmtrrlprmtrsftrrqstsmmxcmmnty
+:END:
+** TODO [#C] [2021-01-22] wonder if we could cooperate?        :agora:cannon:
+:PROPERTIES:
+:ID:       wndrfwcldcprt
+:END:
+** TODO [#C] [2021-01-24] would be useful to use the same normalising engine for #archivebox for example? :webarchive:
+:PROPERTIES:
+:ID:       wldbsfltsthsmnrmlsngngnfrrchvbxfrxmpl
+:END:
+- [2021-03-10] although I guess it needs to fetch the page anyway so "rel=canonical" works we ll enough
+** TODO [#C] [2021-02-07] could be useful for surfingkey/nyxt browser to hint 'interesting' urls?
+:PROPERTIES:
+:ID:       cldbsflfrsrfngkynyxtbrwsrthntntrstngrls
+:END:
+** STRT [#C] [2019-12-26] archive.org                               :linkrot:
+:PROPERTIES:
+:ID:       rchvrg
+:END:
+e.g. if the link is not present in archive.org, it doesn't mean it's not archived under a different canonical
+** TODO [#C] if it's implemented as a helper extension/library, it could be useful for many other extensions
+:PROPERTIES:
+:CREATED:  [2020-11-17]
+:ID:       ftsmplmntdshlprxtnsnlbrrytcldbsflfrmnythrxtnsns
+:END:
+e.g. blockers, various highlighters, hypothesis, etc
+** TODO [#D] [2020-12-07] [[https://github.com/einaregilsson/Redirector][einaregilsson/Redirector: Browser extension (Firefox, Chrome, Opera, Edge) to redirect urls based on regex patterns, like a client side =mod_rewrite= ]]
+:PROPERTIES:
+:ID:       sgthbcmnrglssnrdrctrnrglsdnrgxpttrnslkclntsdmdrwrt
+:END:
+** TODO [#D] [2020-11-20] could reuse URL underlying etc with ampie?  :ampie:
+:PROPERTIES:
+:ID:       cldrsrlndrlyngtcwthmp
+:END:
+* [#A] * prior art
+:PROPERTIES:
+:ID:       prrrt
+:END:
+URL normalization algorithm should be shared with other projects to the maximum extent possible.
+If not the exact algorithm, at least the 'curated' parts of it like regexes, testcases, etc should be shared.
+It's a crap boring work that should be only done once (e.g. like timezones database).
+
+** TODO [#A] [2020-06-30] [[https://github.com/ClearURLs/Addon#application][ClearURLs / Addon]]: looks super super promising
+:PROPERTIES:
+:ID:       sgthbcmclrrlsddnpplctnclrrlsddnlkssprsprprmsng
+:END:
+: Once ClearURLs has cleaned the address, it will look like this: https://www.amazon.com/dp/exampleProduct
+*** [2021-03-10] https://github.com/ClearURLs/Addon/wiki/Rules:  Not super convinced JSON would work well in general, but anyway it's already pretty good.
+:PROPERTIES:
+:ID:       sgthbcmclrrlsddnwkrlsntsplngnrlbtnywytslrdyprttygd
+:END:
+** TODO [#B] [2020-11-22] [[https://github.com/WorldBrain/memex-url-utils][WorldBrain/memex-url-utils: Shared URL processing utilities for Memex extension and mobile apps.]] :worldbrain:
+:PROPERTIES:
+:ID:       sgthbcmwrldbrnmmxrltlswrlsngtltsfrmmxxtnsnndmblpps
+:END:
+** TODO [#B] [2019-07-09] h/uri.py at 0fc8a0d345741d43b4f80856a7cbb8f5afa70f80 · hypothesis/h https://github.com/hypothesis/h/blob/0fc8a0d345741d43b4f80856a7cbb8f5afa70f80/h/util/uri.py :hypothesis:
+:PROPERTIES:
+:ID:       hrpytfcddbfcbbfffhypthsshhsshblbfcddbfcbbfffhtlrpy
+:END:
+*** [2019-07-09] excluded query params!
+:PROPERTIES:
+:ID:       xclddqryprms
+:END:
+*** [2019-07-09] right, I could probably reuse hypothesis's canonify and contribute back. looks very similar to mine
 :PROPERTIES:
 :ID:       rghtcldprbblyrshypthssscnyndcntrbtbcklksvrysmlrtmn
 :END:
 
-* DONE [#B] [2019-02-18] make sure ? extracted correctly
+** TODO [#B] [2020-05-12] [[https://github.com/coleifer/micawber][coleifer/micawber: a small library for extracting rich content from urls]]
 :PROPERTIES:
-:ID:       mksrxtrctdcrrctly
+:ID:       sgthbcmclfrmcwbrclfrmcwbrryfrxtrctngrchcntntfrmrls
 :END:
-https://play.google.com/store/apps/details?id=com.faultexception.reader
+*** [2021-03-10] ok, pretty interesting. it probably uses network, but could at least use it for testing (or maybe even 'enriching'?)
+:PROPERTIES:
+:ID:       kprttyntrstngtprbblyssntwtlststfrtstngrmybvnnrchng
+:END:
+** TODO [#C] [2019-03-27] [[https://github.com/sindresorhus/compare-urls][sindresorhus/compare-urls: Compare URLs by first normalizing them]]
+:PROPERTIES:
+:ID:       sgthbcmsndrsrhscmprrlssndlscmprrlsbyfrstnrmlzngthm
+:END:
+: compareUrls('HTTP://sindresorhus.com/?b=b&a=a', 'sindresorhus.com/?a=a&b=b');
+*** [#C] [2019-12-25] [[https://github.com/sindresorhus/normalize-url][sindresorhus/normalize-url]]
+:PROPERTIES:
+:ID:       sgthbcmsndrsrhsnrmlzrlsndrsrhsnrmlzrl
+:END:
+=stripWWW= can't handle amp etc
+** TODO [#C] [2019-07-09] [[https://github.com/hypothesis/h/blob/0fc8a0d345741d43b4f80856a7cbb8f5afa70f80/tests/h/cli/commands/normalize_uris_test.py][hypothesis: ~h/normalize_uris_test.py~]]
+:PROPERTIES:
+:ID:       sgthbcmhypthsshblbfcddbfctstpyhypthsshnrmlzrststpy
+:END:
 
-* DONE [2019-05-04] Yuck, the monospace font feels too dense, and dislike the serifs. | Hacker News
+** TODO [#C] [2019-04-16] [[https://github.com/niksite/url-normalize][niksite/url-normalize: URL normalization for Python]]
 :PROPERTIES:
-:ID:       yckthmnspcfntflstdnsnddslkthsrfshckrnws
+:ID:       sgthbcmnkstrlnrmlznkstrlnrmlzrlnrmlztnfrpythn
 :END:
-https://news.ycombinator.com/item?id=12973788
-id here is important
-
-
-* TODO [#D] handle google.com/search
+** TODO [#C] [2020-04-27] [[https://github.com/john-kurkowski/tldextract][john-kurkowski/tldextract: Accurately separate the TLD from the registered domain and subdomains of a URL, using the Public Suffix List.]]
 :PROPERTIES:
-:ID:       hndlgglcmsrch
+:ID:       sgthbcmjhnkrkwsktldxtrctjsbdmnsfrlsngthpblcsffxlst
 :END:
+hmm could use this for better extraction...
+** TODO [#C] [2019-03-27] [[https://github.com/rbaier/python-urltools][rbaier/python-urltools: Some functions to parse and normalize URLs.]]
 :PROPERTIES:
-:CREATED:  [2019-06-02]
-* TODO [#C] hmm, server doesn't normalise properly?? (url escaping)
-:PROPERTIES:
-:CREATED:  [2019-06-02]
-:ID:       hmmsrvrdsntnrmlsprprlyrlscpng
+:ID:       sgthbcmrbrpythnrltlsrbrpytlssmfnctnstprsndnrmlzrls
 :END:
-: ru.wikipedia.org/wiki/Грамматикализация
-* TODO [#D] [2019-08-25] Lisp Language
+* [#B] * ideas
 :PROPERTIES:
-:ID:       lsplngg
+:ID:       ds
 :END:
-http://wiki.c2.com/?LispLanguage
-canonify
-* STRT [#C] archive.org                                             :linkrot:
+** [#B] [2021-03-07] maybe we can achieve 95% accuracy with generic rules and by handling the most popular websites
 :PROPERTIES:
-:CREATED:  [2019-12-26]
-:ID:       rchvrg
+:ID:       mybwcnchvccrcywthgnrcrlsndbyhndlngthmstpplrwbsts
 :END:
-* TODO [#C] should be idempotent?
+for the rest
+- allow user to customize
+- allow user to submit normalization errors (where?)
+** TODO [#B] if 'children' relations can't be determined by substring matching, perhaps cannon should generate 'virtual' urls? :promnesia:cannon:
 :PROPERTIES:
-:CREATED:  [2019-09-03]
-:ID:       shldbdmptnt
+:CREATED:  [2019-10-13]
+:ID:       fchldrnrltnscntbdtrmndbysgprhpscnnnshldgnrtvrtlrls
 :END:
-* [#C] [2020-01-02] motivation: On Privacy versus Freedom | Matrix.org
+** TODO [#B] a special service to resolve siloed links like t.co ?  :linkrot:
 :PROPERTIES:
-:ID:       mtvtnnprvcyvrssfrdmmtrxrg
+:CREATED:  [2020-04-29]
+:ID:       spclsrvctrslvsldlnkslktc
 :END:
-https://www.instapaper.com/read/1265139707
-instapaper 'imports' pages and assigns an id
-so you can't connect your annotations on instapaper to notes etc
-* CANCEL [#D] http://lifebio.wiki/флуоксетин-прозак didn't handle
-:PROPERTIES:
-:CREATED:  [2019-07-14]
-:ID:       lfbwkфлуоксетинпрозакddnthndl
-:END:
-* TODO [#B] roam links
-:PROPERTIES:
-:CREATED:  [2020-04-19]
-:ID:       rmlnks
-:END:
-* TODO [#C] [2019-03-27] rbaier/python-urltools: Some functions to parse and normalize URLs.
-:PROPERTIES:
-:ID:       rbrpythnrltlssmfnctnstprsndnrmlzrls
-:END:
-https://github.com/rbaier/python-urltools
-
-* STRT [#B] just specify admissible regexes for urls so it's easier to unify?
+Could also be useful for Archive.org/archivebox/etc. But a bit out of scope for this project..
+** STRT [#B] just specify admissible regexes for urls so it's easier to unify?
 :PROPERTIES:
 :CREATED:  [2019-11-08]
 :ID:       jstspcfydmssblrgxsfrrlsstssrtnfy
@@ -205,135 +264,13 @@ maybe stripp off subdom completely?
 
 youtube.com/watch?v=xAy---wp_DQ&list=PL0k_yDgrqAiU_EF5d7krLIds1ebhTxCjm&shuffle=221
 youtube.com/watch?v=Woa3MPijE3s&list=PL0k_yDgrqAiXKspaa1GIS0jbbLrsAa3sk&spfreload=10
-** [2019-11-09] also this to summarize
+*** [2019-11-09] also this to summarize
 :PROPERTIES:
 :ID:       lsthstsmmrz
 :END:
 sqlite3 promnesia.sqlite 'select domain, count(domain) from (select substr(norm_url, 0, instr(norm_url, "/")) as domain from visits) group by domain order by count(domain)'
 
-* TODO [#C] old.reddit and new reddit
-:PROPERTIES:
-:CREATED:  [2020-01-12]
-:ID:       ldrddtndnwrddt
-:END:
-* TODO [#C] maybe https://youtu.be/zRxI0DaQrag?t=1380 ?
-:PROPERTIES:
-:CREATED:  [2019-11-15]
-:ID:       mybsytbzrxdqrgt
-:END:
-* TODO [#C] github: https://twitter.com/i/web/status/928602151286386688 this end up trimmed with ... :(
-:PROPERTIES:
-:CREATED:  [2019-11-09]
-:ID:       gthbstwttrcmwbsttsthsndptrmmdwth
-:END:
-* TODO [#C] github: https://twitter.com/i/web/status/1156086851633131520
-:PROPERTIES:
-:CREATED:  [2019-11-07]
-:ID:       gthbstwttrcmwbstts
-:END:
-* TODO [#A] [2020-06-30] [[https://gitlab.com/KevinRoebert/ClearUrls][Kevin R. / ClearURLs · GitLab]]
-:PROPERTIES:
-:ID:       sgtlbcmkvnrbrtclrrlskvnrclrrlsgtlb
-:END:
-: Once ClearURLs has cleaned the address, it will look like this: https://www.amazon.com/dp/exampleProduct
-* TODO Reuse url cleaning tools?
-:PROPERTIES:
-:CREATED:  [2020-06-29]
-:ID:       rsrlclnngtls
-:END:
-: Regarding the cleaning of URLs, are you aware of the ClearURLs [1] extension? It seems to achieve much of what you're trying to do.
-
-[1]: https://gitlab.com/KevinRoebert/ClearUrls
-
-* STRT [#C] [2020-04-30] [[http://www.defmacro.org/2016/12/22/writing-well.html][Writing well | defmacro]]
-:PROPERTIES:
-:ID:       wwwdfmcrrgwrtngwllhtmlwrtngwlldfmcr
-:END:
-support for archive.org and test on this page
-* [2020-11-15] [[https://www.youtube.com/c/Wendoverproductions/videos][Wendover Productions - YouTube]]
-:PROPERTIES:
-:ID:       swwwytbcmcwndvrprdctnsvdswndvrprdctnsytb
-:END:
-
-* [2020-11-22] [[https://melpa.org/#/async][async - MELPA]]
-:PROPERTIES:
-:ID:       smlprgsyncsyncmlp
-:END:
-
-* TODO [#C] could reuse URL underlying etc with ampie?                :ampie:
-:PROPERTIES:
-:CREATED:  [2020-11-20]
-:ID:       cldrsrlndrlyngtcwthmp
-:END:
-* [2020-11-30] [[https://news.ycombinator.com/news][Hacker News]]
-:PROPERTIES:
-:ID:       snwsycmbntrcmnwshckrnws
-:END:
-: https://www.c-span.org/video/?c4808083/rust-language-chosen
-* [2020-12-04] [[https://unix.stackexchange.com/questions/117609/capture-error-of-ls-to-file#comment183614_117609][shell - Capture Error of LS to file - Unix & Linux Stack Exchange]]
-:PROPERTIES:
-:ID:       snxstckxchngcmqstnscptrrrtrrrrflstflnxlnxstckxchng
-:END:
-
-* [2020-12-07] [[https://github.com/einaregilsson/Redirector][einaregilsson/Redirector: Browser extension (Firefox, Chrome, Opera, Edge) to redirect urls based on regex patterns, like a client side mod_rewrite.]]
-:PROPERTIES:
-:ID:       sgthbcmnrglssnrdrctrnrglsdnrgxpttrnslkclntsdmdrwrt
-:END:
-
-* TODO [2020-12-09] [[https://news.ycombinator.com/item?id=25356757][Detecting the use of “curl – bash” server side (2016) | Hacker News]]
-:PROPERTIES:
-:ID:       snwsycmbntrcmtmddtctngthsfcrlbshsrvrsdhckrnws
-:END:
-: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=955208
-* TODO hmm, maybe the extension can learn normalisation ruls over time? by looking at canonical and refining the rules?
-:PROPERTIES:
-:CREATED:  [2020-12-20]
-:ID:       hmmmybthxtnsncnlrnnrmlstnmbylkngtcnnclndrfnngthrls
-:END:
-* TODO sample random links and their canonicals for testing
-:PROPERTIES:
-:CREATED:  [2020-12-20]
-:ID:       smplrndmlnksndthrcnnclsfrtstng
-:END:
-* TODO [#C] [2019-03-27] sindresorhus/compare-urls: Compare URLs by first normalizing the
-:PROPERTIES:
-:ID:       sndrsrhscmprrlscmprrlsbyfrstnrmlzngth
-:END:
-https://github.com/sindresorhus/compare-urls
-: compareUrls('HTTP://sindresorhus.com/?b=b&a=a', 'sindresorhus.com/?a=a&b=b');
-* [#C] [2019-07-09] h/normalize_uris_test.py at 0fc8a0d345741d43b4f80856a7cbb8f5afa70f80 · hypothesis/h
-:PROPERTIES:
-:ID:       hnrmlzrststpytfcddbfcbbfffhypthssh
-:END:
-https://github.com/hypothesis/h/blob/0fc8a0d345741d43b4f80856a7cbb8f5afa70f80/tests/h/cli/commands/normalize_uris_test.py
-
-* [#C] [2019-04-16] niksite/url-normalize: URL normalization for Python
-:PROPERTIES:
-:ID:       nkstrlnrmlzrlnrmlztnfrpythn
-:END:
-https://github.com/niksite/url-normalize
-
-* [#D] [2020-11-18] [[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3603021][Vanquishing ‘Monsters’ in Foundations of Computer Science: Euclid, Dedekind, Frege, Russell, Gödel, Wittgenstein, Church, Turing, and Jaśkowski didn’t get them all … by Carl Hewitt :: SSRN]]
-:PROPERTIES:
-:ID:       spprsssrncmslpprscfmbstrckddntgtthmllbycrlhwttssrn
-:END:
-
-* [#D] better regex fox url extraction
-:PROPERTIES:
-:ID:       bttrrgxfxrlxtrctn
-:END:
-eh, urls can have commas...  e.g. http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
-so, for csv need a separate extractor.
-* TODO [#A] [2020-11-22] [[https://github.com/WorldBrain/memex-url-utils][WorldBrain/memex-url-utils: Shared URL processing utilities for Memex extension and mobile apps.]] :worldbrain:
-:PROPERTIES:
-:ID:       sgthbcmwrldbrnmmxrltlswrlsngtltsfrmmxxtnsnndmblpps
-:END:
-* TODO [#C] [2020-11-16] [[https://twitter.com/amogh_jalihal/status/1328393853599059970][normalise DOI]]
-:PROPERTIES:
-:ID:       stwttrcmmghjlhlsttsnrmlsd
-:END:
-: Ah sure: This DOI: https://doi.org/10.1073/pnas.1211902109  should lead to this paper: https://pnas.org/content/109/48/E3324 .
-* STRT [#C] rethinking the whole approach...
+** STRT [#B] rethinking the whole approach...
 :PROPERTIES:
 :CREATED:  [2020-11-15]
 :ID:       rthnkngthwhlpprch
@@ -370,304 +307,275 @@ TODO how about this?
 https://news.ycombinator.com/reply?id=25100810&goto=item%3Fid%3D25099862%2325100810
 it's a reply to       https://news.ycombinator.com/item?id=25100035
 which is a comment to https://news.ycombinator.com/item?id=25099862
-* TODO [#C] use shared JS/python tests for canonifying?       :ffi:promnesia:
+** TODO [#C] use shared JS/python tests for canonifying?      :ffi:promnesia:
 :PROPERTIES:
 :CREATED:  [2020-11-12]
 :ID:       sshrdjspythntstsfrcnnfyng
 :END:
-* [#C] [2020-05-28] Wayback Machine
+** TODO [#C] [2019-09-03] should be idempotent?
 :PROPERTIES:
-:ID:       wybckmchn
+:ID:       shldbdmptnt
 :END:
-https://web.archive.org/web/2019*/http://www.defmacro.org/2016/12/22/writing-well.html
-
-* [#C] [2020-06-16] [[https://news.ycombinator.com/item?id=23537243#23540421][Syncthing is everything I used to love about computers | Hacker News]]
+** TODO [#C] hmm, maybe the extension can learn normalisation ruls over time? by looking at canonical and refining the rules?
 :PROPERTIES:
-:ID:       snwsycmbntrcmtmdsyncthngsythngsdtlvbtcmptrshckrnws
+:CREATED:  [2020-12-20]
+:ID:       hmmmybthxtnsncnlrnnrmlstnmbylkngtcnnclndrfnngthrls
 :END:
-
-* TODO [#C] could write a service to resolve t.co links...          :linkrot:
+** TODO [#C] sample random links and their canonicals for testing
 :PROPERTIES:
-:CREATED:  [2020-04-29]
-:ID:       cldwrtsrvctrslvtclnks
+:CREATED:  [2020-12-20]
+:ID:       smplrndmlnksndthrcnnclsfrtstng
 :END:
-* TODO [#C] how do we prune links that are potentially not secure to store? like URL parameters
-:PROPERTIES:
-:CREATED:  [2020-05-20]
-:ID:       hwdwprnlnksthtrptntllyntscrtstrlkrlprmtrs
-:END:
-* TODO [#C] background thing that sucks in canonical urls???      :promnesia:
+** TODO [#C] background thing that sucks in canonical urls and provides data for testing? :promnesia:
 :PROPERTIES:
 :CREATED:  [2020-05-12]
-:ID:       bckgrndthngthtscksncnnclrls
+:ID:       bckgrndthngthtscksncnnclrlsndprvdsdtfrtstng
 :END:
-* [#C] [2020-05-11] [[https://medium.com/@WorldBrain/vision-mission-values-2020-update-d70aa35a638#0b0b][Vision, Mission & Values — 2020 Update - WorldBrain.io - Medium]]
+** TODO [#C] how do we prune links that are potentially not secure to store? like certain URL parameters
+:PROPERTIES:
+:CREATED:  [2020-05-20]
+:ID:       hwdwprnlnksthtrptntllyntscrtstrlkcrtnrlprmtrs
+:END:
+** TODO [#D] need checks that url don't contain stupid shit like trailing colons etc
+:PROPERTIES:
+:CREATED:  [2019-02-24]
+:ID:       ndchcksthtrldntcntnstpdshtlktrlngclnstc
+:END:
+* [#C] * testcases
+:PROPERTIES:
+:ID:       tstcss
+:END:
+Some tricky cases which would be nice to get right
+
+** [#B] [2020-11-15] [[https://www.youtube.com/c/Wendoverproductions/videos][Wendover Productions - YouTube]]
+:PROPERTIES:
+:ID:       swwwytbcmcwndvrprdctnsvdswndvrprdctnsytb
+:END:
+
+** [#B] [2020-04-19] roam links
+:PROPERTIES:
+:ID:       rmlnks
+:END:
+** [#B] [2021-02-07] https://app.element.io/#/room/#blockchain:fosdem.org :cannon:
+:PROPERTIES:
+:ID:       spplmntrmblckchnfsdmrg
+:END:
+** [#B] [2021-02-16] [[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3745973][A Relational Turn for Data Protection? by Neil M. Richards, Woodrow Hartzog :: SSRN]] :cannon:
+:PROPERTIES:
+:ID:       spprsssrncmslpprscfmbstrcnbynlmrchrdswdrwhrtzgssrn
+:END:
+abstract_id
+** STRT [#B] [2019-06-23] A Brief Intro to Topological Quantum Field Theories. - YouTube https://www.youtube.com/watch?v=59uLGIrkMxM&list=WL&index=61&t=0s
+:PROPERTIES:
+:ID:       brfntrttplgclqntmfldthrsybcmwtchvlgrkmxmlstwlndxts
+:END:
+eh, rules might be a bit complicated. E.g. if both v and list are present, we wanna ditch list, otherwise keep list
+** TODO [#B] [2020-11-16] [[https://twitter.com/amogh_jalihal/status/1328393853599059970][normalise DOI]]
+:PROPERTIES:
+:ID:       stwttrcmmghjlhlsttsnrmlsd
+:END:
+: Ah sure: This DOI: https://doi.org/10.1073/pnas.1211902109  should lead to this paper: https://pnas.org/content/109/48/E3324 .
+** TODO [#C] m.wikipedia normalisation could also be useful for hypothesis? :hypothesis:
+:PROPERTIES:
+:CREATED:  [2019-07-23]
+:ID:       mwkpdnrmlstncldlsbsflfrhypthss
+:END:
+*** [2019-07-23] X.m.wikipedia.org
+:PROPERTIES:
+:ID:       xmwkpdrg
+:END:
+*** [2019-07-23] mm, it's got canonical though..
+:PROPERTIES:
+:ID:       mmtsgtcnnclthgh
+:END:
+*** TODO [2019-07-23] perhaps promnesia should respond both to canonical and its own idea of normalised (preferring canonical)
+:PROPERTIES:
+:ID:       prhpsprmnsshldrspndbthtcndtswndfnrmlsdprfrrngcnncl
+:END:
+** STRT [#C] [2019-04-20] fragments: Aharonov-Bohm Experiment https://physicstravelguide.com/experiments/aharonov-bohm#tab__concrete
+:PROPERTIES:
+:ID:       frgmntshrnvbhmxprmntsphysgdcmxprmntshrnvbhmtbcncrt
+:END:
+url normalising... this is an example where fragments are important
+*** [2019-08-26] here I guess it could yield url with hash + parent url?
+:PROPERTIES:
+:ID:       hrgsstcldyldrlwthhshprntrl
+:END:
+*** TODO [2019-08-26] always assume that parents in uri hierarchy are actual parents? I guess that's fairly reasonable
+:PROPERTIES:
+:ID:       lwysssmthtprntsnrhrrchyrctlprntsgssthtsfrlyrsnbl
+:END:
+** [#C] [2019-08-25] stuff like this:  youtu.be/1TKSfAkWWN0
+:PROPERTIES:
+:ID:       stfflkthsytbtksfkwwn
+:END:
+*** [2019-08-25] this is also motivation for canonifying. this is a redirect link in tweet, and there is no way to associate it with canonical
+:PROPERTIES:
+:ID:       thsslsmtvtnfrcnnfyngthssrwtndthrsnwytsscttwthcnncl
+:END:
+** [#C] [2020-05-02] https://hubs.mozilla.com/#/                     :cannon:
+:PROPERTIES:
+:ID:       shbsmzllcm
+:END:
+
+** [#C] [2020-04-30] [[http://www.defmacro.org/2016/12/22/writing-well.html][Writing well | defmacro]]
+:PROPERTIES:
+:ID:       wwwdfmcrrgwrtngwllhtmlwrtngwlldfmcr
+:END:
+support for archive.org and test on this page
+*** [#C] [2020-05-28] Wayback Machine https://web.archive.org/web/2019*/http://www.defmacro.org/2016/12/22/writing-well.html
+:PROPERTIES:
+:ID:       wybckmchnswbrchvrgwbwwwdfmcrrgwrtngwllhtml
+:END:
+
+** [#C] [2019-11-15] maybe https://youtu.be/zRxI0DaQrag?t=1380 ?
+:PROPERTIES:
+:ID:       mybsytbzrxdqrgt
+:END:
+** [#C] [2019-11-09] github: https://twitter.com/i/web/status/928602151286386688 this end up trimmed with ... :(
+:PROPERTIES:
+:ID:       gthbstwttrcmwbsttsthsndptrmmdwth
+:END:
+** [#C] [2019-11-07] github: https://twitter.com/i/web/status/1156086851633131520
+:PROPERTIES:
+:ID:       gthbstwttrcmwbstts
+:END:
+** [#C] [2021-01-24] https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=941827 :cannon:
+:PROPERTIES:
+:ID:       sbgsdbnrgcgbnbgrprtcgbg
+:END:
+:  https://wiki.debian.org/SecureBoot#MOK_-_Machine_Owner_Keycanonical: wiki.debian.org/SecureBootsources : notes[[https://wiki.debian.org/SecureBoot][SecureBoot - Debian Wiki]]
+** [#C] [2021-02-28] https://undeadly.org/cgi?action=article;sid=20170930133438 :cannon:
+:PROPERTIES:
+:ID:       snddlyrgcgctnrtclsd
+:END:
+'sid' matters here
+** TODO [#C] hmm, server doesn't normalise properly?? (url escaping)
+:PROPERTIES:
+:CREATED:  [2019-06-02]
+:ID:       hmmsrvrdsntnrmlsprprlyrlscpng
+:END:
+: ru.wikipedia.org/wiki/Грамматикализация
+** TODO [#C] semiconductors video should be unified properly. well, or again hierarchical thing? might be too spammy for 'watch later'
+:PROPERTIES:
+:CREATED:  [2019-07-15]
+:ID:       smcndctrsvdshldbnfdprprlylthngmghtbtspmmyfrwtchltr
+:END:
+** [#C] [2019-12-23] https://cstheory.stackexchange.com/questions/1920/examples-of-unrelated-mathematics-playing-a-fundamental-role-in-tcs/1925#1925: need parent link to trigger on this in cannon
+:PROPERTIES:
+:ID:       scsthrystckxchngcmqstnsxmsndprntlnkttrggrnthsncnnn
+:END:
+** [#C] [2020-06-16] https://news.ycombinator.com/item?id=23537243#23540421 hmm, both id and # ?
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdhmmbthdnd
+:END:
+** [#C] [2020-02-08] https://bugzilla.mozilla.org/show_bug.cgi?id=1411873 : ugh need to keep id
+:PROPERTIES:
+:ID:       sbgzllmzllrgshwbgcgdghndtkpd
+:END:
+** TODO [#C] [2020-01-12] old.reddit and new reddit
+:PROPERTIES:
+:ID:       ldrddtndnwrddt
+:END:
+** [#D] [2019-06-02] handle google.com/search
+:PROPERTIES:
+:ID:       hndlgglcmsrch
+:END:
+** [#D] [2020-11-30] https://www.c-span.org/video/?c4808083/rust-language-chosen the ? is sneaky
+:PROPERTIES:
+:ID:       swwwcspnrgvdcrstlnggchsnthssnky
+:END:
+** [#D] [2020-11-22] https://melpa.org/#/async # is just redundant?
+:PROPERTIES:
+:ID:       smlprgsyncsjstrdndnt
+:END:
+** [#D] [2019-08-25] Lisp Language http://wiki.c2.com/?LispLanguage ? is sneaky
+:PROPERTIES:
+:ID:       lsplnggwkccmlsplnggssnky
+:END:
+** [#D] better regex for url extraction
+:PROPERTIES:
+:ID:       bttrrgxfrrlxtrctn
+:END:
+eh, urls can have commas...  e.g. http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
+so, for csv need a separate extractor.
+** [#D] [2020-11-18] [[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3603021][Vanquishing ‘Monsters’ in Foundations of Computer Science: Euclid, Dedekind, Frege, Russell, Gödel, Wittgenstein, Church, Turing, and Jaśkowski didn’t get them all … by Carl Hewitt :: SSRN]]
+:PROPERTIES:
+:ID:       spprsssrncmslpprscfmbstrckddntgtthmllbycrlhwttssrn
+:END:
+
+** STRT [#D] should be more defensive
+:PROPERTIES:
+:CREATED:  [2019-06-05]
+:ID:       shldbmrdfnsv
+:END:
+:  ValueError: netloc ' +79869929087, mak34@gmail.com' contains invalid characters under NFKC normalization
+*** [2019-08-26] did I do it?** [2020-12-09] https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=955208 'bug' parameter
+:PROPERTIES:
+:ID:       dddtsbgsdbnrgcgbnbgrprtcgbgbgprmtr
+:END:
+** [2020-12-04] https://unix.stackexchange.com/questions/117609/capture-error-of-ls-to-file#comment183614_117609
+:PROPERTIES:
+:ID:       snxstckxchngcmqstnscptrrrrflstflcmmnt
+:END:
+** DONE [#B] [2019-02-18] make sure ? extracted correctly https://play.google.com/store/apps/details?id=com.faultexception.reader
+:PROPERTIES:
+:ID:       mksrxtrctdcrrctlysplygglcmstrppsdtlsdcmfltxcptnrdr
+:END:
+
+** DONE [#C] [2019-05-04] https://news.ycombinator.com/item?id=12973788
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmd
+:END:
+id here is important
+
+* [#D] * misc
+:PROPERTIES:
+:ID:       msc
+:END:
+** STRT [#B] would be convenient to normalise reddit annotations so annotations from all comments would be collected
+:PROPERTIES:
+:CREATED:  [2019-05-06]
+:ID:       wldbcnvnnttnrmlsrddtnnttnttnsfrmllcmmntswldbcllctd
+:END:
+** TODO [#C] [2019-09-03] potential pypi project? https://pypi.org/project/cannon
+:PROPERTIES:
+:ID:       ptntlpypprjctspyprgprjctcnnn
+:END:
+** TODO [#C] hypothesis: wonder how it works on timestamped archive.org stuff?
+:PROPERTIES:
+:CREATED:  [2019-11-01]
+:ID:       hypthsswndrhwtwrksntmstmpdrchvrgstff
+:END:
+** TODO [#C] hmm some local and remote pages may overlap
+:PROPERTIES:
+:CREATED:  [2019-07-13]
+:ID:       hmmsmlclndrmtpgsmyvrlp
+:END:
+e.g. this is very likely to be mapped to normal py docss
+file:/usr/share/doc/python3/html/library/contextlib.html
+
+** [#C] [2020-05-11] [[https://medium.com/@WorldBrain/vision-mission-values-2020-update-d70aa35a638#0b0b][Vision, Mission & Values — 2020 Update - WorldBrain.io - Medium]]
 :PROPERTIES:
 :ID:       smdmcmwrldbrnvsnmssnvlspdbbvsnmssnvlspdtwrldbrnmdm
 :END:
 fragments are often random and useless
 even default org-mode is guilty
-* [#C] [2020-04-27] [[https://github.com/john-kurkowski/tldextract][john-kurkowski/tldextract: Accurately separate the TLD from the registered domain and subdomains of a URL, using the Public Suffix List.]]
+** [#C] [2019-07-09] Changed how threading works. by JakeHartnell · Pull Request 952 · hypothesis/h https://github.com/hypothesis/h/pull/952 :hypothesis:reddit:
 :PROPERTIES:
-:ID:       sgthbcmjhnkrkwsktldxtrctjsbdmnsfrlsngthpblcsffxlst
+:ID:       chngdhwthrdngwrksbyjkhrtnypthsshsgthbcmhypthsshpll
 :END:
-hmm could use this for better extraction...
-* [#C] [2019-12-25] sindresorhus/normalize-url: Normalize a URL
+** TODO [#C] reddit: tested on https://www.reddit.com/r/explainlikeimfive/comments/1vavyq/eli5_godels_ontological_proof/ceqlupx/ :hypothesis:
 :PROPERTIES:
-:ID:       sndrsrhsnrmlzrlnrmlzrl
+:CREATED:  [2019-07-09]
+:ID:       rddttstdnswwwrddtcmrxplnltsvvyqlgdlsntlgclprfcqlpx
 :END:
-https://github.com/sindresorhus/normalize-url
-: stripWWW
-
-there is stripWWW, but it can't handle amp etc
-* [#C] [2019-12-23] reference request - Examples of "Unrelated" Mathematics Playing a Fundamental Role in TCS? - Theoretical Computer Science Stack Exchange
+huh, so reddit seems to normalise to the main page, and displays annotations as 'orphaned' for comment views?
+*** [2019-07-09] so look like reddit referes to the 'post' page as canonical. Right.
 :PROPERTIES:
-:ID:       rfrncrqstxmplsfnrltdmthmtsthrtclcmptrscncstckxchng
+:ID:       slklkrddtrfrstthpstpgscnnclrght
 :END:
-https://cstheory.stackexchange.com/questions/1920/examples-of-unrelated-mathematics-playing-a-fundamental-role-in-tcs/1925#1925
-need parent link to trigger on this in cannon
-* TODO [#C] [2020-02-08] 1411873 - "An unexpected error occurred" when requesting optional permission (origin)
+* --------------------------------------------------
 :PROPERTIES:
-:ID:       nnxpctdrrrccrrdwhnrqstngptnlprmssnrgn
+:ID:       20721_20774
 :END:
-https://bugzilla.mozilla.org/show_bug.cgi?id=1411873
-ugh need to keep id
-* TODO [#C] need checks that url don't contain stupid shit like trailing colons etc
-:PROPERTIES:
-:CREATED:  [2019-02-24]
-:ID:       ndchcksthtrldntcntnstpdshtlktrlngclnstc
-:END:
-* [#C] [2019-07-09] Changed how threading works. by JakeHartnell · Pull Request 952 · hypothesis/h :hypothesis:reddit:
-:PROPERTIES:
-:ID:       chngdhwthrdngwrksbyjkhrtnllpllrqsthypthssh
-:END:
-https://github.com/hypothesis/h/pull/952
-: reddit
-* TODO [#C] canonify within the browser could be useful for different extensions as well...
-:PROPERTIES:
-:CREATED:  [2020-11-17]
-:ID:       cnnfywthnthbrwsrcldbsflfrdffrntxtnsnsswll
-:END:
-e.g. blockers, various highlighters, hypothesis, etc
-** [2020-11-21] could also share with #Ampie ..
-:PROPERTIES:
-:ID:       cldlsshrwthmp
-:END:
-* DONE [#B] [2019-08-07] The Problem With URLs
-:PROPERTIES:
-:ID:       thprblmwthrls
-:END:
-https://blog.codinghorror.com/the-problem-with-urls/
-** [2019-08-27] not very insigntful, example of msdn with weird characters in urls
-:PROPERTIES:
-:ID:       ntvrynsgntflxmplfmsdnwthwrdchrctrsnrls
-:END:
-* DONE [#B] normalise links
-:PROPERTIES:
-:ID:       nrmlslnks
-:END:
-** STRT strip off & ? first, on reddit. not sure if should be default
-:PROPERTIES:
-:ID:       strpfffrstnrddtntsrfshldbdflt
-:END:
-*** ok, it's better to overstrip than understrip. overstripping -- you are gonna notice; understripping -- you won't
-:PROPERTIES:
-:ID:       ktsbttrtvrstrpthnndrstrpvpngyrgnnntcndrstrppngywnt
-:END:
-*** DONE ok, so ? is useful on yahoo answers (qid parameter)
-:PROPERTIES:
-:ID:       ksssflnyhnswrsqdprmtr
-:END:
-*** DONE there is pretty useless usg param?
-:PROPERTIES:
-:ID:       thrsprttyslsssgprm
-:END:
-*** TODO ? askville amazon request id
-:PROPERTIES:
-:ID:       skvllmznrqstd
-:END:
-*** DONE [#A] definitely bad idea to cut off ? for youtube!!
-:PROPERTIES:
-:ID:       dfntlybddtctfffrytb
-:END:
-*** TODO [#D] wtf with remaining &/? in urls.json??
-:PROPERTIES:
-:ID:       wtfwthrmnngnrlsjsn
-:END:
-*** DONE amp.reddit.com -> amp. just strip off "^amp.", same for m.reddit.com
-:PROPERTIES:
-:ID:       mprddtcmmpjststrpffmpsmfrmrddtcm
-:END:
-*** DONE www.?
-:PROPERTIES:
-:ID:       www
-:END:
-*** TODO chop off /
-:PROPERTIES:
-:ID:       chpff
-:END:
-** TODO [#C] normalisation rules should probably be in config. or at least overridable?
-:PROPERTIES:
-:ID:       nrmlstnrlsshldprbblybncnfgrtlstvrrdbl
-:END:
-** DONE code duplication between js and python
-:PROPERTIES:
-:ID:       cddplctnbtwnjsndpythn
-:END:
-shit, jiphy can't even handle arrrays
-maybe normalise all in js? but that sort of sucks...
-well, it's kinda fine now...
-
-
-* related                                                         :promnesia:
-:PROPERTIES:
-:ID:       rltd
-:END:
-* TODO [2019-11-02] The Curse of the Modern Office | LOW←TECH MAGAZINE
-:PROPERTIES:
-:ID:       thcrsfthmdrnffclwtchmgzn
-:END:
-https://solar.lowtechmagazine.com/2016/11/the-curse-of-the-modern-office.html
-e.g. that link doesn't have 'canonical' even though it's a mirror
-* TODO would be useful to use the same normalising engine for #archivebox for example? :webarchive:
-:PROPERTIES:
-:CREATED:  [2021-01-24]
-:ID:       wldbsfltsthsmnrmlsngngnfrrchvbxfrxmpl
-:END:
-* TODO wonder if we could cooperate?                           :agora:cannon:
-:PROPERTIES:
-:CREATED:  [2021-01-22]
-:ID:       wndrfwcldcprt
-:END:
-* TODO [#B] [2020-05-23] [[https://web.hypothes.is/help/how-to-establish-or-avoid-document-equivalence-in-the-hypothesis-system/][How to establish (or avoid) document equivalence in the Hypothesis system : Hypothesis]]
-:PROPERTIES:
-:ID:       swbhypthsshlphwtstblshrvdlncnthhypthsssystmhypthss
-:END:
-"document equivalence"
-* TODO [#B] I want urls that represent information, regardless the way it's presented
-:PROPERTIES:
-:CREATED:  [2020-04-04]
-:ID:       wntrlsthtrprsntnfrmtnrgrdlssthwytsprsntd
-:END:
-let alone all the tracking/etc crap
-* TODO [#C] motivation: twitter and mobile twitter
-:PROPERTIES:
-:CREATED:  [2019-10-11]
-:ID:       mtvtntwttrndmbltwttr
-:END:
-Generally mobile version of sites are good motivation.
-No one would argue that TODO link to tweets are exactly the same thing from the 'informational' perspective, yet there is no easy way to unify them
-TODO demonstrate <canonical> attribute
-* TODO [#D] [2019-11-02] motivation: The Curse of the Modern Office | LOW←TECH MAGAZINE https://solar.lowtechmagazine.com/2016/11/the-curse-of-the-modern-office.html
-:PROPERTIES:
-:ID:       mtvtnthcrsfthmdrnffclwtchmgzncmthcrsfthmdrnffchtml
-:END:
-e.g. that link doesn't have 'canonical' even though it's a mirror
-
-* TODO [#D] motivation: no canonical on gist
-:PROPERTIES:
-:CREATED:  [2019-11-08]
-:ID:       mtvtnncnnclngst
-:END:
-https://gist.github.com/dneto/2258454
-same as https://gist.github.com/2258454 -- hmm, this thing redirects now..
-* STRT [#C] Hmm could be helpful for hypothesis?
-:PROPERTIES:
-:CREATED:  [2019-06-27]
-:ID:       hmmcldbhlpflfrhypthss
-:END:
-- [2020-04-29] write about it? the future?
-
-* TODO [#C] stuff like this:  youtu.be/1TKSfAkWWN0
-:PROPERTIES:
-:CREATED:  [2019-08-25]
-:ID:       stfflkthsytbtksfkwwn
-:END:
-** [2019-08-25] this is also motivation for canonifying. this is a redirect link in tweet, and there is no way to associate it with canonical
-:PROPERTIES:
-:ID:       thsslsmtvtnfrcnnfyngthssrwtndthrsnwytsscttwthcnncl
-:END:
-* TODO [#C] Google no longer providing original URL in AMP for image search results :promnesia:cannon:
-:PROPERTIES:
-:CREATED:  [2020-05-27]
-:ID:       gglnlngrprvdngrgnlrlnmpfrmgsrchrslts
-:END:
-
-: Google no longer providing original URL in AMP for image search results - https://news.ycombinator.com/item?id=23322730
-
-* TODO [2020-04-29] [[https://news.ycombinator.com/item?id=23015742][> I’ve already pulled down my 2-300GB Google Photos archive How? I've tried sev... | Hacker News]] :promnesia:cannon:
-:PROPERTIES:
-:ID:       snwsycmbntrcmtmdvlrdyplldglphtsrchvhwvtrdsvhckrnws
-:END:
-comment - submission relations
-* STRT [2019-02-24] normalization is tricky.. for some urls, stuff after # is important https://en.wikipedia.org/wiki/Tendon#cite_note-14 . for some, it's utter garbage
-:PROPERTIES:
-:ID:       nrmlztnstrckyfrsmrlsstfffrgwktndnctntfrsmtsttrgrbg
-:END:
-however we can sort of get away with normalizing on server only?
-* [2020-05-02] https://hubs.mozilla.com/#/                           :cannon:
-:PROPERTIES:
-:ID:       shbsmzllcm
-:END:
-
-* TODO [2020-05-28] archive.org is messing with canonical            :cannon:
-:PROPERTIES:
-:ID:       rchvrgsmssngwthcnncl
-:END:
-* TODO [#C] motivation for using your own normalization
-:PROPERTIES:
-:CREATED:  [2019-11-01]
-:ID:       mtvtnfrsngyrwnnrmlztn
-:END:
-
-e.g. if the original page is gone I can still easily link my saved annotations to archived page
-
-https://web.archive.org/web/20090902224414/http://reason.com/news/show/119237.html
-* TODO hypothesis: wonder how it works on timestamped archive.org stuff?
-:PROPERTIES:
-:CREATED:  [2019-11-01]
-:ID:       hypthsswndrhwtwrksntmstmpdrchvrgstff
-:END:
-* TODO [#C] parent and sibling relations                   :cannon:promnesia:
-:PROPERTIES:
-:CREATED:  [2019-08-19]
-:ID:       prntndsblngrltns
-:END:
-* [2021-01-30] [[https://community.worldbrain.io/t/ignore-url-parameters/551/5][Ignore URL parameters - ⭐️Feature Requests - Memex Community]] :cannon:
-:PROPERTIES:
-:ID:       scmmntywrldbrntgnrrlprmtrlprmtrs️ftrrqstsmmxcmmnty
-:END:
-
-* [2021-01-24] [[https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=941827][#941827 - module loading fails with error: "Lockdown: modprobe: Loading of unsigned module is restricted; see https://wiki.debian.org/SecureBoot" - Debian Bug report logs]] :cannon:
-:PROPERTIES:
-:ID:       sbgsdbnrgcgbnbgrprtcgbgmdswkdbnrgscrbtdbnbgrprtlgs
-:END:
-:  https://wiki.debian.org/SecureBoot#MOK_-_Machine_Owner_Keycanonical: wiki.debian.org/SecureBootsources : notes[[https://wiki.debian.org/SecureBoot][SecureBoot - Debian Wiki]]
-: logs/mlog2.org:58102/06/2020, 08:00:00 di
-* TODO [#C] could be useful for surfingkey/nyxt browser to hint 'interesitng' urls?
-:PROPERTIES:
-:CREATED:  [2021-02-07]
-:ID:       cldbsflfrsrfngkynyxtbrwsrthntntrstngrls
-:END:
-* TODO [#B] https://app.element.io/#/room/#blockchain:fosdem.org     :cannon:
-:PROPERTIES:
-:CREATED:  [2021-02-07]
-:ID:       spplmntrmblckchnfsdmrg
-:END:
-* TODO https://undeadly.org/cgi?action=article;sid=20170930133438    :cannon:
-:PROPERTIES:
-:CREATED:  [2021-02-28]
-:ID:       snddlyrgcgctnrtclsd
-:END:
-* [2021-02-16] [[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3745973][A Relational Turn for Data Protection? by Neil M. Richards, Woodrow Hartzog :: SSRN]] :cannon:
-:PROPERTIES:
-:ID:       spprsssrncmslpprscfmbstrcnbynlmrchrdswdrwhrtzgssrn
-:END:
-* TODO [#B] maybe we can achieve 95% accuracy with generic rules and by handling the most popular websites
-:PROPERTIES:
-:CREATED:  [2021-03-07]
-:ID:       mybwcnchvccrcywthgnrcrlsndbyhndlngthmstpplrwbsts
-:END:
-for the rest
-- allow user to customize
-- allow user to submit normalization errors (where?)
