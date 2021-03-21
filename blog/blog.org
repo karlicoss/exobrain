@@ -114,6 +114,11 @@ realtime qs... whoa
 :ID:       dfntlywnttfrblgmchbttrthngthbpnsmyblspltctvtyvrtm
 :END:
 
+** TODO [#C] [2020-12-30] [[https://anagora.org/node/flancian][Agora]] :self:blog:inspiration:
+:PROPERTIES:
+:ID:       sngrrgndflncngr
+:END:
+
 * [#C] * visual style
 :PROPERTIES:
 :ID:       vslstyl
@@ -212,7 +217,7 @@ https://jeffhuang.com/designed_to_last/
 
 * ----------------------------------------------------------
 :PROPERTIES:
-:ID:       6437_6499
+:ID:       6543_6605
 :END:
 
 * [#C] [2020-01-23] Web bloat                                         :bloat:
@@ -496,3 +501,15 @@ ok, this seems like the best choice
 :PROPERTIES:
 :ID:       mylswsmsttcgnrtrscrtdlstfssgthbcmmylswsmsttcgnrtrs
 :END:
+
+* [#C] [2020-06-24] [[https://sjmulder.nl/en/textonly.html][Text-only websites]] :plaintext:blog:
+:PROPERTIES:
+:ID:       ssjmldrnlntxtnlyhtmltxtnlywbsts
+:END:
+* TODO [#C] [2021-01-29] [[https://hypothes.is/a/XaBRiozcEeiiZN-fcIBTRA][Hypothesis]] :blog:
+:PROPERTIES:
+:ID:       shypthssxbrzcznfcbtrhypthss
+:END:
+: Webmen
+
+make a link to hypothesis comments, this looks quite good

@@ -143,3 +143,14 @@ https://hackernoon.com/what-i-wish-i-knew-before-joining-mastodon-7a17e7f12a2b
 :PROPERTIES:
 :ID:       fdvrsspcswwwfdvrsspc
 :END:
+
+* TODO [#C] [2020-01-22] (2) Menander on Twitter: "broke: relying on opaque Twitter algorithm to find new people to follow bespoke: directly perusing follower graph of interesting people to find new people to follow" / Twitter https://twitter.com/MenanderSoter/status/1219776869018587136 :dataviz:
+:PROPERTIES:
+:ID:       mnndrntwttrbrkrlyngnpqtwttwttrstwttrcmmnndrstrstts
+:END:
+: broke: relying on opaque Twitter algorithm to find new people to follow
+: bespoke: directly perusing follower graph of interesting people to find new people to follow
+** [2020-12-14] used this https://github.com/jdevoo/nucoll + gephi
+:PROPERTIES:
+:ID:       sdthssgthbcmjdvncllgph
+:END:

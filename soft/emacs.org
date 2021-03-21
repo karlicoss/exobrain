@@ -1013,3 +1013,15 @@ https://github.com/alphapapa/emacs-package-dev-handbook
 : Re-set org-todo' & org-headline-done' faces to make them respect underlying faces (i.e. don't override the :height or :background of underlying faces).
 
 - very nice!
+* TODO [#D] [2020-12-13] [[https://karthinks.com/software/batteries-included-with-emacs/][Batteries included with Emacs | Karthinks]]
+:PROPERTIES:
+:ID:       skrthnkscmsftwrbttrsnclddcsbttrsnclddwthmcskrthnks
+:END:
+: Pulse (pulse.el)
+: The included pulse library provides functions to flash a region of text. The most useful general application is to flash the line the cursor is on as a navigational aid or accessibility feature.
+* [#C] [2020-12-28] [[https://emacs.stackexchange.com/questions/43643/magit-how-to-show-differences-within-lines][Magit: How to show differences within lines - Emacs Stack Exchange]]
+:PROPERTIES:
+:ID:       smcsstckxchngcmqstnsmgthwffrncswthnlnsmcsstckxchng
+:END:
+: If you want to store that in your config, like me, just add
+: (setq magit-diff-refine-hunk (quote all))

@@ -1901,3 +1901,7 @@ reasonable list (aka why python logging sucks by default)
 : Itamar Turner-Trauring 2, in the comment section on dev.to gave an interesting example:
 
 handling accidental variable capture in closures
+* [#D] [2020-07-06] [[https://news.ycombinator.com/item?id=23746067][Brython – A Python 3 implementation for client-side web programming | Hacker News]] :python:js:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdbrythnpytfrclntsdwbprgrmmnghckrnws
+:END:

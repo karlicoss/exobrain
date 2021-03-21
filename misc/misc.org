@@ -2867,3 +2867,26 @@ ok seems that it's the best choice judging by
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdbldngrchtrmnldshbrdshckrnws
 :END:
+* [#C] [2020-06-30] [[https://danluu.com/about/][About danluu.com]]    :blog:
+:PROPERTIES:
+:ID:       sdnlcmbtbtdnlcm
+:END:
+* [#C] [2020-08-14] [[https://openlibrary.org/][Welcome to Open Library | Open Library]] :openknowledge:
+:PROPERTIES:
+:ID:       spnlbrryrgwlcmtpnlbrrypnlbrry
+:END:
+
+* [#C] [2020-06-26] [[https://www.defectivebydesign.org/guide/ebooks][Guide to DRM-Free Living: Literature | Defective by Design]] :books:
+:PROPERTIES:
+:ID:       swwwdfctvbydsgnrggdbksgdtdrmfrlvngltrtrdfctvbydsgn
+:END:
+: Guide to DRM-Free Living: Literature
+* [#C] [2020-10-31] [[https://frdcsa.org/~andrewdo/writings/homeless-story.html][Free Life Planner: homeless story]]
+:PROPERTIES:
+:ID:       sfrdcsrgndrwdwrtngshmlssstryhtmlfrlfplnnrhmlssstry
+:END:
+
+* [#C] [2021-01-01] [[https://github.com/amoffat/supertag][Supertag — Supertag 0.1.0 documentation]] :tagging:
+:PROPERTIES:
+:ID:       sgthbcmmfftsprtgsprtgsprtgdcmnttn
+:END:

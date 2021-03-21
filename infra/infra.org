@@ -880,3 +880,7 @@ generally 'big directories with binaries/object files'?
 :ID:       sdscrdcmchnnlsvslfhstd
 :END:
 : 2) Another is to use a filesync service like Syncthing/Dropbox (no server), and append all transactions to a log file or directory. Then sync and recreate the db from these transaction logs
+* [#C] [2020-06-07] [[https://github.com/AppImage/AppImageKit/wiki/Similar-projects#comparison][Similar projects · AppImage/AppImageKit Wiki]]
+:PROPERTIES:
+:ID:       sgthbcmppmgppmgktwksmlrprrsnsmlrprjctsppmgppmgktwk
+:END:

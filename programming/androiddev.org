@@ -147,3 +147,11 @@ https://askubuntu.com/questions/680591/android-adb-no-permission
 :PROPERTIES:
 :ID:       hwtdbgthrdprtyndrdpplbstrsvlwswhwdbgthrdprtyndrdpp
 :END:
+
+* [#C] [2021-01-11] [[https://github.com/jonasoreland/runnerup/issues/999][Allow using a different directory than Documents for local storage · Issue 999 · jonasoreland/runnerup]] :androiddev:
+:PROPERTIES:
+:ID:       sgthbcmjnsrlndrnnrpsssllwtsfrlclstrgssjnsrlndrnnrp
+:END:
+: The problem is scooped storage in newer Android versions. An app only has access to its specific directories.
+: With older Android than 10 it is possible.
+: This piece of code need to be changed when targeting Android 111 (before next fall) as getExternalStoragePublicDirectory() is not supported then.

@@ -568,6 +568,16 @@ read through their weeknotes
 :ID:       xbrnjbrnkl
 :END:
 
+** STRT [#C] [2020-10-18] [[https://wiki.alopex.li/_index][Wiki - Contents]] :exobrain:
+:PROPERTIES:
+:ID:       swklpxlndxwkcntnts
+:END:
+cool wiki, by [[https://lobste.rs/newest/icefox][this person]]
+** [#D] [2020-08-11] [[https://github.com/dufferzafar/notes][dufferzafar/notes: A miscellany of thoughts.]]
+:PROPERTIES:
+:ID:       sgthbcmdffrzfrntsdffrzfrntsmscllnyfthghts
+:END:
+
 * [#C] * content to add
 :PROPERTIES:
 :ID:       cntnttdd
@@ -990,3 +1000,8 @@ again, it's not that removing 'real' interaction is the point, so I'm happy to a
 :ID:       whndtgthrghthnsdscrdtfgrttsdscrdcmchnnls
 :END:
 https://github.com/athensresearch/athens/discussions/605
+* TODO [#C] hmm. use external git repo that commits evey minute? it would track changes automatically and solve all of my timestamp issues? :orgmode:exobrain:
+:PROPERTIES:
+:CREATED:  [2020-12-06]
+:ID:       hmmsxtrnlgtrpthtcmmtsvymnmtcllyndslvllfmytmstmpsss
+:END:

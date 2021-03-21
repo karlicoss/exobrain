@@ -1298,3 +1298,8 @@ hmm this is useful.. wonder if could benefit from it
 : sqlite-utils 3.1 adds a new command:
 :     sqlite-utils analyze-tables my.db
 : It queries every column of every table and outputs useful statistics about them
+* [#B] [2020-10-31] [[https://pyspread.gitlab.io/][Welcome to pyspread | pyspread]] :hpi:python:spreadsheets:
+:PROPERTIES:
+:ID:       spysprdgtlbwlcmtpysprdpysprd
+:END:
+: pyspread expects Python expressions in its grid cells, which makes a spreadsheet specific language obsolete. Each cell returns a Python object that can be accessed from other cells. These objects can represent anything including lists or matrices.

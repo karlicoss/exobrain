@@ -1651,3 +1651,42 @@ E.g. integrate with guthub, but use custom software for it
 :PROPERTIES:
 :ID:       sgthbcmkdbhtsptkdbhtsptthlnxprfgfrprfrmncnlyss
 :END:
+
+* [#C] [2020-09-09] [[https://github.com/JetBrains/lets-plot/blob/master/README_PYTHON.md][lets-plot/README_PYTHON.md at master · JetBrains/lets-plot]] :dataviz:python:
+:PROPERTIES:
+:ID:       sgthbcmjtbrnsltspltblbmstmpythnmdtmstrjtbrnsltsplt
+:END:
+- [2021-03-15] so the idea that it's similar to R's ggplot2 which uses 'grammar of graphics', apparently very declarative and compositional?
+* [#D] [2020-11-14] [[https://beeware.org/][Write once. Deploy everywhere.— BeeWare]] :python:android:
+:PROPERTIES:
+:ID:       sbwrrgwrtncdplyvrywhrbwr
+:END:
+: Write your apps in Python and release them on iOS, Android, Windows, MacOS, Linux, Web, and tvOS using rich, native user interfaces
+* [#D] [2020-06-11] [[https://sr.ht][sourcehut hub]]
+:PROPERTIES:
+:ID:       ssrhtsrchthb
+:END:
+* [#C] [2020-07-23] [[https://caolan.uk/articles/inside-a-collaborative-text-editor/][Inside a Collaborative Text Editor — Caolan McMahon]] :crdt:
+:PROPERTIES:
+:ID:       sclnkrtclsnsdcllbrtvtxtdtrnsdcllbrtvtxtdtrclnmcmhn
+:END:
+some nice CRDT illustrations
+* [#C] [2020-07-22] [[https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to][Write code that is easy to delete, not easy to... — programming is terrible]] :programming:
+:PROPERTIES:
+:ID:       sprgrmmngstrrblcmpstwrtcdsytdltntsytprgrmmngstrrbl
+:END:
+new link https://programmingisterrible.com/post/139222674273/how-to-write-disposable-code-in-large-systems
+
+* TODO [#C] [2020-12-10] [[https://pythonspeed.com/articles/consistent-benchmarking-in-ci/][CI for performance: Reliable benchmarking in noisy environments]] :performance:
+:PROPERTIES:
+:ID:       spythnspdcmrtclscnsstntbnrlblbnchmrkngnnsynvrnmnts
+:END:
+
+* TODO [#C] [2020-06-19] [[https://twitter.com/Conaw/status/1273979249808961536][Conor White-Sullivan on Twitter: "Accidentally stayed up until 7am on a videocall with @girba learning about Pharoah Smalltalk and #gtoolkit Have not been this excited about a new programming paradigm since I learned Clojure. Amazing amazing tool they have, with almost no on-boarding yet. Just how I like it!!" / Twitter]] :smalltalk:
+:PROPERTIES:
+:ID:       stwttrcmcnwsttscnrwhtsllvmstnnbrdngytjsthwlkttwttr
+:END:
+: Accidentally stayed up until 7am on a videocall with @girba
+:  learning about Pharoah Smalltalk and #gtoolkit
+: Have not been this excited about a new programming paradigm since I learned Clojure.
+: Amazing amazing tool they have, with almost no on-boarding yet.

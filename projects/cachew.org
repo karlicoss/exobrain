@@ -226,6 +226,14 @@ feels a bit more atomic...
 :ID:       shtfmrgngsmplmntdrcrsvlyzldspprtprprlyncrmntlxprts
 :END:
 
+** STRT [#B] use appdirs                                             :cachew:
+:PROPERTIES:
+:CREATED:  [2021-02-14]
+:ID:       sppdrs
+:END:
+- maybe allow using app specific subcaches?
+  e.g. make_cachew(prefix='my')
+- [2021-03-20] ok done https://github.com/karlicoss/cachew/commit/161ce25304bfda77b484f886ff9c0b4b23924563
 * [#B] publicity                                                    :publish:
 :PROPERTIES:
 :ID:       pblcty
@@ -456,10 +464,19 @@ after updating to nice binders
 generally bugs not a big problem since the cache is temporary & optional, worst case can delete or disable
 although need to make sure there are not data consistency issues... maybe expire cache on calendar?
 
-** TODO [#B] hmm, on first initialisation in case of error it shouldn't initialise cache.. :promnesia:
+** TODO [#B] warn when it's running under tests? not sure
+:PROPERTIES:
+:CREATED:  [2020-08-22]
+:ID:       wrnwhntsrnnngndrtstsntsr
+:END:
+** STRT [#C] hmm, on first initialisation in case of error it shouldn't initialise cache.. :promnesia:
 :PROPERTIES:
 :CREATED:  [2019-08-11]
 :ID:       hmmnfrstntlstnncsfrrrtshldntntlscch
+:END:
+*** [2021-03-20] ok, it behaves correctly so not such bit issue...
+:PROPERTIES:
+:ID:       ktbhvscrrctlysntschbtss
 :END:
 ** TODO [#C] add a test for schema change
 :PROPERTIES:
@@ -471,25 +488,10 @@ although need to make sure there are not data consistency issues... maybe expire
 :CREATED:  [2020-10-09]
 :ID:       hmmwthvrlysmdlgtswrdprfx
 :END:
-** TODO [#D] type object has no attirbute __annotations__
-:PROPERTIES:
-:CREATED:  [2020-10-08]
-:ID:       typbjcthsnttrbtnnttns
-:END:
-:   File "/.local/lib/python3.8/site-packages/cachew/__init__.py", line 328, in make
-:     fields = tuple(NTBinder.make(tp=ann, name=fname) for fname, ann in tp.__annotations__.items())
-: AttributeError: type object 'Exception' has no attribute '__annotations__'
-
-right, that might happen if the object isn't supported... maybe need a nicer error message for that
 ** TODO [#C] seems that it may delete whole directories??
 :PROPERTIES:
 :CREATED:  [2020-07-31]
 :ID:       smsthttmydltwhldrctrs
-:END:
-** TODO [#B] warn when it's running under tests? not sure
-:PROPERTIES:
-:CREATED:  [2020-08-22]
-:ID:       wrnwhntsrnnngndrtstsntsr
 :END:
 * TODO [#B] I guess binder for namedtuples is kinda a separate thing as it could be used separately for 'pickling'
 :PROPERTIES:
@@ -535,10 +537,9 @@ Maybe, set the attribute to the function? Seems good enough?
 :ID:       hdtcncchwhmmm
 :END:
 
-* TODO [#A] use appdirs                                              :cachew:
+* TODO [#C] hmm... can generate shitty names?                        :cachew:
 :PROPERTIES:
-:CREATED:  [2021-02-14]
-:ID:       sppdrs
+:CREATED:  [2021-02-21]
+:ID:       hmmcngnrtshttynms
 :END:
-- maybe allow using app specific subcaches?
-  e.g. make_cachew(prefix='my')
+: ~/.cache/my/my.core.core_config:test_cachew.\<locals\>.cf

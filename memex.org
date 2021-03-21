@@ -238,3 +238,11 @@ ok, so it's more of a prototype at this point? and they are reinventing editor/a
 :PROPERTIES:
 :ID:       stndlrgxcrtxэкзокортекс
 :END:
+* DONE [#B] [2021-02-23] [[https://tiendil.org/exocortex-minimal-functionality/][Экзокортекс: минимальная функциональность]] :memex:
+:PROPERTIES:
+:ID:       stndlrgxcrtxmnmlfnctnltyэнимальнаяфункциональность
+:END:
+** [2021-03-14] good summary and memex design requirements (in Russian)
+:PROPERTIES:
+:ID:       gdsmmryndmmxdsgnrqrmntsnrssn
+:END:

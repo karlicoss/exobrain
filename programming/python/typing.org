@@ -457,10 +457,6 @@ run with uvicorn fa:app --reload --port 9090
 :PROPERTIES:
 :ID:       hsspthlkstrkndslvstbtsngpyflfrthtsntrllywrtht
 :END:
-* TODO [#D] [2019-04-12] need =py.typed= for injector?
-:PROPERTIES:
-:ID:       ndpytypdfrnjctr
-:END:
 * TODO [#D] seems like a bug in fbmessenger export (on a branch)       :mypy:
 :PROPERTIES:
 :CREATED:  [2020-01-13]
@@ -469,5 +465,5 @@ run with uvicorn fa:app --reload --port 9090
 
 * -------------------------------------------------
 :PROPERTIES:
-:ID:       19746_19798
+:ID:       19681_19733
 :END:
