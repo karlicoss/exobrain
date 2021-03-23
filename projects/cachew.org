@@ -543,3 +543,8 @@ Maybe, set the attribute to the function? Seems good enough?
 :ID:       hmmcngnrtshttynms
 :END:
 : ~/.cache/my/my.core.core_config:test_cachew.\<locals\>.cf
+* TODO [#C] cachew: make it depend on the git hash? I guess global override would be nice :cachew:
+:PROPERTIES:
+:CREATED:  [2020-10-19]
+:ID:       cchwmktdpndnthgthshgssglblvrrdwldbnc
+:END:

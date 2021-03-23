@@ -2890,3 +2890,28 @@ ok seems that it's the best choice judging by
 :PROPERTIES:
 :ID:       sgthbcmmfftsprtgsprtgsprtgdcmnttn
 :END:
+
+* [#D] [2020-05-21] [[https://news.ycombinator.com/shownew][New Show | Hacker News]] :hackernews:
+:PROPERTIES:
+:ID:       snwsycmbntrcmshwnwnwshwhckrnws
+:END:
+
+* [#D] [2020-01-23] Kezz Bracey: "For indecisive instance hoppers like me with mult…" - Mastodon https://mastodon.social/@freedcreative/103535168771768561 :mastodon:
+:PROPERTIES:
+:ID:       kzzbrcyfrndcsvnstnchpprslhmltmstdnsmstdnsclfrdcrtv
+:END:
+: For indecisive instance hoppers like me with multiple homes in the #fediverse & #mastodon, there's a great extension for #firefox that lets you set a main instance for remote follows so it's a bit quicker and easier.
+* [#D] [2020-02-09] [[https://jborichevskiy.com/posts/on-moving-away/][On Moving Away :: Up and to the Right — Jonathan Borichevskiy]]
+:PROPERTIES:
+:ID:       sjbrchvskycmpstsnmvngwynmwypndtthrghtjnthnbrchvsky
+:END:
+
+* TODO [#D] [2020-03-09] Pinboard: Bookmark Detail https://pinboard.in/u:hschilling/b:1b050549dd9f :bci:
+:PROPERTIES:
+:ID:       pnbrdbkmrkdtlspnbrdnhschllngbbddf
+:END:
+: Hacking your brain with OpenBCI, Node.js, and PsychoPy
+* [#B] [2021-01-26] [[https://gephi.org/][Gephi - The Open Graph Viz Platform]] :dataviz:
+:PROPERTIES:
+:ID:       sgphrggphthpngrphvzpltfrm
+:END:

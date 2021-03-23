@@ -3,7 +3,7 @@
 
 * [#B] * jdoe                                                          :jdoe:
 :PROPERTIES:
-:ID:       jd
+:CUSTOM_ID: jdoe
 :END:
 related #exports #hpi:
 ~J. Doe~ (Joe Doe? Jane Doe?) is a made up person with a narrative to showcase different quantifiedself/memex tools
@@ -39,6 +39,34 @@ hmm nice pretty extensive pocket export
 :ID:       sbbldmsdcsnfshstcmbbldmsdcsbbldmsdcs
 :END:
 : A demo persona
+** TODO [#C] [2020-09-02] [[https://github.com/AnandChowdhary/life][AnandChowdhary/life: 🧬 All life data — location, health, work, play, and more — open sourced]] :jdoe:
+:PROPERTIES:
+:ID:       sgthbcmnndchwdhrylfnndchwtlctnhlthwrkplyndmrpnsrcd
+:END:
+** TODO [#C] [2020-04-24] [[https://github.com/saladmanssss/salad][saladmanssss/salad]] :jdoe:takeout:
+:PROPERTIES:
+:ID:       sgthbcmsldmnsssssldsldmnsssssld
+:END:
+
+** STRT [#D] [2020-04-24] [[https://github.com/ANSSI-FR/ctf/tree/master/forensics-CryptoDIY][ctf/forensics-CryptoDIY at master · ANSSI-FR/ctf]] :jdoe:takeout:
+:PROPERTIES:
+:ID:       sgthbcmnssfrctftrmstrfrnsrnscscryptdytmstrnssfrctf
+:END:
+*** [2020-04-24] eh, only mail. not so interesting
+:PROPERTIES:
+:ID:       hnlymlntsntrstng
+:END:
+** [#C] [2020-10-05] [[https://github.com/eco-pass/ecopass/blob/80f1afa346136d80c6319a1770501bff5bf8e25f/ecopass-travel/src/test/resources/5kLineLocationHistory.json][ecopass/5kLineLocationHistory.json at 80f1afa346136d80c6319a1770501bff5bf8e25f · eco-pass/ecopass]] :jdoe:location:
+:PROPERTIES:
+:ID:       sgthbcmcpsscpssblbffdcbfftryjsntffdcbffbffcpsscpss
+:END:
+
+** TODO [#C] [2020-02-10] [[https://reddit.com/r/coolgithubprojects/comments/f1nqh6/python_package_which_helps_generate_big_volumes/][Python package, which helps generate big volumes of fake data for a variety of purposes in a variety of languages.]] /r/coolgithubprojects :jdoe:
+:PROPERTIES:
+:ID:       srddtcmrclgthbprjctscmmntsnvrtyflnggsrclgthbprjcts
+:END:
+: >What could it be used for?
+: For generating placeholder data, bootstrapping database with anonymized data, generating JSON data, creating fake API endpoints and et.c
 * [#C] * kython                                                      :kython:
 :PROPERTIES:
 :ID:       kythn
@@ -309,7 +337,7 @@ my #twitter exporter
 
 * ----------------------------
 :PROPERTIES:
-:ID:       7574_7608
+:ID:       8971_9005
 :END:
 
 
