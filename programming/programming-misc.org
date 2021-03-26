@@ -1690,3 +1690,117 @@ new link https://programmingisterrible.com/post/139222674273/how-to-write-dispos
 :  learning about Pharoah Smalltalk and #gtoolkit
 : Have not been this excited about a new programming paradigm since I learned Clojure.
 : Amazing amazing tool they have, with almost no on-boarding yet.
+* [2016-08-11] volatile memory?                                        :java:
+:PROPERTIES:
+:ID:       vltlmmry
+:END:
+acquire/release синхронизированные доступы, частичные гарантии на ordering, без sequential consistency, средне тяжелые на железе
+volatile сигхронизированные доступы, полные гарантии ordering, sequential consistency, очень тяжелые на железе
+* [2016-10-02] Bridge: composition + pointer to the implementation passed in the constructor
+:PROPERTIES:
+:ID:       brdgcmpstnpntrtthmplmnttnpssdnthcnstrctr
+:END:
+: class Car {
+:   public Car(Engine *engine) {
+:   }
+: }
+: 
+: class SportCar extends Car {
+:   public SportCar() {
+:     super(new SuperSportEngine());
+:   }
+: }
+
+essentially Pimpl, but implementations might be different
+
+* [2016-05-14] Annotations vs marker interfaces                        :java:
+:PROPERTIES:
+:ID:       nnttnsvsmrkrntrfcs
+:END:
+Annotations can be allowed to only live in compile time
+Annotations are not inherited (e.g. if A is Serializable and B extends A, B is automatically Serializable, which might not be the case)
+Annotations have to be checked with reflection, whereas marker interfaces can be checked by compiler
+* [2015-11-09] ~kill -QUIT <pid>~ to dump threads state  :debugging:java:jvm:
+:PROPERTIES:
+:ID:       kllqtpdtdmpthrdsstt
+:END:
+* [#D] [2016-08-07] java 9 features                                    :java:
+:PROPERTIES:
+:ID:       jvftrs
+:END:
+Jigsaw: modules
+Immutable collections
+new HTTP module (+websockets?)
+jshell
+process control
+Varhandles?
+* [#C] [2016-09-22] Getters can be used in method references (whereas fields can't)
+:PROPERTIES:
+:ID:       gttrscnbsdnmthdrfrncswhrsfldscnt
+:END:
+* [#C] [2015-11-28] wildcard generics                                  :java:
+:PROPERTIES:
+:ID:       wldcrdgnrcs
+:END:
+B extends A
+C extends B
+
+List<? extends A> could be a List<A> or List<B> or List<C>
+
+void consumer(List<A> list);
+
+if we want to pass List<B> to consumer, we have to create a new list since lists are not covariant on the argument type
+
+solution: void consumer(List<? extends A> List)
+* [#B] [2016-04-01] static constructor vs regular constructor           :oop:
+:PROPERTIES:
+:ID:       sttccnstrctrvsrglrcnstrctr
+:END:
+- can be named
+- you can cache objects
+- extra validation:
+  no simple way to validate input before delegating this call
+: DeleteMessagesTask(@NonNull AccountComponent accountComponent, @NonNull Bundle bundle) {
+:   final SolidList<Message> messages = bundle.getParcelable(KEY_MESSAGES);
+:   // TODO throw if null? maybe something specific, not just NPE?
+:   assert messages != null;
+:   this(accountComponent, messages);
+* [#C] [2016-10-30] Java: good and bad                                 :java:
+:PROPERTIES:
+:ID:       jvgdndbd
+:END:
+** good
+:PROPERTIES:
+:ID:       gd
+:END:
+- JVM
+  - interop with other JVM languages
+  - portable
+- well defined standard:
+  - safe semantics
+  - concurrency
+- community
+- libraries
+
+** Bad
+:PROPERTIES:
+:ID:       bd
+:END:
+- super call goes first
+  - use static method which takes the parameters? Problem with two arguments, although we could make a private constructor for that...
+- no real notion of immutability
+- no nullable types
+- no generics declaration site variance (producers/consumers)
+  - example: immutable Stream<T>, method which returns Stream<R>. If we override it as List in java, there is no way to return List<R>
+- no sum tupes/closed classes (enums are the closest alternative but have no states)
+  - if we make interface private, it is hidden from outside
+  - alternative: factory methods, enum methods take 'state' as argument
+- no type synonims
+- no 'const' keyword
+
+** ?
+:PROPERTIES:
+:ID:       73712_73804
+:END:
+- lack of operators overloading (but sometimes it makes sense)
+- GC: both good and bad

@@ -282,7 +282,8 @@ I guess same stuff that Baez was writing about, didn't find talk particularly in
 https://twitter.com/litgenstein/status/1210890946201739269
 : @litgenstein
 : Such a great book, really clear description of renormalization
-* TODO [#B] [2021-02-09] [[https://media.ed.ac.uk/media/1_nebnapp6][The Inaugural Atiyah Lecture: Jean-Pierre Bourguignon - What is Spinor? - Media Hopper Create]] :towatch:spinor:
+* DONE [#B] [2021-02-09] [[https://media.ed.ac.uk/media/1_nebnapp6][The Inaugural Atiyah Lecture: Jean-Pierre Bourguignon - What is Spinor? - Media Hopper Create]] :towatch:spinor:
 :PROPERTIES:
 :ID:       smddckmdnbnppthngrltyhlctrrbrggnnwhtsspnrmdhpprcrt
 :END:
+- [2021-03-25] ok, interesting overview, but still quite intense mathematically...

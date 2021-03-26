@@ -578,6 +578,11 @@ cool wiki, by [[https://lobste.rs/newest/icefox][this person]]
 :ID:       sgthbcmdffrzfrntsdffrzfrntsmscllnyfthghts
 :END:
 
+** [2021-03-02] [[https://github.com/danielsundermeier/knowledge][danielsundermeier/knowledge: Wissenssammlung]] :german:
+:PROPERTIES:
+:ID:       sgthbcmdnlsndrmrknwldgdnlsndrmrknwldgwssnssmmlng
+:END:
+
 * [#C] * content to add
 :PROPERTIES:
 :ID:       cntnttdd

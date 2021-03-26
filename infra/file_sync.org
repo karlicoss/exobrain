@@ -1,0 +1,144 @@
+#+TITLE: ⚫ File sync software
+Continuous sync of my data and information is a biggie for me.
+
+- first, I've always had one desktop/big sturdy laptop and one small portable for travel/coffee shops/etc
+- second, I need to be able to access information on my phone, when I may not have good network (or any)
+
+Eventual sync (e.g. via Git) might be fine for personal wiki.
+For todo-list or just random documents, however, I really don't want to have this overhead of thinking whether I need to do some extra work in order to sync.
+
+
+* related
+:PROPERTIES:
+:ID:       rltd
+:END:
+** .                                                                  :infra:
+:PROPERTIES:
+:ID:       566_579
+:END:
+** .                                                                :offline:
+:PROPERTIES:
+:ID:       579_594
+:END:
+** .                                                             :selfhosted:
+:PROPERTIES:
+:ID:       594_612
+:END:
+** .                                                                  :cloud:
+:PROPERTIES:
+:ID:       612_625
+:END:
+
+
+* [#A] Syncthing                                                  :syncthing:
+:PROPERTIES:
+:ID:       syncthng
+:END:
+I'm using it at the moment, and it works great.
+
+pros:
+- uses filesystem
+- opn source, can be selfhosted
+- decentralized, no need for 'main' device
+
+cons:
+- no web interface
+
+on Android: [[https://play.google.com/store/apps/details?id=com.github.catfriend1.syncthingandroid][Syncthing-Fork]] is better than the original Android app.
+  [[https://github.com/Catfriend1/syncthing-android#major-enhancements-in-this-fork-are][Some differences]]:
+- "Battery eater" problem is fixed
+- UI explains why syncthing is running or not.
+- Individual sync conditions can be applied per device and per folder
+
+
+* [#B] Dropbox                                                      :dropbox:
+:PROPERTIES:
+:ID:       drpbx
+:END:
+I stopped using it in favor of Syncthing, info might be a bit outdated (circa 2019?). If you don't want
+
+pros:
+- uses filesystem
+- has revision history, so you can restore deleted files
+
+cons:
+- apparently symlink handling is quite bad... http://www.paulingraham.com/dropbox-and-symlinks.html
+  possible solution: do not point to stuff under dropbox directly, instead make a dir like dropbox-links and point there?
+
+on Android: [[https://play.google.com/store/apps/details?id=com.ttxapps.dropsync][dropsync]] is nice
+
+
+* TODO [#C] Nextcloud
+:PROPERTIES:
+:ID:       nxtcld
+:END:
+It seems to be more like google services (docs/contacts/maps/etc) rather than just file syncing. Still haven't tried it myself though.
+
+Nexcloud is a fork of Owncloud (the latter has gone enterprise or something). Apparently it's much more open source
+
+pros:
+- can replace google services #degoogle
+  e.g. [[https://apps.nextcloud.com/apps/maps][maps]]
+- open source, can be selfhosted
+
+cons:
+- [[https://ownyourbits.com/2017/04/18/different-ways-to-access-your-nextcloud-files][can mount as a filesystem]], but it's not a primary interface
+- centralized, requires a 'main' server
+- ???
+
+
+* [#C] MEGA
+:PROPERTIES:
+:ID:       mg
+:END:
+pros:
+- ???
+
+cons:
+- symlinks doesn't work? (or WIP?)
+- closed source
+- centralized
+
+
+* [#C] Seafile
+:PROPERTIES:
+:ID:       sfl
+:END:
+Dind't end up using it, so in my understanding it's kinda like Dropbox?
+
+pros:
+- open source
+- delta sync, headless, dedup, selective encryption
+
+cons:
+- not distributed, requires a running server
+
+- https://neowwayyuh.wordpress.com/2015/11/30/seafile-vs-syncthing
+
+** CNCL try android client
+:PROPERTIES:
+:ID:       tryndrdclnt
+:END:
+https://github.com/haiwen/seadroid/issues/502
+mm, only can access, can't sync as dropsync or syncthing would :(
+use webdav syncer as a workaround? https://github.com/haiwen/seadroid/issues/502#issuecomment-286056463
+
+* [#D] misc
+:PROPERTIES:
+:ID:       msc
+:END:
+** spideroak
+:PROPERTIES:
+:ID:       spdrk
+:END:
+apparently sync is weird, cluncy client
+https://www.reddit.com/r/privacytoolsIO/comments/84kktv/thoughts_on_spideroak/
+
+** OneDrive is accessible through third-party scripts
+:PROPERTIES:
+:ID:       ndrvsccssblthrghthrdprtyscrpts
+:END:
+** InSync offers unofficial Google Drive Linux support (for a fee)
+:PROPERTIES:
+:ID:       nsyncffrsnffclggldrvlnxspprtfrf
+:END:

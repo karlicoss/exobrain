@@ -355,6 +355,37 @@ well - sort of ok
 :PROPERTIES:
 :CUSTOM_ID: uk
 :END:
+** DONE [#B] [2017-10-02] Edinburgh
+:PROPERTIES:
+:ID:       dnbrgh
+:END:
+*** places
+:PROPERTIES:
+:ID:       plcs
+:END:
+**** Rose street
+:PROPERTIES:
+:ID:       rsstrt
+:END:
+**** Arthur's seat (you might need comfy shoes and clothes)
+:PROPERTIES:
+:ID:       rthrsstymghtndcmfyshsndclths
+:END:
+*** food
+:PROPERTIES:
+:ID:       fd
+:END:
+**** mussel inn: good and quite cheap sea food. Mussels + fish soup is amazing!
+:PROPERTIES:
+:ID:       msslnngdndqtchpsfdmsslsfshspsmzng
+:END:
+very crowded, you might have to reserve or wait
+**** mary milk bar
+:PROPERTIES:
+:ID:       mrymlkbr
+:END:
+- chocolate was too sweet
+
 ** STRT [#B] Lake District
 :PROPERTIES:
 :CUSTOM_ID: lakedistrict

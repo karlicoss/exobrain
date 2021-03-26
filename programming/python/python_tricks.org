@@ -78,3 +78,12 @@ I often write python scripts instead of shell
 :END:
 
 Write about problems with left recursion?
+
+* [#C] [2018-05-12] ensuring certain order (in code) for objects based on name
+:PROPERTIES:
+:ID:       nsrngcrtnrdrncdfrbjctsbsdnnm
+:END:
+kinda like in food_provider/food_provider/meals.py
+- each object registers and gets a global ID
+- collect them all via dir
+- sort them by ID then assert names
