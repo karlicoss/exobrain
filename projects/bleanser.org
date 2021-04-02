@@ -156,3 +156,10 @@ could name like this...
 :PROPERTIES:
 :ID:       sgthbcmtrlfbtsgrphtgtrlfbschsjsnjsnxmlhtmlymlndcsv
 :END:
+
+* TODO [#B] ok, triples for browser history are def gonna be impactful :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-03-29]
+:ID:       ktrplsfrbrwsrhstryrdfgnnbmpctfl
+:END:
+maybe before comparison explicitly 'cleanup' stuff

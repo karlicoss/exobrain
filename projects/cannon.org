@@ -341,6 +341,23 @@ which is a comment to https://news.ycombinator.com/item?id=25099862
 :CREATED:  [2019-02-24]
 :ID:       ndchcksthtrldntcntnstpdshtlktrlngclnstc
 :END:
+** TODO [#C] hmm could use this api for checking normalization?      :cannon:
+:PROPERTIES:
+:CREATED:  [2021-03-21]
+:ID:       hmmcldsthspfrchckngnrmlztn
+:END:
+: http get 'http://archive.org/wayback/available?url=https://stackoverflow.com/questions/1425892/how-do-you-merge-two-git-repositories'
+: {
+:     "archived_snapshots": {
+:         "closest": {
+:             "available": true,
+:             "status": "200",
+:             "timestamp": "20210219235548",
+:             "url": "http://web.archive.org/web/20210219235548/https://stackoverflow.com/questions/1425892/how-do-you-merge-two-git-repositories"
+:         }
+:     },
+:     "url": "https://stackoverflow.com/questions/1425892/how-do-you-merge-two-git-repositories"
+: }
 * [#C] * testcases
 :PROPERTIES:
 :ID:       tstcss
@@ -529,6 +546,10 @@ so, for csv need a separate extractor.
 :END:
 id here is important
 
+** [2021-03-15] wiki.c2.com pages don't even have canonical?         :cannon:
+:PROPERTIES:
+:ID:       wkccmpgsdntvnhvcnncl
+:END:
 * [#D] * misc
 :PROPERTIES:
 :ID:       msc
@@ -577,5 +598,5 @@ huh, so reddit seems to normalise to the main page, and displays annotations as 
 :END:
 * --------------------------------------------------
 :PROPERTIES:
-:ID:       20721_20774
+:ID:       21497_21550
 :END:

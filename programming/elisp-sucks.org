@@ -393,3 +393,22 @@ also use with-current-buffer and a separate buffer -- oftern much easier than re
 :ID:       smcsstckxchngcmqstnshwtdtntchrctrslttrmcsstckxchng
 :END:
 : n case you were very concerned about national characters and precise treatment of Unicode character classes, then the only solution I was able to find so far is the Python regex library. Both grep and Perl (to my utter surprise!) didn't do the job properly.
+* TODO [#A] I haven't written proper Elisp libraries/packages, only hacks/function/etc, so apologise I am missing out on some important aspects :elisp:
+:PROPERTIES:
+:CREATED:  [2021-03-15]
+:ID:       hvntwrttnprprlsplbrrspckgplgsmmssngtnsmmprtntspcts
+:END:
+* TODO [#A] Structure as problem-- solution
+:PROPERTIES:
+:CREATED:  [2021-03-07]
+:ID:       strctrsprblmsltn
+:END:
+
+E.g. bad docs? Enjoy easy jump-to-source
+
+* TODO [#B] problem with car and cdr is not that they are the standard building blocks, but that they are abused :elisp:
+:PROPERTIES:
+:CREATED:  [2021-03-15]
+:ID:       prblmwthcrndcdrsntthtthyrdrdbldngblcksbtthtthyrbsd
+:END:
+in the same vein consistently using =head . tail . tail= in Haskell to access the third element would be insane (I'm not sure if it's actually common though)

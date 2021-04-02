@@ -235,3 +235,8 @@ huh, apparently UV protective pigments are also inside the cells, around nucleus
 :ID:       stlsfrthndfthwrldcmflrndfnhtmlfwflrfn
 :END:
 :  The guide presents a catalogue of curious creatures and life-forms that have evolved in often unexpected ways to cope with the stresses and pressures of a changed world.
+* [#C] [2021-03-11] penicillin
+:PROPERTIES:
+:ID:       pnclln
+:END:
+: Penicillin kills bacteria by inhibiting the completion of the synthesis of peptidoglycans, the structural component of bacterial cell wall.

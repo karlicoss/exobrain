@@ -42,6 +42,23 @@ wow, the fuck?? they are deleted from history??
 : Across all platforms (not just Reddit), people including myself like to save/bookmark interesting content in the hopes of getting some use out of it later.
 : The problem arises when you start accumulating too much content and forget to ever check that stuff out.
 
+* [#B] * ideas
+:PROPERTIES:
+:ID:       ds
+:END:
+** [#B] [2020-05-31] [[https://github.com/novoid/Memacs/blob/master/docs/FAQs_and_Best_Practices.org][novoid/Memacs: FAQs and Best Practices.org]] :errors:orger:
+:PROPERTIES:
+:ID:       sgthbcmnvdmmcsblbmstrdcsfrgnvdmmcsfqsndbstprctcsrg
+:END:
+: Because our memacs-modules run automatically, it would be difficult to be notified in case of an error.
+: So memacs-modules handle errors by appending them to a file:
+
+Very nice pattern, could use it for other stuff too
+** TODO [#B] feels more and more that they should be a single tool :memex:promnesia:orger:
+:PROPERTIES:
+:CREATED:  [2020-02-27]
+:ID:       flsmrndmrthtthyshldbsngltl
+:END:
 * [#B] * additional modules
 :PROPERTIES:
 :ID:       ddtnlmdls
@@ -87,6 +104,76 @@ https://lobste.rs/saved.json
 :CREATED:  [2019-05-19]
 :ID:       gdrds
 :END:
+** TODO [#C] organizing github stars?                                 :orger:
+:PROPERTIES:
+:CREATED:  [2021-01-31]
+:ID:       rgnznggthbstrs
+:END:
+maybe it should really be queue-type... so I can organize it myself
+* [#C] * todos
+:PROPERTIES:
+:ID:       tds
+:END:
+** TODO [#B] special mode to exit with 1 when error is encountered? and sep mode for appending errors :errors:
+:PROPERTIES:
+:CREATED:  [2020-06-01]
+:ID:       spclmdtxtwthwhnrrrsncntrdndspmdfrppndngrrrs
+:END:
+
+** TODO [#C] need to use highlight as title?
+:PROPERTIES:
+:CREATED:  [2019-05-11]
+:ID:       ndtshghlghtsttl
+:END:
+** TODO [#C] hmm. maybe preserve the order? since there is no date when you liked something :hpi:twitter:
+:PROPERTIES:
+:CREATED:  [2020-05-25]
+:ID:       hmmmybprsrvthrdrsncthrsndtwhnylkdsmthng
+:END:
+** WAIT [#C] reddit -- use quoting and convert syntax via pandoc?
+:PROPERTIES:
+:CREATED:  [2020-07-20]
+:ID:       rddtsqtngndcnvrtsyntxvpndc
+:END:
+
+** TODO [#C] github: PullRequestReviewCommentEvent -- need to add a link! :orger:
+:PROPERTIES:
+:CREATED:  [2021-03-31]
+:ID:       gthbpllrqstrvwcmmntvntndtddlnk
+:END:
+** TODO [#C] CommitCommentEvent didn't work?                   :orger:github:
+:PROPERTIES:
+:CREATED:  [2021-02-09]
+:ID:       cmmtcmmntvntddntwrk
+:END:
+: "id": "11761830385",
+:    "type": "CommitCommentEvent",
+:    "payload": {
+:     "comment": {
+:      "url": "https://api.github.com/repos/karlicoss/dotemacs/comments/37820260",
+:    },
+:    "public": true,
+:    "created_at": "2020-03-13T22:57:07Z"
+:   },
+** DONE [#B] reddit -- use colon to quote?
+:PROPERTIES:
+:CREATED:  [2020-07-31]
+:ID:       rddtsclntqt
+:END:
+** TODO [#D] myshows marked episodes                                  :orger:
+:PROPERTIES:
+:CREATED:  [2019-07-18]
+:ID:       myshwsmrkdpsds
+:END:
+** TODO [#D] "eh why" -- not converted to org?                  :orger:polar:
+:PROPERTIES:
+:CREATED:  [2020-05-25]
+:ID:       hwhyntcnvrtdtrg
+:END:
+** STRT [#D] [2019-03-02] really need extensive tests...
+:PROPERTIES:
+:ID:       rllyndxtnsvtsts
+:END:
 * [#C] * publicity
 :PROPERTIES:
 :ID:       pblcty
@@ -117,68 +204,15 @@ thanks to decoupling the data retrieval (#hpi)
 :CREATED:  [2019-09-10]
 :ID:       pblshgsscnpsttnrgmdftrngrgr
 :END:
-* [#B] * todos
+** STRT [#C] give a demo of my orger file               :toblog:orger:reddit:
 :PROPERTIES:
-:ID:       tds
+:CREATED:  [2019-08-21]
+:ID:       gvdmfmyrgrfl
 :END:
-** TODO [#C] need to use highlight as title?
+* [#D] * misc
 :PROPERTIES:
-:CREATED:  [2019-05-11]
-:ID:       ndtshghlghtsttl
+:ID:       msc
 :END:
-** TODO [#B] special mode to exit with 1 when error is encountered? and sep mode for appending errors :errors:
-:PROPERTIES:
-:CREATED:  [2020-06-01]
-:ID:       spclmdtxtwthwhnrrrsncntrdndspmdfrppndngrrrs
-:END:
-
-** TODO [#C] hmm. maybe preserve the order? since there is no date when you liked something :hpi:twitter:
-:PROPERTIES:
-:CREATED:  [2020-05-25]
-:ID:       hmmmybprsrvthrdrsncthrsndtwhnylkdsmthng
-:END:
-** WAIT [#C] reddit -- use quoting and convert syntax via pandoc?
-:PROPERTIES:
-:CREATED:  [2020-07-20]
-:ID:       rddtsqtngndcnvrtsyntxvpndc
-:END:
-
-** DONE [#B] reddit -- use colon to quote?
-:PROPERTIES:
-:CREATED:  [2020-07-31]
-:ID:       rddtsclntqt
-:END:
-** TODO [#D] myshows marked episodes                                  :orger:
-:PROPERTIES:
-:CREATED:  [2019-07-18]
-:ID:       myshwsmrkdpsds
-:END:
-** STRT [#D] [2019-03-02] really need extensive tests...
-:PROPERTIES:
-:ID:       rllyndxtnsvtsts
-:END:
-** TODO [#C] "eh why" -- not converted to org?                  :orger:polar:
-:PROPERTIES:
-:CREATED:  [2020-05-25]
-:ID:       hwhyntcnvrtdtrg
-:END:
-* TODO [#B] feels more and more that they should be a single tool :memex:promnesia:orger:
-:PROPERTIES:
-:CREATED:  [2020-02-27]
-:ID:       flsmrndmrthtthyshldbsngltl
-:END:
-
-* [#C] [2020-05-31] [[https://github.com/novoid/Memacs/blob/master/docs/FAQs_and_Best_Practices.org][novoid/Memacs: FAQs and Best Practices.org]] :errors:orger:
-:PROPERTIES:
-:ID:       sgthbcmnvdmmcsblbmstrdcsfrgnvdmmcsfqsndbstprctcsrg
-:END:
-: Because our memacs-modules run automatically, it would be difficult to be notified in case of an error.
-: So memacs-modules handle errors by appending them to a file:
-
-Very nice pattern, could use it for other stuff too
-
-
-
 * TODO [#B] [2020-05-20] add examples? [[https://github.com/karlicoss/orger#types-of-modules][karlicoss/orger: Tool to convert data into searchable and interactive org-mode views]]
 :PROPERTIES:
 :ID:       ddxmplssgthbcmkrlcssrgrtydtntsrchblndntrctvrgmdvws
@@ -315,11 +349,6 @@ link to HPI?
 :END:
 Also would make it really easier to prioritize etc
 
-* STRT [#C] give a demo of my orger file                :toblog:orger:reddit:
-:PROPERTIES:
-:CREATED:  [2019-08-21]
-:ID:       gvdmfmyrgrfl
-:END:
 * TODO [#C] plaintext mirror of your digital self                     :orger:
 :PROPERTIES:
 :CREATED:  [2020-01-16]
@@ -401,23 +430,3 @@ I guess that's the way to go, yep
 :PROPERTIES:
 :ID:       mghtbgdfrgrswll
 :END:
-* TODO [#C] organizing github stars?                                  :orger:
-:PROPERTIES:
-:CREATED:  [2021-01-31]
-:ID:       rgnznggthbstrs
-:END:
-maybe it should really be queue-type... so I can organize it myself
-* TODO [#C] CommitCommentEvent didn't work?                    :orger:github:
-:PROPERTIES:
-:CREATED:  [2021-02-09]
-:ID:       cmmtcmmntvntddntwrk
-:END:
-: "id": "11761830385",
-:    "type": "CommitCommentEvent",
-:    "payload": {
-:     "comment": {
-:      "url": "https://api.github.com/repos/karlicoss/dotemacs/comments/37820260",
-:    },
-:    "public": true,
-:    "created_at": "2020-03-13T22:57:07Z"
-:   },

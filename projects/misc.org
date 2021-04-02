@@ -67,6 +67,11 @@ hmm nice pretty extensive pocket export
 :END:
 : >What could it be used for?
 : For generating placeholder data, bootstrapping database with anonymized data, generating JSON data, creating fake API endpoints and et.c
+** TODO [#C] pdfannots has some test pdfs                          :hpi:jdoe:
+:PROPERTIES:
+:CREATED:  [2021-03-30]
+:ID:       pdfnntshssmtstpdfs
+:END:
 * [#C] * kython                                                      :kython:
 :PROPERTIES:
 :ID:       kythn
@@ -337,7 +342,7 @@ my #twitter exporter
 
 * ----------------------------
 :PROPERTIES:
-:ID:       8971_9005
+:ID:       9086_9120
 :END:
 
 

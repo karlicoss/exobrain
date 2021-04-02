@@ -74,3 +74,21 @@ https://gist.github.com/andyshinn/3ae01fa13cb64c9d36e7
 :ID:       sqltvwrghddntwrkjstdsplydblnkwhnpnngfl
 :END:
 : SQLiteViewer (A simple SQLite database viewer) - https://f-droid.org/packages/com.orpheusdroid.sqliteviewer
+
+* [#B] [2021-01-06] [[https://github.com/jonasoreland/runnerup][jonasoreland/runnerup: A open source run tracker]] :exercise:android:
+:PROPERTIES:
+:ID:       sgthbcmjnsrlndrnnrpjnsrlndrnnrppnsrcrntrckr
+:END:
+
+* [#B] [2020-04-22] [[https://android.jlelse.eu/wireless-debugging-through-adb-in-android-using-wifi-965f7edd163a][Wireless Debugging through ADB in Android using WiFi]] :android:debug:
+:PROPERTIES:
+:ID:       sndrdjllswrlssdbggngthrghssdbggngthrghdbnndrdsngwf
+:END:
+: adb tcpip 5555 (when it's plugged in, once)
+: adb connect host:port
+* [#B] [2021-03-29] getting termux environment                       :termux:
+:PROPERTIES:
+:ID:       gttngtrmxnvrnmnt
+:END:
+: sudo adb shell
+: $ su -c /data/data/com.termux/files/usr/bin/tsu

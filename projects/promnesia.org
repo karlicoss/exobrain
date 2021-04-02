@@ -6,7 +6,7 @@ Blog post: https://beepb00p.xyz/promnesia.html
 Project: https://github.com/karlicoss/promnesia
 
 
-* [#A] * data sources
+* [#B] * data sources
 :PROPERTIES:
 :ID:       dtsrcs
 :END:
@@ -167,7 +167,35 @@ hypothesis extractor could generate a nicer title of the document?
 :CREATED:  [2021-02-22]
 :ID:       stwdmpsxtrsrc
 :END:
-* [#B] * extension issues/improvements
+* [#B] * ideas
+:PROPERTIES:
+:ID:       ds
+:END:
+** TODO [#B] automatic interface                              :hpi:promnesia:
+:PROPERTIES:
+:CREATED:  [2021-03-09]
+:ID:       tmtcntrfc
+:END:
+- datetime
+- url
+- exclude Json (not sure how?)
+- [ ] first go through some data sources and see how well it's gonna work
+
+start with 'static' version
+- datetime: figure out by annotations
+  TODO shit gonna be tricky with tz aware/unaware stuff
+- url: figure out by  'url'/'href' attribute name (types don't seem to work?..)
+then switch
+- datetimes by isinstance
+- url: dynamically by checking if 'http' or something in strings? but might be tricky
+** TODO [#D] would be interesting to unify             :webarchive:promnesia:
+:PROPERTIES:
+:CREATED:  [2021-03-21]
+:ID:       wldbntrstngtnfy
+:END:
+- https://transhumanist-party.org/2019/06/09/transhumanism-teleology/
+- https://turingchurch.net/how-transhumanism-changed-my-views-on-teleology-231d24d7a3bd was deleted, but I have some instapaper annotations
+* [#C] * extension issues/improvements
 :PROPERTIES:
 :ID:       xtnsnsssmprvmnts
 :END:
@@ -367,7 +395,12 @@ eh, need to improve rendering of context. look at this link, for instance
 :PROPERTIES:
 :ID:       gsstwsrfrrngtnhghlghtdlnkstc
 :END:
-* [#B] * github issues
+** TODO [#B] bug: show visited mess with grasp?? (try selecting over these marks and capturing text) :promnesia:
+:PROPERTIES:
+:CREATED:  [2021-03-30]
+:ID:       bgshwvstdmsswthgrsptryslctngvrthsmrksndcptrngtxt
+:END:
+* [#C] * github issues
 :PROPERTIES:
 :ID:       gthbsss
 :END:
@@ -404,6 +437,15 @@ extension works weird on this page w.r.t. scrolling
 :ID:       ldmrfpgsscrlldgnnbtrcky
 :END:
 
+* [#C] * indexer: bugs/issues
+:PROPERTIES:
+:ID:       ndxrbgssss
+:END:
+** TODO [#B] hmm. if we switch db mode to 'update', then schema changes would break promnesia... :promnesia:
+:PROPERTIES:
+:CREATED:  [2021-03-06]
+:ID:       hmmfwswtchdbmdtpdtthnschmchngswldbrkprmns
+:END:
 * STRT [#B] hmm, what if people used it with older orgparse? (suggest to update in release notes)
 :PROPERTIES:
 :CREATED:  [2020-11-23]
@@ -1153,7 +1195,7 @@ allow breaking down important and unimportant schema parts from extensions?
 :END:
 ** [2019-08-01] ??
 :PROPERTIES:
-:ID:       41493_41522
+:ID:       42751_42780
 :END:
 * TODO [#C] open in new tab from search?
 :PROPERTIES:
@@ -3043,3 +3085,10 @@ someone from Matrix nyxt suggested it's similar?
 :CREATED:  [2019-02-26]
 :ID:       rghtrlxtrctnsgthbcmlpjrlxscmmntndlsgssctfftrlngdts
 :END:
+
+* TODO [#C] figuring out history from window titles?        :promnesia:arbtt:
+:PROPERTIES:
+:CREATED:  [2021-03-13]
+:ID:       fgrngthstryfrmwndwttls
+:END:
+bit too excessive I guess... although nice correlating events to jump in history?

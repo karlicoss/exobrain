@@ -1010,3 +1010,24 @@ https://github.com/athensresearch/athens/discussions/605
 :CREATED:  [2020-12-06]
 :ID:       hmmsxtrnlgtrpthtcmmtsvymnmtcllyndslvllfmytmstmpsss
 :END:
+* TODO [#C] 404 page, suggest to search or look on github history  :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-03-12]
+:ID:       pgsggsttsrchrlkngthbhstry
+:END:
+* TODO [#A] principle: as much as possible should be public        :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-03-16]
+:ID:       prncplsmchspssblshldbpblc
+:END:
+* TODO [#C] Use cdots in toc to indicate level?                    :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-03-11]
+:ID:       scdtsntctndctlvl
+:END:
+
+* TODO [#A] Need a link to homepage..                         :exobrain:blog:
+:PROPERTIES:
+:CREATED:  [2021-03-11]
+:ID:       ndlnkthmpg
+:END:

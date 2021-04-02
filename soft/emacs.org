@@ -385,7 +385,7 @@ https://github.com/manateelazycat/emacs-application-framework
 : EAF is a GUI application framework that revolutionizes Emacs graphical capabilities to ultimately Live in Emacs.
 
 hmm nice apparently you can write non-elisp code and easily intergrate?
-* TODO [#C] use alt-n for 'default' filename completion?              :habit:
+* TODO [#C] use alt-n for 'default' filename completion? useful to rename things quickly :emacs:habit:
 :PROPERTIES:
 :CREATED:  [2020-10-12]
 :ID:       30bce804-edc4-48d0-8aae-1e9fcfd63dba

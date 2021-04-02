@@ -2380,3 +2380,8 @@ table with comparison of note taking apps: roam/logseq/dendrom/org-roam etc
 :ID:       stwttrcmcsttscntwttrtntntnttthcmpltrqstdtrmsttwttr
 :END:
 : It's even more ambiguous at this point, given the useless new 'BERT' NLP system used for generating results-- it routinely ignores terms from the query, even ones with obvious semantic importance, so results are often entirely irrelevant to the complete requested term set.
+* TODO [#B] need "NEXT" todo entry? this would mean I need to actively act on something? :pkm:
+:PROPERTIES:
+:CREATED:  [2021-03-10]
+:ID:       ndnxttdntrythswldmnndtctvlyctnsmthng
+:END:

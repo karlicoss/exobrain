@@ -207,6 +207,14 @@ nope, just a completely custom scheduler, definitely not ideal
 :ID:       8567_8610
 :END:
 
+* TODO [#A] a perspective a year later?                                :dron:
+:PROPERTIES:
+:CREATED:  [2021-03-13]
+:ID:       prspctvyrltr
+:END:
+For dron, thinking about it a year later, a large chunk of the convenience in this dron tool would probably be from
+- allowing multiple services/timers in the same file (and then splitting them up in the actual systemd files)
+- allowing a different format (something more yaml-like) to make it possible to align jobs vertically. Then it's even fine not to have a general purpose language -- much easier to keep copypasta if you can block edit it
 * TODO [#B] hmm, managed status drops after reinstalling crontabs... I guess, timers?
 :PROPERTIES:
 :CREATED:  [2020-03-16]
@@ -223,6 +231,13 @@ and impossible to fix. e.g. add some garbage to onCalendar and try applying
 :ID:       tnblthsystmdsrvcycnrnthfllwng
 :END:
 : systemctl --user enable --now matrixcli
+* STRT [#B] [2021-02-24] [[https://unix.stackexchange.com/questions/441575/proper-way-to-use-onfailure-in-systemd/441662#441662][linux - Proper way to use OnFailure in systemd - Unix & Linux Stack Exchange]] :dron:
+:PROPERTIES:
+:ID:       snxstckxchngcmqstnsprprwynflrnsystmdnxlnxstckxchng
+:END:
+: In the code you run at ExecStopPost=, you can use one of $SERVICE_RESULT, $EXIT_CODE or $EXIT_STATUS to determine the failure condition and act accordingly. See the documentation on those environment variables to check which one is appropriate for you.
+
+hmm can run this on success
 * [#C] [2020-01-28] [[https://superuser.com/questions/1060670/systemd-cpu-usage-of-services][arch linux - systemd: cpu usage of services - Super User]]
 :PROPERTIES:
 :ID:       ssprsrcmqstnssystmdcpsgfshlnxsystmdcpsgfsrvcssprsr
@@ -300,10 +315,3 @@ what to improve:
 :CREATED:  [2021-02-08]
 :ID:       ftrfrnxtfthdtstdyhdt
 :END:
-* TODO [#B] [2021-02-24] [[https://unix.stackexchange.com/questions/441575/proper-way-to-use-onfailure-in-systemd/441662#441662][linux - Proper way to use OnFailure in systemd - Unix & Linux Stack Exchange]] :dron:
-:PROPERTIES:
-:ID:       snxstckxchngcmqstnsprprwynflrnsystmdnxlnxstckxchng
-:END:
-: In the code you run at ExecStopPost=, you can use one of $SERVICE_RESULT, $EXIT_CODE or $EXIT_STATUS to determine the failure condition and act accordingly. See the documentation on those environment variables to check which one is appropriate for you.
-
-hmm can run this on success

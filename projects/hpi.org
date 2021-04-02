@@ -690,6 +690,29 @@ I mean, 1.5x is kinda nice...
 :CREATED:  [2020-04-24]
 :ID:       wndrfcnmkpythnfrcthtrtrs
 :END:
+** [#B] [2021-03-15] config: extending base config which has Paths/Pathish and List as the default attribute :hpi:
+:PROPERTIES:
+:ID:       cnfgxtndngbscnfgwhchhspthspthshndlststhdfltttrbt
+:END:
+e.g. in mycfg
+: class commits:
+:    roots: Sequence[PathIsh] = [L]
+
+
+in my.commits
+: @dataclass
+: class commits_cfg(user_config):
+:     roots: Sequence[PathIsh] # --- this complains    ValueError: mutable default <class 'list'> for field roots is not allowed: use default_factory. shit
+:     emails: Optional[Sequence[str]] = None
+:     names: Optional[Sequence[str]] = None
+
+huh, so adding  ~roots equals field(default_factory=list)~ solved it?...
+** TODO [#B] handles archived stuff via CPath helper                    :hpi:
+:PROPERTIES:
+:CREATED:  [2021-03-26]
+:ID:       hndlsrchvdstffvcpthhlpr
+:END:
+requires a bit of cooperation by using isinstance check in DAL? ... maybe inputs should take str, dunno
 * [#B] * data providers/sources
 :PROPERTIES:
 :ID:       dtprvdrssrcs
@@ -914,6 +937,16 @@ some hackery...
 :CREATED:  [2020-10-12]
 :ID:       hwtmksrllprvdrsrhndld
 :END:
+** TODO [#C] allow timestamp for likes? just make it optional and use in orger if possible :twitter:hpi:
+:PROPERTIES:
+:CREATED:  [2021-03-16]
+:ID:       llwtmstmpfrlksjstmktptnlndsnrgrfpssbl
+:END:
+** TODO [#C] pdfs: would be interesting to filter by author? dunno it's often not set/empty... :hpi:
+:PROPERTIES:
+:CREATED:  [2021-04-01]
+:ID:       pdfswldbntrstngtfltrbythrdnntsftnntstmpty
+:END:
 * [#B] * improving testing & CI
 :PROPERTIES:
 :ID:       mprvngtstngc
@@ -1124,6 +1157,33 @@ could have a defensive import in my.core.typing
 : from my.config import core as user_config # type: ignore[attr-defined]
 
 maybe instead of defining dynamic bits, import stuff from my.module.config? and then override? not sure
+** TODO [#B] entity guessing: in materialistic module, make sure hpi stat my.materialistic returns last entity time :hpi:
+:PROPERTIES:
+:CREATED:  [2021-03-08]
+:ID:       nttygssngnmtrlstcmdlmksrhttmymtrlstcrtrnslstnttytm
+:END:
+** [#B] automatic ids
+:PROPERTIES:
+:ID:       tmtcds
+:END:
+*** [2021-03-07] if there is a unique timestamp, use it as implicit id? :hpi:
+:PROPERTIES:
+:ID:       fthrsnqtmstmpstsmplctd
+:END:
+*** [2021-03-07] for ID: implement an uid function? not sure how to type it reliably though... :hpi:
+:PROPERTIES:
+:ID:       frdmplmntndfnctnntsrhwttyptrlblythgh
+:END:
+*** [2021-03-07] ids                                                    :hpi:
+:PROPERTIES:
+:ID:       ds
+:END:
+IDS should be optional, in that case could use implicit ID like timestamps or even 'index' of the item in sequence. in practice it would be stable enought?
+or use hash of some other metadata
+*** [2021-03-08] automatic ID: guess from increasing field?             :hpi:
+:PROPERTIES:
+:ID:       tmtcdgssfrmncrsngfld
+:END:
 * [#C] * bugs/issues
 :PROPERTIES:
 :ID:       bgssss
@@ -1180,6 +1240,31 @@ and then, location caching also never properly happens. uhoh
 :     infos = getattr(tz, '_tzinfos', [])
 :     for _, _, x in infos:
 :         tz_lookup[x] = tz
+** TODO [#C] doctor: for compileall check need to use tmp path?         :hpi:
+:PROPERTIES:
+:CREATED:  [2021-03-16]
+:ID:       dctrfrcmplllchckndtstmppth
+:END:
+: ✅ config file : /.config/my/my/config/__init__.py
+: Compiling '/.config/my/my/config/__init__.py'...
+: *** OSError: [Errno 30] Read-only file system: '/.config/my/my/config/__pycache__'
+** TODO [#C] hmm stats look a bit off?                                  :hpi:
+:PROPERTIES:
+:CREATED:  [2021-03-26]
+:ID:       hmmsttslkbtff
+:END:
+: ✅ OK  : my.reading.goodreads
+: ✅     - stats: {'books': {'books': {'count': 222, 'last': datetime.datetime(2013, 7, 14, 2, 58, 4, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200)))}}, 'events': {'events': {'count': 222, 'last': datetime.datetime(2013, 7, 14, 2, 58, 4, tzinfo=datetime.timezone(datetime.timedelta(days=-1, seconds=61200)))}}, 'inputs': {'inputs': {'count': 934}}, 'reviews': {'reviews': {'count': 222}}}
+** TODO [#C] this is when forget parens after @cachew                   :hpi:
+:PROPERTIES:
+:CREATED:  [2021-03-09]
+:ID:       thsswhnfrgtprnsftrcchw
+:END:
+:  ❯ python3 xx.py
+: Traceback (most recent call last)
+:   File "xx.py", line 6, in <module>
+:     for x in M.bookmarks():
+: TypeError: <lambda>() missing 1 required positional argument: 'realf'
 * [#D] * misc
 :PROPERTIES:
 :ID:       msc
@@ -1289,7 +1374,32 @@ Iterable needs to be iter(), e.g. you can't return list as Iterator
 :ID:       shyfnntmmxpdtspttngthmmxnxntcntnrshzmthrmmxsghtngs
 :END:
 : My main objective right now is packaging what I’m working on into something that I can easily get to beta testers.
+** [#B] [2021-03-09] tried using monkeypatch to infer output types.. :types:hpi:
+:PROPERTIES:
+:ID:       trdsngmnkyptchtnfrtpttyps
+:END:
+tried with my.pinboard module for bookmarks() function:
+- can infer List[Bookmark]
+- can infer List[Union[Bookmark, RuntimeError]]
+- doesn't seems to be able to infer yield... pretty annoying
+
+so all in all seems that it would be easier to assume Res[X] and try to guess X?
+** TODO [#B] "data repository" is a good description?                   :hpi:
+:PROPERTIES:
+:CREATED:  [2021-03-10]
+:ID:       dtrpstrysgddscrptn
+:END:
+** TODO [#C] shit Url alias doesn't work...                             :hpi:
+:PROPERTIES:
+:CREATED:  [2021-03-09]
+:ID:       shtrllsdsntwrk
+:END:
+: Url = NewType('Url', str)
+
+what's up with this Bookmark thing??
+: [ins] In [24]: inspect.signature(Bookmark.url.fget)
+: Out[24]: <Signature (self) -> <function NewType.<locals>.new_type at 0x7f9c8626ce50>>
 * --------------------------------------------
 :PROPERTIES:
-:ID:       49396_49444
+:ID:       53133_53181
 :END:

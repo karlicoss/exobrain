@@ -1,4 +1,4 @@
-#+TITLE: Cachew
+#+TITLE: ⭐ Cachew
 #+filetags: cachew
 
 Cachew lets you cache function calls into an sqlite database on your disk in a matter of single decorator (similar to functools.lru_cache).
@@ -7,7 +7,7 @@ Cache is invalidated automatically if your function's arguments change, so you d
 
 https://github.com/karlicoss/cachew#what-is-cachew
 
-* [#A] motivation
+* [#A] * motivation
 :PROPERTIES:
 :ID:       mtvtn
 :END:
@@ -59,7 +59,7 @@ https://www.reddit.com/r/Python/comments/kz7vj/is_it_possible_to_use_a_namedtupl
 : sqlalchemy needs to attach attributes onto a mapped class, which include one for each column mapped, as well as an attribute _sa_instance_state for bookkeeping. It also, as someone mentioned, needs to create a weak reference to the object. So a SQLAlchemy-mapped class needs to be a "new style class", extending from object.
 : If you look at how namedtuple works, it has quite a bit of trickery going on, not the least of which is that it sets __slots__ to (). Then there's some super-nasty frame mutation stuff after that to somehow make it pickleable.
 : That said it's straightforward to make your own class that is SQLAlchemy compatible and acts more or less the same as a namedtuple. Just define __iter__, __len__, __repr__, other methods as appropriate. Plus it will be pickleable without injecting variables into stack frames.
-* [#A] prior art/similar projects
+* [#A] * prior art/similar projects
 :PROPERTIES:
 :ID:       prrrtsmlrprjcts
 :END:
@@ -97,7 +97,7 @@ https://github.com/unmade/apiwrappers
 
 hmm kind of similar to what I'm doing/want for axol?
 
-* [#B] potential features
+* [#B] * potential features
 :PROPERTIES:
 :ID:       ptntlftrs
 :END:
@@ -234,7 +234,23 @@ feels a bit more atomic...
 - maybe allow using app specific subcaches?
   e.g. make_cachew(prefix='my')
 - [2021-03-20] ok done https://github.com/karlicoss/cachew/commit/161ce25304bfda77b484f886ff9c0b4b23924563
-* [#B] publicity                                                    :publish:
+** TODO [#C] Hide tail call optimization in cachew?? Hmmm            :cachew:
+:PROPERTIES:
+:CREATED:  [2020-12-19]
+:ID:       hdtlcllptmztnncchwhmmm
+:END:
+
+** TODO [#B] env variable to turn it off??                           :cachew:
+:PROPERTIES:
+:CREATED:  [2021-03-07]
+:ID:       nvvrblttrntff
+:END:
+** TODO [#C] make it depend on the git hash? I guess global override would be nice :cachew:
+:PROPERTIES:
+:CREATED:  [2020-10-19]
+:ID:       mktdpndnthgthshgssglblvrrdwldbnc
+:END:
+* [#B] * publicity                                                  :publish:
 :PROPERTIES:
 :ID:       pblcty
 :END:
@@ -318,7 +334,13 @@ perhaps with more processing difference would be even more striking...
 :CREATED:  [2019-08-04]
 :ID:       tmprtrdrngslpnlyss
 :END:
-* [#C] readme/docs
+** TODO [#C] Might be actually worth a separate post; using it in promnesia and axol as well :cachew:toblog:
+:PROPERTIES:
+:CREATED:  [2020-01-12]
+:ID:       mghtbctllywrthsprtpstsngtnprmnsndxlswll
+:END:
+
+* [#C] * readme/docs
 :PROPERTIES:
 :ID:       rdmdcs
 :END:
@@ -400,7 +422,7 @@ add a super simple, trivial example. just with some dictionaries maybe?
 :CREATED:  [2019-07-30]
 :ID:       fckfwntppltstmgnnndsmdcmnttn
 :END:
-* [#C] performance & profiling                                  :performance:
+* [#C] * performance & profiling                                :performance:
 :PROPERTIES:
 :ID:       prfrmncprflng
 :END:
@@ -457,13 +479,18 @@ after updating to nice binders
 : pylint: disable=no-value-for-parameter
 : logger.debug('inserted...')
 
-* [#D] bugs/stability
+* [#D] * bugs/stability
 :PROPERTIES:
 :ID:       bgsstblty
 :END:
 generally bugs not a big problem since the cache is temporary & optional, worst case can delete or disable
 although need to make sure there are not data consistency issues... maybe expire cache on calendar?
 
+** TODO [#A] rename 'table' to 'data'? to avoid quoting issues       :cachew:
+:PROPERTIES:
+:CREATED:  [2021-03-09]
+:ID:       rnmtbltdttvdqtngsss
+:END:
 ** TODO [#B] warn when it's running under tests? not sure
 :PROPERTIES:
 :CREATED:  [2020-08-22]
@@ -493,6 +520,12 @@ although need to make sure there are not data consistency issues... maybe expire
 :CREATED:  [2020-07-31]
 :ID:       smsthttmydltwhldrctrs
 :END:
+** TODO [#C] hmm... can generate shitty names?                       :cachew:
+:PROPERTIES:
+:CREATED:  [2021-02-21]
+:ID:       hmmcngnrtshttynms
+:END:
+: ~/.cache/my/my.core.core_config:test_cachew.\<locals\>.cf
 * TODO [#B] I guess binder for namedtuples is kinda a separate thing as it could be used separately for 'pickling'
 :PROPERTIES:
 :CREATED:  [2019-08-03]
@@ -523,28 +556,4 @@ Maybe, set the attribute to the function? Seems good enough?
 * [#D] related                                                   :python:hpi:
 :PROPERTIES:
 :ID:       rltd
-:END:
-
-* TODO Might be actually worth a separate post; using it in promnesia and axol as well :cachew:toblog:
-:PROPERTIES:
-:CREATED:  [2020-01-12]
-:ID:       mghtbctllywrthsprtpstsngtnprmnsndxlswll
-:END:
-
-* TODO [#C] Hide TCO in cachew?? Hmmm                                :cachew:
-:PROPERTIES:
-:CREATED:  [2020-12-19]
-:ID:       hdtcncchwhmmm
-:END:
-
-* TODO [#C] hmm... can generate shitty names?                        :cachew:
-:PROPERTIES:
-:CREATED:  [2021-02-21]
-:ID:       hmmcngnrtshttynms
-:END:
-: ~/.cache/my/my.core.core_config:test_cachew.\<locals\>.cf
-* TODO [#C] cachew: make it depend on the git hash? I guess global override would be nice :cachew:
-:PROPERTIES:
-:CREATED:  [2020-10-19]
-:ID:       cchwmktdpndnthgthshgssglblvrrdwldbnc
 :END:

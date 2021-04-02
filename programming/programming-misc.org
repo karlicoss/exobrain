@@ -1804,3 +1804,30 @@ solution: void consumer(List<? extends A> List)
 :END:
 - lack of operators overloading (but sometimes it makes sense)
 - GC: both good and bad
+* [#C] [2021-03-06] actions on forked repository:                  :githubci:
+:PROPERTIES:
+:ID:       ctnsnfrkdrpstry
+:END:
+go to your fork https://github.com/karlicos-test12/pymplate/actions, click "I understand my workflows, go ahead and enable them"
+https://github.community/t/workflow-isnt-enabled-in-repos-generated-from-template/136421
+ok, pypi would fail presumably... https://github.com/karlicos-test12/pymplate/runs/2047882422?check_suite_focus=true
+** [2021-03-06] right
+:PROPERTIES:
+:ID:       rght
+:END:
+: Pull request events for forked repositories
+: Note: Workflows do not run on private base repositories when you open a pull request from a forked repository.
+: When you create a pull request from a forked repository to the base repository, GitHub sends the pull_request event to the base repository and no pull request events occur on the forked repository.
+: Workflows don't run on forked repositories by default. You must enable GitHub Actions in the Actions tab of the forked repository.
+* TODO [#B] would be nice to have a tool to explore someone's pinboard bookmarks... maybe in gephi or something :pinboard:
+:PROPERTIES:
+:CREATED:  [2021-03-25]
+:ID:       wldbncthvtltxplrsmnspnbrdbkmrksmybngphrsmthng
+:END:
+or lightweight promnesia marks?
+* [#D] [2021-03-06] X
+:PROPERTIES:
+:ID:       x
+:END:
+: In my opinion, one killer feature of VSCode is the ability to connect to WSL, remote server and Docker container.
+: As someone mainly developing on WSL2, I use this feature everyday. I only use Idea when I need to use Java or Kotlin, because its language support is really good.

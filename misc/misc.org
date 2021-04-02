@@ -2915,3 +2915,25 @@ ok seems that it's the best choice judging by
 :PROPERTIES:
 :ID:       sgphrggphthpngrphvzpltfrm
 :END:
+
+* TODO [#C] would be cool to have pinboard support?                   :ampie:
+:PROPERTIES:
+:CREATED:  [2021-03-18]
+:ID:       wldbclthvpnbrdspprt
+:END:
+although can't really search by exact URL in pinboard?
+e.g. https://pinboard.in/search/?query=https%3A%2F%2Fgithub.com%2Fmicrosoft%2FTypeScript&all=Search+All
+* [#C] [2021-03-08] Rationally Speaking Podcast: Understanding moral disagreements (Jonathan Haidt) https://rationallyspeakingpodcast.org/show/episode-252-understanding-moral-disagreements-jonathan-haidt.html
+:PROPERTIES:
+:ID:       rtnllyspkngpdcstndrstndngngmrldsgrmntsjnthnhdthtml
+:END:
+OK interesting point that it seems to get impossible to be perfectly rational and get rid of all biases as an individual. But you can achieve better rationality as a community?
+Also point that allowing some 'moral' restrictions (seemingly arbitrary) can lead to better utilitarian results?
+
+* TODO [#C] https://social.coop/@bmann/105833459540565512
+:PROPERTIES:
+:CREATED:  [2021-03-05]
+:ID:       ssclcpbmnn
+:END:
+
+: bmann@social.coop - Brave bought a search engine, and also have a white paper on creating user-controlled, collaborative search filters https://bmannconsulting.com/log/1614888566/​

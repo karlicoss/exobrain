@@ -62,3 +62,13 @@ https://wiki.termux.com/wiki/Touch_Keyboard
 :END:
 
 https://www.reddit.com/r/fossdroid/comments/lpynso/100_foss_smartphone_hardening_nonroot_guide_30/
+
+* [#B] [2019-09-22] [[https://reddit.com/r/fossdroid/comments/d7cpsm/stevesoltysbackup_a_backup_application_for_the/][stevesoltys/backup: A backup application for the Android Open Source Project.]] /r/fossdroid :backup:
+:PROPERTIES:
+:ID:       srddtcmrfssdrdcmmntsdcpsmfrthndrdpnsrcprjctrfssdrd
+:END:
+https://github.com/seedvault-app/seedvault
+** [2021-03-29] it looks really great, but needs to be built into the ROM in the first place. you can't install it as an app
+:PROPERTIES:
+:ID:       tlksrllygrtbtndstbbltntthmnthfrstplcycntnstlltsnpp
+:END:

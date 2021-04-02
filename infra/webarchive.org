@@ -362,3 +362,32 @@ hm okay sad.. guess I can do a backup per year or smth for now
 :ID:       snwkpdrgwkwkpddtbsdwnldwkpddtbsdwnldwkpd
 :END:
 : The only downside to multistream is that it is marginally larger
+* TODO [#C] would be nice to maybe tag urls... e.g. which source they are coming from :archivebox:
+:PROPERTIES:
+:CREATED:  [2021-03-26]
+:ID:       wldbnctmybtgrlsgwhchsrcthyrcmngfrm
+:END:
+or just have a special source for manual notes/exobrainy stuff and another one for the rest?
+https://github.com/ArchiveBox/ArchiveBox/issues/660
+* TODO [#B] def archive things I post (e.g. referenced in my own tweets/comments etc) :self:archivebox:
+:PROPERTIES:
+:CREATED:  [2021-03-26]
+:ID:       dfrchvthngspstgrfrncdnmywntwtscmmntstc
+:END:
+* TODO [#B] could also check archive.is api?                     :webarchive:
+:PROPERTIES:
+:CREATED:  [2021-03-21]
+:ID:       cldlschckrchvsp
+:END:
+
+e.g. it archives medium-like stuff? https://archive.is/20181031123930/https://howwegettonext.com/exploring-the-future-without-cyberpunks-neon-and-noir-8e23562819e3
+* TODO [#C] hmm, a bit confused about archive.is -- how reliable is it? is it backed up somewhere? perhaps still should save stuff from there locally... :webarchive:
+:PROPERTIES:
+:CREATED:  [2021-03-21]
+:ID:       hmmbtcnfsdbtrchvshwrlblststllshldsvstfffrmthrlclly
+:END:
+* TODO [#B] pdfs on the other hand are a bit of higher priority? :webarchive:
+:PROPERTIES:
+:CREATED:  [2021-03-21]
+:ID:       pdfsnththrhndrbtfhghrprrty
+:END:

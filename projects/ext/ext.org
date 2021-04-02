@@ -129,6 +129,13 @@ maybe they are more like attributes.. or tiny dots around tag, each of dots repr
 :END:
 : Yeah, there're some users who rely on the first heading as the page title.
 : If you prefer to use the file name as the page title instead of the first heading's title, (TITLE -> filename -> first heading), add :page-name-order "file" to the file logseq/config.edn.
+** TODO [#B] wtf??                                                   :logseq:
+:PROPERTIES:
+:CREATED:  [2021-03-12]
+:ID:       wtf
+:END:
+only seems to happen in publishing mode?
+: Lookup ref should contain 2 elements: ({:page/name "pkm"})
 * [#B] * Orgzly                                                      :orgzly:
 :PROPERTIES:
 :ID:       rgzly
@@ -718,7 +725,7 @@ using #gitbug instead now
 
 * --------------------------------
 :PROPERTIES:
-:ID:       24212_24248
+:ID:       24394_24430
 :END:
 
 * STRT [#C] share link and content                                    :tusky:
