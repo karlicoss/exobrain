@@ -1831,3 +1831,22 @@ or lightweight promnesia marks?
 :END:
 : In my opinion, one killer feature of VSCode is the ability to connect to WSL, remote server and Docker container.
 : As someone mainly developing on WSL2, I use this feature everyday. I only use Idea when I need to use Java or Kotlin, because its language support is really good.
+
+* [#B] [2021-03-06] [[https://news.ycombinator.com/item?id=26354581][echo '' | fzf --print-query --preview 'jq {q} input.json' This was posted t... | Hacker News]] :jq:json:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdchfzfprntqqnptjsnthswspstdthckrnws
+:END:
+:     echo '' | fzf --print-query --preview 'jq {q} input.json'
+: This was posted the last time this came up.
+* [#C] [2021-04-08] [[https://unix.stackexchange.com/questions/13466/can-grep-output-only-specified-groupings-that-match][text processing - Can grep output only specified groupings that match? - Unix & Linux Stack Exchange]] :grep:
+:PROPERTIES:
+:ID:       snxstckxchngcmqstnscngrptpngsthtmtchnxlnxstckxchng
+:END:
+: grep -oP 'foobar \K\w+' test.txt
+
+extract match only with grep
+* [#C] [2021-04-04] [[https://www.sqlite.org/wal.html#readonly][Write-Ahead Logging]] :sqlite:
+:PROPERTIES:
+:ID:       swwwsqltrgwlhtmlrdnlywrthdlggng
+:END:
+: Beginning with version 3.22.0 (2018-01-22), a read-only WAL-mode database file can be opened if the -shm and -wal files already exists or those files can be created or the database is immutable.

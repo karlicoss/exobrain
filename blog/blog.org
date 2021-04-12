@@ -513,3 +513,8 @@ ok, this seems like the best choice
 : Webmen
 
 make a link to hypothesis comments, this looks quite good
+* [#B] [2021-04-07] [[https://www.mollymielke.com/cc][Computers and Creativity]] :blog:
+:PROPERTIES:
+:ID:       swwwmllymlkcmcccmptrsndcrtvty
+:END:
+inspiration: nice scroll progress on top

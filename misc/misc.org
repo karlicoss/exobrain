@@ -2937,3 +2937,60 @@ Also point that allowing some 'moral' restrictions (seemingly arbitrary) can lea
 :END:
 
 : bmann@social.coop - Brave bought a search engine, and also have a white paper on creating user-controlled, collaborative search filters https://bmannconsulting.com/log/1614888566/​
+
+* [#C] [2021-03-18] [[https://josephg.com/blog/home-is-where-the-bits-flow/][Home is where the bits flow]] :cyberspace:
+:PROPERTIES:
+:ID:       sjsphgcmblghmswhrthbtsflwhmswhrthbtsflw
+:END:
+
+* [#C] [2021-03-31] [[https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/pdf_reference_archives/PDFReference.pdf][PDF Reference, Third Edition - PDFReference.pdf]] :pdf:
+:PROPERTIES:
+:ID:       swwwdbcmcntntdmcmndvntpdfdfrfrncthrddtnpdfrfrncpdf
+:END:
+useful for decoding, e.g. for pdfannots
+* [#D] [2021-03-24] [[https://news.ycombinator.com/item?id=26567980][Ask HN: Digital Nomads: What's Your Setup?]] :nomad:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdskhndgtlnmdswhtsyrstp
+:END:
+not much super useful info in comments thouhg -- mostly US specific
+* [#C] [2021-02-10] [[https://news.ycombinator.com/item?id=26082428][OpenStreetMap proven to be a highly accurate map in top US cities]] :maps:degoogle:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdpnstrtmpprvntbhghlyccrtmpntpscts
+:END:
+https://eng.lyft.com/how-lyft-discovered-openstreetmap-is-the-freshest-map-for-rideshare-a7a41bf92ec
+* DONE [#C] [2021-01-29] [[https://news.ycombinator.com/item?id=25926033][Personium – personal data store server]] :infra:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdprsnmprsnldtstrsrvr
+:END:
+https://personium.io/
+- [2021-04-11] eh, couldn't quite figure out what are they up to? e.g. what kinds of apps they build -- why would I want to store anything on it?
+* [#B] [2021-03-22] [[https://news.ycombinator.com/item?id=26543731][2/3rds of Google Searches Now End Without a Click]] :degoogle:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdrdsfgglsrchsnwndwthtclck
+:END:
+https://sparktoro.com/blog/in-2020-two-thirds-of-google-searches-ended-without-a-click/
+* [#C] [2021-03-16] [[https://en.wikipedia.org/wiki/Zero-risk_bias][Zero-risk bias - Wikipedia]]
+:PROPERTIES:
+:ID:       snwkpdrgwkzrrskbszrrskbswkpd
+:END:
+
+* [#B] [2021-03-20] [[https://news.ycombinator.com/item?id=26519457][I don't care about cookies | Hacker News]] :privacy:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmddntcrbtckshckrnws
+:END:
+: Or, if you already use uBlock Origin and would rather use its performant, customizable, extensible filtering capabilities instead of adding (and trusting!) yet another addon, just check the "EasyList Cookie" list in your Filter Lists :) .
+* [#C] [2021-03-28] [[https://github.com/client9/misspell][client9/misspell: Correct commonly misspelled English words in source files]]
+:PROPERTIES:
+:ID:       sgthbcmclntmsspllclntmssplymssplldnglshwrdsnsrcfls
+:END:
+
+* [#C] [2021-04-09] [[https://www.youtube.com/watch?v=VipbsUTsrGA][Video - Bitcoin Vs Ethereum with Samson Mow & Vitalik Buterin - YouTube]] :crypto:
+:PROPERTIES:
+:ID:       swwwytbcmwtchvvpbstsrgvdbsthrmwthsmsnmwvtlkbtrnytb
+:END:
+eh, this samson mow guy sucks. kind of strawmen arguments, etc, Buterin is much more calm & clever
+* [#C] [2021-04-08] [[https://news.ycombinator.com/item?id=26736379][Show HN: Raspberry Pi 400 – CyberDeck Project | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdshwhnrspbrrypcybrdckprjcthckrnws
+:END:
+hmm people write it's likely to break though

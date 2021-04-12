@@ -136,25 +136,6 @@ maybe it should really be queue-type... so I can organize it myself
 :ID:       rddtsqtngndcnvrtsyntxvpndc
 :END:
 
-** TODO [#C] github: PullRequestReviewCommentEvent -- need to add a link! :orger:
-:PROPERTIES:
-:CREATED:  [2021-03-31]
-:ID:       gthbpllrqstrvwcmmntvntndtddlnk
-:END:
-** TODO [#C] CommitCommentEvent didn't work?                   :orger:github:
-:PROPERTIES:
-:CREATED:  [2021-02-09]
-:ID:       cmmtcmmntvntddntwrk
-:END:
-: "id": "11761830385",
-:    "type": "CommitCommentEvent",
-:    "payload": {
-:     "comment": {
-:      "url": "https://api.github.com/repos/karlicoss/dotemacs/comments/37820260",
-:    },
-:    "public": true,
-:    "created_at": "2020-03-13T22:57:07Z"
-:   },
 ** DONE [#B] reddit -- use colon to quote?
 :PROPERTIES:
 :CREATED:  [2020-07-31]

@@ -682,3 +682,28 @@ wasn't so engaging, mostly about project management
 :ID:       schtfsdmrgrmlglfsdmrgfsdmlglndplcysssdvrm
 :END:
 : Question: Can we expect actions to be taken pro marketing of open standards, versus the propaganda of big corporations?  To keep the public's views open.
+* TODO [#C] [2021-04-07] [[https://www.mollymielke.com/cc][Computers and Creativity]] :computing:readagain:
+:PROPERTIES:
+:ID:       swwwmllymlkcmcccmptrsndcrtvty
+:END:
+
+* [#C] [2021-03-06] [[https://app.element.io/#/room/#malleable-systems:matrix.org][Element | Malleable Systems Collective]]
+:PROPERTIES:
+:ID:       spplmntrmmllblsystmsmtrxrglmntmllblsystmscllctv
+:END:
+: thoughtweaver
+: What also frustrates me is when "dark mode" has become a major product/feature announcement. I mean... how low are we going to set the bar?
+* [#C] [2021-03-06] [[https://app.element.io/#/room/#malleable-systems:matrix.org][Element | Malleable Systems Collective]] :docker:
+:PROPERTIES:
+:ID:       spplmntrmmllblsystmsmtrxrglmntmllblsystmscllctv
+:END:
+: Btw, very good point about state. Since containers (and Docker in particular) spread, it's become much easier to try out new software, I know that I can always just delete the container (or even resume setting it up later) and it will be all fine. As in, at least I don't end up with half-broken package manager dependencies, etc. Physical world doesn't quite have this property :) Although the state is much more explicit
+* [#C] [2021-03-29] [[https://www.notion.so/Computing-History-Hub-be72f307fc2e4b05abe3dc67eb937521][Computing History Hub]] :computing:
+:PROPERTIES:
+:ID:       swwwntnscmptnghstryhbbffcbbdcbcmptnghstryhb
+:END:
+
+* TODO [#B] [2021-03-20] [[http://wiki.c2.com/?ObjectBrowser][Object Browser]] :toread:
+:PROPERTIES:
+:ID:       wkccmbjctbrwsrbjctbrwsr
+:END:

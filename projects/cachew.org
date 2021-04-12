@@ -557,3 +557,13 @@ Maybe, set the attribute to the function? Seems good enough?
 :PROPERTIES:
 :ID:       rltd
 :END:
+
+* TODO [#B] [2021-03-08] [[https://github.com/calpaterson/pyappcache][calpaterson/pyappcache: A library for application-level caching]] :cachew:
+:PROPERTIES:
+:ID:       sgthbcmclptrsnpyppcchclptpcchlbrryfrpplctnlvlcchng
+:END:
+: Pyappcache is a library to make it easier to use application-level caching in Python.
+: 
+:     Allows putting arbitrary Python objects into the cache
+:     Uses PEP484 type hints to help you typecheck cache return values
+:     Supports Memcache, Redis and SQLite

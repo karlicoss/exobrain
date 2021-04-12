@@ -240,3 +240,14 @@ huh, apparently UV protective pigments are also inside the cells, around nucleus
 :ID:       pnclln
 :END:
 : Penicillin kills bacteria by inhibiting the completion of the synthesis of peptidoglycans, the structural component of bacterial cell wall.
+
+* [#C] [2021-03-31] [[https://twitter.com/EmporiumThought/status/1376936685062086660][(1) The Thought Emporium on Twitter: "@PowerDNS_Bert Modern biology isn't usually done yourself. You outsource 95% of it. So the distinction is irrelevant. If you know the right companies you can get anything done, including this. And it's neither hard nor expensive. The last 5% can in fact be done at home." / Twitter]]
+:PROPERTIES:
+:ID:       stwttrcmmprmthghtsttsththnsvthlstcnnfctbdnthmtwttr
+:END:
+: Modern biology isn't usually done yourself. You outsource 95% of it. So the distinction is irrelevant. If you know the right companies you can get anything done, including this. And it's neither hard nor expensive. The last 5% can in fact be done at home.
+* TODO [#B] [2021-04-05] [[https://twitter.com/PowerDNS_Bert/status/1379073534211817474][Bert Hubert on Twitter: "Some people asked if I knew of a quick intro to molecular biology. While you have to realize this is a somewhat bold question, this https://t.co/QgucmCctHt by Alexander Zien looks pretty useful. https://t.co/gTvWHjOQZM" / Twitter]] :tostudy:
+:PROPERTIES:
+:ID:       stwttrcmpwrdnsbrtsttsbrthprttysflstcgtvwhjqzmtwttr
+:END:
+: Some people asked if I knew of a quick intro to molecular biology. While you have to realize this is a somewhat bold question, this  https://bioinformatics.nl/courses/BioSB-AfBN/prep/Molecular%20biology%20primer.pdf by Alexander Zien looks pretty useful.

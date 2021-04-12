@@ -391,3 +391,8 @@ e.g. it archives medium-like stuff? https://archive.is/20181031123930/https://ho
 :CREATED:  [2021-03-21]
 :ID:       pdfsnththrhndrbtfhghrprrty
 :END:
+* TODO [#C] [2021-03-26] [[https://github.com/AdguardTeam/AdGuardHome/blob/master/client/src/helpers/trackers/whotracksme.json][AdGuardHome/whotracksme.json at master · AdguardTeam/AdGuardHome]] :archivebox:
+:PROPERTIES:
+:ID:       sgthbcmdgrdtmdgrdhmblbmstrcksmjsntmstrdgrdtmdgrdhm
+:END:
+could use this to prune?

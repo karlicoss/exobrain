@@ -305,3 +305,12 @@ https://lobste.rs/s/la8hpt/decentralized_web_primer_dat#c_kxmozz
 : The specification itself is far too ambiguous. Here's a post by a maintainer of Diaspora explaining this part further: https://schub.io/blog/2018/02/01/activitypub-one-protocol-to-rule-them-all.html
 : So let's assume you can get Twitter to implement ActivityPub perfectly to-spec. Great! It doesn't work with literally any pre-existing ActivityPub software, and users' DMs and are more or less public, with users' private accounts literally being public.
 : I use AP daily, and while it's fine for technical users with a reasonable understanding that anything they post is public, putting naive users' data at risk has never and will never be acceptable; pushing AP will harm everyone.
+* [#C] [2021-03-24] [[https://news.ycombinator.com/item?id=26564638][Google Removed ClearURLs Extension from Chrome Web Store | Hacker News]] :degoogle:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdgglrmvdclsxtnsnfrmchrmwbstrhckrnws
+:END:
+
+* TODO [#B] [2021-03-26] [[https://news.ycombinator.com/item?id=25481465][Setting up your own Nextcloud instance to get off of Google | Hacker News]] :infra:degoogle:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdsttngpyrwtcldnstnctgtfffgglhckrnws
+:END:

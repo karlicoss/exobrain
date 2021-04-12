@@ -645,6 +645,11 @@ hmm, hypothesis doesn't work with Firefox reading mode?
 :END:
 e.g. try to highlight over "eg with blue-blocker sunglasses or f.lux) after sunset" on this page
 https://www.lesswrong.com/posts/E4cKD9iTWHaE7f3AJ/melatonin-much-more-than-you-wanted-to-know#5__I_try_to_use_melatonin_for_sleep__but_it_just_gives_me_weird_dreams_and_makes_me_wake_up_very_early
+** [#C] [2021-03-06] [[https://web.archive.org/web/20040411202042/http://www.shirky.com/writings/situated_software.html][Shirky: Situated Software]] :hypothesis:
+:PROPERTIES:
+:ID:       swbrchvrgwbwwwshrkycmwrtntdsftwrhtmlshrkysttdsftwr
+:END:
+doesn't work on archive.org pages??
 * [#D] * tantivy                                                    :tantivy:
 :PROPERTIES:
 :ID:       tntvy
@@ -725,7 +730,7 @@ using #gitbug instead now
 
 * --------------------------------
 :PROPERTIES:
-:ID:       24394_24430
+:ID:       24603_24639
 :END:
 
 * STRT [#C] share link and content                                    :tusky:

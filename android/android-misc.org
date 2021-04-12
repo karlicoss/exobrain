@@ -72,3 +72,32 @@ https://github.com/seedvault-app/seedvault
 :PROPERTIES:
 :ID:       tlksrllygrtbtndstbbltntthmnthfrstplcycntnstlltsnpp
 :END:
+* [#C] [2021-03-23] [[https://news.ycombinator.com/item?id=26307444][Xiaomi phones are insane, at least BlackShark. They replace virtually all the ma... | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdxmphnsrnsthyrplcvrtllyllthmhckrnws
+:END:
+: Xiaomi phones are insane, at least BlackShark. They replace virtually all the major user level stuff of Android with extreme data collecting alternatives. They then make it so that you cannot disable many of them (via adp, custom ROMs etc.) without bricking the phone, I'm talking wallpaper or clock apps that run with full, non-modifiable privileges. They subsidize cheap hardware with truly insane level of tracking.
+: They will also stop allowing custom ROMs once they've built up enough reputation, some newer models already will never have custom ROMs.
+* [#C] [2021-03-23] [[https://grapheneos.org/faq#recommended-devices][Frequently Asked Questions | GrapheneOS]]
+:PROPERTIES:
+:ID:       sgrphnsrgfqrcmmndddvcsfrqntlyskdqstnsgrphns
+:END:
+: GrapheneOS has official production support for the following devices:
+:     Pixel 5
+* [#B] rant about android?                                           :toblog:
+:PROPERTIES:
+:ID:       rntbtndrd
+:END:
+** [#C] [2020-05-05] [[https://issuetracker.google.com/issues/68393945][[developer preview Android 8.1] Please finally fix the Share Intent. [68393945] - Visible to Public - Issue Tracker]]
+:PROPERTIES:
+:ID:       ssstrckrgglcmsssdvlprprvwthshrntntvsbltpblcsstrckr
+:END:
+* [#B] [2021-03-29] [[https://android.stackexchange.com/questions/167177/id-like-to-run-termux-as-root-possible][terminal - I'd like to run Termux as root: possible? - Android Enthusiasts Stack Exchange]] :termux:
+:PROPERTIES:
+:ID:       sndrdstckxchngcmqstnsdlktpssblndrdnthsstsstckxchng
+:END:
+: The default su from Termux is simple. When run it brings /system/bin/sh for you instead of Termux's shell (typically bash). To solve this issue, you can install the custom su wrapper for Termux by
+: 
+: apt install tsu
+
+ok, this seems super useful

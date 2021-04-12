@@ -1516,3 +1516,18 @@ whoa looks interesting...
 :ID:       sfrmqntfdslfcmtprsnldshbrqntfdslfppstlsqntfdslffrm
 :END:
 some screenshots
+* TODO [#B] could use mybinder for demos? same used by jupyterlab :dashboard:hpi:
+:PROPERTIES:
+:CREATED:  [2021-04-11]
+:ID:       cldsmybndrfrdmssmsdbyjpytrlb
+:END:
+* TODO [#B] [2021-04-11] [[https://github.com/LibrePhotos/librephotos][LibrePhotos/librephotos: Self hosted alternative to Google Photos]] :photos:memex:
+:PROPERTIES:
+:ID:       sgthbcmlbrphtslbrphtslbrpphtsslfhstdltrntvtgglphts
+:END:
+
+* TODO [#B] [2021-04-11] [[https://github.com/photoprism/photoprism][photoprism/photoprism: Personal Photo Management powered by Go and Google TensorFlow]] :photos:memex:
+:PROPERTIES:
+:ID:       sgthbcmphtprsmphtprsmphtpmngmntpwrdbygndggltnsrflw
+:END:
+looks good -- I guess need to evaluate on the basis of whether I can share it?

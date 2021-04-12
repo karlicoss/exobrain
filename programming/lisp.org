@@ -118,3 +118,12 @@ I don't mean to offend lisp lovers or anything. I'm just desperately trying to f
 :END:
 : Lisp is amazing, truly language of the future
 : "not especially malicious"
+* [#B] [2021-03-15] [[http://wiki.c2.com/?SmugLispWeenie][Smug Lisp Weenie]] :lisp:
+:PROPERTIES:
+:ID:       wkccmsmglspwnsmglspwn
+:END:
+ok, great discussion here
+* TODO [#C] [2021-03-20] [[http://www.p-cos.net/lisp/guide.html][Pascal Costanza's Highly Opinionated Guide to Lisp]] :lisp:
+:PROPERTIES:
+:ID:       wwwpcsntlspgdhtmlpsclcstnzshghlypnntdgdtlsp
+:END:

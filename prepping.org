@@ -139,3 +139,8 @@ https://twitter.com/karpathy/status/1132171497798156288
 :ID:       slbstrssnxxttcllpssbtstrpstrppstcllpstchnlgylbstrs
 :END:
 : If computers are useful post-collapse (big if), people will scavenge x86 boxes because they’re everywhere, people are far likelier to know how to use it, and they already run most everything. There’s enough around that scavenging is easier than using 1970s tech, and the older examples are quite workable with a soldering iron anyway.
+* TODO [#C] [2021-03-04] [[https://lcamtuf.coredump.cx/prep/][Doomsday prepping for less crazy folk]] :prepping:
+:PROPERTIES:
+:ID:       slcmtfcrdmpcxprpdmsdyprppngfrlsscrzyflk
+:END:
+: Prepper commandment 8: Write down a response plan

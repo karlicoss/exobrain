@@ -884,3 +884,26 @@ generally 'big directories with binaries/object files'?
 :PROPERTIES:
 :ID:       sgthbcmppmgppmgktwksmlrprrsnsmlrprjctsppmgppmgktwk
 :END:
+* [#C] [2021-03-15] [[https://github.com/torfsen/python-systemd-tutorial#notifying-systemd-when-the-service-is-ready][torfsen/python-systemd-tutorial: A tutorial for writing a systemd service in Python]] :systemd:
+:PROPERTIES:
+:ID:       sgthbcmtrfsnpythnsystmdttrlfrwrtngsystmdsrvcnpythn
+:END:
+:  systemd.daemon.notify('READY=1')
+* [#C] [2021-04-03] [[https://www.peterborgapps.com/lingon/][Lingon - Peter Borg Apps]]
+:PROPERTIES:
+:ID:       swwwptrbrgppscmlngnlngnptrbrgpps
+:END:
+launchd frontend?
+* [#C] [2021-04-09] [[https://news.ycombinator.com/item?id=26752406][Guix is definitely a cleaner implementation (coherent cli tooling, way better ma... | Hacker News]] :nix:guix:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdgxsdfntlychrntcltlngwybttrmhckrnws
+:END:
+: Guix is definitely a cleaner implementation (coherent cli tooling, way better manual, not a custom, oddball language, ...).
+: But:
+: * if Nix is already very niche, Guix is the niche of a niche. The ecosystem is tiny in comparison.
+: * The Nix interpreter isn't exactly fast, but Guix (with it's scheme) was significantly worse for me, even in relatively small tests
+: * The hard stance on open source requirements is understandable, given the projects origin, but it will severely hinder adoption. No, I don't want to package every commercial app I need myself. nixpkgs has almost everything.
+* TODO [#B] [2021-03-13] [[https://github.com/tfeldmann/organize][tfeldmann/organize: The file management automation tool.]]
+:PROPERTIES:
+:ID:       sgthbcmtfldmnnrgnztfldmnnrgnzthflmngmnttmtntl
+:END:

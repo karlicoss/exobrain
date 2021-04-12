@@ -105,6 +105,26 @@ Or maybe even separate post, e.g. my experience with solid/camlistore/etc?
 :ID:       sgthbcmqnzlrchvstrchvstqnzlrchvstrchvst
 :END:
 
+** STRT [#B] [2021-03-19] [[https://lifescope.io/][LifeScope]] :qs:dashboard:hpi:
+:PROPERTIES:
+:ID:       slfscplfscp
+:END:
+https://github.com/LifeScopeLabs
+*** [2021-04-12] https://lifescope.io/getting-started
+:PROPERTIES:
+:ID:       slfscpgttngstrtd
+:END:
+ok, so not exactly clear what are they doing, but definitely worth checking out
+seems centralized and talking via APIs?
+*** TODO [2021-04-12] https://vimeo.com/519676585                   :towatch:
+:PROPERTIES:
+:ID:       svmcm
+:END:
+*** [2021-04-12] I mean, looks cool https://lifescope.io/beta , would be good to chat with them
+:PROPERTIES:
+:ID:       mnlksclslfscpbtwldbgdtchtwththm
+:END:
+
 * [#A] * 3rd party integrations
 :PROPERTIES:
 :ID:       rdprtyntgrtns
@@ -353,6 +373,11 @@ e.g. depending on the 'aspects' the data provider has, would be different plots/
 :CREATED:  [2021-02-18]
 :ID:       pldsttswthcvrg
 :END:
+** TODO [#B] [2020-01-29] [[https://news.ycombinator.com/item?id=22181437][Typesense: Open-Source Alternative to Algolia]] :hpi:search:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdtypsnspnsrcltrntvtlgl
+:END:
+https://github.com/typesense/typesense
 * [#A] * documentation & user friendliness improvements
 :PROPERTIES:
 :CREATED:  [2020-05-18]
@@ -947,6 +972,16 @@ some hackery...
 :CREATED:  [2021-04-01]
 :ID:       pdfswldbntrstngtfltrbythrdnntsftnntstmpty
 :END:
+** TODO [#C] pdfs: maybe extract some meta to build index?              :hpi:
+:PROPERTIES:
+:CREATED:  [2021-04-03]
+:ID:       pdfsmybxtrctsmmttbldndx
+:END:
+** [#B] [2021-04-05] [[https://github.com/piyueh/zoteroutils][piyueh/zoteroutils: Python API to interact with Zotero's local SQLite database.]] :zotero:HPI:
+:PROPERTIES:
+:ID:       sgthbcmpyhztrtlspyhztrtlsptntrctwthztrslclsqltdtbs
+:END:
+
 * [#B] * improving testing & CI
 :PROPERTIES:
 :ID:       mprvngtstngc
@@ -1401,5 +1436,33 @@ what's up with this Bookmark thing??
 : Out[24]: <Signature (self) -> <function NewType.<locals>.new_type at 0x7f9c8626ce50>>
 * --------------------------------------------
 :PROPERTIES:
-:ID:       53133_53181
+:ID:       54184_54232
 :END:
+
+* STRT [#C] [2021-03-08] [[https://github.com/instagram/MonkeyType][Instagram/MonkeyType: A system for Python that generates static type annotations by collecting runtime types]] :hpi:cachew:
+:PROPERTIES:
+:ID:       sgthbcmnstgrmmnkytypnstgrypnnttnsbycllctngrntmtyps
+:END:
+: MonkeyType collects runtime types of function arguments and return values, and can automatically generate stub files or even add draft type annotations directly to your Python code based on the types collected at runtime.
+
+could use for some magic caching/inference of serialization? not sure
+* TODO [#C] [2021-03-13] [[https://github.com/markwk/qs_ledger/blob/master/instapaper/instapaper_downloader.ipynb][qs_ledger/instapaper_downloader.ipynb at master · markwk/qs_ledger]] :hpi:
+:PROPERTIES:
+:ID:       sgthbcmmrkwkqsldgrblbmstrwnldrpynbtmstrmrkwkqsldgr
+:END:
+see what's their approach to credentials
+* TODO [#C] [2021-04-04] [[https://click.palletsprojects.com/en/7.x/bashcomplete/][Shell Completion — Click Documentation (7.x)]] :hpi:
+:PROPERTIES:
+:ID:       sclckplltsprjctscmnxbshcmpltshllcmpltnclckdcmnttnx
+:END:
+
+* TODO [#C] [2021-03-07] [[https://hypothes.is/a/-WYcvHYdEeustePidk7lwA][Hypothesis]] :hpi:
+:PROPERTIES:
+:ID:       shypthsswycvhydstpdklwhypthss
+:END:
+update hypothesis link?
+* TODO [#B] [2021-03-05] [[https://twitter.com/simonw][(14) Simon Willison (@simonw) / Twitter]] :hpi:
+:PROPERTIES:
+:ID:       stwttrcmsmnwsmnwllsnsmnwtwttr
+:END:
+finally need to cooperate with datasette...

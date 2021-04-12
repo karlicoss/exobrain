@@ -148,3 +148,9 @@ https://stackoverflow.com/questions/48362093/cors-request-blocked-in-locally-ope
 :ID:       stpsngsmnydvsnntrtsmntchtmldvcmmnty
 :END:
 https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
+
+* [#D] [2020-12-12] [[https://news.ycombinator.com/item?id=25399294][Periodic table of the web's APIs]] :web:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdprdctblfthwbsps
+:END:
+http://wwwperiodictable.surge.sh/?hn5

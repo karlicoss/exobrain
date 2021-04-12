@@ -583,6 +583,11 @@ cool wiki, by [[https://lobste.rs/newest/icefox][this person]]
 :ID:       sgthbcmdnlsndrmrknwldgdnlsndrmrknwldgwssnssmmlng
 :END:
 
+** [#B] [2021-03-13] [[http://fabien.benetou.fr/Main/HomePage?action=search&q=knowledge][Fabien Benetou's PIM | Main / HomePage | Search Results]] :exobrain:
+:PROPERTIES:
+:ID:       fbnbntfrmnhmpgctnsrchqknwgfbnbntspmmnhmpgsrchrslts
+:END:
+
 * [#C] * content to add
 :PROPERTIES:
 :ID:       cntnttdd
@@ -1030,4 +1035,17 @@ https://github.com/athensresearch/athens/discussions/605
 :PROPERTIES:
 :CREATED:  [2021-03-11]
 :ID:       ndlnkthmpg
+:END:
+
+* TODO [#C] [2021-03-13] [[https://fabien.benetou.fr/Site/AllRecentChanges][Fabien Benetou's PIM | Site / AllRecentChanges]] :exobrain:
+:PROPERTIES:
+:ID:       sfbnbntfrstllrcntchngsfbnbntspmstllrcntchngs
+:END:
+recent changes is nice...
+but gonna be tricky with org-mode
+maybe enough to generate a view sorted by timestamps
+* TODO [#D] need to render todo state changes                      :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-04-11]
+:ID:       ndtrndrtdsttchngs
 :END:

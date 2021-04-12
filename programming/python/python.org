@@ -1905,3 +1905,69 @@ handling accidental variable capture in closures
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdbrythnpytfrclntsdwbprgrmmnghckrnws
 :END:
+* TODO [#C] [2021-03-16] [[https://github.com/leeoniya/uPlot][leeoniya/uPlot: 📈 A small, fast chart for time series, lines, areas, ohlc & bars]] :python:dataviz:
+:PROPERTIES:
+:ID:       sgthbcmlnypltlnypltsmllfstchrtfrtmsrslnsrshlcbrs
+:END:
+focus on performance?
+* [#C] [2021-04-02] [[https://github.com/karlicoss/HPI/pull/151#issuecomment-812392144][cleanup; remove unused imports by seanbreckenridge · Pull Request 151 · karlicoss/HPI]] :flake8:
+:PROPERTIES:
+:ID:       sgthbcmkrlcsshppllsscmmntsnbrcknrdgpllrqstkrlcsshp
+:END:
+: find ./my | entr flake8 --ignore=E402,E501,E741,W503,E266,E302,E305,E203,E261,E252,E251,E221,W291,E225,E303,E702,E202,F841,E731,E306,E127 E722,E231 my | grep -v __NOT_HPI_MODULE__
+* [#B] [2021-03-23] [[https://nvie.com/posts/iterators-vs-generators/][Iterables vs. Iterators vs. Generators » nvie.com]] :python:
+:PROPERTIES:
+:ID:       snvcmpststrtrsvsgnrtrstrblsvstrtrsvsgnrtrsnvcm
+:END:
+good tutorial
+* [#C] [2021-03-07] [[https://github.com/hhatto/autopep8#configuration][hhatto/autopep8: A tool that automatically formats Python code to conform to the PEP 8 style guide.]] :python:
+:PROPERTIES:
+:ID:       sgthbcmhhtttppcnfgrtnhhttspythncdtcnfrmtthppstylgd
+:END:
+Seems like a more sensible alternative to black
+* [#B] [2021-03-20] [[https://stackoverflow.com/questions/45446944/suspend-on-exception-in-pdb][python - Suspend on exception in pdb - Stack Overflow]] :python:debug:
+:PROPERTIES:
+:ID:       sstckvrflwcmqstnssspndnxcnsspndnxcptnnpdbstckvrflw
+:END:
+: You're looking for postmortem mode:
+: 
+: try:
+:     code_that_may_raise_exception()
+: except Exception:
+:     import pdb; pdb.post_mortem()
+: 
+: This will break on exception and drop you into a debugger right where it is being raised from
+
+nice! a bit magical, but works exactly as described
+* TODO [#B] tips about putting test next to code              :python:toblog:
+:PROPERTIES:
+:CREATED:  [2021-04-09]
+:ID:       tpsbtpttngtstnxttcd
+:END:
+- no overhead about creating new files
+- no need to worry about pythonpaths etc
+how to:
+- pytest imports in the function itself
+- defensive decorator?
+- fixtures still work! like tmp_path
+TODO mention doctests? pros/cons. how to set up common env for doctests?
+* TODO [#B] [2021-04-04] [[https://stackoverflow.com/questions/7065164/how-to-make-an-unaware-datetime-timezone-aware-in-python/7065242][How to make an unaware datetime timezone aware in python - Stack Overflow]] :tz:
+:PROPERTIES:
+:ID:       sstckvrflwcmqstnshwtmknnwdttmtmznwrnpythnstckvrflw
+:END:
+: >> unaware.replace(tzinfo=ZoneInfo('localtime'))
+: datetime.datetime(2020, 10, 31, 12, 0, tzinfo=zoneinfo.ZoneInfo(key='localtime'))
+: >>> str(_)
+: '2020-10-31 12:00:00+01:00'
+: pip install backports.zoneinfo
+* [#C] [2021-04-06] [[https://stackoverflow.com/questions/127803/how-do-i-parse-an-iso-8601-formatted-date][python - How do I parse an ISO 8601-formatted date? - Stack Overflow]]
+:PROPERTIES:
+:ID:       sstckvrflwcmqstnshwdprsnshwdprsnsfrmttddtstckvrflw
+:END:
+: Although strptime can parse the 'Z' character to UTC, fromisoformat is faster by ~ x40 (see also: A faster strptime):
+* TODO [#B] [2021-03-30] [[https://stackoverflow.com/questions/2852413/python-simple-example-for-a-python-egg-with-a-one-file-source-file][setuptools - python: simple example for a python egg with a one-file source file? - Stack Overflow]] :pip:
+:PROPERTIES:
+:ID:       sstckvrflwcmqstnspythnsmpthnggwthnflsrcflstckvrflw
+:END:
+: You can use the py_modules argument instead of the packages argument to list single file modules.
+: See https://docs.python.org/3/distutils/setupscript.html#listing-individual-modules

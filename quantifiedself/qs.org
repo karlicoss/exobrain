@@ -287,3 +287,12 @@ Generally correlate time before asleep?
 :END:
 
 https://redd.it/lxc8gq
+
+* [#C] [2021-03-25] [[https://github.com/qsdb/docs][qsdb/docs: Quantified Self Database (QSDB) Documentation]]
+:PROPERTIES:
+:ID:       sgthbcmqsdbdcsqsdbdcsqntfdslfdtbsqsdbdcmnttn
+:END:
+: QSDB, in its current alpha stage, comprises:
+:  a soft specification/schema of how to format and organize your personal data
+:  suggested tools for storing your data
+:  scripts and configuration files for deploying those tools

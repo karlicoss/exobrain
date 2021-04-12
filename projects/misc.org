@@ -72,6 +72,11 @@ hmm nice pretty extensive pocket export
 :CREATED:  [2021-03-30]
 :ID:       pdfnntshssmtstpdfs
 :END:
+** TODO [#C] could share podcastaddict dbs?                   :jdoe:bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-03]
+:ID:       cldshrpdcstddctdbs
+:END:
 * [#C] * kython                                                      :kython:
 :PROPERTIES:
 :ID:       kythn
@@ -342,7 +347,7 @@ my #twitter exporter
 
 * ----------------------------
 :PROPERTIES:
-:ID:       9086_9120
+:ID:       9208_9242
 :END:
 
 

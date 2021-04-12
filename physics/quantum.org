@@ -594,3 +594,8 @@ https://github.com/qg-cpt-marseille/sl2cfoam
 :PROPERTIES:
 :ID:       swwwqntmgznrgnwthrmmpstthtthlmtsfqntmphyscsqntmgzn
 :END:
+
+* [#B] [2021-03-16] [[https://vas3k.ru/blog/quantum_computing/][Квантовый Компьютер : Как устроен? Как программировать? Уже? : Блог Вастрик.ру]] :qcomp:
+:PROPERTIES:
+:ID:       svskrblgqntmcmptngквантовммироватьужеблогвастрикру
+:END:

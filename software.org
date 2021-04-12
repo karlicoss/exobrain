@@ -307,3 +307,22 @@ I mean, his page is awesome but because of overly heavy design all annotations e
 :PROPERTIES:
 :ID:       gfrmmxcmmnty
 :END:
+
+* [#C] [2021-04-04] [[https://www.youtube.com/watch?v=2S0k12uZR14][(24) Velocity 2012: Richard Cook, "How Complex Systems Fail" - YouTube]] :software:
+:PROPERTIES:
+:ID:       swwwytbcmwtchvskzrvlctyrchrdckhwcmplxsystmsflytb
+:END:
+not much specific advice...
+but the basic idea is that
+- maintenance 'periods' is a myth -- usually it's more or less continuous in complex systems
+- if the system is too blackboxy its very hard to maintain in unexpected scenarios
+- you need to trust ops people with the system
+* STRT [#B] [2021-03-06] [[https://app.element.io/#/room/#malleable-systems:matrix.org][Element | Malleable Systems Collective]] :toblog:malleable:
+:PROPERTIES:
+:ID:       spplmntrmmllblsystmsmtrxrglmntmllblsystmscllctv
+:END:
+: Would be interesting to have an overview of these 'galleries' and compare their approach to sharing. E.g. ifttt-like workflows/IDE plugins/greasemonkey hacks/web extensions, etc. Maybe we'll figure out some best practices from it
+** [2021-04-12] https://twitter.com/karlicoss/status/1381667577185849351
+:PROPERTIES:
+:ID:       stwttrcmkrlcssstts
+:END:

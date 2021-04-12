@@ -246,3 +246,15 @@ ok, so it's more of a prototype at this point? and they are reinventing editor/a
 :PROPERTIES:
 :ID:       gdsmmryndmmxdsgnrqrmntsnrssn
 :END:
+* TODO [#B] [2021-03-26] [[https://en.wikipedia.org/wiki/Nextcloud][Nextcloud - Wikipedia]] :degoogle:memex:
+:PROPERTIES:
+:ID:       snwkpdrgwknxtcldnxtcldwkpd
+:END:
+: Viewer for Maps
+
+hmm, wonder if it could replace gmaps?
+* [#C] [2021-03-23] [[https://www.saul.pw/biograph/][Biograph]] :lifelogging:inspiration:
+:PROPERTIES:
+:ID:       swwwslpwbgrphbgrph
+:END:
+nice 2d representation

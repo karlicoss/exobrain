@@ -167,6 +167,12 @@ hypothesis extractor could generate a nicer title of the document?
 :CREATED:  [2021-02-22]
 :ID:       stwdmpsxtrsrc
 :END:
+** TODO [#C] figuring out history from window titles?       :promnesia:arbtt:
+:PROPERTIES:
+:CREATED:  [2021-03-13]
+:ID:       fgrngthstryfrmwndwttls
+:END:
+bit too excessive I guess... although nice correlating events to jump in history?
 * [#B] * ideas
 :PROPERTIES:
 :ID:       ds
@@ -399,6 +405,11 @@ eh, need to improve rendering of context. look at this link, for instance
 :PROPERTIES:
 :CREATED:  [2021-03-30]
 :ID:       bgshwvstdmsswthgrsptryslctngvrthsmrksndcptrngtxt
+:END:
+** TODO [#B] excludelist: www.site.com vs site.com                :promnesia:
+:PROPERTIES:
+:CREATED:  [2021-04-07]
+:ID:       xcldlstwwwstcmvsstcm
 :END:
 * [#C] * github issues
 :PROPERTIES:
@@ -1195,7 +1206,7 @@ allow breaking down important and unimportant schema parts from extensions?
 :END:
 ** [2019-08-01] ??
 :PROPERTIES:
-:ID:       42751_42780
+:ID:       43082_43111
 :END:
 * TODO [#C] open in new tab from search?
 :PROPERTIES:
@@ -3086,9 +3097,13 @@ someone from Matrix nyxt suggested it's similar?
 :ID:       rghtrlxtrctnsgthbcmlpjrlxscmmntndlsgssctfftrlngdts
 :END:
 
-* TODO [#C] figuring out history from window titles?        :promnesia:arbtt:
+* TODO [#C] [2021-03-28] installable mobile addon [[https://addons.mozilla.org/en-GB/firefox/collections/14595094/promnesia/][promnesia – Add-ons for Firefox (en-GB)]] :promnesia:
 :PROPERTIES:
-:CREATED:  [2021-03-13]
-:ID:       fgrngthstryfrmwndwttls
+:ID:       nstllblmblddnsddnsmzllrgnnsprmnsprmnsddnsfrfrfxngb
 :END:
-bit too excessive I guess... although nice correlating events to jump in history?
+
+* [#C] [2021-03-26] [[https://github.com/apvarun/toastify-js/pull/65][Convert to ES6 compatible library by AStoker · Pull Request 65 · apvarun/toastify-js]] :promnesia:
+:PROPERTIES:
+:ID:       sgthbcmpvrntstfyjspllcnvrybystkrpllrqstpvrntstfyjs
+:END:
+: Convert to ES6 compatible library

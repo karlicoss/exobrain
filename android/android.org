@@ -86,9 +86,52 @@ https://gist.github.com/andyshinn/3ae01fa13cb64c9d36e7
 :END:
 : adb tcpip 5555 (when it's plugged in, once)
 : adb connect host:port
-* [#B] [2021-03-29] getting termux environment                       :termux:
+* [#B] [2021-03-29] getting termux environment in adb            :adb:termux:
 :PROPERTIES:
-:ID:       gttngtrmxnvrnmnt
+:ID:       gttngtrmxnvrnmntndb
 :END:
 : sudo adb shell
 : $ su -c /data/data/com.termux/files/usr/bin/tsu
+* [#B] [2021-03-27] [[https://android.stackexchange.com/questions/40719/where-are-android-settings-stored][Where are Android settings stored? - Android Enthusiasts Stack Exchange]] :android:backup:
+:PROPERTIES:
+:ID:       sndrdstckxchngcmqstnswhrrsstrdndrdnthsstsstckxchng
+:END:
+: As it turns out, there is no magic file or directory that contains all settings. They are stored in various places, and depends greatly on how the manufacturer decides to set things up. I primarily work with Samsung phones, so the information here will mostly be Samsung oriented. Also, note that all of the below requires root access. If anyone has anything to add / rectify, feel free to comment.
+* STRT [#B] more BBS battery examination...                         :android:
+:PROPERTIES:
+:CREATED:  [2021-04-08]
+:ID:       mrbbsbttryxmntn
+:END:
+listened some music, used phone a bit but not much since basically at home
+10h, -17% battery
+- alarms
+  GMS 187 ALARM_WAKEUP_ACTIVITY_DETECTION
+- sensors
+  nova launcher:
+    ugh. uses accelerometer all the time??
+  maps.me: 3h49m total
+    uses accelerometer and gyroscope?? this is ridiculous, why???
+- cpu states
+  1.8GHz 35m
+  691 2h27m
+  deep sleep 6h25m
+  other are negligible
+** [2021-04-08] hmm. maybe maps.me is this?? https://github.com/mapsme/omim/issues/4866
+:PROPERTIES:
+:ID:       hmmmybmpsmsthssgthbcmmpsmmmsss
+:END:
+* [#C] [2021-03-27] [[https://github.com/seedvault-app/seedvault/wiki/FAQ#why-do-some-apps-not-allow-to-get-backed-up][FAQ · seedvault-app/seedvault Wiki]] :backup:
+:PROPERTIES:
+:ID:       sgthbcmsdvltppsdvltwkfqwhwtgtbckdpfqsdvltppsdvltwk
+:END:
+
+* TODO [#C] [2021-03-27] [[https://fsfe.org/activities/android/liberate.en.html][Liberate Your Device - Free Your Android! - FSFE]]
+:PROPERTIES:
+:ID:       sfsfrgctvtsndrdlbrtnhtmllbrtyrdvcfryrndrdfsf
+:END:
+
+* STRT [#B] [2021-03-27] [[https://github.com/grote/Transportr][grote/Transportr: Free Public Transport Assistant without Ads or Tracking]] :maps:
+:PROPERTIES:
+:ID:       sgthbcmgrttrnsprtrgrttrnsrnsprtssstntwthtdsrtrckng
+:END:
+hmm doesn't really work in londong?

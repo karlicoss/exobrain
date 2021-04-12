@@ -271,3 +271,14 @@ https://twitter.com/swyx/status/1208461215069945856
 : Code: https://github.com/sw-yx/bettertwitter/tree/master
 : Site: https://bettertwitter.netlify.com
 : Had trouble w/ eslint/prettier, but overall much less code to write
+
+* [#C] [2020-06-04] [[https://news.ycombinator.com/item?id=23420091][Show HN: Grid.js – Advanced table library that works everywhere]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdshwhngrdjvncdtbllbrrythtwrksvrywhr
+:END:
+https://gridjs.io/?hn
+* [#C] [2020-07-21] [[https://news.ycombinator.com/item?id=23909894][Show HN: Datagridxl.js – No-nonsense fast Excel-like data table library]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdshwhndtgrsnnnsnsfstxcllkdttbllbrry
+:END:
+https://datagridxl.com

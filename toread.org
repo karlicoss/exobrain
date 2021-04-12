@@ -471,6 +471,17 @@ hotz recommendation?
 :ID:       sjhncrlsbzwrdprsscmfndtnsdphyscsncntryftrhlbrtzmth
 :END:
 : Foundations of Math and Physics One Century After Hilbert
+** TODO [#A] [2021-03-20] [[https://en.wikipedia.org/wiki/Accelerando][Accelerando - Wikipedia]] :toread:
+:PROPERTIES:
+:ID:       snwkpdrgwkcclrndcclrndwkpd
+:END:
+
+** TODO [#B] [2021-03-14] [[https://en.wikipedia.org/wiki/Utopia_for_Realists][Utopia for Realists - Wikipedia]] :toread:
+:PROPERTIES:
+:ID:       snwkpdrgwktpfrrlststpfrrlstswkpd
+:END:
+: The Case for a Universal Basic Income, Open Borders, and a 15-hour Workweek 
+
 * TODO [#B] [2020-01-13] [[https://twitter.com/litgenstein/status/1216512864015417344][@litgenstein: In this text, by the way, Schwinger gives a very clear ~20 page summary of the history of the classical —> quantum transition]] :physics:
 :PROPERTIES:
 :ID:       stwttrcmltgnstnsttsltgnsthhstryfthclssclqntmtrnstn
@@ -1112,3 +1123,8 @@ http://www.ams.org/notices/200502/comm-interview.pdf
 :ID:       bkcssmthmtcsnvntdrdscvrdnwngntrvwsstwttrcmbkcsstts
 :END:
 : We have curated nine mind-blowing interviews with great mathematicians and physicists from @CloserToTruth. Make your coffee ready! It will be a 1 hour, 34 minutes journey! 😊
+
+* TODO [#C] [2021-03-15] [[http://wiki.c2.com/?PythonLanguage][Python Language]]
+:PROPERTIES:
+:ID:       wkccmpythnlnggpythnlngg
+:END:

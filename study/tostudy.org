@@ -3721,3 +3721,12 @@ https://twitter.com/nmwsharp/status/1153993638134910977
 :ID:       swwwscttrnsncmblgpshttlptmzdblgrchvthbsybvrfrntr
 :END:
 : an 18-page survey article about the Busy Beaver function: the staggeringly quickly-growing function that probably encodes a huge portion of all interesting mathematical truth in its first hundred values, if only we could know those values or exploit them if we did.
+* TODO [#C] [2021-03-17] [[https://johncarlosbaez.wordpress.com/2021/03/16/can-we-understand-the-standard-model/][Can We Understand The Standard Model? | Azimuth]] :towatch:toread:
+:PROPERTIES:
+:ID:       sjhncrlsbzwrdprsscmcnwndrcnwndrstndthstndrdmdlzmth
+:END:
+
+* TODO [#C] [2021-03-17] [[https://johncarlosbaez.wordpress.com/2021/03/16/mathematics-in-the-21st-century-2/][Mathematics in the 21st Century | Azimuth]] :towatch:
+:PROPERTIES:
+:ID:       sjhncrlsbzwrdprsscmmthmtcntrymthmtcsnthstcntryzmth
+:END:

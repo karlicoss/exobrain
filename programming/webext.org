@@ -629,3 +629,9 @@ combining it with npm/webpack weirdness and kind of slow feedback loop (reloadin
 :PROPERTIES:
 :ID:       sgthbcmrgsmzllmblprjctscrdcwbxtnsnsndddns
 :END:
+
+* [#B] [2021-03-12] [[https://news.ycombinator.com/item?id=26423981][Mozilla is a political organisation now. Has been for a few years. Install kiwi... | Hacker News]] :firefox:webext:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdmzllspltchsbnfrfwyrsnstllkwhckrnws
+:END:
+: Install kiwi on Android for extension enabled Chromium.

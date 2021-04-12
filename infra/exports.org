@@ -1315,3 +1315,26 @@ so it could cooperate with HPI... egh not sure
 :CREATED:  [2021-03-24]
 :ID:       cldtlzmnzctgrsfrmngssthycldhvrrrsdk
 :END:
+
+* TODO [#C] [2021-03-10] [[https://stackapi.readthedocs.io/en/latest/user/quickstart.html?highlight=limits#change-number-of-results][Quickstart — StackAPI 0.1.12 documentation]] :exports:
+:PROPERTIES:
+:ID:       sstckprdthdcsnltstsrqckstfrsltsqckstrtstckpdcmnttn
+:END:
+: By default, StackAPI will return up to 500 items in a single call. It may be less than this, if there are less than 500 items to return. This is common on new or low traffic sites.
+: The number of results can be modified by changing the page_size and max_pages values. These are multiplied together to get the maximum total number of results. The API paginates the results and StackAPI recombines those pages into a single result.
+* [#C] [2021-03-07] [[https://disqus.com/home/discussion/channel-discussdisqus/exporting_my_own_comment_content_from_disqus/][Exporting my own comment content from Disqus? · Discuss Disqus · Disqus]] :disqus:exports:
+:PROPERTIES:
+:ID:       sdsqscmhmdscssnchnnldscsscntntfrmdsqsdscssdsqsdsqs
+:END:
+seems hostile against exporting your own data
+* [#C] [2021-03-23] [[https://www.sarweb.ebay.co.uk/sar][Your eBay data]] :ebay:
+:PROPERTIES:
+:ID:       swwwsrwbbycksryrbydt
+:END:
+can request data takeout here... takes ages to complete though, like a week
+* TODO [#B] possible to have exactly same events with different API ids??? :github:
+:PROPERTIES:
+:CREATED:  [2021-04-02]
+:ID:       pssblthvxctlysmvntswthdffrntpds
+:END:
+: vimdiff <(rg -A 363 -B 1 15538293160 events_20210317T120954Z.json) <(rg -A 363 -B 1 15538293166 events_20210317T120954Z.json)

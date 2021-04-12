@@ -70,10 +70,10 @@ upper bound
 :CREATED:  [2020-09-05]
 :ID:       gthbvntsprnvtrpltpprch
 :END:
-** TODO [#D] smscalls
+** TODO [#D] xml: smscalls
 :PROPERTIES:
 :CREATED:  [2020-12-08]
-:ID:       smsclls
+:ID:       xmlsmsclls
 :END:
 ** TODO [#D] not sure, maybe ignore comment/link karma? it results in lots of differences... :reddit:
 :PROPERTIES:
@@ -110,14 +110,8 @@ started compressing reddit...
 
 * -----------------------------------
 :PROPERTIES:
-:ID:       2965_3003
+:ID:       2970_3008
 :END:
-* TODO [#B] should be possible to handle?              :bleanser:bluemaestro:
-:PROPERTIES:
-:CREATED:  [2021-02-12]
-:ID:       shldbpssblthndl
-:END:
-maybe if containes the other database completely....
 * TODO [#C] generic sqlite databases export                        :bleanser:
 :PROPERTIES:
 :CREATED:  [2021-02-11]
@@ -133,7 +127,7 @@ maybe if containes the other database completely....
 :CREATED:  [2021-02-11]
 :ID:       hmmthysrvsrtfthsmprps
 :END:
-* TODO [#B] maybe 'dynamic' optimizer for bleanser? and later can  use it to actually delete stuff :hpi:
+* TODO [#B] maybe 'dynamic' optimizer for bleanser? and later can use it to actually delete stuff :hpi:
 :PROPERTIES:
 :CREATED:  [2021-02-24]
 :ID:       mybdynmcptmzrfrblnsrndltrcnsttctllydltstff
@@ -163,3 +157,104 @@ could name like this...
 :ID:       ktrplsfrbrwsrhstryrdfgnnbmpctfl
 :END:
 maybe before comparison explicitly 'cleanup' stuff
+* [#C] [2021-04-07] [[https://docs.pyfilesystem.org/en/latest/reference/memoryfs.html][Memory Filesystem — PyFilesystem 2.4.13 documentation]] :bleanser:
+:PROPERTIES:
+:ID:       sdcspyflsystmrgnltstrfrncryflsystmpyflsystmdcmnttn
+:END:
+could use for processing... maybe via option
+* TODO [#B] warn about being disk/tmp intense?                     :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-07]
+:ID:       wrnbtbngdsktmpntns
+:END:
+* TODO [#C] write about multiprocessing?                           :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-05]
+:ID:       wrtbtmltprcssng
+:END:
+* TODO [#B] 'extract' query                                        :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-09]
+:ID:       xtrctqry
+:END:
+might be useful as a sanity check? to ensure stuff isn't deleted by accident? (like foreign key triggers)
+e.g.
+- run extract query first to get a snapshot of data
+- run cleanup query
+- run extract query first to ensure the data we care about is there?
+* TODO [#D] hmm, for attributes that can change back and force in json, sorted strategy isn't the best... ugh :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-08]
+:ID:       hmmfrttrbtsthtcnchngbckndcnjsnsrtdstrtgysntthbstgh
+:END:
+* TODO [#A] sqlite: hmm....note sure about cascades... probably need to disable somehow? :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-08]
+:ID:       sqlthmmntsrbtcscdsprbblyndtdsblsmhw
+:END:
+* TODO [#B] investigating diffs                                    :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-10]
+:ID:       nvstgtngdffs
+:END:
+shell globing nice for not typing too much
+: python3 -m bleanser.modules.firefox diff /path/to/database-201906{16,17}*.sqlite | less
+* TODO [#C] for properly impressive demo should prob run in single threaded mode? :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-10]
+:ID:       frprprlymprssvdmshldprbrnnsnglthrddmd
+:END:
+* TODO [#B] run tox first? to protect from crashes           :bleanser:setup:
+:PROPERTIES:
+:CREATED:  [2021-04-11]
+:ID:       rntxfrsttprtctfrmcrshs
+:END:
+* TODO [#B] could artificially map jsons to line-based format (with full path to the entity?) :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-09]
+:ID:       cldrtfcllympjsnstlnbsdfrmtwthfllpthtthntty
+:END:
+that way might work more reliably... hmm
+* TODO [#B] kinds of snapshots                              :toblog:bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-05]
+:ID:       kndsfsnpshts
+:END:
+- append only (e.g. foursquare, hypothesis)
+- rolling (e.g. rescuetime, github, reddit)
+either way you can think of it as as set of strings
+* TODO [#D] moving old files -- not sure what to do about empty dirs? :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-09]
+:ID:       mvngldflsntsrwhttdbtmptydrs
+:END:
+maybe keep all dirs that were there before -- and only remove new empty dirs?
+* TODO [#C] implement 'extract' mode later... after writing to blog definitely :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-11]
+:ID:       mplmntxtrctmdltrftrwrtngtblgdfntly
+:END:
+* TODO [#C] readme: gotcha about group boundaries not being removed (nad having empty diff) :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-10]
+:ID:       rdmgtchbtgrpbndrsntbngrmvdndhvngmptydff
+:END:
+* TODO [#C] document what's happening in which case... with a literate test :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-10]
+:ID:       dcmntwhtshppnngnwhchcswthltrttst
+:END:
+- e.g. 'all files are same'
+- only added data
+- rolling data (some fake datetime stuff with 30d retention)
+- error in cleaner script
+* TODO [#C] proper end2end test --- could  run against firefox? reinstalled at about 202006, could track by file size changes :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-08]
+:ID:       prprndndtstcldrngnstfrfxrtlldtbtcldtrckbyflszchngs
+:END:
+* TODO [#D] multiway is a bit more speculative              :bleanser:toblog:
+:PROPERTIES:
+:CREATED:  [2021-04-07]
+:ID:       mltwysbtmrspcltv
+:END:

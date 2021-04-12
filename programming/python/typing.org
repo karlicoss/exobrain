@@ -467,3 +467,8 @@ run with uvicorn fa:app --reload --port 9090
 :PROPERTIES:
 :ID:       19681_19733
 :END:
+* [#B] [2021-04-05] crazy how useful it is to have gradual typing when you're gradually hardening the program, adding error hadnling etc :types:
+:PROPERTIES:
+:ID:       crzyhwsfltsthvgrdltypngwhnngthprgrmddngrrrhdnlngtc
+:END:
+allows to still test happy scenarious even if type checking fails
