@@ -325,6 +325,18 @@ https://syncthing.net
 :ID:       jjkrmksyncthngcnflctntfrdmjjkrmksyncthngcnflctntfr
 :END:
 
+** [#B] [2020-04-12] issue with Out of sync items/ sync stuck at 99%
+:PROPERTIES:
+:ID:       sswthtfsynctmssyncstckt
+:END:
+not sure what exactly caused it, but basically was constantly showing local/global state mismatch
+Rest api is on GUI port, key is in advanced settings
+https://docs.syncthing.net/dev/rest.html
+use the post request to reset the index (apparently no way from GUI)
+https://docs.syncthing.net/rest/system-reset-post.html
+- [2021-05-02] happened again, reset just one folder, was fine after that
+  maybe relevant to https://forum.syncthing.net/t/deleted-out-of-sync-items-syncthing-stuck/14971/30
+
 ** TODO [#C] commit conflict detector? show alter in the inteface
 :PROPERTIES:
 :CREATED:  [2020-06-17]
@@ -370,19 +382,6 @@ mm, doesn't look like there is a nice terminal interface?
 :PROPERTIES:
 :ID:       yhtsrllygddwndrhwtrntmrftn
 :END:
-** TODO [#C] issue with Out of sync items/ sync stuck at 99%
-:PROPERTIES:
-:CREATED:  [2020-04-12]
-:ID:       sswthtfsynctmssyncstckt
-:END:
-not sure what exactly caused it, but basically was constantly showing local/global state mismatch
-
-use the post request to reset the index (apparently no way from GUI)
-https://docs.syncthing.net/rest/system-reset-post.html
-
-Rest api is on GUI port, key is in advanced settings
-https://docs.syncthing.net/dev/rest.html
-
 ** DONE [2019-04-17] implement more regular checks for syncthing?
 :PROPERTIES:
 :ID:       mplmntmrrglrchcksfrsyncthng
@@ -730,7 +729,7 @@ using #gitbug instead now
 
 * --------------------------------
 :PROPERTIES:
-:ID:       24603_24639
+:ID:       24752_24788
 :END:
 
 * STRT [#C] share link and content                                    :tusky:

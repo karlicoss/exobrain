@@ -1372,3 +1372,14 @@ do in python
 :CREATED:  [2021-02-20]
 :ID:       hmmwndrfpssbltdsplyrgstffnrmrkbltlstrflctvwsndxbrn
 :END:
+* STRT [#C] org-agenda-later/earlier                                  :drill:
+:PROPERTIES:
+:CREATED:  [2019-12-30]
+:ID:       83e3925d-20f5-4cc1-a657-580b3d5379ce
+:END:
+Org-add-note
+** [2020-06-10] hmm, so it doesn't work from agenda, but kinda nice within the task?
+:PROPERTIES:
+:ID:       hmmstdsntwrkfrmgndbtkndncwthnthtsk
+:END:
+note sure about logbook...

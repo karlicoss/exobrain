@@ -77,6 +77,11 @@ hmm nice pretty extensive pocket export
 :CREATED:  [2021-04-03]
 :ID:       cldshrpdcstddctdbs
 :END:
+** TODO [#B] [2021-04-15] [[https://sourcegraph.com/search?q=file:places.sqlite&patternType=literal][file:places.sqlite - Sourcegraph]] :jdoe:hpi:promnesia:
+:PROPERTIES:
+:ID:       ssrcgrphcmsrchqflplcssqltntypltrlflplcssqltsrcgrph
+:END:
+wow, searching on sourcegraph is actually super nice...
 * [#C] * kython                                                      :kython:
 :PROPERTIES:
 :ID:       kythn
@@ -347,7 +352,7 @@ my #twitter exporter
 
 * ----------------------------
 :PROPERTIES:
-:ID:       9208_9242
+:ID:       9432_9466
 :END:
 
 
@@ -461,4 +466,9 @@ Update description
 :PROPERTIES:
 :CREATED:  [2019-06-10]
 :ID:       mksymlnkchckrgnrfllstlstfsymlnkstgnr
+:END:
+
+* [#C] [2020-08-27] [[https://github.com/reHackable/awesome-reMarkable][reHackable/awesome-reMarkable: A curated list of projects related to the reMarkable tablet]] :remarkable:
+:PROPERTIES:
+:ID:       sgthbcmrhckblwsmrmrkblrhctfprjctsrltdtthrmrkbltblt
 :END:

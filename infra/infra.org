@@ -25,14 +25,12 @@
   fuuck.
 - adding to easy_install.pth works.. but need to figure out what's the base pkg directory...
 - ok, added a hacky script to infra repo
-* TODO [#C] Koreader                                             :remarkable:
+* STRT [#C] Koreader https://github.com/koreader/koreader        :remarkable:
 :PROPERTIES:
 :CREATED:  [2020-08-28]
-:ID:       krdr
+:ID:       krdrsgthbcmkrdrkrdr
 :END:
-
 : For a better PDF experience, you might want to try 'koreader'. The native PDF support on my Kobo Forma was so bad I was ready to return it, before finding this. It's an open source PDF/epub reader that you can install on Remarkable and other eInk readers. It's just an app - it doesn't replace or degrade any existing functionality.
-: https://github.com/koreader/koreader
 * STRT [#C] Use zstd?                                               :exports:
 :PROPERTIES:
 :CREATED:  [2020-01-15]
@@ -907,3 +905,40 @@ launchd frontend?
 :PROPERTIES:
 :ID:       sgthbcmtfldmnnrgnztfldmnnrgnzthflmngmnttmtntl
 :END:
+
+* [#C] [2021-04-14] ugh fuck                               :nix:infra:docker:
+:PROPERTIES:
+:ID:       ghfck
+:END:
+tried running
+: docker run --rm --user 1000:1000 -it nixos/nix /bin/sh
+
+but then it can't find nix-env. ugh -- fuckitfuckitfuckit
+
+* [#B] [2020-11-27] [[https://github.com/Evidlo/remarkable_entware][Evidlo/remarkable_entware: Entware installer modified for reMarkable Tablet]] :remarkable:
+:PROPERTIES:
+:ID:       sgthbcmvdlrmrkblntwrvdlrmtwrnstllrmdfdfrrmrkbltblt
+:END:
+tool to install packages on remarkable
+
+* [#B] [2021-04-29] [[https://www.meganwalker.me.uk/2021/01/installing-remux-koreader-on-the-remarkable-2/][Installing remux, KOReader on the ReMarkable 2 – Megan Walker's Blog]] :remarkable:
+:PROPERTIES:
+:ID:       swwwmgnwlkrmknstllngrmxkrxkrdrnthrmrkblmgnwlkrsblg
+:END:
+ok, really good guide
+- update remarkable
+- ssh onto it
+- follow toltec install https://github.com/toltec-dev/toltec#install-it
+- opkg install rm2fb
+- opkg install remux  # launcher
+  systemctl enable --now remux
+  swipe up (on the right edge!), should show the menu
+- opkg install koreader
+- Create a file /home/root/.config/draft/02-koreader with the following contents
+  not sure if really that necessary?
+  : name=koreader
+  : desc=Ebook reader
+  : call=/opt/koreader/koreader.sh
+  : term=;
+- congratulations, you are done!
+: Note that when a ReMarkable system update occurs you will likely need to re-run the systemctl enable --now remux command. I think this should be the only command needed to re-run, but I don’t have a system update to install to validate that.

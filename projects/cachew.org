@@ -567,3 +567,11 @@ Maybe, set the attribute to the function? Seems good enough?
 :     Allows putting arbitrary Python objects into the cache
 :     Uses PEP484 type hints to help you typecheck cache return values
 :     Supports Memcache, Redis and SQLite
+* TODO [2019-10-01] github commits integrate well with my. package. also could demonstrate cachew?
+:PROPERTIES:
+:ID:       gthbcmmtsntgrtwllwthmypckglsclddmnstrtcchw
+:END:
+* STRT [#B] [2019-10-01] demonstrate cachew on pdfs?             :hpi:cachew:
+:PROPERTIES:
+:ID:       dmnstrtcchwnpdfs
+:END:

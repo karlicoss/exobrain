@@ -74,6 +74,32 @@ he mentions the same problems I struggled with literally in the same words!
 :ID:       smmrcldmmrvryprmsngprjctwththfcsnsrdtwnrshpndprvcy
 :END:
 
+** [#C] [2021-01-31] [[https://github.com/NickSto/life-browser][NickSto/life-browser: View a timeline of your own history through your personal data.]] :timeline:memex:
+:PROPERTIES:
+:ID:       sgthbcmnckstlfbrwsrnckstlnfyrwnhstrythrghyrprsnldt
+:END:
+: This is a project I began to try to collate all the digital breadcrumbs of my life and show them in an easily viewable timeline.
+*** [2021-04-27] ok, interesting, but looks fairly basic, no UI yet and only contacts/location/hangouts/voice
+:PROPERTIES:
+:ID:       kntrstngbtlksfrlybscnytndnlycntctslctnhngtsvc
+:END:
+*** [#C] [2020-05-11] [[https://news.ycombinator.com/item?id=23131402][Thanks, I'll check it out! Yep, agree about the common codebase, that's why I'm... | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdthnksllchthcmmncdbsthtswhymhckrnws
+:END:
+: Hmm it's interesting how diverse the data sources people are actually using, but there's definitely overlap.
+** STRT [#B] [2021-03-15] [[https://github.com/Heapy/Komodo-CRM][Heapy/Komodo-CRM: Life and collaboration assistant.]] :memex:
+:PROPERTIES:
+:ID:       sgthbcmhpykmdcrmhpykmdcrmlfndcllbrtnssstnt
+:END:
+ran into it from
+https://github.com/Heapy/Komodo-CRM/issues/72
+** [#D] [2021-01-21] [[https://github.com/steve-1820/memex][steve-1820/memex: A brief POC of what a Memex could potentially be.]] :memex:
+:PROPERTIES:
+:ID:       sgthbcmstvmmxstvmmxbrfpcfwhtmmxcldptntllyb
+:END:
+ok, so it's more of a prototype at this point? and they are reinventing editor/annotation... not sure
+
 * [#B] * remembrance agents
 :PROPERTIES:
 :CUSTOM_ID: remembrance_agent
@@ -99,9 +125,9 @@ Ok, this looks pretty cool.. maybe need to contact them and discuss
 :PROPERTIES:
 :ID:       dscncpts
 :END:
-** TODO [#B] [2020-06-06] [[https://hyfen.net/memex/updates/bad-remembrance-machines][hyfen.net/memex/updates/bad-remembrance-machines]] :lifelogging:
+** TODO [#B] [2020-06-06] [[https://hyfen.net/memex/updates/bad-remembrance-machines][hyfen.net/memex/updates/bad-remembrance-machines]] triplestore :lifelogging:
 :PROPERTIES:
-:ID:       shyfnntmmxpdtsbdrmmbrncmcfnntmmxpdtsbdrmmbrncmchns
+:ID:       shyfnntmmxpdtsbdrmmbrncmcpdtsbdrmmbrncmchnstrplstr
 :END:
 : This maps pretty well to the triplestore architecture that stores triples of subject-predicate-object
 
@@ -132,6 +158,22 @@ Ok, this looks pretty cool.. maybe need to contact them and discuss
 : 
 : @aaronzlewis : concept: a Spotify calendar integration that lets you see what you were listening to alongside your old meetings and events. revisit the vibe of any moment with the Musical Time Machine
 
+** TODO [#C] maybe prolog for queries?                            :memex:hpi:
+:PROPERTIES:
+:CREATED:  [2021-02-05]
+:ID:       mybprlgfrqrs
+:END:
+** [#B] [2020-01-08] [[https://github.com/samsquire/ideas][samsquire/ideas: life engine]]
+:PROPERTIES:
+:ID:       sgthbcmsmsqrdssmsqrdslfngn
+:END:
+: Life engine is a dashboard that attempts to collect information about your life and display relevant data on a single screen.
+** STRT [#C] [2021-03-22] [[https://lobste.rs/s/fgt5zm/what_have_you_failed_build#c_ott0mf][What have you failed to build? | Lobsters]] :objectbrowser:
+:PROPERTIES:
+:ID:       slbstrssfgtzmwhthvyfldbldcttmfwhthvyfldtbldlbstrs
+:END:
+: I’ve been dreaming of making a “semantic history” browser add-on for ages, but never started.
+: (As in something that would collect all the RDFa/microdata/microformats/JSON-LD/… objects on web pages you’ve seen, and give you an interface to browse not just pages, but these various objects like Organization, Person, Article, etc.    )
 * [#C] * features & usecases
 :PROPERTIES:
 :ID:       ftrsscss
@@ -141,6 +183,13 @@ Ok, this looks pretty cool.. maybe need to contact them and discuss
 :CREATED:  [2019-12-06]
 :ID:       shwrndmphts
 :END:
+** TODO [#B] [2021-03-26] [[https://en.wikipedia.org/wiki/Nextcloud][Nextcloud - Wikipedia]] :location:degoogle:memex:
+:PROPERTIES:
+:ID:       snwkpdrgwknxtcldnxtcldwkpd
+:END:
+: Viewer for Maps
+
+hmm, wonder if it could replace gmaps?
 * [#C] * communities                                                 :social:
 :PROPERTIES:
 :ID:       cmmnts
@@ -151,7 +200,6 @@ This is something we can't build alone. Let's find each other and cooperate.
 :PROPERTIES:
 :ID:       stwttrcmkrlcsssttskrlcssstts
 :END:
-: @karlicoss
 : I think I want to create some sort of community chat on the topic of knowledge management and tools around it, with the emphasis on interoperability, malleability, owning your data, local-first, org-mode etc.
 
 - [2020-06-18] I think I want the focus on existing tools and setup rather than discussing mockups and vague concepts. both are important, but I want to build something now
@@ -179,61 +227,12 @@ e.g. promnesia uses it to jump and browse the history
 dashboard uses to display all events
 timeline -- similarly for all life events
 
-* ----------------------------
-:PROPERTIES:
-:ID:       6405_6437
-:END:
-
-* TODO [#D] Tweet from @mekarpeles                                    :memex:
-:PROPERTIES:
-:CREATED:  [2020-06-12]
-:ID:       twtfrmmkrpls
-:END:
-https://twitter.com/mekarpeles/status/1271226785439428608
-: @mekarpeles: Finally made a short 📽️ of https://t.co/glrT8wpAk2: Free + open source v. of @wikidata meets @RoamResearch (both which I 👍)
-
-* TODO [#B] [2021-01-21] [[https://www.are.na/dylan-steck-gdlcvugj6vq/cortex-inspirations][Cortex Inspirations — Are.na]]
-:PROPERTIES:
-:ID:       swwwrndylnstckgdlcvgjvqcrtxnsprtnscrtxnsprtnsrn
-:END:
-
-* TODO [#C] [2020-11-30] [[https://github.com/appaquet/exocore#roadmap][appaquet/exocore: A distributed private application framework]]
-:PROPERTIES:
-:ID:       sgthbcmppqtxcrrdmpppqtxcrdstrbtdprvtpplctnfrmwrk
-:END:
-: Exocore is a distributed applications framework with private and encrypted data storage. Think of like an infrastructure that allows a user to own his own personal cloud that is extensible via WebAssembly applications and accessible via Web/Mobile SDKs. It is designed to be resilient to failures, allow offline usage (ex: on mobile).
 * TODO [#B] ugh. it's still more convenient to use google location than any of my tools.. :dashboard:grafana:memex:location:
 :PROPERTIES:
 :CREATED:  [2021-01-09]
 :ID:       ghtsstllmrcnvnnttsggllctnthnnyfmytls
 :END:
 - [2021-02-22] to be fair I didn't really do much on it yet
-* DONE [#D] [2021-01-21] [[https://github.com/steve-1820/memex][steve-1820/memex: A brief POC of what a Memex could potentially be.]] :memex:
-:PROPERTIES:
-:ID:       sgthbcmstvmmxstvmmxbrfpcfwhtmmxcldptntllyb
-:END:
-ok, so it's more of a prototype at this point? and they are reinventing editor/annotation... not sure
-
-* [#B] [2020-01-08] [[https://github.com/samsquire/ideas][samsquire/ideas: life engine]]
-:PROPERTIES:
-:ID:       sgthbcmsmsqrdssmsqrdslfngn
-:END:
-: Life engine is a dashboard that attempts to collect information about your life and display relevant data on a single screen.
-* TODO [#A] [2021-01-31] [[https://github.com/NickSto/life-browser][NickSto/life-browser: View a timeline of your own history through your personal data.]] :timeline:memex:
-:PROPERTIES:
-:ID:       sgthbcmnckstlfbrwsrnckstlnfyrwnhstrythrghyrprsnldt
-:END:
-: This is a project I began to try to collate all the digital breadcrumbs of my life and show them in an easily viewable timeline.
-** [#C] [2020-05-11] [[https://news.ycombinator.com/item?id=23131402][Thanks, I'll check it out! Yep, agree about the common codebase, that's why I'm... | Hacker News]]
-:PROPERTIES:
-:ID:       snwsycmbntrcmtmdthnksllchthcmmncdbsthtswhymhckrnws
-:END:
-: Hmm it's interesting how diverse the data sources people are actually using, but there's definitely overlap.
-* TODO [#C] maybe prolog for queries?                             :memex:hpi:
-:PROPERTIES:
-:CREATED:  [2021-02-05]
-:ID:       mybprlgfrqrs
-:END:
 * DONE [#B] [2021-02-23] [[https://tiendil.org/exocortex-3-5/][Экзокортекс 3.5]] :memex:
 :PROPERTIES:
 :ID:       stndlrgxcrtxэкзокортекс
@@ -246,15 +245,38 @@ ok, so it's more of a prototype at this point? and they are reinventing editor/a
 :PROPERTIES:
 :ID:       gdsmmryndmmxdsgnrqrmntsnrssn
 :END:
-* TODO [#B] [2021-03-26] [[https://en.wikipedia.org/wiki/Nextcloud][Nextcloud - Wikipedia]] :degoogle:memex:
+* ----------------------------
 :PROPERTIES:
-:ID:       snwkpdrgwknxtcldnxtcldwkpd
+:ID:       9616_9648
 :END:
-: Viewer for Maps
 
-hmm, wonder if it could replace gmaps?
+* TODO [#D] Tweet from @mekarpeles                                    :memex:
+:PROPERTIES:
+:CREATED:  [2020-06-12]
+:ID:       twtfrmmkrpls
+:END:
+https://twitter.com/mekarpeles/status/1271226785439428608
+: @mekarpeles: Finally made a short 📽️ of https://t.co/glrT8wpAk2: Free + open source v. of @wikidata meets @RoamResearch (both which I 👍)
+
+* TODO [#C] [2020-11-30] [[https://github.com/appaquet/exocore#roadmap][appaquet/exocore: A distributed private application framework]]
+:PROPERTIES:
+:ID:       sgthbcmppqtxcrrdmpppqtxcrdstrbtdprvtpplctnfrmwrk
+:END:
+: Exocore is a distributed applications framework with private and encrypted data storage. Think of like an infrastructure that allows a user to own his own personal cloud that is extensible via WebAssembly applications and accessible via Web/Mobile SDKs. It is designed to be resilient to failures, allow offline usage (ex: on mobile).
 * [#C] [2021-03-23] [[https://www.saul.pw/biograph/][Biograph]] :lifelogging:inspiration:
 :PROPERTIES:
 :ID:       swwwslpwbgrphbgrph
 :END:
 nice 2d representation
+* TODO [#B] [2021-04-16] [[https://lobste.rs/s/tsh0jq/sqlite_only_database_you_will_ever_need][SQLite the only database you will ever need in most cases | Lobsters]] :location:sqlite:
+:PROPERTIES:
+:ID:       slbstrsstshjqsqltnlydtbsydtbsywllvrndnmstcsslbstrs
+:END:
+: I used to use SQLite all the time for geospatial data using the SpatiaLite extensions, it made dealing with data in many different formats much easier (and scriptable) and just simplified a lot of the work we had to do to manage weird datasets on nationalmap.gov.au(/renewables - sadly recently made defunct due to lack of government funding).
+: We’d pretty regularly get CSVs with columns for LAT and LON, and need to do some actual work with the data, or turn it into another format like GeoJSON. Or we’d get a bunch of GeoJSON data that we wanted to manipulate.
+* [#D] [2020-08-28] from email discussion
+:PROPERTIES:
+:ID:       frmmldscssn
+:END:
+: Having stale data from manual exports is still useful, but adds a lot of mental friction ("is the export up-to-date enough to actually have what I need?").
+: Very good point! Just thought, perhaps some meta information about the 'recency' of the data could be included in the interface, that might remove some of the friction.

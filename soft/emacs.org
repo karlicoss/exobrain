@@ -5,7 +5,7 @@
 :PROPERTIES:
 :ID:       rltd
 :END:
-* STRT [#A] [2019-12-23] [[https://reddit.com/r/emacs/comments/eemb76/what_feature_of_emacs_you_tried_in_2019_and_now/fbuoo9s/][What feature of emacs you tried in 2019 and now you can't live without?]] /r/emacs :setup:
+* STRT [#C] [2019-12-23] [[https://reddit.com/r/emacs/comments/eemb76/what_feature_of_emacs_you_tried_in_2019_and_now/fbuoo9s/][What feature of emacs you tried in 2019 and now you can't live without?]] /r/emacs :setup:
 :PROPERTIES:
 :ID:       srddtcmrmcscmmntsmbwhtftrcsytrdnndnwycntlvwthtrmcs
 :END:

@@ -147,7 +147,7 @@ Eventually you'd get extremely fat just by pure chance?
 :ID:       dgrpbthclndrw
 :END:
 
-* TODO [#B] [2020-04-23] [[https://riot.im/app/#/room/#malleable-systems:matrix.org/$aZjHzOe2RvkHSWkZxOhKpYPPdcW2ZJtyfUa34N8vcIM][Riot [1] | Malleable Systems Collective]]
+* TODO [#B] [2020-04-23] [[https://riot.im/app/#/room/#malleable-systems:matrix.org/$aZjHzOe2RvkHSWkZxOhKpYPPdcW2ZJtyfUa34N8vcIM][Riot | Malleable Systems Collective]]
 :PROPERTIES:
 :ID:       srtmpprmmllblsystmsmtrxrgyfnvcmrtmllblsystmscllctv
 :END:
@@ -622,12 +622,6 @@ Kedr
 :END:
 : After hearing about friends having great experiences treating GPT-3 as a therapist I tried it myself and 5 minutes in oh my god it goes straight for the throat I feel so seen
 
-* TODO [#C] Virtual photons?
-:PROPERTIES:
-:CREATED:  [2020-08-09]
-:ID:       vrtlphtns
-:END:
-
 * TODO [#C] thread on quantum computation and errors?        :totweet:toblog:
 :PROPERTIES:
 :CREATED:  [2020-08-02]
@@ -645,7 +639,7 @@ quantum gates -- a thing can only evolve according to schrodinger's equation
 :ID:       ftwsmylstdywhtwldd
 :END:
 
-* TODO [#C] [2019-11-17] (3) jestem króliczkiem on Twitter: "@gwern (somewhat ironically) that page does have ids set on divs, but no visible paragraph anchors, I referred to that section specifically: https://t.co/hSO2I5eLq1" / Twitter :coding:pkm:
+* TODO [#C] [2019-11-17] jestem króliczkiem on Twitter: "@gwern (somewhat ironically) that page does have ids set on divs, but no visible paragraph anchors, I referred to that section specifically: https://t.co/hSO2I5eLq1" / Twitter :coding:pkm:
 :PROPERTIES:
 :ID:       jstmkrólczkmntwttrgwrnsmwtsctnspcfcllystchslqtwttr
 :END:
@@ -698,7 +692,7 @@ https://twitter.com/karlicoss/status/1195858695692980225
 : for x in l:
 :     print(x)
 
-* [#C] [2020-06-20] [[https://www.youtube.com/watch?v=5c4cv7rVlE8&list=WL&index=64&t=0s][Joe Rogan Experience #1350 - Nick Bostrom - YouTube]]
+* [#C] [2020-06-20] [[https://www.youtube.com/watch?v=5c4cv7rVlE8&list=WL&index=64&t=0s][Joe Rogan Experience 1350 - Nick Bostrom - YouTube]]
 :PROPERTIES:
 :ID:       swwwytbcmwtchvccvrvllstwlndxtsjrgnxprncnckbstrmytb
 :END:
@@ -960,10 +954,10 @@ people who want (need?) to be locked in and nannied by the big corporations etc
 :CREATED:  [2021-02-21]
 :ID:       mtchngpplwthsmsklltwrknpnprjcts
 :END:
-* TODO [#B] sponsors -- (auto?) route money for other projects :think:github:
+* TODO [#B] open source sponsoring -- (auto?) route money for other projects :think:
 :PROPERTIES:
 :CREATED:  [2021-02-28]
-:ID:       spnsrstrtmnyfrthrprjcts
+:ID:       pnsrcspnsrngtrtmnyfrthrprjcts
 :END:
 * STRT [#C] https://github.com/samsquire/wants                        :ideas:
 :PROPERTIES:

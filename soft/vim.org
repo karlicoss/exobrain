@@ -37,3 +37,8 @@ then ; to repeat forward
 :PROPERTIES:
 :ID:       sxzkgthbbglstfvmlksftwr
 :END:
+
+* [#C] [2020-11-04] [[https://jemma.dev/blog/intermediate-vim-tips][Vim Tips for the Intermediate Vim User | Jemma Issroff]] :vim:
+:PROPERTIES:
+:ID:       sjmmdvblgntrmdtvmtpsvmtpsfrthntrmdtvmsrjmmssrff
+:END:

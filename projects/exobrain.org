@@ -1049,3 +1049,8 @@ maybe enough to generate a view sorted by timestamps
 :CREATED:  [2021-04-11]
 :ID:       ndtrndrtdsttchngs
 :END:
+* STRT [#B] generate tag summaries to eliminate the least common?  :exobrain:
+:PROPERTIES:
+:CREATED:  [2020-05-20]
+:ID:       gnrttgsmmrstlmntthlstcmmn
+:END:

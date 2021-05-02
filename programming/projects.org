@@ -402,3 +402,11 @@ I don't need money myself, but would be nice to 'reroute' donations to the libra
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdpnsrcprjctsshldrnffchrshckrnws
 :END:
+
+* TODO [#B] [2021-03-15] [[https://twitter.com/thomrstrom/status/1369466148517912579][Thomas Strömberg on Twitter: "An uncomfortable truth that open-source projects struggle with:👇 Improvements to your onboarding docs generate 10X the ROI vs improvements to your codebase 🔖 Great documentation creates a virtuous cycle of adoption, contributor diversity, and success.♻️" / Twitter]] :projects:
+:PROPERTIES:
+:ID:       stwttrcmthmrstrmsttsthmssntrbtrdvrstyndsccss️twttr
+:END:
+: An uncomfortable truth that open-source projects struggle with:
+: Improvements to your onboarding docs generate 10X the ROI vs improvements to your codebase
+: Great documentation creates a virtuous cycle of adoption, contributor diversity, and success.

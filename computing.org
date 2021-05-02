@@ -707,3 +707,30 @@ wasn't so engaging, mostly about project management
 :PROPERTIES:
 :ID:       wkccmbjctbrwsrbjctbrwsr
 :END:
+
+* [#B] [2021-04-14] [[https://news.ycombinator.com/item?id=23226979][I ordered a PinePhone the other day and I'm going to do as much as I can to try ... | Hacker News]] :sadinfra:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdrdrdpnphndmgngtdsmchscnttryhckrnws
+:END:
+: I really can't be arsed with this stuff any more.
+: Why are the developers at Google acting in such boneheaded ways? Is it literally just "I get paid loads of money, lol"? Do people not grow out of that eventually when they have enough?
+: Like, you're literally a developer. Why would you make something you wouldn't want to use? Is the company just wholly made up of people who actually don't care about computing?
+* [#C] [2021-03-23] [[https://www.youtube.com/watch?v=S5sucWxirxw][The Machine That Changed The World | Interview With Paul Ceruzzi - Discover News Television - YouTube]] :computing:history:
+:PROPERTIES:
+:ID:       swwwytbcmwtchvsscwxrxwthmwthplcrzzdscvrnwstlvsnytb
+:END:
+3:30 nice interview, he really gets computing
+* [#C] [2019-11-23] [[https://news.ycombinator.com/item?id=21402518][I Miss the Old Internet | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdmssthldntrnthckrnws
+:END:
+: Wikipedia is even pushing further forward on that vision with Wikidata, a general-purpose knowledge base that's perhaps the most successful example of such a thing, succeeding where many other efforts have failed dismally. (Already, Wikidata gets more edits per minute than Wikipedia, albeit much of the activity is performed by bots.) It's also a successful use of Linked-Open-Data and Semantic-Web technologies (the Wikidata site hosts a SPARQL endpoint, for general queries of all sorts), so while it might not be "Old Web" per se, it feels quite retro-futuristic in many ways.
+
+- [2019-11-23] https://news.ycombinator.com/item?id=21402518
+: And of course, all the well-known personal assistant AI's rely on it quite a bit, although they're not eager to advertise that fact.
+
+- [2019-11-23] https://news.ycombinator.com/item?id=21402518
+: pmlnr 23 days ago [-]
+: Even Firefox dropped it's built-in RSS support by now, so for the current September generation, this is meaningless, unfortunately. Still, as infrastructure, it's very important, because it's simple to transform RSS into other formats: JSON feed, h-feed[^1], etc.
+: As for how to "follow" (I'd prefer to use subscribe instead) a personal site these days, it's a hard problem, reasonably well documented here: https://indieweb.org/follow
+: There is a current effort, called microsub[^2] to tackle the problem, but it's new, and is not user friendly enough at all.

@@ -672,7 +672,7 @@ https://twitter.com/stephentyrone/status/1073795608819855367
 :PROPERTIES:
 :ID:       crrrtgncmmntndthngrpt
 :END:
-* [#C] [2020-02-05] Working example of sub · Issue #694 · stedolan/jq    :jq:
+* [#C] [2020-02-05] Working example of sub · Issue 694 · stedolan/jq     :jq:
 :PROPERTIES:
 :ID:       wrkngxmplfsbssstdlnjq
 :END:
@@ -1242,9 +1242,9 @@ https://twitter.com/relizarov/status/1134190090547281920
 :ID:       mhmdbltnslkbltnsbtbltnscnkmchlbltnsgthbcmmhmdbltns
 :END:
 : cache
-* [#D] [2019-09-10] Is this project dead? · Issue #883 · scrapinghub/portia https://github.com/scrapinghub/portia/issues/883 :scraping:
+* [#D] [2019-09-10] [[https://github.com/scrapinghub/portia/issues/883][Is this project dead? · Issue 883 · scrapinghub/portia]] :scraping:
 :PROPERTIES:
-:ID:       sthsprjctddssscrpnghbprtsgthbcmscrpnghbprtsss
+:ID:       sgthbcmscrpnghbprtssssthsprjctddssscrpnghbprt
 :END:
 : Provided Portia is no longer been offered by Scrapinghub, I think the company is no longer funding the maintenance of this project.
 : Source: https://support.scrapinghub.com/support/solutions/articles/22000200405-which-services-are-available-on-scrapy-cloud-
@@ -1800,7 +1800,7 @@ solution: void consumer(List<? extends A> List)
 
 ** ?
 :PROPERTIES:
-:ID:       73712_73804
+:ID:       73715_73807
 :END:
 - lack of operators overloading (but sometimes it makes sense)
 - GC: both good and bad
@@ -1850,3 +1850,21 @@ extract match only with grep
 :ID:       swwwsqltrgwlhtmlrdnlywrthdlggng
 :END:
 : Beginning with version 3.22.0 (2018-01-22), a read-only WAL-mode database file can be opened if the -shm and -wal files already exists or those files can be created or the database is immutable.
+* [#C] [2021-02-16] [[https://news.ycombinator.com/item?id=26149488][Building Rich Terminal Dashboards | Hacker News]] :cli:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdbldngrchtrmnldshbrdshckrnws
+:END:
+https://github.com/willmcgugan/rich
+* [#C] [2020-08-01] [[https://github.com/jamiebuilds/tinykeys][jamiebuilds/tinykeys: A tiny (~400 B) & modern library for keybindings.]]
+:PROPERTIES:
+:ID:       sgthbcmjmbldstnykysjmbldsystnybmdrnlbrryfrkybndngs
+:END:
+* TODO [#C] https://github.com/alirezamika/autoscraper
+:PROPERTIES:
+:CREATED:  [2020-09-07]
+:ID:       sgthbcmlrzmktscrpr
+:END:
+* TODO [#B] [2020-05-18] [[https://github.com/cookiengineer/stealth][cookiengineer/stealth: Stealth - Secure, Peer-to-Peer, Private and Automateable Web Browser/Scraper/Proxy]]
+:PROPERTIES:
+:ID:       sgthbcmckngnrstlthckngnrsvtndtmtblwbbrwsrscrprprxy
+:END:

@@ -25,7 +25,7 @@ I also maintain a [[https://www.goodreads.com/user/show/22191391-dima-gerasimov]
 :PROPERTIES:
 :ID:       gwrnrcmmndstt
 :END:
-** TODO [#B] [2019-06-15] [[https://medium.com/@max_cherepitsa/bret-victor-bookshelf-transcribed-eae4d63aa493][Bret Victor Bookshelf Transcribed | Max Cherepitsa]]
+** TODO [#C] [2019-06-15] [[https://medium.com/@max_cherepitsa/bret-victor-bookshelf-transcribed-eae4d63aa493][Bret Victor Bookshelf Transcribed | Max Cherepitsa]]
 :PROPERTIES:
 :ID:       smdmcmmxchrptsbrtvctrbkshctrbkshlftrnscrbdmxchrpts
 :END:
@@ -481,6 +481,11 @@ hotz recommendation?
 :ID:       snwkpdrgwktpfrrlststpfrrlstswkpd
 :END:
 : The Case for a Universal Basic Income, Open Borders, and a 15-hour Workweek 
+
+** TODO [#C] [2021-04-18] [[https://www.kobo.com/gb/en/ebook/the-scout-mindset-3][The Scout Mindset eBook by Julia Galef - 9780349427638 | Rakuten Kobo United Kingdom]] :rational:toread:
+:PROPERTIES:
+:ID:       swwwkbcmgbnbkthsctmndstthstbkbyjlglfrktnkbntdkngdm
+:END:
 
 * TODO [#B] [2020-01-13] [[https://twitter.com/litgenstein/status/1216512864015417344][@litgenstein: In this text, by the way, Schwinger gives a very clear ~20 page summary of the history of the classical —> quantum transition]] :physics:
 :PROPERTIES:
@@ -1127,4 +1132,15 @@ http://www.ams.org/notices/200502/comm-interview.pdf
 * TODO [#C] [2021-03-15] [[http://wiki.c2.com/?PythonLanguage][Python Language]]
 :PROPERTIES:
 :ID:       wkccmpythnlnggpythnlngg
+:END:
+
+* TODO [#B] [2021-03-18] [[https://www.nickbostrom.com/fable/dragon.html][Bostrom: The Fable of the Dragon-Tyrant]] :toread:
+:PROPERTIES:
+:ID:       swwwnckbstrmcmfbldrgnhtmlbstrmthfblfthdrgntyrnt
+:END:
+from bio link https://twitter.com/VitalikButerin
+
+* TODO [#B] [2021-03-29] [[https://news.ycombinator.com/item?id=26286306][Ask HN: Works of fiction that have inspired you to solve programming problems? | Hacker News]] :toread:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdskhnwrksftslvprgrmmngprblmshckrnws
 :END:

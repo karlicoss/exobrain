@@ -40,7 +40,7 @@ next time you want to order something you don't need to go throught all the book
 :ID:       cldspprttmpltsngrspsthyrcchpntfrndrdcnsdrngtsgtshr
 :END:
 
-* TODO [#B] [2019-12-21] Idea: HTTP server in Emacs · Issue 28 · karlicoss/grasp https://github.com/karlicoss/grasp/issues/28
+* TODO [#D] [2019-12-21] Idea: HTTP server in Emacs · Issue 28 · karlicoss/grasp https://github.com/karlicoss/grasp/issues/28
 :PROPERTIES:
 :ID:       dsrvrnmcssskrlcssgrspsgthbcmkrlcssgrspsss
 :END:

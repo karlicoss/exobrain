@@ -563,7 +563,7 @@ https://twitter.com/Meaningness/status/1193683556364513280
 :PROPERTIES:
 :ID:       smprfsrbttrthnthrswhnyrwrmwysfdrvngrsrfrsympythndl
 :END:
-* STRT [#B] [2020-12-23] [[https://www.youtube.com/c/Aleph0/videos][(4) Aleph 0 - YouTube]] :math:
+* [#B] [2020-12-23] [[https://www.youtube.com/c/Aleph0/videos][Aleph 0 - YouTube]] :math:
 :PROPERTIES:
 :ID:       swwwytbcmclphvdslphytb
 :END:
@@ -663,3 +663,18 @@ some good explanations for calculus of variations
 :PROPERTIES:
 :ID:       sstrstmpwrdcmpphyprblchyprblcnstm
 :END:
+* [#C] frequentist vs vs bayes probability
+:PROPERTIES:
+:ID:       frqntstvsvsbysprbblty
+:END:
+https://stats.stackexchange.com/questions/31867/bayesian-vs-frequentist-interpretations-of-probability
+: The snag is that we have to introduce the prior distribution into our analysis - this reflects our belief about the value of p before seeing the actual values of the Xi. The role of the prior is often criticised in the frequentist approach, as it is argued that it introduces subjectivity into the otherwise austere and object world of probability.
+: It might also be good to mention that the gap between the frequentist and Bayesian approaches is not nearly as great on a practical level: any frequentist method that produces useful and self-consistent results can generally be given a Bayesian interpretation, and vice versa. In particular, recasting a frequentist calculation in Bayesian terms typically yields a rule for calculating the posterior given some specific prior. One can then ask "Well, is that prior actually a reasonable one to assume?"
+: You're right about your interpretation of Frequentist probability: randomness in this setup is merely due to incomplete sampling. From the Bayesian viewpoint probabilities are "subjective", in that they reflect an agent's uncertainty about the world. It's not quite right to say that the parameters of the distributions "change". Since we don't have complete information about the parameters, our uncertainty about them changes as we gather more information.
+: A Bayesian may say that the probability that there was life on Mars a billion years ago is 1/2.
+: A frequentist will refuse to assign a probability to that proposition. It is not something that could be said to be true in half of all cases, so one cannot assign probability 1/2.
+: Frequentists posit that the probability of an event is its relative frequency over time,[1] (3.4) i.e., its relative frequency of occurrence after repeating a process a large number of times under similar conditions. This is also known as aleatory probability. The events are assumed to be governed by some random physical phenomena, which are either phenomena that are predictable, in principle, with sufficient information (see determinism); or phenomena which are essentially unpredictable. Examples of the first kind include tossing dice or spinning a roulette wheel; an example of the second kind is radioactive decay. In the case of tossing a fair coin, frequentists say that the probability of getting a heads is 1/2, not because there are two equally likely outcomes but because repeated series of large numbers of trials demonstrate that the empirical frequency converges to the limit 1/2 as the number of trials goes to infinity.
+
+
+https://www.reddit.com/r/statistics/comments/ywrba/eli5_bayesian_statistics/
+:  Bayesian statistics rely more on computational simulations and have become more common because computers have become much faster. A lot of people are put off by the fact that you incorporate prior believes into your estimate of the "truth", but you can use non-informative (vague) priors like in the example above (each possible outcome gets equal probability) and in any case with a lot of data your priors will become less important.

@@ -43,6 +43,11 @@
 :     expose:
 :       - "6379"
 : The expose tag will let you expose ports without publishing them to the host machine, but they will be exposed to the containers networks.
+** [#B] [2021-04-14] [[https://github.com/rocker-org/rocker/issues/35#issuecomment-58944297][apt-get clean and other strategies for keeping image size small? · Issue 35 · rocker-org/rocker]] :docker:
+:PROPERTIES:
+:ID:       sgthbcmrckrrgrckrssssscmmrkpngmgszsmllssrckrrgrckr
+:END:
+ok, so for debian/ubuntu images don't really need autoclean -- it's already run automatically
 * systemd                                                           :systemd:
 :PROPERTIES:
 :ID:       systmd
@@ -152,7 +157,7 @@ mind the space after colon!
 
 * -----------------------------------------
 :PROPERTIES:
-:ID:       2781_2826
+:ID:       3086_3131
 :END:
 
 * [#C] [2018-06-08] Linux ignores the setuid bit on all interpreted executables (i.e. executables starting with a ~#!~ line).
@@ -188,5 +193,5 @@ https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
 
 * -------------------------------------------
 :PROPERTIES:
-:ID:       4423_4469
+:ID:       4728_4774
 :END:

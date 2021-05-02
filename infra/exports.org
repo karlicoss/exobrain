@@ -1338,3 +1338,8 @@ can request data takeout here... takes ages to complete though, like a week
 :ID:       pssblthvxctlysmvntswthdffrntpds
 :END:
 : vimdiff <(rg -A 363 -B 1 15538293160 events_20210317T120954Z.json) <(rg -A 363 -B 1 15538293166 events_20210317T120954Z.json)
+* [#C] [2021-04-18] [[https://github.com/seanbreckenridge/exobrain/tree/master/data/exports_gdpr][exobrain/data/exports_gdpr at master · seanbreckenridge/exobrain]] :exports:gdpr:
+:PROPERTIES:
+:ID:       sgthbcmsnbrcknrdgxbrntrmstsgdprtmstrsnbrcknrdgxbrn
+:END:
+: Some thoughts on how easy to parse/use GDPR/get data exports from different services. A lot of these I did just because I was curious what information/context I could glean into the past about

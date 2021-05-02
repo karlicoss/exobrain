@@ -1971,3 +1971,19 @@ TODO mention doctests? pros/cons. how to set up common env for doctests?
 :END:
 : You can use the py_modules argument instead of the packages argument to list single file modules.
 : See https://docs.python.org/3/distutils/setupscript.html#listing-individual-modules
+* [#C] [2021-04-04] [[https://click.palletsprojects.com/en/7.x/utils/#showing-progress-bars][Utilities — Click Documentation (7.x)]] :cli:python:
+:PROPERTIES:
+:ID:       sclckplltsprjctscmnxtlsshprgrssbrstltsclckdcmnttnx
+:END:
+progress bars, nice
+
+* TODO [#B] [2021-04-16] [[https://github.com/pythonql/pythonql][pythonql/pythonql: A Query Language extension for Python: Query files, objects, SQL and NoSQL databases with a built-in query language]] :python:
+:PROPERTIES:
+:ID:       sgthbcmpythnqlpythnqlpythndnsqldtbsswthbltnqrylngg
+:END:
+: PythonQL is implemented as a special encoding in a normal python script. When this encoding is specified, the pythonql preprocessor is run, which converts the pythonql syntax to pure python.
+: So you should have a line in the beginning of your script:
+: #coding: pythonql
+: result = [ select y for x in [1,2,3] let y = x**2 ]
+
+whoa

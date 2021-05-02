@@ -189,7 +189,7 @@ hmm, looks interesting, but it's all dockerized, so might be tricky to expose my
 :ID:       stwttrcmthngsktddsttsktntwrttnnwkstctfykbnskttwttr
 :END:
 :  made a super simple CLI plotting thingy, reads numbers on stdin, draws svg to stdout
-** TODO [#B] [2021-02-08] [[https://gitlab.com/bramw/baserow][Bram Wiepjes / baserow · GitLab]] :hpi:exobrain:
+** TODO [#C] [2021-02-08] [[https://gitlab.com/bramw/baserow][Bram Wiepjes / baserow · GitLab]] :hpi:exobrain:
 :PROPERTIES:
 :ID:       sgtlbcmbrmwbsrwbrmwpjsbsrwgtlb
 :END:
@@ -201,11 +201,14 @@ hmm, looks interesting, but it's all dockerized, so might be tricky to expose my
 :END:
 That way would be able to easily import and remember lots of tgings. Just need stable IDs..
 
-** TODO [#B] def try redash, seems to be a 'free' interface??      :influxdb:
+** STRT [#B] def try redash, seems to be a 'free' interface??      :influxdb:
 :PROPERTIES:
 :CREATED:  [2021-02-12]
 :ID:       dftryrdshsmstbfrntrfc
 :END:
+https://news.ycombinator.com/item?id=13597068
+- https://news.ycombinator.com/item?id=23860281
+  : I evaluated on-premise Redash as an alternative for engineers and analysts who don't want to learn tableau. It's harder to setup than Metabase but more intuitive to use (for someone with SQL expertise).
 *** STRT [#B] [2020-05-06] [[https://github.com/KrauseFx/FxLifeSheet/issues/34][Find alternative to Google Data Studio · Issue #34 · KrauseFx/FxLifeSheet]] :spreadsheet:degoogle:
 :PROPERTIES:
 :ID:       sgthbcmkrsfxfxlfshtsssfndtvtggldtstdsskrsfxfxlfsht
@@ -378,6 +381,11 @@ e.g. depending on the 'aspects' the data provider has, would be different plots/
 :ID:       snwsycmbntrcmtmdtypsnspnsrcltrntvtlgl
 :END:
 https://github.com/typesense/typesense
+** TODO [#B] [2021-03-05] [[https://twitter.com/simonw][Simon Willison (@simonw) / Twitter]] :hpi:
+:PROPERTIES:
+:ID:       stwttrcmsmnwsmnwllsnsmnwtwttr
+:END:
+finally need to cooperate with datasette...
 * [#A] * documentation & user friendliness improvements
 :PROPERTIES:
 :CREATED:  [2020-05-18]
@@ -1056,6 +1064,18 @@ could tweet at them/grafana?
 :CREATED:  [2020-05-10]
 :ID:       pblshththngbthpcnfgs
 :END:
+** TODO [#B] tweet about hpi + photos integration        :hpi:totweet:outbox:
+:PROPERTIES:
+:CREATED:  [2020-11-25]
+:ID:       twtbthpphtsntgrtn
+:END:
+
+have a screenshot
+: datasette .cache/my.photos.main:_photos  --config max_returned_rows:20000
+
+- [ ] can bookmark the query, so it's basically stateless
+- [ ] stretch the map height
+- [ ] need to add JS with file links (and possibly thumbnails? not sure if it's gonna work well)
 * [#B] * enhancements
 :PROPERTIES:
 :ID:       nhncmnts
@@ -1219,6 +1239,11 @@ or use hash of some other metadata
 :PROPERTIES:
 :ID:       tmtcdgssfrmncrsngfld
 :END:
+** TODO [#C] [2021-04-04] [[https://click.palletsprojects.com/en/7.x/bashcomplete/][Shell Completion — Click Documentation (7.x)]] :hpi:
+:PROPERTIES:
+:ID:       sclckplltsprjctscmnxbshcmpltshllcmpltnclckdcmnttnx
+:END:
+
 * [#C] * bugs/issues
 :PROPERTIES:
 :ID:       bgssss
@@ -1434,35 +1459,29 @@ so all in all seems that it would be easier to assume Res[X] and try to guess X?
 what's up with this Bookmark thing??
 : [ins] In [24]: inspect.signature(Bookmark.url.fget)
 : Out[24]: <Signature (self) -> <function NewType.<locals>.new_type at 0x7f9c8626ce50>>
-* --------------------------------------------
+** TODO [#C] [2021-03-07] [[https://hypothes.is/a/-WYcvHYdEeustePidk7lwA][Hypothesis]] :hpi:
 :PROPERTIES:
-:ID:       54184_54232
+:ID:       shypthsswycvhydstpdklwhypthss
 :END:
-
-* STRT [#C] [2021-03-08] [[https://github.com/instagram/MonkeyType][Instagram/MonkeyType: A system for Python that generates static type annotations by collecting runtime types]] :hpi:cachew:
+update hypothesis link?
+** STRT [#C] [2021-03-08] [[https://github.com/instagram/MonkeyType][Instagram/MonkeyType: A system for Python that generates static type annotations by collecting runtime types]] :hpi:cachew:
 :PROPERTIES:
 :ID:       sgthbcmnstgrmmnkytypnstgrypnnttnsbycllctngrntmtyps
 :END:
 : MonkeyType collects runtime types of function arguments and return values, and can automatically generate stub files or even add draft type annotations directly to your Python code based on the types collected at runtime.
 
 could use for some magic caching/inference of serialization? not sure
-* TODO [#C] [2021-03-13] [[https://github.com/markwk/qs_ledger/blob/master/instapaper/instapaper_downloader.ipynb][qs_ledger/instapaper_downloader.ipynb at master · markwk/qs_ledger]] :hpi:
+** [#C] [2021-04-12] [[https://en.wikipedia.org/wiki/Extract,_transform,_load][Extract, transform, load - Wikipedia]] :hpi:
+:PROPERTIES:
+:ID:       snwkpdrgwkxtrcttrnsfrmldxtrcttrnsfrmldwkpd
+:END:
+I guess it's kind of 'auto'? Although ETL sounds a bit magical
+** TODO [#C] [2021-03-13] [[https://github.com/markwk/qs_ledger/blob/master/instapaper/instapaper_downloader.ipynb][qs_ledger/instapaper_downloader.ipynb at master · markwk/qs_ledger]] :hpi:
 :PROPERTIES:
 :ID:       sgthbcmmrkwkqsldgrblbmstrwnldrpynbtmstrmrkwkqsldgr
 :END:
 see what's their approach to credentials
-* TODO [#C] [2021-04-04] [[https://click.palletsprojects.com/en/7.x/bashcomplete/][Shell Completion — Click Documentation (7.x)]] :hpi:
+* --------------------------------------------
 :PROPERTIES:
-:ID:       sclckplltsprjctscmnxbshcmpltshllcmpltnclckdcmnttnx
+:ID:       56329_56377
 :END:
-
-* TODO [#C] [2021-03-07] [[https://hypothes.is/a/-WYcvHYdEeustePidk7lwA][Hypothesis]] :hpi:
-:PROPERTIES:
-:ID:       shypthsswycvhydstpdklwhypthss
-:END:
-update hypothesis link?
-* TODO [#B] [2021-03-05] [[https://twitter.com/simonw][(14) Simon Willison (@simonw) / Twitter]] :hpi:
-:PROPERTIES:
-:ID:       stwttrcmsmnwsmnwllsnsmnwtwttr
-:END:
-finally need to cooperate with datasette...

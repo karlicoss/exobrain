@@ -109,31 +109,15 @@ e.g. I have a few traffic lights on my way that might affect my speed/cadence da
 :END:
 - with cardio (at least, endurance styl) there is a somewhat convincing metric -- number of heartbeats, which is basically the same as calories burnt?
 - with strength training this is something very hard to measure and not sure if makes sense at all?
+** TODO [#B] demo of errors: typical mistake is confuising wlog and weight tags (weight gets unrecognized as exercise) :dashboard:
+:PROPERTIES:
+:CREATED:  [2021-02-18]
+:ID:       dmfrrrstypclmstkscnfsngwlghttgswghtgtsnrcgnzdsxrcs
+:END:
 * [#A] * inspiration
 :PROPERTIES:
 :ID:       nsprtn
 :END:
-** STRT [#A] [2019-11-24] [[https://github.com/heedy/heedy][heedy/heedy: An Open-Source Platform for Quantified Self & IoT]]
-:PROPERTIES:
-:ID:       sgthbcmhdyhdyhdyhdynpnsrcpltfrmfrqntfdslft
-:END:
-: Heedy is an open-source aggregator built for storage and analysis of your personal data.
-: It provides a powerful plugin system, allowing easy integration with various services, as well as deep extensibility.
-
-
-: Extensible: Even a system with fantastic visualizations and powerful analysis has limited utility.
-: This is because it can only show what the original authors assumed would be useful. Heedy offers a powerful plugin system - plugin writers can add new integrations, plots, or even modify core functionality with a few lines of python or javascript.
-: A registry is planned, so that users can install plugins with the click of a button.
-
-*** [2020-08-23] interesing, automatic jupyter notebook connection??
-:PROPERTIES:
-:ID:       ntrsngtmtcjpytrntbkcnnctn
-:END:
-*** [2021-02-06] yeah looks like very much what I want
-:PROPERTIES:
-:ID:       yhlkslkvrymchwhtwnt
-:END:
-
 ** STRT [#B] [2018-06-06] [[https://qself-dashboard.herokuapp.com][andreilyskov: qs dashboard example]] :qs:
 :PROPERTIES:
 :ID:       sqslfdshbrdhrkppcmndrlyskvqsdshbrdxmpl
@@ -165,6 +149,27 @@ open source: https://github.com/onejgordon/flow-dashboard
 :PROPERTIES:
 :ID:       krstpthngsclshldtrycnnctngtthp
 :END:
+
+** [#C] [2019-11-24] [[https://github.com/heedy/heedy][heedy/heedy: An Open-Source Platform for Quantified Self & IoT]]
+:PROPERTIES:
+:ID:       sgthbcmhdyhdyhdyhdynpnsrcpltfrmfrqntfdslft
+:END:
+: Heedy is an open-source aggregator built for storage and analysis of your personal data.
+: It provides a powerful plugin system, allowing easy integration with various services, as well as deep extensibility.
+
+
+: Extensible: Even a system with fantastic visualizations and powerful analysis has limited utility.
+: This is because it can only show what the original authors assumed would be useful. Heedy offers a powerful plugin system - plugin writers can add new integrations, plots, or even modify core functionality with a few lines of python or javascript.
+: A registry is planned, so that users can install plugins with the click of a button.
+
+
+- [2020-08-23] interesing, automatic jupyter notebook connection??
+- [2021-02-06] yeah looks like very much what I want
+- [2021-04-27] hmm
+  seems that fitbit integration is the only one present so far
+  however after giving it a go, it restarted a couple of times, and ended up with a couple of zombie processes
+  couldn't restart it without completely tearing down the docker container :(
+  Overall not sure where it all fits: there are lots of repositories and not many concrete usecases https://github.com/heedy
 
 ** STRT [#C] [2019-05-21] [[https://github.com/JakobGM/quelf/blob/master/analysis/report.Rmd][quelf/report.Rmd at master · JakobGM/quelf]]
 :PROPERTIES:
@@ -318,7 +323,7 @@ have a core subpackages and various tabs... not sure how to refactor them out la
 :PROPERTIES:
 :ID:       smlrlythptsmrfdmnstrtnhwtbbltrscrndbldthrwndshbrds
 :END:
-** TODO [#A] it's very important to benefit from the existing data science infrastructure as much as possible. jupyter, pandas, etc. :interop:
+** TODO [#A] it's very important to benefit from the existing data science infrastructure as much as possible. jupyter, pandas, etc.
 :PROPERTIES:
 :CREATED:  [2020-10-01]
 :ID:       tsvrymprtnttbnftfrmthxstnrctrsmchspssbljpytrpndstc
@@ -327,7 +332,9 @@ have a core subpackages and various tabs... not sure how to refactor them out la
 :PROPERTIES:
 :ID:       spyprgprjctpnlpnlpyp
 :END:
+https://panel.holoviz.org/
 : A high-level app and dashboarding solution for Python
+: Panel works with visualizations from Bokeh, Matplotlib, HoloViews, and many other Python plotting libraries
 
 
 ok, this is super promising:
@@ -399,6 +406,28 @@ would be initersting to quickly toggle it in dashboard?
 :CREATED:  [2020-08-25]
 :ID:       grfncldsmplybnfthntrfcs
 :END:
+** STRT [#B] [2021-02-17] [[https://github.com/apache/superset#superset][apache/superset: Apache Superset is a Data Visualization and Data Exploration Platform]] :dashboard:hpi:
+:PROPERTIES:
+:ID:       sgthbcmpchsprstsprstpchspsdtvslztnnddtxplrtnpltfrm
+:END:
+: A modern, enterprise-ready business intelligence web application.
+
+whoa looks interesting...
+- [2021-04-26] trying sqlite connection
+Ugh. it didn't really work -- seems to be in the process of deprecation
+https://github.com/apache/superset/issues/9748
+and still, getting some weird error regardless whether I mount database as read only or not.. and no other logs
+: 2021-04-26 14:19:42,813:WARNING:superset.views.base:[SupersetError(message='(sqlite3.OperationalError) unable to open database file\n(Background on this error at: http://sqlalche.me/e/13/e3q8)', error_type=<SupersetErrorType.GENERIC_DB_ENGINE_ERROR: 'GENERIC_DB_ENGINE_ERROR'>, level=<ErrorLevel.ERROR: 'error'>, extra={'engine_name': 'SQLite', 'issue_codes': [{'code': 1002, 'message': 'Issue 1002 - The database returned an unexpected error.'}]})]
+
+- [2021-04-26] right, managed to run against postgre..
+a bit finicky overall...
+I guess nice that it's possible to separate queries, charts and dashboards...
+so one can reuse them in different contexts/for different visualizations
+- [2021-04-26]
+  for fuck's sake, struggling with creating a 'virtual' view with calculated columns...
+  getting an error like
+  : Error: column "_cachew_union_repr_measurement_temp" does not exist
+- [2021-04-26] seems possible to share queries?
 * [#B] * sleep dashboard/experiments                                  :sleep:
 :PROPERTIES:
 :ID:       slpdshbrdxprmnts
@@ -1158,7 +1187,7 @@ https://github.com/ucg8j/awesome-dash
 
 * -----------------------------------------
 :PROPERTIES:
-:ID:       37089_37134
+:ID:       39504_39549
 :END:
 
 * TODO [#A] come up with a better name? just in case of pypi release...
@@ -1495,18 +1524,6 @@ https://bokeh.pydata.org/en/latest/docs/gallery/iris_splom.html
 :CREATED:  [2021-02-12]
 :ID:       cnvrlyctvtydtvsslpdtfrmdffrnttls
 :END:
-* TODO [#B] demo of errors: typical mistake is confuising wlog and weight tags (weight gets unrecognized as exercise) :dashboard:
-:PROPERTIES:
-:CREATED:  [2021-02-18]
-:ID:       dmfrrrstypclmstkscnfsngwlghttgswghtgtsnrcgnzdsxrcs
-:END:
-* TODO [#B] [2021-02-17] [[https://github.com/apache/superset#superset][apache/superset: Apache Superset is a Data Visualization and Data Exploration Platform]] :dashboard:hpi:
-:PROPERTIES:
-:ID:       sgthbcmpchsprstsprstpchspsdtvslztnnddtxplrtnpltfrm
-:END:
-: A modern, enterprise-ready business intelligence web application.
-
-whoa looks interesting...
 * TODO [#B] [2021-02-12] [[https://github.com/grafana/worldmap-panel][grafana/worldmap-panel: Worldmap panel plugin for Grafana 3.0 that can be overlaid with circles for data points.]] :location:dashboard:
 :PROPERTIES:
 :ID:       sgthbcmgrfnwrldmppnlgrfnwhtcnbvrldwthcrclsfrdtpnts
@@ -1521,13 +1538,30 @@ some screenshots
 :CREATED:  [2021-04-11]
 :ID:       cldsmybndrfrdmssmsdbyjpytrlb
 :END:
-* TODO [#B] [2021-04-11] [[https://github.com/LibrePhotos/librephotos][LibrePhotos/librephotos: Self hosted alternative to Google Photos]] :photos:memex:
+* TODO [#C] [2021-04-11] [[https://github.com/LibrePhotos/librephotos][LibrePhotos/librephotos: Self hosted alternative to Google Photos]] :photos:memex:
 :PROPERTIES:
 :ID:       sgthbcmlbrphtslbrphtslbrpphtsslfhstdltrntvtgglphts
 :END:
 
-* TODO [#B] [2021-04-11] [[https://github.com/photoprism/photoprism][photoprism/photoprism: Personal Photo Management powered by Go and Google TensorFlow]] :photos:memex:
+* TODO [#C] [2021-04-11] [[https://github.com/photoprism/photoprism][photoprism/photoprism: Personal Photo Management powered by Go and Google TensorFlow]] :photos:memex:
 :PROPERTIES:
 :ID:       sgthbcmphtprsmphtprsmphtpmngmntpwrdbygndggltnsrflw
 :END:
 looks good -- I guess need to evaluate on the basis of whether I can share it?
+* TODO [#B] [2021-03-05] [[https://blog.kevinlin.info/post/introducing-orion-a-powerful-substitute-for-owntracks-recorder/][Introducing Orion: A Powerful Substitute for OwnTracks Recorder - Blog - Kevin Lin]] :location:HPI:dashboard:
+:PROPERTIES:
+:ID:       sblgkvnlnnfpstntrdcngrnpwtttfrwntrcksrcrdrblgkvnln
+:END:
+: orion-web provides a fast, interactive, React-based data visualization frontend for the web, powered by deck.gl
+
+whoa ok, this is pretty awesome
+* STRT [#B] [2019-09-30] Jupyter notebooks on steroids      :dashboard:ipynb:
+:PROPERTIES:
+:ID:       jpytrntbksnstrds
+:END:
+https://www.slideshare.net/bultako/jupyter-notebooks-on-steroids
+
+** TODO [2019-10-06] try ipywidgets?
+:PROPERTIES:
+:ID:       trypywdgts
+:END:

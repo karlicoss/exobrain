@@ -278,7 +278,7 @@ read all these course notes over again
 :END:
 https://www.bu.edu/tech/support/research/visualization/gallery/lattice-qcd09/
 
-* START [#B] Tweet from Borja Sotomayor (@borjasotomayor), at Apr 2, 12:21 :art:
+* STRT [#B] Tweet from Borja Sotomayor (@borjasotomayor), at Apr 2, 12:21 :art:
 :PROPERTIES:
 :CREATED:  [2019-04-02]
 :ID:       twtfrmbrjstmyrbrjstmyrtpr
@@ -900,7 +900,7 @@ go throught and make sure I understand how I compute things...
 :END:
 : Schrodinger's equation can be derived using symmetry arguments. Specifically, you write out the commutation relations that exist between the generators of the Galilei group and then choose the position representation. What you find is that the generator of time translations has the same form that is usually ascribed to the Hamiltonian. Details can be found, for example, in the third chapter of Ballentine's "Quantum Mechanics: A Modern Development"
 : Schrödingers equation can be derived by using Galilei invariance: "I encourage everyone to learn the derivation of Schrödinger's equation straight from the representation theory of the Galilei group! It's cool. (I think it appears in the books by Mackey and Jauch listed here.)" http://math.ucr.edu/home/baez/symmetries.html -> Page 209 in Josef M. Jauch, Foundations of Quantum Mechanics page V (I.e. chapter 12-5)
-* START [#C] [2019-01-23] Everything about Representation theory of finite groups : math :reprtheory:
+* STRT [#C] [2019-01-23] Everything about Representation theory of finite groups : math :reprtheory:
 :PROPERTIES:
 :ID:       vrythngbtrprsnttnthryffntgrpsmth
 :END:
@@ -1029,11 +1029,11 @@ really read this through and try to understand all the definitions. e.g. coordin
 http://www.math.lsa.umich.edu/~idolga/lecturenotes.html
 shit.. some interesting mathematical details about metric from the very beginning
 
-* START [#C] [2019-01-23] Charts on SO(3) - Wikipedia
+* STRT [#C] [2019-01-23] Charts on SO(3) - Wikipedia
 :PROPERTIES:
 :ID:       chrtsnswkpd
 :END:
-- State "START"      from              [2019-04-24]
+- State "STRT"      from              [2019-04-24]
 https://en.wikipedia.org/wiki/Charts_on_SO(3)#The_hypersphere_of_rotations
 ** [2019-04-24] shit.
 :PROPERTIES:
@@ -1081,11 +1081,11 @@ http://math.ucr.edu/home/baez/qg-fall2008/
 :END:
 https://twitter.com/lisyarus/status/1101517866250186752
 
-* START [#C] [2018-11-10] User ACuriousMind - Physics Stack Exchange
+* STRT [#C] [2018-11-10] User ACuriousMind - Physics Stack Exchange
 :PROPERTIES:
 :ID:       srcrsmndphyscsstckxchng
 :END:
-- State "START"      from              [2019-04-24]
+- State "STRT"      from              [2019-04-24]
 https://physics.stackexchange.com/users/50583/acuriousmind
 ** TODO [2019-04-24] https://physics.stackexchange.com/users/50583/acuriousmind?tab=questions&sort=votes
 :PROPERTIES:
@@ -1128,7 +1128,7 @@ https://physics.stackexchange.com/questions/229200/functional-derivative-of-acti
 :END:
 https://physics.stackexchange.com/questions/8441/what-is-a-complete-book-for-introductory-quantum-field-theory
 : Mark Srednicki, Quantum Field Theory. I really like the organisation and design of the book, which consists of around a hundred of short and essentially self-contained chapters that introduce a single topic, discuss it in the necessary level of detail, and move on to the next topic.
-* START [#C] [2019-02-26] Is there a reason why a relativistic quantum theory of a single fermion exists, but of a single scalar not? - Physics Stack Exchange
+* STRT [#C] [2019-02-26] Is there a reason why a relativistic quantum theory of a single fermion exists, but of a single scalar not? - Physics Stack Exchange
 :PROPERTIES:
 :ID:       sthrrsnwhyrltvstcqntmthrysnglsclrntphyscsstckxchng
 :END:
@@ -1188,11 +1188,11 @@ https://fliptomato.wordpress.com/2006/12/30/from-griffiths-to-peskin-a-lit-revie
 https://physics.stackexchange.com/questions/333736/why-do-we-select-the-metric-tensor-for-raising-and-lowering-indices
 : If your manifold is guaranteed to carry other non-degenerate 2-tensors, then you may use those as well to raise and lower indices (though the meaning is different from that of raising and lowering with the metric). This is the case, for instance, if your manifold is symplectic (i.e. carries a closed, non-degenerate 2-form ωω).
 
-* START [#C] https://math.stackexchange.com/questions/36683/math-and-music-theory-books :musictheory:
+* STRT [#C] https://math.stackexchange.com/questions/36683/math-and-music-theory-books :musictheory:
 :PROPERTIES:
 :ID:       smthstckxchngcmqstnsmthndmscthrybks
 :END:
-- State "START"      from "TODO"       [2019-02-21]
+- State "STRT"      from "TODO"       [2019-02-21]
 
 * [#C] The Reference Frame: Why are there spinors?                   :spinor:
 :PROPERTIES:
@@ -1379,7 +1379,7 @@ from [[https://www.instapaper.com/read/1193269751/10712031][ip]]   [[https://www
 :ID:       slwlystrtlrnngpsspcdrpttn
 :END:
 
-* START [#C] Sight reading on computer keyboard                       :piano:
+* STRT [#C] Sight reading on computer keyboard                        :piano:
 :PROPERTIES:
 :CREATED:  [2019-05-18]
 :ID:       sghtrdngncmptrkybrd
@@ -1491,7 +1491,7 @@ https://johncarlosbaez.wordpress.com/2019/02/25/problems-with-the-standard-model
 
 https://twitter.com/EricAleman_/status/1139102125039005696
 
-* START [#C] What happens if we don't postulate speed of light limit?
+* STRT [#C] What happens if we don't postulate speed of light limit?
 :PROPERTIES:
 :CREATED:  [2019-06-16]
 :ID:       whthppnsfwdntpstltspdflghtlmt
@@ -3659,7 +3659,7 @@ https://t.co/44YfxUYhsh
 
 * ---------------------------------------
 :PROPERTIES:
-:ID:       190249_190322
+:ID:       190233_190306
 :END:
 processing on [2021-01-31]
 * TODO [#C] Tweet from @mekarpeles                                  :chinese:
@@ -3689,7 +3689,7 @@ https://twitter.com/nmwsharp/status/1153993638134910977
 
 * ----------------------------------------------
 :PROPERTIES:
-:ID:       191308_191357
+:ID:       191292_191341
 :END:
 * TODO [#C] [2021-01-22] [[http://bach.ai/pub/ECAP10%20Joscha%20Bach%20on%20AI%20singularity.pdf][ECAP10 Joscha Bach on AI singularity.pdf]]
 :PROPERTIES:
@@ -3729,4 +3729,9 @@ https://twitter.com/nmwsharp/status/1153993638134910977
 * TODO [#C] [2021-03-17] [[https://johncarlosbaez.wordpress.com/2021/03/16/mathematics-in-the-21st-century-2/][Mathematics in the 21st Century | Azimuth]] :towatch:
 :PROPERTIES:
 :ID:       sjhncrlsbzwrdprsscmmthmtcntrymthmtcsnthstcntryzmth
+:END:
+
+* TODO [#C] [2021-04-18] [[https://johncarlosbaez.wordpress.com/2021/04/14/black-dwarf-supernovae/][Black Dwarf Supernovae | Azimuth]]
+:PROPERTIES:
+:ID:       sjhncrlsbzwrdprsscmblckdwrfsprnvblckdwrfsprnvzmth
 :END:

@@ -35,7 +35,7 @@ I guess look up random topics and write down. Otherwise you tend to forget
 :ID:       ndtrdsmbkrsrchnrddthwtcmpsmwyfqcklybrtfrcndsynthss
 :END:
 
-* START [#B] Make a mind map/ timeline of all the different projects I'm doing, it could look very cool :toblog:
+* STRT [#B] Make a mind map/ timeline of all the different projects I'm doing, it could look very cool :toblog:
 :PROPERTIES:
 :CREATED:  [2019-09-02]
 :ID:       mkmndmptmlnfllthdffrntprjctsmdngtcldlkvrycl
@@ -434,13 +434,13 @@ there is stuff to build and solve
 :END:
 ** [2020-12-16] .
 :PROPERTIES:
-:ID:       20586_20748
+:ID:       20584_20746
 :END:
 Dunno wtf? I kinda chilled all day, barely worked, cooked etc
 And yet I feel kinda sleepy, eyes really tired etc. The fuck is this??
 ** [2020-12-19] .
 :PROPERTIES:
-:ID:       20748_20933
+:ID:       20746_20931
 :END:
 Spent all day kinda procrastinating.. I definitely don't seem to know how to relax
 I guess in normal circumstances I could have gone bouldering or something
@@ -531,12 +531,11 @@ If I encounter some problem in the software I use on daily basis and I can't goo
 :ID:       strtwrttngdwnntsnllthvrssbjctspssblythnkbt
 :END:
 nature environment family, sex, etc etc
-* TODO [#B] [2019-12-17] (1) Riva on Twitter: "https://t.co/KmepHS39Ai" / Twitter
+* [#B] [2019-12-17] [[https://twitter.com/rivatez/status/1207066466304045056][Riva on Twitter]]
 :PROPERTIES:
-:ID:       rvntwttrstckmphstwttr
+:ID:       stwttrcmrvtzsttsrvntwttr
 :END:
-https://twitter.com/rivatez/status/1207066466304045056
-I'm 100% down for this plan. I *have* to be here when we meet aliens for the first time, develop interstellar travel, start exploring other galaxies, and eventually discover the meaning of life.
+: I'm 100% down for this plan. I *have* to be here when we meet aliens for the first time, develop interstellar travel, start exploring other galaxies, and eventually discover the meaning of life.
 * [#C] [2019-05-28] Tweet from Arula Ratnakar (@arula_artwork), at May 28, 12:00
 :PROPERTIES:
 :ID:       twtfrmrlrtnkrrlrtwrktmy

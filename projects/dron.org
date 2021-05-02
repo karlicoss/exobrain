@@ -207,7 +207,7 @@ nope, just a completely custom scheduler, definitely not ideal
 :ID:       8567_8610
 :END:
 
-* TODO [#A] a perspective a year later?                                :dron:
+* TODO [#B] a perspective a year later?                                :dron:
 :PROPERTIES:
 :CREATED:  [2021-03-13]
 :ID:       prspctvyrltr
@@ -315,3 +315,9 @@ what to improve:
 :CREATED:  [2021-02-08]
 :ID:       ftrfrnxtfthdtstdyhdt
 :END:
+* TODO [#B] [2021-04-18] [[https://github.com/karlicoss/dron/issues/16][[QUESTION] Why is `systemd-email` so complex ? · Issue 16 · karlicoss/dron]] :dron:
+:PROPERTIES:
+:ID:       sgthbcmkrlcssdrnsssqstnwhsystmdmlscmplxsskrlcssdrn
+:END:
+: Hi ! I'm reading your sources with great interest, and i came out to systemd-email, and it looks like to me that the same output can be achieved with this single command: systemctl --user status myFailingUnit.service --lines 99999 -o cat
+: Is it really equivalent ?
