@@ -175,3 +175,10 @@ https://github.com/bbatsov/emacs-lisp-style-guide
 :END:
 I mean.. ok, but nothing super remarkable idk?
 should do a similar demo in python, for example
+* [2021-02-08] [[https://twitter.com/messages/119756204-2284319366][type -a nathan | awk 'END{print}' / Twitter]] :elisp:
+:PROPERTIES:
+:ID:       stwttrcmmssgstypnthnwkndprnttwttr
+:END:
+: (elt "arst" 2)
+
+nth element of string

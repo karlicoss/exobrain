@@ -1,0 +1,49 @@
+#+TITLE: "Programming the Universe" by Seth Lloyd
+#+filetags: :quantum:
+
+A Quantum Computer Scientist Takes on the Cosmos
+
+(notes from Kindle)
+
+* Highlight on Page 14 | Added on Saturday, July 20, 2013 9:03:06 PM
+:PROPERTIES:
+:ID:       hghlghtnpgdddnstrdyjlypm
+:END:
+** TODO Information and Entropy MIT course
+:PROPERTIES:
+:ID:       nfrmtnndntrpymtcrs
+:END:
+* DONE Highlight on Page 26 | Added on Sunday, July 21, 2013 4:46:22 AM
+:PROPERTIES:
+:ID:       hghlghtnpgdddnsndyjlym
+:END:
+: Stonehenge may well have been a big rock computer for calculating the relations between the calendar and the arrangement of the planets
+* DONE Highlight on Page 30 | Added on Sunday, July 21, 2013 1:20:58 PM
+:PROPERTIES:
+:ID:       hghlghtnpgdddnsndyjlypm
+:END:
+: One counterintuitive result of a computer’s fundamentally logical operation is that its future behavior is intrinsically unpredictable. The only way to find out what a computer will do once it has embarked upon a computation is to wait and see what happens
+* DONE Highlight on Page 46 | Added on Sunday, July 21, 2013 2:35:08 PM
+:PROPERTIES:
+:ID:       hghlghtnpgdddnsndyjlypm
+:END:
+: But despite their simplicity, they can be programmed to produce patterns of any desired complexity, and the programs that produce these patterns need not possess any apparent order themselves: they can be random sequences of bits.
+: The generation of random bits does play a key role in the establishment of order in the universe, just not as directly as Boltzmann imagined
+* STRT Bookmark on Page 56 | Added on Friday, July 26, 2013 10:44:19 AM
+:PROPERTIES:
+:ID:       bkmrknpgdddnfrdyjlym
+:END:
+: Bookmark on Page 59 | Added on Friday, July 26, 2013 9:54:16 PM
+** useful explanation of macro and micro states, entropy
+:PROPERTIES:
+:ID:       sflxplntnfmcrndmcrsttsntrpy
+:END:
+- different observers assign different value for entropy
+- total amount of information is invariant though
+- the spread of ignorance is reversible (control-not example)
+- spread of ignorance is mutual information
+* STRT Bookmark on Page 69 | Added on Tuesday, August 6, 2013 10:19:41 PM
+:PROPERTIES:
+:ID:       bkmrknpgdddntsdygstpm
+:END:
+Halting problem applies to gas of atoms (raytracing too)

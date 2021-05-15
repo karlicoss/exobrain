@@ -183,3 +183,14 @@ model for dev relations?
 :END:
 : Hi, yes looks like we do have similar goals! Thanks for letting me know, please give me a few days to read and digest what you've written :)
 : And as I found you're in London from your website (I recognise you from lobsters!) let's get a pint next time it's legal
+* TODO [#C] [2021-03-20] [[https://twitter.com/davidgasquez/status/1233037010006396928][David Gasquez on Twitter: "Spent the last couple of weeks running a script that grabbed the connections between people I follow. Each node represents someone I follow and is connected to their followings. 🌐 Using @graphext I was able to cluster and get this visualization. https://t.co/Impx7OEoo2 https://t.co/nF2ftSGkle" / Twitter]] :twitter:social:
+:PROPERTIES:
+:ID:       stwttrcmdvdgsqzsttsdvdgsqztnstcmpxstcnfftsgkltwttr
+:END:
+: pent the last couple of weeks running a script that grabbed the connections between people I follow. Each node represents someone I follow and is connected to their followings.
+: Globe with meridians
+: Using @graphext
+:  I was able to cluster and get this visualization.
+: https://public.graphext.com/74ea9642348acace/index.html
+
+nice.. would be cool to do similar

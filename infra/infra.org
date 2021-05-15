@@ -953,3 +953,61 @@ ok, really good guide
 : HOW DO I RENAME/MOVE A SYNCED FOLDER?An alternative way is to shut down Syncthing, move the folder on disk (including the .stfolder marker), edit the path directly in config.xml in the configuration folder (see config) and then start Syncthing again.
 
 ok this works great
+* [#C] testing LAN bandwidth                                        :network:
+:PROPERTIES:
+:ID:       tstnglnbndwdth
+:END:
+: sudo apt install iperf
+: iperf -s on server
+: iperf -c ip on client
+
+
+* [#C] scan interfaces to see which speeds are supported            :network:
+:PROPERTIES:
+:ID:       scnntrfcstswhchspdsrspprtd
+:END:
+: iwlist wlp3s0 scanning | less
+
+* TODO [#D] [2018-11-09] b0o/surfingkeys-conf: A custom SurfingKeys configuration which adds some nice features :setup:vim:
+:PROPERTIES:
+:ID:       bsrfngkyscnfcstmsrfngkyscnfgrtnwhchddssmncftrs
+:END:
+https://github.com/b0o/surfingkeys-conf
+
+* [#C] [2020-12-01] [[https://news.ycombinator.com/item?id=25264752][You have probably tried it in 4.0 days. Plasma 5 is nowadays actually one of th... | Hacker News]] :kde:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdyhvprbblylsmsnwdysctllynfthhckrnws
+:END:
+: You have probably tried it in 4.0 days. Plasma 5 is nowadays actually one of the lightweight ones and it is very fast. Especially when you consider how many features/flexibility it has compared to other lightweight desktops.
+
+- [2021-05-08] ok it actually is surprisingly snappy even with all the animations etc
+* [#C] [2021-05-14] [[https://news.ycombinator.com/item?id=27151154][It does not support [0] (i.e. loses) extended attributes even between systems th... | Hacker News]] :syncthing:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdtdsntspprrbtsvnbtwnsystmsthhckrnws
+:END:
+: It does not support [0] (i.e. loses) extended attributes even between systems that share support for them, which in the case of macOS means no support for Finder tags, custom icons, legacy Mac fonts and countless other Mac features, maybe niche to most, but still important to those that make use of them. AFAIK it is not even in the roadmap.
+* [#B] [2021-01-21] [[https://news.ycombinator.com/item?id=25863006][I can't recommend Jellyfin enough. It works remarkably well! https://jellyfin.o... | Hacker News]] :infra:media:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdcntrcmmndsrmrkblywllsjllyfnhckrnws
+:END:
+: I can't recommend Jellyfin enough. It works remarkably well!
+: https://jellyfin.org
+* [#C] [2019-06-01] crontabs are present in =/var/spool/cron/crontabs/$USER= however for some reason user doesn't have permissions to read them and :infra:config:
+:PROPERTIES:
+:ID:       crntbsrprsntnvrsplcrncrntsnsrdsnthvprmssnstrdthmnd
+:END:
+for crontab it contains some non-printable characters as well. also for dconf and gconf there are no config files even, they are all binary
+so overall easier to have a virtual 'view' onto these configs
+* [#C] [2020-06-30] [[https://news.ycombinator.com/item?id=23487178][Pyinfra – automate infrastructure super fast at scale | Hacker News]] :configs:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdpynfrtmtnfrstrctrsprfsttsclhckrnws
+:END:
+: Ansible is a great system, with a terrible DSL.
+: YAML is not a programming language, and deployment is not a toy task. You need power.
+: The result is that ansible has pushed a markup language to its limit, then pushed the templating engine used in it to its limit too. Then used a bunch of duck tape + conventions to glue everything and ended up with 10% of an unclean verbose unexpressive real programming language with ridiculous limited tooling, testability and had to document + support it.
+: As with most DSL.
+: For what? For the quest of having something "declarative", and that any language could read.
+: Well you can have declarative API written in any language, and nobody except ansible ever read playbooks.
+: In the end, it's just a big weight at the ankle. I never ever used it and though, "damn, what a pleasant tech choice, I'm happy they didn't directly expose the API through Python".
+: It's the same reason I use "nox" and not "tox", or "doit" and not "make". DSL really seem like a great idea, but they fail most of the time. There is a reason only few of them - like SQL, CSS or regex patterns - became a success. 99% of the time, what you need is a good lib, with a well designed API. For the 0.9% of the time you do need multi-language communication, you may implement RPC. Then, only for the 0.01% case should you really consider a DSL.
+: But we geek love to create DSL. They are fun to write! They are so elegant in tutorials!

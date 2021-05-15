@@ -251,3 +251,15 @@ huh, apparently UV protective pigments are also inside the cells, around nucleus
 :ID:       stwttrcmpwrdnsbrtsttsbrthprttysflstcgtvwhjqzmtwttr
 :END:
 : Some people asked if I knew of a quick intro to molecular biology. While you have to realize this is a somewhat bold question, this  https://bioinformatics.nl/courses/BioSB-AfBN/prep/Molecular%20biology%20primer.pdf by Alexander Zien looks pretty useful.
+* TODO [#C] [2021-05-09] [[https://twitter.com/voidlizard/status/1391328989067755520][Dmitry Zuikov on Twitter: "@karlicoss Наука воскрешения видов. Как клонировать мамонта. Б. Шапиро Хорошо, без воды, дешевого эпатажа и повестки." / Twitter]] :toread:biology:
+:PROPERTIES:
+:ID:       stwttrcmvdlzrdsttsdmtryzkвогоэпатажаиповесткиtwttr
+:END:
+: Наука воскрешения видов. Как клонировать мамонта. Б. Шапиро
+: Хорошо, без воды, дешевого эпатажа и повестки.
+* [#C] [2021-05-08] [[https://www.youtube.com/watch?v=RMV130vU8gA][Endocrinology | Receptor Pathways - YouTube]] :biology:
+:PROPERTIES:
+:ID:       swwwytbcmwtchvrmvvgndcrnlgyrcptrpthwysytb
+:END:
+hm so some hormones are water soluble. and then they need to bind to a receptor (like oxytocin)
+some are fat soluble and they pass right through the cell wall (like testosterone)

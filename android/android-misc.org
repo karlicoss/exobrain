@@ -101,3 +101,13 @@ https://github.com/seedvault-app/seedvault
 : apt install tsu
 
 ok, this seems super useful
+* [#C] [2021-05-06] [[https://tasker.helprace.com/i21-improved-error-handling-and-reporting][improved error handling and reporting | Tasker Feature Requests]] :tasker:
+:PROPERTIES:
+:ID:       stskrhlprccmmprvdrrrhndlnndlngndrprtngtskrftrrqsts
+:END:
+shit... seems that error handling isn't present
+* [#B] [2021-05-08] [[https://www.reddit.com/r/androiddev/comments/kpn68k/android_11_very_slow_file_access_performance/][Android 11 very slow file access performance. : androiddev]] :android:
+:PROPERTIES:
+:ID:       swwwrddtcmrndrddvcmmntskpvryslwflccssprfrmncndrddv
+:END:
+why android sucks: they are ruining the filesystem

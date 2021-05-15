@@ -1,5 +1,16 @@
-#+TITLE: Book log
+#+TITLE: 📜 Book log
 #+logseq_graph: false
+
+Lately, I've been mostly tracking what I've read on [[https://www.goodreads.com/user/show/22191391-dima-gerasimov][goodreads]], sometimes I leave reviews there too.
+
+Here I keep some older notes & some clippings from Kindle... I'm still in the process of trying to publish clippings & highlights.
+
+You might also be interested in my [[file:../toread.org][reading list]].
+
+* [#C] [2019-02-13] BLIT - a short story by David Langford http://www.infinityplus.co.uk/stories/blit.htm :mind:godel:
+:PROPERTIES:
+:ID:       bltshrtstrybydvdlngfrdwwwnfntyplsckstrsblthtm
+:END:
 
 * DONE https://www.blinkist.com/en/books/moonwalking-with-einstein-en :memory:
 :PROPERTIES:
@@ -7,8 +18,6 @@
 :END:
 - phonological loop
 - So the next time you need to learn a new name, make an association between the sound of the person’s name and a vivid image. For instance, Ronald Reagan could become Donald Duck (Donald sounds like Ronald) holding a Ray Gun (Reagan).
-
-
 
 * DONE [#C] [2018-06-15] Inadequate Equilibria: Where and How Civilizations Get Stuck
 :PROPERTIES:
@@ -28,11 +37,6 @@ about Earth ecological control and guy who wanted biodiversity
 :ID:       лемзагадка
 :END:
 Quite primitive, no punchline. Robot names & stuff is a bit corny.
-* [#C] [2019-02-13] BLIT - a short story by David Langford http://www.infinityplus.co.uk/stories/blit.htm :mind:godel:
-:PROPERTIES:
-:ID:       bltshrtstrybydvdlngfrdwwwnfntyplsckstrsblthtm
-:END:
-
 * [2019-04-08] Шекли прогулка                                      :mds:book:
 :PROPERTIES:
 :ID:       шеклипрогулка

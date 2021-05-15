@@ -3117,3 +3117,8 @@ someone from Matrix nyxt suggested it's similar?
 :PROPERTIES:
 :ID:       sngrrgprmnshwtgrprmnshwt
 :END:
+* TODO [#D] hm. "Mark visited" reads as "Mark as visited"? Maybe "Show visited"? Or "Reveal visited"? :promnesia:
+:PROPERTIES:
+:CREATED:  [2020-04-29]
+:ID:       hmmrkvstdrdssmrksvstdmybshwvstdrrvlvstd
+:END:

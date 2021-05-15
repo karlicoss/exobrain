@@ -107,3 +107,10 @@ kinda makes sense since when you restore you don't want to overwrite...
 :END:
 https://github.com/albertz/wiki/issues/1
 my comments here
+* TODO [#C] conforms to the 'notify once' pattern?            :backupchecker:
+:PROPERTIES:
+:CREATED:  [2021-02-09]
+:ID:       cnfrmstthntfyncpttrn
+:END:
+i.e. on the same error I only want to recieve an email once?
+ideally threads should do. eh

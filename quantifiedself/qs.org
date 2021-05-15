@@ -296,3 +296,27 @@ https://redd.it/lxc8gq
 :  a soft specification/schema of how to format and organize your personal data
 :  suggested tools for storing your data
 :  scripts and configuration files for deploying those tools
+
+
+* TODO [#B] [2021-05-04] [[https://github.com/gianlucatruda/quantified-sleep][gianlucatruda/quantified-sleep: Quantified Sleep: Machine learning techniques for observational n-of-1 studies.]] :sleep:qs:
+:PROPERTIES:
+:ID:       sgthbcmgnlctrdqntfdslpgnlrnngtchnqsfrbsrvtnlnfstds
+:END:
+looks good
+* [#C] [2019-10-30] SwitchBot Smart Switch Button Pusher - no Wiring, Wireless app or Timer Control, add SwitchBot Hub Compatible with Alexa, Google Home, Siri, IFTTT: Amazon.co.uk: DIY & Tools https://www.amazon.co.uk/SwitchBot-Smart-Switch-Button-Pusher/dp/B07B4D9KVX
+:PROPERTIES:
+:ID:       swtchbtsmrtswtchbttnpshrnsmrtswtchbttnpshrdpbbdkvx
+:END:
+: SwitchBot Smart Switch Button Pusher
+
+* TODO [#C] [2021-05-05] [[https://news.ycombinator.com/item?id=27050072][TimescaleDB raises $40M | Hacker News]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdtmscldbrssmhckrnws
+:END:
+: I wouldn't choose InfluxDB over TimescaleDB. There's a reasonably balanced comparison here from the Timescale guys: https://blog.timescale.com/blog/timescaledb-vs-influxdb-for-...
+: The benchmarks are interesting, showing TimescaleDB to be the clear winner in most scenarios.
+: For me that's nice, but it's a bigger deal to me personally that I already have Postgres and SQL experience that translates directly to TimescaleDB, I don't have to learn a new tool and query language. Development is complex enough and I have to learn too many things as it is. The older I get the less enthusiastic I am about adding something new to the stack.
+* TODO [#C] [2021-05-04] [[https://blog.timescale.com/blog/timescaledb-vs-influxdb-for-time-series-data-timescale-influx-sql-nosql-36489299877/][TimescaleDB vs. InfluxDB: Purpose-built for time-series data]] :influxdb:qs:
+:PROPERTIES:
+:ID:       sblgtmsclcmblgtmscldbvsnfbvsnflxdbprpsbltfrtmsrsdt
+:END:

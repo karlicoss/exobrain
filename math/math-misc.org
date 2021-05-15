@@ -678,3 +678,9 @@ https://stats.stackexchange.com/questions/31867/bayesian-vs-frequentist-interpre
 
 https://www.reddit.com/r/statistics/comments/ywrba/eli5_bayesian_statistics/
 :  Bayesian statistics rely more on computational simulations and have become more common because computers have become much faster. A lot of people are put off by the fact that you incorporate prior believes into your estimate of the "truth", but you can use non-informative (vague) priors like in the example above (each possible outcome gets equal probability) and in any case with a lot of data your priors will become less important.
+
+* TODO [#C] [2021-04-18] [[https://xenaproject.wordpress.com/2021/04/18/induction-on-equality/][Induction on equality | Xena]] :lean:
+:PROPERTIES:
+:ID:       sxnprjctwrdprsscmndctnnqltyndctnnqltyxn
+:END:
+: Copy and paste the code at the other end of that link into VS Code if you have Lean installed locally if you want a much speedier experience. The game is to prove symm and trans from refl and ind. I would work out the maths proofs first.

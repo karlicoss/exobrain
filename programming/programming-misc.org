@@ -1872,3 +1872,20 @@ https://github.com/willmcgugan/rich
 :PROPERTIES:
 :ID:       scmpttnlthnkngmtdsprngntrdctntcmpttnlthnkng
 :END:
+* TODO [#C] using Heroku for deploying and demos?
+:PROPERTIES:
+:CREATED:  [2020-02-02]
+:ID:       snghrkfrdplyngnddms
+:END:
+: Approaching version 1.0 of Meetable, my open source events ... • Aaron Parecki
+: Today I worked on streamlining the installation process for Heroku, and it’s now installable in under 5 minutes, no command line required! Try it out! meetable.org
+
+* [#D] [2020-02-19] Questions you can ask about compensation - Julia Evans https://jvns.ca/blog/compensation-questions/ :job:
+:PROPERTIES:
+:ID:       qstnsycnskbtcmpnstnjlvnssjvnscblgcmpnstnqstns
+:END:
+* TODO [#C] [2021-05-04] [[https://twitter.com/simonw/status/1388933092216164352][Simon Willison on Twitter: ""Hosting SQLite databases on Github Pages" is absolutely brilliant: it adds a virtual filesystem to SQLite-compiled-to-WebAssembly in order to fetch pages from the database using HTTP range requests https://t.co/hs6X96LABZ" / Twitter]] :sqlite:
+:PROPERTIES:
+:ID:       stwttrcmsmnwsttssmnwllsnnsngrngrqstsstchsxlbztwttr
+:END:
+: "Hosting SQLite databases on Github Pages" is absolutely brilliant: it adds a virtual filesystem to SQLite-compiled-to-WebAssembly in order to fetch pages from the database using HTTP range requests https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/

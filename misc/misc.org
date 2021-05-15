@@ -2918,3 +2918,110 @@ don't think I liked this one? typical bitcoin dude with "store of value" etc
 :PROPERTIES:
 :ID:       swkrchlnxrgndxphpxdgbsdrctryxdgbsdrctryrchwk
 :END:
+* [2020-09-17] Transpotting 1 -- why it's good                        :movie:
+:PROPERTIES:
+:ID:       trnspttngwhytsgd
+:END:
+- music:
+  - Lust for life
+  - music during Rent coming off heroin
+  - 'Atomic' (also Diane in the scene exactly when the music starts)
+  - music at the end flows into the closing 'choose life' dialog really smoothly
+- filming
+  - switching between characters (night club scene)
+  - abbey road shot
+  - the moment when franco glasses a guy who spilled a drink on him
+- plot
+  - random things like Begbie throwing glass
+- surreal stuff
+  - Rent diving for suppositories
+  - Rent hallucinating
+- funny
+  - suppositories
+** TODO [2021-01-22] spoiler tag maybe?
+:PROPERTIES:
+:ID:       splrtgmyb
+:END:
+* [2020-09-16] transpotting 2 -- why it's good                        :movie:
+:PROPERTIES:
+:ID:       trnspttngwhytsgd
+:END:
+- music
+  - blends very smoothly and feels very appropriate to the situation
+  - for example, slow slippy in the beginning
+  - generally great
+- similar with visuals
+  - for example the scene when they are about to shoot up (commemorating Tommy). Especially the train visual -- brilliant
+  - or Netherlands in the beginning
+  - Mark climbing up the stairs (and numbers on the buliding wall)
+  - Spud falling and Mark catching him
+- begins and ends with lust for life
+- references to the original movie aren't cheesy. sort of nice flashbacks
+  - 'Choose Life' dialogue
+  - e.g. mark leaning agains the front of the car
+  - spud on the street after boxing
+  - and the end with Renton dancing (also good visual)
+- camera work
+  - Mark/Begbie toilet scene
+  - frozen shots: when Mark and Simon fight, at the end when Begbie is banging against the car
+  - scene with pegging in the beginning (+ music!)
+  - shadow of Renton's mother
+- random funny moments
+  - british summer time
+  - 1690 bar
+  - naked running
+* DONE [#B] [2021-02-16] Tweet from @chercher_ai https://twitter.com/chercher_ai/status/1361623713339363333 twitter ecology :twitter:viz:
+:PROPERTIES:
+:ID:       twtfrmchrchrstwttrcmchrchrsttstwttrclgy
+:END:
+: @chercher_ai: A Twitter Ecology 2.0
+
+http://life.cherch.org/hoods/twitter-ecology-words.pdf
+
+* TODO [#C] disable left shift?                                      :typing:
+:PROPERTIES:
+:CREATED:  [2019-08-28]
+:ID:       dsbllftshft
+:END:
+* [#C] [2020-02-27] Unwalled.Garden | An open protocol for building social Web applications. https://unwalled.garden/
+:PROPERTIES:
+:ID:       nwlldgrdnnpnprtclfrbldngsclwbpplctnssnwlldgrdn
+:END:
+: import {posts, follows} from 'dat://unwalled.garden/index.js'
+: await follows.add('dat://beakerbrowser.com')
+: await posts.add('Hello, world!')
+* TODO [#C] [2021-05-14] [[https://github.com/zulip/zulip-terminal#zulip-terminal---zulips-official-terminal-client][zulip/zulip-terminal: The official terminal client for Zulip]] :zulip:cli:
+:PROPERTIES:
+:ID:       sgthbcmzlpzlptrmnlzlptrmntrmnlthffcltrmnlclntfrzlp
+:END:
+* TODO [#C] [2021-05-13] [[https://futureoflife.org/2021/03/31/joscha-bach-and-anthony-aguirre-on-digital-physics-and-moving-towards-beneficial-futures/][Joscha Bach and Anthony Aguirre on Digital Physics and Moving Towards Beneficial Futures - Future of Life Institute]] :tolisten:
+:PROPERTIES:
+:ID:       sftrflfrgjschbchndnthnygrtwrdsbnfclftrsftrflfnsttt
+:END:
+* [#C] [2021-05-06] [[https://www.ipachart.com/][IPA Chart]]       :language:
+:PROPERTIES:
+:ID:       swwwpchrtcmpchrt
+:END:
+* TODO [#D] Tweet from Некстджен и Усиление (@turbojedi), at Nov 8, 18:16 https://twitter.com/turbojedi/status/1192868547015434240
+:PROPERTIES:
+:CREATED:  [2019-11-08]
+:ID:       twtfrmнекстджениусилениеtrbjdtnvstwttrcmtrbjdstts
+:END:
+: Пока что от вселенной в Death Stranding какое-то стойкое ощущение книжных Стругацких. Особенно Гадких Лебедей и Града Обреченного.
+: Мне почему-то не пришла в голову эта аналогия, но полностью согласен. https://t.co/lxNATbuXLg
+
+* TODO [#C] [2021-05-14] [[https://lobste.rs/s/uhrh3e/what_other_hobbyist_small_devices_are_out][What other hobbyist "small devices" are out there other than the RPi? | Lobsters]]
+:PROPERTIES:
+:ID:       slbstrsshrhwhtthrhbbystsmdvcsrtthrthrthnthrplbstrs
+:END:
+* TODO [#C] [2021-05-04] [[https://github.com/orbitdb/orbit-db#orbitdb][orbitdb/orbit-db: Peer-to-Peer Databases for the Decentralized Web]]
+:PROPERTIES:
+:ID:       sgthbcmrbtdbrbtdbrbtdbrbtbprtprdtbssfrthdcntrlzdwb
+:END:
+: OrbitDB is a serverless, distributed, peer-to-peer database. OrbitDB uses IPFS as its data storage and IPFS Pubsub to automatically sync databases with peers.
+* [#B] [2021-05-04] lifelogging motivation: [[https://www.reddit.com/r/Lifelogging/comments/mvaer7/timelapse_life_logging_trying_to_figure_out_a/][Timelapse Life Logging - trying to figure out a setup : Lifelogging]] :lifelogging:
+:PROPERTIES:
+:ID:       lflggngmtvtnswwwrddtcmrlflggngtryngtfgrtstplflggng
+:END:
+: I think I have similar goals to anyone else here. I'm particularly interested in memory and creating a system of memories that I can search through by date or event. I'm curious to try using tools to analyze my images to determine which ones are the most interesting.
+: The more I think about it, the more important it feels to get started now. I don't have the same memory retention as everyone else. All of these photos of myself sitting here feel worthless right now, but they could be invaluable to me a decade from now. Maybe later on I'll be able to scan my data and be able to determine who is in which photos, or who was speaking to me on which days. I could capture my baby's first word and my reaction to it, and then capture the reaction we both have when I show it to her when she's old enough to appreciate it.

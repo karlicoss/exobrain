@@ -135,3 +135,23 @@ listened some music, used phone a bit but not much since basically at home
 :ID:       sgthbcmgrttrnsprtrgrttrnsrnsprtssstntwthtdsrtrckng
 :END:
 hmm doesn't really work in londong?
+
+* TODO [#A] [2021-05-09] [[https://android.stackexchange.com/questions/197959/why-partition-gets-unmounted-automatically-after-some-time][sd card - Why partition gets unmounted automatically after some time? - Android Enthusiasts Stack Exchange]] :android:
+:PROPERTIES:
+:ID:       sndrdstckxchngcmqstnswhyprsmtmndrdnthsstsstckxchng
+:END:
+: Go to Magisk Settings and set Mount Namespace Mode to Global once for all. In SuperSU app, disable Mount Namespace Separation.
+: OR
+: For one time solution, use this command instead:
+: ~$ su -mm -c 'mount <device> <mountpoint>'
+
+bind mounts
+* [#A] [2021-05-06] [[https://github.com/topjohnwu/Magisk/blob/master/docs/guides.md#boot-scripts][Magisk/guides.md at master · topjohnwu/Magisk]] :magisk:android:
+:PROPERTIES:
+:ID:       sgthbcmtpjhnwmgskblbmstrdsmgskgdsmdtmstrtpjhnwmgsk
+:END:
+
+* [#C] [2021-05-06] [[https://android.stackexchange.com/questions/213353/how-to-run-an-executable-on-boot-and-keep-it-running][root access - How to run an executable on boot and keep it running? - Android Enthusiasts Stack Exchange]]
+:PROPERTIES:
+:ID:       sndrdstckxchngcmqstnshwtrrnnngndrdnthsstsstckxchng
+:END:

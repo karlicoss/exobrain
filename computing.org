@@ -734,3 +734,30 @@ wasn't so engaging, mostly about project management
 : Even Firefox dropped it's built-in RSS support by now, so for the current September generation, this is meaningless, unfortunately. Still, as infrastructure, it's very important, because it's simple to transform RSS into other formats: JSON feed, h-feed[^1], etc.
 : As for how to "follow" (I'd prefer to use subscribe instead) a personal site these days, it's a hard problem, reasonably well documented here: https://indieweb.org/follow
 : There is a current effort, called microsub[^2] to tackle the problem, but it's new, and is not user friendly enough at all.
+* [#B] [2021-02-10] [[https://xanadu.com.au/ted/TN/WRITINGS/TCOMPARADIGM/tedCompOneLiners.html][Ted's ComParadigm in OneLiners]] :tednelson:
+:PROPERTIES:
+:ID:       sxndcmtdtnwrtngstcmprdgmtnlnrshtmltdscmprdgmnnlnrs
+:END:
+: In 1974, computers were oppressive devices
+: in far-off airconditioned places.
+: Now you can be oppressed by computers in your own living room.
+
+this aged well
+* [#D] [2021-05-13] [[https://tube.switch.ch/videos/xUWS3kPZmN][A bit of Smalltalk]] :smalltalk:
+:PROPERTIES:
+:ID:       stbswtchchvdsxwskpzmnbtfsmlltlk
+:END:
+I guess ok as a demo, although a bit too much focus on syntax etc
+* DONE [#C] [2021-05-09] [[https://twitter.com/girba/status/1376877237027344386][Tudor Girba on Twitter: ""A bit of Smalltalk” Introductory lecture @unibern by @onierstrasz using #gtoolkit (1h14m). https://t.co/kUfHBbwR3O https://t.co/XRdS6es8aT" / Twitter]] :smalltalk:
+:PROPERTIES:
+:ID:       stwttrcmgrbsttstdrgrbntwtmstckfhbbwrstcxrdssttwttr
+:END:
+
+* [#C] [2021-05-14] [[https://news.ycombinator.com/item?id=27135870][desktop computing had core skills that could be developed, that would apply acro... | Hacker News]] :computing:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmddsktpcmptbdvlpdthtwldpplycrhckrnws
+:END:
+: desktop computing had core skills that could be developed, that would apply across different programs.
+: on mobile systems, the balance of power feels very different. apps are each their own immersive experiences, each picking their own widgets, toolkits, styling, paradigms. many apps are a thin shell over far off closed services we could not understand if we tried.
+: mobile has been a very advanced war on general purpose computing. the value of understanding the os, understanding "computing" has gone way way down in this far more black boxes environment. the user has been treated like an idiot, protected endlessly from themselves, and the technical underpinnings deeply deeply masked over.
+: computing is being destroyed, especially on mobile. the desktop is one of the few places one has any chance to learn about computing in any meaningful way.

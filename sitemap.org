@@ -24,9 +24,14 @@
   - [[file:blog/blog.org][⭐ Blog related stuff]]
   - [[file:blog/static-blog.org][Why use static blog?]]
 - books
+  - [[file:books/books-log.org][📜 Book log]]
   - [[file:books/4-hour-body.org]["4 Hour Body" by Tim Ferris]]
-  - [[file:books/log.org][Book log]]
-  - [[file:books/prog-21-century.org][Programming in the XXI century]]
+  - [[file:books/pihkal.org]["PiHKAL: A Chemical Love Story" by Alexander and Ann Shulgin]]
+  - [[file:books/prog-21-century.org]["Programming in the XXI century" by James Hague]]
+  - [[file:books/programming-universe.org]["Programming the Universe" by Seth Lloyd]]
+  - [[file:books/elegant-universe.org]["The Elegant Universe" by Brian Greene]]
+  - [[file:books/productivity-project.org]["The Productivity Project" by Chris Bailey]]
+  - [[file:books/vitamania.org][Vitamania by Catherine Price]]
 - food
   - [[file:food/cooking.org][Cooking]]
   - [[file:food/food-misc.org][Food misc]]

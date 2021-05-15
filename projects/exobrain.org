@@ -1054,3 +1054,18 @@ maybe enough to generate a view sorted by timestamps
 :CREATED:  [2020-05-20]
 :ID:       gnrttgsmmrstlmntthlstcmmn
 :END:
+* TODO [#B] use staging area for autodeployments?                  :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-02-15]
+:ID:       sstgngrfrtdplymnts
+:END:
+* TODO [#B] mention about people                                   :exobrain:
+:PROPERTIES:
+:CREATED:  [2021-02-11]
+:ID:       mntnbtppl
+:END:
+I try to be reasonable, e.g. I won't post private conversations without conscent, but might link to a conversation on twitter. If you'd rather that I don't, please don't hesitate me know -- I'll move it away from public exobrain, no gripes? strings??
+* TODO [#B] [2021-05-13] [[https://www.notion.so/guides/connect-tools-to-notion-api][Connect your tools to Notion with the API]] :exobrain:
+:PROPERTIES:
+:ID:       swwwntnsgdscnncttlstntnpcnnctyrtlstntnwththp
+:END:

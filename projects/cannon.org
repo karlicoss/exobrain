@@ -615,3 +615,12 @@ huh, so reddit seems to normalise to the main page, and displays annotations as 
 :ID:       stwttrcmjndtbjnbrchvskyjndtbtwttr
 :END:
 hmm how to resolve twitter renames?...
+* TODO [#B] [2021-05-05] [[https://news.ycombinator.com/item?id=27047243#27047697][ClearURLs – automatically remove tracking elements from URLs | Hacker News]] :cannon:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdclrrlstmtvtrcknglmntsfrmrlshckrnws
+:END:
+: Related, if you're looking to clean urls on the backend, here's my current pattern:
+: 
+: startswith: 'utm_', 'ga_', 'hmb_', 'ic_', 'fb_', 'pd_rd', 'ref_', 'share_', 'client_', 'service_'
+: 
+: or has: '$/ref@amazon.', '.tsrc', 'ICID', '_xtd', '_encoding@amazon.', '_hsenc', '_openstat', 'ab', 'action_object_map', 'action_ref_map', 'action_type_map', 'amp', 'arc404', 'affil', 'affiliate', 'app_id', 'awc', 'bfsplash', 'bftwuk', 'campaign', 'camp', 'cip', 'cmp', 'CMP', 'cmpid', 'curator', 'cvid@bing.com', 'efg', 'ei@google.', 'fbclid', 'fbplay', 'feature@youtube.com', 'feedName', 'feedType', 'form@bing.com', 'forYou', 'fsrc', 'ftcamp', 'ga_campaign', 'ga_content', 'ga_medium', 'ga_place', 'ga_source', 'ga_term', 'gi', 'gclid@youtube.com', 'gs_l', 'gws_rd@google.', 'igshid', 'instanceId', 'instanceid', 'kw@youtube.com', 'maca', 'mbid', 'mkt_tok', 'mod', 'ncid', 'ocid', 'offer', 'origin', 'partner','pq@bing.com', 'print', 'printable', 'psc@amazon.', 'qs@bing.com', 'rebelltitem', 'ref', 'referer', 'referrer', 'rss', 'ru', 'sc@bing.com', 'scrolla', 'sei@google.', 'sh', 'share', 'sk@bing.com', 'source', 'sp@bing.com', 'sref', 'srnd', 'supported_service_name', 'tag', 'taid', 'time_continue', 'tsrc', 'twsrc', 'twcamp', 'twclid', 'tweetembed', 'twterm', 'twgr', 'utm', 'ved@google.', 'via', 'xid', 'yclid', 'yptr' 

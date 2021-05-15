@@ -205,3 +205,8 @@ https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
 :CREATED:  [2021-04-26]
 :ID:       16456b73-4e2a-42ce-8e04-9d828a413e74
 :END:
+* [#C] [2021-05-08] [[https://unix.stackexchange.com/questions/157823/list-ports-a-process-pid-is-listening-on-preferably-using-iproute2-tools][ip - List ports a process PID is listening on (preferably using iproute2 tools)? - Unix & Linux Stack Exchange]]
+:PROPERTIES:
+:ID:       snxstckxchngcmqstnslstprtlysngprttlsnxlnxstckxchng
+:END:
+: sudo netstat -plnt
