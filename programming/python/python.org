@@ -1987,3 +1987,8 @@ progress bars, nice
 : result = [ select y for x in [1,2,3] let y = x**2 ]
 
 whoa
+* [#C] [2021-05-01] [[https://wiki.python.org/moin/PythonPackagingTerminology][PythonPackagingTerminology - Python Wiki]] :pip:
+:PROPERTIES:
+:ID:       swkpythnrgmnpythnpckgngtrpythnpckgngtrmnlgypythnwk
+:END:
+: *.egg-link files that contain the name of a built or development egg, to support symbolic linking on platforms that do not have native symbolic links.

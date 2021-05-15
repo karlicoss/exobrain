@@ -258,3 +258,34 @@ maybe keep all dirs that were there before -- and only remove new empty dirs?
 :CREATED:  [2021-04-07]
 :ID:       mltwysbtmrspcltv
 :END:
+* TODO [#B] add for takeouts... I even had some script to compare it somewhere :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-14]
+:ID:       ddfrtktsvnhdsmscrpttcmprtsmwhr
+:END:
+* STRT [#B] hypothesis, endomondo, pinboard -- just use regular json processor :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-14]
+:ID:       hypthssndmndpnbrdjstsrglrjsnprcssr
+:END:
+* TODO [#B] old code for 'extract' bit                    :bleanser:pinboard:
+:PROPERTIES:
+:CREATED:  [2021-04-14]
+:ID:       ldcdfrxtrctbt
+:END:
+:   return pipe(
+:       '.tags  |= .',
+:       '.posts |= map({href, description, time, tags})', # TODO maybe just delete hash?
+:       '.notes |= {notes: .notes | map({id, title, updated_at}), count}',  # TODO hhmm, it keeps length but not content?? odd.
+:  )
+* TODO [#C] json: sorting stuff might definitely make it more confusing when there is just one volatile attribute that has two values :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-16]
+:ID:       jsnsrtngstffmghtdfntlymktrsjstnvltlttrbtththstwvls
+:END:
+e.g. on foursquare with isMayor: true -- hmmm
+* TODO [#C] foursquare is a good motiation -- lots of random changing crap even without the changes of underlying data? :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-16]
+:ID:       frsqrsgdmttnltsfrndmchngnrpvnwthtthchngsfndrlyngdt
+:END:

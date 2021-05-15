@@ -136,6 +136,12 @@ maybe they are more like attributes.. or tiny dots around tag, each of dots repr
 :END:
 only seems to happen in publishing mode?
 : Lookup ref should contain 2 elements: ({:page/name "pkm"})
+** TODO [#C] ask for publishing from console                         :logseq:
+:PROPERTIES:
+:CREATED:  [2021-04-13]
+:ID:       skfrpblshngfrmcnsl
+:END:
+would also help for testing.. in a way?
 * [#B] * Orgzly                                                      :orgzly:
 :PROPERTIES:
 :ID:       rgzly
@@ -729,7 +735,7 @@ using #gitbug instead now
 
 * --------------------------------
 :PROPERTIES:
-:ID:       24752_24788
+:ID:       24909_24945
 :END:
 
 * STRT [#C] share link and content                                    :tusky:

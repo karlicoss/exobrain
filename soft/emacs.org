@@ -673,12 +673,11 @@ https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bsource-control/git#q
 :ID:       1ebc01f8-bdc8-4b56-8d49-7e7f954c4e81
 :END:
 
-** START Use tramp                                                    :habit:
+** CNCL Use tramp                                                  :oldhabit:
 :PROPERTIES:
 :CREATED:  [2018-06-10]
 :ID:       975dc183-80e0-429e-bbc5-46d5fc111fa4
 :END:
-
 ssh:target:/...
 
 ** TODO use helm-resume SPC h l to resume search                      :habit:
@@ -1025,3 +1024,13 @@ https://github.com/alphapapa/emacs-package-dev-handbook
 :END:
 : If you want to store that in your config, like me, just add
 : (setq magit-diff-refine-hunk (quote all))
+* TODO [#C] C-k/C-j for browsing images                         :emacs:drill:
+:PROPERTIES:
+:CREATED:  [2021-04-26]
+:ID:       854332ac-5e8a-4326-9002-39cd3492f55e
+:END:
+* TODO [#C] doom-big-font-mode                                  :habit:emacs:
+:PROPERTIES:
+:CREATED:  [2021-04-26]
+:ID:       2313498e-4fe9-44eb-abe6-1f6cd28a06ca
+:END:

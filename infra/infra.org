@@ -942,3 +942,14 @@ ok, really good guide
   : term=;
 - congratulations, you are done!
 : Note that when a ReMarkable system update occurs you will likely need to re-run the systemctl enable --now remux command. I think this should be the only command needed to re-run, but I don’t have a system update to install to validate that.
+* [#C] [2021-04-29] [[https://github.com/toltec-dev/toltec#install-it][toltec-dev/toltec: Community-maintained repository of free software for the reMarkable tablet.]] :setup:remarkable:
+:PROPERTIES:
+:ID:       sgthbcmtltcdvtltcnstllttltryffrsftwrfrthrmrkbltblt
+:END:
+* [#C] [2021-05-02] [[https://manpages.debian.org/testing/syncthing/syncthing-faq.7.en.html#HOW_DO_I_RENAME/MOVE_A_SYNCED_FOLDER?][syncthing-faq(7) — syncthing — Debian testing — Debian Manpages]] :syncthing:
+:PROPERTIES:
+:ID:       smnpgsdbnrgtstngsyncthngsqsyncthngdbntstngdbnmnpgs
+:END:
+: HOW DO I RENAME/MOVE A SYNCED FOLDER?An alternative way is to shut down Syncthing, move the folder on disk (including the .stfolder marker), edit the path directly in config.xml in the configuration folder (see config) and then start Syncthing again.
+
+ok this works great

@@ -1379,7 +1379,7 @@ https://twitter.com/johncarlosbaez/status/1201541199003176960
 :END:
 https://github.com/melvinroest/doodledocs
 : To counter scalability issues, I added a P2P layer on top of it, built with a modified version of Bugout.
-* [#D] [2018-08-06] not now [jetzt nicht]                      :german:drill:
+* [#D] [2018-08-06] not now {jetzt nicht}                      :german:drill:
 :PROPERTIES:
 :ID:       7d7ee6a2-03dd-42a4-9aeb-227948c3bbc1
 :END:
@@ -1401,7 +1401,7 @@ https://github.com/melvinroest/doodledocs
 
 * [#D] [2017-09-03]                                                 :cycling:
 :PROPERTIES:
-:ID:       67215_67439
+:ID:       67216_67440
 :END:
 Use [[https://tfl.gov.uk/travel-information/improvements-and-projects/quietways][quietways]]
 
@@ -2613,7 +2613,7 @@ http://stevenhickson.blogspot.com/2014/02/controlling-music-with-your-mind.html
 : Which invention? Which policy? Which product? Which discovery? Which idea?
 * [2021-01-06] [[https://en.wikipedia.org/wiki/Engelbart%27s_law][Engelbart's law - Wikipedia]] :drill:
 :PROPERTIES:
-:ID:       snwkpdrgwknglbrtslwnglbrtslwwkpd
+:ID:       9c9d4aa9-767f-4490-b086-faa8597ba36b
 :END:
 : Engelbart's law is the observation that the intrinsic rate of human performance is exponential.
 * [2021-01-17] [[https://www.murilopereira.com/the-values-of-emacs-the-neovim-revolution-and-the-vscode-gorilla/][The values of Emacs, the Neovim revolution, and the VSCode gorilla - Murilo Pereira]]
@@ -2629,7 +2629,7 @@ http://stevenhickson.blogspot.com/2014/02/controlling-music-with-your-mind.html
 better hold on creating new files, because many small files is a pain to manage
 ** ?                                                             :minimalism:
 :PROPERTIES:
-:ID:       133890_133982
+:ID:       134211_134303
 :END:
 when it's not too crazy, more resiliency, possibly even nomadic lifestyle
 ** [2021-01-24] programming-meta?
@@ -2909,3 +2909,12 @@ shit, very cool blog!!
 :ID:       stwttrcmrnvfydrsttsfydrrnrtndtlntwthsstcxgxzvtwttr
 :END:
 : If one is to see a single documentary in their lifetime, I would respectfully recommend the “Up” series - a magnificent monument of humanism at its best.
+* [#C] [2021-05-01] [[https://www.youtube.com/watch?v=mDyBbGCiBUU][Nic Carter: Bitcoin Core Values, Layered Scaling, and Blocksize Debates | Lex Fridman Podcast 173 - YouTube]] :crypto:
+:PROPERTIES:
+:ID:       swwwytbcmwtchvmdybbgcbnccblckszdbtslxfrdmnpdcstytb
+:END:
+don't think I liked this one? typical bitcoin dude with "store of value" etc
+* [#C] [2020-07-01] [[https://wiki.archlinux.org/index.php/XDG_Base_Directory][XDG Base Directory - ArchWiki]]
+:PROPERTIES:
+:ID:       swkrchlnxrgndxphpxdgbsdrctryxdgbsdrctryrchwk
+:END:

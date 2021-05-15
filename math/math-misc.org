@@ -154,7 +154,7 @@ not sure...
 S = {T, bot}
 
 
-** continuity    in terms of 'touches' relation: [ forall A. x v A => f(x) v f(A)  ] :drill:
+** continuity    in terms of 'touches' relation: { forall A. x v A => f(x) v f(A)  } :drill:
 :PROPERTIES:
 :ID:       b9474d95-97ba-42b8-8d8e-acdb99db30c4
 :END:
@@ -515,7 +515,7 @@ takeaway: bayes os more natural for communicating scientific results to public: 
 
 ** 13:00
 :PROPERTIES:
-:ID:       28584_28780
+:ID:       28583_28779
 :END:
 https://en.wikipedia.org/wiki/Nuisance_parameter
 nuiscance parameter -- integrated over in bayessian method? https://en.wikipedia.org/wiki/Marginal_likelihood#Bayesian_model_comparison

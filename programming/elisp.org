@@ -101,12 +101,12 @@ thing-at-point
 * TODO [#C] lisp unpacking like in python  =(let ((x '(2 3))) `(1 ,@x 4 5))= :drill:python:
 :PROPERTIES:
 :CREATED:  [2021-01-01]
-:ID:       lspnpcknglknpythnltxx
+:ID:       d70f0651-0847-413e-9ef4-dedc756528ab
 :END:
 
 * ----------------------------------------
 :PROPERTIES:
-:ID:       1793_1837
+:ID:       1841_1885
 :END:
 
 * TODO [#D] [2019-07-24] /r/emacs: [[https://reddit.com/r/emacs/comments/chfv7y/tutorial_on_good_lisp_programming_style/][Tutorial on Good Lisp Programming Style]]

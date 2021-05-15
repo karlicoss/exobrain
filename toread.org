@@ -487,6 +487,12 @@ hotz recommendation?
 :ID:       swwwkbcmgbnbkthsctmndstthstbkbyjlglfrktnkbntdkngdm
 :END:
 
+** [#C] [2021-04-19] neuromancer is a bit meh                          :book:
+:PROPERTIES:
+:ID:       nrmncrsbtmh
+:END:
+somewhat cliche, I guess it was cool years ago when it was released... but now it doesn't read as anything exciting
+... just yet another cyberpunk setting, with some hackers, some cyberspace etc etc
 * TODO [#B] [2020-01-13] [[https://twitter.com/litgenstein/status/1216512864015417344][@litgenstein: In this text, by the way, Schwinger gives a very clear ~20 page summary of the history of the classical —> quantum transition]] :physics:
 :PROPERTIES:
 :ID:       stwttrcmltgnstnsttsltgnsthhstryfthclssclqntmtrnstn
@@ -1143,4 +1149,9 @@ from bio link https://twitter.com/VitalikButerin
 * TODO [#B] [2021-03-29] [[https://news.ycombinator.com/item?id=26286306][Ask HN: Works of fiction that have inspired you to solve programming problems? | Hacker News]] :toread:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdskhnwrksftslvprgrmmngprblmshckrnws
+:END:
+
+* TODO [#B] [2021-04-24] [[https://www.gregegan.net/INTERVIEWS/Interviews.html][Interviews — Greg Egan]] :toread:
+:PROPERTIES:
+:ID:       swwwgrggnntntrvwsntrvwshtmlntrvwsgrggn
 :END:

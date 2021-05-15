@@ -49,6 +49,7 @@ ugh.. homesick seems to rewrite relative symlinks to absolute... wtf???
 apparently just backs up and symlinks configs for some applications
 hmm, so it supports doublecmd. wonder how they handle their configs..
 nope, just copies. nothing interesting
+- [2021-05-04] doesn't support mc
 ** CNCL vcsh http://blog.tfnico.com/2014/03/managing-dot-files-with-vcsh-and-myrepos.html
 :PROPERTIES:
 :ID:       vcshblgtfnccmmngngdtflswthvcshndmyrpshtml

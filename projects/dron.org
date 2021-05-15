@@ -321,3 +321,8 @@ what to improve:
 :END:
 : Hi ! I'm reading your sources with great interest, and i came out to systemd-email, and it looks like to me that the same output can be achieved with this single command: systemctl --user status myFailingUnit.service --lines 99999 -o cat
 : Is it really equivalent ?
+* TODO [#C] systemd-email -- need full path to make sure it won't fail to deliver email.. :dron:
+:PROPERTIES:
+:CREATED:  [2021-05-04]
+:ID:       systmdmlndfllpthtmksrtwntfltdlvrml
+:END:

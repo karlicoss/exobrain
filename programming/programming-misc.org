@@ -292,7 +292,7 @@ http://sourceware.org/gdb/current/onlinedocs/gdb/Forks.html
 : echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
 
 
-* TODO [#D] use 'commands' 'end'                                  :gdb:habit:
+* CNCL [#D] use 'commands' 'end'                               :gdb:oldhabit:
 :PROPERTIES:
 :CREATED:  [2018-08-10]
 :ID:       c1bfa720-84f1-4cd5-a7c1-8526acb88555
@@ -509,7 +509,7 @@ https://github.com/awesome-selfhosted/awesome-selfhosted
 :END:
 * [2020-09-27] .
 :PROPERTIES:
-:ID:       19393_19741
+:ID:       19510_19858
 :END:
 : Something that I’m surprised a lot of devs don’t know; there are official domains you’re supposed to use for documentation, testing, etc. They are specifically reserved by IANA for these purposes. Originally I think it was just example.com, but they now have a list of all them: https://www.iana.org/domains/reserved
 
@@ -1800,7 +1800,7 @@ solution: void consumer(List<? extends A> List)
 
 ** ?
 :PROPERTIES:
-:ID:       73715_73807
+:ID:       73832_73924
 :END:
 - lack of operators overloading (but sometimes it makes sense)
 - GC: both good and bad
@@ -1867,4 +1867,8 @@ https://github.com/willmcgugan/rich
 * TODO [#B] [2020-05-18] [[https://github.com/cookiengineer/stealth][cookiengineer/stealth: Stealth - Secure, Peer-to-Peer, Private and Automateable Web Browser/Scraper/Proxy]]
 :PROPERTIES:
 :ID:       sgthbcmckngnrstlthckngnrsvtndtmtblwbbrwsrscrprprxy
+:END:
+* TODO [#C] [2021-04-30] [[https://computationalthinking.mit.edu/Spring21/][Introduction to Computational Thinking]] :julia:
+:PROPERTIES:
+:ID:       scmpttnlthnkngmtdsprngntrdctntcmpttnlthnkng
 :END:

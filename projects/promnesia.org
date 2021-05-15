@@ -173,6 +173,12 @@ hypothesis extractor could generate a nicer title of the document?
 :ID:       fgrngthstryfrmwndwttls
 :END:
 bit too excessive I guess... although nice correlating events to jump in history?
+** TODO [#B] extract 'regular' links from markdown                :promnesia:
+:PROPERTIES:
+:CREATED:  [2021-04-30]
+:ID:       xtrctrglrlnksfrmmrkdwn
+:END:
+i.e. ones without http prefix
 * [#B] * ideas
 :PROPERTIES:
 :ID:       ds
@@ -1206,7 +1212,7 @@ allow breaking down important and unimportant schema parts from extensions?
 :END:
 ** [2019-08-01] ??
 :PROPERTIES:
-:ID:       43082_43111
+:ID:       43238_43267
 :END:
 * TODO [#C] open in new tab from search?
 :PROPERTIES:
@@ -3107,3 +3113,7 @@ someone from Matrix nyxt suggested it's similar?
 :ID:       sgthbcmpvrntstfyjspllcnvrybystkrpllrqstpvrntstfyjs
 :END:
 : Convert to ES6 compatible library
+* [#C] [2021-05-03] [[https://anagora.org/promnesia-howto][agora: promnesia-howto]] :promnesia:
+:PROPERTIES:
+:ID:       sngrrgprmnshwtgrprmnshwt
+:END:

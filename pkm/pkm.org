@@ -2385,3 +2385,7 @@ table with comparison of note taking apps: roam/logseq/dendrom/org-roam etc
 :CREATED:  [2021-03-10]
 :ID:       ndnxttdntrythswldmnndtctvlyctnsmthng
 :END:
+* TODO [#B] [2021-04-29] [[https://github.com/soulisalmed/biff][soulisalmed/biff: Extract text and images from highlighted pdf generated with reMarkable tablet.]] :pkm:remarkable:
+:PROPERTIES:
+:ID:       sgthbcmslslmdbffslslmdbffghtdpdfgnrtdwthrmrkbltblt
+:END:

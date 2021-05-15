@@ -147,3 +147,78 @@ Note that it's perfectly possible to pass a polymorphic function as an argument 
 :ID:       pnbrdbkmrksfrkrlcsstggdfp
 :END:
 https://pinboard.in/u:karlicoss/t:fp
+
+* [2016-02-28] Existential types                                    :haskell:
+:PROPERTIES:
+:ID:       xstntltyps
+:END:
+#+begin_src haskell
+  data Obj = forall a. (Show a) => Obj a
+
+  xs :: [Obj]
+  xs = [Obj 1, Obj "foo", Obj 'c']
+
+  doShow :: [Obj] -> String
+  doShow [] = ""
+  doShow ((Obj x):xs) = show x ++ doShow xs
+#+end_src
+
+Dynamic dispatch:
+
+#+begin_src haskell
+   class Shape_ a where
+     perimeter :: a -> Double
+     area      :: a -> Double
+
+   data Shape = forall a. Shape_ a => Shape a
+
+   type Radius = Double
+   type Side   = Double
+
+   data Circle    = Circle    Radius
+   data Rectangle = Rectangle Side Side
+   data Square    = Square    Side
+
+
+   instance Shape_ Circle where
+     perimeter (Circle r) = 2 * pi * r
+     area      (Circle r) = pi * r * r
+
+   instance Shape_ Rectangle where
+     perimeter (Rectangle x y) = 2 * (x + y)
+     area      (Rectangle x y) = x * y
+
+   instance Shape_ Square where
+     perimeter (Square s) = 4*s
+     area      (Square s) = s*s
+
+   instance Shape_ Shape where
+     perimeter (Shape shape) = perimeter shape
+     area      (Shape shape) = area      shape
+
+  -- Smart constructor:
+
+   circle :: Radius -> Shape
+   circle r = Shape (Circle r)
+
+   rectangle :: Side -> Side -> Shape
+   rectangle x y = Shape (Rectangle x y)
+
+   square :: Side -> Shape
+   square s = Shape (Square s)
+
+   shapes :: [Shape]
+   shapes = [circle 2.4, rectangle 3.1 4.4, square 2.1]
+#+end_src
+* [#B] [2016-02-28] Haskell version of Yoneda lemma          :yoneda:haskell:
+:PROPERTIES:
+:ID:       hskllvrsnfyndlmm
+:END:
+: forall r . ((a -> r) -> f r) ~ f a, where f is a functor
+
+
+Concrete example:
+
+: fun :: forall r . ((Bool -> r) -> [r]
+
+How many different implementations of fun are there? As many as there are lists of Bools.

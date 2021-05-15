@@ -664,7 +664,7 @@ https://twitter.com/wickrotate/status/1280624828026740737
 :PROPERTIES:
 :ID:       drcgf
 :END:
-[[https://www.gregegan.net/images/DiracAnimation.gif][DiracAnimation.gif (GIF Image, 500 × 330 pixels)]]
+: [[https://www.gregegan.net/images/DiracAnimation.gif][DiracAnimation.gif (GIF Image, 500 × 330 pixels)]]
 * [#B] [2020-07-24] [[https://www.scottaaronson.com/blog/?p=710][Shtetl-Optimized » Blog Archive » Rosser’s Theorem via Turing machines]]
 :PROPERTIES:
 :ID:       swwwscttrnsncmblgpshttlptlgrchvrssrsthrmvtrngmchns
@@ -3659,7 +3659,7 @@ https://t.co/44YfxUYhsh
 
 * ---------------------------------------
 :PROPERTIES:
-:ID:       190233_190306
+:ID:       190345_190418
 :END:
 processing on [2021-01-31]
 * TODO [#C] Tweet from @mekarpeles                                  :chinese:
@@ -3689,7 +3689,7 @@ https://twitter.com/nmwsharp/status/1153993638134910977
 
 * ----------------------------------------------
 :PROPERTIES:
-:ID:       191292_191341
+:ID:       191404_191453
 :END:
 * TODO [#C] [2021-01-22] [[http://bach.ai/pub/ECAP10%20Joscha%20Bach%20on%20AI%20singularity.pdf][ECAP10 Joscha Bach on AI singularity.pdf]]
 :PROPERTIES:

@@ -1565,3 +1565,18 @@ https://www.slideshare.net/bultako/jupyter-notebooks-on-steroids
 :PROPERTIES:
 :ID:       trypywdgts
 :END:
+* TODO [#C] [2021-04-29] [[https://forum.quantifiedself.com/t/personal-dashboards-for-self-tracking-data/8202/55?u=karlicoss][Personal Dashboards for Self-Tracking Data - Quantified Self / Apps & Tools - Quantified Self Forum]] :qs:
+:PROPERTIES:
+:ID:       sfrmqntfdslfcmtprsnldshbrqntfdslfppstlsqntfdslffrm
+:END:
+: I pretty much 100% agree with your assessment. I personally would also add:
+: 
+:     Automatic backup of data.
+:     API for simple daily import of data (e.g. from manual or unsupported trackers). To me CSV import is inferior solution, especially for dashboard, where the point is to have the data visualized persistently.
+:     I would expand the ‘flexible data analysis’ to following specific analysis that I feel are essential (but I haven’t seen anywhere):
+:     a. cross-correlation across time to uncover temporally delayed relationships between tracked variables
+:     b. automatic application of the above to all pairs of variables with report of the strongest relationships found
+:     c. proper reporting of statistical significance of any correlations found
+:     d. multi-variate regression
+
+motivaion: good points about what's missing from most current solutions

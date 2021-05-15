@@ -48,6 +48,11 @@
 :ID:       sgthbcmrckrrgrckrssssscmmrkpngmgszsmllssrckrrgrckr
 :END:
 ok, so for debian/ubuntu images don't really need autoclean -- it's already run automatically
+** [#C] [2021-05-02] [[https://howtoprogram.xyz/2017/03/18/attach-detach-docker-container/][Attach and Detach from Docker Container | HowToProgram]] :docker:drill:
+:PROPERTIES:
+:ID:       929325c4-96a6-4ddd-a0d2-a621317e6508
+:END:
+: In general, to detach from a Docker container and leave it running, we can use the CTRL-p CTRL-q key sequence.
 * systemd                                                           :systemd:
 :PROPERTIES:
 :ID:       systmd
@@ -157,7 +162,7 @@ mind the space after colon!
 
 * -----------------------------------------
 :PROPERTIES:
-:ID:       3086_3131
+:ID:       3450_3495
 :END:
 
 * [#C] [2018-06-08] Linux ignores the setuid bit on all interpreted executables (i.e. executables starting with a ~#!~ line).
@@ -193,5 +198,10 @@ https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
 
 * -------------------------------------------
 :PROPERTIES:
-:ID:       4728_4774
+:ID:       5092_5138
+:END:
+* TODO [#C] =whereis= command                                         :habit:
+:PROPERTIES:
+:CREATED:  [2021-04-26]
+:ID:       16456b73-4e2a-42ce-8e04-9d828a413e74
 :END:

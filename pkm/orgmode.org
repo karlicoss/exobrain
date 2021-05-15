@@ -1383,3 +1383,8 @@ Org-add-note
 :ID:       hmmstdsntwrkfrmgndbtkndncwthnthtsk
 :END:
 note sure about logbook...
+
+* [#C] [2021-01-25] org-fc didn't work straightaway             :srs:orgmode:
+:PROPERTIES:
+:ID:       rgfcddntwrkstrghtwy
+:END:

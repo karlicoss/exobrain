@@ -39,7 +39,7 @@ One often desires more structure on a manifold than simply the topological struc
 :PROPERTIES:
 :ID:       smthstckxchngcmntpdlglngfcrclscrclgnncgf
 :END:
-*** [2019-04-24] antipodal identification of circle (S^1) is [ circle ] :drill:
+*** [2019-04-24] antipodal identification of circle (S^1) is { circle } :drill:
 :PROPERTIES:
 :ID:       e3e6cc76-b4f0-4bce-8eee-3c331dfc14e8
 :END:

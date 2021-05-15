@@ -646,7 +646,7 @@ https://github.com/chakravala/Grassmann.jl
 : The Grassmann.jl package provides tools for doing computations based on multi-linear algebra, differential geometry, and spin groups using the extended tensor algebra known as Leibniz-Grassmann-Clifford-Hestenes geometric algebra.
 * [#C] [2018-11-10] Tangent bundle - Wikipedia https://en.wikipedia.org/wiki/Tangent_bundle :symplectic:drill:
 :PROPERTIES:
-:ID:       tngntbndlwkpdsnwkpdrgwktngntbndl
+:ID:       73e44c7c-179d-4e62-9f5c-4bd2c0f0e894
 :END:
 :  One of the main roles of the tangent bundle is to provide a domain and range for the derivative of a smooth function. Namely, if f : M → N is a smooth function, with M and N smooth manifolds, its derivative is a smooth function Df : TM → TN.
 

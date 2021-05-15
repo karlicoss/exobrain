@@ -139,3 +139,58 @@ https://www.gwern.net/Resilient-Haskell-Software
 :ID:       hnrydvlncntwttryrsgwsvryscsfrgthwtmkmndtfpststwttr
 :END:
 https://twitter.com/hdevalence/status/1088649294746275840
+
+* [#C] [2016-02-28] applicative functors                            :haskell:
+:PROPERTIES:
+:ID:       pplctvfnctrs
+:END:
+- regular functor
+  : class Functor f where
+  :   fmap :: (a -> b) -> f a -> f b
+
+
+  Laws:
+
+  : fmap id = id                                 -- Identity
+  : fmap (p . q) = (fmap p) . (fmap q)           -- Homomorphism
+
+- applicative
+  : class (Functor f) => Applicative f where
+  :     pure  :: a -> f a
+  :     (<*>) :: f (a -> b) -> f a -> f b
+
+
+  Laws:
+
+  : pure id <*> v = v                            -- Identity
+  : pure (.) <*> u <*> v <*> w = u <*> (v <*> w) -- Composition
+  : pure f <*> pure x = pure (f x)               -- Homomorphism
+  : u <*> pure y = pure ($ y) <*> u              -- Interchange
+  : fmap f x = pure f <*> x                      -- Fmap
+
+The mapping between Haskell functors is a family of functions parameterized by types. For instance, a mapping between the [] functor and the Maybe functor will map a list of a, [a] into Maybe a.
+Here's an example of such a family of functions called safeHead:
+
+: safeHead :: [a] -> Maybe a
+: safeHead []     = Nothing
+: safeHead (x:xs) = Just x
+
+
+* [#D] [2016-02-28] monad vs applicative                            :haskell:
+:PROPERTIES:
+:ID:       mndvspplctv
+:END:
+https://wiki.haskell.org/Typeclassopedia#Intuition_3
+: Let’s look more closely at the type of (>>=). The basic intuition is that it combines two computations into one larger computation. The first argument, m a, is the first computation.
+: However, it would be boring if the second argument were just an m b; then there would be no way for the computations to interact with one another (actually, this is exactly the situation with Applicative).
+: So, the second argument to (>>=) has type a -> m b: a function of this type, given a result of the first computation, can produce a second computation to be run.
+: In other words, x >>= k is a computation which runs x, and then uses the result(s) of x to decide what computation to run second, using the output of the second computation as the result of the entire computation.
+
+
+: Actually, because Haskell allows general recursion, one can recursively construct infinite grammars, and hence Applicative (together with Alternative) is enough to parse any context-sensitive language with a finite alphabet.
+
+
+http://byorgey.wordpress.com/2012/01/05/parsing-context-sensitive-languages-with-applicative
+
+: Here’s the key insight: normally, grammars are defined as finite objects: a finite set of terminals, a finite set of nonterminals, and a finite set of productions.
+: However, Haskell’s general recursion means that we can write down a "grammar" with an infinite set of production rules. This is what lets us get away with parsing context-sensitive languages with Applicative: we just make a different production rule for every possible input!

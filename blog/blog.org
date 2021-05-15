@@ -518,3 +518,8 @@ make a link to hypothesis comments, this looks quite good
 :ID:       swwwmllymlkcmcccmptrsndcrtvty
 :END:
 inspiration: nice scroll progress on top
+* TODO [#C] 404 page pointing at github blog/exobrain search           :blog:
+:PROPERTIES:
+:CREATED:  [2021-05-06]
+:ID:       pgpntngtgthbblgxbrnsrch
+:END:

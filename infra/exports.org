@@ -1343,3 +1343,8 @@ can request data takeout here... takes ages to complete though, like a week
 :ID:       sgthbcmsnbrcknrdgxbrntrmstsgdprtmstrsnbrcknrdgxbrn
 :END:
 : Some thoughts on how easy to parse/use GDPR/get data exports from different services. A lot of these I did just because I was curious what information/context I could glean into the past about
+* TODO [#C] highlights are in UTC                       :remarkable:koreader:
+:PROPERTIES:
+:CREATED:  [2021-04-29]
+:ID:       hghlghtsrntc
+:END:

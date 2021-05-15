@@ -1068,3 +1068,10 @@ realtime
 :ID:       snttrntbnjjsttsmbncxbnjjshftnwsmnnycfrrcrscntrnttr
 :END:
 : So I grabbed all of the chat logs,tweets and GDPR dumps I could get my hands on and compiled this graph on when I am generally "active" showing an impressive commitment to going to bed at midnight through the last 10 years...
+* TODO [#B] nice initial goal: make it super easy to jump to arbitrary point in time :timeline:
+:PROPERTIES:
+:CREATED:  [2021-05-04]
+:ID:       ncntlglmktsprsytjmptrbtrrypntntm
+:END:
+- [ ] accept fuzzy input
+- [ ] have it always open on some desktop so it's easy to jump, ideally activate by hotkey

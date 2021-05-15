@@ -125,6 +125,11 @@ seems centralized and talking via APIs?
 :ID:       mnlksclslfscpbtwldbgdtchtwththm
 :END:
 
+** TODO [#B] need to outreach solid etc                          :social:hpi:
+:PROPERTIES:
+:CREATED:  [2021-04-12]
+:ID:       ndttrchsldtc
+:END:
 * [#A] * 3rd party integrations
 :PROPERTIES:
 :ID:       rdprtyntgrtns
@@ -990,6 +995,16 @@ some hackery...
 :ID:       sgthbcmpyhztrtlspyhztrtlsptntrctwthztrslclsqltdtbs
 :END:
 
+** TODO [#C] inactive windows are sort of useful too hmm          :hpi:arbtt:
+:PROPERTIES:
+:CREATED:  [2021-05-06]
+:ID:       nctvwndwsrsrtfsflthmm
+:END:
+** TODO [#C] cache pdfs by file?                                 :hpi:cachew:
+:PROPERTIES:
+:CREATED:  [2021-05-07]
+:ID:       cchpdfsbyfl
+:END:
 * [#B] * improving testing & CI
 :PROPERTIES:
 :ID:       mprvngtstngc
@@ -1483,5 +1498,26 @@ I guess it's kind of 'auto'? Although ETL sounds a bit magical
 see what's their approach to credentials
 * --------------------------------------------
 :PROPERTIES:
-:ID:       56329_56377
+:ID:       56683_56731
+:END:
+
+* TODO [#D] classify modules by ease of setup?                          :hpi:
+:PROPERTIES:
+:CREATED:  [2021-04-14]
+:ID:       clssfymdlsbysfstp
+:END:
+* TODO [#B] I'm not inventing anything new -- trying to apply simplicity, decomposition and resilience principles :hpi:
+:PROPERTIES:
+:CREATED:  [2021-04-14]
+:ID:       mntnvntngnythngnwtryngtpplctydcmpstnndrslncprncpls
+:END:
+* TODO [#C] ids are useful to mark some stuff as public (e.g. annotations) :hpi:memex:
+:PROPERTIES:
+:CREATED:  [2021-04-29]
+:ID:       dsrsfltmrksmstffspblcgnnttns
+:END:
+* TODO [#C] could implement some helper that prompts visidata for column types :visidata:hpi:
+:PROPERTIES:
+:CREATED:  [2021-05-04]
+:ID:       cldmplmntsmhlprthtprmptsvsdtfrclmntyps
 :END:

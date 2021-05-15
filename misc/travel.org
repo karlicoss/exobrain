@@ -281,6 +281,39 @@ amazing, highly recommended. check out the souvenir shop, awesome postcards.
 :ID:       rttrdm
 :END:
 
+* Germany                                                           :germany:
+:PROPERTIES:
+:CUSTOM_ID: germany
+:END:
+** Berlin
+:PROPERTIES:
+:CUSTOM_ID: berlin
+:END:
+*** TODO [#A] techno bars                                             :music:
+:PROPERTIES:
+:CREATED:  [2018-02-07]
+:ID:       tchnbrs
+:END:
+: техно-бары, если кому интересно: Minimal bar, Süß war gestern. оба во фридрихсхайне, в обоих диджеи каждый день, и иногда очень приличные, нет фейсконтроля в отличие от клубов, а потанцевать можно не хуже (в süß вход платный после 11). еще хвалят burg schnabel и crack bellmer
+*** [#B] [2018-03-11] line U2 overground/underground
+:PROPERTIES:
+:ID:       lnvrgrndndrgrnd
+:END:
+*** [#C] [2018-03-12] Berlinische galerie -- ok but not super interesting
+:PROPERTIES:
+:ID:       brlnschglrkbtntsprntrstng
+:END:
+
+*** [#C] [2018-02-06] https://twitter.com/abroadunderhood/status/960804558996897792 :berlin:
+:PROPERTIES:
+:ID:       stwttrcmbrdndrhdstts
+:END:
+: Вообще есть автобус номер 100, он проезжает по всем основным точкам центрального Берлина и считается туристическим, только стоит нормальные 2,80 вместо 10), ходит к слову тоже каждые десять минут.
+
+*** [#D] [2018-03-13] Museum of technology – meh, not really worth it
+:PROPERTIES:
+:ID:       msmftchnlgymhntrllywrtht
+:END:
 * Italy                                                               :italy:
 :PROPERTIES:
 :CUSTOM_ID: italy
