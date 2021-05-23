@@ -2158,3 +2158,25 @@ https://twitter.com/cubicgarden/status/1222447798223802369
 : @cubicgarden
 : Dropping @Rescuetime
 :  for the privacy first @ActivityWatchIt
+* TODO [#B] [2020-01-01] [[https://reddit.com/r/askphilosophy/comments/eids9e/what_is_the_most_detailed_effort_to_create_a/][What is the most detailed effort to create a "life-system" to map out (and "optimize") human life in accordance with various values, much like you might do in an RPG or "The Sims" or some other video game?]] /r/askphilosophy :hpi:qs:
+:PROPERTIES:
+:ID:       srddtcmrskphlsphycmmntsdsthsmsrsmthrvdgmrskphlsphy
+:END:
+:  What is the most detailed effort to create a "life-system" to map out (and "optimize") human life in accordance with various values, much like you might do in an RPG or "The Sims" or some other video game?
+:  As for visualization, I imagine something with colorized 3-D graphs, and many graphics, all of which allow you to optimize your life. The "Quantified Self" movement might have elaborate graphics/dashboards to this effect.
+:  I would be especially interested in how values were balanced against each other--like a "utilitarian" formula, though I'm probably using that term wrong.
+:  Eating chips is an "ITM" value to me. The pleasure is "in the moment" (ITM) and then the pleasure vanishes. Working out at the gym gives ITM pleasure, but it also gives ATC ("around the clock") benefits to your life by making you feel/function better. So I would be fascinated to see how any "life-optimization" system would balance ITM vs. ATC values, especially since the former seem dominant in our society (spectation, junk food, etc.) and the latter seem to have so much to recommend them in terms of total value.
+:  Various values could be "optimized" and balanced within a personal "life-system," including ITM vs. ATC values. A "Type A" person might want to all but extinguish "ITM" values, and focus obsessively on ATC values.
+:  Also, the system might be able to coerce you to make sure that you serve the interests of your future self, even though the present self might be too lazy/unmotivated to pursue the future self's interests. This is Orwellian, but it might be highly effective, and it's something you sign on to, and it's something that serves the future self. The system could give away some of your money or do other punishments if you ever eat chips (for example) or do something against your future self's interests. In a sci-fi world, the system might even be able to shock you like we shock dogs with shock-collars, but that's more extreme. You would sign on to this system weekly, or something, so it would represent your voluntary desires when you are in a state of peak reflection, rather than your momentary whims/instincts/cravings.
+
+#lifeengine
+* [#C] [2020-03-30] [[https://reddit.com/r/Lifelogging/comments/frrogq/what_are_the_ways_to_record_all_internet_activity/][What are the ways to record all internet activity and be able to perform text search in visited websites?]] /r/Lifelogging
+:PROPERTIES:
+:ID:       srddtcmrlflggngcmmntsfrrgtxtsrchnvstdwbstsrlflggng
+:END:
+: Hi there. I am trying to record my internet activity for text search purposes in visited websites. My current solution is recording HTTP request URLs and downloading the websites using wget as .html and performing searches on these files. Is there a better way to do this?
+* TODO [#C] [2019-05-04] [[https://reddit.com/r/Biohackers/comments/9pxzgg/most_useful_biosensors/e8oyflk/][Most useful biosensors?]] /r/Biohackers :hrm:
+:PROPERTIES:
+:ID:       srddtcmrbhckrscmmntspxzggrsyflkmstsflbsnsrsrbhckrs
+:END:
+: I am the author of Aidlab, a wearable device for bioresearchers ([https://www.aidlab.com/developer](https://www.aidlab.com/developer)). Maybe Aidlab will fit your needs?

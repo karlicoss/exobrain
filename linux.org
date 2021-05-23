@@ -53,6 +53,11 @@ ok, so for debian/ubuntu images don't really need autoclean -- it's already run 
 :ID:       929325c4-96a6-4ddd-a0d2-a621317e6508
 :END:
 : In general, to detach from a Docker container and leave it running, we can use the CTRL-p CTRL-q key sequence.
+** STRT [#C] [2020-03-14] [[https://reddit.com/r/selfhosted/comments/filg01/ctop_cli_utility_similar_to_htop_for_docker/][ctop - cli utility similar to htop for docker containers resource use]] /r/selfhosted :docker:
+:PROPERTIES:
+:ID:       srddtcmrslfhstdcmmntsflgcfrdckrcntnrsrsrcsrslfhstd
+:END:
+https://github.com/bcicen/ctop
 * systemd                                                           :systemd:
 :PROPERTIES:
 :ID:       systmd
@@ -162,7 +167,7 @@ mind the space after colon!
 
 * -----------------------------------------
 :PROPERTIES:
-:ID:       3450_3495
+:ID:       3786_3831
 :END:
 
 * [#C] [2018-06-08] Linux ignores the setuid bit on all interpreted executables (i.e. executables starting with a ~#!~ line).
@@ -198,7 +203,7 @@ https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
 
 * -------------------------------------------
 :PROPERTIES:
-:ID:       5092_5138
+:ID:       5428_5474
 :END:
 * TODO [#C] =whereis= command                                         :habit:
 :PROPERTIES:

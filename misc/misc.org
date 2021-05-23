@@ -2629,7 +2629,7 @@ http://stevenhickson.blogspot.com/2014/02/controlling-music-with-your-mind.html
 better hold on creating new files, because many small files is a pain to manage
 ** ?                                                             :minimalism:
 :PROPERTIES:
-:ID:       134211_134303
+:ID:       134212_134304
 :END:
 when it's not too crazy, more resiliency, possibly even nomadic lifestyle
 ** [2021-01-24] programming-meta?
@@ -3025,3 +3025,33 @@ http://life.cherch.org/hoods/twitter-ecology-words.pdf
 :END:
 : I think I have similar goals to anyone else here. I'm particularly interested in memory and creating a system of memories that I can search through by date or event. I'm curious to try using tools to analyze my images to determine which ones are the most interesting.
 : The more I think about it, the more important it feels to get started now. I don't have the same memory retention as everyone else. All of these photos of myself sitting here feel worthless right now, but they could be invaluable to me a decade from now. Maybe later on I'll be able to scan my data and be able to determine who is in which photos, or who was speaking to me on which days. I could capture my baby's first word and my reaction to it, and then capture the reaction we both have when I show it to her when she's old enough to appreciate it.
+* TODO [#D] [2019-11-02] indiekit | An IndieWeb publishing toolkit
+:PROPERTIES:
+:ID:       ndktnndwbpblshngtlkt
+:END:
+https://paulrobertlloyd.github.io/indiekit/
+: This tool is inspired by similar projects made by members of the IndieWeb community.
+* [#B] [2021-05-01] [[https://news.ycombinator.com/item?id=26991300][Internal Combustion Engine]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdntrnlcmbstnngn
+:END:
+https://ciechanow.ski/internal-combustion-engine/
+awersome interactive guide
+* TODO [#C] [2019-06-18] [[https://reddit.com/r/getdisciplined/comments/6xz444/discussion_having_way_too_many_interests/dmju4fr/][Discussion Having way too many interests]] /r/getdisciplined :productivity:
+:PROPERTIES:
+:ID:       srddtcmrgtdscplndcmmntsxzvngwytmnyntrstsrgtdscplnd
+:END:
+: * If everything is important, then nothing is (and nothing of importance will be accomplished).
+: * Nobody is too busy, it's a matter of prioritization.
+: * Prioritize using [Warren Buffett's 5/25 rule](http://lifehacker.com/prioritize-your-goals-with-warren-buffetts-two-list-sys-1639146039). List 25 things you want to do, do the top 5 and avoid the rest at all costs. (Note: 5/25 is flexible, it could be 1/10 or any number of combinations)
+: * The **avoid-at all-costs** part is the important part because you will get distracted and work on easier tasks when your top-5 becomes difficult. Time spent on  the bottom-20 means you lost focus. Work only on the top-5.
+: * Focus more on production than consumption. Production means create something or do something towards your goals. Consumption means reading, watching, listening. Consumption is easy, production is hard so people are mainly consumers.
+* [#B] [2020-05-05] [[https://reddit.com/r/slatestarcodex/comments/gdyjck/what_changes_significantly_worsened_your_quality/][What changes significantly worsened your quality of life?]] /r/slatestarcodex
+:PROPERTIES:
+:ID:       srddtcmrsltstrcdxcmmntsgdywrsndyrqltyflfrsltstrcdx
+:END:
+: Edit: I'm also interested in changes that you committed to for a substantial period of time (>6 months) because other people swore by them, but you ended up abandoning them because they didn't work for you.
+* [#B] [2020-05-04] [[https://reddit.com/r/slatestarcodex/comments/gdeg7e/what_changes_significantly_improved_your_quality/][What changes significantly improved your quality of life?]] /r/slatestarcodex
+:PROPERTIES:
+:ID:       srddtcmrsltstrcdxcmmntsgdymprvdyrqltyflfrsltstrcdx
+:END:

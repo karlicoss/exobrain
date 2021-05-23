@@ -664,7 +664,7 @@ https://twitter.com/wickrotate/status/1280624828026740737
 :PROPERTIES:
 :ID:       drcgf
 :END:
-: [[https://www.gregegan.net/images/DiracAnimation.gif][DiracAnimation.gif (GIF Image, 500 × 330 pixels)]]
+: https://www.gregegan.net/images/DiracAnimation.gif
 * [#B] [2020-07-24] [[https://www.scottaaronson.com/blog/?p=710][Shtetl-Optimized » Blog Archive » Rosser’s Theorem via Turing machines]]
 :PROPERTIES:
 :ID:       swwwscttrnsncmblgpshttlptlgrchvrssrsthrmvtrngmchns
@@ -3659,7 +3659,7 @@ https://t.co/44YfxUYhsh
 
 * ---------------------------------------
 :PROPERTIES:
-:ID:       190345_190418
+:ID:       190396_190469
 :END:
 processing on [2021-01-31]
 * TODO [#C] Tweet from @mekarpeles                                  :chinese:
@@ -3689,7 +3689,7 @@ https://twitter.com/nmwsharp/status/1153993638134910977
 
 * ----------------------------------------------
 :PROPERTIES:
-:ID:       191404_191453
+:ID:       191455_191504
 :END:
 * TODO [#C] [2021-01-22] [[http://bach.ai/pub/ECAP10%20Joscha%20Bach%20on%20AI%20singularity.pdf][ECAP10 Joscha Bach on AI singularity.pdf]]
 :PROPERTIES:
@@ -3735,3 +3735,24 @@ https://twitter.com/nmwsharp/status/1153993638134910977
 :PROPERTIES:
 :ID:       sjhncrlsbzwrdprsscmblckdwrfsprnvblckdwrfsprnvzmth
 :END:
+* STRT [#D] Tweet from Patrick Collison (@patrickc), at Nov 17, 23:15 :environment:
+:PROPERTIES:
+:CREATED:  [2019-11-18]
+:ID:       twtfrmptrckcllsnptrckctnv
+:END:
+: Partly inspired by @albrgr's tweets, I dug a little more into recent findings on the relationship between air pollution and cognition. The effects seem rather amazingly large: https://t.co/gC24nfXLuC.
+
+https://twitter.com/patrickc/status/1196205177742606336
+** [2019-11-23] dunno, interesting but not sure if there is anything actionable. buy pollution meter?
+:PROPERTIES:
+:ID:       dnnntrstngbtntsrfthrsnythngctnblbyplltnmtr
+:END:
+
+* TODO [#D] Tweet from Valentin Fadeev (@ValFadeev), at Sep 26, 09:03
+:PROPERTIES:
+:CREATED:  [2019-09-26]
+:ID:       twtfrmvlntnfdvvlfdvtsp
+:END:
+: I don't mean to re-ignite a flame war but, in a way, writing \int dx f(x) is like writing r=ix+jy+kz. What follows \int is a differential form, and dx is a basis 1-form. That said... I still find myself using that syntax in repeated integrals. https://t.co/OvKF6axJHT
+
+https://twitter.com/ValFadeev/status/1177131557687058432

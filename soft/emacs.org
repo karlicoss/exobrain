@@ -1034,3 +1034,10 @@ https://github.com/alphapapa/emacs-package-dev-handbook
 :CREATED:  [2021-04-26]
 :ID:       2313498e-4fe9-44eb-abe6-1f6cd28a06ca
 :END:
+* TODO [#C] [2020-04-21] http://metamodular.com/lispos.pdf     :emacs:toread:
+:PROPERTIES:
+:ID:       mtmdlrcmlspspdf
+:END:
+: In response to some of your worries about security and the future of Emacs as an OS, I tend to follow the ideals of this paper:
+
+[[https://riot.im/app/#/room/#malleable-systems:matrix.org][Riot [Offline] | Malleable Systems Collective]]

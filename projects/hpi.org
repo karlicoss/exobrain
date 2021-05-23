@@ -1,6 +1,7 @@
 #+OPTIONS: toc:nil
 #+TITLE: ⭐ HPI (Human Programming Interface)
 #+logseq_title: hpi
+
 #+filetags: :hpi:
 The repository: [[https://github.com/karlicoss/HPI][karlicoss/HPI]] and [[https://beepb00p.xyz/hpi.html][blog post]].
 
@@ -1498,7 +1499,7 @@ I guess it's kind of 'auto'? Although ETL sounds a bit magical
 see what's their approach to credentials
 * --------------------------------------------
 :PROPERTIES:
-:ID:       56683_56731
+:ID:       56703_56751
 :END:
 
 * TODO [#D] classify modules by ease of setup?                          :hpi:

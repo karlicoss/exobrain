@@ -8,11 +8,13 @@
 :END:
 
 
-* TODO [#B] B vs T immunity                                 :tostudy:biology:
+* STRT [#B] B vs T immunity                                 :tostudy:biology:
 :PROPERTIES:
 :CREATED:  [2021-01-12]
 :ID:       bvstmmnty
 :END:
+- [2021-05-18] https://www.youtube.com/watch?v=WdCiaIS2LV4 T cells: nice animation
+- [2021-05-18] https://www.youtube.com/watch?v=rDEduT62Awc also good animation of how T cells get selected, divided and activated
 * [#B] [2017-11-30] protein folding                              :complexity:
 :PROPERTIES:
 :ID:       prtnfldng
@@ -35,13 +37,13 @@ https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5
 : Пируваты (соли пировиноградной кислоты) — важные химические соединения в биохимии. Они являются конечным продуктом метаболизма глюкозы в процессегликолиза. Одна молекула глюкозы превращается при этом в две молекулы пировиноградной кислоты. Дальнейший метаболизм пировиноградной кислоты возможен двумя путями — аэробным и анаэробным.
 
 
-* TODO [2020-12-26] [[https://news.ycombinator.com/item?id=25538820][Reverse Engineering the Source Code of the BioNTech/Pfizer SARS-CoV-2 Vaccine | Hacker News]]
+* TODO [#C] [2020-12-26] [[https://news.ycombinator.com/item?id=25538820][Reverse Engineering the Source Code of the BioNTech/Pfizer SARS-CoV-2 Vaccine | Hacker News]]
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdrvrsngnrnbntchpfzrsrscvvccnhckrnws
 :END:
 : Synthetic Biology: A Primer
 : Wetware: A Computer in Every Living Cell
-** STRT [#B] [2021-02-22]  https://news.ycombinator.com/item?id=24345320 :toread:
+** DONE [#B] [2021-02-22]  https://news.ycombinator.com/item?id=24345320 :toread:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmd
 :END:
@@ -52,11 +54,10 @@ https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5
 :ID:       6d460198-82c2-4fe7-9766-aded22b1e81e
 :END:
 from [[https://www.instapaper.com/read/1234260607/11339250][ip]]   [[https://www.scottaaronson.com/blog/?p=4253][Shtetl-Optimized » Blog Archive » On two blog posts of Jerry Coyne]]
-* TODO [#B] [2020-04-08] Watch the Life Cycle of HIV in Colorful New Detail - Scientific American Blog Network :biology:
+* TODO [#B] [2020-04-08] [[https://blogs.scientificamerican.com/observations/watch-the-life-cycle-of-hiv-in-colorful-new-detail][Watch the Life Cycle of HIV in Colorful New Detail - Scientific American Blog Network]]
 :PROPERTIES:
-:ID:       wtchthlfcyclfhvnclrflnwdtlscntfcmrcnblgntwrk
+:ID:       sblgsscntfcmrcncmbsrvtnswflnwdtlscntfcmrcnblgntwrk
 :END:
-https://blogs.scientificamerican.com/observations/watch-the-life-cycle-of-hiv-in-colorful-new-detail/
 * [#C] [2020-04-26] [[https://news.ycombinator.com/item?id=22989280][Ask HN: What scientific phenomenon do you wish someone would explain better? | Hacker News]] :biology:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdskhnwhtscywshsmnwldxplnbttrhckrnws
@@ -99,7 +100,7 @@ from Come as You Are
 :END:
 ** TODO [#C] [2019-01-29]
 :PROPERTIES:
-:ID:       7728_8061
+:ID:       8124_8457
 :END:
 : The detergents in the dish soap (like the sodium laurel sulfate, aka sodium dodecyl sulfate) destabilize the membranes of the cells, spilling their contents into the rest of the solution of saliva.
 
@@ -124,9 +125,9 @@ https://twitter.com/shlizee/status/1158486688307400705
 :ID:       srddtcmrskscnccmmntsfvcjhdgtthfltwntbsbdwrkrskscnc
 :END:
 : There's actually a very cool effect where either getting infected with flu or getting vaccinated boosts your antibody response to all previous strains of flu you've encountered (by getting flu or by being vaccinated). In recent years WHO have begun to shift towards using antigenically advanced vaccines, whereby they predict how currently circulating strains of flu will evolve and artificially create vaccines for the flu strain they think will be circulating in 6 months time, as even if the virus doesn't mutate to a new strain, the antibody backboost means you still get protection against most circulating strains. Check out this paper (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4246172/) if you want a more detailed explanation, but basically the vaccine can boost your antibody response to a fairly wide range of influenza virus strains  (this is at least true for type A H3N2 influenza, there are 4 different types of influenza in the annual vaccine)
-* TODO [#C] [2019-03-28] Cellular Visions: The Inner Life of a Cell - Studio Daily http://www.studiodaily.com/2006/07/cellular-visions-the-inner-life-of-a-cell/ :biology:viz:
+* TODO [#C] [2019-03-28] [[http://www.studiodaily.com/2006/07/cellular-visions-the-inner-life-of-a-cell][Cellular Visions: The Inner Life of a Cell - Studio Daily]] :biology:viz:
 :PROPERTIES:
-:ID:       clllrvsnsthnnrlffcllstddldlycmclllrvsnsthnnrlffcll
+:ID:       wwwstddlycmclllrvsnsthnnrlllrvsnsthnnrlffcllstddly
 :END:
 
 * TODO [#C] [2019-10-27] [[https://www.youtube.com/watch?v=BickMFHAZR0][How Trees Bend the Laws of Physics - YouTube]] :physics:biology:
@@ -146,7 +147,7 @@ Birds might sense magnet field via entangled electrons?
 :PROPERTIES:
 :ID:       vmhnlrcnmpmtblsmntrctvmp
 :END:
-* [#D] [2019-02-10] (6) Simplicial Complexes - Your Brain as Math Part 2 | Infinite Series - YouTube :brain:topology:
+* [#D] [2019-02-10] Simplicial Complexes - Your Brain as Math Part 2 | Infinite Series - YouTube :brain:topology:
 :PROPERTIES:
 :ID:       smplclcmplxsyrbrnsmthprtnfntsrsytb
 :END:
@@ -158,16 +159,18 @@ can we use it for figuring out the fundaemntal group after that?
 e.g. torus -- second betty number is 1 since the hole are the insides of torus
 
 neuron connections are a higher dimension simplicial complex
-* TODO [2021-01-10] [[https://github.com/keller-mark/awesome-biological-visualizations#readme][keller-mark/awesome-biological-visualizations: A list of web-based interactive biological data visualizations.]] :biology:viz:
+* TODO [#C] [2021-01-10] [[https://github.com/keller-mark/awesome-biological-visualizations#readme][keller-mark/awesome-biological-visualizations: A list of web-based interactive biological data visualizations.]] :biology:viz:
 :PROPERTIES:
 :ID:       sgthbcmkllrmrkwsmblgclvslwbbsdntrctvblgcldtvslztns
 :END:
 
-* TODO [2021-01-16] [[https://twitter.com/OlgaVPettersson/status/1350337989134659584][(1) Olga V. Pettersson on Twitter: "Балтимор, в 70х, открыл вирусный механизм, который этим занимается. Чтобы вирусу встроиться в геном, у него должно быть два гена: 1) обратная транскриптаза для перевода РНК в ДНК и 2) интеграза, кодирующая белок который встраивает свежесделанную вирусную ДНК в геном." / Twitter]]
+* TODO [2021-01-16] [[https://twitter.com/OlgaVPettersson/status/1350337989134659584][Olga V. Pettersson on Twitter: "Балтимор, в 70х, открыл вирусный механизм, который этим занимается. Чтобы вирусу встроиться в геном, у него должно быть два гена: 1) обратная транскриптаза для перевода РНК в ДНК и 2) интеграза, кодирующая белок который встраивает свежесделанную вирусную ДНК в геном." / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmlgvpttrssnsttslgvнуювируснуюднквгеномtwttr
 :END:
-: Чтобы вирусу встроиться в геном, у него должно быть два гена: 1) обратная транскриптаза для перевода РНК в ДНК и 2) интеграза, кодирующая белок который встраивает свежесделанную вирусную ДНК в геном.
+: Чтобы вирусу встроиться в геном, у него должно быть два гена:
+: 1) обратная транскриптаза для перевода РНК в ДНК и
+: 2) интеграза, кодирующая белок который встраивает свежесделанную вирусную ДНК в геном.
 * TODO [#C] [2020-06-09] [[https://github.com/prathyvsh/formal-systems-in-biology][prathyvsh/formal-systems-in-biology: Application of formal systems to model biological systems]]
 :PROPERTIES:
 :ID:       sgthbcmprthyvshfrmlsystmsfrmlsystmstmdlblgclsystms
@@ -193,7 +196,7 @@ very cool podcast, the guy is super enthusiastic, pleasure to hear such people
 :ID:       swwwytbcmwtchvvkgjrpthwrldnvytb
 :END:
 huh, apparently UV protective pigments are also inside the cells, around nucleus to protect DNA
-* [#B] [2021-01-11] [[https://berthub.eu/articles/posts/amazing-dna/][DNA seen through the eyes of a coder (or, If you are a hammer, everything looks like a nail) - Articles]]
+* [#B] [2021-01-11] [[https://berthub.eu/articles/posts/amazing-dna][DNA seen through the eyes of a coder (or, If you are a hammer, everything looks like a nail) - Articles]] :dna:
 :PROPERTIES:
 :ID:       sbrthbrtclspstsmzngdndnsnyrhmmrvrythnglkslknlrtcls
 :END:
@@ -210,7 +213,7 @@ huh, apparently UV protective pigments are also inside the cells, around nucleus
 : However, it turns out that RNA with a higher amount
 : of Gs and Cs is also converted more efficiently into proteins,
 : And this has been achieved in the vaccine RNA by replacing many characters with Gs and Cs wherever this was possible.
-* [#C] [2020-12-26] [[https://berthub.eu/articles/posts/dna-the-code-of-life/][Dna the Code of Life - Articles]]
+* [#C] [2020-12-26] [[https://berthub.eu/articles/posts/dna-the-code-of-life/][Dna the Code of Life - Articles]] :dna:
 :PROPERTIES:
 :ID:       sbrthbrtclspstsdnthcdflfdnthcdflfrtcls
 :END:
@@ -241,7 +244,7 @@ huh, apparently UV protective pigments are also inside the cells, around nucleus
 :END:
 : Penicillin kills bacteria by inhibiting the completion of the synthesis of peptidoglycans, the structural component of bacterial cell wall.
 
-* [#C] [2021-03-31] [[https://twitter.com/EmporiumThought/status/1376936685062086660][(1) The Thought Emporium on Twitter: "@PowerDNS_Bert Modern biology isn't usually done yourself. You outsource 95% of it. So the distinction is irrelevant. If you know the right companies you can get anything done, including this. And it's neither hard nor expensive. The last 5% can in fact be done at home." / Twitter]]
+* [#C] [2021-03-31] [[https://twitter.com/EmporiumThought/status/1376936685062086660][The Thought Emporium on Twitter: "@PowerDNS_Bert Modern biology isn't usually done yourself. You outsource 95% of it. So the distinction is irrelevant. If you know the right companies you can get anything done, including this. And it's neither hard nor expensive. The last 5% can in fact be done at home." / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmmprmthghtsttsththnsvthlstcnnfctbdnthmtwttr
 :END:

@@ -111,3 +111,8 @@ shit... seems that error handling isn't present
 :ID:       swwwrddtcmrndrddvcmmntskpvryslwflccssprfrmncndrddv
 :END:
 why android sucks: they are ruining the filesystem
+* [#C] [2019-12-20] [[https://reddit.com/r/fossdroid/comments/ed7j6p/lineageos_is_discontinuing_its_own_superuser/fbg2yoq/][LineageOS is discontinuing its own superuser implementation in the version 17]] /r/fossdroid
+:PROPERTIES:
+:ID:       srddtcmrfssdrdcmmntsdjplnrsrmplmnttnnthvrsnrfssdrd
+:END:
+: Personally I don't think that I can live without root rights. While the LineageOS' data usage permissions may be an alternative for Afwall+, it's not possible to back up app data (Oandbackup) without superuser permissions and a maintained hosts file (Adaway) is nice to have as a backup. Note that these are only my personal most-used root apps, I've used more and occasionally access protected paths with Amaze.

@@ -185,6 +185,13 @@ like in arctee
 :END:
 
 e.g. it's generating "How do you use it?" -> how-do-you-use-it
+** STRT [#C] [2020-01-25] [[https://reddit.com/r/emacs/comments/etrea1/github_not_rendering_some_org_mode_documents/][GitHub not rendering some Org mode documents]] /r/emacs :github:orgmode:
+:PROPERTIES:
+:ID:       srddtcmrmcscmmntstrgthbntbntrndrngsmrgmddcmntsrmcs
+:END:
+: Does somebody have an idea why pages like https://github.com/novoid/dot-emacs/blob/master/README.org are rendered by GitHub in a nice way but pages like https://github.com/novoid/dot-emacs/blob/master/config.org aren't?
+: 
+: Is it the file size or number of lines? Does somebody know of any limitation here?
 * TODO [#B] search for completed tasks that have todo subtasks?
 :PROPERTIES:
 :CREATED:  [2020-05-30]
@@ -1387,4 +1394,17 @@ note sure about logbook...
 * [#C] [2021-01-25] org-fc didn't work straightaway             :srs:orgmode:
 :PROPERTIES:
 :ID:       rgfcddntwrkstrghtwy
+:END:
+* [#C] [2020-05-20] [[https://reddit.com/r/orgmode/comments/gn71oj/combining_normal_orgfiles_and_orgroam/fr7xxso/][Combining normal org-files and org-roam]] /r/orgmode :orgroam:
+:PROPERTIES:
+:ID:       srddtcmrrgmdcmmntsgnjcmbnmbnngnrmlrgflsndrgrmrrgmd
+:END:
+: I have an  `~/org/` directory for all my regular org files, and inside that there is `~/org/notes/`  in which org-roam lives
+* TODO [#C] [2020-07-06] [[https://reddit.com/r/planetemacs/comments/hm3i40/orgweb_orgmode_on_the_web_built_with_react/][org-web: org-mode on the web, built with React, optimized for mobile, synced with Dropbox and Google Drive]] /r/planetemacs :orgmode:blog:exobrain:
+:PROPERTIES:
+:ID:       srddtcmrplntmcscmmntshmrgdwthdrpbxndggldrvrplntmcs
+:END:
+** [2020-12-10] eh, only connects to google drive/dropbox?
+:PROPERTIES:
+:ID:       hnlycnnctstggldrvdrpbx
 :END:

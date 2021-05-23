@@ -1889,3 +1889,26 @@ https://github.com/willmcgugan/rich
 :ID:       stwttrcmsmnwsttssmnwllsnnsngrngrqstsstchsxlbztwttr
 :END:
 : "Hosting SQLite databases on Github Pages" is absolutely brilliant: it adds a virtual filesystem to SQLite-compiled-to-WebAssembly in order to fetch pages from the database using HTTP range requests https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/
+* [#D] [2020-05-09] Hundred Rabbits — tools ecosystem https://100r.co/site/tools_ecosystem.html
+:PROPERTIES:
+:ID:       hndrdrbbtstlscsystmsrcsttlscsystmhtml
+:END:
+* [#C] [2021-04-15] [[https://news.ycombinator.com/item?id=26813725][Ask HN: Would issue “bounties” make contributing to open source more appealing?]] :opensource:
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdskhnwldsstsmkcntrbtngtpnsrcmrpplng
+:END:
+https://news.ycombinator.com/item?id=26813725
+* [#C] [2019-11-05] [[https://reddit.com/r/ProgrammingLanguages/comments/drr3ri/whats_your_favorite_implementation_of_exception/f6mpqgp/][Whats your favorite implementation of Exception handling?]] /r/ProgrammingLanguages
+:PROPERTIES:
+:ID:       srddtcmrprgrmmnglnggscmmnxcptnhndlngrprgrmmnglnggs
+:END:
+:  A [condition system](https://en.wikipedia.org/wiki/Exception_handling#Condition_systems) **built atop** [**multi prompt delimited continuations**](https://www.google.com/search?q=%22multi-prompt+delimited+continuations%22).
+:  These two ingredients (*condition system* and *multi prompt delimited continuations*) first emerged (separately) in the 1980s or thereabouts.
+:  I foresee them re-emerging in new programming languages in the 2020s, kicked off by the incorporation of multi prompt delimited continuations into the Java run-time. (A Java condition system will then naturally emerge.)
+:  Note the formal correspondence between multi prompt delimited continuations and algebraic effects.
+:  You might be interested in a thread from this sub a few months back titled [Is there any interesting work on how to handle errors in code?](https://www.reddit.com/r/ProgrammingLanguages/comments/buged8/is_there_any_interesting_work_on_how_to_handle/) which covered roughly the same territory as this thread but with quite different commentary.
+:  From my perspective this isn't really about errors. I wrote [a long comment](https://www.reddit.com/r/ProgrammingLanguages/comments/buged8/is_there_any_interesting_work_on_how_to_handle/epdpjjp/) in the above linked thread that explained my perspective. (NB. The recently released new language mentioned in that comment was renamed a couple weeks ago to *Raku* to try stop people incorrectly jumping to conclusions about it based on its name rather than its technology. Here's [its new blog](https://rakudoweekly.blog/blog-feed/).)
+* TODO [#C] [2019-11-26] [[https://reddit.com/r/coolgithubprojects/comments/e1vsgs/the_design_reference_for_the_developers_who_care/][🌃 the design reference for the developers who care about good design.]] /r/coolgithubprojects
+:PROPERTIES:
+:ID:       srddtcmrclgthbprjctscmmntwhcrbtgddsgnrclgthbprjcts
+:END:

@@ -70,3 +70,9 @@ https://mathoverflow.net/questions/51395/a-soft-introduction-to-physics-for-math
 :END:
 : Another question: Why in general relativity E=mc2?
 : Math Answer: Because the group of Poincaré has no cohomology
+
+* [#B] [2020-12-07] [[https://reddit.com/r/Physics/comments/k8ma4v/how_big_is_an_electron/][How big is an electron?]] /r/Physics
+:PROPERTIES:
+:ID:       srddtcmrphyscscmmntskmvhwsnlctrnhwbgsnlctrnrphyscs
+:END:
+https://gravityandlevity.wordpress.com/2015/04/11/how-big-is-an-electron/

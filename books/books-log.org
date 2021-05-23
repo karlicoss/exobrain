@@ -42,3 +42,41 @@ Quite primitive, no punchline. Robot names & stuff is a bit corny.
 :ID:       шеклипрогулка
 :END:
 Meh. Какой-то очень плоский рассказ
+
+* DONE [#C] Trainspotting?                                             :read:
+:PROPERTIES:
+:CREATED:  [2020-09-16]
+:ID:       trnspttng
+:END:
+* CNCL [#D] neuromancer hotz recommendation                            :read:
+:PROPERTIES:
+:CREATED:  [2020-10-22]
+:ID:       nrmncrhtzrcmmndtn
+:END:
+* DONE [#B] [2019-05-05] Greg Egan: Perihelion summer (recommended by [[https://twitter.com/johncarlosbaez/status/1125070015172997120][John Baez]])
+:PROPERTIES:
+:ID:       grggnprhlnsmmrrcmmnddbystwttrcmjhncrlsbzsttsjhnbz
+:END:
+
+* DONE [#B] [2019-05-08] [[https://www.kobo.com/us/en/ebook/exhalation-4][Exhalation eBook by Ted Chiang | Rakuten Kobo]]
+:PROPERTIES:
+:ID:       swwwkbcmsnbkxhltnxhltnbkbytdchngrktnkb
+:END:
+* DONE [#A] [2019-12-28] [[https://en.wikipedia.org/wiki/Permutation_City][Permutation City - Wikipedia]]
+:PROPERTIES:
+:ID:       snwkpdrgwkprmttnctyprmttnctywkpd
+:END:
+* DONE [#B] [2019-03-19] [[https://www.reddit.com/r/printSF/comments/azo1o6/new_ted_chiang_incoming][New Ted Chiang Incoming : printSF]]
+:PROPERTIES:
+:ID:       swwwrddtcmrprntsfcmmntszngncmngnwtdchngncmngprntsf
+:END:
+- [2019-04-08] Omphalos and Anxiety is the Dizziness of Freedom are the new ones.
+* DONE [#B] [2019-11-06] [[https://twitter.com/i/web/status/1176017858414800906][Brian Armstrong: "Some interesting sci-fi short stories I've read recently | Twitter]]
+:PROPERTIES:
+:ID:       stwttrcmwbsttsbrnrmstrngsscfshrtstrsvrdrcntlytwttr
+:END:
+: Some interesting sci-fi short stories I've read recently
+: Understand by Ted Chiang
+:   https://web.archive.org/web/20140311042827/http://www.infinityplus.co.uk/stories/under.html
+: The Gentle Seduction by Marc Stiegler
+:   http://skyhunter.com/marcs/GentleSeduction.html…

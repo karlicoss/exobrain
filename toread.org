@@ -88,33 +88,6 @@ I also maintain a [[https://www.goodreads.com/user/show/22191391-dima-gerasimov]
 : His remarkable book The Road to Reality4 gives an extensive overview of theoretical physics, largely from the point of view of general relativity rather than particle physics
 : , and can be consulted for a summary of the main ideas of twistor theory
 : from Not Even Wrong: The Failure of String Theory and the Search for Unity in Physical Law for Unity in Physical Law
-** DONE [#B] [2019-05-08] [[https://www.kobo.com/us/en/ebook/exhalation-4][Exhalation eBook by Ted Chiang | Rakuten Kobo]]
-:PROPERTIES:
-:ID:       swwwkbcmsnbkxhltnxhltnbkbytdchngrktnkb
-:END:
-** DONE [#A] [2019-12-28] [[https://en.wikipedia.org/wiki/Permutation_City][Permutation City - Wikipedia]]
-:PROPERTIES:
-:ID:       snwkpdrgwkprmttnctyprmttnctywkpd
-:END:
-** DONE [#B] [2019-03-19] [[https://www.reddit.com/r/printSF/comments/azo1o6/new_ted_chiang_incoming][New Ted Chiang Incoming : printSF]]
-:PROPERTIES:
-:ID:       swwwrddtcmrprntsfcmmntszngncmngnwtdchngncmngprntsf
-:END:
-- [2019-04-08] Omphalos and Anxiety is the Dizziness of Freedom are the new ones.
-** DONE [#B] [2019-05-05] Greg Egan: Perihelion summer (recommended by [[https://twitter.com/johncarlosbaez/status/1125070015172997120][John Baez]])
-:PROPERTIES:
-:ID:       grggnprhlnsmmrrcmmnddbystwttrcmjhncrlsbzsttsjhnbz
-:END:
-
-** DONE [#B] [2019-11-06] [[https://twitter.com/i/web/status/1176017858414800906][Brian Armstrong: "Some interesting sci-fi short stories I've read recently | Twitter]]
-:PROPERTIES:
-:ID:       stwttrcmwbsttsbrnrmstrngsscfshrtstrsvrdrcntlytwttr
-:END:
-: Some interesting sci-fi short stories I've read recently
-: Understand by Ted Chiang
-:   https://web.archive.org/web/20140311042827/http://www.infinityplus.co.uk/stories/under.html
-: The Gentle Seduction by Marc Stiegler
-:   http://skyhunter.com/marcs/GentleSeduction.html…
 ** CNCL [#B] [2019-11-03] "God Shaped Hole by Zero HP Lovecraft"
 :PROPERTIES:
 :ID:       gdshpdhlbyzrhplvcrft
@@ -347,7 +320,6 @@ https://news.ycombinator.com/item?id=22095277
 :END:
 https://news.ycombinator.com/item?id=22528597
 : The relevant book for this is Measuring and Managing Information Risk: A FAIR Approach by Freund and Jones[0].
-: 
 : Both books are worth reading; Hubbard's influence on FAIR is noticeable and positive. FAIR has the advantage that it comes with a fairly built-out ontology for assembling data or estimates. The OP touches on the top level (Loss Event Magnitude and Loss Event Frequency), but the ontology goes quite deep and can be used at multiple levels of detail.
 ** TODO [#C] Tweet from @skdh
 :PROPERTIES:
@@ -427,11 +399,6 @@ https://www.kobo.com/gb/en/ebook/upgraded-1
 Todo
 from The Strangest Man by Graham Farmelo
 
-** DONE [#C] Trainspotting?                                            :read:
-:PROPERTIES:
-:CREATED:  [2020-09-16]
-:ID:       trnspttng
-:END:
 ** [#C] [2020-09-16] [[https://twitter.com/ID_AA_Carmack/status/1306109831401492486][John Carmack on Twitter: "@lexfridman Neuromancer by Gibson and Fire Upon The Deep by Vinge should be on the list, and the sequels if you enjoy them." / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmdcrmcksttsjhncrmchlstndthsqlsfynjythmtwttr
@@ -439,12 +406,7 @@ from The Strangest Man by Graham Farmelo
 : Fire Upon The Deep by Vinge should be on the list
 
 
-** TODO neuromancer hotz recommendation                                :read:
-:PROPERTIES:
-:CREATED:  [2020-10-22]
-:ID:       nrmncrhtzrcmmndtn
-:END:
-** [2020-10-22] [[https://en.wikipedia.org/wiki/Infinite_Jest][Infinite Jest - Wikipedia]] :read:
+** TODO [#B] [2020-10-22] [[https://en.wikipedia.org/wiki/Infinite_Jest][Infinite Jest - Wikipedia]] :read:
 :PROPERTIES:
 :ID:       snwkpdrgwknfntjstnfntjstwkpd
 :END:
@@ -459,19 +421,18 @@ hotz recommendation?
 :ID:       snwsycmbntrcmtmdcldwrbtmdncvlztnwthtfsslflshckrnws
 :END:
 : Ringworld goes into this topic quite a bit, so it was interesting to me to see that the author is an astrobiologist who wrote "The Knowledge", about restarting civilization from scratch
-** [2020-07-11] [[https://twitter.com/skdh/status/1267770018827309057][Sabine Hossenfelder on Twitter: "The paperback edition of my book "Lost in Math" is out now! https://t.co/qGVnJBSPXt https://t.co/nz39qMacWo" / Twitter]]
+** TODO [#C] [2020-07-11] [[https://twitter.com/skdh/status/1267770018827309057][Sabine Hossenfelder on Twitter: "The paperback edition of my book "Lost in Math" is out now! https://t.co/qGVnJBSPXt https://t.co/nz39qMacWo" / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmskdhsttssbnhssnflcqgvnjbspxtstcnzqmcwtwttr
 :END:
 : The paperback edition of my book "Lost in Math" is out now!
-: 
 : https://basicbooks.com/titles/sabine-hossenfelder/lost-in-math/9781541646766/
 ** [2020-12-14] [[https://johncarlosbaez.wordpress.com/2019/10/10/foundations-of-math-and-physics-one-century-after-hilbert/][Foundations of Math and Physics One Century After Hilbert | Azimuth]] :book:read:
 :PROPERTIES:
 :ID:       sjhncrlsbzwrdprsscmfndtnsdphyscsncntryftrhlbrtzmth
 :END:
 : Foundations of Math and Physics One Century After Hilbert
-** TODO [#A] [2021-03-20] [[https://en.wikipedia.org/wiki/Accelerando][Accelerando - Wikipedia]] :toread:
+** STRT [#A] [2021-03-20] [[https://en.wikipedia.org/wiki/Accelerando][Accelerando - Wikipedia]] :toread:
 :PROPERTIES:
 :ID:       snwkpdrgwkcclrndcclrndwkpd
 :END:
@@ -493,6 +454,19 @@ hotz recommendation?
 :END:
 somewhat cliche, I guess it was cool years ago when it was released... but now it doesn't read as anything exciting
 ... just yet another cyberpunk setting, with some hackers, some cyberspace etc etc
+** TODO [#D] [2019-01-17] Time in Powers of Ten: Natural Phenomena and their Timescales
+:PROPERTIES:
+:ID:       tmnpwrsftnntrlphnmnndthrtmscls
+:END:
+https://www.quantumdiaries.org/2014/
+: Gerard ‘t Hooft, Stefan Vandoren
+: In Time in Powers of Ten: Natural Phenomena and their Timescales, Nobel Laureate Gerard ‘t Hooft and theorist Stefan Vandoren, both of Utrecht University in the Netherlands, step back and forth in time from the minutest fractions of a second to the age of the universe and beyond. Observations range from the orbits and rotations of planets and stars, down to the decay times of atoms and elementary particles and back to geological time scales.
+
+** TODO [#C] [2019-09-17] [[https://reddit.com/r/Showerthoughts/comments/d4yxtq/most_people_know_so_little_that_if_they_were/f0iemzi/][Most people know so little that if they were transported 200 years into the past, they wouldn't be able to invent anything any quicker.]] /r/Showerthoughts :toread:
+:PROPERTIES:
+:ID:       srddtcmrshwrthghtscmmntsdntnythngnyqckrrshwrthghts
+:END:
+: This is the premise of Ryan North's recent book [How to Invent Everything: A Survival Guide for the Stranded Time Traveler](https://www.howtoinventeverything.com/).
 * TODO [#B] [2020-01-13] [[https://twitter.com/litgenstein/status/1216512864015417344][@litgenstein: In this text, by the way, Schwinger gives a very clear ~20 page summary of the history of the classical —> quantum transition]] :physics:
 :PROPERTIES:
 :ID:       stwttrcmltgnstnsttsltgnsthhstryfthclssclqntmtrnstn
@@ -514,13 +488,6 @@ wow, lots of cool stuff here..
 :PROPERTIES:
 :ID:       swwwqntmgznrgdstmrllyflwnrmcntryldpprchtmthqntmgzn
 :END:
-* TODO [#B] [2020-04-21] http://metamodular.com/lispos.pdf            :emacs:
-:PROPERTIES:
-:ID:       mtmdlrcmlspspdf
-:END:
-: In response to some of your worries about security and the future of Emacs as an OS, I tend to follow the ideals of this paper:
-
-[[https://riot.im/app/#/room/#malleable-systems:matrix.org][Riot [Offline] | Malleable Systems Collective]]
 * TODO [#C] [2019-12-30] goodenough biography
 :PROPERTIES:
 :ID:       gdnghbgrphy
@@ -1155,3 +1122,70 @@ from bio link https://twitter.com/VitalikButerin
 :PROPERTIES:
 :ID:       swwwgrggnntntrvwsntrvwshtmlntrvwsgrggn
 :END:
+
+* STRT [#D] [2019-04-22] Most Important Slate Star Codex Posts - Alexey Guzey
+:PROPERTIES:
+:ID:       mstmprtntsltstrcdxpstslxygzy
+:END:
+https://guzey.com/favorite/slate-star-codex/
+
+* TODO [#C] Science Fiction Fantasy Book Reviews https://sfbook.com/
+:PROPERTIES:
+:CREATED:  [2020-08-08]
+:ID:       scncfctnfntsybkrvwsssfbkcm
+:END:
+
+* TODO [#D] [2019-01-17] How To Actually Change Your Mind - Lesswrongwiki
+:PROPERTIES:
+:ID:       hwtctllychngyrmndlsswrngwk
+:END:
+https://wiki.lesswrong.com/wiki/How_To_Actually_Change_Your_Mind
+
+* TODO [#D] [2019-10-29] [[https://reddit.com/r/slatestarcodex/comments/dot5e0/our_new_guide_to_doing_good_with_your_career/][Our new guide to doing good with your career — 80,000 Hours]] /r/slatestarcodex
+:PROPERTIES:
+:ID:       srddtcmrsltstrcdxcmmntsdtnggdwthyrcrrhrsrsltstrcdx
+:END:
+
+* TODO [#D] [2019-10-19] Engelbart: "Augmenting Human Intellect" https://mnielsen.github.io/notes/engelbart/engelbart.html#slide-32
+:PROPERTIES:
+:ID:       nglbrtgmntnghmnntllctsmnlthbntsnglbrtnglbrthtmlsld
+:END:
+: How can we use computers to change people's emotional experience?
+
+** TODO [#C] [2019-12-20] Papert's Mindstorms is pretty good on this. :emotions:learning:
+:PROPERTIES:
+:ID:       pprtsmndstrmssprttygdnths
+:END:
+:  in which he argues for the benefits of teaching computer literacy in primary and secondary education.
+* TODO [#D] Ask HN: Quitting Big Tech, what is it like? | Hacker News
+:PROPERTIES:
+:CREATED:  [2019-11-27]
+:ID:       skhnqttngbgtchwhtstlkhckrnws
+:END:
+https://news.ycombinator.com/item?id=21645117
+
+* STRT [#D] [2019-12-23] Where Is My Mind? - Issue 79: Catalysts - Nautilus
+:PROPERTIES:
+:ID:       whrsmymndssctlystsntls
+:END:
+http://nautil.us/issue/79/catalysts/where-is-my-mind?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication
+
+* TODO [#D] [2020-03-11] Seth Godin Hates Being Organized - Superorganizers https://superorganizers.substack.com/p/seth-godin-hates-being-organized
+:PROPERTIES:
+:ID:       sthgdnhtsbngrgnzdsprrgnzrbstckcmpsthgdnhtsbngrgnzd
+:END:
+* TODO [#B] [2021-01-27] [[https://reddit.com/r/printSF/comments/l5qrrz/author_most_like_greg_egan/gkx643j/][Author most like Greg Egan?]] /r/printSF :toread:
+:PROPERTIES:
+:ID:       srddtcmrprntsfcmmntslqrrzngkxjthrmstlkgrggnrprntsf
+:END:
+: Big Egan fan myself. I would recommend Accelerando by Charles Stross and Schismatrix by Bruce Sterling.
+* TODO [#B] [2021-01-27] [[https://reddit.com/r/printSF/comments/l5qrrz/author_most_like_greg_egan/gkw6fss/][Author most like Greg Egan?]] /r/printSF :toread:
+:PROPERTIES:
+:ID:       srddtcmrprntsfcmmntslqrrzkwfssthrmstlkgrggnrprntsf
+:END:
+: The other hardest sci-if I have read is Manifold:Time by Stephen Baxter.
+* TODO [#B] [2021-05-06] [[https://reddit.com/r/MitchellAndWebb/comments/n63pn2/on_the_back_wikipedia_page_yes_this_is_the_whole/gx6do58/][On the "Back" Wikipedia page. Yes, this is the whole section. This is the most British thing I've ever seen.]] /r/MitchellAndWebb :toread:
+:PROPERTIES:
+:ID:       srddtcmrmtchllndwbbcmmntsrtshthngvvrsnrmtchllndwbb
+:END:
+: I've read David Mitchells autobiography - IIRC he says in there that it almost wasn't renewed, then another channel expressed interest in picking it up, which led to it being renewed.

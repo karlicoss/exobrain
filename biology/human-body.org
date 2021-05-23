@@ -25,7 +25,7 @@ ANS
 :PROPERTIES:
 :ID:       lptnnhbtshngrnbstydcrsdsnlptnccrssyrnbltdtcthngrwk
 :END:
-* [2018-07-18] TLDR: serotonin and dopamine are just transmitters and have MANY functions
+* [2018-07-18] TLDR: serotonin and dopamine are just transmitters and have MANY functions :hormones:
 :PROPERTIES:
 :ID:       tldrsrtnnnddpmnrjsttrnsmttrsndhvmnyfnctns
 :END:
@@ -89,7 +89,7 @@ But there isn't that much of it really. reserves are stored in white adipose tis
 :END:
 Progestin? Birth control pills
 
-* [2015-03-05] http://biology.stackexchange.com/a/2740/14563 Do men have significant hormonal cycles? :humanbody:
+* [2015-03-05] http://biology.stackexchange.com/a/2740/14563 Do men have significant hormonal cycles? :hormones:
 :PROPERTIES:
 :ID:       blgystckxchngcmdmnhvsgnfcnthrmnlcycls
 :END:
@@ -171,8 +171,9 @@ This also means that a developing embryo is most sensitive to radiation during t
 :PROPERTIES:
 :ID:       scrsslmnlrnngcmcnycspchptsmsclrhmstssntmyndphyslgy
 :END:
-: Skeletal muscles contribute to maintaining temperature homeostasis in the body by generating heat. Muscle contraction requires energy and produces heat as a byproduct of metabolism. All types of muscle produce heat, but because of the large amount of skeletal muscle present in the body, skeletal muscle contributes most greatly to heat production. This is very noticeable during exercise, when sustained muscle movement causes body temperature to rise. In cases of extreme cold, shivering produces random skeletal muscle contractions to generate heat as part of the negative feedback mechanism of maintaining body temperature.
-* [2020-12-20] [[https://www.runnersworld.com/training/a25998598/what-causes-post-workout-muscle-soreness/][What Causes Sore Muscles? | Why Am I So Sore?]]
+: Skeletal muscles contribute to maintaining temperature homeostasis in the body by generating heat. Muscle contraction requires energy and produces heat as a byproduct of metabolism. All types of muscle produce heat, but because of the large amount of skeletal muscle present in the body, skeletal muscle contributes most greatly to heat production. This is very noticeable during exercise, when sustained muscle movement causes body temperature to rise.
+: In cases of extreme cold, shivering produces random skeletal muscle contractions to generate heat as part of the negative feedback mechanism of maintaining body temperature.
+* [2020-12-20] [[https://www.runnersworld.com/training/a25998598/what-causes-post-workout-muscle-soreness/][What Causes Sore Muscles? | Why Am I So Sore?]] :exercise:
 :PROPERTIES:
 :ID:       swwwrnnrswrldcmtrnngwhtcssrnsswhtcsssrmsclswhymssr
 :END:
@@ -260,3 +261,11 @@ The FA chains are cleaved off of the glycerol backbone. The 3 FA chains are oxid
 : For a better perspective on issues relating to having an addictive personality, I recommend The Compass of Pleasure by neuroscientist David J. Linden for understanding reward-theory that dominates the psychology research now.
 : 
 : I don't doubt that some people have legitimate problems worsened by pornography use, but I would say that they would benefit highly from seeing a therapist rather than following some of these more shaky theories. I've known young men who are thinking they have issues with dopamine, when in reality many of them have issues with shame, anxiety, and communication. I do believe porn addicts exist, but I think it is worth getting diagnosed by a professional who can rule out other causes.
+* [#C] [2020-03-19] [[https://reddit.com/r/askscience/comments/flbf8q/when_you_have_an_illness_flu_throat_infection_etc/fkxudvf/][When you have an illness (flu, throat infection etc) does your immune system weaken since it is busy fighting or actually improves since it is active? Or none of the above? Thank you]] /r/askscience :immunity:
+:PROPERTIES:
+:ID:       srddtcmrskscnccmmntsflbfqtsctvrnnfthbvthnkyrskscnc
+:END:
+: I see some people saying yes and this is not a supported statement. Your immune system is activated upon interaction with a pathogen or with the recognition of a non-self antigen. This means your entire immune system begins to rapidly expand and proliferate. At the beginning of an infection this is dominated by your innate immune system (complement, macrophages, dendritic cells, neutrophils, natural killer cells, ect). At this same time this is occuring T and B cells are interacting with antigen presenting cells in your lymphatic system. When a T or B cell interacts with its cognate antigen (the antigen that corresponds to its T-cell receptor or B-cell receptor) it undergoes a proliferative burst. B cells will create plasma cells and undergo somatic hyper-mutation. At this point the adaptive response overtakes the innate response and remains the primary response until; containment, clearance or host death.
+: So no, your immune system is not weakened as a whole. What does happen is the survival cytokines and other survival signals are sequestered by cells who have an advantage, such as the T or B cells who recognize the pathogen. HOWEVER other cells are still around and if you had your immune system recognize multiple antigens at a given time, they would all receive the same signal and compete for resources.
+: Interestingly, this is why the theory that you can develop an allergy during an immune response exist and why some researchers are looking into using broad immune system activating events to combat cancers.
+: TLDR; When fighting off an infection your entire immune system goes into overdrive. Once the adaptive immune system is fully operational it sequesters energy from other parts because it has so many things pushing its activation.

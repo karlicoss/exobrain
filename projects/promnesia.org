@@ -417,6 +417,10 @@ eh, need to improve rendering of context. look at this link, for instance
 :CREATED:  [2021-04-07]
 :ID:       xcldlstwwwstcmvsstcm
 :END:
+** TODO [#C] [2021-05-21] generate js map files for the extension in addition to minifying :promnesia:
+:PROPERTIES:
+:ID:       gnrtjsmpflsfrthxtnsnnddtntmnfyng
+:END:
 * [#C] * github issues
 :PROPERTIES:
 :ID:       gthbsss
@@ -1212,7 +1216,7 @@ allow breaking down important and unimportant schema parts from extensions?
 :END:
 ** [2019-08-01] ??
 :PROPERTIES:
-:ID:       43238_43267
+:ID:       43351_43380
 :END:
 * TODO [#C] open in new tab from search?
 :PROPERTIES:
