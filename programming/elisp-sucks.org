@@ -1,4 +1,4 @@
-#+TITLE: ⭐ Elisp sucks (and can we make it suck less?)
+#+title: ⭐ Elisp sucks (and can we make it suck less?)
 #+filetags: elisp
 
 Emacs is often praised for Elisp, which is presented as some sort of silver bullet and magical tool that solves everything.

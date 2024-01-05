@@ -1,5 +1,5 @@
-#+OPTIONS: toc:nil
-#+TITLE: ⭐ HPI (Human Programming Interface)
+#+options: toc:nil
+#+title: ⭐ HPI (Human Programming Interface)
 #+logseq_title: hpi
 
 #+filetags: :hpi:

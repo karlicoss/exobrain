@@ -1,4 +1,4 @@
-#+TITLE: Backups
+#+title: Backups
 #+filtegags: backup
 * TODO [#C] [2019-02-14] Notes - Gwern.net                           :backup:
 :PROPERTIES:

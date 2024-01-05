@@ -1,4 +1,4 @@
-#+TITLE: 📜 Python typing tips & tricks
+#+title: 📜 Python typing tips & tricks
 #+logseq_title: mypy
 #+filetags: :python:
 

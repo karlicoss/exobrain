@@ -1,4 +1,4 @@
-#+TITLE: Sleep tracking
+#+title: Sleep tracking
 #+filetags: :qs:sleep:
 #+logseq_graph: false
 

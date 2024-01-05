@@ -1,4 +1,4 @@
-#+TITLE: TODO list for learning
+#+title: TODO list for learning
 #+logseq_graph: false
 
 * TODO [#C] [2020-01-19] John Carlos Baez on Twitter: "Entropy is the amount of information you don't have about the random details of a system: what you'd need to describe those details. It takes 500 zettabytes to fully describe a gram of liquid water, but a manageable amount per molecule! (1/n) https://t.co/cDg7ZFpLt3" / Twitter

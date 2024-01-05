@@ -1,4 +1,4 @@
-#+TITLE: Functional programming
+#+title: Functional programming
 #+filetags: fp
 
 * [2016-06-20] What is functional programming?

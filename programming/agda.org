@@ -1,4 +1,4 @@
-#+TITLE: Agda
+#+title: Agda
 #+filetags: agda
 
 [2013-09-24]

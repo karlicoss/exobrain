@@ -1,5 +1,5 @@
-#+OPTIONS: toc:2
-#+TITLE: Travel
+#+options: toc:2
+#+title: Travel
 #+filetags: travel
 
 * Copenhagen/Malmo                                       :denmark:copenhagen:

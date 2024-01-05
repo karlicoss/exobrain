@@ -1,4 +1,4 @@
-#+TITLE: 📜 Python as an interactive shell
+#+title: 📜 Python as an interactive shell
 I've had several recurring attempts to use python instead of bash in the interactive shell.
 Overall, didn't really get anywhere with it.
 

@@ -1,4 +1,4 @@
-#+TITLE: Some things and techniques I like python for
+#+title: Some things and techniques I like python for
 #+filetags: python
 
 * TODO [#C] [2019-07-21] hacked seaborn to display vs on pairplots

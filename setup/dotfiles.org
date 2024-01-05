@@ -1,4 +1,4 @@
-#+TITLE: Managing dotfiles
+#+title: Managing dotfiles
 #+logseq_title: dotfiles
 #+filetags: :dotfiles:
 

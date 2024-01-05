@@ -1,4 +1,4 @@
-#+TITLE: Personal infra
+#+title: Personal infra
 #+filetags: infra
 
 * TODO [#B] Voice recorded notes for hands free thinking?           :mycroft:

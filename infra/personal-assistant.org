@@ -1,4 +1,4 @@
-#+TITLE: Personal assistant
+#+title: Personal assistant
 #+filetags: passistant
 
 A replacement for Google Home/Alexa which actually has a chance of doing anything else apart from switching music

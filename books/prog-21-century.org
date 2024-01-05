@@ -1,5 +1,5 @@
-#+OPTIONS: toc:nil
-#+TITLE: "Programming in the XXI century" by James Hague
+#+options: toc:nil
+#+title: "Programming in the XXI century" by James Hague
 #+filetags: programming
 Kind notes/highlights on [[https://prog21.dadgum.com][Programming in the XXI century]]
 

@@ -1,4 +1,4 @@
-#+TITLE: git
+#+title: git
 #+filetags: git
 * [#C] [2020-04-19] [[https://jeremykun.com/2020/01/14/the-communicative-value-of-using-git-well/][The Communicative Value of Using Git Well – Math ∩ Programming]] :git:
 :PROPERTIES:

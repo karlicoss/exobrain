@@ -1,4 +1,4 @@
-#+TITLE: Cloudmacs
+#+title: Cloudmacs
 #+filetags: cloudmacs
 
 Emacs in the cloud https://beepb00p.xyz/cloudmacs.html

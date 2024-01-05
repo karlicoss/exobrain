@@ -1,4 +1,4 @@
-#+TITLE: 🗄️ Reading list
+#+title: 🗄️ Reading list
 #+logseq_graph: false
 #+filetags: read
 #+sort: t

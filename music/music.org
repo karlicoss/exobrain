@@ -1,5 +1,5 @@
-#+OPTIONS: toc:nil
-#+TITLE: Music
+#+options: toc:nil
+#+title: Music
 #+filetags: music
 Music expliration, music I like, etc.
 

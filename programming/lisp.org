@@ -1,4 +1,4 @@
-#+TITLE: Lisp(s)
+#+title: Lisp(s)
 #+logseq_title: lisp
 #+filetags: lisp
 

@@ -1,4 +1,4 @@
-#+TITLE: 
+#+title: 
 #+logseq_graph: false
 
 * termux                                                             :termux:

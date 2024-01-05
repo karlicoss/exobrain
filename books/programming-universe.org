@@ -1,4 +1,4 @@
-#+TITLE: "Programming the Universe" by Seth Lloyd
+#+title: "Programming the Universe" by Seth Lloyd
 #+filetags: :quantum:
 
 A Quantum Computer Scientist Takes on the Cosmos

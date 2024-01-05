@@ -1,4 +1,4 @@
-#+TITLE: Dictation/speech recognition
+#+title: Dictation/speech recognition
 #+filetags: dictation
 
 It would be nice to set up some basic voice assistant, at least for very simple things.

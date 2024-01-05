@@ -1,4 +1,4 @@
-#+TITLE: ⭐ Cachew
+#+title: ⭐ Cachew
 #+filetags: cachew
 
 Cachew lets you cache function calls into an sqlite database on your disk in a matter of single decorator (similar to functools.lru_cache).

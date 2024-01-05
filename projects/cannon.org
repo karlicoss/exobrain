@@ -1,4 +1,4 @@
-#+TITLE: ⭐ Cannon
+#+title: ⭐ Cannon
 #+filetags: cannon
 
 Cannon is an idea for a project attempting to compute canonical/normalised URLs and extract some information from them ('entities'), merely by looking at the URL, and ideally without using the "rel=canonical" metadata.

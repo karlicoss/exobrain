@@ -1,4 +1,4 @@
-#+TITLE: ⭐ Data exports & liberation
+#+title: ⭐ Data exports & liberation
 #+filetags: exports
 
 I need data exports to build tools around my personal data, and the actual process of exporting it from a silo is the first step.

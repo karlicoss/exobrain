@@ -1,4 +1,4 @@
-#+TITLE: Elisp
+#+title: Elisp
 #+filetags: elisp
 
 * related                                                        :lisp:emacs:
