@@ -98,19 +98,14 @@ post very short intro into lagrangians?
 :PROPERTIES:
 :ID:       hmmndrstdqtfwthngswhlwrtngthtpstbtlgrngn
 :END:
-* [#C] [2018-12-28] The Feynman Lectures on Physics Vol. II Ch. 19: The Principle of Least Action :toblog:physics:
+* [#C] [2018-12-28] [[http://www.feynmanlectures.caltech.edu/II_19.html][The Feynman Lectures on Physics Vol. II Ch. 19: The Principle of Least Action]] :toblog:physics:
 :PROPERTIES:
-:ID:       thfynmnlctrsnphyscsvlchthprncplflstctn
+:ID:       wwwfynmnlctrscltchdhtmlthphyscsvlchthprncplflstctn
 :END:
-http://www.feynmanlectures.caltech.edu/II_19.html
 :  “Here is how it works: Suppose that for all paths, SS is very large compared to ℏℏ. One path contributes a certain amplitude. For a nearby path, the phase is quite different, because with an enormous SS even a small change in SS means a completely different phase—because ℏℏ is so tiny. So nearby paths will normally cancel their effects out in taking the sum—except for one region, and that is when a path and a nearby path all give the same phase in the first approximation (more precisely, the same action within ℏℏ). Only those paths will be the important ones. So in the limiting case in which Planck’s constant ℏℏ goes to zero, the correct quantum-mechanical laws can be summarized by simply saying: ‘Forget about all these probability amplitudes. The particle does go on a special path, namely, that one for which SS does not vary in the first approximation.’ That’s the relation between the principle of least action and quantum mechanics. The fact that quantum mechanics can be formulated in this way was discovered in 1942 by a student of that same teacher, Bader, I spoke of at the beginning of this lecture. [Quantum mechanics was originally formulated by giving a differential equation for the amplitude (Schrödinger) and also by some other matrix mathematics (Heisenberg).]
 ** TODO this is for my legendre post?
 :PROPERTIES:
 :ID:       thssfrmylgndrpst
-:END:
-** TODO pun around Le?
-:PROPERTIES:
-:ID:       pnrndl
 :END:
 * TODO [#D] Shit, legendre transform is not unique???
 :PROPERTIES:
@@ -118,11 +113,10 @@ http://www.feynmanlectures.caltech.edu/II_19.html
 :ID:       shtlgndrtrnsfrmsntnq
 :END:
 
-* TODO [#C] [2018-12-03] Calculus of variations - Wikipedia             :viz:
+* TODO [#C] [2018-12-03] Calculus of variations - Wikipedia https://en.wikipedia.org/wiki/Calculus_of_variations#Lavrentiev_phenomenon :viz:
 :PROPERTIES:
-:ID:       clclsfvrtnswkpd
+:ID:       clclsfvrtnswkpdsnwkpdrgwkclclsfvrtnslvrntvphnmnn
 :END:
-:  https://en.wikipedia.org/wiki/Calculus_of_variations#Lavrentiev_phenomenon
 :  L(t,x,x')=(x^{3}-t)^{2}x'^{6},
 :  hmm, that would be pretty cool to visualise!!
 

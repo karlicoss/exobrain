@@ -154,3 +154,8 @@ https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
 :ID:       snwsycmbntrcmtmdprdctblfthwbsps
 :END:
 http://wwwperiodictable.surge.sh/?hn5
+
+* [#D] [2019-08-04] [[https://en.wikipedia.org/wiki/Same-origin_policy][Same-origin policy - Wikipedia]] :security:
+:PROPERTIES:
+:ID:       snwkpdrgwksmrgnplcysmrgnplcywkpd
+:END:

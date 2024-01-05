@@ -77,6 +77,10 @@ I also maintain a [[https://www.goodreads.com/user/show/22191391-dima-gerasimov]
 - Why is it true that mathematics is so good at modeling processes in the physical sciences?
 - Everything fundamental is assumed to be atomic or discrete; and thereby so is everything else.
 - The principle of simplicity has driven us to reluctantly make a decision—in this paper DP is a particle model and all processes in DP are consequences of the motions and interactions of particles.
+*** TODO [2021-05-26] could restore timestamp from arbtt?
+:PROPERTIES:
+:ID:       cldrstrtmstmpfrmrbtt
+:END:
 ** TODO [#C] [2018-06-10] [[https://www.goodreads.com/review/list/5512374-yuri-krupenin?shelf=%23ALL%23][Yuri Krupenin’s books on Goodreads]]
 :PROPERTIES:
 :ID:       swwwgdrdscmrvwlstyrkrpnnshlfllyrkrpnnsbksngdrds
@@ -467,6 +471,11 @@ https://www.quantumdiaries.org/2014/
 :ID:       srddtcmrshwrthghtscmmntsdntnythngnyqckrrshwrthghts
 :END:
 : This is the premise of Ryan North's recent book [How to Invent Everything: A Survival Guide for the Stranded Time Traveler](https://www.howtoinventeverything.com/).
+** TODO [#B] [2021-01-27] [[https://reddit.com/r/printSF/comments/l5qrrz/author_most_like_greg_egan/gkx643j/][Author most like Greg Egan?]] /r/printSF :toread:
+:PROPERTIES:
+:ID:       srddtcmrprntsfcmmntslqrrzngkxjthrmstlkgrggnrprntsf
+:END:
+: Big Egan fan myself. I would recommend Accelerando by Charles Stross and Schismatrix by Bruce Sterling.
 * TODO [#B] [2020-01-13] [[https://twitter.com/litgenstein/status/1216512864015417344][@litgenstein: In this text, by the way, Schwinger gives a very clear ~20 page summary of the history of the classical —> quantum transition]] :physics:
 :PROPERTIES:
 :ID:       stwttrcmltgnstnsttsltgnsthhstryfthclssclqntmtrnstn
@@ -944,17 +953,15 @@ https://mobile.twitter.com/gwern/status/1104879445368864773
 :ID:       wbmtdmrblswwwtlkshtmldmhmrblstn
 :END:
 
-* TODO [#C] [2019-11-24] Biographical Memoirs Home
+* TODO [#C] [2019-11-24] Biographical Memoirs Home http://nasonline.org/publications/biographical-memoirs
 :PROPERTIES:
-:ID:       bgrphclmmrshm
+:ID:       bgrphclmmrshmnsnlnrgpblctnsbgrphclmmrs
 :END:
-http://nasonline.org/publications/biographical-memoirs
 
-* TODO [#C] [2019-12-20] [ACC] Is Eating Meat A Net Harm? | Slate Star Codex
+* TODO [#C] [2019-12-20] [ACC] Is Eating Meat A Net Harm? | Slate Star Codex https://slatestarcodex.com/2019/12/11/acc-is-eating-meat-a-net-harm/
 :PROPERTIES:
-:ID:       ccstngmtnthrmsltstrcdx
+:ID:       ccstngmtnthrmsltstrcdxssltstrcdxcmccstngmtnthrm
 :END:
-https://slatestarcodex.com/2019/12/11/acc-is-eating-meat-a-net-harm/
 ** STRT [#C] [2019-12-12] [ACC] Is Eating Meat A Net Harm? | Slate Star Codex :consciousness:diet:vegetarian:
 :PROPERTIES:
 :ID:       ccstngmtnthrmsltstrcdx
@@ -1107,12 +1114,6 @@ http://www.ams.org/notices/200502/comm-interview.pdf
 :ID:       wkccmpythnlnggpythnlngg
 :END:
 
-* TODO [#B] [2021-03-18] [[https://www.nickbostrom.com/fable/dragon.html][Bostrom: The Fable of the Dragon-Tyrant]] :toread:
-:PROPERTIES:
-:ID:       swwwnckbstrmcmfbldrgnhtmlbstrmthfblfthdrgntyrnt
-:END:
-from bio link https://twitter.com/VitalikButerin
-
 * TODO [#B] [2021-03-29] [[https://news.ycombinator.com/item?id=26286306][Ask HN: Works of fiction that have inspired you to solve programming problems? | Hacker News]] :toread:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdskhnwrksftslvprgrmmngprblmshckrnws
@@ -1174,18 +1175,14 @@ http://nautil.us/issue/79/catalysts/where-is-my-mind?utm_source=RSS_Feed&utm_med
 :PROPERTIES:
 :ID:       sthgdnhtsbngrgnzdsprrgnzrbstckcmpsthgdnhtsbngrgnzd
 :END:
-* TODO [#B] [2021-01-27] [[https://reddit.com/r/printSF/comments/l5qrrz/author_most_like_greg_egan/gkx643j/][Author most like Greg Egan?]] /r/printSF :toread:
-:PROPERTIES:
-:ID:       srddtcmrprntsfcmmntslqrrzngkxjthrmstlkgrggnrprntsf
-:END:
-: Big Egan fan myself. I would recommend Accelerando by Charles Stross and Schismatrix by Bruce Sterling.
 * TODO [#B] [2021-01-27] [[https://reddit.com/r/printSF/comments/l5qrrz/author_most_like_greg_egan/gkw6fss/][Author most like Greg Egan?]] /r/printSF :toread:
 :PROPERTIES:
 :ID:       srddtcmrprntsfcmmntslqrrzkwfssthrmstlkgrggnrprntsf
 :END:
 : The other hardest sci-if I have read is Manifold:Time by Stephen Baxter.
-* TODO [#B] [2021-05-06] [[https://reddit.com/r/MitchellAndWebb/comments/n63pn2/on_the_back_wikipedia_page_yes_this_is_the_whole/gx6do58/][On the "Back" Wikipedia page. Yes, this is the whole section. This is the most British thing I've ever seen.]] /r/MitchellAndWebb :toread:
+* TODO [#B] Tweet from @bengoertzel https://twitter.com/bengoertzel/status/1391673503586291716
 :PROPERTIES:
-:ID:       srddtcmrmtchllndwbbcmmntsrtshthngvvrsnrmtchllndwbb
+:CREATED:  [2021-05-10]
+:ID:       twtfrmbngrtzlstwttrcmbngrtzlstts
 :END:
-: I've read David Mitchells autobiography - IIRC he says in there that it almost wasn't renewed, then another channel expressed interest in picking it up, which led to it being renewed.
+: @bengoertzel: 1) @plinz here is a sketch of an argument against the Church-Turing Thesis in its standard interpretations.  I am sure it is not so original.   I am curious for your thoughts.  CT Thesis here is proxy for deeper philosophical issues ofc.

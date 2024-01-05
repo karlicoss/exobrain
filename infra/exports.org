@@ -1348,3 +1348,19 @@ can request data takeout here... takes ages to complete though, like a week
 :CREATED:  [2021-04-29]
 :ID:       hghlghtsrntc
 :END:
+* TODO [#C] https://github.com/bionic-dev/bionic
+:PROPERTIES:
+:CREATED:  [2021-04-07]
+:ID:       sgthbcmbncdvbnc
+:END:
+: Convert data exports from various services to a single SQLite database
+
+* TODO [#C] Thinking about mixing full and shallow exports :bleanser:hpi:exports:
+:PROPERTIES:
+:CREATED:  [2021-04-14]
+:ID:       thnkngbtmxngfllndshllwxprts
+:END:
+
+On example of github with and without repo traffic stats
+So, merging data in hpi could start with only merging full exports
+Then could implement a cleverer merger. If the field is missing, then we skip the exports file, thus ensuring continuity

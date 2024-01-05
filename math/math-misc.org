@@ -684,3 +684,30 @@ https://www.reddit.com/r/statistics/comments/ywrba/eli5_bayesian_statistics/
 :ID:       sxnprjctwrdprsscmndctnnqltyndctnnqltyxn
 :END:
 : Copy and paste the code at the other end of that link into VS Code if you have Lean installed locally if you want a much speedier experience. The game is to prove symm and trans from refl and ind. I would work out the maths proofs first.
+* TODO [#C] Tweet from @XenaProject https://twitter.com/XenaProject/status/1380935053409198080
+:PROPERTIES:
+:CREATED:  [2021-04-11]
+:ID:       twtfrmxnprjctstwttrcmxnprjctstts
+:END:
+: @XenaProject: Isabelle/HOL has schemes! https://t.co/p8SbYF90aw . The formalisation is due to Bordg, Paulson and Li. In this thread I will try to explain why this is a big deal. 1/n
+* TODO [#C] Tweet from Juan Carlos ∞ (@PonceCampuzano), at Jan 8, 17:04
+:PROPERTIES:
+:CREATED:  [2020-01-08]
+:ID:       twtfrmjncrlspnccmpzntjn
+:END:
+
+: Studying or teaching Complex Analysis? This online book might be useful.
+: ⭐️Complex Analysis: A Visual and Interactive Introduction⭐️
+: Thanks everyone for your suggestions and reporting issues to improve this project. https://t.co/ElaWs4XjIV
+
+
+https://twitter.com/PonceCampuzano/status/1214850688506716160
+
+* [#C] [2019-02-10] [[https://math.stackexchange.com/questions/3094706/why-aren-t-continuous-functions-defined-the-other-way-around/3094713#3094713][general topology - Why aren’t continuous functions defined the other way around? - Mathematics Stack Exchange]] :topology:
+:PROPERTIES:
+:ID:       smthstckxchngcmqstnswhyrnhthrwyrndmthmtcsstckxchng
+:END:
+: Referring to the same notion as Frunobulax did in their answer, you can define a notion of a point x∈X touching a subset A⊆X.
+: For example in the reals 0 is intuitively touching (0,1], and that stays true no matter how far you zoom in!
+: In usual topological terms this relation is expressed as "x is in the closure A¯¯¯¯ of A".
+: And this does indeed describe continuity in a forward fashion: If x is touching A, then f(x) should be touching f(A). In other words

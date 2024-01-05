@@ -1408,3 +1408,10 @@ note sure about logbook...
 :PROPERTIES:
 :ID:       hnlycnnctstggldrvdrpbx
 :END:
+
+* TODO [#C] hmm would be nice if was possible to treat normal tags as roam links? not sure if this is possible at all?? :orgroam:
+:PROPERTIES:
+:CREATED:  [2021-05-19]
+:ID:       hmmwldbncfwspssblttrtnrmlssrmlnksntsrfthsspssbltll
+:END:
+or maybe it's unnecessary? really roam links are for fine-grain links.. whereas tags are for categorization and later search?

@@ -76,18 +76,16 @@ This is an example of minimal techno; here the focus is on slow, subtle changes,
 :PROPERTIES:
 :ID:       rltd
 :END:
-* TODO [#D] [2019-07-28] Scotch Snaps in Hip Hop - YouTube          :towatch:
+* TODO [#D] [2019-07-28] Scotch Snaps in Hip Hop - YouTube https://www.youtube.com/watch?v=i7cG9QIvIWo :towatch:
 :PROPERTIES:
-:ID:       sctchsnpsnhphpytb
+:ID:       sctchsnpsnhphpytbswwwytbcmwtchvcgqvw
 :END:
-https://www.youtube.com/watch?v=i7cG9QIvIWo
 PBS sound field
 
-* [#C] [2019-01-19] (2) Music And Measure Theory - YouTube      :musictheory:
+* [#C] [2019-01-19] Music And Measure Theory - YouTube https://www.youtube.com/watch?v=cyW5z-M2yzw :musictheory:
 :PROPERTIES:
-:ID:       mscndmsrthryytb
+:ID:       mscndmsrthryytbswwwytbcmwtchvcywzmyzw
 :END:
-https://www.youtube.com/watch?v=cyW5z-M2yzw
 all powers of sqrt 2 are withing 1% error to sufficiently small rational numbers
 
 ** TODO would be interesting to try other roots
@@ -119,3 +117,8 @@ yeah, dunno, I didn't get very convinced by his arguments
 :ID:       mscthryfrnrdsfzzyntpd
 :END:
 https://eev.ee/blog/2016/09/15/music-theory-for-nerds/
+
+* TODO [#C] [2019-12-27] Music: A Mathematical Offering https://musicaeadoracao.com.br/recursos/arquivos/tecnicos/matematica/mathematical_offering.pdf :musictheory:
+:PROPERTIES:
+:ID:       mscmthmtclffrngsmscdrccmbtcncsmtmtcmthmtclffrngpdf
+:END:

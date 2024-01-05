@@ -37,7 +37,7 @@ https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5
 : Пируваты (соли пировиноградной кислоты) — важные химические соединения в биохимии. Они являются конечным продуктом метаболизма глюкозы в процессегликолиза. Одна молекула глюкозы превращается при этом в две молекулы пировиноградной кислоты. Дальнейший метаболизм пировиноградной кислоты возможен двумя путями — аэробным и анаэробным.
 
 
-* TODO [#C] [2020-12-26] [[https://news.ycombinator.com/item?id=25538820][Reverse Engineering the Source Code of the BioNTech/Pfizer SARS-CoV-2 Vaccine | Hacker News]]
+* TODO [#C] [2020-12-26] [[https://news.ycombinator.com/item?id=25538820][Reverse Engineering the Source Code of the BioNTech/Pfizer SARS-CoV-2 Vaccine | Hacker News]] :toread:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdrvrsngnrnbntchpfzrsrscvvccnhckrnws
 :END:
@@ -48,13 +48,13 @@ https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5
 :ID:       snwsycmbntrcmtmd
 :END:
 : There's a good book, Wetware: A Computer in Every Living Cell, by Dennis Bray going into detail on how much functionality and physical processes are at work even in the most simplest cells that is routinely ignored by these analogies of the brain to a digital computer.
-* TODO [#D] there have only been maybe {~10^40} organisms in earth’s history :drill:biology:
+* [#D] there have only been maybe {~10^40} organisms in earth’s history :drill:biology:
 :PROPERTIES:
 :CREATED:  [2019-09-18]
 :ID:       6d460198-82c2-4fe7-9766-aded22b1e81e
 :END:
 from [[https://www.instapaper.com/read/1234260607/11339250][ip]]   [[https://www.scottaaronson.com/blog/?p=4253][Shtetl-Optimized » Blog Archive » On two blog posts of Jerry Coyne]]
-* TODO [#B] [2020-04-08] [[https://blogs.scientificamerican.com/observations/watch-the-life-cycle-of-hiv-in-colorful-new-detail][Watch the Life Cycle of HIV in Colorful New Detail - Scientific American Blog Network]]
+* [#B] [2020-04-08] [[https://blogs.scientificamerican.com/observations/watch-the-life-cycle-of-hiv-in-colorful-new-detail][Watch the Life Cycle of HIV in Colorful New Detail - Scientific American Blog Network]] :viz:virus:
 :PROPERTIES:
 :ID:       sblgsscntfcmrcncmbsrvtnswflnwdtlscntfcmrcnblgntwrk
 :END:
@@ -79,15 +79,14 @@ from [[https://www.instapaper.com/read/1234260607/11339250][ip]]   [[https://www
 :ID:       snwkpdrgwkpnwrmpnwrmwkpd
 :END:
 : OpenWorm is an international open science project to simulate the roundworm Caenorhabditis elegans at the cellular level as a simulation.[1][2][3] Although the long-term goal is to model all 959 cells of the C. elegans, the first stage is to model the worm's locomotion by simulating the 302 neurons and 95 muscle cells.
-* TODO [#B] how cell compute                                        :towatch:
+* TODO [#B] how cells compute https://twitter.com/karpathy/status/1261457314713792512 :towatch:
 :PROPERTIES:
 :CREATED:  [2020-05-16]
-:ID:       hwcllcmpt
+:ID:       hwcllscmptstwttrcmkrpthystts
 :END:
-https://twitter.com/karpathy/status/1261457314713792512
 : @karpathy: This was actually really good. I've spent some time translating biology to CS/EE terms/abstractions, this makes a lot of those analogies explicit. +"Genetic circuit design automation" Science paper [2016] link science.sciencemag.org/content... twitter.com/Reza_Zadeh/status/...
 
-* TODO [#C] sympathetic nervous system {“accelerator”} and your parasympathetic nervous system {“brake”} :drill:
+* [#C] sympathetic nervous system {“accelerator”} and your parasympathetic nervous system {“brake”} :drill:
 :PROPERTIES:
 :CREATED:  [2019-08-17]
 :ID:       f130f3f2-8979-466d-aa57-5294d86c1c2e
@@ -100,7 +99,7 @@ from Come as You Are
 :END:
 ** TODO [#C] [2019-01-29]
 :PROPERTIES:
-:ID:       8124_8457
+:ID:       8207_8540
 :END:
 : The detergents in the dish soap (like the sodium laurel sulfate, aka sodium dodecyl sulfate) destabilize the membranes of the cells, spilling their contents into the rest of the solution of saliva.
 
@@ -112,7 +111,7 @@ can you do this with muscle cells? E.g. shred meat, add some water and salt and 
 :END:
 https://twitter.com/shlizee/status/1158486688307400705
 
-* DONE [#A] [2019-08-25] [[https://reddit.com/r/askscience/comments/cu9h9i/how_are_molecular_structures_determined_with_such/][How are molecular structures determined with such precision? How were they determined in the past?]] /r/askscience
+* [#A] [2019-08-25] [[https://reddit.com/r/askscience/comments/cu9h9i/how_are_molecular_structures_determined_with_such/][How are molecular structures determined with such precision? How were they determined in the past?]] /r/askscience
 :PROPERTIES:
 :ID:       srddtcmrskscnccmmntschhwrwwrthydtrmndnthpstrskscnc
 :END:
@@ -129,6 +128,7 @@ https://twitter.com/shlizee/status/1158486688307400705
 :PROPERTIES:
 :ID:       wwwstddlycmclllrvsnsthnnrlllrvsnsthnnrlffcllstddly
 :END:
+link broken? youtube: https://www.youtube.com/watch?v=FzcTgrxMzZk
 
 * TODO [#C] [2019-10-27] [[https://www.youtube.com/watch?v=BickMFHAZR0][How Trees Bend the Laws of Physics - YouTube]] :physics:biology:
 :PROPERTIES:
@@ -159,7 +159,7 @@ can we use it for figuring out the fundaemntal group after that?
 e.g. torus -- second betty number is 1 since the hole are the insides of torus
 
 neuron connections are a higher dimension simplicial complex
-* TODO [#C] [2021-01-10] [[https://github.com/keller-mark/awesome-biological-visualizations#readme][keller-mark/awesome-biological-visualizations: A list of web-based interactive biological data visualizations.]] :biology:viz:
+* [#C] [2021-01-10] [[https://github.com/keller-mark/awesome-biological-visualizations#readme][keller-mark/awesome-biological-visualizations: A list of web-based interactive biological data visualizations.]] :biology:viz:
 :PROPERTIES:
 :ID:       sgthbcmkllrmrkwsmblgclvslwbbsdntrctvblgcldtvslztns
 :END:
@@ -201,12 +201,14 @@ huh, apparently UV protective pigments are also inside the cells, around nucleus
 :ID:       sbrthbrtclspstsmzngdndnsnyrhmmrvrythnglkslknlrtcls
 :END:
 
-* [#C] [2021-01-06] [[https://nplus1.ru/material/2020/07/02/why-theres-no-hiv-vaccine][Без вакцины]]
+* [#C] [2021-01-06] [[https://nplus1.ru/material/2020/07/02/why-theres-no-hiv-vaccine][Без вакцины]] :virus:
 :PROPERTIES:
 :ID:       snplsrmtrlwhythrsnhvvccnбезвакцины
 :END:
-: Ситуация осложняется тем, что после первого же промаха ружье можно выкидывать. Поскольку ВИЧ — ретровирус, он встраивает свои гены в ядерную ДНК. И вычеркнуть их оттуда мы уже не можем — по крайней мере, до сих пор не научились
-* [#C] [2020-12-26] [[https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/][Reverse Engineering the source code of the BioNTech/Pfizer SARS-CoV-2 Vaccine - Articles]]
+: Ситуация осложняется тем, что после первого же промаха ружье можно выкидывать.
+: Поскольку ВИЧ — ретровирус, он встраивает свои гены в ядерную ДНК.
+: И вычеркнуть их оттуда мы уже не можем — по крайней мере, до сих пор не научились
+* [#C] [2020-12-26] [[https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/][Reverse Engineering the source code of the BioNTech/Pfizer SARS-CoV-2 Vaccine - Articles]] :virus:
 :PROPERTIES:
 :ID:       sbrthbrtclspstsrvrsngnrngthbntchpfzrsrscvvccnrtcls
 :END:
@@ -218,12 +220,11 @@ huh, apparently UV protective pigments are also inside the cells, around nucleus
 :ID:       sbrthbrtclspstsdnthcdflfdnthcdflfrtcls
 :END:
 
-* [#D] [2019-02-14] [[http://www.the-odin.com/gene-engineering-kits/][Gene Engineering Kits - The ODIN]]
+* TODO [#D] [2019-02-14] [[http://www.the-odin.com/gene-engineering-kits/][Gene Engineering Kits - The ODIN]]
 :PROPERTIES:
 :ID:       wwwthdncmgnngnrngktsgnngnrngktsthdn
 :END:
-
-* [#D] [2019-02-14] [[http://www.the-odin.com/biohacker-101-class/][Biohacker 101 Class - The ODIN]]
+* TODO [#D] [2019-02-14] [[http://www.the-odin.com/biohacker-101-class/][Biohacker 101 Class - The ODIN]]
 :PROPERTIES:
 :ID:       wwwthdncmbhckrclssbhckrclssthdn
 :END:
@@ -249,7 +250,7 @@ huh, apparently UV protective pigments are also inside the cells, around nucleus
 :ID:       stwttrcmmprmthghtsttsththnsvthlstcnnfctbdnthmtwttr
 :END:
 : Modern biology isn't usually done yourself. You outsource 95% of it. So the distinction is irrelevant. If you know the right companies you can get anything done, including this. And it's neither hard nor expensive. The last 5% can in fact be done at home.
-* TODO [#B] [2021-04-05] [[https://twitter.com/PowerDNS_Bert/status/1379073534211817474][Bert Hubert on Twitter: "Some people asked if I knew of a quick intro to molecular biology. While you have to realize this is a somewhat bold question, this https://t.co/QgucmCctHt by Alexander Zien looks pretty useful. https://t.co/gTvWHjOQZM" / Twitter]] :tostudy:
+* STRT [#B] [2021-04-05] [[https://twitter.com/PowerDNS_Bert/status/1379073534211817474][Bert Hubert on Twitter: "Some people asked if I knew of a quick intro to molecular biology. While you have to realize this is a somewhat bold question, this https://t.co/QgucmCctHt by Alexander Zien looks pretty useful. https://t.co/gTvWHjOQZM" / Twitter]] :tostudy:
 :PROPERTIES:
 :ID:       stwttrcmpwrdnsbrtsttsbrthprttysflstcgtvwhjqzmtwttr
 :END:
@@ -266,3 +267,10 @@ huh, apparently UV protective pigments are also inside the cells, around nucleus
 :END:
 hm so some hormones are water soluble. and then they need to bind to a receptor (like oxytocin)
 some are fat soluble and they pass right through the cell wall (like testosterone)
+* [#C] Tweet from @Dereklowe https://twitter.com/Dereklowe/status/1348692521040359424 :vaccine:
+:PROPERTIES:
+:CREATED:  [2021-01-12]
+:ID:       twtfrmdrklwstwttrcmdrklwstts
+:END:
+: @Dereklowe: Here's a more detailed look at the mRNA vaccines - their mode of action and how they're delivered.
+: The emphasis is on the years (decades) of research in a variety of fields that was fortunately ready to be deployed this year:

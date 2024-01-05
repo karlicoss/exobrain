@@ -468,10 +468,7 @@ https://pypi.org/project/python-daemon/
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdzlpthrddpnsrctmchthckrnws
 :END:
-** [2020-07-31] ok, Zulip is clearly really good, I think I should use it
-:PROPERTIES:
-:ID:       kzlpsclrlyrllygdthnkshldst
-:END:
+- [2020-07-31] ok, Zulip is clearly really good, I think I should use it
 * DONE [#C] [2019-12-20] 9 best open-source findings, November 2019 - DEV Community 👩‍💻👨‍💻 :docker:
 :PROPERTIES:
 :ID:       bstpnsrcfndngsnvmbrdvcmmnty
@@ -606,7 +603,7 @@ ugh, very annoying that there is no way to setup something...
 :PROPERTIES:
 :ID:       sgthbcmdygdrsshbdygdrsshbvrythngsrssbl
 :END:
-* [#C] [2020-10-25] [[https://framagit.org/medoc92/recollwebui/][Projects · Jean-Francois Dockes / recoll-webui · GitLab]]
+* [#C] [2020-10-25] [[https://framagit.org/medoc92/recollwebui/][Projects · Jean-Francois Dockes / recoll-webui · GitLab]] :recoll:
 :PROPERTIES:
 :ID:       sfrmgtrgmdcrcllwbprjctsjnfrncsdcksrcllwbgtlb
 :END:
@@ -1011,3 +1008,7 @@ so overall easier to have a virtual 'view' onto these configs
 : In the end, it's just a big weight at the ankle. I never ever used it and though, "damn, what a pleasant tech choice, I'm happy they didn't directly expose the API through Python".
 : It's the same reason I use "nox" and not "tox", or "doit" and not "make". DSL really seem like a great idea, but they fail most of the time. There is a reason only few of them - like SQL, CSS or regex patterns - became a success. 99% of the time, what you need is a good lib, with a well designed API. For the 0.9% of the time you do need multi-language communication, you may implement RPC. Then, only for the 0.01% case should you really consider a DSL.
 : But we geek love to create DSL. They are fun to write! They are so elegant in tutorials!
+* [#C] [2020-07-01] [[https://wiki.archlinux.org/index.php/XDG_Base_Directory][XDG Base Directory - ArchWiki]] :dotfiles:
+:PROPERTIES:
+:ID:       swkrchlnxrgndxphpxdgbsdrctryxdgbsdrctryrchwk
+:END:

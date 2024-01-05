@@ -194,7 +194,7 @@ https://vk.com/wall5695154_20731
 :ID:       srddtcmrntrstngsfckcmmntsdthvbnbrnthswrntrstngsfck
 :END:
 
-* DONE [2019-12-13] [[https://reddit.com/r/biology/comments/ea0paz/why_isnt_blood_attracted_to_magnets/fan67dx/][Why isn't blood attracted to magnets?]] /r/biology :humanbody:blood:
+* [2019-12-13] [[https://reddit.com/r/biology/comments/ea0paz/why_isnt_blood_attracted_to_magnets/fan67dx/][Why isn't blood attracted to magnets?]] /r/biology :humanbody:blood:
 :PROPERTIES:
 :ID:       srddtcmrblgycmmntspzwhysnhysntbldttrctdtmgntsrblgy
 :END:
@@ -244,14 +244,17 @@ The FA chains are cleaved off of the glycerol backbone. The 3 FA chains are oxid
 :ID:       glcsvsfrcts
 :END:
 : Another thing to consider: Not all types of carbohydrates end up the same way when digested. Glucose, as said earlier, can be stored in the form of glycogen in the body. Fructose, on the other hand, cannot do the same and is directly converted into fat if it cannot be used immediately. This means that if you eat a lot of carbohydrates in the form of fructose (white sugar, corn syrup, fruits) many of it will be converted into fat without any opportunity to be used. This is also why since low-fat food arrived everywhere, the obesity epidemic started. Fat has been replaced by sugar and corn syrup, and voilà. Same result, but since it says "no fat" on the product we think we can eat all we want. Hope I have been some help.
-: hm, or is it? https://www.reddit.com/r/Fitness/comments/4a5fws/can_someone_please_shed_light_on_the_sugar_makes/d0y7r0o/
-: This is a common misconception. Fructose and glucose are both broken down to the same triose sugars and can both therefore enter the gluconeogenic pathway. De Novo lipogenesis from carbs is fairly uncommon because it is metabolically ludicrously inefficient. You have to massively overfeed on carbs.
+
+hm, or is it? https://www.reddit.com/r/Fitness/comments/4a5fws/can_someone_please_shed_light_on_the_sugar_makes/d0y7r0o/
+: This is a common misconception. Fructose and glucose are both broken down to the same triose sugars and can both therefore enter the gluconeogenic pathway.
+: De Novo lipogenesis from carbs is fairly uncommon because it is metabolically ludicrously inefficient. You have to massively overfeed on carbs.
 
 * [#B] [2021-03-14] [[https://news.ycombinator.com/item?id=5053051][&#62; Each time you view something new, your brain gives a hit of dopamine. Oh... | Hacker News]]
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdchtmyvwsmnwyrbrngvshtfdpmnhhckrnws
 :END:
-: Oh dear god. That is not how dopamine works. Dopamine is a chemical that your brain secretes when you are trying to get something, not once you get it - so when you're hungry, for example, you'll have higher dopamine levels. Then when you eat, they go back down. The actual sensation of higher dopamine levels is stress and anxiousness - it actually doesn't feel good at all.
+: Oh dear god. That is not how dopamine works. Dopamine is a chemical that your brain secretes when you are trying to get something, not once you get it - so when you're hungry, for example, you'll have higher dopamine levels.
+: Then when you eat, they go back down. The actual sensation of higher dopamine levels is stress and anxiousness - it actually doesn't feel good at all.
 * [#C] [2021-03-14] [[https://news.ycombinator.com/item?id=5056147][I'm kind of shocked no one seems to have researched the authors of Your Brain on... | Hacker News]]
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdmkndfshcksrchdththrsfyrbrnnhckrnws

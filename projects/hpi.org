@@ -1006,6 +1006,18 @@ some hackery...
 :CREATED:  [2021-05-07]
 :ID:       cchpdfsbyfl
 :END:
+** TODO [#B] youtube playlists                                          :hpi:
+:PROPERTIES:
+:CREATED:  [2021-05-20]
+:ID:       ytbplylsts
+:END:
+** TODO [#B] script to mirror 'liked' music                     :hpi:spotify:
+:PROPERTIES:
+:CREATED:  [2021-05-22]
+:ID:       scrpttmrrrlkdmsc
+:END:
+one will be 'currently liked', another one is 'liked ever'?
+so normally I'll use 'liked' playlist, but can safely delete stuff from it
 * [#B] * improving testing & CI
 :PROPERTIES:
 :ID:       mprvngtstngc
@@ -1499,7 +1511,7 @@ I guess it's kind of 'auto'? Although ETL sounds a bit magical
 see what's their approach to credentials
 * --------------------------------------------
 :PROPERTIES:
-:ID:       56703_56751
+:ID:       57059_57107
 :END:
 
 * TODO [#D] classify modules by ease of setup?                          :hpi:
@@ -1521,4 +1533,9 @@ see what's their approach to credentials
 :PROPERTIES:
 :CREATED:  [2021-05-04]
 :ID:       cldmplmntsmhlprthtprmptsvsdtfrclmntyps
+:END:
+* TODO [#B] why ids important: ranking items after overview             :hpi:
+:PROPERTIES:
+:CREATED:  [2021-05-18]
+:ID:       whydsmprtntrnkngtmsftrvrvw
 :END:

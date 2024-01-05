@@ -287,3 +287,23 @@ https://twitter.com/litgenstein/status/1210890946201739269
 :ID:       smddckmdnbnppthngrltyhlctrrbrggnnwhtsspnrmdhpprcrt
 :END:
 - [2021-03-25] ok, interesting overview, but still quite intense mathematically...
+* TODO [#B] hmm, quantum fields seem to be very poorly visualised. I wonder if I can do better with something very simple :viz:qft:
+:PROPERTIES:
+:ID:       hmmqntmfldssmtbvryprlyvslrfcndbttrwthsmthngvrysmpl
+:END:
+* [#C] [2020-06-23] [[https://thedeemon.livejournal.com/139921.html][Quantum vs. classical - Dee Mon. Былое и думы — LiveJournal]] :qft:
+:PROPERTIES:
+:ID:       sthdmnlvjrnlcmhtmlqntmvsclsscldmnбылоеидумыlvjrnl
+:END:
+: Потому, кстати, диаграммы с большим числом промежуточных узлов вносят очень малый вклад - там заряд в энной степени, и если он изначально мал, в энной степени выходит совсем мало.
+: Кроме сильного взаимодействия, там он не так мал.
+* [#C] [2019-12-31] [[https://en.wikipedia.org/wiki/Schr%C3%B6dinger_field][Schrödinger field - Wikipedia]]
+:PROPERTIES:
+:ID:       snwkpdrgwkschrcbdngrfldschrödngrfldwkpd
+:END:
+
+* [#C] [2019-12-31] [[https://en.wikipedia.org/wiki/Klein%E2%80%93Gordon_equation][Klein–Gordon equation - Wikipedia]]
+:PROPERTIES:
+:ID:       snwkpdrgwkklngrdnqtnklngrdnqtnwkpd
+:END:
+: Any solution of the free Dirac equation is, component-wise, a solution of the free Klein–Gordon equation.

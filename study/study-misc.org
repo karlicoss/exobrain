@@ -1,13 +1,18 @@
 #+TITLE: 
 #+logseq_graph: false
-#+filetags: study
+#+filetags: tostudy
 
-* thought experiment: you move away from the clock with the speed of light -- you see the same image on the clock (but you are still aging) :grtheory:
+* thought experiment: you move away from the clock with the speed of light -- you see the same image on the clock (but you are still aging) :grelativity:
 :PROPERTIES:
 :CREATED:  [2020-04-07]
 :ID:       thghtxprmntymvwyfrmthclcksthsmmgnthclckbtyrstllgng
 :END:
-* TODO [#C] Egan time dimensions
+- [2021-06-18] huh, what did I mean here?
+  you won't move with the speed of light, but even assuming approx lightspeed, you'll see the clock moving slower
+  (you can think of it as consecutive 'rays' from ticks taking longer to reach you? not sure if it's flawed)
+  maybe I was trying to come up with intuition for remembering that for a moving object time is slower?
+  I guess this also makes sense if you think about 4-velocity -- it's magnitude is constant, so any spatial components increase results in temporal component decrease?
+* TODO [#C] Egan time dimensions                                   :gregegan:
 :PROPERTIES:
 :CREATED:  [2020-08-31]
 :ID:       gntmdmnsns
@@ -48,7 +53,7 @@ https://twitter.com/linguopunk_ru/status/1110814030703271936
 :PROPERTIES:
 :ID:       snwkpdrgwkhlppnglsh
 :END:
-* TODO [#D] read https://lwn.net/                                     :study:
+* TODO [#D] read https://lwn.net
 :PROPERTIES:
 :CREATED:  [2018-03-21]
 :ID:       rdslwnnt
@@ -59,19 +64,19 @@ https://twitter.com/linguopunk_ru/status/1110814030703271936
 :ID:       tpsmthcrdhmbztpshtml
 :END:
 
-* TODO [#D] how to implement DNS?                                   :tostudy:
+* TODO [#D] how to implement DNS?
 :PROPERTIES:
 :CREATED:  [2018-04-03]
 :ID:       hwtmplmntdns
 :END:
 
-* TODO [#D] Learn to buy gifts                                      :tostudy:
+* TODO [#D] Learn to buy gifts                                       :social:
 :PROPERTIES:
 :CREATED:  [2018-02-03]
 :ID:       lrntbygfts
 :END:
 
-* TODO [#D] reverse eng for beginners https://beginners.re/        :ctf:read:
+* TODO [#D] reverse eng for beginners https://beginners.re/      :ctf:toread:
 :PROPERTIES:
 :CREATED:  [2018-04-03]
 :ID:       rvrsngfrbgnnrssbgnnrsr

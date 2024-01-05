@@ -431,16 +431,6 @@ eh, not really anything new. Also a bit too much on mocking religious people..
 :CREATED:  [2019-08-20]
 :ID:       prjctswympyttmpttslvwvqtn
 :END:
-* STRT writing about my experiments with lagrangian       :lagrangian:toblog:
-:PROPERTIES:
-:CREATED:  [2018-11-19]
-:ID:       wrtngbtmyxprmntswthlgrngn
-:END:
-* [#C] [2019-01-17] Kevin Boone's Web site http://www.kevinboone.net/gateaux.html :lagrangian:toblog:
-:PROPERTIES:
-:ID:       kvnbnswbstwwwkvnbnntgtxhtml
-:END:
-nice, demo of second variation, some nontrivial EL equation
 * TODO [#C] [2020-12-21] feynman's lecutre about masers      :physics:toblog:
 :PROPERTIES:
 :ID:       fynmnslctrbtmsrs
@@ -453,11 +443,6 @@ nice, demo of second variation, some nontrivial EL equation
 :END:
 Todo
 from The Theoretical Minimum by George Hrabovsky
-* TODO [#B] Please provide nonexamples or made up examples. If they are technical even a prompt for where to look would be good. It's way harder to google if you dont know what to google :toblog:lagrangian:
-:PROPERTIES:
-:CREATED:  [2018-11-30]
-:ID:       plsprvdnnxmplsrmdpxmplsftwyhrdrtgglfydntknwwhttggl
-:END:
 * TODO [#B] some lagr stuff in soft/ipynb_output_filter      :toblog:physics:
 :PROPERTIES:
 :CREATED:  [2019-09-15]
@@ -467,11 +452,6 @@ from The Theoretical Minimum by George Hrabovsky
 :PROPERTIES:
 :CREATED:  [2018-08-15]
 :ID:       pstshrtntsbtwhtphysclcncpshvlrntwthlnkstclrxplntns
-:END:
-* STRT [#C] about euler lagrange equations and runge kutta?  :physics:toblog:
-:PROPERTIES:
-:CREATED:  [2018-11-18]
-:ID:       btlrlgrngqtnsndrngktt
 :END:
 * TODO [#B] [2020-02-09] Лагранжева механика — Википедия             :toblog:
 :PROPERTIES:
@@ -644,7 +624,7 @@ https://twitter.com/johncarlosbaez/status/1057710731901071360
 https://web.archive.org/web/20181031192641/https://grasp-lab.org/2013/06/18/hexatic/
 * ---------------------------------------
 :PROPERTIES:
-:ID:       42078_42120
+:ID:       41391_41433
 :END:
 * [#D] [2019-08-29] Intrinsic Curvature and Singularities - YouTube https://www.youtube.com/watch?v=Dl6-5qDifrs&list=WL&index=54
 :PROPERTIES:
@@ -664,11 +644,6 @@ https://twitter.com/MBarkeshli/status/1280236950906122241
 :END:
 : There's a norm against anything that seems like flattery. But to hell with that norm: @preskill
 :  has an incredibly broad and deep view of physics (and of quantum computing), _and_ he's a superb writer and speaker. So if you've got the technical background, go watch!
-* [#B] [2021-01-31] [[http://www.scholarpedia.org/article/Ostrogradsky%27s_theorem_on_Hamiltonian_instability][Ostrogradsky's theorem on Hamiltonian instability - Scholarpedia]] :lagrangians:
-:PROPERTIES:
-:ID:       wwwschlrpdrgrtclstrgrdskythrmnhmltnnnstbltyschlrpd
-:END:
-: The assumption that ∂2L∂x˙2≠0 is known as nondegeneracy. If the Lagrangian is nondegenerate one can write (1) in the form Newton assumed so long ago for the laws of physics,
 * [#D] [2019-04-15] Einstein's Zurich Notebook https://www.pitt.edu/~jdnorton/Goodies/Zurich_Notebook/
 :PROPERTIES:
 :ID:       nstnszrchntbkswwwpttdjdnrtngdszrchntbk
@@ -688,3 +663,15 @@ https://twitter.com/anderssandberg/status/1368119869493833729
 :END:
 hmm so inside black holes particles can technically have negative energy because of the curvature?
 large black holes don't radiate much because curvature on the horizon is low
+* [#C] [2020-12-16] [[https://twitter.com/gravity_levity/status/1339271605852246022][Tweet from @gravity_levity: Here's something else weird about copper]]
+:PROPERTIES:
+:ID:       stwttrcmgrvtylvtysttstwtfylvtyhrssmthnglswrdbtcppr
+:END:
+: @gravity_levity: Here's something else weird about copper. Electrons in its interior are flying around at (literally) a million miles per hour.
+: If you take a census of their momentum, you'll find that all the values sit neatly inside a geometric surface ("Fermi surface") that looks like this: pic.twitter.com/44CCA2...
+
+fermi surfaces
+** TODO [2021-05-25] read on fermi surfaces
+:PROPERTIES:
+:ID:       rdnfrmsrfcs
+:END:

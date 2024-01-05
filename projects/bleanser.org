@@ -30,11 +30,25 @@ It's similar to extracting the useful fields, but instead it filters the useless
 :PROPERTIES:
 :ID:       mtvtn
 :END:
+** TODO [#B] related: hmm. they serve sort of the same purpose??? :bleanser:backupchecker:
+:PROPERTIES:
+:CREATED:  [2021-02-11]
+:ID:       rltdhmmthysrvsrtfthsmprps
+:END:
 ** TODO [#D] reddit processing takes quite a bit.. but I guess bleanser will optimize it :hpi:bleanser:reddit:
 :PROPERTIES:
 :CREATED:  [2019-05-01]
 :ID:       rddtprcssngtksqtbtbtgssblnsrwllptmzt
 :END:
+** STRT [#C] =fdupes= tool is kinda similar                        :bleanser:
+:PROPERTIES:
+:CREATED:  [2022-01-01]
+:ID:       fdpstlskndsmlr
+:END:
+=fdupes /data/exports/hypothesis/ -q=
+hm ok so it dumps
+dunno if it's still better to rely on my own implementation... would be easier to test etc probably
+maybe double check fdupes output after parsing
 * [#A] * ideas
 :PROPERTIES:
 :ID:       ds
@@ -55,25 +69,141 @@ if you only do that you end up with too much garbage
   specify data (fileds/files etc) to drop
 upper bound
 
+** TODO [#D] try to guess fields order instead of arbitrary sort?  :bleanser:
+:PROPERTIES:
+:CREATED:  [2022-01-03]
+:ID:       trytgssfldsrdrnstdfrbtrrysrt
+:END:
+: <toplevel> ::: {"album": "", "artist": "john lennon", "date": "1281296836", "name": "jealous guy"}
+: <toplevel> ::: {"album": "", "artist": "john lennon", "date": "1281296516", "name": "instant karma"}
+** TODO [#B] always keep one file per month or something? try to autodetect date :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-12-30]
+:ID:       lwyskpnflprmnthrsmthngtryttdtctdt
+:END:
+** TODO [#B] safety: run tox first? to protect from crashes  :bleanser:setup:
+:PROPERTIES:
+:CREATED:  [2021-04-11]
+:ID:       sftyrntxfrsttprtctfrmcrshs
+:END:
+** TODO [#B] 'extract' query                                       :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-09]
+:ID:       xtrctqry
+:END:
+might be useful as a sanity check? to ensure stuff isn't deleted by accident? (like foreign key triggers)
+e.g.
+- run extract query first to get a snapshot of data
+- run cleanup query
+- run extract query first to ensure the data we care about is there?
+** TODO [#B] keep .bleanser file? with a log of all actions        :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-14]
+:ID:       kpblnsrflwthlgfllctns
+:END:
+and make possible to override its path if the user doesn't want it in the same dir
+** TODO [#C] implement 'extract' mode later... after writing to blog definitely :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-11]
+:ID:       mplmntxtrctmdltrftrwrtngtblgdfntly
+:END:
+** TODO [#C] would be nice if it was possible not to run cleanup step at all if original files were the same... would make it a nice optimization :bleanser:
+:PROPERTIES:
+:CREATED:  [2022-01-02]
+:ID:       wldbncftwspssblnttrnclnpsnlflswrthsmwldmktncptmztn
+:END:
+e.g. useful for cleaning up files without unpacking
+** TODO [#C] would be nice to support diffs within lines... e.g. if dict ended up with some extra attributes? :bleanser:
+:PROPERTIES:
+:CREATED:  [2022-01-04]
+:ID:       wldbnctspprtdffswthnlnsgfdctnddpwthsmxtrttrbts
+:END:
+on the other hand, it might mean some legit change... e.g. post was edited and extra content added
+* [#B] * communication/docs
+:PROPERTIES:
+:ID:       cmmnctndcs
+:END:
+** TODO [#D] multiway is a bit more speculative             :bleanser:toblog:
+:PROPERTIES:
+:CREATED:  [2021-04-07]
+:ID:       mltwysbtmrspcltv
+:END:
+** TODO [#B] kinds of snapshots                             :toblog:bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-05]
+:ID:       kndsfsnpshts
+:END:
+- append only (e.g. foursquare, hypothesis)
+- rolling (e.g. rescuetime, github, reddit)
+either way you can think of it as as set of strings
+** TODO [#B] lastfm is a good one to describe multiway approach? some renames/data glitches etc :toblog:bleanser:
+:PROPERTIES:
+:CREATED:  [2022-01-03]
+:ID:       lstfmsgdntdscrbmltwypprchsmrnmsdtgltchstc
+:END:
+unclear why glitches are happening -- could be the backup tool, could be their api
+** TODO [#C] write about multiprocessing?                          :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-05]
+:ID:       wrtbtmltprcssng
+:END:
+** TODO [#C] readme: gotcha about group boundaries not being removed (nad having empty diff) :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-10]
+:ID:       rdmgtchbtgrpbndrsntbngrmvdndhvngmptydff
+:END:
+** TODO [#C] for properly impressive demo should prob run in single threaded mode? :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-10]
+:ID:       frprprlymprssvdmshldprbrnnsnglthrddmd
+:END:
+** TODO [#C] foursquare is a good motiation -- lots of random changing crap even without the changes of underlying data? :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-16]
+:ID:       frsqrsgdmttnltsfrndmchngnrpvnwthtthchngsfndrlyngdt
+:END:
+** TODO [#C] measure processing times before and after bleanser? :toblog:bleanser:
+:PROPERTIES:
+:CREATED:  [2021-12-30]
+:ID:       msrprcssngtmsbfrndftrblnsr
+:END:
+** TODO [#C] instead of twoway and multiway rename to cumulative and synthetic? :bleanser:
+:PROPERTIES:
+:CREATED:  [2022-01-03]
+:ID:       nstdftwwyndmltwyrnmtcmltvndsynthtc
+:END:
+** TODO [#C] maybe instead of delete_dominated use keep_dominated? :bleanser:
+:PROPERTIES:
+:CREATED:  [2022-01-02]
+:ID:       mybnstdfdltdmntdskpdmntd
+:END:
+** TODO [#C] document what's happening in which case... with a literate test :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-10]
+:ID:       dcmntwhtshppnngnwhchcswthltrttst
+:END:
+- e.g. 'all files are same'
+- only added data
+- rolling data (some fake datetime stuff with 30d retention)
+- error in cleaner script
+** TODO [#C] github events via triples would be a good example     :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-02-21]
+:ID:       gthbvntsvtrplswldbgdxmpl
+:END:
 * [#B] * specific data sources
 :PROPERTIES:
 :ID:       spcfcdtsrcs
 :END:
-** STRT [#B] firefox history?                            :promnesia:bleanser:
+** TODO [#B] add for takeouts... I even had some script to compare it somewhere :takeout:bleanser:
 :PROPERTIES:
-:CREATED:  [2020-06-10]
-:ID:       frfxhstry
+:CREATED:  [2021-04-14]
+:ID:       ddfrtktsvnhdsmscrpttcmprtsmwhr
 :END:
-
-** TODO [#C] github-events -- prune via triplet approach?
+** STRT [#C] github-events -- prune via triplet approach?
 :PROPERTIES:
 :CREATED:  [2020-09-05]
 :ID:       gthbvntsprnvtrpltpprch
-:END:
-** TODO [#D] xml: smscalls
-:PROPERTIES:
-:CREATED:  [2020-12-08]
-:ID:       xmlsmsclls
 :END:
 ** TODO [#D] not sure, maybe ignore comment/link karma? it results in lots of differences... :reddit:
 :PROPERTIES:
@@ -81,27 +211,50 @@ upper bound
 :ID:       ntsrmybgnrcmmntlnkkrmtrsltsnltsfdffrncs
 :END:
 
+** TODO [#D] lastfm: sometimes might be flaky with dates           :bleanser:
+:PROPERTIES:
+:CREATED:  [2022-01-03]
+:ID:       lstfmsmtmsmghtbflkywthdts
+:END:
+: 2999 <toplevel> ::: {"album": "best of bowie", "artist": "david bowie", "date": "1527013173", "name": "space oddity - 1999 |    3029 <toplevel> ::: {"album": "best of bowie", "artist": "david bowie", "date": "1527013173", "name": "space oddity - 1999
+: 3000 <toplevel> ::: {"album": "believe ep", "artist": "rob hes", "date": "1527012721", "name": "we rise"}                  |         ---------------------------------------------------------------------------------------------------------------------
+: 3001 <toplevel> ::: {"album": "sviib", "artist": "school of seven bells", "date": "1527012721", "name": "open your eyes"}  |    3030 <toplevel> ::: {"album": "sviib", "artist": "school of seven bells", "date": "1527012721", "name": "open your eyes"}
+:      ----------------------------------------------------------------------------------------------------------------------|    3031 <toplevel> ::: {"album": "believe ep", "artist": "rob hes", "date": "1527012721", "name": "we rise"}
+** TODO [#C] settingsv2 -> phoneSetsTimestamps column -- might be important to handle.. :bluemaestro:bleanser:
+:PROPERTIES:
+:CREATED:  [2022-01-10]
+:ID:       sttngsvphnststmstmpsclmnmghtbmprtntthndl
+:END:
+** [#C] [2021-02-28] [[https://github.com/karlicoss/promnesia/pull/207][Allows Safari history file to be imported to Promnesia by gms8994 · Pull Request #207 · karlicoss/promnesia]] :bleanser:
+:PROPERTIES:
+:ID:       sgthbcmkrlcssprmnspllllwsnsbygmspllrqstkrlcssprmns
+:END:
+: So your process with browser history files is to create a new sqlite version incrementally for each period T, and then have promnesia import them individually? I'm trying to figure out how I should "best" be storing the files locally; right now, I just have multiple machines scp the respective history files to a single location so that they can then be covered by index, but some of the history files (Safari in particular) are 40M and take a couple of minutes to process...
 * [#C] * bugs
 :PROPERTIES:
 :ID:       bgs
 :END:
-** TODO [#C] shit, dry run still left turds???
+** TODO [#D] moving old files -- not sure what to do about empty dirs? :bleanser:
 :PROPERTIES:
-:CREATED:  [2019-12-29]
-:ID:       shtdryrnstlllfttrds
+:CREATED:  [2021-04-09]
+:ID:       mvngldflsntsrwhttdbtmptydrs
 :END:
-
-* STRT [#C] compress backups?                                         :infra:
+maybe keep all dirs that were there before -- and only remove new empty dirs?
+** TODO [#B] def limit tmp space for the container... otherwise potentiall potentially might eat all of it :bleanser:
 :PROPERTIES:
-:CREATED:  [2018-07-31]
-:ID:       cmprssbckps
+:CREATED:  [2022-01-10]
+:ID:       dflmttmpspcfrthcntnrthrwsptntllptntllymghttllft
 :END:
-started compressing reddit...
-** [2019-03-25] also compressing rtm
+** TODO [#B] perfomance: probs need to unlink archived file after unpacked() helper. this is probs the reason for disk space leak? :bleanser:
 :PROPERTIES:
-:ID:       lscmprssngrtm
+:CREATED:  [2022-01-08]
+:ID:       prfmncprbsndtnlnkrchvdflfprthssprbsthrsnfrdskspclk
 :END:
-
+** TODO [#C] performance: warn about being disk/tmp intense?       :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-07]
+:ID:       prfrmncwrnbtbngdsktmpntns
+:END:
 * TODO [#D] [2021-01-11] move description to github
 :PROPERTIES:
 :ID:       mvdscrptntgthb
@@ -110,22 +263,7 @@ started compressing reddit...
 
 * -----------------------------------
 :PROPERTIES:
-:ID:       2970_3008
-:END:
-* TODO [#C] generic sqlite databases export                        :bleanser:
-:PROPERTIES:
-:CREATED:  [2021-02-11]
-:ID:       gnrcsqltdtbssxprt
-:END:
-- do not remove; move to killzone
-- get all tables
-- make sure all schemas match
-- maybe convert it to json or something? and then compare jsons...
-- checks that entries are dominated?
-* TODO [#B] hmm. they serve sort of the same purpose??? :bleanser:backupchecker:
-:PROPERTIES:
-:CREATED:  [2021-02-11]
-:ID:       hmmthysrvsrtfthsmprps
+:ID:       9649_9687
 :END:
 * TODO [#B] maybe 'dynamic' optimizer for bleanser? and later can use it to actually delete stuff :hpi:
 :PROPERTIES:
@@ -136,11 +274,24 @@ started compressing reddit...
 :PROPERTIES:
 :ID:       gsshpcldmprttsdpndncy
 :END:
-* TODO [#C] github events via triples would be a good example      :bleanser:
+* CNCL [#B] [2021-04-07] performance: [[https://docs.pyfilesystem.org/en/latest/reference/memoryfs.html][Memory Filesystem — PyFilesystem 2.4.13 documentation]] :bleanser:
 :PROPERTIES:
-:CREATED:  [2021-02-21]
-:ID:       gthbvntsvtrplswldbgdxmpl
+:ID:       prfrmncsdcspyflsystmrgnltryflsystmpyflsystmdcmnttn
 :END:
+could use for processing... maybe via option
+* TODO [#B] completely format agnostic comparison is unsafe if it's doing some sorting/reordering? :bleanser:
+:PROPERTIES:
+:CREATED:  [2022-01-02]
+:ID:       cmpltlyfrmtgnstccmprsnsnsfftsdngsmsrtngrrdrng
+:END:
+need to come up with some example..
+
+* TODO [#B] simple cleanup: for safety, need to treat files as essentially blackboxes (so only compare exact contents by default). Only after maybe explicitly allowing newlines should it use diff :bleanser:
+:PROPERTIES:
+:CREATED:  [2022-01-05]
+:ID:       smplclnpfrsftyndttrtflsssplctlyllwngnwlnsshldtsdff
+:END:
+otherwise might end up deleting some useful entries by accident... i.e. same problem as I had with rescuetime
 * TODO [#C] [2021-03-02] [[https://pypi.org/search/?q=pruny][Search results · PyPI]] :bleanser:
 :PROPERTIES:
 :ID:       spyprgsrchqprnysrchrsltspyp
@@ -150,125 +301,34 @@ could name like this...
 :PROPERTIES:
 :ID:       sgthbcmtrlfbtsgrphtgtrlfbschsjsnjsnxmlhtmlymlndcsv
 :END:
+- [2022-01-12] probs only useful to examine manually... unlikely to actually reuse it in bleanser
 
-* TODO [#B] ok, triples for browser history are def gonna be impactful :bleanser:
-:PROPERTIES:
-:CREATED:  [2021-03-29]
-:ID:       ktrplsfrbrwsrhstryrdfgnnbmpctfl
-:END:
-maybe before comparison explicitly 'cleanup' stuff
-* [#C] [2021-04-07] [[https://docs.pyfilesystem.org/en/latest/reference/memoryfs.html][Memory Filesystem — PyFilesystem 2.4.13 documentation]] :bleanser:
-:PROPERTIES:
-:ID:       sdcspyflsystmrgnltstrfrncryflsystmpyflsystmdcmnttn
-:END:
-could use for processing... maybe via option
-* TODO [#B] warn about being disk/tmp intense?                     :bleanser:
-:PROPERTIES:
-:CREATED:  [2021-04-07]
-:ID:       wrnbtbngdsktmpntns
-:END:
-* TODO [#C] write about multiprocessing?                           :bleanser:
-:PROPERTIES:
-:CREATED:  [2021-04-05]
-:ID:       wrtbtmltprcssng
-:END:
-* TODO [#B] 'extract' query                                        :bleanser:
-:PROPERTIES:
-:CREATED:  [2021-04-09]
-:ID:       xtrctqry
-:END:
-might be useful as a sanity check? to ensure stuff isn't deleted by accident? (like foreign key triggers)
-e.g.
-- run extract query first to get a snapshot of data
-- run cleanup query
-- run extract query first to ensure the data we care about is there?
-* TODO [#D] hmm, for attributes that can change back and force in json, sorted strategy isn't the best... ugh :bleanser:
-:PROPERTIES:
-:CREATED:  [2021-04-08]
-:ID:       hmmfrttrbtsthtcnchngbckndcnjsnsrtdstrtgysntthbstgh
-:END:
-* TODO [#A] sqlite: hmm....note sure about cascades... probably need to disable somehow? :bleanser:
-:PROPERTIES:
-:CREATED:  [2021-04-08]
-:ID:       sqlthmmntsrbtcscdsprbblyndtdsblsmhw
-:END:
-* TODO [#B] investigating diffs                                    :bleanser:
-:PROPERTIES:
-:CREATED:  [2021-04-10]
-:ID:       nvstgtngdffs
-:END:
-shell globing nice for not typing too much
-: python3 -m bleanser.modules.firefox diff /path/to/database-201906{16,17}*.sqlite | less
-* TODO [#C] for properly impressive demo should prob run in single threaded mode? :bleanser:
-:PROPERTIES:
-:CREATED:  [2021-04-10]
-:ID:       frprprlymprssvdmshldprbrnnsnglthrddmd
-:END:
-* TODO [#B] run tox first? to protect from crashes           :bleanser:setup:
-:PROPERTIES:
-:CREATED:  [2021-04-11]
-:ID:       rntxfrsttprtctfrmcrshs
-:END:
-* TODO [#B] could artificially map jsons to line-based format (with full path to the entity?) :bleanser:
-:PROPERTIES:
-:CREATED:  [2021-04-09]
-:ID:       cldrtfcllympjsnstlnbsdfrmtwthfllpthtthntty
-:END:
-that way might work more reliably... hmm
-* TODO [#B] kinds of snapshots                              :toblog:bleanser:
-:PROPERTIES:
-:CREATED:  [2021-04-05]
-:ID:       kndsfsnpshts
-:END:
-- append only (e.g. foursquare, hypothesis)
-- rolling (e.g. rescuetime, github, reddit)
-either way you can think of it as as set of strings
-* TODO [#D] moving old files -- not sure what to do about empty dirs? :bleanser:
-:PROPERTIES:
-:CREATED:  [2021-04-09]
-:ID:       mvngldflsntsrwhttdbtmptydrs
-:END:
-maybe keep all dirs that were there before -- and only remove new empty dirs?
-* TODO [#C] implement 'extract' mode later... after writing to blog definitely :bleanser:
-:PROPERTIES:
-:CREATED:  [2021-04-11]
-:ID:       mplmntxtrctmdltrftrwrtngtblgdfntly
-:END:
-* TODO [#C] readme: gotcha about group boundaries not being removed (nad having empty diff) :bleanser:
-:PROPERTIES:
-:CREATED:  [2021-04-10]
-:ID:       rdmgtchbtgrpbndrsntbngrmvdndhvngmptydff
-:END:
-* TODO [#C] document what's happening in which case... with a literate test :bleanser:
-:PROPERTIES:
-:CREATED:  [2021-04-10]
-:ID:       dcmntwhtshppnngnwhchcswthltrttst
-:END:
-- e.g. 'all files are same'
-- only added data
-- rolling data (some fake datetime stuff with 30d retention)
-- error in cleaner script
-* TODO [#C] proper end2end test --- could  run against firefox? reinstalled at about 202006, could track by file size changes :bleanser:
+* TODO [#C] proper end2end test --- could run against firefox? reinstalled at about 202006, could track by file size changes :bleanser:
 :PROPERTIES:
 :CREATED:  [2021-04-08]
 :ID:       prprndndtstcldrngnstfrfxrtlldtbtcldtrckbyflszchngs
 :END:
-* TODO [#D] multiway is a bit more speculative              :bleanser:toblog:
+* TODO [#C] json: sorting stuff might definitely make it more confusing when there is just one volatile attribute that has two values :bleanser:
 :PROPERTIES:
-:CREATED:  [2021-04-07]
-:ID:       mltwysbtmrspcltv
+:CREATED:  [2021-04-16]
+:ID:       jsnsrtngstffmghtdfntlymktrsjstnvltlttrbtththstwvls
 :END:
-* TODO [#B] add for takeouts... I even had some script to compare it somewhere :bleanser:
+e.g. on foursquare with isMayor: true -- hmmm
+* [#C] [2021-12-30] performance: tried using ramdisk, but seems that the performance is exactly the same? :bleanser:
 :PROPERTIES:
-:CREATED:  [2021-04-14]
-:ID:       ddfrtktsvnhdsmscrpttcmprtsmwhr
+:ID:       prfrmnctrdsngrmdskbtsmsthtthprfrmncsxctlythsm
 :END:
-* STRT [#B] hypothesis, endomondo, pinboard -- just use regular json processor :bleanser:
+* TODO [#C] to check, implement a script that plots backup 'frequency'? so if there are too many somewhere likely normalisation is broken :bleanser:
 :PROPERTIES:
-:CREATED:  [2021-04-14]
-:ID:       hypthssndmndpnbrdjstsrglrjsnprcssr
+:CREATED:  [2022-01-02]
+:ID:       tchckmplmntscrptthtpltsbctmnysmwhrlklynrmlstnsbrkn
 :END:
-* TODO [#B] old code for 'extract' bit                    :bleanser:pinboard:
+* WAIT [#C] would be nice to make idempotent... but tricky when it's multiple threads present... :bleanser:
+:PROPERTIES:
+:CREATED:  [2022-01-02]
+:ID:       wldbnctmkdmptntbttrckywhntsmltplthrdsprsnt
+:END:
+* TODO [#D] old code for 'extract' bit                    :bleanser:pinboard:
 :PROPERTIES:
 :CREATED:  [2021-04-14]
 :ID:       ldcdfrxtrctbt
@@ -278,14 +338,27 @@ maybe keep all dirs that were there before -- and only remove new empty dirs?
 :       '.posts |= map({href, description, time, tags})', # TODO maybe just delete hash?
 :       '.notes |= {notes: .notes | map({id, title, updated_at}), count}',  # TODO hhmm, it keeps length but not content?? odd.
 :  )
-* TODO [#C] json: sorting stuff might definitely make it more confusing when there is just one volatile attribute that has two values :bleanser:
+* TODO [#D] hmm, for attributes that can change back and forth in json, sorted strategy isn't the best... ugh :bleanser:
 :PROPERTIES:
-:CREATED:  [2021-04-16]
-:ID:       jsnsrtngstffmghtdfntlymktrsjstnvltlttrbtththstwvls
+:CREATED:  [2021-04-08]
+:ID:       hmmfrttrbtsthtcnchngbckndhnjsnsrtdstrtgysntthbstgh
 :END:
-e.g. on foursquare with isMayor: true -- hmmm
-* TODO [#C] foursquare is a good motiation -- lots of random changing crap even without the changes of underlying data? :bleanser:
+* DONE [#A] sqlite: hmm....note sure about cascades... probably need to disable somehow? :bleanser:
 :PROPERTIES:
-:CREATED:  [2021-04-16]
-:ID:       frsqrsgdmttnltsfrndmchngnrpvnwthtthchngsfndrlyngdt
+:CREATED:  [2021-04-08]
+:ID:       sqlthmmntsrbtcscdsprbblyndtdsblsmhw
 :END:
+* DONE [#B] json: could artificially map jsons to line-based format (with full path to the entity?) :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-04-09]
+:ID:       jsncldrtfcllympjsnstlnbsdfrmtwthfllpthtthntty
+:END:
+that way might work more reliably... hmm
+- [2022-01-12] full path to the entity ended up a bad idea (added a test to json processor for that)
+* DONE [#B] json: some lists are actually lists of different/heterogenous items (e.g. rescuetime), some are homogenous/merely tag-like :bleanser:
+:PROPERTIES:
+:CREATED:  [2021-06-26]
+:ID:       jsnsmlstsrctllylstsfdffrntmsgrsctmsmrhmgnsmrlytglk
+:END:
+tag-like should be collapsed in the same line
+maybe mark 'paths' to the ones that should be treated like separate items? should work for rescuetime I suppose...

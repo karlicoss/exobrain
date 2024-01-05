@@ -6,7 +6,7 @@
 :ID:       rltd
 :END:
 
-* STRT [#A] improve sleep, try waking up without alarm          :sleep:habit:
+* STRT [#B] improve sleep, try waking up without alarm          :sleep:habit:
 :PROPERTIES:
 :ID:       e4cc3d9c-7716-4c93-a46c-f7b9bc020d26
 :END:
@@ -599,20 +599,35 @@ wonder how bad is mine then?
 hmm. maybe try that? wonder if I could have sort of poly sleep one day per week?
 [[http://super-memory.com/articles/sleep.htm][Good sleep, good learning, good life]]
 [[https://hyp.is/-2OIDMRhEemG-UMFQLCSgA/super-memory.com/articles/sleep.htm][in context]]
-* TODO [#C] For more see Excessive sleeping.
+* DONE [#B] excessive sleeping
 :PROPERTIES:
 :CREATED:  [2019-08-21]
-:ID:       frmrsxcssvslpng
+:ID:       xcssvslpng
 :END:
-None
 [[http://super-memory.com/articles/sleep.htm][Good sleep, good learning, good life]]
 [[https://hyp.is/9Hs4GsRgEem15b-ToPxHRQ/super-memory.com/articles/sleep.htm][in context]]
+** [2021-06-06] eh
+:PROPERTIES:
+:ID:       h
+:END:
+dunno, lots of information here, but seems that he's sceptical of almost all interventions except for free running sleep?
+takeaways
+- circadian and homeostatic components must be in sync?
+- circadian is actually closer to 25 hours??
+  but he claims that factors like intense morning light, work, exercise can reset the oscillation to 24?? how??
+  : The clock is reset in the morning with activity and bright light.
+
+  hmm
+- caffeine fine in the morning (latest after siesta nap?)
+- very anti-alarm
+- melatonin: can slightly advance the sleep phase, but won't be "sleep on demand"
+- melatonin: impacts sleep structure?
+- melatonin will affect creativity and alertness? shouldn't be used on regular basis?
 * TODO For a visual illustration of circadian and homeostatic components, see section Two-component sleep model in SuperMemo.
 :PROPERTIES:
 :CREATED:  [2019-08-21]
 :ID:       frvslllstrtnfcrcdnndhmsttssctntwcmpnntslpmdlnsprmm
 :END:
-None
 [[http://super-memory.com/articles/sleep.htm][Good sleep, good learning, good life]]
 [[https://hyp.is/mbieVMRgEemuuedRSMBAmw/super-memory.com/articles/sleep.htm][in context]]
 * TODO Here’s a report (a) from a person who I trust a lot describing how they cut their sleep from 8 hours to 6.3 hours a day and sustained it for more than a year.  Here’s a detailed story (a) with many practical tips from a friend of mine who experimented with many different ways of sleep reduction, including hardcore polyphasic sleep, and settled on the same 6.3 hours of sleep per day schedule.  Here’s the best general overview (a) of these styles of sleep that I found.
@@ -620,7 +635,6 @@ None
 :CREATED:  [2019-11-15]
 :ID:       hrsrprtfrmprsnwhtrstltdscrlvrvwfthsstylsfslpthtfnd
 :END:
-None
 [[https://guzey.com/books/why-we-sleep/][Matthew Walker's "Why We Sleep" Is Riddled with Basic Scientific Errors - Alexey Guzey]]
 [[https://hyp.is/UNgRcgfsEeqFuxe_cKOKpw/guzey.com/books/why-we-sleep/][in context]]
 * [#C] [2020-01-31] Rooms can be as bright as the outdoors | Hacker News
@@ -729,3 +743,10 @@ hmm. wonder if I should do a sleep study..
 :ID:       sfrmqntfdslfcmtrrngvsmftqclctvtyndftnssqntfdslffrm
 :END:
 : Oura ring vs. Emfit QS (My detailed comparison) - What do you think?
+* TODO [#C] Tweet from @OpenBCI https://twitter.com/OpenBCI/status/1381965057169362952
+:PROPERTIES:
+:CREATED:  [2021-04-13]
+:ID:       twtfrmpnbcstwttrcmpnbcstts
+:END:
+: @OpenBCI: Have you been getting enough sleep?
+: Three years ago a team of researchers from The Netherlands, Austria and Australia initiated one of the largest N=1 studies in the world, with one of the researchers as the subject.

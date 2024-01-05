@@ -692,12 +692,6 @@ https://www.gnu.org/software/hyperbole/HY-WHY.html
 :CREATED:  [2019-10-11]
 :ID:       thnkwhchfmywrkflwscldbmdvlblfrmrgnrlpblcndhw
 :END:
-* [#C] [2019-10-17] NOTE: A (Python 3) fork is actively maintained here · Issue 74 · koniu/recoll-webui
-:PROPERTIES:
-:ID:       ntpythnfrksctvlymntndhrssknrcllwb
-:END:
-https://github.com/koniu/recoll-webui/issues/74
-: NOTE: A (Python 3) fork is actively maintained here
 * [#C] [2019-10-19] Doug's 1968 Demo - Doug Engelbart Institute
 :PROPERTIES:
 :ID:       dgsdmdgnglbrtnsttt
@@ -1630,7 +1624,7 @@ Malleable Systems: Software must be as easy to change as it is to use it - https
 :ID:       snwkpdrgwkxpnxpnwkpd
 :END:
 post about desktop search engines?
-* [2020-10-25] [[https://github.com/FabriceColin/pinot][FabriceColin/pinot: Personal search and metasearch for the Free Desktop]] :search:pkm:
+* [#D] [2020-10-25] [[https://github.com/FabriceColin/pinot][FabriceColin/pinot: Personal search and metasearch for the Free Desktop]] :search:pkm:
 :PROPERTIES:
 :ID:       sgthbcmfbrcclnpntfbrcclnpnlsrchndmtsrchfrthfrdsktp
 :END:
@@ -1652,11 +1646,6 @@ https://superorganizers.substack.com/p/how-to-build-a-learning-machine###
 - manage playlists in exobrain
 - sync playlists with youtube
 - in each playlists description add a link to exobrain playlist
-* TODO [#C] [2020-01-25] Re: [koniu/recoll-webui] NOTE: A (Python 3) fork is actively maintained here (74)
-:PROPERTIES:
-:ID:       rknrcllwbntpythnfrksctvlymntndhr
-:END:
-: [koniu/recoll-webui] NOTE: A (Python 3) fork is actively maintained here
 * STRT [#C] [2020-01-30] dessant/web-archives: 📦 Browser extension for viewing archived and cached versions of web pages
 :PROPERTIES:
 :ID:       dssntwbrchvsbrwsrxtnsnfrvwngrchvdndcchdvrsnsfwbpgs
@@ -1687,6 +1676,7 @@ https://github.com/dessant/web-archives
 :ID:       pnbrgpkm
 :END:
 http://www.drbunsen.org/pinborg
+https://web.archive.org/web/20190210150519/http://www.drbunsen.org/pinborg/
 Ok pretty cool, but I think it's a bit too elaborate for me
 
 ** [2019-02-06] read it a while ago, but should do again, now that I have my own tool
@@ -2282,11 +2272,12 @@ basically my thoughts
 :CREATED:  [2021-01-10]
 :ID:       prcssrchvbtshwthmtthvryndsmlrwthgnrdflsmyb
 :END:
-* [#C] [2020-12-28] https://github.com/jameslittle230/stork          :search:
+* TODO [#C] [2020-12-28] https://github.com/jameslittle230/stork     :search:
 :PROPERTIES:
 :ID:       sgthbcmjmslttlstrk
 :END:
 - [2020-12-29] ugh shit. seems that it only supports document level granularity
+  - [2021-12-19] hmm ok, it supports anchors now!! https://github.com/jameslittle230/stork/issues/159
 * TODO [#C] rename to 'my personal knowledge and information' setup? also how to cope with fleshy body and brain? :pkm:infra:toblog:
 :PROPERTIES:
 :CREATED:  [2020-09-16]

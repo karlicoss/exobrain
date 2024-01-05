@@ -68,14 +68,6 @@ https://twitter.com/bizarre_bezoar/status/1359279349149663235
 :PROPERTIES:
 :ID:       sdcsgglcmsprdshtsdhtsmgczhbcmsnbrcknrdglbmsgglshts
 :END:
-* STRT [#B] Nocow: Ledyanoy Album Album Review | Pitchfork
-:PROPERTIES:
-:CREATED:  [2019-08-10]
-:ID:       ncwldynylbmlbmrvwptchfrk
-:END:
-
-https://pitchfork.com/reviews/albums/23179-ledyanoy-album/
-
 * TODO [#B] [2019-08-27] Ishkur's Guide to Electronic Music
 :PROPERTIES:
 :ID:       shkrsgdtlctrncmsc
@@ -112,7 +104,7 @@ http://music.ishkur.com/
 :ID:       whthsslsrllygdswwwytbcmwtchvjlhhrxcm
 :END:
 
-* TODO [#B] [2019-09-21] Filter | V Magazine https://vmagazine.com/filters/music
+* STRT [#B] [2019-09-21] Filter | V Magazine https://vmagazine.com/filters/music
 :PROPERTIES:
 :ID:       fltrvmgznsvmgzncmfltrsmsc
 :END:
@@ -151,6 +143,12 @@ https://vk.com/id1559723
 3: give a chance, basically todo with a higher priority
 4: ok
 5: really good
+
+* [#C] [2019-08-10] Nocow: Ledyanoy Album Album Review | Pitchfork
+:PROPERTIES:
+:ID:       ncwldynylbmlbmrvwptchfrk
+:END:
+https://pitchfork.com/reviews/albums/23179-ledyanoy-album/
 
 * TODO [#C] misc
 :PROPERTIES:
@@ -237,13 +235,6 @@ coding/spotisync
 :ID:       янакедринаsvkcmd
 :END:
 
-* TODO [#C] https://vk.com/wall-76448116_4082                          :kedr:
-:PROPERTIES:
-:CREATED:  [2019-10-11]
-:ID:       svkcmwll
-:END:
-: наш с AEM Rhythm-Cascade новый трек специально для компиляции любимого российского лейбла ГОСТ ЗВУК
-
 * TODO [#C] [2019-08-17] 2MR Transmission with Kedr Livanskiy @ The Lot Radio 07:25:2018 by The Lot Radio | Mixcloud :kedr:
 :PROPERTIES:
 :ID:       mrtrnsmssnwthkdrlvnskythltrdbythltrdmxcld
@@ -258,32 +249,18 @@ https://www.mixcloud.com/thelotradio/2mr-transmission-with-kedr-livanskiy-the-lo
 [[https://jborichevskiy.com/posts/patch-notes-v5/][This newsletter lives in Roam]]
 [[https://hyp.is/4X6BFpktEeqpO89HRp6xGw/jborichevskiy.com/posts/patch-notes-v5/][in context]]
 
-* TODO [#C] [2020-07-05] [[https://www.youtube.com/channel/UCVO_yh_5oj6y3A_eMzTI6cw/videos][(1) GOST ZVUK - YouTube]]
+* TODO [#C] [2020-07-05] [[https://www.youtube.com/channel/UCVO_yh_5oj6y3A_eMzTI6cw/videos][GOST ZVUK - YouTube]]
 :PROPERTIES:
 :ID:       swwwytbcmchnnlcvyhjymztcwvdsgstzvkytb
 :END:
-* TODO [#C] Night Light - Ruffien
-:PROPERTIES:
-:CREATED:  [2020-10-24]
-:ID:       nghtlghtrffn
-:END:
-
-I used Shazam to discover Night Light by Ruffien. https://www.shazam.com/track/491772724/night-light
-
 * TODO [#C] check music charts                                        :music:
 :PROPERTIES:
 :CREATED:  [2018-04-02]
 :ID:       chckmscchrts
 :END:
 
-** spotify
-:PROPERTIES:
-:ID:       sptfy
-:END:
-** last fm
-:PROPERTIES:
-:ID:       lstfm
-:END:
+- spotify
+- lastfm
 
 * [#C] [2020-01-08] [[https://news.ycombinator.com/item?id=21989929][A beginner’s guide to modern classical music]] :music:
 :PROPERTIES:
@@ -296,19 +273,19 @@ http://lukemuehlhauser.com/how-to-fall-in-love-with-modern-classical-music-4/
 :ID:       lstntsynthblgwthtnntnnpgfh
 :END:
 
-* TODO [#D] Tweet from John Carlos Baez (@johncarlosbaez), at Aug 3, 03:00
+* TODO [#D] Tweet from John Carlos Baez (@johncarlosbaez), at Aug 3, 03:00 classical music
 :PROPERTIES:
 :CREATED:  [2019-08-03]
-:ID:       twtfrmjhncrlsbzjhncrlsbztg
+:ID:       twtfrmjhncrlsbzjhncrlsbztgclssclmsc
 :END:
 : I just fell in love with Ravel's "Gaspard de la Nuit".  He wanted it to be the hardest piano piece in the world.  This picture is from a classical music website.   But it's not just hard - it sounds good, too!
 
 https://twitter.com/johncarlosbaez/status/1157471331731984384
 
-* TODO [#D] Tweet from Riva (@rivatez), at Dec 28, 17:07
+* TODO [#D] Tweet from Riva (@rivatez), at Dec 28, 17:07 contemporary classic music
 :PROPERTIES:
 :CREATED:  [2019-12-28]
-:ID:       twtfrmrvrvtztdc
+:ID:       twtfrmrvrvtztdccntmprryclsscmsc
 :END:
 : interested in contemporary classical music? thinking about listening to @maxrichtermusic and not sure where to start? I made a playlist this morning for @michael_nielsen of (what I think are) the best Max Richter tracks, sharing here:
 
@@ -613,7 +590,7 @@ very good!
 :ID:       stwttrcmspfdjrfsrctwsrcggrpctwgrthrspfdjspfdjtwttr
 :END:
 
-* DONE [#C] [2021-03-21] [[https://lenta.ru/articles/2019/10/22/kedr_livanskiy/][Звезда российского электро-попа о снобизме взрослых, чувствах молодых и доминации женщин : Музыка: Культура: Lenta.ru]] :kedr:
+* [#C] [2021-03-21] [[https://lenta.ru/articles/2019/10/22/kedr_livanskiy/][Звезда российского электро-попа о снобизме взрослых, чувствах молодых и доминации женщин : Музыка: Культура: Lenta.ru]] :kedr:
 :PROPERTIES:
 :ID:       slntrrtclskdrlvnskyзвездаиженщинмузыкакультураlntr
 :END:
@@ -635,4 +612,23 @@ https://www.beatportal.com/features/beatports-definitive-guide-to-techno/
 * TODO [#B] [2021-04-12] [[https://reddit.com/r/Techno/comments/mpfg6g/some_new_local_techno_from_northern_germany_der/][Some new local Techno from Northern Germany: Der Träumer - Loop]] /r/Techno :music:
 :PROPERTIES:
 :ID:       srddtcmrtchncmmntsmpfggsmnrthrngrmnydrträmrlprtchn
+:END:
+* [#B] [2021-04-16] Интервью с Kedr Livanskiy https://radugadiscoclub.ru/kedrlivansky :kedr:
+:PROPERTIES:
+:ID:       интервьюсkdrlvnskysrdgdscclbrkdrlvnsky
+:END:
+
+* TODO [#B] Clairvoyant EP from QZB                                   :music:
+:PROPERTIES:
+:CREATED:  [2021-04-19]
+:ID:       clrvyntpfrmqzb
+:END:
+
+https://qzbmusic.bandcamp.com/album/clairvoyant-ep
+Hmm not bad d&b? Dunno
+
+* TODO [#B] Sisters with transistors                         :techno:towatch:
+:PROPERTIES:
+:CREATED:  [2021-05-10]
+:ID:       sstrswthtrnsstrs
 :END:

@@ -592,9 +592,9 @@ http://www.josiahzayner.com/2020/04/all-my-friends-are-dying.html
 :PROPERTIES:
 :ID:       jnswllydkblmstrsnsrpnhbndtrsnsrpnhbrhmssstntndhmkt
 :END:
-* [#C] [2020-05-14] various jawbone links from old my package    :qs:jawbone:
+* [#C] [2017-07-29] various jawbone links from old hpi package   :qs:jawbone:
 :PROPERTIES:
-:ID:       vrsjwbnlnksfrmldmypckg
+:ID:       vrsjwbnlnksfrmldhppckg
 :END:
 [[https://github.com/crowoy/Health-Analysis][crowoy/Health-Analysis: Tool for visualising and analysing personal fitness data.]]
 - https://github.com/joytafty-work/SleepModel

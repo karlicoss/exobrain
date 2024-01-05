@@ -149,7 +149,7 @@ hmm kind of similar to what I'm doing/want for axol?
 :CREATED:  [2020-10-18]
 :ID:       prsrvtrcbck
 :END:
-** TODO [#B] cache is gonna be expired several times a day anyway judging by bleansed backups... so I kind of need to do incremental anyway :hpi:reddit:
+** TODO [#B] cache is gonna be expired several times a day anyway judging by bleansed backups... so I kind of need to do incremental anyway :bleanser:hpi:reddit:
 :PROPERTIES:
 :CREATED:  [2020-06-21]
 :ID:       cchsgnnbxprdsvrltmsdynywybckpsskndfndtdncrmntlnywy
@@ -558,7 +558,7 @@ Maybe, set the attribute to the function? Seems good enough?
 :ID:       rltd
 :END:
 
-* TODO [#B] [2021-03-08] [[https://github.com/calpaterson/pyappcache][calpaterson/pyappcache: A library for application-level caching]] :cachew:
+* TODO [#A] [2021-03-08] [[https://github.com/calpaterson/pyappcache][calpaterson/pyappcache: A library for application-level caching]] :cachew:
 :PROPERTIES:
 :ID:       sgthbcmclptrsnpyppcchclptpcchlbrryfrpplctnlvlcchng
 :END:
