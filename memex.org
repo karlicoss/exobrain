@@ -1,6 +1,7 @@
 #+title: ⭐ Memex
 #+filetags: memex
 
+
 Memex is a system that keeps all your data and acts as an ultimate interface to it.
 It gives you fast (ideally instant access), convenient interfaces and ultimately makes you better at thinking and analysing, acting as an auxiliary brain.
 Arguably so far none have been built :)
@@ -247,7 +248,7 @@ timeline -- similarly for all life events
 :END:
 * ----------------------------
 :PROPERTIES:
-:ID:       9616_9648
+:ID:       10062_10094
 :END:
 
 * TODO [#D] Tweet from @mekarpeles                                    :memex:
