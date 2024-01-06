@@ -322,7 +322,6 @@ link to HPI?
 :CREATED:  [2019-02-20]
 :ID:       prmnntvwntrddtbkmrkshrdtdgshbtwnnfvrtdrnnxstntthgh
 :END:
-- State "STRT"      from "TODO"       [2019-03-15]
 * TODO [#C] I guess id want to rearrange items based on topics and probably threads/posts :reddit:org:
 :PROPERTIES:
 :CREATED:  [2019-02-20]
@@ -359,8 +358,6 @@ People wonder why are bookmarks so hard
 :CREATED:  [2019-02-22]
 :ID:       hypthssvw
 :END:
-- State "DONE"       from "STRT"      [2019-03-15]
-- State "STRT"      from "TODO"       [2019-03-12]
 ** [2019-03-02] for hyp:
 :PROPERTIES:
 :ID:       frhyp

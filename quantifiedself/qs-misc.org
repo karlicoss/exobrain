@@ -163,7 +163,6 @@ damn, fascinating, the guy committed to rexport and now I notice him in the pino
 :CREATED:  [2018-05-02]
 :ID:       plsxmtr
 :END:
-- State "STRT"      from "TODO"       [2019-02-21]
 https://en.wikipedia.org/wiki/Pulse_oximetry
 sleep for android can connect to it apparently?
 
@@ -898,7 +897,6 @@ https://pinboard.in/u:nhaliday/b:51addc9d5f81
 :PROPERTIES:
 :ID:       slthrvcm
 :END:
-- State "STRT"      from "TODO"       [2019-02-21]
 ** [2019-02-21] ok, gonna try to measure for a bit and maybe compare with emfit
 :PROPERTIES:
 :ID:       kgnntrytmsrfrbtndmybcmprwthmft

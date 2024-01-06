@@ -781,7 +781,6 @@ http://jakobschwichtenberg.com/resources-that-helped-me-understand-grand-unified
 :PROPERTIES:
 :ID:       physcsfrmsymmtryjkbschwchtnbrggglbks
 :END:
-- State "STRT"      from "TODO"       [2019-02-27]
 https://books.google.co.uk/books?id=bipBDwAAQBAJ&pg=PA91&lpg=PA91&dq=%22spin+0%22+representation&source=bl&ots=tn4XLPmWDc&sig=ACfU3U1dUSMAyjpvDV-6Vx0f6k0oXTrguw&hl=en&sa=X&ved=2ahUKEwjz7LC_2vzfAhUlQRUIHXxOBrwQ6AEwEHoECBYQAQ#v=onepage&q=%22spin%200%22%20representation&f=false
 * TODO [#C] representations as monoids?                               :think:
 :PROPERTIES:

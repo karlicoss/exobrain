@@ -465,7 +465,6 @@ https://github.com/samuelmr/emfit-qs
 :CREATED:  [2019-03-06]
 :ID:       fgrtblmstrmksrllmrgd
 :END:
-- State "STRT"      from "TODO"       [2019-03-12]
 
 ** TODO [#C] actually wonder if I can connect it to computer?   :bluemaestro:
 :PROPERTIES:
@@ -511,7 +510,6 @@ https://github.com/samuelmr/emfit-qs
 :CREATED:  [2019-01-01]
 :ID:       chckfrdltdfvrts
 :END:
-- State "STRT"      from "TODO"       [2019-03-23]
 *** [2019-08-25] yep, it def happens; promnesia triggers it
 :PROPERTIES:
 :ID:       yptdfhppnsprmnstrggrst
@@ -1076,7 +1074,6 @@ UserTimelineEntry?
 :PROPERTIES:
 :ID:       mznrdrshstry
 :END:
-- State "STRT"      from "TODO"       [2019-02-23]
 
 ** TODO [2018-05-04] ugh, order history report is broken for the UK version :( https://www.amazon.co.uk/gp/help/customer/display.html?nodeId=202119330 wrote to support
 :PROPERTIES:
@@ -1089,7 +1086,6 @@ Then could connect to drebedengi and add comments (even with breakdown)
 :PROPERTIES:
 :ID:       bckpsmzn
 :END:
-- State "STRT"      from              [2019-02-23]
 
 * TODO ugh, bookmarks method in api is not exhaustive (elif item.get("type") == 'bookmark') :instapaper:
 :PROPERTIES:
@@ -1145,7 +1141,7 @@ https://github.com/signalnerve/roam-backup
 :     roamPasswor
 * ----------------------------------------------------
 :PROPERTIES:
-:ID:       41391_41446
+:ID:       41455_41510
 :END:
 * [#A] [2020-02-03] Data lake - Wikipedia                       :dal:exports:
 :PROPERTIES:

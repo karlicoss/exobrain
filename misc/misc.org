@@ -2778,8 +2778,6 @@ http://cognitivemedium.com/tat/index.html
 :PROPERTIES:
 :ID:       brtvctrwkpd
 :END:
-- State "DONE"       from "START"      [2019-04-20]
-- State "START"      from              [2019-03-12]
 https://en.wikipedia.org/wiki/Bret_Victor
 ** [2019-04-13] http://worrydream.com/#!/KillMath
 :PROPERTIES:

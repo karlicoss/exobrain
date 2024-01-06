@@ -107,7 +107,6 @@ https://bartoszmilewski.com/2018/12/11/keep-it-simplex-stupid/
 :CREATED:  [2019-02-10]
 :ID:       smmryntryngtndrstndtrngltdfndmntlgrp
 :END:
-- State "START"      from              [2019-02-21]
 ** https://math.stackexchange.com/questions/1778421/fundamental-group-of-the-sphere-via-triangulation :autopology:
 :PROPERTIES:
 :ID:       smthstckxchngcmqstnsfndmntlgrpfthsphrvtrngltn

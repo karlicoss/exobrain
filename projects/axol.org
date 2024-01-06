@@ -313,7 +313,6 @@ https://beepb00p.xyz/mypkg.html
 :PROPERTIES:
 :ID:       whtnvrslhmnxprncsrymssngwthtrlzngtsltstrcdx
 :END:
-- State "STRT"      from "TODO"       [2019-04-13]
   https://slatestarcodex.com/2014/03/17/what-universal-human-experiences-are-you-missing-without-realizing-it/
 search this post on reddit or something
 *** [2019-04-22] actually even found something interesting on gh..
@@ -552,7 +551,6 @@ axol/summary/hackernews_pkm.html
 :CREATED:  [2018-04-29]
 :ID:       sbscrbtmrnwsnqsbcndgdgts
 :END:
-- State "DONE"       from "STRT"      [2019-04-22]
 *** DONE regular?
 :PROPERTIES:
 :ID:       rglr

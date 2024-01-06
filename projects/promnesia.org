@@ -993,7 +993,6 @@ anchors are good examples of 'direct' visits and siblings?
 :CREATED:  [2018-05-31]
 :ID:       sfltppltfrmldbckpsgpnbrdncsdltrtclsbkmrks
 :END:
-- State "STRT"      from "TODO"       [2019-03-12]
 * STRT [#C] filter links
 :PROPERTIES:
 :ID:       fltrlnks
@@ -1216,7 +1215,7 @@ allow breaking down important and unimportant schema parts from extensions?
 :END:
 ** [2019-08-01] ??
 :PROPERTIES:
-:ID:       43351_43380
+:ID:       43367_43396
 :END:
 * TODO [#C] open in new tab from search?
 :PROPERTIES:
@@ -2601,7 +2600,6 @@ I guess just share the 'normalizing regex'?
 :CREATED:  [2019-01-25]
 :ID:       mksrtsrchsnrchv
 :END:
-- State "DONE"       from "TODO"       [2019-02-16]
 * DONE [#C] Use cachew for browser history                 :promnesia:cachew:
 :PROPERTIES:
 :CREATED:  [2020-01-23]
@@ -2640,7 +2638,6 @@ https://github.com/vinta/awesome-python
 :PROPERTIES:
 :ID:       wldblssflthghlghtvstdpstsfshmvfgpthlbrryfscttlxndr
 :END:
-- State "DONE"       from "TODO"       [2019-02-16]
 * DONE [#C] attempt to use prismjs
 :PROPERTIES:
 :CREATED:  [2020-04-09]

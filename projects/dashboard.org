@@ -1105,7 +1105,6 @@ basically could merge with 4sq? and custom addresses
 :CREATED:  [2019-02-24]
 :ID:       trytfndcrrltnbtwnslpndxrcs
 :END:
-- State "DONE"       from "TODO"       [2019-04-06]
 in the simplest approach, try to only use cardio and see how it correlates (binary, for instance). although not enough points..
 ** TODO [#C] temperature plots: would be interesting to have avg plot for 'indoors' and 'outdoors' periods?
 :PROPERTIES:
@@ -1187,7 +1186,7 @@ https://github.com/ucg8j/awesome-dash
 
 * -----------------------------------------
 :PROPERTIES:
-:ID:       39504_39549
+:ID:       39520_39565
 :END:
 
 * TODO [#A] come up with a better name? just in case of pypi release...

@@ -109,7 +109,6 @@ version control for your outputs, you're unlikely to mess anything up massively
 :CREATED:  [2019-02-09]
 :ID:       mttchnclchcs
 :END:
-- State "STRT"      from "TODO"       [2019-02-18]
 minimalistic design
 
 disqus: I'd love to use something else... 

@@ -208,7 +208,6 @@ https://github.com/orgzly/orgzly-android/issues/148
 :CREATED:  [2018-10-24]
 :ID:       ftcptrtmpltswthscrnbttns
 :END:
-- State "STRT"      from "TODO"       [2019-02-21]
 https://github.com/orgzly/orgzly-android/issues/80
 *** [2019-02-21] shit. gradle sync didn't work. tried updating Kotlin but that didn't help...
 :PROPERTIES:
@@ -263,13 +262,12 @@ I guess it would be a new preference in Settings / Reminders that can contain a 
 :CREATED:  [2019-02-16]
 :ID:       tdsttchngs
 :END:
-*** make sure orglzy can handle that??
+*** make sure orglzy can handle state changes (without LOGBOOK)
 :PROPERTIES:
-:ID:       mksrrglzycnhndltht
+:ID:       mksrrglzycnhndlsttchngswthtlgbk
 :END:
-- State "WAIT"       from "TODO"       [2019-02-16] \\
-  whatever
-
+: - State "WAIT"       from "TODO"       [2019-02-16 Sat] \\
+:   whatever
 
 ** TODO [#D] Orgzly archive
 :PROPERTIES:
@@ -735,7 +733,7 @@ using #gitbug instead now
 
 * --------------------------------
 :PROPERTIES:
-:ID:       24909_24945
+:ID:       24945_24981
 :END:
 
 * STRT [#C] share link and content                                    :tusky:

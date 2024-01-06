@@ -161,7 +161,6 @@ https://www.youtube.com/watch?v=DcbhHZugm8E
 :CREATED:  [2018-08-23]
 :ID:       psknrcmmnddbybz
 :END:
-- State "STRT"      from "TODO"       [2019-03-25]
 ** [2019-03-25] p. 17  We can think of the three terms, respectively, as the energy cost of "moving"in time, the energy cost of "shearing" in space, and the energy cost of havingthe field around at all. We will investigate this Hamiltonian much further inSections 2.3 and 2.4.
 :PROPERTIES:
 :ID:       pwcnthnkfththrtrmsrspctvlthshmltnnmchfrthrnsctnsnd

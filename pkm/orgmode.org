@@ -37,7 +37,6 @@ use with 'org-toggle-time-stamp-overlays?'
 :PROPERTIES:
 :ID:       rflwthnhrtdtgs
 :END:
-- State "STRT"      from "TODO"       [2019-02-16]
 ** [2019-02-16] https://lists.gnu.org/archive/html//emacs-orgmode/2009-04/msg00149.html eh, not very helpful.. looks like it's not there
 :PROPERTIES:
 :ID:       slstsgnrgrchvhtmlmcsrgmdmmlhntvryhlpfllkslktsntthr
@@ -919,8 +918,6 @@ https://github.com/fniessen/org-html-themes
 :CREATED:  [2018-11-16]
 :ID:       shtndgdlkncdnpt
 :END:
-- State "DONE"       from "START"      [2019-02-16]
-- State "START"      from "TODO"       [2019-02-16]
 
 
 * [#C] [2019-10-27] org babel - How to automatically tangle another source block to file when evaluate a source block in org-mode? - Emacs Stack Exchange
@@ -1095,7 +1092,6 @@ or maybe, it's fine?
 :CREATED:  [2018-05-29]
 :ID:       htkytsrtntrsbycrtddt
 :END:
-- State "DONE"       from "TODO"       [2019-02-16]
 org-sort-entries?
 don't need it as often...
 

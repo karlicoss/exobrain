@@ -424,7 +424,6 @@ ok, needs fuzzy matching dates (e.g. Added on Thursday, May 31, 2018 2:04:36 AM)
 :CREATED:  [2018-10-02]
 :ID:       fdly
 :END:
-- State "START"      from "TODO"       [2019-04-17]
 https://developer.feedly.com/v3/subscriptions/ -- that could def be useful
 https://developer.feedly.com/v3/markers/#mark-one-or-multiple-articles-as-saved that too
 ** [2019-04-04] unclear from the API if it's possible to extract when something was read
@@ -717,8 +716,6 @@ Planned meals, holidays etc
 :CREATED:  [2018-09-16]
 :ID:       xtrctldslpfrmjwbnmsthvflstprstsmwhr
 :END:
-
-- State "START"      from "TODO"       [2019-04-04]
 * TODO [#D] old github events (looks like backup in /backups/github-feed doesn't have unexpanded events...) :hpi:
 :PROPERTIES:
 :CREATED:  [2018-09-28]

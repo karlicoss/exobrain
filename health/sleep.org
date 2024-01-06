@@ -543,14 +543,12 @@ https://twitter.com/nplusodin/status/1153363362316791809
 :CREATED:  [2018-03-01]
 :ID:       trckslpmrcrfllygwhthrvrslptndwhchtmwntdtwkp
 :END:
-- State "DONE"       from "STRT"      [2019-04-01]
 
 * DONE [#B] mental energy should be determined like 'do you feel sleepy 0.5 hours after waking up :sleep:qs:
 :PROPERTIES:
 :CREATED:  [2018-08-10]
 :ID:       mntlnrgyshldbdtrmndlkdyflslpyhrsftrwkngp
 :END:
-- State "DONE"       from "STRT"      [2019-04-01]
 
 * CANCEL Using tape when you sleep too breath through nose?           :sleep:
 :PROPERTIES:

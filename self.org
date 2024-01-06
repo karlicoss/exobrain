@@ -404,7 +404,6 @@ maybe share mine?..
 :CREATED:  [2019-04-10]
 :ID:       rllyndtfgrthwtsmplfygddshvnddlvrthmfstr
 :END:
-- State "STRT"      from "TODO"       [2019-04-22]
 
 * [#B] [2020-05-13] real life > videogames
 :PROPERTIES:
@@ -434,13 +433,13 @@ there is stuff to build and solve
 :END:
 ** [2020-12-16] .
 :PROPERTIES:
-:ID:       20560_20722
+:ID:       20576_20738
 :END:
 Dunno wtf? I kinda chilled all day, barely worked, cooked etc
 And yet I feel kinda sleepy, eyes really tired etc. The fuck is this??
 ** [2020-12-19] .
 :PROPERTIES:
-:ID:       20722_20907
+:ID:       20738_20923
 :END:
 Spent all day kinda procrastinating.. I definitely don't seem to know how to relax
 I guess in normal circumstances I could have gone bouldering or something
