@@ -396,7 +396,7 @@ Menthos got a rough surface, so it acts as a good nucleation site too.
 Also plastic vs paper straws: paper straws also make it fizzier.
 * [#D] [2019-07-22] Астрофизики определили форму Местного войда https://nplus1.ru/news/2019/07/22/local-void :space:
 :PROPERTIES:
-:ID:       астрофизикиопределилиформстноговойдаsnplsrnwslclvd
+:ID:       snplsrnwslclvd
 :END:
 :  Наиболее близок к нам Местный войд, который простирается примерно на 40 процентов площади неба и начинается у края Местной группы на расстоянии около одного мегапарсека.
 * [#C] intuition about harmonic function https://math.stackexchange.com/questions/751293/intuitive-significance-of-harmonicity/751459 :math:physics:drill:
@@ -508,7 +508,7 @@ despised nuclear weapons even though contributed to manhattan project?
 : How do the quarks and gluons carry the spin of protons?
 * [#C] [2020-08-01] [[https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D0%BD%D0%BE%D1%80][Спинор — Википедия]]
 :PROPERTIES:
-:ID:       srwkpdrgwkddbfdbdbddbdспинорвикипедия
+:ID:       srwkpdrgwkddbfdbdbddbd
 :END:
 * [#C] [2020-07-27] [[https://twitter.com/bencbartlett/status/1287802625602117632][Ben Bartlett on Twitter: "Hydrogen wavefunctions transitioning between states with different quantum numbers 𝒏,𝒍,𝒎. ⚛️ Each transition shows a state α|𝒏𝒍𝒎⟩+β|𝒏'𝒍'𝒎'⟩, where α decreases and β increases. Dots represent the values of 𝒏𝒍𝒎, and the solid lines show possible allowed values. https://t.co/vPppgZuHfP" / Twitter]]
 :PROPERTIES:
@@ -543,7 +543,7 @@ there is also a wave plate, which passes through it light in different direction
 : Their masses do not matter because this is already taken into account in the temperature (average kinetic energy), so all systems of "ideal gasses" (or billiard balls) with the same P, V, T and particle number behave in the same way.
 * [#C] [2020-11-13] [[https://twitter.com/pavel_bazant/status/1327341200333037570][Pavel Bažant on Twitter: "@Plinz @shlevy @The_Lagrangian Exactly. But laymen and popsci outlets like her (mostly bogus) criticism of modern physics, because it gives them "hope" that those elitist physicists are just as clueless as the layman. Now she cannot easily change her stance even if she wanted :-(" / Twitter]]
 :PROPERTIES:
-:ID:       stwttrcmpvlbzntsttspvlbžnychnghrstncvnfshwntdtwttr
+:ID:       stwttrcmpvlbzntsttspvlbntychnghrstncvnfshwntdtwttr
 :END:
 : Exactly. But laymen and popsci outlets like her (mostly bogus) criticism of modern physics, because it gives them "hope" that those elitist physicists are just as clueless as the layman. Now she cannot easily change her stance even if she wanted :-(
 * [#B] [2015-03-16] [[https://reddit.com/r/askscience/comments/2z8r01/how_fast_does_electricity_move_in_a_wire/cph2d70/][How fast does electricity move in a wire?]] /r/askscience

@@ -244,7 +244,7 @@ https://github.com/RomanPlusPlus/mindfilesResources
 :END:
 * [#D] [2019-03-05] пропаганда машин on Twitter: "Напоминаю, что вот так выглядит депрессия. Необязательно в виде лежащего и ничего не хотящего, уставившегося в одну точку, грустного человека. Вашим очень веселым и успешным людям тоже может быть плохо. Не забывайте иногда спрашивать, все ли у них хорошо. https://t.co/SPGXltmNAh" / Twitter :empathy:
 :PROPERTIES:
-:ID:       пропагандамашинntwttrнапоиххорошоstcspgxltmnhtwttr
+:ID:       ntwttrstcspgxltmnhtwttr
 :END:
 https://twitter.com/_vanswan/status/1102690190408253440
 
@@ -292,7 +292,7 @@ https://www.abolitionist.com/multiverse.html
 
 * [2018-06-18] Психоделики помогли нейронам вырасти длинными и ветвистыми :psy:
 :PROPERTIES:
-:ID:       психоделикипомоглинейронаырастидлиннымииветвистыми
+:ID:       14335_14484
 :END:
 https://nplus1.ru/news/2018/06/14/psychedelic-depression
 
@@ -311,7 +311,7 @@ https://en.wikipedia.org/wiki/Hedonic_treadmill
 That's why I'm learning more about nature of human mind and why we humans in general need to solve it
 * TODO [#C] [2018-07-21] LSD and Quantum Measurements: Can you see Schrödinger’s cat both dead and alive on acid? | Qualia Computing :quantum:psy:
 :PROPERTIES:
-:ID:       lsdndqntmmsrmntscnysschrögrsctbthddndlvncdqlcmptng
+:ID:       lsdndqntmmsrmntscnysschrdgrsctbthddndlvncdqlcmptng
 :END:
 https://qualiacomputing.com/2016/10/29/lsd-and-quantum-measurements-can-you-see-schrodingers-cat-both-dead-and-alive-on-acid/
 

@@ -1167,7 +1167,7 @@ what the fuck??? how do I deal with it???
 :END:
 * TODO [#C] [[https://twitter.com/i/web/status/822927519586381824][TW]] at [2017-01-21] Играюсь с IMDB, думал придется beautiful soap доставать айтемы из вотчлиста, а там в стейте реакта лежит JSONка :exports:
 :PROPERTIES:
-:ID:       stwttrcmwbsttstwtиграюсьсамвстейтереакталежитjsnка
+:ID:       stwttrcmwbsttstwtmdbbtflspjsn
 :END:
 * STRT [#C] Post about various ways of data handling  :toblog:dataliberation:
 :PROPERTIES:
@@ -1233,7 +1233,7 @@ https://news.ycombinator.com/item?id=13700968
 :END:
 * [#C] [2021-02-05] [[https://github.com/Chiaki/VKBK][Chiaki/VKBK: Инструмент для создания и синхронизации локального бэкапа вашего профиля ВКонтакте (Profile backup & synchronization tool for Vk.com)]] :vk:exports:
 :PROPERTIES:
-:ID:       sgthbcmchkvkbkchkvkbkинстrflbckpsynchrnztntlfrvkcm
+:ID:       sgthbcmchkvkbkchkvkbkprflbckpsynchrnztntlfrvkcm
 :END:
 ugh fuck.. apache & mysql? a bit much for me :(
 * TODO [#C] [2021-02-07] [[https://github.com/Tyrrrz/DiscordChatExporter/issues/171][Against developer terms of service? · Issue #171 · Tyrrrz/DiscordChatExporter]]

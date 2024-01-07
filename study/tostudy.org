@@ -87,7 +87,7 @@ visualisation of vacuum for a proton sized box
 
 * STRT [#B] [2019-02-24] Is it true that the Schrödinger equation only applies to spin-1/2 particles? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       sttrthtthschrödngrqtnnlyptspnprtclsphyscsstckxchng
+:ID:       sttrthtthschrdngrqtnnlypptspnprtclsphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/129667/is-it-true-that-the-schr%C3%B6dinger-equation-only-applies-to-spin-1-2-particles/129744
 : If we pretend the wave function is a classical field (which happens all the time during the "second quantization" procedure), then it turns out to describe a spin-0 field. See Brian Hatfield's Quantum Field Theory of Point Particles and Strings, specifically chapter 2 --- on "Second Quantization".
@@ -222,7 +222,7 @@ https://physics.stackexchange.com/questions/166709/are-electron-fields-and-photo
 : In our modern understanding, every electron is thought to be a localized excitation of the electron (or Dirac) (spinor) field Ψ(xμ)Ψ(xμ), while every photon is considered to be an excitation of the photon (vector) field Aν(xμ)Aν(xμ), which is the quantum field-theoretic counterpart of the classical four-potential.
 ** [2019-05-06] The 'covariant derivative' Dμ≡∂μ+ieAμ encodes the interaction between the two fields Aμ and Ψ, and the 'strength' of the interaction is given by e, the charge of the electron.
 :PROPERTIES:
-:ID:       thcvrntdrvtvdμμμncdsthntrtrctnsgvnbythchrgfthlctrn
+:ID:       thcvrntdrvtvdncdsthntrctntrctnsgvnbythchrgfthlctrn
 :END:
 *** [2019-05-06] hmm that sort of makes sense, because covariant derivatives gives the connection for fiber bundle, which is related to the gauges and that stuff??
 :PROPERTIES:
@@ -400,7 +400,7 @@ eh, still didn't quite get what are the mscroscopic consequences of that?
 : 2/ the *average* of all other parts of the system, regardless of their spatial location or network structure. For deep and surprising reasons, this sometimes gives not just approximately the right answer, but *exactly* the right answer, at least in an infinite limit.
 * TODO [#C] [2020-05-11] [[https://twitter.com/karlicoss/status/1259843632892436483][jestem króliczkiem on Twitter: "@litgenstein I was hoping to work on some interactive Python notebooks based on this: https://t.co/yUd0TyTmQZ Will finally have some time to try it out soon!" / Twitter]] :qft:toblog:
 :PROPERTIES:
-:ID:       stwttrcmkrlcsssttsjstmkrólfnllyhvsmtmttryttsntwttr
+:ID:       stwttrcmkrlcsssttsjstmkrllfnllyhvsmtmttryttsntwttr
 :END:
 : I was hoping to work on some interactive Python notebooks based on this: https://dec41.user.srcf.net/h/III_L/advanced_quantum_field_theory/   1
 : Will finally have some time to try it out soon!
@@ -454,7 +454,7 @@ nice illustration of spinor states
 
 * TODO [#B] [2019-10-09] [[https://thedeemon.livejournal.com/140306.html][Три книги - Dee Mon. Былое и думы — LiveJournal]]
 :PROPERTIES:
-:ID:       sthdmnlvjrnlcmhtmlтрикнигиdmnбылоеидумыlvjrnl
+:ID:       sthdmnlvjrnlcmhtmldmnlvjrnl
 :END:
 : Клейн-Гордон и Дирак логически вылезают из метрики п-ва Минковского. Ну и чуток постулирования, как и оное пространство с его метрикой. И с СТО математически КМ давно подружили, на этом вся КТП стоит.
 : А вот как эти формулы понимать, что они говорят содержательно о мире - это вопрос интерпретаций. И тут не все одинаково хорошо справляются.
@@ -735,7 +735,7 @@ Even temporary acceleration creates temporary Rindler horizons.
 Then, it's similar to hawking radiation and for an accelerating observer it would create particles.
 ** [2019-09-02] Эффект Унру — Википедия
 :PROPERTIES:
-:ID:       эффектунрувикипедия
+:ID:       41786_43032
 :END:
 https://ru.wikipedia.org/wiki/%D0%AD%D1%84%D1%84%D0%B5%D0%BA%D1%82_%D0%A3%D0%BD%D1%80%D1%83
 : Эффект Унру позволяет дать грубое объяснение излучения Хокинга, но не может считаться полным его аналогом.[4] При равноускоренном движении позади ускоряющегося тела тоже возникает горизонт событий, но разница в граничных условиях задач даёт различные решения для этих эффектов. В частности, подход, основанный на расчёте ограниченных интегралов по путям, даёт следующую картину для эффекта Унру: «тепловая атмосфера» ускоренного наблюдателя состоит из виртуальных частиц, но если такая виртуальная частица поглощается ускоренным наблюдателем, то соответствующая античастица становится реальной и доступна для детектирования инерциальным наблюдателем.[4] В этом случае ускоренный наблюдатель теряет часть своей энергии. В случае эффекта Хокинга для чёрной дыры, сформировавшейся в результате гравитационного коллапса, картина другая: появляющиеся в результате эффекта частицы «тепловой атмосферы» являются реальными. Эти частицы, уходящие на бесконечность, могут наблюдаться и поглощаться удаленным наблюдателем, однако, независимо от их поглощения, эти частицы уносят массу (энергию) чёрной дыры.[4]
@@ -766,7 +766,7 @@ https://www.reddit.com/r/askscience/comments/1hcc2b/can_someone_explain_the_unru
 ** TODO [#B] Эффект Унру — Заметки о теоретической физике
 :PROPERTIES:
 :CREATED:  [2019-09-06]
-:ID:       эффектунрузаметкиотеоретическойфизике
+:ID:       45685_45845
 :END:
 
 https://susy.written.ru/2011/02/28/Unruh_effect
@@ -787,7 +787,7 @@ https://susy.written.ru/2011/02/28/Unruh_effect
 * TODO [#C] from Lisitsa: алгебры клиффорда и спинорные группы      :towatch:
 :PROPERTIES:
 :CREATED:  [2019-10-22]
-:ID:       frmlstsалгебрыклиффордаиспинорныегруппы
+:ID:       frmlsts
 :END:
 https://twitter.com/lisyarus/status/1186739246650052614
 https://www.lektorium.tv/course/22937
@@ -801,7 +801,7 @@ https://github.com/barbagroup/CFDPython/blob/master/lessons/14_Step_11.ipynb
 go throught and make sure I understand how I compute things...
 * TODO [#C] [2019-01-25] Schrödinger Equation https://physkcstravelguide.com/equations/schroedinger_equation#tab__faq
 :PROPERTIES:
-:ID:       schrödngrqtnsphyskcstrvlgdcmqtnsschrdngrqtntbfq
+:ID:       schrdngrqtnsphyskcstrvlgdcmqtnsschrdngrqtntbfq
 :END:
 : Schrodinger's equation can be derived using symmetry arguments. Specifically, you write out the commutation relations that exist between the generators of the Galilei group and then choose the position representation. What you find is that the generator of time translations has the same form that is usually ascribed to the Hamiltonian. Details can be found, for example, in the third chapter of Ballentine's "Quantum Mechanics: A Modern Development"
 : Schrödingers equation can be derived by using Galilei invariance: "I encourage everyone to learn the derivation of Schrödinger's equation straight from the representation theory of the Galilei group! It's cool. (I think it appears in the books by Mackey and Jauch listed here.)" http://math.ucr.edu/home/baez/symmetries.html -> Page 209 in Josef M. Jauch, Foundations of Quantum Mechanics page V (I.e. chapter 12-5)
@@ -867,7 +867,7 @@ https://anvaka.github.io/fieldplay/?cx=-0.02210000000000001&cy=-1.81540000000000
 * TODO [#C] На пути к теории всего https://nplus1.ru/material/2018/02/02/just-looking-for-some-action
 :PROPERTIES:
 :CREATED:  [2019-03-22]
-:ID:       напутиктеориивсегоsnplsrmtrljstlkngfrsmctn
+:ID:       snplsrmtrljstlkngfrsmctn
 :END:
 
 : Самым простым таким инвариантом является детерминант метрики. Тем не менее, если мы включим в действие только его, мы не получим дифференциальное уравнение, поскольку это выражение не содержит производных метрики. А если уравнение не является дифференциальным, оно не может описывать ситуации, в которых метрика меняется со временем. Поэтому нам нужно добавить к действию простейший инвариант, который содержит производные gμν. Таким инвариантом является так называемый скаляр Риччи R,
@@ -1109,7 +1109,7 @@ http://www.math3ma.com/mathema/2017/9/14/the-yoneda-lemma
 
 * [#C] [2019-03-19] [[https://en.wikipedia.org/wiki/G%C3%B6del_metric][Gödel metric - Wikipedia]]
 :PROPERTIES:
-:ID:       snwkpdrgwkgcbdlmtrcgödlmtrcwkpd
+:ID:       snwkpdrgwkgcbdlmtrcgdlmtrcwkpd
 :END:
 
 * [#C] [2019-02-23] [[https://reddit.com/r/rust/comments/atdkeg/ive_been_making_a_gravity_simulator_using/][I've been making a gravity simulator using Rust-SDL2! Source is in the comments, hope you enjoy it!]] /r/rust :sim:
@@ -1365,7 +1365,7 @@ https://twitter.com/lisyarus/status/1149413911722151937
 * TODO [#C] Tweet from Некстджен и Усиление (@turbojedi), at Jul 18, 11:16 :ml:
 :PROPERTIES:
 :CREATED:  [2019-07-18]
-:ID:       twtfrmнекстджениусилениеtrbjdtjl
+:ID:       twtfrmtrbjdtjl
 :END:
 
 : То есть это всё было не слишком смешной шуткой ровно до момента, когда оказалось, что это и правда неплохо работает, причём даже не на специализированной модели. https://t.co/rVvPF4P5N2
@@ -1381,7 +1381,7 @@ http://www.kevinboone.net/separation_variables.html
 basically the point is that separation of variables is disguised chain rule -- make sense
 * TODO [#C] [2019-06-20] Amir on Twitter: "Итого, чтобы собрать программируемый транзисторный микропроцессор, нужно уметь проектировать 1) ISA – см. MIPS 2) микроархитектуру – см Harris&Harris 3) RTL - верилог 4) цифровую технику - см курс Панчула… https://t.co/MqVes4WlZu"
 :PROPERTIES:
-:ID:       mrntwttrитогочтобысобратькусмкурспанчулаstcmqvswlz
+:ID:       mrntwttrsmpshrrshrrsrtlstcmqvswlz
 :END:
 https://twitter.com/disruptnhandlr/status/1141788486938349578
 : Итого, чтобы собрать программируемый транзисторный микропроцессор, нужно уметь проектировать 1) ISA – см. MIPS 2) микроархитектуру – см Harris&Harris 3) RTL - верилог 4) цифровую технику - см курс Панчула
@@ -1516,7 +1516,7 @@ https://twitter.com/michael_nielsen/status/1160319447900545024
 * TODO [#C] Нейронауки для всех. Методы: транскраниальная магнитная стимуляция - Neuronovosti
 :PROPERTIES:
 :CREATED:  [2019-08-23]
-:ID:       нейронаукидлявсехметодытрмагнитнаястимуляцияnrnvst
+:ID:       nrnvst
 :END:
 
 http://neuronovosti.ru/tms/
@@ -1661,7 +1661,7 @@ https://www.math3ma.com/blog/the-yoneda-perspective
 
 * [#C] [2019-09-29] John Carlos Baez on Twitter: "@sigfpe There are theorems about this stuff. A simple example is the lowest eigenvalue of -d²/dx² + x² + λx⁴ as a function of λ. You can formally compute the Taylor series of this function, which diverges, and Borel sum it, and get the right answer for λ&gt;0." / Twitter
 :PROPERTIES:
-:ID:       jhncrlsbzntwttrsgfpthrrthtndgtthrghtnswrfrλgttwttr
+:ID:       jhncrlsbzntwttrsgfpthrrthmtndgtthrghtnswrfrgttwttr
 :END:
 https://twitter.com/johncarlosbaez/status/1178330369449328641
 : There are theorems about this stuff.  A simple example is the lowest eigenvalue of -d²/dx² + x² + λx⁴ as a function of λ.   You can formally compute the Taylor series of this function, which diverges, and Borel sum it, and get the right answer for λ>0.
@@ -1951,13 +1951,13 @@ https://physics.stackexchange.com/questions/39654/paradox-with-gauss-law-when-sp
 : The quantities you want to associate with the infinite distribution (electric field, gravitational potential, whatever) depend on how you construct it, and there is no clear "natural" way to do it.
 * [#C] [2019-12-09] AVƎ on Twitter: "If you're interested in the animated anatomy studies; Here's a 1 minute tute on how to make your own (You'll only need Zbrush) : https://t.co/RMlLZKSLH0 They've definitely helped me improve my understanding, hope they help you :) https://t.co/pXZew0PP9k" / Twitter
 :PROPERTIES:
-:ID:       vǝntwttrfyrntrstdnthnmtdnghpthyhlpystcpxzwppktwttr
+:ID:       vntwttrfyrntrstdnthnmtdntghpthyhlpystcpxzwppktwttr
 :END:
 https://twitter.com/NotArtofAve/status/1195466035924570113
 
 * [#C] [2019-12-09] AVƎ on Twitter: "2/6 - Anatomy studies. Arm supination/pronation and flex.
 :PROPERTIES:
-:ID:       vǝntwttrntmystdsrmspntnprntnndflx
+:ID:       vntwttrntmystdsrmspntnprntnndflx
 :END:
 https://twitter.com/NotArtofAve/status/1194694932574851072
 
@@ -2104,7 +2104,7 @@ https://t.co/SseLaMU2zI
 
 * [#C] [2020-07-09] [[https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D1%87%D0%B0%D1%81%D1%82%D0%B8%D1%86%D1%8B][Спиральность частицы — Википедия]]
 :PROPERTIES:
-:ID:       srwkpdrgwkddbfdbddbdbbdcdральностьчастицывикипедия
+:ID:       srwkpdrgwkddbfdbddbdbbdcdbddbdddcddbdddbddb
 :END:
 : Спиральность — квантовое число[1], характеристика состояния элементарной частицы. Представляет собой проекцию спина частицы на направление движения. Используется при описании элементарных частиц, движущихся со скоростью света или близкой к ней. Является сохраняющейся лоренц-инвариантной величиной для безмассовых частиц.[2][3]
 
@@ -2117,7 +2117,7 @@ helicity
 * TODO [#C] Tweet from Statebox | ステートボックス (@statebox), at Dec 18, 18:38
 :PROPERTIES:
 :CREATED:  [2019-12-18]
-:ID:       twtfrmsttbxステートボックスsttbxtdc
+:ID:       twtfrmsttbxsttbxtdc
 :END:
 
 : oh, my! you'd better watch out! snakes, time traveling and string diagrams! @RickandMorty  what else will #categorytheory unleash?
@@ -2315,7 +2315,7 @@ https://twitter.com/gregeganSF/status/1165249104672219136
 : If you take a rotating slice through that 3-sphere (as shown in the second image), this is what the slice looks like:
 * TODO [#C] [2019-10-09] Три книги - Dee Mon. Былое и думы — LiveJournal
 :PROPERTIES:
-:ID:       трикнигиdmnбылоеидумыlvjrnl
+:ID:       dmnlvjrnl
 :END:
 https://thedeemon.livejournal.com/140306.html
 : У КМ ровно две проблемы вследствие которых она не может быть объединена с релятивистской теорией.
@@ -2402,7 +2402,7 @@ read the papers
 : Sad that there was no room for one of the main storylines, the love/hate relationship/competition between symplectic and complex geometry.
 * [#C] [2020-07-31] [[https://vk.com/@mind_vs_trash-clifford-1][Алгебры Клиффорда, часть 1 | VK]]
 :PROPERTIES:
-:ID:       svkcmmndvstrshclffrdалгебрыклиффордачастьvk
+:ID:       svkcmmndvstrshclffrdvk
 :END:
 : Мы поступим так: не будем пытаться задать произведение любой пары элементов, а потребуем лишь, чтобы квадрат x² вектора x в смысле умножения в алгебре совпадал с его скалярным квадратом <x,x>. Собственно, так и определяется алгебра Клиффорда — как самая общая алгебра, удовлетворяющая этому соотношению (самая общая — в смысле некого универсального свойства в соответствующих категориях). Технически
 * TODO [#C] Tweet from michael_nielsen (@michael_nielsen), at Aug 5, 22:37
@@ -2417,7 +2417,7 @@ https://twitter.com/michael_nielsen/status/1158492254639656966
 * TODO [#C] Classically, a scalar field is a collection of an infinity of oscillator normal modes. It suffices to consider a 1+1-dimensional space-time ℝ×S1, in which the spatial direction is compactified to a circle of circumference 2π, rendering the momenta discrete.
 :PROPERTIES:
 :CREATED:  [2019-03-28]
-:ID:       clsscllysclrfldscllctnfnnrcmfrncπrndrngthmmntdscrt
+:ID:       clsscllysclrfldscllctnfnncrcmfrncrndrngthmmntdscrt
 :END:
 https://hyp.is/adaalFGBEemsHa807OIUkQ/en.wikipedia.org/wiki/Canonical_quantization
 
@@ -2802,7 +2802,7 @@ https://twitter.com/sigfpe/status/1116084820784766982
 * TODO [#D] Таким образом, любой, даже самый маленький электрический заряд черной дыры полностью меняет тип сингулярности в ее центре.
 :PROPERTIES:
 :CREATED:  [2019-05-01]
-:ID:       такимобразомлюбойдажесамытипсингулярностивеецентре
+:ID:       153332_153521
 :END:
 
 * [#D] [2019-04-24] [[https://en.wikipedia.org/wiki/Fundamental_polygon][Fundamental polygon - Wikipedia]]
@@ -2879,7 +2879,7 @@ https://notgnoshi.github.io/product-spaces/
 * TODO [#D] [[https://nplus1.ru/news/2019/06/19/censorship][Физик оправдал принцип космической цензуры]]
 :PROPERTIES:
 :CREATED:  [2019-06-19]
-:ID:       snplsrnwscnsrshpфизикопрапринципкосмическойцензуры
+:ID:       snplsrnwscnsrshp
 :END:
 
 * TODO [#D] Visual complex analysis
@@ -2901,7 +2901,7 @@ https://twitter.com/johncarlosbaez/status/1144662487356231680
 
 * TODO [#D] короче очень советую, если ты хочешь немного инсайтов в статистику-мл-датасаенс без хуйни https://medium.com/@kozyrkov Cassie Kozyrkov – Medium
 :PROPERTIES:
-:ID:       корочеоченьсоветуюеслитыхиsmdmcmkzyrkvcsskzyrkvmdm
+:ID:       smdmcmkzyrkvcsskzyrkvmdm
 :END:
 * TODO [#D] Tweet from Jamie Portsmouth (@jamportz), at Jan 3, 09:14 :physics:viz:
 :PROPERTIES:
@@ -2916,7 +2916,7 @@ https://twitter.com/jamportz/status/1080607132750360576
 * TODO [#D] Sam Walters ☕️ on Twitter: "My Einstein paper is posted on arXiv. (It resulted from my Math-Physics Symposium talk.) https://t.co/b7qp6baxIJ… "
 :PROPERTIES:
 :CREATED:  [2019-02-28]
-:ID:       smwltrs️ntwttrmynstnpprsphphyscssympsmtlkstcbqpbxj
+:ID:       smwltrsntwttrmynstnpprspshphyscssympsmtlkstcbqpbxj
 :END:
 
 https://twitter.com/SamuelGWalters/status/767888754543505408
@@ -2961,7 +2961,7 @@ https://twitter.com/lisyarus/status/1199609128110436358
 * TODO [#D] щас посмотрел видос пиздос, типа Планк не верил в фотоны (да и чуть ли не в атомы) до 20х годов
 :PROPERTIES:
 :CREATED:  [2019-02-18]
-:ID:       щаспосмотрелвидоспиздостидаичутьлиневатомыдохгодов
+:ID:       158349_158510
 :END:
 * TODO [#D] [2020-05-22] [[https://reddit.com/r/Physics/comments/gotl97/physicists_of_reddits_whats_the_most_intetesting/fri349s/][Physicists of reddits, what's the most Intetesting stuff you've studied so far??]] /r/Physics
 :PROPERTIES:
@@ -2983,7 +2983,7 @@ https://twitter.com/lisyarus/status/1199609128110436358
 
 * [#D] [2019-08-05] [[https://plakhov.livejournal.com/227597.html][Об Байеса - 2: plakhov — LiveJournal]]
 :PROPERTIES:
-:ID:       splkhvlvjrnlcmhtmlоббайесаplkhvlvjrnl
+:ID:       splkhvlvjrnlcmhtmlplkhvlvjrnl
 :END:
 
 * [#D] [2019-08-06] [[https://www.reddit.com/r/dataisbeautiful/wiki/advice][data viz: colorblindness]] :viz:
@@ -3294,12 +3294,12 @@ fucking hell, really awesome explanation for standard model.. read it again!
 * DONE [#C] https://vk.com/wall-9471321_26902 Фундаментально ли время во Вселенной
 :PROPERTIES:
 :CREATED:  [2019-04-23]
-:ID:       svkcmwllфундаментальноливремявовселенной
+:ID:       svkcmwll
 :END:
 
 ** [2019-05-06] В 2013 году команда исследователей из Италии экспериментально продемонстрировала этот феномен. Подводя итоги своей работы, ученые сообщали: «Мы показываем, как статическое запутанное состояние двух фотонов можно рассматривать в качестве развивающегося с точки зрения наблюдателя, использующего один из двух фотонов как часы — для оценки временного развития другого фотона. Однако сторонний наблюдатель может показать, что глобально запутанное состояние не развивается».
 :PROPERTIES:
-:ID:       вгодукомандаисследователеноесостояниенеразвивается
+:ID:       176418_176914
 :END:
 
 * TODO [#B] [2020-07-16] [[https://calculus123.com/wiki/Topology_Illustrated][Topology Illustrated - Mathematics Is A Science]]
@@ -3348,7 +3348,7 @@ right, ok, even though it 'seems' that the basis state doesn't change because it
 so it's not any less important effect
 * [2015-01-11] [[https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BD%D0%B7%D0%BE%D1%80_%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D0%B8-%D0%B8%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81%D0%B0][Тензор энергии-импульса]]
 :PROPERTIES:
-:ID:       srwkpdrgwkddbdbddbdbddddbcddbтензорэнергииимпульса
+:ID:       srwkpdrgwkddbdbddbdbddddbbddbdbdbdbdbcdbfddbbdcddb
 :END:
 : Подматрица 3 x 3 из чисто пространственных компонент
 :  T^{ik} \ = \ \left( \begin{matrix}
@@ -3374,7 +3374,7 @@ https://en.wikipedia.org/wiki/Allied_Military_phonetic_spelling_alphabets#RAF_ra
 * TODO [#C] [[https://twitter.com/nplusodin/status/1351837811834580992][Tweet from @nplusodin Немецкие физики впервые обнаружили кристаллы Паули, возникающие за счет неразличимости фермионов.]]
 :PROPERTIES:
 :CREATED:  [2021-01-20]
-:ID:       stwttrcmnplsdnsttstwtfrmnетнеразличимостифермионов
+:ID:       stwttrcmnplsdnsttstwtfrmnplsdn
 :END:
 : @nplusodin: Немецкие физики впервые обнаружили кристаллы Паули, возникающие за счет неразличимости фермионов.
 : Мы уже писали об этом открытии, а теперь статья о нем была опубликована в Physical Review Letters

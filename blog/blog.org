@@ -40,12 +40,12 @@ Here I collect notes/todos relevant to improving the blog experience.
 right, so pretty nice design
 ** [#C] [2019-04-21] [[https://vas3k.ru/blog/go_to_berlin][Большой пост о том, как я переезжал в Берлин :: Вастрик.ру]]
 :PROPERTIES:
-:ID:       svskrblggtbrlnбольшойпостпереезжалвберлинвастрикру
+:ID:       svskrblggtbrln
 :END:
 Very good blog post!
 *** [2019-04-23] Во многом благодаря рисункам, как мне кажется. Норм мотивация поучиться рисовать :hobby:drawing:
 :PROPERTIES:
-:ID:       вомногомблагодарярисункамотивацияпоучитьсярисовать
+:ID:       1046_1170
 :END:
 ** TODO [#C] [2019-11-21] Projects | Intuitive Explanations
 :PROPERTIES:
@@ -474,7 +474,7 @@ http://mattwetmore.me/posts/hakyll-list-metadata.html
 : if you stick to a few basic tags, going to pure txt should only take a bit of code (and is probably already doable with lynx --dump)
 * STRT [#B] [2020-03-09] (Ángel)μν on Twitter: "1/15) What is the Hamiltonian? And why is it so special? Most importantly, how does it relate to Lagrangian mechanics and give us equations of motion? This is a thread on how H, the Hamiltonian can tell you the same story as L, the Lagrangian. [Warning: Technical thread] https://t.co/B18nwRAO7f" / Twitter :publish:blog:
 :PROPERTIES:
-:ID:       ánglμνntwttrwhtsthhmltnnnngtchnclthrdstcbnwrftwttr
+:ID:       nglntwttrwhtsthhmltnnndwhngtchnclthrdstcbnwrftwttr
 :END:
 https://twitter.com/astroparticular/status/1198070673819619328
 tweet short summaries of my blog posts?

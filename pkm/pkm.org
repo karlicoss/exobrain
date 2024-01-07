@@ -128,7 +128,7 @@ although I'm gonna need to disable html export bits then
 :END:
 * TODO [#B] [2020-05-15] [[https://twitter.com/worldbrain/status/1261207958609895424][WorldBrain.io on Twitter: "So much good stuff in the upcoming Memex 2.1. ⭐️ Add all open tags to lists and tags via the sidebar ⭐️ 80% less resource usage ⭐️ Tons of performance improvements (no more fans from hell) ⭐️ More stability" / Twitter]] :worldbrain:
 :PROPERTIES:
-:ID:       stwttrcmwrldbrnsttswrldbrmrfnsfrmhll️mrstbltytwttr
+:ID:       stwttrcmwrldbrnsttswrldbrnmrfnsfrmhllmrstbltytwttr
 :END:
 : So much good stuff in the upcoming Memex 2.1.
 :  Add all open tags to lists and tags via the sidebar
@@ -572,7 +572,7 @@ https://physicstravelguide.com/start
 
 * STRT [#C] [2019-07-20] A very brief introduction to Personal Knowledge Management – Relatris Blog und Fundstücke :toblog:
 :PROPERTIES:
-:ID:       vrybrfntrdctntprsnlknwldgmngmntrltrsblgndfndstück
+:ID:       vrybrfntrdctntprsnlknwldgmngmntrltrsblgndfndstck
 :END:
 https://blog.relatris.ch/2017/05/30/a-very-brief-introduction-to-personal-knowledge-management
 ** [2019-12-17] pretty vague motivation
@@ -1504,7 +1504,7 @@ https://github.com/WICG/ScrollToTextFragment
 * TODO [#D] ugh, massive duplication in неореакция-конспирология. wtf??? :infra:vk:
 :PROPERTIES:
 :CREATED:  [2020-01-11]
-:ID:       ghmssvdplctnnнеореакцияконспирологияwtf
+:ID:       ghmssvdplctnnwtf
 :END:
 e.g. search by 'whatsapp'
 * TODO [#D] Archived tag -- prefix with underscore?                     :org:
@@ -1825,7 +1825,7 @@ https://www.gwern.net/Resorter
 * TODO [#D] Tweet from Yoshiki 義樹 (@yoshikischmitz), at Dec 7, 02:13 :notion:
 :PROPERTIES:
 :CREATED:  [2019-12-07]
-:ID:       twtfrmyshk義樹yshkschmtztdc
+:ID:       twtfrmyshkyshkschmtztdc
 :END:
 
 : But it was definitely enlightening to me just how important the browsing(reading?) experience is to a knowledge-base, perhaps more than the writing experience. It's definitely the first thing I'll evaluate in future apps,  and something I'll think about how it can be done better.
@@ -2288,7 +2288,7 @@ basically my thoughts
 :END:
 * TODO [#C] [2020-05-01] [[https://twitter.com/karlicoss/status/1255935557110243328][(1) jestem króliczkiem on Twitter: "@cj_pais I've had this existential crisis with browser bookmarks few years ago, which made me switch to Pinboard" / Twitter]] :toblog:pkm:
 :PROPERTIES:
-:ID:       stwttrcmkrlcsssttsjstmkrósgwhchmdmswtchtpnbrdtwttr
+:ID:       stwttrcmkrlcsssttsjstmkrlsgwhchmdmswtchtpnbrdtwttr
 :END:
 : I've had this existential crisis with browser bookmarks few years ago, which made me switch to Pinboard
 
@@ -2345,7 +2345,7 @@ prompts for possible post about bookmarks...
 
 * [#D] [2019-09-21] full-stack monastic 🧘‍♂️🗺 on Twitter: "tags are useful as a secondary organizational method, especially as the # of notes you have increases. don’t tag everything ahead of time. wait until you have many notes to process, then build structure. you can create custom tags specific to your profession or big projects. https://t.co/CtlOvTNDzm" / Twitter
 :PROPERTIES:
-:ID:       fllstckmnstc️ntwttrtgsrsfbgprjctsstcctlvtndzmtwttr
+:ID:       fllstckmnstcntwttrtgsrsflbgprjctsstcctlvtndzmtwttr
 :END:
 https://twitter.com/tasshinfogleman/status/1083157910257975298
 : tags are useful as a secondary organizational method, especially as the # of notes you have increases. don’t tag everything ahead of time. wait until you have many notes to process, then build structure. you can create custom tags specific to your profession or big projects.

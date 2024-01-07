@@ -268,7 +268,7 @@ A representation of a group is a way to think of its elements as operators, and 
 
 ** TODO I encourage everyone to learn the derivation of Schrödinger's equation straight from the representation theory of the Galilei group! It's cool.
 :PROPERTIES:
-:ID:       ncrgvryntlrnthdrvtnfschrörprsnttnthryfthgllgrptscl
+:ID:       ncrgvryntlrnthdrvtnfschrdrprsnttnthryfthgllgrptscl
 :END:
 The mathematical foundations of quantum physics:
 Josef M. Jauch, Foundations of Quantum Mechanics, Addison-Wesley, 1968. (Very thoughtful and literate. Get a taste of quantum logic.)
@@ -621,7 +621,7 @@ U× a discrete space→U.
 
 * С4 group
 :PROPERTIES:
-:ID:       сgrp
+:ID:       grp
 :END:
   a b c
 a b c e

@@ -166,7 +166,7 @@ neuron connections are a higher dimension simplicial complex
 
 * TODO [2021-01-16] [[https://twitter.com/OlgaVPettersson/status/1350337989134659584][Olga V. Pettersson on Twitter: "Балтимор, в 70х, открыл вирусный механизм, который этим занимается. Чтобы вирусу встроиться в геном, у него должно быть два гена: 1) обратная транскриптаза для перевода РНК в ДНК и 2) интеграза, кодирующая белок который встраивает свежесделанную вирусную ДНК в геном." / Twitter]]
 :PROPERTIES:
-:ID:       stwttrcmlgvpttrssnsttslgvнуювируснуюднквгеномtwttr
+:ID:       stwttrcmlgvpttrssnsttslgvpttrssnntwttrtwttr
 :END:
 : Чтобы вирусу встроиться в геном, у него должно быть два гена:
 : 1) обратная транскриптаза для перевода РНК в ДНК и
@@ -177,7 +177,7 @@ neuron connections are a higher dimension simplicial complex
 :END:
 * [#C] [2019-03-31] Пациент без головы: Научились ли хирурги восстанавливать перерезанный спинной мозг
 :PROPERTIES:
-:ID:       пациентбезголовынаучилисьтьперерезанныйспинноймозг
+:ID:       13946_14609
 :END:
 https://nplus1.ru/material/2019/03/28/head-transplantation
 - [2019-03-31]
@@ -203,7 +203,7 @@ huh, apparently UV protective pigments are also inside the cells, around nucleus
 
 * [#C] [2021-01-06] [[https://nplus1.ru/material/2020/07/02/why-theres-no-hiv-vaccine][Без вакцины]] :virus:
 :PROPERTIES:
-:ID:       snplsrmtrlwhythrsnhvvccnбезвакцины
+:ID:       snplsrmtrlwhythrsnhvvccn
 :END:
 : Ситуация осложняется тем, что после первого же промаха ружье можно выкидывать.
 : Поскольку ВИЧ — ретровирус, он встраивает свои гены в ядерную ДНК.
@@ -257,7 +257,7 @@ huh, apparently UV protective pigments are also inside the cells, around nucleus
 : Some people asked if I knew of a quick intro to molecular biology. While you have to realize this is a somewhat bold question, this  https://bioinformatics.nl/courses/BioSB-AfBN/prep/Molecular%20biology%20primer.pdf by Alexander Zien looks pretty useful.
 * TODO [#C] [2021-05-09] [[https://twitter.com/voidlizard/status/1391328989067755520][Dmitry Zuikov on Twitter: "@karlicoss Наука воскрешения видов. Как клонировать мамонта. Б. Шапиро Хорошо, без воды, дешевого эпатажа и повестки." / Twitter]] :toread:biology:
 :PROPERTIES:
-:ID:       stwttrcmvdlzrdsttsdmtryzkвогоэпатажаиповесткиtwttr
+:ID:       stwttrcmvdlzrdsttsdmtryzkvntwttrkrlcsstwttr
 :END:
 : Наука воскрешения видов. Как клонировать мамонта. Б. Шапиро
 : Хорошо, без воды, дешевого эпатажа и повестки.

@@ -31,7 +31,7 @@ object pronoun, 'to'
 possessive and 'of'
 ** Instrumental (ablative, творительный)
 :PROPERTIES:
-:ID:       nstrmntlbltvтворительный
+:ID:       nstrmntlbltv
 :END:
 'by', 'via', 'with'
 

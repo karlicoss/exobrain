@@ -567,7 +567,7 @@ https://news.ycombinator.com/threads?id=karlicoss#22657236
 : Love this have been thinking in the same space where the content you consume is linked in-place to the content you (or the people you think are important) curate. Looking forward to seeing where this goes!
 * STRT [#B] [2020-05-06] [[https://twitter.com/worldbrain/status/1258031458356277249][WorldBrain.io on Twitter: "We are starting the development of the Memex Reader, an offline-first Pocket-style reader for desktop and mobile + mobile annotations. https://t.co/5lUpNSImFe Is anyone interested in collaborating/contributing to this? We need some more (wo)man power. ❤️" / Twitter]] :worldbrain:
 :PROPERTIES:
-:ID:       stwttrcmwrldbrnsttswrldbrngtthswndsmmrwmnpwr️twttr
+:ID:       stwttrcmwrldbrnsttswrldbrtngtthswndsmmrwmnpwrtwttr
 :END:
 : We are starting the development of the Memex Reader, an offline-first Pocket-style reader for desktop and mobile + mobile annotations.
 : https://notion.so/worldbrain/Reader-Web-Archiver-Mobile-Annotations-extension-mobile-4ce4576dd1154f3f87f33eb6830ecebf
@@ -1048,7 +1048,7 @@ anchors are good examples of 'direct' visits and siblings?
 * TODO [#C] Tweet from 𝔊𝔴𝔢𝔯𝔫 (@gwern), at Mar 10, 23:59 :promnesia:motivation:
 :PROPERTIES:
 :CREATED:  [2019-03-11]
-:ID:       twtfrm𝔊𝔴𝔢𝔯𝔫gwrntmr
+:ID:       twtfrmgwrntmr
 :END:
 : Several times in the past few weeks I or an acquaintance read something awesome only to realize we'd read it years ago & simply forgot! Another use for 'anti-spaced repetition' (https://t.co/jD4SsY6VBW): track great stuff & remind you to re-read it only 𝘢𝘧𝘵𝘦𝘳 it's forgotten.
 
@@ -1163,7 +1163,7 @@ https://github.com/mitchellkrogza/Ultimate.Hosts.Blacklist
 :END:
 * [#C] [2019-03-08] motivation: Nikita Lisitsa on Twitter: "@_bravit У меня так на stackoverflow / math.stackexchange бывает. Ищу ответ на вопрос, нахожу, читаю, ставлю лайк - "вы не можете поставить лайк своему собственному посту"." / Twitter :promnesia:
 :PROPERTIES:
-:ID:       mtvtnnktlstsntwttrbrvtумеемусобственномупостуtwttr
+:ID:       mtvtnnktlstsntwttrbrvtstckvrflwmthstckxchngtwttr
 :END:
 https://twitter.com/lisyarus/status/1104104035588755457
 
@@ -1469,7 +1469,7 @@ but why did I follow them in the first place, there must have been good reason?
 e.g. how did I get here?? https://mortoray.com/2019/06/11/a-failed-experiment-with-python-type-annotations/
 * TODO [#C] [2019-12-15] bug: Теория вычислимости — Викиконспекты
 :PROPERTIES:
-:ID:       bgтеориявычислимостивикиконспекты
+:ID:       bg
 :END:
 http://neerc.ifmo.ru/wiki/index.php?title=%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8
 not sure, shouldn't show popup on every transition... have a timer or something?
@@ -2756,7 +2756,7 @@ results in source-org-profile.svg
 : Tree based history- lossless by design.
 * [2020-11-27] showvisited: [[https://myshows.me/profile/][Новые серии / MyShows.me]]
 :PROPERTIES:
-:ID:       shwvstdsmyshwsmprflновыесерииmyshwsm
+:ID:       shwvstdsmyshwsmprflmyshwsm
 :END:
 visited marks shift the left menu
 * TODO [#B] [2020-12-14] [[https://gephi.org/][Gephi - The Open Graph Viz Platform]] :timeline:

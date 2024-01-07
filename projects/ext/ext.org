@@ -418,7 +418,7 @@ related: #interop #malleable #spreadsheet
 
 ** TODO [#B] [2020-05-11] [[https://twitter.com/karlicoss/status/1259893586365161472][(10) jestem króliczkiem on Twitter: "@jtraub аа, понял. Крутая идея, да! это было бы оч легко, даже не модифицируя экстеншн если бы браузеры разрешали экстеншнам друг на друге оперировать, а так можно будет добавить в Wildcard" / Twitter]]
 :PROPERTIES:
-:ID:       stwttrcmkrlcsssttsjstmkróбудетдобавитьвwldcrdtwttr
+:ID:       stwttrcmkrlcsssttsjstmkrlczkmntwttrjtrbwldcrdtwttr
 :END:
 : аа, понял. Крутая идея, да!
 : это было бы оч легко, даже не модифицируя экстеншн если бы браузеры разрешали экстеншнам друг на друге оперировать, а так можно будет добавить в Wildcard
@@ -799,7 +799,7 @@ https://github.com/fregante/webext-options-sync/issues/2
 
 * TODO [#C] [2020-12-11] [[https://community.worldbrain.io/t/export-annotations/437/5][Export annotations - ⭐️Feature Requests - Memex Community]] :worldbrain:
 :PROPERTIES:
-:ID:       scmmntywrldbrntxprtnnttnstnnttns️ftrrqstsmmxcmmnty
+:ID:       scmmntywrldbrntxprtnnttnsrtnnttnsftrrqstsmmxcmmnty
 :END:
 : Here is a guide on how to use the StorexHub API to get your Memex annotations.
 : It’s still in developer alpha, so it will require Javascript knowledge in building something useful:

@@ -32,7 +32,7 @@ One realization was that my parents are also not best at every possible reshare 
 
 * STRT [#B] [2019-09-30] Квантовое самоубийство — Википедия         :quantum:
 :PROPERTIES:
-:ID:       квантовоесамоубийствовикипедия
+:ID:       794_2039
 :END:
 https://ru.wikipedia.org/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%BE%D0%B5_%D1%81%D0%B0%D0%BC%D0%BE%D1%83%D0%B1%D0%B8%D0%B9%D1%81%D1%82%D0%B2%D0%BE
 : Риск того, что в результате эксперимента ружьё выстрелит и участник умрёт, составляет 50 %. Если копенгагенская интерпретация верна, то ружьё в конечном итоге выстрелит, и участник умрёт.
@@ -448,7 +448,7 @@ Run custom command so it could support grep, ripgrep or whatever
 * TODO [#C] Tweet from jestem króliczkiem (@karlicoss), at Sep 20, 01:17 :keyboard:ui:
 :PROPERTIES:
 :CREATED:  [2019-09-20]
-:ID:       twtfrmjstmkrólczkmkrlcsstsp
+:ID:       twtfrmjstmkrlczkmkrlcsstsp
 :END:
 
 : @hillelogram had similar thoughts lately; on the other hand implementing right bindings/keyboard navigation patterns is quite hard from the developer's perspective. I wish there was something like html DOM for desktop/phone applications, then 3rd party devs could enhance existing software
@@ -641,7 +641,7 @@ quantum gates -- a thing can only evolve according to schrodinger's equation
 
 * TODO [#C] [2019-11-17] jestem króliczkiem on Twitter: "@gwern (somewhat ironically) that page does have ids set on divs, but no visible paragraph anchors, I referred to that section specifically: https://t.co/hSO2I5eLq1" / Twitter :coding:pkm:
 :PROPERTIES:
-:ID:       jstmkrólczkmntwttrgwrnsmwtsctnspcfcllystchslqtwttr
+:ID:       jstmkrlczkmntwttrgwrnsmwhtsctnspcfcllystchslqtwttr
 :END:
 https://twitter.com/karlicoss/status/1195858695692980225
 : chrome addon to display div ids?
@@ -767,7 +767,7 @@ would be sort of cool for 'parallel' processing of heterogenous functions etc, d
 :END:
 * [#D] нейронные сети клеточный автомат
 :PROPERTIES:
-:ID:       нейронныесетиклеточныйавтомат
+:ID:       26422_26462
 :END:
 * [#D] Constructive QM
 :PROPERTIES:
@@ -806,7 +806,7 @@ https://twitter.com/karlicoss/status/1211457892592820224
 
 * [#D] [2017-01-22] [[https://twitter.com/i/web/status/822958965483048961][tweet]] Хочу интерактивный шелл, в который я буду кормить описание, а метку можно было бы ставить одной кнопочкой. :ml:
 :PROPERTIES:
-:ID:       stwttrcmwbsttstwtхочуинтелобыставитьоднойкнопочкой
+:ID:       stwttrcmwbsttstwt
 :END:
 * [#E] Dynamic graph diameter
 :PROPERTIES:
@@ -824,7 +824,7 @@ https://twitter.com/karlicoss/status/1211457892592820224
 :END:
 * TODO [2020-11-02] [[https://twitter.com/karlicoss/status/1323122289517408259][jestem króliczkiem on Twitter: "debug logs are annoying when you're not, well, debugging, on then one hand. On the other hand, quite useful since they give a sense of progress. Tried to get the best of both worlds in Promnesia by collapsing subsequent logs (only if they have DEBUG level). Ended up pretty nice! https://t.co/9G5xjSxMxz" / Twitter]] :python:
 :PROPERTIES:
-:ID:       stwttrcmkrlcsssttsjstmkródpprttyncstcgxjsxmxztwttr
+:ID:       stwttrcmkrlcsssttsjstmkrldpprttyncstcgxjsxmxztwttr
 :END:
 : so I wonder if it should be an external tool. Kinda like "tail -f" + watch, but aware of certain keywords (e.g. DEBUG/INFO/ERROR in my case)
 * TODO SF where general purpose programming is 'forbidden'?            :book:

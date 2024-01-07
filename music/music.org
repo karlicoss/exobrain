@@ -76,7 +76,7 @@ http://music.ishkur.com/
 
 * STRT [#B] [2019-08-17] сигма  https://syg.ma
 :PROPERTIES:
-:ID:       сигмаssygm
+:ID:       ssygm
 :END:
 ** TODO [2019-08-21] https://syg.ma/popular
 :PROPERTIES:
@@ -89,7 +89,7 @@ http://music.ishkur.com/
 * TODO [#B] Я бы выделила ребят из OBLAST, например, самарское community. Конечно, московский «Гост звук» и все связанное с ним, buttechno, и мне очень нравится такой лиричный проект «Творожное озеро» и «Тальник». Еще уважаю Влада Паршина. :kedr:
 :PROPERTIES:
 :CREATED:  [2019-08-17]
-:ID:       ябывыделиларебятизblstнапьникещеуважаювладапаршина
+:ID:       blstcmmntybttchn
 :END:
 [[https://syg.ma/@tcivil_me/kedr-livanskiy-dvizhieniie-samoie-vazhnoie-v-tvorchieskom-razvitii][kedr livanskiy: «Движение — самое важное в творческом развитии»]]
 [[https://hyp.is/0TNIksDnEem8gYelV2b0uA/syg.ma/@tcivil_me/kedr-livanskiy-dvizhieniie-samoie-vazhnoie-v-tvorchieskom-razvitii][in context]]
@@ -119,7 +119,7 @@ http://music.ishkur.com/
 * TODO [#B] https://vk.com/wall-33847399_14892 Hyperboloid Records выпускает передовую электронную музыку без стилевых ограничений. В каталоге лейбла — треки российских продюсеров, а также музыкантов со всего мира: Pixelord, Summer of Haze, Raumskaya, Bad Zu и других
 :PROPERTIES:
 :CREATED:  [2020-11-25]
-:ID:       svkcmwllhyprbldrcrdsвыпусlrdsmmrfhzrmskybdzидругих
+:ID:       svkcmwllhyprbldrcrdspxlrdsmmrfhzrmskybdz
 :END:
 
 * TODO [#B] [2020-11-21] [[https://reddit.com/r/electronicmusic/comments/jyhvoi/what_are_your_favorite_electronic_albums_in_2020/][What are your favorite electronic albums in 2020?]] /r/electronicmusic
@@ -128,7 +128,7 @@ http://music.ishkur.com/
 :END:
 * TODO [#B] [2019-08-18] Яна Кедрина                                   :kedr:
 :PROPERTIES:
-:ID:       янакедрина
+:ID:       5046_5168
 :END:
 https://vk.com/id1559723
 : микс для тех, кому возвышенно и грустно
@@ -232,7 +232,7 @@ coding/spotisync
 
 * [#C] [2019-08-18] Яна Кедрина https://vk.com/id1559723               :kedr:
 :PROPERTIES:
-:ID:       янакедринаsvkcmd
+:ID:       svkcmd
 :END:
 
 * TODO [#C] [2019-08-17] 2MR Transmission with Kedr Livanskiy @ The Lot Radio 07:25:2018 by The Lot Radio | Mixcloud :kedr:
@@ -398,7 +398,7 @@ use instead of lastfm? Although wouldn't be able to connect spotify... although 
 :END:
 ** DONE [CHVRCHΞS - Miracle (The Juan MacLean Remix)](https://www.youtube.com/watch?v=dClCl8ocEns) they turned CHVRCHΞS' worst song into something worth listening to
 :PROPERTIES:
-:ID:       chvrchξsmrclthjnmclnrmxswrstsngntsmthngwrthlstnngt
+:ID:       chvrchsmrclthjnmclnrmxswwrstsngntsmthngwrthlstnngt
 :END:
 
 ** DONE [Diplo - Worry No More (Keys N Krate Remix)](https://www.youtube.com/watch?v=oT3w4Dn3q_A), [Wish (Jarreau Vandal Remix)](https://www.youtube.com/watch?v=xauWlqr1-XQ) I really like that talkbox, & [Color Blind (TWERL & Max Styler Remix)](https://www.youtube.com/watch?v=eFDmaBSxBRg)
@@ -408,7 +408,7 @@ use instead of lastfm? Although wouldn't be able to connect spotify... although 
 
 ** DONE [Moodoïd - Miss Smith (Myd Remix)](https://www.youtube.com/watch?v=RTAyXhaWdjI)
 :PROPERTIES:
-:ID:       mdïdmsssmthmydrmxswwwytbcmwtchvrtyxhwdj
+:ID:       mddmsssmthmydrmxswwwytbcmwtchvrtyxhwdj
 :END:
 
 ** [Camo & Krooked - Slow Down (Fred V & Grafix Remix)](https://www.youtube.com/watch?v=OKyIrxh3Q5A)
@@ -511,7 +511,7 @@ https://knife.media/predicting-hits/
 
 * [2019-08-29] ИНТЕРВЬЮ#1 kedr livanskiy: движение — самое важное в творческом развитии - YouTube :kedr:
 :PROPERTIES:
-:ID:       интервьюkdrlvnskyдвижениеноевтворческомразвитииytb
+:ID:       kdrlvnskyytb
 :END:
 https://www.youtube.com/watch?v=fK6AedcuK_o
 very nice interview, she's very humble and honest
@@ -592,7 +592,7 @@ very good!
 
 * [#C] [2021-03-21] [[https://lenta.ru/articles/2019/10/22/kedr_livanskiy/][Звезда российского электро-попа о снобизме взрослых, чувствах молодых и доминации женщин : Музыка: Культура: Lenta.ru]] :kedr:
 :PROPERTIES:
-:ID:       slntrrtclskdrlvnskyзвездаиженщинмузыкакультураlntr
+:ID:       slntrrtclskdrlvnskylntr
 :END:
 * [#C] [2021-04-29] [[https://news.ycombinator.com/item?id=26977869][History of Techno]]
 :PROPERTIES:
@@ -611,11 +611,11 @@ https://www.beatportal.com/features/beatports-definitive-guide-to-techno/
 
 * TODO [#B] [2021-04-12] [[https://reddit.com/r/Techno/comments/mpfg6g/some_new_local_techno_from_northern_germany_der/][Some new local Techno from Northern Germany: Der Träumer - Loop]] /r/Techno :music:
 :PROPERTIES:
-:ID:       srddtcmrtchncmmntsmpfggsmnrthrngrmnydrträmrlprtchn
+:ID:       srddtcmrtchncmmntsmpfggsmmnrthrngrmnydrtrmrlprtchn
 :END:
 * [#B] [2021-04-16] Интервью с Kedr Livanskiy https://radugadiscoclub.ru/kedrlivansky :kedr:
 :PROPERTIES:
-:ID:       интервьюсkdrlvnskysrdgdscclbrkdrlvnsky
+:ID:       kdrlvnskysrdgdscclbrkdrlvnsky
 :END:
 
 * TODO [#B] Clairvoyant EP from QZB                                   :music:

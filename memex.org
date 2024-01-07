@@ -236,11 +236,11 @@ timeline -- similarly for all life events
 - [2021-02-22] to be fair I didn't really do much on it yet
 * DONE [#B] [2021-02-23] [[https://tiendil.org/exocortex-3-5/][Экзокортекс 3.5]] :memex:
 :PROPERTIES:
-:ID:       stndlrgxcrtxэкзокортекс
+:ID:       stndlrgxcrtx
 :END:
 * DONE [#B] [2021-02-23] [[https://tiendil.org/exocortex-minimal-functionality/][Экзокортекс: минимальная функциональность]] :memex:
 :PROPERTIES:
-:ID:       stndlrgxcrtxmnmlfnctnltyэнимальнаяфункциональность
+:ID:       stndlrgxcrtxmnmlfnctnlty
 :END:
 ** [2021-03-14] good summary and memex design requirements (in Russian)
 :PROPERTIES:

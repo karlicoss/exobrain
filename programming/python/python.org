@@ -431,7 +431,7 @@ This gives you the power to use actual classes with actual types in your code in
 :END:
 * [#B] [2019-03-20] Tweet from Vladislav Isenbaev (@isenbaev), at Mar 20, 03:48: pickle просто скотски медленный, если что - кратно медленнее даже json'а
 :PROPERTIES:
-:ID:       twtfrmvldslvsnbvsnbvtmrpcтократномедленнеедажеjsnа
+:ID:       twtfrmvldslvsnbvsnbvtmrpckljsn
 :END:
 https://twitter.com/isenbaev/status/1108213595920166912
 
@@ -1336,7 +1336,7 @@ pretty good comparizon
 :        },
 * [#C] [2020-03-14] jestem króliczkiem on Twitter: "or, you can encode dependencies in types: @dataclass(init=False) class FancyPath: path: Path mtime: float def __init__(self, path: Path): self.path = path self.mtime = path.stat().st_mtime" / Twitter :cachew:python:
 :PROPERTIES:
-:ID:       jstmkrólczkmntwttrrycnncdpthslfmtmpthsttstmtmtwttr
+:ID:       jstmkrlczkmntwttrrycnncddpthslfmtmpthsttstmtmtwttr
 :END:
 https://twitter.com/karlicoss/status/1238791294547353601
 : @dataclass

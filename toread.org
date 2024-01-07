@@ -47,7 +47,7 @@ I also maintain a [[https://www.goodreads.com/user/show/22191391-dima-gerasimov]
 
 ** STRT [#C] [2018-09-22] [[https://twitter.com/future_is_meow/status/1043042205479395328][флоучарт для выбора НФ-книг по куче разных критериев]]
 :PROPERTIES:
-:ID:       stwttrcmftrsmwsttsфлоучаркнигпокучеразныхкритериев
+:ID:       stwttrcmftrsmwstts
 :END:
 *** DONE Diaspora by Greg Egan
 :PROPERTIES:
@@ -208,7 +208,7 @@ todo
 from [[https://gravityandlevity.wordpress.com/2010/08/30/our-stability-is-but-balance-freeman-dyson-on-how-to-imagine-quantum-fields/][“Our stability is but balance” — Freeman Dyson on how to imagine quantum fields]]
 ** TODO [#C] [2019-11-22] ⟨𝜙∣𝜑⟩ (@weirdnik) / Twitter
 :PROPERTIES:
-:ID:       𝜙𝜑wrdnktwttr
+:ID:       wrdnktwttr
 :END:
 https://twitter.com/weirdnik
 :  “The Electric State” by @simonstalenhag
@@ -227,14 +227,14 @@ https://www.goodreads.com/book/show/5895503-the-ego-tunnel
 
 ** [#C] [2019-06-26] Альфина’s books on Goodreads (122 books)
 :PROPERTIES:
-:ID:       альфинаsbksngdrdsbks
+:ID:       sbksngdrdsbks
 :END:
  https://www.goodreads.com/review/list/6382468?sort=review&view=reviews
 read alphyna's recommendations?
 ** TODO [#C] Tweet from 𝔊𝔴𝔢𝔯𝔫 (@gwern), at Jun 22, 20:10
 :PROPERTIES:
 :CREATED:  [2019-06-22]
-:ID:       twtfrm𝔊𝔴𝔢𝔯𝔫gwrntjn
+:ID:       twtfrmgwrntjn
 :END:
 
 : Have I mentioned lately that Borges is one of my favorite authors ever since I was a little kid? Few authors have grown up with me so well. https://t.co/0yjXbRbBTm
@@ -302,7 +302,7 @@ None
 :ID:       swwwthtlntccmmgznrchvthjgrndthfxthjgrndthfxthtlntc
 :END:
 : The Quark and the Jaguar
-** [#C] [2020-02-07] *The Network Revolution – confessions of a computer scientist* (1982)¹ is the ti... | Hacker News
+** [#C] [2020-02-07] *The Network Revolution – confessions of a computer scientist* (1982) is the ti... | Hacker News
 :PROPERTIES:
 :ID:       thntwrkrvltncnfssnsfcmptrscntstsththckrnws
 :END:
@@ -523,7 +523,7 @@ hmm, maybe read his biography?
 
 * TODO [#C] [2019-12-10] [[https://twitter.com/gwern/status/1204194533422047234][Tweet from 𝔊𝔴𝔢𝔯𝔫: I've written a mini-essay summarizing how I think causality & correlation work in the softer sciences, how experiments show correlation≠causation, and why we do a bad job at internalizing that]]
 :PROPERTIES:
-:ID:       stwttrcmgwrnsttstwtfrm𝔊𝔴𝔢tnndwhywdbdjbtntrnlzngtht
+:ID:       stwttrcmgwrnsttstwtfrmvwrtnndwhywdbdjbtntrnlzngtht
 :END:
 
 * STRT [#C] [2019-08-11] [[https://nsaphra.github.io/post/hands][What Does a Coder Do If They Can't Type? | Objective Funk]]
@@ -719,7 +719,7 @@ hmm, maybe read his biography?
 :END:
 ** TODO [#D] Gems of Theoretical Computer Science by Uwe Schöning and Randall Pruim
 :PROPERTIES:
-:ID:       gmsfthrtclcmptrscncbywschönngndrndllprm
+:ID:       gmsfthrtclcmptrscncbywschnngndrndllprm
 :END:
 ** TODO [#D] Mathematical Writing by Donald Knuth, Tracy Larabee, and Paul Roberts
 :PROPERTIES:
@@ -753,7 +753,7 @@ and here https://www.scottaaronson.com/blog/?p=93
 
 ** DONE [#B] What Is Life?: With Mind and Matter and Autobiographical Sketches by Erwin Schrödinger
 :PROPERTIES:
-:ID:       whtslfwthmndndmttrndtbgrphclsktchsbyrwnschrödngr
+:ID:       whtslfwthmndndmttrndtbgrphclsktchsbyrwnschrdngr
 :END:
 
 ** DONE Quantum Computing Since Democritus by Scott Aaronson
@@ -856,7 +856,7 @@ and here https://www.scottaaronson.com/blog/?p=93
 :END:
 * TODO [#D] [2019-07-09] [[https://twitter.com/nplusodin/status/1148645120616607745][Tweet from @nplusodin: Ученые показали, что кусок стекла с правильно размещенными внутри неоднородностями может производить «вычисления» и распознавать рукописные цифры]] :computation:
 :PROPERTIES:
-:ID:       stwttrcmnplsdnsttstwtfrmnспознаватьрукописныецифры
+:ID:       stwttrcmnplsdnsttstwtfrmnplsdn
 :END:
 * TODO [#D] [2019-08-29] https://blog.stephenwolfram.com/2019/08/a-book-from-alan-turing-and-a-mysterious-piece-of-paper
 :PROPERTIES:
@@ -942,7 +942,7 @@ https://twitter.com/mark_l_watson/status/1266806550363901952
 * TODO [#C] 𝔊𝔴𝔢𝔯𝔫 on Twitter: "Several times in the past few weeks I or an acquaintance read something awesome only to realize we'd read it years ago &amp; simply forgot! Another use for 'anti-spaced repetition' (https://t.co/jD4SsY6VBW): track great stuff &amp;…
 :PROPERTIES:
 :CREATED:  [2019-10-09]
-:ID:       𝔊𝔴𝔢𝔯𝔫ntwttrsvrltmsnthpstfnstcjdssyvbwtrckgrtstffmp
+:ID:       ntwttrsvrltmsnthpstfwwksrnstcjdssyvbwtrckgrtstffmp
 :END:
 
 https://mobile.twitter.com/gwern/status/1104879445368864773
@@ -979,7 +979,7 @@ https://news.ycombinator.com/item?id=11803165
 :END:
 * TODO [#C] [2020-03-01] Post-Privacy: Prima leben ohne Privatsphäre | Start :german:read:qs:
 :PROPERTIES:
-:ID:       pstprvcyprmlbnhnprvtsphärstrt
+:ID:       pstprvcyprmlbnhnprvtsphrstrt
 :END:
 http://www.plomlompom.de/PostPrivacyBuch
 * TODO [#C] Tweet from @preskill
@@ -1047,7 +1047,7 @@ https://thirdtriumvirate.wordpress.com/
 
 * [#C] [2020-11-17] [[https://news.ycombinator.com/item?id=25115746][What Gödel Discovered]]
 :PROPERTIES:
-:ID:       snwsycmbntrcmtmdwhtgödldscvrd
+:ID:       snwsycmbntrcmtmdwhtgdldscvrd
 :END:
 https://stopa.io/post/269
 * [#C] [2020-03-05] [[https://news.ycombinator.com/item?id=22488927][Landmark computer science proof cascades through physics and math]]

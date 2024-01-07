@@ -60,7 +60,7 @@ https://news.ycombinator.com/item?id=21913598
 the downside -- having to keep the state :(
 ** [#C] [[http://twitter.com/karlicoss/status/1047228539156750336][TW]] at [2018-10-02] А кто-нибудь знает тулы типа https://t.co/EbpbNZWQFC , но чтобы туда можно было вбить грубо говоря любую поисковую кверю, или API (например reddit/github); и оно отслеживало результаты?
 :PROPERTIES:
-:ID:       twttrcmkrlcsssttstwtактонионоотслеживалорезультаты
+:ID:       twttrcmkrlcsssttstwtstcbpbnzwqfcprddtgthb
 :END:
 *** [2019-10-02] huh
 :PROPERTIES:
@@ -402,7 +402,7 @@ https://twitter.com/search?q=karlicoss%2Fcachew&partner=Firefox&source=desktop-s
 can find some interesting stuff on twitter..
 *** DONE [2019-07-28] "виктор аргонов" got some good results on twitter
 :PROPERTIES:
-:ID:       виктораргоновgtsmgdrsltsntwttr
+:ID:       gtsmgdrsltsntwttr
 :END:
 ** STRT [#C] kobo; spaced repetition?                             :spacedrep:
 :PROPERTIES:

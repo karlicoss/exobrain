@@ -1413,7 +1413,7 @@ https://twitter.com/LeahNeukirchen/status/1335669406588923905
 
 ** [#C] [2021-02-23] [[https://tiendil.org/yet-another-tarantoga/][Yet another Тарантога]] :hpi:
 :PROPERTIES:
-:ID:       stndlrgytnthrtrntgytnthrтарантога
+:ID:       stndlrgytnthrtrntgytnthr
 :END:
 ** [#C] [2020-10-05] [[https://github.com/seanbreckenridge/HPI/commit/fbe4ffca13f24ccaed6cc729b4ef0284a7221722][mention data gathering libraries · seanbreckenridge/HPI@fbe4ffc]]
 :PROPERTIES:

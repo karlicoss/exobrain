@@ -205,7 +205,7 @@ only preferred local frames of reference are forbidden, you can still have prefe
 very good intuitive explanation! Basically, since charges in wire (protons/electrons) are moving relative to each other, they are slightly contracted  so in other frames of reference it creates a force
 * [#C] [2019-09-06] Например, космический корабль, который движется с ускорением свободного падения g, пройдет расстояние 13 миллиардов световых лет (долетит до края наблюдаемой Вселенной!) менее чем за сто лет, если считать время в собственной системе отсчета.
 :PROPERTIES:
-:ID:       напримеркосмическийкораблсобственнойсистемеотсчета
+:ID:       g
 :END:
 * TODO GR workbook?                                                   :study:
 :PROPERTIES:

@@ -131,7 +131,7 @@ two identical particles can't occupy same single-particle states. Pauli exclusio
 
 * [#D] [2013-09-21] Prover, verifier (Из лекции Шеня в ПОМИ 30 сентября 2012)
 :PROPERTIES:
-:ID:       prvrvrfrизлекциишенявпомисентября
+:ID:       prvrvrfr
 :END:
 1. Sequential repetition
 2. Parallel repetition
@@ -207,7 +207,7 @@ https://en.wikipedia.org/wiki/Spin%E2%80%93statistics_theorem
 
 * [#C] [2014-11-24] А также хочу осознать книжку Teschlа по квантовой механике( :self:
 :PROPERTIES:
-:ID:       атакжехочуосознатькнижкуtschlапоквантовоймеханике
+:ID:       tschl
 :END:
 http://twitter.com/statuses/536870238781194240
 
@@ -419,7 +419,7 @@ https://vankessel.io/disproving-quantum-immortality
 :END:
 * [#C] [2019-12-11] Māris Ozols on Twitter: "Helping my students to see beyond equations. https://t.co/4TioiOP5Sk" / Twitter :quantum:notation:
 :PROPERTIES:
-:ID:       mārszlsntwttrhlpngmystdntstsbyndqtnsstctpsktwttr
+:ID:       mrszlsntwttrhlpngmystdntstsbyndqtnsstctpsktwttr
 :END:
 https://twitter.com/enclanglement/status/1204556108561559552
 : Helping my students to see beyond equations.
@@ -512,7 +512,7 @@ wow, pretty insane
 * TODO [#C] The wavefunction Ψ is a 4×1 column vector (also known as a spinor) and each element is a function of space and time, representing the spin state (up or down) of the electron and the associated positron solution.
 :PROPERTIES:
 :CREATED:  [2019-12-02]
-:ID:       thwvfnctnψsclmnvctrlsknwnthlctrnndthssctdpstrnsltn
+:ID:       thwvfnctnsclmnvctrlsknwnsthlctrnndthssctdpstrnsltn
 :END:
 [[https://physicsworld.com/a/paul-dirac-the-purest-soul-in-physics/][Paul Dirac: the purest soul in physics – Physics World]]
 [[https://hyp.is/5j-XThU-Eeq1vntOZQ5ywg/physicsworld.com/a/paul-dirac-the-purest-soul-in-physics/][in context]]
@@ -549,7 +549,7 @@ whoa, crazy detailed answer... something involving S-matrix..
 : The best explanation can be found here: http://gregnaber.com/wp-content/uploads/GAUGE-FIELDS-AND-GEOMETRY-A-PICTURE-BOOK.pdf at page 18ff
 * [#C] [2019-02-19] Векторный потенциал — Википедия https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%82%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB
 :PROPERTIES:
-:ID:       векторныйпотенциалвикипедbddbdbdbfdbddbdbdddbdbdbb
+:ID:       srwkpdrgwkddbdbddbddbddbdbdbfdbddbdbdddbdbdbb
 :END:
 :  Подобно тому, как скалярный потенциал связан с понятием энергии, векторный потенциал обнаруживает тесную связь с понятием импульса
 :  Так, в случае быстрого отключения магнитного поля частица, находившаяся в нём, получает дополнительный импульс qA.
@@ -598,7 +598,7 @@ https://github.com/qg-cpt-marseille/sl2cfoam
 
 * [#B] [2021-03-16] [[https://vas3k.ru/blog/quantum_computing/][Квантовый Компьютер : Как устроен? Как программировать? Уже? : Блог Вастрик.ру]] :qcomp:
 :PROPERTIES:
-:ID:       svskrblgqntmcmptngквантовммироватьужеблогвастрикру
+:ID:       svskrblgqntmcmptng
 :END:
 
 * TODO [#C] quantum                                                     :viz:

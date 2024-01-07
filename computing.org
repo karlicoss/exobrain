@@ -340,7 +340,7 @@ https://9to5google.com/2019/05/29/chrome-ad-blocking-enterprise-manifest-v3/
 
 * [#D] [2020-01-22] Tweet from Гришка (@grishka11), at Jan 22, 16:50 https://twitter.com/grishka11/status/1220026067060187137
 :PROPERTIES:
-:ID:       twtfrmгришкаgrshktjnstwttrcmgrshkstts
+:ID:       twtfrmgrshktjnstwttrcmgrshkstts
 :END:
 : @internetofshit There should be a law or something that if you stop updating an IoT device, its last firmware version must be open sourced so that people who actually care could help others keep using it.
 

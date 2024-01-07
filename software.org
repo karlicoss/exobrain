@@ -74,7 +74,7 @@ https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md
 
 * [[https://twitter.com/i/web/status/584492360349913088][TW]] at [2015-04-04] Когда я читаю в release notes софтины "various style and layout fixes", автоматически предполагаю что выпилили полезные настройки.
 :PROPERTIES:
-:ID:       stwttrcmwbsttstwtкогдаячивыпилилиполезныенастройки
+:ID:       stwttrcmwbsttstwtrlsntsvrsstylndlytfxs
 :END:
 * [2019-05-20] Yak Shaving
 :PROPERTIES:
@@ -91,7 +91,7 @@ some discussions on GPL/BSD/MIT licensing
 * DONE [#C] Tweet from Некстджен и Усиление (@turbojedi), at Jun 5, 15:36 :appdesign:
 :PROPERTIES:
 :CREATED:  [2019-06-05]
-:ID:       twtfrmнекстджениусилениеtrbjdtjn
+:ID:       twtfrmtrbjdtjn
 :END:
 : Вот это хорошо.
 : Легко и красиво, самое то чтобы рассылать друзьям и родственникам (на HN также справедливо замечают что здесь нет поиска утекших паролей, чтобы не создавать у людей впечатление, что вводить свои пароли на левых сайтах нормально).

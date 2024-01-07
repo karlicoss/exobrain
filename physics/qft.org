@@ -84,7 +84,7 @@ https://physics.stackexchange.com/questions/340009/derivatives-in-euler-lagrange
 :END:
 ** [2019-01-25] Is it true that the Schrödinger equation only applies to spin-1/2 particles? - Physics Stack Exchange
 :PROPERTIES:
-:ID:       sttrthtthschrödngrqtnnlyptspnprtclsphyscsstckxchng
+:ID:       sttrthtthschrdngrqtnnlypptspnprtclsphyscsstckxchng
 :END:
 https://physics.stackexchange.com/questions/129667/is-it-true-that-the-schr%C3%B6dinger-equation-only-applies-to-spin-1-2-particles/129744
 : Well, this should not surprise us, since the Schrodinger equation is the nonrelativistic limit to the Klein-Gordon equation. And we should recall the Klein-Gordon equation describes spin-0 bosons!
@@ -229,7 +229,7 @@ Electron gets mass from higgs interaction, but also from virtual photons. But th
 : QFT in Zero Dimensions:
 * [#B] [2019-12-23] [[https://nplus1.ru/material/2019/12/22/simple-math][Объясняем шутку из твиттера про дедушку и лагранжиан квантовой теории поля]]
 :PROPERTIES:
-:ID:       snplsrmtrlsmplmthобъясняеанжианквантовойтеорииполя
+:ID:       snplsrmtrlsmplmth
 :END:
 
 * [2019-02-19] (12) Quantum Fields: The Real Building Blocks of the Universe - with David Tong - YouTube
@@ -292,13 +292,13 @@ https://twitter.com/litgenstein/status/1210890946201739269
 :END:
 * [#C] [2020-06-23] [[https://thedeemon.livejournal.com/139921.html][Quantum vs. classical - Dee Mon. Былое и думы — LiveJournal]] :qft:
 :PROPERTIES:
-:ID:       sthdmnlvjrnlcmhtmlqntmvsclsscldmnбылоеидумыlvjrnl
+:ID:       sthdmnlvjrnlcmhtmlqntmvsclsscldmnlvjrnl
 :END:
 : Потому, кстати, диаграммы с большим числом промежуточных узлов вносят очень малый вклад - там заряд в энной степени, и если он изначально мал, в энной степени выходит совсем мало.
 : Кроме сильного взаимодействия, там он не так мал.
 * [#C] [2019-12-31] [[https://en.wikipedia.org/wiki/Schr%C3%B6dinger_field][Schrödinger field - Wikipedia]]
 :PROPERTIES:
-:ID:       snwkpdrgwkschrcbdngrfldschrödngrfldwkpd
+:ID:       snwkpdrgwkschrcbdngrfldschrdngrfldwkpd
 :END:
 
 * [#C] [2019-12-31] [[https://en.wikipedia.org/wiki/Klein%E2%80%93Gordon_equation][Klein–Gordon equation - Wikipedia]]

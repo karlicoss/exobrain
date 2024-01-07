@@ -45,7 +45,7 @@
 :END:
 * [#D] [2018-10-10] Agda Beginner(-ish) Tips, Tricks, & Pitfalls - Donnacha Oisín Kidney :agda:
 :PROPERTIES:
-:ID:       gdbgnnrshtpstrcksptfllsdnnchsínkdny
+:ID:       gdbgnnrshtpstrcksptfllsdnnchsnkdny
 :END:
 https://doisinkidney.com/posts/2018-09-20-agda-tips.html
 

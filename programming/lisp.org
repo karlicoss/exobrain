@@ -114,7 +114,7 @@ I don't mean to offend lisp lovers or anything. I'm just desperately trying to f
 :         defensive_msg = "couldn't import magic. See https://github.com/ahupp/python-magic#installation"
 * [#C] [2021-02-06] [[https://twitter.com/karlicoss/status/1358183224929902593][jestem króliczkiem on Twitter: "Lisp is amazing, truly language of the future "not especially malicious" https://t.co/Wvhha6CCUl" / Twitter]] :lisp_sucks:
 :PROPERTIES:
-:ID:       stwttrcmkrlcsssttsjstmkróspcllymlcsstcwvhhccltwttr
+:ID:       stwttrcmkrlcsssttsjstmkrlspcllymlcsstcwvhhccltwttr
 :END:
 : Lisp is amazing, truly language of the future
 : "not especially malicious"

@@ -199,7 +199,7 @@ puppeteer is only available on chrome though??
 :END:
 * TODO [#C] [2020-02-12] Dmitry Zuykov on Twitter: "firefox умеет автоматизацию через Marionette, который просто асинхронный tcp/json, для которого есть HTTP-враппер geckodriver, клиент для этой обёртки есть даже в нашем уютненьком и работает. Можно скрэпить через браузер, у меня… :scrape:
 :PROPERTIES:
-:ID:       dmtryzykvntwttrfrfxумеетаскрэпитьчерезбраузеруменя
+:ID:       dmtryzykvntwttrfrfxmrntttcpjsngckdrvr
 :END:
 https://mobile.twitter.com/voidlizard/status/1227505059963035648
 
@@ -415,7 +415,7 @@ https://rickcarlino.com/2019/11/02/software-tools-for-hobby-sized-projects-html.
 : Vultr is my go-to solution for cheap hosting. As of this writing, the cheapest plan they offer is $2.50 a month. Although their cheapest plan defintely won’t be able to fuel your next high-powered computing project, it is a great solution when you need to host small scale tasks such as cron jobs.
 * [2020-04-15] [[https://twitter.com/borkdude/status/1249818512295632897][(λ. borkdude) on Twitter: "Cool idea! Alternative: $ alias bbjq='bb "(json/parse-stream *in* true)" | bb' $ curl -s 'https://t.co/IGRoyvYOdv' | bbjq '(-&gt;&gt; *input* (map (comp :login :author)))' ;;=&gt; ("jr0cket" "borkdude" "rymndhng" "borkdude" "OscarMarshall") babashka https://t.co/rk76nGsTGW" / Twitter]]
 :PROPERTIES:
-:ID:       stwttrcmbrkddsttsλbrkddntshllbbshkstcrkngstgwtwttr
+:ID:       stwttrcmbrkddsttsbrkddntwshllbbshkstcrkngstgwtwttr
 :END:
 * [2020-04-25] [[https://circleci.com/gh/karlicoss/promnesia/1130?utm_campaign=vcs-integration-link&utm_medium=referral&utm_source=github-build-link][Continuous Integration and Deployment]]
 :PROPERTIES:
@@ -902,7 +902,7 @@ deepnote vs google colab
 
 * [2019-05-27] Tweet from Виталий Брагилевский (@_bravit)               :fun:
 :PROPERTIES:
-:ID:       twtfrmвиталийбрагилевскийbrvt
+:ID:       twtfrmbrvt
 :END:
 : Виталий Брагилевский (@_bravit) Tweeted:
 : @SrgGrch У программистов одна проблема — они тупые. Цель разработчиков языков программирования в том, чтобы этот факт не сильно мешал. https://twitter.com/_bravit/status/1130567953118834688?s=17
@@ -914,7 +914,7 @@ deepnote vs google colab
 
 * [#D] [2019-01-27] Daibhi O Domhnaill on Twitter: "Лайфхак: если во время собеседования на вопрос "какова сложность этого алгоритма?" ответить "а что, тормозит что ли? да перенесите на SSD и все дела", то сразу возьмут техническим директором" / Twitter
 :PROPERTIES:
-:ID:       dbhdmhnllntwttrлайфхакеслехническимдиректоромtwttr
+:ID:       dbhdmhnllntwttrssdtwttr
 :END:
 https://twitter.com/OhTheAnguish/status/1089461515273621504
 * TODO [#C] add favoriting with javascript?                      :hackernews:
