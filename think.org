@@ -32,7 +32,6 @@ One realization was that my parents are also not best at every possible reshare 
 
 * STRT [#B] [2019-09-30] Квантовое самоубийство — Википедия         :quantum:
 :PROPERTIES:
-:ID:       794_2039
 :END:
 https://ru.wikipedia.org/wiki/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D0%BE%D0%B5_%D1%81%D0%B0%D0%BC%D0%BE%D1%83%D0%B1%D0%B8%D0%B9%D1%81%D1%82%D0%B2%D0%BE
 : Риск того, что в результате эксперимента ружьё выстрелит и участник умрёт, составляет 50 %. Если копенгагенская интерпретация верна, то ружьё в конечном итоге выстрелит, и участник умрёт.
@@ -767,7 +766,6 @@ would be sort of cool for 'parallel' processing of heterogenous functions etc, d
 :END:
 * [#D] нейронные сети клеточный автомат
 :PROPERTIES:
-:ID:       26422_26462
 :END:
 * [#D] Constructive QM
 :PROPERTIES:

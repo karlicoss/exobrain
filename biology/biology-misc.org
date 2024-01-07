@@ -99,7 +99,6 @@ from Come as You Are
 :END:
 ** TODO [#C] [2019-01-29]
 :PROPERTIES:
-:ID:       8207_8540
 :END:
 : The detergents in the dish soap (like the sodium laurel sulfate, aka sodium dodecyl sulfate) destabilize the membranes of the cells, spilling their contents into the rest of the solution of saliva.
 
@@ -177,7 +176,6 @@ neuron connections are a higher dimension simplicial complex
 :END:
 * [#C] [2019-03-31] Пациент без головы: Научились ли хирурги восстанавливать перерезанный спинной мозг
 :PROPERTIES:
-:ID:       13946_14609
 :END:
 https://nplus1.ru/material/2019/03/28/head-transplantation
 - [2019-03-31]

@@ -18,19 +18,15 @@ The ones I have already/mostly finished are mentioned here:
 :END:
 ** .                                                                   :silo:
 :PROPERTIES:
-:ID:       590_602
 :END:
 ** .                                                                  :infra:
 :PROPERTIES:
-:ID:       602_615
 :END:
 ** .                                                                 :backup:
 :PROPERTIES:
-:ID:       615_629
 :END:
 ** .                                                         :dataliberation:
 :PROPERTIES:
-:ID:       629_651
 :END:
 
 * [#A] * motivation
@@ -1141,7 +1137,6 @@ https://github.com/signalnerve/roam-backup
 :     roamPasswor
 * ----------------------------------------------------
 :PROPERTIES:
-:ID:       41455_41510
 :END:
 * [#A] [2020-02-03] Data lake - Wikipedia                       :dal:exports:
 :PROPERTIES:

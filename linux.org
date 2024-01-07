@@ -167,7 +167,6 @@ mind the space after colon!
 
 * -----------------------------------------
 :PROPERTIES:
-:ID:       3786_3831
 :END:
 
 * [#C] [2018-06-08] Linux ignores the setuid bit on all interpreted executables (i.e. executables starting with a ~#!~ line).
@@ -203,7 +202,6 @@ https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
 
 * -------------------------------------------
 :PROPERTIES:
-:ID:       5428_5474
 :END:
 * TODO [#C] =whereis= command                                         :habit:
 :PROPERTIES:

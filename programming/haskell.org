@@ -4,7 +4,6 @@
 
 * [#C] [2016-08-07] .
 :PROPERTIES:
-:ID:       40_123
 :END:
 ihaskell install
 jupyter console --kernel haskell

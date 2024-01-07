@@ -45,7 +45,6 @@ right, so pretty nice design
 Very good blog post!
 *** [2019-04-23] Во многом благодаря рисункам, как мне кажется. Норм мотивация поучиться рисовать :hobby:drawing:
 :PROPERTIES:
-:ID:       1046_1170
 :END:
 ** TODO [#C] [2019-11-21] Projects | Intuitive Explanations
 :PROPERTIES:
@@ -217,7 +216,6 @@ https://jeffhuang.com/designed_to_last/
 
 * ----------------------------------------------------------
 :PROPERTIES:
-:ID:       6543_6605
 :END:
 
 * [#C] [2020-01-23] Web bloat                                         :bloat:

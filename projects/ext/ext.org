@@ -733,7 +733,6 @@ using #gitbug instead now
 
 * --------------------------------
 :PROPERTIES:
-:ID:       24945_24981
 :END:
 
 * STRT [#C] share link and content                                    :tusky:

@@ -9,7 +9,6 @@
 
 ** 
 :PROPERTIES:
-:ID:       158_622
 :END:
 : When the quantum system has aninfinite number of degrees of freedom
 : (i.e., in field theory) the operators ~bg may have to be distributions (see

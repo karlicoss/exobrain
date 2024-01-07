@@ -634,7 +634,6 @@ Huh that's a nice way to save on space
 :END:
 ** [#B] [2019-11-14] Опыт обращения к сомнологу                    :qs:sleep:
 :PROPERTIES:
-:ID:       22886_23187
 :END:
 http://vsevolodustinov.ru/blog/all/opyt-obrascheniya-k-somnologu/
 : . Никакого алкоголя
@@ -1186,7 +1185,6 @@ https://github.com/ucg8j/awesome-dash
 
 * -----------------------------------------
 :PROPERTIES:
-:ID:       39520_39565
 :END:
 
 * TODO [#A] come up with a better name? just in case of pypi release...

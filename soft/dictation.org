@@ -148,7 +148,6 @@ Generally Kaldi is much more accurate than current CMUSphinx, however, if your a
 
 * .
 :PROPERTIES:
-:ID:       5722_6641
 :END:
 : Voice Attack: failed to pick up my American accent. Failed to pick up my friend's British accent. Have not been able to try it as it appears to be incapable or recognizing even the shortest words ("Hello" spoken out loudly became "Oh no")
 : 

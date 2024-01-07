@@ -515,7 +515,6 @@ takeaway: bayes os more natural for communicating scientific results to public: 
 
 ** 13:00
 :PROPERTIES:
-:ID:       28583_28779
 :END:
 https://en.wikipedia.org/wiki/Nuisance_parameter
 nuiscance parameter -- integrated over in bayessian method? https://en.wikipedia.org/wiki/Marginal_likelihood#Bayesian_model_comparison

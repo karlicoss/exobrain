@@ -190,7 +190,6 @@ https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%B6%D0%B4%D0%B5%D1%81%D1%82%D0%B2%D
 :END:
 *** [2019-01-15] В том случае, когда лагранжиан не вырожден по скоростям, то есть
 :PROPERTIES:
-:ID:       8708_8994
 :END:
 : {\displaystyle p=\nabla _{u}L(q,u)\neq 0,} {\displaystyle p=\nabla _{u}L(q,u)\neq 0,}
 : можно сделать преобразование Лежандра по скоростям и получить новую функцию, называемую гамильтонианом:
@@ -602,7 +601,6 @@ understand:
 :END:
 ** ????
 :PROPERTIES:
-:ID:       26721_26729
 :END:
 
 

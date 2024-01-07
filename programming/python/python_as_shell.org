@@ -38,7 +38,6 @@ Note that you also can use multiline input if you press enter after the opening 
 :END:
 ** .
 :PROPERTIES:
-:ID:       1706_1960
 :END:
 #+begin_src python
   from pprint import pprint

@@ -37,7 +37,6 @@ pilot wave theory is both physical and deterministic
 
 * [#C] [2015-08-26]  .
 :PROPERTIES:
-:ID:       1500_1797
 :END:
 a |00> + b |01> + c |10> + d |11>
 Measure of entanglement: ad - bc

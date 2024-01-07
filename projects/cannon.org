@@ -19,7 +19,6 @@ If anyone knows of similar efforts/prior art, *please let me know*! I'd really l
 :END:
 ** .                                                                :linkrot:
 :PROPERTIES:
-:ID:       863_878
 :END:
 
 * [#A] * motivation
@@ -598,7 +597,6 @@ huh, so reddit seems to normalise to the main page, and displays annotations as 
 :END:
 * --------------------------------------------------
 :PROPERTIES:
-:ID:       21497_21550
 :END:
 * [#C] [2021-03-26] [[https://wiki.archiveteam.org/index.php?title=URLTeam][URLTeam - Archiveteam]] :cannon:
 :PROPERTIES:

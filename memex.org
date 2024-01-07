@@ -248,7 +248,6 @@ timeline -- similarly for all life events
 :END:
 * ----------------------------
 :PROPERTIES:
-:ID:       10062_10094
 :END:
 
 * TODO [#D] Tweet from @mekarpeles                                    :memex:

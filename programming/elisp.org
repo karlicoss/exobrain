@@ -106,7 +106,6 @@ thing-at-point
 
 * ----------------------------------------
 :PROPERTIES:
-:ID:       1841_1885
 :END:
 
 * TODO [#D] [2019-07-24] /r/emacs: [[https://reddit.com/r/emacs/comments/chfv7y/tutorial_on_good_lisp_programming_style/][Tutorial on Good Lisp Programming Style]]

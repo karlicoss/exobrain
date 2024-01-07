@@ -12,23 +12,18 @@ How can we make it more powerful, intuitive, pleasant to use?
 :END:
 ** .                                                               :software:
 :PROPERTIES:
-:ID:       199_215
 :END:
 ** .                                                            :programming:
 :PROPERTIES:
-:ID:       215_234
 :END:
 ** .                                                           :decentralize:
 :PROPERTIES:
-:ID:       234_254
 :END:
 ** .                                                              :malleable:
 :PROPERTIES:
-:ID:       254_271
 :END:
 ** .                                                                :interop:
 :PROPERTIES:
-:ID:       271_286
 :END:
 
 

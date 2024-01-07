@@ -735,7 +735,6 @@ Even temporary acceleration creates temporary Rindler horizons.
 Then, it's similar to hawking radiation and for an accelerating observer it would create particles.
 ** [2019-09-02] Эффект Унру — Википедия
 :PROPERTIES:
-:ID:       41786_43032
 :END:
 https://ru.wikipedia.org/wiki/%D0%AD%D1%84%D1%84%D0%B5%D0%BA%D1%82_%D0%A3%D0%BD%D1%80%D1%83
 : Эффект Унру позволяет дать грубое объяснение излучения Хокинга, но не может считаться полным его аналогом.[4] При равноускоренном движении позади ускоряющегося тела тоже возникает горизонт событий, но разница в граничных условиях задач даёт различные решения для этих эффектов. В частности, подход, основанный на расчёте ограниченных интегралов по путям, даёт следующую картину для эффекта Унру: «тепловая атмосфера» ускоренного наблюдателя состоит из виртуальных частиц, но если такая виртуальная частица поглощается ускоренным наблюдателем, то соответствующая античастица становится реальной и доступна для детектирования инерциальным наблюдателем.[4] В этом случае ускоренный наблюдатель теряет часть своей энергии. В случае эффекта Хокинга для чёрной дыры, сформировавшейся в результате гравитационного коллапса, картина другая: появляющиеся в результате эффекта частицы «тепловой атмосферы» являются реальными. Эти частицы, уходящие на бесконечность, могут наблюдаться и поглощаться удаленным наблюдателем, однако, независимо от их поглощения, эти частицы уносят массу (энергию) чёрной дыры.[4]
@@ -766,7 +765,6 @@ https://www.reddit.com/r/askscience/comments/1hcc2b/can_someone_explain_the_unru
 ** TODO [#B] Эффект Унру — Заметки о теоретической физике
 :PROPERTIES:
 :CREATED:  [2019-09-06]
-:ID:       45685_45845
 :END:
 
 https://susy.written.ru/2011/02/28/Unruh_effect
@@ -2802,7 +2800,6 @@ https://twitter.com/sigfpe/status/1116084820784766982
 * TODO [#D] Таким образом, любой, даже самый маленький электрический заряд черной дыры полностью меняет тип сингулярности в ее центре.
 :PROPERTIES:
 :CREATED:  [2019-05-01]
-:ID:       153332_153521
 :END:
 
 * [#D] [2019-04-24] [[https://en.wikipedia.org/wiki/Fundamental_polygon][Fundamental polygon - Wikipedia]]
@@ -2961,7 +2958,6 @@ https://twitter.com/lisyarus/status/1199609128110436358
 * TODO [#D] щас посмотрел видос пиздос, типа Планк не верил в фотоны (да и чуть ли не в атомы) до 20х годов
 :PROPERTIES:
 :CREATED:  [2019-02-18]
-:ID:       158349_158510
 :END:
 * TODO [#D] [2020-05-22] [[https://reddit.com/r/Physics/comments/gotl97/physicists_of_reddits_whats_the_most_intetesting/fri349s/][Physicists of reddits, what's the most Intetesting stuff you've studied so far??]] /r/Physics
 :PROPERTIES:
@@ -3299,7 +3295,6 @@ fucking hell, really awesome explanation for standard model.. read it again!
 
 ** [2019-05-06] В 2013 году команда исследователей из Италии экспериментально продемонстрировала этот феномен. Подводя итоги своей работы, ученые сообщали: «Мы показываем, как статическое запутанное состояние двух фотонов можно рассматривать в качестве развивающегося с точки зрения наблюдателя, использующего один из двух фотонов как часы — для оценки временного развития другого фотона. Однако сторонний наблюдатель может показать, что глобально запутанное состояние не развивается».
 :PROPERTIES:
-:ID:       176418_176914
 :END:
 
 * TODO [#B] [2020-07-16] [[https://calculus123.com/wiki/Topology_Illustrated][Topology Illustrated - Mathematics Is A Science]]
@@ -3381,7 +3376,6 @@ https://en.wikipedia.org/wiki/Allied_Military_phonetic_spelling_alphabets#RAF_ra
 
 * ---------------------------------------
 :PROPERTIES:
-:ID:       181033_181106
 :END:
 processing on [2021-01-31]
 * TODO [#C] Tweet from @mekarpeles                                  :chinese:
@@ -3411,7 +3405,6 @@ https://twitter.com/nmwsharp/status/1153993638134910977
 
 * ----------------------------------------------
 :PROPERTIES:
-:ID:       182092_182141
 :END:
 * TODO [#C] [2021-01-22] [[http://bach.ai/pub/ECAP10%20Joscha%20Bach%20on%20AI%20singularity.pdf][ECAP10 Joscha Bach on AI singularity.pdf]]
 :PROPERTIES:

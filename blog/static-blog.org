@@ -57,7 +57,6 @@ code can do literally anything you wish, this is very empowering
 - didn't help: import random; random.seed(0)
 * ---------------------
 :PROPERTIES:
-:ID:       1234_1259
 :END:
 
 * TODO [#C] don't be afraid to use conventional command line tools    :ipynb:

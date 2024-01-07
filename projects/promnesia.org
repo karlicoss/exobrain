@@ -1215,7 +1215,6 @@ allow breaking down important and unimportant schema parts from extensions?
 :END:
 ** [2019-08-01] ??
 :PROPERTIES:
-:ID:       43367_43396
 :END:
 * TODO [#C] open in new tab from search?
 :PROPERTIES:

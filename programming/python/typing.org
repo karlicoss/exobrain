@@ -310,7 +310,6 @@ Type annotation will require importing modules that you wouldn't need to import 
 : )
 *** [#C] [2019-08-31] .
 :PROPERTIES:
-:ID:       13623_13808
 :END:
 : Unless I'm mistaken, recursive types with ForwardRefs can already be checked correctly at runtime by using ForwardRef._evaluate(globals(), locals())
 ** [#C] [2020-11-25] [[https://github.com/python/mypy/issues/1362][Decorated property not supported · Issue 1362 · python/mypy]]
@@ -465,7 +464,6 @@ run with uvicorn fa:app --reload --port 9090
 
 * -------------------------------------------------
 :PROPERTIES:
-:ID:       19723_19775
 :END:
 * [#B] [2021-04-05] crazy how useful it is to have gradual typing when you're gradually hardening the program, adding error hadnling etc :types:
 :PROPERTIES:

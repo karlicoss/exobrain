@@ -150,7 +150,6 @@ ok, since higher is better, let it be like:
 :END:
 * [#B] [2018-08-28] Ученые рассчитали благоприятное для здоровья количество сна
 :PROPERTIES:
-:ID:       2056_2147
 :END:
 
 * STRT [#B] [2018-10-03] Sleep - Biohacker's Handbook
@@ -300,7 +299,6 @@ https://twitter.com/hillelogram/status/1119709868833820677
 * TODO [#C] Ученые рассчитали благоприятное для здоровья количество сна
 :PROPERTIES:
 :CREATED:  [2019-06-02]
-:ID:       7556_7773
 :END:
 
 https://m.vk.com/@obrazovach-uchenye-rasschitali-blagopriyatnoe-dlya-zdorovya-kolichestvo
@@ -437,7 +435,6 @@ https://jysk.co.uk/guide/pillow-guide
 * TODO [#C] Начать спать в 22-00?
 :PROPERTIES:
 :CREATED:  [2018-09-05]
-:ID:       12175_12263
 :END:
 
 * TODO [#C] https://paleoleap.com/sleep-hygiene-what-actually-works/
@@ -517,7 +514,6 @@ https://www.reddit.com/r/IsItBullshit/comments/8rjo02/isitbullshit_sleeping_with
 * TODO День сурка
 :PROPERTIES:
 :CREATED:  [2019-05-01]
-:ID:       14565_15012
 :END:
 
 : В исследовании, опубликованном в журнале Journal of Sleep Research, ученые пришли к выводу о том, что риск смерти не повышается у тех, кто спит в рабочие дни меньше пяти часов, но больше восьми — в выходные. При этом он возрастает в полтора раза у людей, пренебрегающих сном в выходные. Эти данные были получены в результате тестирования 38 тысяч шведов в течение 13 лет.

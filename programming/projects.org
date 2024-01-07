@@ -13,11 +13,9 @@ Here I collect best practices, or at least the ones I liked.
 :END:
 ** .                                                             :opensource:
 :PROPERTIES:
-:ID:       293_311
 :END:
 ** .                                                                 :social:
 :PROPERTIES:
-:ID:       311_325
 :END:
 
 * [#A] * clearly state the purpose
@@ -188,11 +186,9 @@ How to make the project more welcome to contributions?
 - specify how to spin up the developer environment (e.g. editable install)
 *** TODO .                                                              :hpi:
 :PROPERTIES:
-:ID:       6315_6332
 :END:
 *** TODO .                                                        :promnesia:
 :PROPERTIES:
-:ID:       6332_6355
 :END:
 ** [#C] [2020-06-06] [[https://drewdevault.com/2020/06/06/Add-a-contrib-directory.html][Add a “contrib” directory to your projects | Drew DeVault’s Blog]] :project:
 :PROPERTIES:
@@ -313,7 +309,6 @@ nice design and summary on this page
 :     Customers must receive either object files or source code (including any modifications) of the LGPL-licensed library.
 ** [#C] 
 :PROPERTIES:
-:ID:       12034_12042
 :END:
 ** [#C] [2019-12-11] [[https://github.com/kootenpv/gittyleaks/pull/10][Create LICENSE by MitchTalmadge · Pull Request #10 · kootenpv/gittyleaks]]
 :PROPERTIES:
@@ -361,7 +356,6 @@ https://namewink.com/
 The reason is to avoid siloing the changelog on Github. It's fine to also copy it on "Releases" page as well, but make the CHANGELOG.md (or any other plaintext file) the primary source of truth.
 * ----------------------------------
 :PROPERTIES:
-:ID:       14349_14386
 :END:
 * STRT [#B] [2020-01-19] [[https://lobste.rs/s/pg1ne9/how_do_you_stay_inline_with_your_vision_on#c_ihhrfy][How do you stay inline with your vision on long term projects? | Lobsters]]
 :PROPERTIES:
@@ -396,7 +390,6 @@ I don't need money myself, but would be nice to 'reroute' donations to the libra
 :END:
 * ----------------------------------
 :PROPERTIES:
-:ID:       15971_16008
 :END:
 * TODO [#C] [2021-03-05] [[https://news.ycombinator.com/item?id=26351053][Open source projects should run office hours | Hacker News]] :projects:
 :PROPERTIES:

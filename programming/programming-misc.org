@@ -509,7 +509,6 @@ https://github.com/awesome-selfhosted/awesome-selfhosted
 :END:
 * [2020-09-27] .
 :PROPERTIES:
-:ID:       19510_19858
 :END:
 : Something that I’m surprised a lot of devs don’t know; there are official domains you’re supposed to use for documentation, testing, etc. They are specifically reserved by IANA for these purposes. Originally I think it was just example.com, but they now have a list of all them: https://www.iana.org/domains/reserved
 
@@ -1800,7 +1799,6 @@ solution: void consumer(List<? extends A> List)
 
 ** ?
 :PROPERTIES:
-:ID:       73832_73924
 :END:
 - lack of operators overloading (but sometimes it makes sense)
 - GC: both good and bad

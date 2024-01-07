@@ -50,7 +50,6 @@ G-linear map -- map between representations V -> W, s.t g . phi and phi . g comm
 
 * [#A] U(1)
 :PROPERTIES:
-:ID:       886_1170
 :END:
 ** U(1) -- rotations e^i theta
 :PROPERTIES:
@@ -146,17 +145,14 @@ only for Pauli_3 it's diagonal. ugh, don't understand anything
 :END:
 *** [2018-09-06]
 :PROPERTIES:
-:ID:       2965_3428
 :END:
 : The spin vector operator is denoted S ^ = ( S x ^ , S y ^ , S z ^ ) {\displaystyle {\widehat {\mathbf {S} }}=({\widehat {S_{x}}},{\widehat {S_{y}}},{\widehat {S_{z}}})} {\widehat {\mathbf {S} }}=({\widehat {S_{x}}},{\widehat {S_{y}}},{\widehat {S_{z}}}). The eigenvalues of its components are the possible outcomes (in units of ℏ {\displaystyle \hbar } \hbar ) of a measurement of the spin projected onto one of the basis directions.
 *** [2018-09-06]
 :PROPERTIES:
-:ID:       3428_3743
 :END:
 : Rotations (of ordinary space) about an axis a ^ {\displaystyle {\hat {\mathbf {a} }}} {\hat {\mathbf {a} }} through angle θ about the unit vector a ^ {\displaystyle {\hat {a}}} {\hat {a}} in space acting on a multicomponent wave function (spinor) at a point in space is represented by:
 *** [2018-09-06]
 :PROPERTIES:
-:ID:       3743_4016
 :END:
 : In relativistic quantum mechanics, wavefunctions are no longer single-component scalar fields, but now 2(2s + 1) component spinor fields, where s is the spin of the particle. The transformations of these functions in spacetime are given below.
 *** TODO [#B] [2019-01-23] Representation of a Lie group - Wikipedia    :lie:
@@ -301,12 +297,10 @@ interesting, also in sense it's similar to comparing absolute units and diferern
 not sure if it's very convincing, e.g. proposed rules are pretty arbitrary
 ** [2019-01-10]
 :PROPERTIES:
-:ID:       11824_12464
 :END:
 Not only that, but it is not even necessary to change the speed of each clock by a fixed amount. We could change the angle of the hand on each clock by a varying amount θ, where θ could depend on both the position in space and on time. This would have no effect on the result of the experiment, since the final observation of the location of the electron occurs at a single place and time, so that the phase shift in each electron's "clock" would be the same, and the two effects would cancel out. This is another example of a gauge transformation: it is local, and it does not change the results of experiments.
 ** [2019-01-10]
 :PROPERTIES:
-:ID:       12464_13334
 :END:
 As a way of visualizing the choice of a gauge, consider whether it is possible to tell if a cylinder has been twisted. If the cylinder has no bumps, marks, or scratches on it, we cannot tell. We could, however, draw an arbitrary curve along the cylinder, defined by some function θ(x), where x measures distance along the axis of the cylinder. Once this arbitrary choice (the choice of gauge) has been made, it becomes possible to detect it if someone later twists the cylinde  
 

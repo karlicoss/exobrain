@@ -23,7 +23,6 @@ slowdown of light in material is just apparent! due to combined EM field with el
 :END:
 ** [2021-01-31]
 :PROPERTIES:
-:ID:       849_1429
 :END:
 so the idea is that some systems behave as a function of their components (and each component is a function of its subcomponents etc)
 (sort of like dynamic programming?)
@@ -34,7 +33,6 @@ sometimes we'll run into 'fixed points' (of coupling/macro parameters?), which c
 
 * ----------------------------------------------
 :PROPERTIES:
-:ID:       1430_1502
 :END:
 unprocessed stuff vvv
 
@@ -120,7 +118,6 @@ unprocessed stuff vvv
 
 * --------------------------------------
 :PROPERTIES:
-:ID:       9966_10044
 :END:
 processing round on [2020-01-30]
 * [#D] [2019-01-17] foreXiv – Meta humor means you're smarter http://blog.jessriedel.com :physics:
@@ -624,7 +621,6 @@ https://twitter.com/johncarlosbaez/status/1057710731901071360
 https://web.archive.org/web/20181031192641/https://grasp-lab.org/2013/06/18/hexatic/
 * ---------------------------------------
 :PROPERTIES:
-:ID:       41391_41433
 :END:
 * [#D] [2019-08-29] Intrinsic Curvature and Singularities - YouTube https://www.youtube.com/watch?v=Dl6-5qDifrs&list=WL&index=54
 :PROPERTIES:

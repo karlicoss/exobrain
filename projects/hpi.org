@@ -1511,7 +1511,6 @@ I guess it's kind of 'auto'? Although ETL sounds a bit magical
 see what's their approach to credentials
 * --------------------------------------------
 :PROPERTIES:
-:ID:       57059_57107
 :END:
 
 * TODO [#D] classify modules by ease of setup?                          :hpi:

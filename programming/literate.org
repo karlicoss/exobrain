@@ -33,7 +33,6 @@ comments?
 
 * -----------------------------------
 :PROPERTIES:
-:ID:       837_876
 :END:
 
 * [#C] [2019-09-23] NiklasRosenstein/pydoc-markdown: Create Python API documentation in Markdown format.

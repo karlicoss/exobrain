@@ -131,7 +131,6 @@ https://hynek.me/articles/testing-packaging/
 : Your tests do not run against the package as it will be installed by its users. They run against whatever the situation in your project directory is.
 *** [2019-07-25] o
 :PROPERTIES:
-:ID:       3149_3409
 :END:
 : To achieve that, you just move your packages into a src directory and add a where argument to find_packages() in your setup.py:
 : 
@@ -321,7 +320,6 @@ https://stackoverflow.com/questions/16184487/use-ipython-magic-functions-in-ipdb
 : shell.find_line_magic('cpaste')()
 * ----------------------------------
 :PROPERTIES:
-:ID:       8582_8620
 :END:
 
 * [#B] [2019-09-22] [[https://reddit.com/r/Python/comments/d4zfhc/python3_fstrings_a_complete_guide_to_the_most/f0ieyws/][Python3 f-strings - A complete guide to the most well received feature of Python 3.]] /r/Python
@@ -993,7 +991,6 @@ https://github.com/python-poetry/poetry/issues/222
 * TODO [#C] eee                                                     :ipython:
 :PROPERTIES:
 :CREATED:  [2019-04-14]
-:ID:       33687_34150
 :END:
 
 :  ldisplay_md("hi")

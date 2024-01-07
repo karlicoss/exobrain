@@ -14,19 +14,15 @@ For todo-list or just random documents, however, I really don't want to have thi
 :END:
 ** .                                                                  :infra:
 :PROPERTIES:
-:ID:       623_636
 :END:
 ** .                                                                :offline:
 :PROPERTIES:
-:ID:       636_651
 :END:
 ** .                                                             :selfhosted:
 :PROPERTIES:
-:ID:       651_669
 :END:
 ** .                                                                  :cloud:
 :PROPERTIES:
-:ID:       669_682
 :END:
 
 
