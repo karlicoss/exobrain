@@ -11,19 +11,16 @@
 :CREATED:  [2018-01-13]
 :ID:       cklntlsnmcrwv
 :END:
-
 * TODO [#D] quorn
 :PROPERTIES:
 :CREATED:  [2018-01-15]
 :ID:       qrn
 :END:
-
 * TODO [#C] creamed spinach
 :PROPERTIES:
 :CREATED:  [2018-01-15]
 :ID:       crmdspnch
 :END:
-
 * TODO marinate veggies for kimchi
 :PROPERTIES:
 :CREATED:  [2018-01-18]
@@ -39,6 +36,7 @@ https://twitter.com/omruruch/status/954095274124746752
 :PROPERTIES:
 :ID:       lmnmfl
 :END:
+
 apparently not very safe? However works is acidic food, e.g. lemons and tomatoes?
 
 * TODO salad inspiration https://www.reddit.com/r/EatCheapAndHealthy/comments/7nn800/as_a_follow_up_to_my_favorite_soups_here_are_my/
@@ -46,13 +44,11 @@ apparently not very safe? However works is acidic food, e.g. lemons and tomatoes
 :CREATED:  [2018-01-25]
 :ID:       sldnsprtnswwwrddtcmrtchpntsnnsfllwptmyfvrtspshrrmy
 :END:
-
 * TODO use walnut oil for salads, not hot cooking
 :PROPERTIES:
 :CREATED:  [2018-02-11]
 :ID:       swlntlfrsldsnthtckng
 :END:
-
 * [#A] stir frying
 :PROPERTIES:
 :CREATED:  [2018-04-03]
@@ -71,11 +67,11 @@ apparently not very safe? However works is acidic food, e.g. lemons and tomatoes
 :CREATED:  [2018-04-05]
 :ID:       trysprtngfgrtfncssrytsk
 :END:
-
 ** TODO db link! match first found
 :PROPERTIES:
 :ID:       dblnkmtchfrstfnd
 :END:
+
 db:soak_and_sprout 
 
 * geniuskitchen is quite good, no bullshit
@@ -99,7 +95,6 @@ https://cometodhivispantry.blogspot.co.uk/2016/03/kothamalli-coffee-malli-coffee
 :CREATED:  [2018-04-10]
 :ID:       ddmrmttbrthnsmllmnts
 :END:
-
 * TODO molten peanut butter cake
 :PROPERTIES:
 :CREATED:  [2018-04-10]
@@ -113,29 +108,24 @@ https://www.reddit.com/r/ketorecipes/comments/7yx3tk/peanut_butter_cup_molten_la
 :CREATED:  [2018-04-14]
 :ID:       bslchsck
 :END:
-
 * Гороховый суп с копченостями
 :PROPERTIES:
 :CREATED:  [2018-04-16]
 :END:
-
 * TODO Marinate eggs
 :PROPERTIES:
 :CREATED:  [2018-04-18]
 :ID:       mrntggs
 :END:
-
 * CANCEL [2018-02-01] make my houmous
 :PROPERTIES:
 :ID:       mkmyhms
 :END:
-
 * TODO [#D] process https://pinboard.in/u:karlicoss/t:cooking
 :PROPERTIES:
 :CREATED:  [2018-02-01]
 :ID:       prcssspnbrdnkrlcsstckng
 :END:
-
 * TODO [#C] microwave food https://www.buzzfeed.com/arielknutson/delicious-snacks-in-a-mug?utm_term=.hdW0eD13N#.llB0Kq7rd
 :PROPERTIES:
 :CREATED:  [2018-02-01]
@@ -148,7 +138,6 @@ https://www.reddit.com/r/ketorecipes/comments/7yx3tk/peanut_butter_cup_molten_la
 :CREATED:  [2018-04-23]
 :ID:       spcysbttrwthfttysmksrspcystrfrsrftty
 :END:
-
 * flat pan vs skillet
 :PROPERTIES:
 :CREATED:  [2018-04-29]
@@ -178,31 +167,26 @@ https://www.quora.com/Is-goats-cheese-supposed-to-smell-like-goat
 :CREATED:  [2018-05-26]
 :ID:       mkcldspcdlttch
 :END:
-
 * TODO Turnip as potato                                           :nutrition:
 :PROPERTIES:
 :CREATED:  [2018-05-29]
 :ID:       trnpsptt
 :END:
-
 * TODO Mix broccoli spinach nutmeg cream parmesan
 :PROPERTIES:
 :CREATED:  [2018-06-13]
 :ID:       mxbrcclspnchntmgcrmprmsn
 :END:
-
 * TODO [#D] use frozen berries for yogurt??
 :PROPERTIES:
 :CREATED:  [2018-07-07]
 :ID:       sfrznbrrsfrygrt
 :END:
-
 * TODO Make chili con carne
 :PROPERTIES:
 :CREATED:  [2018-07-16]
 :ID:       mkchlcncrn
 :END:
-
 * TODO soup chicken lentils spinach and broccoli
 :PROPERTIES:
 :CREATED:  [2018-07-12]
@@ -228,35 +212,31 @@ https://www.quora.com/Is-goats-cheese-supposed-to-smell-like-goat
 :CREATED:  [2018-08-20]
 :ID:       rckttlnsldmxpnntsmclvngrprttygdwthfsh
 :END:
-
 * TODO Cook chili
 :PROPERTIES:
 :CREATED:  [2018-08-25]
 :ID:       ckchl
 :END:
-
 * STRT freeze omelette?
 :PROPERTIES:
 :CREATED:  [2018-07-21]
 :ID:       frzmltt
 :END:
-
 * TODO I think I'm spending quite a lot of time to separate soup. how to make it super efficient?
 :PROPERTIES:
 :CREATED:  [2019-01-20]
 :ID:       thnkmspndngqtltftmtsprtsphwtmktsprffcnt
 :END:
-
 * TODO Beansprout noodle pho
 :PROPERTIES:
 :CREATED:  [2019-01-27]
 :ID:       bnsprtndlph
 :END:
-
 * [2018-12-15] nice salad: kale, pine nuts, sesame seeds, oil??,
 :PROPERTIES:
 :ID:       ncsldklpnntsssmsdsl
 :END:
+
 like from cocotte hoxton; nathalie side sala
 Kale, roasted yellow peppers, toasted seeds, tahini, walnut oil and lime dressing.
 
@@ -264,24 +244,28 @@ Kale, roasted yellow peppers, toasted seeds, tahini, walnut oil and lime dressin
 :PROPERTIES:
 :ID:       chsyclflwrfrttrsktrcps
 :END:
+
 https://www.reddit.com/r/ketorecipes/comments/9noy73/cheesy_cauliflower_fritters/
 
 * [#C] [2018-07-31] Crunchy mozzarella salad recipe | BBC Good Food
 :PROPERTIES:
 :ID:       crnchymzzrllsldrcpbbcgdfd
 :END:
+
 https://www.bbcgoodfood.com/recipes/crunchy-mozzarella-salad
 
 * [#C] [2018-07-31] Spinach salad with strawberries & macadamia nuts | This is Your Cookbook
 :PROPERTIES:
 :ID:       spnchsldwthstrwbrrsmcdmntsthssyrckbk
 :END:
+
 https://www.thisisyourcookbook.com/recipe/spinach-salad-with-strawberries-and-macadamia-nuts
 
 * [#D] [2018-08-21] Low Carb Ramen! : ketorecipes
 :PROPERTIES:
 :ID:       lwcrbrmnktrcps
 :END:
+
 https://www.reddit.com/r/ketorecipes/comments/93hpow/low_carb_ramen/ 
 : Recipe and Ingredients:
 : • 100 g shirataki noodles • 100 g steak of choice • 1.5 cups beef broth • Soy sauce • Egg • Cilantro • Leeks
@@ -303,13 +287,11 @@ https://www.reddit.com/r/ketorecipes/comments/93hpow/low_carb_ramen/
 :PROPERTIES:
 :CREATED:  [2019-09-14]
 :END:
-
 * DONE waitrose small coconut cream
 :PROPERTIES:
 :CREATED:  [2018-01-28]
 :ID:       wtrssmllccntcrm
 :END:
-
 * CANCEL [#D] making own nut butter
 :PROPERTIES:
 :ID:       mkngwnntbttr
@@ -326,17 +308,20 @@ e.g. figure out the perfect spices, cooking time, etc, eat it every week
 :PROPERTIES:
 :ID:       spdfrfdnsprtn
 :END:
+
 https://www.pod.co.uk/storemenu/coldlunch
 * TODO shea butter                                                     :food:
 :PROPERTIES:
 :ID:       shbttr
 :END:
+
 https://en.m.wikipedia.org/wiki/Shea_butter
 
 * TODO buttermilk                                                      :food:
 :PROPERTIES:
 :ID:       bttrmlk
 :END:
+
 https://en.wikipedia.org/wiki/Buttermilk
 
 * TODO [#C] Mozarella spinach
@@ -344,31 +329,28 @@ https://en.wikipedia.org/wiki/Buttermilk
 :CREATED:  [2018-01-07]
 :ID:       mzrllspnch
 :END:
-
 * TODO make ahead freezer bag recipes
 :PROPERTIES:
 :CREATED:  [2018-01-25]
 :ID:       mkhdfrzrbgrcps
 :END:
-
 * TODO spinach in cheddar and mascarpone cheese sauce with nutmeg waitrose
 :PROPERTIES:
 :CREATED:  [2018-01-28]
 :ID:       spnchnchddrndmscrpnchsscwthntmgwtrs
 :END:
-
 * TODO M&S avocado, feta and grain salad with mint and creme fraiche dressing
 :PROPERTIES:
+:CREATED:  [2018-01-23]
 :ID:       msvcdftndgrnsldwthmntndcrmfrchdrssng
 :END:
-:PROPERTIES:
-:CREATED: [2018-01-23]
-:END:
+
 
 * TODO hollandaise sauce https://ketodietapp.com/Blog/post/2014/08/12/Easy-Hollandaise-Sauce
 :PROPERTIES:
 :ID:       hllndsscsktdtppcmblgpstsyhllndssc
 :END:
+
 : 2 tbsp butter, ghee, duck fat or extra virgin olive oil
 : 1 large egg yolk
 : ¼ tsp Dijon mustard (you can make your own)
@@ -389,6 +371,7 @@ http://dailyburn.com/life/health/sprouted-benefits-how-to-make-sprouts/
 :PROPERTIES:
 :ID:       pstchndcttgchssld
 :END:
+
 https://lovetobeinthekitchen.com/2014/03/04/pistachio-pudding-salad/
 
 ** pineapple?
@@ -400,55 +383,46 @@ https://lovetobeinthekitchen.com/2014/03/04/pistachio-pudding-salad/
 :CREATED:  [2018-04-03]
 :ID:       skthb
 :END:
-
 * [#A] Seafood pasta
 :PROPERTIES:
 :CREATED:  [2018-04-09]
 :ID:       sfdpst
 :END:
-
 * CANCEL [#C] use 85C water for filter coffee?                       :coffee:
 :PROPERTIES:
 :CREATED:  [2018-04-07]
 :ID:       scwtrfrfltrcff
 :END:
-
 * TODO marmite on butter toast or cheddar cheese sandwitch
 :PROPERTIES:
 :CREATED:  [2018-04-10]
 :ID:       mrmtnbttrtstrchddrchssndwtch
 :END:
-
 * TODO waitrose stir fry sauce peanut satay
 :PROPERTIES:
 :CREATED:  [2018-04-11]
 :ID:       wtrsstrfryscpntsty
 :END:
-
 * TODO waitrose tartare sauce
 :PROPERTIES:
 :CREATED:  [2018-04-11]
 :ID:       wtrstrtrsc
 :END:
-
 * Waitrose edamame noodles!!!                                          :keto:
 :PROPERTIES:
 :CREATED:  [2018-04-06]
 :ID:       wtrsdmmndls
 :END:
-
 * Prawn salad
 :PROPERTIES:
 :CREATED:  [2018-04-14]
 :ID:       prwnsld
 :END:
-
 * Extract bazil in cream
 :PROPERTIES:
 :CREATED:  [2018-04-28]
 :ID:       xtrctbzlncrm
 :END:
-
 * TODO [#D] Activated Sprouted Almond Butter - Nest and Glow
 :PROPERTIES:
 :CREATED:  [2018-07-24]
@@ -464,7 +438,6 @@ not sure if worth trying? would it be any different from normal almond butter?
 :CREATED:  [2018-08-16]
 :ID:       sshmfrmfrznslmnndtnmybfrmclnd
 :END:
-
 * [2017-12-23] saving chopped fruit: use lemon juice
 :PROPERTIES:
 :ID:       svngchppdfrtslmnjc
@@ -486,6 +459,7 @@ pretty good. Used about 3 cups of water after soaked cup of lentils; had to salt
 :PROPERTIES:
 :ID:       frstmrrrngtghrvgsnthtsdndrncntrsthyfnshckngtthsmtm
 :END:
+
 food continues to cook when taken out from microwave!
 http://sistemaplastics.com/recipes/cat/microwave-large-steamer-recipes/
 
@@ -493,7 +467,6 @@ http://sistemaplastics.com/recipes/cat/microwave-large-steamer-recipes/
 :PROPERTIES:
 :ID:       wwwckngfrngnrscmckngfrngnprcpsndfdfrthnlytcllymndd
 :END:
-
 * [#D] [2019-04-19] parsnips herbs - Google Search                     :cook:
 :PROPERTIES:
 :ID:       prsnpshrbsgglsrch
@@ -503,6 +476,7 @@ http://sistemaplastics.com/recipes/cat/microwave-large-steamer-recipes/
 :PROPERTIES:
 :ID:       dffrntlshvdffrntsnwkpdrgwksmkpnttmprtrsmkpnts
 :END:
+
 - extra virgin olive oil should  be used for low heat/salads
 - grapeseed/avocado/macadamia for high-temperature cooking.
   macadamia is great in salads too though!

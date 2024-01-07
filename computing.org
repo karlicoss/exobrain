@@ -73,7 +73,6 @@ https://github.com/d-cook/SomethingNew/issues/12
 :PROPERTIES:
 :ID:       swwwdvrgntdsktprgblgprncpvwprncplsfrdvrgngdsktpftr
 :END:
-
 * [#B] [2020-10-17] [[https://hyp.is/xrhdvhDQEeuOoA9nvvzgxQ/adamwiggins.com/making-computers-better/][X]]  from [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]] :computing:sadinfra:
 :PROPERTIES:
 :ID:       shypsxrhdvhdqnvvzgxqdmwggbttrmkngcmptrsbttrdmwggns
@@ -106,7 +105,6 @@ https://djrobstep.com/posts/programs-are-a-prison
 :PROPERTIES:
 :ID:       swwwdcrnmkrcmstrvctsffldrsrdprtyppsfrllndmrdcrnmkr
 :END:
-
 * [#B] [2020-10-26] [[https://news.ycombinator.com/item?id=24891576][What's crazy to me is how insanely overspec'd mobile devices are for what they d... | Hacker News]] :sadinfra:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdwhtscrzytdmbldvcsrfrwhtthydhckrnws
@@ -163,7 +161,6 @@ really good thread
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdprjctcmbrtrnsltyrdtwthlnsshckrnws
 :END:
-
 * STRT [#C] [2019-10-01] Introductions · Issue 20 · d-cook/SomethingNew :malleable:social:
 :PROPERTIES:
 :ID:       ntrdctnsssdcksmthngnw
@@ -226,6 +223,7 @@ http://hood.ie/blog/offline-first-and-the-circle-of-web-part-ii-breaking-the-cir
 :PROPERTIES:
 :ID:       fflnfrst
 :END:
+
 http://offlinefirst.org/
 
 * DONE [#B] [2020-06-03] [[https://www.infoq.com/presentations/We-Really-Dont-Know-How-To-Compute/][We Really Don't Know How To Compute!]] :towatch:
@@ -284,7 +282,6 @@ https://www.graycrawford.com/nonlinear-conversational-medium
 :PROPERTIES:
 :ID:       syrcgthbpstwhyddmzllrmvxlddnswhyddmzllrmvxlddns
 :END:
-
 * [#C] [2019-10-01] Multiple tools · Issue 32 · d-cook/SomethingNew
 :PROPERTIES:
 :ID:       mltpltlsssdcksmthngnw
@@ -331,6 +328,7 @@ https://news.ycombinator.com/item?id=22167121
 :PROPERTIES:
 :ID:       chrmtlmtflldblckngxtnsnstntrprssrstggl
 :END:
+
 https://9to5google.com/2019/05/29/chrome-ad-blocking-enterprise-manifest-v3/
 
 * [#D] [2020-01-22] Tweet from Гришка (@grishka11), at Jan 22, 16:50 https://twitter.com/grishka11/status/1220026067060187137
@@ -490,7 +488,6 @@ ah, it's also Ted Nelson... I suppose explains why I couldn't understand what it
 :PROPERTIES:
 :ID:       smrwbsttbfsrnscrpttbfs
 :END:
-
 * [#C] [2020-12-29] "software equivalent of environmental pollution"
 :PROPERTIES:
 :ID:       sftwrqvlntfnvrnmntlplltn
@@ -505,7 +502,6 @@ very good expression (from [[https://app.element.io/#/room/#malleable-systems:ma
 :PROPERTIES:
 :ID:       strnttnrgtrnttn
 :END:
-
 * [#C] [2021-01-05] [[https://www.youtube.com/watch?v=c6SUOeAqOjU&list=WL&index=46][(1) Computers for Cynics 2 - It All Went Wrong at Xerox PARC - YouTube]] :tednelson:
 :PROPERTIES:
 :ID:       swwwytbcmwtchvcsqjlstwlndcyncstllwntwrngtxrxprcytb
@@ -543,7 +539,6 @@ very good expression (from [[https://app.element.io/#/room/#malleable-systems:ma
 :PROPERTIES:
 :ID:       sspctrmsrgspctrmstptwrdssblscrcmptng
 :END:
-
 * [#C] [2019-07-02] [[https://reddit.com/r/DataHoarder/comments/c7jrrp/microsoft_is_about_to_shut_off_its_ebook_drm/][Microsoft is about to shut off its ebook DRM servers: "The books will stop working"]] /r/DataHoarder :sadinfra:
 :PROPERTIES:
 :ID:       srddtcmrdthrdrcmmntscjrrprsthbkswllstpwrkngrdthrdr
@@ -580,7 +575,6 @@ Basically I think it should be split in two separate bits. One would be editing 
 :PROPERTIES:
 :ID:       nsprdbybngnbltntrctwthxtnngkysdtbrwsrscrtyrstrctns
 :END:
-
 * [#B] [2021-01-30] video (2h): [[https://openvault.wgbh.org/catalog/V_4D37F2D8E1054BA49999027BF9D18957][Machine That Changed The World, The; Interview with Ted Nelson, 1990]] :tednelson:computing:
 :PROPERTIES:
 :ID:       vdhspnvltwgbhrgctlgvdfdbbngdthwrldthntrvwwthtdnlsn
@@ -601,17 +595,14 @@ great series, kind of an alternative view on the history of computing
 :PROPERTIES:
 :ID:       spnvltwgbhrgctlgfbccssdbdhwrldcthgbhpnvltsrchrslts
 :END:
-
 * [#C] [2021-01-25] [[https://catonmat.net/videos/the-computer-revolution-hasnt-happened-yet][The Computer Revolution Hasn't Happened Yet by Alan Kay]] :computing:
 :PROPERTIES:
 :ID:       sctnmtntvdsthcmptrrvltnhsptrrvltnhsnthppndytbylnky
 :END:
-
 * TODO [#C] [2021-01-04] [[https://liliputing.com/2020/12/dragonbox-pyra-begins-shipping-to-customers-open-hardware-handheld-gaming-pc.html][Dragonbox Pyra begins shipping to customers (open hardware handheld gaming PC) - Liliputing]]
 :PROPERTIES:
 :ID:       sllptngcmdrgnbxpyrbgnsshppnhrdwrhndhldgmngpcllptng
 :END:
-
 * [#B] [2021-01-30] [[https://indieweb.org/FAQ#Why_can_no_one_make_something_consumer_friendly][FAQ - IndieWeb]]
 :PROPERTIES:
 :ID:       sndwbrgfqwhycnnnmksmthngcnsmrfrndlyfqndwb
@@ -661,12 +652,10 @@ wasn't so engaging, mostly about project management
 :PROPERTIES:
 :ID:       schpsktsgdrgrtclswrngpcmpgstndnthwrngnrlprpscmptng
 :END:
-
 * TODO [#B] [2021-02-24] [[https://seirdy.one/2021/02/23/keeping-platforms-open.html][Keeping platforms open - Seirdy]]
 :PROPERTIES:
 :ID:       ssrdynkpngpltfrmspnhtmlkpngpltfrmspnsrdy
 :END:
-
 * [#B] [2021-02-07] [[https://chat.fosdem.org/#/room/#legal-digitalmarketsact:fosdem.org][FOSDEM 2021 [4] | Open Source, Interoperability and the Digital Markets Act]]
 :PROPERTIES:
 :ID:       schtfsdmrgrmlgldgtlmrktsccntrprbltyndthdgtlmrktsct
@@ -681,7 +670,6 @@ wasn't so engaging, mostly about project management
 :PROPERTIES:
 :ID:       swwwmllymlkcmcccmptrsndcrtvty
 :END:
-
 * [#C] [2021-03-06] [[https://app.element.io/#/room/#malleable-systems:matrix.org][Element | Malleable Systems Collective]]
 :PROPERTIES:
 :ID:       spplmntrmmllblsystmsmtrxrglmntmllblsystmscllctv
@@ -697,12 +685,10 @@ wasn't so engaging, mostly about project management
 :PROPERTIES:
 :ID:       swwwntnscmptnghstryhbbffcbbdcbcmptnghstryhb
 :END:
-
 * TODO [#B] [2021-03-20] [[http://wiki.c2.com/?ObjectBrowser][Object Browser]] :toread:
 :PROPERTIES:
 :ID:       wkccmbjctbrwsrbjctbrwsr
 :END:
-
 * [#B] [2021-04-14] [[https://news.ycombinator.com/item?id=23226979][I ordered a PinePhone the other day and I'm going to do as much as I can to try ... | Hacker News]] :sadinfra:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdrdrdpnphndmgngtdsmchscnttryhckrnws
@@ -747,7 +733,6 @@ I guess ok as a demo, although a bit too much focus on syntax etc
 :PROPERTIES:
 :ID:       stwttrcmgrbsttstdrgrbntwtmstckfhbbwrstcxrdssttwttr
 :END:
-
 * [#C] [2021-05-14] [[https://news.ycombinator.com/item?id=27135870][desktop computing had core skills that could be developed, that would apply acro... | Hacker News]] :computing:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmddsktpcmptbdvlpdthtwldpplycrhckrnws

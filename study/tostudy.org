@@ -59,7 +59,6 @@ https://physics.stackexchange.com/questions/325730/where-can-i-find-visualizatio
 :PROPERTIES:
 :ID:       shtspprntlytsprttymchmpssbltvslsdthghnmbrfstts
 :END:
-
 ** [#B] [2019-02-11] Proton quarks empty mass calculation GIF : askscience :qft:
 :PROPERTIES:
 :ID:       prtnqrksmptymssclcltngfskscnc
@@ -119,7 +118,6 @@ really good spin visualisations. ok, so spin is a unit quaternion, ok
 :PROPERTIES:
 :ID:       rllynclkngbk
 :END:
-
 * [#B] Tensors                                                       :tensor:
 :PROPERTIES:
 :ID:       tnsrs
@@ -186,7 +184,6 @@ use integration by parts to eliminate higher order derivatives of the variation
 :PROPERTIES:
 :ID:       smncclcltnsnvlvngtnsrchnrl
 :END:
-
 * [#B] SO3 vs SU2 https://labcit.ligo.caltech.edu/~ethrane/Resources/seminar/Ch2.Spinors.pdf :reprtheory:
 :PROPERTIES:
 :CREATED:  [2019-03-17]
@@ -236,7 +233,6 @@ https://physics.stackexchange.com/questions/166709/are-electron-fields-and-photo
 :PROPERTIES:
 :ID:       smncryrndrdstff
 :END:
-
 * [#B] [2019-03-12] [[https://dec41.user.srcf.net/h/III_M/quantum_field_theory/4_1][III Quantum Field Theory - Spinors]] :qft:
 :PROPERTIES:
 :ID:       sdcsrsrcfnthmqntmfldthryqntmfldthryspnrs
@@ -275,7 +271,6 @@ https://physics.stackexchange.com/questions/130649/an-electron-has-no-known-inte
 :PROPERTIES:
 :ID:       grphcdsgncldbntrstngmdrnrtdscrtvwrtng
 :END:
-
 * TODO [#B] chirality and helicity
 :PROPERTIES:
 :ID:       chrltyndhlcty
@@ -432,7 +427,6 @@ useful for my tweet thread for physical impl of quantum computations
 :PROPERTIES:
 :ID:       swwwytbcmwtchvmmghdfglstwlndxtsqntmfldthryvslzdytb
 :END:
-
 * [#B] [2020-10-20] [[http://www.gregegan.net/APPLETS/21/21.html][Dirac — Greg Egan]]
 :PROPERTIES:
 :ID:       wwwgrggnntppltshtmldrcgrggn
@@ -442,7 +436,6 @@ nice illustration of spinor states
 :PROPERTIES:
 :ID:       srddtcmrphyscscmmntsjzfrmmslrgmrdtlsncmmntsrphyscs
 :END:
-
 * TODO [#B] [[https://twitter.com/ValFadeev/status/1181726341844148224][Tweet from Valentin Fadeev: (@ValFadeev) dirac equation]] :diraceq:
 :PROPERTIES:
 :CREATED:  [2019-10-09]
@@ -487,7 +480,6 @@ actually I guess somehow the idea is that |1> |A> is transformed into |1> |D> so
 :CREATED:  [2020-08-21]
 :ID:       wnstnsysyngmllsqtnsrsmplr
 :END:
-
 * [#B] [2020-09-15] Higgs fermions and bosons
 :PROPERTIES:
 :ID:       hggsfrmnsndbsns
@@ -575,7 +567,6 @@ https://twitter.com/wickrotate/status/1280624828026740737
 :PROPERTIES:
 :ID:       rdgnswwwmthpgscmhmkmthkmthhtmmthpgscmhmkmthkmthhtm
 :END:
-
 * [#B] [2020-07-20] dirac gif
 :PROPERTIES:
 :ID:       drcgf
@@ -600,7 +591,6 @@ https://twitter.com/wickrotate/status/1280624828026740737
 :CREATED:  [2019-10-18]
 :ID:       stwttrcmmchlnlsnsttstwtfrthnstnfldqtnsfrgnrlrltvty
 :END:
-
 * STRT [#B] Tweet from John Carlos Baez (@johncarlosbaez), at Nov 29, 18:54 "What's free energy?"
 :PROPERTIES:
 :CREATED:  [2019-11-29]
@@ -670,7 +660,6 @@ from [[https://www.instapaper.com/read/1171585718/12393958][ip]]   [[https://www
 :PROPERTIES:
 :ID:       swwwnnwrkcmnntchnlgynwsnwgcltnglnnxpctdcrnrfthnvrs
 :END:
-
 * [#B] [2020-06-18] [[https://twitter.com/johncarlosbaez/status/1273640991522557952][John Carlos Baez on Twitter: "I love condensed matter physics! I hadn't even known dielectrons were a thing: normally electrons repel. But in a sodium-ammonia solution, electrons pair up with opposite spins. Here's a new simulation of a dielectron, lasting 2.75 picoseconds: (2/n) https://t.co/onDLm8yP4S" / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmjhncrlsbzsttsjhncngpcscndsnstcndlmypstwttr
@@ -718,7 +707,6 @@ https://twitter.com/lisyarus/status/1251429402526846976
 :PROPERTIES:
 :ID:       bksmthcrdhmbzbkshtml
 :END:
-
 * [#C] Unruh effect
 :PROPERTIES:
 :ID:       nrhffct
@@ -837,7 +825,6 @@ https://twitter.com/lisyarus/status/1101210066059964418
 :PROPERTIES:
 :ID:       mthcrdhmbzgq
 :END:
-
 * [#C] ¬¬(Dan Piponi) on Twitter: "What I find confusing is that I learnt QFT two different ways: (1) pretending univariate wavefunction is classical and quantizing again & (2) considering multivariate wavefunctions. Not obvious these get you to the same place.… https://t.co/uaw1AZIEDz" :qft:
 :PROPERTIES:
 :CREATED:  [2019-03-01]
@@ -861,7 +848,6 @@ https://anvaka.github.io/fieldplay/?cx=-0.02210000000000001&cy=-1.81540000000000
 :PROPERTIES:
 :ID:       ncvzlstnfrdvctrfldsllwstchngntgrtnprmtrstc
 :END:
-
 * TODO [#C] На пути к теории всего https://nplus1.ru/material/2018/02/02/just-looking-for-some-action
 :PROPERTIES:
 :CREATED:  [2019-03-22]
@@ -889,7 +875,6 @@ https://en.wikipedia.org/wiki/Quantum_electrodynamics#Mathematics
 :PROPERTIES:
 :ID:       dfndmrsystmtcwyfrhrsng
 :END:
-
 * [#C] [2018-12-23] Integral manipulations · Issue #5396 · sympy/sympy
 :PROPERTIES:
 :ID:       ntgrlmnpltnssssympysympy
@@ -907,7 +892,6 @@ https://github.com/sympy/sympy/issues/5396
 :CREATED:  [2018-12-02]
 :ID:       srthnhrmncsclltrrplsvptntldmtsbthtrjctrs
 :END:
-
 * TODO [#C] start following one of scott aaronsons posts about motivation for square probability rule and play with equations :quantum:viz:
 :PROPERTIES:
 :CREATED:  [2019-02-01]
@@ -968,6 +952,7 @@ http://mathonline.wikidot.com/list-of-fundamental-groups-of-common-spaces
 :PROPERTIES:
 :ID:       smnrfll
 :END:
+
 http://math.ucr.edu/home/baez/qg-fall2008/
 
 * [#C] Nikita Lisitsa on Twitter: "The rep.theory book by Fulton & Harris demonstrates the idea of restricting to an abelian subgroup (which is fundamental for Lie groups) using S₃ as an example (rather than, say, SL(n)) and it is beautifully simple and understandable."
@@ -987,7 +972,6 @@ https://physics.stackexchange.com/users/50583/acuriousmind
 :PROPERTIES:
 :ID:       sphyscsstckxchngcmsrscrsmndtbqstnssrtvts
 :END:
-
 * [#C] [2019-01-23] quantum mechanics - Spin operators in QM - Physics Stack Exchange :spin:
 :PROPERTIES:
 :ID:       qntmmchncsspnprtrsnqmphyscsstckxchng
@@ -1012,7 +996,6 @@ https://physics.stackexchange.com/questions/295412/spin-operators-in-qm
 :PROPERTIES:
 :ID:       sphyscsstckxchngcmqstnsfnldrvtvfctnphyscsstckxchng
 :END:
-
 * [#C] [2019-02-23] resource recommendations - What is a complete book for introductory quantum field theory? - Physics Stack Exchange
 :PROPERTIES:
 :ID:       rsrcrcmmndtnswhtscmpltbkfntmfldthryphyscsstckxchng
@@ -1028,7 +1011,6 @@ https://physics.stackexchange.com/questions/199827/is-there-a-reason-why-a-relat
 :PROPERTIES:
 :ID:       hcntsyndrstdnyfrgmnts
 :END:
-
 * [#C] [2019-02-10] general topology - Triangulation of torus - understanding why - Mathematics Stack Exchange https://math.stackexchange.com/questions/1772650/triangulation-of-torus-understanding-why :topology:
 :PROPERTIES:
 :ID:       gnrltplgytrngltnftrsndrstnstrngltnftrsndrstndngwhy
@@ -1040,7 +1022,6 @@ right, maybe for computational and efficiency purposes it would be ok to generat
 :PROPERTIES:
 :ID:       sflptmtwrdprsscmfrmgrffthnrsnmrcnphyscsstdntnnglnd
 :END:
-
 * [#C] [2019-02-22] [[https://physics.stackexchange.com/questions/333736/why-do-we-select-the-metric-tensor-for-raising-and-lowering-indices][general relativity - Why do we select the metric tensor for raising and lowering indices? - Physics Stack Exchange]]
 :PROPERTIES:
 :ID:       sphyscsstckxchngcmqstnswhdlwrngndcsphyscsstckxchng
@@ -1052,7 +1033,6 @@ right, maybe for computational and efficiency purposes it would be ok to generat
 :PROPERTIES:
 :ID:       smthstckxchngcmqstnsmthndmscthrybks
 :END:
-
 * [#C] The Reference Frame: Why are there spinors?                   :spinor:
 :PROPERTIES:
 :CREATED:  [2019-03-17]
@@ -1109,7 +1089,6 @@ http://www.math3ma.com/mathema/2017/9/14/the-yoneda-lemma
 :PROPERTIES:
 :ID:       snwkpdrgwkgcbdlmtrcgdlmtrcwkpd
 :END:
-
 * [#C] [2019-02-23] [[https://reddit.com/r/rust/comments/atdkeg/ive_been_making_a_gravity_simulator_using/][I've been making a gravity simulator using Rust-SDL2! Source is in the comments, hope you enjoy it!]] /r/rust :sim:
 :PROPERTIES:
 :ID:       srddtcmrrstcmmntstdkgvbnmlsrcsnthcmmntshpynjytrrst
@@ -1139,7 +1118,6 @@ http://jakobschwichtenberg.com/higgs-intuitively/
 :PROPERTIES:
 :ID:       thnkshldpstpnrdngbtthhggstprprlyndrstndngphtnstlst
 :END:
-
 * [#C] [2019-04-24] [[https://mathoverflow.net/questions/22975/how-to-demonstrate-so3-is-not-simply-connected][at.algebraic topology - How to demonstrate $SO(3)$ is not simply connected? - MathOverflow]]
 :PROPERTIES:
 :ID:       smthvrflwntqstnshwtdmnstrrtssntsmplycnnctdmthvrflw
@@ -1204,7 +1182,6 @@ from [[https://www.instapaper.com/read/1193269751/10712031][ip]]   [[https://www
 :CREATED:  [2019-06-09]
 :ID:       slwlystrtlrnngpsspcdrpttn
 :END:
-
 * WAIT [#C] Sight reading on computer keyboard                        :piano:
 :PROPERTIES:
 :CREATED:  [2019-05-18]
@@ -1221,13 +1198,11 @@ from [[https://www.instapaper.com/read/1193269751/10712031][ip]]   [[https://www
 :CREATED:  [2019-05-28]
 :ID:       whysthphspckdpdrngdntclprngdntclprtclxchngtplgclnv
 :END:
-
 * TODO [#C] The Difference Between 3/4 & 6/8 Time (with examples) | School of Composition https://www.schoolofcomposition.com/what-is-the-difference-between-3-4-and-6-8-time/ :music:
 :PROPERTIES:
 :CREATED:  [2019-05-23]
 :ID:       thdffrncbtwntmwthxmplsschstncmwhtsthdffrncbtwnndtm
 :END:
-
 * TODO [#C] [2019-05-10] [[https://reddit.com/r/math/comments/bkkcu8/higher_homotopy_groups_are_spooky_enter_the_world/]["Higher Homotopy Groups Are Spooky: Enter the world of 3-dimensional holes in 2-dimensional objects". A blog post by Evelyn Lamb.]] /r/math
 :PROPERTIES:
 :ID:       srddtcmrmthcmmntsbkkchghrlbjctsblgpstbyvlynlmbrmth
@@ -1236,12 +1211,10 @@ from [[https://www.instapaper.com/read/1193269751/10712031][ip]]   [[https://www
 :PROPERTIES:
 :ID:       swwwytbcmwtchvjjnhzcdrcqtnzttrbwgngntwdmnsnsytb
 :END:
-
 * [#C] [2019-06-01] [[https://www.youtube.com/watch?v=igPXzKjqrNg][Topological Quantum Computer - Professor John Preskill, Caltech - YouTube]] :qcomp:
 :PROPERTIES:
 :ID:       swwwytbcmwtchvgpxzkjqrngttrprfssrjhnprskllcltchytb
 :END:
-
 * TODO [#C] [2018-12-23] Quantum Python: Animating the Schrodinger Equation | Pythonic Perambulations :viz:python:matplotlib:
 :PROPERTIES:
 :ID:       qntmpythnnmtngthschrdngrqtnpythncprmbltns
@@ -1312,7 +1285,6 @@ https://twitter.com/EricAleman_/status/1139102125039005696
 :PROPERTIES:
 :ID:       sphyscsstckxchngcmqstnsnsztrnsfrmtnsthtshwwndpwthc
 :END:
-
 * TODO [#C] Tweet from Smart Biology (@SmartBiology3D), at Jun 24, 15:17
 :PROPERTIES:
 :CREATED:  [2019-06-24]
@@ -1333,7 +1305,6 @@ https://www.fast.ai/
 :PROPERTIES:
 :ID:       hsprctcldplrnngfrcdrscrs
 :END:
-
 * STRT [#C] [2019-02-11] The Picture Book of Quantum Mechanics: Siegmund Brandt, Hans Dieter Dahmen: 9781461439509: Amazon.com: Books :quantum:
 :PROPERTIES:
 :ID:       thpctrbkfqntmmchncssgmndbrndthnsdtrdhmnmzncmbks
@@ -1551,7 +1522,6 @@ https://www.lesswrong.com/posts/Kbp8riSbpKv8jie8o/anki-decks-by-lw-users
 :PROPERTIES:
 :ID:       mmgssnlymscsntrstngfrm
 :END:
-
 * TODO [#C] Tweet from Nikita Lisitsa (@lisyarus), at Aug 26, 18:32
 :PROPERTIES:
 :CREATED:  [2019-08-26]
@@ -1678,12 +1648,10 @@ https://meltingasphalt.com/interactive/going-critical/
 :PROPERTIES:
 :ID:       srddtcmrprgrmmngcmmntsxztcnrgmntgnstcllccrprgrmmng
 :END:
-
 * TODO [#C] [2019-07-04] [[https://reddit.com/r/cpp/comments/c8ovdk/understandable_raytracing_in_256_lines_of_bare_c/][Understandable RayTracing in 256 lines of bare C++]] /r/cpp
 :PROPERTIES:
 :ID:       srddtcmrcppcmmntscvdkndrsstndblrytrcngnlnsfbrcrcpp
 :END:
-
 * TODO [#C] [2019-08-28] [[https://reddit.com/r/explainlikeimfive/comments/pd9p7/eli5_the_wigners_friend_thought_experiment/c3ofppn/][ELI5 The Wigner's Friend Thought Experiment]] /r/explainlikeimfive :quantum:
 :PROPERTIES:
 :ID:       srddtcmrxplnlkmfvcmmntspdfrndthghtxprmntrxplnlkmfv
@@ -2048,19 +2016,17 @@ https://twitter.com/Haxiomic/status/1179123732247384066
 :PROPERTIES:
 :ID:       hdntqtndrstndwhtcplngbtwngrvtyndthrfrcs
 :END:
-
 * TODO [#C] [2019-12-25] (1) John Carlos Baez on Twitter: "Einstein worked obsessively on unified field theories until his death in 1955. He lost touch with his colleagues' discoveries in particle physics. He had an assistant try to teach him quantum field theory, but lost interest in a month. But there's more to this story... (6/n) https://t.co/f4C9e7iAHx" / Twitter
 :PROPERTIES:
 :ID:       jhncrlsbzntwttrnstnwrkdbsrsmrtthsstrynstcfchxtwttr
 :END:
 https://twitter.com/johncarlosbaez/status/1209900884131401728
 : Schrödinger & Einstein helped invent quantum mechanics, but they didn't really believe in it, so they were sidelined for the rest of their careers.  While others studied elementary particles, they criticized quantum theory and tried to invent "unified field theories".
-* TODO [#C] Perhaps most spectacularly of all, in 2020, Zhengfeng Ji, Anand Natarajan, Thomas Vidick, John Wright, and Henry Yuen proved that MIP*=RE.  Here MIP* means the class of problems solvable using multi-prover interactive proof systems with quantumly entangled provers (and classical polynomial-time verifiers), while RE means Recursively Enumerable: a class that includes not only all the computable problems, but even the infamous halting problem (!).  To say it more simply, entangled provers can convince a polynomial-time verifier that an arbitrary Turing machine halts. 
+* TODO [#C] Perhaps most spectacularly of all, in 2020, Zhengfeng Ji, Anand Natarajan, Thomas Vidick, John Wright, and Henry Yuen proved that MIP*=RE.  Here MIP* means the class of problems solvable using multi-prover interactive proof systems with quantumly entangled provers (and classical polynomial-time verifiers), while RE means Recursively Enumerable: a class that includes not only all the computable problems, but even the infamous halting problem (!).  To say it more simply, entangled provers can convince a polynomial-time verifier that an arbitrary Turing machine halts.
 :PROPERTIES:
 :CREATED:  [2020-06-22]
 :ID:       prhpsmstspctclrlyfllnzhngrfrthtnrbtrrytrngmchnhlts
 :END:
-
 * TODO [#C] key ceremonies                                   :study:security:
 :PROPERTIES:
 :CREATED:  [2020-06-18]
@@ -2129,7 +2095,6 @@ https://twitter.com/statebox/status/1207369444852424704
 :PROPERTIES:
 :ID:       swwwmzncmxcbdssnqdsrmzncmrntrsnphyscsgldnfldnglbks
 :END:
-
 * [#C] [2020-08-19] [[https://twitter.com/michael_nielsen/status/1296134814878195717][Michael Nielsen on Twitter: "Somehow, the combination: quasiparticles + statistics + universality / RG + equilibrium is just mindbogglingly rich." / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmmchlnlsnsttsmchlnrmsjstmndbgglnglyrchtwttr
@@ -2153,7 +2118,6 @@ Hm, and what about bosons?
 :PROPERTIES:
 :ID:       wbmstdhlcrssphyscsntslctrggslctrntpdfhggslctrntpdf
 :END:
-
 * [#C] [2020-08-12] [[https://math.stackexchange.com/questions/2192159/how-can-su2-group-has-3-dimensional-representation/2192198#2192198][How can SU(2) group has 3 dimensional representation? - Mathematics Stack Exchange]] :reprtheory:
 :PROPERTIES:
 :ID:       smthstckxchngcmqstnshwcnslrprsnttnmthmtcsstckxchng
@@ -2227,17 +2191,14 @@ from [[https://gravityandlevity.wordpress.com/2020/07/14/how-can-electrons-be-to
 :PROPERTIES:
 :ID:       swwwphdckplyfrpplctpdfpplctpdflctrthhggsbsn
 :END:
-
 * [#C] [2020-08-13] [[http://www.tesl-ej.org/books/lomb-2nd-Ed.pdf][lomb-2nd-Ed.pdf]] Lomb: Polyglot - How I Learn Languages
 :PROPERTIES:
 :ID:       wwwtsljrgbkslmbnddpdflmbnddpdflmbplyglthwlrnlnggs
 :END:
-
 * TODO [#C] [2020-08-01] [[http://www.vttoth.com/CMS/physics-notes/118-kaluza-klein-theory][Viktor T. Toth - Kaluza-Klein theory]]
 :PROPERTIES:
 :ID:       wwwvttthcmcmsphyscsntsklzklnthryvktrttthklzklnthry
 :END:
-
 * TODO [#C] Tweet from John Carlos Baez (@johncarlosbaez), at Sep 9, 08:09
 :PROPERTIES:
 :CREATED:  [2019-09-09]
@@ -2362,7 +2323,6 @@ read the papers
 :PROPERTIES:
 :ID:       swwwmthpgscmrrrrtchtmrflctnsnrltvty
 :END:
-
 * [#C] [2020-07-18] [[http://matematicas.uam.es/~fernando.chamizo/physics/files/fine_structure.pdf][fine_structure.pdf]]
 :PROPERTIES:
 :ID:       mtmtcsmsfrnndchmzphyscsflsfnstrctrpdffnstrctrpdf
@@ -2488,7 +2448,6 @@ https://twitter.com/michael_nielsen/status/1193629850721865728
 :PROPERTIES:
 :ID:       swwwytbcmwtchvmwlwfnvtwnttntnrgybndthrymtrlscncytb
 :END:
-
 * [#C] [2020-07-03] [[https://twitter.com/sigfpe/status/1278901675789414401][D ␣ a ␣ n ␣ P ␣ i ␣ p ␣ o ␣ n ␣ i on Twitter: "@johncarlosbaez @sarah_zrf Yeah, symplectic integrators are the way to go. They often conserve not-quite-energy which is the wrong thing to conserve but it still stops things getting out of hand." / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmsgfpsttsdnppnntwtlstpsthngsgttngtfhndtwttr
@@ -2655,11 +2614,11 @@ https://www.math3ma.com/
 :PROPERTIES:
 :ID:       ntrstngsmllstrtdctgrythry
 :END:
-
 * TODO [#D] books                                         :study:electronics:
 :PROPERTIES:
 :ID:       bks
 :END:
+
 /r/AskElectronics wiki
 : Well, there's a book Code by Charles Petzold that does a really solid job of explaining a lot of stuff from the very basics. Then there's This site, which is very useful too. You can download it's content in the form of a PDF book too.
 
@@ -2721,13 +2680,13 @@ https://twitter.com/jibranhaider/status/1048213796643393536
 :PROPERTIES:
 :ID:       hckrsgdtnrlntwrks
 :END:
+
 https://karpathy.github.io/neuralnets/
 
 * [#D] [2018-06-10] [[http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/][How a Kalman filter works, in pictures | Bzarg]]
 :PROPERTIES:
 :ID:       wwwbzrgcmphwklmnfltrwrksnshwklmnfltrwrksnpctrsbzrg
 :END:
-
 * [#D] [2018-11-29] myPhysicsLab Single Spring                          :viz:
 :PROPERTIES:
 :ID:       myphyscslbsnglsprng
@@ -2768,7 +2727,6 @@ https://twitter.com/johncarlosbaez/status/1109502266174636032
 :CREATED:  [2019-03-31]
 :ID:       lnrlgbrdnrght
 :END:
-
 * [#D] [2019-03-04] [[https://reddit.com/r/math/comments/aumiz0/plot_of_sinzz_mouse_position_in_the_complex_plane/eh8zyer/][plot of sin(z)/(z - mouse position) in the complex plane]] /r/math :viz:
 :PROPERTIES:
 :ID:       srddtcmrmthcmmntsmzpltfsnsnzzmspstnnthcmplxplnrmth
@@ -2801,17 +2759,14 @@ https://twitter.com/sigfpe/status/1116084820784766982
 :PROPERTIES:
 :CREATED:  [2019-05-01]
 :END:
-
 * [#D] [2019-04-24] [[https://en.wikipedia.org/wiki/Fundamental_polygon][Fundamental polygon - Wikipedia]]
 :PROPERTIES:
 :ID:       snwkpdrgwkfndmntlplygnfndmntlplygnwkpd
 :END:
-
 * [#D] [2018-09-16] [[https://johncarlosbaez.wordpress.com/2018/09/16/the-5-8-theorem/][The 5/8 Theorem | Azimuth]]
 :PROPERTIES:
 :ID:       sjhncrlsbzwrdprsscmththrmththrmzmth
 :END:
-
 * [#D] [2019-02-10] klein bottle                                   :topology:
 :PROPERTIES:
 :ID:       klnbttl
@@ -2878,13 +2833,11 @@ https://notgnoshi.github.io/product-spaces/
 :CREATED:  [2019-06-19]
 :ID:       snplsrnwscnsrshp
 :END:
-
 * TODO [#D] Visual complex analysis
 :PROPERTIES:
 :CREATED:  [2019-04-25]
 :ID:       vslcmplxnlyss
 :END:
-
 * TODO [#D] [2019-06-28] John Carlos Baez on Twitter: "Fong and Spivak's book on applied category theory is coming out! I'm getting my copy in the mail soon! (cont)… "
 :PROPERTIES:
 :ID:       jhncrlsbzntwttrfngndspvksmngtmgttngmycpynthmlsncnt
@@ -2895,7 +2848,6 @@ https://twitter.com/johncarlosbaez/status/1144662487356231680
 :PROPERTIES:
 :ID:       swwwmzncmmthmtclclssclmchthmtcsvlvrnldwnstnkvgtmnn
 :END:
-
 * TODO [#D] короче очень советую, если ты хочешь немного инсайтов в статистику-мл-датасаенс без хуйни https://medium.com/@kozyrkov Cassie Kozyrkov – Medium
 :PROPERTIES:
 :ID:       smdmcmkzyrkvcsskzyrkvmdm
@@ -2937,12 +2889,10 @@ https://twitter.com/Dereklowe/status/1182657925321580548
 :PROPERTIES:
 :ID:       srxvrghtmlprpslfrprqntsdnrsthtrrdblspllblndprnncbl
 :END:
-
 * TODO [#D] [2019-11-09] [[https://reddit.com/r/dependent_types/comments/dtz81w/formalizing_expresiveness_of_line_editors/][Formalizing expresiveness of line editors]] /r/dependent_types
 :PROPERTIES:
 :ID:       srddtcmrdpndnttypscmmntsdprsvnssflndtrsrdpndnttyps
 :END:
-
 * TODO [#D] Tweet from Nikita Lisitsa (@lisyarus), at Nov 27, 08:41
 :PROPERTIES:
 :CREATED:  [2019-11-27]
@@ -2974,6 +2924,7 @@ https://twitter.com/lisyarus/status/1199609128110436358
 :PROPERTIES:
 :ID:       srbtlcmpbysrlprprtnlpthd
 :END:
+
 :  The proportional form of Bayes' rule is perhaps the fastest way of describing Bayesian reasoning that sounds like it ought to be true. If you were having a fictional character suddenly give a Bayesian argument in the middle of a story being read by many people who'd never heard of Bayes' rule, you might have them say:
 :    Similarly, if you were a doctor trying to explain the meaning of a positive test result to a patient, you might say: "If we haven't seen any test results, patients like you are a thousand times as likely to be healthy as sick. This test is only a hundred times as likely to be positive for sick as for healthy patients. So now we think you're ten times as likely to be healthy as sick, which is still a pretty good chance!"
 
@@ -2981,7 +2932,6 @@ https://twitter.com/lisyarus/status/1199609128110436358
 :PROPERTIES:
 :ID:       splkhvlvjrnlcmhtmlplkhvlvjrnl
 :END:
-
 * [#D] [2019-08-06] [[https://www.reddit.com/r/dataisbeautiful/wiki/advice][data viz: colorblindness]] :viz:
 :PROPERTIES:
 :ID:       swwwrddtcmrdtsbtflwkdvcdtvzclrblndnss
@@ -3033,7 +2983,6 @@ https://twitter.com/johncarlosbaez/status/1161464741191012352
 :CREATED:  [2019-01-30]
 :ID:       0cd15ad3-95bc-4b3f-8451-75b9f0fd700d
 :END:
-
 ** TODO [#C] [2019-03-14] lorenzian vs riemannian manifold {spacetime vs space} :drill:
 :PROPERTIES:
 :ID:       997ecf91-ed26-408c-94cc-4d6b50420a40
@@ -3042,7 +2991,6 @@ https://twitter.com/johncarlosbaez/status/1161464741191012352
 :PROPERTIES:
 :ID:       dee7e116-bd1f-42e5-9633-572d7164bc9b
 :END:
-
 ** [2019-08-23] Cook–Levin theorem - Wikipedia                        :drill:
 :PROPERTIES:
 :ID:       96daf23f-810e-4337-b100-5b2738a287ee
@@ -3054,7 +3002,6 @@ https://en.wikipedia.org/wiki/Cook%E2%80%93Levin_theorem
 :CREATED:  [2019-06-12]
 :ID:       74fcfafd-d549-46d3-b741-97d168ca5ba6
 :END:
-
 ** [2019-06-22] universe is { 13.7 billion } years old                :drill:
 :PROPERTIES:
 :ID:       4f599703-91bc-4da1-95e0-4d7a734b02cc
@@ -3092,7 +3039,6 @@ https://twitter.com/johncarlosbaez/status/1178816967601340417
 :PROPERTIES:
 :ID:       srddtcmrgdcmmntsdpdtrdjspyjsprcckxrwrtngtypthryrgd
 :END:
-
 * [2019-11-12] Sofia 🧹 on Twitter: "Follow up, matrix multiplication is essentially the unique solution to the following problem: given dot :: (j -&gt; a) -&gt; (j -&gt; b) -&gt; c derive mmul :: (i -&gt; j -&gt; a) -&gt; (j -&gt; k -&gt; b) -&gt; (i -&gt; k -&gt; c) the solution is: mmul as bs i k = dot (as i) (flip bs k)" / Twitter
 :PROPERTIES:
 :ID:       sfntwttrfllwpmtrxmltplctnltnsmmlsbskdtsflpbsktwttr
@@ -3164,7 +3110,6 @@ https://twitter.com/litgenstein/status/1210643695046811648
 :PROPERTIES:
 :ID:       vcmmthcrdhmbzvcmhtml
 :END:
-
 * [2019-12-27] notes10.pdf http://www.math.columbia.edu/~woit/notes10.pdf topics in repr theory woit
 :PROPERTIES:
 :ID:       ntspdfwwwmthclmbdwtntspdftpcsnrprthrywt
@@ -3177,7 +3122,6 @@ https://twitter.com/litgenstein/status/1210643695046811648
 :PROPERTIES:
 :ID:       ntfndwwwdmtpcmcksrchpdfrprsnttnspdf
 :END:
-
 * Tweet from @johncarlosbaez
 :PROPERTIES:
 :CREATED:  [2020-02-22]
@@ -3268,7 +3212,6 @@ https://intelligence.org/2014/02/21/john-baez-on-research-tactics/
 :PROPERTIES:
 :ID:       lwyssmplfyprblmsndtryslvthmntlysmplfdngh
 :END:
-
 * DONE [#B] [2019-05-21] [[https://reddit.com/r/Anki/comments/bl1vym/how_i_learn_and_practice_music_with_anki/][How I learn and practice music with anki]] /r/Anki :music:spacedrep:
 :PROPERTIES:
 :ID:       srddtcmrnkcmmntsblvymhwlrnkhwlrnndprctcmscwthnkrnk
@@ -3292,11 +3235,9 @@ fucking hell, really awesome explanation for standard model.. read it again!
 :CREATED:  [2019-04-23]
 :ID:       svkcmwll
 :END:
-
 ** [2019-05-06] В 2013 году команда исследователей из Италии экспериментально продемонстрировала этот феномен. Подводя итоги своей работы, ученые сообщали: «Мы показываем, как статическое запутанное состояние двух фотонов можно рассматривать в качестве развивающегося с точки зрения наблюдателя, использующего один из двух фотонов как часы — для оценки временного развития другого фотона. Однако сторонний наблюдатель может показать, что глобально запутанное состояние не развивается».
 :PROPERTIES:
 :END:
-
 * TODO [#B] [2020-07-16] [[https://calculus123.com/wiki/Topology_Illustrated][Topology Illustrated - Mathematics Is A Science]]
 :PROPERTIES:
 :ID:       sclclscmwktplgyllstrtdtplgyllstrtdmthmtcssscnc
@@ -3305,7 +3246,6 @@ fucking hell, really awesome explanation for standard model.. read it again!
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdtplgyllstrtdhckrnws
 :END:
-
 * [2020-12-03] [[https://www.youtube.com/watch?v=nLcr-DWVEto&list=WL&index=5][The fundamental Group of the Torus is abelian - YouTube]]
 :PROPERTIES:
 :ID:       swwwytbcmwtchvnlcrdwvtlstthfndmntlgrpfthtrssblnytb
@@ -3410,22 +3350,18 @@ https://twitter.com/nmwsharp/status/1153993638134910977
 :PROPERTIES:
 :ID:       bchpbcpjschbchnsnglrtypdfcpjschbchnsnglrtypdf
 :END:
-
 * TODO [#C] [2021-01-26] [[https://canvas.harvard.edu/courses/34992/assignments/syllabus][Syllabus for Classics of Computer Science]] :tostudy:hci:
 :PROPERTIES:
 :ID:       scnvshrvrddcrssssgnmntssyssyllbsfrclsscsfcmptrscnc
 :END:
-
 * TODO [#D] [2019-08-18] [[https://github.com/kitspace/awesome-electronics][kitspace/awesome-electronics: A curated list of awesome resources for electronic engineers and hobbyists]]
 :PROPERTIES:
 :ID:       sgthbcmktspcwsmlctrncsktsrcsfrlctrncngnrsndhbbysts
 :END:
-
 * TODO [#D] [2019-01-17] Maldacena: The symmetry and simplicity of thelaws of physics and the Higgs boson https://arxiv.org/pdf/1410.6753.pdf
 :PROPERTIES:
 :ID:       mldcnthsymmtryndsmplctyftcsndthhggsbsnsrxvrgpdfpdf
 :END:
-
 * TODO [#C] [2020-07-24] [[https://www.scottaaronson.com/blog/?p=4916][Shtetl-Optimized » Blog Archive » The Busy Beaver Frontier]] :toread:
 :PROPERTIES:
 :ID:       swwwscttrnsncmblgpshttlptmzdblgrchvthbsybvrfrntr
@@ -3435,12 +3371,10 @@ https://twitter.com/nmwsharp/status/1153993638134910977
 :PROPERTIES:
 :ID:       sjhncrlsbzwrdprsscmcnwndrcnwndrstndthstndrdmdlzmth
 :END:
-
 * TODO [#C] [2021-03-17] [[https://johncarlosbaez.wordpress.com/2021/03/16/mathematics-in-the-21st-century-2/][Mathematics in the 21st Century | Azimuth]] :towatch:
 :PROPERTIES:
 :ID:       sjhncrlsbzwrdprsscmmthmtcntrymthmtcsnthstcntryzmth
 :END:
-
 * TODO [#C] [2021-04-18] [[https://johncarlosbaez.wordpress.com/2021/04/14/black-dwarf-supernovae/][Black Dwarf Supernovae | Azimuth]]
 :PROPERTIES:
 :ID:       sjhncrlsbzwrdprsscmblckdwrfsprnvblckdwrfsprnvzmth
@@ -3457,7 +3391,6 @@ https://twitter.com/patrickc/status/1196205177742606336
 :PROPERTIES:
 :ID:       dnnntrstngbtntsrfthrsnythngctnblbyplltnmtr
 :END:
-
 * TODO [#D] Tweet from Valentin Fadeev (@ValFadeev), at Sep 26, 09:03
 :PROPERTIES:
 :CREATED:  [2019-09-26]

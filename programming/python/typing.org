@@ -45,7 +45,6 @@ This is super reasonable, especially for existing projects which are hard to typ
 :PROPERTIES:
 :ID:       gdmypyntrdmnstrtsmnymprtntspythntyphntsnpncmpltnss
 :END:
-
 ** [#B] [2020-02-05] [[http://calpaterson.com/mypy-hints.html][Applying mypy to real world projects]]: very good intro on configuration & fine tuning :mypy:
 :PROPERTIES:
 :ID:       clptrsncmmypyhntshtmlpplyctsvrygdntrncnfgrtnfntnng
@@ -58,7 +57,6 @@ This is super reasonable, especially for existing projects which are hard to typ
 :PROPERTIES:
 :ID:       shkbntcmpythnmypyxhstvchchstvnsschckngwthmypyhkbnt
 :END:
-
 ** [#C] [2020-01-26] [[https://cjolowicz.github.io/posts/hypermodern-python-04-typing/][Hypermodern Python Chapter 4: Typing · Claudio Jolowicz's website]]
 :PROPERTIES:
 :ID:       scjlwczgthbpstshyprmdrnpyhnchptrtypngcldjlwczswbst
@@ -341,7 +339,6 @@ Type annotation will require importing modules that you wouldn't need to import 
 :PROPERTIES:
 :ID:       stlllvssmchnlsmypydtsgthbcmmchnlsmypydtsss
 :END:
-
 * [#D] * other type checking tools                                    :types:
 :PROPERTIES:
 :ID:       thrtypchckngtls
@@ -369,7 +366,6 @@ They might make sense for huge monorepos, but if you need to cooperate between m
 :PROPERTIES:
 :ID:       sgthbcmtypddjngwsmpythntysstbsplgnsndtlstwrkwththm
 :END:
-
 * [#C] [2019-09-27] [[https://www.hillelwayne.com/post/negatypes][Python Negatypes • Hillel Wayne]] :types:
 :PROPERTIES:
 :ID:       swwwhlllwyncmpstngtypspythnngtypshlllwyn
@@ -383,7 +379,6 @@ They might make sense for huge monorepos, but if you need to cooperate between m
 :CREATED:  [2019-11-09]
 :ID:       sgthbcmwmksrvcswmkpythnstylgdblbmstrstylsmypytml
 :END:
-
 * STRT [#C] [2019-12-30] [[https://news.ycombinator.com/item?id=19441195][Show HN: FastAPI: build Python APIs with Go-like speed and automatic UI docs | Hacker News]]
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdshwhnfstpwthglkspdndtmtcdcshckrnws
@@ -461,7 +456,6 @@ run with uvicorn fa:app --reload --port 9090
 :CREATED:  [2020-01-13]
 :ID:       smslkbgnfbmssngrxprtnbrnch
 :END:
-
 * -------------------------------------------------
 :PROPERTIES:
 :END:

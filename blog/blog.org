@@ -18,7 +18,6 @@ Here I collect notes/todos relevant to improving the blog experience.
 :PROPERTIES:
 :ID:       xbrnsstgngrfrmyblg
 :END:
-
 * [#A] * why blog?
 :PROPERTIES:
 :ID:       whyblg
@@ -112,12 +111,10 @@ realtime qs... whoa
 :PROPERTIES:
 :ID:       dfntlywnttfrblgmchbttrthngthbpnsmyblspltctvtyvrtm
 :END:
-
 ** TODO [#C] [2020-12-30] [[https://anagora.org/node/flancian][Agora]] :self:blog:inspiration:
 :PROPERTIES:
 :ID:       sngrrgndflncngr
 :END:
-
 * [#C] * visual style
 :PROPERTIES:
 :ID:       vslstyl
@@ -132,7 +129,6 @@ realtime qs... whoa
 :CREATED:  [2020-01-08]
 :ID:       dsplytdslwrcs
 :END:
-
 ** WAIT [#C] perhaps tags should be displayed on top in the post?      :blog:
 :PROPERTIES:
 :CREATED:  [2019-05-13]
@@ -167,7 +163,6 @@ https://github.com/table-of-contents-sidebar/table-of-contents-sidebar
 :PROPERTIES:
 :ID:       ghndtmnfy
 :END:
-
 * [#D] * markup improvements
 :PROPERTIES:
 :ID:       mrkpmprvmnts
@@ -188,7 +183,6 @@ https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
 :PROPERTIES:
 :ID:       rghtmltmstmpttm
 :END:
-
 ** TODO [#C] https://merveilles.town/@lains/103527776315019237 abbr as tooltip :exobrain:html:blog:
 :PROPERTIES:
 :CREATED:  [2020-01-22]
@@ -213,11 +207,9 @@ https://jeffhuang.com/designed_to_last/
 :PROPERTIES:
 :ID:       ndtmrgwthsbpbpxyzsthtmlgss
 :END:
-
 * ----------------------------------------------------------
 :PROPERTIES:
 :END:
-
 * [#C] [2020-01-23] Web bloat                                         :bloat:
 :PROPERTIES:
 :ID:       wbblt
@@ -291,7 +283,6 @@ add anchors, so it's easy to link to specific parts of the post
 :PROPERTIES:
 :ID:       shtrgmdgnrtssmrndmdsvrytm
 :END:
-
 * TODO [#C] [2019-05-09] add importance, so it's easier to skip over not necessarily interesting stuff (like sufs) :blog:
 :PROPERTIES:
 :ID:       ddmprtncstssrtskpvrntncssrlyntrstngstfflksfs
@@ -397,7 +388,6 @@ https://posativ.org/isso/
 :PROPERTIES:
 :ID:       ksssprttygdsytstpdmnstrtc
 :END:
-
 ** Commento -- dunno. also it's in Go
 :PROPERTIES:
 :ID:       cmmntdnnlstsng
@@ -406,17 +396,14 @@ https://posativ.org/isso/
 :PROPERTIES:
 :ID:       dtccmmntcfstbltfrdscssnpltfrmsgthbcmdtccmmntc
 :END:
-
 *** [2019-02-09] Commento / Commento · GitLab https://gitlab.com/commento/commento
 :PROPERTIES:
 :ID:       cmmntcmmntgtlbsgtlbcmcmmntcmmnt
 :END:
-
 *** [2019-02-09] Commento is a lightweight, privacy-focused, self-hostable alternative to Disqus : selfhosted https://www.reddit.com/r/selfhosted/comments/7fx99u/commento_is_a_lightweight_privacyfocused  /
 :PROPERTIES:
 :ID:       cmmntslghtwghtprvcyfcsdslfxcmmntslghtwghtprvcyfcsd
 :END:
-
 ** [#B] [2019-02-09] vkuznecovas/mouthful: Mouthful is a self-hosted alternative to Disqus https://github.com/vkuznecovas/mouthful
 :PROPERTIES:
 :ID:       vkzncvsmthflmthflsslfhstdvtdsqssgthbcmvkzncvsmthfl
@@ -452,7 +439,6 @@ http://yannesposito.com/Scratch/en/blog/Hakyll-setup/#simplify-url
 :PROPERTIES:
 :ID:       shrngdbggrfcbkfrdvlprssdvlprsfcbkcmtlsdbg
 :END:
-
 * STRT [#C] [2019-07-03] leungwensen/svg-icon: An ultimate SVG icons collection DONE RIGHT, with over 10,000 SVG icons out of the box.
 :PROPERTIES:
 :ID:       lngwnsnsvgcnnltmtsvgcnscltndnrghtwthvrsvgcnstfthbx
@@ -497,7 +483,6 @@ ok, this seems like the best choice
 :PROPERTIES:
 :ID:       mylswsmsttcgnrtrscrtdlstfssgthbcmmylswsmsttcgnrtrs
 :END:
-
 * [#C] [2020-06-24] [[https://sjmulder.nl/en/textonly.html][Text-only websites]] :plaintext:blog:
 :PROPERTIES:
 :ID:       ssjmldrnlntxtnlyhtmltxtnlywbsts

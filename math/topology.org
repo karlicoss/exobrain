@@ -123,7 +123,6 @@ https://xorshammer.com/2011/07/09/a-logical-interpretation-of-some-bits-of-topol
 :PROPERTIES:
 :ID:       mmntsrhwthscnbsflnw
 :END:
-
 * TODO [#D] Tweet from John Carlos Baez (@johncarlosbaez), at Mar 16, 01:18
 :PROPERTIES:
 :CREATED:  [2019-03-16]
@@ -171,6 +170,7 @@ Locally simply connected: admits a base of simply connected sets. Also locally p
 :PROPERTIES:
 :ID:       xtrctngtplgyfrmcnvrgnc
 :END:
+
 f_n -> weak(*) f if forall x. f_n(x) -> f(x)
 How to develop intuition abut the open sets?
 
@@ -211,7 +211,6 @@ https://www.youtube.com/channel/UCngLGVygGfVo3pxsRzeCN_A
 :PROPERTIES:
 :ID:       smtplgyvslstns
 :END:
-
 * [#D] [2019-01-23] Long line (topology) - Wikipedia
 :PROPERTIES:
 :ID:       lnglntplgywkpd

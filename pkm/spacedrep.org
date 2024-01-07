@@ -25,11 +25,9 @@ Personally I haven't paid much attention to specific algorithms and formulas. Th
 :CREATED:  [2019-02-01]
 :ID:       rgdrllsncbcsdrlltmsrntrlvtntvrylwffrttcrtcmprngtnk
 :END:
-
 * --------------------------------------
 :PROPERTIES:
 :END:
-
 * TODO [#C] content
 :PROPERTIES:
 :ID:       cntnt
@@ -74,7 +72,6 @@ especially now that I got intermediate representation? I could even load it up a
 :CREATED:  [2019-11-25]
 :ID:       spcrpttnfrllmystffstrtfrmsntmttrfthrsdplctnnthrvws
 :END:
-
 ** [2019-11-30] or even randomly presenting is ok
 :PROPERTIES:
 :ID:       rvnrndmlyprsntngsk
@@ -133,7 +130,6 @@ http://augmentingcognition.com/ltm.html
 :PROPERTIES:
 :ID:       kprttygdrtcl
 :END:
-
 * [2020-01-31] might be interesting to keep something like "history of knowledge management"?
 :PROPERTIES:
 :ID:       mghtbntrstngtkpsmthnglkhstryfknwldgmngmnt
@@ -142,6 +138,7 @@ http://augmentingcognition.com/ltm.html
 :PROPERTIES:
 :ID:       twtfrmplrprsnlknwldgrpstrygtplrzdtjncgntvprsthtc
 :END:
+
 : @michael_nielsen The analogy of supervised learning and spaced repetition I think is dead on. I've been referring to Polar as a "cognitive prosthetic".  My background is partly in machine learning so when I got into spacedrepetition I immediately realized it was supervised learning for humans.
 
 

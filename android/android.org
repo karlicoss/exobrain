@@ -5,7 +5,6 @@
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * Why root your Android?                                           :sadinfra:
 :PROPERTIES:
 :ID:       whyrtyrndrd
@@ -73,13 +72,13 @@ https://gist.github.com/andyshinn/3ae01fa13cb64c9d36e7
 :PROPERTIES:
 :ID:       sqltvwrghddntwrkjstdsplydblnkwhnpnngfl
 :END:
+
 : SQLiteViewer (A simple SQLite database viewer) - https://f-droid.org/packages/com.orpheusdroid.sqliteviewer
 
 * [#B] [2021-01-06] [[https://github.com/jonasoreland/runnerup][jonasoreland/runnerup: A open source run tracker]] :exercise:android:
 :PROPERTIES:
 :ID:       sgthbcmjnsrlndrnnrpjnsrlndrnnrppnsrcrntrckr
 :END:
-
 * [#B] [2020-04-22] [[https://android.jlelse.eu/wireless-debugging-through-adb-in-android-using-wifi-965f7edd163a][Wireless Debugging through ADB in Android using WiFi]] :android:debug:
 :PROPERTIES:
 :ID:       sndrdjllswrlssdbggngthrghssdbggngthrghdbnndrdsngwf
@@ -124,12 +123,10 @@ listened some music, used phone a bit but not much since basically at home
 :PROPERTIES:
 :ID:       sgthbcmsdvltppsdvltwkfqwhwtgtbckdpfqsdvltppsdvltwk
 :END:
-
 * TODO [#C] [2021-03-27] [[https://fsfe.org/activities/android/liberate.en.html][Liberate Your Device - Free Your Android! - FSFE]]
 :PROPERTIES:
 :ID:       sfsfrgctvtsndrdlbrtnhtmllbrtyrdvcfryrndrdfsf
 :END:
-
 * STRT [#B] [2021-03-27] [[https://github.com/grote/Transportr][grote/Transportr: Free Public Transport Assistant without Ads or Tracking]] :maps:
 :PROPERTIES:
 :ID:       sgthbcmgrttrnsprtrgrttrnsrnsprtssstntwthtdsrtrckng
@@ -150,7 +147,6 @@ bind mounts
 :PROPERTIES:
 :ID:       sgthbcmtpjhnwmgskblbmstrdsmgskgdsmdtmstrtpjhnwmgsk
 :END:
-
 * [#C] [2021-05-06] [[https://android.stackexchange.com/questions/213353/how-to-run-an-executable-on-boot-and-keep-it-running][root access - How to run an executable on boot and keep it running? - Android Enthusiasts Stack Exchange]]
 :PROPERTIES:
 :ID:       sndrdstckxchngcmqstnshwtrrnnngndrdnthsstsstckxchng

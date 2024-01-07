@@ -25,7 +25,6 @@ It's similar to extracting the useful fields, but instead it filters the useless
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * [#A] * motivation
 :PROPERTIES:
 :ID:       mtvtn
@@ -210,7 +209,6 @@ unclear why glitches are happening -- could be the backup tool, could be their a
 :CREATED:  [2019-09-29]
 :ID:       ntsrmybgnrcmmntlnkkrmtrsltsnltsfdffrncs
 :END:
-
 ** TODO [#D] lastfm: sometimes might be flaky with dates           :bleanser:
 :PROPERTIES:
 :CREATED:  [2022-01-03]
@@ -229,6 +227,7 @@ unclear why glitches are happening -- could be the backup tool, could be their a
 :PROPERTIES:
 :ID:       sgthbcmkrlcssprmnspllllwsnsbygmspllrqstkrlcssprmns
 :END:
+
 : So your process with browser history files is to create a new sqlite version incrementally for each period T, and then have promnesia import them individually? I'm trying to figure out how I should "best" be storing the files locally; right now, I just have multiple machines scp the respective history files to a single location so that they can then be covered by index, but some of the history files (Safari in particular) are 40M and take a couple of minutes to process...
 * [#C] * bugs
 :PROPERTIES:

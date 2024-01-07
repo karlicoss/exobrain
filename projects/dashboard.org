@@ -77,7 +77,6 @@ Many things are very tedious to redo and reinvent from scratch every time
 :PROPERTIES:
 :ID:       mybjstgvrllsrsndthngnrtllrrltncffcntrsmsrtfprtsrfc
 :END:
-
 ** [#B] what I want to figure out:
 :PROPERTIES:
 :ID:       whtwnttfgrt
@@ -91,7 +90,6 @@ Many things are very tedious to redo and reinvent from scratch every time
 :CREATED:  [2021-02-04]
 :ID:       rslpphssthngrtlstthwythyrhwdthympctmywkngplrtnsstc
 :END:
-
 *** TODO [#C] [2020-10-27] calculating custom exercise stats
 :PROPERTIES:
 :ID:       clcltngcstmxrcsstts
@@ -131,7 +129,6 @@ e.g. I have a few traffic lights on my way that might affect my speed/cadence da
 :PROPERTIES:
 :ID:       ksmsthtthyssmlrrchtctrtmnprsnldshbrdsfrslftrckngdt
 :END:
-
 ** STRT [#B] [2020-08-22] [[https://flowdash.co/app/about][Flow Dashboard]]
 :PROPERTIES:
 :ID:       sflwdshcppbtflwdshbrd
@@ -149,7 +146,6 @@ open source: https://github.com/onejgordon/flow-dashboard
 :PROPERTIES:
 :ID:       krstpthngsclshldtrycnnctngtthp
 :END:
-
 ** [#C] [2019-11-24] [[https://github.com/heedy/heedy][heedy/heedy: An Open-Source Platform for Quantified Self & IoT]]
 :PROPERTIES:
 :ID:       sgthbcmhdyhdyhdyhdynpnsrcpltfrmfrqntfdslft
@@ -190,7 +186,6 @@ interesting, but data exports are not very reusable
 :PROPERTIES:
 :ID:       gssncxprtvrythngcldsndlnktthtgy
 :END:
-
 ** STRT [#C] [2020-09-03] https://github.com/KrauseFx/FxLifeSheet
 :PROPERTIES:
 :ID:       sgthbcmkrsfxfxlfsht
@@ -207,7 +202,6 @@ workouts, weight, sleep, hr
 :CREATED:  [2019-12-19]
 :ID:       jnsprsnldtxplrtrysxplrtrypnhmnsrgntbks
 :END:
-
 ** STRT [#C] [2020-07-02] [[https://github.com/jeffshek/betterself][jeffshek/betterself: Your body's dashboard.]]
 :PROPERTIES:
 :ID:       sgthbcmjffshkbttrslfjffshkbttrslfyrbdysdshbrd
@@ -233,7 +227,6 @@ realtime dashboard
 :PROPERTIES:
 :ID:       lsprttymchnlytmtrckng
 :END:
-
 ** DONE [#C] [2020-09-10] [[https://github.com/quantifiedbob/bob-body-composition-viz][quantifiedbob/bob-body-composition-viz: Jupyter Notebook vizualizing 10+ years of my body composition data]]
 :PROPERTIES:
 :ID:       sgthbcmqntfdbbbbbdycmpstnbkvzlzngyrsfmybdycmpstndt
@@ -293,7 +286,6 @@ pretty nice clean visualizations, I need to borrow these I guess
 :PROPERTIES:
 :ID:       sgthbcmyhngrnnngpgyhngrnnngpgmkyrwnrnnnghmpg
 :END:
-
 * [#B] * implementation
 :PROPERTIES:
 :ID:       mplmnttn
@@ -439,7 +431,6 @@ Sleep is one of the biggest things I wanna figure out, and I have quite a few id
 :CREATED:  [2019-10-20]
 :ID:       mybrnpcfrmyslpdt
 :END:
-
 ** TODO [#B] figure out main questions I wanna figure out          :qs:sleep:
 :PROPERTIES:
 :CREATED:  [2019-08-03]
@@ -493,7 +484,6 @@ https://en.m.wikipedia.org/wiki/Respiratory_rate
 :CREATED:  [2019-04-08]
 :ID:       slpxrcscrrltncldtrydffrntdltscrrltncffplt
 :END:
-
 ** TODO [#C] old sleep logs from taplog?                              :sleep:
 :PROPERTIES:
 :CREATED:  [2019-04-09]
@@ -557,13 +547,11 @@ https://en.m.wikipedia.org/wiki/Respiratory_rate
 :CREATED:  [2020-08-21]
 :ID:       dffrntstylfrslplngthbrscrfnnynglymkthrdtsptthpttrn
 :END:
-
 ** TODO [#C] Average temperature                                      :sleep:
 :PROPERTIES:
 :CREATED:  [2019-04-09]
 :ID:       vrgtmprtr
 :END:
-
 ** TODO [#C] cross correlate with rescuetime activity                 :sleep:
 :PROPERTIES:
 :CREATED:  [2020-08-22]
@@ -583,7 +571,6 @@ https://en.m.wikipedia.org/wiki/Respiratory_rate
 :CREATED:  [2018-06-28]
 :ID:       mftrcvrywndrftcrrltdwthxrcsdys
 :END:
-
 ** TODO [#B] My daughters sleeping patterns for the first 4 months of her life. One continuous spiral starting on the inside when she was born, each revolution representing a single day. Midnight at the top (24 hour clock). [OC] :sleep:inspiration:viz:
 :PROPERTIES:
 :CREATED:  [2019-08-05]
@@ -615,13 +602,11 @@ Huh that's a nice way to save on space
 :CREATED:  [2019-09-23]
 :ID:       trckpzzdpndncy
 :END:
-
 ** TODO [#B] Shit wonder if I'm oversleeping because it's too cold? :qs:sleep:
 :PROPERTIES:
 :CREATED:  [2019-10-15]
 :ID:       shtwndrfmvrslpngbcststcld
 :END:
-
 ** TODO [#B] pretty strong negative correlation of temp vs avg hr. wonder if that's searsonal or not? post about it soon? :qs:
 :PROPERTIES:
 :CREATED:  [2019-11-17]
@@ -645,13 +630,11 @@ try recommendataions from that post and see how they apply to me?
 :CREATED:  [2019-12-01]
 :ID:       cmprhrhrvbfrndftrhldys
 :END:
-
 ** TODO [#B] Compute differences between rem cycles and plot on histogram? :qs:sleep:
 :PROPERTIES:
 :CREATED:  [2020-01-07]
 :ID:       cmptdffrncsbtwnrmcyclsndpltnhstgrm
 :END:
-
 ** TODO [#B] wow, emfit recovery was really shit last night. why???... seriosly no reason for it :qs:sleep:
 :PROPERTIES:
 :CREATED:  [2020-03-25]
@@ -713,7 +696,6 @@ nice, pretty similar to my findings?
 :CREATED:  [2020-10-10]
 :ID:       crrltdrmswthrmdptc
 :END:
-
 ** TODO [#B] wtf... without seasons it seems to correlate less??      :sleep:
 :PROPERTIES:
 :CREATED:  [2020-10-23]
@@ -729,7 +711,6 @@ nice, pretty similar to my findings?
 :CREATED:  [2017-12-21]
 :ID:       cmprftbt
 :END:
-
 ** STRT [#B] For sleep, probably a good idea to log room temperature :sleep:qs:
 :PROPERTIES:
 :CREATED:  [2017-11-13]
@@ -794,7 +775,6 @@ maybe the data is sifted through the elliptical/running/spinning modules and wha
 :CREATED:  [2020-08-23]
 :ID:       dtctwlksndrnsfrmggldtndpldwlkngntrvlsgfwsnshpnbtwn
 :END:
-
 ** TODO [#C] calculate some sort of 'integral' heart rate and also score for interval trainings? :exercise:
 :PROPERTIES:
 :CREATED:  [2019-04-09]
@@ -828,13 +808,11 @@ maybe the data is sifted through the elliptical/running/spinning modules and wha
 :CREATED:  [2018-05-11]
 :ID:       xrcsprvdrtrstmrntswhchgthrdt
 :END:
-
 ** STRT [#C] Look at hr data, its almost 180 all the time. Is it because i was doing cardio less? :qs:health:exercise:
 :PROPERTIES:
 :CREATED:  [2019-01-05]
 :ID:       lkthrdttslmstllthtmstbcswsdngcrdlss
 :END:
-
 * [#C] * patterns
 :PROPERTIES:
 :ID:       pttrns
@@ -855,7 +833,6 @@ as in, patterns of working with data, best practices for visualizing things etc
 :PROPERTIES:
 :ID:       lsmksrtssytd
 :END:
-
 ** TODO [#B] restrict datapoints 'by experiment'? same way it's done with date sliders?
 :PROPERTIES:
 :CREATED:  [2019-07-24]
@@ -871,7 +848,6 @@ as in, patterns of working with data, best practices for visualizing things etc
 :CREATED:  [2019-11-23]
 :ID:       lblsndtdsplywkdylsnhrnds
 :END:
-
 ** TODO [#B] would be nice to zoom individual plots..
 :PROPERTIES:
 :CREATED:  [2020-10-09]
@@ -933,7 +909,6 @@ by combining the HR data (recorded by endomondo) and manual data we get the comp
 :CREATED:  [2020-10-23]
 :ID:       chrllngpltcnlshndlssnltyrsdlstc
 :END:
-
 ** TODO [#B] would be cool to scale arbitrarily vertically and horizontally, the whole plot
 :PROPERTIES:
 :CREATED:  [2020-09-10]
@@ -967,7 +942,6 @@ e.g. for blood dashboard
 :PROPERTIES:
 :ID:       srcnxrcsvlm
 :END:
-
 *** TODO [#C] add src for jawbone/emfit sleep
 :PROPERTIES:
 :CREATED:  [2020-10-21]
@@ -1060,7 +1034,6 @@ basically could merge with 4sq? and custom addresses
 :CREATED:  [2019-11-28]
 :ID:       ddchcknstfvsmp
 :END:
-
 * [#C] * ideas for experiments
 :PROPERTIES:
 :ID:       dsfrxprmnts
@@ -1182,11 +1155,9 @@ https://github.com/ucg8j/awesome-dash
 :PROPERTIES:
 :ID:       hdnnthrwsntsntrstngmybmntngscnddthtstllndtbmplmntd
 :END:
-
 * -----------------------------------------
 :PROPERTIES:
 :END:
-
 * TODO [#A] come up with a better name? just in case of pypi release...
 :PROPERTIES:
 :CREATED:  [2020-08-22]
@@ -1201,7 +1172,6 @@ https://github.com/ucg8j/awesome-dash
 :PROPERTIES:
 :ID:       kthslgthngnbkhcldwrk
 :END:
-
 * [#B] [2019-04-19] qs_ledger/example_correlation_explorer_with_plotly.py at master · markwk/qs_ledger
 :PROPERTIES:
 :ID:       qsldgrxmplcrrltnxplrrwthpltlypytmstrmrkwkqsldgr
@@ -1216,7 +1186,6 @@ plotly dash regression example
 :PROPERTIES:
 :ID:       bttrckrmtchngsbjctvscr
 :END:
-
 * TODO [#B] not sure what mavg is doing. e.g. HR plots of specific exercise -- if I didn't exercise during the past month mavg for 14 days should just take value of my last exercise. right??
 :PROPERTIES:
 :CREATED:  [2019-08-15]
@@ -1226,7 +1195,6 @@ plotly dash regression example
 :PROPERTIES:
 :ID:       ndttsttjsttdblchck
 :END:
-
 * TODO [#B] [2019-04-11] Visualization — pandas 0.24.2 documentation    :viz:
 :PROPERTIES:
 :ID:       vslztnpndsdcmnttn
@@ -1267,7 +1235,6 @@ https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html#visua
 :PROPERTIES:
 :ID:       sgthbcmrphlvlltpngnrphlvlsttstclpckgnpythnbsdnpnds
 :END:
-
 * STRT [#B] [2020-10-31] [[https://hackernoon.com/introducing-grid-studio-a-spreadsheet-app-with-python-to-make-data-science-easier-tdup38f7][How I built a spreadsheet app with Python to make data science easier | Hacker Noon]] :spreadsheet:
 :PROPERTIES:
 :ID:       shckrnncmntrdcnggrdstdsprwthpythntmkdtscncsrhckrnn
@@ -1295,7 +1262,6 @@ https://towardsdatascience.com/jupyter-tools-to-increase-productivity-7b3c6b90be
 :CREATED:  [2019-04-09]
 :ID:       ndtpsttsmwhrbtntsrhwtprsnplclddfpstsmpltstqntfdslf
 :END:
-
 * TODO [#C] [2019-04-09] Short- and long-term effects of a single bout of exercise on heart rate variability: comparison between constant and interval training exercises. - PubMed - NCBI :hrv:
 :PROPERTIES:
 :ID:       shrtndlngtrmffctsfsnglbtftndntrvltrnngxrcsspbmdncb
@@ -1335,7 +1301,6 @@ maybe run the original data retrieval? not sure
 :CREATED:  [2019-08-18]
 :ID:       thrwrktsmsngfrhrdcyshtthntrthmntclddtctttmtcllygss
 :END:
-
 * STRT [#C] always keep a tab running on one for my desktops? or pinned
 :PROPERTIES:
 :CREATED:  [2020-07-25]
@@ -1364,7 +1329,6 @@ maybe run the original data retrieval? not sure
 :CREATED:  [2019-08-05]
 :ID:       shwmydshbrd
 :END:
-
 * [#C] [2020-09-01] [[https://hvplot.holoviz.org/user_guide/Pandas_API.html][Pandas API — hvPlot 0.6.0 documentation]]
 :PROPERTIES:
 :ID:       shvplthlvzrgsrgdpndsphtmlpndsphvpltdcmnttn
@@ -1405,7 +1369,6 @@ hmm.. doesn't have any typing imports at all?? what do they mean 'working nicely
 :PROPERTIES:
 :ID:       sgthbcmbkhbkhblbxmplshwtspynbbkhntbkmbdpynbtbkhbkh
 :END:
-
 * STRT [#C] https://github.com/thesephist/histools            :dashboard:viz:
 :PROPERTIES:
 :CREATED:  [2020-12-24]
@@ -1497,7 +1460,6 @@ https://www.anaconda.com/python-data-visualization-2018-why-so-many-libraries/
 :PROPERTIES:
 :ID:       trysngndshbrd
 :END:
-
 * DONE [2019-04-14] iris_splom.py — Bokeh 1.1.0 documentation
 :PROPERTIES:
 :ID:       rssplmpybkhdcmnttn
@@ -1511,7 +1473,6 @@ https://bokeh.pydata.org/en/latest/docs/gallery/iris_splom.html
 :PROPERTIES:
 :ID:       swwwtblcmngbprdctsdsktptbldsktp
 :END:
-
 * ---------- last housekeeping on [2021-02-06] ----------
 :PROPERTIES:
 :ID:       lsthskpngn
@@ -1539,7 +1500,6 @@ some screenshots
 :PROPERTIES:
 :ID:       sgthbcmlbrphtslbrphtslbrpphtsslfhstdltrntvtgglphts
 :END:
-
 * TODO [#C] [2021-04-11] [[https://github.com/photoprism/photoprism][photoprism/photoprism: Personal Photo Management powered by Go and Google TensorFlow]] :photos:memex:
 :PROPERTIES:
 :ID:       sgthbcmphtprsmphtprsmphtpmngmntpwrdbygndggltnsrflw

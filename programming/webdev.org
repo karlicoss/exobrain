@@ -59,7 +59,6 @@ https://github.com/dypsilon/frontend-dev-bookmarks#readme
 :PROPERTIES:
 :ID:       stlkttchwlltcrswlltcrs
 :END:
-
 * [#C] [2020-02-16] (8) 🔎Julia Evans🔍 on Twitter: "CORS https://t.co/uSrLqGIWR0" / Twitter :cors:
 :PROPERTIES:
 :ID:       jlvnsntwttrcrsstcsrlqgwrtwttr
@@ -96,7 +95,6 @@ https://stackoverflow.com/questions/1520429/is-there-a-css-selector-for-elements
 :PROPERTIES:
 :ID:       pprntlyn
 :END:
-
 * [#C] [2019-11-17] to deal with cors issues (e.g. querying for external scripts for local html page) :cors:
 :PROPERTIES:
 :ID:       tdlwthcrssssgqryngfrxtrnlscrptsfrlclhtmlpg
@@ -109,6 +107,7 @@ https://stackoverflow.com/questions/1520429/is-there-a-css-selector-for-elements
 :PROPERTIES:
 :ID:       srvrpcrs
 :END:
+
 also navigate to 127.0.0.1:8000. That's IMPORTANT! Apparently Cors header is hardcoded and it contains ip address
 
 * [2019-11-10] html - Difference between DIV as-is and a SPAN with display:block - Stack Overflow
@@ -138,7 +137,6 @@ https://stackoverflow.com/questions/48362093/cors-request-blocked-in-locally-ope
 :PROPERTIES:
 :ID:       swkcsswgrgdsmstksncmpltlssnthdsgnfcsscsswrknggrpwk
 :END:
-
 * [#D] [2020-01-29] Use and Reuse Everything in SVG; Even Animations | Lobsters https://lobste.rs/s/pd1ccu/use_reuse_everything_svg_even_animations
 :PROPERTIES:
 :ID:       sndrsvrythngnsvgvnnmtnslbspdccsrsvrythngsvgvnnmtns

@@ -5,7 +5,6 @@
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * [#A] * lists manipulation
 :PROPERTIES:
 :ID:       lstsmnpltn
@@ -18,7 +17,6 @@
 :PROPERTIES:
 :ID:       ppndbcdftcnct
 :END:
-
 * [#A] * string manipulation
 :PROPERTIES:
 :ID:       strngmnpltn
@@ -72,7 +70,6 @@ http://lisp-lang.org/style-guide/
 :PROPERTIES:
 :ID:       shrpqtnmsffnctnsmpcrfnlst
 :END:
-
 * [#C] [2018-04-24] elisp basics
 :PROPERTIES:
 :ID:       lspbscs
@@ -92,27 +89,22 @@ thing-at-point
 :PROPERTIES:
 :ID:       rmcssrddtcmrmcscmmntsxnxhknwbtlmstllyndtknwbtvrbls
 :END:
-
 * [#C] [2021-01-06] unwind-protect works as with / try-finally block :python:elisp:
 :PROPERTIES:
 :ID:       nwndprtctwrksswthtryfnllyblck
 :END:
-
 * TODO [#C] lisp unpacking like in python  =(let ((x '(2 3))) `(1 ,@x 4 5))= :drill:python:
 :PROPERTIES:
 :CREATED:  [2021-01-01]
 :ID:       d70f0651-0847-413e-9ef4-dedc756528ab
 :END:
-
 * ----------------------------------------
 :PROPERTIES:
 :END:
-
 * TODO [#D] [2019-07-24] /r/emacs: [[https://reddit.com/r/emacs/comments/chfv7y/tutorial_on_good_lisp_programming_style/][Tutorial on Good Lisp Programming Style]]
 :PROPERTIES:
 :ID:       rmcssrddtcmrmcscmmntschfvtylttrlngdlspprgrmmngstyl
 :END:
-
 * [#C] [2020-12-13] [[https://karthinks.com/software/more-batteries-included-with-emacs/][More batteries included with emacs | Karthinks]] regexes in elisp
 :PROPERTIES:
 :ID:       skrthnkscmsftwrmrbttrsnclclddwthmcskrthnksrgxsnlsp
@@ -122,7 +114,6 @@ thing-at-point
 :PROPERTIES:
 :ID:       sgthbcmwlfrdhtlwlfrdhtlthmssnghshtbllbrryfrmcs
 :END:
-
 * [#D] [2020-02-16] Changing Properties - GNU Emacs Lisp Reference Manual https://www.gnu.org/software/emacs/manual/html_node/elisp/Changing-Properties.html
 :PROPERTIES:
 :ID:       chngngprprtsgnmcslsprfrnchtmlndlspchngngprprtshtml
@@ -150,7 +141,6 @@ small tutorial for hacking on emacs?
 :PROPERTIES:
 :ID:       mcsshldbmcslsptmtrmysbrndpjthrdvtlksmcsshldbmcslsp
 :END:
-
 * [#D] [2020-02-16] What's the performance · Issue #19 · alphapapa/org-ql https://github.com/alphapapa/org-ql/issues/19
 :PROPERTIES:
 :ID:       whtsthprfrmncsslphpprgqlsgthbcmlphpprgqlsss

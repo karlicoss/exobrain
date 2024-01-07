@@ -10,7 +10,6 @@ Github project: https://github.com/karlicoss/dron
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * [#A] * motivation
 :PROPERTIES:
 :ID:       mtvtn
@@ -27,7 +26,6 @@ https://adam.herokuapp.com/past/2010/4/13/rethinking_cron
 :PROPERTIES:
 :ID:       gdwshlstfrmssngcrnftrs
 :END:
-
 ** STRT [#C] hmm it's kind of nice that in cron you can embed snippets of code... a bit harder in systemd
 :PROPERTIES:
 :CREATED:  [2020-04-13]
@@ -41,7 +39,6 @@ https://adam.herokuapp.com/past/2010/4/13/rethinking_cron
 :PROPERTIES:
 :ID:       mybfrbdcrtngpycch
 :END:
-
 ** TODO [#A] I think I need to enable/start regardless changes; just in case
 :PROPERTIES:
 :CREATED:  [2020-03-08]
@@ -205,7 +202,6 @@ nope, just a completely custom scheduler, definitely not ideal
 * ---------------------------------------
 :PROPERTIES:
 :END:
-
 * TODO [#B] a perspective a year later?                                :dron:
 :PROPERTIES:
 :CREATED:  [2021-03-13]
@@ -252,7 +248,6 @@ hmm can run this on success
 :PROPERTIES:
 :ID:       ssprsrcmqstnssystmdhwtmktvcsmtllyxclsvbtrnbthsprsr
 :END:
-
 * [#C] [2020-01-26] systemd.service https://www.freedesktop.org/software/systemd/man/systemd.service.html#TimeoutStartSec=
 :PROPERTIES:
 :ID:       systmdsrvcswwwfrdsktprgsfmnsystmdsrvchtmltmtstrtsc

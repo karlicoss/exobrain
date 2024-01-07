@@ -115,7 +115,6 @@ unprocessed stuff vvv
 :PROPERTIES:
 :ID:       sthscncplygrndcmxplrthscncplygrnd
 :END:
-
 * --------------------------------------
 :PROPERTIES:
 :END:
@@ -175,6 +174,7 @@ https://en.wikipedia.org/wiki/File:Wigner_function_for_tunnelling.ogv
 :PROPERTIES:
 :ID:       sttstclmchncsbk
 :END:
+
 http://www.damtp.cam.ac.uk/user/tong/statphys/one.pdf looks good
 
 : There’s one strategy that definitely won’t work: writing down the Schr¨odinger equation
@@ -325,7 +325,6 @@ https://www.quantumdiaries.org/2011/06/19/helicity-chirality-mass-and-the-higgs/
 :PROPERTIES:
 :ID:       gsslctrncnntrctbcsfwkfrchnddnss
 :END:
-
 ** [2019-06-12] Gluons are also massless, but they have a short range force due to their confinement :drill:
 :PROPERTIES:
 :ID:       21be4412-1603-49b4-99ec-1e1a65160111
@@ -608,7 +607,6 @@ time dilation thing was very weird... feels contrived
 :CREATED:  [2019-03-17]
 :ID:       ksndrstndqtbtbtstndrdmdlnthngtdwthspnrsndlsvslzthm
 :END:
-
 * [#D] [2018-10-31] baez: "Today I learned: unlike in our universe, in 2d space solids melt in two separate stages!  Solid, hexatic, liquid"
 :PROPERTIES:
 :ID:       bztdylrndnlknrnvrsndspcslsmltntwsprtstgssldhxtclqd
@@ -644,7 +642,6 @@ https://twitter.com/MBarkeshli/status/1280236950906122241
 :PROPERTIES:
 :ID:       nstnszrchntbkswwwpttdjdnrtngdszrchntbk
 :END:
-
 * TODO [#C] Tweet from @anderssandberg
 :PROPERTIES:
 :CREATED:  [2021-03-06]

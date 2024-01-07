@@ -17,7 +17,6 @@ Here I collect best practices, or at least the ones I liked.
 ** .                                                                 :social:
 :PROPERTIES:
 :END:
-
 * [#A] * clearly state the purpose
 :PROPERTIES:
 :ID:       clrlysttthprps
@@ -144,7 +143,6 @@ Documentation is frustrating because it usually requires you to document what yo
 :PROPERTIES:
 :ID:       rltdltrtprgrmmng
 :END:
-
 ** [#C] [2020-05-05] [[https://www.djcbsoftware.nl/code/mu/mu4e/High_002dlevel-overview.html][High-level overview (Mu4e 1.4 user manual)]] :software:
 :PROPERTIES:
 :ID:       swwwdjcbsftwrnlcdmmhghdlvlvrvwhtmlhghlvlvrvwmsrmnl
@@ -241,7 +239,6 @@ https://github.com/alphapapa/org-ql/blob/master/images/demo-helm-org-ql.sh
 :PROPERTIES:
 :ID:       sntlcmblgtrmnlrcrdrstrmnlrcrdrscmprhnsvgd
 :END:
-
 ** [#C] [2020-04-02] [[https://github.com/phw/peek#how-can-i-capture-mouse-clicks-andor-keystrokes][phw/peek: Simple animated GIF screen recorder with an easy to use interface]]
 :PROPERTIES:
 :ID:       sgthbcmphwpkhwcncptrmsclcdgfscrnrcrdrwthnsytsntrfc
@@ -329,7 +326,6 @@ It's annoying to have to come up with name when the project is ready and you are
 :PROPERTIES:
 :ID:       swwwltscpcmwrdtlscntnssqnndwrdscntnngthslttrsnsqnc
 :END:
-
 ** [#C] [2020-01-02] [[http://ivantomic.com/projects/ospnc/][Open source project name checker - OSPNC]]
 :PROPERTIES:
 :ID:       vntmccmprjctsspncpnsrcprjctnmchckrspnc
@@ -347,7 +343,6 @@ https://namewink.com/
 :PROPERTIES:
 :ID:       frndsrsftwrntlbrrsclndrvrsnngsmrsflthnsmntc
 :END:
-
 ** [#B] ok, definitely should keep changelog in the repository file (and then link to headings), instead of github native interface
 :PROPERTIES:
 :CREATED:  [2020-12-05]
@@ -395,7 +390,6 @@ I don't need money myself, but would be nice to 'reroute' donations to the libra
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdpnsrcprjctsshldrnffchrshckrnws
 :END:
-
 * TODO [#B] [2021-03-15] [[https://twitter.com/thomrstrom/status/1369466148517912579][Thomas Strömberg on Twitter: "An uncomfortable truth that open-source projects struggle with:👇 Improvements to your onboarding docs generate 10X the ROI vs improvements to your codebase 🔖 Great documentation creates a virtuous cycle of adoption, contributor diversity, and success.♻️" / Twitter]] :projects:
 :PROPERTIES:
 :ID:       stwttrcmthmrstrmsttsthmsscntrbtrdvrstyndsccsstwttr

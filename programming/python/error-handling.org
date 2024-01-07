@@ -19,6 +19,7 @@
 :PROPERTIES:
 :ID:       bckfflbrrysngtsmwhrlrdy
 :END:
+
 using it in vkdump
 backoff_network_errors in kython
 I guess we could backoff indefinitely; and rely on global timeout if necessary
@@ -42,7 +43,6 @@ I guess we could backoff indefinitely; and rely on global timeout if necessary
 :PROPERTIES:
 :ID:       jdffythrrrmdljdffyblgcmthrrrmdl
 :END:
-
 * [#C] [2019-11-22] Error Handling Survey                       :rust:errors:
 :PROPERTIES:
 :ID:       rrrhndlngsrvy
@@ -53,7 +53,6 @@ https://blog.yoshuawuyts.com/error-handling-survey
 :PROPERTIES:
 :ID:       ctchngndrthrwngmghtbgdwyfddngcntxt
 :END:
-
 * TODO [#B] [2020-11-30] [[https://www.fpcomplete.com/blog/error-handling-is-hard/][Error handling is hard]]
 :PROPERTIES:
 :ID:       swwwfpcmpltcmblgrrrhndlngshrdrrrhndlngshrd

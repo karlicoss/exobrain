@@ -12,7 +12,6 @@ https://www.gwern.net/Notes#november-2016-data-loss-postmortem
 :CREATED:  [2018-05-16]
 :ID:       zfsndfllfsbckp
 :END:
-
 ** https://www.reddit.com/r/DataHoarder/wiki/zfs
 :PROPERTIES:
 :ID:       swwwrddtcmrdthrdrwkzfs
@@ -22,7 +21,6 @@ https://www.gwern.net/Notes#november-2016-data-loss-postmortem
 :CREATED:  [2019-04-03]
 :ID:       bckpsndcldsyncshldbtrtddffrntly
 :END:
-
 * [#C] [2019-11-14] GitHub Archive Program | The GitHub Archive Program will safely store every public GitHub repo for 1,000 years in the Arctic World Archive in Svalbard, Norway.
 :PROPERTIES:
 :ID:       gthbrchvprgrmthgthbrchvprthrctcwrldrchvnsvlbrdnrwy
@@ -42,7 +40,6 @@ https://archiveprogram.github.com/
 :CREATED:  [2020-08-21]
 :ID:       smywnscrptnstdfsmsbckprstntsrfwldndtfrphnmgrtnthgh
 :END:
-
 * TODO [#D] [2020-04-05] huginn/example_backup.rb at master · huginn/huginn :backup:huginn:
 :PROPERTIES:
 :ID:       hgnnxmplbckprbtmstrhgnnhgnn
@@ -76,7 +73,6 @@ https://stickleback.dk/borg-or-restic/
 :CREATED:  [2018-08-22]
 :ID:       chckfbrgsdrpbxfrndly
 :END:
-
 ** [2018-09-05] hmm. doesn't appear so. for two photos, seems to have concatenated them..
 :PROPERTIES:
 :ID:       hmmdsntpprsfrtwphtssmsthvcnctntdthm
@@ -89,12 +85,14 @@ https://stickleback.dk/borg-or-restic/
 :PROPERTIES:
 :ID:       brgbckpbrgwbwbfrbrgbckp
 :END:
+
 https://github.com/borgbackup/borgweb
 
 * [#D] [2018-07-05] ok backintime refuses to backup symlinked folders :backup:
 :PROPERTIES:
 :ID:       kbckntmrfsstbckpsymlnkdfldrs
 :END:
+
 kinda makes sense since when you restore you don't want to overwrite...
 
 * [#B] [2018-09-04] tried archivemount... meh, can't update archive on the fly :( :backup:

@@ -6,7 +6,6 @@
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * TODO [#D] organelle is quite good for a project name?             :project:
 :PROPERTIES:
 :CREATED:  [2019-09-17]
@@ -48,7 +47,6 @@ https://lists.gnu.org/archive/html/emacs-orgmode/2009-04/msg00133.html
 :CREATED:  [2020-01-22]
 :ID:       rllyndttsvnsmprtnsgrfl
 :END:
-
 * TODO [#B] [2019-10-07] outline sections [[https://reddit.com/r/orgmode/comments/dd6wr5/weekly_rorgmode_open_discussion_october_04_2019/f2v6be3/][Weekly /r/Orgmode Open Discussion - October 04, 2019]] /r/orgmode :blog:
 :PROPERTIES:
 :ID:       tlnsctnssrddtcmrrgmdcmmntklyrrgmdpndscssnctbrrrgmd
@@ -63,7 +61,6 @@ No ... But workarounds exist ... https://orgmode.org/worg/org-faq.html#closing-o
 :CREATED:  [2020-01-02]
 :ID:       mpnschdltcptl
 :END:
-
 * STRT [#B] fucking hell helm tag completion is annyoing              :emacs:
 :PROPERTIES:
 :CREATED:  [2020-02-13]
@@ -96,11 +93,11 @@ https://emacs.stackexchange.com/questions/35537/is-it-possible-to-clear-src-resu
 :CREATED:  [2019-06-12]
 :ID:       stwdffrntrflsnfllvlnthrhdnglvlshdngrflmrftn
 :END:
-
 * TODO [#B] refresh agenda after doing actions on it, right now completed future tasks still appear on agenda
 :PROPERTIES:
 :ID:       rfrshgndftrdngctnsntrghtnwcmpltdftrtsksstllpprngnd
 :END:
+
 CREATED: [2018-01-23]
 
 * TODO [#B] org-refile: make case insensitive
@@ -113,7 +110,6 @@ CREATED: [2018-01-23]
 :CREATED:  [2020-02-22]
 :ID:       02d1370c-b581-476c-a6e4-d34dc563a9d3
 :END:
-
 * STRT [#B] [2020-01-10] [[https://reddit.com/r/emacs/comments/emran7/amazing_library_for_org_hackers/][Amazing library for org hackers]] /r/emacs
 :PROPERTIES:
 :ID:       srddtcmrmcscmmntsmrnmznglkrsmznglbrryfrrghckrsrmcs
@@ -221,7 +217,6 @@ https://github.com/m-cat/org-recur#recommended-org-mode-settings
 :CREATED:  [2018-04-18]
 :ID:       hddrllfrmgnd
 :END:
-
 * TODO [#B] [2019-10-26] Code blocks - Org Babel reference card        :blog:
 :PROPERTIES:
 :ID:       cdblcksrgbblrfrnccrd
@@ -299,7 +294,6 @@ perhaps it should be smart and add whitespace (move point too)
 :PROPERTIES:
 :ID:       82c489f5-fa03-4c86-b4af-73aea03ef49b
 :END:
-
 * TODO [#C] [2019-03-29] org mode - Update the org-agenda-daily-view automatically on background - Emacs Stack Exchange
 :PROPERTIES:
 :ID:       rgmdpdtthrggnddlyvwtmtcllynbckgrndmcsstckxchng
@@ -360,13 +354,11 @@ hmm, inline tasks could actually work ok... could even hack them in export?
 :PROPERTIES:
 :ID:       mmkgskysdthswll
 :END:
-
 * TODO [#C] use org-agenda-open-link, set up def browser
 :PROPERTIES:
 :CREATED:  [2018-06-25]
 :ID:       srggndpnlnkstpdfbrwsr
 :END:
-
 * STRT [#C] hmm, unclear how to emulate RTM behavior with creating new task in regular time periods..
 :PROPERTIES:
 :CREATED:  [2018-01-16]
@@ -393,7 +385,6 @@ hmm, maybe just mark task as DND (do not delete) in the heading
 :PROPERTIES:
 :ID:       hthnktwsrfrrngtthprrtychngngwsrslvdprbbly
 :END:
-
 * TODO [#C] [2019-02-15] The Org Manual: Speed keys
 :PROPERTIES:
 :ID:       thrgmnlspdkys
@@ -475,7 +466,6 @@ then easy to locate with org-mode
 :CREATED:  [2018-02-17]
 :ID:       fgrtprndcnslsts
 :END:
-
 ** [2018-06-20] PRO and CON lists
 :PROPERTIES:
 :ID:       prndcnlsts
@@ -488,11 +478,11 @@ https://lists.gnu.org/archive/html/emacs-orgmode/2010-04/msg00248.html
 :CREATED:  [2018-08-05]
 :ID:       ndsvllrtsvnrfl
 :END:
-
 * STRT [#C] [2018-08-25] need feedback for org-mode web app - view/search org files from Dropbox on web : orgmode
 :PROPERTIES:
 :ID:       ndfdbckfrrgmdwbppvwsrchrgflsfrmdrpbxnwbrgmd
 :END:
+
 https://www.reddit.com/r/orgmode/comments/9522eg/need_feedback_for_orgmode_web_app_viewsearch_org/
 
 mm, not sure how far he made it...
@@ -512,7 +502,6 @@ it looks sort of ok, but still bugs in the interface. note sure if better than n
 :PROPERTIES:
 :ID:       stllnpdts
 :END:
-
 * TODO [#C] how to separate or archive org state history?
 :PROPERTIES:
 :CREATED:  [2018-10-17]
@@ -523,7 +512,6 @@ it looks sort of ok, but still bugs in the interface. note sure if better than n
 :CREATED:  [2018-11-05]
 :ID:       gndfrsrtngndglbllstfllschdldddlntmssrtdbyprrty
 :END:
-
 * TODO [#C] do not detect timestamp as cloze? is that even possible? :orgdrill:
 :PROPERTIES:
 :CREATED:  [2019-01-31]
@@ -542,7 +530,6 @@ https://emacs.stackexchange.com/questions/804/how-do-i-speed-up-org-mode-agenda-
 :CREATED:  [2019-06-10]
 :ID:       srtbytgfrqckrgrpng
 :END:
-
 * CANCEL [#D] support time with seconds precision?                    :setup:
 :PROPERTIES:
 :CREATED:  [2019-06-18]
@@ -557,7 +544,6 @@ https://emacs.stackexchange.com/questions/804/how-do-i-speed-up-org-mode-agenda-
 :CREATED:  [2019-06-27]
 :ID:       hlmrgrflsbtstpdgtryrflngtwtch
 :END:
-
 * [#C] [2019-10-23] [O] noweb strip-export
 :PROPERTIES:
 :ID:       nwbstrpxprt
@@ -606,12 +592,10 @@ https://github.com/ndwarshuis/om.el
 :PROPERTIES:
 :ID:       swwwrddtcmrmcscmmntsgckvfmdftrflblgmdwthmcsrgmdmcs
 :END:
-
 * TODO [#C] [2020-11-24] [[https://github.com/landakram/org-z][landakram/org-z: Lightweight, Org-mode flavored zettelkasten links.]]
 :PROPERTIES:
 :ID:       sgthbcmlndkrmrgzlndkrmrgzwghtrgmdflvrdzttlkstnlnks
 :END:
-
 * [#C] [2020-06-09] my/org-sort-entries -- actually it's good it's keeping stable sort for same prios
 :PROPERTIES:
 :ID:       myrgsrtntrsctllytsgdtskpngstblsrtfrsmprs
@@ -736,7 +720,6 @@ could prob improve, e.g. detect actual stars?
 :PROPERTIES:
 :ID:       tbbrmdndglbltblnmd
 :END:
-
 * STRT [#B] [2020-06-07] [[https://reddit.com/r/emacs/comments/gybdbq/orgro_an_orgmode_viewer_for_mobile/][Orgro: an org-mode viewer for mobile]] /r/emacs
 :PROPERTIES:
 :ID:       srddtcmrmcscmmntsgybdbqrgfrmblrgrnrgmdvwrfrmblrmcs
@@ -745,7 +728,6 @@ could prob improve, e.g. detect actual stars?
 :PROPERTIES:
 :ID:       wtngfrfdrdsgthbcmmkrgrsss
 :END:
-
 * TODO [2020-12-17] [[https://karl-voit.at/2019/09/25/categories-versus-tags/][UOMF: Using Org Mode Categories Versus Tags]] :habit:
 :PROPERTIES:
 :ID:       e77bb05d-f207-42c6-9a5d-aa6fa98d08dc
@@ -820,7 +802,6 @@ https://www.gnu.org/software/emacs/manual/html_node/emacs/Specifying-File-Variab
 :CREATED:  [2019-01-31]
 :ID:       hbtsdrllshldprbblyhvmprtnprtntthngsrshwdlssfrqntly
 :END:
-
 * DONE [#B] for drill, only consider stuff that isn't done?
 :PROPERTIES:
 :CREATED:  [2019-11-02]
@@ -837,7 +818,6 @@ or cancelled
 :CREATED:  [2018-08-07]
 :ID:       chckfrcrrptdhdngstypcllytsstrsndtdsttstfnwhr
 :END:
-
 * [#C] [2019-10-05] Re: [O] Bug: spurious newline after comment
 :PROPERTIES:
 :ID:       rbgsprsnwlnftrcmmnt
@@ -931,17 +911,16 @@ https://emacs.stackexchange.com/questions/14153/how-to-automatically-tangle-anot
 :CREATED:  [2018-01-18]
 :ID:       rgclcksddlystsfyng
 :END:
-
 * TODO [#D] add CREATED to entry (add-created would be enough)    :emacs:org:
 :PROPERTIES:
 :CREATED:  [2018-07-12]
 :ID:       ddcrtdtntryddcrtdwldbngh
 :END:
-
 * TODO [#D] figure out how to find and jump a file                      :org:
 :PROPERTIES:
 :ID:       fgrthwtfndndjmpfl
 :END:
+
 CREATED: [2018-01-24]
 http://kitchingroup.cheme.cmu.edu/blog/2016/11/04/New-link-features-in-org-9/
 
@@ -949,6 +928,7 @@ http://kitchingroup.cheme.cmu.edu/blog/2016/11/04/New-link-features-in-org-9/
 :PROPERTIES:
 :ID:       cstmtmstmpfrmt
 :END:
+
 https://emacs.stackexchange.com/questions/3179/how-to-make-org-mode-dwim-when-it-reads-times-in-timestamps
 
 * DONE [#D] do not count timestamps as cloze                 :emacs:orgdrill:
@@ -1008,25 +988,21 @@ looks only by tag...
 :CREATED:  [2018-06-06]
 :ID:       twkndsfrflsnwthhdngsnwtht
 :END:
-
 * TODO [#C] the 'notes' marker doesn't work as expected? only shows subtasks :emacs:
 :PROPERTIES:
 :CREATED:  [2018-07-15]
 :ID:       thntsmrkrdsntwrksxpctdnlyshwssbtsks
 :END:
-
 * TODO [#C] do not make org todo state change pop up as a new window  :emacs:
 :PROPERTIES:
 :CREATED:  [2019-06-12]
 :ID:       dntmkrgtdsttchngpppsnwwndw
 :END:
-
 * TODO [#C] Exclude done/cancelled from drill?                        :emacs:
 :PROPERTIES:
 :CREATED:  [2020-01-30]
 :ID:       xclddncnclldfrmdrll
 :END:
-
 * [#C] [2019-12-10] The Org Manual                                     :blog:
 :PROPERTIES:
 :ID:       thrgmnl
@@ -1125,6 +1101,7 @@ hmm, maybe disassemble dropsync to hack update frequency via automate on wifi?
 :PROPERTIES:
 :ID:       mcscnfschdl
 :END:
+
 https://emacsconf.org/2019/schedule
 : Managing your life with org-mode and other tools
 : Marcin Swieczkowski
@@ -1205,6 +1182,7 @@ mm, the brain looks very GUI and mouse demanding. org is def. better for me
 :PROPERTIES:
 :ID:       cvlzrclvrlymngyrdtknwldgd
 :END:
+
 https://suewonjp.github.io/civilizer/
 meh, looks very basic, is not backed by plaintext, not very googlable...
 
@@ -1249,13 +1227,11 @@ whoa
 :CREATED:  [2019-09-13]
 :ID:       nmyndmrrgnyrlfrsmthng
 :END:
-
 * TODO [#C] refile was hard to appreciate until I got used to navigating among multiple files and using several files as org agenda sources :toblog:org:
 :PROPERTIES:
 :CREATED:  [2019-10-01]
 :ID:       rflwshrdtpprctntlgtsdtnvgflsndsngsvrlflssrggndsrcs
 :END:
-
 * TODO [#C] motivation for collecting agenda files by myself: emacs is slow and buggy :blog:org:
 :PROPERTIES:
 :CREATED:  [2019-10-29]
@@ -1289,6 +1265,7 @@ It becomes plain text searchable immediately, at which point I can find it by va
 :PROPERTIES:
 :ID:       cptrftndptqcktgfxpctmyslfthngrllyndtrmmbrdlsschdlt
 :END:
+
 Otherwise I try to spend as little time capturing TODO ??? I found premature organizing to be too time consuming and often distrupting thinking.
 * [#B] [2019-10-08] capture: I find it less distracting to keep logs (e.g. quantified self style, like sleep, exercise, weight etc) in a separate file.
 :PROPERTIES:
@@ -1309,7 +1286,6 @@ It instantly ends up in my knowledge repository, immediately accesible by search
 :CREATED:  [2019-10-29]
 :ID:       whtswsmsthttthtmfcptrtmmdlkfydddttbrwsrbkmrkspnbrd
 :END:
-
 * [2020-04-13] http://www.acuriousmix.com/2014/09/03/designing-a-personal-knowledgebase motivation for fast capture there
 :PROPERTIES:
 :ID:       wwwcrsmxcmdsgnngprsnlknwldgbsmtvtnfrfstcptrthr
@@ -1336,7 +1312,6 @@ although maybe easier to emulate with [[ links?
 :PROPERTIES:
 :ID:       ltrtthrmprvngwthrgschmcwrtpsrgcqpsthtml
 :END:
-
 * TODO [#C] Tecos config? Maintainer of org site                        :org:
 :PROPERTIES:
 :CREATED:  [2021-02-20]
@@ -1404,7 +1379,6 @@ note sure about logbook...
 :PROPERTIES:
 :ID:       hnlycnnctstggldrvdrpbx
 :END:
-
 * TODO [#C] hmm would be nice if was possible to treat normal tags as roam links? not sure if this is possible at all?? :orgroam:
 :PROPERTIES:
 :CREATED:  [2021-05-19]

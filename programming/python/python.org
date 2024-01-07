@@ -36,7 +36,6 @@ distribute tests with package..
 :PROPERTIES:
 :ID:       pytstcndtctrcrsn
 :END:
-
 * [#B] * profiling                                              :performance:
 :PROPERTIES:
 :ID:       prflng
@@ -70,6 +69,7 @@ https://github.com/rkern/line_profiler
 :PROPERTIES:
 :ID:       prflng
 :END:
+
 : python3 -m cProfile -s tottime process.py | less
 : sudo apt install kcachegrind
 : pip3 install --user pyprof2calltree
@@ -160,7 +160,6 @@ ok, that seems to be way easier
 :PROPERTIES:
 :ID:       pythnhsbrkpntbltnmrshckrnthnsnwbltnbrkpntqcktrfbcc
 :END:
-
 ** TODO ~ipdb pp~ for pretty print                                    :habit:
 :PROPERTIES:
 :CREATED:  [2019-02-03]
@@ -249,7 +248,6 @@ https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-
 :PROPERTIES:
 :ID:       5b4fffdc-a69f-4c71-bb78-39ddc8ac2fdd
 :END:
-
 * [#C] * datetime handling                                         :datetime:
 :PROPERTIES:
 :ID:       dttmhndlng
@@ -268,7 +266,6 @@ https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-
 :PROPERTIES:
 :ID:       ksmsthttsbttrtspytztclclztznwrdttm
 :END:
-
 ** [2020-05-02] [[https://github.com/zachwill/moment][zachwill/moment: Dealing with dates in Python shouldn't have to suck.]]
 :PROPERTIES:
 :ID:       sgthbcmzchwllmmntzchwllmmgwthdtsnpythnshldnthvtsck
@@ -289,7 +286,6 @@ https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-
 :PROPERTIES:
 :ID:       crtngtplvllggrslwysbdmyhppnbfrcnfgrngsfctrymthd
 :END:
-
 * [#C] * docs
 :PROPERTIES:
 :ID:       dcs
@@ -321,7 +317,6 @@ https://stackoverflow.com/questions/16184487/use-ipython-magic-functions-in-ipdb
 * ----------------------------------
 :PROPERTIES:
 :END:
-
 * [#B] [2019-09-22] [[https://reddit.com/r/Python/comments/d4zfhc/python3_fstrings_a_complete_guide_to_the_most/f0ieyws/][Python3 f-strings - A complete guide to the most well received feature of Python 3.]] /r/Python
 :PROPERTIES:
 :ID:       srddtcmrpythncmmntsdzfhcpmstwllrcvdftrfpythnrpythn
@@ -344,13 +339,11 @@ https://barahilia.github.io/blog/computers/2017/01/04/to-yield-or-not-to-yield.h
 :PROPERTIES:
 :ID:       ststdmpstprsnn
 :END:
-
 * TODO [#B] use for -- else                                           :habit:
 :PROPERTIES:
 :CREATED:  [2018-04-23]
 :ID:       ffabfd54-8b67-4639-99c8-172f57eed15e
 :END:
-
 * TODO [#B] [2018-06-18] log optimizers i used
 :PROPERTIES:
 :ID:       lgptmzrssd
@@ -417,7 +410,6 @@ This gives you the power to use actual classes with actual types in your code in
 :PROPERTIES:
 :ID:       spythnlbhntcm
 :END:
-
 * TODO [#B] do not use replace tzinfo, always localize..              :habit:
 :PROPERTIES:
 :CREATED:  [2018-12-31]
@@ -567,7 +559,6 @@ https://stackoverflow.com/questions/12151306/argparse-way-to-include-default-val
 :PROPERTIES:
 :ID:       pypypckgspckgspypyrg
 :END:
-
 * [#D] Construct: kinda like struct but better? https://construct.readthedocs.io/en/latest/ :parsing:
 :PROPERTIES:
 :ID:       cnstrctkndlkstrctbtbttrscnstrctrdthdcsnltst
@@ -580,12 +571,10 @@ https://stackoverflow.com/questions/12151306/argparse-way-to-include-default-val
 :PROPERTIES:
 :ID:       kythngtsgthbcmkrlcsskythngtmstrdpndncyfrstpcfg
 :END:
-
 * TODO [#D] [2018-07-22] PyCon 2018 Talk Videos : Python https://www.reddit.com/r/Python/comments/8j4ep6/pycon_2018_talk_videos/ :towatch:
 :PROPERTIES:
 :ID:       pycntlkvdspythnswwwrddtcmrpythncmmntsjppycntlkvds
 :END:
-
 * [#D] [2019-08-02] Basic usage — tox 3.13.3.dev13 documentation
 :PROPERTIES:
 :ID:       bscsgtxdvdcmnttn
@@ -662,12 +651,10 @@ https://tox.readthedocs.io/en/latest/example/general.html#interactively-passing-
 :PROPERTIES:
 :ID:       frmmprtstts
 :END:
-
 * [2018-01-21] use nonlocal instead of global                         :habit:
 :PROPERTIES:
 :ID:       4475cae4-cb32-4a4b-a3ec-78a9af79f8c0
 :END:
-
 * TODO !r formatter                                                   :habit:
 :PROPERTIES:
 :CREATED:  [2019-02-04]
@@ -709,7 +696,6 @@ hmm. if I decorate function with list constructor, I can get both ease of use an
 :PROPERTIES:
 :ID:       hdntthnktwrkdfrmprfrtrlynstppy
 :END:
-
 * [#C] [2019-08-25] https://docs.python.org/3.7/library/argparse.html argparse: use ~set_defaults~
 :PROPERTIES:
 :ID:       sdcspythnrglbrryrgprshtmlrgprssstdflts
@@ -720,7 +706,6 @@ hmm. if I decorate function with list constructor, I can get both ease of use an
 :PROPERTIES:
 :ID:       hcldpsslmbdtfrwrdtctlhndlrfnctn
 :END:
-
 * TODO [#C] generate_ordering?                                       :python:
 :PROPERTIES:
 :CREATED:  [2019-07-29]
@@ -752,7 +737,6 @@ https://github.com/rstojnic/lazydata
 :PROPERTIES:
 :ID:       stkndkpstxtlsbmdlsfrdt
 :END:
-
 * TODO [#C] using pytest fixtures to inject stuff into the module :python:pytest:
 :PROPERTIES:
 :CREATED:  [2019-08-02]
@@ -882,7 +866,6 @@ fucking hell..
 :PROPERTIES:
 :ID:       stktprvdr
 :END:
-
 * [#C] [2020-03-12] encode/httpx: A next generation HTTP client for Python. 🦋
 :PROPERTIES:
 :ID:       ncdxnxtgnrtnclntfrpythn
@@ -1240,7 +1223,6 @@ https://dev.to/wemake-services/simple-dependent-types-in-python-4e14
 :PROPERTIES:
 :ID:       frmdvcmsrcscrtsfrmhckfrmhcks
 :END:
-
 * [#B] [2019-03-17] pylint useful stuff                              :python:
 :PROPERTIES:
 :ID:       pylntsflstff
@@ -1282,7 +1264,6 @@ https://github.com/lihaoyi/macropy
 :PROPERTIES:
 :ID:       wwthtsmzngsmcrpyrdthdcsnltstdscssnhtmlfnctndvc
 :END:
-
 * [#D] [2020-01-09] What does it do? — Logbook               :python:logging:
 :PROPERTIES:
 :ID:       whtdstdlgbk
@@ -1361,7 +1342,6 @@ http://python-notes.curiousefficiency.org/en/latest/python_concepts/import_traps
 :PROPERTIES:
 :ID:       schrsyhgthbdfntvgdpythnmpgdtpythnmprtsttmntschrsyh
 :END:
-
 * [#B] [2020-08-09] [[https://stackoverflow.com/questions/18770504/resize-ipython-notebook-output-window][resize ipython notebook output window - Stack Overflow]]
 :PROPERTIES:
 :ID:       sstckvrflwcmqstnsrszpythnpythnntbktptwndwstckvrflw
@@ -1401,7 +1381,6 @@ https://github.com/box/flaky
 :PROPERTIES:
 :ID:       pythnpylb
 :END:
-
 * [#C] [2018-12-23] lambdalisue/jupyter-vim-binding: Jupyter meets Vim. Vimmer will fall in love. :vim:jupyter:
 :PROPERTIES:
 :ID:       lmbdlsjpytrvmbndngjpytrmtsvmvmmrwllfllnlv
@@ -1429,7 +1408,6 @@ https://python-packaging.readthedocs.io/en/latest/command-line-scripts.html#the-
 :PROPERTIES:
 :ID:       hmmmybbsttsscrptssmsmrmngbl
 :END:
-
 * [2019-10-18] Hy - Wikipedia                                   :lisp:python:
 :PROPERTIES:
 :ID:       hywkpd
@@ -1455,7 +1433,6 @@ https://www.reddit.com/r/Python/comments/69wym8/when_do_you_us_beautiful_soup_or
 :PROPERTIES:
 :ID:       tldrscrpysbttr
 :END:
-
 * [2019-04-07] DataFrame — pandas 0.24.2 documentation               :pandas:
 :PROPERTIES:
 :ID:       dtfrmpndsdcmnttn
@@ -1536,6 +1513,7 @@ https://www.reddit.com/r/Python/comments/5nwk9r/plotly_vs_bokeh_vs/
 :PROPERTIES:
 :ID:       dllsmstbsprrtpckl
 :END:
+
 e.g. unpicling requires exactly same modules etc? might be hard if you want to unpickle elsewhere
 
 https://stackoverflow.com/a/25244948/706389
@@ -1555,7 +1533,6 @@ https://bokeh.pydata.org/en/latest/docs/user_guide/quickstart.html#userguide-qui
 :PROPERTIES:
 :ID:       kspprntlybkhsmrkntpltly
 :END:
-
 * [#C] [2019-02-12] python - how to set readable xticks in seaborn's facetgrid? - Stack Overflow :plotting:seaborn:
 :PROPERTIES:
 :ID:       pythnhwtstrdblxtcksnsbrnsfctgrdstckvrflw
@@ -1604,6 +1581,7 @@ https://stackoverflow.com/questions/12151306/argparse-way-to-include-default-val
 :PROPERTIES:
 :ID:       gglpytypsttctypnlyzrfrpythncd
 :END:
+
 https://github.com/google/pytype
 
 * TODO [#B] [2020-01-03] Comparing Python Command-Line Parsing Libraries – Argparse, Docopt, and Click | Hacker News :python:
@@ -1623,7 +1601,6 @@ https://news.ycombinator.com/item?id=10185290
 :PROPERTIES:
 :ID:       sfstpgsfstfstcrfstcrnndrrtdpythnlbrryfstpgs
 :END:
-
 * [2021-01-05] [[https://news.ycombinator.com/item?id=25620256][On Repl-Driven Programming | Hacker News]] :repl:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdnrpldrvnprgrmmnghckrnws
@@ -1653,7 +1630,6 @@ https://buttondown.email/hillelwayne/archive/why-python-is-my-favorite-language/
 :PROPERTIES:
 :ID:       snbsftyrgnbsftyfrlssntrctvtyfrjpytrntbks
 :END:
-
 * [2020-12-29] [[https://tryolabs.com/blog/2020/12/21/top-10-python-libraries-of-2020/][Top 10 Python libraries of 2020 you should know about | Tryolabs Blog]]
 :PROPERTIES:
 :ID:       strylbscmblgtppythnlbrrsflbrrsfyshldknwbttrylbsblg
@@ -1663,7 +1639,6 @@ https://buttondown.email/hillelwayne/archive/why-python-is-my-favorite-language/
 :PROPERTIES:
 :ID:       spyvzrgvrvwsndxhtmlvrvwspyvzdcmnttn
 :END:
-
 * TODO [#B] [2020-12-05] [[https://github.com/fastai/nbdev][fastai/nbdev: Create delightful python projects using Jupyter Notebooks]]
 :PROPERTIES:
 :ID:       sgthbcmfstnbdvfstnbdvcrtdlpythnprjctssngjpytrntbks
@@ -1695,7 +1670,6 @@ https://buttondown.email/hillelwayne/archive/why-python-is-my-favorite-language/
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdpynstrmntlthtfcssnthslwprtshckrnws
 :END:
-
 * [#C] [2020-11-25] [[https://stackoverflow.com/questions/11414894/extract-traceback-info-from-an-exception-object][python - Extract traceback info from an exception object - Stack Overflow]] :errors:
 :PROPERTIES:
 :ID:       sstckvrflwcmqstnsxtrcttrcknffrmnxcptnbjctstckvrflw
@@ -1747,7 +1721,6 @@ so much indirection!!
 :PROPERTIES:
 :ID:       spckgngpythnrggdspblshngpccdwrkflwspythnpckgngsrgd
 :END:
-
 * TODO [#C] [2020-12-22] [[https://github.com/uva-graphics/autoimp][uva-graphics/autoimp: Automatic Python imports]]
 :PROPERTIES:
 :ID:       sgthbcmvgrphcstmpvgrphcstmptmtcpythnmprts
@@ -1765,7 +1738,6 @@ so much indirection!!
 :PROPERTIES:
 :ID:       vndrngpythndpndncswthppnddrngpythndpndncswthppbbbc
 :END:
-
 * [#D] [2020-02-04] PyPy - Performance https://pypy.org/performance.html#profiler
 :PROPERTIES:
 :ID:       pypyprfrmncspypyrgprfrmnchtmlprflr
@@ -1775,7 +1747,6 @@ so much indirection!!
 :PROPERTIES:
 :ID:       swwwpythnrgdvppsppppprmtrspcfctnvrblspythnrg
 :END:
-
 * [#D] [2020-01-06] Please Fix Your Decorators · Homepage of Hynek Schlawack https://hynek.me/articles/decorators/
 :PROPERTIES:
 :ID:       plsfxyrdcrtrshmpgfhynkschlwckshynkmrtclsdcrtrs
@@ -1890,7 +1861,6 @@ reasonable list (aka why python logging sucks by default)
 :PROPERTIES:
 :ID:       thbjrnpydpspythnmdldpndncygrphssgthbcmthbjrnpydps
 :END:
-
 * [#C] [2020-05-15] [[https://dmerej.info/blog/post/hello-flake8/][Hello flake8 • Dimitri Merejkowsky]] :pylint:
 :PROPERTIES:
 :ID:       sdmrjnfblgpsthllflkhllflkdmtrmrjkwsky

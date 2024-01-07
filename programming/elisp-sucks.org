@@ -49,7 +49,6 @@ In untyped language like Elisp all bets are off, the only way to find out how to
 :PROPERTIES:
 :ID:       hmmhwtrrngtwthdcmnttnsctn
 :END:
-
 *** TODO [#B] [2021-01-25] to be fair to Elisp, I'm finding clojure suffering from the same problem :clojure:lisp:
 :PROPERTIES:
 :ID:       tbfrtlspmfndngcljrsffrngfrmthsmprblm
@@ -91,7 +90,6 @@ Similarly, something we have to deal with all the time, and *especially* in a te
 :PROPERTIES:
 :ID:       thshrtnswrstssl
 :END:
-
 ** error handling is bad
 :PROPERTIES:
 :ID:       rrrhndlngsbd
@@ -174,7 +172,6 @@ but discoverability really suffers
 :PROPERTIES:
 :ID:       swwwmcswkrgmcswhydslspsckmcswkwhydslspsck
 :END:
-
 * --------------------------------------------
 :PROPERTIES:
 :END:
@@ -213,7 +210,6 @@ stacktrace is pretty useful too
 :CREATED:  [2019-10-18]
 :ID:       ctllyflspssxtnsblndycndnyhmcmcntwrtmymcscnfgnpythn
 :END:
-
 * [#D] [2019-10-20] Output Functions - GNU Emacs Lisp Reference Manual :elisp:lisp:
 :PROPERTIES:
 :ID:       tptfnctnsgnmcslsprfrncmnl
@@ -362,7 +358,6 @@ let's compare: e.g. vimscript. When I used vim I haven't even attempted to custo
 :CREATED:  [2020-01-03]
 :ID:       wrtpstcmprngwhtlspcmmnlspffrsndcmprtpythn
 :END:
-
 * CANCEL [#C] "How do we kill Elisp?"                          :elisp:toblog:
 :PROPERTIES:
 :CREATED:  [2020-04-12]

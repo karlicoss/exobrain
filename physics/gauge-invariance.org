@@ -12,7 +12,6 @@ https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%B8%D0%B1%D1%80%D0%BE%D0%B2%D
 :PROPERTIES:
 :ID:       sggnvrncprsrvschrg
 :END:
-
 * [#B] [2019-01-17] Gauge Symmetry
 :PROPERTIES:
 :ID:       ggsymmtry
@@ -28,7 +27,6 @@ SU(3)×SU(2)×U(1) gauge symmetry of the standard model. In addition, there are 
 :PROPERTIES:
 :ID:       ggsymmtrsrntrlsymmtrsthyryrdndncsnrdscrptnfthsystm
 :END:
-
 * [#B] [2019-03-17] Shubhendu Trivedi on Twitter: "This post by Terence Tao is absolutely brilliant https://t.co/QSMU5fmA62 no jargon, no attempt to "formalize" and get lost in the details. Favourite expressions: when you "fix" a gauge you "spend the symmetry", once you normalize later to restore invariance you "buy it back"."
 :PROPERTIES:
 :ID:       shbhndtrvdntwttrthspstbytnrmlzltrtrstrnvrncybytbck
@@ -38,7 +36,6 @@ https://twitter.com/_onionesque/status/1107041001976332289
 :PROPERTIES:
 :ID:       kprttygdsmmrywthxmplsfvrsrgrsty
 :END:
-
 * Maldacena economics analogy gauge theory
 :PROPERTIES:
 :ID:       mldcncnmcsnlgyggthry

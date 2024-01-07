@@ -42,7 +42,6 @@ Bash & shell programming
 :PROPERTIES:
 :ID:       a634e825-dba8-4161-ae44-46f42afa6a6b
 :END:
-
 ** [2018-04-26] get current script directory
 :PROPERTIES:
 :ID:       gtcrrntscrptdrctry
@@ -83,12 +82,10 @@ priorities roughly indicate how useful I find each command
 :CREATED:  [2019-06-20]
 :ID:       49b87f35-d5be-424d-9695-42b15c7641fe
 :END:
-
 ** [#C] [2018-05-08] ~ps aufx~ to list all processes
 :PROPERTIES:
 :ID:       psfxtlstllprcsss
 :END:
-
 ** [#C] tree -pufi for file tree with permissions                     :habit:
 :PROPERTIES:
 :CREATED:  [2018-09-18]
@@ -102,7 +99,6 @@ priorities roughly indicate how useful I find each command
 :PROPERTIES:
 :ID:       dtctflbrrysnstlldldcnfgpgrplbjpgrgccljpg
 :END:
-
 ** [#D] [2015-07-23] merging pdfs
 :PROPERTIES:
 :ID:       mrgngpdfs
@@ -116,7 +112,6 @@ priorities roughly indicate how useful I find each command
 :CREATED:  [2018-03-01]
 :ID:       67a7fb46-4a6e-491b-ada9-6e6dfb54ac3f
 :END:
-
 * TODO [#C] use whiptail for ncurses dialogs                      :tui:habit:
 :PROPERTIES:
 :ID:       a4e1347c-793d-4650-a883-35e9d724f523

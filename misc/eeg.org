@@ -14,7 +14,6 @@ https://github.com/OpenBCI
 :PROPERTIES:
 :ID:       gnglnsshppnbccmcllctnsfrnprrdrgnglnbrdvrntcndgmgcg
 :END:
-
 ** https://neurobb.com/t/is-there-really-no-affordable-user-friendly-neurofeedback-hardware-software-out-there/75
 :PROPERTIES:
 :ID:       snrbbcmtsthrrllynffrdblsrndlynrfdbckhrdwrsftwrtthr
@@ -79,6 +78,7 @@ ok, so it looks pretty easy to filter individual frequencies too.
 :PROPERTIES:
 :ID:       dyhvfncntrlfyrhdndnckfsthrwllbmchbttrmsbyntrxnrmtv
 :END:
+
 https://www.reddit.com/r/eeg/comments/6bqd63/looking_for_affordable_wired_personal_eeg/
 https://www.reddit.com/r/eeg/comments/3vxbem/comparison_of_consumer_eeg_devices/
 http://www.autodidacts.io/neurotech-hardware-roundup-eeg-bci-tdcs-neurofeedback/
@@ -86,7 +86,6 @@ http://www.autodidacts.io/neurotech-hardware-roundup-eeg-bci-tdcs-neurofeedback/
 :PROPERTIES:
 :ID:       ltrcrtxdprntd
 :END:
-
 * [2018-07-15] how are EMG and EEG different?                           :emg:
 :PROPERTIES:
 :ID:       hwrmgndgdffrnt
@@ -141,7 +140,6 @@ kit for 99
 :PROPERTIES:
 :ID:       lxprss
 :END:
-
 * Neurosky?
 :PROPERTIES:
 :ID:       nrsky
@@ -158,7 +156,6 @@ kit for 99
 :PROPERTIES:
 :ID:       prttyxpnsvnmznbtgbp
 :END:
-
 * CNCL Neuroonopen
 :PROPERTIES:
 :ID:       nrnpn
@@ -184,7 +181,6 @@ https://neuroonopen.com/
 :PROPERTIES:
 :ID:       nnwsfrmthm
 :END:
-
 * Emotiv https://www.emotiv.com/comparison/
 :PROPERTIES:
 :ID:       mtvswwwmtvcmcmprsn
@@ -267,7 +263,6 @@ the guy is quite decent though. doing lots of self experiments, cool.
 :PROPERTIES:
 :ID:       fnldcsnkthdtssflnddntcrthtnrfdbcknstdnvstnprprpnbc
 :END:
-
 ** good review https://www.warrior.do/muse-headband-review/
 :PROPERTIES:
 :ID:       gdrvwswwwwrrrdmshdbndrvw
@@ -280,7 +275,6 @@ the guy is quite decent though. doing lots of self experiments, cool.
 :PROPERTIES:
 :ID:       mndflxtys
 :END:
-
 * https://johnfawkes.com/becoming-superhuman-through-diy-brain-scanning/
 :PROPERTIES:
 :ID:       sjhnfwkscmbcmngsprhmnthrghdybrnscnnng
@@ -301,7 +295,6 @@ https://medium.com/neurable/announcing-the-worlds-first-brain-computer-interface
 :PROPERTIES:
 :ID:       dnnlmstnthngnrddtycntbytnwtctrygnsmwhtltr
 :END:
-
 * [#B] [2019-01-24] EEG-SMT - Open Source Hardware Board                :eeg:
 :PROPERTIES:
 :ID:       gsmtpnsrchrdwrbrd
@@ -421,7 +414,6 @@ ok, so apparently currently there is no reliable way of tracking very accurate c
 :PROPERTIES:
 :ID:       hhfrdlvryswwwnbycmgbscncnbrnsmsclspkrbxnrscncnbxcp
 :END:
-
 ** STRT [#C] [2019-01-20] Myoware EMG Sensor - Arduino Tutorial | Cost Effective EMG Sensor - RootSaid :emg:
 :PROPERTIES:
 :ID:       mywrmgsnsrrdnttrlcstffctvmgsnsrrtsd
@@ -435,7 +427,6 @@ https://rootsaid.com/myoware-emg-sensor-arduino/
 :PROPERTIES:
 :ID:       swwwytbcmmbddftnyjhmmthtlksprmsng
 :END:
-
 ** [#C] [2019-01-25] Advancer Technologies, LLC: [DIY] Conductive Fabric Electrodes :emg:
 :PROPERTIES:
 :ID:       dvncrtchnlgsllcdycndctvfbrclctrds
@@ -446,7 +437,6 @@ hmm, that's pretty cool, could get reusable electrodes that way
 :PROPERTIES:
 :ID:       hckngyrbrnwvsgdtwrblmdttnsswwwdygnscmhckngyrbrnwvs
 :END:
-
 ** [#C] [2019-02-24] TrueSense Exploration Kit | OP Innovations     :eeg:emg:
 :PROPERTIES:
 :ID:       trsnsxplrtnktpnnvtns
@@ -462,7 +452,6 @@ https://www.op-innovations.com/en/node/96
 :PROPERTIES:
 :ID:       hwthcktygsfrntrnrdswwwfrntrnrdscmbrnhck
 :END:
-
 * [#C] [2019-05-21] Home                                             :eeg:vr:
 :PROPERTIES:
 :ID:       hm
@@ -485,7 +474,6 @@ https://medium.com/@justlv/using-ai-to-read-your-thoughts-with-keras-and-an-eeg-
 :PROPERTIES:
 :ID:       vryclltsfgdtchnqswthsgnlprcssngndnrlntwrks
 :END:
-
 * [2019-07-20] Inria - Comparison of a consumer grade EEG amplifier with medical grade equipment in BCI applications https://hal.inria.fr/hal-01278245
 :PROPERTIES:
 :ID:       nrcmprsnfcnsmrgrdgmplfrwtdqpmntnbcpplctnsshlnrfrhl
@@ -495,7 +483,6 @@ https://medium.com/@justlv/using-ai-to-read-your-thoughts-with-keras-and-an-eeg-
 :PROPERTIES:
 :ID:       mtrsrchrtksthqntfdslftthxhhmncybrgcllctnghsmmrsnvd
 :END:
-
 * [#B] [2019-02-24] Alex Grey on Tracking Muscle Data (EMG, ECG) - Quantified Self :qs:emg:
 :PROPERTIES:
 :ID:       lxgryntrckngmscldtmgcgqntfdslf
@@ -518,7 +505,6 @@ https://www.reddit.com/r/NeuroHacking/comments/89qasr/does_anybody_knows_how_to_
 :PROPERTIES:
 :ID:       mlnbnddsmssdswwwrddtcmrqnwhttdwththsmlnghdbndnwtht
 :END:
-
 * related                                                        :emg:bci:qs:
 :PROPERTIES:
 :ID:       rltd

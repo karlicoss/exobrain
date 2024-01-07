@@ -22,12 +22,10 @@ Project: https://github.com/karlicoss/promnesia
 :PROPERTIES:
 :ID:       lclbrwsrdtbs
 :END:
-
 ** DONE [#C] Google takeout                                         :takeout:
 :PROPERTIES:
 :ID:       ggltkt
 :END:
-
 *** CANCEL investigation what data is actually contributing to takeout
 :PROPERTIES:
 :ID:       nvstgtnwhtdtsctllycntrbtngttkt
@@ -263,7 +261,6 @@ https://physicstravelguide.com/advanced_tools/gauge_symmetry#tab__faq this for e
 :PROPERTIES:
 :ID:       mybstfrstnlythnfllbckndfltlgcldmktcnfgrbl
 :END:
-
 ** DONE [#B] trying to debug unresponsiveness after idling        :promnesia:
 :PROPERTIES:
 :CREATED:  [2020-05-24]
@@ -336,7 +333,6 @@ maybe frontend pages need to 'ask' backend to register callbacks?...
 :CREATED:  [2019-11-04]
 :ID:       ndtdfnsfyvrythng
 :END:
-
 ** TODO [#C] Expose db from the server??                          :malleable:
 :PROPERTIES:
 :CREATED:  [2020-04-24]
@@ -457,7 +453,6 @@ extension works weird on this page w.r.t. scrolling
 :PROPERTIES:
 :ID:       ldmrfpgsscrlldgnnbtrcky
 :END:
-
 * [#C] * indexer: bugs/issues
 :PROPERTIES:
 :ID:       ndxrbgssss
@@ -510,7 +505,6 @@ also bindSidebarData (in logs) is quite slow and also logs are spammy
 :PROPERTIES:
 :ID:       hmmndttrchthm
 :END:
-
 * TODO [#B] different notions of 'visited'                            :think:
 :PROPERTIES:
 :CREATED:  [2020-05-17]
@@ -539,7 +533,6 @@ anothe is visual, i.e. scrape off the links that were on the screen and store (k
 :PROPERTIES:
 :ID:       ctllypnbrdkpnbckpnrpstrytthxtrctrrdmnstrtjsnxtrctr
 :END:
-
 * TODO [#B] [2019-12-15] Andy Matuschak on Twitter: "@LiquidTextCorp I'm very excited to try!" :motivation:
 :PROPERTIES:
 :ID:       ndymtschkntwttrlqdtxtcrpmvryxctdttry
@@ -662,7 +655,6 @@ I think I've figured out how to read hackernews 'new' page
 :PROPERTIES:
 :ID:       cldlsdscsswthlvrfrmwrldbrnmmx
 :END:
-
 * TODO [#B] demo: tweet HN new reading when I encounter some user I know
 :PROPERTIES:
 :CREATED:  [2020-11-19]
@@ -695,7 +687,6 @@ if 'most' of page matches, then highlight is prob. wrong?
 :PROPERTIES:
 :ID:       gssfshwtnhnbttrgttrght
 :END:
-
 * TODO [#C] test: for the end2end test, run it against a database indexed with an older (PIP) version
 :PROPERTIES:
 :CREATED:  [2020-11-17]
@@ -716,7 +707,6 @@ test it on a fresh docker
 :CREATED:  [2020-05-20]
 :ID:       plsvstsdtrjstvwlldcmnttnrtclsbscncpts
 :END:
-
 * STRT [#C] for demo, could just anonymize people? that would solve 99% of it :promnesia:demo:
 :PROPERTIES:
 :CREATED:  [2019-12-22]
@@ -769,7 +759,6 @@ also they don't look quite well in dark mode?
 :PROPERTIES:
 :ID:       ntgrtnmmx
 :END:
-
 * STRT [#C] post automatic demo gifs                                :publish:
 :PROPERTIES:
 :CREATED:  [2020-03-25]
@@ -854,7 +843,6 @@ this isn't supper pretty, but enough to visually glance and notice
 :PROPERTIES:
 :ID:       pstbttwhydntwbshmnbrnwhchrtpttrnrcgntnthncmptrssfr
 :END:
-
 * WAIT [#C] publish packed zips in releases; assemble automatically on ci :ci:webext:promnesia:
 :PROPERTIES:
 :CREATED:  [2020-05-19]
@@ -909,7 +897,6 @@ constantly reloads on this page :(
 :PROPERTIES:
 :ID:       cnbslvdtmprrlywthprprblcklstng
 :END:
-
 * STRT [#C] be less annoying about errors.. not sure how though      :errors:
 :PROPERTIES:
 :CREATED:  [2019-08-07]
@@ -927,7 +914,6 @@ constantly reloads on this page :(
 :PROPERTIES:
 :ID:       yhgssthydbknsdbrbscllymkscnvnntfrsttngsccsstsrchtc
 :END:
-
 * TODO [#C] Def need way to make it less spammy on network errors on phone. System wide notification is too much :errors:
 :PROPERTIES:
 :CREATED:  [2019-09-02]
@@ -1070,13 +1056,11 @@ I definitely need to integrate promnesia crawling with webpages backups, that wa
 :CREATED:  [2019-06-10]
 :ID:       hmmdflkslkchrmssyncngbtsflcldtbsswllgh
 :END:
-
 * TODO [#C] polar got OK design for sidebar     :polar:promnesia:inspiration:
 :PROPERTIES:
 :CREATED:  [2019-06-12]
 :ID:       plrgtkdsgnfrsdbr
 :END:
-
 * STRT [#C] custom search engine?                                    :search:
 :PROPERTIES:
 :CREATED:  [2019-06-05]
@@ -1087,7 +1071,6 @@ I definitely need to integrate promnesia crawling with webpages backups, that wa
 :CREATED:  [2019-04-29]
 :ID:       cmfrmsjstcntxtwldcvrfcss
 :END:
-
 * TODO [#C] tags are pretty useful...
 :PROPERTIES:
 :CREATED:  [2019-05-04]
@@ -1149,7 +1132,6 @@ though
 :PROPERTIES:
 :ID:       srchflnmplcssqltsgthbcmsrchpqflnmplcssqlttypcd
 :END:
-
 * TODO [#C] [2019-07-14] mitchellkrogza/Ultimate.Hosts.Blacklist: The Ultimate Unified Hosts file for protecting your network, computer, smartphones and Wi-Fi devices against millions of bad web sites. Protect your children and family from gaining access to bad web sites and protect your devices and pc from being infected with Malware or Ransomware.
 :PROPERTIES:
 :ID:       mtchllkrgzltmthstsblcklstfrmbngnfctdwthmlwrrrnsmwr
@@ -1377,7 +1359,6 @@ clicking on title causes page reloading, also shows notification etc. a bit spam
 :PROPERTIES:
 :ID:       rfrgntwbxtptnssyncrccndtnnptnssynccnstrctr
 :END:
-
 * STRT [#C] Highlight blacklisted and paywalled websites
 :PROPERTIES:
 :CREATED:  [2019-10-27]
@@ -1388,7 +1369,6 @@ Like ft, technology review
 :PROPERTIES:
 :ID:       wthmrkvstdtsmchsrnwcldvnhspclsrcndpplyspclstyltthm
 :END:
-
 * STRT [#C] [2019-11-04] performance: vinta/awesome-python: A curated list of awesome Python frameworks, libraries, software and resources
 :PROPERTIES:
 :ID:       prfrmncvntwsmpythncrtdlstnfrmwrkslbrrssftwrndrsrcs
@@ -1430,7 +1410,6 @@ https://twitter.com/WillManidis/status/1199337719295381509
 :PROPERTIES:
 :ID:       ghtwtsgn
 :END:
-
 * TODO [#C] ui, phone: don't really have to tweak body? as it's easy to hide/show sidebar :promnesia:togithub:
 :PROPERTIES:
 :CREATED:  [2019-11-12]
@@ -1447,7 +1426,6 @@ but why did I follow them in the first place, there must have been good reason?
 :CREATED:  [2019-12-24]
 :ID:       bldclntnlyvrsnsdmnstrtn
 :END:
-
 * TODO [#D] query database
 :PROPERTIES:
 :CREATED:  [2019-11-28]
@@ -1477,7 +1455,6 @@ not sure, shouldn't show popup on every transition... have a timer or something?
 :CREATED:  [2019-12-26]
 :ID:       cldmpdffrntpplntthsmntty
 :END:
-
 * TODO [#C] after loading browser with previously open tabs and then closing them; shows 'host permission' warning
 :PROPERTIES:
 :CREATED:  [2020-01-07]
@@ -1493,19 +1470,16 @@ not sure, shouldn't show popup on every transition... have a timer or something?
 :CREATED:  [2020-01-25]
 :ID:       mybgttrckdsrvrcnfgsntsbd
 :END:
-
 * TODO [#C] Use hub/click? And maybe docker to isolate        :docker:python:
 :PROPERTIES:
 :CREATED:  [2020-01-25]
 :ID:       shbclckndmybdckrtslt
 :END:
-
 * TODO [#C] Would be rad if it was possible to simply run it against GitHub repo straight from ui
 :PROPERTIES:
 :CREATED:  [2020-01-25]
 :ID:       wldbrdftwspssbltsmplyrntgnstgthbrpstrghtfrm
 :END:
-
 * TODO [#C] [2020-01-25] Robot&AIWorld on Twitter: "Here's more footage of MIT's Mini Cheetahs cavorting, frolicking, back-flipping, playing soccer and generally acting fun and cute, courtesy of the Biomimetic Robotics Lab @MITMechE  https://t.co/8ZQzDvCDVW" / Twitter
 :PROPERTIES:
 :ID:       rbtwrldntwttrhrsmrftgfmtsslbmtmchstczqzdvcdvwtwttr
@@ -1521,7 +1495,6 @@ should be handled, I liked/RTd it on twitter
 :PROPERTIES:
 :ID:       thsshldrllybsr
 :END:
-
 * TODO [#C] shit, google docs trigger a lot of reloads.. really should debounce
 :PROPERTIES:
 :CREATED:  [2020-02-10]
@@ -1580,7 +1553,6 @@ e.g. if the page is updated in the background (e.g. youtube video), do we want t
 :PROPERTIES:
 :ID:       shtrqstnvrytbswtchsntgd
 :END:
-
 * STRT [#C] [2019-08-10] right, chrome doesn't support android extensions. could use bookmarklet or something?? https://stackoverflow.com/a/10606887/706389
 :PROPERTIES:
 :ID:       rghtchrmdsntspprtndrdxtnskmrkltrsmthngsstckvrflwcm
@@ -1973,7 +1945,6 @@ imagine if this information was available to you instead
 :CREATED:  [2020-07-01]
 :ID:       pstrchvrghghlghts
 :END:
-
 * TODO [#C] merge mode -- could combine public and private data
 :PROPERTIES:
 :CREATED:  [2020-07-18]
@@ -2165,7 +2136,6 @@ https://github.com/karlicoss/promnesia
 :PROPERTIES:
 :ID:       mybndsmthngbtmrdscrtfrcntxtsntfctn
 :END:
-
 * TODO [#D] shows host error exceptions in firefox on pdfs :promnesia:togithub:
 :PROPERTIES:
 :CREATED:  [2019-10-12]
@@ -2330,7 +2300,6 @@ shows error on this file very consistently..
 :CREATED:  [2018-10-18]
 :ID:       fckdggltkthdjsnfrmtsfrctvty
 :END:
-
 * STRT [#D] use really really old takeout and see what happens
 :PROPERTIES:
 :CREATED:  [2019-02-26]
@@ -2346,7 +2315,6 @@ shows error on this file very consistently..
 :CREATED:  [2019-03-19]
 :ID:       mtvtnfrbrwsrhstrytsjstsrtktdtjstndtmrgthmtgthrspps
 :END:
-
 * STRT [#D] option to disable dots on the page (permanently or temrporary)
 :PROPERTIES:
 :CREATED:  [2019-05-05]
@@ -2365,7 +2333,6 @@ shows error on this file very consistently..
 :PROPERTIES:
 :ID:       lkrmmbrncgntmyb
 :END:
-
 * TODO [#D] backend: URL extraction via NN?
 :PROPERTIES:
 :CREATED:  [2019-04-08]
@@ -2438,7 +2405,6 @@ I guess it's not very reasonable to expect 10K items to render really really fas
 :CREATED:  [2020-02-18]
 :ID:       wldbfntrnthbckndnndrd
 :END:
-
 * TODO [#D] need to fix compare db to allow for small relative changes? at least for pinboard and reddit
 :PROPERTIES:
 :CREATED:  [2020-04-02]
@@ -2604,7 +2570,6 @@ I guess just share the 'normalizing regex'?
 :CREATED:  [2020-01-23]
 :ID:       scchwfrbrwsrhstry
 :END:
-
 * DONE [#C] [2020-05-27] [[https://github.com/sshkarupa/url-handlers][sshkarupa/url-handlers]] :mimemacs:
 :PROPERTIES:
 :ID:       sgthbcmsshkrprlhndlrssshkrprlhndlrs
@@ -2664,17 +2629,14 @@ kinda suspicious, he gives prism in demo, but uses highlight js himself..
 :PROPERTIES:
 :ID:       wldbhrdbcsfndtlgntc
 :END:
-
 * [#A] [2020-02-18] [[https://addons.mozilla.org/en-US/developers/addon/promnesia/versions/submit/][Upload Add-on :: Promnesia :: Add-ons for Firefox]]
 :PROPERTIES:
 :ID:       sddnsmzllrgnsdvlprsddnprmsbmtpldddnprmnsddnsfrfrfx
 :END:
-
 * TODO [#C] [2020-10-28] [[https://github.com/thesephist/histools][thesephist/histools: A collection of tools for generating data visualizations from browser history data]]
 :PROPERTIES:
 :ID:       sgthbcmthsphsthstlsthsphsgdtvslztnsfrmbrwsrhstrydt
 :END:
-
 * STRT [#C] release: suggest to update the backend
 :PROPERTIES:
 :CREATED:  [2020-11-24]
@@ -2697,7 +2659,6 @@ and instead engaged in a coding/refactoring streak. oh well
 :CREATED:  [2020-11-19]
 :ID:       hwtrnsprxysrvrstwldwrkwthnypps
 :END:
-
 * TODO Tweet from @posobin                            :promnesia:inspiration:
 :PROPERTIES:
 :CREATED:  [2020-11-21]
@@ -2732,7 +2693,6 @@ results in source-org-profile.svg
 :CREATED:  [2020-11-02]
 :ID:       swwwfrcdcmprgnwslsslsswbntnsptlmdlfdsmrvllstwnynsh
 :END:
-
 * TODO [#C] email mek
 :PROPERTIES:
 :CREATED:  [2020-11-30]
@@ -2774,7 +2734,6 @@ visited marks shift the left menu
 :PROPERTIES:
 :ID:       plyngrndwthchrmshstrysgstgthbcmdrpmwrdcbbcchrm
 :END:
-
 * TODO [#C] [2020-12-05] interop: [[https://github.com/DIYgod/RSSHub][DIYgod/RSSHub: 🍰 Everything is RSSible]] :rss:promnesia:wildcard:
 :PROPERTIES:
 :ID:       ntrpsgthbcmdygdrsshbdygdrsshbvrythngsrssbl
@@ -2888,7 +2847,6 @@ I've already had the UI. Next step would be seeing if we can cooperate. I'll try
 :CREATED:  [2019-11-30]
 :ID:       ptntlsclftrsthrpplsnnttns
 :END:
-
 * TODO [#C] demonstrate on some provider how it works as plaintext (e.g. grep), then as json and then as specific provider (and what do we get from that?)
 :PROPERTIES:
 :CREATED:  [2019-12-26]
@@ -2919,13 +2877,11 @@ I've already had the UI. Next step would be seeing if we can cooperate. I'll try
 :CREATED:  [2019-12-27]
 :ID:       mtvtnfyrdggngfrsmtpcyfndyrslfncrsnglyrnnngtthsmppl
 :END:
-
 * STRT [#C] Crucial ability is jumping right into context (tweet/tg message/etc). That complements search really well :infra:promnesia:
 :PROPERTIES:
 :CREATED:  [2019-12-18]
 :ID:       crclbltysjmpngrghtntcntxtgtcthtcmplmntssrchrllywll
 :END:
-
 * STRT [#D] Tweet from @jethroksy                                 :promnesia:
 :PROPERTIES:
 :CREATED:  [2020-02-28]
@@ -2960,7 +2916,6 @@ https://twitter.com/dalmo3/status/1229733827595001856
 :PROPERTIES:
 :ID:       ndymtschkstwttrcmndymtschkstts
 :END:
-
 * TODO [#B] [2020-04-28] tweet at mek?
 :PROPERTIES:
 :ID:       twttmk
@@ -2993,13 +2948,11 @@ But that manifested in lots of spurious errors for various edge cases, so I had 
 :CREATED:  [2019-06-16]
 :ID:       dsgnfwthngsbcmpprntrltmpdfrmscrtchkcchwsmtvtdbytht
 :END:
-
 * TODO [#C] design: There is no way to implement this without keeping the data locally (or to be more specific, in one place)
 :PROPERTIES:
 :CREATED:  [2019-12-17]
 :ID:       dsgnthrsnwytmplmntthswthtgthdtlcllyrtbmrspcfcnnplc
 :END:
-
 * TODO [#D] [2019-08-25] demo: HN Classics https://posobin.com/hn_classics/
 :PROPERTIES:
 :ID:       dmhnclsscsspsbncmhnclsscs
@@ -3096,18 +3049,15 @@ someone from Matrix nyxt suggested it's similar?
 :PROPERTIES:
 :ID:       sdscrstlsngnrcnyxtltstnyxttpcstls
 :END:
-
 * TODO [#C] right, url extraction: https://github.com/lipoja/URLExtract/issues/13#issuecomment-467635302 and also I guess cut off trailing dots?
 :PROPERTIES:
 :CREATED:  [2019-02-26]
 :ID:       rghtrlxtrctnsgthbcmlpjrlxscmmntndlsgssctfftrlngdts
 :END:
-
 * TODO [#C] [2021-03-28] installable mobile addon [[https://addons.mozilla.org/en-GB/firefox/collections/14595094/promnesia/][promnesia – Add-ons for Firefox (en-GB)]] :promnesia:
 :PROPERTIES:
 :ID:       nstllblmblddnsddnsmzllrgnnsprmnsprmnsddnsfrfrfxngb
 :END:
-
 * [#C] [2021-03-26] [[https://github.com/apvarun/toastify-js/pull/65][Convert to ES6 compatible library by AStoker · Pull Request 65 · apvarun/toastify-js]] :promnesia:
 :PROPERTIES:
 :ID:       sgthbcmpvrntstfyjspllcnvrybystkrpllrqstpvrntstfyjs

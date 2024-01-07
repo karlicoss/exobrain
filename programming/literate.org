@@ -5,7 +5,6 @@
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * [#A] [2019-09-24] it started bothering me increasingly. formulating thoughts is hard and when you've came up and TODO shaped? good atom of information, last thing you want to do is duplicate it.
 :PROPERTIES:
 :ID:       tstrtdbthrngmncrsnglyfrmlfrmtnlstthngywnttdsdplctt
@@ -25,16 +24,13 @@ comments?
 :CREATED:  [2019-10-23]
 :ID:       dfnngcstmlnggntpfxstnggdmnstrtngsttcnlysstls
 :END:
-
 * [#C] [2019-08-18] tried to use cog, but it doesn't really work well for interacting with python functions :literate:python:
 :PROPERTIES:
 :ID:       trdtscgbttdsntrllywrkwllfrntrctngwthpythnfnctns
 :END:
-
 * -----------------------------------
 :PROPERTIES:
 :END:
-
 * [#C] [2019-09-23] NiklasRosenstein/pydoc-markdown: Create Python API documentation in Markdown format.
 :PROPERTIES:
 :ID:       nklsrsnstnpydcmrkdwncrtpythnpdcmnttnnmrkdwnfrmt
@@ -46,13 +42,11 @@ https://github.com/NiklasRosenstein/pydoc-markdown
 :CREATED:  [2020-01-16]
 :ID:       smstdnsclvrtg
 :END:
-
 * TODO [#C] https://post.lurk.org/@paul/103516477971137544         :literate:
 :PROPERTIES:
 :CREATED:  [2020-01-20]
 :ID:       spstlrkrgpl
 :END:
-
 * TODO [#C] [2019-09-01] docopt—language for description of command-line interfaces http://docopt.org/ :literate:
 :PROPERTIES:
 :ID:       dcptlnggfrdscrptnfcmmndlnntrfcsdcptrg

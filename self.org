@@ -34,7 +34,6 @@ I guess look up random topics and write down. Otherwise you tend to forget
 :CREATED:  [2019-06-09]
 :ID:       ndtrdsmbkrsrchnrddthwtcmpsmwyfqcklybrtfrcndsynthss
 :END:
-
 * STRT [#B] Make a mind map/ timeline of all the different projects I'm doing, it could look very cool :toblog:
 :PROPERTIES:
 :CREATED:  [2019-09-02]
@@ -44,13 +43,11 @@ I guess look up random topics and write down. Otherwise you tend to forget
 :PROPERTIES:
 :ID:       nrgbrn
 :END:
-
 * STRT [#B] Really need to log my thoughts every day.. otherwise time passes and I forget and lose track of state changes
 :PROPERTIES:
 :CREATED:  [2019-10-11]
 :ID:       rllyndtlgmythghtsvrydythrssndfrgtndlstrckfsttchngs
 :END:
-
 * [#B] [2019-06-18] [[https://reddit.com/r/LifeProTips/comments/3ozjg3/lpt_if_you_feel_like_you_never_have_enough_time/cw2il1x/][LPT: If you feel like you never have enough time for stuff, don't focus on time management. Spend time managing your ability to focus.]] /r/LifeProTips
 :PROPERTIES:
 :ID:       srddtcmrlfprtpscmmntszjgltmmngngyrbltytfcsrlfprtps
@@ -76,7 +73,6 @@ I guess look up random topics and write down. Otherwise you tend to forget
 :PROPERTIES:
 :ID:       mnxctlylkmnhghlvlntrmsfglsvsnmybtttddvrstysfn
 :END:
-
 * TODO [#C] there are no exact and complete definitions               :think:
 :PROPERTIES:
 :CREATED:  [2019-05-21]
@@ -154,6 +150,7 @@ https://anaulin.org/blog/my-book-ratings/
 :PROPERTIES:
 :ID:       mympssbllstcllgnfgk
 :END:
+
 https://collegeinfogeek.com/about/meet-the-author/my-impossible-list/
 : interesting list of possible life goals
 
@@ -161,6 +158,7 @@ https://collegeinfogeek.com/about/meet-the-author/my-impossible-list/
 :PROPERTIES:
 :ID:       jshpcmmntsnhwtbrkpwthsmnycntbrthrt
 :END:
+
 https://www.reddit.com/r/Buddhism/comments/2el542/how_to_break_up_with_someone_you_cant_bare_to_hurt/ck13yo8/
 : some comprehensive advice on mirroring, emotional honesty, questioning a relationship
 
@@ -180,7 +178,6 @@ cause some things are not visible on github
 :CREATED:  [2019-07-01]
 :ID:       prfssnlykshvr
 :END:
-
 * [#C] [2019-06-13] How to Be Happy - LessWrong 2.0                  :social:
 :PROPERTIES:
 :ID:       hwtbhppylsswrng
@@ -190,7 +187,6 @@ https://www.lesswrong.com/posts/ZbgCx2ntD5eu8Cno9/how-to-be-happy
 :PROPERTIES:
 :ID:       smptntllysfldvcnthspstbtthrwsprttytrvl
 :END:
-
 * START [#C] should put discontinued in github project's descriptions, so it's visible on overview
 :PROPERTIES:
 :CREATED:  [2019-09-04]
@@ -208,7 +204,6 @@ https://twitter.com/schlaf/status/1208471743108509696
 :CREATED:  [2020-01-14]
 :ID:       smrvllstwnlxprsfndngtm
 :END:
-
 * [#C] What I look like without the flesh prison
 :PROPERTIES:
 :CREATED:  [2020-03-01]
@@ -265,7 +260,6 @@ https://uses.tech/
 :PROPERTIES:
 :ID:       xkcdvrstmltdsxkcdcm
 :END:
-
 * TODO [2020-05-29] [[https://twitter.com/mekarpeles/status/1266466581451665408][(20) Mek on Twitter: "This shirt makes meeting new people so fun + easy. Gives a new meaning to "wearing one's ❤️ on one's 👕". Why advertise a corporate logo when you can proudly wear your passions? + ppl have lots on their mind. A shirt may kindly help folks not feel shy if they forget your name! https://t.co/Wl1DGEZjyW" / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmmkrplssttsmkntwttyfrgtyrnmstcwldgzjywtwttr
@@ -387,7 +381,6 @@ damn, this all is so fucking relatable!
 :PROPERTIES:
 :ID:       lmstvrytmwkptltrgrtgrngtbtrlylkhwwldvnxprssthsrgrt
 :END:
-
 * [#B] [2020-11-06] I kinda like that i have mental power to spend lots of time on seemingly boring stuff :programming:
 :PROPERTIES:
 :ID:       kndlkththvmntlpwrtspndltsftmnsmnglybrngstff
@@ -404,7 +397,6 @@ maybe share mine?..
 :CREATED:  [2019-04-10]
 :ID:       rllyndtfgrthwtsmplfygddshvnddlvrthmfstr
 :END:
-
 * [#B] [2020-05-13] real life > videogames
 :PROPERTIES:
 :ID:       rllfvdgms
@@ -414,7 +406,6 @@ there is stuff to build and solve
 :PROPERTIES:
 :ID:       tdsntmnthtjdgyfrplyngvdgmstsjstmywyfstyngwyfrmthm
 :END:
-
 * [#C] * journal
 :PROPERTIES:
 :ID:       jrnl
@@ -434,6 +425,7 @@ there is stuff to build and solve
 ** [2020-12-16] .
 :PROPERTIES:
 :END:
+
 Dunno wtf? I kinda chilled all day, barely worked, cooked etc
 And yet I feel kinda sleepy, eyes really tired etc. The fuck is this??
 ** [2020-12-19] .
@@ -493,7 +485,6 @@ was gonna do some work on axol, or on blog... instead just not sure where to sta
 :PROPERTIES:
 :ID:       yh
 :END:
-
 ** [2020-04-12] spent an hour trying to get org-sync back into the working state :emacs:elisp:
 :PROPERTIES:
 :ID:       spntnhrtryngtgtrgsyncbckntthwrkngstt
@@ -512,7 +503,6 @@ this (used in org-sync internals) simply results in empty buffer and silently ig
 :PROPERTIES:
 :ID:       hvntslvdllmyglsbttlstflmnthrghtpth
 :END:
-
 ** [2020-09-19] nice, everything is kind of coming together, pretty neatly. propagated fake data through the system, glued stuff together, etc. it could work :hpi:dashboard:
 :PROPERTIES:
 :ID:       ncvrythngskndfcmngtgthrprystmgldstfftgthrtctcldwrk
@@ -537,6 +527,7 @@ nature environment family, sex, etc etc
 :PROPERTIES:
 :ID:       twtfrmrlrtnkrrlrtwrktmy
 :END:
+
 : If there was an option, right now, that could take the part of me that can spend eons just focused on a single task, and immortalize it, I would do it. I don't give a f*ck about youth or beauty or relationships in terms of preservation. That stuff is beautiful in its ephemerality
 
 
@@ -547,7 +538,6 @@ https://twitter.com/arula_artwork/status/1133327170594467843
 :CREATED:  [2018-08-12]
 :ID:       whtfcnspndtmwr
 :END:
-
 * START [#B] [2019-01-27] cyanicenine comments on Hobbies that provide cognitive benefits? :cognitive:sport:hobby:
 :PROPERTIES:
 :ID:       cyncnncmmntsnhbbsthtprvdcgntvbnfts
@@ -650,6 +640,7 @@ https://lobste.rs/s/fvwmp1/things_i_dont_know_as_2018
 :PROPERTIES:
 :ID:       twtfrmlphyntjn
 :END:
+
 : интересный факт: если много месяцев подряд хуячить, свету белого не видя, то когда таки разжимаешь булки, можешь обнаружить, что вместе с шедевром из тебя случайно высралась вся душа.
 
 
@@ -658,7 +649,6 @@ https://twitter.com/alphyna/status/1138068869279621120
 :PROPERTIES:
 :ID:       pplnrplssmtnjyvrysmplthngslmsttsmpl
 :END:
-
 * [#B] [2019-06-18] [[https://reddit.com/r/INTP/comments/2nn5s2/do_you_ever_feel_like_a_robot_kindof_a_rant/cmf6ojv/][Do you ever feel like a robot? (Kindof a rant)]] /r/INTP :emotions:
 :PROPERTIES:
 :ID:       srddtcmrntpcmmntsnnsdyvrffjvdyvrfllkrbtkndfrntrntp
@@ -742,7 +732,6 @@ I definitely became more appreciative of regulations (even though governments ar
 :PROPERTIES:
 :ID:       dthplgstsmkmlttlfrstrtdndkndtrd
 :END:
-
 * TODO [#B] [2021-03-13] inspiration: [[http://fabien.benetou.fr/Fabien/Beliefs?from=Fabien.MyBeliefs][Fabien Benetou's PIM | Fabien / Beliefs]] :self:
 :PROPERTIES:
 :ID:       nsprtnfbnbntfrfbnblfsfrmfbnmyblfsfbnbntspmfbnblfs

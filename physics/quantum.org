@@ -18,7 +18,6 @@ http://www.scottaaronson.com/democritus/lec9.html
 :PROPERTIES:
 :ID:       cpnhgnntrprttnsnttmsymmtrntmnfrmtnwhnwvfnctncllpss
 :END:
-
 * [#C] [2017-06-03] pilot wave theory
 :PROPERTIES:
 :ID:       pltwvthry
@@ -38,6 +37,7 @@ pilot wave theory is both physical and deterministic
 * [#C] [2015-08-26]  .
 :PROPERTIES:
 :END:
+
 a |00> + b |01> + c |10> + d |11>
 Measure of entanglement: ad - bc
 
@@ -73,6 +73,7 @@ degenerate level. Degeneracy is a consequence of symmetry
 :PROPERTIES:
 :ID:       bsnsndfrmns
 :END:
+
 P(r_a, r_b) = P_a(r_a) P_b(r_b)
 
 P+-(r_a, r_b) = A (P_a(r_a) P_b(r_b) +/- P_b(r_a) P_a(r_b))
@@ -102,36 +103,31 @@ two identical particles can't occupy same single-particle states. Pauli exclusio
 :PROPERTIES:
 :ID:       smplfdbllsxprmntwwwscttrnsncmdmcrtslchtml
 :END:
-
 * [#C] [2015-08-26] Extended Church-Turing thesis: Any "reasonable" model of computation can be simulated on a probabilistic Turing machine with at most polynomial overhead.
 :PROPERTIES:
 :ID:       xtnddchrchtrngthssnyrsnbltrngmchnwthtmstplynmlvrhd
 :END:
-
 * [#C] [2013-09-21] Lucien Hardy — Quantum Theory From Five Reasonable Axioms http://arxiv.org/abs/quant-ph/0101012
 :PROPERTIES:
 :ID:       lcnhrdyqntmthryfrmfvrsnblxmsrxvrgbsqntph
 :END:
-
 * [#C] [2013-09-21] Hidden variables and "nice" properties http://www.scottaaronson.com/democritus/lec11.htm
 :PROPERTIES:
 :ID:       hddnvrblsndncprprtswwwscttrnsncmdmcrtslchtm
 :END:
-
 * [#C] [2013-09-21] Bohmian interpretation www.scottaaronson.com/democritus/lec11.html
 :PROPERTIES:
 :ID:       bhmnntrprttnwwwscttrnsncmdmcrtslchtml
 :END:
-
 * TODO [#C] [2013-09-21] Read David P. DiVincenzo "Two-bit gates are universal for quantum computation" :qcomp:
 :PROPERTIES:
 :ID:       rddvdpdvncnztwbtgtsrnvrslfrqntmcmpttn
 :END:
-
 * [#D] [2013-09-21] Prover, verifier (Из лекции Шеня в ПОМИ 30 сентября 2012)
 :PROPERTIES:
 :ID:       prvrvrfr
 :END:
+
 1. Sequential repetition
 2. Parallel repetition
 3. Sequential repetition (multi-prover)
@@ -155,7 +151,6 @@ two identical particles can't occupy same single-particle states. Pauli exclusio
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * [#B] [2019-05-06] quantum mechanics - What equation describes the wavefunction of a single photon? - Physics Stack Exchange
 :PROPERTIES:
 :ID:       qntmmchncswhtqtndscrbsthwnfsnglphtnphyscsstckxchng
@@ -203,7 +198,6 @@ https://en.wikipedia.org/wiki/Spin%E2%80%93statistics_theorem
 :CREATED:  [2018-08-17]
 :ID:       sqcdsvryhrdcmpttnlyndnslvnclnrgysclswndrfcldcntrbt
 :END:
-
 * [#C] [2014-11-24] А также хочу осознать книжку Teschlа по квантовой механике( :self:
 :PROPERTIES:
 :ID:       tschl
@@ -248,6 +242,7 @@ yeah, it's got some pretty interesting results... definitely read more
 :PROPERTIES:
 :ID:       qntmmchncshrmtnprtrwthmgnrygnvlsphyscsstckxchng
 :END:
+
 :  https://physics.stackexchange.com/questions/81041/a-hermitian-operator-with-imaginary-eigenvalues?rq=1
 :  For your model, the classical hamiltonian H=12(q3p+pq3)=q3pH=12(q3p+pq3)=q3p produces the Hamilton equations
 : ⎧⎩⎨p˙=−∂H∂q=q˙=∂H∂p=3q2p,q3.
@@ -279,6 +274,7 @@ huh, that's interesting...
 :PROPERTIES:
 :ID:       qntmmchncscnsrvtnfmmntmnnfntsqrwllphyscsstckxchng
 :END:
+
 https://physics.stackexchange.com/questions/232831/conservation-of-momentum-in-infinite-square-well
 
 * [#D] [2019-01-28] [[https://reddit.com/r/Physics/comments/ad23sp/why_the_schrodinger_equation_fails_at_relativity/ede2t8f/][Why The Schrodinger Equation Fails at Relativity]] /r/Physics
@@ -390,7 +386,6 @@ evolution is linear, so after time dt the amplitude of changing state is proport
 :PROPERTIES:
 :ID:       sphyscsstckxchngcmqstnssmplxplntnfqntmznffct
 :END:
-
 * [#C] Uncertaincy principle nice video                         :quantum:viz:
 :PROPERTIES:
 :CREATED:  [2018-10-08]
@@ -426,12 +421,14 @@ https://twitter.com/enclanglement/status/1204556108561559552
 :PROPERTIES:
 :ID:       tshrdtthnkwhnsmnhdmrdsyrbrn
 :END:
+
 https://www.scottaaronson.com/blog/?p=3975
 
 * TODO [#C] [2019-08-02] 〈 Berger | Dillon 〉 on Twitter: "A changing Magnetic flux induces an Electric field. This can create a current in a wire to power a💡! No battery needed! https://t.co/ggeayJedFD" / Twitter :viz:inspiration:
 :PROPERTIES:
 :ID:       brgrdllnntwttrchngngmgntcrnbttrynddstcggyjdfdtwttr
 :END:
+
 https://twitter.com/InertialObservr/status/1157356874729046016
 : A changing Magnetic flux induces an Electric field. This can create a current in a wire to power a
 : No battery needed!
@@ -464,7 +461,6 @@ nice derivation of strong force energy via E=mc^2, the uncertaincy principle, an
 :PROPERTIES:
 :ID:       sphyscsstckxchngcmqstnsntnthrrstfrmphyscsstckxchng
 :END:
-
 * STRT [#B] Tweet from @nonlocalpodcast                             :quantum:
 :PROPERTIES:
 :CREATED:  [2020-12-19]
@@ -490,7 +486,6 @@ apparently, Planck still didn't believe in light quanta in 1913
 :CREATED:  [2019-01-30]
 :ID:       e49dd300-2d72-4d08-935f-445b333970cf
 :END:
-
 * [#B] [2020-08-21] [[https://en.wikipedia.org/wiki/Chirality_(physics)][Chirality (physics) - Wikipedia]]
 :PROPERTIES:
 :ID:       snwkpdrgwkchrltyphyscschrltyphyscswkpd
@@ -500,7 +495,6 @@ apparently, Planck still didn't believe in light quanta in 1913
 :PROPERTIES:
 :ID:       wwwdmtpcmcksrtngtpcsnqmhtmldvdtngtpcsnqntmmchncs
 :END:
-
 * TODO [#B] [2020-08-01] [[https://en.wikipedia.org/wiki/Klein_paradox][Klein paradox - Wikipedia]]
 :PROPERTIES:
 :ID:       snwkpdrgwkklnprdxklnprdxwkpd
@@ -594,12 +588,10 @@ https://github.com/qg-cpt-marseille/sl2cfoam
 :PROPERTIES:
 :ID:       swwwqntmgznrgnwthrmmpstthtthlmtsfqntmphyscsqntmgzn
 :END:
-
 * [#B] [2021-03-16] [[https://vas3k.ru/blog/quantum_computing/][Квантовый Компьютер : Как устроен? Как программировать? Уже? : Блог Вастрик.ру]] :qcomp:
 :PROPERTIES:
 :ID:       svskrblgqntmcmptng
 :END:
-
 * TODO [#C] quantum                                                     :viz:
 :PROPERTIES:
 :CREATED:  [2021-05-09]
@@ -622,7 +614,6 @@ https://twitter.com/lisyarus/status/1151504899907162112
 :PROPERTIES:
 :ID:       sgrvtyndlvtywrdprsscmhwcnnlctrnsbtplgclgrvtyndlvty
 :END:
-
 * [#C] [2019-03-31] [[https://physics.stackexchange.com/questions/443760/relation-between-radio-waves-and-photons-generated-by-a-classical-current][quantum mechanics - Relation between radio waves and photons generated by a classical current - Physics Stack Exchange]]
 :PROPERTIES:
 :ID:       sphyscsstckxchngcmqstnsrllssclcrrntphyscsstckxchng

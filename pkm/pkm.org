@@ -39,7 +39,6 @@ https://github.com/WorldBrain/Memex
 :PROPERTIES:
 :ID:       hmmlldtstrdlcllywndrfcldntgrtwthwryhr
 :END:
-
 * [#B] [2020-05-06] [[https://szymonkaliski.com/writing/2020-04-19-memex-dreams/][Memex Dreams ‒ Szymon Kaliski]] :pkm:
 :PROPERTIES:
 :ID:       sszymnklskcmwrtngmmxdrmsmmxdrmsszymnklsk
@@ -198,7 +197,6 @@ https://twitter.com/Conaw/status/1129788853189955584
 :PROPERTIES:
 :ID:       sddnsmzllrgnsfrfxddnmprtt
 :END:
-
 * TODO [#C] [2017-11-01] thoughts on my own todo app              :pkm:think:
 :PROPERTIES:
 :ID:       thghtsnmywntdpp
@@ -229,12 +227,10 @@ e.g. what conflicts with what?
 :PROPERTIES:
 :ID:       tbhnstshldjstchckwthclndrmrftnndtwldllbfn
 :END:
-
 ** TODO Might be overly conservative?
 :PROPERTIES:
 :ID:       mghtbvrlycnsrvtv
 :END:
-
 ** Examples:
 :PROPERTIES:
 :ID:       xmpls
@@ -312,7 +308,6 @@ from [[https://www.instapaper.com/read/1257004745/11729460][ip]]   [[https://jbo
 :PROPERTIES:
 :ID:       sgthbcmbdllhhypthssfrfxbdpthssfrfxddnfrnnttngnywhr
 :END:
-
 * TODO [#C] Tweet from @Conaw try foam?
 :PROPERTIES:
 :CREATED:  [2020-07-15]
@@ -354,13 +349,11 @@ Pdfgrep? -n option prints page
 :PROPERTIES:
 :ID:       gsplrmstlywrks
 :END:
-
 * STRT [#C] Organize pdf, search for duplicates                   :pkm:polar:
 :PROPERTIES:
 :CREATED:  [2019-02-07]
 :ID:       rgnzpdfsrchfrdplcts
 :END:
-
 * STRT [#C] figure out a way to classify pdfs I have. I should mark them at the time of download, otherwise I forget :pkm:study:
 :PROPERTIES:
 :CREATED:  [2019-02-06]
@@ -397,13 +390,11 @@ https://github.com/andersju/zzzfoo
 :PROPERTIES:
 :ID:       ntsrbtthtgssrfsntthmstcnvntgwyslymybsmdffrntwndwmd
 :END:
-
 * TODO [#D] look up stuff in pinboard tags. also I need to export my org link collection to pinboard too :pkm:
 :PROPERTIES:
 :CREATED:  [2018-10-03]
 :ID:       lkpstffnpnbrdtgslsndtxprtmyrglnkcllctntpnbrdt
 :END:
-
 ** I guess compute diff and approve each item
 :PROPERTIES:
 :ID:       gsscmptdffndpprvchtm
@@ -421,7 +412,6 @@ https://github.com/andersju/zzzfoo
 :PROPERTIES:
 :ID:       hmmxlknddstht
 :END:
-
 * TODO [#C] two separate areas: structured notes and unstructured :pkm:think:
 :PROPERTIES:
 :CREATED:  [2019-01-10]
@@ -433,6 +423,7 @@ https://hyp.is/RRB1jBTgEemGgbunD33LHQ/medium.com/the-personal-knowledge-manageme
 :PROPERTIES:
 :ID:       fgrngtftskspdfvwr
 :END:
+
 it has some sort of fingerprint in the state.json too
 so it handles moves and renames fine
 cool, the filename is just unchanged, so it only uses the fingerprint
@@ -493,7 +484,6 @@ make sure to load in fundamental mode
 :PROPERTIES:
 :ID:       hrghttsschch
 :END:
-
 * TODO [#C] GitHub - matthewmueller/x-ray: The next web scraper. See through the <html> noise.
 :PROPERTIES:
 :CREATED:  [2018-12-09]
@@ -539,13 +529,11 @@ https://www.nayuki.io/page/designing-better-file-organization-around-tags-not-hi
 :PROPERTIES:
 :ID:       ltfvrstgbsdflsystmstc
 :END:
-
 * TODO [#C] make views into reddit comments? multiple blocks; fetch them regularly? :toblog:pkm:
 :PROPERTIES:
 :CREATED:  [2019-06-13]
 :ID:       mkvwsntrddtcmmntsmltplblcksftchthmrglrly
 :END:
-
 * TODO [#C] [2019-01-17] Welcome!                   :physics:pkm:inspiration:
 :PROPERTIES:
 :ID:       wlcm
@@ -556,7 +544,6 @@ https://physicstravelguide.com/start
 :CREATED:  [2019-07-02]
 :ID:       dddsplyfrrdnlypdfnnttns
 :END:
-
 * TODO [#C] Tweet from ¬¬(Dan Piponi) (@sigfpe), at Mar 6, 18:54 :annotation:
 :PROPERTIES:
 :CREATED:  [2019-03-06]
@@ -569,7 +556,6 @@ https://physicstravelguide.com/start
 :PROPERTIES:
 :ID:       spltscrnlksgd
 :END:
-
 * STRT [#C] [2019-07-20] A very brief introduction to Personal Knowledge Management – Relatris Blog und Fundstücke :toblog:
 :PROPERTIES:
 :ID:       vrybrfntrdctntprsnlknwldgmngmntrltrsblgndfndstck
@@ -579,7 +565,6 @@ https://blog.relatris.ch/2017/05/30/a-very-brief-introduction-to-personal-knowle
 :PROPERTIES:
 :ID:       prttyvgmtvtn
 :END:
-
 * [#C] [2019-06-20] Open Semantic ETL toolkit for data integration, data analysis, document analysis, information extraction & data enrichment
 :PROPERTIES:
 :ID:       pnsmntctltlktfrdtntgrtndtlyssnfrmtnxtrctndtnrchmnt
@@ -626,7 +611,6 @@ https://github.com/howardyclo/Digestant
 :PROPERTIES:
 :ID:       srddtcmrrgmdcmmntsctvktzrgbrnrgbrnrrgmd
 :END:
-
 * [#C] [2019-09-05] Kungsgeten/org-brain: Org-mode wiki + concept-mapping
 :PROPERTIES:
 :ID:       kngsgtnrgbrnrgmdwkcncptmppng
@@ -657,7 +641,6 @@ Semantic bit is kinda interesting
 :PROPERTIES:
 :ID:       lsprjcthsntbnpdtdfrwhl
 :END:
-
 * TODO [#C] [2019-09-28] [[https://reddit.com/r/orgmode/comments/da1sf0/orger_plaintext_reflection_of_your_digital_self/f1oylns/][Orger: plaintext reflection of your digital self]] /r/orgmode
 :PROPERTIES:
 :ID:       srddtcmrrgmdcmmntsdsfrgrpntxtrflctnfyrdgtlslfrrgmd
@@ -673,7 +656,6 @@ You may also be interested in [GNU Hyperbole](https://www.gnu.org/software/hyper
 :CREATED:  [2019-11-01]
 :ID:       zl
 :END:
-
 * TODO [#C] Why Use Hyperbole (Use Cases)
 :PROPERTIES:
 :CREATED:  [2019-09-29]
@@ -707,7 +689,6 @@ http://www.dougengelbart.org/content/view/209/448
 :CREATED:  [2019-09-20]
 :ID:       sgthbcmlt
 :END:
-
 * TODO [#C] [2019-11-06] Brendan Schlagel on Twitter: "Petition to rebrand "personal knowledge management" &gt; "personal librarianship" -broader remit (more to gain from reading than "knowledge") -sounds cooler &amp; friendlier -could be a good theme / brand for https://t.co/Fd9MpAjnDj! (con: "personal librarian" has another meaning…)" / Twitter
 :PROPERTIES:
 :ID:       brndnschlglntwttrpttntrbrprsnllbrrnhsnthrmnngtwttr
@@ -733,19 +714,16 @@ https://news.ycombinator.com/item?id=21642289
 :CREATED:  [2019-12-03]
 :ID:       spclccntthtfvsmyntrstngtwtsfrfd
 :END:
-
 * TODO [#C] Run linkchecker against all links produced by me  :pkm:promnesia:
 :PROPERTIES:
 :CREATED:  [2019-12-20]
 :ID:       rnlnkchckrgnstlllnksprdcdbym
 :END:
-
 * TODO [#C] Tags for hn via nlp summaries?                       :hackernews:
 :PROPERTIES:
 :CREATED:  [2019-12-19]
 :ID:       tgsfrhnvnlpsmmrs
 :END:
-
 * TODO [#C] Guy who thought about pkm issues                            :pkm:
 :PROPERTIES:
 :CREATED:  [2019-12-20]
@@ -1044,7 +1022,6 @@ https://twitter.com/ShuOmi3/status/1240985230229430272
 :PROPERTIES:
 :ID:       dngrshrgpstszttlkstnhtmldngrshvchzttlkstn
 :END:
-
 * TODO [#C] Tweet from @mekarpeles
 :PROPERTIES:
 :CREATED:  [2020-07-10]
@@ -1111,7 +1088,6 @@ https://github.com/alraban/org-recoll
 :CREATED:  [2019-12-04]
 :ID:       grphnpststfgrtwhttfltrntsr
 :END:
-
 * TODO [#C] motivation for searching over my own posts: quick plaintext interface that works offline :motivation:pkm:
 :PROPERTIES:
 :CREATED:  [2020-01-14]
@@ -1296,6 +1272,7 @@ http://www.keepingfoundthingsfound.com/book
 :PROPERTIES:
 :ID:       twtfrmndymtschkndymtschktjl
 :END:
+
 : @nicknikolov @marcinignac @context_ing Yes, they get modified in-place. I run the backlinks janitor at night. I also have this little bot, which I've published: https://t.co/mOy7RIsnn9
 : https://twitter.com/andy_matuschak/status/1154904280853204992
 
@@ -1355,7 +1332,6 @@ so, it integrates with Hypothesis? https://www.opensemanticsearch.org/doc/datama
 :CREATED:  [2019-01-27]
 :ID:       pkmpythnpckgfrqcklyddngthngstmytdlst
 :END:
-
 ** [2019-02-06] a python my.todos.add function would be cool
 :PROPERTIES:
 :ID:       pythnmytdsddfnctnwldbcl
@@ -1417,7 +1393,6 @@ https://github.com/zadam/trilium
 :PROPERTIES:
 :ID:       rmgsstsntplntxt
 :END:
-
 * [#D] [2019-06-27] Non-fiction books: a waste of time? o_O
 :PROPERTIES:
 :ID:       nnfctnbkswstftm
@@ -1447,7 +1422,6 @@ https://www.youtoofy.com
 :CREATED:  [2019-11-19]
 :ID:       sgthbcmdvrkmndfrgr
 :END:
-
 * TODO [#D] RSS it not really helpful; doesn't show diff...  :github:pkm:rss:
 :PROPERTIES:
 :CREATED:  [2019-12-24]
@@ -1482,7 +1456,6 @@ https://t.co/btoBlnqk4e https://t.co/pEyI7N5EhY
 :CREATED:  [2020-06-10]
 :ID:       sgthbcmhshngtrvrs
 :END:
-
 * [#D] [2019-08-06] Visakan Veerasamy on Twitter: "I usually talk about this in the context of personal knowledge management, about fun things like keeping track of quotes and riffs and blogpost ideas. Usually this is about me helping other (usually younger) scatterbrained people https://t.co/uPoy7Qw00j" / Twitter
 :PROPERTIES:
 :ID:       vsknvrsmyntwttrsllytlkbttscttrbrndpplstcpyqwjtwttr
@@ -1512,7 +1485,6 @@ e.g. search by 'whatsapp'
 :CREATED:  [2020-02-04]
 :ID:       rchvdtgprfxwthndrscr
 :END:
-
 * [#D] Tweet from @Conaw                                         :pkm:memory:
 :PROPERTIES:
 :CREATED:  [2020-02-21]
@@ -1568,7 +1540,6 @@ explore accounts; find best tweets
 :CREATED:  [2018-06-08]
 :ID:       lrntrmmbrthngstssprsflndsvsltsfcntxtswtch
 :END:
-
 ** TODO maybe do dual n-back?                                         :nback:
 :PROPERTIES:
 :ID:       mybddlnbck
@@ -1660,7 +1631,6 @@ https://github.com/dessant/web-archives
 :PROPERTIES:
 :ID:       sbscrb
 :END:
-
 * STRT I need to stop caring so much about priorities. they change anyway and mean very little for other people :org:exobrain:
 :PROPERTIES:
 :CREATED:  [2020-12-20]
@@ -1712,7 +1682,6 @@ https://indieweb.org/silo
 :PROPERTIES:
 :ID:       ghftttcntvncrtcstm
 :END:
-
 * DONE [#C] [2018-07-17] emacsomancer comments on So I just discovered org mode. Head = blown. :org:pkm:annotation:
 :PROPERTIES:
 :ID:       mcsmncrcmmntsnsjstdscvrdrgmdhdblwn
@@ -1801,7 +1770,6 @@ https://github.com/taroved/pol
 :PROPERTIES:
 :ID:       hmmthssghttbbkmrklt
 :END:
-
 * TODO [#C] [2019-12-20] hckr news - Hacker News sorted by time  :hackernews:
 :PROPERTIES:
 :ID:       hckrnwshckrnwssrtdbytm
@@ -1894,7 +1862,6 @@ https://www.w3.org/annotation/
 :PROPERTIES:
 :ID:       swbhypthssblgnnttnsnwwbstndrd
 :END:
-
 * [2017-07-27] YSK: You can see deleted posts by replacing the "r" in "reddit" with a "c" in the URL. :reddit:
 :PROPERTIES:
 :ID:       yskycnsdltdpstsbyrplcngthrnrddtwthcnthrl
@@ -1937,7 +1904,6 @@ https://mobile.twitter.com/ankitmalik/status/1227636734478831618
 :PROPERTIES:
 :ID:       5144691c-6a35-43aa-8ff6-28dadb4edb2b
 :END:
-
 * Fuzzy Anchoring – Hypothesis                        :annotation:hypothesis:
 :PROPERTIES:
 :CREATED:  [2019-03-11]
@@ -1955,7 +1921,6 @@ https://luispuerto.net/blog/2019/02/10/discovering-hypothesis
 :PROPERTIES:
 :ID:       jstnkvrvwthnkcvrsmfntmr
 :END:
-
 * [#C] [2019-07-06] Overview of the Hypothesis System : Overview of the Hypothesis System :hypothesis:
 :PROPERTIES:
 :ID:       vrvwfthhypthsssystmvrvwfthhypthsssystm
@@ -2012,7 +1977,6 @@ https://www.gwern.net/Search
 :PROPERTIES:
 :ID:       kntssflfrmbtmghtbgdtrcmmndtnwbs
 :END:
-
 * [#C] [2019-12-02] you will forget things              :exobrain:motivation:
 :PROPERTIES:
 :ID:       ywllfrgtthngs
@@ -2031,11 +1995,11 @@ https://news.ycombinator.com/item?id=5285929
 :PROPERTIES:
 :ID:       strvrspptltnvgttwttrthrds
 :END:
-
 * [#D] [2018-11-07] JacobEvelyn/friends: Spend time with the people you care about. Introvert-tested. Extrovert-approved. :social:pkm:
 :PROPERTIES:
 :ID:       jcbvlynfrndsspndtmwththppcrbtntrvrttstdxtrvrtpprvd
 :END:
+
 https://github.com/JacobEvelyn/friends#overview
 
 * STRT [#C] [2020-01-30] [[https://reddit.com/r/productivity/comments/evjtlz/build_the_ultimate_personal_knowledge_management/ffzb4zg/][Build the ultimate personal knowledge management system]] /r/productivity :pkm:
@@ -2091,7 +2055,6 @@ https://www.inkandswitch.com/capstone-manuscript.html
 :PROPERTIES:
 :ID:       gsstsntfrmtfzzybtcldbgdfrrtststc
 :END:
-
 * [2019-06-30] Software I like: PDF readers and manipulators     :annotation:
 :PROPERTIES:
 :ID:       sftwrlkpdfrdrsndmnpltrs
@@ -2107,7 +2070,6 @@ https://praxis.fortelabs.co/a-complete-guide-to-tagging-for-personal-knowledge-m
 :PROPERTIES:
 :ID:       knthngtnlghtnngspps
 :END:
-
 * [2020-12-31] [[https://www.thefortunelabs.com/personal-knowledge-management/][Personal Knowledge Management – The Fortune Labs]] :toblog:pkm:
 :PROPERTIES:
 :ID:       swwwthfrtnlbscmprsnlknwldrsnlknwldgmngmntthfrtnlbs
@@ -2134,7 +2096,6 @@ https://www.tagspaces.org/
 :PROPERTIES:
 :ID:       sfrmbsdnmdtztrbstprctcsztprctcsknwldgmngmntbsdnfrm
 :END:
-
 * [2020-12-31] [[https://lucaongaro.eu/blog/2019/01/30/minisearch-client-side-fulltext-search-engine.html][Luca Ongaro - MiniSearch, a client-side full-text search engine]] :search:
 :PROPERTIES:
 :ID:       slcngrblgmnsrchclntsdflltmnsrchclntsdflltxtsrchngn
@@ -2144,7 +2105,6 @@ https://www.tagspaces.org/
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdwbclpprbrcntntxtrctnnwpnsrchckrnws
 :END:
-
 * [2020-04-01] You are my spirit animal. I just got a polar/readwise/orgmode/Anki setup togeth... | Hacker News :remarkable:
 :PROPERTIES:
 :ID:       yrmysprtnmljstgtplrrdwsrgmdnkstptgthhckrnws
@@ -2224,7 +2184,6 @@ https://news.ycombinator.com/item?id=21332957
 :PROPERTIES:
 :ID:       nttkngntssnwsycmbntrcmtmd
 :END:
-
 * STRT [#C] Build the ultimate personal knowledge management system - productivity
 :PROPERTIES:
 :CREATED:  [2020-01-29]
@@ -2307,17 +2266,14 @@ prompts for possible post about bookmarks...
 :PROPERTIES:
 :ID:       sgthbcmryngrnpcdmsryngrnpllscrptstfclttffctvnttkng
 :END:
-
 * [#D] [2019-12-30] The Zettelkasten Method - LessWrong 2.0 https://www.lesswrong.com/posts/NfdHG6oHBJ8Qxc26s/the-zettelkasten-method-1
 :PROPERTIES:
 :ID:       thzttlkstnmthdlsswrngswwwfdhghbjqxcsthzttlkstnmthd
 :END:
-
 * [#D] [2019-07-06] Annotating Books! | Books & Writing Amino https://aminoapps.com/c/books/page/blog/annotating-books/oZid_uQnM4VY6XwzlqgmE8qNLENlEr
 :PROPERTIES:
 :ID:       nnttngbksbkswrtngmnsmnppsngbkszdqnmvyxwzlqgmqnlnlr
 :END:
-
 * [#D] [2019-06-19] that's why we can't have nice PDFs : linux https://www.reddit.com/r/linux/comments/yr180/thats_why_we_cant_have_nice_pdfs/
 :PROPERTIES:
 :ID:       thtswhywcnthvncpdfslnxswwmntsyrthtswhywcnthvncpdfs
@@ -2327,22 +2283,18 @@ prompts for possible post about bookmarks...
 :PROPERTIES:
 :ID:       whttlsdystmntnprsnllgjrnlrsspvtwwhttlsdysmntnprsnl
 :END:
-
 * TODO [#D] [2019-11-20] How to not use Google search - Shahinism https://shahinism.com/en/posts/alternative-to-google-search/ :search:
 :PROPERTIES:
 :ID:       hwtntsgglsrchshhnsmsshhnsmcmnpstsltrntvtgglsrch
 :END:
-
 * [#D] [2019-09-02] bryanph/GeistMap: A personal knowledge base/network with a focus on connections https://github.com/bryanph/GeistMap
 :PROPERTIES:
 :ID:       brynphgstmpprsnlknwldgbsncnnctnssgthbcmbrynphgstmp
 :END:
-
 * [#D] [2020-05-07] [[https://github.com/returntocorp/semgrep][returntocorp/semgrep: like grep but for code: fast and syntax-aware semantic code pattern search for many languages]] :search:
 :PROPERTIES:
 :ID:       sgthbcmrtrntcrpsmgrprtrntmntccdpttrnsrchfrmnylnggs
 :END:
-
 * [#D] [2019-09-21] full-stack monastic 🧘‍♂️🗺 on Twitter: "tags are useful as a secondary organizational method, especially as the # of notes you have increases. don’t tag everything ahead of time. wait until you have many notes to process, then build structure. you can create custom tags specific to your profession or big projects. https://t.co/CtlOvTNDzm" / Twitter
 :PROPERTIES:
 :ID:       fllstckmnstcntwttrtgsrsflbgprjctsstcctlvtndzmtwttr

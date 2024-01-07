@@ -58,7 +58,6 @@ code can do literally anything you wish, this is very empowering
 * ---------------------
 :PROPERTIES:
 :END:
-
 * TODO [#C] don't be afraid to use conventional command line tools    :ipynb:
 :PROPERTIES:
 :CREATED:  [2019-09-15]
@@ -73,7 +72,6 @@ version control for your outputs, you're unlikely to mess anything up massively
 :CREATED:  [2019-09-13]
 :ID:       stphvtstpg
 :END:
-
 * TODO [#B] post about screenshot comparison
 :PROPERTIES:
 :CREATED:  [2019-09-02]
@@ -96,13 +94,11 @@ version control for your outputs, you're unlikely to mess anything up massively
 :PROPERTIES:
 :ID:       lnkchckrknddstht
 :END:
-
 * TODO [#C] firefox responsive view thing
 :PROPERTIES:
 :CREATED:  [2019-07-21]
 :ID:       frfxrspnsvvwthng
 :END:
-
 * STRT [#C] meta: technical choices
 :PROPERTIES:
 :CREATED:  [2019-02-09]
@@ -120,7 +116,6 @@ Note: Registered users must now verify their email address prior to posting a co
 :CREATED:  [2019-09-12]
 :ID:       dtngblg
 :END:
-
 * if possible, use [[https://orgmode.org/manual/Search-options.html#Search-options][=file:=]] links in =.org= files instead of HTML links :org:
 :PROPERTIES:
 :CREATED:  [2019-12-21]
@@ -143,7 +138,6 @@ Benefit of the latter is that link also works in org-mode source (unlike the for
 :CREATED:  [2019-12-18]
 :ID:       pstbtsymlnkwtchrthng
 :END:
-
 * TODO [#B] feature of org-compile: output files. wonder how would you achieve that in pandoc
 :PROPERTIES:
 :CREATED:  [2019-11-14]
@@ -153,4 +147,5 @@ Benefit of the latter is that link also works in org-mode source (unlike the for
 :PROPERTIES:
 :ID:       whytshrdnndtrmnsm
 :END:
+
 link to issue with seaborn

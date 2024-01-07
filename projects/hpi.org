@@ -105,7 +105,6 @@ Or maybe even separate post, e.g. my experience with solid/camlistore/etc?
 :PROPERTIES:
 :ID:       sgthbcmqnzlrchvstrchvstqnzlrchvstrchvst
 :END:
-
 ** STRT [#B] [2021-03-19] [[https://lifescope.io/][LifeScope]] :qs:dashboard:hpi:
 :PROPERTIES:
 :ID:       slfscplfscp
@@ -125,7 +124,6 @@ seems centralized and talking via APIs?
 :PROPERTIES:
 :ID:       mnlksclslfscpbtwldbgdtchtwththm
 :END:
-
 ** TODO [#B] need to outreach solid etc                          :social:hpi:
 :PROPERTIES:
 :CREATED:  [2021-04-12]
@@ -139,7 +137,6 @@ seems centralized and talking via APIs?
 :PROPERTIES:
 :ID:       cldcptnhpmtsx
 :END:
-
 ** TODO [#A] [2021-02-04] [[https://news.ycombinator.com/item?id=26018187][Apache Arrow 3.0 | Hacker News]] :hpi:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdpchrrwhckrnws
@@ -338,7 +335,6 @@ https://blog.jupyter.org/a-jupyter-kernel-for-sqlite-9549c5dcf551
 :PROPERTIES:
 :ID:       sgthbcmhdyhdyhdyhdynpnsrcpltfrmfrqntfdslft
 :END:
-
 ** TODO [#C] Make simplified data projections, so plots can be generated in couple of pandas commands :toblog:dashboard:
 :PROPERTIES:
 :CREATED:  [2019-12-25]
@@ -439,7 +435,6 @@ maybe doctor (or 'modules') could list that? with paths (e.g. so default/third p
 :PROPERTIES:
 :ID:       spckgngpythnrggdscrtngnddcvrngplgnspythnpckgngsrgd
 :END:
-
 ** STRT [#B] specify export formats in docstrings and autogenerate?
 :PROPERTIES:
 :CREATED:  [2020-01-07]
@@ -654,7 +649,6 @@ downsides:
 :CREATED:  [2020-04-27]
 :ID:       cldsprprtsfrlzrpths
 :END:
-
 ** STRT [#C] top level decorator to check that some data was emitted?
 :PROPERTIES:
 :CREATED:  [2020-05-24]
@@ -676,7 +670,6 @@ that could help for configuration mistakes
 :CREATED:  [2020-10-19]
 :ID:       cldsprtclswthltrltypsfrpndsdfs
 :END:
-
 ** TODO [#C] pattern: avoid importing config early so modules can work without it? :hpi:
 :PROPERTIES:
 :CREATED:  [2021-02-21]
@@ -805,7 +798,6 @@ huh that's quite mad!
 :CREATED:  [2019-03-29]
 :ID:       dfnrsnblrngsfrxrcsssclddtctrrrs
 :END:
-
 ** [#C] [2020-10-05] [[https://github.com/seanbreckenridge/ipgeocache][seanbreckenridge/ipgeocache: A small cache layer for IP geolocation info]]
 :PROPERTIES:
 :ID:       sgthbcmsnbrcknrdgpgcchsnbpgcchsmllcchlyrfrpglctnnf
@@ -911,12 +903,10 @@ https://github.com/twintproject/twint/issues/786
 :PROPERTIES:
 :ID:       thtslsmprtntbfrrlsng
 :END:
-
 ** TODO [#C] [2021-02-04] [[https://github.com/seanbreckenridge/discord_data][seanbreckenridge/discord_data: Library to parse messages/activity from the discord data export]] :discord:hpi:
 :PROPERTIES:
 :ID:       sgthbcmsnbrcknrdgdscrddtsssgsctvtyfrmthdscrddtxprt
 :END:
-
 ** TODO [#C] when searching for commits, make sure archived repos are present
 :PROPERTIES:
 :CREATED:  [2020-10-12]
@@ -995,7 +985,6 @@ some hackery...
 :PROPERTIES:
 :ID:       sgthbcmpyhztrtlspyhztrtlsptntrctwthztrslclsqltdtbs
 :END:
-
 ** TODO [#C] inactive windows are sort of useful too hmm          :hpi:arbtt:
 :PROPERTIES:
 :CREATED:  [2021-05-06]
@@ -1026,7 +1015,6 @@ so normally I'll use 'liked' playlist, but can safely delete stuff from it
 :PROPERTIES:
 :ID:       lssflmscrgjdjdprjctmngtcrtnrtfclprsndtnrrtv
 :END:
-
 ** TODO [#B] could test against twitter database
 :PROPERTIES:
 :CREATED:  [2020-04-16]
@@ -1061,7 +1049,6 @@ faker can do that but doesn't support schemas out of the box..
 :CREATED:  [2020-09-30]
 :ID:       dscrbwhtvdnbythcmmthstryndcmmntstc
 :END:
-
 ** TODO [#B] one of the goals is demonstraing the *architecture*     :toblog:
 :PROPERTIES:
 :CREATED:  [2020-05-22]
@@ -1231,7 +1218,6 @@ could have a defensive import in my.core.typing
 :PROPERTIES:
 :ID:       ctllypynvshllnhpnvcldmkmrsns
 :END:
-
 ** STRT [#B] configuration                                              :hpi:
 :PROPERTIES:
 :CREATED:  [2020-09-29]
@@ -1271,7 +1257,6 @@ or use hash of some other metadata
 :PROPERTIES:
 :ID:       sclckplltsprjctscmnxbshcmpltshllcmpltnclckdcmnttnx
 :END:
-
 * [#C] * bugs/issues
 :PROPERTIES:
 :ID:       bgssss
@@ -1410,7 +1395,6 @@ https://twitter.com/LeahNeukirchen/status/1335669406588923905
 :CREATED:  [2020-04-29]
 :ID:       cldwrttltprcsshstrcsttsfrgthbrfrrrstc
 :END:
-
 ** [#C] [2021-02-23] [[https://tiendil.org/yet-another-tarantoga/][Yet another Тарантога]] :hpi:
 :PROPERTIES:
 :ID:       stndlrgytnthrtrntgytnthr
@@ -1512,7 +1496,6 @@ see what's their approach to credentials
 * --------------------------------------------
 :PROPERTIES:
 :END:
-
 * TODO [#D] classify modules by ease of setup?                          :hpi:
 :PROPERTIES:
 :CREATED:  [2021-04-14]

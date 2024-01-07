@@ -22,7 +22,6 @@ autovoice???
 :CREATED:  [2018-04-20]
 :ID:       mkbkmrksnytbvdsvlcvvc
 :END:
-
 ** STRT [#C] https://chrome.google.com/webstore/detail/lipsurf/lnnmjmalakahagblkkcnjkoaihlfglon lipsurf! nice thing!
 :PROPERTIES:
 :ID:       schrmgglcmwbstrdtllpsrflnblkkcnjkhlfglnlpsrfncthng
@@ -64,7 +63,6 @@ https://unix.stackexchange.com/questions/256138/is-there-any-decent-speech-recog
 :PROPERTIES:
 :ID:       hvryncnhsrssfd
 :END:
-
 * TODO [#C] python speech recognition https://www.reddit.com/r/Python/comments/86440q/the_ultimate_guide_to_speech_recognition_with/
 :PROPERTIES:
 :ID:       pythnspchrcgntnswwwrddtcmtsqthltmtgdtspchrcgntnwth
@@ -88,7 +86,6 @@ https://www.youtube.com/watch?v=3z7LBW_Rl9c
 :PROPERTIES:
 :ID:       sgthbcmpcvcprcpn
 :END:
-
 * [#C] [2018-10-03] ugh, researched a bit and it seems like there are no decent russian models.. dunno maybe I could train one against mozilla's deepspeech??
 :PROPERTIES:
 :ID:       ghrsrchdbtndtsmslkthrrndcmybcldtrnngnstmzllsdpspch
@@ -99,7 +96,6 @@ this is closest I could find.. https://github.com/sovse/Rus-SpeechRecognition-LS
 :PROPERTIES:
 :ID:       ttsnlnxsntgnshgthbspdsy
 :END:
-
 * https://www.reddit.com/r/linux/comments/76611l/voice_to_text_software_for_linux/
 :PROPERTIES:
 :ID:       swwwrddtcmrlnxcmmntslvcttxtsftwrfrlnx
@@ -108,7 +104,6 @@ this is closest I could find.. https://github.com/sovse/Rus-SpeechRecognition-LS
 :PROPERTIES:
 :ID:       ghllthlnxsftfrspchrcgntnsmstbbtsht
 :END:
-
 * STRT mozilla voice dataset? https://blog.mozilla.org/blog/2017/11/29/announcing-the-initial-release-of-mozillas-open-source-speech-recognition-model-and-voice-dataset
 :PROPERTIES:
 :ID:       mzllvcdtstsblgmzllrgblgnnnsrcspchrcgntnmdlndvcdtst
@@ -145,7 +140,6 @@ Generally Kaldi is much more accurate than current CMUSphinx, however, if your a
 :PROPERTIES:
 :ID:       swwwrddtcmrpythncmmntszzqpchpylbrryfrspchprcssngnd
 :END:
-
 * .
 :PROPERTIES:
 :END:
@@ -160,7 +154,6 @@ Generally Kaldi is much more accurate than current CMUSphinx, however, if your a
 :PROPERTIES:
 :ID:       snwkpdrgwklstfspchrcgntnsftwr
 :END:
-
 * TODO [#D] kinda overlaps with file:speech-recognition.org
 :PROPERTIES:
 :ID:       kndvrlpswthflspchrcgntnrg
@@ -188,6 +181,7 @@ what's up with default dictionary??
 :PROPERTIES:
 :ID:       cmmnvc
 :END:
+
 https://voice.mozilla.org/en?utm_source=missionmozillians&utm_medium=snippet&utm_campaign=common_voice_volunteers_october&utm_term=21473&utm_content=REL
 * [#C] [2020-01-01] [[https://news.ycombinator.com/item?id=21926027][Rhasspy is an open source, fully offline voice assistant toolkit]]
 :PROPERTIES:
@@ -203,22 +197,18 @@ https://opensource.com/article/19/1/open-source-voice-interfaces
 :PROPERTIES:
 :ID:       gdrtclbrkngdwnthpplnfvcssctnt
 :END:
-
 * [2018-10-31] tried installing dragon 15 on win 8.1 VM but it would fail with https://nuance.custhelp.com/app/answers/detail/a_id/5684 :( :dictation:
 :PROPERTIES:
 :ID:       trdnstllngdrgnnwnvmbttwldthsnnccsthlpcmppnswrsdtld
 :END:
-
 * [#B] [2020-10-21] [[https://news.ycombinator.com/item?id=24846887][Hands-Free Coding: How I develop software using dictation and eye-tracking | Hacker News]] :dictation:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdhndsfrcdnrsngdcttnndytrcknghckrnws
 :END:
-
 * TODO [#D] [2019-06-29] Elleo/gst-deepspeech: Speech recognition plugin for GStreamer based on Mozilla's DeepSpeech model https://github.com/Elleo/gst-deepspeech :dictation:
 :PROPERTIES:
 :ID:       llgstdpspchspchrcgntnplgnspchmdlsgthbcmllgstdpspch
 :END:
-
 * TODO [#D] [2019-12-19] at16k/at16k: Trained models for automatic speech recognition (ASR). A library to quickly build applications that require speech to text conversion.  https://github.com/at16k/at16k
 :PROPERTIES:
 :ID:       tktktrndmdlsfrtmtcspchrcgspchttxtcnvrsnsgthbcmtktk

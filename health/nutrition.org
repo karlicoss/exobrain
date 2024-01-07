@@ -39,7 +39,6 @@
 :CREATED:  [2017-11-13]
 :ID:       ft
 :END:
-
 *** saturated/unsaturated
 :PROPERTIES:
 :ID:       strtdnstrtd
@@ -64,7 +63,6 @@
 :PROPERTIES:
 :ID:       strtdftsnllnclsvctgryhsntnstrtdftsbtthyrntbdtllxmn
 :END:
-
 *** metabolism
 :PROPERTIES:
 :ID:       mtblsm
@@ -85,7 +83,6 @@
 :PROPERTIES:
 :ID:       ymghtbwndrngwhyftmlclsgtblclsrtbgtslycrsscllmmbrns
 :END:
-
 *** misc
 :PROPERTIES:
 :ID:       msc
@@ -94,7 +91,6 @@
 :PROPERTIES:
 :ID:       mntfftcllsslwysthsmthyjstgtbggr
 :END:
-
 *** links
 :PROPERTIES:
 :ID:       lnks
@@ -152,11 +148,11 @@
 :CREATED:  [2017-12-20]
 :ID:       zncspplmnt
 :END:
-
 * TODO [#B] wonder I was short on salt lately? (end of january)   :nutrition:
 :PROPERTIES:
 :ID:       wndrwsshrtnsltltlyndfjnry
 :END:
+
 CREATED: [2018-02-01]
 
 * TODO [#B] high sodium should be accompanied with high potassium?? :nutrition:
@@ -164,7 +160,6 @@ CREATED: [2018-02-01]
 :CREATED:  [2018-05-29]
 :ID:       hghsdmshldbccmpndwthhghptssm
 :END:
-
 * TODO [#B] supplementing magnesium, iodine                            :keto:
 :PROPERTIES:
 :CREATED:  [2018-05-29]
@@ -179,7 +174,6 @@ CREATED: [2018-02-01]
 :CREATED:  [2018-06-19]
 :ID:       fgrtfbrcmpstnnbrd
 :END:
-
 * [#B] [2018-06-28] healthy foods that shouldn't be consumed together? :nutrition:
 :PROPERTIES:
 :ID:       hlthyfdsthtshldntbcnsmdtgthr
@@ -190,13 +184,11 @@ https://www.reddit.com/r/nutrition/comments/8d90ig/healthy_foods_that_shouldnt_b
 :CREATED:  [2018-01-24]
 :ID:       rvwmymstfrqntmlstcrrctmcrndsfthrrnycnflcts
 :END:
-
 * TODO [#C] Try fasting for a day
 :PROPERTIES:
 :CREATED:  [2018-01-24]
 :ID:       tryfstngfrdy
 :END:
-
 * [#D] spinach vitamins
 :PROPERTIES:
 :CREATED:  [2018-01-13]
@@ -233,7 +225,6 @@ http://www.aif.ru/dontknows/1235443
 :CREATED:  [2018-01-10]
 :ID:       ptmlprtnlvl
 :END:
-
 ** [2018-01-06] protein in bodyweight exercise                     :exercise:
 :PROPERTIES:
 :ID:       prtnnbdywghtxrcs
@@ -266,7 +257,6 @@ http://bodyweighttrainingarena.com/calisthenics-diet/
 :CREATED:  [2018-04-10]
 :ID:       vtmndhlflfswwwrddtcmrntrtmmntsybrhwlngsvtmndstrdfr
 :END:
-
 ** DONE [#B] Do i need to up vitamin d?
 :PROPERTIES:
 :CREATED:  [2018-02-02]
@@ -299,6 +289,7 @@ https://www.reddit.com/r/nutrition/comments/7zabuy/is_there_anything_that_shows_
 :PROPERTIES:
 :ID:       fftscnvrtdtglcswwwsrstscmtngchrcltchnqrstngtpshtml
 :END:
+
 CREATED: [2018-02-01]
 
 * [2017-11-29] Sugars affect your blood sugars                    :nutrition:
@@ -312,12 +303,14 @@ CREATED: [2018-02-01]
 :PROPERTIES:
 :ID:       wllllftgtbsrbd
 :END:
+
 : You don't absorb 100% of the nutrients in your food, if you gorge on lots of food with a decent amount of fibre a lot of it will go through you without being absorbed, especially the fat. On the other hand oily diarrhoea is usually even more unpleasant than portion control.
 
 * TODO [2018-01-06] protein synthesis after exercise              :nutrition:
 :PROPERTIES:
 :ID:       prtnsynthssftrxrcs
 :END:
+
 https://examine.com/nutrition/second-look-at-protein-quantity-after-exercise/
 
 * TODO [2017-11-30] figure out impact of food processing on vitamins :nutrition:
@@ -395,13 +388,11 @@ Note that if you do exercise fasted, consuming at least 20 g of protein within t
 :CREATED:  [2018-06-27]
 :ID:       mkygrt
 :END:
-
 ** TODO Make kombucha?
 :PROPERTIES:
 :CREATED:  [2018-06-27]
 :ID:       mkkmbch
 :END:
-
 ** TODO Friendly bacteria: do we really need to eat probiotic yogurts?
 :PROPERTIES:
 :CREATED:  [2018-07-01]
@@ -444,6 +435,7 @@ hmm, interesting..
 :PROPERTIES:
 :ID:       mndrgrcmmntsnwhyrcrbsmprtnt
 :END:
+
 https://www.reddit.com/r/nutrition/comments/8vg3n2/why_are_carbs_important/e1oz1oq/ 
 :  ome hunter gatherer cultures consume higher protein\lower carb diets.
 : The different balance is not enough to get them into ketosis.
@@ -470,6 +462,7 @@ https://www.reddit.com/r/Fitness/comments/1b6efy/carbohydrates_and_weightlifting
 :PROPERTIES:
 :ID:       wtwlrscmmntsncrbhydrtsndwghtlftnghwmprtntrthy
 :END:
+
 https://www.reddit.com/r/Fitness/comments/1b6efy/carbohydrates_and_weightliftinghow_important_are/c941sve/ 
 :   carb cycle. So every 5th day I'll eat 350g to 400g of carbs in one day and on every other day I keep my carbs down to around 50g or 75g.
 : 
@@ -481,6 +474,7 @@ https://www.reddit.com/r/Fitness/comments/1b6efy/carbohydrates_and_weightlifting
 :PROPERTIES:
 :ID:       strmytndrwlfcmmntsnwhtrthbnftsfcrbhydrts
 :END:
+
 https://www.reddit.com/r/nutrition/comments/8oynzx/what_are_the_benefits_of_carbohydrates/e073v09/ 
 :  In my unprofessional view I feel as If I have allot more physical endurance when eating carbs. Eg: When I'm in ketosis I'd only be able to surf for an hour then I feel weak When I'm on normal recommend macros I could spend 2+ hours in the water
 
@@ -488,17 +482,20 @@ https://www.reddit.com/r/nutrition/comments/8oynzx/what_are_the_benefits_of_carb
 :PROPERTIES:
 :ID:       sppvrstyntrtnndxrcsscncfrvryn
 :END:
+
 https://suppversity.blogspot.com/
 * [#C] [2018-08-25] The Ultimate Keto Food Swap List | KetoDiet Blog   :keto:
 :PROPERTIES:
 :ID:       thltmtktfdswplstktdtblg
 :END:
+
 https://ketodietapp.com/Blog/lchf/the-ultimate-keto-food-swap-list
 
 * [#D] [2018-08-25] Keto Diet Food List | KetoDiet Blog
 :PROPERTIES:
 :ID:       ktdtfdlstktdtblg
 :END:
+
 https://ketodietapp.com/Blog/lchf/Keto-Diet-Food-List-What-to-Eat-and-Avoid
 
 * TODO [#B] [2019-12-05] Implausible results in human nutrition research | The BMJ :nutrition:
@@ -547,6 +544,7 @@ https://grimgrains.com/#nutrition
 :PROPERTIES:
 :ID:       fdrcgnsdnwtypsffbr
 :END:
+
 https://www.reddit.com/r/nutrition/comments/8rdcxt/fda_to_recognize_8_new_carbohydrates_as_dietary/?utm_content=comments&utm_medium=user&utm_source=reddit&utm_name=u_karlicoss
 
 : In the new FDA guidance, approval was given for designation as fiber for:
@@ -563,12 +561,14 @@ https://www.reddit.com/r/nutrition/comments/8rdcxt/fda_to_recognize_8_new_carboh
 :PROPERTIES:
 :ID:       tngntscsdtthdcynhntrgthrrs
 :END:
+
 https://m.phys.org/news/2014-01-nuts-tooth-hunter-gatherers.html
 
 * [#C] [2018-07-17] right, so tryglicerides are glycerol + 3 fatty acids :nutrition:
 :PROPERTIES:
 :ID:       rghtstryglcrdsrglycrlfttycds
 :END:
+
 https://en.wikipedia.org/wiki/Triglyceride
 can te fatty acids be arbitrary
 ok, maybe not arbitrary, but some fats got both sat and unsat apparently
@@ -603,6 +603,7 @@ https://www.reddit.com/r/soylent/comments/8chmx2/soluble_vs_insoluble_fiber_in_c
 :PROPERTIES:
 :ID:       prtnndktss
 :END:
+
 :  Although there are no hard and fast rules for how much protein can inhibit ketosis, some individuals have reported trouble maintaining ketosis if they consume too much protein per day, or even excessive amounts of protein at a given meal.
 :  To the contrary, some individuals have eaten 1.2 grams protein/lb or higher and had no problems establishing and maintaining ketosis.
 : 

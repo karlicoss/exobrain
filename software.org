@@ -6,6 +6,7 @@
 :PROPERTIES:
 :ID:       myrntsbtntrfcpdts
 :END:
+
 https://twitter.com/search?q=from%3Akarlicoss%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81&src=typd
 
 - google calendar update: broke quick add
@@ -46,6 +47,7 @@ https://twitter.com/burntsushi5/status/1321996275567517702
 :PROPERTIES:
 :ID:       twtfrmldrgnldrgnnttjn
 :END:
+
 : …наиболее вероятно значение w<-1, при котором бесконечное расстояние между элементами интерфейса будет достигнуто за конечное время […] За месяц до этого потеряет связность лента, за день — растянутся на несколько экранов твиты. За секунду до Большого Разрыва разрушатся эмодзи.
 
 
@@ -71,7 +73,6 @@ https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md
 :PROPERTIES:
 :ID:       stwttrcmmyhysttsmyscldstngrnsltsdthslkdsgnpnntwttr
 :END:
-
 * [[https://twitter.com/i/web/status/584492360349913088][TW]] at [2015-04-04] Когда я читаю в release notes софтины "various style and layout fixes", автоматически предполагаю что выпилили полезные настройки.
 :PROPERTIES:
 :ID:       stwttrcmwbsttstwtrlsntsvrsstylndlytfxs
@@ -127,6 +128,7 @@ haha fascinating
 :PROPERTIES:
 :ID:       rntsftwrdsnchntmnttnskym
 :END:
+
 http://tonsky.me/blog/disenchantment/
 
 * [#B] [2020-06-24] [[https://twitter.com/gravislizard/status/927594710364909568][Gravis (edited) on Twitter: "one of the primary reasons computers were *created* was to cross reference data. that is nearly impossible in most software now." / Twitter]] :rant:performance:
@@ -184,6 +186,7 @@ https://pxlnv.com/blog/bullshit-web/
 :PROPERTIES:
 :ID:       twtfrmhlllhlllgrmtg
 :END:
+
 : But there's a lot of ways software does better too. In particular, we seem a lot better at PROCESS. We're more willing to create tools that improve our ability to engineer, partially because we use the same skills to make tools and products.
 : Best example? Version control.
 
@@ -284,7 +287,6 @@ https://www.b-list.org/weblog/2009/jul/14/licensing/
 :PROPERTIES:
 :ID:       srddtcmrgwrncmmntsdlrdsndrdgtlnfrstrctrndghblrgwrn
 :END:
-
 * [2019-04-19] Bret Victor, beast of burden                :bloat:bretvictor:
 :PROPERTIES:
 :ID:       brtvctrbstfbrdn
@@ -307,7 +309,6 @@ I mean, his page is awesome but because of overly heavy design all annotations e
 :PROPERTIES:
 :ID:       gfrmmxcmmnty
 :END:
-
 * [#C] [2021-04-04] [[https://www.youtube.com/watch?v=2S0k12uZR14][(24) Velocity 2012: Richard Cook, "How Complex Systems Fail" - YouTube]] :software:
 :PROPERTIES:
 :ID:       swwwytbcmwtchvskzrvlctyrchrdckhwcmplxsystmsflytb

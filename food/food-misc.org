@@ -12,11 +12,11 @@ e.g. different textures and tastes
 :PROPERTIES:
 :ID:       lmnndmlnrthsmmlcljstchrlmrrrmgs
 :END:
-
 * [2018-05-11] pancakes chemistry                                :gastronomy:
 :PROPERTIES:
 :ID:       pnckschmstry
 :END:
+
 https://www.youtube.com/watch?v=pMhrV9sRjqI
  butter milk: sourness???
 
@@ -32,7 +32,6 @@ https://www.youtube.com/watch?v=pMhrV9sRjqI
 :PROPERTIES:
 :ID:       whtchcltsnlyccbttrsgrcrm
 :END:
-
 * [2018-05-29] Oil: one reason for using oil is just to make a thermal path between the pan and the food, so the food doesn't only cook exactly where it touches.
 :PROPERTIES:
 :ID:       lnrsnfrsnglsjsttmkthrmlpthfddsntnlyckxctlywhrttchs
@@ -46,7 +45,6 @@ https://www.youtube.com/watch?v=pMhrV9sRjqI
 :PROPERTIES:
 :ID:       strtdndnstrtdftsdffrntmlctrnlnrgydffrntblngtmprtrs
 :END:
-
 * [2017-02-26] how fruits are dried
 :PROPERTIES:
 :ID:       hwfrtsrdrd
@@ -89,6 +87,7 @@ cause the environment is simular: salty, moist, warm
 :PROPERTIES:
 :ID:       mllrdrctn
 :END:
+
 between amino acids and reducing (TODO?) sugar
 
 about 220 degrees (TODO fahrenheit?) is necessary to trigger it
@@ -139,7 +138,6 @@ https://medium.com/@VladLunachev/%D0%BF%D0%BE%D1%81%D1%82-015-47d297521b?fbclid=
 :PROPERTIES:
 :ID:       swwwmntnhscmfrzdrdfdmntnhs
 :END:
-
 * [2020-11-27] [[https://temza.co/kichanova/?fbclid=IwAR3GjIQdn_-0rNtkR4xJzpG6LnKoMT9Da4MtKDSLi-lx4htEi_wxthVz7jk][Вера Кичанова, либертарианка, researcher в архитектурном бюро Захи Хадид - Кооператив «Темза»]]
 :PROPERTIES:
 :ID:       stmzckchnvfbcldwrgjqdnrntdmtkdsllxhtwxthvzjkrsrchr
@@ -149,7 +147,6 @@ https://medium.com/@VladLunachev/%D0%BF%D0%BE%D1%81%D1%82-015-47d297521b?fbclid=
 :PROPERTIES:
 :ID:       stmngsqckbcscndctntksltsfnrgy
 :END:
-
 * TODO [#C] They Go Really Well Together https://blog.khymos.org/tgrwt/ :chemistry:foodscience:
 :PROPERTIES:
 :ID:       thygrllywlltgthrsblgkhymsrgtgrwt
@@ -159,11 +156,11 @@ https://medium.com/@VladLunachev/%D0%BF%D0%BE%D1%81%D1%82-015-47d297521b?fbclid=
 :CREATED:  [2019-06-17]
 :ID:       snplsrnwsprfctblnchk
 :END:
-
 * [#D] [2018-03-04] blanching broccoli                          :foodscience:
 :PROPERTIES:
 :ID:       blnchngbrccl
 :END:
+
 : you can blanch broccoli to give it a more vibrant green color so it can look better on your plate.
 : http://nchfp.uga.edu/how/freeze/blanching.html
 : Blanching destroys the enzymes that turn food brown and destroy nutrients. These enzymes are not stooped at freezer temps, but slowed. If you're going to eat the food in a month or 3, blanching may not be necessary, but blanching will improve the flavor and texture of what comes out of the freezer later. http://extension.psu.edu/food/preservation/news/2012/blanching-vegetables-is-a-must-before-freezing
@@ -208,6 +205,7 @@ heat diffusion equation blah blah
 :PROPERTIES:
 :ID:       mcdm
 :END:
+
 : [​](http://telegra.ph/file/ec323aa2d1291bb47fd08.jpg)Макадамия – самый крепкий и самый дорогой орех в мире. Его скорлупа твёрже бетона, а чтобы получить первый урожай, нужно около 5 лет. Именно 5 лет назад я впервые его попробовал. Очищенные орехи мне привёз друг с Гавайев. Я подумал, что у них интересный вкус, но не более того.
 : А пару дней назад я узнал, что макадамию можно купить в скорлупе. Ещё на заводе при помощи специального аппарата её надпиливают, а сами орехи продают с ключиком, который вставляется в скорлупу и проворачивается, за счёт чего она раскалывается.
 : Такого насыщенного шоколадно-ванильно-карамельного флейвора я ещё никогда не пробовал. Наверное, это самый вкусный орех в мире. И именно скорлупа прекрасно сохраняет его особенности. Всегда покупайте макадамию в скорлупе, если можете. И не забывайте мыть все орехи – сальмонелла живёт не только в куриных яйцах.
@@ -225,6 +223,7 @@ https://www.reddit.com/r/askscience/comments/946wd9/is_mold_in_blue_cheeses_diff
 :PROPERTIES:
 :ID:       wsmdtwsmpblcdtststpccntrcndtstsnpblcdmnsprpsnwdtpr
 :END:
+
 https://github.com/awesomedata/awesome-public-datasets
 
 * [2018-01-31] Panettone italian cake

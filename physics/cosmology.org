@@ -41,7 +41,6 @@ https://en.wikipedia.org/wiki/Olbers'_paradox
 :PROPERTIES:
 :ID:       srscflvjrnlcmhtmlhtngpplntwthhwkngrdtn
 :END:
-
 * [2018-07-03] old notes
 :PROPERTIES:
 :ID:       ldnts
@@ -94,6 +93,7 @@ metric must be of form ds^2 = a(t)^2 ds_3^2 -c^2 t^2
 :PROPERTIES:
 :ID:       ssskndcsmlgy
 :END:
+
 D is a 'grid coordinate', basically an index, it's unchanging
 D = a(t) dx
 V = a'(t) dx
@@ -170,7 +170,6 @@ interesting point about coordinates swapping in black hole https://thedeemon.dre
 ** [2019-04-24] Именно такъ - внутри дыры никакихъ статическихъ наблюдателей не можетъ существовать
 :PROPERTIES:
 :END:
-
 * TODO [#C] black hole study
 :PROPERTIES:
 :CREATED:  [2019-09-26]

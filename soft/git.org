@@ -12,6 +12,7 @@
 :PROPERTIES:
 :ID:       gtstrssnpshtsntdffs
 :END:
+
 : Different from SVN
 : It is important to note that this is very different from most SCM systems that you may be familiar with. Subversion, CVS, Perforce, Mercurial and the like all use Delta Storage systems - they store the differences between one commit and the next.
 : Git does not do this - it stores a snapshot of what all the files in your project look like in this tree structure each time you commit. This is a very important concept to understand when using Git.
@@ -21,7 +22,6 @@
 :CREATED:  [2018-12-31]
 :ID:       ncmmtglblhk
 :END:
-
 * [#C] [2019-08-18] Highlights from Git 2.23 - The GitHub Blog          :git:
 :PROPERTIES:
 :ID:       hghlghtsfrmgtthgthbblg
@@ -40,6 +40,7 @@ https://www.moxio.com/blog/43/ignoring-bulk-change-commits-w...
 :PROPERTIES:
 :ID:       fsslvrssgtlbstrs
 :END:
+
 https://lobste.rs/s/e3blgf/fossil_versus_git
 : This article is getting a few things about git wrong. They claim git only supports ‘One check-out per repository’. Heard of git worktree?
 
@@ -102,7 +103,6 @@ https://stackoverflow.com/questions/7375528/how-to-extract-one-file-with-commit-
 :PROPERTIES:
 :ID:       stpgtprjctcmmmnd
 :END:
-
 * [#D] [2020-07-12] [[https://news.ycombinator.com/item?id=23805931][- GitHub + why do we centralize issues, documents for a *distributed* version... | Hacker News]]
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdgthbwhydwcmntsfrdstrbtdvrsnhckrnws
@@ -112,19 +112,20 @@ https://stackoverflow.com/questions/7375528/how-to-extract-one-file-with-commit-
 :PROPERTIES:
 :ID:       dtctfltypchngs
 :END:
+
 : for r in *; do pushd $r; git whatchanged | grep "\.\.\..T"; popd; done
 
 * [#D] git ssh debugging                                            :git:ssh:
 :PROPERTIES:
 :ID:       gtsshdbggng
 :END:
+
 : GIT_SSH_COMMAND='ssh -v' git fetch
 
 * [2021-01-11] [[https://about.gitlab.com/blog/2020/11/23/keep-git-history-clean-with-interactive-rebase/][How to keep your Git history clean with interactive rebase | GitLab]]
 :PROPERTIES:
 :ID:       sbtgtlbcmblgkpgthstryclnwthstryclnwthntrctvrbsgtlb
 :END:
-
 * [#C] [2020-11-16] [[https://lobste.rs/s/in8vp4/why_git_blame_sucks_for_understanding_wtf][Why Git blame sucks for understanding WTF code (and what you should use instead) | Lobsters]]
 :PROPERTIES:
 :ID:       slbstrssnvpwhygtblmscksfrtfcdndwhtyshldsnstdlbstrs

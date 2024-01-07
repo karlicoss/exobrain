@@ -10,19 +10,16 @@
 :CREATED:  [2019-05-05]
 :ID:       lkfrntrstngrndmsclthngstd
 :END:
-
 * TODO [#B] maybe meet with some uni researchers? I'm happy to share my data, and they would analyse it :qs:social:
 :PROPERTIES:
 :CREATED:  [2019-05-06]
 :ID:       mybmtwthsmnrsrchrsmhppytshrmydtndthywldnlyst
 :END:
-
 * TODO [#C] Wakeboard                                       :social:exercise:
 :PROPERTIES:
 :CREATED:  [2018-09-06]
 :ID:       wkbrd
 :END:
-
 * TODO [#C] ice skating alexandra palace                    :social:exercise:
 :PROPERTIES:
 :CREATED:  [2019-01-19]
@@ -35,18 +32,21 @@ https://www.alexandrapalace.com/ice-rink/ice-skating-london/
 :PROPERTIES:
 :ID:       hwtmkfrndsvrthntrntlxygzy
 :END:
+
 https://guzey.com/how-to-make-friends-over-the-internet/
 
 * [#C] [2020-01-09] hackers.town - hackers.town
 :PROPERTIES:
 :ID:       hckrstwnhckrstwn
 :END:
+
 https://hackers.town/about
 
 * [#C] [2020-01-13] fediverse.space / fediverse.space · GitLab
 :PROPERTIES:
 :ID:       fdvrsspcfdvrsspcgtlb
 :END:
+
 https://gitlab.com/fediverse.space/fediverse.space
 
 * TODO [#C] [2019-12-07] Max Ionov on Twitter: "Just sent a message ’Hey! Are you in the mood to talk about anthropic principle in cosmology?’ and realised that I have never received a message like this from anyone in my contact list. SAD!" / Twitter
@@ -61,11 +61,11 @@ https://twitter.com/mr_freedom/status/1185989089360658432
 :CREATED:  [2019-06-09]
 :ID:       bngbltplygtrsprttyclmybshldtryttsmpnt
 :END:
-
 * TODO [#D] [2019-12-21] cybre.space                               :mastodon:
 :PROPERTIES:
 :ID:       cybrspc
 :END:
+
 https://instances.social/cybre.space
 : Cybrespace strives to be a tightly-knit community of cyber-enthusiasts. Artists, musicians, and writers; Programmers, engineers and other technical people; we emphasize creativity (but don't require it). Anyone can join, but be warned we will enforce the mastodon.social code of conduct to ensure the best possible experience for as many people in the community as possible. 
 
@@ -74,7 +74,6 @@ https://instances.social/cybre.space
 :CREATED:  [2018-06-25]
 :ID:       shtngrng
 :END:
-
 * [#C] [2019-01-29] (99+) London Hackspace - Google Groups :social:biohacking:
 :PROPERTIES:
 :ID:       lndnhckspcgglgrps
@@ -85,7 +84,6 @@ https://groups.google.com/forum/#!forum/london-hack-space
 :PROPERTIES:
 :ID:       smtwkmdrgwkrsrchnpnsrctmcrsrchnpnsrctmcmmnctntlsmt
 :END:
-
 * [#B] [2020-06-08] [[https://jborichevskiy.com/posts/friends-in-nature/][I want to live in nature with friends :: Up and to the Right — Jonathan Borichevskiy]] :jonbo:thirdspace:
 :PROPERTIES:
 :ID:       sjbrchvskycmpstsfrndsnntrdspndtthrghtjnthnbrchvsky
@@ -143,7 +141,6 @@ https://hackernoon.com/what-i-wish-i-knew-before-joining-mastodon-7a17e7f12a2b
 :PROPERTIES:
 :ID:       fdvrsspcswwwfdvrsspc
 :END:
-
 * TODO [#C] [2020-01-22] (2) Menander on Twitter: "broke: relying on opaque Twitter algorithm to find new people to follow bespoke: directly perusing follower graph of interesting people to find new people to follow" / Twitter https://twitter.com/MenanderSoter/status/1219776869018587136 :dataviz:
 :PROPERTIES:
 :ID:       mnndrntwttrbrkrlyngnpqtwttwttrstwttrcmmnndrstrstts
@@ -166,7 +163,6 @@ https://hackernoon.com/what-i-wish-i-knew-before-joining-mastodon-7a17e7f12a2b
 :PROPERTIES:
 :ID:       sdsbrdrgsrvrsdscrdsrvrssrchdsbrd
 :END:
-
 * TODO [#C] [2021-03-15] [[https://github.com/orbit-love/orbit-model][orbit-love/orbit-model: A framework for building high gravity communities 🪐]] :social:
 :PROPERTIES:
 :ID:       sgthbcmrbtlvrbtmdlrbtlvrbmwrkfrbldnghghgrvtycmmnts
@@ -176,7 +172,6 @@ model for dev relations?
 :PROPERTIES:
 :ID:       sdcmblgmppngsclntwrkswthgppngsclntwrkswthgphdscrty
 :END:
-
 * [#B] [2021-03-10] [[https://github.com/calpaterson/pyappcache/issues/1#issuecomment-794211515][Hi from cachew · Issue #1 · calpaterson/pyappcache]] :social:cachew:
 :PROPERTIES:
 :ID:       sgthbcmclptrsnpyppcchssssthfrmcchwssclptrsnpyppcch

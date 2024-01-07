@@ -56,7 +56,6 @@ some authentic sandwich?
 :PROPERTIES:
 :ID:       fshsqdctpsmnysmllrstrntssrvtvggplts
 :END:
-
 **** TODO Caldeirada seafood stew
 :PROPERTIES:
 :CREATED:  [2018-04-13]
@@ -68,7 +67,6 @@ haven't had chance to try... but heard it was good
 :PROPERTIES:
 :ID:       tmtmrktfrfdlnsrprttylngtlvrychpndntvrythntcbtkvrll
 :END:
-
 **** DONE [#A] Trobadores medieval tavern
 :PROPERTIES:
 :ID:       trbdrsmdvltvrn
@@ -82,12 +80,10 @@ Drink mead, ginjinha, Porto ruby.
 :PROPERTIES:
 :ID:       pstldntncggpstry
 :END:
-
 **** DONE Gelaterias. Some delicious ice cream: vanilla & basil, salted caramel, pistachio.
 :PROPERTIES:
 :ID:       gltrssmdlcsccrmvnllbslsltdcrmlpstch
 :END:
-
 **** TODO Chimera Brewpub.
 :PROPERTIES:
 :ID:       chmrbrwpb
@@ -97,7 +93,6 @@ Craft Portuguese Beers
 :PROPERTIES:
 :ID:       ncfltrcffncpnhgncfflbbwrnwfndfbrccffrstrs
 :END:
-
 *** places & activities
 :PROPERTIES:
 :ID:       plcsctvts
@@ -110,7 +105,6 @@ Craft Portuguese Beers
 :PROPERTIES:
 :ID:       lfmshghrpndmrmdvllkngbcstthlwrlvtnprtsfthctywktrvl
 :END:
-
 **** DONE [[https://wikitravel.org/en/Sintra][Sintra]]
 :PROPERTIES:
 :ID:       swktrvlrgnsntrsntr
@@ -280,7 +274,6 @@ amazing, highly recommended. check out the souvenir shop, awesome postcards.
 :PROPERTIES:
 :ID:       rttrdm
 :END:
-
 * Germany                                                           :germany:
 :PROPERTIES:
 :CUSTOM_ID: germany
@@ -303,7 +296,6 @@ amazing, highly recommended. check out the souvenir shop, awesome postcards.
 :PROPERTIES:
 :ID:       brlnschglrkbtntsprntrstng
 :END:
-
 *** [#C] [2018-02-06] https://twitter.com/abroadunderhood/status/960804558996897792 :berlin:
 :PROPERTIES:
 :ID:       stwttrcmbrdndrhdstts
@@ -364,7 +356,6 @@ well - sort of ok
 :PROPERTIES:
 :ID:       mrcddlbqrwsmstrtfd
 :END:
-
 * Brussels                                                 :belgium:brussels:
 :PROPERTIES:
 :CUSTOM_ID: brussels
@@ -374,7 +365,6 @@ well - sort of ok
 :CREATED:  [2019-04-01]
 :ID:       brsslsmscmsm
 :END:
-
 * TODO [#C] Montenegro mounains?                                     :hiking:
 :PROPERTIES:
 :CREATED:  [2018-10-17]
@@ -451,7 +441,6 @@ pretty close to Glasgo!
 :PROPERTIES:
 :ID:       swwwdvntrscmhkssnwdngrtstwlksnsnwdnntnlprkwls
 :END:
-
 ** TODO [#C] [2019-03-27] [[https://reddit.com/r/CasualUK/comments/b4yqej/a_view_from_the_roman_walls_of_chester/eja0y0g/][A view from the Roman walls of Chester]] /r/CasualUK
 :PROPERTIES:
 :ID:       srddtcmrcslkcmmntsbyqjvwfvwfrmthrmnwllsfchstrrcslk
@@ -491,7 +480,6 @@ pretty close to Glasgo!
 :CREATED:  [2020-08-10]
 :ID:       tnrf
 :END:
-
 * TODO [#C] Airbnb experiences?                                      :travel:
 :PROPERTIES:
 :CREATED:  [2019-03-30]
@@ -501,7 +489,6 @@ pretty close to Glasgo!
 :PROPERTIES:
 :ID:       snmpyczzkldnxyzmpycz
 :END:
-
 * [2020-07-23] [[https://www.routeyou.com/][Enjoy the nicest routes | RouteYou]] :maps:
 :PROPERTIES:
 :ID:       swwwrtycmnjythncstrtsrty
@@ -519,7 +506,6 @@ pretty close to Glasgo!
 :PROPERTIES:
 :ID:       swwwtlsbscrcmtlsbscrcrsndwndrstrvldstntns
 :END:
-
 * [#C] [2020-10-07] [[https://bustimes.org/][bustimes.org]]          :travel:
 :PROPERTIES:
 :ID:       sbstmsrgbstmsrg

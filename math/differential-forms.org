@@ -5,6 +5,7 @@
 :PROPERTIES:
 :ID:       mythghtsntht
 :END:
+
 : so basically, treat dx, dy as formal symbols? you can multiply them by scalar, add them up
 : NOTE in agda it would be just n-form with ordered requirement? or just a subset?
 
@@ -13,7 +14,6 @@
 :CREATED:  [2018-11-10]
 :ID:       dfffrmspdf
 :END:
-
 ** a 1-diff form is an *expression* F(x, y) dx + G(x, y) dy
 :PROPERTIES:
 :ID:       dfffrmsnxprssnfxydxgxydy
@@ -44,7 +44,6 @@ exact impllies closed, but not in reverse
 :PROPERTIES:
 :ID:       thsssrtfsmlrtcmplxnlyss
 :END:
-
 ** wedge space: given vector space V:
 :PROPERTIES:
 :ID:       wdgspcgvnvctrspcv
@@ -86,7 +85,6 @@ int F dx^dy + G dy^dz + H dz ^dx = int int [ F p(x, y)/p(u, v) + G p(y, z)/p(u, 
 :PROPERTIES:
 :ID:       hstsctllyflxntntsfdtdsntntsfdydzfdzdxfdxdy
 :END:
-
 *** NOTE arclength is NOT a differential form (always > 0)
 :PROPERTIES:
 :ID:       ntrclngthsntdffrntlfrmlwys
@@ -101,7 +99,6 @@ but what we can do is to define a metric tensor
 :PROPERTIES:
 :ID:       pgmxwllsqtnsmfldsfrm
 :END:
-
 * https://en.wikipedia.org/wiki/Differential_form#Intrinsic_definitions
 :PROPERTIES:
 :ID:       snwkpdrgwkdffrntlfrmntrnscdfntns
@@ -155,7 +152,6 @@ each part can be considered a tangent vector at gamma_i, and plugged into the fo
 :PROPERTIES:
 :ID:       kbtwhtftwscrvlnrwhtwlddxmnthn
 :END:
-
 * TODO what are the other examples of 1-forms?
 :PROPERTIES:
 :ID:       whtrththrxmplsffrms
@@ -174,7 +170,6 @@ ok, so I guess definition might involve coordinates; but otherwise they are coor
 :PROPERTIES:
 :ID:       thfrmdfschthtfrnynfntsmllhgrdnttpntpkthtmkswymrsns
 :END:
-
 *** TODO dual 1-form. dual covector field for vector field; is that a thing???
 :PROPERTIES:
 :ID:       dlfrmdlcvctrfldfrvctrfldsthtthng

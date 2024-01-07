@@ -11,7 +11,6 @@ related #exports #hpi:
 :PROPERTIES:
 :ID:       hvsmnfndspg
 :END:
-
 ** TODO [#C] ask where to get sample API data?                         :jdoe:
 :PROPERTIES:
 :CREATED:  [2020-04-13]
@@ -47,7 +46,6 @@ hmm nice pretty extensive pocket export
 :PROPERTIES:
 :ID:       sgthbcmsldmnsssssldsldmnsssssld
 :END:
-
 ** STRT [#D] [2020-04-24] [[https://github.com/ANSSI-FR/ctf/tree/master/forensics-CryptoDIY][ctf/forensics-CryptoDIY at master · ANSSI-FR/ctf]] :jdoe:takeout:
 :PROPERTIES:
 :ID:       sgthbcmnssfrctftrmstrfrnsrnscscryptdytmstrnssfrctf
@@ -60,7 +58,6 @@ hmm nice pretty extensive pocket export
 :PROPERTIES:
 :ID:       sgthbcmcpsscpssblbffdcbfftryjsntffdcbffbffcpsscpss
 :END:
-
 ** TODO [#C] [2020-02-10] [[https://reddit.com/r/coolgithubprojects/comments/f1nqh6/python_package_which_helps_generate_big_volumes/][Python package, which helps generate big volumes of fake data for a variety of purposes in a variety of languages.]] /r/coolgithubprojects :jdoe:
 :PROPERTIES:
 :ID:       srddtcmrclgthbprjctscmmntsnvrtyflnggsrclgthbprjcts
@@ -141,7 +138,6 @@ couldn't handle insta photo...
 :PROPERTIES:
 :ID:       khndldhypthss
 :END:
-
 *** https://github.com/bear/parsedatetime ??
 :PROPERTIES:
 :ID:       sgthbcmbrprsdttm
@@ -346,7 +342,6 @@ my #twitter exporter
 :CREATED:  [2019-05-02]
 :ID:       bckpmyfllwrs
 :END:
-
 * ----------------------------
 :PROPERTIES:
 :END:
@@ -420,18 +415,15 @@ https://tantivy-search.github.io/tantivy/tantivy/tokenizer/index.html
 :CREATED:  [2018-12-24]
 :ID:       nlpdstrng
 :END:
-
 * TODO [#C] Two strings, one imaginary one real. Normalisation is not necessary :quitar:
 :PROPERTIES:
 :CREATED:  [2019-01-23]
 :ID:       twstrngsnmgnrynrlnrmlstnsntncssry
 :END:
-
 * TODO [#D] work on poset-ratings                                    :rating:
 :PROPERTIES:
 :ID:       wrknpstrtngs
 :END:
-
 * TODO [#D] https://github.com/karlicoss/telegram2org
 :PROPERTIES:
 :CREATED:  [2020-01-30]
@@ -463,7 +455,6 @@ Update description
 :CREATED:  [2019-06-10]
 :ID:       mksymlnkchckrgnrfllstlstfsymlnkstgnr
 :END:
-
 * [#C] [2020-08-27] [[https://github.com/reHackable/awesome-reMarkable][reHackable/awesome-reMarkable: A curated list of projects related to the reMarkable tablet]] :remarkable:
 :PROPERTIES:
 :ID:       sgthbcmrhckblwsmrmrkblrhctfprjctsrltdtthrmrkbltblt

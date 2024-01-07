@@ -8,6 +8,7 @@
 :PROPERTIES:
 :ID:       prpstnlqlty
 :END:
+
 #+begin_src
   data _≡_ {A : Set} : A → A → Set where
     refl : {a : A} → a ≡ a
@@ -20,6 +21,7 @@
 :PROPERTIES:
 :ID:       ntrlnmbrs
 :END:
+
 #+begin_src
   data ℕ : Set where
     Z : ℕ
@@ -30,6 +32,7 @@
 :PROPERTIES:
 :ID:       fnttyp
 :END:
+
 #+begin_src
   data Fin : ℕ → Set where
     fzero : (n : ℕ) -> Fin (S n)
@@ -47,6 +50,7 @@
 :PROPERTIES:
 :ID:       gdbgnnrshtpstrcksptfllsdnnchsnkdny
 :END:
+
 https://doisinkidney.com/posts/2018-09-20-agda-tips.html
 
 * TODO [#D] A Few Haskell Highlights: Top Haskell Resources of 2019    :agda:
@@ -65,6 +69,7 @@ https://doisinkidney.com/posts/2018-09-20-agda-tips.html
 :PROPERTIES:
 :ID:       gdwthxplntnsgdrdthdcsnltshbstrctnhtmlsmltnsbstrctn
 :END:
+
 tldr: write multiple with clauses; then pattern match on them to rewrite and eliminate
 * TODO [#D] https://math.stackexchange.com/a/1307770/15108 prove isomorphism? :tostudy:agda:
 :PROPERTIES:

@@ -76,12 +76,10 @@ https://github.com/telotortium/org-capture-extension/tree/native-messaging-host
 :PROPERTIES:
 :ID:       sdvlprmzllrgnsdcsmzllddnsnsnsntvmssgnghmmfrfxlsgtt
 :END:
-
 ** [2020-02-15] ok, seems tricky, and apparently requires installing via OS
 :PROPERTIES:
 :ID:       ksmstrckyndpprntlyrqrsnstllngvs
 :END:
-
 * TODO [#C] [2019-09-08] [[https://github.com/fregante/webext-options-sync][fregante/webext-options-sync: Helps you manage and autosave your extension's options. Chrome and Firefox.]] :promnesia:grasp:
 :PROPERTIES:
 :ID:       sgthbcmfrgntwbxtptnssyncftsvyrxtnsnsptnschrmndfrfx
@@ -107,7 +105,6 @@ https://github.com/telotortium/org-capture-extension/tree/native-messaging-host
 :PROPERTIES:
 :ID:       sgthbcmfrgntwbxtptnssyncpmpllrqstfrgntwbxtptnssync
 :END:
-
 * DONE [#B] [2019-09-08] notlmn/browser-extension-template: Barebones boilerplate with webpack, options handler and auto-publishing :grasp:webext:
 :PROPERTIES:
 :ID:       ntlmnbrwsrxtnsntmpltbrbnshwbpckptnshndlrndtpblshng
@@ -182,7 +179,6 @@ https://github.com/Shraymonks/flow-interfaces-chrome/
 :PROPERTIES:
 :ID:       slvrmntrdcngprsmnwsmnwsynrsmnwsmnwsyntxhghlghtrlvr
 :END:
-
 * TODO chrome got far better profiling, better debugging information + screenshots :webext:
 :PROPERTIES:
 :CREATED:  [2020-03-22]
@@ -237,7 +233,6 @@ from content page, ~console.log~ goes to the page console, whereas from the rest
 :PROPERTIES:
 :ID:       kfrsttmyndtcrtmnllyftrthttptngtrpndstwththbldscrpt
 :END:
-
 ** [2020-05-17] listed vs unlisted
 :PROPERTIES:
 :ID:       lstdvsnlstd
@@ -277,7 +272,6 @@ https://github.com/hypothesis/client/blob/734e3a25318364819a8c38ef881e4788a2b063
 :PROPERTIES:
 :ID:       sddnsmzllrgngbfrfxcllctnswbdvlprstlbxddnsfrfrfxngb
 :END:
-
 * [#B] android debugging
 :PROPERTIES:
 :CREATED:  [2019-06-12]
@@ -346,7 +340,6 @@ https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Getting_s
 :PROPERTIES:
 :ID:       wbxtsnctlfrsgnnglntngndvnsmplbrwsrtstnggwbxtrn
 :END:
-
 * [#C] [2019-06-12] Extensions in Firefox 66 | Mozilla Add-ons Blog
 :PROPERTIES:
 :ID:       xtnsnsnfrfxmzllddnsblg
@@ -391,7 +384,6 @@ https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Developin
 :PROPERTIES:
 :ID:       ndtpnbrwsrnndrdprrtrnnngwbxtcmmnd
 :END:
-
 * [#C] [2019-06-12] Setting up an extension development environment - Archive of obsolete content | MDN
 :PROPERTIES:
 :ID:       sttngpnxtnsndvlpmntnvrnmntrchvfbsltcntntmdn
@@ -418,7 +410,6 @@ https://blog.jakelee.co.uk/creating-a-history-clearing-chrome-extension/
 :PROPERTIES:
 :ID:       prttysmplgd
 :END:
-
 * [#D] [2019-06-13] what is the state of add-on/extensions development for firefox? : firefox
 :PROPERTIES:
 :ID:       whtsthsttfddnxtnsnsdvlpmntfrfrfxfrfx
@@ -429,6 +420,7 @@ https://www.reddit.com/r/firefox/comments/886wms/what_is_the_state_of_addonexten
 :PROPERTIES:
 :ID:       wbxtspclcmmnds
 :END:
+
 _execute_browser_action: works like a click on the extension's browser action.
 _execute_page_action: works like a click on the extension's page action.
 _execute_sidebar_action: opens the extension's sidebar. Only supported in Firefox 54 and newer.
@@ -458,18 +450,17 @@ https://extensionworkshop.com/documentation/develop/request-the-right-permission
 :PROPERTIES:
 :ID:       mzllddnsblg
 :END:
+
 https://blog.mozilla.org/addons/
 
 * [2020-05-05] [[https://github.com/mozilla/web-ext/pull/1784][feat: Added option to `--watch-file` to address eager reloading by jezhou · Pull Request #1784 · mozilla/web-ext]]
 :PROPERTIES:
 :ID:       sgthbcmmzllwbxtpllftdddptrldngbyjzhpllrqstmzllwbxt
 :END:
-
 * [#C] [2020-05-24] [[https://gist.github.com/jjperezaguinaga/4243341][Understanding Google Chrome Extensions]]
 :PROPERTIES:
 :ID:       sgstgthbcmjjprzgngndrstndnggglchrmxtnsns
 :END:
-
 * DONE [#C] [2019-08-29] Implement a settings page - Mozilla | MDN   :webext:
 :PROPERTIES:
 :ID:       mplmntsttngspgmzllmdn
@@ -525,7 +516,6 @@ https://stackoverflow.com/questions/21956683/enable-access-control-on-simple-htt
 :PROPERTIES:
 :ID:       fcklkslkfrfxdsntllwprsstnhwrdvlprssppsdttstthrstff
 :END:
-
 * [2019-08-31] uBlock/manifest.json at 6c34b3c3c96756b6db7ff2f3a0394472d81cde3e · gorhill/uBlock
 :PROPERTIES:
 :ID:       blckmnfstjsntcbccbdbfffdcdgrhllblck
@@ -548,12 +538,10 @@ https://github.com/keepassxreboot/keepassxc-browser/blob/develop/keepassxc-brows
 :PROPERTIES:
 :ID:       sdvlprmzllrgnsdcsmzllddnsdmssgngcntntscrptsmzllmdn
 :END:
-
 * [#C] [2020-10-19] [[https://bugzilla.mozilla.org/show_bug.cgi?id=1309288][1309288 - Install addons permanently from about:debugging]]
 :PROPERTIES:
 :ID:       sbgzllmzllrgshwbgcgdnstllddnsprmnntlyfrmbtdbggng
 :END:
-
 * [#C] [2020-11-10] [[https://stackoverflow.com/questions/49209913/in-chrome-extension-development-how-do-i-pass-a-variable-from-background-js-to][In Chrome Extension development, how do I pass a variable from background.js to a content script that embedded as a script node? - Stack Overflow]]
 :PROPERTIES:
 :ID:       sstckvrflwcmqstnsnchrmxtnthtmbdddsscrptndstckvrflw
@@ -584,7 +572,6 @@ combining it with npm/webpack weirdness and kind of slow feedback loop (reloadin
 :PROPERTIES:
 :ID:       cldlnkthtstckvrflwpstndrplctypscrptdvcwthflw
 :END:
-
 ** [#C] structure my post like                                :toblog:webext:
 :PROPERTIES:
 :CREATED:  [2020-05-02]
@@ -604,7 +591,6 @@ combining it with npm/webpack weirdness and kind of slow feedback loop (reloadin
 :CREATED:  [2019-06-29]
 :ID:       pstbttstnggrsp
 :END:
-
 * TODO [#D] [2020-01-25] [h-dev] Abridged summary of dev@list.hypothes.is - 1 update in 1 topic
 :PROPERTIES:
 :ID:       hdvbrdgdsmmryfdvlsthypthsspdtntpc
@@ -627,7 +613,6 @@ combining it with npm/webpack weirdness and kind of slow feedback loop (reloadin
 :PROPERTIES:
 :ID:       sgthbcmrgsmzllmblprjctscrdcwbxtnsnsndddns
 :END:
-
 * [#B] [2021-03-12] [[https://news.ycombinator.com/item?id=26423981][Mozilla is a political organisation now. Has been for a few years. Install kiwi... | Hacker News]] :firefox:webext:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdmzllspltchsbnfrfwyrsnstllkwhckrnws

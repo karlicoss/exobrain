@@ -47,6 +47,7 @@ https://www.reddit.com/r/askreddit/comments/ba89s2/_/
 :PROPERTIES:
 :ID:       srddtcmrtrnshmnsmcmmntsdkmrpplcrbtntdyngrtrnshmnsm
 :END:
+
 : Reasons off the top of my why the majority of people don't take more action against dying.
 : They think death is inevitable
 : They believe in an afterlife
@@ -94,7 +95,6 @@ https://github.com/RomanPlusPlus/scientific-progress-towards-cryonics
 * -----------------------
 :PROPERTIES:
 :END:
-
 * TODO [#B] [2020-09-01] [[https://news.ycombinator.com/item?id=24344613][Mind Emulation Foundation]] https://mindemulation.org/ :immortality:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdmndmltnfndtnsmndmltnrg
@@ -117,7 +117,6 @@ https://www.hedweb.com/quora/index.html
 :PROPERTIES:
 :ID:       shplspdrgwkmnpghpd
 :END:
-
 * DONE [#D] wetware hacking                            :biohacking:nootropic:
 :PROPERTIES:
 :CREATED:  [2018-06-15]
@@ -141,7 +140,6 @@ eh, the guy didn't say anything particular, just something about transumanists d
 :PROPERTIES:
 :ID:       hwtslwgngndvnrvrstytbswwwytbcmwtchvqrtljqjk
 :END:
-
 * DONE [#C] [2019-12-02] Some Details of My Personal Infrastructure | Hacker News :wolfram:
 :PROPERTIES:
 :ID:       smdtlsfmyprsnlnfrstrctrhckrnws

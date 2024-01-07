@@ -8,7 +8,6 @@ Random links which I haven't interned anywhere better yet
 :CREATED:  [2018-06-04]
 :ID:       yvgttprrtzthngsbttrdntstrtthngstfrdrvltntdltsfrst
 :END:
-
 * [#A] [2020-05-07] [[https://twitter.com/amyhoy/status/1209715374561693696][Amy "Social Distancing" Hoy on Twitter: "31. browser makers are asleep at the wheel. it’s 2019 and all major browsers give you in terms of your browsing history is a flat list, which a large fraction of the titles just saying “google” or whatever because they didn’t update the record when the redirect finished" / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmmyhysttsmyscldstnhrcrdwhnthrdrctfnshdtwttr
@@ -19,7 +18,6 @@ Random links which I haven't interned anywhere better yet
 :CREATED:  [2018-06-06]
 :ID:       ctllyprctcngqckrtypngsqtmprtntllbbltwrtdwnmr
 :END:
-
 * TODO [#B] The top-five-problems method – Richard Hamming’s algorithm for doing important work. Periodically ask yourself: “what are the top five most important problems in my field (and life), and why am I not working on them?”
 :PROPERTIES:
 :CREATED:  [2019-07-18]
@@ -57,12 +55,14 @@ Random links which I haven't interned anywhere better yet
 :PROPERTIES:
 :ID:       ndymtschkntwttrhdwndrfltmcddctrgrtcmbfrthstpctwttr
 :END:
+
 https://twitter.com/andy_matuschak/status/1158428901716066304
 
 ** [#B] [2019-08-17] Andy Matuschak on Books and Learning - Econlib
 :PROPERTIES:
 :ID:       ndymtschknbksndlrnngcnlb
 :END:
+
 http://www.econtalk.org/andy-matuschak-on-books-and-learning/
 
 * TODO [#B] nice and wholesome people                              :exobrain:
@@ -109,7 +109,6 @@ excellent essay
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdtlsfrbttrthnknghckrnws
 :END:
-
 * TODO [#B] [2020-11-26] [[https://nyxt.atlas.engineer/][Nyxt]]       :emacs:
 :PROPERTIES:
 :ID:       snyxttlsngnrnyxt
@@ -175,7 +174,6 @@ https://twitter.com/pavel_bazant/status/1365251375668592647
 :PROPERTIES:
 :ID:       sgphrggphthpngrphvzpltfrm
 :END:
-
 * [#B] [2021-03-20] [[https://news.ycombinator.com/item?id=26519457][I don't care about cookies | Hacker News]] :privacy:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmddntcrbtckshckrnws
@@ -200,7 +198,6 @@ try it off youtube?
 :PROPERTIES:
 :ID:       sgthbcmvgrprnqstnsvgrprnqtngqstnscmpldfrmvrtytsrcs
 :END:
-
 * TODO [#C] Tweet from Liz Voeller (@voeliz), at Dec 4, 03:50       :climate:
 :PROPERTIES:
 :CREATED:  [2019-12-04]
@@ -252,7 +249,6 @@ https://github.com/search?o=desc&q=fingerprint&s=stars&type=Repositories
 :CREATED:  [2019-08-18]
 :ID:       smhndblstrngthngtprprfrbldrng
 :END:
-
 * STRT [#C] wonder how to cope with monitor brightness outside     :togoogle:
 :PROPERTIES:
 :CREATED:  [2019-09-26]
@@ -279,7 +275,6 @@ https://twitter.com/nevoitbien/status/1335504980854239235
 :PROPERTIES:
 :ID:       aec38d13-26fb-41d5-90bf-c3b8130903e9
 :END:
-
 * [#C] [2017-09-12] [[https://reddit.com/r/youtube/comments/6zn2pq/how_to_open_mobile_version_of_youtube_on_pc/dmwrg8x/][How to open mobile version of youtube on PC?]] /r/youtube
 :PROPERTIES:
 :ID:       srddtcmrytbcmmntsznpqhwtpgxhwtpnmblvrsnfytbnpcrytb
@@ -308,7 +303,6 @@ https://www.halfbakery.com/
 :CREATED:  [2018-06-03]
 :ID:       cmprmytdtmsnprsthnhvsmthngthtpcksnstwrkn
 :END:
-
 * TODO [#C] use F keys more?                                         :typing:
 :PROPERTIES:
 :CREATED:  [2018-07-12]
@@ -344,7 +338,6 @@ TODO try that with RTM taks I was posponing a lot
 :CREATED:  [2018-07-04]
 :ID:       kwhtfnlysfrtskswhchnccssrlydtdy
 :END:
-
 * TODO [#C] Remember that a moderate amount of background noise (so-called white noise) is helpful for concentration. :productivity:
 :PROPERTIES:
 :CREATED:  [2019-03-02]
@@ -356,7 +349,6 @@ from The Owner's Manual for the Brain
 :PROPERTIES:
 :ID:       mnmybtmkssnsbtwndrhwscntfthtndhwddthyqntfycncntrtn
 :END:
-
 * TODO [#C] figure out which keys should i use?            :vim:productivity:
 :PROPERTIES:
 :CREATED:  [2018-07-12]
@@ -464,7 +456,6 @@ https://www.academia.edu/30544981/If_Nearly_all_Airbnb_Reviews_are_Positive_Does
 :PROPERTIES:
 :ID:       sgthbcmchnwsmhckrnwschnwssppslbrrsrsrcsndshnythngs
 :END:
-
 * [#C] [2019-10-25] [[https://solar.lowtechmagazine.com/about.html][About this website | LOW←TECH MAGAZINE]]
 :PROPERTIES:
 :ID:       sslrlwtchmgzncmbthtmlbtthswbstlwtchmgzn
@@ -480,7 +471,6 @@ https://solar.lowtechmagazine.com/about.html
 :PROPERTIES:
 :ID:       dybgglgrpssgrpsgglcmfrmfrmdyb
 :END:
-
 * TODO [#C] that they improve cognitive performance in people who have “too little dopamine” (Parkinson’s patients, ADHD patients, val/val COMT genotypes) but are useless or worse in those who have “too much dopamine” (met/met COMT genotypes.)
 :PROPERTIES:
 :CREATED:  [2019-05-14]
@@ -515,7 +505,6 @@ https://github.com/minimaxir/hacker-news-undocumented
 :PROPERTIES:
 :ID:       sncsmtsnckycs
 :END:
-
 * [#C] [2020-01-01] Pavel Fatin » Blog Archive » Typing with pleasure - Blog about human and technology :latency:inspiration:
 :PROPERTIES:
 :ID:       pvlftnblgrchvtypngwthplsrblgbthmnndtchnlgy
@@ -551,6 +540,7 @@ http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-dupl
 :PROPERTIES:
 :ID:       shttlptmzdblgrchvplbrnyslctrs
 :END:
+
 https://www.scottaaronson.com/blog/?p=4301
 : If you’re interested, streaming video of the lectures is available as of today (though I haven’t watched it—let me know if the quality is OK!), as well as of course my slides. Here you go:
 
@@ -558,7 +548,6 @@ https://www.scottaaronson.com/blog/?p=4301
 :PROPERTIES:
 :ID:       sgthbcmphlstrgnwsmrthrdmpnslynfrndndrwtrwcnfxthngs
 :END:
-
 * [#C] [2020-06-19] [[https://news.ycombinator.com/item?id=11662380][This is our long-running experiment in story re-upping. I've described it at htt... | Hacker News]] :hackernews:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdthssrlngryrppngvdscrbdtthtthckrnws
@@ -567,6 +556,7 @@ https://www.scottaaronson.com/blog/?p=4301
 :PROPERTIES:
 :ID:       stwttrcmndymtschksttsndymlftrwrdsstcfydlxstyjtwttr
 :END:
+
 : Going to try an experiment: livestreaming part of my morning writing today at 9AM PST. I’ll mostly be consolidating some hazy questions from Design Unbound. No live interaction with viewers (hard enough w/o that). Video (probably) available afterwards.
 
 * [#C] [2019-11-21] michael_nielsen on Twitter: "@AdamMarblestone @james_ough @DavidDeutschOxf In addition to Adam's notes, let me also mention the NAS survey report, freely available here: https://t.co/WkJOWP9sAz It's a pretty helpful survey, IMO!" / Twitter
@@ -598,7 +588,6 @@ https://twitter.com/strubell/status/1129408199478661120
 :PROPERTIES:
 :ID:       wlkngnlympcprksqtclctlly
 :END:
-
 * TODO [#C] WTF Visualizations                                          :viz:
 :PROPERTIES:
 :CREATED:  [2020-01-10]
@@ -623,7 +612,6 @@ https://viz.wtf/
 :PROPERTIES:
 :ID:       swsmndxdmthwdvsckwsmndxdsrchblwsmlsts
 :END:
-
 * [#C] [2020-06-12] [[https://en.wikipedia.org/wiki/The_Extended_Phenotype][The Extended Phenotype - Wikipedia]]
 :PROPERTIES:
 :ID:       snwkpdrgwkthxtnddphntypthxtnddphntypwkpd
@@ -632,7 +620,6 @@ https://viz.wtf/
 :PROPERTIES:
 :ID:       swklsswrngcmwkrthgnltythssrthgnltythsslsswrngwk
 :END:
-
 * STRT [#C] [2020-05-06] [[https://flow-control.io/][flow/control — interdisciplinary research & development studio]]
 :PROPERTIES:
 :ID:       sflwcntrlflwcntrlntrdscplnryrsrchdvlpmntstd
@@ -641,6 +628,7 @@ https://viz.wtf/
 :PROPERTIES:
 :ID:       txtclssfctngdfrmggl
 :END:
+
 : Check out this excellent guide to text classification from Google. Covers important best practices and rules of thumb, including a complete flowchart for picking the right model & preprocessing pipeline based on the statistical structure of your dataset. https://t.co/COd9ckdME6 https://t.co/4nBkb3HjFj
 
 
@@ -662,7 +650,6 @@ https://the-lagrangian.github.io/
 :PROPERTIES:
 :ID:       sbscrbd
 :END:
-
 * [#C] [2019-11-26] Patrick McKenzie on Twitter: ""No really, what is your process." I mull a topic in my head for between one day and a few weeks, verbalize half-formed thoughts out loud (disturbing passerby and/or my wife), then one day get coffee, write like a man possessed for 6~12 hours, two editing passes, publish." / Twitter :writing:
 :PROPERTIES:
 :ID:       ptrckmcknzntwttrnrllywhtsfrhrstwdtngpssspblshtwttr
@@ -703,7 +690,6 @@ https://twitter.com/michael_nielsen/status/1200153670907658240
 :PROPERTIES:
 :ID:       srddtcmrdtsbtflcmmntsdyhdnggsndhwthyrrltdcrdtsbtfl
 :END:
-
 * [#C] [2020-08-06] [[https://twitter.com/mayfer/status/1284350833811849218][murat on Twitter: ""Philosopher AI" is coming along nicely https://t.co/ciiiTBmoNj" / Twitter]] :gpt:
 :PROPERTIES:
 :ID:       stwttrcmmyfrsttsmrtntwttrcmnglngnclystcctbmnjtwttr
@@ -734,6 +720,7 @@ https://twitter.com/aresnick/status/1233257306336485376
 :PROPERTIES:
 :ID:       mchlnlsnntwttrnjydthsmnthmrthntmsstcyjllkxkpjtwttr
 :END:
+
 https://twitter.com/michael_nielsen/status/1198297196908572672
 : I enjoyed this: 3 months, ~7000 words. Sounds about right!
 : I once asked a well-known writer how often he redrafted material. He sighed and said "for the really difficult bits, sometimes more than 100 times"
@@ -744,12 +731,10 @@ good to know I'm not the only one struggling!
 :PROPERTIES:
 :ID:       stlrntstrtvrspgbtstrtvrs
 :END:
-
 * TODO [#C] [2020-12-05] [[https://textvis.lnu.se/][Text Visualization Browser]] :viz:
 :PROPERTIES:
 :ID:       stxtvslnstxtvslztnbrwsr
 :END:
-
 * TODO [#C] [2020-12-07] [[https://github.com/zedeus/nitter/wiki/Extensions][Extensions · zedeus/nitter Wiki]] :twitter:
 :PROPERTIES:
 :ID:       sgthbcmzdsnttrwkxtnsnsxtnsnszdsnttrwk
@@ -826,7 +811,6 @@ I can gradually migrate graph from manual to autogenerated
 :PROPERTIES:
 :ID:       sjrnltnkffrlstclsvtbldngs
 :END:
-
 * TODO [#C] [2021-01-25] .                                     :degoogle:rss:
 :PROPERTIES:
 :END:
@@ -847,12 +831,10 @@ https://twitter.com/in_Burgundy/status/1347982398361907201
 :PROPERTIES:
 :ID:       swwwwbdsgnmsmrgwbdsgnmsm
 :END:
-
 * [#C] [2021-01-02] [[https://petapixel.com/2019/07/13/shooting-high-res-thermal-photos-of-iceland-to-show-nature-at-work/?q=5][Shooting High-Res Thermal Photos of Iceland to Show Nature at Work]]
 :PROPERTIES:
 :ID:       sptpxlcmshtnghghrsthrmlphthrmlphtsfclndtshwntrtwrk
 :END:
-
 * [#C] [2020-05-12] https://fedi.xerz.one/notice/9uyW6Uv8k0DQjsbsdU
 :PROPERTIES:
 :ID:       sfdxrznntcywvkdqjsbsd
@@ -870,7 +852,6 @@ https://twitter.com/in_Burgundy/status/1347982398361907201
 :PROPERTIES:
 :ID:       sgthbcmjmthldjmthldnxfbsdntrgnzrmngrndwrkflwtmtntl
 :END:
-
 * TODO [#C] [2021-01-09] [[https://moa.party/][Moa]] : Link your Mastodon account to Twitter
 :PROPERTIES:
 :ID:       smprtymlnkyrmstdnccntttwttr
@@ -1004,7 +985,6 @@ ok seems that it's the best choice judging by
 :PROPERTIES:
 :ID:       spnlbrryrgwlcmtpnlbrrypnlbrry
 :END:
-
 * [#C] [2020-06-26] [[https://www.defectivebydesign.org/guide/ebooks][Guide to DRM-Free Living: Literature | Defective by Design]] :books:
 :PROPERTIES:
 :ID:       swwwdfctvbydsgnrggdbksgdtdrmfrlvngltrtrdfctvbydsgn
@@ -1014,12 +994,10 @@ ok seems that it's the best choice judging by
 :PROPERTIES:
 :ID:       sfrdcsrgndrwdwrtngshmlssstryhtmlfrlfplnnrhmlssstry
 :END:
-
 * [#C] [2021-01-01] [[https://github.com/amoffat/supertag][Supertag — Supertag 0.1.0 documentation]] :tagging:
 :PROPERTIES:
 :ID:       sgthbcmmfftsprtgsprtgsprtgdcmnttn
 :END:
-
 * TODO [#C] would be cool to have pinboard support?                   :ampie:
 :PROPERTIES:
 :CREATED:  [2021-03-18]
@@ -1031,6 +1009,7 @@ e.g. https://pinboard.in/search/?query=https%3A%2F%2Fgithub.com%2Fmicrosoft%2FTy
 :PROPERTIES:
 :ID:       rtnllyspkngpdcstndrstndngngmrldsgrmntsjnthnhdthtml
 :END:
+
 OK interesting point that it seems to get impossible to be perfectly rational and get rid of all biases as an individual. But you can achieve better rationality as a community?
 Also point that allowing some 'moral' restrictions (seemingly arbitrary) can lead to better utilitarian results?
 
@@ -1045,7 +1024,6 @@ Also point that allowing some 'moral' restrictions (seemingly arbitrary) can lea
 :PROPERTIES:
 :ID:       sjsphgcmblghmswhrthbtsflwhmswhrthbtsflw
 :END:
-
 * [#C] [2021-03-31] [[https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/pdf_reference_archives/PDFReference.pdf][PDF Reference, Third Edition - PDFReference.pdf]] :pdf:
 :PROPERTIES:
 :ID:       swwwdbcmcntntdmcmndvntpdfdfrfrncthrddtnpdfrfrncpdf
@@ -1060,12 +1038,10 @@ https://eng.lyft.com/how-lyft-discovered-openstreetmap-is-the-freshest-map-for-r
 :PROPERTIES:
 :ID:       snwkpdrgwkzrrskbszrrskbswkpd
 :END:
-
 * [#C] [2021-03-28] [[https://github.com/client9/misspell][client9/misspell: Correct commonly misspelled English words in source files]]
 :PROPERTIES:
 :ID:       sgthbcmclntmsspllclntmssplymssplldnglshwrdsnsrcfls
 :END:
-
 * [#C] [2021-04-09] [[https://www.youtube.com/watch?v=VipbsUTsrGA][Video - Bitcoin Vs Ethereum with Samson Mow & Vitalik Buterin - YouTube]] :crypto:
 :PROPERTIES:
 :ID:       swwwytbcmwtchvvpbstsrgvdbsthrmwthsmsnmwvtlkbtrnytb
@@ -1106,6 +1082,7 @@ https://github.com/tootsuite/mastodon/issues/12423
 :PROPERTIES:
 :ID:       rymnwndwsdsldgmsr
 :END:
+
 https://www.old-games.ru/game/83.html
 
 * TODO [#D] https://variety.com/2019/gaming/news/earthworm-jim-3-details-1203202256/ :games:
@@ -1113,7 +1090,6 @@ https://www.old-games.ru/game/83.html
 :CREATED:  [2019-05-01]
 :ID:       svrtycmgmngnwsrthwrmjmdtls
 :END:
-
 * TODO [#D] Tweet from michael_nielsen (@michael_nielsen), at Jun 16, 05:42
 :PROPERTIES:
 :CREATED:  [2019-06-16]
@@ -1131,6 +1107,7 @@ https://twitter.com/michael_nielsen/status/1140117434038226944
 :PROPERTIES:
 :ID:       srddtcmrskscnccmmntsbvmstbywstdwtrvspprpltsrskscnc
 :END:
+
 : I've wondered about this too and I found it very hard to find good information.  It undoubtedly depends on where you live because the relative costs of water and trash removal vary so much depending where you live.  I think in water-scarce regions of Arizona, Nevada and Southern California, there is a decent argument to be made that disposable paper plates are an environmentally sensible alternative to washing lots of ceramic dinner plates. But it would very much depend on local costs and where the disposed of plates go.  Are they buried in a landfill or burned to make electricity?  How far do they have to be hauled in their lifetime?  What happens to the wastewater?
 
 
@@ -1223,7 +1200,6 @@ hmm looks kinda nice..
 :PROPERTIES:
 :ID:       typngprctcswwwkybrcm
 :END:
-
 * STRT [#D] [2019-08-25] RaiMan's SikuliX                        :automation:
 :PROPERTIES:
 :ID:       rmnssklx
@@ -1258,6 +1234,7 @@ https://news.ycombinator.com/item?id=20849148
 :PROPERTIES:
 :ID:       jnczkclbrwbwbppfrbrwsngrdnddwnldngbksstrdnclbrdtbs
 :END:
+
 https://github.com/janeczku/calibre-web
 
 * TODO [#D] Tweet from Котонавты (@meownauts) Наташа Макэлхоун сыграет Кортану в сериале по Halo от Showtime https://t.co/Vl8A35Xuzc https://twitter.com/meownauts/status/1157609470706561025?s=17 :towatch:
@@ -1265,7 +1242,6 @@ https://github.com/janeczku/calibre-web
 :CREATED:  [2019-08-05]
 :ID:       twtfrmmwntshlshwtmstcvlxzcstwttrcmmwntssttss
 :END:
-
 * TODO [#D] Tweet from Roman Elizarov (@relizarov), at May 8, 17:14 :towatch:
 :PROPERTIES:
 :CREATED:  [2019-05-08]
@@ -1357,6 +1333,7 @@ https://trello.com/c/k7hu7UAH/82-create-lists-to-follow-certain-people-on-github
 :PROPERTIES:
 :ID:       cnwtrrfrmthshrtstpclmtchngytb
 :END:
+
 https://www.youtube.com/watch?v=lfo8XHGFAIQ
 
 * [#D] [2020-07-31] https://wiki.openstreetmap.org/wiki/StreetComplete :maps:osm:
@@ -1379,22 +1356,18 @@ https://github.com/melvinroest/doodledocs
 :PROPERTIES:
 :ID:       7d7ee6a2-03dd-42a4-9aeb-227948c3bbc1
 :END:
-
 * [#D] [2018-08-06] settings {einstellungen}                   :german:drill:
 :PROPERTIES:
 :ID:       d06cf7e8-48e1-4309-939b-21c7bd603694
 :END:
-
 * [#D] [2018-08-23] [[https://lesswrong.ru/wiki/Fallacymania][Fallacymania — Вики LessWrong.ru]] :rational:
 :PROPERTIES:
 :ID:       slsswrngrwkfllcymnfllcymnlsswrngr
 :END:
-
 * [#D] [2018-08-23] [[http://www.azimuthproject.org/azimuth/show/HomePage][The Azimuth Project]]
 :PROPERTIES:
 :ID:       wwwzmthprjctrgzmthshwhmpgthzmthprjct
 :END:
-
 * [#D] [2017-09-03]                                                 :cycling:
 :PROPERTIES:
 :END:
@@ -1412,6 +1385,7 @@ Use [[https://tfl.gov.uk/travel-information/improvements-and-projects/quietways]
 :PROPERTIES:
 :ID:       rssnlnggwkpd
 :END:
+
 : By the mid-20th century, such dialects were forced out with the introduction of the compulsory education system that was established by the Soviet government. Despite the formalization of Standard Russian, some nonstandard dialectal features (such as fricative [ɣ] in Southern Russian dialects) are still observed in colloquial speech.
 
 * [#D] [2019-10-06] Котлета из пробирки                             :climate:
@@ -1489,7 +1463,6 @@ https://en.wikipedia.org/wiki/Fish_Out_of_Water_(BoJack_Horseman)
 :CREATED:  [2019-09-04]
 :ID:       rsrtdmvrtngs
 :END:
-
 * [#D] [2021-01-29] Tweet from @whitequark
 :PROPERTIES:
 :ID:       twtfrmwhtqrk
@@ -1516,22 +1489,18 @@ https://twitter.com/dannagal/status/1347564138738946050
 :PROPERTIES:
 :ID:       xhlnfcmpncddrwngshpshtmlncdbxrt
 :END:
-
 * [#D] [2020-05-22] [[https://news.ycombinator.com/item?id=23271732][Show HN: Plopdown HTML5 Video Annotator Released | Hacker News]]
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdshwhnplpdwnhtmlvdnnttrrlsdhckrnws
 :END:
-
 * [#D] [2020-05-13] [[https://www.hillelwayne.com/post/ahk/][In Praise of AutoHotKey • Hillel Wayne]]
 :PROPERTIES:
 :ID:       swwwhlllwyncmpsthknprsfthtkyhlllwyn
 :END:
-
 * [#D] [2020-05-14] [[https://lobste.rs/s/pznfdh/is_going_conferences_useless_for][Is going to conferences useless for learning? How do you learn? | Lobsters]]
 :PROPERTIES:
 :ID:       slbstrsspznfdhsgngcnfrncssslssfrlrnnghwdylrnlbstrs
 :END:
-
 * [#D] [2020-05-15] [[https://twitter.com/MentalNodes/status/1261010969230270470][(4) Mental Nodes on Twitter: "There is git for projects—should we have git for ideas? https://t.co/70jIbHRlSb" / Twitter]] :git:
 :PROPERTIES:
 :ID:       stwttrcmmntlndssttsmntlnddwhvgtfrdsstcjbhrlsbtwttr
@@ -1605,7 +1574,6 @@ https://twitter.com/dannagal/status/1347564138738946050
 :PROPERTIES:
 :ID:       sprkfnlctrncsswwwsprkfncm
 :END:
-
 * [#D] [2019-06-16] Windows 95 for VirtualBox : windows95 https://www.reddit.com/r/windows95/comments/8uoefs/windows_95_for_virtualbox/
 :PROPERTIES:
 :ID:       wndwsfrvrtlbxwndwsswwwrddndwscmmntsfswndwsfrvrtlbx
@@ -1633,12 +1601,10 @@ https://twitter.com/dannagal/status/1347564138738946050
 :PROPERTIES:
 :ID:       rdrfrhckrnws
 :END:
-
 * [#D] [2019-05-26] Finding the Perfect 10: How We Developed the Foursquare Venue Rating System https://medium.com/foursquare-direct/finding-the-perfect-10-how-we-developed-the-foursquare-venue-rating-system-c76b08f7b9b3 :rating:
 :PROPERTIES:
 :ID:       fndngthprfcthwwdvlpdthfrspdthfrsqrvnrtngsystmcbfbb
 :END:
-
 * [#D] [2019-08-03] Scientists create first billion-atom biomolecular simulation https://phys.org/news/2019-04-scientists-billion-atom-biomolecular-simulation.html
 :PROPERTIES:
 :ID:       scntstscrtfrstbllntmbmlcltstsbllntmbmlclrsmltnhtml
@@ -1647,12 +1613,10 @@ https://twitter.com/dannagal/status/1347564138738946050
 :PROPERTIES:
 :ID:       wmmttrbrdgbrdgbtwnmttrmststntrqrdsgthbcmwmmttrbrdg
 :END:
-
 * [#D] [2020-04-11] The Sad Saga of Purism and the Librem 5 | Hacker News https://news.ycombinator.com/item?id=21369733
 :PROPERTIES:
 :ID:       thsdsgfprsmndthlbrmhckrnwssnwsycmbntrcmtmd
 :END:
-
 * TODO [#D] [2019-07-30] a list of @visakanv's threads https://www.notion.so/a-list-of-visakanv-s-threads-1a6ed25cf06e49e388a303903d597b73
 :PROPERTIES:
 :ID:       lstfvsknvsthrdsswwwntnslstfvsknvsthrdsdcfdb
@@ -1762,7 +1726,6 @@ https://twitter.com/dannagal/status/1347564138738946050
 :PROPERTIES:
 :ID:       bhckngsbtchnlfmdmsmdmcmndtlfdvdshcrsprdgsdlmtnsddd
 :END:
-
 * [#D] [2019-05-21] quiksilver10152/P300: Uses OpenBCI headset to interpret subject's focus on a 6x6 grid of letters and numbers and type out the corresponding figure. https://github.com/quiksilver10152/P300 :bci:
 :PROPERTIES:
 :ID:       qkslvrpsspnbchdsttntrprtsrrspndngfgrsgthbcmqkslvrp
@@ -1798,7 +1761,6 @@ hmm could use it for bathroom?
 :PROPERTIES:
 :ID:       hwtshrtctthmndflnsslrnngchmdttnwrrrdswwwwrrrdmdttn
 :END:
-
 * [#D] [2020-04-05] The happy state of | Lobsters https://lobste.rs/s/3wknua/happy_state
 :PROPERTIES:
 :ID:       thhppysttflbstrsslbstrsswknhppystt
@@ -1807,7 +1769,6 @@ hmm could use it for bathroom?
 :PROPERTIES:
 :ID:       bkmrkltcrtrwthscrptncldrptrclssmrclscmbkmrklt
 :END:
-
 * [#D] [2020-01-14] Post-glacial rebound - Wikipedia https://en.wikipedia.org/wiki/Post-glacial_rebound
 :PROPERTIES:
 :ID:       pstglclrbndwkpdsnwkpdrgwkpstglclrbnd
@@ -1816,12 +1777,10 @@ hmm could use it for bathroom?
 :PROPERTIES:
 :ID:       sgthbcmdptfllfldgdhldgrdpsrcmprtsndrngftgnrtdrprts
 :END:
-
 * [#D] [2020-07-24] [[https://news.ycombinator.com/item?id=23938007][Ask HN: Is it just me? why is “news” so addictive? | Hacker News]]
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdskhnstjstmwhysnwssddctvhckrnws
 :END:
-
 * [#D] [2020-06-05] [[https://wiby.me/][Wiby - Search Engine for the Classic Web]]
 :PROPERTIES:
 :ID:       swbymwbysrchngnfrthclsscwb
@@ -1844,7 +1803,6 @@ hmm could use it for bathroom?
 :PROPERTIES:
 :ID:       wsmbrvmzllwkswkmzllrgwsmbrv
 :END:
-
 * TODO [#D] [2019-12-04] Personality Characteristics https://web.archive.org/web/20190805194413/http://www.catb.org/jargon/html/personality.html
 :PROPERTIES:
 :ID:       prsnltychrctrstcsswbrchvrwctbrgjrgnhtmlprsnltyhtml
@@ -1883,12 +1841,10 @@ https://twitter.com/thesofakillers/status/1196410719006285826
 :PROPERTIES:
 :ID:       sgthbcmcrwdscrtycrwdsccrwrmrglblcmmntywdprpttndtbs
 :END:
-
 * TODO [#D] [2019-09-15] Death Trash http://deathtrash.com/index.html :games:
 :PROPERTIES:
 :ID:       dthtrshdthtrshcmndxhtml
 :END:
-
 * STRT [#D] [2020-01-02] I hear that argument very frequently and I don’t buy it. Think about all the ga... | Hacker News https://news.ycombinator.com/item?id=21930751
 :PROPERTIES:
 :ID:       hrthtrgmntvryfrqntlynddnthghckrnwssnwsycmbntrcmtmd
@@ -1911,7 +1867,6 @@ https://twitter.com/thesofakillers/status/1196410719006285826
 :PROPERTIES:
 :ID:       snwsycmbntrcmshwnwnwshwhckrnws
 :END:
-
 * [#D] [2020-01-23] Kezz Bracey: "For indecisive instance hoppers like me with mult…" - Mastodon https://mastodon.social/@freedcreative/103535168771768561 :mastodon:
 :PROPERTIES:
 :ID:       kzzbrcyfrndcsvnstnchpprslhmltmstdnsmstdnsclfrdcrtv
@@ -1921,7 +1876,6 @@ https://twitter.com/thesofakillers/status/1196410719006285826
 :PROPERTIES:
 :ID:       sjbrchvskycmpstsnmvngwynmwypndtthrghtjnthnbrchvsky
 :END:
-
 * TODO [#D] [2020-03-09] Pinboard: Bookmark Detail https://pinboard.in/u:hschilling/b:1b050549dd9f :bci:
 :PROPERTIES:
 :ID:       pnbrdbkmrkdtlspnbrdnhschllngbbddf
@@ -1942,6 +1896,7 @@ https://twitter.com/michael_nielsen/status/1220538523603763200
 :PROPERTIES:
 :ID:       twtfrmlphyn
 :END:
+
 https://twitter.com/alphyna/status/1335339736127447040
 : @alphyna: @lampimampi хотя нет, ещё важное есть.
 : когда тебе долго плохо, ты этого не замечаешь. тебе не грустно, тебя не мучает. ты просто становишься скучным. ты просто устаёшь. ты просто больше не рисуешь. и не играешь. всё не плохо, всё просто пресно.
@@ -1969,7 +1924,6 @@ pro: high branching factor -> less lookups
 :PROPERTIES:
 :ID:       ndxspntrstntrnlnds
 :END:
-
 ** B: keys and data are in internal or leaf
 :PROPERTIES:
 :ID:       bkysnddtrnntrnlrlf
@@ -2049,7 +2003,6 @@ con: store redundant search keys
 :PROPERTIES:
 :ID:       tmtcldnbthrmsydnthvttrnnthbrghtlghtstnght
 :END:
-
 * [2016-08-22] Loop habit tracker app                            :discipline:
 :PROPERTIES:
 :ID:       lphbttrckrpp
@@ -2164,11 +2117,11 @@ awesome guy, nice interview
 :PROPERTIES:
 :ID:       swwwytbcmwtchvfwjwphmwhytrnsrsxpnsvytb
 :END:
-
 * [2017-04-20] Lagrangian points                                      :space:
 :PROPERTIES:
 :ID:       lgrngnpnts
 :END:
+
 : Only the first three Lagrangian points are unstable positions. They're unstable in the same way as the point at the top of a hill. A ball balanced exactly in the center of the peak will stay put, but given a slight nudge in any direction it will roll down the slope and away.
 : (This is the main reason SOHO doesn't sit exactly on the L1 point, but orbits it instead.)
 : The Trojan points, L4 and L5, are stable. They act more like the bottom of a bowl. If an object there is nudged, gravity will tend to draw it back toward where it started.
@@ -2249,17 +2202,14 @@ pretty hilarious
 :PROPERTIES:
 :ID:       ktsdyhplswkdybfqkts
 :END:
-
 ** [#C] [2019-01-29] equipment http://diyhpl.us/wiki/diybio/faq/equipment/
 :PROPERTIES:
 :ID:       qpmntdyhplswkdybfqqpmnt
 :END:
-
 ** [#C] [2019-01-29] articles http://diyhpl.us/wiki/articles/
 :PROPERTIES:
 :ID:       rtclsdyhplswkrtcls
 :END:
-
 * [2020-08-23] Nth Country Experiment - Wikipedia                   :nuclear:
 :PROPERTIES:
 :ID:       nthcntryxprmntwkpd
@@ -2318,7 +2268,6 @@ https://www.gutenberg.org
 :PROPERTIES:
 :ID:       dynmclndsdynmclndrg
 :END:
-
 * [2019-03-23] Bret Victor - The Humane Representation of Thought - YouTube :thinking:
 :PROPERTIES:
 :ID:       brtvctrthhmnrprsnttnfthghtytb
@@ -2334,11 +2283,11 @@ https://github.com/pel-daniel/mind-bicyles
 :PROPERTIES:
 :ID:       kntrstngbtnthngthtcndrctltlzndmkdlrdygtprprlywrkng
 :END:
-
 * [2019-05-03] Tweet from Katia Moskvitch (@SciTech_Cat), at May 3, 09:42 :environment:
 :PROPERTIES:
 :ID:       twtfrmktmskvtchsctchcttmy
 :END:
+
 : Environmentalists shout: coffee capsules are killing the planet. I decided to take a closer look. Next time you're buying your latte/espresso ☕️ at a coffee shop or make your filter coffee, remember that it's much WORSE than pods. Here is why: https://t.co/MJddLmELax @WiredUK
 
 https://twitter.com/SciTech_Cat/status/1124232748502327297
@@ -2397,6 +2346,7 @@ http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/responses.html
 :PROPERTIES:
 :ID:       psclsmggng
 :END:
+
 https://en.wikipedia.org/wiki/Pascal%27s_mugging
 https://www.lesswrong.com/posts/a5JAiTdytou3Jg749/pascal-s-mugging-tiny-probabilities-of-vast-utilities
 
@@ -2404,6 +2354,7 @@ https://www.lesswrong.com/posts/a5JAiTdytou3Jg749/pascal-s-mugging-tiny-probabil
 :PROPERTIES:
 :ID:       twttrthrdstwttrcmgypsyrnstts
 :END:
+
 :   Бактерицидное и фунгицидное вещество в чесноке - аллицин. При этом оно не сразу сожержится в чесноке(!) >>
 :   Чтобы аллиин (содержится в чесноке сразу) превратился в аллицин - нужно раздавить/разрезать чеснок и дать полежать на воздухе ~10 мин
 :   93. Масло примулы вечерней (ослинника) - очень крутая вещь для кожи из-за высокого содержания в нём гамма-линоленовой кислоты.
@@ -2468,7 +2419,6 @@ https://www.quantamagazine.org/why-alphazeros-artificial-intelligence-has-troubl
 :PROPERTIES:
 :ID:       snchndrdsfthsndsfhmnplyrsstscrwthgnrlrnfrcmntlrnng
 :END:
-
 * [2019-05-12] dessant/buster: Captcha solver extension for humans
 :PROPERTIES:
 :ID:       dssntbstrcptchslvrxtnsnfrhmns
@@ -2504,12 +2454,10 @@ basically, some alternative writing system... nothing really novel
 :PROPERTIES:
 :ID:       tthhrtfthsvlsspstmchmltyfrnsmthngfrmlstnngtththrsd
 :END:
-
 * [2019-10-09] Virtue signaling comes in a few forms:  1) Talking about how cute the baby is (i.e. how correct the community’s sacred beliefs are)  2) Talking about how uncute the rival babies are (i.e. how wrong the community’s ideological opponents are)  3) Talking about how great the community itself is  4) Talking about how awful the rival communities themselves are :rational:
 :PROPERTIES:
 :ID:       vrtsgnlngcmsnfwfrmstlkngbthwwflthrvlcmmntsthmslvsr
 :END:
-
 * [2018-07-05] multiple logical volumes means separate space management. if you restrict data partition, then rest of system would work fine
 :PROPERTIES:
 :ID:       mltpllgclvlmsmnssprtspcmnprttnthnrstfsystmwldwrkfn
@@ -2612,7 +2560,6 @@ http://stevenhickson.blogspot.com/2014/02/controlling-music-with-your-mind.html
 :PROPERTIES:
 :ID:       swwwmrlprrcmthvlsfmcsthnvvmrvltnndthvscdgrllmrlprr
 :END:
-
 * TODO ideas for new pages                                         :exobrain:
 :PROPERTIES:
 :CREATED:  [2021-01-24]
@@ -2679,6 +2626,7 @@ https://twitter.com/kafkaisnotdead/status/1192558540340236288
 :PROPERTIES:
 :ID:       twtfrmlphyntnv
 :END:
+
 : ощущение, что от интернета грамотность падает, возникает, потому что до интернета возможность публично письменно высказываться была только у образованных людей (журналистов там всяких). сравнивать средний коммент в интернете надо не со статьёй в газете, а с объявлением на ларьке. https://t.co/tdh0ohLtkT
 
 
@@ -2702,7 +2650,6 @@ https://twitter.com/bengoertzel/status/1353790957922045952
 :PROPERTIES:
 :ID:       sncrrllsmndscpscncsctyphlspdcstddctcmpsdvpdcstddct
 :END:
-
 * DONE [#A] [2019-01-25] Toward an exploratory medium for mathematics :nielsen:math:thinking:pkm:
 :PROPERTIES:
 :ID:       twrdnxplrtrymdmfrmthmtcs
@@ -2774,7 +2721,6 @@ https://en.wikipedia.org/wiki/Bret_Victor
 :PROPERTIES:
 :ID:       wrrydrmcmkllmth
 :END:
-
 * DONE [#B] [2019-11-13] Stephen Diehl on Twitter: "What was the biggest CS advance in 2010-2020?" :cs:
 :PROPERTIES:
 :ID:       stphndhlntwttrwhtwsthbggstcsdvncn
@@ -2854,7 +2800,6 @@ https://personium.io/
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdskhnshwmyrhlfbkdprjcthckrnws
 :END:
-
 * DONE [2018-12-08] The Case Against News - Econlib                    :news:
 :PROPERTIES:
 :ID:       thcsgnstnwscnlb
@@ -2870,7 +2815,6 @@ https://rationalwiki.org/wiki/Roko%27s_basilisk
 :PROPERTIES:
 :ID:       hhprttyhlrs
 :END:
-
 * DONE [2019-01-24] Michael Nielsen                                 :nielsen:
 :PROPERTIES:
 :ID:       mchlnlsn

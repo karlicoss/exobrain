@@ -23,7 +23,6 @@ unit test fixtures
 :CREATED:  [2019-07-13]
 :ID:       xmplfdcrtrwthcd
 :END:
-
 * TODO [#C] about python consuming parsing                          :parsing:
 :PROPERTIES:
 :CREATED:  [2019-05-03]
@@ -39,13 +38,11 @@ unit test fixtures
 :CREATED:  [2019-04-21]
 :ID:       lrcchskndfrntmlvlmk
 :END:
-
 * TODO about traity things I did in axol?                              :axol:
 :PROPERTIES:
 :CREATED:  [2019-01-01]
 :ID:       bttrtythngsddnxl
 :END:
-
 * TODO [#C] Hacky logging thing
 :PROPERTIES:
 :CREATED:  [2019-09-23]
@@ -64,13 +61,11 @@ I often write python scripts instead of shell
 :CREATED:  [2019-07-08]
 :ID:       cntxtmngrndwrppngpd
 :END:
-
 * TODO [#C] another usecase for LRU cache thing -- merging multiple files
 :PROPERTIES:
 :CREATED:  [2019-04-23]
 :ID:       nthrscsfrlrcchthngmrgngmltplfls
 :END:
-
 * TODO [#D] Monadic parsing with decorators?
 :PROPERTIES:
 :CREATED:  [2019-09-25]

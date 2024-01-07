@@ -5,6 +5,7 @@
 :PROPERTIES:
 :ID:       cntnmhypthss
 :END:
+
 Godel: proved that ZFC + CH is consistnent
 Cohen: proved that ZFC + ~CH is consistnent (actually, any intermediate number of infinities)
 * [2015-08-26] depenedent sum
@@ -19,6 +20,7 @@ Exists (a : A) (B(A)) = || Sum a B ||
 :PROPERTIES:
 :ID:       slfrfrnclmntnsndcs
 :END:
+
 x^1 \in y^2
 
 y^2 \in x^1: forbidden!

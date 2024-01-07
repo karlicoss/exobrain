@@ -6,7 +6,6 @@
 :PROPERTIES:
 :ID:       srddtcmrqntfdslfcmmntsfbyyrjrnytlggngmylfrqntfdslf
 :END:
-
 * [#B] [2020-01-13] [[https://reddit.com/r/QuantifiedSelf/comments/cokt4f/what_do_you_all_do_with_your_data/feaf5ub/][What do you all do with your data?]] /r/QuantifiedSelf
 :PROPERTIES:
 :ID:       srddtcmrqntfdslfcmmntscktbwhtdylldwthyrdtrqntfdslf
@@ -16,7 +15,6 @@
 :PROPERTIES:
 :ID:       srddtcmrdtsbtflcmmntstylglggdnghtsfslpyrscrdtsbtfl
 :END:
-
 * TODO [#C] [2019-12-02] Beyond the “Quantified Self” | Ian Cackett
 :PROPERTIES:
 :ID:       byndthqntfdslfnccktt
@@ -46,7 +44,6 @@ https://www.technologyreview.com/s/514886/the-quantified-brain-of-a-self-trackin
 :PROPERTIES:
 :ID:       snwsstnfrddbrnstdypldrckfllwp
 :END:
-
 * STRT [#B] [2019-02-24] QS Resource Guide
 :PROPERTIES:
 :ID:       qsrsrcgd
@@ -148,7 +145,6 @@ damn, fascinating, the guy committed to rexport and now I notice him in the pino
 :CREATED:  [2018-07-23]
 :ID:       brthngslwrhghrhrv
 :END:
-
 * [#C] [2018-12-07] Biohacking Services Map https://notunhealthy.com/biohacking-map :biohacking:
 :PROPERTIES:
 :ID:       bhckngsrvcsmpsntnhlthycmbhckngmp
@@ -157,7 +153,6 @@ damn, fascinating, the guy committed to rexport and now I notice him in the pino
 :PROPERTIES:
 :ID:       hnlynrfdbckthngsrsmwhtntrstng
 :END:
-
 * STRT [#C] pulse oximeter?                                       :qs:gadget:
 :PROPERTIES:
 :CREATED:  [2018-05-02]
@@ -173,7 +168,6 @@ maybe i'll find smth to measure v02 though?
 :PROPERTIES:
 :ID:       msrssphvrlllkslkmstntrstnrbcxrcscldplywthtfrbtspps
 :END:
-
 * TODO [#C] https://www.freestylelibre.co.uk/libre/products/starter-pack.html :cgm:
 :PROPERTIES:
 :ID:       swwwfrstyllbrcklbrprdctsstrtrpckhtml
@@ -197,7 +191,6 @@ TLDR normal HR is averaged; HRV is looking at the distribution
 :PROPERTIES:
 :ID:       whtshrtrtvrbltybvtngsbvtnmhcnsrtclswhtshrtrtvrblty
 :END:
-
 ** https://blog.ouraring.com/blog/heart-rate-variability-basics/
 :PROPERTIES:
 :ID:       sblgrrngcmblghrtrtvrbltybscs
@@ -237,11 +230,11 @@ ok, this armband is quite accurate https://www.dcrainmaker.com/2018/01/scosches-
 :PROPERTIES:
 :ID:       gnrllythyllsmtsck
 :END:
-
 * [#C] [2018-06-15] qs guide -- cholesterol and trigs              :qs:blood:
 :PROPERTIES:
 :ID:       qsgdchlstrlndtrgs
 :END:
+
 http://quantifiedself.com/2017/11/quantified-self-guide-tracking-cholesterol-hdl-triglycerides/
 devices cost about 500-1000$, some even 2K, each test is 15$.
 
@@ -254,7 +247,6 @@ https://github.com/ActivityWatch/activitywatch
 :PROPERTIES:
 :ID:       rghtndrdvrsnswp
 :END:
-
 * People
 :PROPERTIES:
 :ID:       ppl
@@ -280,6 +272,7 @@ activitywatch guy
 :PROPERTIES:
 :ID:       znbscmmntsnppsfrrglrlymsrngntllgncpsychlgyndrtrv
 :END:
+
 https://www.reddit.com/r/QuantifiedSelf/comments/9oyr73/apps_for_regularly_measuring_intelligence/e80h0xj/
 : There are quite a few very nicely done "brain training" apps (e.g. Lumosity and Elevate), but they want to show how you are improving by using their apps, rather than just giving you an assessment of your current state. Exporting results is another issue with these apps... Here are a few services that may be more suitable for doing regular measurements:
 
@@ -304,7 +297,6 @@ https://activitywatch.net/
 :PROPERTIES:
 :ID:       nlyfrdsktp
 :END:
-
 * [#C] [2019-02-13] markwk/qs_ledger: Quantified Self Personal Data Aggregator and Data Analysis
 :PROPERTIES:
 :ID:       mrkwkqsldgrqntfdslfprsnldtggrgtrnddtnlyss
@@ -484,7 +476,6 @@ https://www.intelrealsense.com/lidar-camera-l515/
 :CREATED:  [2019-03-06]
 :ID:       hmwthrsttnwthtmpndc
 :END:
-
 * [#C] [2019-03-04] Quantified Mind Archives - Quantified Self
 :PROPERTIES:
 :ID:       qntfdmndrchvsqntfdslf
@@ -496,7 +487,6 @@ http://quantifiedself.com/quantified-mind/
 :CREATED:  [2019-09-20]
 :ID:       thnkhwtvlthtvslngndrnc
 :END:
-
 * [#C] [2019-10-28] Owning My Step Count · Jamie Tanna | Software (Quality) Engineer
 :PROPERTIES:
 :ID:       wnngmystpcntjmtnnsftwrqltyngnr
@@ -552,18 +542,15 @@ could create similar post? people seems to like that one..
 :CREATED:  [2019-11-20]
 :ID:       wttsrlwrbnddthtlssswndrwhtsthffcncyfmtngn
 :END:
-
 * TODO [#C] [2019-08-03] [[https://reddit.com/r/dataisbeautiful/comments/9zubj5/one_year_almost_of_heart_rate_data_from_fitbit/][One Year (Almost) of Heart Rate Data from Fitbit Charge 2 OC]] /r/dataisbeautiful
 :PROPERTIES:
 :ID:       srddtcmrdtsbtflcmmntszbjntrtdtfrmftbtchrgcrdtsbtfl
 :END:
-
 * TODO [#C] Try implementing smart alarm?                          :sleep:qs:
 :PROPERTIES:
 :CREATED:  [2019-12-15]
 :ID:       trymplmntngsmrtlrm
 :END:
-
 * TODO [#C] semantic location history!!! it actually includes segments! :location:takeout:
 :PROPERTIES:
 :CREATED:  [2020-02-26]
@@ -631,7 +618,6 @@ None
 :CREATED:  [2020-06-26]
 :ID:       tmprnnngcrrltn
 :END:
-
 * TODO [#C] [2020-07-29] [[https://hyfen.net/memex/updates/fifteen-years-of-conversations][hyfen.net/memex/updates/fifteen-years-of-conversations/]]
 :PROPERTIES:
 :ID:       shyfnntmmxpdtsfftnyrsfcnvntmmxpdtsfftnyrsfcnvrstns
@@ -651,7 +637,6 @@ None
 :CREATED:  [2020-08-18]
 :ID:       ndtmplmntlncptrmyb
 :END:
-
 * DONE [#C] right. bluemaestro seems to duplicate data... with weird timestamps. :bluemaestro:
 :PROPERTIES:
 :CREATED:  [2020-08-23]
@@ -725,17 +710,18 @@ http://ilbonte.github.io/rescuetime-again/
 :PROPERTIES:
 :ID:       nlklytmpctnythnggssbcstsnclrwhtdtqntfdmndrprts
 :END:
-
 * [#D] [2018-06-30] wger Workout Manager - Features                :exercise:
 :PROPERTIES:
 :ID:       wgrwrktmngrftrs
 :END:
+
 https://wger.de/en/software/features
 
 * TODO [#D] bristol stool scale                                      :health:
 :PROPERTIES:
 :ID:       brstlstlscl
 :END:
+
 https://en.wikipedia.org/wiki/Bristol_stool_scale
 
 * TODO [#D] experiment with modafinil https://www.gwern.net/Modafinil
@@ -768,7 +754,6 @@ http://quantifiedself.com/2018/07/tracking-life-mark-krynsky/?utm_source=feedbur
 :PROPERTIES:
 :ID:       msrsmrspnssswwwhmnbnchmrkcmdshbrd
 :END:
-
 * [#D] [2018-11-10] aquilax/hranoprovod-cli: Command line quantified self tool
 :PROPERTIES:
 :ID:       qlxhrnprvdclcmmndlnqntfdslftl
@@ -860,7 +845,6 @@ https://news.ycombinator.com/item?id=5588967
 :CREATED:  [2019-06-10]
 :ID:       lrntdrwvnsbld
 :END:
-
 * [#D] [2019-06-15] AncestryDNA vs 23andMe vs MyHeritage: Which One is Best?
 :PROPERTIES:
 :ID:       ncstrydnvsndmvsmyhrtgwhchnsbst
@@ -906,7 +890,6 @@ https://pinboard.in/u:nhaliday/b:51addc9d5f81
 :CREATED:  [2018-03-01]
 :ID:       swwwgwrnntdnbfq
 :END:
-
 ** working memory is important, helps to grasp the structure of something
 :PROPERTIES:
 :ID:       wrkngmmrysmprtnthlpstgrspthstrctrfsmthng
@@ -963,12 +946,10 @@ he does that quaterly, but wonder if you can measure it once in a quater reliabl
 :PROPERTIES:
 :ID:       mrwllntrstng
 :END:
-
 ** Build a dashboard for your life so that you orient in the right direction. If done correctly, this is a motivational and fun hobby that can help level you up.
 :PROPERTIES:
 :ID:       blddshbrdfryrlfsthtyrntntvtnlndfnhbbythtcnhlplvlyp
 :END:
-
 ** TODO eh, really should do that within hypothesis?
 :PROPERTIES:
 :ID:       hrllyshlddthtwthnhypthss
@@ -986,7 +967,6 @@ eh, apparently something won competition, but not a production grade
 :CREATED:  [2018-11-28]
 :ID:       srcjnnmtrckngbldsgr
 :END:
-
 * [2019-02-12] ActivityWatch/aw-android: ActivityWatch for Android, using aw-server-rust as backend. :qs:
 :PROPERTIES:
 :ID:       ctvtywtchwndrdctvtywtchfrndrdsngwsrvrrstsbcknd
@@ -1183,7 +1163,6 @@ http://www.markwk.com/2018/01/limits-to-mood-tracking.html
 :PROPERTIES:
 :ID:       ghjstdntrllyflslpywhtthfcdyrsmthngnlklytdmchgdthgh
 :END:
-
 * DONE [#B] [2019-07-29] Российский биохакинг. - Elena Akm - Medium :qs:biohacking:
 :PROPERTIES:
 :ID:       lnkmmdm
@@ -1207,7 +1186,6 @@ all the reddit references are about 2 year old..
 :PROPERTIES:
 :ID:       mznrvwsrprttybdt
 :END:
-
 * DONE [#D] how to measure anything                                 :qs:read:
 :PROPERTIES:
 :CREATED:  [2018-03-01]
@@ -1226,11 +1204,11 @@ read the comments though, example (how to measure programmer productivity)
 :CREATED:  [2018-02-14]
 :ID:       prcssngnggnpnbrd
 :END:
-
 ** NeuroTechX
 :PROPERTIES:
 :ID:       nrtchx
 :END:
+
 unclear what they do exactly http://neurotechx.com/
 
 nice github though... lots of stuff https://github.com/NeuroTechX/
@@ -1419,6 +1397,7 @@ shit, this looks awesome!!
 :PROPERTIES:
 :ID:       slfhstdlctntrckngltrntvtggllctn
 :END:
+
 https://www.reddit.com/r/selfhosted/comments/9zn0p4/selfhosted_location_tracking_alternative_to/
 
 * [#D] [2019-05-04] [[https://reddit.com/r/selfhosted/comments/9zn0p4/selfhosted_location_tracking_alternative_to/eaagm02/][Self-hosted location tracking? (alternative to Google Location)]] /r/selfhosted
@@ -1470,7 +1449,6 @@ right, so seems they have to be synced manually and it kept last 3 months? need 
 :PROPERTIES:
 :ID:       scdbrgrgfryrgdgtgdgtbrdgfspprtddvcsgdgtbrdgcdbrgrg
 :END:
-
 * [2020-10-06] [[https://codeberg.org/Freeyourgadget/Gadgetbridge][Freeyourgadget/Gadgetbridge: A free and cloudless replacement for your gadget vendors' closed source Android applications. See the list for supported devices. - Gadgetbridge - Codeberg.org]]
 :PROPERTIES:
 :ID:       scdbrgrgfryrgdgtgdgtbrdgfspprtddvcsgdgtbrdgcdbrgrg
@@ -1600,7 +1578,6 @@ https://twitter.com/altini_marco/status/1319191871281897472
 :CREATED:  [2020-10-21]
 :ID:       cmprsnbtwnmftndgrmn
 :END:
-
 * [2020-10-17] Wow, hr after eating pizza is still 80 after almost 2 hours? Check previous week too :qs:
 :PROPERTIES:
 :ID:       wwhrftrtngpzzsstllftrlmsthrschckprvswkt
@@ -1613,7 +1590,6 @@ https://twitter.com/altini_marco/status/1319191871281897472
 :PROPERTIES:
 :ID:       ntrstngdtbtpplrcmmntngthttsmnnglsswthtglcssnstvty
 :END:
-
 * TODO [#B] [2020-10-24] [[https://en.wikipedia.org/wiki/Heart_rate#Maximum_heart_rate][Heart rate - Wikipedia]] :qs:hr:
 :PROPERTIES:
 :ID:       snwkpdrgwkhrtrtmxmmhrtrthrtrtwkpd
@@ -1695,7 +1671,6 @@ it detected sleep while I was still awake and reading?? what the actual fuck???
 :PROPERTIES:
 :ID:       swwwgbnydsyntxfrslftrckngsyntxfrslftrckng
 :END:
-
 * TODO figure out HRV correlations with other things               :qs:emfit:
 :PROPERTIES:
 :CREATED:  [2020-12-24]
@@ -1738,7 +1713,6 @@ it detected sleep while I was still awake and reading?? what the actual fuck???
 :PROPERTIES:
 :ID:       btmngdtbckpdtbssngrt
 :END:
-
 ** Trackthisforme: weird, too complicated MEH
 :PROPERTIES:
 :ID:       trckthsfrmwrdtcmplctdmh
@@ -1749,7 +1723,6 @@ none of them have widget
 :PROPERTIES:
 :ID:       kptrcktsmplmh
 :END:
-
 ** atimelogger? http://www.atimelogger.com/
 :PROPERTIES:
 :ID:       tmlggrwwwtmlggrcm
@@ -1758,7 +1731,6 @@ none of them have widget
 :PROPERTIES:
 :ID:       lksllrghtbtvrsmplfdknwwhnmdngsprtsrwrkrshppngnywy
 :END:
-
 ** A Time Tracker? f-droid,  open source
 :PROPERTIES:
 :ID:       tmtrckrfdrdpnsrc
@@ -1803,7 +1775,6 @@ none of them have widget
 :PROPERTIES:
 :ID:       plrbtntncssryfrthsnsr
 :END:
-
 ** pull ups
 :PROPERTIES:
 :ID:       pllps
@@ -1836,6 +1807,7 @@ He says even most promising studies show very little effect of brain training
 :PROPERTIES:
 :ID:       swwwvxcmdrjlftnsstrckrccrcy
 :END:
+
 fitness tracker accuracy
 
 ** online trackers: crap, quite obviously
@@ -1921,6 +1893,7 @@ lots of interesting subjective/percieved stats
 :PROPERTIES:
 :ID:       cndctngblndxprmnts
 :END:
+
 https://www.gwern.net/Nootropics#blinding-yourself
 https://www.gwern.net/Nootropics#modalert-blind-day-trial
 
@@ -2006,7 +1979,6 @@ the question of whether n-back training produces real-world improvements to work
 :PROPERTIES:
 :ID:       pprntlyhsgdtsbjctvscrswndrfhddnyprprdtnlysstll
 :END:
-
 * [#B] [2020-01-22] [[https://reddit.com/r/QuantifiedSelf/comments/esbp0e/how_i_log_almost_everything_to_airtable_with_ios/][How I log (almost) EVERYTHING to AIRTABLE with iOS Shortcuts, Integromat, Pushcut, NFC tags and Timing app from my mind, Fitbit, Oura, Withings, EliteHRV, Yazio, Calm, Clue, Social media accounts, Photos and other sources. (A long thread I wrote to Automators forum, you can read it without sign-in )]] /r/QuantifiedSelf :toblog:qs:lifelogging:
 :PROPERTIES:
 :ID:       srddtcmrqntfdslfcmmntssbprmycnrdtwthtsgnnrqntfdslf
@@ -2080,7 +2052,6 @@ https://talk.automators.fm/t/how-i-track-my-life-with-integromat-airtable-shortc
 :PROPERTIES:
 :ID:       slmstrmbrgcmdyswthrrngdysyrvltnswthhrvddctdtptmztn
 :END:
-
 * [#B] [2020-09-13] [[https://beepb00p.xyz/exercise-bike-model.html][Analyzing accuracy of power reported by stationary bike | beepb00p]]
 :PROPERTIES:
 :ID:       sbpbpxyzxrcsbkmdlhtmlnlyzcyfpwrrprtdbysttnrybkbpbp
@@ -2118,7 +2089,6 @@ https://talk.automators.fm/t/how-i-track-my-life-with-integromat-airtable-shortc
 :PROPERTIES:
 :ID:       gsstshldbfntxplctlylnktthpblcnsnnndsllphtsthr
 :END:
-
 * TODO [#C] quantifiedmind post: build an automatic graph for model? So I could reason about placebo etc :qs:toblog:
 :PROPERTIES:
 :CREATED:  [2018-08-17]
@@ -2146,7 +2116,6 @@ highlight
 :PROPERTIES:
 :ID:       sdlyvscmpstsqntfdslfwhytrlfwhytrckmtrcsbtmylfvrydy
 :END:
-
 * [#C] [2020-01-29] Ian Forrester | @cubicgarden@mastodon.cloud on Twitter: "Dropping @Rescuetime for the privacy first @ActivityWatchIt https://t.co/NDVP2EtbbH https://t.co/ocanwujpSm" / Twitter
 :PROPERTIES:
 :ID:       nfrrstrcbcgrdnmstdncldntwtcndvptbbhstccnwjpsmtwttr

@@ -57,6 +57,7 @@ https://news.ycombinator.com/item?id=21913598
 :PROPERTIES:
 :ID:       ntlwysntrstdntmsdspprngfrmqry
 :END:
+
 the downside -- having to keep the state :(
 ** [#C] [[http://twitter.com/karlicoss/status/1047228539156750336][TW]] at [2018-10-02] А кто-нибудь знает тулы типа https://t.co/EbpbNZWQFC , но чтобы туда можно было вбить грубо говоря любую поисковую кверю, или API (например reddit/github); и оно отслеживало результаты?
 :PROPERTIES:
@@ -145,7 +146,6 @@ also axol doctor to check individual providers + reuse in tests
 :CREATED:  [2019-09-02]
 :ID:       sppspchdbwldbprfctfrblcklstng
 :END:
-
 ** TODO [#B] for blacklisting, instead could just apply custom per-user classes? or even edit them. that would allow to highlight properly
 :PROPERTIES:
 :CREATED:  [2019-09-16]
@@ -261,7 +261,6 @@ maybe some simple cmdline available from anywhere. or org mode as source?
 :CREATED:  [2020-05-21]
 :ID:       dnnbtrssntrfcrllyndmrffcntwyfprcssngcntntrrdrngtc
 :END:
-
 * [#C] Queries
 :PROPERTIES:
 :ID:       qrs
@@ -331,7 +330,6 @@ what universal human experiences are you missing without realizing it
 :PROPERTIES:
 :ID:       yhtwttrfdsntthgscldsbscrbtt
 :END:
-
 ** TODO [#D] [2019-06-29] https://github.com/hypotext/notation - Twitter Search
 :PROPERTIES:
 :ID:       sgthbcmhyptxtnttntwttrsrch
@@ -357,7 +355,6 @@ https://twitter.com/search?q=karlicoss%2Fcachew&partner=Firefox&source=desktop-s
 :PROPERTIES:
 :ID:       shnlglcmdtrngllpgprfxtrqrllsrchpwrdbylglnnnvrssrch
 :END:
-
 ** STRT [#C] mypy -- exclude mypython; prioritize topics               :mypy:
 :PROPERTIES:
 :CREATED:  [2020-06-24]
@@ -476,12 +473,10 @@ search on pinboard? or even axol..
 :PROPERTIES:
 :ID:       spnbrdntgpnbrdbkmrkstggdg
 :END:
-
 ** TODO [#D] [2020-05-01] [[https://pinboard.in/t:km][Pinboard bookmarks tagged km]] :pkm:
 :PROPERTIES:
 :ID:       spnbrdntkmpnbrdbkmrkstggdkm
 :END:
-
 ** STRT [#B] memex? esp github                                        :memex:
 :PROPERTIES:
 :CREATED:  [2020-05-19]
@@ -579,7 +574,6 @@ axol/summary/hackernews_pkm.html
 :CREATED:  [2019-01-02]
 :ID:       cldddgglsrchtsppsbtthtsdflwstprrty
 :END:
-
 ** STRT [#C] implement for reddit. release reddit/github searchers (as library, then import and use)
 :PROPERTIES:
 :CREATED:  [2018-11-27]
@@ -599,7 +593,6 @@ axol/summary/hackernews_pkm.html
 :CREATED:  [2019-01-11]
 :ID:       wrldbgrttsrchncmmnts
 :END:
-
 ** TODO [#C] hypothesis
 :PROPERTIES:
 :CREATED:  [2019-01-05]
@@ -692,7 +685,6 @@ also use more generic hooks?
 :CREATED:  [2019-07-16]
 :ID:       srttgsbynmbrfttlccrncs
 :END:
-
 * TODO [#B] Use cachew and keep stuff as blobs with id               :cachew:
 :PROPERTIES:
 :CREATED:  [2020-01-31]
@@ -750,19 +742,16 @@ might need to work on this: axol/databases/twitter_extended_mind.sqlite
 :CREATED:  [2019-07-16]
 :ID:       dfntrstngtssrstts
 :END:
-
 * TODO [#C] Sort tags by number of total occurences?
 :PROPERTIES:
 :CREATED:  [2019-07-16]
 :ID:       srttgsbynmbrfttlccrncs
 :END:
-
 * TODO [#C] Maybe better way of normalising? E.g. look at ted_chiang  and gq article. Display 'bumped' entries separately? Like a different way of sorting
 :PROPERTIES:
 :CREATED:  [2019-07-16]
 :ID:       mybbttrwyfnrmlsngglkttdchtrssprtlylkdffrntwyfsrtng
 :END:
-
 * TODO [#C] prepend # in tag?
 :PROPERTIES:
 :CREATED:  [2019-07-28]
@@ -798,13 +787,11 @@ Can Google’s AI-powered Clips make people care about lifelogging? http://ift.t
 :CREATED:  [2019-12-02]
 :ID:       hmmlsndrltmsrchndntfygss
 :END:
-
 * TODO [#C] Eh, better idea would be a tag subscription...             :mypy:
 :PROPERTIES:
 :CREATED:  [2020-01-31]
 :ID:       hbttrdwldbtgsbscrptn
 :END:
-
 * STRT [#C] would be nice to have some efficient frontend + backend thing :timeline:
 :PROPERTIES:
 :CREATED:  [2019-12-02]
@@ -847,7 +834,6 @@ https://miniflux.app/docs/cli.html
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdxlprsnltmddttwttrhnndrdsrsshckrnws
 :END:
-
 * TODO [#C] perhaps redefine everything in entities? and have relations -- people, subreddits, urls, tags, etc
 :PROPERTIES:
 :CREATED:  [2019-04-15]
@@ -935,7 +921,6 @@ pinboard:tag:scottalexander
 :PROPERTIES:
 :ID:       mybtrytntrsctknwnsrstgsndswhtthygtncmmn
 :END:
-
 * TODO [#D] running under docker results in /app/axol/js/sorttable
 :PROPERTIES:
 :CREATED:  [2020-06-17]
@@ -998,7 +983,6 @@ https://classes.readthedocs.io/en/latest/
 :PROPERTIES:
 :ID:       hmmsmthhgwstryngtdnxl
 :END:
-
 * doesn't look active. all top results are from 2017            :axol:upspin:
 :PROPERTIES:
 :CREATED:  [2020-04-02]

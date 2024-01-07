@@ -28,7 +28,6 @@ huh!
 :PROPERTIES:
 :ID:       mthcrdhmbznstnndhtmlnwthnslwdrvtngthrgh
 :END:
-
 * START [2014-07-15]  sean carroll lecture notes on general relativity
 :PROPERTIES:
 :ID:       sncrrlllctrntsngnrlrltvty
@@ -52,7 +51,6 @@ ok, we get geodesic equatiion from the parellel transport equation
 :CREATED:  [2018-07-09]
 :ID:       nncrrllspctmndgmtrynntrdctntgnrlrltvtypdf
 :END:
-
 ** p.6 synchronised clocks: from point a to b and back to a, then t_b = (t_a + t_a') / 2
 :PROPERTIES:
 :ID:       psynchrnsdclcksfrmpnttbndbcktthntbtt
@@ -66,7 +64,6 @@ if we construct coordinates that way, it's called inertial frame
 :PROPERTIES:
 :ID:       pcrdntsrsprscrptsmtrctnsrssbscrpts
 :END:
-
 ** p.9 timelike particles is travelling slower than light
 :PROPERTIES:
 :ID:       ptmlkprtclsstrvllngslwrthnlght
@@ -76,6 +73,7 @@ proper time is ds (where -ds^2 < 0)
 :PROPERTIES:
 :ID:       pnnstrghtpthhsshrtrprprtm
 :END:
+
 interval -- integral of sqrt(n_uv d^u/dlam d^v/dlam dlam)
 
 ** p. 13 Lorentz transformations, lorentz group
@@ -92,7 +90,6 @@ spacetime transformations: axes are orthogonal in the lorenzian sense
 :PROPERTIES:
 :ID:       pncthspcscrvdwcntmvvctrsfrlynymrtngntspctp
 :END:
-
 ** p. 19
 :PROPERTIES:
 :ID:       p
@@ -121,12 +118,10 @@ hmm
 :PROPERTIES:
 :ID:       mgntcndlctrcfldsrnlyvctrsttnsnspcnfctcmpnntsfmtnsr
 :END:
-
 ** p. 30 -- covariant form of equations means tensorial -- has nothing to do with 'covariant' as oppposed to 'contravariant'
 :PROPERTIES:
 :ID:       pcvrntfrmfqtnsmnstnsrlhsntdwthcvrntspppsdtcntrvrnt
 :END:
-
 ** p 31 -- the fact that spacetime is flat allows a unique choice of straight line between the points
 :PROPERTIES:
 :ID:       pthfctthtspctmsfltllwsnqchcfstrghtlnbtwnthpnts
@@ -171,13 +166,11 @@ derivation of energy-momentum tensor for dust
 :CREATED:  [2018-07-12]
 :ID:       smpdftwrkclcltnglvcvtsymblsfrcylndr
 :END:
-
 * START play with metric tensor a bit
 :PROPERTIES:
 :CREATED:  [2018-07-12]
 :ID:       plywthmtrctnsrbt
 :END:
-
 ** DONE suppose metric is dS = x^2 dx + dy^2.  What does that mean?
 :PROPERTIES:
 :ID:       sppsmtrcsdsxdxdywhtdsthtmn
@@ -400,6 +393,7 @@ http://www.physicspages.com/Index%20-%20Relativity.html
 :PROPERTIES:
 :ID:       thmnngfnstnsqtn
 :END:
+
 http://math.ucr.edu/home/baez/einstein/
 
 * STRT [#C] make up some crazy metric (e.g. g = Diag[x^2y^2z^2, 1, 1]) can we do something cool about it? :think:
@@ -407,11 +401,11 @@ http://math.ucr.edu/home/baez/einstein/
 :CREATED:  [2018-07-10]
 :ID:       mkpsmcrzymtrcggdgxyzcnwdsmthngclbtt
 :END:
-
 * TODO [#C] susskind lectures                                 :study:towatch:
 :PROPERTIES:
 :ID:       ssskndlctrs
 :END:
+
 : General Relativity by Leonard Susskind. Особенно хороши серии 6 и 9. В 9-й type-directed вывод уравнения Эйнштейна, невероятно красиво.
 
 * [#C] [2019-06-18] MITGameLab/OpenRelativity: An open source framework to add the effects of traveling at relativistic speeds to visualizations or games :game:
@@ -439,17 +433,20 @@ raytracer on haskell
 :PROPERTIES:
 :ID:       gnrlrltvtywhysthcvrntdrvtmtrctnsrzrphyscsstckxchng
 :END:
+
 https://physics.stackexchange.com/questions/47919/why-is-the-covariant-derivative-of-the-metric-tensor-zero
 * [#C] [2018-11-19] differential geometry - Is there a good way to compute Christoffel Symbols - Mathematics Stack Exchange
 :PROPERTIES:
 :ID:       dffrntlgmtrysthrgdwytcmptfflsymblsmthmtcsstckxchng
 :END:
+
 https://math.stackexchange.com/questions/24294/is-there-a-good-way-to-compute-christoffel-symbols
 
 * [#C] [2018-11-19] differential geometry - Why may geodesic not be the shortest path on a surface? - Mathematics Stack Exchange
 :PROPERTIES:
 :ID:       dffrntlgmtrywhymygdscntbttpthnsrfcmthmtcsstckxchng
 :END:
+
 https://math.stackexchange.com/questions/1432985/why-may-geodesic-not-be-the-shortest-path-on-a-surface
 
 * [2020-07-21] [[https://physics.stackexchange.com/questions/235307/so-black-holes-actually-merge-in-1-5th-of-a-second-how][gravitational waves - So Black Holes Actually Merge! In 1/5th of a Second - How? - Physics Stack Exchange]]

@@ -6,11 +6,11 @@
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * Definitions & theorems
 :PROPERTIES:
 :ID:       dfntnsthrms
 :END:
+
 GL(V) -- group of linear maps of V (automorphisms, isomorphisms from group to itself)
 p is representation
 sometimes V is called a representation (if there is little ambiguity about the map onto it)
@@ -47,7 +47,6 @@ G-linear map -- map between representations V -> W, s.t g . phi and phi . g comm
 :PROPERTIES:
 :ID:       cmmttvgllrrprndmnsnl
 :END:
-
 * [#A] U(1)
 :PROPERTIES:
 :END:
@@ -110,7 +109,6 @@ https://en.m.wikipedia.org/wiki/Representation_theory_of_SU(2)
 :PROPERTIES:
 :ID:       rghtsrprsfsrctllyfndbycnsdngypxplnschcfplmtrcsswll
 :END:
-
 ** SU(n) -- n dim matrices with det equal to 1
 :PROPERTIES:
 :ID:       snndmmtrcswthdtqlt
@@ -127,7 +125,6 @@ https://en.m.wikipedia.org/wiki/Representation_theory_of_SU(2)
 :PROPERTIES:
 :ID:       smrphctntqtrnns
 :END:
-
 ** SU(2). for C^2 self adjoint operators are always expressed in terms of Pauli matrices
 :PROPERTIES:
 :ID:       sfrcslfdjntprtrsrlwysxprssdntrmsfplmtrcs
@@ -213,7 +210,6 @@ Maybe the intuition with torus works? But the torus is more of a long pipe
 :PROPERTIES:
 :ID:       mscstffvvvvvvvvvvvvvvvv
 :END:
-
 * [2019-01-20] Irreducible representation - Wikipedia
 :PROPERTIES:
 :ID:       rrdcblrprsnttnwkpd
@@ -231,6 +227,7 @@ https://en.wikipedia.org/wiki/Representation_theory_of_the_Lorentz_group
 :PROPERTIES:
 :ID:       symmtrygrps
 :END:
+
 what is the meaning of symmetry? I guess that the actually observed values are unchanged
 
 http://math.ucr.edu/home/baez/symmetries.html
@@ -266,6 +263,7 @@ A representation of a group is a way to think of its elements as operators, and 
 :PROPERTIES:
 :ID:       ncrgvryntlrnthdrvtnfschrdrprsnttnthryfthgllgrptscl
 :END:
+
 The mathematical foundations of quantum physics:
 Josef M. Jauch, Foundations of Quantum Mechanics, Addison-Wesley, 1968. (Very thoughtful and literate. Get a taste of quantum logic.)
 George Mackey, The Mathematical Foundations of Quantum Mechanics, Dover, New York, 1963. (Especially good for mathematicians who only know a little physics.)
@@ -280,7 +278,6 @@ https://www.math.columbia.edu/~woit/RepThy/
 :PROPERTIES:
 :ID:       thshldsnprtclrfrnyrprsnttbrsszrwhchnvrdvdsthszfgrp
 :END:
-
 * [2018-11-10] Introduction to gauge theory - Wikipedia :reprtheory:symmetry:
 :PROPERTIES:
 :ID:       ntrdctntggthrywkpd
@@ -343,7 +340,6 @@ C^2, upper triangular matrices W = k (1 0) for k in C is a subrepr, but there is
 :CREATED:  [2018-08-25]
 :ID:       bzlgrpsthrghtxmpls
 :END:
-
 ** [2018-10-09] ok hold on for now; he assumes we know what's a lie algebra, etc..
 :PROPERTIES:
 :ID:       khldnfrnwhssmswknwwhtsllgbrtc
@@ -356,6 +352,7 @@ http://math.ucr.edu/home/baez/qg-fall2008/lie1.pdf
 :PROPERTIES:
 :ID:       blgsgfpcmwhtsllthsstffbtthnprthtml
 :END:
+
 lie algebras describe rate of change of element of lie group, they are not wrapping around!
 
 * START lie groups course                                       :lie:physics:
@@ -543,6 +540,7 @@ in terms of closure, it's a bit easier. 0 is close to (0, inf). however f(0), wh
 :PROPERTIES:
 :ID:       thhnkgtnnttnfrqtntspctplgtsnqtntspctbthnswthpnprmg
 :END:
+
 for x ~ y == x - y is integer:
 interesting case I suppose is when a set S contains 0. then, we split it in two parts: 'left' to 0 and 'right or zero' (well defined, otherwise it's all space)
 the only interesting case if (-a, b)? Otherwise can't be open since contains limit points.
@@ -612,11 +610,11 @@ U× a discrete space→U.
 :PROPERTIES:
 :ID:       ldv
 :END:
-
 * С4 group
 :PROPERTIES:
 :ID:       grp
 :END:
+
   a b c
 a b c e
 b c e a
@@ -639,7 +637,6 @@ Representation
 :PROPERTIES:
 :ID:       gmtrcrprsnttnmrkdsqrrttns
 :END:
-
 * [2018-09-11] O(n) http://mathworld.wolfram.com/OrthogonalGroup.html
 :PROPERTIES:
 :ID:       nmthwrldwlfrmcmrthgnlgrphtml
@@ -661,11 +658,13 @@ O(1, 1) -- preserves x^2 - y^2 (hyperobolas)
 :PROPERTIES:
 :ID:       qntmfldthrywhyprtclsrthghnnplnnglshphyscsstckxchng
 :END:
+
 https://physics.stackexchange.com/questions/277986/why-particles-are-thought-as-irreducible-representation-in-plain-english
 ** [2018-12-07] Worked problems in physics using representation theory? : AskPhysics
 :PROPERTIES:
 :ID:       wrkdprblmsnphyscssngrprsnttnthryskphyscs
 :END:
+
 https://www.reddit.com/r/AskPhysics/comments/93clmt/worked_problems_in_physics_using_representation/ 
 I haven't read the mechanics book you mentioned, so I don't know how similar these are to that, but some good books I've used that go into representation theory outside of particle physics are Hamermesh's Group theory and its application to physical problems and Petrashen's Applications of group theory in quantum mechanics.
 
@@ -762,6 +761,7 @@ http://jakobschwichtenberg.com/adjoint-representation/
 :PROPERTIES:
 :ID:       grndnfdthryrsrcs
 :END:
+
 http://jakobschwichtenberg.com/resources-that-helped-me-understand-grand-unified-theories/
 
 * [2020-08-03] [[https://twitter.com/EricRWeinstein/status/1290383725599973376][Eric Weinstein on Twitter: "You can call S^3 by all of the following names: S^3, Spin(3), SU(2), Sp(1) only they lead to *different* generalizations. Unfortunately Spin(4)=SU(2)xSU(2) is seldom written Spin(4)=Sp(1)xS^3 which should be preferred. But why is one naming better? It‘s because it generalizes." / Twitter]]

@@ -20,7 +20,6 @@ If anyone knows of similar efforts/prior art, *please let me know*! I'd really l
 ** .                                                                :linkrot:
 :PROPERTIES:
 :END:
-
 * [#A] * motivation
 :PROPERTIES:
 :ID:       mtvtn
@@ -184,7 +183,6 @@ It's a crap boring work that should be only done once (e.g. like timezones datab
 :PROPERTIES:
 :ID:       rghtcldprbblyrshypthssscnyndcntrbtbcklksvrysmlrtmn
 :END:
-
 ** TODO [#B] [2020-05-12] [[https://github.com/coleifer/micawber][coleifer/micawber: a small library for extracting rich content from urls]]
 :PROPERTIES:
 :ID:       sgthbcmclfrmcwbrclfrmcwbrryfrxtrctngrchcntntfrmrls
@@ -207,7 +205,6 @@ It's a crap boring work that should be only done once (e.g. like timezones datab
 :PROPERTIES:
 :ID:       sgthbcmhypthsshblbfcddbfctstpyhypthsshnrmlzrststpy
 :END:
-
 ** TODO [#C] [2019-04-16] [[https://github.com/niksite/url-normalize][niksite/url-normalize: URL normalization for Python]]
 :PROPERTIES:
 :ID:       sgthbcmnkstrlnrmlznkstrlnrmlzrlnrmlztnfrpythn
@@ -367,7 +364,6 @@ Some tricky cases which would be nice to get right
 :PROPERTIES:
 :ID:       swwwytbcmcwndvrprdctnsvdswndvrprdctnsytb
 :END:
-
 ** [#B] [2020-04-19] roam links
 :PROPERTIES:
 :ID:       rmlnks
@@ -433,7 +429,6 @@ url normalising... this is an example where fragments are important
 :PROPERTIES:
 :ID:       shbsmzllcm
 :END:
-
 ** [#C] [2020-04-30] [[http://www.defmacro.org/2016/12/22/writing-well.html][Writing well | defmacro]]
 :PROPERTIES:
 :ID:       wwwdfmcrrgwrtngwllhtmlwrtngwlldfmcr
@@ -443,7 +438,6 @@ support for archive.org and test on this page
 :PROPERTIES:
 :ID:       wybckmchnswbrchvrgwbwwwdfmcrrgwrtngwllhtml
 :END:
-
 ** [#C] [2019-11-15] maybe https://youtu.be/zRxI0DaQrag?t=1380 ?
 :PROPERTIES:
 :ID:       mybsytbzrxdqrgt
@@ -519,7 +513,6 @@ so, for csv need a separate extractor.
 :PROPERTIES:
 :ID:       spprsssrncmslpprscfmbstrckddntgtthmllbycrlhwttssrn
 :END:
-
 ** STRT [#D] should be more defensive
 :PROPERTIES:
 :CREATED:  [2019-06-05]
@@ -538,7 +531,6 @@ so, for csv need a separate extractor.
 :PROPERTIES:
 :ID:       mksrxtrctdcrrctlysplygglcmstrppsdtlsdcmfltxcptnrdr
 :END:
-
 ** DONE [#C] [2019-05-04] https://news.ycombinator.com/item?id=12973788
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmd
@@ -602,12 +594,10 @@ huh, so reddit seems to normalise to the main page, and displays annotations as 
 :PROPERTIES:
 :ID:       swkrchvtmrgndxphpttlrltmrltmrchvtm
 :END:
-
 * [#C] [2021-03-25] [[https://github.com/seomoz/url-py][seomoz/url-py: URL Transformation, Sanitization]] :cannon:
 :PROPERTIES:
 :ID:       sgthbcmsmzrlpysmzrlpyrltrnsfrmtnsntztn
 :END:
-
 * [#C] [2021-03-03] [[https://twitter.com/jondotbo][(5) Jon Borichevskiy (@jondotbo) / Twitter]] :promnesia:cannon:
 :PROPERTIES:
 :ID:       stwttrcmjndtbjnbrchvskyjndtbtwttr

@@ -5,7 +5,6 @@
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * [#A] [2019-09-29] Practical Ways to Write Better JavaScript - Stack Overflow Blog
 :PROPERTIES:
 :ID:       prctclwystwrtbttrjvscrptstckvrflwblg
@@ -79,7 +78,6 @@ https://stackoverflow.com/questions/42183155/is-it-safe-to-use-async-await-now
 :CREATED:  [2020-03-10]
 :ID:       sgthbcmfltcpwhysvlt
 :END:
-
 * [#C] [2020-03-10] Why Svelte is our choice for a large web project | Hacker News
 :PROPERTIES:
 :ID:       whysvltsrchcfrlrgwbprjcthckrnws
@@ -245,18 +243,15 @@ https://www.pluralsight.com/guides/javascript-callbacks-variable-scope-problem
 :PROPERTIES:
 :ID:       sgthbcmvstrnrctfrcgrphvstnntfrddvrndrfrcdrctdgrphs
 :END:
-
 * [#C] [2020-11-11] [[https://sitr.us/2015/05/31/advanced-features-in-flow.html][Advanced features in Flow | sitr.us]]
 :PROPERTIES:
 :ID:       sstrsdvncdftrsnflwhtmldvncdftrsnflwstrs
 :END:
-
 * TODO [#C] Js flow example with tweets l, then could post on JavaScript subreddit? :js:toblog:errors:
 :PROPERTIES:
 :CREATED:  [2019-10-31]
 :ID:       jsflwxmplwthtwtslthncldpstnjvscrptsbrddt
 :END:
-
 * TODO [#D] [2019-12-22] BigInt Eilish 🌟 on Twitter: "@sveltejs Rewrote my Twitter search from React to Svelte @Reactjs 42kb Code: https://t.co/4fDXi7hqwG Site: https://t.co/Ync9baSs2n @Sveltejs 5kb Code: https://t.co/lD1gywleNp Site: https://t.co/pgmavoPLBy Had trouble w/ eslint/prettier, but overall much less code to write cc @wgao19 https://t.co/BthQ2I6C77" / Twitter
 :PROPERTIES:
 :ID:       bgntlshntwttrsvltjsrwrtmysscdtwrtccwgstcbthqctwttr

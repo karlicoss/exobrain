@@ -17,17 +17,16 @@ https://ryanandrewlangdon.wordpress.com/2020/01/28/today-i-learned-that-not-ever
 :CREATED:  [2018-08-02]
 :ID:       wlkngflwsvkcmtpcpst
 :END:
-
 * TODO [#C] use spaced repetition for appretiation entries? and good things too? :mind:spacedrep:
 :PROPERTIES:
 :CREATED:  [2018-10-11]
 :ID:       sspcdrpttnfrpprttnntrsndgdthngst
 :END:
-
 * [#D] [2018-08-15] Flow Genome Project « The Official Source For Flow Science And Training :mind:
 :PROPERTIES:
 :ID:       flwgnmprjctthffclsrcfrflwscncndtrnng
 :END:
+
 http://www.flowgenomeproject.com/
 
 ** [2018-10-22]  eh. googled that and nothing specific, overall sound like bullshit, they are just selling subscriptions.
@@ -42,6 +41,7 @@ http://www.flowgenomeproject.com/
 :PROPERTIES:
 :ID:       whtnvrslhmnxprncsrymssngwthtrlzngtsltstrcdx
 :END:
+
 https://slatestarcodex.com/2014/03/17/what-universal-human-experiences-are-you-missing-without-realizing-it/
 : Some people can differentiate between orders of magnitude more colors than other people. You can test yourself here: http://www.apartmenttherapy.com/how-well-do-you-see-color-173018
 : I once had a long argument with a group of friends about why vision was more interesting than sound. Turns out all the ones who sided with vision could differentiate between far more colors.
@@ -94,7 +94,6 @@ from [[https://www.instapaper.com/read/1217243447/11062214][ip]]   [[http://www.
 :CREATED:  [2019-10-26]
 :ID:       myprblmwthmdtnhwffcntsthgnfcncntrtn
 :END:
-
 * DONE [2018-11-06] Vipassana for Hackers [pdf] | Hacker News    :meditation:
 :PROPERTIES:
 :ID:       vpssnfrhckrspdfhckrnws
@@ -222,6 +221,7 @@ guess I should read his vk
 :PROPERTIES:
 :ID:       trvrslcmmdttnssstntgtlb
 :END:
+
 https://gitlab.com/tslocum/meditationassistant
 
 * [#C] [2018-08-21] posture: Problems with siting up straight? (A graphic that illustrates the importance of sitting on a high cushion) : Meditation :meditation:
@@ -246,6 +246,7 @@ https://github.com/RomanPlusPlus/mindfilesResources
 :PROPERTIES:
 :ID:       ntwttrstcspgxltmnhtwttr
 :END:
+
 https://twitter.com/_vanswan/status/1102690190408253440
 
 * [2019-12-28] The Habits of Effective Artists - YouTube     :art:creativity:
@@ -283,7 +284,6 @@ https://en.wikipedia.org/wiki/Extended_cognition
 :PROPERTIES:
 :ID:       rsngntsfsmnwhhsmmryprblmsgmmntbscllymrdr
 :END:
-
 * DONE [2019-09-21] Quantum Ethics? Suffering In The Multiverse     :quantum:
 :PROPERTIES:
 :ID:       qntmthcssffrngnthmltvrs
@@ -293,6 +293,7 @@ https://www.abolitionist.com/multiverse.html
 * [2018-06-18] Психоделики помогли нейронам вырасти длинными и ветвистыми :psy:
 :PROPERTIES:
 :END:
+
 https://nplus1.ru/news/2018/06/14/psychedelic-depression
 
 * [#C] [2019-12-05] Hedonic treadmill - Wikipedia
@@ -343,7 +344,6 @@ https://qualiacomputing.com/2016/10/29/lsd-and-quantum-measurements-can-you-see-
 :PROPERTIES:
 :ID:       snwtlscmscnclcddrmcmmnctnkytwwycmmnctnswthlcddrmrs
 :END:
-
 * STRT [#D] [2018-08-08] How to Practice Mindfulness: The Ultimate Illustrated Guide | High Existence http://highexistence.com/how-to-practice-mindfulness/
 :PROPERTIES:
 :ID:       hwtprctcmndflnssthltmtllsghxstnccmhwtprctcmndflnss
@@ -358,12 +358,10 @@ ugh annoying website, pops up a sign up thing, I can't even join.
 :PROPERTIES:
 :ID:       mmrdtgn
 :END:
-
 * TODO [#B] [2021-03-17] [[https://news.ycombinator.com/item?id=26485608][Lost in Thought: Psychological Risks of Meditation | Hacker News]] :toread:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdlstnthghtsychlgclrsksfmdttnhckrnws
 :END:
-
 * [#C] [2020-12-10] [[https://reddit.com/r/transhumanism/comments/kahhgw/can_you_upload_your_mind_and_life_forever_by/gfaozxo/][Can you upload your mind and life forever? By Kurzgesagt]] /r/transhumanism
 :PROPERTIES:
 :ID:       srddtcmrtrnshmnsmcmmntskhlffrvrbykrzgsgtrtrnshmnsm

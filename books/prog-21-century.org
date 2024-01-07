@@ -31,7 +31,6 @@ Kind notes/highlights on [[https://prog21.dadgum.com][Programming in the XXI cen
 :PROPERTIES:
 :ID:       kndlkbfs
 :END:
-
 * DONE [#C] [2018-03-04] [[https://prog21.dadgum.com/4.html][Follow-up to "Admitting that Functional Programming Can Be Awkward"]]
 :PROPERTIES:
 :ID:       sprgddgmcmhtmlfllwptdmttnthtfnctnlprgrmmngcnbwkwrd
@@ -82,7 +81,6 @@ Kind notes/highlights on [[https://prog21.dadgum.com][Programming in the XXI cen
 :PROPERTIES:
 :ID:       yplsngdrlspssmfrdshsndrscrslkbtwkwrdgpprcsp
 :END:
-
 * DONE page 72 | Location 1099-1105 | Wednesday, March 7, 2018 10:28:00 PM
 :PROPERTIES:
 :ID:       pglctnwdnsdymrchpm
@@ -104,7 +102,6 @@ Kind notes/highlights on [[https://prog21.dadgum.com][Programming in the XXI cen
 :PROPERTIES:
 :ID:       ntrstngtrbpsclcmpwththmdls
 :END:
-
 * DONE page 136 | Location 2071-2073 | Sunday, March 11, 2018 12:14:54 AM
 :PROPERTIES:
 :ID:       pglctnsndymrchm

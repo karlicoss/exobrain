@@ -112,12 +112,10 @@ maybe they are more like attributes.. or tiny dots around tag, each of dots repr
 :PROPERTIES:
 :ID:       sgthbcmlgsqlgsqblbmstrsrclgsqcnfgcljstmstrlgsqlgsq
 :END:
-
 ** [2020-12-30] [[https://github.com/logseq/logseq/issues/918][Directory handle not exists (local filesystem) · Issue #918 · logseq/logseq]]
 :PROPERTIES:
 :ID:       sgthbcmlgsqlgsqsssdrctryhtxstslclflsystmsslgsqlgsq
 :END:
-
 ** TODO [#C] do not parse tags in quoted text                        :logseq:
 :PROPERTIES:
 :CREATED:  [2021-01-22]
@@ -158,7 +156,6 @@ note level; level 0 is root
 :PROPERTIES:
 :ID:       dbggngsqltdtbsdtsrcmrgzlydtbssrgzlytstdb
 :END:
-
 ** TODO [#B] feat: interface for fs browsing
 :PROPERTIES:
 :CREATED:  [2017-12-17]
@@ -196,13 +193,11 @@ https://github.com/orgzly/orgzly-android/issues/148
 :PROPERTIES:
 :ID:       htbhdntndtthtftnsllysdcsrchrcldsrcll
 :END:
-
 ** TODO [#B] https://github.com/orgzly/orgzly-android/issues/345  :spacedrep:
 :PROPERTIES:
 :CREATED:  [2019-04-15]
 :ID:       sgthbcmrgzlyrgzlyndrdsss
 :END:
-
 ** STRT [#B] feat: capture templates? With screen buttons
 :PROPERTIES:
 :CREATED:  [2018-10-24]
@@ -231,7 +226,6 @@ name, template, target (could be file in the first approximation, but think how 
 :PROPERTIES:
 :ID:       sgthbcmrgzlyrgzlyndrdpll
 :END:
-
 ** STRT [#B] Orgzly notification high priority only? Or even a search query
 :PROPERTIES:
 :CREATED:  [2018-10-05]
@@ -250,13 +244,11 @@ I guess it would be a new preference in Settings / Reminders that can contain a 
 :CREATED:  [2018-04-27]
 :ID:       bgctntndthncrtnwnnmptyntbkthntyctdspprs
 :END:
-
 ** TODO [#C] Orgzly quick search widget?
 :PROPERTIES:
 :CREATED:  [2019-04-03]
 :ID:       rgzlyqcksrchwdgt
 :END:
-
 ** TODO [#D] todo state changes
 :PROPERTIES:
 :CREATED:  [2019-02-16]
@@ -266,7 +258,6 @@ I guess it would be a new preference in Settings / Reminders that can contain a 
 :PROPERTIES:
 :ID:       mksrrglzycnhndlsttchngswthtlgbk
 :END:
-: - State "WAIT"       from "TODO"       [2019-02-16 Sat] \\
 :   whatever
 
 ** TODO [#D] Orgzly archive
@@ -279,7 +270,6 @@ Would require support in notebook interface
 :PROPERTIES:
 :ID:       thrwrsmsggstnslrdyfrtggngrsgthbcmrgzlyrgzlyndrdsss
 :END:
-
 ** TODO [#C] [2019-02-10] Implement auto synchronization · Issue  · orgzly/orgzly-android :orgzly:
 :PROPERTIES:
 :ID:       mplmnttsynchrnztnssrgzlyrgzlyndrd
@@ -291,7 +281,6 @@ https://github.com/orgzly/orgzly-android/issues/8
 :CREATED:  [2019-11-03]
 :ID:       pstbtrgzlynfssdrd
 :END:
-
 ** TODO [#C] [2019-12-15] Detect org files in subfolders · Issue #225 · orgzly/orgzly-android
 :PROPERTIES:
 :ID:       dtctrgflsnsbfldrsssrgzlyrgzlyndrd
@@ -323,12 +312,10 @@ https://syncthing.net
 :PROPERTIES:
 :ID:       dschrmpfsyncthngrslvcnflcchrmpfsyncthngrslvcnflcts
 :END:
-
 ** TODO [#B] [2019-09-06] jjkramok/syncthing-conflict-notifier: Detects conflict files in a single syncthing shared folder and sends a push notification if conflicts are found. https://github.com/jjkramok/syncthing-conflict-notifier
 :PROPERTIES:
 :ID:       jjkrmksyncthngcnflctntfrdmjjkrmksyncthngcnflctntfr
 :END:
-
 ** [#B] [2020-04-12] issue with Out of sync items/ sync stuck at 99%
 :PROPERTIES:
 :ID:       sswthtfsynctmssyncstckt
@@ -394,7 +381,6 @@ mm, doesn't look like there is a nice terminal interface?
 :PROPERTIES:
 :ID:       lsllwslctvsyncngnmblwf
 :END:
-
 ** [2019-06-05] shit, weird. syncthing has got some sort of mismatch between GUI and web file/folder count; borg was showing differnt counts as well (script in dropbox that I used to check for differences) :cloud:
 :PROPERTIES:
 :ID:       shtwrdsyncthnghsgtsmsrtfmndrpbxthtsdtchckfrdffrncs
@@ -410,12 +396,10 @@ related: #interop #malleable #spreadsheet
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdskhnnynlskcmmntsthyhvlrdyrdhckrnws
 :END:
-
 ** [#B] [2020-05-05] [[https://selectorgadget.com/][SelectorGadget: point and click CSS selectors]] :css:
 :PROPERTIES:
 :ID:       sslctrgdgtcmslctrgdgtpntndclckcssslctrs
 :END:
-
 ** TODO [#B] [2020-05-11] [[https://twitter.com/karlicoss/status/1259893586365161472][(10) jestem króliczkiem on Twitter: "@jtraub аа, понял. Крутая идея, да! это было бы оч легко, даже не модифицируя экстеншн если бы браузеры разрешали экстеншнам друг на друге оперировать, а так можно будет добавить в Wildcard" / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmkrlcsssttsjstmkrlczkmntwttrjtrbwldcrdtwttr
@@ -482,7 +466,6 @@ contribute to the discussion here
 :PROPERTIES:
 :ID:       sfrdyctfrdyct
 :END:
-
 ** [#C] [2020-05-16] [[https://politepol.com/en/][Generate RSS feeds for any web page | PolitePol]]
 :PROPERTIES:
 :ID:       spltplcmngnrtrssfdsfrnywbpgpltpl
@@ -512,25 +495,21 @@ related #sim #math
 :CREATED:  [2018-12-23]
 :ID:       ddmtchs
 :END:
-
 ** TODO [#D] use wild to deconstruct expressions?                     :sympy:
 :PROPERTIES:
 :CREATED:  [2018-12-28]
 :ID:       swldtdcnstrctxprssns
 :END:
-
 ** TODO [#D] started solving that system of DEs                       :sympy:
 :PROPERTIES:
 :CREATED:  [2018-12-28]
 :ID:       strtdslvngthtsystmfds
 :END:
-
 ** TODO [#D] try dsolveset??                                          :sympy:
 :PROPERTIES:
 :CREATED:  [2018-12-29]
 :ID:       trydslvst
 :END:
-
 ** [#D] [2018-12-24] Added a few rules for imageset simplification by hargup · Pull Request 7625 · sympy/sympy
 :PROPERTIES:
 :ID:       dddfwrlsfrmgstsmplfctnbyhrgppllrqstsympysympy
@@ -541,7 +520,6 @@ https://github.com/sympy/sympy/pull/7625/files
 :CREATED:  [2018-12-29]
 :ID:       dslvbgsgthbcmsympysympysss
 :END:
-
 ** TODO [#D] add wave eq to sympy??                                   :sympy:
 :PROPERTIES:
 :CREATED:  [2018-12-23]
@@ -561,19 +539,16 @@ https://github.com/sympy/sympy/pull/7625/files
 :PROPERTIES:
 :ID:       cstlnksttlwhnshrngsgthbcmhdrhmtrlstcsss
 :END:
-
 ** TODO [#C] Hn materialistic: change view on press
 :PROPERTIES:
 :CREATED:  [2019-11-27]
 :ID:       hnmtrlstcchngvwnprss
 :END:
-
 ** TODO [#C] Hn Materialistic: comment icon is way too large for the number of comments
 :PROPERTIES:
 :CREATED:  [2019-11-27]
 :ID:       hnmtrlstccmmntcnswytlrgfrthnmbrfcmmnts
 :END:
-
 * [#C] * git-bug                                                     :gitbug:
 :PROPERTIES:
 :ID:       gtbg
@@ -613,7 +588,6 @@ https://github.com/hypothesis/client/issues/12
 :PROPERTIES:
 :ID:       ktwsprtllyrslvdtlsttxpndsbltythghcnslydspppntnwsrs
 :END:
-
 ** TODO [#C] [2019-02-20] [[https://github.com/hypothesis/client][hypothesis/client: The Hypothesis web-based annotation client.]]
 :PROPERTIES:
 :ID:       sgthbcmhypthssclnthypthssntthhypthsswbbsdnnttnclnt
@@ -730,11 +704,9 @@ using #gitbug instead now
 :PROPERTIES:
 :ID:       frrgsyncthngcldkpprvtntsnsprtflbtlnkntds
 :END:
-
 * --------------------------------
 :PROPERTIES:
 :END:
-
 * STRT [#C] share link and content                                    :tusky:
 :PROPERTIES:
 :CREATED:  [2020-01-22]
@@ -744,7 +716,6 @@ using #gitbug instead now
 :PROPERTIES:
 :ID:       sgthbcmtskypptskysss
 :END:
-
 * TODO [#C] validate systemd?                                       :pyinfra:
 :PROPERTIES:
 :CREATED:  [2020-06-15]
@@ -795,7 +766,6 @@ https://github.com/fregante/webext-options-sync/issues/2
 :CREATED:  [2019-09-10]
 :ID:       llwsrstmrkpstsssrchblntsrchbl
 :END:
-
 * TODO [#C] [2020-12-11] [[https://community.worldbrain.io/t/export-annotations/437/5][Export annotations - ⭐️Feature Requests - Memex Community]] :worldbrain:
 :PROPERTIES:
 :ID:       scmmntywrldbrntxprtnnttnsrtnnttnsftrrqstsmmxcmmnty

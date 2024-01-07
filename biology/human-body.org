@@ -6,12 +6,10 @@
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * [#B] [2018-07-08] In novice strength trainers, the muscle's ability to generate force is most strongly limited by nerve’s ability to sustain a high-frequency signal
 :PROPERTIES:
 :ID:       nnvcstrngthtrnrsthmsclsblrvsbltytsstnhghfrqncysgnl
 :END:
-
 * [2018-07-01] nervous system
 :PROPERTIES:
 :ID:       nrvssystm
@@ -29,6 +27,7 @@ ANS
 :PROPERTIES:
 :ID:       tldrsrtnnnddpmnrjsttrnsmttrsndhvmnyfnctns
 :END:
+
 : Some neurotransmitters almost always do one thing: GABA is almost always an inhibitor of some kind, kind of like how a green wire is almost always a ground. Glutamate is always an excitatory neurotransmitter, kind of like black wires are almost always the "hot" wire in home electrical wiring.
 : dopamine is more like a purple wire. used for various purposes. Saying dopamine is a reward neurotransmitter is like saying purple wires are for right-rear car speakers.
 : 
@@ -73,6 +72,7 @@ resynthesis of brain glycogen
 :PROPERTIES:
 :ID:       hghrmntsfprlctnmkswmncrymrftnthnmn
 :END:
+
 implications: women might not be as sad as you think; men might be sad without you realizing
 * [2017-04-18] Cold shower burns fat? https://www.reddit.com/r/todayilearned/comments/1efdzs/til_taking_cold_showers_can_help_you_lose_weight/ :humanbody:
 :PROPERTIES:
@@ -122,6 +122,7 @@ Progestin? Birth control pills
 :PROPERTIES:
 :ID:       mpctfrdtn
 :END:
+
 Gamma rays excite electrons and eject them from the atom, causing ionization
 Ionization breaks chemical bonds, and produces new.
 
@@ -186,6 +187,7 @@ This also means that a developing embryo is most sensitive to radiation during t
 :PROPERTIES:
 :ID:       nkkshkn
 :END:
+
 https://vk.com/wall5695154_20731 
 : . В результате этого в митохондриях нервных клеток Потапа некуда стало девать электроны, вырабатываемые при переработке питательных веществ и в норме сбрасываемые на кислород. Из-за этого основной путь переработки питательных веществ – окислительное фосфорилирование – застрял. Переработка пошла через другой, в десять-пятнадцать раз менее эффективный бескислородный процесс с выработкой молочной кислоты. Молочная кислота стала повреждать мозг Потапа, но куда серьёзнее его повредила другая проблема: недостаток энергии, добытой из питательных веществ. Нервным клеткам энергия нужна постоянно для поддержания заряда на мембране.
 
@@ -193,7 +195,6 @@ https://vk.com/wall5695154_20731
 :PROPERTIES:
 :ID:       srddtcmrntrstngsfckcmmntsdthvbnbrnthswrntrstngsfck
 :END:
-
 * [2019-12-13] [[https://reddit.com/r/biology/comments/ea0paz/why_isnt_blood_attracted_to_magnets/fan67dx/][Why isn't blood attracted to magnets?]] /r/biology :humanbody:blood:
 :PROPERTIES:
 :ID:       srddtcmrblgycmmntspzwhysnhysntbldttrctdtmgntsrblgy
@@ -233,6 +234,7 @@ https://biology.stackexchange.com/a/48322
 :PROPERTIES:
 :ID:       prcss
 :END:
+
 The FA chains are cleaved off of the glycerol backbone. The 3 FA chains are oxidized and you get some Acetyl-CoA to use in the Krebs cycle. You also are left with the glycerol backbone. It was the 3 carbon chain holding these FAs together. Remember pyruvate from before? Well, it's also a 3 carbon molecule and glycerol is converted to pyruvate, which then is converted to Acetyl-CoA. A perfect design! Now you can put all that Acetyl-CoA into the Krebs cycle.
 
 *** good diagram https://en.wikibooks.org/wiki/Principles_of_Biochemistry/Gluconeogenesis_and_Glycogenesis

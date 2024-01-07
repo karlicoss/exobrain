@@ -7,7 +7,6 @@ Main post: https://beepb00p.xyz/grasp.html
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * some motivation                                                    :toblog:
 :PROPERTIES:
 :CREATED:  [2019-02-12]
@@ -39,7 +38,6 @@ next time you want to order something you don't need to go throught all the book
 :PROPERTIES:
 :ID:       cldspprttmpltsngrspsthyrcchpntfrndrdcnsdrngtsgtshr
 :END:
-
 * TODO [#D] [2019-12-21] Idea: HTTP server in Emacs · Issue 28 · karlicoss/grasp https://github.com/karlicoss/grasp/issues/28
 :PROPERTIES:
 :ID:       dsrvrnmcssskrlcssgrspsgthbcmkrlcssgrspsss
@@ -59,7 +57,6 @@ https://twitter.com/blueminder/status/1231402101432971264
 :CREATED:  [2019-07-14]
 :ID:       tstsystmdncbfrdngscndrls
 :END:
-
 * [#D] [2019-02-10] Todo.txt for Chrome - simple task management - Chrome Web Store
 :PROPERTIES:
 :ID:       tdtxtfrchrmsmpltskmngmntchrmwbstr
@@ -71,7 +68,6 @@ https://chrome.google.com/webstore/detail/todotxt-for-chrome-simple/mndijfcodpjl
 :CREATED:  [2019-11-27]
 :ID:       ndqtngjstsnrgnc
 :END:
-
 * TODO [#C] https://github.com/sprig/org-capture-extension/issues/66
 :PROPERTIES:
 :CREATED:  [2019-11-03]
@@ -82,7 +78,6 @@ Allow setting of tags and description when capturing
 :PROPERTIES:
 :ID:       srddtcmrfssdrdcmmntsdpbbmsvcntsmrkdwntbldtrrfssdrd
 :END:
-
 * [#C] [2019-07-16] axol results for quantum_gravity, rendered at Tue 16 Jul 2019 05:13 file:C:/Users/dima/Downloads/rendered/quantum_gravity.html
 :PROPERTIES:
 :ID:       xlrsltsfrqntmgrvtyrndrdtjmdwnldsrndrdqntmgrvtyhtml

@@ -11,12 +11,10 @@ Timeline is a simple attempt to display various life events as list. Sort of a s
 :PROPERTIES:
 :ID:       tssfltnswrthqstnwhtwrydngltlybthtthrpplndyrslf
 :END:
-
 ** [2018-08-06] I need better activity log to tell people about stuff. Hypothesis, goodreads, youtube
 :PROPERTIES:
 :ID:       ndbttrctvtylgttllpplbtstffhypthssgdrdsytb
 :END:
-
 ** TODO [#C] use it for some sort of spaced repetition for the previous week/month? :spacedrep:
 :PROPERTIES:
 :CREATED:  [2018-10-02]
@@ -59,7 +57,6 @@ https://github.com/matthiasn/meins
 :PROPERTIES:
 :ID:       nsprtnbstrbnsncm
 :END:
-
 ** [2019-04-15] 28 years of events (Phil Gyford’s website)      :inspiration:
 :PROPERTIES:
 :ID:       yrsfvntsphlgyfrdswbst
@@ -81,7 +78,6 @@ meh, hasn't updated and even unclear what they implemented
 :PROPERTIES:
 :ID:       shldpstbttsmwhr
 :END:
-
 * STRT Timeline
 :PROPERTIES:
 :ID:       tmln
@@ -91,7 +87,6 @@ meh, hasn't updated and even unclear what they implemented
 :CREATED:  [2018-01-16]
 :ID:       sldnmdtgrpwthgmpsndsq
 :END:
-
 ** CANCEL [#D] Alcohol log meet merge with spending log
 :PROPERTIES:
 :CREATED:  [2018-01-19]
@@ -186,7 +181,6 @@ exclude running dates to avoid confusion?
 :CREATED:  [2019-04-04]
 :ID:       gthrghnsprtnsmyb
 :END:
-
 * STRT [#A] [2020-01-21] ui inspiration: Clemens Scott: "Chronicle is another personal tool I created in an effort to better understand and know myself."  https://merveilles.town/@rostiger/103519643370144222
 :PROPERTIES:
 :ID:       nsprtnclmnsscttchrnclsnthndknwmyslfsmrvllstwnrstgr
@@ -229,7 +223,6 @@ https://github.com/theopolisme/location-history-visualizer
 :PROPERTIES:
 :ID:       sgthbcmpngscncgjs
 :END:
-
 * TODO [#B] need different layers or something. e.g. display location/music/rescuetime in parallel
 :PROPERTIES:
 :CREATED:  [2018-10-01]
@@ -268,7 +261,6 @@ then I could disable the google one. I'd own the data and be able to receive it 
 :PROPERTIES:
 :ID:       hmmybnstdsprtpblctmlnwhchwnthvwrktsfrnstncndprvtn
 :END:
-
 * TODO [#B] treat commits with same message and date as same? At least visual indication that they are 'merged'
 :PROPERTIES:
 :CREATED:  [2019-07-04]
@@ -285,7 +277,6 @@ https://pouchdb.com/2014/04/14/pagination-strategies-with-pouchdb.html
 :CREATED:  [2020-01-21]
 :ID:       smrvllstwnrstgrvryncdynmctmlnfrth
 :END:
-
 * [#B] [2020-02-10] mholt/timeliner: All your digital life on a single timeline, stored locally
 :PROPERTIES:
 :ID:       mhlttmlnrllyrdgtllfnsngltmlnstrdlclly
@@ -374,13 +365,11 @@ ok, needs fuzzy matching dates (e.g. Added on Thursday, May 31, 2018 2:04:36 AM)
 :CREATED:  [2018-02-02]
 :ID:       tryrwrtngrlsftwntrsmtchrrr
 :END:
-
 * TODO [#C] Matcher where date is available, compare directly
 :PROPERTIES:
 :CREATED:  [2018-02-02]
 :ID:       mtchrwhrdtsvlblcmprdrctly
 :END:
-
 * [#C] button for quick add (capture) a memory from any event (add source reference or something too) :lifelogging:
 :PROPERTIES:
 :CREATED:  [2018-08-18]
@@ -391,7 +380,6 @@ ok, needs fuzzy matching dates (e.g. Added on Thursday, May 31, 2018 2:04:36 AM)
 :CREATED:  [2018-08-27]
 :ID:       mybcrtdrgtds
 :END:
-
 * START [#C] support notes without time? e.g. if we received date instead of datetime. or map to a certain time? ...
 :PROPERTIES:
 :CREATED:  [2018-08-30]
@@ -416,7 +404,6 @@ ok, needs fuzzy matching dates (e.g. Added on Thursday, May 31, 2018 2:04:36 AM)
 :CREATED:  [2018-09-08]
 :ID:       mrkcnmwthtgndcnmvstsspcfclly
 :END:
-
 * START [#C] feedly
 :PROPERTIES:
 :CREATED:  [2018-10-02]
@@ -433,7 +420,6 @@ https://developer.feedly.com/v3/markers/#mark-one-or-multiple-articles-as-saved 
 :CREATED:  [2018-06-28]
 :ID:       mstmprtntthngsrglctncdngcmmtsctvtymlstnxrcs
 :END:
-
 * TODO [#C] asign 'importance' (to tags, but maybe compute it based on keywords etc), then make text bold depending on importance?
 :PROPERTIES:
 :CREATED:  [2018-10-02]
@@ -498,7 +484,6 @@ https://developer.feedly.com/v3/markers/#mark-one-or-multiple-articles-as-saved 
 :PROPERTIES:
 :ID:       srddtcmrslfhstdcmmntsblltsthmntsnglnfdtmlnrslfhstd
 :END:
-
 * TODO [#C] need plot for items for each provider so it's easy to track broken shit
 :PROPERTIES:
 :CREATED:  [2019-06-14]
@@ -509,7 +494,6 @@ https://developer.feedly.com/v3/markers/#mark-one-or-multiple-articles-as-saved 
 :CREATED:  [2019-06-11]
 :ID:       gglssstntntrctnsfrmtkt
 :END:
-
 * TODO [#C] hmm. if I don't keep the entry before change, I don't get a reliable timestamp... :hpi:reddit:
 :PROPERTIES:
 :CREATED:  [2019-06-17]
@@ -559,7 +543,6 @@ https://pouchdb.com/
 :CREATED:  [2019-08-21]
 :ID:       bttrsrchdfndprprndxng
 :END:
-
 * START [#C] [2019-08-18] API Reference                               :infra:
 :PROPERTIES:
 :ID:       prfrnc
@@ -580,7 +563,6 @@ https://www.gyford.com/phil/writing/2018/03/28/events-part-2/
 :PROPERTIES:
 :ID:       btthmdlhssfrvntsnthngtnlghtnng
 :END:
-
 * TODO [#C] [2019-09-06] hood.ie intro                                :infra:
 :PROPERTIES:
 :ID:       hdntr
@@ -619,7 +601,6 @@ https://github.com/quangv/awesome-couchdb#readme
 :CREATED:  [2020-01-23]
 :ID:       smrvllstwnrstgr
 :END:
-
 * TODO [#C] [2020-01-05] ejplatform/hyperpython: A small DSL to write HTML in Python. :python:html:
 :PROPERTIES:
 :ID:       jpltfrmhyprpythnsmlldsltwrthtmlnpythn
@@ -852,7 +833,6 @@ https://merveilles.town/@joshavanier/103301033112044431
 :PROPERTIES:
 :ID:       sgthbcmmhlttmlnrmhlttmlnrrdgtllfnsngltmlnstrdlclly
 :END:
-
 * DONE [#B] Some tool to check extracted entries to make sure they their count increases
 :PROPERTIES:
 :CREATED:  [2018-09-28]
@@ -880,7 +860,6 @@ http://robinwe.is/
 :PROPERTIES:
 :ID:       ncvsltnssclrdstrpslssmcldtngvslstns
 :END:
-
 * TODO [#C] could expose public timeline just without timestamps? :lifelogging:
 :PROPERTIES:
 :CREATED:  [2019-12-06]
@@ -937,7 +916,6 @@ Although it's kinda calendar?
 :PROPERTIES:
 :ID:       sgthbcmsrryccwsmjvscrpttmcrptlbrrsrsrcsndshnythngs
 :END:
-
 * TODO could feed my tweets into memacs, then display agenda one year ago? :memex:
 :PROPERTIES:
 :CREATED:  [2020-12-06]
@@ -955,7 +933,6 @@ plus, exclude periods when there are too many dates saved -- would probably mean
 :CREATED:  [2020-11-27]
 :ID:       rnspcfcdywthfzf
 :END:
-
 * related                                     :hpi:travel:qs:memex:dashboard:
 :PROPERTIES:
 :ID:       rltd
@@ -990,7 +967,6 @@ ok, kmb files are weird, but I could have a regular task to open maps.me app, re
 :PROPERTIES:
 :ID:       hscrwtmtcxtrctntcmplctdhvspclflndlttbnspccfcfrmt
 :END:
-
 * [#C] [2019-11-13] martijnvermaat/calmap: Calendar heatmaps from Pandas time series data
 :PROPERTIES:
 :ID:       mrtjnvrmtclmpclndrhtmpsfrmpndstmsrsdt
@@ -1010,6 +986,7 @@ need permalink support
 :PROPERTIES:
 :ID:       klychmhtsmplstc
 :END:
+
 php though
 
 ** piwigo -- recommended by few people... could actually be ok I suppose, has custom themes support
@@ -1052,7 +1029,6 @@ pretty cool stuff too..
 :PROPERTIES:
 :ID:       swbrchvrgwbbstrbnsncm
 :END:
-
 * STRT [#C] [2019-12-22] [[https://whereisfelix.today][Whereisfelix]] :lifelogging:qs:
 :PROPERTIES:
 :ID:       swhrsflxtdywhrsflx

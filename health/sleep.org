@@ -5,17 +5,14 @@
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * STRT [#B] improve sleep, try waking up without alarm          :sleep:habit:
 :PROPERTIES:
 :ID:       e4cc3d9c-7716-4c93-a46c-f7b9bc020d26
 :END:
-
 ** [2018-08-06] hmm, that could work given that I spontaneously wake up at 5am sometimes. However I need a bit more willpower to actually get up.
 :PROPERTIES:
 :ID:       hmmthtcldwrkgvnthtspntnslhwvrndbtmrwllpwrtctllygtp
 :END:
-
 * STRT [#B] develop a system to estimate how well i slept        :scoring:qs:
 :PROPERTIES:
 :ID:       dvlpsystmtstmthwwllslpt
@@ -44,6 +41,7 @@
 :PROPERTIES:
 :ID:       nrgy
 :END:
+
 unclear how to measure
 
 *** [2018-08-26] eh, doesn't work really well. almost always 1
@@ -66,6 +64,7 @@ unclear how to measure
 :PROPERTIES:
 :ID:       mntlstt
 :END:
+
 Unclear how to measure I guess binary is easiest, but expect to correlate with wakeup time
 
 *** [2018-08-26] doesn't work really well either, almost always 1
@@ -88,6 +87,7 @@ Unclear how to measure I guess binary is easiest, but expect to correlate with w
 :PROPERTIES:
 :ID:       drms
 :END:
+
 I guess there could be an intermediate state... e.g. you remember some dreams, but forgot some. For now I'm marking these as 1,2
 
 *** 2 -- had dreams, remembered them
@@ -106,6 +106,7 @@ I guess there could be an intermediate state... e.g. you remember some dreams, b
 :PROPERTIES:
 :ID:       slpnssrlrtnss
 :END:
+
 ok, since higher is better, let it be like:
 
 *** 3: fresh, would be very hard to sleep
@@ -151,7 +152,6 @@ ok, since higher is better, let it be like:
 * [#B] [2018-08-28] Ученые рассчитали благоприятное для здоровья количество сна
 :PROPERTIES:
 :END:
-
 * STRT [#B] [2018-10-03] Sleep - Biohacker's Handbook
 :PROPERTIES:
 :ID:       slpbhckrshndbk
@@ -198,17 +198,18 @@ https://biohackingbook.com/bonus-materials/sleep/
 :CREATED:  [2018-07-13]
 :ID:       npfrmntsrgglptmllngth
 :END:
-
 * [#B] [2018-10-27] Sweet Dreams On A Hard Surface: The Ergonomics Of Sleep - Carolina Morning Designs™
 :PROPERTIES:
 :ID:       swtdrmsnhrdsrfcthrgnmcsfslpcrlnmrnngdsgns
 :END:
+
 https://zafu.net/sleep-therapy/sleepergonomics
 
 * [#B] [2018-10-27] Throwing Out My Bed Woke Me Up – Personal Growth – Medium
 :PROPERTIES:
 :ID:       thrwngtmybdwkmpprsnlgrwthmdm
 :END:
+
 https://medium.com/personal-growth/throwing-out-my-bed-woke-me-up-fa3c26b4c776
 
 * WAIT [#B] short sleeper gene (DEC2)                                   :dna:
@@ -225,7 +226,6 @@ https://www.reddit.com/r/sleep/comments/6hs1nk/i_have_the_mutated_dec2_gene_allo
 :CREATED:  [2018-07-11]
 :ID:       fgrtbdshts
 :END:
-
 ** [2018-10-27]  I think it should be irrelevant. no way it can make any actual difference to sleep quality
 :PROPERTIES:
 :ID:       thnktshldbrrlvntnwytcnmknyctldffrnctslpqlty
@@ -235,7 +235,6 @@ https://www.reddit.com/r/sleep/comments/6hs1nk/i_have_the_mutated_dec2_gene_allo
 :CREATED:  [2018-04-19]
 :ID:       stmtslpbyphnctvty
 :END:
-
 * STRT [#C] figure out optimal humidity level
 :PROPERTIES:
 :CREATED:  [2018-07-31]
@@ -249,31 +248,26 @@ https://www.reddit.com/r/sleep/comments/6hs1nk/i_have_the_mutated_dec2_gene_allo
 :CREATED:  [2018-07-01]
 :ID:       hmmftngtrmrndmmybthtswhnshldwkp
 :END:
-
 * TODO [#C] Could my sleep issues be due to too little carbs? :sleep:nutrition:nutrino:
 :PROPERTIES:
 :CREATED:  [2018-10-03]
 :ID:       cldmyslpsssbdttlttlcrbs
 :END:
-
 * TODO [#C] I wonder if it really depends/correlates on light. E.g. it started getting darker lately. maybe I should go later and still wake up 7ish instead?
 :PROPERTIES:
 :CREATED:  [2018-10-03]
 :ID:       wndrftrllydpndscrrltsnlghybshldgltrndstllwkpshnstd
 :END:
-
 * CANCEL [#C] I've got some high pitch sound in my flat? Try turning off all electric things and see how is it going
 :PROPERTIES:
 :CREATED:  [2018-10-04]
 :ID:       vgtsmhghptchsndnmyflttrytgfflllctrcthngsndshwstgng
 :END:
-
 * TODO [#C] Hmm. Wonder if its possible to measure ultrasound level somehow?
 :PROPERTIES:
 :CREATED:  [2018-10-06]
 :ID:       hmmwndrftspssbltmsrltrsndlvlsmhw
 :END:
-
 * [#C] [2018-08-21] JGWol comments on ELI5: Why does heat make you sleepy?
 :PROPERTIES:
 :ID:       jgwlcmmntsnlwhydshtmkyslpy
@@ -292,6 +286,7 @@ https://www.reddit.com/r/explainlikeimfive/comments/22mty5/eli5_why_does_heat_ma
 :PROPERTIES:
 :ID:       hlllntwttrftrhrswknvcsftwcnttllwhnsddgrdsthrbltybd
 :END:
+
 https://twitter.com/hillelogram/status/1119709868833820677
 : Chronically getting less than 7 hours of sleep causes dramatic degradation on all mental tests: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2656292/ …
 : People can't tell when SD degrades their ability (ibid).
@@ -316,7 +311,6 @@ It generates a sleep score which I find pretty useless cause it mostly correlate
 :CREATED:  [2018-04-10]
 :ID:       rplgs
 :END:
-
 * TODO [#D] Should You Sleep Without a Pillow? | Tuck Sleep
 :PROPERTIES:
 :CREATED:  [2019-03-15]
@@ -334,13 +328,11 @@ http://neuronovosti.ru/plohie-geny-plohoj-son/
 :PROPERTIES:
 :ID:       hdsntlklkthyfndnystrngcrrltns
 :END:
-
 * https://www.gwern.net/Zeo                                  :qs:sleep:gwern:
 :PROPERTIES:
 :CREATED:  [2018-03-01]
 :ID:       swwwgwrnntz
 :END:
-
 ** I guess I really have to get consistent with going to bed if actually want to measure something reliably.. for that I need to wake up no matter what.
 :PROPERTIES:
 :ID:       gssrllyhvtgtcnsstntwthgnggrlblyfrthtndtwkpnmttrwht
@@ -370,25 +362,21 @@ http://neuronovosti.ru/plohie-geny-plohoj-son/
 :CREATED:  [2018-07-16]
 :ID:       npntsrfllttlslpythtdsntnrmllyhppnsbtltsgvtmrchnc
 :END:
-
 * TODO so do I need 2 hours of REM total?
 :PROPERTIES:
 :CREATED:  [2018-08-16]
 :ID:       sdndhrsfrmttl
 :END:
-
 * TODO Going to bed early is better than waking up late
 :PROPERTIES:
 :CREATED:  [2018-08-08]
 :ID:       gngtbdrlysbttrthnwkngplt
 :END:
-
 * [#B] investigation of data                                 :qs:emfit:sleep:
 :PROPERTIES:
 :CREATED:  [2018-08-18]
 :ID:       nvstgtnfdt
 :END:
-
 ** [#B] hrv recovery things vs data completeness -- doesn't really seem to correlate (plot_recovery_vs_hr_percentage)
 :PROPERTIES:
 :ID:       hrvrcvrythngsvsdtcmpltnssmtcrrltpltrcvryvshrprcntg
@@ -398,11 +386,11 @@ http://neuronovosti.ru/plohie-geny-plohoj-son/
 :CREATED:  [2018-08-21]
 :ID:       fgrngtpllwtslp
 :END:
-
 ** https://www.reddit.com/r/AskReddit/comments/5xol95/what_pillow_do_you_recommend/dejuxfw/
 :PROPERTIES:
 :ID:       swwwrddtcmrskrddtcmmntsxlwhtpllwdyrcmmnddjxfw
 :END:
+
 : Your body has too many variables, and there are too many sleeping positions that dictate the qualities of a pillow.
 : In general, back sleepers need something with support for neck curvature. Some back sleepers don't use pillows, just a soft roll to keep the alignment right.
 : Key is keeping your neck aligned on the appropriate axis. -- which axis??
@@ -411,12 +399,14 @@ http://neuronovosti.ru/plohie-geny-plohoj-son/
 :PROPERTIES:
 :ID:       swwwrddtcmrbytfrlfcmmntszkndsdslprlkngfrqltydfxcth
 :END:
+
 : Buckwheat pillows are supportive, moldable, and cool. They're pretty cheap on Amazon (under $30) and last years and years if there's a pillow protector on them. Millet pillows are a similar idea, but slightly denser and warmer.
 
 ** [#A] https://health.stackexchange.com/a/7673
 :PROPERTIES:
 :ID:       shlthstckxchngcm
 :END:
+
 : Sleeping on your back without a pillow changes your neck angle from its normal daily position. When standing, your neck also has a certain curve to it. If you sleep on your back, that curve is also distorted. To simulate the natural curve of the neck, researchers found that about 10cm of pillow is needed.
 
 ** neck should be 90 degrees with chin while sleeping?
@@ -436,13 +426,11 @@ https://jysk.co.uk/guide/pillow-guide
 :PROPERTIES:
 :CREATED:  [2018-09-05]
 :END:
-
 * TODO [#C] https://paleoleap.com/sleep-hygiene-what-actually-works/
 :PROPERTIES:
 :CREATED:  [2018-10-27]
 :ID:       spllpcmslphygnwhtctllywrks
 :END:
-
 ** try sleeping mask?
 :PROPERTIES:
 :ID:       tryslpngmsk
@@ -464,11 +452,11 @@ https://jysk.co.uk/guide/pillow-guide
 :PROPERTIES:
 :ID:       hslpwthpnwndwsllsmmrprbblydsntmttr
 :END:
-
 * [2018-11-26] maxcap comments on IsItBullshit: Sleeping with a hard mattress is better than a soft one
 :PROPERTIES:
 :ID:       mxcpcmmntsnstbllshtslpngwthhrdmttrsssbttrthnsftn
 :END:
+
 https://www.reddit.com/r/IsItBullshit/comments/8rjo02/isitbullshit_sleeping_with_a_hard_mattress_is/e0rtxhb/ 
 :  It entirely depends on your predominant sleeping position. A hard mattress is awful for side sleepers:
 : 1) your spine is misaligned (assuming your shoulder width > hip width). For a quick visual, get somebody to take a photo with you on your side, topless, on a hard floor. Since your shoulders are the widest part of your body, your spine has nowhere to go except to slope upwards.
@@ -482,13 +470,11 @@ https://www.reddit.com/r/IsItBullshit/comments/8rjo02/isitbullshit_sleeping_with
 :CREATED:  [2019-01-26]
 :ID:       gssfmvnslghtlyslpythtshldcntsnslplggng
 :END:
-
 * TODO analyse
 :PROPERTIES:
 :CREATED:  [2019-04-05]
 :ID:       nlys
 :END:
-
 ** dependency of oversleeping on ?
 :PROPERTIES:
 :ID:       dpndncyfvrslpngn
@@ -506,7 +492,6 @@ https://www.reddit.com/r/IsItBullshit/comments/8rjo02/isitbullshit_sleeping_with
 :CREATED:  [2019-01-14]
 :ID:       mybndnlrmthtrngsnrmbtcnnltrndfffrmcmptrsqrcdbsclly
 :END:
-
 ** [2019-01-24] huh that works pretty well actually..
 :PROPERTIES:
 :ID:       hhthtwrksprttywllctlly
@@ -539,13 +524,11 @@ https://twitter.com/nplusodin/status/1153363362316791809
 :CREATED:  [2018-03-01]
 :ID:       trckslpmrcrfllygwhthrvrslptndwhchtmwntdtwkp
 :END:
-
 * DONE [#B] mental energy should be determined like 'do you feel sleepy 0.5 hours after waking up :sleep:qs:
 :PROPERTIES:
 :CREATED:  [2018-08-10]
 :ID:       mntlnrgyshldbdtrmndlkdyflslpyhrsftrwkngp
 :END:
-
 * CANCEL Using tape when you sleep too breath through nose?           :sleep:
 :PROPERTIES:
 :CREATED:  [2018-01-14]
@@ -564,7 +547,6 @@ wonder how bad is mine then?
 :PROPERTIES:
 :ID:       hntvrygglbl
 :END:
-
 * DONE https://vk.com/@kurilka.gutenberga-sovinoe-schaste-kak-pomoch-prosnutsya-utrom
 :PROPERTIES:
 :CREATED:  [2019-06-16]
@@ -574,7 +556,6 @@ wonder how bad is mine then?
 :PROPERTIES:
 :ID:       prtcpntsyrll
 :END:
-
 * DONE [#B] Try using weekly contacts to see if it would make me wake up easier? :sleep:
 :PROPERTIES:
 :CREATED:  [2019-10-28]
@@ -584,7 +565,6 @@ wonder how bad is mine then?
 :PROPERTIES:
 :ID:       hdntthnks
 :END:
-
 * TODO The question posed in the present headline was intentionally provocative. You cannot fall asleep faster, but you can fall asleep fast. All you need to do is to wait for the right time. Instead of trying to fall asleep faster, go to sleep later, and fall asleep fast.
 :PROPERTIES:
 :CREATED:  [2019-08-21]

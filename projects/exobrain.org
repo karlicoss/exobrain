@@ -53,7 +53,6 @@ tedious to upgrade though, but a good start?
 :PROPERTIES:
 :ID:       vnftsjstvryrwdmpchncsrsmnntthmwhlgglngrsrchngngthb
 :END:
-
 * [#B] * current implementation
 :PROPERTIES:
 :ID:       crrntmplmnttn
@@ -64,7 +63,6 @@ via native emacs org-mode export, see https://github.com/karlicoss/exobrain-comp
 :PROPERTIES:
 :ID:       mrrrrgrgxprttcldbpblcndrvsncntrlndllwfrprvcycntrls
 :END:
-
 ** STRT [#B] [2020-11-15] [[https://github.com/logseq/logseq][logseq/logseq: A privacy-first, open-source platform for knowledge sharing and management.]] :logseq:
 :PROPERTIES:
 :ID:       sgthbcmlgsqlgsqlgsqlgsqprtfrmfrknwldgshrngndmngmnt
@@ -80,7 +78,6 @@ figuring it out as an extra interface, and for the graph
 :PROPERTIES:
 :ID:       swrtqtrgrtclsmcsrgmdgnrtdshtmlmcsrgmdsgdhdrds
 :END:
-
 ** TODO [#B] [2020-12-15] [[https://karl-voit.at/2019/11/16/UOMF-Linking-Headings/][UOMF: Linking Headings]]
 :PROPERTIES:
 :ID:       skrlvttmflnknghdngsmflnknghdngs
@@ -233,7 +230,6 @@ https://rust-lang.github.io/mdBook/format/config.html
 :PROPERTIES:
 :ID:       thnkbtsngmdbkwtchnbpbp
 :END:
-
 * [#B] * potential features and inspiration
 :PROPERTIES:
 :ID:       ptntlftrsndnsprtn
@@ -251,7 +247,6 @@ huh, interesting experiment in presenting information
 :CREATED:  [2020-03-29]
 :ID:       splthnksbyrgtlnssmhw
 :END:
-
 ** TODO [#B] maybe tag-based exporting? export/noexport tags for hieriarchies/whole files? let it be a mess with one huge page?
 :PROPERTIES:
 :CREATED:  [2019-12-04]
@@ -305,7 +300,6 @@ huh, interesting experiment in presenting information
 :PROPERTIES:
 :ID:       hmmntsrwhttdbtlngndshrtttthngsmybtshldbtgglrsmthng
 :END:
-
 ** TODO [#C] build custom agendas? that way, easy to make tag views     :org:
 :PROPERTIES:
 :CREATED:  [2020-03-13]
@@ -357,7 +351,6 @@ huh, emojis in TOC are quite nice actually?
 :PROPERTIES:
 :ID:       kncsngrgmdsdbllpnthwpblshrgrmwkrgpblshmr
 :END:
-
 ** STRT [#B] [2020-02-21] [[https://news.ycombinator.com/item?id=22382094][Andy Matuschak's Public Notes]]
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdndymtschkspblcnts
@@ -378,7 +371,6 @@ whoa, nice tag cloud on the top
 :PROPERTIES:
 :ID:       sszymnklskcmntsntsszymnklskncbcklnksmmry
 :END:
-
 ** TODO [#C] [2020-03-01] [[https://github.com/daryllxd/lifelong-learning][daryllxd/lifelong-learning: ✅ ✅ ✅ A massive repo filled with notes on everything from coding to philosophy to psychology to marketing to product]]
 :PROPERTIES:
 :ID:       sgthbcmdryllxdlflnglrnngdphytpsychlgytmrktngtprdct
@@ -400,7 +392,6 @@ whoa, nice tag cloud on the top
 :PROPERTIES:
 :ID:       sgthbcmdvdshknwldgbnkdvdshknwldgbnk
 :END:
-
 ** [#C] [2020-03-22] nice, they've got wiki.. https://wiki.mindey.com/
 :PROPERTIES:
 :ID:       ncthyvgtwkswkmndycm
@@ -427,7 +418,6 @@ looks nice. .
 :PROPERTIES:
 :ID:       sszymnklskcmntsntsszymnklsk
 :END:
-
 ** STRT [#C] [2019-10-17] Jethro's Braindump  https://braindump.jethro.dev/
 :PROPERTIES:
 :ID:       jthrsbrndmpsbrndmpjthrdv
@@ -437,12 +427,10 @@ looks nice. .
 :PROPERTIES:
 :ID:       wynjmmyntbkprsnlntssgthbcmwynjmmyntbk
 :END:
-
 ** [#C] [2020-05-12] [[https://notes.azlen.me/g3tibyfv/][About these notes]] azlen
 :PROPERTIES:
 :ID:       sntszlnmgtbyfvbtthsntszln
 :END:
-
 ** [#C] [2020-06-12] [[https://github.com/seanbreckenridge/exobrain][seanbreckenridge/exobrain: external brain]]
 :PROPERTIES:
 :ID:       sgthbcmsnbrcknrdgxbrnsnbrcknrdgxbrnxtrnlbrn
@@ -451,7 +439,6 @@ looks nice. .
 :PROPERTIES:
 :ID:       sgthbcmjkchvwkjkchvwkpblcwkknwldgbs
 :END:
-
 ** TODO [#C] [2019-12-28] Personal Notes
 :PROPERTIES:
 :ID:       prsnlnts
@@ -473,18 +460,15 @@ I'd rather have my search engine to look over these first
 :PROPERTIES:
 :ID:       sjbrnklcmknwldgxbrnxbrnjbrnkl
 :END:
-
 ** [#D] [2020-07-23] [[https://github.com/irosyadi/gitbook/blob/1a67afe0d1e20ef31052c3259096c3ec8f89e13b/irosyadi.github.io/app/exobrain_blog.md][gitbook/exobrain_blog.md at 1a67afe0d1e20ef31052c3259096c3ec8f89e13b · irosyadi/gitbook]]
 :PROPERTIES:
 :ID:       sgthbcmrsydgtbkblbfdfcccfbrnblgmdtfdfcccfbrsydgtbk
 :END:
-
 ** DONE [#C] jethrokuan/braindump: knowledge repository managed with org-mode and org-roam.  https://github.com/jethrokuan/braindump
 :PROPERTIES:
 :CREATED:  [2020-02-16]
 :ID:       jthrknbrndmpknwldgrpstrymndrgrmsgthbcmjthrknbrndmp
 :END:
-
 ** STRT [#A] [2020-01-30] davidgasquez/handbook: 📚 Personal bits of knowledge.
 :PROPERTIES:
 :ID:       4ee62a8d-deb7-4d5e-8316-3a3d880c2bdc
@@ -499,7 +483,6 @@ https://github.com/dvogt23/notes
 :PROPERTIES:
 :ID:       kntvrycmprhnsvbtncsnxmpl
 :END:
-
 ** TODO [#B] [2020-01-25] mek.fyi | Home                        :inspiration:
 :PROPERTIES:
 :ID:       mkfyhm
@@ -561,12 +544,10 @@ read through their weeknotes
 :PROPERTIES:
 :ID:       sgthbcmjksntwkjksntwkpblcwkknwldgbs
 :END:
-
 ** [#D] ExoBrain | Jibran Kalia
 :PROPERTIES:
 :ID:       xbrnjbrnkl
 :END:
-
 ** STRT [#C] [2020-10-18] [[https://wiki.alopex.li/_index][Wiki - Contents]] :exobrain:
 :PROPERTIES:
 :ID:       swklpxlndxwkcntnts
@@ -576,17 +557,14 @@ cool wiki, by [[https://lobste.rs/newest/icefox][this person]]
 :PROPERTIES:
 :ID:       sgthbcmdffrzfrntsdffrzfrntsmscllnyfthghts
 :END:
-
 ** [2021-03-02] [[https://github.com/danielsundermeier/knowledge][danielsundermeier/knowledge: Wissenssammlung]] :german:
 :PROPERTIES:
 :ID:       sgthbcmdnlsndrmrknwldgdnlsndrmrknwldgwssnssmmlng
 :END:
-
 ** [#B] [2021-03-13] [[http://fabien.benetou.fr/Main/HomePage?action=search&q=knowledge][Fabien Benetou's PIM | Main / HomePage | Search Results]] :exobrain:
 :PROPERTIES:
 :ID:       fbnbntfrmnhmpgctnsrchqknwgfbnbntspmmnhmpgsrchrslts
 :END:
-
 * [#C] * content to add
 :PROPERTIES:
 :ID:       cntnttdd
@@ -635,7 +613,6 @@ has (builtin?) highlights, and the linked example looks fairly simple. it still 
 :PROPERTIES:
 :ID:       smdmcmdvchnnlhwtddflltxtsltxtsrchtyrwbstdvchnnlmdm
 :END:
-
 * TODO [#C] update my-awesome-list occasionally                        :blog:
 :PROPERTIES:
 :CREATED:  [2018-11-23]
@@ -658,7 +635,6 @@ mention bookmark archiver as smth that is used for checking url integrity?
 :PROPERTIES:
 :ID:       thsdsttfprsnlknwldgbssmrcvrwllrcmblgprsnlknwldgbss
 :END:
-
 * TODO [#C] [2020-05-17] Andy Matuschak on Twitter: "Software interfaces undervalue peripheral vision! (a thread) My physical space is full of subtle cues. Books I read or bought most recently are lying out. Papers are lying in stacks on my desk, roughly arranged by their relationships. https://t.co/ee7lo0mdLv" / Twitter :vr:think:
 :PROPERTIES:
 :ID:       ndymtschkntwttrsftwrntrfcythrrltnshpsstclmdlvtwttr
@@ -670,7 +646,6 @@ map my exobrain onto vr somehow?
 :PROPERTIES:
 :ID:       smrvllstwnmxdvntpkmrp
 :END:
-
 * TODO [#D] failed attempt to convert heading + link on the next line (after Grasp) into proper org-mode links :org:
 :PROPERTIES:
 :CREATED:  [2020-04-04]
@@ -755,7 +730,6 @@ https://github.com/RichardLitt/meta-knowledge
 :PROPERTIES:
 :ID:       sgthbcmyrydzdzlnrpyyrydzdzlnrpypythnmplmnttnflnrjs
 :END:
-
 * [2020-12-31] [[https://github.com/weixsong/elasticlunr.js/issues/96][how to get the positions of the term matches · Issue #96 · weixsong/elasticlunr.js]] :exobrain:
 :PROPERTIES:
 :ID:       sgthbcmwxsnglstclnrjsssshhtrmmtchssswxsnglstclnrjs
@@ -765,7 +739,6 @@ ugh. not possible?
 :PROPERTIES:
 :ID:       srgmdrgrghtmlhtmlspcfcxprtsttngsthrgmnl
 :END:
-
 * TODO [#C] [2020-12-27] [[https://github.com/hrwtech/Digital-Garden/blob/1cee3b97439a9d9fb1ae30d8c14dbb7ac32280ad/Backlog/_Overflow/ideas.md][Digital-Garden/ideas.md at 1cee3b97439a9d9fb1ae30d8c14dbb7ac32280ad · hrwtech/Digital-Garden]] :ideas:
 :PROPERTIES:
 :ID:       sgthbcmhrwtchdgtlgrdnblbcbdfbdcdbbcdhrwtchdgtlgrdn
@@ -900,7 +873,6 @@ maybe need to generate uid as a property.... simple
 :CREATED:  [2021-01-20]
 :ID:       hwtfrccrwlrstprcsst
 :END:
-
 * [#C] [2021-01-23] [[https://tomroth.com.au/fdg-custom/][Force directed graph: custom forces - Tom Roth]] :blog:inspiration:
 :PROPERTIES:
 :ID:       stmrthcmfdgcstmfrcdrctdgrphcstmfrcstmrth
@@ -912,12 +884,10 @@ nice indication of links (via background)
 :PROPERTIES:
 :ID:       sndwbrggttngstrtdgttngstrtdndwb
 :END:
-
 * TODO [#C] [2021-01-06] [[https://github.com/flancian/garden/blob/69fe163b30a00e76e3eb8637c97fa86ac0fb2a9e/exobrain.md][garden/exobrain.md at 69fe163b30a00e76e3eb8637c97fa86ac0fb2a9e · flancian/garden]]
 :PROPERTIES:
 :ID:       sgthbcmflncngrdnblbfbbcfcnxbrnmdtfbbcfcfbflncngrdn
 :END:
-
 * [#C] [2021-01-23] [[https://github.com/vasturiano/react-force-graph][vasturiano/react-force-graph: React component for 2D, 3D, VR and AR force directed graphs]] :exobrain:
 :PROPERTIES:
 :ID:       sgthbcmvstrnrctfrcgrphvstnntfrddvrndrfrcdrctdgrphs
@@ -939,7 +909,6 @@ wow, this might really be useful
 :PROPERTIES:
 :ID:       sngrrgndgrgr
 :END:
-
 * TODO [#B] "dragging nodes pins them in fixed position"           :exobrain:
 :PROPERTIES:
 :CREATED:  [2021-01-30]
@@ -1028,13 +997,11 @@ https://github.com/athensresearch/athens/discussions/605
 :CREATED:  [2021-03-11]
 :ID:       scdtsntctndctlvl
 :END:
-
 * TODO [#A] Need a link to homepage..                         :exobrain:blog:
 :PROPERTIES:
 :CREATED:  [2021-03-11]
 :ID:       ndlnkthmpg
 :END:
-
 * TODO [#C] [2021-03-13] [[https://fabien.benetou.fr/Site/AllRecentChanges][Fabien Benetou's PIM | Site / AllRecentChanges]] :exobrain:
 :PROPERTIES:
 :ID:       sfbnbntfrstllrcntchngsfbnbntspmstllrcntchngs

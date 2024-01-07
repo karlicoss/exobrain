@@ -69,7 +69,6 @@ I also maintain a [[https://www.goodreads.com/user/show/22191391-dima-gerasimov]
 :PROPERTIES:
 :ID:       rtrnfrmthstrsbylm
 :END:
-
 ** STRT [#C] Fredkin, Digital Philosophy
 :PROPERTIES:
 :ID:       frdkndgtlphlsphy
@@ -109,12 +108,12 @@ from Blindsight by Peter Watts
 :PROPERTIES:
 :ID:       rnvntngdscvrythnwrfntwrkdscncmznckmchlnlsnbks
 :END:
+
 https://www.amazon.co.uk/Reinventing-Discovery-New-Networked-Science/dp/0691160198
 *** [2019-05-26] https://www.kobo.com/gb/en/ebook/reinventing-discovery
 :PROPERTIES:
 :ID:       swwwkbcmgbnbkrnvntngdscvry
 :END:
-
 ** TODO [#B] QED and the Men who Made it” by Sam Schweber. recommendation from Tong :qed:
 :PROPERTIES:
 :CREATED:  [2019-02-24]
@@ -223,6 +222,7 @@ https://twitter.com/weirdnik
 :PROPERTIES:
 :ID:       thgtnnlthscncfthmndndthmythfthslfbythmsmtzngrgdrds
 :END:
+
 https://www.goodreads.com/book/show/5895503-the-ego-tunnel
 
 ** [#C] [2019-06-26] Альфина’s books on Goodreads (122 books)
@@ -344,7 +344,6 @@ https://twitter.com/skdh/status/1282476055907926016
 :CREATED:  [2018-12-31]
 :ID:       clckwrkrng
 :END:
-
 ** TODO [#D] [2019-05-03] 72 Upcoming SFF books that qualify for this year's Bingo : Fantasy
 :PROPERTIES:
 :ID:       pcmngsffbksthtqlfyfrthsyrsbngfntsy
@@ -390,6 +389,7 @@ https://www.kobo.com/gb/en/ebook/upgraded-1
 :PROPERTIES:
 :ID:       bksmlrtdnlkysflwrsfrlgrnndndtdchngsndrstndsggstmbk
 :END:
+
 :   https://www.reddit.com/r/suggestmeabook/comments/7ezv7l/book_similar_to_daniel_keyes_flowers_for_algernon/
 :   n a Sci-fi context, Solaris
 : 
@@ -440,7 +440,6 @@ hotz recommendation?
 :PROPERTIES:
 :ID:       snwkpdrgwkcclrndcclrndwkpd
 :END:
-
 ** TODO [#B] [2021-03-14] [[https://en.wikipedia.org/wiki/Utopia_for_Realists][Utopia for Realists - Wikipedia]] :toread:
 :PROPERTIES:
 :ID:       snwkpdrgwktpfrrlststpfrrlstswkpd
@@ -451,7 +450,6 @@ hotz recommendation?
 :PROPERTIES:
 :ID:       swwwkbcmgbnbkthsctmndstthstbkbyjlglfrktnkbntdkngdm
 :END:
-
 ** [#C] [2021-04-19] neuromancer is a bit meh                          :book:
 :PROPERTIES:
 :ID:       nrmncrsbtmh
@@ -492,7 +490,6 @@ wow, lots of cool stuff here..
 :PROPERTIES:
 :ID:       wbcstkdzhblgntbkpnpntshtmngwthcmpttnlntbksstnzhnly
 :END:
-
 * TODO [#B] [2020-04-15] [[https://www.quantamagazine.org/does-time-really-flow-new-clues-come-from-a-century-old-approach-to-math-20200407/][Does Time Really Flow? New Clues Come From a Century-Old Approach to Math. | Quanta Magazine]] :physics:
 :PROPERTIES:
 :ID:       swwwqntmgznrgdstmrllyflwnrmcntryldpprchtmthqntmgzn
@@ -520,12 +517,10 @@ hmm, maybe read his biography?
 :PROPERTIES:
 :ID:       ghndsmsrtfnlncmmthstryvwr
 :END:
-
 * TODO [#C] [2019-12-10] [[https://twitter.com/gwern/status/1204194533422047234][Tweet from 𝔊𝔴𝔢𝔯𝔫: I've written a mini-essay summarizing how I think causality & correlation work in the softer sciences, how experiments show correlation≠causation, and why we do a bad job at internalizing that]]
 :PROPERTIES:
 :ID:       stwttrcmgwrnsttstwtfrmvwrtnndwhywdbdjbtntrnlzngtht
 :END:
-
 * STRT [#C] [2019-08-11] [[https://nsaphra.github.io/post/hands][What Does a Coder Do If They Can't Type? | Objective Funk]]
 :PROPERTIES:
 :ID:       snsphrgthbpsthndswhtdscdrdfthycnttypbjctvfnk
@@ -755,27 +750,22 @@ and here https://www.scottaaronson.com/blog/?p=93
 :PROPERTIES:
 :ID:       whtslfwthmndndmttrndtbgrphclsktchsbyrwnschrdngr
 :END:
-
 ** DONE Quantum Computing Since Democritus by Scott Aaronson
 :PROPERTIES:
 :ID:       qntmcmptngsncdmcrtsbyscttrnsn
 :END:
-
 ** DONE Surely You’re Joking Mr. Feynman by Richard Feynman
 :PROPERTIES:
 :ID:       srlyyrjkngmrfynmnbyrchrdfynmn
 :END:
-
 ** DONE Quantum Computation and Quantum Information by Michael Nielsen and Isaac Chuang
 :PROPERTIES:
 :ID:       qntmcmpttnndqntmnfrmtnbymchlnlsnndscchng
 :END:
-
 ** DONE A Mathematician’s Apology by G. H. Hardy
 :PROPERTIES:
 :ID:       mthmtcnsplgybyghhrdy
 :END:
-
 ** CNCL The Demon-Haunted World by Carl Sagan
 :PROPERTIES:
 :ID:       thdmnhntdwrldbycrlsgn
@@ -838,12 +828,10 @@ and here https://www.scottaaronson.com/blog/?p=93
 :PROPERTIES:
 :ID:       vrcmngbsswwwvrcmngbscm
 :END:
-
 * TODO [#D] [2019-02-02] [[https://www.ebay.co.uk/itm/Visualizing-Mathematics-with-3D-Printing-by-Henry-Segerman-Hardcover-Book-Free-S][Visualizing Mathematics with 3D Printing by Henry Segerman Hardcover Book Free S | eBay]] :viz:
 :PROPERTIES:
 :ID:       swwwbycktmvslzngmthmtcswtgbyhnrysgrmnhrdcvrbkfrsby
 :END:
-
 * TODO [#D] [2019-07-18] [[https://twitter.com/karpathy/status/1151887984691576833][Tweet from @karpathy: Autocompletion with deep learning, very cool!]]
 :PROPERTIES:
 :ID:       stwttrcmkrpthysttstwtfrmkthytcmpltnwthdplrnngvrycl
@@ -862,7 +850,6 @@ and here https://www.scottaaronson.com/blog/?p=93
 :PROPERTIES:
 :ID:       sblgstphnwlfrmcmbkfrmlntrngndmystrspcfppr
 :END:
-
 * TODO [#D] [2019-08-30] [[https://reddit.com/r/transhumanism/comments/cwvv7v/what_is_transhumanism_this_site_does_a_pretty/]["What Is Transhumanism?" - This site does a pretty thorough job of answering that question | /r/transhumanism]]
 :PROPERTIES:
 :ID:       srddtcmrtrnshmnsmcmmntscwbfnswrngthtqstnrtrnshmnsm
@@ -952,12 +939,10 @@ https://mobile.twitter.com/gwern/status/1104879445368864773
 :CREATED:  [2019-11-18]
 :ID:       wbmtdmrblswwwtlkshtmldmhmrblstn
 :END:
-
 * TODO [#C] [2019-11-24] Biographical Memoirs Home http://nasonline.org/publications/biographical-memoirs
 :PROPERTIES:
 :ID:       bgrphclmmrshmnsnlnrgpblctnsbgrphclmmrs
 :END:
-
 * TODO [#C] [2019-12-20] [ACC] Is Eating Meat A Net Harm? | Slate Star Codex https://slatestarcodex.com/2019/12/11/acc-is-eating-meat-a-net-harm/
 :PROPERTIES:
 :ID:       ccstngmtnthrmsltstrcdxssltstrcdxcmccstngmtnthrm
@@ -1005,7 +990,6 @@ https://twitter.com/preskill/status/1278502381324365826
 :PROPERTIES:
 :ID:       srtnlwkrgwkqntmscdqntmscdrtnlwk
 :END:
-
 * TODO [#C] [2020-06-30] [[http://bach.ai/][Joscha Bach]]              :read:
 :PROPERTIES:
 :ID:       bchjschbch
@@ -1088,7 +1072,6 @@ https://www.newyorker.com/tech/annals-of-technology/freeman-dysons-letters-offer
 :PROPERTIES:
 :ID:       sndymtschkrgrflctnsnsnndpndntrsrchrndymtschk
 :END:
-
 * TODO [#C] [2021-02-11] [[https://twitter.com/gregeganSF/status/1359853504936906755][(1) Greg Egan on Twitter: "My new novella, “Light Up the Clouds”, is in the latest issue of @Asimovs_SF https://t.co/RuULup71qY https://t.co/IrD3ySLxzO" / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmgrggnsfsttsgrggnnsfstcrlpqystcrdyslxztwttr
@@ -1113,17 +1096,14 @@ http://www.ams.org/notices/200502/comm-interview.pdf
 :PROPERTIES:
 :ID:       wkccmpythnlnggpythnlngg
 :END:
-
 * TODO [#B] [2021-03-29] [[https://news.ycombinator.com/item?id=26286306][Ask HN: Works of fiction that have inspired you to solve programming problems? | Hacker News]] :toread:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdskhnwrksftslvprgrmmngprblmshckrnws
 :END:
-
 * TODO [#B] [2021-04-24] [[https://www.gregegan.net/INTERVIEWS/Interviews.html][Interviews — Greg Egan]] :toread:
 :PROPERTIES:
 :ID:       swwwgrggnntntrvwsntrvwshtmlntrvwsgrggn
 :END:
-
 * STRT [#D] [2019-04-22] Most Important Slate Star Codex Posts - Alexey Guzey
 :PROPERTIES:
 :ID:       mstmprtntsltstrcdxpstslxygzy
@@ -1135,7 +1115,6 @@ https://guzey.com/favorite/slate-star-codex/
 :CREATED:  [2020-08-08]
 :ID:       scncfctnfntsybkrvwsssfbkcm
 :END:
-
 * TODO [#D] [2019-01-17] How To Actually Change Your Mind - Lesswrongwiki
 :PROPERTIES:
 :ID:       hwtctllychngyrmndlsswrngwk
@@ -1146,7 +1125,6 @@ https://wiki.lesswrong.com/wiki/How_To_Actually_Change_Your_Mind
 :PROPERTIES:
 :ID:       srddtcmrsltstrcdxcmmntsdtnggdwthyrcrrhrsrsltstrcdx
 :END:
-
 * TODO [#D] [2019-10-19] Engelbart: "Augmenting Human Intellect" https://mnielsen.github.io/notes/engelbart/engelbart.html#slide-32
 :PROPERTIES:
 :ID:       nglbrtgmntnghmnntllctsmnlthbntsnglbrtnglbrthtmlsld

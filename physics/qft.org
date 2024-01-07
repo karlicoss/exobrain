@@ -73,7 +73,6 @@ https://physics.stackexchange.com/questions/340009/derivatives-in-euler-lagrange
 :PROPERTIES:
 :ID:       kskmmdtthbksctllyrllygdhghtlghtdsmstffndshldrdtgn
 :END:
-
 * Klen-Gordon equation                                          :kleingordon:
 :PROPERTIES:
 :ID:       klngrdnqtn
@@ -165,7 +164,6 @@ https://www.youtube.com/watch?v=DcbhHZugm8E
 :PROPERTIES:
 :ID:       pwcnthnkfththrtrmsrspctvlthshmltnnmchfrthrnsctnsnd
 :END:
-
 * [#C] [2019-02-11] [[https://reddit.com/r/AskPhysics/comments/61889v/quantum_field_queries/dfcjefj/][Quantum Field Queries]] /r/AskPhysics
 :PROPERTIES:
 :ID:       srddtcmrskphyscscmmntsvqndfcjfjqntmfldqrsrskphyscs
@@ -221,7 +219,6 @@ Electron gets mass from higgs interaction, but also from virtual photons. But th
 :PROPERTIES:
 :ID:       mnthspdfsfckngclrlltrytndrstndt
 :END:
-
 * [#B] [2020-08-14] [[https://www.damtp.cam.ac.uk/user/dbs26/AQFT.html][David Skinner -- Advanced Quantum Field Theory -- University of Cambridge]]
 :PROPERTIES:
 :ID:       swwwdmtpcmcksrdbsqfthtmlddqntmfldthrynvrstyfcmbrdg
@@ -231,7 +228,6 @@ Electron gets mass from higgs interaction, but also from virtual photons. But th
 :PROPERTIES:
 :ID:       snplsrmtrlsmplmth
 :END:
-
 * [2019-02-19] (12) Quantum Fields: The Real Building Blocks of the Universe - with David Tong - YouTube
 :PROPERTIES:
 :ID:       qntmfldsthrlbldngblcksfthnvrswthdvdtngytb
@@ -266,7 +262,6 @@ I guess same stuff that Baez was writing about, didn't find talk particularly in
 :CREATED:  [2019-03-17]
 :ID:       c891dac5-144c-4332-889b-e2b2e84af26f
 :END:
-
 * TODO QFT in a nutshell                                              :study:
 :PROPERTIES:
 :CREATED:  [2017-05-15]
@@ -300,7 +295,6 @@ https://twitter.com/litgenstein/status/1210890946201739269
 :PROPERTIES:
 :ID:       snwkpdrgwkschrcbdngrfldschrdngrfldwkpd
 :END:
-
 * [#C] [2019-12-31] [[https://en.wikipedia.org/wiki/Klein%E2%80%93Gordon_equation][Klein–Gordon equation - Wikipedia]]
 :PROPERTIES:
 :ID:       snwkpdrgwkklngrdnqtnklngrdnqtnwkpd

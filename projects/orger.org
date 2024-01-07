@@ -7,7 +7,6 @@ I write more about it [[https://beepb00p.xyz/orger.html][here]] and [[https://be
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * [#A] * motivation
 :PROPERTIES:
 :ID:       mtvtn
@@ -119,7 +118,6 @@ maybe it should really be queue-type... so I can organize it myself
 :CREATED:  [2020-06-01]
 :ID:       spclmdtxtwthwhnrrrsncntrdndspmdfrppndngrrrs
 :END:
-
 ** TODO [#C] need to use highlight as title?
 :PROPERTIES:
 :CREATED:  [2019-05-11]
@@ -135,7 +133,6 @@ maybe it should really be queue-type... so I can organize it myself
 :CREATED:  [2020-07-20]
 :ID:       rddtsqtngndcnvrtsyntxvpndc
 :END:
-
 ** DONE [#B] reddit -- use colon to quote?
 :PROPERTIES:
 :CREATED:  [2020-07-31]
@@ -204,7 +201,6 @@ thanks to decoupling the data retrieval (#hpi)
 :CREATED:  [2019-10-05]
 :ID:       ttmpttgnrtltrtrdm
 :END:
-
 ** [2019-10-05] fuck. multiline result can't be used...
 :PROPERTIES:
 :ID:       fckmltlnrsltcntbsd
@@ -233,7 +229,6 @@ create issue in orger repo
 :PROPERTIES:
 :ID:       lthghfrthsmybrsssbttrnththndgndslklttdfrstvrsnfrss
 :END:
-
 * STRT [#B] demo: materialistic app              :toblog:orger:materialistic:
 :PROPERTIES:
 :CREATED:  [2020-04-28]
@@ -316,7 +311,6 @@ link to HPI?
 :CREATED:  [2019-08-05]
 :ID:       rddtgrbbrprvntsdltdpsts
 :END:
-
 * STRT [#B] Permanent view onto reddit bookmarks.. hard to distinguish between unfavorited or nonexistent though :reddit:exports:
 :PROPERTIES:
 :CREATED:  [2019-02-20]
@@ -352,7 +346,6 @@ People wonder why are bookmarks so hard
 :CREATED:  [2019-07-20]
 :ID:       pstbtrdngrddtndrddtprvdrfcldjstxtrctsprtscrptfrsvd
 :END:
-
 * DONE hypothesis view?                                          :coding:org:
 :PROPERTIES:
 :CREATED:  [2019-02-22]

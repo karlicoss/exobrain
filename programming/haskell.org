@@ -106,6 +106,7 @@ https://github.com/krispo/awesome-haskell
 :PROPERTIES:
 :ID:       dbgwhtlrntdrngsttngpphkyllblg
 :END:
+
 - stack ghci
 - Debug.Trace.traceShowM within do block
 - pandoc --metadata
@@ -118,7 +119,6 @@ https://www.gwern.net/Resilient-Haskell-Software
 :PROPERTIES:
 :ID:       stckgsrvrswwwstckgrg
 :END:
-
 * [2019-04-14] debugging ghci
 :PROPERTIES:
 :ID:       dbggngghc
@@ -143,6 +143,7 @@ https://twitter.com/hdevalence/status/1088649294746275840
 :PROPERTIES:
 :ID:       pplctvfnctrs
 :END:
+
 - regular functor
   : class Functor f where
   :   fmap :: (a -> b) -> f a -> f b

@@ -36,6 +36,7 @@
 :PROPERTIES:
 :ID:       klslmnds
 :END:
+
 Earlier I said that the key to a monad is its Kleisli arrows. The reason why is that Kleisli arrows are morphisms in the Kleisli category, where (>=>) is Kleisli arrow composition:
 
 FIXME: begin_example is crashing org-mode export???
@@ -58,7 +59,6 @@ FIXME: begin_example is crashing org-mode export???
 :PROPERTIES:
 :ID:       typclsssdwncstngndnstncfrmpssbl
 :END:
-
 * [2016-09-25] parametricity
 :PROPERTIES:
 :ID:       prmtrcty
@@ -90,6 +90,7 @@ The difference between denotational and operational semantics:
 :PROPERTIES:
 :ID:       fldlvsfldr
 :END:
+
 #+begin_src haskell
   -- Left fold:
   foldl :: (a -> b -> a) -> a -> [b] -> a
@@ -118,6 +119,7 @@ TODO: internal thunk stack?
 :PROPERTIES:
 :ID:       ltplymrphsmstckvrflwcm
 :END:
+
 We might want to define 
 	let x = expr in t
 	as (\x.t) expr
@@ -147,6 +149,7 @@ Note that it's perfectly possible to pass a polymorphic function as an argument 
 :PROPERTIES:
 :ID:       pnbrdbkmrksfrkrlcsstggdfp
 :END:
+
 https://pinboard.in/u:karlicoss/t:fp
 
 * [2016-02-28] Existential types                                    :haskell:

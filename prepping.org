@@ -33,12 +33,10 @@ it simplifies our 'dependencies' and makes us and our infrastructure more resili
 :PROPERTIES:
 :ID:       bngstcndmnmlsthlpsfrrslncy
 :END:
-
 * STRT [#A] [2021-01-30] [[https://lcamtuf.coredump.cx/prep][Doomsday prepping for less crazy folk]] :prepping:
 :PROPERTIES:
 :ID:       slcmtfcrdmpcxprpdmsdyprppngfrlsscrzyflk
 :END:
-
 * TODO [#B] learn about first aid                           :health:prepping:
 :PROPERTIES:
 :CREATED:  [2019-08-31]
@@ -118,7 +116,6 @@ https://twitter.com/karpathy/status/1132171497798156288
 :CREATED:  [2020-01-13]
 :ID:       smrcmdlntlsfrnrgysvngprpss
 :END:
-
 * [#D] [2015-06-19] how to protect from radiation?       :humanbody:prepping:
 :PROPERTIES:
 :ID:       hwtprtctfrmrdtn

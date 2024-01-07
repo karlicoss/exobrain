@@ -28,7 +28,6 @@ The ones I have already/mostly finished are mentioned here:
 ** .                                                         :dataliberation:
 :PROPERTIES:
 :END:
-
 * [#A] * motivation
 :PROPERTIES:
 :ID:       mtvtn
@@ -50,7 +49,6 @@ Similar to [[file:backups.org][backups]].
 :PROPERTIES:
 :ID:       swwwytbcmwtchvxsrzhgqwnyrcntntnsclmdsngthndwbytb
 :END:
-
 * [#B] * implementation: goals/tips/practices
 :PROPERTIES:
 :ID:       mplmnttnglstpsprctcs
@@ -138,6 +136,7 @@ so need a way to trigger backup from promnesia indexer itself? Fairly easy to ac
 :PROPERTIES:
 :ID:       xmplhwtcldwrk
 :END:
+
 in promnesia
 
 : def index_reddit():
@@ -188,7 +187,6 @@ E.g. from [[https://developer.twitter.com/en/application/intent][Apply for API �
 :PROPERTIES:
 :ID:       sgthbcmbsgzrtwttrscrprbsgthtwttrfrntndpwthtthntctn
 :END:
-
 ** TODO [#C] twint itself should work as incremental export... and then DAL should combine :twint:
 :PROPERTIES:
 :CREATED:  [2020-11-30]
@@ -310,7 +308,6 @@ so you can't just take the latest takeout, for some data you need to merge all o
 :PROPERTIES:
 :ID:       lfvltslnmtktpytmstrthrbnjvltblbmstrsrctktslnmtktpy
 :END:
-
 *** STRT automating google drive                     :takeout:backup:exports:
 :PROPERTIES:
 :CREATED:  [2019-02-22]
@@ -336,7 +333,6 @@ https://github.com/ThorbenJensen/life-vault/blob/master/src/takeout/selenium_tak
 :CREATED:  [2019-06-11]
 :ID:       cldsyncmntktswthnlyncssrystffpckdfrmthm
 :END:
-
 ** TODO [#C] youtube watch history -- should be accumulated from multiple takeouts :youtube:
 :PROPERTIES:
 :CREATED:  [2019-09-17]
@@ -421,12 +417,10 @@ https://gist.github.com/karlicoss/3361f6a239048a451daa2a02982ee180
 :PROPERTIES:
 :ID:       sgthbcmsnlfshwymftdtgttrsfrmnmftqsdvcnthsmlclntwrk
 :END:
-
 ** [#C] [2019-12-17] downloadEmfitAPI.py https://gist.github.com/vanne02135/6901cc2b92315881080d0ce0f07c1a17
 :PROPERTIES:
 :ID:       dwnldmftppysgstgthbcmvnnccbdcfc
 :END:
-
 ** TODO [#C] ugh. maybe autorefresh the token? Fuckig hell.           :emfit:
 :PROPERTIES:
 :CREATED:  [2020-08-27]
@@ -445,7 +439,6 @@ https://gist.github.com/karlicoss/3361f6a239048a451daa2a02982ee180
 :PROPERTIES:
 :ID:       mftpddntwrkfrbtthrdysstrght
 :END:
-
 ** [#D] [2019-12-21] samuelmr/emfit-qs: Unofficial Node client for Emfit QS
 :PROPERTIES:
 :ID:       smlmrmftqsnffclndclntfrmftqs
@@ -461,7 +454,6 @@ https://github.com/samuelmr/emfit-qs
 :CREATED:  [2019-03-06]
 :ID:       fgrtblmstrmksrllmrgd
 :END:
-
 ** TODO [#C] actually wonder if I can connect it to computer?   :bluemaestro:
 :PROPERTIES:
 :CREATED:  [2019-10-06]
@@ -481,7 +473,6 @@ https://github.com/samuelmr/emfit-qs
 :PROPERTIES:
 :ID:       yhcldlbrtnbckngpndrddtcldbqtgnrc
 :END:
-
 * STRT [#C] * reddit                                                 :reddit:
 :PROPERTIES:
 :ID:       rddt
@@ -495,7 +486,6 @@ https://github.com/samuelmr/emfit-qs
 :PROPERTIES:
 :ID:       rgssfrrgrndtxtrctsmplrddtthtjstmrgsvrstmstmpdbckps
 :END:
-
 ** TODO [#C] I guess just rely on bleanser instead after all? Just make it less spammy :bleanser:reddit:
 :PROPERTIES:
 :CREATED:  [2019-08-01]
@@ -510,19 +500,16 @@ https://github.com/samuelmr/emfit-qs
 :PROPERTIES:
 :ID:       yptdfhppnsprmnstrggrst
 :END:
-
 ** DONE [#C] shit. need to bleanse reddit properly, otherwise looks like it's too much data... :reddit:
 :PROPERTIES:
 :CREATED:  [2019-04-12]
 :ID:       shtndtblnsrddtprprlythrwslkslktstmchdt
 :END:
-
 ** TODO [#C] basically, just go through stuff that doesn't exist anymore but was in favorites ever (and suppress errors for some of them) :reddit:
 :PROPERTIES:
 :CREATED:  [2019-01-27]
 :ID:       bscllyjstgthrghstffthtdsnrtsvrndspprssrrrsfrsmfthm
 :END:
-
 ** [#C] [2020-01-11] Getting Started — PRAW 3.6.0 documentation      :reddit:
 :PROPERTIES:
 :ID:       gttngstrtdprwdcmnttn
@@ -570,7 +557,6 @@ https://praw.readthedocs.io/en/v3.6.0/pages/getting_started.html#connecting-to-r
 :PROPERTIES:
 :ID:       sgthbcmsnbrcknrdgffxprtsncwthfrfxhstryvstsndstmtdt
 :END:
-
 * STRT [#C] * hypothesis                                         :hypothesis:
 :PROPERTIES:
 :ID:       hypthss
@@ -589,7 +575,6 @@ https://praw.readthedocs.io/en/v3.6.0/pages/getting_started.html#connecting-to-r
 :PROPERTIES:
 :ID:       fxnhypxprt
 :END:
-
 * STRT [#D] * github                                                 :github:
 :PROPERTIES:
 :ID:       gthb
@@ -637,7 +622,6 @@ https://praw.readthedocs.io/en/v3.6.0/pages/getting_started.html#connecting-to-r
 :CREATED:  [2020-03-14]
 :ID:       gthbstrrdrpsrntpdtd
 :END:
-
 * TODO [#D] * whatsapp                                             :whatsapp:
 :PROPERTIES:
 :ID:       whtspp
@@ -729,7 +713,6 @@ from [[https://www.instapaper.com/read/1275853358/12253044][ip]]   [[https://www
 :PROPERTIES:
 :ID:       hmmtsctldmpfllcmmntsbttmchgss
 :END:
-
 ** TODO [#C] hmm crashed on json decoding?                         :stexport:
 :PROPERTIES:
 :CREATED:  [2021-03-10]
@@ -779,7 +762,6 @@ https://github.com/halcy/Mastodon.py
 :CREATED:  [2021-01-24]
 :ID:       tskyndrdppkpssmhstryntskydb
 :END:
-
 * STRT [#D] * pinboard                                             :pinboard:
 :PROPERTIES:
 :ID:       pnbrd
@@ -789,7 +771,6 @@ https://github.com/halcy/Mastodon.py
 :CREATED:  [2019-03-24]
 :ID:       hhlkslkpnbrdsqtnstblwthrgssthbckpscrptswrngrsmthng
 :END:
-
 ** [#C] [2019-04-19] Pinboard on Twitter: "Next question is, does a raw API call give the same results as the website? The API and website search engine run off of different indexes.… https://t.co/CZrLE7YNWo" :pinboard:
 :PROPERTIES:
 :ID:       pnbrdntwttrnxtqstnsdsrwpcrnfffdffrntndxsstcczrlynw
@@ -801,13 +782,11 @@ https://twitter.com/Pinboard/status/1113807174717792256
 :PROPERTIES:
 :ID:       thrdtsrcs
 :END:
-
 * STRT [#B] Podcast addict data
 :PROPERTIES:
 :CREATED:  [2020-08-04]
 :ID:       pdcstddctdt
 :END:
-
 * TODO [#B] [2020-07-31] [[https://github.com/alexattia/Maps-Location-History][alexattia/Maps-Location-History: Get, Concatenate and Process you location history from Google Maps TimeLine]] :location:timeline:qs:
 :PROPERTIES:
 :ID:       sgthbcmlxttmpslctnhstrylxssylctnhstryfrmgglmpstmln
@@ -831,13 +810,11 @@ jesus!
 :PROPERTIES:
 :ID:       sgthbcmfbchtdvfbchtsssntcrjctsnmntndssfbchtdvfbcht
 :END:
-
 * STRT [#C] Need my email mirrored                                    :email:
 :PROPERTIES:
 :CREATED:  [2019-02-06]
 :ID:       ndmymlmrrrd
 :END:
-
 ** [2019-03-12] I guess I want continuous. Not sure how to achieve that, perhaps some mail client in the background?
 :PROPERTIES:
 :ID:       gsswntcntnsntsrhwtchvthtprhpssmmlclntnthbckgrnd
@@ -857,7 +834,6 @@ https://github.com/joeyates/imap-backup
 :PROPERTIES:
 :ID:       sbndcmpcmdvlprnlstnnghstrythgh
 :END:
-
 * TODO [#C] hmm memrise personal data request is neat! It's got all you training sessions + learned words and phrases :publish:
 :PROPERTIES:
 :CREATED:  [2019-09-25]
@@ -938,7 +914,6 @@ There is no Steam Web API method for historical player count of a specific game.
 :CREATED:  [2019-12-18]
 :ID:       fdbnstrrdstff
 :END:
-
 * TODO [#C] [2019-07-14] fabianonline/telegram_backup: Java app to download all your telegram data.
 :PROPERTIES:
 :ID:       fbnnlntlgrmbckpjvpptdwnldllyrtlgrmdt
@@ -978,7 +953,6 @@ https://github.com/fabianonline/telegram_backup
 :PROPERTIES:
 :ID:       srddtcmrclgthbprjctscmmntfyptsqltdtbsrclgthbprjcts
 :END:
-
 * STRT [#C] monzo export: make sure it works with original repo.. :exports:monzo:
 :PROPERTIES:
 :CREATED:  [2019-12-25]
@@ -1011,7 +985,6 @@ https://github.com/feedbin/feedbin-api#readme
 :PROPERTIES:
 :ID:       sgthbcmtcgtzgrmndbwksccsstrssccssstrstcgtzgrmndbwk
 :END:
-
 * TODO [#C] [2020-12-19] [[https://blog.openlibrary.org/2020/12/13/importing-your-goodreads-accessing-them-with-open-librarys-apis/][Importing your Goodreads & Accessing them with Open Library’s APIs]]
 :PROPERTIES:
 :ID:       sblgpnlbrryrgmprtngyrgdrdrdsccssngthmwthpnlbrrysps
@@ -1021,13 +994,11 @@ https://github.com/feedbin/feedbin-api#readme
 :PROPERTIES:
 :ID:       sgdgtsndtvcmppsnwstlgrmxpsvwntfctnxcptnstchnlgynws
 :END:
-
 * TODO [#D] get off the messages stored in old format and make sure nothing  is missing, dedup? :vk:
 :PROPERTIES:
 :CREATED:  [2019-02-26]
 :ID:       gtffthmssgsstrdnldfrmtndmksrnthngsmssngddp
 :END:
-
 * TODO [#D] shit, they stopped you from accessing messages api. fuck.    :vk:
 :PROPERTIES:
 :CREATED:  [2019-03-08]
@@ -1070,11 +1041,11 @@ UserTimelineEntry?
 :PROPERTIES:
 :ID:       mznrdrshstry
 :END:
-
 ** TODO [2018-05-04] ugh, order history report is broken for the UK version :( https://www.amazon.co.uk/gp/help/customer/display.html?nodeId=202119330 wrote to support
 :PROPERTIES:
-:ID:       frghrdrhstryrprtsbrknfrthstmrdsplyhtmlnddwrttspprt
+:ID:       ghrdrhstryrprtsbrknfrthkvstmrdsplyhtmlnddwrttspprt
 :END:
+
 https://www.amazon.co.uk/gp/b2b/reports
 Then could connect to drebedengi and add comments (even with breakdown)
 
@@ -1082,7 +1053,6 @@ Then could connect to drebedengi and add comments (even with breakdown)
 :PROPERTIES:
 :ID:       bckpsmzn
 :END:
-
 * TODO ugh, bookmarks method in api is not exhaustive (elif item.get("type") == 'bookmark') :instapaper:
 :PROPERTIES:
 :CREATED:  [2020-01-04]
@@ -1126,7 +1096,6 @@ https://www.blinkist.com/en/nc/highlights
 :CREATED:  [2019-05-02]
 :ID:       fdbn
 :END:
-
 * CANCEL [2020-03-05] signalnerve/roam-backup: Automated Roam Research backups using GitHub Actions and AWS S3
 :PROPERTIES:
 :ID:       sgnlnrvrmbckptmtdrmrsrchbckpssnggthbctnsndwss
@@ -1306,7 +1275,6 @@ so it could cooperate with HPI... egh not sure
 :CREATED:  [2021-03-24]
 :ID:       cldtlzmnzctgrsfrmngssthycldhvrrrsdk
 :END:
-
 * TODO [#C] [2021-03-10] [[https://stackapi.readthedocs.io/en/latest/user/quickstart.html?highlight=limits#change-number-of-results][Quickstart — StackAPI 0.1.12 documentation]] :exports:
 :PROPERTIES:
 :ID:       sstckprdthdcsnltstsrqckstfrsltsqckstrtstckpdcmnttn

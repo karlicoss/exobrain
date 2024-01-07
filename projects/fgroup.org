@@ -32,6 +32,7 @@ Approximate them by segments, that should work
 :PROPERTIES:
 :ID:       myntlnts
 :END:
+
 Triangulate the manifold
 then do some sort of random walk and stop at the initial point with some probability
 then, do some sort of simulated annealing to transform the loops according to the certain rules.
@@ -79,7 +80,6 @@ pretty inefficient, should rewrite in rust for finer control. also, make multith
 :PROPERTIES:
 :ID:       nmtmntlfrfndmntlnstdftplgyrpn
 :END:
-
 * related                                                      :topology:viz:
 :PROPERTIES:
 :ID:       rltd
@@ -121,12 +121,10 @@ most useful so far.. the idea is you construct spanning tree, choose a base poin
 :PROPERTIES:
 :ID:       klnbttlwthtrngltnsmthstcksfndmntlgrpklnbttltrngltn
 :END:
-
 ** edge-path https://en.wikipedia.org/wiki/Fundamental_group#Edge-path_group_of_a_simplicial_complex
 :PROPERTIES:
 :ID:       dgpthsnwkpdrgwkfndmntlgrpdgpthgrpfsmplclcmplx
 :END:
-
 ** faces in triangulation must be distinct
 :PROPERTIES:
 :ID:       fcsntrngltnmstbdstnct
@@ -159,6 +157,7 @@ look at remaining
 :PROPERTIES:
 :ID:       bscllydntndrstndwhtllthymnbysbcmplxwhydthyclrllft
 :END:
+
 https://math.stackexchange.com/questions/2472310/finding-fundamental-group-of-simplicial-complexes
 ** START book by Armstrong, p. 134. Don't really understand the statement, it's all very vague
 :PROPERTIES:

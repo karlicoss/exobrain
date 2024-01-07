@@ -39,7 +39,6 @@
 :PROPERTIES:
 :ID:       slgzrfrncclrdlgs
 :END:
-
 * json                                                                 :json:
 :PROPERTIES:
 :ID:       jsn
@@ -54,7 +53,6 @@
 :PROPERTIES:
 :ID:       sync
 :END:
-
 * [#B] [2020-02-12] Guido van Rossum on Twitter: "@jonasrk You missed mypy. Simpler docs use markdown, not ReST (Sphinx). Black is overrated unless your team argues over style a lot. You don't need Pylint if you're using flake8. Never heard of poetry or dependabot. And you should use a CI solution, e.g. Travis-CI, to run your tests." / Twitter https://twitter.com/gvanrossum/status/1227126706089021440
 :PROPERTIES:
 :ID:       gdvnrssmntwttrjnsrkymssdmstwttrstwttrcmgvnrssmstts
@@ -67,7 +65,6 @@ hmm
 :PROPERTIES:
 :ID:       cnfgrtnvclssvrblsntgrtwhltstngsnccnfgrtnhstbrldd
 :END:
-
 * TODO [#C] write about setting up elaborate python project + circleci? maybe demonstrate on grasp? :ci:
 :PROPERTIES:
 :CREATED:  [2019-08-02]

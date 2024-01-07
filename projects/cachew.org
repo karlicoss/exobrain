@@ -45,7 +45,6 @@ why using separate columns at all
 :PROPERTIES:
 :ID:       prfrmnchvnttstd
 :END:
-
 ** TODO [#C] combines some of my favorite python features: type annotations, decorators, generators, context managers :python:toblog:
 :PROPERTIES:
 :CREATED:  [2019-05-01]
@@ -74,7 +73,6 @@ https://www.reddit.com/r/Python/comments/kz7vj/is_it_possible_to_use_a_namedtupl
 :PROPERTIES:
 :ID:       kntsrftspprtsntdtclssshypthsststsrncthgh
 :END:
-
 ** [#C] [2020-05-16] [[https://github.com/UnitedIncome/json-syntax][UnitedIncome/json-syntax: Generates functions to convert Python classes to and from JSON friendly objects]] :python:json:
 :PROPERTIES:
 :ID:       sgthbcmntdncmjsnsyntxntdnclssstndfrmjsnfrndlybjcts
@@ -87,7 +85,6 @@ https://www.reddit.com/r/Python/comments/kz7vj/is_it_possible_to_use_a_namedtupl
 :PROPERTIES:
 :ID:       rgstrtypsnthsmwysgthbcmfrlncrpvlvddngcstmtyps
 :END:
-
 ** [#C] [2020-03-11] unmade/apiwrappers: Build API clients that work both with regular and async code :axol:
 :PROPERTIES:
 :ID:       nmdpwrpprsbldpclntsthtwrkbthwthrglrndsynccd
@@ -200,13 +197,11 @@ feels a bit more atomic...
 :CREATED:  [2020-01-02]
 :ID:       frprsstnggsstmkssnstsnmdtstmsqlqrsmghtctllysstrctr
 :END:
-
 ** TODO [#C] Support anon tuples? As long as they are typed...
 :PROPERTIES:
 :CREATED:  [2019-08-05]
 :ID:       spprtnntplsslngsthyrtypd
 :END:
-
 *** [2019-08-14] tried to implement tuples support... but it's just too freaking hacky...
 :PROPERTIES:
 :ID:       trdtmplmnttplsspprtbttsjsttfrknghcky
@@ -225,7 +220,6 @@ feels a bit more atomic...
 :PROPERTIES:
 :ID:       shtfmrgngsmplmntdrcrsvlyzldspprtprprlyncrmntlxprts
 :END:
-
 ** STRT [#B] use appdirs                                             :cachew:
 :PROPERTIES:
 :CREATED:  [2021-02-14]
@@ -239,7 +233,6 @@ feels a bit more atomic...
 :CREATED:  [2020-12-19]
 :ID:       hdtlcllptmztnncchwhmmm
 :END:
-
 ** TODO [#B] env variable to turn it off??                           :cachew:
 :PROPERTIES:
 :CREATED:  [2021-03-07]
@@ -271,7 +264,6 @@ https://twitter.com/pycoders/status/1214956434519154688
 :CREATED:  [2020-01-06]
 :ID:       lnkthpdrftndxprtsdrft
 :END:
-
 ** STRT [#C] could post on HN and lobsters as well                  :publish:
 :PROPERTIES:
 :CREATED:  [2019-11-04]
@@ -282,7 +274,6 @@ https://twitter.com/pycoders/status/1214956434519154688
 :CREATED:  [2019-08-05]
 :ID:       prhpsmrgngblmsrdtbsscldbgdxmpl
 :END:
-
 ** TODO [#C] could demonstrate this?
 :PROPERTIES:
 :CREATED:  [2020-01-06]
@@ -339,7 +330,6 @@ perhaps with more processing difference would be even more striking...
 :CREATED:  [2020-01-12]
 :ID:       mghtbctllywrthsprtpstsngtnprmnsndxlswll
 :END:
-
 * [#C] * readme/docs
 :PROPERTIES:
 :ID:       rdmdcs
@@ -371,7 +361,6 @@ globally?
 :CREATED:  [2019-08-05]
 :ID:       ddtcmpltdcs
 :END:
-
 ** STRT [#C] Come up with a decent example..
 :PROPERTIES:
 :CREATED:  [2020-01-05]
@@ -382,7 +371,6 @@ Maybe even dal is fine if I illustrate it by integration test?
 :PROPERTIES:
 :ID:       pdfnnttnscldbrllygdnmssvdffrnc
 :END:
-
 ** DONE Use ipynb for docs?                                :ipython:literate:
 :PROPERTIES:
 :CREATED:  [2019-08-15]
@@ -557,7 +545,6 @@ Maybe, set the attribute to the function? Seems good enough?
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * TODO [#A] [2021-03-08] [[https://github.com/calpaterson/pyappcache][calpaterson/pyappcache: A library for application-level caching]] :cachew:
 :PROPERTIES:
 :ID:       sgthbcmclptrsnpyppcchclptpcchlbrryfrpplctnlvlcchng

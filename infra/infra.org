@@ -6,12 +6,10 @@
 :CREATED:  [2019-10-30]
 :ID:       vcrcrddntsfrhndsfrthnkng
 :END:
-
 * TODO [#B] [2020-07-01] [[https://docs.docker.com/compose/extends/][Share Compose configurations between files and projects | Docker Documentation]] :docker:
 :PROPERTIES:
 :ID:       sdcsdckrcmcmpsxtndsshrcmptwnflsndprjctsdckrdcmnttn
 :END:
-
 * STRT [#B] attempting to overcome read-only editable packages... :python:pip:
 :PROPERTIES:
 :CREATED:  [2020-12-10]
@@ -36,17 +34,16 @@
 :CREATED:  [2020-01-15]
 :ID:       szstd
 :END:
-
 * TODO [#C] huh, huginn is pretty well documented and also very clean interface. could get inspiration from it... :inspiration:
 :PROPERTIES:
 :CREATED:  [2019-12-24]
 :ID:       hhhgnnsprttywlldcmntdndlsryclnntrfccldgtnsprtnfrmt
 :END:
-
 * [#C] [2019-06-29] frenck/awesome-home-assistant: A curated list of amazingly awesome Home Assistant resources.
 :PROPERTIES:
 :ID:       frnckwsmhmssstntcrtdlstfmznglywsmhmssstntrsrcs
 :END:
+
 https://github.com/frenck/awesome-home-assistant
 * STRT [#C] trying out podman                                 :docker:podman:
 :PROPERTIES:
@@ -121,7 +118,6 @@ ugh. kinda annoying it's running as root
 :PROPERTIES:
 :ID:       srddtcmrslfhstdcmmntsbmxqndrlsfrmtdtcrrctnrslfhstd
 :END:
-
 * STRT [#B] [2020-01-18] bb4242/sdnotify: A pure Python implementation of systemd's service notification protocol (sd_notify) -- can be used for watchdog? :infra:systemd:
 :PROPERTIES:
 :ID:       bbsdntfyprpythnmplmnttnfsnprtclsdntfycnbsdfrwtchdg
@@ -167,7 +163,6 @@ https://github.com/vinta/awesome-python
 :PROPERTIES:
 :ID:       mrkrshkffwsmnflxdbcrtdlstsgthbcmmrkrshkffwsmnflxdb
 :END:
-
 * TODO [#C] compare how similar pipeline in python would look? :huginn:ideas:
 :PROPERTIES:
 :CREATED:  [2019-12-24]
@@ -205,7 +200,6 @@ https://unix.stackexchange.com/questions/72037/difference-between-xz-and-lzma-in
 :CREATED:  [2020-08-21]
 :ID:       tnssdnrsnc
 :END:
-
 * [#C] [2020-03-18] remarkable: What's their portability story? I don't want my personal knowledge store to be l... | Hacker News :remarkable:
 :PROPERTIES:
 :ID:       rmrkblwhtsthrprtbltystrydyprsnlknwldgstrtblhckrnws
@@ -278,7 +272,6 @@ https://news.ycombinator.com/item?id=22669968
 :PROPERTIES:
 :ID:       sgthbcmjrnnnnjrnnnnnthnrthdxtrmnlflmngr
 :END:
-
 * [#D] [2020-10-05] [[https://github.com/tridactyl/tridactyl][tridactyl/tridactyl: A Vim-like interface for Firefox, inspired by Vimperator/Pentadactyl.]] :vim:
 :PROPERTIES:
 :ID:       sgthbcmtrdctyltrdctyltrdcfrfxnsprdbyvmprtrpntdctyl
@@ -321,7 +314,6 @@ holy crap, that's elaborate!
 :PROPERTIES:
 :ID:       lstpdtdyrsg
 :END:
-
 * [#C] [2018-09-29] huginn/huginn: Create agents that monitor and act on your behalf. Your agents are standing by! :selfhosted:
 :PROPERTIES:
 :ID:       hgnnhgnncrtgntsthtmntrndctnyrbhlfyrgntsrstndngby
@@ -371,6 +363,7 @@ https://forum.syncthing.net/t/nested-folders/11793/10
 :PROPERTIES:
 :ID:       dhll
 :END:
+
 : It's hard to take Dhall seriously because it seems like its authors don't take it seriously, and work on it for entertainment. They went through the trouble of creating bindings for five (!!) different languages, and the most popular of them, by a pretty wide margin, is Ruby. I assume Fortran, Delphi, and Idris are next on their list.
 * [2020-05-04] [[https://blog.darknedgy.net/technology/2020/05/02/0/index.html][systemd, 10 years later: a historical and technical retrospective]] :systemd:
 :PROPERTIES:
@@ -393,6 +386,7 @@ so, they decided not to follow symlinks.
 :PROPERTIES:
 :ID:       wndrhwwlltwrkswthphn
 :END:
+
 ok, so looks like the real folder synced, but the files are not on the phone. And it's showing 'out of sync'
 
 https://github.com/syncthing/syncthing-android/issues/748 ok, it can be disabled in phone web ui
@@ -410,7 +404,6 @@ https://medium.com/faun/set-current-host-user-for-docker-container-4e521cef9ffc
 :PROPERTIES:
 :ID:       smwysfmngngsrprmssns
 :END:
-
 * [#C] [2019-09-01] How to mount encrypted LVM logical volume
 :PROPERTIES:
 :ID:       hwtmntncryptdlvmlgclvlm
@@ -438,12 +431,14 @@ http://blog.jorgenschaefer.de/2014/07/why-systemd.html
 :PROPERTIES:
 :ID:       drpmwrdkbrrmtnblrmtccssnkbrrdr
 :END:
+
 https://github.com/dropmeaword/kobo-aura-remote
 
 ** [2018-09-10] Wireless gone · Issue #1 · dropmeaword/kobo-aura-remote :kobo:
 :PROPERTIES:
 :ID:       wrlssgnssdrpmwrdkbrrmt
 :END:
+
 https://github.com/dropmeaword/kobo-aura-remote/issues/1
 
 * [2017-08-10] mutt                                                    :mail:
@@ -462,6 +457,7 @@ I guess I'm better off setting retention policy for thunderbird
 :PROPERTIES:
 :ID:       pythndmnpyp
 :END:
+
 https://pypi.org/project/python-daemon/
 
 * [#B] [2020-07-16] [[https://news.ycombinator.com/item?id=23860338][Zulip 3.0: Threaded Open Source Team Chat | Hacker News]] :zulip:
@@ -561,7 +557,6 @@ https://www.linuxuprising.com/2019/11/chkservice-is-systemd-units-manager.html
 :PROPERTIES:
 :ID:       hnttsflwhntssrvcslscnnlynbldsblvntrfc
 :END:
-
 * [#D] [2020-01-07] serman                                          :systemd:
 :PROPERTIES:
 :ID:       srmn
@@ -577,12 +572,10 @@ huh this is interesting... like hugginn but can write JS?
 :PROPERTIES:
 :ID:       blgrfxnmprvmntsthmstprsnlnthtmlthmstprsnldvcxprmnt
 :END:
-
 * TODO [#C] [2020-12-05] [[https://github.com/RSS-Bridge/rss-bridge][RSS-Bridge/rss-bridge: The RSS feed for websites missing it]] :infra:rss:
 :PROPERTIES:
 :ID:       sgthbcmrssbrdgrssbrdgrssbsbrdgthrssfdfrwbstsmssngt
 :END:
-
 * [2020-12-30] indygreg/python-zstandard Request New open() method (#64) :infra:hpi:
 :PROPERTIES:
 :ID:       ndygrgpythnzstndrdrqstnwpnmthd
@@ -607,7 +600,6 @@ ugh, very annoying that there is no way to setup something...
 :PROPERTIES:
 :ID:       sfrmgtrgmdcrcllwbprjctsjnfrncsdcksrcllwbgtlb
 :END:
-
 * STRT [#B] Yeah, def need interactive diagram explaining my infra and linking different posts. That will make the whole thing easier for other people to comprehend :toblog:infra:
 :PROPERTIES:
 :CREATED:  [2020-01-02]
@@ -617,7 +609,6 @@ ugh, very annoying that there is no way to setup something...
 :PROPERTIES:
 :ID:       hsppststmtjstpstt
 :END:
-
 * [#C] write about my desktop environment?                           :toblog:
 :PROPERTIES:
 :CREATED:  [2019-09-05]
@@ -670,7 +661,6 @@ the quicker you notice, the better because conflict resolution sucks
 :PROPERTIES:
 :ID:       ndrdpwrsttngsmghtmss
 :END:
-
 ** TODO [#C] Release my heartbeat thing? For phone and desktop Could work for both Dropbox and synching
 :PROPERTIES:
 :CREATED:  [2019-09-05]
@@ -685,7 +675,6 @@ E.g. systemd has no graphical indication if something crashed
 :PROPERTIES:
 :ID:       mksrthrsnthngxstng
 :END:
-
 * TODO [#C] [2019-11-07] lab notebook // thoughts and notes     :infra:setup:
 :PROPERTIES:
 :ID:       lbntbkthghtsndnts
@@ -705,7 +694,6 @@ http://maniacanshul.com/proDigitalPrivacy/Alternatives.html
 :CREATED:  [2019-04-09]
 :ID:       hwttllpplbtmywyfhndlngprsnldtyldngxcptnsbngdfnsvtc
 :END:
-
 * TODO [#C] Heartbeat for syncthing?                           :cloud:toblog:
 :PROPERTIES:
 :CREATED:  [2018-10-24]
@@ -720,7 +708,6 @@ http://aesadde.xyz/posts/2019/2019-08-13-filesystem.html
 :PROPERTIES:
 :ID:       knthngtcrzybtgdxmplfstp
 :END:
-
 * STRT [#C] What's next?                                       :infra:toblog:
 :PROPERTIES:
 :CREATED:  [2020-01-07]
@@ -743,7 +730,6 @@ Find a way to simplify and make it more effecient.
 :CREATED:  [2018-11-09]
 :ID:       sprtdskntnsvjbsmybvsystmdrsrcstgs
 :END:
-
 * [#C] [2020-01-26] systemd.service https://www.freedesktop.org/software/systemd/man/systemd.service.html
 :PROPERTIES:
 :ID:       systmdsrvcswwwfrdsktprgsftwrsystmdmnsystmdsrvchtml
@@ -767,12 +753,10 @@ Find a way to simplify and make it more effecient.
 :PROPERTIES:
 :ID:       sgthbcmjssfrzdckrflsjssfrsdckrflssnthdsktpndnsrvrs
 :END:
-
 * TODO [#C] [2020-12-22] [[https://github.com/justin-vanwinkle/Docker-GUI-Example][justin-vanwinkle/Docker-GUI-Example: An example of how run GUI apps with Docker.]]
 :PROPERTIES:
 :ID:       sgthbcmjstnvnwnkldckrgxmpxmplnxmplfhwrngppswthdckr
 :END:
-
 * TODO [#D] [2019-12-30] Lazydocker: a terminal GUI for Docker | Hacker News https://news.ycombinator.com/item?id=20315973 :docker:
 :PROPERTIES:
 :ID:       lzydckrtrmnlgfrdckrhckrnwssnwsycmbntrcmtmd
@@ -796,7 +780,6 @@ Find a way to simplify and make it more effecient.
 :PROPERTIES:
 :ID:       sgthbcmpwllrdckrshwcntxtpstddrngthcntxtpldfdckrbld
 :END:
-
 * My infrastructure diagram                                         :myinfra:
 :PROPERTIES:
 :ID:       mynfrstrctrdgrm
@@ -839,32 +822,26 @@ generally 'big directories with binaries/object files'?
 :PROPERTIES:
 :ID:       sgthbcmddvkrmrkblhcksddvksddtnlfnctnltyvbnryptchng
 :END:
-
 * [#C] [2021-02-15] [[https://scoop.sh/][Scoop]]                    :windows:
 :PROPERTIES:
 :ID:       sscpshscp
 :END:
-
 * TODO [#B] [2021-02-20] [[https://rgoswami.me/posts/my-life-in-eink/][My Life in E-ink :: Rohit Goswami — Reflections]]
 :PROPERTIES:
 :ID:       srgswmmpstsmylfnnkmylfnnkrhtgswmrflctns
 :END:
-
 * TODO [#C] [2021-02-20] [[https://ebooks.stackexchange.com/questions/7607/how-to-install-koreader-on-kobo-aura-one?newreg=3699a07edc4c42878d6e866076e1b223][pdf - How to install KOReader on Kobo Aura ONE - Ebooks Stack Exchange]]
 :PROPERTIES:
 :ID:       sbksstckxchngcmqstnshwtnsstllkrdrnkbrnbksstckxchng
 :END:
-
 * [#C] [2021-02-24] [[https://rudd-o.com/linux-and-free-software/setting-up-a-mail-server-using-postfix-in-5-minutes][Setting up a mail server using Postfix in 5 minutes — Rudd-O.com]]
 :PROPERTIES:
 :ID:       srddcmlnxndfrsftwrsttngpmpmlsrvrsngpstfxnmntsrddcm
 :END:
-
 * TODO [#C] [2021-02-20] [[https://github.com/koreader/koreader/wiki/Installation-on-ReMarkable][Installation on ReMarkable · koreader/koreader Wiki]] :remarkable:
 :PROPERTIES:
 :ID:       sgthbcmkrdrkrdrwknstlltnnlnstlltnnrmrkblkrdrkrdrwk
 :END:
-
 * TODO [#C] [2021-02-20] [[https://rgoswami.me/posts/my-life-in-eink/][My Life in E-ink :: Rohit Goswami — Reflections]] :kobo:
 :PROPERTIES:
 :ID:       srgswmmpstsmylfnnkmylfnnkrhtgswmrflctns
@@ -902,7 +879,6 @@ launchd frontend?
 :PROPERTIES:
 :ID:       sgthbcmtfldmnnrgnztfldmnnrgnzthflmngmnttmtntl
 :END:
-
 * [#C] [2021-04-14] ugh fuck                               :nix:infra:docker:
 :PROPERTIES:
 :ID:       ghfck

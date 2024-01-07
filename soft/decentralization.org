@@ -140,6 +140,7 @@ ok, interesting, but that's again kind of reinventing new standard?
 :PROPERTIES:
 :ID:       sndwbfymvldthntryrlsffbpbpxyzfnnttnghtml
 :END:
+
 <article class="h-entry">
   <div class="e-content p-name">Hello world! This is my first indieweb post.</div>
 
@@ -256,12 +257,10 @@ some 'decentralised github' projects
 :PROPERTIES:
 :ID:       smtrxrgblgntrdcngppmtrxntrdcngppmtrxmtrxrg
 :END:
-
 * [#D] [2020-05-28] [[https://github.com/zulip/zulip-archive][zulip/zulip-archive: A tool for archiving and displaying Zulip chat channels.]] :zulip:
 :PROPERTIES:
 :ID:       sgthbcmzlpzlprchvzlpzlprchvngnddsplyngzlpchtchnnls
 :END:
-
 * [#D] [2020-05-26] [[https://forum.syncthing.net/t/is-it-possible-to-make-syncthing-implement-based-on-ipfs/12841/10][Is it possible to make Syncthing implement based on IPFS? - Feature - Syncthing Community Forum]] :ipfs:
 :PROPERTIES:
 :ID:       sfrmsyncthngnttstpssbltmkdnpfsftrsyncthngcmmntyfrm
@@ -288,7 +287,6 @@ https://lobste.rs/s/la8hpt/decentralized_web_primer_dat#c_kxmozz
 :PROPERTIES:
 :ID:       swkppfndtnntslfsvrgndnttyslfsvrgndnttyppfndtn
 :END:
-
 * TODO [#C] [2021-02-05] [[https://satellite.earth/][Satellite]]
 :PROPERTIES:
 :ID:       sstlltrthstllt
@@ -309,12 +307,10 @@ https://lobste.rs/s/la8hpt/decentralized_web_primer_dat#c_kxmozz
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdgglrmvdclsxtnsnfrmchrmwbstrhckrnws
 :END:
-
 * TODO [#B] [2021-03-26] [[https://news.ycombinator.com/item?id=25481465][Setting up your own Nextcloud instance to get off of Google | Hacker News]] :infra:degoogle:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdsttngpyrwtcldnstnctgtfffgglhckrnws
 :END:
-
 * STRT [#B] [2021-03-06] [[https://0data.app/][Zero Data App]]  : solid/fission/remotestorage
 :PROPERTIES:
 :ID:       sdtppzrdtppsldfssnrmtstrg

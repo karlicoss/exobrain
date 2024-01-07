@@ -136,7 +136,6 @@ https://emacsconf.org/2019/cfp
 :PROPERTIES:
 :ID:       srddtcmrmcscmmntsdjfhtmcscnfschdlmcscnfschdlrmcs
 :END:
-
 * TODO [#C] ein is adding some metadata?? wtf?                      :ipython:
 :PROPERTIES:
 :CREATED:  [2019-04-13]
@@ -209,7 +208,6 @@ but multiple dirs aren't working. spent 20 minutes trying to figure out how it's
 :CREATED:  [2020-02-06]
 :ID:       sgthbcmlphpplnkhntl
 :END:
-
 * TODO [#D] .emacs.d/local? not sure if need it under git          :dotfiles:
 :PROPERTIES:
 :CREATED:  [2020-03-05]
@@ -250,7 +248,6 @@ https://lobste.rs/s/754vk6/whats_your_emacs_setup_like
 :CREATED:  [2019-11-15]
 :ID:       stppynbmdnmcsdsplylcls
 :END:
-
 * STRT [#C] implement search in filenames?                              :pkm:
 :PROPERTIES:
 :CREATED:  [2019-11-24]
@@ -424,6 +421,7 @@ https://www.reddit.com/r/emacs/comments/7f62pn/tramp_hang_after_sending_password
 :PROPERTIES:
 :ID:       spcmcsbc
 :END:
+
 https://www.youtube.com/watch?v=ZFV5EqpZ6_s
 undo-tree-visualize: SPC a u
 dired: SPC a d
@@ -549,6 +547,7 @@ https://lobste.rs/s/754vk6/whats_your_emacs_setup_like
 :PROPERTIES:
 :ID:       nrndrjhldgrmdnmcsmjrmdfrhldgr
 :END:
+
 https://github.com/narendraj9/hledger-mode
 
 * TODO [#D] email?
@@ -604,19 +603,16 @@ https://www.reddit.com/r/emacs/comments/eewwyh/officially_introducing_memacs/
 :CREATED:  [2018-06-17]
 :ID:       9806ec32-300b-4107-ba02-e38319267781
 :END:
-
 ** CANCEL [SPC e l] error list
 :PROPERTIES:
 :ID:       164844d3-f87d-46f1-8846-18922b306e6a
 :CREATED:  [2018-01-15]
 :END:
-
 ** TODO it's fine to use C-c and C-v in insert mode                   :habit:
 :PROPERTIES:
 :ID:       fc531b85-5ee2-4f95-8a01-3008ccbf0e24
 :CREATED:  [2018-02-01]
 :END:
-
 ** TODO {>aR} demote subtree                                      :habit:org:
 :PROPERTIES:
 :CREATED:  [2018-04-28]
@@ -629,24 +625,20 @@ https://github.com/Somelauw/evil-org-mode
 :PROPERTIES:
 :ID:       22fa4186-1cba-4067-beb9-98e2f5e9aeae
 :END:
-
 ** TODO selecting class: {v close sqbracket open sqbracket}           :habit:
 :PROPERTIES:
 :CREATED:  [2018-05-02]
 :ID:       882f894b-cfcd-48ae-91ee-8673e651a124
 :END:
-
 ** use eshell more                                                    :habit:
 :PROPERTIES:
 :ID:       e7764484-f5ab-41cd-b4eb-d8105ef2a14d
 :END:
-
 ** TODO use SPC S c and SPC s i to search code and info               :habit:
 :PROPERTIES:
 :CREATED:  [2018-06-02]
 :ID:       7fafd171-d225-4bd2-920a-9a27cb478e8a
 :END:
-
 ** TODO Use magit more, many people claim its superior to cli     :habit:git:
 :PROPERTIES:
 :CREATED:  [2018-06-06]
@@ -660,19 +652,16 @@ https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bsource-control/git#q
 :CREATED:  [2018-06-10]
 :ID:       c64342a9-3490-4f39-ad53-c9e09a31ddc3
 :END:
-
 ** CANCEL use SPC p P                                                 :habit:
 :PROPERTIES:
 :CREATED:  [2018-06-08]
 :ID:       a648ed92-1d34-4997-b090-6e0d02808162
 :END:
-
 ** CANCEL Use prj: to link to file in the same project                :habit:
 :PROPERTIES:
 :CREATED:  [2018-05-01]
 :ID:       1ebc01f8-bdc8-4b56-8d49-7e7f954c4e81
 :END:
-
 ** CNCL Use tramp                                                  :oldhabit:
 :PROPERTIES:
 :CREATED:  [2018-06-10]
@@ -695,7 +684,6 @@ ssh:target:/...
 :CREATED:  [2018-08-13]
 :ID:       ba80a0c7-3a7b-415c-9592-567d13fc7d24
 :END:
-
 ** TODO use # and T                                                   :habit:
 :PROPERTIES:
 :CREATED:  [2018-08-13]
@@ -708,19 +696,16 @@ hash is the opposite of *?
 :CREATED:  [2018-06-11]
 :ID:       0b2eb28d-04d8-4d76-b83d-b9a7edb2ebdb
 :END:
-
 ** TODO J for joining lines                                       :vim:habit:
 :PROPERTIES:
 :CREATED:  [2018-04-23]
 :ID:       4eaa7b98-810f-4674-971a-e71168d53d6f
 :END:
-
 ** TODO use {SPC x o} (link hint open link)                           :habit:
 :PROPERTIES:
 :CREATED:  [2018-07-23]
 :ID:       51178591-5de8-48ca-923a-fce0ce82aa6f
 :END:
-
 ** TODO use SPC A for agenda                                          :habit:
 :PROPERTIES:
 :CREATED:  [2018-07-23]
@@ -734,7 +719,6 @@ maybe swap a and A? note sure
 :CREATED:  [2018-06-28]
 :ID:       47371359-dd3b-42c1-8dfe-0ce7d3108e6a
 :END:
-
 ** TODO chmod +x for a file: SPC f j for dired jump, then M           :habit:
 :PROPERTIES:
 :CREATED:  [2018-06-19]
@@ -824,6 +808,7 @@ https://karl-voit.at/2017/06/03/emacs-history/
 :PROPERTIES:
 :ID:       sdrwbcksmtmssmtrplthrswhnrmlcmptrsrswhchsptynmypnn
 :END:
+
 huh, very similar experience
 
 * TODO [#B] [2020-12-09] [[https://lobste.rs/s/cocdgn/favorite_emacs_packages][Favorite Emacs Packages | Lobsters]]
@@ -861,6 +846,7 @@ https://github.com/Wilfred/helpful
 :PROPERTIES:
 :ID:       vctypngnmcstlk
 :END:
+
 Main point I guess is using refactorings and modifiers (e.g. camel before saying car name)
 Optimizing the most common ops first
 
@@ -949,7 +935,6 @@ https://github.com/alphapapa/emacs-package-dev-handbook
 :PROPERTIES:
 :ID:       srrlrgblgplvrgngmcsntrspctnrrl
 :END:
-
 * [#C] [2020-10-28] [[https://github.com/emacs-helm/helm/commit/c11779cd11a1f62cd160ea9507641f8cc1a9d321][Add support for fd shell command · emacs-helm/helm@c11779c]]
 :PROPERTIES:
 :ID:       sgthbcmmcshlmhlmcmmtccdfctfrfdshllcmmndmcshlmhlmcc
@@ -982,22 +967,18 @@ https://github.com/alphapapa/emacs-package-dev-handbook
 :PROPERTIES:
 :ID:       dmdcnfgltmstrnmrtndmdsgthbcmnmrtndmdblbmstrcnfgl
 :END:
-
 * [#D] [2020-02-22] nmartin84/.doom.d: This is my private DOOM emacs configuration. https://github.com/nmartin84/.doom.d
 :PROPERTIES:
 :ID:       nmrtndmdthssmyprvtdmmcscnfgrtnsgthbcmnmrtndmd
 :END:
-
 * TODO [#D] [2020-01-03] Exploring large projects with Projectile and Helm Projectile https://tuhdo.github.io/helm-projectile.html
 :PROPERTIES:
 :ID:       xplrnglrgprjctswthprjctlnjctlsthdgthbhlmprjctlhtml
 :END:
-
 * [#D] [2020-02-22] Why is doom emacs so fast? · Issue #310 · hlissner/doom-emacs https://github.com/hlissner/doom-emacs/issues/310
 :PROPERTIES:
 :ID:       whysdmmcssfstsshlssnrdmmcssgthbcmhlssnrdmmcssss
 :END:
-
 * [#D] [2020-02-21] doom-emacs/getting_started.org at develop · hlissner/doom-emacs https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org
 :PROPERTIES:
 :ID:       dmmcsgttngstrtdrgtdvlphlsmcsblbdvlpdcsgttngstrtdrg

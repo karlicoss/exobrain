@@ -44,7 +44,6 @@ see gwern blog
 :PROPERTIES:
 :ID:       nrrm
 :END:
-
 * tracking: #location
 :PROPERTIES:
 :ID:       trcknglctn
@@ -94,7 +93,6 @@ apparently, not very precise, fluctuates a lot depending on water intake
 :PROPERTIES:
 :ID:       ddscrnshts
 :END:
-
 * tracking: computer/phone usage
 :PROPERTIES:
 :ID:       trckngcmptrphnsg
@@ -111,7 +109,6 @@ apparently, not very precise, fluctuates a lot depending on water intake
 :PROPERTIES:
 :ID:       xtrctngctvtydtgslp
 :END:
-
 ** CANCEL [#D] http://www.qualitytimeapp.com/
 :PROPERTIES:
 :ID:       wwwqltytmppcm
@@ -229,23 +226,19 @@ A bit insane (or is it?). But worth going through the biomarkers tests, etc, mig
 :PROPERTIES:
 :ID:       ndxhmnmcrbmsldrddtcmrhmnmcrbmwkndxwktstng
 :END:
-
 * TODO [#D] [2019-06-13] Quantified Health Prize results announced - LessWrong 2.0 https://www.lesswrong.com/posts/yMKfih99nSqRyphkD/quantified-health-prize-results-announced
 :PROPERTIES:
 :ID:       qntfdhlthprzrsltsnnncdlsshkdqntfdhlthprzrsltsnnncd
 :END:
-
 * [2021-01-03] [[https://github.com/Essux/Quantified-Self-Reports][Essux/Quantified-Self-Reports]]
 :PROPERTIES:
 :ID:       sgthbcmssxqntfdslfrprtsssxqntfdslfrprts
 :END:
-
 * TODO [#B] questions i want answered: can i have a smart alarm that actually works? Like, detects hrv or sleep phase or something and wakes me up? :qs:sleep:
 :PROPERTIES:
 :CREATED:  [2021-02-08]
 :ID:       qstnswntnswrdcnhvsmrtlrmtshrvrslpphsrsmthngndwksmp
 :END:
-
 * [2021-02-06] [[https://en.wikipedia.org/wiki/Cooper_test][Cooper test - Wikipedia]] :qs:vo2:
 :PROPERTIES:
 :ID:       snwkpdrgwkcprtstcprtstwkpd
@@ -270,7 +263,6 @@ Generally correlate time before asleep?
 :CREATED:  [2020-10-27]
 :ID:       htplthrtspcfchrsnrs
 :END:
-
 * TODO [#C] [2021-02-06] [[https://forum.quantifiedself.com/t/new-oura-vs-emfit-qs/4899][New Oura vs Emfit QS? - Quantified Self Forum]] :emfit:sleep:oura:
 :PROPERTIES:
 :ID:       sfrmqntfdslfcmtnwrvsmftqsnwrvsmftqsqntfdslffrm

@@ -5,7 +5,6 @@
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * [#A] * why?
 :PROPERTIES:
 :ID:       why
@@ -28,7 +27,6 @@
 :PROPERTIES:
 :ID:       jstbckpvrythngycnfndnprmns
 :END:
-
 * [#B] * archivebox                                              :archivebox:
 :PROPERTIES:
 :ID:       rchvbx
@@ -88,7 +86,6 @@ Ok, and second run the next day said it's already added all of them to index. Ni
 :PROPERTIES:
 :ID:       ndxwbntrfcwldbnctmrkststhtsrwhtsthctnbltcmfthtthgh
 :END:
-
 *** TODO this issue https://github.com/pirate/ArchiveBox/issues/412
 :PROPERTIES:
 :ID:       thssssgthbcmprtrchvbxsss
@@ -158,17 +155,14 @@ would be nice to mark different sources as well if possible?
 :CREATED:  [2018-07-24]
 :ID:       bkmrkrchvrsprtgthbbkmrkrchvr
 :END:
-
 *** DONE maybe just feed promnesia database to it??
 :PROPERTIES:
 :ID:       mybjstfdprmnsdtbstt
 :END:
-
 **** DONE I guess need promnesia  provider. is it like my.links?        :hpi:
 :PROPERTIES:
 :ID:       gssndprmnsprvdrstlkmylnks
 :END:
-
 **** TODO move run script somewhere else; add ability to put output dir somewhere else
 :PROPERTIES:
 :ID:       mvrnscrptsmwhrlsddbltytpttptdrsmwhrls
@@ -195,7 +189,6 @@ I guess filter out all suspicious ones, containing special characters?
 :PROPERTIES:
 :ID:       khswrkngndjngbckndwhrwcnshshssgthbcmprtrchvbxsss
 :END:
-
 ** TODO [#C] I guess some sites (with comments) -- useful to update regularly, but most are okay with one snapshot?
 :PROPERTIES:
 :CREATED:  [2020-10-25]
@@ -216,7 +209,6 @@ I guess filter out all suspicious ones, containing special characters?
 :CREATED:  [2019-09-22]
 :ID:       wndrfmyxprtrscldbsflfrrchvbx
 :END:
-
 ** [#D] [2019-04-16] pirate/ArchiveBox: 🗃 The open source self-hosted web archive. Takes browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...
 :PROPERTIES:
 :ID:       prtrchvbxthpnsrcslfhstdwbnbrdtcsvshtmljspdfsmdndmr
@@ -268,7 +260,6 @@ https://github.com/kanishka-linux/reminiscence
 :PROPERTIES:
 :ID:       wndrhwstdffrntfrmmybkmrkrchvr
 :END:
-
 * TODO [#C] https://github.com/webrecorder/webrecorder           :webarchive:
 :PROPERTIES:
 :CREATED:  [2020-05-04]
@@ -310,7 +301,6 @@ https://twitter.com/worrydream/status/478087637031325697
 :PROPERTIES:
 :ID:       tmtrvlfndmmntsnntrntrchvrgthbndmnymrtmtrvlmmntwbrg
 :END:
-
 * DONE [#A] [2019-12-22] [[https://news.ycombinator.com/item?id=21840140][This Page is Designed to Last]] :linkrot:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdthspgsdsgndtlst
@@ -320,7 +310,6 @@ https://jeffhuang.com/designed_to_last/
 :PROPERTIES:
 :ID:       fndndmndwbrchvngfnnttdpgsfndndmndwbrchvngfnnttdpgs
 :END:
-
 * [#D] [2020-03-06] Archiving URLs | Hacker News https://news.ycombinator.com/item?id=6504331
 :PROPERTIES:
 :ID:       rchvngrlshckrnwssnwsycmbntrcmtmd
@@ -344,7 +333,6 @@ https://jeffhuang.com/designed_to_last/
 :PROPERTIES:
 :ID:       swkkwxrgwkmnpgmnpgkwx
 :END:
-
 * [#C] [2021-02-25] [[https://www.reddit.com/r/DataHoarder/comments/khjv59/the_full_english_wikipedia_on_kiwix_now_weighs/ggm8ijt/][jeharu comments on The full English Wikipedia on Kiwix now weighs 79Gb instead of 94Gb thanks to improvements in image compression]] :kiwix:prepping:
 :PROPERTIES:
 :ID:       swwwrddtcmrdthrdrcmmntskhbthnkstmprvmntsnmgcmprssn

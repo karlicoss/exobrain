@@ -117,6 +117,7 @@ TODO non-degeneracy?
 :PROPERTIES:
 :ID:       tpcsnrprsnttnthryhmltnnmchncsndsymplctcgmtry
 :END:
+
  good point on first page: a more obvious set of equations is gradient flow:
 dp_i/dt = -df/dp_i
 dq_i/dt = -df/dq_i
@@ -235,7 +236,6 @@ https://mathoverflow.net/a/16462/29889
 :PROPERTIES:
 :ID:       blvthsgnfcncfrphyscsblsdwnphsspchmltnnntflwvctrfld
 :END:
-
 ** TODO mmm...
 :PROPERTIES:
 :ID:       mmm
@@ -311,12 +311,10 @@ canonical poincare 1-form Theta = \Sum_i p_i dq^i, which satisfies a^* Theta = a
 :PROPERTIES:
 :ID:       smgrphclnttnbtcvctrswwwphyscsnsghtsrgpbpnfrmshtml
 :END:
-
 * TODO [2018-11-10]  digression: [Goldberg] A Little Tase of Symplectic Geometry.pdf -- very cool!!!
 :PROPERTIES:
 :ID:       dgrssngldbrglttltsfsymplctcgmtrypdfvrycl
 :END:
-
 * TODO something interesting about basis of tangent vectors?... https://math.stackexchange.com/a/454663/15108 v \in T_p M = v^i \delta_i?
 :PROPERTIES:
 :ID:       smthngntrstngbtbssftngntvssmthstckxchngcmvntpmvdlt
@@ -433,7 +431,6 @@ sad...
 *** Гамильтоново векторное поле также порождает специальную операцию — скобка Пуассона. Скобка Пуассона действует на функции на симплектическом многообразии, таким образом придавая пространству функций на многообразии структуру алгебры Ли.
 :PROPERTIES:
 :END:
-
 ** phase: from any point on phase space, evolution is unique. it's kinda like initial data for a differential equation
 :PROPERTIES:
 :ID:       phsfrmnypntnphsspcvltnsnqtskndlkntldtfrdffrntlqtn
@@ -452,7 +449,6 @@ sad...
 :PROPERTIES:
 :ID:       nwfgrtwhysthtntrstngll
 :END:
-
 * [2018-11-10] intuition - What is a symplectic form intuitively? - MathOverflow
 :PROPERTIES:
 :ID:       nttnwhtssymplctcfrmnttvlymthvrflw
@@ -539,6 +535,7 @@ https://www.reddit.com/r/explainlikeimfive/comments/47lwch/eli5_what_is_symplect
 :PROPERTIES:
 :ID:       pssnbrcktsxplnd
 :END:
+
 https://www.quora.com/What-is-an-intuitive-way-of-explaining-the-Poisson-bracket
 {fg, h} = f {g, h} + g {f, h}
 looks like leibnitz rule!
@@ -562,10 +559,10 @@ Thus, the time evolution of a function f on a symplectic manifold can be given a
 :PROPERTIES:
 :ID:       ndtddthstdrll
 :END:
-
 * [2018-11-15]
 :PROPERTIES:
 :END:
+
 phase space: R^3 x R^3 -- it's a base space for manifold
 Hamiltonaian is defined on manifold, not on its tangent bundle!
 
@@ -624,6 +621,7 @@ to compute individual jump probabilities: use propagators solutions for free ele
 :PROPERTIES:
 :ID:       symplctcgmtrylrnnythng
 :END:
+
 https://learn-anything.xyz
 
 * [#C] [2019-06-18] Energy drift - Wikipedia                     :symplectic:

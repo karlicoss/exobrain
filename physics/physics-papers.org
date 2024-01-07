@@ -6,7 +6,6 @@
 :PROPERTIES:
 :ID:       dtchqntmthrysnvrslphysclthrypdf
 :END:
-
 ** 
 :PROPERTIES:
 :END:
@@ -22,12 +21,14 @@
 :PROPERTIES:
 :ID:       pgknmtcllyndpndntsbsystms
 :END:
+
 sufficient condition is that the Hamiltonian H is a sum of H_1 + H_2, confined to the subsystems
 
 *** weaker condition, 'dynamical independence' , necessary and sufficient to ensure that a kinematically independent state remains so:
 :PROPERTIES:
 :ID:       wkrcndtndynmclndpndncncsshtknmtcllyndpndntsttrmnss
 :END:
+
 (H - (H1 + H2)) psi = 0 for some H1 and H2
 errr ????? wtf H1 and H2 are confined to subsystems?
 Stated in words, kinematically independent subsystems are also dynamically independent if the state is an eigenstate of the Hamiltonian modulo terms confined to the subsystems.
@@ -36,6 +37,7 @@ Stated in words, kinematically independent subsystems are also dynamically indep
 :PROPERTIES:
 :ID:       ssttscnstntndnlychngddrngmsrmntscllpsntrprttn
 :END:
+
     One widespread solution to this problem involves a fundamental change
     in the quantum formalism presented in Section 2. The idea is that the state
     10), which according to the formalism of Section 2 never changes, is in fact
@@ -53,6 +55,7 @@ no complete formulation has been achieved; difficult to find a criterion for spe
 :PROPERTIES:
 :ID:       btmwsntwthttswnprblmsnmlyprfrdbssndthprblmfprbblty
 :END:
+
 read that http://plato.stanford.edu/entries/qm-manyworlds/ 
 
 ** Everet formalism
@@ -63,6 +66,7 @@ read that http://plato.stanford.edu/entries/qm-manyworlds/
 :PROPERTIES:
 :ID:       x
 :END:
+
 Instead, he proposes that the system and
 apparatus observables are in general multivalued, possessing all the eigen-
 values whose eigenstates appear in the representation (27). 
@@ -71,6 +75,7 @@ values whose eigenstates appear in the representation (27).
 :PROPERTIES:
 :ID:       x
 :END:
+
 It gives a picture of a world (i.e., everything that exists) consisting of many
 coexisting universes (i.e., maximal sets observables with values) evolving
 approximately independently on large scales, but in intimate interaction,

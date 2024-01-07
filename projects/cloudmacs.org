@@ -7,7 +7,6 @@ Emacs in the cloud https://beepb00p.xyz/cloudmacs.html
 :PROPERTIES:
 :ID:       rghtgssjststrtwthfwscrnshtsdllyndprprdmplygrnd
 :END:
-
 * TODO [#B] mmm. might be abandoned? https://github.com/yudai/gotty/issues/258
 :PROPERTIES:
 :CREATED:  [2019-09-13]
@@ -74,7 +73,6 @@ compose file doesn't declare services https://github.com/hyeonsangjeon/gotty-doc
 :PROPERTIES:
 :ID:       ddgdncstmznggsggsttbldthrwndckrmgwthclndspcmcs
 :END:
-
 * CNCL [#C] demonstrate org-drill on one of my files?
 :PROPERTIES:
 :CREATED:  [2019-09-09]
@@ -84,7 +82,6 @@ compose file doesn't declare services https://github.com/hyeonsangjeon/gotty-doc
 :PROPERTIES:
 :ID:       shtsmstbccpdbynxndrsmthng
 :END:
-
 * DONE dockerized over http
 :PROPERTIES:
 :CREATED:  [2019-09-06]

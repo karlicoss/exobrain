@@ -30,7 +30,6 @@ Main project page: https://github.com/karlicoss/orgparse
 :CREATED:  [2019-04-02]
 :ID:       tstntmwthdplctdprprtshdrs
 :END:
-
 * TODO [#C] use _timestamps for extracting creation date from the header??
 :PROPERTIES:
 :CREATED:  [2020-11-01]
@@ -45,7 +44,6 @@ Main project page: https://github.com/karlicoss/orgparse
 :CREATED:  [2019-07-21]
 :ID:       mplmntsmplcmdlnntrfcndrndrngthgh
 :END:
-
 * [#C] * porg                                                          :porg:
 :PROPERTIES:
 :ID:       prg
@@ -60,7 +58,6 @@ Turned out to be not as useful as I thought it would be.
 :CREATED:  [2020-09-01]
 :ID:       mybtblngstrgprsxprmntlrsmthng
 :END:
-
 ** WAIT [#D] eh, maybe get rid of hiccup. too complicated
 :PROPERTIES:
 :CREATED:  [2020-09-01]

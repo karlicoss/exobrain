@@ -7,7 +7,6 @@ My long outstanding post on some experiments with Lagrangians: [[https://beepb00
 :PROPERTIES:
 :ID:       rltd
 :END:
-
 * [#A] * why
 :PROPERTIES:
 :ID:       why
@@ -17,7 +16,6 @@ My long outstanding post on some experiments with Lagrangians: [[https://beepb00
 :CREATED:  [2019-07-14]
 :ID:       wrtmtvtnfrtryngtndrstndndcrbfndmntlphyscsgsldstttc
 :END:
-
 ** TODO [#C] Motivation for investigating the shape
 :PROPERTIES:
 :CREATED:  [2019-10-25]
@@ -53,31 +51,26 @@ e.g. exploring Lagrangia??
 :CREATED:  [2019-01-28]
 :ID:       lgrngnd
 :END:
-
 ** DONE [#B] name the post "they see me flowin' they hatin'"  and add short summary below
 :PROPERTIES:
 :CREATED:  [2019-01-17]
 :ID:       nmthpstthysmflwnthyhtnndddshrtsmmryblw
 :END:
-
 ** TODO [#C] plot actual trajectories??
 :PROPERTIES:
 :CREATED:  [2019-01-15]
 :ID:       pltctltrjctrs
 :END:
-
 ** STRT [#C] draw slope field!!!
 :PROPERTIES:
 :CREATED:  [2018-12-28]
 :ID:       drwslpfld
 :END:
-
 ** TODO [#D] Meditate what would be ideal form for my post about Lagrangians (formula is important unlike what Bret Victor says).pinching for phase plots, automatic numerical solving, tooltips, highlighted stuff
 :PROPERTIES:
 :CREATED:  [2019-06-17]
 :ID:       mdttwhtwldbdlfrmfrmypstbtrclslvngtltpshghlghtdstff
 :END:
-
 * [#C] * publicity
 :PROPERTIES:
 :ID:       pblcty
@@ -92,7 +85,6 @@ post very short intro into lagrangians?
 * -------------------------------
 :PROPERTIES:
 :END:
-
 * [#C] [2018-11-29] hmm I understood quite a few things while writing that post about lagrangian :writing:study:
 :PROPERTIES:
 :ID:       hmmndrstdqtfwthngswhlwrtngthtpstbtlgrngn
@@ -111,7 +103,6 @@ post very short intro into lagrangians?
 :CREATED:  [2019-06-21]
 :ID:       shtlgndrtrnsfrmsntnq
 :END:
-
 * TODO [#C] [2018-12-03] Calculus of variations - Wikipedia https://en.wikipedia.org/wiki/Calculus_of_variations#Lavrentiev_phenomenon :viz:
 :PROPERTIES:
 :ID:       clclsfvrtnswkpdsnwkpdrgwkclclsfvrtnslvrntvphnmnn

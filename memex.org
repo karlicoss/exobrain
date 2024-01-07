@@ -24,7 +24,6 @@ I write more on why would you want it in [[https://beepb00p.xyz/sad-infra.html#w
 :PROPERTIES:
 :ID:       mmxcngvyqntfdslfnsghts
 :END:
-
 * [#A] * my current progress
 :PROPERTIES:
 :ID:       mycrrntprgrss
@@ -59,7 +58,6 @@ Reflects my data for easier search, providing a plaintext interface.
 :PROPERTIES:
 :ID:       flprjctstmlnrgtmln
 :END:
-
 * [#A] * prior art & inspiration
 :PROPERTIES:
 :ID:       prrrtnsprtn
@@ -74,7 +72,6 @@ he mentions the same problems I struggled with literally in the same words!
 :PROPERTIES:
 :ID:       smmrcldmmrvryprmsngprjctwththfcsnsrdtwnrshpndprvcy
 :END:
-
 ** [#C] [2021-01-31] [[https://github.com/NickSto/life-browser][NickSto/life-browser: View a timeline of your own history through your personal data.]] :timeline:memex:
 :PROPERTIES:
 :ID:       sgthbcmnckstlfbrwsrnckstlnfyrwnhstrythrghyrprsnldt
@@ -249,7 +246,6 @@ timeline -- similarly for all life events
 * ----------------------------
 :PROPERTIES:
 :END:
-
 * TODO [#D] Tweet from @mekarpeles                                    :memex:
 :PROPERTIES:
 :CREATED:  [2020-06-12]

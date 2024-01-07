@@ -9,7 +9,6 @@
 :PROPERTIES:
 :ID:       cmpdfthngpssprblmfrcmptrscntsts
 :END:
-
 * http://math.ucr.edu/home/baez/spacetime_from_spin/
 :PROPERTIES:
 :ID:       mthcrdhmbzspctmfrmspn
@@ -21,7 +20,6 @@ pdf downloaded
 :PROPERTIES:
 :ID:       vryclndnsghtflsmnrntsthctcldgrmsbtmthcrdhmbzqghtml
 :END:
-
 * http://math.ucr.edu/home/baez/nth_quantization.html
 :PROPERTIES:
 :ID:       mthcrdhmbznthqntztnhtml
@@ -31,7 +29,6 @@ pdf downloaded
 :CREATED:  [2018-08-09]
 :ID:       lpqntmgrvty
 :END:
-
 ** [2018-10-30]  https://github.com/joeydumont/wignerSymbols
 :PROPERTIES:
 :ID:       sgthbcmjydmntwgnrsymbls
@@ -62,7 +59,6 @@ https://www.youtube.com/watch?v=lF6GqQ5QrJE
 :PROPERTIES:
 :ID:       thnkbtlpqntmgrvtyndfstrsmltnsbz
 :END:
-
 * related                                                   :gravity:quantum:
 :PROPERTIES:
 :ID:       rltd
@@ -71,4 +67,5 @@ https://www.youtube.com/watch?v=lF6GqQ5QrJE
 :PROPERTIES:
 :ID:       thssnntchnclntrdctntrcntwvtysngdsfrmhghrdmnsnllgbr
 :END:
+
 http://www.math.ucr.edu/home/baez/planck/planck.html

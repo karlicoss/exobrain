@@ -36,7 +36,6 @@ cuts as barriers one cannot cross.
 :PROPERTIES:
 :ID:       hyprblcwllpsdvpgwvqtn
 :END:
-
 * intuition about harmonic function https://math.stackexchange.com/questions/751293/intuitive-significance-of-harmonicity/751459 :physics:
 :PROPERTIES:
 :ID:       nttnbthrmncfnctnsmthstckxmqstnsnttvsgnfcncfhrmncty
@@ -62,6 +61,7 @@ that's the difference from adiition where (a, b) + (c, d) would be (a + c, b + d
 :PROPERTIES:
 :ID:       cntntynttn
 :END:
+
 Consider the statement "a continuous function preserves closeness". That means if f ( x ) f(x) and f ( y ) f(y) are close to each other then x x and y y were close to each other originally.
 
 In analysis, a function is continuous if you can make the image in the codomain as small as you like, by choosing a small enough part of the domain.
@@ -80,12 +80,14 @@ Instead, in metric spaces, I think of a function as continuous if it preserves l
 :PROPERTIES:
 :ID:       tplgysstfrlrssmthvrflwnt
 :END:
+
 This analogy is a backport from computer science back to geometry, and a bit was lost in the translation. In CS, for open, read "verifiable", and for closed, read "non-verifiable". Termination of blackbox programs is a verifiable property: if someone gives you a program and tells you it halts, then if they're telling the truth, if you wait you'll eventually see the machine stop and know they told you the truth. Nontermination is non-verifiable: no matter how long we wait, we can never be sure that the program won't halt soon, and so we can't verify we were told the truth. –
 
 ** https://mathoverflow.net/a/19173
 :PROPERTIES:
 :ID:       smthvrflwnt
 :END:
+
 mm. ok, function is continuous at p iff p in cl(A) means f(p) in cl(f(A)). okay that does make way more sense
 *** [2018-10-15]  https://en.wikipedia.org/wiki/Kuratowski_closure_axioms
 :PROPERTIES:
@@ -183,6 +185,7 @@ The extended real line is compact: any sequencexnof extended real numbers willha
 :PROPERTIES:
 :ID:       dntgrtngfctryftygt
 :END:
+
 - multiply both parts by e^{\int f(t) dt}
 - after that, we have
   (y exp(\int f(t) dt)' = g(x) exp(\int f(t) dt)
@@ -232,7 +235,6 @@ https://xenaproject.wordpress.com/2019/12/07/prove-a-theorem-write-a-function/
 :PROPERTIES:
 :ID:       csznthlmrphcnywhrxcptz
 :END:
-
 * [2014-07-01] types of equality                                 :typetheory:
 :PROPERTIES:
 :ID:       typsfqlty
@@ -252,6 +254,7 @@ The point: infinite sum of positive numbers in not always unbounded.
 :PROPERTIES:
 :ID:       znsprdxchllsndtrts
 :END:
+
 The point: infinite sum of positive numbers in not always unbounded.
 
 * [#C] [2016-10-24] Galileo's Paradox:
@@ -317,6 +320,7 @@ Implicit: G(Y(t + dt), Y(t)) = 0
 :PROPERTIES:
 :ID:       sfnctnldrvtvgnrlzdfnctnmthmtcsstckxchng
 :END:
+
 https://math.stackexchange.com/questions/908499/is-a-functional-derivative-a-generalized-function
 
 ** [2018-12-09] so, generally functional derivative is a (functional?) distribution: <dF[f]/df, v> = lim (F(f + eps v) - F(f)) / eps. However if a functional is 'good' enough, it can be represented as normal functional (as an integral).
@@ -403,6 +407,7 @@ from [[https://www.instapaper.com/read/1279727070/12330512][ip]]   [[https://xen
 :PROPERTIES:
 :ID:       gnvls
 :END:
+
 Algebraic multiplicity: multiplicity as a root of the characteristic polynomial.
 In case of the field of complex numbers, the sum of algebraic mult. is exactly n.
 
@@ -415,6 +420,7 @@ Jordan cell corresponds to each subspace
 :PROPERTIES:
 :ID:       smfnctnlnlyssnts
 :END:
+
 L^\infty space
 A sequence of bumps of height 1 functions:
 
@@ -488,6 +494,7 @@ difference between svd and eigendecomposition
 :PROPERTIES:
 :ID:       bysnndfrqntstrsnngnplnnglshcrssvldtd
 :END:
+
 https://stats.stackexchange.com/questions/22/bayesian-and-frequentist-reasoning-in-plain-english#comment3052_56
 
 * TODO [#C] https://jakevdp.github.io/blog/2014/06/12/frequentism-and-bayesianism-3-confidence-credibility/ :bayes:
@@ -495,7 +502,6 @@ https://stats.stackexchange.com/questions/22/bayesian-and-frequentist-reasoning-
 :CREATED:  [2018-07-21]
 :ID:       sjkvdpgthbblgfrqntsmndbysnsmcnfdnccrdblty
 :END:
-
 * [#C] http://www.behind-the-enemy-lines.com/2008/01/are-you-bayesian-or-frequentist-or.html :bayes:
 :PROPERTIES:
 :CREATED:  [2018-07-21]
@@ -516,6 +522,7 @@ takeaway: bayes os more natural for communicating scientific results to public: 
 ** 13:00
 :PROPERTIES:
 :END:
+
 https://en.wikipedia.org/wiki/Nuisance_parameter
 nuiscance parameter -- integrated over in bayessian method? https://en.wikipedia.org/wiki/Marginal_likelihood#Bayesian_model_comparison
 
@@ -523,12 +530,14 @@ nuiscance parameter -- integrated over in bayessian method? https://en.wikipedia
 :PROPERTIES:
 :ID:       cndtnngvsmrgnlztn
 :END:
+
 frequentist taking a slice, bayessian is integrating over (see the pictures)
 
 ** TODO 17:00 confidence vs credibility
 :PROPERTIES:
 :ID:       cnfdncvscrdblty
 :END:
+
 freq : If this experiment is repeated many times, in 95% xases the computed xonfidence interval will contain the true parameter. confidence interval varying, parameter fixed.
 bayes: Given oyt observed data there is a 95% probability that the value of parameter lies within the credible region.  credible region fixed, parameter varying
 
@@ -545,7 +554,6 @@ https://www.lesswrong.com/posts/mQfNymou9q5riEKrf/frequentist-vs-bayesian-breakd
 :CREATED:  [2018-10-08]
 :ID:       mthcrdhmbzsrprsshtmlsrprssnmth
 :END:
-
 * DONE [#B] [2019-11-11] David Chapman on Twitter: "Excellent explanation of the emotional fallout from the crisis of the foundations of mathematics https://t.co/wxCBgLDizA" / Twitter
 :PROPERTIES:
 :ID:       dvdchpmnntwttrxcllntxplntsfmthmtcsstcwxcbgldztwttr
@@ -556,6 +564,7 @@ https://twitter.com/Meaningness/status/1193683556364513280
 :PROPERTIES:
 :ID:       stwttrcmgbrlpyrsttss
 :END:
+
 : Parabolic PDEs (e.g. heat) smooth out singularities. Hyperbolic PDEs (e.g. wave) displace singularities. 
 
 * [#B] [2018-12-25] some proofs are better than others when you are working with proof assistants. In a sense this principle also applies here: some ways of deriving are easier for sympy to handle :math:
@@ -573,7 +582,6 @@ excellent videos
 :CREATED:  [2019-01-25]
 :ID:       tryspcdrpttnfrbsctplgy
 :END:
-
 * [2019-06-20] existence of solutions for IVP dy/dx = f(y, x); y(x_0) = y_0 :drill:diffeq:
 :PROPERTIES:
 :ID:       9b350f3d-ec10-4fe8-80a9-cf41140871d9
@@ -584,7 +592,6 @@ Note that the theorem only guarantees the existence of solution nearby the initi
 :PROPERTIES:
 :ID:       vrbtrjbhscrrclmlltxtvrbtrjbhscrrclmlltxt
 :END:
-
 * STRT [#D] [2018-10-30] Topoi: The Categorial Analysis of Logic (Dover Books on Mathematics): Amazon.co.uk: Robert Goldblatt: 0800759450268: Books
 :PROPERTIES:
 :ID:       tpthctgrlnlyssflgcdvrbksnthmtcsmznckrbrtgldblttbks
@@ -594,17 +601,14 @@ https://www.amazon.co.uk/Topoi-Categorial-Analysis-Logic-Mathematics/dp/04864502
 :PROPERTIES:
 :ID:       whtsppldctgrythryzmthsjhnrdprsscmwhtsppldctgrythry
 :END:
-
 * [#D] [2019-05-10] Об Байеса - 2 - Не кинокритик. Не палеонтолог. https://plakhov.livejournal.com/227597.html
 :PROPERTIES:
 :ID:       splkhvlvjrnlcmhtml
 :END:
-
 * [#D] [2019-05-04] Sage Manifolds - Wikipedia https://en.wikipedia.org/wiki/Sage_Manifolds
 :PROPERTIES:
 :ID:       sgmnfldswkpdsnwkpdrgwksgmnflds
 :END:
-
 * [#D] [2019-02-22] The Calculus of Variations | Bounded Rationality https://bjlkeng.github.io/posts/the-calculus-of-variations/
 :PROPERTIES:
 :ID:       thclclsfvrtnsbnddrtnltysblknggthbpststhclclsfvrtns
@@ -614,7 +618,6 @@ some good explanations for calculus of variations
 :PROPERTIES:
 :ID:       htthpmpnglmmbskrblgsbskrwrdprsscmhtthpmpnglmm
 :END:
-
 * [#D] [2019-08-27] The Existential Risk of Math Errors - Gwern.net https://www.gwern.net/The-Existential-Risk-of-Mathematical-Error#sn25
 :PROPERTIES:
 :ID:       thxstntlrskfmthrrrsgwrnnttthxstntlrskfmthmtclrrrsn
@@ -647,7 +650,6 @@ some good explanations for calculus of variations
 :PROPERTIES:
 :ID:       rvwfthlnthrmprvrjggrwtsjgwrdprsscmrvwfthlnthrmprvr
 :END:
-
 * [#D] [2019-12-08] 11.3 - Identifying Outliers (Unusual y Values) | STAT 501 https://newonlinecourses.science.psu.edu/stat501/lesson/11/11.3
 :PROPERTIES:
 :ID:       dntfyngtlrsnslyvlssttsnwnlncrssscncpsdsttlssn
@@ -657,7 +659,6 @@ some good explanations for calculus of variations
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdvsnflnrlgbrhckrnws
 :END:
-
 * [#D] [2020-07-31] [[https://store.steampowered.com/app/1256230/Hyperbolica/][Hyperbolica on Steam]] :math:games:
 :PROPERTIES:
 :ID:       sstrstmpwrdcmpphyprblchyprblcnstm

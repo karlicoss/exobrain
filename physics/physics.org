@@ -8,7 +8,6 @@ Note: I'm not a physicist :)
 :PROPERTIES:
 :ID:       mthcrdhmbzbkshtmlbzhwtlrnphyscs
 :END:
-
 * [#B] https://news.ycombinator.com/item?id=24088496 (on 't Hooft's "How to become a good theoretical physicist")
 :PROPERTIES:
 :CREATED:  [2020-08-08]
@@ -79,7 +78,6 @@ https://gravityandlevity.wordpress.com/2015/04/11/how-big-is-an-electron/
 :PROPERTIES:
 :ID:       snwkpdrgwknyqstfrqncynyqstfrqncywkpd
 :END:
-
 * [#C] [2019-05-10] [[https://johncarlosbaez.wordpress.com/2019/02/25/problems-with-the-standard-model-higgs/][Problems with the Standard Model Higgs | Azimuth]] :higgs:
 :PROPERTIES:
 :ID:       sjhncrlsbzwrdprsscmprblmslmswththstndrdmdlhggszmth

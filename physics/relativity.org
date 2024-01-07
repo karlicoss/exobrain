@@ -218,6 +218,7 @@ very good intuitive explanation! Basically, since charges in wire (protons/elect
 :PROPERTIES:
 :ID:       prpndclrvlctyddtnnspclrltlty
 :END:
+
 : A's frame: (1, 0, 0)
 : O's frame: gamma (1, 0, 0.9)
 : B's frame: (gamma^2, 0.9 gamma^2, 0.9 gamma)

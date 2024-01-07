@@ -6,7 +6,6 @@
 :PROPERTIES:
 :ID:       rgymwytdvncdfrmylvlrghtnw
 :END:
-
 * TODO [#C] [2019-02-14] How difficult is it to be able to recognize intervals? (Relative Pitch) : Guitar
 :PROPERTIES:
 :ID:       hwdffcltsttbbltrcgnzntrvlsrltvptchgtr
@@ -19,19 +18,16 @@ https://www.reddit.com/r/Guitar/comments/2w7q5z/how_difficult_is_it_to_be_able_t
 :CREATED:  [2019-01-26]
 :ID:       hhtrdprfctrppndclddstngshysncppldrsnngbtrtnlfrctns
 :END:
-
 * STRT [#C] Practice singing
 :PROPERTIES:
 :CREATED:  [2019-01-29]
 :ID:       prctcsngng
 :END:
-
 * TODO [#C] How to add these synth fuzzy noises to other musical instruments?
 :PROPERTIES:
 :CREATED:  [2019-02-18]
 :ID:       hwtddthssynthfzzynsstthrmsclnstrmnts
 :END:
-
 * TODO [#C] [2019-01-14] Kevin Boone's Web site                        :read:
 :PROPERTIES:
 :ID:       kvnbnswbst
@@ -48,7 +44,6 @@ also need some way to prevent tag inheritance for certain entries? e.g. via a pr
 :PROPERTIES:
 :ID:       slrnngmscbltncmndxhtml
 :END:
-
 ** basic structure: drums + bass + chords + melody                    :drill:
 :PROPERTIES:
 :ID:       410a15c5-681a-4cad-9daf-bf02ff3f4bce
@@ -65,6 +60,7 @@ This is an example of minimal techno; here the focus is on slow, subtle changes,
 :PROPERTIES:
 :ID:       hrmnzng
 :END:
+
 : But combining (or harmonizing) the melody with some chords helps to fill out the texture. This is an example of a simple chord progression: a series of chords played in a particular order. In many types of music, chord progressions are used to create a sense of tension and release, by moving away from the tonic of the song and then back again.
 : 
 :   1-5-6-4: the most common chord progression
@@ -100,6 +96,7 @@ all powers of sqrt 2 are withing 1% error to sufficiently small rational numbers
 :PROPERTIES:
 :ID:       cnscncmkbttrmscthryththnhnblg
 :END:
+
 http://www.ethanhein.com/wp/2013/can-science-make-a-better-music-theory-2/
 why do we love harmonies and chords
 

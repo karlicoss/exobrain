@@ -32,7 +32,6 @@ from Scott Aaronson on Philosophical Progress - Machine Intelligence Research In
 :PROPERTIES:
 :ID:       nmprtntnnvtnfthpcfrmwrkstdctnfcmplxtythrycncptstml
 :END:
-
 * [#D] [2019-03-27] Лингвопанк on Twitter: "Фонетическая карта человеческого рта. Для каждого звука дан его источник (для большинства — положение языка) запись IPA и английское слово, где он звучит. https://t.co/7msjnHxPHi https://t.co/wqsiAAvVkU" / Twitter
 :PROPERTIES:
 :ID:       ntwttrpstcmsjnhxphstcwqsvvktwttr
@@ -44,7 +43,6 @@ https://twitter.com/linguopunk_ru/status/1110814030703271936
 :CREATED:  [2018-02-17]
 :ID:       lrnp
 :END:
-
 ** https://www.reddit.com/r/IWantToLearn/comments/2hf8vh/iwtl_the_international_phonetic_alphabet/cks8f1g/
 :PROPERTIES:
 :ID:       swwwrddtcmrwnttlrncmmntshlthntrntnlphntclphbtcksfg
@@ -58,24 +56,20 @@ https://twitter.com/linguopunk_ru/status/1110814030703271936
 :CREATED:  [2018-03-21]
 :ID:       rdslwnnt
 :END:
-
 * [#D] [2019-02-09] topos http://math.ucr.edu/home/baez/topos.html
 :PROPERTIES:
 :ID:       tpsmthcrdhmbztpshtml
 :END:
-
 * TODO [#D] how to implement DNS?
 :PROPERTIES:
 :CREATED:  [2018-04-03]
 :ID:       hwtmplmntdns
 :END:
-
 * TODO [#D] Learn to buy gifts                                       :social:
 :PROPERTIES:
 :CREATED:  [2018-02-03]
 :ID:       lrntbygfts
 :END:
-
 * TODO [#D] reverse eng for beginners https://beginners.re/      :ctf:toread:
 :PROPERTIES:
 :CREATED:  [2018-04-03]

@@ -7,19 +7,16 @@
 :CREATED:  [2019-01-14]
 :ID:       vrvslsplts
 :END:
-
 * TODO [#A] Try to visualise quantum harmonic oscillator        :viz:physics:
 :PROPERTIES:
 :CREATED:  [2019-05-28]
 :ID:       trytvslsqntmhrmncsclltr
 :END:
-
 * TODO [#B] World with negative curvature simulation? Maybe even hyperbolic :viz:math:physics:
 :PROPERTIES:
 :CREATED:  [2019-06-09]
 :ID:       wrldwthngtvcrvtrsmltnmybvnhyprblc
 :END:
-
 * [#C] [2019-02-13] HARFANG® 3D                                      :python:
 :PROPERTIES:
 :ID:       hrfngd
@@ -58,7 +55,6 @@ Kinda binary search!
 :PROPERTIES:
 :ID:       ndthndsmfrcbfrnstnc
 :END:
-
 * TODO [#C] hmm, looks like no quantum physics simulations in VR? I could totally plot something interesting... :quantum:viz:
 :PROPERTIES:
 :CREATED:  [2019-06-18]
@@ -116,7 +112,6 @@ https://twitter.com/visakanv/status/1205001027386138624
 :CREATED:  [2018-06-02]
 :ID:       swbxrwbrplygrnd
 :END:
-
 * [#D] [2019-06-18] Real-Time Facial Tracking in VR : virtualreality
 :PROPERTIES:
 :ID:       rltmfcltrckngnvrvrtlrlty
@@ -128,12 +123,10 @@ https://www.reddit.com/r/virtualreality/comments/bsyaxs/realtime_facial_tracking
 :CREATED:  [2019-06-29]
 :ID:       cnsvrfrdrllsmvslcl
 :END:
-
 * [2019-08-13] [[https://reddit.com/r/virtualreality/comments/cpat34/modeled_in_vr_oculusmedium_quill_rendered_in/][Modeled in VR (oculusmedium, quill), rendered in Unity with a toonshader.]] /r/virtualreality
 :PROPERTIES:
 :ID:       srddtcmrvrtlrltycmmntscptdrdnntywthtnshdrrvrtlrlty
 :END:
-
 * DONE [#B] [2019-06-06] [[https://reddit.com/r/Python/comments/bwlo4g/i_made_an_augmented_reality_real_time_sudoku/][I made an augmented reality real time sudoku solver in Python (source code in comments)]] /r/Python :ar:
 :PROPERTIES:
 :ID:       srddtcmrpythncmmntsbwlgmdrnpythnsrccdncmmntsrpythn
@@ -142,12 +135,14 @@ https://www.reddit.com/r/virtualreality/comments/bsyaxs/realtime_facial_tracking
 :PROPERTIES:
 :ID:       nncldnvrtlrltyytb
 :END:
+
 https://www.youtube.com/watch?v=ztsi0CLxmjw
 
 * TODO [#C] [2019-06-18] What does VR reveal about the 4th dimension? - YouTube :towatch:vr:
 :PROPERTIES:
 :ID:       whtdsvrrvlbtththdmnsnytb
 :END:
+
 https://www.youtube.com/watch?v=S-yRYmdsnGs
 
 * TODO [#C] [2019-06-18] Non-euclidean virtual reality using ray marching - YouTube :towatch:vr:
@@ -161,6 +156,7 @@ ray marching?
 :PROPERTIES:
 :ID:       chrmlbvrphyscssmltnsndbxytb
 :END:
+
 https://www.youtube.com/watch?v=qu8lB3l20wY
 
 * DONE [#B] [2020-10-31] [[https://news.ycombinator.com/item?id=24934722][Show HN: What would mechanical programming look like?]] :vr:
@@ -181,7 +177,6 @@ https://arcan-fe.com/about/
 :PROPERTIES:
 :ID:       ktsntrstngbtntsrwhttsgtfrmnw
 :END:
-
 * [#C] [2020-05-19] [[https://news.ycombinator.com/item?id=23223681][Oculus: Hand Tracking Updates | Hacker News]] :vr:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdclshndtrckngpdtshckrnws
@@ -191,7 +186,6 @@ https://arcan-fe.com/about/
 :PROPERTIES:
 :ID:       syrbtpyrb
 :END:
-
 * TODO [#C] matplotvr for a project name?                            :vr:viz:
 :PROPERTIES:
 :CREATED:  [2020-10-08]
@@ -201,7 +195,6 @@ https://arcan-fe.com/about/
 :PROPERTIES:
 :ID:       nncldnvrtlrltysngrymrchngwytbcmwtchvvhgkhylstwlndx
 :END:
-
 * TODO [#B] I recorded my life with camera glasses for an entire year and made a VR app that lets me explore my memories in a beautiful memory palace! Each sphere is a 10 second memory :) :lifelogging:vr:
 :PROPERTIES:
 :CREATED:  [2021-02-13]

@@ -131,7 +131,6 @@ cgit add / cgit commit / cgit push
 :PROPERTIES:
 :ID:       trygtlfs
 :END:
-
 * TODO something about files which can't be kept in git                 :git:
 :PROPERTIES:
 :ID:       smthngbtflswhchcntbkptngt

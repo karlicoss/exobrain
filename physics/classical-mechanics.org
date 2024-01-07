@@ -12,7 +12,6 @@
 :PROPERTIES:
 :ID:       phsspcvscnfgrtnspc
 :END:
-
 * Lagrangian                                                     :lagrangian:
 :PROPERTIES:
 :ID:       lgrngn
@@ -75,7 +74,6 @@ good points about meaning in the very end
 :PROPERTIES:
 :ID:       sphyscsstckxchngcmqstnslgmdrvtvngnrlcrdntsntsrfsfl
 :END:
-
 ** For every symmetry, there is a conserved quantity
 :PROPERTIES:
 :ID:       frvrysymmtrythrscnsrvdqntty
@@ -211,7 +209,6 @@ fucking hell!! that's so cool
 :PROPERTIES:
 :ID:       sphyscstrvlgdcmdvncdtlslgtmprtrlmtfthlplctrnsfrmtn
 :END:
-
 ** http://blog.jessriedel.com/2017/06/28/legendre-transform/
 :PROPERTIES:
 :ID:       blgjssrdlcmlgndrtrnsfrm
@@ -253,6 +250,7 @@ https://physics.stackexchange.com/questions/89035/whats-the-point-of-hamiltonian
 :PROPERTIES:
 :ID:       clssclmchncsxmplwhrhmltnnttvscnsrvdphyscsstckxchng
 :END:
+
 https://physics.stackexchange.com/questions/194772/example-where-hamiltonian-h-neq-tv-e-but-e-tv-is-conserved
 
 
@@ -285,13 +283,11 @@ nice, demo of second variation, some nontrivial EL equation
 :CREATED:  [2018-11-19]
 :ID:       physcssmfrphsspcrpsphyscssm
 :END:
-
 * TODO [#B] additional term depending on velocity is kinda like time transformation? :tostudy:lagrangian:
 :PROPERTIES:
 :CREATED:  [2018-11-19]
 :ID:       ddtnltrmdpndngnvlctyskndlktmtrnsfrmtn
 :END:
-
 * [#B] [2018-07-28] [[https://physics.stackexchange.com/questions/98714/how-are-symmetries-precisely-defined][How are symmetries precisely defined? - Physics Stack Exchange]]
 :PROPERTIES:
 :ID:       sphyscsstckxchngcmqstnshwprcslydfndphyscsstckxchng
@@ -302,7 +298,6 @@ nice, demo of second variation, some nontrivial EL equation
 :PROPERTIES:
 :ID:       rvwltr
 :END:
-
 * [#C] [2018-11-29] [[https://physics.stackexchange.com/questions/261221/lagrangian-in-a-system-with-a-specific-velocity-dependent-potential#comment596613_261221][homework and exercises - Lagrangian in a system with a specific velocity dependent potential - Physics Stack Exchange]] :lagrangian:
 :PROPERTIES:
 :ID:       sphyscsstckxchngcmqstnslgpndntptntlphyscsstckxchng
@@ -313,7 +308,6 @@ nice, demo of second variation, some nontrivial EL equation
 :PROPERTIES:
 :ID:       ndsrvw
 :END:
-
 * STRT [#B] baez lagrangian mechanics http://math.ucr.edu/home/baez/classical/ :baez:
 :PROPERTIES:
 :ID:       bzlgrngnmchncsmthcrdhmbzclsscl
@@ -339,11 +333,11 @@ gauge symmetries result in conserved quantities... which are just equal to zero
 :PROPERTIES:
 :ID:       pclnlgybtwnrfrctnndrmnnnmtrcngr
 :END:
-
 * STRT [#B] [2018-12-02] Are the Hamiltonian and Lagrangian always convex functions? - Physics Stack Exchange :lagrangian:
 :PROPERTIES:
 :ID:       rthhmltnnndlgrngnlwyscnvxfnctnsphyscsstckxchng
 :END:
+
 https://physics.stackexchange.com/questions/103997/are-the-hamiltonian-and-lagrangian-always-convex-functions
 
 ** [2019-01-16] also good answer, basically explaining that it's not great to impose convexity conditions on only one set of canonical coordinates https://physics.stackexchange.com/a/104279/40624
@@ -408,7 +402,6 @@ stability determined by eigenvalues (complex, sign of real part etc)
 :PROPERTIES:
 :ID:       prttygdmtvtnfrthshpflgrngndxmplswthdffrntkndsfflds
 :END:
-
 * [#C] [2019-02-22] [[https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation][Derivation of one-dimensional Euler–Lagrange equation]]
 :PROPERTIES:
 :ID:       snwkpdrgwklrlgrngqtndrvtnfndmnsnllrlgrngqtn
@@ -428,6 +421,7 @@ from https://www.math.tecnico.ulisboa.pt/~jnatar/MG-03/
 :PROPERTIES:
 :ID:       ctnprncplfrsrfmfspbrmslvlvrszwbchchptrpdf
 :END:
+
 infer ansatz for action from dimensional analysis
 
 S_nonrel = int 1/2 m v^2(t) dt
@@ -467,13 +461,11 @@ guessing electric charge lagrangian..
 :PROPERTIES:
 :ID:       hthyrtlkngbtnvrncbyrprmtrntthnkrllyndrstndwhtthymn
 :END:
-
 * TODO [#C] hmm, to visualise phase trajectories, we can just do 3D plot, then we know that the particle is moving along isolines :hamiltonian:viz:
 :PROPERTIES:
 :CREATED:  [2019-01-15]
 :ID:       hmmtvslsphstrjctrswcnjstdknwthtthprtclsmvnglngslns
 :END:
-
 * TODO [#C] Isotropic lagrangian velocity                        :lagrangian:
 :PROPERTIES:
 :CREATED:  [2018-12-02]
@@ -495,7 +487,6 @@ https://physics.stackexchange.com/questions/212909/lagrangian-is-isotropic-in-sp
 :PROPERTIES:
 :ID:       snwkpdrgwkvrtnlntgrtr
 :END:
-
 * TODO [#C] [2018-11-30] [[https://dxdy.ru/post552620.html][Задачка на Лагранжиан : Помогите решить / разобраться (Ф) - Страница 3]]
 :PROPERTIES:
 :ID:       sdxdyrpsthtml
@@ -530,7 +521,6 @@ https://physics.stackexchange.com/questions/3503/what-is-the-difference-between-
 :PROPERTIES:
 :ID:       wwwschlrpdrgrtclstrgrdskyhmltnnnstbltymrdtldxplntn
 :END:
-
 * [#C] [2019-01-10] http://www.math.lsa.umich.edu/~idolga/lecturenotes.html :math:physics:lagrangian:
 :PROPERTIES:
 :ID:       wwwmthlsmchddlglctrntshtml
@@ -575,7 +565,6 @@ sufficiently long segments cease to be the minimum..
 :PROPERTIES:
 :ID:       grffthclssclmchncs
 :END:
-
 * [#D] [2018-07-24] Classical Mechanics
 :PROPERTIES:
 :ID:       clssclmchncs
@@ -628,6 +617,7 @@ benefit of generalised coordinates is most apparent when considering double pend
 :PROPERTIES:
 :ID:       smrndmnts
 :END:
+
 x'^2 + x^2 = C^2 -- energy conservation
 
 Force F(x); potential energy U(x) as integral of force
@@ -692,7 +682,6 @@ https://quantum-friend-theory.tumblr.com/post/172814384897/noethers-theorem-a-qu
 :PROPERTIES:
 :ID:       sflfrthysmflwnthyhtn
 :END:
-
 * [#C] [2019-02-23] [[http://www.tapir.caltech.edu/~chirata/ph236/2011-12/lec33.pdf][Lagrangian formulation of GR]] :lagrangian:grelativity:
 :PROPERTIES:
 :ID:       wwwtprcltchdchrtphlcpdflgrngnfrmltnfgr

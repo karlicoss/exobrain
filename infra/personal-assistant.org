@@ -30,12 +30,10 @@ hmm, this looks quite promising!
 :PROPERTIES:
 :ID:       nstlltnrmtjstrmvdmcndmpd
 :END:
-
 ** TODO base my note adding thing on that? https://github.com/kev40293/skill-shopping-list
 :PROPERTIES:
 :ID:       bsmyntddngthngnthtsgthbcmkvskllshppnglst
 :END:
-
 ** TODO remind me to make tea in 1 minute >> I've set a reminder for three thirteen tomorrow    -- bug!
 :PROPERTIES:
 :ID:       rmndmtmktnmntvstrmndrfrthrthrtntmrrwbg
@@ -65,7 +63,6 @@ ah, I need https://github.com/forslund/spotify-skill/tree/07cb663ec317f6b409e23b
 :PROPERTIES:
 :ID:       strtsngtfrtmrs
 :END:
-
 * [#B] [2020-03-14] Ask HN: Non-cloud voice recognition for home use? | Hacker News
 :PROPERTIES:
 :ID:       skhnnncldvcrcgntnfrhmshckrnws
@@ -122,6 +119,7 @@ sphinx kinda works after specifying language... but doesn't look very precise?
 :PROPERTIES:
 :ID:       hmssstnt
 :END:
+
 https://www.home-assistant.io/
 raspberry pi?
 
@@ -133,12 +131,10 @@ raspberry pi?
 :PROPERTIES:
 :ID:       hnclrhwstbttrthnthrssstntssblggtlnthstrybhndln
 :END:
-
 * [2018-12-24] [[https://reddit.com/r/selfhosted/comments/a70c95/best_of_open_source_smart_home_home_assistant_vs/][Best of open source smart home: Home Assistant vs OpenHAB]] /r/selfhosted
 :PROPERTIES:
 :ID:       srddtcmrslfhstdcmmntscbstthmhmssstntvspnhbrslfhstd
 :END:
-
 * Mycroft AI                                                        :mycroft:
 :PROPERTIES:
 :ID:       mycrft
@@ -147,7 +143,6 @@ raspberry pi?
 :PROPERTIES:
 :ID:       mycrftprjctsrchngnplgnsfrfxchrmsmycrftprjctcm
 :END:
-
 ** [2019-06-25] Things I've learned and things I still don't know after a couple of days with Mycroft - Mycroft Project - Mycroft Community Forum
 :PROPERTIES:
 :ID:       thngsvlrndndthngsstlldntkycrftprjctmycrftcmmntyfrm
@@ -164,18 +159,15 @@ https://community.mycroft.ai/t/things-ive-learned-and-things-i-still-dont-know-a
 :CREATED:  [2019-07-01]
 :ID:       hmycrftcnsmngcp
 :END:
-
 *** TODO [#C] mess with settings in powertop?
 :PROPERTIES:
 :CREATED:  [2019-06-28]
 :ID:       msswthsttngsnpwrtp
 :END:
-
 ** TODO [#C] [2019-06-25] voice.mycroft.ai - Mycroft https://mycroft.ai/voice-mycroft-ai
 :PROPERTIES:
 :ID:       vcmycrftmycrftsmycrftvcmycrft
 :END:
-
 ** [2020-03-28] Home assistant + Mycroft
 :PROPERTIES:
 :ID:       hmssstntmycrft

@@ -38,6 +38,7 @@ https://github.com/blitzcode/rust-exp
 :PROPERTIES:
 :ID:       kbzlhrdwrffctsdmnstrtnfvrshrdwrffcts
 :END:
+
 https://github.com/Kobzol/hardware-effects
 
 * STRT [#D] prepare proper template, choose programming language :hobby:competitive:
@@ -122,13 +123,11 @@ https://dev.to/sobolevn/9-best-open-source-findings-november-2019-gi0
 :CREATED:  [2019-01-23]
 :ID:       spdpsmpnsrcprjctsvgld
 :END:
-
 * CANCEL [#D] cleanup empty tags automatically, perhaps with confirmation, release on github :pinboard:
 :PROPERTIES:
 :CREATED:  [2018-02-14]
 :ID:       clnpmptytgstmtcllyprhpswthcnfrmtnrlsngthb
 :END:
-
 * DONE [#B] [2020-05-28] talk: [[https://lobste.rs/s/zte1xm/ideology][Ideology | Lobsters]] :programming:
 :PROPERTIES:
 :ID:       tlkslbstrssztxmdlgydlgylbstrs
@@ -161,6 +160,7 @@ write-back: initially, only in cache, write to backing store postponed until it'
 :PROPERTIES:
 :ID:       mrwsmsttcnlysssttcnlysstlsfrllprgrmmnglnggs
 :END:
+
 https://github.com/mre/awesome-static-analysis/
 
 * TODO [#C] [2020-11-17] [[https://github.com/actions/virtual-environments/issues/1816][Ubuntu-latest workflows will use Ubuntu-20.04 · Issue 1816 · actions/virtual-environments]] :githubci:
@@ -201,6 +201,7 @@ puppeteer is only available on chrome though??
 :PROPERTIES:
 :ID:       dmtryzykvntwttrfrfxmrntttcpjsngckdrvr
 :END:
+
 https://mobile.twitter.com/voidlizard/status/1227505059963035648
 
 * TODO [#B] [2020-04-22] [[https://lobste.rs/s/lg2cmt/tools_made_you_productive_saved_you_time#c_m8frty][Tools that made you productive or saved you time | Lobsters]]
@@ -212,7 +213,6 @@ https://mobile.twitter.com/voidlizard/status/1227505059963035648
 :CREATED:  [2018-05-08]
 :ID:       mlktndrd
 :END:
-
 * STRT [#C] Vscode?                                                     :ide:
 :PROPERTIES:
 :CREATED:  [2019-12-13]
@@ -319,6 +319,7 @@ https://www.rapidtables.com/web/color/index.html
 :PROPERTIES:
 :ID:       cpwsmfzzngcrtdlstfwsmfzzngrfzztstngfrsftwrscrty
 :END:
+
 https://github.com/cpuu/awesome-fuzzing#readme
 : Awesome Fuzzing
 
@@ -332,6 +333,7 @@ wow, nice
 :PROPERTIES:
 :ID:       gdbnts
 :END:
+
 - D_GLIBCXX_DEBUG
 
 
@@ -367,12 +369,14 @@ huh, this is niiice!
 :PROPERTIES:
 :ID:       sgthbcmmchnlspy
 :END:
+
 hasn't updated for 2 years
 
 ** https://github.com/keon/awesome-nlp
 :PROPERTIES:
 :ID:       sgthbcmknwsmnlp
 :END:
+
 lots of interesing links...
 
 * TODO [#A] it's way better to start generalising after implementing at least two almost identical/copypasted things :programming:thinking:
@@ -510,6 +514,7 @@ https://github.com/awesome-selfhosted/awesome-selfhosted
 * [2020-09-27] .
 :PROPERTIES:
 :END:
+
 : Something that I’m surprised a lot of devs don’t know; there are official domains you’re supposed to use for documentation, testing, etc. They are specifically reserved by IANA for these purposes. Originally I think it was just example.com, but they now have a list of all them: https://www.iana.org/domains/reserved
 
 * [#C] [2020-04-07] [[https://news.ycombinator.com/item?id=22801661][Show HN: A curated set of colour combinations]] :design:
@@ -531,7 +536,6 @@ https://thume.ca/2020/05/17/pipes-kill-productivity/
 :PROPERTIES:
 :ID:       sgthbcmfprrbckndlrfprrbckndlrhwwrtbcknds
 :END:
-
 * [#C] [2020-03-31] [[https://github.com/nektos/act][nektos/act: Run your GitHub Actions locally]] :githubci:
 :PROPERTIES:
 :ID:       sgthbcmnktsctnktsctrnyrgthbctnslclly
@@ -547,7 +551,6 @@ https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-m
 :PROPERTIES:
 :ID:       shlpgthbcmnrtclsbtgthbctnsbtgthbctnsgthbhlp
 :END:
-
 * [#C] [2020-05-20] [[https://twitter.com/lukaseder/status/1262770756997591042][Lukas Eder on Twitter: "Still one of the best explanations of covariance vs contravariance, or consumers vs producers https://t.co/UPnpItRdi7 https://t.co/P8KzmWzX8R" / Twitter]]
 :PROPERTIES:
 :ID:       stwttrcmlksdrsttslksdrntwstcpnptrdstcpkzmwzxrtwttr
@@ -621,6 +624,7 @@ https://opensourcedesign.net/
 :PROPERTIES:
 :ID:       wbscrpngwthrstcdbrst
 :END:
+
 https://codeburst.io/web-scraping-in-rust-881b534a60f7
 
 ** [2019-11-18] A great tool for this is the Chrome extension Selector Gadget
@@ -654,6 +658,7 @@ lots of detailed plots and pretty clear explanations
 :PROPERTIES:
 :ID:       twtfrmstvcnnstphntyrntdc
 :END:
+
 I bring this up every time someone thinks “full code coverage” means anything at all, but:
 
 : double sin(double x) {
@@ -738,7 +743,6 @@ https://search.google.com/test/mobile-friendly
 :PROPERTIES:
 :ID:       rstchtshtspsprgthbrstchtsht
 :END:
-
 * [2019-08-11] dariusk/corpora: A collection of small corpuses of interesting data for the creation of bots and similar stuff.
 :PROPERTIES:
 :ID:       drskcrprcllctnfsmllcrpssfgdtfrthcrtnfbtsndsmlrstff
@@ -807,7 +811,6 @@ https://www.reddit.com/r/cpp/comments/9cndcr/lldb_now_supports_syntax_highlighti
 :PROPERTIES:
 :ID:       mhsrslypplncppcndntknwthtgdbhsgttmdthtsprttymd
 :END:
-
 * TODO [#B] [2020-07-27] [[https://news.ycombinator.com/item?id=23965209][Apache Arrow 1.0 | Hacker News]] :ffi:cachew:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdpchrrwhckrnws
@@ -821,7 +824,6 @@ https://www.reddit.com/r/cpp/comments/9cndcr/lldb_now_supports_syntax_highlighti
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdpfsspprtnbrvhckrnws
 :END:
-
 * TODO [#B] [2020-12-07] [[https://clig.dev/][Command Line Interface Guidelines]] :cli:
 :PROPERTIES:
 :ID:       sclgdvcmmndlnntrfcgdlns
@@ -835,7 +837,6 @@ https://www.reddit.com/r/cpp/comments/9cndcr/lldb_now_supports_syntax_highlighti
 :PROPERTIES:
 :ID:       sgthbcmtnysrchtnysrchtnysfrsttcwbstsbltwthrstndwsm
 :END:
-
 * TODO [#C] [2020-11-02] [[https://twitter.com/ralismark/status/1323145680219594754][Tim Yao on Twitter: "@karlicoss I messed around with awk and came up with this script: ``` NR &gt; 1 { printf (/DEBUG/ &amp;&amp; hiding) ? "\r" : "\n" } { printf "%s", $0; hiding=/DEBUG/ } END { printf "\n" } ``` It advances to a new line only if the current and previous lines didn't have DEBUG." / Twitter]] :logging:
 :PROPERTIES:
 :ID:       stwttrcmrlsmrksttstmyntwtntndprvslnsddnthvdbgtwttr
@@ -898,11 +899,11 @@ deepnote vs google colab
 :PROPERTIES:
 :ID:       shpfcdcdnggdlnscmvdncbsdsdvdncbsdsftwrngnrngbkrlsd
 :END:
-
 * [2019-05-27] Tweet from Виталий Брагилевский (@_bravit)               :fun:
 :PROPERTIES:
 :ID:       twtfrmbrvt
 :END:
+
 : Виталий Брагилевский (@_bravit) Tweeted:
 : @SrgGrch У программистов одна проблема — они тупые. Цель разработчиков языков программирования в том, чтобы этот факт не сильно мешал. https://twitter.com/_bravit/status/1130567953118834688?s=17
 
@@ -910,7 +911,6 @@ deepnote vs google colab
 :PROPERTIES:
 :ID:       srddtcmrhskllcmmntsdkhcmpxprncnprgrmmnglnggsrhskll
 :END:
-
 * [#D] [2019-01-27] Daibhi O Domhnaill on Twitter: "Лайфхак: если во время собеседования на вопрос "какова сложность этого алгоритма?" ответить "а что, тормозит что ли? да перенесите на SSD и все дела", то сразу возьмут техническим директором" / Twitter
 :PROPERTIES:
 :ID:       dbhdmhnllntwttrssdtwttr
@@ -925,6 +925,7 @@ https://twitter.com/OhTheAnguish/status/1089461515273621504
 :PROPERTIES:
 :ID:       crdnwhtspcrndptn
 :END:
+
 kina like in MC?
 https://github.com/pixelb/crudini/issues/33#issuecomment-240365862
 * TODO [#D] [2019-08-31] circleci SSH debugging                    :circleci:
@@ -981,7 +982,6 @@ build a tool that collects all your subreddits (bookmarklet??) oe just ask to co
 :CREATED:  [2019-07-03]
 :ID:       pdtbtcstdsbtmybdsrvssprtpst
 :END:
-
 * TODO [#D] usecase I can't do                                     :githubci:
 :PROPERTIES:
 :CREATED:  [2020-04-18]
@@ -1052,7 +1052,6 @@ https://twitter.com/tryolabs/status/1341076817277562880
 :CREATED:  [2021-01-07]
 :ID:       sgthbcmmcsngmcsng
 :END:
-
 * TODO [#C] Tweet from @rsnous
 :PROPERTIES:
 :CREATED:  [2021-01-07]
@@ -1086,7 +1085,6 @@ https://twitter.com/rsnous/status/1346944636145684488
 :PROPERTIES:
 :ID:       slbstrsshwhhxtrslftrfslflbstrs
 :END:
-
 * TODO [#C] [2021-01-26] [[https://schema.org/][Schema.org - Schema.org]]
 :PROPERTIES:
 :ID:       sschmrgschmrgschmrg
@@ -1104,7 +1102,6 @@ https://twitter.com/rsnous/status/1346944636145684488
 :PROPERTIES:
 :ID:       sgthbcmfrmntgfsfrmntgfstlgrmttchmntsnfsflsystm
 :END:
-
 * TODO [#C] [2021-01-01] [[https://www.onegraph.com/graphiql][Dashboard - Build Integrations 10x-100x Faster]] :graphql:
 :PROPERTIES:
 :ID:       swwwngrphcmgrphqldshbrdbldntgrtnsxxfstr
@@ -1115,17 +1112,14 @@ graphql api explorer?
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdcrdtsthhrdprtsvdhckrnws
 :END:
-
 * [#D] [2020-04-06] Ask HN: What are your favorite low-coding apps / tools as a developer? | Hacker News https://news.ycombinator.com/item?id=22786853
 :PROPERTIES:
 :ID:       skhnwhtryrfvrtlwcdngppstlprhckrnwssnwsycmbntrcmtmd
 :END:
-
 * [#D] [2020-06-21] [[https://thomazleite.com/posts/development-with-nix-python/][Development with Nix: Python - Thomaz Leite]] :python:nix:
 :PROPERTIES:
 :ID:       sthmzltcmpstsdvlpmntwthnxhndvlpmntwthnxpythnthmzlt
 :END:
-
 * [#D] [2020-03-07] gitsec — gitsec documentation https://gitsec.readthedocs.io/en/latest/
 :PROPERTIES:
 :ID:       gtscgtscdcmnttnsgtscrdthdcsnltst
@@ -1158,12 +1152,10 @@ https://github.com/tiangolo/fastapi
 :PROPERTIES:
 :ID:       hntvrypplrnywhrnclrwhtrthydng
 :END:
-
 * [#D] [2020-01-16] Hypermodeling Hyperproperties • Hillel Wayne https://www.hillelwayne.com/post/hyperproperties/
 :PROPERTIES:
 :ID:       hyprmdlnghyprprprtshlllwywwwhlllwyncmpsthyprprprts
 :END:
-
 * [#D] [2020-01-08] Write less code https://svelte.dev/blog/write-less-code
 :PROPERTIES:
 :ID:       wrtlsscdssvltdvblgwrtlsscd
@@ -1179,17 +1171,14 @@ https://github.com/tiangolo/fastapi
 :PROPERTIES:
 :ID:       dnstfnvcbldyrwnxbldyrwnnshrsgthbcmdnstfnvcbldyrwnx
 :END:
-
 * TODO [#D] [2019-02-04] stanfordnlp/stanfordnlp: Official Stanford NLP Python Library for Many Human Languages https://github.com/stanfordnlp/stanfordnlp :nlp:
 :PROPERTIES:
 :ID:       stnfrdnlpstnfrdnlpffclstnsgthbcmstnfrdnlpstnfrdnlp
 :END:
-
 * TODO [#D] [2019-02-11] FunctionalPlus/README.md at master · Dobiasd/FunctionalPlus https://github.com/Dobiasd/FunctionalPlus/blob/master/README.md
 :PROPERTIES:
 :ID:       fnctnlplsrdmmdtmstrdbsdfndbsdfnctnlplsblbmstrrdmmd
 :END:
-
 * [#D] [2019-05-30] Roman Elizarov on Twitter: "I really wish all languages move to suspend instead of async/await. The advantage is clear. It is disturbing to see that some languages are still adding async/await even as a better way was already obviously discovered.… https://t.co/PRQqtwdVJO"
 :PROPERTIES:
 :ID:       rmnlzrvntwttrrllywshlllngdybvslydscvrdstcprqqtwdvj
@@ -1205,22 +1194,18 @@ https://twitter.com/relizarov/status/1134190090547281920
 :PROPERTIES:
 :ID:       thmypyblgmypyrlsdnwsmntcnlsdnwsmntcnlyzrhtmlsprftw
 :END:
-
 * [#D] [2019-07-03] Color Selector - Random and Unique Colors http://kkmet.com/color/ :design:
 :PROPERTIES:
 :ID:       clrslctrrndmndnqclrskkmtcmclr
 :END:
-
 * [#D] [2019-07-07] Pull requests not triggering build - Build Environment - CircleCI Discuss https://discuss.circleci.com/t/pull-requests-not-triggering-build/1213/24 :circleci:
 :PROPERTIES:
 :ID:       pllrqstsnttrggrngbldbldnvlccmtpllrqstsnttrggrngbld
 :END:
-
 * [#D] [2019-07-07] Show test results for prospective merge of a Github | CircleCI Ideas https://ideas.circleci.com/ideas/CCI-I-926 :circleci:
 :PROPERTIES:
 :ID:       shwtstrsltsfrprspctvmrgfgthbcrclcdssdscrclccmdscc
 :END:
-
 * [#D] [2019-10-06] Host Your Site Under Your Domain on IPFS https://gist.github.com/claus/1287f47b5fbaaea338ac8a04d02bf258
 :PROPERTIES:
 :ID:       hstyrstndryrdmnnpfssgstgthbcmclsfbfbcdbf
@@ -1230,12 +1215,10 @@ https://twitter.com/relizarov/status/1134190090547281920
 :PROPERTIES:
 :ID:       mdrncsmdrncgfrgnrfr
 :END:
-
 * TODO [#D] [2019-10-09] Railway Oriented Programming | F# for fun and profit https://fsharpforfunandprofit.com/rop/
 :PROPERTIES:
 :ID:       rlwyrntdprgrmmngffrfnndprftsfshrpfrfnndprftcmrp
 :END:
-
 * TODO [#D] [2019-07-30] mahmoud/boltons: 🔩 Like builtins, but boltons. 230+ constructs, recipes, and snippets which extend (and rely on nothing but) the Python standard library. Nothing like Michael Bolton. https://github.com/mahmoud/boltons
 :PROPERTIES:
 :ID:       mhmdbltnslkbltnsbtbltnscnkmchlbltnsgthbcmmhmdbltns
@@ -1262,37 +1245,30 @@ https://twitter.com/relizarov/status/1134190090547281920
 :PROPERTIES:
 :ID:       jsnblbcrtdtvwfrmtndshrjsnsjsnblbcm
 :END:
-
 * [#D] [2019-05-26] The whole web at maximum FPS: How WebRender gets rid of jank - Mozilla Hacks - the Web developer blog https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/
 :PROPERTIES:
 :ID:       thwhlwbtmxmmfpshwwbrndrgttmxmmfpshwwbrndrgtsrdfjnk
 :END:
-
 * [#D] [2018-11-27] StackExchange/blackbox: Safely store secrets in Git/Mercurial/Subversion https://github.com/StackExchange/blackbox
 :PROPERTIES:
 :ID:       stckxchngblckbxsflystrscrrsnsgthbcmstckxchngblckbx
 :END:
-
 * [#D] [2018-11-26] thma/LtuPatternFactory at 1be9521591f8a7f06b35a7ae5929e7beaf0b8e43 https://github.com/thma/LtuPatternFactory/tree/1be9521591f8a7f06b35a7ae5929e7beaf0b8e43
 :PROPERTIES:
 :ID:       thmltpttrnfctrytbffbbfbsgmthmltpttrnfctrytrbffbbfb
 :END:
-
 * [#D] [2019-12-02] avinassh/haxor: Unofficial Python wrapper for official Hacker News API https://github.com/avinassh/haxor :hackernews:
 :PROPERTIES:
 :ID:       vnsshhxrnffclpythnwrpprfrclhckrnwspsgthbcmvnsshhxr
 :END:
-
 * [#D] [2019-12-02] mvanveen/hncrawl: A scrapy-based Hacker News crawler. https://github.com/mvanveen/hncrawl :hackernews:
 :PROPERTIES:
 :ID:       mvnvnhncrwlscrpybsdhckrnwscrwlrsgthbcmmvnvnhncrwl
 :END:
-
 * [#D] [2019-12-02] donnemartin/haxor-news: Browse Hacker News like a haxor: A Hacker News command line interface (CLI). https://github.com/donnemartin/haxor-news :hackernews:
 :PROPERTIES:
 :ID:       dnnmrtnhxrnwsbrwshckrnwslrfcclsgthbcmdnnmrtnhxrnws
 :END:
-
 * [#D] [2019-11-23] optimization - Step-by-step example of reverse-mode automatic differentiation - Cross Validated https://stats.stackexchange.com/questions/224140/step-by-step-example-of-reverse-mode-automatic-differentiation
 :PROPERTIES:
 :ID:       ptmztnstpbystpxmplfrvrsmdtpxmplfrvrsmdtmtcdffrnttn
@@ -1304,7 +1280,6 @@ good explanation of automatic differentiation
 :PROPERTIES:
 :ID:       crvdvcrgcrvcryptgrphcllyvckgmngrsgthbcmcrvdvcrgcrv
 :END:
-
 * [#D] [2020-02-12] The First Time SICP Blew My Mind | Lobsters https://lobste.rs/s/jee87g/first_time_sicp_blew_my_mind#c_vu6rli
 :PROPERTIES:
 :ID:       thfrsttmscpblwmymndlbstrsssjgfrsttmscpblwmymndcvrl
@@ -1314,17 +1289,14 @@ good explanation of automatic differentiation
 :PROPERTIES:
 :ID:       vsnthvjsnbxfrbsdjsnstrgsgthbcmvsnthvjsnbx
 :END:
-
 * [#D] [2019-11-22] CppCon/CppCon2018: Slides and other materials from CppCon 2018 https://github.com/CppCon/CppCon2018
 :PROPERTIES:
 :ID:       cppcncppcnsldsndthrmtrlsfrmcppcnsgthbcmcppcncppcn
 :END:
-
 * [#D] [2019-12-07] W3C Recommends WebAssembly to push the limits for speed, efficiency and responsiveness | Lobsters https://lobste.rs/s/aveemy/w3c_recommends_webassembly_push_limits
 :PROPERTIES:
 :ID:       wcrcmmndswbssmblytpshthlmywcrcmmndswbssmblypshlmts
 :END:
-
 * TODO [#D] [2019-12-20] Other examples of “standing-on-the-shoulders-of-giants” tools? | Lobsters https://lobste.rs/s/d8ureu/other_examples_standing_on_shoulders
 :PROPERTIES:
 :ID:       thrxmplsfstndngnthshldrsfssdrthrxmplsstndngnshldrs
@@ -1337,32 +1309,26 @@ good explanation of automatic differentiation
 :PROPERTIES:
 :ID:       lstcsrchfrmlmdlsznwthtrmsstrznwthtrmstlznwthtrmstl
 :END:
-
 * [#C] [2021-01-01] [[https://omar.website/][Omar Rizwan]]
 :PROPERTIES:
 :ID:       smrwbstmrrzwn
 :END:
-
 * [#D] [2020-04-06] Old CSS, new CSS / fuzzy notepad https://eev.ee/blog/2020/02/01/old-css-new-css/
 :PROPERTIES:
 :ID:       ldcssnwcssfzzyntpdsvblgldcssnwcss
 :END:
-
 * [#D] [2019-07-29] aqLists: unobtrusive DHTML and the power of unordered lists https://kryogenix.org/code/browser/aqlists/
 :PROPERTIES:
 :ID:       qlstsnbtrsvdhtmlndthpwrfnlstsskrygnxrgcdbrwsrqlsts
 :END:
-
 * TODO [#D] [2019-09-06] Node-RED https://nodered.org/#features
 :PROPERTIES:
 :ID:       ndrdsndrdrgftrs
 :END:
-
 * [#D] [2019-09-21] Explanations - Introduction & Table of Contents (about X server) https://magcius.github.io/xplain/article/index.html#credits
 :PROPERTIES:
 :ID:       xplntnsntrdctntblfcntntsbsgthbxplnrtclndxhtmlcrdts
 :END:
-
 * TODO [#D] [2019-09-10] Hugo and IPFS: how this blog works (and scales to serve 5,000% spikes instantly!) | With Blue Ink https://withblue.ink/2019/03/20/hugo-and-ipfs-how-this-blog-works-and-scales.html :ipfs:
 :PROPERTIES:
 :ID:       hgndpfshwthsblgwrksndsclspfshwthsblgwrksndsclshtml
@@ -1389,7 +1355,6 @@ https://twitter.com/kieranmch/status/1218294511027269632
 :PROPERTIES:
 :ID:       ccstksmpllnkbltthlwnrgymlrdsnsrtgtcmswwwtcmtlccstk
 :END:
-
 * [#C] [2020-01-07] ignore - Rust https://docs.rs/ignore/0.4.10/ignore/
 :PROPERTIES:
 :ID:       gnrrstsdcsrsgnrgnr
@@ -1420,7 +1385,6 @@ https://twitter.com/kieranmch/status/1218294511027269632
 :PROPERTIES:
 :ID:       swwwdnfrtstcvrgnlymttrsftmltstcvrgnlymttrsftstdnfr
 :END:
-
 * [#D] [2020-05-28] [[https://www.xanthir.com/b4wJ1][Tab Completion]]
 :PROPERTIES:
 :ID:       swwwxnthrcmbwjtbcmpltn
@@ -1461,17 +1425,14 @@ https://twitter.com/b0rk/status/1197282185230860288
 :PROPERTIES:
 :ID:       scdpngftcnmstpndnlpjtstngcsspsdclsssnsvglmnts
 :END:
-
 * [#D] [2020-06-08] [[https://makelinux.github.io/kernel/map/][Interactive map of Linux kernel]]
 :PROPERTIES:
 :ID:       smklnxgthbkrnlmpntrctvmpflnxkrnl
 :END:
-
 * [#D] [2020-06-14] [[https://wiki.mozilla.org/Performance/Avoid_SQLite_In_Your_Next_Firefox_Feature][Performance/Avoid SQLite In Your Next Firefox Feature - MozillaWiki]]
 :PROPERTIES:
 :ID:       swkmzllrgprfrmncvdsqltnyrvdsqltnyrnxtfrfxftrmzllwk
 :END:
-
 * [#D] [2020-04-07] Hillel on Twitter: "@JYCabello All of them https://t.co/E9M6G5GfAd" / Twitter
 :PROPERTIES:
 :ID:       hlllntwttrjycbllllfthmstcmggfdtwttr
@@ -1500,7 +1461,6 @@ relevant to configs-suck
 :PROPERTIES:
 :ID:       prtrslqdtmpltlnggsshpfygthblqdbscsprtrs
 :END:
-
 * [#D] [2020-09-12] [[https://news.ycombinator.com/item?id=24453007][From Rust to TypeScript | Hacker News]] :errors:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdfrmrstttypscrpthckrnws
@@ -1529,12 +1489,10 @@ relevant to configs-suck
 :PROPERTIES:
 :ID:       swwwpxjscmpxjs
 :END:
-
 * TODO [#B] [2021-01-03] [[https://vimeo.com/230220635][REPL-Based Development Demo on Vimeo]] :towatch:repl:
 :PROPERTIES:
 :ID:       svmcmrplbsddvlpmntdmnvm
 :END:
-
 * TODO [#C] good examples of vertical alignment in myinfra generate.py :codestyle:
 :PROPERTIES:
 :CREATED:  [2021-02-04]
@@ -1575,12 +1533,10 @@ relevant to configs-suck
 :PROPERTIES:
 :ID:       sgthbcmjmlxntnpyjmlxntnpynffclpythnpclntfrntns
 :END:
-
 * TODO [#B] [2021-02-03] [[https://news.ycombinator.com/item?id=26018187][Apache Arrow 3.0 | Hacker News]] :ffi:
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdpchrrwhckrnws
 :END:
-
 * [#B] [2021-02-16] [[https://discord.com/channels/708122962422792194/708375112537342025][#🧠-learning]] :opensource:
 :PROPERTIES:
 :ID:       sdscrdcmchnnlslrnng
@@ -1602,17 +1558,14 @@ relevant to configs-suck
 :PROPERTIES:
 :ID:       sgthbcmlmbdppnsrcchllngslnkbtfrsftwrndpnsrcchllngs
 :END:
-
 * TODO [#C] [2021-02-11] [[https://observablehq.com/@observablehq/observables-not-javascript][Observable’s not JavaScript / Observable / Observable]]
 :PROPERTIES:
 :ID:       sbsrvblhqcmbsrvblhqbsrvblvblsntjvscrptbsrvblbsrvbl
 :END:
-
 * TODO [#C] [2021-02-11] [[https://observablehq.com/@observablehq/introduction-to-require][Introduction to require / Observable / Observable]]
 :PROPERTIES:
 :ID:       sbsrvblhqcmbsrvblhqntrdctqrntrdctntrqrbsrvblbsrvbl
 :END:
-
 * TODO [#C] hmm, not clear how sliding average works for influx... I guess it sort of 'smoothens' stuff a bit :influxdb:
 :PROPERTIES:
 :CREATED:  [2021-02-13]
@@ -1630,27 +1583,22 @@ E.g. integrate with guthub, but use custom software for it
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdshwhnlbrtsrcnrlmchntrnsltnphckrnws
 :END:
-
 * TODO [#C] [2021-02-22] [[https://news.ycombinator.com/item?id=26217754][Cross-Database Queries in SQLite | Hacker News]]
 :PROPERTIES:
 :ID:       snwsycmbntrcmtmdcrssdtbsqrsnsqlthckrnws
 :END:
-
 * TODO [#C] [2021-02-19] [[https://gtoolkit.com/][Glamorous Toolkit]] :smalltalk:
 :PROPERTIES:
 :ID:       sgtlktcmglmrstlkt
 :END:
-
 * TODO [#C] [2021-02-17] [[https://docs.github.com/en/actions/reference/events-that-trigger-workflows][Events that trigger workflows - GitHub Docs]] :ci:promnesia:hpi:
 :PROPERTIES:
 :ID:       sdcsgthbcmnctnsrfrncvntstntsthttrggrwrkflwsgthbdcs
 :END:
-
 * [#C] [2021-02-11] [[https://github.com/KDAB/hotspot][KDAB/hotspot: The Linux perf GUI for performance analysis.]] :performance:
 :PROPERTIES:
 :ID:       sgthbcmkdbhtsptkdbhtsptthlnxprfgfrprfrmncnlyss
 :END:
-
 * [#C] [2020-09-09] [[https://github.com/JetBrains/lets-plot/blob/master/README_PYTHON.md][lets-plot/README_PYTHON.md at master · JetBrains/lets-plot]] :dataviz:python:
 :PROPERTIES:
 :ID:       sgthbcmjtbrnsltspltblbmstmpythnmdtmstrjtbrnsltsplt
@@ -1680,7 +1628,6 @@ new link https://programmingisterrible.com/post/139222674273/how-to-write-dispos
 :PROPERTIES:
 :ID:       spythnspdcmrtclscnsstntbnrlblbnchmrkngnnsynvrnmnts
 :END:
-
 * TODO [#C] [2020-06-19] [[https://twitter.com/Conaw/status/1273979249808961536][Conor White-Sullivan on Twitter: "Accidentally stayed up until 7am on a videocall with @girba learning about Pharoah Smalltalk and #gtoolkit Have not been this excited about a new programming paradigm since I learned Clojure. Amazing amazing tool they have, with almost no on-boarding yet. Just how I like it!!" / Twitter]] :smalltalk:
 :PROPERTIES:
 :ID:       stwttrcmcnwsttscnrwhtsllvmstnnbrdngytjsthwlkttwttr
@@ -1827,6 +1774,7 @@ or lightweight promnesia marks?
 :PROPERTIES:
 :ID:       x
 :END:
+
 : In my opinion, one killer feature of VSCode is the ability to connect to WSL, remote server and Docker container.
 : As someone mainly developing on WSL2, I use this feature everyday. I only use Idea when I need to use Java or Kotlin, because its language support is really good.
 
@@ -1910,7 +1858,6 @@ https://news.ycombinator.com/item?id=26813725
 :PROPERTIES:
 :ID:       srddtcmrclgthbprjctscmmntwhcrbtgddsgnrclgthbprjcts
 :END:
-
 * [#D] [2019-07-29] [[https://twitter.com/EricLengyel/status/1155309290229358592][Tweet from Eric Lengyel (@EricLengyel)]] Foundations of Game Engine Development :gamedev:
 :PROPERTIES:
 :ID:       stwttrcmrclngylsttstwtfrmclngylfndtnsfgmngndvlpmnt

@@ -16,7 +16,6 @@
 :CREATED:  [2018-09-17]
 :ID:       njythslnc
 :END:
-
 ** TODO [#C] buzzcut season
 :PROPERTIES:
 :CREATED:  [2018-05-13]
@@ -35,11 +34,11 @@ https://www.youtube.com/watch?v=jSeaVnVmIFk
 :CREATED:  [2019-09-19]
 :ID:       thnkbtsmmdrngrdpc
 :END:
-
 ** TODO [#C] [2019-09-09] The Lonely Shepherd - Wikipedia
 :PROPERTIES:
 :ID:       thlnlyshphrdwkpd
 :END:
+
 https://en.wikipedia.org/wiki/The_Lonely_Shepherd
 
 ** TODO [#C] heart shaped box
@@ -47,13 +46,11 @@ https://en.wikipedia.org/wiki/The_Lonely_Shepherd
 :CREATED:  [2018-03-29]
 :ID:       hrtshpdbx
 :END:
-
 ** TODO [#C] diplo -- get it right
 :PROPERTIES:
 :CREATED:  [2018-06-02]
 :ID:       dplgttrght
 :END:
-
 * TODO [#C] [2019-04-20] What Does a Pianist See? | Eye Tracking - Episode 1 - YouTube
 :PROPERTIES:
 :ID:       whtdspnstsytrckngpsdytb
@@ -189,7 +186,6 @@ https://www.musictheory.net/exercises
 :CREATED:  [2019-01-29]
 :ID:       508494d0-576b-4295-bdff-e7c97befb024
 :END:
-
 ** Different parity means odd number of notes and even total number of keys :drill:piano:
 :PROPERTIES:
 :CREATED:  [2019-01-29]
@@ -200,7 +196,6 @@ https://www.musictheory.net/exercises
 :CREATED:  [2019-05-31]
 :ID:       7bb3b867-9fdf-43aa-a9a9-be9491f0c496
 :END:
-
 ** [2019-05-19] note on top (not intersecting) is G             :drill:piano:
 :PROPERTIES:
 :ID:       7e9d62bc-f8a8-481a-b1a4-1321dc8a68c7
