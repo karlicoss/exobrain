@@ -325,8 +325,6 @@ related #hpi
 :CREATED:  [2018-12-10]
 :ID:       prsrcmbntrsfrwrkts
 :END:
-
-- State "STRT"      from "TODO"       [2019-02-18]
 * [#D] * twidump                                                    :twidump:
 :PROPERTIES:
 :ID:       twdmp
@@ -351,7 +349,7 @@ my #twitter exporter
 
 * ----------------------------
 :PROPERTIES:
-:ID:       9432_9466
+:ID:       9447_9481
 :END:
 
 

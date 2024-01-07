@@ -1054,7 +1054,6 @@ right, maybe for computational and efficiency purposes it would be ok to generat
 :PROPERTIES:
 :ID:       smthstckxchngcmqstnsmthndmscthrybks
 :END:
-- State "STRT"      from "TODO"       [2019-02-21]
 
 * [#C] The Reference Frame: Why are there spinors?                   :spinor:
 :PROPERTIES:
@@ -3297,7 +3296,7 @@ fucking hell, really awesome explanation for standard model.. read it again!
 :CREATED:  [2019-04-23]
 :ID:       svkcmwllфундаментальноливремявовселенной
 :END:
-- State "START"      from "TODO"       [2019-04-24]
+
 ** [2019-05-06] В 2013 году команда исследователей из Италии экспериментально продемонстрировала этот феномен. Подводя итоги своей работы, ученые сообщали: «Мы показываем, как статическое запутанное состояние двух фотонов можно рассматривать в качестве развивающегося с точки зрения наблюдателя, использующего один из двух фотонов как часы — для оценки временного развития другого фотона. Однако сторонний наблюдатель может показать, что глобально запутанное состояние не развивается».
 :PROPERTIES:
 :ID:       вгодукомандаисследователеноесостояниенеразвивается
@@ -3382,7 +3381,7 @@ https://en.wikipedia.org/wiki/Allied_Military_phonetic_spelling_alphabets#RAF_ra
 
 * ---------------------------------------
 :PROPERTIES:
-:ID:       181018_181091
+:ID:       181033_181106
 :END:
 processing on [2021-01-31]
 * TODO [#C] Tweet from @mekarpeles                                  :chinese:
@@ -3412,7 +3411,7 @@ https://twitter.com/nmwsharp/status/1153993638134910977
 
 * ----------------------------------------------
 :PROPERTIES:
-:ID:       182077_182126
+:ID:       182092_182141
 :END:
 * TODO [#C] [2021-01-22] [[http://bach.ai/pub/ECAP10%20Joscha%20Bach%20on%20AI%20singularity.pdf][ECAP10 Joscha Bach on AI singularity.pdf]]
 :PROPERTIES:

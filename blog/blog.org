@@ -390,8 +390,6 @@ Payload	15.9 kB	173 kB	40 kB
 :PROPERTIES:
 :ID:       sscmmntngsrvrsmlrtdsqs
 :END:
-- State "DONE"       from "STRT"      [2019-02-19]
-- State "STRT"      from              [2019-02-18]
 https://posativ.org/isso/
 *** [2019-02-18] ok, so in sqlite table, it uses urls... I guess that should make migration easy (if necessary at ll)
 :PROPERTIES:
