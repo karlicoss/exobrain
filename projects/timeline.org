@@ -88,10 +88,8 @@ meh, hasn't updated and even unclear what they implemented
 :END:
 ** TODO [#D] use old nomie data, group with gmaps and 4sq                :qs:
 :PROPERTIES:
+:CREATED:  [2018-01-16]
 :ID:       sldnmdtgrpwthgmpsndsq
-:END:
-:PROPERTIES:
-CREATED: [2018-01-16]
 :END:
 
 ** CANCEL [#D] Alcohol log meet merge with spending log
