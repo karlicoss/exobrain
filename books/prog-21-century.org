@@ -130,7 +130,7 @@ Kind notes/highlights on [[https://prog21.dadgum.com][Programming in the XXI cen
 :PROPERTIES:
 :ID:       pglctnthrsdymrchm
 :END:
-: On most systems, this little C program will soak up all available memory: while (1) {    malloc(0); } so the answer is not the obvious "zero." But before getting into malloc(0), let's look at the simpler case of malloc(1).
+: On most systems, this little C program will soak up all available memory: while (1) { malloc(0); } so the answer is not the obvious "zero." But before getting into malloc(0), let's look at the simpler case of malloc(1).
 
 * DONE page 432 | Location 6618-6624 | Sunday, March 18, 2018 5:42:29 AM
 :PROPERTIES:

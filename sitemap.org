@@ -12,14 +12,14 @@
 - [[file:social.org][Social]]
 - [[file:software.org][Software]]
 - [[file:think.org][Things to think through]]
-- [[file:vr.org][VR/AR]]
 - [[file:linux.org][Various Linux things]]
+- [[file:vr.org][VR/AR]]
 - android
   - [[file:android/android.org][Android]]
   - [[file:android/android-misc.org][android-misc]]
 - biology
-  - [[file:biology/human-body.org][Human body]]
   - [[file:biology/biology-misc.org][biology-misc]]
+  - [[file:biology/human-body.org][Human body]]
 - blog
   - [[file:blog/blog.org][⭐ Blog related stuff]]
   - [[file:blog/static-blog.org][Why use static blog?]]
@@ -75,13 +75,13 @@
   - [[file:physics/gauge-invariance.org][Gauge invariance]]
   - [[file:physics/general-relativity.org][General relativity]]
   - [[file:physics/physics.org][Physics]]
+  - [[file:physics/physics-misc.org][physics-misc]]
+  - [[file:physics/physics-papers.org][physics-papers]]
   - [[file:physics/qft.org][Quantum field theory]]
   - [[file:physics/quantum-gravity.org][Quantum gravity]]
   - [[file:physics/quantum.org][Quantum physics]]
   - [[file:physics/relativity.org][Special relativity]]
   - [[file:physics/symplectic.org][Symplectic geometry]]
-  - [[file:physics/physics-misc.org][physics-misc]]
-  - [[file:physics/physics-papers.org][physics-papers]]
 - pkm
   - [[file:pkm/pkm.org][Knowledge management]]
   - [[file:pkm/orgmode.org][Org-mode things]]
@@ -93,6 +93,7 @@
   - [[file:programming/refile.org][🗄️ Unprocessed programming-related links/notes]]
   - [[file:programming/agda.org][Agda]]
   - [[file:programming/androiddev.org][Android development]]
+  - [[file:programming/bash.org][bash]]
   - [[file:programming/webext.org][Building browser extensions]]
   - [[file:programming/elisp.org][Elisp]]
   - [[file:programming/fp.org][Functional programming]]
@@ -101,7 +102,6 @@
   - [[file:programming/lisp.org][Lisp(s)]]
   - [[file:programming/literate.org][Literate programming and documentation]]
   - [[file:programming/webdev.org][Webdev]]
-  - [[file:programming/bash.org][bash]]
   - python
     - [[file:programming/python/python_as_shell.org][📜 Python as an interactive shell]]
     - [[file:programming/python/typing.org][📜 Python typing tips & tricks]]
@@ -129,21 +129,21 @@
   - ext
     - [[file:projects/ext/ext.org][Third party projects I'm involved in]]
 - quantifiedself
+  - [[file:quantifiedself/qs-misc.org][qs-misc]]
   - [[file:quantifiedself/qs.org][Quantified self]]
   - [[file:quantifiedself/sleep-tracking.org][Sleep tracking]]
-  - [[file:quantifiedself/qs-misc.org][qs-misc]]
 - setup
   - [[file:setup/dotfiles.org][Managing dotfiles]]
 - soft
+  - [[file:soft/rss.org][apps for reading RSS]]
   - [[file:soft/decentralization.org][Decentralized/federated services]]
   - [[file:soft/dictation.org][Dictation/speech recognition]]
   - [[file:soft/emacs.org][Emacs]]
+  - [[file:soft/git.org][git]]
   - [[file:soft/orgparse.org][Orgparse]]
   - [[file:soft/shell.org][Shell concepts]]
-  - [[file:soft/rss.org][apps for reading RSS]]
-  - [[file:soft/git.org][git]]
   - [[file:soft/vim.org][vim]]
 - study
   - [[file:study/learning.org][Learning: meta]]
-  - [[file:study/tostudy.org][TODO list for learning]]
   - [[file:study/study-misc.org][study-misc]]
+  - [[file:study/tostudy.org][TODO list for learning]]
