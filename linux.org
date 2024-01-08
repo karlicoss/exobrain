@@ -48,7 +48,7 @@
 ok, so for debian/ubuntu images don't really need autoclean -- it's already run automatically
 ** [#C] [2021-05-02] [[https://howtoprogram.xyz/2017/03/18/attach-detach-docker-container/][Attach and Detach from Docker Container | HowToProgram]] :docker:drill:
 :PROPERTIES:
-:ID:       929325c4-96a6-4ddd-a0d2-a621317e6508
+:ID:       shwtprgrmxyzttchdtchdckrcddtchfrmdckrcntnrhwtprgrm
 :END:
 : In general, to detach from a Docker container and leave it running, we can use the CTRL-p CTRL-q key sequence.
 ** STRT [#C] [2020-03-14] [[https://reddit.com/r/selfhosted/comments/filg01/ctop_cli_utility_similar_to_htop_for_docker/][ctop - cli utility similar to htop for docker containers resource use]] /r/selfhosted :docker:
@@ -179,7 +179,7 @@ press > and select RES
 : Note that using the standard logging mechanism like this will not create persistent logs by default. To do that, you'll need to create /var/log/journal, and then run sudo systemctl restart systemd-journald
 * [#C] [2020-01-29] How to read memory usage in htop? - Server Fault  :drill:
 :PROPERTIES:
-:ID:       873c3c56-09ec-4783-aa15-b69a9ed1e6a5
+:ID:       hwtrdmmrysgnhtpsrvrflt
 :END:
 https://serverfault.com/questions/517483/how-to-read-memory-usage-in-htop
 : Hide user threads (shift + H) and close the process tree view (F5), t

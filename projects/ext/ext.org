@@ -597,7 +597,7 @@ https://github.com/hypothesis/client/issues/12
 ** TODO [#C] doesn't work on hackernews, some content-security policy thing :hypothesis:
 :PROPERTIES:
 :CREATED:  [2020-02-27]
-:ID:       9bb9447f-2075-4d30-a9d6-909bc952fccb
+:ID:       dsntwrknhckrnwssmcntntscrtyplcythng
 :END:
 ** [2020-05-05] [[https://gist.github.com/mGBUfLn9/7cadffcf7c3c23b7376350165a67735f][history.txt]] :hypothesis:annotation:
 :PROPERTIES:
@@ -736,7 +736,7 @@ https://github.com/miniflux/miniflux/blob/f9a773ab18815a57e74bedc243ede1ad70e899
 * TODO [#D] PR in toastify for innerHTML
 :PROPERTIES:
 :CREATED:  [2020-02-18]
-:ID:       73aa3f9e-b214-4913-91d3-436eac2b5ff5
+:ID:       prntstfyfrnnrhtml
 :END:
 * TODO [#C] [2019-09-08] Validate inputs before saving · Issue #2 · fregante/webext-options-sync
 :PROPERTIES:

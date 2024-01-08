@@ -34,7 +34,7 @@ Here I collect notes/todos relevant to improving the blog experience.
 :END:
 ** [#B] [2020-01-17] [[https://ai6ua.net][Singing in the Wilderness]]
 :PROPERTIES:
-:ID:       bb1a5249-f7a8-4c92-96fd-d90f97f09f2b
+:ID:       sntsngngnthwldrnss
 :END:
 right, so pretty nice design
 ** [#C] [2019-04-21] [[https://vas3k.ru/blog/go_to_berlin][Большой пост о том, как я переезжал в Берлин :: Вастрик.ру]]
@@ -122,7 +122,7 @@ realtime qs... whoa
 ** STRT [#B] all stuff in TOC should have _proper_ links               :blog:
 :PROPERTIES:
 :CREATED:  [2020-01-18]
-:ID:       765d9507-0bf8-4985-a8cd-d0b5739ae5a3
+:ID:       llstffntcshldhvprprlnks
 :END:
 ** TODO [#C] Display TODO as lowercase?                       :exobrain:blog:
 :PROPERTIES:
@@ -198,7 +198,7 @@ https://dev.to/kenbellows/stop-using-so-many-divs-an-intro-to-semantic-html-3i9i
 https://evertpot.com/visited-links
 * TODO [#B] [2020-02-15] This Page is Designed to Last: A Manifesto for Preserving Content on the Web :blog:
 :PROPERTIES:
-:ID:       290bb11b-3d53-49ff-91a8-5b4924f8b972
+:ID:       thspgsdsgndtlstmnfstfrprsrvngcntntnthwb
 :END:
 https://jeffhuang.com/designed_to_last/
 : Stick with the 13 web safe fonts +2
@@ -299,7 +299,7 @@ Can I base in on or perhaps manual inotify or something?? use folder differen th
 
 * TODO [#C] [2020-02-07] The /now page movement | Derek Sivers
 :PROPERTIES:
-:ID:       51dc9991-d612-463c-9186-dee4825b6439
+:ID:       thnwpgmvmntdrksvrs
 :END:
 https://sivers.org/nowff
 

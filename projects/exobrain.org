@@ -471,7 +471,7 @@ I'd rather have my search engine to look over these first
 :END:
 ** STRT [#A] [2020-01-30] davidgasquez/handbook: 📚 Personal bits of knowledge.
 :PROPERTIES:
-:ID:       4ee62a8d-deb7-4d5e-8316-3a3d880c2bdc
+:ID:       dvdgsqzhndbkprsnlbtsfknwldg
 :END:
 https://github.com/davidgasquez/handbook
 ** DONE [#B] [2020-01-01] dvogt23/notes: 📔 knowledge :german:inspiration:exobrain:

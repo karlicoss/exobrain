@@ -1560,22 +1560,22 @@ e.g. if the page is updated in the background (e.g. youtube video), do we want t
 * STRT [#C] as a docker app?
 :PROPERTIES:
 :CREATED:  [2020-02-16]
-:ID:       3fa4bf58-8d76-4338-b2b8-d6369a05e525
+:ID:       sdckrpp
 :END:
 * STRT [#C] go through code and create issues?
 :PROPERTIES:
 :CREATED:  [2020-02-16]
-:ID:       0075460d-6157-4e72-ba0f-63dacff9ed07
+:ID:       gthrghcdndcrtsss
 :END:
 * TODO [#C] eh, web indexer doesn't really work for relative links...
 :PROPERTIES:
 :CREATED:  [2020-02-17]
-:ID:       7fdb2a55-d6da-4657-b69e-e0348a4461a1
+:ID:       hwbndxrdsntrllywrkfrrltvlnks
 :END:
 * TODO [#C] combine with eye tracking, then could know how much time was spent reading something...
 :PROPERTIES:
 :CREATED:  [2020-03-01]
-:ID:       d8adfbd7-4cfb-494f-8f42-6759ae441882
+:ID:       cmbnwthytrckngthncldknwhwmchtmwsspntrdngsmthng
 :END:
 * TODO [#C] would be nice to get stuff collected by axol to promnesia database :axol:promnesia:
 :PROPERTIES:
@@ -2173,7 +2173,7 @@ good support for blacklist, reportedly good code quality
 * STRT [#D] add some throttling for the notification at least
 :PROPERTIES:
 :CREATED:  [2020-02-16]
-:ID:       54c51c0b-80b4-4104-8daf-86f9a9a372e6
+:ID:       ddsmthrttlngfrthntfctntlst
 :END:
 ** [2020-02-25] added suppressing..
 :PROPERTIES:
@@ -2380,7 +2380,7 @@ title is missing; i suppose because I should have merged takeouts
 * TODO [#D] fallback in sequence?
 :PROPERTIES:
 :CREATED:  [2020-02-16]
-:ID:       8c9c7945-29a7-45ae-88c4-3b4cab43af44
+:ID:       fllbcknsqnc
 :END:
 e.g.
  jq  -> dumb json

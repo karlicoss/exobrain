@@ -87,7 +87,7 @@ implemented via flocks on files named same as tags
 ** TODO [#D] show desktop notification on failure
 :PROPERTIES:
 :CREATED:  [2020-02-27]
-:ID:       05efef54-31fe-4817-9fc0-43ba79bd97c6
+:ID:       shwdsktpntfctnnflr
 :END:
 * [#B] * bugs
 :PROPERTIES:

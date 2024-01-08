@@ -379,7 +379,7 @@ Vector potential is important because it is impossible to state action principle
 :END:
 ** [2020-12-20] quantum zeno effect: measure the system often enough, it appears as if it's not changing. :drill:
 :PROPERTIES:
-:ID:       1eba4d8c-d0fd-4aaa-9228-16ae3ab0291c
+:ID:       qntmznffctmsrthsystmftnnghtpprssftsntchngng
 :END:
 evolution is linear, so after time dt the amplitude of changing state is proportional to dt, and probability to dt^2. So by making dt low enough, probability of ever changing state is arbitrary close to 0
 ** [2020-12-20] https://physics.stackexchange.com/questions/47252/simple-explanation-of-quantum-zeno-effect

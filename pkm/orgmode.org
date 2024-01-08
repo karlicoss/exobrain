@@ -108,7 +108,7 @@ CREATED: [2018-01-23]
 * STRT [#B] check out more defaul org-evil-agenda bindings             :doom:
 :PROPERTIES:
 :CREATED:  [2020-02-22]
-:ID:       02d1370c-b581-476c-a6e4-d34dc563a9d3
+:ID:       chcktmrdflrgvlgndbndngs
 :END:
 * STRT [#B] [2020-01-10] [[https://reddit.com/r/emacs/comments/emran7/amazing_library_for_org_hackers/][Amazing library for org hackers]] /r/emacs
 :PROPERTIES:
@@ -139,7 +139,7 @@ https://github.com/novoid/github-orgmode-tests
 ** STRT [#B] named +result heading seems to be broken...
 :PROPERTIES:
 :CREATED:  [2020-02-26]
-:ID:       9a547152-dc1b-4ac5-a464-87662f31d8fc
+:ID:       nmdrslthdngsmstbbrkn
 :END:
 *** [2020-02-26] ah, maybe it's fine.. just needs :exports results?
 :PROPERTIES:
@@ -195,7 +195,7 @@ e.g. it's generating "How do you use it?" -> how-do-you-use-it
 * TODO [#B] perhaps need to filter some files for org-ql search
 :PROPERTIES:
 :CREATED:  [2020-02-28]
-:ID:       2227a851-0d5f-4479-aba8-bd2a5d81d52c
+:ID:       prhpsndtfltrsmflsfrrgqlsrch
 :END:
 
 e.g. files without tags like twitter.org. Maybe the easiest to make them .txt actually??
@@ -419,7 +419,7 @@ works as expected without raw though..
 * TODO [#C] if it's got pin tag, always keep it on the very top? and don't reorder?
 :PROPERTIES:
 :CREATED:  [2020-02-26]
-:ID:       be41e3af-2d95-45c4-8ce8-e826e5d3428e
+:ID:       ftsgtpntglwyskptnthvrytpnddntrrdr
 :END:
 * TODO [#C] maybe need a 'virtual'  "moving notes" mode for orgmode?  :think:
 :PROPERTIES:
@@ -730,13 +730,13 @@ could prob improve, e.g. detect actual stars?
 :END:
 * TODO [2020-12-17] [[https://karl-voit.at/2019/09/25/categories-versus-tags/][UOMF: Using Org Mode Categories Versus Tags]] :habit:
 :PROPERTIES:
-:ID:       e77bb05d-f207-42c6-9a5d-aa6fa98d08dc
+:ID:       skrlvttctgrsvrsstgsmfsngrgmdctgrsvrsstgs
 :END:
 : So if you press < when being on a line whose task is categorized with "ProjectY", your agenda now only shows tasks of this category, hiding everything else.
 * TODO use ,. for refiling to current file                            :habit:
 :PROPERTIES:
 :CREATED:  [2021-01-04]
-:ID:       9e3f6cae-b141-4d52-95be-dd8410eacc68
+:ID:       sfrrflngtcrrntfl
 :END:
 * TODO [#C] have a repository of org-mode demo files? generate it w.r.t to today so it's easy to demonstrate? org could hack current day somehow, but that could be tricky
 :PROPERTIES:
@@ -1041,7 +1041,7 @@ Ok looks this guy posted several posts and everyone is fine with that
 * TODO [#D] wonder if this was causing issues for me in test.org ?     :doom:
 :PROPERTIES:
 :CREATED:  [2020-02-27]
-:ID:       ba4209c3-612f-4b9f-96d1-4d6de73ab3e5
+:ID:       wndrfthswscsngsssfrmntstrg
 :END:
 :   ;; Allow inline image previews of http(s)? urls or data uris
 :   (org-link-set-parameters "http"  :image-data-fun #'+org-image-link)

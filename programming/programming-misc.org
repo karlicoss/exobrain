@@ -195,7 +195,7 @@ puppeteer is only available on chrome though??
 * TODO [#C] using tabs (tab stops) is a fairly reasonable way of aligning? :codestyle:
 :PROPERTIES:
 :CREATED:  [2020-02-19]
-:ID:       4786ba77-cb6c-42f3-80dd-8c3014981922
+:ID:       sngtbstbstpssfrlyrsnblwyflgnng
 :END:
 * TODO [#C] [2020-02-12] Dmitry Zuykov on Twitter: "firefox умеет автоматизацию через Marionette, который просто асинхронный tcp/json, для которого есть HTTP-враппер geckodriver, клиент для этой обёртки есть даже в нашем уютненьком и работает. Можно скрэпить через браузер, у меня… :scrape:
 :PROPERTIES:

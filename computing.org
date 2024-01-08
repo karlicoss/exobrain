@@ -179,7 +179,7 @@ https://github.com/d-cook/SomethingNew/issues/20
 * TODO [#C] ted nelson interview                         :tednelson:tolisten:
 :PROPERTIES:
 :CREATED:  [2020-02-14]
-:ID:       e9b9ece0-0475-4a7a-85ba-8adb69138aeb
+:ID:       tdnlsnntrvw
 :END:
 
 https://mobile.twitter.com/jborichevskiy/status/1228372354956394496
@@ -424,7 +424,7 @@ https://lucassimpson.com/blog/2020-01-23/my-second-phone-is-in-the-cloud/
 :END:
 * DONE [#B] [2020-01-25] mek.fyi | Universal todo list             :sadinfra:
 :PROPERTIES:
-:ID:       70aec2d0-cf09-49e7-a06e-745667852a26
+:ID:       mkfynvrsltdlst
 :END:
 https://mek.fyi/essays/universal-knowledge/universal-todo-list
 * [2020-11-01] [[https://www.youtube.com/watch?v=kZRE7HIO3vk&list=WL&index=69][The Thirty Million Line Problem - YouTube]]

@@ -96,7 +96,7 @@ thing-at-point
 * TODO [#C] lisp unpacking like in python  =(let ((x '(2 3))) `(1 ,@x 4 5))= :drill:python:
 :PROPERTIES:
 :CREATED:  [2021-01-01]
-:ID:       d70f0651-0847-413e-9ef4-dedc756528ab
+:ID:       lspnpcknglknpythnltxx
 :END:
 * ----------------------------------------
 :PROPERTIES:

@@ -1819,7 +1819,7 @@ http://sbolstandard.org
 * TODO [#C] Tweet from John Carlos Baez (@johncarlosbaez), at Jan 17, 17:34 Planck
 :PROPERTIES:
 :CREATED:  [2020-01-17]
-:ID:       ec31afef-01bd-456d-95bc-ad1efcf1632f
+:ID:       twtfrmjhncrlsbzjhncrlsbztjnplnck
 :END:
 
 : For more on this, read Helge Kragh's great article "Max Planck: the reluctant revolutionary":
@@ -3015,7 +3015,7 @@ https://en.wikipedia.org/wiki/Margolus%E2%80%93Levitin_theorem
 
 ** [#C] [2020-07-07] [[https://www.youtube.com/watch?v=rEuM_e4MvgE][Upgrading the Particle Physics Toolkit: The Future Circular Collider - Harry Cliff, John Womersley - YouTube]] :study:drill:
 :PROPERTIES:
-:ID:       0d6ac3c8-5060-498c-978c-725460b5a7b5
+:ID:       swwwytbcmwtchvrmmvgpgrdngclldrhrryclffjhnwmrslyytb
 :END:
 5:04 nice table of standard model.. perhaps I should memorize
 * [2019-11-01] John Carlos Baez on Twitter: "Take the real numbers. Throw in some square roots of +1 and some square roots of -1, all anticommuting. You get a Clifford algebra. Clifford algebras are important in geometry and physics - we need them to understand spin! They also display some amazing patterns. (1/n) https://t.co/IlnbpTbBqN" / Twitter

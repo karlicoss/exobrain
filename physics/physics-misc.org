@@ -451,7 +451,6 @@ from The Theoretical Minimum by George Hrabovsky
 :END:
 * TODO [#B] [2020-02-09] Лагранжева механика — Википедия             :toblog:
 :PROPERTIES:
-:ID:       4836776f-b013-4c60-bc39-d96087d0aad8
 :END:
 https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B3%D1%80%D0%B0%D0%BD%D0%B6%D0%B5%D0%B2%D0%B0_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0
 : В буквальном смысле принцип наименьшего действия справедлив лишь локально. А именно, имеет место

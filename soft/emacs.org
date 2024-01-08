@@ -22,7 +22,7 @@
 :END:
 * TODO [#B] [2020-01-30] deadgrep                                       :pkm:
 :PROPERTIES:
-:ID:       7f9dff0d-5b3f-4343-9de3-86e5306c9e45
+:ID:       ddgrp
 :END:
 https://beepb00p.xyz/pkm-search.html
 : Wilfred•an hour ago
@@ -31,7 +31,7 @@ https://beepb00p.xyz/pkm-search.html
 * TODO [#C] dash.el (defmacro --> (x &rest forms)                     :elisp:
 :PROPERTIES:
 :CREATED:  [2020-02-16]
-:ID:       23ae0f32-5be9-419f-a4f4-2904b34a5a76
+:ID:       dshldfmcrxrstfrms
 :END:
 * STRT [#B] need to either exclude ipynb or somehow exclude binary strings :pkm:search:
 :PROPERTIES:
@@ -271,7 +271,7 @@ https://www.reddit.com/r/emacs/comments/eewwyh/officially_introducing_memacs/
 * TODO [#C] pip3 install --user "python-language-server[all]"         :setup:
 :PROPERTIES:
 :CREATED:  [2020-02-25]
-:ID:       26a31898-152b-463c-a118-c1ee5a0c6e22
+:ID:       ppnstllsrpythnlnggsrvrll
 :END:
 * TODO [#C] cl-typecase                                               :elisp:
 :PROPERTIES:
@@ -559,7 +559,7 @@ Perhaps I should switch to thunderbird? Not sure what is used real world TODO?
 * TODO [#D] can use setf?                                             :elisp:
 :PROPERTIES:
 :CREATED:  [2020-02-16]
-:ID:       faed1851-03c2-4257-bf07-3c620193f0f4
+:ID:       cnsstf
 :END:
 :       (when super-groups
 :         (let ((org-super-agenda-groups (cl-etypecase super-groups
@@ -765,7 +765,7 @@ maybe swap a and A? note sure
 :END:
 * DONE [2020-02-20] raxod502/straight.el: 🍀 Next-generation, purely functional package manager for the Emacs hacker.
 :PROPERTIES:
-:ID:       eb796edd-24f1-454d-8dfd-1ce21eead906
+:ID:       rxdstrghtlnxtgnrtnprlyfnctnlpckgmngrfrthmcshckr
 :END:
 https://github.com/raxod502/straight.el#comparison-to-packageel
 * [#C] [2020-07-06] [[https://github.com/shrysr/.emacs.d/blob/7e8514c98b63724ad0e97b8b3c56b96d00d56b7f/index.md][.emacs.d/index.md at 7e8514c98b63724ad0e97b8b3c56b96d00d56b7f · shrysr/.emacs.d]]
@@ -858,7 +858,7 @@ https://github.com/emacs-tw/awesome-emacs#readme
 
 * DONE [#B] [2019-12-24] [[https://reddit.com/r/emacs/comments/eewwyh/officially_introducing_memacs/][(Officially) Introducing M-EMACS ;)]] /r/emacs :emacs:
 :PROPERTIES:
-:ID:       b97d6731-8dd8-43d5-ac56-b56f83700df8
+:ID:       srddtcmrmcscmmntswwyhffclmmcsffcllyntrdcngmmcsrmcs
 :END:
 : It's the end of 2019, I realized that I have worked on [M-EMACS](https://github.com/MatthewZMD/.emacs.d) for nearly a year now. M-EMACS is my personal Emacs setup and configurations, I have been spreading it for some time in comment sections and received some positive feedback from the community, but somehow I never bother to write a post to officially introduce it ;)
 
@@ -927,7 +927,7 @@ e -- eval expression
 
 * [#B] [2020-02-04] alphapapa/emacs-package-dev-handbook: An Emacs package development handbook. Built with Emacs, by Emacs package developers, for Emacs package developers. :elisp:
 :PROPERTIES:
-:ID:       4ef1d1cc-4a64-4bbc-a1be-e6e3aa7f6f87
+:ID:       lphppmcspckgdvhndbknmcspcpckgdvlprsfrmcspckgdvlprs
 :END:
 https://github.com/alphapapa/emacs-package-dev-handbook
 : The Emacs Package Developer’s Handbook
@@ -943,7 +943,7 @@ https://github.com/alphapapa/emacs-package-dev-handbook
 * TODO [#C] most common commands I'm using? could collect some stats automatically perhaps :emacs:toblog:
 :PROPERTIES:
 :CREATED:  [2020-02-24]
-:ID:       23def293-ed05-4f0a-b8c2-91dfe86451ca
+:ID:       mstcmmncmmndsmsngcldcllctsmsttstmtcllyprhps
 :END:
 * TODO [#B] [2019-11-21] [[https://reddit.com/r/emacs/comments/dzn3yj/how_do_you_use_emacs/][How do you use Emacs?]] /r/emacs
 :PROPERTIES:
@@ -1008,12 +1008,12 @@ https://github.com/alphapapa/emacs-package-dev-handbook
 * TODO [#C] C-k/C-j for browsing images                         :emacs:drill:
 :PROPERTIES:
 :CREATED:  [2021-04-26]
-:ID:       854332ac-5e8a-4326-9002-39cd3492f55e
+:ID:       ckcjfrbrwsngmgs
 :END:
 * TODO [#C] doom-big-font-mode                                  :habit:emacs:
 :PROPERTIES:
 :CREATED:  [2021-04-26]
-:ID:       2313498e-4fe9-44eb-abe6-1f6cd28a06ca
+:ID:       dmbgfntmd
 :END:
 * TODO [#C] [2020-04-21] http://metamodular.com/lispos.pdf     :emacs:toread:
 :PROPERTIES:

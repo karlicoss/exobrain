@@ -1462,7 +1462,7 @@ https://www.reddit.com/r/Python/comments/akgctg/theres_now_a_dead_simple_way_to_
 * TODO [#B] gotcha with yield                                  :yield:python:
 :PROPERTIES:
 :CREATED:  [2020-02-16]
-:ID:       b38986f2-9b63-43a8-9c05-4623dbd72783
+:ID:       gtchwthyld
 :END:
 :     def wrapped(path: Path):
 :         try:
@@ -1549,7 +1549,7 @@ https://python-graph-gallery.com/45-control-color-of-each-marker-seaborn/
 : scatter_kws={'facecolors':df['color']}
 * [#C] [2020-01-17] python - Format x-axis on chart created with pandas plot method - Stack Overflow :drill:pandas:
 :PROPERTIES:
-:ID:       772b3f4d-b6b9-4dda-a2ed-0e4edbc47b43
+:ID:       pythnfrmtxxsnchrtcrtdwthpndspltmthdstckvrflw
 :END:
 https://stackoverflow.com/questions/44496383/format-x-axis-on-chart-created-with-pandas-plot-method
 : ax = df.plot(kind='bar')
@@ -1565,7 +1565,7 @@ Comment:
 i.e. default got username set to "", which gets in the way of using __token__
 * [#C] [2020-02-16] python - Argparse: Way to include default values in '--help'? - Stack Overflow
 :PROPERTIES:
-:ID:       78679a8d-9775-43c5-beeb-97f75b44b562
+:ID:       pythnrgprswytnclddfltvlsnhlpstckvrflw
 :END:
 https://stackoverflow.com/questions/12151306/argparse-way-to-include-default-values-in-help
 : parser = argparse.ArgumentParser(

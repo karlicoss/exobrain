@@ -1122,7 +1122,7 @@ what the fuck??? how do I deal with it???
 * TODO [#B] start awesome-exports list?                     :exports:publish:
 :PROPERTIES:
 :CREATED:  [2020-02-21]
-:ID:       ffc5de8e-0e8b-49d3-b7ad-d61860cff89c
+:ID:       strtwsmxprtslst
 :END:
 * TODO [#C] script to grab files from downloads and move accodingly? e.g. for oyster statements
 :PROPERTIES:

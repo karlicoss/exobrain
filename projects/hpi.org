@@ -226,7 +226,7 @@ google docs-like interface
 : pyspread expects Python expressions in its grid cells, which makes a spreadsheet specific language obsolete. Each cell returns a Python object that can be accessed from other cells. These objects can represent anything including lists or matrices.
 ** TODO [#B] [2020-01-10] Repl.it - Feed  https://repl.it/talk/all?lang=python_turtle :project:promnesia:demo:
 :PROPERTIES:
-:ID:       99e5da60-0496-491e-a5f7-db990139acdd
+:ID:       rpltfdsrplttlklllngpythntrtl
 :END:
 : Repl from Repo
 : Instantly run any GitHub repository.

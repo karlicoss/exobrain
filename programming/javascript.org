@@ -284,7 +284,7 @@ https://datagridxl.com
 :END:
 * [#C] [2021-04-30] [[https://markodenic.com/use-console-log-like-a-pro/][Use console.log() like a pro - Marko Denic - Web Developer]] :drill:javascript:
 :PROPERTIES:
-:ID:       f427b822-33c1-4780-9f62-322b847aecd2
+:ID:       smrkdnccmscnsllglkprscnsllglkprmrkdncwbdvlpr
 :END:
 - console.group() and console.groupEnd()
 : Creates a new inline group, indenting all following output by another level. To move back out a level, call groupEnd().

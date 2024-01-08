@@ -209,7 +209,7 @@ https://en.wikipedia.org/wiki/Federated_architecture
 
 * DONE [#A] [2020-02-15] [[https://news.ycombinator.com/item?id=22333994][ActivityPub – The Secret Weapon of the Fediverse]] :federation:
 :PROPERTIES:
-:ID:       fca0f2a5-77e1-463e-84a0-55678f434c68
+:ID:       snwsycmbntrcmtmdctvtypbthscrtwpnfthfdvrs
 :END:
 https://homehack.nl/activitypub-the-secret-weapon-of-the-fediverse
 ** [2020-02-27] not much interesting in the discussion
