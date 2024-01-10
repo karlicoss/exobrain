@@ -60,7 +60,7 @@ Reflects my data for easier search, providing a plaintext interface.
 :END:
 * [#A] * prior art & inspiration
 :PROPERTIES:
-:ID:       prrrtnsprtn
+:CUSTOM_ID: prior_art
 :END:
 ** [#A] [2020-03-07] [[https://hyfen.net/memex][Memex]] by Andrew Louis + [[https://www.youtube.com/watch?v=DFWxvQn4cf8][RubyConf 2018 talk]]
 :PROPERTIES:
@@ -68,36 +68,42 @@ Reflects my data for easier search, providing a plaintext interface.
 :END:
 whoa, this is awesome
 he mentions the same problems I struggled with literally in the same words!
-** [#B] [2020-05-25] [[https://memri.cloud][Memri]]: a very promising project with the focus on user data ownership and privacy
+** STRT [#B] [2021-07-09] @thesephist: "personal search engine" https://twitter.com/thesephist/status/1413395289638150150 :hpi:memex:search:
 :PROPERTIES:
-:ID:       smmrcldmmrvryprmsngprjctwththfcsnsrdtwnrshpndprvcy
+:ID:       thsphstprsnlsrchngnstwttrcmthsphststts
 :END:
-** [#C] [2021-01-31] [[https://github.com/NickSto/life-browser][NickSto/life-browser: View a timeline of your own history through your personal data.]] :timeline:memex:
+: @thesephist: NEW PROJECT — I made a "personal search engine" that lets me search all my blogs, tweets, journals, notes, contacts, & more at once
+: It's called Monocle, and features a full text search system written in Ink
+
+github https://github.com/thesephist/monocle
+demo https://monocle.surge.sh/
+- [2024-01-10] looks very nice -- working demo, simple (in a good way) and instant search
+** [#C] [2020-05-25] [[https://memri.io][Memri]]: a promising project with the focus on user data ownership and privacy
+:PROPERTIES:
+:ID:       smmrmmrprmsngprjctwththfcsnsrdtwnrshpndprvcy
+:END:
+- [2024-01-10] not sure, the gitlab seems down, they kinda pivoted into AI, and [[https://app.memri.io][demo]] doesn't seem usable? (very slow)
+** [#D] [2021-01-31] [[https://github.com/NickSto/life-browser][NickSto/life-browser: View a timeline of your own history through your personal data.]] :timeline:memex:
 :PROPERTIES:
 :ID:       sgthbcmnckstlfbrwsrnckstlnfyrwnhstrythrghyrprsnldt
 :END:
 : This is a project I began to try to collate all the digital breadcrumbs of my life and show them in an easily viewable timeline.
-*** [2021-04-27] ok, interesting, but looks fairly basic, no UI yet and only contacts/location/hangouts/voice
-:PROPERTIES:
-:ID:       kntrstngbtlksfrlybscnytndnlycntctslctnhngtsvc
-:END:
-*** [#C] [2020-05-11] [[https://news.ycombinator.com/item?id=23131402][Thanks, I'll check it out! Yep, agree about the common codebase, that's why I'm... | Hacker News]]
-:PROPERTIES:
-:ID:       snwsycmbntrcmtmdthnksllchthcmmncdbsthtswhymhckrnws
-:END:
-: Hmm it's interesting how diverse the data sources people are actually using, but there's definitely overlap.
-** STRT [#B] [2021-03-15] [[https://github.com/Heapy/Komodo-CRM][Heapy/Komodo-CRM: Life and collaboration assistant.]] :memex:
+
+- [2021-04-27] ok, interesting, but looks fairly basic, no UI yet and only contacts/location/hangouts/voice
+- [2024-01-10] no updates for 3 years
+** [#D] [2021-03-15] [[https://github.com/Heapy/Komodo-CRM][Heapy/Komodo-CRM: Life and collaboration assistant.]] :memex:timeline:
 :PROPERTIES:
 :ID:       sgthbcmhpykmdcrmhpykmdcrmlfndcllbrtnssstnt
 :END:
-ran into it from
-https://github.com/Heapy/Komodo-CRM/issues/72
-** [#D] [2021-01-21] [[https://github.com/steve-1820/memex][steve-1820/memex: A brief POC of what a Memex could potentially be.]] :memex:
+ran into it from https://github.com/Heapy/Komodo-CRM/issues/72
+some interesting notes on unified timeline-like view as well
+- [2024-01-10] doesn't look like there is any actual code there?
+** [#E] [2021-01-21] [[https://github.com/steve-1820/memex][steve-1820/memex: A brief POC of what a Memex could potentially be.]] :memex:
 :PROPERTIES:
 :ID:       sgthbcmstvmmxstvmmxbrfpcfwhtmmxcldptntllyb
 :END:
 ok, so it's more of a prototype at this point? and they are reinventing editor/annotation... not sure
-
+- [2024-01-10] no updates for 3 years
 * [#B] * remembrance agents
 :PROPERTIES:
 :CUSTOM_ID: remembrance_agent
@@ -181,7 +187,7 @@ Ok, this looks pretty cool.. maybe need to contact them and discuss
 :CREATED:  [2019-12-06]
 :ID:       shwrndmphts
 :END:
-** TODO [#B] [2021-03-26] [[https://en.wikipedia.org/wiki/Nextcloud][Nextcloud - Wikipedia]] :location:degoogle:memex:
+** TODO [#B] [2021-03-26] [[https://en.wikipedia.org/wiki/Nextcloud][Nextcloud - Wikipedia]] :maps:nextcloud:location:degoogle:memex:
 :PROPERTIES:
 :ID:       snwkpdrgwknxtcldnxtcldwkpd
 :END:
@@ -212,11 +218,42 @@ Some existing communities:
 - [[https://disboard.org/server/join/727903265437777944][The Productivitst Discord]]
 - [[https://discord.gg/AE3NRw9][dendron Discord]]
 - [[https://discord.gg/KpN4eHY][logseq Discord]]
-* [#C] [2018-09-04] tesseract is best apparently? but couldn't handle elliptical photos.. :ocr:
+* [#C] * building blocks and infrastructure
 :PROPERTIES:
-:ID:       tssrctsbstpprntlybtcldnthndlllptclphts
+:ID:       bldngblcksndnfrstrctr
 :END:
-* TODO [#B] [2020-10-07] eh, would be really nice to have some sort of memex at this point :promnesia:memex:
+** STRT [#B] for IM interface, could use some open source messaging infra capable of fully offline sync? :memex:
+:PROPERTIES:
+:CREATED:  [2022-08-22]
+:ID:       frmntrfccldssmpnsrcmssgngnfrcpblffllyfflnsync
+:END:
+- [2024-01-10] started using Zulip for it
+*** [2022-08-22] [[https://github.com/vector-im/element-android/issues/2150][Cache all messages · Issue #2150 · vector-im/element-android]] :memex:matrix:
+:PROPERTIES:
+:ID:       sgthbcmvctrmlmntndrdssscchllmssgsssvctrmlmntndrd
+:END:
+shit.. seems that Element isn't really able to cache all messages offline
+sigh..
+tbh something with Telegram UI would be perfect
+** [#B] [2021-06-15] [[https://lyz-code.github.io/blue-book/projects/#self-hosted-map][The Blue Book: self hosted map]] :maps:memex:
+:PROPERTIES:
+:ID:       slyzcdgthbblbkprjctsslfhstdmpthblbkslfhstdmp
+:END:
+** TODO [#B] [2021-04-16] [[https://lobste.rs/s/tsh0jq/sqlite_only_database_you_will_ever_need][SQLite the only database you will ever need in most cases | Lobsters]] :location:sqlite:
+:PROPERTIES:
+:ID:       slbstrsstshjqsqltnlydtbsydtbsywllvrndnmstcsslbstrs
+:END:
+: I used to use SQLite all the time for geospatial data using the SpatiaLite extensions, it made dealing with data in many different formats much easier (and scriptable) and just simplified a lot of the work we had to do to manage weird datasets on nationalmap.gov.au(/renewables - sadly recently made defunct due to lack of government funding).
+: We’d pretty regularly get CSVs with columns for LAT and LON, and need to do some actual work with the data, or turn it into another format like GeoJSON. Or we’d get a bunch of GeoJSON data that we wanted to manipulate.
+** [#C] [2018-09-04] for OCR tesseract is best apparently? but it couldn't handle photos of elliptical machine :ocr:
+:PROPERTIES:
+:ID:       frcrtssrctsbstpprntlybttcldnthndlphtsfllptclmchn
+:END:
+* [#D] * random thoughts
+:PROPERTIES:
+:ID:       rndmthghts
+:END:
+** TODO [#B] [2020-10-07] eh, would be really nice to have some sort of memex at this point :promnesia:memex:
 :PROPERTIES:
 :ID:       hwldbrllyncthvsmsrtfmmxtthspnt
 :END:
@@ -224,55 +261,54 @@ maybe it could have some basic core (e.g. with couchdb), and then used in differ
 e.g. promnesia uses it to jump and browse the history
 dashboard uses to display all events
 timeline -- similarly for all life events
-
-* TODO [#B] ugh. it's still more convenient to use google location than any of my tools.. :dashboard:grafana:memex:location:
+** TODO [#B] ugh. it's still more convenient to use google location than any of my tools.. :dashboard:grafana:memex:location:
 :PROPERTIES:
 :CREATED:  [2021-01-09]
 :ID:       ghtsstllmrcnvnnttsggllctnthnnyfmytls
 :END:
 - [2021-02-22] to be fair I didn't really do much on it yet
-* DONE [#B] [2021-02-23] [[https://tiendil.org/exocortex-3-5/][Экзокортекс 3.5]] :memex:
-:PROPERTIES:
-:ID:       stndlrgxcrtx
-:END:
-* DONE [#B] [2021-02-23] [[https://tiendil.org/exocortex-minimal-functionality/][Экзокортекс: минимальная функциональность]] :memex:
-:PROPERTIES:
-:ID:       stndlrgxcrtxmnmlfnctnlty
-:END:
-** [2021-03-14] good summary and memex design requirements (in Russian)
-:PROPERTIES:
-:ID:       gdsmmryndmmxdsgnrqrmntsnrssn
-:END:
-* ----------------------------
-:PROPERTIES:
-:END:
-* TODO [#D] Tweet from @mekarpeles                                    :memex:
-:PROPERTIES:
-:CREATED:  [2020-06-12]
-:ID:       twtfrmmkrpls
-:END:
-https://twitter.com/mekarpeles/status/1271226785439428608
-: @mekarpeles: Finally made a short 📽️ of https://t.co/glrT8wpAk2: Free + open source v. of @wikidata meets @RoamResearch (both which I 👍)
-
-* TODO [#C] [2020-11-30] [[https://github.com/appaquet/exocore#roadmap][appaquet/exocore: A distributed private application framework]]
-:PROPERTIES:
-:ID:       sgthbcmppqtxcrrdmpppqtxcrdstrbtdprvtpplctnfrmwrk
-:END:
-: Exocore is a distributed applications framework with private and encrypted data storage. Think of like an infrastructure that allows a user to own his own personal cloud that is extensible via WebAssembly applications and accessible via Web/Mobile SDKs. It is designed to be resilient to failures, allow offline usage (ex: on mobile).
-* [#C] [2021-03-23] [[https://www.saul.pw/biograph/][Biograph]] :lifelogging:inspiration:
-:PROPERTIES:
-:ID:       swwwslpwbgrphbgrph
-:END:
-nice 2d representation
-* TODO [#B] [2021-04-16] [[https://lobste.rs/s/tsh0jq/sqlite_only_database_you_will_ever_need][SQLite the only database you will ever need in most cases | Lobsters]] :location:sqlite:
-:PROPERTIES:
-:ID:       slbstrsstshjqsqltnlydtbsydtbsywllvrndnmstcsslbstrs
-:END:
-: I used to use SQLite all the time for geospatial data using the SpatiaLite extensions, it made dealing with data in many different formats much easier (and scriptable) and just simplified a lot of the work we had to do to manage weird datasets on nationalmap.gov.au(/renewables - sadly recently made defunct due to lack of government funding).
-: We’d pretty regularly get CSVs with columns for LAT and LON, and need to do some actual work with the data, or turn it into another format like GeoJSON. Or we’d get a bunch of GeoJSON data that we wanted to manipulate.
-* [#D] [2020-08-28] from email discussion
+** [#D] [2020-08-28] from email discussion
 :PROPERTIES:
 :ID:       frmmldscssn
 :END:
 : Having stale data from manual exports is still useful, but adds a lot of mental friction ("is the export up-to-date enough to actually have what I need?").
 : Very good point! Just thought, perhaps some meta information about the 'recency' of the data could be included in the interface, that might remove some of the friction.
+* other links
+:PROPERTIES:
+:ID:       thrlnks
+:END:
+** DONE [#B] [2021-02-23] [[https://tiendil.org/exocortex-3-5/][Экзокортекс 3.5]] :memex:
+:PROPERTIES:
+:ID:       stndlrgxcrtx
+:END:
+** DONE [#B] [2021-02-23] [[https://tiendil.org/exocortex-minimal-functionality/][Экзокортекс: минимальная функциональность]] :memex:
+:PROPERTIES:
+:ID:       stndlrgxcrtxmnmlfnctnlty
+:END:
+*** [2021-03-14] good summary and memex design requirements (in Russian)
+:PROPERTIES:
+:ID:       gdsmmryndmmxdsgnrqrmntsnrssn
+:END:
+** [#C] [2020-11-30] [[https://github.com/appaquet/exocore#roadmap][appaquet/exocore: A distributed private application framework]]
+:PROPERTIES:
+:ID:       sgthbcmppqtxcrrdmpppqtxcrdstrbtdprvtpplctnfrmwrk
+:END:
+: Exocore is a distributed applications framework with private and encrypted data storage.
+: Think of like an infrastructure that allows a user to own his own personal cloud that is extensible via WebAssembly applications and accessible via Web/Mobile SDKs.
+: It is designed to be resilient to failures, allow offline usage (ex: on mobile).
+
+- [2024-01-10] some interesting concepts and potentian infra but not sure if there is a working prototype.. most updates are dependency bumping
+** [#B] [2021-03-23] [[https://www.saul.pw/biograph/][Biograph]] :timeline:lifelogging:inspiration:
+:PROPERTIES:
+:ID:       swwwslpwbgrphbgrph
+:END:
+nice 2d representation
+** TODO [#D] Tweet from @mekarpeles https://twitter.com/mekarpeles/status/1271226785439428608 :memex:
+:PROPERTIES:
+:CREATED:  [2020-06-12]
+:ID:       twtfrmmkrplsstwttrcmmkrplsstts
+:END:
+: @mekarpeles: Finally made a short 📽️ of https://t.co/glrT8wpAk2: Free + open source v. of @wikidata meets @RoamResearch (both which I 👍)
+* ----------------------------
+:PROPERTIES:
+:END:
