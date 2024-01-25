@@ -1,0 +1,10 @@
+#+title: CLI/TUI programming
+
+* [#B] [2021-12-19] [[https://askubuntu.com/questions/27314/script-to-display-all-terminal-colors][command line - Script to display all terminal colors - Ask Ubuntu]] -- use =colortest= tools :cli:
+:PROPERTIES:
+:ID:       sskbntcmqstnsscrpttdsplylltrmnlclrsskbntsclrtsttls
+:END:
+* TODO [#C] [2022-05-04] [[https://github.com/kroitor/asciichart][kroitor/asciichart: Nice-looking lightweight console ASCII line charts ╭┈╯ for NodeJS, browsers and terminal, no dependencies]] :cli:
+:PROPERTIES:
+:ID:       sgthbcmkrtrscchrtkrtrscchndjsbrwsrsndtrmnlndpndncs
+:END:

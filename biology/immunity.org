@@ -1,0 +1,94 @@
+#+title: Immunity
+#+filetags: immunity
+
+* related
+:PROPERTIES:
+:ID:       rltd
+:END:
+** .                                                                :biology:
+:PROPERTIES:
+:END:
+* [#B] [2021-12-12] [[https://22century.ru/popular-science-publications/immunologist][«Прививки — это часть ЗОЖ»: иммунолог Дарья Карташева-Эберц о вакцинации от коронавируса]] :covid:
+:PROPERTIES:
+:ID:       scntryrpplrscncpblctnsmmnlgst
+:END:
+wow, really good article
+
+* [#C] [2021-11-29] [[https://www.reddit.com/r/askscience/comments/pd761f/natural_immunity_vs_vaccine_immunity/haoho3c][reddit: Is natural immunity better than vaccine immunity?]] :covid:
+:PROPERTIES:
+:ID:       swwwrddtcmrskscnccmmntspdntrlmmntybttrthnvccnmmnty
+:END:
+: The general answer is that it's unpredictable.
+: If we look at widely-used vaccines, there are examples where infection leads to worse immunity (HPV, probably others) several examples where vaccines are similar to infection (measles, etc), and one clear example where the vaccine is worse (influenza, mainly because the vaccines for flu tend to have relatively low efficacy)
+: This is normal for viral infections it's pretty much universally true that the immune response makes a lot of antibodies which are completely useless in terms of infection, targeting viral proteins that are hidden inside the virus for example. : In influenza infection, for example, there are high levels of antibodies against the NP protein (corresponding roughly to SARS-CoV-2's N) and those antibodies are useless; you can fill an animal up with them and not see significant protection. : But we don't know for sure yet if that's true with SARS-CoV-2.
+
+* [#C] [2021-05-18] [[https://www.youtube.com/watch?v=5DGwOJXSxqg][COVID-19 Animation: What Happens If You Get Coronavirus? - YouTube]] :covid:
+:PROPERTIES:
+:ID:       swwwytbcmwtchvdgwjxsxqgcvnmtnwhthppnsfygtcrnvrsytb
+:END:
+antibodies attach to the virus before it enters cells, to prevent virus from entering the cell
+* [#C] [2021-05-18] [[https://www.youtube.com/watch?v=HUSDvSknIgI][Immune System - Fighting Infection by Clonal Selection - YouTube]]
+:PROPERTIES:
+:ID:       swwwytbcmwtchvhsdvskngmmnfghtngnfctnbyclnlslctnytb
+:END:
+some b cell (by chance) will recognize the bits of virus and start multiplying, producing antibodies -- which will attach to the viral/bacterial bodies and mark them for destruction
+* [#C] [2021-06-17] [[https://www.youtube.com/watch?v=oefAI2x2CQM][Protein Synthesis (Updated) - YouTube]]
+:PROPERTIES:
+:ID:       swwwytbcmwtchvfxcqmprtnsynthsspdtdytb
+:END:
+t-rna carry triples of complementary RNA on one end, and amino acids on the other end
+* [#C] [2021-11-19] [[https://en.wikipedia.org/wiki/Vectors_in_gene_therapy#Adenoviruses][wikipedia]]: adenoviruses are DNA viruses? but don't integrate in the host. whoa
+:PROPERTIES:
+:ID:       snwkpdrgwkvctrsngnthrpydnrdnvrssbtdntntgrtnthhstwh
+:END:
+: They cause respiratory, intestinal, and eye infections in humans (especially the common cold).
+: When these viruses infect a host cell, they introduce their DNA molecule into the host.
+: The genetic material of the adenoviruses is not incorporated (transient) into the host cell's genetic material.
+: The DNA molecule is left free in the nucleus of the host cell, and the instructions in this extra DNA molecule are transcribed just like any other gene.
+: The only difference is that these extra genes are not replicated when the cell is about to undergo cell division so the descendants of that cell will not have the extra gene
+
+* [2021-12-31] [[https://nplus1.ru/material/2021/12/31/molnupiravir-problem][Недопокалечит]]
+:PROPERTIES:
+:ID:       snplsrmtrlmlnprvrprblm
+:END:
+: Американские исследователи, которые работали с ВИЧ, решили изменить вирус до неузнаваемости.
+: Для этого они добавляли в клетки «испорченные» аналоги нуклеотидов — стройматериалов для нуклеиновых кислот.
+: Эти аналоги отличались от оригиналов всего одной химической группой, поэтому фермент, который копирует вирусный геном (в случае ВИЧ это обратная транскриптаза, которая строит ДНК на матрице РНК), не замечал подмены и встраивал их в генетический текст вируса наравне с остальными.
+: Но когда собранный с участием таких нуклеотидных аналогов вирус пытается снять с себя новую копию, у него начинаются проблемы: «хвосты» на испорченных «буквах» вынуждают все ту же транскриптазу подбирать к ним неправильные пары: напротив модифицированного цитозина фермент пристраивает не гуанин, как обычно, а аденин.
+: Так в вирусном геноме появляются избыточные мутации.
+* [2021-12-12] [[https://www.reddit.com/r/askscience/comments/njzi5d/why_are_studies_on_how_effective_antibodies/][Why are studies on how effective antibodies attained from having covid 19 are at future immunity so much more inconclusive than studies on effectiveness of the vaccine? : askscience]] :covid:
+:PROPERTIES:
+:ID:       swwwrddtcmrskscnccmmntsnjtdsnffctvnssfthvccnskscnc
+:END:
+: We can also look at indirect measures on an individual level.
+: Again, as others have said, we can look at things like “antibody levels”, cell counts of various sub-types of white blood cells, and other markers in your body to see what your immune system is up to.
+: However, these measures get back to the same problem mentioned in my first point... “Just because we see the antibodies are there doesn’t mean they actually protect you. How do we know they protect you?”
+: The short answer is... we don’t.
+: There was a lot of talk several months ago about how people’s “antibody levels” seemed to be dropping much faster than initially anticipated after getting CoVID.
+: This raised concern about the risk of reinfection.
+: The more interesting thing is that, as time has gone on, we’re not really seeing very many reinfections.
+: This tells us that using antibody levels as an indirect marker of immunity is pretty inaccurate.
+
+* TODO [#C] [2021-12-12] [[https://www.reddit.com/r/COVID19/comments/rd7d1o/minimal_crossover_between_mutations_associated/][Minimal cross-over between mutations associated with Omicron variant of SARS-CoV-2 and CD8+ T cell epitopes identified in COVID-19 convalescent individuals : COVID19]]
+:PROPERTIES:
+:ID:       swwwrddtcmrcvdcmmntsrddmnntfdncvdcnvlscntndvdlscvd
+:END:
+: Neutralisation would be much more well achieved(most probably anyway) via a nasal or at least mouth sprayed vaccine.
+: Part of the reason that neutralisation wanes is because we are injecting the vaccine into muscle, and that is not how SARS-CoV-2 infects people, so that the body produces any neutralising antibodies in the lungs/mouth/nose is almost incidental/accidental.
+: There are nasal based vaccines in development, but haven't heard much about them recently.
+
+hmm does the location of vaccine 'injection' really matter?
+
+* [2021-11-28] [[https://www.reddit.com/r/dataisbeautiful/comments/kqgxu4/comparing_covid19_vs_influenza_mortality_in_the/][Comparing COVID-19 vs. Influenza Mortality in the U.S. [OC] : dataisbeautiful]]
+:PROPERTIES:
+:ID:       swwwrddtcmrdtsbtflcmmntskvsnflnzmrtltynthscdtsbtfl
+:END:
+: Exactly. The actual number of confirmed flu deaths is only one to two thousand each year.
+: Combining with pneumonia and applying a mathematical model result in OP's numbers and graph.
+
+* [#C] [2021-12-18] [[https://en.wikipedia.org/wiki/Somatic_hypermutation][Somatic hypermutation - Wikipedia]]
+:PROPERTIES:
+:ID:       snwkpdrgwksmtchyprmttnsmtchyprmttnwkpd
+:END:
+white blood cells change DNA in order to produce the necessary antibodies?
+so technically any infection/vaccine changes DNA

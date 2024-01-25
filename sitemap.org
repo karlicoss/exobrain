@@ -20,6 +20,7 @@
 - biology
   - [[file:biology/biology-misc.org][biology-misc]]
   - [[file:biology/human-body.org][Human body]]
+  - [[file:biology/immunity.org][Immunity]]
 - blog
   - [[file:blog/blog.org][⭐ Blog related stuff]]
   - [[file:blog/static-blog.org][Why use static blog?]]
@@ -95,6 +96,7 @@
   - [[file:programming/androiddev.org][Android development]]
   - [[file:programming/bash.org][bash]]
   - [[file:programming/webext.org][Building browser extensions]]
+  - [[file:programming/cli.org][CLI/TUI programming]]
   - [[file:programming/elisp.org][Elisp]]
   - [[file:programming/fp.org][Functional programming]]
   - [[file:programming/haskell.org][Haskell]]
@@ -143,6 +145,8 @@
   - [[file:soft/orgparse.org][Orgparse]]
   - [[file:soft/shell.org][Shell concepts]]
   - [[file:soft/vim.org][vim]]
+- sport
+  - [[file:sport/climbing.org][Climbing]]
 - study
   - [[file:study/learning.org][Learning: meta]]
   - [[file:study/study-misc.org][study-misc]]
