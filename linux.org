@@ -70,6 +70,12 @@ presistent is not showing anythin by default?
 :PROPERTIES:
 :ID:       prflngsystmdnlyzblm
 :END:
+** use asserts in unit definitions
+:PROPERTIES:
+:ID:       sssrtsnntdfntns
+:END:
+- =AssertPathExists= fails if the pass is missing or symlink is broken
+
 * networking                                                        :network:
 :PROPERTIES:
 :ID:       ntwrkng

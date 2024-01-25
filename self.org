@@ -162,7 +162,7 @@ https://collegeinfogeek.com/about/meet-the-author/my-impossible-list/
 https://www.reddit.com/r/Buddhism/comments/2el542/how_to_break_up_with_someone_you_cant_bare_to_hurt/ck13yo8/
 : some comprehensive advice on mirroring, emotional honesty, questioning a relationship
 
-* START [#C] [2019-06-13] How to Be Happy - LessWrong 2.0         :gratitude:
+* STRT [#C] [2019-06-13] How to Be Happy - LessWrong 2.0          :gratitude:
 :PROPERTIES:
 :ID:       hwtbhppylsswrng
 :END:
@@ -187,7 +187,7 @@ https://www.lesswrong.com/posts/ZbgCx2ntD5eu8Cno9/how-to-be-happy
 :PROPERTIES:
 :ID:       smptntllysfldvcnthspstbtthrwsprttytrvl
 :END:
-* START [#C] should put discontinued in github project's descriptions, so it's visible on overview
+* STRT [#C] should put discontinued in github project's descriptions, so it's visible on overview
 :PROPERTIES:
 :CREATED:  [2019-09-04]
 :ID:       shldptdscntndngthbprjctsdscrptnsstsvsblnvrvw
@@ -538,7 +538,7 @@ https://twitter.com/arula_artwork/status/1133327170594467843
 :CREATED:  [2018-08-12]
 :ID:       whtfcnspndtmwr
 :END:
-* START [#B] [2019-01-27] cyanicenine comments on Hobbies that provide cognitive benefits? :cognitive:sport:hobby:
+* STRT [#B] [2019-01-27] cyanicenine comments on Hobbies that provide cognitive benefits? :cognitive:sport:hobby:
 :PROPERTIES:
 :ID:       cyncnncmmntsnhbbsthtprvdcgntvbnfts
 :END:

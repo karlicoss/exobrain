@@ -28,7 +28,7 @@ huh!
 :PROPERTIES:
 :ID:       mthcrdhmbznstnndhtmlnwthnslwdrvtngthrgh
 :END:
-* START [2014-07-15]  sean carroll lecture notes on general relativity
+* STRT [2014-07-15]  sean carroll lecture notes on general relativity
 :PROPERTIES:
 :ID:       sncrrlllctrntsngnrlrltvty
 :END:
@@ -46,7 +46,7 @@ http://www.preposterousuniverse.com/grnotes/
 parallel propagator
 ok, we get geodesic equatiion from the parellel transport equation
 
-* START ANN [Carroll][2014] Spacetime and Geometry. An Introduction to General Relativity.pdf
+* STRT ANN [Carroll][2014] Spacetime and Geometry. An Introduction to General Relativity.pdf
 :PROPERTIES:
 :CREATED:  [2018-07-09]
 :ID:       nncrrllspctmndgmtrynntrdctntgnrlrltvtypdf
@@ -161,12 +161,12 @@ derivation of energy-momentum tensor for dust
 
 
 
-* START some pdf at work.. calculating levi-civita symbols for cylinder
+* STRT some pdf at work.. calculating levi-civita symbols for cylinder
 :PROPERTIES:
 :CREATED:  [2018-07-12]
 :ID:       smpdftwrkclcltnglvcvtsymblsfrcylndr
 :END:
-* START play with metric tensor a bit
+* STRT play with metric tensor a bit
 :PROPERTIES:
 :CREATED:  [2018-07-12]
 :ID:       plywthmtrctnsrbt

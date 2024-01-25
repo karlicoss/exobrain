@@ -1855,7 +1855,7 @@ https://medium.com/@justin_d_lawler/improving-my-sleep-with-a-glucose-monitor-72
 :PROPERTIES:
 :ID:       pls
 :END:
-** START HR monitor
+** STRT HR monitor
 :PROPERTIES:
 :ID:       hrmntr
 :END:

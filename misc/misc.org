@@ -1156,7 +1156,7 @@ https://twitter.com/hillelogram/status/1260389954045214721
 :END:
 https://intuitiveexplanations.com
 el-patch guy
-* START [#D] [2019-08-18] Trending repositories on GitHub today     :explore:
+* STRT [#D] [2019-08-18] Trending repositories on GitHub today      :explore:
 :PROPERTIES:
 :ID:       trndngrpstrsngthbtdy
 :END:

@@ -102,7 +102,7 @@ https://www.youtube.com/watch?v=c3NdgSIe030
 :END:
 https://bartoszmilewski.com/2018/12/11/keep-it-simplex-stupid/
 
-* START [#C] summary on trying to understand triangulated fundamental group :topology:autopology:
+* STRT [#C] summary on trying to understand triangulated fundamental group :topology:autopology:
 :PROPERTIES:
 :CREATED:  [2019-02-10]
 :ID:       smmryntryngtndrstndtrngltdfndmntlgrp
@@ -159,7 +159,7 @@ look at remaining
 :END:
 
 https://math.stackexchange.com/questions/2472310/finding-fundamental-group-of-simplicial-complexes
-** START book by Armstrong, p. 134. Don't really understand the statement, it's all very vague
+** STRT book by Armstrong, p. 134. Don't really understand the statement, it's all very vague
 :PROPERTIES:
 :ID:       bkbyrmstrngpdntrllyndrstndthsttmnttsllvryvg
 :END:

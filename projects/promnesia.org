@@ -1660,7 +1660,7 @@ https://support.mozilla.org/en-US/kb/troubleshoot-extensions-themes-to-fix-probl
 :CREATED:  [2020-04-15]
 :ID:       cldtstntwnt
 :END:
-* START [#C] usability: keyboard navigation                :webext:malleable:
+* STRT [#C] usability: keyboard navigation                 :webext:malleable:
 :PROPERTIES:
 :CREATED:  [2019-07-06]
 :ID:       sbltykybrdnvgtn

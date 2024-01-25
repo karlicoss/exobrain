@@ -44,7 +44,7 @@ Indefinite articles developed from numerals, and the definite articles developed
 :CREATED:  [2021-01-05]
 :ID:       zrlktrdynmkbwgtrkrpr
 :END:
-* START [#C] Invest more effort in german                            :german:
+* STRT [#C] Invest more effort in german                             :german:
 :PROPERTIES:
 :CREATED:  [2018-08-04]
 :ID:       nvstmrffrtngrmn

@@ -119,7 +119,7 @@ then,
 - The topological space X is Hausdorff if for any two distinct points w,x∈X, there is a subset A of X such that w doesn't touch A and x doesn't touch the complement of A.
   dunno, this one is weird
   TODO shit, I really want the ability to insert todos wherever I want, not only on outline levels
-*** START drill this?
+*** STRT drill this?
 :PROPERTIES:
 :ID:       drllths
 :END:
@@ -577,7 +577,7 @@ https://twitter.com/Meaningness/status/1193683556364513280
 :END:
 excellent videos
 
-* START [#C] Try spaced repetition for basic topology     :topolog:spacedrep:
+* STRT [#C] Try spaced repetition for basic topology      :topolog:spacedrep:
 :PROPERTIES:
 :CREATED:  [2019-01-25]
 :ID:       tryspcdrpttnfrbsctplgy

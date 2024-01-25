@@ -69,7 +69,7 @@ https://github.com/cask/cask
 :CREATED:  [2020-03-02]
 :ID:       trvrt
 :END:
-* START [#C] learn to use ediff                                       :habit:
+* STRT [#C] learn to use ediff                                        :habit:
 :PROPERTIES:
 :CREATED:  [2018-03-08]
 :ID:       2efa871e-d1cc-4133-9877-87e613832e19
@@ -213,7 +213,7 @@ but multiple dirs aren't working. spent 20 minutes trying to figure out how it's
 :CREATED:  [2020-03-05]
 :ID:       mcsdlclntsrfndtndrgt
 :END:
-* START [#C] andrewtropin кроме paredit, есть ещё любопытная штуковина parinfer: https://shaunlebron.github.io/parinfer/ :elisp:lisp:
+* STRT [#C] andrewtropin кроме paredit, есть ещё любопытная штуковина parinfer: https://shaunlebron.github.io/parinfer/ :elisp:lisp:
 :PROPERTIES:
 :CREATED:  [2018-09-07]
 :ID:       ndrwtrpnprdtprnfrsshnlbrngthbprnfr
@@ -409,7 +409,7 @@ https://www.reddit.com/r/emacs/comments/7f62pn/tramp_hang_after_sending_password
 :CREATED:  [2018-09-26]
 :ID:       dnnttn
 :END:
-* START [#D] agenda on F12 press? on constantly loaded emacs instance :setup:
+* STRT [#D] agenda on F12 press? on constantly loaded emacs instance  :setup:
 :PROPERTIES:
 :CREATED:  [2018-01-11]
 :ID:       gndnfprssncnstntlylddmcsnstnc
@@ -647,7 +647,7 @@ https://github.com/Somelauw/evil-org-mode
 
 https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Bsource-control/git#quick-guide-for-recurring-use-cases-in-magit
 
-** START use 'light'                                                  :habit:
+** STRT use 'light'                                                   :habit:
 :PROPERTIES:
 :CREATED:  [2018-06-10]
 :ID:       c64342a9-3490-4f39-ad53-c9e09a31ddc3

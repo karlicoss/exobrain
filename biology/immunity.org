@@ -92,3 +92,18 @@ hmm does the location of vaccine 'injection' really matter?
 :END:
 white blood cells change DNA in order to produce the necessary antibodies?
 so technically any infection/vaccine changes DNA
+
+* [2021-05-18] [[https://en.wikipedia.org/wiki/Cell-mediated_immunity][Cell-mediated immunity - Wikipedia]]
+:PROPERTIES:
+:ID:       snwkpdrgwkcllmdtdmmntycllmdtdmmntywkpd
+:END:
+: Cell-mediated immunity is an immune response that does not involve antibodies.
+: Rather, cell-mediated immunity is the activation of phagocytes, antigen-specific cytotoxic T-lymphocytes, and the release of various cytokines in response to an antigen.
+* [2021-05-18] [[https://en.wikipedia.org/wiki/Humoral_immunity][Humoral immunity - Wikipedia]]
+:PROPERTIES:
+:ID:       snwkpdrgwkhmrlmmntyhmrlmmntywkpd
+:END:
+: Humoral immunity or humoural immunity is the aspect of immunity that is mediated by macromolecules found in extracellular fluids such as secreted antibodies, complement proteins, and certain antimicrobial peptides.
+: Humoral immunity is named so because it involves substances found in the humors, or body fluids.
+: It contrasts with cell-mediated immunity.
+: Humoral immunity is also referred to as antibody-mediated immunity.

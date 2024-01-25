@@ -113,7 +113,7 @@ TODO non-degeneracy?
 :END:
 
 
-* START [2018-11-16]  Topics in Representation Theory: Hamiltonian Mechanics and Symplectic Geometry
+* STRT [2018-11-16]  Topics in Representation Theory: Hamiltonian Mechanics and Symplectic Geometry
 :PROPERTIES:
 :ID:       tpcsnrprsnttnthryhmltnnmchncsndsymplctcgmtry
 :END:
@@ -171,7 +171,7 @@ American Mathematical Society, 1995.
 [2] Guillemin, V. and Sternberg, S., Symplectic Techniques in Physics, Cam-
 bridge University Press, 1984.
 
-* START [2018-11-17] Terence Tao: Phase Space
+* STRT [2018-11-17] Terence Tao: Phase Space
 :PROPERTIES:
 :ID:       trnctphsspc
 :END:
@@ -344,7 +344,7 @@ $f(p_i, q^i, t)$ -- if time dependent , then $\dv{f}{t} = \{f, H\} + \pdv{f}{t}$
 any 2n-dimensional symplectic manifold looks like R^2n, w_0 
 
 
-* START [2018-11-18] ok, I should implement some simple phase space portrait plotting first
+* STRT [2018-11-18] ok, I should implement some simple phase space portrait plotting first
 :PROPERTIES:
 :ID:       kshldmplmntsmsmplphsspcprtrtplttngfrst
 :END:

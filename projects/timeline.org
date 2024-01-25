@@ -111,12 +111,12 @@ shazam for geolocation
 :PROPERTIES:
 :ID:       ntgrtns
 :END:
-** START [#C] [2016-06-10]  sleep data                                :sleep:
+** STRT [#C] [2016-06-10]  sleep data                                 :sleep:
 :PROPERTIES:
 :ID:       slpdt
 :END:
 rescuetime for sleep data
-** START places
+** STRT places
 :PROPERTIES:
 :ID:       plcs
 :END:
@@ -145,7 +145,7 @@ I guess makes sense to go thought only sorted photos? or unsorted ones could be 
 :PROPERTIES:
 :ID:       zshhstfl
 :END:
-** START dreams
+** STRT dreams
 :PROPERTIES:
 :ID:       drms
 :END:
@@ -157,7 +157,7 @@ I guess makes sense to go thought only sorted photos? or unsorted ones could be 
 :PROPERTIES:
 :ID:       drnknglg
 :END:
-** START bring more structure into diary-like items. org + ability to parse!
+** STRT bring more structure into diary-like items. org + ability to parse!
 :PROPERTIES:
 :ID:       brngmrstrctrntdrylktmsrgbltytprs
 :END:
@@ -228,7 +228,7 @@ https://github.com/theopolisme/location-history-visualizer
 :CREATED:  [2018-10-01]
 :ID:       nddffrntlyrsrsmthnggdsplylctnmscrsctmnprlll
 :END:
-* START [#B] add promnesia as source                              :promnesia:
+* STRT [#B] add promnesia as source                               :promnesia:
 :PROPERTIES:
 :CREATED:  [2018-10-02]
 :ID:       ddprmnsssrc
@@ -310,7 +310,7 @@ https://github.com/jasonrudolph/stratify
 :CREATED:  [2019-12-31]
 :ID:       hghlghtprsnlntsssmrllydstnctvclr
 :END:
-* START [#C] topcoder and codeforces stats
+* STRT [#C] topcoder and codeforces stats
 :PROPERTIES:
 :CREATED:  [2019-02-02]
 :ID:       tpcdrndcdfrcsstts
@@ -324,7 +324,7 @@ https://github.com/jasonrudolph/stratify
 :ID:       gtscdfrcscmpsrrtnghndlgrsmvd
 :END:
 http get 'https://codeforces.com/api/contest.list' | pp_json > contests-20190404.json
-* START [#C] direct link to the org note (e.g. if I want to edit it)
+* STRT [#C] direct link to the org note (e.g. if I want to edit it)
 :PROPERTIES:
 :CREATED:  [2018-08-26]
 :ID:       drctlnktthrgntgfwnttdtt
@@ -344,13 +344,13 @@ could implement in my org provider...
 :CREATED:  [2018-10-27]
 :ID:       spltbyslpsrthrthnclndrdys
 :END:
-* START [#C] quite slow on android... maybe worth rendering separate timelines too..
+* STRT [#C] quite slow on android... maybe worth rendering separate timelines too..
 :PROPERTIES:
 :CREATED:  [2018-09-17]
 :ID:       qtslwnndrdmybwrthrndrngsprttmlnst
 :END:
 ok, for now splitting by year is probably ok
-* START [#C] Kindle notes should def be part of timeline                :hpi:
+* STRT [#C] Kindle notes should def be part of timeline                 :hpi:
 :PROPERTIES:
 :CREATED:  [2018-08-29]
 :ID:       kndlntsshlddfbprtftmln
@@ -380,12 +380,12 @@ ok, needs fuzzy matching dates (e.g. Added on Thursday, May 31, 2018 2:04:36 AM)
 :CREATED:  [2018-08-27]
 :ID:       mybcrtdrgtds
 :END:
-* START [#C] support notes without time? e.g. if we received date instead of datetime. or map to a certain time? ...
+* STRT [#C] support notes without time? e.g. if we received date instead of datetime. or map to a certain time? ...
 :PROPERTIES:
 :CREATED:  [2018-08-30]
 :ID:       spprtntswthttmgfwrcvddtnstdfdttmrmptcrtntm
 :END:
-* START [#C] hmm, could try mounting takeout zip? and remount when later available (maybe even inotify) https://bitbucket.org/agalanin/fuse-zip
+* STRT [#C] hmm, could try mounting takeout zip? and remount when later available (maybe even inotify) https://bitbucket.org/agalanin/fuse-zip
 :PROPERTIES:
 :CREATED:  [2018-08-28]
 :ID:       hmmcldtrymntngtktzpndrmntybvnntfysbtbcktrgglnnfszp
@@ -404,7 +404,7 @@ ok, needs fuzzy matching dates (e.g. Added on Thursday, May 31, 2018 2:04:36 AM)
 :CREATED:  [2018-09-08]
 :ID:       mrkcnmwthtgndcnmvstsspcfclly
 :END:
-* START [#C] feedly
+* STRT [#C] feedly
 :PROPERTIES:
 :CREATED:  [2018-10-02]
 :ID:       fdly
@@ -415,7 +415,7 @@ https://developer.feedly.com/v3/markers/#mark-one-or-multiple-articles-as-saved 
 :PROPERTIES:
 :ID:       nclrfrmthpftspssbltxtrctwhnsmthngwsrd
 :END:
-* START [#C] most important things are: geo location, coding commits/activity, meals eaten, exercise
+* STRT [#C] most important things are: geo location, coding commits/activity, meals eaten, exercise
 :PROPERTIES:
 :CREATED:  [2018-06-28]
 :ID:       mstmprtntthngsrglctncdngcmmtsctvtymlstnxrcs
@@ -430,7 +430,7 @@ https://developer.feedly.com/v3/markers/#mark-one-or-multiple-articles-as-saved 
 :CREATED:  [2018-10-06]
 :ID:       svdfrmggltkt
 :END:
-* START [#C] Track reddit subscriptions. Wonder if they are somewhere historically in api?? :reddit:hpi:
+* STRT [#C] Track reddit subscriptions. Wonder if they are somewhere historically in api?? :reddit:hpi:
 :PROPERTIES:
 :CREATED:  [2018-08-30]
 :ID:       trckrddtsbscrptnswndrfthyrsmwhrhstrcllynp
@@ -470,7 +470,7 @@ https://developer.feedly.com/v3/markers/#mark-one-or-multiple-articles-as-saved 
 :CREATED:  [2019-02-26]
 :ID:       ctllymyctvtygtltfdt
 :END:
-* START [#C] Split by quarters? Or find Android optimization tips
+* STRT [#C] Split by quarters? Or find Android optimization tips
 :PROPERTIES:
 :CREATED:  [2019-04-03]
 :ID:       spltbyqrtrsrfndndrdptmztntps
@@ -499,7 +499,7 @@ https://developer.feedly.com/v3/markers/#mark-one-or-multiple-articles-as-saved 
 :CREATED:  [2019-06-17]
 :ID:       hmmfdntkpthntrybfrchngdntgtrlbltmstmp
 :END:
-* START [#C] trying to speed up static html
+* STRT [#C] trying to speed up static html
 :PROPERTIES:
 :CREATED:  [2019-07-06]
 :ID:       tryngtspdpsttchtml
@@ -525,7 +525,7 @@ https://pouchdb.com/
 : PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser.
 : PouchDB was created to help web developers build applications that work as well offline as they do online.
 : It enables applications to store data locally while offline, then synchronize it with CouchDB and compatible servers when the application is back online, keeping the user's data in sync no matter where they next login.
-** START [2019-08-18] hmm. could use for timeline? If it keeps items in database, then I can just rely on it and implement pagination?
+** STRT [2019-08-18] hmm. could use for timeline? If it keeps items in database, then I can just rely on it and implement pagination?
 :PROPERTIES:
 :ID:       hmmcldsfrtmlnftkpstmsndtbhncnjstrlyntndmplmntpgntn
 :END:
@@ -543,7 +543,7 @@ https://pouchdb.com/
 :CREATED:  [2019-08-21]
 :ID:       bttrsrchdfndprprndxng
 :END:
-* START [#C] [2019-08-18] API Reference                               :infra:
+* STRT [#C] [2019-08-18] API Reference                                :infra:
 :PROPERTIES:
 :ID:       prfrnc
 :END:
@@ -686,11 +686,11 @@ Planned meals, holidays etc
 :CREATED:  [2018-07-21]
 :ID:       llmyvkcmmnts
 :END:
-* START [#D] integrate rescuetime into timeline. maybe get_activity_intervals or something? :hpi:
+* STRT [#D] integrate rescuetime into timeline. maybe get_activity_intervals or something? :hpi:
 :PROPERTIES:
 :ID:       ntgrtrsctmnttmlnmybgtctvtyntrvlsrsmthng
 :END:
-* START [#D] extract old sleep from jawbone (I must have files to parse it somewhere)
+* STRT [#D] extract old sleep from jawbone (I must have files to parse it somewhere)
 :PROPERTIES:
 :CREATED:  [2018-09-16]
 :ID:       xtrctldslpfrmjwbnmsthvflstprstsmwhr

@@ -63,7 +63,7 @@ integral k comes because of periodicity of unit circle, if it was R, it would be
 
 
 
-* START [2018-09-05] Woit book is quite elaborate. Ugh, it's all very hard :(
+* STRT [2018-09-05] Woit book is quite elaborate. Ugh, it's all very hard :(
 :PROPERTIES:
 :ID:       wtbksqtlbrtghtsllvryhrd
 :END:
@@ -76,7 +76,7 @@ ok, still unclear what is spin 0. it shouldn't change under coordinate transform
 :PROPERTIES:
 :ID:       smnnttnsnplr
 :END:
-** START [2019-01-20] chapter 5. .. skipped it for now
+** STRT [2019-01-20] chapter 5. .. skipped it for now
 :PROPERTIES:
 :ID:       chptrskppdtfrnw
 :END:
@@ -86,7 +86,7 @@ ok, still unclear what is spin 0. it shouldn't change under coordinate transform
 :END:
 and Sp(1) = SU(2)
 SO(3) is kinda like S^3 but with opposite points of the sphere identified
-** START [2019-01-23]  chapter 10.2.1
+** STRT [2019-01-23]  chapter 10.2.1
 :PROPERTIES:
 :ID:       chptr
 :END:
@@ -98,7 +98,7 @@ i h d/dt |psi> = H |psi>
 :PROPERTIES:
 :ID:       s
 :END:
-** START Representation theory of SU(2) - Wikipedia
+** STRT Representation theory of SU(2) - Wikipedia
 :PROPERTIES:
 :CREATED:  [2018-09-03]
 :ID:       rprsnttnthryfswkpd
@@ -355,7 +355,7 @@ http://math.ucr.edu/home/baez/qg-fall2008/lie1.pdf
 
 lie algebras describe rate of change of element of lie group, they are not wrapping around!
 
-* START lie groups course                                       :lie:physics:
+* STRT lie groups course                                        :lie:physics:
 :PROPERTIES:
 :CREATED:  [2018-08-26]
 :ID:       lgrpscrs
@@ -368,7 +368,7 @@ eh, can't say I understood much...
 https://math.stackexchange.com/a/1823425/15108 -- so(3) are skew symmetric matrices
 
 
-** START Brian Hall Lie groups lie algebras and representations (Baez recommendation)
+** STRT Brian Hall Lie groups lie algebras and representations (Baez recommendation)
 :PROPERTIES:
 :ID:       brnhlllgrpsllgbrsndrprsnttnsbzrcmmndtn
 :END:
@@ -381,7 +381,7 @@ SO is subgroup of O
 UGH . stuck here. too sleepy I suppose.
 
 
-** START Fulton representation theory (Baez recommended)
+** STRT Fulton representation theory (Baez recommended)
 :PROPERTIES:
 :ID:       fltnrprsnttnthrybzrcmmndd
 :END:
@@ -425,7 +425,7 @@ In the language of manifolds, the generators are the elements of the tangent spa
 :END:
 
 
-* START going through liegroups.pdf file:study/reprtheory/liegroups.pdf
+* STRT going through liegroups.pdf file:study/reprtheory/liegroups.pdf
 :PROPERTIES:
 :ID:       gngthrghlgrpspdfflstdyrprthrylgrpspdf
 :END:

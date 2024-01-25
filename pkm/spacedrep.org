@@ -92,7 +92,7 @@ https://twitter.com/michael_nielsen/status/1204079371339698177
 :ID:       nkvssprmm
 :END:
 : Basically what you have said. Everything are disadvantages but maybe the algorithm. However, I think Anki's algorithm is based on Supermemo's algorithm, it is just that it is not based on the most recent but Anki's and Supermemo's are very similar. There is no reason why someone would use Supermemo instead of Anki. All that said, I use Supermemo and Anki, because I think the few free decks for languages Supermemo have are quite great and there is no way to export them so I use Supermemo with some of these decks but Anki for everything else.
-* START spaced repetition                                         :spacedrep:
+* STRT spaced repetition                                          :spacedrep:
 :PROPERTIES:
 :ID:       spcdrpttn
 :END:
@@ -108,7 +108,7 @@ https://twitter.com/michael_nielsen/status/1204079371339698177
 :PROPERTIES:
 :ID:       mmrsppfrlrnnggrmn
 :END:
-** START org drill
+** STRT org drill
 :PROPERTIES:
 :ID:       rgdrll
 :END:

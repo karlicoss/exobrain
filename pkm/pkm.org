@@ -1784,7 +1784,7 @@ https://hckrnews.com
 
 : I've been prefixing all my searches with reddit and then filtering by within last month or last year, and something seems to have changed lately. The reddit results say some number of days within the time constraint, but then the result is actually years old which makes it all pointless. This is literally the only way I search google right now because their results are so spammy otherwise.
 
-* START [#C] [2019-06-23] Resorting Media Ratings - Gwern.net
+* STRT [#C] [2019-06-23] Resorting Media Ratings - Gwern.net
 :PROPERTIES:
 :ID:       rsrtngmdrtngsgwrnnt
 :END:

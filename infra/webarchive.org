@@ -23,7 +23,7 @@
 : 
 : One may be reluctant to go this far, and prefer something lighter-weight, such as periodically extracting a list of visited URLs from one’s web browser and then attempting to archive them.
 
-*** START [2018-11-05] just backup everything you can find in promnesia? :promnesia:
+*** STRT [2018-11-05] just backup everything you can find in promnesia? :promnesia:
 :PROPERTIES:
 :ID:       jstbckpvrythngycnfndnprmns
 :END:
