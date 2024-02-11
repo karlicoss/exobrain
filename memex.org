@@ -222,6 +222,10 @@ Some existing communities:
 :PROPERTIES:
 :ID:       bldngblcksndnfrstrctr
 :END:
+** [#B] [[file:soft/maps.org][exobrain page on maps software]]
+:PROPERTIES:
+:ID:       flsftmpsrgxbrnpgnmpssftwr
+:END:
 ** STRT [#B] for IM interface, could use some open source messaging infra capable of fully offline sync? :memex:
 :PROPERTIES:
 :CREATED:  [2022-08-22]
@@ -235,10 +239,6 @@ Some existing communities:
 shit.. seems that Element isn't really able to cache all messages offline
 sigh..
 tbh something with Telegram UI would be perfect
-** [#B] [2021-06-15] [[https://lyz-code.github.io/blue-book/projects/#self-hosted-map][The Blue Book: self hosted map]] :maps:memex:
-:PROPERTIES:
-:ID:       slyzcdgthbblbkprjctsslfhstdmpthblbkslfhstdmp
-:END:
 ** TODO [#B] [2021-04-16] [[https://lobste.rs/s/tsh0jq/sqlite_only_database_you_will_ever_need][SQLite the only database you will ever need in most cases | Lobsters]] :location:sqlite:
 :PROPERTIES:
 :ID:       slbstrsstshjqsqltnlydtbsydtbsywllvrndnmstcsslbstrs

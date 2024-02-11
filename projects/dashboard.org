@@ -1505,13 +1505,14 @@ some screenshots
 :ID:       sgthbcmphtprsmphtprsmphtpmngmntpwrdbygndggltnsrflw
 :END:
 looks good -- I guess need to evaluate on the basis of whether I can share it?
-* TODO [#B] [2021-03-05] [[https://blog.kevinlin.info/post/introducing-orion-a-powerful-substitute-for-owntracks-recorder/][Introducing Orion: A Powerful Substitute for OwnTracks Recorder - Blog - Kevin Lin]] :location:HPI:dashboard:
+* TODO [#C] [2021-03-05] [[https://blog.kevinlin.info/post/introducing-orion-a-powerful-substitute-for-owntracks-recorder/][Introducing Orion: A Powerful Substitute for OwnTracks Recorder - Blog - Kevin Lin]] :location:HPI:dashboard:
 :PROPERTIES:
 :ID:       sblgkvnlnnfpstntrdcngrnpwtttfrwntrcksrcrdrblgkvnln
 :END:
 : orion-web provides a fast, interactive, React-based data visualization frontend for the web, powered by deck.gl
 
 whoa ok, this is pretty awesome
+- [2024-01-28] hmm, looks like main repo was archived without explanation?
 * STRT [#B] [2019-09-30] Jupyter notebooks on steroids      :dashboard:ipynb:
 :PROPERTIES:
 :ID:       jpytrntbksnstrds

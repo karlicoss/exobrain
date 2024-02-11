@@ -142,11 +142,13 @@
   - [[file:soft/dictation.org][Dictation/speech recognition]]
   - [[file:soft/emacs.org][Emacs]]
   - [[file:soft/git.org][git]]
+  - [[file:soft/maps.org][Map software]]
   - [[file:soft/orgparse.org][Orgparse]]
   - [[file:soft/shell.org][Shell concepts]]
   - [[file:soft/vim.org][vim]]
 - sport
   - [[file:sport/climbing.org][Climbing]]
+  - [[file:sport/skateboard.org][Skateboard/Surfskate]]
 - study
   - [[file:study/learning.org][Learning: meta]]
   - [[file:study/study-misc.org][study-misc]]

@@ -1,0 +1,180 @@
+#+title: Map software
+#+filetags: maps
+
+* related
+:PROPERTIES:
+:ID:       rltd
+:END:
+** .                                                               :location:
+:PROPERTIES:
+:END:
+** .                                                               :degoogle:
+:PROPERTIES:
+:END:
+
+
+* [#A] Why google maps (and most common maps providers) suck       :sadinfra:
+:PROPERTIES:
+:ID:       whygglmpsndmstcmmnmpsprvdrssck
+:END:
+** [#B] [2022-10-30] [[https://twitter.com/karlicoss/status/1586806541839224834][my twitter rant on map software]]
+:PROPERTIES:
+:ID:       stwttrcmkrlcsssttsmytwttrrntnmpsftwr
+:END:
+: Is there an apps/tool for maps that allows you to hide specific places/types from the maps forever? So I get to display more potentially interesting places for me.
+: E.g. I almost never need car parks/schools/churches etc on maps, but they are displayed and take up precious space.
+: similarly, I want something like a news feed for changes on maps in my local area so I could find out about new places
+: The whole thing just makes me so angry, google maps sits on the user-provided data while exposing very primitive and shitty apis. Obviously only fuzzy queries too (so they can maximize their potential for ranking/ads).
+: This shit is what makes me a proponent of regulations in tech
+: But also it's all pretty depressing, I don't see any efforts by other people to build similar tools, and I'm just discouraged to do anything, I don't have fucking time 😭
+: We ended up with a bunch of shitty siloed fuzzy algorithmic tools and everyone is mostly fine with it
+: Like, how are we going to build a metaverse if we don't even have a representation of our current physical reality (or even your own flat) in a database??
+
+** [2022-04-04] [[https://twitter.com/djmicrobeads/status/1511004541470355470][djm (healthy, normal) on Twitter: "oh apparently google maps removed the schedule explorer consistently impressed by google's commitment to making their products worse]]
+:PROPERTIES:
+:ID:       stwttrcmdjmcrbdssttsdjmhlscmmtmnttmkngthrprdctswrs
+:END:
+: oh apparently google maps removed the schedule explorer
+: consistently impressed by google's commitment to making their products worse
+
+* [#B] some things I want from maps
+:PROPERTIES:
+:ID:       smthngswntfrmmps
+:END:
+** TODO [#A] implement automatic notifications about places in google maps/osm in my area
+:PROPERTIES:
+:CREATED:  [2022-07-03]
+:ID:       mplmnttmtcntfctnsbtplcsngglmpssmnmyr
+:END:
+* [#B] Alternative maps
+:PROPERTIES:
+:ID:       ltrntvmps
+:END:
+** [#B] [2020-07-20] [[https://en.mapy.cz/zakladni?x=-0.0200000&y=51.5064000&z=11][Mapy.cz]]
+:PROPERTIES:
+:ID:       snmpyczzkldnxyzmpycz
+:END:
+** [#B] [2019-04-17] [[https://reddit.com/r/Maps/comments/be3p32/alternative_to_google_maps/el32dfa/][Alternative to Google Maps?]] /r/Maps :degoogle:
+:PROPERTIES:
+:ID:       srddtcmrmpscmmntsbpltrntvglmpsldfltrntvtgglmpsrmps
+:END:
+:  We on /r/openstreetmap made a list of websites that use OSM data. Maybe some of them are useful for you:
+:  **Maps**
+:  * [OpenTopoMap](https://opentopomap.org) - same as above, Topographic map, has contour lines
+:  * [Waymarked Trails - Hiking](https://hiking.waymarkedtrails.org/) - Hiking trails, "clickable", .gpx Download, background can be changed to OpenTopoMap
+:  * [Waymarked Trails - Cycling](https://cycling.waymarkedtrails.org/) - same as above for cycle ways
+:  * [OpenSeaMap](http://map.openseamap.org/) -  free nautical database
+:  * [OpenRailwayMap](http://www.openrailwaymap.org/) - the worlds railway infrastructure on one map
+:  * [OpenCycleMap](http://opencyclemap.org) - map made for cyclists, highlights cycle routes and pubs :D
+:  * [Flosm](http://www.flosm.de/en/poimap.html) - search through informations (opening hours, telephone number...) of a lot of POIs on OpenStreetMap, see list on the left
+:  * [F4 map](http://demo.f4map.com/) and [OSMbuildings](https://osmbuildings.org/) - both show map in 3D
+:  * [LiveMap24](http://livemap24.com) - see public transport in realtime, clickable, uses open data from public transport services
+:  * [WheelMap](http://wheelmap.org) - shows the wheelchair accessibility
+:  * [Historic Maps](http://gk.historic.place/historische_objekte/translate/en/index-en.html) - a map that combines OpenStreetMap with Wikipedia, shows historic objects and old maps as overlay
+:  * [uMap](http://umap.Openstreetmap.fr) - save markers, lines and shapes on different map styles, example: [Map from /r/Castles](http://u.osmfr.org/m/56578/)
+:  * [ÖPNV-Karte](https://www.öpnvkarte.de) - a visualisation of the mapped public transport in OSM
+: 
+:  **Apps (all work offline)**
+:  * [OsmAnd](http://osmand.net/) - very advanced but strange GUI, shows public transport and hiking symbols, opening hours, etc, has routing, downloads offline wikipedia articles to objects, Android and iOS (less functions)
+:  * [Maps.me](http://maps.me/en/home) - fast, easy tool, no hiking tools, elementary routing, free, Android and iOS
+:  * [Locus Map](http://www.locusmap.eu/) - different map sources (also non-OSM like SwissOrdonance), has routing, Android only
+:  * [OruxMaps](http://www.oruxmaps.com/cs/en) - Map and sports tracker, can also connect with different bluetooth devices, Android
+:  * List of apps for [Android](http://wiki.openstreetmap.org/wiki/Android) and [iOS](http://wiki.openstreetmap.org/wiki/Apple_iOS)
+: 
+:  **Routing Services**
+: 
+:  * [OpenRouteService](https://openrouteservice.org/directions?a=null,null,null,null&b=0&c=0&k1=en-US&k2=km) - car, cycle and pedestrian routing with a lot of options, shows surface and type of used roads
+:  * [Brouter Web](http://brouter.de/brouter-web/) - fast router,shows height profile,  where routing table can be changed by yourself
+:  * [GPSies](http://www.gpsies.com/createTrack.do) - create tours for different transport modes, press "follow roads" to get routing feature, elevation profile, lot of map layers
+:  * [Kurviger](https://kurviger.de/) - a route planner that prefers curvy roads and slopes, but avoid cities and highways, automatic round trips based on a given length
+:  * [Cycle.travel](http://cycle.travel/map) - a map made for cyclists, which has a routing and roundtrip feature, created by /u/doctor_fegg
+: 
+: 
+:  **Printing OpenStreetMap Maps**
+: 
+:  * [MapOSMatic](https://maposmatic.osm-baustelle.de/) - printable atlases and single paper up to A0, lot of different map styles and overlays (like Waymarked Trails), free
+:  * [Field papers](http://fieldpapers.org) - create an atlas yourself with different map styles,
+:  * [Inkatlas](https://inkatlas.com/) - different styles, up to 6 pages A4 for free
+: 
+:  **Advanced/Other OSM based services**
+: 
+:  * [Overpass Turbo](http://overpass-turbo.eu/s/pWM) - web based data mining tool for OpenStreetMap, linked is an example for cycle shops in Berlin
+:  * [MapCompare](http://tools.geofabrik.de/mc/) - compare different map sources (Google, OSM, Here, Satellite data) with each other
+:  * [OpenInfraMap](https://openinframap.org/)  - view of the world's hidden infrastructure (power lines, petroleum and water)
+:  * [Mapillary](https://mapillary.com) - an open-source Streetview-Version you can contribute to
+:  * [Peakfinder](https://www.peakfinder.org/en/) - shows all all surrounding peaks from the given point also available as app
+:  * [OpenFireMap](http://openfiremap.org/) - map with all the fire houses and hydrants in OSM
+:  * [Node Density](https://tyrasd.github.io/osm-node-density) - How dense is the OpenStreetMap database?
+:  * [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) - Wiki of the OSM project
+
+* [#B] Android apps
+:PROPERTIES:
+:ID:       ndrdpps
+:END:
+** TODO [#D] StreetComplete (OpenStreetMap surveyor app) https://github.com/westnordost/StreetComplete :osm:
+:PROPERTIES:
+:CREATED:  [2018-05-16]
+:ID:       strtcmpltpnstrtmpsrvyrppsgthbcmwstnrdststrtcmplt
+:END:
+- https://f-droid.org/app/de.westnordost.streetcomplete
+
+** TODO [#C] [2021-12-21] [[https://organicmaps.app/][Organic Maps: Offline Hike, Bike, Trails and Navigation]]
+:PROPERTIES:
+:ID:       srgncmpspprgncmpsfflnhkbktrlsndnvgtn
+:END:
+recommended by privacytoolsio?
+
+** STRT [#B] [2021-03-27] [[https://github.com/grote/Transportr][grote/Transportr: Free Public Transport Assistant without Ads or Tracking]] (for Android)
+:PROPERTIES:
+:ID:       sgthbcmgrttrnsprtrgrttrnsssstntwthtdsrtrckngfrndrd
+:END:
+hmm doesn't really work in London?
+
+
+** [#D] [2020-07-31] https://wiki.openstreetmap.org/wiki/StreetComplete :osm:
+:PROPERTIES:
+:ID:       swkpnstrtmprgwkstrtcmplt
+:END:
+* [#C] openstreetmap                                                    :osm:
+:PROPERTIES:
+:ID:       pnstrtmp
+:END:
+** TODO [#B] [2022-07-21] [[https://github.com/osmlab/awesome-openstreetmap#readme][Curated list of awesome OpenSteetMap-projects]] :infra:
+:PROPERTIES:
+:ID:       sgthbcmsmlbwsmpnstrtmprdmcrtdlstfwsmpnsttmpprjcts
+:END:
+APIs and libraries section is quite interesting
+** [#C] [2021-02-10] [[https://news.ycombinator.com/item?id=26082428][OpenStreetMap proven to be a highly accurate map in top US cities]]
+:PROPERTIES:
+:ID:       snwsycmbntrcmtmdpnstrtmpprvntbhghlyccrtmpntpscts
+:END:
+https://eng.lyft.com/how-lyft-discovered-openstreetmap-is-the-freshest-map-for-rideshare-a7a41bf92ec
+* [#C] Other (specialized) maps
+:PROPERTIES:
+:ID:       thrspclzdmps
+:END:
+** [2020-07-13] [[https://opentopomap.org][OpenTopoMap - topographic map out of data from OpenStreetMap]] :osm:
+:PROPERTIES:
+:ID:       spntpmprgpntpmptpgrphcmptfdtfrmpnstrtmp
+:END:
+* [#D] Links dump
+:PROPERTIES:
+:ID:       lnksdmp
+:END:
+** TODO [#B] [2021-11-11] [[https://lyz-code.github.io/blue-book/map_management/][Map management - The Blue Book]]
+:PROPERTIES:
+:ID:       slyzcdgthbblbkmpmngmntmpmngmntthblbk
+:END:
+** [#B] [2021-06-15] [[https://lyz-code.github.io/blue-book/projects/#self-hosted-map][The Blue Book: self hosted map]] :selfhosted:
+:PROPERTIES:
+:ID:       slyzcdgthbblbkprjctsslfhstdmpthblbkslfhstdmp
+:END:
+** [#D] [2021-08-15] [[https://github.com/alyssaxuu/mapus][alyssaxuu/mapus: A map tool with real-time collaboration 🗺️]]
+:PROPERTIES:
+:ID:       sgthbcmlyssxmpslyssxmpsmptlwthrltmcllbrtn
+:END:
+- [2024-01-29] hasn't been updated for 2 years
+*** TODO [#C] [2021-10-26] might be relevant to                         :hpi:
+:PROPERTIES:
+:ID:       mghtbrlvntt
+:END:

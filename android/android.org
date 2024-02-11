@@ -127,12 +127,6 @@ listened some music, used phone a bit but not much since basically at home
 :PROPERTIES:
 :ID:       sfsfrgctvtsndrdlbrtnhtmllbrtyrdvcfryrndrdfsf
 :END:
-* STRT [#B] [2021-03-27] [[https://github.com/grote/Transportr][grote/Transportr: Free Public Transport Assistant without Ads or Tracking]] :maps:
-:PROPERTIES:
-:ID:       sgthbcmgrttrnsprtrgrttrnsrnsprtssstntwthtdsrtrckng
-:END:
-hmm doesn't really work in londong?
-
 * TODO [#A] [2021-05-09] [[https://android.stackexchange.com/questions/197959/why-partition-gets-unmounted-automatically-after-some-time][sd card - Why partition gets unmounted automatically after some time? - Android Enthusiasts Stack Exchange]] :android:
 :PROPERTIES:
 :ID:       sndrdstckxchngcmqstnswhyprsmtmndrdnthsstsstckxchng

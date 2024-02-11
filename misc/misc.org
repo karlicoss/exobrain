@@ -1029,11 +1029,6 @@ Also point that allowing some 'moral' restrictions (seemingly arbitrary) can lea
 :ID:       swwwdbcmcntntdmcmndvntpdfdfrfrncthrddtnpdfrfrncpdf
 :END:
 useful for decoding, e.g. for pdfannots
-* [#C] [2021-02-10] [[https://news.ycombinator.com/item?id=26082428][OpenStreetMap proven to be a highly accurate map in top US cities]] :maps:degoogle:
-:PROPERTIES:
-:ID:       snwsycmbntrcmtmdpnstrtmpprvntbhghlyccrtmpntpscts
-:END:
-https://eng.lyft.com/how-lyft-discovered-openstreetmap-is-the-freshest-map-for-rideshare-a7a41bf92ec
 * [#C] [2021-03-16] [[https://en.wikipedia.org/wiki/Zero-risk_bias][Zero-risk bias - Wikipedia]]
 :PROPERTIES:
 :ID:       snwkpdrgwkzrrskbszrrskbswkpd
@@ -1336,10 +1331,6 @@ https://trello.com/c/k7hu7UAH/82-create-lists-to-follow-certain-people-on-github
 
 https://www.youtube.com/watch?v=lfo8XHGFAIQ
 
-* [#D] [2020-07-31] https://wiki.openstreetmap.org/wiki/StreetComplete :maps:osm:
-:PROPERTIES:
-:ID:       swkpnstrtmprgwkstrtcmplt
-:END:
 * [#D] [2019-12-02] John Carlos Baez on Twitter: "Can we actually remove carbon dioxide from the air? Yes! Can we remove enough to make a difference? Yes! But what are the best ways, and how much can they accomplish? I explain that in my new article in Nautilus, an online science magazine: https://t.co/y4rQjKvm5J" / Twitter
 :PROPERTIES:
 :ID:       jhncrlsbzntwttrcnwctllyrmnscncmgznstcyrqjkvmjtwttr
@@ -2244,10 +2235,6 @@ from The Metamorphosis of Prime Intellect by Roger Williams
 * https://github.com/randyrants/sharpkeys/releases to remap caps to esc :windows:setup:
 :PROPERTIES:
 :ID:       sgthbcmrndyrntsshrpkysrlsstrmpcpstsc
-:END:
-* [2020-07-13] [[https://opentopomap.org/#map=11/53.1700/-1.6589][OpenTopoMap - Topographische Karten aus OpenStreetMap]] :maps:
-:PROPERTIES:
-:ID:       spntpmprgmppntpmptpgrphschkrtnspnstrtmp
 :END:
 * [2020-09-16] [[https://en.wikipedia.org/wiki/Jonny_Lee_Miller][Jonny Lee Miller - Wikipedia]]
 :PROPERTIES:

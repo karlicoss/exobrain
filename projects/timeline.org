@@ -944,7 +944,7 @@ plus, exclude periods when there are too many dates saved -- would probably mean
 :CREATED:  [2019-02-26]
 :ID:       lclcchfddrlsgfrtmlnmghtbnvrkllthgh
 :END:
-* STRT [#D] Could import my 4sq stuff into maps.me?   :timeline:osm:photomap:
+* STRT [#D] Could import my 4sq stuff into maps.me?  :timeline:maps:photomap:
 :PROPERTIES:
 :CREATED:  [2018-06-01]
 :ID:       cldmprtmysqstffntmpsm
